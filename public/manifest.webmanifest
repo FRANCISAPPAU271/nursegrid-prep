@@ -1,0 +1,32 @@
+{
+  "name": "NurseGrid Prep — NCLEX Task Manager",
+  "short_name": "NurseGrid Prep",
+  "description": "Task manager and 10,000-question NCLEX prep bank for student nurses, with rationales and test-taking strategies.",
+  "start_url": "/dashboard?source=pwa",
+  "id": "/dashboard",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f8fafc",
+  "theme_color": "#059669",
+  "categories": ["education", "medical", "productivity"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Practice questions",
+      "short_name": "Practice",
+      "url": "/dashboard/questions/practice",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Tasks",
+      "short_name": "Tasks",
+      "url": "/dashboard/tasks",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

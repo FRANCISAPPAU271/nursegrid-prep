@@ -1,0 +1,464 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import type { Invoice, Subscription } from "@/lib/types";
+import Modal from "@/components/ui/Modal";
+import { useToast } from "@/components/ui/Toast";
+import { useRouter, useSearchParams } from "next/navigation";
+import { MOMO_RECEIVER_NUMBER, MOMO_RECEIVER_NAME, approxGhsAmount } from "@/lib/momo";
+
+const PRICE_CENTS = 500;
+const PRICE_LABEL = "$5.00";
+
+function money(cents: number) {
+  return `$${(cents / 100).toFixed(2)}`;
+}
+
+function fmt(d: string | null) {
+  if (!d) return "—";
+  return new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", year: "numeric" }).format(new Date(d));
+}
+
+function paymentMethodLabel(method: "card" | "mtn_momo") {
+  return method === "mtn_momo" ? "MTN Mobile Money" : "Visa Card";
+}
+
+export default function BillingPanel({
+  isPremium,
+  premiumTrialEndsAt,
+  subscriptions,
+  invoices,
+  stripeEnabled,
+}: {
+  isPremium: boolean;
+  premiumTrialEndsAt: string | null;
+  subscriptions: Subscription[];
+  invoices: Invoice[];
+  stripeEnabled: boolean;
+}) {
+  const [pickerOpen, setPickerOpen] = useState(false);
+  const [cardModalOpen, setCardModalOpen] = useState(false);
+  const [momoModalOpen, setMomoModalOpen] = useState(false);
+  const [redirecting, setRedirecting] = useState(false);
+  const toast = useToast();
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  const activeSub = subscriptions.find((s) => s.status === "active") ?? null;
+  const isTrialOnly = isPremium && !activeSub && premiumTrialEndsAt;
+
+  useEffect(() => {
+    const checkout = searchParams.get("checkout");
+    const sessionId = searchParams.get("session_id");
+    if (checkout === "success" && sessionId) {
+      fetch(`/api/billing/stripe/confirm?session_id=${encodeURIComponent(sessionId)}`)
+        .then((res) => res.json())
+        .then((data) => {
+          if (data.ok) {
+            toast.push("Payment successful — full access unlocked!", "success");
+            router.replace("/dashboard/billing");
+            router.refresh();
+          } else {
+            toast.push("We couldn't confirm your payment yet. Please refresh in a moment.", "error");
+          }
+        })
+        .catch(() => toast.push("We couldn't confirm your payment yet. Please refresh in a moment.", "error"));
+    } else if (checkout === "cancelled") {
+      toast.push("Checkout cancelled — no charge was made.", "info");
+      router.replace("/dashboard/billing");
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchParams]);
+
+  async function startStripeCheckout() {
+    setRedirecting(true);
+    try {
+      const res = await fetch("/api/billing/stripe/checkout", { method: "POST" });
+      const data = await res.json();
+      if (!res.ok || !data.url) throw new Error(data.error ?? "Unable to start checkout");
+      window.location.href = data.url;
+    } catch (err) {
+      toast.push(err instanceof Error ? err.message : "Unable to start checkout", "error");
+      setRedirecting(false);
+    }
+  }
+
+  function chooseVisa() {
+    setPickerOpen(false);
+    if (stripeEnabled) {
+      startStripeCheckout();
+    } else {
+      setCardModalOpen(true);
+    }
+  }
+
+  function chooseMomo() {
+    setPickerOpen(false);
+    setMomoModalOpen(true);
+  }
+
+  return (
+    <div className="space-y-8">
+      {!stripeEnabled && (
+        <div className="rounded-xl border border-dashed border-slate-300 bg-slate-50 px-4 py-3 text-xs text-slate-500">
+          Card payments are running in demo checkout mode. Add a <code className="rounded bg-slate-200 px-1 py-0.5">STRIPE_SECRET_KEY</code>{" "}
+          environment variable to accept real Visa/card payments via Stripe Checkout — no code changes needed.
+        </div>
+      )}
+
+      {isTrialOnly && (
+        <div className="rounded-2xl border border-amber-200 bg-amber-50 p-5">
+          <p className="text-sm font-bold text-amber-800">🎁 Free premium trial active</p>
+          <p className="mt-1 text-sm text-amber-700">
+            You have free premium access from referral rewards until {fmt(premiumTrialEndsAt)}. Make the one-time $5 payment anytime to keep
+            lifetime access after it ends.
+          </p>
+        </div>
+      )}
+
+      <div className={`rounded-2xl border p-5 ${isPremium ? "border-emerald-200 bg-emerald-50" : "border-slate-200 bg-white"}`}>
+        <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-center">
+          <div>
+            <p className="text-sm font-semibold text-slate-500">Current plan</p>
+            <p className="mt-1 text-lg font-extrabold text-slate-950">
+              {isPremium ? `Full Access${activeSub ? ` · via ${paymentMethodLabel(activeSub.paymentMethod)}` : " · free trial"}` : "Free"}
+            </p>
+            {activeSub && (
+              <p className="mt-1 text-sm text-slate-600">One-time payment — lifetime access, no recurring charges.</p>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {!isPremium || !activeSub ? (
+        <div className="rounded-2xl border border-emerald-200 bg-white p-6 shadow-sm sm:p-8">
+          <div className="flex flex-col items-start gap-6 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <span className="rounded-full bg-emerald-100 px-3 py-1 text-xs font-bold uppercase tracking-wide text-emerald-700">
+                One-time payment
+              </span>
+              <h2 className="mt-3 text-3xl font-extrabold text-slate-950">
+                {PRICE_LABEL} <span className="text-base font-medium text-slate-500">— pay once, own it forever</span>
+              </h2>
+              <ul className="mt-4 space-y-1.5 text-sm text-slate-600">
+                <li>✅ Unlimited access to all 10,000 NCLEX-style questions</li>
+                <li>✅ Full rationales and test-taking strategy tips</li>
+                <li>✅ Progress tracking across every category</li>
+                <li>✅ No subscription, no recurring charges, ever</li>
+              </ul>
+            </div>
+            <button
+              onClick={() => setPickerOpen(true)}
+              disabled={redirecting}
+              className="w-full shrink-0 rounded-xl bg-emerald-600 px-6 py-3.5 text-base font-bold text-white shadow-lg shadow-emerald-200 hover:bg-emerald-700 disabled:opacity-70 sm:w-auto"
+            >
+              {redirecting ? "Redirecting…" : `Get full access — ${PRICE_LABEL}`}
+            </button>
+          </div>
+          <div className="mt-6 flex flex-wrap items-center gap-3 border-t border-slate-100 pt-5 text-xs font-medium text-slate-500">
+            <span className="flex items-center gap-1.5 rounded-full bg-slate-100 px-3 py-1.5">💳 Visa Card (worldwide)</span>
+            <span className="flex items-center gap-1.5 rounded-full bg-amber-100 px-3 py-1.5 text-amber-800">📱 MTN Mobile Money (Ghana)</span>
+          </div>
+        </div>
+      ) : (
+        <div className="rounded-2xl border border-slate-200 bg-white p-6 text-center">
+          <p className="text-2xl">🎉</p>
+          <p className="mt-2 text-base font-bold text-slate-950">You already have full lifetime access!</p>
+          <p className="mt-1 text-sm text-slate-600">No further payments needed — enjoy the full question bank.</p>
+        </div>
+      )}
+
+      <div className="rounded-2xl border border-slate-200 bg-white p-5">
+        <h2 className="mb-4 text-base font-bold text-slate-950">Payment history</h2>
+        {invoices.length === 0 ? (
+          <p className="py-6 text-center text-sm text-slate-500">No payments yet.</p>
+        ) : (
+          <div className="overflow-x-auto">
+            <table className="w-full text-left text-sm">
+              <thead>
+                <tr className="border-b border-slate-100 text-xs uppercase tracking-wide text-slate-400">
+                  <th className="pb-2 font-semibold">Date</th>
+                  <th className="pb-2 font-semibold">Plan</th>
+                  <th className="pb-2 font-semibold">Amount</th>
+                  <th className="pb-2 font-semibold">Method</th>
+                  <th className="pb-2 font-semibold">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                {invoices.map((inv) => (
+                  <tr key={inv.id} className="border-b border-slate-50 last:border-0">
+                    <td className="py-2.5 text-slate-700">{fmt(inv.issuedAt)}</td>
+                    <td className="py-2.5 text-slate-700">{inv.plan}</td>
+                    <td className="py-2.5 text-slate-700">{money(inv.amountCents)}</td>
+                    <td className="py-2.5 text-slate-700">
+                      {paymentMethodLabel(inv.paymentMethod)}
+                      {inv.paymentMethod === "mtn_momo" && inv.momoReference && (
+                        <span className="ml-1 text-xs text-slate-400">(ref: {inv.momoReference})</span>
+                      )}
+                    </td>
+                    <td className="py-2.5">
+                      <span className="rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-semibold capitalize text-emerald-700">
+                        {inv.status}
+                      </span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </div>
+
+      <Modal open={pickerOpen} onClose={() => setPickerOpen(false)} title="Choose a payment method">
+        <div className="space-y-3">
+          <p className="text-sm text-slate-600">
+            Full access is a one-time payment of <span className="font-bold text-slate-900">{PRICE_LABEL}</span>. Choose how you&apos;d like to pay.
+          </p>
+          <button
+            onClick={chooseVisa}
+            className="flex w-full items-center justify-between rounded-xl border border-slate-200 px-4 py-4 text-left hover:border-emerald-400 hover:bg-emerald-50/50"
+          >
+            <span className="flex items-center gap-3">
+              <span className="text-2xl">💳</span>
+              <span>
+                <span className="block text-sm font-bold text-slate-900">Visa Card</span>
+                <span className="block text-xs text-slate-500">Outside Ghana · instant activation</span>
+              </span>
+            </span>
+            <span className="text-slate-400">→</span>
+          </button>
+          <button
+            onClick={chooseMomo}
+            className="flex w-full items-center justify-between rounded-xl border border-slate-200 px-4 py-4 text-left hover:border-amber-400 hover:bg-amber-50/50"
+          >
+            <span className="flex items-center gap-3">
+              <span className="text-2xl">📱</span>
+              <span>
+                <span className="block text-sm font-bold text-slate-900">MTN Mobile Money</span>
+                <span className="block text-xs text-slate-500">Ghana · send to {MOMO_RECEIVER_NUMBER}</span>
+              </span>
+            </span>
+            <span className="text-slate-400">→</span>
+          </button>
+        </div>
+      </Modal>
+
+      <Modal open={cardModalOpen} onClose={() => setCardModalOpen(false)} title="Pay with Visa Card">
+        <CardCheckoutForm onClose={() => setCardModalOpen(false)} />
+      </Modal>
+
+      <Modal open={momoModalOpen} onClose={() => setMomoModalOpen(false)} title="Pay with MTN Mobile Money">
+        <MomoCheckoutForm onClose={() => setMomoModalOpen(false)} />
+      </Modal>
+    </div>
+  );
+}
+
+function CardCheckoutForm({ onClose }: { onClose: () => void }) {
+  const [cardName, setCardName] = useState("");
+  const [cardNumber, setCardNumber] = useState("");
+  const [expiry, setExpiry] = useState("");
+  const [cvc, setCvc] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const toast = useToast();
+  const router = useRouter();
+
+  async function submit(e: React.FormEvent) {
+    e.preventDefault();
+    setError(null);
+    setLoading(true);
+    try {
+      const res = await fetch("/api/billing/checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ cardName, cardNumber }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error ?? "Payment failed");
+      toast.push("Payment successful — full access unlocked!", "success");
+      onClose();
+      router.refresh();
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Payment failed");
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  return (
+    <form onSubmit={submit} className="space-y-4">
+      <p className="rounded-lg bg-slate-50 px-3 py-2 text-xs text-slate-500">
+        Demo checkout — this simulates a card payment. Any card number works except 16 zeros.
+      </p>
+      {error && <div className="rounded-lg bg-rose-50 px-4 py-3 text-sm font-medium text-rose-700">{error}</div>}
+      <div className="flex items-center justify-between rounded-lg bg-emerald-50 px-4 py-3">
+        <span className="text-sm font-semibold text-emerald-800">Full Access — one-time</span>
+        <span className="text-sm font-bold text-emerald-800">{PRICE_LABEL}</span>
+      </div>
+      <div>
+        <label className="mb-1 block text-sm font-semibold text-slate-700">Name on card</label>
+        <input
+          required
+          value={cardName}
+          onChange={(e) => setCardName(e.target.value)}
+          placeholder="Jordan Rivera"
+          className="w-full rounded-lg border border-slate-300 px-3 py-2.5 text-sm outline-none focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/20"
+        />
+      </div>
+      <div>
+        <label className="mb-1 block text-sm font-semibold text-slate-700">Card number</label>
+        <input
+          required
+          value={cardNumber}
+          onChange={(e) => setCardNumber(e.target.value)}
+          placeholder="4242 4242 4242 4242"
+          className="w-full rounded-lg border border-slate-300 px-3 py-2.5 text-sm outline-none focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/20"
+        />
+      </div>
+      <div className="grid grid-cols-2 gap-3">
+        <div>
+          <label className="mb-1 block text-sm font-semibold text-slate-700">Expiry</label>
+          <input
+            required
+            value={expiry}
+            onChange={(e) => setExpiry(e.target.value)}
+            placeholder="MM/YY"
+            className="w-full rounded-lg border border-slate-300 px-3 py-2.5 text-sm outline-none focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/20"
+          />
+        </div>
+        <div>
+          <label className="mb-1 block text-sm font-semibold text-slate-700">CVC</label>
+          <input
+            required
+            value={cvc}
+            onChange={(e) => setCvc(e.target.value)}
+            placeholder="123"
+            className="w-full rounded-lg border border-slate-300 px-3 py-2.5 text-sm outline-none focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/20"
+          />
+        </div>
+      </div>
+      <div className="flex justify-end gap-3 pt-2">
+        <button type="button" onClick={onClose} className="rounded-lg px-4 py-2 text-sm font-semibold text-slate-600 hover:bg-slate-100">
+          Cancel
+        </button>
+        <button
+          type="submit"
+          disabled={loading}
+          className="rounded-lg bg-emerald-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-emerald-700 disabled:opacity-70"
+        >
+          {loading ? "Processing…" : `Pay ${PRICE_LABEL}`}
+        </button>
+      </div>
+    </form>
+  );
+}
+
+function MomoCheckoutForm({ onClose }: { onClose: () => void }) {
+  const [momoNumber, setMomoNumber] = useState("");
+  const [momoReference, setMomoReference] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [copied, setCopied] = useState(false);
+  const toast = useToast();
+  const router = useRouter();
+  const ghs = approxGhsAmount(PRICE_CENTS);
+
+  async function copyNumber() {
+    try {
+      await navigator.clipboard.writeText(MOMO_RECEIVER_NUMBER);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      toast.push("Could not copy — please copy manually", "error");
+    }
+  }
+
+  async function submit(e: React.FormEvent) {
+    e.preventDefault();
+    setError(null);
+    setLoading(true);
+    try {
+      const res = await fetch("/api/billing/momo/checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ momoNumber, momoReference }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error ?? "Unable to confirm payment");
+      toast.push("Payment recorded — full access unlocked!", "success");
+      onClose();
+      router.refresh();
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Unable to confirm payment");
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  return (
+    <div className="space-y-4">
+      <div className="rounded-xl bg-amber-50 p-4">
+        <p className="text-sm font-bold text-amber-900">Step 1 — Send payment</p>
+        <p className="mt-1 text-sm text-amber-800">
+          Send <span className="font-bold">{PRICE_LABEL}</span> (approx. ₵{ghs} GHS, rates vary) via MTN Mobile Money to:
+        </p>
+        <div className="mt-3 flex items-center justify-between rounded-lg bg-white px-4 py-3">
+          <div>
+            <p className="text-lg font-extrabold tracking-wide text-slate-950">{MOMO_RECEIVER_NUMBER}</p>
+            <p className="text-xs text-slate-500">{MOMO_RECEIVER_NAME}</p>
+          </div>
+          <button
+            onClick={copyNumber}
+            type="button"
+            className="rounded-lg bg-amber-500 px-3 py-1.5 text-xs font-bold text-white hover:bg-amber-600"
+          >
+            {copied ? "Copied!" : "Copy"}
+          </button>
+        </div>
+        <p className="mt-3 text-xs text-amber-700">
+          Dial <span className="font-mono">*170#</span> → Transfer Money → Mobile Money User → enter the number above → enter the amount →
+          confirm with your MoMo PIN. Or use the MyMTN / MoMo app.
+        </p>
+      </div>
+
+      <form onSubmit={submit} className="space-y-4">
+        <p className="text-sm font-bold text-slate-900">Step 2 — Confirm your payment</p>
+        {error && <div className="rounded-lg bg-rose-50 px-4 py-3 text-sm font-medium text-rose-700">{error}</div>}
+        <div>
+          <label className="mb-1 block text-sm font-semibold text-slate-700">Your MoMo number</label>
+          <input
+            required
+            value={momoNumber}
+            onChange={(e) => setMomoNumber(e.target.value)}
+            placeholder="024xxxxxxx"
+            className="w-full rounded-lg border border-slate-300 px-3 py-2.5 text-sm outline-none focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20"
+          />
+        </div>
+        <div>
+          <label className="mb-1 block text-sm font-semibold text-slate-700">Transaction reference</label>
+          <input
+            required
+            value={momoReference}
+            onChange={(e) => setMomoReference(e.target.value)}
+            placeholder="e.g. from your MoMo confirmation SMS"
+            className="w-full rounded-lg border border-slate-300 px-3 py-2.5 text-sm outline-none focus:border-amber-500 focus:ring-4 focus:ring-amber-500/20"
+          />
+          <p className="mt-1 text-xs text-slate-500">You'll receive this reference by SMS right after sending the payment.</p>
+        </div>
+        <div className="flex justify-end gap-3 pt-2">
+          <button type="button" onClick={onClose} className="rounded-lg px-4 py-2 text-sm font-semibold text-slate-600 hover:bg-slate-100">
+            Cancel
+          </button>
+          <button
+            type="submit"
+            disabled={loading}
+            className="rounded-lg bg-amber-500 px-4 py-2 text-sm font-bold text-white shadow-sm hover:bg-amber-600 disabled:opacity-70"
+          >
+            {loading ? "Confirming…" : "I've paid — activate my account"}
+          </button>
+        </div>
+      </form>
+    </div>
+  );
+}
