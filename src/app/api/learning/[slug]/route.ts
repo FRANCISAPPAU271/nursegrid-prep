@@ -1,16 +1,16 @@
 import { NextResponse } from "next/server";
 import { db } from "@/db";
-import { learningTopics, learningBookmarks } from "@/db/schema";
+import { learningBookmarks } from "@/db/schema";
 import { and, eq } from "drizzle-orm";
 import { requireUser, handleApiError, ApiError } from "@/lib/api";
+import { getCachedLearningTopicBySlug } from "@/lib/catalog";
 
 export async function GET(_request: Request, { params }: { params: Promise<{ slug: string }> }) {
   try {
     const user = await requireUser();
     const { slug } = await params;
 
-    const rows = await db.select().from(learningTopics).where(eq(learningTopics.slug, slug)).limit(1);
-    const topic = rows[0];
+    const topic = await getCachedLearningTopicBySlug(slug);
     if (!topic) throw new ApiError("Topic not found", 404);
 
     const bookmarkRows = await db

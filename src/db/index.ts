@@ -34,6 +34,10 @@ export const pool =
     // TCP/TLS handshake cost again — a meaningful latency win on Neon.
     idleTimeoutMillis: 30_000,
     connectionTimeoutMillis: 10_000,
+    // TCP keep-alive prevents connections from being silently dropped by
+    // intermediate proxies during idle periods, avoiding a reconnect penalty
+    // on the next request after a lull.
+    keepAlive: true,
   });
 
 if (process.env.NODE_ENV !== "production") {

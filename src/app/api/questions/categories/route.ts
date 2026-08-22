@@ -1,30 +1,16 @@
 import { NextResponse } from "next/server";
 import { db } from "@/db";
-import { questionCategories, questions, questionAttempts } from "@/db/schema";
+import { questionAttempts } from "@/db/schema";
 import { eq, sql } from "drizzle-orm";
 import { requireUser, handleApiError } from "@/lib/api";
+import { getCachedCategorySummaries } from "@/lib/catalog";
 
 export async function GET() {
   try {
     const user = await requireUser();
 
     const [categoryRows, progressRows] = await Promise.all([
-      db
-        .select({
-          id: questionCategories.id,
-          slug: questionCategories.slug,
-          name: questionCategories.name,
-          description: questionCategories.description,
-          clientNeed: questionCategories.clientNeed,
-          icon: questionCategories.icon,
-          sortOrder: questionCategories.sortOrder,
-          totalQuestions: sql<number>`count(distinct ${questions.id})`.mapWith(Number),
-          freeQuestions: sql<number>`count(distinct ${questions.id}) filter (where ${questions.isFree} = true)`.mapWith(Number),
-        })
-        .from(questionCategories)
-        .leftJoin(questions, eq(questions.categoryId, questionCategories.id))
-        .groupBy(questionCategories.id)
-        .orderBy(questionCategories.sortOrder),
+      getCachedCategorySummaries(),
       db
         .select({
           categoryId: questionAttempts.categoryId,

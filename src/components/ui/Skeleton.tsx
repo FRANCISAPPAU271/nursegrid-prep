@@ -21,3 +21,29 @@ export function SkeletonList({ count = 4 }: { count?: number }) {
     </div>
   );
 }
+
+export function SkeletonGrid({ count = 6 }: { count?: number }) {
+  return (
+    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {Array.from({ length: count }).map((_, i) => (
+        <SkeletonCard key={i} />
+      ))}
+    </div>
+  );
+}
+
+// A full dashboard-page shell: heading + a grid or list of skeleton cards.
+// Used as the shared `loading.tsx` UI so route navigations show instant
+// visual feedback (via Next.js's automatic per-segment Suspense boundary)
+// instead of a blank screen while the server component fetches data.
+export function DashboardPageSkeleton({ variant = "grid", count }: { variant?: "grid" | "list"; count?: number }) {
+  return (
+    <div>
+      <div className="mb-6 space-y-2">
+        <SkeletonLine className="h-7 w-56" />
+        <SkeletonLine className="h-4 w-80" />
+      </div>
+      {variant === "grid" ? <SkeletonGrid count={count ?? 6} /> : <SkeletonList count={count ?? 4} />}
+    </div>
+  );
+}

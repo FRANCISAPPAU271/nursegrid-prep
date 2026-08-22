@@ -2,6 +2,7 @@ import { getCurrentUser } from "@/lib/auth";
 import SettingsForm from "@/components/settings/SettingsForm";
 import InstallAppCard from "@/components/settings/InstallAppCard";
 import SecurityCard from "@/components/settings/SecurityCard";
+import SupportCard from "@/components/contact/SupportCard";
 
 export const dynamic = "force-dynamic";
 
@@ -28,6 +29,7 @@ export default async function SettingsPage() {
       <div className="mt-6 grid gap-6 lg:grid-cols-2">
         <SecurityCard />
         <InstallAppCard />
+        <SupportCard message="Hi NurseGrid Prep! I need help with my account settings." />
       </div>
     </div>
   );

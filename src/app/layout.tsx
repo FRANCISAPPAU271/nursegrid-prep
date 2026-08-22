@@ -5,6 +5,7 @@ import "./globals.css";
 import ServiceWorkerRegistrar from "@/components/pwa/ServiceWorkerRegistrar";
 import InstallAppPrompt from "@/components/pwa/InstallAppPrompt";
 import CapacitorBridge from "@/components/pwa/CapacitorBridge";
+import WhatsAppButton from "@/components/contact/WhatsAppButton";
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -71,10 +72,18 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={jakarta.variable}>
+      <head>
+        {/* Speeds up embedded YouTube videos on Learning Library pages by
+            establishing the connection before the iframe itself loads. */}
+        <link rel="preconnect" href="https://www.youtube.com" />
+        <link rel="preconnect" href="https://i.ytimg.com" />
+        <link rel="dns-prefetch" href="https://www.youtube.com" />
+      </head>
       <body className="bg-slate-50 font-sans text-slate-900 antialiased">
         <ServiceWorkerRegistrar />
         <InstallAppPrompt />
         <CapacitorBridge />
+        <WhatsAppButton />
         {children}
       </body>
     </html>

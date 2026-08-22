@@ -6,6 +6,7 @@ import Modal from "@/components/ui/Modal";
 import { useToast } from "@/components/ui/Toast";
 import { useRouter, useSearchParams } from "next/navigation";
 import { MOMO_RECEIVER_NUMBER, MOMO_RECEIVER_NAME, approxGhsAmount } from "@/lib/momo";
+import { buildWhatsAppLink, WHATSAPP_DISPLAY_NUMBER } from "@/lib/contact";
 
 type PlanId = "four_month" | "annual";
 
@@ -477,6 +478,18 @@ function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
           </button>
         </div>
       </form>
+
+      <p className="text-center text-xs text-slate-400">
+        Having trouble with your payment?{" "}
+        <a
+          href={buildWhatsAppLink("Hi NurseGrid Prep! I need help confirming my MTN Mobile Money payment.")}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold text-emerald-700 hover:underline"
+        >
+          Message us on WhatsApp ({WHATSAPP_DISPLAY_NUMBER})
+        </a>
+      </p>
     </div>
   );
 }

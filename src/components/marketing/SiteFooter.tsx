@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { buildWhatsAppLink, WHATSAPP_DISPLAY_NUMBER } from "@/lib/contact";
 
 const YEAR = new Date().getFullYear();
 
@@ -31,7 +32,15 @@ export default function SiteFooter() {
               Terms of Service
             </Link>
             <a href="mailto:support@nursegridprep.app" className="hover:text-emerald-700">
-              Contact
+              Email
+            </a>
+            <a
+              href={buildWhatsAppLink()}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 hover:text-emerald-700"
+            >
+              <span aria-hidden>💬</span> WhatsApp {WHATSAPP_DISPLAY_NUMBER}
             </a>
           </nav>
         </div>

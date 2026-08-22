@@ -1,9 +1,10 @@
 import { getCurrentUser } from "@/lib/auth";
 import { db } from "@/db";
-import { strategies, strategyBookmarks } from "@/db/schema";
-import { asc, eq } from "drizzle-orm";
+import { strategyBookmarks } from "@/db/schema";
+import { eq } from "drizzle-orm";
 import StrategyLibrary from "@/components/strategies/StrategyLibrary";
 import type { Strategy } from "@/lib/types";
+import { getCachedStrategiesList } from "@/lib/catalog";
 
 export const dynamic = "force-dynamic";
 
@@ -11,11 +12,10 @@ export default async function StrategiesPage() {
   const user = await getCurrentUser();
   if (!user) return null;
 
-  const rows = await db.select().from(strategies).orderBy(asc(strategies.sortOrder));
-  const bookmarkRows = await db
-    .select({ strategyId: strategyBookmarks.strategyId })
-    .from(strategyBookmarks)
-    .where(eq(strategyBookmarks.userId, user.id));
+  const [rows, bookmarkRows] = await Promise.all([
+    getCachedStrategiesList(),
+    db.select({ strategyId: strategyBookmarks.strategyId }).from(strategyBookmarks).where(eq(strategyBookmarks.userId, user.id)),
+  ]);
   const bookmarked = new Set(bookmarkRows.map((b) => b.strategyId));
 
   const initial: Strategy[] = rows.map((s) => ({

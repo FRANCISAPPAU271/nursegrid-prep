@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { getCurrentUser } from "@/lib/auth";
 import { db } from "@/db";
-import { questionCategories, questions, questionAttempts } from "@/db/schema";
+import { questionAttempts } from "@/db/schema";
 import { eq, sql } from "drizzle-orm";
+import { getCachedCategorySummaries } from "@/lib/catalog";
 
 export const dynamic = "force-dynamic";
 
@@ -25,25 +26,10 @@ export default async function QuestionBankPage() {
   const user = await getCurrentUser();
   if (!user) return null;
 
-  // These two queries are independent (one aggregates all categories, the
-  // other aggregates this user's attempts) — fetch them concurrently.
+  // Category catalog data is cached (rarely changes); only the user's own
+  // attempt progress needs a fresh, per-request query.
   const [categoryRows, progressRows] = await Promise.all([
-    db
-      .select({
-        id: questionCategories.id,
-        slug: questionCategories.slug,
-        name: questionCategories.name,
-        description: questionCategories.description,
-        clientNeed: questionCategories.clientNeed,
-        icon: questionCategories.icon,
-        sortOrder: questionCategories.sortOrder,
-        totalQuestions: sql<number>`count(distinct ${questions.id})`.mapWith(Number),
-        freeQuestions: sql<number>`count(distinct ${questions.id}) filter (where ${questions.isFree} = true)`.mapWith(Number),
-      })
-      .from(questionCategories)
-      .leftJoin(questions, eq(questions.categoryId, questionCategories.id))
-      .groupBy(questionCategories.id)
-      .orderBy(questionCategories.sortOrder),
+    getCachedCategorySummaries(),
     db
       .select({
         categoryId: questionAttempts.categoryId,

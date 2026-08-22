@@ -1,9 +1,10 @@
 import { getCurrentUser } from "@/lib/auth";
 import { db } from "@/db";
-import { learningTopics, learningBookmarks } from "@/db/schema";
-import { asc, eq } from "drizzle-orm";
+import { learningBookmarks } from "@/db/schema";
+import { eq } from "drizzle-orm";
 import LearningLibrary from "@/components/learning/LearningLibrary";
 import type { LearningTopicSummary } from "@/lib/types";
+import { getCachedLearningTopicsList } from "@/lib/catalog";
 
 export const dynamic = "force-dynamic";
 
@@ -12,20 +13,7 @@ export default async function LearningPage() {
   if (!user) return null;
 
   const [rows, bookmarkRows] = await Promise.all([
-    db
-      .select({
-        id: learningTopics.id,
-        slug: learningTopics.slug,
-        title: learningTopics.title,
-        category: learningTopics.category,
-        icon: learningTopics.icon,
-        summary: learningTopics.summary,
-        imageUrl: learningTopics.imageUrl,
-        videoId: learningTopics.videoId,
-        sortOrder: learningTopics.sortOrder,
-      })
-      .from(learningTopics)
-      .orderBy(asc(learningTopics.sortOrder)),
+    getCachedLearningTopicsList(),
     db.select({ topicId: learningBookmarks.topicId }).from(learningBookmarks).where(eq(learningBookmarks.userId, user.id)),
   ]);
 

@@ -31,6 +31,10 @@ const FAQS = [
     q: "Do you offer referral rewards?",
     a: "Yes! Every account gets a personal referral link. When a friend signs up using your link, you both automatically receive 14 days of free premium access — no limit on how many friends you invite.",
   },
+  {
+    q: "How can I get help or contact support?",
+    a: "The fastest way is WhatsApp — tap the chat button in the corner of the screen, or message us directly at +233 59 887 2146. You can also email support@nursegridprep.app.",
+  },
 ];
 
 export default function Faq() {
