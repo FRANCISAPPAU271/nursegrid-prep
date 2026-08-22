@@ -12,6 +12,9 @@ export default function SiteFooter() {
             <span className="text-sm font-bold tracking-tight text-slate-900">NurseGrid Prep</span>
           </Link>
           <nav aria-label="Footer" className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-slate-500">
+            <Link href="/#overview" className="hover:text-emerald-700">
+              Overview &amp; FAQ
+            </Link>
             <Link href="/#pricing" className="hover:text-emerald-700">
               Pricing
             </Link>

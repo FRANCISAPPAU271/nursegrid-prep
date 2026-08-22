@@ -58,6 +58,18 @@ export default async function HomePage() {
           <span className="text-lg font-bold tracking-tight text-slate-900">NurseGrid Prep</span>
         </Link>
         <nav aria-label="Primary" className="flex items-center gap-3">
+          <Link
+            href="/#overview"
+            className="hidden rounded-lg px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-100 sm:inline-block"
+          >
+            Overview
+          </Link>
+          <Link
+            href="/#pricing"
+            className="hidden rounded-lg px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-100 sm:inline-block"
+          >
+            Pricing
+          </Link>
           <Link href="/login" className="rounded-lg px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-100">
             Log in
           </Link>
@@ -150,8 +162,18 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-6 py-12">
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <section id="overview" className="mx-auto max-w-6xl px-6 py-16">
+        <div className="text-center">
+          <span className="inline-flex items-center gap-2 rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-emerald-800">
+            Overview
+          </span>
+          <h2 className="mt-4 text-3xl font-extrabold text-slate-950">Everything you need in one place</h2>
+          <p className="mx-auto mt-2 max-w-2xl text-slate-600">
+            A quick look at what NurseGrid Prep includes, plus answers to the questions students ask us most.
+          </p>
+        </div>
+
+        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {FEATURES.map((f) => (
             <div key={f.title} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
               <span className="text-2xl">{f.icon}</span>
@@ -159,6 +181,16 @@ export default async function HomePage() {
               <p className="mt-2 text-sm text-slate-600">{f.description}</p>
             </div>
           ))}
+        </div>
+
+        <div className="mx-auto mt-16 max-w-3xl">
+          <div className="text-center">
+            <h3 className="text-2xl font-extrabold text-slate-950">Frequently asked questions</h3>
+            <p className="mt-2 text-slate-600">Everything you need to know before you get started.</p>
+          </div>
+          <div className="mt-8">
+            <Faq />
+          </div>
         </div>
       </section>
 
@@ -251,16 +283,6 @@ export default async function HomePage() {
               <span>· {m.detail}</span>
             </div>
           ))}
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-3xl px-6 py-16">
-        <div className="text-center">
-          <h2 className="text-3xl font-extrabold text-slate-950">Frequently asked questions</h2>
-          <p className="mt-2 text-slate-600">Everything you need to know before you get started.</p>
-        </div>
-        <div className="mt-10">
-          <Faq />
         </div>
       </section>
 
