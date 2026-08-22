@@ -18,7 +18,7 @@ const description =
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"),
-  title,
+  title: { default: title, template: "%s · NurseGrid Prep" },
   description,
   keywords: [
     "NCLEX practice questions",
@@ -27,6 +27,10 @@ export const metadata: Metadata = {
     "nursing school planner",
     "NCLEX test-taking strategies",
   ],
+  authors: [{ name: "NurseGrid Prep" }],
+  category: "education",
+  alternates: { canonical: "/" },
+  robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   manifest: "/manifest.webmanifest",
   appleWebApp: {
     capable: true,
@@ -47,7 +51,8 @@ export const metadata: Metadata = {
     description,
     type: "website",
     siteName: "NurseGrid Prep",
-    images: [{ url: "/images/og-cover.jpg", width: 1200, height: 630, alt: "NurseGrid Prep" }],
+    locale: "en_US",
+    images: [{ url: "/images/og-cover.jpg", width: 1200, height: 630, alt: "NurseGrid Prep — NCLEX task manager and question bank" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -55,6 +60,7 @@ export const metadata: Metadata = {
     description,
     images: ["/images/og-cover.jpg"],
   },
+  formatDetection: { telephone: false },
 };
 
 export const viewport: Viewport = {

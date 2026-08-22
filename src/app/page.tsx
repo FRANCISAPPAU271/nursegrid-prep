@@ -4,6 +4,8 @@ import { getCurrentUser } from "@/lib/auth";
 import Testimonials from "@/components/marketing/Testimonials";
 import Faq from "@/components/marketing/Faq";
 import WaitlistForm from "@/components/marketing/WaitlistForm";
+import SiteFooter from "@/components/marketing/SiteFooter";
+import StructuredData from "@/components/marketing/StructuredData";
 
 const FEATURES = [
   {
@@ -43,12 +45,19 @@ export default async function HomePage() {
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-emerald-50 via-white to-white">
+      <StructuredData />
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-slate-950 focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-white"
+      >
+        Skip to main content
+      </a>
       <header className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
-        <div className="flex items-center gap-2">
+        <Link href="/" className="flex items-center gap-2" aria-label="NurseGrid Prep home">
           <span className="grid h-9 w-9 place-items-center rounded-xl bg-emerald-600 text-lg text-white">🩺</span>
           <span className="text-lg font-bold tracking-tight text-slate-900">NurseGrid Prep</span>
-        </div>
-        <nav className="flex items-center gap-3">
+        </Link>
+        <nav aria-label="Primary" className="flex items-center gap-3">
           <Link href="/login" className="rounded-lg px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-100">
             Log in
           </Link>
@@ -61,7 +70,7 @@ export default async function HomePage() {
         </nav>
       </header>
 
-      <section className="mx-auto grid max-w-6xl gap-10 px-6 pb-16 pt-10 md:grid-cols-2 md:items-center md:pt-16">
+      <section id="main-content" className="mx-auto grid max-w-6xl gap-10 px-6 pb-16 pt-10 md:grid-cols-2 md:items-center md:pt-16">
         <div>
           <span className="inline-flex items-center gap-2 rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-emerald-800">
             Built for student nurses
@@ -256,9 +265,7 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <footer className="border-t border-slate-200 py-8 text-center text-sm text-slate-500">
-        © {new Date().getFullYear()} NurseGrid Prep. Built for student nurses, by nurses.
-      </footer>
+      <SiteFooter />
     </main>
   );
 }

@@ -103,6 +103,17 @@ export default function SignupForm({ defaultReferralCode = "" }: { defaultReferr
       >
         {loading ? "Creating account…" : "Create free account"}
       </button>
+      <p className="text-center text-xs leading-relaxed text-slate-400">
+        By creating an account, you agree to our{" "}
+        <Link href="/terms" className="font-semibold text-slate-500 hover:text-emerald-700 hover:underline">
+          Terms of Service
+        </Link>{" "}
+        and{" "}
+        <Link href="/privacy" className="font-semibold text-slate-500 hover:text-emerald-700 hover:underline">
+          Privacy Policy
+        </Link>
+        .
+      </p>
       <p className="text-center text-sm text-slate-600">
         Already have an account?{" "}
         <Link href="/login" className="font-semibold text-emerald-700 hover:underline">

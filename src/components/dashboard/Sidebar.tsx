@@ -10,6 +10,8 @@ const NAV = [
   { href: "/dashboard/notes", label: "Notes", icon: "📝" },
   { href: "/dashboard/questions", label: "Question Bank", icon: "🧠" },
   { href: "/dashboard/strategies", label: "Strategies", icon: "🎯" },
+  { href: "/dashboard/learning", label: "Learning Library", icon: "📚" },
+  { href: "/dashboard/care-plans", label: "Care Plans", icon: "🗒️" },
   { href: "/dashboard/progress", label: "Progress", icon: "📈" },
   { href: "/dashboard/referrals", label: "Invite & Earn", icon: "🎁" },
   { href: "/dashboard/billing", label: "Billing", icon: "💳" },
@@ -89,6 +91,16 @@ export default function Sidebar({
             {loggingOut ? "…" : "Log out"}
           </button>
         </div>
+      </div>
+
+      <div className="flex items-center justify-center gap-3 px-3 pb-4 text-[11px] text-slate-500">
+        <Link href="/privacy" className="hover:text-slate-300">
+          Privacy
+        </Link>
+        <span aria-hidden>·</span>
+        <Link href="/terms" className="hover:text-slate-300">
+          Terms
+        </Link>
       </div>
     </div>
   );

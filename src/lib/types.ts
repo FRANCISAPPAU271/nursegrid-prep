@@ -72,6 +72,48 @@ export type Strategy = {
   isBookmarked: boolean;
 };
 
+export type LearningTopicSummary = {
+  id: string;
+  slug: string;
+  title: string;
+  category: string;
+  icon: string;
+  summary: string;
+  imageUrl: string | null;
+  videoId: string | null;
+  sortOrder: number;
+  isBookmarked: boolean;
+};
+
+export type LearningTopicDetail = LearningTopicSummary & {
+  overview: string;
+  keyStructures: string[];
+  normalFindings: string[];
+  nursingNotes: string[];
+  redFlags: string[];
+  commonConditions: string[];
+  videoTitle: string | null;
+  videoSource: string | null;
+};
+
+export type CarePlanIntervention = { action: string; rationale: string };
+
+export type CarePlanStatus = "draft" | "active" | "completed";
+
+export type CarePlan = {
+  id: string;
+  title: string;
+  clientInfo: string;
+  assessment: string;
+  nursingDiagnosis: string;
+  goals: string;
+  interventions: CarePlanIntervention[];
+  evaluation: string;
+  status: CarePlanStatus;
+  createdAt: string;
+  updatedAt: string;
+};
+
 export type PaymentMethod = "card" | "mtn_momo";
 
 export type Subscription = {

@@ -212,6 +212,52 @@ export const strategyBookmarks = pgTable("strategy_bookmarks", {
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 }, (t) => [primaryKey({ columns: [t.userId, t.strategyId] })]);
 
+// ---------- Learning library (body systems, obstetric anatomy, nursing process) ----------
+export const learningTopics = pgTable("learning_topics", {
+  id: text("id").primaryKey().$defaultFn(genId),
+  slug: text("slug").notNull(),
+  title: text("title").notNull(),
+  category: text("category").notNull(), // "Body Systems" | "Obstetric & Reproductive" | "Nursing Process"
+  icon: text("icon").notNull().default("stethoscope"),
+  summary: text("summary").notNull().default(""),
+  overview: text("overview").notNull().default(""),
+  keyStructures: jsonb("key_structures").$type<string[]>().notNull().default([]),
+  normalFindings: jsonb("normal_findings").$type<string[]>().notNull().default([]),
+  nursingNotes: jsonb("nursing_notes").$type<string[]>().notNull().default([]),
+  redFlags: jsonb("red_flags").$type<string[]>().notNull().default([]),
+  commonConditions: jsonb("common_conditions").$type<string[]>().notNull().default([]),
+  imageUrl: text("image_url"),
+  videoId: text("video_id"),
+  videoTitle: text("video_title"),
+  videoSource: text("video_source"),
+  sortOrder: integer("sort_order").notNull().default(0),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+}, (t) => [uniqueIndex("learning_topics_slug_idx").on(t.slug)]);
+
+export const learningBookmarks = pgTable("learning_bookmarks", {
+  userId: text("user_id").notNull().references(() => users.id, { onDelete: "cascade" }),
+  topicId: text("topic_id").notNull().references(() => learningTopics.id, { onDelete: "cascade" }),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+}, (t) => [primaryKey({ columns: [t.userId, t.topicId] })]);
+
+// ---------- Nursing care plans (student-authored, full CRUD) ----------
+export const carePlanStatusEnum = pgEnum("care_plan_status", ["draft", "active", "completed"]);
+
+export const carePlans = pgTable("care_plans", {
+  id: text("id").primaryKey().$defaultFn(genId),
+  userId: text("user_id").notNull().references(() => users.id, { onDelete: "cascade" }),
+  title: text("title").notNull(),
+  clientInfo: text("client_info").notNull().default(""),
+  assessment: text("assessment").notNull().default(""),
+  nursingDiagnosis: text("nursing_diagnosis").notNull().default(""),
+  goals: text("goals").notNull().default(""),
+  interventions: jsonb("interventions").$type<{ action: string; rationale: string }[]>().notNull().default([]),
+  evaluation: text("evaluation").notNull().default(""),
+  status: carePlanStatusEnum("status").notNull().default("draft"),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+  updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
+}, (t) => [index("care_plans_user_idx").on(t.userId)]);
+
 // ---------- Billing ----------
 export const subscriptions = pgTable("subscriptions", {
   id: text("id").primaryKey().$defaultFn(genId),
