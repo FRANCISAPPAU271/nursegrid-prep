@@ -21,7 +21,7 @@ const FAQS = [
   },
   {
     q: "How can I pay?",
-    a: "You can pay with a Visa card (processed securely through Stripe) from anywhere in the world, or with MTN Mobile Money if you're in Ghana — just send payment to 0503061727 and confirm your transaction reference in the app to activate instantly.",
+    a: "You can pay with a Visa card (processed securely through Stripe) from anywhere in the world, or with MTN Mobile Money if you're in Ghana — just send payment to 0598872146 and confirm your transaction reference in the app to activate instantly.",
   },
   {
     q: "Is NurseGrid Prep affiliated with NCSBN or the official NCLEX exam?",

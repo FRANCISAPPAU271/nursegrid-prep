@@ -114,6 +114,72 @@ export type CarePlan = {
   updatedAt: string;
 };
 
+// ---------- Custom exams ----------
+export type ExamListItem = {
+  id: string;
+  title: string;
+  categorySlugs: string[];
+  totalQuestions: number;
+  correctCount: number;
+  status: "in_progress" | "completed";
+  startedAt: string;
+  completedAt: string | null;
+};
+
+export type ExamQuestion = {
+  id: string;
+  categoryId: string;
+  categoryName: string;
+  stem: string;
+  choices: QuestionChoice[];
+  difficulty: "easy" | "medium" | "hard";
+};
+
+export type ExamReviewQuestion = ExamQuestion & {
+  correctChoiceId: string;
+  rationale: string;
+  strategy: string;
+  selectedChoiceId: string | null;
+  isCorrect: boolean;
+};
+
+// ---------- CAT (computerized adaptive testing) practice ----------
+export type CatStatus = "in_progress" | "passed" | "failed" | "max_length";
+
+export type CatListItem = {
+  id: string;
+  status: CatStatus;
+  correctCount: number;
+  questionsAnswered: number;
+  minQuestions: number;
+  maxQuestions: number;
+  startedAt: string;
+  completedAt: string | null;
+};
+
+export type CatQuestion = {
+  id: string;
+  categoryName: string;
+  stem: string;
+  choices: QuestionChoice[];
+  difficulty: "easy" | "medium" | "hard";
+};
+
+export type CatHistoryEntry = {
+  questionId: string;
+  categoryId: string;
+  categoryName: string;
+  stem: string;
+  choices: QuestionChoice[];
+  correctChoiceId: string;
+  selectedChoiceId: string;
+  isCorrect: boolean;
+  rationale: string;
+  strategy: string;
+  difficulty: "easy" | "medium" | "hard";
+  thetaAfter: number;
+};
+
 export type PaymentMethod = "card" | "mtn_momo";
 
 export type Subscription = {

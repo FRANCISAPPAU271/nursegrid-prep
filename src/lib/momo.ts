@@ -3,7 +3,7 @@
 // credentials (subscription key / API user / API key from
 // momodeveloper.mtn.com), so payments are confirmed by the customer entering
 // the MoMo transaction reference they receive by SMS after sending payment.
-export const MOMO_RECEIVER_NUMBER = "0503061727";
+export const MOMO_RECEIVER_NUMBER = "0598872146";
 export const MOMO_RECEIVER_NAME = "NurseGrid Prep";
 
 // Approximate USD → GHS conversion for display purposes only. Actual amount

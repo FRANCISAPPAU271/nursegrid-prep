@@ -36,7 +36,7 @@ const FEATURES = [
 
 const PAYMENT_METHODS = [
   { icon: "💳", label: "Visa Card", detail: "Accepted worldwide, outside Ghana" },
-  { icon: "📱", label: "MTN Mobile Money", detail: "Ghana · send to 0503061727" },
+  { icon: "📱", label: "MTN Mobile Money", detail: "Ghana · send to 0598872146" },
 ];
 
 export default async function HomePage() {

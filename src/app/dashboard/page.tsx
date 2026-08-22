@@ -158,6 +158,8 @@ export default async function OverviewPage() {
           <div className="rounded-2xl border border-slate-200 bg-white p-5">
             <h2 className="text-base font-bold text-slate-950">Quick links</h2>
             <div className="mt-3 space-y-2">
+              <QuickLink href="/dashboard/exams" icon="📝" label="Build a custom exam from any category" />
+              <QuickLink href="/dashboard/cat" icon="📊" label="Try an adaptive (CAT) practice test" />
               <QuickLink href="/dashboard/learning" icon="📚" label="Study body systems in the Learning Library" />
               <QuickLink href="/dashboard/care-plans" icon="🗒️" label="Build a nursing care plan" />
               <QuickLink href="/dashboard/strategies" icon="🎯" label="Browse test-taking strategies" />

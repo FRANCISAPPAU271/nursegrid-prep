@@ -4,6 +4,7 @@ import {
   timestamp,
   boolean,
   integer,
+  doublePrecision,
   jsonb,
   pgEnum,
   primaryKey,
@@ -190,6 +191,76 @@ export const questionBookmarks = pgTable("question_bookmarks", {
   questionId: text("question_id").notNull().references(() => questions.id, { onDelete: "cascade" }),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 }, (t) => [primaryKey({ columns: [t.userId, t.questionId] })]);
+
+// ---------- Custom exams (student picks N questions across categories,
+// answers all of them, then reviews results after submitting) ----------
+export const examStatusEnum = pgEnum("exam_status", ["in_progress", "completed"]);
+
+export type ExamQuestionSnapshot = {
+  id: string;
+  categoryId: string;
+  categoryName: string;
+  stem: string;
+  choices: { id: string; text: string }[];
+  correctChoiceId: string;
+  rationale: string;
+  strategy: string;
+  difficulty: "easy" | "medium" | "hard";
+};
+
+export type ExamAnswer = { questionId: string; selectedChoiceId: string; isCorrect: boolean };
+
+export const examSessions = pgTable("exam_sessions", {
+  id: text("id").primaryKey().$defaultFn(genId),
+  userId: text("user_id").notNull().references(() => users.id, { onDelete: "cascade" }),
+  title: text("title").notNull(),
+  categorySlugs: jsonb("category_slugs").$type<string[]>().notNull().default([]),
+  questionSnapshot: jsonb("question_snapshot").$type<ExamQuestionSnapshot[]>().notNull(),
+  answers: jsonb("answers").$type<ExamAnswer[]>().notNull().default([]),
+  totalQuestions: integer("total_questions").notNull(),
+  correctCount: integer("correct_count").notNull().default(0),
+  status: examStatusEnum("status").notNull().default("in_progress"),
+  startedAt: timestamp("started_at", { withTimezone: true }).notNull().defaultNow(),
+  completedAt: timestamp("completed_at", { withTimezone: true }),
+}, (t) => [index("exam_sessions_user_idx").on(t.userId)]);
+
+// ---------- Computerized Adaptive Testing (CAT) practice sessions ----------
+// A simplified, transparent simulation of adaptive testing for practice
+// purposes: question difficulty adapts based on prior answers, and the
+// session stops early once a simple confidence-interval rule indicates a
+// likely pass/fail, or once the maximum length is reached. This does not
+// reproduce NCSBN's proprietary CAT algorithm.
+export const catStatusEnum = pgEnum("cat_status", ["in_progress", "passed", "failed", "max_length"]);
+
+export type CatHistoryItem = {
+  questionId: string;
+  categoryId: string;
+  categoryName: string;
+  stem: string;
+  choices: { id: string; text: string }[];
+  correctChoiceId: string;
+  selectedChoiceId: string;
+  isCorrect: boolean;
+  rationale: string;
+  strategy: string;
+  difficulty: "easy" | "medium" | "hard";
+  thetaAfter: number;
+};
+
+export const catSessions = pgTable("cat_sessions", {
+  id: text("id").primaryKey().$defaultFn(genId),
+  userId: text("user_id").notNull().references(() => users.id, { onDelete: "cascade" }),
+  status: catStatusEnum("status").notNull().default("in_progress"),
+  theta: doublePrecision("theta").notNull().default(0),
+  minQuestions: integer("min_questions").notNull().default(15),
+  maxQuestions: integer("max_questions").notNull().default(50),
+  currentQuestionId: text("current_question_id"),
+  askedQuestionIds: jsonb("asked_question_ids").$type<string[]>().notNull().default([]),
+  history: jsonb("history").$type<CatHistoryItem[]>().notNull().default([]),
+  correctCount: integer("correct_count").notNull().default(0),
+  startedAt: timestamp("started_at", { withTimezone: true }).notNull().defaultNow(),
+  completedAt: timestamp("completed_at", { withTimezone: true }),
+}, (t) => [index("cat_sessions_user_idx").on(t.userId)]);
 
 // ---------- Strategies library ----------
 export const strategies = pgTable("strategies", {

@@ -9,6 +9,8 @@ const NAV = [
   { href: "/dashboard/tasks", label: "Tasks", icon: "🗂️" },
   { href: "/dashboard/notes", label: "Notes", icon: "📝" },
   { href: "/dashboard/questions", label: "Question Bank", icon: "🧠" },
+  { href: "/dashboard/exams", label: "Custom Exam", icon: "📝" },
+  { href: "/dashboard/cat", label: "Adaptive Test (CAT)", icon: "📊" },
   { href: "/dashboard/strategies", label: "Strategies", icon: "🎯" },
   { href: "/dashboard/learning", label: "Learning Library", icon: "📚" },
   { href: "/dashboard/care-plans", label: "Care Plans", icon: "🗒️" },
