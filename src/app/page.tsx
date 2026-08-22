@@ -107,33 +107,44 @@ export default async function HomePage() {
           </p>
         </div>
         <div className="relative">
-          <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-2xl shadow-slate-200">
+          <div
+            aria-hidden
+            className="absolute -inset-6 -z-10 rounded-[2.5rem] bg-gradient-to-br from-emerald-200/60 via-emerald-100/40 to-transparent blur-2xl"
+          />
+          <div
+            aria-hidden
+            className="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-emerald-400/20 blur-xl"
+          />
+          <div className="relative rounded-3xl border border-slate-200/80 bg-white/95 p-6 shadow-2xl shadow-emerald-950/10 ring-1 ring-black/5 backdrop-blur">
             <div className="flex items-center justify-between border-b border-slate-100 pb-4">
-              <p className="text-sm font-semibold text-slate-500">Today&apos;s priorities</p>
+              <div className="flex items-center gap-2">
+                <span className="grid h-7 w-7 place-items-center rounded-lg bg-emerald-600 text-xs text-white">🩺</span>
+                <p className="text-sm font-semibold text-slate-500">Today&apos;s priorities</p>
+              </div>
               <span className="rounded-full bg-emerald-100 px-2 py-1 text-xs font-semibold text-emerald-700">
                 3 due
               </span>
             </div>
-            <ul className="mt-4 space-y-3">
-              <li className="flex items-center gap-3 rounded-xl bg-slate-50 p-3">
+            <ul className="mt-4 space-y-2.5">
+              <li className="flex items-center gap-3 rounded-xl bg-slate-50 p-3 transition hover:bg-slate-100">
                 <span className="h-2.5 w-2.5 shrink-0 rounded-full bg-rose-500" />
                 <span className="text-sm text-slate-700">Med-surg clinical prep packet</span>
               </li>
-              <li className="flex items-center gap-3 rounded-xl bg-slate-50 p-3">
+              <li className="flex items-center gap-3 rounded-xl bg-slate-50 p-3 transition hover:bg-slate-100">
                 <span className="h-2.5 w-2.5 shrink-0 rounded-full bg-amber-500" />
                 <span className="text-sm text-slate-700">Pharmacology dosage calc worksheet</span>
               </li>
-              <li className="flex items-center gap-3 rounded-xl bg-slate-50 p-3">
+              <li className="flex items-center gap-3 rounded-xl bg-slate-50 p-3 transition hover:bg-slate-100">
                 <span className="h-2.5 w-2.5 shrink-0 rounded-full bg-emerald-500" />
                 <span className="text-sm text-slate-700">50 NCLEX questions — Maternal Newborn</span>
               </li>
             </ul>
-            <div className="mt-6 rounded-2xl bg-emerald-600 p-4 text-white">
-              <p className="text-xs uppercase tracking-wide text-emerald-100">Question of the day</p>
+            <div className="mt-6 rounded-2xl bg-gradient-to-br from-emerald-600 to-emerald-700 p-4 text-white shadow-lg shadow-emerald-600/20">
+              <p className="text-xs font-semibold uppercase tracking-wide text-emerald-100">✨ Question of the day</p>
               <p className="mt-2 text-sm leading-snug">
                 &ldquo;A nurse prioritizes care for four clients. Which client should the nurse assess first?&rdquo;
               </p>
-              <p className="mt-3 text-xs text-emerald-100">Strategy: Apply the ABC + Maslow framework</p>
+              <p className="mt-3 text-xs font-medium text-emerald-100">🎯 Strategy: Apply the ABC + Maslow framework</p>
             </div>
           </div>
         </div>
