@@ -12,8 +12,10 @@ export default async function BillingPage() {
   const user = await getCurrentUser();
   if (!user) return null;
 
-  const subRows = await db.select().from(subscriptions).where(eq(subscriptions.userId, user.id)).orderBy(desc(subscriptions.createdAt));
-  const invoiceRows = await db.select().from(invoices).where(eq(invoices.userId, user.id)).orderBy(desc(invoices.issuedAt));
+  const [subRows, invoiceRows] = await Promise.all([
+    db.select().from(subscriptions).where(eq(subscriptions.userId, user.id)).orderBy(desc(subscriptions.createdAt)),
+    db.select().from(invoices).where(eq(invoices.userId, user.id)).orderBy(desc(invoices.issuedAt)),
+  ]);
 
   const subs: Subscription[] = subRows.map((s) => ({
     id: s.id,
@@ -45,7 +47,7 @@ export default async function BillingPage() {
     <div>
       <div className="mb-6 flex flex-col gap-1">
         <h1 className="text-2xl font-extrabold tracking-tight text-slate-950">Billing</h1>
-        <p className="text-slate-600">Manage your one-time NurseGrid Prep purchase.</p>
+        <p className="text-slate-600">Manage your NurseGrid Prep access plan.</p>
       </div>
       <BillingPanel
         isPremium={user.isPremium}

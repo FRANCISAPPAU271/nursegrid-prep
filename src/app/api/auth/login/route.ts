@@ -27,7 +27,10 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "Invalid email or password." }, { status: 401 });
     }
 
-    await createSession(user.id);
+    const userAgent = request.headers.get("user-agent");
+    const ipAddress = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? null;
+    await createSession(user.id, { userAgent, ipAddress });
+
     return NextResponse.json({ user: { id: user.id, name: user.name, email: user.email } });
   } catch (error) {
     if (error instanceof z.ZodError) {

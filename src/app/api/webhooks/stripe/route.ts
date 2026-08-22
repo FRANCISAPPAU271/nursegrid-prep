@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { db } from "@/db";
 import { users, subscriptions, invoices } from "@/db/schema";
 import { and, eq } from "drizzle-orm";
-import { getStripe, isStripeConfigured, FULL_ACCESS_PRICE_CENTS, FULL_ACCESS_LABEL } from "@/lib/stripe";
+import { getStripe, isStripeConfigured, PLAN_DETAILS, isValidPlanId } from "@/lib/stripe";
 import type Stripe from "stripe";
 
 // Optional webhook endpoint for production robustness (e.g. if a customer closes
@@ -42,6 +42,11 @@ export async function POST(request: Request) {
           .limit(1);
 
         if (existing.length === 0) {
+          const planIdRaw = session.metadata?.plan ?? "four_month";
+          const planId = isValidPlanId(planIdRaw) ? planIdRaw : "four_month";
+          const plan = PLAN_DETAILS[planId];
+          const periodEnd = new Date(Date.now() + plan.days * 24 * 60 * 60 * 1000);
+
           await db
             .update(subscriptions)
             .set({ status: "canceled", canceledAt: new Date() })
@@ -51,10 +56,10 @@ export async function POST(request: Request) {
             .insert(subscriptions)
             .values({
               userId,
-              plan: "lifetime",
+              plan: planId,
               status: "active",
-              amountCents: FULL_ACCESS_PRICE_CENTS,
-              currentPeriodEnd: null,
+              amountCents: plan.amountCents,
+              currentPeriodEnd: periodEnd,
               stripeSubscriptionId: typeof session.subscription === "string" ? session.subscription : null,
               stripeCheckoutSessionId: session.id,
               paymentMethod: "card",
@@ -64,8 +69,8 @@ export async function POST(request: Request) {
           await db.insert(invoices).values({
             userId,
             subscriptionId: subscription.id,
-            amountCents: FULL_ACCESS_PRICE_CENTS,
-            plan: FULL_ACCESS_LABEL,
+            amountCents: plan.amountCents,
+            plan: plan.label,
             status: "paid",
             paymentMethod: "card",
           });

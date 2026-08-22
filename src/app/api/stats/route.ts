@@ -8,35 +8,38 @@ export async function GET() {
   try {
     const user = await requireUser();
 
-    const [taskStats] = await db
-      .select({
-        total: sql<number>`count(*)`.mapWith(Number),
-        done: sql<number>`count(*) filter (where ${tasks.status} = 'done')`.mapWith(Number),
-        inProgress: sql<number>`count(*) filter (where ${tasks.status} = 'in_progress')`.mapWith(Number),
-        overdue: sql<number>`count(*) filter (where ${tasks.status} != 'done' and ${tasks.dueDate} is not null and ${tasks.dueDate} < now())`.mapWith(Number),
-      })
-      .from(tasks)
-      .where(eq(tasks.userId, user.id));
+    const [taskStatsRows, noteStatsRows, questionStatsRows, upcomingTasks] = await Promise.all([
+      db
+        .select({
+          total: sql<number>`count(*)`.mapWith(Number),
+          done: sql<number>`count(*) filter (where ${tasks.status} = 'done')`.mapWith(Number),
+          inProgress: sql<number>`count(*) filter (where ${tasks.status} = 'in_progress')`.mapWith(Number),
+          overdue: sql<number>`count(*) filter (where ${tasks.status} != 'done' and ${tasks.dueDate} is not null and ${tasks.dueDate} < now())`.mapWith(Number),
+        })
+        .from(tasks)
+        .where(eq(tasks.userId, user.id)),
+      db
+        .select({ total: sql<number>`count(*)`.mapWith(Number) })
+        .from(notes)
+        .where(eq(notes.userId, user.id)),
+      db
+        .select({
+          attempted: sql<number>`count(*)`.mapWith(Number),
+          correct: sql<number>`count(*) filter (where ${questionAttempts.isCorrect} = true)`.mapWith(Number),
+        })
+        .from(questionAttempts)
+        .where(eq(questionAttempts.userId, user.id)),
+      db
+        .select()
+        .from(tasks)
+        .where(eq(tasks.userId, user.id))
+        .orderBy(tasks.dueDate)
+        .limit(50),
+    ]);
 
-    const [noteStats] = await db
-      .select({ total: sql<number>`count(*)`.mapWith(Number) })
-      .from(notes)
-      .where(eq(notes.userId, user.id));
-
-    const [questionStats] = await db
-      .select({
-        attempted: sql<number>`count(*)`.mapWith(Number),
-        correct: sql<number>`count(*) filter (where ${questionAttempts.isCorrect} = true)`.mapWith(Number),
-      })
-      .from(questionAttempts)
-      .where(eq(questionAttempts.userId, user.id));
-
-    const upcomingTasks = await db
-      .select()
-      .from(tasks)
-      .where(eq(tasks.userId, user.id))
-      .orderBy(tasks.dueDate)
-      .limit(50);
+    const [taskStats] = taskStatsRows;
+    const [noteStats] = noteStatsRows;
+    const [questionStats] = questionStatsRows;
 
     const nextUp = upcomingTasks
       .filter((t) => t.status !== "done")

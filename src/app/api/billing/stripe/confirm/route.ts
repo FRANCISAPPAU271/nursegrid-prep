@@ -3,7 +3,7 @@ import { db } from "@/db";
 import { users, subscriptions, invoices } from "@/db/schema";
 import { and, eq } from "drizzle-orm";
 import { requireUser, handleApiError, ApiError } from "@/lib/api";
-import { getStripe, isStripeConfigured, FULL_ACCESS_PRICE_CENTS, FULL_ACCESS_LABEL } from "@/lib/stripe";
+import { getStripe, isStripeConfigured, PLAN_DETAILS, isValidPlanId } from "@/lib/stripe";
 
 export async function GET(request: Request) {
   try {
@@ -36,6 +36,11 @@ export async function GET(request: Request) {
       return NextResponse.json({ ok: true, alreadyProcessed: true });
     }
 
+    const planIdRaw = session.metadata?.plan ?? "four_month";
+    const planId = isValidPlanId(planIdRaw) ? planIdRaw : "four_month";
+    const plan = PLAN_DETAILS[planId];
+    const periodEnd = new Date(Date.now() + plan.days * 24 * 60 * 60 * 1000);
+
     await db
       .update(subscriptions)
       .set({ status: "canceled", canceledAt: new Date() })
@@ -45,10 +50,10 @@ export async function GET(request: Request) {
       .insert(subscriptions)
       .values({
         userId: user.id,
-        plan: "lifetime",
+        plan: planId,
         status: "active",
-        amountCents: FULL_ACCESS_PRICE_CENTS,
-        currentPeriodEnd: null,
+        amountCents: plan.amountCents,
+        currentPeriodEnd: periodEnd,
         stripeSubscriptionId: typeof session.subscription === "string" ? session.subscription : null,
         stripeCheckoutSessionId: sessionId,
         paymentMethod: "card",
@@ -58,8 +63,8 @@ export async function GET(request: Request) {
     await db.insert(invoices).values({
       userId: user.id,
       subscriptionId: subscription.id,
-      amountCents: FULL_ACCESS_PRICE_CENTS,
-      plan: FULL_ACCESS_LABEL,
+      amountCents: plan.amountCents,
+      plan: plan.label,
       status: "paid",
       paymentMethod: "card",
     });

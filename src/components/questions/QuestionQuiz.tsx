@@ -259,7 +259,7 @@ export default function QuestionQuiz({
               href="/dashboard/billing"
               className="mt-5 inline-block rounded-lg bg-amber-500 px-5 py-2.5 text-sm font-bold text-white shadow-sm hover:bg-amber-600"
             >
-              Get full access — $5
+              Get full access — from $5
             </Link>
           ) : (
             <Link

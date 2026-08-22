@@ -29,6 +29,11 @@ export const pool =
     // with its own pool — keep this small so we don't exhaust the database's
     // max connection limit. Local/dev environments can use the default.
     max: process.env.VERCEL ? 3 : 10,
+    // Keep idle connections around briefly so back-to-back requests on the
+    // same warm serverless instance reuse a connection instead of paying the
+    // TCP/TLS handshake cost again — a meaningful latency win on Neon.
+    idleTimeoutMillis: 30_000,
+    connectionTimeoutMillis: 10_000,
   });
 
 if (process.env.NODE_ENV !== "production") {

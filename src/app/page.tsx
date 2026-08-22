@@ -91,7 +91,7 @@ export default async function HomePage() {
             </Link>
           </div>
           <p className="mt-4 text-sm text-slate-500">
-            Free forever for tasks &amp; notes · 40 free preview questions · unlock everything for a one-time $5 payment.
+            Free forever for tasks &amp; notes · 40 free preview questions · full access from $5 for 4 months or $9 for a year.
           </p>
           <p className="mt-2 flex items-center gap-1.5 text-xs font-medium text-slate-400">
             <span>📲</span> Installable as an app on Android, iPhone, and desktop — no app store needed.
@@ -173,19 +173,43 @@ export default async function HomePage() {
         <div className="text-center">
           <h2 className="text-3xl font-extrabold text-slate-950">Simple, student-friendly pricing</h2>
           <p className="mt-2 text-slate-600">
-            Tasks and notes are free forever. Pay once — just $5 — to unlock all 10,000 questions, rationales, and strategies for life.
+            Tasks and notes are free forever. Choose a plan to unlock all 10,000 questions, rationales, and strategies.
           </p>
         </div>
-        <div className="mt-10 flex justify-center">
-          <div className="w-full max-w-md rounded-3xl border-2 border-emerald-300 bg-white p-8 text-center shadow-xl shadow-emerald-100">
-            <span className="rounded-full bg-emerald-100 px-3 py-1 text-xs font-bold uppercase tracking-wide text-emerald-700">
-              One-time payment
+        <div className="mt-10 grid gap-6 sm:grid-cols-2">
+          <div className="relative flex flex-col rounded-3xl border-2 border-slate-200 bg-white p-8 text-center shadow-sm">
+            <span className="mx-auto rounded-full bg-slate-100 px-3 py-1 text-xs font-bold uppercase tracking-wide text-slate-600">
+              4 Months
             </span>
             <p className="mt-4 text-5xl font-extrabold text-slate-950">
-              $5<span className="text-lg font-medium text-slate-500"> once</span>
+              $5<span className="text-lg font-medium text-slate-500"> /4mo</span>
             </p>
-            <p className="mt-2 text-sm text-slate-600">No subscription. No recurring charges. Yours forever.</p>
-            <ul className="mx-auto mt-6 max-w-xs space-y-2 text-left text-sm text-slate-700">
+            <p className="mt-2 text-sm text-slate-600">Full access for 4 months.</p>
+            <ul className="mx-auto mt-6 max-w-xs flex-1 space-y-2 text-left text-sm text-slate-700">
+              <li>✅ All 10,000 NCLEX-style questions</li>
+              <li>✅ Full rationales &amp; strategy tips</li>
+              <li>✅ Progress tracking by category</li>
+              <li>✅ Bookmarking &amp; mixed practice mode</li>
+            </ul>
+            <Link
+              href="/signup"
+              className="mt-8 block rounded-xl bg-slate-900 px-4 py-3.5 text-center text-base font-bold text-white shadow-lg hover:bg-slate-800"
+            >
+              Create your account
+            </Link>
+          </div>
+          <div className="relative flex flex-col rounded-3xl border-2 border-emerald-300 bg-white p-8 text-center shadow-xl shadow-emerald-100">
+            <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-emerald-600 px-3 py-1 text-xs font-bold text-white">
+              Best value
+            </span>
+            <span className="mx-auto rounded-full bg-emerald-100 px-3 py-1 text-xs font-bold uppercase tracking-wide text-emerald-700">
+              1 Year
+            </span>
+            <p className="mt-4 text-5xl font-extrabold text-slate-950">
+              $9<span className="text-lg font-medium text-slate-500"> /yr</span>
+            </p>
+            <p className="mt-2 text-sm text-slate-600">Full access for a full 12 months.</p>
+            <ul className="mx-auto mt-6 max-w-xs flex-1 space-y-2 text-left text-sm text-slate-700">
               <li>✅ All 10,000 NCLEX-style questions</li>
               <li>✅ Full rationales &amp; strategy tips</li>
               <li>✅ Progress tracking by category</li>
@@ -197,16 +221,16 @@ export default async function HomePage() {
             >
               Create your account
             </Link>
-            <div className="mt-6 flex flex-col gap-2 border-t border-slate-100 pt-5">
-              {PAYMENT_METHODS.map((m) => (
-                <div key={m.label} className="flex items-center justify-center gap-2 text-xs font-medium text-slate-500">
-                  <span>{m.icon}</span>
-                  <span className="font-semibold text-slate-700">{m.label}</span>
-                  <span>· {m.detail}</span>
-                </div>
-              ))}
-            </div>
           </div>
+        </div>
+        <div className="mx-auto mt-6 flex max-w-md flex-col gap-2">
+          {PAYMENT_METHODS.map((m) => (
+            <div key={m.label} className="flex items-center justify-center gap-2 text-xs font-medium text-slate-500">
+              <span>{m.icon}</span>
+              <span className="font-semibold text-slate-700">{m.label}</span>
+              <span>· {m.detail}</span>
+            </div>
+          ))}
         </div>
       </section>
 

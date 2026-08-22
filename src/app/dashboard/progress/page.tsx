@@ -11,27 +11,28 @@ export default async function ProgressPage() {
   const user = await getCurrentUser();
   if (!user) return null;
 
-  const categoryRows = await db
-    .select({
-      id: questionCategories.id,
-      name: questionCategories.name,
-      icon: questionCategories.icon,
-      totalQuestions: sql<number>`count(distinct ${questions.id})`.mapWith(Number),
-    })
-    .from(questionCategories)
-    .leftJoin(questions, eq(questions.categoryId, questionCategories.id))
-    .groupBy(questionCategories.id)
-    .orderBy(questionCategories.sortOrder);
-
-  const progressRows = await db
-    .select({
-      categoryId: questionAttempts.categoryId,
-      attempted: sql<number>`count(*)`.mapWith(Number),
-      correct: sql<number>`count(*) filter (where ${questionAttempts.isCorrect} = true)`.mapWith(Number),
-    })
-    .from(questionAttempts)
-    .where(eq(questionAttempts.userId, user.id))
-    .groupBy(questionAttempts.categoryId);
+  const [categoryRows, progressRows] = await Promise.all([
+    db
+      .select({
+        id: questionCategories.id,
+        name: questionCategories.name,
+        icon: questionCategories.icon,
+        totalQuestions: sql<number>`count(distinct ${questions.id})`.mapWith(Number),
+      })
+      .from(questionCategories)
+      .leftJoin(questions, eq(questions.categoryId, questionCategories.id))
+      .groupBy(questionCategories.id)
+      .orderBy(questionCategories.sortOrder),
+    db
+      .select({
+        categoryId: questionAttempts.categoryId,
+        attempted: sql<number>`count(*)`.mapWith(Number),
+        correct: sql<number>`count(*) filter (where ${questionAttempts.isCorrect} = true)`.mapWith(Number),
+      })
+      .from(questionAttempts)
+      .where(eq(questionAttempts.userId, user.id))
+      .groupBy(questionAttempts.categoryId),
+  ]);
 
   const progressMap = new Map(progressRows.map((p) => [p.categoryId, p]));
   const totalAttempted = progressRows.reduce((s, p) => s + p.attempted, 0);

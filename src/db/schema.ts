@@ -35,6 +35,7 @@ export const subscriptionPlanEnum = pgEnum("subscription_plan", [
   "quarterly",
   "annual",
   "lifetime",
+  "four_month",
 ]);
 export const paymentMethodEnum = pgEnum("payment_method", ["card", "mtn_momo"]);
 
@@ -96,6 +97,8 @@ export const sessions = pgTable("sessions", {
   token: text("token").primaryKey(),
   userId: text("user_id").notNull().references(() => users.id, { onDelete: "cascade" }),
   expiresAt: timestamp("expires_at", { withTimezone: true }).notNull(),
+  userAgent: text("user_agent"),
+  ipAddress: text("ip_address"),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 }, (t) => [index("sessions_user_idx").on(t.userId)]);
 
@@ -119,7 +122,11 @@ export const tasks = pgTable("tasks", {
   dueDate: timestamp("due_date", { withTimezone: true }),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
   updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
-}, (t) => [index("tasks_user_idx").on(t.userId)]);
+}, (t) => [
+  index("tasks_user_idx").on(t.userId),
+  index("tasks_user_status_idx").on(t.userId, t.status),
+  index("tasks_user_due_idx").on(t.userId, t.dueDate),
+]);
 
 // ---------- Notes ----------
 export const notes = pgTable("notes", {
@@ -131,7 +138,10 @@ export const notes = pgTable("notes", {
   pinned: boolean("pinned").notNull().default(false),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
   updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
-}, (t) => [index("notes_user_idx").on(t.userId)]);
+}, (t) => [
+  index("notes_user_idx").on(t.userId),
+  index("notes_user_updated_idx").on(t.userId, t.updatedAt),
+]);
 
 // ---------- NCLEX Question bank ----------
 export const questionCategories = pgTable("question_categories", {
@@ -172,6 +182,7 @@ export const questionAttempts = pgTable("question_attempts", {
 }, (t) => [
   index("attempts_user_idx").on(t.userId),
   index("attempts_question_idx").on(t.questionId),
+  index("attempts_user_category_idx").on(t.userId, t.categoryId),
 ]);
 
 export const questionBookmarks = pgTable("question_bookmarks", {

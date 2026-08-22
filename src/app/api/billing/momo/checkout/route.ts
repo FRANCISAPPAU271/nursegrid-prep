@@ -4,7 +4,7 @@ import { db } from "@/db";
 import { subscriptions, invoices, users } from "@/db/schema";
 import { and, eq } from "drizzle-orm";
 import { requireUser, handleApiError } from "@/lib/api";
-import { FULL_ACCESS_PRICE_CENTS, FULL_ACCESS_LABEL } from "@/lib/stripe";
+import { PLAN_DETAILS } from "@/lib/stripe";
 import { MOMO_RECEIVER_NUMBER } from "@/lib/momo";
 
 // NurseGrid Prep does not yet have MTN's Collections API credentials
@@ -15,6 +15,7 @@ import { MOMO_RECEIVER_NUMBER } from "@/lib/momo";
 // activate their account. This route records that reference for manual
 // reconciliation and unlocks premium immediately.
 const schema = z.object({
+  plan: z.enum(["four_month", "annual"]),
   momoNumber: z
     .string()
     .trim()
@@ -32,6 +33,7 @@ export async function POST(request: Request) {
     const user = await requireUser();
     const body = await request.json();
     const data = schema.parse(body);
+    const plan = PLAN_DETAILS[data.plan];
 
     // Simulate a brief verification delay against the reference number.
     await new Promise((resolve) => setTimeout(resolve, 500));
@@ -41,14 +43,16 @@ export async function POST(request: Request) {
       .set({ status: "canceled", canceledAt: new Date() })
       .where(and(eq(subscriptions.userId, user.id), eq(subscriptions.status, "active")));
 
+    const periodEnd = new Date(Date.now() + plan.days * 24 * 60 * 60 * 1000);
+
     const [subscription] = await db
       .insert(subscriptions)
       .values({
         userId: user.id,
-        plan: "lifetime",
+        plan: data.plan,
         status: "active",
-        amountCents: FULL_ACCESS_PRICE_CENTS,
-        currentPeriodEnd: null,
+        amountCents: plan.amountCents,
+        currentPeriodEnd: periodEnd,
         paymentMethod: "mtn_momo",
       })
       .returning();
@@ -58,8 +62,8 @@ export async function POST(request: Request) {
       .values({
         userId: user.id,
         subscriptionId: subscription.id,
-        amountCents: FULL_ACCESS_PRICE_CENTS,
-        plan: FULL_ACCESS_LABEL,
+        amountCents: plan.amountCents,
+        plan: plan.label,
         status: "paid",
         paymentMethod: "mtn_momo",
         momoNumber: data.momoNumber,

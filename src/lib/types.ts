@@ -77,7 +77,7 @@ export type PaymentMethod = "card" | "mtn_momo";
 export type Subscription = {
   id: string;
   userId: string;
-  plan: "monthly" | "quarterly" | "annual" | "lifetime";
+  plan: "monthly" | "quarterly" | "annual" | "lifetime" | "four_month";
   status: "active" | "canceled" | "expired";
   amountCents: number;
   startedAt: string;

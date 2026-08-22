@@ -76,6 +76,9 @@ export default function LoginForm() {
         <p>Premium: demo@nursegrid.app / password123</p>
         <p>Free: free@nursegrid.app / password123</p>
       </div>
+      <p className="text-center text-[11px] text-slate-400">
+        🔒 For your security, only one device can be signed in per account at a time.
+      </p>
       <p className="text-center text-sm text-slate-600">
         New here?{" "}
         <Link href="/signup" className="font-semibold text-emerald-700 hover:underline">

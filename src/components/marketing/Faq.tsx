@@ -13,11 +13,11 @@ const FAQS = [
   },
   {
     q: "How much does full access cost?",
-    a: "Full access is a single one-time payment of $5 — not a subscription. Pay once and you keep unlimited access to all 10,000 questions, rationales, strategies, and progress tracking forever.",
+    a: "Choose the plan that fits you: $5 for 4 months of full access, or $9 for a full year (best value). Both unlock unlimited access to all 10,000 questions, rationales, strategies, and progress tracking for the length of the plan.",
   },
   {
-    q: "Is this a subscription? Will I be charged again?",
-    a: "No. NurseGrid Prep full access is a one-time $5 payment. There are no recurring charges, no auto-renewals, and nothing to cancel.",
+    q: "Will I be charged again automatically?",
+    a: "No. Both plans are a single payment for a fixed period (4 months or 1 year) — there are no auto-renewals or surprise charges. When your access period ends, you can simply choose a plan again to continue.",
   },
   {
     q: "How can I pay?",

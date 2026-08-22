@@ -25,32 +25,35 @@ export default async function QuestionBankPage() {
   const user = await getCurrentUser();
   if (!user) return null;
 
-  const categoryRows = await db
-    .select({
-      id: questionCategories.id,
-      slug: questionCategories.slug,
-      name: questionCategories.name,
-      description: questionCategories.description,
-      clientNeed: questionCategories.clientNeed,
-      icon: questionCategories.icon,
-      sortOrder: questionCategories.sortOrder,
-      totalQuestions: sql<number>`count(distinct ${questions.id})`.mapWith(Number),
-      freeQuestions: sql<number>`count(distinct ${questions.id}) filter (where ${questions.isFree} = true)`.mapWith(Number),
-    })
-    .from(questionCategories)
-    .leftJoin(questions, eq(questions.categoryId, questionCategories.id))
-    .groupBy(questionCategories.id)
-    .orderBy(questionCategories.sortOrder);
-
-  const progressRows = await db
-    .select({
-      categoryId: questionAttempts.categoryId,
-      attempted: sql<number>`count(*)`.mapWith(Number),
-      correct: sql<number>`count(*) filter (where ${questionAttempts.isCorrect} = true)`.mapWith(Number),
-    })
-    .from(questionAttempts)
-    .where(eq(questionAttempts.userId, user.id))
-    .groupBy(questionAttempts.categoryId);
+  // These two queries are independent (one aggregates all categories, the
+  // other aggregates this user's attempts) — fetch them concurrently.
+  const [categoryRows, progressRows] = await Promise.all([
+    db
+      .select({
+        id: questionCategories.id,
+        slug: questionCategories.slug,
+        name: questionCategories.name,
+        description: questionCategories.description,
+        clientNeed: questionCategories.clientNeed,
+        icon: questionCategories.icon,
+        sortOrder: questionCategories.sortOrder,
+        totalQuestions: sql<number>`count(distinct ${questions.id})`.mapWith(Number),
+        freeQuestions: sql<number>`count(distinct ${questions.id}) filter (where ${questions.isFree} = true)`.mapWith(Number),
+      })
+      .from(questionCategories)
+      .leftJoin(questions, eq(questions.categoryId, questionCategories.id))
+      .groupBy(questionCategories.id)
+      .orderBy(questionCategories.sortOrder),
+    db
+      .select({
+        categoryId: questionAttempts.categoryId,
+        attempted: sql<number>`count(*)`.mapWith(Number),
+        correct: sql<number>`count(*) filter (where ${questionAttempts.isCorrect} = true)`.mapWith(Number),
+      })
+      .from(questionAttempts)
+      .where(eq(questionAttempts.userId, user.id))
+      .groupBy(questionAttempts.categoryId),
+  ]);
 
   const progressMap = new Map(progressRows.map((p) => [p.categoryId, p]));
   const totalQuestions = categoryRows.reduce((sum, c) => sum + c.totalQuestions, 0);
@@ -69,11 +72,11 @@ export default async function QuestionBankPage() {
           <div>
             <p className="text-sm font-bold text-amber-800">You&apos;re previewing the free tier</p>
             <p className="mt-1 text-sm text-amber-700">
-              Free accounts can practice a preview set in every category. Pay once — just $5 — for unlimited access to all {totalQuestions.toLocaleString()} questions.
+              Free accounts can practice a preview set in every category. Get full access to all {totalQuestions.toLocaleString()} questions from just $5.
             </p>
           </div>
           <Link href="/dashboard/billing" className="shrink-0 rounded-lg bg-amber-500 px-4 py-2.5 text-sm font-bold text-white shadow-sm hover:bg-amber-600">
-            Get full access — $5
+            Get full access — from $5
           </Link>
         </div>
       )}

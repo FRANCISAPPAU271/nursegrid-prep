@@ -1,6 +1,7 @@
 import { getCurrentUser } from "@/lib/auth";
 import SettingsForm from "@/components/settings/SettingsForm";
 import InstallAppCard from "@/components/settings/InstallAppCard";
+import SecurityCard from "@/components/settings/SecurityCard";
 
 export const dynamic = "force-dynamic";
 
@@ -24,7 +25,8 @@ export default async function SettingsPage() {
           createdAt: user.createdAt.toISOString(),
         }}
       />
-      <div className="mt-6">
+      <div className="mt-6 grid gap-6 lg:grid-cols-2">
+        <SecurityCard />
         <InstallAppCard />
       </div>
     </div>

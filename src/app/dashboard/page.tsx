@@ -15,50 +15,54 @@ export default async function OverviewPage() {
   const user = await getCurrentUser();
   if (!user) return null;
 
-  const [taskStats] = await db
-    .select({
-      total: sql<number>`count(*)`.mapWith(Number),
-      done: sql<number>`count(*) filter (where ${tasks.status} = 'done')`.mapWith(Number),
-      overdue: sql<number>`count(*) filter (where ${tasks.status} != 'done' and ${tasks.dueDate} is not null and ${tasks.dueDate} < now())`.mapWith(Number),
-    })
-    .from(tasks)
-    .where(eq(tasks.userId, user.id));
+  // Run all independent read queries concurrently instead of sequentially —
+  // this page issues six unrelated queries, and awaiting them one at a time
+  // would multiply round-trip latency to the database for no benefit.
+  const [taskStatsRows, noteStatsRows, questionStatsRows, totalQuestionsRows, upcoming, dailyQuestionRows] = await Promise.all([
+    db
+      .select({
+        total: sql<number>`count(*)`.mapWith(Number),
+        done: sql<number>`count(*) filter (where ${tasks.status} = 'done')`.mapWith(Number),
+        overdue: sql<number>`count(*) filter (where ${tasks.status} != 'done' and ${tasks.dueDate} is not null and ${tasks.dueDate} < now())`.mapWith(Number),
+      })
+      .from(tasks)
+      .where(eq(tasks.userId, user.id)),
+    db
+      .select({ total: sql<number>`count(*)`.mapWith(Number) })
+      .from(notes)
+      .where(eq(notes.userId, user.id)),
+    db
+      .select({
+        attempted: sql<number>`count(*)`.mapWith(Number),
+        correct: sql<number>`count(*) filter (where ${questionAttempts.isCorrect} = true)`.mapWith(Number),
+      })
+      .from(questionAttempts)
+      .where(eq(questionAttempts.userId, user.id)),
+    db.select({ totalQuestions: sql<number>`count(*)`.mapWith(Number) }).from(questions),
+    db
+      .select()
+      .from(tasks)
+      .where(and(eq(tasks.userId, user.id), sql`${tasks.status} != 'done'`))
+      .orderBy(sql`${tasks.dueDate} asc nulls last`)
+      .limit(5),
+    db
+      .select({
+        id: questions.id,
+        stem: questions.stem,
+        categoryName: questionCategories.name,
+      })
+      .from(questions)
+      .innerJoin(questionCategories, eq(questions.categoryId, questionCategories.id))
+      .where(eq(questions.isFree, true))
+      .orderBy(sql`random()`)
+      .limit(1),
+  ]);
 
-  const [noteStats] = await db
-    .select({ total: sql<number>`count(*)`.mapWith(Number) })
-    .from(notes)
-    .where(eq(notes.userId, user.id));
-
-  const [questionStats] = await db
-    .select({
-      attempted: sql<number>`count(*)`.mapWith(Number),
-      correct: sql<number>`count(*) filter (where ${questionAttempts.isCorrect} = true)`.mapWith(Number),
-    })
-    .from(questionAttempts)
-    .where(eq(questionAttempts.userId, user.id));
-
-  const [{ totalQuestions }] = await db
-    .select({ totalQuestions: sql<number>`count(*)`.mapWith(Number) })
-    .from(questions);
-
-  const upcoming = await db
-    .select()
-    .from(tasks)
-    .where(and(eq(tasks.userId, user.id), sql`${tasks.status} != 'done'`))
-    .orderBy(sql`${tasks.dueDate} asc nulls last`)
-    .limit(5);
-
-  const [dailyQuestion] = await db
-    .select({
-      id: questions.id,
-      stem: questions.stem,
-      categoryName: questionCategories.name,
-    })
-    .from(questions)
-    .innerJoin(questionCategories, eq(questions.categoryId, questionCategories.id))
-    .where(eq(questions.isFree, true))
-    .orderBy(sql`random()`)
-    .limit(1);
+  const [taskStats] = taskStatsRows;
+  const [noteStats] = noteStatsRows;
+  const [questionStats] = questionStatsRows;
+  const [{ totalQuestions }] = totalQuestionsRows;
+  const [dailyQuestion] = dailyQuestionRows;
 
   const accuracy = questionStats.attempted > 0 ? Math.round((questionStats.correct / questionStats.attempted) * 100) : null;
   const completion = taskStats.total > 0 ? Math.round((taskStats.done / taskStats.total) * 100) : 0;
@@ -76,14 +80,14 @@ export default async function OverviewPage() {
           <div>
             <p className="text-sm font-bold text-amber-800">Unlock the full {totalQuestions.toLocaleString()}-question bank</p>
             <p className="mt-1 text-sm text-amber-700">
-              You&apos;re on the free plan. Pay once — just $5 — to practice every category with full rationales and strategies, forever.
+              You&apos;re on the free plan. Get full access from just $5 for 4 months (or $9 for a full year) with rationales and strategies.
             </p>
           </div>
           <Link
             href="/dashboard/billing"
             className="shrink-0 rounded-lg bg-amber-500 px-4 py-2.5 text-sm font-bold text-white shadow-sm hover:bg-amber-600"
           >
-            Get full access — $5
+            Get full access — from $5
           </Link>
         </div>
       )}

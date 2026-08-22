@@ -1210,11 +1210,11 @@ async function main() {
     .insert(subscriptions)
     .values({
       userId: demoUser.id,
-      plan: "lifetime",
+      plan: "annual",
       status: "active",
-      amountCents: 500,
+      amountCents: 900,
       startedAt: premiumSince,
-      currentPeriodEnd: null,
+      currentPeriodEnd: new Date(premiumSince.getTime() + 365 * day),
       paymentMethod: "card",
     })
     .returning();
@@ -1223,8 +1223,8 @@ async function main() {
     {
       userId: demoUser.id,
       subscriptionId: sub.id,
-      amountCents: 500,
-      plan: "Full Access (lifetime)",
+      amountCents: 900,
+      plan: "1 Year",
       status: "paid",
       paymentMethod: "card",
       issuedAt: premiumSince,
@@ -1233,15 +1233,16 @@ async function main() {
 
   // Example of a friend who paid via MTN Mobile Money, to showcase that flow.
   if (referredUsers[0]) {
+    const momoStart = new Date(now - 3 * day);
     const [momoSub] = await db
       .insert(subscriptions)
       .values({
         userId: referredUsers[0].id,
-        plan: "lifetime",
+        plan: "four_month",
         status: "active",
         amountCents: 500,
-        startedAt: new Date(now - 3 * day),
-        currentPeriodEnd: null,
+        startedAt: momoStart,
+        currentPeriodEnd: new Date(momoStart.getTime() + 120 * day),
         paymentMethod: "mtn_momo",
       })
       .returning();
@@ -1249,12 +1250,12 @@ async function main() {
       userId: referredUsers[0].id,
       subscriptionId: momoSub.id,
       amountCents: 500,
-      plan: "Full Access (lifetime)",
+      plan: "4 Months",
       status: "paid",
       paymentMethod: "mtn_momo",
       momoNumber: "0554123456",
       momoReference: "MP240915.1122.A98213",
-      issuedAt: new Date(now - 3 * day),
+      issuedAt: momoStart,
     });
   }
 

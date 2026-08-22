@@ -4,12 +4,13 @@ import { db } from "@/db";
 import { subscriptions, invoices, users } from "@/db/schema";
 import { and, eq } from "drizzle-orm";
 import { requireUser, handleApiError } from "@/lib/api";
-import { FULL_ACCESS_PRICE_CENTS, FULL_ACCESS_LABEL } from "@/lib/stripe";
+import { PLAN_DETAILS } from "@/lib/stripe";
 
 // This is the fallback demo card checkout used only when Stripe is not
 // configured (no STRIPE_SECRET_KEY). Once real Stripe keys are added, the
 // billing UI switches automatically to /api/billing/stripe/checkout.
 const schema = z.object({
+  plan: z.enum(["four_month", "annual"]),
   cardNumber: z.string().trim().min(4).max(30),
   cardName: z.string().trim().min(2).max(80),
 });
@@ -19,6 +20,7 @@ export async function POST(request: Request) {
     const user = await requireUser();
     const body = await request.json();
     const data = schema.parse(body);
+    const plan = PLAN_DETAILS[data.plan];
 
     // Simulate payment processor latency + a deterministic "decline" only for
     // obviously fake test numbers, otherwise approve (this is a mock gateway).
@@ -32,14 +34,16 @@ export async function POST(request: Request) {
       .set({ status: "canceled", canceledAt: new Date() })
       .where(and(eq(subscriptions.userId, user.id), eq(subscriptions.status, "active")));
 
+    const periodEnd = new Date(Date.now() + plan.days * 24 * 60 * 60 * 1000);
+
     const [subscription] = await db
       .insert(subscriptions)
       .values({
         userId: user.id,
-        plan: "lifetime",
+        plan: data.plan,
         status: "active",
-        amountCents: FULL_ACCESS_PRICE_CENTS,
-        currentPeriodEnd: null,
+        amountCents: plan.amountCents,
+        currentPeriodEnd: periodEnd,
         paymentMethod: "card",
       })
       .returning();
@@ -49,8 +53,8 @@ export async function POST(request: Request) {
       .values({
         userId: user.id,
         subscriptionId: subscription.id,
-        amountCents: FULL_ACCESS_PRICE_CENTS,
-        plan: FULL_ACCESS_LABEL,
+        amountCents: plan.amountCents,
+        plan: plan.label,
         status: "paid",
         paymentMethod: "card",
       })

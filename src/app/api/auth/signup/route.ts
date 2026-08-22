@@ -132,7 +132,10 @@ export async function POST(request: Request) {
       pinned: true,
     });
 
-    await createSession(user.id);
+    const userAgent = request.headers.get("user-agent");
+    const ipAddress = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? null;
+    await createSession(user.id, { userAgent, ipAddress });
+
     return NextResponse.json(
       { user: { id: user.id, name: user.name, email: user.email }, referralBonusApplied: Boolean(referrer) },
       { status: 201 },
