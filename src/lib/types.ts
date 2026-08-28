@@ -207,3 +207,22 @@ export type Invoice = {
   momoReference: string | null;
   issuedAt: string;
 };
+
+// ---------- MTN MoMo admin review queue ----------
+export type MomoRequestStatus = "pending" | "approved" | "rejected";
+
+export type MomoPaymentRequest = {
+  id: string;
+  userId: string;
+  userName: string;
+  userEmail: string;
+  plan: "four_month" | "annual";
+  amountCents: number;
+  momoNumber: string;
+  momoReference: string;
+  status: MomoRequestStatus;
+  reviewNote: string | null;
+  reviewedBy: string | null;
+  reviewedAt: string | null;
+  createdAt: string;
+};

@@ -24,10 +24,14 @@ export default function Sidebar({
   name,
   email,
   isPremium,
+  isAdmin,
+  pendingMomoCount = 0,
 }: {
   name: string;
   email: string;
   isPremium: boolean;
+  isAdmin?: boolean;
+  pendingMomoCount?: number;
 }) {
   const pathname = usePathname();
   const router = useRouter();
@@ -65,6 +69,32 @@ export default function Sidebar({
             </Link>
           );
         })}
+
+        {isAdmin && (
+          <>
+            <div className="my-2 border-t border-slate-800" />
+            <p className="px-3 pb-1 pt-1 text-[11px] font-bold uppercase tracking-wide text-slate-500">Admin</p>
+            <Link
+              href="/dashboard/admin/payments"
+              onClick={() => setOpen(false)}
+              className={`flex items-center justify-between gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition ${
+                pathname.startsWith("/dashboard/admin/payments")
+                  ? "bg-emerald-600 text-white"
+                  : "text-slate-300 hover:bg-slate-800 hover:text-white"
+              }`}
+            >
+              <span className="flex items-center gap-3">
+                <span className="text-base">🛡️</span>
+                Review Payments
+              </span>
+              {pendingMomoCount > 0 && (
+                <span className="grid h-5 min-w-5 place-items-center rounded-full bg-amber-500 px-1 text-[11px] font-bold text-white">
+                  {pendingMomoCount}
+                </span>
+              )}
+            </Link>
+          </>
+        )}
       </nav>
 
       <div className="m-3 rounded-xl bg-slate-800/70 p-3">

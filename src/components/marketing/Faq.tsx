@@ -33,7 +33,7 @@ const FAQS = [
   },
   {
     q: "How can I get help or contact support?",
-    a: "The fastest way is WhatsApp — tap the chat button in the corner of the screen, or message us directly at +233 50 306 1727. You can also email support@nursegridprep.app.",
+    a: "The fastest way is WhatsApp — tap the chat button in the corner of the screen, or message us directly at +233 54 242 8075. You can also email support@nursegridprep.app.",
   },
 ];
 

@@ -4,9 +4,9 @@
 // src/lib/momo.ts) — one is for receiving payments, this one is for chat
 // support. Ghana country code is +233; the local number's leading 0 is
 // dropped for the international/wa.me format.
-export const WHATSAPP_LOCAL_NUMBER = "0503061727";
-export const WHATSAPP_INTL_NUMBER = "233503061727";
-export const WHATSAPP_DISPLAY_NUMBER = "+233 50 306 1727";
+export const WHATSAPP_LOCAL_NUMBER = "0542428075";
+export const WHATSAPP_INTL_NUMBER = "233542428075";
+export const WHATSAPP_DISPLAY_NUMBER = "+233 54 242 8075";
 
 export function buildWhatsAppLink(message?: string): string {
   const base = `https://wa.me/${WHATSAPP_INTL_NUMBER}`;

@@ -39,6 +39,7 @@ export const subscriptionPlanEnum = pgEnum("subscription_plan", [
   "four_month",
 ]);
 export const paymentMethodEnum = pgEnum("payment_method", ["card", "mtn_momo"]);
+export const momoRequestStatusEnum = pgEnum("momo_request_status", ["pending", "approved", "rejected"]);
 
 // ---------- Auth ----------
 export const users = pgTable("users", {
@@ -49,6 +50,7 @@ export const users = pgTable("users", {
   school: text("school"),
   cohort: text("cohort"),
   isPremium: boolean("is_premium").notNull().default(false),
+  isAdmin: boolean("is_admin").notNull().default(false),
   premiumSince: timestamp("premium_since", { withTimezone: true }),
   premiumTrialEndsAt: timestamp("premium_trial_ends_at", { withTimezone: true }),
   referralCode: text("referral_code"),
@@ -357,3 +359,27 @@ export const invoices = pgTable("invoices", {
   momoReference: text("momo_reference"),
   issuedAt: timestamp("issued_at", { withTimezone: true }).notNull().defaultNow(),
 }, (t) => [index("invoices_user_idx").on(t.userId)]);
+
+// ---------- MTN Mobile Money payments awaiting manual admin review ----------
+// Since NurseGrid Prep does not yet have MTN's Collections API credentials to
+// verify payments automatically, every MoMo "I've paid" submission creates a
+// pending request here instead of instantly granting premium. An admin
+// reviews it against the actual MoMo transaction history/SMS and approves or
+// rejects it; only approval grants premium access.
+export const momoPaymentRequests = pgTable("momo_payment_requests", {
+  id: text("id").primaryKey().$defaultFn(genId),
+  userId: text("user_id").notNull().references(() => users.id, { onDelete: "cascade" }),
+  plan: subscriptionPlanEnum("plan").notNull(),
+  amountCents: integer("amount_cents").notNull(),
+  momoNumber: text("momo_number").notNull(),
+  momoReference: text("momo_reference").notNull(),
+  status: momoRequestStatusEnum("status").notNull().default("pending"),
+  reviewNote: text("review_note"),
+  reviewedBy: text("reviewed_by").references(() => users.id, { onDelete: "set null" }),
+  reviewedAt: timestamp("reviewed_at", { withTimezone: true }),
+  subscriptionId: text("subscription_id").references(() => subscriptions.id, { onDelete: "set null" }),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+}, (t) => [
+  index("momo_requests_user_idx").on(t.userId),
+  index("momo_requests_status_idx").on(t.status),
+]);

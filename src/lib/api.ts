@@ -16,6 +16,12 @@ export async function requireUser(): Promise<SessionUser> {
   return user;
 }
 
+export async function requireAdmin(): Promise<SessionUser> {
+  const user = await requireUser();
+  if (!user.isAdmin) throw new ApiError("Admin access required", 403);
+  return user;
+}
+
 export function handleApiError(error: unknown) {
   if (error instanceof ApiError) {
     return NextResponse.json({ error: error.message }, { status: error.status });

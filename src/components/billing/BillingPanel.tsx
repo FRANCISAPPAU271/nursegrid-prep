@@ -51,12 +51,23 @@ export default function BillingPanel({
   const [cardModalPlan, setCardModalPlan] = useState<(typeof PLANS)[number] | null>(null);
   const [momoModalPlan, setMomoModalPlan] = useState<(typeof PLANS)[number] | null>(null);
   const [redirecting, setRedirecting] = useState(false);
+  const [pendingMomoRequest, setPendingMomoRequest] = useState<{ id: string; plan: string; createdAt: string } | null>(null);
   const toast = useToast();
   const router = useRouter();
   const searchParams = useSearchParams();
 
   const activeSub = subscriptions.find((s) => s.status === "active") ?? null;
   const isTrialOnly = isPremium && !activeSub && premiumTrialEndsAt;
+
+  useEffect(() => {
+    fetch("/api/billing/momo/checkout")
+      .then((res) => res.json())
+      .then((data) => {
+        const pending = (data.requests ?? []).find((r: { status: string }) => r.status === "pending");
+        setPendingMomoRequest(pending ? { id: pending.id, plan: pending.plan, createdAt: pending.createdAt } : null);
+      })
+      .catch(() => {});
+  }, []);
 
   useEffect(() => {
     const checkout = searchParams.get("checkout");
@@ -108,6 +119,11 @@ export default function BillingPanel({
   }
 
   function chooseMomo(plan: (typeof PLANS)[number]) {
+    if (pendingMomoRequest) {
+      setPickerPlan(null);
+      toast.push("You already have a MoMo payment under review — please wait for it to be verified first.", "info");
+      return;
+    }
     setPickerPlan(null);
     setMomoModalPlan(plan);
   }
@@ -127,6 +143,28 @@ export default function BillingPanel({
           <p className="mt-1 text-sm text-amber-700">
             You have free premium access from referral rewards until {fmt(premiumTrialEndsAt)}. Choose a plan below anytime to keep access after
             it ends.
+          </p>
+        </div>
+      )}
+
+      {pendingMomoRequest && (
+        <div className="rounded-2xl border border-amber-200 bg-amber-50 p-5">
+          <p className="text-sm font-bold text-amber-800">⏳ MTN Mobile Money payment under review</p>
+          <p className="mt-1 text-sm text-amber-700">
+            We received your payment submission ({planLabel(pendingMomoRequest.plan)}) on {fmt(pendingMomoRequest.createdAt)}. We&apos;re
+            verifying it against our MoMo transaction records and will activate your full access shortly — usually within a few hours.
+          </p>
+          <p className="mt-2 text-xs text-amber-700">
+            Need it faster? Message us on{" "}
+            <a
+              href={buildWhatsAppLink("Hi NurseGrid Prep! I'd like to check on my MTN Mobile Money payment review status.")}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold underline"
+            >
+              WhatsApp ({WHATSAPP_DISPLAY_NUMBER})
+            </a>
+            .
           </p>
         </div>
       )}
@@ -253,7 +291,7 @@ export default function BillingPanel({
                 <span className="text-2xl">📱</span>
                 <span>
                   <span className="block text-sm font-bold text-slate-900">MTN Mobile Money</span>
-                  <span className="block text-xs text-slate-500">Ghana · send to {MOMO_RECEIVER_NUMBER}</span>
+                  <span className="block text-xs text-slate-500">Ghana · send to {MOMO_RECEIVER_NUMBER} · verified within a few hours</span>
                 </span>
               </span>
               <span className="text-slate-400">→</span>
@@ -404,12 +442,12 @@ function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
         body: JSON.stringify({ plan: plan.id, momoNumber, momoReference }),
       });
       const data = await res.json();
-      if (!res.ok) throw new Error(data.error ?? "Unable to confirm payment");
-      toast.push("Payment recorded — full access unlocked!", "success");
+      if (!res.ok) throw new Error(data.error ?? "Unable to submit payment for review");
+      toast.push("Submitted! We'll verify your payment and activate your account shortly.", "success");
       onClose();
       router.refresh();
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Unable to confirm payment");
+      setError(err instanceof Error ? err.message : "Unable to submit payment for review");
     } finally {
       setLoading(false);
     }
@@ -442,7 +480,12 @@ function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
       </div>
 
       <form onSubmit={submit} className="space-y-4">
-        <p className="text-sm font-bold text-slate-900">Step 2 — Confirm your payment</p>
+        <div>
+          <p className="text-sm font-bold text-slate-900">Step 2 — Submit for verification</p>
+          <p className="mt-1 text-xs text-slate-500">
+            Our team manually checks each transaction reference against our MoMo records before granting access — usually within a few hours.
+          </p>
+        </div>
         {error && <div className="rounded-lg bg-rose-50 px-4 py-3 text-sm font-medium text-rose-700">{error}</div>}
         <div>
           <label className="mb-1 block text-sm font-semibold text-slate-700">Your MoMo number</label>
@@ -474,7 +517,7 @@ function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
             disabled={loading}
             className="rounded-lg bg-amber-500 px-4 py-2 text-sm font-bold text-white shadow-sm hover:bg-amber-600 disabled:opacity-70"
           >
-            {loading ? "Confirming…" : "I've paid — activate my account"}
+            {loading ? "Submitting…" : "I've paid — submit for review"}
           </button>
         </div>
       </form>

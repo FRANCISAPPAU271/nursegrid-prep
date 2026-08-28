@@ -19,6 +19,7 @@ import {
   learningTopics,
   learningBookmarks,
   carePlans,
+  momoPaymentRequests,
 } from "./schema";
 
 const REFERRAL_ALPHABET = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
@@ -1492,6 +1493,7 @@ async function main() {
   await db.delete(strategyBookmarks);
   await db.delete(learningBookmarks);
   await db.delete(carePlans);
+  await db.delete(momoPaymentRequests);
   await db.delete(invoices);
   await db.delete(subscriptions);
   await db.delete(referrals);
@@ -1616,6 +1618,21 @@ async function main() {
       cohort: "ADN Class of 2026",
       isPremium: false,
       referralCode: "NG-FREE001",
+    })
+    .returning();
+
+  // An admin account that can review and approve/reject MTN MoMo payments
+  // from the /dashboard/admin/payments screen.
+  const [adminUser] = await db
+    .insert(users)
+    .values({
+      name: "NurseGrid Admin",
+      email: "admin@nursegrid.app",
+      passwordHash: await bcrypt.hash("password123", 10),
+      isPremium: true,
+      isAdmin: true,
+      premiumSince: new Date(now - 90 * day),
+      referralCode: "NG-ADMIN01",
     })
     .returning();
 
@@ -1747,6 +1764,58 @@ async function main() {
       momoReference: "MP240915.1122.A98213",
       issuedAt: momoStart,
     });
+
+    // Also log this already-approved payment in the review queue so the
+    // admin history shows a realistic mix of statuses.
+    await db.insert(momoPaymentRequests).values({
+      userId: referredUsers[0].id,
+      plan: "four_month",
+      amountCents: 500,
+      momoNumber: "0554123456",
+      momoReference: "MP240915.1122.A98213",
+      status: "approved",
+      reviewedBy: adminUser.id,
+      reviewedAt: momoStart,
+      subscriptionId: momoSub.id,
+      createdAt: momoStart,
+    });
+  }
+
+  // A couple of MoMo submissions still waiting on admin review, and one that
+  // was rejected — so the /dashboard/admin/payments screen looks alive.
+  if (referredUsers[1] && referredUsers[2]) {
+    await db.insert(momoPaymentRequests).values([
+      {
+        userId: referredUsers[1].id,
+        plan: "annual",
+        amountCents: 900,
+        momoNumber: "0209876543",
+        momoReference: "MP240921.0847.B10492",
+        status: "pending",
+        createdAt: new Date(now - 3 * 60 * 60 * 1000),
+      },
+      {
+        userId: freeUser.id,
+        plan: "four_month",
+        amountCents: 500,
+        momoNumber: "0244001122",
+        momoReference: "MP240921.1930.C55210",
+        status: "pending",
+        createdAt: new Date(now - 45 * 60 * 1000),
+      },
+      {
+        userId: referredUsers[2].id,
+        plan: "four_month",
+        amountCents: 500,
+        momoNumber: "0271239988",
+        momoReference: "INVALID-REF-0001",
+        status: "rejected",
+        reviewNote: "Reference not found in MoMo transaction history — asked student to resend via WhatsApp.",
+        reviewedBy: adminUser.id,
+        reviewedAt: new Date(now - 1 * day),
+        createdAt: new Date(now - 1 * day - 30 * 60 * 1000),
+      },
+    ]);
   }
 
   // Attempts: sample a spread of questions per category with a realistic ~72% accuracy.
@@ -1837,6 +1906,7 @@ async function main() {
   console.log("Seed complete!");
   console.log("Demo premium login: demo@nursegrid.app / password123");
   console.log("Demo free login:    free@nursegrid.app / password123");
+  console.log("Admin login:        admin@nursegrid.app / password123");
 }
 
 main()

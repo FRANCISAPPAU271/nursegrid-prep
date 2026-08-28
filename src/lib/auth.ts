@@ -85,6 +85,7 @@ export type SessionUser = {
   school: string | null;
   cohort: string | null;
   isPremium: boolean;
+  isAdmin: boolean;
   premiumSince: Date | null;
   premiumTrialEndsAt: Date | null;
   referralCode: string | null;
@@ -108,6 +109,7 @@ export const getCurrentUser = cache(async (): Promise<SessionUser | null> => {
       school: users.school,
       cohort: users.cohort,
       isPremium: users.isPremium,
+      isAdmin: users.isAdmin,
       premiumSince: users.premiumSince,
       premiumTrialEndsAt: users.premiumTrialEndsAt,
       referralCode: users.referralCode,
