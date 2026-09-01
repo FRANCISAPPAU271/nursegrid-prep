@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { LearningTopicDetail as LearningTopicDetailType } from "@/lib/types";
 import { useToast } from "@/components/ui/Toast";
+import Watermark from "@/components/ui/Watermark";
 
 export default function LearningTopicDetail({ initial }: { initial: LearningTopicDetailType }) {
   const [topic, setTopic] = useState(initial);
@@ -51,7 +52,8 @@ export default function LearningTopicDetail({ initial }: { initial: LearningTopi
       </div>
 
       <div className="grid gap-6 lg:grid-cols-3">
-        <div className="space-y-6 lg:col-span-2">
+        <div className="relative secure-content space-y-6 lg:col-span-2">
+          <Watermark />
           {topic.imageUrl && (
             <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white">
               <div className="relative h-64 w-full sm:h-80">

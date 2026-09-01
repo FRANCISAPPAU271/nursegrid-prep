@@ -42,6 +42,16 @@ select:focus-visible,
   border-radius: 4px;
 }
 
+/* Security class to disable text highlighting, dragging, and copy-paste
+   on high-value premium content areas (questions, rationales, learning notes). */
+.secure-content {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none;    /* Firefox */
+  -ms-user-select: none;     /* IE10+ */
+  user-select: none;         /* Standard */
+  -webkit-user-drag: none;   /* Prevent image dragging */
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;

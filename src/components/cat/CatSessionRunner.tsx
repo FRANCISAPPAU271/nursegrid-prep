@@ -5,6 +5,7 @@ import Link from "next/link";
 import type { CatHistoryEntry, CatQuestion, CatStatus } from "@/lib/types";
 import { SkeletonList } from "@/components/ui/Skeleton";
 import { useToast } from "@/components/ui/Toast";
+import Watermark from "@/components/ui/Watermark";
 
 type SessionMeta = {
   id: string;
@@ -157,7 +158,8 @@ export default function CatSessionRunner({ sessionId }: { sessionId: string }) {
         <h3 className="mb-3 text-base font-bold text-slate-950">Question review</h3>
         <div className="space-y-4">
           {history.map((h, i) => (
-            <div key={h.questionId} className="rounded-2xl border border-slate-200 bg-white p-5">
+            <div key={h.questionId} className="relative secure-content rounded-2xl border border-slate-200 bg-white p-5">
+              <Watermark />
               <div className="flex items-center justify-between gap-2">
                 <div className="flex items-center gap-2">
                   <span className="text-xs font-bold text-slate-400">Q{i + 1}</span>
@@ -221,7 +223,8 @@ export default function CatSessionRunner({ sessionId }: { sessionId: string }) {
       </div>
 
       {question && (
-        <div className="animate-fade-in rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <div className="animate-fade-in relative secure-content rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <Watermark />
           <div className="mb-3 flex items-center gap-2">
             <span className={`rounded-full px-2 py-0.5 text-[11px] font-semibold capitalize ${DIFFICULTY_STYLE[question.difficulty]}`}>{question.difficulty}</span>
             <span className="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-600">{question.categoryName}</span>
