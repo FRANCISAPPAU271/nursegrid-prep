@@ -5,7 +5,6 @@ import { db } from "@/db";
 import { momoPaymentRequests } from "@/db/schema";
 import { eq, sql } from "drizzle-orm";
 import Sidebar from "@/components/dashboard/Sidebar";
-import { ToastProvider } from "@/components/ui/Toast";
 import ReferralBonusToast from "@/components/dashboard/ReferralBonusToast";
 
 export const dynamic = "force-dynamic";
@@ -24,7 +23,7 @@ export default async function DashboardLayout({ children }: { children: ReactNod
   }
 
   return (
-    <ToastProvider>
+    <>
       <ReferralBonusToast />
       <div className="flex min-h-screen bg-slate-50">
         <Sidebar name={user.name} email={user.email} isPremium={user.isPremium} isAdmin={user.isAdmin} pendingMomoCount={pendingMomoCount} />
@@ -32,6 +31,6 @@ export default async function DashboardLayout({ children }: { children: ReactNod
           <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 lg:px-8 lg:py-8">{children}</div>
         </main>
       </div>
-    </ToastProvider>
+    </>
   );
 }

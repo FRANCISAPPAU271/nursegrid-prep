@@ -6,6 +6,8 @@ import ServiceWorkerRegistrar from "@/components/pwa/ServiceWorkerRegistrar";
 import InstallAppPrompt from "@/components/pwa/InstallAppPrompt";
 import CapacitorBridge from "@/components/pwa/CapacitorBridge";
 import WhatsAppButton from "@/components/contact/WhatsAppButton";
+import SecurityGuard from "@/components/ui/SecurityGuard";
+import { ToastProvider } from "@/components/ui/Toast";
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -80,11 +82,14 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <link rel="dns-prefetch" href="https://www.youtube.com" />
       </head>
       <body className="bg-slate-50 font-sans text-slate-900 antialiased">
-        <ServiceWorkerRegistrar />
-        <InstallAppPrompt />
-        <CapacitorBridge />
-        <WhatsAppButton />
-        {children}
+        <ToastProvider>
+          <ServiceWorkerRegistrar />
+          <InstallAppPrompt />
+          <CapacitorBridge />
+          <WhatsAppButton />
+          <SecurityGuard />
+          {children}
+        </ToastProvider>
       </body>
     </html>
   );

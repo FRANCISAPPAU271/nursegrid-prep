@@ -52,6 +52,14 @@ select:focus-visible,
   -webkit-user-drag: none;   /* Prevent image dragging */
 }
 
+/* Print/PDF blackout security protection: if a user attempts to print
+   or export the page to a PDF, hide all content entirely. */
+@media print {
+  body {
+    display: none !important;
+  }
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;
