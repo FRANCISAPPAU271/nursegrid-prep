@@ -680,6 +680,8 @@ const STRATEGY_DEFS = [
     example: "A client with new chest pain and a client who is anxious about a diagnosis: the chest pain is physiological and takes priority over the anxiety.",
     icon: "layers",
     readTimeMinutes: 3,
+    videoId: "NiJOy1SObxM",
+    videoTitle: "Maslow’s Hierarchy of Needs: Exam Prioritization Made Simple",
   },
   {
     slug: "nursing-process-adpie",
@@ -695,6 +697,8 @@ const STRATEGY_DEFS = [
     example: "A client reports new abdominal pain. Before giving pain medication, first assess the pain (location, quality, severity) unless vital signs indicate an emergency.",
     icon: "compass",
     readTimeMinutes: 4,
+    videoId: "am9zN5calho",
+    videoTitle: "How to Use the Nursing Process (ADPIE) to Prioritize Care",
   },
   {
     slug: "five-rights-of-delegation",
@@ -748,6 +752,8 @@ const STRATEGY_DEFS = [
     example: "'This is the nurse calling about Mr. Lee in room 4 (S). He had a hip replacement yesterday (B). His blood pressure just dropped to 84/50 and he looks pale (A). I need you to come assess him now (R).'",
     icon: "message",
     readTimeMinutes: 4,
+    videoId: "uERVFUMo2Vo",
+    videoTitle: "I-SBAR Shift Report Handoff: Nurse-to-Nurse Demonstration",
   },
   {
     slug: "least-restrictive-safety",
@@ -842,6 +848,8 @@ const STRATEGY_DEFS = [
     example: "Order: 500 mL over 4 hours, drop factor 15 gtt/mL. Rate = 500/4 = 125 mL/hr. Drops/min = 125 x 15 ÷ 60 ≈ 31 gtt/min.",
     icon: "flask",
     readTimeMinutes: 5,
+    videoId: "Uc-Etqbb24Y",
+    videoTitle: "Nursing Dosage Calculations Using 3 Methods: Desired Over Have, Ratio/Proportion, & Dimensional",
   },
   {
     slug: "infection-control-decision-tree",
@@ -858,6 +866,8 @@ const STRATEGY_DEFS = [
     example: "A client with suspected tuberculosis needs airborne precautions: an N95 respirator and a negative-pressure room.",
     icon: "shield",
     readTimeMinutes: 4,
+    videoId: "esE1T39KgqY",
+    videoTitle: "Isolation Precautions Mnemonics: Contact, Droplet, and Airborne",
   },
   {
     slug: "time-management-matrix",
