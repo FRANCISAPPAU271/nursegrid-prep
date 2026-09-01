@@ -663,10 +663,12 @@ const STRATEGY_DEFS = [
     example: "Four clients: one with stable chronic COPD, one with new stridor, one with a healing incision, and one anxious client. Stridor threatens the airway — see that client first.",
     icon: "triangle",
     readTimeMinutes: 4,
+    videoId: "xnlu4S4qjsU",
+    videoTitle: "ABC Nursing (Airway Breathing Circulation) prioritization guide",
   },
   {
     slug: "maslows-hierarchy",
-    title: "Maslow's Hierarchy for NCLEX Questions",
+    title: "Maslow's Hierarchy for Exam Questions",
     category: "Prioritization",
     summary: "Physiological needs come before safety, and safety comes before psychosocial needs.",
     content: [
@@ -710,6 +712,8 @@ const STRATEGY_DEFS = [
     example: "You can delegate bathing a stable client to a UAP, but you cannot delegate assessing a new wound — that requires the RN.",
     icon: "list",
     readTimeMinutes: 5,
+    videoId: "JszfqVZ0Ntw",
+    videoTitle: "The Five Rights of Nursing Delegation explained",
   },
   {
     slug: "therapeutic-communication",
@@ -726,6 +730,8 @@ const STRATEGY_DEFS = [
     example: "A client says, 'I'm scared about my surgery.' The best response is 'Tell me what worries you most about the surgery,' not 'Don't worry, you'll be fine.'",
     icon: "message",
     readTimeMinutes: 4,
+    videoId: "svMEO66BlJY",
+    videoTitle: "Therapeutic Communication Techniques in Nursing",
   },
   {
     slug: "sbar-handoff",
@@ -802,6 +808,8 @@ const STRATEGY_DEFS = [
     example: "For a select-all question on heart failure teaching, evaluate each statement (diet, weights, medications, activity) individually rather than picking a set number of answers.",
     icon: "list",
     readTimeMinutes: 3,
+    videoId: "WfvSEYS0Ntg",
+    videoTitle: "NMC CBT & OSCE: Select All That Apply (SATA) Questions Strategy",
   },
   {
     slug: "lab-value-quick-reference",
@@ -873,7 +881,7 @@ const STRATEGY_DEFS = [
     category: "Test-Taking Mindset",
     summary: "When in doubt, pick the option that focuses on the client's individual needs over routine or convenience.",
     content: [
-      "NCLEX favors answers that individualize care over answers that describe a rigid routine or facility convenience.",
+      "Exam questions favor answers that individualize care over answers that describe a rigid routine or facility convenience.",
       "Eliminate options that prioritize staff convenience, efficiency, or 'the way it's always done' over client safety or preference.",
       "Look for answers that involve the client in decision-making when appropriate.",
       "If two answers seem clinically similar, pick the one that better respects the client's autonomy and individual situation.",
@@ -979,7 +987,7 @@ const STRATEGY_DEFS = [
     slug: "cultural-sensitivity-in-answers",
     title: "Selecting Culturally Sensitive Answers",
     category: "Communication",
-    summary: "The best NCLEX answer respects a client's cultural and religious preferences whenever it is safe to do so.",
+    summary: "The best exam answer respects a client's cultural and religious preferences whenever it is safe to do so.",
     content: [
       "Avoid answers that impose the nurse's own beliefs or assume all clients want the same type of care.",
       "Whenever an option offers to incorporate the client's cultural, spiritual, or personal preference safely, it is usually the better choice.",
@@ -1358,9 +1366,9 @@ const LEARNING_TOPIC_DEFS = [
     ],
     commonConditions: ["Pressure injuries", "Cellulitis", "Skin tears", "Burns", "Allergic dermatitis"],
     imageUrl: null,
-    videoId: null,
-    videoTitle: null,
-    videoSource: null,
+    videoId: "4zKjzl0futI",
+    videoTitle: "Meet the skin! (Overview)",
+    videoSource: "Khan Academy",
   },
   {
     slug: "hematologic-immune-system",
@@ -1400,9 +1408,9 @@ const LEARNING_TOPIC_DEFS = [
     ],
     commonConditions: ["Anemia", "Leukemia", "Thrombocytopenia", "Sickle cell disease", "Neutropenia", "Deep vein thrombosis"],
     imageUrl: null,
-    videoId: null,
-    videoTitle: null,
-    videoSource: null,
+    videoId: "rp7T4IItbtM",
+    videoTitle: "Types of immune responses: innate and adaptive, humoral vs. cell-mediated",
+    videoSource: "Khan Academy",
   },
   {
     slug: "obstetric-reproductive-anatomy",
@@ -1429,7 +1437,7 @@ const LEARNING_TOPIC_DEFS = [
       "Amniotic fluid volume within expected range for gestational age.",
     ],
     nursingNotes: [
-      "Learn the 3 fetal circulation shortcuts (ductus venosus, foramen ovale, ductus arteriosus) — NCLEX loves asking why they close after birth (rising oxygen levels and changing pressures).",
+      "Learn the 3 fetal circulation shortcuts (ductus venosus, foramen ovale, ductus arteriosus) — exams love asking why they close after birth (rising oxygen levels and changing pressures).",
       "Fundal height, fetal heart rate, and fetal movement are quick, reliable ways to screen fetal well-being at each prenatal visit.",
       "Painless, bright red bleeding in the third trimester suggests placenta previa — avoid vaginal exams until previa is ruled out.",
       "Sudden, severe abdominal pain with a rigid uterus and dark red bleeding suggests placental abruption — this is an emergency.",
@@ -1475,9 +1483,9 @@ const LEARNING_TOPIC_DEFS = [
     redFlags: [],
     commonConditions: [],
     imageUrl: null,
-    videoId: null,
-    videoTitle: null,
-    videoSource: null,
+    videoId: "am9zN5calho",
+    videoTitle: "The Nursing Process (ADPIE) explained",
+    videoSource: "Nursing education series",
   },
 ] as const;
 
@@ -1524,7 +1532,7 @@ async function main() {
 
   console.log("Inserting strategies...");
   await db.insert(strategies).values(
-    STRATEGY_DEFS.map((s, i) => ({
+    STRATEGY_DEFS.map((s: any, i) => ({
       slug: s.slug,
       title: s.title,
       category: s.category,
@@ -1534,6 +1542,8 @@ async function main() {
       icon: s.icon,
       readTimeMinutes: s.readTimeMinutes,
       sortOrder: i,
+      videoId: s.videoId || null,
+      videoTitle: s.videoTitle || null,
     })),
   );
 
@@ -1674,7 +1684,7 @@ async function main() {
     { userId: demoUser.id, title: "Submit med-surg care plan", description: "Complete and upload the care plan for Mr. Thompson (CHF).", category: "assignment", status: "in_progress", priority: "high", dueDate: new Date(now + 1 * day) },
     { userId: demoUser.id, title: "Clinical rotation — Labor & Delivery", description: "7am arrival, review fetal monitoring strips before pre-conference.", category: "clinical", status: "todo", priority: "high", dueDate: new Date(now + 2 * day) },
     { userId: demoUser.id, title: "Pharmacology unit exam", description: "Covers cardiac, respiratory, and endocrine medications.", category: "exam", status: "todo", priority: "high", dueDate: new Date(now + 5 * day) },
-    { userId: demoUser.id, title: "Practice 50 NCLEX questions — Med-Surg", description: "Focus on cardiac and respiratory categories this week.", category: "study", status: "in_progress", priority: "medium", dueDate: new Date(now + 3 * day) },
+    { userId: demoUser.id, title: "Practice 50 NMC exam questions — Med-Surg", description: "Focus on cardiac and respiratory categories this week.", category: "study", status: "in_progress", priority: "medium", dueDate: new Date(now + 3 * day) },
     { userId: demoUser.id, title: "Skills lab — IV insertion check-off", description: "Bring gloves, tourniquet, and skills packet.", category: "skills_lab", status: "todo", priority: "medium", dueDate: new Date(now + 4 * day) },
     { userId: demoUser.id, title: "Read Ch. 12 — Fluid & Electrolytes", description: "Focus on potassium and sodium imbalances before Friday's quiz.", category: "study", status: "todo", priority: "medium", dueDate: new Date(now + 6 * day) },
     { userId: demoUser.id, title: "Dosage calculation worksheet", description: "20 problems, due before pharmacology lab.", category: "assignment", status: "done", priority: "medium", dueDate: new Date(now - 2 * day) },
@@ -1686,7 +1696,7 @@ async function main() {
   ]);
 
   await db.insert(tasks).values([
-    { userId: freeUser.id, title: "Complete NCLEX diagnostic quiz", description: "Try a few free preview questions to see where you stand.", category: "exam", status: "todo", priority: "high", dueDate: new Date(now + 2 * day) },
+    { userId: freeUser.id, title: "Complete NMC exam diagnostic quiz", description: "Try a few free preview questions to see where you stand.", category: "exam", status: "todo", priority: "high", dueDate: new Date(now + 2 * day) },
     { userId: freeUser.id, title: "Review med-surg clinical prep packet", description: "Read tomorrow's clinical assignment before pre-conference.", category: "clinical", status: "todo", priority: "medium", dueDate: new Date(now + 5 * day) },
   ]);
 
@@ -1900,7 +1910,7 @@ async function main() {
   await db.insert(waitlistSignups).values([
     { email: "hopeful.nursing.student@example.com", source: "landing", createdAt: new Date(now - 4 * day) },
     { email: "future.rn.2028@example.com", source: "landing", createdAt: new Date(now - 2 * day) },
-    { email: "nclex.curious@example.com", source: "landing", createdAt: new Date(now - 1 * day) },
+    { email: "nmc.curious@example.com", source: "landing", createdAt: new Date(now - 1 * day) },
   ]);
 
   console.log("Seed complete!");

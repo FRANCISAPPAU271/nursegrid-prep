@@ -105,7 +105,25 @@ export default function StrategyLibrary({ initial }: { initial: Strategy[] }) {
                 </button>
               </div>
               {isOpen && (
-                <div className="animate-fade-in mt-4 space-y-2 border-t border-slate-100 pt-4">
+                <div className="animate-fade-in mt-4 space-y-4 border-t border-slate-100 pt-4">
+                  {s.videoId && (
+                    <div className="overflow-hidden rounded-xl border border-slate-200 bg-slate-50">
+                      <div className="relative aspect-video w-full">
+                        <iframe
+                          src={`https://www.youtube.com/embed/${s.videoId}`}
+                          title={s.videoTitle ?? s.title}
+                          className="absolute inset-0 h-full w-full"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                        />
+                      </div>
+                      {s.videoTitle && (
+                        <div className="px-3 py-2 text-xs font-semibold text-slate-500 bg-white border-t border-slate-100">
+                          🎥 Video Lesson: {s.videoTitle}
+                        </div>
+                      )}
+                    </div>
+                  )}
                   <ul className="list-disc space-y-1.5 pl-5 text-sm text-slate-700">
                     {s.content.map((line, i) => (
                       <li key={i}>{line}</li>

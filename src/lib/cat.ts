@@ -1,10 +1,13 @@
 import "server-only";
 
 // ---------------------------------------------------------------------------
-// A simplified, transparent adaptive-testing simulation for practice
-// purposes. This is NOT the NCSBN's real NCLEX CAT algorithm — it's a
-// simplified item-response-style simulation intended to help students
-// practice under adaptive-difficulty conditions.
+// A simplified, transparent adaptive-difficulty practice mode. The real NMC
+// CBT (Computer Based Test) used for UK nursing registration is a
+// fixed-length, non-adaptive multiple-choice exam delivered via Pearson VUE
+// — it does not adjust question difficulty during the test. This feature is
+// a study tool inspired by adaptive testing concepts, intended to help
+// students practice across a spread of difficulty levels; it is not a
+// simulation of the official NMC CBT.
 // ---------------------------------------------------------------------------
 
 export const CAT_MIN_QUESTIONS = 15;
@@ -44,8 +47,9 @@ export type StopDecision = { shouldStop: boolean; status: "passed" | "failed" | 
 
 // Simplified 95%-confidence-interval stopping rule against a passing
 // standard of theta = 0 (i.e., "average" difficulty). This mirrors the
-// *shape* of real CAT stopping rules (stop once confidence interval clears
-// the passing standard) without reproducing the proprietary algorithm.
+// *shape* of adaptive-testing stopping rules used in some computerized
+// exams (stop once confidence interval clears the passing standard) as a
+// general study concept — it is not tied to any specific exam board.
 export function checkStopCondition(theta: number, questionNumber: number, minQuestions: number, maxQuestions: number): StopDecision {
   if (questionNumber >= maxQuestions) {
     return { shouldStop: true, status: theta >= 0 ? "passed" : "failed" };

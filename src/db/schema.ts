@@ -146,7 +146,7 @@ export const notes = pgTable("notes", {
   index("notes_user_updated_idx").on(t.userId, t.updatedAt),
 ]);
 
-// ---------- NCLEX Question bank ----------
+// ---------- NMC exam question bank ----------
 export const questionCategories = pgTable("question_categories", {
   id: text("id").primaryKey().$defaultFn(genId),
   slug: text("slug").notNull(),
@@ -226,12 +226,13 @@ export const examSessions = pgTable("exam_sessions", {
   completedAt: timestamp("completed_at", { withTimezone: true }),
 }, (t) => [index("exam_sessions_user_idx").on(t.userId)]);
 
-// ---------- Computerized Adaptive Testing (CAT) practice sessions ----------
-// A simplified, transparent simulation of adaptive testing for practice
-// purposes: question difficulty adapts based on prior answers, and the
-// session stops early once a simple confidence-interval rule indicates a
-// likely pass/fail, or once the maximum length is reached. This does not
-// reproduce NCSBN's proprietary CAT algorithm.
+// ---------- Adaptive difficulty practice sessions ----------
+// A simplified, transparent adaptive-difficulty practice mode: question
+// difficulty adapts based on prior answers, and the session stops early once
+// a simple confidence-interval rule indicates a likely pass/fail, or once the
+// maximum length is reached. Note: the real NMC CBT (Computer Based Test) is
+// a fixed-length, non-adaptive multiple-choice exam delivered via Pearson
+// VUE — this practice mode is a study tool, not a simulation of that exam.
 export const catStatusEnum = pgEnum("cat_status", ["in_progress", "passed", "failed", "max_length"]);
 
 export type CatHistoryItem = {
@@ -276,6 +277,8 @@ export const strategies = pgTable("strategies", {
   icon: text("icon").notNull().default("compass"),
   readTimeMinutes: integer("read_time_minutes").notNull().default(4),
   sortOrder: integer("sort_order").notNull().default(0),
+  videoId: text("video_id"),
+  videoTitle: text("video_title"),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 }, (t) => [uniqueIndex("strategies_slug_idx").on(t.slug)]);
 

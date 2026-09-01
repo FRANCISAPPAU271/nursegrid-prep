@@ -70,6 +70,8 @@ export type Strategy = {
   readTimeMinutes: number;
   sortOrder: number;
   isBookmarked: boolean;
+  videoId: string | null;
+  videoTitle: string | null;
 };
 
 export type LearningTopicSummary = {

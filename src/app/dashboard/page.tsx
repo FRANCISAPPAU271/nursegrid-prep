@@ -97,7 +97,7 @@ export default async function OverviewPage() {
         <StatCard label="Overdue tasks" value={String(taskStats.overdue)} sub={taskStats.overdue > 0 ? "Needs attention" : "All caught up"} icon="⏰" tone={taskStats.overdue > 0 ? "warn" : "good"} />
         <StatCard label="Study notes" value={String(noteStats.total)} sub="saved notes" icon="📝" />
         <StatCard
-          label="NCLEX accuracy"
+          label="NMC exam accuracy"
           value={accuracy === null ? "—" : `${accuracy}%`}
           sub={`${questionStats.attempted} questions answered`}
           icon="🧠"

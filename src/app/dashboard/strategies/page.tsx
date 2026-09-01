@@ -30,13 +30,15 @@ export default async function StrategiesPage() {
     readTimeMinutes: s.readTimeMinutes,
     sortOrder: s.sortOrder,
     isBookmarked: bookmarked.has(s.id),
+    videoId: s.videoId,
+    videoTitle: s.videoTitle,
   }));
 
   return (
     <div>
       <div className="mb-6 flex flex-col gap-1">
         <h1 className="text-2xl font-extrabold tracking-tight text-slate-950">Test-taking strategies</h1>
-        <p className="text-slate-600">Proven frameworks to reason through NCLEX-style questions, free for every student.</p>
+        <p className="text-slate-600">Proven frameworks to reason through NMC exam-style questions, free for every student.</p>
       </div>
       <StrategyLibrary initial={initial} />
     </div>

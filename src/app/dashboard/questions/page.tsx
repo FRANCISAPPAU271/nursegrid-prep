@@ -47,7 +47,7 @@ export default async function QuestionBankPage() {
   return (
     <div>
       <div className="mb-6 flex flex-col gap-1">
-        <h1 className="text-2xl font-extrabold tracking-tight text-slate-950">NCLEX Question Bank</h1>
+        <h1 className="text-2xl font-extrabold tracking-tight text-slate-950">NMC Exam Question Bank</h1>
         <p className="text-slate-600">
           {totalQuestions.toLocaleString()} questions across {categoryRows.length} categories, each with a rationale and strategy tip.
         </p>

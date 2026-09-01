@@ -18,13 +18,13 @@ export default function StructuredData() {
         url: baseUrl,
         name: "NurseGrid Prep",
         description:
-          "A task manager built for student nurses: organize clinicals and study time, then master 10,000 NCLEX-style questions with rationales and proven test-taking strategies.",
+          "A task manager built for student nurses: organize clinicals and study time, then master 10,000 NMC exam-style questions with rationales and proven test-taking strategies.",
         publisher: { "@id": `${baseUrl}/#organization` },
       },
       {
         "@type": "Product",
         name: "NurseGrid Prep",
-        description: "NCLEX-style question bank, task manager, and study tools for nursing students.",
+        description: "NMC exam-style question bank, task manager, and study tools for nursing students.",
         brand: { "@type": "Brand", name: "NurseGrid Prep" },
         offers: [
           { "@type": "Offer", name: "4 Months Full Access", price: "5.00", priceCurrency: "USD" },

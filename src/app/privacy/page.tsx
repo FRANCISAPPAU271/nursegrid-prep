@@ -31,9 +31,9 @@ export default function PrivacyPolicyPage() {
         <div className="prose-sm mt-8 space-y-8 text-sm leading-relaxed text-slate-700">
           <Section title="1. Overview">
             <p>
-              NurseGrid Prep (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;) provides a task manager and NCLEX-style question bank for
-              student nurses. This Privacy Policy explains what information we collect, how we use it, and the choices you have. By creating an
-              account or using NurseGrid Prep, you agree to the practices described here.
+              NurseGrid Prep (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;) provides a task manager and NMC exam-style question bank
+              for student nurses. This Privacy Policy explains what information we collect, how we use it, and the choices you have. By creating
+              an account or using NurseGrid Prep, you agree to the practices described here.
             </p>
           </Section>
 

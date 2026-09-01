@@ -13,20 +13,20 @@ const jakarta = Plus_Jakarta_Sans({
   display: "swap",
 });
 
-const title = "NurseGrid Prep — NCLEX Task Manager & 10,000-Question Bank";
+const title = "NurseGrid Prep — NMC Exam Task Manager & 10,000-Question Bank";
 const description =
-  "A task manager built for student nurses: organize clinicals and study time, then master 10,000 NCLEX-style questions with rationales and proven test-taking strategies.";
+  "A task manager built for student nurses: organize clinicals and study time, then master 10,000 NMC exam-style questions with rationales and proven test-taking strategies.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"),
   title: { default: title, template: "%s · NurseGrid Prep" },
   description,
   keywords: [
-    "NCLEX practice questions",
+    "NMC exam practice questions",
     "nursing student task manager",
-    "NCLEX rationales",
+    "NMC CBT rationales",
     "nursing school planner",
-    "NCLEX test-taking strategies",
+    "NMC test-taking strategies",
   ],
   authors: [{ name: "NurseGrid Prep" }],
   category: "education",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     description,
     type: "website",
     siteName: "NurseGrid Prep",
-    locale: "en_US",
+    locale: "en_GB",
   },
   twitter: {
     card: "summary_large_image",

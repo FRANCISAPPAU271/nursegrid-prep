@@ -15,7 +15,7 @@ const FEATURES = [
     icon: "🗂️",
   },
   {
-    title: "10,000 NCLEX-style questions",
+    title: "10,000 NMC exam-style questions",
     description:
       "Every question ships with a client-need tag, a detailed rationale, and a test-taking strategy tip — not just an answer key.",
     icon: "🧠",
@@ -90,10 +90,10 @@ export default async function HomePage() {
           <h1 className="mt-5 text-4xl font-extrabold leading-tight tracking-tight text-slate-950 sm:text-5xl">
             Organize your nursing program.
             <br />
-            <span className="text-emerald-600">Pass the NCLEX with confidence.</span>
+            <span className="text-emerald-600">Pass your NMC exams with confidence.</span>
           </h1>
           <p className="mt-5 max-w-xl text-lg text-slate-600">
-            NurseGrid Prep pairs a clinical-rotation task manager with a bank of 10,000 NCLEX-style
+            NurseGrid Prep pairs a clinical-rotation task manager with a bank of 10,000 NMC exam-style
             questions — every one with a rationale and a test-taking strategy so you learn the
             reasoning, not just the answer.
           </p>
@@ -148,7 +148,7 @@ export default async function HomePage() {
               </li>
               <li className="flex items-center gap-3 rounded-xl bg-slate-50 p-3 transition hover:bg-slate-100">
                 <span className="h-2.5 w-2.5 shrink-0 rounded-full bg-emerald-500" />
-                <span className="text-sm text-slate-700">50 NCLEX questions — Maternal Newborn</span>
+                <span className="text-sm text-slate-700">50 NMC exam questions — Maternal Newborn</span>
               </li>
             </ul>
             <div className="mt-6 rounded-2xl bg-gradient-to-br from-emerald-600 to-emerald-700 p-4 text-white shadow-lg shadow-emerald-600/20">
@@ -214,7 +214,7 @@ export default async function HomePage() {
       <section className="mx-auto max-w-6xl px-6 py-16">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold text-slate-950">Trusted by nursing students everywhere</h2>
-          <p className="mt-2 text-slate-600">Real feedback from students using NurseGrid Prep to get through nursing school and pass the NCLEX.</p>
+          <p className="mt-2 text-slate-600">Real feedback from students using NurseGrid Prep to get through nursing school and pass their NMC exams.</p>
         </div>
         <div className="mt-10">
           <Testimonials />
@@ -238,7 +238,7 @@ export default async function HomePage() {
             </p>
             <p className="mt-2 text-sm text-slate-600">Full access for 4 months.</p>
             <ul className="mx-auto mt-6 max-w-xs flex-1 space-y-2 text-left text-sm text-slate-700">
-              <li>✅ All 10,000 NCLEX-style questions</li>
+              <li>✅ All 10,000 NMC exam-style questions</li>
               <li>✅ Full rationales &amp; strategy tips</li>
               <li>✅ Progress tracking by category</li>
               <li>✅ Bookmarking &amp; mixed practice mode</li>
@@ -262,7 +262,7 @@ export default async function HomePage() {
             </p>
             <p className="mt-2 text-sm text-slate-600">Full access for a full 12 months.</p>
             <ul className="mx-auto mt-6 max-w-xs flex-1 space-y-2 text-left text-sm text-slate-700">
-              <li>✅ All 10,000 NCLEX-style questions</li>
+              <li>✅ All 10,000 NMC exam-style questions</li>
               <li>✅ Full rationales &amp; strategy tips</li>
               <li>✅ Progress tracking by category</li>
               <li>✅ Bookmarking &amp; mixed practice mode</li>

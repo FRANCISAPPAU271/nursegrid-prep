@@ -52,7 +52,7 @@ export default async function ProgressPage() {
     <div>
       <div className="mb-6 flex flex-col gap-1">
         <h1 className="text-2xl font-extrabold tracking-tight text-slate-950">Progress</h1>
-        <p className="text-slate-600">Track your accuracy across every NCLEX client-needs category.</p>
+        <p className="text-slate-600">Track your accuracy across every NMC exam client-needs category.</p>
       </div>
 
       <div className="mb-6 grid gap-4 sm:grid-cols-3">

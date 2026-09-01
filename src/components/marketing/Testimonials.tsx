@@ -15,7 +15,7 @@ const TESTIMONIALS = [
   },
   {
     quote:
-      "The strategy library taught me how to actually think through prioritization questions instead of guessing. I passed NCLEX on my first attempt.",
+      "The strategy library taught me how to actually think through prioritization questions instead of guessing. I passed my NMC CBT on my first attempt.",
     name: "Aaliyah R.",
     role: "RN, recent graduate",
     initials: "AR",

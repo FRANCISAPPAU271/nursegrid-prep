@@ -96,7 +96,7 @@ export async function POST(request: Request) {
     await db.insert(tasks).values([
       {
         userId: user.id,
-        title: "Complete NCLEX diagnostic quiz",
+        title: "Complete NMC exam diagnostic quiz",
         description: "Take a short quiz from the question bank to see where you stand.",
         category: "exam",
         status: "todo",

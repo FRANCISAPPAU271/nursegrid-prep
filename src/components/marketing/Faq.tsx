@@ -4,8 +4,12 @@ import { useState } from "react";
 
 const FAQS = [
   {
-    q: "How many NCLEX-style questions are included?",
-    a: "NurseGrid Prep includes 10,000 original NCLEX-style questions covering every major client-needs category, including med-surg, pharmacology, maternal-newborn, pediatrics, mental health, fundamentals, safety, leadership, and more. Every question ships with a detailed rationale and a test-taking strategy tip.",
+    q: "How many NMC exam-style questions are included?",
+    a: "NurseGrid Prep includes 10,000 original NMC exam-style questions covering every major client-needs category, including med-surg, pharmacology, maternal-newborn, pediatrics, mental health, fundamentals, safety, leadership, and more. Every question ships with a detailed rationale and a test-taking strategy tip.",
+  },
+  {
+    q: "What is the NMC CBT and how does this app help me prepare?",
+    a: "The NMC CBT (Computer Based Test) is the multiple-choice exam international nurses and midwives take, delivered via Pearson VUE, as part of joining the UK nursing and midwifery register. NurseGrid Prep gives you a large bank of practice questions with rationales and strategies covering the same client-needs categories the real exam draws from, plus a Custom Exam builder and an adaptive-difficulty practice mode to help you build speed and confidence.",
   },
   {
     q: "What's included in the free plan?",
@@ -21,11 +25,11 @@ const FAQS = [
   },
   {
     q: "How can I pay?",
-    a: "You can pay with a Visa card (processed securely through Stripe) from anywhere in the world, or with MTN Mobile Money if you're in Ghana — just send payment to 0598872146 and confirm your transaction reference in the app to activate instantly.",
+    a: "You can pay with a Visa card (processed securely through Stripe) from anywhere in the world, or with MTN Mobile Money if you're in Ghana — just send payment to 0598872146 and confirm your transaction reference in the app. Our team verifies each MoMo payment and activates your account, usually within a few hours.",
   },
   {
-    q: "Is NurseGrid Prep affiliated with NCSBN or the official NCLEX exam?",
-    a: "No. NurseGrid Prep is an independent study tool built to help nursing students practice exam-style reasoning. It is not affiliated with, endorsed by, or sponsored by the NCSBN.",
+    q: "Is NurseGrid Prep affiliated with the NMC or Pearson VUE?",
+    a: "No. NurseGrid Prep is an independent study tool built to help nursing students practice exam-style reasoning. It is not affiliated with, endorsed by, or sponsored by the Nursing and Midwifery Council (NMC), Pearson VUE, or any official examination body.",
   },
   {
     q: "Do you offer referral rewards?",

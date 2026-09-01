@@ -4,7 +4,7 @@ import SiteFooter from "@/components/marketing/SiteFooter";
 
 export const metadata: Metadata = {
   title: "Terms of Service — NurseGrid Prep",
-  description: "The terms and conditions for using NurseGrid Prep's task manager and NCLEX question bank.",
+  description: "The terms and conditions for using NurseGrid Prep's task manager and NMC exam question bank.",
   alternates: { canonical: "/terms" },
   robots: { index: true, follow: true },
 };
@@ -41,10 +41,10 @@ export default function TermsPage() {
 
           <Section title="2. Description of service">
             <p>
-              NurseGrid Prep is a study and productivity tool for nursing students, including a task manager, notes, an NCLEX-style question bank
-              with rationales, a test-taking strategy library, a body-systems learning library, and nursing care plan tools. It is an independent
-              educational product and is not affiliated with, endorsed by, or sponsored by the NCSBN or the official NCLEX examination. We make no
-              guarantee of exam results.
+              NurseGrid Prep is a study and productivity tool for nursing students, including a task manager, notes, an NMC exam-style question
+              bank with rationales, a test-taking strategy library, a body-systems learning library, and nursing care plan tools. It is an
+              independent educational product and is not affiliated with, endorsed by, or sponsored by the Nursing and Midwifery Council (NMC),
+              Pearson VUE, or any official examination body. We make no guarantee of exam results.
             </p>
           </Section>
 
@@ -98,8 +98,8 @@ export default function TermsPage() {
           <Section title="8. Disclaimer of warranties">
             <p>
               The Service is provided &ldquo;as is&rdquo; without warranties of any kind. NurseGrid Prep does not guarantee that using the Service
-              will result in passing the NCLEX or any other examination. Content is for educational purposes and should not replace guidance from
-              your nursing program or licensed instructors.
+              will result in passing the NMC CBT, OSCE, or any other examination. Content is for educational purposes and should not replace
+              guidance from your nursing program or licensed instructors.
             </p>
           </Section>
 
