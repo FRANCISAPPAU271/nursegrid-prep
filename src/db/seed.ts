@@ -1603,6 +1603,7 @@ async function main() {
   const day = 24 * 60 * 60 * 1000;
   const passwordHash = await bcrypt.hash("password123", 10);
   const premiumSince = new Date(Date.now() - 45 * 24 * 60 * 60 * 1000);
+  const answerHash = await bcrypt.hash("spot", 10);
   const [demoUser] = await db
     .insert(users)
     .values({
@@ -1614,6 +1615,8 @@ async function main() {
       isPremium: true,
       premiumSince,
       referralCode: "NG-DEMO001",
+      securityQuestion: "What was the name of your first pet?",
+      securityAnswerHash: answerHash,
     })
     .returning();
 
@@ -1628,6 +1631,8 @@ async function main() {
       cohort: "ADN Class of 2026",
       isPremium: false,
       referralCode: "NG-FREE001",
+      securityQuestion: "What was the name of your first pet?",
+      securityAnswerHash: await bcrypt.hash("buddy", 10),
     })
     .returning();
 
@@ -1643,6 +1648,8 @@ async function main() {
       isAdmin: true,
       premiumSince: new Date(now - 90 * day),
       referralCode: "NG-ADMIN01",
+      securityQuestion: "What was the name of your first pet?",
+      securityAnswerHash: await bcrypt.hash("rover", 10),
     })
     .returning();
 

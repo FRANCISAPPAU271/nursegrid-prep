@@ -56,6 +56,8 @@ export const users = pgTable("users", {
   referralCode: text("referral_code"),
   referredByCode: text("referred_by_code"),
   stripeCustomerId: text("stripe_customer_id"),
+  securityQuestion: text("security_question"),
+  securityAnswerHash: text("security_answer_hash"),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 }, (t) => [
   uniqueIndex("users_email_idx").on(t.email),

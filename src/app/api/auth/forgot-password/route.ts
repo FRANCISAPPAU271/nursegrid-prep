@@ -1,54 +1,90 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { db } from "@/db";
-import { users, passwordResetTokens } from "@/db/schema";
+import { users, sessions } from "@/db/schema";
 import { eq } from "drizzle-orm";
-import { handleApiError } from "@/lib/api";
-import { isEmailConfigured, sendPasswordResetEmail } from "@/lib/email";
+import { handleApiError, ApiError } from "@/lib/api";
+import { hashPassword, verifyPassword } from "@/lib/auth";
 
-const schema = z.object({ email: z.string().trim().toLowerCase().email("Enter a valid email") });
+const getQuerySchema = z.object({
+  email: z.string().trim().toLowerCase().email(),
+});
 
-const RESET_TOKEN_TTL_MS = 60 * 60 * 1000; // 1 hour
+const postBodySchema = z.object({
+  email: z.string().trim().toLowerCase().email(),
+  securityAnswer: z.string().trim().toLowerCase(),
+  newPassword: z.string().min(6, "Password must be at least 6 characters").max(72),
+});
 
+// GET: retrieve the security question for a given email address so we can
+// show it on the forgot-password screen.
+export async function GET(request: Request) {
+  try {
+    const { searchParams } = new URL(request.url);
+    const email = searchParams.get("email");
+    const data = getQuerySchema.parse({ email });
+
+    const rows = await db
+      .select({ securityQuestion: users.securityQuestion })
+      .from(users)
+      .where(eq(users.email, data.email))
+      .limit(1);
+
+    const user = rows[0];
+    if (!user) {
+      throw new ApiError("No account found with that email address.", 444);
+    }
+
+    if (!user.securityQuestion) {
+      throw new ApiError(
+        "No security question was set up for this account. Please contact support on WhatsApp to reset your password.",
+        400,
+      );
+    }
+
+    return NextResponse.json({ securityQuestion: user.securityQuestion });
+  } catch (error) {
+    if (error instanceof z.ZodError) {
+      return NextResponse.json({ error: "Enter a valid email" }, { status: 422 });
+    }
+    return handleApiError(error);
+  }
+}
+
+// POST: verify the answered security question and instantly reset the
+// password, invalidating any active sessions across all other devices.
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { email } = schema.parse(body);
+    const data = postBodySchema.parse(body);
 
-    const rows = await db.select({ id: users.id, name: users.name }).from(users).where(eq(users.email, email)).limit(1);
+    const rows = await db
+      .select({ id: users.id, securityAnswerHash: users.securityAnswerHash })
+      .from(users)
+      .where(eq(users.email, data.email))
+      .limit(1);
+
     const user = rows[0];
-
-    // Always respond with the same generic message whether or not the email
-    // exists, so we don't leak which emails have accounts.
-    const genericResponse = {
-      ok: true,
-      message: "If an account exists for that email, a password reset link has been sent.",
-    };
-
     if (!user) {
-      return NextResponse.json(genericResponse);
+      throw new ApiError("No account found with that email address.", 404);
     }
 
-    const token = crypto.randomUUID() + crypto.randomUUID();
-    const expiresAt = new Date(Date.now() + RESET_TOKEN_TTL_MS);
-    await db.insert(passwordResetTokens).values({ token, userId: user.id, expiresAt });
-
-    const origin = new URL(request.url).origin;
-    const resetUrl = `${origin}/reset-password?token=${token}`;
-
-    if (isEmailConfigured()) {
-      await sendPasswordResetEmail(email, user.name, resetUrl);
-      return NextResponse.json(genericResponse);
+    if (!user.securityAnswerHash) {
+      throw new ApiError("No security answer was set up for this account.", 400);
     }
 
-    // Fallback for when no email provider (RESEND_API_KEY) is configured yet:
-    // return the reset link directly in the response so the flow is still
-    // fully testable end-to-end. Clearly flagged as a dev/demo fallback.
-    return NextResponse.json({
-      ...genericResponse,
-      devResetUrl: resetUrl,
-      devNote: "Email sending isn't configured yet, so here's your reset link directly. Add RESEND_API_KEY to send real emails instead.",
-    });
+    const valid = await verifyPassword(data.securityAnswer, user.securityAnswerHash);
+    if (!valid) {
+      throw new ApiError("Incorrect answer. Please try again or contact WhatsApp support.", 401);
+    }
+
+    const passwordHash = await hashPassword(data.newPassword);
+    await db.update(users).set({ passwordHash }).where(eq(users.id, user.id));
+
+    // Clear all existing active sessions as a security measure
+    await db.delete(sessions).where(eq(sessions.userId, user.id));
+
+    return NextResponse.json({ ok: true });
   } catch (error) {
     if (error instanceof z.ZodError) {
       return NextResponse.json({ error: error.issues[0]?.message ?? "Invalid input" }, { status: 422 });

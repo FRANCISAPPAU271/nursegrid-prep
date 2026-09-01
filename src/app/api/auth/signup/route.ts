@@ -14,6 +14,8 @@ const schema = z.object({
   school: z.string().trim().max(120).optional().or(z.literal("")),
   cohort: z.string().trim().max(60).optional().or(z.literal("")),
   referralCode: z.string().trim().max(20).optional().or(z.literal("")),
+  securityQuestion: z.string().trim().min(5, "Please choose a security question"),
+  securityAnswer: z.string().trim().min(1, "Please enter your security answer"),
 });
 
 async function uniqueReferralCode(): Promise<string> {
@@ -47,6 +49,7 @@ export async function POST(request: Request) {
     }
 
     const passwordHash = await hashPassword(data.password);
+    const securityAnswerHash = await hashPassword(data.securityAnswer.toLowerCase());
     const referralCode = await uniqueReferralCode();
     const now = new Date();
     const trialEnd = referrer ? new Date(now.getTime() + REFERRAL_REWARD_DAYS * 24 * 60 * 60 * 1000) : null;
@@ -64,6 +67,8 @@ export async function POST(request: Request) {
         isPremium: Boolean(referrer),
         premiumSince: referrer ? now : null,
         premiumTrialEndsAt: trialEnd,
+        securityQuestion: data.securityQuestion,
+        securityAnswerHash,
       })
       .returning({ id: users.id, name: users.name, email: users.email });
 

@@ -6,7 +6,15 @@ import Link from "next/link";
 
 export default function SignupForm({ defaultReferralCode = "" }: { defaultReferralCode?: string }) {
   const router = useRouter();
-  const [form, setForm] = useState({ name: "", email: "", password: "", school: "", referralCode: defaultReferralCode });
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    password: "",
+    school: "",
+    referralCode: defaultReferralCode,
+    securityQuestion: "What was the name of your first pet?",
+    securityAnswer: "",
+  });
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
@@ -84,6 +92,31 @@ export default function SignupForm({ defaultReferralCode = "" }: { defaultReferr
           placeholder="At least 6 characters"
           className="w-full rounded-lg border border-slate-300 px-3 py-2.5 text-sm outline-none ring-emerald-500/40 focus:border-emerald-500 focus:ring-4"
         />
+      </div>
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+        <div>
+          <label className="mb-1 block text-sm font-semibold text-slate-700">Security Question</label>
+          <select
+            value={form.securityQuestion}
+            onChange={(e) => update("securityQuestion", e.target.value)}
+            className="w-full rounded-lg border border-slate-300 px-3 py-2.5 text-sm outline-none focus:border-emerald-500 focus:ring-4"
+          >
+            <option value="What was the name of your first pet?">First pet name?</option>
+            <option value="What is your mother's maiden name?">Mother&apos;s maiden name?</option>
+            <option value="What was the name of your first elementary school?">First elementary school?</option>
+            <option value="In what city were you born?">In what city were you born?</option>
+          </select>
+        </div>
+        <div>
+          <label className="mb-1 block text-sm font-semibold text-slate-700">Security Answer</label>
+          <input
+            required
+            value={form.securityAnswer}
+            onChange={(e) => update("securityAnswer", e.target.value)}
+            placeholder="Your answer (case-insensitive)"
+            className="w-full rounded-lg border border-slate-300 px-3 py-2.5 text-sm outline-none focus:border-emerald-500 focus:ring-4"
+          />
+        </div>
       </div>
       <div>
         <label className="mb-1 block text-sm font-semibold text-slate-700">
