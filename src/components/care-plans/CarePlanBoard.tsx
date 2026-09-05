@@ -129,6 +129,41 @@ export default function CarePlanBoard({ initial }: { initial: CarePlan[] }) {
     }
   }
 
+  // Copy the plan as clean formatted text — for submitting to a tutor via
+  // WhatsApp/email or pasting into an assignment document.
+  async function handleCopy(plan: CarePlan) {
+    const lines: string[] = [
+      `NURSING CARE PLAN — ${plan.title}`,
+      plan.clientInfo ? `Client: ${plan.clientInfo}` : "",
+      "",
+      "1. ASSESSMENT",
+      plan.assessment || "—",
+      "",
+      "2. NURSING DIAGNOSIS",
+      plan.nursingDiagnosis || "—",
+      "",
+      "3. GOALS / EXPECTED OUTCOMES",
+      plan.goals || "—",
+      "",
+      "4. INTERVENTIONS & RATIONALE",
+      ...(plan.interventions.length > 0
+        ? plan.interventions.map((it, i) => `${i + 1}. ${it.action}${it.rationale ? `\n   Rationale: ${it.rationale}` : ""}`)
+        : ["—"]),
+      "",
+      "5. EVALUATION",
+      plan.evaluation || "—",
+      "",
+      `Status: ${STATUS_LABEL[plan.status]} · Updated ${fmt(plan.updatedAt)}`,
+      "Prepared with NurseGrid Prep",
+    ];
+    try {
+      await navigator.clipboard.writeText(lines.filter((l, i, a) => !(l === "" && a[i - 1] === "")).join("\n"));
+      toast.push("Care plan copied — paste it anywhere 📋", "success");
+    } catch {
+      toast.push("Could not copy — your browser blocked clipboard access", "error");
+    }
+  }
+
   return (
     <div>
       {/* Hero strip: ADPIE tracker + new plan CTA */}
@@ -227,6 +262,14 @@ export default function CarePlanBoard({ initial }: { initial: CarePlan[] }) {
                     <p className="mt-1 text-xs text-slate-400">Updated {fmt(plan.updatedAt)}</p>
                   </div>
                   <div className="flex shrink-0 items-center gap-2">
+                    <button
+                      onClick={() => handleCopy(plan)}
+                      aria-label={`Copy ${plan.title} as text`}
+                      title="Copy as text — for WhatsApp, email, or your assignment"
+                      className="grid h-8 w-8 place-items-center rounded-full bg-slate-100 text-sm text-slate-500 transition hover:bg-sky-100 hover:text-sky-700"
+                    >
+                      📋
+                    </button>
                     <button
                       onClick={() => openEdit(plan)}
                       aria-label={`Edit ${plan.title}`}
