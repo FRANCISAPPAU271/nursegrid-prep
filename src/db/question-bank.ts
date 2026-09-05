@@ -32,6 +32,20 @@ import {
   DEEP_RISKREDUCTION,
   DEEP_GERONTOLOGY,
 } from "./seed-deep-items";
+import {
+  DEEP2_FUNDAMENTALS,
+  DEEP2_PHARMACOLOGY,
+  DEEP2_MEDSURG,
+  DEEP2_MATERNAL,
+  DEEP2_PEDIATRICS,
+  DEEP2_MENTALHEALTH,
+  DEEP2_FLUIDELECTROLYTE,
+  DEEP2_SAFETY,
+  DEEP2_LEADERSHIP,
+  DEEP2_HEALTHPROMO,
+  DEEP2_RISKREDUCTION,
+  DEEP2_GERONTOLOGY,
+} from "./seed-deep-items2";
 
 // ---------------------------------------------------------------------------
 // Small deterministic helpers (no external RNG dependency needed)
@@ -477,18 +491,18 @@ const GERONTOLOGY: Item[] = [
 // Category metadata + item bank + target question counts
 // ---------------------------------------------------------------------------
 export const CATEGORY_DEFS = [
-  { slug: "fundamentals", name: "Fundamentals of Nursing", clientNeed: "Basic Care and Comfort", icon: "clipboard", description: "Core skills: hygiene, mobility, comfort, elimination, and safe basic care.", items: [...FUNDAMENTALS, ...EXTRA_FUNDAMENTALS, ...DEEP_FUNDAMENTALS] },
-  { slug: "pharmacology-parenteral", name: "Pharmacology & Parenteral Therapies", clientNeed: "Pharmacological and Parenteral Therapies", icon: "pill", description: "Therapeutic effects, adverse effects, and safe medication administration.", items: [...PHARMACOLOGY, ...EXTRA_PHARMACOLOGY, ...DEEP_PHARMACOLOGY] },
-  { slug: "med-surg", name: "Medical-Surgical Nursing", clientNeed: "Physiological Adaptation", icon: "heart", description: "Acute and chronic adult illness across every body system.", items: [...MEDSURG, ...EXTRA_MEDSURG, ...DEEP_MEDSURG] },
-  { slug: "maternal-newborn", name: "Maternal & Newborn Nursing", clientNeed: "Health Promotion and Maintenance", icon: "baby", description: "Antepartum, intrapartum, postpartum, and newborn care.", items: [...MATERNAL, ...EXTRA_MATERNAL, ...DEEP_MATERNAL] },
-  { slug: "pediatrics", name: "Pediatric Nursing", clientNeed: "Health Promotion and Maintenance", icon: "sunrise", description: "Growth, development, and illness across infancy through adolescence.", items: [...PEDIATRICS, ...EXTRA_PEDIATRICS, ...DEEP_PEDIATRICS] },
-  { slug: "mental-health", name: "Mental Health Nursing", clientNeed: "Psychosocial Integrity", icon: "brain", description: "Therapeutic communication, crisis intervention, and psychiatric care.", items: [...MENTALHEALTH, ...EXTRA_MENTALHEALTH, ...DEEP_MENTALHEALTH] },
-  { slug: "fluid-electrolyte", name: "Fluid, Electrolyte & Acid-Base Balance", clientNeed: "Physiological Adaptation", icon: "droplet", description: "Electrolyte imbalances, acid-base disorders, and fluid management.", items: [...FLUIDELECTROLYTE, ...EXTRA_FLUIDELECTROLYTE, ...DEEP_FLUIDELECTROLYTE] },
-  { slug: "safety-infection-control", name: "Safety & Infection Control", clientNeed: "Safety and Infection Control", icon: "shield", description: "Precautions, error prevention, and a safe care environment.", items: [...SAFETY, ...EXTRA_SAFETY, ...DEEP_SAFETY] },
-  { slug: "leadership-delegation", name: "Leadership, Delegation & Prioritization", clientNeed: "Management of Care", icon: "users", description: "Delegation, prioritization, ethics, and coordinating client care.", items: [...LEADERSHIP, ...EXTRA_LEADERSHIP, ...DEEP_LEADERSHIP] },
-  { slug: "health-promotion", name: "Health Promotion & Maintenance", clientNeed: "Health Promotion and Maintenance", icon: "activity", description: "Screenings, wellness, and lifespan development teaching.", items: [...HEALTHPROMO, ...EXTRA_HEALTHPROMO, ...DEEP_HEALTHPROMO] },
-  { slug: "risk-reduction", name: "Reduction of Risk Potential", clientNeed: "Reduction of Risk Potential", icon: "flask", description: "Labs, diagnostics, and post-procedure monitoring.", items: [...RISKREDUCTION, ...EXTRA_RISKREDUCTION, ...DEEP_RISKREDUCTION] },
-  { slug: "gerontology-community", name: "Gerontological & Community Health Nursing", clientNeed: "Basic Care and Comfort", icon: "sunrise", description: "Older adult and population/community health nursing.", items: [...GERONTOLOGY, ...EXTRA_GERONTOLOGY, ...DEEP_GERONTOLOGY] },
+  { slug: "fundamentals", name: "Fundamentals of Nursing", clientNeed: "Basic Care and Comfort", icon: "clipboard", description: "Core skills: hygiene, mobility, comfort, elimination, and safe basic care.", items: [...FUNDAMENTALS, ...EXTRA_FUNDAMENTALS, ...DEEP_FUNDAMENTALS, ...DEEP2_FUNDAMENTALS] },
+  { slug: "pharmacology-parenteral", name: "Pharmacology & Parenteral Therapies", clientNeed: "Pharmacological and Parenteral Therapies", icon: "pill", description: "Therapeutic effects, adverse effects, and safe medication administration.", items: [...PHARMACOLOGY, ...EXTRA_PHARMACOLOGY, ...DEEP_PHARMACOLOGY, ...DEEP2_PHARMACOLOGY] },
+  { slug: "med-surg", name: "Medical-Surgical Nursing", clientNeed: "Physiological Adaptation", icon: "heart", description: "Acute and chronic adult illness across every body system.", items: [...MEDSURG, ...EXTRA_MEDSURG, ...DEEP_MEDSURG, ...DEEP2_MEDSURG] },
+  { slug: "maternal-newborn", name: "Maternal & Newborn Nursing", clientNeed: "Health Promotion and Maintenance", icon: "baby", description: "Antepartum, intrapartum, postpartum, and newborn care.", items: [...MATERNAL, ...EXTRA_MATERNAL, ...DEEP_MATERNAL, ...DEEP2_MATERNAL] },
+  { slug: "pediatrics", name: "Pediatric Nursing", clientNeed: "Health Promotion and Maintenance", icon: "sunrise", description: "Growth, development, and illness across infancy through adolescence.", items: [...PEDIATRICS, ...EXTRA_PEDIATRICS, ...DEEP_PEDIATRICS, ...DEEP2_PEDIATRICS] },
+  { slug: "mental-health", name: "Mental Health Nursing", clientNeed: "Psychosocial Integrity", icon: "brain", description: "Therapeutic communication, crisis intervention, and psychiatric care.", items: [...MENTALHEALTH, ...EXTRA_MENTALHEALTH, ...DEEP_MENTALHEALTH, ...DEEP2_MENTALHEALTH] },
+  { slug: "fluid-electrolyte", name: "Fluid, Electrolyte & Acid-Base Balance", clientNeed: "Physiological Adaptation", icon: "droplet", description: "Electrolyte imbalances, acid-base disorders, and fluid management.", items: [...FLUIDELECTROLYTE, ...EXTRA_FLUIDELECTROLYTE, ...DEEP_FLUIDELECTROLYTE, ...DEEP2_FLUIDELECTROLYTE] },
+  { slug: "safety-infection-control", name: "Safety & Infection Control", clientNeed: "Safety and Infection Control", icon: "shield", description: "Precautions, error prevention, and a safe care environment.", items: [...SAFETY, ...EXTRA_SAFETY, ...DEEP_SAFETY, ...DEEP2_SAFETY] },
+  { slug: "leadership-delegation", name: "Leadership, Delegation & Prioritization", clientNeed: "Management of Care", icon: "users", description: "Delegation, prioritization, ethics, and coordinating client care.", items: [...LEADERSHIP, ...EXTRA_LEADERSHIP, ...DEEP_LEADERSHIP, ...DEEP2_LEADERSHIP] },
+  { slug: "health-promotion", name: "Health Promotion & Maintenance", clientNeed: "Health Promotion and Maintenance", icon: "activity", description: "Screenings, wellness, and lifespan development teaching.", items: [...HEALTHPROMO, ...EXTRA_HEALTHPROMO, ...DEEP_HEALTHPROMO, ...DEEP2_HEALTHPROMO] },
+  { slug: "risk-reduction", name: "Reduction of Risk Potential", clientNeed: "Reduction of Risk Potential", icon: "flask", description: "Labs, diagnostics, and post-procedure monitoring.", items: [...RISKREDUCTION, ...EXTRA_RISKREDUCTION, ...DEEP_RISKREDUCTION, ...DEEP2_RISKREDUCTION] },
+  { slug: "gerontology-community", name: "Gerontological & Community Health Nursing", clientNeed: "Basic Care and Comfort", icon: "sunrise", description: "Older adult and population/community health nursing.", items: [...GERONTOLOGY, ...EXTRA_GERONTOLOGY, ...DEEP_GERONTOLOGY, ...DEEP2_GERONTOLOGY] },
 ] as const;
 
 // ---------------------------------------------------------------------------

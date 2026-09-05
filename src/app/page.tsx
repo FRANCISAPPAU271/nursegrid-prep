@@ -10,7 +10,7 @@ import { buildWhatsAppLink } from "@/lib/contact";
 
 const TICKER_ITEMS = [
   "🇬🇭 NMC GHANA LICENSING EXAM COVERED",
-  "🧠 4,800+ UNIQUE QUESTIONS WITH REAL RATIONALES",
+  "🧠 5,700+ UNIQUE QUESTIONS WITH REAL RATIONALES",
   "💳 PAY WITH MTN MOMO OR VISA",
   "📲 WORKS OFFLINE — NO APP STORE",
   "💚 FROM $5 · NEVER AUTO-BILLED",
@@ -125,7 +125,7 @@ export default async function HomePage() {
             </h1>
             <p className="mt-6 max-w-xl text-base text-emerald-100/60 sm:text-lg">
               NurseGrid Prep is built for nurses and midwives sitting the{" "}
-              <strong className="font-bold text-emerald-50">NMC Ghana licensing exam</strong> — 4,800+ unique
+              <strong className="font-bold text-emerald-50">NMC Ghana licensing exam</strong> — 5,700+ unique
               exam-style questions where every rationale teaches you the{" "}
               <strong className="font-bold text-emerald-50">clinical reasoning the Council actually tests</strong>,
               plus a task manager that keeps clinicals and revision on track.{" "}
@@ -235,7 +235,7 @@ export default async function HomePage() {
             <span className="relative mt-4 block text-3xl">🧠</span>
             <h3 className="relative mt-3 text-lg font-extrabold">Reasoning-first, priced for you</h3>
             <p className="relative mt-2 text-sm text-emerald-100/60">
-              Every one of our 4,800+ unique questions teaches the <em>why</em> and the 20-second strategy to crack the next
+              Every one of our 5,700+ unique questions teaches the <em>why</em> and the 20-second strategy to crack the next
               one like it. Built around the Ghana NMC syllabus, from $5, paid once with MoMo — never auto-billed.
             </p>
           </div>
@@ -257,7 +257,7 @@ export default async function HomePage() {
           <div className="mt-12 grid gap-5 md:grid-cols-6">
             <div className="rounded-3xl bg-gradient-to-br from-[#04120d] to-[#123527] p-8 text-emerald-50 md:col-span-4">
               <span className="grid h-12 w-12 place-items-center rounded-2xl bg-lime-400/15 text-2xl">🧠</span>
-              <p className="mt-5 text-4xl font-extrabold tracking-tight text-lime-400 sm:text-5xl">4,800+</p>
+              <p className="mt-5 text-4xl font-extrabold tracking-tight text-lime-400 sm:text-5xl">5,700+</p>
               <h3 className="mt-2 text-xl font-extrabold">Licensing-style questions that teach reasoning</h3>
               <p className="mt-2 max-w-2xl text-sm text-emerald-100/60">
                 Every question carries a client-need tag, a full rationale, and a test-taking strategy tip. You
@@ -344,7 +344,7 @@ export default async function HomePage() {
             </p>
             <p className="mt-2 text-sm text-slate-500">≈ GH₵ 80 · perfect if your exam date is close</p>
             <ul className="mt-6 flex-1 space-y-2 text-sm text-slate-600">
-              <li>✓ All 4,800+ unique licensing-style questions</li>
+              <li>✓ All 5,700+ unique licensing-style questions</li>
               <li>✓ Full rationales &amp; strategy tips</li>
               <li>✓ Weakness radar by category</li>
               <li>✓ Bookmarks &amp; mixed practice mode</li>

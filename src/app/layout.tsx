@@ -17,7 +17,7 @@ const jakarta = Plus_Jakarta_Sans({
 
 const title = "NurseGrid Prep — Pass Ghana's NMC Licensing Exam First Time";
 const description =
-  "Built for Ghana's student nurses & midwives: organise clinicals and revision, then master 4,800+ unique NMC licensing-style questions with rationales that teach real clinical reasoning. From $5 — pay with MTN MoMo.";
+  "Built for Ghana's student nurses & midwives: organise clinicals and revision, then master 5,700+ unique NMC licensing-style questions with rationales that teach real clinical reasoning. From $5 — pay with MTN MoMo.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"),

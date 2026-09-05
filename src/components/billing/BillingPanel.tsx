@@ -205,7 +205,7 @@ export default function BillingPanel({
               <p className="mt-3 text-3xl font-extrabold text-slate-950">{plan.price}</p>
               <p className="mt-1 text-sm text-slate-600">{plan.cadence}</p>
               <ul className="mt-4 space-y-1.5 text-sm text-slate-600">
-                <li>✅ Unlimited access to all 4,800+ unique questions</li>
+                <li>✅ Unlimited access to all 5,700+ unique questions</li>
                 <li>✅ Full rationales and strategy tips</li>
                 <li>✅ Progress tracking across every category</li>
               </ul>

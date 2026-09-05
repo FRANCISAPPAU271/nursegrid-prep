@@ -106,7 +106,7 @@ export default async function Image() {
               letterSpacing: -1.5,
             }}
           >
-            4,800+ unique licensing questions.
+            5,700+ unique licensing questions.
           </div>
           <div
             style={{

@@ -18,7 +18,7 @@ export default function StructuredData() {
         url: baseUrl,
         name: "NurseGrid Prep",
         description:
-          "Built for Ghana's student nurses & midwives: organise clinicals and revision, then master 4,800+ unique NMC licensing exam-style questions with rationales and proven test-taking strategies.",
+          "Built for Ghana's student nurses & midwives: organise clinicals and revision, then master 5,700+ unique NMC licensing exam-style questions with rationales and proven test-taking strategies.",
         publisher: { "@id": `${baseUrl}/#organization` },
       },
       {
