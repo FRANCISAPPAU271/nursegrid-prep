@@ -75,12 +75,32 @@ export default function AdminQuestionUpload() {
       return { ...f, choiceTexts: next, correctIndex };
     });
 
+  // Pre-fill the rationale with the same 4-part structure the generated
+  // bank uses, wiring in whatever the admin has already typed above.
+  const insertRationaleTemplate = () => {
+    const filled = form.choiceTexts.map((t) => t.trim());
+    const correct = filled[form.correctIndex] || "<the correct answer>";
+    const wrong = filled.filter((t, i) => i !== form.correctIndex && t.length > 0);
+    const wrongLines =
+      wrong.length > 0
+        ? wrong.map((t) => `"${t}" is wrong because <explain the trap>.`).join(" ")
+        : '"<distractor>" is wrong because <explain the trap>.';
+    const existing = form.rationale.trim();
+    const template =
+      `CORRECT: "${correct}" — <one sentence on why it is right>. ` +
+      `WHY IT MATTERS: <the clinical reasoning or pathophysiology students should remember${existing ? ` — e.g. ${existing}` : ""}>. ` +
+      `WHY THE OTHERS ARE WRONG: ${wrongLines} ` +
+      `TAKEAWAY: <the test-taking strategy this question teaches>.`;
+    setForm((f) => ({ ...f, rationale: template }));
+  };
+
   const submit = async () => {
     const filled = form.choiceTexts.map((t) => t.trim());
     if (!form.categoryId) return toast.push("Choose a category.", "error");
     if (form.stem.trim().length < 10) return toast.push("Write the question (at least 10 characters).", "error");
     if (filled.some((t) => !t)) return toast.push("Fill in every answer choice (or remove empty ones).", "error");
     if (form.rationale.trim().length < 10) return toast.push("Add a rationale — it is what makes the question teach.", "error");
+    if (/<[^>]{2,60}>/.test(form.rationale)) return toast.push("Fill in the <placeholders> in the rationale template before uploading.", "error");
 
     const choices = filled.map((text, i) => ({ id: LETTERS[i], text }));
     setSaving(true);
@@ -225,12 +245,23 @@ export default function AdminQuestionUpload() {
         </div>
 
         <label className="mt-4 block">
-          <span className="mb-1 block text-sm font-semibold text-slate-700">Rationale</span>
+          <div className="mb-1 flex items-center justify-between gap-2">
+            <span className="block text-sm font-semibold text-slate-700">Rationale</span>
+            <button
+              type="button"
+              onClick={insertRationaleTemplate}
+              className="rounded-lg bg-emerald-50 px-2.5 py-1 text-xs font-bold text-emerald-700 hover:bg-emerald-100"
+            >
+              {form.rationale.trim() ? "Reformat as template" : "Use house template"}
+            </button>
+          </div>
           <textarea
             value={form.rationale}
             onChange={(e) => setForm((f) => ({ ...f, rationale: e.target.value }))}
-            rows={4}
-            placeholder="Explain WHY the correct answer is right and why the others are wrong — this is what students learn from."
+            rows={form.rationale.includes("WHY THE OTHERS ARE WRONG") ? 9 : 4}
+            placeholder={
+              'Explain WHY the correct answer is right and why the others are wrong — this is what students learn from.\n\nTip: press "Use house template" above to match the 4-part format of the rest of the bank.'
+            }
             className="w-full rounded-xl border border-slate-300 px-3 py-2.5 text-sm focus:border-emerald-500 focus:outline-none"
           />
         </label>
