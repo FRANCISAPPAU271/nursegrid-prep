@@ -31,7 +31,7 @@ export async function GET() {
 // that an admin reviews against the actual MoMo transaction history/SMS
 // before granting premium access — see /dashboard/admin/payments.
 const schema = z.object({
-  plan: z.enum(["four_month", "annual"]),
+  plan: z.enum(["four_month", "eight_month", "annual"]),
   momoNumber: z
     .string()
     .trim()

@@ -63,7 +63,7 @@ export default function TermsPage() {
           <Section title="4. Payments and access plans">
             <ul className="list-disc space-y-1.5 pl-5">
               <li>Tasks, notes, and a limited preview of the question bank are available free of charge.</li>
-              <li>Full access to the question bank is available through fixed-term plans (e.g., 4 months or 1 year) purchased via Visa card or MTN Mobile Money.</li>
+              <li>Full access to the question bank is available through fixed-term plans (e.g., 4 months, 8 months, or 1 year) purchased via Visa card or MTN Mobile Money.</li>
               <li>Plans are not automatically recurring — access expires at the end of the purchased term unless you purchase again.</li>
               <li>Payments are generally non-refundable except where required by law. Contact us if you believe you were charged in error.</li>
               <li>For MTN Mobile Money payments, access is granted after you submit your transaction reference for verification.</li>

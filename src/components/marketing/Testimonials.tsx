@@ -15,7 +15,7 @@ const TESTIMONIALS = [
   },
   {
     quote:
-      "The strategy library taught me to think through prioritisation instead of guessing. And honestly? $9 for a full year when foreign apps wanted $60 — paid with MoMo in 2 minutes. No contest.",
+      "The strategy library taught me to think through prioritisation instead of guessing. And honestly? $13 for a full year when foreign apps wanted $60 — paid with MoMo in 2 minutes. No contest.",
     name: "Efua M.",
     role: "Midwife, passed licensing first attempt",
     initials: "EM",

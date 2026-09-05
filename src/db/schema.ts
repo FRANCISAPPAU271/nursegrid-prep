@@ -37,6 +37,7 @@ export const subscriptionPlanEnum = pgEnum("subscription_plan", [
   "annual",
   "lifetime",
   "four_month",
+  "eight_month",
 ]);
 export const paymentMethodEnum = pgEnum("payment_method", ["card", "mtn_momo"]);
 export const momoRequestStatusEnum = pgEnum("momo_request_status", ["pending", "approved", "rejected"]);

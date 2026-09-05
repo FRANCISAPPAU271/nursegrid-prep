@@ -12,7 +12,7 @@ const STATUS_STYLE: Record<MomoRequestStatus, string> = {
   rejected: "bg-rose-100 text-rose-700",
 };
 
-const PLAN_LABEL: Record<string, string> = { four_month: "4 Months", annual: "1 Year" };
+const PLAN_LABEL: Record<string, string> = { four_month: "4 Months", eight_month: "8 Months", annual: "1 Year" };
 
 function money(cents: number) {
   return `$${(cents / 100).toFixed(2)}`;

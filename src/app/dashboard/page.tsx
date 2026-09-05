@@ -80,7 +80,7 @@ export default async function OverviewPage() {
           <div>
             <p className="text-sm font-bold text-amber-800">Unlock the full {totalQuestions.toLocaleString()}-question bank</p>
             <p className="mt-1 text-sm text-amber-700">
-              You&apos;re on the free plan. Get full access from just $5 for 4 months (or $9 for a full year) with rationales and strategies.
+              You&apos;re on the free plan. Get full access from just $5 for 4 months, $9 for 8 months, or $13 for a full year with rationales and strategies.
             </p>
           </div>
           <Link

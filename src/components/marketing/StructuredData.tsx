@@ -28,7 +28,8 @@ export default function StructuredData() {
         brand: { "@type": "Brand", name: "NurseGrid Prep" },
         offers: [
           { "@type": "Offer", name: "4 Months Full Access", price: "5.00", priceCurrency: "USD" },
-          { "@type": "Offer", name: "1 Year Full Access", price: "9.00", priceCurrency: "USD" },
+          { "@type": "Offer", name: "8 Months Full Access", price: "9.00", priceCurrency: "USD" },
+          { "@type": "Offer", name: "1 Year Full Access", price: "13.00", priceCurrency: "USD" },
         ],
       },
     ],

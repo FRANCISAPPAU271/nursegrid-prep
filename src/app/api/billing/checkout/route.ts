@@ -10,7 +10,7 @@ import { PLAN_DETAILS } from "@/lib/stripe";
 // configured (no STRIPE_SECRET_KEY). Once real Stripe keys are added, the
 // billing UI switches automatically to /api/billing/stripe/checkout.
 const schema = z.object({
-  plan: z.enum(["four_month", "annual"]),
+  plan: z.enum(["four_month", "eight_month", "annual"]),
   cardNumber: z.string().trim().min(4).max(30),
   cardName: z.string().trim().min(2).max(80),
 });

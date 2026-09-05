@@ -6,7 +6,7 @@ import { eq } from "drizzle-orm";
 import { requireUser, handleApiError } from "@/lib/api";
 import { getStripe, isStripeConfigured, PLAN_DETAILS } from "@/lib/stripe";
 
-const schema = z.object({ plan: z.enum(["four_month", "annual"]) });
+const schema = z.object({ plan: z.enum(["four_month", "eight_month", "annual"]) });
 
 export async function POST(request: Request) {
   try {

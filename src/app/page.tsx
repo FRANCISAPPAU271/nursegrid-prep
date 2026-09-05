@@ -336,7 +336,7 @@ export default async function HomePage() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           <div className="flex flex-col rounded-3xl border border-slate-900/10 bg-white p-8 transition hover:-translate-y-1 hover:shadow-2xl">
             <p className="text-base font-extrabold text-slate-950">Sprint · 4 Months</p>
             <p className="mt-3 text-5xl font-extrabold tracking-tight text-slate-950">
@@ -356,15 +356,34 @@ export default async function HomePage() {
               Start Sprint
             </Link>
           </div>
-          <div className="relative flex flex-col rounded-3xl border-2 border-lime-400 bg-[#04120d] p-8 text-emerald-50 shadow-2xl shadow-slate-950/30 transition hover:-translate-y-1">
+          <div className="flex flex-col rounded-3xl border border-slate-900/10 bg-white p-8 transition hover:-translate-y-1 hover:shadow-2xl">
+            <p className="text-base font-extrabold text-slate-950">Steady · 8 Months</p>
+            <p className="mt-3 text-5xl font-extrabold tracking-tight text-slate-950">
+              $9<span className="text-base font-semibold text-slate-500"> / 8 months</span>
+            </p>
+            <p className="mt-2 text-sm text-slate-500">≈ GH₵ 140 · a full academic year of prep</p>
+            <ul className="mt-6 flex-1 space-y-2 text-sm text-slate-600">
+              <li>✓ Everything in Sprint, for 8 months</li>
+              <li>✓ Ideal from mid-programme to exam day</li>
+              <li>✓ New question drops included</li>
+              <li>✓ Bookmarks &amp; mixed practice mode</li>
+            </ul>
+            <Link
+              href="/signup"
+              className="mt-8 block rounded-2xl bg-slate-950 px-4 py-3.5 text-center text-base font-extrabold text-white transition hover:bg-emerald-700"
+            >
+              Start Steady
+            </Link>
+          </div>
+          <div className="relative flex flex-col rounded-3xl border-2 border-lime-400 bg-[#04120d] p-8 text-emerald-50 shadow-2xl shadow-slate-950/30 transition hover:-translate-y-1 sm:col-span-2 lg:col-span-1">
             <span className="absolute -top-3.5 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-lime-400 px-4 py-1 text-[11px] font-extrabold uppercase tracking-wider text-slate-950">
-              Best value · 63% cheaper monthly
+              Best value · lowest monthly cost
             </span>
             <p className="text-base font-extrabold">Journey · 1 Year</p>
             <p className="mt-3 text-5xl font-extrabold tracking-tight">
-              $9<span className="text-base font-semibold text-emerald-100/50"> / year</span>
+              $13<span className="text-base font-semibold text-emerald-100/50"> / year</span>
             </p>
-            <p className="mt-2 text-sm text-emerald-100/50">≈ GH₵ 145 · that&apos;s $0.75/month for the full journey</p>
+            <p className="mt-2 text-sm text-emerald-100/50">≈ GH₵ 200 · about $1/month for the full journey</p>
             <ul className="mt-6 flex-1 space-y-2 text-sm text-emerald-100/80">
               <li>✓ Everything in Sprint, for 12 months</li>
               <li>✓ Covers resits &amp; final-year revision</li>

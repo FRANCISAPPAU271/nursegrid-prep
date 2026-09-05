@@ -17,7 +17,7 @@ const FAQS = [
   },
   {
     q: "How much does full access cost?",
-    a: "Choose the plan that fits you: $5 for 4 months of full access, or $9 for a full year (best value). Both unlock unlimited access to all 4,800+ unique questions, rationales, strategies, and progress tracking for the length of the plan.",
+    a: "Choose the plan that fits you: $5 for 4 months, $9 for 8 months, or $13 for a full year (best value). All plans unlock unlimited access to all 4,800+ unique questions, rationales, strategies, and progress tracking for the length of the plan.",
   },
   {
     q: "Will I be charged again automatically?",

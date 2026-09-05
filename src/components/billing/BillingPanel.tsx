@@ -8,11 +8,12 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { MOMO_RECEIVER_NUMBER, MOMO_RECEIVER_NAME, approxGhsAmount } from "@/lib/momo";
 import { buildWhatsAppLink, WHATSAPP_DISPLAY_NUMBER } from "@/lib/contact";
 
-type PlanId = "four_month" | "annual";
+type PlanId = "four_month" | "eight_month" | "annual";
 
 const PLANS: { id: PlanId; name: string; price: string; priceCents: number; cadence: string; tag: string | null }[] = [
   { id: "four_month", name: "4 Months", price: "$5.00", priceCents: 500, cadence: "full access for 4 months", tag: null },
-  { id: "annual", name: "1 Year", price: "$9.00", priceCents: 900, cadence: "full access for 12 months", tag: "Best value" },
+  { id: "eight_month", name: "8 Months", price: "$9.00", priceCents: 900, cadence: "full access for 8 months", tag: null },
+  { id: "annual", name: "1 Year", price: "$13.00", priceCents: 1300, cadence: "full access for 12 months", tag: "Best value" },
 ];
 
 function money(cents: number) {
@@ -30,6 +31,7 @@ function paymentMethodLabel(method: "card" | "mtn_momo") {
 
 function planLabel(plan: string) {
   if (plan === "four_month") return "4 Months";
+  if (plan === "eight_month") return "8 Months";
   if (plan === "annual") return "1 Year";
   return plan;
 }
@@ -189,7 +191,7 @@ export default function BillingPanel({
         <h2 className="mb-4 text-base font-bold text-slate-950">
           {isPremium && activeSub ? "Renew or extend your access" : "Choose a plan to unlock the full question bank"}
         </h2>
-        <div className="grid gap-4 sm:grid-cols-2">
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {PLANS.map((plan) => (
             <div key={plan.id} className="relative flex flex-col rounded-2xl border border-emerald-200 bg-white p-6 shadow-sm">
               {plan.tag && (

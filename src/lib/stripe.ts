@@ -17,13 +17,14 @@ export function getStripe(): Stripe {
   return stripeClient;
 }
 
-export type PlanId = "four_month" | "annual";
+export type PlanId = "four_month" | "eight_month" | "annual";
 
 export const PLAN_DETAILS: Record<PlanId, { label: string; amountCents: number; days: number }> = {
   four_month: { label: "4 Months", amountCents: 500, days: 120 }, // $5.00 USD
-  annual: { label: "1 Year", amountCents: 900, days: 365 }, // $9.00 USD
+  eight_month: { label: "8 Months", amountCents: 900, days: 240 }, // $9.00 USD
+  annual: { label: "1 Year", amountCents: 1300, days: 365 }, // $13.00 USD
 };
 
 export function isValidPlanId(value: string): value is PlanId {
-  return value === "four_month" || value === "annual";
+  return value === "four_month" || value === "eight_month" || value === "annual";
 }

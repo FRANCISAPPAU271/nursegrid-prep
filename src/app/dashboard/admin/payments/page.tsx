@@ -39,7 +39,7 @@ export default async function AdminPaymentsPage() {
     userId: r.userId,
     userName: r.userName,
     userEmail: r.userEmail,
-    plan: r.plan as "four_month" | "annual",
+    plan: r.plan as "four_month" | "eight_month" | "annual",
     amountCents: r.amountCents,
     momoNumber: r.momoNumber,
     momoReference: r.momoReference,

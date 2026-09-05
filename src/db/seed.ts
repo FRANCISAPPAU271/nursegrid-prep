@@ -1138,7 +1138,7 @@ async function main() {
       userId: demoUser.id,
       plan: "annual",
       status: "active",
-      amountCents: 900,
+      amountCents: 1300,
       startedAt: premiumSince,
       currentPeriodEnd: new Date(premiumSince.getTime() + 365 * day),
       paymentMethod: "card",
@@ -1149,7 +1149,7 @@ async function main() {
     {
       userId: demoUser.id,
       subscriptionId: sub.id,
-      amountCents: 900,
+      amountCents: 1300,
       plan: "1 Year",
       status: "paid",
       paymentMethod: "card",
@@ -1207,7 +1207,7 @@ async function main() {
       {
         userId: referredUsers[1].id,
         plan: "annual",
-        amountCents: 900,
+        amountCents: 1300,
         momoNumber: "0209876543",
         momoReference: "MP240921.0847.B10492",
         status: "pending",
