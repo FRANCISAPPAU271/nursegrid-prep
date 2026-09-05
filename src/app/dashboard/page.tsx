@@ -82,6 +82,13 @@ export default async function OverviewPage() {
   const communityLink = buildWhatsAppLink(
     "Hi NurseGrid Prep! I'd like to join the student study community.",
   );
+  const testimonialLink = buildWhatsAppLink(
+    "Hi NurseGrid Prep! I passed my NMC exam and I'd love to share my story: ",
+  );
+
+  // Show the testimonial ask only to engaged students — those with real
+  // practice history are the ones with stories worth telling.
+  const showTestimonialAsk = questionStats.attempted >= 100;
 
   return (
     <div className="space-y-8">
@@ -240,6 +247,25 @@ export default async function OverviewPage() {
               Join on WhatsApp →
             </a>
           </div>
+
+          {/* Testimonial collection — only shown to engaged students */}
+          {showTestimonialAsk && (
+            <div className="rounded-2xl border border-amber-200 bg-gradient-to-br from-amber-50 to-white p-5">
+              <h2 className="text-base font-extrabold tracking-tight text-slate-950">🌟 Passed your exam?</h2>
+              <p className="mt-1.5 text-sm text-slate-600">
+                Your story could help another student believe they can do it too. Share how NurseGrid Prep helped you —
+                we may feature it (with your permission).
+              </p>
+              <a
+                href={testimonialLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-block rounded-xl bg-amber-500 px-4 py-2.5 text-sm font-bold text-white transition hover:bg-amber-600"
+              >
+                Share my story →
+              </a>
+            </div>
+          )}
         </div>
       </div>
     </div>

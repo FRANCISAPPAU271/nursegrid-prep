@@ -9,6 +9,7 @@ const NAV = [
   { href: "/dashboard/tasks", label: "Tasks", icon: "🗂️" },
   { href: "/dashboard/notes", label: "Notes", icon: "📝" },
   { href: "/dashboard/questions", label: "Question Bank", icon: "🧠" },
+  { href: "/dashboard/offline", label: "Offline Study", icon: "📶" },
   { href: "/dashboard/flashcards", label: "Flashcards", icon: "🃏" },
   { href: "/dashboard/exams", label: "Custom Exam", icon: "📝" },
   { href: "/dashboard/cat", label: "Adaptive Test (CAT)", icon: "📊" },
@@ -108,6 +109,18 @@ export default function Sidebar({
             >
               <span className="text-base">📝</span>
               Upload Questions
+            </Link>
+            <Link
+              href="/dashboard/admin/most-missed"
+              onClick={() => setOpen(false)}
+              className={`flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition ${
+                pathname.startsWith("/dashboard/admin/most-missed")
+                  ? "bg-emerald-600 text-white"
+                  : "text-slate-300 hover:bg-slate-800 hover:text-white"
+              }`}
+            >
+              <span className="text-base">🎯</span>
+              Most-Missed Report
             </Link>
           </>
         )}
