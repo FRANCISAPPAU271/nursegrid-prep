@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "NurseGrid Prep — NMC Exam Task Manager & 10,000-Question Bank";
+export const alt = "NurseGrid Prep — Pass Ghana's NMC Licensing Exam First Time";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -106,7 +106,7 @@ export default async function Image() {
               letterSpacing: -1.5,
             }}
           >
-            10,000 NMC exam questions.
+            10,000 NMC licensing questions.
           </div>
           <div
             style={{

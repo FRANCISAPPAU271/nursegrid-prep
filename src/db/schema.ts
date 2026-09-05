@@ -232,9 +232,9 @@ export const examSessions = pgTable("exam_sessions", {
 // A simplified, transparent adaptive-difficulty practice mode: question
 // difficulty adapts based on prior answers, and the session stops early once
 // a simple confidence-interval rule indicates a likely pass/fail, or once the
-// maximum length is reached. Note: the real NMC CBT (Computer Based Test) is
-// a fixed-length, non-adaptive multiple-choice exam delivered via Pearson
-// VUE — this practice mode is a study tool, not a simulation of that exam.
+// maximum length is reached. Note: the real NMC Ghana licensing examination
+// is a fixed-length, non-adaptive multiple-choice exam — this practice mode
+// is a study tool, not a simulation of that exam.
 export const catStatusEnum = pgEnum("cat_status", ["in_progress", "passed", "failed", "max_length"]);
 
 export type CatHistoryItem = {

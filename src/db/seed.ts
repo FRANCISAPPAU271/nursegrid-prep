@@ -815,7 +815,7 @@ const STRATEGY_DEFS = [
     icon: "list",
     readTimeMinutes: 3,
     videoId: "WfvSEYS0Ntg",
-    videoTitle: "NMC CBT & OSCE: Select All That Apply (SATA) Questions Strategy",
+    videoTitle: "Nursing Exam: Select All That Apply (SATA) Questions Strategy",
   },
   {
     slug: "lab-value-quick-reference",

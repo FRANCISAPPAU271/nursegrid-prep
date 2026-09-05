@@ -2,12 +2,11 @@ import "server-only";
 
 // ---------------------------------------------------------------------------
 // A simplified, transparent adaptive-difficulty practice mode. The real NMC
-// CBT (Computer Based Test) used for UK nursing registration is a
-// fixed-length, non-adaptive multiple-choice exam delivered via Pearson VUE
-// — it does not adjust question difficulty during the test. This feature is
-// a study tool inspired by adaptive testing concepts, intended to help
+// Ghana licensing examination is a fixed-length, non-adaptive multiple-choice
+// exam — it does not adjust question difficulty during the test. This feature
+// is a study tool inspired by adaptive testing concepts, intended to help
 // students practice across a spread of difficulty levels; it is not a
-// simulation of the official NMC CBT.
+// simulation of the official licensing exam.
 // ---------------------------------------------------------------------------
 
 export const CAT_MIN_QUESTIONS = 15;

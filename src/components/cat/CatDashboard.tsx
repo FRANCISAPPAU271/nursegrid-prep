@@ -58,8 +58,8 @@ export default function CatDashboard({ isPremium, sessions }: { isPremium: boole
           <li>📖 You'll get a full rationale review of every question once the session ends.</li>
         </ul>
         <p className="mt-4 text-xs text-slate-500">
-          This is a study tool built to help you practice under adaptive-difficulty conditions. The official NMC CBT (Computer Based Test) is a
-          fixed-length, non-adaptive exam delivered via Pearson VUE — this practice mode does not simulate that exam or guarantee real results.
+          This is a study tool built to help you practice under adaptive-difficulty conditions. The official NMC Ghana licensing examination is a
+          fixed-length, non-adaptive exam — this practice mode does not simulate that exam or guarantee real results.
         </p>
         {!isPremium && (
           <p className="mt-3 text-xs font-semibold text-amber-700">
