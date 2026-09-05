@@ -48,6 +48,10 @@ export type ReadinessReport = {
   categories: CategoryReadiness[];
   totalAttempts: number;
   advice: string[];
+  // Cohort comparison — "you're scoring higher than X% of NurseGrid students".
+  // null until the user has 20+ attempts and the cohort has 5+ qualifying students.
+  percentile: number | null;
+  cohortSize: number;
 };
 
 const BANDS: { min: number; band: ReadinessReport["band"]; label: string }[] = [
@@ -58,8 +62,52 @@ const BANDS: { min: number; band: ReadinessReport["band"]; label: string }[] = [
   { min: 0, band: "building", label: "Building Foundations" },
 ];
 
+// Cohort percentile: where does this user's recent accuracy sit among all
+// students with meaningful practice (20+ attempts)? Computed with a single
+// aggregate query over each qualifying user's last 200 attempts.
+async function computeCohortPercentile(
+  userId: string,
+): Promise<{ percentile: number | null; cohortSize: number }> {
+  try {
+    const result = await db.execute(sql`
+      WITH ranked AS (
+        SELECT
+          "user_id",
+          "is_correct",
+          row_number() OVER (PARTITION BY "user_id" ORDER BY "attempted_at" DESC) AS rn
+        FROM "question_attempts"
+      ),
+      per_user AS (
+        SELECT
+          "user_id",
+          count(*) AS total,
+          avg(CASE WHEN "is_correct" THEN 1.0 ELSE 0.0 END) AS acc
+        FROM ranked
+        WHERE rn <= 200
+        GROUP BY "user_id"
+        HAVING count(*) >= 20
+      )
+      SELECT
+        (SELECT count(*) FROM per_user) AS cohort_size,
+        (SELECT acc FROM per_user WHERE "user_id" = ${userId}) AS my_acc,
+        (SELECT count(*) FROM per_user p2 WHERE p2.acc < (SELECT acc FROM per_user WHERE "user_id" = ${userId})) AS below
+    `);
+    const row = result.rows[0] as { cohort_size: string | number; my_acc: string | null; below: string | number } | undefined;
+    if (!row || row.my_acc === null || row.my_acc === undefined) return { percentile: null, cohortSize: 0 };
+    const cohortSize = Number(row.cohort_size);
+    if (cohortSize < 5) return { percentile: null, cohortSize };
+    const below = Number(row.below);
+    // Percentile of students scoring strictly below this user.
+    const percentile = Math.round((below / Math.max(1, cohortSize - 1)) * 100);
+    return { percentile: Math.min(99, Math.max(1, percentile)), cohortSize };
+  } catch {
+    // Percentile is a nice-to-have — never let it break the readiness page.
+    return { percentile: null, cohortSize: 0 };
+  }
+}
+
 export async function computeReadiness(userId: string): Promise<ReadinessReport> {
-  const [categories, perCategory, recent, catRows, examRows] = await Promise.all([
+  const [categories, perCategory, recent, catRows, examRows, cohort] = await Promise.all([
     db
       .select({ id: questionCategories.id, name: questionCategories.name, icon: questionCategories.icon })
       .from(questionCategories)
@@ -95,6 +143,7 @@ export async function computeReadiness(userId: string): Promise<ReadinessReport>
       .where(eq(examSessions.userId, userId))
       .orderBy(desc(examSessions.startedAt))
       .limit(25),
+    computeCohortPercentile(userId),
   ]);
 
   const perCatMap = new Map(perCategory.map((p) => [p.categoryId, p]));
@@ -201,5 +250,7 @@ export async function computeReadiness(userId: string): Promise<ReadinessReport>
     categories: categoryReadiness,
     totalAttempts,
     advice,
+    percentile: cohort.percentile,
+    cohortSize: cohort.cohortSize,
   };
 }

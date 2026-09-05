@@ -5,6 +5,7 @@ import { tasks } from "@/db/schema";
 import { and, eq, like, sql } from "drizzle-orm";
 import { requireUser, handleApiError, ApiError } from "@/lib/api";
 import { computeReadiness } from "@/lib/readiness";
+import { setUserExamDate } from "@/db/user-exam-date";
 
 // ---------------------------------------------------------------------------
 // Study Plan generator.
@@ -44,6 +45,10 @@ export async function POST(request: Request) {
     const daysLeft = Math.ceil((exam.getTime() - now.getTime()) / msPerDay);
     if (isNaN(exam.getTime()) || daysLeft < 1) throw new ApiError("Choose an exam date in the future.", 422);
     if (daysLeft > 366) throw new ApiError("Choose an exam date within the next 12 months.", 422);
+
+    // Remember the exam date on the user so the dashboard can show a
+    // countdown and on/behind-pace framing everywhere.
+    await setUserExamDate(user.id, examDate);
 
     const readiness = await computeReadiness(user.id);
 

@@ -1,5 +1,6 @@
 import { getCurrentUser } from "@/lib/auth";
 import { computeReadiness } from "@/lib/readiness";
+import { getUserExamDate } from "@/db/user-exam-date";
 import Link from "next/link";
 
 export const dynamic = "force-dynamic";
@@ -16,10 +17,21 @@ export default async function ReadinessPage() {
   const user = await getCurrentUser();
   if (!user) return null;
 
-  const r = await computeReadiness(user.id);
+  const [r, examDate] = await Promise.all([computeReadiness(user.id), getUserExamDate(user.id)]);
   const style = BAND_STYLE[r.band];
   const circumference = 2 * Math.PI * 52;
   const dash = (r.score / 100) * circumference;
+
+  // Exam countdown + pace framing.
+  let daysLeft: number | null = null;
+  if (examDate) {
+    const ms = new Date(`${examDate}T09:00:00Z`).getTime() - Date.now();
+    daysLeft = Math.ceil(ms / (24 * 60 * 60 * 1000));
+    if (daysLeft < 0) daysLeft = null; // past exam dates aren't a countdown
+  }
+  // Simple pace heuristic: score should roughly track how much of the runway
+  // has been used. With no date we skip pace framing entirely.
+  const onPace = daysLeft !== null ? r.score >= Math.min(85, Math.max(20, 85 - daysLeft)) : null;
 
   const componentRows = [
     { label: "Recent accuracy", detail: r.components.recentAccuracy.value === null ? "Not enough data yet" : `${r.components.recentAccuracy.value}% over your last answers`, points: r.components.recentAccuracy.points, max: r.components.recentAccuracy.max },
@@ -31,12 +43,66 @@ export default async function ReadinessPage() {
 
   return (
     <div>
-      <div className="mb-6 flex flex-col gap-1">
-        <h1 className="text-2xl font-extrabold tracking-tight text-slate-950">Readiness Score</h1>
+      <div className="mb-5 flex flex-col gap-1">
+        <h1 className="text-2xl font-extrabold tracking-tight text-slate-950">
+          Readiness Score <span className="align-middle text-lg">🎯</span>
+        </h1>
         <p className="text-slate-600">
           An honest estimate of your exam readiness, computed from your own practice — and exactly how to raise it.
         </p>
       </div>
+
+      {/* Exam countdown + percentile hero strip */}
+      {(daysLeft !== null || r.percentile !== null) && (
+        <div className="mb-6 overflow-hidden rounded-3xl border border-slate-200 bg-gradient-to-br from-slate-950 via-slate-900 to-emerald-950 p-5 sm:p-6">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+            {daysLeft !== null ? (
+              <div className="flex items-center gap-4">
+                <div className="grid h-16 w-16 shrink-0 place-items-center rounded-2xl bg-white/10 backdrop-blur">
+                  <div className="text-center">
+                    <p className="text-xl font-extrabold leading-none text-white">{daysLeft}</p>
+                    <p className="text-[9px] font-bold uppercase tracking-widest text-emerald-300">days</p>
+                  </div>
+                </div>
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-widest text-emerald-300">NMC exam countdown</p>
+                  <p className="mt-0.5 text-lg font-extrabold text-white">
+                    {daysLeft} day{daysLeft === 1 ? "" : "s"} to your exam
+                  </p>
+                  {onPace !== null && (
+                    <p className={`text-sm font-semibold ${onPace ? "text-emerald-300" : "text-amber-300"}`}>
+                      {onPace ? "✓ You're on pace — keep the streak going" : "⚠ Behind pace — raise your daily question target"}
+                    </p>
+                  )}
+                </div>
+              </div>
+            ) : (
+              <div>
+                <p className="text-xs font-bold uppercase tracking-widest text-emerald-300">No exam date set</p>
+                <p className="mt-0.5 text-sm text-slate-300">
+                  Set your exam date in the Study Plan to unlock the countdown and pace tracking.
+                </p>
+              </div>
+            )}
+            {r.percentile !== null ? (
+              <div className="rounded-2xl border border-white/10 bg-white/10 px-5 py-3.5 backdrop-blur">
+                <p className="text-xs font-bold uppercase tracking-widest text-sky-300">Among NurseGrid students</p>
+                <p className="mt-0.5 text-lg font-extrabold text-white">
+                  Scoring higher than <span className="text-sky-300">{r.percentile}%</span> of students
+                </p>
+                <p className="text-xs text-slate-400">Based on recent accuracy across {r.cohortSize} active students</p>
+              </div>
+            ) : daysLeft !== null ? (
+              <Link
+                href="/dashboard/study-plan"
+                className="shrink-0 rounded-2xl bg-gradient-to-r from-emerald-500 to-teal-500 px-5 py-2.5 text-sm font-bold text-white shadow-lg shadow-emerald-500/30 transition-all hover:scale-105 active:scale-95"
+              >
+                Review study plan →
+              </Link>
+            ) : null}
+          </div>
+        </div>
+      )}
 
       {/* Score dial + band */}
       <div className="mb-6 grid gap-4 lg:grid-cols-3">

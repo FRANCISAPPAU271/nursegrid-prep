@@ -4,6 +4,8 @@ import { db } from "@/db";
 import { tasks, notes, questionAttempts, questionCategories, questions } from "@/db/schema";
 import { and, eq, sql } from "drizzle-orm";
 import GettingStarted from "@/components/dashboard/GettingStarted";
+import { getUserExamDate } from "@/db/user-exam-date";
+import { buildWhatsAppLink } from "@/lib/contact";
 
 export const dynamic = "force-dynamic";
 
@@ -19,7 +21,7 @@ export default async function OverviewPage() {
   // Run all independent read queries concurrently instead of sequentially —
   // this page issues six unrelated queries, and awaiting them one at a time
   // would multiply round-trip latency to the database for no benefit.
-  const [taskStatsRows, noteStatsRows, questionStatsRows, totalQuestionsRows, upcoming, dailyQuestionRows] = await Promise.all([
+  const [taskStatsRows, noteStatsRows, questionStatsRows, totalQuestionsRows, upcoming, dailyQuestionRows, examDate] = await Promise.all([
     db
       .select({
         total: sql<number>`count(*)`.mapWith(Number),
@@ -57,6 +59,7 @@ export default async function OverviewPage() {
       .where(eq(questions.isFree, true))
       .orderBy(sql`random()`)
       .limit(1),
+    getUserExamDate(user.id),
   ]);
 
   const [taskStats] = taskStatsRows;
@@ -67,6 +70,18 @@ export default async function OverviewPage() {
 
   const accuracy = questionStats.attempted > 0 ? Math.round((questionStats.correct / questionStats.attempted) * 100) : null;
   const completion = taskStats.total > 0 ? Math.round((taskStats.done / taskStats.total) * 100) : 0;
+
+  // Exam countdown (only future dates count).
+  let daysLeft: number | null = null;
+  if (examDate) {
+    const ms = new Date(`${examDate}T09:00:00Z`).getTime() - Date.now();
+    const d = Math.ceil(ms / (24 * 60 * 60 * 1000));
+    if (d >= 0) daysLeft = d;
+  }
+
+  const communityLink = buildWhatsAppLink(
+    "Hi NurseGrid Prep! I'd like to join the student study community.",
+  );
 
   return (
     <div className="space-y-8">
@@ -82,6 +97,40 @@ export default async function OverviewPage() {
         notesTotal={noteStats.total}
         isPremium={user.isPremium}
       />
+
+      {/* Exam countdown banner */}
+      {daysLeft !== null && (
+        <div className="flex flex-col items-start justify-between gap-4 overflow-hidden rounded-3xl border border-slate-200 bg-gradient-to-br from-slate-950 via-slate-900 to-emerald-950 p-5 sm:flex-row sm:items-center">
+          <div className="flex items-center gap-4">
+            <div className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl bg-white/10 backdrop-blur">
+              <div className="text-center">
+                <p className="text-lg font-extrabold leading-none text-white">{daysLeft}</p>
+                <p className="text-[8px] font-bold uppercase tracking-widest text-emerald-300">days</p>
+              </div>
+            </div>
+            <div>
+              <p className="text-xs font-bold uppercase tracking-widest text-emerald-300">NMC exam countdown</p>
+              <p className="text-base font-extrabold text-white">
+                {daysLeft === 0 ? "Exam day is here — you've got this! 💪" : `${daysLeft} day${daysLeft === 1 ? "" : "s"} until your exam`}
+              </p>
+            </div>
+          </div>
+          <div className="flex gap-2">
+            <Link
+              href="/dashboard/readiness"
+              className="rounded-2xl bg-gradient-to-r from-emerald-500 to-teal-500 px-4 py-2.5 text-sm font-bold text-white shadow-lg shadow-emerald-500/30 transition-all hover:scale-105 active:scale-95"
+            >
+              Check readiness →
+            </Link>
+            <Link
+              href="/dashboard/study-plan"
+              className="rounded-2xl border border-white/15 bg-white/10 px-4 py-2.5 text-sm font-bold text-white backdrop-blur transition hover:bg-white/15"
+            >
+              Study plan
+            </Link>
+          </div>
+        </div>
+      )}
 
       {!user.isPremium && (
         <div className="flex flex-col items-start justify-between gap-4 rounded-2xl border border-amber-200 bg-gradient-to-r from-amber-50 to-white p-5 sm:flex-row sm:items-center">
@@ -174,6 +223,22 @@ export default async function OverviewPage() {
               <QuickLink href="/dashboard/questions/bookmarks" icon="🔖" label="Review bookmarked questions" />
               <QuickLink href="/dashboard/progress" icon="📈" label="See progress by category" />
             </div>
+          </div>
+
+          {/* WhatsApp study community */}
+          <div className="overflow-hidden rounded-2xl border border-emerald-200 bg-gradient-to-br from-emerald-600 to-teal-700 p-5 text-white">
+            <h2 className="text-base font-extrabold tracking-tight">💬 Join the study community</h2>
+            <p className="mt-1.5 text-sm text-emerald-50">
+              Study with fellow Ghanaian nursing students — share tips, ask questions, and stay motivated for the NMC exam together.
+            </p>
+            <a
+              href={communityLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-block rounded-xl bg-white px-4 py-2.5 text-sm font-bold text-emerald-700 transition hover:bg-emerald-50"
+            >
+              Join on WhatsApp →
+            </a>
           </div>
         </div>
       </div>
