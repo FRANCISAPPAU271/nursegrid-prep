@@ -29,8 +29,10 @@ export default async function CarePlansPage() {
 
   return (
     <div>
-      <div className="mb-6 flex flex-col gap-1">
-        <h1 className="text-2xl font-extrabold tracking-tight text-slate-950">Nursing Care Plans</h1>
+      <div className="mb-5 flex flex-col gap-1">
+        <h1 className="text-2xl font-extrabold tracking-tight text-slate-950">
+          Nursing Care Plans <span className="align-middle text-lg">🗂️</span>
+        </h1>
         <p className="text-slate-600">
           Build ADPIE-structured care plans: assessment, diagnosis, goals, interventions, and evaluation.
         </p>

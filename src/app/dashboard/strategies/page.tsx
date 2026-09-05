@@ -36,8 +36,10 @@ export default async function StrategiesPage() {
 
   return (
     <div>
-      <div className="mb-6 flex flex-col gap-1">
-        <h1 className="text-2xl font-extrabold tracking-tight text-slate-950">Test-taking strategies</h1>
+      <div className="mb-5 flex flex-col gap-1">
+        <h1 className="text-2xl font-extrabold tracking-tight text-slate-950">
+          Test-taking strategies <span className="align-middle text-lg">🎯</span>
+        </h1>
         <p className="text-slate-600">Proven frameworks to reason through NMC exam-style questions, free for every student.</p>
       </div>
       <StrategyLibrary initial={initial} />
