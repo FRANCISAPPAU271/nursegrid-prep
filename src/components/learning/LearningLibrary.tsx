@@ -18,6 +18,10 @@ const ICONS: Record<string, string> = {
   blood: "🩸",
   baby: "🤰",
   compass: "🧭",
+  lab: "🧪",
+  target: "🎯",
+  calc: "🧮",
+  pulse: "💓",
 };
 
 // Deterministic modern gradient per category so covers feel designed, not random.
@@ -25,6 +29,7 @@ const CATEGORY_GRADIENTS: Record<string, string> = {
   "Body Systems": "from-emerald-400/90 via-teal-500/90 to-cyan-600/90",
   "Obstetric & Reproductive": "from-rose-400/90 via-pink-500/90 to-fuchsia-600/90",
   "Nursing Process": "from-violet-400/90 via-purple-500/90 to-indigo-600/90",
+  "Quick Reference": "from-amber-400/90 via-orange-500/90 to-rose-500/90",
 };
 const FALLBACK_GRADIENTS = [
   "from-amber-400/90 via-orange-500/90 to-rose-500/90",
