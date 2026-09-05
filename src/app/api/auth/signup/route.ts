@@ -5,7 +5,7 @@ import { users, tasks, notes, referrals } from "@/db/schema";
 import { eq } from "drizzle-orm";
 import { createSession, hashPassword } from "@/lib/auth";
 import { handleApiError } from "@/lib/api";
-import { generateReferralCode, REFERRAL_REWARD_DAYS } from "@/lib/referral";
+import { generateReferralCode, REFERRAL_REWARD_DAYS, SIGNUP_TRIAL_DAYS } from "@/lib/referral";
 
 const schema = z.object({
   name: z.string().trim().min(2, "Name is too short").max(80),
@@ -52,7 +52,10 @@ export async function POST(request: Request) {
     const securityAnswerHash = await hashPassword(data.securityAnswer.toLowerCase());
     const referralCode = await uniqueReferralCode();
     const now = new Date();
-    const trialEnd = referrer ? new Date(now.getTime() + REFERRAL_REWARD_DAYS * 24 * 60 * 60 * 1000) : null;
+    // Every new account starts with a premium trial: 14 days when invited
+    // with a referral code, otherwise the standard 3-day taste of premium.
+    const trialDays = referrer ? REFERRAL_REWARD_DAYS : SIGNUP_TRIAL_DAYS;
+    const trialEnd = new Date(now.getTime() + trialDays * 24 * 60 * 60 * 1000);
 
     const [user] = await db
       .insert(users)
@@ -64,8 +67,8 @@ export async function POST(request: Request) {
         cohort: data.cohort || null,
         referralCode,
         referredByCode: referrer ? normalizedRefCode : null,
-        isPremium: Boolean(referrer),
-        premiumSince: referrer ? now : null,
+        isPremium: true,
+        premiumSince: now,
         premiumTrialEndsAt: trialEnd,
         securityQuestion: data.securityQuestion,
         securityAnswerHash,

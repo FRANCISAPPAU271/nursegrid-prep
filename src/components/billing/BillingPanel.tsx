@@ -143,8 +143,8 @@ export default function BillingPanel({
         <div className="rounded-2xl border border-amber-200 bg-amber-50 p-5">
           <p className="text-sm font-bold text-amber-800">🎁 Free premium trial active</p>
           <p className="mt-1 text-sm text-amber-700">
-            You have free premium access from referral rewards until {fmt(premiumTrialEndsAt)}. Choose a plan below anytime to keep access after
-            it ends.
+            You have full premium access — every question, mock exams, readiness and more — until {fmt(premiumTrialEndsAt)}.
+            Choose a plan below anytime to keep access after it ends.
           </p>
         </div>
       )}

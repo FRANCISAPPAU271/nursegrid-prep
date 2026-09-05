@@ -79,6 +79,14 @@ export default async function OverviewPage() {
     if (d >= 0) daysLeft = d;
   }
 
+  // Free-trial countdown: user is premium purely from the signup/referral
+  // trial (premiumTrialEndsAt in the future) — show days remaining + upgrade CTA.
+  let trialDaysLeft: number | null = null;
+  if (user.isPremium && user.premiumTrialEndsAt) {
+    const ms = user.premiumTrialEndsAt.getTime() - Date.now();
+    if (ms > 0) trialDaysLeft = Math.ceil(ms / (24 * 60 * 60 * 1000));
+  }
+
   const communityLink = buildWhatsAppLink(
     "Hi NurseGrid Prep! I'd like to join the student study community.",
   );
@@ -104,6 +112,33 @@ export default async function OverviewPage() {
         notesTotal={noteStats.total}
         isPremium={user.isPremium}
       />
+
+      {/* Free premium trial countdown */}
+      {trialDaysLeft !== null && (
+        <div className="flex flex-col items-start justify-between gap-4 rounded-3xl border border-emerald-200 bg-gradient-to-r from-emerald-50 via-teal-50 to-white p-5 sm:flex-row sm:items-center">
+          <div className="flex items-center gap-4">
+            <div className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white shadow-md shadow-emerald-500/25">
+              <div className="text-center">
+                <p className="text-lg font-extrabold leading-none">{trialDaysLeft}</p>
+                <p className="text-[8px] font-bold uppercase tracking-widest">day{trialDaysLeft === 1 ? "" : "s"}</p>
+              </div>
+            </div>
+            <div>
+              <p className="text-sm font-extrabold text-emerald-900">🎁 Free premium trial — {trialDaysLeft} day{trialDaysLeft === 1 ? "" : "s"} left</p>
+              <p className="mt-0.5 text-sm text-emerald-800">
+                You have FULL access right now: all {totalQuestions.toLocaleString()} questions, mock exams, CAT, readiness &amp; more.
+                Make it count — then keep it from just $5.
+              </p>
+            </div>
+          </div>
+          <Link
+            href="/dashboard/billing"
+            className="shrink-0 rounded-2xl bg-gradient-to-r from-emerald-600 to-teal-600 px-5 py-2.5 text-sm font-bold text-white shadow-lg shadow-emerald-600/25 transition-all hover:scale-105 active:scale-95"
+          >
+            Keep premium — from $5
+          </Link>
+        </div>
+      )}
 
       {/* Exam countdown banner */}
       {daysLeft !== null && (

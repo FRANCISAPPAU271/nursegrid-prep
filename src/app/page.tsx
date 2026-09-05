@@ -136,7 +136,7 @@ export default async function HomePage() {
                 href="/signup"
                 className="rounded-2xl bg-lime-400 px-7 py-4 text-center text-base font-extrabold text-slate-950 shadow-lg shadow-lime-400/30 transition hover:-translate-y-0.5 hover:shadow-xl hover:shadow-lime-400/50"
               >
-                Try 40 questions free
+                Start 3-day free premium trial
               </Link>
               <Link
                 href="/login"
@@ -146,8 +146,8 @@ export default async function HomePage() {
               </Link>
             </div>
             <p className="mt-5 text-xs leading-relaxed text-emerald-100/50 sm:text-sm">
-              <b className="text-lime-300">No card needed to start</b> · Tasks &amp; notes free forever · Full
-              access from <b className="text-lime-300">$5</b> — one payment, never auto-billed
+              <b className="text-lime-300">3 days of full premium free</b> — every question, mock exams &amp; readiness ·
+              No card needed · Then <b className="text-lime-300">from $5</b> — one payment, never auto-billed
             </p>
           </div>
 
@@ -445,7 +445,7 @@ export default async function HomePage() {
             Your licensing pass starts today.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-emerald-100/60">
-            40 free questions. No card. No auto-billing. Just the smartest way to prep — from $5.
+            3 days of full premium free. No card. No auto-billing. Just the smartest way to prep — from $5.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
             <Link
