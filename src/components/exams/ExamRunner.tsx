@@ -1,7 +1,9 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
+import { mockVerdict } from "@/components/exams/MockExamLauncher";
 import type { ExamQuestion, ExamReviewQuestion } from "@/lib/types";
 import { SkeletonList } from "@/components/ui/Skeleton";
 import { useToast } from "@/components/ui/Toast";
@@ -32,6 +34,20 @@ export default function ExamRunner({ examId }: { examId: string }) {
   const [current, setCurrent] = useState(0);
   const [submitting, setSubmitting] = useState(false);
   const toast = useToast();
+  const searchParams = useSearchParams();
+  const isMock = searchParams.get("mock") === "1" || (meta?.title ?? "").startsWith("Mock NMC Exam");
+  // Mock timer: 150 minutes from the exam's startedAt timestamp.
+  const deadline = useMemo(() => {
+    if (!meta || meta.status !== "in_progress" || !isMock) return null;
+    return new Date(meta.startedAt).getTime() + 150 * 60 * 1000;
+  }, [meta, isMock]);
+  const [now, setNow] = useState(() => Date.now());
+  useEffect(() => {
+    if (!deadline) return;
+    const t = setInterval(() => setNow(Date.now()), 1000);
+    return () => clearInterval(t);
+  }, [deadline]);
+  const remainingMs = deadline ? Math.max(0, deadline - now) : null;
 
   useEffect(() => {
     fetch(`/api/exams/${examId}`)
@@ -47,6 +63,15 @@ export default function ExamRunner({ examId }: { examId: string }) {
   function selectAnswer(questionId: string, choiceId: string) {
     setAnswers((a) => ({ ...a, [questionId]: choiceId }));
   }
+
+  // Auto-submit the mock when the countdown hits zero.
+  useEffect(() => {
+    if (remainingMs === 0 && meta?.status === "in_progress" && !submitting) {
+      toast.push("Time is up — submitting your mock exam.", "info");
+      submitExam();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [remainingMs]);
 
   async function submitExam() {
     setSubmitting(true);
@@ -93,11 +118,20 @@ export default function ExamRunner({ examId }: { examId: string }) {
       <div>
         <HeaderBar title={meta.title} />
         <div className="mb-6 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 text-center">
-          <p className="text-3xl">🎉</p>
+          <p className="text-3xl">{isMock ? "🎓" : "🎉"}</p>
           <h2 className="mt-2 text-2xl font-extrabold text-slate-950">
             You scored {meta.correctCount}/{meta.totalQuestions} ({pct}%)
           </h2>
-          <p className="mt-1 text-sm text-emerald-800">Review every question, your answer, the correct answer, and the rationale below.</p>
+          {isMock && (() => {
+            const v = mockVerdict(pct);
+            return (
+              <div className="mt-3">
+                <span className={`inline-block rounded-full px-4 py-1.5 text-sm font-extrabold ${v.tone}`}>{v.label}</span>
+                <p className="mx-auto mt-2 max-w-md text-sm text-slate-700">{v.message}</p>
+              </div>
+            );
+          })()}
+          <p className="mt-2 text-sm text-emerald-800">Review every question, your answer, the correct answer, and the rationale below.</p>
         </div>
 
         <div className="space-y-4">
@@ -169,7 +203,20 @@ export default function ExamRunner({ examId }: { examId: string }) {
         <span>
           Question {current + 1} of {questions.length}
         </span>
-        <span>{answeredCount} answered</span>
+        <span className="flex items-center gap-3">
+          {remainingMs !== null && (
+            <span
+              className={`rounded-lg px-2.5 py-1 font-mono text-sm font-bold tabular-nums ${
+                remainingMs < 10 * 60 * 1000 ? "bg-rose-100 text-rose-700" : "bg-slate-900 text-lime-300"
+              }`}
+            >
+              ⏱ {String(Math.floor(remainingMs / 3600000)).padStart(2, "0")}:
+              {String(Math.floor((remainingMs % 3600000) / 60000)).padStart(2, "0")}:
+              {String(Math.floor((remainingMs % 60000) / 1000)).padStart(2, "0")}
+            </span>
+          )}
+          <span>{answeredCount} answered</span>
+        </span>
       </div>
 
       {q && (
