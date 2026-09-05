@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import type { CarePlan, CarePlanStatus } from "@/lib/types";
 import Modal from "@/components/ui/Modal";
 import { useToast } from "@/components/ui/Toast";
+import Watermark from "@/components/ui/Watermark";
 import CarePlanForm, { type CarePlanFormValues } from "@/components/care-plans/CarePlanForm";
 
 const STATUS_LABEL: Record<CarePlanStatus, string> = {
@@ -254,7 +255,8 @@ export default function CarePlanBoard({ initial }: { initial: CarePlan[] }) {
                 </div>
 
                 {isOpen && (
-                  <div className="mt-4 space-y-3 border-t border-slate-100 pt-4">
+                  <div className="secure-content relative mt-4 space-y-3 border-t border-slate-100 pt-4">
+                    <Watermark />
                     <DetailBlock step="1" icon="🔍" label="Assessment" value={plan.assessment} />
                     <DetailBlock step="2" icon="🩺" label="Nursing Diagnosis" value={plan.nursingDiagnosis} />
                     <DetailBlock step="3" icon="🎯" label="Goals / Expected Outcomes" value={plan.goals} />

@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import type { Strategy } from "@/lib/types";
 import { useToast } from "@/components/ui/Toast";
+import Watermark from "@/components/ui/Watermark";
 
 const ICONS: Record<string, string> = {
   compass: "🧭",
@@ -212,7 +213,8 @@ export default function StrategyLibrary({ initial }: { initial: Strategy[] }) {
                   </button>
                 </div>
                 {isOpen && (
-                  <div className="animate-fade-in mt-4 space-y-4 border-t border-slate-100 pt-4">
+                  <div className="animate-fade-in secure-content relative mt-4 space-y-4 border-t border-slate-100 pt-4">
+                    <Watermark />
                     {s.videoId && (
                       <div className="overflow-hidden rounded-2xl border border-slate-200 bg-slate-50">
                         <div className="relative aspect-video w-full">

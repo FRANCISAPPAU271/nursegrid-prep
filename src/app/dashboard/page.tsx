@@ -3,6 +3,7 @@ import { getCurrentUser } from "@/lib/auth";
 import { db } from "@/db";
 import { tasks, notes, questionAttempts, questionCategories, questions } from "@/db/schema";
 import { and, eq, sql } from "drizzle-orm";
+import GettingStarted from "@/components/dashboard/GettingStarted";
 
 export const dynamic = "force-dynamic";
 
@@ -74,6 +75,13 @@ export default async function OverviewPage() {
         <h1 className="text-2xl font-extrabold tracking-tight text-slate-950 sm:text-3xl">Hi {user.name.split(" ")[0]} 👋</h1>
         <p className="mt-1 text-slate-600">Here&apos;s how your study plan is shaping up.</p>
       </div>
+
+      <GettingStarted
+        attempted={questionStats.attempted}
+        tasksTotal={taskStats.total}
+        notesTotal={noteStats.total}
+        isPremium={user.isPremium}
+      />
 
       {!user.isPremium && (
         <div className="flex flex-col items-start justify-between gap-4 rounded-2xl border border-amber-200 bg-gradient-to-r from-amber-50 to-white p-5 sm:flex-row sm:items-center">
