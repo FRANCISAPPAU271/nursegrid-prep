@@ -154,20 +154,18 @@ export default function BillingPanel({
           <p className="text-sm font-bold text-amber-800">⏳ MTN Mobile Money payment under review</p>
           <p className="mt-1 text-sm text-amber-700">
             We received your payment submission ({planLabel(pendingMomoRequest.plan)}) on {fmt(pendingMomoRequest.createdAt)}. We&apos;re
-            verifying it against our MoMo transaction records and will activate your full access shortly — usually within a few hours.
+            verifying it against our MoMo records — access is activated <b>within 1 hour, usually within minutes</b>.
           </p>
-          <p className="mt-2 text-xs text-amber-700">
-            Need it faster? Message us on{" "}
-            <a
-              href={buildWhatsAppLink("Hi NurseGrid Prep! I'd like to check on my MTN Mobile Money payment review status.")}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold underline"
-            >
-              WhatsApp ({WHATSAPP_DISPLAY_NUMBER})
-            </a>
-            .
-          </p>
+          <a
+            href={buildWhatsAppLink(
+              `Hi NurseGrid Prep! I submitted a MoMo payment for the ${planLabel(pendingMomoRequest.plan)} plan and I'd love a quick activation. Thank you! 🙏`,
+            )}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 inline-block rounded-xl bg-amber-500 px-4 py-2 text-xs font-bold text-white transition hover:bg-amber-600"
+          >
+            💬 Nudge the admin on WhatsApp ({WHATSAPP_DISPLAY_NUMBER})
+          </a>
         </div>
       )}
 
@@ -419,6 +417,7 @@ function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
   const toast = useToast();
   const router = useRouter();
   const ghs = approxGhsAmount(plan.priceCents);
@@ -445,14 +444,65 @@ function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Unable to submit payment for review");
-      toast.push("Submitted! We'll verify your payment and activate your account shortly.", "success");
-      onClose();
+      setSubmitted(true);
       router.refresh();
     } catch (err) {
       setError(err instanceof Error ? err.message : "Unable to submit payment for review");
     } finally {
       setLoading(false);
     }
+  }
+
+  // ----- Success step: reference + activation window + notify-admin tap -----
+  // The student's own WhatsApp message doubles as an instant admin
+  // notification, so activation happens in minutes instead of hours.
+  if (submitted) {
+    const notifyMessage =
+      `Hi NurseGrid Prep! I just paid for the ${plan.name} plan via MTN MoMo.\n` +
+      `• Amount: ~GHS ${ghs} (${plan.price})\n` +
+      `• From MoMo number: ${momoNumber}\n` +
+      `• Transaction ref: ${momoReference}\n` +
+      `Please activate my account. Thank you! 🙏`;
+    return (
+      <div className="space-y-4">
+        <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-5 text-center">
+          <div className="text-4xl">✅</div>
+          <p className="mt-2 text-base font-extrabold text-emerald-900">Payment submitted!</p>
+          <p className="mt-1 text-sm text-emerald-800">
+            {plan.name} plan · ref <span className="font-mono font-bold">{momoReference}</span>
+          </p>
+          <p className="mt-2 text-sm text-emerald-800">
+            Your access is activated <b>within 1 hour — usually within minutes</b> once we match your reference against
+            our MoMo records.
+          </p>
+        </div>
+
+        <div className="rounded-2xl border border-slate-200 bg-white p-4">
+          <p className="text-sm font-bold text-slate-900">⚡ Want it activated faster?</p>
+          <p className="mt-1 text-xs text-slate-500">
+            Tap below to notify the admin on WhatsApp right now — your payment details are pre-filled, just press send.
+          </p>
+          <a
+            href={buildWhatsAppLink(notifyMessage)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 block rounded-xl bg-emerald-600 px-4 py-3 text-center text-sm font-bold text-white shadow-sm transition hover:bg-emerald-700"
+          >
+            💬 Notify admin on WhatsApp →
+          </a>
+        </div>
+
+        <div className="flex justify-end">
+          <button
+            type="button"
+            onClick={onClose}
+            className="rounded-lg px-4 py-2 text-sm font-semibold text-slate-600 hover:bg-slate-100"
+          >
+            Done
+          </button>
+        </div>
+      </div>
+    );
   }
 
   return (
@@ -485,7 +535,8 @@ function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
         <div>
           <p className="text-sm font-bold text-slate-900">Step 2 — Submit for verification</p>
           <p className="mt-1 text-xs text-slate-500">
-            Our team manually checks each transaction reference against our MoMo records before granting access — usually within a few hours.
+            We check your transaction reference against our MoMo records and activate your access{" "}
+            <b>within 1 hour — usually within minutes</b>. After submitting, you can notify the admin on WhatsApp with one tap.
           </p>
         </div>
         {error && <div className="rounded-lg bg-rose-50 px-4 py-3 text-sm font-medium text-rose-700">{error}</div>}
