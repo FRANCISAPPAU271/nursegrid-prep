@@ -36,3 +36,23 @@ export async function setQuestionMedia(
     sql`UPDATE "questions" SET "media_url" = ${mediaUrl}, "media_caption" = ${mediaCaption} WHERE "id" = ${questionId}`,
   );
 }
+
+// Batch lookup for review screens (exam review, CAT history): returns a map
+// of questionId -> media for every question that actually has media attached.
+export async function getMediaForQuestions(
+  questionIds: string[],
+): Promise<Map<string, { mediaUrl: string; mediaCaption: string | null }>> {
+  const map = new Map<string, { mediaUrl: string; mediaCaption: string | null }>();
+  if (questionIds.length === 0) return map;
+  await ensureMediaColumns();
+  const result = await db.execute(sql`
+    SELECT "id", "media_url", "media_caption"
+    FROM "questions"
+    WHERE "id" = ANY(${questionIds}) AND "media_url" IS NOT NULL
+  `);
+  for (const r of result.rows) {
+    const row = r as { id: string; media_url: string; media_caption: string | null };
+    map.set(row.id, { mediaUrl: row.media_url, mediaCaption: row.media_caption });
+  }
+  return map;
+}

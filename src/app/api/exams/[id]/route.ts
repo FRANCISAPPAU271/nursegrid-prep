@@ -4,6 +4,7 @@ import { examSessions } from "@/db/schema";
 import { and, eq } from "drizzle-orm";
 import { requireUser, handleApiError, ApiError } from "@/lib/api";
 import { isSata } from "@/lib/sata";
+import { getMediaForQuestions } from "@/db/question-media";
 
 export async function DELETE(_request: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
@@ -39,12 +40,16 @@ export async function GET(_request: Request, { params }: { params: Promise<{ id:
       // Full review: every question with the student's answer, the correct
       // answer, and the rationale/strategy.
       const answerMap = new Map(exam.answers.map((a) => [a.questionId, a]));
+      const mediaMap = await getMediaForQuestions(exam.questionSnapshot.map((q) => q.id));
       const review = exam.questionSnapshot.map((q) => {
         const answer = answerMap.get(q.id);
+        const media = mediaMap.get(q.id);
         return {
           ...q,
           selectedChoiceId: answer?.selectedChoiceId ?? null,
           isCorrect: answer?.isCorrect ?? false,
+          mediaUrl: media?.mediaUrl ?? null,
+          mediaCaption: media?.mediaCaption ?? null,
         };
       });
       return NextResponse.json({

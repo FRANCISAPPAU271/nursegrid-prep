@@ -147,6 +147,8 @@ export type ExamReviewQuestion = ExamQuestion & {
   strategy: string;
   selectedChoiceId: string | null;
   isCorrect: boolean;
+  mediaUrl?: string | null;
+  mediaCaption?: string | null;
 };
 
 // ---------- CAT (computerized adaptive testing) practice ----------

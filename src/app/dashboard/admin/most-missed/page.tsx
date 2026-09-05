@@ -32,7 +32,7 @@ export default async function MostMissedPage() {
     JOIN "questions" q ON q."id" = a."question_id"
     JOIN "question_categories" c ON c."id" = q."category_id"
     GROUP BY q."id", q."stem", q."difficulty", q."media_url", q."media_caption", c."name"
-    HAVING count(a."id") >= 5
+    HAVING count(a."id") >= 1
     ORDER BY miss_rate DESC, attempts DESC
     LIMIT 100
   `);
@@ -59,7 +59,7 @@ export default async function MostMissedPage() {
           Most-Missed Questions <span className="align-middle text-lg">🎯</span>
         </h1>
         <p className="text-slate-600">
-          The questions students get wrong most often (minimum 5 attempts). Attach a diagram or table image to any of
+          The questions students get wrong most often. Attach a diagram or table image to any of
           them — it will appear alongside the rationale after students answer.
         </p>
       </div>

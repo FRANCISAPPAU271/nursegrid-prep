@@ -7,6 +7,7 @@ import { and, eq, notInArray, sql, notLike } from "drizzle-orm";
 import { requireUser, handleApiError, ApiError } from "@/lib/api";
 import { gradeAnswer } from "@/lib/sata";
 import { CAT_FREE_QUESTION_CAP, checkStopCondition, targetDifficulty, updateTheta } from "@/lib/cat";
+import { getQuestionMedia } from "@/db/question-media";
 
 const schema = z.object({ selectedChoiceId: z.string().min(1) });
 
@@ -49,6 +50,9 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
     const isCorrect = gradeAnswer(selectedChoiceId, currentQuestion.correctChoiceId);
     const questionNumber = session.askedQuestionIds.length;
     const newTheta = updateTheta(session.theta, currentQuestion.difficulty, isCorrect, questionNumber);
+
+    // Explanation media (diagram/table) attached to this question, if any.
+    const media = await getQuestionMedia(currentQuestion.id);
 
     const historyItem: CatHistoryItem = {
       questionId: currentQuestion.id,
@@ -97,6 +101,8 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
           correctChoiceId: currentQuestion.correctChoiceId,
           rationale: currentQuestion.rationale,
           strategy: currentQuestion.strategy,
+          mediaUrl: media.mediaUrl,
+          mediaCaption: media.mediaCaption,
         },
         summary: {
           questionsAnswered: newHistory.length,
@@ -175,6 +181,8 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
           correctChoiceId: currentQuestion.correctChoiceId,
           rationale: currentQuestion.rationale,
           strategy: currentQuestion.strategy,
+          mediaUrl: media.mediaUrl,
+          mediaCaption: media.mediaCaption,
         },
         summary: { questionsAnswered: newHistory.length, correctCount: newCorrectCount },
       });
@@ -198,6 +206,8 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
         correctChoiceId: currentQuestion.correctChoiceId,
         rationale: currentQuestion.rationale,
         strategy: currentQuestion.strategy,
+        mediaUrl: media.mediaUrl,
+        mediaCaption: media.mediaCaption,
       },
       questionNumber: questionNumber + 1,
       trend: newTheta > session.theta ? "up" : newTheta < session.theta ? "down" : "steady",

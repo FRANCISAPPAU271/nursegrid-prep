@@ -193,6 +193,15 @@ export default function ExamRunner({ examId }: { examId: string }) {
               <div className="mt-3 rounded-lg bg-slate-50 p-3">
                 <p className="text-xs font-bold uppercase tracking-wide text-slate-500">Rationale</p>
                 <p className="mt-1 text-sm text-slate-700">{q.rationale}</p>
+                {q.mediaUrl && (
+                  <div className="mt-3 overflow-hidden rounded-xl border border-slate-200 bg-white">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={q.mediaUrl} alt={q.mediaCaption ?? "Visual explanation"} className="w-full object-contain" loading="lazy" />
+                    {q.mediaCaption && (
+                      <p className="border-t border-slate-100 px-3 py-2 text-xs font-medium text-slate-500">📊 {q.mediaCaption}</p>
+                    )}
+                  </div>
+                )}
                 <p className="mt-2 text-xs font-bold uppercase tracking-wide text-emerald-700">🎯 Strategy</p>
                 <p className="mt-1 text-sm text-slate-700">{q.strategy}</p>
               </div>
