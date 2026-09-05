@@ -171,6 +171,11 @@ export const questions = pgTable("questions", {
   difficulty: questionDifficultyEnum("difficulty").notNull().default("medium"),
   tags: jsonb("tags").$type<string[]>().notNull().default([]),
   isFree: boolean("is_free").notNull().default(false),
+  // NOTE: the physical table also has a "source" column ('generated' |
+  // 'manual'), intentionally NOT mapped here so existing SELECTs are
+  // unaffected on databases created before it existed. It is managed with
+  // raw SQL by the admin manual-question routes and the reseed endpoint
+  // (see src/db/manual-questions.ts), which create it on first use.
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 }, (t) => [
   index("questions_category_idx").on(t.categoryId),

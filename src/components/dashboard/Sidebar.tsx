@@ -93,6 +93,18 @@ export default function Sidebar({
                 </span>
               )}
             </Link>
+            <Link
+              href="/dashboard/admin/questions"
+              onClick={() => setOpen(false)}
+              className={`flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition ${
+                pathname.startsWith("/dashboard/admin/questions")
+                  ? "bg-emerald-600 text-white"
+                  : "text-slate-300 hover:bg-slate-800 hover:text-white"
+              }`}
+            >
+              <span className="text-base">📝</span>
+              Upload Questions
+            </Link>
           </>
         )}
       </nav>

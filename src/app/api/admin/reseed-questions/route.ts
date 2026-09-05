@@ -4,6 +4,7 @@ import { db } from "@/db";
 import { questions, questionCategories, catSessions, users } from "@/db/schema";
 import { eq, sql } from "drizzle-orm";
 import { buildCategoryQuestions, CATEGORY_DEFS, CATEGORY_META, chunk, ARCHETYPES, MAX_VARIANTS_PER_FACT } from "@/db/question-bank";
+import { ensureSourceColumn } from "@/db/manual-questions";
 
 export const dynamic = "force-dynamic";
 // Stay within the Vercel Hobby function limit; the route also self-limits
@@ -37,6 +38,10 @@ export async function GET() {
   if (!user) return NextResponse.json({ error: "Not signed in" }, { status: 401 });
   if (!user.isAdmin) return NextResponse.json({ error: "Admins only" }, { status: 403 });
 
+  // Manual (admin-uploaded) questions carry source='manual' and are never
+  // touched by reseeds; only generated rows are counted and replaced.
+  await ensureSourceColumn();
+
   const [{ count: userCount }] = await db
     .select({ count: sql<number>`count(*)`.mapWith(Number) })
     .from(users);
@@ -67,6 +72,7 @@ export async function GET() {
   const countRows = await db
     .select({ categoryId: questions.categoryId, count: sql<number>`count(*)`.mapWith(Number) })
     .from(questions)
+    .where(sql`${questions}."source" = 'generated'`)
     .groupBy(questions.categoryId);
   const countByCategoryId = new Map(countRows.map((r) => [r.categoryId, r.count]));
 
@@ -98,7 +104,10 @@ export async function GET() {
       continue;
     }
 
-    const del = await db.delete(questions).where(eq(questions.categoryId, categoryId)).returning({ id: questions.id });
+    const del = await db
+      .delete(questions)
+      .where(sql`${questions}."category_id" = ${categoryId} AND ${questions}."source" = 'generated'`)
+      .returning({ id: questions.id });
     removed += del.length;
     for (const batch of chunk(rows, 250)) {
       const res = await db.insert(questions).values(batch).returning({ id: questions.id });
@@ -116,7 +125,7 @@ export async function GET() {
     ok: true,
     done,
     message: done
-      ? "Question bank fully replaced. Users and payments were not touched."
+      ? "Question bank fully replaced. Users, payments, and manually uploaded questions were not touched."
       : `Progress saved. ${remaining.length} categor${remaining.length === 1 ? "y" : "ies"} remaining — refresh this page to continue.`,
     totalQuestionsNow: totalNow,
     categoriesReplacedThisVisit: completed,
