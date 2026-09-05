@@ -22,8 +22,10 @@ export default async function LearningPage() {
 
   return (
     <div>
-      <div className="mb-6 flex flex-col gap-1">
-        <h1 className="text-2xl font-extrabold tracking-tight text-slate-950">Learning Library</h1>
+      <div className="mb-5 flex flex-col gap-1">
+        <h1 className="text-2xl font-extrabold tracking-tight text-slate-950">
+          Learning Library <span className="align-middle text-lg">📚</span>
+        </h1>
         <p className="text-slate-600">
           Simple nursing notes on every body system, obstetric anatomy, and the nursing process — with diagrams and short videos.
         </p>
