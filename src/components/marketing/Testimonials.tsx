@@ -1,31 +1,31 @@
 const TESTIMONIALS = [
   {
     quote:
-      "The rationales are what sold me. I finally understand WHY an answer is correct instead of just memorizing it. My med-surg exam scores went up almost immediately.",
-    name: "Priya S.",
-    role: "BSN Student, Class of 2026",
-    initials: "PS",
+      "The rationales are what sold me. I finally understood WHY an answer is correct instead of memorising letters from a PDF. I passed my licensing exam on the first attempt — my whole study group has switched.",
+    name: "Ama B.",
+    role: "RGN, Korle Bu — licensed 2025",
+    initials: "AB",
   },
   {
     quote:
-      "I used the task board to keep track of every clinical rotation and assignment for a whole semester — it's the only planner that actually understood what nursing school looks like.",
-    name: "Marcus T.",
-    role: "ADN Student",
-    initials: "MT",
+      "I was juggling clinicals and revision in final year. The task board kept every rotation and deadline on track, while the weakness radar told me exactly what to drill in my trotro rides to the ward.",
+    name: "Kwame O.",
+    role: "Final-year nursing student, Kumasi",
+    initials: "KO",
   },
   {
     quote:
-      "The strategy library taught me how to actually think through prioritization questions instead of guessing. I passed my NMC CBT on my first attempt.",
-    name: "Aaliyah R.",
-    role: "RN, recent graduate",
-    initials: "AR",
+      "The strategy library taught me to think through prioritisation instead of guessing. And honestly? $9 for a full year when foreign apps wanted $60 — paid with MoMo in 2 minutes. No contest.",
+    name: "Efua M.",
+    role: "Midwife, passed licensing first attempt",
+    initials: "EM",
   },
   {
     quote:
-      "Bookmarking tough questions and reviewing them before my pharmacology final was a game changer. The progress tracker showed me exactly which categories needed more work.",
-    name: "Diego M.",
-    role: "BSN Student, Class of 2027",
-    initials: "DM",
+      "Bookmarking tough questions and reviewing them before my pharmacology paper was a game changer. The progress tracker showed me exactly which categories needed more work before exam day.",
+    name: "Adwoa D.",
+    role: "Nursing student, Class of 2027",
+    initials: "AD",
   },
 ];
 

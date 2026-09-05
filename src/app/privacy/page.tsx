@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
-const UPDATED = "January 15, 2026";
+const UPDATED = "September 5, 2026";
 
 export default function PrivacyPolicyPage() {
   return (
@@ -31,9 +31,10 @@ export default function PrivacyPolicyPage() {
         <div className="prose-sm mt-8 space-y-8 text-sm leading-relaxed text-slate-700">
           <Section title="1. Overview">
             <p>
-              NurseGrid Prep (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;) provides a task manager and NMC exam-style question bank
-              for student nurses. This Privacy Policy explains what information we collect, how we use it, and the choices you have. By creating
-              an account or using NurseGrid Prep, you agree to the practices described here.
+              NurseGrid Prep (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;) provides a task manager and NMC licensing exam-style
+              question bank for student nurses and midwives in Ghana. This Privacy Policy explains what information we collect, how we use it,
+              and the choices you have. We handle personal data in line with the principles of Ghana&apos;s Data Protection Act, 2012 (Act 843).
+              By creating an account or using NurseGrid Prep, you agree to the practices described here.
             </p>
           </Section>
 
@@ -41,7 +42,7 @@ export default function PrivacyPolicyPage() {
             <ul className="list-disc space-y-1.5 pl-5">
               <li><strong>Account information:</strong> name, email address, hashed password, nursing school, and cohort (if provided).</li>
               <li><strong>Study activity:</strong> tasks, notes, care plans, question attempts, bookmarks, and progress statistics you create while using the app.</li>
-              <li><strong>Payment information:</strong> when you purchase full access, payment is processed by Stripe (for card payments) or recorded manually for MTN Mobile Money payments. We do not store full card numbers on our servers.</li>
+              <li><strong>Payment information:</strong> when you purchase full access, card payments are processed by Stripe, and MTN Mobile Money payments are verified using the transaction reference and MoMo number you submit. We do not store full card numbers on our servers.</li>
               <li><strong>Device information:</strong> browser type, IP address, device identifiers, and push notification tokens (only if you enable notifications in our mobile apps).</li>
               <li><strong>Usage data:</strong> pages visited, features used, and general analytics to help us improve the product.</li>
             </ul>

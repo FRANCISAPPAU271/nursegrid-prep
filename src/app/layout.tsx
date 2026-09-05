@@ -15,20 +15,20 @@ const jakarta = Plus_Jakarta_Sans({
   display: "swap",
 });
 
-const title = "NurseGrid Prep — NMC Exam Task Manager & 10,000-Question Bank";
+const title = "NurseGrid Prep — Pass Ghana's NMC Licensing Exam First Time";
 const description =
-  "A task manager built for student nurses: organize clinicals and study time, then master 10,000 NMC exam-style questions with rationales and proven test-taking strategies.";
+  "Built for Ghana's student nurses & midwives: organise clinicals and revision, then master 10,000 NMC licensing-style questions with rationales that teach real clinical reasoning. From $5 — pay with MTN MoMo.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"),
   title: { default: title, template: "%s · NurseGrid Prep" },
   description,
   keywords: [
-    "NMC exam practice questions",
-    "nursing student task manager",
-    "NMC CBT rationales",
+    "NMC Ghana licensing exam questions",
+    "nursing student task manager Ghana",
+    "NMC licensing exam rationales",
     "nursing school planner",
-    "NMC test-taking strategies",
+    "nursing exam test-taking strategies",
   ],
   authors: [{ name: "NurseGrid Prep" }],
   category: "education",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     description,
     type: "website",
     siteName: "NurseGrid Prep",
-    locale: "en_GB",
+    locale: "en_GH",
   },
   twitter: {
     card: "summary_large_image",

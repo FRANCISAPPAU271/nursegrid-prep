@@ -4,12 +4,12 @@ import { useState } from "react";
 
 const FAQS = [
   {
-    q: "How many NMC exam-style questions are included?",
-    a: "NurseGrid Prep includes 10,000 original NMC exam-style questions covering every major client-needs category, including med-surg, pharmacology, maternal-newborn, pediatrics, mental health, fundamentals, safety, leadership, and more. Every question ships with a detailed rationale and a test-taking strategy tip.",
+    q: "What is the NMC licensing exam and how does this app help me prepare?",
+    a: "The Nursing and Midwifery Council of Ghana licensing examination is the final hurdle between nursing or midwifery school and your professional PIN. It tests clinical judgement, not just recall — which is exactly what our rationale-first questions, strategy library, Custom Exam builder, and adaptive-difficulty practice mode train you for.",
   },
   {
-    q: "What is the NMC CBT and how does this app help me prepare?",
-    a: "The NMC CBT (Computer Based Test) is the multiple-choice exam international nurses and midwives take, delivered via Pearson VUE, as part of joining the UK nursing and midwifery register. NurseGrid Prep gives you a large bank of practice questions with rationales and strategies covering the same client-needs categories the real exam draws from, plus a Custom Exam builder and an adaptive-difficulty practice mode to help you build speed and confidence.",
+    q: "How many questions are included — and are they real exam questions?",
+    a: "NurseGrid Prep includes 10,000 original licensing-style questions covering every major category: med-surg, pharmacology, maternal-newborn, paediatrics, mental health, fundamentals, safety, and leadership. They are written to mirror the exam's style and difficulty — we never sell leaked content, because pattern mastery is what actually gets you through unseen questions. Every question ships with a detailed rationale and a test-taking strategy tip.",
   },
   {
     q: "What's included in the free plan?",
@@ -28,8 +28,8 @@ const FAQS = [
     a: "You can pay with a Visa card (processed securely through Stripe) from anywhere in the world, or with MTN Mobile Money if you're in Ghana — just send payment to 0598872146 and confirm your transaction reference in the app. Our team verifies each MoMo payment and activates your account, usually within a few hours.",
   },
   {
-    q: "Is NurseGrid Prep affiliated with the NMC or Pearson VUE?",
-    a: "No. NurseGrid Prep is an independent study tool built to help nursing students practice exam-style reasoning. It is not affiliated with, endorsed by, or sponsored by the Nursing and Midwifery Council (NMC), Pearson VUE, or any official examination body.",
+    q: "Is NurseGrid Prep affiliated with the Nursing and Midwifery Council of Ghana?",
+    a: "No. NurseGrid Prep is an independent study tool built to help nursing students practise exam-style reasoning. It is not affiliated with, endorsed by, or sponsored by the Nursing and Midwifery Council of Ghana or any official examination body, and our questions are original study material, not leaked exam content.",
   },
   {
     q: "Do you offer referral rewards?",

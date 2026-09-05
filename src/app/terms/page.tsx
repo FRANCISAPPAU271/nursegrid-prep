@@ -4,12 +4,12 @@ import SiteFooter from "@/components/marketing/SiteFooter";
 
 export const metadata: Metadata = {
   title: "Terms of Service — NurseGrid Prep",
-  description: "The terms and conditions for using NurseGrid Prep's task manager and NMC exam question bank.",
+  description: "The terms and conditions for using NurseGrid Prep's task manager and NMC licensing exam question bank.",
   alternates: { canonical: "/terms" },
   robots: { index: true, follow: true },
 };
 
-const UPDATED = "January 15, 2026";
+const UPDATED = "September 5, 2026";
 
 export default function TermsPage() {
   return (
@@ -41,10 +41,10 @@ export default function TermsPage() {
 
           <Section title="2. Description of service">
             <p>
-              NurseGrid Prep is a study and productivity tool for nursing students, including a task manager, notes, an NMC exam-style question
-              bank with rationales, a test-taking strategy library, a body-systems learning library, and nursing care plan tools. It is an
-              independent educational product and is not affiliated with, endorsed by, or sponsored by the Nursing and Midwifery Council (NMC),
-              Pearson VUE, or any official examination body. We make no guarantee of exam results.
+              NurseGrid Prep is a study and productivity tool for nursing and midwifery students, including a task manager, notes, an NMC
+              licensing exam-style question bank with rationales, a test-taking strategy library, a body-systems learning library, and nursing
+              care plan tools. It is an independent educational product and is not affiliated with, endorsed by, or sponsored by the Nursing and
+              Midwifery Council of Ghana or any official examination body. We make no guarantee of exam results.
             </p>
           </Section>
 
@@ -98,8 +98,8 @@ export default function TermsPage() {
           <Section title="8. Disclaimer of warranties">
             <p>
               The Service is provided &ldquo;as is&rdquo; without warranties of any kind. NurseGrid Prep does not guarantee that using the Service
-              will result in passing the NMC CBT, OSCE, or any other examination. Content is for educational purposes and should not replace
-              guidance from your nursing program or licensed instructors.
+              will result in passing the NMC Ghana licensing examination or any other examination. Content is for educational purposes and should
+              not replace guidance from your nursing programme or licensed instructors.
             </p>
           </Section>
 
@@ -125,7 +125,15 @@ export default function TermsPage() {
             </p>
           </Section>
 
-          <Section title="12. Contact us">
+          <Section title="12. Governing law">
+            <p>
+              These Terms are governed by the laws of the Republic of Ghana. Any dispute arising from or relating to these Terms or the Service
+              will be subject to the exclusive jurisdiction of the courts of Ghana, without prejudice to any mandatory consumer protections that
+              apply in your country of residence.
+            </p>
+          </Section>
+
+          <Section title="13. Contact us">
             <p>
               Questions about these Terms? Contact us at{" "}
               <a href="mailto:support@nursegridprep.app" className="font-semibold text-emerald-700 hover:underline">
