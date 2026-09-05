@@ -131,7 +131,7 @@ export default async function Image() {
               letterSpacing: -1.5,
             }}
           >
-            10,000 NMC licensing questions.
+            3,800+ unique licensing questions.
           </div>
           <div
             style={{

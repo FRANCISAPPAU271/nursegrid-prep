@@ -3,6 +3,20 @@ import "dotenv/config";
 import bcrypt from "bcryptjs";
 import { db, pool } from "./index";
 import {
+  EXTRA_FUNDAMENTALS,
+  EXTRA_PHARMACOLOGY,
+  EXTRA_MEDSURG,
+  EXTRA_MATERNAL,
+  EXTRA_PEDIATRICS,
+  EXTRA_MENTALHEALTH,
+  EXTRA_FLUIDELECTROLYTE,
+  EXTRA_SAFETY,
+  EXTRA_LEADERSHIP,
+  EXTRA_HEALTHPROMO,
+  EXTRA_RISKREDUCTION,
+  EXTRA_GERONTOLOGY,
+} from "./seed-extra-items";
+import {
   users,
   tasks,
   notes,
@@ -471,18 +485,18 @@ const GERONTOLOGY: Item[] = [
 // Category metadata + item bank + target question counts
 // ---------------------------------------------------------------------------
 const CATEGORY_DEFS = [
-  { slug: "fundamentals", name: "Fundamentals of Nursing", clientNeed: "Basic Care and Comfort", icon: "clipboard", description: "Core skills: hygiene, mobility, comfort, elimination, and safe basic care.", items: FUNDAMENTALS },
-  { slug: "pharmacology-parenteral", name: "Pharmacology & Parenteral Therapies", clientNeed: "Pharmacological and Parenteral Therapies", icon: "pill", description: "Therapeutic effects, adverse effects, and safe medication administration.", items: PHARMACOLOGY },
-  { slug: "med-surg", name: "Medical-Surgical Nursing", clientNeed: "Physiological Adaptation", icon: "heart", description: "Acute and chronic adult illness across every body system.", items: MEDSURG },
-  { slug: "maternal-newborn", name: "Maternal & Newborn Nursing", clientNeed: "Health Promotion and Maintenance", icon: "baby", description: "Antepartum, intrapartum, postpartum, and newborn care.", items: MATERNAL },
-  { slug: "pediatrics", name: "Pediatric Nursing", clientNeed: "Health Promotion and Maintenance", icon: "sunrise", description: "Growth, development, and illness across infancy through adolescence.", items: PEDIATRICS },
-  { slug: "mental-health", name: "Mental Health Nursing", clientNeed: "Psychosocial Integrity", icon: "brain", description: "Therapeutic communication, crisis intervention, and psychiatric care.", items: MENTALHEALTH },
-  { slug: "fluid-electrolyte", name: "Fluid, Electrolyte & Acid-Base Balance", clientNeed: "Physiological Adaptation", icon: "droplet", description: "Electrolyte imbalances, acid-base disorders, and fluid management.", items: FLUIDELECTROLYTE },
-  { slug: "safety-infection-control", name: "Safety & Infection Control", clientNeed: "Safety and Infection Control", icon: "shield", description: "Precautions, error prevention, and a safe care environment.", items: SAFETY },
-  { slug: "leadership-delegation", name: "Leadership, Delegation & Prioritization", clientNeed: "Management of Care", icon: "users", description: "Delegation, prioritization, ethics, and coordinating client care.", items: LEADERSHIP },
-  { slug: "health-promotion", name: "Health Promotion & Maintenance", clientNeed: "Health Promotion and Maintenance", icon: "activity", description: "Screenings, wellness, and lifespan development teaching.", items: HEALTHPROMO },
-  { slug: "risk-reduction", name: "Reduction of Risk Potential", clientNeed: "Reduction of Risk Potential", icon: "flask", description: "Labs, diagnostics, and post-procedure monitoring.", items: RISKREDUCTION },
-  { slug: "gerontology-community", name: "Gerontological & Community Health Nursing", clientNeed: "Basic Care and Comfort", icon: "sunrise", description: "Older adult and population/community health nursing.", items: GERONTOLOGY },
+  { slug: "fundamentals", name: "Fundamentals of Nursing", clientNeed: "Basic Care and Comfort", icon: "clipboard", description: "Core skills: hygiene, mobility, comfort, elimination, and safe basic care.", items: [...FUNDAMENTALS, ...EXTRA_FUNDAMENTALS] },
+  { slug: "pharmacology-parenteral", name: "Pharmacology & Parenteral Therapies", clientNeed: "Pharmacological and Parenteral Therapies", icon: "pill", description: "Therapeutic effects, adverse effects, and safe medication administration.", items: [...PHARMACOLOGY, ...EXTRA_PHARMACOLOGY] },
+  { slug: "med-surg", name: "Medical-Surgical Nursing", clientNeed: "Physiological Adaptation", icon: "heart", description: "Acute and chronic adult illness across every body system.", items: [...MEDSURG, ...EXTRA_MEDSURG] },
+  { slug: "maternal-newborn", name: "Maternal & Newborn Nursing", clientNeed: "Health Promotion and Maintenance", icon: "baby", description: "Antepartum, intrapartum, postpartum, and newborn care.", items: [...MATERNAL, ...EXTRA_MATERNAL] },
+  { slug: "pediatrics", name: "Pediatric Nursing", clientNeed: "Health Promotion and Maintenance", icon: "sunrise", description: "Growth, development, and illness across infancy through adolescence.", items: [...PEDIATRICS, ...EXTRA_PEDIATRICS] },
+  { slug: "mental-health", name: "Mental Health Nursing", clientNeed: "Psychosocial Integrity", icon: "brain", description: "Therapeutic communication, crisis intervention, and psychiatric care.", items: [...MENTALHEALTH, ...EXTRA_MENTALHEALTH] },
+  { slug: "fluid-electrolyte", name: "Fluid, Electrolyte & Acid-Base Balance", clientNeed: "Physiological Adaptation", icon: "droplet", description: "Electrolyte imbalances, acid-base disorders, and fluid management.", items: [...FLUIDELECTROLYTE, ...EXTRA_FLUIDELECTROLYTE] },
+  { slug: "safety-infection-control", name: "Safety & Infection Control", clientNeed: "Safety and Infection Control", icon: "shield", description: "Precautions, error prevention, and a safe care environment.", items: [...SAFETY, ...EXTRA_SAFETY] },
+  { slug: "leadership-delegation", name: "Leadership, Delegation & Prioritization", clientNeed: "Management of Care", icon: "users", description: "Delegation, prioritization, ethics, and coordinating client care.", items: [...LEADERSHIP, ...EXTRA_LEADERSHIP] },
+  { slug: "health-promotion", name: "Health Promotion & Maintenance", clientNeed: "Health Promotion and Maintenance", icon: "activity", description: "Screenings, wellness, and lifespan development teaching.", items: [...HEALTHPROMO, ...EXTRA_HEALTHPROMO] },
+  { slug: "risk-reduction", name: "Reduction of Risk Potential", clientNeed: "Reduction of Risk Potential", icon: "flask", description: "Labs, diagnostics, and post-procedure monitoring.", items: [...RISKREDUCTION, ...EXTRA_RISKREDUCTION] },
+  { slug: "gerontology-community", name: "Gerontological & Community Health Nursing", clientNeed: "Basic Care and Comfort", icon: "sunrise", description: "Older adult and population/community health nursing.", items: [...GERONTOLOGY, ...EXTRA_GERONTOLOGY] },
 ] as const;
 
 // ---------------------------------------------------------------------------
@@ -595,13 +609,20 @@ const ARCHETYPES: Archetype[] = [
   },
 ];
 
+// Maximum number of differently-worded variants generated per unique
+// knowledge point (item × archetype). Kept low on purpose: repeating the
+// same fact 7-8 times with light rewording made the bank feel repetitive.
+// Each variant also uses a DIFFERENT distractor set and template, so even
+// the second appearance of a fact reads as a fresh question.
+const MAX_VARIANTS_PER_FACT = 2;
+
 function buildCategoryQuestions(items: Item[], targetCount: number, categoryId: string, categorySlug: string) {
   const N = items.length;
   const TEMPLATE_COUNT = 8;
   const rows: (typeof questions.$inferInsert)[] = [];
   let counter = 0;
 
-  outer: for (let tmplIdx = 0; tmplIdx < TEMPLATE_COUNT; tmplIdx++) {
+  outer: for (let variant = 0; variant < MAX_VARIANTS_PER_FACT; variant++) {
     for (let itemIdx = 0; itemIdx < N; itemIdx++) {
       for (let archIdx = 0; archIdx < ARCHETYPES.length; archIdx++) {
         if (counter >= targetCount) break outer;
@@ -610,10 +631,27 @@ function buildCategoryQuestions(items: Item[], targetCount: number, categoryId: 
         const name = item[0];
         const correctText = item[arch.field];
 
-        const distractorIdx = [(itemIdx + 7) % N, (itemIdx + 13) % N, (itemIdx + 19) % N];
+        // Pick a template deterministically but differently per item and
+        // variant, so the same fact never reuses the same wording.
+        const tmplIdx = (hashStr(`${categorySlug}-t-${itemIdx}-${archIdx}`) + variant * 3) % TEMPLATE_COUNT;
+
+        // Rotate distractor sets per variant: variant 0 and variant 1 draw
+        // different wrong answers, so repeated facts are not near-clones.
+        const offsets = variant === 0 ? [7, 13, 19] : [3, 11, 23];
+        const distractorIdx = offsets.map((o) => {
+          let di = (itemIdx + o) % N;
+          if (di === itemIdx) di = (di + 1) % N;
+          return di;
+        });
+        // Guard against duplicate distractor indices in tiny banks.
+        const seen = new Set<number>([itemIdx]);
+        for (let d = 0; d < distractorIdx.length; d++) {
+          while (seen.has(distractorIdx[d])) distractorIdx[d] = (distractorIdx[d] + 1) % N;
+          seen.add(distractorIdx[d]);
+        }
         const distractors = distractorIdx.map((di) => items[di][arch.field]);
 
-        const seed = hashStr(`${categorySlug}-${tmplIdx}-${itemIdx}-${archIdx}`);
+        const seed = hashStr(`${categorySlug}-${variant}-${itemIdx}-${archIdx}`);
         const optionTexts = seededShuffle([correctText, ...distractors], seed);
         const letters = ["a", "b", "c", "d"];
         const choices = optionTexts.map((text, i) => ({ id: letters[i], text }));
@@ -621,7 +659,7 @@ function buildCategoryQuestions(items: Item[], targetCount: number, categoryId: 
 
         const stem = arch.templates[tmplIdx].replace("{name}", name);
         const difficulty = (["medium", "easy", "medium", "hard"] as const)[counter % 4];
-        const strategy = arch.strategies[(itemIdx + tmplIdx) % arch.strategies.length];
+        const strategy = arch.strategies[(itemIdx + variant) % arch.strategies.length];
         const isFree = counter < 4;
 
         rows.push({
@@ -1582,17 +1620,22 @@ async function main() {
     )
     .returning();
 
-  console.log("Generating question bank (target: 10,000 questions)...");
-  const TOTAL_TARGET = 10000;
-  const base = Math.floor(TOTAL_TARGET / CATEGORY_DEFS.length);
-  const remainder = TOTAL_TARGET - base * CATEGORY_DEFS.length;
+  // Target is derived from real content: every unique knowledge point
+  // (clinical item × question archetype) appears at most MAX_VARIANTS_PER_FACT
+  // times, each with different wording and different distractors. Growing the
+  // item banks (see seed-extra-items.ts) automatically grows this number.
+  const capacity = CATEGORY_DEFS.reduce(
+    (sum, def) => sum + def.items.length * ARCHETYPES.length * MAX_VARIANTS_PER_FACT,
+    0,
+  );
+  console.log(`Generating question bank (${capacity} distinct questions from real content)...`);
 
   const allInsertedQuestions: { id: string; categoryId: string; correctChoiceId: string }[] = [];
 
   for (let i = 0; i < CATEGORY_DEFS.length; i++) {
     const def = CATEGORY_DEFS[i];
     const categoryId = categoryIdBySlug.get(def.slug)!;
-    const target = base + (i < remainder ? 1 : 0);
+    const target = def.items.length * ARCHETYPES.length * MAX_VARIANTS_PER_FACT;
     const rows = buildCategoryQuestions([...def.items], target, categoryId, def.slug);
 
     let insertedForCategory = 0;
