@@ -57,6 +57,8 @@ export type AttemptResult = {
   correctChoiceId: string;
   rationale: string;
   strategy: string;
+  mediaUrl?: string | null;
+  mediaCaption?: string | null;
 };
 
 export type Strategy = {

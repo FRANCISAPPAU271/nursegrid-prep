@@ -296,6 +296,22 @@ export default function QuestionQuiz({
                 <p className="text-xs font-bold uppercase tracking-wide text-slate-500">Rationale</p>
                 <p className="mt-1 text-sm text-slate-700">{result.rationale}</p>
               </div>
+              {result.mediaUrl && (
+                <div className="overflow-hidden rounded-xl border border-slate-200 bg-white">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={result.mediaUrl}
+                    alt={result.mediaCaption ?? "Visual explanation"}
+                    className="w-full object-contain"
+                    loading="lazy"
+                  />
+                  {result.mediaCaption && (
+                    <p className="border-t border-slate-100 px-3 py-2 text-xs font-medium text-slate-500">
+                      📊 {result.mediaCaption}
+                    </p>
+                  )}
+                </div>
+              )}
               <div>
                 <p className="text-xs font-bold uppercase tracking-wide text-emerald-700">🎯 Test-taking strategy</p>
                 <p className="mt-1 text-sm text-slate-700">{result.strategy}</p>

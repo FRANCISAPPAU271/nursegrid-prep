@@ -5,6 +5,7 @@ import { questions, questionAttempts } from "@/db/schema";
 import { eq } from "drizzle-orm";
 import { requireUser, handleApiError, ApiError } from "@/lib/api";
 import { gradeAnswer, normalizeChoiceIds } from "@/lib/sata";
+import { getQuestionMedia } from "@/db/question-media";
 
 // selectedChoiceId: single id ("a") or comma-separated for SATA ("a,c").
 const schema = z.object({ selectedChoiceId: z.string().min(1) });
@@ -34,11 +35,16 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
       isCorrect,
     });
 
+    // Attach explanation media (diagram/table) when the question has one.
+    const media = await getQuestionMedia(question.id);
+
     return NextResponse.json({
       isCorrect,
       correctChoiceId: question.correctChoiceId,
       rationale: question.rationale,
       strategy: question.strategy,
+      mediaUrl: media.mediaUrl,
+      mediaCaption: media.mediaCaption,
     });
   } catch (error) {
     if (error instanceof z.ZodError) {
