@@ -9,7 +9,7 @@ const FAQS = [
   },
   {
     q: "How many questions are included — and are they real exam questions?",
-    a: "NurseGrid Prep includes 3,800+ unique licensing-style questions built from 480+ real clinical scenarios, covering every major category: med-surg, pharmacology, maternal-newborn, paediatrics, mental health, fundamentals, safety, and leadership. Every question is distinct — no recycled near-duplicates — and ships with a detailed rationale and a test-taking strategy tip. We never sell leaked content, because pattern mastery is what actually gets you through unseen questions, and the bank grows with new question drops.",
+    a: "NurseGrid Prep includes 4,800+ unique licensing-style questions built from 600+ real clinical scenarios, covering every major category: med-surg, pharmacology, maternal-newborn, paediatrics, mental health, fundamentals, safety, and leadership. Every question is distinct — no recycled near-duplicates — and ships with a detailed rationale and a test-taking strategy tip. We never sell leaked content, because pattern mastery is what actually gets you through unseen questions, and the bank grows with new question drops.",
   },
   {
     q: "What's included in the free plan?",
@@ -17,7 +17,7 @@ const FAQS = [
   },
   {
     q: "How much does full access cost?",
-    a: "Choose the plan that fits you: $5 for 4 months of full access, or $9 for a full year (best value). Both unlock unlimited access to all 3,800+ unique questions, rationales, strategies, and progress tracking for the length of the plan.",
+    a: "Choose the plan that fits you: $5 for 4 months of full access, or $9 for a full year (best value). Both unlock unlimited access to all 4,800+ unique questions, rationales, strategies, and progress tracking for the length of the plan.",
   },
   {
     q: "Will I be charged again automatically?",

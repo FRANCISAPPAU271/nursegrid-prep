@@ -18,6 +18,20 @@ import {
   EXTRA_RISKREDUCTION,
   EXTRA_GERONTOLOGY,
 } from "./seed-extra-items";
+import {
+  DEEP_FUNDAMENTALS,
+  DEEP_PHARMACOLOGY,
+  DEEP_MEDSURG,
+  DEEP_MATERNAL,
+  DEEP_PEDIATRICS,
+  DEEP_MENTALHEALTH,
+  DEEP_FLUIDELECTROLYTE,
+  DEEP_SAFETY,
+  DEEP_LEADERSHIP,
+  DEEP_HEALTHPROMO,
+  DEEP_RISKREDUCTION,
+  DEEP_GERONTOLOGY,
+} from "./seed-deep-items";
 
 // ---------------------------------------------------------------------------
 // Small deterministic helpers (no external RNG dependency needed)
@@ -58,7 +72,9 @@ export function chunk<T>(arr: T[], size: number): T[][] {
 // ---------------------------------------------------------------------------
 // Item tuples: [name, priorityFinding, priorityAction, correctTeaching, therapeuticResponse]
 // ---------------------------------------------------------------------------
-type Item = [string, string, string, string, string];
+// [scenario, priority finding, priority action, correct teaching statement,
+// therapeutic outcome, optional deep clinical "why" used to build rich rationales]
+type Item = [string, string, string, string, string, string?];
 
 const FUNDAMENTALS: Item[] = [
   ["a client receiving a bed bath and hygiene care", "the client's skin is reddened over the sacrum", "inspect the skin for breakdown before and after the bath", "I should tell the nurse if the water feels too hot", "the client's skin remains intact and free of redness"],
@@ -461,30 +477,39 @@ const GERONTOLOGY: Item[] = [
 // Category metadata + item bank + target question counts
 // ---------------------------------------------------------------------------
 export const CATEGORY_DEFS = [
-  { slug: "fundamentals", name: "Fundamentals of Nursing", clientNeed: "Basic Care and Comfort", icon: "clipboard", description: "Core skills: hygiene, mobility, comfort, elimination, and safe basic care.", items: [...FUNDAMENTALS, ...EXTRA_FUNDAMENTALS] },
-  { slug: "pharmacology-parenteral", name: "Pharmacology & Parenteral Therapies", clientNeed: "Pharmacological and Parenteral Therapies", icon: "pill", description: "Therapeutic effects, adverse effects, and safe medication administration.", items: [...PHARMACOLOGY, ...EXTRA_PHARMACOLOGY] },
-  { slug: "med-surg", name: "Medical-Surgical Nursing", clientNeed: "Physiological Adaptation", icon: "heart", description: "Acute and chronic adult illness across every body system.", items: [...MEDSURG, ...EXTRA_MEDSURG] },
-  { slug: "maternal-newborn", name: "Maternal & Newborn Nursing", clientNeed: "Health Promotion and Maintenance", icon: "baby", description: "Antepartum, intrapartum, postpartum, and newborn care.", items: [...MATERNAL, ...EXTRA_MATERNAL] },
-  { slug: "pediatrics", name: "Pediatric Nursing", clientNeed: "Health Promotion and Maintenance", icon: "sunrise", description: "Growth, development, and illness across infancy through adolescence.", items: [...PEDIATRICS, ...EXTRA_PEDIATRICS] },
-  { slug: "mental-health", name: "Mental Health Nursing", clientNeed: "Psychosocial Integrity", icon: "brain", description: "Therapeutic communication, crisis intervention, and psychiatric care.", items: [...MENTALHEALTH, ...EXTRA_MENTALHEALTH] },
-  { slug: "fluid-electrolyte", name: "Fluid, Electrolyte & Acid-Base Balance", clientNeed: "Physiological Adaptation", icon: "droplet", description: "Electrolyte imbalances, acid-base disorders, and fluid management.", items: [...FLUIDELECTROLYTE, ...EXTRA_FLUIDELECTROLYTE] },
-  { slug: "safety-infection-control", name: "Safety & Infection Control", clientNeed: "Safety and Infection Control", icon: "shield", description: "Precautions, error prevention, and a safe care environment.", items: [...SAFETY, ...EXTRA_SAFETY] },
-  { slug: "leadership-delegation", name: "Leadership, Delegation & Prioritization", clientNeed: "Management of Care", icon: "users", description: "Delegation, prioritization, ethics, and coordinating client care.", items: [...LEADERSHIP, ...EXTRA_LEADERSHIP] },
-  { slug: "health-promotion", name: "Health Promotion & Maintenance", clientNeed: "Health Promotion and Maintenance", icon: "activity", description: "Screenings, wellness, and lifespan development teaching.", items: [...HEALTHPROMO, ...EXTRA_HEALTHPROMO] },
-  { slug: "risk-reduction", name: "Reduction of Risk Potential", clientNeed: "Reduction of Risk Potential", icon: "flask", description: "Labs, diagnostics, and post-procedure monitoring.", items: [...RISKREDUCTION, ...EXTRA_RISKREDUCTION] },
-  { slug: "gerontology-community", name: "Gerontological & Community Health Nursing", clientNeed: "Basic Care and Comfort", icon: "sunrise", description: "Older adult and population/community health nursing.", items: [...GERONTOLOGY, ...EXTRA_GERONTOLOGY] },
+  { slug: "fundamentals", name: "Fundamentals of Nursing", clientNeed: "Basic Care and Comfort", icon: "clipboard", description: "Core skills: hygiene, mobility, comfort, elimination, and safe basic care.", items: [...FUNDAMENTALS, ...EXTRA_FUNDAMENTALS, ...DEEP_FUNDAMENTALS] },
+  { slug: "pharmacology-parenteral", name: "Pharmacology & Parenteral Therapies", clientNeed: "Pharmacological and Parenteral Therapies", icon: "pill", description: "Therapeutic effects, adverse effects, and safe medication administration.", items: [...PHARMACOLOGY, ...EXTRA_PHARMACOLOGY, ...DEEP_PHARMACOLOGY] },
+  { slug: "med-surg", name: "Medical-Surgical Nursing", clientNeed: "Physiological Adaptation", icon: "heart", description: "Acute and chronic adult illness across every body system.", items: [...MEDSURG, ...EXTRA_MEDSURG, ...DEEP_MEDSURG] },
+  { slug: "maternal-newborn", name: "Maternal & Newborn Nursing", clientNeed: "Health Promotion and Maintenance", icon: "baby", description: "Antepartum, intrapartum, postpartum, and newborn care.", items: [...MATERNAL, ...EXTRA_MATERNAL, ...DEEP_MATERNAL] },
+  { slug: "pediatrics", name: "Pediatric Nursing", clientNeed: "Health Promotion and Maintenance", icon: "sunrise", description: "Growth, development, and illness across infancy through adolescence.", items: [...PEDIATRICS, ...EXTRA_PEDIATRICS, ...DEEP_PEDIATRICS] },
+  { slug: "mental-health", name: "Mental Health Nursing", clientNeed: "Psychosocial Integrity", icon: "brain", description: "Therapeutic communication, crisis intervention, and psychiatric care.", items: [...MENTALHEALTH, ...EXTRA_MENTALHEALTH, ...DEEP_MENTALHEALTH] },
+  { slug: "fluid-electrolyte", name: "Fluid, Electrolyte & Acid-Base Balance", clientNeed: "Physiological Adaptation", icon: "droplet", description: "Electrolyte imbalances, acid-base disorders, and fluid management.", items: [...FLUIDELECTROLYTE, ...EXTRA_FLUIDELECTROLYTE, ...DEEP_FLUIDELECTROLYTE] },
+  { slug: "safety-infection-control", name: "Safety & Infection Control", clientNeed: "Safety and Infection Control", icon: "shield", description: "Precautions, error prevention, and a safe care environment.", items: [...SAFETY, ...EXTRA_SAFETY, ...DEEP_SAFETY] },
+  { slug: "leadership-delegation", name: "Leadership, Delegation & Prioritization", clientNeed: "Management of Care", icon: "users", description: "Delegation, prioritization, ethics, and coordinating client care.", items: [...LEADERSHIP, ...EXTRA_LEADERSHIP, ...DEEP_LEADERSHIP] },
+  { slug: "health-promotion", name: "Health Promotion & Maintenance", clientNeed: "Health Promotion and Maintenance", icon: "activity", description: "Screenings, wellness, and lifespan development teaching.", items: [...HEALTHPROMO, ...EXTRA_HEALTHPROMO, ...DEEP_HEALTHPROMO] },
+  { slug: "risk-reduction", name: "Reduction of Risk Potential", clientNeed: "Reduction of Risk Potential", icon: "flask", description: "Labs, diagnostics, and post-procedure monitoring.", items: [...RISKREDUCTION, ...EXTRA_RISKREDUCTION, ...DEEP_RISKREDUCTION] },
+  { slug: "gerontology-community", name: "Gerontological & Community Health Nursing", clientNeed: "Basic Care and Comfort", icon: "sunrise", description: "Older adult and population/community health nursing.", items: [...GERONTOLOGY, ...EXTRA_GERONTOLOGY, ...DEEP_GERONTOLOGY] },
 ] as const;
 
 // ---------------------------------------------------------------------------
 // Archetypes (question "shapes") shared across every category
 // ---------------------------------------------------------------------------
+type DistractorInfo = { text: string; sourceName: string };
+
 type Archetype = {
   key: "priority" | "action" | "teaching" | "response";
   field: 1 | 2 | 3 | 4;
   templates: string[];
-  rationale: (name: string, correct: string) => string;
+  rationale: (name: string, correct: string, distractors: DistractorInfo[], why?: string) => string;
   strategies: string[];
 };
+
+// Builds the "why each wrong option is wrong" section of a rationale.
+// Distractors are drawn from other clinical scenarios, so we can explain
+// exactly which situation each one actually belongs to.
+function explainDistractors(distractors: DistractorInfo[], frame: (d: DistractorInfo) => string): string {
+  return distractors.map((d) => frame(d)).join(" ");
+}
 
 export const ARCHETYPES: Archetype[] = [
   {
@@ -500,8 +525,12 @@ export const ARCHETYPES: Archetype[] = [
       "Which finding indicates a potential complication for {name}?",
       "Which finding should prompt the nurse to notify the provider immediately for {name}?",
     ],
-    rationale: (name, correct) =>
-      `"${correct}" is the finding that requires immediate follow-up for ${name} because it may signal a serious complication. The other options describe findings that are common or expected in this situation and warrant continued monitoring rather than urgent action.`,
+    rationale: (name, correct, distractors, why) =>
+      `CORRECT: "${correct}" is the priority finding for ${name}. ` +
+      (why ? `WHY IT MATTERS: ${why} ` : `This finding signals a potential complication that can deteriorate quickly if it is not recognised and acted on, whereas expected findings simply need continued monitoring. `) +
+      `WHY THE OTHERS ARE WRONG: ` +
+      explainDistractors(distractors, (d) => `"${d.text}" is the classic concern for ${d.sourceName} — it does not fit this client's clinical picture.`) +
+      ` TAKEAWAY: in priority questions, separate "expected for this condition" from "signals deterioration"; the changing or unexpected finding wins.`,
     strategies: [
       "Use the ABC (airway, breathing, circulation) framework to decide which finding is most urgent.",
       "Ask yourself: is this finding expected with this condition, or does it signal a complication? Complications come first.",
@@ -524,8 +553,12 @@ export const ARCHETYPES: Archetype[] = [
       "Which action should the nurse perform first for {name}?",
       "Which nursing intervention takes priority for {name}?",
     ],
-    rationale: (name, correct) =>
-      `"${correct}" is the priority nursing action for ${name} because it addresses the most immediate risk to the client's safety or physiologic stability. The other actions may be appropriate at some point in the plan of care, but they are not the priority right now.`,
+    rationale: (name, correct, distractors, why) =>
+      `CORRECT: "${correct}" is the priority action for ${name}. ` +
+      (why ? `WHY IT MATTERS: ${why} ` : `This action directly targets the greatest immediate risk to the client's safety or physiological stability — the first job of the nurse in this scenario. `) +
+      `WHY THE OTHERS ARE WRONG: ` +
+      explainDistractors(distractors, (d) => `"${d.text}" is the correct intervention for ${d.sourceName}, a different clinical problem — performing it here would delay the care this client actually needs.`) +
+      ` TAKEAWAY: match the action to THIS client's most urgent problem; an intervention that is right for another condition is still a wrong answer.`,
     strategies: [
       "Use the nursing process — assess before you intervene, unless the client is in immediate danger.",
       "Choose the action that prevents harm or addresses an airway, breathing, or circulation problem first.",
@@ -548,8 +581,12 @@ export const ARCHETYPES: Archetype[] = [
       "Which statement indicates the teaching about {name} was successful?",
       "Which statement shows a correct grasp of the information taught for {name}?",
     ],
-    rationale: (name, correct) =>
-      `"${correct}" reflects correct understanding of the teaching provided for ${name}. The other statements reflect misconceptions or unsafe practices that would indicate a need for further teaching.`,
+    rationale: (name, correct, distractors, why) =>
+      `CORRECT: "${correct}" shows accurate understanding of the teaching for ${name}. ` +
+      (why ? `WHY IT MATTERS: ${why} ` : `This statement shows the client can carry out the key self-care behaviour safely and understands the reason behind it — the goal of effective teaching. `) +
+      `WHY THE OTHERS ARE WRONG: ` +
+      explainDistractors(distractors, (d) => `"${d.text}" is teaching that belongs to ${d.sourceName}; repeating it here shows the client has mixed up instructions and needs further education.`) +
+      ` TAKEAWAY: the right teaching statement is specific, safe, and matches THIS condition — statements borrowed from other conditions are the exam's favourite trap.`,
     strategies: [
       "Look for the statement that reflects safe, accurate self-care — eliminate statements with absolute words like 'never' or 'always' unless they are clinically correct.",
       "Correct teaching statements usually describe a specific, safe action the client will take, not just a vague feeling.",
@@ -572,8 +609,12 @@ export const ARCHETYPES: Archetype[] = [
       "Which finding best indicates improvement for {name}?",
       "Which finding indicates the desired therapeutic effect has been achieved for {name}?",
     ],
-    rationale: (name, correct) =>
-      `"${correct}" demonstrates a therapeutic response to treatment for ${name}. The other findings do not indicate the expected therapeutic outcome and may instead suggest an adverse effect, an unrelated finding, or an inadequate response to treatment.`,
+    rationale: (name, correct, distractors, why) =>
+      `CORRECT: "${correct}" is the expected therapeutic outcome for ${name}. ` +
+      (why ? `WHY IT MATTERS: ${why} ` : `A true therapeutic response shows the underlying problem is resolving — it links directly to the reason treatment was started, not merely to an intervention being performed. `) +
+      `WHY THE OTHERS ARE WRONG: ` +
+      explainDistractors(distractors, (d) => `"${d.text}" is the goal of therapy for ${d.sourceName} — a different problem — so it cannot demonstrate that THIS client's treatment is working.`) +
+      ` TAKEAWAY: trace each option back to the treatment goal; only the outcome that answers "is the original problem improving?" is therapeutic.`,
     strategies: [
       "A therapeutic response is a sign the treatment is working — it should relate directly to the reason treatment was started.",
       "Eliminate findings that describe an adverse effect or an unrelated symptom; those are not therapeutic responses.",
@@ -625,7 +666,12 @@ export function buildCategoryQuestions(items: Item[], targetCount: number, categ
           while (seen.has(distractorIdx[d])) distractorIdx[d] = (distractorIdx[d] + 1) % N;
           seen.add(distractorIdx[d]);
         }
-        const distractors = distractorIdx.map((di) => items[di][arch.field]);
+        const distractors = distractorIdx.map((di) => items[di][arch.field] as string);
+        const distractorInfo = distractorIdx.map((di) => ({
+          text: items[di][arch.field] as string,
+          sourceName: items[di][0],
+        }));
+        const deepWhy = item[5];
 
         const seed = hashStr(`${categorySlug}-${variant}-${itemIdx}-${archIdx}`);
         const optionTexts = seededShuffle([correctText, ...distractors], seed);
@@ -643,7 +689,7 @@ export function buildCategoryQuestions(items: Item[], targetCount: number, categ
           stem,
           choices,
           correctChoiceId,
-          rationale: arch.rationale(name, correctText),
+          rationale: arch.rationale(name, correctText, distractorInfo, deepWhy),
           strategy,
           difficulty,
           tags: [arch.key, categorySlug],
