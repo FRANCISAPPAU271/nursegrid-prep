@@ -9,6 +9,7 @@ const NAV = [
   { href: "/dashboard/tasks", label: "Tasks", icon: "🗂️" },
   { href: "/dashboard/notes", label: "Notes", icon: "📝" },
   { href: "/dashboard/questions", label: "Question Bank", icon: "🧠" },
+  { href: "/dashboard/flashcards", label: "Flashcards", icon: "🃏" },
   { href: "/dashboard/exams", label: "Custom Exam", icon: "📝" },
   { href: "/dashboard/cat", label: "Adaptive Test (CAT)", icon: "📊" },
   { href: "/dashboard/mock-exam", label: "Mock NMC Exam", icon: "🎓" },

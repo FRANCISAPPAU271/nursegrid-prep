@@ -64,6 +64,22 @@ export default function ExamRunner({ examId }: { examId: string }) {
     setAnswers((a) => ({ ...a, [questionId]: choiceId }));
   }
 
+  // SATA: toggle a choice inside a comma-joined multi-answer value.
+  function toggleSataAnswer(questionId: string, choiceId: string) {
+    setAnswers((a) => {
+      const currentIds = (a[questionId] ?? "").split(",").filter(Boolean);
+      const next = currentIds.includes(choiceId)
+        ? currentIds.filter((c) => c !== choiceId)
+        : [...currentIds, choiceId].sort();
+      const rest = { ...a };
+      if (next.length === 0) {
+        delete rest[questionId];
+        return rest;
+      }
+      return { ...rest, [questionId]: next.join(",") };
+    });
+  }
+
   // Auto-submit the mock when the countdown hits zero.
   useEffect(() => {
     if (remainingMs === 0 && meta?.status === "in_progress" && !submitting) {
@@ -153,8 +169,10 @@ export default function ExamRunner({ examId }: { examId: string }) {
               <p className="mt-3 text-sm leading-relaxed text-slate-900">{q.stem}</p>
               <div className="mt-3 space-y-2">
                 {q.choices.map((choice) => {
-                  const isCorrectChoice = choice.id === q.correctChoiceId;
-                  const isYourWrongChoice = choice.id === q.selectedChoiceId && !q.isCorrect;
+                  const correctIds = q.correctChoiceId.split(",");
+                  const selectedIds = (q.selectedChoiceId ?? "").split(",");
+                  const isCorrectChoice = correctIds.includes(choice.id);
+                  const isYourWrongChoice = selectedIds.includes(choice.id) && !correctIds.includes(choice.id);
                   return (
                     <div
                       key={choice.id}
@@ -225,22 +243,37 @@ export default function ExamRunner({ examId }: { examId: string }) {
           <div className="mb-3 flex items-center gap-2">
             <span className={`rounded-full px-2 py-0.5 text-[11px] font-semibold capitalize ${DIFFICULTY_STYLE[q.difficulty]}`}>{q.difficulty}</span>
             <span className="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-600">{q.categoryName}</span>
+            {q.isSata && (
+              <span className="rounded-full bg-indigo-100 px-2 py-0.5 text-[11px] font-bold text-indigo-700">Select all that apply</span>
+            )}
           </div>
           <p className="text-base leading-relaxed text-slate-900">{q.stem}</p>
           <div className="mt-5 space-y-2.5">
             {q.choices.map((choice) => {
-              const selected = answers[q.id] === choice.id;
+              const selected = q.isSata
+                ? (answers[q.id] ?? "").split(",").includes(choice.id)
+                : answers[q.id] === choice.id;
               return (
                 <button
                   key={choice.id}
-                  onClick={() => selectAnswer(q.id, choice.id)}
+                  onClick={() => (q.isSata ? toggleSataAnswer(q.id, choice.id) : selectAnswer(q.id, choice.id))}
                   className={`flex w-full items-start gap-3 rounded-xl border px-4 py-3 text-left text-sm transition ${
-                    selected ? "border-emerald-500 bg-emerald-50 text-emerald-900" : "border-slate-200 hover:border-emerald-300 hover:bg-emerald-50/40"
+                    selected
+                      ? q.isSata
+                        ? "border-indigo-500 bg-indigo-50 text-indigo-900"
+                        : "border-emerald-500 bg-emerald-50 text-emerald-900"
+                      : "border-slate-200 hover:border-emerald-300 hover:bg-emerald-50/40"
                   }`}
                 >
                   <span
-                    className={`mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full border text-[11px] font-bold ${
-                      selected ? "border-emerald-500 bg-emerald-500 text-white" : "border-slate-300"
+                    className={`mt-0.5 grid h-5 w-5 shrink-0 place-items-center border text-[11px] font-bold ${
+                      q.isSata ? "rounded-md" : "rounded-full"
+                    } ${
+                      selected
+                        ? q.isSata
+                          ? "border-indigo-500 bg-indigo-500 text-white"
+                          : "border-emerald-500 bg-emerald-500 text-white"
+                        : "border-slate-300"
                     }`}
                   >
                     {selected ? "✓" : ""}

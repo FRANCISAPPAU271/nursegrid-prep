@@ -33,6 +33,7 @@ export default function QuestionQuiz({
   const [loading, setLoading] = useState(true);
   const [loadingMore, setLoadingMore] = useState(false);
   const [selected, setSelected] = useState<string | null>(null);
+  const [multiSelected, setMultiSelected] = useState<string[]>([]);
   const [result, setResult] = useState<AttemptResult | null>(null);
   const [submitting, setSubmitting] = useState(false);
   const [score, setScore] = useState({ correct: 0, total: 0 });
@@ -58,12 +59,24 @@ export default function QuestionQuiz({
     setIndex(0);
     setOffset(0);
     setSelected(null);
+    setMultiSelected([]);
     setResult(null);
     setScore({ correct: 0, total: 0 });
     loadBatch(0, true).finally(() => setLoading(false));
   }, [loadBatch]);
 
   const current = items[index];
+  const isSataQuestion = Boolean(current?.isSata);
+
+  function toggleMultiChoice(choiceId: string) {
+    if (result) return;
+    setMultiSelected((prev) => (prev.includes(choiceId) ? prev.filter((c) => c !== choiceId) : [...prev, choiceId]));
+  }
+
+  async function submitSata() {
+    if (!current || submitting || multiSelected.length === 0) return;
+    await submitAnswer([...multiSelected].sort().join(","));
+  }
 
   async function submitAnswer(choiceId: string) {
     if (!current || submitting) return;
@@ -105,6 +118,7 @@ export default function QuestionQuiz({
 
   async function goNext() {
     setSelected(null);
+    setMultiSelected([]);
     setResult(null);
     if (index + 1 < items.length) {
       setIndex((i) => i + 1);
@@ -166,6 +180,9 @@ export default function QuestionQuiz({
               {!current.isFree && (
                 <span className="rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-semibold text-amber-700">Premium</span>
               )}
+              {isSataQuestion && (
+                <span className="rounded-full bg-indigo-100 px-2 py-0.5 text-[11px] font-bold text-indigo-700">Select all that apply</span>
+              )}
               <span className="text-xs font-medium text-slate-400">
                 Question {offset + index + 1} of {total.toLocaleString()}
               </span>
@@ -183,8 +200,46 @@ export default function QuestionQuiz({
 
           <div className="mt-5 space-y-2.5">
             {current.choices.map((choice) => {
+              const correctIds = result ? result.correctChoiceId.split(",") : [];
+              if (isSataQuestion) {
+                const isTicked = multiSelected.includes(choice.id);
+                const isCorrectChoice = result && correctIds.includes(choice.id);
+                const isWrongTicked = result && isTicked && !correctIds.includes(choice.id);
+                const isMissedCorrect = result && !isTicked && correctIds.includes(choice.id);
+                return (
+                  <button
+                    key={choice.id}
+                    disabled={Boolean(result)}
+                    onClick={() => toggleMultiChoice(choice.id)}
+                    className={`flex w-full items-start gap-3 rounded-xl border px-4 py-3 text-left text-sm transition disabled:cursor-default ${
+                      isCorrectChoice
+                        ? "border-emerald-400 bg-emerald-50 text-emerald-900"
+                        : isWrongTicked
+                          ? "border-rose-400 bg-rose-50 text-rose-900"
+                          : isTicked
+                            ? "border-indigo-400 bg-indigo-50 text-indigo-900"
+                            : "border-slate-200 hover:border-indigo-300 hover:bg-indigo-50/40"
+                    }`}
+                  >
+                    <span
+                      className={`mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-md border text-[11px] font-bold ${
+                        isCorrectChoice
+                          ? "border-emerald-500 bg-emerald-500 text-white"
+                          : isWrongTicked
+                            ? "border-rose-500 bg-rose-500 text-white"
+                            : isTicked
+                              ? "border-indigo-500 bg-indigo-500 text-white"
+                              : "border-slate-300 text-slate-500"
+                      }`}
+                    >
+                      {result ? (isCorrectChoice ? "✓" : isWrongTicked ? "✕" : isMissedCorrect ? "!" : "") : isTicked ? "✓" : ""}
+                    </span>
+                    <span>{choice.text}</span>
+                  </button>
+                );
+              }
               const isSelected = selected === choice.id;
-              const isCorrectChoice = result && choice.id === result.correctChoiceId;
+              const isCorrectChoice = result && correctIds.includes(choice.id);
               const isWrongSelected = result && isSelected && !result.isCorrect;
               return (
                 <button
@@ -218,10 +273,24 @@ export default function QuestionQuiz({
             })}
           </div>
 
+          {isSataQuestion && !result && (
+            <button
+              onClick={submitSata}
+              disabled={multiSelected.length === 0 || submitting}
+              className="mt-4 w-full rounded-xl bg-indigo-600 py-3 text-sm font-bold text-white hover:bg-indigo-700 disabled:opacity-50"
+            >
+              {submitting
+                ? "Checking…"
+                : multiSelected.length === 0
+                  ? "Tick every answer that applies"
+                  : `Submit ${multiSelected.length} selected`}
+            </button>
+          )}
+
           {result && (
             <div className="mt-5 space-y-3 rounded-xl bg-slate-50 p-4">
               <p className={`text-sm font-bold ${result.isCorrect ? "text-emerald-700" : "text-rose-700"}`}>
-                {result.isCorrect ? "Correct!" : "Not quite."}
+                {result.isCorrect ? "Correct!" : isSataQuestion ? "Not quite — SATA is all-or-nothing. The ✓ marks show the full correct set." : "Not quite."}
               </p>
               <div>
                 <p className="text-xs font-bold uppercase tracking-wide text-slate-500">Rationale</p>

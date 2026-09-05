@@ -3,6 +3,7 @@ import { db } from "@/db";
 import { questionCategories, questions, questionBookmarks } from "@/db/schema";
 import { and, asc, eq, inArray, sql, type SQL } from "drizzle-orm";
 import { requireUser, handleApiError, ApiError } from "@/lib/api";
+import { isSata } from "@/lib/sata";
 
 export async function GET(request: Request) {
   try {
@@ -95,6 +96,7 @@ export async function GET(request: Request) {
       tags: r.tags,
       isFree: r.isFree,
       isBookmarked: bookmarkedSet.has(r.id),
+      isSata: isSata(r.correctChoiceId),
     }));
 
     return NextResponse.json({ questions: safeRows, total: count, locked: categoryLocked });

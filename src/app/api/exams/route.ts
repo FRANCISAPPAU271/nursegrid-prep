@@ -5,6 +5,7 @@ import { examSessions, questionCategories, questions } from "@/db/schema";
 import type { ExamQuestionSnapshot } from "@/db/schema";
 import { and, desc, eq, inArray, sql } from "drizzle-orm";
 import { requireUser, handleApiError, ApiError } from "@/lib/api";
+import { isSata } from "@/lib/sata";
 
 const FREE_MAX_QUESTIONS = 20;
 const PREMIUM_MAX_QUESTIONS = 100;
@@ -120,6 +121,7 @@ export async function POST(request: Request) {
       stem: q.stem,
       choices: q.choices,
       difficulty: q.difficulty,
+      isSata: isSata(q.correctChoiceId),
     }));
 
     return NextResponse.json({ examId: exam.id, title: exam.title, questions: safeQuestions }, { status: 201 });

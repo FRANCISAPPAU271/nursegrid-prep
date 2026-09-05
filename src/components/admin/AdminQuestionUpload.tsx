@@ -25,7 +25,7 @@ const EMPTY_FORM = {
   categoryId: "",
   stem: "",
   choiceTexts: ["", "", "", ""],
-  correctIndex: 0,
+  correctIndexes: [0] as number[], // 1 entry = single answer; 2+ = SATA
   rationale: "",
   strategy: "",
   difficulty: "medium" as "easy" | "medium" | "hard",
@@ -69,18 +69,27 @@ export default function AdminQuestionUpload() {
     setForm((f) => {
       if (f.choiceTexts.length <= 2) return f;
       const next = f.choiceTexts.filter((_, idx) => idx !== i);
-      let correctIndex = f.correctIndex;
-      if (i === f.correctIndex) correctIndex = 0;
-      else if (i < f.correctIndex) correctIndex = f.correctIndex - 1;
-      return { ...f, choiceTexts: next, correctIndex };
+      let correctIndexes = f.correctIndexes.filter((c) => c !== i).map((c) => (c > i ? c - 1 : c));
+      if (correctIndexes.length === 0) correctIndexes = [0];
+      return { ...f, choiceTexts: next, correctIndexes };
+    });
+
+  const toggleCorrect = (i: number) =>
+    setForm((f) => {
+      const has = f.correctIndexes.includes(i);
+      // Never allow zero correct answers.
+      if (has && f.correctIndexes.length === 1) return f;
+      const correctIndexes = has ? f.correctIndexes.filter((c) => c !== i) : [...f.correctIndexes, i].sort((a, b) => a - b);
+      return { ...f, correctIndexes };
     });
 
   // Pre-fill the rationale with the same 4-part structure the generated
   // bank uses, wiring in whatever the admin has already typed above.
   const insertRationaleTemplate = () => {
     const filled = form.choiceTexts.map((t) => t.trim());
-    const correct = filled[form.correctIndex] || "<the correct answer>";
-    const wrong = filled.filter((t, i) => i !== form.correctIndex && t.length > 0);
+    const correctTexts = form.correctIndexes.map((i) => filled[i]).filter(Boolean);
+    const correct = correctTexts.length > 0 ? correctTexts.join('" + "') : "<the correct answer>";
+    const wrong = filled.filter((t, i) => !form.correctIndexes.includes(i) && t.length > 0);
     const wrongLines =
       wrong.length > 0
         ? wrong.map((t) => `"${t}" is wrong because <explain the trap>.`).join(" ")
@@ -103,6 +112,10 @@ export default function AdminQuestionUpload() {
     if (/<[^>]{2,60}>/.test(form.rationale)) return toast.push("Fill in the <placeholders> in the rationale template before uploading.", "error");
 
     const choices = filled.map((text, i) => ({ id: LETTERS[i], text }));
+    const correctChoiceId = form.correctIndexes
+      .map((i) => LETTERS[i])
+      .sort()
+      .join(",");
     setSaving(true);
     try {
       const res = await fetch("/api/admin/questions", {
@@ -112,7 +125,7 @@ export default function AdminQuestionUpload() {
           categoryId: form.categoryId,
           stem: form.stem.trim(),
           choices,
-          correctChoiceId: LETTERS[form.correctIndex],
+          correctChoiceId,
           rationale: form.rationale.trim(),
           strategy: form.strategy.trim(),
           difficulty: form.difficulty,
@@ -204,18 +217,25 @@ export default function AdminQuestionUpload() {
 
         <div className="mt-4">
           <span className="mb-1 block text-sm font-semibold text-slate-700">
-            Answer choices <span className="font-normal text-slate-500">(tick the correct one)</span>
+            Answer choices{" "}
+            <span className="font-normal text-slate-500">
+              (tick every correct answer — tick 2+ to make it a &ldquo;select all that apply&rdquo; question)
+            </span>
           </span>
+          {form.correctIndexes.length > 1 && (
+            <span className="mb-2 inline-block rounded-full bg-indigo-100 px-2.5 py-0.5 text-[11px] font-bold text-indigo-700">
+              SATA question · {form.correctIndexes.length} correct answers · graded all-or-nothing
+            </span>
+          )}
           <div className="space-y-2">
             {form.choiceTexts.map((text, i) => (
               <div key={i} className="flex items-center gap-2">
                 <input
-                  type="radio"
-                  name="correct"
-                  checked={form.correctIndex === i}
-                  onChange={() => setForm((f) => ({ ...f, correctIndex: i }))}
-                  className="h-4 w-4 shrink-0 border-slate-300 text-emerald-600 focus:ring-emerald-500"
-                  title="Mark as the correct answer"
+                  type="checkbox"
+                  checked={form.correctIndexes.includes(i)}
+                  onChange={() => toggleCorrect(i)}
+                  className="h-4 w-4 shrink-0 rounded border-slate-300 text-emerald-600 focus:ring-emerald-500"
+                  title="Mark as a correct answer (tick 2+ for SATA)"
                 />
                 <span className="w-5 shrink-0 text-sm font-bold uppercase text-slate-500">{LETTERS[i]}.</span>
                 <input
@@ -327,11 +347,14 @@ export default function AdminQuestionUpload() {
                 {expandedId === q.id && (
                   <div className="mt-2 rounded-xl bg-slate-50 p-3 text-sm">
                     <ul className="space-y-1">
-                      {q.choices.map((c) => (
-                        <li key={c.id} className={c.id === q.correctChoiceId ? "font-semibold text-emerald-700" : "text-slate-600"}>
-                          {c.id.toUpperCase()}. {c.text} {c.id === q.correctChoiceId && "✓"}
-                        </li>
-                      ))}
+                      {q.choices.map((c) => {
+                        const isCorrect = q.correctChoiceId.split(",").includes(c.id);
+                        return (
+                          <li key={c.id} className={isCorrect ? "font-semibold text-emerald-700" : "text-slate-600"}>
+                            {c.id.toUpperCase()}. {c.text} {isCorrect && "✓"}
+                          </li>
+                        );
+                      })}
                     </ul>
                     <p className="mt-2 text-slate-600">
                       <span className="font-semibold text-slate-800">Rationale:</span> {q.rationale}

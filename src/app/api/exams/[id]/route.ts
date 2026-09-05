@@ -3,6 +3,7 @@ import { db } from "@/db";
 import { examSessions } from "@/db/schema";
 import { and, eq } from "drizzle-orm";
 import { requireUser, handleApiError, ApiError } from "@/lib/api";
+import { isSata } from "@/lib/sata";
 
 export async function DELETE(_request: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
@@ -69,6 +70,7 @@ export async function GET(_request: Request, { params }: { params: Promise<{ id:
       stem: q.stem,
       choices: q.choices,
       difficulty: q.difficulty,
+      isSata: isSata(q.correctChoiceId),
     }));
     return NextResponse.json({
       exam: {

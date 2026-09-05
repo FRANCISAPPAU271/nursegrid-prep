@@ -4,7 +4,9 @@ import { db } from "@/db";
 import { questions, questionAttempts } from "@/db/schema";
 import { eq } from "drizzle-orm";
 import { requireUser, handleApiError, ApiError } from "@/lib/api";
+import { gradeAnswer, normalizeChoiceIds } from "@/lib/sata";
 
+// selectedChoiceId: single id ("a") or comma-separated for SATA ("a,c").
 const schema = z.object({ selectedChoiceId: z.string().min(1) });
 
 export async function POST(request: Request, { params }: { params: Promise<{ id: string }> }) {
@@ -21,13 +23,14 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
       throw new ApiError("Upgrade to premium to unlock this question.", 403);
     }
 
-    const isCorrect = selectedChoiceId === question.correctChoiceId;
+    const normalizedSelection = normalizeChoiceIds(selectedChoiceId);
+    const isCorrect = gradeAnswer(normalizedSelection, question.correctChoiceId);
 
     await db.insert(questionAttempts).values({
       userId: user.id,
       questionId: question.id,
       categoryId: question.categoryId,
-      selectedChoiceId,
+      selectedChoiceId: normalizedSelection,
       isCorrect,
     });
 

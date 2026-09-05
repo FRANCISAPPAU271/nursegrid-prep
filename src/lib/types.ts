@@ -49,6 +49,7 @@ export type QuestionPreview = {
   tags: string[];
   isFree: boolean;
   isBookmarked: boolean;
+  isSata?: boolean;
 };
 
 export type AttemptResult = {
@@ -135,6 +136,7 @@ export type ExamQuestion = {
   stem: string;
   choices: QuestionChoice[];
   difficulty: "easy" | "medium" | "hard";
+  isSata?: boolean;
 };
 
 export type ExamReviewQuestion = ExamQuestion & {

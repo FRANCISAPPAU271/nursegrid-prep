@@ -3,8 +3,9 @@ import { z } from "zod";
 import { db } from "@/db";
 import { catSessions, questionCategories, questions } from "@/db/schema";
 import type { CatHistoryItem } from "@/db/schema";
-import { and, eq, notInArray, sql } from "drizzle-orm";
+import { and, eq, notInArray, sql, notLike } from "drizzle-orm";
 import { requireUser, handleApiError, ApiError } from "@/lib/api";
+import { gradeAnswer } from "@/lib/sata";
 import { CAT_FREE_QUESTION_CAP, checkStopCondition, targetDifficulty, updateTheta } from "@/lib/cat";
 
 const schema = z.object({ selectedChoiceId: z.string().min(1) });
@@ -45,7 +46,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
     const currentQuestion = currentQuestionRows[0];
     if (!currentQuestion) throw new ApiError("The current question could not be found.", 500);
 
-    const isCorrect = selectedChoiceId === currentQuestion.correctChoiceId;
+    const isCorrect = gradeAnswer(selectedChoiceId, currentQuestion.correctChoiceId);
     const questionNumber = session.askedQuestionIds.length;
     const newTheta = updateTheta(session.theta, currentQuestion.difficulty, isCorrect, questionNumber);
 
@@ -107,7 +108,11 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
     // Pick the next question: target difficulty from the updated ability
     // estimate, excluding questions already asked in this session.
     const nextDifficulty = targetDifficulty(newTheta);
-    const whereParts = [eq(questions.difficulty, nextDifficulty), notInArray(questions.id, session.askedQuestionIds)];
+    const whereParts = [
+      eq(questions.difficulty, nextDifficulty),
+      notInArray(questions.id, session.askedQuestionIds),
+      notLike(questions.correctChoiceId, "%,%"), // no SATA in CAT
+    ];
     if (!user.isPremium) whereParts.push(eq(questions.isFree, true));
 
     let [nextQuestion] = await db
@@ -128,7 +133,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
     // Fallback: if we've exhausted that difficulty bucket, widen the search
     // to any not-yet-asked question so the session can still continue.
     if (!nextQuestion) {
-      const fallbackWhere = [notInArray(questions.id, session.askedQuestionIds)];
+      const fallbackWhere = [notInArray(questions.id, session.askedQuestionIds), notLike(questions.correctChoiceId, "%,%")];
       if (!user.isPremium) fallbackWhere.push(eq(questions.isFree, true));
       const fallbackRows = await db
         .select({

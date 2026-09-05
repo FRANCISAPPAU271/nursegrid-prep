@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { db } from "@/db";
 import { catSessions, questionCategories, questions } from "@/db/schema";
-import { and, desc, eq, sql } from "drizzle-orm";
+import { and, desc, eq, sql, notLike } from "drizzle-orm";
 import { requireUser, handleApiError, ApiError } from "@/lib/api";
 import { CAT_MAX_QUESTIONS, CAT_MIN_QUESTIONS, targetDifficulty } from "@/lib/cat";
 
@@ -58,7 +58,9 @@ export async function POST() {
     }
 
     const startingDifficulty = targetDifficulty(0);
-    const whereParts = [eq(questions.difficulty, startingDifficulty)];
+    // SATA questions are excluded from CAT: all-or-nothing multi-select
+    // items would distort the single-answer difficulty model.
+    const whereParts = [eq(questions.difficulty, startingDifficulty), notLike(questions.correctChoiceId, "%,%")];
     if (!user.isPremium) whereParts.push(eq(questions.isFree, true));
 
     const [firstQuestion] = await db

@@ -5,6 +5,7 @@ import { examSessions, questionAttempts } from "@/db/schema";
 import type { ExamAnswer } from "@/db/schema";
 import { and, eq } from "drizzle-orm";
 import { requireUser, handleApiError, ApiError } from "@/lib/api";
+import { gradeAnswer } from "@/lib/sata";
 
 const schema = z.object({
   answers: z.array(z.object({ questionId: z.string(), selectedChoiceId: z.string() })).min(1),
@@ -33,7 +34,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
     for (const q of exam.questionSnapshot) {
       const selectedChoiceId = answerMap.get(q.id);
       if (!selectedChoiceId) continue; // unanswered question
-      const isCorrect = selectedChoiceId === q.correctChoiceId;
+      const isCorrect = gradeAnswer(selectedChoiceId, q.correctChoiceId);
       if (isCorrect) correctCount++;
       gradedAnswers.push({ questionId: q.id, selectedChoiceId, isCorrect });
     }

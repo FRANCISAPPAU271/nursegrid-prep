@@ -1,6 +1,7 @@
 import "server-only";
 import { db } from "@/db";
 import { sql } from "drizzle-orm";
+import { splitChoiceIds } from "@/lib/sata";
 
 // ---------------------------------------------------------------------------
 // Manual (admin-authored) questions live in the same `questions` table as
@@ -41,7 +42,11 @@ export function validateManualQuestion(input: ManualQuestionInput): string | nul
   const texts = input.choices.map((c) => c.text.trim());
   if (texts.some((t) => t.length === 0)) return "Every answer choice needs text.";
   if (new Set(texts.map((t) => t.toLowerCase())).size !== texts.length) return "Answer choices must be distinct.";
-  if (!input.choices.some((c) => c.id === input.correctChoiceId)) return "Select which choice is correct.";
+  const correctIds = splitChoiceIds(input.correctChoiceId);
+  if (correctIds.length === 0) return "Select which choice is correct.";
+  const choiceIds = new Set(input.choices.map((c) => c.id));
+  if (!correctIds.every((id) => choiceIds.has(id))) return "Select which choice is correct.";
+  if (correctIds.length >= input.choices.length) return "A SATA question must have at least one incorrect choice.";
   if (input.rationale.trim().length < 10) return "Add a rationale — it is what makes the question teach.";
   return null;
 }
