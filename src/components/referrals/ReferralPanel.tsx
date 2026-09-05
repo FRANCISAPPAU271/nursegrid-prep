@@ -67,14 +67,14 @@ export default function ReferralPanel({
         </div>
         <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-5">
           <p className="text-sm font-medium text-emerald-700">Reward per referral</p>
-          <p className="mt-2 text-2xl font-extrabold text-emerald-800">14 days</p>
+          <p className="mt-2 text-2xl font-extrabold text-emerald-800">3 days</p>
         </div>
       </div>
 
       <div className="rounded-2xl border border-slate-200 bg-white p-6">
         <h2 className="text-base font-bold text-slate-950">Your referral link</h2>
         <p className="mt-1 text-sm text-slate-600">
-          Share this link with classmates. When they create an account, you both get 14 days of free premium access.
+          Share this link with classmates. When they create an account, you both get 3 days of free premium access.
         </p>
         <div className="mt-4 flex flex-col gap-3 sm:flex-row">
           <input

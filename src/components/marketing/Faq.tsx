@@ -33,7 +33,7 @@ const FAQS = [
   },
   {
     q: "Do you offer referral rewards?",
-    a: "Yes! Every account gets a personal referral link. When a friend signs up using your link, you both automatically receive 14 days of free premium access — no limit on how many friends you invite.",
+    a: "Yes! Every account gets a personal referral link. When a friend signs up using your link, you both automatically receive 3 days of free premium access — no limit on how many friends you invite.",
   },
   {
     q: "How can I get help or contact support?",

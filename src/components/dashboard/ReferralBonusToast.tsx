@@ -9,7 +9,7 @@ export default function ReferralBonusToast() {
   useEffect(() => {
     if (sessionStorage.getItem("nsm_referral_bonus")) {
       sessionStorage.removeItem("nsm_referral_bonus");
-      toast.push("🎁 Referral bonus applied — you have 14 days of free premium!", "success");
+      toast.push("🎁 Referral bonus applied — you have 3 days of free premium!", "success");
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

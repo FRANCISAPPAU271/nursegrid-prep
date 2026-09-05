@@ -120,7 +120,7 @@ export default function SignupForm({ defaultReferralCode = "" }: { defaultReferr
       </div>
       <div>
         <label className="mb-1 block text-sm font-semibold text-slate-700">
-          Referral code <span className="font-normal text-slate-400">(optional — get 14 days free)</span>
+          Referral code <span className="font-normal text-slate-400">(optional — get 3 days free)</span>
         </label>
         <input
           value={form.referralCode}

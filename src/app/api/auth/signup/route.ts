@@ -52,8 +52,8 @@ export async function POST(request: Request) {
     const securityAnswerHash = await hashPassword(data.securityAnswer.toLowerCase());
     const referralCode = await uniqueReferralCode();
     const now = new Date();
-    // Every new account starts with a premium trial: 14 days when invited
-    // with a referral code, otherwise the standard 3-day taste of premium.
+    // Every new account starts with a premium trial: 3 days, and referral
+    // signups reward the referrer with 3 bonus days too.
     const trialDays = referrer ? REFERRAL_REWARD_DAYS : SIGNUP_TRIAL_DAYS;
     const trialEnd = new Date(now.getTime() + trialDays * 24 * 60 * 60 * 1000);
 

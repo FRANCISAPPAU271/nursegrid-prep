@@ -21,7 +21,7 @@ export default async function OverviewPage() {
   // Run all independent read queries concurrently instead of sequentially —
   // this page issues six unrelated queries, and awaiting them one at a time
   // would multiply round-trip latency to the database for no benefit.
-  const [taskStatsRows, noteStatsRows, questionStatsRows, totalQuestionsRows, upcoming, dailyQuestionRows, examDate] = await Promise.all([
+  const [taskStatsRows, noteStatsRows, questionStatsRows, totalQuestionsRows, upcoming, dailyQuestionRows, examDate, streakResult] = await Promise.all([
     db
       .select({
         total: sql<number>`count(*)`.mapWith(Number),
@@ -60,6 +60,29 @@ export default async function OverviewPage() {
       .orderBy(sql`random()`)
       .limit(1),
     getUserExamDate(user.id),
+    // Study streak: consecutive calendar days with at least one question
+    // attempt, counted backwards from the most recent practice day. The
+    // streak is "alive" only if that day is today or yesterday (yesterday
+    // keeps the flame lit until the student practices today).
+    db.execute(sql`
+      WITH days AS (
+        SELECT DISTINCT date_trunc('day', "attempted_at")::date AS d
+        FROM "question_attempts"
+        WHERE "user_id" = ${user.id}
+      ),
+      numbered AS (
+        SELECT d, row_number() OVER (ORDER BY d DESC) AS rn
+        FROM days
+      )
+      SELECT CASE
+        WHEN (SELECT max(d) FROM days) IS NULL THEN 0
+        WHEN (SELECT max(d) FROM days) < current_date - 1 THEN 0
+        ELSE (
+          SELECT count(*) FROM numbered
+          WHERE d = (SELECT max(d) FROM days) - (rn - 1)::int
+        )
+      END AS streak
+    `),
   ]);
 
   const [taskStats] = taskStatsRows;
@@ -67,6 +90,7 @@ export default async function OverviewPage() {
   const [questionStats] = questionStatsRows;
   const [{ totalQuestions }] = totalQuestionsRows;
   const [dailyQuestion] = dailyQuestionRows;
+  const streak = Number((streakResult.rows[0] as { streak?: string | number } | undefined)?.streak ?? 0);
 
   const accuracy = questionStats.attempted > 0 ? Math.round((questionStats.correct / questionStats.attempted) * 100) : null;
   const completion = taskStats.total > 0 ? Math.round((taskStats.done / taskStats.total) * 100) : 0;
@@ -194,7 +218,13 @@ export default async function OverviewPage() {
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <StatCard label="Tasks completed" value={`${taskStats.done}/${taskStats.total}`} sub={`${completion}% complete`} icon="✅" />
         <StatCard label="Overdue tasks" value={String(taskStats.overdue)} sub={taskStats.overdue > 0 ? "Needs attention" : "All caught up"} icon="⏰" tone={taskStats.overdue > 0 ? "warn" : "good"} />
-        <StatCard label="Study notes" value={String(noteStats.total)} sub="saved notes" icon="📝" />
+        <StatCard
+          label="Study streak"
+          value={streak > 0 ? `${streak} day${streak === 1 ? "" : "s"}` : "—"}
+          sub={streak > 0 ? "Answer a question today to keep it alive" : "Answer 1 question to start a streak"}
+          icon="🔥"
+          tone={streak >= 3 ? "good" : "default"}
+        />
         <StatCard
           label="NMC exam accuracy"
           value={accuracy === null ? "—" : `${accuracy}%`}

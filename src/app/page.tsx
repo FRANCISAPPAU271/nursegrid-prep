@@ -307,7 +307,7 @@ export default async function HomePage() {
           <div>
             <p className="text-sm font-bold uppercase tracking-wide text-lime-400">Invite &amp; earn</p>
             <p className="mt-1 text-lg font-extrabold text-white">
-              Give a friend 14 days of free premium — get 14 days back for yourself.
+              Give a friend 3 days of free premium — get 3 days back for yourself.
             </p>
           </div>
           <Link
@@ -437,7 +437,7 @@ export default async function HomePage() {
         />
         <div className="relative mx-auto max-w-3xl">
           <span className="mb-6 inline-flex items-center gap-2 rounded-full border border-lime-400/35 bg-lime-400/10 px-5 py-2 text-xs font-bold text-lime-300 sm:text-sm">
-            🎁 Invite a friend → you both get 14 days of premium free
+            🎁 Invite a friend → you both get 3 days of premium free
           </span>
           <h2 className="text-4xl font-extrabold tracking-tight sm:text-5xl">
             Your PIN is waiting.

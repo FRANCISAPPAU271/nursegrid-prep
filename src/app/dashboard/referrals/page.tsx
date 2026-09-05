@@ -34,7 +34,7 @@ export default async function ReferralsPage() {
     <div>
       <div className="mb-6 flex flex-col gap-1">
         <h1 className="text-2xl font-extrabold tracking-tight text-slate-950">Invite & Earn</h1>
-        <p className="text-slate-600">Give 14 days of free premium, get 14 days back for every friend who signs up.</p>
+        <p className="text-slate-600">Give 3 days of free premium, get 3 days back for every friend who signs up.</p>
       </div>
       <ReferralPanel
         referralCode={referralCode}
