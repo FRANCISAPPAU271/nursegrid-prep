@@ -5,6 +5,7 @@ import { db } from "@/db";
 import { momoPaymentRequests } from "@/db/schema";
 import { eq, sql } from "drizzle-orm";
 import Sidebar from "@/components/dashboard/Sidebar";
+import MobileTabBar from "@/components/dashboard/MobileTabBar";
 import ReferralBonusToast from "@/components/dashboard/ReferralBonusToast";
 
 export const dynamic = "force-dynamic";
@@ -28,9 +29,10 @@ export default async function DashboardLayout({ children }: { children: ReactNod
       <div className="flex min-h-screen bg-slate-50">
         <Sidebar name={user.name} email={user.email} isPremium={user.isPremium} isAdmin={user.isAdmin} pendingMomoCount={pendingMomoCount} />
         <main className="min-w-0 flex-1">
-          <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 lg:px-8 lg:py-8">{children}</div>
+          <div className="mx-auto max-w-6xl px-4 py-6 pb-24 sm:px-6 md:pb-6 lg:px-8 lg:py-8">{children}</div>
         </main>
       </div>
+      <MobileTabBar />
     </>
   );
 }

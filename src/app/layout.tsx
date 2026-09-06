@@ -68,7 +68,9 @@ export const viewport: Viewport = {
   themeColor: "#059669",
   width: "device-width",
   initialScale: 1,
-  maximumScale: 1,
+  // Let content extend into the notch/home-indicator areas so the bottom
+  // tab bar can pad itself with env(safe-area-inset-bottom).
+  viewportFit: "cover",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

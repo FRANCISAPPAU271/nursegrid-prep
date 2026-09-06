@@ -24,6 +24,53 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* ---------- Mobile-first professional polish ---------- */
+
+/* Remove the gray tap flash on Android/iOS for a native-app feel; our own
+   active: styles provide the press feedback instead. */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Buttons and links respond to touch immediately (no 300ms feel) and never
+   trigger double-tap zoom. */
+a,
+button,
+[role="button"],
+input,
+select,
+textarea,
+label {
+  touch-action: manipulation;
+}
+
+/* iOS zooms the page when a focused input's font-size is under 16px — keep
+   form fields at 16px on phones so the keyboard opens without the jarring
+   zoom-in. */
+@media (max-width: 767px) {
+  input,
+  select,
+  textarea {
+    font-size: 16px !important;
+  }
+}
+
+/* Prevent accidental pull-to-refresh interrupting quizzes mid-question and
+   stop horizontal wobble from any slightly-wide element. */
+html,
+body {
+  overscroll-behavior-y: contain;
+  overflow-x: hidden;
+}
+
+/* Subtle press feedback on primary interactive cards/buttons for phones. */
+@media (hover: none) {
+  a:active,
+  button:active {
+    transform: scale(0.99);
+  }
+}
+
 ::selection {
   background-color: #a7f3d0;
   color: #064e3b;
