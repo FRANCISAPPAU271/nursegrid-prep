@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import type { AttemptResult, QuestionPreview } from "@/lib/types";
 import Empty from "@/components/ui/Empty";
 import { SkeletonList } from "@/components/ui/Skeleton";
@@ -13,6 +13,11 @@ const DIFFICULTY_STYLE: Record<string, string> = {
   medium: "bg-amber-100 text-amber-700",
   hard: "bg-rose-100 text-rose-700",
 };
+
+// Timed mode: the real CBT gives roughly this long per question; practicing
+// with the clock builds exam pacing. Persisted preference in localStorage.
+const TIMED_SECONDS = 72;
+const TIMED_PREF_KEY = "nsg-timed-mode";
 
 export default function QuestionQuiz({
   title,
@@ -38,8 +43,33 @@ export default function QuestionQuiz({
   const [submitting, setSubmitting] = useState(false);
   const [score, setScore] = useState({ correct: 0, total: 0 });
   const [bookmarkBusy, setBookmarkBusy] = useState(false);
+  const [timedMode, setTimedMode] = useState(false);
+  const [timeLeft, setTimeLeft] = useState(TIMED_SECONDS);
+  const [timedOut, setTimedOut] = useState(false);
+  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const toast = useToast();
   const limit = 20;
+
+  // Restore the student's timed-mode preference.
+  useEffect(() => {
+    try {
+      setTimedMode(localStorage.getItem(TIMED_PREF_KEY) === "1");
+    } catch {
+      /* ignore */
+    }
+  }, []);
+
+  function toggleTimedMode() {
+    setTimedMode((v) => {
+      const next = !v;
+      try {
+        localStorage.setItem(TIMED_PREF_KEY, next ? "1" : "0");
+      } catch {
+        /* ignore */
+      }
+      return next;
+    });
+  }
 
   const loadBatch = useCallback(
     async (nextOffset: number, replace: boolean) => {
@@ -67,6 +97,38 @@ export default function QuestionQuiz({
 
   const current = items[index];
   const isSataQuestion = Boolean(current?.isSata);
+
+  // Timed-mode countdown: reset for each new unanswered question; stop when
+  // answered or when the mode is switched off; auto-flag at zero.
+  useEffect(() => {
+    if (timerRef.current) {
+      clearInterval(timerRef.current);
+      timerRef.current = null;
+    }
+    setTimedOut(false);
+    setTimeLeft(TIMED_SECONDS);
+    if (!timedMode || !current || result) return;
+    timerRef.current = setInterval(() => {
+      setTimeLeft((t) => {
+        if (t <= 1) {
+          if (timerRef.current) {
+            clearInterval(timerRef.current);
+            timerRef.current = null;
+          }
+          setTimedOut(true);
+          return 0;
+        }
+        return t - 1;
+      });
+    }, 1000);
+    return () => {
+      if (timerRef.current) {
+        clearInterval(timerRef.current);
+        timerRef.current = null;
+      }
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [timedMode, index, items, Boolean(result)]);
 
   function toggleMultiChoice(choiceId: string) {
     if (result) return;
@@ -139,7 +201,7 @@ export default function QuestionQuiz({
   if (loading) {
     return (
       <div>
-        <QuizHeader title={title} subtitle={subtitle} score={score} />
+        <QuizHeader title={title} subtitle={subtitle} score={score} timedMode={timedMode} onToggleTimed={toggleTimedMode} />
         <SkeletonList count={3} />
       </div>
     );
@@ -148,7 +210,7 @@ export default function QuestionQuiz({
   if (items.length === 0) {
     return (
       <div>
-        <QuizHeader title={title} subtitle={subtitle} score={score} />
+        <QuizHeader title={title} subtitle={subtitle} score={score} timedMode={timedMode} onToggleTimed={toggleTimedMode} />
         <Empty
           icon="🔖"
           title="Nothing here yet"
@@ -167,7 +229,7 @@ export default function QuestionQuiz({
 
   return (
     <div>
-      <QuizHeader title={title} subtitle={subtitle} score={score} />
+      <QuizHeader title={title} subtitle={subtitle} score={score} timedMode={timedMode} onToggleTimed={toggleTimedMode} />
 
       {!finished && current && (
         <div className="animate-fade-in relative secure-content rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
@@ -187,14 +249,37 @@ export default function QuestionQuiz({
                 Question {offset + index + 1} of {total.toLocaleString()}
               </span>
             </div>
-            <button
-              onClick={toggleBookmark}
-              title={current.isBookmarked ? "Remove bookmark" : "Bookmark"}
-              className={`text-lg ${current.isBookmarked ? "text-amber-500" : "text-slate-300 hover:text-amber-400"}`}
-            >
-              {current.isBookmarked ? "🔖" : "📑"}
-            </button>
+            <div className="flex items-center gap-2">
+              {timedMode && !result && (
+                <span
+                  className={`rounded-full px-2.5 py-1 font-mono text-xs font-bold tabular-nums ${
+                    timedOut
+                      ? "bg-rose-100 text-rose-700"
+                      : timeLeft <= 15
+                        ? "animate-pulse bg-rose-100 text-rose-700"
+                        : timeLeft <= 30
+                          ? "bg-amber-100 text-amber-700"
+                          : "bg-slate-100 text-slate-600"
+                  }`}
+                >
+                  ⏱ {timedOut ? "Time!" : `${Math.floor(timeLeft / 60)}:${String(timeLeft % 60).padStart(2, "0")}`}
+                </span>
+              )}
+              <button
+                onClick={toggleBookmark}
+                title={current.isBookmarked ? "Remove bookmark" : "Bookmark"}
+                className={`text-lg ${current.isBookmarked ? "text-amber-500" : "text-slate-300 hover:text-amber-400"}`}
+              >
+                {current.isBookmarked ? "🔖" : "📑"}
+              </button>
+            </div>
           </div>
+
+          {timedMode && timedOut && !result && (
+            <div className="mb-3 rounded-xl border border-rose-200 bg-rose-50 px-4 py-2.5 text-sm font-semibold text-rose-700">
+              ⏱ Time&apos;s up — on the real exam you&apos;d move on. Answer anyway to learn, but note this one ran long.
+            </div>
+          )}
 
           <p className="text-base leading-relaxed text-slate-900">{current.stem}</p>
 
@@ -362,9 +447,21 @@ export default function QuestionQuiz({
   );
 }
 
-function QuizHeader({ title, subtitle, score }: { title: string; subtitle: string; score: { correct: number; total: number } }) {
+function QuizHeader({
+  title,
+  subtitle,
+  score,
+  timedMode,
+  onToggleTimed,
+}: {
+  title: string;
+  subtitle: string;
+  score: { correct: number; total: number };
+  timedMode?: boolean;
+  onToggleTimed?: () => void;
+}) {
   return (
-    <div className="mb-6 flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between">
+    <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
       <div>
         <Link href="/dashboard/questions" className="text-xs font-semibold text-emerald-700 hover:underline">
           ← Question bank
@@ -372,11 +469,27 @@ function QuizHeader({ title, subtitle, score }: { title: string; subtitle: strin
         <h1 className="mt-1 text-2xl font-extrabold tracking-tight text-slate-950">{title}</h1>
         <p className="text-slate-600">{subtitle}</p>
       </div>
-      {score.total > 0 && (
-        <div className="rounded-xl bg-slate-100 px-4 py-2 text-sm font-semibold text-slate-700">
-          Session score: {score.correct}/{score.total}
-        </div>
-      )}
+      <div className="flex items-center gap-2">
+        {onToggleTimed && (
+          <button
+            onClick={onToggleTimed}
+            aria-pressed={timedMode}
+            title={`Timed mode: ${TIMED_SECONDS} seconds per question — real exam pacing`}
+            className={`rounded-xl px-3.5 py-2 text-sm font-bold transition ${
+              timedMode
+                ? "bg-gradient-to-r from-emerald-600 to-teal-600 text-white shadow-md shadow-emerald-600/25"
+                : "border border-slate-200 bg-white text-slate-600 hover:border-emerald-300 hover:text-emerald-700"
+            }`}
+          >
+            ⏱ Timed {timedMode ? "ON" : "OFF"}
+          </button>
+        )}
+        {score.total > 0 && (
+          <div className="rounded-xl bg-slate-100 px-4 py-2 text-sm font-semibold text-slate-700">
+            Session score: {score.correct}/{score.total}
+          </div>
+        )}
+      </div>
     </div>
   );
 }

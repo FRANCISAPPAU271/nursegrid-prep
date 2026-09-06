@@ -1,6 +1,8 @@
 import { getCurrentUser } from "@/lib/auth";
 import { computeReadiness } from "@/lib/readiness";
 import { getUserExamDate } from "@/db/user-exam-date";
+import { computeTrend } from "@/lib/trend";
+import TrendGraph from "@/components/readiness/TrendGraph";
 import Link from "next/link";
 
 export const dynamic = "force-dynamic";
@@ -17,7 +19,11 @@ export default async function ReadinessPage() {
   const user = await getCurrentUser();
   if (!user) return null;
 
-  const [r, examDate] = await Promise.all([computeReadiness(user.id), getUserExamDate(user.id)]);
+  const [r, examDate, trend] = await Promise.all([
+    computeReadiness(user.id),
+    getUserExamDate(user.id),
+    computeTrend(user.id),
+  ]);
   const style = BAND_STYLE[r.band];
   const circumference = 2 * Math.PI * 52;
   const dash = (r.score / 100) * circumference;
@@ -155,6 +161,11 @@ export default async function ReadinessPage() {
             Sit a mock exam
           </Link>
         </div>
+      </div>
+
+      {/* Performance trend graph */}
+      <div className="mb-6">
+        <TrendGraph points={trend} />
       </div>
 
       {/* Weakest categories */}
