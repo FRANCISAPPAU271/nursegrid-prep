@@ -118,6 +118,21 @@ select:focus-visible,
   }
 }
 
+/* Respect users who prefer reduced motion — animations become instant
+   instead of moving, keeping the app comfortable for everyone. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 .animate-fade-in {
   animation: fade-in 0.25s ease-out;
 }

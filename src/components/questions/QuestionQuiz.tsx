@@ -46,9 +46,40 @@ export default function QuestionQuiz({
   const [timedMode, setTimedMode] = useState(false);
   const [timeLeft, setTimeLeft] = useState(TIMED_SECONDS);
   const [timedOut, setTimedOut] = useState(false);
+  const [swipeHint, setSwipeHint] = useState(false);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const touchStart = useRef<{ x: number; y: number } | null>(null);
   const toast = useToast();
   const limit = 20;
+
+  // ---- Swipe left → next question (mobile). Only after the answer is
+  // revealed, so a stray swipe can never skip an unanswered question. The
+  // vertical threshold keeps normal scrolling from triggering it.
+  function onTouchStart(e: React.TouchEvent) {
+    const t = e.touches[0];
+    touchStart.current = { x: t.clientX, y: t.clientY };
+  }
+
+  function onTouchMove(e: React.TouchEvent) {
+    if (!touchStart.current || !result || loadingMore) return;
+    const t = e.touches[0];
+    const dx = t.clientX - touchStart.current.x;
+    const dy = Math.abs(t.clientY - touchStart.current.y);
+    setSwipeHint(dx < -40 && dy < 60);
+  }
+
+  function onTouchEnd(e: React.TouchEvent) {
+    const start = touchStart.current;
+    touchStart.current = null;
+    setSwipeHint(false);
+    if (!start || !result || loadingMore) return;
+    const t = e.changedTouches[0];
+    const dx = t.clientX - start.x;
+    const dy = Math.abs(t.clientY - start.y);
+    if (dx < -70 && dy < 80) {
+      void goNext();
+    }
+  }
 
   // Restore the student's timed-mode preference.
   useEffect(() => {
@@ -232,7 +263,14 @@ export default function QuestionQuiz({
       <QuizHeader title={title} subtitle={subtitle} score={score} timedMode={timedMode} onToggleTimed={toggleTimedMode} />
 
       {!finished && current && (
-        <div className="animate-fade-in relative secure-content rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <div
+          onTouchStart={onTouchStart}
+          onTouchMove={onTouchMove}
+          onTouchEnd={onTouchEnd}
+          className={`animate-fade-in relative secure-content rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-transform duration-150 ${
+            swipeHint ? "-translate-x-2 opacity-90" : ""
+          }`}
+        >
           <Watermark />
           <div className="mb-4 flex items-center justify-between">
             <div className="flex items-center gap-2">
@@ -401,11 +439,12 @@ export default function QuestionQuiz({
                 <p className="text-xs font-bold uppercase tracking-wide text-emerald-700">🎯 Test-taking strategy</p>
                 <p className="mt-1 text-sm text-slate-700">{result.strategy}</p>
               </div>
-              <div className="flex justify-end pt-1">
+              <div className="flex items-center justify-between gap-2 pt-1">
+                <span className="text-[11px] font-medium text-slate-400 md:hidden">← Swipe left for next</span>
                 <button
                   onClick={goNext}
                   disabled={loadingMore}
-                  className="rounded-lg bg-emerald-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-emerald-700 disabled:opacity-70"
+                  className="ml-auto rounded-lg bg-emerald-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-emerald-700 disabled:opacity-70"
                 >
                   {loadingMore ? "Loading…" : "Next question →"}
                 </button>
