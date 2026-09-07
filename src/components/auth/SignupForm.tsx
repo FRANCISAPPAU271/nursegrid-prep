@@ -21,7 +21,13 @@ function getDeviceId(): string {
   }
 }
 
-export default function SignupForm({ defaultReferralCode = "" }: { defaultReferralCode?: string }) {
+export default function SignupForm({
+  defaultReferralCode = "",
+  otpEnabled = false,
+}: {
+  defaultReferralCode?: string;
+  otpEnabled?: boolean;
+}) {
   const router = useRouter();
   const [form, setForm] = useState({
     name: "",
@@ -36,12 +42,60 @@ export default function SignupForm({ defaultReferralCode = "" }: { defaultReferr
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
+  // Phone-OTP state (only used when otpEnabled).
+  const [phone, setPhone] = useState("");
+  const [otpCode, setOtpCode] = useState("");
+  const [otpSent, setOtpSent] = useState(false);
+  const [otpVerified, setOtpVerified] = useState(false);
+  const [otpBusy, setOtpBusy] = useState(false);
+  const [otpMessage, setOtpMessage] = useState<string | null>(null);
+
   useEffect(() => {
     setDeviceId(getDeviceId());
   }, []);
 
   function update<K extends keyof typeof form>(key: K, value: string) {
     setForm((f) => ({ ...f, [key]: value }));
+  }
+
+  async function sendOtp() {
+    setOtpMessage(null);
+    setOtpBusy(true);
+    try {
+      const res = await fetch("/api/auth/otp/send", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ phone, deviceId }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error ?? "Could not send the code");
+      setOtpSent(true);
+      setOtpMessage("Code sent! Check your SMS — it expires in 10 minutes.");
+    } catch (err) {
+      setOtpMessage(err instanceof Error ? err.message : "Could not send the code");
+    } finally {
+      setOtpBusy(false);
+    }
+  }
+
+  async function verifyOtpCode() {
+    setOtpMessage(null);
+    setOtpBusy(true);
+    try {
+      const res = await fetch("/api/auth/otp/verify", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ phone, code: otpCode }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error ?? "Verification failed");
+      setOtpVerified(true);
+      setOtpMessage("Phone verified ✓");
+    } catch (err) {
+      setOtpMessage(err instanceof Error ? err.message : "Verification failed");
+    } finally {
+      setOtpBusy(false);
+    }
   }
 
   async function onSubmit(e: FormEvent) {
@@ -52,7 +106,7 @@ export default function SignupForm({ defaultReferralCode = "" }: { defaultReferr
       const res = await fetch("/api/auth/signup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...form, deviceId }),
+        body: JSON.stringify({ ...form, deviceId, phone: otpEnabled ? phone : "" }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Unable to create account");
@@ -94,6 +148,65 @@ export default function SignupForm({ defaultReferralCode = "" }: { defaultReferr
           className="w-full rounded-lg border border-slate-300 px-3 py-2.5 text-sm outline-none ring-emerald-500/40 focus:border-emerald-500 focus:ring-4"
         />
       </div>
+
+      {otpEnabled && (
+        <div className={`rounded-xl border p-3.5 ${otpVerified ? "border-emerald-300 bg-emerald-50" : "border-slate-200 bg-slate-50"}`}>
+          <label className="mb-1 block text-sm font-semibold text-slate-700">
+            Phone number {otpVerified ? <span className="text-emerald-700">✓ verified</span> : <span className="font-normal text-slate-400">(verify to unlock your 3-day free trial)</span>}
+          </label>
+          {!otpVerified && (
+            <>
+              <div className="flex gap-2">
+                <input
+                  type="tel"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
+                  placeholder="024 123 4567"
+                  disabled={otpBusy}
+                  className="min-w-0 flex-1 rounded-lg border border-slate-300 px-3 py-2.5 text-sm outline-none ring-emerald-500/40 focus:border-emerald-500 focus:ring-4"
+                />
+                <button
+                  type="button"
+                  onClick={sendOtp}
+                  disabled={otpBusy || phone.trim().length < 9}
+                  className="shrink-0 rounded-lg bg-emerald-600 px-3.5 py-2 text-xs font-bold text-white disabled:opacity-50"
+                >
+                  {otpBusy && !otpSent ? "Sending…" : otpSent ? "Resend" : "Send code"}
+                </button>
+              </div>
+              {otpSent && (
+                <div className="mt-2 flex gap-2">
+                  <input
+                    type="text"
+                    inputMode="numeric"
+                    value={otpCode}
+                    onChange={(e) => setOtpCode(e.target.value)}
+                    placeholder="6-digit code"
+                    maxLength={6}
+                    className="min-w-0 flex-1 rounded-lg border border-slate-300 px-3 py-2.5 text-sm tracking-widest outline-none ring-emerald-500/40 focus:border-emerald-500 focus:ring-4"
+                  />
+                  <button
+                    type="button"
+                    onClick={verifyOtpCode}
+                    disabled={otpBusy || otpCode.trim().length < 4}
+                    className="shrink-0 rounded-lg bg-slate-900 px-3.5 py-2 text-xs font-bold text-white disabled:opacity-50"
+                  >
+                    {otpBusy && otpSent ? "Checking…" : "Verify"}
+                  </button>
+                </div>
+              )}
+            </>
+          )}
+          {otpMessage && (
+            <p className={`mt-1.5 text-xs font-medium ${otpVerified ? "text-emerald-700" : "text-slate-500"}`}>{otpMessage}</p>
+          )}
+          {!otpVerified && (
+            <p className="mt-1.5 text-[11px] text-slate-400">
+              You can still create an account without verifying — the free premium trial just won&apos;t be included.
+            </p>
+          )}
+        </div>
+      )}
       <div>
         <label className="mb-1 block text-sm font-semibold text-slate-700">Nursing school (optional)</label>
         <input

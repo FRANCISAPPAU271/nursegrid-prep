@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { getCurrentUser } from "@/lib/auth";
+import { isSmsConfigured } from "@/lib/sms";
 import SignupForm from "@/components/auth/SignupForm";
 
 export default async function SignupPage({
@@ -31,7 +32,7 @@ export default async function SignupPage({
             </div>
           )}
           <div className="mt-6">
-            <SignupForm defaultReferralCode={ref ?? ""} />
+            <SignupForm defaultReferralCode={ref ?? ""} otpEnabled={isSmsConfigured()} />
           </div>
         </div>
       </div>

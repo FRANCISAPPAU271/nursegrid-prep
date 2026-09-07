@@ -7,6 +7,8 @@ import { createSession, hashPassword } from "@/lib/auth";
 import { handleApiError } from "@/lib/api";
 import { generateReferralCode, REFERRAL_REWARD_DAYS, SIGNUP_TRIAL_DAYS } from "@/lib/referral";
 import { checkTrialEligibility, recordSignup } from "@/db/signup-guard";
+import { isSmsConfigured, normalizeGhPhone } from "@/lib/sms";
+import { isPhoneRecentlyVerified, canPhoneClaimTrial, markTrialClaimed } from "@/db/phone-otp";
 
 const schema = z.object({
   name: z.string().trim().min(2, "Name is too short").max(80),
@@ -18,6 +20,7 @@ const schema = z.object({
   securityQuestion: z.string().trim().min(5, "Please choose a security question"),
   securityAnswer: z.string().trim().min(1, "Please enter your security answer"),
   deviceId: z.string().trim().max(80).optional().or(z.literal("")),
+  phone: z.string().trim().max(20).optional().or(z.literal("")),
 });
 
 async function uniqueReferralCode(): Promise<string> {
@@ -60,7 +63,25 @@ export async function POST(request: Request) {
     const guardIp = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? null;
     const guardDeviceId = data.deviceId?.trim() || null;
     const trialCheck = await checkTrialEligibility(guardDeviceId, guardIp);
-    const trialAllowed = trialCheck.eligible;
+    let trialAllowed = trialCheck.eligible;
+
+    // SMS OTP layer (active only when ARKESEL_API_KEY is configured):
+    // a verified Ghana phone number becomes the trial anchor — one trial
+    // claim per phone per 90 days. Unverified/absent phone = no trial,
+    // account still created on the free tier.
+    let verifiedPhone: string | null = null;
+    if (isSmsConfigured()) {
+      const normalized = data.phone ? normalizeGhPhone(data.phone) : null;
+      if (normalized && (await isPhoneRecentlyVerified(normalized))) {
+        verifiedPhone = normalized;
+        if (!(await canPhoneClaimTrial(normalized))) {
+          trialAllowed = false; // phone already claimed a trial in the last 90 days
+        }
+      } else {
+        trialAllowed = false; // OTP enabled but phone not verified
+      }
+    }
+
     // A referral from the SAME device as the referrer is self-referral —
     // no reward for either side.
     if (referrer && !trialAllowed) referrer = null;
@@ -160,6 +181,11 @@ export async function POST(request: Request) {
 
     // Record this signup's device + IP for future trial-eligibility checks.
     await recordSignup(user.id, guardDeviceId, ipAddress);
+
+    // Mark the phone's trial claim so it can't anchor another trial for 90 days.
+    if (verifiedPhone && trialAllowed) {
+      await markTrialClaimed(verifiedPhone, user.id);
+    }
 
     return NextResponse.json(
       { user: { id: user.id, name: user.name, email: user.email }, referralBonusApplied: Boolean(referrer) },
