@@ -61,7 +61,8 @@ export async function sendEmail(to: string, subject: string, html: string): Prom
 // Shared layout + templates
 // ---------------------------------------------------------------------------
 
-const APP_URL = "https://nursegrid.vercel.app";
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "https://nursegrid.vercel.app";
+const APP_HOST = APP_URL.replace(/^https?:\/\//, "");
 
 function layout(inner: string): string {
   return `
@@ -70,7 +71,7 @@ function layout(inner: string): string {
       ${inner}
       <hr style="border:none;border-top:1px solid #e2e8f0;margin:28px 0 12px;" />
       <p style="color:#94a3b8;font-size:12px;">
-        NurseGrid Prep — exam prep for Ghana's NMC licensing exam · <a href="${APP_URL}" style="color:#059669;">nursegrid.vercel.app</a>
+        NurseGrid Prep — exam prep for Ghana's NMC licensing exam · <a href="${APP_URL}" style="color:#059669;">${APP_HOST}</a>
       </p>
     </div>
   `;

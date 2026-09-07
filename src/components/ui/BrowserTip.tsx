@@ -60,7 +60,9 @@ export default function BrowserTip() {
 
   async function copyLink() {
     try {
-      await navigator.clipboard.writeText("https://nursegrid.vercel.app");
+      // Copy the site's own current origin so this keeps working when the
+      // app moves to a custom domain.
+      await navigator.clipboard.writeText(window.location.origin);
     } catch {
       /* ignore — the tip text itself still guides the user */
     }
@@ -75,7 +77,7 @@ export default function BrowserTip() {
           <p className="mt-0.5 text-xs leading-relaxed text-slate-600">{message}</p>
           <div className="mt-2 flex items-center gap-2">
             <a
-              href="https://nursegrid.vercel.app"
+              href={typeof window !== "undefined" ? window.location.href : "/"}
               target="_blank"
               rel="noopener noreferrer"
               onClick={copyLink}
