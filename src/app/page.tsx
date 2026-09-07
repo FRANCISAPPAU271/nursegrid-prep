@@ -383,7 +383,7 @@ export default async function HomePage() {
             <p className="mt-3 text-5xl font-extrabold tracking-tight">
               GH₵ 200<span className="text-base font-semibold text-emerald-100/50"> / year</span>
             </p>
-            <p className="mt-2 text-sm text-emerald-100/50">≈ GH₵ 200 · about $1/month for the full journey</p>
+            <p className="mt-2 text-sm text-emerald-100/50">That's under GH₵ 17/month for the full journey</p>
             <ul className="mt-6 flex-1 space-y-2 text-sm text-emerald-100/80">
               <li>✓ Everything in Sprint, for 12 months</li>
               <li>✓ Covers resits &amp; final-year revision</li>

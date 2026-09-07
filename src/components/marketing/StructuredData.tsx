@@ -27,9 +27,9 @@ export default function StructuredData() {
         description: "NMC Ghana licensing exam-style question bank, task manager, and study tools for nursing and midwifery students.",
         brand: { "@type": "Brand", name: "NurseGrid Prep" },
         offers: [
-          { "@type": "Offer", name: "4 Months Full Access", price: "5.00", priceCurrency: "USD" },
-          { "@type": "Offer", name: "8 Months Full Access", price: "9.00", priceCurrency: "USD" },
-          { "@type": "Offer", name: "1 Year Full Access", price: "13.00", priceCurrency: "USD" },
+          { "@type": "Offer", name: "4 Months Full Access", price: "80.00", priceCurrency: "GHS" },
+          { "@type": "Offer", name: "8 Months Full Access", price: "140.00", priceCurrency: "GHS" },
+          { "@type": "Offer", name: "1 Year Full Access", price: "200.00", priceCurrency: "GHS" },
         ],
       },
     ],
