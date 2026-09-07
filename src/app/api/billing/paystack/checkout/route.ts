@@ -33,6 +33,11 @@ export async function POST(request: Request) {
     if (error instanceof z.ZodError) {
       return NextResponse.json({ error: error.issues[0]?.message ?? "Invalid input" }, { status: 422 });
     }
+    // Surface Paystack's own message so payment problems are diagnosable
+    // (e.g. channel not enabled, currency not supported on this account).
+    if (error instanceof Error && error.message.startsWith("Paystack:")) {
+      return NextResponse.json({ error: error.message }, { status: 502 });
+    }
     return handleApiError(error);
   }
 }

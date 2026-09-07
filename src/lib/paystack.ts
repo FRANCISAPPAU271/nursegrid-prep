@@ -40,30 +40,42 @@ export async function initializeTransaction(params: {
   userId: string;
   callbackUrl: string;
 }): Promise<{ authorizationUrl: string; reference: string }> {
-  const res = await fetch(`${API}/transaction/initialize`, {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${secretKey()}`,
-      "Content-Type": "application/json",
+  const basePayload = {
+    email: params.email,
+    amount: PLAN_GHS_PESEWAS[params.planId],
+    currency: "GHS",
+    callback_url: params.callbackUrl,
+    metadata: {
+      userId: params.userId,
+      planId: params.planId,
+      product: "nursegrid-premium",
     },
-    body: JSON.stringify({
-      email: params.email,
-      amount: PLAN_GHS_PESEWAS[params.planId],
-      currency: "GHS",
-      callback_url: params.callbackUrl,
-      channels: ["mobile_money", "card"],
-      metadata: {
-        userId: params.userId,
-        planId: params.planId,
-        product: "nursegrid-premium",
+  };
+
+  async function attempt(withChannels: boolean) {
+    const res = await fetch(`${API}/transaction/initialize`, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${secretKey()}`,
+        "Content-Type": "application/json",
       },
-    }),
-  });
-  const data = await res.json();
-  if (!res.ok || !data.status) {
-    throw new Error(data.message || "Could not start the Paystack checkout");
+      body: JSON.stringify(withChannels ? { ...basePayload, channels: ["mobile_money", "card"] } : basePayload),
+    });
+    const data = await res.json().catch(() => ({}));
+    return { ok: res.ok && Boolean(data.status), data };
   }
-  return { authorizationUrl: data.data.authorization_url, reference: data.data.reference };
+
+  // First try with explicit MoMo+card channels; if the live account doesn't
+  // have a channel enabled yet, retry letting Paystack use its defaults.
+  let result = await attempt(true);
+  if (!result.ok) {
+    result = await attempt(false);
+  }
+  if (!result.ok) {
+    const message = result.data?.message || "Could not start the Paystack checkout";
+    throw new Error(`Paystack: ${message}`);
+  }
+  return { authorizationUrl: result.data.data.authorization_url, reference: result.data.data.reference };
 }
 
 export type VerifiedTransaction = {
