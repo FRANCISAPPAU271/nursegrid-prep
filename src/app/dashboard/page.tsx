@@ -151,7 +151,7 @@ export default async function OverviewPage() {
               <p className="text-sm font-extrabold text-emerald-900">🎁 Free premium trial — {trialDaysLeft} day{trialDaysLeft === 1 ? "" : "s"} left</p>
               <p className="mt-0.5 text-sm text-emerald-800">
                 You have FULL access right now: all {totalQuestions.toLocaleString()} questions, mock exams, CAT, readiness &amp; more.
-                Make it count — then keep it from just $5.
+                Make it count — then keep it from just GH₵ 80.
               </p>
             </div>
           </div>
@@ -159,7 +159,7 @@ export default async function OverviewPage() {
             href="/dashboard/billing"
             className="shrink-0 rounded-2xl bg-gradient-to-r from-emerald-600 to-teal-600 px-5 py-2.5 text-sm font-bold text-white shadow-lg shadow-emerald-600/25 transition-all hover:scale-105 active:scale-95"
           >
-            Keep premium — from $5
+            Keep premium — from GH₵ 80
           </Link>
         </div>
       )}
@@ -203,14 +203,14 @@ export default async function OverviewPage() {
           <div>
             <p className="text-sm font-bold text-amber-800">Unlock the full {totalQuestions.toLocaleString()}-question bank</p>
             <p className="mt-1 text-sm text-amber-700">
-              You&apos;re on the free plan. Get full access from just $5 for 4 months, $9 for 8 months, or $13 for a full year with rationales and strategies.
+              You&apos;re on the free plan. Get full access from just GH₵ 80 for 4 months, GH₵ 140 for 8 months, or GH₵ 200 for a full year with rationales and strategies.
             </p>
           </div>
           <Link
             href="/dashboard/billing"
             className="shrink-0 rounded-lg bg-amber-500 px-4 py-2.5 text-sm font-bold text-white shadow-sm hover:bg-amber-600"
           >
-            Get full access — from $5
+            Get full access — from GH₵ 80
           </Link>
         </div>
       )}

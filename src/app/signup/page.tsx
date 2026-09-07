@@ -24,7 +24,7 @@ export default async function SignupPage({
           <h1 className="text-2xl font-bold text-slate-950">Create your account</h1>
           <p className="mt-1 text-sm text-slate-600">
             Start with <span className="font-bold text-emerald-700">3 days of full premium free</span> — every question,
-            mock exams, and readiness tools. No card needed. Keep going anytime from just $5.
+            mock exams, and readiness tools. No card needed. Keep going anytime from just GH₵ 80.
           </p>
           {ref && (
             <div className="mt-4 rounded-lg bg-emerald-50 px-3 py-2 text-xs font-semibold text-emerald-800">

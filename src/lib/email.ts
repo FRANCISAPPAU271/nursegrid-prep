@@ -93,7 +93,7 @@ export function trialEndingEmail(name: string): { subject: string; html: string 
       <h1 style="font-size:20px;">Your trial ends tomorrow, ${name || "there"} ⏳</h1>
       <p>Your 3-day full-premium trial on NurseGrid Prep is almost over. Right now you still have access to
       all 6,600+ NMC-style questions, mock exams, adaptive testing, and your Readiness Score.</p>
-      <p><b>Keep everything from just $5 (about GH₵ 80) for 4 full months</b> — one MoMo payment, never auto-billed.</p>
+      <p><b>Keep everything from just GH₵ 80 for 4 full months</b> — one MoMo payment, never auto-billed.</p>
       ${button(`${APP_URL}/dashboard/billing`, "Keep my premium access")}
       <p style="color:#64748b;font-size:13px;">If you let the trial end, your account stays free with 40 practice questions — your progress is saved either way.</p>
     `),
@@ -113,7 +113,7 @@ export function subscriptionExpiringEmail(
       <p>Hi ${name || "there"},</p>
       <p>Your NurseGrid Prep premium access ends on <b>${endDateText}</b>. After that, your account returns to the
       free tier (40 questions) — your progress, streak, and readiness history stay saved.</p>
-      <p><b>Renew now so your exam prep never skips a beat</b> — from $5 (about GH₵ 80) for 4 months, paid with MoMo in minutes.</p>
+      <p><b>Renew now so your exam prep never skips a beat</b> — from GH₵ 80 for 4 months, paid with MoMo in minutes.</p>
       ${button(`${APP_URL}/dashboard/billing`, "Renew my plan")}
       <p style="color:#64748b;font-size:13px;">Questions? Just reply to this email or message us on WhatsApp from the app.</p>
     `),

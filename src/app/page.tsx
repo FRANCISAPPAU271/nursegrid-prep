@@ -13,7 +13,7 @@ const TICKER_ITEMS = [
   "🧠 6,600+ UNIQUE QUESTIONS WITH REAL RATIONALES",
   "💳 PAY WITH MTN MOMO OR VISA",
   "📲 WORKS OFFLINE — NO APP STORE",
-  "💚 FROM $5 · NEVER AUTO-BILLED",
+  "💚 FROM GH₵ 80 · NEVER AUTO-BILLED",
   "🎯 STRATEGY LIBRARY: PRIORITISATION · DELEGATION · PHARMA MATH",
 ];
 
@@ -129,7 +129,7 @@ export default async function HomePage() {
               exam-style questions where every rationale teaches you the{" "}
               <strong className="font-bold text-emerald-50">clinical reasoning the Council actually tests</strong>,
               plus a task manager that keeps clinicals and revision on track.{" "}
-              <strong className="font-bold text-emerald-50">From $5. Pay with MoMo.</strong>
+              <strong className="font-bold text-emerald-50">From GH₵ 80. Pay with MoMo.</strong>
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
               <Link
@@ -147,7 +147,7 @@ export default async function HomePage() {
             </div>
             <p className="mt-5 text-xs leading-relaxed text-emerald-100/50 sm:text-sm">
               <b className="text-lime-300">3 days of full premium free</b> — every question, mock exams &amp; readiness ·
-              No card needed · Then <b className="text-lime-300">from $5</b> — one payment, never auto-billed
+              No card needed · Then <b className="text-lime-300">from GH₵ 80</b> — one payment, never auto-billed
             </p>
           </div>
 
@@ -236,7 +236,7 @@ export default async function HomePage() {
             <h3 className="relative mt-3 text-lg font-extrabold">Reasoning-first, priced for you</h3>
             <p className="relative mt-2 text-sm text-emerald-100/60">
               Every one of our 6,600+ unique questions teaches the <em>why</em> and the 20-second strategy to crack the next
-              one like it. Built around the Ghana NMC syllabus, from $5, paid once with MoMo — never auto-billed.
+              one like it. Built around the Ghana NMC syllabus, from GH₵ 80, paid once with MoMo — never auto-billed.
             </p>
           </div>
         </div>
@@ -340,7 +340,7 @@ export default async function HomePage() {
           <div className="flex flex-col rounded-3xl border border-slate-900/10 bg-white p-8 transition hover:-translate-y-1 hover:shadow-2xl">
             <p className="text-base font-extrabold text-slate-950">Sprint · 4 Months</p>
             <p className="mt-3 text-5xl font-extrabold tracking-tight text-slate-950">
-              $5<span className="text-base font-semibold text-slate-500"> / 4 months</span>
+              GH₵ 80<span className="text-base font-semibold text-slate-500"> / 4 months</span>
             </p>
             <p className="mt-2 text-sm text-slate-500">≈ GH₵ 80 · perfect if your exam date is close</p>
             <ul className="mt-6 flex-1 space-y-2 text-sm text-slate-600">
@@ -359,7 +359,7 @@ export default async function HomePage() {
           <div className="flex flex-col rounded-3xl border border-slate-900/10 bg-white p-8 transition hover:-translate-y-1 hover:shadow-2xl">
             <p className="text-base font-extrabold text-slate-950">Steady · 8 Months</p>
             <p className="mt-3 text-5xl font-extrabold tracking-tight text-slate-950">
-              $9<span className="text-base font-semibold text-slate-500"> / 8 months</span>
+              GH₵ 140<span className="text-base font-semibold text-slate-500"> / 8 months</span>
             </p>
             <p className="mt-2 text-sm text-slate-500">≈ GH₵ 140 · a full academic year of prep</p>
             <ul className="mt-6 flex-1 space-y-2 text-sm text-slate-600">
@@ -381,7 +381,7 @@ export default async function HomePage() {
             </span>
             <p className="text-base font-extrabold">Journey · 1 Year</p>
             <p className="mt-3 text-5xl font-extrabold tracking-tight">
-              $13<span className="text-base font-semibold text-emerald-100/50"> / year</span>
+              GH₵ 200<span className="text-base font-semibold text-emerald-100/50"> / year</span>
             </p>
             <p className="mt-2 text-sm text-emerald-100/50">≈ GH₵ 200 · about $1/month for the full journey</p>
             <ul className="mt-6 flex-1 space-y-2 text-sm text-emerald-100/80">
@@ -445,7 +445,7 @@ export default async function HomePage() {
             Your licensing pass starts today.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-emerald-100/60">
-            3 days of full premium free. No card. No auto-billing. Just the smartest way to prep — from $5.
+            3 days of full premium free. No card. No auto-billing. Just the smartest way to prep — from GH₵ 80.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
             <Link

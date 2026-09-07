@@ -5,18 +5,21 @@ import type { Invoice, Subscription } from "@/lib/types";
 import Modal from "@/components/ui/Modal";
 import { useToast } from "@/components/ui/Toast";
 import { useRouter, useSearchParams } from "next/navigation";
-import { MOMO_RECEIVER_NUMBER, MOMO_RECEIVER_NAME, approxGhsAmount } from "@/lib/momo";
+import { MOMO_RECEIVER_NUMBER, MOMO_RECEIVER_NAME } from "@/lib/momo";
 import { buildWhatsAppLink, WHATSAPP_DISPLAY_NUMBER } from "@/lib/contact";
 
 type PlanId = "four_month" | "eight_month" | "annual";
 
 const PLANS: { id: PlanId; name: string; price: string; priceCents: number; cadence: string; tag: string | null }[] = [
-  { id: "four_month", name: "4 Months", price: "$5.00", priceCents: 500, cadence: "full access for 4 months", tag: null },
-  { id: "eight_month", name: "8 Months", price: "$9.00", priceCents: 900, cadence: "full access for 8 months", tag: null },
-  { id: "annual", name: "1 Year", price: "$13.00", priceCents: 1300, cadence: "full access for 12 months", tag: "Best value" },
+  { id: "four_month", name: "4 Months", price: "GH₵ 80", priceCents: 500, cadence: "full access for 4 months", tag: null },
+  { id: "eight_month", name: "8 Months", price: "GH₵ 140", priceCents: 900, cadence: "full access for 8 months", tag: null },
+  { id: "annual", name: "1 Year", price: "GH₵ 200", priceCents: 1300, cadence: "full access for 12 months", tag: "Best value" },
 ];
 
 function money(cents: number) {
+  // Historical USD-cent amounts map to the fixed cedi plan prices.
+  const ghs: Record<number, number> = { 500: 80, 900: 140, 1300: 200 };
+  if (ghs[cents]) return `GH₵ ${ghs[cents]}`;
   return `$${(cents / 100).toFixed(2)}`;
 }
 
@@ -505,7 +508,6 @@ function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
   const [submitted, setSubmitted] = useState(false);
   const toast = useToast();
   const router = useRouter();
-  const ghs = approxGhsAmount(plan.priceCents);
 
   async function copyNumber() {
     try {
@@ -544,7 +546,7 @@ function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
   if (submitted) {
     const notifyMessage =
       `Hi NurseGrid Prep! I just paid for the ${plan.name} plan via MTN MoMo.\n` +
-      `• Amount: ~GHS ${ghs} (${plan.price})\n` +
+      `• Amount: ${plan.price}\n` +
       `• From MoMo number: ${momoNumber}\n` +
       `• Transaction ref: ${momoReference}\n` +
       `Please activate my account. Thank you! 🙏`;
@@ -595,7 +597,7 @@ function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
       <div className="rounded-xl bg-amber-50 p-4">
         <p className="text-sm font-bold text-amber-900">Step 1 — Send payment</p>
         <p className="mt-1 text-sm text-amber-800">
-          Send <span className="font-bold">{plan.price}</span> (approx. ₵{ghs} GHS, rates vary) via MTN Mobile Money for {plan.name} access to:
+          Send <span className="font-bold">{plan.price}</span> via MTN Mobile Money for {plan.name} access to:
         </p>
         <div className="mt-3 flex items-center justify-between rounded-lg bg-white px-4 py-3">
           <div>
