@@ -33,10 +33,11 @@ export async function POST(request: Request) {
     if (error instanceof z.ZodError) {
       return NextResponse.json({ error: error.issues[0]?.message ?? "Invalid input" }, { status: 422 });
     }
-    // Surface Paystack's own message so payment problems are diagnosable
-    // (e.g. channel not enabled, currency not supported on this account).
-    if (error instanceof Error && error.message.startsWith("Paystack:")) {
-      return NextResponse.json({ error: error.message }, { status: 502 });
+    // Surface the real failure so payment problems are diagnosable
+    // (e.g. channel not enabled, invalid key format, network failure) —
+    // but let ApiError (401 auth, etc.) flow through normally.
+    if (error instanceof Error && !(error instanceof ApiError)) {
+      return NextResponse.json({ error: `Payment setup failed: ${error.message}` }, { status: 502 });
     }
     return handleApiError(error);
   }

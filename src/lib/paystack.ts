@@ -31,7 +31,9 @@ const API = "https://api.paystack.co";
 function secretKey(): string {
   const key = process.env.PAYSTACK_SECRET_KEY;
   if (!key) throw new Error("PAYSTACK_SECRET_KEY is not configured");
-  return key;
+  // Trim defensively: a trailing newline/space from a dashboard copy-paste
+  // makes the Authorization header invalid and fetch throws immediately.
+  return key.trim();
 }
 
 export async function initializeTransaction(params: {
