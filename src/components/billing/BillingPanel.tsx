@@ -332,43 +332,55 @@ export default function BillingPanel({
                   <span className="text-2xl">⚡</span>
                   <span>
                     <span className="flex items-center gap-2 text-sm font-bold text-slate-900">
-                      Pay instantly — MoMo or Card
-                      <span className="rounded-full bg-emerald-600 px-2 py-0.5 text-[10px] font-bold text-white">RECOMMENDED</span>
+                      Pay with MoMo or Card
+                      <span className="rounded-full bg-emerald-600 px-2 py-0.5 text-[10px] font-bold text-white">INSTANT</span>
                     </span>
                     <span className="block text-xs text-slate-500">
-                      GH₵ {approxInstantGhs(pickerPlan.id)} · secure Paystack checkout · activated in seconds
+                      GH₵ {approxInstantGhs(pickerPlan.id)} · secure checkout · activated in seconds
                     </span>
                   </span>
                 </span>
                 <span className="text-emerald-500">→</span>
               </button>
             )}
-            <button
-              onClick={() => chooseVisa(pickerPlan)}
-              className="flex w-full items-center justify-between rounded-xl border border-slate-200 px-4 py-4 text-left hover:border-emerald-400 hover:bg-emerald-50/50"
-            >
-              <span className="flex items-center gap-3">
-                <span className="text-2xl">💳</span>
-                <span>
-                  <span className="block text-sm font-bold text-slate-900">Visa Card</span>
-                  <span className="block text-xs text-slate-500">Outside Ghana · instant activation</span>
-                </span>
-              </span>
-              <span className="text-slate-400">→</span>
-            </button>
-            <button
-              onClick={() => chooseMomo(pickerPlan)}
-              className="flex w-full items-center justify-between rounded-xl border border-slate-200 px-4 py-4 text-left hover:border-amber-400 hover:bg-amber-50/50"
-            >
-              <span className="flex items-center gap-3">
-                <span className="text-2xl">📱</span>
-                <span>
-                  <span className="block text-sm font-bold text-slate-900">MTN Mobile Money</span>
-                  <span className="block text-xs text-slate-500">Ghana · send to {MOMO_RECEIVER_NUMBER} · verified within a few hours</span>
-                </span>
-              </span>
-              <span className="text-slate-400">→</span>
-            </button>
+            {paystackEnabled && (
+              <p className="text-center text-[11px] text-slate-400">
+                {redirecting ? "Opening secure checkout…" : "You'll approve the payment on your phone — access unlocks automatically."}
+              </p>
+            )}
+            {/* Fallback options — shown only when instant payment is unavailable
+                (e.g. Paystack outage or key removed), so students always have
+                a way to pay. */}
+            {!paystackEnabled && (
+              <>
+                <button
+                  onClick={() => chooseVisa(pickerPlan)}
+                  className="flex w-full items-center justify-between rounded-xl border border-slate-200 px-4 py-4 text-left hover:border-emerald-400 hover:bg-emerald-50/50"
+                >
+                  <span className="flex items-center gap-3">
+                    <span className="text-2xl">💳</span>
+                    <span>
+                      <span className="block text-sm font-bold text-slate-900">Visa Card</span>
+                      <span className="block text-xs text-slate-500">Outside Ghana · instant activation</span>
+                    </span>
+                  </span>
+                  <span className="text-slate-400">→</span>
+                </button>
+                <button
+                  onClick={() => chooseMomo(pickerPlan)}
+                  className="flex w-full items-center justify-between rounded-xl border border-slate-200 px-4 py-4 text-left hover:border-amber-400 hover:bg-amber-50/50"
+                >
+                  <span className="flex items-center gap-3">
+                    <span className="text-2xl">📱</span>
+                    <span>
+                      <span className="block text-sm font-bold text-slate-900">MTN Mobile Money</span>
+                      <span className="block text-xs text-slate-500">Ghana · send to {MOMO_RECEIVER_NUMBER} · verified within a few hours</span>
+                    </span>
+                  </span>
+                  <span className="text-slate-400">→</span>
+                </button>
+              </>
+            )}
           </div>
         )}
       </Modal>
