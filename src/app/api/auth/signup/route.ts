@@ -6,6 +6,7 @@ import { eq } from "drizzle-orm";
 import { createSession, hashPassword } from "@/lib/auth";
 import { handleApiError } from "@/lib/api";
 import { generateReferralCode, REFERRAL_REWARD_DAYS, SIGNUP_TRIAL_DAYS } from "@/lib/referral";
+import { checkTrialEligibility, recordSignup } from "@/db/signup-guard";
 
 const schema = z.object({
   name: z.string().trim().min(2, "Name is too short").max(80),
@@ -16,6 +17,7 @@ const schema = z.object({
   referralCode: z.string().trim().max(20).optional().or(z.literal("")),
   securityQuestion: z.string().trim().min(5, "Please choose a security question"),
   securityAnswer: z.string().trim().min(1, "Please enter your security answer"),
+  deviceId: z.string().trim().max(80).optional().or(z.literal("")),
 });
 
 async function uniqueReferralCode(): Promise<string> {
@@ -52,10 +54,22 @@ export async function POST(request: Request) {
     const securityAnswerHash = await hashPassword(data.securityAnswer.toLowerCase());
     const referralCode = await uniqueReferralCode();
     const now = new Date();
+
+    // Trial-abuse guard: a device or IP that has recently farmed signups
+    // still gets an account — just without the free trial or referral days.
+    const guardIp = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? null;
+    const guardDeviceId = data.deviceId?.trim() || null;
+    const trialCheck = await checkTrialEligibility(guardDeviceId, guardIp);
+    const trialAllowed = trialCheck.eligible;
+    // A referral from the SAME device as the referrer is self-referral —
+    // no reward for either side.
+    if (referrer && !trialAllowed) referrer = null;
+
     // Every new account starts with a premium trial: 3 days, and referral
-    // signups reward the referrer with 3 bonus days too.
+    // signups reward the referrer with 3 bonus days too — unless the guard
+    // flagged this device/IP as a repeat.
     const trialDays = referrer ? REFERRAL_REWARD_DAYS : SIGNUP_TRIAL_DAYS;
-    const trialEnd = new Date(now.getTime() + trialDays * 24 * 60 * 60 * 1000);
+    const trialEnd = trialAllowed ? new Date(now.getTime() + trialDays * 24 * 60 * 60 * 1000) : null;
 
     const [user] = await db
       .insert(users)
@@ -67,8 +81,8 @@ export async function POST(request: Request) {
         cohort: data.cohort || null,
         referralCode,
         referredByCode: referrer ? normalizedRefCode : null,
-        isPremium: true,
-        premiumSince: now,
+        isPremium: trialAllowed,
+        premiumSince: trialAllowed ? now : null,
         premiumTrialEndsAt: trialEnd,
         securityQuestion: data.securityQuestion,
         securityAnswerHash,
@@ -143,6 +157,9 @@ export async function POST(request: Request) {
     const userAgent = request.headers.get("user-agent");
     const ipAddress = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? null;
     await createSession(user.id, { userAgent, ipAddress });
+
+    // Record this signup's device + IP for future trial-eligibility checks.
+    await recordSignup(user.id, guardDeviceId, ipAddress);
 
     return NextResponse.json(
       { user: { id: user.id, name: user.name, email: user.email }, referralBonusApplied: Boolean(referrer) },

@@ -1,8 +1,25 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useEffect, useState, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+
+// Persistent per-device marker used server-side to guard the free trial
+// against repeat signups from the same device. Not personal data — a random
+// ID stored only in this browser.
+function getDeviceId(): string {
+  try {
+    const key = "nsg-device-id";
+    let id = localStorage.getItem(key);
+    if (!id) {
+      id = crypto.randomUUID();
+      localStorage.setItem(key, id);
+    }
+    return id;
+  } catch {
+    return "";
+  }
+}
 
 export default function SignupForm({ defaultReferralCode = "" }: { defaultReferralCode?: string }) {
   const router = useRouter();
@@ -15,8 +32,13 @@ export default function SignupForm({ defaultReferralCode = "" }: { defaultReferr
     securityQuestion: "What was the name of your first pet?",
     securityAnswer: "",
   });
+  const [deviceId, setDeviceId] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setDeviceId(getDeviceId());
+  }, []);
 
   function update<K extends keyof typeof form>(key: K, value: string) {
     setForm((f) => ({ ...f, [key]: value }));
@@ -30,7 +52,7 @@ export default function SignupForm({ defaultReferralCode = "" }: { defaultReferr
       const res = await fetch("/api/auth/signup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify({ ...form, deviceId }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Unable to create account");
