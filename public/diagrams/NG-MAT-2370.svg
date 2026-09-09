@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 580" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+</style>
+<rect width="860" height="580" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Vaginal bleeding in pregnancy: reading it by gestation and by pain</text>
+
+<rect class="box" x="24" y="48" width="812" height="40"/>
+<text class="h" x="40" y="74">First ask: before 24 weeks, or after? Then ask: is there pain, and is the uterus hard or soft?</text>
+
+<rect class="warn" x="24" y="102" width="398" height="196"/>
+<text class="k" x="40" y="126">EARLY — before 24 weeks</text>
+<text class="b" x="40" y="152">Miscarriage: cramping central pain, bleeding,</text>
+<text class="b" x="40" y="170">cervical os open or closed depending on type</text>
+<text class="b" x="40" y="196">Ectopic: amenorrhoea, unilateral pain, shock</text>
+<text class="b" x="40" y="214">out of proportion, shoulder tip pain</text>
+<text class="b" x="40" y="240">Molar: excessive vomiting, uterus large for</text>
+<text class="b" x="40" y="258">dates, grape-like tissue passed</text>
+<text class="k" x="40" y="286">Always do a pregnancy test. Always.</text>
+
+<rect class="warn" x="438" y="102" width="398" height="196"/>
+<text class="k" x="454" y="126">LATE — after 24 weeks</text>
+<text class="b" x="454" y="152">PRAEVIA: painless, bright red, SOFT uterus,</text>
+<text class="b" x="454" y="170">high presenting part, often recurrent</text>
+<text class="b" x="454" y="196">ABRUPTION: constant pain, dark blood,</text>
+<text class="b" x="454" y="214">HARD tender uterus, shock out of proportion</text>
+<text class="b" x="454" y="240">RUPTURE: contractions stop, constant pain,</text>
+<text class="b" x="454" y="258">foetal parts easily felt, collapse</text>
+<text class="k" x="454" y="286">NO digital vaginal examination until scanned.</text>
+
+<rect class="ok" x="24" y="318" width="812" height="126"/>
+<text class="h" x="40" y="342">The one distinction to hold on to</text>
+<text class="b" x="40" y="368">SOFT uterus, PAINLESS bleeding  →  think PRAEVIA</text>
+<text class="b" x="40" y="392">HARD uterus, PAINFUL bleeding  →  think ABRUPTION</text>
+<text class="k" x="40" y="420">And in abruption the visible loss lies to you, because most of the blood is trapped behind the placenta.</text>
+
+<rect class="box" x="24" y="462" width="812" height="106"/>
+<text class="h" x="40" y="486">While you wait for the doctor, in any of them</text>
+<text class="b" x="40" y="512">Two large cannulae  ·  Blood for grouping and cross-match  ·  Fluids running  ·  Observations every 15 minutes</text>
+<text class="b" x="40" y="534">Nil by mouth  ·  Foetal heart  ·  Catheter and fluid balance  ·  Consent and theatre alerted  ·  Call the blood bank early</text>
+<text class="k" x="40" y="558">Resuscitate against her pulse and blood pressure, never against the size of the stain.</text>
+</svg>

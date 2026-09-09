@@ -1,0 +1,33 @@
+<svg viewBox="0 0 470 250" role="img" xmlns="http://www.w3.org/2000/svg"><title>Rules of the sterile field</title>
+<rect width="470" height="250" fill="#f6f8fc"/>
+<text x="235" y="20" font-size="12.5" text-anchor="middle" font-family="system-ui" font-weight="700">Six rules that decide if the field is still sterile</text>
+<g font-family="system-ui" font-size="9.5">
+<rect x="14" y="30" width="216" height="52" rx="8" fill="#fff" stroke="#0f9d76" stroke-width="2"/>
+<text x="24" y="48" font-weight="700" fill="#0b7a5c">1. Only sterile touches sterile</text>
+<text x="24" y="64">Contact with anything unsterile</text>
+<text x="24" y="76">contaminates the whole item</text>
+<rect x="240" y="30" width="216" height="52" rx="8" fill="#fff" stroke="#0f9d76" stroke-width="2"/>
+<text x="250" y="48" font-weight="700" fill="#0b7a5c">2. Gown is sterile front, chest to waist</text>
+<text x="250" y="64">Back is never sterile. Below waist</text>
+<text x="250" y="76">and above chest are not sterile</text>
+<rect x="14" y="88" width="216" height="52" rx="8" fill="#fff" stroke="#0f9d76" stroke-width="2"/>
+<text x="24" y="106" font-weight="700" fill="#0b7a5c">3. Keep hands above waist, in sight</text>
+<text x="24" y="122">Hands dropped below the waist</text>
+<text x="24" y="134">or out of vision are contaminated</text>
+<rect x="240" y="88" width="216" height="52" rx="8" fill="#fff" stroke="#0f9d76" stroke-width="2"/>
+<text x="250" y="106" font-weight="700" fill="#0b7a5c">4. Table is sterile at table level only</text>
+<text x="250" y="122">Anything hanging over the edge</text>
+<text x="250" y="134">is unsterile and must not come back</text>
+<rect x="14" y="146" width="216" height="52" rx="8" fill="#fff" stroke="#0f9d76" stroke-width="2"/>
+<text x="24" y="164" font-weight="700" fill="#0b7a5c">5. Moisture carries organisms through</text>
+<text x="24" y="180">A wet drape is a contaminated drape,</text>
+<text x="24" y="192">because bacteria wick along the fluid</text>
+<rect x="240" y="146" width="216" height="52" rx="8" fill="#fff" stroke="#0f9d76" stroke-width="2"/>
+<text x="250" y="164" font-weight="700" fill="#0b7a5c">6. Never turn your back on the field</text>
+<text x="250" y="180">Pass back to back, face the field,</text>
+<text x="250" y="192">keep a safe distance when moving</text>
+</g>
+<rect x="14" y="206" width="442" height="34" rx="8" fill="#fff" stroke="#e2574c" stroke-width="2"/>
+<text x="235" y="221" font-size="10.5" text-anchor="middle" font-family="system-ui" font-weight="700">If in doubt, it is contaminated. Say so aloud and replace it.</text>
+<text x="235" y="234" font-size="9.5" text-anchor="middle" font-family="system-ui" fill="#5a6b85">Silence protects nobody. The scrub nurse who speaks up prevents the infection.</text>
+</svg>

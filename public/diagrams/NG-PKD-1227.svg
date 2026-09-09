@@ -1,0 +1,54 @@
+<svg viewBox="0 0 640 450" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="450" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">WHERE MEDICATION ERRORS ACTUALLY HAPPEN</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">Almost never because the nurse did not care. Nearly always because the system allowed it.</text>
+
+<rect x="20" y="60" width="292" height="100" fill="#f7ecec" stroke="#8b2f2f" stroke-width="1.7"/>
+<text x="166" y="80" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#8b2f2f">THE FOUR CLASSIC TRAPS</text>
+<g font-size="10" fill="#222">
+<text x="34" y="102">Names that look or sound alike</text>
+<text x="34" y="120">A decimal point in the wrong place</text>
+<text x="34" y="138">Interruption in the middle of a round</text>
+<text x="34" y="154">Two drugs, one generic, one brand</text>
+</g>
+
+<rect x="328" y="60" width="292" height="100" fill="#eaf3ea" stroke="#1a5c3a" stroke-width="1.7"/>
+<text x="474" y="80" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a5c3a">WHAT ACTUALLY WORKS</text>
+<g font-size="10" fill="#222">
+<text x="342" y="102">Read the generic name every time</text>
+<text x="342" y="120">Write a zero before a decimal point</text>
+<text x="342" y="138">Second check for high-risk drugs</text>
+<text x="342" y="154">Ask, and never guess, when unsure</text>
+</g>
+
+<rect x="20" y="176" width="600" height="76" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.8"/>
+<text x="320" y="196" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#8a6d1e">THE DRUGS THAT DESERVE A SECOND PAIR OF EYES</text>
+<g font-size="10.5" fill="#222">
+<text x="34" y="218">Insulin, heparin and other anticoagulants, concentrated potassium, opioids, chemotherapy, and any</text>
+<text x="34" y="238">calculated dose for a child. Small errors with these have large and immediate consequences.</text>
+</g>
+
+<rect x="20" y="268" width="292" height="98" fill="#eef4f8" stroke="#5a86a8" stroke-width="1.7"/>
+<text x="166" y="288" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a3a5c">IF YOU THINK THE DOSE IS WRONG</text>
+<g font-size="9.5" fill="#222">
+<text x="34" y="310">Withhold it and ask. Do not give it, and</text>
+<text x="34" y="326">do not quietly change it yourself.</text>
+<text x="34" y="346">Both of those are errors. Only the</text>
+<text x="34" y="360">question is safe.</text>
+</g>
+
+<rect x="328" y="268" width="292" height="98" fill="#f4eaf4" stroke="#8a5c8a" stroke-width="1.7"/>
+<text x="474" y="288" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#6b3a6b">AFTER AN ERROR HAS HAPPENED</text>
+<g font-size="9.5" fill="#222">
+<text x="342" y="310">Check the patient first, then report it,</text>
+<text x="342" y="326">then record what was given.</text>
+<text x="342" y="346">Hiding it is the only version that</text>
+<text x="342" y="360">ends a career.</text>
+</g>
+
+<rect x="20" y="382" width="600" height="44" fill="#eaf3ea" stroke="#1a5c3a" stroke-width="1.7"/>
+<text x="320" y="402" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a5c3a">Ask what allowed this to happen, not who did it.</text>
+<text x="320" y="419" text-anchor="middle" font-size="10.5" fill="#222">A ward that punishes reporting simply stops hearing about errors. They do not stop occurring.</text>
+
+<text x="320" y="443" text-anchor="middle" font-size="10.5" font-style="italic" fill="#8b2f2f">Understanding is confirmed by what the patient says back to you, never by a nod.</text>
+</svg>

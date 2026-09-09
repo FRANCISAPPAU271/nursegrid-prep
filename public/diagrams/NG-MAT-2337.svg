@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 600" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+</style>
+<rect width="860" height="600" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Newborn jaundice: when the colour matters and when it does not</text>
+
+<rect class="warn" x="24" y="48" width="398" height="176"/>
+<text class="k" x="40" y="72">Jaundice in the first 24 hours</text>
+<text class="b" x="40" y="98">ALWAYS pathological. Never observe it.</text>
+<text class="b" x="40" y="122">Think haemolysis: rhesus or ABO</text>
+<text class="b" x="40" y="142">incompatibility, or G6PD deficiency,</text>
+<text class="b" x="40" y="162">which is common in Ghana.</text>
+<text class="k" x="40" y="190">Refer the same day for bilirubin level,</text>
+<text class="k" x="40" y="208">blood group, Coombs test and G6PD screen.</text>
+
+<rect class="ok" x="438" y="48" width="398" height="176"/>
+<text class="h" x="454" y="72">Jaundice from day 2 to day 5</text>
+<text class="b" x="454" y="98">Usually physiological — the newborn liver</text>
+<text class="b" x="454" y="118">is still slow to conjugate bilirubin, and</text>
+<text class="b" x="454" y="138">foetal red cells are being broken down.</text>
+<text class="b" x="454" y="162">Feed frequently, watch the level of the</text>
+<text class="b" x="454" y="182">yellowing, and review.</text>
+<text class="i" x="454" y="208">Still yellow after 14 days needs investigation.</text>
+
+<rect class="box" x="24" y="242" width="812" height="150"/>
+<text class="h" x="40" y="266">Reading the level of the yellow — it descends head to toe</text>
+<text class="b" x="40" y="292">Face only — lowest levels  ·  Chest and upper abdomen — rising  ·  Below the umbilicus — higher</text>
+<text class="k" x="40" y="316">Palms and soles yellow — severe, refer immediately</text>
+<text class="b" x="40" y="344">Press the skin with your thumb and release, and look at the blanched skin in daylight, not under a bulb.</text>
+<text class="k" x="40" y="372">Kernicterus is permanent brain damage from unconjugated bilirubin, and it is entirely preventable by acting early.</text>
+
+<rect class="warn" x="24" y="410" width="812" height="170"/>
+<text class="k" x="40" y="434">Danger signs in a newborn — any one means refer urgently</text>
+<text class="b" x="40" y="460">Not feeding well or refusing the breast  ·  Convulsions  ·  Fast breathing over 60 a minute</text>
+<text class="b" x="40" y="482">Severe chest indrawing  ·  Temperature 37.5 or above, or below 35.5  ·  Movement only on stimulation</text>
+<text class="b" x="40" y="504">Yellow palms and soles  ·  Red or draining umbilicus with skin spreading  ·  Ten or more skin pustules</text>
+<text class="k" x="40" y="534">A newborn who is simply not feeding is a sick newborn. It is the earliest sign of sepsis and it is easy to dismiss.</text>
+<text class="i" x="40" y="558">Cord care: keep it clean, dry and uncovered. Chlorhexidine 7.1 percent gel where the policy specifies it. Nothing else.</text>
+</svg>

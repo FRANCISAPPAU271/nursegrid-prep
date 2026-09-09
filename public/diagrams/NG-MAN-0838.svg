@@ -1,0 +1,37 @@
+<svg viewBox="0 0 640 440" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="440" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">GHANA HEALTH SERVICE — LEVELS AND WHO MANAGES EACH</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">Referral goes up. Supervision and supplies come down. The district is where planning actually happens.</text>
+
+<rect x="150" y="62" width="340" height="46" fill="#e6ddf0" stroke="#6b3a6b" stroke-width="1.8"/>
+<text x="320" y="82" text-anchor="middle" font-size="13" font-weight="bold" fill="#6b3a6b">TEACHING HOSPITAL — tertiary</text>
+<text x="320" y="99" text-anchor="middle" font-size="10" fill="#333">Korle Bu, Komfo Anokye, Tamale. Own boards, not under a region</text>
+
+<rect x="130" y="120" width="380" height="46" fill="#f4eaea" stroke="#8b2f2f" stroke-width="1.8"/>
+<text x="320" y="140" text-anchor="middle" font-size="13" font-weight="bold" fill="#8b2f2f">REGIONAL HOSPITAL — one per region, 16 regions</text>
+<text x="320" y="157" text-anchor="middle" font-size="10" fill="#333">Regional Health Directorate coordinates and supervises the districts</text>
+
+<rect x="110" y="178" width="420" height="52" fill="#fdf6e6" stroke="#c8a54b" stroke-width="2"/>
+<text x="320" y="198" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#8a6d1e">DISTRICT HOSPITAL — about 260 districts</text>
+<text x="320" y="215" text-anchor="middle" font-size="10.5" fill="#333">District Health Management Team, led by the District Director of Health Services</text>
+
+<rect x="90" y="242" width="460" height="46" fill="#eef4f8" stroke="#5a86a8" stroke-width="1.8"/>
+<text x="320" y="262" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a3a5c">HEALTH CENTRE OR POLYCLINIC — sub-district</text>
+<text x="320" y="279" text-anchor="middle" font-size="10" fill="#333">Sub-district health team supervises the CHPS zones beneath it</text>
+
+<rect x="70" y="300" width="500" height="52" fill="#eaf3ea" stroke="#1a5c3a" stroke-width="2"/>
+<text x="320" y="320" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1a5c3a">CHPS ZONE — the community, closest to the household</text>
+<text x="320" y="337" text-anchor="middle" font-size="10.5" fill="#333">Community Health Officer lives in the zone, with Community Health Volunteers</text>
+
+<path d="M596 320 L596 90" fill="none" stroke="#8b2f2f" stroke-width="2.5" marker-end="url(#up)"/>
+<defs><marker id="up" markerWidth="10" markerHeight="10" refX="5" refY="8" orient="auto"><path d="M5 0 L10 10 L0 10 z" fill="#8b2f2f"/></marker></defs>
+<text x="612" y="210" font-size="10.5" font-weight="bold" fill="#8b2f2f" transform="rotate(-90 612 210)">REFERRAL UP</text>
+
+<path d="M40 90 L40 320" fill="none" stroke="#1a5c3a" stroke-width="2.5" marker-end="url(#dn)"/>
+<defs><marker id="dn" markerWidth="10" markerHeight="10" refX="5" refY="8" orient="auto"><path d="M5 10 L10 0 L0 0 z" fill="#1a5c3a"/></marker></defs>
+<text x="26" y="210" font-size="10.5" font-weight="bold" fill="#1a5c3a" transform="rotate(-90 26 210)">SUPERVISION DOWN</text>
+
+<text x="320" y="382" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a3a5c">Ministry of Health sets policy and finances it. Ghana Health Service delivers the service.</text>
+<text x="320" y="406" text-anchor="middle" font-size="10.5" fill="#333">A typical district of 100,000 people has one hospital, about five health centres and 10 to 15 CHPS zones.</text>
+<text x="320" y="430" text-anchor="middle" font-size="10.5" font-style="italic" fill="#8b2f2f">Bypassing a level overloads the hospital and empties the clinic that was built to protect it.</text>
+</svg>

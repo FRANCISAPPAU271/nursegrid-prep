@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 640" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.row{fill:#f2f7fa}
+</style>
+<rect width="880" height="640" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Shock: four types, one question — what is the pump, the pipes or the volume doing?</text>
+
+<rect class="box" x="24" y="48" width="832" height="196"/>
+<rect class="row" x="34" y="60" width="812" height="30"/>
+<text class="h" x="48" y="81">TYPE</text><text class="h" x="230" y="81">THE PROBLEM</text><text class="h" x="470" y="81">SKIN</text><text class="h" x="620" y="81">FIRST TREATMENT</text>
+<text class="b" x="48" y="112">Hypovolaemic</text><text class="b" x="230" y="112">Not enough volume</text><text class="b" x="470" y="112">Cold, pale</text><text class="k" x="620" y="112">Fluid, stop the bleeding</text>
+<rect class="row" x="34" y="122" width="812" height="30"/>
+<text class="b" x="48" y="143">Cardiogenic</text><text class="b" x="230" y="143">Pump has failed</text><text class="b" x="470" y="143">Cold, clammy</text><text class="k" x="620" y="143">NOT large fluid volumes</text>
+<text class="b" x="48" y="174">Distributive</text><text class="b" x="230" y="174">Pipes too wide</text><text class="b" x="470" y="174">Warm, flushed</text><text class="k" x="620" y="174">Fluid + vasoconstrictor</text>
+<rect class="row" x="34" y="184" width="812" height="30"/>
+<text class="b" x="48" y="205">Obstructive</text><text class="b" x="230" y="205">Flow is blocked</text><text class="b" x="470" y="205">Cold, distended veins</text><text class="k" x="620" y="205">Relieve the obstruction</text>
+<text class="i" x="48" y="234">Distributive includes septic, anaphylactic and neurogenic. Obstructive includes tension pneumothorax and tamponade.</text>
+
+<rect class="warn" x="24" y="262" width="410" height="180"/>
+<text class="k" x="42" y="286">The trap: blood pressure is a LATE sign</text>
+<text class="b" x="42" y="314">A young adult compensates by constricting</text>
+<text class="b" x="42" y="336">vessels and raising the heart rate. The blood</text>
+<text class="b" x="42" y="358">pressure stays normal until roughly 30 to 40</text>
+<text class="b" x="42" y="380">per cent of volume is already lost.</text>
+<text class="k" x="42" y="410">Act on TACHYCARDIA, cool peripheries,</text>
+<text class="k" x="42" y="430">rising respiratory rate and falling urine.</text>
+
+<rect class="ok" x="450" y="262" width="406" height="180"/>
+<text class="h" x="468" y="286">Compensation runs out suddenly</text>
+<text class="b" x="468" y="314">Compensated: BP normal, pulse up,</text>
+<text class="b" x="468" y="336">anxious, urine falling</text>
+<text class="b" x="468" y="360">Decompensated: BP falls, confusion,</text>
+<text class="b" x="468" y="382">skin mottled, urine minimal</text>
+<text class="k" x="468" y="412">The fall in BP is not the start of shock.</text>
+<text class="k" x="468" y="432">It is the failure of the response to it.</text>
+
+<rect class="warn" x="24" y="460" width="832" height="164"/>
+<text class="k" x="42" y="484">Sepsis — recognise it before the blood pressure moves</text>
+<text class="b" x="42" y="512">Suspect sepsis in any patient with infection PLUS new confusion, respiratory rate 22 or more, or low blood pressure.</text>
+<text class="b" x="42" y="540">The single most useful early sign on a ward is a NEW CONFUSION in an older patient with an infection.</text>
+<text class="k" x="42" y="570">Within the first hour: oxygen, blood cultures BEFORE antibiotics, broad-spectrum antibiotics, fluids,</text>
+<text class="k" x="42" y="590">lactate, and measure the urine output.</text>
+<text class="i" x="42" y="614">Cultures first, but never let waiting for cultures delay the antibiotic beyond the hour.</text>
+</svg>

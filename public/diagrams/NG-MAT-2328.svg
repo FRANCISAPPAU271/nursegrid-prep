@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 560" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+</style>
+<rect width="860" height="560" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Kangaroo mother care, and getting the attachment right</text>
+
+<rect class="ok" x="24" y="48" width="398" height="212"/>
+<text class="h" x="40" y="72">Kangaroo mother care</text>
+<text class="b" x="40" y="98">Baby upright between the breasts, skin to skin,</text>
+<text class="b" x="40" y="118">head turned to one side, airway clear</text>
+<text class="b" x="40" y="140">Hips flexed and abducted, frog position</text>
+<text class="b" x="40" y="162">Secured with a wrapper, cap on the head</text>
+<text class="b" x="40" y="184">Continuous, or as many hours as possible</text>
+<text class="k" x="40" y="212">It regulates temperature, breathing and heart</text>
+<text class="k" x="40" y="230">rate, improves feeding and reduces mortality</text>
+<text class="i" x="40" y="252">in low birth weight babies. The father can do it too.</text>
+
+<rect class="box" x="438" y="48" width="398" height="212"/>
+<text class="h" x="454" y="72">Signs of good attachment — all four</text>
+<text class="b" x="454" y="100">Chin touching the breast</text>
+<text class="b" x="454" y="126">Mouth wide open</text>
+<text class="b" x="454" y="152">Lower lip turned outwards</text>
+<text class="b" x="454" y="178">More areola visible ABOVE than below</text>
+<text class="k" x="454" y="208">Effective suckling is slow and deep with pauses,</text>
+<text class="k" x="454" y="226">and you can hear or see the baby swallowing.</text>
+<text class="i" x="454" y="250">Sore, cracked nipples nearly always mean poor attachment.</text>
+
+<rect class="warn" x="24" y="280" width="812" height="132"/>
+<text class="k" x="40" y="304">Engorgement or mastitis — the answer is almost never to stop feeding</text>
+<text class="b" x="40" y="330">Engorgement: both breasts, tight, shiny, tender, usually day 3 to 5. Feed more often, express to soften the areola first.</text>
+<text class="b" x="40" y="352">Mastitis: one breast, a red wedge-shaped area, fever and flu-like aching. Continue feeding from that breast.</text>
+<text class="k" x="40" y="378">Milk must keep moving. Stopping feeds turns mastitis into an abscess.</text>
+<text class="i" x="40" y="400">Antibiotics if no improvement in 24 hours, if there is a nipple fissure, or if she is severely unwell.</text>
+
+<rect class="box" x="24" y="430" width="812" height="118"/>
+<text class="h" x="40" y="454">Low birth weight, by the numbers</text>
+<text class="b" x="40" y="480">Low birth weight under 2,500 g  ·  Very low under 1,500 g  ·  Extremely low under 1,000 g</text>
+<text class="b" x="40" y="502">Preterm is before 37 completed weeks. Small for gestational age is below the tenth centile for the gestation.</text>
+<text class="k" x="40" y="528">A baby can be preterm, small for dates, or both — and the causes and the care differ, so do not use the terms loosely.</text>
+</svg>

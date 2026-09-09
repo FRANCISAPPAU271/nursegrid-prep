@@ -1,0 +1,41 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="380" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">BLEEDING IN LATE PREGNANCY — TWO CAUSES, OPPOSITE PICTURES</text>
+
+<rect x="24" y="42" width="288" height="228" fill="#eef4f8" stroke="#1a3a5c" stroke-width="2"/>
+<text x="168" y="64" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a3a5c">PLACENTA PRAEVIA</text>
+<text x="168" y="82" text-anchor="middle" font-size="10" font-style="italic" fill="#1a3a5c">placenta lies low, over the os</text>
+
+<ellipse cx="168" cy="140" rx="52" ry="40" fill="#fdf2f6" stroke="#b06a8f" stroke-width="2"/>
+<path d="M128 162 Q168 178 208 162 L208 172 Q168 190 128 172 Z" fill="#8b2f2f"/>
+<text x="168" y="200" text-anchor="middle" font-size="9" fill="#8b2f2f">placenta covers the outlet</text>
+
+<text x="34" y="222" font-size="11" fill="#333">Bleeding is <tspan font-weight="bold">PAINLESS</tspan></text>
+<text x="34" y="238" font-size="11" fill="#333">Blood is bright red, visible</text>
+<text x="34" y="254" font-size="11" fill="#333">Uterus soft, not tender</text>
+<text x="34" y="266" font-size="11" fill="#333">Foetal heart usually present</text>
+
+<rect x="328" y="42" width="288" height="228" fill="#f7e9e9" stroke="#8b2f2f" stroke-width="2"/>
+<text x="472" y="64" text-anchor="middle" font-size="15" font-weight="bold" fill="#8b2f2f">ABRUPTIO PLACENTAE</text>
+<text x="472" y="82" text-anchor="middle" font-size="10" font-style="italic" fill="#8b2f2f">normally sited placenta separates early</text>
+
+<ellipse cx="472" cy="140" rx="52" ry="40" fill="#fdf2f6" stroke="#b06a8f" stroke-width="2"/>
+<path d="M446 104 Q472 96 498 104 L498 114 Q472 106 446 114 Z" fill="#8b6a2f"/>
+<ellipse cx="472" cy="122" rx="22" ry="10" fill="#8b2f2f"/>
+<text x="472" y="200" text-anchor="middle" font-size="9" fill="#8b2f2f">blood trapped behind placenta</text>
+
+<text x="338" y="222" font-size="11" fill="#333">Bleeding is <tspan font-weight="bold">PAINFUL</tspan></text>
+<text x="338" y="238" font-size="11" fill="#333">Blood dark, or none seen at all</text>
+<text x="338" y="254" font-size="11" fill="#333">Uterus <tspan font-weight="bold">HARD, woody, tender</tspan></text>
+<text x="338" y="266" font-size="11" fill="#333">Foetal heart often absent</text>
+
+<rect x="24" y="278" width="592" height="42" fill="#8b2f2f"/>
+<text x="320" y="298" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">NEVER PERFORM A VAGINAL EXAMINATION ON A WOMAN BLEEDING IN LATE PREGNANCY</text>
+<text x="320" y="315" text-anchor="middle" font-size="11" fill="#fff">If it is praevia, your fingers can dislodge the placenta and cause torrential haemorrhage in seconds.</text>
+
+<rect x="24" y="326" width="592" height="50" fill="#eaf3ea" stroke="#8fb98f"/>
+<text x="34" y="345" font-size="11" font-weight="bold" fill="#1a5c3a">WHAT TO DO INSTEAD:</text>
+<text x="150" y="345" font-size="11" fill="#333">large bore IV, cross-match, observations, foetal heart, keep pads to estimate loss,</text>
+<text x="34" y="363" font-size="11" fill="#333">nil by mouth, urgent obstetric referral. In abruption, the visible blood always understates the true loss —</text>
+<text x="34" y="375" font-size="11" font-weight="bold" fill="#8b2f2f">judge the shock, not the pad.</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 580" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+</style>
+<rect width="860" height="580" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Your licence, and what to do the moment you make a mistake</text>
+
+<rect class="box" x="24" y="50" width="398" height="176"/>
+<text class="h" x="40" y="74">Staying on the register</text>
+<text class="b" x="40" y="98">PIN for nurses and midwives; AIN for</text>
+<text class="b" x="40" y="116">nurse assistants.</text>
+<text class="b" x="40" y="140">Valid 12 months. Renew by 31 January.</text>
+<text class="b" x="40" y="164">CPD each year: Assistants 10 credits,</text>
+<text class="b" x="40" y="182">Staff to Officer 15, Senior Officer,</text>
+<text class="b" x="40" y="200">Tutor and above 20.</text>
+<text class="i" x="40" y="220">Notify the Registrar of a name or address change.</text>
+
+<rect class="warn" x="438" y="50" width="398" height="176"/>
+<text class="k" x="454" y="74">Practising on a lapsed PIN</text>
+<text class="b" x="454" y="98">Is an offence under section 73(d) of the</text>
+<text class="b" x="454" y="116">Health Professions Regulatory Bodies</text>
+<text class="b" x="454" y="134">Act, 2013 (Act 857).</text>
+<text class="b" x="454" y="158">Every shift worked without a valid PIN is</text>
+<text class="b" x="454" y="176">unregistered practice, however competent</text>
+<text class="b" x="454" y="194">the nurse and however short the ward is.</text>
+<text class="i" x="454" y="216">Your employer's rota is not a licence.</text>
+
+<rect class="box" x="24" y="242" width="812" height="120"/>
+<text class="h" x="40" y="266">What the Council can do if misconduct is proved</text>
+<text class="b" x="40" y="292">Reprimand  ·  Suspend from practice  ·  Remove the name from the register  ·  Postpone the order on conditions</text>
+<text class="s" x="40" y="316">The Disciplinary Committee inquires; the practitioner may attend, be represented, and appeal.</text>
+<text class="s" x="40" y="336">A name removed from the register may later be restored on application to the Council.</text>
+<text class="i" x="40" y="356">Suspension is not the end of the profession. Concealment usually is.</text>
+
+<rect class="ok" x="24" y="378" width="812" height="180"/>
+<text class="h" x="40" y="402">You have made an error — the order that protects the patient and you</text>
+<text class="b" x="40" y="428">1. Check and treat the patient first. Observations, then whatever the specific error requires.</text>
+<text class="b" x="40" y="450">2. Tell the prescriber or the person in charge straight away. Speed limits the harm.</text>
+<text class="b" x="40" y="472">3. Record what happened factually in the notes, and complete an incident form.</text>
+<text class="b" x="40" y="494">4. Be open with the patient and the family about what occurred and what is being done.</text>
+<text class="k" x="40" y="522">Patient, then prescriber, then paper. Never paper first, and never nothing at all.</text>
+<text class="i" x="40" y="546">Never alter or erase an entry. Rule a single line through it, write the correction, then sign, date and time it.</text>
+</svg>

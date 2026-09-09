@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 476" width="100%" role="img">
+<rect x="0" y="0" width="760" height="476" fill="#fdfcfa"/>
+<text x="20" y="30" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="#7a2020">Bias enters at four doors. Name the door and you name the bias.</text>
+<text x="20" y="52" font-family="Georgia,serif" font-size="13" fill="#555">Bias is not carelessness. It is a systematic push in one direction that a bigger sample will not fix.</text>
+
+<rect x="20" y="68" width="172" height="150" rx="6" fill="#eef4f8" stroke="#2b6b8a"/>
+<text x="34" y="90" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#1d4e63">1. Who got in</text>
+<text x="34" y="112" font-family="Georgia,serif" font-size="12" fill="#333">The people studied are</text>
+<text x="34" y="130" font-family="Georgia,serif" font-size="12" fill="#333">not like the people you</text>
+<text x="34" y="148" font-family="Georgia,serif" font-size="12" fill="#333">want to talk about.</text>
+<text x="34" y="172" font-family="Georgia,serif" font-size="12" font-style="italic" fill="#1d4e63">Selection bias</text>
+<text x="34" y="196" font-family="Georgia,serif" font-size="11" fill="#555">Clinic attenders are not</text>
+<text x="34" y="211" font-family="Georgia,serif" font-size="11" fill="#555">the community.</text>
+
+<rect x="204" y="68" width="172" height="150" rx="6" fill="#fff8e8" stroke="#b8860b"/>
+<text x="218" y="90" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#8a6508">2. How it was measured</text>
+<text x="218" y="112" font-family="Georgia,serif" font-size="12" fill="#333">The tool, the observer or</text>
+<text x="218" y="130" font-family="Georgia,serif" font-size="12" fill="#333">the memory leans one</text>
+<text x="218" y="148" font-family="Georgia,serif" font-size="12" fill="#333">way for everyone.</text>
+<text x="218" y="172" font-family="Georgia,serif" font-size="12" font-style="italic" fill="#8a6508">Measurement bias</text>
+<text x="218" y="196" font-family="Georgia,serif" font-size="11" fill="#555">Recall, observer and</text>
+<text x="218" y="211" font-family="Georgia,serif" font-size="11" fill="#555">social desirability.</text>
+
+<rect x="388" y="68" width="172" height="150" rx="6" fill="#f2f7f2" stroke="#2e7d5b"/>
+<text x="402" y="90" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#1d5c42">3. Who left</text>
+<text x="402" y="112" font-family="Georgia,serif" font-size="12" fill="#333">Those who dropped out</text>
+<text x="402" y="130" font-family="Georgia,serif" font-size="12" fill="#333">differ from those who</text>
+<text x="402" y="148" font-family="Georgia,serif" font-size="12" fill="#333">stayed to the end.</text>
+<text x="402" y="172" font-family="Georgia,serif" font-size="12" font-style="italic" fill="#1d5c42">Attrition bias</text>
+<text x="402" y="196" font-family="Georgia,serif" font-size="11" fill="#555">The sickest and the</text>
+<text x="402" y="211" font-family="Georgia,serif" font-size="11" fill="#555">poorest leave first.</text>
+
+<rect x="572" y="68" width="168" height="150" rx="6" fill="#f4f4fb" stroke="#4a4a8a"/>
+<text x="586" y="90" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#33336b">4. What got printed</text>
+<text x="586" y="112" font-family="Georgia,serif" font-size="12" fill="#333">Studies showing an</text>
+<text x="586" y="130" font-family="Georgia,serif" font-size="12" fill="#333">effect get published;</text>
+<text x="586" y="148" font-family="Georgia,serif" font-size="12" fill="#333">those showing none do not.</text>
+<text x="586" y="172" font-family="Georgia,serif" font-size="12" font-style="italic" fill="#33336b">Publication bias</text>
+<text x="586" y="196" font-family="Georgia,serif" font-size="11" fill="#555">The literature looks more</text>
+<text x="586" y="211" font-family="Georgia,serif" font-size="11" fill="#555">positive than the truth.</text>
+
+<rect x="20" y="236" width="720" height="106" rx="6" fill="#fff3f0" stroke="#c0392b"/>
+<text x="34" y="258" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#7a2020">The distinction students lose marks on</text>
+<text x="34" y="282" font-family="Georgia,serif" font-size="12" fill="#333">Random error scatters results around the truth. Increase the sample and it shrinks. It is noise.</text>
+<text x="34" y="304" font-family="Georgia,serif" font-size="12" fill="#333">Bias shifts results away from the truth in one direction. Increase the sample and you get a more precise</text>
+<text x="34" y="322" font-family="Georgia,serif" font-size="12" fill="#333">wrong answer. It is a design fault, and only design fixes it.</text>
+
+<rect x="20" y="356" width="720" height="106" rx="6" fill="#eef4f8" stroke="#2b6b8a"/>
+<text x="34" y="378" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d4e63">The fifth door: confounding is not bias, and the fix is different</text>
+<text x="34" y="400" font-family="Georgia,serif" font-size="12" fill="#333">A confounder is a real third factor linked to both the exposure and the outcome, making them look related</text>
+<text x="34" y="418" font-family="Georgia,serif" font-size="12" fill="#333">when they are not. Bias is handled by better design and conduct. Confounding is handled by randomising,</text>
+<text x="34" y="436" font-family="Georgia,serif" font-size="12" fill="#333">matching, restricting or adjusting in the analysis — and it is the one thing randomisation fixes for</text>
+<text x="34" y="454" font-family="Georgia,serif" font-size="12" fill="#333">factors you never thought of and never measured.</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 560" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+</style>
+<rect width="860" height="560" fill="#f7fafb"/>
+<text class="t" x="24" y="32">The pregnant adolescent: a different risk profile, not a smaller adult</text>
+
+<rect class="warn" x="24" y="48" width="398" height="188"/>
+<text class="k" x="40" y="72">Higher obstetric risk</text>
+<text class="b" x="40" y="98">Pre-eclampsia and eclampsia</text>
+<text class="b" x="40" y="120">Obstructed labour — the pelvis may still be</text>
+<text class="b" x="40" y="138">growing, so cephalopelvic disproportion</text>
+<text class="b" x="40" y="160">Preterm birth and low birth weight</text>
+<text class="b" x="40" y="182">Anaemia, competing with her own growth</text>
+<text class="b" x="40" y="204">Obstetric fistula after prolonged labour</text>
+<text class="k" x="40" y="228">Plan the birth where a theatre is available.</text>
+
+<rect class="box" x="438" y="48" width="398" height="188"/>
+<text class="h" x="454" y="72">What she also needs</text>
+<text class="b" x="454" y="98">A confidential consultation, at least partly</text>
+<text class="b" x="454" y="116">without her mother in the room</text>
+<text class="b" x="454" y="140">Screening for coercion and for violence</text>
+<text class="b" x="454" y="164">Support to return to school after the birth</text>
+<text class="b" x="454" y="188">Contraception before discharge, because a</text>
+<text class="b" x="454" y="206">second pregnancy within a year is common</text>
+<text class="i" x="454" y="230">Judgement in your face will end the consultation.</text>
+
+<rect class="warn" x="24" y="256" width="812" height="152"/>
+<text class="k" x="40" y="280">The safeguarding question you must ask yourself</text>
+<text class="b" x="40" y="306">In Ghana the age of consent to sexual intercourse is 16, and defilement of a child under 16 is a criminal offence</text>
+<text class="b" x="40" y="328">regardless of whether the child appeared to agree. A pregnant 13-year-old is evidence of a crime.</text>
+<text class="b" x="40" y="352">Marriage under 18 is prohibited under the Children's Act 1998, Act 560.</text>
+<text class="k" x="40" y="380">Your duty is to the child in front of you: treat her, document carefully, and follow the safeguarding pathway.</text>
+<text class="i" x="40" y="400">Consent to medical treatment is a separate question from consent to sex, and the age for treatment is 18.</text>
+
+<rect class="ok" x="24" y="426" width="812" height="122"/>
+<text class="h" x="40" y="450">How adolescent-friendly services differ in practice</text>
+<text class="b" x="40" y="476">Timing that does not clash with school  ·  A separate space or a separate hour  ·  No demand for a partner or parent</text>
+<text class="b" x="40" y="498">Staff who do not comment on her situation  ·  Confidentiality explained out loud, with its limits stated honestly</text>
+<text class="k" x="40" y="526">She will judge the whole health service by the first thirty seconds of how you speak to her.</text>
+</svg>

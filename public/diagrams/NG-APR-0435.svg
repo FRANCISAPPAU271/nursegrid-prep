@@ -1,0 +1,40 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="380" fill="#fbfaf7"/>
+<text x="320" y="27" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">HOW EVERY PROCEDURE TRAY IS LAID</text>
+<text x="320" y="46" text-anchor="middle" font-size="12" fill="#555">The contents change with the procedure. The layout never does.</text>
+
+<rect x="30" y="62" width="360" height="230" rx="6" fill="#eef2f5" stroke="#1a3a5c" stroke-width="2"/>
+<text x="210" y="82" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a3a5c">THE TROLLEY — three zones</text>
+
+<rect x="44" y="94" width="332" height="66" rx="4" fill="#eaf3ea" stroke="#8fb98f" stroke-width="1.5"/>
+<text x="54" y="112" font-size="11" font-weight="bold" fill="#1a5c3a">TOP SHELF — STERILE ONLY</text>
+<text x="54" y="130" font-size="10" fill="#333">Sterile pack opened onto it, gallipots, instruments,</text>
+<text x="54" y="146" font-size="10" fill="#333">gauze, sterile gloves. Nothing unsterile ever touches it.</text>
+
+<rect x="44" y="168" width="332" height="66" rx="4" fill="#f6f3ec" stroke="#c9b98f" stroke-width="1.5"/>
+<text x="54" y="186" font-size="11" font-weight="bold" fill="#8b6a2f">BOTTOM SHELF — CLEAN AND SPARE</text>
+<text x="54" y="204" font-size="10" fill="#333">Antiseptic bottles, extra packs, tape, specimen bottles,</text>
+<text x="54" y="220" font-size="10" fill="#333">alcohol rub, the patient's notes and consent.</text>
+
+<rect x="44" y="242" width="332" height="40" rx="4" fill="#f7e9e9" stroke="#c78f8f" stroke-width="1.5"/>
+<text x="54" y="260" font-size="11" font-weight="bold" fill="#8b2f2f">HANGING AT THE SIDE — DISPOSAL</text>
+<text x="54" y="276" font-size="10" fill="#333">Receiver for used items, sharps box carried to the point of use.</text>
+
+<rect x="404" y="62" width="212" height="230" rx="6" fill="#fff" stroke="#d8d2c4" stroke-width="1.5"/>
+<text x="510" y="82" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a3a5c">CHECKED BEFORE YOU START</text>
+<text x="414" y="104" font-size="10" fill="#333">1. Right patient, identity confirmed</text>
+<text x="414" y="124" font-size="10" fill="#333">2. Explanation given, consent taken</text>
+<text x="414" y="144" font-size="10" fill="#333">3. Privacy — screens drawn</text>
+<text x="414" y="164" font-size="10" fill="#333">4. Every expiry date and seal intact</text>
+<text x="414" y="184" font-size="10" fill="#333">5. Everything present, so you</text>
+<text x="414" y="198" font-size="10" fill="#333">    never leave a sterile field</text>
+<text x="414" y="218" font-size="10" fill="#333">6. Trolley cleaned top to bottom</text>
+<text x="414" y="238" font-size="10" fill="#333">7. Hand hygiene immediately before</text>
+<text x="414" y="258" font-size="10" fill="#333">8. Position and warmth of patient</text>
+<text x="414" y="278" font-size="10" fill="#333">9. Help available if needed</text>
+
+<rect x="30" y="302" width="586" height="66" fill="#fff3cd" stroke="#e0c86a"/>
+<text x="320" y="322" text-anchor="middle" font-size="12" font-weight="bold" fill="#6b5410">THE RULE THAT ANSWERS MOST TRAY QUESTIONS</text>
+<text x="320" y="342" text-anchor="middle" font-size="11" fill="#6b5410">Sterile above, clean below, dirty away from both — and the direction of work is always</text>
+<text x="320" y="360" text-anchor="middle" font-size="11" font-weight="bold" fill="#6b5410">CLEAN → DIRTY, never back again.</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 580" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.stp{fill:#eef4f8;stroke:#8fa9bd;stroke-width:1.4;rx:6}
+</style>
+<rect width="880" height="580" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Hygiene care: the direction of work is the safety rule</text>
+
+<rect class="ok" x="24" y="48" width="410" height="200"/>
+<text class="h" x="42" y="72">Bed bath — the order</text>
+<rect class="stp" x="42" y="86" width="374" height="26"/><text class="b" x="56" y="104">1  Face and eyes — water only, no soap</text>
+<rect class="stp" x="42" y="118" width="374" height="26"/><text class="b" x="56" y="136">2  Neck, arms, hands, chest, abdomen</text>
+<rect class="stp" x="42" y="150" width="374" height="26"/><text class="b" x="56" y="168">3  Legs and feet</text>
+<rect class="stp" x="42" y="182" width="374" height="26"/><text class="b" x="56" y="200">4  Back, then pressure area check</text>
+<rect class="stp" x="42" y="214" width="374" height="26"/><text class="b" x="56" y="232">5  Perineum LAST — the dirtiest area</text>
+
+<rect class="warn" x="450" y="48" width="406" height="200"/>
+<text class="k" x="468" y="72">Eye care — inner to outer, every time</text>
+<text class="b" x="468" y="100">Swab from the INNER canthus (near the nose)</text>
+<text class="b" x="468" y="120">outward towards the ear.</text>
+<text class="k" x="468" y="148">A FRESH swab for each stroke, and never</text>
+<text class="k" x="468" y="168">the same swab for both eyes.</text>
+<text class="s" x="468" y="196">Wiping outward to inward pushes debris into</text>
+<text class="s" x="468" y="214">the tear duct. One swab for both eyes moves</text>
+<text class="s" x="468" y="232">infection from one eye to the other.</text>
+
+<rect class="box" x="24" y="266" width="410" height="150"/>
+<text class="h" x="42" y="290">Perineal care direction</text>
+<text class="k" x="42" y="318">FRONT to BACK. Always.</text>
+<text class="b" x="42" y="346">The urethra is clean, the anus is not, and</text>
+<text class="b" x="42" y="366">the female urethra is short.</text>
+<text class="s" x="42" y="394">Wiping backwards to forwards is a leading</text>
+<text class="s" x="42" y="410">cause of urinary tract infection.</text>
+
+<rect class="box" x="450" y="266" width="406" height="150"/>
+<text class="h" x="468" y="290">Mouth care in the unconscious patient</text>
+<text class="b" x="468" y="316">Turn the head to the SIDE before you start.</text>
+<text class="b" x="468" y="340">Use minimal fluid. Have suction ready.</text>
+<text class="k" x="468" y="368">The risk is aspiration, not a dirty mouth.</text>
+<text class="s" x="468" y="396">Dentures out and cleaned separately, stored</text>
+<text class="s" x="468" y="412">labelled in water. Never wrapped in a tissue.</text>
+
+<rect class="warn" x="24" y="434" width="832" height="130"/>
+<text class="k" x="42" y="458">The recurring pattern in every hygiene procedure</text>
+<text class="b" x="42" y="486">Work from CLEAN towards DIRTY, and never bring a used surface back over a clean one.</text>
+<text class="b" x="42" y="510">Bed bath: face first, perineum last.  Eye: inner to outer.  Perineum: front to back.  Wound: centre outwards.</text>
+<text class="k" x="42" y="540">If an option reverses the direction, it is wrong — whatever else it says about technique.</text>
+<text class="i" x="42" y="558">Also standard: explain and gain consent, ensure privacy, check water temperature, keep the patient covered.</text>
+</svg>

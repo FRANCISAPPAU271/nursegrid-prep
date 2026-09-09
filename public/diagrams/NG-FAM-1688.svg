@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 486" width="100%" role="img">
+<rect x="0" y="0" width="760" height="486" fill="#fdfcfa"/>
+<text x="20" y="30" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="#1d4e63">Mapping the family before you plan the care</text>
+<text x="20" y="52" font-family="Georgia,serif" font-size="13" fill="#555">Two simple drawings answer questions a list of relatives never will: who decides, who helps, and who is exhausted.</text>
+
+<rect x="20" y="68" width="356" height="230" rx="6" fill="#eef4f8" stroke="#2b6b8a"/>
+<text x="34" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d4e63">Genogram — who is related to whom</text>
+<rect x="60" y="106" width="34" height="26" fill="#fff" stroke="#333"/>
+<circle cx="164" cy="119" r="15" fill="#fff" stroke="#333"/>
+<line x1="94" y1="119" x2="149" y2="119" stroke="#333"/>
+<text x="196" y="116" font-family="Georgia,serif" font-size="11" fill="#333">Square = male, circle = female,</text>
+<text x="196" y="132" font-family="Georgia,serif" font-size="11" fill="#333">horizontal line = a partnership.</text>
+<line x1="129" y1="119" x2="129" y2="152" stroke="#333"/>
+<line x1="80" y1="152" x2="178" y2="152" stroke="#333"/>
+<line x1="80" y1="152" x2="80" y2="170" stroke="#333"/>
+<line x1="129" y1="152" x2="129" y2="170" stroke="#333"/>
+<line x1="178" y1="152" x2="178" y2="170" stroke="#333"/>
+<rect x="63" y="170" width="30" height="24" fill="#fff" stroke="#333"/>
+<circle cx="129" cy="182" r="13" fill="#ffe9e2" stroke="#c0392b" stroke-width="2"/>
+<rect x="163" y="170" width="30" height="24" fill="#fff" stroke="#333"/>
+<text x="196" y="180" font-family="Georgia,serif" font-size="11" fill="#7a2020">The shaded figure is the patient.</text>
+<text x="196" y="196" font-family="Georgia,serif" font-size="11" fill="#333">Children hang below the couple.</text>
+<text x="34" y="226" font-family="Georgia,serif" font-size="12" fill="#333">It shows the structure of the family and any</text>
+<text x="34" y="244" font-family="Georgia,serif" font-size="12" fill="#333">condition that runs through it — sickle cell,</text>
+<text x="34" y="262" font-family="Georgia,serif" font-size="12" fill="#333">hypertension, diabetes, a hereditary risk.</text>
+<text x="34" y="286" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#1d4e63">Structure. Blood. Inheritance.</text>
+
+<rect x="388" y="68" width="352" height="230" rx="6" fill="#f2f7f2" stroke="#2e7d5b"/>
+<text x="402" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d5c42">Eco-map — who actually supports her</text>
+<circle cx="500" cy="170" r="26" fill="#ffe9e2" stroke="#c0392b" stroke-width="2"/>
+<text x="486" y="175" font-family="Georgia,serif" font-size="11" fill="#7a2020">patient</text>
+<circle cx="420" cy="118" r="20" fill="#fff" stroke="#2e7d5b"/>
+<text x="404" y="122" font-family="Georgia,serif" font-size="9" fill="#333">church</text>
+<circle cx="596" cy="118" r="20" fill="#fff" stroke="#2e7d5b"/>
+<text x="580" y="122" font-family="Georgia,serif" font-size="9" fill="#333">daughter</text>
+<circle cx="416" cy="234" r="20" fill="#fff" stroke="#2e7d5b"/>
+<text x="404" y="238" font-family="Georgia,serif" font-size="9" fill="#333">clinic</text>
+<circle cx="600" cy="234" r="20" fill="#fff" stroke="#2e7d5b"/>
+<text x="586" y="238" font-family="Georgia,serif" font-size="9" fill="#333">landlord</text>
+<line x1="436" y1="132" x2="481" y2="156" stroke="#2e7d5b" stroke-width="3"/>
+<line x1="580" y1="132" x2="519" y2="156" stroke="#2e7d5b" stroke-width="4"/>
+<line x1="432" y1="222" x2="481" y2="187" stroke="#888" stroke-dasharray="4,3"/>
+<line x1="584" y1="222" x2="519" y2="187" stroke="#c0392b" stroke-width="2" stroke-dasharray="2,3"/>
+<text x="402" y="272" font-family="Georgia,serif" font-size="11" fill="#333">Thick line = strong support. Dashed = weak.</text>
+<text x="402" y="288" font-family="Georgia,serif" font-size="11" fill="#7a2020">Red dashed = a relationship draining her.</text>
+
+<rect x="20" y="312" width="720" height="70" rx="6" fill="#fff8e8" stroke="#b8860b"/>
+<text x="34" y="334" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#8a6508">Why this matters at the bedside in Ghana</text>
+<text x="34" y="356" font-family="Georgia,serif" font-size="12" fill="#333">The person who signs, the person who pays, the person who nurses her at home and the person who decides may be four</text>
+<text x="34" y="374" font-family="Georgia,serif" font-size="12" fill="#333">different people. A discharge plan built on the wrong one of them fails within a week.</text>
+
+<rect x="20" y="396" width="720" height="74" rx="6" fill="#f6f2fa" stroke="#6b4c93"/>
+<text x="34" y="418" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#4a326b">The one question that finds the carer</text>
+<text x="34" y="440" font-family="Georgia,serif" font-size="12" fill="#333">Not who is your next of kin, but: when you go home, who will be there in the day, and who will be there at night?</text>
+<text x="34" y="460" font-family="Georgia,serif" font-size="12" font-style="italic" fill="#4a326b">The answer names the person you must actually teach.</text>
+</svg>

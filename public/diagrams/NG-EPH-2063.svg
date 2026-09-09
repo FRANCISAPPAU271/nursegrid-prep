@@ -1,0 +1,47 @@
+<svg viewBox="0 0 720 470" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect x="0" y="0" width="720" height="470" fill="#f9f7f4"/>
+<text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#1d5236">Vectors and the diseases they carry in Ghana</text>
+<text x="360" y="50" text-anchor="middle" font-size="12.5" fill="#5c7a66">Control the breeding site and you control every disease it produces</text>
+
+<rect x="30" y="66" width="212" height="180" rx="7" fill="#e9f2ec" stroke="#8fb59d"/>
+<text x="45" y="87" font-size="13" font-weight="bold" fill="#1d5236">Anopheles mosquito</text>
+<text x="45" y="106" font-size="11.5" fill="#26333d">Malaria</text>
+<text x="45" y="125" font-size="11.5" fill="#26333d">Lymphatic filariasis in some areas</text>
+<text x="45" y="146" font-size="11" font-style="italic" fill="#7a5a2a">Bites at night, indoors</text>
+<text x="45" y="163" font-size="11" font-style="italic" fill="#7a5a2a">Breeds in clean standing water</text>
+<text x="45" y="186" font-size="11.5" font-weight="bold" fill="#1d5236">Treated net, indoor spraying,</text>
+<text x="45" y="203" font-size="11.5" font-weight="bold" fill="#1d5236">drain the standing water</text>
+<text x="45" y="226" font-size="11" fill="#8a3018">A net folded on the shelf protects nobody</text>
+
+<rect x="254" y="66" width="212" height="180" rx="7" fill="#eaf1f7" stroke="#9fb9cd"/>
+<text x="269" y="87" font-size="13" font-weight="bold" fill="#1d3f5e">Aedes mosquito</text>
+<text x="269" y="106" font-size="11.5" fill="#26333d">Yellow fever</text>
+<text x="269" y="125" font-size="11.5" fill="#26333d">Dengue</text>
+<text x="269" y="146" font-size="11" font-style="italic" fill="#7a5a2a">Bites in the daytime</text>
+<text x="269" y="163" font-size="11" font-style="italic" fill="#7a5a2a">Breeds in stored water and containers</text>
+<text x="269" y="186" font-size="11.5" font-weight="bold" fill="#1d3f5e">Cover the water drums,</text>
+<text x="269" y="203" font-size="11.5" font-weight="bold" fill="#1d3f5e">clear tyres, tins and pots</text>
+<text x="269" y="226" font-size="11" fill="#8a3018">A night-time net does not stop a daytime biter</text>
+
+<rect x="478" y="66" width="212" height="180" rx="7" fill="#f6e9e6" stroke="#c98f80"/>
+<text x="493" y="87" font-size="13" font-weight="bold" fill="#8a3018">Blackfly and snail</text>
+<text x="493" y="106" font-size="11.5" fill="#3f2b26">Blackfly: onchocerciasis</text>
+<text x="493" y="125" font-size="11.5" fill="#3f2b26">Freshwater snail: schistosomiasis</text>
+<text x="493" y="146" font-size="11" font-style="italic" fill="#7a5a2a">Both live at the river</text>
+<text x="493" y="163" font-size="11" font-style="italic" fill="#7a5a2a">Both hit the people who must go there</text>
+<text x="493" y="186" font-size="11.5" font-weight="bold" fill="#8a3018">Mass drug administration,</text>
+<text x="493" y="203" font-size="11.5" font-weight="bold" fill="#8a3018">plus a water supply in the village</text>
+<text x="493" y="226" font-size="11" fill="#3f2b26">Avoid the river only if there is another source</text>
+
+<rect x="30" y="262" width="660" height="90" rx="7" fill="#f2ece2" stroke="#c9b79c"/>
+<text x="45" y="283" font-size="13.5" font-weight="bold" fill="#5b4a2e">Mass drug administration: why the whole community is treated</text>
+<text x="52" y="305" font-size="12" fill="#3f3428">Treating only the sick leaves the untested reservoir intact, and transmission simply restarts</text>
+<text x="52" y="325" font-size="12" fill="#3f3428">So everyone eligible in an endemic district is treated on the same round, whether or not they feel ill</text>
+<text x="52" y="345" font-size="12" font-weight="bold" fill="#8a3018">Coverage is the whole intervention. A round that misses a third of people does not interrupt transmission.</text>
+
+<rect x="30" y="366" width="660" height="88" rx="7" fill="#eaf1f7" stroke="#9fb9cd"/>
+<text x="45" y="387" font-size="13.5" font-weight="bold" fill="#1d3f5e">What Ghana has already achieved</text>
+<text x="52" y="409" font-size="12" fill="#26333d">Certified free of guinea worm transmission in 2015; trachoma eliminated as a public health problem in 2018</text>
+<text x="52" y="429" font-size="12" fill="#26333d">Onchocerciasis and lymphatic filariasis greatly reduced, with treatment now targeted at remaining districts</text>
+<text x="52" y="449" font-size="11.5" font-weight="bold" fill="#8a3018">Elimination is not eradication: surveillance continues after the last case</text>
+</svg>

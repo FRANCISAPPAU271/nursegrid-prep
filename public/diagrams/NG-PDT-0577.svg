@@ -1,0 +1,40 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="400" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">A CHILD IS NOT A SMALL ADULT — BURN SURFACE AREA</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">The head takes a bigger share and the legs a smaller share the younger the child is</text>
+
+<g stroke="#333" fill="none" stroke-width="1.6">
+<circle cx="150" cy="98" r="34"/>
+<rect x="118" y="132" width="64" height="66"/>
+<line x1="118" y1="140" x2="86" y2="196"/><line x1="182" y1="140" x2="214" y2="196"/>
+<line x1="134" y1="198" x2="130" y2="258"/><line x1="166" y1="198" x2="170" y2="258"/>
+</g>
+<text x="150" y="286" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a3a5c">INFANT (about 1 year)</text>
+<g font-size="11" fill="#8b2f2f" text-anchor="middle">
+<text x="150" y="102">18%</text>
+</g>
+<g font-size="11" fill="#222">
+<text x="60" y="316">Head and neck 18%</text><text x="60" y="333">Each arm 9%</text>
+<text x="60" y="350">Each leg 13.5%</text><text x="60" y="367">Front trunk 18%  ·  back 18%</text>
+</g>
+
+<line x1="320" y1="60" x2="320" y2="380" stroke="#c8c0b4" stroke-dasharray="4 4"/>
+
+<g stroke="#333" fill="none" stroke-width="1.6">
+<circle cx="470" cy="94" r="22"/>
+<rect x="440" y="116" width="60" height="80"/>
+<line x1="440" y1="124" x2="408" y2="196"/><line x1="500" y1="124" x2="532" y2="196"/>
+<line x1="456" y1="196" x2="450" y2="272"/><line x1="484" y1="196" x2="490" y2="272"/>
+</g>
+<text x="470" y="286" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a3a5c">OLDER CHILD / ADULT</text>
+<g font-size="11" fill="#8b2f2f" text-anchor="middle">
+<text x="470" y="98">9%</text>
+</g>
+<g font-size="11" fill="#222">
+<text x="380" y="316">Head and neck 9%</text><text x="380" y="333">Each arm 9%</text>
+<text x="380" y="350">Each leg 18%</text><text x="380" y="367">Front trunk 18%  ·  back 18%</text>
+</g>
+
+<rect x="24" y="378" width="592" height="1" fill="none"/>
+<rect x="24" y="376" width="592" height="0" fill="none"/>
+</svg>

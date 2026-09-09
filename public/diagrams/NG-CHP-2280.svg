@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 580" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+</style>
+<rect width="860" height="580" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Surveillance: the ward is where an epidemic is first visible</text>
+<text class="i" x="24" y="52">Under IDSR the whole country reports weekly, and DHIS2 is where it lands.</text>
+
+<rect class="warn" x="24" y="66" width="812" height="140"/>
+<text class="k" x="40" y="90">Report these immediately — not weekly, not at the end of the shift</text>
+<text class="b" x="40" y="116">Cholera  ·  Meningitis  ·  Yellow fever  ·  Measles  ·  Viral haemorrhagic fever</text>
+<text class="b" x="40" y="138">Acute flaccid paralysis, for polio  ·  Guinea worm  ·  Neonatal tetanus  ·  Any unusual cluster</text>
+<text class="k" x="40" y="166">A single suspected case is the trigger. You do not wait for laboratory confirmation to notify.</text>
+<text class="i" x="40" y="188">Zero reporting is mandatory: if nothing occurred, you report the nothing. A blank return is not a report.</text>
+
+<rect class="ok" x="24" y="222" width="398" height="164"/>
+<text class="h" x="40" y="246">What you do, in order</text>
+<text class="b" x="40" y="270">1. Treat and isolate the patient</text>
+<text class="b" x="40" y="290">2. Notify upward at once — the DHMT</text>
+<text class="b" x="40" y="310">3. Record the case with a full address</text>
+<text class="b" x="40" y="330">4. Take the specimen the guideline names</text>
+<text class="b" x="40" y="350">5. Trace and follow the contacts</text>
+<text class="b" x="40" y="370">6. Health education, without blame</text>
+
+<rect class="box" x="438" y="222" width="398" height="164"/>
+<text class="h" x="454" y="246">The three questions of an investigation</text>
+<text class="b" x="454" y="272">PERSON — who is affected? Age, sex, occupation</text>
+<text class="b" x="454" y="294">PLACE — where are they? Map the cases</text>
+<text class="b" x="454" y="316">TIME — when did they start? Draw the curve</text>
+<text class="i" x="454" y="344">Cases clustered around one water source, all</text>
+<text class="i" x="454" y="360">starting within a day or two, point to a single</text>
+<text class="i" x="454" y="376">common exposure rather than spread person to person.</text>
+
+<rect class="box" x="24" y="402" width="812" height="158"/>
+<text class="h" x="40" y="426">Words examiners use precisely</text>
+<text class="b" x="40" y="452">ENDEMIC — always present in the area, at a fairly steady level. Malaria in most of Ghana.</text>
+<text class="b" x="40" y="474">EPIDEMIC / OUTBREAK — clearly more cases than expected for that place and season.</text>
+<text class="b" x="40" y="496">PANDEMIC — an epidemic crossing countries and continents.</text>
+<text class="b" x="40" y="518">SPORADIC — scattered single cases with no connection between them.</text>
+<text class="k" x="40" y="544">An outbreak is defined against what is expected here, not against zero. Two cases can be an outbreak.</text>
+</svg>

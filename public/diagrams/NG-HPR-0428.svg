@@ -1,0 +1,48 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="380" fill="#fbfaf7"/>
+<text x="320" y="27" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">TWO MODELS OF DISABILITY</text>
+<text x="320" y="46" text-anchor="middle" font-size="12" fill="#555">The model you hold decides what you think needs to change</text>
+
+<rect x="24" y="60" width="288" height="200" fill="#f7e9e9" stroke="#c78f8f" stroke-width="1.5"/>
+<text x="168" y="84" text-anchor="middle" font-size="14" font-weight="bold" fill="#8b2f2f">MEDICAL MODEL</text>
+<text x="168" y="104" text-anchor="middle" font-size="11" font-style="italic" fill="#8b2f2f">The problem is in the person</text>
+<text x="36" y="130" font-size="11" fill="#333">She cannot enter the clinic</text>
+<text x="36" y="147" font-size="11" fill="#333">because she cannot walk.</text>
+<text x="36" y="172" font-size="11" fill="#333">Aim: cure or correct her.</text>
+<text x="36" y="194" font-size="11" fill="#333">Expert decides. She receives.</text>
+<text x="36" y="216" font-size="11" fill="#333">Success = restored function.</text>
+<text x="36" y="240" font-size="11" fill="#8b2f2f">If no cure exists, nothing</text>
+<text x="36" y="254" font-size="11" fill="#8b2f2f">more can be offered.</text>
+
+<rect x="328" y="60" width="288" height="200" fill="#eaf3ea" stroke="#8fb98f" stroke-width="1.5"/>
+<text x="472" y="84" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a5c3a">SOCIAL MODEL</text>
+<text x="472" y="104" text-anchor="middle" font-size="11" font-style="italic" fill="#1a5c3a">The problem is in the barrier</text>
+<text x="340" y="130" font-size="11" fill="#333">She cannot enter the clinic</text>
+<text x="340" y="147" font-size="11" fill="#333">because there is no ramp.</text>
+<text x="340" y="172" font-size="11" fill="#333">Aim: remove the barrier.</text>
+<text x="340" y="194" font-size="11" fill="#333">She decides. She participates.</text>
+<text x="340" y="216" font-size="11" fill="#333">Success = full participation.</text>
+<text x="340" y="240" font-size="11" fill="#1a5c3a">Always something to do,</text>
+<text x="340" y="254" font-size="11" fill="#1a5c3a">whether or not there is a cure.</text>
+
+<rect x="24" y="272" width="592" height="26" fill="#1a3a5c"/>
+<text x="320" y="290" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">COMMUNITY BASED REHABILITATION — the five components</text>
+
+<rect x="24" y="298" width="116" height="52" fill="#fff" stroke="#d8d2c4"/>
+<text x="82" y="318" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a3a5c">HEALTH</text>
+<text x="82" y="336" text-anchor="middle" font-size="9" fill="#555">care, devices</text>
+<rect x="140" y="298" width="116" height="52" fill="#f6f3ec" stroke="#d8d2c4"/>
+<text x="198" y="318" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a3a5c">EDUCATION</text>
+<text x="198" y="336" text-anchor="middle" font-size="9" fill="#555">inclusive school</text>
+<rect x="256" y="298" width="116" height="52" fill="#fff" stroke="#d8d2c4"/>
+<text x="314" y="318" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a3a5c">LIVELIHOOD</text>
+<text x="314" y="336" text-anchor="middle" font-size="9" fill="#555">skills, income</text>
+<rect x="372" y="298" width="116" height="52" fill="#f6f3ec" stroke="#d8d2c4"/>
+<text x="430" y="318" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a3a5c">SOCIAL</text>
+<text x="430" y="336" text-anchor="middle" font-size="9" fill="#555">family, marriage</text>
+<rect x="488" y="298" width="128" height="52" fill="#fff" stroke="#d8d2c4"/>
+<text x="552" y="318" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a3a5c">EMPOWERMENT</text>
+<text x="552" y="336" text-anchor="middle" font-size="9" fill="#555">voice, self-help groups</text>
+
+<text x="320" y="370" text-anchor="middle" font-size="11" font-style="italic" fill="#6b5410">CBR is run WITH the community, not delivered TO it. Ghana: Persons with Disability Act, 2006 (Act 715).</text>
+</svg>

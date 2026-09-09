@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 600" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.step{fill:#eef4f8;stroke:#8fa9bd;stroke-width:1.4;rx:16}
+</style>
+<rect width="860" height="600" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Postpartum haemorrhage: the four Ts, in the order you check them</text>
+<text class="i" x="24" y="52">Atony causes about seven in ten. So your hand goes to the fundus before anything else.</text>
+
+<rect class="box" x="24" y="66" width="196" height="150"/>
+<text class="h" x="40" y="90">TONE</text>
+<text class="s" x="40" y="112">Uterus soft and boggy</text>
+<text class="s" x="40" y="130">Commonest by far</text>
+<text class="b" x="40" y="156">Rub up a contraction,</text>
+<text class="b" x="40" y="174">empty the bladder,</text>
+<text class="b" x="40" y="192">give the uterotonic</text>
+
+<rect class="box" x="234" y="66" width="196" height="150"/>
+<text class="h" x="250" y="90">TISSUE</text>
+<text class="s" x="250" y="112">Placenta incomplete</text>
+<text class="s" x="250" y="130">or retained</text>
+<text class="b" x="250" y="156">Check the placenta</text>
+<text class="b" x="250" y="174">is complete; remove</text>
+<text class="b" x="250" y="192">what is left</text>
+
+<rect class="box" x="444" y="66" width="196" height="150"/>
+<text class="h" x="460" y="90">TRAUMA</text>
+<text class="s" x="460" y="112">Firm uterus but still</text>
+<text class="s" x="460" y="130">bleeding — look</text>
+<text class="b" x="460" y="156">Tear of cervix,</text>
+<text class="b" x="460" y="174">vagina or perineum;</text>
+<text class="b" x="460" y="192">repair it</text>
+
+<rect class="box" x="654" y="66" width="182" height="150"/>
+<text class="h" x="670" y="90">THROMBIN</text>
+<text class="s" x="670" y="112">Blood not clotting</text>
+<text class="b" x="670" y="138">Suspect when blood</text>
+<text class="b" x="670" y="156">stays liquid; needs</text>
+<text class="b" x="670" y="174">products and senior</text>
+<text class="b" x="670" y="192">help urgently</text>
+
+<rect class="warn" x="24" y="234" width="812" height="180"/>
+<text class="k" x="40" y="258">What you do, all at once, not one after the other</text>
+<rect class="step" x="40" y="274" width="140" height="38"/><text class="b" x="58" y="298">Call for help</text>
+<rect class="step" x="194" y="274" width="140" height="38"/><text class="b" x="206" y="298">Rub up the fundus</text>
+<rect class="step" x="348" y="274" width="140" height="38"/><text class="b" x="366" y="298">Two IV lines</text>
+<rect class="step" x="502" y="274" width="140" height="38"/><text class="b" x="516" y="298">Empty bladder</text>
+<rect class="step" x="656" y="274" width="140" height="38"/><text class="b" x="674" y="298">Uterotonic</text>
+<text class="b" x="40" y="336">Oxytocin 10 IU IM or IV is first line. Misoprostol 800 micrograms sublingual if oxytocin is unavailable</text>
+<text class="b" x="40" y="356">or the uterus stays atonic. Tranexamic acid 1 g IV within three hours of birth, for every cause of PPH.</text>
+<text class="k" x="40" y="382">Ergometrine is contraindicated in hypertension and pre-eclampsia. Check the blood pressure before you reach for it.</text>
+<text class="i" x="40" y="402">If bleeding continues: bimanual compression, aortic compression, tamponade, and move her to theatre.</text>
+
+<rect class="ok" x="24" y="432" width="812" height="150"/>
+<text class="h" x="40" y="456">Preventing it — active management of the third stage</text>
+<text class="b" x="40" y="482">1. A uterotonic within one minute of birth — oxytocin 10 IU IM is the standard</text>
+<text class="b" x="40" y="504">2. Controlled cord traction, with counter-pressure supporting the uterus above the pubic bone</text>
+<text class="b" x="40" y="526">3. Assess the tone and massage the uterus after the placenta is out</text>
+<text class="k" x="40" y="554">Never pull on the cord without the guarding hand. You will invert the uterus, and that is a catastrophe.</text>
+<text class="i" x="40" y="574">Estimated blood loss is routinely underestimated. Weigh the swabs, and watch the pulse rather than the bowl.</text>
+</svg>

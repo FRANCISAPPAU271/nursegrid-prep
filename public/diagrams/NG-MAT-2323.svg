@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 620" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.step{fill:#eef4f8;stroke:#8fa9bd;stroke-width:1.4;rx:8}
+</style>
+<rect width="860" height="620" fill="#f7fafb"/>
+<text class="t" x="24" y="32">The Golden Minute: from birth to effective ventilation in sixty seconds</text>
+
+<rect class="ok" x="24" y="48" width="812" height="86"/>
+<text class="h" x="40" y="72">Ask one question at birth</text>
+<text class="b" x="40" y="98">Is the baby crying or breathing well?  If YES — dry, skin to skin with the mother, delayed cord clamping, keep warm.</text>
+<text class="k" x="40" y="122">If NO — the clock has started. Everything below happens inside the first minute.</text>
+
+<rect class="step" x="24" y="152" width="188" height="96"/>
+<text class="h" x="40" y="176">0 to 30 seconds</text>
+<text class="b" x="40" y="200">Dry thoroughly and</text>
+<text class="b" x="40" y="218">remove the wet cloth</text>
+<text class="b" x="40" y="236">Keep warm, stimulate</text>
+
+<rect class="step" x="226" y="152" width="188" height="96"/>
+<text class="h" x="242" y="176">Position</text>
+<text class="b" x="242" y="200">Head neutral, slightly</text>
+<text class="b" x="242" y="218">extended — sniffing</text>
+<text class="b" x="242" y="236">position, not flexed</text>
+
+<rect class="step" x="428" y="152" width="188" height="96"/>
+<text class="h" x="444" y="176">Clear only if needed</text>
+<text class="b" x="444" y="200">Suction mouth then</text>
+<text class="b" x="444" y="218">nose, only if visibly</text>
+<text class="b" x="444" y="236">obstructed</text>
+
+<rect class="warn" x="630" y="152" width="206" height="96"/>
+<text class="k" x="646" y="176">By 60 seconds</text>
+<text class="b" x="646" y="200">Still not breathing?</text>
+<text class="b" x="646" y="218">START BAG AND MASK</text>
+<text class="b" x="646" y="236">40 to 60 breaths a minute</text>
+
+<rect class="box" x="24" y="266" width="398" height="180"/>
+<text class="h" x="40" y="290">Making the ventilation work</text>
+<text class="b" x="40" y="316">The mask must cover mouth, nose and the tip</text>
+<text class="b" x="40" y="334">of the chin — and nothing else</text>
+<text class="b" x="40" y="358">Watch the CHEST, not the bag</text>
+<text class="b" x="40" y="382">No chest rise? Reapply the mask, reposition</text>
+<text class="b" x="40" y="400">the head, clear the mouth, open it slightly,</text>
+<text class="b" x="40" y="418">squeeze harder</text>
+<text class="i" x="40" y="440">Ventilation is the intervention that saves the baby.</text>
+
+<rect class="warn" x="438" y="266" width="398" height="180"/>
+<text class="k" x="454" y="290">Chest compressions — rarely needed</text>
+<text class="b" x="454" y="316">Only if the heart rate stays below 60 after</text>
+<text class="b" x="454" y="334">30 seconds of ventilation that moves the chest</text>
+<text class="b" x="454" y="358">Ratio 3 compressions to 1 breath</text>
+<text class="b" x="454" y="380">Two thumbs, lower third of the sternum</text>
+<text class="k" x="454" y="408">Most newborns needing help need AIR, not</text>
+<text class="k" x="454" y="426">compressions and not adrenaline.</text>
+
+<rect class="box" x="24" y="464" width="812" height="132"/>
+<text class="h" x="40" y="488">Keeping the baby warm is resuscitation too</text>
+<text class="b" x="40" y="514">A wet newborn in a draught loses heat fast, and cold babies become hypoglycaemic, acidotic and stop breathing well.</text>
+<text class="b" x="40" y="536">Dry, remove the wet cloth, cover the head, close the windows and doors, and delay the first bath by at least 24 hours.</text>
+<text class="k" x="40" y="562">Normal newborn temperature is 36.5 to 37.5 degrees Celsius. Below 36.5 is hypothermia and needs acting on.</text>
+<text class="i" x="40" y="584">Warm room, warm hands, warm surface, dry cloth, mother's skin. The chain of warmth costs nothing.</text>
+</svg>

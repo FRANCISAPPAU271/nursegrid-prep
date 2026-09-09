@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 620" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.n{fill:#0f5a52}
+</style>
+<rect width="860" height="620" fill="#f7fafb"/>
+<text class="t" x="24" y="32">The rights of administration — and the three nobody teaches</text>
+
+<rect class="ok" x="24" y="48" width="398" height="234"/>
+<text class="h" x="40" y="72">The five you already know</text>
+<circle cx="52" cy="100" r="11" class="n"/><text class="b" x="74" y="105">Right PATIENT — two identifiers</text>
+<circle cx="52" cy="134" r="11" class="n"/><text class="b" x="74" y="139">Right DRUG — check against the chart</text>
+<circle cx="52" cy="168" r="11" class="n"/><text class="b" x="74" y="173">Right DOSE — calculate, then verify</text>
+<circle cx="52" cy="202" r="11" class="n"/><text class="b" x="74" y="207">Right ROUTE — never assume</text>
+<circle cx="52" cy="236" r="11" class="n"/><text class="b" x="74" y="241">Right TIME — and the right frequency</text>
+<text class="i" x="40" y="268">Check the label three times: taking it out, preparing it, returning it.</text>
+
+<rect class="warn" x="438" y="48" width="398" height="234"/>
+<text class="k" x="454" y="72">The three that get nurses struck off</text>
+<circle cx="466" cy="100" r="11" fill="#8c2f1d"/><text class="b" x="488" y="105">Right DOCUMENTATION</text>
+<text class="s" x="488" y="122">Sign AFTER giving, never before</text>
+<circle cx="466" cy="152" r="11" fill="#8c2f1d"/><text class="b" x="488" y="157">Right REASON</text>
+<text class="s" x="488" y="174">Why is this patient on this drug?</text>
+<circle cx="466" cy="204" r="11" fill="#8c2f1d"/><text class="b" x="488" y="209">Right RESPONSE</text>
+<text class="s" x="488" y="226">Did it work? Did it harm?</text>
+<text class="k" x="454" y="256">Signing for a dose you did not give is falsifying</text>
+<text class="k" x="454" y="272">a record — a disciplinary matter, not an error.</text>
+
+<rect class="box" x="24" y="298" width="812" height="140"/>
+<text class="h" x="40" y="322">Right to refuse — the patient has rights too</text>
+<text class="b" x="40" y="348">A competent adult may refuse any medicine, including one that is keeping them alive.</text>
+<text class="b" x="40" y="370">Find out WHY they are refusing. Side effects, cost, beliefs, or nobody ever explained it.</text>
+<text class="b" x="40" y="392">Explain, document the refusal and the reason, and inform the prescriber.</text>
+<text class="k" x="40" y="420">Hiding medicine in food without the patient's knowledge is covert administration and needs specific authority.</text>
+
+<rect class="warn" x="24" y="454" width="812" height="160"/>
+<text class="k" x="40" y="478">When you make an error — the order matters</text>
+<text class="b" x="40" y="504">1. ASSESS THE PATIENT FIRST. Observations, symptoms, the effect of what was given.</text>
+<text class="b" x="40" y="526">2. Tell the prescriber and the nurse in charge immediately.</text>
+<text class="b" x="40" y="548">3. Complete the incident form. Record facts in the notes — not the word 'error', not blame.</text>
+<text class="b" x="40" y="570">4. Never conceal it, and never try to correct it quietly with another drug.</text>
+<text class="k" x="40" y="598">The patient comes before the paperwork, and honesty is the only defensible position. Concealment ends careers.</text>
+</svg>

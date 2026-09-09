@@ -1,0 +1,51 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="400" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">THE HOME VISIT — YOU ARE A GUEST, NOT AN INSPECTOR</text>
+
+<rect x="20" y="44" width="290" height="150" fill="#eef4f8" stroke="#5a86a8" stroke-width="1.5"/>
+<text x="165" y="64" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a3a5c">BEFORE YOU GO</text>
+<g font-size="10.5" fill="#222">
+<text x="32" y="84">Agree the time; the household is not on call</text>
+<text x="32" y="102">Review the record and set an aim for the visit</text>
+<text x="32" y="120">Pack the bag: gloves, apron, hand rub, sharps box</text>
+<text x="32" y="138">Take a clean surface to put the bag on</text>
+<text x="32" y="156">Tell a colleague where you are going</text>
+<text x="32" y="174">Plan how waste and sharps come back with you</text>
+</g>
+
+<rect x="330" y="44" width="290" height="150" fill="#eaf3ea" stroke="#8fb98f" stroke-width="1.5"/>
+<text x="475" y="64" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a5c3a">WHEN YOU ARRIVE</text>
+<g font-size="10.5" fill="#222">
+<text x="342" y="84">Greet the household properly and ask permission</text>
+<text x="342" y="102">Sit at the person's level; do not stand over them</text>
+<text x="342" y="120">Ask what they want from the visit first</text>
+<text x="342" y="138">Work with what the home has, not what you wish</text>
+<text x="342" y="156">it had — improvise safely, never unsafely</text>
+<text x="342" y="174">Teach the carer by doing it together, not for them</text>
+</g>
+
+<rect x="20" y="206" width="600" height="26" fill="#1a3a5c"/>
+<text x="320" y="225" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">WHAT THE HOME TELLS YOU THAT THE CLINIC NEVER WILL</text>
+
+<rect x="20" y="242" width="290" height="142" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.5"/>
+<text x="165" y="262" text-anchor="middle" font-size="12" font-weight="bold" fill="#8a6d1e">LOOK, WITHOUT PRYING</text>
+<g font-size="10.5" fill="#222">
+<text x="32" y="282">Is there food in the house, and who cooks it?</text>
+<text x="32" y="300">Where is the water, and who fetches it?</text>
+<text x="32" y="318">How far is the latrine, and is the path safe at night?</text>
+<text x="32" y="336">Gather every medicine in the house into one place</text>
+<text x="32" y="354">Who actually gives the tablets, and how do they know?</text>
+<text x="32" y="372">Who is the carer, and who is caring for the carer?</text>
+</g>
+
+<rect x="330" y="242" width="290" height="142" fill="#f7ecec" stroke="#c08a8a" stroke-width="1.5"/>
+<text x="475" y="262" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b2f2f">BEFORE YOU LEAVE</text>
+<g font-size="10.5" fill="#222">
+<text x="342" y="282">Leave written or picture instructions that match</text>
+<text x="342" y="300">what the family can actually read</text>
+<text x="342" y="318">Agree exactly what to do if things get worse,</text>
+<text x="342" y="336">and where to go at night</text>
+<text x="342" y="354">Set the date of the next visit before you go</text>
+<text x="342" y="372">Record the visit the same day, while it is fresh</text>
+</g>
+</svg>

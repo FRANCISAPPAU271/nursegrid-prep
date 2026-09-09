@@ -1,0 +1,36 @@
+<svg viewBox="0 0 470 250" role="img" xmlns="http://www.w3.org/2000/svg"><title>Complementary feeding by age</title>
+<rect width="470" height="250" fill="#f6f8fc"/>
+<text x="235" y="20" font-size="12.5" text-anchor="middle" font-family="system-ui" font-weight="700">Complementary feeding — breastfeeding continues throughout</text>
+<rect x="14" y="30" width="442" height="22" rx="5" fill="#0f9d76"/>
+<text x="235" y="45" font-size="10.5" text-anchor="middle" font-family="system-ui" fill="#fff" font-weight="700">Breast milk on demand, from birth to 2 years and beyond</text>
+<g font-family="system-ui" font-size="10">
+<rect x="14" y="60" width="140" height="176" rx="8" fill="#fff" stroke="#2b6fa8" stroke-width="2"/>
+<rect x="164" y="60" width="140" height="176" rx="8" fill="#fff" stroke="#2b6fa8" stroke-width="2"/>
+<rect x="314" y="60" width="142" height="176" rx="8" fill="#fff" stroke="#2b6fa8" stroke-width="2"/>
+<text x="84" y="80" font-size="12" text-anchor="middle" font-weight="700" fill="#2b6fa8">6 – 8 months</text>
+<text x="234" y="80" font-size="12" text-anchor="middle" font-weight="700" fill="#2b6fa8">9 – 11 months</text>
+<text x="385" y="80" font-size="12" text-anchor="middle" font-weight="700" fill="#2b6fa8">12 – 23 months</text>
+<text x="26" y="104" font-weight="700">2 – 3 meals a day</text>
+<text x="176" y="104" font-weight="700">3 – 4 meals a day</text>
+<text x="326" y="104" font-weight="700">3 – 4 meals a day</text>
+<text x="26" y="124">Thick porridge, well</text>
+<text x="26" y="138">mashed family food</text>
+<text x="176" y="124">Finely chopped or</text>
+<text x="176" y="138">mashed, finger foods</text>
+<text x="326" y="124">Family foods, chopped</text>
+<text x="326" y="138">only if needed</text>
+<text x="26" y="162">Start 2 – 3 spoonfuls,</text>
+<text x="26" y="176">build to half a cup</text>
+<text x="176" y="162">About half a 250 ml</text>
+<text x="176" y="176">cup each meal</text>
+<text x="326" y="162">Three quarters to a</text>
+<text x="326" y="176">full 250 ml cup</text>
+<text x="26" y="200" fill="#5a6b85">Plus 1 snack</text>
+<text x="176" y="200" fill="#5a6b85">Plus 1 – 2 snacks</text>
+<text x="326" y="200" fill="#5a6b85">Plus 1 – 2 snacks</text>
+<text x="26" y="222" font-weight="700" fill="#a8352c">Thick, not watery</text>
+<text x="176" y="222" font-weight="700" fill="#a8352c">Add egg, fish, beans</text>
+<text x="326" y="222" font-weight="700" fill="#a8352c">Own bowl, own care</text>
+</g>
+<text x="235" y="246" font-size="9.5" text-anchor="middle" font-family="system-ui" fill="#5a6b85">A spoon that stands up in the porridge carries energy; one that runs off carries mostly water</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 620" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.pill{fill:#eef4f8;stroke:#8fa9bd;stroke-width:1.3;rx:14}
+</style>
+<rect width="860" height="620" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Antenatal care: eight contacts, and what each one is for</text>
+<text class="i" x="24" y="52">WHO moved from four visits to eight contacts because four missed too much, too late.</text>
+
+<rect class="pill" x="24" y="66" width="92" height="38"/><text class="b" x="48" y="91">12 wk</text>
+<rect class="pill" x="128" y="66" width="92" height="38"/><text class="b" x="152" y="91">20 wk</text>
+<rect class="pill" x="232" y="66" width="92" height="38"/><text class="b" x="256" y="91">26 wk</text>
+<rect class="pill" x="336" y="66" width="92" height="38"/><text class="b" x="360" y="91">30 wk</text>
+<rect class="pill" x="440" y="66" width="92" height="38"/><text class="b" x="464" y="91">34 wk</text>
+<rect class="pill" x="544" y="66" width="92" height="38"/><text class="b" x="568" y="91">36 wk</text>
+<rect class="pill" x="648" y="66" width="92" height="38"/><text class="b" x="672" y="91">38 wk</text>
+<rect class="pill" x="752" y="66" width="84" height="38"/><text class="b" x="774" y="91">40 wk</text>
+<text class="s" x="24" y="122">First contact before 12 weeks. Then a contact at each point above, and referral if she reaches 41 weeks.</text>
+
+<rect class="box" x="24" y="138" width="398" height="192"/>
+<text class="h" x="40" y="162">Every contact, without exception</text>
+<text class="b" x="40" y="186">Blood pressure and urine for protein</text>
+<text class="b" x="40" y="206">Fundal height against dates</text>
+<text class="b" x="40" y="226">Foetal heart, and movements after 28 weeks</text>
+<text class="b" x="40" y="246">Ask about the danger signs, by name</text>
+<text class="b" x="40" y="266">Check the card: what is still owing?</text>
+<text class="i" x="40" y="292">Booking bloods: haemoglobin, blood group,</text>
+<text class="i" x="40" y="308">sickling, HIV, syphilis, hepatitis B.</text>
+
+<rect class="ok" x="438" y="138" width="398" height="192"/>
+<text class="h" x="454" y="162">The routine preventives, and when</text>
+<text class="b" x="454" y="186">IPTp-SP — from 16 weeks, monthly,</text>
+<text class="s" x="470" y="204">by directly observed therapy, at least 3 doses</text>
+<text class="b" x="454" y="226">Iron and folic acid — daily, throughout</text>
+<text class="b" x="454" y="248">Tetanus-diphtheria — per the schedule</text>
+<text class="b" x="454" y="270">Treated net — issued and its use checked</text>
+<text class="b" x="454" y="292">HIV testing, and TLD for life if positive</text>
+<text class="i" x="454" y="316">Deworming after the first trimester.</text>
+
+<rect class="warn" x="24" y="346" width="812" height="150"/>
+<text class="k" x="40" y="370">The danger signs every pregnant woman must be able to recite before she leaves</text>
+<text class="b" x="40" y="396">Bleeding from the vagina  ·  Severe headache or blurred vision  ·  Swelling of face and hands</text>
+<text class="b" x="40" y="418">Fever  ·  Convulsions  ·  Severe abdominal pain  ·  Baby moving less or not at all</text>
+<text class="b" x="40" y="440">Waters breaking before term  ·  Difficulty breathing  ·  Persistent vomiting</text>
+<text class="k" x="40" y="468">Teaching them is not enough. Ask her to say them back, and ask who will bring her and how.</text>
+<text class="i" x="40" y="488">A birth plan names the facility, the transport, the money and the blood donor — before labour starts.</text>
+
+<rect class="box" x="24" y="510" width="812" height="86"/>
+<text class="h" x="40" y="534">Fundal height, roughly</text>
+<text class="b" x="40" y="558">12 wk just above the pubic bone  ·  20 wk at the umbilicus  ·  36 wk at the xiphisternum  ·  40 wk drops slightly as the head engages</text>
+<text class="k" x="40" y="582">Bigger than dates: wrong dates, twins, excess fluid, big baby. Smaller: wrong dates, growth restriction, low fluid.</text>
+</svg>

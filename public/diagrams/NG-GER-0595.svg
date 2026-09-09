@@ -1,0 +1,59 @@
+<svg viewBox="0 0 640 410" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="410" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">FALLS IN OLD AGE — WHY THEY HAPPEN AND HOW TO PREVENT THEM</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">A fall is never just clumsiness. It is several small problems arriving at the same moment.</text>
+
+<rect x="20" y="58" width="196" height="176" fill="#eef4f8" stroke="#5a86a8" stroke-width="1.5"/>
+<text x="118" y="78" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a3a5c">WITHIN THE PERSON</text>
+<g font-size="10.5" fill="#222">
+<text x="30" y="98">Poor vision, cataract</text>
+<text x="30" y="116">Weak legs, unsteady gait</text>
+<text x="30" y="134">Dizziness on standing up</text>
+<text x="30" y="152">Confusion or dementia</text>
+<text x="30" y="170">Foot pain, poor footwear</text>
+<text x="30" y="188">Urgency to reach the toilet</text>
+<text x="30" y="206">Previous fall — the strongest</text>
+<text x="30" y="222">single predictor of the next</text>
+</g>
+
+<rect x="222" y="58" width="196" height="176" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.5"/>
+<text x="320" y="78" text-anchor="middle" font-size="12" font-weight="bold" fill="#8a6d1e">IN THE MEDICINES</text>
+<g font-size="10.5" fill="#222">
+<text x="232" y="98">Sedatives and sleeping tablets</text>
+<text x="232" y="116">Antihypertensives, diuretics</text>
+<text x="232" y="134">Antipsychotics</text>
+<text x="232" y="152">Antidiabetic drugs — hypos</text>
+<text x="232" y="170">Anything newly started</text>
+<text x="232" y="188">Four or more medicines</text>
+<text x="232" y="206">together sharply raises risk</text>
+</g>
+
+<rect x="424" y="58" width="196" height="176" fill="#eaf3ea" stroke="#8fb98f" stroke-width="1.5"/>
+<text x="522" y="78" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a5c3a">IN THE HOME</text>
+<g font-size="10.5" fill="#222">
+<text x="434" y="98">Loose mats and trailing cloth</text>
+<text x="434" y="116">Wet or polished floors</text>
+<text x="434" y="134">Poor light, no light at night</text>
+<text x="434" y="152">Steps without a handrail</text>
+<text x="434" y="170">Latrine far from the house</text>
+<text x="434" y="188">Uneven compound, open gutter</text>
+<text x="434" y="206">Clutter on the walking route</text>
+</g>
+
+<rect x="20" y="246" width="600" height="26" fill="#1a3a5c"/>
+<text x="320" y="265" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">AFTER A FALL — ASK WHY IT HAPPENED, NOT ONLY WHETHER SOMETHING IS BROKEN</text>
+
+<rect x="20" y="282" width="290" height="110" fill="#f7ecec" stroke="#c08a8a" stroke-width="1.5"/>
+<text x="165" y="302" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b2f2f">THE HIDDEN INJURY IS FEAR</text>
+<text x="32" y="322" font-size="10.5">The person stops walking to avoid falling again.</text>
+<text x="32" y="340" font-size="10.5">Muscles weaken, balance worsens, confidence goes,</text>
+<text x="32" y="358" font-size="10.5">and the next fall becomes more likely, not less.</text>
+<text x="32" y="380" font-size="10.5" font-style="italic" fill="#8b2f2f">Restricting activity is not a safety measure.</text>
+
+<rect x="330" y="282" width="290" height="110" fill="#eaf3ea" stroke="#8fb98f" stroke-width="1.5"/>
+<text x="475" y="302" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a5c3a">WHAT ACTUALLY WORKS</text>
+<text x="342" y="322" font-size="10.5">Strength and balance exercise — the best evidence</text>
+<text x="342" y="340" font-size="10.5">Review and reduce the medicine list</text>
+<text x="342" y="358" font-size="10.5">Treat vision; check lying and standing blood pressure</text>
+<text x="342" y="376" font-size="10.5">Make the home safe; light the route to the latrine</text>
+</svg>

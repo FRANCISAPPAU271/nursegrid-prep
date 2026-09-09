@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 600" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.cold{fill:#eef4fa;stroke:#7f9dc0;stroke-width:1.4;rx:8}
+.hot{fill:#fdf1ea;stroke:#cc8a52;stroke-width:1.4;rx:8}
+</style>
+<rect width="880" height="600" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Thyroid: every symptom is the metabolic rate, up or down</text>
+
+<rect class="hot" x="24" y="48" width="410" height="250"/>
+<text class="h" x="42" y="72">OVERACTIVE — everything speeds up</text>
+<text class="b" x="42" y="100">Weight LOSS despite a good appetite</text>
+<text class="b" x="42" y="122">Heat intolerance, sweating, warm moist skin</text>
+<text class="b" x="42" y="144">Tachycardia, palpitations, atrial fibrillation</text>
+<text class="b" x="42" y="166">Anxiety, tremor, insomnia, irritability</text>
+<text class="b" x="42" y="188">Diarrhoea, frequent stools</text>
+<text class="b" x="42" y="210">Eye signs: lid lag, exophthalmos</text>
+<text class="b" x="42" y="232">Oligomenorrhoea</text>
+<text class="k" x="42" y="264">CRISIS = thyroid storm</text>
+<text class="s" x="42" y="284">fever, extreme tachycardia, agitation, coma</text>
+
+<rect class="cold" x="450" y="48" width="406" height="250"/>
+<text class="h" x="468" y="72">UNDERACTIVE — everything slows down</text>
+<text class="b" x="468" y="100">Weight GAIN despite a poor appetite</text>
+<text class="b" x="468" y="122">Cold intolerance, dry coarse skin, hair loss</text>
+<text class="b" x="468" y="144">Bradycardia</text>
+<text class="b" x="468" y="166">Depression, slow thought, poor memory</text>
+<text class="b" x="468" y="188">Constipation</text>
+<text class="b" x="468" y="210">Puffy face, hoarse voice</text>
+<text class="b" x="468" y="232">Menorrhagia</text>
+<text class="k" x="468" y="264">CRISIS = myxoedema coma</text>
+<text class="s" x="468" y="284">hypothermia, hypoventilation, hypoglycaemia</text>
+
+<rect class="box" x="24" y="316" width="832" height="120"/>
+<text class="h" x="42" y="340">Reading the blood tests — the pituitary tells you where the fault is</text>
+<text class="b" x="42" y="368">TSH HIGH with T4 LOW  =  the gland has failed. The pituitary is shouting and nothing answers.</text>
+<text class="b" x="42" y="392">TSH LOW with T4 HIGH  =  the gland is overactive. The pituitary has gone quiet to compensate.</text>
+<text class="i" x="42" y="420">TSH moves OPPOSITE to the thyroid in gland disease. That single rule sorts most exam questions.</text>
+
+<rect class="warn" x="24" y="454" width="832" height="130"/>
+<text class="k" x="42" y="478">After thyroidectomy — the four things you are watching for</text>
+<text class="b" x="42" y="506">1 HAEMORRHAGE and neck swelling — the airway is compressed from outside. Keep clip removers at the bed.</text>
+<text class="b" x="42" y="530">2 HYPOCALCAEMIA — parathyroids bruised or removed. Tingling round the mouth and fingers, then tetany.</text>
+<text class="b" x="42" y="554">3 RECURRENT LARYNGEAL NERVE injury — check the voice. Hoarseness or stridor is not "just the tube".</text>
+<text class="k" x="42" y="578">4 THYROID STORM — now rare, because patients are made euthyroid with drugs before surgery.</text>
+</svg>

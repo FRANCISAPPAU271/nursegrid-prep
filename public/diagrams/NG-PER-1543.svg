@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="100%" role="img">
+<rect x="0" y="0" width="760" height="470" fill="#fdfcfa"/>
+<text x="20" y="30" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="#7a2020">Fever after surgery: the day tells you the cause</text>
+<text x="20" y="52" font-family="Georgia,serif" font-size="13" fill="#555">The same temperature means different things on day one and on day seven. Count the days first.</text>
+
+<line x1="60" y1="96" x2="720" y2="96" stroke="#888" stroke-width="2"/>
+<circle cx="120" cy="96" r="7" fill="#c0392b"/><text x="98" y="82" font-family="Georgia,serif" font-size="12" fill="#333">Day 1-2</text>
+<circle cx="270" cy="96" r="7" fill="#b8860b"/><text x="248" y="82" font-family="Georgia,serif" font-size="12" fill="#333">Day 3-5</text>
+<circle cx="420" cy="96" r="7" fill="#2e7d5b"/><text x="398" y="82" font-family="Georgia,serif" font-size="12" fill="#333">Day 5-7</text>
+<circle cx="570" cy="96" r="7" fill="#4a4a8a"/><text x="546" y="82" font-family="Georgia,serif" font-size="12" fill="#333">Day 7-10</text>
+<circle cx="690" cy="96" r="7" fill="#2b6b8a"/><text x="662" y="82" font-family="Georgia,serif" font-size="12" fill="#333">Any day</text>
+
+<rect x="20" y="112" width="190" height="112" rx="6" fill="#fff3f0" stroke="#c0392b"/>
+<text x="34" y="134" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#7a2020">The lungs</text>
+<text x="34" y="154" font-family="Georgia,serif" font-size="12" fill="#333">Collapse of small airways</text>
+<text x="34" y="172" font-family="Georgia,serif" font-size="12" fill="#333">from shallow breathing.</text>
+<text x="34" y="194" font-family="Georgia,serif" font-size="12" fill="#333">Treated by sitting up,</text>
+<text x="34" y="212" font-family="Georgia,serif" font-size="12" fill="#333">deep breathing, analgesia.</text>
+
+<rect x="222" y="112" width="190" height="112" rx="6" fill="#fff8e8" stroke="#b8860b"/>
+<text x="236" y="134" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#8a6508">The water</text>
+<text x="236" y="154" font-family="Georgia,serif" font-size="12" fill="#333">Urinary infection, often</text>
+<text x="236" y="172" font-family="Georgia,serif" font-size="12" fill="#333">from the catheter that is</text>
+<text x="236" y="194" font-family="Georgia,serif" font-size="12" fill="#333">still in place because</text>
+<text x="236" y="212" font-family="Georgia,serif" font-size="12" fill="#333">nobody questioned it.</text>
+
+<rect x="424" y="112" width="150" height="112" rx="6" fill="#f2f7f2" stroke="#2e7d5b"/>
+<text x="438" y="134" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#1d5c42">The legs</text>
+<text x="438" y="154" font-family="Georgia,serif" font-size="12" fill="#333">Clot in a deep vein.</text>
+<text x="438" y="176" font-family="Georgia,serif" font-size="12" fill="#333">One calf swollen,</text>
+<text x="438" y="194" font-family="Georgia,serif" font-size="12" fill="#333">warm and tender.</text>
+<text x="438" y="214" font-family="Georgia,serif" font-size="12" fill="#333">Look at both legs.</text>
+
+<rect x="586" y="112" width="154" height="112" rx="6" fill="#f4f4fb" stroke="#4a4a8a"/>
+<text x="600" y="134" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#33336b">The wound</text>
+<text x="600" y="154" font-family="Georgia,serif" font-size="12" fill="#333">Infection or collection.</text>
+<text x="600" y="176" font-family="Georgia,serif" font-size="12" fill="#333">Look under the</text>
+<text x="600" y="194" font-family="Georgia,serif" font-size="12" fill="#333">dressing. A fever with</text>
+<text x="600" y="214" font-family="Georgia,serif" font-size="12" fill="#333">no source needs eyes.</text>
+
+<rect x="20" y="240" width="720" height="86" rx="6" fill="#eef4f8" stroke="#2b6b8a"/>
+<text x="34" y="262" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d4e63">The two that appear on any day</text>
+<text x="34" y="284" font-family="Georgia,serif" font-size="12" fill="#333">Drugs and drips: a reaction to a medicine, or infection at the drip site. Look at every cannula every shift —</text>
+<text x="34" y="302" font-family="Georgia,serif" font-size="12" fill="#333">a red, tender vein is a source that is easy to see and easy to walk past. Blood transfusion is another.</text>
+<text x="34" y="320" font-family="Georgia,serif" font-size="12" fill="#333">And in Ghana, remember the patient can also simply have malaria, unrelated to the operation.</text>
+
+<rect x="20" y="342" width="720" height="110" rx="6" fill="#fff3f0" stroke="#c0392b"/>
+<text x="34" y="364" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#7a2020">The one that is not an infection at all</text>
+<text x="34" y="386" font-family="Georgia,serif" font-size="12" fill="#333">A fever around day five to seven after bowel surgery, with abdominal pain, a rising pulse and a patient who</text>
+<text x="34" y="404" font-family="Georgia,serif" font-size="12" fill="#333">simply looks unwell, may be a leak at the join in the bowel. The temperature is a symptom of surgical</text>
+<text x="34" y="422" font-family="Georgia,serif" font-size="12" fill="#333">failure, not of a chest or urine infection, and antibiotics alone will not fix it.</text>
+<text x="34" y="444" font-family="Georgia,serif" font-size="12" font-style="italic" fill="#7a2020">Rule: a fever with tachycardia and a patient who looks worse is surgical until proven otherwise.</text>
+</svg>

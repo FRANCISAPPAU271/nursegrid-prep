@@ -1,0 +1,31 @@
+<svg viewBox="0 0 470 220" role="img" xmlns="http://www.w3.org/2000/svg"><title>Transfusion reactions</title>
+<rect width="470" height="220" fill="#f6f8fc"/>
+<text x="235" y="20" font-size="12.5" text-anchor="middle" font-family="system-ui" font-weight="700">STOP the transfusion first — then identify which reaction</text>
+<g font-family="system-ui">
+<rect x="16" y="36" width="144" height="152" rx="9" fill="#fff" stroke="#e2574c" stroke-width="3"/>
+<text x="88" y="58" font-size="12" text-anchor="middle" font-weight="700" fill="#e2574c">HAEMOLYTIC</text>
+<text x="88" y="72" font-size="9" text-anchor="middle" fill="#5a6b85">first 15 min — deadly</text>
+<text x="26" y="94" font-size="9.5">fever, chills</text>
+<text x="26" y="110" font-size="9.5">LOIN / back pain</text>
+<text x="26" y="126" font-size="9.5">dark red urine</text>
+<text x="26" y="142" font-size="9.5">hypotension, shock</text>
+<text x="88" y="170" font-size="9.5" text-anchor="middle" font-weight="700">wrong blood group</text>
+<rect x="168" y="36" width="144" height="152" rx="9" fill="#fff" stroke="#f2b705" stroke-width="2.5"/>
+<text x="240" y="58" font-size="12" text-anchor="middle" font-weight="700" fill="#b58900">ALLERGIC</text>
+<text x="240" y="72" font-size="9" text-anchor="middle" fill="#5a6b85">any time</text>
+<text x="178" y="94" font-size="9.5">itching, urticaria</text>
+<text x="178" y="110" font-size="9.5">flushing</text>
+<text x="178" y="126" font-size="9.5">wheeze</text>
+<text x="178" y="142" font-size="9.5">no fever</text>
+<text x="240" y="170" font-size="9.5" text-anchor="middle" font-weight="700">donor plasma protein</text>
+<rect x="320" y="36" width="134" height="152" rx="9" fill="#fff" stroke="#2b6fa8" stroke-width="2.5"/>
+<text x="387" y="58" font-size="12" text-anchor="middle" font-weight="700" fill="#2b6fa8">OVERLOAD</text>
+<text x="387" y="72" font-size="9" text-anchor="middle" fill="#5a6b85">too fast / too much</text>
+<text x="330" y="94" font-size="9.5">breathlessness</text>
+<text x="330" y="110" font-size="9.5">raised JVP</text>
+<text x="330" y="126" font-size="9.5">crackles in lungs</text>
+<text x="330" y="142" font-size="9.5">frothy sputum</text>
+<text x="387" y="170" font-size="9.5" text-anchor="middle" font-weight="700">sit up, slow or stop</text>
+</g>
+<text x="235" y="208" font-size="10.5" text-anchor="middle" font-family="system-ui" fill="#5a6b85">Back pain + dark urine = haemolytic until proven otherwise</text>
+</svg>

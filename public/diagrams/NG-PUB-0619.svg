@@ -1,0 +1,37 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="380" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">ISOLATION, QUARANTINE AND CONTACT TRACING</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">Three different words for three different people. Examiners test whether you can tell them apart.</text>
+
+<rect x="20" y="58" width="290" height="140" fill="#f7ecec" stroke="#c08a8a" stroke-width="1.5"/>
+<text x="165" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#8b2f2f">ISOLATION</text>
+<text x="165" y="100" text-anchor="middle" font-size="11" font-style="italic" fill="#8b2f2f">for the person who IS ill</text>
+<g font-size="10.5" fill="#222">
+<text x="32" y="124">Separates a confirmed or suspected case</text>
+<text x="32" y="142">from everybody else</text>
+<text x="32" y="160">Lasts while the person is infectious</text>
+<text x="32" y="178">Purpose: stop this patient infecting others</text>
+</g>
+
+<rect x="330" y="58" width="290" height="140" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.5"/>
+<text x="475" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#8a6d1e">QUARANTINE</text>
+<text x="475" y="100" text-anchor="middle" font-size="11" font-style="italic" fill="#8a6d1e">for the person who is WELL but exposed</text>
+<g font-size="10.5" fill="#222">
+<text x="342" y="124">Restricts a well contact who may be incubating</text>
+<text x="342" y="142">Lasts one full incubation period from</text>
+<text x="342" y="160">the last exposure</text>
+<text x="342" y="178">Purpose: catch them before they spread it</text>
+</g>
+
+<rect x="20" y="212" width="600" height="26" fill="#1a3a5c"/>
+<text x="320" y="231" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">CONTACT TRACING — THE WORK THAT CONNECTS THE TWO</text>
+
+<rect x="20" y="248" width="600" height="118" fill="#eaf3ea" stroke="#8fb98f" stroke-width="1.5"/>
+<g font-size="10.5" fill="#222">
+<text x="34" y="270">List everyone exposed during the infectious period, working outward from the case</text>
+<text x="34" y="290">Find them, explain without blaming, and check whether they have symptoms</text>
+<text x="34" y="310">Watch them for one incubation period; test, treat or vaccinate where that is offered</text>
+<text x="34" y="330">Any contact who develops symptoms becomes a case — and the tracing starts again from them</text>
+</g>
+<text x="320" y="356" text-anchor="middle" font-size="11" font-style="italic" fill="#1a5c3a">Confidentiality is what makes it work. A community that fears exposure will hide its cases.</text>
+</svg>

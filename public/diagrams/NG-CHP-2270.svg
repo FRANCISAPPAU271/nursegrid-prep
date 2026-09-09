@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 600" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+</style>
+<rect width="860" height="600" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Growth monitoring: the direction matters more than the dot</text>
+
+<rect class="box" x="24" y="48" width="398" height="238"/>
+<text class="h" x="40" y="72">Reading the weight chart</text>
+<rect x="52" y="88" width="330" height="150" fill="#fcfdfe" stroke="#dde5ec"/>
+<path d="M52 200 C130 178 210 156 382 112" stroke="#8fb59d" stroke-width="2" fill="none"/>
+<path d="M52 224 C130 206 210 190 382 156" stroke="#d8a33a" stroke-width="2" fill="none"/>
+<path d="M70 196 L120 186 L170 180 L220 184 L270 198 L320 214" stroke="#8c2f1d" stroke-width="2.4" fill="none"/>
+<circle cx="70" cy="196" r="3.4" fill="#8c2f1d"/><circle cx="120" cy="186" r="3.4" fill="#8c2f1d"/>
+<circle cx="170" cy="180" r="3.4" fill="#8c2f1d"/><circle cx="220" cy="184" r="3.4" fill="#8c2f1d"/>
+<circle cx="270" cy="198" r="3.4" fill="#8c2f1d"/><circle cx="320" cy="214" r="3.4" fill="#8c2f1d"/>
+<text class="s" x="56" y="256">Age in months</text>
+<text class="k" x="200" y="256">This child is falling away</text>
+<text class="b" x="40" y="278">A line that flattens or turns down is the warning — even inside the normal band.</text>
+
+<rect class="box" x="438" y="48" width="398" height="238"/>
+<text class="h" x="454" y="72">MUAC in children 6 to 59 months</text>
+<rect x="454" y="88" width="120" height="34" fill="#f6d7cf" stroke="#c9714f"/>
+<text class="b" x="470" y="111">under 11.5 cm</text>
+<text class="k" x="588" y="111">RED — severe</text>
+<rect x="454" y="132" width="120" height="34" fill="#fbeecd" stroke="#d8a33a"/>
+<text class="b" x="466" y="155">11.5 to 12.5 cm</text>
+<text class="b" x="588" y="155">YELLOW — moderate</text>
+<rect x="454" y="176" width="120" height="34" fill="#e2f0e7" stroke="#7ba98c"/>
+<text class="b" x="470" y="199">12.5 cm or more</text>
+<text class="b" x="588" y="199">GREEN — adequate</text>
+<text class="k" x="454" y="234">Swelling of both feet is severe malnutrition</text>
+<text class="k" x="454" y="252">whatever the MUAC or the weight says.</text>
+<text class="i" x="454" y="274">MUAC needs no scale, no power and no height board.</text>
+
+<rect class="box" x="24" y="302" width="812" height="122"/>
+<text class="h" x="40" y="326">Why a child is weighed every month, and what the weighing is for</text>
+<text class="b" x="40" y="350">The purpose is not the number. It is to catch the child who is beginning to fall, while it is still cheap to fix,</text>
+<text class="b" x="40" y="370">and to give the mother a reason to come, so that immunisation, vitamin A and counselling reach her too.</text>
+<text class="k" x="40" y="396">A weight recorded and not acted on is not monitoring. Ask what changed after the last weighing.</text>
+<text class="i" x="40" y="416">Weigh, plot, interpret, explain to the mother, then act. Most charts stop after plot.</text>
+
+<rect class="warn" x="24" y="440" width="812" height="140"/>
+<text class="k" x="40" y="464">Vitamin A and deworming, the two things easily forgotten at the child welfare clinic</text>
+<text class="b" x="40" y="488">Vitamin A: 100,000 IU at 6 months, then 200,000 IU every six months from 12 months to 59 months.</text>
+<text class="b" x="40" y="510">Deworming from 12 months, six-monthly, alongside the vitamin A round.</text>
+<text class="b" x="40" y="532">Zinc for diarrhoea: 10 to 14 days, continuing after the stools have settled.</text>
+<text class="k" x="40" y="558">Every contact is an opportunity. Check the card for what is missing, not only for why she came.</text>
+</svg>

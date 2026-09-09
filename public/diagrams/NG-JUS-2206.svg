@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 600" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+</style>
+<rect width="860" height="600" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Confidentiality: the rule, and the four doors out of it</text>
+<text class="i" x="24" y="52">The duty survives discharge, and it survives death.</text>
+
+<rect class="ok" x="24" y="66" width="812" height="72"/>
+<text class="h" x="40" y="90">The rule</text>
+<text class="b" x="40" y="112">Information obtained about a patient is not disclosed to anyone without that patient's consent.</text>
+<text class="s" x="40" y="130">Patients' Charter, right 8. This includes family, employers, colleagues not involved in the care, and the patient's church.</text>
+
+<rect class="box" x="24" y="156" width="398" height="112"/>
+<text class="h" x="40" y="180">Door 1 — the patient agrees</text>
+<text class="b" x="40" y="202">Consent to share, ideally recorded.</text>
+<text class="s" x="40" y="226">Ask who may be told, and what.</text>
+<text class="s" x="40" y="244">A relative in the waiting room is</text>
+<text class="s" x="40" y="260">not automatically entitled to know.</text>
+
+<rect class="box" x="438" y="156" width="398" height="112"/>
+<text class="h" x="454" y="180">Door 2 — the care team needs it</text>
+<text class="b" x="454" y="202">Share on a need-to-know basis.</text>
+<text class="s" x="454" y="226">The colleague taking over the</text>
+<text class="s" x="454" y="244">patient needs the handover. The</text>
+<text class="s" x="454" y="260">colleague who is curious does not.</text>
+
+<rect class="box" x="24" y="286" width="398" height="112"/>
+<text class="h" x="40" y="310">Door 3 — the law requires it</text>
+<text class="b" x="40" y="332">Notifiable disease, court order,</text>
+<text class="b" x="40" y="350">statutory reporting duty.</text>
+<text class="s" x="40" y="374">A police officer asking informally</text>
+<text class="s" x="40" y="390">is not a court order.</text>
+
+<rect class="box" x="438" y="286" width="398" height="112"/>
+<text class="h" x="454" y="310">Door 4 — serious risk to others</text>
+<text class="b" x="454" y="332">Disclosure in the public interest,</text>
+<text class="b" x="454" y="350">limited to what is necessary.</text>
+<text class="s" x="454" y="374">Tell the patient first where you</text>
+<text class="s" x="454" y="390">safely can, and tell the right</text>
+<text class="s" x="454" y="406">person, not everyone.</text>
+
+<rect class="warn" x="24" y="424" width="812" height="152"/>
+<text class="k" x="40" y="448">Where nurses actually breach it, without meaning to</text>
+<text class="b" x="40" y="472">• Discussing a patient in the corridor, the canteen, the trotro or the staff WhatsApp group.</text>
+<text class="b" x="40" y="492">• Posting a photograph from the ward. A patient can be identified by a wristband, a bedsheet, a tattoo or a room.</text>
+<text class="b" x="40" y="512">• Looking up the record of a neighbour, a relative or a colleague out of concern. Access is not the same as authority.</text>
+<text class="b" x="40" y="532">• Telling a husband his wife's diagnosis because he asked and he is paying the bill.</text>
+<text class="k" x="40" y="558">Removing the name is not enough. If the person can still be worked out, it is still a breach.</text>
+</svg>

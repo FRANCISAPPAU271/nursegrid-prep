@@ -1,0 +1,34 @@
+<svg viewBox="0 0 720 470" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect x="0" y="0" width="720" height="470" fill="#f7f9fb"/>
+<text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#1d3f5e">Children are dosed by weight, so the weight must be right</text>
+<text x="360" y="50" text-anchor="middle" font-size="12.5" fill="#5c6f80">Every paediatric drug error starts somewhere in this chain</text>
+
+<rect x="30" y="66" width="660" height="122" rx="7" fill="#eaf1f7" stroke="#9fb9cd"/>
+<text x="45" y="87" font-size="13.5" font-weight="bold" fill="#1d3f5e">The four steps, and what goes wrong at each</text>
+<text x="52" y="110" font-size="12" fill="#26333d">1. Weigh the child today &#8212; a weight from last admission is the wrong child&#8217;s weight</text>
+<text x="52" y="131" font-size="12" fill="#26333d">2. Multiply dose per kilogram by the weight &#8212; and check it against the maximum</text>
+<text x="52" y="152" font-size="12" fill="#26333d">3. Convert milligrams to millilitres using the strength on this bottle, not the usual one</text>
+<text x="52" y="173" font-size="12" font-weight="bold" fill="#8a3018">4. Have a second nurse repeat the calculation independently, not simply agree with yours</text>
+
+<rect x="30" y="206" width="325" height="130" rx="7" fill="#e9f2ec" stroke="#8fb59d"/>
+<text x="45" y="227" font-size="13.5" font-weight="bold" fill="#1d5236">Worked example</text>
+<text x="45" y="250" font-size="12" fill="#26333d">Paracetamol 15 mg/kg for a child of 12 kg</text>
+<text x="45" y="271" font-size="12" fill="#26333d">15 &#215; 12 = 180 mg per dose</text>
+<text x="45" y="292" font-size="12" fill="#26333d">Bottle reads 120 mg in 5 mL</text>
+<text x="45" y="313" font-size="12" font-weight="bold" fill="#1d5236">180 &#247; 120 &#215; 5 = 7.5 mL</text>
+<text x="45" y="331" font-size="11" font-style="italic" fill="#7a5a2a">More milligrams than the bottle strength, so more than 5 mL</text>
+
+<rect x="365" y="206" width="325" height="130" rx="7" fill="#f6e9e6" stroke="#c98f80"/>
+<text x="380" y="227" font-size="13.5" font-weight="bold" fill="#8a3018">The answers that should stop you</text>
+<text x="380" y="250" font-size="12" fill="#3f2b26">A volume larger than the child could swallow</text>
+<text x="380" y="271" font-size="12" fill="#3f2b26">A dose bigger than an adult would receive</text>
+<text x="380" y="292" font-size="12" fill="#3f2b26">A tenfold difference from what you expected</text>
+<text x="380" y="313" font-size="12" fill="#3f2b26">A decimal point you had to think about</text>
+<text x="380" y="331" font-size="11" font-style="italic" fill="#7a5a2a">A wrong decimal is a tenfold error, not a small one</text>
+
+<rect x="30" y="354" width="660" height="100" rx="7" fill="#efe4d4" stroke="#c9a678"/>
+<text x="45" y="375" font-size="13.5" font-weight="bold" fill="#7a4a12">Why children are harmed more than adults by the same mistake</text>
+<text x="52" y="398" font-size="12" fill="#3f2b26">A small child has little reserve, so an overdose is a larger multiple of what the body can handle</text>
+<text x="52" y="419" font-size="12" fill="#3f2b26">The doses are small, so a misplaced decimal point produces a tenfold or hundredfold error</text>
+<text x="52" y="440" font-size="12" fill="#3f2b26">A young child cannot say &#8220;this is not my usual medicine&#8221; &#8212; the last safety net is missing</text>
+</svg>

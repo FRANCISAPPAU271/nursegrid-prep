@@ -1,0 +1,38 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="420" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">COLOSTOMY VERSUS ILEOSTOMY</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">The further along the bowel the stoma sits, the more water has already been absorbed.</text>
+
+<ellipse cx="320" cy="150" rx="130" ry="74" fill="#f6efe8" stroke="#b08a5a" stroke-width="1.5"/>
+<text x="320" y="86" text-anchor="middle" font-size="10.5" fill="#8a6d1e">abdomen, seen from the front</text>
+<circle cx="248" cy="176" r="15" fill="#d98f8f" stroke="#8b2f2f" stroke-width="2"/>
+<text x="248" y="212" text-anchor="middle" font-size="10" font-weight="bold" fill="#8b2f2f">right side</text>
+<text x="248" y="226" text-anchor="middle" font-size="10" fill="#8b2f2f">ILEOSTOMY</text>
+<circle cx="396" cy="176" r="15" fill="#d98f8f" stroke="#1a5c3a" stroke-width="2"/>
+<text x="396" y="212" text-anchor="middle" font-size="10" font-weight="bold" fill="#1a5c3a">left side</text>
+<text x="396" y="226" text-anchor="middle" font-size="10" fill="#1a5c3a">COLOSTOMY</text>
+
+<rect x="40" y="246" width="270" height="146" fill="#f7ecec" stroke="#c08a8a" stroke-width="1.5"/>
+<text x="175" y="268" text-anchor="middle" font-size="13" font-weight="bold" fill="#8b2f2f">ILEOSTOMY — small bowel</text>
+<g font-size="10.5" fill="#222">
+<text x="52" y="290">Output: liquid to porridge-like</text>
+<text x="52" y="308">Volume: high, 800 to 1200 mL a day</text>
+<text x="52" y="326">Contains active digestive enzymes</text>
+<text x="52" y="344" fill="#8b2f2f">Main risks: dehydration, low sodium</text>
+<text x="52" y="362" fill="#8b2f2f">and rapid skin excoriation</text>
+<text x="52" y="380">Drainable bag, emptied several times</text>
+</g>
+
+<rect x="330" y="246" width="270" height="146" fill="#eaf3ea" stroke="#8fb98f" stroke-width="1.5"/>
+<text x="465" y="268" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a5c3a">COLOSTOMY — large bowel</text>
+<g font-size="10.5" fill="#222">
+<text x="342" y="290">Output: soft to formed</text>
+<text x="342" y="308">Volume: lower, water reabsorbed</text>
+<text x="342" y="326">Less enzyme, gentler on skin</text>
+<text x="342" y="344" fill="#1a5c3a">Main concerns: odour, wind and</text>
+<text x="342" y="362" fill="#1a5c3a">constipation</text>
+<text x="342" y="380">Closed or drainable bag</text>
+</g>
+
+<text x="320" y="412" text-anchor="middle" font-size="11" font-style="italic" fill="#8b2f2f">A healthy stoma is pink or red, moist and slightly raised. Dusky, black or sunken is an emergency.</text>
+</svg>

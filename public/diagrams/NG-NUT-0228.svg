@@ -1,0 +1,25 @@
+<svg viewBox="0 0 470 230" role="img" xmlns="http://www.w3.org/2000/svg"><title>Kwashiorkor and marasmus</title>
+<rect width="470" height="230" fill="#f6f8fc"/>
+<text x="235" y="20" font-size="12.5" text-anchor="middle" font-family="system-ui" font-weight="700">Two faces of severe protein-energy malnutrition</text>
+<rect x="16" y="32" width="214" height="164" rx="10" fill="#fff" stroke="#e2574c" stroke-width="2.5"/>
+<rect x="240" y="32" width="214" height="164" rx="10" fill="#fff" stroke="#2b6fa8" stroke-width="2.5"/>
+<text x="123" y="54" font-size="13" text-anchor="middle" font-family="system-ui" font-weight="700" fill="#e2574c">KWASHIORKOR</text>
+<text x="123" y="70" font-size="9" text-anchor="middle" font-family="system-ui" fill="#5a6b85">protein lacking, some energy</text>
+<text x="347" y="54" font-size="13" text-anchor="middle" font-family="system-ui" font-weight="700" fill="#2b6fa8">MARASMUS</text>
+<text x="347" y="70" font-size="9" text-anchor="middle" font-family="system-ui" fill="#5a6b85">everything lacking</text>
+<g font-family="system-ui" font-size="10">
+<text x="28" y="94" font-weight="700">Bilateral pitting oedema</text>
+<text x="28" y="112">Weight may look near normal</text>
+<text x="28" y="130">Moon face, apathy, misery</text>
+<text x="28" y="148">Flaky peeling skin</text>
+<text x="28" y="166">Thin pale hair, big liver</text>
+<text x="28" y="184" fill="#a8352c" font-weight="700">Oedema hides the wasting</text>
+<text x="252" y="94" font-weight="700">NO oedema at all</text>
+<text x="252" y="112">Severe visible wasting</text>
+<text x="252" y="130">Old-man face, fretful</text>
+<text x="252" y="148">Skin loose, hangs in folds</text>
+<text x="252" y="166">Ribs prominent, no fat pad</text>
+<text x="252" y="184" fill="#2b6fa8" font-weight="700">Weight tells the true story</text>
+</g>
+<text x="235" y="216" font-size="10.5" text-anchor="middle" font-family="system-ui" fill="#5a6b85">Both are emergencies · feed cautiously — refeeding syndrome kills</text>
+</svg>

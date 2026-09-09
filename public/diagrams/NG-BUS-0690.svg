@@ -1,0 +1,52 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="420" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">SWOT ANALYSIS — INSIDE VERSUS OUTSIDE</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">The commonest error is putting an outside factor in an inside box. Ask: can I change it by myself?</text>
+
+<text x="180" y="72" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a5c3a">HELPS YOU</text>
+<text x="460" y="72" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b2f2f">HARMS YOU</text>
+<text x="34" y="150" font-size="12" font-weight="bold" fill="#1a3a5c" transform="rotate(-90 34 150)">INTERNAL</text>
+<text x="34" y="310" font-size="12" font-weight="bold" fill="#1a3a5c" transform="rotate(-90 34 310)">EXTERNAL</text>
+
+<rect x="48" y="82" width="264" height="140" fill="#eaf3ea" stroke="#8fb98f" stroke-width="1.5"/>
+<text x="180" y="104" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a5c3a">STRENGTHS</text>
+<g font-size="10.5" fill="#222">
+<text x="60" y="126">What you already have and control</text>
+<text x="60" y="146">Your registration and clinical skill</text>
+<text x="60" y="164">Trust you have built in the community</text>
+<text x="60" y="182">Speaking the local language</text>
+<text x="60" y="200">Low overheads while you start</text>
+</g>
+
+<rect x="328" y="82" width="264" height="140" fill="#f7ecec" stroke="#c08a8a" stroke-width="1.5"/>
+<text x="460" y="104" text-anchor="middle" font-size="13" font-weight="bold" fill="#8b2f2f">WEAKNESSES</text>
+<g font-size="10.5" fill="#222">
+<text x="340" y="126">What is lacking, and is yours to fix</text>
+<text x="340" y="146">No capital and no business training</text>
+<text x="340" y="164">No premises of your own</text>
+<text x="340" y="182">Cannot keep proper accounts yet</text>
+<text x="340" y="200">Nobody has heard of you</text>
+</g>
+
+<rect x="48" y="234" width="264" height="140" fill="#eef4f8" stroke="#5a86a8" stroke-width="1.5"/>
+<text x="180" y="256" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a3a5c">OPPORTUNITIES</text>
+<g font-size="10.5" fill="#222">
+<text x="60" y="278">Outside, and in your favour</text>
+<text x="60" y="298">A growing population nearby</text>
+<text x="60" y="316">No wound clinic in the district</text>
+<text x="60" y="334">Mobile money makes payment easy</text>
+<text x="60" y="352">Rising demand for home care</text>
+</g>
+
+<rect x="328" y="234" width="264" height="140" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.5"/>
+<text x="460" y="256" text-anchor="middle" font-size="13" font-weight="bold" fill="#8a6d1e">THREATS</text>
+<g font-size="10.5" fill="#222">
+<text x="340" y="278">Outside, and against you</text>
+<text x="340" y="298">A competitor opening down the road</text>
+<text x="340" y="316">Rents and drug prices rising</text>
+<text x="340" y="334">A change in licensing rules</text>
+<text x="340" y="352">Clients who cannot afford to pay</text>
+</g>
+
+<text x="320" y="396" text-anchor="middle" font-size="11" font-style="italic" fill="#8b2f2f">A SWOT is only useful if it changes a decision. Finish by writing what you will DO about each box.</text>
+</svg>

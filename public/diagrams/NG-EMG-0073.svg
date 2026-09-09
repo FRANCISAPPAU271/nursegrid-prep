@@ -1,0 +1,38 @@
+<svg viewBox="0 0 470 250" role="img" xmlns="http://www.w3.org/2000/svg"><title>Mass casualty triage categories</title>
+<rect width="470" height="250" fill="#f6f8fc"/>
+<text x="235" y="24" font-size="12.5" text-anchor="middle" font-family="system-ui" font-weight="700">Triage sorts by SURVIVABILITY, not by who is worst</text>
+<g font-family="system-ui">
+<rect x="18" y="40" width="106" height="118" rx="9" fill="#e2574c"/>
+<text x="71" y="64" font-size="13" fill="#fff" text-anchor="middle" font-weight="700">RED</text>
+<text x="71" y="80" font-size="10" fill="#fff" text-anchor="middle">IMMEDIATE</text>
+<text x="71" y="102" font-size="9.5" fill="#fff" text-anchor="middle">airway blocked</text>
+<text x="71" y="116" font-size="9.5" fill="#fff" text-anchor="middle">severe bleeding</text>
+<text x="71" y="130" font-size="9.5" fill="#fff" text-anchor="middle">shock, tension</text>
+<text x="71" y="144" font-size="9.5" fill="#fff" text-anchor="middle">pneumothorax</text>
+<rect x="132" y="40" width="106" height="118" rx="9" fill="#f2b705"/>
+<text x="185" y="64" font-size="13" fill="#4a3a00" text-anchor="middle" font-weight="700">YELLOW</text>
+<text x="185" y="80" font-size="10" fill="#4a3a00" text-anchor="middle">DELAYED</text>
+<text x="185" y="102" font-size="9.5" fill="#4a3a00" text-anchor="middle">long bone fracture</text>
+<text x="185" y="116" font-size="9.5" fill="#4a3a00" text-anchor="middle">stable abdominal</text>
+<text x="185" y="130" font-size="9.5" fill="#4a3a00" text-anchor="middle">injury, large burn</text>
+<text x="185" y="144" font-size="9.5" fill="#4a3a00" text-anchor="middle">breathing well</text>
+<rect x="246" y="40" width="106" height="118" rx="9" fill="#0f9d76"/>
+<text x="299" y="64" font-size="13" fill="#fff" text-anchor="middle" font-weight="700">GREEN</text>
+<text x="299" y="80" font-size="10" fill="#fff" text-anchor="middle">MINOR</text>
+<text x="299" y="102" font-size="9.5" fill="#fff" text-anchor="middle">walking wounded</text>
+<text x="299" y="116" font-size="9.5" fill="#fff" text-anchor="middle">minor cuts</text>
+<text x="299" y="130" font-size="9.5" fill="#fff" text-anchor="middle">can wait hours</text>
+<text x="299" y="144" font-size="9.5" fill="#fff" text-anchor="middle">can help others</text>
+<rect x="360" y="40" width="92" height="118" rx="9" fill="#2b3547"/>
+<text x="406" y="64" font-size="13" fill="#fff" text-anchor="middle" font-weight="700">BLACK</text>
+<text x="406" y="80" font-size="10" fill="#fff" text-anchor="middle">EXPECTANT</text>
+<text x="406" y="102" font-size="9.5" fill="#fff" text-anchor="middle">not breathing</text>
+<text x="406" y="116" font-size="9.5" fill="#fff" text-anchor="middle">after airway</text>
+<text x="406" y="130" font-size="9.5" fill="#fff" text-anchor="middle">opened</text>
+<text x="406" y="144" font-size="9.5" fill="#fff" text-anchor="middle">or unsurvivable</text>
+</g>
+<rect x="18" y="172" width="434" height="30" rx="8" fill="#fff" stroke="#0a1628" stroke-width="2"/>
+<text x="235" y="192" font-size="11.5" text-anchor="middle" font-family="system-ui" font-weight="700">RED first — greatest chance of survival with the least resource</text>
+<text x="235" y="222" font-size="10.5" text-anchor="middle" font-family="system-ui" fill="#5a6b85">In everyday care you treat the sickest first. In a disaster you treat the most SALVAGEABLE first.</text>
+<text x="235" y="240" font-size="10.5" text-anchor="middle" font-family="system-ui" fill="#5a6b85">Re-triage often — categories change as people deteriorate or improve.</text>
+</svg>

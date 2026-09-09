@@ -1,0 +1,53 @@
+<svg viewBox="0 0 640 450" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="450" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">AIRWAY PROCEDURES: SIZE IT, TIME IT, WATCH THE PATIENT</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">Every one of these harms if it is too big, too long or done to the wrong patient.</text>
+
+<rect x="24" y="58" width="290" height="128" fill="#eef4f8" stroke="#5a86a8" stroke-width="1.7"/>
+<text x="169" y="78" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a3a5c">OROPHARYNGEAL AIRWAY</text>
+<path d="M60 108 L60 140 Q60 156 84 156 L150 156" stroke="#1a3a5c" stroke-width="3" fill="none"/>
+<circle cx="60" cy="104" r="6" fill="#1a3a5c"/>
+<g font-size="9.5" fill="#222">
+<text x="170" y="112">Size from the incisors to the</text>
+<text x="170" y="126">angle of the jaw.</text>
+<text x="36" y="176" font-style="italic">Too long presses the epiglottis shut. Too short pushes the tongue back.</text>
+</g>
+
+<rect x="326" y="58" width="290" height="128" fill="#f7ecec" stroke="#8b2f2f" stroke-width="1.7"/>
+<text x="471" y="78" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b2f2f">ONLY IF THE GAG IS ABSENT</text>
+<g font-size="9.5" fill="#222">
+<text x="338" y="100">An oropharyngeal airway in a patient</text>
+<text x="338" y="116">who still has a gag reflex provokes</text>
+<text x="338" y="132">vomiting, and the airway you were</text>
+<text x="338" y="148">protecting fills with gastric contents.</text>
+<text x="338" y="172" font-style="italic">If she resists it, she does not need it.</text>
+</g>
+
+<rect x="24" y="200" width="290" height="130" fill="#eaf3ea" stroke="#1a5c3a" stroke-width="1.7"/>
+<text x="169" y="220" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a5c3a">SUCTION</text>
+<g font-size="9.5" fill="#222">
+<text x="36" y="242">Pre-oxygenate. Insert with no suction</text>
+<text x="36" y="258">applied. Apply it only on withdrawal.</text>
+<text x="36" y="274">Ten to fifteen seconds at most, then</text>
+<text x="36" y="290">let the patient recover before repeating.</text>
+<text x="36" y="314" font-style="italic">Suction removes oxygen along with secretions.</text>
+</g>
+
+<rect x="326" y="200" width="290" height="130" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.7"/>
+<text x="471" y="220" text-anchor="middle" font-size="12" font-weight="bold" fill="#8a6d1e">AT EVERY TRACHEOSTOMY BEDSIDE</text>
+<g font-size="9.5" fill="#222">
+<text x="338" y="242">Two spare tubes: the same size and one</text>
+<text x="338" y="258">smaller. Tracheal dilators. Suction, ready</text>
+<text x="338" y="274">and tested. Saline and syringe.</text>
+<text x="338" y="298" font-style="italic">A tube that comes out at three in the morning</text>
+<text x="338" y="312" font-style="italic">cannot wait for someone to fetch a set.</text>
+</g>
+
+<rect x="24" y="344" width="592" height="94" fill="#f4eaf4" stroke="#8a5c8a" stroke-width="1.8"/>
+<text x="320" y="364" text-anchor="middle" font-size="12" font-weight="bold" fill="#6b3a6b">CHEST PHYSIOTHERAPY AND POSTURAL DRAINAGE</text>
+<g font-size="10" fill="#222">
+<text x="40" y="386">Position the affected segment uppermost so gravity drains it towards the larger airways, then let the</text>
+<text x="40" y="404">patient cough. Do it before meals or two hours after, never straight after eating.</text>
+<text x="40" y="426" font-style="italic">Stop for breathlessness, pain, haemoptysis or a falling saturation. The treatment must not cost more than it gives.</text>
+</g>
+</svg>

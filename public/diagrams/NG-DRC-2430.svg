@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 600" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.row{fill:#f2f7fa}
+</style>
+<rect width="860" height="600" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Antidotes: learn them as pairs, they are examined as pairs</text>
+
+<rect class="box" x="24" y="48" width="812" height="330"/>
+<rect class="row" x="34" y="60" width="792" height="30"/>
+<text class="h" x="48" y="81">POISON / DRUG</text><text class="h" x="380" y="81">ANTIDOTE</text><text class="h" x="620" y="81">NOTE</text>
+<text class="b" x="48" y="112">Paracetamol</text><text class="b" x="380" y="112">Acetylcysteine</text><text class="s" x="620" y="112">Best within 8 hours</text>
+<rect class="row" x="34" y="122" width="792" height="30"/>
+<text class="b" x="48" y="143">Opioids / morphine</text><text class="b" x="380" y="143">Naloxone</text><text class="s" x="620" y="143">Short acting — repeat</text>
+<text class="b" x="48" y="174">Benzodiazepines</text><text class="b" x="380" y="174">Flumazenil</text><text class="s" x="620" y="174">Caution: can cause fits</text>
+<rect class="row" x="34" y="184" width="792" height="30"/>
+<text class="b" x="48" y="205">Warfarin</text><text class="b" x="380" y="205">Vitamin K</text><text class="s" x="620" y="205">Plus factors if bleeding</text>
+<text class="b" x="48" y="236">Heparin</text><text class="b" x="380" y="236">Protamine sulphate</text><text class="s" x="620" y="236">Do not confuse with above</text>
+<rect class="row" x="34" y="246" width="792" height="30"/>
+<text class="b" x="48" y="267">Magnesium sulphate</text><text class="b" x="380" y="267">Calcium gluconate</text><text class="s" x="620" y="267">Keep at the bedside</text>
+<text class="b" x="48" y="298">Digoxin</text><text class="b" x="380" y="298">Digoxin-specific antibody</text><text class="s" x="620" y="298">Correct potassium too</text>
+<rect class="row" x="34" y="308" width="792" height="30"/>
+<text class="b" x="48" y="329">Organophosphates</text><text class="b" x="380" y="329">Atropine</text><text class="s" x="620" y="329">Farm pesticide poisoning</text>
+<text class="b" x="48" y="360">Iron</text><text class="b" x="380" y="360">Desferrioxamine</text><text class="s" x="620" y="360">Common child poisoning</text>
+
+<rect class="warn" x="24" y="394" width="398" height="188"/>
+<text class="k" x="40" y="418">Naloxone — the trap in the timing</text>
+<text class="b" x="40" y="444">Naloxone wears off in 20 to 60 minutes.</text>
+<text class="b" x="40" y="466">Morphine lasts far longer than that.</text>
+<text class="k" x="40" y="494">So the patient wakes, then stops breathing</text>
+<text class="k" x="40" y="514">again once the naloxone fades.</text>
+<text class="b" x="40" y="542">Never leave them. Repeat doses or infuse,</text>
+<text class="b" x="40" y="562">and monitor respirations continuously.</text>
+
+<rect class="ok" x="438" y="394" width="398" height="188"/>
+<text class="h" x="454" y="418">Before any antidote — always</text>
+<text class="b" x="454" y="444">AIRWAY, BREATHING, CIRCULATION</text>
+<text class="b" x="454" y="470">A blocked airway kills faster than any poison,</text>
+<text class="b" x="454" y="490">and the antidote takes time to work.</text>
+<text class="k" x="454" y="518">ABC before antidote. Every time.</text>
+<text class="i" x="454" y="546">Activated charcoal only within about an hour,</text>
+<text class="i" x="454" y="566">and never in a drowsy patient — they aspirate it.</text>
+</svg>

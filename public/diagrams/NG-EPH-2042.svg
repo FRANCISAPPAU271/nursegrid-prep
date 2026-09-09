@@ -1,0 +1,47 @@
+<svg viewBox="0 0 720 470" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect x="0" y="0" width="720" height="470" fill="#f9f7f4"/>
+<text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#5b4a2e">Numbers that describe a community</text>
+<text x="360" y="50" text-anchor="middle" font-size="12.5" fill="#7a6a58">The denominator decides what the number means</text>
+
+<rect x="30" y="66" width="325" height="180" rx="7" fill="#f2ece2" stroke="#c9b79c"/>
+<text x="45" y="87" font-size="13.5" font-weight="bold" fill="#5b4a2e">Three rates, three questions</text>
+<text x="45" y="110" font-size="11.5" font-weight="bold" fill="#3f3428">Incidence: new cases in a period</text>
+<text x="52" y="127" font-size="11" font-style="italic" fill="#7a5a2a">is the problem still spreading</text>
+<text x="45" y="150" font-size="11.5" font-weight="bold" fill="#3f3428">Prevalence: all existing cases at one moment</text>
+<text x="52" y="167" font-size="11" font-style="italic" fill="#7a5a2a">how much care must the service provide</text>
+<text x="45" y="190" font-size="11.5" font-weight="bold" fill="#3f3428">Case fatality: deaths among those who had it</text>
+<text x="52" y="207" font-size="11" font-style="italic" fill="#7a5a2a">how deadly is it once you have it</text>
+<text x="45" y="230" font-size="11" fill="#8a3018">A long illness has high prevalence and low incidence</text>
+
+<rect x="365" y="66" width="325" height="180" rx="7" fill="#eaf1f7" stroke="#9fb9cd"/>
+<text x="380" y="87" font-size="13.5" font-weight="bold" fill="#1d3f5e">Attack rate in an outbreak</text>
+<text x="380" y="110" font-size="11.5" fill="#26333d">Number who became ill, divided by the number</text>
+<text x="380" y="127" font-size="11.5" fill="#26333d">who were exposed, expressed as a percentage</text>
+<text x="380" y="150" font-size="11.5" font-weight="bold" fill="#1d3f5e">Worked example</text>
+<text x="380" y="169" font-size="11.5" fill="#26333d">120 people ate at the funeral; 30 developed diarrhoea</text>
+<text x="380" y="188" font-size="11.5" font-weight="bold" fill="#8a3018">30 divided by 120 equals 25 per cent</text>
+<text x="380" y="209" font-size="11.5" fill="#26333d">Calculate it separately for each food eaten, and the</text>
+<text x="380" y="226" font-size="11.5" fill="#26333d">dish with the highest rate is the likely source</text>
+
+<rect x="30" y="262" width="325" height="192" rx="7" fill="#e9f2ec" stroke="#8fb59d"/>
+<text x="45" y="283" font-size="13.5" font-weight="bold" fill="#1d5236">Community diagnosis, in order</text>
+<text x="45" y="305" font-size="11.5" fill="#26333d">1. Collect data: register, survey, records, observation</text>
+<text x="45" y="324" font-size="11.5" fill="#26333d">2. Analyse it and rank the problems found</text>
+<text x="45" y="343" font-size="11.5" fill="#26333d">3. Agree priorities with the community, not for them</text>
+<text x="45" y="362" font-size="11.5" fill="#26333d">4. Plan with measurable objectives</text>
+<text x="45" y="381" font-size="11.5" fill="#26333d">5. Implement using local structures</text>
+<text x="45" y="400" font-size="11.5" fill="#26333d">6. Evaluate against the objectives you set</text>
+<text x="45" y="423" font-size="11.5" font-weight="bold" fill="#1d5236">Priority weighs size, severity, community concern</text>
+<text x="45" y="440" font-size="11.5" font-weight="bold" fill="#1d5236">and whether anything can actually be done</text>
+
+<rect x="365" y="262" width="325" height="192" rx="7" fill="#f6e9e6" stroke="#c98f80"/>
+<text x="380" y="283" font-size="13.5" font-weight="bold" fill="#8a3018">Why the routine data misleads</text>
+<text x="380" y="305" font-size="11.5" fill="#3f2b26">Facility records count attenders, not the population</text>
+<text x="380" y="324" font-size="11.5" fill="#3f2b26">A new clinic raises the count without raising disease</text>
+<text x="380" y="343" font-size="11.5" fill="#3f2b26">A stock-out lowers the count without lowering disease</text>
+<text x="380" y="362" font-size="11.5" fill="#3f2b26">Those who never reach a facility never appear at all</text>
+<text x="380" y="385" font-size="11.5" font-weight="bold" fill="#8a3018">So a rise in reported cases may be a rise in reporting</text>
+<text x="380" y="408" font-size="11.5" fill="#3f2b26">Ghana reports through DHIS2 from every district</text>
+<text x="380" y="431" font-size="11" font-style="italic" fill="#7a5a2a">Data nobody uses at district level stops being collected</text>
+<text x="380" y="448" font-size="11" font-style="italic" fill="#7a5a2a">carefully. Feed the analysis back to the people who fill the forms.</text>
+</svg>

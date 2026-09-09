@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 580" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+</style>
+<rect width="860" height="580" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Breaking the route from faeces to mouth</text>
+<text class="i" x="24" y="52">Every diarrhoea control measure is a barrier placed somewhere on this road.</text>
+
+<rect class="box" x="24" y="66" width="812" height="150"/>
+<rect x="44" y="96" width="112" height="42" fill="#f6d7cf" stroke="#c9714f" rx="6"/>
+<text class="b" x="82" y="122">Faeces</text>
+<rect x="212" y="76" width="104" height="34" fill="#eef4f8" stroke="#8fa9bd" rx="6"/>
+<text class="s" x="242" y="98">Fingers</text>
+<rect x="212" y="120" width="104" height="34" fill="#eef4f8" stroke="#8fa9bd" rx="6"/>
+<text class="s" x="248" y="142">Flies</text>
+<rect x="212" y="164" width="104" height="34" fill="#eef4f8" stroke="#8fa9bd" rx="6"/>
+<text class="s" x="244" y="186">Fluids</text>
+<rect x="372" y="120" width="104" height="34" fill="#eef4f8" stroke="#8fa9bd" rx="6"/>
+<text class="s" x="404" y="142">Fields</text>
+<rect x="532" y="120" width="104" height="34" fill="#fbeecd" stroke="#d8a33a" rx="6"/>
+<text class="s" x="566" y="142">Food</text>
+<rect x="692" y="120" width="104" height="42" fill="#f6d7cf" stroke="#c9714f" rx="6"/>
+<text class="b" x="726" y="146">Mouth</text>
+<path d="M156 117 L208 95 M156 117 L208 137 M156 117 L208 181" stroke="#8fa9bd" stroke-width="1.6" fill="none"/>
+<path d="M316 95 L528 132 M316 137 L528 137 M316 181 L368 143" stroke="#8fa9bd" stroke-width="1.6" fill="none"/>
+<path d="M476 137 L528 137" stroke="#8fa9bd" stroke-width="1.6" fill="none"/>
+<path d="M636 139 L688 139" stroke="#8fa9bd" stroke-width="1.6" fill="none"/>
+
+<rect class="ok" x="24" y="232" width="398" height="184"/>
+<text class="h" x="40" y="256">The barriers, in order of how much they achieve</text>
+<text class="b" x="40" y="280">1. A latrine used by everyone in the house</text>
+<text class="b" x="40" y="300">2. Handwashing with soap at the two moments:</text>
+<text class="s" x="56" y="318">after the toilet, and before touching food</text>
+<text class="b" x="40" y="340">3. Safe water — protected source, covered</text>
+<text class="s" x="56" y="358">storage, a ladle rather than a dipped cup</text>
+<text class="b" x="40" y="380">4. Food covered, and reheated thoroughly</text>
+<text class="b" x="40" y="400">5. Refuse and standing water cleared</text>
+
+<rect class="box" x="438" y="232" width="398" height="184"/>
+<text class="h" x="454" y="256">Numbers worth carrying</text>
+<text class="b" x="454" y="282">Free chlorine residual, routine ......... 0.2 to 0.5 mg/L</text>
+<text class="b" x="454" y="304">During an outbreak, at the point of use .. 0.5 mg/L or above</text>
+<text class="b" x="454" y="326">Household treatment: boil, chlorinate, or filter</text>
+<text class="b" x="454" y="348">Latrine sited well away from and downhill</text>
+<text class="s" x="454" y="366">of any well or borehole</text>
+<text class="i" x="454" y="392">A borehole that is never maintained becomes the</text>
+<text class="i" x="454" y="408">source of the next outbreak.</text>
+
+<rect class="warn" x="24" y="432" width="812" height="132"/>
+<text class="k" x="40" y="456">Why building latrines usually fails, and what works instead</text>
+<text class="b" x="40" y="480">Giving a household a latrine it did not ask for produces a store room. Community-led total sanitation works</text>
+<text class="b" x="40" y="500">because the community itself examines the problem, decides it is unacceptable, and builds with its own hands.</text>
+<text class="k" x="40" y="526">Change the community's decision, not the individual's habit. The unit of change is the whole village.</text>
+<text class="i" x="40" y="550">One household still practising open defecation keeps the risk in place for everyone else.</text>
+</svg>

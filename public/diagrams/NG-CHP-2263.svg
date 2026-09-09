@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 580" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.step{fill:#eef4f8;stroke:#8fa9bd;stroke-width:1.4;rx:18}
+</style>
+<rect width="860" height="580" fill="#f7fafb"/>
+<text class="t" x="24" y="32">The home visit: the only place you see the cause</text>
+<text class="i" x="24" y="52">A clinic shows you the illness. The house shows you why it keeps coming back.</text>
+
+<text class="h" x="24" y="82">The order of a visit</text>
+<rect class="step" x="24" y="94" width="126" height="44"/>
+<text class="b" x="52" y="121">1. Prepare</text>
+<rect class="step" x="164" y="94" width="126" height="44"/>
+<text class="b" x="186" y="121">2. Greet</text>
+<rect class="step" x="304" y="94" width="126" height="44"/>
+<text class="b" x="322" y="121">3. Observe</text>
+<rect class="step" x="444" y="94" width="126" height="44"/>
+<text class="b" x="466" y="121">4. Provide</text>
+<rect class="step" x="584" y="94" width="126" height="44"/>
+<text class="b" x="604" y="121">5. Teach</text>
+<rect class="step" x="724" y="94" width="112" height="44"/>
+<text class="b" x="740" y="121">6. Record</text>
+<text class="s" x="24" y="158">Review the record before you go. Greet the household head. Never begin with instructions.</text>
+
+<rect class="box" x="24" y="176" width="398" height="176"/>
+<text class="h" x="40" y="200">What to look at without being asked</text>
+<text class="b" x="40" y="224">Where the drinking water is kept, and covered</text>
+<text class="b" x="40" y="244">Whether there is a latrine, and if it is used</text>
+<text class="b" x="40" y="264">Bed nets — hanging, or folded in a corner</text>
+<text class="b" x="40" y="284">Where food is stored and how it is covered</text>
+<text class="b" x="40" y="304">Standing water in tyres, tins and pots</text>
+<text class="b" x="40" y="324">Who else in the house is coughing</text>
+<text class="b" x="40" y="344">Smoke from cooking inside the room</text>
+
+<rect class="box" x="438" y="176" width="398" height="176"/>
+<text class="h" x="454" y="200">How to teach so it is actually done</text>
+<text class="b" x="454" y="224">Agree one change, not seven</text>
+<text class="b" x="454" y="244">Use what the household already owns</text>
+<text class="b" x="454" y="264">Demonstrate; then let them do it while you watch</text>
+<text class="b" x="454" y="284">Ask them to explain it back to you</text>
+<text class="b" x="454" y="304">Speak to whoever actually decides</text>
+<text class="i" x="454" y="328">Advice that costs money the family has not got</text>
+<text class="i" x="454" y="344">is not advice. It is a way of blaming them.</text>
+
+<rect class="warn" x="24" y="368" width="812" height="192"/>
+<text class="k" x="40" y="392">Why families default, and what actually works</text>
+<text class="b" x="40" y="416">They cannot pay ....................... check NHIS status, exemptions, and the real cost of transport</text>
+<text class="b" x="40" y="438">It is too far ............................. outreach, or a visit timed to a market day</text>
+<text class="b" x="40" y="460">Someone at home forbids it ........ speak with that person, not around him</text>
+<text class="b" x="40" y="482">They were treated badly last time .. this is the commonest reason and the least often recorded</text>
+<text class="b" x="40" y="504">They believe it did not work ........ ask what they expected it to do</text>
+<text class="k" x="40" y="530">Never open with a scolding. A mother who is shamed once does not come back a second time.</text>
+<text class="i" x="40" y="552">Find the reason before you supply the solution — the reason is almost never that she does not care.</text>
+</svg>

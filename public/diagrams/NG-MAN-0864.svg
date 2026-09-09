@@ -1,0 +1,28 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="420" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">STRUCTURED HANDOVER — SBAR</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">Most serious incidents begin with information that was known, but was never passed on clearly.</text>
+
+<rect x="40" y="62" width="560" height="66" fill="#eef4f8" stroke="#5a86a8" stroke-width="1.6"/>
+<text x="62" y="88" font-size="24" font-weight="bold" fill="#1a3a5c">S</text>
+<text x="96" y="86" font-size="13" font-weight="bold" fill="#1a3a5c">SITUATION — who, where, and what is wrong right now</text>
+<text x="96" y="108" font-size="10.5" fill="#222">This is Sister Mensah on female ward. Mr Owusu in bed 6 has become breathless in the last hour.</text>
+
+<rect x="40" y="140" width="560" height="66" fill="#eaf3ea" stroke="#1a5c3a" stroke-width="1.6"/>
+<text x="62" y="166" font-size="24" font-weight="bold" fill="#1a5c3a">B</text>
+<text x="96" y="164" font-size="13" font-weight="bold" fill="#1a5c3a">BACKGROUND — the context needed to understand it</text>
+<text x="96" y="186" font-size="10.5" fill="#222">He is day 3 after laparotomy, has known heart failure, and had 2 units transfused this morning.</text>
+
+<rect x="40" y="218" width="560" height="66" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.6"/>
+<text x="62" y="244" font-size="24" font-weight="bold" fill="#8a6d1e">A</text>
+<text x="96" y="242" font-size="13" font-weight="bold" fill="#8a6d1e">ASSESSMENT — the numbers, and what you think is happening</text>
+<text x="96" y="264" font-size="10.5" fill="#222">Respiration 32, saturation 88 per cent in air, pulse 118, crackles at both bases. I think he is overloaded.</text>
+
+<rect x="40" y="296" width="560" height="66" fill="#f7ecec" stroke="#8b2f2f" stroke-width="1.6"/>
+<text x="62" y="322" font-size="24" font-weight="bold" fill="#8b2f2f">R</text>
+<text x="96" y="320" font-size="13" font-weight="bold" fill="#8b2f2f">RECOMMENDATION — say what you want, and by when</text>
+<text x="96" y="342" font-size="10.5" fill="#222">Please review him within ten minutes. May I start oxygen and sit him upright while I wait?</text>
+
+<text x="320" y="388" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a3a5c">The R is the part most often left out — and it is the part that gets the patient seen.</text>
+<text x="320" y="410" text-anchor="middle" font-size="10.5" font-style="italic" fill="#8b2f2f">Never end a handover with only a description. End it with a request and a time.</text>
+</svg>

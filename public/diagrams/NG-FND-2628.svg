@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 600" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.bed{fill:#e8eef3;stroke:#8fa9bd;stroke-width:1.4}
+.body{fill:#c9a882;stroke:#8c6d4a;stroke-width:1.2}
+</style>
+<rect width="880" height="600" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Positioning: the position IS the intervention</text>
+
+<rect class="box" x="24" y="48" width="266" height="180"/>
+<text class="h" x="40" y="72">FOWLER'S — sitting up</text>
+<rect class="bed" x="40" y="84" width="234" height="8"/>
+<path class="body" d="M60 84 L60 60 L120 40 L150 44 L150 84 Z"/>
+<text class="s" x="40" y="112">Semi-Fowler 30 to 45 degrees</text>
+<text class="s" x="40" y="130">High Fowler 60 to 90 degrees</text>
+<text class="k" x="40" y="158">Breathlessness, feeding,</text>
+<text class="k" x="40" y="176">after meals, nasogastric feeds</text>
+<text class="i" x="40" y="204">Gravity drops the diaphragm and</text>
+<text class="i" x="40" y="220">keeps stomach contents down.</text>
+
+<rect class="box" x="306" y="48" width="266" height="180"/>
+<text class="h" x="322" y="72">LATERAL — on the side</text>
+<rect class="bed" x="322" y="120" width="234" height="8"/>
+<ellipse cx="400" cy="106" rx="52" ry="14" class="body"/>
+<text class="s" x="322" y="152">Pillow between the knees</text>
+<text class="s" x="322" y="170">and supporting the back</text>
+<text class="k" x="322" y="196">Unconscious, vomiting,</text>
+<text class="k" x="322" y="214">pressure area relief</text>
+
+<rect class="box" x="588" y="48" width="268" height="180"/>
+<text class="h" x="604" y="72">SUPINE and PRONE</text>
+<rect class="bed" x="604" y="112" width="236" height="8"/>
+<rect x="620" y="96" width="120" height="16" rx="8" class="body"/>
+<text class="s" x="604" y="144">SUPINE — flat on the back</text>
+<text class="s" x="604" y="162">after spinal procedures</text>
+<text class="k" x="604" y="190">PRONE — face down, used in</text>
+<text class="k" x="604" y="208">severe respiratory failure</text>
+
+<rect class="warn" x="24" y="248" width="410" height="164"/>
+<text class="k" x="42" y="272">Positions used for specific emergencies</text>
+<text class="b" x="42" y="300">RECOVERY POSITION — unconscious but breathing</text>
+<text class="s" x="42" y="318">Keeps the tongue forward and lets vomit drain out</text>
+<text class="b" x="42" y="344">LEFT LATERAL, HEAD DOWN — air embolism</text>
+<text class="s" x="42" y="362">Traps the air away from the pulmonary outflow</text>
+<text class="b" x="42" y="388">SITTING UPRIGHT — acute pulmonary oedema</text>
+<text class="s" x="42" y="406">Pools blood in the legs, away from the lungs</text>
+
+<rect class="ok" x="450" y="248" width="406" height="164"/>
+<text class="h" x="468" y="272">Pressure areas — where they form</text>
+<text class="b" x="468" y="298">Lying on the back: SACRUM, heels, elbows,</text>
+<text class="b" x="468" y="318">back of the head, shoulder blades</text>
+<text class="b" x="468" y="344">Lying on the side: greater trochanter, ankles,</text>
+<text class="b" x="468" y="364">ears, knees</text>
+<text class="b" x="468" y="390">Sitting: ischial tuberosities — and pressure</text>
+<text class="k" x="468" y="406">builds FASTER sitting than lying down.</text>
+
+<rect class="warn" x="24" y="430" width="832" height="152"/>
+<text class="k" x="42" y="454">Pressure ulcer prevention — what actually works</text>
+<text class="b" x="42" y="480">REPOSITION on a schedule, usually 2-hourly, and document each turn. This is the single most effective measure.</text>
+<text class="b" x="42" y="504">Inspect the skin at every turn. Non-blanching redness is category 1 — the damage has already begun.</text>
+<text class="b" x="42" y="528">Keep skin clean and dry. Manage incontinence. Feed the patient — protein and fluids build and repair tissue.</text>
+<text class="k" x="42" y="556">Do NOT massage a reddened area. It shears the damaged capillaries underneath and makes the injury worse.</text>
+<text class="i" x="42" y="576">Use a risk tool such as Braden or Waterlow on admission, and reassess whenever the condition changes.</text>
+</svg>

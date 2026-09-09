@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 580" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+</style>
+<rect width="860" height="580" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Pre-eclampsia: the disease is the placenta, so the cure is delivery</text>
+<text class="i" x="24" y="52">Everything else buys time safely. Nothing else cures it.</text>
+
+<rect class="box" x="24" y="66" width="398" height="164"/>
+<text class="h" x="40" y="90">Recognising it</text>
+<text class="b" x="40" y="114">New hypertension after 20 weeks</text>
+<text class="b" x="40" y="134">plus protein in the urine</text>
+<text class="s" x="40" y="158">Severe features: BP 160/110 or above,</text>
+<text class="s" x="40" y="176">headache, visual disturbance, epigastric</text>
+<text class="s" x="40" y="194">pain, brisk reflexes with clonus, low</text>
+<text class="s" x="40" y="212">platelets, rising creatinine.</text>
+
+<rect class="warn" x="438" y="66" width="398" height="164"/>
+<text class="k" x="454" y="90">The sign nurses miss</text>
+<text class="b" x="454" y="116">Epigastric or right upper abdominal pain</text>
+<text class="b" x="454" y="136">in a pregnant woman is not indigestion.</text>
+<text class="b" x="454" y="158">It is liver capsule stretch, and it means</text>
+<text class="b" x="454" y="178">imminent eclampsia or HELLP.</text>
+<text class="k" x="454" y="206">Check the blood pressure of every pregnant</text>
+<text class="k" x="454" y="224">woman who complains of heartburn.</text>
+
+<rect class="ok" x="24" y="248" width="812" height="176"/>
+<text class="h" x="40" y="272">Magnesium sulphate — the Pritchard regimen</text>
+<text class="b" x="40" y="298">Loading: 4 g IV slowly, plus 10 g IM — 5 g into each buttock, deep, with lignocaine</text>
+<text class="b" x="40" y="320">Maintenance: 5 g IM into alternate buttocks every 4 hours, continuing 24 hours after delivery or the last fit</text>
+<text class="k" x="40" y="348">Before every repeat dose check three things:</text>
+<text class="b" x="40" y="372">Knee reflexes present  ·  Respirations at least 16 a minute  ·  Urine output at least 100 mL in the last 4 hours</text>
+<text class="k" x="40" y="398">Any one absent, withhold the dose. Antidote: calcium gluconate 1 g IV over 3 minutes, kept at the bedside.</text>
+<text class="i" x="40" y="416">Reflexes disappear first, then breathing slows, then the heart stops. The reflex check is your early warning.</text>
+
+<rect class="warn" x="24" y="442" width="812" height="136"/>
+<text class="k" x="40" y="466">When she fits</text>
+<text class="b" x="40" y="490">Do not restrain her and do not force anything into her mouth. Protect her from injury, turn her on her side,</text>
+<text class="b" x="40" y="510">clear the airway, give oxygen, then magnesium sulphate. Control the blood pressure. Then deliver.</text>
+<text class="k" x="40" y="538">Magnesium sulphate stops fits; it is not an antihypertensive. Diazepam is not first line for eclampsia.</text>
+<text class="i" x="40" y="562">A woman can fit for the first time after delivery. Postnatal blood pressure still matters.</text>
+</svg>

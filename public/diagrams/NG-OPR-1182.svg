@@ -1,0 +1,42 @@
+<svg viewBox="0 0 640 450" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="450" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">THE ANALGESIC LADDER</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">Climb it according to the pain, not according to how ill the patient looks or how long they have left.</text>
+
+<rect x="24" y="196" width="196" height="76" fill="#eaf3ea" stroke="#1a5c3a" stroke-width="1.8"/>
+<text x="122" y="218" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a5c3a">STEP 1 — MILD</text>
+<text x="122" y="238" text-anchor="middle" font-size="10" fill="#222">Paracetamol, an NSAID</text>
+<text x="122" y="256" text-anchor="middle" font-size="10" fill="#222">Keep these going as you climb</text>
+
+<rect x="228" y="130" width="196" height="76" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.8"/>
+<text x="326" y="152" text-anchor="middle" font-size="12" font-weight="bold" fill="#8a6d1e">STEP 2 — MODERATE</text>
+<text x="326" y="172" text-anchor="middle" font-size="10" fill="#222">A weak opioid such as codeine</text>
+<text x="326" y="190" text-anchor="middle" font-size="10" fill="#222">added to step one</text>
+
+<rect x="432" y="64" width="184" height="76" fill="#f7ecec" stroke="#8b2f2f" stroke-width="1.8"/>
+<text x="524" y="86" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b2f2f">STEP 3 — SEVERE</text>
+<text x="524" y="106" text-anchor="middle" font-size="10" fill="#222">Morphine. No ceiling dose —</text>
+<text x="524" y="124" text-anchor="middle" font-size="10" fill="#222">the right dose relieves the pain</text>
+
+<rect x="24" y="288" width="285" height="98" fill="#eef4f8" stroke="#5a86a8" stroke-width="1.7"/>
+<text x="166" y="308" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a3a5c">BY THE CLOCK, NOT ON REQUEST</text>
+<g font-size="9.5" fill="#222">
+<text x="36" y="328">Regular doses keep pain away. Waiting</text>
+<text x="36" y="344">until it returns means chasing it, and</text>
+<text x="36" y="360">pain already established needs more</text>
+<text x="36" y="376">drug to control than pain prevented.</text>
+</g>
+
+<rect x="331" y="288" width="285" height="98" fill="#eaf3ea" stroke="#1a5c3a" stroke-width="1.7"/>
+<text x="473" y="308" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a5c3a">PRESCRIBE THE SIDE EFFECT TOO</text>
+<g font-size="9.5" fill="#222">
+<text x="345" y="328">Constipation happens to everyone on</text>
+<text x="345" y="344">morphine and never wears off, so a</text>
+<text x="345" y="360">laxative starts with the first dose.</text>
+<text x="345" y="376">Nausea and drowsiness usually settle.</text>
+</g>
+
+<rect x="24" y="398" width="592" height="42" fill="#f7ecec" stroke="#8b2f2f" stroke-width="1.7"/>
+<text x="320" y="418" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#8b2f2f">The pain is whatever the patient says it is, occurring wherever the patient says it does.</text>
+<text x="320" y="434" text-anchor="middle" font-size="10.5" font-style="italic" fill="#222">Morphine given for genuine pain does not cause addiction, and it does not shorten life. Both fears are myths.</text>
+</svg>

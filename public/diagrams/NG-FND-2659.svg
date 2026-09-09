@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 620" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+</style>
+<rect width="880" height="620" fill="#f7fafb"/>
+<text class="t" x="24" y="32">First aid: the do-nots are what the examiner asks about</text>
+
+<rect class="ok" x="24" y="48" width="410" height="164"/>
+<text class="h" x="42" y="72">BURNS</text>
+<text class="b" x="42" y="100">Cool with clean running water for 20 MINUTES</text>
+<text class="b" x="42" y="122">Remove jewellery and clothing unless stuck</text>
+<text class="b" x="42" y="144">Cover with clean non-fluffy material or cling film</text>
+<text class="k" x="42" y="174">Do NOT apply ice, toothpaste, egg, palm oil,</text>
+<text class="k" x="42" y="194">shea butter or herbal preparations.</text>
+
+<rect class="warn" x="450" y="48" width="406" height="164"/>
+<text class="k" x="468" y="72">SNAKEBITE</text>
+<text class="b" x="468" y="100">Keep the person still and calm. Immobilise the</text>
+<text class="b" x="468" y="122">limb at heart level. Transport urgently.</text>
+<text class="k" x="468" y="152">Do NOT cut the wound, suck the venom,</text>
+<text class="k" x="468" y="172">apply a tight tourniquet, use ice, or give</text>
+<text class="k" x="468" y="192">alcohol. Movement pumps venom onward.</text>
+
+<rect class="ok" x="24" y="230" width="410" height="164"/>
+<text class="h" x="42" y="254">EPISTAXIS — nose bleed</text>
+<text class="b" x="42" y="282">Sit UP and lean FORWARD</text>
+<text class="b" x="42" y="304">Pinch the SOFT part of the nose for 10 minutes</text>
+<text class="b" x="42" y="326">without releasing to check</text>
+<text class="k" x="42" y="356">Do NOT tilt the head back — blood then runs</text>
+<text class="k" x="42" y="376">down the throat, is swallowed, and causes</text>
+
+<rect class="warn" x="450" y="230" width="406" height="164"/>
+<text class="k" x="468" y="254">SEIZURE</text>
+<text class="b" x="468" y="282">Protect the head, clear the area, time it,</text>
+<text class="b" x="468" y="304">recovery position AFTER it stops</text>
+<text class="k" x="468" y="334">Do NOT restrain the person and do NOT put</text>
+<text class="k" x="468" y="354">anything in the mouth. They cannot swallow</text>
+<text class="k" x="468" y="374">the tongue. You will break teeth or fingers.</text>
+<text class="i" x="468" y="392">Call for help if it lasts over 5 minutes.</text>
+
+<rect class="box" x="24" y="412" width="410" height="192"/>
+<text class="h" x="42" y="436">SEVERE BLEEDING</text>
+<text class="b" x="42" y="464">DIRECT PRESSURE on the wound, firmly</text>
+<text class="b" x="42" y="486">Elevate the limb if no fracture</text>
+<text class="b" x="42" y="508">Add dressings ON TOP — do not remove soaked</text>
+<text class="b" x="42" y="530">ones, you strip away the forming clot</text>
+<text class="k" x="42" y="560">Tourniquet only for catastrophic limb bleeding</text>
+<text class="k" x="42" y="580">that pressure cannot control. Note the TIME.</text>
+<text class="i" x="42" y="598">An embedded object is left in place and padded around.</text>
+
+<rect class="box" x="450" y="412" width="406" height="192"/>
+<text class="h" x="468" y="436">FRACTURE and SPINAL INJURY</text>
+<text class="b" x="468" y="464">Immobilise the joint ABOVE and BELOW</text>
+<text class="b" x="468" y="486">Check circulation beyond the splint before</text>
+<text class="b" x="468" y="508">and after applying it</text>
+<text class="k" x="468" y="538">Suspected spine: do NOT move unless there is</text>
+<text class="k" x="468" y="558">danger. Manual in-line stabilisation of the head.</text>
+<text class="s" x="468" y="582">If they must be moved, log roll with enough</text>
+<text class="s" x="468" y="600">people to keep head, spine and pelvis aligned.</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="400" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">HANDOVER — WHERE PATIENTS ARE MOST OFTEN LOST</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">Most serious errors begin as information that existed but never crossed a shift boundary.</text>
+
+<rect x="20" y="58" width="600" height="24" fill="#1a3a5c"/>
+<text x="320" y="76" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">S · B · A · R</text>
+
+<g font-size="10.5">
+<rect x="20" y="82" width="600" height="56" fill="#eef4f8"/>
+<text x="36" y="104" font-size="12" font-weight="bold" fill="#1a3a5c">SITUATION</text>
+<text x="180" y="102" fill="#222">Who you are, who the patient is, and what is wrong right now</text>
+<text x="180" y="122" fill="#222" font-style="italic">"Bed 6, Mr Mensah, 54, his breathing has worsened in the last hour."</text>
+
+<rect x="20" y="138" width="600" height="56" fill="#fff"/>
+<text x="36" y="160" font-size="12" font-weight="bold" fill="#1a3a5c">BACKGROUND</text>
+<text x="180" y="158" fill="#222">Why he is here and what is relevant — not his whole life story</text>
+<text x="180" y="178" fill="#222" font-style="italic">"Day 3 after laparotomy, known asthmatic, on IV fluids and antibiotics."</text>
+
+<rect x="20" y="194" width="600" height="56" fill="#eef4f8"/>
+<text x="36" y="216" font-size="12" font-weight="bold" fill="#1a3a5c">ASSESSMENT</text>
+<text x="180" y="214" fill="#222">Your observations and what you think is happening</text>
+<text x="180" y="234" fill="#222" font-style="italic">"Resp 32, sats 88 percent on air, using accessory muscles. I think he is deteriorating."</text>
+
+<rect x="20" y="250" width="600" height="56" fill="#fff"/>
+<text x="36" y="272" font-size="12" font-weight="bold" fill="#1a3a5c">RECOMMENDATION</text>
+<text x="180" y="270" fill="#222">What you want to happen, and by when — say it out loud</text>
+<text x="180" y="290" fill="#222" font-style="italic">"Please review him within ten minutes. May I start oxygen now?"</text>
+</g>
+<rect x="20" y="82" width="600" height="224" fill="none" stroke="#1a3a5c" stroke-width="1.5"/>
+<line x1="170" y1="82" x2="170" y2="306" stroke="#9bb4c8"/>
+
+<rect x="20" y="318" width="600" height="66" fill="#f7ecec" stroke="#c08a8a" stroke-width="1.5"/>
+<text x="320" y="338" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b2f2f">WHY THE R MATTERS MOST</text>
+<text x="34" y="358" font-size="10.5" fill="#222">Nurses are often trained to hint rather than ask. "He does not look very well" leaves the listener to guess how</text>
+<text x="34" y="376" font-size="10.5" fill="#222">worried you are. State the request plainly, with a timeframe, and escalate if you do not get it.</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" width="100%" role="img">
+<rect x="0" y="0" width="760" height="500" fill="#fdfcfa"/>
+<text x="20" y="30" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="#1d4e63">Consent: a signature is the receipt, not the consent</text>
+<text x="20" y="52" font-family="Georgia,serif" font-size="13" fill="#555">The form records that a conversation happened. If the conversation did not happen, the form is worth nothing.</text>
+
+<rect x="20" y="68" width="348" height="200" rx="6" fill="#f2f7f2" stroke="#2e7d5b"/>
+<text x="34" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d5c42">Four things must all be true</text>
+<circle cx="44" cy="112" r="5" fill="#2e7d5b"/><text x="58" y="117" font-family="Georgia,serif" font-size="12" fill="#333">She has capacity for this decision</text>
+<circle cx="44" cy="140" r="5" fill="#2e7d5b"/><text x="58" y="145" font-family="Georgia,serif" font-size="12" fill="#333">She was told what it is, what it risks,</text>
+<text x="58" y="161" font-family="Georgia,serif" font-size="12" fill="#333">and what happens if she declines</text>
+<circle cx="44" cy="184" r="5" fill="#2e7d5b"/><text x="58" y="189" font-family="Georgia,serif" font-size="12" fill="#333">She understood it, in her own language</text>
+<circle cx="44" cy="212" r="5" fill="#2e7d5b"/><text x="58" y="217" font-family="Georgia,serif" font-size="12" fill="#333">She agreed freely, without pressure</text>
+<text x="34" y="248" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#1d5c42">Remove any one and the consent is invalid,</text>
+<text x="34" y="264" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#1d5c42">however neatly the form is signed.</text>
+
+<rect x="382" y="68" width="358" height="200" rx="6" fill="#fff3f0" stroke="#c0392b"/>
+<text x="396" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#7a2020">Capacity is presumed and decision-specific</text>
+<text x="396" y="112" font-family="Georgia,serif" font-size="12" fill="#333">Start from the assumption that she has it.</text>
+<text x="396" y="132" font-family="Georgia,serif" font-size="12" fill="#333">A diagnosis does not remove it. Nor does old</text>
+<text x="396" y="150" font-family="Georgia,serif" font-size="12" fill="#333">age, illiteracy, or a decision you disagree with.</text>
+<text x="396" y="176" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7a2020">She may have capacity to refuse a wash</text>
+<text x="396" y="194" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7a2020">and lack it for a decision about surgery.</text>
+<text x="396" y="220" font-family="Georgia,serif" font-size="12" fill="#333">Assess for this decision, at this moment,</text>
+<text x="396" y="238" font-family="Georgia,serif" font-size="12" fill="#333">and try again when she is clearer.</text>
+<text x="396" y="260" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#7a2020">An unwise choice is not an incapable one.</text>
+
+<rect x="20" y="284" width="720" height="94" rx="6" fill="#eef4f8" stroke="#2b6b8a"/>
+<text x="34" y="306" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d4e63">Children and young people</text>
+<text x="34" y="328" font-family="Georgia,serif" font-size="12" fill="#333">The parent or guardian gives legal consent. The child gives assent — an age-appropriate explanation and the chance to</text>
+<text x="34" y="346" font-family="Georgia,serif" font-size="12" fill="#333">agree. Assent is not legally required, but a child held down for a procedure nobody explained learns to fear the ward,</text>
+<text x="34" y="364" font-family="Georgia,serif" font-size="12" fill="#333">and a maturing adolescent's own view carries increasing weight as she approaches adulthood.</text>
+
+<rect x="20" y="392" width="352" height="92" rx="6" fill="#fff8e8" stroke="#b8860b"/>
+<text x="34" y="414" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#8a6508">When the family signs instead</text>
+<text x="34" y="436" font-family="Georgia,serif" font-size="12" fill="#333">A husband, a head of family or an elder may</text>
+<text x="34" y="454" font-family="Georgia,serif" font-size="12" fill="#333">expect to decide. Their view is worth hearing,</text>
+<text x="34" y="472" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#8a6508">but it cannot replace a competent adult's own.</text>
+
+<rect x="388" y="392" width="352" height="92" rx="6" fill="#f6f2fa" stroke="#6b4c93"/>
+<text x="402" y="414" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#4a326b">Consent is a process, not a moment</text>
+<text x="402" y="436" font-family="Georgia,serif" font-size="12" fill="#333">It can be withdrawn at any point, including</text>
+<text x="402" y="454" font-family="Georgia,serif" font-size="12" fill="#333">halfway through. If she says stop, you stop</text>
+<text x="402" y="472" font-family="Georgia,serif" font-size="12" fill="#333">and find out why before you continue.</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 620" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.ph{fill:#eef4f8;stroke:#8fa9bd;stroke-width:1.4;rx:6}
+</style>
+<rect width="880" height="620" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Acute kidney injury: locate the fault before you treat it</text>
+
+<rect class="ph" x="24" y="48" width="268" height="230"/>
+<text class="h" x="42" y="74">PRE-RENAL — before the kidney</text>
+<text class="s" x="42" y="98">The kidney is healthy but starved</text>
+<text class="s" x="42" y="116">of blood.</text>
+<text class="b" x="42" y="146">Dehydration, haemorrhage,</text>
+<text class="b" x="42" y="166">vomiting, diarrhoea, sepsis,</text>
+<text class="b" x="42" y="186">heart failure, burns.</text>
+<text class="k" x="42" y="216">Urine: SMALL and CONCENTRATED</text>
+<text class="k" x="42" y="240">Treat: RESTORE the circulation</text>
+<text class="i" x="42" y="266">Reversible if caught early.</text>
+
+<rect class="ph" x="306" y="48" width="268" height="230"/>
+<text class="h" x="324" y="74">RENAL — the kidney itself</text>
+<text class="s" x="324" y="98">The tissue is damaged.</text>
+<text class="b" x="324" y="128">Nephrotoxic drugs — gentamicin,</text>
+<text class="b" x="324" y="148">NSAIDs, contrast.</text>
+<text class="b" x="324" y="168">Glomerulonephritis, prolonged</text>
+<text class="b" x="324" y="188">pre-renal injury, myoglobin from</text>
+<text class="b" x="324" y="208">crush injury, severe malaria.</text>
+<text class="k" x="324" y="240">Treat: REMOVE the toxin, support</text>
+<text class="i" x="324" y="266">Recovery takes weeks, if at all.</text>
+
+<rect class="ph" x="588" y="48" width="268" height="230"/>
+<text class="h" x="606" y="74">POST-RENAL — after the kidney</text>
+<text class="s" x="606" y="98">Urine is made but cannot escape.</text>
+<text class="b" x="606" y="128">Enlarged prostate, stones,</text>
+<text class="b" x="606" y="148">blocked catheter, tumour,</text>
+<text class="b" x="606" y="168">cervical cancer.</text>
+<text class="k" x="606" y="198">Urine: SUDDEN ANURIA</text>
+<text class="k" x="606" y="228">Treat: RELIEVE the obstruction</text>
+<text class="i" x="606" y="258">Always check the catheter first —</text>
+<text class="i" x="606" y="274">it is the cheapest thing to fix.</text>
+
+<rect class="warn" x="24" y="296" width="832" height="146"/>
+<text class="k" x="42" y="320">The complications that kill, in the order they kill</text>
+<text class="k" x="42" y="350">1  HYPERKALAEMIA — the fastest. Cardiac arrest with no warning. Peaked T waves on ECG.</text>
+<text class="b" x="42" y="376">2  Fluid overload — pulmonary oedema, because the fluid has nowhere to go.</text>
+<text class="b" x="42" y="400">3  Metabolic acidosis — acid is retained; the patient breathes deeply to compensate.</text>
+<text class="b" x="42" y="424">4  Uraemia — confusion, nausea, itching, pericardial rub.</text>
+
+<rect class="ok" x="24" y="458" width="832" height="146"/>
+<text class="h" x="42" y="482">What the nurse actually does</text>
+<text class="b" x="42" y="510">Hourly urine output — the single most useful observation. Under 0.5 mL/kg/hour for 6 hours is injury.</text>
+<text class="b" x="42" y="534">Daily WEIGHT at the same time on the same scale. In anuria, weight gain IS fluid retention.</text>
+<text class="b" x="42" y="558">Strict fluid balance. Review every drug for nephrotoxicity. Watch potassium.</text>
+<text class="k" x="42" y="588">Sudden complete anuria is obstruction until proved otherwise — flush or change the catheter first.</text>
+</svg>

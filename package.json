@@ -6,7 +6,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "verify:bank": "tsx src/db/verify-authored-bank.ts",
+    "prebuild": "tsx src/db/verify-authored-bank.ts",
+    "reseed:authored": "tsx src/db/reseed-authored.ts"
   },
   "dependencies": {
     "@capacitor/android": "^8.5.0",

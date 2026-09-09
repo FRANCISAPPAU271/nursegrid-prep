@@ -1,0 +1,35 @@
+<svg viewBox="0 0 720 470" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect x="0" y="0" width="720" height="470" fill="#f9f7f4"/>
+<text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#5b4a2e">Frailty: why a small insult produces a large collapse</text>
+<text x="360" y="50" text-anchor="middle" font-size="12.5" fill="#7a6a58">The illness is often trivial. The reserve is what is missing.</text>
+
+<rect x="30" y="66" width="660" height="118" rx="7" fill="#f2ece2" stroke="#c9b79c"/>
+<text x="45" y="87" font-size="13.5" font-weight="bold" fill="#5b4a2e">The same event, two different people</text>
+<text x="52" y="110" font-size="12" fill="#3f3428">A urinary infection in a fit 40-year-old: burning, frequency, a course of antibiotics, back to work</text>
+<text x="52" y="131" font-size="12" fill="#3f3428">The same infection in a frail 82-year-old: sudden confusion, a fall, unable to stand, admitted</text>
+<text x="52" y="154" font-size="12" font-weight="bold" fill="#8a3018">Nothing about the infection differs. What differs is what was left in reserve.</text>
+<text x="52" y="175" font-size="11.5" font-style="italic" fill="#7a5a2a">So the presenting problem is a fall or confusion, and the diagnosis is somewhere else entirely</text>
+
+<rect x="30" y="202" width="325" height="146" rx="7" fill="#f6e9e6" stroke="#c98f80"/>
+<text x="45" y="223" font-size="13.5" font-weight="bold" fill="#8a3018">The five presentations that hide a cause</text>
+<text x="45" y="244" font-size="11.5" fill="#3f2b26">Sudden confusion</text>
+<text x="45" y="263" font-size="11.5" fill="#3f2b26">A fall, or several falls</text>
+<text x="45" y="282" font-size="11.5" fill="#3f2b26">Not eating, or a sudden loss of weight</text>
+<text x="45" y="301" font-size="11.5" fill="#3f2b26">New incontinence in someone who was dry</text>
+<text x="45" y="320" font-size="11.5" fill="#3f2b26">Taking to the bed and stopping walking</text>
+<text x="45" y="339" font-size="11" font-style="italic" fill="#7a5a2a">Each one is a symptom, never a diagnosis</text>
+
+<rect x="365" y="202" width="325" height="146" rx="7" fill="#eaf1f7" stroke="#9fb9cd"/>
+<text x="380" y="223" font-size="13.5" font-weight="bold" fill="#1d3f5e">What to look for underneath</text>
+<text x="380" y="244" font-size="11.5" fill="#26333d">Infection, most often chest or urine</text>
+<text x="380" y="263" font-size="11.5" fill="#26333d">A new medicine, or a dose that is now too big</text>
+<text x="380" y="282" font-size="11.5" fill="#26333d">Dehydration, constipation, retention of urine</text>
+<text x="380" y="301" font-size="11.5" fill="#26333d">Pain that nobody has asked about</text>
+<text x="380" y="320" font-size="11.5" fill="#26333d">Low sodium, low glucose, a silent heart attack</text>
+<text x="380" y="339" font-size="11.5" font-weight="bold" fill="#26333d">Start with the bladder and the drug chart</text>
+
+<rect x="30" y="366" width="660" height="88" rx="7" fill="#e9f2ec" stroke="#8fb59d"/>
+<text x="45" y="387" font-size="13.5" font-weight="bold" fill="#1d5236">The temperature that is not there</text>
+<text x="52" y="410" font-size="12" fill="#26333d">An older person with serious infection is often afebrile, and may be hypothermic instead</text>
+<text x="52" y="431" font-size="12" font-weight="bold" fill="#1d5236">A normal temperature does not exclude sepsis. Behaviour changes before the thermometer does.</text>
+</svg>

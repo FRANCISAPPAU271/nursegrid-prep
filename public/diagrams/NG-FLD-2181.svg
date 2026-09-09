@@ -1,0 +1,48 @@
+<svg viewBox="0 0 720 480" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect x="0" y="0" width="720" height="480" fill="#f7f9fb"/>
+<text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#1d3f5e">Running a drip safely, and knowing when to stop it</text>
+<text x="360" y="50" text-anchor="middle" font-size="12.5" fill="#5c6f80">The commonest fluid error on a ward is giving too much, too fast, to the wrong patient</text>
+
+<rect x="30" y="66" width="325" height="176" rx="7" fill="#f2ece2" stroke="#c9b79c"/>
+<text x="45" y="87" font-size="13.5" font-weight="bold" fill="#5b4a2e">The drop rate formula</text>
+<text x="45" y="112" font-size="12.5" font-weight="bold" fill="#3f3428">volume in mL × drop factor</text>
+<line x1="45" y1="120" x2="290" y2="120" stroke="#5b4a2e" stroke-width="1.5"/>
+<text x="45" y="140" font-size="12.5" font-weight="bold" fill="#3f3428">time in minutes</text>
+<text x="45" y="166" font-size="11.5" fill="#3f3428">Adult giving set: 20 drops per mL</text>
+<text x="45" y="184" font-size="11.5" fill="#3f3428">Blood set: 15 drops per mL</text>
+<text x="45" y="202" font-size="11.5" fill="#3f3428">Paediatric burette: 60 drops per mL</text>
+<text x="45" y="226" font-size="11" font-style="italic" fill="#7a5a2a">1000 mL over 8 hours at 20 drops/mL = about 42 drops a minute</text>
+
+<rect x="365" y="66" width="325" height="176" rx="7" fill="#f6e9e6" stroke="#c98f80"/>
+<text x="380" y="87" font-size="13.5" font-weight="bold" fill="#8a3018">Signs you are giving too much</text>
+<text x="380" y="110" font-size="11.5" fill="#3f2b26">Breathlessness, and it started while the drip ran</text>
+<text x="380" y="128" font-size="11.5" fill="#3f2b26">Crackles at the lung bases</text>
+<text x="380" y="146" font-size="11.5" fill="#3f2b26">Rising pulse and rising respiratory rate</text>
+<text x="380" y="164" font-size="11.5" fill="#3f2b26">Neck veins full, new swelling of the legs</text>
+<text x="380" y="182" font-size="11.5" fill="#3f2b26">Frothy pink sputum — this is very late</text>
+<text x="380" y="205" font-size="11.5" font-weight="bold" fill="#8a3018">Slow or stop the infusion, sit the patient up,</text>
+<text x="380" y="222" font-size="11.5" font-weight="bold" fill="#8a3018">give oxygen, and call. Do not simply carry on.</text>
+
+<rect x="30" y="258" width="325" height="196" rx="7" fill="#f6d9d2" stroke="#a8321c" stroke-width="1.4"/>
+<text x="45" y="279" font-size="13.5" font-weight="bold" fill="#8a3018">Patients who overload easily</text>
+<text x="45" y="302" font-size="11.5" fill="#3f2b26">The very old and the very young</text>
+<text x="45" y="320" font-size="11.5" fill="#3f2b26">Heart failure of any cause</text>
+<text x="45" y="338" font-size="11.5" fill="#3f2b26">Kidney failure, or anyone passing little urine</text>
+<text x="45" y="356" font-size="11.5" fill="#3f2b26">Severe anaemia — the heart is already working hard</text>
+<text x="45" y="374" font-size="11.5" fill="#3f2b26">Severe acute malnutrition — a special case</text>
+<text x="45" y="398" font-size="11.5" font-weight="bold" fill="#8a3018">In severe malnutrition the heart is weak and</text>
+<text x="45" y="415" font-size="11.5" font-weight="bold" fill="#8a3018">standard rehydration kills. Use ReSoMal, slowly,</text>
+<text x="45" y="432" font-size="11.5" font-weight="bold" fill="#8a3018">and stop if the pulse and breathing rise.</text>
+<text x="45" y="450" font-size="11" font-style="italic" fill="#7a5a2a">A rising pulse during rehydration means too much, not too little.</text>
+
+<rect x="365" y="258" width="325" height="196" rx="7" fill="#e9f2ec" stroke="#8fb59d"/>
+<text x="380" y="279" font-size="13.5" font-weight="bold" fill="#1d5236">What to check before you start it</text>
+<text x="380" y="302" font-size="11.5" fill="#26333d">The prescription: fluid, volume, rate, additives</text>
+<text x="380" y="320" font-size="11.5" fill="#26333d">The bag: name, strength, expiry, clarity, seal</text>
+<text x="380" y="338" font-size="11.5" fill="#26333d">The patient: identity, allergy, weight</text>
+<text x="380" y="356" font-size="11.5" fill="#26333d">The site: no redness, swelling, pain or leak</text>
+<text x="380" y="374" font-size="11.5" fill="#26333d">The urine output since the last bag</text>
+<text x="380" y="398" font-size="11.5" font-weight="bold" fill="#1d5236">And check the whole chart, not one line:</text>
+<text x="380" y="415" font-size="11.5" font-weight="bold" fill="#1d5236">how much has this patient already had today?</text>
+<text x="380" y="438" font-size="11" font-style="italic" fill="#7a5a2a">Fluid is a drug. The bag has a dose and the dose can be exceeded.</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="400" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">LEVELS OF THE GHANA HEALTH SERVICE — AND WHERE CHPS SITS</text>
+
+<polygon points="320,44 470,110 170,110" fill="#1a3a5c"/>
+<text x="320" y="86" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">TEACHING HOSPITALS</text>
+<text x="320" y="102" text-anchor="middle" font-size="9.5" fill="#dce8f0">tertiary · specialist · training · research</text>
+
+<polygon points="170,114 470,114 510,170 130,170" fill="#2f5f8a"/>
+<text x="320" y="140" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">REGIONAL HOSPITALS</text>
+<text x="320" y="158" text-anchor="middle" font-size="9.5" fill="#dce8f0">secondary referral for the region</text>
+
+<polygon points="130,174 510,174 550,230 90,230" fill="#5a86a8"/>
+<text x="320" y="200" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">DISTRICT HOSPITALS</text>
+<text x="320" y="218" text-anchor="middle" font-size="9.5" fill="#f2f7fa">first referral point · theatre · blood · the hub of the district</text>
+
+<polygon points="90,234 550,234 590,290 50,290" fill="#8fb98f"/>
+<text x="320" y="260" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a3a2a">HEALTH CENTRES AND CLINICS</text>
+<text x="320" y="278" text-anchor="middle" font-size="9.5" fill="#1a3a2a">sub-district · outpatient · maternity · outreach</text>
+
+<rect x="50" y="294" width="540" height="56" fill="#1a5c3a"/>
+<text x="320" y="316" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">CHPS ZONE — COMMUNITY-BASED HEALTH PLANNING AND SERVICES</text>
+<text x="320" y="334" text-anchor="middle" font-size="10" fill="#dcecdc">a community health officer living in the community · home visits · the service moves to the people</text>
+
+<text x="320" y="372" text-anchor="middle" font-size="11" fill="#222">Referral runs upward when the case exceeds the level's capacity —</text>
+<text x="320" y="388" text-anchor="middle" font-size="11" fill="#222">and back down again, with a written reply, so that follow-up happens near home.</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg viewBox="0 0 720 470" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect x="0" y="0" width="720" height="470" fill="#fdf7f6"/>
+<text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#7c2418">The drug chart is the commonest reversible cause</text>
+<text x="360" y="50" text-anchor="middle" font-size="12.5" fill="#8a6a60">In an older person, the same dose is a bigger dose</text>
+
+<rect x="30" y="66" width="325" height="150" rx="7" fill="#f9ece9" stroke="#c98f80"/>
+<text x="45" y="87" font-size="13.5" font-weight="bold" fill="#7c2418">Why the body handles drugs differently</text>
+<text x="45" y="108" font-size="11.5" fill="#3f2b26">Kidney clearance falls with age even when</text>
+<text x="45" y="124" font-size="11.5" fill="#3f2b26">the creatinine reading looks normal</text>
+<text x="45" y="145" font-size="11.5" fill="#3f2b26">Less muscle and more fat changes where</text>
+<text x="45" y="161" font-size="11.5" fill="#3f2b26">the drug goes and how long it stays</text>
+<text x="45" y="182" font-size="11.5" fill="#3f2b26">The brain is more sensitive to sedation</text>
+<text x="45" y="203" font-size="11.5" font-weight="bold" fill="#8a3018">Start low, go slow, and review</text>
+
+<rect x="365" y="66" width="325" height="150" rx="7" fill="#f6e2de" stroke="#c98f80"/>
+<text x="380" y="87" font-size="13.5" font-weight="bold" fill="#7c2418">The prescribing cascade</text>
+<text x="380" y="108" font-size="11.5" fill="#3f2b26">A drug causes a side effect</text>
+<text x="380" y="127" font-size="11.5" fill="#3f2b26">The side effect is read as a new disease</text>
+<text x="380" y="146" font-size="11.5" fill="#3f2b26">A second drug is added to treat it</text>
+<text x="380" y="165" font-size="11.5" fill="#3f2b26">That drug has side effects of its own</text>
+<text x="380" y="186" font-size="11.5" font-weight="bold" fill="#8a3018">Ask when the symptom started, and what</text>
+<text x="380" y="204" font-size="11.5" font-weight="bold" fill="#8a3018">was prescribed just before it</text>
+
+<rect x="30" y="238" width="660" height="98" rx="7" fill="#efe4d4" stroke="#c9a678"/>
+<text x="45" y="259" font-size="13.5" font-weight="bold" fill="#7a4a12">Groups that repay a second look</text>
+<text x="52" y="282" font-size="12" fill="#3f2b26">Sedatives and sleeping tablets &#8212; confusion, falls, and dependence within weeks</text>
+<text x="52" y="303" font-size="12" fill="#3f2b26">Drugs that dry: confusion, dry mouth, constipation, retention of urine, blurred vision</text>
+<text x="52" y="324" font-size="12" fill="#3f2b26">Anti-inflammatories &#8212; bleeding stomach, failing kidney, rising blood pressure</text>
+
+<rect x="30" y="354" width="325" height="100" rx="7" fill="#e9f2ec" stroke="#8fb59d"/>
+<text x="45" y="375" font-size="13.5" font-weight="bold" fill="#1d5236">What the nurse can do</text>
+<text x="45" y="396" font-size="11.5" fill="#26333d">Bring every container, including herbal</text>
+<text x="45" y="412" font-size="11.5" fill="#26333d">remedies and tablets bought at the market</text>
+<text x="45" y="433" font-size="11.5" fill="#26333d">Count what is left, and ask what she</text>
+<text x="45" y="449" font-size="11.5" font-weight="bold" fill="#26333d">actually takes, not what is written</text>
+
+<rect x="365" y="354" width="325" height="100" rx="7" fill="#eaf1f7" stroke="#9fb9cd"/>
+<text x="380" y="375" font-size="13.5" font-weight="bold" fill="#1d3f5e">The question that finds the problem</text>
+<text x="380" y="396" font-size="11.5" fill="#26333d">&#8220;Which of these do you skip, and why?&#8221;</text>
+<text x="380" y="417" font-size="11.5" fill="#26333d">Cost, the size of the tablet, going out at</text>
+<text x="380" y="433" font-size="11.5" fill="#26333d">night to pass urine, or nobody explained</text>
+<text x="380" y="450" font-size="11.5" font-weight="bold" fill="#26333d">what it was for in the first place</text>
+</svg>

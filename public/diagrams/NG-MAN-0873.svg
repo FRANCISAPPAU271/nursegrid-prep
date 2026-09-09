@@ -1,0 +1,42 @@
+<svg viewBox="0 0 640 430" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="430" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">WHEN SOMETHING GOES WRONG — TWO WAYS TO RESPOND</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">The same drug error, handled two ways, produces opposite results a year later.</text>
+
+<rect x="34" y="62" width="272" height="290" fill="#f7ecec" stroke="#8b2f2f" stroke-width="1.8"/>
+<text x="170" y="86" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#8b2f2f">BLAME CULTURE</text>
+<g font-size="10.5" fill="#222">
+<text x="46" y="112">Question asked: WHO did this?</text>
+<text x="46" y="138">The nurse is queried, disciplined,</text>
+<text x="46" y="152">and told to be more careful</text>
+<text x="46" y="178">Everyone learns that reporting</text>
+<text x="46" y="192">costs you something</text>
+<text x="46" y="218">Near misses stop being reported</text>
+<text x="46" y="244">The system that allowed it is</text>
+<text x="46" y="258">left exactly as it was</text>
+<text x="46" y="284" font-weight="bold" fill="#8b2f2f">The next nurse makes the same</text>
+<text x="46" y="298" font-weight="bold" fill="#8b2f2f">error, and nobody sees it coming</text>
+<text x="46" y="326" font-style="italic">Errors do not fall. They go quiet.</text>
+</g>
+
+<rect x="334" y="62" width="272" height="290" fill="#eaf3ea" stroke="#1a5c3a" stroke-width="1.8"/>
+<text x="470" y="86" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1a5c3a">JUST CULTURE</text>
+<g font-size="10.5" fill="#222">
+<text x="346" y="112">Question asked: WHAT allowed this?</text>
+<text x="346" y="138">Patient told and treated first.</text>
+<text x="346" y="152">Then the incident is reported</text>
+<text x="346" y="178">Look for look-alike labels, staffing,</text>
+<text x="346" y="192">interruptions, unclear prescriptions</text>
+<text x="346" y="218">The system is changed, and the</text>
+<text x="346" y="232">change is checked later</text>
+<text x="346" y="258">Reckless or deliberate acts are</text>
+<text x="346" y="272">still dealt with individually</text>
+<text x="346" y="298" font-weight="bold" fill="#1a5c3a">Reporting rises, and real harm</text>
+<text x="346" y="312" font-weight="bold" fill="#1a5c3a">falls, because causes get fixed</text>
+<text x="346" y="338" font-style="italic">A rise in reports is good news.</text>
+</g>
+
+<text x="320" y="380" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a3a5c">First duty after any error: tell the patient, treat the harm, then report it.</text>
+<text x="320" y="404" text-anchor="middle" font-size="10.5" fill="#333">The incident form is not a punishment record. It is how the ward learns without another patient paying.</text>
+<text x="320" y="424" text-anchor="middle" font-size="10.5" font-style="italic" fill="#8b2f2f">Just culture is not no accountability — it separates honest error from recklessness.</text>
+</svg>

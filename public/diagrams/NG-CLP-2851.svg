@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 600" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.f{font:700 15px Georgia,serif;fill:#0f5a52}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.calc{fill:#eef4f8;stroke:#8fa9bd;stroke-width:1.4;rx:6}
+</style>
+<rect width="880" height="600" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Infusion rates: two formulas, and the sense-check that saves you</text>
+
+<rect class="ok" x="24" y="48" width="410" height="176"/>
+<text class="h" x="42" y="72">Drops per minute — gravity giving set</text>
+<rect class="calc" x="42" y="86" width="374" height="60"/>
+<text class="f" x="56" y="112">volume (mL) x drop factor</text>
+<text class="f" x="56" y="136">------------------------------  = drops/min</text>
+<text class="f" x="290" y="112">time (minutes)</text>
+<text class="b" x="42" y="172">Standard adult set = 20 drops/mL</text>
+<text class="b" x="42" y="194">Blood set = 15 drops/mL</text>
+<text class="k" x="42" y="216">Paediatric burette = 60 drops/mL</text>
+
+<rect class="ok" x="450" y="48" width="406" height="176"/>
+<text class="h" x="468" y="72">Millilitres per hour — infusion pump</text>
+<rect class="calc" x="468" y="86" width="370" height="60"/>
+<text class="f" x="482" y="112">total volume (mL)</text>
+<text class="f" x="482" y="136">---------------------  = mL/hour</text>
+<text class="f" x="700" y="112">time (hours)</text>
+<text class="b" x="468" y="172">1,000 mL over 8 hours = 125 mL/hour</text>
+<text class="s" x="468" y="196">A pump needs mL/hour. A gravity set needs</text>
+<text class="s" x="468" y="214">drops/minute. Know which you are setting.</text>
+
+<rect class="box" x="24" y="242" width="832" height="150"/>
+<text class="h" x="42" y="266">Worked example — 1,000 mL over 8 hours, standard 20 drop set</text>
+<text class="b" x="42" y="294">Step 1  Convert the time to minutes:  8 x 60 = 480 minutes</text>
+<text class="b" x="42" y="318">Step 2  Multiply volume by drop factor:  1,000 x 20 = 20,000</text>
+<text class="b" x="42" y="342">Step 3  Divide:  20,000 / 480 = 41.7, so set about 42 drops per minute</text>
+<text class="k" x="42" y="374">Sense-check: a bag over 8 hours is 125 mL/h, roughly 2 mL a minute, so about 40 drops. 42 fits.</text>
+
+<rect class="warn" x="24" y="410" width="832" height="174"/>
+<text class="k" x="42" y="434">The decimal point rules that prevent tenfold errors</text>
+<text class="b" x="42" y="462">ALWAYS a leading zero:  write 0.5 mg, never .5 mg — the dot is missed and 5 mg is given.</text>
+<text class="b" x="42" y="488">NEVER a trailing zero:  write 5 mg, never 5.0 mg — read as 50 mg if the point is faint.</text>
+<text class="b" x="42" y="514">Write micrograms in full. The abbreviation is misread as mg — a thousandfold error.</text>
+<text class="k" x="42" y="544">If your answer needs more than one whole tablet-and-a-half, or more than 2 mL intramuscularly,</text>
+<text class="k" x="42" y="564">or a number that looks surprising — stop and recalculate before you draw it up.</text>
+</svg>

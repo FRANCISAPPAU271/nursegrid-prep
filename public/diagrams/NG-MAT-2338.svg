@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 600" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.pill{fill:#eef4f8;stroke:#8fa9bd;stroke-width:1.3;rx:14}
+</style>
+<rect width="860" height="600" fill="#f7fafb"/>
+<text class="t" x="24" y="32">The postnatal period: where the deaths actually happen</text>
+<text class="i" x="24" y="52">Most maternal and newborn deaths occur in the first 24 hours and the first week — not during the birth itself.</text>
+
+<rect class="pill" x="24" y="68" width="180" height="40"/><text class="b" x="52" y="94">First 24 hours</text>
+<rect class="pill" x="216" y="68" width="180" height="40"/><text class="b" x="262" y="94">Day 3</text>
+<rect class="pill" x="408" y="68" width="180" height="40"/><text class="b" x="440" y="94">Day 7 to 14</text>
+<rect class="pill" x="600" y="68" width="236" height="40"/><text class="b" x="662" y="94">Six weeks</text>
+<text class="s" x="24" y="128">Four postnatal contacts, whether she gave birth in a facility or at home.</text>
+
+<rect class="box" x="24" y="144" width="398" height="200"/>
+<text class="h" x="40" y="168">Checking the mother</text>
+<text class="b" x="40" y="194">Uterus: firm, and descending about a</text>
+<text class="b" x="40" y="212">centimetre a day — impalpable by day 10</text>
+<text class="b" x="40" y="236">Lochia: rubra to serosa to alba</text>
+<text class="b" x="40" y="258">Temperature, pulse, blood pressure</text>
+<text class="b" x="40" y="280">Breasts, perineum, legs</text>
+<text class="b" x="40" y="302">Mood — ask directly, every visit</text>
+<text class="i" x="40" y="328">Bladder full? The uterus rises and deviates.</text>
+
+<rect class="warn" x="438" y="144" width="398" height="200"/>
+<text class="k" x="454" y="168">Maternal danger signs</text>
+<text class="b" x="454" y="194">Heavy bleeding — soaking a pad in 5 minutes</text>
+<text class="b" x="454" y="216">Fever, or foul-smelling lochia</text>
+<text class="b" x="454" y="238">Severe headache or visual disturbance</text>
+<text class="b" x="454" y="260">Convulsions — eclampsia still happens after birth</text>
+<text class="b" x="454" y="282">Calf pain, swelling, breathlessness</text>
+<text class="b" x="454" y="304">Thoughts of harming herself or the baby</text>
+<text class="k" x="454" y="330">A uterus that is high, soft and boggy is refilling.</text>
+
+<rect class="ok" x="24" y="362" width="812" height="106"/>
+<text class="h" x="40" y="386">Puerperal sepsis — the classic pattern</text>
+<text class="b" x="40" y="412">Fever with a tender, poorly contracted uterus and offensive lochia, usually from day 2 onwards.</text>
+<text class="b" x="40" y="434">Risk rises with prolonged rupture of membranes, repeated vaginal examinations, retained products and unclean birth.</text>
+<text class="k" x="40" y="458">Take cultures, start broad antibiotics without waiting for results, and hunt for retained products.</text>
+
+<rect class="box" x="24" y="486" width="812" height="94"/>
+<text class="h" x="40" y="510">Mood, and the distinction that matters</text>
+<text class="b" x="40" y="536">Baby blues: days 3 to 5, tearful, resolves within two weeks, needs support and no treatment.</text>
+<text class="b" x="40" y="558">Depression: persists beyond two weeks, affects function and bonding, needs treatment.</text>
+<text class="k" x="40" y="576">Psychosis: confusion, delusions, thoughts of harm — a psychiatric emergency, admit with the baby if possible.</text>
+</svg>

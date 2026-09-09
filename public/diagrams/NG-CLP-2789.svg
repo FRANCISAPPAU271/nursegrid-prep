@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 640" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.row{fill:#f2f7fa}
+</style>
+<rect width="880" height="640" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Reading a full blood count: the indices tell you the cause</text>
+
+<rect class="box" x="24" y="48" width="832" height="180"/>
+<rect class="row" x="34" y="60" width="812" height="30"/>
+<text class="h" x="48" y="81">MCV — average red cell size</text><text class="h" x="420" y="81">LIKELY CAUSE IN GHANA</text>
+<text class="k" x="48" y="112">LOW — microcytic, under 80 fL</text><text class="b" x="420" y="112">Iron deficiency, thalassaemia, chronic blood loss</text>
+<rect class="row" x="34" y="122" width="812" height="30"/>
+<text class="b" x="48" y="143">NORMAL — normocytic, 80 to 100</text><text class="b" x="420" y="143">Acute bleeding, chronic disease, haemolysis, malaria</text>
+<text class="k" x="48" y="174">HIGH — macrocytic, over 100 fL</text><text class="b" x="420" y="174">B12 or folate deficiency, alcohol, liver disease</text>
+<text class="i" x="48" y="208">Hookworm and heavy menstrual loss are the commonest reasons a Ghanaian adult is microcytic.</text>
+
+<rect class="ok" x="24" y="246" width="410" height="180"/>
+<text class="h" x="42" y="270">White cell differential</text>
+<text class="b" x="42" y="298">NEUTROPHILS up — bacterial infection</text>
+<text class="b" x="42" y="322">LYMPHOCYTES up — viral infection, TB</text>
+<text class="b" x="42" y="346">EOSINOPHILS up — parasites, allergy</text>
+<text class="s" x="42" y="368">Very common in Ghana: worms, schistosomiasis</text>
+<text class="k" x="42" y="398">NEUTROPHILS under 1.0 — the patient</text>
+<text class="k" x="42" y="418">cannot mount pus. Fever alone is an emergency.</text>
+
+<rect class="warn" x="450" y="246" width="406" height="180"/>
+<text class="k" x="468" y="270">Results that must be phoned, not filed</text>
+<text class="b" x="468" y="298">Potassium under 2.5 or over 6.5</text>
+<text class="b" x="468" y="322">Glucose under 2.5 or very high with ketones</text>
+<text class="b" x="468" y="346">Haemoglobin under 7 g/dL</text>
+<text class="b" x="468" y="370">Platelets under 20</text>
+<text class="b" x="468" y="394">Any positive blood culture</text>
+<text class="k" x="468" y="418">Read it back. Record who you told and when.</text>
+
+<rect class="box" x="24" y="444" width="832" height="176"/>
+<text class="h" x="42" y="468">Before you believe a result, ask whether the sample was any good</text>
+<text class="b" x="42" y="496">A potassium of 6.8 in a well patient with a normal ECG is far more likely haemolysis than hyperkalaemia.</text>
+<text class="b" x="42" y="522">A sample taken from the arm with the drip running measures the drip, not the patient.</text>
+<text class="b" x="42" y="548">A glucose taken hours ago and left standing reads falsely low — the cells keep consuming it.</text>
+<text class="k" x="42" y="578">Repeat the sample when the result and the patient disagree. Never treat a number you do not believe,</text>
+<text class="k" x="42" y="598">and never ignore one either. Repeat it, and treat the patient in front of you meanwhile.</text>
+<text class="i" x="42" y="616">The quality of the specimen sets the ceiling on the result.</text>
+</svg>

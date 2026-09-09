@@ -1,0 +1,41 @@
+<svg viewBox="0 0 720 470" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect x="0" y="0" width="720" height="470" fill="#f7f9fb"/>
+<text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#1d3f5e">Where the water sits, and what moves it</text>
+<text x="360" y="50" text-anchor="middle" font-size="12.5" fill="#5c6f80">Water follows salt. Salt does not follow water.</text>
+
+<rect x="30" y="66" width="325" height="182" rx="7" fill="#eaf1f7" stroke="#9fb9cd"/>
+<text x="45" y="87" font-size="13.5" font-weight="bold" fill="#1d3f5e">Total body water, roughly two thirds of you</text>
+<rect x="45" y="98" width="200" height="46" fill="#c5d8e8" stroke="#7a9bb5"/>
+<text x="145" y="120" text-anchor="middle" font-size="12" font-weight="bold" fill="#1d3f5e">Inside the cells</text>
+<text x="145" y="136" text-anchor="middle" font-size="11" fill="#26333d">about two thirds</text>
+<rect x="45" y="150" width="100" height="46" fill="#e2eef6" stroke="#7a9bb5"/>
+<text x="95" y="172" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1d3f5e">Between cells</text>
+<text x="95" y="188" text-anchor="middle" font-size="10.5" fill="#26333d">interstitial</text>
+<rect x="149" y="150" width="60" height="46" fill="#f6d9d2" stroke="#c98f80"/>
+<text x="179" y="172" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#8a3018">Plasma</text>
+<text x="179" y="188" text-anchor="middle" font-size="10.5" fill="#3f2b26">in vessels</text>
+<text x="45" y="216" font-size="11.5" fill="#26333d">Plasma is the smallest space and the one you can measure</text>
+<text x="45" y="234" font-size="11.5" font-weight="bold" fill="#8a3018">Blood pressure tells you about the small box only</text>
+
+<rect x="365" y="66" width="325" height="182" rx="7" fill="#e9f2ec" stroke="#8fb59d"/>
+<text x="380" y="87" font-size="13.5" font-weight="bold" fill="#1d5236">The two forces</text>
+<text x="380" y="110" font-size="12" font-weight="bold" fill="#1d5236">Hydrostatic pressure pushes water OUT</text>
+<text x="388" y="128" font-size="11" font-style="italic" fill="#7a5a2a">rises in heart failure and in venous obstruction</text>
+<text x="380" y="151" font-size="12" font-weight="bold" fill="#1d5236">Oncotic pressure, from albumin, pulls water IN</text>
+<text x="388" y="169" font-size="11" font-style="italic" fill="#7a5a2a">falls in liver disease, kidney loss, malnutrition</text>
+<text x="380" y="194" font-size="11.5" fill="#26333d">Oedema happens when pushing out beats pulling in</text>
+<text x="380" y="214" font-size="11.5" font-weight="bold" fill="#8a3018">A child with kwashiorkor and a man in heart failure</text>
+<text x="380" y="231" font-size="11.5" font-weight="bold" fill="#8a3018">both swell, for opposite reasons</text>
+
+<rect x="30" y="264" width="660" height="190" rx="7" fill="#f2ece2" stroke="#c9b79c"/>
+<text x="45" y="285" font-size="13.5" font-weight="bold" fill="#5b4a2e">What each fluid actually does when you hang it</text>
+<line x1="45" y1="294" x2="675" y2="294" stroke="#c9b79c"/>
+<text x="52" y="313" font-size="12" font-weight="bold" fill="#1d5236">Isotonic — normal saline, Ringer's lactate</text>
+<text x="60" y="331" font-size="11.5" fill="#3f3428">Stays in the space you put it in. Expands the circulation. Cells unchanged.</text>
+<text x="60" y="348" font-size="11" font-style="italic" fill="#7a5a2a">Use for: shock, dehydration, blood loss. The default resuscitation fluid.</text>
+<text x="52" y="371" font-size="12" font-weight="bold" fill="#8a3018">Hypotonic — 0.45% saline, 5% dextrose once the sugar is used</text>
+<text x="60" y="389" font-size="11.5" fill="#3f3428">Water moves INTO cells. Cells swell.</text>
+<text x="60" y="406" font-size="11" font-style="italic" fill="#7a5a2a">Never for shock: it leaves the circulation. Dangerous if the brain is swollen.</text>
+<text x="52" y="429" font-size="12" font-weight="bold" fill="#1d3f5e">Hypertonic — 3% saline</text>
+<text x="60" y="447" font-size="11.5" fill="#3f3428">Pulls water OUT of cells. Specialist use, slow, with close monitoring.</text>
+</svg>

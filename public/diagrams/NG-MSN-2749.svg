@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 660" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.stp{fill:#eef4f8;stroke:#8fa9bd;stroke-width:1.4;rx:6}
+.row{fill:#f2f7fa}
+</style>
+<rect width="880" height="660" fill="#f7fafb"/>
+<text class="t" x="24" y="32">The perioperative journey and the checks at each stage</text>
+
+<rect class="stp" x="24" y="48" width="266" height="58"/><text class="h" x="42" y="72">PRE-OPERATIVE</text><text class="s" x="42" y="94">prepare and verify</text>
+<rect class="stp" x="306" y="48" width="266" height="58"/><text class="h" x="324" y="72">INTRA-OPERATIVE</text><text class="s" x="324" y="94">position, count, protect</text>
+<rect class="stp" x="588" y="48" width="268" height="58"/><text class="h" x="606" y="72">POST-OPERATIVE</text><text class="s" x="606" y="94">airway, bleeding, pain</text>
+
+<rect class="box" x="24" y="122" width="410" height="222"/>
+<text class="h" x="42" y="146">Pre-operative fasting</text>
+<rect class="row" x="34" y="158" width="390" height="28"/>
+<text class="b" x="48" y="178">Solid food</text><text class="k" x="270" y="178">6 hours before</text>
+<text class="b" x="48" y="208">Breast milk</text><text class="k" x="270" y="208">4 hours before</text>
+<rect class="row" x="34" y="218" width="390" height="28"/>
+<text class="b" x="48" y="238">Clear fluids</text><text class="k" x="270" y="238">2 hours before</text>
+<text class="s" x="48" y="268">The aim is an empty stomach at induction,</text>
+<text class="s" x="48" y="286">because anaesthesia abolishes the reflexes</text>
+<text class="s" x="48" y="304">that protect the airway from vomit.</text>
+<text class="k" x="48" y="332">Fasting from midnight for an afternoon list</text>
+
+<rect class="warn" x="450" y="122" width="406" height="222"/>
+<text class="k" x="468" y="146">is OVER-fasting and causes harm</text>
+<text class="b" x="468" y="174">Dehydration, hypotension on induction,</text>
+<text class="b" x="468" y="196">hypoglycaemia, headache, distress,</text>
+<text class="b" x="468" y="218">confusion in the elderly.</text>
+<text class="h" x="468" y="250">Other pre-operative checks</text>
+<text class="b" x="468" y="278">Consent signed and still valid</text>
+<text class="b" x="468" y="298">Site marked by the operating surgeon</text>
+<text class="b" x="468" y="318">Allergies, weight, observations, bloods</text>
+<text class="b" x="468" y="338">Jewellery, dentures, prostheses, nail varnish</text>
+
+<rect class="ok" x="24" y="362" width="832" height="128"/>
+<text class="h" x="42" y="386">WHO surgical safety checklist — three pauses, and everyone stops</text>
+<text class="b" x="42" y="414">SIGN IN, before anaesthesia — identity, site, procedure, consent, allergies, airway risk, blood loss risk.</text>
+<text class="b" x="42" y="440">TIME OUT, before the incision — team introduce themselves, confirm patient, site and procedure, antibiotic given.</text>
+<text class="b" x="42" y="466">SIGN OUT, before leaving theatre — procedure recorded, counts correct, specimens labelled, recovery concerns.</text>
+
+<rect class="warn" x="24" y="508" width="832" height="132"/>
+<text class="k" x="42" y="532">Post-operative priorities, in order</text>
+<text class="b" x="42" y="560">1 AIRWAY and breathing — the patient is still sedated and the reflexes have not fully returned.</text>
+<text class="b" x="42" y="586">2 BLEEDING — pulse rises and BP falls late; check the wound, the drains AND underneath the patient.</text>
+<text class="b" x="42" y="612">3 PAIN, nausea, urine output, temperature, and the return of consciousness.</text>
+<text class="k" x="42" y="634">A rising pulse in the first hours after surgery is haemorrhage until proven otherwise.</text>
+</svg>

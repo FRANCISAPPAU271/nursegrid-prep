@@ -1,0 +1,45 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="400" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">SCREENING — SENSITIVITY AND SPECIFICITY</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">A screening test does not diagnose. It sorts people into those who need the real test and those who do not.</text>
+
+<text x="330" y="72" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a3a5c">DOES THE PERSON ACTUALLY HAVE THE DISEASE?</text>
+<text x="300" y="96" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a3a5c">YES</text>
+<text x="460" y="96" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a3a5c">NO</text>
+
+<text x="150" y="132" text-anchor="end" font-size="11" font-weight="bold" fill="#1a3a5c">TEST POSITIVE</text>
+<text x="150" y="206" text-anchor="end" font-size="11" font-weight="bold" fill="#1a3a5c">TEST NEGATIVE</text>
+
+<rect x="220" y="104" width="160" height="64" fill="#eaf3ea" stroke="#8fb98f" stroke-width="1.5"/>
+<text x="300" y="128" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5c3a">TRUE POSITIVE</text>
+<text x="300" y="148" text-anchor="middle" font-size="10" fill="#222">correctly picked up</text>
+
+<rect x="380" y="104" width="160" height="64" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.5"/>
+<text x="460" y="128" text-anchor="middle" font-size="11" font-weight="bold" fill="#8a6d1e">FALSE POSITIVE</text>
+<text x="460" y="145" text-anchor="middle" font-size="10" fill="#222">alarmed, needs a</text>
+<text x="460" y="159" text-anchor="middle" font-size="10" fill="#222">confirmatory test</text>
+
+<rect x="220" y="168" width="160" height="64" fill="#f7ecec" stroke="#c08a8a" stroke-width="1.5"/>
+<text x="300" y="192" text-anchor="middle" font-size="11" font-weight="bold" fill="#8b2f2f">FALSE NEGATIVE</text>
+<text x="300" y="209" text-anchor="middle" font-size="10" fill="#222">missed, and falsely</text>
+<text x="300" y="223" text-anchor="middle" font-size="10" fill="#222">reassured — the worst box</text>
+
+<rect x="380" y="168" width="160" height="64" fill="#eaf3ea" stroke="#8fb98f" stroke-width="1.5"/>
+<text x="460" y="192" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5c3a">TRUE NEGATIVE</text>
+<text x="460" y="212" text-anchor="middle" font-size="10" fill="#222">correctly cleared</text>
+
+<rect x="20" y="252" width="290" height="60" fill="#eef4f8" stroke="#5a86a8" stroke-width="1.5"/>
+<text x="165" y="272" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a3a5c">SENSITIVITY</text>
+<text x="165" y="292" text-anchor="middle" font-size="10.5" fill="#222">Of those who HAVE it, how many test positive?</text>
+<text x="165" y="306" text-anchor="middle" font-size="10.5" font-style="italic" fill="#1a3a5c">A sensitive test rarely misses. Use it to rule out.</text>
+
+<rect x="330" y="252" width="290" height="60" fill="#eef4f8" stroke="#5a86a8" stroke-width="1.5"/>
+<text x="475" y="272" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a3a5c">SPECIFICITY</text>
+<text x="475" y="292" text-anchor="middle" font-size="10.5" fill="#222">Of those WITHOUT it, how many test negative?</text>
+<text x="475" y="306" text-anchor="middle" font-size="10.5" font-style="italic" fill="#1a3a5c">A specific test rarely false-alarms. Use it to confirm.</text>
+
+<rect x="20" y="324" width="600" height="60" fill="#f7ecec" stroke="#c08a8a" stroke-width="1.5"/>
+<text x="320" y="344" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b2f2f">WHY SCREENING TESTS ARE BUILT TO BE SENSITIVE</text>
+<text x="34" y="364" font-size="10.5" fill="#222">Screening the well population, a false positive costs anxiety and one more test. A false negative sends a person</text>
+<text x="34" y="378" font-size="10.5" fill="#222">home reassured with an untreated disease. So screen with the sensitive test and confirm with the specific one.</text>
+</svg>

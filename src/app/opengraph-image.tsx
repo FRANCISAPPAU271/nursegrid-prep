@@ -1,4 +1,5 @@
 import { ImageResponse } from "next/og";
+import { QUESTION_COUNT_LABEL } from "@/lib/question-count";
 
 export const runtime = "edge";
 export const alt = "NurseGrid Prep — Pass Ghana's NMC Licensing Exam First Time";
@@ -131,7 +132,7 @@ export default async function Image() {
               letterSpacing: -1.5,
             }}
           >
-            2,900+ unique licensing questions.
+            {QUESTION_COUNT_LABEL} unique licensing questions.
           </div>
           <div
             style={{

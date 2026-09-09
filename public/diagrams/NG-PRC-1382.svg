@@ -1,0 +1,55 @@
+<svg viewBox="0 0 640 450" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="450" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">EYE AND EAR: THE DIRECTION IS THE PROCEDURE</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">In both organs the commonest error is moving contamination towards the part you were protecting.</text>
+
+<rect x="24" y="58" width="290" height="152" fill="#eef4f8" stroke="#5a86a8" stroke-width="1.7"/>
+<text x="169" y="78" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a3a5c">CLEANING AN EYE</text>
+<ellipse cx="140" cy="122" rx="58" ry="26" fill="#fff" stroke="#1a3a5c" stroke-width="2"/>
+<circle cx="140" cy="122" r="13" fill="#5a86a8"/>
+<path d="M86 122 L214 122" stroke="#8b2f2f" stroke-width="2" stroke-dasharray="5,4"/>
+<polygon points="214,122 204,117 204,127" fill="#8b2f2f"/>
+<text x="80" y="152" font-size="9" fill="#8b2f2f">inner canthus</text>
+<text x="196" y="152" font-size="9" fill="#8b2f2f">outer</text>
+<g font-size="9.5" fill="#222">
+<text x="36" y="176">Swab from the inner corner outwards,</text>
+<text x="36" y="190">one swab per stroke, and treat the</text>
+<text x="36" y="204">uninfected eye first if both are involved.</text>
+</g>
+
+<rect x="326" y="58" width="290" height="152" fill="#eaf3ea" stroke="#1a5c3a" stroke-width="1.7"/>
+<text x="471" y="78" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a5c3a">STRAIGHTENING THE EAR CANAL</text>
+<path d="M400 108 Q382 132 400 156" stroke="#1a5c3a" stroke-width="3" fill="none"/>
+<text x="412" y="116" font-size="9.5" fill="#222">ADULT: pull the pinna</text>
+<text x="412" y="130" font-size="9.5" fill="#222">upwards and backwards</text>
+<text x="412" y="156" font-size="9.5" fill="#222">CHILD UNDER 3: pull it</text>
+<text x="412" y="170" font-size="9.5" fill="#222">downwards and backwards</text>
+<text x="338" y="196" font-size="9.5" font-style="italic" fill="#222">The canal is a different shape before it finishes growing.</text>
+
+<rect x="24" y="224" width="290" height="120" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.7"/>
+<text x="169" y="244" text-anchor="middle" font-size="12" font-weight="bold" fill="#8a6d1e">DROPS BEFORE OINTMENT</text>
+<g font-size="9.5" fill="#222">
+<text x="36" y="266">Instil drops first and wait, then apply</text>
+<text x="36" y="282">ointment. Ointment applied first coats</text>
+<text x="36" y="298">the surface and the drops never reach it.</text>
+<text x="36" y="322" font-style="italic">Leave five minutes between two different</text>
+<text x="36" y="336" font-style="italic">drops, or the second washes out the first.</text>
+</g>
+
+<rect x="326" y="224" width="290" height="120" fill="#f7ecec" stroke="#8b2f2f" stroke-width="1.7"/>
+<text x="471" y="244" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b2f2f">WHAT MUST NEVER BE DONE</text>
+<g font-size="9.5" fill="#222">
+<text x="338" y="266">Do not touch the dropper to the eye</text>
+<text x="338" y="282">or lashes. Do not press on a globe that</text>
+<text x="338" y="298">may be perforated. Do not syringe an</text>
+<text x="338" y="314">ear when the drum may be perforated.</text>
+<text x="338" y="336" font-style="italic">Do not remove an embedded foreign body.</text>
+</g>
+
+<rect x="24" y="358" width="592" height="76" fill="#f4eaf4" stroke="#8a5c8a" stroke-width="1.8"/>
+<text x="320" y="378" text-anchor="middle" font-size="12" font-weight="bold" fill="#6b3a6b">RECORD VISION BEFORE YOU TOUCH THE EYE</text>
+<g font-size="10" fill="#222">
+<text x="40" y="400">Test and document acuity in each eye separately before any treatment. If sight is lost afterwards, that</text>
+<text x="40" y="418">recording is the only evidence of what the patient could see when she arrived.</text>
+</g>
+</svg>

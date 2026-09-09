@@ -1,0 +1,36 @@
+<svg viewBox="0 0 470 240" role="img" xmlns="http://www.w3.org/2000/svg"><title>Oxygen delivery devices</title>
+<rect width="470" height="240" fill="#f6f8fc"/>
+<text x="235" y="20" font-size="12.5" text-anchor="middle" font-family="system-ui" font-weight="700">Match the device to the oxygen requirement</text>
+<g font-family="system-ui">
+<rect x="16" y="36" width="106" height="150" rx="9" fill="#fff" stroke="#0f9d76" stroke-width="2.5"/>
+<text x="69" y="58" font-size="11.5" text-anchor="middle" font-weight="700" fill="#0f9d76">NASAL CANNULA</text>
+<text x="69" y="80" font-size="14" text-anchor="middle" font-weight="700">1–4 L/min</text>
+<text x="69" y="98" font-size="10.5" text-anchor="middle">24–40%</text>
+<text x="69" y="124" font-size="9.5" text-anchor="middle">can eat, drink</text>
+<text x="69" y="138" font-size="9.5" text-anchor="middle">and talk</text>
+<text x="69" y="164" font-size="9" text-anchor="middle" fill="#5a6b85">dries nose above 4 L</text>
+<rect x="132" y="36" width="106" height="150" rx="9" fill="#fff" stroke="#2b6fa8" stroke-width="2.5"/>
+<text x="185" y="58" font-size="11.5" text-anchor="middle" font-weight="700" fill="#2b6fa8">SIMPLE MASK</text>
+<text x="185" y="80" font-size="14" text-anchor="middle" font-weight="700">5–10 L/min</text>
+<text x="185" y="98" font-size="10.5" text-anchor="middle">40–60%</text>
+<text x="185" y="124" font-size="9.5" text-anchor="middle" fill="#a8352c">NEVER below 5 L</text>
+<text x="185" y="138" font-size="9" text-anchor="middle">— CO₂ rebreathing</text>
+<rect x="248" y="36" width="106" height="150" rx="9" fill="#fff" stroke="#e2574c" stroke-width="3"/>
+<text x="301" y="58" font-size="11.5" text-anchor="middle" font-weight="700" fill="#e2574c">RESERVOIR MASK</text>
+<text x="301" y="80" font-size="14" text-anchor="middle" font-weight="700">10–15 L/min</text>
+<text x="301" y="98" font-size="10.5" text-anchor="middle">60–90%+</text>
+<text x="301" y="124" font-size="9.5" text-anchor="middle">emergency use</text>
+<text x="301" y="148" font-size="9" text-anchor="middle" fill="#5a6b85">inflate bag before</text>
+<text x="301" y="160" font-size="9" text-anchor="middle" fill="#5a6b85">applying to face</text>
+<rect x="364" y="36" width="90" height="150" rx="9" fill="#fff" stroke="#f2b705" stroke-width="2.5"/>
+<text x="409" y="58" font-size="11.5" text-anchor="middle" font-weight="700" fill="#b58900">VENTURI</text>
+<text x="409" y="80" font-size="13" text-anchor="middle" font-weight="700">24–60%</text>
+<text x="409" y="102" font-size="9.5" text-anchor="middle">EXACT, fixed</text>
+<text x="409" y="116" font-size="9.5" text-anchor="middle">concentration</text>
+<text x="409" y="142" font-size="9" text-anchor="middle" fill="#5a6b85">use when precision</text>
+<text x="409" y="154" font-size="9" text-anchor="middle" fill="#5a6b85">matters — COPD</text>
+</g>
+<rect x="16" y="196" width="438" height="34" rx="8" fill="#fff" stroke="#0a1628" stroke-width="1.5"/>
+<text x="235" y="211" font-size="10.5" text-anchor="middle" font-family="system-ui" font-weight="700">Oxygen is a DRUG — it needs a prescription, a target saturation and review</text>
+<text x="235" y="224" font-size="9.5" text-anchor="middle" font-family="system-ui" fill="#5a6b85">Target 94–98% generally · 88–92% if at risk of CO₂ retention</text>
+</svg>

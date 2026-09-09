@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 640" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.row{fill:#f2f7fa}
+</style>
+<rect width="880" height="640" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Falling conscious level: what changes first, and what it means</text>
+
+<rect class="box" x="24" y="48" width="832" height="196"/>
+<text class="h" x="42" y="72">Glasgow Coma Scale — three separate scores, always reported separately</text>
+<rect class="row" x="42" y="84" width="812" height="28"/>
+<text class="h" x="56" y="103">EYES (4)</text><text class="h" x="300" y="103">VERBAL (5)</text><text class="h" x="600" y="103">MOTOR (6)</text>
+<text class="b" x="56" y="128">4 spontaneous</text><text class="b" x="300" y="128">5 orientated</text><text class="b" x="600" y="128">6 obeys commands</text>
+<text class="b" x="56" y="150">3 to speech</text><text class="b" x="300" y="150">4 confused</text><text class="b" x="600" y="150">5 localises to pain</text>
+<text class="b" x="56" y="172">2 to pain</text><text class="b" x="300" y="172">3 words only</text><text class="b" x="600" y="172">4 withdraws from pain</text>
+<text class="b" x="56" y="194">1 none</text><text class="b" x="300" y="194">2 sounds only</text><text class="b" x="600" y="194">3 abnormal flexion</text>
+<text class="b" x="300" y="216">1 none</text><text class="b" x="600" y="216">2 extension  ·  1 none</text>
+<text class="i" x="56" y="236">A total of 9 can be three different patients. E2V2M5 and E4V1M4 are not the same problem. Report all three.</text>
+
+<rect class="warn" x="24" y="262" width="410" height="180"/>
+<text class="k" x="42" y="286">The earliest sign is the one people miss</text>
+<text class="b" x="42" y="314">The FIRST change in rising intracranial</text>
+<text class="b" x="42" y="336">pressure is a change in CONSCIOUS LEVEL —</text>
+<text class="b" x="42" y="358">often just new restlessness, drowsiness or</text>
+<text class="b" x="42" y="380">"not quite himself".</text>
+<text class="k" x="42" y="410">Pupil changes and bradycardia come LATE.</text>
+<text class="s" x="42" y="432">Waiting for a blown pupil is waiting too long.</text>
+
+<rect class="box" x="450" y="262" width="406" height="180"/>
+<text class="h" x="468" y="286">Cushing's triad — a late, pre-terminal sign</text>
+<text class="k" x="468" y="316">Blood pressure RISING</text>
+<text class="k" x="468" y="340">Pulse FALLING</text>
+<text class="k" x="468" y="364">Breathing IRREGULAR</text>
+<text class="s" x="468" y="394">Widening pulse pressure with bradycardia is</text>
+<text class="s" x="468" y="412">the brainstem being compressed. This is an</text>
+<text class="s" x="468" y="430">emergency, not an observation to chart.</text>
+
+<rect class="ok" x="24" y="460" width="832" height="164"/>
+<text class="h" x="42" y="484">Nursing actions that lower intracranial pressure</text>
+<text class="b" x="42" y="512">Head of bed up 30 degrees · head and neck in MIDLINE — a turned head kinks the jugular vein and</text>
+<text class="b" x="42" y="534">blocks venous drainage · avoid hip flexion · space out care, since suction and turning both raise pressure</text>
+<text class="b" x="42" y="556">· treat pain and fever · avoid straining, coughing and constipation.</text>
+<text class="k" x="42" y="586">Do NOT lie the patient flat, and do NOT restrict fluids to the point of hypotension — the brain needs</text>
+<text class="k" x="42" y="606">perfusion pressure. Cerebral perfusion = mean arterial pressure MINUS intracranial pressure.</text>
+</svg>

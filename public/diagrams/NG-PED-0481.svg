@@ -1,0 +1,55 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="380" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">THE HOSPITALISED CHILD — WHAT THEY FEAR AT EACH AGE</text>
+<text x="320" y="45" text-anchor="middle" font-size="12" fill="#555">The fear decides the nursing action. Match one to the other.</text>
+
+<rect x="24" y="58" width="592" height="26" fill="#1a3a5c"/>
+<text x="80" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">AGE</text>
+<text x="250" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">GREATEST FEAR</text>
+<text x="470" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">WHAT THE NURSE DOES</text>
+
+<rect x="24" y="84" width="592" height="52" fill="#fff" stroke="#d8d2c4"/>
+<text x="80" y="106" text-anchor="middle" font-size="11" font-weight="bold" fill="#8b2f2f">Infant</text>
+<text x="80" y="122" text-anchor="middle" font-size="9" fill="#777">0–1 yr</text>
+<text x="250" y="106" text-anchor="middle" font-size="11" fill="#333">Separation from mother</text>
+<text x="250" y="122" text-anchor="middle" font-size="9" fill="#777">trust is being built</text>
+<text x="470" y="106" text-anchor="middle" font-size="10" fill="#333">Keep mother resident. Same nurse</text>
+<text x="470" y="122" text-anchor="middle" font-size="10" fill="#333">where possible. Feed, hold, rock.</text>
+
+<rect x="24" y="136" width="592" height="52" fill="#f6f3ec" stroke="#d8d2c4"/>
+<text x="80" y="158" text-anchor="middle" font-size="11" font-weight="bold" fill="#8b2f2f">Toddler</text>
+<text x="80" y="174" text-anchor="middle" font-size="9" fill="#777">1–3 yr</text>
+<text x="250" y="158" text-anchor="middle" font-size="11" fill="#333">Separation, loss of routine</text>
+<text x="250" y="174" text-anchor="middle" font-size="9" fill="#777">protest, despair, denial</text>
+<text x="470" y="158" text-anchor="middle" font-size="10" fill="#333">Keep home routine and comfort</text>
+<text x="470" y="174" text-anchor="middle" font-size="10" fill="#333">object. Offer simple choices.</text>
+
+<rect x="24" y="188" width="592" height="52" fill="#fff" stroke="#d8d2c4"/>
+<text x="80" y="210" text-anchor="middle" font-size="11" font-weight="bold" fill="#8b2f2f">Pre-school</text>
+<text x="80" y="226" text-anchor="middle" font-size="9" fill="#777">3–6 yr</text>
+<text x="250" y="204" text-anchor="middle" font-size="11" fill="#333">Bodily harm and mutilation</text>
+<text x="250" y="220" text-anchor="middle" font-size="9" fill="#777">believes illness is a</text>
+<text x="250" y="233" text-anchor="middle" font-size="9" fill="#777">punishment for being bad</text>
+<text x="470" y="204" text-anchor="middle" font-size="10" fill="#333">Say plainly it is not their fault.</text>
+<text x="470" y="220" text-anchor="middle" font-size="10" fill="#333">Plasters over wounds. Let them</text>
+<text x="470" y="234" text-anchor="middle" font-size="10" fill="#333">handle equipment in play.</text>
+
+<rect x="24" y="240" width="592" height="52" fill="#f6f3ec" stroke="#d8d2c4"/>
+<text x="80" y="262" text-anchor="middle" font-size="11" font-weight="bold" fill="#8b2f2f">School age</text>
+<text x="80" y="278" text-anchor="middle" font-size="9" fill="#777">6–12 yr</text>
+<text x="250" y="262" text-anchor="middle" font-size="11" fill="#333">Loss of control, falling behind</text>
+<text x="250" y="278" text-anchor="middle" font-size="9" fill="#777">wants to know how it works</text>
+<text x="470" y="262" text-anchor="middle" font-size="10" fill="#333">Explain honestly. Give real jobs</text>
+<text x="470" y="278" text-anchor="middle" font-size="10" fill="#333">in their care. Keep up schoolwork.</text>
+
+<rect x="24" y="292" width="592" height="52" fill="#fff" stroke="#d8d2c4"/>
+<text x="80" y="314" text-anchor="middle" font-size="11" font-weight="bold" fill="#8b2f2f">Adolescent</text>
+<text x="80" y="330" text-anchor="middle" font-size="9" fill="#777">12–18 yr</text>
+<text x="250" y="314" text-anchor="middle" font-size="11" fill="#333">Being different from peers</text>
+<text x="250" y="330" text-anchor="middle" font-size="9" fill="#777">body image, independence</text>
+<text x="470" y="314" text-anchor="middle" font-size="10" fill="#333">Privacy and confidentiality. Talk to</text>
+<text x="470" y="330" text-anchor="middle" font-size="10" fill="#333">them, not the parent. Allow visitors.</text>
+
+<rect x="24" y="350" width="592" height="24" fill="#eaf3ea" stroke="#8fb98f"/>
+<text x="320" y="366" text-anchor="middle" font-size="11" font-style="italic" fill="#1a5c3a">PLAY is not a reward or a distraction. It is how a child expresses fear, rehearses a procedure and stays developing.</text>
+</svg>

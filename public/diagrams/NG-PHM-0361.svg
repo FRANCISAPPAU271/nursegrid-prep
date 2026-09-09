@@ -1,0 +1,31 @@
+<svg viewBox="0 0 470 270" role="img" xmlns="http://www.w3.org/2000/svg"><title>WHO analgesic ladder</title>
+<rect width="470" height="270" fill="#f6f8fc"/>
+<text x="235" y="20" font-size="12.5" text-anchor="middle" font-family="system-ui" font-weight="700">WHO analgesic ladder — climb it, do not skip it</text>
+<g font-family="system-ui">
+<rect x="26" y="176" width="140" height="66" rx="6" fill="#dff3ec" stroke="#0f9d76" stroke-width="2"/>
+<rect x="166" y="126" width="140" height="116" rx="6" fill="#fff8e8" stroke="#f2b705" stroke-width="2"/>
+<rect x="306" y="66" width="140" height="176" rx="6" fill="#fde8e6" stroke="#e2574c" stroke-width="2"/>
+<text x="96" y="196" font-size="11" text-anchor="middle" font-weight="700" fill="#0b7a5c">STEP 1</text>
+<text x="96" y="210" font-size="9.5" text-anchor="middle" font-weight="700">MILD pain</text>
+<text x="96" y="226" font-size="9" text-anchor="middle">Paracetamol</text>
+<text x="96" y="238" font-size="9" text-anchor="middle">NSAID</text>
+<text x="236" y="146" font-size="11" text-anchor="middle" font-weight="700" fill="#8a6d00">STEP 2</text>
+<text x="236" y="160" font-size="9.5" text-anchor="middle" font-weight="700">MODERATE pain</text>
+<text x="236" y="176" font-size="9" text-anchor="middle">Weak opioid</text>
+<text x="236" y="190" font-size="9" text-anchor="middle">codeine, tramadol</text>
+<text x="236" y="208" font-size="9" text-anchor="middle" fill="#5a6b85">PLUS step 1 drug</text>
+<text x="376" y="86" font-size="11" text-anchor="middle" font-weight="700" fill="#a8352c">STEP 3</text>
+<text x="376" y="100" font-size="9.5" text-anchor="middle" font-weight="700">SEVERE pain</text>
+<text x="376" y="116" font-size="9" text-anchor="middle">Strong opioid</text>
+<text x="376" y="130" font-size="9" text-anchor="middle">MORPHINE</text>
+<text x="376" y="148" font-size="9" text-anchor="middle" fill="#5a6b85">PLUS step 1 drug</text>
+<text x="376" y="168" font-size="9" text-anchor="middle" fill="#5a6b85">No ceiling dose —</text>
+<text x="376" y="180" font-size="9" text-anchor="middle" fill="#5a6b85">titrate to the pain</text>
+</g>
+<rect x="26" y="34" width="260" height="24" rx="6" fill="#fff" stroke="#2b6fa8" stroke-width="2"/>
+<text x="156" y="50" font-size="9.5" text-anchor="middle" font-family="system-ui" font-weight="700">Adjuvants at EVERY step: amitriptyline,</text>
+<rect x="26" y="58" width="260" height="0" fill="none"/>
+<text x="156" y="70" font-size="9.5" text-anchor="middle" font-family="system-ui" font-weight="700">carbamazepine, steroid, and always a LAXATIVE</text>
+<rect x="26" y="248" width="420" height="18" rx="6" fill="#fff" stroke="#e2574c" stroke-width="1.5"/>
+<text x="236" y="261" font-size="9.5" text-anchor="middle" font-family="system-ui" font-weight="700">By the mouth · by the clock · by the ladder — regular dosing, not only when pain returns</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 620" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+</style>
+<rect width="860" height="620" fill="#f7fafb"/>
+<text class="t" x="24" y="32">The partograph: one page that tells you when to stop waiting</text>
+
+<rect class="box" x="24" y="48" width="470" height="290"/>
+<text class="h" x="40" y="72">Cervical dilatation against time</text>
+<rect x="60" y="88" width="410" height="196" fill="#fcfdfe" stroke="#dde5ec"/>
+<path d="M60 284 L60 88" stroke="#8fa9bd" stroke-width="1.4"/>
+<path d="M60 284 L470 284" stroke="#8fa9bd" stroke-width="1.4"/>
+<path d="M110 260 L290 88" stroke="#7ba98c" stroke-width="2.2" fill="none"/>
+<path d="M230 260 L410 88" stroke="#c9714f" stroke-width="2.2" fill="none"/>
+<text class="s" x="150" y="150">ALERT</text>
+<text class="s" x="300" y="150">ACTION</text>
+<path d="M110 260 L150 240 L190 226 L230 220 L270 216" stroke="#26333d" stroke-width="2.4" fill="none"/>
+<circle cx="110" cy="260" r="3.6" fill="#26333d"/><circle cx="150" cy="240" r="3.6" fill="#26333d"/>
+<circle cx="190" cy="226" r="3.6" fill="#26333d"/><circle cx="230" cy="220" r="3.6" fill="#26333d"/>
+<circle cx="270" cy="216" r="3.6" fill="#26333d"/>
+<text class="s" x="42" y="96">10</text><text class="s" x="46" y="286">4</text>
+<text class="s" x="230" y="302">Hours</text>
+<text class="k" x="290" y="248">this labour has</text><text class="k" x="290" y="266">crossed the alert line</text>
+<text class="b" x="40" y="322">Plot in the active phase. Cross the alert line, reassess and prepare to move. Reach the action line, intervene.</text>
+
+<rect class="ok" x="510" y="48" width="326" height="290"/>
+<text class="h" x="526" y="72">What else goes on the same page</text>
+<text class="b" x="526" y="98">Foetal heart, half-hourly</text>
+<text class="b" x="526" y="120">Liquor: clear, meconium, blood, absent</text>
+<text class="b" x="526" y="142">Moulding: 0, +, ++, +++</text>
+<text class="b" x="526" y="164">Descent in fifths palpable above the brim</text>
+<text class="b" x="526" y="186">Contractions per ten minutes, and length</text>
+<text class="b" x="526" y="208">Oxytocin, drugs, fluids given</text>
+<text class="b" x="526" y="230">Pulse, blood pressure, temperature</text>
+<text class="b" x="526" y="252">Urine: volume, protein, acetone</text>
+<text class="i" x="526" y="280">Descent is recorded in fifths, not in centimetres.</text>
+<text class="i" x="526" y="298">Five fifths means completely above the brim.</text>
+<text class="i" x="526" y="316">Zero fifths means fully descended.</text>
+
+<rect class="warn" x="24" y="354" width="812" height="120"/>
+<text class="k" x="40" y="378">Moulding and the head that will not come</text>
+<text class="b" x="40" y="402">+++ moulding with the head still high, and a labour that has crossed the action line, is obstructed labour</text>
+<text class="b" x="40" y="422">until proved otherwise. Add a retraction ring, blood-stained urine or maternal exhaustion and it is an emergency.</text>
+<text class="k" x="40" y="448">Never augment with oxytocin when the problem may be obstruction. You will rupture the uterus.</text>
+<text class="i" x="40" y="466">Sutures touching is 0. Overlapped but reducible is ++. Overlapped and not reducible is +++.</text>
+
+<rect class="box" x="24" y="490" width="812" height="106"/>
+<text class="h" x="40" y="514">A note on the 2020 WHO Labour Care Guide</text>
+<text class="b" x="40" y="538">WHO now defines the active first stage from 5 cm rather than 4 cm, replaces the alert and action lines with</text>
+<text class="b" x="40" y="558">time limits at each centimetre, and adds a second stage section. Many Ghanaian services still teach the</text>
+<text class="b" x="40" y="578">classic partograph, so know both — and know which one the chart in front of you actually is.</text>
+</svg>

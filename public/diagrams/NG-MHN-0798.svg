@@ -1,0 +1,42 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="420" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">THERAPEUTIC COMMUNICATION — WHAT CLOSES A CONVERSATION</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">In exam options, the answer almost always keeps the patient talking.</text>
+
+<rect x="34" y="62" width="272" height="300" fill="#f7ecec" stroke="#c08a8a" stroke-width="1.5"/>
+<text x="170" y="84" text-anchor="middle" font-size="13" font-weight="bold" fill="#8b2f2f">BLOCKS — these end it</text>
+<g font-size="10.5" fill="#222">
+<text x="46" y="108" font-weight="bold">False reassurance</text>
+<text x="46" y="124">Do not worry, everything will be fine</text>
+<text x="46" y="150" font-weight="bold">Advising</text>
+<text x="46" y="166">If I were you, I would just leave him</text>
+<text x="46" y="192" font-weight="bold">Asking why</text>
+<text x="46" y="208">Why did you do that? — demands a defence</text>
+<text x="46" y="234" font-weight="bold">Changing the subject</text>
+<text x="46" y="250">Anyway, have you eaten today?</text>
+<text x="46" y="276" font-weight="bold">Judging or minimising</text>
+<text x="46" y="292">Others are far worse off than you</text>
+<text x="46" y="318" font-weight="bold">Closed questions in a row</text>
+<text x="46" y="334">Yes or no answers give you nothing</text>
+</g>
+
+<rect x="334" y="62" width="272" height="300" fill="#eaf3ea" stroke="#8fb98f" stroke-width="1.5"/>
+<text x="470" y="84" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a5c3a">OPENERS — these carry it on</text>
+<g font-size="10.5" fill="#222">
+<text x="346" y="108" font-weight="bold">Open question</text>
+<text x="346" y="124">Tell me what that has been like for you</text>
+<text x="346" y="150" font-weight="bold">Reflecting</text>
+<text x="346" y="166">You sound frightened of going home</text>
+<text x="346" y="192" font-weight="bold">Clarifying</text>
+<text x="346" y="208">When you say empty, what do you mean?</text>
+<text x="346" y="234" font-weight="bold">Silence</text>
+<text x="346" y="250">Wait. Let them fill it, not you</text>
+<text x="346" y="276" font-weight="bold">Offering yourself</text>
+<text x="346" y="292">I will sit with you for a while</text>
+<text x="346" y="318" font-weight="bold">Summarising</text>
+<text x="346" y="334">So the worst part is the sleeplessness</text>
+</g>
+
+<text x="320" y="386" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a3a5c">Test any option by asking: what can the patient say next?</text>
+<text x="320" y="406" text-anchor="middle" font-size="10.5" font-style="italic" fill="#8b2f2f">If the honest answer is nothing, or just yes, it is a block — however kind it sounds.</text>
+</svg>

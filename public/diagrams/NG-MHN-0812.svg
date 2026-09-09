@@ -1,0 +1,45 @@
+<svg viewBox="0 0 640 430" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="430" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">ASSESSING SUICIDE RISK — ASK DIRECTLY</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">Asking about suicide does not plant the idea. It is usually a relief to be asked.</text>
+
+<rect x="40" y="62" width="264" height="176" fill="#f7ecec" stroke="#8b2f2f" stroke-width="1.8"/>
+<text x="172" y="84" text-anchor="middle" font-size="13" font-weight="bold" fill="#8b2f2f">WHAT RAISES THE RISK</text>
+<g font-size="10.5" fill="#222">
+<text x="52" y="106">A specific PLAN, not just a wish</text>
+<text x="52" y="124">MEANS available and to hand</text>
+<text x="52" y="142">A previous attempt, especially recent</text>
+<text x="52" y="160">Hopelessness about the future</text>
+<text x="52" y="178">Giving away possessions, saying goodbye</text>
+<text x="52" y="196">Living alone, no one to turn to</text>
+<text x="52" y="214">Alcohol or substance use</text>
+<text x="52" y="232">Recent loss, shame, or debt</text>
+</g>
+
+<rect x="336" y="62" width="264" height="176" fill="#eaf3ea" stroke="#1a5c3a" stroke-width="1.8"/>
+<text x="468" y="84" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a5c3a">WHAT YOU DO</text>
+<g font-size="10.5" fill="#222">
+<text x="348" y="106">Ask plainly, in their own words</text>
+<text x="348" y="124">Stay with them; do not leave alone</text>
+<text x="348" y="142">Remove the means you can remove</text>
+<text x="348" y="160">Listen without arguing or lecturing</text>
+<text x="348" y="178">Involve family only with consent,</text>
+<text x="348" y="192">unless life is in immediate danger</text>
+<text x="348" y="212">Refer, and hand over in person</text>
+<text x="348" y="230">Document exactly what was said</text>
+</g>
+
+<rect x="40" y="256" width="560" height="76" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.5"/>
+<text x="320" y="276" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#8a6d1e">THE DANGEROUS MOMENTS</text>
+<g font-size="10.5" fill="#222">
+<text x="52" y="296">Early in antidepressant treatment: energy returns before mood lifts, so the patient can now act.</text>
+<text x="52" y="312">Just after a sudden calm following agitation: the decision may already have been made.</text>
+<text x="52" y="328">The first days after discharge, and any anniversary of a loss.</text>
+</g>
+
+<rect x="40" y="348" width="560" height="42" fill="#eef4f8" stroke="#5a86a8" stroke-width="1.5"/>
+<text x="320" y="366" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a3a5c">NEVER promise to keep suicidal intent secret.</text>
+<text x="320" y="382" text-anchor="middle" font-size="10.5" fill="#222">Say instead: I will not tell everyone, but I must tell the people who can keep you safe.</text>
+
+<text x="320" y="414" text-anchor="middle" font-size="10.5" font-style="italic" fill="#8b2f2f">Attempted suicide was decriminalised in Ghana in 2023 — the person needs care, not the police.</text>
+</svg>

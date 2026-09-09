@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 456" width="100%" role="img">
+<rect x="0" y="0" width="760" height="456" fill="#fdfcfa"/>
+<text x="20" y="30" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="#1d5c42">Controlled drugs: why the rules are shaped the way they are</text>
+<text x="20" y="52" font-family="Georgia,serif" font-size="13" fill="#555">Every rule here exists because the drug is both genuinely needed and genuinely diverted.</text>
+
+<rect x="20" y="68" width="352" height="152" rx="6" fill="#eef4f8" stroke="#2b6b8a"/>
+<text x="34" y="90" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#1d4e63">The chain that must never break</text>
+<text x="34" y="112" font-family="Georgia,serif" font-size="12" fill="#333">Locked cupboard, one key holder per shift</text>
+<text x="34" y="130" font-family="Georgia,serif" font-size="12" fill="#333">Register with a running balance</text>
+<text x="34" y="148" font-family="Georgia,serif" font-size="12" fill="#333">Two nurses check, both sign</text>
+<text x="34" y="166" font-family="Georgia,serif" font-size="12" fill="#333">Count at every shift change</text>
+<text x="34" y="184" font-family="Georgia,serif" font-size="12" fill="#333">Any waste witnessed and recorded</text>
+<text x="34" y="208" font-family="Georgia,serif" font-size="12" font-style="italic" fill="#1d4e63">The balance must equal the shelf. Always.</text>
+
+<rect x="388" y="68" width="352" height="152" rx="6" fill="#fff3f0" stroke="#c0392b"/>
+<text x="402" y="90" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#7a2020">When the count is wrong</text>
+<text x="402" y="112" font-family="Georgia,serif" font-size="12" fill="#333">Do not adjust the register to fit the shelf.</text>
+<text x="402" y="130" font-family="Georgia,serif" font-size="12" fill="#333">Do not wait for the next shift to sort it.</text>
+<text x="402" y="148" font-family="Georgia,serif" font-size="12" fill="#333">Do not quietly replace the missing dose.</text>
+<text x="402" y="172" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7a2020">Report the discrepancy at once, in writing,</text>
+<text x="402" y="190" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7a2020">before you leave the ward.</text>
+<text x="402" y="212" font-family="Georgia,serif" font-size="12" fill="#333">Delay is what turns an error into suspicion.</text>
+
+<rect x="20" y="238" width="720" height="92" rx="6" fill="#fff8e8" stroke="#b8860b"/>
+<text x="34" y="260" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#8a6508">The fear that harms patients: morphine and the dying</text>
+<text x="34" y="282" font-family="Georgia,serif" font-size="12" fill="#333">Opioids titrated against pain in a patient who is dying do not shorten life, and addiction is not a risk that</text>
+<text x="34" y="300" font-family="Georgia,serif" font-size="12" fill="#333">matters here. What does happen, routinely, is that families and staff withhold doses out of fear, and the</text>
+<text x="34" y="318" font-family="Georgia,serif" font-size="12" fill="#333">patient dies in pain that was entirely treatable. Under-treatment is the common error, not overdose.</text>
+
+<rect x="20" y="348" width="720" height="96" rx="6" fill="#f2f7f2" stroke="#2e7d5b"/>
+<text x="34" y="370" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d5c42">Reading a patient on an opioid</text>
+<text x="34" y="392" font-family="Georgia,serif" font-size="12" fill="#333">Watch the respiratory rate and the level of sedation, in that order of usefulness — sedation deepens before</text>
+<text x="34" y="410" font-family="Georgia,serif" font-size="12" fill="#333">breathing slows, so an increasingly drowsy patient is the earlier warning. A rousable patient with a normal</text>
+<text x="34" y="428" font-family="Georgia,serif" font-size="12" fill="#333">rate whose pain is controlled is exactly where you want to be. Constipation is certain: prescribe for it</text>
+<text x="34" y="444" font-family="Georgia,serif" font-size="12" fill="#333">from the first dose rather than waiting for the problem to arrive.</text>
+</svg>

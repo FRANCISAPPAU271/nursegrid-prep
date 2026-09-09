@@ -1,0 +1,37 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="420" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">CONTINUOUS BLADDER IRRIGATION AFTER PROSTATE SURGERY</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">What drains out is not urine. Subtract what you ran in, or you will chart a lie.</text>
+
+<rect x="60" y="72" width="120" height="70" fill="#eef4f8" stroke="#5a86a8" stroke-width="2"/>
+<text x="120" y="98" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a3a5c">IRRIGATION IN</text>
+<text x="120" y="118" text-anchor="middle" font-size="10" fill="#222">sterile normal saline</text>
+<text x="120" y="134" text-anchor="middle" font-size="10" fill="#222">run at room temperature</text>
+<path d="M180 108 L250 108" stroke="#5a86a8" stroke-width="3" marker-end="url(#a1)"/>
+<defs><marker id="a1" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#5a86a8"/></marker></defs>
+
+<ellipse cx="320" cy="150" rx="66" ry="52" fill="#f6efe8" stroke="#b08a5a" stroke-width="2"/>
+<text x="320" y="146" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#8a6d1e">BLADDER</text>
+<text x="320" y="164" text-anchor="middle" font-size="9.5" fill="#333">three-way catheter</text>
+<path d="M386 170 L470 210" stroke="#8b2f2f" stroke-width="3" marker-end="url(#a2)"/>
+<defs><marker id="a2" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#8b2f2f"/></marker></defs>
+<rect x="474" y="186" width="120" height="70" fill="#f7ecec" stroke="#8b2f2f" stroke-width="2"/>
+<text x="534" y="212" text-anchor="middle" font-size="11" font-weight="bold" fill="#8b2f2f">TOTAL DRAINED</text>
+<text x="534" y="232" text-anchor="middle" font-size="10" fill="#222">saline plus urine</text>
+<text x="534" y="248" text-anchor="middle" font-size="10" fill="#222">plus blood</text>
+
+<rect x="46" y="230" width="380" height="98" fill="#eaf3ea" stroke="#8fb98f" stroke-width="1.5"/>
+<text x="236" y="252" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#1a5c3a">TRUE URINE OUTPUT = TOTAL DRAINED − IRRIGANT RUN IN</text>
+<g font-size="10.5" fill="#222">
+<text x="58" y="276">Worked example: over 8 hours the bag holds 3,600 mL</text>
+<text x="58" y="294">and 2,700 mL of saline was run in.</text>
+<text x="58" y="312" font-weight="bold" fill="#1a5c3a">3,600 − 2,700 = 900 mL of urine, about 112 mL an hour.</text>
+</g>
+
+<rect x="46" y="340" width="548" height="66" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.5"/>
+<text x="320" y="360" text-anchor="middle" font-size="12" font-weight="bold" fill="#8a6d1e">TWO THINGS THAT MUST NOT BE MISSED</text>
+<g font-size="10.5" fill="#222">
+<text x="58" y="380">Drainage slowing or stopping while the patient has pain and a distended bladder means CLOT RETENTION.</text>
+<text x="58" y="398">Confusion, restlessness and a falling sodium after long resection means ABSORPTION OF IRRIGATING FLUID.</text>
+</g>
+</svg>

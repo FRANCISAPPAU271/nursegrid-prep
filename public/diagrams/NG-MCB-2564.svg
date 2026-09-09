@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 600" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.lnk{fill:#eef4f8;stroke:#5b8aa8;stroke-width:1.6;rx:10}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+</style>
+<rect width="880" height="600" fill="#f7fafb"/>
+<text class="t" x="24" y="32">The chain of infection — break any one link and transmission stops</text>
+
+<rect class="lnk" x="24" y="52" width="128" height="74"/>
+<text class="h" x="42" y="80">1 AGENT</text><text class="s" x="42" y="100">the organism</text><text class="s" x="42" y="116">itself</text>
+<rect class="lnk" x="166" y="52" width="128" height="74"/>
+<text class="h" x="184" y="80">2 RESERVOIR</text><text class="s" x="184" y="100">where it lives</text><text class="s" x="184" y="116">and multiplies</text>
+<rect class="lnk" x="308" y="52" width="128" height="74"/>
+<text class="h" x="326" y="80">3 PORTAL</text><text class="h" x="326" y="97">OUT</text><text class="s" x="326" y="116">how it leaves</text>
+<rect class="lnk" x="450" y="52" width="150" height="74"/>
+<text class="h" x="468" y="80">4 TRANSMISSION</text><text class="s" x="468" y="100">contact, droplet,</text><text class="s" x="468" y="116">airborne, vehicle, vector</text>
+<rect class="lnk" x="614" y="52" width="118" height="74"/>
+<text class="h" x="632" y="80">5 PORTAL</text><text class="h" x="632" y="97">IN</text><text class="s" x="632" y="116">how it enters</text>
+<rect class="lnk" x="746" y="52" width="110" height="74"/>
+<text class="h" x="764" y="80">6 HOST</text><text class="s" x="764" y="100">susceptible</text><text class="s" x="764" y="116">person</text>
+
+<text class="b" x="152" y="95">→</text><text class="b" x="294" y="95">→</text><text class="b" x="436" y="95">→</text><text class="b" x="600" y="95">→</text><text class="b" x="732" y="95">→</text>
+
+<rect class="ok" x="24" y="146" width="832" height="132"/>
+<text class="h" x="42" y="170">Where the nurse breaks it</text>
+<text class="b" x="42" y="196">Link 2 reservoir — cleaning, disinfection, treating the infected patient, safe water</text>
+<text class="b" x="42" y="218">Link 4 transmission — HAND HYGIENE, PPE, isolation, safe injection, sterile equipment</text>
+<text class="b" x="42" y="240">Link 5 portal in — aseptic technique, catheter care, wound dressing, early device removal</text>
+<text class="b" x="42" y="262">Link 6 host — immunisation, nutrition, treating diabetes, removing the device</text>
+
+<rect class="box" x="24" y="296" width="410" height="290"/>
+<text class="h" x="42" y="320">The four transmission routes</text>
+<text class="k" x="42" y="350">CONTACT — commonest of all</text>
+<text class="s" x="42" y="368">Direct touch or via a fomite. Gloves and gown.</text>
+<text class="s" x="42" y="386">MRSA, scabies, diarrhoeal disease, wounds.</text>
+<text class="k" x="42" y="416">DROPLET — travels about 1 metre, falls</text>
+<text class="s" x="42" y="434">Surgical mask within a metre. Single room.</text>
+<text class="s" x="42" y="452">Meningococcus, influenza, pertussis, mumps.</text>
+<text class="k" x="42" y="482">AIRBORNE — droplet nuclei, stay suspended</text>
+<text class="s" x="42" y="500">N95 respirator. Negative pressure if available.</text>
+<text class="s" x="42" y="518">TB, measles, chickenpox. Remember M-T-V.</text>
+<text class="k" x="42" y="548">VEHICLE and VECTOR</text>
+<text class="s" x="42" y="566">Food, water, blood — and mosquitoes, flies.</text>
+
+<rect class="box" x="450" y="296" width="406" height="290"/>
+<text class="h" x="468" y="320">Fomite — the word examiners love</text>
+<text class="b" x="468" y="346">An inanimate object that carries the organism</text>
+<text class="b" x="468" y="366">from one person to the next.</text>
+<text class="s" x="468" y="392">Stethoscope · BP cuff · thermometer · door handle</text>
+<text class="s" x="468" y="412">bed rail · mobile phone · pen · uniform · tourniquet</text>
+<text class="k" x="468" y="444">Your stethoscope is a fomite. Clean it between</text>
+<text class="k" x="468" y="462">patients — most nurses never do.</text>
+<text class="i" x="468" y="492">A VECTOR is alive (mosquito, housefly, tsetse).</text>
+<text class="i" x="468" y="512">A FOMITE is not. That single distinction is the</text>
+<text class="i" x="468" y="532">whole question whenever both appear as options.</text>
+<text class="b" x="468" y="564">Portal of entry and portal of exit are often the</text>
+<text class="b" x="468" y="580">same route — respiratory in, respiratory out.</text>
+</svg>

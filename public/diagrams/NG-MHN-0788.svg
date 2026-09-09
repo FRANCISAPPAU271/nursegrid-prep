@@ -1,0 +1,57 @@
+<svg viewBox="0 0 640 450" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="450" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">MENTAL HEALTH ACT 846 — ADMISSION AND THE CLOCK</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">Every detention has a time limit. The limit is what protects the patient.</text>
+
+<rect x="40" y="62" width="256" height="150" fill="#eaf3ea" stroke="#1a5c3a" stroke-width="1.8"/>
+<text x="168" y="84" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a5c3a">VOLUNTARY</text>
+<g font-size="10.5" fill="#222">
+<text x="52" y="106">Patient agrees to come in</text>
+<text x="52" y="126">Consent must be obtained before</text>
+<text x="52" y="140">any treatment is given</text>
+<text x="52" y="160">Has the right to REFUSE treatment</text>
+<text x="52" y="180">May request discharge in writing;</text>
+<text x="52" y="194">facility must grant within 24 HOURS</text>
+</g>
+
+<rect x="344" y="62" width="256" height="150" fill="#f7ecec" stroke="#8b2f2f" stroke-width="1.8"/>
+<text x="472" y="84" text-anchor="middle" font-size="14" font-weight="bold" fill="#8b2f2f">INVOLUNTARY</text>
+<g font-size="10.5" fill="#222">
+<text x="356" y="106">Brought in without consent</text>
+<text x="356" y="126">Requires a COURT ORDER, or a</text>
+<text x="356" y="140">certificate of urgency</text>
+<text x="356" y="160">Court route needs 2 recommendations:</text>
+<text x="356" y="174">a medical practitioner AND a</text>
+<text x="356" y="188">mental health practitioner</text>
+</g>
+
+<line x1="60" y1="252" x2="596" y2="252" stroke="#1a3a5c" stroke-width="2"/>
+<circle cx="120" cy="252" r="6" fill="#c8a54b"/><circle cx="300" cy="252" r="6" fill="#8b2f2f"/>
+<circle cx="470" cy="252" r="6" fill="#5a86a8"/>
+<text x="120" y="242" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#8a6d1e">48 HOURS</text>
+<text x="300" y="242" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#8b2f2f">72 HOURS</text>
+<text x="470" y="242" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#1a3a5c">1 MONTH</text>
+
+<g font-size="10" fill="#222">
+<text x="66" y="276">Place of safe custody,</text>
+<text x="66" y="290">where a facility cannot</text>
+<text x="66" y="304">be reached, then transfer</text>
+<text x="250" y="276">Maximum detention on a</text>
+<text x="250" y="290">certificate of urgency. Then</text>
+<text x="250" y="304">a court order, or release,</text>
+<text x="250" y="318">or become voluntary</text>
+<text x="440" y="276">Court order for temporary</text>
+<text x="440" y="290">treatment. Treatment plan</text>
+<text x="440" y="304">reviewed after one month</text>
+</g>
+
+<rect x="40" y="336" width="556" height="60" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.5"/>
+<text x="318" y="356" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#8a6d1e">SECLUSION AND RESTRAINT — section 58</text>
+<g font-size="10.5" fill="#222">
+<text x="52" y="376">Only where there is IMMINENT danger and tranquilisation is not appropriate or not available.</text>
+<text x="52" y="390">Authorised by the head of the facility or the senior nurse in charge. Never for staff convenience or punishment.</text>
+</g>
+
+<text x="320" y="420" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a3a5c">The Mental Health Review Tribunal hears complaints and reviews every involuntary admission.</text>
+<text x="320" y="440" text-anchor="middle" font-size="10.5" font-style="italic" fill="#8b2f2f">Capacity is PRESUMED until reliably proven otherwise — a diagnosis alone never removes it.</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg viewBox="0 0 460 190" role="img" xmlns="http://www.w3.org/2000/svg"><title>Managing a blood spill</title>
+<rect width="460" height="190" fill="#f6f8fc"/>
+<text x="230" y="24" font-size="12.5" text-anchor="middle" font-family="system-ui" font-weight="700">Blood or body fluid spill — the order matters</text>
+<g font-family="system-ui">
+<circle cx="52" cy="70" r="17" fill="#0a1628"/><text x="52" y="76" font-size="14" fill="#fff" text-anchor="middle" font-weight="700">1</text>
+<text x="78" y="66" font-size="11" font-weight="700">Put on gloves and apron</text>
+<text x="78" y="80" font-size="9.5" fill="#5a6b85">protect yourself before anything else</text>
+<circle cx="52" cy="112" r="17" fill="#0a1628"/><text x="52" y="118" font-size="14" fill="#fff" text-anchor="middle" font-weight="700">2</text>
+<text x="78" y="108" font-size="11" font-weight="700">Absorb the spill with disposable towels</text>
+<text x="78" y="122" font-size="9.5" fill="#e2574c">remove organic matter FIRST — it inactivates chlorine</text>
+<circle cx="52" cy="154" r="17" fill="#0f9d76"/><text x="52" y="160" font-size="14" fill="#fff" text-anchor="middle" font-weight="700">3</text>
+<text x="78" y="150" font-size="11" font-weight="700">Disinfect with 0.5% chlorine, leave 10 minutes</text>
+<text x="78" y="164" font-size="9.5" fill="#5a6b85">then wash with detergent, discard as clinical waste</text>
+</g>
+</svg>

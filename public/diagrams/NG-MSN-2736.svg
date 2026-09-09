@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 580" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.q{fill:#eef4f8;stroke:#8fa9bd;stroke-width:1.4}
+</style>
+<rect width="880" height="580" fill="#f7fafb"/>
+<text class="t" x="24" y="32">The acute abdomen: where the pain is, and what it means</text>
+
+<rect class="q" x="60" y="60" width="150" height="110"/><rect class="q" x="210" y="60" width="150" height="110"/>
+<rect class="q" x="60" y="170" width="150" height="110"/><rect class="q" x="210" y="170" width="150" height="110"/>
+<text class="h" x="76" y="86">RIGHT UPPER</text><text class="s" x="76" y="108">Gallbladder</text><text class="s" x="76" y="128">Liver</text><text class="s" x="76" y="148">Duodenum</text>
+<text class="h" x="226" y="86">LEFT UPPER</text><text class="s" x="226" y="108">Stomach</text><text class="s" x="226" y="128">Spleen</text><text class="s" x="226" y="148">Pancreas tail</text>
+<text class="h" x="76" y="196">RIGHT LOWER</text><text class="s" x="76" y="218">Appendix</text><text class="s" x="76" y="238">Caecum</text><text class="s" x="76" y="258">Ovary, tube</text>
+<text class="h" x="226" y="196">LEFT LOWER</text><text class="s" x="226" y="218">Sigmoid colon</text><text class="s" x="226" y="238">Diverticula</text><text class="s" x="226" y="258">Ovary, tube</text>
+
+<rect class="box" x="392" y="60" width="464" height="220"/>
+<text class="h" x="410" y="84">Patterns worth recognising</text>
+<text class="b" x="410" y="112">APPENDICITIS — pain starts centrally, then</text>
+<text class="s" x="410" y="132">settles in the right lower quadrant. Rebound tenderness.</text>
+<text class="b" x="410" y="158">CHOLECYSTITIS — right upper pain after fatty</text>
+<text class="s" x="410" y="178">food, radiating to the right shoulder blade.</text>
+<text class="b" x="410" y="204">PANCREATITIS — severe epigastric pain boring</text>
+<text class="s" x="410" y="224">through to the back, eased by sitting forward.</text>
+<text class="b" x="410" y="250">OBSTRUCTION — colicky pain, vomiting, distension,</text>
+<text class="s" x="410" y="270">absolute constipation. The four cardinal signs.</text>
+
+<rect class="warn" x="24" y="300" width="832" height="120"/>
+<text class="k" x="42" y="324">The rule that saves the patient: no analgesia myth, but no food, and no laxatives</text>
+<text class="b" x="42" y="352">Keep the patient NIL BY MOUTH — surgery may be needed and the bowel may be obstructed or perforated.</text>
+<text class="k" x="42" y="380">NEVER give a laxative or an enema for undiagnosed abdominal pain. If the bowel is obstructed you may perforate it.</text>
+<text class="b" x="42" y="406">Analgesia is given. Withholding it does not preserve the diagnosis and modern evidence does not support the old rule.</text>
+
+<rect class="ok" x="24" y="438" width="832" height="128"/>
+<text class="h" x="42" y="462">Signs that the abdomen has become surgical</text>
+<text class="b" x="42" y="490">RIGIDITY — a board-like abdomen means peritonitis, usually from perforation.</text>
+<text class="b" x="42" y="514">REBOUND TENDERNESS — pain that is worse when you release the pressure than when you apply it.</text>
+<text class="b" x="42" y="538">SILENT ABDOMEN — absent bowel sounds after listening for a full minute suggests ileus or peritonitis.</text>
+<text class="k" x="42" y="560">Sudden relief of severe pain can mean perforation has occurred, not that the patient is improving.</text>
+</svg>

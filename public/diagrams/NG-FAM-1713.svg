@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="100%" role="img">
+<rect x="0" y="0" width="760" height="470" fill="#fdfcfa"/>
+<text x="20" y="30" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="#1d4e63">When a patient wants to leave: the reason is usually not the reason</text>
+<text x="20" y="52" font-family="Georgia,serif" font-size="13" fill="#555">Almost nobody discharges themselves because they feel well. Find the real obstacle and most of them stay.</text>
+
+<rect x="20" y="68" width="348" height="216" rx="6" fill="#fff3f0" stroke="#c0392b"/>
+<text x="34" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#7a2020">What she says</text>
+<text x="34" y="114" font-family="Georgia,serif" font-size="12" fill="#333">"I am fine now, I want to go home."</text>
+<text x="34" y="140" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#7a2020">What is often underneath it</text>
+<text x="34" y="164" font-family="Georgia,serif" font-size="12" fill="#333">The bill is growing and nobody has said</text>
+<text x="34" y="182" font-family="Georgia,serif" font-size="12" fill="#333">what it will come to.</text>
+<text x="34" y="204" font-family="Georgia,serif" font-size="12" fill="#333">There is nobody at home with her children.</text>
+<text x="34" y="226" font-family="Georgia,serif" font-size="12" fill="#333">She has not been told what is wrong with her.</text>
+<text x="34" y="248" font-family="Georgia,serif" font-size="12" fill="#333">She is frightened of an operation nobody</text>
+<text x="34" y="266" font-family="Georgia,serif" font-size="12" fill="#333">has explained to her.</text>
+
+<rect x="382" y="68" width="358" height="216" rx="6" fill="#f2f7f2" stroke="#2e7d5b"/>
+<text x="396" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d5c42">What to do, in order</text>
+<text x="396" y="114" font-family="Georgia,serif" font-size="12" fill="#333">1. Sit down and ask what has changed today.</text>
+<text x="396" y="136" font-family="Georgia,serif" font-size="12" fill="#333">2. Deal with the actual obstacle if you can —</text>
+<text x="396" y="154" font-family="Georgia,serif" font-size="12" fill="#333">    the bill, the children, the missing answer.</text>
+<text x="396" y="176" font-family="Georgia,serif" font-size="12" fill="#333">3. Explain the specific risk of leaving now,</text>
+<text x="396" y="194" font-family="Georgia,serif" font-size="12" fill="#333">    plainly, without threatening her.</text>
+<text x="396" y="216" font-family="Georgia,serif" font-size="12" fill="#333">4. If she still chooses to go, she may go.</text>
+<text x="396" y="238" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#1d5c42">5. Send her home safely anyway: medicines,</text>
+<text x="396" y="256" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#1d5c42">    warning signs, and a way back in.</text>
+<text x="396" y="276" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#1d5c42">Refusing treatment is not refusing care.</text>
+
+<rect x="20" y="298" width="720" height="70" rx="6" fill="#eef4f8" stroke="#2b6b8a"/>
+<text x="34" y="320" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d4e63">A competent adult may leave, and no form changes that</text>
+<text x="34" y="342" font-family="Georgia,serif" font-size="12" fill="#333">The self-discharge form protects the record, not the nurse. It does not transfer liability, and it is not a punishment.</text>
+<text x="34" y="360" font-family="Georgia,serif" font-size="12" fill="#333">If she declines to sign it, document that she declined — and still give her the discharge advice.</text>
+
+<rect x="20" y="382" width="720" height="72" rx="6" fill="#fff8e8" stroke="#b8860b"/>
+<text x="34" y="404" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#8a6508">The exception that changes everything</text>
+<text x="34" y="426" font-family="Georgia,serif" font-size="12" fill="#333">A patient who lacks capacity, a detained patient under the Mental Health Act, or a child being removed by an adult</text>
+<text x="34" y="444" font-family="Georgia,serif" font-size="12" fill="#333">against the child's interests is a different situation. Escalate at once rather than deciding alone.</text>
+</svg>

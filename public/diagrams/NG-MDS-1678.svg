@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="100%" role="img">
+<rect x="0" y="0" width="760" height="470" fill="#fdfcfa"/>
+<text x="20" y="30" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="#7a2020">Five questions that make antibiotic use rational</text>
+<text x="20" y="52" font-family="Georgia,serif" font-size="13" fill="#555">Resistance is not created in laboratories. It is created one unnecessary prescription at a time.</text>
+
+<rect x="20" y="68" width="720" height="46" rx="6" fill="#eef4f8" stroke="#2b6b8a"/>
+<text x="34" y="88" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#1d4e63">1. Does this patient have a bacterial infection at all?</text>
+<text x="34" y="106" font-family="Georgia,serif" font-size="12" fill="#333">Most fevers, coughs and sore throats are viral. An antibiotic changes nothing except the patient's flora.</text>
+
+<rect x="20" y="122" width="720" height="46" rx="6" fill="#f2f7f2" stroke="#2e7d5b"/>
+<text x="34" y="142" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#1d5c42">2. Have specimens been taken before the first dose?</text>
+<text x="34" y="160" font-family="Georgia,serif" font-size="12" fill="#333">After the first dose the culture may grow nothing, and you lose the chance to narrow the treatment.</text>
+
+<rect x="20" y="176" width="720" height="46" rx="6" fill="#fff8e8" stroke="#b8860b"/>
+<text x="34" y="196" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#8a6508">3. Is this the narrowest drug that will work?</text>
+<text x="34" y="214" font-family="Georgia,serif" font-size="12" fill="#333">Broad cover is for when you do not yet know. Once you know, narrow it. Broader is not stronger.</text>
+
+<rect x="20" y="230" width="720" height="46" rx="6" fill="#f4f4fb" stroke="#4a4a8a"/>
+<text x="34" y="250" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#33336b">4. Can it go from the drip to the mouth yet?</text>
+<text x="34" y="268" font-family="Georgia,serif" font-size="12" fill="#333">A patient who is eating, afebrile and improving usually no longer needs the cannula that is infecting her.</text>
+
+<rect x="20" y="284" width="720" height="46" rx="6" fill="#fff3f0" stroke="#c0392b"/>
+<text x="34" y="304" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#7a2020">5. When does it stop?</text>
+<text x="34" y="322" font-family="Georgia,serif" font-size="12" fill="#333">A stop or review date written at the start prevents the course that quietly runs for three weeks.</text>
+
+<rect x="20" y="346" width="352" height="112" rx="6" fill="#eef4f8" stroke="#2b6b8a"/>
+<text x="34" y="368" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#1d4e63">What patients in Ghana actually do</text>
+<text x="34" y="390" font-family="Georgia,serif" font-size="12" fill="#333">Buy a few capsules from a chemical seller,</text>
+<text x="34" y="408" font-family="Georgia,serif" font-size="12" fill="#333">take them until they feel better, and keep</text>
+<text x="34" y="426" font-family="Georgia,serif" font-size="12" fill="#333">the rest for next time or for a relative.</text>
+<text x="34" y="448" font-family="Georgia,serif" font-size="12" font-style="italic" fill="#1d4e63">Ask without blame, or you will not be told.</text>
+
+<rect x="388" y="346" width="352" height="112" rx="6" fill="#f2f7f2" stroke="#2e7d5b"/>
+<text x="402" y="368" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#1d5c42">Drugs that need blood levels checked</text>
+<text x="402" y="390" font-family="Georgia,serif" font-size="12" fill="#333">Some drugs have so narrow a margin that the</text>
+<text x="402" y="408" font-family="Georgia,serif" font-size="12" fill="#333">dose is set by measuring the level, not by</text>
+<text x="402" y="426" font-family="Georgia,serif" font-size="12" fill="#333">the patient's weight alone. The timing of the</text>
+<text x="402" y="444" font-family="Georgia,serif" font-size="12" fill="#333">sample matters as much as the result.</text>
+</svg>
