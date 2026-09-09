@@ -9,7 +9,7 @@ const FAQS = [
   },
   {
     q: "How many questions are included — and are they real exam questions?",
-    a: "NurseGrid Prep includes 6,600+ unique licensing-style questions built from 700+ real clinical scenarios, covering every major category: med-surg, pharmacology, maternal-newborn, paediatrics, mental health, fundamentals, safety, and leadership. Every question is distinct — no recycled near-duplicates — and ships with a detailed rationale and a test-taking strategy tip. We never sell leaked content, because pattern mastery is what actually gets you through unseen questions, and the bank grows with new question drops.",
+    a: "NurseGrid Prep includes 2,900+ licensing-style questions covering every major category: med-surg, pharmacology, maternal-newborn, paediatrics, mental health, fundamentals, safety, and leadership. They are written by us against the NMC Ghana syllabus — they are not past papers and not copied from any published bank. Every question ships with a full rationale, an explanation of why each wrong option is wrong, and a 20-second strategy tip. We never sell leaked content, because pattern mastery is what actually gets you through unseen questions, and the bank grows with new question drops.",
   },
   {
     q: "What's included in the free plan?",
@@ -17,7 +17,7 @@ const FAQS = [
   },
   {
     q: "How much does full access cost?",
-    a: "Choose the plan that fits you: GH₵ 80 for 4 months, GH₵ 140 for 8 months, or GH₵ 200 for a full year (best value). All plans unlock unlimited access to all 6,600+ unique questions, rationales, strategies, and progress tracking for the length of the plan.",
+    a: "Choose the plan that fits you: GH₵ 80 for 4 months, GH₵ 140 for 8 months, or GH₵ 200 for a full year (best value). All plans unlock unlimited access to all 2,900+ unique questions, rationales, strategies, and progress tracking for the length of the plan.",
   },
   {
     q: "Will I be charged again automatically?",
