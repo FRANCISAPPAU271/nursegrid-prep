@@ -93,7 +93,7 @@ export function trialEndingEmail(name: string): { subject: string; html: string 
     html: layout(`
       <h1 style="font-size:20px;">Your trial ends tomorrow, ${name || "there"} ⏳</h1>
       <p>Your 3-day full-premium trial on NurseGrid Prep is almost over. Right now you still have access to
-      all 6,600+ NMC-style questions, mock exams, adaptive testing, and your Readiness Score.</p>
+      all 2,900+ NMC-style questions, mock exams, adaptive testing, and your Readiness Score.</p>
       <p><b>Keep everything from just GH₵ 80 for 4 full months</b> — one MoMo payment, never auto-billed.</p>
       ${button(`${APP_URL}/dashboard/billing`, "Keep my premium access")}
       <p style="color:#64748b;font-size:13px;">If you let the trial end, your account stays free with 40 practice questions — your progress is saved either way.</p>
