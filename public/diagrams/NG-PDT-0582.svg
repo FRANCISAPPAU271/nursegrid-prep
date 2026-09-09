@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="400" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">DIARRHOEA IN A CHILD — CLASSIFY, THEN TREAT</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">Two or more signs in a column place the child in that column</text>
+
+<rect x="20" y="58" width="192" height="300" fill="#eaf3ea" stroke="#8fb98f" stroke-width="1.5"/>
+<rect x="224" y="58" width="192" height="300" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.5"/>
+<rect x="428" y="58" width="192" height="300" fill="#f7ecec" stroke="#c08a8a" stroke-width="1.5"/>
+
+<text x="116" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a5c3a">NO DEHYDRATION</text>
+<text x="320" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#8a6d1e">SOME DEHYDRATION</text>
+<text x="524" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#8b2f2f">SEVERE DEHYDRATION</text>
+
+<g font-size="10.5" fill="#222">
+<text x="32" y="104">Alert and well</text>
+<text x="32" y="122">Drinks normally</text>
+<text x="32" y="140">Eyes normal</text>
+<text x="32" y="158">Skin pinch goes back at once</text>
+<text x="32" y="176">Passing urine normally</text>
+
+<text x="236" y="104">Restless and irritable</text>
+<text x="236" y="122">Thirsty, drinks eagerly</text>
+<text x="236" y="140">Sunken eyes</text>
+<text x="236" y="158">Skin pinch goes back slowly</text>
+<text x="236" y="176">Reduced urine</text>
+
+<text x="440" y="104">Lethargic or unconscious</text>
+<text x="440" y="122">Drinks poorly or unable</text>
+<text x="440" y="140">Very sunken eyes</text>
+<text x="440" y="158">Skin pinch goes back very slowly</text>
+<text x="440" y="176">Weak fast pulse, cold hands</text>
+</g>
+
+<rect x="32" y="196" width="168" height="26" fill="#1a5c3a"/>
+<text x="116" y="214" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">PLAN A</text>
+<rect x="236" y="196" width="168" height="26" fill="#8a6d1e"/>
+<text x="320" y="214" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">PLAN B</text>
+<rect x="440" y="196" width="168" height="26" fill="#8b2f2f"/>
+<text x="524" y="214" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">PLAN C</text>
+
+<g font-size="10.5" fill="#222">
+<text x="32" y="242">Treat at home</text>
+<text x="32" y="260">Extra fluids after every stool</text>
+<text x="32" y="278">ORS and home fluids</text>
+<text x="32" y="296">Zinc daily for 14 days</text>
+<text x="32" y="314">Continue feeding and</text><text x="32" y="330">breastfeeding</text>
+<text x="32" y="348">Teach when to return</text>
+
+<text x="236" y="242">Treat at the facility</text>
+<text x="236" y="260">ORS 75 mL/kg over 4 hours</text>
+<text x="236" y="278">Give by cup and spoon,</text><text x="236" y="294">slowly, in small sips</text>
+<text x="236" y="312">Zinc daily for 14 days</text>
+<text x="236" y="330">Reassess after 4 hours and</text><text x="236" y="346">reclassify</text>
+
+<text x="440" y="242">Emergency — intravenous now</text>
+<text x="440" y="260">Ringer's lactate 100 mL/kg</text>
+<text x="440" y="278">Under 12 months: 30 mL/kg in</text><text x="440" y="294">1 h, then 70 mL/kg over 5 h</text>
+<text x="440" y="312">12 months and over: 30 mL/kg</text><text x="440" y="328">in 30 min, then 70 over 2.5 h</text>
+<text x="440" y="348">Reassess every 15-30 minutes</text>
+</g>
+<text x="320" y="376" text-anchor="middle" font-size="11" font-style="italic" fill="#8b2f2f">Zinc is given in every plan. It shortens the illness and protects against the next episode.</text>
+</svg>

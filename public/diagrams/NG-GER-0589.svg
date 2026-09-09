@@ -1,0 +1,36 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="400" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">NORMAL AGEING — LOSS OF RESERVE, NOT LOSS OF FUNCTION</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">At rest the older body copes. Under stress the spare capacity that used to absorb the shock is gone.</text>
+
+<rect x="20" y="58" width="600" height="24" fill="#1a3a5c"/>
+<text x="36" y="75" font-size="12" font-weight="bold" fill="#fff">SYSTEM</text>
+<text x="180" y="75" font-size="12" font-weight="bold" fill="#fff">NORMAL AGE CHANGE</text>
+<text x="410" y="75" font-size="12" font-weight="bold" fill="#fff">WHAT IT MEANS FOR NURSING</text>
+
+<g font-size="10.5" fill="#222">
+<rect x="20" y="82" width="600" height="30" fill="#eef4f8"/>
+<text x="36" y="101" font-weight="bold">Skin</text><text x="180" y="101">Thin, dry, less elastic, fragile</text><text x="410" y="101">Tears easily; skin pinch misleads on hydration</text>
+<rect x="20" y="112" width="600" height="30" fill="#fff"/>
+<text x="36" y="131" font-weight="bold">Kidney</text><text x="180" y="131">Fewer nephrons, lower filtration</text><text x="410" y="131">Drugs accumulate; doses often need reducing</text>
+<rect x="20" y="142" width="600" height="30" fill="#eef4f8"/>
+<text x="36" y="161" font-weight="bold">Heart</text><text x="180" y="161">Stiffer vessels, slower rate response</text><text x="410" y="161">Poor tolerance of fluid excess or sudden loss</text>
+<rect x="20" y="172" width="600" height="30" fill="#fff"/>
+<text x="36" y="191" font-weight="bold">Lungs</text><text x="180" y="191">Weaker cough, stiffer chest wall</text><text x="410" y="191">Chest infection after any period in bed</text>
+<rect x="20" y="202" width="600" height="30" fill="#eef4f8"/>
+<text x="36" y="221" font-weight="bold">Immunity</text><text x="180" y="221">Blunted response, weaker fever</text><text x="410" y="221">Serious infection with little or no temperature</text>
+<rect x="20" y="232" width="600" height="30" fill="#fff"/>
+<text x="36" y="251" font-weight="bold">Thirst</text><text x="180" y="251">Sensation reduced with age</text><text x="410" y="251">Dehydration before the person feels thirsty</text>
+<rect x="20" y="262" width="600" height="30" fill="#eef4f8"/>
+<text x="36" y="281" font-weight="bold">Bone/muscle</text><text x="180" y="281">Lower density, less muscle bulk</text><text x="410" y="281">Fracture from a small fall; rapid loss in bed</text>
+<rect x="20" y="292" width="600" height="30" fill="#fff"/>
+<text x="36" y="311" font-weight="bold">Senses</text><text x="180" y="311">Presbyopia, high-tone hearing loss</text><text x="410" y="311">Face the person, speak low and clear, not loud</text>
+</g>
+<rect x="20" y="58" width="600" height="264" fill="none" stroke="#1a3a5c" stroke-width="1.5"/>
+<line x1="170" y1="58" x2="170" y2="322" stroke="#9bb4c8"/>
+<line x1="400" y1="58" x2="400" y2="322" stroke="#9bb4c8"/>
+
+<rect x="20" y="334" width="600" height="52" fill="#f7ecec" stroke="#c08a8a" stroke-width="1.5"/>
+<text x="320" y="354" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b2f2f">ILLNESS IN OLD AGE OFTEN PRESENTS WITHOUT ITS CLASSIC SIGNS</text>
+<text x="34" y="374" font-size="10.5">Pneumonia may show as confusion with no fever. A heart attack may be breathlessness with no chest pain.</text>
+</svg>

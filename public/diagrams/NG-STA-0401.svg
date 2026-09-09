@@ -1,0 +1,50 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="400" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">CHOOSING A STATISTICAL TEST</text>
+<text x="320" y="45" text-anchor="middle" font-size="12" fill="#555">Ask what kind of data you have, and what question you are asking of it</text>
+
+<rect x="24" y="58" width="592" height="28" fill="#1a3a5c"/>
+<text x="36" y="77" font-size="12" font-weight="bold" fill="#fff">TEST</text>
+<text x="130" y="77" font-size="12" font-weight="bold" fill="#fff">USE IT WHEN</text>
+<text x="380" y="77" font-size="12" font-weight="bold" fill="#fff">NURSING EXAMPLE</text>
+
+<rect x="24" y="86" width="592" height="56" fill="#fff" stroke="#d8d2c4"/>
+<text x="36" y="110" font-size="12" font-weight="bold" fill="#8b2f2f">t-test</text>
+<text x="130" y="106" font-size="11" fill="#333">Comparing the MEANS of two</text>
+<text x="130" y="124" font-size="11" fill="#333">groups, on numerical data.</text>
+<text x="380" y="106" font-size="11" fill="#333">Mean pain score of patients</text>
+<text x="380" y="124" font-size="11" fill="#333">given drug A versus drug B.</text>
+
+<rect x="24" y="142" width="592" height="56" fill="#f6f3ec" stroke="#d8d2c4"/>
+<text x="36" y="166" font-size="12" font-weight="bold" fill="#8b2f2f">ANOVA</text>
+<text x="130" y="162" font-size="11" fill="#333">Comparing the means of</text>
+<text x="130" y="180" font-size="11" fill="#333">THREE or more groups.</text>
+<text x="380" y="162" font-size="11" fill="#333">Mean length of stay on three</text>
+<text x="380" y="180" font-size="11" fill="#333">different wards.</text>
+
+<rect x="24" y="198" width="592" height="56" fill="#fff" stroke="#d8d2c4"/>
+<text x="36" y="222" font-size="12" font-weight="bold" fill="#8b2f2f">Chi-square</text>
+<text x="130" y="218" font-size="11" fill="#333">Both variables are CATEGORIES.</text>
+<text x="130" y="236" font-size="11" fill="#333">You are comparing counts.</text>
+<text x="380" y="218" font-size="11" fill="#333">Is immunisation uptake related</text>
+<text x="380" y="236" font-size="11" fill="#333">to urban versus rural residence?</text>
+
+<rect x="24" y="254" width="592" height="56" fill="#f6f3ec" stroke="#d8d2c4"/>
+<text x="36" y="278" font-size="12" font-weight="bold" fill="#8b2f2f">Correlation</text>
+<text x="130" y="274" font-size="11" fill="#333">Two numerical variables, and</text>
+<text x="130" y="292" font-size="11" fill="#333">you ask if they move together.</text>
+<text x="380" y="274" font-size="11" fill="#333">Does haemoglobin rise as the</text>
+<text x="380" y="292" font-size="11" fill="#333">weeks of iron therapy increase?</text>
+
+<rect x="24" y="320" width="288" height="70" fill="#eaf3ea" stroke="#8fb98f"/>
+<text x="168" y="338" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5c3a">READING r</text>
+<text x="34" y="356" font-size="10" fill="#333">Sign = direction. Plus, both rise together.</text>
+<text x="34" y="371" font-size="10" fill="#333">Minus, one rises as the other falls.</text>
+<text x="34" y="386" font-size="10" fill="#333">Size = strength. 0 none, 1 perfect.</text>
+
+<rect x="328" y="320" width="288" height="70" fill="#f7e9e9" stroke="#c78f8f"/>
+<text x="472" y="338" text-anchor="middle" font-size="11" font-weight="bold" fill="#8b2f2f">READING p</text>
+<text x="338" y="356" font-size="10" fill="#333">p is the chance the result arose by</text>
+<text x="338" y="371" font-size="10" fill="#333">luck alone if nothing real were there.</text>
+<text x="338" y="386" font-size="10" fill="#333">p below 0.05 = statistically significant.</text>
+</svg>

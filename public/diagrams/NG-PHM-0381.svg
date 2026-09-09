@@ -1,0 +1,38 @@
+<svg viewBox="0 0 470 250" role="img" xmlns="http://www.w3.org/2000/svg"><title>Pharmacovigilance reporting in Ghana</title>
+<rect width="470" height="250" fill="#f6f8fc"/>
+<text x="235" y="20" font-size="12.5" text-anchor="middle" font-family="system-ui" font-weight="700">Pharmacovigilance — the nurse is the first link</text>
+<defs><marker id="pv" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#0f9d76"/></marker></defs>
+<g font-family="system-ui">
+<rect x="14" y="34" width="128" height="54" rx="8" fill="#dff3ec" stroke="#0f9d76" stroke-width="2"/>
+<text x="78" y="54" font-size="10.5" text-anchor="middle" font-weight="700" fill="#0b7a5c">NURSE observes</text>
+<text x="78" y="69" font-size="9" text-anchor="middle">an adverse reaction,</text>
+<text x="78" y="81" font-size="9" text-anchor="middle">near miss or no effect</text>
+<rect x="171" y="34" width="128" height="54" rx="8" fill="#fff" stroke="#2b6fa8" stroke-width="2"/>
+<text x="235" y="54" font-size="10.5" text-anchor="middle" font-weight="700" fill="#2b6fa8">REPORTS it</text>
+<text x="235" y="69" font-size="9" text-anchor="middle">Yellow form or the</text>
+<text x="235" y="81" font-size="9" text-anchor="middle">Med Safety mobile app</text>
+<rect x="328" y="34" width="128" height="54" rx="8" fill="#fff" stroke="#2b6fa8" stroke-width="2"/>
+<text x="392" y="54" font-size="10.5" text-anchor="middle" font-weight="700" fill="#2b6fa8">FDA Ghana</text>
+<text x="392" y="69" font-size="9" text-anchor="middle">assesses causality,</text>
+<text x="392" y="81" font-size="9" text-anchor="middle">looks for a signal</text>
+<line x1="144" y1="61" x2="167" y2="61" stroke="#0f9d76" stroke-width="2" marker-end="url(#pv)"/>
+<line x1="301" y1="61" x2="324" y2="61" stroke="#0f9d76" stroke-width="2" marker-end="url(#pv)"/>
+</g>
+<rect x="14" y="98" width="442" height="46" rx="8" fill="#fff8e8" stroke="#f2b705" stroke-width="2"/>
+<text x="235" y="115" font-size="10.5" text-anchor="middle" font-family="system-ui" font-weight="700">A SIGNAL is a pattern nobody could see from one patient</text>
+<text x="235" y="132" font-size="9.5" text-anchor="middle" font-family="system-ui" fill="#5a6b85">Many small reports combine to reveal a harm that no single nurse could ever prove alone</text>
+<rect x="14" y="154" width="216" height="84" rx="8" fill="#fff" stroke="#0f9d76" stroke-width="2"/>
+<text x="122" y="172" font-size="10.5" text-anchor="middle" font-family="system-ui" font-weight="700" fill="#0b7a5c">DO report</text>
+<g font-family="system-ui" font-size="9.5">
+<text x="24" y="190">Any suspected reaction, even if unsure</text>
+<text x="24" y="205">New medicines and vaccines especially</text>
+<text x="24" y="220">Medication errors and near misses</text>
+<text x="24" y="234">Suspected poor quality or fake medicine</text></g>
+<rect x="240" y="154" width="216" height="84" rx="8" fill="#fff" stroke="#e2574c" stroke-width="2"/>
+<text x="348" y="172" font-size="10.5" text-anchor="middle" font-family="system-ui" font-weight="700" fill="#a8352c">Do NOT wait for</text>
+<g font-family="system-ui" font-size="9.5">
+<text x="250" y="190">Certainty that the drug caused it</text>
+<text x="250" y="205">Permission from a doctor</text>
+<text x="250" y="220">The patient to be harmed seriously</text>
+<text x="250" y="234">Someone else to report it first</text></g>
+</svg>

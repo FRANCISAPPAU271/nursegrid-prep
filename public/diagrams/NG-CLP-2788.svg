@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 620" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.row{fill:#f2f7fa}
+</style>
+<rect width="880" height="620" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Blood tubes: the order of draw and why it exists</text>
+
+<rect class="box" x="24" y="48" width="832" height="216"/>
+<rect class="row" x="34" y="60" width="812" height="30"/>
+<text class="h" x="48" y="81">ORDER</text><text class="h" x="150" y="81">TOP</text><text class="h" x="290" y="81">ADDITIVE</text><text class="h" x="520" y="81">USED FOR</text>
+<text class="b" x="48" y="112">1</text><text class="k" x="150" y="112">Blood culture</text><text class="b" x="290" y="112">Broth, sterile</text><text class="b" x="520" y="112">Culture — always first</text>
+<rect class="row" x="34" y="122" width="812" height="30"/>
+<text class="b" x="48" y="143">2</text><text class="b" x="150" y="143">Light blue</text><text class="b" x="290" y="143">Sodium citrate</text><text class="b" x="520" y="143">Clotting, INR, D-dimer</text>
+<text class="b" x="48" y="174">3</text><text class="b" x="150" y="174">Red or gold</text><text class="b" x="290" y="174">Clot activator, gel</text><text class="b" x="520" y="174">Chemistry, serology</text>
+<rect class="row" x="34" y="184" width="812" height="30"/>
+<text class="b" x="48" y="205">4</text><text class="b" x="150" y="205">Green</text><text class="b" x="290" y="205">Heparin</text><text class="b" x="520" y="205">Some chemistry, ammonia</text>
+<text class="b" x="48" y="236">5</text><text class="k" x="150" y="236">Purple / EDTA</text><text class="b" x="290" y="236">EDTA</text><text class="b" x="520" y="236">Full blood count, group</text>
+<rect class="row" x="34" y="246" width="812" height="12"/>
+
+<rect class="warn" x="24" y="282" width="410" height="164"/>
+<text class="k" x="42" y="306">Why the order matters</text>
+<text class="b" x="42" y="334">Additive carried from one tube into the next</text>
+<text class="b" x="42" y="356">changes the result of the second tube.</text>
+<text class="k" x="42" y="386">EDTA carried into a chemistry tube:</text>
+<text class="b" x="42" y="410">potassium falsely HIGH, calcium falsely LOW</text>
+<text class="s" x="42" y="434">because EDTA is a potassium salt that binds calcium.</text>
+
+<rect class="ok" x="450" y="282" width="406" height="164"/>
+<text class="h" x="468" y="306">Filling the tube correctly</text>
+<text class="b" x="468" y="334">Fill to the marked line. The additive is</text>
+<text class="b" x="468" y="356">measured for that exact volume.</text>
+<text class="k" x="468" y="386">An underfilled citrate tube gives a</text>
+<text class="k" x="468" y="406">falsely PROLONGED clotting time.</text>
+<text class="s" x="468" y="432">Invert gently the stated number of times. Do not shake.</text>
+
+<rect class="warn" x="24" y="464" width="832" height="140"/>
+<text class="k" x="42" y="488">Samples the laboratory will reject — and should</text>
+<text class="b" x="42" y="516">HAEMOLYSED — potassium leaks out of ruptured red cells, so the result reads falsely high. Caused by a</text>
+<text class="s" x="42" y="538">needle that is too fine, excessive suction, shaking the tube, or drawing above a running drip.</text>
+<text class="b" x="42" y="562">CLOTTED in an EDTA tube — the platelet and white cell counts are then meaningless.</text>
+<text class="k" x="42" y="590">UNLABELLED or mislabelled — never relabelled later. Discard and repeat. A wrong name is a wrong patient.</text>
+</svg>

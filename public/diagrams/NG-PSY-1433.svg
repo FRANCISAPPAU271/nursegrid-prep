@@ -1,0 +1,46 @@
+<svg viewBox="0 0 640 460" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="460" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">RELAPSE IS A PROCESS WITH A WARNING PERIOD</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">Nobody wakes up psychotic. There are usually two to four weeks of signals first, and they repeat each time.</text>
+
+<line x1="60" y1="150" x2="590" y2="150" stroke="#1a3a5c" stroke-width="2.5"/>
+<polygon points="590,150 578,144 578,156" fill="#1a3a5c"/>
+<circle cx="110" cy="150" r="8" fill="#1a5c3a"/><text x="110" y="176" text-anchor="middle" font-size="9.5" fill="#1a5c3a">Well</text>
+<circle cx="240" cy="150" r="8" fill="#c8a54b"/><text x="240" y="176" text-anchor="middle" font-size="9.5" fill="#8a6d1e">Sleep goes first</text>
+<circle cx="370" cy="150" r="8" fill="#c87a3c"/><text x="370" y="176" text-anchor="middle" font-size="9.5" fill="#a05a20">Withdrawal, irritability</text>
+<circle cx="500" cy="150" r="8" fill="#8b2f2f"/><text x="500" y="176" text-anchor="middle" font-size="9.5" fill="#8b2f2f">Frank relapse</text>
+<text x="320" y="112" text-anchor="middle" font-size="11" font-style="italic" fill="#555">This is where the family can act, and where admission is still avoidable.</text>
+<path d="M240 128 L240 140 M370 128 L370 140" stroke="#555" stroke-width="1" stroke-dasharray="3,3"/>
+
+<rect x="24" y="196" width="290" height="128" fill="#eef4f8" stroke="#5a86a8" stroke-width="1.7"/>
+<text x="169" y="216" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a3a5c">THE RELAPSE SIGNATURE</text>
+<g font-size="9.5" fill="#222">
+<text x="36" y="238">Each person's early signs are their own</text>
+<text x="36" y="254">and repeat with every episode.</text>
+<text x="36" y="276">Ask the family what they noticed first</text>
+<text x="36" y="292">last time. They almost always know,</text>
+<text x="36" y="308">and nobody has ever asked them.</text>
+</g>
+
+<rect x="326" y="196" width="290" height="128" fill="#f7ecec" stroke="#8b2f2f" stroke-width="1.7"/>
+<text x="471" y="216" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b2f2f">WHY MEDICATION IS STOPPED</text>
+<g font-size="9.5" fill="#222">
+<text x="338" y="238">Feeling well and thinking it is finished.</text>
+<text x="338" y="254">Side effects nobody asked about.</text>
+<text x="338" y="270">Cost, distance, and stock-outs.</text>
+<text x="338" y="286">Family or a healer advising against it.</text>
+<text x="338" y="308" font-style="italic">Four different problems. Four different answers.</text>
+</g>
+
+<rect x="24" y="338" width="592" height="52" fill="#eaf3ea" stroke="#1a5c3a" stroke-width="1.8"/>
+<g font-size="10" fill="#222">
+<text x="40" y="358" font-weight="bold" fill="#1a5c3a">Never call a patient non-compliant until you have found out which of those four it was.</text>
+<text x="40" y="378">The word describes your frustration. It contains no information you can act on.</text>
+</g>
+
+<rect x="24" y="402" width="592" height="48" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.7"/>
+<g font-size="10" fill="#222">
+<text x="40" y="422">A written crisis plan naming the early signs, what the family should do, and whom to telephone,</text>
+<text x="40" y="440">is worth more at three in the morning than any amount of advice given at discharge.</text>
+</g>
+</svg>

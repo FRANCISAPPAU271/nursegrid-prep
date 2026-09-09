@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 600" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.stp{fill:#eef4f8;stroke:#8fa9bd;stroke-width:1.4;rx:6}
+</style>
+<rect width="880" height="600" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Post-operative complications: the day tells you the diagnosis</text>
+
+<rect class="box" x="24" y="48" width="832" height="212"/>
+<text class="h" x="42" y="72">A post-operative fever, read by timing</text>
+<rect class="stp" x="42" y="86" width="800" height="30"/>
+<text class="b" x="58" y="107">Day 0 to 2</text><text class="k" x="220" y="107">Lungs</text><text class="b" x="360" y="107">Atelectasis — shallow breathing, not clearing secretions</text>
+<rect class="stp" x="42" y="122" width="800" height="30"/>
+<text class="b" x="58" y="143">Day 3 to 5</text><text class="k" x="220" y="143">Urine</text><text class="b" x="360" y="143">Urinary infection, often catheter-associated</text>
+<rect class="stp" x="42" y="158" width="800" height="30"/>
+<text class="b" x="58" y="179">Day 4 to 6</text><text class="k" x="220" y="179">Veins</text><text class="b" x="360" y="179">Deep vein thrombosis — calf pain, swelling, warmth</text>
+<rect class="stp" x="42" y="194" width="800" height="30"/>
+<text class="b" x="58" y="215">Day 5 to 7</text><text class="k" x="220" y="215">Wound</text><text class="b" x="360" y="215">Surgical site infection — redness, heat, pus, pain increasing</text>
+<text class="i" x="58" y="248">Memory hook: wind, water, walking, wound — in that order through the first week.</text>
+
+<rect class="warn" x="24" y="278" width="410" height="150"/>
+<text class="k" x="42" y="302">WOUND DEHISCENCE</text>
+<text class="b" x="42" y="330">The wound edges separate, often around day 5</text>
+<text class="b" x="42" y="352">to 8, frequently heralded by a sudden gush</text>
+<text class="b" x="42" y="374">of serous pink fluid from the wound.</text>
+<text class="k" x="42" y="404">Cover with a sterile saline-soaked dressing,</text>
+<text class="k" x="42" y="422">lie the patient flat, call the surgeon.</text>
+
+<rect class="warn" x="450" y="278" width="406" height="150"/>
+<text class="k" x="468" y="302">EVISCERATION</text>
+<text class="b" x="468" y="330">Abdominal contents protrude through the</text>
+<text class="b" x="468" y="352">wound. This is a surgical emergency.</text>
+<text class="k" x="468" y="382">NEVER push the organs back in.</text>
+<text class="b" x="468" y="408">Cover with sterile saline gauze, keep it moist,</text>
+<text class="b" x="468" y="424">knees flexed, nil by mouth, prepare for theatre.</text>
+
+<rect class="ok" x="24" y="446" width="832" height="138"/>
+<text class="h" x="42" y="470">Why early mobilisation and deep breathing matter more than any drug</text>
+<text class="b" x="42" y="498">Lying still after surgery causes three of the four complications above: the lung bases collapse, the calf veins</text>
+<text class="b" x="42" y="522">stagnate and clot, and the bladder is not emptied properly.</text>
+<text class="k" x="42" y="552">Getting the patient sitting, breathing deeply and walking is the single most effective post-operative intervention.</text>
+<text class="i" x="42" y="576">Adequate pain relief is what makes it possible — an unmedicated patient will not breathe deeply or walk.</text>
+</svg>

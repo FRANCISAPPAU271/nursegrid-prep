@@ -1,0 +1,36 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="400" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">WHAT A BUSINESS PLAN IS FOR</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">Its first reader is you. Writing it is how you discover the idea does not work — cheaply, before you spend.</text>
+
+<rect x="20" y="58" width="600" height="24" fill="#1a3a5c"/>
+<text x="36" y="75" font-size="12" font-weight="bold" fill="#fff">SECTION</text>
+<text x="230" y="75" font-size="12" font-weight="bold" fill="#fff">THE QUESTION IT HAS TO ANSWER</text>
+
+<g font-size="10.5" fill="#222">
+<rect x="20" y="82" width="600" height="28" fill="#eef4f8"/>
+<text x="36" y="100" font-weight="bold">Executive summary</text><text x="230" y="100">If they read nothing else, what must they know?</text>
+<rect x="20" y="110" width="600" height="28" fill="#fff"/>
+<text x="36" y="128" font-weight="bold">The problem</text><text x="230" y="128">Whose problem is this, and how do you know it is real?</text>
+<rect x="20" y="138" width="600" height="28" fill="#eef4f8"/>
+<text x="36" y="156" font-weight="bold">The service</text><text x="230" y="156">What exactly will you provide, and how is it different?</text>
+<rect x="20" y="166" width="600" height="28" fill="#fff"/>
+<text x="36" y="184" font-weight="bold">The market</text><text x="230" y="184">Who will pay, how many are there, what do they pay now?</text>
+<rect x="20" y="194" width="600" height="28" fill="#eef4f8"/>
+<text x="36" y="212" font-weight="bold">Competition</text><text x="230" y="212">Who already serves them, and why would anyone switch?</text>
+<rect x="20" y="222" width="600" height="28" fill="#fff"/>
+<text x="36" y="240" font-weight="bold">Marketing plan</text><text x="230" y="240">How will they find out you exist?</text>
+<rect x="20" y="250" width="600" height="28" fill="#eef4f8"/>
+<text x="36" y="268" font-weight="bold">Operations</text><text x="230" y="268">Premises, staff, equipment, licences, suppliers</text>
+<rect x="20" y="278" width="600" height="28" fill="#fff"/>
+<text x="36" y="296" font-weight="bold">The numbers</text><text x="230" y="296">Start-up cost, running cost, price, break-even, cash flow</text>
+<rect x="20" y="306" width="600" height="28" fill="#eef4f8"/>
+<text x="36" y="324" font-weight="bold">Risks</text><text x="230" y="324">What could go wrong, and what will you do if it does?</text>
+</g>
+<rect x="20" y="58" width="600" height="276" fill="none" stroke="#1a3a5c" stroke-width="1.5"/>
+<line x1="220" y1="58" x2="220" y2="334" stroke="#9bb4c8"/>
+
+<rect x="20" y="346" width="600" height="44" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.5"/>
+<text x="34" y="366" font-size="10.5" fill="#222">A plan written only to obtain a loan tells the bank what it wants to hear. A plan written to test the idea tells you the</text>
+<text x="34" y="382" font-size="10.5" fill="#222">truth. Write the second one, then show it to the bank.</text>
+</svg>

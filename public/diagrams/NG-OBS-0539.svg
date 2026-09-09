@@ -1,0 +1,59 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="400" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">ANTENATAL CARE — THE EIGHT CONTACT MODEL</text>
+<text x="320" y="45" text-anchor="middle" font-size="12" fill="#555">WHO changed from 4 visits to 8 contacts in 2016. Ghana follows the 8 contact schedule.</text>
+
+<line x1="50" y1="96" x2="596" y2="96" stroke="#333" stroke-width="2"/>
+<polygon points="596,96 586,91 586,101" fill="#333"/>
+<g font-size="9" fill="#555" text-anchor="middle">
+<circle cx="80" cy="96" r="6" fill="#1a5c3a"/><text x="80" y="82">1</text><text x="80" y="118">by 12 wk</text>
+<circle cx="150" cy="96" r="6" fill="#1a3a5c"/><text x="150" y="82">2</text><text x="150" y="118">20 wk</text>
+<circle cx="220" cy="96" r="6" fill="#1a3a5c"/><text x="220" y="82">3</text><text x="220" y="118">26 wk</text>
+<circle cx="290" cy="96" r="6" fill="#1a3a5c"/><text x="290" y="82">4</text><text x="290" y="118">30 wk</text>
+<circle cx="360" cy="96" r="6" fill="#1a3a5c"/><text x="360" y="82">5</text><text x="360" y="118">34 wk</text>
+<circle cx="430" cy="96" r="6" fill="#1a3a5c"/><text x="430" y="82">6</text><text x="430" y="118">36 wk</text>
+<circle cx="500" cy="96" r="6" fill="#1a3a5c"/><text x="500" y="82">7</text><text x="500" y="118">38 wk</text>
+<circle cx="570" cy="96" r="6" fill="#8b2f2f"/><text x="570" y="82">8</text><text x="570" y="118">40 wk</text>
+</g>
+<text x="80" y="136" text-anchor="middle" font-size="9" font-style="italic" fill="#1a5c3a">book early</text>
+
+<rect x="24" y="150" width="288" height="112" fill="#eaf3ea" stroke="#8fb98f" stroke-width="1.5"/>
+<text x="168" y="170" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a5c3a">EVERY CONTACT</text>
+<text x="34" y="190" font-size="10" fill="#333">Blood pressure  ·  weight  ·  urine for protein</text>
+<text x="34" y="206" font-size="10" fill="#333">Fundal height  ·  foetal heart  ·  lie and presentation</text>
+<text x="34" y="222" font-size="10" fill="#333">Ask about danger signs  ·  check the mother's mood</text>
+<text x="34" y="238" font-size="10" fill="#333">Iron and folate  ·  birth preparedness plan</text>
+<text x="34" y="254" font-size="10" fill="#333">Record everything in the maternal health record book</text>
+
+<rect x="328" y="150" width="288" height="112" fill="#eef4f8" stroke="#5a86a8" stroke-width="1.5"/>
+<text x="472" y="170" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a3a5c">AT SPECIFIC CONTACTS</text>
+<text x="338" y="190" font-size="10" fill="#333">Booking bloods: Hb, blood group, rhesus, sickling,</text>
+<text x="338" y="204" font-size="10" fill="#333">HIV, syphilis, hepatitis B</text>
+<text x="338" y="222" font-size="10" fill="#333">Tetanus toxoid  ·  ITN for malaria  ·  IPTp from 13 wk,</text>
+<text x="338" y="236" font-size="10" fill="#333">monthly, at least three doses, given as observed dose</text>
+<text x="338" y="254" font-size="10" fill="#333">Deworming after the first trimester</text>
+
+<rect x="24" y="272" width="592" height="26" fill="#8b2f2f"/>
+<text x="320" y="291" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">DANGER SIGNS — TEACH THESE TO EVERY WOMAN, AT EVERY CONTACT</text>
+
+<rect x="24" y="298" width="196" height="96" fill="#f7e9e9" stroke="#c78f8f"/>
+<text x="122" y="318" text-anchor="middle" font-size="11" font-weight="bold" fill="#8b2f2f">BLEEDING</text>
+<text x="34" y="336" font-size="10" fill="#333">Any vaginal bleeding at</text>
+<text x="34" y="350" font-size="10" fill="#333">any stage of pregnancy.</text>
+<text x="34" y="370" font-size="10" fill="#333">Never do a vaginal exam</text>
+<text x="34" y="384" font-size="10" fill="#333">on a bleeding woman.</text>
+
+<rect x="224" y="298" width="196" height="96" fill="#f7e9e9" stroke="#c78f8f"/>
+<text x="322" y="318" text-anchor="middle" font-size="11" font-weight="bold" fill="#8b2f2f">PRE-ECLAMPSIA</text>
+<text x="234" y="336" font-size="10" fill="#333">Severe headache  ·  blurred</text>
+<text x="234" y="350" font-size="10" fill="#333">vision  ·  epigastric pain</text>
+<text x="234" y="364" font-size="10" fill="#333">Swelling of face and hands</text>
+<text x="234" y="382" font-size="10" fill="#333">Fits — refer immediately</text>
+
+<rect x="424" y="298" width="192" height="96" fill="#f7e9e9" stroke="#c78f8f"/>
+<text x="520" y="318" text-anchor="middle" font-size="11" font-weight="bold" fill="#8b2f2f">OTHER</text>
+<text x="434" y="336" font-size="10" fill="#333">Fever  ·  fluid leaking early</text>
+<text x="434" y="350" font-size="10" fill="#333">Baby stops moving</text>
+<text x="434" y="364" font-size="10" fill="#333">Severe abdominal pain</text>
+<text x="434" y="382" font-size="10" fill="#333">Difficulty breathing</text>
+</svg>

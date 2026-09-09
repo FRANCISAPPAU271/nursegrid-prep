@@ -1,0 +1,52 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="400" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">IMCI — COUNTING BREATHS AND CLASSIFYING</text>
+<text x="320" y="45" text-anchor="middle" font-size="12" fill="#555">The threshold changes with age. Count for a full minute, when the child is calm.</text>
+
+<rect x="24" y="58" width="592" height="28" fill="#1a3a5c"/>
+<text x="120" y="77" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">AGE OF CHILD</text>
+<text x="380" y="77" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">FAST BREATHING IS</text>
+
+<rect x="24" y="86" width="592" height="34" fill="#fff" stroke="#d8d2c4"/>
+<text x="120" y="108" text-anchor="middle" font-size="12" fill="#333">Under 2 months</text>
+<text x="380" y="108" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b2f2f">60 breaths per minute or more</text>
+
+<rect x="24" y="120" width="592" height="34" fill="#f6f3ec" stroke="#d8d2c4"/>
+<text x="120" y="142" text-anchor="middle" font-size="12" fill="#333">2 months to 12 months</text>
+<text x="380" y="142" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b2f2f">50 breaths per minute or more</text>
+
+<rect x="24" y="154" width="592" height="34" fill="#fff" stroke="#d8d2c4"/>
+<text x="120" y="176" text-anchor="middle" font-size="12" fill="#333">12 months to 5 years</text>
+<text x="380" y="176" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b2f2f">40 breaths per minute or more</text>
+
+<text x="320" y="212" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a3a5c">THE TRAFFIC LIGHT — WHAT THE COLOUR MEANS</text>
+
+<rect x="24" y="222" width="192" height="118" fill="#f7d9d9" stroke="#8b2f2f" stroke-width="2"/>
+<text x="120" y="242" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b2f2f">PINK — SEVERE</text>
+<text x="120" y="258" text-anchor="middle" font-size="10" font-style="italic" fill="#8b2f2f">refer urgently</text>
+<text x="34" y="278" font-size="10" fill="#333">Any general danger sign:</text>
+<text x="34" y="294" font-size="10" fill="#333">unable to drink or feed,</text>
+<text x="34" y="308" font-size="10" fill="#333">vomits everything,</text>
+<text x="34" y="322" font-size="10" fill="#333">convulsions, lethargic</text>
+<text x="34" y="336" font-size="10" fill="#333">or unconscious.</text>
+
+<rect x="224" y="222" width="192" height="118" fill="#faf0d6" stroke="#c9a227" stroke-width="2"/>
+<text x="320" y="242" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b6a2f">YELLOW — TREAT HERE</text>
+<text x="320" y="258" text-anchor="middle" font-size="10" font-style="italic" fill="#8b6a2f">treat and follow up</text>
+<text x="234" y="278" font-size="10" fill="#333">Pneumonia: fast breathing</text>
+<text x="234" y="292" font-size="10" fill="#333">but no chest indrawing.</text>
+<text x="234" y="312" font-size="10" fill="#333">Give oral antibiotic,</text>
+<text x="234" y="326" font-size="10" fill="#333">review in 2 days.</text>
+
+<rect x="424" y="222" width="192" height="118" fill="#e2f0e2" stroke="#1a5c3a" stroke-width="2"/>
+<text x="520" y="242" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a5c3a">GREEN — HOME CARE</text>
+<text x="520" y="258" text-anchor="middle" font-size="10" font-style="italic" fill="#1a5c3a">advise the mother</text>
+<text x="434" y="278" font-size="10" fill="#333">Cough or cold, no fast</text>
+<text x="434" y="292" font-size="10" fill="#333">breathing.</text>
+<text x="434" y="312" font-size="10" fill="#333">Home remedies, fluids,</text>
+<text x="434" y="326" font-size="10" fill="#333">and when to return.</text>
+
+<rect x="24" y="348" width="592" height="44" fill="#fff3cd" stroke="#e0c86a"/>
+<text x="320" y="366" text-anchor="middle" font-size="11" font-weight="bold" fill="#6b5410">CHEST INDRAWING = severe pneumonia, whatever the rate. The lower chest wall moves IN on breathing in.</text>
+<text x="320" y="384" text-anchor="middle" font-size="11" font-style="italic" fill="#6b5410">Assess for danger signs FIRST, in every child, before anything else.</text>
+</svg>

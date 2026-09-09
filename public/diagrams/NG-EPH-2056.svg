@@ -1,0 +1,50 @@
+<svg viewBox="0 0 720 480" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect x="0" y="0" width="720" height="480" fill="#f7f9fb"/>
+<text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#1d3f5e">Faeces to mouth: every route, and the block that stops it</text>
+<text x="360" y="50" text-anchor="middle" font-size="12.5" fill="#5c6f80">One barrier stops one route. The latrine stops all of them.</text>
+
+<rect x="30" y="66" width="90" height="66" rx="7" fill="#e6d7c8" stroke="#a9895f"/>
+<text x="75" y="95" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#5b3a1a">Faeces</text>
+<text x="75" y="115" text-anchor="middle" font-size="10.5" fill="#5b3a1a">the source</text>
+<line x1="120" y1="99" x2="168" y2="99" stroke="#a9895f" stroke-width="2"/>
+<polygon points="168,99 158,94 158,104" fill="#a9895f"/>
+
+<rect x="172" y="66" width="330" height="176" rx="7" fill="#eaf1f7" stroke="#9fb9cd"/>
+<text x="187" y="87" font-size="13" font-weight="bold" fill="#1d3f5e">The five routes</text>
+<text x="187" y="108" font-size="11.5" fill="#26333d">Fluids: drinking water taken from a contaminated source</text>
+<text x="187" y="127" font-size="11.5" fill="#26333d">Fields: soil where people defecate in the open</text>
+<text x="187" y="146" font-size="11.5" fill="#26333d">Flies: landing on faeces, then on food</text>
+<text x="187" y="165" font-size="11.5" fill="#26333d">Fingers: unwashed hands after the latrine</text>
+<text x="187" y="184" font-size="11.5" fill="#26333d">Food: prepared, sold or stored with any of the above</text>
+<text x="187" y="207" font-size="11.5" font-weight="bold" fill="#1d3f5e">All five end in the same place</text>
+<text x="187" y="228" font-size="11" font-style="italic" fill="#7a5a2a">Which is why a single message rarely stops an outbreak</text>
+
+<rect x="554" y="66" width="136" height="66" rx="7" fill="#f6e9e6" stroke="#c98f80"/>
+<text x="622" y="95" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#8a3018">A new host</text>
+<text x="622" y="115" text-anchor="middle" font-size="10.5" fill="#8a3018">the mouth</text>
+<line x1="502" y1="99" x2="550" y2="99" stroke="#c98f80" stroke-width="2"/>
+<polygon points="550,99 540,94 540,104" fill="#c98f80"/>
+
+<rect x="30" y="256" width="325" height="198" rx="7" fill="#e9f2ec" stroke="#8fb59d"/>
+<text x="45" y="277" font-size="13.5" font-weight="bold" fill="#1d5236">Barriers, strongest first</text>
+<text x="45" y="298" font-size="11.5" font-weight="bold" fill="#1d5236">Safe disposal of faeces in a latrine</text>
+<text x="45" y="315" font-size="11" font-style="italic" fill="#7a5a2a">blocks every route at the source</text>
+<text x="45" y="336" font-size="11.5" fill="#26333d">Handwashing with soap after the latrine</text>
+<text x="45" y="353" font-size="11" font-style="italic" fill="#7a5a2a">and before food, with water and soap present</text>
+<text x="45" y="374" font-size="11.5" fill="#26333d">Treating and safely storing drinking water</text>
+<text x="45" y="395" font-size="11.5" fill="#26333d">Covering, reheating and protecting food</text>
+<text x="45" y="416" font-size="11.5" fill="#26333d">Reducing flies by removing the exposed faeces</text>
+<text x="45" y="440" font-size="11" font-weight="bold" fill="#8a3018">A soap message without soap in the house changes nothing</text>
+
+<rect x="365" y="256" width="325" height="198" rx="7" fill="#f2ece2" stroke="#c9b79c"/>
+<text x="380" y="277" font-size="13.5" font-weight="bold" fill="#5b4a2e">Household water treatment</text>
+<text x="380" y="298" font-size="11.5" fill="#3f3428">Boil to a rolling boil, then cool covered</text>
+<text x="380" y="317" font-size="11.5" fill="#3f3428">Chlorine tablet or solution, measured to the volume</text>
+<text x="380" y="334" font-size="11" font-style="italic" fill="#7a5a2a">wait the full contact time before drinking</text>
+<text x="380" y="355" font-size="11.5" fill="#3f3428">Filter or settle turbid water first</text>
+<text x="380" y="372" font-size="11" font-style="italic" fill="#7a5a2a">chlorine works poorly in cloudy water</text>
+<text x="380" y="393" font-size="11.5" font-weight="bold" fill="#5b4a2e">Then store it in a covered container with a tap</text>
+<text x="380" y="410" font-size="11" font-style="italic" fill="#7a5a2a">a cup dipped in by hand recontaminates the whole pot</text>
+<text x="380" y="433" font-size="11.5" font-weight="bold" fill="#8a3018">Clean water becomes dirty in the storage container,</text>
+<text x="380" y="449" font-size="11.5" font-weight="bold" fill="#8a3018">not usually at the borehole</text>
+</svg>

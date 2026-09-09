@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 620" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.row{fill:#f2f7fa}
+</style>
+<rect width="880" height="620" fill="#f7fafb"/>
+<text class="t" x="24" y="32">The wound bed: colour tells you what the wound needs</text>
+
+<rect class="box" x="24" y="48" width="832" height="200"/>
+<rect class="row" x="34" y="60" width="812" height="30"/>
+<text class="h" x="48" y="81">COLOUR</text><text class="h" x="230" y="81">WHAT IT IS</text><text class="h" x="500" y="81">WHAT IT NEEDS</text>
+<circle cx="60" cy="108" r="10" fill="#111"/>
+<text class="b" x="82" y="113">BLACK</text><text class="b" x="230" y="113">Necrotic eschar, dead tissue</text><text class="k" x="500" y="113">Debridement</text>
+<rect class="row" x="34" y="122" width="812" height="30"/>
+<circle cx="60" cy="140" r="10" fill="#d9c98a"/>
+<text class="b" x="82" y="145">YELLOW</text><text class="b" x="230" y="145">Slough, dead cells and exudate</text><text class="k" x="500" y="145">Debride, absorb exudate</text>
+<circle cx="60" cy="172" r="10" fill="#c94f4f"/>
+<text class="b" x="82" y="177">RED</text><text class="b" x="230" y="177">Granulation — healthy new tissue</text><text class="k" x="500" y="177">Protect and keep moist</text>
+<rect class="row" x="34" y="186" width="812" height="30"/>
+<circle cx="60" cy="204" r="10" fill="#e8b7c0"/>
+<text class="b" x="82" y="209">PINK</text><text class="b" x="230" y="209">Epithelialisation from the edges</text><text class="k" x="500" y="209">Protect, do not disturb</text>
+<text class="i" x="48" y="240">Black to yellow to red to pink is the direction of healing. A wound going the other way is deteriorating.</text>
+
+<rect class="ok" x="24" y="266" width="410" height="180"/>
+<text class="h" x="42" y="290">Moist wound healing</text>
+<text class="b" x="42" y="318">Cells migrate across a moist surface and</text>
+<text class="b" x="42" y="340">cannot cross a dry scab.</text>
+<text class="k" x="42" y="370">Too dry — healing stops, scab forms</text>
+<text class="k" x="42" y="392">Too wet — the surrounding skin macerates</text>
+<text class="s" x="42" y="420">The dressing is chosen to move the wound towards</text>
+<text class="s" x="42" y="438">the middle: add moisture, or absorb it.</text>
+
+<rect class="box" x="450" y="266" width="406" height="180"/>
+<text class="h" x="468" y="290">Matching dressing to exudate</text>
+<text class="b" x="468" y="318">DRY wound — hydrogel to donate moisture</text>
+<text class="b" x="468" y="342">LOW exudate — hydrocolloid or film</text>
+<text class="b" x="468" y="366">MODERATE — foam</text>
+<text class="b" x="468" y="390">HEAVY — alginate, then a foam on top</text>
+<text class="s" x="468" y="418">Infected wounds are not sealed under an</text>
+<text class="s" x="468" y="436">occlusive dressing. They need review and drainage.</text>
+
+<rect class="warn" x="24" y="464" width="832" height="140"/>
+<text class="k" x="42" y="488">Signs a wound is infected rather than simply healing</text>
+<text class="b" x="42" y="516">Increasing pain · spreading redness · heat · swelling · purulent exudate · offensive odour · delayed healing</text>
+<text class="b" x="42" y="542">Granulation that bleeds easily or turns dark, and a wound that suddenly starts to break down again.</text>
+<text class="k" x="42" y="570">All wounds carry organisms. Colonisation is normal; INFECTION is when the tissue reacts and healing stalls.</text>
+<text class="i" x="42" y="594">Swab only if you suspect infection, and swab the cleaned wound bed — not the slough or the surrounding skin.</text>
+</svg>

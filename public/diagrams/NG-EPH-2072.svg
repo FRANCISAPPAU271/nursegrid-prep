@@ -1,0 +1,49 @@
+<svg viewBox="0 0 720 470" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect x="0" y="0" width="720" height="470" fill="#f7f9fb"/>
+<text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#1d3f5e">Cold chain and coverage: two ways a vaccine fails</text>
+<text x="360" y="50" text-anchor="middle" font-size="12.5" fill="#5c6f80">A vaccine given is not the same as a vaccine that worked</text>
+
+<rect x="30" y="66" width="325" height="180" rx="7" fill="#eaf1f7" stroke="#9fb9cd"/>
+<text x="45" y="87" font-size="13.5" font-weight="bold" fill="#1d3f5e">The cold chain</text>
+<text x="45" y="108" font-size="11.5" fill="#26333d">Store between +2 and +8 degrees Celsius</text>
+<text x="45" y="127" font-size="11.5" fill="#26333d">Read and record the fridge temperature twice daily</text>
+<text x="45" y="146" font-size="11.5" fill="#26333d">Vaccines in the body of the fridge, never the door</text>
+<text x="45" y="165" font-size="11.5" fill="#26333d">Ice packs conditioned until they sweat before packing</text>
+<text x="45" y="186" font-size="11.5" font-weight="bold" fill="#8a3018">Freezing destroys the diluent-based vaccines</text>
+<text x="45" y="205" font-size="11.5" font-weight="bold" fill="#8a3018">as surely as heat destroys the live ones</text>
+<text x="45" y="228" font-size="11" font-style="italic" fill="#7a5a2a">Too cold is a real error, not a safe margin</text>
+
+<rect x="365" y="66" width="325" height="180" rx="7" fill="#e9f2ec" stroke="#8fb59d"/>
+<text x="380" y="87" font-size="13.5" font-weight="bold" fill="#1d5236">The vial monitor tells you the truth</text>
+<rect x="380" y="98" width="52" height="52" rx="6" fill="#ffffff" stroke="#4a4a4a"/>
+<circle cx="406" cy="124" r="12" fill="#f4f2ee" stroke="#4a4a4a"/>
+<text x="446" y="122" font-size="11.5" fill="#26333d">Inner square lighter than the ring:</text>
+<text x="446" y="140" font-size="11.5" font-weight="bold" fill="#1d5236">use this vial</text>
+<rect x="380" y="158" width="52" height="52" rx="6" fill="#ffffff" stroke="#4a4a4a"/>
+<circle cx="406" cy="184" r="12" fill="#5a5148" stroke="#4a4a4a"/>
+<text x="446" y="182" font-size="11.5" fill="#26333d">Inner square as dark as the ring, or darker:</text>
+<text x="446" y="200" font-size="11.5" font-weight="bold" fill="#8a3018">discard it, whatever the expiry date says</text>
+<text x="380" y="228" font-size="11" font-style="italic" fill="#7a5a2a">The monitor records heat over time; the date does not</text>
+
+<rect x="30" y="262" width="325" height="192" rx="7" fill="#f2ece2" stroke="#c9b79c"/>
+<text x="45" y="283" font-size="13.5" font-weight="bold" fill="#5b4a2e">Measuring coverage honestly</text>
+<text x="45" y="305" font-size="11.5" fill="#3f3428">Numerator: children in the district who received the dose</text>
+<text x="45" y="324" font-size="11.5" fill="#3f3428">Denominator: all children of that age who live there</text>
+<text x="45" y="347" font-size="11.5" font-weight="bold" fill="#5b4a2e">Coverage above one hundred per cent usually means</text>
+<text x="45" y="364" font-size="11.5" font-weight="bold" fill="#5b4a2e">the denominator is wrong, not that everyone came</text>
+<text x="45" y="387" font-size="11.5" fill="#3f3428">Children crossing from a neighbouring district inflate it</text>
+<text x="45" y="406" font-size="11.5" fill="#3f3428">An out-of-date population estimate does the same</text>
+<text x="45" y="429" font-size="11" font-style="italic" fill="#7a5a2a">Compare the first dose with the last: the gap between</text>
+<text x="45" y="446" font-size="11" font-style="italic" fill="#7a5a2a">them is the dropout, and that is the real problem</text>
+
+<rect x="365" y="262" width="325" height="192" rx="7" fill="#f6e9e6" stroke="#c98f80"/>
+<text x="380" y="283" font-size="13.5" font-weight="bold" fill="#8a3018">Why children are missed</text>
+<text x="380" y="305" font-size="11.5" fill="#3f2b26">Nobody followed up the defaulter from the register</text>
+<text x="380" y="324" font-size="11.5" fill="#3f2b26">The mother was turned away because the session was full</text>
+<text x="380" y="343" font-size="11.5" fill="#3f2b26">A child with a mild cold was sent home unnecessarily</text>
+<text x="380" y="362" font-size="11.5" fill="#3f2b26">The family moved, or works on a distant farm</text>
+<text x="380" y="381" font-size="11.5" fill="#3f2b26">A rumour spread and nobody answered it</text>
+<text x="380" y="404" font-size="11.5" font-weight="bold" fill="#8a3018">Every one of these is a service failure,</text>
+<text x="380" y="421" font-size="11.5" font-weight="bold" fill="#8a3018">not a refusal by the mother</text>
+<text x="380" y="444" font-size="11" font-style="italic" fill="#7a5a2a">Find the defaulters in the register before blaming the community</text>
+</svg>

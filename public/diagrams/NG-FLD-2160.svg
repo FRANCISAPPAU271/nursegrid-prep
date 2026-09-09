@@ -1,0 +1,42 @@
+<svg viewBox="0 0 720 480" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect x="0" y="0" width="720" height="480" fill="#f9f7f4"/>
+<text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#8a3018">Potassium: the narrowest window in the body</text>
+<text x="360" y="50" text-anchor="middle" font-size="12.5" fill="#7a6a58">Normal 3.5 to 5.0 mmol/L. Both ends stop the heart.</text>
+
+<rect x="30" y="66" width="660" height="62" rx="7" fill="#fff" stroke="#c9b79c"/>
+<rect x="46" y="82" width="150" height="30" fill="#f6d9d2" stroke="#c98f80"/>
+<text x="121" y="102" text-anchor="middle" font-size="12" font-weight="bold" fill="#8a3018">LOW — under 3.5</text>
+<rect x="196" y="82" width="290" height="30" fill="#dff0e6" stroke="#8fb59d"/>
+<text x="341" y="102" text-anchor="middle" font-size="12" font-weight="bold" fill="#1d5236">SAFE — 3.5 to 5.0</text>
+<rect x="486" y="82" width="188" height="30" fill="#f6d9d2" stroke="#c98f80"/>
+<text x="580" y="102" text-anchor="middle" font-size="12" font-weight="bold" fill="#8a3018">HIGH — over 5.0</text>
+
+<rect x="30" y="140" width="325" height="180" rx="7" fill="#f6e9e6" stroke="#c98f80"/>
+<text x="45" y="161" font-size="13.5" font-weight="bold" fill="#8a3018">Too low</text>
+<text x="45" y="182" font-size="11.5" fill="#3f2b26">Causes: vomiting, diarrhoea, water tablets,</text>
+<text x="45" y="199" font-size="11.5" fill="#3f2b26">poor intake, insulin, salbutamol</text>
+<text x="45" y="221" font-size="11.5" fill="#3f2b26">Signs: weak floppy muscles, cramps, ileus,</text>
+<text x="45" y="238" font-size="11.5" fill="#3f2b26">palpitations, flattened T wave with a U wave</text>
+<text x="45" y="261" font-size="11.5" font-weight="bold" fill="#8a3018">The lethal pairing: low potassium plus digoxin.</text>
+<text x="45" y="278" font-size="11.5" font-weight="bold" fill="#8a3018">Low K makes a normal digoxin dose toxic.</text>
+<text x="45" y="300" font-size="11" font-style="italic" fill="#7a5a2a">Check magnesium too: potassium will not correct</text>
+<text x="45" y="315" font-size="11" font-style="italic" fill="#7a5a2a">while magnesium is low</text>
+
+<rect x="365" y="140" width="325" height="180" rx="7" fill="#eaf1f7" stroke="#9fb9cd"/>
+<text x="380" y="161" font-size="13.5" font-weight="bold" fill="#1d3f5e">Too high</text>
+<text x="380" y="182" font-size="11.5" fill="#26333d">Causes: kidney failure, crush injury, burns,</text>
+<text x="380" y="199" font-size="11.5" fill="#26333d">acidosis, stored blood, some BP tablets</text>
+<text x="380" y="221" font-size="11.5" fill="#26333d">Signs: often none until the arrest</text>
+<text x="380" y="243" font-size="11.5" font-weight="bold" fill="#1d3f5e">ECG first: tall peaked T waves, then a wide</text>
+<text x="380" y="260" font-size="11.5" font-weight="bold" fill="#1d3f5e">QRS, then a sine wave, then asystole</text>
+<text x="380" y="283" font-size="11.5" fill="#26333d">Order of treatment: calcium to protect the heart,</text>
+<text x="380" y="300" font-size="11.5" fill="#26333d">then insulin with glucose to move it into cells,</text>
+<text x="380" y="315" font-size="11.5" fill="#26333d">then something to remove it from the body</text>
+
+<rect x="30" y="336" width="660" height="120" rx="7" fill="#f6d9d2" stroke="#a8321c" stroke-width="1.5"/>
+<text x="45" y="359" font-size="14" font-weight="bold" fill="#8a3018">The rule that kills patients when it is broken</text>
+<text x="52" y="383" font-size="12.5" font-weight="bold" fill="#8a3018">Concentrated potassium is NEVER given as a rapid push or a bolus. It causes cardiac arrest.</text>
+<text x="52" y="405" font-size="12" fill="#3f2b26">It is always diluted, always infused slowly, and peripherally not faster than about 10 mmol per hour</text>
+<text x="52" y="424" font-size="12" fill="#3f2b26">Faster rates need a central line, cardiac monitoring and a high dependency setting</text>
+<text x="52" y="446" font-size="11.5" font-style="italic" fill="#7a5a2a">Check the urine output first: giving potassium to a patient who is not passing urine is how it accumulates</text>
+</svg>

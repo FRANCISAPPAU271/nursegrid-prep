@@ -1,0 +1,41 @@
+<svg viewBox="0 0 470 300" role="img" xmlns="http://www.w3.org/2000/svg"><title>Endocrine glands and their main hormones</title>
+<rect width="470" height="300" fill="#f6f8fc"/>
+<text x="235" y="20" font-size="12.5" text-anchor="middle" font-family="system-ui" font-weight="700">Endocrine glands and their principal hormones</text>
+<ellipse cx="90" cy="70" rx="34" ry="40" fill="#fde8e6" stroke="#e2574c" stroke-width="2"/>
+<circle cx="90" cy="58" r="9" fill="#e2574c"/>
+<text x="90" y="94" font-size="9" text-anchor="middle" font-family="system-ui" font-weight="700">Head</text>
+<g font-family="system-ui" font-size="9.5">
+<text x="136" y="44" font-weight="700" fill="#a8352c">Hypothalamus</text>
+<text x="136" y="57">Releasing hormones, ADH, oxytocin</text>
+<text x="136" y="74" font-weight="700" fill="#a8352c">Pituitary — the conductor</text>
+<text x="136" y="87">Anterior: GH, TSH, ACTH, FSH, LH, prolactin</text>
+<text x="136" y="100">Posterior: stores ADH and oxytocin</text>
+</g>
+<line x1="124" y1="70" x2="132" y2="70" stroke="#e2574c" stroke-width="2"/>
+<rect x="20" y="120" width="140" height="70" rx="8" fill="#fff" stroke="#2b6fa8" stroke-width="2"/>
+<text x="90" y="138" font-size="10.5" text-anchor="middle" font-family="system-ui" font-weight="700" fill="#2b6fa8">Thyroid</text>
+<text x="90" y="153" font-size="9.5" text-anchor="middle" font-family="system-ui">T3 and T4 — metabolic rate</text>
+<text x="90" y="167" font-size="9.5" text-anchor="middle" font-family="system-ui">Calcitonin — lowers calcium</text>
+<text x="90" y="182" font-size="9" text-anchor="middle" font-family="system-ui" fill="#5a6b85">needs iodine</text>
+<rect x="170" y="120" width="140" height="70" rx="8" fill="#fff" stroke="#2b6fa8" stroke-width="2"/>
+<text x="240" y="138" font-size="10.5" text-anchor="middle" font-family="system-ui" font-weight="700" fill="#2b6fa8">Parathyroid</text>
+<text x="240" y="153" font-size="9.5" text-anchor="middle" font-family="system-ui">PTH — raises calcium</text>
+<text x="240" y="167" font-size="9.5" text-anchor="middle" font-family="system-ui">bone, gut, kidney</text>
+<text x="240" y="182" font-size="9" text-anchor="middle" font-family="system-ui" fill="#5a6b85">opposes calcitonin</text>
+<rect x="320" y="120" width="130" height="70" rx="8" fill="#fff" stroke="#2b6fa8" stroke-width="2"/>
+<text x="385" y="138" font-size="10.5" text-anchor="middle" font-family="system-ui" font-weight="700" fill="#2b6fa8">Adrenal</text>
+<text x="385" y="153" font-size="9.5" text-anchor="middle" font-family="system-ui">Cortex: cortisol,</text>
+<text x="385" y="167" font-size="9.5" text-anchor="middle" font-family="system-ui">aldosterone, androgens</text>
+<text x="385" y="182" font-size="9.5" text-anchor="middle" font-family="system-ui">Medulla: adrenaline</text>
+<rect x="20" y="200" width="212" height="70" rx="8" fill="#fff" stroke="#0f9d76" stroke-width="2"/>
+<text x="126" y="218" font-size="10.5" text-anchor="middle" font-family="system-ui" font-weight="700" fill="#0b7a5c">Pancreas — islets of Langerhans</text>
+<text x="126" y="234" font-size="9.5" text-anchor="middle" font-family="system-ui">Beta cells: insulin, lowers glucose</text>
+<text x="126" y="248" font-size="9.5" text-anchor="middle" font-family="system-ui">Alpha cells: glucagon, raises glucose</text>
+<text x="126" y="263" font-size="9" text-anchor="middle" font-family="system-ui" fill="#5a6b85">the classic opposing pair</text>
+<rect x="242" y="200" width="208" height="70" rx="8" fill="#fff" stroke="#0f9d76" stroke-width="2"/>
+<text x="346" y="218" font-size="10.5" text-anchor="middle" font-family="system-ui" font-weight="700" fill="#0b7a5c">Gonads</text>
+<text x="346" y="234" font-size="9.5" text-anchor="middle" font-family="system-ui">Ovaries: oestrogen, progesterone</text>
+<text x="346" y="248" font-size="9.5" text-anchor="middle" font-family="system-ui">Testes: testosterone</text>
+<text x="346" y="263" font-size="9" text-anchor="middle" font-family="system-ui" fill="#5a6b85">driven by FSH and LH from pituitary</text>
+<text x="235" y="288" font-size="9.5" text-anchor="middle" font-family="system-ui" fill="#5a6b85" font-weight="700">Endocrine = ductless, secretes into blood. Exocrine = through a duct onto a surface.</text>
+</svg>

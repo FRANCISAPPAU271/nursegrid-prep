@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 480" width="100%" role="img">
+<rect x="0" y="0" width="760" height="480" fill="#fdfcfa"/>
+<text x="20" y="30" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="#1d4e63">The first minute: what a newborn actually needs</text>
+<text x="20" y="52" font-family="Georgia,serif" font-size="13" fill="#555">Almost every baby who does not breathe needs air, not adrenaline. The order below saves more lives than any drug.</text>
+
+<rect x="20" y="68" width="720" height="72" rx="6" fill="#f2f7f2" stroke="#2e7d5b"/>
+<text x="34" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d5c42">Every baby, every birth — the first 60 seconds</text>
+<text x="34" y="112" font-family="Georgia,serif" font-size="12" fill="#333">Dry thoroughly · remove the wet cloth · keep warm, skin to skin · assess breathing while you dry.</text>
+<text x="34" y="130" font-family="Georgia,serif" font-size="12" font-style="italic" fill="#1d5c42">Drying is itself the stimulation. A vigorous baby needs nothing else.</text>
+
+<rect x="20" y="154" width="352" height="152" rx="6" fill="#eef4f8" stroke="#2b6b8a"/>
+<text x="34" y="176" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d4e63">Breathing or crying</text>
+<text x="34" y="198" font-family="Georgia,serif" font-size="12" fill="#333">Leave her on her mother's chest.</text>
+<text x="34" y="218" font-family="Georgia,serif" font-size="12" fill="#333">Delay cord clamping one to three minutes.</text>
+<text x="34" y="238" font-family="Georgia,serif" font-size="12" fill="#333">Start the breast within the first hour.</text>
+<text x="34" y="258" font-family="Georgia,serif" font-size="12" fill="#333">Weigh and give vitamin K and eye care</text>
+<text x="34" y="276" font-family="Georgia,serif" font-size="12" fill="#333">after that first feed, not before it.</text>
+<text x="34" y="298" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#1d4e63">Warmth, mother, breast. Nothing needs to be hurried.</text>
+
+<rect x="388" y="154" width="352" height="152" rx="6" fill="#fff3f0" stroke="#c0392b"/>
+<text x="402" y="176" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#7a2020">Not breathing, or gasping</text>
+<text x="402" y="198" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7a2020">Call for help. Clamp and cut. Move her.</text>
+<text x="402" y="220" font-family="Georgia,serif" font-size="12" fill="#333">Position the head neutral — not tipped back.</text>
+<text x="402" y="240" font-family="Georgia,serif" font-size="12" fill="#333">Clear the airway only if it is visibly blocked.</text>
+<text x="402" y="260" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7a2020">Bag and mask within the first minute.</text>
+<text x="402" y="280" font-family="Georgia,serif" font-size="12" fill="#333">Watch for the chest to rise. If it does not,</text>
+<text x="402" y="298" font-family="Georgia,serif" font-size="12" fill="#333">reposition the head and reseal the mask.</text>
+
+<rect x="20" y="320" width="352" height="140" rx="6" fill="#fff8e8" stroke="#b8860b"/>
+<text x="34" y="342" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#8a6508">Why a neutral head, not extended</text>
+<path d="M60 372 q26 -18 52 0 q-6 22 -26 26 q-20 -4 -26 -26 z" fill="#fff" stroke="#8a6508"/>
+<line x1="86" y1="398" x2="86" y2="420" stroke="#8a6508" stroke-width="2"/>
+<text x="130" y="374" font-family="Georgia,serif" font-size="12" fill="#333">An infant's neck is short and the</text>
+<text x="130" y="392" font-family="Georgia,serif" font-size="12" fill="#333">back of the head is large, so tipping</text>
+<text x="130" y="410" font-family="Georgia,serif" font-size="12" fill="#333">it back kinks the airway shut.</text>
+<text x="34" y="440" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#8a6508">Sniffing position, chin lifted, neck straight.</text>
+
+<rect x="388" y="320" width="352" height="140" rx="6" fill="#f6f2fa" stroke="#6b4c93"/>
+<text x="402" y="342" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#4a326b">The golden minute</text>
+<text x="402" y="364" font-family="Georgia,serif" font-size="12" fill="#333">Ventilation must be established within</text>
+<text x="402" y="382" font-family="Georgia,serif" font-size="12" fill="#333">sixty seconds of birth. Every minute of</text>
+<text x="402" y="400" font-family="Georgia,serif" font-size="12" fill="#333">delay increases death and brain injury.</text>
+<text x="402" y="424" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#4a326b">Do not suction a clear airway first.</text>
+<text x="402" y="444" font-family="Georgia,serif" font-size="12" fill="#333">Routine suction wastes the minute that</text>
+<text x="402" y="462" font-family="Georgia,serif" font-size="12" fill="#333">mattered and can slow the heart.</text>
+</svg>

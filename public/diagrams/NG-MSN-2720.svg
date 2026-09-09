@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 600" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.row{fill:#f2f7fa}
+</style>
+<rect width="880" height="600" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Diabetic emergencies: fast and sweaty, or slow and dry</text>
+
+<rect class="warn" x="24" y="48" width="410" height="238"/>
+<text class="k" x="42" y="72">HYPOGLYCAEMIA — below 4 mmol/L</text>
+<text class="s" x="42" y="94">Onset in MINUTES</text>
+<text class="b" x="42" y="122">Sweating, trembling, hunger</text>
+<text class="b" x="42" y="146">Pallor, palpitations, anxiety</text>
+<text class="b" x="42" y="170">Confusion, slurred speech, aggression</text>
+<text class="b" x="42" y="194">Then seizures and coma</text>
+<text class="k" x="42" y="224">CONSCIOUS: 15 to 20 g fast sugar,</text>
+<text class="k" x="42" y="244">recheck in 15 min, then a long-acting snack</text>
+<text class="k" x="42" y="270">UNCONSCIOUS: nothing by mouth — IV glucose</text>
+
+<rect class="box" x="450" y="48" width="406" height="238"/>
+<text class="h" x="468" y="72">DIABETIC KETOACIDOSIS</text>
+<text class="s" x="468" y="94">Onset over HOURS to DAYS</text>
+<text class="b" x="468" y="122">Thirst, polyuria, weight loss</text>
+<text class="b" x="468" y="146">Nausea, vomiting, abdominal pain</text>
+<text class="b" x="468" y="170">Deep sighing breathing (Kussmaul)</text>
+<text class="b" x="468" y="194">Acetone smell on the breath</text>
+<text class="b" x="468" y="218">DRY skin and tongue, sunken eyes</text>
+<text class="k" x="468" y="248">Treatment order: FLUID first, then insulin,</text>
+<text class="k" x="468" y="268">then potassium, and hunt for the trigger</text>
+
+<rect class="ok" x="24" y="304" width="832" height="126"/>
+<text class="h" x="42" y="328">The discriminator when you are unsure</text>
+<text class="b" x="42" y="356">SWEATY and RAPID onset means low sugar.  DRY and SLOW onset means high sugar with ketones.</text>
+<text class="k" x="42" y="386">If you genuinely cannot tell and cannot measure, treat as HYPOGLYCAEMIA.</text>
+<text class="b" x="42" y="412">Sugar given to a hyperglycaemic patient does little harm in minutes. Sugar withheld from a hypo causes brain injury.</text>
+
+<rect class="warn" x="24" y="448" width="832" height="136"/>
+<text class="k" x="42" y="472">Potassium in DKA — the killer nobody sees</text>
+<text class="b" x="42" y="500">The starting potassium often looks NORMAL or HIGH, because acidosis has pushed it out of the cells.</text>
+<text class="b" x="42" y="526">Total body potassium is actually very LOW. Insulin then drives it back into the cells, and the level crashes.</text>
+<text class="k" x="42" y="554">So potassium is replaced early and monitored closely, even when the first result looks reassuring.</text>
+<text class="i" x="42" y="576">Watch the ECG and the urine output. Insulin is not started if potassium is below 3.5 until replacement is running.</text>
+</svg>

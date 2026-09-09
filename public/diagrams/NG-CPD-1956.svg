@@ -1,0 +1,43 @@
+<svg viewBox="0 0 720 470" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect x="0" y="0" width="720" height="470" fill="#fdf7f6"/>
+<text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#7c2418">Sickle cell disease: the crisis you can see and the ones you cannot</text>
+<text x="360" y="50" text-anchor="middle" font-size="12.5" fill="#8a6a60">Common in Ghana, and the dangerous events are not the painful ones</text>
+
+<rect x="30" y="66" width="325" height="150" rx="7" fill="#f9ece9" stroke="#c98f80"/>
+<text x="45" y="87" font-size="13.5" font-weight="bold" fill="#7c2418">Painful crisis &#8212; what actually helps</text>
+<text x="45" y="108" font-size="11.5" fill="#3f2b26">Analgesia on time, by the clock, not on request</text>
+<text x="45" y="127" font-size="11.5" fill="#3f2b26">Generous fluids, oral or intravenous</text>
+<text x="45" y="146" font-size="11.5" fill="#3f2b26">Warmth &#8212; cold triggers and prolongs it</text>
+<text x="45" y="165" font-size="11.5" fill="#3f2b26">Oxygen if saturation is low, and look for infection</text>
+<text x="45" y="186" font-size="11.5" font-weight="bold" fill="#8a3018">Believe the child&#8217;s report of pain</text>
+<text x="45" y="205" font-size="11" font-style="italic" fill="#7a5a2a">Children in crisis are routinely under-treated for pain</text>
+
+<rect x="365" y="66" width="325" height="150" rx="7" fill="#f6e2de" stroke="#c98f80"/>
+<text x="380" y="87" font-size="13.5" font-weight="bold" fill="#7c2418">Emergencies that are not painful crises</text>
+<text x="380" y="108" font-size="11.5" fill="#3f2b26">Fever &#8212; the spleen has stopped working, so any</text>
+<text x="380" y="124" font-size="11.5" fill="#3f2b26">fever may be overwhelming infection</text>
+<text x="380" y="145" font-size="11.5" fill="#3f2b26">Sudden pallor with a big spleen: blood is pooling</text>
+<text x="380" y="161" font-size="11.5" fill="#3f2b26">in the abdomen and she can die within hours</text>
+<text x="380" y="182" font-size="11.5" fill="#3f2b26">Weakness on one side, or trouble speaking: stroke</text>
+<text x="380" y="203" font-size="11.5" font-weight="bold" fill="#8a3018">Breathlessness with chest pain and fever</text>
+
+<rect x="30" y="234" width="660" height="94" rx="7" fill="#e9f2ec" stroke="#8fb59d"/>
+<text x="45" y="255" font-size="13.5" font-weight="bold" fill="#1d5236">What keeps a Ghanaian child with sickle cell out of hospital</text>
+<text x="52" y="278" font-size="12" fill="#26333d">Daily penicillin and full immunisation &#8212; because the spleen no longer protects her</text>
+<text x="52" y="299" font-size="12" fill="#26333d">Folic acid, a treated net, prompt treatment of every fever, and plenty of fluids</text>
+<text x="52" y="320" font-size="12" font-weight="bold" fill="#1d5236">Avoiding cold, dehydration and exhaustion &#8212; the three reliable triggers</text>
+
+<rect x="30" y="346" width="325" height="110" rx="7" fill="#efe4d4" stroke="#c9a678"/>
+<text x="45" y="367" font-size="13.5" font-weight="bold" fill="#7a4a12">What the family is often told, wrongly</text>
+<text x="45" y="388" font-size="11.5" fill="#3f2b26">That the illness is spiritual, or a curse</text>
+<text x="45" y="407" font-size="11.5" fill="#3f2b26">That one parent is to blame for passing it on</text>
+<text x="45" y="426" font-size="11.5" fill="#3f2b26">That the child will not live to adulthood</text>
+<text x="45" y="445" font-size="11" font-style="italic" fill="#7a5a2a">Each belief delays care at the next crisis</text>
+
+<rect x="365" y="346" width="325" height="110" rx="7" fill="#eaf1f7" stroke="#9fb9cd"/>
+<text x="380" y="367" font-size="13.5" font-weight="bold" fill="#1d3f5e">The inheritance, explained simply</text>
+<text x="380" y="388" font-size="11.5" fill="#26333d">Both parents carry the trait and are well</text>
+<text x="380" y="407" font-size="11.5" fill="#26333d">Each pregnancy independently: one in four</text>
+<text x="380" y="423" font-size="11.5" fill="#26333d">affected, two in four carriers, one in four not</text>
+<text x="380" y="444" font-size="11.5" font-weight="bold" fill="#26333d">A previous healthy child changes nothing</text>
+</svg>

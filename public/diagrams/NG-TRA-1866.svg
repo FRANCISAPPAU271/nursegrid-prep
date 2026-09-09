@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="100%" role="img">
+<rect x="0" y="0" width="760" height="470" fill="#fdfcfa"/>
+<text x="20" y="30" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="#1d4e63">The acute abdomen: what not to do is half the nursing</text>
+<text x="20" y="52" font-family="Georgia,serif" font-size="13" fill="#555">Four ordinary kindnesses can kill a patient with a surgical abdomen.</text>
+
+<rect x="20" y="68" width="352" height="182" rx="6" fill="#fff3f0" stroke="#c0392b"/>
+<text x="34" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#7a2020">Withhold until the surgeon has seen her</text>
+<text x="34" y="114" font-family="Georgia,serif" font-size="12" fill="#333">Food and fluid — she may need theatre,</text>
+<text x="34" y="132" font-family="Georgia,serif" font-size="12" fill="#333">and a full stomach makes anaesthesia unsafe.</text>
+<text x="34" y="154" font-family="Georgia,serif" font-size="12" fill="#333">Purgatives and enemas — they can rupture</text>
+<text x="34" y="172" font-family="Georgia,serif" font-size="12" fill="#333">an inflamed or obstructed bowel.</text>
+<text x="34" y="194" font-family="Georgia,serif" font-size="12" fill="#333">A hot water bottle on the abdomen —</text>
+<text x="34" y="212" font-family="Georgia,serif" font-size="12" fill="#333">heat hastens perforation.</text>
+<text x="34" y="236" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#7a2020">All three feel helpful. All three do harm.</text>
+
+<rect x="388" y="68" width="352" height="182" rx="6" fill="#f2f7f2" stroke="#2e7d5b"/>
+<text x="402" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d5c42">What the nurse should do</text>
+<text x="402" y="114" font-family="Georgia,serif" font-size="12" fill="#333">Nil by mouth, intravenous fluid, observations.</text>
+<text x="402" y="136" font-family="Georgia,serif" font-size="12" fill="#333">Record the pain: where it began, where it</text>
+<text x="402" y="154" font-family="Georgia,serif" font-size="12" fill="#333">is now, what makes it worse.</text>
+<text x="402" y="176" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#1d5c42">Give the prescribed analgesia. Withholding</text>
+<text x="402" y="194" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#1d5c42">it does not sharpen the diagnosis.</text>
+<text x="402" y="216" font-family="Georgia,serif" font-size="12" fill="#333">Keep her nil by mouth but not thirsty and</text>
+<text x="402" y="234" font-family="Georgia,serif" font-size="12" fill="#333">frightened — mouth care and explanation.</text>
+
+<rect x="20" y="266" width="720" height="88" rx="6" fill="#fff8e8" stroke="#b8860b"/>
+<text x="34" y="288" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#8a6508">The pain that changes character</text>
+<text x="34" y="310" font-family="Georgia,serif" font-size="12" fill="#333">Appendicitis begins as vague pain around the navel and settles later into a sharp, localised pain in the right lower</text>
+<text x="34" y="328" font-family="Georgia,serif" font-size="12" fill="#333">abdomen. Sudden complete relief is not recovery — it usually means the appendix has burst and the pressure is gone.</text>
+<text x="34" y="346" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#8a6508">Peritonitis follows within hours. Sudden relief in a surgical abdomen is an emergency, not good news.</text>
+
+<rect x="20" y="368" width="720" height="90" rx="6" fill="#eef4f8" stroke="#2b6b8a"/>
+<text x="34" y="390" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d4e63">A hernia that will not go back</text>
+<text x="34" y="412" font-family="Georgia,serif" font-size="12" fill="#333">A lump that becomes tender, tense and irreducible, with vomiting and no flatus passed, has trapped bowel inside it.</text>
+<text x="34" y="430" font-family="Georgia,serif" font-size="12" fill="#333">The blood supply is being strangled and the bowel dies within hours.</text>
+<text x="34" y="450" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#1d4e63">Never try to push it back. Nil by mouth, intravenous access, and call the surgeon now.</text>
+</svg>

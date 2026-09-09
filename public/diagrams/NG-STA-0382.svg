@@ -1,0 +1,54 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="400" fill="#fbfaf7"/>
+<text x="320" y="28" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">THE FOUR LEVELS OF MEASUREMENT</text>
+<text x="320" y="47" text-anchor="middle" font-size="12" fill="#555">Each level does everything the one below it does, and one thing more</text>
+
+<rect x="24" y="60" width="592" height="30" fill="#1a3a5c"/>
+<text x="36" y="80" font-size="12" font-weight="bold" fill="#fff">LEVEL</text>
+<text x="150" y="80" font-size="12" font-weight="bold" fill="#fff">NURSING EXAMPLE</text>
+<text x="345" y="80" font-size="12" font-weight="bold" fill="#fff">WHAT IT ADDS</text>
+<text x="520" y="80" font-size="12" font-weight="bold" fill="#fff">AVERAGE TO USE</text>
+
+<rect x="24" y="90" width="592" height="66" fill="#fff" stroke="#d8d2c4"/>
+<text x="36" y="115" font-size="13" font-weight="bold" fill="#8b2f2f">NOMINAL</text>
+<text x="36" y="133" font-size="10" fill="#777">names only</text>
+<text x="150" y="112" font-size="11" fill="#333">Blood group A, B, AB, O</text>
+<text x="150" y="130" font-size="11" fill="#333">Ward, sex, tribe, diagnosis</text>
+<text x="150" y="148" font-size="11" fill="#333">Alive / dead</text>
+<text x="345" y="120" font-size="11" fill="#333">Categories with no order.</text>
+<text x="345" y="138" font-size="11" fill="#333">You may only count them.</text>
+<text x="520" y="128" font-size="12" font-weight="bold" fill="#1a5c3a">MODE</text>
+
+<rect x="24" y="156" width="592" height="66" fill="#f6f3ec" stroke="#d8d2c4"/>
+<text x="36" y="181" font-size="13" font-weight="bold" fill="#8b2f2f">ORDINAL</text>
+<text x="36" y="199" font-size="10" fill="#777">ranked</text>
+<text x="150" y="178" font-size="11" fill="#333">Pain: mild, moderate, severe</text>
+<text x="150" y="196" font-size="11" fill="#333">Glasgow Coma eye response</text>
+<text x="150" y="214" font-size="11" fill="#333">Pressure ulcer stage 1 to 4</text>
+<text x="345" y="186" font-size="11" fill="#333">Order, but the gaps between</text>
+<text x="345" y="204" font-size="11" fill="#333">ranks are not equal.</text>
+<text x="520" y="194" font-size="12" font-weight="bold" fill="#1a5c3a">MEDIAN</text>
+
+<rect x="24" y="222" width="592" height="66" fill="#fff" stroke="#d8d2c4"/>
+<text x="36" y="247" font-size="13" font-weight="bold" fill="#8b2f2f">INTERVAL</text>
+<text x="36" y="265" font-size="10" fill="#777">equal gaps</text>
+<text x="150" y="244" font-size="11" fill="#333">Temperature in degrees C</text>
+<text x="150" y="262" font-size="11" fill="#333">Calendar year</text>
+<text x="150" y="280" font-size="11" fill="#333">IQ score</text>
+<text x="345" y="252" font-size="11" fill="#333">Equal gaps, but zero is</text>
+<text x="345" y="270" font-size="11" fill="#333">arbitrary. No true zero.</text>
+<text x="520" y="260" font-size="12" font-weight="bold" fill="#1a5c3a">MEAN</text>
+
+<rect x="24" y="288" width="592" height="66" fill="#f6f3ec" stroke="#d8d2c4"/>
+<text x="36" y="313" font-size="13" font-weight="bold" fill="#8b2f2f">RATIO</text>
+<text x="36" y="331" font-size="10" fill="#777">true zero</text>
+<text x="150" y="310" font-size="11" fill="#333">Weight, height, pulse rate</text>
+<text x="150" y="328" font-size="11" fill="#333">Blood pressure, drug dose</text>
+<text x="150" y="346" font-size="11" fill="#333">Length of stay in days</text>
+<text x="345" y="318" font-size="11" fill="#333">A real zero, so ratios work:</text>
+<text x="345" y="336" font-size="11" fill="#333">80 kg is twice 40 kg.</text>
+<text x="520" y="326" font-size="12" font-weight="bold" fill="#1a5c3a">MEAN</text>
+
+<rect x="24" y="364" width="592" height="26" fill="#fff3cd" stroke="#e0c86a"/>
+<text x="320" y="381" text-anchor="middle" font-size="11" font-style="italic" fill="#6b5410">The test: is there a true zero? Yes, ratio. No, but equal gaps? Interval. Ordered only? Ordinal. Names only? Nominal.</text>
+</svg>

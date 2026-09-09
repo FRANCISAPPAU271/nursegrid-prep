@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.q{fill:#eef4f8;stroke:#8fa9bd;stroke-width:1.4;rx:8}
+</style>
+<rect width="880" height="560" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Immunity: two questions decide every exam item</text>
+
+<rect class="q" x="24" y="48" width="832" height="70"/>
+<text class="h" x="42" y="76">Question 1 — WHO made the antibody?</text>
+<text class="b" x="42" y="102">The patient did = ACTIVE.  Somebody else did and it was given = PASSIVE.</text>
+
+<rect class="ok" x="24" y="134" width="410" height="200"/>
+<text class="h" x="42" y="158">ACTIVE — the body makes it</text>
+<text class="b" x="42" y="186">SLOW to develop — days to weeks</text>
+<text class="b" x="42" y="208">LONG lasting — often for life</text>
+<text class="b" x="42" y="230">Memory cells are formed</text>
+<text class="s" x="42" y="258">Natural: having had measles</text>
+<text class="s" x="42" y="278">Artificial: measles VACCINE</text>
+<text class="k" x="42" y="308">Slow to arrive, stays for years.</text>
+<text class="i" x="42" y="326">Use it to PREVENT, before exposure.</text>
+
+<rect class="warn" x="450" y="134" width="406" height="200"/>
+<text class="k" x="468" y="158">PASSIVE — antibody is handed over</text>
+<text class="b" x="468" y="186">IMMEDIATE protection</text>
+<text class="b" x="468" y="208">SHORT lived — weeks to months</text>
+<text class="b" x="468" y="230">NO memory cells formed</text>
+<text class="s" x="468" y="258">Natural: mother to baby, placenta and</text>
+<text class="s" x="468" y="276">breast milk</text>
+<text class="s" x="468" y="296">Artificial: tetanus immunoglobulin</text>
+<text class="k" x="468" y="324">Instant, but it fades and is gone.</text>
+
+<rect class="q" x="24" y="350" width="832" height="70"/>
+<text class="h" x="42" y="378">Question 2 — was it given on purpose?</text>
+<text class="b" x="42" y="404">Nature did it = NATURAL.  A clinician did it = ARTIFICIAL.  The two questions give four boxes.</text>
+
+<rect class="box" x="24" y="436" width="410" height="112"/>
+<text class="h" x="42" y="460">The deep wound with no tetanus cover</text>
+<text class="b" x="42" y="486">Give BOTH: immunoglobulin for protection</text>
+<text class="b" x="42" y="506">NOW, and vaccine for protection LATER.</text>
+<text class="k" x="42" y="532">Passive covers the gap while active develops.</text>
+
+<rect class="box" x="450" y="436" width="406" height="112"/>
+<text class="h" x="468" y="460">Herd immunity</text>
+<text class="b" x="468" y="486">When enough people are immune the organism</text>
+<text class="b" x="468" y="506">cannot find a chain of susceptible hosts.</text>
+<text class="s" x="468" y="532">It protects the newborn and the immunosuppressed,</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 580" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.stp{fill:#eef4f8;stroke:#8fa9bd;stroke-width:1.4;rx:6}
+</style>
+<rect width="880" height="580" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Investigating an outbreak — the ordered steps</text>
+
+<rect class="stp" x="24" y="50" width="198" height="56"/><text class="b" x="40" y="76">1  Confirm the</text><text class="b" x="40" y="94">diagnosis</text>
+<rect class="stp" x="238" y="50" width="198" height="56"/><text class="b" x="254" y="76">2  Confirm an</text><text class="b" x="254" y="94">outbreak exists</text>
+<rect class="stp" x="452" y="50" width="198" height="56"/><text class="b" x="468" y="76">3  Define a CASE</text><text class="s" x="468" y="94">person, place, time</text>
+<rect class="stp" x="666" y="50" width="190" height="56"/><text class="b" x="682" y="76">4  Find and count</text><text class="b" x="682" y="94">the cases</text>
+<rect class="stp" x="24" y="118" width="198" height="56"/><text class="b" x="40" y="144">5  Describe by</text><text class="s" x="40" y="162">person, place, time</text>
+<rect class="stp" x="238" y="118" width="198" height="56"/><text class="b" x="254" y="144">6  Form a</text><text class="b" x="254" y="162">hypothesis</text>
+<rect class="stp" x="452" y="118" width="198" height="56"/><text class="b" x="468" y="144">7  Test it — analyse</text><text class="b" x="468" y="162">and take samples</text>
+<rect class="stp" x="666" y="118" width="190" height="56"/><text class="b" x="682" y="144">8  CONTROL, then</text><text class="b" x="682" y="162">report and review</text>
+
+<rect class="warn" x="24" y="190" width="832" height="70"/>
+<text class="k" x="42" y="216">Control measures do NOT wait for step 8.</text>
+<text class="b" x="42" y="242">The moment a plausible source is identified, act. In cholera you chlorinate the water while the laboratory works.</text>
+
+<rect class="box" x="24" y="276" width="410" height="150"/>
+<text class="h" x="42" y="300">The words examiners test</text>
+<text class="b" x="42" y="326">INDEX CASE — the first case that brings the</text>
+<text class="s" x="42" y="344">outbreak to attention</text>
+<text class="b" x="42" y="368">PRIMARY CASE — the first person actually</text>
+<text class="s" x="42" y="386">infected. Often never identified.</text>
+<text class="b" x="42" y="410">They are frequently NOT the same person.</text>
+
+<rect class="box" x="450" y="276" width="406" height="150"/>
+<text class="h" x="468" y="300">Attack rate</text>
+<text class="b" x="468" y="328">people who became ill</text>
+<line x1="468" y1="338" x2="640" y2="338" stroke="#26333d" stroke-width="1.4"/>
+<text class="b" x="468" y="358">people who were exposed</text>
+<text class="s" x="468" y="386">Compare the attack rate between those who</text>
+<text class="s" x="468" y="404">ate a food and those who did not. The gap</text>
+<text class="s" x="468" y="422">points to the source.</text>
+
+<rect class="ok" x="24" y="442" width="832" height="122"/>
+<text class="h" x="42" y="466">Isolation and quarantine are not the same word</text>
+<text class="b" x="42" y="494">ISOLATION separates people who ARE ILL, to stop them infecting others.</text>
+<text class="b" x="42" y="518">QUARANTINE restricts people who are WELL but EXPOSED, for the length of the incubation period.</text>
+<text class="k" x="42" y="548">Ill = isolate. Exposed but well = quarantine. Options swap these two deliberately.</text>
+</svg>

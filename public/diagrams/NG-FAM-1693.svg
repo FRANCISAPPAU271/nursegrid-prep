@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 464" width="100%" role="img">
+<rect x="0" y="0" width="760" height="464" fill="#fdfcfa"/>
+<text x="20" y="30" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="#1d4e63">Why the patient did not come back</text>
+<text x="20" y="52" font-family="Georgia,serif" font-size="13" fill="#555">Defaulting is a symptom. Treat it as a diagnosis to be made, not a character fault to be scolded.</text>
+
+<rect x="20" y="68" width="232" height="188" rx="6" fill="#fff3f0" stroke="#c0392b"/>
+<text x="34" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#7a2020">Cost</text>
+<text x="34" y="112" font-family="Georgia,serif" font-size="12" fill="#333">The drug is not on the NHIS</text>
+<text x="34" y="130" font-family="Georgia,serif" font-size="12" fill="#333">list, or the card has expired.</text>
+<text x="34" y="152" font-family="Georgia,serif" font-size="12" fill="#333">The fare to the clinic costs</text>
+<text x="34" y="170" font-family="Georgia,serif" font-size="12" fill="#333">more than the medicine.</text>
+<text x="34" y="192" font-family="Georgia,serif" font-size="12" fill="#333">A day at the clinic is a day</text>
+<text x="34" y="210" font-family="Georgia,serif" font-size="12" fill="#333">of trading income lost.</text>
+<text x="34" y="238" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#7a2020">Ask what it costs her to come.</text>
+
+<rect x="264" y="68" width="232" height="188" rx="6" fill="#fff8e8" stroke="#b8860b"/>
+<text x="278" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#8a6508">Understanding</text>
+<text x="278" y="112" font-family="Georgia,serif" font-size="12" fill="#333">She felt better, so she</text>
+<text x="278" y="130" font-family="Georgia,serif" font-size="12" fill="#333">assumed she was cured.</text>
+<text x="278" y="152" font-family="Georgia,serif" font-size="12" fill="#333">Nobody told her the illness</text>
+<text x="278" y="170" font-family="Georgia,serif" font-size="12" fill="#333">is lifelong.</text>
+<text x="278" y="192" font-family="Georgia,serif" font-size="12" fill="#333">The instructions were given</text>
+<text x="278" y="210" font-family="Georgia,serif" font-size="12" fill="#333">in a language she half-follows.</text>
+<text x="278" y="238" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#8a6508">Ask her to tell you the plan back.</text>
+
+<rect x="508" y="68" width="232" height="188" rx="6" fill="#f6f2fa" stroke="#6b4c93"/>
+<text x="522" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#4a326b">People</text>
+<text x="522" y="112" font-family="Georgia,serif" font-size="12" fill="#333">Her husband does not know</text>
+<text x="522" y="130" font-family="Georgia,serif" font-size="12" fill="#333">the diagnosis and she hides</text>
+<text x="522" y="148" font-family="Georgia,serif" font-size="12" fill="#333">the tablets.</text>
+<text x="522" y="170" font-family="Georgia,serif" font-size="12" fill="#333">She was shamed at the last</text>
+<text x="522" y="188" font-family="Georgia,serif" font-size="12" fill="#333">visit for arriving late.</text>
+<text x="522" y="210" font-family="Georgia,serif" font-size="12" fill="#333">A pastor advised her to stop.</text>
+<text x="522" y="238" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#4a326b">Ask who else has an opinion.</text>
+
+<rect x="20" y="272" width="720" height="80" rx="6" fill="#eef4f8" stroke="#2b6b8a"/>
+<text x="34" y="294" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d4e63">Teach-back, and why the usual question fails</text>
+<text x="34" y="316" font-family="Georgia,serif" font-size="12" fill="#333">"Do you understand?" reliably produces yes, because saying no feels like admitting stupidity to someone in a uniform.</text>
+<text x="34" y="334" font-family="Georgia,serif" font-size="12" fill="#333">Ask instead: "So I know I explained it well — tell me how you will take these at home." The gap shows up immediately.</text>
+<text x="34" y="350" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#1d4e63">Put the burden on your explanation, not on her intelligence.</text>
+
+<rect x="20" y="366" width="720" height="82" rx="6" fill="#f2f7f2" stroke="#2e7d5b"/>
+<text x="34" y="388" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d5c42">What a workable plan looks like</text>
+<text x="34" y="410" font-family="Georgia,serif" font-size="12" fill="#333">Tie the dose to something she already does every day. Give one written or pictorial reminder she can keep. Name the</text>
+<text x="34" y="428" font-family="Georgia,serif" font-size="12" fill="#333">person at home who will help. Agree how she contacts the facility, and confirm she can afford the next appointment.</text>
+<text x="34" y="444" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#1d5c42">A plan that ignores her circumstances is a plan she will abandon politely.</text>
+</svg>

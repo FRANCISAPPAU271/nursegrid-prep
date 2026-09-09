@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 600" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.ut{fill:#f4eef7;stroke:#9b86ad;stroke-width:2}
+</style>
+<rect width="860" height="600" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Lie, presentation, position — three different questions</text>
+
+<rect class="box" x="24" y="48" width="264" height="240"/>
+<text class="h" x="40" y="72">LIE</text>
+<text class="s" x="40" y="92">Baby's long axis against hers</text>
+<ellipse class="ut" cx="156" cy="180" rx="76" ry="62"/>
+<path d="M156 128 L156 232" stroke="#26333d" stroke-width="3"/>
+<path d="M120 152 L192 152" stroke="#c9714f" stroke-width="2.4" stroke-dasharray="6 5"/>
+<text class="b" x="40" y="264">Longitudinal, transverse or oblique</text>
+<text class="k" x="40" y="282">Transverse at term cannot deliver vaginally</text>
+
+<rect class="box" x="298" y="48" width="264" height="240"/>
+<text class="h" x="314" y="72">PRESENTATION</text>
+<text class="s" x="314" y="92">The part over the pelvic brim</text>
+<ellipse class="ut" cx="430" cy="176" rx="76" ry="62"/>
+<circle cx="430" cy="222" r="21" fill="#dfe9f1" stroke="#26333d" stroke-width="2"/>
+<path d="M362 246 L498 246" stroke="#8fa9bd" stroke-width="2.4"/>
+<text class="s" x="366" y="264">pelvic brim</text>
+<text class="b" x="314" y="282">Cephalic, breech, shoulder, face, brow</text>
+
+<rect class="box" x="572" y="48" width="264" height="240"/>
+<text class="h" x="588" y="72">POSITION</text>
+<text class="s" x="588" y="92">Where the denominator points</text>
+<circle cx="704" cy="172" r="58" fill="#fff" stroke="#8fa9bd" stroke-width="1.6"/>
+<circle cx="704" cy="172" r="16" fill="#dfe9f1" stroke="#26333d" stroke-width="1.6"/>
+<text class="s" x="676" y="126">anterior</text><text class="s" x="678" y="246">posterior</text>
+<text class="s" x="600" y="176">right</text><text class="s" x="778" y="176">left</text>
+<text class="b" x="588" y="282">LOA, ROA, LOP, ROP — occiput as the guide</text>
+
+<rect class="ok" x="24" y="308" width="398" height="132"/>
+<text class="h" x="40" y="332">The favourable one</text>
+<text class="b" x="40" y="358">Left occipito-anterior. The occiput leads, the</text>
+<text class="b" x="40" y="378">head is well flexed, and the smallest diameter</text>
+<text class="b" x="40" y="398">passes through the pelvis.</text>
+<text class="i" x="40" y="424">Foetal heart heard best in the left lower quadrant.</text>
+
+<rect class="warn" x="438" y="308" width="398" height="132"/>
+<text class="k" x="454" y="332">The awkward one</text>
+<text class="b" x="454" y="358">Occipito-posterior. Back to back, deflexed head,</text>
+<text class="b" x="454" y="378">a larger diameter presenting. Long labour,</text>
+<text class="b" x="454" y="398">severe backache, early urge to push.</text>
+<text class="i" x="454" y="424">Most rotate to anterior and deliver normally.</text>
+
+<rect class="box" x="24" y="458" width="812" height="122"/>
+<text class="h" x="40" y="482">Leopold's manoeuvres, in order</text>
+<text class="b" x="40" y="508">1. Fundal palpation — what is at the top? Breech is soft, broad, irregular. Head is hard, round, ballottable.</text>
+<text class="b" x="40" y="530">2. Lateral palpation — where is the back? A smooth firm curve on one side, small parts on the other.</text>
+<text class="b" x="40" y="552">3. Pawlik's grip — what is at the pelvic brim, and is it mobile?    4. Deep pelvic palpation — how far has it descended?</text>
+<text class="k" x="40" y="574">Empty the bladder first, warm your hands, and stop if a contraction begins.</text>
+</svg>

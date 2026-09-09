@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 486" width="100%" role="img">
+<rect x="0" y="0" width="760" height="486" fill="#fdfcfa"/>
+<text x="20" y="30" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="#1d4e63">The primary survey: fix each problem before you look for the next</text>
+<text x="20" y="52" font-family="Georgia,serif" font-size="13" fill="#555">The order is not a preference. It is the order in which these problems kill.</text>
+
+<rect x="20" y="68" width="140" height="176" rx="6" fill="#fff3f0" stroke="#c0392b"/>
+<text x="34" y="92" font-family="Georgia,serif" font-size="15" font-weight="bold" fill="#7a2020">A</text>
+<text x="52" y="92" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7a2020">Airway</text>
+<text x="34" y="116" font-family="Georgia,serif" font-size="11" fill="#333">Can she speak?</text>
+<text x="34" y="134" font-family="Georgia,serif" font-size="11" fill="#333">A clear answer means</text>
+<text x="34" y="150" font-family="Georgia,serif" font-size="11" fill="#333">the airway is open.</text>
+<text x="34" y="174" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#7a2020">Protect the neck</text>
+<text x="34" y="190" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#7a2020">at the same time.</text>
+<text x="34" y="214" font-family="Georgia,serif" font-size="10" font-style="italic" fill="#7a2020">Kills in minutes.</text>
+
+<rect x="168" y="68" width="140" height="176" rx="6" fill="#fff6ec" stroke="#d2691e"/>
+<text x="182" y="92" font-family="Georgia,serif" font-size="15" font-weight="bold" fill="#a04a12">B</text>
+<text x="200" y="92" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#a04a12">Breathing</text>
+<text x="182" y="116" font-family="Georgia,serif" font-size="11" fill="#333">Look, listen, feel.</text>
+<text x="182" y="134" font-family="Georgia,serif" font-size="11" fill="#333">Both sides moving?</text>
+<text x="182" y="152" font-family="Georgia,serif" font-size="11" fill="#333">Trachea central?</text>
+<text x="182" y="176" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#a04a12">Oxygen on now,</text>
+<text x="182" y="192" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#a04a12">not after imaging.</text>
+<text x="182" y="214" font-family="Georgia,serif" font-size="10" font-style="italic" fill="#a04a12">Kills in minutes.</text>
+
+<rect x="316" y="68" width="140" height="176" rx="6" fill="#fff8e8" stroke="#b8860b"/>
+<text x="330" y="92" font-family="Georgia,serif" font-size="15" font-weight="bold" fill="#8a6508">C</text>
+<text x="348" y="92" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#8a6508">Circulation</text>
+<text x="330" y="116" font-family="Georgia,serif" font-size="11" fill="#333">Press the bleeding.</text>
+<text x="330" y="134" font-family="Georgia,serif" font-size="11" fill="#333">Two wide cannulae.</text>
+<text x="330" y="152" font-family="Georgia,serif" font-size="11" fill="#333">Pulse, skin, refill.</text>
+<text x="330" y="176" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#8a6508">Pressure falls last.</text>
+<text x="330" y="192" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#8a6508">Do not wait for it.</text>
+<text x="330" y="214" font-family="Georgia,serif" font-size="10" font-style="italic" fill="#8a6508">Kills in tens of minutes.</text>
+
+<rect x="464" y="68" width="140" height="176" rx="6" fill="#f2f7f2" stroke="#2e7d5b"/>
+<text x="478" y="92" font-family="Georgia,serif" font-size="15" font-weight="bold" fill="#1d5c42">D</text>
+<text x="496" y="92" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#1d5c42">Disability</text>
+<text x="478" y="116" font-family="Georgia,serif" font-size="11" fill="#333">Conscious level.</text>
+<text x="478" y="134" font-family="Georgia,serif" font-size="11" fill="#333">Pupils. Glucose.</text>
+<text x="478" y="158" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#1d5c42">A falling score is</text>
+<text x="478" y="174" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#1d5c42">worse than a low</text>
+<text x="478" y="190" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#1d5c42">one that is steady.</text>
+<text x="478" y="214" font-family="Georgia,serif" font-size="10" font-style="italic" fill="#1d5c42">Kills in hours.</text>
+
+<rect x="612" y="68" width="128" height="176" rx="6" fill="#f6f2fa" stroke="#6b4c93"/>
+<text x="626" y="92" font-family="Georgia,serif" font-size="15" font-weight="bold" fill="#4a326b">E</text>
+<text x="644" y="92" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#4a326b">Exposure</text>
+<text x="626" y="116" font-family="Georgia,serif" font-size="11" fill="#333">Undress fully to</text>
+<text x="626" y="132" font-family="Georgia,serif" font-size="11" fill="#333">find every wound,</text>
+<text x="626" y="148" font-family="Georgia,serif" font-size="11" fill="#333">including the back.</text>
+<text x="626" y="172" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#4a326b">Then cover her.</text>
+<text x="626" y="190" font-family="Georgia,serif" font-size="11" fill="#333">Cold worsens</text>
+<text x="626" y="206" font-family="Georgia,serif" font-size="11" fill="#333">bleeding.</text>
+
+<rect x="20" y="260" width="720" height="94" rx="6" fill="#eef4f8" stroke="#2b6b8a"/>
+<text x="34" y="282" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d4e63">Why the order cannot be rearranged</text>
+<text x="34" y="304" font-family="Georgia,serif" font-size="12" fill="#333">A blocked airway kills before a haemorrhage does, and a haemorrhage kills before a head injury does. Stopping at C to</text>
+<text x="34" y="322" font-family="Georgia,serif" font-size="12" fill="#333">examine an obviously broken leg means the airway problem you have not yet found goes on killing her while you work.</text>
+<text x="34" y="344" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#1d4e63">If anything changes, go back to A and start again. Deterioration always restarts the survey.</text>
+
+<rect x="20" y="368" width="720" height="100" rx="6" fill="#fff3f0" stroke="#c0392b"/>
+<text x="34" y="390" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#7a2020">The trap: a normal blood pressure in a bleeding young adult</text>
+<text x="34" y="412" font-family="Georgia,serif" font-size="12" fill="#333">A fit young person compensates by squeezing the vessels and speeding the heart, holding the pressure normal until</text>
+<text x="34" y="430" font-family="Georgia,serif" font-size="12" fill="#333">roughly a third of the blood volume is gone. Then it falls suddenly and steeply.</text>
+<text x="34" y="452" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7a2020">Read the pulse rate, the skin, the capillary refill and the urine. The blood pressure is the last to tell you.</text>
+</svg>

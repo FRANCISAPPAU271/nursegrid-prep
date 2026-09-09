@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.stp{fill:#eef4f8;stroke:#8fa9bd;stroke-width:1.4;rx:6}
+</style>
+<rect width="880" height="560" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Putting PPE on and taking it off — the order is the safety</text>
+
+<rect class="ok" x="24" y="48" width="410" height="230"/>
+<text class="h" x="42" y="72">DONNING — putting on</text>
+<rect class="stp" x="42" y="86" width="370" height="30"/><text class="b" x="56" y="106">1  Hand hygiene</text>
+<rect class="stp" x="42" y="122" width="370" height="30"/><text class="b" x="56" y="142">2  GOWN</text>
+<rect class="stp" x="42" y="158" width="370" height="30"/><text class="b" x="56" y="178">3  MASK or respirator — fit check it</text>
+<rect class="stp" x="42" y="194" width="370" height="30"/><text class="b" x="56" y="214">4  EYE protection — goggles or visor</text>
+<rect class="stp" x="42" y="230" width="370" height="30"/><text class="b" x="56" y="250">5  GLOVES — last, over the gown cuff</text>
+
+<rect class="warn" x="450" y="48" width="406" height="230"/>
+<text class="k" x="468" y="72">DOFFING — taking off</text>
+<rect class="stp" x="468" y="86" width="370" height="30"/><text class="b" x="482" y="106">1  GLOVES — dirtiest, so they go first</text>
+<rect class="stp" x="468" y="122" width="370" height="30"/><text class="b" x="482" y="142">2  Hand hygiene</text>
+<rect class="stp" x="468" y="158" width="370" height="30"/><text class="b" x="482" y="178">3  GOWN — roll it away from you</text>
+<rect class="stp" x="468" y="194" width="370" height="30"/><text class="b" x="482" y="214">4  EYE protection, then MASK — by the ties</text>
+<rect class="stp" x="468" y="230" width="370" height="30"/><text class="b" x="482" y="250">5  Hand hygiene again</text>
+
+<rect class="box" x="24" y="296" width="832" height="112"/>
+<text class="h" x="42" y="320">The logic, so you never have to memorise the list</text>
+<text class="b" x="42" y="346">Put on in the order of how long it must stay clean. Take off in the order of how contaminated it is.</text>
+<text class="k" x="42" y="372">Gloves go on LAST and come off FIRST. The mask stays on longest — it comes off outside the room,</text>
+<text class="k" x="42" y="394">and it is always removed by the ties or elastic, never by touching the front.</text>
+
+<rect class="warn" x="24" y="424" width="832" height="120"/>
+<text class="k" x="42" y="448">Gloves — the four errors that spread infection rather than prevent it</text>
+<text class="b" x="42" y="474">Wearing one pair between two patients · Washing gloves instead of changing them</text>
+<text class="b" x="42" y="496">Touching the notes, the phone or a door handle with gloves on · Skipping hand hygiene after removal</text>
+<text class="k" x="42" y="524">Gloves are not a substitute for hand hygiene. Hands are contaminated during removal, and gloves leak.</text>
+</svg>

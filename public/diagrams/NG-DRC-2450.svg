@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 620" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+</style>
+<rect width="860" height="620" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Routes: speed, first pass, and the angle of the needle</text>
+
+<rect class="box" x="24" y="48" width="812" height="150"/>
+<text class="h" x="40" y="72">Onset, fastest to slowest</text>
+<text class="b" x="40" y="100">INTRAVENOUS — seconds. No absorption step at all; the dose is already in the blood.</text>
+<text class="b" x="40" y="122">INHALED / SUBLINGUAL — minutes. Rich blood supply, and both bypass the liver.</text>
+<text class="b" x="40" y="144">INTRAMUSCULAR — 10 to 20 minutes. Muscle is well perfused.</text>
+<text class="b" x="40" y="166">SUBCUTANEOUS — slower and steadier. Fat is poorly perfused, which is the point for insulin.</text>
+<text class="k" x="40" y="190">ORAL — slowest and least predictable, because food, gut motility and the liver all interfere.</text>
+
+<rect class="warn" x="24" y="214" width="398" height="152"/>
+<text class="k" x="40" y="238">First pass metabolism</text>
+<text class="b" x="40" y="264">A drug swallowed goes gut, then portal vein,</text>
+<text class="b" x="40" y="284">then LIVER, and only then the body.</text>
+<text class="b" x="40" y="308">The liver destroys part of the dose before it</text>
+<text class="b" x="40" y="328">ever acts — which is why the oral dose of a</text>
+<text class="b" x="40" y="348">drug is often far larger than its IV dose.</text>
+
+<rect class="ok" x="438" y="214" width="398" height="152"/>
+<text class="h" x="454" y="238">Routes that escape the liver first</text>
+<text class="b" x="454" y="264">Sublingual and buccal — straight into veins</text>
+<text class="b" x="454" y="284">under the tongue</text>
+<text class="b" x="454" y="306">Rectal — partly</text>
+<text class="b" x="454" y="328">Intravenous, intramuscular, subcutaneous,</text>
+<text class="b" x="454" y="348">transdermal, inhaled</text>
+
+<rect class="box" x="24" y="382" width="812" height="118"/>
+<text class="h" x="40" y="406">The needle angle</text>
+<path d="M120 470 L200 470" stroke="#8fa9bd" stroke-width="2"/>
+<path d="M120 470 L188 424" stroke="#26333d" stroke-width="3"/>
+<text class="s" x="128" y="492">INTRADERMAL 10-15 degrees</text>
+<path d="M360 470 L440 470" stroke="#8fa9bd" stroke-width="2"/>
+<path d="M360 470 L412 424" stroke="#26333d" stroke-width="3"/>
+<text class="s" x="352" y="492">SUBCUTANEOUS 45 degrees</text>
+<path d="M620 470 L700 470" stroke="#8fa9bd" stroke-width="2"/>
+<path d="M660 470 L660 420" stroke="#26333d" stroke-width="3"/>
+<text class="s" x="618" y="492">INTRAMUSCULAR 90 degrees</text>
+<text class="i" x="40" y="430">Intradermal raises a visible bleb — if no bleb appears, you went too deep and the test is invalid.</text>
+
+<rect class="warn" x="24" y="516" width="812" height="98"/>
+<text class="k" x="40" y="540">Intramuscular sites, and the one that is safest</text>
+<text class="b" x="40" y="566">VENTROGLUTEAL is preferred for adults: no large nerves or vessels, and it takes the largest volume.</text>
+<text class="b" x="40" y="588">VASTUS LATERALIS, the outer thigh, is the site for infants. DELTOID takes small volumes only, up to 1 mL.</text>
+<text class="k" x="40" y="608">Dorsogluteal, the old upper-outer buttock, is avoided — the sciatic nerve is too close.</text>
+</svg>

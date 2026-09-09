@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 560" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+</style>
+<rect width="860" height="560" fill="#f7fafb"/>
+<text class="t" x="24" y="32">The four principles — and the words examiners hide behind them</text>
+<text class="i" x="24" y="52">Most ethics questions are really asking which principle wins when two of them collide.</text>
+
+<rect class="box" x="24" y="68" width="398" height="126"/>
+<text class="h" x="40" y="92">Autonomy — the patient decides</text>
+<text class="b" x="40" y="114">Her choice, even an unwise one.</text>
+<text class="s" x="40" y="138">Seen in: consent, refusal, privacy,</text>
+<text class="s" x="40" y="156">telling the truth, keeping promises.</text>
+<text class="i" x="40" y="180">Cue words: refuses, insists, wants to go home.</text>
+
+<rect class="box" x="438" y="68" width="398" height="126"/>
+<text class="h" x="454" y="92">Beneficence — do good</text>
+<text class="b" x="454" y="114">Act in the patient's interest.</text>
+<text class="s" x="454" y="138">Seen in: advocating, relieving pain,</text>
+<text class="s" x="454" y="156">arranging what the patient needs.</text>
+<text class="i" x="454" y="180">Cue words: best interest, benefit, help.</text>
+
+<rect class="box" x="24" y="210" width="398" height="126"/>
+<text class="h" x="40" y="234">Non-maleficence — do no harm</text>
+<text class="b" x="40" y="256">Including harm you cause by</text>
+<text class="b" x="40" y="274">acting outside your competence.</text>
+<text class="s" x="40" y="298">Seen in: refusing an unsafe task,</text>
+<text class="s" x="40" y="314">questioning a wrong dose.</text>
+<text class="i" x="40" y="330">Cue words: risk, unsafe, side effect.</text>
+
+<rect class="box" x="438" y="210" width="398" height="126"/>
+<text class="h" x="454" y="234">Justice — fairness</text>
+<text class="b" x="454" y="256">Equals treated equally; scarce</text>
+<text class="b" x="454" y="274">resources shared by need.</text>
+<text class="s" x="454" y="298">Seen in: triage, queue-jumping,</text>
+<text class="s" x="454" y="314">refusing to favour the wealthy or</text>
+<text class="s" x="454" y="330">the well-connected.</text>
+
+<rect class="warn" x="24" y="352" width="812" height="184"/>
+<text class="k" x="40" y="376">How to break the tie</text>
+<text class="b" x="40" y="400">1. If the patient is a competent adult and the question is about her own body, autonomy almost always wins.</text>
+<text class="b" x="40" y="422">2. Doing good never licenses acting without consent. A benefit imposed on an adult is still a wrong.</text>
+<text class="b" x="40" y="444">3. When resources are short, decide by clinical need — never by status, payment, tribe or who complained loudest.</text>
+<text class="b" x="40" y="466">4. If an option requires you to deceive the patient, it is wrong however kind the motive.</text>
+<text class="k" x="40" y="494">Restriction presented as safety is usually the harm. Ask who the restriction actually protects.</text>
+<text class="i" x="40" y="518">And check: is the option in front of you protecting the patient, or protecting the institution from embarrassment?</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="100%" role="img">
+<rect x="0" y="0" width="760" height="470" fill="#fdfcfa"/>
+<text x="20" y="30" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="#1d4e63">Chronic kidney disease: the organ that fails without symptoms</text>
+<text x="20" y="52" font-family="Georgia,serif" font-size="13" fill="#555">By the time a patient feels unwell, most of the function has already gone. Screening is the only way to be early.</text>
+
+<rect x="20" y="68" width="720" height="106" rx="6" fill="#eef4f8" stroke="#2b6b8a"/>
+<text x="34" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d4e63">Function falls in stages, and symptoms arrive only near the end</text>
+<rect x="34" y="102" width="132" height="26" fill="#2e7d5b"/><text x="46" y="120" font-family="Georgia,serif" font-size="11" fill="#fff">G1–G2  normal or mild</text>
+<rect x="166" y="102" width="132" height="26" fill="#7aa63c"/><text x="182" y="120" font-family="Georgia,serif" font-size="11" fill="#fff">G3a  45–59</text>
+<rect x="298" y="102" width="132" height="26" fill="#e0a63c"/><text x="314" y="120" font-family="Georgia,serif" font-size="11" fill="#fff">G3b  30–44</text>
+<rect x="430" y="102" width="132" height="26" fill="#d2691e"/><text x="446" y="120" font-family="Georgia,serif" font-size="11" fill="#fff">G4  15–29</text>
+<rect x="562" y="102" width="164" height="26" fill="#c0392b"/><text x="578" y="120" font-family="Georgia,serif" font-size="11" fill="#fff">G5  under 15 — failure</text>
+<text x="34" y="150" font-family="Georgia,serif" font-size="12" fill="#333">Tiredness, itching, nausea, swelling and breathlessness usually appear only in the orange and red bands.</text>
+<text x="34" y="168" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#1d4e63">A patient who feels perfectly well may already have lost half her kidney function.</text>
+
+<rect x="20" y="190" width="352" height="130" rx="6" fill="#fff8e8" stroke="#b8860b"/>
+<text x="34" y="212" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#8a6508">Who to screen in Ghana</text>
+<text x="34" y="234" font-family="Georgia,serif" font-size="12" fill="#333">Everyone with hypertension or diabetes</text>
+<text x="34" y="254" font-family="Georgia,serif" font-size="12" fill="#333">Anyone using long-term pain medicines</text>
+<text x="34" y="274" font-family="Georgia,serif" font-size="12" fill="#333">Regular users of unregulated herbal</text>
+<text x="34" y="292" font-family="Georgia,serif" font-size="12" fill="#333">preparations of unknown content</text>
+<text x="34" y="312" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#8a6508">Urine protein and creatinine. Both, not one.</text>
+
+<rect x="388" y="190" width="352" height="130" rx="6" fill="#fff3f0" stroke="#c0392b"/>
+<text x="402" y="212" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#7a2020">Fluid balance is arithmetic, not thirst</text>
+<text x="402" y="234" font-family="Georgia,serif" font-size="12" fill="#333">Allowance = yesterday's urine output</text>
+<text x="402" y="252" font-family="Georgia,serif" font-size="12" fill="#333">plus roughly 500 mL for insensible loss.</text>
+<text x="402" y="276" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7a2020">Everything counts: soup, porridge, the</text>
+<text x="402" y="294" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7a2020">water taken with tablets, ice.</text>
+<text x="402" y="312" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#7a2020">Weigh her daily. The scale is more honest than the chart.</text>
+
+<rect x="20" y="336" width="720" height="60" rx="6" fill="#f2f7f2" stroke="#2e7d5b"/>
+<text x="34" y="358" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d5c42">Protecting the arm that will carry the fistula</text>
+<text x="34" y="380" font-family="Georgia,serif" font-size="12" fill="#333">No blood pressure cuff, no cannula, no blood taken from that arm. Damaged veins cannot be replaced, and without a</text>
+<text x="34" y="392" font-family="Georgia,serif" font-size="12" fill="#333">working access there is no dialysis.</text>
+
+<rect x="20" y="408" width="720" height="50" rx="6" fill="#f6f2fa" stroke="#6b4c93"/>
+<text x="34" y="430" font-family="Georgia,serif" font-size="12" fill="#333">Checking a fistula takes three seconds: <tspan font-weight="bold">look</tspan> for swelling or redness, <tspan font-weight="bold">feel</tspan> for the thrill, <tspan font-weight="bold">listen</tspan> for the bruit.</text>
+<text x="34" y="450" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#4a326b">No thrill and no bruit means the fistula has clotted. Report it immediately, not at handover.</text>
+</svg>

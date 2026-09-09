@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 600" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.red{fill:#f7dcd4;stroke:#b4432a;stroke-width:1.8;rx:8}
+.yel{fill:#fbf1d6;stroke:#c69a2a;stroke-width:1.8;rx:8}
+.grn{fill:#e4f2e6;stroke:#4f8c5f;stroke-width:1.8;rx:8}
+.blk{fill:#e2e2e4;stroke:#4a4a52;stroke-width:1.8;rx:8}
+</style>
+<rect width="880" height="600" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Mass casualty triage — the aim changes completely</text>
+
+<rect class="warn" x="24" y="48" width="832" height="80"/>
+<text class="k" x="42" y="74">Everyday nursing: do the most for THIS patient.</text>
+<text class="k" x="42" y="100">Mass casualty: do the most good for the GREATEST NUMBER — which means some patients wait, and some are not treated.</text>
+<text class="i" x="42" y="120">This reversal is what the question is testing. It feels wrong precisely because it inverts ordinary practice.</text>
+
+<rect class="red" x="24" y="146" width="200" height="180"/>
+<text class="h" x="42" y="172" style="fill:#b4432a">RED</text>
+<text class="b" x="42" y="194">IMMEDIATE</text>
+<text class="s" x="42" y="220">Life-threatening but</text>
+<text class="s" x="42" y="238">SURVIVABLE with</text>
+<text class="s" x="42" y="256">rapid treatment</text>
+<text class="s" x="42" y="284">Airway obstruction,</text>
+<text class="s" x="42" y="302">severe bleeding,</text>
+<text class="s" x="42" y="320">tension pneumothorax</text>
+
+<rect class="yel" x="240" y="146" width="200" height="180"/>
+<text class="h" x="258" y="172" style="fill:#8a6a12">YELLOW</text>
+<text class="b" x="258" y="194">DELAYED</text>
+<text class="s" x="258" y="220">Serious, but can</text>
+<text class="s" x="258" y="238">safely wait a</text>
+<text class="s" x="258" y="256">few hours</text>
+<text class="s" x="258" y="284">Closed fractures,</text>
+<text class="s" x="258" y="302">stable abdominal</text>
+<text class="s" x="258" y="320">injury, large burns</text>
+
+<rect class="grn" x="456" y="146" width="200" height="180"/>
+<text class="h" x="474" y="172" style="fill:#3d7a4d">GREEN</text>
+<text class="b" x="474" y="194">MINOR — walking</text>
+<text class="s" x="474" y="220">Can walk and follow</text>
+<text class="s" x="474" y="238">instructions</text>
+<text class="s" x="474" y="264">Often the FIRST to</text>
+<text class="s" x="474" y="282">be cleared from the</text>
+<text class="s" x="474" y="300">scene — ask everyone</text>
+<text class="s" x="474" y="318">who can walk to move</text>
+
+<rect class="blk" x="672" y="146" width="184" height="180"/>
+<text class="h" x="690" y="172" style="fill:#3a3a44">BLACK</text>
+<text class="b" x="690" y="194">EXPECTANT / DEAD</text>
+<text class="s" x="690" y="220">Not breathing after</text>
+<text class="s" x="690" y="238">the airway is opened,</text>
+<text class="s" x="690" y="256">or injuries not</text>
+<text class="s" x="690" y="274">survivable with the</text>
+<text class="s" x="690" y="292">resources available</text>
+<text class="s" x="690" y="318">Comfort care only</text>
+
+<rect class="box" x="24" y="344" width="410" height="150"/>
+<text class="h" x="42" y="368">The counter-intuitive ones</text>
+<text class="b" x="42" y="396">A screaming casualty has an airway and is</text>
+<text class="b" x="42" y="416">breathing — often NOT the priority.</text>
+<text class="k" x="42" y="444">The silent one may be the red.</text>
+<text class="b" x="42" y="472">Cardiac arrest in a mass casualty is BLACK.</text>
+
+<rect class="box" x="450" y="344" width="406" height="150"/>
+<text class="h" x="468" y="368">Triage is repeated, not done once</text>
+<text class="b" x="468" y="396">A casualty's category can change in minutes,</text>
+<text class="b" x="468" y="416">in either direction.</text>
+<text class="b" x="468" y="444">Re-triage on arrival at each stage of care</text>
+<text class="s" x="468" y="470">and whenever the situation or resources change.</text>
+
+<rect class="warn" x="24" y="512" width="832" height="72"/>
+<text class="k" x="42" y="538">Evacuation order in a ward fire — the reverse of clinical priority</text>
+<text class="b" x="42" y="566">Move the AMBULANT first, then those needing help, then the immobile and those on life support LAST.</text>
+</svg>

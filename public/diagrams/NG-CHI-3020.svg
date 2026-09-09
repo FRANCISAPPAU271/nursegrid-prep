@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 300" role="img">
+<rect width="470" height="300" fill="#ffffff"/>
+<text x="235" y="24" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#0f172a">IMCI: counting breaths to classify pneumonia</text>
+<rect x="30" y="40" width="410" height="62" fill="#fee2e2" stroke="#b91c1c"/>
+<text x="235" y="58" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#7f1d1d">FIRST look for a general danger sign</text>
+<text x="235" y="76" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#7f1d1d">unable to drink or breastfeed &#183; vomits everything &#183; convulsions</text>
+<text x="235" y="92" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#7f1d1d">lethargic or unconscious &#8212; any one means URGENT referral</text>
+<text x="235" y="122" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#0f172a">Then count breaths for one full minute while the child is calm</text>
+<rect x="30" y="136" width="136" height="72" fill="#dbeafe" stroke="#1d4ed8"/>
+<text x="98" y="156" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1e3a8a">under 2 months</text>
+<text x="98" y="182" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1e3a8a">&#8805; 60</text>
+<text x="98" y="200" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#1e3a8a">breaths / min</text>
+<rect x="167" y="136" width="136" height="72" fill="#dcfce7" stroke="#15803d"/>
+<text x="235" y="156" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#14532d">2 &#8211; 11 months</text>
+<text x="235" y="182" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#14532d">&#8805; 50</text>
+<text x="235" y="200" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#14532d">breaths / min</text>
+<rect x="304" y="136" width="136" height="72" fill="#fef3c7" stroke="#b45309"/>
+<text x="372" y="156" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#78350f">12 months &#8211; 5 yrs</text>
+<text x="372" y="182" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#78350f">&#8805; 40</text>
+<text x="372" y="200" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#78350f">breaths / min</text>
+<rect x="30" y="222" width="410" height="66" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="235" y="240" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#0f172a">Fast breathing alone = PNEUMONIA (oral antibiotic, review in 3 days)</text>
+<text x="235" y="258" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#b91c1c">Add chest indrawing, stridor at rest or a danger sign = SEVERE</text>
+<text x="235" y="276" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#475569">Chest indrawing is the LOWER chest wall moving IN on inspiration.</text>
+</svg>

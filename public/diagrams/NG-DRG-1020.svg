@@ -1,0 +1,52 @@
+<svg viewBox="0 0 640 440" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="440" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">DRUG INTERACTIONS — THE LIVER SPEEDS UP OR SLOWS DOWN</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">Most dangerous interactions are one drug changing how fast the liver clears another.</text>
+
+<rect x="30" y="62" width="285" height="136" fill="#eef4f8" stroke="#5a86a8" stroke-width="1.8"/>
+<text x="172" y="84" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#1a3a5c">INDUCERS — LIVER WORKS FASTER</text>
+<text x="172" y="102" text-anchor="middle" font-size="10" font-style="italic" fill="#1a3a5c">the other drug is cleared away, and fails</text>
+<g font-size="10.5" fill="#222">
+<text x="44" y="124">Rifampicin</text>
+<text x="44" y="142">Carbamazepine, phenytoin</text>
+<text x="44" y="160">Phenobarbitone</text>
+<text x="44" y="182">Effect builds over days to weeks</text>
+</g>
+
+<rect x="325" y="62" width="285" height="136" fill="#f7ecec" stroke="#8b2f2f" stroke-width="1.8"/>
+<text x="467" y="84" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#8b2f2f">INHIBITORS — LIVER WORKS SLOWER</text>
+<text x="467" y="102" text-anchor="middle" font-size="10" font-style="italic" fill="#8b2f2f">the other drug piles up, and poisons</text>
+<g font-size="10.5" fill="#222">
+<text x="339" y="124">Erythromycin, clarithromycin</text>
+<text x="339" y="142">Fluconazole, ketoconazole</text>
+<text x="339" y="160">Metronidazole, cimetidine</text>
+<text x="339" y="182">Effect appears within days</text>
+</g>
+
+<rect x="30" y="212" width="580" height="84" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.7"/>
+<text x="320" y="232" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#8a6d1e">THE INTERACTION THAT CAUSES PREGNANCIES IN GHANA</text>
+<g font-size="10.5" fill="#222">
+<text x="44" y="254">A woman on the combined pill is started on rifampicin for tuberculosis. The liver clears the hormone</text>
+<text x="44" y="272">faster, the pill stops working, and nobody told her. She needs an additional method, and to be told why.</text>
+<text x="44" y="290">The same applies to carbamazepine and phenytoin. Ask every woman what else she is taking.</text>
+</g>
+
+<rect x="30" y="310" width="285" height="80" fill="#eaf3ea" stroke="#1a5c3a" stroke-width="1.6"/>
+<text x="172" y="330" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a5c3a">NOT ALL INTERACTIONS ARE IN THE LIVER</text>
+<g font-size="10" fill="#222">
+<text x="44" y="350">Antacids, iron, milk and calcium bind</text>
+<text x="44" y="366">some antibiotics in the gut and stop</text>
+<text x="44" y="382">them being absorbed. Separate the doses.</text>
+</g>
+
+<rect x="325" y="310" width="285" height="80" fill="#f4eaf4" stroke="#8a5c8a" stroke-width="1.6"/>
+<text x="467" y="330" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#6b3a6b">ASK ABOUT EVERYTHING, NOT ONLY TABLETS</text>
+<g font-size="10" fill="#222">
+<text x="339" y="350">Herbal preparations, medicine bought</text>
+<text x="339" y="366">at the market or from a hawker, a</text>
+<text x="339" y="382">neighbour's leftover tablets, alcohol.</text>
+</g>
+
+<text x="320" y="416" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a3a5c">When a stable patient suddenly relapses or suddenly becomes toxic, look at what was started last week.</text>
+<text x="320" y="434" text-anchor="middle" font-size="10.5" font-style="italic" fill="#8b2f2f">Stopping an interacting drug is also an interaction. The level swings the other way.</text>
+</svg>

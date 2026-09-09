@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 600" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+</style>
+<rect width="860" height="600" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Insulin: the peak is when the patient goes hypoglycaemic</text>
+
+<rect class="box" x="24" y="48" width="812" height="230"/>
+<rect x="70" y="70" width="740" height="160" fill="#fcfdfe" stroke="#dde5ec"/>
+<path d="M70 230 L810 230" stroke="#8fa9bd" stroke-width="1.4"/>
+<path d="M70 230 L70 70" stroke="#8fa9bd" stroke-width="1.4"/>
+<path d="M70 230 Q110 90 160 130 Q200 170 260 228" stroke="#c9714f" stroke-width="2.6" fill="none"/>
+<text class="s" x="86" y="86">rapid</text>
+<path d="M70 230 Q160 110 250 150 Q340 190 430 228" stroke="#0f5a52" stroke-width="2.6" fill="none"/>
+<text class="s" x="196" y="128">soluble / regular</text>
+<path d="M70 230 Q240 150 400 168 Q560 190 700 228" stroke="#9b86ad" stroke-width="2.6" fill="none"/>
+<text class="s" x="404" y="160">intermediate NPH</text>
+<path d="M70 218 L810 210" stroke="#5a6b78" stroke-width="2.2" stroke-dasharray="7 5" fill="none"/>
+<text class="s" x="700" y="200">long acting</text>
+<text class="s" x="70" y="250">0 h</text><text class="s" x="240" y="250">4 h</text><text class="s" x="420" y="250">8 h</text>
+<text class="s" x="600" y="250">16 h</text><text class="s" x="778" y="250">24 h</text>
+<text class="b" x="70" y="270">Rapid peaks about 1 hour  ·  Soluble peaks 2 to 4 hours  ·  NPH peaks 6 to 12 hours  ·  Long acting has no real peak</text>
+
+<rect class="warn" x="24" y="294" width="398" height="152"/>
+<text class="k" x="40" y="318">Recognising hypoglycaemia</text>
+<text class="b" x="40" y="344">Sweating, tremor, hunger, pounding heart —</text>
+<text class="b" x="40" y="364">these come from adrenaline</text>
+<text class="b" x="40" y="388">Confusion, slurred speech, odd behaviour,</text>
+<text class="b" x="40" y="408">drowsiness — the brain running out of fuel</text>
+<text class="k" x="40" y="436">A confused diabetic patient is hypoglycaemic until you have tested.</text>
+
+<rect class="ok" x="438" y="294" width="398" height="152"/>
+<text class="h" x="454" y="318">Treating it</text>
+<text class="b" x="454" y="344">CONSCIOUS and able to swallow — 15 g of</text>
+<text class="b" x="454" y="364">fast sugar, retest in 15 minutes, then give</text>
+<text class="b" x="454" y="384">a starchy snack to hold it up</text>
+<text class="b" x="454" y="410">UNCONSCIOUS — nothing by mouth. IV</text>
+<text class="b" x="454" y="430">dextrose, or glucagon if there is no line.</text>
+
+<rect class="box" x="24" y="462" width="812" height="122"/>
+<text class="h" x="40" y="486">Rules that get examined</text>
+<text class="b" x="40" y="512">Only ever use an INSULIN syringe, marked in units. A tuberculin or 2 mL syringe is a fatal substitution.</text>
+<text class="b" x="40" y="534">Two nurses check the dose independently. Insulin is a high-alert medicine everywhere in the world.</text>
+<text class="b" x="40" y="556">Write UNITS in full. The abbreviation U is read as a zero and turns 4 units into 40.</text>
+<text class="k" x="40" y="578">Mixing: draw CLEAR before CLOUDY — soluble first, then NPH. Never contaminate the clear vial.</text>
+</svg>

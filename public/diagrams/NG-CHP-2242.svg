@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 620" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.tier{fill:#eef4f8;stroke:#8fa9bd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+</style>
+<rect width="860" height="620" fill="#f7fafb"/>
+<text class="t" x="24" y="32">CHPS: taking the service to the doorstep, not the patient to the queue</text>
+<text class="i" x="24" y="52">Born at Navrongo, national policy since 1999. The idea is that distance itself is a cause of death.</text>
+
+<rect class="ok" x="24" y="66" width="812" height="104"/>
+<text class="h" x="40" y="90">The four building blocks</text>
+<text class="b" x="40" y="114">ZONE — a demarcated area, roughly a 4 km radius, about 4,500 to 5,000 people or 750 households.</text>
+<text class="b" x="40" y="134">COMPOUND — an approved structure with both a service delivery point and accommodation. Both must be present.</text>
+<text class="b" x="40" y="154">CHO — a community health nurse given further training, who lives in the zone. CHVs — unpaid community members who assist.</text>
+
+<text class="h" x="24" y="196">Where the patient goes, and in what order</text>
+<rect class="tier" x="24" y="208" width="150" height="66"/>
+<text class="b" x="52" y="234">CHPS zone</text>
+<text class="s" x="40" y="254">doorstep + compound</text>
+<rect class="tier" x="190" y="208" width="150" height="66"/>
+<text class="b" x="216" y="234">Health centre</text>
+<text class="s" x="228" y="254">sub-district</text>
+<rect class="tier" x="356" y="208" width="150" height="66"/>
+<text class="b" x="378" y="234">District hospital</text>
+<text class="s" x="396" y="254">the district</text>
+<rect class="tier" x="522" y="208" width="150" height="66"/>
+<text class="b" x="542" y="234">Regional hospital</text>
+<text class="s" x="566" y="254">16 regions</text>
+<rect class="tier" x="688" y="208" width="148" height="66"/>
+<text class="b" x="704" y="234">Teaching hospital</text>
+<text class="s" x="700" y="254">Korle Bu · KATH</text>
+<path d="M174 241 L186 241" stroke="#8fa9bd" stroke-width="2"/>
+<path d="M340 241 L352 241" stroke="#8fa9bd" stroke-width="2"/>
+<path d="M506 241 L518 241" stroke="#8fa9bd" stroke-width="2"/>
+<path d="M672 241 L684 241" stroke="#8fa9bd" stroke-width="2"/>
+<text class="i" x="24" y="294">Referral is upward and stepwise. Bypassing the levels is what makes the teaching hospitals overflow.</text>
+
+<rect class="box" x="24" y="310" width="398" height="146"/>
+<text class="h" x="40" y="334">What the CHO actually does</text>
+<text class="b" x="40" y="358">Home visits, house to house</text>
+<text class="b" x="40" y="378">Immunisation and growth monitoring</text>
+<text class="b" x="40" y="398">Family planning and antenatal care</text>
+<text class="b" x="40" y="418">Treats simple illness; refers the rest</text>
+<text class="b" x="40" y="438">Health education, defaulter tracing</text>
+
+<rect class="box" x="438" y="310" width="398" height="146"/>
+<text class="h" x="454" y="334">Community entry — before any service</text>
+<text class="b" x="454" y="358">Meet the chief and elders first</text>
+<text class="b" x="454" y="378">Hold a durbar to explain and listen</text>
+<text class="b" x="454" y="398">Let the community select its volunteers</text>
+<text class="b" x="454" y="418">Form the health committee</text>
+<text class="i" x="454" y="440">Skip this and the programme is refused, however good it is.</text>
+
+<rect class="warn" x="24" y="472" width="812" height="124"/>
+<text class="k" x="40" y="496">The examinable idea behind all of it</text>
+<text class="b" x="40" y="520">Primary health care is not cheap care for poor people. It is essential care, made universally accessible,</text>
+<text class="b" x="40" y="540">at a cost the country can sustain, with the community taking part in deciding it.</text>
+<text class="k" x="40" y="566">Community participation is not a courtesy. It is the mechanism by which the programme survives.</text>
+<text class="i" x="40" y="586">Ask who chose the volunteer. If the health service chose her, it is not CHPS.</text>
+</svg>

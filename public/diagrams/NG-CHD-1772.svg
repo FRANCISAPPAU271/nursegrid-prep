@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 480" width="100%" role="img">
+<rect x="0" y="0" width="760" height="480" fill="#fdfcfa"/>
+<text x="20" y="30" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="#1d4e63">Severe acute malnutrition: the child who looks least ill is often the sickest</text>
+<text x="20" y="52" font-family="Georgia,serif" font-size="13" fill="#555">Three measurements decide the diagnosis. One sign overrides everything else.</text>
+
+<rect x="20" y="68" width="232" height="164" rx="6" fill="#eef4f8" stroke="#2b6b8a"/>
+<text x="34" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d4e63">MUAC</text>
+<text x="34" y="112" font-family="Georgia,serif" font-size="12" fill="#333">Mid-upper arm circumference,</text>
+<text x="34" y="130" font-family="Georgia,serif" font-size="12" fill="#333">left arm, child aged 6–59 months.</text>
+<rect x="34" y="144" width="184" height="16" rx="3" fill="#c0392b"/>
+<rect x="76" y="144" width="142" height="16" rx="3" fill="#e0a63c"/>
+<rect x="110" y="144" width="108" height="16" rx="3" fill="#2e7d5b"/>
+<text x="34" y="178" font-family="Georgia,serif" font-size="11" fill="#7a2020">Red under 11.5 cm — severe</text>
+<text x="34" y="196" font-family="Georgia,serif" font-size="11" fill="#8a6508">Yellow 11.5 to 12.4 — moderate</text>
+<text x="34" y="214" font-family="Georgia,serif" font-size="11" fill="#1d5c42">Green 12.5 and above — adequate</text>
+
+<rect x="264" y="68" width="232" height="164" rx="6" fill="#f6f2fa" stroke="#6b4c93"/>
+<text x="278" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#4a326b">Weight for height</text>
+<text x="278" y="112" font-family="Georgia,serif" font-size="12" fill="#333">Compares this child's weight to</text>
+<text x="278" y="130" font-family="Georgia,serif" font-size="12" fill="#333">what a healthy child of the same</text>
+<text x="278" y="148" font-family="Georgia,serif" font-size="12" fill="#333">length should weigh.</text>
+<text x="278" y="176" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#4a326b">Below minus three standard</text>
+<text x="278" y="194" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#4a326b">deviations is severe wasting.</text>
+<text x="278" y="218" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#4a326b">Weight alone tells you nothing.</text>
+
+<rect x="508" y="68" width="232" height="164" rx="6" fill="#fff3f0" stroke="#c0392b"/>
+<text x="522" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#7a2020">Bilateral pitting oedema</text>
+<text x="522" y="112" font-family="Georgia,serif" font-size="12" fill="#333">Press both feet for three seconds.</text>
+<text x="522" y="130" font-family="Georgia,serif" font-size="12" fill="#333">A pit that stays is oedema.</text>
+<text x="522" y="154" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7a2020">This alone means severe acute</text>
+<text x="522" y="172" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7a2020">malnutrition, whatever the</text>
+<text x="522" y="190" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7a2020">MUAC or the weight says.</text>
+<text x="522" y="214" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#7a2020">The swelling hides the wasting under it.</text>
+
+<rect x="20" y="248" width="720" height="96" rx="6" fill="#fff8e8" stroke="#b8860b"/>
+<text x="34" y="270" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#8a6508">Why feeding fast can kill: refeeding syndrome</text>
+<text x="34" y="292" font-family="Georgia,serif" font-size="12" fill="#333">A starved child has adapted — the heart is small, the kidneys are slow, potassium and magnesium are depleted.</text>
+<text x="34" y="310" font-family="Georgia,serif" font-size="12" fill="#333">A sudden large feed pulls those electrolytes into the cells and floods a heart that cannot cope with the volume.</text>
+<text x="34" y="332" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#8a6508">Start low and slow with F-75, then build up with F-100 or RUTF once she is stable and her appetite returns.</text>
+
+<rect x="20" y="360" width="720" height="104" rx="6" fill="#f2f7f2" stroke="#2e7d5b"/>
+<text x="34" y="382" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d5c42">Two rules that reverse ordinary nursing instinct</text>
+<text x="34" y="404" font-family="Georgia,serif" font-size="12" fill="#333">1. A severely malnourished child with diarrhoea is given ReSoMal, not standard ORS — standard ORS carries too</text>
+<text x="34" y="422" font-family="Georgia,serif" font-size="12" fill="#333">    much sodium and too little potassium for her, and intravenous fluid is reserved for shock alone.</text>
+<text x="34" y="444" font-family="Georgia,serif" font-size="12" fill="#333">2. She may have a serious infection with no fever at all. Treat presumptively rather than waiting for a temperature.</text>
+<text x="34" y="460" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#1d5c42">Hypothermia and hypoglycaemia kill quietly overnight. Keep her warm and feed her through the night.</text>
+</svg>

@@ -1,3 +1,4 @@
+import { QUESTION_COUNT_LABEL } from "@/lib/question-count";
 export default function StructuredData() {
   const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
 
@@ -18,7 +19,7 @@ export default function StructuredData() {
         url: baseUrl,
         name: "NurseGrid Prep",
         description:
-          "Built for Ghana's student nurses & midwives: organise clinicals and revision, then master 2,900+ unique NMC licensing exam-style questions with rationales and proven test-taking strategies.",
+          `Built for Ghana's student nurses & midwives: organise clinicals and revision, then master ${QUESTION_COUNT_LABEL} unique NMC licensing exam-style questions with rationales and proven test-taking strategies.`,
         publisher: { "@id": `${baseUrl}/#organization` },
       },
       {

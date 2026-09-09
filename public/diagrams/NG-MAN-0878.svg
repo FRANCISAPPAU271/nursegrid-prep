@@ -1,0 +1,32 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="420" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">QUALITY IMPROVEMENT — THE PDSA CYCLE</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">Small change, measured, repeated. Not a policy issued from an office.</text>
+
+<circle cx="320" cy="216" r="118" fill="none" stroke="#1a3a5c" stroke-width="2" stroke-dasharray="5 4"/>
+
+<rect x="238" y="76" width="164" height="66" fill="#eef4f8" stroke="#5a86a8" stroke-width="1.8"/>
+<text x="320" y="98" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a3a5c">PLAN</text>
+<text x="320" y="116" text-anchor="middle" font-size="10" fill="#222">What is the problem, in numbers?</text>
+<text x="320" y="132" text-anchor="middle" font-size="10" fill="#222">What one change will we try?</text>
+
+<rect x="424" y="182" width="164" height="66" fill="#eaf3ea" stroke="#1a5c3a" stroke-width="1.8"/>
+<text x="506" y="204" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a5c3a">DO</text>
+<text x="506" y="222" text-anchor="middle" font-size="10" fill="#222">Try it small — one ward,</text>
+<text x="506" y="238" text-anchor="middle" font-size="10" fill="#222">one week, one shift</text>
+
+<rect x="238" y="290" width="164" height="66" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.8"/>
+<text x="320" y="312" text-anchor="middle" font-size="13" font-weight="bold" fill="#8a6d1e">STUDY</text>
+<text x="320" y="330" text-anchor="middle" font-size="10" fill="#222">Measure again. Did the number</text>
+<text x="320" y="346" text-anchor="middle" font-size="10" fill="#222">actually move?</text>
+
+<rect x="52" y="182" width="164" height="66" fill="#f7ecec" stroke="#8b2f2f" stroke-width="1.8"/>
+<text x="134" y="204" text-anchor="middle" font-size="13" font-weight="bold" fill="#8b2f2f">ACT</text>
+<text x="134" y="222" text-anchor="middle" font-size="10" fill="#222">Adopt it, adapt it,</text>
+<text x="134" y="238" text-anchor="middle" font-size="10" fill="#222">or abandon it</text>
+
+<text x="320" y="216" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a3a5c">then go round again</text>
+
+<text x="320" y="388" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a3a5c">You must measure BEFORE you change anything, or you can never prove it worked.</text>
+<text x="320" y="410" text-anchor="middle" font-size="10.5" font-style="italic" fill="#8b2f2f">A memo telling staff to try harder is not a change. Change something about the system itself.</text>
+</svg>

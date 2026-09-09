@@ -1,0 +1,43 @@
+<svg viewBox="0 0 720 460" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect x="0" y="0" width="720" height="460" fill="#f8fbf8"/>
+<text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#1d5236">Pressure damage at home: it starts before it is visible</text>
+<text x="360" y="50" text-anchor="middle" font-size="12.5" fill="#5c7365">Every pressure ulcer had a first hour, and nobody was looking</text>
+
+<rect x="30" y="66" width="325" height="148" rx="7" fill="#e9f2ec" stroke="#8fb59d"/>
+<text x="45" y="87" font-size="13.5" font-weight="bold" fill="#1d5236">The first sign</text>
+<text x="45" y="108" font-size="11.5" fill="#26333d">Redness that does not go white when</text>
+<text x="45" y="124" font-size="11.5" fill="#26333d">you press it, and does not fade on moving</text>
+<text x="45" y="145" font-size="11.5" fill="#26333d">On dark skin, look for a patch that is</text>
+<text x="45" y="161" font-size="11.5" fill="#26333d">darker, purplish, warmer, or firmer than</text>
+<text x="45" y="177" font-size="11.5" fill="#26333d">the skin beside it &#8212; and ask about pain</text>
+<text x="45" y="198" font-size="11.5" font-weight="bold" fill="#8a3018">Redness is not always visible. Feel and ask.</text>
+
+<rect x="365" y="66" width="325" height="148" rx="7" fill="#eaf1f7" stroke="#9fb9cd"/>
+<text x="380" y="87" font-size="13.5" font-weight="bold" fill="#1d3f5e">Where to look every single day</text>
+<text x="380" y="108" font-size="11.5" fill="#26333d">Sacrum and buttocks &#8212; sitting as well as lying</text>
+<text x="380" y="127" font-size="11.5" fill="#26333d">Heels, which lift off the mattress easily</text>
+<text x="380" y="146" font-size="11.5" fill="#26333d">Hips, elbows, shoulder blades, back of head</text>
+<text x="380" y="165" font-size="11.5" fill="#26333d">Ears and nose, under tubing and straps</text>
+<text x="380" y="186" font-size="11.5" font-weight="bold" fill="#26333d">Under a plaster, a catheter, a wet pad</text>
+<text x="380" y="205" font-size="11" font-style="italic" fill="#7a5a2a">A chair is not safer than a bed &#8212; it is worse</text>
+
+<rect x="30" y="234" width="660" height="94" rx="7" fill="#f6e9e6" stroke="#c98f80"/>
+<text x="45" y="255" font-size="13.5" font-weight="bold" fill="#8a3018">What actually causes it, in order of importance</text>
+<text x="52" y="278" font-size="12" fill="#3f2b26">Unrelieved pressure over a bone &#8212; time matters more than weight</text>
+<text x="52" y="299" font-size="12" fill="#3f2b26">Shear: dragging her up the bed instead of lifting, or letting her slide down a chair</text>
+<text x="52" y="320" font-size="12" fill="#3f2b26">Moisture from urine, sweat or a soaked pad, which softens skin so pressure cuts faster</text>
+
+<rect x="30" y="346" width="325" height="100" rx="7" fill="#efe4d4" stroke="#c9a678"/>
+<text x="45" y="367" font-size="13.5" font-weight="bold" fill="#7a4a12">Teaching the family at home</text>
+<text x="45" y="388" font-size="11.5" fill="#3f2b26">Show them how to look, not just how to turn</text>
+<text x="45" y="407" font-size="11.5" fill="#3f2b26">Pillows between knees and under calves</text>
+<text x="45" y="426" font-size="11.5" fill="#3f2b26">Change the wet pad immediately, every time</text>
+<text x="45" y="442" font-size="11" font-style="italic" fill="#7a5a2a">Give them one thing to report and a number to call</text>
+
+<rect x="365" y="346" width="325" height="100" rx="7" fill="#f6e2de" stroke="#c98f80"/>
+<text x="380" y="367" font-size="13.5" font-weight="bold" fill="#8a3018">Practices that harm</text>
+<text x="380" y="388" font-size="11.5" fill="#3f2b26">Rubbing or massaging a red area</text>
+<text x="380" y="407" font-size="11.5" fill="#3f2b26">Rings and doughnut cushions</text>
+<text x="380" y="426" font-size="11.5" fill="#3f2b26">Talcum powder, spirit, or hot water</text>
+<text x="380" y="442" font-size="11" font-style="italic" fill="#7a5a2a">Each was once taught, and each does damage</text>
+</svg>

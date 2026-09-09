@@ -1,0 +1,50 @@
+<svg viewBox="0 0 720 470" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect x="0" y="0" width="720" height="470" fill="#f9f7f4"/>
+<text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#5b4a2e">Who regulates what in Ghanaian traditional medicine</text>
+<text x="360" y="50" text-anchor="middle" font-size="12.5" fill="#7a6a58">Three different bodies, three different objects. Naming the wrong one is the commonest error.</text>
+
+<rect x="30" y="66" width="212" height="180" rx="7" fill="#f2ece2" stroke="#c9b79c"/>
+<text x="45" y="87" font-size="13" font-weight="bold" fill="#5b4a2e">Traditional Medicine</text>
+<text x="45" y="105" font-size="13" font-weight="bold" fill="#5b4a2e">Practice Council</text>
+<text x="45" y="126" font-size="11.5" font-weight="bold" fill="#8a3018">Registers the PERSON</text>
+<text x="45" y="147" font-size="11.5" fill="#3f3428">Created by Act 575 of 2000</text>
+<text x="45" y="165" font-size="11.5" fill="#3f3428">Registers practitioners</text>
+<text x="45" y="183" font-size="11.5" fill="#3f3428">Certificate expires 31 December</text>
+<text x="45" y="201" font-size="11.5" fill="#3f3428">Inspects premises each year</text>
+<text x="45" y="219" font-size="11.5" fill="#3f3428">Coroner told within 24 hours</text>
+<text x="45" y="237" font-size="11" font-style="italic" fill="#7a5a2a">of a death on the premises</text>
+
+<rect x="254" y="66" width="212" height="180" rx="7" fill="#eaf1f7" stroke="#9fb9cd"/>
+<text x="269" y="87" font-size="13" font-weight="bold" fill="#1d3f5e">Food and Drugs</text>
+<text x="269" y="105" font-size="13" font-weight="bold" fill="#1d3f5e">Authority</text>
+<text x="269" y="126" font-size="11.5" font-weight="bold" fill="#8a3018">Registers the PRODUCT</text>
+<text x="269" y="147" font-size="11.5" fill="#26333d">Public Health Act 2012, Act 851</text>
+<text x="269" y="165" font-size="11.5" fill="#26333d">Evaluates safety and quality</text>
+<text x="269" y="183" font-size="11.5" fill="#26333d">Approves the label and claims</text>
+<text x="269" y="201" font-size="11.5" fill="#26333d">Inspects manufacture, recalls</text>
+<text x="269" y="219" font-size="11.5" fill="#26333d">Receives adverse reaction reports</text>
+<text x="269" y="237" font-size="11" font-style="italic" fill="#7a5a2a">A number on the tin is an FDA number</text>
+
+<rect x="478" y="66" width="212" height="180" rx="7" fill="#e9f2ec" stroke="#8fb59d"/>
+<text x="493" y="87" font-size="13" font-weight="bold" fill="#1d5236">Nursing and Midwifery</text>
+<text x="493" y="105" font-size="13" font-weight="bold" fill="#1d5236">Council</text>
+<text x="493" y="126" font-size="11.5" font-weight="bold" fill="#8a3018">Regulates YOU</text>
+<text x="493" y="147" font-size="11.5" fill="#26333d">Act 857 of 2013</text>
+<text x="493" y="165" font-size="11.5" fill="#26333d">Your PIN and your scope</text>
+<text x="493" y="183" font-size="11.5" fill="#26333d">You do not prescribe herbal</text>
+<text x="493" y="201" font-size="11.5" fill="#26333d">medicines, and you do not</text>
+<text x="493" y="219" font-size="11.5" fill="#26333d">sell them to your patients</text>
+<text x="493" y="237" font-size="11" font-style="italic" fill="#7a5a2a">Ask, record, refer, report</text>
+
+<rect x="30" y="262" width="660" height="90" rx="7" fill="#f6e9e6" stroke="#c98f80"/>
+<text x="45" y="283" font-size="13.5" font-weight="bold" fill="#8a3018">Integration is a real service, not an idea</text>
+<text x="52" y="305" font-size="12" fill="#3f2b26">A BSc in Herbal Medicine began at KNUST in 2001; graduates practise as Medical Herbalists</text>
+<text x="52" y="325" font-size="12" fill="#3f2b26">Herbal units were piloted in government hospitals from 2011 and integrated from 2012, in about eighteen facilities</text>
+<text x="52" y="345" font-size="12" font-weight="bold" fill="#8a3018">The Centre for Plant Medicine Research at Mampong-Akuapem does the science behind the products</text>
+
+<rect x="30" y="366" width="660" height="88" rx="7" fill="#eaf1f7" stroke="#9fb9cd"/>
+<text x="45" y="387" font-size="13.5" font-weight="bold" fill="#1d3f5e">What a registered product does and does not tell you</text>
+<text x="52" y="409" font-size="12" fill="#26333d">It tells you the FDA assessed the contents, the manufacture and the label. It does not tell you the product cures anything.</text>
+<text x="52" y="429" font-size="12" fill="#26333d">A claim to cure a named disease must be substantiated, and an unregistered product tells you nothing at all.</text>
+<text x="52" y="449" font-size="11.5" font-weight="bold" fill="#8a3018">Registered is not the same as proven, and unregistered is not the same as harmless.</text>
+</svg>

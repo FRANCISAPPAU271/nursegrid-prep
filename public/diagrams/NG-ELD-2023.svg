@@ -1,0 +1,43 @@
+<svg viewBox="0 0 720 470" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect x="0" y="0" width="720" height="470" fill="#fbf8f3"/>
+<text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#5b3a1e">The home visit: you are a guest, and the family is the service</text>
+<text x="360" y="50" text-anchor="middle" font-size="12.5" fill="#7a6a58">What you cannot see in a clinic is the whole point of going</text>
+
+<rect x="30" y="66" width="325" height="152" rx="7" fill="#f2ece2" stroke="#c9b79c"/>
+<text x="45" y="87" font-size="13.5" font-weight="bold" fill="#5b3a1e">What the visit reveals that a clinic cannot</text>
+<text x="45" y="108" font-size="11.5" fill="#3f3428">Whether there is food in the house today</text>
+<text x="45" y="127" font-size="11.5" fill="#3f3428">How far the latrine is, and how dark the path</text>
+<text x="45" y="146" font-size="11.5" fill="#3f3428">Which medicines are really being taken</text>
+<text x="45" y="165" font-size="11.5" fill="#3f3428">Who is actually providing the care, and</text>
+<text x="45" y="181" font-size="11.5" fill="#3f3428">whether that person is coping</text>
+<text x="45" y="202" font-size="11.5" font-weight="bold" fill="#3f3428">Whether she is safe with the people she lives with</text>
+
+<rect x="365" y="66" width="325" height="152" rx="7" fill="#e9f2ec" stroke="#8fb59d"/>
+<text x="380" y="87" font-size="13.5" font-weight="bold" fill="#1d5236">How to teach a family carer</text>
+<text x="380" y="108" font-size="11.5" fill="#26333d">Use what the household already owns</text>
+<text x="380" y="127" font-size="11.5" fill="#26333d">Demonstrate, then watch her do it herself</text>
+<text x="380" y="146" font-size="11.5" fill="#26333d">One or two things per visit, not a lecture</text>
+<text x="380" y="165" font-size="11.5" fill="#26333d">Write or draw it in a language she reads</text>
+<text x="380" y="186" font-size="11.5" font-weight="bold" fill="#26333d">Name the signs that mean call us today</text>
+<text x="380" y="205" font-size="11" font-style="italic" fill="#7a5a2a">A carer who was only told is a carer who was not taught</text>
+
+<rect x="30" y="240" width="660" height="96" rx="7" fill="#f6e9e6" stroke="#c98f80"/>
+<text x="45" y="261" font-size="13.5" font-weight="bold" fill="#8a3018">The carer is a second patient</text>
+<text x="52" y="284" font-size="12" fill="#3f2b26">Exhaustion, no sleep, no income, no relief, and guilt for resenting any of it</text>
+<text x="52" y="305" font-size="12" fill="#3f2b26">Ask her directly how she is sleeping and when she last left the house</text>
+<text x="52" y="326" font-size="12" font-weight="bold" fill="#8a3018">A carer who collapses produces an emergency admission for the person she cares for</text>
+
+<rect x="30" y="354" width="325" height="100" rx="7" fill="#f6e2de" stroke="#c98f80"/>
+<text x="45" y="375" font-size="13.5" font-weight="bold" fill="#8a3018">Signs that should raise concern</text>
+<text x="45" y="396" font-size="11.5" fill="#3f2b26">Injuries that do not fit the explanation</text>
+<text x="45" y="415" font-size="11.5" fill="#3f2b26">Left alone all day, unwashed, no water in reach</text>
+<text x="45" y="434" font-size="11.5" fill="#3f2b26">Her pension collected by someone else</text>
+<text x="45" y="450" font-size="11" font-style="italic" fill="#7a5a2a">Neglect is the commonest form, and the quietest</text>
+
+<rect x="365" y="354" width="325" height="100" rx="7" fill="#eaf1f7" stroke="#9fb9cd"/>
+<text x="380" y="375" font-size="13.5" font-weight="bold" fill="#1d3f5e">Whose home it is</text>
+<text x="380" y="396" font-size="11.5" fill="#26333d">Ask before you move furniture or open</text>
+<text x="380" y="412" font-size="11.5" fill="#26333d">a cupboard. Advice can be refused.</text>
+<text x="380" y="433" font-size="11.5" fill="#26333d">Negotiate what is possible for this family,</text>
+<text x="380" y="449" font-size="11.5" font-weight="bold" fill="#26333d">not what would be ideal in a ward</text>
+</svg>

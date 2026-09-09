@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 478" width="100%" role="img">
+<rect x="0" y="0" width="760" height="478" fill="#fdfcfa"/>
+<text x="20" y="30" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="#1d4e63">Head injury: the number matters less than the direction</text>
+<text x="20" y="52" font-family="Georgia,serif" font-size="13" fill="#555">A score of 12 that was 15 an hour ago is an emergency. A score of 12 that has been 12 all day is not the same thing.</text>
+
+<rect x="20" y="68" width="232" height="164" rx="6" fill="#eef4f8" stroke="#2b6b8a"/>
+<text x="34" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d4e63">Eye opening — out of 4</text>
+<text x="34" y="112" font-family="Georgia,serif" font-size="12" fill="#333">4  spontaneously</text>
+<text x="34" y="132" font-family="Georgia,serif" font-size="12" fill="#333">3  to speech</text>
+<text x="34" y="152" font-family="Georgia,serif" font-size="12" fill="#333">2  to pain</text>
+<text x="34" y="172" font-family="Georgia,serif" font-size="12" fill="#333">1  no response</text>
+<text x="34" y="202" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#1d4e63">Swollen eyes that cannot open</text>
+<text x="34" y="218" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#1d4e63">are recorded as not testable.</text>
+
+<rect x="264" y="68" width="232" height="164" rx="6" fill="#fff8e8" stroke="#b8860b"/>
+<text x="278" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#8a6508">Verbal — out of 5</text>
+<text x="278" y="112" font-family="Georgia,serif" font-size="12" fill="#333">5  oriented</text>
+<text x="278" y="132" font-family="Georgia,serif" font-size="12" fill="#333">4  confused conversation</text>
+<text x="278" y="152" font-family="Georgia,serif" font-size="12" fill="#333">3  words, not sentences</text>
+<text x="278" y="172" font-family="Georgia,serif" font-size="12" fill="#333">2  sounds only</text>
+<text x="278" y="192" font-family="Georgia,serif" font-size="12" fill="#333">1  no response</text>
+<text x="278" y="218" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#8a6508">Ask in a language she speaks.</text>
+
+<rect x="508" y="68" width="232" height="164" rx="6" fill="#fff3f0" stroke="#c0392b"/>
+<text x="522" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#7a2020">Motor — out of 6</text>
+<text x="522" y="112" font-family="Georgia,serif" font-size="12" fill="#333">6  obeys commands</text>
+<text x="522" y="132" font-family="Georgia,serif" font-size="12" fill="#333">5  localises to pain</text>
+<text x="522" y="152" font-family="Georgia,serif" font-size="12" fill="#333">4  withdraws from pain</text>
+<text x="522" y="172" font-family="Georgia,serif" font-size="12" fill="#333">3  abnormal flexion</text>
+<text x="522" y="192" font-family="Georgia,serif" font-size="12" fill="#333">2  extension   ·   1  none</text>
+<text x="522" y="218" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#7a2020">The best response on the better side.</text>
+
+<rect x="20" y="248" width="352" height="106" rx="6" fill="#f2f7f2" stroke="#2e7d5b"/>
+<text x="34" y="270" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d5c42">Reading the total</text>
+<text x="34" y="292" font-family="Georgia,serif" font-size="12" fill="#333">Lowest possible is 3, never 0. Highest is 15.</text>
+<text x="34" y="314" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#1d5c42">8 or less means the airway is not safe.</text>
+<text x="34" y="336" font-family="Georgia,serif" font-size="12" fill="#333">Always record the three parts, not only the sum.</text>
+
+<rect x="388" y="248" width="352" height="106" rx="6" fill="#f6f2fa" stroke="#6b4c93"/>
+<text x="402" y="270" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#4a326b">Signs of rising pressure in the skull</text>
+<text x="402" y="292" font-family="Georgia,serif" font-size="12" fill="#333">Falling conscious level · one pupil enlarging</text>
+<text x="402" y="312" font-family="Georgia,serif" font-size="12" fill="#333">and sluggish · rising pressure with a slowing</text>
+<text x="402" y="332" font-family="Georgia,serif" font-size="12" fill="#333">pulse · vomiting · worsening headache</text>
+
+<rect x="20" y="368" width="720" height="94" rx="6" fill="#fff3f0" stroke="#c0392b"/>
+<text x="34" y="390" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#7a2020">The lucid interval — why a walking, talking patient can still die tonight</text>
+<text x="34" y="412" font-family="Georgia,serif" font-size="12" fill="#333">Arterial bleeding between the skull and the brain can take hours to accumulate. The patient is knocked out, wakes,</text>
+<text x="34" y="430" font-family="Georgia,serif" font-size="12" fill="#333">talks normally, and is often thought to be fine — then deteriorates rapidly as the clot enlarges.</text>
+<text x="34" y="452" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7a2020">Never discharge a head injury on how well she looks now. Observe, and tell the family exactly what to watch for.</text>
+</svg>

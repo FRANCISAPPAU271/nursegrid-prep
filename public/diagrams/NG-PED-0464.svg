@@ -1,0 +1,74 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="400" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">DEVELOPMENTAL MILESTONES — THE ONES EXAMINERS ASK</text>
+<text x="320" y="45" text-anchor="middle" font-size="12" fill="#555">Development runs head to toe, and from whole-hand to fingertip</text>
+
+<line x1="60" y1="80" x2="600" y2="80" stroke="#333" stroke-width="2"/>
+<polygon points="600,80 590,75 590,85" fill="#333"/>
+<g font-size="10" fill="#666" text-anchor="middle">
+<circle cx="90" cy="80" r="4" fill="#1a3a5c"/><text x="90" y="68">6 wk</text>
+<circle cx="170" cy="80" r="4" fill="#1a3a5c"/><text x="170" y="68">3 mo</text>
+<circle cx="250" cy="80" r="4" fill="#1a3a5c"/><text x="250" y="68">6 mo</text>
+<circle cx="330" cy="80" r="4" fill="#1a3a5c"/><text x="330" y="68">9 mo</text>
+<circle cx="410" cy="80" r="4" fill="#1a3a5c"/><text x="410" y="68">1 yr</text>
+<circle cx="490" cy="80" r="4" fill="#1a3a5c"/><text x="490" y="68">2 yr</text>
+<circle cx="570" cy="80" r="4" fill="#1a3a5c"/><text x="570" y="68">3 yr</text>
+</g>
+
+<rect x="24" y="96" width="592" height="66" fill="#eaf3ea" stroke="#8fb98f"/>
+<text x="34" y="114" font-size="11" font-weight="bold" fill="#1a5c3a">GROSS MOTOR</text>
+<text x="90" y="134" text-anchor="middle" font-size="9" fill="#333">head lifts</text>
+<text x="170" y="134" text-anchor="middle" font-size="9" fill="#333">head steady</text>
+<text x="250" y="134" text-anchor="middle" font-size="9" fill="#333">sits with</text>
+<text x="250" y="146" text-anchor="middle" font-size="9" fill="#333">support</text>
+<text x="330" y="134" text-anchor="middle" font-size="9" fill="#333">sits alone,</text>
+<text x="330" y="146" text-anchor="middle" font-size="9" fill="#333">crawls</text>
+<text x="410" y="134" text-anchor="middle" font-size="9" font-weight="bold" fill="#8b2f2f">walks</text>
+<text x="410" y="146" text-anchor="middle" font-size="9" fill="#333">(12–18 mo)</text>
+<text x="490" y="134" text-anchor="middle" font-size="9" fill="#333">runs, climbs</text>
+<text x="490" y="146" text-anchor="middle" font-size="9" fill="#333">stairs</text>
+<text x="570" y="134" text-anchor="middle" font-size="9" fill="#333">pedals,</text>
+<text x="570" y="146" text-anchor="middle" font-size="9" fill="#333">jumps</text>
+
+<rect x="24" y="166" width="592" height="66" fill="#f6f3ec" stroke="#c9b98f"/>
+<text x="34" y="184" font-size="11" font-weight="bold" fill="#8b6a2f">FINE MOTOR</text>
+<text x="90" y="204" text-anchor="middle" font-size="9" fill="#333">fists closed</text>
+<text x="170" y="204" text-anchor="middle" font-size="9" fill="#333">hands open,</text>
+<text x="170" y="216" text-anchor="middle" font-size="9" fill="#333">watches them</text>
+<text x="250" y="204" text-anchor="middle" font-size="9" fill="#333">palmar grasp,</text>
+<text x="250" y="216" text-anchor="middle" font-size="9" fill="#333">whole hand</text>
+<text x="330" y="204" text-anchor="middle" font-size="9" font-weight="bold" fill="#8b2f2f">pincer grip</text>
+<text x="330" y="216" text-anchor="middle" font-size="9" fill="#333">thumb + finger</text>
+<text x="410" y="204" text-anchor="middle" font-size="9" fill="#333">scribbles,</text>
+<text x="410" y="216" text-anchor="middle" font-size="9" fill="#333">2-brick tower</text>
+<text x="490" y="204" text-anchor="middle" font-size="9" fill="#333">6-brick tower</text>
+<text x="570" y="204" text-anchor="middle" font-size="9" fill="#333">copies a circle</text>
+
+<rect x="24" y="236" width="592" height="66" fill="#eef4f8" stroke="#5a86a8"/>
+<text x="34" y="254" font-size="11" font-weight="bold" fill="#1a3a5c">SPEECH &amp; SOCIAL</text>
+<text x="90" y="274" text-anchor="middle" font-size="9" font-weight="bold" fill="#8b2f2f">smiles</text>
+<text x="90" y="286" text-anchor="middle" font-size="9" fill="#333">responsively</text>
+<text x="170" y="274" text-anchor="middle" font-size="9" fill="#333">coos, laughs</text>
+<text x="250" y="274" text-anchor="middle" font-size="9" fill="#333">babbles</text>
+<text x="330" y="274" text-anchor="middle" font-size="9" fill="#333">stranger fear,</text>
+<text x="330" y="286" text-anchor="middle" font-size="9" fill="#333">waves</text>
+<text x="410" y="274" text-anchor="middle" font-size="9" fill="#333">1–3 words</text>
+<text x="490" y="274" text-anchor="middle" font-size="9" fill="#333">2-word phrases,</text>
+<text x="490" y="286" text-anchor="middle" font-size="9" fill="#333">50+ words</text>
+<text x="570" y="274" text-anchor="middle" font-size="9" fill="#333">short sentences,</text>
+<text x="570" y="286" text-anchor="middle" font-size="9" fill="#333">plays with others</text>
+
+<rect x="24" y="310" width="288" height="82" fill="#f7e9e9" stroke="#c78f8f"/>
+<text x="168" y="330" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b2f2f">RED FLAGS — REFER</text>
+<text x="34" y="348" font-size="10" fill="#333">No responsive smile by 10 weeks</text>
+<text x="34" y="363" font-size="10" fill="#333">Not sitting unsupported by 9 months</text>
+<text x="34" y="378" font-size="10" fill="#333">Not walking by 18 months</text>
+<text x="34" y="390" font-size="10" fill="#333">No words by 18 months · LOSS of a skill</text>
+
+<rect x="328" y="310" width="288" height="82" fill="#eaf3ea" stroke="#8fb98f"/>
+<text x="472" y="330" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a5c3a">HOW TO ANSWER THESE</text>
+<text x="338" y="348" font-size="10" fill="#333">Milestones have a RANGE, not a date.</text>
+<text x="338" y="363" font-size="10" fill="#333">Judge against the LIMIT age, not the average.</text>
+<text x="338" y="378" font-size="10" fill="#333">Correct for prematurity until 2 years.</text>
+<text x="338" y="390" font-size="10" fill="#333">Losing a skill is always abnormal.</text>
+</svg>

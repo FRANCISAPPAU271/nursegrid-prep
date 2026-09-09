@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 640" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.m{font:700 15px "Courier New",monospace;fill:#0f5a52}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+</style>
+<rect width="860" height="640" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Four formulas, and the sense-check that catches the decimal point</text>
+
+<rect class="ok" x="24" y="48" width="398" height="126"/>
+<text class="h" x="40" y="72">Tablets and liquids</text>
+<text class="m" x="40" y="102">WANT / HAVE x VOLUME</text>
+<text class="b" x="40" y="128">What you want, over what the stock is,</text>
+<text class="b" x="40" y="148">times the volume that stock comes in.</text>
+<text class="i" x="40" y="168">Both must be in the SAME unit before you divide.</text>
+
+<rect class="ok" x="438" y="48" width="398" height="126"/>
+<text class="h" x="454" y="72">Drops per minute</text>
+<text class="m" x="454" y="102">VOLUME x DROP FACTOR / MINUTES</text>
+<text class="b" x="454" y="128">Millilitres times the drops per mL that the</text>
+<text class="b" x="454" y="148">giving set delivers, over the total minutes.</text>
+<text class="i" x="454" y="168">Hours must become minutes first. Multiply by 60.</text>
+
+<rect class="ok" x="24" y="188" width="398" height="126"/>
+<text class="h" x="40" y="212">Millilitres per hour</text>
+<text class="m" x="40" y="242">TOTAL VOLUME / HOURS</text>
+<text class="b" x="40" y="268">The simplest one, and the one pumps use.</text>
+<text class="b" x="40" y="288">No drop factor is involved at all.</text>
+<text class="i" x="40" y="308">A pump is set in mL/h; a gravity set is counted in drops.</text>
+
+<rect class="ok" x="438" y="188" width="398" height="126"/>
+<text class="h" x="454" y="212">Weight-based dose</text>
+<text class="m" x="454" y="242">DOSE PER KG x WEIGHT</text>
+<text class="b" x="454" y="268">Work out the total dose FIRST, then apply</text>
+<text class="b" x="454" y="288">the want-over-have step to find the volume.</text>
+<text class="i" x="454" y="308">Two steps. Do not try to do them in one line.</text>
+
+<rect class="box" x="24" y="330" width="812" height="146"/>
+<text class="h" x="40" y="354">The unit ladder — most errors are a factor of 1,000</text>
+<text class="m" x="40" y="386">1 g  =  1,000 mg      1 mg  =  1,000 microgram      1 L  =  1,000 mL</text>
+<text class="b" x="40" y="416">Going DOWN the ladder to a smaller unit, the number gets BIGGER — multiply.</text>
+<text class="b" x="40" y="438">Going UP to a larger unit, the number gets SMALLER — divide.</text>
+<text class="k" x="40" y="466">Never write a bare decimal point. Write 0.5 mg, never .5 mg — the dot is lost and the dose becomes tenfold.</text>
+
+<rect class="warn" x="24" y="492" width="812" height="132"/>
+<text class="k" x="40" y="516">The sense-check, every single time</text>
+<text class="b" x="40" y="542">Ask: is this a believable number for a real patient?</text>
+<text class="b" x="40" y="566">More than 2 tablets, or more than 2 ampoules, for one dose — stop and recheck.</text>
+<text class="b" x="40" y="588">A drip rate under 5 or over 100 drops a minute — stop and recheck.</text>
+<text class="k" x="40" y="614">An answer that is exactly 10 or 100 times out is the commonest error there is. The check is what catches it.</text>
+</svg>

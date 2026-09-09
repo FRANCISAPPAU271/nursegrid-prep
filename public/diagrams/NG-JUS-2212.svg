@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 600" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.step{fill:#eef4f8;stroke:#8fa9bd;stroke-width:1.4;rx:20}
+</style>
+<rect width="860" height="600" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Accountability: you answer for what you did, and for what you allowed</text>
+<text class="i" x="24" y="52">A nurse is answerable four ways at once — to the patient, the employer, the Council and the courts.</text>
+
+<rect class="box" x="24" y="68" width="200" height="104"/>
+<text class="h" x="40" y="92">To the patient</text>
+<text class="s" x="40" y="114">Civil claim in</text>
+<text class="s" x="40" y="130">negligence. Remedy is</text>
+<text class="s" x="40" y="146">compensation.</text>
+
+<rect class="box" x="238" y="68" width="200" height="104"/>
+<text class="h" x="254" y="92">To the employer</text>
+<text class="s" x="254" y="114">Disciplinary process.</text>
+<text class="s" x="254" y="130">Warning, transfer or</text>
+<text class="s" x="254" y="146">dismissal.</text>
+
+<rect class="box" x="452" y="68" width="200" height="104"/>
+<text class="h" x="468" y="92">To the Council</text>
+<text class="s" x="468" y="114">Misconduct inquiry.</text>
+<text class="s" x="468" y="130">Reprimand, suspension</text>
+<text class="s" x="468" y="146">or removal from the</text>
+<text class="s" x="468" y="162">register.</text>
+
+<rect class="box" x="666" y="68" width="170" height="104"/>
+<text class="h" x="682" y="92">To the courts</text>
+<text class="s" x="682" y="114">Criminal charge in</text>
+<text class="s" x="682" y="130">the most serious</text>
+<text class="s" x="682" y="146">cases.</text>
+
+<text class="k" x="24" y="200">One act can trigger all four. Being cleared by your employer does not clear you with the Council.</text>
+
+<rect class="box" x="24" y="216" width="812" height="150"/>
+<text class="h" x="40" y="240">The four things negligence requires — all four, or the claim fails</text>
+<circle cx="120" cy="286" r="30" fill="#eef4f8" stroke="#8fa9bd" stroke-width="1.4"/>
+<text class="b" x="98" y="292">Duty</text>
+<circle cx="300" cy="286" r="30" fill="#eef4f8" stroke="#8fa9bd" stroke-width="1.4"/>
+<text class="b" x="276" y="292">Breach</text>
+<circle cx="480" cy="286" r="30" fill="#eef4f8" stroke="#8fa9bd" stroke-width="1.4"/>
+<text class="b" x="452" y="292">Causation</text>
+<circle cx="660" cy="286" r="30" fill="#eef4f8" stroke="#8fa9bd" stroke-width="1.4"/>
+<text class="b" x="640" y="292">Harm</text>
+<path d="M152 286 L268 286" stroke="#8fa9bd" stroke-width="1.6" fill="none"/>
+<path d="M332 286 L448 286" stroke="#8fa9bd" stroke-width="1.6" fill="none"/>
+<path d="M512 286 L628 286" stroke="#8fa9bd" stroke-width="1.6" fill="none"/>
+<text class="s" x="66" y="336">A patient in</text><text class="s" x="66" y="352">your care</text>
+<text class="s" x="250" y="336">Fell below the</text><text class="s" x="250" y="352">reasonable standard</text>
+<text class="s" x="430" y="336">The breach caused</text><text class="s" x="430" y="352">the injury</text>
+<text class="s" x="618" y="336">Actual damage</text><text class="s" x="618" y="352">resulted</text>
+
+<rect class="warn" x="24" y="384" width="812" height="192"/>
+<text class="k" x="40" y="408">When you are asked to do something you believe is unsafe — the order that works</text>
+<rect class="step" x="40" y="424" width="150" height="40"/>
+<text class="b" x="62" y="449">1. Say so</text>
+<rect class="step" x="204" y="424" width="180" height="40"/>
+<text class="b" x="222" y="449">2. Ask the prescriber</text>
+<rect class="step" x="398" y="424" width="180" height="40"/>
+<text class="b" x="416" y="449">3. Escalate upward</text>
+<rect class="step" x="592" y="424" width="180" height="40"/>
+<text class="b" x="610" y="449">4. Record it</text>
+<text class="b" x="40" y="490">Refusing is not insubordination when the task is outside your competence or clearly unsafe — carrying it out is</text>
+<text class="b" x="40" y="510">the offence. "I was told to" has never protected a nurse before the Council.</text>
+<text class="k" x="40" y="536">Delegation: you may delegate the task, but you keep accountability for deciding it was safe to delegate.</text>
+<text class="i" x="40" y="560">Check three things before delegating — the person is competent, the task is appropriate, and supervision is available.</text>
+</svg>

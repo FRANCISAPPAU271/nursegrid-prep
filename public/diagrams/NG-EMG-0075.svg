@@ -1,0 +1,28 @@
+<svg viewBox="0 0 460 240" role="img" xmlns="http://www.w3.org/2000/svg"><title>Rule of nines for burn surface area</title>
+<rect width="460" height="240" fill="#f6f8fc"/>
+<text x="230" y="22" font-size="12.5" text-anchor="middle" font-family="system-ui" font-weight="700">Rule of nines — ADULT (child differs: bigger head, smaller legs)</text>
+<g stroke="#0a1628" stroke-width="1.6" fill="#fff">
+<circle cx="150" cy="60" r="20"/>
+<rect x="126" y="82" width="48" height="66" rx="4"/>
+<rect x="100" y="84" width="22" height="60" rx="8"/><rect x="178" y="84" width="22" height="60" rx="8"/>
+<rect x="128" y="152" width="20" height="72" rx="7"/><rect x="152" y="152" width="20" height="72" rx="7"/>
+</g>
+<g font-family="system-ui" font-size="10.5" text-anchor="middle">
+<text x="150" y="64" font-weight="700">9%</text>
+<text x="150" y="105" font-weight="700">18%</text><text x="150" y="120" font-size="8.5">front</text>
+<text x="150" y="138" font-weight="700">18%</text><text x="150" y="150" font-size="8.5">back</text>
+<text x="111" y="118" font-weight="700">9%</text><text x="189" y="118" font-weight="700">9%</text>
+<text x="138" y="192" font-weight="700">18%</text><text x="162" y="192" font-weight="700">18%</text>
+</g>
+<g font-family="system-ui" font-size="11">
+<text x="250" y="60" font-weight="700">Head and neck</text><text x="430" y="60" text-anchor="end" font-weight="700">9%</text>
+<text x="250" y="82">Each arm</text><text x="430" y="82" text-anchor="end" font-weight="700">9%</text>
+<text x="250" y="104">Chest and abdomen</text><text x="430" y="104" text-anchor="end" font-weight="700">18%</text>
+<text x="250" y="126">Whole back</text><text x="430" y="126" text-anchor="end" font-weight="700">18%</text>
+<text x="250" y="148">Each leg</text><text x="430" y="148" text-anchor="end" font-weight="700">18%</text>
+<text x="250" y="170">Perineum</text><text x="430" y="170" text-anchor="end" font-weight="700">1%</text>
+</g>
+<line x1="248" y1="182" x2="432" y2="182" stroke="#8aa0bf"/>
+<text x="250" y="202" font-size="10.5" font-family="system-ui" fill="#5a6b85">Patient&#39;s own palm incl. fingers ≈ 1% — use for scattered burns</text>
+<text x="230" y="230" font-size="10.5" text-anchor="middle" font-family="system-ui" fill="#5a6b85">Do NOT count simple redness (superficial) in the total</text>
+</svg>

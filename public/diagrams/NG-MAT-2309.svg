@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 560" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+</style>
+<rect width="860" height="560" fill="#f7fafb"/>
+<text class="t" x="24" y="32">The baby in distress, and what to do with your hands first</text>
+
+<rect class="ok" x="24" y="48" width="398" height="128"/>
+<text class="h" x="40" y="72">Normal</text>
+<text class="b" x="40" y="98">Foetal heart 110 to 160 beats a minute</text>
+<text class="b" x="40" y="120">Listen for a full minute, during and just</text>
+<text class="b" x="40" y="140">after a contraction — not between them</text>
+<text class="i" x="40" y="164">Half-hourly in active first stage; every 5 minutes in second stage.</text>
+
+<rect class="warn" x="438" y="48" width="398" height="128"/>
+<text class="k" x="454" y="72">Worrying</text>
+<text class="b" x="454" y="98">Under 110, or over 160, sustained</text>
+<text class="b" x="454" y="120">A rate that does not recover after the</text>
+<text class="b" x="454" y="140">contraction has finished</text>
+<text class="b" x="454" y="164">Thick meconium with an abnormal rate</text>
+
+<rect class="box" x="24" y="192" width="812" height="164"/>
+<text class="h" x="40" y="216">First response — before you call, and while you call</text>
+<text class="b" x="40" y="242">1. Turn her onto her LEFT side. The pregnant uterus compresses the vena cava when she lies on her back,</text>
+<text class="s" x="56" y="262">and less blood returning to her heart means less blood reaching the placenta.</text>
+<text class="b" x="40" y="286">2. Stop any oxytocin infusion that is running.</text>
+<text class="b" x="40" y="308">3. Give oxygen, and run intravenous fluid.</text>
+<text class="b" x="40" y="330">4. Examine: is the cord prolapsed? How far has the head descended? Then call for urgent help.</text>
+<text class="k" x="40" y="350">Position, then stop the oxytocin. Those two cost nothing and work in seconds.</text>
+
+<rect class="warn" x="24" y="374" width="812" height="176"/>
+<text class="k" x="40" y="398">Cord prolapse — the one where your hand stays where it is</text>
+<text class="b" x="40" y="424">Call for help and prepare for immediate caesarean section.</text>
+<text class="b" x="40" y="446">Push the presenting part off the cord with your gloved hand and keep it there, all the way to theatre.</text>
+<text class="b" x="40" y="468">Position her knee-chest, or head down on her side, to take the weight off the cord.</text>
+<text class="b" x="40" y="490">Do not try to push the cord back in. Handle it as little as possible; handling makes it spasm.</text>
+<text class="k" x="40" y="518">The cord is being squeezed between the head and the pelvis. Your hand is the only thing relieving it.</text>
+<text class="i" x="40" y="540">Suspect it whenever the membranes rupture and the heart rate drops, especially if the head was still high.</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 620" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.n{fill:#0f5a52}
+</style>
+<rect width="880" height="620" fill="#f7fafb"/>
+<text class="t" x="24" y="32">WHO My Five Moments for Hand Hygiene</text>
+
+<rect class="ok" x="24" y="48" width="500" height="250"/>
+<circle cx="52" cy="82" r="13" class="n"/><text class="b" x="76" y="87" style="font-weight:700">1 BEFORE touching a patient</text>
+<text class="s" x="76" y="105">Protects the PATIENT from germs on your hands</text>
+<circle cx="52" cy="132" r="13" class="n"/><text class="b" x="76" y="137" style="font-weight:700">2 BEFORE a clean or aseptic procedure</text>
+<text class="s" x="76" y="155">Protects the PATIENT from their own germs entering</text>
+<circle cx="52" cy="182" r="13" fill="#8c2f1d"/><text class="b" x="76" y="187" style="font-weight:700">3 AFTER body fluid exposure risk</text>
+<text class="s" x="76" y="205">Protects YOU — and do it even after removing gloves</text>
+<circle cx="52" cy="232" r="13" fill="#8c2f1d"/><text class="b" x="76" y="237" style="font-weight:700">4 AFTER touching a patient</text>
+<text class="s" x="76" y="255">Protects you and the environment</text>
+<circle cx="52" cy="278" r="13" fill="#8c2f1d"/><text class="b" x="76" y="283" style="font-weight:700">5 AFTER touching patient surroundings</text>
+
+<rect class="warn" x="540" y="48" width="316" height="250"/>
+<text class="k" x="558" y="72">Moment 5 is the one everybody fails</text>
+<text class="b" x="558" y="98">You adjusted the drip stand.</text>
+<text class="b" x="558" y="118">You did not touch the patient.</text>
+<text class="k" x="558" y="144">You still clean your hands.</text>
+<text class="s" x="558" y="172">The bed rail, the notes, the pump and the</text>
+<text class="s" x="558" y="190">locker are all inside the patient zone,</text>
+<text class="s" x="558" y="208">and they all carry the patient's organisms.</text>
+<text class="i" x="558" y="240">Moments 1 and 2 protect the patient.</text>
+<text class="i" x="558" y="260">Moments 3, 4 and 5 protect you and</text>
+<text class="i" x="558" y="280">everybody else on the ward.</text>
+
+<rect class="box" x="24" y="316" width="410" height="290"/>
+<text class="h" x="42" y="340">Rub or wash? The rule that decides</text>
+<text class="b" x="42" y="368" style="font-weight:700">ALCOHOL HAND RUB — the default</text>
+<text class="s" x="42" y="388">Faster, kinder to skin, more effective on most</text>
+<text class="s" x="42" y="406">organisms. 20 to 30 seconds. Use when hands</text>
+<text class="s" x="42" y="424">are visibly clean.</text>
+<text class="k" x="42" y="456">SOAP AND WATER — required when:</text>
+<text class="b" x="42" y="482">hands are visibly soiled or contaminated</text>
+<text class="b" x="42" y="504">after using the toilet</text>
+<text class="b" x="42" y="526">after caring for a patient with DIARRHOEA</text>
+<text class="s" x="42" y="548">Alcohol does NOT kill Clostridioides difficile</text>
+<text class="s" x="42" y="566">spores or norovirus. Only the friction and</text>
+<text class="s" x="42" y="584">running water physically remove them.</text>
+
+<rect class="box" x="450" y="316" width="406" height="290"/>
+<text class="h" x="468" y="340">Technique and the things that defeat it</text>
+<text class="b" x="468" y="366">Wet, soap, six steps, rinse, dry — 40 to 60 seconds.</text>
+<text class="s" x="468" y="386">Palms · backs · between fingers · backs of fingers</text>
+<text class="s" x="468" y="404">· thumbs · fingertips into the palm</text>
+<text class="k" x="468" y="436">The missed areas, every time:</text>
+<text class="b" x="468" y="460">FINGERTIPS and THUMBS</text>
+<text class="s" x="468" y="478">— and they are what touch the patient most.</text>
+<text class="k" x="468" y="510">What must come off before you start</text>
+<text class="b" x="468" y="534">Rings with stones, wrist watch, bracelets,</text>
+<text class="b" x="468" y="554">long or artificial nails, chipped varnish.</text>
+<text class="s" x="468" y="578">Sleeves bare below the elbow. Cover any cut</text>
+<text class="s" x="468" y="596">with a waterproof dressing before the shift.</text>
+</svg>

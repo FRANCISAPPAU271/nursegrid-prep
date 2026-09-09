@@ -1,0 +1,57 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="400" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">THE MARKETING MIX — MARKETING IS NOT ADVERTISING</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">Advertising is one part of one P. Change any of the four and you have changed your marketing.</text>
+
+<rect x="20" y="58" width="146" height="164" fill="#eef4f8" stroke="#5a86a8" stroke-width="1.5"/>
+<text x="93" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a3a5c">PRODUCT</text>
+<g font-size="10" fill="#222">
+<text x="30" y="102">What you actually</text><text x="30" y="116">offer, and what</text><text x="30" y="130">problem it solves</text>
+<text x="30" y="152" font-style="italic">Wound dressing</text>
+<text x="30" y="166" font-style="italic">at home, with a</text>
+<text x="30" y="180" font-style="italic">nurse who returns</text>
+<text x="30" y="194" font-style="italic">until it is healed</text>
+</g>
+
+<rect x="178" y="58" width="146" height="164" fill="#eaf3ea" stroke="#8fb98f" stroke-width="1.5"/>
+<text x="251" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a5c3a">PRICE</text>
+<g font-size="10" fill="#222">
+<text x="188" y="102">What the client</text><text x="188" y="116">pays, and how</text><text x="188" y="130">they pay it</text>
+<text x="188" y="152" font-style="italic">Must cover cost</text>
+<text x="188" y="166" font-style="italic">and leave profit.</text>
+<text x="188" y="180" font-style="italic">Too cheap signals</text>
+<text x="188" y="194" font-style="italic">poor quality.</text>
+</g>
+
+<rect x="336" y="58" width="146" height="164" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.5"/>
+<text x="409" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#8a6d1e">PLACE</text>
+<g font-size="10" fill="#222">
+<text x="346" y="102">Where and when</text><text x="346" y="116">the client can</text><text x="346" y="130">reach you</text>
+<text x="346" y="152" font-style="italic">On the lorry route.</text>
+<text x="346" y="166" font-style="italic">Open when market</text>
+<text x="346" y="180" font-style="italic">women are free,</text>
+<text x="346" y="194" font-style="italic">not when you are.</text>
+</g>
+
+<rect x="494" y="58" width="126" height="164" fill="#f7ecec" stroke="#c08a8a" stroke-width="1.5"/>
+<text x="557" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#8b2f2f">PROMOTION</text>
+<g font-size="10" fill="#222">
+<text x="504" y="102">How they hear</text><text x="504" y="116">of you</text>
+<text x="504" y="138" font-style="italic">Word of mouth,</text>
+<text x="504" y="152" font-style="italic">radio, church and</text>
+<text x="504" y="166" font-style="italic">mosque, WhatsApp,</text>
+<text x="504" y="180" font-style="italic">a referral from</text>
+<text x="504" y="194" font-style="italic">the health centre</text>
+</g>
+
+<rect x="20" y="238" width="600" height="26" fill="#1a3a5c"/>
+<text x="320" y="257" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">THE FOUR MUST AGREE WITH EACH OTHER</text>
+
+<rect x="20" y="274" width="600" height="52" fill="#f7ecec" stroke="#c08a8a" stroke-width="1.5"/>
+<text x="34" y="294" font-size="10.5" fill="#222">A premium service at a premium price, advertised on handwritten paper and run from a room with no water, does not</text>
+<text x="34" y="312" font-size="10.5" fill="#222">convince anybody. Clients read the whole picture, and the weakest P is the one they believe.</text>
+
+<rect x="20" y="336" width="600" height="52" fill="#eaf3ea" stroke="#8fb98f" stroke-width="1.5"/>
+<text x="34" y="356" font-size="10.5" fill="#222">In health services the strongest promotion is a satisfied client who tells her neighbours. It costs nothing, it cannot be</text>
+<text x="34" y="374" font-size="10.5" fill="#222">bought, and it is destroyed faster than it is built — which makes the quality of care itself a marketing decision.</text>
+</svg>

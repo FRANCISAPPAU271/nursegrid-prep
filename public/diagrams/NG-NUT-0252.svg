@@ -1,0 +1,27 @@
+<svg viewBox="0 0 470 240" role="img" xmlns="http://www.w3.org/2000/svg"><title>Food temperature danger zone</title>
+<rect width="470" height="240" fill="#f6f8fc"/>
+<text x="235" y="20" font-size="12.5" text-anchor="middle" font-family="system-ui" font-weight="700">Food temperature — where bacteria multiply</text>
+<rect x="150" y="32" width="86" height="34" rx="5" fill="#a8352c"/>
+<rect x="150" y="66" width="86" height="96" fill="#f2b705"/>
+<rect x="150" y="162" width="86" height="30" fill="#4a90c2"/>
+<rect x="150" y="192" width="86" height="26" rx="5" fill="#2b6fa8"/>
+<text x="193" y="54" font-size="11" text-anchor="middle" font-family="system-ui" fill="#fff" font-weight="700">above 63 °C</text>
+<text x="193" y="106" font-size="12" text-anchor="middle" font-family="system-ui" fill="#4a3a00" font-weight="700">5 °C to 63 °C</text>
+<text x="193" y="124" font-size="12" text-anchor="middle" font-family="system-ui" fill="#4a3a00" font-weight="700">DANGER ZONE</text>
+<text x="193" y="181" font-size="11" text-anchor="middle" font-family="system-ui" fill="#fff" font-weight="700">0 to 5 °C</text>
+<text x="193" y="209" font-size="11" text-anchor="middle" font-family="system-ui" fill="#fff" font-weight="700">below −18 °C</text>
+<g font-family="system-ui" font-size="10.5" fill="#1b2a3d">
+<text x="246" y="54">Hot holding — bacteria stop growing</text>
+<text x="246" y="100" font-weight="700" fill="#a8352c">Numbers double every 20 minutes</text>
+<text x="246" y="118">Cooked food left out on the counter</text>
+<text x="246" y="136">Lukewarm reheated stew</text>
+<text x="246" y="154">Thawing meat in the sun</text>
+<text x="246" y="181">Refrigerator — growth slowed</text>
+<text x="246" y="209">Freezer — growth stopped, not killed</text>
+</g>
+<text x="140" y="54" font-size="10" text-anchor="end" font-family="system-ui">75 °C core</text>
+<text x="140" y="66" font-size="9" text-anchor="end" font-family="system-ui" fill="#5a6b85">when cooking</text>
+<rect x="16" y="200" width="120" height="30" rx="6" fill="#fff" stroke="#e2574c" stroke-width="2"/>
+<text x="76" y="213" font-size="9" text-anchor="middle" font-family="system-ui" font-weight="700">Two-hour rule:</text>
+<text x="76" y="225" font-size="9" text-anchor="middle" font-family="system-ui">eat, chill or throw</text>
+</svg>

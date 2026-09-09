@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 580" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.step{fill:#eef4f8;stroke:#8fa9bd;stroke-width:1.4;rx:8}
+</style>
+<rect width="860" height="580" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Pharmacovigilance in Ghana: who reports what, and how fast</text>
+
+<rect class="ok" x="24" y="48" width="812" height="96"/>
+<text class="h" x="40" y="72">The regulator</text>
+<text class="b" x="40" y="98">The FOOD AND DRUGS AUTHORITY is the National Pharmacovigilance Centre, under the Public Health Act 851.</text>
+<text class="k" x="40" y="124">Remember the split: the Council registers the PERSON, the FDA registers the PRODUCT.</text>
+
+<rect class="step" x="24" y="162" width="180" height="80"/>
+<text class="b" x="42" y="196">You suspect</text><text class="b" x="42" y="216">a reaction</text>
+<rect class="step" x="218" y="162" width="180" height="80"/>
+<text class="b" x="236" y="196">Complete the</text><text class="b" x="236" y="216">BlueForm</text>
+<rect class="step" x="412" y="162" width="180" height="80"/>
+<text class="b" x="430" y="196">Institutional</text><text class="b" x="430" y="216">Contact Person</text>
+<rect class="step" x="606" y="162" width="230" height="80"/>
+<text class="b" x="624" y="196">Regional PV Officer,</text><text class="b" x="624" y="216">then FDA head office</text>
+<text class="i" x="24" y="262">Or report directly online through the FDA SafetyWatch system. The form takes about five minutes.</text>
+
+<rect class="warn" x="24" y="278" width="398" height="150"/>
+<text class="k" x="40" y="302">The timelines</text>
+<text class="b" x="40" y="330">SERIOUS or unexpected reactions —</text>
+<text class="b" x="40" y="350">within 7 CALENDAR DAYS</text>
+<text class="b" x="40" y="378">All other reactions —</text>
+<text class="b" x="40" y="398">within 28 DAYS</text>
+<text class="i" x="40" y="420">Serious means death, life-threatening, hospitalisation,</text>
+
+<rect class="box" x="438" y="278" width="398" height="150"/>
+<text class="h" x="454" y="302">What to report — you do NOT need proof</text>
+<text class="b" x="454" y="330">Report on SUSPICION. Causality is assessed</text>
+<text class="b" x="454" y="350">by the centre, not by you at the bedside.</text>
+<text class="b" x="454" y="376">Also report: lack of efficacy, suspected</text>
+<text class="b" x="454" y="396">substandard or falsified products, and</text>
+<text class="b" x="454" y="416">reactions to herbal medicines.</text>
+
+<rect class="warn" x="24" y="444" width="812" height="126"/>
+<text class="k" x="40" y="468">Why under-reporting matters</text>
+<text class="b" x="40" y="494">A clinical trial may study a few thousand people. A reaction occurring in one patient in ten thousand will not</text>
+<text class="b" x="40" y="516">appear until the drug is in national use. Post-marketing reporting is the ONLY way such effects are ever found.</text>
+<text class="k" x="40" y="544">If every nurse assumes someone else has reported it, the signal never reaches anyone. Report it yourself.</text>
+<text class="i" x="40" y="564">Persistent disability, congenital abnormality, or any medically important event also counts as serious.</text>
+</svg>

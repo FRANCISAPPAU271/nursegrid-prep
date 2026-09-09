@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 480" width="100%" role="img">
+<rect x="0" y="0" width="760" height="480" fill="#fdfcfa"/>
+<text x="20" y="30" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="#1d4e63">After the operation: what goes wrong, and on which day</text>
+<text x="20" y="52" font-family="Georgia,serif" font-size="13" fill="#555">Post-operative complications keep a timetable. Knowing the day tells you what to look for.</text>
+
+<line x1="60" y1="110" x2="710" y2="110" stroke="#2b6b8a" stroke-width="2"/>
+<circle cx="110" cy="110" r="6" fill="#c0392b"/>
+<text x="72" y="96" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#7a2020">First hours</text>
+<text x="66" y="134" font-family="Georgia,serif" font-size="11" fill="#333">airway, bleeding,</text>
+<text x="76" y="150" font-family="Georgia,serif" font-size="11" fill="#333">shock, pain</text>
+<circle cx="270" cy="110" r="6" fill="#d2691e"/>
+<text x="238" y="96" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#a04a12">Day 1–2</text>
+<text x="222" y="134" font-family="Georgia,serif" font-size="11" fill="#333">chest — collapse,</text>
+<text x="230" y="150" font-family="Georgia,serif" font-size="11" fill="#333">pneumonia</text>
+<circle cx="430" cy="110" r="6" fill="#b8860b"/>
+<text x="400" y="96" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#8a6508">Day 3–5</text>
+<text x="382" y="134" font-family="Georgia,serif" font-size="11" fill="#333">wound infection,</text>
+<text x="394" y="150" font-family="Georgia,serif" font-size="11" fill="#333">anastomotic leak</text>
+<circle cx="590" cy="110" r="6" fill="#2e7d5b"/>
+<text x="560" y="96" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#1d5c42">Day 5–10</text>
+<text x="536" y="134" font-family="Georgia,serif" font-size="11" fill="#333">clots in the legs and</text>
+<text x="558" y="150" font-family="Georgia,serif" font-size="11" fill="#333">lungs, dehiscence</text>
+
+<rect x="20" y="170" width="352" height="140" rx="6" fill="#fff3f0" stroke="#c0392b"/>
+<text x="34" y="192" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#7a2020">A fever on day 2 versus day 5</text>
+<text x="34" y="214" font-family="Georgia,serif" font-size="12" fill="#333">Early fever usually comes from the chest —</text>
+<text x="34" y="232" font-family="Georgia,serif" font-size="12" fill="#333">shallow breathing because it hurts, so parts</text>
+<text x="34" y="250" font-family="Georgia,serif" font-size="12" fill="#333">of the lung collapse.</text>
+<text x="34" y="274" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7a2020">Later fever points to the wound, the urine,</text>
+<text x="34" y="292" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7a2020">a drip site, or a leak inside the abdomen.</text>
+
+<rect x="388" y="170" width="352" height="140" rx="6" fill="#f2f7f2" stroke="#2e7d5b"/>
+<text x="402" y="192" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d5c42">Why pain relief is a chest treatment</text>
+<text x="402" y="214" font-family="Georgia,serif" font-size="12" fill="#333">A patient with an abdominal wound will not</text>
+<text x="402" y="232" font-family="Georgia,serif" font-size="12" fill="#333">breathe deeply, cough, or get out of bed</text>
+<text x="402" y="250" font-family="Georgia,serif" font-size="12" fill="#333">while it hurts to do any of them.</text>
+<text x="402" y="274" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#1d5c42">Treat the pain and the chest, the legs and</text>
+<text x="402" y="292" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#1d5c42">the bowel all improve together.</text>
+
+<rect x="20" y="326" width="352" height="132" rx="6" fill="#fff8e8" stroke="#b8860b"/>
+<text x="34" y="348" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#8a6508">The wound that leaks clear pink fluid</text>
+<text x="34" y="370" font-family="Georgia,serif" font-size="12" fill="#333">Serous discharge from an abdominal wound</text>
+<text x="34" y="388" font-family="Georgia,serif" font-size="12" fill="#333">around day 5 to 8 often precedes the deeper</text>
+<text x="34" y="406" font-family="Georgia,serif" font-size="12" fill="#333">layers giving way.</text>
+<text x="34" y="430" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#8a6508">Report it. It is a warning, not a dressing</text>
+<text x="34" y="448" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#8a6508">problem.</text>
+
+<rect x="388" y="326" width="352" height="132" rx="6" fill="#f6f2fa" stroke="#6b4c93"/>
+<text x="402" y="348" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#4a326b">If the wound bursts open</text>
+<text x="402" y="370" font-family="Georgia,serif" font-size="12" fill="#333">Do not push anything back inside.</text>
+<text x="402" y="390" font-family="Georgia,serif" font-size="12" fill="#333">Cover with a sterile dressing soaked in warm</text>
+<text x="402" y="408" font-family="Georgia,serif" font-size="12" fill="#333">saline. Lie her down with knees bent.</text>
+<text x="402" y="430" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#4a326b">Nil by mouth, call the surgeon, stay with her.</text>
+<text x="402" y="450" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#4a326b">She will be terrified. That matters too.</text>
+</svg>

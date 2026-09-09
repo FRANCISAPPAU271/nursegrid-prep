@@ -1,0 +1,12 @@
+<svg viewBox="0 0 460 190" role="img" xmlns="http://www.w3.org/2000/svg"><title>Priority ladder</title>
+<rect width="460" height="190" fill="#f6f8fc"/>
+<rect x="40" y="24" width="380" height="30" rx="6" fill="#e2574c" opacity=".9"/>
+<rect x="60" y="60" width="340" height="30" rx="6" fill="#f2874c" opacity=".85"/>
+<rect x="80" y="96" width="300" height="30" rx="6" fill="#f2b705" opacity=".85"/>
+<rect x="100" y="132" width="260" height="30" rx="6" fill="#0f9d76" opacity=".7"/>
+<text x="230" y="44" font-size="13" text-anchor="middle" font-family="system-ui" fill="#fff" font-weight="700">AIRWAY — obstructed or at risk</text>
+<text x="230" y="80" font-size="13" text-anchor="middle" font-family="system-ui" fill="#fff" font-weight="700">BREATHING — hypoxia, new distress</text>
+<text x="230" y="116" font-size="13" text-anchor="middle" font-family="system-ui" fill="#4a3a00" font-weight="700">CIRCULATION — shock, bleeding</text>
+<text x="230" y="152" font-size="13" text-anchor="middle" font-family="system-ui" fill="#fff" font-weight="700">everything else: pain, comfort, tasks</text>
+<text x="230" y="180" font-size="11" text-anchor="middle" font-family="system-ui" fill="#5a6b85">New + deteriorating beats severe + stable</text>
+</svg>

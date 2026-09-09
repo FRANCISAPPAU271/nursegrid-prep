@@ -1,0 +1,49 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="400" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">WHY PATIENTS DO NOT TELL YOU — AND WHY IT MATTERS</text>
+
+<rect x="20" y="42" width="600" height="26" fill="#8b2f2f"/>
+<text x="320" y="61" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">MOST PATIENTS USING HERBAL MEDICINE NEVER MENTION IT TO THE NURSE OR DOCTOR</text>
+
+<rect x="20" y="80" width="290" height="128" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.5"/>
+<text x="165" y="100" text-anchor="middle" font-size="12" font-weight="bold" fill="#8a6d1e">WHY THEY STAY SILENT</text>
+<g font-size="10.5" fill="#222">
+<text x="32" y="120">They expect to be scolded or laughed at</text>
+<text x="32" y="138">They were never asked in the first place</text>
+<text x="32" y="156">They think natural means it cannot interact</text>
+<text x="32" y="174">They do not count it as medicine at all</text>
+<text x="32" y="192">They fear the doctor will refuse to treat them</text>
+</g>
+
+<rect x="330" y="80" width="290" height="128" fill="#f7ecec" stroke="#c08a8a" stroke-width="1.5"/>
+<text x="475" y="100" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b2f2f">WHAT SILENCE COSTS</text>
+<g font-size="10.5" fill="#222">
+<text x="342" y="120">An interaction that nobody looks for</text>
+<text x="342" y="138">Liver or kidney injury blamed on the disease</text>
+<text x="342" y="156">A prescribed drug stopped without telling you</text>
+<text x="342" y="174">Delay — arriving only when the illness is late</text>
+<text x="342" y="192">Bleeding, hypoglycaemia, altered drug levels</text>
+</g>
+
+<rect x="20" y="222" width="600" height="26" fill="#1a5c3a"/>
+<text x="320" y="241" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">ASK IN A WAY THAT MAKES THE TRUTH EASY TO TELL</text>
+
+<rect x="20" y="258" width="290" height="126" fill="#f7ecec" stroke="#c08a8a" stroke-width="1.5"/>
+<text x="165" y="278" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b2f2f">THIS CLOSES THE DOOR</text>
+<g font-size="10.5" fill="#222" font-style="italic">
+<text x="32" y="300">"You are not taking any of that</text>
+<text x="32" y="316">herbal thing, are you?"</text>
+<text x="32" y="340">"Those things will destroy your kidneys."</text>
+<text x="32" y="364">"Choose — either that or my treatment."</text>
+</g>
+
+<rect x="330" y="258" width="290" height="126" fill="#eaf3ea" stroke="#8fb98f" stroke-width="1.5"/>
+<text x="475" y="278" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a5c3a">THIS OPENS IT</text>
+<g font-size="10.5" fill="#222" font-style="italic">
+<text x="342" y="300">"Many people use something from home</text>
+<text x="342" y="316">or from a herbalist as well. What are you</text>
+<text x="342" y="332">using? Please bring it next time."</text>
+<text x="342" y="358">Ask it as a routine question, every time,</text>
+<text x="342" y="374">in the same tone as asking about tablets.</text>
+</g>
+</svg>

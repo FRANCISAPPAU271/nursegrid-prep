@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="100%" role="img">
+<rect x="0" y="0" width="760" height="470" fill="#fdfcfa"/>
+<text x="20" y="30" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="#33336b">Three qualitative approaches, three different questions</text>
+<text x="20" y="52" font-family="Georgia,serif" font-size="13" fill="#555">Choosing one is not a matter of taste. The question decides the method, as it always does.</text>
+
+<rect x="20" y="68" width="232" height="196" rx="6" fill="#eef4f8" stroke="#2b6b8a"/>
+<text x="34" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d4e63">What is it like?</text>
+<text x="34" y="114" font-family="Georgia,serif" font-size="12" fill="#333">The lived experience of a</text>
+<text x="34" y="132" font-family="Georgia,serif" font-size="12" fill="#333">thing, from the inside.</text>
+<text x="34" y="156" font-family="Georgia,serif" font-size="12" fill="#333">"What is it like to nurse</text>
+<text x="34" y="174" font-family="Georgia,serif" font-size="12" fill="#333">during a strike?"</text>
+<text x="34" y="200" font-family="Georgia,serif" font-size="12" fill="#333">Deep interviews with a few</text>
+<text x="34" y="218" font-family="Georgia,serif" font-size="12" fill="#333">people who lived it.</text>
+<text x="34" y="248" font-family="Georgia,serif" font-size="12" font-style="italic" fill="#1d4e63">Phenomenology</text>
+
+<rect x="264" y="68" width="232" height="196" rx="6" fill="#f2f7f2" stroke="#2e7d5b"/>
+<text x="278" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d5c42">How does it work?</text>
+<text x="278" y="114" font-family="Georgia,serif" font-size="12" fill="#333">Builds a theory of a social</text>
+<text x="278" y="132" font-family="Georgia,serif" font-size="12" fill="#333">process from the data up.</text>
+<text x="278" y="156" font-family="Georgia,serif" font-size="12" fill="#333">"How do families decide</text>
+<text x="278" y="174" font-family="Georgia,serif" font-size="12" fill="#333">when to bring a child in?"</text>
+<text x="278" y="200" font-family="Georgia,serif" font-size="12" fill="#333">Sampling continues until</text>
+<text x="278" y="218" font-family="Georgia,serif" font-size="12" fill="#333">no new ideas appear.</text>
+<text x="278" y="248" font-family="Georgia,serif" font-size="12" font-style="italic" fill="#1d5c42">Grounded theory</text>
+
+<rect x="508" y="68" width="232" height="196" rx="6" fill="#fff8e8" stroke="#b8860b"/>
+<text x="522" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#8a6508">What happens here?</text>
+<text x="522" y="114" font-family="Georgia,serif" font-size="12" fill="#333">The culture and practices of</text>
+<text x="522" y="132" font-family="Georgia,serif" font-size="12" fill="#333">a group, observed over time.</text>
+<text x="522" y="156" font-family="Georgia,serif" font-size="12" fill="#333">"What are the unwritten</text>
+<text x="522" y="174" font-family="Georgia,serif" font-size="12" fill="#333">rules of this theatre?"</text>
+<text x="522" y="200" font-family="Georgia,serif" font-size="12" fill="#333">Prolonged presence, watching</text>
+<text x="522" y="218" font-family="Georgia,serif" font-size="12" fill="#333">as well as asking.</text>
+<text x="522" y="248" font-family="Georgia,serif" font-size="12" font-style="italic" fill="#8a6508">Ethnography</text>
+
+<rect x="20" y="282" width="720" height="84" rx="6" fill="#f4f4fb" stroke="#4a4a8a"/>
+<text x="34" y="304" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#33336b">Rigour here is not validity and reliability under another name</text>
+<text x="34" y="326" font-family="Georgia,serif" font-size="12" fill="#333">Credibility: do participants recognise your account? Transferability: have you described the setting fully</text>
+<text x="34" y="344" font-family="Georgia,serif" font-size="12" fill="#333">enough for a reader to judge whether it applies to hers? Dependability: could someone follow your decisions?</text>
+<text x="34" y="362" font-family="Georgia,serif" font-size="12" fill="#333">Confirmability: can each finding be traced back to the data rather than to your opinion?</text>
+
+<rect x="20" y="380" width="720" height="80" rx="6" fill="#fff3f0" stroke="#c0392b"/>
+<text x="34" y="402" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#7a2020">Two things a qualitative study is never criticised for</text>
+<text x="34" y="424" font-family="Georgia,serif" font-size="12" fill="#333">A small sample: depth is the point, and numbers are not how the claim is justified. And not being</text>
+<text x="34" y="442" font-family="Georgia,serif" font-size="12" fill="#333">generalisable to a population: it was never trying to be. Ask instead whether it is transferable.</text>
+</svg>

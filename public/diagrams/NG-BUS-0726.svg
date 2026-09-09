@@ -1,0 +1,41 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="400" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">PROFIT IS AN OPINION. CASH IS A FACT.</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">Most small businesses that fail were profitable on paper when they closed.</text>
+
+<rect x="20" y="58" width="290" height="150" fill="#eef4f8" stroke="#5a86a8" stroke-width="1.5"/>
+<text x="165" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a3a5c">PROFIT</text>
+<g font-size="10.5" fill="#222">
+<text x="32" y="102">Income earned minus costs incurred,</text>
+<text x="32" y="118">counted over a period.</text>
+<text x="32" y="140">It counts money you are OWED as</text>
+<text x="32" y="156">though you already had it.</text>
+<text x="32" y="180" font-style="italic" fill="#1a3a5c">Tells you whether the business model</text>
+<text x="32" y="196" font-style="italic" fill="#1a3a5c">works at all.</text>
+</g>
+
+<rect x="330" y="58" width="290" height="150" fill="#eaf3ea" stroke="#8fb98f" stroke-width="1.5"/>
+<text x="475" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a5c3a">CASH FLOW</text>
+<g font-size="10.5" fill="#222">
+<text x="342" y="102">Money actually entering and leaving</text>
+<text x="342" y="118">the account, week by week.</text>
+<text x="342" y="140">It counts only what has truly</text>
+<text x="342" y="156">arrived and truly gone.</text>
+<text x="342" y="180" font-style="italic" fill="#1a5c3a">Tells you whether you survive</text>
+<text x="342" y="196" font-style="italic" fill="#1a5c3a">until next month.</text>
+</g>
+
+<rect x="20" y="224" width="600" height="26" fill="#8b2f2f"/>
+<text x="320" y="243" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">HOW A PROFITABLE BUSINESS DIES</text>
+
+<rect x="20" y="260" width="600" height="76" fill="#f7ecec" stroke="#c08a8a" stroke-width="1.5"/>
+<g font-size="10.5" fill="#222">
+<text x="34" y="280">You dress wounds for an institution all month and invoice GH¢ 4,000. On paper you have made a good profit.</text>
+<text x="34" y="298">The invoice will be paid in ninety days. Meanwhile rent, salary and the supplier are all due this Friday.</text>
+<text x="34" y="316">You cannot pay them with a profit. The business closes while still profitable.</text>
+</g>
+
+<rect x="20" y="348" width="600" height="44" fill="#eaf3ea" stroke="#8fb98f" stroke-width="1.5"/>
+<text x="34" y="368" font-size="10.5" fill="#222">So: keep a cash reserve, agree payment terms before you start work, chase debts early, and never judge the health</text>
+<text x="34" y="384" font-size="10.5" fill="#222">of the business by the profit figure alone. Ask what is in the account on Friday.</text>
+</svg>

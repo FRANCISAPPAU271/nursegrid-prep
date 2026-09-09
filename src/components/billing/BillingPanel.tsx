@@ -7,6 +7,7 @@ import { useToast } from "@/components/ui/Toast";
 import { useRouter, useSearchParams } from "next/navigation";
 import { MOMO_RECEIVER_NUMBER, MOMO_RECEIVER_NAME } from "@/lib/momo";
 import { buildWhatsAppLink, WHATSAPP_DISPLAY_NUMBER } from "@/lib/contact";
+import { QUESTION_COUNT_LABEL } from "@/lib/question-count";
 
 type PlanId = "four_month" | "eight_month" | "annual";
 
@@ -258,7 +259,7 @@ export default function BillingPanel({
               <p className="mt-3 text-3xl font-extrabold text-slate-950">{plan.price}</p>
               <p className="mt-1 text-sm text-slate-600">{plan.cadence}</p>
               <ul className="mt-4 space-y-1.5 text-sm text-slate-600">
-                <li>✅ Unlimited access to all 2,900+ unique questions</li>
+                <li>✅ Unlimited access to all {QUESTION_COUNT_LABEL} unique questions</li>
                 <li>✅ Full rationales and strategy tips</li>
                 <li>✅ Progress tracking across every category</li>
               </ul>

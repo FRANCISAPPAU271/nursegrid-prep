@@ -1,0 +1,22 @@
+<svg viewBox="0 0 470 220" role="img" xmlns="http://www.w3.org/2000/svg"><title>Transmission-based precautions</title>
+<rect width="470" height="220" fill="#f6f8fc"/>
+<text x="235" y="22" font-size="12.5" text-anchor="middle" font-family="system-ui" font-weight="700">Standard precautions for EVERYONE — then add:</text>
+<rect x="15" y="40" width="140" height="150" rx="10" fill="#fff" stroke="#0f9d76" stroke-width="2.5"/>
+<rect x="165" y="40" width="140" height="150" rx="10" fill="#fff" stroke="#f2b705" stroke-width="2.5"/>
+<rect x="315" y="40" width="140" height="150" rx="10" fill="#fff" stroke="#e2574c" stroke-width="3"/>
+<g font-family="system-ui" text-anchor="middle">
+<text x="85" y="64" font-size="13" font-weight="700" fill="#0f9d76">CONTACT</text>
+<text x="85" y="86" font-size="10">gloves + gown</text><text x="85" y="102" font-size="10">single room ideal</text>
+<text x="85" y="126" font-size="9.5" fill="#5a6b85">scabies, C. difficile,</text><text x="85" y="140" font-size="9.5" fill="#5a6b85">MRSA, wound drainage</text>
+<text x="85" y="170" font-size="9.5" font-weight="600">touch spreads it</text>
+<text x="235" y="64" font-size="13" font-weight="700" fill="#b58900">DROPLET</text>
+<text x="235" y="86" font-size="10">surgical mask</text><text x="235" y="102" font-size="10">within 1–2 metres</text>
+<text x="235" y="126" font-size="9.5" fill="#5a6b85">meningococcus, pertussis,</text><text x="235" y="140" font-size="9.5" fill="#5a6b85">influenza, mumps</text>
+<text x="235" y="170" font-size="9.5" font-weight="600">droplets FALL</text>
+<text x="385" y="64" font-size="13" font-weight="700" fill="#e2574c">AIRBORNE</text>
+<text x="385" y="86" font-size="10" font-weight="600">N95 respirator</text><text x="385" y="102" font-size="10">negative pressure room</text>
+<text x="385" y="126" font-size="9.5" fill="#5a6b85">TB, measles,</text><text x="385" y="140" font-size="9.5" fill="#5a6b85">chickenpox</text>
+<text x="385" y="170" font-size="9.5" font-weight="600">particles FLOAT</text>
+</g>
+<text x="235" y="210" font-size="10.5" text-anchor="middle" font-family="system-ui" fill="#5a6b85">Ask: does it fall to the ground, or hang in the air?</text>
+</svg>

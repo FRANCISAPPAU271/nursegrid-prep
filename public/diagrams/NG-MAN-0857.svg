@@ -1,0 +1,38 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="420" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">DELEGATION — WHAT MOVES AND WHAT NEVER MOVES</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">You can delegate the task. You can never delegate the accountability.</text>
+
+<rect x="40" y="62" width="250" height="130" fill="#eaf3ea" stroke="#1a5c3a" stroke-width="1.8"/>
+<text x="165" y="84" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a5c3a">MOVES TO THE OTHER PERSON</text>
+<g font-size="10.5" fill="#222">
+<text x="52" y="108">The task itself</text>
+<text x="52" y="128">The authority to carry it out</text>
+<text x="52" y="148">Responsibility for doing it</text>
+<text x="52" y="168">properly and reporting back</text>
+</g>
+
+<rect x="350" y="62" width="250" height="130" fill="#f7ecec" stroke="#8b2f2f" stroke-width="1.8"/>
+<text x="475" y="84" text-anchor="middle" font-size="13" font-weight="bold" fill="#8b2f2f">STAYS WITH YOU</text>
+<g font-size="10.5" fill="#222">
+<text x="362" y="108">Accountability for the outcome</text>
+<text x="362" y="128">The duty to have chosen the</text>
+<text x="362" y="142">right person for the task</text>
+<text x="362" y="162">The duty to supervise</text>
+<text x="362" y="182">and to check the result</text>
+</g>
+
+<text x="320" y="216" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#1a3a5c">BEFORE YOU DELEGATE, ASK FIVE QUESTIONS</text>
+<rect x="40" y="228" width="560" height="118" fill="#eef4f8" stroke="#5a86a8" stroke-width="1.5"/>
+<g font-size="10.5" fill="#222">
+<text x="54" y="250"><tspan font-weight="bold">RIGHT TASK</tspan> — is it within this person's scope and training?</text>
+<text x="54" y="270"><tspan font-weight="bold">RIGHT PERSON</tspan> — can this particular individual actually do it, today?</text>
+<text x="54" y="290"><tspan font-weight="bold">RIGHT PATIENT</tspan> — is this patient stable and predictable enough?</text>
+<text x="54" y="310"><tspan font-weight="bold">RIGHT INSTRUCTION</tspan> — did you say exactly what, how and by when?</text>
+<text x="54" y="330"><tspan font-weight="bold">RIGHT SUPERVISION</tspan> — how will you check, and when will they report back?</text>
+</g>
+
+<rect x="40" y="358" width="560" height="46" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.5"/>
+<text x="320" y="378" text-anchor="middle" font-size="11" font-weight="bold" fill="#8a6d1e">NEVER DELEGATE: assessment of an unstable patient, the first evaluation,</text>
+<text x="320" y="396" text-anchor="middle" font-size="11" font-weight="bold" fill="#8a6d1e">teaching, care planning, or any judgement requiring registered knowledge.</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg viewBox="0 0 640 390" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="390" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">POSTPARTUM HAEMORRHAGE — THE FOUR T's</text>
+<text x="320" y="45" text-anchor="middle" font-size="12" fill="#555">Leading cause of maternal death in Ghana. Work through them in order of likelihood.</text>
+
+<rect x="24" y="58" width="146" height="150" fill="#f7d9d9" stroke="#8b2f2f" stroke-width="2"/>
+<text x="97" y="80" text-anchor="middle" font-size="15" font-weight="bold" fill="#8b2f2f">TONE</text>
+<text x="97" y="98" text-anchor="middle" font-size="11" font-weight="bold" fill="#8b2f2f">70% of cases</text>
+<text x="34" y="120" font-size="10" fill="#333">The uterus is soft and</text>
+<text x="34" y="134" font-size="10" fill="#333">boggy, not contracted.</text>
+<text x="34" y="156" font-size="10" font-weight="bold" fill="#8b2f2f">RUB UP A CONTRACTION</text>
+<text x="34" y="170" font-size="10" fill="#333">Massage the fundus,</text>
+<text x="34" y="184" font-size="10" fill="#333">empty the bladder,</text>
+<text x="34" y="198" font-size="10" fill="#333">give oxytocin.</text>
+
+<rect x="174" y="58" width="146" height="150" fill="#fff" stroke="#d8d2c4"/>
+<text x="247" y="80" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a3a5c">TISSUE</text>
+<text x="247" y="98" text-anchor="middle" font-size="11" fill="#555">retained placenta</text>
+<text x="184" y="120" font-size="10" fill="#333">Uterus cannot clamp</text>
+<text x="184" y="134" font-size="10" fill="#333">down on an empty</text>
+<text x="184" y="148" font-size="10" fill="#333">cavity if something</text>
+<text x="184" y="162" font-size="10" fill="#333">is still inside it.</text>
+<text x="184" y="184" font-size="10" font-weight="bold" fill="#1a3a5c">Check the placenta is</text>
+<text x="184" y="198" font-size="10" font-weight="bold" fill="#1a3a5c">complete after delivery.</text>
+
+<rect x="324" y="58" width="146" height="150" fill="#fff" stroke="#d8d2c4"/>
+<text x="397" y="80" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a3a5c">TRAUMA</text>
+<text x="397" y="98" text-anchor="middle" font-size="11" fill="#555">tears, episiotomy</text>
+<text x="334" y="120" font-size="10" fill="#333">Suspect when the</text>
+<text x="334" y="134" font-size="10" fill="#333">uterus is FIRM but</text>
+<text x="334" y="148" font-size="10" fill="#333">bleeding continues.</text>
+<text x="334" y="170" font-size="10" font-weight="bold" fill="#1a3a5c">Inspect the perineum,</text>
+<text x="334" y="184" font-size="10" font-weight="bold" fill="#1a3a5c">vagina and cervix in</text>
+<text x="334" y="198" font-size="10" font-weight="bold" fill="#1a3a5c">a good light. Repair.</text>
+
+<rect x="474" y="58" width="142" height="150" fill="#fff" stroke="#d8d2c4"/>
+<text x="545" y="80" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a3a5c">THROMBIN</text>
+<text x="545" y="98" text-anchor="middle" font-size="11" fill="#555">clotting failure</text>
+<text x="484" y="120" font-size="10" fill="#333">Blood does not clot.</text>
+<text x="484" y="140" font-size="10" fill="#333">Follows abruption,</text>
+<text x="484" y="154" font-size="10" fill="#333">sepsis, retained dead</text>
+<text x="484" y="168" font-size="10" fill="#333">fetus, or massive</text>
+<text x="484" y="182" font-size="10" fill="#333">transfusion.</text>
+<text x="484" y="200" font-size="10" font-weight="bold" fill="#1a3a5c">Needs blood products.</text>
+
+<rect x="24" y="218" width="592" height="26" fill="#1a5c3a"/>
+<text x="320" y="237" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">PREVENTION — ACTIVE MANAGEMENT OF THE THIRD STAGE, FOR EVERY WOMAN</text>
+
+<rect x="24" y="244" width="196" height="66" fill="#eaf3ea" stroke="#8fb98f"/>
+<text x="122" y="264" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5c3a">1. UTEROTONIC</text>
+<text x="34" y="282" font-size="10" fill="#333">Oxytocin 10 IU intramuscular</text>
+<text x="34" y="296" font-size="10" fill="#333">within one minute of birth,</text>
+<text x="34" y="308" font-size="10" fill="#333">after excluding a second baby.</text>
+
+<rect x="224" y="244" width="196" height="66" fill="#eaf3ea" stroke="#8fb98f"/>
+<text x="322" y="264" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5c3a">2. CONTROLLED CORD</text>
+<text x="322" y="278" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5c3a">TRACTION</text>
+<text x="234" y="294" font-size="10" fill="#333">With counter-pressure above</text>
+<text x="234" y="306" font-size="10" fill="#333">the pubis to guard the uterus.</text>
+
+<rect x="424" y="244" width="192" height="66" fill="#eaf3ea" stroke="#8fb98f"/>
+<text x="520" y="264" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5c3a">3. UTERINE MASSAGE</text>
+<text x="434" y="282" font-size="10" fill="#333">Massage the fundus after the</text>
+<text x="434" y="296" font-size="10" fill="#333">placenta is delivered, and</text>
+<text x="434" y="308" font-size="10" fill="#333">check tone every 15 minutes.</text>
+
+<rect x="24" y="318" width="592" height="66" fill="#fff3cd" stroke="#e0c86a"/>
+<text x="34" y="338" font-size="11" font-weight="bold" fill="#6b5410">DEFINITION:</text>
+<text x="120" y="338" font-size="11" fill="#6b5410">over 500 mL after vaginal birth, or 1,000 mL after caesarean — but treat any loss causing</text>
+<text x="34" y="354" font-size="11" fill="#6b5410">signs of shock, whatever the measured volume. Blood loss is habitually under-estimated by eye.</text>
+<text x="34" y="374" font-size="11" font-weight="bold" fill="#8b2f2f">A pregnant woman compensates well, then crashes suddenly. Rising pulse comes long before falling pressure.</text>
+</svg>

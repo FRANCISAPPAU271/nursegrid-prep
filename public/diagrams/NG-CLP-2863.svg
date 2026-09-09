@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 580" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.ph{fill:#eef4f8;stroke:#8fa9bd;stroke-width:1.4;rx:6}
+</style>
+<rect width="880" height="580" fill="#f7fafb"/>
+<text class="t" x="24" y="32">After the disaster: what actually kills people in the weeks that follow</text>
+
+<rect class="warn" x="24" y="48" width="832" height="128"/>
+<text class="k" x="42" y="72">The deaths from the event itself are only the first wave</text>
+<text class="b" x="42" y="100">In a flood or displacement in Ghana, more people are lost to what comes AFTER than to the water itself:</text>
+<text class="k" x="42" y="128">cholera and other diarrhoeal disease · measles in crowded shelters · malaria · untreated chronic illness</text>
+<text class="b" x="42" y="156">because the medicines were left behind · malnutrition in young children · and unattended births.</text>
+
+<rect class="ok" x="24" y="194" width="410" height="196"/>
+<text class="h" x="42" y="218">Priorities in a relief camp, in order</text>
+<rect class="ph" x="42" y="232" width="374" height="26"/><text class="b" x="56" y="250">1  Safe water and sanitation</text>
+<rect class="ph" x="42" y="264" width="374" height="26"/><text class="b" x="56" y="282">2  Shelter and warmth</text>
+<rect class="ph" x="42" y="296" width="374" height="26"/><text class="b" x="56" y="314">3  Food and nutrition screening</text>
+<rect class="ph" x="42" y="328" width="374" height="26"/><text class="b" x="56" y="346">4  Measles vaccination and vitamin A</text>
+<rect class="ph" x="42" y="360" width="374" height="26"/><text class="b" x="56" y="378">5  Disease surveillance and case finding</text>
+
+<rect class="box" x="450" y="194" width="406" height="196"/>
+<text class="h" x="468" y="218">Why water comes before everything</text>
+<text class="b" x="468" y="246">Crowding plus contaminated water plus poor</text>
+<text class="b" x="468" y="268">sanitation produces cholera within days.</text>
+<text class="k" x="468" y="298">Free residual chlorine 0.2 to 0.5 mg/L routinely,</text>
+<text class="k" x="468" y="320">and at least 0.5 mg/L during an outbreak.</text>
+<text class="s" x="468" y="350">Latrines sited away from and downhill of any</text>
+<text class="s" x="468" y="368">water source. Handwashing points at every latrine.</text>
+
+<rect class="warn" x="24" y="408" width="832" height="156"/>
+<text class="k" x="42" y="432">Two things that go wrong in every response</text>
+<text class="b" x="42" y="460">DEAD BODIES DO NOT CAUSE EPIDEMICS. This is the most persistent myth in disaster work. Bodies of people</text>
+<text class="s" x="42" y="482">killed by trauma pose almost no infection risk. Handle them with dignity, identify them, and never rush mass</text>
+<text class="s" x="42" y="500">burial — unidentified burial causes families years of anguish and blocks inheritance and remarriage.</text>
+<text class="k" x="42" y="530">RUMOUR SPREADS FASTER THAN DISEASE. Give the community accurate information early and repeatedly,</text>
+<text class="k" x="42" y="550">through people they already trust — chiefs, imams, pastors, assembly members — not only through officials.</text>
+</svg>

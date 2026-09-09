@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="100%" role="img">
+<rect x="0" y="0" width="760" height="470" fill="#fdfcfa"/>
+<text x="20" y="30" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="#7a2020">Chest pain: the first ten minutes decide the outcome</text>
+<text x="20" y="52" font-family="Georgia,serif" font-size="13" fill="#555">Muscle dies from the moment the artery blocks. Everything below is a race against that clock.</text>
+
+<rect x="20" y="66" width="350" height="176" rx="6" fill="#fff3f0" stroke="#c0392b"/>
+<text x="34" y="88" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#7a2020">Pain that should frighten you</text>
+<text x="34" y="110" font-family="Georgia,serif" font-size="12" fill="#333">Central, heavy, crushing — not sharp or stabbing</text>
+<text x="34" y="130" font-family="Georgia,serif" font-size="12" fill="#333">Spreads to jaw, neck, left arm or between shoulders</text>
+<text x="34" y="150" font-family="Georgia,serif" font-size="12" fill="#333">Lasts more than 20 minutes, not relieved by rest</text>
+<text x="34" y="170" font-family="Georgia,serif" font-size="12" fill="#333">With sweating, nausea, breathlessness, grey pallor</text>
+<text x="34" y="190" font-family="Georgia,serif" font-size="12" fill="#333">Patient looks unwell and is frightened</text>
+<text x="34" y="216" font-family="Georgia,serif" font-size="12" font-style="italic" fill="#7a2020">Silent in diabetes and in older women: breathlessness,</text>
+<text x="34" y="232" font-family="Georgia,serif" font-size="12" font-style="italic" fill="#7a2020">collapse or vomiting may be the only presentation.</text>
+
+<rect x="390" y="66" width="350" height="176" rx="6" fill="#f2f7f2" stroke="#2e7d5b"/>
+<text x="404" y="88" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d5c42">What the nurse does, in order</text>
+<text x="404" y="110" font-family="Georgia,serif" font-size="12" fill="#333">1. Sit the patient up, stay with them, call for help</text>
+<text x="404" y="130" font-family="Georgia,serif" font-size="12" fill="#333">2. ECG within ten minutes — this is the diagnosis</text>
+<text x="404" y="150" font-family="Georgia,serif" font-size="12" fill="#333">3. Oxygen only if saturation is low, not routinely</text>
+<text x="404" y="170" font-family="Georgia,serif" font-size="12" fill="#333">4. Aspirin chewed, unless contraindicated</text>
+<text x="404" y="190" font-family="Georgia,serif" font-size="12" fill="#333">5. Continuous monitoring — the risk is arrhythmia</text>
+<text x="404" y="210" font-family="Georgia,serif" font-size="12" fill="#333">6. Pain relief, IV access, blood for troponin</text>
+<text x="404" y="232" font-family="Georgia,serif" font-size="12" font-style="italic" fill="#1d5c42">Never send this patient walking to the ECG room.</text>
+
+<rect x="20" y="256" width="720" height="86" rx="6" fill="#fff8e8" stroke="#b8860b"/>
+<text x="34" y="278" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#8a6508">Why the first hours are the dangerous ones</text>
+<text x="34" y="300" font-family="Georgia,serif" font-size="12" fill="#333">Most deaths after a heart attack happen before the heart failure ever develops. They are caused by a sudden</text>
+<text x="34" y="318" font-family="Georgia,serif" font-size="12" fill="#333">rhythm disturbance in the first hours — which is treatable if someone is watching the monitor, and fatal if</text>
+<text x="34" y="336" font-family="Georgia,serif" font-size="12" fill="#333">the patient has been left alone on a trolley in the corridor. Presence is the intervention.</text>
+
+<rect x="20" y="356" width="720" height="96" rx="6" fill="#f4f4fb" stroke="#4a4a8a"/>
+<text x="34" y="378" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#33336b">A troponin is a timing test, not a yes-or-no test</text>
+<text x="34" y="400" font-family="Georgia,serif" font-size="12" fill="#333">Troponin is released by damaged heart muscle, but it takes hours to rise. A normal result taken one hour</text>
+<text x="34" y="418" font-family="Georgia,serif" font-size="12" fill="#333">after the pain started does not exclude a heart attack — it only says the blood was taken early.</text>
+<text x="34" y="440" font-family="Georgia,serif" font-size="12" font-style="italic" fill="#33336b">Rule: treat the story and the ECG. Do not let a single early normal result send the patient home.</text>
+</svg>

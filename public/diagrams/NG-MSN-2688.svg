@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 640" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.row{fill:#f2f7fa}
+</style>
+<rect width="880" height="640" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Heart failure: which side has failed tells you where the fluid goes</text>
+
+<rect class="ok" x="24" y="48" width="410" height="228"/>
+<text class="h" x="42" y="72">LEFT ventricular failure</text>
+<text class="s" x="42" y="94">Blood backs up into the LUNGS</text>
+<text class="b" x="42" y="124">Breathlessness on exertion</text>
+<text class="b" x="42" y="148">Orthopnoea — cannot lie flat</text>
+<text class="b" x="42" y="172">Waking at night gasping</text>
+<text class="b" x="42" y="196">Cough, frothy pink sputum</text>
+<text class="b" x="42" y="220">Crackles at the lung bases</text>
+<text class="k" x="42" y="252">Memory hook: Left = Lungs</text>
+
+<rect class="ok" x="450" y="48" width="406" height="228"/>
+<text class="h" x="468" y="72">RIGHT ventricular failure</text>
+<text class="s" x="468" y="94">Blood backs up into the BODY</text>
+<text class="b" x="468" y="124">Ankle and sacral oedema</text>
+<text class="b" x="468" y="148">Raised jugular venous pressure</text>
+<text class="b" x="468" y="172">Enlarged tender liver</text>
+<text class="b" x="468" y="196">Abdominal distension, ascites</text>
+<text class="b" x="468" y="220">Weight gain before oedema shows</text>
+<text class="k" x="468" y="252">Memory hook: Right = Rest of body</text>
+
+<rect class="box" x="24" y="294" width="832" height="150"/>
+<text class="h" x="42" y="318">Monitoring that actually detects change</text>
+<rect class="row" x="34" y="330" width="812" height="28"/>
+<text class="b" x="48" y="350">DAILY WEIGHT</text><text class="b" x="260" y="350">Same time, same clothes, after voiding</text><text class="k" x="620" y="350">Most sensitive measure</text>
+<text class="b" x="48" y="380">Gain of 1 kg</text><text class="b" x="260" y="380">is about 1 litre of retained fluid</text><text class="k" x="620" y="380">Report 2 kg in 2 days</text>
+<rect class="row" x="34" y="390" width="812" height="28"/>
+<text class="b" x="48" y="410">Oedema</text><text class="b" x="260" y="410">Appears only after several litres</text><text class="s" x="620" y="410">A late sign</text>
+<text class="i" x="48" y="436">Weight changes before the ankles do, which is why the scale beats the tape measure and the eye.</text>
+
+<rect class="warn" x="24" y="462" width="832" height="162"/>
+<text class="k" x="42" y="486">Chest pain — what makes it cardiac</text>
+<text class="b" x="42" y="514">Central, crushing or heavy, radiating to the jaw or the left arm, with sweating, nausea and a sense of dread.</text>
+<text class="b" x="42" y="540">Not affected by position or by breathing in. Lasting more than 20 minutes and not relieved by rest.</text>
+<text class="k" x="42" y="568">Diabetic and elderly patients may have a SILENT infarct — breathlessness, collapse or confusion instead of pain.</text>
+<text class="b" x="42" y="596">Immediate: sit up, oxygen only if saturations are low, aspirin 300 mg chewed, ECG within 10 minutes, pain relief.</text>
+<text class="i" x="42" y="616">Pain that worsens on inspiration or leaning forward suggests pericarditis, not infarction.</text>
+</svg>

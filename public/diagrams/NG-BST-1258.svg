@@ -1,0 +1,53 @@
+<svg viewBox="0 0 640 450" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="450" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">THE CONFIDENCE INTERVAL — HONESTY ABOUT UNCERTAINTY</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">You studied a sample, but you want to talk about everyone. The interval is the width of your ignorance.</text>
+
+<rect x="24" y="60" width="592" height="70" fill="#eef4f8" stroke="#5a86a8" stroke-width="1.8"/>
+<text x="320" y="80" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#1a3a5c">TWO STUDIES, THE SAME ANSWER, VERY DIFFERENT MEANING</text>
+<g font-size="10.5" fill="#222">
+<text x="38" y="102">Study A: 40% of nurses, 95% confidence interval 38% to 42%. A precise, usable finding.</text>
+<text x="38" y="120">Study B: 40% of nurses, 95% confidence interval 12% to 68%. The same 40%, but it tells you almost nothing.</text>
+</g>
+
+<line x1="80" y1="176" x2="600" y2="176" stroke="#999" stroke-width="1"/>
+<text x="80" y="196" font-size="9.5" fill="#666">0%</text>
+<text x="330" y="196" font-size="9.5" fill="#666">40%</text>
+<text x="580" y="196" font-size="9.5" fill="#666">100%</text>
+
+<line x1="325" y1="150" x2="350" y2="150" stroke="#1a5c3a" stroke-width="5"/>
+<circle cx="337" cy="150" r="4.5" fill="#1a5c3a"/>
+<text x="370" y="154" font-size="10" fill="#1a5c3a">Study A — narrow, large sample</text>
+
+<line x1="145" y1="164" x2="500" y2="164" stroke="#8b2f2f" stroke-width="5"/>
+<circle cx="337" cy="164" r="4.5" fill="#8b2f2f"/>
+<text x="512" y="168" font-size="10" fill="#8b2f2f">Study B — wide, small sample</text>
+
+<rect x="24" y="212" width="285" height="106" fill="#eaf3ea" stroke="#1a5c3a" stroke-width="1.7"/>
+<text x="166" y="232" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a5c3a">WHAT MAKES AN INTERVAL NARROW</text>
+<g font-size="10" fill="#222">
+<text x="38" y="254">A larger sample, above all else</text>
+<text x="38" y="272">Less variation between people</text>
+<text x="38" y="292" font-style="italic">Four times the sample halves the</text>
+<text x="38" y="308" font-style="italic">width. Precision is expensive.</text>
+</g>
+
+<rect x="331" y="212" width="285" height="106" fill="#f7ecec" stroke="#8b2f2f" stroke-width="1.7"/>
+<text x="473" y="232" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#8b2f2f">THE SHORTCUT THAT ALWAYS WORKS</text>
+<g font-size="10" fill="#222">
+<text x="345" y="254">If an interval for a DIFFERENCE</text>
+<text x="345" y="270">includes zero, the result is not</text>
+<text x="345" y="286">significant.</text>
+<text x="345" y="306">For a ratio, the same applies to one.</text>
+</g>
+
+<rect x="24" y="332" width="592" height="70" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.8"/>
+<text x="320" y="352" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#8a6d1e">WHY THE INTERVAL BEATS THE p VALUE</text>
+<g font-size="10.5" fill="#222">
+<text x="38" y="374">A p value answers only yes or no. The interval tells you the size of the effect and how sure you are of it,</text>
+<text x="38" y="392">which is what you actually need before changing anyone's care.</text>
+</g>
+
+<text x="320" y="424" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a3a5c">A very large study can produce a tiny difference that is statistically significant and clinically worthless.</text>
+<text x="320" y="443" text-anchor="middle" font-size="10.5" font-style="italic" fill="#8b2f2f">Always ask how big the effect is, not merely whether it exists.</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" width="100%" role="img">
+<rect x="0" y="0" width="760" height="460" fill="#fdfcfa"/>
+<text x="20" y="30" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="#33336b">The painless eye and the painful eye</text>
+<text x="20" y="52" font-family="Georgia,serif" font-size="13" fill="#555">Two of Ghana's leading causes of blindness. One steals vision quietly; one announces itself and must be treated the same hour.</text>
+
+<rect x="20" y="68" width="352" height="182" rx="6" fill="#eef4f8" stroke="#2b6b8a"/>
+<text x="34" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d4e63">Cataract — clouding of the lens</text>
+<text x="34" y="112" font-family="Georgia,serif" font-size="12" fill="#333">Painless. Vision blurs over months or years.</text>
+<text x="34" y="130" font-family="Georgia,serif" font-size="12" fill="#333">Glare from headlights and sunlight. Colours fade.</text>
+<text x="34" y="148" font-family="Georgia,serif" font-size="12" fill="#333">The pupil may look grey or white.</text>
+<text x="34" y="172" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#1d4e63">Reversible: surgery restores the sight.</text>
+<text x="34" y="196" font-family="Georgia,serif" font-size="12" fill="#333">The barrier in Ghana is not the operation but</text>
+<text x="34" y="214" font-family="Georgia,serif" font-size="12" fill="#333">reaching it — distance, cost, fear, and the belief</text>
+<text x="34" y="232" font-family="Georgia,serif" font-size="12" fill="#333">that failing sight is a normal part of growing old.</text>
+
+<rect x="388" y="68" width="352" height="182" rx="6" fill="#fff3f0" stroke="#c0392b"/>
+<text x="402" y="90" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#7a2020">Glaucoma — pressure damaging the nerve</text>
+<text x="402" y="112" font-family="Georgia,serif" font-size="12" fill="#333">Chronic form: painless, takes the edges of vision</text>
+<text x="402" y="130" font-family="Georgia,serif" font-size="12" fill="#333">first, so it is noticed only when it is advanced.</text>
+<text x="402" y="152" font-family="Georgia,serif" font-size="12" fill="#333">Acute form: severe eye pain, headache, vomiting,</text>
+<text x="402" y="170" font-family="Georgia,serif" font-size="12" fill="#333">a red eye, haloes around lights, hazy cornea,</text>
+<text x="402" y="188" font-family="Georgia,serif" font-size="12" fill="#333">and a fixed mid-dilated pupil.</text>
+<text x="402" y="212" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7a2020">Not reversible: sight already lost does not return.</text>
+<text x="402" y="234" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7a2020">Acute glaucoma is a same-hour emergency.</text>
+
+<rect x="20" y="266" width="720" height="88" rx="6" fill="#fff8e8" stroke="#b8860b"/>
+<text x="34" y="288" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#8a6508">The question that separates them at the door</text>
+<text x="34" y="310" font-family="Georgia,serif" font-size="12" fill="#333">Does the eye hurt, and did the vision change suddenly? Gradual and painless can wait for a clinic</text>
+<text x="34" y="328" font-family="Georgia,serif" font-size="12" fill="#333">appointment. Sudden, painful, red, or a sudden loss of vision must be seen today — that list also includes</text>
+<text x="34" y="346" font-family="Georgia,serif" font-size="12" fill="#333">chemical splash, penetrating injury and a curtain falling across the vision.</text>
+
+<rect x="20" y="368" width="720" height="80" rx="6" fill="#f2f7f2" stroke="#2e7d5b"/>
+<text x="34" y="390" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d5c42">After eye surgery, the danger is pressure and infection</text>
+<text x="34" y="412" font-family="Georgia,serif" font-size="12" fill="#333">Teach the patient not to rub the eye, not to bend below the waist, not to lift heavy loads, and not to strain</text>
+<text x="34" y="430" font-family="Georgia,serif" font-size="12" fill="#333">at stool. Report at once: increasing pain, discharge, or vision that is getting worse rather than better.</text>
+</svg>

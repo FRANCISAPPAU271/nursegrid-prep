@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 600" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.row{fill:#f2f7fa}
+.stp{fill:#eef4f8;stroke:#8fa9bd;stroke-width:1.4;rx:6}
+</style>
+<rect width="880" height="600" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Decontamination: three levels, and how to choose between them</text>
+
+<rect class="box" x="24" y="48" width="832" height="196"/>
+<rect class="row" x="34" y="60" width="812" height="30"/>
+<text class="h" x="48" y="81">LEVEL</text><text class="h" x="250" y="81">KILLS</text><text class="h" x="480" y="81">HOW</text><text class="h" x="690" y="81">USED FOR</text>
+<text class="b" x="48" y="114">CLEANING</text><text class="s" x="250" y="114">removes soil and</text><text class="s" x="480" y="114">detergent, water,</text><text class="s" x="690" y="114">everything, first</text>
+<text class="s" x="48" y="132">always comes first</text><text class="s" x="250" y="132">most organisms</text><text class="s" x="480" y="132">friction</text><text class="s" x="690" y="132">floors, furniture</text>
+<rect class="row" x="34" y="144" width="812" height="46"/>
+<text class="b" x="48" y="168">DISINFECTION</text><text class="s" x="250" y="168">most organisms</text><text class="s" x="480" y="168">chlorine, alcohol,</text><text class="s" x="690" y="168">thermometers,</text>
+<text class="s" x="48" y="186">NOT spores</text><text class="s" x="250" y="186">but NOT spores</text><text class="s" x="480" y="186">boiling, glutaraldehyde</text><text class="s" x="690" y="186">bedpans, surfaces</text>
+<text class="b" x="48" y="220">STERILISATION</text><text class="k" x="250" y="220">ALL microbial life</text><text class="s" x="480" y="220">AUTOCLAVE — steam</text><text class="s" x="690" y="220">surgical instruments,</text>
+<text class="s" x="48" y="238">the highest level</text><text class="k" x="250" y="238">INCLUDING SPORES</text><text class="s" x="480" y="238">under pressure</text><text class="s" x="690" y="238">anything entering tissue</text>
+
+<rect class="ok" x="24" y="262" width="410" height="150"/>
+<text class="h" x="42" y="286">Autoclave — the two settings to know</text>
+<text class="b" x="42" y="314">121 degrees Celsius for 15 minutes</text>
+<text class="b" x="42" y="336">134 degrees Celsius for 3 minutes</text>
+<text class="s" x="42" y="362">Higher temperature, shorter time. Both work.</text>
+<text class="k" x="42" y="390">It is the STEAM under PRESSURE that kills.</text>
+<text class="i" x="42" y="406">A dry oven needs far longer and higher heat.</text>
+
+<rect class="warn" x="450" y="262" width="406" height="150"/>
+<text class="k" x="468" y="286">Why cleaning must come first</text>
+<text class="b" x="468" y="312">Organic matter — blood, pus, faeces —</text>
+<text class="b" x="468" y="332">INACTIVATES chlorine and shields organisms</text>
+<text class="b" x="468" y="352">from both disinfectant and steam.</text>
+<text class="k" x="468" y="380">You cannot sterilise a dirty instrument.</text>
+<text class="s" x="468" y="402">Clean, then disinfect or sterilise. Never skip.</text>
+
+<rect class="box" x="24" y="430" width="832" height="152"/>
+<text class="h" x="42" y="454">Spaulding classification — match the level to the risk</text>
+<rect class="stp" x="42" y="468" width="256" height="96"/>
+<text class="h" x="58" y="492">CRITICAL</text>
+<text class="s" x="58" y="514">Enters sterile tissue or</text><text class="s" x="58" y="532">the bloodstream</text>
+<text class="k" x="58" y="556">→ STERILISE</text>
+<rect class="stp" x="312" y="468" width="256" height="96"/>
+<text class="h" x="328" y="492">SEMI-CRITICAL</text>
+<text class="s" x="328" y="514">Touches mucous membrane</text><text class="s" x="328" y="532">or broken skin</text>
+<text class="k" x="328" y="556">→ HIGH-LEVEL DISINFECT</text>
+<rect class="stp" x="582" y="468" width="256" height="96"/>
+<text class="h" x="598" y="492">NON-CRITICAL</text>
+<text class="s" x="598" y="514">Touches intact skin only</text><text class="s" x="598" y="532">— cuff, stethoscope</text>
+<text class="k" x="598" y="556">→ CLEAN or DISINFECT</text>
+</svg>

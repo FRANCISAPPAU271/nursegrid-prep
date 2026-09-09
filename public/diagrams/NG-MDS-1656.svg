@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="100%" role="img">
+<rect x="0" y="0" width="760" height="470" fill="#fdfcfa"/>
+<text x="20" y="30" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="#7a2020">Insulin: the errors are always the same five</text>
+
+<rect x="20" y="48" width="720" height="120" rx="6" fill="#f2f7f2" stroke="#2e7d5b"/>
+<text x="34" y="70" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#1d5c42">Match the insulin to the meal, or the patient goes low</text>
+<line x1="60" y1="100" x2="700" y2="100" stroke="#888" stroke-width="2"/>
+<text x="52" y="118" font-family="Georgia,serif" font-size="11" fill="#555">give</text>
+<text x="200" y="118" font-family="Georgia,serif" font-size="11" fill="#555">1-2 h</text>
+<text x="360" y="118" font-family="Georgia,serif" font-size="11" fill="#555">4-6 h</text>
+<text x="600" y="118" font-family="Georgia,serif" font-size="11" fill="#555">12-24 h</text>
+<path d="M60 100 Q 130 74 200 96 T 360 100" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+<text x="88" y="90" font-family="Georgia,serif" font-size="11" fill="#7a2020">rapid</text>
+<path d="M60 100 Q 260 78 460 98 T 700 100" fill="none" stroke="#2b6b8a" stroke-width="2.5" stroke-dasharray="5,4"/>
+<text x="470" y="90" font-family="Georgia,serif" font-size="11" fill="#1d4e63">long acting</text>
+<text x="34" y="140" font-family="Georgia,serif" font-size="12" fill="#333">Rapid insulin peaks while the meal is being absorbed. If the meal is delayed, cancelled, or the patient is</text>
+<text x="34" y="158" font-family="Georgia,serif" font-size="12" fill="#333">vomiting or nil by mouth, the insulin still peaks — and there is no food to meet it.</text>
+
+<rect x="20" y="182" width="352" height="130" rx="6" fill="#fff3f0" stroke="#c0392b"/>
+<text x="34" y="204" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#7a2020">The five that cause real harm</text>
+<text x="34" y="226" font-family="Georgia,serif" font-size="12" fill="#333">1. Writing U for units — read as a zero</text>
+<text x="34" y="244" font-family="Georgia,serif" font-size="12" fill="#333">2. Drawing insulin with the wrong syringe</text>
+<text x="34" y="262" font-family="Georgia,serif" font-size="12" fill="#333">3. Confusing two similar-sounding names</text>
+<text x="34" y="280" font-family="Georgia,serif" font-size="12" fill="#333">4. Giving it when the meal will not come</text>
+<text x="34" y="298" font-family="Georgia,serif" font-size="12" fill="#333">5. Never rotating the injection site</text>
+
+<rect x="388" y="182" width="352" height="130" rx="6" fill="#eef4f8" stroke="#2b6b8a"/>
+<text x="402" y="204" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#1d4e63">Why site rotation matters</text>
+<text x="402" y="226" font-family="Georgia,serif" font-size="12" fill="#333">Injecting the same spot builds a rubbery</text>
+<text x="402" y="244" font-family="Georgia,serif" font-size="12" fill="#333">lump of fatty tissue. It is less painful, so</text>
+<text x="402" y="262" font-family="Georgia,serif" font-size="12" fill="#333">patients prefer it — and absorption from it</text>
+<text x="402" y="280" font-family="Georgia,serif" font-size="12" fill="#333">is erratic. Glucose swings for no apparent</text>
+<text x="402" y="298" font-family="Georgia,serif" font-size="12" fill="#333">reason. Look at the sites, do not just ask.</text>
+
+<rect x="20" y="330" width="352" height="128" rx="6" fill="#fff8e8" stroke="#b8860b"/>
+<text x="34" y="352" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#8a6508">Storage in a Ghanaian home</text>
+<text x="34" y="374" font-family="Georgia,serif" font-size="12" fill="#333">Unopened vials belong in a refrigerator, not</text>
+<text x="34" y="392" font-family="Georgia,serif" font-size="12" fill="#333">a freezer — frozen insulin is destroyed.</text>
+<text x="34" y="414" font-family="Georgia,serif" font-size="12" fill="#333">A vial in use keeps at room temperature for</text>
+<text x="34" y="432" font-family="Georgia,serif" font-size="12" fill="#333">a limited period. Where there is no fridge,</text>
+<text x="34" y="450" font-family="Georgia,serif" font-size="12" fill="#333">a clay pot with damp sand, out of the sun.</text>
+
+<rect x="388" y="330" width="352" height="128" rx="6" fill="#f4f4fb" stroke="#4a4a8a"/>
+<text x="402" y="352" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#33336b">Hypoglycaemia: treat, then think</text>
+<text x="402" y="374" font-family="Georgia,serif" font-size="12" fill="#333">Conscious and able to swallow: give fast</text>
+<text x="402" y="392" font-family="Georgia,serif" font-size="12" fill="#333">sugar now, then a starchy snack to hold it.</text>
+<text x="402" y="414" font-family="Georgia,serif" font-size="12" fill="#333">Drowsy or fitting: nothing by mouth.</text>
+<text x="402" y="432" font-family="Georgia,serif" font-size="12" fill="#333">Then ask why it happened, or it will happen</text>
+<text x="402" y="450" font-family="Georgia,serif" font-size="12" fill="#333">again tomorrow at the same hour.</text>
+</svg>

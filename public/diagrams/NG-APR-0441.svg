@@ -1,0 +1,40 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="380" fill="#fbfaf7"/>
+<text x="320" y="27" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">NASOGASTRIC TUBE — MEASURING AND CONFIRMING</text>
+
+<rect x="24" y="44" width="288" height="150" fill="#fff" stroke="#d8d2c4" stroke-width="1.5"/>
+<text x="168" y="64" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a3a5c">MEASURING THE LENGTH — NEX</text>
+<circle cx="90" cy="108" r="20" fill="#f0e2d0" stroke="#8b6a2f"/>
+<text x="90" y="112" text-anchor="middle" font-size="9" fill="#6b4f18">head</text>
+<text x="66" y="140" font-size="9" fill="#333">N</text>
+<line x1="90" y1="100" x2="150" y2="100" stroke="#8b2f2f" stroke-width="1.5"/>
+<text x="120" y="94" text-anchor="middle" font-size="9" fill="#8b2f2f">Nose</text>
+<line x1="150" y1="100" x2="150" y2="130" stroke="#8b2f2f" stroke-width="1.5"/>
+<text x="176" y="118" text-anchor="middle" font-size="9" fill="#8b2f2f">Ear lobe</text>
+<line x1="150" y1="130" x2="150" y2="170" stroke="#8b2f2f" stroke-width="1.5"/>
+<text x="196" y="156" text-anchor="middle" font-size="9" fill="#8b2f2f">Xiphisternum</text>
+<circle cx="150" cy="100" r="3" fill="#8b2f2f"/>
+<circle cx="150" cy="130" r="3" fill="#8b2f2f"/>
+<circle cx="150" cy="170" r="3" fill="#8b2f2f"/>
+<text x="36" y="186" font-size="10" fill="#333">Mark the tube, then insert to that mark.</text>
+
+<rect x="328" y="44" width="288" height="150" fill="#eaf3ea" stroke="#8fb98f" stroke-width="1.5"/>
+<text x="472" y="64" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a5c3a">CONFIRMING POSITION</text>
+<text x="340" y="88" font-size="11" font-weight="bold" fill="#1a5c3a">1. Aspirate and test on pH paper</text>
+<text x="340" y="106" font-size="11" fill="#333">    pH 5.5 or below = safe to use.</text>
+<text x="340" y="128" font-size="11" font-weight="bold" fill="#1a5c3a">2. If in doubt — X-ray</text>
+<text x="340" y="146" font-size="11" fill="#333">    The definitive check.</text>
+<text x="340" y="172" font-size="11" font-style="italic" fill="#8b2f2f">Never feed until position is confirmed.</text>
+
+<rect x="24" y="204" width="592" height="76" fill="#f7e9e9" stroke="#c78f8f" stroke-width="1.5"/>
+<text x="320" y="224" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b2f2f">THE DISCARDED TEST — WHY 'PUSH AIR AND LISTEN' IS UNSAFE</text>
+<text x="34" y="244" font-size="10" fill="#333">A tube in the lung, the oesophagus or curled in the mouth can all produce a convincing bubbling sound over</text>
+<text x="34" y="260" font-size="10" fill="#333">the stomach. The test cannot tell them apart. Feed delivered into a lung is frequently fatal, so the</text>
+<text x="34" y="276" font-size="10" fill="#333">whoosh test has been abandoned everywhere in favour of pH testing and X-ray.</text>
+
+<rect x="24" y="290" width="592" height="80" fill="#fff" stroke="#d8d2c4"/>
+<text x="320" y="310" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a3a5c">DURING INSERTION</text>
+<text x="34" y="330" font-size="10" fill="#333">Sit upright, head slightly flexed forward — flexion closes the airway and opens the oesophagus.</text>
+<text x="34" y="348" font-size="10" fill="#333">Ask the patient to swallow sips of water as you advance.  ·  Coughing, choking or colour change = withdraw at once.</text>
+<text x="34" y="366" font-size="10" fill="#333">Head back and extended points the tube towards the trachea — the commonest positioning error.</text>
+</svg>

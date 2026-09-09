@@ -1,0 +1,39 @@
+<svg viewBox="0 0 720 470" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect x="0" y="0" width="720" height="470" fill="#f9f7f4"/>
+<text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#5b4a2e">Testing a claim: it cured my sister is not evidence</text>
+<text x="360" y="50" text-anchor="middle" font-size="12.5" fill="#7a6a58">The same standard applies to a plant and to a tablet</text>
+
+<rect x="30" y="66" width="325" height="190" rx="7" fill="#f6e9e6" stroke="#c98f80"/>
+<text x="45" y="87" font-size="13.5" font-weight="bold" fill="#8a3018">Why a testimonial convinces, and misleads</text>
+<text x="45" y="110" font-size="11.5" fill="#3f2b26">Most illnesses get better on their own</text>
+<text x="45" y="129" font-size="11.5" fill="#3f2b26">Symptoms come and go; people buy at the worst point</text>
+<text x="45" y="148" font-size="11.5" fill="#3f2b26">Expectation itself relieves pain and nausea</text>
+<text x="45" y="167" font-size="11.5" fill="#3f2b26">The hospital treatment is often taken at the same time</text>
+<text x="45" y="186" font-size="11.5" fill="#3f2b26">Those it failed do not appear on the radio</text>
+<text x="45" y="209" font-size="12" font-weight="bold" fill="#8a3018">Every one of these produces a true story</text>
+<text x="45" y="226" font-size="12" font-weight="bold" fill="#8a3018">about a treatment that did nothing</text>
+<text x="45" y="248" font-size="11" font-style="italic" fill="#7a5a2a">The people it did not help are missing from the count</text>
+
+<rect x="365" y="66" width="325" height="190" rx="7" fill="#e9f2ec" stroke="#8fb59d"/>
+<text x="380" y="87" font-size="13.5" font-weight="bold" fill="#1d5236">What would count as evidence</text>
+<text x="380" y="110" font-size="11.5" fill="#26333d">A comparison group who did not get it</text>
+<text x="380" y="129" font-size="11.5" fill="#26333d">Allocation by chance, so the groups start alike</text>
+<text x="380" y="148" font-size="11.5" fill="#26333d">An outcome measured, not remembered</text>
+<text x="380" y="167" font-size="11.5" fill="#26333d">Everyone enrolled counted at the end</text>
+<text x="380" y="186" font-size="11.5" fill="#26333d">Published, so others can check it</text>
+<text x="380" y="209" font-size="12" font-weight="bold" fill="#1d5236">Only a comparison can separate the treatment</text>
+<text x="380" y="226" font-size="12" font-weight="bold" fill="#1d5236">from what would have happened anyway</text>
+<text x="380" y="248" font-size="11" font-style="italic" fill="#7a5a2a">Only randomisation shows cause</text>
+
+<rect x="30" y="272" width="660" height="88" rx="7" fill="#eaf1f7" stroke="#9fb9cd"/>
+<text x="45" y="293" font-size="13.5" font-weight="bold" fill="#1d3f5e">Plants have given medicine some of its best drugs</text>
+<text x="52" y="315" font-size="12" fill="#26333d">Artemisinin for malaria, quinine from cinchona bark, morphine from the poppy, digoxin from foxglove, aspirin from willow</text>
+<text x="52" y="335" font-size="12" fill="#26333d">In each case the active compound was identified, purified, measured into a known dose and tested against a comparison</text>
+<text x="52" y="355" font-size="12" font-weight="bold" fill="#8a3018">The plant was the starting point. The testing is what made it a medicine.</text>
+
+<rect x="30" y="372" width="660" height="84" rx="7" fill="#f2ece2" stroke="#c9b79c"/>
+<text x="45" y="393" font-size="13.5" font-weight="bold" fill="#5b4a2e">What a nurse says when asked whether a remedy works</text>
+<text x="52" y="415" font-size="12" fill="#3f3428">Not: it is all superstition. Not: yes, try it. Both answers end the conversation and neither is honest.</text>
+<text x="52" y="435" font-size="12" font-weight="bold" fill="#5b4a2e">Say what is known, say what is not known, say what the specific risk is, and keep the door open.</text>
+<text x="52" y="452" font-size="11" font-style="italic" fill="#7a5a2a">A patient who trusts your honesty will tell you when she starts something new.</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg viewBox="0 0 460 210" role="img" aria-labelledby="t2" xmlns="http://www.w3.org/2000/svg">
+<title id="t2">Fundal height and deviation after delivery</title>
+<rect width="460" height="210" fill="#f6f8fc"/>
+<g fill="none" stroke="#0a1628" stroke-width="2">
+<path d="M60 190 q70 -150 140 0" /><path d="M250 190 q70 -150 140 0"/>
+</g>
+<line x1="60" y1="120" x2="200" y2="120" stroke="#8aa0bf" stroke-dasharray="4 3"/>
+<line x1="250" y1="120" x2="390" y2="120" stroke="#8aa0bf" stroke-dasharray="4 3"/>
+<circle cx="130" cy="120" r="5" fill="#0a1628"/><circle cx="320" cy="120" r="5" fill="#0a1628"/>
+<circle cx="130" cy="118" r="26" fill="#0f9d76" opacity=".35" stroke="#0f9d76" stroke-width="2"/>
+<circle cx="352" cy="112" r="30" fill="#e2574c" opacity=".3" stroke="#e2574c" stroke-width="2"/>
+<text x="130" y="40" font-size="12" text-anchor="middle" font-family="system-ui" font-weight="600" fill="#0f9d76">EXPECTED</text>
+<text x="130" y="56" font-size="10" text-anchor="middle" font-family="system-ui">firm · midline · at umbilicus</text>
+<text x="320" y="40" font-size="12" text-anchor="middle" font-family="system-ui" font-weight="600" fill="#e2574c">DEVIATED RIGHT</text>
+<text x="320" y="56" font-size="10" text-anchor="middle" font-family="system-ui">full bladder pushing it over</text>
+<text x="130" y="205" font-size="10" text-anchor="middle" font-family="system-ui">boggy? → massage</text>
+<text x="320" y="205" font-size="10" text-anchor="middle" font-family="system-ui">displaced? → empty bladder</text>
+<text x="130" y="130" font-size="9" text-anchor="middle" font-family="system-ui" fill="#5a6b85">umbilicus</text>
+</svg>

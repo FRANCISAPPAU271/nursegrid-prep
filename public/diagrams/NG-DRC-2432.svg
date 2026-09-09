@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 580" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+</style>
+<rect width="860" height="580" fill="#f7fafb"/>
+<text class="t" x="24" y="32">The intravenous line: what goes wrong and how it looks</text>
+
+<rect class="warn" x="24" y="48" width="264" height="188"/>
+<text class="k" x="40" y="72">INFILTRATION</text>
+<text class="s" x="40" y="92">fluid into the tissue</text>
+<text class="b" x="40" y="118">Swelling, COOL skin,</text>
+<text class="b" x="40" y="138">pale, infusion slows</text>
+<text class="b" x="40" y="158">or stops, no blood</text>
+<text class="b" x="40" y="178">return</text>
+<text class="k" x="40" y="206">STOP, remove, elevate,</text>
+<text class="k" x="40" y="226">resite the other arm</text>
+
+<rect class="warn" x="298" y="48" width="264" height="188"/>
+<text class="k" x="314" y="72">PHLEBITIS</text>
+<text class="s" x="314" y="92">the vein is inflamed</text>
+<text class="b" x="314" y="118">Redness tracking ALONG</text>
+<text class="b" x="314" y="138">the vein, WARM, tender,</text>
+<text class="b" x="314" y="158">a palpable cord</text>
+<text class="b" x="314" y="186">STOP, remove, warm</text>
+<text class="b" x="314" y="206">compress, document</text>
+<text class="i" x="314" y="228">Cool means infiltration; warm means phlebitis.</text>
+
+<rect class="warn" x="572" y="48" width="264" height="188"/>
+<text class="k" x="588" y="72">EXTRAVASATION</text>
+<text class="s" x="588" y="92">a vesicant leaks out</text>
+<text class="b" x="588" y="118">Same signs as infiltration</text>
+<text class="b" x="588" y="138">but the drug is one that</text>
+<text class="b" x="588" y="158">destroys tissue —</text>
+<text class="b" x="588" y="178">cytotoxics, calcium,</text>
+<text class="b" x="588" y="198">potassium, vasopressors</text>
+<text class="k" x="588" y="226">Do NOT remove the cannula</text>
+
+<rect class="box" x="24" y="252" width="398" height="150"/>
+<text class="h" x="40" y="276">Extravasation of a vesicant — the order</text>
+<text class="b" x="40" y="302">1. Stop the infusion immediately</text>
+<text class="b" x="40" y="324">2. Leave the cannula in and ASPIRATE back</text>
+<text class="b" x="40" y="346">3. Call for senior and specific antidote advice</text>
+<text class="b" x="40" y="368">4. Elevate, mark the area, photograph, document</text>
+<text class="k" x="40" y="392">Pulling the cannula first throws away your only way of aspirating the drug back out.</text>
+
+<rect class="ok" x="438" y="252" width="398" height="150"/>
+<text class="h" x="454" y="276">Air embolism</text>
+<text class="b" x="454" y="302">Sudden breathlessness, chest pain, a churning</text>
+<text class="b" x="454" y="322">sound at the heart, collapse</text>
+<text class="b" x="454" y="348">Clamp the line, turn the patient onto the LEFT</text>
+<text class="b" x="454" y="368">side with the head DOWN, give oxygen, call.</text>
+<text class="i" x="454" y="392">The position traps air in the right atrium.</text>
+
+<rect class="warn" x="24" y="418" width="812" height="150"/>
+<text class="k" x="40" y="442">Potassium chloride — the one that kills quietly</text>
+<text class="b" x="40" y="468">NEVER give concentrated potassium as an intravenous push. It stops the heart. It must always be diluted.</text>
+<text class="b" x="40" y="490">Peripheral infusion should not normally exceed 10 mmol an hour, and the bag must be inverted and mixed thoroughly.</text>
+<text class="b" x="40" y="512">Never add potassium to a bag that is already hanging — the drug pools at the bottom and the patient gets it neat.</text>
+<text class="k" x="40" y="540">Confirm urine output before giving potassium to anyone. No urine means no excretion, and the level climbs.</text>
+<text class="i" x="40" y="560">Concentrated potassium ampoules are stored separately from other ampoules precisely because they look alike.</text>
+</svg>

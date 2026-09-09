@@ -1,0 +1,39 @@
+<svg viewBox="0 0 720 470" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect x="0" y="0" width="720" height="470" fill="#f9f7f4"/>
+<text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#5b4a2e">Reading a blood gas in three steps</text>
+<text x="360" y="50" text-anchor="middle" font-size="12.5" fill="#7a6a58">Lungs move carbon dioxide in minutes. Kidneys move bicarbonate over days.</text>
+
+<rect x="30" y="66" width="660" height="76" rx="7" fill="#fff" stroke="#c9b79c"/>
+<text x="45" y="87" font-size="13" font-weight="bold" fill="#5b4a2e">Step 1 — look at the pH</text>
+<text x="52" y="108" font-size="12" fill="#3f3428">Below 7.35 the patient is acidotic. Above 7.45 alkalotic. Normal 7.35 to 7.45.</text>
+<text x="52" y="130" font-size="11.5" font-style="italic" fill="#7a5a2a">The pH tells you which way. It does not tell you which organ.</text>
+
+<rect x="30" y="154" width="325" height="140" rx="7" fill="#eaf1f7" stroke="#9fb9cd"/>
+<text x="45" y="175" font-size="13" font-weight="bold" fill="#1d3f5e">Step 2 — who caused it?</text>
+<text x="45" y="197" font-size="11.5" fill="#26333d">Look at the carbon dioxide, normal 4.7 to 6.0 kPa</text>
+<text x="45" y="216" font-size="11.5" fill="#26333d">Look at the bicarbonate, normal 22 to 26 mmol/L</text>
+<text x="45" y="240" font-size="11.5" font-weight="bold" fill="#1d3f5e">Whichever one has moved the SAME way as</text>
+<text x="45" y="257" font-size="11.5" font-weight="bold" fill="#1d3f5e">the pH is the culprit</text>
+<text x="45" y="279" font-size="11" font-style="italic" fill="#7a5a2a">Low pH with high CO2 = respiratory acidosis</text>
+
+<rect x="365" y="154" width="325" height="140" rx="7" fill="#e9f2ec" stroke="#8fb59d"/>
+<text x="380" y="175" font-size="13" font-weight="bold" fill="#1d5236">Step 3 — is the other one compensating?</text>
+<text x="380" y="197" font-size="11.5" fill="#26333d">If the other value has moved the OPPOSITE way,</text>
+<text x="380" y="214" font-size="11.5" fill="#26333d">the body is trying to correct the problem</text>
+<text x="380" y="237" font-size="11.5" fill="#26333d">pH still abnormal = partial compensation</text>
+<text x="380" y="255" font-size="11.5" fill="#26333d">pH back to normal = full compensation</text>
+<text x="380" y="279" font-size="11.5" font-weight="bold" fill="#8a3018">Compensation never overshoots. It corrects</text>
+
+<rect x="30" y="308" width="660" height="146" rx="7" fill="#f2ece2" stroke="#c9b79c"/>
+<text x="45" y="329" font-size="13.5" font-weight="bold" fill="#5b4a2e">The four pictures, and the Ghanaian ward where you meet them</text>
+<line x1="45" y1="338" x2="675" y2="338" stroke="#c9b79c"/>
+<text x="52" y="358" font-size="12" font-weight="bold" fill="#8a3018">Metabolic acidosis</text>
+<text x="230" y="358" font-size="11.5" fill="#3f3428">low pH, low bicarbonate — cholera, severe diarrhoea, DKA, sepsis, kidney failure</text>
+<text x="52" y="381" font-size="12" font-weight="bold" fill="#8a3018">Metabolic alkalosis</text>
+<text x="230" y="381" font-size="11.5" fill="#3f3428">high pH, high bicarbonate — prolonged vomiting, pyloric obstruction, water tablets</text>
+<text x="52" y="404" font-size="12" font-weight="bold" fill="#1d3f5e">Respiratory acidosis</text>
+<text x="230" y="404" font-size="11.5" fill="#3f3428">low pH, high CO2 — the patient is not ventilating: opioids, severe asthma, exhaustion</text>
+<text x="52" y="427" font-size="12" font-weight="bold" fill="#1d3f5e">Respiratory alkalosis</text>
+<text x="230" y="427" font-size="11.5" fill="#3f3428">high pH, low CO2 — over-breathing: pain, anxiety, early sepsis, salicylate</text>
+<text x="52" y="448" font-size="11.5" font-weight="bold" fill="#8a3018">Deep sighing breathing in a dehydrated child is the lungs blowing off acid. Treat the cause, not the breathing.</text>
+</svg>

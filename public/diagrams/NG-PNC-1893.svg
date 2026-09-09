@@ -1,0 +1,44 @@
+<svg viewBox="0 0 720 480" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect x="0" y="0" width="720" height="480" fill="#f7f9fb"/>
+<text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#1d3f5e">Pre-eclampsia: the disease is in the whole body, not the blood pressure</text>
+<text x="360" y="50" text-anchor="middle" font-size="12.5" fill="#5c6f80">Delivery is the only cure. Everything else buys time safely.</text>
+
+<rect x="30" y="66" width="325" height="146" rx="7" fill="#eaf1f7" stroke="#9fb9cd"/>
+<text x="45" y="87" font-size="13.5" font-weight="bold" fill="#1d3f5e">Signs that the disease is severe</text>
+<text x="45" y="108" font-size="11.5" fill="#26333d">Headache that will not clear with paracetamol</text>
+<text x="45" y="127" font-size="11.5" fill="#26333d">Blurred vision or flashing lights</text>
+<text x="45" y="146" font-size="11.5" fill="#26333d">Pain under the ribs on the right side</text>
+<text x="45" y="165" font-size="11.5" fill="#26333d">Vomiting late in pregnancy</text>
+<text x="45" y="184" font-size="11.5" fill="#26333d">Reduced urine output, brisk reflexes</text>
+<text x="45" y="203" font-size="11" font-style="italic" fill="#7a5a2a">These are brain, liver and kidney &#8212; not symptoms of anxiety</text>
+
+<rect x="365" y="66" width="325" height="146" rx="7" fill="#eaf1f7" stroke="#9fb9cd"/>
+<text x="380" y="87" font-size="13.5" font-weight="bold" fill="#1d3f5e">What the nurse does while waiting</text>
+<text x="380" y="108" font-size="11.5" fill="#26333d">Quiet room, side-lying, never left alone</text>
+<text x="380" y="127" font-size="11.5" fill="#26333d">Magnesium sulphate to prevent the fit</text>
+<text x="380" y="146" font-size="11.5" fill="#26333d">Antihypertensive to protect her brain vessels</text>
+<text x="380" y="165" font-size="11.5" fill="#26333d">Strict fluid balance &#8212; over-loading floods the lungs</text>
+<text x="380" y="184" font-size="11.5" fill="#26333d">Prepare for delivery: it is the treatment</text>
+<text x="380" y="203" font-size="11" font-style="italic" fill="#7a5a2a">Lowering the pressure does not cure the disease</text>
+
+<rect x="30" y="226" width="660" height="112" rx="7" fill="#e9f2ec" stroke="#8fb59d"/>
+<text x="45" y="247" font-size="13.5" font-weight="bold" fill="#1d5236">Magnesium sulphate: three checks before every maintenance dose</text>
+<text x="52" y="271" font-size="12" fill="#26333d">1. Knee jerk present &#8212; reflexes disappear first, and that is the earliest warning</text>
+<text x="52" y="292" font-size="12" fill="#26333d">2. Respiratory rate above 16 per minute &#8212; breathing slows next</text>
+<text x="52" y="313" font-size="12" fill="#26333d">3. Urine output at least 100 mL in the last 4 hours &#8212; the drug leaves only by the kidney</text>
+<text x="45" y="332" font-size="11.5" font-weight="bold" fill="#8a3018">Antidote: calcium gluconate, kept at the bedside, not in the cupboard</text>
+
+<rect x="30" y="352" width="325" height="112" rx="7" fill="#f6e9e6" stroke="#c98f80"/>
+<text x="45" y="373" font-size="13.5" font-weight="bold" fill="#8a3018">During a fit</text>
+<text x="45" y="394" font-size="11.5" fill="#26333d">Do not restrain her and do not force</text>
+<text x="45" y="410" font-size="11.5" fill="#26333d">anything into her mouth</text>
+<text x="45" y="429" font-size="11.5" fill="#26333d">Protect her head, turn her on her side</text>
+<text x="45" y="448" font-size="11.5" fill="#26333d">when it ends, then oxygen and suction</text>
+
+<rect x="365" y="352" width="325" height="112" rx="7" fill="#efe4d4" stroke="#c9a678"/>
+<text x="380" y="373" font-size="13.5" font-weight="bold" fill="#7a4a12">It does not end at delivery</text>
+<text x="380" y="394" font-size="11.5" fill="#26333d">Fits still occur after the baby is born, so</text>
+<text x="380" y="410" font-size="11.5" fill="#26333d">magnesium continues for 24 hours after</text>
+<text x="380" y="429" font-size="11.5" fill="#26333d">delivery or the last fit, whichever is later.</text>
+<text x="380" y="448" font-size="11.5" font-weight="bold" fill="#8a3018">The postnatal ward is where she is forgotten.</text>
+</svg>

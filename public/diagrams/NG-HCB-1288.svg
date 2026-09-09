@@ -1,0 +1,66 @@
+<svg viewBox="0 0 640 464" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="464" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">HEALTH CARE WASTE: SEGREGATE AT THE POINT IT IS MADE</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">Ghana MoH colour code. Once streams are mixed, everything must be treated as the most dangerous item in the bag.</text>
+
+<rect x="20" y="60" width="190" height="132" fill="#e8e8e8" stroke="#444" stroke-width="1.8"/>
+<rect x="34" y="74" width="42" height="52" fill="#2b2b2b" stroke="#000" stroke-width="1.2"/>
+<text x="143" y="88" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">BLACK</text>
+<text x="143" y="106" text-anchor="middle" font-size="10.5" fill="#333">General waste</text>
+<g font-size="9.5" fill="#333">
+<text x="34" y="146">Paper, packaging, sweepings,</text>
+<text x="34" y="162">kitchen waste, empty boxes.</text>
+<text x="34" y="182" font-style="italic">About 85% of all hospital waste.</text>
+</g>
+
+<rect x="225" y="60" width="190" height="132" fill="#fdf5d8" stroke="#c8a54b" stroke-width="1.8"/>
+<rect x="239" y="74" width="42" height="52" fill="#e8c53c" stroke="#8a6d1e" stroke-width="1.2"/>
+<text x="348" y="88" text-anchor="middle" font-size="13" font-weight="bold" fill="#8a6d1e">YELLOW</text>
+<text x="348" y="106" text-anchor="middle" font-size="10.5" fill="#333">Infectious waste</text>
+<g font-size="9.5" fill="#333">
+<text x="239" y="146">Dressings, blood-soiled items,</text>
+<text x="239" y="162">tissues, placenta, gloves.</text>
+<text x="239" y="182" font-style="italic">Sharps: rigid puncture-proof box.</text>
+</g>
+
+<rect x="430" y="60" width="190" height="132" fill="#f0e6db" stroke="#7a5230" stroke-width="1.8"/>
+<rect x="444" y="74" width="42" height="52" fill="#8a5a30" stroke="#4a2f18" stroke-width="1.2"/>
+<text x="553" y="88" text-anchor="middle" font-size="13" font-weight="bold" fill="#7a5230">BROWN</text>
+<text x="553" y="106" text-anchor="middle" font-size="10.5" fill="#333">Pharmaceutical / chemical</text>
+<g font-size="9.5" fill="#333">
+<text x="444" y="146">Expired drugs, cytotoxics,</text>
+<text x="444" y="162">laboratory reagents, mercury.</text>
+<text x="444" y="182" font-style="italic">Never poured down a sink.</text>
+</g>
+
+<rect x="20" y="206" width="600" height="92" fill="#f7ecec" stroke="#8b2f2f" stroke-width="1.8"/>
+<text x="320" y="226" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#8b2f2f">THE SHARPS RULES THAT ACTUALLY PREVENT INJURIES</text>
+<g font-size="10" fill="#222">
+<text x="34" y="248">The box goes within arm's reach of the procedure, not across the room. Most injuries happen while walking.</text>
+<text x="34" y="266">Never recap. Never decant. Never press waste down with a hand. Seal and replace at three quarters full.</text>
+<text x="34" y="284">The person who used the needle disposes of it. Accountability does not pass to the cleaner.</text>
+</g>
+
+<rect x="20" y="312" width="290" height="120" fill="#eaf3ea" stroke="#1a5c3a" stroke-width="1.7"/>
+<text x="165" y="332" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a5c3a">WHY SEGREGATION IS AT SOURCE</text>
+<g font-size="9.5" fill="#222">
+<text x="32" y="352">Only the person generating the waste</text>
+<text x="32" y="368">knows what it is. Sorting later means</text>
+<text x="32" y="384">handling it twice and exposing a</text>
+<text x="32" y="400">second worker.</text>
+<text x="32" y="420" font-style="italic">One dressing in a black bag makes the</text>
+<text x="32" y="434" font-style="italic">whole bag infectious.</text>
+</g>
+
+<rect x="326" y="312" width="294" height="120" fill="#eef4f8" stroke="#5a86a8" stroke-width="1.7"/>
+<text x="473" y="332" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a3a5c">WHO IS AT RISK DOWNSTREAM</text>
+<g font-size="9.5" fill="#222">
+<text x="338" y="352">Cleaners, porters, drivers, incinerator</text>
+<text x="338" y="368">staff and waste pickers at the dump.</text>
+<text x="338" y="384">None of them chose the risk and most</text>
+<text x="338" y="400">have no gloves.</text>
+<text x="338" y="420" font-style="italic">Segregation protects people you will</text>
+<text x="338" y="434" font-style="italic">never meet.</text>
+</g>
+<text x="320" y="452" text-anchor="middle" font-size="10" font-style="italic" fill="#8b2f2f">Mixing turns 15% hazardous waste into 100% hazardous waste, and multiplies the cost of treating it.</text>
+</svg>

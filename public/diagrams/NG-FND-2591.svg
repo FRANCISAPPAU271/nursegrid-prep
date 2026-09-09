@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 620" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.row{fill:#f2f7fa}
+</style>
+<rect width="880" height="620" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Vital signs: normal adult ranges and the errors that fake them</text>
+
+<rect class="box" x="24" y="48" width="832" height="212"/>
+<rect class="row" x="34" y="60" width="812" height="30"/>
+<text class="h" x="48" y="81">SIGN</text><text class="h" x="300" y="81">ADULT NORMAL</text><text class="h" x="540" y="81">WHAT MAKES IT WRONG</text>
+<text class="b" x="48" y="112">Temperature</text><text class="b" x="300" y="112">36.1 to 37.2 degrees C</text><text class="s" x="540" y="112">Hot drink, site, poor contact</text>
+<rect class="row" x="34" y="122" width="812" height="30"/>
+<text class="b" x="48" y="143">Pulse</text><text class="b" x="300" y="143">60 to 100 per minute</text><text class="s" x="540" y="143">Counting 15 s when irregular</text>
+<text class="b" x="48" y="174">Respirations</text><text class="b" x="300" y="174">12 to 20 per minute</text><text class="s" x="540" y="174">Telling the patient you are counting</text>
+<rect class="row" x="34" y="184" width="812" height="30"/>
+<text class="b" x="48" y="205">Blood pressure</text><text class="b" x="300" y="205">below 120 over 80</text><text class="s" x="540" y="205">Wrong cuff size, arm not at heart level</text>
+<text class="b" x="48" y="236">Oxygen saturation</text><text class="b" x="300" y="236">95 to 100 per cent</text><text class="s" x="540" y="236">Cold hands, nail varnish, movement</text>
+
+<rect class="warn" x="24" y="278" width="410" height="176"/>
+<text class="k" x="42" y="302">Blood pressure — the cuff decides the number</text>
+<text class="b" x="42" y="330">Cuff TOO SMALL → reading too HIGH</text>
+<text class="b" x="42" y="352">Cuff TOO LARGE → reading too LOW</text>
+<text class="s" x="42" y="378">Bladder should cover about 80 per cent of</text>
+<text class="s" x="42" y="396">the arm circumference.</text>
+<text class="k" x="42" y="424">Arm BELOW heart level → falsely high</text>
+<text class="k" x="42" y="444">Arm ABOVE heart level → falsely low</text>
+
+<rect class="ok" x="450" y="278" width="406" height="176"/>
+<text class="h" x="468" y="302">Counting respirations — the trick</text>
+<text class="b" x="468" y="330">Breathing is partly under voluntary control.</text>
+<text class="b" x="468" y="352">If the patient knows you are counting,</text>
+<text class="b" x="468" y="374">the rate you measure is not their real rate.</text>
+<text class="k" x="468" y="404">Keep your fingers on the pulse and count</text>
+<text class="k" x="468" y="424">the breaths without saying anything.</text>
+<text class="i" x="468" y="446">Count a full minute if it is irregular.</text>
+
+<rect class="box" x="24" y="472" width="832" height="132"/>
+<text class="h" x="42" y="496">Postural (orthostatic) hypotension — how to measure it</text>
+<text class="b" x="42" y="522">Lie the patient flat for 5 minutes and record BP and pulse. Stand them, then record again at 1 and 3 minutes.</text>
+<text class="k" x="42" y="550">POSITIVE if systolic falls 20 mmHg or more, or diastolic falls 10 mmHg or more.</text>
+<text class="b" x="42" y="578">A rising pulse with a falling BP suggests volume depletion. Stay with the patient — this is a falls risk.</text>
+<text class="i" x="42" y="598">Common causes: dehydration, bleeding, antihypertensives, diuretics, prolonged bed rest, autonomic neuropathy.</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 620" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.ok{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.row{fill:#f2f7fa}
+.pur{fill:#6b4a8c}.pnk{fill:#b5426a}
+</style>
+<rect width="880" height="620" fill="#f7fafb"/>
+<text class="t" x="24" y="32">The Gram stain — the first thing the laboratory tells you</text>
+
+<rect class="ok" x="24" y="48" width="410" height="196"/>
+<circle cx="66" cy="86" r="16" class="pur"/>
+<text class="h" x="96" y="80">GRAM POSITIVE</text><text class="s" x="96" y="98">stains PURPLE / violet</text>
+<text class="b" x="42" y="128">Thick peptidoglycan wall holds the crystal</text>
+<text class="b" x="42" y="146">violet even after the decolouriser.</text>
+<text class="s" x="42" y="174">Staphylococcus — clusters, like grapes</text>
+<text class="s" x="42" y="194">Streptococcus — chains</text>
+<text class="s" x="42" y="214">Clostridium — rods, spore forming</text>
+<text class="s" x="42" y="234">More susceptible to penicillin</text>
+
+<rect class="warn" x="450" y="48" width="406" height="196"/>
+<circle cx="492" cy="86" r="16" class="pnk"/>
+<text class="h" x="522" y="80">GRAM NEGATIVE</text><text class="s" x="522" y="98">stains PINK / red</text>
+<text class="b" x="468" y="128">Thin wall plus an outer membrane. It loses</text>
+<text class="b" x="468" y="146">the violet and takes the counterstain.</text>
+<text class="s" x="468" y="174">Escherichia coli · Klebsiella · Salmonella</text>
+<text class="s" x="468" y="194">Shigella · Pseudomonas · Vibrio cholerae</text>
+<text class="s" x="468" y="214">Neisseria — diplococci, in pairs</text>
+<text class="k" x="468" y="234">Outer membrane = ENDOTOXIN = septic shock</text>
+
+<rect class="box" x="24" y="262" width="832" height="150"/>
+<text class="h" x="42" y="286">Shape and arrangement — say it in this order and you have named the organism</text>
+<rect class="row" x="34" y="298" width="812" height="28"/>
+<text class="h" x="48" y="317">SHAPE</text><text class="h" x="250" y="317">ARRANGEMENT</text><text class="h" x="500" y="317">EXAMPLE</text>
+<text class="b" x="48" y="346">Coccus — round</text><text class="b" x="250" y="346">Clusters</text><text class="b" x="500" y="346">Staphylococcus aureus</text>
+<rect class="row" x="34" y="356" width="812" height="28"/>
+<text class="b" x="48" y="375">Coccus — round</text><text class="b" x="250" y="375">Chains</text><text class="b" x="500" y="375">Streptococcus pyogenes</text>
+<text class="b" x="48" y="404">Bacillus — rod</text><text class="b" x="250" y="404">Single or in pairs</text><text class="b" x="500" y="404">Escherichia coli</text>
+
+<rect class="box" x="24" y="430" width="410" height="176"/>
+<text class="h" x="42" y="454">Oxygen requirement</text>
+<text class="b" x="42" y="480">AEROBE — needs oxygen to grow</text>
+<text class="b" x="42" y="502">ANAEROBE — grows only without it</text>
+<text class="s" x="42" y="520">Tetanus, gas gangrene, deep abscess, bowel</text>
+<text class="b" x="42" y="544">FACULTATIVE — grows either way</text>
+<text class="s" x="42" y="562">Most of the organisms you meet on the ward</text>
+<text class="i" x="42" y="590">A deep dirty wound is an anaerobic environment,</text>
+<text class="i" x="42" y="602">which is why it is left open, not tightly closed.</text>
+
+<rect class="warn" x="450" y="430" width="406" height="176"/>
+<text class="k" x="468" y="454">Two structures that decide the question</text>
+<text class="b" x="468" y="482">SPORE — a dormant armoured form.</text>
+<text class="s" x="468" y="500">Survives boiling, drying, alcohol and most</text>
+<text class="s" x="468" y="518">disinfectants. Needs the AUTOCLAVE.</text>
+<text class="s" x="468" y="536">Clostridium tetani, C. difficile, anthrax.</text>
+<text class="b" x="468" y="562">CAPSULE — a slime coat that hides the</text>
+<text class="s" x="468" y="580">organism from white cells. Pneumococcus,</text>
+<text class="s" x="468" y="598">meningococcus, Klebsiella. It is why these</text>
+</svg>

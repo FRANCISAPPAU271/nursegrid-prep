@@ -1,0 +1,33 @@
+<svg viewBox="0 0 470 280" role="img" xmlns="http://www.w3.org/2000/svg"><title>Reading an arterial blood gas</title>
+<rect width="470" height="280" fill="#f6f8fc"/>
+<text x="235" y="20" font-size="12.5" text-anchor="middle" font-family="system-ui" font-weight="700">Reading a blood gas in three steps</text>
+<rect x="14" y="30" width="442" height="34" rx="8" fill="#fff" stroke="#2b6fa8" stroke-width="2"/>
+<text x="235" y="44" font-size="10.5" text-anchor="middle" font-family="system-ui" font-weight="700">Normals:  pH 7.35 – 7.45   ·   PaCO2 4.7 – 6.0 kPa   ·   HCO3 22 – 26 mmol/L</text>
+<text x="235" y="58" font-size="9.5" text-anchor="middle" font-family="system-ui" fill="#5a6b85">CO2 is the lung acid. Bicarbonate is the kidney base.</text>
+<g font-family="system-ui">
+<rect x="14" y="74" width="145" height="30" rx="6" fill="#eef3f9"/>
+<text x="86" y="94" font-size="10.5" text-anchor="middle" font-weight="700">1. Look at pH</text>
+<rect x="163" y="74" width="145" height="30" rx="6" fill="#eef3f9"/>
+<text x="235" y="94" font-size="10.5" text-anchor="middle" font-weight="700">2. Which one matches?</text>
+<rect x="312" y="74" width="144" height="30" rx="6" fill="#eef3f9"/>
+<text x="384" y="94" font-size="10.5" text-anchor="middle" font-weight="700">3. Has the other moved?</text>
+</g>
+<g font-family="system-ui">
+<rect x="14" y="114" width="218" height="72" rx="8" fill="#fde8e6" stroke="#e2574c" stroke-width="2"/>
+<text x="123" y="132" font-size="11.5" text-anchor="middle" font-weight="700" fill="#a8352c">pH below 7.35 — ACIDOSIS</text>
+<text x="26" y="152" font-size="10">CO2 HIGH  →  respiratory acidosis</text>
+<text x="26" y="166" font-size="9.5" fill="#5a6b85">hypoventilation, COPD, opioid, airway</text>
+<text x="26" y="180" font-size="10">HCO3 LOW  →  metabolic acidosis</text>
+<rect x="240" y="114" width="216" height="72" rx="8" fill="#e8f1f8" stroke="#2b6fa8" stroke-width="2"/>
+<text x="348" y="132" font-size="11.5" text-anchor="middle" font-weight="700" fill="#2b6fa8">pH above 7.45 — ALKALOSIS</text>
+<text x="252" y="152" font-size="10">CO2 LOW  →  respiratory alkalosis</text>
+<text x="252" y="166" font-size="9.5" fill="#5a6b85">hyperventilation, pain, anxiety, sepsis</text>
+<text x="252" y="180" font-size="10">HCO3 HIGH  →  metabolic alkalosis</text>
+</g>
+<rect x="14" y="196" width="442" height="34" rx="8" fill="#fff" stroke="#0f9d76" stroke-width="2"/>
+<text x="235" y="210" font-size="10.5" text-anchor="middle" font-family="system-ui" font-weight="700">The value moving the SAME way as the pH problem is the cause</text>
+<text x="235" y="224" font-size="9.5" text-anchor="middle" font-family="system-ui" fill="#5a6b85">The value moving the opposite way is compensation, not the cause</text>
+<rect x="14" y="238" width="442" height="34" rx="8" fill="#fff8e8" stroke="#f2b705" stroke-width="2"/>
+<text x="235" y="252" font-size="10" text-anchor="middle" font-family="system-ui" font-weight="700">Worked: pH 7.21, CO2 4.8 (normal), HCO3 12 (low)  →  metabolic acidosis, uncompensated</text>
+<text x="235" y="265" font-size="9.5" text-anchor="middle" font-family="system-ui" fill="#5a6b85">Common causes in Ghana: severe diarrhoea, diabetic ketoacidosis, shock, severe malaria</text>
+</svg>

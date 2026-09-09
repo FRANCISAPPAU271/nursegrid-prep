@@ -1,0 +1,47 @@
+<svg viewBox="0 0 640 450" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Georgia, serif">
+<rect width="640" height="450" fill="#fbfaf7"/>
+<text x="320" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a3a5c">DELIRIUM, DEMENTIA, DEPRESSION: THE THREE Ds</text>
+<text x="320" y="45" text-anchor="middle" font-size="11" fill="#555">Confusion in an older adult is a symptom, not a diagnosis. Getting this wrong costs lives.</text>
+
+<rect x="24" y="58" width="592" height="26" fill="#1a3a5c"/>
+<text x="120" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">FEATURE</text>
+<text x="290" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">DELIRIUM</text>
+<text x="440" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">DEMENTIA</text>
+<text x="565" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">DEPRESSION</text>
+
+<rect x="24" y="84" width="592" height="30" fill="#eef4f8" stroke="#5a86a8"/>
+<text x="34" y="104" font-size="9.5" fill="#222">Onset</text><text x="230" y="104" font-size="9.5" fill="#222">Hours to days</text><text x="390" y="104" font-size="9.5" fill="#222">Months to years</text><text x="520" y="104" font-size="9.5" fill="#222">Weeks</text>
+<rect x="24" y="114" width="592" height="30" fill="#fff" stroke="#5a86a8"/>
+<text x="34" y="134" font-size="9.5" fill="#222">Attention</text><text x="230" y="134" font-size="9.5" fill="#8b2f2f" font-weight="bold">Cannot hold it</text><text x="390" y="134" font-size="9.5" fill="#222">Preserved early</text><text x="520" y="134" font-size="9.5" fill="#222">Poor effort</text>
+<rect x="24" y="144" width="592" height="30" fill="#eef4f8" stroke="#5a86a8"/>
+<text x="34" y="164" font-size="9.5" fill="#222">Course in a day</text><text x="230" y="164" font-size="9.5" fill="#8b2f2f" font-weight="bold">Fluctuates, worse at night</text><text x="390" y="164" font-size="9.5" fill="#222">Stable</text><text x="520" y="164" font-size="9.5" fill="#222">Worse mornings</text>
+<rect x="24" y="174" width="592" height="30" fill="#fff" stroke="#5a86a8"/>
+<text x="34" y="194" font-size="9.5" fill="#222">Consciousness</text><text x="230" y="194" font-size="9.5" fill="#8b2f2f" font-weight="bold">Clouded</text><text x="390" y="194" font-size="9.5" fill="#222">Clear</text><text x="520" y="194" font-size="9.5" fill="#222">Clear</text>
+<rect x="24" y="204" width="592" height="30" fill="#eef4f8" stroke="#5a86a8"/>
+<text x="34" y="224" font-size="9.5" fill="#222">Reversible</text><text x="230" y="224" font-size="9.5" fill="#8b2f2f" font-weight="bold">Yes, if the cause is found</text><text x="390" y="224" font-size="9.5" fill="#222">No</text><text x="520" y="224" font-size="9.5" fill="#222">Yes</text>
+
+<rect x="24" y="248" width="592" height="72" fill="#f7ecec" stroke="#8b2f2f" stroke-width="1.8"/>
+<text x="320" y="268" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b2f2f">NEW CONFUSION IS A PHYSICAL EMERGENCY UNTIL PROVED OTHERWISE</text>
+<g font-size="10" fill="#222">
+<text x="40" y="290">Look for infection, hypoxia, pain, retention, constipation, dehydration, low sodium, low glucose, and drugs.</text>
+<text x="40" y="308">Sedating a delirious patient without finding the cause treats your difficulty, not her illness.</text>
+</g>
+
+<rect x="24" y="334" width="290" height="100" fill="#eaf3ea" stroke="#1a5c3a" stroke-width="1.7"/>
+<text x="169" y="354" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1a5c3a">WHAT HELPS IN DEMENTIA CARE</text>
+<g font-size="9.5" fill="#222">
+<text x="36" y="374">Familiar faces, routine, light by day,</text>
+<text x="36" y="390">glasses and hearing aids in place,</text>
+<text x="36" y="406">one instruction at a time, and</text>
+<text x="36" y="422">answering the feeling, not the fact.</text>
+</g>
+
+<rect x="326" y="334" width="290" height="100" fill="#fdf6e6" stroke="#c8a54b" stroke-width="1.7"/>
+<text x="471" y="354" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#8a6d1e">WHEN SHE ASKS FOR HER DEAD MOTHER</text>
+<g font-size="9.5" fill="#222">
+<text x="338" y="374">Repeating the death makes her hear</text>
+<text x="338" y="390">it for the first time, every time.</text>
+<text x="338" y="410" font-style="italic">Ask about her mother instead. The</text>
+<text x="338" y="426" font-style="italic">need behind the question is comfort.</text>
+</g>
+</svg>

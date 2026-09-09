@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 620" role="img">
+<style>
+.t{font:700 19px Georgia,serif;fill:#0f5a52}.h{font:700 14px Georgia,serif;fill:#123}
+.b{font:13px Georgia,serif;fill:#26333d}.s{font:12px Georgia,serif;fill:#5a6b78}
+.k{font:700 13px Georgia,serif;fill:#8c2f1d}.i{font:italic 12px Georgia,serif;fill:#5a6b78}
+.box{fill:#fff;stroke:#c3d2dd;stroke-width:1.4;rx:8}
+.warn{fill:#fdf0ec;stroke:#c9714f;stroke-width:1.6;rx:8}
+.good{fill:#eef7f1;stroke:#7ba98c;stroke-width:1.4;rx:8}
+</style>
+<rect width="860" height="620" fill="#f7fafb"/>
+<text class="t" x="24" y="32">Consent: the three things that must all be true</text>
+<text class="i" x="24" y="52">Miss any one of them and there is no consent at all. It is not a scale — it is all or nothing.</text>
+
+<rect class="good" x="24" y="66" width="256" height="128"/>
+<text class="h" x="40" y="90">1. Freely given</text>
+<text class="b" x="40" y="112">No pressure, no threat,</text>
+<text class="b" x="40" y="130">no inducement.</text>
+<text class="s" x="40" y="152">A patient who agrees because</text>
+<text class="s" x="40" y="168">staff are annoyed has not</text>
+<text class="s" x="40" y="184">freely agreed.</text>
+
+<rect class="good" x="298" y="66" width="256" height="128"/>
+<text class="h" x="314" y="90">2. Capacity</text>
+<text class="b" x="314" y="112">Sound mind, and</text>
+<text class="b" x="314" y="130">18 years or older.</text>
+<text class="s" x="314" y="152">Capacity is presumed in an</text>
+<text class="s" x="314" y="168">adult and is judged for this</text>
+<text class="s" x="314" y="184">decision, at this moment.</text>
+
+<rect class="good" x="572" y="66" width="264" height="128"/>
+<text class="h" x="588" y="90">3. Informed</text>
+<text class="b" x="588" y="112">Told the condition, the plan,</text>
+<text class="b" x="588" y="130">the risks, the alternatives.</text>
+<text class="s" x="588" y="152">Including the option of</text>
+<text class="s" x="588" y="168">having nothing done at all.</text>
+
+<rect class="warn" x="24" y="212" width="812" height="96"/>
+<text class="k" x="40" y="236">In Ghana the age of consent to treatment is 18 — Article 28(5) and the Children's Act, 1998 (Act 560).</text>
+<text class="b" x="40" y="258">Gillick competence, familiar from British textbooks, does not apply here. A mature 16-year-old cannot</text>
+<text class="b" x="40" y="276">consent for herself. A parent or guardian consents, except in an emergency where waiting would cause harm.</text>
+<text class="i" x="40" y="296">Beware: many revision books are written for the UK. On this point they are wrong for Ghana.</text>
+
+<rect class="box" x="24" y="326" width="398" height="132"/>
+<text class="h" x="40" y="350">What the signature is</text>
+<text class="b" x="40" y="372">A receipt. It records that a</text>
+<text class="b" x="40" y="390">conversation happened.</text>
+<text class="s" x="40" y="414">A signed form with no conversation</text>
+<text class="s" x="40" y="430">behind it is worthless in law, and</text>
+<text class="s" x="40" y="446">the patient can still refuse.</text>
+
+<rect class="box" x="438" y="326" width="398" height="132"/>
+<text class="h" x="454" y="350">Whose job is it</text>
+<text class="b" x="454" y="372">The person doing the procedure</text>
+<text class="b" x="454" y="390">obtains the consent.</text>
+<text class="s" x="454" y="414">A nurse may witness a signature</text>
+<text class="s" x="454" y="430">and must stop the process if the</text>
+<text class="s" x="454" y="446">patient clearly does not understand.</text>
+
+<rect class="warn" x="24" y="476" width="812" height="120"/>
+<text class="k" x="40" y="500">Touching an adult without valid consent is assault, whatever the clinical benefit.</text>
+<text class="b" x="40" y="524">A competent adult may refuse treatment for reasons that seem unwise, or for no reason at all,</text>
+<text class="b" x="40" y="542">and may withdraw consent at any moment, including part-way through a procedure.</text>
+<text class="k" x="40" y="568">Refusing treatment is never refusing care. The duty to comfort, explain and remain does not end.</text>
+<text class="i" x="40" y="588">Record the refusal, the explanation given and who was informed. Then keep caring.</text>
+</svg>

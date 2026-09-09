@@ -1,0 +1,21 @@
+<svg viewBox="0 0 470 240" role="img" xmlns="http://www.w3.org/2000/svg"><title>Chain of infection</title>
+<rect width="470" height="240" fill="#f6f8fc"/>
+<text x="235" y="24" font-size="12.5" text-anchor="middle" font-family="system-ui" font-weight="700">Break ANY link and transmission stops</text>
+<g font-family="system-ui" text-anchor="middle">
+<circle cx="235" cy="62" r="26" fill="#0a1628"/><text x="235" y="60" font-size="9" fill="#fff" font-weight="700">INFECTIOUS</text><text x="235" y="71" font-size="9" fill="#fff" font-weight="700">AGENT</text>
+<circle cx="352" cy="105" r="26" fill="#2b4a6f"/><text x="352" y="103" font-size="9" fill="#fff" font-weight="700">RESERVOIR</text><text x="352" y="114" font-size="8" fill="#fff">people, water</text>
+<circle cx="330" cy="185" r="26" fill="#0f9d76"/><text x="330" y="183" font-size="9" fill="#fff" font-weight="700">PORTAL</text><text x="330" y="194" font-size="8" fill="#fff">of exit</text>
+<circle cx="140" cy="185" r="26" fill="#e2574c"/><text x="140" y="180" font-size="9" fill="#fff" font-weight="700">MODE OF</text><text x="140" y="191" font-size="9" fill="#fff" font-weight="700">SPREAD</text>
+<circle cx="118" cy="105" r="26" fill="#2b4a6f"/><text x="118" y="103" font-size="9" fill="#fff" font-weight="700">PORTAL</text><text x="118" y="114" font-size="8" fill="#fff">of entry</text>
+</g>
+<path d="M258 76 A70 70 0 0 1 336 88" fill="none" stroke="#8aa0bf" stroke-width="2" marker-end="url(#c1)"/>
+<path d="M354 132 A70 70 0 0 1 344 160" fill="none" stroke="#8aa0bf" stroke-width="2" marker-end="url(#c1)"/>
+<path d="M304 196 A90 90 0 0 1 168 196" fill="none" stroke="#8aa0bf" stroke-width="2" marker-end="url(#c1)"/>
+<path d="M124 160 A70 70 0 0 1 116 132" fill="none" stroke="#8aa0bf" stroke-width="2" marker-end="url(#c1)"/>
+<path d="M134 88 A70 70 0 0 1 210 74" fill="none" stroke="#8aa0bf" stroke-width="2" marker-end="url(#c1)"/>
+<defs><marker id="c1" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0 0 L7 3 L0 6 z" fill="#8aa0bf"/></marker></defs>
+<rect x="150" y="120" width="170" height="42" rx="8" fill="#fff" stroke="#e2574c" stroke-width="2"/>
+<text x="235" y="138" font-size="11" text-anchor="middle" font-family="system-ui" font-weight="700" fill="#e2574c">HAND HYGIENE</text>
+<text x="235" y="153" font-size="9.5" text-anchor="middle" font-family="system-ui">breaks the easiest link</text>
+<text x="235" y="228" font-size="10.5" text-anchor="middle" font-family="system-ui" fill="#5a6b85">Susceptible host completes the circle back to the agent</text>
+</svg>
