@@ -9,10 +9,10 @@
 // browser.
 
 /** Exact number of authored questions currently shipped. */
-export const QUESTION_COUNT = 3119;
+export const QUESTION_COUNT = 3199;
 
 /** Rounded-down marketing label, e.g. "2,900+". Always <= QUESTION_COUNT. */
 export const QUESTION_COUNT_LABEL = "3,100+";
 
 /** Number of questions carrying an original diagram. */
-export const DIAGRAM_COUNT = 557;
+export const DIAGRAM_COUNT = 566;

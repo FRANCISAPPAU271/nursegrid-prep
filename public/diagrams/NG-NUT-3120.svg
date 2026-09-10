@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 260" role="img" aria-label="Order of feeding preference for a preterm infant and the reason for each">
+<rect width="460" height="260" fill="#ffffff"/>
+<text x="230" y="22" text-anchor="middle" font-family="Georgia,serif" font-size="15" font-weight="bold" fill="#14532d">Feeding a preterm baby: order of preference</text>
+<rect x="30" y="40" width="400" height="34" rx="4" fill="#dcfce7" stroke="#14532d" stroke-width="1.8"/>
+<text x="42" y="62" font-family="Georgia,serif" font-size="12" font-weight="bold">1. Mother's own milk</text>
+<text x="230" y="62" font-family="Georgia,serif" font-size="10.5">expressed if too small to suckle</text>
+<rect x="30" y="80" width="400" height="34" rx="4" fill="#ecfccb" stroke="#4d7c0f"/>
+<text x="42" y="102" font-family="Georgia,serif" font-size="12" font-weight="bold">2. Donor human milk</text>
+<text x="230" y="102" font-family="Georgia,serif" font-size="10.5">where a screened milk bank exists</text>
+<rect x="30" y="120" width="400" height="34" rx="4" fill="#fef3c7" stroke="#92400e"/>
+<text x="42" y="142" font-family="Georgia,serif" font-size="12" font-weight="bold">3. Preterm formula</text>
+<text x="230" y="142" font-family="Georgia,serif" font-size="10.5">only when human milk is unavailable</text>
+<line x1="30" y1="168" x2="430" y2="168" stroke="#cbd5e1"/>
+<text x="30" y="190" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7c2d12">Why human milk matters most here</text>
+<text x="42" y="210" font-family="Georgia,serif" font-size="11">• sharply lowers necrotising enterocolitis, the great danger of the preterm gut</text>
+<text x="42" y="228" font-family="Georgia,serif" font-size="11">• living cells and antibodies the gut cannot yet make for itself</text>
+<text x="42" y="246" font-family="Georgia,serif" font-size="11">• start small, advance slowly, and never stop expressing to keep supply</text>
+</svg>

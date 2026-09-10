@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 250" role="img" aria-label="The clustered features of metabolic syndrome around central obesity">
+<rect width="460" height="250" fill="#ffffff"/>
+<text x="230" y="22" text-anchor="middle" font-family="Georgia,serif" font-size="15" font-weight="bold" fill="#14532d">Metabolic syndrome: a cluster, not one number</text>
+<ellipse cx="230" cy="130" rx="66" ry="42" fill="#fecaca" stroke="#991b1b" stroke-width="2"/>
+<text x="230" y="126" text-anchor="middle" font-family="Georgia,serif" font-size="12" font-weight="bold">Central</text>
+<text x="230" y="143" text-anchor="middle" font-family="Georgia,serif" font-size="12" font-weight="bold">obesity</text>
+<rect x="20" y="52" width="150" height="40" rx="4" fill="#e0f2fe" stroke="#1e3a8a"/>
+<text x="95" y="70" text-anchor="middle" font-family="Georgia,serif" font-size="11" font-weight="bold">Raised blood pressure</text>
+<text x="95" y="85" text-anchor="middle" font-family="Georgia,serif" font-size="10">130/85 mmHg or above</text>
+<rect x="290" y="52" width="150" height="40" rx="4" fill="#e0f2fe" stroke="#1e3a8a"/>
+<text x="365" y="70" text-anchor="middle" font-family="Georgia,serif" font-size="11" font-weight="bold">Raised glucose</text>
+<text x="365" y="85" text-anchor="middle" font-family="Georgia,serif" font-size="10">fasting 5.6 mmol/L or above</text>
+<rect x="20" y="170" width="150" height="40" rx="4" fill="#fef3c7" stroke="#92400e"/>
+<text x="95" y="188" text-anchor="middle" font-family="Georgia,serif" font-size="11" font-weight="bold">Raised triglycerides</text>
+<text x="95" y="203" text-anchor="middle" font-family="Georgia,serif" font-size="10">1.7 mmol/L or above</text>
+<rect x="290" y="170" width="150" height="40" rx="4" fill="#fef3c7" stroke="#92400e"/>
+<text x="365" y="188" text-anchor="middle" font-family="Georgia,serif" font-size="11" font-weight="bold">Low HDL cholesterol</text>
+<text x="365" y="203" text-anchor="middle" font-family="Georgia,serif" font-size="10">the protective fraction falls</text>
+<line x1="170" y1="80" x2="185" y2="105" stroke="#334155"/>
+<line x1="290" y1="80" x2="275" y2="105" stroke="#334155"/>
+<line x1="170" y1="182" x2="185" y2="158" stroke="#334155"/>
+<line x1="290" y1="182" x2="275" y2="158" stroke="#334155"/>
+<text x="230" y="235" text-anchor="middle" font-family="Georgia,serif" font-size="11" font-style="italic" fill="#334155">Waist circumference detects the risk that body mass index alone can miss.</text>
+</svg>

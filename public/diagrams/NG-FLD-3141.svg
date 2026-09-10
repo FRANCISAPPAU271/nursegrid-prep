@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 250" role="img" aria-label="Where fluid is lost along the gut and which acid base disturbance results">
+<rect width="460" height="250" fill="#ffffff"/>
+<text x="230" y="22" text-anchor="middle" font-family="Georgia,serif" font-size="15" font-weight="bold" fill="#14532d">Read the site of the loss</text>
+<rect x="26" y="40" width="408" height="26" fill="#e2e8f0" stroke="#334155"/>
+<text x="38" y="58" font-family="Georgia,serif" font-size="11.5" font-weight="bold">Where it is lost</text>
+<text x="196" y="58" font-family="Georgia,serif" font-size="11.5" font-weight="bold">What is lost</text>
+<text x="330" y="58" font-family="Georgia,serif" font-size="11.5" font-weight="bold">Result</text>
+<rect x="26" y="66" width="408" height="34" fill="#e0f2fe" stroke="#1e3a8a"/>
+<text x="38" y="87" font-family="Georgia,serif" font-size="11">Vomiting, gastric aspirate</text>
+<text x="196" y="87" font-family="Georgia,serif" font-size="11">H⁺, Cl⁻, K⁺</text>
+<text x="330" y="87" font-family="Georgia,serif" font-size="11" font-weight="bold">ALKALOSIS</text>
+<rect x="26" y="100" width="408" height="34" fill="#fee2e2" stroke="#991b1b"/>
+<text x="38" y="121" font-family="Georgia,serif" font-size="11">Diarrhoea, ileostomy, fistula</text>
+<text x="196" y="121" font-family="Georgia,serif" font-size="11">HCO₃⁻, K⁺, Na⁺</text>
+<text x="330" y="121" font-family="Georgia,serif" font-size="11" font-weight="bold">ACIDOSIS</text>
+<rect x="26" y="134" width="408" height="34" fill="#fef3c7" stroke="#92400e"/>
+<text x="38" y="155" font-family="Georgia,serif" font-size="11">Sweat, burns, fever</text>
+<text x="196" y="155" font-family="Georgia,serif" font-size="11">water, Na⁺, Cl⁻</text>
+<text x="330" y="155" font-family="Georgia,serif" font-size="11">volume depletion</text>
+<rect x="26" y="168" width="408" height="34" fill="#ede9fe" stroke="#5b21b6"/>
+<text x="38" y="189" font-family="Georgia,serif" font-size="11">Diuretics (loop, thiazide)</text>
+<text x="196" y="189" font-family="Georgia,serif" font-size="11">K⁺, Na⁺, Mg²⁺, H⁺</text>
+<text x="330" y="189" font-family="Georgia,serif" font-size="11">alkalosis, low K⁺</text>
+<text x="230" y="222" text-anchor="middle" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7c2d12">Replace what that fluid actually contained.</text>
+<text x="230" y="242" text-anchor="middle" font-family="Georgia,serif" font-size="10.8" font-style="italic" fill="#334155">Gastric losses need chloride and potassium; lower gut losses need bicarbonate.</text>
+</svg>

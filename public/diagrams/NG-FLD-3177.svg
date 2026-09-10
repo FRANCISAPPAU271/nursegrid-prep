@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 272" role="img" aria-label="WHO Plan C intravenous rehydration schedule for severe dehydration by age">
+<rect width="470" height="272" fill="#ffffff"/>
+<text x="235" y="22" text-anchor="middle" font-family="Georgia,serif" font-size="15" font-weight="bold" fill="#14532d">Plan C: severe dehydration, 100 mL/kg Ringer's lactate</text>
+<rect x="24" y="38" width="422" height="26" fill="#e2e8f0" stroke="#334155"/>
+<text x="36" y="56" font-family="Georgia,serif" font-size="11.5" font-weight="bold">Age</text>
+<text x="150" y="56" font-family="Georgia,serif" font-size="11.5" font-weight="bold">First 30 mL/kg</text>
+<text x="300" y="56" font-family="Georgia,serif" font-size="11.5" font-weight="bold">Then 70 mL/kg</text>
+<rect x="24" y="64" width="422" height="36" fill="#e0f2fe" stroke="#1e3a8a"/>
+<text x="36" y="87" font-family="Georgia,serif" font-size="11.5">Under 12 months</text>
+<text x="150" y="87" font-family="Georgia,serif" font-size="11.5" font-weight="bold">in 1 hour</text>
+<text x="300" y="87" font-family="Georgia,serif" font-size="11.5" font-weight="bold">over 5 hours</text>
+<rect x="24" y="100" width="422" height="36" fill="#dcfce7" stroke="#14532d"/>
+<text x="36" y="123" font-family="Georgia,serif" font-size="11.5">12 months to 5 years</text>
+<text x="150" y="123" font-family="Georgia,serif" font-size="11.5" font-weight="bold">in 30 minutes</text>
+<text x="300" y="123" font-family="Georgia,serif" font-size="11.5" font-weight="bold">over 2½ hours</text>
+<text x="235" y="158" text-anchor="middle" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7c2d12">The infant gets the SAME volume, given SLOWER.</text>
+<rect x="24" y="170" width="422" height="60" fill="#fef3c7" stroke="#92400e"/>
+<text x="36" y="190" font-family="Georgia,serif" font-size="11" font-weight="bold">Reassess every 15–30 minutes</text>
+<text x="36" y="208" font-family="Georgia,serif" font-size="10.5">• if the pulse is still weak, repeat the first volume</text>
+<text x="36" y="224" font-family="Georgia,serif" font-size="10.5">• start oral rehydration solution as soon as the child can drink</text>
+<text x="235" y="250" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#334155">Reclassify hydration after each stage — never simply finish the bag.</text>
+<text x="235" y="266" text-anchor="middle" font-family="Georgia,serif" font-size="10.5" font-style="italic" fill="#334155">Ringer's lactate is first choice; normal saline if it is unavailable.</text>
+</svg>
