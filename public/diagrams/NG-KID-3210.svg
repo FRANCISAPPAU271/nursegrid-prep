@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 280" role="img" aria-label="What the colour of a newborn's vomit indicates about the level of obstruction">
+<rect width="470" height="280" fill="#ffffff"/>
+<text x="235" y="22" text-anchor="middle" font-family="Georgia,serif" font-size="15" font-weight="bold" fill="#14532d">The colour of the vomit locates the obstruction</text>
+<rect x="24" y="36" width="422" height="26" fill="#e2e8f0" stroke="#334155"/>
+<text x="36" y="54" font-family="Georgia,serif" font-size="11.5" font-weight="bold">Vomit</text>
+<text x="150" y="54" font-family="Georgia,serif" font-size="11.5" font-weight="bold">Level</text>
+<text x="290" y="54" font-family="Georgia,serif" font-size="11.5" font-weight="bold">Think of</text>
+<rect x="24" y="62" width="422" height="40" fill="#f8fafc" stroke="#334155"/>
+<circle cx="46" cy="82" r="9" fill="#f1f5f9" stroke="#334155"/>
+<text x="66" y="79" font-family="Georgia,serif" font-size="10.5">Milky, not</text>
+<text x="66" y="93" font-family="Georgia,serif" font-size="10.5">bile-stained</text>
+<text x="150" y="86" font-family="Georgia,serif" font-size="10.5">ABOVE the bile duct</text>
+<text x="290" y="86" font-family="Georgia,serif" font-size="10.5">pyloric stenosis</text>
+<rect x="24" y="102" width="422" height="40" fill="#fefce8" stroke="#92400e"/>
+<circle cx="46" cy="122" r="9" fill="#bbf7d0" stroke="#14532d"/>
+<text x="66" y="119" font-family="Georgia,serif" font-size="10.5">GREEN,</text>
+<text x="66" y="133" font-family="Georgia,serif" font-size="10.5">bile-stained</text>
+<text x="150" y="126" font-family="Georgia,serif" font-size="10.5">BELOW the bile duct</text>
+<text x="290" y="126" font-family="Georgia,serif" font-size="10.5" font-weight="bold" fill="#991b1b">malrotation / atresia</text>
+<rect x="24" y="142" width="422" height="40" fill="#f8fafc" stroke="#334155"/>
+<circle cx="46" cy="162" r="9" fill="#fde68a" stroke="#92400e"/>
+<text x="66" y="159" font-family="Georgia,serif" font-size="10.5">Faeculent,</text>
+<text x="66" y="173" font-family="Georgia,serif" font-size="10.5">foul</text>
+<text x="150" y="166" font-family="Georgia,serif" font-size="10.5">LOW obstruction</text>
+<text x="290" y="166" font-family="Georgia,serif" font-size="10.5">Hirschsprung, anal atresia</text>
+<rect x="24" y="194" width="422" height="44" rx="4" fill="#fee2e2" stroke="#991b1b" stroke-width="1.8"/>
+<text x="235" y="214" text-anchor="middle" font-family="Georgia,serif" font-size="12.5" font-weight="bold" fill="#991b1b">GREEN VOMIT IN A NEWBORN IS A SURGICAL EMERGENCY</text>
+<text x="235" y="231" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#7f1d1d">Malrotation with volvulus can kill the bowel within hours.</text>
+<text x="235" y="256" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#334155">Nil by mouth · pass a nasogastric tube · intravenous fluid · urgent surgical review</text>
+<text x="235" y="272" text-anchor="middle" font-family="Georgia,serif" font-size="10.5" font-style="italic" fill="#334155">Never send a bile-vomiting newborn home to be observed.</text>
+</svg>
