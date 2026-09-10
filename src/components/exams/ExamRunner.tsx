@@ -9,6 +9,7 @@ import { SkeletonList } from "@/components/ui/Skeleton";
 import { useToast } from "@/components/ui/Toast";
 import Watermark from "@/components/ui/Watermark";
 import { RichText } from "@/components/questions/RichText";
+import { EmphasisedText } from "../questions/EmphasisedText";
 
 type ExamMeta = {
   id: string;
@@ -167,7 +168,7 @@ export default function ExamRunner({ examId }: { examId: string }) {
                   {q.isCorrect ? "✓ Correct" : q.selectedChoiceId ? "✕ Incorrect" : "— Unanswered"}
                 </span>
               </div>
-              <p className="mt-3 text-sm leading-relaxed text-slate-900">{q.stem}</p>
+              <p className="mt-3 text-sm leading-relaxed text-slate-900"><EmphasisedText text={q.stem} /></p>
               <div className="mt-3 space-y-2">
                 {q.choices.map((choice) => {
                   const correctIds = q.correctChoiceId.split(",");
@@ -257,7 +258,7 @@ export default function ExamRunner({ examId }: { examId: string }) {
               <span className="rounded-full bg-indigo-100 px-2 py-0.5 text-[11px] font-bold text-indigo-700">Select all that apply</span>
             )}
           </div>
-          <p className="text-base leading-relaxed text-slate-900">{q.stem}</p>
+          <p className="text-base leading-relaxed text-slate-900"><EmphasisedText text={q.stem} /></p>
           <div className="mt-5 space-y-2.5">
             {q.choices.map((choice) => {
               const selected = q.isSata

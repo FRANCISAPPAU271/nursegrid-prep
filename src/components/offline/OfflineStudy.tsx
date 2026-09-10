@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { useToast } from "@/components/ui/Toast";
 import Watermark from "@/components/ui/Watermark";
 import { RichText } from "@/components/questions/RichText";
+import { EmphasisedText } from "../questions/EmphasisedText";
 
 // ---------------------------------------------------------------------------
 // Offline / low-data study mode.
@@ -274,7 +275,7 @@ export default function OfflineStudy() {
             </div>
           </div>
 
-          <p className="mt-4 text-base font-semibold leading-relaxed text-slate-900">{question.stem}</p>
+          <p className="mt-4 text-base font-semibold leading-relaxed text-slate-900"><EmphasisedText text={question.stem} /></p>
 
           <div className="mt-4 space-y-2">
             {question.choices.map((choice) => {

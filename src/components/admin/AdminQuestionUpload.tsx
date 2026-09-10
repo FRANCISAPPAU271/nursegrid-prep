@@ -328,7 +328,7 @@ export default function AdminQuestionUpload() {
                     onClick={() => setExpandedId((id) => (id === q.id ? null : q.id))}
                     className="min-w-0 flex-1 text-left"
                   >
-                    <p className="truncate text-sm font-semibold text-slate-900">{q.stem}</p>
+                    <p className="truncate text-sm font-semibold text-slate-900">{q.stem.replace(/\*\*/g, "")}</p>
                     <p className="mt-0.5 text-xs text-slate-500">
                       {q.categoryName} · {q.difficulty}
                       {q.isFree && " · free preview"} ·{" "}

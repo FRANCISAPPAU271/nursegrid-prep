@@ -83,7 +83,7 @@ export default function MostMissedTable({ initial }: { initial: MissedRow[] }) {
             <Fragment key={q.id}>
               <tr className="align-top hover:bg-slate-50/60">
                 <td className="max-w-md px-4 py-3">
-                  <p className="line-clamp-2 font-medium text-slate-800">{q.stem}</p>
+                  <p className="line-clamp-2 font-medium text-slate-800">{q.stem.replace(/\*\*/g, "")}</p>
                   <p className="mt-0.5 text-xs capitalize text-slate-400 sm:hidden">
                     {q.categoryName} · {q.attempts} attempts
                   </p>

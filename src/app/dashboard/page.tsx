@@ -6,6 +6,7 @@ import { and, eq, sql } from "drizzle-orm";
 import GettingStarted from "@/components/dashboard/GettingStarted";
 import { getUserExamDate } from "@/db/user-exam-date";
 import { buildWhatsAppLink } from "@/lib/contact";
+import { EmphasisedText } from "@/components/questions/EmphasisedText";
 
 export const dynamic = "force-dynamic";
 
@@ -271,7 +272,7 @@ export default async function OverviewPage() {
                 <p className="mt-2 text-xs font-semibold uppercase tracking-wide text-emerald-700">
                   {dailyQuestion.categoryName}
                 </p>
-                <p className="mt-2 text-sm text-slate-700">{dailyQuestion.stem}</p>
+                <p className="mt-2 text-sm text-slate-700"><EmphasisedText text={dailyQuestion.stem} /></p>
                 <Link
                   href="/dashboard/questions"
                   className="mt-4 inline-block rounded-lg bg-slate-900 px-3 py-2 text-xs font-semibold text-white hover:bg-slate-800"

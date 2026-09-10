@@ -6,6 +6,7 @@ import { SkeletonList } from "@/components/ui/Skeleton";
 import { useToast } from "@/components/ui/Toast";
 import Watermark from "@/components/ui/Watermark";
 import { RichText } from "@/components/questions/RichText";
+import { EmphasisedText } from "../questions/EmphasisedText";
 
 type Card = {
   questionId: string;
@@ -161,7 +162,7 @@ export default function FlashcardDeck() {
               </span>
             </div>
 
-            <p className="text-base leading-relaxed text-slate-900">{current.stem}</p>
+            <p className="text-base leading-relaxed text-slate-900"><EmphasisedText text={current.stem} /></p>
 
             {!flipped ? (
               <>

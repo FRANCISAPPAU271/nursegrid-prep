@@ -7,6 +7,7 @@ import { SkeletonList } from "@/components/ui/Skeleton";
 import { useToast } from "@/components/ui/Toast";
 import Watermark from "@/components/ui/Watermark";
 import { RichText } from "@/components/questions/RichText";
+import { EmphasisedText } from "../questions/EmphasisedText";
 
 type SessionMeta = {
   id: string;
@@ -169,7 +170,7 @@ export default function CatSessionRunner({ sessionId }: { sessionId: string }) {
                 </div>
                 <span className={`text-sm font-bold ${h.isCorrect ? "text-emerald-600" : "text-rose-600"}`}>{h.isCorrect ? "✓ Correct" : "✕ Incorrect"}</span>
               </div>
-              <p className="mt-3 text-sm leading-relaxed text-slate-900">{h.stem}</p>
+              <p className="mt-3 text-sm leading-relaxed text-slate-900"><EmphasisedText text={h.stem} /></p>
               <div className="mt-3 space-y-2">
                 {h.choices.map((choice) => {
                   const isCorrectChoice = choice.id === h.correctChoiceId;
@@ -230,7 +231,7 @@ export default function CatSessionRunner({ sessionId }: { sessionId: string }) {
             <span className={`rounded-full px-2 py-0.5 text-[11px] font-semibold capitalize ${DIFFICULTY_STYLE[question.difficulty]}`}>{question.difficulty}</span>
             <span className="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-600">{question.categoryName}</span>
           </div>
-          <p className="text-base leading-relaxed text-slate-900">{question.stem}</p>
+          <p className="text-base leading-relaxed text-slate-900"><EmphasisedText text={question.stem} /></p>
           <div className="mt-5 space-y-2.5">
             {question.choices.map((choice) => {
               const isSelected = selected === choice.id;

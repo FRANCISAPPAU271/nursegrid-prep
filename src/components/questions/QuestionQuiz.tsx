@@ -8,6 +8,7 @@ import { SkeletonList } from "@/components/ui/Skeleton";
 import { useToast } from "@/components/ui/Toast";
 import Watermark from "@/components/ui/Watermark";
 import { RichText } from "@/components/questions/RichText";
+import { EmphasisedText } from "./EmphasisedText";
 
 const DIFFICULTY_STYLE: Record<string, string> = {
   easy: "bg-emerald-100 text-emerald-700",
@@ -320,7 +321,7 @@ export default function QuestionQuiz({
             </div>
           )}
 
-          <p className="text-base leading-relaxed text-slate-900">{current.stem}</p>
+          <p className="text-base leading-relaxed text-slate-900"><EmphasisedText text={current.stem} /></p>
 
           <div className="mt-5 space-y-2.5">
             {current.choices.map((choice) => {

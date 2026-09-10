@@ -31,7 +31,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MED-0001",
   "categorySlug": "med-surg",
-  "stem": "A 24-year-old man is admitted to a district hospital with a three-day history of fever. He is drowsy but rousable, temperature 39.8°C, respiratory rate 32, capillary refill 4 seconds. A rapid diagnostic test is positive for Plasmodium falciparum. Which finding should the nurse report to the medical officer as the most urgent?",
+  "stem": "A 24-year-old man is admitted to a district hospital with a three-day history of fever. He is drowsy but rousable, temperature 39.8°C, respiratory rate 32, capillary refill 4 seconds. A rapid diagnostic test is positive for **Plasmodium falciparum**. Which finding should the nurse report to the medical officer as the **most urgent**?",
   "choices": [
    {
     "id": "a",
@@ -65,7 +65,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-0002",
   "categorySlug": "maternal-newborn",
-  "stem": "Fifteen minutes after a normal delivery at a CHPS compound, a woman has soaked one pad and the midwife finds the uterus soft and above the umbilicus. The nearest district hospital is 40 minutes away. What should the midwife do first?",
+  "stem": "Fifteen minutes after a normal delivery at a CHPS compound, a woman has soaked one pad and the midwife finds the uterus soft and above the umbilicus. The nearest district hospital is 40 minutes away. What should the midwife do **first**?",
   "choices": [
    {
     "id": "a",
@@ -168,7 +168,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FUN-0005",
   "categorySlug": "fundamentals",
-  "stem": "A nurse is the only qualified staff member on a 30-bed ward during a night shift with an intermittent power supply. Four patients need attention. Which should be assessed first?",
+  "stem": "A nurse is the only qualified staff member on a 30-bed ward during a night shift with an intermittent power supply. Four patients need attention. Which should be assessed **first**?",
   "choices": [
    {
     "id": "a",
@@ -202,7 +202,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ETH-0006",
   "categorySlug": "leadership-delegation",
-  "stem": "A newly qualified nurse awaiting her PIN is asked by a ward sister to independently administer intravenous medication because the ward is short-staffed. What is the nurse's most appropriate response?",
+  "stem": "A newly qualified nurse awaiting her PIN is asked by a ward sister to independently administer intravenous medication because the ward is short-staffed. What is the nurse's **most appropriate** response?",
   "choices": [
    {
     "id": "a",
@@ -236,7 +236,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-0007",
   "categorySlug": "mental-health",
-  "stem": "A woman admitted after a suicide attempt says quietly, \"My family would be better off without me.\" Which response by the nurse is most therapeutic?",
+  "stem": "A woman admitted after a suicide attempt says quietly, \"My family would be better off without me.\" Which response by the nurse is **most therapeutic**?",
   "choices": [
    {
     "id": "a",
@@ -269,7 +269,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IPC-0008",
   "categorySlug": "safety-infection-control",
-  "stem": "During a cholera outbreak, a man arrives at a treatment centre with profuse watery stools, sunken eyes and a weak radial pulse. He is conscious and able to drink. What is the nurse's priority action?",
+  "stem": "During a cholera outbreak, a man arrives at a treatment centre with profuse watery stools, sunken eyes and a weak radial pulse. He is conscious and able to drink. What is the nurse's **priority** action?",
   "choices": [
    {
     "id": "a",
@@ -303,7 +303,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-RES-0009",
   "categorySlug": "med-surg",
-  "stem": "A man is three days post chest drain insertion for a traumatic pneumothorax at a regional hospital. The nurse observes that the fluid in the water-seal chamber, which had been rising and falling with each breath, has now stopped moving. The patient is comfortable and his breathing is even. What should the nurse conclude first?",
+  "stem": "A man is three days post chest drain insertion for a traumatic pneumothorax at a regional hospital. The nurse observes that the fluid in the water-seal chamber, which had been rising and falling with each breath, has now stopped moving. The patient is comfortable and his breathing is even. What should the nurse conclude **first**?",
   "choices": [
    {
     "id": "a",
@@ -339,7 +339,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-0010",
   "categorySlug": "maternal-newborn",
-  "stem": "One hour after a normal delivery, a midwife finds the woman's uterus firm but displaced to the right of the midline and sitting above the umbilicus. Lochia is moderate. What should the midwife do first?",
+  "stem": "One hour after a normal delivery, a midwife finds the woman's uterus firm but displaced to the right of the midline and sitting above the umbilicus. Lochia is moderate. What should the midwife do **first**?",
   "choices": [
    {
     "id": "a",
@@ -375,7 +375,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IPC-0011",
   "categorySlug": "safety-infection-control",
-  "stem": "A woman is brought to a district hospital during a cholera outbreak with profuse watery stools. She is lethargic, her eyes are sunken, her radial pulse is weak, and capillary refill is 4 seconds. She is able to sip water when it is offered. Which action takes priority?",
+  "stem": "A woman is brought to a district hospital during a cholera outbreak with profuse watery stools. She is lethargic, her eyes are sunken, her radial pulse is weak, and capillary refill is 4 seconds. She is able to sip water when it is offered. Which action takes **priority**?",
   "choices": [
    {
     "id": "a",
@@ -411,7 +411,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAN-0012",
   "categorySlug": "leadership-delegation",
-  "stem": "A registered nurse is allocating the morning workload on a busy district hospital ward. The team includes a health care assistant with twelve years of service and an enrolled nurse with two years. Which client must the registered nurse care for personally?",
+  "stem": "A registered nurse is allocating the morning workload on a busy district hospital ward. The team includes a health care assistant with twelve years of service and an enrolled nurse with two years. Which client must the **registered nurse** care for personally?",
   "choices": [
    {
     "id": "a",
@@ -447,7 +447,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FUN-0013",
   "categorySlug": "fundamentals",
-  "stem": "A nurse begins a shift on a 28-bed ward. Four patients need attention. Which should be seen first?",
+  "stem": "A nurse begins a shift on a 28-bed ward. Four patients need attention. Which should be seen **first**?",
   "choices": [
    {
     "id": "a",
@@ -483,7 +483,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PHM-0014",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A man with type 1 diabetes receives soluble (regular) insulin at 07:00 before breakfast. At which time should the nurse be most alert for hypoglycaemia?",
+  "stem": "A man with type 1 diabetes receives soluble (regular) insulin at 07:00 before breakfast. At which time should the nurse be **most alert** for hypoglycaemia?",
   "choices": [
    {
     "id": "a",
@@ -588,7 +588,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-0017",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman at 36 weeks with severe pre-eclampsia is receiving intravenous magnesium sulphate. Two hours in, the midwife finds her drowsy, with absent patellar reflexes and a respiratory rate of 10. What is the midwife's immediate action?",
+  "stem": "A woman at 36 weeks with severe pre-eclampsia is receiving intravenous magnesium sulphate. Two hours in, the midwife finds her drowsy, with absent patellar reflexes and a respiratory rate of 10. What is the midwife's **immediate** action?",
   "choices": [
    {
     "id": "a",
@@ -622,7 +622,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PAE-0018",
   "categorySlug": "pediatrics",
-  "stem": "A mother brings her eighteen-month-old to a health centre with fever and cough for three days. Which single finding most urgently requires immediate referral?",
+  "stem": "A mother brings her eighteen-month-old to a health centre with fever and cough for three days. Which single finding most urgently requires **immediate referral**?",
   "choices": [
    {
     "id": "a",
@@ -691,7 +691,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-0020",
   "categorySlug": "mental-health",
-  "stem": "During an assessment a young man says he has been feeling hopeless since losing his job. What is the most appropriate question for the nurse to ask next?",
+  "stem": "During an assessment a young man says he has been feeling hopeless since losing his job. What is the **most appropriate** question for the nurse to ask next?",
   "choices": [
    {
     "id": "a",
@@ -758,7 +758,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MED-0022",
   "categorySlug": "med-surg",
-  "stem": "A woman with diabetes becomes suddenly sweaty, tremulous, confused and irritable at 11:00. Her skin is cool and clammy. What should the nurse do first?",
+  "stem": "A woman with diabetes becomes suddenly sweaty, tremulous, confused and irritable at 11:00. Her skin is cool and clammy. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -792,7 +792,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IPC-0023",
   "categorySlug": "safety-infection-control",
-  "stem": "A nurse sustains a needlestick injury from a hollow needle used on a patient of unknown HIV status. What should she do first?",
+  "stem": "A nurse sustains a needlestick injury from a hollow needle used on a patient of unknown HIV status. What should she do **first**?",
   "choices": [
    {
     "id": "a",
@@ -826,7 +826,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0024",
   "categorySlug": "health-promotion",
-  "stem": "A two-year-old is admitted with severe acute malnutrition and bilateral pitting oedema of the feet. Which complication should the nurse monitor for most closely during the first 48 hours of feeding?",
+  "stem": "A two-year-old is admitted with severe acute malnutrition and bilateral pitting oedema of the feet. Which complication should the nurse monitor for **most closely** during the first 48 hours of feeding?",
   "choices": [
    {
     "id": "a",
@@ -894,7 +894,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FUN-0026",
   "categorySlug": "fundamentals",
-  "stem": "A nurse is caring for a man with an indwelling urinary catheter. Which action best reduces his risk of catheter-associated infection?",
+  "stem": "A nurse is caring for a man with an indwelling urinary catheter. Which action **best** reduces his risk of catheter-associated infection?",
   "choices": [
    {
     "id": "a",
@@ -964,7 +964,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FUN-0028",
   "categorySlug": "fundamentals",
-  "stem": "An elderly man is bedbound after a stroke and has a reddened area over his sacrum that does not blanch when pressed. Which action is most appropriate?",
+  "stem": "An elderly man is bedbound after a stroke and has a reddened area over his sacrum that does not blanch when pressed. Which action is **most appropriate**?",
   "choices": [
    {
     "id": "a",
@@ -998,7 +998,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FUN-0029",
   "categorySlug": "fundamentals",
-  "stem": "A nurse is preparing to give an intramuscular injection to a healthy adult. Which site is generally considered the safest because it contains no major nerves or blood vessels?",
+  "stem": "A nurse is preparing to give an intramuscular injection to a healthy adult. Which site is generally considered the **safest** because it contains no major nerves or blood vessels?",
   "choices": [
    {
     "id": "a",
@@ -1032,7 +1032,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0030",
   "categorySlug": "fundamentals",
-  "stem": "Which of the following is an example of a positive feedback mechanism?",
+  "stem": "Which of the following is an example of a **positive** feedback mechanism?",
   "choices": [
    {
     "id": "a",
@@ -1133,7 +1133,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLU-0033",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A man with chronic kidney disease has a serum potassium of 6.8 mmol/L. Which assessment finding requires the most urgent action?",
+  "stem": "A man with chronic kidney disease has a serum potassium of 6.8 mmol/L. Which assessment finding requires the **most urgent** action?",
   "choices": [
    {
     "id": "a",
@@ -1167,7 +1167,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0034",
   "categorySlug": "fundamentals",
-  "stem": "A woman is admitted with severe anxiety and is breathing rapidly and deeply. Which acid-base disturbance is she most likely developing?",
+  "stem": "A woman is admitted with severe anxiety and is breathing rapidly and deeply. Which acid-base disturbance is she **most likely** developing?",
   "choices": [
    {
     "id": "a",
@@ -1200,7 +1200,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IPC-0035",
   "categorySlug": "safety-infection-control",
-  "stem": "Which procedure requires surgical asepsis rather than medical asepsis?",
+  "stem": "Which procedure requires **surgical** asepsis rather than medical asepsis?",
   "choices": [
    {
     "id": "a",
@@ -1270,7 +1270,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IPC-0037",
   "categorySlug": "safety-infection-control",
-  "stem": "A nurse finishes changing a wound dressing, removes her gloves, and is about to record the observation in the patient's notes. What should she do first?",
+  "stem": "A nurse finishes changing a wound dressing, removes her gloves, and is about to record the observation in the patient's notes. What should she do **first**?",
   "choices": [
    {
     "id": "a",
@@ -1306,7 +1306,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IPC-0038",
   "categorySlug": "safety-infection-control",
-  "stem": "A nurse is leaving the room of a patient nursed with contact precautions. Which is the correct order for removing personal protective equipment?",
+  "stem": "A nurse is leaving the room of a patient nursed with contact precautions. Which is the **correct** order for removing personal protective equipment?",
   "choices": [
    {
     "id": "a",
@@ -1374,7 +1374,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-0040",
   "categorySlug": "mental-health",
-  "stem": "A man whose wife died three weeks ago tells the nurse, “If I had taken her to hospital sooner, she would still be alive. I keep thinking I could have saved her.” Which stage of grief does this best represent?",
+  "stem": "A man whose wife died three weeks ago tells the nurse, “If I had taken her to hospital sooner, she would still be alive. I keep thinking I could have saved her.” Which stage of grief does this **best** represent?",
   "choices": [
    {
     "id": "a",
@@ -1409,7 +1409,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-0041",
   "categorySlug": "mental-health",
-  "stem": "The daughter of a woman with advanced cancer says, “I feel as though I have already lost my mother, and she is still here. I feel guilty for thinking that way.” Which response by the nurse is most therapeutic?",
+  "stem": "The daughter of a woman with advanced cancer says, “I feel as though I have already lost my mother, and she is still here. I feel guilty for thinking that way.” Which response by the nurse is **most therapeutic**?",
   "choices": [
    {
     "id": "a",
@@ -1442,7 +1442,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-0042",
   "categorySlug": "mental-health",
-  "stem": "A woman has just been told that her husband has died in the emergency department. She sits silently and does not respond when the nurse speaks. What is the most appropriate nursing action?",
+  "stem": "A woman has just been told that her husband has died in the emergency department. She sits silently and does not respond when the nurse speaks. What is the **most appropriate** nursing action?",
   "choices": [
    {
     "id": "a",
@@ -1476,7 +1476,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-0043",
   "categorySlug": "mental-health",
-  "stem": "Two years after her son's death, a woman has kept his room unchanged, sets a place for him at meals, and has not returned to work or resumed social contact. Which assessment is most accurate?",
+  "stem": "Two years after her son's death, a woman has kept his room unchanged, sets a place for him at meals, and has not returned to work or resumed social contact. Which assessment is **most accurate**?",
   "choices": [
    {
     "id": "a",
@@ -1610,7 +1610,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MIC-0047",
   "categorySlug": "safety-infection-control",
-  "stem": "A woman on long-term broad-spectrum antibiotics develops profuse watery diarrhoea. Which explanation is most likely?",
+  "stem": "A woman on long-term broad-spectrum antibiotics develops profuse watery diarrhoea. Which explanation is **most likely**?",
   "choices": [
    {
     "id": "a",
@@ -1818,7 +1818,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IPC-0053",
   "categorySlug": "safety-infection-control",
-  "stem": "A quantity of blood is spilled on the ward floor. After putting on gloves and an apron, what should the nurse do next?",
+  "stem": "A quantity of blood is spilled on the ward floor. After putting on gloves and an apron, what should the nurse do **next**?",
   "choices": [
    {
     "id": "a",
@@ -1888,7 +1888,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IPC-0055",
   "categorySlug": "safety-infection-control",
-  "stem": "A mother asks a nurse at a health centre for antibiotics for her child, who has had a runny nose and mild cough for two days without fever. What is the most appropriate response?",
+  "stem": "A mother asks a nurse at a health centre for antibiotics for her child, who has had a runny nose and mild cough for two days without fever. What is the **most appropriate** response?",
   "choices": [
    {
     "id": "a",
@@ -1922,7 +1922,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IPC-0056",
   "categorySlug": "safety-infection-control",
-  "stem": "Which of the following is best classified as a health care associated infection?",
+  "stem": "Which of the following is **best** classified as a health care associated infection?",
   "choices": [
    {
     "id": "a",
@@ -1990,7 +1990,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IPC-0058",
   "categorySlug": "safety-infection-control",
-  "stem": "Which nursing measure most effectively reduces the risk of hospital acquired pneumonia in a bedbound post-operative patient?",
+  "stem": "Which nursing measure **most effectively** reduces the risk of hospital acquired pneumonia in a bedbound post-operative patient?",
   "choices": [
    {
     "id": "a",
@@ -2024,7 +2024,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IPC-0059",
   "categorySlug": "safety-infection-control",
-  "stem": "Over three days, four patients on the same ward develop acute watery diarrhoea and vomiting. What should the nurse do first?",
+  "stem": "Over three days, four patients on the same ward develop acute watery diarrhoea and vomiting. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -2058,7 +2058,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IPC-0060",
   "categorySlug": "safety-infection-control",
-  "stem": "A man on tuberculosis treatment tells the nurse he feels much better after six weeks and wishes to stop his medicines. Which explanation is most important for the nurse to give?",
+  "stem": "A man on tuberculosis treatment tells the nurse he feels much better after six weeks and wishes to stop his medicines. Which explanation is **most important** for the nurse to give?",
   "choices": [
    {
     "id": "a",
@@ -2094,7 +2094,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EMG-0061",
   "categorySlug": "safety-infection-control",
-  "stem": "A nurse comes upon a man lying motionless beside a road after a collision. Traffic is still moving past. What should the nurse do first?",
+  "stem": "A nurse comes upon a man lying motionless beside a road after a collision. Traffic is still moving past. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -2130,7 +2130,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EMG-0062",
   "categorySlug": "safety-infection-control",
-  "stem": "A man has a deep laceration to his forearm and is bleeding heavily. What is the most effective immediate first aid measure?",
+  "stem": "A man has a deep laceration to his forearm and is bleeding heavily. What is the **most effective** immediate first aid measure?",
   "choices": [
    {
     "id": "a",
@@ -2164,7 +2164,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EMG-0063",
   "categorySlug": "safety-infection-control",
-  "stem": "A woman sustains a scald to her forearm from boiling water at a market stall. What is the correct immediate first aid?",
+  "stem": "A woman sustains a scald to her forearm from boiling water at a market stall. What is the **correct** immediate first aid?",
   "choices": [
    {
     "id": "a",
@@ -2234,7 +2234,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EMG-0065",
   "categorySlug": "safety-infection-control",
-  "stem": "A man at a canteen suddenly clutches his throat, cannot speak and is making no sound. He is conscious. What should the nurse do first?",
+  "stem": "A man at a canteen suddenly clutches his throat, cannot speak and is making no sound. He is conscious. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -2302,7 +2302,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EMG-0067",
   "categorySlug": "safety-infection-control",
-  "stem": "A motorcyclist is found conscious at the roadside complaining of neck pain and tingling in both hands. He is breathing normally. What is the most appropriate action?",
+  "stem": "A motorcyclist is found conscious at the roadside complaining of neck pain and tingling in both hands. He is breathing normally. What is the **most appropriate** action?",
   "choices": [
    {
     "id": "a",
@@ -2336,7 +2336,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EMG-0068",
   "categorySlug": "safety-infection-control",
-  "stem": "A young man involved in a collision has cold clammy skin, a pulse of 128, and a blood pressure of 88/60. He is anxious and thirsty. Which explanation for his blood pressure is most accurate?",
+  "stem": "A young man involved in a collision has cold clammy skin, a pulse of 128, and a blood pressure of 88/60. He is anxious and thirsty. Which explanation for his blood pressure is **most accurate**?",
   "choices": [
    {
     "id": "a",
@@ -2404,7 +2404,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EMG-0070",
   "categorySlug": "safety-infection-control",
-  "stem": "A district hospital is developing a mass casualty plan. Which element is most essential to include?",
+  "stem": "A district hospital is developing a mass casualty plan. Which element is **most essential** to include?",
   "choices": [
    {
     "id": "a",
@@ -2438,7 +2438,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EMG-0071",
   "categorySlug": "safety-infection-control",
-  "stem": "Fire breaks out at one end of a hospital ward. Which patients should be evacuated first?",
+  "stem": "Fire breaks out at one end of a hospital ward. Which patients should be evacuated **first**?",
   "choices": [
    {
     "id": "a",
@@ -2472,7 +2472,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EMG-0072",
   "categorySlug": "safety-infection-control",
-  "stem": "Following severe flooding, a community health nurse is assigned to a displaced persons camp. Which action should take priority in the first days?",
+  "stem": "Following severe flooding, a community health nurse is assigned to a displaced persons camp. Which action should take **priority** in the first days?",
   "choices": [
    {
     "id": "a",
@@ -2613,7 +2613,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EMG-0076",
   "categorySlug": "safety-infection-control",
-  "stem": "Two days after a major fire at a market, a nurse is supporting survivors. A woman is tearful, sleeping poorly and repeatedly describing the event. What is the most appropriate initial response?",
+  "stem": "Two days after a major fire at a market, a nurse is supporting survivors. A woman is tearful, sleeping poorly and repeatedly describing the event. What is the **most appropriate** initial response?",
   "choices": [
    {
     "id": "a",
@@ -2647,7 +2647,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0077",
   "categorySlug": "fundamentals",
-  "stem": "Blood returning from the body enters the right atrium. Through which structure does it pass immediately after leaving the right ventricle?",
+  "stem": "Blood returning from the body enters the right atrium. Through which structure does it pass **immediately** after leaving the right ventricle?",
   "choices": [
    {
     "id": "a",
@@ -2716,7 +2716,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0079",
   "categorySlug": "fundamentals",
-  "stem": "A man in septic shock has a heart rate of 130 and a low blood pressure. Which physiological explanation best accounts for his hypotension despite the rapid heart rate?",
+  "stem": "A man in septic shock has a heart rate of 130 and a low blood pressure. Which physiological explanation **best** accounts for his hypotension despite the rapid heart rate?",
   "choices": [
    {
     "id": "a",
@@ -2750,7 +2750,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0080",
   "categorySlug": "fundamentals",
-  "stem": "Which feature is characteristic of veins rather than arteries?",
+  "stem": "Which feature is characteristic of **veins** rather than arteries?",
   "choices": [
    {
     "id": "a",
@@ -2783,7 +2783,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0081",
   "categorySlug": "fundamentals",
-  "stem": "Which is a primary function of the lymphatic system?",
+  "stem": "Which is a **primary** function of the lymphatic system?",
   "choices": [
    {
     "id": "a",
@@ -2852,7 +2852,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0083",
   "categorySlug": "fundamentals",
-  "stem": "A woman with breast cancer is found to have enlarged axillary lymph nodes. What does this most likely indicate?",
+  "stem": "A woman with breast cancer is found to have enlarged axillary lymph nodes. What does this **most likely** indicate?",
   "choices": [
    {
     "id": "a",
@@ -2921,7 +2921,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0085",
   "categorySlug": "fundamentals",
-  "stem": "A man has a stab wound that has opened the pleural space and his lung has collapsed. To explain why, the nurse must first understand what happens during normal quiet inspiration. Which statement is correct?",
+  "stem": "A man has a stab wound that has opened the pleural space and his lung has collapsed. To explain why, the nurse must first understand what happens during **normal quiet inspiration**. Which statement is correct?",
   "choices": [
    {
     "id": "a",
@@ -2955,7 +2955,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0086",
   "categorySlug": "fundamentals",
-  "stem": "Which stimulus is the most powerful normal driver of respiratory rate in a healthy adult?",
+  "stem": "Which stimulus is the **most powerful** normal driver of respiratory rate in a healthy adult?",
   "choices": [
    {
     "id": "a",
@@ -2988,7 +2988,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0087",
   "categorySlug": "fundamentals",
-  "stem": "How is the majority of oxygen carried in the blood?",
+  "stem": "How is the **majority** of oxygen carried in the blood?",
   "choices": [
    {
     "id": "a",
@@ -3022,7 +3022,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0088",
   "categorySlug": "fundamentals",
-  "stem": "Which structure is the functional unit of the kidney?",
+  "stem": "Which structure is the **functional unit** of the kidney?",
   "choices": [
    {
     "id": "a",
@@ -3057,7 +3057,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0089",
   "categorySlug": "fundamentals",
-  "stem": "A man's urine contains a large amount of protein. What does this most likely indicate?",
+  "stem": "A man's urine contains a large amount of protein. What does this **most likely** indicate?",
   "choices": [
    {
     "id": "a",
@@ -3159,7 +3159,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0092",
   "categorySlug": "fundamentals",
-  "stem": "A nurse is teaching first-year students at a nursing training college. Which structures make up the central nervous system?",
+  "stem": "A nurse is teaching first-year students at a nursing training college. Which structures make up the **central** nervous system?",
   "choices": [
    {
     "id": "a",
@@ -3193,7 +3193,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0093",
   "categorySlug": "fundamentals",
-  "stem": "A patient with a demyelinating illness has slowed nerve conduction. What is the normal function of the myelin sheath surrounding many axons?",
+  "stem": "A patient with a demyelinating illness has slowed nerve conduction. What is the normal function of the **myelin sheath** surrounding many axons?",
   "choices": [
    {
     "id": "a",
@@ -3262,7 +3262,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0095",
   "categorySlug": "fundamentals",
-  "stem": "A man who has had a stroke can understand what is said to him but cannot produce fluent speech. Which area is most likely affected?",
+  "stem": "A man who has had a stroke can understand what is said to him but cannot produce fluent speech. Which area is **most likely** affected?",
   "choices": [
    {
     "id": "a",
@@ -3296,7 +3296,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0096",
   "categorySlug": "fundamentals",
-  "stem": "What is the principal function of cerebrospinal fluid?",
+  "stem": "What is the **principal** function of cerebrospinal fluid?",
   "choices": [
    {
     "id": "a",
@@ -3364,7 +3364,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0098",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "Immediately before starting a blood transfusion, which check is most critical in preventing a fatal reaction?",
+  "stem": "Immediately before starting a blood transfusion, which check is **most critical** in preventing a fatal reaction?",
   "choices": [
    {
     "id": "a",
@@ -3398,7 +3398,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0099",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "Ten minutes into a transfusion a woman develops fever, rigors, severe lower back pain and passes dark red urine. What should the nurse do first?",
+  "stem": "Ten minutes into a transfusion a woman develops fever, rigors, severe lower back pain and passes dark red urine. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -3502,7 +3502,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0102",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "An elderly man with heart failure becomes breathless with distended neck veins and crackles at both lung bases during his second unit of blood. What should the nurse do first?",
+  "stem": "An elderly man with heart failure becomes breathless with distended neck veins and crackles at both lung bases during his second unit of blood. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -3746,7 +3746,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0109",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A prescription is written as “insulin 10 U subcutaneously”. What is the main concern with this prescription?",
+  "stem": "A prescription is written as “insulin 10 U subcutaneously”. What is the **main** concern with this prescription?",
   "choices": [
    {
     "id": "a",
@@ -3847,7 +3847,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0112",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "During an intravenous infusion the nurse notices swelling, pallor and coolness around the cannula site, and the patient reports discomfort. What should she do first?",
+  "stem": "During an intravenous infusion the nurse notices swelling, pallor and coolness around the cannula site, and the patient reports discomfort. What should she do **first**?",
   "choices": [
    {
     "id": "a",
@@ -3881,7 +3881,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0113",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A man is receiving total parenteral nutrition through a central line. Which complication should the nurse monitor for most vigilantly?",
+  "stem": "A man is receiving total parenteral nutrition through a central line. Which complication should the nurse monitor for **most vigilantly**?",
   "choices": [
    {
     "id": "a",
@@ -3949,7 +3949,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0115",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "Which monitoring is most essential during the first days of parenteral nutrition?",
+  "stem": "Which monitoring is **most essential** during the first days of parenteral nutrition?",
   "choices": [
    {
     "id": "a",
@@ -3983,7 +3983,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0116",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "What is the generally accepted maximum volume for a single intramuscular injection into the ventrogluteal site of a healthy adult?",
+  "stem": "What is the generally accepted **maximum** volume for a single intramuscular injection into the ventrogluteal site of a healthy adult?",
   "choices": [
    {
     "id": "a",
@@ -4051,7 +4051,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0118",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A nurse realises she has given a patient double the prescribed dose of an antihypertensive. The patient appears well. What should she do first?",
+  "stem": "A nurse realises she has given a patient double the prescribed dose of an antihypertensive. The patient appears well. What should she do **first**?",
   "choices": [
    {
     "id": "a",
@@ -4085,7 +4085,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0119",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "Before giving a first dose of intravenous antibiotic, the patient says he once developed a rash and swelling after a similar drug. What should the nurse do first?",
+  "stem": "Before giving a first dose of intravenous antibiotic, the patient says he once developed a rash and swelling after a similar drug. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -4153,7 +4153,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0121",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A nurse must give two different intravenous drugs through the same cannula. What is the essential precaution?",
+  "stem": "A nurse must give two different intravenous drugs through the same cannula. What is the **essential** precaution?",
   "choices": [
    {
     "id": "a",
@@ -4187,7 +4187,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0122",
   "categorySlug": "med-surg",
-  "stem": "A breathless patient asks the nurse to “turn up the oxygen”. What is the most appropriate nursing action?",
+  "stem": "A breathless patient asks the nurse to “turn up the oxygen”. What is the **most appropriate** nursing action?",
   "choices": [
    {
     "id": "a",
@@ -4223,7 +4223,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0123",
   "categorySlug": "med-surg",
-  "stem": "A patient is receiving oxygen through a simple face mask set at 2 litres per minute. Why is this unsafe?",
+  "stem": "A patient is receiving oxygen through a simple face mask set at 2 litres per minute. Why is this **unsafe**?",
   "choices": [
    {
     "id": "a",
@@ -4291,7 +4291,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0125",
   "categorySlug": "med-surg",
-  "stem": "Which precaution is essential when oxygen is in use at the bedside?",
+  "stem": "Which precaution is **essential** when oxygen is in use at the bedside?",
   "choices": [
    {
     "id": "a",
@@ -4495,7 +4495,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0131",
   "categorySlug": "med-surg",
-  "stem": "A patient has been receiving oxygen at 6 litres per minute by mask for two days and complains of a dry, sore throat. What is the most appropriate action?",
+  "stem": "A patient has been receiving oxygen at 6 litres per minute by mask for two days and complains of a dry, sore throat. What is the **most appropriate** action?",
   "choices": [
    {
     "id": "a",
@@ -4565,7 +4565,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0133",
   "categorySlug": "med-surg",
-  "stem": "Which solution is generally most appropriate for cleansing a clean granulating wound?",
+  "stem": "Which solution is generally **most appropriate** for cleansing a clean granulating wound?",
   "choices": [
    {
     "id": "a",
@@ -4599,7 +4599,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0134",
   "categorySlug": "med-surg",
-  "stem": "During a dressing change the nurse must remove the soiled dressing and then apply the new one. What is the correct approach to gloves?",
+  "stem": "During a dressing change the nurse must remove the soiled dressing and then apply the new one. What is the **correct** approach to gloves?",
   "choices": [
    {
     "id": "a",
@@ -4667,7 +4667,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0136",
   "categorySlug": "med-surg",
-  "stem": "A man coughs forcefully after abdominal surgery and his wound bursts open with loops of bowel protruding. What should the nurse do first?",
+  "stem": "A man coughs forcefully after abdominal surgery and his wound bursts open with loops of bowel protruding. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -4735,7 +4735,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0138",
   "categorySlug": "med-surg",
-  "stem": "Which factor is most likely to delay healing in a patient with a chronic leg ulcer?",
+  "stem": "Which factor is **most likely** to delay healing in a patient with a chronic leg ulcer?",
   "choices": [
    {
     "id": "a",
@@ -4803,7 +4803,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0140",
   "categorySlug": "med-surg",
-  "stem": "A pressure area shows partial-thickness skin loss with a shallow open ulcer and a red-pink wound bed, without slough. How is this best classified?",
+  "stem": "A pressure area shows partial-thickness skin loss with a shallow open ulcer and a red-pink wound bed, without slough. How is this **best** classified?",
   "choices": [
    {
     "id": "a",
@@ -4939,7 +4939,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-LAB-0144",
   "categorySlug": "risk-reduction",
-  "stem": "A child with fever has a negative malaria rapid diagnostic test but remains unwell with no other obvious cause. What is the most appropriate nursing action?",
+  "stem": "A child with fever has a negative malaria rapid diagnostic test but remains unwell with no other obvious cause. What is the **most appropriate** nursing action?",
   "choices": [
    {
     "id": "a",
@@ -4973,7 +4973,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-LAB-0145",
   "categorySlug": "risk-reduction",
-  "stem": "A laboratory telephones a serum potassium of 7.1 mmol/L for a man with kidney disease. What should the nurse do first?",
+  "stem": "A laboratory telephones a serum potassium of 7.1 mmol/L for a man with kidney disease. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -5007,7 +5007,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-LAB-0146",
   "categorySlug": "risk-reduction",
-  "stem": "A patient is found unresponsive on the ward. After checking airway, breathing and circulation, which bedside investigation should be performed immediately?",
+  "stem": "A patient is found unresponsive on the ward. After checking airway, breathing and circulation, which bedside investigation should be performed **immediately**?",
   "choices": [
    {
     "id": "a",
@@ -5146,7 +5146,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-LAB-0150",
   "categorySlug": "risk-reduction",
-  "stem": "A positive sickling test tells the nurse that sickle haemoglobin is present. Which investigation is needed to distinguish sickle cell disease from sickle cell trait?",
+  "stem": "A positive sickling test tells the nurse that sickle haemoglobin is present. Which investigation is needed to distinguish sickle cell **disease** from sickle cell **trait**?",
   "choices": [
    {
     "id": "a",
@@ -5180,7 +5180,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-LAB-0151",
   "categorySlug": "risk-reduction",
-  "stem": "A post-operative patient has a white cell count of 19 × 10⁹/L with a fever of 38.9°C. What does this most likely indicate?",
+  "stem": "A post-operative patient has a white cell count of 19 × 10⁹/L with a fever of 38.9°C. What does this **most likely** indicate?",
   "choices": [
    {
     "id": "a",
@@ -5214,7 +5214,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-LAB-0152",
   "categorySlug": "risk-reduction",
-  "stem": "A woman scheduled for an invasive procedure has a platelet count of 22 × 10⁹/L. What is the main nursing concern?",
+  "stem": "A woman scheduled for an invasive procedure has a platelet count of 22 × 10⁹/L. What is the **main** nursing concern?",
   "choices": [
    {
     "id": "a",
@@ -5316,7 +5316,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-LAB-0155",
   "categorySlug": "risk-reduction",
-  "stem": "Which action most reduces the risk of contaminating a blood culture?",
+  "stem": "Which action **most** reduces the risk of contaminating a blood culture?",
   "choices": [
    {
     "id": "a",
@@ -5384,7 +5384,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-LAB-0157",
   "categorySlug": "risk-reduction",
-  "stem": "A lumbar puncture is performed on a child with fever and neck stiffness. The cerebrospinal fluid is cloudy. What does this most likely suggest?",
+  "stem": "A lumbar puncture is performed on a child with fever and neck stiffness. The cerebrospinal fluid is cloudy. What does this **most likely** suggest?",
   "choices": [
    {
     "id": "a",
@@ -5554,7 +5554,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0162",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient receives medication through a nasogastric tube. Which action is correct?",
+  "stem": "A patient receives medication through a nasogastric tube. Which action is **correct**?",
   "choices": [
    {
     "id": "a",
@@ -5622,7 +5622,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0164",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "During which period of a transfusion should observations be most frequent?",
+  "stem": "During which period of a transfusion should observations be **most** frequent?",
   "choices": [
    {
     "id": "a",
@@ -5759,7 +5759,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0168",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "Minutes after an intravenous antibiotic a patient develops stridor, widespread urticaria and a blood pressure of 70/40. Which drug is required first?",
+  "stem": "Minutes after an intravenous antibiotic a patient develops stridor, widespread urticaria and a blood pressure of 70/40. Which drug is required **first**?",
   "choices": [
    {
     "id": "a",
@@ -5861,7 +5861,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0171",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A woman receiving an oxytocin infusion for augmentation of labour develops contractions lasting 100 seconds occurring every 90 seconds, and the foetal heart shows deep decelerations. What should the midwife do first?",
+  "stem": "A woman receiving an oxytocin infusion for augmentation of labour develops contractions lasting 100 seconds occurring every 90 seconds, and the foetal heart shows deep decelerations. What should the midwife do **first**?",
   "choices": [
    {
     "id": "a",
@@ -5963,7 +5963,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0174",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A frail elderly woman with chronic anaemia and mild heart failure requires transfusion. What is the safest approach?",
+  "stem": "A frail elderly woman with chronic anaemia and mild heart failure requires transfusion. What is the **safest** approach?",
   "choices": [
    {
     "id": "a",
@@ -6031,7 +6031,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0176",
   "categorySlug": "med-surg",
-  "stem": "Which position best assists a breathless patient with pulmonary oedema?",
+  "stem": "Which position **best** assists a breathless patient with pulmonary oedema?",
   "choices": [
    {
     "id": "a",
@@ -6065,7 +6065,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0177",
   "categorySlug": "med-surg",
-  "stem": "A district hospital ward uses an oxygen concentrator. During a power outage the concentrator stops. What is the immediate priority?",
+  "stem": "A district hospital ward uses an oxygen concentrator. During a power outage the concentrator stops. What is the **immediate** priority?",
   "choices": [
    {
     "id": "a",
@@ -6099,7 +6099,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0178",
   "categorySlug": "med-surg",
-  "stem": "A patient with chronic obstructive pulmonary disease and known carbon dioxide retention requires a nebuliser. Which driving gas is most appropriate?",
+  "stem": "A patient with chronic obstructive pulmonary disease and known carbon dioxide retention requires a nebuliser. Which driving gas is **most appropriate**?",
   "choices": [
    {
     "id": "a",
@@ -6133,7 +6133,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0179",
   "categorySlug": "med-surg",
-  "stem": "What is the maximum duration for a single suction pass in an adult?",
+  "stem": "What is the **maximum** duration for a single suction pass in an adult?",
   "choices": [
    {
     "id": "a",
@@ -6167,7 +6167,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0180",
   "categorySlug": "med-surg",
-  "stem": "A patient with a tracheostomy becomes acutely breathless and the tube appears blocked despite suctioning. What should the nurse do first?",
+  "stem": "A patient with a tracheostomy becomes acutely breathless and the tube appears blocked despite suctioning. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -6337,7 +6337,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0185",
   "categorySlug": "med-surg",
-  "stem": "A man with diabetes has a deep ulcer under the ball of his foot. He reports no pain in the area. What does the absence of pain most likely indicate?",
+  "stem": "A man with diabetes has a deep ulcer under the ball of his foot. He reports no pain in the area. What does the absence of pain **most likely** indicate?",
   "choices": [
    {
     "id": "a",
@@ -6405,7 +6405,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0187",
   "categorySlug": "med-surg",
-  "stem": "A farmer attends with a deep puncture wound from a rusty nail contaminated with soil. Besides wound care, what is an essential consideration?",
+  "stem": "A farmer attends with a deep puncture wound from a rusty nail contaminated with soil. Besides wound care, what is an **essential** consideration?",
   "choices": [
    {
     "id": "a",
@@ -6439,7 +6439,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0188",
   "categorySlug": "med-surg",
-  "stem": "Which nutritional element is most directly required for collagen synthesis in wound healing?",
+  "stem": "Which nutritional element is **most** directly required for collagen synthesis in wound healing?",
   "choices": [
    {
     "id": "a",
@@ -6473,7 +6473,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0189",
   "categorySlug": "med-surg",
-  "stem": "Which record of a wound assessment is most useful clinically?",
+  "stem": "Which record of a wound assessment is **most** useful clinically?",
   "choices": [
    {
     "id": "a",
@@ -6541,7 +6541,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-LAB-0191",
   "categorySlug": "risk-reduction",
-  "stem": "A confused elderly woman has a serum sodium of 118 mmol/L. What is the main nursing concern?",
+  "stem": "A confused elderly woman has a serum sodium of 118 mmol/L. What is the **main** nursing concern?",
   "choices": [
    {
     "id": "a",
@@ -6609,7 +6609,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-LAB-0193",
   "categorySlug": "risk-reduction",
-  "stem": "A patient has yellow sclerae and a markedly raised serum bilirubin. Which additional nursing observation is most relevant?",
+  "stem": "A patient has yellow sclerae and a markedly raised serum bilirubin. Which additional nursing observation is **most relevant**?",
   "choices": [
    {
     "id": "a",
@@ -6711,7 +6711,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-LAB-0196",
   "categorySlug": "risk-reduction",
-  "stem": "The laboratory reports that a blood sample was rejected as haemolysed. What is the most appropriate nursing action?",
+  "stem": "The laboratory reports that a blood sample was rejected as haemolysed. What is the **most appropriate** nursing action?",
   "choices": [
    {
     "id": "a",
@@ -6745,7 +6745,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0197",
   "categorySlug": "health-promotion",
-  "stem": "A nurse is teaching mothers at a child welfare clinic. Which nutrient group is the body's main source of energy for daily activity?",
+  "stem": "A nurse is teaching mothers at a child welfare clinic. Which nutrient group is the body's **main** source of energy for daily activity?",
   "choices": [
    {
     "id": "a",
@@ -6781,7 +6781,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0198",
   "categorySlug": "health-promotion",
-  "stem": "A man is recovering from extensive burns. Which dietary change is most important for his recovery?",
+  "stem": "A man is recovering from extensive burns. Which dietary change is **most important** for his recovery?",
   "choices": [
    {
     "id": "a",
@@ -6849,7 +6849,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0200",
   "categorySlug": "health-promotion",
-  "stem": "A mother reports that her four-year-old cannot see well when moving about after dusk. Which deficiency should the nurse suspect first?",
+  "stem": "A mother reports that her four-year-old cannot see well when moving about after dusk. Which deficiency should the nurse suspect **first**?",
   "choices": [
    {
     "id": "a",
@@ -6917,7 +6917,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0202",
   "categorySlug": "health-promotion",
-  "stem": "In a district many adults have visible neck swellings and several children show delayed development. Which measure would best address the underlying cause?",
+  "stem": "In a district many adults have visible neck swellings and several children show delayed development. Which measure would **best** address the underlying cause?",
   "choices": [
    {
     "id": "a",
@@ -6985,7 +6985,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0204",
   "categorySlug": "health-promotion",
-  "stem": "A toddler has bowed legs, delayed walking and swelling at both wrists. Which deficiency is most likely?",
+  "stem": "A toddler has bowed legs, delayed walking and swelling at both wrists. Which deficiency is **most likely**?",
   "choices": [
    {
     "id": "a",
@@ -7019,7 +7019,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0205",
   "categorySlug": "health-promotion",
-  "stem": "An elderly man complains of persistent constipation. Which dietary advice is most appropriate?",
+  "stem": "An elderly man complains of persistent constipation. Which dietary advice is **most appropriate**?",
   "choices": [
    {
     "id": "a",
@@ -7087,7 +7087,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0207",
   "categorySlug": "health-promotion",
-  "stem": "A severely malnourished child is admitted for the stabilisation phase. Which feeding approach is correct?",
+  "stem": "A severely malnourished child is admitted for the stabilisation phase. Which feeding approach is **correct**?",
   "choices": [
    {
     "id": "a",
@@ -7155,7 +7155,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0209",
   "categorySlug": "health-promotion",
-  "stem": "A grandmother advises a new mother to throw away the first yellowish milk because it is 'dirty'. How should the nurse best respond?",
+  "stem": "A grandmother advises a new mother to throw away the first yellowish milk because it is 'dirty'. How should the nurse **best** respond?",
   "choices": [
    {
     "id": "a",
@@ -7189,7 +7189,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0210",
   "categorySlug": "health-promotion",
-  "stem": "A man newly diagnosed with type 2 diabetes asks what to change about his diet. Which advice is most appropriate?",
+  "stem": "A man newly diagnosed with type 2 diabetes asks what to change about his diet. Which advice is **most appropriate**?",
   "choices": [
    {
     "id": "a",
@@ -7223,7 +7223,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0211",
   "categorySlug": "health-promotion",
-  "stem": "A woman with heart failure needs to reduce her salt intake. Which practical advice is most useful?",
+  "stem": "A woman with heart failure needs to reduce her salt intake. Which practical advice is **most useful**?",
   "choices": [
    {
     "id": "a",
@@ -7257,7 +7257,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0212",
   "categorySlug": "health-promotion",
-  "stem": "Into which food group do banku, fufu, gari and boiled yam principally fall?",
+  "stem": "Into which food group do banku, fufu, gari and boiled yam **principally** fall?",
   "choices": [
    {
     "id": "a",
@@ -7327,7 +7327,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0214",
   "categorySlug": "health-promotion",
-  "stem": "Which group of local foods is classified as protective because of its vitamin and mineral content?",
+  "stem": "Which group of local foods is classified as **protective** because of its vitamin and mineral content?",
   "choices": [
    {
     "id": "a",
@@ -7361,7 +7361,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0215",
   "categorySlug": "health-promotion",
-  "stem": "A child eats only plain thin corn dough porridge three times daily. Which change would best improve the adequacy of his diet?",
+  "stem": "A child eats only plain thin corn dough porridge three times daily. Which change would **best** improve the adequacy of his diet?",
   "choices": [
    {
     "id": "a",
@@ -7395,7 +7395,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0216",
   "categorySlug": "health-promotion",
-  "stem": "Which cooking practice best preserves the vitamin content of kontomire and other green leaves?",
+  "stem": "Which cooking practice **best** preserves the vitamin content of kontomire and other green leaves?",
   "choices": [
    {
     "id": "a",
@@ -7638,7 +7638,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0223",
   "categorySlug": "health-promotion",
-  "stem": "Which laboratory measurement is most commonly used to assess iron status in a community screening programme?",
+  "stem": "Which laboratory measurement is **most commonly** used to assess iron status in a community screening programme?",
   "choices": [
    {
     "id": "a",
@@ -7672,7 +7672,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0224",
   "categorySlug": "health-promotion",
-  "stem": "During a clinical nutrition assessment, which finding would most suggest a micronutrient deficiency?",
+  "stem": "During a clinical nutrition assessment, which finding would **most** suggest a micronutrient deficiency?",
   "choices": [
    {
     "id": "a",
@@ -7706,7 +7706,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0225",
   "categorySlug": "health-promotion",
-  "stem": "A nurse wants a quick picture of one patient's recent intake during a clinic consultation. Which method is most practical?",
+  "stem": "A nurse wants a quick picture of one patient's recent intake during a clinic consultation. Which method is **most practical**?",
   "choices": [
    {
     "id": "a",
@@ -7740,7 +7740,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0226",
   "categorySlug": "health-promotion",
-  "stem": "A district officer needs to know how widespread acute malnutrition is among under-fives across the district. Which approach is most appropriate?",
+  "stem": "A district officer needs to know how widespread acute malnutrition is among under-fives across the district. Which approach is **most appropriate**?",
   "choices": [
    {
     "id": "a",
@@ -7878,7 +7878,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0230",
   "categorySlug": "health-promotion",
-  "stem": "A man living with HIV has lost weight steadily despite taking his medication. Which nutritional advice is most appropriate?",
+  "stem": "A man living with HIV has lost weight steadily despite taking his medication. Which nutritional advice is **most appropriate**?",
   "choices": [
    {
     "id": "a",
@@ -7912,7 +7912,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0231",
   "categorySlug": "health-promotion",
-  "stem": "A man with chronic kidney disease and a potassium of 6.1 mmol/L asks what he may eat. Which advice is most appropriate?",
+  "stem": "A man with chronic kidney disease and a potassium of 6.1 mmol/L asks what he may eat. Which advice is **most appropriate**?",
   "choices": [
    {
     "id": "a",
@@ -7979,7 +7979,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0233",
   "categorySlug": "health-promotion",
-  "stem": "A woman with liver cirrhosis has marked ascites. Which dietary measure should the nurse emphasise first?",
+  "stem": "A woman with liver cirrhosis has marked ascites. Which dietary measure should the nurse emphasise **first**?",
   "choices": [
    {
     "id": "a",
@@ -8013,7 +8013,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0234",
   "categorySlug": "health-promotion",
-  "stem": "A patient with heart failure is discharged home. Which instruction best supports the dietary part of his care?",
+  "stem": "A patient with heart failure is discharged home. Which instruction **best** supports the dietary part of his care?",
   "choices": [
    {
     "id": "a",
@@ -8047,7 +8047,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0235",
   "categorySlug": "health-promotion",
-  "stem": "A patient with a duodenal ulcer asks about diet. Which response reflects current practice?",
+  "stem": "A patient with a duodenal ulcer asks about diet. Which response reflects **current** practice?",
   "choices": [
    {
     "id": "a",
@@ -8117,7 +8117,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0237",
   "categorySlug": "health-promotion",
-  "stem": "Before giving a nasogastric feed, the aspirate tests at pH 5.8. What should the nurse do next?",
+  "stem": "Before giving a nasogastric feed, the aspirate tests at pH 5.8. What should the nurse do **next**?",
   "choices": [
    {
     "id": "a",
@@ -8217,7 +8217,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0240",
   "categorySlug": "health-promotion",
-  "stem": "A conscious patient on insulin is sweating and trembling with a glucose of 3.1 mmol/L. What should the nurse give first?",
+  "stem": "A conscious patient on insulin is sweating and trembling with a glucose of 3.1 mmol/L. What should the nurse give **first**?",
   "choices": [
    {
     "id": "a",
@@ -8251,7 +8251,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0241",
   "categorySlug": "health-promotion",
-  "stem": "Which single dietary change is likely to lower blood pressure most in a Ghanaian patient with hypertension?",
+  "stem": "Which single dietary change is likely to lower blood pressure **most** in a Ghanaian patient with hypertension?",
   "choices": [
    {
     "id": "a",
@@ -8285,7 +8285,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0242",
   "categorySlug": "health-promotion",
-  "stem": "A severely malnourished patient is started on full feeding and becomes confused with weakness and an irregular pulse on the third day. Which finding best explains this?",
+  "stem": "A severely malnourished patient is started on full feeding and becomes confused with weakness and an irregular pulse on the third day. Which finding **best** explains this?",
   "choices": [
    {
     "id": "a",
@@ -8453,7 +8453,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0247",
   "categorySlug": "health-promotion",
-  "stem": "A mother feeds her seven-month-old thin watery koko three times daily. What is the main problem with this?",
+  "stem": "A mother feeds her seven-month-old thin watery koko three times daily. What is the **main** problem with this?",
   "choices": [
    {
     "id": "a",
@@ -8487,7 +8487,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0248",
   "categorySlug": "health-promotion",
-  "stem": "A woman in her second trimester asks how much extra she should eat. Which reply is most accurate?",
+  "stem": "A woman in her second trimester asks how much extra she should eat. Which reply is **most accurate**?",
   "choices": [
    {
     "id": "a",
@@ -8521,7 +8521,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0249",
   "categorySlug": "health-promotion",
-  "stem": "A pregnant woman says her iron tablets cause nausea. Which advice best helps her continue them?",
+  "stem": "A pregnant woman says her iron tablets cause nausea. Which advice **best** helps her continue them?",
   "choices": [
    {
     "id": "a",
@@ -8555,7 +8555,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0250",
   "categorySlug": "health-promotion",
-  "stem": "An elderly man living alone has lost weight over six months. Which factor should the nurse assess first?",
+  "stem": "An elderly man living alone has lost weight over six months. Which factor should the nurse assess **first**?",
   "choices": [
    {
     "id": "a",
@@ -8589,7 +8589,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0251",
   "categorySlug": "health-promotion",
-  "stem": "Which nutrient deficiency is most common among adolescent girls in Ghana?",
+  "stem": "Which nutrient deficiency is **most** common among adolescent girls in Ghana?",
   "choices": [
    {
     "id": "a",
@@ -8659,7 +8659,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0253",
   "categorySlug": "health-promotion",
-  "stem": "Which practice most effectively prevents cross-contamination in a hospital kitchen?",
+  "stem": "Which practice **most effectively** prevents cross-contamination in a hospital kitchen?",
   "choices": [
    {
     "id": "a",
@@ -8863,7 +8863,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0259",
   "categorySlug": "health-promotion",
-  "stem": "A nurse notes rising obesity among schoolchildren in an urban district. Which intervention is most appropriate for the school?",
+  "stem": "A nurse notes rising obesity among schoolchildren in an urban district. Which intervention is **most appropriate** for the school?",
   "choices": [
    {
     "id": "a",
@@ -8897,7 +8897,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0260",
   "categorySlug": "health-promotion",
-  "stem": "Which approach is most likely to change feeding practice at a community nutrition session?",
+  "stem": "Which approach is **most likely** to change feeding practice at a community nutrition session?",
   "choices": [
    {
     "id": "a",
@@ -9143,7 +9143,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0267",
   "categorySlug": "health-promotion",
-  "stem": "At a child welfare clinic a two-year-old is short for his age but his weight matches his height well. How is he best described?",
+  "stem": "At a child welfare clinic a two-year-old is short for his age but his weight matches his height well. How is he **best** described?",
   "choices": [
    {
     "id": "a",
@@ -9211,7 +9211,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0269",
   "categorySlug": "health-promotion",
-  "stem": "A woman eats beans and kontomire daily yet remains anaemic. Which explanation is most likely?",
+  "stem": "A woman eats beans and kontomire daily yet remains anaemic. Which explanation is **most likely**?",
   "choices": [
    {
     "id": "a",
@@ -9247,7 +9247,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0270",
   "categorySlug": "health-promotion",
-  "stem": "A patient with chronic fat malabsorption bruises easily and bleeds from the gums. Which deficiency best explains this?",
+  "stem": "A patient with chronic fat malabsorption bruises easily and bleeds from the gums. Which deficiency **best** explains this?",
   "choices": [
    {
     "id": "a",
@@ -9350,7 +9350,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0273",
   "categorySlug": "health-promotion",
-  "stem": "A child has bowed legs and delayed closure of the fontanelle. Which combination is most likely responsible?",
+  "stem": "A child has bowed legs and delayed closure of the fontanelle. Which combination is **most likely** responsible?",
   "choices": [
    {
     "id": "a",
@@ -9417,7 +9417,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0275",
   "categorySlug": "health-promotion",
-  "stem": "A mother has sore cracked nipples on the third day after delivery. What is the most likely cause?",
+  "stem": "A mother has sore cracked nipples on the third day after delivery. What is the **most likely** cause?",
   "choices": [
    {
     "id": "a",
@@ -9451,7 +9451,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0276",
   "categorySlug": "health-promotion",
-  "stem": "A mother believes she has insufficient milk. Which finding gives the most reliable reassurance?",
+  "stem": "A mother believes she has insufficient milk. Which finding gives the **most** reliable reassurance?",
   "choices": [
    {
     "id": "a",
@@ -9587,7 +9587,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0280",
   "categorySlug": "fundamentals",
-  "stem": "Which hormone is secreted by the posterior lobe of the pituitary gland?",
+  "stem": "Which hormone is secreted by the **posterior** lobe of the pituitary gland?",
   "choices": [
    {
     "id": "a",
@@ -9620,7 +9620,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0281",
   "categorySlug": "fundamentals",
-  "stem": "At a district hospital in Ghana a patient's results show a raised TSH with a low T4. Where does the fault lie?",
+  "stem": "At a district hospital in Ghana a patient's results show a **raised** TSH with a **low** T4. Where does the fault lie?",
   "choices": [
    {
     "id": "a",
@@ -9656,7 +9656,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0282",
   "categorySlug": "fundamentals",
-  "stem": "Which cells of the pancreatic islets secrete the hormone that raises blood glucose?",
+  "stem": "Which cells of the pancreatic islets secrete the hormone that **raises** blood glucose?",
   "choices": [
    {
     "id": "a",
@@ -9723,7 +9723,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0284",
   "categorySlug": "fundamentals",
-  "stem": "Following thyroid surgery a patient develops tingling of the lips and carpal spasm. Which hormone has most likely been disturbed?",
+  "stem": "Following thyroid surgery a patient develops tingling of the lips and carpal spasm. Which hormone has **most likely** been disturbed?",
   "choices": [
    {
     "id": "a",
@@ -9791,7 +9791,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0286",
   "categorySlug": "fundamentals",
-  "stem": "A patient passes large volumes of very dilute urine and is constantly thirsty, but his blood glucose is normal. Which explanation fits best?",
+  "stem": "A patient passes large volumes of very dilute urine and is constantly thirsty, but his blood glucose is normal. Which explanation fits **best**?",
   "choices": [
    {
     "id": "a",
@@ -9959,7 +9959,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0291",
   "categorySlug": "fundamentals",
-  "stem": "A midwife in a Ghanaian antenatal clinic teaches student nurses. In which part of the female reproductive tract does fertilisation normally occur?",
+  "stem": "A midwife in a Ghanaian antenatal clinic teaches student nurses. In which part of the female reproductive tract does fertilisation **normally** occur?",
   "choices": [
    {
     "id": "a",
@@ -10162,7 +10162,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0297",
   "categorySlug": "fundamentals",
-  "stem": "A mother is anxious and reports her milk does not flow, though her breasts feel full. Which hormone is most affected?",
+  "stem": "A mother is anxious and reports her milk does not flow, though her breasts feel full. Which hormone is **most** affected?",
   "choices": [
    {
     "id": "a",
@@ -10334,7 +10334,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0302",
   "categorySlug": "fundamentals",
-  "stem": "A girl of sixteen attending a Ghanaian paediatric clinic has short stature, a webbed neck and has not begun to menstruate. Which karyotype is most likely?",
+  "stem": "A girl of sixteen attending a Ghanaian paediatric clinic has short stature, a webbed neck and has not begun to menstruate. Which karyotype is **most likely**?",
   "choices": [
    {
     "id": "a",
@@ -10436,7 +10436,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0305",
   "categorySlug": "fundamentals",
-  "stem": "A couple ask what in vitro fertilisation involves. Which explanation is most accurate?",
+  "stem": "A couple ask what in vitro fertilisation involves. Which explanation is **most accurate**?",
   "choices": [
    {
     "id": "a",
@@ -10470,7 +10470,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MED-0306",
   "categorySlug": "med-surg",
-  "stem": "In examining the abdomen, why is auscultation performed before palpation?",
+  "stem": "In examining the abdomen, why is auscultation performed **before** palpation?",
   "choices": [
    {
     "id": "a",
@@ -10503,7 +10503,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MED-0307",
   "categorySlug": "med-surg",
-  "stem": "Which of the following recorded findings is objective data?",
+  "stem": "Which of the following recorded findings is **objective** data?",
   "choices": [
    {
     "id": "a",
@@ -10536,7 +10536,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MED-0308",
   "categorySlug": "med-surg",
-  "stem": "Which finding is the most reliable early indicator of fluid volume deficit in an adult?",
+  "stem": "Which finding is the **most** reliable early indicator of fluid volume deficit in an adult?",
   "choices": [
    {
     "id": "a",
@@ -10569,7 +10569,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MED-0309",
   "categorySlug": "med-surg",
-  "stem": "A patient arrives at a Ghanaian district hospital in hypovolaemic shock after a road crash. Which intravenous fluid is most appropriate initially?",
+  "stem": "A patient arrives at a Ghanaian district hospital in hypovolaemic shock after a road crash. Which intravenous fluid is **most appropriate** initially?",
   "choices": [
    {
     "id": "a",
@@ -10605,7 +10605,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MED-0310",
   "categorySlug": "med-surg",
-  "stem": "A patient in renal failure has a potassium of 7.0 mmol/L. Which finding demands the most urgent action?",
+  "stem": "A patient in renal failure has a potassium of 7.0 mmol/L. Which finding demands the **most** urgent action?",
   "choices": [
    {
     "id": "a",
@@ -10641,7 +10641,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MED-0311",
   "categorySlug": "med-surg",
-  "stem": "A patient on frusemide for heart failure develops muscle weakness and an ileus. Which electrolyte abnormality is most likely?",
+  "stem": "A patient on frusemide for heart failure develops muscle weakness and an ileus. Which electrolyte abnormality is **most likely**?",
   "choices": [
    {
     "id": "a",
@@ -10707,7 +10707,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MED-0313",
   "categorySlug": "med-surg",
-  "stem": "A child with severe kwashiorkor has generalised oedema. Which mechanism best explains it?",
+  "stem": "A child with severe kwashiorkor has generalised oedema. Which mechanism **best** explains it?",
   "choices": [
    {
     "id": "a",
@@ -10876,7 +10876,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MED-0318",
   "categorySlug": "med-surg",
-  "stem": "A patient with suspected pulmonary tuberculosis is admitted to an open ward. What should the nurse arrange first?",
+  "stem": "A patient with suspected pulmonary tuberculosis is admitted to an open ward. What should the nurse arrange **first**?",
   "choices": [
    {
     "id": "a",
@@ -10910,7 +10910,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MED-0319",
   "categorySlug": "med-surg",
-  "stem": "During a cholera outbreak in Accra an adult arrives with profuse watery stool and a barely palpable pulse. What is the priority intervention?",
+  "stem": "During a cholera outbreak in Accra an adult arrives with profuse watery stool and a barely palpable pulse. What is the **priority** intervention?",
   "choices": [
    {
     "id": "a",
@@ -10944,7 +10944,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MED-0320",
   "categorySlug": "med-surg",
-  "stem": "A patient treated for typhoid at home suddenly develops severe abdominal pain with board-like rigidity in the third week. What has most likely happened?",
+  "stem": "A patient treated for typhoid at home suddenly develops severe abdominal pain with board-like rigidity in the third week. What has **most likely** happened?",
   "choices": [
    {
     "id": "a",
@@ -11012,7 +11012,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MED-0322",
   "categorySlug": "med-surg",
-  "stem": "A boy from a lakeside community in Ghana passes blood at the end of urination. Which parasite is most likely responsible?",
+  "stem": "A boy from a lakeside community in Ghana passes blood at the end of urination. Which parasite is **most likely** responsible?",
   "choices": [
    {
     "id": "a",
@@ -11046,7 +11046,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MED-0323",
   "categorySlug": "med-surg",
-  "stem": "A man is bitten by a stray dog on the hand. What should be done first at the health centre?",
+  "stem": "A man is bitten by a stray dog on the hand. What should be done **first** at the health centre?",
   "choices": [
    {
     "id": "a",
@@ -11150,7 +11150,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MED-0326",
   "categorySlug": "med-surg",
-  "stem": "A patient has a single painless genital ulcer with a firm indurated base. Which infection does this suggest?",
+  "stem": "A patient has a single **painless** genital ulcer with a firm indurated base. Which infection does this suggest?",
   "choices": [
    {
     "id": "a",
@@ -11183,7 +11183,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MED-0327",
   "categorySlug": "med-surg",
-  "stem": "Which route accounts for most chronic hepatitis B infection in Ghana?",
+  "stem": "Which route accounts for **most** chronic hepatitis B infection in Ghana?",
   "choices": [
    {
     "id": "a",
@@ -11251,7 +11251,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MED-0329",
   "categorySlug": "med-surg",
-  "stem": "Nurses on a ward use a separate set of crockery marked for patients known to have HIV. What is the main problem with this practice?",
+  "stem": "Nurses on a ward use a separate set of crockery marked for patients known to have HIV. What is the **main** problem with this practice?",
   "choices": [
    {
     "id": "a",
@@ -11285,7 +11285,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MED-0330",
   "categorySlug": "med-surg",
-  "stem": "A relative asks a nurse directly whether an admitted patient is HIV positive. What is the most appropriate response?",
+  "stem": "A relative asks a nurse directly whether an admitted patient is HIV positive. What is the **most appropriate** response?",
   "choices": [
    {
     "id": "a",
@@ -11422,7 +11422,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SUR-0334",
   "categorySlug": "med-surg",
-  "stem": "Which task belongs to the circulating nurse rather than the scrub nurse?",
+  "stem": "Which task belongs to the **circulating** nurse rather than the scrub nurse?",
   "choices": [
    {
     "id": "a",
@@ -11455,7 +11455,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SUR-0335",
   "categorySlug": "med-surg",
-  "stem": "At the end of an operation in a district hospital theatre the swab count is one short. What should happen next?",
+  "stem": "At the end of an operation in a district hospital theatre the swab count is one short. What should happen **next**?",
   "choices": [
    {
     "id": "a",
@@ -11522,7 +11522,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SUR-0337",
   "categorySlug": "med-surg",
-  "stem": "Two hours after surgery on a Ghanaian surgical ward a patient has a pulse of 124, blood pressure 88/56 and cool clammy skin. What should the nurse suspect first?",
+  "stem": "Two hours after surgery on a Ghanaian surgical ward a patient has a pulse of 124, blood pressure 88/56 and cool clammy skin. What should the nurse suspect **first**?",
   "choices": [
    {
     "id": "a",
@@ -11556,7 +11556,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SUR-0338",
   "categorySlug": "med-surg",
-  "stem": "Which measure most effectively reduces the risk of deep vein thrombosis after major surgery?",
+  "stem": "Which measure **most effectively** reduces the risk of deep vein thrombosis after major surgery?",
   "choices": [
    {
     "id": "a",
@@ -11658,7 +11658,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SUR-0341",
   "categorySlug": "med-surg",
-  "stem": "A child from an endemic Ghanaian district has a large painless ulcer with widely undermined edges. Which diagnosis is most likely?",
+  "stem": "A child from an endemic Ghanaian district has a large **painless** ulcer with widely undermined edges. Which diagnosis is most likely?",
   "choices": [
    {
     "id": "a",
@@ -11692,7 +11692,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SUR-0342",
   "categorySlug": "med-surg",
-  "stem": "A young woman with a healed Buruli ulcer and a limb contracture has stopped attending school. What is the most appropriate nursing action?",
+  "stem": "A young woman with a healed Buruli ulcer and a limb contracture has stopped attending school. What is the **most appropriate** nursing action?",
   "choices": [
    {
     "id": "a",
@@ -11827,7 +11827,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SUR-0346",
   "categorySlug": "med-surg",
-  "stem": "Which presentation is most characteristic of uterine fibroids?",
+  "stem": "Which presentation is **most** characteristic of uterine fibroids?",
   "choices": [
    {
     "id": "a",
@@ -11861,7 +11861,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SUR-0347",
   "categorySlug": "med-surg",
-  "stem": "A tutor asks student nurses in Ghana about tumour behaviour. Which feature most reliably distinguishes a malignant tumour from a benign one?",
+  "stem": "A tutor asks student nurses in Ghana about tumour behaviour. Which feature **most** reliably distinguishes a malignant tumour from a benign one?",
   "choices": [
    {
     "id": "a",
@@ -11895,7 +11895,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SUR-0348",
   "categorySlug": "med-surg",
-  "stem": "Which breast finding is most concerning for malignancy?",
+  "stem": "Which breast finding is **most** concerning for malignancy?",
   "choices": [
    {
     "id": "a",
@@ -11929,7 +11929,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SUR-0349",
   "categorySlug": "med-surg",
-  "stem": "Which measure would most reduce cervical cancer deaths in a Ghanaian district?",
+  "stem": "Which measure would **most** reduce cervical cancer deaths in a Ghanaian district?",
   "choices": [
    {
     "id": "a",
@@ -11997,7 +11997,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SUR-0351",
   "categorySlug": "med-surg",
-  "stem": "A patient newly diagnosed with advanced cancer asks the nurse whether she is going to die. What is the most appropriate initial response?",
+  "stem": "A patient newly diagnosed with advanced cancer asks the nurse whether she is going to die. What is the **most appropriate** initial response?",
   "choices": [
    {
     "id": "a",
@@ -12135,7 +12135,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SUR-0355",
   "categorySlug": "med-surg",
-  "stem": "A dying patient's breathing has become noisy from retained secretions, distressing the family. What is the most appropriate action?",
+  "stem": "A dying patient's breathing has become noisy from retained secretions, distressing the family. What is the **most appropriate** action?",
   "choices": [
    {
     "id": "a",
@@ -12272,7 +12272,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PHM-0359",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient with chronic kidney disease on a Ghanaian medical ward is prescribed gentamicin. What is the main nursing concern?",
+  "stem": "A patient with chronic kidney disease on a Ghanaian medical ward is prescribed gentamicin. What is the **main** nursing concern?",
   "choices": [
    {
     "id": "a",
@@ -12306,7 +12306,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PHM-0360",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A doctor at a district hospital prescribes potassium chloride for hypokalaemia. Which instruction is essential for safe administration?",
+  "stem": "A doctor at a district hospital prescribes potassium chloride for hypokalaemia. Which instruction is **essential** for safe administration?",
   "choices": [
    {
     "id": "a",
@@ -12340,7 +12340,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PHM-0361",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient with cancer pain is not relieved by regular paracetamol and codeine. What is the next step?",
+  "stem": "A patient with cancer pain is not relieved by regular paracetamol and codeine. What is the **next** step?",
   "choices": [
    {
     "id": "a",
@@ -12443,7 +12443,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PHM-0364",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A nurse in a Ghanaian outpatient clinic reviews four patients. Which patient should not receive diclofenac for pain relief?",
+  "stem": "A nurse in a Ghanaian outpatient clinic reviews four patients. Which patient should **not** receive diclofenac for pain relief?",
   "choices": [
    {
     "id": "a",
@@ -12511,7 +12511,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PHM-0366",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "What is the most important observation after giving intravenous diazepam for seizures?",
+  "stem": "What is the **most important** observation after giving intravenous diazepam for seizures?",
   "choices": [
    {
     "id": "a",
@@ -12611,7 +12611,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PHM-0369",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "Minutes after an injection of benzylpenicillin a patient develops stridor, a widespread rash and hypotension. What is given first?",
+  "stem": "Minutes after an injection of benzylpenicillin a patient develops stridor, a widespread rash and hypotension. What is given **first**?",
   "choices": [
    {
     "id": "a",
@@ -12645,7 +12645,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PHM-0370",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient on gentamicin at a Ghanaian district hospital reports ringing in the ears and unsteadiness. What does this most likely indicate?",
+  "stem": "A patient on gentamicin at a Ghanaian district hospital reports ringing in the ears and unsteadiness. What does this **most likely** indicate?",
   "choices": [
    {
     "id": "a",
@@ -12850,7 +12850,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PHM-0376",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient on antiretroviral therapy says he stops the medicines whenever he feels well. What is the most important point to explain?",
+  "stem": "A patient on antiretroviral therapy says he stops the medicines whenever he feels well. What is the **most important** point to explain?",
   "choices": [
    {
     "id": "a",
@@ -12918,7 +12918,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PHM-0378",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "On an oncology ward in Ghana, what is the priority if cyclophosphamide extravasates into the tissue around a cannula?",
+  "stem": "On an oncology ward in Ghana, what is the **priority** if cyclophosphamide extravasates into the tissue around a cannula?",
   "choices": [
    {
     "id": "a",
@@ -13365,7 +13365,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-STA-0391",
   "categorySlug": "risk-reduction",
-  "stem": "At a Ghanaian clinic most patients pay a small amount for care but three pay very large sums. Which average best describes the typical payment?",
+  "stem": "At a Ghanaian clinic most patients pay a small amount for care but three pay very large sums. Which average **best** describes the typical payment?",
   "choices": [
    {
     "id": "a",
@@ -13469,7 +13469,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-STA-0394",
   "categorySlug": "risk-reduction",
-  "stem": "How does a ward sister at a Ghanaian hospital best use routinely collected statistics?",
+  "stem": "How does a ward sister at a Ghanaian hospital **best** use routinely collected statistics?",
   "choices": [
    {
     "id": "a",
@@ -13779,7 +13779,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-STA-0403",
   "categorySlug": "risk-reduction",
-  "stem": "Ice cream sales and drowning deaths rise together each year. What is the correct conclusion?",
+  "stem": "Ice cream sales and drowning deaths rise together each year. What is the **correct** conclusion?",
   "choices": [
    {
     "id": "a",
@@ -13847,7 +13847,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-STA-0405",
   "categorySlug": "risk-reduction",
-  "stem": "A scale on a Ghanaian child welfare ward consistently reads 2 kg above the true weight. How is this instrument best described?",
+  "stem": "A scale on a Ghanaian child welfare ward consistently reads 2 kg above the true weight. How is this instrument **best** described?",
   "choices": [
    {
     "id": "a",
@@ -14088,7 +14088,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HPR-0412",
   "categorySlug": "health-promotion",
-  "stem": "A community has high rates of diarrhoeal disease. Which single measure interrupts the greatest number of transmission routes?",
+  "stem": "A community has high rates of diarrhoeal disease. Which single measure interrupts the **greatest** number of transmission routes?",
   "choices": [
    {
     "id": "a",
@@ -14124,7 +14124,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HPR-0413",
   "categorySlug": "health-promotion",
-  "stem": "Residents of a Ghanaian community dump household refuse in an open gutter. What is the main public health consequence?",
+  "stem": "Residents of a Ghanaian community dump household refuse in an open gutter. What is the **main** public health consequence?",
   "choices": [
    {
     "id": "a",
@@ -14158,7 +14158,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HPR-0414",
   "categorySlug": "health-promotion",
-  "stem": "Malaria remains high in a community despite widespread bed net use. Which additional measure addresses the source?",
+  "stem": "Malaria remains high in a community despite widespread bed net use. Which additional measure addresses the **source**?",
   "choices": [
    {
     "id": "a",
@@ -14192,7 +14192,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HPR-0415",
   "categorySlug": "health-promotion",
-  "stem": "A Ghanaian family draws drinking water from a stream. What advice most reliably makes the water safe?",
+  "stem": "A Ghanaian family draws drinking water from a stream. What advice **most reliably** makes the water safe?",
   "choices": [
    {
     "id": "a",
@@ -14226,7 +14226,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HPR-0416",
   "categorySlug": "health-promotion",
-  "stem": "In a Ghanaian compound house ten people share a poorly ventilated single room. Which condition is most directly promoted by these housing conditions?",
+  "stem": "In a Ghanaian compound house ten people share a poorly ventilated single room. Which condition is **most directly** promoted by these housing conditions?",
   "choices": [
    {
     "id": "a",
@@ -14294,7 +14294,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HPR-0418",
   "categorySlug": "health-promotion",
-  "stem": "A nurse plans a health promotion programme in a new Ghanaian community. What should she do first?",
+  "stem": "A nurse plans a health promotion programme in a new Ghanaian community. What should she do **first**?",
   "choices": [
    {
     "id": "a",
@@ -14362,7 +14362,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HPR-0420",
   "categorySlug": "health-promotion",
-  "stem": "A nurse visits a Ghanaian basic school to promote hygiene. Which activity is most likely to change behaviour lastingly?",
+  "stem": "A nurse visits a Ghanaian basic school to promote hygiene. Which activity is **most likely** to change behaviour lastingly?",
   "choices": [
    {
     "id": "a",
@@ -14396,7 +14396,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HPR-0421",
   "categorySlug": "health-promotion",
-  "stem": "After a year of promoting bed net use, which finding is the strongest evidence that the programme worked?",
+  "stem": "After a year of promoting bed net use, which finding is the **strongest** evidence that the programme worked?",
   "choices": [
    {
     "id": "a",
@@ -14429,7 +14429,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HPR-0422",
   "categorySlug": "health-promotion",
-  "stem": "Mothers in a Ghanaian community know that exclusive breastfeeding is best but still give water. What does SBCC add that repeating the message does not?",
+  "stem": "Mothers in a Ghanaian community know that exclusive breastfeeding is best but still give water. What does SBCC **add** that repeating the message does not?",
   "choices": [
    {
     "id": "a",
@@ -14463,7 +14463,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HPR-0423",
   "categorySlug": "health-promotion",
-  "stem": "A nurse must reach older farmers in a rural Ghanaian district, many of whom cannot read. Which channel is most suitable?",
+  "stem": "A nurse must reach older farmers in a rural Ghanaian district, many of whom cannot read. Which channel is **most suitable**?",
   "choices": [
    {
     "id": "a",
@@ -14598,7 +14598,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HPR-0427",
   "categorySlug": "health-promotion",
-  "stem": "A woman attending a Ghanaian clinic has injuries inconsistent with her explanation and appears fearful. What should the nurse do first?",
+  "stem": "A woman attending a Ghanaian clinic has injuries inconsistent with her explanation and appears fearful. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -14702,7 +14702,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HPR-0430",
   "categorySlug": "health-promotion",
-  "stem": "What most clearly distinguishes community based rehabilitation from institutional rehabilitation?",
+  "stem": "What **most clearly** distinguishes community based rehabilitation from institutional rehabilitation?",
   "choices": [
    {
     "id": "a",
@@ -14803,7 +14803,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HPR-0433",
   "categorySlug": "health-promotion",
-  "stem": "On a ward round at a Ghanaian hospital, which way of referring to a patient is most appropriate?",
+  "stem": "On a ward round at a Ghanaian hospital, which way of referring to a patient is **most appropriate**?",
   "choices": [
    {
     "id": "a",
@@ -14837,7 +14837,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HPR-0434",
   "categorySlug": "health-promotion",
-  "stem": "A nurse notices that the only toilet at her health centre cannot be used by wheelchair users. What is the most effective action?",
+  "stem": "A nurse notices that the only toilet at her health centre cannot be used by wheelchair users. What is the **most effective** action?",
   "choices": [
    {
     "id": "a",
@@ -14940,7 +14940,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-APR-0437",
   "categorySlug": "fundamentals",
-  "stem": "A nurse at a Ghanaian regional hospital records a twelve-lead ECG and the trace shows a wandering, irregular baseline. What is the most likely cause?",
+  "stem": "A nurse at a Ghanaian regional hospital records a twelve-lead ECG and the trace shows a wandering, irregular baseline. What is the **most likely** cause?",
   "choices": [
    {
     "id": "a",
@@ -15041,7 +15041,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-APR-0440",
   "categorySlug": "fundamentals",
-  "stem": "A patient is asked to produce sputum for tuberculosis testing at a Ghanaian clinic. Which instruction gives the best specimen?",
+  "stem": "A patient is asked to produce sputum for tuberculosis testing at a Ghanaian clinic. Which instruction gives the **best** specimen?",
   "choices": [
    {
     "id": "a",
@@ -15178,7 +15178,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-APR-0444",
   "categorySlug": "fundamentals",
-  "stem": "On a Ghanaian surgical ward a patient's colostomy stoma appears dusky purple two days after surgery. What does this most likely indicate?",
+  "stem": "On a Ghanaian surgical ward a patient's colostomy stoma appears dusky purple two days after surgery. What does this **most likely** indicate?",
   "choices": [
    {
     "id": "a",
@@ -15282,7 +15282,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-APR-0447",
   "categorySlug": "fundamentals",
-  "stem": "Which measure most effectively reduces catheter-associated urinary tract infection on a Ghanaian ward?",
+  "stem": "Which measure **most effectively** reduces catheter-associated urinary tract infection on a Ghanaian ward?",
   "choices": [
    {
     "id": "a",
@@ -15350,7 +15350,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-APR-0449",
   "categorySlug": "fundamentals",
-  "stem": "A nurse prepares a woman for vaginal examination at a Ghanaian clinic. Which action is essential before starting?",
+  "stem": "A nurse prepares a woman for vaginal examination at a Ghanaian clinic. Which action is **essential** before starting?",
   "choices": [
    {
     "id": "a",
@@ -15451,7 +15451,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-APR-0452",
   "categorySlug": "fundamentals",
-  "stem": "A patient at a Ghanaian orthopaedic unit in a newly applied forearm cast reports increasing pain and tingling in the fingers. What is the priority action?",
+  "stem": "A patient at a Ghanaian orthopaedic unit in a newly applied forearm cast reports increasing pain and tingling in the fingers. What is the **priority** action?",
   "choices": [
    {
     "id": "a",
@@ -15519,7 +15519,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-APR-0454",
   "categorySlug": "fundamentals",
-  "stem": "At a Ghanaian diabetic clinic a capillary blood glucose reading is unexpectedly high in a well patient. What is the most likely technical explanation?",
+  "stem": "At a Ghanaian diabetic clinic a capillary blood glucose reading is unexpectedly high in a well patient. What is the **most likely** technical explanation?",
   "choices": [
    {
     "id": "a",
@@ -15553,7 +15553,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-APR-0455",
   "categorySlug": "fundamentals",
-  "stem": "On a Ghanaian ward, which change in a head-injured patient's observations most urgently suggests rising intracranial pressure?",
+  "stem": "On a Ghanaian ward, which change in a head-injured patient's observations **most urgently** suggests rising intracranial pressure?",
   "choices": [
    {
     "id": "a",
@@ -15656,7 +15656,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-APR-0458",
   "categorySlug": "fundamentals",
-  "stem": "A worker arrives at a Ghanaian clinic with a chemical splash to the right eye. What should be done first?",
+  "stem": "A worker arrives at a Ghanaian clinic with a chemical splash to the right eye. What should be done **first**?",
   "choices": [
    {
     "id": "a",
@@ -15758,7 +15758,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-APR-0461",
   "categorySlug": "fundamentals",
-  "stem": "A young man arrives at a Ghanaian clinic with a nosebleed. What is the correct immediate first aid?",
+  "stem": "A young man arrives at a Ghanaian clinic with a nosebleed. What is the correct **immediate** first aid?",
   "choices": [
    {
     "id": "a",
@@ -15967,7 +15967,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PED-0467",
   "categorySlug": "pediatrics",
-  "stem": "Immediately after a normal delivery at a Ghanaian health centre, what should the midwife do first?",
+  "stem": "Immediately after a normal delivery at a Ghanaian health centre, what should the midwife do **first**?",
   "choices": [
    {
     "id": "a",
@@ -16171,7 +16171,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PED-0473",
   "categorySlug": "pediatrics",
-  "stem": "Which measure most effectively prevents neonatal tetanus in a Ghanaian community?",
+  "stem": "Which measure **most effectively** prevents neonatal tetanus in a Ghanaian community?",
   "choices": [
    {
     "id": "a",
@@ -16239,7 +16239,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PED-0475",
   "categorySlug": "pediatrics",
-  "stem": "Using IMCI at a Ghanaian clinic, what must the nurse assess in every sick child before anything else?",
+  "stem": "Using IMCI at a Ghanaian clinic, what must the nurse assess in **every** sick child before anything else?",
   "choices": [
    {
     "id": "a",
@@ -16377,7 +16377,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PED-0479",
   "categorySlug": "pediatrics",
-  "stem": "Which sign most reliably indicates severe dehydration in a Ghanaian child with diarrhoea?",
+  "stem": "Which sign **most reliably** indicates severe dehydration in a Ghanaian child with diarrhoea?",
   "choices": [
    {
     "id": "a",
@@ -16889,7 +16889,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NCD-0494",
   "categorySlug": "med-surg",
-  "stem": "A known diabetic is found confused and sweating, with cold pale skin. What is the most likely cause?",
+  "stem": "A known diabetic is found confused and sweating, with cold pale skin. What is the **most likely** cause?",
   "choices": [
    {
     "id": "a",
@@ -16959,7 +16959,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NCD-0496",
   "categorySlug": "med-surg",
-  "stem": "What foot care advice is most important for a Ghanaian patient with diabetic neuropathy?",
+  "stem": "What foot care advice is **most important** for a Ghanaian patient with diabetic neuropathy?",
   "choices": [
    {
     "id": "a",
@@ -17166,7 +17166,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NCD-0502",
   "categorySlug": "med-surg",
-  "stem": "A patient is admitted to a Ghanaian ward with a stroke and a drooping face. What is the first nursing priority?",
+  "stem": "A patient is admitted to a Ghanaian ward with a stroke and a drooping face. What is the **first** nursing priority?",
   "choices": [
    {
     "id": "a",
@@ -17440,7 +17440,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NCD-0510",
   "categorySlug": "med-surg",
-  "stem": "Following drainage of a large volume of ascitic fluid on a Ghanaian ward, what must the nurse monitor most closely?",
+  "stem": "Following drainage of a large volume of ascitic fluid on a Ghanaian ward, what must the nurse monitor **most closely**?",
   "choices": [
    {
     "id": "a",
@@ -17474,7 +17474,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NCD-0511",
   "categorySlug": "med-surg",
-  "stem": "Why is treating hypertension described as the single most effective way to prevent stroke in Ghana?",
+  "stem": "Why is treating hypertension described as the single **most effective** way to prevent stroke in Ghana?",
   "choices": [
    {
     "id": "a",
@@ -17508,7 +17508,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NCD-0512",
   "categorySlug": "med-surg",
-  "stem": "A patient with several chronic conditions frequently misses doses. What should the nurse do first?",
+  "stem": "A patient with several chronic conditions frequently misses doses. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -17542,7 +17542,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NCD-0513",
   "categorySlug": "med-surg",
-  "stem": "What best demonstrates that a Ghanaian patient with a chronic disease has been effectively educated?",
+  "stem": "What **best** demonstrates that a Ghanaian patient with a chronic disease has been effectively educated?",
   "choices": [
    {
     "id": "a",
@@ -17576,7 +17576,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SRG-0514",
   "categorySlug": "med-surg",
-  "stem": "A man is brought to a Ghanaian emergency unit after a motorbike crash with a deformed leg and noisy breathing. What is assessed first?",
+  "stem": "A man is brought to a Ghanaian emergency unit after a motorbike crash with a deformed leg and noisy breathing. What is assessed **first**?",
   "choices": [
    {
     "id": "a",
@@ -17751,7 +17751,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SRG-0519",
   "categorySlug": "med-surg",
-  "stem": "A 60 kg adult has a 25 per cent burn. Using the Parkland formula, how much fluid is given in the first 8 hours?",
+  "stem": "A 60 kg adult has a 25 per cent burn. Using the Parkland formula, how much fluid is given in the **first** 8 hours?",
   "choices": [
    {
     "id": "a",
@@ -18472,7 +18472,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OBS-0540",
   "categorySlug": "maternal-newborn",
-  "stem": "Why is early booking in the first trimester most strongly emphasised at Ghanaian antenatal clinics?",
+  "stem": "Why is early booking in the first trimester **most** strongly emphasised at Ghanaian antenatal clinics?",
   "choices": [
    {
     "id": "a",
@@ -18608,7 +18608,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OBS-0544",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman has an eclamptic fit at a Ghanaian health centre. What is the immediate priority?",
+  "stem": "A woman has an eclamptic fit at a Ghanaian health centre. What is the **immediate** priority?",
   "choices": [
    {
     "id": "a",
@@ -18642,7 +18642,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OBS-0545",
   "categorySlug": "maternal-newborn",
-  "stem": "In a Ghanaian maternity unit, which observation gives the earliest warning of magnesium sulphate toxicity?",
+  "stem": "In a Ghanaian maternity unit, which observation gives the **earliest** warning of magnesium sulphate toxicity?",
   "choices": [
    {
     "id": "a",
@@ -18848,7 +18848,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OBS-0551",
   "categorySlug": "maternal-newborn",
-  "stem": "A pregnant woman in Ghana tests positive for HIV. What most effectively protects her baby from infection?",
+  "stem": "A pregnant woman in Ghana tests positive for HIV. What **most** effectively protects her baby from infection?",
   "choices": [
    {
     "id": "a",
@@ -18952,7 +18952,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OBS-0554",
   "categorySlug": "maternal-newborn",
-  "stem": "During labour on a Ghanaian ward the foetal heart is 96 beats per minute and remains low after a contraction ends. What should the midwife do first?",
+  "stem": "During labour on a Ghanaian ward the foetal heart is 96 beats per minute and remains low after a contraction ends. What should the midwife do **first**?",
   "choices": [
    {
     "id": "a",
@@ -19090,7 +19090,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OBS-0558",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman is bleeding heavily after delivery at a Ghanaian maternity unit and her fundus is soft and above the umbilicus. What should be done first?",
+  "stem": "A woman is bleeding heavily after delivery at a Ghanaian maternity unit and her fundus is soft and above the umbilicus. What should be done **first**?",
   "choices": [
    {
     "id": "a",
@@ -19124,7 +19124,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OBS-0559",
   "categorySlug": "maternal-newborn",
-  "stem": "On a Ghanaian postnatal ward a woman continues to bleed steadily after delivery although her uterus is firm and well contracted. What is the most likely cause?",
+  "stem": "On a Ghanaian postnatal ward a woman continues to bleed steadily after delivery although her uterus is firm and well contracted. What is the **most** likely cause?",
   "choices": [
    {
     "id": "a",
@@ -19431,7 +19431,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PDT-0568",
   "categorySlug": "pediatrics",
-  "stem": "A four-year-old in Ghana has coughed for four weeks, lost weight and has an aunt on TB treatment. What is the priority action?",
+  "stem": "A four-year-old in Ghana has coughed for four weeks, lost weight and has an aunt on TB treatment. What is the **priority** action?",
   "choices": [
    {
     "id": "a",
@@ -19773,7 +19773,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PDT-0578",
   "categorySlug": "pediatrics",
-  "stem": "A 14 kg child at a Ghanaian hospital has burns to 20% of the body surface. Using 4 mL per kg per per cent, what volume is given in the first eight hours from the time of the burn?",
+  "stem": "A 14 kg child at a Ghanaian hospital has burns to 20% of the body surface. Using 4 mL per kg per per cent, what volume is given in the **first eight hours** from the time of the burn?",
   "choices": [
    {
     "id": "a",
@@ -19808,7 +19808,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PDT-0579",
   "categorySlug": "pediatrics",
-  "stem": "A toddler in a Ghanaian home is scalded by hot soup. What should the family be taught to do first?",
+  "stem": "A toddler in a Ghanaian home is scalded by hot soup. What should the family be taught to do **first**?",
   "choices": [
    {
     "id": "a",
@@ -19983,7 +19983,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PDT-0584",
   "categorySlug": "pediatrics",
-  "stem": "Why is a falling blood pressure a late sign of shock in a Ghanaian child?",
+  "stem": "Why is a falling blood pressure a **late** sign of shock in a Ghanaian child?",
   "choices": [
    {
     "id": "a",
@@ -20017,7 +20017,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PDT-0585",
   "categorySlug": "pediatrics",
-  "stem": "Which nursing observation most reliably shows that a child with severe pneumonia on a Ghanaian ward is improving?",
+  "stem": "Which nursing observation **most** reliably shows that a child with severe pneumonia on a Ghanaian ward is improving?",
   "choices": [
    {
     "id": "a",
@@ -20153,7 +20153,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-GER-0589",
   "categorySlug": "gerontology-community",
-  "stem": "An 80-year-old man on a Ghanaian ward has normal observations at rest but collapses after a modest episode of vomiting. What best explains this?",
+  "stem": "An 80-year-old man on a Ghanaian ward has normal observations at rest but collapses after a modest episode of vomiting. What **best** explains this?",
   "choices": [
    {
     "id": "a",
@@ -20223,7 +20223,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-GER-0591",
   "categorySlug": "gerontology-community",
-  "stem": "Which feature most reliably distinguishes delirium from dementia in an older person in Ghana?",
+  "stem": "Which feature **most** reliably distinguishes delirium from dementia in an older person in Ghana?",
   "choices": [
    {
     "id": "a",
@@ -20259,7 +20259,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-GER-0592",
   "categorySlug": "gerontology-community",
-  "stem": "An older man on a Ghanaian ward becomes acutely confused and agitated overnight. What should the nurse do first?",
+  "stem": "An older man on a Ghanaian ward becomes acutely confused and agitated overnight. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -20465,7 +20465,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-GER-0598",
   "categorySlug": "gerontology-community",
-  "stem": "Which measure is most effective in preventing pressure ulcers in a frail older patient on a Ghanaian ward?",
+  "stem": "Which measure is **most** effective in preventing pressure ulcers in a frail older patient on a Ghanaian ward?",
   "choices": [
    {
     "id": "a",
@@ -20671,7 +20671,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-GER-0604",
   "categorySlug": "gerontology-community",
-  "stem": "A daughter in Ghana must learn to dress her mother's leg ulcer at home. What is the best teaching approach?",
+  "stem": "A daughter in Ghana must learn to dress her mother's leg ulcer at home. What is the **best** teaching approach?",
   "choices": [
    {
     "id": "a",
@@ -20773,7 +20773,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-GER-0607",
   "categorySlug": "gerontology-community",
-  "stem": "Which finding should raise the strongest suspicion of elder abuse during a home visit in Ghana?",
+  "stem": "Which finding should raise the **strongest** suspicion of elder abuse during a home visit in Ghana?",
   "choices": [
    {
     "id": "a",
@@ -20807,7 +20807,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-GER-0608",
   "categorySlug": "gerontology-community",
-  "stem": "An older man on a Ghanaian ward washes himself slowly and the nurse is busy. What is the most appropriate action?",
+  "stem": "An older man on a Ghanaian ward washes himself slowly and the nurse is busy. What is the **most** appropriate action?",
   "choices": [
    {
     "id": "a",
@@ -20875,7 +20875,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-GER-0610",
   "categorySlug": "gerontology-community",
-  "stem": "An older woman in Ghana takes six different tablets and keeps missing doses. What should the nurse do first?",
+  "stem": "An older woman in Ghana takes six different tablets and keeps missing doses. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -20943,7 +20943,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-GER-0612",
   "categorySlug": "gerontology-community",
-  "stem": "A woman with dementia in a Ghanaian home repeatedly walks out of the compound. What is the best advice for the family?",
+  "stem": "A woman with dementia in a Ghanaian home repeatedly walks out of the compound. What is the **best** advice for the family?",
   "choices": [
    {
     "id": "a",
@@ -21219,7 +21219,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PUB-0620",
   "categorySlug": "gerontology-community",
-  "stem": "A patient in a Ghanaian district is confirmed to have a highly infectious disease. What is the priority in contact tracing?",
+  "stem": "A patient in a Ghanaian district is confirmed to have a highly infectious disease. What is the **priority** in contact tracing?",
   "choices": [
    {
     "id": "a",
@@ -21391,7 +21391,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PUB-0625",
   "categorySlug": "gerontology-community",
-  "stem": "A child in Ghana is bitten by a stray dog. What is the first action at the health facility?",
+  "stem": "A child in Ghana is bitten by a stray dog. What is the **first** action at the health facility?",
   "choices": [
    {
     "id": "a",
@@ -21495,7 +21495,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PUB-0628",
   "categorySlug": "gerontology-community",
-  "stem": "A nurse refers a patient from a Ghanaian health centre to the district hospital. What most improves the outcome of that referral?",
+  "stem": "A nurse refers a patient from a Ghanaian health centre to the district hospital. What **most** improves the outcome of that referral?",
   "choices": [
    {
     "id": "a",
@@ -21665,7 +21665,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PUB-0633",
   "categorySlug": "gerontology-community",
-  "stem": "Workers at a Ghanaian quarry are exposed to dust every day. Which control is most effective?",
+  "stem": "Workers at a Ghanaian quarry are exposed to dust every day. Which control is **most** effective?",
   "choices": [
    {
     "id": "a",
@@ -21699,7 +21699,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PUB-0634",
   "categorySlug": "gerontology-community",
-  "stem": "During an inspection of a Ghanaian chop bar, which finding presents the greatest risk of food poisoning?",
+  "stem": "During an inspection of a Ghanaian chop bar, which finding presents the **greatest** risk of food poisoning?",
   "choices": [
    {
     "id": "a",
@@ -21767,7 +21767,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PUB-0636",
   "categorySlug": "gerontology-community",
-  "stem": "After two years of a hypertension screening programme in a Ghanaian district, which finding is the strongest evidence of success?",
+  "stem": "After two years of a hypertension screening programme in a Ghanaian district, which finding is the **strongest** evidence of success?",
   "choices": [
    {
     "id": "a",
@@ -21835,7 +21835,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PUB-0638",
   "categorySlug": "gerontology-community",
-  "stem": "A community health nurse in Ghana can make only a limited number of home visits this week. Who should be visited first?",
+  "stem": "A community health nurse in Ghana can make only a limited number of home visits this week. Who should be visited **first**?",
   "choices": [
    {
     "id": "a",
@@ -21905,7 +21905,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PFC-0640",
   "categorySlug": "fundamentals",
-  "stem": "A nurse on a Ghanaian ward receives a patient complaining of abdominal pain. What must she do first?",
+  "stem": "A nurse on a Ghanaian ward receives a patient complaining of abdominal pain. What must she do **first**?",
   "choices": [
    {
     "id": "a",
@@ -21939,7 +21939,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PFC-0641",
   "categorySlug": "fundamentals",
-  "stem": "Which of the following is objective data recorded during a nursing assessment on a Ghanaian ward?",
+  "stem": "Which of the following is **objective** data recorded during a nursing assessment on a Ghanaian ward?",
   "choices": [
    {
     "id": "a",
@@ -21973,7 +21973,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PFC-0642",
   "categorySlug": "fundamentals",
-  "stem": "Which is the best written goal in a care plan on a Ghanaian ward?",
+  "stem": "Which is the **best** written goal in a care plan on a Ghanaian ward?",
   "choices": [
    {
     "id": "a",
@@ -22111,7 +22111,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PFC-0646",
   "categorySlug": "fundamentals",
-  "stem": "A nurse on a Ghanaian ward is worried about a deteriorating patient and telephones the doctor. Using SBAR, what should she state last?",
+  "stem": "A nurse on a Ghanaian ward is worried about a deteriorating patient and telephones the doctor. Using SBAR, what should she state **last**?",
   "choices": [
    {
     "id": "a",
@@ -22181,7 +22181,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PFC-0648",
   "categorySlug": "fundamentals",
-  "stem": "A nurse in Ghana begins a shift with four patients. Who should she assess first?",
+  "stem": "A nurse in Ghana begins a shift with four patients. Who should she assess **first**?",
   "choices": [
    {
     "id": "a",
@@ -22455,7 +22455,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PFC-0656",
   "categorySlug": "fundamentals",
-  "stem": "A patient in Ghana asks a nurse directly whether his illness is terminal. What is the best response?",
+  "stem": "A patient in Ghana asks a nurse directly whether his illness is terminal. What is the **best** response?",
   "choices": [
    {
     "id": "a",
@@ -22523,7 +22523,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PFC-0658",
   "categorySlug": "fundamentals",
-  "stem": "A patient on a Ghanaian ward speaks a language none of the staff understands. Who is the most appropriate interpreter?",
+  "stem": "A patient on a Ghanaian ward speaks a language none of the staff understands. Who is the **most** appropriate interpreter?",
   "choices": [
    {
     "id": "a",
@@ -22591,7 +22591,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PFC-0660",
   "categorySlug": "fundamentals",
-  "stem": "A family complains angrily to a nurse in Ghana about a long delay in their relative's care. What should she do first?",
+  "stem": "A family complains angrily to a nurse in Ghana about a long delay in their relative's care. What should she do **first**?",
   "choices": [
    {
     "id": "a",
@@ -22659,7 +22659,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PFC-0662",
   "categorySlug": "fundamentals",
-  "stem": "How can a nurse in Ghana best check that a patient has understood his discharge instructions?",
+  "stem": "How can a nurse in Ghana **best** check that a patient has understood his discharge instructions?",
   "choices": [
    {
     "id": "a",
@@ -22833,7 +22833,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TCM-0667",
   "categorySlug": "health-promotion",
-  "stem": "Patients attending a herbal unit at a Ghanaian government hospital often do not collect the medicine prescribed. What is the most likely reason?",
+  "stem": "Patients attending a herbal unit at a Ghanaian government hospital often do not collect the medicine prescribed. What is the **most** likely reason?",
   "choices": [
    {
     "id": "a",
@@ -22937,7 +22937,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TCM-0670",
   "categorySlug": "health-promotion",
-  "stem": "What is the most frequent harm arising from traditional treatment of serious illness in Ghana?",
+  "stem": "What is the **most** frequent harm arising from traditional treatment of serious illness in Ghana?",
   "choices": [
    {
     "id": "a",
@@ -23141,7 +23141,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TCM-0676",
   "categorySlug": "health-promotion",
-  "stem": "How should a nurse in Ghana best ask a patient about the use of herbal preparations?",
+  "stem": "How should a nurse in Ghana **best** ask a patient about the use of herbal preparations?",
   "choices": [
    {
     "id": "a",
@@ -23313,7 +23313,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TCM-0681",
   "categorySlug": "health-promotion",
-  "stem": "A patient in Ghana asks the nurse whether a herbal preparation will cure his hypertension. What is the best reply?",
+  "stem": "A patient in Ghana asks the nurse whether a herbal preparation will cure his hypertension. What is the **best** reply?",
   "choices": [
    {
     "id": "a",
@@ -23381,7 +23381,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TCM-0683",
   "categorySlug": "health-promotion",
-  "stem": "Which complementary approach has the strongest evidence for use alongside orthodox care in Ghana?",
+  "stem": "Which complementary approach has the **strongest** evidence for use alongside orthodox care in Ghana?",
   "choices": [
    {
     "id": "a",
@@ -23517,7 +23517,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TCM-0687",
   "categorySlug": "health-promotion",
-  "stem": "A nurse in Ghana is teaching a community about the safe use of traditional medicine. What message is most useful?",
+  "stem": "A nurse in Ghana is teaching a community about the safe use of traditional medicine. What message is **most** useful?",
   "choices": [
    {
     "id": "a",
@@ -23551,7 +23551,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BUS-0688",
   "categorySlug": "leadership-delegation",
-  "stem": "What best describes an entrepreneur in the Ghanaian health sector?",
+  "stem": "What **best** describes an entrepreneur in the Ghanaian health sector?",
   "choices": [
    {
     "id": "a",
@@ -23759,7 +23759,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BUS-0694",
   "categorySlug": "leadership-delegation",
-  "stem": "A nurse plans a clinic where three others already operate in the same Ghanaian town. What should she establish first?",
+  "stem": "A nurse plans a clinic where three others already operate in the same Ghanaian town. What should she establish **first**?",
   "choices": [
    {
     "id": "a",
@@ -24303,7 +24303,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BUS-0710",
   "categorySlug": "leadership-delegation",
-  "stem": "What most reliably motivates staff in a small Ghanaian health business beyond their pay?",
+  "stem": "What **most** reliably motivates staff in a small Ghanaian health business beyond their pay?",
   "choices": [
    {
     "id": "a",
@@ -24543,7 +24543,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BUS-0717",
   "categorySlug": "leadership-delegation",
-  "stem": "Which cost in a Ghanaian private clinic is a fixed cost?",
+  "stem": "Which cost in a Ghanaian private clinic is a **fixed** cost?",
   "choices": [
    {
     "id": "a",
@@ -24750,7 +24750,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BUS-0723",
   "categorySlug": "leadership-delegation",
-  "stem": "Which promotional channel is usually most powerful for a new nursing service in a Ghanaian community?",
+  "stem": "Which promotional channel is usually **most** powerful for a new nursing service in a Ghanaian community?",
   "choices": [
    {
     "id": "a",
@@ -24922,7 +24922,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BUS-0728",
   "categorySlug": "leadership-delegation",
-  "stem": "An institutional client of a Ghanaian nursing service is now four months behind with payment. What should the owner do first?",
+  "stem": "An institutional client of a Ghanaian nursing service is now four months behind with payment. What should the owner do **first**?",
   "choices": [
    {
     "id": "a",
@@ -24990,7 +24990,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BUS-0730",
   "categorySlug": "leadership-delegation",
-  "stem": "Which record is most important for a small Ghanaian health business to maintain daily?",
+  "stem": "Which record is **most** important for a small Ghanaian health business to maintain daily?",
   "choices": [
    {
     "id": "a",
@@ -25197,7 +25197,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BUS-0736",
   "categorySlug": "leadership-delegation",
-  "stem": "A successful Ghanaian nurse entrepreneur is considering opening a second branch. What should she examine first?",
+  "stem": "A successful Ghanaian nurse entrepreneur is considering opening a second branch. What should she examine **first**?",
   "choices": [
    {
     "id": "a",
@@ -25231,7 +25231,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BUS-0737",
   "categorySlug": "leadership-delegation",
-  "stem": "A Ghanaian nurse's first venture closes after two years. What is the most constructive way for her to regard this?",
+  "stem": "A Ghanaian nurse's first venture closes after two years. What is the **most** constructive way for her to regard this?",
   "choices": [
    {
     "id": "a",
@@ -25301,7 +25301,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SGY-0739",
   "categorySlug": "med-surg",
-  "stem": "A nurse in Ghana notices the fluid in a chest drain tube has stopped swinging with respiration on the second day. What should she do first?",
+  "stem": "A nurse in Ghana notices the fluid in a chest drain tube has stopped swinging with respiration on the second day. What should she do **first**?",
   "choices": [
    {
     "id": "a",
@@ -25471,7 +25471,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SGY-0744",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana returns to the ward after thyroidectomy and says her neck dressing feels tight. What is the priority interpretation?",
+  "stem": "A patient in Ghana returns to the ward after thyroidectomy and says her neck dressing feels tight. What is the **priority** interpretation?",
   "choices": [
    {
     "id": "a",
@@ -25677,7 +25677,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SGY-0750",
   "categorySlug": "med-surg",
-  "stem": "A Ghanaian woman turns her face away when her mastectomy wound is being dressed. What is the most appropriate nursing response?",
+  "stem": "A Ghanaian woman turns her face away when her mastectomy wound is being dressed. What is the **most** appropriate nursing response?",
   "choices": [
    {
     "id": "a",
@@ -25881,7 +25881,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SGY-0756",
   "categorySlug": "med-surg",
-  "stem": "An elderly Ghanaian man becomes acutely confused on the second night after hip surgery. What should the nurse do first?",
+  "stem": "An elderly Ghanaian man becomes acutely confused on the second night after hip surgery. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -25949,7 +25949,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SGY-0758",
   "categorySlug": "med-surg",
-  "stem": "Which finding best indicates that bowel function is returning after abdominal surgery in a Ghanaian patient?",
+  "stem": "Which finding **best** indicates that bowel function is returning after abdominal surgery in a Ghanaian patient?",
   "choices": [
    {
     "id": "a",
@@ -25983,7 +25983,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SGY-0759",
   "categorySlug": "med-surg",
-  "stem": "A Ghanaian patient is more unwell on the fifth day after bowel resection, with fever, tachycardia and abdominal pain. What is the priority concern?",
+  "stem": "A Ghanaian patient is more unwell on the fifth day after bowel resection, with fever, tachycardia and abdominal pain. What is the **priority** concern?",
   "choices": [
    {
     "id": "a",
@@ -26019,7 +26019,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SGY-0760",
   "categorySlug": "med-surg",
-  "stem": "An abdominal wound bursts open and bowel is visible in a Ghanaian ward. What should the nurse do immediately?",
+  "stem": "An abdominal wound bursts open and bowel is visible in a Ghanaian ward. What should the nurse do **immediately**?",
   "choices": [
    {
     "id": "a",
@@ -26225,7 +26225,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SGY-0766",
   "categorySlug": "med-surg",
-  "stem": "A young Ghanaian man with a new colostomy says he can never marry now. What is the most helpful nursing response?",
+  "stem": "A young Ghanaian man with a new colostomy says he can never marry now. What is the **most** helpful nursing response?",
   "choices": [
    {
     "id": "a",
@@ -26395,7 +26395,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SGY-0771",
   "categorySlug": "med-surg",
-  "stem": "A 15-year-old boy in Ghana wakes with sudden severe pain in one testis, which is swollen and lies high. What is the priority?",
+  "stem": "A 15-year-old boy in Ghana wakes with sudden severe pain in one testis, which is swollen and lies high. What is the **priority**?",
   "choices": [
    {
     "id": "a",
@@ -26463,7 +26463,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SGY-0773",
   "categorySlug": "med-surg",
-  "stem": "What advice helps a Ghanaian patient most in the first week after haemorrhoidectomy?",
+  "stem": "What advice helps a Ghanaian patient **most** in the first week after haemorrhoidectomy?",
   "choices": [
    {
     "id": "a",
@@ -26534,7 +26534,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SGY-0775",
   "categorySlug": "med-surg",
-  "stem": "Drainage stops and a Ghanaian patient after prostatectomy becomes restless with suprapubic pain. What is the priority action?",
+  "stem": "Drainage stops and a Ghanaian patient after prostatectomy becomes restless with suprapubic pain. What is the **priority** action?",
   "choices": [
    {
     "id": "a",
@@ -26568,7 +26568,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SGY-0776",
   "categorySlug": "med-surg",
-  "stem": "Which observation is most important in the first 24 hours after nephrectomy in a Ghanaian patient?",
+  "stem": "Which observation is **most** important in the first 24 hours after nephrectomy in a Ghanaian patient?",
   "choices": [
    {
     "id": "a",
@@ -26670,7 +26670,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SGY-0779",
   "categorySlug": "med-surg",
-  "stem": "Which finding in a limb after fracture fixation in a Ghanaian patient most requires urgent escalation?",
+  "stem": "Which finding in a limb after fracture fixation in a Ghanaian patient **most** requires urgent escalation?",
   "choices": [
    {
     "id": "a",
@@ -26908,7 +26908,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SGY-0786",
   "categorySlug": "med-surg",
-  "stem": "Why is a split-thickness skin graft immobilised for the first few days in a Ghanaian patient?",
+  "stem": "Why is a split-thickness skin graft **immobilised** for the first few days in a Ghanaian patient?",
   "choices": [
    {
     "id": "a",
@@ -27250,7 +27250,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MHN-0796",
   "categorySlug": "mental-health",
-  "stem": "What is the main nursing responsibility immediately after a Ghanaian patient receives electroconvulsive therapy?",
+  "stem": "What is the **main** nursing responsibility immediately after a Ghanaian patient receives electroconvulsive therapy?",
   "choices": [
    {
     "id": "a",
@@ -27558,7 +27558,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MHN-0805",
   "categorySlug": "mental-health",
-  "stem": "A family in Ghana asks whether their son's schizophrenia was caused by a curse. What is the best response?",
+  "stem": "A family in Ghana asks whether their son's schizophrenia was caused by a curse. What is the **best** response?",
   "choices": [
    {
     "id": "a",
@@ -27592,7 +27592,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MHN-0806",
   "categorySlug": "mental-health",
-  "stem": "A patient on a Ghanaian ward insists that his food is being poisoned by the staff. What is the best response?",
+  "stem": "A patient on a Ghanaian ward insists that his food is being poisoned by the staff. What is the **best** response?",
   "choices": [
    {
     "id": "a",
@@ -27628,7 +27628,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MHN-0807",
   "categorySlug": "mental-health",
-  "stem": "A Ghanaian patient reports hearing voices. Which question is most important for the nurse to ask?",
+  "stem": "A Ghanaian patient reports hearing voices. Which question is **most** important for the nurse to ask?",
   "choices": [
    {
     "id": "a",
@@ -27834,7 +27834,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MHN-0813",
   "categorySlug": "mental-health",
-  "stem": "Which feature indicates the highest immediate suicide risk in a Ghanaian patient?",
+  "stem": "Which feature indicates the **highest** immediate suicide risk in a Ghanaian patient?",
   "choices": [
    {
     "id": "a",
@@ -28004,7 +28004,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MHN-0818",
   "categorySlug": "mental-health",
-  "stem": "A woman at a Ghanaian clinic is breathing rapidly with palpitations and says she is about to die. What should the nurse do first?",
+  "stem": "A woman at a Ghanaian clinic is breathing rapidly with palpitations and says she is about to die. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -28210,7 +28210,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MHN-0824",
   "categorySlug": "mental-health",
-  "stem": "A Ghanaian patient on haloperidol develops a temperature of 39.5 °C with severe muscle rigidity and confusion. What is the priority?",
+  "stem": "A Ghanaian patient on haloperidol develops a temperature of 39.5 °C with severe muscle rigidity and confusion. What is the **priority**?",
   "choices": [
    {
     "id": "a",
@@ -28448,7 +28448,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MHN-0831",
   "categorySlug": "mental-health",
-  "stem": "What attitude is most effective when a Ghanaian nurse counsels a patient about harmful cannabis use?",
+  "stem": "What attitude is **most** effective when a Ghanaian nurse counsels a patient about harmful cannabis use?",
   "choices": [
    {
     "id": "a",
@@ -28482,7 +28482,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MHN-0832",
   "categorySlug": "mental-health",
-  "stem": "A patient on a Ghanaian ward is shouting, pacing and clenching his fists. What should the nurse do first?",
+  "stem": "A patient on a Ghanaian ward is shouting, pacing and clenching his fists. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -28584,7 +28584,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MHN-0835",
   "categorySlug": "mental-health",
-  "stem": "An older Ghanaian patient becomes confused overnight with fluctuating consciousness. What must be excluded first?",
+  "stem": "An older Ghanaian patient becomes confused overnight with fluctuating consciousness. What must be excluded **first**?",
   "choices": [
    {
     "id": "a",
@@ -28652,7 +28652,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MHN-0837",
   "categorySlug": "mental-health",
-  "stem": "What is most important in planning discharge for a Ghanaian patient recovering from a psychotic episode?",
+  "stem": "What is **most** important in planning discharge for a Ghanaian patient recovering from a psychotic episode?",
   "choices": [
    {
     "id": "a",
@@ -28994,7 +28994,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAN-0847",
   "categorySlug": "leadership-delegation",
-  "stem": "What should a Ghanaian district health team do first when preparing its annual plan?",
+  "stem": "What should a Ghanaian district health team do **first** when preparing its annual plan?",
   "choices": [
    {
     "id": "a",
@@ -29096,7 +29096,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAN-0850",
   "categorySlug": "leadership-delegation",
-  "stem": "A Ghanaian ward's budget will not cover everything requested. What is the most appropriate managerial response?",
+  "stem": "A Ghanaian ward's budget will not cover everything requested. What is the **most** appropriate managerial response?",
   "choices": [
    {
     "id": "a",
@@ -29130,7 +29130,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAN-0851",
   "categorySlug": "leadership-delegation",
-  "stem": "Why should a Ghanaian ward operate a first expiry, first out system for its drug store?",
+  "stem": "Why should a Ghanaian ward operate a **first expiry, first out** system for its drug store?",
   "choices": [
    {
     "id": "a",
@@ -29164,7 +29164,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAN-0852",
   "categorySlug": "leadership-delegation",
-  "stem": "A Ghanaian ward repeatedly runs out of gloves before the next supply is due. What should the manager do first?",
+  "stem": "A Ghanaian ward repeatedly runs out of gloves before the next supply is due. What should the manager do **first**?",
   "choices": [
    {
     "id": "a",
@@ -29198,7 +29198,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAN-0853",
   "categorySlug": "leadership-delegation",
-  "stem": "What is the most important consideration when a Ghanaian ward manager prepares the duty roster?",
+  "stem": "What is the **most** important consideration when a Ghanaian ward manager prepares the duty roster?",
   "choices": [
    {
     "id": "a",
@@ -29232,7 +29232,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAN-0854",
   "categorySlug": "leadership-delegation",
-  "stem": "Two nurses fail to report for a shift on a busy Ghanaian ward. What should the nurse in charge do first?",
+  "stem": "Two nurses fail to report for a shift on a busy Ghanaian ward. What should the nurse in charge do **first**?",
   "choices": [
    {
     "id": "a",
@@ -29438,7 +29438,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAN-0860",
   "categorySlug": "leadership-delegation",
-  "stem": "A Ghanaian ward manager must correct a nurse who documented late. What approach is most effective?",
+  "stem": "A Ghanaian ward manager must correct a nurse who documented late. What approach is **most** effective?",
   "choices": [
    {
     "id": "a",
@@ -29712,7 +29712,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAN-0868",
   "categorySlug": "leadership-delegation",
-  "stem": "Staff resist a new documentation system introduced on a Ghanaian ward. What is the most likely reason?",
+  "stem": "Staff resist a new documentation system introduced on a Ghanaian ward. What is the **most** likely reason?",
   "choices": [
    {
     "id": "a",
@@ -29780,7 +29780,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAN-0870",
   "categorySlug": "leadership-delegation",
-  "stem": "A Ghanaian nurse in charge faces several competing demands at once. Which should she attend to first?",
+  "stem": "A Ghanaian nurse in charge faces several competing demands at once. Which should she attend to **first**?",
   "choices": [
    {
     "id": "a",
@@ -29848,7 +29848,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAN-0872",
   "categorySlug": "leadership-delegation",
-  "stem": "A Ghanaian ward manager needs an additional nurse but previous verbal requests have been ignored. What is the best approach?",
+  "stem": "A Ghanaian ward manager needs an additional nurse but previous verbal requests have been ignored. What is the **best** approach?",
   "choices": [
    {
     "id": "a",
@@ -29882,7 +29882,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAN-0873",
   "categorySlug": "leadership-delegation",
-  "stem": "A nurse in Ghana gives a drug to the wrong patient, who is unharmed. What should she do first?",
+  "stem": "A nurse in Ghana gives a drug to the wrong patient, who is unharmed. What should she do **first**?",
   "choices": [
    {
     "id": "a",
@@ -30054,7 +30054,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAN-0878",
   "categorySlug": "leadership-delegation",
-  "stem": "Why should a quality improvement change be tested on a small scale first in a Ghanaian facility?",
+  "stem": "Why should a quality improvement change be tested on a **small scale first** in a Ghanaian facility?",
   "choices": [
    {
     "id": "a",
@@ -30226,7 +30226,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAN-0883",
   "categorySlug": "leadership-delegation",
-  "stem": "A relative complains angrily at the nurses' station in a Ghanaian hospital. What should the nurse in charge do first?",
+  "stem": "A relative complains angrily at the nurses' station in a Ghanaian hospital. What should the nurse in charge do **first**?",
   "choices": [
    {
     "id": "a",
@@ -30362,7 +30362,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAN-0887",
   "categorySlug": "leadership-delegation",
-  "stem": "Which measure best indicates that a new Ghanaian outreach clinic is achieving its purpose?",
+  "stem": "Which measure **best** indicates that a new Ghanaian outreach clinic is achieving its purpose?",
   "choices": [
    {
     "id": "a",
@@ -30466,7 +30466,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IMD-0890",
   "categorySlug": "med-surg",
-  "stem": "A Ghanaian patient on antiretroviral therapy has a viral load of 4,000 copies per millilitre. What should be assessed first?",
+  "stem": "A Ghanaian patient on antiretroviral therapy has a viral load of 4,000 copies per millilitre. What should be assessed **first**?",
   "choices": [
    {
     "id": "a",
@@ -30570,7 +30570,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IMD-0893",
   "categorySlug": "med-surg",
-  "stem": "Why has GeneXpert become the first test for tuberculosis in Ghana rather than sputum microscopy?",
+  "stem": "Why has GeneXpert become the **first** test for tuberculosis in Ghana rather than sputum microscopy?",
   "choices": [
    {
     "id": "a",
@@ -30810,7 +30810,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IMD-0900",
   "categorySlug": "med-surg",
-  "stem": "Why should blood cultures be taken before the first antibiotic dose in a septic Ghanaian patient?",
+  "stem": "Why should blood cultures be taken before the **first** antibiotic dose in a septic Ghanaian patient?",
   "choices": [
    {
     "id": "a",
@@ -30878,7 +30878,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IMD-0902",
   "categorySlug": "med-surg",
-  "stem": "Which finding in a Ghanaian patient most strongly suggests bacterial meningitis?",
+  "stem": "Which finding in a Ghanaian patient **most strongly** suggests bacterial meningitis?",
   "choices": [
    {
     "id": "a",
@@ -30946,7 +30946,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IMD-0904",
   "categorySlug": "med-surg",
-  "stem": "What is the priority in managing an adult with severe cholera at a Ghanaian treatment centre?",
+  "stem": "What is the **priority** in managing an adult with severe cholera at a Ghanaian treatment centre?",
   "choices": [
    {
     "id": "a",
@@ -31322,7 +31322,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IMD-0915",
   "categorySlug": "med-surg",
-  "stem": "Which feature best distinguishes rheumatoid arthritis from osteoarthritis in a Ghanaian patient?",
+  "stem": "Which feature **best** distinguishes rheumatoid arthritis from osteoarthritis in a Ghanaian patient?",
   "choices": [
    {
     "id": "a",
@@ -31492,7 +31492,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IMD-0920",
   "categorySlug": "med-surg",
-  "stem": "A young Ghanaian woman with lupus develops facial swelling and frothy urine. What does this most likely indicate?",
+  "stem": "A young Ghanaian woman with lupus develops facial swelling and frothy urine. What does this **most likely** indicate?",
   "choices": [
    {
     "id": "a",
@@ -31560,7 +31560,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IMD-0922",
   "categorySlug": "med-surg",
-  "stem": "Which observation in a Ghanaian adult with pneumonia indicates the most serious deterioration?",
+  "stem": "Which observation in a Ghanaian adult with pneumonia indicates the **most serious** deterioration?",
   "choices": [
    {
     "id": "a",
@@ -31628,7 +31628,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IMD-0924",
   "categorySlug": "med-surg",
-  "stem": "Which finding in a Ghanaian adult with an acute asthma attack is most alarming?",
+  "stem": "Which finding in a Ghanaian adult with an acute asthma attack is **most alarming**?",
   "choices": [
    {
     "id": "a",
@@ -31662,7 +31662,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IMD-0925",
   "categorySlug": "med-surg",
-  "stem": "A Ghanaian patient's urine output has fallen to 15 mL per hour after two days of vomiting. What is the priority action?",
+  "stem": "A Ghanaian patient's urine output has fallen to 15 mL per hour after two days of vomiting. What is the **priority** action?",
   "choices": [
    {
     "id": "a",
@@ -31730,7 +31730,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IMD-0927",
   "categorySlug": "med-surg",
-  "stem": "An unconscious Ghanaian man is brought in having swallowed pesticide. What must be done first?",
+  "stem": "An unconscious Ghanaian man is brought in having swallowed pesticide. What must be done **first**?",
   "choices": [
    {
     "id": "a",
@@ -31766,7 +31766,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IMD-0928",
   "categorySlug": "med-surg",
-  "stem": "A Ghanaian farmer arrives salivating profusely, with pinpoint pupils, wet lungs and incontinence. What has he most likely been exposed to?",
+  "stem": "A Ghanaian farmer arrives salivating profusely, with pinpoint pupils, wet lungs and incontinence. What has he **most likely** been exposed to?",
   "choices": [
    {
     "id": "a",
@@ -32584,7 +32584,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-RSM-0952",
   "categorySlug": "risk-reduction",
-  "stem": "A Ghanaian ward continues an outdated practice although evidence contradicts it. What is the most likely reason?",
+  "stem": "A Ghanaian ward continues an outdated practice although evidence contradicts it. What is the **most likely** reason?",
   "choices": [
    {
     "id": "a",
@@ -33610,7 +33610,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-RSM-0982",
   "categorySlug": "risk-reduction",
-  "stem": "What should a Ghanaian nurse examine first when appraising a published study?",
+  "stem": "What should a Ghanaian nurse examine **first** when appraising a published study?",
   "choices": [
    {
     "id": "a",
@@ -33886,7 +33886,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRG-0990",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "Why is adrenaline the first drug in anaphylaxis rather than an antihistamine or a corticosteroid?",
+  "stem": "Why is adrenaline the **first** drug in anaphylaxis rather than an antihistamine or a corticosteroid?",
   "choices": [
    {
     "id": "a",
@@ -34672,7 +34672,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRG-1013",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "Why is metformin usually the first drug for type 2 diabetes in Ghana rather than a sulphonylurea?",
+  "stem": "Why is metformin usually the **first** drug for type 2 diabetes in Ghana rather than a sulphonylurea?",
   "choices": [
    {
     "id": "a",
@@ -35084,7 +35084,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRG-1025",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "An older Ghanaian woman takes nine different medicines and has begun falling at home. What should be reviewed first?",
+  "stem": "An older Ghanaian woman takes nine different medicines and has begun falling at home. What should be reviewed **first**?",
   "choices": [
    {
     "id": "a",
@@ -35526,7 +35526,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPR-1038",
   "categorySlug": "fundamentals",
-  "stem": "A Ghanaian student asks what the posterior pituitary actually manufactures. What is the most accurate reply?",
+  "stem": "A Ghanaian student asks what the posterior pituitary actually manufactures. What is the **most** accurate reply?",
   "choices": [
    {
     "id": "a",
@@ -35630,7 +35630,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPR-1041",
   "categorySlug": "fundamentals",
-  "stem": "In an inland district of northern Ghana several people have visible goitres. Why does a lack of iodine make the gland enlarge?",
+  "stem": "In an inland district of northern Ghana several people have visible goitres. Why does a lack of iodine make the gland **enlarge**?",
   "choices": [
    {
     "id": "a",
@@ -35698,7 +35698,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPR-1043",
   "categorySlug": "fundamentals",
-  "stem": "The adrenal cortex has three layers. Which group of hormones does the outermost layer produce?",
+  "stem": "The adrenal cortex has three layers. Which group of hormones does the **outermost** layer produce?",
   "choices": [
    {
     "id": "a",
@@ -35732,7 +35732,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPR-1044",
   "categorySlug": "fundamentals",
-  "stem": "A patient whose adrenal cortex has been destroyed is admitted collapsed. Which combination of results fits best?",
+  "stem": "A patient whose adrenal cortex has been destroyed is admitted collapsed. Which combination of results fits **best**?",
   "choices": [
    {
     "id": "a",
@@ -35766,7 +35766,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPR-1045",
   "categorySlug": "fundamentals",
-  "stem": "Which pancreatic cell type secretes the hormone that raises blood glucose during a fast?",
+  "stem": "Which pancreatic cell type secretes the hormone that **raises** blood glucose during a fast?",
   "choices": [
    {
     "id": "a",
@@ -35834,7 +35834,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPR-1047",
   "categorySlug": "fundamentals",
-  "stem": "A night-duty nurse at Korle Bu sleeps badly during the day. Which gland and hormone explain the difficulty most directly?",
+  "stem": "A night-duty nurse at Korle Bu sleeps badly during the day. Which gland and hormone explain the difficulty **most** directly?",
   "choices": [
    {
     "id": "a",
@@ -36004,7 +36004,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPR-1052",
   "categorySlug": "fundamentals",
-  "stem": "A young woman has severe period pain. Which local chemical messengers are most responsible?",
+  "stem": "A young woman has severe period pain. Which local chemical messengers are **most** responsible?",
   "choices": [
    {
     "id": "a",
@@ -36106,7 +36106,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPR-1055",
   "categorySlug": "fundamentals",
-  "stem": "A man in Kumasi has taken oral steroids for months and stops them suddenly. Why is he now at serious risk?",
+  "stem": "A man in Kumasi has taken oral steroids for months and stops them suddenly. Why is he now at **serious** risk?",
   "choices": [
    {
     "id": "a",
@@ -36210,7 +36210,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPR-1058",
   "categorySlug": "fundamentals",
-  "stem": "Why is basal body temperature charting alone a poor way to avoid pregnancy?",
+  "stem": "Why is basal body temperature charting alone a **poor** way to avoid pregnancy?",
   "choices": [
    {
     "id": "a",
@@ -36348,7 +36348,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPR-1062",
   "categorySlug": "fundamentals",
-  "stem": "A man in Ho has just had a vasectomy. What is the most important instruction before he relies on it?",
+  "stem": "A man in Ho has just had a vasectomy. What is the **most** important instruction before he relies on it?",
   "choices": [
    {
     "id": "a",
@@ -36586,7 +36586,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPR-1069",
   "categorySlug": "fundamentals",
-  "stem": "Sperm cannot fertilise an egg immediately after ejaculation. What must happen first?",
+  "stem": "Sperm cannot fertilise an egg immediately after ejaculation. What must happen **first**?",
   "choices": [
    {
     "id": "a",
@@ -36620,7 +36620,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPR-1070",
   "categorySlug": "fundamentals",
-  "stem": "A couple in Sunyani have not conceived after two years. What should the nurse advise first?",
+  "stem": "A couple in Sunyani have not conceived after two years. What should the nurse advise **first**?",
   "choices": [
    {
     "id": "a",
@@ -36688,7 +36688,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPR-1072",
   "categorySlug": "fundamentals",
-  "stem": "A mother in Koforidua asks what caused her baby's extra chromosome. What is the best explanation?",
+  "stem": "A mother in Koforidua asks what caused her baby's extra chromosome. What is the **best** explanation?",
   "choices": [
    {
     "id": "a",
@@ -36724,7 +36724,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPR-1073",
   "categorySlug": "fundamentals",
-  "stem": "A tall young man has small firm testes, sparse facial hair and infertility. Which karyotype is most likely?",
+  "stem": "A tall young man has small firm testes, sparse facial hair and infertility. Which karyotype is **most** likely?",
   "choices": [
    {
     "id": "a",
@@ -36998,7 +36998,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPR-1081",
   "categorySlug": "fundamentals",
-  "stem": "Which abnormality would a karyotype be least able to detect?",
+  "stem": "Which abnormality would a karyotype be **least** able to detect?",
   "choices": [
    {
     "id": "a",
@@ -37066,7 +37066,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPR-1083",
   "categorySlug": "fundamentals",
-  "stem": "An engaged couple both have sickle cell trait and ask the nurse whether they should marry. What is the best response?",
+  "stem": "An engaged couple both have sickle cell trait and ask the nurse whether they should marry. What is the **best** response?",
   "choices": [
    {
     "id": "a",
@@ -37134,7 +37134,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPR-1085",
   "categorySlug": "fundamentals",
-  "stem": "A couple in Accra ask a fertility clinic to select a male embryo because the family wants a son. What is the main ethical objection?",
+  "stem": "A couple in Accra ask a fertility clinic to select a male embryo because the family wants a son. What is the **main** ethical objection?",
   "choices": [
    {
     "id": "a",
@@ -37236,7 +37236,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1088",
   "categorySlug": "med-surg",
-  "stem": "A nurse in Techiman examines a patient's abdomen. Which action should come immediately after inspection?",
+  "stem": "A nurse in Techiman examines a patient's abdomen. Which action should come **immediately** after inspection?",
   "choices": [
    {
     "id": "a",
@@ -37272,7 +37272,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1089",
   "categorySlug": "med-surg",
-  "stem": "A patient reports pain in the right lower abdomen. Where should the nurse palpate last?",
+  "stem": "A patient reports pain in the right lower abdomen. Where should the nurse palpate **last**?",
   "choices": [
    {
     "id": "a",
@@ -37306,7 +37306,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1090",
   "categorySlug": "med-surg",
-  "stem": "Percussion over one side of a patient's chest is unusually dull. What does this most likely indicate?",
+  "stem": "Percussion over one side of a patient's chest is unusually dull. What does this **most** likely indicate?",
   "choices": [
    {
     "id": "a",
@@ -37512,7 +37512,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1096",
   "categorySlug": "med-surg",
-  "stem": "A confused elderly woman in a hot ward has a sodium of 158 mmol/L. What is the most likely cause?",
+  "stem": "A confused elderly woman in a hot ward has a sodium of 158 mmol/L. What is the **most** likely cause?",
   "choices": [
    {
     "id": "a",
@@ -37614,7 +37614,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1099",
   "categorySlug": "med-surg",
-  "stem": "A shocked patient in an Accra emergency unit needs rapid volume replacement. Which fluid is most appropriate?",
+  "stem": "A shocked patient in an Accra emergency unit needs rapid volume replacement. Which fluid is **most** appropriate?",
   "choices": [
    {
     "id": "a",
@@ -37650,7 +37650,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1100",
   "categorySlug": "med-surg",
-  "stem": "An elderly patient becomes breathless one hour into a rapid infusion. What should the nurse do first?",
+  "stem": "An elderly patient becomes breathless one hour into a rapid infusion. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -37752,7 +37752,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1103",
   "categorySlug": "med-surg",
-  "stem": "Why must concentrated potassium chloride never be given as a rapid intravenous push?",
+  "stem": "Why must concentrated potassium chloride **never** be given as a rapid intravenous push?",
   "choices": [
    {
     "id": "a",
@@ -37820,7 +37820,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1105",
   "categorySlug": "med-surg",
-  "stem": "Which entry records a nursing assessment finding most appropriately?",
+  "stem": "Which entry records a nursing assessment finding **most** appropriately?",
   "choices": [
    {
     "id": "a",
@@ -37854,7 +37854,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1106",
   "categorySlug": "med-surg",
-  "stem": "A patient from a rural district has fever, sore throat and bleeding gums, and rats are common in the household. What must the nurse do first?",
+  "stem": "A patient from a rural district has fever, sore throat and bleeding gums, and rats are common in the household. What must the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -37992,7 +37992,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1110",
   "categorySlug": "med-surg",
-  "stem": "A community health nurse hears of a person with a worm emerging from a leg ulcer. What is the priority action?",
+  "stem": "A community health nurse hears of a person with a worm emerging from a leg ulcer. What is the **priority** action?",
   "choices": [
    {
     "id": "a",
@@ -38026,7 +38026,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1111",
   "categorySlug": "med-surg",
-  "stem": "A patient has several weeks of loose stool containing blood and mucus, with griping pain. Which organism is most likely?",
+  "stem": "A patient has several weeks of loose stool containing blood and mucus, with griping pain. Which organism is **most** likely?",
   "choices": [
    {
     "id": "a",
@@ -38196,7 +38196,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1116",
   "categorySlug": "med-surg",
-  "stem": "A single suspected case of yellow fever is seen in a Ghanaian district. Why must it be reported immediately?",
+  "stem": "A single suspected case of yellow fever is seen in a Ghanaian district. Why must it be reported **immediately**?",
   "choices": [
    {
     "id": "a",
@@ -38230,7 +38230,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1117",
   "categorySlug": "med-surg",
-  "stem": "A patient in isolation says he feels like a prisoner and that staff avoid him. What is the best nursing response?",
+  "stem": "A patient in isolation says he feels like a prisoner and that staff avoid him. What is the **best** nursing response?",
   "choices": [
    {
     "id": "a",
@@ -38298,7 +38298,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1119",
   "categorySlug": "med-surg",
-  "stem": "Several cholera cases appear in a crowded Accra suburb. Which measure will reduce transmission most?",
+  "stem": "Several cholera cases appear in a crowded Accra suburb. Which measure will reduce transmission **most**?",
   "choices": [
    {
     "id": "a",
@@ -38436,7 +38436,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1123",
   "categorySlug": "med-surg",
-  "stem": "A woman treated for trichomoniasis returns a month later with the same symptoms. What is the most likely explanation?",
+  "stem": "A woman treated for trichomoniasis returns a month later with the same symptoms. What is the **most** likely explanation?",
   "choices": [
    {
     "id": "a",
@@ -38470,7 +38470,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1124",
   "categorySlug": "med-surg",
-  "stem": "A woman of 24 has lower abdominal pain, fever and vaginal discharge. What must be excluded first?",
+  "stem": "A woman of 24 has lower abdominal pain, fever and vaginal discharge. What must be excluded **first**?",
   "choices": [
    {
     "id": "a",
@@ -38538,7 +38538,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1126",
   "categorySlug": "med-surg",
-  "stem": "Why is every pregnant woman in Ghana offered a syphilis test at her first antenatal contact?",
+  "stem": "Why is every pregnant woman in Ghana offered a syphilis test at her **first** antenatal contact?",
   "choices": [
    {
     "id": "a",
@@ -38572,7 +38572,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1127",
   "categorySlug": "med-surg",
-  "stem": "A 17-year-old asks for STI treatment and begs the nurse not to tell her parents. What is the best response?",
+  "stem": "A 17-year-old asks for STI treatment and begs the nurse not to tell her parents. What is the **best** response?",
   "choices": [
    {
     "id": "a",
@@ -38674,7 +38674,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1130",
   "categorySlug": "med-surg",
-  "stem": "A patient with a chronic infectious illness says he deserves it and stops collecting his medicines. What does this best illustrate?",
+  "stem": "A patient with a chronic infectious illness says he deserves it and stops collecting his medicines. What does this **best** illustrate?",
   "choices": [
    {
     "id": "a",
@@ -38742,7 +38742,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1132",
   "categorySlug": "med-surg",
-  "stem": "A student nurse asks to be reassigned because a patient has an infectious disease. What is the most appropriate response?",
+  "stem": "A student nurse asks to be reassigned because a patient has an infectious disease. What is the **most** appropriate response?",
   "choices": [
    {
     "id": "a",
@@ -38810,7 +38810,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1134",
   "categorySlug": "med-surg",
-  "stem": "A family believes their relative's epilepsy is a spiritual curse and is contagious. What should the nurse do first?",
+  "stem": "A family believes their relative's epilepsy is a spiritual curse and is contagious. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -38844,7 +38844,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1135",
   "categorySlug": "med-surg",
-  "stem": "Which practice does most to prevent needlestick injuries on a busy Ghanaian ward?",
+  "stem": "Which practice does **most** to prevent needlestick injuries on a busy Ghanaian ward?",
   "choices": [
    {
     "id": "a",
@@ -39016,7 +39016,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OPR-1140",
   "categorySlug": "med-surg",
-  "stem": "Autoclave tape on a pack has changed colour. What does this actually confirm?",
+  "stem": "Autoclave tape on a pack has changed colour. What does this **actually** confirm?",
   "choices": [
    {
     "id": "a",
@@ -39154,7 +39154,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OPR-1144",
   "categorySlug": "med-surg",
-  "stem": "Before diathermy is used, what is the most important check regarding the patient plate?",
+  "stem": "Before diathermy is used, what is the **most** important check regarding the patient plate?",
   "choices": [
    {
     "id": "a",
@@ -39358,7 +39358,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OPR-1150",
   "categorySlug": "med-surg",
-  "stem": "A specimen is removed in theatre. What is the most important nursing action?",
+  "stem": "A specimen is removed in theatre. What is the **most** important nursing action?",
   "choices": [
    {
     "id": "a",
@@ -39392,7 +39392,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OPR-1151",
   "categorySlug": "med-surg",
-  "stem": "Which practice best reduces sharps injuries among the theatre team?",
+  "stem": "Which practice **best** reduces sharps injuries among the theatre team?",
   "choices": [
    {
     "id": "a",
@@ -39734,7 +39734,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OPR-1161",
   "categorySlug": "med-surg",
-  "stem": "A child from a riverine Ghanaian community has a large painless ulcer with undermined edges. What is the priority action?",
+  "stem": "A child from a riverine Ghanaian community has a large painless ulcer with undermined edges. What is the **priority** action?",
   "choices": [
    {
     "id": "a",
@@ -39802,7 +39802,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OPR-1163",
   "categorySlug": "med-surg",
-  "stem": "Which action does most to prevent pressure ulcers in an immobile surgical patient?",
+  "stem": "Which action does **most** to prevent pressure ulcers in an immobile surgical patient?",
   "choices": [
    {
     "id": "a",
@@ -39938,7 +39938,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OPR-1167",
   "categorySlug": "med-surg",
-  "stem": "Which dietary advice best supports healing of a large surgical wound?",
+  "stem": "Which dietary advice **best** supports healing of a large surgical wound?",
   "choices": [
    {
     "id": "a",
@@ -40382,7 +40382,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OPR-1180",
   "categorySlug": "med-surg",
-  "stem": "A patient on chemotherapy develops a temperature of 38.5 degrees Celsius. What is the priority action?",
+  "stem": "A patient on chemotherapy develops a temperature of 38.5 degrees Celsius. What is the **priority** action?",
   "choices": [
    {
     "id": "a",
@@ -40416,7 +40416,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OPR-1181",
   "categorySlug": "med-surg",
-  "stem": "A patient receiving intravenous chemotherapy reports burning at the cannula site. What should the nurse do first?",
+  "stem": "A patient receiving intravenous chemotherapy reports burning at the cannula site. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -40554,7 +40554,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OPR-1185",
   "categorySlug": "med-surg",
-  "stem": "A family in Kumasi refuses morphine for a dying relative, fearing it will hasten death. What is the best response?",
+  "stem": "A family in Kumasi refuses morphine for a dying relative, fearing it will hasten death. What is the **best** response?",
   "choices": [
    {
     "id": "a",
@@ -40862,7 +40862,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PKD-1194",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient on long-term morphine now needs a higher dose for the same relief. What does this most likely indicate?",
+  "stem": "A patient on long-term morphine now needs a higher dose for the same relief. What does this **most** likely indicate?",
   "choices": [
    {
     "id": "a",
@@ -41614,7 +41614,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PKD-1216",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A pregnant woman receiving quinine becomes drowsy and sweaty. What should be checked first?",
+  "stem": "A pregnant woman receiving quinine becomes drowsy and sweaty. What should be checked **first**?",
   "choices": [
    {
     "id": "a",
@@ -41956,7 +41956,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PKD-1226",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient says he takes his blood pressure tablets only every other day because of the cost. What should the nurse do first?",
+  "stem": "A patient says he takes his blood pressure tablets only every other day because of the cost. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -42094,7 +42094,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PKD-1230",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "Which group of medicines most warrants an independent second check before administration?",
+  "stem": "Which group of medicines **most** warrants an independent second check before administration?",
   "choices": [
    {
     "id": "a",
@@ -42128,7 +42128,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PKD-1231",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A nurse realises she has given the wrong drug to a patient. What should she do first?",
+  "stem": "A nurse realises she has given the wrong drug to a patient. What should she do **first**?",
   "choices": [
    {
     "id": "a",
@@ -42162,7 +42162,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PKD-1232",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A ward has repeated similar drug errors. Which approach will reduce them most?",
+  "stem": "A ward has repeated similar drug errors. Which approach will reduce them **most**?",
   "choices": [
    {
     "id": "a",
@@ -42332,7 +42332,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PKD-1237",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "How can a nurse best confirm that a patient understands a new medicine regimen?",
+  "stem": "How can a nurse **best** confirm that a patient understands a new medicine regimen?",
   "choices": [
    {
     "id": "a",
@@ -42468,7 +42468,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BST-1241",
   "categorySlug": "risk-reduction",
-  "stem": "Nine patients stay three days and one stays sixty days. Which summary describes this ward best?",
+  "stem": "Nine patients stay three days and one stays sixty days. Which summary describes this ward **best**?",
   "choices": [
    {
     "id": "a",
@@ -42606,7 +42606,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BST-1245",
   "categorySlug": "risk-reduction",
-  "stem": "A data set contains one value far outside all the others. What should the researcher do first?",
+  "stem": "A data set contains one value far outside all the others. What should the researcher do **first**?",
   "choices": [
    {
     "id": "a",
@@ -42878,7 +42878,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BST-1253",
   "categorySlug": "risk-reduction",
-  "stem": "A matron asks for a report to show her ward in the best possible light before an inspection. How should the nurse respond?",
+  "stem": "A matron asks for a report to show her ward in the **best** possible light before an inspection. How should the nurse respond?",
   "choices": [
    {
     "id": "a",
@@ -43188,7 +43188,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BST-1262",
   "categorySlug": "risk-reduction",
-  "stem": "A small trial finds no significant difference between two wound dressings. What is the most cautious interpretation?",
+  "stem": "A small trial finds no significant difference between two wound dressings. What is the **most** cautious interpretation?",
   "choices": [
    {
     "id": "a",
@@ -43392,7 +43392,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BST-1268",
   "categorySlug": "risk-reduction",
-  "stem": "A scale consistently reads 2 kg above the true weight of every patient. How is it best described?",
+  "stem": "A scale consistently reads 2 kg above the true weight of every patient. How is it **best** described?",
   "choices": [
    {
     "id": "a",
@@ -43426,7 +43426,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BST-1269",
   "categorySlug": "risk-reduction",
-  "stem": "Which problem is not reduced by increasing the number of participants in a study?",
+  "stem": "Which problem is **not** reduced by increasing the number of participants in a study?",
   "choices": [
    {
     "id": "a",
@@ -43768,7 +43768,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BST-1279",
   "categorySlug": "risk-reduction",
-  "stem": "Ice cream sales and drowning deaths rise together each year. What best explains this association?",
+  "stem": "Ice cream sales and drowning deaths rise together each year. What **best** explains this association?",
   "choices": [
    {
     "id": "a",
@@ -43906,7 +43906,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BST-1283",
   "categorySlug": "risk-reduction",
-  "stem": "A drug reduces the risk of a complication from 2 in 1,000 to 1 in 1,000. How is this best described to a patient?",
+  "stem": "A drug reduces the risk of a complication from 2 in 1,000 to 1 in 1,000. How is this **best** described to a patient?",
   "choices": [
    {
     "id": "a",
@@ -44042,7 +44042,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BST-1287",
   "categorySlug": "risk-reduction",
-  "stem": "A ward's monthly data show a rise in pressure ulcers. What is the most appropriate use of this finding?",
+  "stem": "A ward's monthly data show a rise in pressure ulcers. What is the **most** appropriate use of this finding?",
   "choices": [
    {
     "id": "a",
@@ -44454,7 +44454,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HCB-1299",
   "categorySlug": "health-promotion",
-  "stem": "Children in a Ghanaian farming community repeatedly present with hookworm. Which measure interrupts transmission most durably?",
+  "stem": "Children in a Ghanaian farming community repeatedly present with hookworm. Which measure interrupts transmission **most** durably?",
   "choices": [
    {
     "id": "a",
@@ -44488,7 +44488,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HCB-1300",
   "categorySlug": "health-promotion",
-  "stem": "A Ghanaian household cannot afford a gas cooker. What advice reduces smoke exposure most realistically?",
+  "stem": "A Ghanaian household cannot afford a gas cooker. What advice reduces smoke exposure **most** realistically?",
   "choices": [
    {
     "id": "a",
@@ -44556,7 +44556,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HCB-1302",
   "categorySlug": "health-promotion",
-  "stem": "Which approach to a workplace hazard is most effective?",
+  "stem": "Which approach to a workplace hazard is **most** effective?",
   "choices": [
    {
     "id": "a",
@@ -44590,7 +44590,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HCB-1303",
   "categorySlug": "health-promotion",
-  "stem": "Which disease is most directly associated with overcrowded sleeping arrangements in a Ghanaian compound house?",
+  "stem": "Which disease is **most** directly associated with overcrowded sleeping arrangements in a Ghanaian compound house?",
   "choices": [
    {
     "id": "a",
@@ -44726,7 +44726,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HCB-1307",
   "categorySlug": "health-promotion",
-  "stem": "Hand hygiene compliance on a Ghanaian ward stays poor despite repeated training. What is the most useful next step?",
+  "stem": "Hand hygiene compliance on a Ghanaian ward stays poor despite repeated training. What is the **most** useful next step?",
   "choices": [
    {
     "id": "a",
@@ -45034,7 +45034,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HCB-1316",
   "categorySlug": "health-promotion",
-  "stem": "Which finding best demonstrates that a hygiene programme has succeeded?",
+  "stem": "Which finding **best** demonstrates that a hygiene programme has succeeded?",
   "choices": [
    {
     "id": "a",
@@ -45102,7 +45102,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HCB-1318",
   "categorySlug": "health-promotion",
-  "stem": "Men in a Ghanaian district present late with hypertension complications. What is the most useful programme response?",
+  "stem": "Men in a Ghanaian district present late with hypertension complications. What is the **most** useful programme response?",
   "choices": [
    {
     "id": "a",
@@ -45136,7 +45136,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HCB-1319",
   "categorySlug": "health-promotion",
-  "stem": "A woman discloses that her husband beats her and asks the nurse not to tell anyone. What is the priority response?",
+  "stem": "A woman discloses that her husband beats her and asks the nurse not to tell anyone. What is the **priority** response?",
   "choices": [
    {
     "id": "a",
@@ -45170,7 +45170,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HCB-1320",
   "categorySlug": "health-promotion",
-  "stem": "Staff at a health centre are reluctant to touch patients with HIV. Which intervention will change this most effectively?",
+  "stem": "Staff at a health centre are reluctant to touch patients with HIV. Which intervention will change this **most** effectively?",
   "choices": [
    {
     "id": "a",
@@ -45238,7 +45238,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HCB-1322",
   "categorySlug": "health-promotion",
-  "stem": "A district plans a health project and invites residents only to attend the launch ceremony. How is this best described?",
+  "stem": "A district plans a health project and invites residents only to attend the launch ceremony. How is this **best** described?",
   "choices": [
    {
     "id": "a",
@@ -45650,7 +45650,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HCB-1334",
   "categorySlug": "health-promotion",
-  "stem": "A ramp is built at a clinic, yet patients with disability still do not attend. What barrier is most likely to remain?",
+  "stem": "A ramp is built at a clinic, yet patients with disability still do not attend. What barrier is **most likely** to remain?",
   "choices": [
    {
     "id": "a",
@@ -45718,7 +45718,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HCB-1336",
   "categorySlug": "health-promotion",
-  "stem": "Which way of describing a patient on a Ghanaian ward is most respectful?",
+  "stem": "Which way of describing a patient on a Ghanaian ward is **most** respectful?",
   "choices": [
    {
     "id": "a",
@@ -45752,7 +45752,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HCB-1337",
   "categorySlug": "health-promotion",
-  "stem": "A nurse finds that her health centre's only accessible entrance is permanently locked. What is the best action?",
+  "stem": "A nurse finds that her health centre's only accessible entrance is permanently locked. What is the **best** action?",
   "choices": [
    {
     "id": "a",
@@ -45856,7 +45856,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PRC-1340",
   "categorySlug": "fundamentals",
-  "stem": "Which action best protects a patient's dignity during an intimate procedure?",
+  "stem": "Which action **best** protects a patient's dignity during an intimate procedure?",
   "choices": [
    {
     "id": "a",
@@ -46812,7 +46812,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PRC-1368",
   "categorySlug": "fundamentals",
-  "stem": "The skin around a patient's colostomy is red and excoriated. What is the most likely cause?",
+  "stem": "The skin around a patient's colostomy is red and excoriated. What is the **most likely** cause?",
   "choices": [
    {
     "id": "a",
@@ -47118,7 +47118,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PRC-1377",
   "categorySlug": "fundamentals",
-  "stem": "A patient has a generalised seizure on the ward. What should the nurse do first?",
+  "stem": "A patient has a generalised seizure on the ward. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -47838,7 +47838,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PSY-1398",
   "categorySlug": "mental-health",
-  "stem": "A teenager is brought to a Ghanaian clinic after cutting her arms. What is the most appropriate initial response?",
+  "stem": "A teenager is brought to a Ghanaian clinic after cutting her arms. What is the **most** appropriate initial response?",
   "choices": [
    {
     "id": "a",
@@ -48110,7 +48110,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PSY-1406",
   "categorySlug": "mental-health",
-  "stem": "Which feature most clearly indicates physical dependence on a substance?",
+  "stem": "Which feature **most clearly** indicates physical dependence on a substance?",
   "choices": [
    {
     "id": "a",
@@ -48180,7 +48180,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PSY-1408",
   "categorySlug": "mental-health",
-  "stem": "A young driver in Ghana takes high-dose tramadol daily to work longer hours. What is the most serious physical risk?",
+  "stem": "A young driver in Ghana takes high-dose tramadol daily to work longer hours. What is the **most serious** physical risk?",
   "choices": [
    {
     "id": "a",
@@ -48214,7 +48214,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PSY-1409",
   "categorySlug": "mental-health",
-  "stem": "A patient's answers suggest hazardous alcohol use, though he has not asked for help. What approach is most likely to work?",
+  "stem": "A patient's answers suggest hazardous alcohol use, though he has not asked for help. What approach is **most likely** to work?",
   "choices": [
    {
     "id": "a",
@@ -48352,7 +48352,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PSY-1413",
   "categorySlug": "mental-health",
-  "stem": "A delirious older patient is agitated and pulling at her cannula. What should be done first?",
+  "stem": "A delirious older patient is agitated and pulling at her cannula. What should be done **first**?",
   "choices": [
    {
     "id": "a",
@@ -48386,7 +48386,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PSY-1414",
   "categorySlug": "mental-health",
-  "stem": "A woman with dementia asks repeatedly where her late mother is. What is the best response?",
+  "stem": "A woman with dementia asks repeatedly where her late mother is. What is the **best** response?",
   "choices": [
    {
     "id": "a",
@@ -48420,7 +48420,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PSY-1415",
   "categorySlug": "mental-health",
-  "stem": "A patient with dementia becomes restless and agitated each evening. Which measure is most likely to help?",
+  "stem": "A patient with dementia becomes restless and agitated each evening. Which measure is **most likely** to help?",
   "choices": [
    {
     "id": "a",
@@ -48556,7 +48556,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PSY-1419",
   "categorySlug": "mental-health",
-  "stem": "An adult with intellectual disability needs a blood test but becomes distressed in the treatment room. What approach is most appropriate?",
+  "stem": "An adult with intellectual disability needs a blood test but becomes distressed in the treatment room. What approach is **most** appropriate?",
   "choices": [
    {
     "id": "a",
@@ -48932,7 +48932,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PSY-1430",
   "categorySlug": "mental-health",
-  "stem": "A family says a prayer camp is also treating their relative's mental illness. What is the best nursing response?",
+  "stem": "A family says a prayer camp is also treating their relative's mental illness. What is the **best** nursing response?",
   "choices": [
    {
     "id": "a",
@@ -49000,7 +49000,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PSY-1432",
   "categorySlug": "mental-health",
-  "stem": "A patient discharged from a Ghanaian psychiatric unit lives four hours away. What arrangement is most likely to maintain her treatment?",
+  "stem": "A patient discharged from a Ghanaian psychiatric unit lives four hours away. What arrangement is **most likely** to maintain her treatment?",
   "choices": [
    {
     "id": "a",
@@ -49070,7 +49070,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PSY-1434",
   "categorySlug": "mental-health",
-  "stem": "A patient has stopped her antipsychotic medication. What should the nurse establish first?",
+  "stem": "A patient has stopped her antipsychotic medication. What should the nurse establish **first**?",
   "choices": [
    {
     "id": "a",
@@ -49242,7 +49242,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADM-1439",
   "categorySlug": "leadership-delegation",
-  "stem": "A Ghanaian hospital has a high rate of rejected NHIS claims. What is the most likely cause?",
+  "stem": "A Ghanaian hospital has a high rate of rejected NHIS claims. What is the **most likely** cause?",
   "choices": [
    {
     "id": "a",
@@ -49652,7 +49652,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADM-1451",
   "categorySlug": "leadership-delegation",
-  "stem": "Which action by a ward nurse most directly protects the facility's operating budget?",
+  "stem": "Which action by a ward nurse **most directly** protects the facility's operating budget?",
   "choices": [
    {
     "id": "a",
@@ -49686,7 +49686,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADM-1452",
   "categorySlug": "leadership-delegation",
-  "stem": "A ward manager wants funding for an additional item of equipment. What makes the request most persuasive?",
+  "stem": "A ward manager wants funding for an additional item of equipment. What makes the request **most persuasive**?",
   "choices": [
    {
     "id": "a",
@@ -49788,7 +49788,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADM-1455",
   "categorySlug": "leadership-delegation",
-  "stem": "A patient asks why she must buy an item the hospital has run out of. What is the best response?",
+  "stem": "A patient asks why she must buy an item the hospital has run out of. What is the **best** response?",
   "choices": [
    {
     "id": "a",
@@ -49822,7 +49822,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADM-1456",
   "categorySlug": "leadership-delegation",
-  "stem": "Which measure best reflects the nursing staff a ward requires?",
+  "stem": "Which measure **best** reflects the nursing staff a ward requires?",
   "choices": [
    {
     "id": "a",
@@ -49960,7 +49960,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADM-1460",
   "categorySlug": "leadership-delegation",
-  "stem": "Nurses posted to a remote Ghanaian district repeatedly request transfers. Which intervention is most likely to help?",
+  "stem": "Nurses posted to a remote Ghanaian district repeatedly request transfers. Which intervention is **most likely** to help?",
   "choices": [
    {
     "id": "a",
@@ -49994,7 +49994,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADM-1461",
   "categorySlug": "leadership-delegation",
-  "stem": "A night shift will have one registered nurse and three assistants for forty patients. What should the nurse in charge do first?",
+  "stem": "A night shift will have one registered nurse and three assistants for forty patients. What should the nurse in charge do **first**?",
   "choices": [
    {
     "id": "a",
@@ -50164,7 +50164,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADM-1466",
   "categorySlug": "leadership-delegation",
-  "stem": "A normally reliable nurse has been absent without notice several times in a month. What should the manager do first?",
+  "stem": "A normally reliable nurse has been absent without notice several times in a month. What should the manager do **first**?",
   "choices": [
    {
     "id": "a",
@@ -50198,7 +50198,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADM-1467",
   "categorySlug": "leadership-delegation",
-  "stem": "Which factor most strongly determines whether a newly posted nurse stays beyond her first year?",
+  "stem": "Which factor **most strongly** determines whether a newly posted nurse stays beyond her first year?",
   "choices": [
    {
     "id": "a",
@@ -50232,7 +50232,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADM-1468",
   "categorySlug": "leadership-delegation",
-  "stem": "A manager has no budget for staff rewards. Which approach is most likely to sustain morale?",
+  "stem": "A manager has no budget for staff rewards. Which approach is **most likely** to sustain morale?",
   "choices": [
    {
     "id": "a",
@@ -50334,7 +50334,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADM-1471",
   "categorySlug": "leadership-delegation",
-  "stem": "Which practice most improves coordination on a busy ward at the start of a shift?",
+  "stem": "Which practice **most** improves coordination on a busy ward at the start of a shift?",
   "choices": [
    {
     "id": "a",
@@ -50438,7 +50438,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADM-1474",
   "categorySlug": "leadership-delegation",
-  "stem": "Almost all clinic patients arrive before eight in the morning. Which measure would most reduce waiting?",
+  "stem": "Almost all clinic patients arrive before eight in the morning. Which measure would **most** reduce waiting?",
   "choices": [
    {
     "id": "a",
@@ -50506,7 +50506,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADM-1476",
   "categorySlug": "leadership-delegation",
-  "stem": "Which delay most commonly extends a patient's hospital stay beyond clinical need?",
+  "stem": "Which delay **most commonly** extends a patient's hospital stay beyond clinical need?",
   "choices": [
    {
     "id": "a",
@@ -50540,7 +50540,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADM-1477",
   "categorySlug": "leadership-delegation",
-  "stem": "A district hospital frequently refers patients who are turned away by the regional facility. What would most reduce this?",
+  "stem": "A district hospital frequently refers patients who are turned away by the regional facility. What would **most** reduce this?",
   "choices": [
    {
     "id": "a",
@@ -50574,7 +50574,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADM-1478",
   "categorySlug": "leadership-delegation",
-  "stem": "Which measure most reduces needlestick injuries among ward staff?",
+  "stem": "Which measure **most** reduces needlestick injuries among ward staff?",
   "choices": [
    {
     "id": "a",
@@ -50644,7 +50644,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADM-1480",
   "categorySlug": "leadership-delegation",
-  "stem": "Which measure best protects nursing staff against occupationally acquired hepatitis B?",
+  "stem": "Which measure **best** protects nursing staff against occupationally acquired hepatitis B?",
   "choices": [
    {
     "id": "a",
@@ -50678,7 +50678,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADM-1481",
   "categorySlug": "leadership-delegation",
-  "stem": "Most sharps injuries on a ward are never formally reported. What is the most serious consequence?",
+  "stem": "Most sharps injuries on a ward are never formally reported. What is the **most serious** consequence?",
   "choices": [
    {
     "id": "a",
@@ -50712,7 +50712,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADM-1482",
   "categorySlug": "leadership-delegation",
-  "stem": "Verbal abuse of staff is common in a busy Ghanaian emergency department. Which measure would help most?",
+  "stem": "Verbal abuse of staff is common in a busy Ghanaian emergency department. Which measure would help **most**?",
   "choices": [
    {
     "id": "a",
@@ -50746,7 +50746,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADM-1483",
   "categorySlug": "leadership-delegation",
-  "stem": "A ward reports frequent back injuries among nursing staff. What is the most effective response?",
+  "stem": "A ward reports frequent back injuries among nursing staff. What is the **most effective** response?",
   "choices": [
    {
     "id": "a",
@@ -50848,7 +50848,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADM-1486",
   "categorySlug": "leadership-delegation",
-  "stem": "Which measure most reduces tuberculosis transmission to staff on a crowded Ghanaian ward?",
+  "stem": "Which measure **most** reduces tuberculosis transmission to staff on a crowded Ghanaian ward?",
   "choices": [
    {
     "id": "a",
@@ -50916,7 +50916,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CVM-1488",
   "categorySlug": "med-surg",
-  "stem": "A 58-year-old man has central crushing chest pain spreading to his jaw, with sweating and nausea. Which feature most supports a cardiac cause?",
+  "stem": "A 58-year-old man has central crushing chest pain spreading to his jaw, with sweating and nausea. Which feature **most** supports a cardiac cause?",
   "choices": [
    {
     "id": "a",
@@ -50952,7 +50952,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CVM-1489",
   "categorySlug": "med-surg",
-  "stem": "A patient arrives with suspected myocardial infarction. What should the nurse do first?",
+  "stem": "A patient arrives with suspected myocardial infarction. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -51088,7 +51088,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CVM-1493",
   "categorySlug": "med-surg",
-  "stem": "Which complication is the most likely cause of death in the first hours after a myocardial infarction?",
+  "stem": "Which complication is the **most likely** cause of death in the first hours after a myocardial infarction?",
   "choices": [
    {
     "id": "a",
@@ -51156,7 +51156,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CVM-1495",
   "categorySlug": "med-surg",
-  "stem": "A patient is acutely breathless, sitting upright, with pink frothy sputum and crackles throughout both lungs. What is the priority action?",
+  "stem": "A patient is acutely breathless, sitting upright, with pink frothy sputum and crackles throughout both lungs. What is the **priority** action?",
   "choices": [
    {
     "id": "a",
@@ -51190,7 +51190,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CVM-1496",
   "categorySlug": "med-surg",
-  "stem": "Which observation best shows that treatment for acute heart failure is working?",
+  "stem": "Which observation **best** shows that treatment for acute heart failure is working?",
   "choices": [
    {
     "id": "a",
@@ -51326,7 +51326,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CVM-1500",
   "categorySlug": "med-surg",
-  "stem": "A postoperative patient becomes suddenly breathless with sharp chest pain and a rapid pulse. What should the nurse do first?",
+  "stem": "A postoperative patient becomes suddenly breathless with sharp chest pain and a rapid pulse. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -51462,7 +51462,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CVM-1504",
   "categorySlug": "med-surg",
-  "stem": "A monitored patient suddenly becomes unresponsive. What should the nurse assess first?",
+  "stem": "A monitored patient suddenly becomes unresponsive. What should the nurse assess **first**?",
   "choices": [
    {
     "id": "a",
@@ -51496,7 +51496,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CVM-1505",
   "categorySlug": "med-surg",
-  "stem": "A Ghanaian man stops his antihypertensive tablets because he feels well. What is the best nursing response?",
+  "stem": "A Ghanaian man stops his antihypertensive tablets because he feels well. What is the **best** nursing response?",
   "choices": [
    {
     "id": "a",
@@ -51566,7 +51566,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CVM-1507",
   "categorySlug": "med-surg",
-  "stem": "Which finding most suggests that a patient's haematemesis is from oesophageal varices rather than a peptic ulcer?",
+  "stem": "Which finding **most** suggests that a patient's haematemesis is from oesophageal varices rather than a peptic ulcer?",
   "choices": [
    {
     "id": "a",
@@ -51840,7 +51840,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CVM-1515",
   "categorySlug": "med-surg",
-  "stem": "A patient receiving chemotherapy develops a temperature of 38.5 °C. What is the priority?",
+  "stem": "A patient receiving chemotherapy develops a temperature of 38.5 °C. What is the **priority**?",
   "choices": [
    {
     "id": "a",
@@ -51908,7 +51908,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CVM-1517",
   "categorySlug": "med-surg",
-  "stem": "Which investigation most quickly raises suspicion of acute leukaemia?",
+  "stem": "Which investigation **most quickly** raises suspicion of acute leukaemia?",
   "choices": [
    {
     "id": "a",
@@ -51976,7 +51976,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CVM-1519",
   "categorySlug": "med-surg",
-  "stem": "A patient asks the nurse whether her results mean she has cancer, before the doctor has spoken to her. What is the best response?",
+  "stem": "A patient asks the nurse whether her results mean she has cancer, before the doctor has spoken to her. What is the **best** response?",
   "choices": [
    {
     "id": "a",
@@ -52044,7 +52044,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CVM-1521",
   "categorySlug": "med-surg",
-  "stem": "Fifteen minutes into a transfusion a patient develops loin pain, rigors and dark urine. What should the nurse do first?",
+  "stem": "Fifteen minutes into a transfusion a patient develops loin pain, rigors and dark urine. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -52078,7 +52078,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CVM-1522",
   "categorySlug": "med-surg",
-  "stem": "A young man has weakness that began in his feet and has climbed to his thighs over four days, following a diarrhoeal illness. Which observation is most important?",
+  "stem": "A young man has weakness that began in his feet and has climbed to his thighs over four days, following a diarrhoeal illness. Which observation is **most** important?",
   "choices": [
    {
     "id": "a",
@@ -52284,7 +52284,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CVM-1528",
   "categorySlug": "med-surg",
-  "stem": "Which feature best distinguishes a generalised seizure from a simple faint?",
+  "stem": "Which feature **best** distinguishes a generalised seizure from a simple faint?",
   "choices": [
    {
     "id": "a",
@@ -52524,7 +52524,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CVM-1535",
   "categorySlug": "med-surg",
-  "stem": "Which nursing measure is the priority for an unconscious medical patient?",
+  "stem": "Which nursing measure is the **priority** for an unconscious medical patient?",
   "choices": [
    {
     "id": "a",
@@ -52728,7 +52728,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PER-1541",
   "categorySlug": "med-surg",
-  "stem": "An unresponsive patient in recovery begins to snore loudly. What should the nurse do first?",
+  "stem": "An unresponsive patient in recovery begins to snore loudly. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -52796,7 +52796,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PER-1543",
   "categorySlug": "med-surg",
-  "stem": "A patient develops a fever on the first day after abdominal surgery. What is the most likely cause?",
+  "stem": "A patient develops a fever on the first day after abdominal surgery. What is the **most likely** cause?",
   "choices": [
    {
     "id": "a",
@@ -52968,7 +52968,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PER-1548",
   "categorySlug": "med-surg",
-  "stem": "An older man becomes acutely confused on the second night after surgery. What should be assessed first?",
+  "stem": "An older man becomes acutely confused on the second night after surgery. What should be assessed **first**?",
   "choices": [
    {
     "id": "a",
@@ -53070,7 +53070,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PER-1551",
   "categorySlug": "med-surg",
-  "stem": "Which measure most effectively reduces surgical site infection?",
+  "stem": "Which measure **most effectively** reduces surgical site infection?",
   "choices": [
    {
     "id": "a",
@@ -53206,7 +53206,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PER-1555",
   "categorySlug": "med-surg",
-  "stem": "What is the most important information for theatre staff to hand over to the receiving ward nurse?",
+  "stem": "What is the **most important** information for theatre staff to hand over to the receiving ward nurse?",
   "choices": [
    {
     "id": "a",
@@ -53276,7 +53276,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PER-1557",
   "categorySlug": "med-surg",
-  "stem": "A patient with a tracheostomy becomes distressed and cannot breathe. What should the nurse do first?",
+  "stem": "A patient with a tracheostomy becomes distressed and cannot breathe. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -53344,7 +53344,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PER-1559",
   "categorySlug": "med-surg",
-  "stem": "A patient with a newly formed tracheostomy is distressed at being unable to speak. What is the best nursing response?",
+  "stem": "A patient with a newly formed tracheostomy is distressed at being unable to speak. What is the **best** nursing response?",
   "choices": [
    {
     "id": "a",
@@ -53412,7 +53412,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PER-1561",
   "categorySlug": "med-surg",
-  "stem": "How should a child be positioned immediately after tonsillectomy while still drowsy?",
+  "stem": "How should a child be positioned **immediately** after tonsillectomy while still drowsy?",
   "choices": [
    {
     "id": "a",
@@ -53618,7 +53618,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PER-1567",
   "categorySlug": "med-surg",
-  "stem": "A worker has splashed a caustic chemical into his eye. What must be done first?",
+  "stem": "A worker has splashed a caustic chemical into his eye. What must be done **first**?",
   "choices": [
    {
     "id": "a",
@@ -53720,7 +53720,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PER-1570",
   "categorySlug": "med-surg",
-  "stem": "Which finding in a burn patient most strongly indicates the airway is at risk?",
+  "stem": "Which finding in a burn patient **most** strongly indicates the airway is at risk?",
   "choices": [
    {
     "id": "a",
@@ -53892,7 +53892,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PER-1575",
   "categorySlug": "med-surg",
-  "stem": "Which finding is the most reliable early indicator of shock in a small child?",
+  "stem": "Which finding is the **most** reliable early indicator of shock in a small child?",
   "choices": [
    {
     "id": "a",
@@ -53926,7 +53926,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PER-1576",
   "categorySlug": "med-surg",
-  "stem": "How can a nurse best reduce a young child's distress before surgery?",
+  "stem": "How can a nurse **best** reduce a young child's distress before surgery?",
   "choices": [
    {
     "id": "a",
@@ -54030,7 +54030,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PER-1579",
   "categorySlug": "med-surg",
-  "stem": "What is the most important nursing measure after haemorrhoidectomy?",
+  "stem": "What is the **most important** nursing measure after haemorrhoidectomy?",
   "choices": [
    {
     "id": "a",
@@ -54166,7 +54166,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PER-1583",
   "categorySlug": "med-surg",
-  "stem": "An adolescent has sudden severe pain in one testis with nausea. Why must he be seen immediately?",
+  "stem": "An adolescent has sudden severe pain in one testis with nausea. Why must he be seen **immediately**?",
   "choices": [
    {
     "id": "a",
@@ -54406,7 +54406,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EBP-1590",
   "categorySlug": "risk-reduction",
-  "stem": "Nurses surveyed by their own ward manager report almost perfect hand hygiene. What is the most likely explanation?",
+  "stem": "Nurses surveyed by their own ward manager report almost perfect hand hygiene. What is the **most likely** explanation?",
   "choices": [
    {
     "id": "a",
@@ -54576,7 +54576,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EBP-1595",
   "categorySlug": "risk-reduction",
-  "stem": "A nurse wants to know whether a new dressing reduces infection. Which formulation is the most searchable?",
+  "stem": "A nurse wants to know whether a new dressing reduces infection. Which formulation is the **most** searchable?",
   "choices": [
    {
     "id": "a",
@@ -54748,7 +54748,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EBP-1600",
   "categorySlug": "risk-reduction",
-  "stem": "Which feature most increases confidence in a clinical guideline?",
+  "stem": "Which feature **most** increases confidence in a clinical guideline?",
   "choices": [
    {
     "id": "a",
@@ -55396,7 +55396,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EBP-1619",
   "categorySlug": "risk-reduction",
-  "stem": "A tool gives the same result every time but does not measure what it claims to. How is it best described?",
+  "stem": "A tool gives the same result every time but does not measure what it claims to. How is it **best** described?",
   "choices": [
    {
     "id": "a",
@@ -55498,7 +55498,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EBP-1622",
   "categorySlug": "risk-reduction",
-  "stem": "A researcher wants to understand how families decide when to bring a sick child to hospital. Which approach fits best?",
+  "stem": "A researcher wants to understand how families decide when to bring a sick child to hospital. Which approach fits **best**?",
   "choices": [
    {
     "id": "a",
@@ -55636,7 +55636,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EBP-1626",
   "categorySlug": "risk-reduction",
-  "stem": "A nurse wishes to recruit her own patients into a study. What safeguard is most important?",
+  "stem": "A nurse wishes to recruit her own patients into a study. What safeguard is **most important**?",
   "choices": [
    {
     "id": "a",
@@ -56012,7 +56012,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EBP-1637",
   "categorySlug": "risk-reduction",
-  "stem": "A ward's own audit shows a problem, but practice does not change after the findings are presented. What is the most likely reason?",
+  "stem": "A ward's own audit shows a problem, but practice does not change after the findings are presented. What is the **most likely** reason?",
   "choices": [
    {
     "id": "a",
@@ -56291,7 +56291,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDS-1645",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "During an infusion the site becomes swollen and cool and the patient reports pain. What should the nurse do first?",
+  "stem": "During an infusion the site becomes swollen and cool and the patient reports pain. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -56427,7 +56427,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDS-1649",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient's asthma remains poorly controlled despite a preventer inhaler. What should the nurse check first?",
+  "stem": "A patient's asthma remains poorly controlled despite a preventer inhaler. What should the nurse check **first**?",
   "choices": [
    {
     "id": "a",
@@ -56907,7 +56907,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDS-1663",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "Which observation is most important in a patient receiving intravenous heparin?",
+  "stem": "Which observation is **most** important in a patient receiving intravenous heparin?",
   "choices": [
    {
     "id": "a",
@@ -57317,7 +57317,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDS-1675",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "Which observation gives the earliest warning of opioid overdose?",
+  "stem": "Which observation gives the **earliest** warning of opioid overdose?",
   "choices": [
    {
     "id": "a",
@@ -57351,7 +57351,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDS-1676",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A family fears that morphine will hasten their dying relative's death. What is the best response?",
+  "stem": "A family fears that morphine will hasten their dying relative's death. What is the **best** response?",
   "choices": [
    {
     "id": "a",
@@ -57419,7 +57419,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDS-1678",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient with a three-day cough and no fever asks for an antibiotic. What is the best response?",
+  "stem": "A patient with a three-day cough and no fever asks for an antibiotic. What is the **best** response?",
   "choices": [
    {
     "id": "a",
@@ -57831,7 +57831,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FAM-1690",
   "categorySlug": "fundamentals",
-  "stem": "Which question best identifies the person a nurse should teach before discharge?",
+  "stem": "Which question **best** identifies the person a nurse should teach before discharge?",
   "choices": [
    {
     "id": "a",
@@ -57899,7 +57899,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FAM-1692",
   "categorySlug": "fundamentals",
-  "stem": "Which action best demonstrates family centred care on a ward round?",
+  "stem": "Which action **best** demonstrates family centred care on a ward round?",
   "choices": [
    {
     "id": "a",
@@ -57933,7 +57933,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FAM-1693",
   "categorySlug": "fundamentals",
-  "stem": "A patient has missed three clinic appointments. What should the nurse explore first?",
+  "stem": "A patient has missed three clinic appointments. What should the nurse explore **first**?",
   "choices": [
    {
     "id": "a",
@@ -58617,7 +58617,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FAM-1713",
   "categorySlug": "fundamentals",
-  "stem": "A patient still requiring treatment tells the nurse she is going home today. What should the nurse do first?",
+  "stem": "A patient still requiring treatment tells the nurse she is going home today. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -58721,7 +58721,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FAM-1716",
   "categorySlug": "fundamentals",
-  "stem": "A relative complains angrily that his mother was left unattended for hours. What is the best initial response?",
+  "stem": "A relative complains angrily that his mother was left unattended for hours. What is the **best** initial response?",
   "choices": [
    {
     "id": "a",
@@ -58995,7 +58995,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FAM-1724",
   "categorySlug": "fundamentals",
-  "stem": "A family asks the nurse not to tell their mother she has cancer. What is the best response?",
+  "stem": "A family asks the nurse not to tell their mother she has cancer. What is the **best** response?",
   "choices": [
    {
     "id": "a",
@@ -59233,7 +59233,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FAM-1731",
   "categorySlug": "fundamentals",
-  "stem": "A student nurse is visibly upset after her first patient death. What is the best response from the ward sister?",
+  "stem": "A student nurse is visibly upset after her first patient death. What is the **best** response from the ward sister?",
   "choices": [
    {
     "id": "a",
@@ -59267,7 +59267,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FAM-1732",
   "categorySlug": "fundamentals",
-  "stem": "Which arrangement best supports a patient discharged to a rural community?",
+  "stem": "Which arrangement **best** supports a patient discharged to a rural community?",
   "choices": [
    {
     "id": "a",
@@ -59335,7 +59335,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FAM-1734",
   "categorySlug": "fundamentals",
-  "stem": "A patient on long-term treatment has not attended for two months. What is the best first step?",
+  "stem": "A patient on long-term treatment has not attended for two months. What is the **best** first step?",
   "choices": [
    {
     "id": "a",
@@ -59369,7 +59369,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FAM-1735",
   "categorySlug": "fundamentals",
-  "stem": "Which measure best indicates whether care on a ward is genuinely patient centred?",
+  "stem": "Which measure **best** indicates whether care on a ward is genuinely patient centred?",
   "choices": [
    {
     "id": "a",
@@ -59471,7 +59471,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHD-1738",
   "categorySlug": "pediatrics",
-  "stem": "A newborn is limp and not breathing after drying. What should the nurse do first?",
+  "stem": "A newborn is limp and not breathing after drying. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -59541,7 +59541,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHD-1740",
   "categorySlug": "pediatrics",
-  "stem": "Which action best prevents heat loss in a newborn immediately after delivery?",
+  "stem": "Which action **best** prevents heat loss in a newborn immediately after delivery?",
   "choices": [
    {
     "id": "a",
@@ -59609,7 +59609,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHD-1742",
   "categorySlug": "pediatrics",
-  "stem": "Jaundice appearing in the first 24 hours of life is significant because it suggests which process?",
+  "stem": "Jaundice appearing in the **first** 24 hours of life is significant because it suggests which process?",
   "choices": [
    {
     "id": "a",
@@ -59747,7 +59747,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHD-1746",
   "categorySlug": "pediatrics",
-  "stem": "A mother says her milk is not enough because her baby cries often. What should the nurse do first?",
+  "stem": "A mother says her milk is not enough because her baby cries often. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -59985,7 +59985,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHD-1753",
   "categorySlug": "pediatrics",
-  "stem": "Which newborn is at the greatest risk of hypoglycaemia soon after birth?",
+  "stem": "Which newborn is at the **greatest** risk of hypoglycaemia soon after birth?",
   "choices": [
    {
     "id": "a",
@@ -60191,7 +60191,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHD-1759",
   "categorySlug": "pediatrics",
-  "stem": "A 2-year-old is convulsing with a high fever. What should the nurse do first?",
+  "stem": "A 2-year-old is convulsing with a high fever. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -61288,7 +61288,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-LTC-1791",
   "categorySlug": "med-surg",
-  "stem": "Which error would most likely produce a falsely high blood pressure reading?",
+  "stem": "Which error would **most** likely produce a falsely high blood pressure reading?",
   "choices": [
    {
     "id": "a",
@@ -61356,7 +61356,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-LTC-1793",
   "categorySlug": "med-surg",
-  "stem": "Which advice is most likely to reduce a Ghanaian patient's salt intake in practice?",
+  "stem": "Which advice is **most** likely to reduce a Ghanaian patient's salt intake in practice?",
   "choices": [
    {
     "id": "a",
@@ -62519,7 +62519,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-LTC-1827",
   "categorySlug": "med-surg",
-  "stem": "Which intervention does most to prevent a further stroke?",
+  "stem": "Which intervention does **most** to prevent a further stroke?",
   "choices": [
    {
     "id": "a",
@@ -62791,7 +62791,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-LTC-1835",
   "categorySlug": "med-surg",
-  "stem": "Which question is most likely to give an accurate picture of a patient's adherence?",
+  "stem": "Which question is **most** likely to give an accurate picture of a patient's adherence?",
   "choices": [
    {
     "id": "a",
@@ -63033,7 +63033,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRA-1842",
   "categorySlug": "med-surg",
-  "stem": "Which finding appears earliest in a young adult who is bleeding internally?",
+  "stem": "Which finding appears **earliest** in a young adult who is bleeding internally?",
   "choices": [
    {
     "id": "a",
@@ -63067,7 +63067,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRA-1843",
   "categorySlug": "med-surg",
-  "stem": "A patient has heavy bleeding from a deep forearm wound. What should the nurse do first?",
+  "stem": "A patient has heavy bleeding from a deep forearm wound. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -63305,7 +63305,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRA-1850",
   "categorySlug": "med-surg",
-  "stem": "After a bus crash, which patient should be attended to first?",
+  "stem": "After a bus crash, which patient should be attended to **first**?",
   "choices": [
    {
     "id": "a",
@@ -63475,7 +63475,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRA-1855",
   "categorySlug": "med-surg",
-  "stem": "Which measure would do most to reduce head injuries among Ghanaian motorcycle riders?",
+  "stem": "Which measure would do **most** to reduce head injuries among Ghanaian motorcycle riders?",
   "choices": [
    {
     "id": "a",
@@ -63855,7 +63855,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRA-1866",
   "categorySlug": "med-surg",
-  "stem": "A patient waiting for surgical review has severe abdominal pain. Which action is most appropriate?",
+  "stem": "A patient waiting for surgical review has severe abdominal pain. Which action is **most** appropriate?",
   "choices": [
    {
     "id": "a",
@@ -64163,7 +64163,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRA-1875",
   "categorySlug": "med-surg",
-  "stem": "Which measure does most to prevent deep vein thrombosis after abdominal surgery?",
+  "stem": "Which measure does **most** to prevent deep vein thrombosis after abdominal surgery?",
   "choices": [
    {
     "id": "a",
@@ -65156,7 +65156,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PNC-1904",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman who has just miscarried at 10 weeks is crying. What is the most helpful response?",
+  "stem": "A woman who has just miscarried at 10 weeks is crying. What is the **most** helpful response?",
   "choices": [
    {
     "id": "a",
@@ -65292,7 +65292,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PNC-1908",
   "categorySlug": "maternal-newborn",
-  "stem": "A loop of cord is visible at the vulva after the membranes rupture. What should the nurse do first?",
+  "stem": "A loop of cord is visible at the vulva after the membranes rupture. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -65428,7 +65428,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PNC-1912",
   "categorySlug": "maternal-newborn",
-  "stem": "Which component of active management of the third stage does most to prevent postpartum haemorrhage?",
+  "stem": "Which component of active management of the third stage does **most** to prevent postpartum haemorrhage?",
   "choices": [
    {
     "id": "a",
@@ -65702,7 +65702,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PNC-1920",
   "categorySlug": "maternal-newborn",
-  "stem": "A midwife slaps a woman's thigh and shouts at her to stop crying during labour. What is the most serious consequence?",
+  "stem": "A midwife slaps a woman's thigh and shouts at her to stop crying during labour. What is the **most** serious consequence?",
   "choices": [
    {
     "id": "a",
@@ -65770,7 +65770,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PNC-1922",
   "categorySlug": "maternal-newborn",
-  "stem": "A baby is born limp and is not breathing after being dried and rubbed. What should be done first?",
+  "stem": "A baby is born limp and is not breathing after being dried and rubbed. What should be done **first**?",
   "choices": [
    {
     "id": "a",
@@ -65942,7 +65942,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PNC-1927",
   "categorySlug": "maternal-newborn",
-  "stem": "Why is a healthy newborn's first bath delayed for at least 24 hours?",
+  "stem": "Why is a healthy newborn's **first** bath delayed for at least 24 hours?",
   "choices": [
    {
     "id": "a",
@@ -66012,7 +66012,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PNC-1929",
   "categorySlug": "maternal-newborn",
-  "stem": "A mother fears her milk is insufficient because her breasts feel soft. What is the best indicator to use?",
+  "stem": "A mother fears her milk is insufficient because her breasts feel soft. What is the **best** indicator to use?",
   "choices": [
    {
     "id": "a",
@@ -66114,7 +66114,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PNC-1932",
   "categorySlug": "maternal-newborn",
-  "stem": "When should a woman who delivered at home have her first postnatal contact?",
+  "stem": "When should a woman who delivered at home have her **first** postnatal contact?",
   "choices": [
    {
     "id": "a",
@@ -66732,7 +66732,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CPD-1950",
   "categorySlug": "pediatrics",
-  "stem": "What most reduces the chance that a child treated for malnutrition is readmitted?",
+  "stem": "What **most** reduces the chance that a child treated for malnutrition is readmitted?",
   "choices": [
    {
     "id": "a",
@@ -66902,7 +66902,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CPD-1955",
   "categorySlug": "pediatrics",
-  "stem": "Which change would prevent the most serious injuries among Ghanaian toddlers at home?",
+  "stem": "Which change would prevent the **most** serious injuries among Ghanaian toddlers at home?",
   "choices": [
    {
     "id": "a",
@@ -67346,7 +67346,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CPD-1968",
   "categorySlug": "pediatrics",
-  "stem": "What is a priority in nursing a newborn with an open lesion on the back before surgery?",
+  "stem": "What is a **priority** in nursing a newborn with an open lesion on the back before surgery?",
   "choices": [
    {
     "id": "a",
@@ -67586,7 +67586,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CPD-1975",
   "categorySlug": "pediatrics",
-  "stem": "A family stops bringing their child for chemotherapy after three cycles. What should the nurse explore first?",
+  "stem": "A family stops bringing their child for chemotherapy after three cycles. What should the nurse explore **first**?",
   "choices": [
    {
     "id": "a",
@@ -68100,7 +68100,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ELD-1990",
   "categorySlug": "gerontology-community",
-  "stem": "A woman who was alert yesterday is confused and drowsy today. Which should the nurse assess first?",
+  "stem": "A woman who was alert yesterday is confused and drowsy today. Which should the nurse assess **first**?",
   "choices": [
    {
     "id": "a",
@@ -68852,7 +68852,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ELD-2012",
   "categorySlug": "gerontology-community",
-  "stem": "An older woman has become incontinent of urine over the past week. What should the nurse consider first?",
+  "stem": "An older woman has become incontinent of urine over the past week. What should the nurse consider **first**?",
   "choices": [
    {
     "id": "a",
@@ -69160,7 +69160,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ELD-2021",
   "categorySlug": "gerontology-community",
-  "stem": "A woman with dementia becomes agitated and restless every evening. What should the nurse try first?",
+  "stem": "A woman with dementia becomes agitated and restless every evening. What should the nurse try **first**?",
   "choices": [
    {
     "id": "a",
@@ -69264,7 +69264,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ELD-2024",
   "categorySlug": "gerontology-community",
-  "stem": "Which observation during a home visit is most useful for preventing falls at night?",
+  "stem": "Which observation during a home visit is **most** useful for preventing falls at night?",
   "choices": [
    {
     "id": "a",
@@ -70462,7 +70462,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPH-2059",
   "categorySlug": "gerontology-community",
-  "stem": "A community has been given free latrines but many are unused. What should the nurse explore first?",
+  "stem": "A community has been given free latrines but many are unused. What should the nurse explore **first**?",
   "choices": [
    {
     "id": "a",
@@ -70564,7 +70564,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPH-2062",
   "categorySlug": "gerontology-community",
-  "stem": "Uncollected refuse has accumulated in a neighbourhood. Which health risk should concern the nurse most?",
+  "stem": "Uncollected refuse has accumulated in a neighbourhood. Which health risk should concern the nurse **most**?",
   "choices": [
    {
     "id": "a",
@@ -70736,7 +70736,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPH-2067",
   "categorySlug": "gerontology-community",
-  "stem": "A child is bitten by a stray dog. What should be done to the wound immediately?",
+  "stem": "A child is bitten by a stray dog. What should be done to the wound **immediately**?",
   "choices": [
    {
     "id": "a",
@@ -70872,7 +70872,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPH-2071",
   "categorySlug": "gerontology-community",
-  "stem": "Motorcycle injuries are rising in a district. Which measure would prevent the most deaths?",
+  "stem": "Motorcycle injuries are rising in a district. Which measure would prevent the **most** deaths?",
   "choices": [
    {
     "id": "a",
@@ -71146,7 +71146,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPH-2079",
   "categorySlug": "gerontology-community",
-  "stem": "Community health volunteers in a zone have gradually stopped working. What is the most likely reason?",
+  "stem": "Community health volunteers in a zone have gradually stopped working. What is the **most likely** reason?",
   "choices": [
    {
     "id": "a",
@@ -71282,7 +71282,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPH-2083",
   "categorySlug": "gerontology-community",
-  "stem": "During a school health visit, which activity contributes most to the pupils' long-term health?",
+  "stem": "During a school health visit, which activity contributes **most** to the pupils' long-term health?",
   "choices": [
    {
     "id": "a",
@@ -72000,7 +72000,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRD-2104",
   "categorySlug": "health-promotion",
-  "stem": "A child arrives with a swollen, cold, pulseless forearm after tight traditional splinting. What is the priority?",
+  "stem": "A child arrives with a swollen, cold, pulseless forearm after tight traditional splinting. What is the **priority**?",
   "choices": [
    {
     "id": "a",
@@ -72034,7 +72034,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRD-2105",
   "categorySlug": "health-promotion",
-  "stem": "What makes collaboration with a traditional practitioner most likely to improve patient outcomes?",
+  "stem": "What makes collaboration with a traditional practitioner **most likely** to improve patient outcomes?",
   "choices": [
    {
     "id": "a",
@@ -72342,7 +72342,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRD-2114",
   "categorySlug": "health-promotion",
-  "stem": "An infant has been given a traditional herbal enema for fever and is now lethargic with sunken eyes. What is the immediate priority?",
+  "stem": "An infant has been given a traditional herbal enema for fever and is now lethargic with sunken eyes. What is the **immediate priority**?",
   "choices": [
    {
     "id": "a",
@@ -72924,7 +72924,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRD-2131",
   "categorySlug": "health-promotion",
-  "stem": "A community bathes newborns in very hot water to make them strong. What approach is most likely to reduce scalding?",
+  "stem": "A community bathes newborns in very hot water to make them strong. What approach is **most likely** to reduce scalding?",
   "choices": [
    {
     "id": "a",
@@ -72992,7 +72992,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRD-2133",
   "categorySlug": "health-promotion",
-  "stem": "A patient asks a nurse whether a widely advertised herbal product will help her arthritis. What is the best reply?",
+  "stem": "A patient asks a nurse whether a widely advertised herbal product will help her arthritis. What is the **best** reply?",
   "choices": [
    {
     "id": "a",
@@ -73060,7 +73060,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRD-2135",
   "categorySlug": "health-promotion",
-  "stem": "A nurse is asked to teach a community group about traditional medicine. What content is most useful?",
+  "stem": "A nurse is asked to teach a community group about traditional medicine. What content is **most** useful?",
   "choices": [
    {
     "id": "a",
@@ -73128,7 +73128,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRD-2137",
   "categorySlug": "health-promotion",
-  "stem": "Which summary best describes a nurse's role regarding traditional and complementary medicine?",
+  "stem": "Which summary **best** describes a nurse's role regarding traditional and complementary medicine?",
   "choices": [
    {
     "id": "a",
@@ -73162,7 +73162,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2138",
   "categorySlug": "fluid-electrolyte",
-  "stem": "In a healthy adult, which fluid compartment holds the largest proportion of total body water?",
+  "stem": "In a healthy adult, which fluid compartment holds the **largest** proportion of total body water?",
   "choices": [
    {
     "id": "a",
@@ -73198,7 +73198,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2139",
   "categorySlug": "fluid-electrolyte",
-  "stem": "Osmosis is best described as the movement of which substance across a semi-permeable membrane?",
+  "stem": "Osmosis is **best** described as the movement of which substance across a semi-permeable membrane?",
   "choices": [
    {
     "id": "a",
@@ -73268,7 +73268,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2141",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A young man arrives at a district hospital in Bolgatanga after a road crash. He is cold, his pulse is 130 and his blood pressure is 82 over 50. Which intravenous fluid should be started first?",
+  "stem": "A young man arrives at a district hospital in Bolgatanga after a road crash. He is cold, his pulse is 130 and his blood pressure is 82 over 50. Which intravenous fluid should be started **first**?",
   "choices": [
    {
     "id": "a",
@@ -73374,7 +73374,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2144",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A man with long-standing heart failure has swollen ankles. Which mechanism best explains the swelling?",
+  "stem": "A man with long-standing heart failure has swollen ankles. Which mechanism **best** explains the swelling?",
   "choices": [
    {
     "id": "a",
@@ -73444,7 +73444,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2146",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A colleague suggests giving furosemide to a child with kwashiorkor whose feet are swollen. What is the most appropriate response?",
+  "stem": "A colleague suggests giving furosemide to a child with kwashiorkor whose feet are swollen. What is the **most** appropriate response?",
   "choices": [
    {
     "id": "a",
@@ -73512,7 +73512,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2148",
   "categorySlug": "fluid-electrolyte",
-  "stem": "For which patient does Ringer's lactate require the greatest caution?",
+  "stem": "For which patient does Ringer's lactate require the **greatest** caution?",
   "choices": [
    {
     "id": "a",
@@ -73580,7 +73580,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2150",
   "categorySlug": "fluid-electrolyte",
-  "stem": "Two days after bowel surgery a woman is oedematous, yet her pulse is fast and her urine output is falling. Which explanation fits best?",
+  "stem": "Two days after bowel surgery a woman is oedematous, yet her pulse is fast and her urine output is falling. Which explanation fits **best**?",
   "choices": [
    {
     "id": "a",
@@ -73648,7 +73648,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2152",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A traveller has drunk nothing for several hours in the harmattan heat. What is the direct effect of antidiuretic hormone released in response?",
+  "stem": "A traveller has drunk nothing for several hours in the harmattan heat. What is the **direct** effect of antidiuretic hormone released in response?",
   "choices": [
    {
     "id": "a",
@@ -73716,7 +73716,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2154",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A woman with liver disease is taking spironolactone. Which laboratory result should the nurse check most carefully?",
+  "stem": "A woman with liver disease is taking spironolactone. Which laboratory result should the nurse check **most** carefully?",
   "choices": [
    {
     "id": "a",
@@ -73750,7 +73750,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2155",
   "categorySlug": "fluid-electrolyte",
-  "stem": "Which of these losses will not appear anywhere on a fluid balance chart?",
+  "stem": "Which of these losses will **not** appear anywhere on a fluid balance chart?",
   "choices": [
    {
     "id": "a",
@@ -73855,7 +73855,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2158",
   "categorySlug": "fluid-electrolyte",
-  "stem": "Before starting a potassium infusion, which observation is most important for the nurse to confirm?",
+  "stem": "Before starting a potassium infusion, which observation is **most** important for the nurse to confirm?",
   "choices": [
    {
     "id": "a",
@@ -73891,7 +73891,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2159",
   "categorySlug": "fluid-electrolyte",
-  "stem": "Which ECG change appears earliest as serum potassium rises?",
+  "stem": "Which ECG change appears **earliest** as serum potassium rises?",
   "choices": [
    {
     "id": "a",
@@ -73927,7 +73927,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2160",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A man in renal failure has a potassium of 7.2 mmol/L with widened QRS complexes. Which treatment should be given first?",
+  "stem": "A man in renal failure has a potassium of 7.2 mmol/L with widened QRS complexes. Which treatment should be given **first**?",
   "choices": [
    {
     "id": "a",
@@ -73963,7 +73963,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2161",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A woman taking digoxin for atrial fibrillation is also on furosemide. She reports nausea and sees yellow haloes. Which laboratory result is most likely to explain this?",
+  "stem": "A woman taking digoxin for atrial fibrillation is also on furosemide. She reports nausea and sees yellow haloes. Which laboratory result is **most** likely to explain this?",
   "choices": [
    {
     "id": "a",
@@ -74033,7 +74033,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2163",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A patient with several days of severe diarrhoea has generalised muscle weakness and a silent abdomen. Which electrolyte disturbance fits best?",
+  "stem": "A patient with several days of severe diarrhoea has generalised muscle weakness and a silent abdomen. Which electrolyte disturbance fits **best**?",
   "choices": [
    {
     "id": "a",
@@ -74069,7 +74069,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2164",
   "categorySlug": "fluid-electrolyte",
-  "stem": "An elderly man is confused and his serum sodium is 118 mmol/L. He is not dehydrated and has no oedema. Which mechanism is most likely?",
+  "stem": "An elderly man is confused and his serum sodium is 118 mmol/L. He is not dehydrated and has no oedema. Which mechanism is **most** likely?",
   "choices": [
    {
     "id": "a",
@@ -74137,7 +74137,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2166",
   "categorySlug": "fluid-electrolyte",
-  "stem": "An unconscious patient receiving nasogastric feeds has a serum sodium of 158 mmol/L. Which nursing action addresses the most likely cause?",
+  "stem": "An unconscious patient receiving nasogastric feeds has a serum sodium of 158 mmol/L. Which nursing action addresses the **most** likely cause?",
   "choices": [
    {
     "id": "a",
@@ -74171,7 +74171,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2167",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A woman develops tingling around the mouth and spasm of the hand after thyroid surgery. Which investigation is the priority?",
+  "stem": "A woman develops tingling around the mouth and spasm of the hand after thyroid surgery. Which investigation is the **priority**?",
   "choices": [
    {
     "id": "a",
@@ -74205,7 +74205,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2168",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A patient has a pH of 7.22, a bicarbonate of 12 mmol/L and a carbon dioxide of 3.6 kPa. How is this best described?",
+  "stem": "A patient has a pH of 7.22, a bicarbonate of 12 mmol/L and a carbon dioxide of 3.6 kPa. How is this **best** described?",
   "choices": [
    {
     "id": "a",
@@ -74313,7 +74313,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2171",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A dehydrated child has deep, sighing respirations but a clear chest on examination. What does this most likely indicate?",
+  "stem": "A dehydrated child has deep, sighing respirations but a clear chest on examination. What does this **most** likely indicate?",
   "choices": [
    {
     "id": "a",
@@ -74349,7 +74349,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2172",
   "categorySlug": "fluid-electrolyte",
-  "stem": "Which observation changes earliest as an adult becomes dehydrated?",
+  "stem": "Which observation changes **earliest** as an adult becomes dehydrated?",
   "choices": [
    {
     "id": "a",
@@ -74533,7 +74533,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2177",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A patient is prescribed 40 mmol of potassium chloride through a peripheral line at the maximum safe rate. What is the shortest acceptable infusion time?",
+  "stem": "A patient is prescribed 40 mmol of potassium chloride through a peripheral line at the maximum safe rate. What is the **shortest** acceptable infusion time?",
   "choices": [
    {
     "id": "a",
@@ -74570,7 +74570,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2178",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A man weighing 70 kg has burns covering 25 percent of his body. Using 4 mL per kilogram per percentage burn, how much fluid should be given in the first eight hours?",
+  "stem": "A man weighing 70 kg has burns covering 25 percent of his body. Using 4 mL per kilogram per percentage burn, how much fluid should be given in the **first** eight hours?",
   "choices": [
    {
     "id": "a",
@@ -74605,7 +74605,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2179",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A patient's weight has risen by 2 kg overnight. What does this most likely represent?",
+  "stem": "A patient's weight has risen by 2 kg overnight. What does this **most** likely represent?",
   "choices": [
    {
     "id": "a",
@@ -74641,7 +74641,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2180",
   "categorySlug": "fluid-electrolyte",
-  "stem": "An elderly woman receiving intravenous fluid becomes breathless with crackles at both lung bases. What should the nurse do first?",
+  "stem": "An elderly woman receiving intravenous fluid becomes breathless with crackles at both lung bases. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -74713,7 +74713,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2182",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A hypotensive patient is given a rapid 250 mL bolus of Ringer's lactate. Which finding best indicates that further fluid will help?",
+  "stem": "A hypotensive patient is given a rapid 250 mL bolus of Ringer's lactate. Which finding **best** indicates that further fluid will help?",
   "choices": [
    {
     "id": "a",
@@ -74783,7 +74783,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2184",
   "categorySlug": "fluid-electrolyte",
-  "stem": "An infusion has slowed and the skin around the cannula is pale, cool and swollen. What has most likely happened?",
+  "stem": "An infusion has slowed and the skin around the cannula is pale, cool and swollen. What has **most** likely happened?",
   "choices": [
    {
     "id": "a",
@@ -74819,7 +74819,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2185",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A nurse is asked to hang a fourth litre of fluid for a patient during a single shift. What should she do before connecting it?",
+  "stem": "A nurse is asked to hang a fourth litre of fluid for a patient during a single shift. What should she do **before** connecting it?",
   "choices": [
    {
     "id": "a",
@@ -74855,7 +74855,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2186",
   "categorySlug": "fluid-electrolyte",
-  "stem": "During the harmattan, a ward reports that several patients are becoming dehydrated despite unchanged prescriptions. Which explanation is most likely?",
+  "stem": "During the harmattan, a ward reports that several patients are becoming dehydrated despite unchanged prescriptions. Which explanation is **most** likely?",
   "choices": [
    {
     "id": "a",
@@ -74891,7 +74891,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2187",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A student nurse asks whether the 20 mL used to flush a cannula needs to be recorded. What is the best reply?",
+  "stem": "A student nurse asks whether the 20 mL used to flush a cannula needs to be recorded. What is the **best** reply?",
   "choices": [
    {
     "id": "a",
@@ -74999,7 +74999,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-JUS-2190",
   "categorySlug": "leadership-delegation",
-  "stem": "A patient signs a consent form but tells the nurse he does not know what the operation involves. What does this most clearly mean?",
+  "stem": "A patient signs a consent form but tells the nurse he does not know what the operation involves. What does this **most** clearly mean?",
   "choices": [
    {
     "id": "a",
@@ -75071,7 +75071,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-JUS-2192",
   "categorySlug": "leadership-delegation",
-  "stem": "A competent adult refuses a blood transfusion that his team believes is necessary. What is the nurse's most appropriate action?",
+  "stem": "A competent adult refuses a blood transfusion that his team believes is necessary. What is the nurse's **most** appropriate action?",
   "choices": [
    {
     "id": "a",
@@ -75251,7 +75251,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-JUS-2197",
   "categorySlug": "leadership-delegation",
-  "stem": "The family of a competent woman with newly diagnosed cancer asks staff not to tell her the diagnosis. What is the most appropriate response?",
+  "stem": "The family of a competent woman with newly diagnosed cancer asks staff not to tell her the diagnosis. What is the **most** appropriate response?",
   "choices": [
    {
     "id": "a",
@@ -75321,7 +75321,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-JUS-2199",
   "categorySlug": "leadership-delegation",
-  "stem": "A patient cannot afford a prescribed medicine and quietly stops taking it. Which action best demonstrates advocacy?",
+  "stem": "A patient cannot afford a prescribed medicine and quietly stops taking it. Which action **best** demonstrates advocacy?",
   "choices": [
    {
     "id": "a",
@@ -75393,7 +75393,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-JUS-2201",
   "categorySlug": "leadership-delegation",
-  "stem": "A recovering patient offers a nurse a substantial sum of money in thanks. What is the most appropriate response?",
+  "stem": "A recovering patient offers a nurse a substantial sum of money in thanks. What is the **most** appropriate response?",
   "choices": [
    {
     "id": "a",
@@ -75529,7 +75529,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-JUS-2205",
   "categorySlug": "leadership-delegation",
-  "stem": "A woman who speaks only Dagbani needs surgical consent explained, and no staff member speaks it. Her ten-year-old son offers to interpret. What is the best action?",
+  "stem": "A woman who speaks only Dagbani needs surgical consent explained, and no staff member speaks it. Her ten-year-old son offers to interpret. What is the **best** action?",
   "choices": [
    {
     "id": "a",
@@ -75815,7 +75815,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-JUS-2213",
   "categorySlug": "leadership-delegation",
-  "stem": "A nurse forgets to raise a patient's bed rails, but the patient does not fall and comes to no harm. Why would a claim in negligence most likely fail?",
+  "stem": "A nurse forgets to raise a patient's bed rails, but the patient does not fall and comes to no harm. Why would a claim in negligence **most** likely fail?",
   "choices": [
    {
     "id": "a",
@@ -75887,7 +75887,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-JUS-2215",
   "categorySlug": "leadership-delegation",
-  "stem": "A doctor instructs a nurse to give a dose that she is confident is ten times too high. What should she do first?",
+  "stem": "A doctor instructs a nurse to give a dose that she is confident is ten times too high. What should she do **first**?",
   "choices": [
    {
     "id": "a",
@@ -75957,7 +75957,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-JUS-2217",
   "categorySlug": "leadership-delegation",
-  "stem": "A nurse notices that a colleague smells strongly of alcohol at the start of a shift. What is the priority action?",
+  "stem": "A nurse notices that a colleague smells strongly of alcohol at the start of a shift. What is the **priority** action?",
   "choices": [
    {
     "id": "a",
@@ -76061,7 +76061,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-JUS-2220",
   "categorySlug": "leadership-delegation",
-  "stem": "A confused elderly patient keeps trying to climb out of bed at night. Staff propose tying his wrists to the bed frame. What is the best response?",
+  "stem": "A confused elderly patient keeps trying to climb out of bed at night. Staff propose tying his wrists to the bed frame. What is the **best** response?",
   "choices": [
    {
     "id": "a",
@@ -76095,7 +76095,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-JUS-2221",
   "categorySlug": "leadership-delegation",
-  "stem": "A ward round is being conducted in an open bay where other patients can hear every word. Which action best protects confidentiality?",
+  "stem": "A ward round is being conducted in an open bay where other patients can hear every word. Which action **best** protects confidentiality?",
   "choices": [
    {
     "id": "a",
@@ -76347,7 +76347,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-JUS-2228",
   "categorySlug": "leadership-delegation",
-  "stem": "A nurse realises she has given a patient another patient's medication. What must she do first?",
+  "stem": "A nurse realises she has given a patient another patient's medication. What must she do **first**?",
   "choices": [
    {
     "id": "a",
@@ -76419,7 +76419,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-JUS-2230",
   "categorySlug": "leadership-delegation",
-  "stem": "A patient with advanced cancer asks a nurse to give him something to end his life. What is the most appropriate response?",
+  "stem": "A patient with advanced cancer asks a nurse to give him something to end his life. What is the **most** appropriate response?",
   "choices": [
    {
     "id": "a",
@@ -76593,7 +76593,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-JUS-2235",
   "categorySlug": "leadership-delegation",
-  "stem": "A patient tells a nurse she wishes to complain about her care. What is the best initial response?",
+  "stem": "A patient tells a nurse she wishes to complain about her care. What is the **best** initial response?",
   "choices": [
    {
     "id": "a",
@@ -76695,7 +76695,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2238",
   "categorySlug": "gerontology-community",
-  "stem": "Which statement best describes primary health care as set out at Alma-Ata?",
+  "stem": "Which statement **best** describes primary health care as set out at Alma-Ata?",
   "choices": [
    {
     "id": "a",
@@ -76803,7 +76803,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2241",
   "categorySlug": "gerontology-community",
-  "stem": "A nurse is opening a new CHPS zone in a rural district. What should she do first?",
+  "stem": "A nurse is opening a new CHPS zone in a rural district. What should she do **first**?",
   "choices": [
    {
     "id": "a",
@@ -76839,7 +76839,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2242",
   "categorySlug": "gerontology-community",
-  "stem": "A district team wants volunteers for a new zone and proposes selecting the most educated young people in the village. What is the main weakness of this approach?",
+  "stem": "A district team wants volunteers for a new zone and proposes selecting the most educated young people in the village. What is the **main** weakness of this approach?",
   "choices": [
    {
     "id": "a",
@@ -76875,7 +76875,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2243",
   "categorySlug": "gerontology-community",
-  "stem": "A CHO in a CHPS zone sees a patient whose condition she cannot manage. Where should she refer him first?",
+  "stem": "A CHO in a CHPS zone sees a patient whose condition she cannot manage. Where should she refer him **first**?",
   "choices": [
    {
     "id": "a",
@@ -76947,7 +76947,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2245",
   "categorySlug": "gerontology-community",
-  "stem": "On arriving at a compound house for a scheduled visit, what should the nurse do first?",
+  "stem": "On arriving at a compound house for a scheduled visit, what should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -76983,7 +76983,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2246",
   "categorySlug": "gerontology-community",
-  "stem": "A mother has missed three immunisation appointments. On tracing her, what is the most effective opening?",
+  "stem": "A mother has missed three immunisation appointments. On tracing her, what is the **most** effective opening?",
   "choices": [
    {
     "id": "a",
@@ -77019,7 +77019,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2247",
   "categorySlug": "gerontology-community",
-  "stem": "A nurse has given the same talk on handwashing at a durbar three times, but little has changed. What is the most likely reason?",
+  "stem": "A nurse has given the same talk on handwashing at a durbar three times, but little has changed. What is the **most** likely reason?",
   "choices": [
    {
     "id": "a",
@@ -77055,7 +77055,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2248",
   "categorySlug": "gerontology-community",
-  "stem": "Women in a village continue to deliver with a traditional birth attendant despite a nearby CHPS compound. What is the most constructive approach?",
+  "stem": "Women in a village continue to deliver with a traditional birth attendant despite a nearby CHPS compound. What is the **most** constructive approach?",
   "choices": [
    {
     "id": "a",
@@ -77089,7 +77089,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2249",
   "categorySlug": "gerontology-community",
-  "stem": "Repeated diarrhoea outbreaks in a community are traced to a broken borehole. Which action best reflects intersectoral collaboration?",
+  "stem": "Repeated diarrhoea outbreaks in a community are traced to a broken borehole. Which action **best** reflects intersectoral collaboration?",
   "choices": [
    {
     "id": "a",
@@ -77125,7 +77125,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2250",
   "categorySlug": "gerontology-community",
-  "stem": "A team completes a community diagnosis and finds many problems. Which basis for choosing priorities is most appropriate?",
+  "stem": "A team completes a community diagnosis and finds many problems. Which basis for choosing priorities is **most** appropriate?",
   "choices": [
    {
     "id": "a",
@@ -77159,7 +77159,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2251",
   "categorySlug": "gerontology-community",
-  "stem": "A nurse conducting a household survey finds families giving guarded and inconsistent answers. What is the most likely explanation?",
+  "stem": "A nurse conducting a household survey finds families giving guarded and inconsistent answers. What is the **most** likely explanation?",
   "choices": [
    {
     "id": "a",
@@ -77231,7 +77231,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2253",
   "categorySlug": "gerontology-community",
-  "stem": "Immunisation coverage in a district is 85 percent overall, but one settlement of migrant farm workers has coverage below 20 percent. What does this most clearly indicate?",
+  "stem": "Immunisation coverage in a district is 85 percent overall, but one settlement of migrant farm workers has coverage below 20 percent. What does this **most** clearly indicate?",
   "choices": [
    {
     "id": "a",
@@ -77265,7 +77265,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2254",
   "categorySlug": "gerontology-community",
-  "stem": "Attendance at an outreach session in a farming community is consistently poor. Which adjustment is most likely to help?",
+  "stem": "Attendance at an outreach session in a farming community is consistently poor. Which adjustment is **most** likely to help?",
   "choices": [
    {
     "id": "a",
@@ -77301,7 +77301,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2255",
   "categorySlug": "gerontology-community",
-  "stem": "A donor-funded programme collapses as soon as the funding ends. Which factor most likely accounts for this?",
+  "stem": "A donor-funded programme collapses as soon as the funding ends. Which factor **most** likely accounts for this?",
   "choices": [
    {
     "id": "a",
@@ -77445,7 +77445,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2259",
   "categorySlug": "gerontology-community",
-  "stem": "A busy child welfare clinic weighs and plots every child but rarely discusses the result with mothers. What is the main weakness of this practice?",
+  "stem": "A busy child welfare clinic weighs and plots every child but rarely discusses the result with mothers. What is the **main** weakness of this practice?",
   "choices": [
    {
     "id": "a",
@@ -77517,7 +77517,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2261",
   "categorySlug": "gerontology-community",
-  "stem": "A mother is told her child's growth is faltering and immediately becomes distressed and defensive. What is the best initial response?",
+  "stem": "A mother is told her child's growth is faltering and immediately becomes distressed and defensive. What is the **best** initial response?",
   "choices": [
    {
     "id": "a",
@@ -77587,7 +77587,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2263",
   "categorySlug": "gerontology-community",
-  "stem": "A grandmother insists that a two-month-old needs water because of the harmattan heat. What is the most effective reply?",
+  "stem": "A grandmother insists that a two-month-old needs water because of the harmattan heat. What is the **most** effective reply?",
   "choices": [
    {
     "id": "a",
@@ -77623,7 +77623,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2264",
   "categorySlug": "gerontology-community",
-  "stem": "A mother in a farming community asks how to improve her seven-month-old's porridge using what she already has. Which advice is most appropriate?",
+  "stem": "A mother in a farming community asks how to improve her seven-month-old's porridge using what she already has. Which advice is **most** appropriate?",
   "choices": [
    {
     "id": "a",
@@ -77657,7 +77657,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2265",
   "categorySlug": "gerontology-community",
-  "stem": "A CHO assesses a two-year-old with fever. Which finding requires immediate referral rather than treatment at the compound?",
+  "stem": "A CHO assesses a two-year-old with fever. Which finding requires **immediate** referral rather than treatment at the compound?",
   "choices": [
    {
     "id": "a",
@@ -77727,7 +77727,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2267",
   "categorySlug": "gerontology-community",
-  "stem": "During a school health visit, several pupils are found to have reduced vision. What is the most appropriate action?",
+  "stem": "During a school health visit, several pupils are found to have reduced vision. What is the **most** appropriate action?",
   "choices": [
    {
     "id": "a",
@@ -77761,7 +77761,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2268",
   "categorySlug": "gerontology-community",
-  "stem": "Few adolescents use a health centre's family planning service, though many clearly need it. Which change is most likely to increase uptake?",
+  "stem": "Few adolescents use a health centre's family planning service, though many clearly need it. Which change is **most** likely to increase uptake?",
   "choices": [
    {
     "id": "a",
@@ -77795,7 +77795,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2269",
   "categorySlug": "gerontology-community",
-  "stem": "A woman attending for family planning is undecided between methods. What should the counselling primarily aim to achieve?",
+  "stem": "A woman attending for family planning is undecided between methods. What should the counselling **primarily** aim to achieve?",
   "choices": [
    {
     "id": "a",
@@ -77865,7 +77865,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2271",
   "categorySlug": "gerontology-community",
-  "stem": "A community has a high prevalence of anaemia in young children. Besides iron supplementation, which measure addresses a major local cause?",
+  "stem": "A community has a high prevalence of anaemia in young children. Besides iron supplementation, which measure addresses a **major** local cause?",
   "choices": [
    {
     "id": "a",
@@ -77899,7 +77899,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2272",
   "categorySlug": "gerontology-community",
-  "stem": "Several young children in one community present repeatedly with cough and fast breathing. The nurse notes that most households cook on wood fires inside a single windowless room. What is the most appropriate community-level response?",
+  "stem": "Several young children in one community present repeatedly with cough and fast breathing. The nurse notes that most households cook on wood fires inside a single windowless room. What is the **most** appropriate community-level response?",
   "choices": [
    {
     "id": "a",
@@ -77935,7 +77935,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2273",
   "categorySlug": "gerontology-community",
-  "stem": "Which two moments for handwashing with soap should be emphasised most strongly in household health education?",
+  "stem": "Which two moments for handwashing with soap should be emphasised **most** strongly in household health education?",
   "choices": [
    {
     "id": "a",
@@ -77971,7 +77971,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2274",
   "categorySlug": "gerontology-community",
-  "stem": "A family collects water from a protected borehole, yet household samples are contaminated. What is the most likely explanation?",
+  "stem": "A family collects water from a protected borehole, yet household samples are contaminated. What is the **most** likely explanation?",
   "choices": [
    {
     "id": "a",
@@ -78043,7 +78043,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2276",
   "categorySlug": "gerontology-community",
-  "stem": "A district built subsidised latrines for a village, but most are used for storage and open defecation continues. Which approach is most likely to succeed instead?",
+  "stem": "A district built subsidised latrines for a village, but most are used for storage and open defecation continues. Which approach is **most** likely to succeed instead?",
   "choices": [
    {
     "id": "a",
@@ -78079,7 +78079,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2277",
   "categorySlug": "gerontology-community",
-  "stem": "A household is choosing where to build a pit latrine. Which consideration is most important?",
+  "stem": "A household is choosing where to build a pit latrine. Which consideration is **most** important?",
   "choices": [
    {
     "id": "a",
@@ -78115,7 +78115,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2278",
   "categorySlug": "gerontology-community",
-  "stem": "A community has a high burden of malaria. Which household measure addresses the breeding of the vector rather than only preventing bites?",
+  "stem": "A community has a high burden of malaria. Which household measure addresses the **breeding** of the vector rather than only preventing bites?",
   "choices": [
    {
     "id": "a",
@@ -78257,7 +78257,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2282",
   "categorySlug": "gerontology-community",
-  "stem": "In an outbreak investigation, cases are mapped and nearly all live within a short distance of one hand-dug well, with onsets clustered over two days. What does this pattern most suggest?",
+  "stem": "In an outbreak investigation, cases are mapped and nearly all live within a short distance of one hand-dug well, with onsets clustered over two days. What does this pattern **most** suggest?",
   "choices": [
    {
     "id": "a",
@@ -78293,7 +78293,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2283",
   "categorySlug": "gerontology-community",
-  "stem": "A confirmed case of a highly infectious disease is identified in a village. What is the primary purpose of tracing the patient's contacts?",
+  "stem": "A confirmed case of a highly infectious disease is identified in a village. What is the **primary** purpose of tracing the patient's contacts?",
   "choices": [
    {
     "id": "a",
@@ -78329,7 +78329,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2284",
   "categorySlug": "gerontology-community",
-  "stem": "A CHO notices that antenatal attendance in her zone has fallen steadily over four months on the DHIS2 returns. What is the most appropriate first response?",
+  "stem": "A CHO notices that antenatal attendance in her zone has fallen steadily over four months on the DHIS2 returns. What is the **most** appropriate first response?",
   "choices": [
    {
     "id": "a",
@@ -78363,7 +78363,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2285",
   "categorySlug": "gerontology-community",
-  "stem": "A CHO is preparing vaccines for a day of outreach in a remote area. Which check is most important before setting out?",
+  "stem": "A CHO is preparing vaccines for a day of outreach in a remote area. Which check is **most** important before setting out?",
   "choices": [
    {
     "id": "a",
@@ -78433,7 +78433,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2287",
   "categorySlug": "gerontology-community",
-  "stem": "During mass drug administration for lymphatic filariasis, some residents decline the medicine because they feel well. What is the best explanation to give?",
+  "stem": "During mass drug administration for lymphatic filariasis, some residents decline the medicine because they feel well. What is the **best** explanation to give?",
   "choices": [
    {
     "id": "a",
@@ -78467,7 +78467,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2288",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman attends her first antenatal contact at Agona Swedru health centre at 14 weeks' gestation. The midwife plans her malaria prevention. When should intermittent preventive treatment with sulfadoxine-pyrimethamine be started?",
+  "stem": "A woman attends her first antenatal contact at Agona Swedru health centre at 14 weeks' gestation. The midwife plans her malaria prevention. When should intermittent preventive treatment with sulfadoxine-pyrimethamine be **started**?",
   "choices": [
    {
     "id": "a",
@@ -78536,7 +78536,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2290",
   "categorySlug": "maternal-newborn",
-  "stem": "A primigravida at 32 weeks tells the midwife at Tema General Hospital that she has had a headache for two days and that things look blurred. Her blood pressure is 168/112 mmHg. What is the midwife's immediate action?",
+  "stem": "A primigravida at 32 weeks tells the midwife at Tema General Hospital that she has had a headache for two days and that things look blurred. Her blood pressure is 168/112 mmHg. What is the midwife's **immediate** action?",
   "choices": [
    {
     "id": "a",
@@ -78608,7 +78608,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2292",
   "categorySlug": "maternal-newborn",
-  "stem": "At 34 weeks a woman reports painless, bright red vaginal bleeding that started while she was asleep. Her uterus is soft and not tender, and the foetal heart is 142 beats a minute. What must the midwife avoid?",
+  "stem": "At 34 weeks a woman reports painless, bright red vaginal bleeding that started while she was asleep. Her uterus is soft and not tender, and the foetal heart is 142 beats a minute. What must the midwife **avoid**?",
   "choices": [
    {
     "id": "a",
@@ -78642,7 +78642,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2293",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman at 36 weeks arrives with continuous severe abdominal pain and dark vaginal bleeding. Her uterus is hard and tender between contractions and the foetal heart cannot be heard. Her pulse is 124 and blood pressure 88/54 mmHg. Which assessment finding best explains why her observed blood loss looks modest?",
+  "stem": "A woman at 36 weeks arrives with continuous severe abdominal pain and dark vaginal bleeding. Her uterus is hard and tender between contractions and the foetal heart cannot be heard. Her pulse is 124 and blood pressure 88/54 mmHg. Which assessment finding **best** explains why her observed blood loss looks modest?",
   "choices": [
    {
     "id": "a",
@@ -78881,7 +78881,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2300",
   "categorySlug": "maternal-newborn",
-  "stem": "At 28 weeks a woman's fundal height measures 24 cm, having been consistent with dates at previous contacts. What is the midwife's most appropriate action?",
+  "stem": "At 28 weeks a woman's fundal height measures 24 cm, having been consistent with dates at previous contacts. What is the midwife's **most appropriate** action?",
   "choices": [
    {
     "id": "a",
@@ -78983,7 +78983,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2303",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman at 8 weeks' gestation has vomited repeatedly for a week, has lost 4 kg and has ketones in her urine. Her tongue is dry. Which intervention takes priority?",
+  "stem": "A woman at 8 weeks' gestation has vomited repeatedly for a week, has lost 4 kg and has ketones in her urine. Her tongue is dry. Which intervention takes **priority**?",
   "choices": [
    {
     "id": "a",
@@ -79086,7 +79086,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2306",
   "categorySlug": "maternal-newborn",
-  "stem": "A multigravida in the active first stage has contractions of three in ten minutes, the head is four fifths palpable above the brim, moulding is +++, and her plotted dilatation has crossed the action line. Which management is contraindicated?",
+  "stem": "A multigravida in the active first stage has contractions of three in ten minutes, the head is four fifths palpable above the brim, moulding is +++, and her plotted dilatation has crossed the action line. Which management is **contraindicated**?",
   "choices": [
    {
     "id": "a",
@@ -79157,7 +79157,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2308",
   "categorySlug": "maternal-newborn",
-  "stem": "Immediately after spontaneous rupture of the membranes the foetal heart drops to 84 beats a minute. On examination the midwife feels a pulsating cord in the vagina. After calling for help, what should she do next?",
+  "stem": "Immediately after spontaneous rupture of the membranes the foetal heart drops to 84 beats a minute. On examination the midwife feels a pulsating cord in the vagina. After calling for help, what should she do **next**?",
   "choices": [
    {
     "id": "a",
@@ -79193,7 +79193,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2309",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman in the active first stage of labour is lying supine when the foetal heart falls to 96 beats a minute. Oxytocin is infusing. What are the first two actions?",
+  "stem": "A woman in the active first stage of labour is lying supine when the foetal heart falls to 96 beats a minute. Oxytocin is infusing. What are the **first** two actions?",
   "choices": [
    {
     "id": "a",
@@ -79229,7 +79229,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2310",
   "categorySlug": "maternal-newborn",
-  "stem": "After the head is born, it retracts tightly against the perineum and the shoulders do not deliver with the next contraction. What is the correct first manoeuvre?",
+  "stem": "After the head is born, it retracts tightly against the perineum and the shoulders do not deliver with the next contraction. What is the correct **first** manoeuvre?",
   "choices": [
    {
     "id": "a",
@@ -79297,7 +79297,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2312",
   "categorySlug": "maternal-newborn",
-  "stem": "Ten minutes after the birth of the baby a woman is bleeding heavily. Her uterus is soft and above the umbilicus. Which action should the midwife take first?",
+  "stem": "Ten minutes after the birth of the baby a woman is bleeding heavily. Her uterus is soft and above the umbilicus. Which action should the midwife take **first**?",
   "choices": [
    {
     "id": "a",
@@ -79333,7 +79333,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2313",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman continues to bleed steadily after delivery. Her uterus is firm and well contracted, the placenta is complete, and her blood pressure is falling. What is the most likely cause?",
+  "stem": "A woman continues to bleed steadily after delivery. Her uterus is firm and well contracted, the placenta is complete, and her blood pressure is falling. What is the **most likely** cause?",
   "choices": [
    {
     "id": "a",
@@ -79405,7 +79405,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2315",
   "categorySlug": "maternal-newborn",
-  "stem": "A grand multipara in prolonged labour suddenly stops contracting. She complains of constant severe pain, the foetal parts feel unusually easy to palpate, the foetal heart is absent and she becomes shocked. What has most likely happened?",
+  "stem": "A grand multipara in prolonged labour suddenly stops contracting. She complains of constant severe pain, the foetal parts feel unusually easy to palpate, the foetal heart is absent and she becomes shocked. What has **most likely** happened?",
   "choices": [
    {
     "id": "a",
@@ -79506,7 +79506,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2318",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman at 30 weeks is admitted in threatened preterm labour. Which intervention will most improve the newborn's chance of survival?",
+  "stem": "A woman at 30 weeks is admitted in threatened preterm labour. Which intervention will **most** improve the newborn's chance of survival?",
   "choices": [
    {
     "id": "a",
@@ -79540,7 +79540,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2319",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman in labour has been in the second stage for two hours with good contractions. The head is at the perineum but she is exhausted and unable to push effectively. The foetal heart is normal. What is the most appropriate management?",
+  "stem": "A woman in labour has been in the second stage for two hours with good contractions. The head is at the perineum but she is exhausted and unable to push effectively. The foetal heart is normal. What is the **most appropriate** management?",
   "choices": [
    {
     "id": "a",
@@ -79643,7 +79643,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2322",
   "categorySlug": "maternal-newborn",
-  "stem": "A baby is born floppy and does not cry. The midwife has dried him, removed the wet cloth and positioned his head. He is still not breathing at forty seconds. What should she do next?",
+  "stem": "A baby is born floppy and does not cry. The midwife has dried him, removed the wet cloth and positioned his head. He is still not breathing at forty seconds. What should she do **next**?",
   "choices": [
    {
     "id": "a",
@@ -79679,7 +79679,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2323",
   "categorySlug": "maternal-newborn",
-  "stem": "A midwife is ventilating a newborn with a bag and mask but the chest is not rising. Which action should she take first?",
+  "stem": "A midwife is ventilating a newborn with a bag and mask but the chest is not rising. Which action should she take **first**?",
   "choices": [
    {
     "id": "a",
@@ -80030,7 +80030,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2333",
   "categorySlug": "maternal-newborn",
-  "stem": "Which newborn is at greatest risk of hypoglycaemia in the hours immediately after birth?",
+  "stem": "Which newborn is at **greatest** risk of hypoglycaemia in the hours immediately after birth?",
   "choices": [
    {
     "id": "a",
@@ -80098,7 +80098,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2335",
   "categorySlug": "maternal-newborn",
-  "stem": "A baby born at home three days ago is brought in with difficulty feeding, a stiff body, and spasms triggered when the mother touches him. The cord stump is dirty. What is the most likely diagnosis?",
+  "stem": "A baby born at home three days ago is brought in with difficulty feeding, a stiff body, and spasms triggered when the mother touches him. The cord stump is dirty. What is the **most likely** diagnosis?",
   "choices": [
    {
     "id": "a",
@@ -80242,7 +80242,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2339",
   "categorySlug": "maternal-newborn",
-  "stem": "On the second postnatal day a midwife palpates the uterus and finds it high, deviated to the right and soft. What should she do first?",
+  "stem": "On the second postnatal day a midwife palpates the uterus and finds it high, deviated to the right and soft. What should she do **first**?",
   "choices": [
    {
     "id": "a",
@@ -80313,7 +80313,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2341",
   "categorySlug": "maternal-newborn",
-  "stem": "On day four a woman has a temperature of 38.8 degrees Celsius, lower abdominal pain, offensive lochia and a tender uterus. Which action is the priority?",
+  "stem": "On day four a woman has a temperature of 38.8 degrees Celsius, lower abdominal pain, offensive lochia and a tender uterus. Which action is the **priority**?",
   "choices": [
    {
     "id": "a",
@@ -80383,7 +80383,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2343",
   "categorySlug": "maternal-newborn",
-  "stem": "Four days after birth a woman is tearful, says she feels overwhelmed and cries several times a day, but she is caring for her baby well and says she does not want to harm anyone. What is the most appropriate response?",
+  "stem": "Four days after birth a woman is tearful, says she feels overwhelmed and cries several times a day, but she is caring for her baby well and says she does not want to harm anyone. What is the **most appropriate** response?",
   "choices": [
    {
     "id": "a",
@@ -80419,7 +80419,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2344",
   "categorySlug": "maternal-newborn",
-  "stem": "Six days after a caesarean section a woman has a swollen, painful left calf and becomes breathless while walking to the toilet. What is the most likely complication?",
+  "stem": "Six days after a caesarean section a woman has a swollen, painful left calf and becomes breathless while walking to the toilet. What is the **most likely** complication?",
   "choices": [
    {
     "id": "a",
@@ -80486,7 +80486,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2346",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman who is exclusively breastfeeding her six-week-old baby asks about contraception. She wants something that will not affect her milk. Which method is most appropriate?",
+  "stem": "A woman who is exclusively breastfeeding her six-week-old baby asks about contraception. She wants something that will not affect her milk. Which method is **most appropriate**?",
   "choices": [
    {
     "id": "a",
@@ -80520,7 +80520,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2347",
   "categorySlug": "maternal-newborn",
-  "stem": "What are the three conditions that must all be met for the lactational amenorrhoea method to be effective?",
+  "stem": "What are the three conditions that must **all** be met for the lactational amenorrhoea method to be effective?",
   "choices": [
    {
     "id": "a",
@@ -80621,7 +80621,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2350",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman using the progestogen-only injectable complains of irregular spotting and says she wants to stop the method. What is the most appropriate initial response?",
+  "stem": "A woman using the progestogen-only injectable complains of irregular spotting and says she wants to stop the method. What is the **most appropriate initial** response?",
   "choices": [
    {
     "id": "a",
@@ -80655,7 +80655,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2351",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman presents with six weeks of amenorrhoea, sudden severe left iliac fossa pain, and shoulder tip pain. She is pale with a pulse of 118. What is the most likely diagnosis?",
+  "stem": "A woman presents with six weeks of amenorrhoea, sudden severe left iliac fossa pain, and shoulder tip pain. She is pale with a pulse of 118. What is the **most likely** diagnosis?",
   "choices": [
    {
     "id": "a",
@@ -80689,7 +80689,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2352",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman is admitted after an unsafe abortion with fever, offensive discharge and lower abdominal tenderness. Which component of post-abortion care is most often omitted and must not be?",
+  "stem": "A woman is admitted after an unsafe abortion with fever, offensive discharge and lower abdominal tenderness. Which component of post-abortion care is **most often omitted** and must not be?",
   "choices": [
    {
     "id": "a",
@@ -80826,7 +80826,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2356",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman in labour has a foetus in the left occipito-anterior position. Where will the foetal heart be heard most clearly?",
+  "stem": "A woman in labour has a foetus in the left occipito-anterior position. Where will the foetal heart be heard **most clearly**?",
   "choices": [
    {
     "id": "a",
@@ -80861,7 +80861,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2357",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman in labour has an occipito-posterior position. Which feature of her labour is most directly explained by this position?",
+  "stem": "A woman in labour has an occipito-posterior position. Which feature of her labour is **most directly** explained by this position?",
   "choices": [
    {
     "id": "a",
@@ -80896,7 +80896,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2358",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman at 37 weeks is found to have a breech presentation on palpation, confirmed by ultrasound. She is in a district hospital with theatre facilities. What should be discussed with her first?",
+  "stem": "A woman at 37 weeks is found to have a breech presentation on palpation, confirmed by ultrasound. She is in a district hospital with theatre facilities. What should be discussed with her **first**?",
   "choices": [
    {
     "id": "a",
@@ -80930,7 +80930,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2359",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman at 33 weeks reports a sudden gush of clear fluid from the vagina, with no contractions and no bleeding. She is afebrile. Which action is contraindicated?",
+  "stem": "A woman at 33 weeks reports a sudden gush of clear fluid from the vagina, with no contractions and no bleeding. She is afebrile. Which action is **contraindicated**?",
   "choices": [
    {
     "id": "a",
@@ -81000,7 +81000,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2361",
   "categorySlug": "maternal-newborn",
-  "stem": "A 16-year-old attends a health centre asking for contraception and begs the nurse not to tell her mother. What is the most appropriate response?",
+  "stem": "A 16-year-old attends a health centre asking for contraception and begs the nurse not to tell her mother. What is the **most appropriate** response?",
   "choices": [
    {
     "id": "a",
@@ -81241,7 +81241,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2368",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman at 30 weeks with a haemoglobin of 6.2 g/dL is breathless at rest and has a pulse of 122. Which action should be taken first?",
+  "stem": "A woman at 30 weeks with a haemoglobin of 6.2 g/dL is breathless at rest and has a pulse of 122. Which action should be taken **first**?",
   "choices": [
    {
     "id": "a",
@@ -81311,7 +81311,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2370",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman at 10 weeks has vaginal bleeding, severe vomiting, a uterus larger than expected for her dates, and no foetal heart on ultrasound. What is the most likely diagnosis?",
+  "stem": "A woman at 10 weeks has vaginal bleeding, severe vomiting, a uterus larger than expected for her dates, and no foetal heart on ultrasound. What is the **most likely** diagnosis?",
   "choices": [
    {
     "id": "a",
@@ -81516,7 +81516,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2376",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman who had a normal birth ten days ago returns with fresh vaginal bleeding heavier than a period, a temperature of 38.2 degrees Celsius and a tender uterus. What is the most likely cause?",
+  "stem": "A woman who had a normal birth ten days ago returns with fresh vaginal bleeding heavier than a period, a temperature of 38.2 degrees Celsius and a tender uterus. What is the **most likely** cause?",
   "choices": [
    {
     "id": "a",
@@ -81620,7 +81620,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2379",
   "categorySlug": "maternal-newborn",
-  "stem": "A midwife at a health centre must transfer a woman with obstructed labour to the district hospital, forty minutes away. Which preparation is most important before the ambulance leaves?",
+  "stem": "A midwife at a health centre must transfer a woman with obstructed labour to the district hospital, forty minutes away. Which preparation is **most important** before the ambulance leaves?",
   "choices": [
    {
     "id": "a",
@@ -81688,7 +81688,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2381",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman who gave birth at home two days ago is visited by a community health officer. Which assessment finding requires the most urgent referral?",
+  "stem": "A woman who gave birth at home two days ago is visited by a community health officer. Which assessment finding requires the **most urgent** referral?",
   "choices": [
    {
     "id": "a",
@@ -81894,7 +81894,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2387",
   "categorySlug": "maternal-newborn",
-  "stem": "A maternity unit reviews its records and finds that most of its maternal deaths involved delays in reaching the facility rather than delays in treatment once there. Which intervention addresses this pattern most directly?",
+  "stem": "A maternity unit reviews its records and finds that most of its maternal deaths involved delays in reaching the facility rather than delays in treatment once there. Which intervention addresses this pattern **most directly**?",
   "choices": [
    {
     "id": "a",
@@ -82588,7 +82588,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRC-2407",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient on digoxin and furosemide reports nausea, loss of appetite and says that lights appear to have yellow-green haloes. Which investigation is most urgent?",
+  "stem": "A patient on digoxin and furosemide reports nausea, loss of appetite and says that lights appear to have yellow-green haloes. Which investigation is **most** urgent?",
   "choices": [
    {
     "id": "a",
@@ -82995,7 +82995,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRC-2419",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A prescription reads potassium chloride 20 mmol to be added to 500 mL of normal saline. Which action is essential before starting the infusion?",
+  "stem": "A prescription reads potassium chloride 20 mmol to be added to 500 mL of normal saline. Which action is **essential** before starting the infusion?",
   "choices": [
    {
     "id": "a",
@@ -83129,7 +83129,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRC-2423",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A nurse realises she has given a patient another patient's antihypertensive tablet. What is her first action?",
+  "stem": "A nurse realises she has given a patient another patient's antihypertensive tablet. What is her **first** action?",
   "choices": [
    {
     "id": "a",
@@ -83233,7 +83233,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRC-2426",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A teaching hospital in Ghana finds that nurses have repeatedly confused two drugs whose names look similar on the label. Which intervention addresses this most effectively?",
+  "stem": "A teaching hospital in Ghana finds that nurses have repeatedly confused two drugs whose names look similar on the label. Which intervention addresses this **most effectively**?",
   "choices": [
    {
     "id": "a",
@@ -83339,7 +83339,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRC-2429",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient is brought in unresponsive with pinpoint pupils and a respiratory rate of 6 a minute after taking an unknown substance. What is the priority intervention?",
+  "stem": "A patient is brought in unresponsive with pinpoint pupils and a respiratory rate of 6 a minute after taking an unknown substance. What is the **priority** intervention?",
   "choices": [
    {
     "id": "a",
@@ -83411,7 +83411,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRC-2431",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient receiving a vesicant cytotoxic drug develops swelling and pain at the cannula site. What should the nurse do first?",
+  "stem": "A patient receiving a vesicant cytotoxic drug develops swelling and pain at the cannula site. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -83482,7 +83482,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRC-2433",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient with a viral upper respiratory infection demands antibiotics, saying they always work for him. What is the most appropriate response?",
+  "stem": "A patient with a viral upper respiratory infection demands antibiotics, saying they always work for him. What is the **most appropriate** response?",
   "choices": [
    {
     "id": "a",
@@ -83583,7 +83583,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRC-2436",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "An 82-year-old patient on eight regular medicines is admitted after a fall. Which consideration is most relevant to her medication review?",
+  "stem": "An 82-year-old patient on eight regular medicines is admitted after a fall. Which consideration is **most** relevant to her medication review?",
   "choices": [
    {
     "id": "a",
@@ -83890,7 +83890,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRC-2445",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "According to the WHO analgesic ladder, what is the appropriate first step for mild pain?",
+  "stem": "According to the WHO analgesic ladder, what is the appropriate **first step** for mild pain?",
   "choices": [
    {
     "id": "a",
@@ -84467,7 +84467,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRC-2462",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A woman with severe pre-eclampsia is given intravenous hydralazine. Which observation is most important immediately afterwards?",
+  "stem": "A woman with severe pre-eclampsia is given intravenous hydralazine. Which observation is **most important** immediately afterwards?",
   "choices": [
    {
     "id": "a",
@@ -84634,7 +84634,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRC-2467",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A breastfeeding mother needs analgesia after a caesarean section. Which is the most appropriate choice?",
+  "stem": "A breastfeeding mother needs analgesia after a caesarean section. Which is the **most appropriate** choice?",
   "choices": [
    {
     "id": "a",
@@ -85126,7 +85126,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRC-2481",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A nurse on a busy ward in a Ghanaian regional hospital is interrupted three times while preparing medicines during the morning drug round. What is the most effective response at ward level?",
+  "stem": "A nurse on a busy ward in a Ghanaian regional hospital is interrupted three times while preparing medicines during the morning drug round. What is the **most effective** response at ward level?",
   "choices": [
    {
     "id": "a",
@@ -85296,7 +85296,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRC-2486",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A farmer in rural Ghana who cannot read is discharged from the district hospital on four medicines with different frequencies. Which strategy best supports safe administration at home?",
+  "stem": "A farmer in rural Ghana who cannot read is discharged from the district hospital on four medicines with different frequencies. Which strategy **best** supports safe administration at home?",
   "choices": [
    {
     "id": "a",
@@ -86093,7 +86093,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2509",
   "categorySlug": "safety-infection-control",
-  "stem": "Which areas of the hands are most commonly missed during hand washing?",
+  "stem": "Which areas of the hands are **most commonly missed** during hand washing?",
   "choices": [
    {
     "id": "a",
@@ -86406,7 +86406,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2518",
   "categorySlug": "safety-infection-control",
-  "stem": "Blood splashes into the eye of a nurse in Ghana during a delivery. What is the correct immediate action?",
+  "stem": "Blood splashes into the eye of a nurse in Ghana during a delivery. What is the correct **immediate** action?",
   "choices": [
    {
     "id": "a",
@@ -86992,7 +86992,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2535",
   "categorySlug": "safety-infection-control",
-  "stem": "Immunisation coverage in a Ghanaian district falls from 95 per cent to 70 per cent. What is the most important consequence?",
+  "stem": "Immunisation coverage in a Ghanaian district falls from 95 per cent to 70 per cent. What is the **most important** consequence?",
   "choices": [
    {
     "id": "a",
@@ -87028,7 +87028,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2536",
   "categorySlug": "safety-infection-control",
-  "stem": "A nurse in Ghana is offered hepatitis B vaccination. Why is this a priority for healthcare workers?",
+  "stem": "A nurse in Ghana is offered hepatitis B vaccination. Why is this a **priority** for healthcare workers?",
   "choices": [
    {
     "id": "a",
@@ -87512,7 +87512,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2550",
   "categorySlug": "safety-infection-control",
-  "stem": "A patient arrives at a Ghanaian treatment centre with profuse watery stool described as resembling rice water, and is severely dehydrated. What is the priority intervention?",
+  "stem": "A patient arrives at a Ghanaian treatment centre with profuse watery stool described as resembling rice water, and is severely dehydrated. What is the **priority** intervention?",
   "choices": [
    {
     "id": "a",
@@ -87546,7 +87546,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2551",
   "categorySlug": "safety-infection-control",
-  "stem": "A patient presents to a Ghanaian hospital with fever, bleeding gums and a history of recent travel to an area with Lassa fever. What is the immediate infection control priority?",
+  "stem": "A patient presents to a Ghanaian hospital with fever, bleeding gums and a history of recent travel to an area with Lassa fever. What is the **immediate** infection control **priority**?",
   "choices": [
    {
     "id": "a",
@@ -87682,7 +87682,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2555",
   "categorySlug": "safety-infection-control",
-  "stem": "A Ghanaian hospital wishes to reduce healthcare-associated infection. Which approach is most likely to succeed?",
+  "stem": "A Ghanaian hospital wishes to reduce healthcare-associated infection. Which approach is **most likely to succeed**?",
   "choices": [
    {
     "id": "a",
@@ -87989,7 +87989,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2564",
   "categorySlug": "safety-infection-control",
-  "stem": "A patient with a productive cough is waiting in a crowded Ghanaian outpatient department. Which measure best protects the other patients?",
+  "stem": "A patient with a productive cough is waiting in a crowded Ghanaian outpatient department. Which measure **best** protects the other patients?",
   "choices": [
    {
     "id": "a",
@@ -88228,7 +88228,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2571",
   "categorySlug": "safety-infection-control",
-  "stem": "A community health nurse in rural Ghana finds households storing drinking water in wide open containers. What is the most appropriate intervention?",
+  "stem": "A community health nurse in rural Ghana finds households storing drinking water in wide open containers. What is the **most appropriate** intervention?",
   "choices": [
    {
     "id": "a",
@@ -88262,7 +88262,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2572",
   "categorySlug": "safety-infection-control",
-  "stem": "Which measure most directly reduces malaria transmission in a Ghanaian community?",
+  "stem": "Which measure **most directly** reduces malaria transmission in a Ghanaian community?",
   "choices": [
    {
     "id": "a",
@@ -88536,7 +88536,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2580",
   "categorySlug": "safety-infection-control",
-  "stem": "A rural Ghanaian health centre has an irregular water supply and no alcohol hand rub. What is the most practical infection control priority?",
+  "stem": "A rural Ghanaian health centre has an irregular water supply and no alcohol hand rub. What is the **most practical** infection control priority?",
   "choices": [
    {
     "id": "a",
@@ -88570,7 +88570,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2581",
   "categorySlug": "safety-infection-control",
-  "stem": "A family in Ghana asks why they must wash their hands before visiting their relative in hospital. What explanation is most useful?",
+  "stem": "A family in Ghana asks why they must wash their hands before visiting their relative in hospital. What explanation is **most useful**?",
   "choices": [
    {
     "id": "a",
@@ -88709,7 +88709,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2585",
   "categorySlug": "safety-infection-control",
-  "stem": "A nurse sees a senior colleague move from one patient to the next without cleaning her hands. What is the most appropriate response?",
+  "stem": "A nurse sees a senior colleague move from one patient to the next without cleaning her hands. What is the **most appropriate** response?",
   "choices": [
    {
     "id": "a",
@@ -88779,7 +88779,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2587",
   "categorySlug": "safety-infection-control",
-  "stem": "A ward introduces a new infection prevention protocol and compliance is poor after one month. What should be done first?",
+  "stem": "A ward introduces a new infection prevention protocol and compliance is poor after one month. What should be done **first**?",
   "choices": [
    {
     "id": "a",
@@ -88812,7 +88812,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FND-2588",
   "categorySlug": "fundamentals",
-  "stem": "A nurse at a Ghanaian hospital is about to count a patient's respiratory rate. What technique gives the most accurate result?",
+  "stem": "A nurse at a Ghanaian hospital is about to count a patient's respiratory rate. What technique gives the **most accurate** result?",
   "choices": [
    {
     "id": "a",
@@ -89060,7 +89060,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FND-2595",
   "categorySlug": "fundamentals",
-  "stem": "On a Ghanaian ward a patient's oxygen saturation probe reads 84 per cent but the patient is alert, comfortable and not breathless, with warm peripheries. What should the nurse do first?",
+  "stem": "On a Ghanaian ward a patient's oxygen saturation probe reads 84 per cent but the patient is alert, comfortable and not breathless, with warm peripheries. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -89678,7 +89678,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FND-2613",
   "categorySlug": "fundamentals",
-  "stem": "A nurse in a Ghanaian hospital is preparing to help a heavy patient move up the bed. Which action best protects her back?",
+  "stem": "A nurse in a Ghanaian hospital is preparing to help a heavy patient move up the bed. Which action **best** protects her back?",
   "choices": [
    {
     "id": "a",
@@ -89949,7 +89949,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FND-2621",
   "categorySlug": "fundamentals",
-  "stem": "An elderly patient on a busy Ghanaian ward complains he cannot sleep. What should the nurse do first?",
+  "stem": "An elderly patient on a busy Ghanaian ward complains he cannot sleep. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -89983,7 +89983,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FND-2622",
   "categorySlug": "fundamentals",
-  "stem": "A patient on bed rest in a Ghanaian hospital asks for a bedpan. Which action best supports normal elimination?",
+  "stem": "A patient on bed rest in a Ghanaian hospital asks for a bedpan. Which action **best** supports normal elimination?",
   "choices": [
    {
     "id": "a",
@@ -90019,7 +90019,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FND-2623",
   "categorySlug": "fundamentals",
-  "stem": "An elderly patient in Ghana has not opened her bowels for four days and reports abdominal discomfort. What should the nurse do first?",
+  "stem": "An elderly patient in Ghana has not opened her bowels for four days and reports abdominal discomfort. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -90155,7 +90155,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FND-2627",
   "categorySlug": "fundamentals",
-  "stem": "On a ward in Ghana, before giving a feed through a newly inserted nasogastric tube, which check best confirms it is in the stomach?",
+  "stem": "On a ward in Ghana, before giving a feed through a newly inserted nasogastric tube, which check **best** confirms it is in the stomach?",
   "choices": [
    {
     "id": "a",
@@ -90292,7 +90292,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FND-2631",
   "categorySlug": "fundamentals",
-  "stem": "A patient in Ghana is being taught to give her own subcutaneous injections before discharge. What best confirms she has learned the skill?",
+  "stem": "A patient in Ghana is being taught to give her own subcutaneous injections before discharge. What **best** confirms she has learned the skill?",
   "choices": [
    {
     "id": "a",
@@ -90392,7 +90392,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FND-2634",
   "categorySlug": "fundamentals",
-  "stem": "A nurse in Ghana is giving an intramuscular injection to a thin, frail elderly patient. What adjustment is most important?",
+  "stem": "A nurse in Ghana is giving an intramuscular injection to a thin, frail elderly patient. What adjustment is **most important**?",
   "choices": [
    {
     "id": "a",
@@ -90561,7 +90561,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FND-2639",
   "categorySlug": "safety-infection-control",
-  "stem": "A nurse finds a collapsed adult in the corridor of a Ghanaian hospital. What is her first action?",
+  "stem": "A nurse finds a collapsed adult in the corridor of a Ghanaian hospital. What is her **first** action?",
   "choices": [
    {
     "id": "a",
@@ -90943,7 +90943,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FND-2650",
   "categorySlug": "safety-infection-control",
-  "stem": "A patient at a clinic in Accra develops stridor, facial swelling and hypotension minutes after an injection. What is the first drug treatment?",
+  "stem": "A patient at a clinic in Accra develops stridor, facial swelling and hypotension minutes after an injection. What is the **first** drug treatment?",
   "choices": [
    {
     "id": "a",
@@ -91468,7 +91468,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FND-2665",
   "categorySlug": "safety-infection-control",
-  "stem": "A nurse in a Ghanaian hospital finds a colleague collapsed and still in contact with a faulty electrical appliance. What must she do first?",
+  "stem": "A nurse in a Ghanaian hospital finds a colleague collapsed and still in contact with a faulty electrical appliance. What must she do **first**?",
   "choices": [
    {
     "id": "a",
@@ -91573,7 +91573,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FND-2668",
   "categorySlug": "safety-infection-control",
-  "stem": "At the scene of a market fire in Ghana, what is the usual first instruction given to the crowd of casualties?",
+  "stem": "At the scene of a market fire in Ghana, what is the usual **first** instruction given to the crowd of casualties?",
   "choices": [
    {
     "id": "a",
@@ -91849,7 +91849,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FND-2676",
   "categorySlug": "safety-infection-control",
-  "stem": "A woman at the scene of a building collapse in Accra is distressed and unable to answer questions. What is the most appropriate response?",
+  "stem": "A woman at the scene of a building collapse in Accra is distressed and unable to answer questions. What is the **most appropriate** response?",
   "choices": [
    {
     "id": "a",
@@ -91917,7 +91917,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FND-2678",
   "categorySlug": "safety-infection-control",
-  "stem": "A district hospital in Ghana receives an unusual number of patients with acute watery diarrhoea in one day. What should the nurse in charge do first?",
+  "stem": "A district hospital in Ghana receives an unusual number of patients with acute watery diarrhoea in one day. What should the nurse in charge do **first**?",
   "choices": [
    {
     "id": "a",
@@ -91951,7 +91951,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FND-2679",
   "categorySlug": "safety-infection-control",
-  "stem": "A hospital in Ghana activates its major incident plan and needs to create bed capacity quickly. What is the most appropriate action?",
+  "stem": "A hospital in Ghana activates its major incident plan and needs to create bed capacity quickly. What is the **most appropriate** action?",
   "choices": [
    {
     "id": "a",
@@ -92292,7 +92292,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2689",
   "categorySlug": "med-surg",
-  "stem": "Which measurement most sensitively detects fluid retention in a patient with heart failure on a Ghanaian ward?",
+  "stem": "Which measurement **most sensitively** detects fluid retention in a patient with heart failure on a Ghanaian ward?",
   "choices": [
    {
     "id": "a",
@@ -92364,7 +92364,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2691",
   "categorySlug": "med-surg",
-  "stem": "A man arrives at a Ghanaian emergency unit with central crushing chest pain radiating to his jaw, sweating and nausea. What should be done first?",
+  "stem": "A man arrives at a Ghanaian emergency unit with central crushing chest pain radiating to his jaw, sweating and nausea. What should be done **first**?",
   "choices": [
    {
     "id": "a",
@@ -92679,7 +92679,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2700",
   "categorySlug": "med-surg",
-  "stem": "A post-operative patient in Ghana suddenly becomes breathless with pleuritic chest pain, tachycardia and a normal chest examination. What is the most likely cause?",
+  "stem": "A post-operative patient in Ghana suddenly becomes breathless with pleuritic chest pain, tachycardia and a normal chest examination. What is the **most likely** cause?",
   "choices": [
    {
     "id": "a",
@@ -92713,7 +92713,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2701",
   "categorySlug": "med-surg",
-  "stem": "Which measure most effectively prevents venous thromboembolism in a patient recovering from surgery in Ghana?",
+  "stem": "Which measure **most effectively** prevents venous thromboembolism in a patient recovering from surgery in Ghana?",
   "choices": [
    {
     "id": "a",
@@ -93087,7 +93087,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2712",
   "categorySlug": "med-surg",
-  "stem": "A young adult in northern Ghana presents with fever, severe headache, neck stiffness and photophobia. What is the priority action?",
+  "stem": "A young adult in northern Ghana presents with fever, severe headache, neck stiffness and photophobia. What is the **priority** action?",
   "choices": [
    {
     "id": "a",
@@ -93223,7 +93223,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2716",
   "categorySlug": "med-surg",
-  "stem": "An elderly man in Ghana with dementia becomes agitated each evening on the ward. What should the nurse do first?",
+  "stem": "An elderly man in Ghana with dementia becomes agitated each evening on the ward. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -93329,7 +93329,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2719",
   "categorySlug": "med-surg",
-  "stem": "A young patient in Ghana has deep sighing respirations, a dry tongue, vomiting and a blood glucose of 28 mmol/L. What is the first treatment priority?",
+  "stem": "A young patient in Ghana has deep sighing respirations, a dry tongue, vomiting and a blood glucose of 28 mmol/L. What is the **first** treatment priority?",
   "choices": [
    {
     "id": "a",
@@ -93401,7 +93401,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2721",
   "categorySlug": "med-surg",
-  "stem": "A newly diagnosed patient with type 2 diabetes in Ghana asks what will help most in controlling the condition. What is the correct answer?",
+  "stem": "A newly diagnosed patient with type 2 diabetes in Ghana asks what will help **most** in controlling the condition. What is the correct answer?",
   "choices": [
    {
     "id": "a",
@@ -93469,7 +93469,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2723",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana on haemodialysis is told to restrict fluid between sessions. What best indicates whether he is keeping to it?",
+  "stem": "A patient in Ghana on haemodialysis is told to restrict fluid between sessions. What **best** indicates whether he is keeping to it?",
   "choices": [
    {
     "id": "a",
@@ -93605,7 +93605,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2727",
   "categorySlug": "med-surg",
-  "stem": "What is the most important check before a unit of blood is administered in a Ghanaian hospital?",
+  "stem": "What is the **most important** check before a unit of blood is administered in a Ghanaian hospital?",
   "choices": [
    {
     "id": "a",
@@ -93707,7 +93707,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2730",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana with kidney failure has a potassium of 7.1 mmol/L with ECG changes. Why is calcium gluconate given first?",
+  "stem": "A patient in Ghana with kidney failure has a potassium of 7.1 mmol/L with ECG changes. Why is calcium gluconate given **first**?",
   "choices": [
    {
     "id": "a",
@@ -93843,7 +93843,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2734",
   "categorySlug": "med-surg",
-  "stem": "Which measurement best monitors the response to diuretic treatment in a patient with ascites in Ghana?",
+  "stem": "Which measurement **best** monitors the response to diuretic treatment in a patient with ascites in Ghana?",
   "choices": [
    {
     "id": "a",
@@ -94021,7 +94021,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2739",
   "categorySlug": "med-surg",
-  "stem": "Which finding on examining the abdomen most strongly suggests peritonitis?",
+  "stem": "Which finding on examining the abdomen **most strongly** suggests peritonitis?",
   "choices": [
    {
     "id": "a",
@@ -94056,7 +94056,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2740",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana with inflammatory bowel disease is passing frequent bloody stools and has a fever and tachycardia. What is the priority?",
+  "stem": "A patient in Ghana with inflammatory bowel disease is passing frequent bloody stools and has a fever and tachycardia. What is the **priority**?",
   "choices": [
    {
     "id": "a",
@@ -94124,7 +94124,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2742",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana is anxious before surgery that will form a colostomy. What is the most helpful pre-operative nursing action?",
+  "stem": "A patient in Ghana is anxious before surgery that will form a colostomy. What is the **most helpful** pre-operative nursing action?",
   "choices": [
    {
     "id": "a",
@@ -94158,7 +94158,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2743",
   "categorySlug": "med-surg",
-  "stem": "What advice most helps a patient in Ghana with haemorrhoids to prevent recurrence?",
+  "stem": "What advice **most** helps a patient in Ghana with haemorrhoids to prevent recurrence?",
   "choices": [
    {
     "id": "a",
@@ -94332,7 +94332,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2748",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana is having spinal anaesthesia for a caesarean section. What is the most important early observation?",
+  "stem": "A patient in Ghana is having spinal anaesthesia for a caesarean section. What is the **most important** early observation?",
   "choices": [
    {
     "id": "a",
@@ -94366,7 +94366,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2749",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana arrives in recovery making snoring respirations with reduced oxygen saturation. What is the first action?",
+  "stem": "A patient in Ghana arrives in recovery making snoring respirations with reduced oxygen saturation. What is the **first** action?",
   "choices": [
    {
     "id": "a",
@@ -94607,7 +94607,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2756",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana develops a fever on the first day after abdominal surgery, with reduced air entry at the lung bases. What is the most likely cause?",
+  "stem": "A patient in Ghana develops a fever on the first day after abdominal surgery, with reduced air entry at the lung bases. What is the **most likely** cause?",
   "choices": [
    {
     "id": "a",
@@ -94947,7 +94947,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2766",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana has burns to the face and neck with singed nasal hairs and a hoarse voice. What is the priority concern?",
+  "stem": "A patient in Ghana has burns to the face and neck with singed nasal hairs and a hoarse voice. What is the **priority** concern?",
   "choices": [
    {
     "id": "a",
@@ -94981,7 +94981,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2767",
   "categorySlug": "med-surg",
-  "stem": "What is the main nursing priority in the early days after a skin graft is applied in Ghana?",
+  "stem": "What is the main nursing **priority** in the early days after a skin graft is applied in Ghana?",
   "choices": [
    {
     "id": "a",
@@ -95083,7 +95083,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2770",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana who had neck surgery develops rapid neck swelling and difficulty breathing. What is the immediate priority?",
+  "stem": "A patient in Ghana who had neck surgery develops rapid neck swelling and difficulty breathing. What is the immediate **priority**?",
   "choices": [
    {
     "id": "a",
@@ -95626,7 +95626,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2786",
   "categorySlug": "med-surg",
-  "stem": "What is the most important element of long-term management for a patient in Ghana with atopic eczema?",
+  "stem": "What is the **most important** element of long-term management for a patient in Ghana with atopic eczema?",
   "choices": [
    {
     "id": "a",
@@ -95660,7 +95660,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2787",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana with hypertension has stopped his medication because he feels well and the tablets cost money. What is the most effective nursing response?",
+  "stem": "A patient in Ghana with hypertension has stopped his medication because he feels well and the tablets cost money. What is the **most effective** nursing response?",
   "choices": [
    {
     "id": "a",
@@ -95802,7 +95802,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2791",
   "categorySlug": "risk-reduction",
-  "stem": "A raised eosinophil count in a patient in Ghana most commonly suggests which group of causes?",
+  "stem": "A raised eosinophil count in a patient in Ghana **most commonly** suggests which group of causes?",
   "choices": [
    {
     "id": "a",
@@ -96318,7 +96318,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2806",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A woman in Ghana who is eight weeks pregnant is taking enalapril for hypertension. What is the priority nursing action?",
+  "stem": "A woman in Ghana who is eight weeks pregnant is taking enalapril for hypertension. What is the **priority** nursing action?",
   "choices": [
    {
     "id": "a",
@@ -96386,7 +96386,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2808",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient in Ghana stabilised on warfarin is prescribed a course of an antibiotic and develops bruising. What is the most likely explanation?",
+  "stem": "A patient in Ghana stabilised on warfarin is prescribed a course of an antibiotic and develops bruising. What is the **most likely** explanation?",
   "choices": [
    {
     "id": "a",
@@ -96488,7 +96488,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2811",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "Minutes after an intravenous antibiotic in Ghana a patient develops wheeze, swelling of the lips and hypotension. What is the first action?",
+  "stem": "Minutes after an intravenous antibiotic in Ghana a patient develops wheeze, swelling of the lips and hypotension. What is the **first** action?",
   "choices": [
    {
     "id": "a",
@@ -97373,7 +97373,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2837",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana with known chronic obstructive pulmonary disease is given high-flow oxygen and becomes drowsy. What has most likely happened?",
+  "stem": "A patient in Ghana with known chronic obstructive pulmonary disease is given high-flow oxygen and becomes drowsy. What has **most likely** happened?",
   "choices": [
    {
     "id": "a",
@@ -97649,7 +97649,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2845",
   "categorySlug": "med-surg",
-  "stem": "A wound in Ghana is producing heavy exudate that soaks through dressings within hours. Which dressing type is most appropriate?",
+  "stem": "A wound in Ghana is producing heavy exudate that soaks through dressings within hours. Which dressing type is **most appropriate**?",
   "choices": [
    {
     "id": "a",
@@ -97685,7 +97685,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2846",
   "categorySlug": "med-surg",
-  "stem": "Which finding best distinguishes an infected wound from one that is simply colonised with bacteria?",
+  "stem": "Which finding **best** distinguishes an infected wound from one that is simply colonised with bacteria?",
   "choices": [
    {
     "id": "a",
@@ -98066,7 +98066,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2857",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "Fifteen minutes into a blood transfusion in Ghana a patient develops loin pain, fever and dark urine. What is the first action?",
+  "stem": "Fifteen minutes into a blood transfusion in Ghana a patient develops loin pain, fever and dark urine. What is the **first** action?",
   "choices": [
    {
     "id": "a",
@@ -98168,7 +98168,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2860",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "An infusion pump in Ghana alarms repeatedly with an occlusion warning. What should the nurse do first?",
+  "stem": "An infusion pump in Ghana alarms repeatedly with an occlusion warning. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -98236,7 +98236,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2862",
   "categorySlug": "safety-infection-control",
-  "stem": "Two days after severe flooding in Accra, hundreds of people are sheltering in a school. What is the highest public health priority?",
+  "stem": "Two days after severe flooding in Accra, hundreds of people are sheltering in a school. What is the **highest** public health priority?",
   "choices": [
    {
     "id": "a",
@@ -98376,7 +98376,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2866",
   "categorySlug": "safety-infection-control",
-  "stem": "A Ghanaian district hospital activates its major incident plan. What action most rapidly creates capacity for incoming casualties?",
+  "stem": "A Ghanaian district hospital activates its major incident plan. What action **most rapidly** creates capacity for incoming casualties?",
   "choices": [
    {
     "id": "a",
@@ -98410,7 +98410,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2867",
   "categorySlug": "safety-infection-control",
-  "stem": "A child is brought unaccompanied to a relief camp in Ghana after flooding. What is the priority action?",
+  "stem": "A child is brought unaccompanied to a relief camp in Ghana after flooding. What is the **priority** action?",
   "choices": [
    {
     "id": "a",
@@ -98444,7 +98444,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2868",
   "categorySlug": "safety-infection-control",
-  "stem": "During an outbreak in a Ghanaian district, rumours spread that the treatment centre is killing patients. What is the most effective response?",
+  "stem": "During an outbreak in a Ghanaian district, rumours spread that the treatment centre is killing patients. What is the **most effective** response?",
   "choices": [
    {
     "id": "a",
@@ -98787,7 +98787,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2878",
   "categorySlug": "safety-infection-control",
-  "stem": "A woman in a Ghanaian relief camp is distressed after losing her home. What does psychological first aid involve?",
+  "stem": "A woman in a Ghanaian relief camp is distressed after losing her home. What does **psychological first aid** involve?",
   "choices": [
    {
     "id": "a",
@@ -99127,7 +99127,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2888",
   "categorySlug": "safety-infection-control",
-  "stem": "What is the most effective role for a community health nurse in flood preparedness in a Ghanaian coastal community?",
+  "stem": "What is the **most effective** role for a community health nurse in flood preparedness in a Ghanaian coastal community?",
   "choices": [
    {
     "id": "a",
@@ -99195,7 +99195,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2890",
   "categorySlug": "safety-infection-control",
-  "stem": "After a flood response in Ghana has ended, what makes the recovery phase most valuable for the future?",
+  "stem": "After a flood response in Ghana has ended, what makes the recovery phase **most valuable** for the future?",
   "choices": [
    {
     "id": "a",
@@ -99263,7 +99263,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2892",
   "categorySlug": "safety-infection-control",
-  "stem": "An adult in Ghana is choking, cannot speak, and is clutching the throat. What should be done first?",
+  "stem": "An adult in Ghana is choking, cannot speak, and is clutching the throat. What should be done **first**?",
   "choices": [
    {
     "id": "a",
@@ -99467,7 +99467,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2898",
   "categorySlug": "safety-infection-control",
-  "stem": "A man in Ghana has a deep thigh wound with blood pumping out rapidly. What is the immediate priority?",
+  "stem": "A man in Ghana has a deep thigh wound with blood pumping out rapidly. What is the **immediate priority**?",
   "choices": [
    {
     "id": "a",
@@ -99603,7 +99603,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2902",
   "categorySlug": "safety-infection-control",
-  "stem": "A man in Ghana is found unconscious still gripping a live electrical cable. What must the rescuer do first?",
+  "stem": "A man in Ghana is found unconscious still gripping a live electrical cable. What must the rescuer do **first**?",
   "choices": [
    {
     "id": "a",
@@ -99739,7 +99739,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLN-2906",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana with myasthenia gravis develops a weak cough, difficulty swallowing and shallow breathing. What is the priority nursing concern?",
+  "stem": "A patient in Ghana with myasthenia gravis develops a weak cough, difficulty swallowing and shallow breathing. What is the **priority** nursing concern?",
   "choices": [
    {
     "id": "a",
@@ -99807,7 +99807,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLN-2908",
   "categorySlug": "med-surg",
-  "stem": "What best describes the typical course of relapsing multiple sclerosis?",
+  "stem": "What **best** describes the typical course of relapsing multiple sclerosis?",
   "choices": [
    {
     "id": "a",
@@ -99874,7 +99874,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLN-2910",
   "categorySlug": "med-surg",
-  "stem": "A man in Ghana with Bell's palsy cannot close his right eye. What is the priority nursing intervention?",
+  "stem": "A man in Ghana with Bell's palsy cannot close his right eye. What is the **priority** nursing intervention?",
   "choices": [
    {
     "id": "a",
@@ -100259,7 +100259,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLN-2921",
   "categorySlug": "med-surg",
-  "stem": "A man in Ghana with an enlarged prostate suddenly passes no urine at all for eight hours. Where does the fault most likely lie?",
+  "stem": "A man in Ghana with an enlarged prostate suddenly passes no urine at all for eight hours. Where does the fault **most likely** lie?",
   "choices": [
    {
     "id": "a",
@@ -100295,7 +100295,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLN-2922",
   "categorySlug": "med-surg",
-  "stem": "Which complication of acute kidney injury in Ghana requires the most urgent attention?",
+  "stem": "Which complication of acute kidney injury in Ghana requires the **most urgent** attention?",
   "choices": [
    {
     "id": "a",
@@ -100467,7 +100467,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLN-2927",
   "categorySlug": "med-surg",
-  "stem": "Why is daily weight the most reliable measure of fluid status in a patient in Ghana receiving dialysis?",
+  "stem": "Why is daily weight the **most reliable** measure of fluid status in a patient in Ghana receiving dialysis?",
   "choices": [
    {
     "id": "a",
@@ -100537,7 +100537,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLN-2929",
   "categorySlug": "med-surg",
-  "stem": "A boy in Ghana with haemophilia develops a painful, warm, swollen knee after playing. What is the immediate priority in management?",
+  "stem": "A boy in Ghana with haemophilia develops a painful, warm, swollen knee after playing. What is the **immediate priority** in management?",
   "choices": [
    {
     "id": "a",
@@ -101013,7 +101013,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLN-2943",
   "categorySlug": "med-surg",
-  "stem": "An elderly woman in a rural Ghanaian district has gradually lost vision from cataract but has not sought care. What is the most useful nursing response?",
+  "stem": "An elderly woman in a rural Ghanaian district has gradually lost vision from cataract but has not sought care. What is the **most** useful nursing response?",
   "choices": [
    {
     "id": "a",
@@ -101047,7 +101047,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLN-2944",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana with severe vertigo describes the room spinning whenever she turns her head in bed. What is the priority nursing action?",
+  "stem": "A patient in Ghana with severe vertigo describes the room spinning whenever she turns her head in bed. What is the **priority** nursing action?",
   "choices": [
    {
     "id": "a",
@@ -101115,7 +101115,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLN-2946",
   "categorySlug": "med-surg",
-  "stem": "Why is respiratory rate considered the most sensitive early indicator of deterioration in a ward patient?",
+  "stem": "Why is respiratory rate considered the **most sensitive** early indicator of deterioration in a ward patient?",
   "choices": [
    {
     "id": "a",
@@ -101216,7 +101216,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLN-2949",
   "categorySlug": "med-surg",
-  "stem": "Which finding in an older inpatient in Ghana most strongly predicts a further fall during admission?",
+  "stem": "Which finding in an older inpatient in Ghana **most strongly** predicts a further fall during admission?",
   "choices": [
    {
     "id": "a",
@@ -101352,7 +101352,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLN-2953",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana in the third week of typhoid fever develops sudden severe abdominal pain with board-like rigidity. What has most likely occurred?",
+  "stem": "A patient in Ghana in the third week of typhoid fever develops sudden severe abdominal pain with board-like rigidity. What has **most likely** occurred?",
   "choices": [
    {
     "id": "a",
@@ -101793,7 +101793,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLN-2966",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient in Ghana is starting a drug known to cause first dose hypotension. What advice is appropriate?",
+  "stem": "A patient in Ghana is starting a drug known to cause **first dose hypotension**. What advice is appropriate?",
   "choices": [
    {
     "id": "a",
@@ -102269,7 +102269,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ELE-2980",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A 44-year-old man in the renal unit at Korle Bu has a serum potassium of 7.2 mmol/L. His ECG shows tall peaked T waves and a widening QRS. An intravenous cannula is already in place. Which intervention should the nurse prepare first?",
+  "stem": "A 44-year-old man in the renal unit at Korle Bu has a serum potassium of 7.2 mmol/L. His ECG shows tall peaked T waves and a widening QRS. An intravenous cannula is already in place. Which intervention should the nurse prepare **first**?",
   "choices": [
    {
     "id": "a",
@@ -102305,7 +102305,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ELE-2981",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A patient has a metabolic acidosis. Sodium is 138 mmol/L, chloride is 112 mmol/L and bicarbonate is 14 mmol/L. The nurse calculates the anion gap. Which conclusion does the result best support?",
+  "stem": "A patient has a metabolic acidosis. Sodium is 138 mmol/L, chloride is 112 mmol/L and bicarbonate is 14 mmol/L. The nurse calculates the anion gap. Which conclusion does the result **best** support?",
   "choices": [
    {
     "id": "a",
@@ -102374,7 +102374,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ELE-2983",
   "categorySlug": "fluid-electrolyte",
-  "stem": "On a general medical ward at Komfo Anokye Teaching Hospital a prescription reads potassium chloride 40 mmol in 1 litre of 0.9% sodium chloride over 8 hours for a patient with hypokalaemia. Which nursing action is most important before starting?",
+  "stem": "On a general medical ward at Komfo Anokye Teaching Hospital a prescription reads potassium chloride 40 mmol in 1 litre of 0.9% sodium chloride over 8 hours for a patient with hypokalaemia. Which nursing action is **most** important before starting?",
   "choices": [
    {
     "id": "a",
@@ -102408,7 +102408,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ELE-2984",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A patient with hypovolaemia from acute gastroenteritis needs intravenous fluid resuscitation. Which fluid is most appropriate and why?",
+  "stem": "A patient with hypovolaemia from acute gastroenteritis needs intravenous fluid resuscitation. Which fluid is **most** appropriate and why?",
   "choices": [
    {
     "id": "a",
@@ -102477,7 +102477,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ELE-2986",
   "categorySlug": "fluid-electrolyte",
-  "stem": "Following a total thyroidectomy at Korle Bu Teaching Hospital a patient develops tingling around the mouth and carpal spasm when the blood pressure cuff is inflated. Which electrolyte disturbance does this most likely indicate?",
+  "stem": "Following a total thyroidectomy at Korle Bu Teaching Hospital a patient develops tingling around the mouth and carpal spasm when the blood pressure cuff is inflated. Which electrolyte disturbance does this **most** likely indicate?",
   "choices": [
    {
     "id": "a",
@@ -102579,7 +102579,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ELE-2989",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A severely malnourished adult admitted to a district hospital in the Upper East Region is started on full-rate enteral feeding. On day three he becomes confused and short of breath with new peripheral oedema. Which electrolyte should be checked as the priority?",
+  "stem": "A severely malnourished adult admitted to a district hospital in the Upper East Region is started on full-rate enteral feeding. On day three he becomes confused and short of breath with new peripheral oedema. Which electrolyte should be checked as the **priority**?",
   "choices": [
    {
     "id": "a",
@@ -102613,7 +102613,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ELE-2990",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A nurse on a busy medical ward in Cape Coast notes that a patient's fluid balance chart shows a positive balance of 400 mL over 24 hours, yet the recorded daily weight has increased by 2.1 kg. Which action is most appropriate?",
+  "stem": "A nurse on a busy medical ward in Cape Coast notes that a patient's fluid balance chart shows a positive balance of 400 mL over 24 hours, yet the recorded daily weight has increased by 2.1 kg. Which action is **most** appropriate?",
   "choices": [
    {
     "id": "a",
@@ -102647,7 +102647,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ELE-2991",
   "categorySlug": "fluid-electrolyte",
-  "stem": "An elderly man admitted to a district hospital in the Ashanti Region with a dense stroke and impaired swallowing has a serum sodium of 158 mmol/L. What is the most likely explanation?",
+  "stem": "An elderly man admitted to a district hospital in the Ashanti Region with a dense stroke and impaired swallowing has a serum sodium of 158 mmol/L. What is the **most** likely explanation?",
   "choices": [
    {
     "id": "a",
@@ -102681,7 +102681,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ELE-2992",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A mother at a CHPS compound asks why the oral rehydration solution she has been given contains sugar as well as salt. Which explanation is most accurate?",
+  "stem": "A mother at a CHPS compound asks why the oral rehydration solution she has been given contains sugar as well as salt. Which explanation is **most** accurate?",
   "choices": [
    {
     "id": "a",
@@ -102715,7 +102715,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ELE-2993",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A patient taking digoxin for atrial fibrillation is also prescribed furosemide. He reports nausea and seeing yellow-green haloes around lights. Which laboratory result would best explain these symptoms?",
+  "stem": "A patient taking digoxin for atrial fibrillation is also prescribed furosemide. He reports nausea and seeing yellow-green haloes around lights. Which laboratory result would **best** explain these symptoms?",
   "choices": [
    {
     "id": "a",
@@ -102782,7 +102782,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ELE-2995",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A 70 kg adult is brought to a Ghanaian district hospital with burns to 30% of total body surface area. Using the Parkland formula of 4 mL per kilogram per percentage burn over 24 hours, how much fluid should be given in the first 8 hours from the time of injury?",
+  "stem": "A 70 kg adult is brought to a Ghanaian district hospital with burns to 30% of total body surface area. Using the Parkland formula of 4 mL per kilogram per percentage burn over 24 hours, how much fluid should be given in the **first 8 hours** from the time of injury?",
   "choices": [
    {
     "id": "a",
@@ -102817,7 +102817,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ELE-2996",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A patient has received three separate potassium infusions but the serum potassium remains at 3.0 mmol/L. Which action is most likely to correct the persistent hypokalaemia?",
+  "stem": "A patient has received three separate potassium infusions but the serum potassium remains at 3.0 mmol/L. Which action is **most** likely to correct the persistent hypokalaemia?",
   "choices": [
    {
     "id": "a",
@@ -102850,7 +102850,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ELE-2997",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A patient with small cell lung carcinoma has a serum sodium of 122 mmol/L, concentrated urine, and no oedema or signs of dehydration. Which management approach is most appropriate initially?",
+  "stem": "A patient with small cell lung carcinoma has a serum sodium of 122 mmol/L, concentrated urine, and no oedema or signs of dehydration. Which management approach is **most** appropriate initially?",
   "choices": [
    {
     "id": "a",
@@ -102883,7 +102883,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ELE-2998",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A patient reviewed in a surgical outpatient clinic in Accra with a newly formed ileostomy is producing 1,600 mL of watery effluent daily. Which complication should the nurse monitor for most closely?",
+  "stem": "A patient reviewed in a surgical outpatient clinic in Accra with a newly formed ileostomy is producing 1,600 mL of watery effluent daily. Which complication should the nurse monitor for **most** closely?",
   "choices": [
    {
     "id": "a",
@@ -102951,7 +102951,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BEH-3000",
   "categorySlug": "mental-health",
-  "stem": "A woman attending the psychiatric outpatient clinic at Accra Psychiatric Hospital takes lithium for bipolar disorder. She reports three days of vomiting and diarrhoea from a stomach upset and now has a coarse hand tremor and slurred speech. Which action is the priority?",
+  "stem": "A woman attending the psychiatric outpatient clinic at Accra Psychiatric Hospital takes lithium for bipolar disorder. She reports three days of vomiting and diarrhoea from a stomach upset and now has a coarse hand tremor and slurred speech. Which action is the **priority**?",
   "choices": [
    {
     "id": "a",
@@ -103021,7 +103021,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BEH-3002",
   "categorySlug": "mental-health",
-  "stem": "Twelve hours after a first dose of intramuscular haloperidol on a ward in Cape Coast, a young man develops a painfully twisted neck and his eyes are rolled upward and fixed. Which response is most appropriate?",
+  "stem": "Twelve hours after a first dose of intramuscular haloperidol on a ward in Cape Coast, a young man develops a painfully twisted neck and his eyes are rolled upward and fixed. Which response is **most** appropriate?",
   "choices": [
    {
     "id": "a",
@@ -103091,7 +103091,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BEH-3004",
   "categorySlug": "mental-health",
-  "stem": "A patient on a psychiatric ward in Tamale has a temperature of 39.8 °C, generalised muscle rigidity, confusion, a pulse of 130 beats per minute and a fluctuating blood pressure. He has been taking haloperidol for two weeks. Which action is the priority?",
+  "stem": "A patient on a psychiatric ward in Tamale has a temperature of 39.8 °C, generalised muscle rigidity, confusion, a pulse of 130 beats per minute and a fluctuating blood pressure. He has been taking haloperidol for two weeks. Which action is the **priority**?",
   "choices": [
    {
     "id": "a",
@@ -103125,7 +103125,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BEH-3005",
   "categorySlug": "mental-health",
-  "stem": "A young man seen at a district hospital in the Eastern Region says he no longer wants to live. Which question should the nurse ask next?",
+  "stem": "A young man seen at a district hospital in the Eastern Region says he no longer wants to live. Which question should the nurse ask **next**?",
   "choices": [
    {
     "id": "a",
@@ -103161,7 +103161,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BEH-3006",
   "categorySlug": "mental-health",
-  "stem": "A woman in a farming community in the Bono Region is assessed after a suicide attempt using a pesticide stored at home. Alongside mental health treatment, which intervention is most likely to prevent a further attempt?",
+  "stem": "A woman in a farming community in the Bono Region is assessed after a suicide attempt using a pesticide stored at home. Alongside mental health treatment, which intervention is **most** likely to prevent a further attempt?",
   "choices": [
    {
     "id": "a",
@@ -103262,7 +103262,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BEH-3009",
   "categorySlug": "mental-health",
-  "stem": "A family in a rural Ghanaian district explains that their relative with psychosis has been at a prayer camp and they wish to continue spiritual care alongside hospital treatment. Which nursing response is most appropriate?",
+  "stem": "A family in a rural Ghanaian district explains that their relative with psychosis has been at a prayer camp and they wish to continue spiritual care alongside hospital treatment. Which nursing response is **most** appropriate?",
   "choices": [
    {
     "id": "a",
@@ -103296,7 +103296,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BEH-3010",
   "categorySlug": "mental-health",
-  "stem": "A man admitted with alcohol withdrawal is confused, has unsteady gait and abnormal eye movements. The house officer prescribes intravenous glucose. What should the nurse do first?",
+  "stem": "A man admitted with alcohol withdrawal is confused, has unsteady gait and abnormal eye movements. The house officer prescribes intravenous glucose. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -103329,7 +103329,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BEH-3011",
   "categorySlug": "mental-health",
-  "stem": "A patient states with conviction that the hospital staff are poisoning his food. Which response is most therapeutic?",
+  "stem": "A patient states with conviction that the hospital staff are poisoning his food. Which response is **most** therapeutic?",
   "choices": [
    {
     "id": "a",
@@ -103362,7 +103362,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BEH-3012",
   "categorySlug": "mental-health",
-  "stem": "At a six-week postnatal clinic in Accra, a mother scores highly on the Edinburgh Postnatal Depression Scale and answers positively to the item about self-harm. What is the most appropriate action?",
+  "stem": "At a six-week postnatal clinic in Accra, a mother scores highly on the Edinburgh Postnatal Depression Scale and answers positively to the item about self-harm. What is the **most** appropriate action?",
   "choices": [
    {
     "id": "a",
@@ -103396,7 +103396,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BEH-3013",
   "categorySlug": "mental-health",
-  "stem": "A patient who has relapsed three times after stopping oral medication is offered a depot antipsychotic injection. He asks why an injection is better than tablets. Which explanation is most accurate?",
+  "stem": "A patient who has relapsed three times after stopping oral medication is offered a depot antipsychotic injection. He asks why an injection is better than tablets. Which explanation is **most** accurate?",
   "choices": [
    {
     "id": "a",
@@ -103430,7 +103430,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BEH-3014",
   "categorySlug": "mental-health",
-  "stem": "A patient has taken olanzapine for a year and has gained fourteen kilograms. Which monitoring is most important alongside his mental state review?",
+  "stem": "A patient has taken olanzapine for a year and has gained fourteen kilograms. Which monitoring is **most** important alongside his mental state review?",
   "choices": [
    {
     "id": "a",
@@ -103463,7 +103463,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BEH-3015",
   "categorySlug": "mental-health",
-  "stem": "A patient taking fluoxetine is prescribed tramadol for pain. Two days later he is agitated and sweating, with a temperature of 38.6 °C, brisk reflexes and clonus in both ankles. Which explanation fits best?",
+  "stem": "A patient taking fluoxetine is prescribed tramadol for pain. Two days later he is agitated and sweating, with a temperature of 38.6 °C, brisk reflexes and clonus in both ankles. Which explanation fits **best**?",
   "choices": [
    {
     "id": "a",
@@ -103496,7 +103496,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BEH-3016",
   "categorySlug": "mental-health",
-  "stem": "A patient nearing discharge from a psychiatric unit asks a nurse for her personal telephone number so that he can continue to talk to her about his problems. Which response is most appropriate?",
+  "stem": "A patient nearing discharge from a psychiatric unit asks a nurse for her personal telephone number so that he can continue to talk to her about his problems. Which response is **most** appropriate?",
   "choices": [
    {
     "id": "a",
@@ -103529,7 +103529,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BEH-3017",
   "categorySlug": "mental-health",
-  "stem": "During a community follow-up visit near Koforidua, the family of a man with schizophrenia report that he has stopped sleeping, has become suspicious of neighbours and has withdrawn from meals. He is not currently hallucinating. What is the most appropriate action?",
+  "stem": "During a community follow-up visit near Koforidua, the family of a man with schizophrenia report that he has stopped sleeping, has become suspicious of neighbours and has withdrawn from meals. He is not currently hallucinating. What is the **most** appropriate action?",
   "choices": [
    {
     "id": "a",
@@ -103563,7 +103563,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BEH-3018",
   "categorySlug": "mental-health",
-  "stem": "A man attending a health centre in the Volta Region for hypertension screening reports drinking akpeteshie most evenings. Which approach is most appropriate?",
+  "stem": "A man attending a health centre in the Volta Region for hypertension screening reports drinking akpeteshie most evenings. Which approach is **most** appropriate?",
   "choices": [
    {
     "id": "a",
@@ -103597,7 +103597,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BEH-3019",
   "categorySlug": "mental-health",
-  "stem": "An 80-year-old woman with known dementia is admitted to a ward in Sunyani. Over eight hours she becomes markedly more confused than usual, drowsy in the afternoon and agitated at night, and she is seeing insects on the wall. Which interpretation is most appropriate?",
+  "stem": "An 80-year-old woman with known dementia is admitted to a ward in Sunyani. Over eight hours she becomes markedly more confused than usual, drowsy in the afternoon and agitated at night, and she is seeing insects on the wall. Which interpretation is **most** appropriate?",
   "choices": [
    {
     "id": "a",
@@ -103667,7 +103667,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHI-3021",
   "categorySlug": "pediatrics",
-  "stem": "A 3-year-old with sickle cell disease is brought to a district hospital in the Ashanti Region pale, listless and tachycardic. On examination the spleen is markedly enlarged and tender, and the haemoglobin has fallen from her baseline of 8 g/dL to 4 g/dL. Which complication is most likely?",
+  "stem": "A 3-year-old with sickle cell disease is brought to a district hospital in the Ashanti Region pale, listless and tachycardic. On examination the spleen is markedly enlarged and tender, and the haemoglobin has fallen from her baseline of 8 g/dL to 4 g/dL. Which complication is **most** likely?",
   "choices": [
    {
     "id": "a",
@@ -103703,7 +103703,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHI-3022",
   "categorySlug": "pediatrics",
-  "stem": "A 4-year-old with sickle cell disease attending clinic in Kumasi has a temperature of 38.9 °C but appears well and is playing. What is the priority action?",
+  "stem": "A 4-year-old with sickle cell disease attending clinic in Kumasi has a temperature of 38.9 °C but appears well and is playing. What is the **priority** action?",
   "choices": [
    {
     "id": "a",
@@ -103773,7 +103773,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHI-3024",
   "categorySlug": "pediatrics",
-  "stem": "A 2-year-old is brought to hospital in Accra at night with a barking cough, a hoarse voice and stridor that is audible when he is at rest. He is distressed. Which action is most appropriate?",
+  "stem": "A 2-year-old is brought to hospital in Accra at night with a barking cough, a hoarse voice and stridor that is audible when he is at rest. He is distressed. Which action is **most** appropriate?",
   "choices": [
    {
     "id": "a",
@@ -103807,7 +103807,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHI-3025",
   "categorySlug": "pediatrics",
-  "stem": "A 2-year-old at a family gathering in Tema suddenly begins coughing forcefully after eating groundnuts. He is distressed but able to cry loudly and cough. Which action is most appropriate?",
+  "stem": "A 2-year-old at a family gathering in Tema suddenly begins coughing forcefully after eating groundnuts. He is distressed but able to cry loudly and cough. Which action is **most** appropriate?",
   "choices": [
    {
     "id": "a",
@@ -103909,7 +103909,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHI-3028",
   "categorySlug": "pediatrics",
-  "stem": "A mother of a stable 1.6 kg preterm baby at a regional hospital in Ghana is being taught kangaroo mother care. Which explanation of its benefits is most accurate?",
+  "stem": "A mother of a stable 1.6 kg preterm baby at a regional hospital in Ghana is being taught kangaroo mother care. Which explanation of its benefits is **most** accurate?",
   "choices": [
    {
     "id": "a",
@@ -103977,7 +103977,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHI-3030",
   "categorySlug": "pediatrics",
-  "stem": "A 15-month-old at a district hospital in the Bono East Region has a generalised convulsion lasting two minutes during a febrile illness, then recovers and is alert. The parents ask how to manage a future episode at home. Which advice is most appropriate?",
+  "stem": "A 15-month-old at a district hospital in the Bono East Region has a generalised convulsion lasting two minutes during a febrile illness, then recovers and is alert. The parents ask how to manage a future episode at home. Which advice is **most** appropriate?",
   "choices": [
    {
     "id": "a",
@@ -104044,7 +104044,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHI-3032",
   "categorySlug": "pediatrics",
-  "stem": "A 5-year-old is admitted with generalised oedema, puffy eyelids that are worst in the morning, heavy proteinuria and a low serum albumin. Which nursing observation is most important during his admission?",
+  "stem": "A 5-year-old is admitted with generalised oedema, puffy eyelids that are worst in the morning, heavy proteinuria and a low serum albumin. Which nursing observation is **most** important during his admission?",
   "choices": [
    {
     "id": "a",
@@ -104077,7 +104077,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHI-3033",
   "categorySlug": "pediatrics",
-  "stem": "An 8-month-old with tetralogy of Fallot becomes deeply cyanosed and distressed while crying during a clinic visit in Accra. Which immediate action is most appropriate?",
+  "stem": "An 8-month-old with tetralogy of Fallot becomes deeply cyanosed and distressed while crying during a clinic visit in Accra. Which immediate action is **most** appropriate?",
   "choices": [
    {
     "id": "a",
@@ -104111,7 +104111,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHI-3034",
   "categorySlug": "pediatrics",
-  "stem": "A 6-month-old is brought to a hospital in Ghana with a spiral fracture of the femur. The parents say the infant rolled off a low bed. The nurse notes bruises of differing colours on the trunk. What is the most appropriate action?",
+  "stem": "A 6-month-old is brought to a hospital in Ghana with a spiral fracture of the femur. The parents say the infant rolled off a low bed. The nurse notes bruises of differing colours on the trunk. What is the **most** appropriate action?",
   "choices": [
    {
     "id": "a",
@@ -104145,7 +104145,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHI-3035",
   "categorySlug": "pediatrics",
-  "stem": "A mother living with HIV asks why her 8-week-old baby has been prescribed daily cotrimoxazole when the baby has not been diagnosed with HIV. Which explanation is most accurate?",
+  "stem": "A mother living with HIV asks why her 8-week-old baby has been prescribed daily cotrimoxazole when the baby has not been diagnosed with HIV. Which explanation is **most** accurate?",
   "choices": [
    {
     "id": "a",
@@ -104212,7 +104212,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHI-3037",
   "categorySlug": "pediatrics",
-  "stem": "A 3-year-old is recovering from surgery and denies pain when asked directly, yet lies rigidly still, grimaces when moved and will not play. Which nursing approach is most appropriate?",
+  "stem": "A 3-year-old is recovering from surgery and denies pain when asked directly, yet lies rigidly still, grimaces when moved and will not play. Which nursing approach is **most** appropriate?",
   "choices": [
    {
     "id": "a",
@@ -104245,7 +104245,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHI-3038",
   "categorySlug": "pediatrics",
-  "stem": "During a growth monitoring visit, a nurse reviews a 12-month-old. Which finding should prompt further assessment?",
+  "stem": "During a growth monitoring visit, a nurse reviews a 12-month-old. Which finding should prompt **further** assessment?",
   "choices": [
    {
     "id": "a",
@@ -104312,7 +104312,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MNH-3040",
   "categorySlug": "maternal-newborn",
-  "stem": "During a birth at a district hospital in the Central Region the baby's head delivers and then retracts tightly against the perineum. The shoulders do not follow with the next contraction. Which action should the midwife take first?",
+  "stem": "During a birth at a district hospital in the Central Region the baby's head delivers and then retracts tightly against the perineum. The shoulders do not follow with the next contraction. Which action should the midwife take **first**?",
   "choices": [
    {
     "id": "a",
@@ -104383,7 +104383,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MNH-3042",
   "categorySlug": "maternal-newborn",
-  "stem": "Thirty minutes after a spontaneous vaginal birth a woman continues to bleed briskly. On palpation the uterus is well contracted and firm, and the placenta was inspected and found complete. What is the most likely cause?",
+  "stem": "Thirty minutes after a spontaneous vaginal birth a woman continues to bleed briskly. On palpation the uterus is well contracted and firm, and the placenta was inspected and found complete. What is the **most** likely cause?",
   "choices": [
    {
     "id": "a",
@@ -104418,7 +104418,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MNH-3043",
   "categorySlug": "maternal-newborn",
-  "stem": "Following spontaneous rupture of membranes at a health centre in the Western Region, the midwife sees a loop of umbilical cord at the vulva. The foetal heart rate is 80 beats per minute. Which action should be taken immediately?",
+  "stem": "Following spontaneous rupture of membranes at a health centre in the Western Region, the midwife sees a loop of umbilical cord at the vulva. The foetal heart rate is 80 beats per minute. Which action should be taken **immediately**?",
   "choices": [
    {
     "id": "a",
@@ -104452,7 +104452,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MNH-3044",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman admitted to a regional hospital in Ghana is receiving magnesium sulphate for eclampsia. She has absent patellar reflexes, a respiratory rate of 10 breaths per minute and a urine output of 60 mL over the last four hours. What is the priority action?",
+  "stem": "A woman admitted to a regional hospital in Ghana is receiving magnesium sulphate for eclampsia. She has absent patellar reflexes, a respiratory rate of 10 breaths per minute and a urine output of 60 mL over the last four hours. What is the **priority** action?",
   "choices": [
    {
     "id": "a",
@@ -104554,7 +104554,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MNH-3047",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman at 34 weeks' gestation attending antenatal clinic in Accra has a blood pressure of 168/112 mmHg, a severe frontal headache and visual flashing. Which action is the priority?",
+  "stem": "A woman at 34 weeks' gestation attending antenatal clinic in Accra has a blood pressure of 168/112 mmHg, a severe frontal headache and visual flashing. Which action is the **priority**?",
   "choices": [
    {
     "id": "a",
@@ -104622,7 +104622,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MNH-3049",
   "categorySlug": "maternal-newborn",
-  "stem": "Forty-five minutes after birth the placenta has not delivered despite active management. The woman is not bleeding heavily and her observations are stable. What is the most appropriate action?",
+  "stem": "Forty-five minutes after birth the placenta has not delivered despite active management. The woman is not bleeding heavily and her observations are stable. What is the **most** appropriate action?",
   "choices": [
    {
     "id": "a",
@@ -104689,7 +104689,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MNH-3051",
   "categorySlug": "maternal-newborn",
-  "stem": "A baby is born at a health centre in the Volta Region floppy and not breathing. Drying and stimulation have not helped. The cord has been clamped and cut. What should the midwife do next?",
+  "stem": "A baby is born at a health centre in the Volta Region floppy and not breathing. Drying and stimulation have not helped. The cord has been clamped and cut. What should the midwife do **next**?",
   "choices": [
    {
     "id": "a",
@@ -104723,7 +104723,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MNH-3052",
   "categorySlug": "maternal-newborn",
-  "stem": "Four days after a prolonged labour a woman has a temperature of 39.2 °C, offensive lochia, lower abdominal tenderness and a pulse of 118 beats per minute. Which action is the priority?",
+  "stem": "Four days after a prolonged labour a woman has a temperature of 39.2 °C, offensive lochia, lower abdominal tenderness and a pulse of 118 beats per minute. Which action is the **priority**?",
   "choices": [
    {
     "id": "a",
@@ -104791,7 +104791,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MNH-3054",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman who is exclusively breastfeeding her 6-week-old baby asks about contraception at a clinic in Ghana. Which method is most appropriate to recommend?",
+  "stem": "A woman who is exclusively breastfeeding her 6-week-old baby asks about contraception at a clinic in Ghana. Which method is **most** appropriate to recommend?",
   "choices": [
    {
     "id": "a",
@@ -104858,7 +104858,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MNH-3056",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman in labour at a busy Ghanaian maternity unit asks that her sister remain with her throughout. The ward is short-staffed and a colleague says companions get in the way. What is the most appropriate response?",
+  "stem": "A woman in labour at a busy Ghanaian maternity unit asks that her sister remain with her throughout. The ward is short-staffed and a colleague says companions get in the way. What is the **most** appropriate response?",
   "choices": [
    {
     "id": "a",
@@ -104926,7 +104926,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MNH-3058",
   "categorySlug": "maternal-newborn",
-  "stem": "A newborn at a maternity unit has an axillary temperature of 35.8 °C one hour after birth. Which action is most appropriate?",
+  "stem": "A newborn at a maternity unit has an axillary temperature of 35.8 °C one hour after birth. Which action is **most** appropriate?",
   "choices": [
    {
     "id": "a",
@@ -104992,7 +104992,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3060",
   "categorySlug": "health-promotion",
-  "stem": "A community health nurse in Kumasi weighs a family. The mother has a body mass index of 32 kg/m², while her three-year-old is stunted with a low height-for-age. The mother asks how both problems can exist in one household. Which explanation is most accurate?",
+  "stem": "A community health nurse in Kumasi weighs a family. The mother has a body mass index of 32 kg/m², while her three-year-old is stunted with a low height-for-age. The mother asks how both problems can exist in one household. Which explanation is **most accurate**?",
   "choices": [
    {
     "id": "a",
@@ -105028,7 +105028,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3061",
   "categorySlug": "health-promotion",
-  "stem": "A nurse on a medical ward is about to give the first feed through a newly inserted nasogastric tube. Which action confirms most reliably that it is safe to feed?",
+  "stem": "A nurse on a medical ward is about to give the first feed through a newly inserted nasogastric tube. Which action confirms **most reliably** that it is safe to feed?",
   "choices": [
    {
     "id": "a",
@@ -105063,7 +105063,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3062",
   "categorySlug": "health-promotion",
-  "stem": "A man weighing 48 kg has just started treatment for pulmonary tuberculosis at a health centre in the Upper East Region. He says he has no appetite. What is the most appropriate nutritional advice?",
+  "stem": "A man weighing 48 kg has just started treatment for pulmonary tuberculosis at a health centre in the Upper East Region. He says he has no appetite. What is the **most appropriate** nutritional advice?",
   "choices": [
    {
     "id": "a",
@@ -105097,7 +105097,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3063",
   "categorySlug": "health-promotion",
-  "stem": "A severely malnourished adult is admitted after weeks of minimal intake. Feeding is started, and on day two he becomes confused and breathless with new peripheral oedema. Which biochemical change is most likely responsible?",
+  "stem": "A severely malnourished adult is admitted after weeks of minimal intake. Feeding is started, and on day two he becomes confused and breathless with new peripheral oedema. Which biochemical change is **most likely** responsible?",
   "choices": [
    {
     "id": "a",
@@ -105131,7 +105131,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3064",
   "categorySlug": "health-promotion",
-  "stem": "A school health team is running the adolescent anaemia programme in a Ghanaian junior high school. Why are adolescent girls targeted specifically?",
+  "stem": "A school health team is running the adolescent anaemia programme in a Ghanaian junior high school. Why are adolescent girls targeted **specifically**?",
   "choices": [
    {
     "id": "a",
@@ -105165,7 +105165,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3065",
   "categorySlug": "health-promotion",
-  "stem": "A woman with newly diagnosed hypertension attends a clinic in Accra. She cooks with stock cubes, tinned fish and shito. Which single change will most reduce her sodium intake?",
+  "stem": "A woman with newly diagnosed hypertension attends a clinic in Accra. She cooks with stock cubes, tinned fish and shito. Which single change will **most** reduce her sodium intake?",
   "choices": [
    {
     "id": "a",
@@ -105199,7 +105199,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3066",
   "categorySlug": "health-promotion",
-  "stem": "A patient receiving continuous nasogastric feeding develops frequent loose stools. Observations are stable and the abdomen is soft. What should the nurse do first?",
+  "stem": "A patient receiving continuous nasogastric feeding develops frequent loose stools. Observations are stable and the abdomen is soft. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -105232,7 +105232,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3067",
   "categorySlug": "health-promotion",
-  "stem": "A mother says she cannot afford a balanced diet for her four children. Which advice offers the best nutritional value for the money available?",
+  "stem": "A mother says she cannot afford a balanced diet for her four children. Which advice offers the **best** nutritional value for the money available?",
   "choices": [
    {
     "id": "a",
@@ -105266,7 +105266,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3068",
   "categorySlug": "health-promotion",
-  "stem": "Three days after a stroke, a man coughs each time he sips water and his voice sounds wet afterwards. He is hungry and asks for tea. What is the priority nursing action?",
+  "stem": "Three days after a stroke, a man coughs each time he sips water and his voice sounds wet afterwards. He is hungry and asks for tea. What is the **priority** nursing action?",
   "choices": [
    {
     "id": "a",
@@ -105300,7 +105300,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3069",
   "categorySlug": "health-promotion",
-  "stem": "Ghana requires the fortification of certain staple foods. Which pairing of food and added nutrient is correct?",
+  "stem": "Ghana requires the fortification of certain staple foods. Which pairing of food and added nutrient is **correct**?",
   "choices": [
    {
     "id": "a",
@@ -105367,7 +105367,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3071",
   "categorySlug": "health-promotion",
-  "stem": "A woman attending a clinic in Tamale who eats no animal products at all reports tingling in her feet and increasing tiredness. Which deficiency should the nurse suspect first?",
+  "stem": "A woman attending a clinic in Tamale who eats no animal products at all reports tingling in her feet and increasing tiredness. Which deficiency should the nurse suspect **first**?",
   "choices": [
    {
     "id": "a",
@@ -105401,7 +105401,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3072",
   "categorySlug": "health-promotion",
-  "stem": "A man attending an outpatient clinic in Takoradi with recurrent gout asks which foods he should limit. Which group is highest in purines?",
+  "stem": "A man attending an outpatient clinic in Takoradi with recurrent gout asks which foods he should limit. Which group is **highest** in purines?",
   "choices": [
    {
     "id": "a",
@@ -105435,7 +105435,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3073",
   "categorySlug": "health-promotion",
-  "stem": "A child treated for cholera is now rehydrated and alert. The mother asks when he can eat again. What is the correct advice?",
+  "stem": "A child treated for cholera is now rehydrated and alert. The mother asks when he can eat again. What is the **correct** advice?",
   "choices": [
    {
     "id": "a",
@@ -105503,7 +105503,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3075",
   "categorySlug": "health-promotion",
-  "stem": "A patient stabilised on warfarin says she has started eating a large bowl of kontomire every day. What is the most appropriate advice?",
+  "stem": "A patient stabilised on warfarin says she has started eating a large bowl of kontomire every day. What is the **most appropriate** advice?",
   "choices": [
    {
     "id": "a",
@@ -105537,7 +105537,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3076",
   "categorySlug": "health-promotion",
-  "stem": "A woman attending a district hospital clinic in Ho with a body mass index of 34 kg/m² wants to lose weight. Which goal is most appropriate to set at the first visit?",
+  "stem": "A woman attending a district hospital clinic in Ho with a body mass index of 34 kg/m² wants to lose weight. Which goal is **most appropriate** to set at the first visit?",
   "choices": [
    {
     "id": "a",
@@ -105571,7 +105571,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3077",
   "categorySlug": "health-promotion",
-  "stem": "An older woman with dementia has had three episodes of pneumonia in four months. She never coughs while eating. Which possibility should the nurse consider most seriously?",
+  "stem": "An older woman with dementia has had three episodes of pneumonia in four months. She never coughs while eating. Which possibility should the nurse consider **most seriously**?",
   "choices": [
    {
     "id": "a",
@@ -105640,7 +105640,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3079",
   "categorySlug": "health-promotion",
-  "stem": "A patient admitted with sepsis has a serum albumin of 24 g/L. What is the most accurate interpretation?",
+  "stem": "A patient admitted with sepsis has a serum albumin of 24 g/L. What is the **most accurate** interpretation?",
   "choices": [
    {
     "id": "a",
@@ -105673,7 +105673,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3080",
   "categorySlug": "health-promotion",
-  "stem": "A malnourished man with a long history of alcohol use is brought to a district hospital in Sunyani, confused and unsteady with jerking eye movements. His blood glucose is low. What must the nurse ensure is given first?",
+  "stem": "A malnourished man with a long history of alcohol use is brought to a district hospital in Sunyani, confused and unsteady with jerking eye movements. His blood glucose is low. What must the nurse ensure is given **first**?",
   "choices": [
    {
     "id": "a",
@@ -105778,7 +105778,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3083",
   "categorySlug": "health-promotion",
-  "stem": "An immobile older woman on a ward in Cape Coast has a grade three pressure ulcer that is healing slowly. Alongside pressure relief, which nutritional priority is most important?",
+  "stem": "An immobile older woman on a ward in Cape Coast has a grade three pressure ulcer that is healing slowly. Alongside pressure relief, which nutritional priority is **most important**?",
   "choices": [
    {
     "id": "a",
@@ -105814,7 +105814,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3084",
   "categorySlug": "health-promotion",
-  "stem": "A two-year-old recovering from prolonged diarrhoea develops explosive watery stools and perianal excoriation each time he is given cow's milk, though he tolerates other foods. What is the most likely explanation?",
+  "stem": "A two-year-old recovering from prolonged diarrhoea develops explosive watery stools and perianal excoriation each time he is given cow's milk, though he tolerates other foods. What is the **most likely** explanation?",
   "choices": [
    {
     "id": "a",
@@ -105847,7 +105847,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3085",
   "categorySlug": "health-promotion",
-  "stem": "A pregnant woman has been prescribed iron tablets. Which advice will best improve her absorption?",
+  "stem": "A pregnant woman has been prescribed iron tablets. Which advice will **best** improve her absorption?",
   "choices": [
    {
     "id": "a",
@@ -105881,7 +105881,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3086",
   "categorySlug": "health-promotion",
-  "stem": "Public health nutrition programmes emphasise the first 1,000 days. Which period does this describe, and why does it matter?",
+  "stem": "Public health nutrition programmes emphasise the first 1,000 days. Which period does this describe, and why does it **matter**?",
   "choices": [
    {
     "id": "a",
@@ -105915,7 +105915,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3087",
   "categorySlug": "health-promotion",
-  "stem": "A patient in the last days of life is no longer eating or drinking. The family insists a drip be started so that he does not starve. What is the most appropriate nursing response?",
+  "stem": "A patient in the last days of life is no longer eating or drinking. The family insists a drip be started so that he does not starve. What is the **most appropriate** nursing response?",
   "choices": [
    {
     "id": "a",
@@ -105948,7 +105948,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3088",
   "categorySlug": "health-promotion",
-  "stem": "A nurse is advising farmers in a rural community about storing maize and groundnuts. Which practice best reduces aflatoxin contamination?",
+  "stem": "A nurse is advising farmers in a rural community about storing maize and groundnuts. Which practice **best** reduces aflatoxin contamination?",
   "choices": [
    {
     "id": "a",
@@ -105982,7 +105982,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3089",
   "categorySlug": "health-promotion",
-  "stem": "Two children are admitted. One is severely wasted with visible ribs, alert and ravenously hungry. The other has bilateral pitting oedema, sparse pale hair and is apathetic, refusing food. What distinguishes their conditions most usefully for management?",
+  "stem": "Two children are admitted. One is severely wasted with visible ribs, alert and ravenously hungry. The other has bilateral pitting oedema, sparse pale hair and is apathetic, refusing food. What distinguishes their conditions **most usefully** for management?",
   "choices": [
    {
     "id": "a",
@@ -106016,7 +106016,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3090",
   "categorySlug": "health-promotion",
-  "stem": "A man with advanced chronic kidney disease has a serum potassium of 6.4 mmol/L. Which dietary advice is most appropriate?",
+  "stem": "A man with advanced chronic kidney disease has a serum potassium of 6.4 mmol/L. Which dietary advice is **most appropriate**?",
   "choices": [
    {
     "id": "a",
@@ -106050,7 +106050,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3091",
   "categorySlug": "health-promotion",
-  "stem": "Which combination is most useful for screening an adult's nutritional risk on admission to a ward?",
+  "stem": "Which combination is **most useful** for screening an adult's nutritional risk on admission to a ward?",
   "choices": [
    {
     "id": "a",
@@ -106083,7 +106083,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3092",
   "categorySlug": "health-promotion",
-  "stem": "A patient with liver cirrhosis and marked ascites is reviewed. Which dietary measure is most important?",
+  "stem": "A patient with liver cirrhosis and marked ascites is reviewed. Which dietary measure is **most important**?",
   "choices": [
    {
     "id": "a",
@@ -106150,7 +106150,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3094",
   "categorySlug": "health-promotion",
-  "stem": "A child weighing 14 kg requires maintenance fluid using the Holliday-Segar method: 100 mL/kg for the first 10 kg and 50 mL/kg for each kilogram above 10. What is the total requirement over twenty-four hours?",
+  "stem": "A child weighing 14 kg requires maintenance fluid using the Holliday-Segar method: 100 mL/kg for the first 10 kg and 50 mL/kg for each kilogram above 10. What is the **total** requirement over twenty-four hours?",
   "choices": [
    {
     "id": "a",
@@ -106184,7 +106184,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3095",
   "categorySlug": "health-promotion",
-  "stem": "A nurse in Accra is teaching a patient with hypertension to read food labels. Two similar products are compared per 100 g. Which figure should the patient check first?",
+  "stem": "A nurse in Accra is teaching a patient with hypertension to read food labels. Two similar products are compared per 100 g. Which figure should the patient check **first**?",
   "choices": [
    {
     "id": "a",
@@ -106217,7 +106217,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3096",
   "categorySlug": "health-promotion",
-  "stem": "An older man's abdominal wound opens along the suture line on the seventh postoperative day. Which nutritional factor is most likely to have contributed?",
+  "stem": "An older man's abdominal wound opens along the suture line on the seventh postoperative day. Which nutritional factor is **most likely** to have contributed?",
   "choices": [
    {
     "id": "a",
@@ -106252,7 +106252,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3097",
   "categorySlug": "health-promotion",
-  "stem": "During growth monitoring a nurse finds a child's weight has fallen below the expected curve. The mother looks distressed. What is the best approach?",
+  "stem": "During growth monitoring a nurse finds a child's weight has fallen below the expected curve. The mother looks distressed. What is the **best** approach?",
   "choices": [
    {
     "id": "a",
@@ -106286,7 +106286,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3098",
   "categorySlug": "health-promotion",
-  "stem": "A community nurse teaches households about iodised salt. Which practice best preserves the iodine content?",
+  "stem": "A community nurse teaches households about iodised salt. Which practice **best** preserves the iodine content?",
   "choices": [
    {
     "id": "a",
@@ -106320,7 +106320,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3099",
   "categorySlug": "health-promotion",
-  "stem": "A 58-year-old man reports losing 9 kg over three months without trying. He has no other symptoms and eats normally. What is the most appropriate nursing action?",
+  "stem": "A 58-year-old man reports losing 9 kg over three months without trying. He has no other symptoms and eats normally. What is the **most appropriate** nursing action?",
   "choices": [
    {
     "id": "a",
@@ -106354,7 +106354,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3100",
   "categorySlug": "health-promotion",
-  "stem": "A man whose diet is almost entirely maize presents with a symmetrical scaly rash on his forearms and neck, chronic diarrhoea and increasing forgetfulness. Which deficiency best explains this combination?",
+  "stem": "A man whose diet is almost entirely maize presents with a symmetrical scaly rash on his forearms and neck, chronic diarrhoea and increasing forgetfulness. Which deficiency **best** explains this combination?",
   "choices": [
    {
     "id": "a",
@@ -106390,7 +106390,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3101",
   "categorySlug": "health-promotion",
-  "stem": "A pregnant woman in a rural district says she can no longer see well enough to fetch water after dusk, though her daytime vision is normal. What does this most likely indicate?",
+  "stem": "A pregnant woman in a rural district says she can no longer see well enough to fetch water after dusk, though her daytime vision is normal. What does this **most likely** indicate?",
   "choices": [
    {
     "id": "a",
@@ -106424,7 +106424,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3102",
   "categorySlug": "health-promotion",
-  "stem": "A nurse is asked to advise students about buying food from vendors near a campus in Accra. Which single observation is most reassuring about safety?",
+  "stem": "A nurse is asked to advise students about buying food from vendors near a campus in Accra. Which single observation is **most** reassuring about safety?",
   "choices": [
    {
     "id": "a",
@@ -106460,7 +106460,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3103",
   "categorySlug": "health-promotion",
-  "stem": "A teenager drinks three bottles of soft drink daily and asks why this matters when he is not overweight. What is the most accurate reply?",
+  "stem": "A teenager drinks three bottles of soft drink daily and asks why this matters when he is not overweight. What is the **most accurate** reply?",
   "choices": [
    {
     "id": "a",
@@ -106493,7 +106493,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3104",
   "categorySlug": "health-promotion",
-  "stem": "A patient with type 2 diabetes taking a sulfonylurea wishes to fast from dawn to dusk during Ramadan. What is the most appropriate nursing action?",
+  "stem": "A patient with type 2 diabetes taking a sulfonylurea wishes to fast from dawn to dusk during Ramadan. What is the **most appropriate** nursing action?",
   "choices": [
    {
     "id": "a",
@@ -106527,7 +106527,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3105",
   "categorySlug": "health-promotion",
-  "stem": "A patient with a new ileostomy is anxious about eating. Which advice is most appropriate in the early weeks?",
+  "stem": "A patient with a new ileostomy is anxious about eating. Which advice is **most appropriate** in the early weeks?",
   "choices": [
    {
     "id": "a",
@@ -106560,7 +106560,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3106",
   "categorySlug": "health-promotion",
-  "stem": "Minutes after eating groundnut soup, a child develops facial swelling, widespread urticaria and audible wheeze. What is the first action?",
+  "stem": "Minutes after eating groundnut soup, a child develops facial swelling, widespread urticaria and audible wheeze. What is the **first** action?",
   "choices": [
    {
     "id": "a",
@@ -106627,7 +106627,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3108",
   "categorySlug": "health-promotion",
-  "stem": "A 17-year-old student has lost considerable weight, exercises for hours daily, wears heavy clothing in warm weather and insists she is overweight despite a body mass index of 15 kg/m². Which response is most appropriate?",
+  "stem": "A 17-year-old student has lost considerable weight, exercises for hours daily, wears heavy clothing in warm weather and insists she is overweight despite a body mass index of 15 kg/m². Which response is **most appropriate**?",
   "choices": [
    {
     "id": "a",
@@ -106695,7 +106695,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3110",
   "categorySlug": "health-promotion",
-  "stem": "An older man living alone eats mainly bread and tea. He has swollen bleeding gums, bruising on his legs and an old surgical scar that has broken down. Which deficiency best accounts for these findings together?",
+  "stem": "An older man living alone eats mainly bread and tea. He has swollen bleeding gums, bruising on his legs and an old surgical scar that has broken down. Which deficiency **best** accounts for these findings together?",
   "choices": [
    {
     "id": "a",
@@ -106730,7 +106730,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3111",
   "categorySlug": "health-promotion",
-  "stem": "A nurse in a district where goitre is common is asked why the thyroid gland enlarges when iodine is lacking. Which explanation is correct?",
+  "stem": "A nurse in a district where goitre is common is asked why the thyroid gland enlarges when iodine is lacking. Which explanation is **correct**?",
   "choices": [
    {
     "id": "a",
@@ -106764,7 +106764,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3112",
   "categorySlug": "health-promotion",
-  "stem": "A patient asks whether traditional fermented foods such as kenkey, koko and fermented milk have any nutritional value. What is the most accurate answer?",
+  "stem": "A patient asks whether traditional fermented foods such as kenkey, koko and fermented milk have any nutritional value. What is the **most accurate** answer?",
   "choices": [
    {
     "id": "a",
@@ -106798,7 +106798,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3113",
   "categorySlug": "health-promotion",
-  "stem": "A pregnant woman reports a strong craving to eat clay, which she has been satisfying daily. What is the most appropriate nursing response?",
+  "stem": "A pregnant woman reports a strong craving to eat clay, which she has been satisfying daily. What is the **most appropriate** nursing response?",
   "choices": [
    {
     "id": "a",
@@ -106832,7 +106832,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3114",
   "categorySlug": "health-promotion",
-  "stem": "A mother cannot afford meat or fish most days. Which combination gives her family the best protein quality from plant foods alone?",
+  "stem": "A mother cannot afford meat or fish most days. Which combination gives her family the **best** protein quality from plant foods alone?",
   "choices": [
    {
     "id": "a",
@@ -106865,7 +106865,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3115",
   "categorySlug": "health-promotion",
-  "stem": "A young woman who covers her skin fully and works indoors reports bone pain and muscle weakness. Which explanation is most likely?",
+  "stem": "A young woman who covers her skin fully and works indoors reports bone pain and muscle weakness. Which explanation is **most likely**?",
   "choices": [
    {
     "id": "a",
@@ -106898,7 +106898,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3116",
   "categorySlug": "health-promotion",
-  "stem": "A patient is listed for elective surgery in the afternoon. Which fasting instruction reflects current practice?",
+  "stem": "A patient is listed for elective surgery in the afternoon. Which fasting instruction reflects **current** practice?",
   "choices": [
    {
     "id": "a",
@@ -106931,7 +106931,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3117",
   "categorySlug": "health-promotion",
-  "stem": "A mother says her healthy two-year-old has become fussy and refuses meals, and she has begun forcing him to finish each plate. Which advice is most appropriate?",
+  "stem": "A mother says her healthy two-year-old has become fussy and refuses meals, and she has begun forcing him to finish each plate. Which advice is **most appropriate**?",
   "choices": [
    {
     "id": "a",
@@ -106964,7 +106964,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3118",
   "categorySlug": "health-promotion",
-  "stem": "An older man on a ward has not opened his bowels for four days. He is mobile and eating small amounts. Which nursing measure should come first?",
+  "stem": "An older man on a ward has not opened his bowels for four days. He is mobile and eating small amounts. Which nursing measure should come **first**?",
   "choices": [
    {
     "id": "a",
@@ -106998,7 +106998,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3119",
   "categorySlug": "health-promotion",
-  "stem": "After running a community session on complementary feeding, a nurse wants to know whether it worked. Which evaluation gives the most meaningful information?",
+  "stem": "After running a community session on complementary feeding, a nurse wants to know whether it worked. Which evaluation gives the **most meaningful** information?",
   "choices": [
    {
     "id": "a",
@@ -107032,7 +107032,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3120",
   "categorySlug": "health-promotion",
-  "stem": "A baby born at 32 weeks in a regional hospital in Koforidua is too small to suckle effectively. Which feeding option should be offered first?",
+  "stem": "A baby born at 32 weeks in a regional hospital in Koforidua is too small to suckle effectively. Which feeding option should be offered **first**?",
   "choices": [
    {
     "id": "a",
@@ -107068,7 +107068,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3121",
   "categorySlug": "health-promotion",
-  "stem": "A man has a body mass index of 24 kg/m² but a waist circumference of 104 cm, a fasting glucose of 6.0 mmol/L and a blood pressure of 138/88 mmHg. What do these findings together suggest?",
+  "stem": "A man has a body mass index of 24 kg/m² but a waist circumference of 104 cm, a fasting glucose of 6.0 mmol/L and a blood pressure of 138/88 mmHg. What do these findings **together** suggest?",
   "choices": [
    {
     "id": "a",
@@ -107104,7 +107104,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3122",
   "categorySlug": "health-promotion",
-  "stem": "A woman attending antenatal clinic in Cape Coast is diagnosed with gestational diabetes at 26 weeks. Which dietary approach is most appropriate?",
+  "stem": "A woman attending antenatal clinic in Cape Coast is diagnosed with gestational diabetes at 26 weeks. Which dietary approach is **most appropriate**?",
   "choices": [
    {
     "id": "a",
@@ -107172,7 +107172,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3124",
   "categorySlug": "health-promotion",
-  "stem": "A newborn with a cleft palate cannot generate suction and milk escapes through the nose during feeds. Which approach is most appropriate?",
+  "stem": "A newborn with a cleft palate cannot generate suction and milk escapes through the nose during feeds. Which approach is **most appropriate**?",
   "choices": [
    {
     "id": "a",
@@ -107205,7 +107205,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3125",
   "categorySlug": "health-promotion",
-  "stem": "A student says he drinks several caffeinated energy drinks each night to study. He reports palpitations and poor sleep. What is the best advice?",
+  "stem": "A student says he drinks several caffeinated energy drinks each night to study. He reports palpitations and poor sleep. What is the **best** advice?",
   "choices": [
    {
     "id": "a",
@@ -107239,7 +107239,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3126",
   "categorySlug": "health-promotion",
-  "stem": "A patient taking antiretroviral therapy mentions she has started a herbal preparation from a local seller. Which response is most appropriate?",
+  "stem": "A patient taking antiretroviral therapy mentions she has started a herbal preparation from a local seller. Which response is **most appropriate**?",
   "choices": [
    {
     "id": "a",
@@ -107273,7 +107273,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3127",
   "categorySlug": "health-promotion",
-  "stem": "Following severe flooding, families are sheltering in a school. Which nutritional priority should the response address first?",
+  "stem": "Following severe flooding, families are sheltering in a school. Which nutritional priority should the response address **first**?",
   "choices": [
    {
     "id": "a",
@@ -107307,7 +107307,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3128",
   "categorySlug": "health-promotion",
-  "stem": "An older woman living alone has lost weight, and her family says she has poorly fitting dentures, low mood and no money for food. Which approach is most likely to help?",
+  "stem": "An older woman living alone has lost weight, and her family says she has poorly fitting dentures, low mood and no money for food. Which approach is **most likely** to help?",
   "choices": [
    {
     "id": "a",
@@ -107341,7 +107341,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3129",
   "categorySlug": "health-promotion",
-  "stem": "A patient is prescribed a tetracycline antibiotic. Which instruction about food is correct?",
+  "stem": "A patient is prescribed a tetracycline antibiotic. Which instruction about food is **correct**?",
   "choices": [
    {
     "id": "a",
@@ -107374,7 +107374,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3130",
   "categorySlug": "health-promotion",
-  "stem": "A farm labourer working through the heat of the day feels dizzy, has stopped sweating and has dark, scanty urine. What does this most likely indicate?",
+  "stem": "A farm labourer working through the heat of the day feels dizzy, has stopped sweating and has dark, scanty urine. What does this **most likely** indicate?",
   "choices": [
    {
     "id": "a",
@@ -107408,7 +107408,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3131",
   "categorySlug": "health-promotion",
-  "stem": "A patient proudly reports taking large daily doses of several vitamin supplements bought at a market. Which risk should the nurse raise first?",
+  "stem": "A patient proudly reports taking large daily doses of several vitamin supplements bought at a market. Which risk should the nurse raise **first**?",
   "choices": [
    {
     "id": "a",
@@ -107441,7 +107441,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3132",
   "categorySlug": "health-promotion",
-  "stem": "A ten-year-old is well above the expected weight for his height. Which approach is most appropriate?",
+  "stem": "A ten-year-old is well above the expected weight for his height. Which approach is **most appropriate**?",
   "choices": [
    {
     "id": "a",
@@ -107509,7 +107509,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3134",
   "categorySlug": "health-promotion",
-  "stem": "A nurse contributes to planning meals on a ward. Which consideration is most important for ensuring patients actually eat?",
+  "stem": "A nurse contributes to planning meals on a ward. Which consideration is **most important** for ensuring patients actually eat?",
   "choices": [
    {
     "id": "a",
@@ -107610,7 +107610,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3137",
   "categorySlug": "health-promotion",
-  "stem": "A child has recurrent diarrhoea, poor growth, a rash around the mouth and buttocks, and wounds that heal slowly. Which deficiency best explains this pattern?",
+  "stem": "A child has recurrent diarrhoea, poor growth, a rash around the mouth and buttocks, and wounds that heal slowly. Which deficiency **best** explains this pattern?",
   "choices": [
    {
     "id": "a",
@@ -107644,7 +107644,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3138",
   "categorySlug": "health-promotion",
-  "stem": "A nurse has completed a nutritional assessment and started a care plan. Which entry in the records is most useful to the team?",
+  "stem": "A nurse has completed a nutritional assessment and started a care plan. Which entry in the records is **most useful** to the team?",
   "choices": [
    {
     "id": "a",
@@ -107710,7 +107710,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3140",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A five-week-old boy at a hospital in Tamale has forceful vomiting after every feed. The vomit is never bile-stained and he feeds hungrily afterwards. Which biochemical picture is most likely?",
+  "stem": "A five-week-old boy at a hospital in Tamale has forceful vomiting after every feed. The vomit is never bile-stained and he feeds hungrily afterwards. Which biochemical picture is **most likely**?",
   "choices": [
    {
     "id": "a",
@@ -107746,7 +107746,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3141",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A patient on a surgical ward in Accra has been losing a litre a day through a high-output ileostomy. Which replacement approach is most appropriate?",
+  "stem": "A patient on a surgical ward in Accra has been losing a litre a day through a high-output ileostomy. Which replacement approach is **most appropriate**?",
   "choices": [
    {
     "id": "a",
@@ -107782,7 +107782,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3142",
   "categorySlug": "fluid-electrolyte",
-  "stem": "An adult with suspected sepsis has a blood pressure of 82/48 mmHg, a pulse of 128 and cold peripheries. Alongside antibiotics, what is the immediate fluid management?",
+  "stem": "An adult with suspected sepsis has a blood pressure of 82/48 mmHg, a pulse of 128 and cold peripheries. Alongside antibiotics, what is the **immediate** fluid management?",
   "choices": [
    {
     "id": "a",
@@ -107917,7 +107917,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3146",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A nurse on a medical ward in Kumasi is assessing a frail older patient. Which finding is most reliable for assessing hydration?",
+  "stem": "A nurse on a medical ward in Kumasi is assessing a frail older patient. Which finding is **most reliable** for assessing hydration?",
   "choices": [
    {
     "id": "a",
@@ -108017,7 +108017,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3149",
   "categorySlug": "fluid-electrolyte",
-  "stem": "During an intravenous infusion an older patient becomes breathless with a cough, and fine crackles are audible at both lung bases. What should the nurse do first?",
+  "stem": "During an intravenous infusion an older patient becomes breathless with a cough, and fine crackles are audible at both lung bases. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -108051,7 +108051,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3150",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A young woman is admitted in diabetic ketoacidosis, hypotensive and drowsy, with a potassium of 3.2 mmol/L. Which sequence is correct?",
+  "stem": "A young woman is admitted in diabetic ketoacidosis, hypotensive and drowsy, with a potassium of 3.2 mmol/L. Which sequence is **correct**?",
   "choices": [
    {
     "id": "a",
@@ -108119,7 +108119,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3152",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A patient with acute kidney injury has a urine output of 15 mL/hour and a potassium of 6.1 mmol/L. Which prescription should the nurse question immediately?",
+  "stem": "A patient with acute kidney injury has a urine output of 15 mL/hour and a potassium of 6.1 mmol/L. Which prescription should the nurse question **immediately**?",
   "choices": [
    {
     "id": "a",
@@ -108221,7 +108221,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3155",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A patient with advanced cancer becomes confused and constipated, is passing large volumes of urine and is very thirsty. Which electrolyte disturbance is most likely?",
+  "stem": "A patient with advanced cancer becomes confused and constipated, is passing large volumes of urine and is very thirsty. Which electrolyte disturbance is **most likely**?",
   "choices": [
    {
     "id": "a",
@@ -108254,7 +108254,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3156",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A patient needs intravenous potassium replacement on a general ward in a district hospital in Ghana. Which practice is essential for safety?",
+  "stem": "A patient needs intravenous potassium replacement on a general ward in a district hospital in Ghana. Which practice is **essential** for safety?",
   "choices": [
    {
     "id": "a",
@@ -108288,7 +108288,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3157",
   "categorySlug": "fluid-electrolyte",
-  "stem": "On a ward in Sunyani a patient's fluid balance chart shows a positive balance of 3 litres over two days, yet the recorded weight is unchanged. What is the most likely explanation?",
+  "stem": "On a ward in Sunyani a patient's fluid balance chart shows a positive balance of 3 litres over two days, yet the recorded weight is unchanged. What is the **most likely** explanation?",
   "choices": [
    {
     "id": "a",
@@ -108356,7 +108356,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3159",
   "categorySlug": "fluid-electrolyte",
-  "stem": "During bladder irrigation after prostate resection, a patient becomes confused and restless with nausea and a slowing pulse. Which complication should the nurse suspect first?",
+  "stem": "During bladder irrigation after prostate resection, a patient becomes confused and restless with nausea and a slowing pulse. Which complication should the nurse suspect **first**?",
   "choices": [
    {
     "id": "a",
@@ -108390,7 +108390,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3160",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A nine-month-old with cholera is severely dehydrated at a treatment centre in the Central Region. Under Plan C the child receives 100 mL/kg of Ringer's lactate. How should the first 30 mL/kg be given?",
+  "stem": "A nine-month-old with cholera is severely dehydrated at a treatment centre in the Central Region. Under Plan C the child receives 100 mL/kg of Ringer's lactate. How should the **first** 30 mL/kg be given?",
   "choices": [
    {
     "id": "a",
@@ -108462,7 +108462,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3162",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A patient with heart failure has a potassium of 5.9 mmol/L. Which combination of prescribed medicines is most likely to be responsible?",
+  "stem": "A patient with heart failure has a potassium of 5.9 mmol/L. Which combination of prescribed medicines is **most likely** to be responsible?",
   "choices": [
    {
     "id": "a",
@@ -108495,7 +108495,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3163",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A patient's potassium remains low at 2.9 mmol/L despite repeated replacement. What should the nurse consider next?",
+  "stem": "A patient's potassium remains low at 2.9 mmol/L despite repeated replacement. What should the nurse consider **next**?",
   "choices": [
    {
     "id": "a",
@@ -108562,7 +108562,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3165",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A man is rescued after several hours trapped under rubble. His urine is dark brown and his potassium is rising. What is the priority of early management?",
+  "stem": "A man is rescued after several hours trapped under rubble. His urine is dark brown and his potassium is rising. What is the **priority** of early management?",
   "choices": [
    {
     "id": "a",
@@ -108630,7 +108630,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3167",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A patient becomes confused with headache and nausea towards the end of a first haemodialysis session. Which complication should be suspected first?",
+  "stem": "A patient becomes confused with headache and nausea towards the end of a first haemodialysis session. Which complication should be suspected **first**?",
   "choices": [
    {
     "id": "a",
@@ -108663,7 +108663,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3168",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A dehydrated older patient with diabetes is listed for a scan requiring intravenous contrast. Which nursing action best reduces the risk of kidney injury?",
+  "stem": "A dehydrated older patient with diabetes is listed for a scan requiring intravenous contrast. Which nursing action **best** reduces the risk of kidney injury?",
   "choices": [
    {
     "id": "a",
@@ -108697,7 +108697,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3169",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A patient with a psychiatric illness is found to be drinking very large volumes of water. He becomes nauseated, confused and then has a seizure. What is the most likely cause?",
+  "stem": "A patient with a psychiatric illness is found to be drinking very large volumes of water. He becomes nauseated, confused and then has a seizure. What is the **most likely** cause?",
   "choices": [
    {
     "id": "a",
@@ -108731,7 +108731,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3170",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A child weighing 20 kg has burns to 25 per cent of body surface area. Using the Parkland formula of 4 mL/kg per per cent burn, what total volume is required in the first 24 hours, and how is it divided?",
+  "stem": "A child weighing 20 kg has burns to 25 per cent of body surface area. Using the Parkland formula of 4 mL/kg per per cent burn, what total volume is required in the **first** 24 hours, and how is it divided?",
   "choices": [
    {
     "id": "a",
@@ -108766,7 +108766,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3171",
   "categorySlug": "fluid-electrolyte",
-  "stem": "During burns resuscitation, which measurement best indicates that fluid replacement is adequate?",
+  "stem": "During burns resuscitation, which measurement **best** indicates that fluid replacement is adequate?",
   "choices": [
    {
     "id": "a",
@@ -108800,7 +108800,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3172",
   "categorySlug": "fluid-electrolyte",
-  "stem": "Two days after starting chemotherapy for a lymphoma, a patient develops a high potassium, high phosphate, low calcium and rising creatinine. What is the most likely explanation?",
+  "stem": "Two days after starting chemotherapy for a lymphoma, a patient develops a high potassium, high phosphate, low calcium and rising creatinine. What is the **most likely** explanation?",
   "choices": [
    {
     "id": "a",
@@ -108833,7 +108833,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3173",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A patient with known adrenal insufficiency presents collapsed with hypotension, a low sodium and a raised potassium after several days of vomiting. What is the immediate management?",
+  "stem": "A patient with known adrenal insufficiency presents collapsed with hypotension, a low sodium and a raised potassium after several days of vomiting. What is the **immediate** management?",
   "choices": [
    {
     "id": "a",
@@ -108867,7 +108867,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3174",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A patient receiving intravenous fluids has a falling urine output. Which additional finding would indicate overload rather than continuing hypovolaemia?",
+  "stem": "A patient receiving intravenous fluids has a falling urine output. Which additional finding would indicate **overload** rather than continuing hypovolaemia?",
   "choices": [
    {
     "id": "a",
@@ -108967,7 +108967,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3177",
   "categorySlug": "fluid-electrolyte",
-  "stem": "At a cholera treatment centre in Accra, a patient who arrived severely dehydrated has received the first rapid infusion. What should the nurse do next?",
+  "stem": "At a cholera treatment centre in Accra, a patient who arrived severely dehydrated has received the first rapid infusion. What should the nurse do **next**?",
   "choices": [
    {
     "id": "a",
@@ -109003,7 +109003,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3178",
   "categorySlug": "fluid-electrolyte",
-  "stem": "An older woman taking a thiazide diuretic for hypertension is admitted with confusion and a sodium of 121 mmol/L. What is the most appropriate initial action?",
+  "stem": "An older woman taking a thiazide diuretic for hypertension is admitted with confusion and a sodium of 121 mmol/L. What is the **most appropriate** initial action?",
   "choices": [
    {
     "id": "a",
@@ -109037,7 +109037,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3179",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A nurse is handing over a patient receiving intravenous fluids. Which handover gives the incoming nurse the most useful information?",
+  "stem": "A nurse is handing over a patient receiving intravenous fluids. Which handover gives the incoming nurse the **most useful** information?",
   "choices": [
    {
     "id": "a",
@@ -109070,7 +109070,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-3180",
   "categorySlug": "mental-health",
-  "stem": "A 58-year-old man in Kumasi with no psychiatric history develops agitation and visual hallucinations over two days. His temperature is 38.9 °C. What should the nurse do first?",
+  "stem": "A 58-year-old man in Kumasi with no psychiatric history develops agitation and visual hallucinations over two days. His temperature is 38.9 °C. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
@@ -109106,7 +109106,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-3181",
   "categorySlug": "mental-health",
-  "stem": "A patient taking an antidepressant is started on tramadol. He becomes agitated and sweaty with tremor, brisk reflexes and a temperature of 39 °C. What is the most likely diagnosis?",
+  "stem": "A patient taking an antidepressant is started on tramadol. He becomes agitated and sweaty with tremor, brisk reflexes and a temperature of 39 °C. What is the **most likely** diagnosis?",
   "choices": [
    {
     "id": "a",
@@ -109140,7 +109140,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-3182",
   "categorySlug": "mental-health",
-  "stem": "Rapid tranquillisation has been given to a severely agitated patient. What is the priority nursing responsibility afterwards?",
+  "stem": "Rapid tranquillisation has been given to a severely agitated patient. What is the **priority** nursing responsibility afterwards?",
   "choices": [
    {
     "id": "a",
@@ -109173,7 +109173,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-3183",
   "categorySlug": "mental-health",
-  "stem": "A young man has been taking olanzapine for a year. Which monitoring is most important alongside his mental state?",
+  "stem": "A young man has been taking olanzapine for a year. Which monitoring is **most important** alongside his mental state?",
   "choices": [
    {
     "id": "a",
@@ -109206,7 +109206,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-3184",
   "categorySlug": "mental-health",
-  "stem": "A patient who has taken diazepam daily for several years has it stopped abruptly on admission. Which complication is most concerning?",
+  "stem": "A patient who has taken diazepam daily for several years has it stopped abruptly on admission. Which complication is **most** concerning?",
   "choices": [
    {
     "id": "a",
@@ -109239,7 +109239,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-3185",
   "categorySlug": "mental-health",
-  "stem": "A man attending a clinic in Tamale says he drinks heavily but sees no reason to stop. Which response is most likely to be effective?",
+  "stem": "A man attending a clinic in Tamale says he drinks heavily but sees no reason to stop. Which response is **most likely** to be effective?",
   "choices": [
    {
     "id": "a",
@@ -109309,7 +109309,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-3187",
   "categorySlug": "mental-health",
-  "stem": "An adolescent with anorexia nervosa is admitted at very low weight. Which finding indicates the greatest immediate physical danger?",
+  "stem": "An adolescent with anorexia nervosa is admitted at very low weight. Which finding indicates the **greatest** immediate physical danger?",
   "choices": [
    {
     "id": "a",
@@ -109343,7 +109343,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-3188",
   "categorySlug": "mental-health",
-  "stem": "A detained patient assessed as at high risk of suicide cannot be found on the ward. What is the immediate priority?",
+  "stem": "A detained patient assessed as at high risk of suicide cannot be found on the ward. What is the **immediate** priority?",
   "choices": [
    {
     "id": "a",
@@ -109377,7 +109377,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-3189",
   "categorySlug": "mental-health",
-  "stem": "A woman attending a postnatal clinic in Cape Coast scores highly on a depression screening tool. Which item on that tool requires the most urgent response?",
+  "stem": "A woman attending a postnatal clinic in Cape Coast scores highly on a depression screening tool. Which item on that tool requires the **most urgent** response?",
   "choices": [
    {
     "id": "a",
@@ -109411,7 +109411,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-3190",
   "categorySlug": "mental-health",
-  "stem": "An autistic child becomes highly distressed in a busy outpatient department. Which nursing action is most appropriate?",
+  "stem": "An autistic child becomes highly distressed in a busy outpatient department. Which nursing action is **most appropriate**?",
   "choices": [
    {
     "id": "a",
@@ -109479,7 +109479,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-3192",
   "categorySlug": "mental-health",
-  "stem": "Days after an antipsychotic dose increase, a patient paces constantly and cannot sit still, describing an unbearable inner restlessness. What is the most likely explanation?",
+  "stem": "Days after an antipsychotic dose increase, a patient paces constantly and cannot sit still, describing an unbearable inner restlessness. What is the **most likely** explanation?",
   "choices": [
    {
     "id": "a",
@@ -109513,7 +109513,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-3193",
   "categorySlug": "mental-health",
-  "stem": "A patient is due a depot antipsychotic injection. Which nursing consideration is most important?",
+  "stem": "A patient is due a depot antipsychotic injection. Which nursing consideration is **most important**?",
   "choices": [
    {
     "id": "a",
@@ -109546,7 +109546,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-3194",
   "categorySlug": "mental-health",
-  "stem": "A patient has died by suicide on the ward. Which response by the nurse manager is most appropriate towards the staff team?",
+  "stem": "A patient has died by suicide on the ward. Which response by the nurse manager is **most appropriate** towards the staff team?",
   "choices": [
    {
     "id": "a",
@@ -109580,7 +109580,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-3195",
   "categorySlug": "mental-health",
-  "stem": "A woman with schizophrenia attends an emergency department in Accra with severe abdominal pain. Staff attribute it to her mental illness. What is the main risk?",
+  "stem": "A woman with schizophrenia attends an emergency department in Accra with severe abdominal pain. Staff attribute it to her mental illness. What is the **main** risk?",
   "choices": [
    {
     "id": "a",
@@ -109647,7 +109647,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-3197",
   "categorySlug": "mental-health",
-  "stem": "A pregnant woman discloses that she is using alcohol regularly. What is the best initial nursing response?",
+  "stem": "A pregnant woman discloses that she is using alcohol regularly. What is the **best** initial nursing response?",
   "choices": [
    {
     "id": "a",
@@ -109681,7 +109681,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-3198",
   "categorySlug": "mental-health",
-  "stem": "An older patient in Ho asks for sleeping tablets for long-standing insomnia. Which response is most appropriate initially?",
+  "stem": "An older patient in Ho asks for sleeping tablets for long-standing insomnia. Which response is **most appropriate** initially?",
   "choices": [
    {
     "id": "a",
@@ -109715,7 +109715,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-3199",
   "categorySlug": "mental-health",
-  "stem": "Which approach best reflects recovery-oriented practice when planning care with a patient who has a severe mental illness?",
+  "stem": "Which approach **best** reflects recovery-oriented practice when planning care with a patient who has a severe mental illness?",
   "choices": [
    {
     "id": "a",
