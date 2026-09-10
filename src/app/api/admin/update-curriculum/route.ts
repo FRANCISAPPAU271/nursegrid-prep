@@ -5,6 +5,7 @@ import { strategies, learningTopics } from "@/db/schema";
 import { eq, sql } from "drizzle-orm";
 import { STRATEGY_DEFS } from "@/db/strategy-defs";
 import { EXTRA_LEARNING_TOPICS } from "@/db/learning-extras";
+import { LEARNING_TOPIC_DEFS } from "@/db/learning-topic-defs";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
@@ -50,10 +51,18 @@ export async function GET(request: Request) {
     .from(learningTopics);
   const topicBySlug = new Map(existingTopics.map((t) => [t.slug, t.id]));
 
+  // Learning topics come from two arrays: the core body-system topics defined
+  // in learning-topic-defs.ts, and the extras in learning-extras.ts. The
+  // database holds both, so both must be updated or half the content drifts.
+  const ALL_LEARNING_TOPICS = [
+    ...LEARNING_TOPIC_DEFS.map((t, i) => ({ ...t, sortOrder: t.sortOrder ?? i })),
+    ...EXTRA_LEARNING_TOPICS.map((t) => ({ ...t, sortOrder: t.sortOrder ?? 100 })),
+  ];
+
   const strategiesToAdd = STRATEGY_DEFS.filter((s) => !strategyBySlug.has(s.slug)).map((s) => s.slug);
   const strategiesToUpdate = STRATEGY_DEFS.filter((s) => strategyBySlug.has(s.slug)).map((s) => s.slug);
-  const topicsToAdd = EXTRA_LEARNING_TOPICS.filter((t) => !topicBySlug.has(t.slug)).map((t) => t.slug);
-  const topicsToUpdate = EXTRA_LEARNING_TOPICS.filter((t) => topicBySlug.has(t.slug)).map((t) => t.slug);
+  const topicsToAdd = ALL_LEARNING_TOPICS.filter((t) => !topicBySlug.has(t.slug)).map((t) => t.slug);
+  const topicsToUpdate = ALL_LEARNING_TOPICS.filter((t) => topicBySlug.has(t.slug)).map((t) => t.slug);
 
   if (!apply) {
     return NextResponse.json({
@@ -69,7 +78,9 @@ export async function GET(request: Request) {
       },
       learningTopics: {
         inDatabase: existingTopics.length,
-        inCodeExtras: EXTRA_LEARNING_TOPICS.length,
+        inCode: ALL_LEARNING_TOPICS.length,
+        core: LEARNING_TOPIC_DEFS.length,
+        extras: EXTRA_LEARNING_TOPICS.length,
         willUpdate: topicsToUpdate.length,
         willAdd: topicsToAdd,
       },
@@ -111,7 +122,7 @@ export async function GET(request: Request) {
   let topicsUpdated = 0;
   let topicsInserted = 0;
 
-  for (const t of EXTRA_LEARNING_TOPICS) {
+  for (const t of ALL_LEARNING_TOPICS) {
     const values = {
       slug: t.slug,
       title: t.title,
@@ -125,6 +136,12 @@ export async function GET(request: Request) {
       redFlags: [...t.redFlags],
       commonConditions: [...t.commonConditions],
       sortOrder: t.sortOrder,
+      // Only set media columns when the definition actually carries them, so
+      // updating a text-only extra never blanks an existing image or video.
+      ...("imageUrl" in t ? { imageUrl: t.imageUrl ?? null } : {}),
+      ...("videoId" in t ? { videoId: t.videoId ?? null } : {}),
+      ...("videoTitle" in t ? { videoTitle: t.videoTitle ?? null } : {}),
+      ...("videoSource" in t ? { videoSource: t.videoSource ?? null } : {}),
     };
 
     const existingId = topicBySlug.get(t.slug);
