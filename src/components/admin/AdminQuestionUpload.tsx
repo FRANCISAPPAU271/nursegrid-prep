@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { useToast } from "@/components/ui/Toast";
+import { OptionBadge } from "@/components/questions/OptionBadge";
 
 type Category = { id: string; name: string; slug: string };
 type Choice = { id: string; text: string };
@@ -237,7 +238,7 @@ export default function AdminQuestionUpload() {
                   className="h-4 w-4 shrink-0 rounded border-slate-300 text-emerald-600 focus:ring-emerald-500"
                   title="Mark as a correct answer (tick 2+ for SATA)"
                 />
-                <span className="w-5 shrink-0 text-sm font-bold uppercase text-slate-500">{LETTERS[i]}.</span>
+                <OptionBadge label={LETTERS[i]} />
                 <input
                   value={text}
                   onChange={(e) => setChoice(i, e.target.value)}
@@ -350,8 +351,9 @@ export default function AdminQuestionUpload() {
                       {q.choices.map((c) => {
                         const isCorrect = q.correctChoiceId.split(",").includes(c.id);
                         return (
-                          <li key={c.id} className={isCorrect ? "font-semibold text-emerald-700" : "text-slate-600"}>
-                            {c.id.toUpperCase()}. {c.text} {isCorrect && "✓"}
+                          <li key={c.id} className={`flex items-start gap-3 ${isCorrect ? "font-semibold text-emerald-700" : "text-slate-600"}`}>
+                            <OptionBadge label={c.id} state={isCorrect ? "correct" : "default"} />
+                            <span className="pt-1">{c.text} {isCorrect && "✓"}</span>
                           </li>
                         );
                       })}
