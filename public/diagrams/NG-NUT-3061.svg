@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 250" role="img" aria-label="Confirming nasogastric tube position by aspirate pH before feeding">
+<rect width="460" height="250" fill="#ffffff"/>
+<text x="230" y="22" text-anchor="middle" font-family="Georgia,serif" font-size="15" font-weight="bold" fill="#14532d">Before every NG feed: check the aspirate</text>
+<rect x="30" y="42" width="180" height="46" rx="5" fill="#dcfce7" stroke="#14532d" stroke-width="1.6"/>
+<text x="120" y="62" text-anchor="middle" font-family="Georgia,serif" font-size="12" font-weight="bold">pH 1 to 5.5</text>
+<text x="120" y="79" text-anchor="middle" font-family="Georgia,serif" font-size="11">Gastric — feed may start</text>
+<rect x="250" y="42" width="180" height="46" rx="5" fill="#fee2e2" stroke="#991b1b" stroke-width="1.6"/>
+<text x="340" y="62" text-anchor="middle" font-family="Georgia,serif" font-size="12" font-weight="bold">pH above 5.5</text>
+<text x="340" y="79" text-anchor="middle" font-family="Georgia,serif" font-size="11">Do not feed — reassess</text>
+<text x="30" y="112" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7c2d12">Never rely on these:</text>
+<text x="42" y="132" font-family="Georgia,serif" font-size="11">✗ pushing air and listening over the stomach (the whoosh test)</text>
+<text x="42" y="150" font-family="Georgia,serif" font-size="11">✗ watching for bubbling when the end is put in water</text>
+<text x="42" y="168" font-family="Georgia,serif" font-size="11">✗ the absence of coughing in an unconscious patient</text>
+<line x1="30" y1="182" x2="430" y2="182" stroke="#cbd5e1"/>
+<text x="30" y="202" font-family="Georgia,serif" font-size="11.5" font-weight="bold" fill="#14532d">Also every feed:</text>
+<text x="42" y="220" font-family="Georgia,serif" font-size="11">sit upright 30–45°, keep upright 30 min after, flush before and after</text>
+<text x="230" y="240" text-anchor="middle" font-family="Georgia,serif" font-size="10.5" font-style="italic" fill="#334155">A tube in the lung looks exactly like a tube in the stomach from outside.</text>
+</svg>

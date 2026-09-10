@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 280" role="img" aria-label="Classical vitamin deficiency syndromes matched to the vitamin and the tissue that fails">
+<rect width="470" height="280" fill="#ffffff"/>
+<text x="235" y="22" text-anchor="middle" font-family="Georgia,serif" font-size="15" font-weight="bold" fill="#14532d">Deficiency syndromes: name, vitamin, failing tissue</text>
+<rect x="22" y="38" width="426" height="26" fill="#e2e8f0" stroke="#334155"/>
+<text x="34" y="56" font-family="Georgia,serif" font-size="11.5" font-weight="bold">Syndrome</text>
+<text x="150" y="56" font-family="Georgia,serif" font-size="11.5" font-weight="bold">Missing</text>
+<text x="248" y="56" font-family="Georgia,serif" font-size="11.5" font-weight="bold">What fails first</text>
+<rect x="22" y="64" width="426" height="32" fill="#fef3c7" stroke="#92400e"/>
+<text x="34" y="84" font-family="Georgia,serif" font-size="11">Scurvy</text>
+<text x="150" y="84" font-family="Georgia,serif" font-size="11">Vitamin C</text>
+<text x="248" y="84" font-family="Georgia,serif" font-size="11">collagen — bleeding gums, poor healing</text>
+<rect x="22" y="96" width="426" height="32" fill="#e0f2fe" stroke="#1e3a8a"/>
+<text x="34" y="116" font-family="Georgia,serif" font-size="11">Beriberi</text>
+<text x="150" y="116" font-family="Georgia,serif" font-size="11">Thiamine (B1)</text>
+<text x="248" y="116" font-family="Georgia,serif" font-size="11">nerves and heart — neuropathy, failure</text>
+<rect x="22" y="128" width="426" height="32" fill="#fee2e2" stroke="#991b1b"/>
+<text x="34" y="148" font-family="Georgia,serif" font-size="11">Pellagra</text>
+<text x="150" y="148" font-family="Georgia,serif" font-size="11">Niacin (B3)</text>
+<text x="248" y="148" font-family="Georgia,serif" font-size="11">skin, gut, brain — the three Ds</text>
+<rect x="22" y="160" width="426" height="32" fill="#dcfce7" stroke="#14532d"/>
+<text x="34" y="180" font-family="Georgia,serif" font-size="11">Xerophthalmia</text>
+<text x="150" y="180" font-family="Georgia,serif" font-size="11">Vitamin A</text>
+<text x="248" y="180" font-family="Georgia,serif" font-size="11">cornea — night blindness, then ulceration</text>
+<rect x="22" y="192" width="426" height="32" fill="#ede9fe" stroke="#5b21b6"/>
+<text x="34" y="212" font-family="Georgia,serif" font-size="11">Rickets</text>
+<text x="150" y="212" font-family="Georgia,serif" font-size="11">Vitamin D</text>
+<text x="248" y="212" font-family="Georgia,serif" font-size="11">growing bone — bowed legs, wide wrists</text>
+<text x="235" y="243" text-anchor="middle" font-family="Georgia,serif" font-size="12" font-weight="bold" fill="#7c2d12">Pellagra: Dermatitis, Diarrhoea, Dementia — and Death if untreated.</text>
+<text x="235" y="264" text-anchor="middle" font-family="Georgia,serif" font-size="10.8" font-style="italic" fill="#334155">The rash appears on sun-exposed skin, which is the clue that names it.</text>
+</svg>
