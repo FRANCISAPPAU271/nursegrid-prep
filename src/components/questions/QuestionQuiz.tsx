@@ -9,6 +9,7 @@ import { useToast } from "@/components/ui/Toast";
 import Watermark from "@/components/ui/Watermark";
 import { RichText } from "@/components/questions/RichText";
 import { EmphasisedText } from "./EmphasisedText";
+import { OptionBadge } from "@/components/questions/OptionBadge";
 
 const DIFFICULTY_STYLE: Record<string, string> = {
   easy: "bg-emerald-100 text-emerald-700",
@@ -346,19 +347,11 @@ export default function QuestionQuiz({
                             : "border-slate-200 hover:border-indigo-300 hover:bg-indigo-50/40"
                     }`}
                   >
-                    <span
-                      className={`mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-md border text-[11px] font-bold ${
-                        isCorrectChoice
-                          ? "border-emerald-500 bg-emerald-500 text-white"
-                          : isWrongTicked
-                            ? "border-rose-500 bg-rose-500 text-white"
-                            : isTicked
-                              ? "border-indigo-500 bg-indigo-500 text-white"
-                              : "border-slate-300 text-slate-500"
-                      }`}
-                    >
-                      {result ? (isCorrectChoice ? "✓" : isWrongTicked ? "✕" : isMissedCorrect ? "!" : "") : isTicked ? "✓" : ""}
-                    </span>
+                    <OptionBadge
+                      label={choice.id}
+                      shape="square"
+                      state={isCorrectChoice ? "correct" : isWrongTicked ? "wrong" : isMissedCorrect ? "missed" : isTicked ? "selected" : "default"}
+                    />
                     <span>{choice.text}</span>
                   </button>
                 );
@@ -381,17 +374,10 @@ export default function QuestionQuiz({
                           : "border-slate-200 hover:border-emerald-300 hover:bg-emerald-50/40"
                   }`}
                 >
-                  <span
-                    className={`mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full border text-[11px] font-bold ${
-                      isCorrectChoice
-                        ? "border-emerald-500 bg-emerald-500 text-white"
-                        : isWrongSelected
-                          ? "border-rose-500 bg-rose-500 text-white"
-                          : "border-slate-300 text-slate-500"
-                    }`}
-                  >
-                    {isCorrectChoice ? "✓" : isWrongSelected ? "✕" : ""}
-                  </span>
+                  <OptionBadge
+                    label={choice.id}
+                    state={isCorrectChoice ? "correct" : isWrongSelected ? "wrong" : isSelected ? "selected" : "default"}
+                  />
                   <span>{choice.text}</span>
                 </button>
               );

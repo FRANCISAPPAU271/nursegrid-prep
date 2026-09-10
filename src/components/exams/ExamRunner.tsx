@@ -10,6 +10,7 @@ import { useToast } from "@/components/ui/Toast";
 import Watermark from "@/components/ui/Watermark";
 import { RichText } from "@/components/questions/RichText";
 import { EmphasisedText } from "../questions/EmphasisedText";
+import { OptionBadge } from "@/components/questions/OptionBadge";
 
 type ExamMeta = {
   id: string;
@@ -186,8 +187,10 @@ export default function ExamRunner({ examId }: { examId: string }) {
                             : "border-slate-200 text-slate-600"
                       }`}
                     >
-                      {isCorrectChoice ? "✓ " : isYourWrongChoice ? "✕ " : ""}
-                      {choice.text}
+                      <span className="flex items-start gap-3">
+                        <OptionBadge label={choice.id} state={isCorrectChoice ? "correct" : isYourWrongChoice ? "wrong" : "default"} />
+                        <span className="pt-1">{choice.text}</span>
+                      </span>
                     </div>
                   );
                 })}
@@ -276,20 +279,8 @@ export default function ExamRunner({ examId }: { examId: string }) {
                       : "border-slate-200 hover:border-emerald-300 hover:bg-emerald-50/40"
                   }`}
                 >
-                  <span
-                    className={`mt-0.5 grid h-5 w-5 shrink-0 place-items-center border text-[11px] font-bold ${
-                      q.isSata ? "rounded-md" : "rounded-full"
-                    } ${
-                      selected
-                        ? q.isSata
-                          ? "border-indigo-500 bg-indigo-500 text-white"
-                          : "border-emerald-500 bg-emerald-500 text-white"
-                        : "border-slate-300"
-                    }`}
-                  >
-                    {selected ? "✓" : ""}
-                  </span>
-                  <span>{choice.text}</span>
+                  <OptionBadge label={choice.id} shape={q.isSata ? "square" : "circle"} state={selected ? "selected" : "default"} />
+                  <span className="pt-1">{choice.text}</span>
                 </button>
               );
             })}

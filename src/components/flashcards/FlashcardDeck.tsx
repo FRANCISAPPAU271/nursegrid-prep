@@ -7,6 +7,7 @@ import { useToast } from "@/components/ui/Toast";
 import Watermark from "@/components/ui/Watermark";
 import { RichText } from "@/components/questions/RichText";
 import { EmphasisedText } from "../questions/EmphasisedText";
+import { OptionBadge } from "@/components/questions/OptionBadge";
 
 type Card = {
   questionId: string;
@@ -168,8 +169,9 @@ export default function FlashcardDeck() {
               <>
                 <ul className="mt-4 space-y-2">
                   {current.choices.map((c) => (
-                    <li key={c.id} className="rounded-lg border border-slate-200 px-3.5 py-2.5 text-sm text-slate-700">
-                      {c.text}
+                    <li key={c.id} className="flex items-start gap-3 rounded-lg border border-slate-200 px-3.5 py-2.5 text-sm text-slate-700">
+                      <OptionBadge label={c.id} />
+                      <span className="pt-1">{c.text}</span>
                     </li>
                   ))}
                 </ul>
@@ -188,7 +190,7 @@ export default function FlashcardDeck() {
                     {correctChoices.length > 1 ? "Answers (select all that apply)" : "Answer"}
                   </p>
                   {correctChoices.map((c) => (
-                    <p key={c.id} className="mt-1 text-sm font-semibold text-emerald-900">✓ {c.text}</p>
+                    <p key={c.id} className="mt-2 flex items-start gap-3 text-sm font-semibold text-emerald-900"><OptionBadge label={c.id} state="correct" /><span className="pt-1">{c.text}</span></p>
                   ))}
                 </div>
                 <div className="mt-3 rounded-xl bg-slate-50 p-4">
