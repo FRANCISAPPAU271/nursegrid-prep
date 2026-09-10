@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import type { CarePlan, CarePlanIntervention, CarePlanStatus } from "@/lib/types";
+import { CARE_PLAN_TEMPLATES } from "@/components/care-plans/care-plan-templates";
 
 export type CarePlanFormValues = {
   title: string;
@@ -46,125 +47,10 @@ const DIAGNOSIS_STARTERS = [
 // Template library — original example plans for the conditions students are
 // asked to write about most often in Ghanaian nursing programs.
 // ---------------------------------------------------------------------------
-const TEMPLATES: { key: string; label: string; values: CarePlanFormValues }[] = [
-  {
-    key: "pain",
-    label: "🤕 Acute Pain (post-op)",
-    values: {
-      title: "Acute Pain related to surgical incision",
-      clientInfo: "58 y/o client, post-op day 1 following abdominal surgery",
-      assessment:
-        "Subjective: client reports incisional pain 7/10, worse with movement and coughing.\nObjective: guarding behavior, grimacing, HR 96, BP 138/86, incision clean/dry/intact with staples.",
-      nursingDiagnosis:
-        "Acute Pain related to surgical tissue trauma as evidenced by client report of pain 7/10 and guarding behavior.",
-      goals:
-        "Short-term: Client will report pain at 3/10 or less within 1 hour of intervention.\nLong-term: Client will demonstrate use of splinting technique when coughing/moving by end of shift and require decreasing analgesia by discharge.",
-      interventions: [
-        { action: "Assess pain using a 0-10 scale before and 1 hour after analgesic administration.", rationale: "Establishes a baseline and evaluates effectiveness of pain management." },
-        { action: "Administer prescribed analgesic as ordered and monitor for effectiveness and side effects.", rationale: "Pharmacologic management addresses the physiologic source of pain." },
-        { action: "Teach and encourage incisional splinting with a pillow when coughing or repositioning.", rationale: "Reduces tension on the incision and decreases pain during movement." },
-        { action: "Position client for comfort and reassess response to non-pharmacologic measures.", rationale: "Non-pharmacologic strategies can reduce reliance on medication alone." },
-      ],
-      evaluation:
-        "Client reported pain decreased to 2/10 one hour after analgesic administration and demonstrated correct splinting technique. Goal met.",
-      status: "active",
-    },
-  },
-  {
-    key: "fluid",
-    label: "💧 Deficient Fluid Volume (gastroenteritis)",
-    values: {
-      title: "Deficient Fluid Volume related to vomiting and diarrhea",
-      clientInfo: "24 y/o client admitted with 2 days of vomiting and diarrhea",
-      assessment:
-        "Subjective: client reports weakness, dizziness on standing, and thirst.\nObjective: dry mucous membranes, poor skin turgor, urine dark and concentrated (SG 1.030), HR 112, BP 98/60, weight down 2 kg from stated baseline.",
-      nursingDiagnosis:
-        "Deficient Fluid Volume related to excessive gastrointestinal losses as evidenced by tachycardia, hypotension, poor skin turgor, and concentrated urine.",
-      goals:
-        "Short-term: Client will maintain urine output above 30 mL/hour within 8 hours of starting fluid therapy.\nLong-term: Client will have moist mucous membranes, HR below 100, and stable BP without orthostatic changes within 48 hours.",
-      interventions: [
-        { action: "Monitor intake and output hourly and record urine specific gravity as ordered.", rationale: "Urine output above 30 mL/hour is the key indicator that vital organs are being perfused." },
-        { action: "Administer IV fluids as prescribed and monitor the infusion site and rate.", rationale: "Replaces lost volume; monitoring prevents fluid overload during rehydration." },
-        { action: "Check vital signs including orthostatic BP every 4 hours.", rationale: "Rising HR and falling BP are early signs of continued volume deficit." },
-        { action: "Offer small, frequent amounts of oral rehydration fluid as tolerated.", rationale: "Oral rehydration restores volume while respecting a recovering gut." },
-        { action: "Weigh the client daily on the same scale at the same time.", rationale: "Daily weight is the most sensitive measure of fluid balance — 1 kg equals about 1 liter." },
-      ],
-      evaluation:
-        "After 24 hours: urine output 45 mL/hour, HR 88, BP 112/70 without orthostatic drop, mucous membranes moist. Short-term goal met; continue plan.",
-      status: "active",
-    },
-  },
-  {
-    key: "infection",
-    label: "🦠 Risk for Infection (wound)",
-    values: {
-      title: "Risk for Infection related to surgical wound",
-      clientInfo: "45 y/o client, post-op day 2 with abdominal surgical wound and IV cannula in situ",
-      assessment:
-        "Objective: surgical incision edges approximated, no drainage, mild peri-incisional redness. Temp 37.2°C, WBC 8,500/mm³. IV site clean, no phlebitis. Client is diabetic (fasting glucose 8.9 mmol/L).",
-      nursingDiagnosis:
-        "Risk for Infection related to break in skin integrity, invasive lines, and impaired glucose control.",
-      goals:
-        "Short-term: Client will remain free of local signs of infection (increasing redness, warmth, purulent drainage) throughout admission.\nLong-term: Client will verbalize wound-care and infection warning signs to report before discharge.",
-      interventions: [
-        { action: "Perform hand hygiene before and after all client contact and use aseptic technique for dressing changes.", rationale: "Hand hygiene is the single most effective measure to prevent healthcare-associated infection." },
-        { action: "Assess the wound and IV site every shift for redness, warmth, swelling, drainage, and pain.", rationale: "Early recognition allows treatment before systemic infection develops." },
-        { action: "Monitor temperature every 4 hours and review WBC results.", rationale: "Fever and rising WBC are early systemic indicators of infection." },
-        { action: "Monitor and support glycemic control per orders.", rationale: "Elevated glucose impairs white-cell function and delays wound healing." },
-        { action: "Teach the client wound care, hand hygiene, and the warning signs to report after discharge.", rationale: "The client continues protection at home where most surgical-site infections declare themselves." },
-      ],
-      evaluation:
-        "Day 4: wound edges clean, afebrile, WBC within normal range. Client correctly states three warning signs to report. Goals being met; continue plan.",
-      status: "active",
-    },
-  },
-  {
-    key: "airway",
-    label: "🫁 Ineffective Airway Clearance (pneumonia)",
-    values: {
-      title: "Ineffective Airway Clearance related to retained secretions",
-      clientInfo: "68 y/o client admitted with community-acquired pneumonia",
-      assessment:
-        "Subjective: client reports difficulty coughing up 'thick' sputum and fatigue.\nObjective: coarse crackles right base, productive cough with thick yellow sputum, RR 26, SpO2 91% on room air, temp 38.4°C.",
-      nursingDiagnosis:
-        "Ineffective Airway Clearance related to thick tracheobronchial secretions as evidenced by coarse crackles, productive cough, and SpO2 of 91%.",
-      goals:
-        "Short-term: Client will maintain SpO2 at or above 94% within 24 hours.\nLong-term: Client will demonstrate effective coughing and have clear or clearing breath sounds by discharge.",
-      interventions: [
-        { action: "Position the client upright (high Fowler's) and reposition every 2 hours.", rationale: "Upright positioning maximizes lung expansion and mobilizes secretions." },
-        { action: "Encourage fluid intake of 2-3 liters per day unless contraindicated.", rationale: "Hydration thins secretions so they can be coughed out." },
-        { action: "Teach deep breathing, effective coughing, and incentive spirometer use every hour while awake.", rationale: "Sustained maximal inspirations open alveoli and move secretions toward larger airways." },
-        { action: "Administer oxygen and prescribed antibiotics/nebulizers as ordered; monitor SpO2 and breath sounds every 4 hours.", rationale: "Treats the infection and bronchospasm while tracking response to therapy." },
-      ],
-      evaluation:
-        "48 hours: SpO2 95% on room air, sputum thinner and lighter, crackles reduced. Short-term goal met; continue toward discharge goal.",
-      status: "active",
-    },
-  },
-  {
-    key: "anxiety",
-    label: "😰 Anxiety (pre-operative)",
-    values: {
-      title: "Anxiety related to upcoming surgery",
-      clientInfo: "35 y/o client scheduled for surgery tomorrow morning, first hospital admission",
-      assessment:
-        "Subjective: client states 'I can't stop thinking something will go wrong' and reports poor sleep.\nObjective: restlessness, frequent questions, HR 104, BP 142/88, wringing hands.",
-      nursingDiagnosis:
-        "Anxiety related to anticipated surgery and unfamiliar environment as evidenced by verbalized fear, restlessness, and elevated vital signs.",
-      goals:
-        "Short-term: Client will verbalize two specific concerns and report anxiety reduced to a manageable level tonight.\nLong-term: Client will demonstrate one coping technique (slow breathing) and describe what to expect before and after surgery prior to transfer to theatre.",
-      interventions: [
-        { action: "Stay with the client, use a calm voice, and encourage them to express their concerns.", rationale: "Presence and expression reduce anxiety; concerns can't be addressed until they are named." },
-        { action: "Provide clear, honest preoperative teaching about what to expect before, during, and after surgery.", rationale: "Fear of the unknown is the largest driver of preoperative anxiety." },
-        { action: "Teach and practice slow deep-breathing together.", rationale: "Gives the client a self-controlled tool that lowers the physiologic stress response." },
-        { action: "Reduce stimulation at night and cluster care to protect sleep.", rationale: "Rest improves coping capacity and surgical readiness." },
-      ],
-      evaluation:
-        "Client named two concerns, practiced breathing exercise, and stated 'I feel calmer knowing what will happen.' HR 86 at evening check. Goals met.",
-      status: "active",
-    },
-  },
-];
+// Ghana-mapped care plan templates live in their own module so this
+// component stays readable and the content can be reviewed on its own.
+const TEMPLATES = CARE_PLAN_TEMPLATES;
+
 
 export default function CarePlanForm({
   initial,
@@ -260,7 +146,7 @@ export default function CarePlanForm({
             onClick={() => setShowTemplates((v) => !v)}
             className="w-full rounded-xl border border-dashed border-emerald-300 bg-emerald-50 px-3 py-2.5 text-xs font-bold text-emerald-700 transition hover:bg-emerald-100"
           >
-            ✨ Start from a template — 5 common care plans
+            {`✨ Start from a template — ${TEMPLATES.length} Ghana care plans`}
           </button>
           {showTemplates && (
             <div className="mt-2 grid gap-2 sm:grid-cols-2">
