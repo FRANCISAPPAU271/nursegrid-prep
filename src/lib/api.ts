@@ -1,6 +1,7 @@
 import "server-only";
 import { NextResponse } from "next/server";
 import { getCurrentUser, type SessionUser } from "@/lib/auth";
+import { hasStudyAccess } from "@/lib/access";
 
 export class ApiError extends Error {
   status: number;
@@ -13,6 +14,14 @@ export class ApiError extends Error {
 export async function requireUser(): Promise<SessionUser> {
   const user = await getCurrentUser();
   if (!user) throw new ApiError("Unauthorized", 401);
+  return user;
+}
+
+export async function requireStudyAccess(): Promise<SessionUser> {
+  const user = await requireUser();
+  if (!hasStudyAccess(user)) {
+    throw new ApiError("Your 3-day access period has ended. Upgrade to continue studying.", 403);
+  }
   return user;
 }
 

@@ -3,7 +3,7 @@ import { z } from "zod";
 import { db } from "@/db";
 import { tasks } from "@/db/schema";
 import { desc, eq } from "drizzle-orm";
-import { requireUser, handleApiError } from "@/lib/api";
+import { requireStudyAccess, handleApiError } from "@/lib/api";
 
 const createSchema = z.object({
   title: z.string().trim().min(2).max(160),
@@ -16,7 +16,7 @@ const createSchema = z.object({
 
 export async function GET() {
   try {
-    const user = await requireUser();
+    const user = await requireStudyAccess();
     const rows = await db
       .select()
       .from(tasks)
@@ -30,7 +30,7 @@ export async function GET() {
 
 export async function POST(request: Request) {
   try {
-    const user = await requireUser();
+    const user = await requireStudyAccess();
     const body = await request.json();
     const data = createSchema.parse(body);
 

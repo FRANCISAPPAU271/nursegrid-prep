@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { db } from "@/db";
 import { sql } from "drizzle-orm";
-import { requireUser, handleApiError } from "@/lib/api";
+import { requireStudyAccess, handleApiError } from "@/lib/api";
 import { ensureFlashcardTable, syncMissedQuestionsIntoDeck } from "@/db/flashcards";
 
 // GET /api/flashcards
@@ -10,7 +10,7 @@ import { ensureFlashcardTable, syncMissedQuestionsIntoDeck } from "@/db/flashcar
 //    including it is intentional) plus deck stats.
 export async function GET(request: Request) {
   try {
-    const user = await requireUser();
+    const user = await requireStudyAccess();
     await ensureFlashcardTable();
     await syncMissedQuestionsIntoDeck(user.id);
 

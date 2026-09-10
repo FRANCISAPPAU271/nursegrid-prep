@@ -4,7 +4,7 @@ import { db } from "@/db";
 import { catSessions, questionCategories, questions } from "@/db/schema";
 import type { CatHistoryItem } from "@/db/schema";
 import { and, eq, notInArray, sql, notLike } from "drizzle-orm";
-import { requireUser, handleApiError, ApiError } from "@/lib/api";
+import { requireStudyAccess, handleApiError, ApiError } from "@/lib/api";
 import { gradeAnswer } from "@/lib/sata";
 import { CAT_FREE_QUESTION_CAP, checkStopCondition, targetDifficulty, updateTheta } from "@/lib/cat";
 import { getQuestionMedia } from "@/db/question-media";
@@ -13,7 +13,7 @@ const schema = z.object({ selectedChoiceId: z.string().min(1) });
 
 export async function POST(request: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
-    const user = await requireUser();
+    const user = await requireStudyAccess();
     const { id } = await params;
     const body = await request.json();
     const { selectedChoiceId } = schema.parse(body);

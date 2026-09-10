@@ -2,7 +2,8 @@ import { NextResponse } from "next/server";
 import { db } from "@/db";
 import { questions, questionCategories } from "@/db/schema";
 import { eq, sql, type SQL } from "drizzle-orm";
-import { requireUser, handleApiError } from "@/lib/api";
+import { requireStudyAccess, handleApiError } from "@/lib/api";
+import { trialEndsAt } from "@/lib/access";
 
 // GET /api/offline-pack?limit=50|100
 //
@@ -14,7 +15,7 @@ import { requireUser, handleApiError } from "@/lib/api";
 // connection returns.
 export async function GET(request: Request) {
   try {
-    const user = await requireUser();
+    const user = await requireStudyAccess();
     const { searchParams } = new URL(request.url);
     const limit = Math.min(Math.max(Number(searchParams.get("limit") ?? 50), 10), 100);
 
@@ -40,6 +41,10 @@ export async function GET(request: Request) {
 
     return NextResponse.json({
       downloadedAt: new Date().toISOString(),
+      // Trial packs must stop working locally when the 72-hour window ends.
+      // Paid/admin packs have no client-side expiry; server access remains the
+      // source of truth whenever the device reconnects.
+      accessExpiresAt: user.isPremium || user.isAdmin ? null : trialEndsAt(user).toISOString(),
       isPremium: user.isPremium,
       questions: rows,
     });

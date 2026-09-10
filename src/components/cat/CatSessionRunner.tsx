@@ -8,6 +8,7 @@ import { useToast } from "@/components/ui/Toast";
 import Watermark from "@/components/ui/Watermark";
 import { RichText } from "@/components/questions/RichText";
 import { EmphasisedText } from "../questions/EmphasisedText";
+import { OptionBadge } from "@/components/questions/OptionBadge";
 
 type SessionMeta = {
   id: string;
@@ -186,8 +187,10 @@ export default function CatSessionRunner({ sessionId }: { sessionId: string }) {
                             : "border-slate-200 text-slate-600"
                       }`}
                     >
-                      {isCorrectChoice ? "✓ " : isYourWrongChoice ? "✕ " : ""}
-                      {choice.text}
+                      <span className="flex items-start gap-3">
+                        <OptionBadge label={choice.id} state={isCorrectChoice ? "correct" : isYourWrongChoice ? "wrong" : "default"} />
+                        <span className="pt-1">{choice.text}</span>
+                      </span>
                     </div>
                   );
                 })}
@@ -252,14 +255,8 @@ export default function CatSessionRunner({ sessionId }: { sessionId: string }) {
                           : "border-slate-200 hover:border-emerald-300 hover:bg-emerald-50/40"
                   }`}
                 >
-                  <span
-                    className={`mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full border text-[11px] font-bold ${
-                      isCorrectChoice ? "border-emerald-500 bg-emerald-500 text-white" : isWrongSelected ? "border-rose-500 bg-rose-500 text-white" : "border-slate-300"
-                    }`}
-                  >
-                    {isCorrectChoice ? "✓" : isWrongSelected ? "✕" : ""}
-                  </span>
-                  <span>{choice.text}</span>
+                  <OptionBadge label={choice.id} state={isCorrectChoice ? "correct" : isWrongSelected ? "wrong" : isSelected ? "selected" : "default"} />
+                  <span className="pt-1">{choice.text}</span>
                 </button>
               );
             })}

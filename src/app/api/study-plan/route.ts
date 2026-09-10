@@ -3,7 +3,7 @@ import { z } from "zod";
 import { db } from "@/db";
 import { tasks } from "@/db/schema";
 import { and, eq, like, sql } from "drizzle-orm";
-import { requireUser, handleApiError, ApiError } from "@/lib/api";
+import { requireStudyAccess, handleApiError, ApiError } from "@/lib/api";
 import { computeReadiness } from "@/lib/readiness";
 import { setUserExamDate } from "@/db/user-exam-date";
 
@@ -35,7 +35,7 @@ export type PlanWeek = {
 
 export async function POST(request: Request) {
   try {
-    const user = await requireUser();
+    const user = await requireStudyAccess();
     const body = await request.json();
     const { examDate, addTasks } = schema.parse(body);
 

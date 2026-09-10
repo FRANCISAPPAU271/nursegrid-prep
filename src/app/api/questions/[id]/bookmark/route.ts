@@ -2,11 +2,11 @@ import { NextResponse } from "next/server";
 import { db } from "@/db";
 import { questionBookmarks } from "@/db/schema";
 import { and, eq } from "drizzle-orm";
-import { requireUser, handleApiError } from "@/lib/api";
+import { requireStudyAccess, handleApiError } from "@/lib/api";
 
 export async function POST(_request: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
-    const user = await requireUser();
+    const user = await requireStudyAccess();
     const { id } = await params;
     await db
       .insert(questionBookmarks)
@@ -20,7 +20,7 @@ export async function POST(_request: Request, { params }: { params: Promise<{ id
 
 export async function DELETE(_request: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
-    const user = await requireUser();
+    const user = await requireStudyAccess();
     const { id } = await params;
     await db
       .delete(questionBookmarks)

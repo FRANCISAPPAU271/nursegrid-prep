@@ -2,11 +2,11 @@ import { NextResponse } from "next/server";
 import { db } from "@/db";
 import { tasks, notes, questionAttempts } from "@/db/schema";
 import { eq, sql } from "drizzle-orm";
-import { requireUser, handleApiError } from "@/lib/api";
+import { requireStudyAccess, handleApiError } from "@/lib/api";
 
 export async function GET() {
   try {
-    const user = await requireUser();
+    const user = await requireStudyAccess();
 
     const [taskStatsRows, noteStatsRows, questionStatsRows, upcomingTasks] = await Promise.all([
       db

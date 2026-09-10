@@ -3,7 +3,7 @@ import { z } from "zod";
 import { db } from "@/db";
 import { notes } from "@/db/schema";
 import { and, eq } from "drizzle-orm";
-import { requireUser, handleApiError, ApiError } from "@/lib/api";
+import { requireStudyAccess, handleApiError, ApiError } from "@/lib/api";
 
 const updateSchema = z.object({
   title: z.string().trim().min(1).max(160).optional(),
@@ -25,7 +25,7 @@ async function loadOwnedNote(userId: string, id: string) {
 
 export async function PATCH(request: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
-    const user = await requireUser();
+    const user = await requireStudyAccess();
     const { id } = await params;
     await loadOwnedNote(user.id, id);
     const body = await request.json();
@@ -54,7 +54,7 @@ export async function PATCH(request: Request, { params }: { params: Promise<{ id
 
 export async function DELETE(_request: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
-    const user = await requireUser();
+    const user = await requireStudyAccess();
     const { id } = await params;
     await loadOwnedNote(user.id, id);
     await db.delete(notes).where(eq(notes.id, id));

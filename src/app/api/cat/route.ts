@@ -2,12 +2,12 @@ import { NextResponse } from "next/server";
 import { db } from "@/db";
 import { catSessions, questionCategories, questions } from "@/db/schema";
 import { and, desc, eq, sql, notLike } from "drizzle-orm";
-import { requireUser, handleApiError, ApiError } from "@/lib/api";
+import { requireStudyAccess, handleApiError, ApiError } from "@/lib/api";
 import { CAT_MAX_QUESTIONS, CAT_MIN_QUESTIONS, targetDifficulty } from "@/lib/cat";
 
 export async function GET() {
   try {
-    const user = await requireUser();
+    const user = await requireStudyAccess();
     const rows = await db
       .select({
         id: catSessions.id,
@@ -44,7 +44,7 @@ export async function GET() {
 
 export async function POST() {
   try {
-    const user = await requireUser();
+    const user = await requireStudyAccess();
 
     // Only one active CAT session at a time per user — clear any stale
     // in-progress session before starting a fresh one.
