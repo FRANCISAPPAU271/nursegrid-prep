@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { db } from "@/db";
 import { sql } from "drizzle-orm";
-import { requireUser, handleApiError, ApiError } from "@/lib/api";
+import { requireStudyAccess, handleApiError, ApiError } from "@/lib/api";
 import { ensureFlashcardTable, BOX_INTERVALS_DAYS, MAX_BOX } from "@/db/flashcards";
 
 const schema = z.object({
@@ -13,7 +13,7 @@ const schema = z.object({
 // POST /api/flashcards/review — Leitner update for one card.
 export async function POST(request: Request) {
   try {
-    const user = await requireUser();
+    const user = await requireStudyAccess();
     await ensureFlashcardTable();
     const body = await request.json();
     const { questionId, gotIt } = schema.parse(body);

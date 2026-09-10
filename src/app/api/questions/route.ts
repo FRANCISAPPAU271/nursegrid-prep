@@ -2,12 +2,12 @@ import { NextResponse } from "next/server";
 import { db } from "@/db";
 import { questionCategories, questions, questionBookmarks } from "@/db/schema";
 import { and, asc, eq, inArray, sql, type SQL } from "drizzle-orm";
-import { requireUser, handleApiError, ApiError } from "@/lib/api";
+import { requireStudyAccess, handleApiError, ApiError } from "@/lib/api";
 import { isSata } from "@/lib/sata";
 
 export async function GET(request: Request) {
   try {
-    const user = await requireUser();
+    const user = await requireStudyAccess();
     const { searchParams } = new URL(request.url);
     const categorySlug = searchParams.get("category");
     const limit = Math.min(Math.max(Number(searchParams.get("limit") ?? 20), 1), 50);

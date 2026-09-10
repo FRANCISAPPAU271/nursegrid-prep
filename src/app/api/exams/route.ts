@@ -4,7 +4,7 @@ import { db } from "@/db";
 import { examSessions, questionCategories, questions } from "@/db/schema";
 import type { ExamQuestionSnapshot } from "@/db/schema";
 import { and, desc, eq, inArray, sql } from "drizzle-orm";
-import { requireUser, handleApiError, ApiError } from "@/lib/api";
+import { requireStudyAccess, handleApiError, ApiError } from "@/lib/api";
 import { isSata } from "@/lib/sata";
 
 const FREE_MAX_QUESTIONS = 20;
@@ -18,7 +18,7 @@ const createSchema = z.object({
 
 export async function GET() {
   try {
-    const user = await requireUser();
+    const user = await requireStudyAccess();
     const rows = await db
       .select({
         id: examSessions.id,
@@ -42,7 +42,7 @@ export async function GET() {
 
 export async function POST(request: Request) {
   try {
-    const user = await requireUser();
+    const user = await requireStudyAccess();
     const body = await request.json();
     const data = createSchema.parse(body);
 

@@ -30,7 +30,7 @@ type PackQuestion = {
   categoryName: string;
 };
 
-type Pack = { downloadedAt: string; isPremium: boolean; questions: PackQuestion[] };
+type Pack = { downloadedAt: string; accessExpiresAt: string | null; isPremium: boolean; questions: PackQuestion[] };
 type QueuedAttempt = { questionId: string; selectedChoiceId: string; queuedAt: string };
 
 function loadPack(): Pack | null {
@@ -39,6 +39,15 @@ function loadPack(): Pack | null {
     if (!raw) return null;
     const parsed = JSON.parse(raw) as Pack;
     if (!Array.isArray(parsed.questions) || parsed.questions.length === 0) return null;
+    const expiresAt = parsed.accessExpiresAt
+      ? new Date(parsed.accessExpiresAt).getTime()
+      : Object.prototype.hasOwnProperty.call(parsed, "accessExpiresAt")
+        ? null
+        : new Date(parsed.downloadedAt).getTime() + 3 * 24 * 60 * 60 * 1000;
+    if (expiresAt !== null && expiresAt <= Date.now()) {
+      localStorage.removeItem(PACK_KEY);
+      return null;
+    }
     return parsed;
   } catch {
     return null;
@@ -350,7 +359,7 @@ export default function OfflineStudy() {
           <h3 className="mt-3 text-base font-bold text-slate-900">Download a pack to begin</h3>
           <p className="mx-auto mt-1 max-w-md text-sm text-slate-500">
             Grab 50 or 100 questions while you have a connection — then study them anywhere, even with zero network. Your
-            answers count toward your Readiness Score once you're back online.
+            answers count toward your Readiness Score once you&apos;re back online.
           </p>
         </div>
       )}

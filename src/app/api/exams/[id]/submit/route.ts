@@ -4,7 +4,7 @@ import { db } from "@/db";
 import { examSessions, questionAttempts } from "@/db/schema";
 import type { ExamAnswer } from "@/db/schema";
 import { and, eq } from "drizzle-orm";
-import { requireUser, handleApiError, ApiError } from "@/lib/api";
+import { requireStudyAccess, handleApiError, ApiError } from "@/lib/api";
 import { gradeAnswer } from "@/lib/sata";
 
 const schema = z.object({
@@ -13,7 +13,7 @@ const schema = z.object({
 
 export async function POST(request: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
-    const user = await requireUser();
+    const user = await requireStudyAccess();
     const { id } = await params;
     const body = await request.json();
     const { answers } = schema.parse(body);

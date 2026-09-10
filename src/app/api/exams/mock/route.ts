@@ -3,7 +3,7 @@ import { db } from "@/db";
 import { examSessions, questionCategories, questions } from "@/db/schema";
 import type { ExamQuestionSnapshot } from "@/db/schema";
 import { eq, sql } from "drizzle-orm";
-import { requireUser, handleApiError, ApiError } from "@/lib/api";
+import { requireStudyAccess, handleApiError, ApiError } from "@/lib/api";
 
 // ---------------------------------------------------------------------------
 // Mock NMC Exam: a full-length dress rehearsal.
@@ -22,7 +22,7 @@ const MOCK_MINUTES = 150;
 
 export async function POST() {
   try {
-    const user = await requireUser();
+    const user = await requireStudyAccess();
     if (!user.isPremium) {
       throw new ApiError("The full Mock Exam needs the complete question bank. Upgrade on the Billing page to unlock it.", 403);
     }

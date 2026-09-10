@@ -2,12 +2,12 @@ import { NextResponse } from "next/server";
 import { db } from "@/db";
 import { learningBookmarks } from "@/db/schema";
 import { and, eq } from "drizzle-orm";
-import { requireUser, handleApiError, ApiError } from "@/lib/api";
+import { requireStudyAccess, handleApiError, ApiError } from "@/lib/api";
 import { getCachedLearningTopicBySlug } from "@/lib/catalog";
 
 export async function GET(_request: Request, { params }: { params: Promise<{ slug: string }> }) {
   try {
-    const user = await requireUser();
+    const user = await requireStudyAccess();
     const { slug } = await params;
 
     const topic = await getCachedLearningTopicBySlug(slug);

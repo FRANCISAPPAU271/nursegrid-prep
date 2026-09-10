@@ -3,7 +3,7 @@ import { z } from "zod";
 import { db } from "@/db";
 import { questions, questionAttempts } from "@/db/schema";
 import { eq } from "drizzle-orm";
-import { requireUser, handleApiError, ApiError } from "@/lib/api";
+import { requireStudyAccess, handleApiError, ApiError } from "@/lib/api";
 import { gradeAnswer, normalizeChoiceIds } from "@/lib/sata";
 import { getQuestionMedia } from "@/db/question-media";
 
@@ -12,7 +12,7 @@ const schema = z.object({ selectedChoiceId: z.string().min(1) });
 
 export async function POST(request: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
-    const user = await requireUser();
+    const user = await requireStudyAccess();
     const { id } = await params;
     const body = await request.json();
     const { selectedChoiceId } = schema.parse(body);
