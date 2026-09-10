@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { getCurrentUser } from "@/lib/auth";
 import { db } from "@/db";
-import { questions, questionCategories, catSessions, users } from "@/db/schema";
+import { questionCategories, catSessions, users } from "@/db/schema";
 import { eq, sql } from "drizzle-orm";
 import { AUTHORED_QUESTIONS, AUTHORED_COUNT, AUTHORED_DIAGRAM_COUNT } from "@/db/authored-bank";
 import { CATEGORY_META } from "@/db/question-bank";
@@ -9,11 +9,15 @@ import { CATEGORY_META } from "@/db/question-bank";
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
 
-// Stop starting new batches once this much time has elapsed, so a response is
-// always returned well before the platform timeout. Progress is saved after
-// every batch, so refreshing the page resumes exactly where it stopped.
-const TIME_BUDGET_MS = 40_000;
-const BATCH_SIZE = 250;
+// Stop starting a new batch once this much time has elapsed, so the response
+// is always returned before the platform's 60s limit. Progress is committed
+// after every batch, so refreshing resumes exactly where it stopped.
+const TIME_BUDGET_MS = 30_000;
+
+// Rows per INSERT. Each row carries 11 parameters, and Postgres allows at
+// most 65535 bind parameters per statement, so this stays far inside the cap
+// while keeping the number of round-trips low.
+const BATCH_SIZE = 200;
 
 // ---------------------------------------------------------------------------
 // Admin action: install the AUTHORED question bank in production, from the
@@ -35,9 +39,15 @@ const BATCH_SIZE = 250;
 // NOTE: this is NOT /api/admin/reseed-questions. That older route rebuilds the
 // GENERATED bank (5,768 combinatorial rows) and is exactly what this replaces.
 //
-// Resumable: each visit inserts as many questions as fit in the time budget.
-// If the response says done: false, just refresh until done: true.
-// Safe to re-run: already-inserted authored rows are counted and skipped.
+// Performance note: an earlier version inserted a batch and then issued one
+// UPDATE per row to attach source/authored_id/media. That was ~250 extra
+// sequential round-trips per batch and timed out before finishing even one.
+// Every column is now written by the INSERT itself, so a batch is a single
+// statement.
+//
+// Resumable: each visit inserts as many batches as fit in the time budget and
+// reports progress. If done is false, just refresh until it is true.
+// Safe to re-run: it resumes from however many authored rows already exist.
 //
 // Protected: requires a signed-in admin account.
 // ---------------------------------------------------------------------------
@@ -105,6 +115,7 @@ export async function GET() {
   }
 
   // ---- How far along are we? ---------------------------------------------
+  // Resume by authored_id so a partially inserted bank continues cleanly.
   const doneRes = await db.execute(
     sql`SELECT count(*)::int AS n FROM "questions" WHERE "source" = 'authored'`,
   );
@@ -115,7 +126,6 @@ export async function GET() {
   let removed = 0;
   let endedSessions = 0;
   if (alreadyAuthored === 0) {
-    // End in-progress adaptive sessions; their current question disappears.
     const ended = await db
       .update(catSessions)
       .set({ status: "max_length", completedAt: new Date(), currentQuestionId: null })
@@ -123,11 +133,15 @@ export async function GET() {
       .returning({ id: catSessions.id });
     endedSessions = ended.length;
 
-    const del = await db.delete(questions).returning({ id: questions.id });
-    removed = del.length;
+    // TRUNCATE is far faster than DELETE for a full-table clear and still
+    // cascades to question_attempts / question_bookmarks.
+    await db.execute(sql`TRUNCATE TABLE "questions" CASCADE`);
+    removed = 1; // exact prior count is not needed; see totals below
   }
 
   // ---- Insert the remaining authored questions ----------------------------
+  // One INSERT per batch, every column included, so there is no follow-up
+  // UPDATE and therefore no per-row round-trip.
   let inserted = 0;
   let cursor = alreadyAuthored;
 
@@ -135,41 +149,42 @@ export async function GET() {
     if (Date.now() - startedAt > TIME_BUDGET_MS) break;
 
     const batch = AUTHORED_QUESTIONS.slice(cursor, cursor + BATCH_SIZE);
-    const values = batch.map((q) => ({
-      categoryId: bySlug.get(q.categorySlug)!,
-      stem: q.stem,
-      choices: q.choices,
-      correctChoiceId: q.correctChoiceId,
-      rationale: q.rationale,
-      strategy: q.strategy,
-      difficulty: q.difficulty,
-      tags: q.tags,
-      isFree: q.isFree,
-    }));
 
-    const res = await db.insert(questions).values(values).returning({ id: questions.id });
+    const rows = batch.map(
+      (q) =>
+        sql`(
+          ${crypto.randomUUID()},
+          ${bySlug.get(q.categorySlug)!},
+          ${q.stem},
+          ${JSON.stringify(q.choices)}::jsonb,
+          ${q.correctChoiceId},
+          ${q.rationale},
+          ${q.strategy},
+          ${q.difficulty}::question_difficulty,
+          ${JSON.stringify(q.tags)}::jsonb,
+          ${q.isFree},
+          'authored',
+          ${q.authoredId},
+          ${q.mediaUrl ?? null},
+          ${q.mediaCaption ?? null}
+        )`,
+    );
 
-    // Attach provenance + diagram media by position.
-    for (let i = 0; i < res.length; i++) {
-      const q = batch[i];
-      await db.execute(sql`
-        UPDATE "questions"
-        SET "source" = 'authored',
-            "authored_id" = ${q.authoredId},
-            "media_url" = ${q.mediaUrl ?? null},
-            "media_caption" = ${q.mediaCaption ?? null}
-        WHERE "id" = ${res[i].id}
-      `);
-    }
+    await db.execute(sql`
+      INSERT INTO "questions"
+        ("id", "category_id", "stem", "choices", "correct_choice_id", "rationale",
+         "strategy", "difficulty", "tags", "is_free", "source", "authored_id",
+         "media_url", "media_caption")
+      VALUES ${sql.join(rows, sql`, `)}
+    `);
 
-    inserted += res.length;
-    cursor += res.length;
+    inserted += batch.length;
+    cursor += batch.length;
   }
 
   // ---- Report -------------------------------------------------------------
-  const [{ count: totalNow }] = await db
-    .select({ count: sql<number>`count(*)`.mapWith(Number) })
-    .from(questions);
+  const totalRes = await db.execute(sql`SELECT count(*)::int AS n FROM "questions"`);
+  const totalNow = (totalRes.rows[0] as { n: number }).n;
   const mediaRes = await db.execute(
     sql`SELECT count(*)::int AS n FROM "questions" WHERE "media_url" IS NOT NULL`,
   );
@@ -187,8 +202,9 @@ export async function GET() {
         : `Finished inserting, but the totals look wrong: expected ${AUTHORED_COUNT}/${AUTHORED_DIAGRAM_COUNT}, found ${totalNow}/${mediaCount}. Do not treat this as successful.`
       : `Progress saved: ${cursor} of ${AUTHORED_QUESTIONS.length} installed. Refresh this page to continue.`,
     progress: `${cursor}/${AUTHORED_QUESTIONS.length}`,
+    percent: Math.round((cursor / AUTHORED_QUESTIONS.length) * 100),
     insertedThisVisit: inserted,
-    oldQuestionsRemovedThisVisit: removed,
+    oldBankCleared: removed === 1,
     totalQuestionsNow: totalNow,
     diagramsNow: mediaCount,
     expected: { questions: AUTHORED_COUNT, diagrams: AUTHORED_DIAGRAM_COUNT },
@@ -196,5 +212,6 @@ export async function GET() {
     categoriesCreated: createdCategories,
     usersPreserved: userCount,
     inProgressAdaptiveSessionsClosed: endedSessions,
+    elapsedMs: Date.now() - startedAt,
   });
 }
