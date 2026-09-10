@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { useToast } from "@/components/ui/Toast";
 import Watermark from "@/components/ui/Watermark";
+import { RichText } from "@/components/questions/RichText";
 
 // ---------------------------------------------------------------------------
 // Offline / low-data study mode.
@@ -322,12 +323,12 @@ export default function OfflineStudy() {
                 <p className={`text-sm font-extrabold ${isCorrect ? "text-emerald-800" : "text-rose-800"}`}>
                   {isCorrect ? "✓ Correct!" : "✗ Not quite"}
                 </p>
-                <p className="mt-2 whitespace-pre-line text-sm leading-relaxed text-slate-700">{question.rationale}</p>
+                <RichText text={question.rationale} className="mt-2 text-sm leading-relaxed text-slate-700" />
               </div>
               {question.strategy && (
                 <div className="rounded-2xl border border-sky-200 bg-sky-50 p-4">
                   <p className="text-xs font-bold uppercase tracking-widest text-sky-700">🧠 Strategy</p>
-                  <p className="mt-1 text-sm leading-relaxed text-sky-900">{question.strategy}</p>
+                  <RichText text={question.strategy} className="mt-1 text-sm leading-relaxed text-sky-900" />
                 </div>
               )}
               <button

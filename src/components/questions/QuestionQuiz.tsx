@@ -7,6 +7,7 @@ import Empty from "@/components/ui/Empty";
 import { SkeletonList } from "@/components/ui/Skeleton";
 import { useToast } from "@/components/ui/Toast";
 import Watermark from "@/components/ui/Watermark";
+import { RichText } from "@/components/questions/RichText";
 
 const DIFFICULTY_STYLE: Record<string, string> = {
   easy: "bg-emerald-100 text-emerald-700",
@@ -417,7 +418,7 @@ export default function QuestionQuiz({
               </p>
               <div>
                 <p className="text-xs font-bold uppercase tracking-wide text-slate-500">Rationale</p>
-                <p className="mt-1 text-sm text-slate-700">{result.rationale}</p>
+                <RichText text={result.rationale} className="mt-1 text-sm leading-relaxed text-slate-700" />
               </div>
               {result.mediaUrl && (
                 <div className="overflow-hidden rounded-xl border border-slate-200 bg-white">
@@ -437,7 +438,7 @@ export default function QuestionQuiz({
               )}
               <div>
                 <p className="text-xs font-bold uppercase tracking-wide text-emerald-700">🎯 Test-taking strategy</p>
-                <p className="mt-1 text-sm text-slate-700">{result.strategy}</p>
+                <RichText text={result.strategy} className="mt-1 text-sm leading-relaxed text-slate-700" />
               </div>
               <div className="flex items-center justify-between gap-2 pt-1">
                 <span className="text-[11px] font-medium text-slate-400 md:hidden">← Swipe left for next</span>

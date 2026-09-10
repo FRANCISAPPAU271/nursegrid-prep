@@ -8,6 +8,7 @@ import type { ExamQuestion, ExamReviewQuestion } from "@/lib/types";
 import { SkeletonList } from "@/components/ui/Skeleton";
 import { useToast } from "@/components/ui/Toast";
 import Watermark from "@/components/ui/Watermark";
+import { RichText } from "@/components/questions/RichText";
 
 type ExamMeta = {
   id: string;
@@ -192,7 +193,7 @@ export default function ExamRunner({ examId }: { examId: string }) {
               </div>
               <div className="mt-3 rounded-lg bg-slate-50 p-3">
                 <p className="text-xs font-bold uppercase tracking-wide text-slate-500">Rationale</p>
-                <p className="mt-1 text-sm text-slate-700">{q.rationale}</p>
+                <RichText text={q.rationale} className="mt-1 text-sm leading-relaxed text-slate-700" />
                 {q.mediaUrl && (
                   <div className="mt-3 overflow-hidden rounded-xl border border-slate-200 bg-white">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -203,7 +204,7 @@ export default function ExamRunner({ examId }: { examId: string }) {
                   </div>
                 )}
                 <p className="mt-2 text-xs font-bold uppercase tracking-wide text-emerald-700">🎯 Strategy</p>
-                <p className="mt-1 text-sm text-slate-700">{q.strategy}</p>
+                <RichText text={q.strategy} className="mt-1 text-sm leading-relaxed text-slate-700" />
               </div>
             </div>
           ))}

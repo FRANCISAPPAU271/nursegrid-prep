@@ -5,6 +5,7 @@ import Link from "next/link";
 import { SkeletonList } from "@/components/ui/Skeleton";
 import { useToast } from "@/components/ui/Toast";
 import Watermark from "@/components/ui/Watermark";
+import { RichText } from "@/components/questions/RichText";
 
 type Card = {
   questionId: string;
@@ -191,9 +192,9 @@ export default function FlashcardDeck() {
                 </div>
                 <div className="mt-3 rounded-xl bg-slate-50 p-4">
                   <p className="text-xs font-bold uppercase tracking-wide text-slate-500">Rationale</p>
-                  <p className="mt-1 text-sm text-slate-700">{current.rationale}</p>
+                  <RichText text={current.rationale} className="mt-1 text-sm leading-relaxed text-slate-700" />
                   <p className="mt-3 text-xs font-bold uppercase tracking-wide text-emerald-700">🎯 Strategy</p>
-                  <p className="mt-1 text-sm text-slate-700">{current.strategy}</p>
+                  <RichText text={current.strategy} className="mt-1 text-sm leading-relaxed text-slate-700" />
                 </div>
                 <div className="mt-5 grid grid-cols-2 gap-3">
                   <button

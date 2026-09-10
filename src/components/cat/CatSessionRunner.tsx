@@ -6,6 +6,7 @@ import type { CatHistoryEntry, CatQuestion, CatStatus } from "@/lib/types";
 import { SkeletonList } from "@/components/ui/Skeleton";
 import { useToast } from "@/components/ui/Toast";
 import Watermark from "@/components/ui/Watermark";
+import { RichText } from "@/components/questions/RichText";
 
 type SessionMeta = {
   id: string;
@@ -192,9 +193,9 @@ export default function CatSessionRunner({ sessionId }: { sessionId: string }) {
               </div>
               <div className="mt-3 rounded-lg bg-slate-50 p-3">
                 <p className="text-xs font-bold uppercase tracking-wide text-slate-500">Rationale</p>
-                <p className="mt-1 text-sm text-slate-700">{h.rationale}</p>
+                <RichText text={h.rationale} className="mt-1 text-sm leading-relaxed text-slate-700" />
                 <p className="mt-2 text-xs font-bold uppercase tracking-wide text-emerald-700">🎯 Strategy</p>
-                <p className="mt-1 text-sm text-slate-700">{h.strategy}</p>
+                <RichText text={h.strategy} className="mt-1 text-sm leading-relaxed text-slate-700" />
               </div>
             </div>
           ))}
@@ -268,7 +269,7 @@ export default function CatSessionRunner({ sessionId }: { sessionId: string }) {
               <p className={`text-sm font-bold ${result.isCorrect ? "text-emerald-700" : "text-rose-700"}`}>{result.isCorrect ? "Correct!" : "Not quite."}</p>
               <div>
                 <p className="text-xs font-bold uppercase tracking-wide text-slate-500">Rationale</p>
-                <p className="mt-1 text-sm text-slate-700">{result.rationale}</p>
+                <RichText text={result.rationale} className="mt-1 text-sm leading-relaxed text-slate-700" />
               </div>
               {result.mediaUrl && (
                 <div className="overflow-hidden rounded-xl border border-slate-200 bg-white">
@@ -281,7 +282,7 @@ export default function CatSessionRunner({ sessionId }: { sessionId: string }) {
               )}
               <div>
                 <p className="text-xs font-bold uppercase tracking-wide text-emerald-700">🎯 Test-taking strategy</p>
-                <p className="mt-1 text-sm text-slate-700">{result.strategy}</p>
+                <RichText text={result.strategy} className="mt-1 text-sm leading-relaxed text-slate-700" />
               </div>
               <div className="flex justify-end pt-1">
                 <button onClick={goToNext} className="rounded-lg bg-emerald-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-emerald-700">
