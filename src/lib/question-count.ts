@@ -9,7 +9,7 @@
 // browser.
 
 /** Exact number of authored questions currently shipped. */
-export const QUESTION_COUNT = 3389;
+export const QUESTION_COUNT = 3409;
 
 /** Rounded-down marketing label, e.g. "2,900+". Always <= QUESTION_COUNT. */
 export const QUESTION_COUNT_LABEL = "3,200+";

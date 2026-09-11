@@ -23,7 +23,7 @@ export type AuthoredQuestion = {
   mediaCaption?: string;
 };
 
-export const AUTHORED_COUNT = 3389;
+export const AUTHORED_COUNT = 3409;
 export const AUTHORED_COUNT_LABEL = "3,200+";
 export const AUTHORED_DIAGRAM_COUNT = 569;
 
@@ -115836,6 +115836,646 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "tags": [
   "tetanus",
   "paediatric-emergency"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS2-0001",
+ "categorySlug": "pediatrics",
+ "stem": "A 15-month-old is scheduled for a lumbar puncture. Which teaching approach is most appropriate?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Give simple, honest explanations and involve the parent before the procedure"
+  },
+  {
+   "id": "b",
+   "text": "Do not provide any preparation to a child this age"
+  },
+  {
+   "id": "c",
+   "text": "Teach only the parent and ignore the child"
+  },
+  {
+   "id": "d",
+   "text": "Explain the procedure in technical adult language"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Toddlers benefit from brief, honest, concrete explanations immediately before the procedure, with comfort from a parent when appropriate.",
+ "strategy": "Use developmentally appropriate preparation even for very young children.",
+ "difficulty": "hard",
+ "tags": [
+  "development",
+  "lumbar-puncture"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS2-0002",
+ "categorySlug": "pediatrics",
+ "stem": "Which patient is most likely to participate in managing their own basic care with supervision?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "A 6-year-old with cystic fibrosis"
+  },
+  {
+   "id": "b",
+   "text": "A 7-year-old with diabetes"
+  },
+  {
+   "id": "c",
+   "text": "A 10-year-old with a minor scraped knee"
+  },
+  {
+   "id": "d",
+   "text": "A 13-year-old with chronic renal failure"
+  }
+ ],
+ "correctChoiceId": "d",
+ "rationale": "An adolescent can increasingly participate in complex self-management such as chronic renal care, while still requiring support and assessment of readiness.",
+ "strategy": "Match expected self-management to cognitive maturity and complexity, not age alone.",
+ "difficulty": "hard",
+ "tags": [
+  "development",
+  "adolescent"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS2-0003",
+ "categorySlug": "pediatrics",
+ "stem": "Which age group is most likely to demonstrate regression when ill or hospitalised?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Infant"
+  },
+  {
+   "id": "b",
+   "text": "Toddler"
+  },
+  {
+   "id": "c",
+   "text": "Adolescent"
+  },
+  {
+   "id": "d",
+   "text": "Young adult"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Toddlers may regress in toileting, speech or self-care during illness because separation and loss of control are stressful.",
+ "strategy": "Regression is common in toddlers and preschoolers under stress.",
+ "difficulty": "hard",
+ "tags": [
+  "development",
+  "regression"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS2-0004",
+ "categorySlug": "pediatrics",
+ "stem": "A 14-month-old hospitalised with dehydration screams, pushes staff away and clings to the parent when the parent leaves. Which separation response is this?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Detachment"
+  },
+  {
+   "id": "b",
+   "text": "Protest"
+  },
+  {
+   "id": "c",
+   "text": "Despair"
+  },
+  {
+   "id": "d",
+   "text": "Acceptance"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "The protest phase is marked by crying, searching, resisting comfort and rejecting unfamiliar people after separation.",
+ "strategy": "Remember the sequence protest, despair, then detachment if separation persists.",
+ "difficulty": "hard",
+ "tags": [
+  "separation-anxiety",
+  "toddler"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS2-0005",
+ "categorySlug": "pediatrics",
+ "stem": "A 5-month-old is being assessed for development. Which absent skill requires follow-up?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Sitting without any support"
+  },
+  {
+   "id": "b",
+   "text": "Following a moving object with the eyes"
+  },
+  {
+   "id": "c",
+   "text": "Grasping objects"
+  },
+  {
+   "id": "d",
+   "text": "Crying when hungry"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Visual tracking should be present by this age; failure to follow an object may indicate visual or neurological concern. Sitting without support usually develops later.",
+ "strategy": "Choose the milestone that should already be present at the stated age.",
+ "difficulty": "hard",
+ "tags": [
+  "development",
+  "infant"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS2-0006",
+ "categorySlug": "pediatrics",
+ "stem": "According to Erikson, the psychosocial task of infancy is:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Initiative versus guilt"
+  },
+  {
+   "id": "b",
+   "text": "Trust versus mistrust"
+  },
+  {
+   "id": "c",
+   "text": "Autonomy versus shame and doubt"
+  },
+  {
+   "id": "d",
+   "text": "Industry versus inferiority"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Infants develop trust when caregivers provide consistent, responsive care.",
+ "strategy": "Erikson’s sequence begins with trust, then autonomy, initiative and industry.",
+ "difficulty": "hard",
+ "tags": [
+  "erikson",
+  "development"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS2-0007",
+ "categorySlug": "pediatrics",
+ "stem": "According to Erikson, the central psychosocial task of the toddler period is:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Trust versus mistrust"
+  },
+  {
+   "id": "b",
+   "text": "Autonomy versus shame and doubt"
+  },
+  {
+   "id": "c",
+   "text": "Initiative versus guilt"
+  },
+  {
+   "id": "d",
+   "text": "Industry versus inferiority"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Toddlers seek control and independence; excessive criticism or restriction can produce shame and doubt.",
+ "strategy": "Link toddler independence and toilet training with autonomy.",
+ "difficulty": "hard",
+ "tags": [
+  "erikson",
+  "toddler"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS2-0008",
+ "categorySlug": "pediatrics",
+ "stem": "Erikson described development as a series of:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Psychosocial stages"
+  },
+  {
+   "id": "b",
+   "text": "Psychosexual stages"
+  },
+  {
+   "id": "c",
+   "text": "Psychomoral stages"
+  },
+  {
+   "id": "d",
+   "text": "Purely biological stages"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Erikson’s theory explains development through psychosocial conflicts across the lifespan.",
+ "strategy": "Do not confuse Erikson’s psychosocial theory with Freud’s psychosexual theory.",
+ "difficulty": "hard",
+ "tags": [
+  "erikson",
+  "development"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS2-0009",
+ "categorySlug": "pediatrics",
+ "stem": "A newborn has a positive Babinski response. What does this indicate?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "A normal infant neurological reflex"
+  },
+  {
+   "id": "b",
+   "text": "A definite spinal cord injury"
+  },
+  {
+   "id": "c",
+   "text": "A sign of adult peripheral neuropathy"
+  },
+  {
+   "id": "d",
+   "text": "Absence of neurological function"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "In infants, dorsiflexion of the great toe and fanning of the other toes can be a normal Babinski response because corticospinal pathways are immature.",
+ "strategy": "Interpret reflexes according to age; an infant response may be abnormal in an adult.",
+ "difficulty": "hard",
+ "tags": [
+  "newborn",
+  "reflexes"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS2-0010",
+ "categorySlug": "pediatrics",
+ "stem": "The sucking reflex usually becomes a more voluntary action by approximately:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "2 months"
+  },
+  {
+   "id": "b",
+   "text": "6 months"
+  },
+  {
+   "id": "c",
+   "text": "10 months"
+  },
+  {
+   "id": "d",
+   "text": "18 months"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "The sucking reflex becomes integrated as voluntary oral-motor control develops, usually around four to six months.",
+ "strategy": "Use six months as the approximate transition from reflexive to voluntary sucking.",
+ "difficulty": "hard",
+ "tags": [
+  "infant",
+  "reflexes"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS2-0011",
+ "categorySlug": "pediatrics",
+ "stem": "A child with tetanus has spasms triggered by noise and touch. Which intervention is most important?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Reduce external stimuli and maintain a calm, quiet environment"
+  },
+  {
+   "id": "b",
+   "text": "Encourage frequent visitors"
+  },
+  {
+   "id": "c",
+   "text": "Keep bright lights on for observation"
+  },
+  {
+   "id": "d",
+   "text": "Perform unnecessary procedures frequently"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Tetanus spasms are triggered by sensory stimuli; a quiet, dark environment reduces episodes while airway and medication support are maintained.",
+ "strategy": "Minimise stimulation and prepare for airway complications in tetanus.",
+ "difficulty": "hard",
+ "tags": [
+  "tetanus",
+  "paediatrics"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS2-0012",
+ "categorySlug": "pediatrics",
+ "stem": "A 4-year-old is convulsing and feels very hot. What should the nurse do first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Protect the airway and safety, then assess temperature and treat fever as prescribed"
+  },
+  {
+   "id": "b",
+   "text": "Force paracetamol into the mouth during the seizure"
+  },
+  {
+   "id": "c",
+   "text": "Restrain the limbs"
+  },
+  {
+   "id": "d",
+   "text": "Place an object in the mouth"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "During a seizure, protect the airway and prevent injury; never force oral medication or place objects in the mouth. After the seizure, assess temperature and administer prescribed antipyretic.",
+ "strategy": "Seizure safety and airway come before fever treatment.",
+ "difficulty": "hard",
+ "tags": [
+  "seizure",
+  "paediatric-emergency"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS2-0013",
+ "categorySlug": "pediatrics",
+ "stem": "An adolescent with type 1 diabetes should be taught to carry:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "A rapid source of glucose"
+  },
+  {
+   "id": "b",
+   "text": "Only a concentrated protein supplement"
+  },
+  {
+   "id": "c",
+   "text": "No food outside the home"
+  },
+  {
+   "id": "d",
+   "text": "A bathroom scale"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Rapid glucose is needed to treat early hypoglycaemia, especially during school, exercise or travel.",
+ "strategy": "Diabetes self-management includes immediate access to glucose and identification.",
+ "difficulty": "hard",
+ "tags": [
+  "diabetes",
+  "adolescent"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS2-0014",
+ "categorySlug": "pediatrics",
+ "stem": "Two school-aged siblings compete for toys and interrupt each other during a home visit. How should this be documented?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Social isolation"
+  },
+  {
+   "id": "b",
+   "text": "Sibling rivalry"
+  },
+  {
+   "id": "c",
+   "text": "Failure to thrive"
+  },
+  {
+   "id": "d",
+   "text": "Parental rejection"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Competition for resources or parental attention is consistent with sibling rivalry and is common in childhood.",
+ "strategy": "Describe observable behaviour and interpret it within family development.",
+ "difficulty": "hard",
+ "tags": [
+  "family",
+  "development"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS2-0015",
+ "categorySlug": "pediatrics",
+ "stem": "A child who had a cardiac catheterisation has a dressing saturated with blood. What should the nurse do first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Apply firm pressure to the catheter insertion site and call for help"
+  },
+  {
+   "id": "b",
+   "text": "Reinforce the dressing without checking the site"
+  },
+  {
+   "id": "c",
+   "text": "Sit the child upright and leave the site unattended"
+  },
+  {
+   "id": "d",
+   "text": "Wait for the next routine observation"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Saturated blood indicates active bleeding. Direct pressure at the insertion site controls haemorrhage while assistance is summoned and circulation is assessed.",
+ "strategy": "After invasive vascular procedures, bleeding requires immediate direct pressure.",
+ "difficulty": "hard",
+ "tags": [
+  "cardiac-catheterisation",
+  "bleeding"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS2-0016",
+ "categorySlug": "pediatrics",
+ "stem": "A child with meningitis is receiving antibiotics. Which change requires immediate escalation?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "New reduced level of consciousness"
+  },
+  {
+   "id": "b",
+   "text": "Mild headache improving with analgesia"
+  },
+  {
+   "id": "c",
+   "text": "Appetite returning"
+  },
+  {
+   "id": "d",
+   "text": "Temperature decreasing"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "A declining level of consciousness may indicate raised intracranial pressure, seizures or worsening infection and requires immediate assessment.",
+ "strategy": "In meningitis, neurological deterioration outranks improving general symptoms.",
+ "difficulty": "hard",
+ "tags": [
+  "meningitis",
+  "neurological-observation"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS2-0017",
+ "categorySlug": "pediatrics",
+ "stem": "A parent finds a 3-year-old with an open bottle of mouthwash and is unsure how much was swallowed. What should the nurse ask first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "How is the child now, including breathing and level of consciousness?"
+  },
+  {
+   "id": "b",
+   "text": "Give a cup of water immediately"
+  },
+  {
+   "id": "c",
+   "text": "Induce vomiting"
+  },
+  {
+   "id": "d",
+   "text": "Wait until symptoms develop"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Immediate assessment of airway, breathing, circulation and consciousness identifies a poisoning emergency. Poison-control guidance follows; vomiting should not be induced.",
+ "strategy": "In suspected poisoning, assess the child first and contact poison services promptly.",
+ "difficulty": "hard",
+ "tags": [
+  "poisoning",
+  "paediatrics"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS2-0018",
+ "categorySlug": "pediatrics",
+ "stem": "When administering ear drops to a 5-year-old, how should the pinna be positioned?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Down and forward"
+  },
+  {
+   "id": "b",
+   "text": "Up and back"
+  },
+  {
+   "id": "c",
+   "text": "Straight down only"
+  },
+  {
+   "id": "d",
+   "text": "Pulled toward the nose"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "For children older than three years, the pinna is pulled up and back to straighten the ear canal.",
+ "strategy": "Remember: infants and young toddlers down and back; older children up and back.",
+ "difficulty": "hard",
+ "tags": [
+  "medication",
+  "ear-care"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS2-0019",
+ "categorySlug": "pediatrics",
+ "stem": "Which finding in a child with chronic illness most strongly suggests an effect on growth?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Growth remains parallel to the expected percentile"
+  },
+  {
+   "id": "b",
+   "text": "Height and weight are unaffected in all chronic illness"
+  },
+  {
+   "id": "c",
+   "text": "Crossing downward through established growth percentiles"
+  },
+  {
+   "id": "d",
+   "text": "A single day of reduced appetite"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Chronic illness may cause poor weight gain or downward crossing of growth percentiles, requiring nutritional and medical assessment.",
+ "strategy": "Use serial growth trends rather than a single measurement.",
+ "difficulty": "hard",
+ "tags": [
+  "growth",
+  "chronic-illness"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS2-0020",
+ "categorySlug": "pediatrics",
+ "stem": "A nurse teaches a parent how to prevent infant suffocation. Which statement shows understanding?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "I will keep loose pillows, heavy blankets and toys out of the sleep space"
+  },
+  {
+   "id": "b",
+   "text": "I will place my infant prone after feeding"
+  },
+  {
+   "id": "c",
+   "text": "I will use a soft pillow under the head"
+  },
+  {
+   "id": "d",
+   "text": "I will cover the infant’s face to keep it warm"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "A firm, clear sleep surface without loose bedding reduces suffocation and sleep-related risks.",
+ "strategy": "Safe sleep means supine positioning and a clear, firm sleep space.",
+ "difficulty": "hard",
+ "tags": [
+  "safe-sleep",
+  "suffocation"
  ],
  "isFree": false
 }
