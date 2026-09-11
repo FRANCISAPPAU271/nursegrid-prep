@@ -23,7 +23,7 @@ export type AuthoredQuestion = {
   mediaCaption?: string;
 };
 
-export const AUTHORED_COUNT = 3289;
+export const AUTHORED_COUNT = 3309;
 export const AUTHORED_COUNT_LABEL = "3,200+";
 export const AUTHORED_DIAGRAM_COUNT = 569;
 
@@ -112644,6 +112644,641 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "difficulty": "hard",
  "tags": [
   "electrolytes"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-NEURO-0001",
+ "categorySlug": "med-surg",
+ "stem": "After handover, which patient should the registered nurse assess first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "A 12-year-old with a respiratory rate of 30/min and no distress"
+  },
+  {
+   "id": "b",
+   "text": "A 54-year-old with a new temperature of 38.5°C"
+  },
+  {
+   "id": "c",
+   "text": "A 33-year-old with a tracheostomy, SpO2 96% on room air and no distress"
+  },
+  {
+   "id": "d",
+   "text": "A 7-year-old with diabetes awaiting discharge"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "A new fever may signal acute infection or deterioration and requires prompt assessment; the other findings are stable or expected in context.",
+ "strategy": "Prioritise new or changing findings over stable findings and discharge tasks.",
+ "difficulty": "hard",
+ "tags": [
+  "prioritisation",
+  "assessment"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-NEURO-0002",
+ "categorySlug": "med-surg",
+ "stem": "A patient with thrombophlebitis suddenly develops chest pain, dyspnoea and anxiety. Which complication should the nurse suspect first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Pulmonary oedema"
+  },
+  {
+   "id": "b",
+   "text": "Pulmonary embolism"
+  },
+  {
+   "id": "c",
+   "text": "Pneumonia"
+  },
+  {
+   "id": "d",
+   "text": "Myocardial infarction"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "A venous thrombus can embolise to the lungs, producing sudden dyspnoea, pleuritic chest pain, tachycardia and anxiety. This is an emergency.",
+ "strategy": "A sudden respiratory change in a patient with DVT is pulmonary embolism until proven otherwise.",
+ "difficulty": "hard",
+ "tags": [
+  "pulmonary-embolism",
+  "dvt"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-NEURO-0003",
+ "categorySlug": "med-surg",
+ "stem": "A patient with acute stroke has right-sided paralysis. Which instruction is correct when descending stairs with a walking stick?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Move the unaffected leg first, then the stick, then the affected leg"
+  },
+  {
+   "id": "b",
+   "text": "Move the stick and affected leg down first, then the unaffected leg"
+  },
+  {
+   "id": "c",
+   "text": "Move the affected leg first, then the unaffected leg and stick"
+  },
+  {
+   "id": "d",
+   "text": "Move the unaffected leg and affected leg together"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "When descending, the aid and affected leg move first, followed by the stronger leg: “up with the good, down with the bad.”",
+ "strategy": "For stairs, remember: good leg leads going up; stick and affected leg lead going down.",
+ "difficulty": "hard",
+ "tags": [
+  "stroke",
+  "mobility"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-NEURO-0004",
+ "categorySlug": "med-surg",
+ "stem": "A patient is found unresponsive with new left-sided flaccidity. What is the nurse’s priority intervention?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Assess blood pressure"
+  },
+  {
+   "id": "b",
+   "text": "Assess airway and breathing"
+  },
+  {
+   "id": "c",
+   "text": "Measure urine output"
+  },
+  {
+   "id": "d",
+   "text": "Move the patient to a critical-care bed without assessment"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "An unresponsive patient may have lost airway protection. ABC assessment and support come before secondary neurological observations.",
+ "strategy": "In any acute neurological collapse, assess airway and breathing first.",
+ "difficulty": "hard",
+ "tags": [
+  "stroke",
+  "airway"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-NEURO-0005",
+ "categorySlug": "med-surg",
+ "stem": "Which is the most common type of stroke in adults?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Haemorrhagic"
+  },
+  {
+   "id": "b",
+   "text": "Ischaemic"
+  },
+  {
+   "id": "c",
+   "text": "Subdural haemorrhage"
+  },
+  {
+   "id": "d",
+   "text": "Epidural haemorrhage"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Most strokes are ischaemic, caused by arterial occlusion from thrombosis or embolism; haemorrhagic strokes are less common.",
+ "strategy": "Distinguish the common occlusive stroke from bleeding stroke.",
+ "difficulty": "hard",
+ "tags": [
+  "stroke",
+  "ischaemia"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-NEURO-0006",
+ "categorySlug": "med-surg",
+ "stem": "Which is the strongest modifiable risk factor for stroke?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Diabetes"
+  },
+  {
+   "id": "b",
+   "text": "Heart disease"
+  },
+  {
+   "id": "c",
+   "text": "Hypertension"
+  },
+  {
+   "id": "d",
+   "text": "Renal insufficiency"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Persistent hypertension damages cerebral vessels and is the most important modifiable stroke risk factor.",
+ "strategy": "When asked for the strongest modifiable stroke risk, choose hypertension.",
+ "difficulty": "hard",
+ "tags": [
+  "stroke",
+  "hypertension"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-NEURO-0007",
+ "categorySlug": "med-surg",
+ "stem": "A family asks whether a patient who had a stroke will speak normally again. Which response is most appropriate?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Speech will definitely return to normal"
+  },
+  {
+   "id": "b",
+   "text": "It is difficult to predict the exact degree of recovery, but rehabilitation can help"
+  },
+  {
+   "id": "c",
+   "text": "Nurses cannot discuss recovery"
+  },
+  {
+   "id": "d",
+   "text": "What you see today is all the recovery possible"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Stroke recovery varies with lesion location, severity, health and rehabilitation. Honest uncertainty with realistic hope is appropriate.",
+ "strategy": "Avoid absolute predictions; discuss individual variability and rehabilitation.",
+ "difficulty": "hard",
+ "tags": [
+  "stroke",
+  "communication"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-NEURO-0008",
+ "categorySlug": "med-surg",
+ "stem": "A patient suddenly develops a fixed, dilated pupil. What should the nurse do?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Check visual acuity and reassess later"
+  },
+  {
+   "id": "b",
+   "text": "Notify the physician or rapid-response team immediately"
+  },
+  {
+   "id": "c",
+   "text": "Lower the head of the bed"
+  },
+  {
+   "id": "d",
+   "text": "Wait five minutes for spontaneous resolution"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "A fixed dilated pupil may indicate raised intracranial pressure or herniation and requires immediate escalation. Lowering the head may worsen intracranial pressure.",
+ "strategy": "A new fixed pupil is an acute neurological emergency, not a routine visual finding.",
+ "difficulty": "hard",
+ "tags": [
+  "intracranial-pressure",
+  "neurological-observation"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-NEURO-0009",
+ "categorySlug": "med-surg",
+ "stem": "Thrombolytic therapy is considered for which type of stroke after haemorrhage is excluded?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Atherosclerotic only"
+  },
+  {
+   "id": "b",
+   "text": "Haemorrhagic"
+  },
+  {
+   "id": "c",
+   "text": "Ischaemic"
+  },
+  {
+   "id": "d",
+   "text": "Occipital only"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Thrombolysis targets an occluding clot in an eligible acute ischaemic stroke. It is contraindicated in intracranial haemorrhage.",
+ "strategy": "Always confirm stroke type and eligibility before thrombolysis.",
+ "difficulty": "hard",
+ "tags": [
+  "stroke",
+  "thrombolysis"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-NEURO-0010",
+ "categorySlug": "med-surg",
+ "stem": "Which organism is not a recognised cause of meningitis?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Clostridioides difficile"
+  },
+  {
+   "id": "b",
+   "text": "Haemophilus influenzae"
+  },
+  {
+   "id": "c",
+   "text": "Neisseria meningitidis"
+  },
+  {
+   "id": "d",
+   "text": "Streptococcus pneumoniae"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "C. difficile primarily causes antibiotic-associated colitis; the other organisms are recognised bacterial causes of meningitis.",
+ "strategy": "Separate common meningitis pathogens from organisms associated with gastrointestinal disease.",
+ "difficulty": "hard",
+ "tags": [
+  "meningitis",
+  "infection"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-NEURO-0011",
+ "categorySlug": "med-surg",
+ "stem": "A client with bacterial meningitis should initially be cared for in which setting?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "A shared room with a patient who has viral meningitis"
+  },
+  {
+   "id": "b",
+   "text": "An isolation room with appropriate droplet precautions"
+  },
+  {
+   "id": "c",
+   "text": "A room previously used by a meningitis patient without cleaning"
+  },
+  {
+   "id": "d",
+   "text": "A crowded general ward"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Suspected bacterial meningitis requires prompt droplet precautions and appropriate isolation according to local policy while treatment begins.",
+ "strategy": "Use isolation and respiratory precautions for suspected meningococcal or bacterial meningitis.",
+ "difficulty": "hard",
+ "tags": [
+  "meningitis",
+  "isolation"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-NEURO-0012",
+ "categorySlug": "med-surg",
+ "stem": "Which finding is most characteristic of acute meningitis?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Severe headache, fever and neck stiffness"
+  },
+  {
+   "id": "b",
+   "text": "Gradual fatigue and low-grade fever"
+  },
+  {
+   "id": "c",
+   "text": "Severe chest pain and dyspnoea"
+  },
+  {
+   "id": "d",
+   "text": "Unilateral weakness and slurred speech"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Fever, severe headache, neck stiffness and altered mental status are classic meningitis features, although not all are always present.",
+ "strategy": "Recognise the acute meningeal pattern and escalate rapidly.",
+ "difficulty": "hard",
+ "tags": [
+  "meningitis"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-NEURO-0013",
+ "categorySlug": "med-surg",
+ "stem": "Which finding would be expected in myasthenia gravis?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Fatigable difficulty swallowing and speaking"
+  },
+  {
+   "id": "b",
+   "text": "Muscle rigidity and resting tremor"
+  },
+  {
+   "id": "c",
+   "text": "Distal numbness and tingling"
+  },
+  {
+   "id": "d",
+   "text": "Hyperreflexia with spasticity"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Myasthenia gravis causes fluctuating, fatigable skeletal-muscle weakness, commonly affecting ocular, bulbar and respiratory muscles.",
+ "strategy": "Fatigability distinguishes neuromuscular-junction weakness from sensory or upper-motor-neuron signs.",
+ "difficulty": "hard",
+ "tags": [
+  "myasthenia-gravis"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-NEURO-0014",
+ "categorySlug": "med-surg",
+ "stem": "Which part of the brain is protected by the blood–brain barrier from many circulating substances?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "The brain tissue and central nervous system microenvironment"
+  },
+  {
+   "id": "b",
+   "text": "Only the cerebrospinal fluid outside the skull"
+  },
+  {
+   "id": "c",
+   "text": "Only the spinal vertebrae"
+  },
+  {
+   "id": "d",
+   "text": "The peripheral nerves only"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "The blood–brain barrier is formed by specialised CNS capillary endothelium and limits movement of many substances from blood into neural tissue.",
+ "strategy": "The barrier protects neural tissue, not the skull or peripheral nerves.",
+ "difficulty": "hard",
+ "tags": [
+  "neuroanatomy"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-NEURO-0015",
+ "categorySlug": "med-surg",
+ "stem": "A patient with reduced consciousness after stroke is at risk of aspiration. Which position is generally safest while airway support is assessed?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Prone"
+  },
+  {
+   "id": "b",
+   "text": "Side-lying with airway maintained"
+  },
+  {
+   "id": "c",
+   "text": "Flat supine without observation"
+  },
+  {
+   "id": "d",
+   "text": "Trendelenburg"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Side-lying helps secretions drain and reduces aspiration risk while the airway and breathing are assessed; the exact position depends on injury and airway needs.",
+ "strategy": "For reduced consciousness, protect airway and allow drainage of secretions.",
+ "difficulty": "hard",
+ "tags": [
+  "stroke",
+  "aspiration"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-NEURO-0016",
+ "categorySlug": "med-surg",
+ "stem": "Cranial nerve I is the:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Facial nerve"
+  },
+  {
+   "id": "b",
+   "text": "Trochlear nerve"
+  },
+  {
+   "id": "c",
+   "text": "Oculomotor nerve"
+  },
+  {
+   "id": "d",
+   "text": "Olfactory nerve"
+  }
+ ],
+ "correctChoiceId": "d",
+ "rationale": "Cranial nerve I carries the sense of smell and is the olfactory nerve.",
+ "strategy": "Use the cranial-nerve sequence: I olfactory, II optic, III oculomotor.",
+ "difficulty": "hard",
+ "tags": [
+  "cranial-nerves"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-NEURO-0017",
+ "categorySlug": "med-surg",
+ "stem": "A patient calls with heartburn radiating to the jaw. Which message should the nurse return first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "A child with knee pain after basketball"
+  },
+  {
+   "id": "b",
+   "text": "A man with heartburn radiating to the jaw"
+  },
+  {
+   "id": "c",
+   "text": "A woman with hot flashes and insomnia"
+  },
+  {
+   "id": "d",
+   "text": "A pregnant woman with uncomplicated heartburn"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Jaw-radiating discomfort may be an atypical acute coronary syndrome and requires immediate assessment.",
+ "strategy": "Treat possible cardiac equivalents as urgent even when the word “heartburn” is used.",
+ "difficulty": "hard",
+ "tags": [
+  "acute-coronary-syndrome",
+  "triage"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-NEURO-0018",
+ "categorySlug": "med-surg",
+ "stem": "Which symptom is a key warning sign requiring urgent stroke action?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Sudden weakness or numbness of the face or arm"
+  },
+  {
+   "id": "b",
+   "text": "Gradual fatigue over several months"
+  },
+  {
+   "id": "c",
+   "text": "A chronic medication list"
+  },
+  {
+   "id": "d",
+   "text": "A family history without symptoms"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Sudden focal neurological deficit is a classic stroke warning sign; emergency services should be activated immediately.",
+ "strategy": "Remember FAST and sudden focal deficits; do not wait for symptoms to resolve.",
+ "difficulty": "hard",
+ "tags": [
+  "stroke",
+  "health-promotion"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-NEURO-0019",
+ "categorySlug": "med-surg",
+ "stem": "A patient with suspected spinal cord injury has which priority nursing problem?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Impaired airway clearance when breathing is compromised"
+  },
+  {
+   "id": "b",
+   "text": "Fluid-volume deficit in every case"
+  },
+  {
+   "id": "c",
+   "text": "Impaired physical mobility only"
+  },
+  {
+   "id": "d",
+   "text": "Constipation only"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Spinal cord injury can impair respiratory muscle function and airway clearance, especially with cervical or high thoracic injury. ABC threats take priority over mobility planning.",
+ "strategy": "Prioritise airway and breathing before neurological rehabilitation needs.",
+ "difficulty": "hard",
+ "tags": [
+  "spinal-cord-injury",
+  "airway"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-NEURO-0020",
+ "categorySlug": "med-surg",
+ "stem": "A client with a fixed dilated pupil and declining consciousness should be placed with which priority?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Head and neck aligned, head elevated as prescribed, while urgent help is called"
+  },
+  {
+   "id": "b",
+   "text": "Flat with hips flexed"
+  },
+  {
+   "id": "c",
+   "text": "Trendelenburg"
+  },
+  {
+   "id": "d",
+   "text": "Prone with the neck rotated"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Head and neck alignment and appropriate head elevation can support venous drainage while urgent management of raised intracranial pressure is initiated.",
+ "strategy": "For suspected raised intracranial pressure, protect oxygenation and venous drainage and escalate immediately.",
+ "difficulty": "hard",
+ "tags": [
+  "intracranial-pressure"
  ],
  "isFree": false
 }
