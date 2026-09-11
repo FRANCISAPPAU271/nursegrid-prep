@@ -23,7 +23,7 @@ export type AuthoredQuestion = {
   mediaCaption?: string;
 };
 
-export const AUTHORED_COUNT = 3219;
+export const AUTHORED_COUNT = 3269;
 export const AUTHORED_COUNT_LABEL = "3,200+";
 export const AUTHORED_DIAGRAM_COUNT = 569;
 
@@ -110424,5 +110424,1605 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "explaining a diagnosis to a child"
   ],
   "isFree": false
- }
+ },
+{
+ "authoredId": "NG-BATCH2-0001",
+ "categorySlug": "med-surg",
+ "stem": "A client with acute pulmonary oedema is severely dyspnoeic, coughing pink frothy sputum and has an SpO2 of 82%. Which action should the nurse take first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Place the client flat to improve cerebral perfusion"
+  },
+  {
+   "id": "b",
+   "text": "Sit the client upright with legs dependent and apply prescribed oxygen"
+  },
+  {
+   "id": "c",
+   "text": "Encourage oral fluids to loosen secretions"
+  },
+  {
+   "id": "d",
+   "text": "Obtain a routine 12-lead ECG before intervening"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Upright positioning reduces venous return and improves lung expansion while oxygen corrects life-threatening hypoxaemia. The ECG and other investigations occur after immediate breathing support.",
+ "strategy": "Prioritise airway and breathing before diagnostics; in pulmonary oedema, position and oxygen are immediate nursing actions.",
+ "difficulty": "hard",
+ "tags": [
+  "heart-failure",
+  "airway"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0002",
+ "categorySlug": "med-surg",
+ "stem": "A client with diabetic ketoacidosis has received the first litre of isotonic fluid. The potassium is 3.0 mmol/L and insulin is prescribed. What should the nurse do?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Start insulin immediately as prescribed"
+  },
+  {
+   "id": "b",
+   "text": "Give sodium bicarbonate before any further treatment"
+  },
+  {
+   "id": "c",
+   "text": "Hold insulin and notify the prescriber for potassium replacement"
+  },
+  {
+   "id": "d",
+   "text": "Restrict fluids until the potassium normalises"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Insulin shifts potassium into cells and can precipitate fatal dysrhythmia when potassium is below 3.3 mmol/L. Potassium must be replaced before insulin is started, while fluid resuscitation continues.",
+ "strategy": "In DKA, check potassium before insulin: low potassium is the exception that delays insulin.",
+ "difficulty": "hard",
+ "tags": [
+  "dka",
+  "electrolytes"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0003",
+ "categorySlug": "med-surg",
+ "stem": "A client suddenly develops aphasia and right-sided weakness 45 minutes after arriving on the ward. Which information is most important to obtain immediately?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "The client’s last known well time"
+  },
+  {
+   "id": "b",
+   "text": "Whether the client ate breakfast"
+  },
+  {
+   "id": "c",
+   "text": "The client’s usual sleep pattern"
+  },
+  {
+   "id": "d",
+   "text": "Whether the client has a family history of dementia"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "The last known well time determines eligibility for time-sensitive reperfusion treatment. Stroke assessment and escalation must not be delayed for less urgent history.",
+ "strategy": "For acute neurological change, establish onset or last known well time and activate the stroke pathway.",
+ "difficulty": "hard",
+ "tags": [
+  "stroke",
+  "time-critical"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0004",
+ "categorySlug": "med-surg",
+ "stem": "A client with cirrhosis becomes confused and has asterixis. Which prescription should the nurse anticipate?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Lactulose titrated to regular soft stools"
+  },
+  {
+   "id": "b",
+   "text": "A high-protein meal at bedtime only"
+  },
+  {
+   "id": "c",
+   "text": "An antidiarrhoeal agent"
+  },
+  {
+   "id": "d",
+   "text": "Fluid restriction to 500 mL daily"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Confusion and asterixis suggest hepatic encephalopathy. Lactulose reduces intestinal ammonia absorption and is titrated to two or three soft stools daily.",
+ "strategy": "Recognise asterixis plus altered mental status as encephalopathy and connect lactulose with ammonia reduction.",
+ "difficulty": "hard",
+ "tags": [
+  "liver",
+  "encephalopathy"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0005",
+ "categorySlug": "med-surg",
+ "stem": "A client receiving unfractionated heparin develops a platelet fall from 220 to 92 ×10^9/L on day 7 and has a new painful swollen leg. What is the priority action?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Stop heparin and notify the prescriber immediately"
+  },
+  {
+   "id": "b",
+   "text": "Administer the next heparin dose with food"
+  },
+  {
+   "id": "c",
+   "text": "Give vitamin K"
+  },
+  {
+   "id": "d",
+   "text": "Apply a warm compress and reassess tomorrow"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "A platelet fall greater than 50% with new thrombosis strongly suggests heparin-induced thrombocytopenia. Heparin must stop and an alternative anticoagulant is urgently prescribed.",
+ "strategy": "A major platelet fall after heparin plus thrombosis is HIT until proven otherwise; stop exposure, do not wait for confirmation.",
+ "difficulty": "hard",
+ "tags": [
+  "hit",
+  "anticoagulation"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0006",
+ "categorySlug": "med-surg",
+ "stem": "A client with a chest tube has continuous bubbling in the water-seal chamber after returning from mobilisation. What should the nurse do first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Clamp the tube for 30 minutes"
+  },
+  {
+   "id": "b",
+   "text": "Assess the tubing and connections for an air leak"
+  },
+  {
+   "id": "c",
+   "text": "Milk the tubing forcefully toward the client"
+  },
+  {
+   "id": "d",
+   "text": "Disconnect the system and leave the tube open"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Continuous bubbling may indicate an air leak. The nurse traces the system from the client outward, checking connections and the dressing; routine clamping can cause tension pneumothorax.",
+ "strategy": "When drainage-system bubbling changes, assess the system before manipulating or clamping it.",
+ "difficulty": "hard",
+ "tags": [
+  "chest-tube",
+  "respiratory"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0007",
+ "categorySlug": "med-surg",
+ "stem": "A client with suspected sepsis has a lactate of 5.2 mmol/L, cool mottled skin and urine output of 10 mL in two hours. Which finding is the strongest evidence of worsening perfusion?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Temperature 38.1°C"
+  },
+  {
+   "id": "b",
+   "text": "Urine output of 10 mL in two hours"
+  },
+  {
+   "id": "c",
+   "text": "Heart rate 104/min"
+  },
+  {
+   "id": "d",
+   "text": "White-cell count 15 ×10^9/L"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Very low urine output reflects inadequate renal perfusion and is a late, serious sign of shock. Temperature and white-cell count indicate inflammation but do not measure organ perfusion directly.",
+ "strategy": "In sepsis questions, identify the finding that shows organ hypoperfusion rather than inflammation alone.",
+ "difficulty": "hard",
+ "tags": [
+  "sepsis",
+  "shock"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0008",
+ "categorySlug": "med-surg",
+ "stem": "A client with a new tracheostomy becomes restless, cyanotic and has no air movement through the tube. What is the nurse’s priority?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Give oral fluids"
+  },
+  {
+   "id": "b",
+   "text": "Remove the inner cannula and assess for obstruction while calling for help"
+  },
+  {
+   "id": "c",
+   "text": "Place the client supine and leave the tube untouched"
+  },
+  {
+   "id": "d",
+   "text": "Change the tracheostomy ties first"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Absent airflow with cyanosis is an airway emergency. Calling for help and checking/removing a blocked inner cannula can rapidly restore patency; oxygen is given over the face and tube as appropriate.",
+ "strategy": "For a tracheostomy emergency, treat loss of airflow as airway obstruction and act immediately.",
+ "difficulty": "hard",
+ "tags": [
+  "tracheostomy",
+  "airway"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0009",
+ "categorySlug": "fundamentals",
+ "stem": "A client is found on the floor after an unwitnessed fall and reports neck pain. What should the nurse do first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Help the client stand"
+  },
+  {
+   "id": "b",
+   "text": "Assess airway and breathing while maintaining spinal alignment"
+  },
+  {
+   "id": "c",
+   "text": "Offer analgesia before assessment"
+  },
+  {
+   "id": "d",
+   "text": "Move the client to bed using one person"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "After a fall with neck pain, spinal injury is possible. The nurse assesses ABCs while keeping the head and neck aligned and calls for assistance before moving the client.",
+ "strategy": "After trauma, stabilise the spine and assess ABCs before moving or medicating.",
+ "difficulty": "hard",
+ "tags": [
+  "falls",
+  "trauma"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0010",
+ "categorySlug": "fundamentals",
+ "stem": "A confused client repeatedly pulls at a central line. Which intervention is least restrictive and most appropriate initially?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Apply wrist restraints immediately"
+  },
+  {
+   "id": "b",
+   "text": "Explain the line, provide close observation and address pain or delirium triggers"
+  },
+  {
+   "id": "c",
+   "text": "Sedate the client without assessment"
+  },
+  {
+   "id": "d",
+   "text": "Tie the client’s hands to the bed rails"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Reorientation, observation and treatment of reversible causes are less restrictive than restraints and may remove the behaviour’s cause. Restraints require a last-resort assessment and monitoring.",
+ "strategy": "Use the least restrictive intervention first and search for reversible causes of agitation.",
+ "difficulty": "hard",
+ "tags": [
+  "restraints",
+  "delirium"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0011",
+ "categorySlug": "fundamentals",
+ "stem": "A client with dysphagia begins coughing and develops a wet voice during a meal. What should the nurse do first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Continue feeding slowly"
+  },
+  {
+   "id": "b",
+   "text": "Stop the meal, keep the client upright and assess airway"
+  },
+  {
+   "id": "c",
+   "text": "Offer thin water to clear the throat"
+  },
+  {
+   "id": "d",
+   "text": "Place the client flat"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Coughing and a wet voice suggest aspiration. Stop oral intake, maintain upright positioning and assess breathing before further swallowing assessment.",
+ "strategy": "A wet voice during eating is an aspiration warning; stop intake before offering anything else.",
+ "difficulty": "hard",
+ "tags": [
+  "dysphagia",
+  "aspiration"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0012",
+ "categorySlug": "fundamentals",
+ "stem": "Which task is appropriate for the nurse to delegate to an experienced healthcare assistant?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Assess a newly admitted client with chest pain"
+  },
+  {
+   "id": "b",
+   "text": "Teach insulin self-injection"
+  },
+  {
+   "id": "c",
+   "text": "Measure and record vital signs for a stable client"
+  },
+  {
+   "id": "d",
+   "text": "Evaluate a pressure injury"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Routine vital signs for a stable client can be delegated with clear instructions and reporting parameters. Assessment, teaching and evaluation require the registered nurse.",
+ "strategy": "Delegate predictable tasks for stable clients; retain assessment, teaching and evaluation.",
+ "difficulty": "hard",
+ "tags": [
+  "delegation",
+  "scope"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0013",
+ "categorySlug": "fundamentals",
+ "stem": "A client receiving enteral feeding suddenly vomits and becomes breathless. What is the priority action?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Increase the feeding rate later"
+  },
+  {
+   "id": "b",
+   "text": "Stop the feeding and position the client upright"
+  },
+  {
+   "id": "c",
+   "text": "Flush the tube with 100 mL water"
+  },
+  {
+   "id": "d",
+   "text": "Place the client flat for comfort"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Vomiting with breathlessness suggests aspiration. Stop the feed, position upright and assess airway and oxygenation; further tube actions wait until stabilised.",
+ "strategy": "When enteral feeding complications affect breathing, stop the feed and manage airway risk first.",
+ "difficulty": "hard",
+ "tags": [
+  "enteral",
+  "aspiration"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0014",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A client taking digoxin reports nausea and seeing yellow halos. The apical pulse is 48/min. What should the nurse do?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Give the dose with food"
+  },
+  {
+   "id": "b",
+   "text": "Hold digoxin and notify the prescriber"
+  },
+  {
+   "id": "c",
+   "text": "Administer an extra dose to control the pulse"
+  },
+  {
+   "id": "d",
+   "text": "Encourage vigorous exercise"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Bradycardia, gastrointestinal symptoms and visual changes indicate possible digoxin toxicity. The dose should be withheld and the prescriber notified for ECG, level and electrolyte assessment.",
+ "strategy": "Combine pulse, gastrointestinal and visual findings to recognise digoxin toxicity.",
+ "difficulty": "hard",
+ "tags": [
+  "digoxin",
+  "toxicity"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0015",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A client receiving IV vancomycin develops flushing, pruritus and hypotension during infusion. Which action is most appropriate?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Increase the infusion rate"
+  },
+  {
+   "id": "b",
+   "text": "Stop or slow the infusion, assess the client and notify the prescriber"
+  },
+  {
+   "id": "c",
+   "text": "Give the next dose early"
+  },
+  {
+   "id": "d",
+   "text": "Ignore the findings because they are expected"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Rapid vancomycin infusion can cause vancomycin infusion reaction with flushing, pruritus and hypotension. Stop or slow the infusion, assess and treat as prescribed.",
+ "strategy": "Link flushing during vancomycin to infusion rate; do not continue an unstable infusion.",
+ "difficulty": "hard",
+ "tags": [
+  "vancomycin",
+  "infusion"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0016",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A client on warfarin has an INR of 7.2 and bleeding gums. Which prescription should the nurse question?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Hold warfarin and obtain urgent review"
+  },
+  {
+   "id": "b",
+   "text": "Administer vitamin K as prescribed"
+  },
+  {
+   "id": "c",
+   "text": "Give aspirin for additional antiplatelet effect"
+  },
+  {
+   "id": "d",
+   "text": "Assess for other bleeding and apply local pressure"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Aspirin increases bleeding risk and is inappropriate in a client with supratherapeutic anticoagulation and active bleeding. Warfarin is held and vitamin K may be prescribed.",
+ "strategy": "When anticoagulation is excessive, avoid medications that increase bleeding and escalate promptly.",
+ "difficulty": "hard",
+ "tags": [
+  "warfarin",
+  "bleeding"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0017",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A client with severe asthma is prescribed salbutamol by nebuliser and develops tremor and a pulse of 132/min. What is the best nursing response?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Assess severity, oxygenation and response, then notify the prescriber if persistent"
+  },
+  {
+   "id": "b",
+   "text": "Withhold all future bronchodilators permanently"
+  },
+  {
+   "id": "c",
+   "text": "Give a beta-blocker immediately"
+  },
+  {
+   "id": "d",
+   "text": "Tell the client the symptoms prove the asthma is worsening"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Tremor and tachycardia are common beta2-agonist effects, but marked tachycardia requires assessment of oxygenation, rhythm and clinical response.",
+ "strategy": "Separate expected medication effects from dangerous severity; assess the client, not just the side effect.",
+ "difficulty": "hard",
+ "tags": [
+  "asthma",
+  "salbutamol"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0018",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A client prescribed gentamicin has a rising creatinine and reports tinnitus. Which action is priority?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Administer the dose and document the symptoms later"
+  },
+  {
+   "id": "b",
+   "text": "Hold the dose and urgently notify the prescriber"
+  },
+  {
+   "id": "c",
+   "text": "Encourage double dosing to clear the infection"
+  },
+  {
+   "id": "d",
+   "text": "Give an NSAID for the tinnitus"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Rising creatinine suggests nephrotoxicity and tinnitus suggests ototoxicity, both serious aminoglycoside effects. The dose is withheld pending urgent review and drug-level assessment.",
+ "strategy": "For aminoglycosides, kidney injury plus hearing symptoms means stop and escalate.",
+ "difficulty": "hard",
+ "tags": [
+  "gentamicin",
+  "nephrotoxicity"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0019",
+ "categorySlug": "maternal-newborn",
+ "stem": "A woman 34 weeks pregnant has painless bright-red vaginal bleeding and a soft, non-tender uterus. Which action should the nurse avoid?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Monitor maternal vital signs and fetal status"
+  },
+  {
+   "id": "b",
+   "text": "Perform a digital vaginal examination"
+  },
+  {
+   "id": "c",
+   "text": "Establish IV access"
+  },
+  {
+   "id": "d",
+   "text": "Prepare for ultrasound assessment"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Painless bleeding with a non-tender uterus suggests placenta praevia. Digital examination can disrupt the placenta and cause catastrophic haemorrhage until its location is confirmed.",
+ "strategy": "In painless third-trimester bleeding, never perform a digital vaginal examination before excluding placenta praevia.",
+ "difficulty": "hard",
+ "tags": [
+  "placenta-praevia",
+  "bleeding"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0020",
+ "categorySlug": "maternal-newborn",
+ "stem": "A woman with severe pre-eclampsia receiving magnesium sulfate has a respiratory rate of 9/min and absent patellar reflexes. What should the nurse do first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Continue the infusion and reassess in one hour"
+  },
+  {
+   "id": "b",
+   "text": "Stop magnesium sulfate, call for help and prepare calcium gluconate"
+  },
+  {
+   "id": "c",
+   "text": "Encourage ambulation"
+  },
+  {
+   "id": "d",
+   "text": "Administer another sedative"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Respiratory depression and absent reflexes indicate magnesium toxicity. The infusion stops and calcium gluconate is the antidote, with airway and breathing support.",
+ "strategy": "For magnesium therapy, monitor respirations, reflexes and urine output; toxicity requires stopping the infusion and calcium.",
+ "difficulty": "hard",
+ "tags": [
+  "preeclampsia",
+  "magnesium"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0021",
+ "categorySlug": "maternal-newborn",
+ "stem": "A postpartum client has heavy bleeding, a boggy uterus and a fundus above the umbilicus. What should the nurse do first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Massage the fundus and assess bladder distension"
+  },
+  {
+   "id": "b",
+   "text": "Leave the client to rest"
+  },
+  {
+   "id": "c",
+   "text": "Apply an abdominal binder tightly"
+  },
+  {
+   "id": "d",
+   "text": "Offer oral iron only"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "A boggy enlarged uterus indicates uterine atony, the commonest cause of postpartum haemorrhage. Fundal massage promotes contraction while bladder distension is assessed and help is summoned.",
+ "strategy": "In postpartum haemorrhage with a boggy uterus, massage the fundus while escalating and treating atony.",
+ "difficulty": "hard",
+ "tags": [
+  "postpartum-haemorrhage",
+  "atony"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0022",
+ "categorySlug": "maternal-newborn",
+ "stem": "A labouring client has recurrent late fetal heart-rate decelerations with moderate variability. Which intervention is priority?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Place supine and increase oxytocin"
+  },
+  {
+   "id": "b",
+   "text": "Reposition laterally, stop oxytocin and give prescribed oxygen or fluids"
+  },
+  {
+   "id": "c",
+   "text": "Encourage pushing with every contraction"
+  },
+  {
+   "id": "d",
+   "text": "Perform a vaginal examination only"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Late decelerations indicate uteroplacental insufficiency. Lateral positioning, stopping oxytocin and correcting maternal hypotension or hypoxia improve placental perfusion while escalation occurs.",
+ "strategy": "For late decelerations, improve uteroplacental perfusion and remove uterine overstimulation.",
+ "difficulty": "hard",
+ "tags": [
+  "labour",
+  "fetal-monitoring"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0023",
+ "categorySlug": "maternal-newborn",
+ "stem": "A newborn is pale, hypotonic and apnoeic after birth despite drying and stimulation. The heart rate is 70/min. What is the next priority?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Begin positive-pressure ventilation"
+  },
+  {
+   "id": "b",
+   "text": "Start chest compressions immediately"
+  },
+  {
+   "id": "c",
+   "text": "Give oral glucose"
+  },
+  {
+   "id": "d",
+   "text": "Delay intervention until the cord stops pulsating"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Apnoea with a heart rate below 100/min requires effective positive-pressure ventilation. Compressions are considered only after adequate ventilation if the heart rate remains below 60/min.",
+ "strategy": "In neonatal resuscitation, ventilation is the priority for apnoea or heart rate below 100.",
+ "difficulty": "hard",
+ "tags": [
+  "newborn",
+  "resuscitation"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0024",
+ "categorySlug": "pediatrics",
+ "stem": "A child with severe dehydration is lethargic, has weak pulses and capillary refill of 5 seconds. Which prescribed fluid should the nurse prioritise?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Rapid isotonic IV fluid bolus with reassessment"
+  },
+  {
+   "id": "b",
+   "text": "Undiluted fruit juice by mouth"
+  },
+  {
+   "id": "c",
+   "text": "A diuretic infusion"
+  },
+  {
+   "id": "d",
+   "text": "Fluid restriction"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Shock from severe dehydration requires rapid isotonic crystalloid with frequent reassessment. Oral fluids are unsafe in a lethargic child with poor perfusion.",
+ "strategy": "In paediatric dehydration, shock signs require isotonic IV resuscitation before oral replacement.",
+ "difficulty": "hard",
+ "tags": [
+  "dehydration",
+  "shock"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0025",
+ "categorySlug": "pediatrics",
+ "stem": "A child with epiglottitis is drooling, sitting forward and making a muffled inspiratory sound. Which action is unsafe?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Keep the child calm with a parent"
+  },
+  {
+   "id": "b",
+   "text": "Prepare airway equipment and summon expert help"
+  },
+  {
+   "id": "c",
+   "text": "Inspect the throat with a tongue depressor"
+  },
+  {
+   "id": "d",
+   "text": "Give oxygen if tolerated"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Agitating or examining the throat can precipitate complete airway obstruction in epiglottitis. The child remains calm while expert airway support is prepared.",
+ "strategy": "Drooling, tripod position and muffled voice: do not examine the throat or force the child to lie down.",
+ "difficulty": "hard",
+ "tags": [
+  "epiglottitis",
+  "airway"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0026",
+ "categorySlug": "pediatrics",
+ "stem": "A child with nephrotic syndrome has sudden abdominal pain, fever and guarding. Which complication should the nurse suspect?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Spontaneous bacterial peritonitis"
+  },
+  {
+   "id": "b",
+   "text": "Simple hunger"
+  },
+  {
+   "id": "c",
+   "text": "Expected steroid effect"
+  },
+  {
+   "id": "d",
+   "text": "Otitis externa"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Loss of immunoglobulins and abdominal fluid predisposes to spontaneous bacterial peritonitis, which presents with fever and abdominal pain or guarding and needs urgent review.",
+ "strategy": "In nephrotic syndrome, fever plus abdominal pain is an infection emergency, not just oedema.",
+ "difficulty": "hard",
+ "tags": [
+  "nephrotic",
+  "infection"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0027",
+ "categorySlug": "pediatrics",
+ "stem": "A child with sickle-cell disease has severe limb pain and a temperature of 39°C. Which action is priority?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Treat pain and obtain urgent infection assessment and cultures as prescribed"
+  },
+  {
+   "id": "b",
+   "text": "Apply ice packs to the painful limbs"
+  },
+  {
+   "id": "c",
+   "text": "Delay antibiotics until the pain resolves"
+  },
+  {
+   "id": "d",
+   "text": "Encourage strenuous exercise"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Fever in sickle-cell disease may indicate overwhelming infection, while vaso-occlusive pain needs prompt analgesia and hydration. Ice and strenuous activity worsen vasoconstriction or oxygen demand.",
+ "strategy": "Sickle-cell pain plus fever is both a pain crisis and a sepsis risk; manage both urgently.",
+ "difficulty": "hard",
+ "tags": [
+  "sickle-cell",
+  "paediatrics"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0028",
+ "categorySlug": "pediatrics",
+ "stem": "A child receiving chemotherapy has a temperature of 38.3°C and an absolute neutrophil count of 0.4 ×10^9/L. What should the nurse do?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Treat as febrile neutropenia and initiate urgent escalation"
+  },
+  {
+   "id": "b",
+   "text": "Wait for a second temperature reading tomorrow"
+  },
+  {
+   "id": "c",
+   "text": "Give a live vaccine"
+  },
+  {
+   "id": "d",
+   "text": "Place the child in a crowded playroom"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Fever with severe neutropenia is a medical emergency because infection can progress rapidly without an adequate inflammatory response. Prompt cultures and broad-spectrum antibiotics are expected.",
+ "strategy": "Any fever in severe neutropenia is an emergency even if the child looks relatively well.",
+ "difficulty": "hard",
+ "tags": [
+  "neutropenia",
+  "oncology"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0029",
+ "categorySlug": "mental-health",
+ "stem": "A client says, “I have a gun at home and plan to use it tonight.” What is the nurse’s priority?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Leave the client alone to build trust"
+  },
+  {
+   "id": "b",
+   "text": "Maintain safety with constant observation and urgent psychiatric escalation"
+  },
+  {
+   "id": "c",
+   "text": "Promise not to tell anyone"
+  },
+  {
+   "id": "d",
+   "text": "Ask the client to sign a no-suicide contract and discharge"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "A specific plan, means and imminent timing indicate high suicide risk. The client requires immediate safety measures, removal of access to means and urgent multidisciplinary assessment.",
+ "strategy": "Specific means plus imminent timing overrides routine rapport-building or no-harm contracts.",
+ "difficulty": "hard",
+ "tags": [
+  "suicide",
+  "risk"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0030",
+ "categorySlug": "mental-health",
+ "stem": "A client taking lithium develops coarse tremor, ataxia, slurred speech and diarrhoea. What should the nurse do?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Hold lithium and arrange urgent assessment and serum level"
+  },
+  {
+   "id": "b",
+   "text": "Give the next dose with extra salt"
+  },
+  {
+   "id": "c",
+   "text": "Encourage dehydration"
+  },
+  {
+   "id": "d",
+   "text": "Administer an NSAID"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "These are signs of lithium toxicity. Lithium is withheld and urgent assessment includes serum level, renal function, hydration and ECG; NSAIDs can increase lithium levels.",
+ "strategy": "Gastrointestinal symptoms plus neurological changes in a lithium client indicate toxicity.",
+ "difficulty": "hard",
+ "tags": [
+  "lithium",
+  "toxicity"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0031",
+ "categorySlug": "mental-health",
+ "stem": "A client experiencing command hallucinations says the voices tell them to attack another client. Which question is most important?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "“Why do you believe the voices?”"
+  },
+  {
+   "id": "b",
+   "text": "“What exactly are the voices telling you, and do you intend to act?”"
+  },
+  {
+   "id": "c",
+   "text": "“Can you ignore the voices?”"
+  },
+  {
+   "id": "d",
+   "text": "“Have you always disliked that client?”"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "The nurse must assess content, target, intent, plan and ability to resist because command hallucinations may create immediate risk to others.",
+ "strategy": "When hallucinations are commanding, assess dangerous content and intent directly and calmly.",
+ "difficulty": "hard",
+ "tags": [
+  "psychosis",
+  "safety"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0032",
+ "categorySlug": "mental-health",
+ "stem": "A client in alcohol withdrawal is tremulous, diaphoretic, agitated and seeing insects on the wall. What is the priority?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Reduce stimulation, institute seizure precautions and administer prescribed benzodiazepine"
+  },
+  {
+   "id": "b",
+   "text": "Offer coffee to improve alertness"
+  },
+  {
+   "id": "c",
+   "text": "Place the client alone without observation"
+  },
+  {
+   "id": "d",
+   "text": "Confront the hallucination as deliberate behaviour"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Severe withdrawal can progress to seizures and delirium tremens. Benzodiazepines, close monitoring and a low-stimulation safe environment reduce complications.",
+ "strategy": "Alcohol withdrawal with autonomic activation and hallucinations is a seizure and delirium emergency.",
+ "difficulty": "hard",
+ "tags": [
+  "withdrawal",
+  "delirium"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0033",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "A client with sodium 118 mmol/L has a new seizure. Which action is priority?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Institute seizure precautions and urgently escalate for hypertonic saline management"
+  },
+  {
+   "id": "b",
+   "text": "Encourage free water"
+  },
+  {
+   "id": "c",
+   "text": "Give a potassium-rich meal"
+  },
+  {
+   "id": "d",
+   "text": "Place the client in a warm bath"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Severe symptomatic hyponatraemia can cause cerebral oedema and seizures. Safety and urgent prescribed hypertonic saline management are required; free water worsens dilution.",
+ "strategy": "Symptoms matter more than the number alone: seizure with severe hyponatraemia is an emergency.",
+ "difficulty": "hard",
+ "tags": [
+  "hyponatraemia",
+  "seizure"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0034",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "A client with potassium 7.1 mmol/L has peaked T waves on ECG. Which medication should the nurse expect first to stabilise the myocardium?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "IV calcium gluconate"
+  },
+  {
+   "id": "b",
+   "text": "Oral potassium chloride"
+  },
+  {
+   "id": "c",
+   "text": "A thiazide diuretic only"
+  },
+  {
+   "id": "d",
+   "text": "Dextrose-free water"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "IV calcium stabilises the cardiac membrane rapidly but does not lower potassium. Insulin with glucose and other potassium-lowering measures follow as prescribed.",
+ "strategy": "In hyperkalaemia with ECG changes, stabilise the myocardium with calcium before shifting or removing potassium.",
+ "difficulty": "hard",
+ "tags": [
+  "hyperkalaemia",
+  "ecg"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0035",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "A client with prolonged vomiting has metabolic alkalosis and potassium 2.6 mmol/L. Which finding requires immediate escalation?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "New ventricular ectopy on the cardiac monitor"
+  },
+  {
+   "id": "b",
+   "text": "Mild thirst"
+  },
+  {
+   "id": "c",
+   "text": "Dry lips only"
+  },
+  {
+   "id": "d",
+   "text": "A request for ice chips"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Severe hypokalaemia predisposes to life-threatening dysrhythmias, and ventricular ectopy is an immediate sign of cardiac instability.",
+ "strategy": "With major potassium loss, prioritise rhythm changes over general dehydration symptoms.",
+ "difficulty": "hard",
+ "tags": [
+  "hypokalaemia",
+  "arrhythmia"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0036",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "A client with SIADH has concentrated urine, low serum osmolality and increasing confusion. Which intervention is most consistent with treatment?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Fluid restriction with careful neurological monitoring"
+  },
+  {
+   "id": "b",
+   "text": "Encourage unlimited water"
+  },
+  {
+   "id": "c",
+   "text": "Administer hypotonic fluids"
+  },
+  {
+   "id": "d",
+   "text": "Offer several litres of oral tea"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "SIADH causes inappropriate water retention and dilutional hyponatraemia. Fluid restriction limits worsening cerebral symptoms while the underlying cause is treated.",
+ "strategy": "Low serum osmolality with concentrated urine points to excess ADH; restrict water, not sodium alone.",
+ "difficulty": "hard",
+ "tags": [
+  "siadh",
+  "osmolality"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0037",
+ "categorySlug": "safety-infection-control",
+ "stem": "A client with suspected pulmonary tuberculosis must be transported for CT. Which precaution is essential?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Place a surgical mask on the client and notify the receiving area"
+  },
+  {
+   "id": "b",
+   "text": "Use only gloves because TB is contact spread"
+  },
+  {
+   "id": "c",
+   "text": "Leave the client unmasked in a crowded waiting room"
+  },
+  {
+   "id": "d",
+   "text": "Use a shared nebuliser"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Pulmonary TB requires airborne precautions. The client wears a surgical mask during transport, staff use fit-tested respirators, and the receiving area is notified to minimise exposure.",
+ "strategy": "For airborne infection, mask the client for transport and use respiratory protection for staff.",
+ "difficulty": "hard",
+ "tags": [
+  "tuberculosis",
+  "airborne"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0038",
+ "categorySlug": "safety-infection-control",
+ "stem": "A nurse sustains a needlestick from a used hollow-bore needle. What is the first action?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Wash the area with soap and water and report immediately"
+  },
+  {
+   "id": "b",
+   "text": "Squeeze the wound aggressively for ten minutes"
+  },
+  {
+   "id": "c",
+   "text": "Hide the incident to avoid blame"
+  },
+  {
+   "id": "d",
+   "text": "Apply bleach to the puncture"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Immediate washing and prompt reporting allow timely exposure assessment, baseline testing and HIV post-exposure prophylaxis when indicated. Aggressive squeezing and chemicals cause tissue injury.",
+ "strategy": "After sharps exposure, wash, report and obtain urgent occupational-health assessment.",
+ "difficulty": "hard",
+ "tags": [
+  "needlestick",
+  "occupational-health"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0039",
+ "categorySlug": "safety-infection-control",
+ "stem": "A client with suspected Clostridioides difficile diarrhoea requires which hand-hygiene approach after care?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Soap and water after removing gloves"
+  },
+  {
+   "id": "b",
+   "text": "Alcohol gel only without removing gloves"
+  },
+  {
+   "id": "c",
+   "text": "No hand hygiene if gloves were worn"
+  },
+  {
+   "id": "d",
+   "text": "Perfume-based hand spray"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "C. difficile spores are not reliably removed by alcohol hand rub. Soap and water mechanically removes spores after glove removal.",
+ "strategy": "For spore-forming organisms, use soap and water and dedicated equipment.",
+ "difficulty": "hard",
+ "tags": [
+  "c-difficile",
+  "hand-hygiene"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0040",
+ "categorySlug": "safety-infection-control",
+ "stem": "A patient receiving a blood transfusion develops fever, flank pain and dark urine 15 minutes after it starts. What is the first action?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Stop the transfusion, keep the IV open with normal saline using new tubing and notify the team"
+  },
+  {
+   "id": "b",
+   "text": "Increase the transfusion rate"
+  },
+  {
+   "id": "c",
+   "text": "Discard the blood bag before reporting"
+  },
+  {
+   "id": "d",
+   "text": "Give the next unit slowly"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "These findings suggest an acute haemolytic transfusion reaction. Stop the transfusion immediately, maintain access with normal saline and new tubing, and notify the prescriber and blood bank.",
+ "strategy": "During a suspected transfusion reaction, stop blood first; do not restart the unit.",
+ "difficulty": "hard",
+ "tags": [
+  "transfusion",
+  "haemolysis"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0041",
+ "categorySlug": "leadership-delegation",
+ "stem": "During a shift, which client should the charge nurse assign to the most experienced registered nurse?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "A stable client awaiting discharge teaching"
+  },
+  {
+   "id": "b",
+   "text": "A client two hours after thyroidectomy with stridor"
+  },
+  {
+   "id": "c",
+   "text": "A client needing routine bed bath"
+  },
+  {
+   "id": "d",
+   "text": "A client awaiting a scheduled dressing change"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Stridor after thyroidectomy suggests airway compromise from swelling or bleeding and requires rapid assessment by an experienced nurse.",
+ "strategy": "Assign unstable, rapidly changing or high-risk clients to the most experienced appropriate nurse.",
+ "difficulty": "hard",
+ "tags": [
+  "acuity",
+  "assignment"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0042",
+ "categorySlug": "leadership-delegation",
+ "stem": "A medication error reaches a client but causes no immediate harm. What should the nurse do first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Assess the client and notify the prescriber according to policy"
+  },
+  {
+   "id": "b",
+   "text": "Alter the record to hide the error"
+  },
+  {
+   "id": "c",
+   "text": "Wait to see whether symptoms develop"
+  },
+  {
+   "id": "d",
+   "text": "Tell only a colleague"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "The client’s safety comes first: assess, disclose and escalate according to policy, then document factual details and complete reporting.",
+ "strategy": "After an error, assess and protect the client before documentation or blame.",
+ "difficulty": "hard",
+ "tags": [
+  "medication-error",
+  "professionalism"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0043",
+ "categorySlug": "leadership-delegation",
+ "stem": "A junior nurse asks to administer IV potassium through a peripheral line at a rate above the unit protocol because the result is urgent. What is the best response?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Stop and verify the prescription and protocol before administration"
+  },
+  {
+   "id": "b",
+   "text": "Allow it because urgency overrides policy"
+  },
+  {
+   "id": "c",
+   "text": "Ask the junior nurse to decide alone"
+  },
+  {
+   "id": "d",
+   "text": "Give potassium by IV push"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "IV potassium can cause fatal dysrhythmia if concentrated or infused too quickly. The prescription, dilution, route and pump rate must be verified before administration.",
+ "strategy": "Urgency does not override high-alert medication safeguards; verify before giving.",
+ "difficulty": "hard",
+ "tags": [
+  "potassium",
+  "high-alert"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0044",
+ "categorySlug": "health-promotion",
+ "stem": "A client with hypertension says, “I stopped my tablets because I feel fine.” Which response is best?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "“Hypertension can damage organs silently; let’s discuss your concerns and a plan you can follow.”"
+  },
+  {
+   "id": "b",
+   "text": "“You must take them or you will die.”"
+  },
+  {
+   "id": "c",
+   "text": "“Only restart them when you have a headache.”"
+  },
+  {
+   "id": "d",
+   "text": "“Your decision does not matter.”"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Hypertension is often asymptomatic while causing vascular, renal and cardiac injury. A nonjudgmental discussion explores barriers and supports shared adherence planning.",
+ "strategy": "Use respectful education and explore barriers rather than threats or symptom-based advice.",
+ "difficulty": "hard",
+ "tags": [
+  "hypertension",
+  "adherence"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0045",
+ "categorySlug": "health-promotion",
+ "stem": "A community nurse plans an intervention for rising adolescent pregnancy. Which approach is most likely to be effective?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Confidential, youth-friendly comprehensive sexual-health education and access to contraception"
+  },
+  {
+   "id": "b",
+   "text": "Publicly naming adolescents who become pregnant"
+  },
+  {
+   "id": "c",
+   "text": "Teaching abstinence only and excluding questions"
+  },
+  {
+   "id": "d",
+   "text": "Providing information only to married adults"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Youth-friendly confidential services combine accurate education, consent and contraception access while reducing barriers to care. Shaming and exclusion undermine prevention.",
+ "strategy": "Effective health promotion is accessible, confidential, accurate and responsive to the population.",
+ "difficulty": "hard",
+ "tags": [
+  "adolescents",
+  "prevention"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0046",
+ "categorySlug": "health-promotion",
+ "stem": "A client with newly diagnosed type 2 diabetes has limited literacy. Which teaching method best evaluates understanding of foot care?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Ask the client to demonstrate daily foot inspection and explain what they would report"
+  },
+  {
+   "id": "b",
+   "text": "Give a long written booklet only"
+  },
+  {
+   "id": "c",
+   "text": "Ask “Do you understand?”"
+  },
+  {
+   "id": "d",
+   "text": "Teach the family and exclude the client"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Teach-back and demonstration reveal actual understanding and allow correction of technique, especially when literacy is limited.",
+ "strategy": "Evaluate teaching through demonstration or teach-back, not yes/no questions.",
+ "difficulty": "hard",
+ "tags": [
+  "diabetes",
+  "teach-back"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0047",
+ "categorySlug": "risk-reduction",
+ "stem": "A client taking an ACE inhibitor develops swelling of the lips and tongue but is breathing normally. What should the nurse do?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Stop the medication and seek urgent airway assessment"
+  },
+  {
+   "id": "b",
+   "text": "Give the next dose with food"
+  },
+  {
+   "id": "c",
+   "text": "Reassure the client that this is harmless"
+  },
+  {
+   "id": "d",
+   "text": "Offer a salty snack"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Facial and tongue swelling suggests ACE-inhibitor angioedema, which can progress rapidly to airway obstruction. The drug is withheld and urgent assessment is required.",
+ "strategy": "Lip or tongue swelling after an ACE inhibitor is an airway emergency even before breathing changes.",
+ "difficulty": "hard",
+ "tags": [
+  "ace-inhibitor",
+  "angioedema"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0048",
+ "categorySlug": "risk-reduction",
+ "stem": "A client has a new unilateral calf swelling and tenderness three days after surgery. Which action should the nurse avoid?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Massage the calf"
+  },
+  {
+   "id": "b",
+   "text": "Notify the prescriber for urgent assessment"
+  },
+  {
+   "id": "c",
+   "text": "Compare both legs and assess vital signs"
+  },
+  {
+   "id": "d",
+   "text": "Limit ambulation until reviewed"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Massage may dislodge a thrombus and cause pulmonary embolism. The client needs urgent assessment and should not be manipulated or mobilised until reviewed.",
+ "strategy": "Suspected DVT: do not massage; assess, escalate and prevent embolisation.",
+ "difficulty": "hard",
+ "tags": [
+  "dvt",
+  "postoperative"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0049",
+ "categorySlug": "gerontology-community",
+ "stem": "An older adult becomes acutely confused after hip surgery, fluctuates during the day and tries to climb out of bed. Which intervention is best?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Treat reversible causes, provide orientation and use close observation"
+  },
+  {
+   "id": "b",
+   "text": "Apply restraints immediately and keep the room dark"
+  },
+  {
+   "id": "c",
+   "text": "Assume dementia and provide no further assessment"
+  },
+  {
+   "id": "d",
+   "text": "Give a sedative without checking pain or oxygenation"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Acute fluctuating confusion is delirium. Pain, hypoxia, infection, urinary retention and medications should be assessed and corrected, with orientation and safety measures.",
+ "strategy": "Acute fluctuating change is delirium until proven otherwise; search for causes rather than labelling dementia.",
+ "difficulty": "hard",
+ "tags": [
+  "delirium",
+  "older-adult"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-BATCH2-0050",
+ "categorySlug": "gerontology-community",
+ "stem": "An older adult taking several medicines reports dizziness on standing and has fallen twice. Which assessment is most important?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Measure lying and standing blood pressure and review medications"
+  },
+  {
+   "id": "b",
+   "text": "Ask only about dietary preferences"
+  },
+  {
+   "id": "c",
+   "text": "Encourage rapid standing to build tolerance"
+  },
+  {
+   "id": "d",
+   "text": "Stop every medicine without consultation"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Orthostatic blood-pressure measurement and medication review identify common reversible causes of falls such as antihypertensives, diuretics and sedatives.",
+ "strategy": "Repeated falls with postural dizziness require orthostatic assessment and medication review.",
+ "difficulty": "hard",
+ "tags": [
+  "falls",
+  "polypharmacy"
+ ],
+ "isFree": false
+}
 ];
