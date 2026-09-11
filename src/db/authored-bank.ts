@@ -23,7 +23,7 @@ export type AuthoredQuestion = {
   mediaCaption?: string;
 };
 
-export const AUTHORED_COUNT = 3329;
+export const AUTHORED_COUNT = 3349;
 export const AUTHORED_COUNT_LABEL = "3,200+";
 export const AUTHORED_DIAGRAM_COUNT = 569;
 
@@ -113918,6 +113918,646 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "tags": [
   "body-fluid",
   "physiology"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PHARM-0001",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A patient taking digoxin reports nausea, blurred yellow vision and weakness. The apical pulse is 48/min. What should the nurse do?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Give digoxin with food"
+  },
+  {
+   "id": "b",
+   "text": "Hold digoxin and notify the prescriber"
+  },
+  {
+   "id": "c",
+   "text": "Give an extra dose"
+  },
+  {
+   "id": "d",
+   "text": "Encourage vigorous exercise"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Bradycardia, gastrointestinal symptoms and visual disturbance suggest digoxin toxicity. Withhold the dose and arrange urgent ECG, level and electrolyte assessment.",
+ "strategy": "Combine pulse, gastrointestinal and visual findings when screening for digoxin toxicity.",
+ "difficulty": "hard",
+ "tags": [
+  "digoxin",
+  "toxicity"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PHARM-0002",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "During an IV vancomycin infusion, a patient develops flushing, pruritus and hypotension. What is the priority action?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Increase the infusion rate"
+  },
+  {
+   "id": "b",
+   "text": "Stop or slow the infusion, assess the patient and notify the prescriber"
+  },
+  {
+   "id": "c",
+   "text": "Give the next dose early"
+  },
+  {
+   "id": "d",
+   "text": "Ignore the symptoms"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Rapid vancomycin infusion can cause a vancomycin infusion reaction. Stop or slow the infusion, assess airway and circulation, and treat as prescribed.",
+ "strategy": "Flushing during vancomycin is an infusion-rate warning, not a reason to continue faster.",
+ "difficulty": "hard",
+ "tags": [
+  "vancomycin",
+  "infusion-reaction"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PHARM-0003",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A patient taking warfarin has an INR of 7.2 and bleeding gums. Which prescription should the nurse question?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Hold warfarin and obtain urgent review"
+  },
+  {
+   "id": "b",
+   "text": "Administer vitamin K as prescribed"
+  },
+  {
+   "id": "c",
+   "text": "Give aspirin"
+  },
+  {
+   "id": "d",
+   "text": "Assess for further bleeding"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Aspirin adds antiplatelet effect and increases bleeding risk in a patient already over-anticoagulated. Warfarin is held and vitamin K may be prescribed.",
+ "strategy": "Avoid medications that worsen bleeding when anticoagulation is excessive.",
+ "difficulty": "hard",
+ "tags": [
+  "warfarin",
+  "bleeding"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PHARM-0004",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A patient with severe asthma receives nebulised salbutamol and develops tremor and a pulse of 132/min. What is the best response?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Assess oxygenation and rhythm and notify the prescriber if marked or persistent"
+  },
+  {
+   "id": "b",
+   "text": "Permanently withhold all bronchodilators"
+  },
+  {
+   "id": "c",
+   "text": "Give a beta-blocker immediately"
+  },
+  {
+   "id": "d",
+   "text": "Assume the asthma is worsening without assessment"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Tremor and tachycardia are common beta2-agonist effects, but marked tachycardia requires assessment of oxygenation, rhythm and clinical response.",
+ "strategy": "Distinguish expected adverse effects from deterioration by assessing the whole patient.",
+ "difficulty": "hard",
+ "tags": [
+  "salbutamol",
+  "asthma"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PHARM-0005",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A patient receiving gentamicin has a rising creatinine and new tinnitus. What should the nurse do?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Administer the dose and document later"
+  },
+  {
+   "id": "b",
+   "text": "Hold the dose and urgently notify the prescriber"
+  },
+  {
+   "id": "c",
+   "text": "Double the dose"
+  },
+  {
+   "id": "d",
+   "text": "Give an NSAID"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Rising creatinine and tinnitus suggest aminoglycoside nephrotoxicity and ototoxicity. Withhold the dose pending urgent review and levels.",
+ "strategy": "Kidney injury plus hearing symptoms is a stop-and-escalate finding with aminoglycosides.",
+ "difficulty": "hard",
+ "tags": [
+  "gentamicin",
+  "ototoxicity"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PHARM-0006",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A patient prescribed prednisolone 40 mg daily should generally be taught to take it:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Before breakfast"
+  },
+  {
+   "id": "b",
+   "text": "After breakfast or with food in the morning"
+  },
+  {
+   "id": "c",
+   "text": "Only at bedtime"
+  },
+  {
+   "id": "d",
+   "text": "Only when symptoms occur"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Morning administration with food reduces gastric irritation and better follows normal cortisol rhythm; the drug should not be stopped abruptly after prolonged use.",
+ "strategy": "Steroids are usually taken with food in the morning unless the prescription says otherwise.",
+ "difficulty": "hard",
+ "tags": [
+  "prednisolone",
+  "steroids"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PHARM-0007",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A patient using an epinephrine auto-injector for anaphylaxis is wearing heavy clothing. Where should it be injected?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Through the outer mid-thigh clothing if necessary"
+  },
+  {
+   "id": "b",
+   "text": "Into the deltoid after removing all clothing"
+  },
+  {
+   "id": "c",
+   "text": "Into the abdomen"
+  },
+  {
+   "id": "d",
+   "text": "Deep into the gluteal muscle"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "The auto-injector is delivered into the outer mid-thigh and can be given through clothing if needed; delaying treatment is dangerous.",
+ "strategy": "For anaphylaxis, give IM epinephrine promptly in the outer mid-thigh.",
+ "difficulty": "hard",
+ "tags": [
+  "anaphylaxis",
+  "epinephrine"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PHARM-0008",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A patient cannot swallow an azithromycin tablet. What should the nurse do first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Crush it without checking"
+  },
+  {
+   "id": "b",
+   "text": "Contact pharmacy or the prescriber for a suitable formulation"
+  },
+  {
+   "id": "c",
+   "text": "Force the patient to swallow it"
+  },
+  {
+   "id": "d",
+   "text": "Ask a relative to administer it"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "The nurse should not alter a medication without checking formulation and stability. Pharmacy can identify a liquid or appropriate alternative.",
+ "strategy": "Difficulty swallowing requires formulation review, not unauthorised crushing.",
+ "difficulty": "hard",
+ "tags": [
+  "medication-administration",
+  "azithromycin"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PHARM-0009",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A patient with diabetes insipidus taking desmopressin becomes drowsy and develops headache. What should the nurse suspect?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Dehydration only"
+  },
+  {
+   "id": "b",
+   "text": "Water intoxication or hyponatraemia"
+  },
+  {
+   "id": "c",
+   "text": "Iron deficiency"
+  },
+  {
+   "id": "d",
+   "text": "Hyperglycaemia only"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Excess desmopressin can cause water retention and dilutional hyponatraemia, producing headache, nausea, confusion or drowsiness.",
+ "strategy": "Desmopressin toxicity looks like water excess; monitor sodium, weight and neurological status.",
+ "difficulty": "hard",
+ "tags": [
+  "desmopressin",
+  "hyponatraemia"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PHARM-0010",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A patient is prescribed IV potassium chloride. Which action is unsafe?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Use an infusion pump"
+  },
+  {
+   "id": "b",
+   "text": "Check the serum potassium and renal function"
+  },
+  {
+   "id": "c",
+   "text": "Administer potassium by IV push"
+  },
+  {
+   "id": "d",
+   "text": "Monitor the cardiac rhythm when indicated"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Concentrated potassium chloride must never be given by IV push because it can cause fatal cardiac arrest.",
+ "strategy": "Potassium is a high-alert medication: dilute it and infuse it with a pump, never IV push.",
+ "difficulty": "hard",
+ "tags": [
+  "potassium",
+  "high-alert"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PHARM-0011",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A patient receiving heparin develops a platelet count fall of more than 50% and a new DVT on day 7. What is the priority?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Continue heparin and recheck tomorrow"
+  },
+  {
+   "id": "b",
+   "text": "Stop all heparin and urgently notify the prescriber"
+  },
+  {
+   "id": "c",
+   "text": "Give vitamin K"
+  },
+  {
+   "id": "d",
+   "text": "Apply a warm compress only"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "The timing, platelet fall and thrombosis strongly suggest heparin-induced thrombocytopenia. All heparin is stopped and an alternative anticoagulant is prescribed.",
+ "strategy": "A major platelet fall plus thrombosis after heparin is HIT until proven otherwise.",
+ "difficulty": "hard",
+ "tags": [
+  "heparin",
+  "hit"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PHARM-0012",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A patient taking an ACE inhibitor develops swelling of the lips and tongue. What is the priority?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Give the next dose with food"
+  },
+  {
+   "id": "b",
+   "text": "Stop the drug and obtain urgent airway assessment"
+  },
+  {
+   "id": "c",
+   "text": "Offer a salty snack"
+  },
+  {
+   "id": "d",
+   "text": "Wait until the next clinic appointment"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "ACE-inhibitor angioedema can progress rapidly to airway obstruction. The drug is withheld and urgent airway support is arranged.",
+ "strategy": "Lip or tongue swelling after an ACE inhibitor is an airway emergency.",
+ "difficulty": "hard",
+ "tags": [
+  "ace-inhibitor",
+  "angioedema"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PHARM-0013",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A patient taking metformin is scheduled for a contrast-enhanced CT and has reduced renal function. What should the nurse do?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Verify the plan to withhold metformin and assess renal function"
+  },
+  {
+   "id": "b",
+   "text": "Give an extra dose before contrast"
+  },
+  {
+   "id": "c",
+   "text": "Stop all diabetic treatment permanently"
+  },
+  {
+   "id": "d",
+   "text": "Encourage dehydration"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Contrast-associated kidney injury can increase metformin accumulation and lactic-acidosis risk. Follow the local protocol for withholding and restarting after renal assessment.",
+ "strategy": "Contrast and renal impairment require medication reconciliation, especially with metformin.",
+ "difficulty": "hard",
+ "tags": [
+  "metformin",
+  "contrast"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PHARM-0014",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A patient receiving morphine is difficult to rouse, has pinpoint pupils and respirations of 7/min. Which medication should the nurse anticipate?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Naloxone"
+  },
+  {
+   "id": "b",
+   "text": "Flumazenil"
+  },
+  {
+   "id": "c",
+   "text": "Vitamin K"
+  },
+  {
+   "id": "d",
+   "text": "Protamine"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "The findings indicate opioid-induced respiratory depression. Naloxone reverses opioid effects while airway and ventilation support are provided.",
+ "strategy": "Prioritise respiratory rate and consciousness; opioid respiratory depression requires naloxone and ventilation support.",
+ "difficulty": "hard",
+ "tags": [
+  "opioid",
+  "naloxone"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PHARM-0015",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A patient taking phenytoin has swollen bleeding gums. Which teaching is appropriate?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Use meticulous oral hygiene and attend dental reviews"
+  },
+  {
+   "id": "b",
+   "text": "Stop phenytoin abruptly"
+  },
+  {
+   "id": "c",
+   "text": "Avoid all fluids"
+  },
+  {
+   "id": "d",
+   "text": "Double the dose"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Gingival hyperplasia is associated with phenytoin. Good oral hygiene and dental care reduce complications; abrupt withdrawal can precipitate seizures.",
+ "strategy": "Know chronic adverse effects and teach prevention without stopping anticonvulsants suddenly.",
+ "difficulty": "hard",
+ "tags": [
+  "phenytoin",
+  "oral-care"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PHARM-0016",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A patient prescribed furosemide reports muscle weakness and palpitations. Which laboratory result is most concerning?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Potassium 2.8 mmol/L"
+  },
+  {
+   "id": "b",
+   "text": "Sodium 140 mmol/L"
+  },
+  {
+   "id": "c",
+   "text": "Calcium 2.3 mmol/L"
+  },
+  {
+   "id": "d",
+   "text": "Chloride 102 mmol/L"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Loop diuretics can cause potassium loss. Severe hypokalaemia causes weakness and dysrhythmias and requires prompt replacement or review.",
+ "strategy": "Link loop diuretics with potassium loss and monitor symptoms plus electrolytes.",
+ "difficulty": "hard",
+ "tags": [
+  "furosemide",
+  "hypokalaemia"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PHARM-0017",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A patient prescribed subcutaneous insulin is pale, sweaty and confused. What should the nurse do first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Check blood glucose and treat suspected hypoglycaemia promptly"
+  },
+  {
+   "id": "b",
+   "text": "Give the scheduled insulin"
+  },
+  {
+   "id": "c",
+   "text": "Encourage exercise"
+  },
+  {
+   "id": "d",
+   "text": "Restrict carbohydrates"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Sweating, pallor and confusion are adrenergic and neuroglycopenic signs of hypoglycaemia. Check glucose if possible and give fast-acting carbohydrate or IV dextrose as appropriate.",
+ "strategy": "Treat suspected hypoglycaemia immediately; never give more insulin before assessment.",
+ "difficulty": "hard",
+ "tags": [
+  "insulin",
+  "hypoglycaemia"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PHARM-0018",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A patient taking rifampicin should be taught that:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Orange-red discoloration of urine and tears can occur"
+  },
+  {
+   "id": "b",
+   "text": "The drug may be stopped when symptoms improve"
+  },
+  {
+   "id": "c",
+   "text": "It has no important interactions"
+  },
+  {
+   "id": "d",
+   "text": "Double doses are safe after missed doses"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Rifampicin can discolor body fluids orange-red and has major drug interactions. Tuberculosis treatment must be completed as prescribed.",
+ "strategy": "Teach expected harmless discoloration while reinforcing adherence and interaction checks.",
+ "difficulty": "hard",
+ "tags": [
+  "rifampicin",
+  "tuberculosis"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PHARM-0019",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A patient taking lithium develops coarse tremor, diarrhoea, ataxia and slurred speech. What should the nurse do?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Hold lithium and arrange urgent serum-level and renal assessment"
+  },
+  {
+   "id": "b",
+   "text": "Give the next dose with extra salt"
+  },
+  {
+   "id": "c",
+   "text": "Encourage dehydration"
+  },
+  {
+   "id": "d",
+   "text": "Administer an NSAID"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "The combination indicates lithium toxicity. Lithium is withheld and urgent assessment includes level, renal function, hydration and ECG; NSAIDs may increase lithium levels.",
+ "strategy": "Gastrointestinal symptoms plus neurological changes are red flags for lithium toxicity.",
+ "difficulty": "hard",
+ "tags": [
+  "lithium",
+  "toxicity"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PHARM-0020",
+ "categorySlug": "pharmacology-parenteral",
+ "stem": "A patient prescribed oral iron asks how to improve absorption. Which advice is best?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Take it with orange juice if tolerated and expect dark stools"
+  },
+  {
+   "id": "b",
+   "text": "Take it with antacids"
+  },
+  {
+   "id": "c",
+   "text": "Stop it when stools darken"
+  },
+  {
+   "id": "d",
+   "text": "Take it only with tea"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Vitamin C can improve iron absorption and dark stools are expected. Tea and antacids can reduce absorption.",
+ "strategy": "Teach expected harmless effects and separate iron from absorption-blocking drinks or medicines.",
+ "difficulty": "hard",
+ "tags": [
+  "iron",
+  "anaemia"
  ],
  "isFree": false
 }
