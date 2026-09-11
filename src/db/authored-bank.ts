@@ -23,7 +23,7 @@ export type AuthoredQuestion = {
   mediaCaption?: string;
 };
 
-export const AUTHORED_COUNT = 3429;
+export const AUTHORED_COUNT = 3449;
 export const AUTHORED_COUNT_LABEL = "3,200+";
 export const AUTHORED_DIAGRAM_COUNT = 569;
 
@@ -117116,6 +117116,642 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "tags": [
   "haemolytic-anaemia",
   "jaundice"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MAT2-0001",
+ "categorySlug": "maternal-newborn",
+ "stem": "A postcoital test used in fertility assessment should generally be performed:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "One week after ovulation"
+  },
+  {
+   "id": "b",
+   "text": "Immediately after menstruation"
+  },
+  {
+   "id": "c",
+   "text": "Just before the next menstrual period"
+  },
+  {
+   "id": "d",
+   "text": "Within one to two days of presumed ovulation"
+  }
+ ],
+ "correctChoiceId": "d",
+ "rationale": "The test assesses sperm interaction with cervical mucus near ovulation, so timing is shortly before or around ovulation according to the fertility protocol.",
+ "strategy": "Fertility tests are timing-dependent; relate the test to the fertile cervical-mucus period.",
+ "difficulty": "hard",
+ "tags": [
+  "fertility",
+  "ovulation"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MAT2-0002",
+ "categorySlug": "maternal-newborn",
+ "stem": "Tubal-factor infertility is most commonly associated with:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Previous pelvic infection"
+  },
+  {
+   "id": "b",
+   "text": "A small uterine fibroid only"
+  },
+  {
+   "id": "c",
+   "text": "A congenital anomaly in every case"
+  },
+  {
+   "id": "d",
+   "text": "Normal tubal motility"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Pelvic infection, especially untreated chlamydia or gonorrhoea, can scar and obstruct the fallopian tubes.",
+ "strategy": "When HSG shows tubal obstruction, think prior pelvic infection and scarring.",
+ "difficulty": "hard",
+ "tags": [
+  "infertility",
+  "pid"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MAT2-0003",
+ "categorySlug": "maternal-newborn",
+ "stem": "A client with testicular torsion asks why surgery must be immediate. What is the best response?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Surgery is the only way to control pain"
+  },
+  {
+   "id": "b",
+   "text": "Irreversible ischaemic damage can occur after a few hours"
+  },
+  {
+   "id": "c",
+   "text": "The testicle may rupture from swelling"
+  },
+  {
+   "id": "d",
+   "text": "The condition always causes infection"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Twisting cuts off testicular blood flow. Prompt detorsion and fixation are needed to preserve viability.",
+ "strategy": "Sudden testicular pain is time-critical because torsion compromises blood supply.",
+ "difficulty": "hard",
+ "tags": [
+  "testicular-torsion",
+  "emergency"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MAT2-0004",
+ "categorySlug": "maternal-newborn",
+ "stem": "Neonatal circulation differs from fetal circulation because after birth:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "The lungs receive the main pulmonary blood flow and fetal shunts begin to close"
+  },
+  {
+   "id": "b",
+   "text": "The left atrium shunts blood into the right atrium"
+  },
+  {
+   "id": "c",
+   "text": "The fetal lungs remain non-functional"
+  },
+  {
+   "id": "d",
+   "text": "All blood remains mixed"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "With the first breaths, pulmonary vascular resistance falls and blood flows through the lungs; the foramen ovale and ductus arteriosus begin functional closure.",
+ "strategy": "Remember the transition from placental oxygenation to pulmonary oxygenation.",
+ "difficulty": "hard",
+ "tags": [
+  "newborn",
+  "fetal-circulation"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MAT2-0005",
+ "categorySlug": "maternal-newborn",
+ "stem": "A 5-minute Apgar score of 3 requires:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "No further observation"
+  },
+  {
+   "id": "b",
+   "text": "Immediate neonatal assessment and resuscitation according to the algorithm"
+  },
+  {
+   "id": "c",
+   "text": "Routine discharge"
+  },
+  {
+   "id": "d",
+   "text": "Oral feeding first"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "A low Apgar score indicates the need for immediate assessment and support; resuscitation is guided by breathing and heart rate rather than the score alone.",
+ "strategy": "Use Apgar as a prompt for assessment, not as the sole decision rule.",
+ "difficulty": "hard",
+ "tags": [
+  "apgar",
+  "resuscitation"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MAT2-0006",
+ "categorySlug": "maternal-newborn",
+ "stem": "A newborn has a pink trunk but bluish hands and feet immediately after birth. This is called:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Syndactyly"
+  },
+  {
+   "id": "b",
+   "text": "Acrocyanosis"
+  },
+  {
+   "id": "c",
+   "text": "Central cyanosis"
+  },
+  {
+   "id": "d",
+   "text": "Meningitis"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Peripheral blue discoloration of hands and feet with a pink trunk is common shortly after birth as circulation adapts. Central cyanosis is abnormal.",
+ "strategy": "Distinguish peripheral acrocyanosis from blue lips or tongue.",
+ "difficulty": "hard",
+ "tags": [
+  "newborn",
+  "assessment"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MAT2-0007",
+ "categorySlug": "maternal-newborn",
+ "stem": "The minimum birth weight generally considered normal for a term newborn is:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "1,500 g"
+  },
+  {
+   "id": "b",
+   "text": "2,000 g"
+  },
+  {
+   "id": "c",
+   "text": "2,500 g"
+  },
+  {
+   "id": "d",
+   "text": "3,500 g"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "A birth weight below 2,500 g is low birth weight; 2,500 g or more is the usual lower boundary for normal birth weight.",
+ "strategy": "Remember the 2,500-g low-birth-weight threshold.",
+ "difficulty": "hard",
+ "tags": [
+  "newborn",
+  "growth"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MAT2-0008",
+ "categorySlug": "maternal-newborn",
+ "stem": "A client with regular 30-day cycles began menstruating on January 1. Ovulation is most likely around:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "January 7"
+  },
+  {
+   "id": "b",
+   "text": "January 16"
+  },
+  {
+   "id": "c",
+   "text": "January 24"
+  },
+  {
+   "id": "d",
+   "text": "January 29"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Ovulation usually occurs about 14 days before the next period. In a 30-day cycle it is approximately day 16.",
+ "strategy": "Estimate ovulation by subtracting 14 days from the expected next menstrual period.",
+ "difficulty": "hard",
+ "tags": [
+  "ovulation",
+  "fertility"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MAT2-0009",
+ "categorySlug": "maternal-newborn",
+ "stem": "Which medication for endometriosis commonly causes hot flashes by suppressing ovarian hormone production?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Oestrogen replacement"
+  },
+  {
+   "id": "b",
+   "text": "Leuprolide"
+  },
+  {
+   "id": "c",
+   "text": "Diclofenac"
+  },
+  {
+   "id": "d",
+   "text": "Iron"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Leuprolide, a GnRH agonist, initially stimulates then suppresses gonadotropins, producing a hypo-oestrogenic state with hot flashes.",
+ "strategy": "Connect GnRH agonist therapy with temporary menopause-like effects.",
+ "difficulty": "hard",
+ "tags": [
+  "endometriosis",
+  "leuprolide"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MAT2-0010",
+ "categorySlug": "maternal-newborn",
+ "stem": "A client at six weeks’ gestation is diagnosed with gonorrhoea. Which medication is generally expected?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Ceftriaxone"
+  },
+  {
+   "id": "b",
+   "text": "Levofloxacin"
+  },
+  {
+   "id": "c",
+   "text": "Sulfasalazine"
+  },
+  {
+   "id": "d",
+   "text": "Warfarin"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Ceftriaxone is recommended treatment for gonorrhoea in pregnancy according to current STI guidance; local protocols should be followed.",
+ "strategy": "Choose pregnancy-compatible, guideline-based treatment rather than fluoroquinolones.",
+ "difficulty": "hard",
+ "tags": [
+  "gonorrhoea",
+  "pregnancy"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MAT2-0011",
+ "categorySlug": "maternal-newborn",
+ "stem": "A 15-year-old reports persistent severe pain with menstruation. What should the nurse encourage?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Ignore it as normal"
+  },
+  {
+   "id": "b",
+   "text": "Arrange a healthcare or gynaecological assessment"
+  },
+  {
+   "id": "c",
+   "text": "Take iron only"
+  },
+  {
+   "id": "d",
+   "text": "Avoid all physical activity"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Persistent or severe dysmenorrhoea warrants assessment for secondary causes such as endometriosis; it should not be dismissed.",
+ "strategy": "Pain that is persistent, severe or disabling requires evaluation.",
+ "difficulty": "hard",
+ "tags": [
+  "dysmenorrhoea",
+  "adolescent"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MAT2-0012",
+ "categorySlug": "maternal-newborn",
+ "stem": "The largest body part of a newborn is the:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Head"
+  },
+  {
+   "id": "b",
+   "text": "Chest"
+  },
+  {
+   "id": "c",
+   "text": "Legs"
+  },
+  {
+   "id": "d",
+   "text": "Abdomen"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "The newborn head is proportionally large compared with the trunk and limbs.",
+ "strategy": "Use proportional anatomy when assessing newborn size and birth mechanics.",
+ "difficulty": "hard",
+ "tags": [
+  "newborn",
+  "anatomy"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MAT2-0013",
+ "categorySlug": "maternal-newborn",
+ "stem": "The main arterial blood supply to the pelvis is provided by the:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "External iliac artery"
+  },
+  {
+   "id": "b",
+   "text": "Internal iliac artery"
+  },
+  {
+   "id": "c",
+   "text": "Lumbar artery"
+  },
+  {
+   "id": "d",
+   "text": "Vertebral artery"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "The internal iliac arteries supply most pelvic organs, pelvic walls and gluteal regions.",
+ "strategy": "Match pelvic organ supply with the internal iliac artery.",
+ "difficulty": "hard",
+ "tags": [
+  "pelvic-anatomy"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MAT2-0014",
+ "categorySlug": "maternal-newborn",
+ "stem": "A client with cystocele and rectocele is most likely to report:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Stress incontinence and pressure in the lower pelvis"
+  },
+  {
+   "id": "b",
+   "text": "High fever and intractable diarrhoea"
+  },
+  {
+   "id": "c",
+   "text": "Only an itchy vaginal discharge"
+  },
+  {
+   "id": "d",
+   "text": "Sudden severe chest pain"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Pelvic-organ prolapse can cause pelvic pressure, urinary stress incontinence and difficulty with bowel movements.",
+ "strategy": "Link cystocele/rectocele to pelvic pressure and bladder or bowel symptoms.",
+ "difficulty": "hard",
+ "tags": [
+  "pelvic-organ-prolapse"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MAT2-0015",
+ "categorySlug": "maternal-newborn",
+ "stem": "A postmenopausal client after anterior and posterior colporrhaphy should be taught to report:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Urinary retention or inability to void"
+  },
+  {
+   "id": "b",
+   "text": "A normal appetite"
+  },
+  {
+   "id": "c",
+   "text": "Mild temporary fatigue"
+  },
+  {
+   "id": "d",
+   "text": "A single normal bowel movement"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Pelvic repair can cause swelling or obstruction leading to urinary retention, which requires prompt assessment.",
+ "strategy": "After pelvic surgery, monitor voiding and report retention.",
+ "difficulty": "hard",
+ "tags": [
+  "colporrhaphy",
+  "postoperative"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MAT2-0016",
+ "categorySlug": "maternal-newborn",
+ "stem": "A client with severe uterine prolapse is at greatest risk for:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Ulceration of exposed tissue"
+  },
+  {
+   "id": "b",
+   "text": "Improved pelvic support"
+  },
+  {
+   "id": "c",
+   "text": "Hyperglycaemia only"
+  },
+  {
+   "id": "d",
+   "text": "Otitis media"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Prolapsed tissue can become dry, traumatised and ulcerated when exposed to friction and pressure.",
+ "strategy": "For severe prolapse, inspect exposed tissue for ulceration and infection.",
+ "difficulty": "hard",
+ "tags": [
+  "uterine-prolapse"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MAT2-0017",
+ "categorySlug": "maternal-newborn",
+ "stem": "A client with third-degree uterine prolapse is awaiting surgery. Which intervention is appropriate?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Encourage prolonged standing"
+  },
+  {
+   "id": "b",
+   "text": "Support the prolapsed uterus with a clean pad as prescribed"
+  },
+  {
+   "id": "c",
+   "text": "Apply a dry abrasive dressing"
+  },
+  {
+   "id": "d",
+   "text": "Place the client prone only"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Gentle support and protection of exposed tissue reduce trauma while definitive treatment is arranged.",
+ "strategy": "Protect prolapsed tissue from drying and friction and follow the surgical plan.",
+ "difficulty": "hard",
+ "tags": [
+  "uterine-prolapse"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MAT2-0018",
+ "categorySlug": "maternal-newborn",
+ "stem": "A client with pelvic inflammatory disease is most comfortable initially in which position?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Sims position"
+  },
+  {
+   "id": "b",
+   "text": "Fowler position"
+  },
+  {
+   "id": "c",
+   "text": "Supine with knees flexed"
+  },
+  {
+   "id": "d",
+   "text": "Prone with legs extended"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Supine with knees flexed can relax abdominal and pelvic muscles and reduce discomfort; position is adjusted to the client’s tolerance.",
+ "strategy": "Flexion can reduce abdominal muscle tension during acute pelvic pain.",
+ "difficulty": "hard",
+ "tags": [
+  "pid",
+  "comfort"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MAT2-0019",
+ "categorySlug": "maternal-newborn",
+ "stem": "The earliest abnormal bleeding pattern that should prompt assessment for cervical cancer is:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Abdominal heaviness only"
+  },
+  {
+   "id": "b",
+   "text": "Bladder pressure only"
+  },
+  {
+   "id": "c",
+   "text": "Postcoital bloody spotting"
+  },
+  {
+   "id": "d",
+   "text": "Mild menstrual cramps"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Bleeding after intercourse is an important warning symptom of cervical pathology and requires evaluation.",
+ "strategy": "Postcoital bleeding is not normal and should be assessed.",
+ "difficulty": "hard",
+ "tags": [
+  "cervical-cancer",
+  "screening"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MAT2-0020",
+ "categorySlug": "maternal-newborn",
+ "stem": "A client has abruptio placentae with severe bleeding. Which laboratory abnormality may explain the heavy haemorrhage?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Polycythaemia"
+  },
+  {
+   "id": "b",
+   "text": "Thrombocytopenia only"
+  },
+  {
+   "id": "c",
+   "text": "Hyperglobulinaemia"
+  },
+  {
+   "id": "d",
+   "text": "Hypofibrinogenaemia"
+  }
+ ],
+ "correctChoiceId": "d",
+ "rationale": "Placental abruption can trigger disseminated intravascular coagulation, consuming fibrinogen and other clotting factors and worsening bleeding.",
+ "strategy": "Abruption plus severe bleeding raises concern for DIC and low fibrinogen.",
+ "difficulty": "hard",
+ "tags": [
+  "abruption",
+  "dic"
  ],
  "isFree": false
 }
