@@ -23,7 +23,7 @@ export type AuthoredQuestion = {
   mediaCaption?: string;
 };
 
-export const AUTHORED_COUNT = 3349;
+export const AUTHORED_COUNT = 3369;
 export const AUTHORED_COUNT_LABEL = "3,200+";
 export const AUTHORED_DIAGRAM_COUNT = 569;
 
@@ -114558,6 +114558,646 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "tags": [
   "iron",
   "anaemia"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-RESP-0001",
+ "categorySlug": "med-surg",
+ "stem": "A patient with an acute asthma exacerbation is unable to complete sentences and has a silent chest. What is the priority?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Reassure and reassess in one hour"
+  },
+  {
+   "id": "b",
+   "text": "Treat as impending respiratory failure and call for urgent assistance"
+  },
+  {
+   "id": "c",
+   "text": "Offer oral fluids"
+  },
+  {
+   "id": "d",
+   "text": "Place the patient flat"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "A silent chest with severe work of breathing indicates critically reduced airflow and impending respiratory failure. Urgent airway and ventilatory support are required.",
+ "strategy": "In asthma, a quiet chest can be more dangerous than loud wheezing because airflow is severely limited.",
+ "difficulty": "hard",
+ "tags": [
+  "asthma",
+  "respiratory-failure"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-RESP-0002",
+ "categorySlug": "med-surg",
+ "stem": "A patient with COPD has increasing drowsiness, shallow breathing and a rising PaCO2. Which intervention is most appropriate?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Assess ventilation and prepare prescribed ventilatory support"
+  },
+  {
+   "id": "b",
+   "text": "Give unlimited high-flow oxygen without monitoring"
+  },
+  {
+   "id": "c",
+   "text": "Encourage sedatives"
+  },
+  {
+   "id": "d",
+   "text": "Place the patient flat"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Drowsiness and rising PaCO2 suggest hypercapnic respiratory failure. Oxygen must be titrated to the prescribed target while ventilation is assessed and escalated.",
+ "strategy": "In COPD, treat hypoxia while avoiding unmonitored oxygen excess and assess ventilation, not saturation alone.",
+ "difficulty": "hard",
+ "tags": [
+  "copd",
+  "hypercapnia"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-RESP-0003",
+ "categorySlug": "med-surg",
+ "stem": "A patient with a tracheostomy suddenly has a high-pressure ventilator alarm and reduced air entry. What should the nurse do first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Check for kinks, secretions and tube obstruction while assessing the patient"
+  },
+  {
+   "id": "b",
+   "text": "Silence the alarm permanently"
+  },
+  {
+   "id": "c",
+   "text": "Increase sedation without assessment"
+  },
+  {
+   "id": "d",
+   "text": "Disconnect the ventilator and leave the patient alone"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "A high-pressure alarm commonly indicates increased resistance from kinking, secretions or obstruction. The patient is assessed and the airway is checked immediately.",
+ "strategy": "Always assess the patient first, then trace the ventilator circuit for obstruction.",
+ "difficulty": "hard",
+ "tags": [
+  "tracheostomy",
+  "ventilator"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-RESP-0004",
+ "categorySlug": "med-surg",
+ "stem": "A patient with suspected pulmonary embolism has sudden dyspnoea, pleuritic chest pain and SpO2 86%. What should the nurse do first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Apply prescribed oxygen, assess ABCs and escalate urgently"
+  },
+  {
+   "id": "b",
+   "text": "Encourage ambulation"
+  },
+  {
+   "id": "c",
+   "text": "Massage the calf"
+  },
+  {
+   "id": "d",
+   "text": "Offer a large meal"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Hypoxaemia and possible pulmonary embolism require immediate ABC assessment, oxygen and urgent escalation; ambulation or massage may worsen risk.",
+ "strategy": "For suspected PE, support oxygenation and circulation before diagnostic procedures.",
+ "difficulty": "hard",
+ "tags": [
+  "pulmonary-embolism",
+  "hypoxaemia"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-RESP-0005",
+ "categorySlug": "med-surg",
+ "stem": "A patient with pneumonia becomes confused, hypotensive and cool with a respiratory rate of 34/min. What is the priority concern?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Septic shock and organ hypoperfusion"
+  },
+  {
+   "id": "b",
+   "text": "Simple fatigue"
+  },
+  {
+   "id": "c",
+   "text": "Expected response to antibiotics"
+  },
+  {
+   "id": "d",
+   "text": "Mild dehydration only"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Confusion, hypotension, tachypnoea and cool skin indicate systemic hypoperfusion and possible septic shock.",
+ "strategy": "In infection, new confusion and circulatory compromise are red flags for sepsis.",
+ "difficulty": "hard",
+ "tags": [
+  "pneumonia",
+  "sepsis"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-RESP-0006",
+ "categorySlug": "med-surg",
+ "stem": "A patient with a chest tube develops sudden severe dyspnoea and the water-seal chamber stops fluctuating. What should the nurse do?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Assess the patient and tubing for obstruction or disconnection and call for help"
+  },
+  {
+   "id": "b",
+   "text": "Clamp the tube for 30 minutes"
+  },
+  {
+   "id": "c",
+   "text": "Strip the tubing forcefully"
+  },
+  {
+   "id": "d",
+   "text": "Ignore the change"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Sudden dyspnoea with a change in drainage-system function may indicate obstruction, disconnection or worsening pneumothorax. The patient and system need immediate assessment.",
+ "strategy": "A sudden clinical change plus altered chest-tube function requires assessment, not routine clamping or stripping.",
+ "difficulty": "hard",
+ "tags": [
+  "chest-tube",
+  "pneumothorax"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-RESP-0007",
+ "categorySlug": "med-surg",
+ "stem": "A patient with a suspected tension pneumothorax has severe distress, hypotension and absent breath sounds on one side. What is the priority?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Prepare for immediate decompression while supporting oxygenation"
+  },
+  {
+   "id": "b",
+   "text": "Wait for a routine chest radiograph"
+  },
+  {
+   "id": "c",
+   "text": "Place the patient prone"
+  },
+  {
+   "id": "d",
+   "text": "Encourage coughing"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Tension pneumothorax compromises ventilation and venous return and requires immediate decompression; treatment must not wait for imaging.",
+ "strategy": "Shock plus unilateral absent breath sounds is a decompression emergency.",
+ "difficulty": "hard",
+ "tags": [
+  "tension-pneumothorax",
+  "shock"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-RESP-0008",
+ "categorySlug": "med-surg",
+ "stem": "A patient with pulmonary oedema is coughing pink frothy sputum. Which position is best while urgent treatment begins?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "High Fowler with legs dependent if tolerated"
+  },
+  {
+   "id": "b",
+   "text": "Flat supine"
+  },
+  {
+   "id": "c",
+   "text": "Prone"
+  },
+  {
+   "id": "d",
+   "text": "Trendelenburg"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Upright positioning improves lung expansion and reduces venous return, helping relieve pulmonary congestion while oxygen and prescribed therapy are given.",
+ "strategy": "For pulmonary oedema, sit upright and support oxygenation.",
+ "difficulty": "hard",
+ "tags": [
+  "pulmonary-oedema",
+  "heart-failure"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-RESP-0009",
+ "categorySlug": "fundamentals",
+ "stem": "A patient with dysphagia coughs and develops a wet voice while drinking water. What should the nurse do?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Stop oral intake, keep the patient upright and request swallowing assessment"
+  },
+  {
+   "id": "b",
+   "text": "Offer more water"
+  },
+  {
+   "id": "c",
+   "text": "Continue slowly without reassessment"
+  },
+  {
+   "id": "d",
+   "text": "Place the patient flat"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Coughing and wet voice suggest aspiration. Oral intake stops while airway status is assessed and swallowing review is arranged.",
+ "strategy": "Wet voice after swallowing is an aspiration warning; stop intake first.",
+ "difficulty": "hard",
+ "tags": [
+  "dysphagia",
+  "aspiration"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-RESP-0010",
+ "categorySlug": "fundamentals",
+ "stem": "A patient is found cyanotic and unresponsive. Which assessment comes first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Airway and breathing"
+  },
+  {
+   "id": "b",
+   "text": "Pain score"
+  },
+  {
+   "id": "c",
+   "text": "Dietary history"
+  },
+  {
+   "id": "d",
+   "text": "Urine output"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Cyanosis and unresponsiveness indicate an immediate ABC emergency. Airway and breathing are assessed and supported before secondary data collection.",
+ "strategy": "Use ABC priorities in every collapse, regardless of the diagnosis suspected.",
+ "difficulty": "hard",
+ "tags": [
+  "abc",
+  "emergency"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-RESP-0011",
+ "categorySlug": "fundamentals",
+ "stem": "A patient with a new central venous catheter develops sudden dyspnoea and sharp chest pain after insertion. What complication should the nurse suspect?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Pneumothorax"
+  },
+  {
+   "id": "b",
+   "text": "Constipation"
+  },
+  {
+   "id": "c",
+   "text": "Hypoglycaemia"
+  },
+  {
+   "id": "d",
+   "text": "Cellulitis only"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Central-line insertion can puncture the pleura and cause pneumothorax, presenting with sudden dyspnoea and chest pain.",
+ "strategy": "Link sudden respiratory symptoms after central-line insertion with pneumothorax.",
+ "difficulty": "hard",
+ "tags": [
+  "central-line",
+  "pneumothorax"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-RESP-0012",
+ "categorySlug": "fundamentals",
+ "stem": "A patient’s pulse oximeter reads 82%, but the waveform is poor and the fingers are cold. What should the nurse do first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Assess the patient and improve probe position or peripheral perfusion"
+  },
+  {
+   "id": "b",
+   "text": "Administer sedatives"
+  },
+  {
+   "id": "c",
+   "text": "Document the value as accurate"
+  },
+  {
+   "id": "d",
+   "text": "Remove all oxygen"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Poor perfusion and a poor waveform can make pulse oximetry unreliable. The patient is assessed directly while the probe and circulation are corrected.",
+ "strategy": "Never treat an isolated number without checking signal quality and clinical signs.",
+ "difficulty": "hard",
+ "tags": [
+  "pulse-oximetry",
+  "assessment"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-RESP-0013",
+ "categorySlug": "safety-infection-control",
+ "stem": "A patient with suspected pulmonary tuberculosis must go to imaging. Which precaution is essential during transport?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Place a surgical mask on the patient and notify the receiving area"
+  },
+  {
+   "id": "b",
+   "text": "Use gloves only"
+  },
+  {
+   "id": "c",
+   "text": "Leave the patient unmasked in a crowded area"
+  },
+  {
+   "id": "d",
+   "text": "Use a shared nebuliser"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "The patient should wear a surgical mask during transport; staff use appropriate respiratory protection and the receiving area is informed.",
+ "strategy": "For airborne disease, mask the patient and protect staff during transport.",
+ "difficulty": "hard",
+ "tags": [
+  "tuberculosis",
+  "airborne"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-RESP-0014",
+ "categorySlug": "safety-infection-control",
+ "stem": "A nurse has a needlestick injury from a used hollow-bore needle. What is the first action?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Wash with soap and water and report immediately"
+  },
+  {
+   "id": "b",
+   "text": "Squeeze aggressively for ten minutes"
+  },
+  {
+   "id": "c",
+   "text": "Apply bleach"
+  },
+  {
+   "id": "d",
+   "text": "Hide the injury"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Washing and immediate reporting allow timely exposure assessment, baseline testing and post-exposure prophylaxis when indicated.",
+ "strategy": "After a sharps injury: wash, report and obtain urgent occupational-health review.",
+ "difficulty": "hard",
+ "tags": [
+  "needlestick",
+  "safety"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-RESP-0015",
+ "categorySlug": "fundamentals",
+ "stem": "A patient receiving a blood transfusion develops fever, flank pain and dark urine 15 minutes after starting. What is the first action?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Stop the transfusion and keep the IV open with normal saline using new tubing"
+  },
+  {
+   "id": "b",
+   "text": "Increase the transfusion rate"
+  },
+  {
+   "id": "c",
+   "text": "Restart the same unit slowly"
+  },
+  {
+   "id": "d",
+   "text": "Discard the blood bag without reporting"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "These findings suggest an acute haemolytic transfusion reaction. Stop blood immediately, maintain access with saline and new tubing, and notify the team and blood bank.",
+ "strategy": "During a suspected transfusion reaction, stop the blood first and never restart the unit.",
+ "difficulty": "hard",
+ "tags": [
+  "transfusion",
+  "haemolysis"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-RESP-0016",
+ "categorySlug": "fundamentals",
+ "stem": "A patient at high risk of pressure injury has non-blanching redness over the sacrum. What should the nurse do?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Offload pressure, reposition and document/escalate the skin change"
+  },
+  {
+   "id": "b",
+   "text": "Massage the reddened area vigorously"
+  },
+  {
+   "id": "c",
+   "text": "Apply heat directly"
+  },
+  {
+   "id": "d",
+   "text": "Leave the patient in the same position"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Non-blanching erythema may be a stage 1 pressure injury. Pressure must be relieved and the area monitored and documented.",
+ "strategy": "Non-blanching redness means pressure damage has begun; remove pressure rather than massage.",
+ "difficulty": "hard",
+ "tags": [
+  "pressure-injury",
+  "skin"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-RESP-0017",
+ "categorySlug": "health-promotion",
+ "stem": "A patient with hypertension says, “I stopped my tablets because I feel fine.” Which response is best?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Hypertension can damage organs silently; let us discuss your concerns and a workable plan"
+  },
+  {
+   "id": "b",
+   "text": "Restart only when you have a headache"
+  },
+  {
+   "id": "c",
+   "text": "You must comply or you will die"
+  },
+  {
+   "id": "d",
+   "text": "Your decision does not matter"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Hypertension is often asymptomatic while damaging the heart, brain and kidneys. A non-judgemental conversation explores barriers and supports adherence.",
+ "strategy": "Use shared decision-making and explain silent risk rather than using threats.",
+ "difficulty": "hard",
+ "tags": [
+  "hypertension",
+  "adherence"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-RESP-0018",
+ "categorySlug": "fundamentals",
+ "stem": "A patient with a new medication list cannot read the written instructions. Which teaching method best evaluates understanding?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Ask the patient to demonstrate or teach back the instructions"
+  },
+  {
+   "id": "b",
+   "text": "Give a longer leaflet"
+  },
+  {
+   "id": "c",
+   "text": "Ask only whether the patient understands"
+  },
+  {
+   "id": "d",
+   "text": "Teach the family and exclude the patient"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Demonstration and teach-back reveal understanding and allow correction, especially when literacy is limited.",
+ "strategy": "Assess learning through teach-back, not a yes/no question.",
+ "difficulty": "hard",
+ "tags": [
+  "teach-back",
+  "health-literacy"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-RESP-0019",
+ "categorySlug": "med-surg",
+ "stem": "A patient with a new tracheostomy becomes cyanotic and there is no airflow through the tube. What should the nurse do?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Call for help, provide oxygen and assess/remove a blocked inner cannula if present"
+  },
+  {
+   "id": "b",
+   "text": "Give oral fluids"
+  },
+  {
+   "id": "c",
+   "text": "Place the patient flat"
+  },
+  {
+   "id": "d",
+   "text": "Change the ties before assessing the airway"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Absent airflow and cyanosis are an airway emergency. A blocked inner cannula may be removed while expert help and oxygenation are provided.",
+ "strategy": "Treat a blocked tracheostomy as an airway emergency and act immediately.",
+ "difficulty": "hard",
+ "tags": [
+  "tracheostomy",
+  "airway"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-RESP-0020",
+ "categorySlug": "med-surg",
+ "stem": "A patient with COPD asks why oxygen is being titrated rather than given at the highest flow. Which explanation is best?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "The prescribed target balances oxygenation with the risk of worsening carbon-dioxide retention"
+  },
+  {
+   "id": "b",
+   "text": "Oxygen is harmful to every COPD patient"
+  },
+  {
+   "id": "c",
+   "text": "Oxygen cannot improve COPD symptoms"
+  },
+  {
+   "id": "d",
+   "text": "The flow is chosen only for comfort"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Some patients with chronic hypercapnia can worsen with excessive oxygen; oxygen is titrated to the prescribed target while ventilation and clinical status are monitored.",
+ "strategy": "Titrate oxygen to the target and assess ventilation, not saturation alone.",
+ "difficulty": "hard",
+ "tags": [
+  "copd",
+  "oxygen-therapy"
  ],
  "isFree": false
 }

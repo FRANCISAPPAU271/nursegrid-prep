@@ -11,8 +11,8 @@ import { sql } from "drizzle-orm";
  *   npx tsx src/db/append-authored-batch.ts
  */
 async function main() {
-  const batch = AUTHORED_QUESTIONS.filter((q) => q.authoredId.startsWith("NG-BATCH2-") || q.authoredId.startsWith("NG-USER-") || q.authoredId.startsWith("NG-NEURO-") || q.authoredId.startsWith("NG-FLUID-") || q.authoredId.startsWith("NG-PHARM-"));
-  if (batch.length !== 50) throw new Error(`Expected 130 appended questions, found ${batch.length}`);
+  const batch = AUTHORED_QUESTIONS.filter((q) => q.authoredId.startsWith("NG-BATCH2-") || q.authoredId.startsWith("NG-USER-") || q.authoredId.startsWith("NG-NEURO-") || q.authoredId.startsWith("NG-FLUID-") || q.authoredId.startsWith("NG-PHARM-") || q.authoredId.startsWith("NG-RESP-"));
+  if (batch.length !== 50) throw new Error(`Expected 150 appended questions, found ${batch.length}`);
 
   await db.execute(sql`ALTER TABLE "questions" ADD COLUMN IF NOT EXISTS "media_url" text`);
   await db.execute(sql`ALTER TABLE "questions" ADD COLUMN IF NOT EXISTS "media_caption" text`);
