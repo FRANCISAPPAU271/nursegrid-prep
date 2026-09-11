@@ -23,7 +23,7 @@ export type AuthoredQuestion = {
   mediaCaption?: string;
 };
 
-export const AUTHORED_COUNT = 3409;
+export const AUTHORED_COUNT = 3429;
 export const AUTHORED_COUNT_LABEL = "3,200+";
 export const AUTHORED_DIAGRAM_COUNT = 569;
 
@@ -116476,6 +116476,646 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "tags": [
   "safe-sleep",
   "suffocation"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MIX-0001",
+ "categorySlug": "med-surg",
+ "stem": "A client with cholelithiasis reports discomfort after fatty meals. Which explanation should the nurse provide?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Fat is difficult for every person to digest"
+  },
+  {
+   "id": "b",
+   "text": "Bile flow into the intestine may be obstructed when the gallbladder contracts"
+  },
+  {
+   "id": "c",
+   "text": "The liver cannot manufacture any bile"
+  },
+  {
+   "id": "d",
+   "text": "Fat immediately causes pancreatic infection"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Gallstones can obstruct bile flow, especially after a fatty meal stimulates gallbladder contraction. Bile is needed for fat emulsification and digestion.",
+ "strategy": "Relate post-fat meal pain to gallbladder contraction against an obstructed outlet.",
+ "difficulty": "hard",
+ "tags": [
+  "cholelithiasis",
+  "biliary"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MIX-0002",
+ "categorySlug": "med-surg",
+ "stem": "Vitamin K is prescribed before cholecystectomy. Which substance formed with vitamin K is the intended concern?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Bilirubin"
+  },
+  {
+   "id": "b",
+   "text": "Prothrombin"
+  },
+  {
+   "id": "c",
+   "text": "Thromboplastin"
+  },
+  {
+   "id": "d",
+   "text": "Albumin"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Vitamin K is required for hepatic synthesis of several clotting factors, including prothrombin, helping correct bleeding risk associated with impaired bile flow or malabsorption.",
+ "strategy": "Vitamin K supports clotting-factor synthesis, especially prothrombin.",
+ "difficulty": "hard",
+ "tags": [
+  "vitamin-k",
+  "surgery"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MIX-0003",
+ "categorySlug": "med-surg",
+ "stem": "After abdominal cholecystectomy, why should the nurse assess carefully for respiratory complications?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "The surgery always causes prolonged anaesthesia"
+  },
+  {
+   "id": "b",
+   "text": "The incision and abdominal discomfort can limit diaphragmatic expansion"
+  },
+  {
+   "id": "c",
+   "text": "Bile in the blood depresses respiration"
+  },
+  {
+   "id": "d",
+   "text": "The client is expected to develop pneumonia"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Upper abdominal pain and splinting can impair deep breathing and coughing, increasing atelectasis risk because the incision is near the diaphragm.",
+ "strategy": "Upper abdominal surgery can restrict ventilation; monitor breathing and encourage prescribed pulmonary care.",
+ "difficulty": "hard",
+ "tags": [
+  "cholecystectomy",
+  "respiratory"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MIX-0004",
+ "categorySlug": "med-surg",
+ "stem": "Alcohol can contribute to acute pancreatitis because it:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Forms gallstones directly"
+  },
+  {
+   "id": "b",
+   "text": "Stimulates insulin until it is depleted"
+  },
+  {
+   "id": "c",
+   "text": "Increases enzyme secretion and duct pressure, allowing enzyme injury to pancreatic tissue"
+  },
+  {
+   "id": "d",
+   "text": "Prevents all pancreatic secretions"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Alcohol can increase pancreatic secretion and ductal pressure and promote premature enzyme activation, causing autodigestion and inflammation.",
+ "strategy": "Connect alcohol with duct pressure and premature enzyme activation, not insulin depletion.",
+ "difficulty": "hard",
+ "tags": [
+  "pancreatitis",
+  "alcohol"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MIX-0005",
+ "categorySlug": "med-surg",
+ "stem": "A client with pancreatic cancer is restless and apprehensive. Which nursing action is most appropriate?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Encourage the client to express concerns"
+  },
+  {
+   "id": "b",
+   "text": "Administer antibiotics without an indication"
+  },
+  {
+   "id": "c",
+   "text": "Tell the client to ignore the anxiety"
+  },
+  {
+   "id": "d",
+   "text": "Limit all questions"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Therapeutic communication allows assessment of fears and supports coping; anxiety should be explored while physical causes are assessed.",
+ "strategy": "For apprehension, begin with presence, assessment and therapeutic communication.",
+ "difficulty": "hard",
+ "tags": [
+  "oncology",
+  "anxiety"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MIX-0006",
+ "categorySlug": "med-surg",
+ "stem": "A comatose client after a cerebrovascular accident is most likely to have which finding?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Purposeful responses to all commands"
+  },
+  {
+   "id": "b",
+   "text": "Urinary incontinence"
+  },
+  {
+   "id": "c",
+   "text": "Normal protective reflexes in every case"
+  },
+  {
+   "id": "d",
+   "text": "Independent ambulation"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Loss of consciousness can impair bladder control and other protective functions; airway, skin and elimination require close assessment.",
+ "strategy": "Coma affects protective and continence functions; prioritise ABCs and safety.",
+ "difficulty": "hard",
+ "tags": [
+  "stroke",
+  "coma"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MIX-0007",
+ "categorySlug": "med-surg",
+ "stem": "Which position is generally appropriate initially for a client after an acute stroke who is not vomiting and has no spinal injury?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Prone"
+  },
+  {
+   "id": "b",
+   "text": "Lateral or side-lying with airway maintained"
+  },
+  {
+   "id": "c",
+   "text": "Flat with the neck flexed"
+  },
+  {
+   "id": "d",
+   "text": "Trendelenburg"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Side-lying can support airway drainage and reduce aspiration risk in a patient with impaired consciousness; position is adjusted to neurological and airway findings.",
+ "strategy": "For reduced consciousness, protect the airway and allow secretions to drain.",
+ "difficulty": "hard",
+ "tags": [
+  "stroke",
+  "positioning"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MIX-0008",
+ "categorySlug": "med-surg",
+ "stem": "A client with dysphagia after stroke requires which function to be addressed in the care plan?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Writing only"
+  },
+  {
+   "id": "b",
+   "text": "Swallowing and aspiration safety"
+  },
+  {
+   "id": "c",
+   "text": "Hair grooming only"
+  },
+  {
+   "id": "d",
+   "text": "Visual acuity only"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Dysphagia creates aspiration, malnutrition and dehydration risks. Swallow assessment, positioning and texture modification are central.",
+ "strategy": "Link stroke dysphagia to airway protection and nutrition.",
+ "difficulty": "hard",
+ "tags": [
+  "stroke",
+  "dysphagia"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MIX-0009",
+ "categorySlug": "med-surg",
+ "stem": "Thiamine and niacin prescribed for a client with alcohol-use disorder primarily support:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Neuronal and energy metabolism"
+  },
+  {
+   "id": "b",
+   "text": "Bowel elimination only"
+  },
+  {
+   "id": "c",
+   "text": "Blood pressure elevation"
+  },
+  {
+   "id": "d",
+   "text": "Bone lengthening"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Thiamine is essential for carbohydrate metabolism and neuronal function; niacin supports energy metabolism and nervous-system health.",
+ "strategy": "Alcohol-related vitamin replacement protects neurological and metabolic function.",
+ "difficulty": "hard",
+ "tags": [
+  "alcohol",
+  "nutrition"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MIX-0010",
+ "categorySlug": "med-surg",
+ "stem": "A high-calorie diet fortified with vitamins is prescribed during alcohol withdrawal primarily to support the:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Liver and overall metabolic recovery"
+  },
+  {
+   "id": "b",
+   "text": "Heart rate only"
+  },
+  {
+   "id": "c",
+   "text": "Pancreas by increasing alcohol tolerance"
+  },
+  {
+   "id": "d",
+   "text": "Skin only"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Chronic alcohol use can cause malnutrition and liver injury. Adequate calories and vitamins support metabolism and recovery while withdrawal is treated.",
+ "strategy": "Nutrition in alcohol withdrawal addresses depleted stores and organ recovery, not alcohol tolerance.",
+ "difficulty": "hard",
+ "tags": [
+  "alcohol",
+  "nutrition"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MIX-0011",
+ "categorySlug": "med-surg",
+ "stem": "A client with hepatitis B asks whether treatment exists. Which response is best?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Sedatives cure the infection"
+  },
+  {
+   "id": "b",
+   "text": "Immune serum globulin cures established chronic infection"
+  },
+  {
+   "id": "c",
+   "text": "Vitamin supplements eliminate the virus"
+  },
+  {
+   "id": "d",
+   "text": "Antiviral medicines may reduce viral replication and liver inflammation in selected cases"
+  }
+ ],
+ "correctChoiceId": "d",
+ "rationale": "Selected chronic hepatitis B patients benefit from antiviral therapy that suppresses viral replication and reduces liver injury; monitoring and specialist assessment are required.",
+ "strategy": "Distinguish supportive care and prophylaxis from antiviral treatment of established infection.",
+ "difficulty": "hard",
+ "tags": [
+  "hepatitis-b",
+  "antivirals"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MIX-0012",
+ "categorySlug": "safety-infection-control",
+ "stem": "A client with hepatitis A has diarrhoea. Which precaution is most appropriate when removing the bedpan?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "No precautions are needed"
+  },
+  {
+   "id": "b",
+   "text": "Use gloves and perform meticulous hand hygiene"
+  },
+  {
+   "id": "c",
+   "text": "Use an N95 respirator only"
+  },
+  {
+   "id": "d",
+   "text": "Use a gown but no hand hygiene"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Hepatitis A spreads by the faecal–oral route. Gloves and thorough hand hygiene are required for contact with stool and contaminated items.",
+ "strategy": "Match hepatitis A precautions to faecal–oral transmission.",
+ "difficulty": "hard",
+ "tags": [
+  "hepatitis-a",
+  "infection-control"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MIX-0013",
+ "categorySlug": "med-surg",
+ "stem": "Pancytopenia is defined as:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Anaemia, leukopenia and thrombocytopenia"
+  },
+  {
+   "id": "b",
+   "text": "Thrombocytopenia and hyperglycaemia only"
+  },
+  {
+   "id": "c",
+   "text": "Anaemia and hypoxia only"
+  },
+  {
+   "id": "d",
+   "text": "Leukocytosis and thrombocytosis"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Pancytopenia is reduction in red cells, white cells and platelets, producing risks of fatigue, infection and bleeding.",
+ "strategy": "Break the term into all three blood-cell lines.",
+ "difficulty": "hard",
+ "tags": [
+  "pancytopenia",
+  "haematology"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MIX-0014",
+ "categorySlug": "med-surg",
+ "stem": "Haemophilia is characterised by:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Faster-than-normal clotting"
+  },
+  {
+   "id": "b",
+   "text": "Delayed clotting because of a coagulation-factor deficiency"
+  },
+  {
+   "id": "c",
+   "text": "Complete absence of all clotting"
+  },
+  {
+   "id": "d",
+   "text": "Excess platelet production"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Haemophilia is an inherited coagulation-factor deficiency causing prolonged clotting and deep bleeding, despite a normal platelet count.",
+ "strategy": "Distinguish clotting-factor disorders from platelet disorders.",
+ "difficulty": "hard",
+ "tags": [
+  "haemophilia",
+  "coagulation"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MIX-0015",
+ "categorySlug": "med-surg",
+ "stem": "The Schilling test was historically used to investigate:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Iron deficiency"
+  },
+  {
+   "id": "b",
+   "text": "Pernicious anaemia and vitamin B12 absorption"
+  },
+  {
+   "id": "c",
+   "text": "Haemorrhagic anaemia only"
+  },
+  {
+   "id": "d",
+   "text": "Haemolysis only"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "The Schilling test historically assessed vitamin B12 absorption and helped investigate pernicious anaemia; it is now largely replaced by other tests.",
+ "strategy": "Link B12 malabsorption and intrinsic-factor deficiency with pernicious anaemia.",
+ "difficulty": "hard",
+ "tags": [
+  "pernicious-anaemia",
+  "vitamin-b12"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MIX-0016",
+ "categorySlug": "med-surg",
+ "stem": "Haemophilia B is also known as:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Addison disease"
+  },
+  {
+   "id": "b",
+   "text": "Crohn disease"
+  },
+  {
+   "id": "c",
+   "text": "Christmas disease"
+  },
+  {
+   "id": "d",
+   "text": "Cushing syndrome"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Haemophilia B is factor IX deficiency and is also called Christmas disease.",
+ "strategy": "Remember A is factor VIII; B is factor IX, Christmas disease.",
+ "difficulty": "hard",
+ "tags": [
+  "haemophilia",
+  "factor-ix"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MIX-0017",
+ "categorySlug": "med-surg",
+ "stem": "Ataxia in pernicious anaemia results primarily from damage to:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Skeletal tissue"
+  },
+  {
+   "id": "b",
+   "text": "Nervous tissue"
+  },
+  {
+   "id": "c",
+   "text": "Glandular tissue"
+  },
+  {
+   "id": "d",
+   "text": "Adipose tissue"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Vitamin B12 deficiency can damage posterior and lateral spinal columns and peripheral nerves, producing proprioceptive loss and ataxia.",
+ "strategy": "Neurological signs in B12 deficiency reflect nervous-system injury, not muscle weakness alone.",
+ "difficulty": "hard",
+ "tags": [
+  "b12",
+  "neurology"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MIX-0018",
+ "categorySlug": "med-surg",
+ "stem": "A patient with leukopenia is especially vulnerable to:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Infection"
+  },
+  {
+   "id": "b",
+   "text": "Anaemia only"
+  },
+  {
+   "id": "c",
+   "text": "Bleeding only"
+  },
+  {
+   "id": "d",
+   "text": "Somnolence"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Leukopenia lowers white-cell-mediated host defence and increases infection risk. Anaemia and bleeding are more directly associated with red-cell and platelet abnormalities.",
+ "strategy": "Match each cytopenia to its main risk: white cells infection, platelets bleeding, red cells anaemia.",
+ "difficulty": "hard",
+ "tags": [
+  "leukopenia",
+  "infection"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MIX-0019",
+ "categorySlug": "med-surg",
+ "stem": "Thrombocytopenia places a patient at greatest risk for:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Infection"
+  },
+  {
+   "id": "b",
+   "text": "Somnolence"
+  },
+  {
+   "id": "c",
+   "text": "Anaemia only"
+  },
+  {
+   "id": "d",
+   "text": "Bleeding"
+  }
+ ],
+ "correctChoiceId": "d",
+ "rationale": "Platelets are essential for primary haemostasis; low counts increase bruising, petechiae and mucosal or serious bleeding.",
+ "strategy": "Platelets protect against bleeding, not infection.",
+ "difficulty": "hard",
+ "tags": [
+  "thrombocytopenia",
+  "bleeding"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MIX-0020",
+ "categorySlug": "med-surg",
+ "stem": "Which finding is most specific for haemolytic anaemia?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Jaundice"
+  },
+  {
+   "id": "b",
+   "text": "Anorexia"
+  },
+  {
+   "id": "c",
+   "text": "Tachycardia"
+  },
+  {
+   "id": "d",
+   "text": "Fatigue"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Red-cell destruction increases bilirubin production, causing jaundice; fatigue and tachycardia occur in many types of anaemia.",
+ "strategy": "Look for evidence of red-cell destruction, especially jaundice and raised bilirubin.",
+ "difficulty": "hard",
+ "tags": [
+  "haemolytic-anaemia",
+  "jaundice"
  ],
  "isFree": false
 }
