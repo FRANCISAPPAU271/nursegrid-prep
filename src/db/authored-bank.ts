@@ -23,7 +23,7 @@ export type AuthoredQuestion = {
   mediaCaption?: string;
 };
 
-export const AUTHORED_COUNT = 3309;
+export const AUTHORED_COUNT = 3329;
 export const AUTHORED_COUNT_LABEL = "3,200+";
 export const AUTHORED_DIAGRAM_COUNT = 569;
 
@@ -113279,6 +113279,645 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "difficulty": "hard",
  "tags": [
   "intracranial-pressure"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-FLUID-0001",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "A patient has sodium 118 mmol/L and a new seizure. Which action is the priority?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Encourage free water"
+  },
+  {
+   "id": "b",
+   "text": "Institute seizure precautions and urgently escalate for treatment of symptomatic hyponatraemia"
+  },
+  {
+   "id": "c",
+   "text": "Give a potassium-rich meal"
+  },
+  {
+   "id": "d",
+   "text": "Place the patient in a warm bath"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Severe symptomatic hyponatraemia can cause cerebral oedema and seizures. Safety, airway support and urgent prescribed hypertonic-saline management are required; free water worsens dilution.",
+ "strategy": "When a low sodium value is accompanied by neurological symptoms, treat it as an emergency.",
+ "difficulty": "hard",
+ "tags": [
+  "hyponatraemia",
+  "seizure"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-FLUID-0002",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "A patient has potassium 7.1 mmol/L with peaked T waves. Which treatment stabilises the myocardium first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "IV calcium gluconate"
+  },
+  {
+   "id": "b",
+   "text": "Oral potassium chloride"
+  },
+  {
+   "id": "c",
+   "text": "A thiazide diuretic alone"
+  },
+  {
+   "id": "d",
+   "text": "Hypotonic fluid"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "IV calcium stabilises the cardiac membrane rapidly but does not remove potassium. Insulin with glucose and potassium-removal measures follow as prescribed.",
+ "strategy": "In hyperkalaemia with ECG changes, stabilise the heart before shifting or removing potassium.",
+ "difficulty": "hard",
+ "tags": [
+  "hyperkalaemia",
+  "ecg"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-FLUID-0003",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "A patient with prolonged vomiting has potassium 2.6 mmol/L and new ventricular ectopy. What is the priority?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Reassure and repeat the level next day"
+  },
+  {
+   "id": "b",
+   "text": "Escalate immediately and prepare prescribed potassium replacement with continuous ECG monitoring"
+  },
+  {
+   "id": "c",
+   "text": "Give a high-sodium meal"
+  },
+  {
+   "id": "d",
+   "text": "Restrict all fluids"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Severe hypokalaemia with ventricular ectopy can progress to life-threatening dysrhythmia and requires urgent replacement and monitoring.",
+ "strategy": "Pair the potassium value with the rhythm: ECG changes make hypokalaemia urgent.",
+ "difficulty": "hard",
+ "tags": [
+  "hypokalaemia",
+  "arrhythmia"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-FLUID-0004",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "A patient with SIADH has low serum osmolality, concentrated urine and increasing confusion. Which intervention is expected?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Fluid restriction with close neurological monitoring"
+  },
+  {
+   "id": "b",
+   "text": "Unlimited oral water"
+  },
+  {
+   "id": "c",
+   "text": "Hypotonic IV fluid"
+  },
+  {
+   "id": "d",
+   "text": "Several litres of tea daily"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "SIADH causes inappropriate water retention and dilutional hyponatraemia. Fluid restriction limits worsening cerebral symptoms while the cause is treated.",
+ "strategy": "Low serum osmolality plus inappropriately concentrated urine suggests excess ADH and a need to restrict water.",
+ "difficulty": "hard",
+ "tags": [
+  "siadh",
+  "osmolality"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-FLUID-0005",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "A patient with nasogastric suction is at greatest risk for which acid–base imbalance?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Metabolic acidosis"
+  },
+  {
+   "id": "b",
+   "text": "Metabolic alkalosis"
+  },
+  {
+   "id": "c",
+   "text": "Respiratory acidosis"
+  },
+  {
+   "id": "d",
+   "text": "Respiratory alkalosis"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Gastric suction removes hydrochloric acid and chloride, predisposing to metabolic alkalosis, often with hypokalaemia.",
+ "strategy": "Loss of gastric acid produces alkalosis; loss of intestinal bicarbonate produces acidosis.",
+ "difficulty": "hard",
+ "tags": [
+  "acid-base",
+  "ng-suction"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-FLUID-0006",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "ABG results are pH 7.45, PaCO2 30 mmHg and HCO3 20 mEq/L. How should the nurse interpret them?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Compensated metabolic acidosis"
+  },
+  {
+   "id": "b",
+   "text": "Compensated respiratory alkalosis"
+  },
+  {
+   "id": "c",
+   "text": "Uncompensated metabolic alkalosis"
+  },
+  {
+   "id": "d",
+   "text": "Uncompensated respiratory acidosis"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "The low PaCO2 indicates respiratory alkalosis and the low bicarbonate indicates renal compensation. The pH is at the alkaline edge of normal.",
+ "strategy": "Identify the primary direction from pH and PaCO2, then look for compensatory bicarbonate change.",
+ "difficulty": "hard",
+ "tags": [
+  "abg",
+  "respiratory-alkalosis"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-FLUID-0007",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "A patient is hyperventilating during an anxiety attack. ABG: pH 7.53, PaCO2 32 mmHg, HCO3 28 mEq/L. Which conclusion is best?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "The blood is acidotic"
+  },
+  {
+   "id": "b",
+   "text": "The patient is probably hyperventilating and has respiratory alkalosis"
+  },
+  {
+   "id": "c",
+   "text": "The patient is fluid overloaded"
+  },
+  {
+   "id": "d",
+   "text": "The patient has respiratory acidosis"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "An elevated pH with low PaCO2 indicates respiratory alkalosis from excessive ventilation. The patient still requires assessment for hypoxia and other causes.",
+ "strategy": "A high pH plus low CO2 is respiratory alkalosis; do not dismiss symptoms as anxiety until dangerous causes are excluded.",
+ "difficulty": "hard",
+ "tags": [
+  "abg",
+  "hyperventilation"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-FLUID-0008",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "A patient with hypoventilation has ABG pH 7.25 and PaCO2 50 mmHg. Which imbalance is present?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Respiratory acidosis"
+  },
+  {
+   "id": "b",
+   "text": "Respiratory alkalosis"
+  },
+  {
+   "id": "c",
+   "text": "Metabolic acidosis"
+  },
+  {
+   "id": "d",
+   "text": "Metabolic alkalosis"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "The low pH shows acidemia and the raised PaCO2 identifies a respiratory cause, consistent with inadequate ventilation.",
+ "strategy": "For respiratory disorders, pH and PaCO2 move in opposite directions.",
+ "difficulty": "hard",
+ "tags": [
+  "abg",
+  "respiratory-acidosis"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-FLUID-0009",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "A ventilated patient has pH 7.50 and PaCO2 30 mmHg. Which electrolyte change may accompany acute respiratory alkalosis?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Potassium 3.0 mEq/L"
+  },
+  {
+   "id": "b",
+   "text": "Sodium 145 mEq/L"
+  },
+  {
+   "id": "c",
+   "text": "Magnesium 1.8 mg/dL"
+  },
+  {
+   "id": "d",
+   "text": "Phosphate 3.0 mg/dL"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Alkalosis drives potassium into cells and may contribute to hypokalaemia; severe alkalosis also lowers ionised calcium.",
+ "strategy": "Respiratory alkalosis can produce intracellular potassium shift and neuromuscular symptoms.",
+ "difficulty": "hard",
+ "tags": [
+  "abg",
+  "hypokalaemia"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-FLUID-0010",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "A patient with several fractured ribs is shallow-breathing because of pain. Which acid–base disturbance is most likely?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Respiratory acidosis from inadequate ventilation"
+  },
+  {
+   "id": "b",
+   "text": "Respiratory alkalosis from hyperventilation"
+  },
+  {
+   "id": "c",
+   "text": "Metabolic acidosis from calcium loss"
+  },
+  {
+   "id": "d",
+   "text": "Metabolic alkalosis from analgesics"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Pain-limited ventilation causes carbon dioxide retention and respiratory acidosis. Analgesia and respiratory support are needed.",
+ "strategy": "Hypoventilation retains CO2; assess ventilation rather than attributing the problem to the fracture itself.",
+ "difficulty": "hard",
+ "tags": [
+  "rib-fracture",
+  "abg"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-FLUID-0011",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "A patient receiving IV diuretics for heart failure develops weight loss, poor skin turgor and dizziness. Which finding supports fluid-volume deficit?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Weight loss and poor skin turgor"
+  },
+  {
+   "id": "b",
+   "text": "Crackles and raised blood pressure"
+  },
+  {
+   "id": "c",
+   "text": "Decreased haematocrit and increased urine output"
+  },
+  {
+   "id": "d",
+   "text": "Increased central venous pressure"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Weight loss and poor skin turgor indicate loss of intravascular and interstitial fluid. The patient needs assessment for over-diuresis and perfusion.",
+ "strategy": "Daily weight is a sensitive indicator of fluid change; combine it with perfusion findings.",
+ "difficulty": "hard",
+ "tags": [
+  "fluid-deficit",
+  "diuretics"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-FLUID-0012",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "Which patient is at greatest risk for fluid-volume excess?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "A patient taking diuretics with tenting skin"
+  },
+  {
+   "id": "b",
+   "text": "A patient with a new ileostomy"
+  },
+  {
+   "id": "c",
+   "text": "A patient requiring intermittent gastric suction"
+  },
+  {
+   "id": "d",
+   "text": "A patient with diabetic chronic kidney disease"
+  }
+ ],
+ "correctChoiceId": "d",
+ "rationale": "Reduced renal excretion prevents adequate removal of sodium and water, placing a patient with chronic kidney disease at risk for fluid excess.",
+ "strategy": "For overload, think impaired renal excretion, heart failure or excessive replacement.",
+ "difficulty": "hard",
+ "tags": [
+  "fluid-overload",
+  "kidney-disease"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-FLUID-0013",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "Which situation places a patient at risk for potassium deficit?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Sustained tissue injury alone"
+  },
+  {
+   "id": "b",
+   "text": "Prolonged nasogastric suction"
+  },
+  {
+   "id": "c",
+   "text": "Addison disease"
+  },
+  {
+   "id": "d",
+   "text": "A high uric-acid level"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Gastric suction causes loss of acid and potassium and can contribute to hypokalaemia and metabolic alkalosis. Addison disease more often causes hyperkalaemia.",
+ "strategy": "Identify direct gastrointestinal losses when assessing potassium deficit.",
+ "difficulty": "hard",
+ "tags": [
+  "hypokalaemia",
+  "ng-suction"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-FLUID-0014",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "A patient with lactose intolerance has signs of hypocalcaemia. Which finding would the nurse expect?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Muscle twitching"
+  },
+  {
+   "id": "b",
+   "text": "Hypoactive bowel sounds"
+  },
+  {
+   "id": "c",
+   "text": "A negative Trousseau sign"
+  },
+  {
+   "id": "d",
+   "text": "Reduced deep-tendon reflexes"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Hypocalcaemia increases neuromuscular excitability, causing twitching, tingling, tetany and potentially positive Trousseau or Chvostek signs.",
+ "strategy": "Low calcium makes nerves and muscles more excitable, not less.",
+ "difficulty": "hard",
+ "tags": [
+  "hypocalcaemia",
+  "calcium"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-FLUID-0015",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "A serum phosphate level is 1.8 mg/dL. Which condition can cause this result?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Malnutrition"
+  },
+  {
+   "id": "b",
+   "text": "Renal insufficiency"
+  },
+  {
+   "id": "c",
+   "text": "Hypoparathyroidism"
+  },
+  {
+   "id": "d",
+   "text": "Tumour lysis syndrome"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Malnutrition can cause phosphate depletion; renal insufficiency, hypoparathyroidism and tumour lysis more commonly raise phosphate.",
+ "strategy": "Use renal handling: impaired excretion raises phosphate; poor intake or intracellular shifts lower it.",
+ "difficulty": "hard",
+ "tags": [
+  "hypophosphataemia",
+  "nutrition"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-FLUID-0016",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "Which intervention best helps prevent fluid-volume excess in a patient at risk?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Discourage smoking only"
+  },
+  {
+   "id": "b",
+   "text": "Protect bony prominences"
+  },
+  {
+   "id": "c",
+   "text": "Measure daily weight and monitor intake and output"
+  },
+  {
+   "id": "d",
+   "text": "Encourage extra salt"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Daily weight and intake/output monitoring detect small fluid changes early; sodium excess worsens retention.",
+ "strategy": "Fluid status is followed through trends, especially daily weight and balance.",
+ "difficulty": "hard",
+ "tags": [
+  "fluid-overload",
+  "monitoring"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-FLUID-0017",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "The abnormal loss of gastric acid through prolonged vomiting produces:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Extracellular metabolic acidosis"
+  },
+  {
+   "id": "b",
+   "text": "Interstitial respiratory acidosis"
+  },
+  {
+   "id": "c",
+   "text": "Extracellular metabolic alkalosis"
+  },
+  {
+   "id": "d",
+   "text": "Respiratory alkalosis"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Vomiting removes hydrochloric acid, leaving a relative excess of bicarbonate and causing metabolic alkalosis.",
+ "strategy": "Loss of acid raises pH; loss of bicarbonate lowers pH.",
+ "difficulty": "hard",
+ "tags": [
+  "vomiting",
+  "metabolic-alkalosis"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-FLUID-0018",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "Which finding is most consistent with hyperkalaemia?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Increased sweating"
+  },
+  {
+   "id": "b",
+   "text": "Muscle weakness and potentially life-threatening dysrhythmias"
+  },
+  {
+   "id": "c",
+   "text": "Sunken eyes"
+  },
+  {
+   "id": "d",
+   "text": "Isolated muscle spasm"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Hyperkalaemia affects neuromuscular conduction and cardiac repolarisation, causing weakness, ECG changes and dysrhythmias.",
+ "strategy": "Think muscle weakness and cardiac conduction abnormalities for high potassium.",
+ "difficulty": "hard",
+ "tags": [
+  "hyperkalaemia"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-FLUID-0019",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "Which change would reduce the risk of dependent oedema?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Increased plasma protein concentration"
+  },
+  {
+   "id": "b",
+   "text": "Increased capillary permeability"
+  },
+  {
+   "id": "c",
+   "text": "Increased venous pressure"
+  },
+  {
+   "id": "d",
+   "text": "Prolonged immobility"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Higher plasma oncotic pressure draws fluid back into the vascular space and reduces oedema. The other changes promote fluid movement into tissues.",
+ "strategy": "Oedema increases when hydrostatic pressure or permeability rises, or plasma oncotic pressure falls.",
+ "difficulty": "hard",
+ "tags": [
+  "oedema",
+  "oncotic-pressure"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-FLUID-0020",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "Approximately what percentage of an average adult’s body weight is water?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "20%"
+  },
+  {
+   "id": "b",
+   "text": "40%"
+  },
+  {
+   "id": "c",
+   "text": "60%"
+  },
+  {
+   "id": "d",
+   "text": "85%"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Total body water is approximately 60% of adult body weight, with variation by age, sex and body composition.",
+ "strategy": "Use 60% as the adult estimate, recognising that adipose tissue contains less water.",
+ "difficulty": "hard",
+ "tags": [
+  "body-fluid",
+  "physiology"
  ],
  "isFree": false
 }
