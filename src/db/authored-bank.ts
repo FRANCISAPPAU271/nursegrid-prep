@@ -23,7 +23,7 @@ export type AuthoredQuestion = {
   mediaCaption?: string;
 };
 
-export const AUTHORED_COUNT = 3369;
+export const AUTHORED_COUNT = 3389;
 export const AUTHORED_COUNT_LABEL = "3,200+";
 export const AUTHORED_DIAGRAM_COUNT = 569;
 
@@ -115198,6 +115198,644 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "tags": [
   "copd",
   "oxygen-therapy"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS-0001",
+ "categorySlug": "pediatrics",
+ "stem": "A 3-month-old infant has a soft, flat anterior fontanel. What should the nurse do?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Increase oral fluids"
+  },
+  {
+   "id": "b",
+   "text": "Document the normal finding"
+  },
+  {
+   "id": "c",
+   "text": "Notify the prescriber immediately"
+  },
+  {
+   "id": "d",
+   "text": "Apply lotion to the scalp"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "The anterior fontanel normally remains open during infancy and should be soft and flat. A bulging or markedly sunken fontanel would require assessment.",
+ "strategy": "Know normal developmental findings and distinguish them from bulging or sunken fontanels.",
+ "difficulty": "hard",
+ "tags": [
+  "infant",
+  "assessment"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS-0002",
+ "categorySlug": "pediatrics",
+ "stem": "A 5-year-old in traction for a femur fracture needs an appropriate activity. Which is best?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "A complex board game requiring small pieces"
+  },
+  {
+   "id": "b",
+   "text": "A simple age-appropriate puzzle or large-piece activity"
+  },
+  {
+   "id": "c",
+   "text": "A movable toy intended for an infant"
+  },
+  {
+   "id": "d",
+   "text": "A long unsupervised video"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "A simple puzzle supports preschool problem-solving and can be performed safely within movement restrictions. Activities must match developmental level and traction limitations.",
+ "strategy": "Choose quiet, age-appropriate activities that do not interfere with traction.",
+ "difficulty": "hard",
+ "tags": [
+  "traction",
+  "development"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS-0003",
+ "categorySlug": "pediatrics",
+ "stem": "A hospitalized 4-year-old begins sucking a thumb two days after admission. What is the best nursing response?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "The child is acting like a baby"
+  },
+  {
+   "id": "b",
+   "text": "The doctor must be notified"
+  },
+  {
+   "id": "c",
+   "text": "Temporary regression is common during hospitalization"
+  },
+  {
+   "id": "d",
+   "text": "The child needs immediate psychiatric referral"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Regression such as thumb-sucking is a common response to stress in preschool children and usually improves with reassurance and supportive play.",
+ "strategy": "Recognise temporary regression as a coping response and avoid shaming.",
+ "difficulty": "hard",
+ "tags": [
+  "hospitalisation",
+  "regression"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS-0004",
+ "categorySlug": "pediatrics",
+ "stem": "Which is the most objective indicator that an infant is receiving adequate breast milk?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Number of feeds alone"
+  },
+  {
+   "id": "b",
+   "text": "Stool colour alone"
+  },
+  {
+   "id": "c",
+   "text": "Rate of weight gain"
+  },
+  {
+   "id": "d",
+   "text": "How content the infant appears"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Serial weight gain is the most objective indicator of adequate intake; urine and stool patterns support the assessment.",
+ "strategy": "Use growth trends rather than a single behavioural sign.",
+ "difficulty": "hard",
+ "tags": [
+  "breastfeeding",
+  "growth"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS-0005",
+ "categorySlug": "pediatrics",
+ "stem": "Photosensitive dermatitis associated with pellagra is caused by deficiency of:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Niacin"
+  },
+  {
+   "id": "b",
+   "text": "Zinc"
+  },
+  {
+   "id": "c",
+   "text": "Vitamin A"
+  },
+  {
+   "id": "d",
+   "text": "Riboflavin"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Niacin deficiency causes pellagra, classically dermatitis, diarrhoea and dementia; the dermatitis can be photosensitive.",
+ "strategy": "Associate the three Ds and photosensitive dermatitis with niacin deficiency.",
+ "difficulty": "hard",
+ "tags": [
+  "nutrition",
+  "niacin"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS-0006",
+ "categorySlug": "pediatrics",
+ "stem": "Which paediatric patient should the nurse assess first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "A child with mild diarrhoea who is alert"
+  },
+  {
+   "id": "b",
+   "text": "A child waiting for a chest radiograph"
+  },
+  {
+   "id": "c",
+   "text": "A child with difficulty breathing despite nasal oxygen"
+  },
+  {
+   "id": "d",
+   "text": "A postoperative child preparing for discharge"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Difficulty breathing despite oxygen indicates an immediate airway or breathing threat and takes priority over stable care and discharge preparation.",
+ "strategy": "Use ABC prioritisation: breathing difficulty outranks routine procedures.",
+ "difficulty": "hard",
+ "tags": [
+  "prioritisation",
+  "respiratory"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS-0007",
+ "categorySlug": "pediatrics",
+ "stem": "When teaching parents about insulin injections for a child with diabetes, which instruction is correct?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Aspirate after inserting every needle"
+  },
+  {
+   "id": "b",
+   "text": "Use a different syringe size for each dose"
+  },
+  {
+   "id": "c",
+   "text": "Inject into the same site every time"
+  },
+  {
+   "id": "d",
+   "text": "Rotate injection sites systematically to prevent lipodystrophy"
+  }
+ ],
+ "correctChoiceId": "d",
+ "rationale": "Systematic rotation reduces lipohypertrophy and unpredictable insulin absorption. The other practices are unnecessary or unsafe.",
+ "strategy": "For repeated subcutaneous injections, rotate within and between approved sites.",
+ "difficulty": "hard",
+ "tags": [
+  "diabetes",
+  "insulin"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS-0008",
+ "categorySlug": "pediatrics",
+ "stem": "A child with malnutrition has diarrhoea and moderate dehydration but can drink. Which fluid is most appropriate?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "IV Ringer lactate immediately"
+  },
+  {
+   "id": "b",
+   "text": "Standard oral rehydration solution given carefully"
+  },
+  {
+   "id": "c",
+   "text": "Resomal in every case"
+  },
+  {
+   "id": "d",
+   "text": "Rice water only"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "A child who can drink with moderate dehydration generally receives oral rehydration solution; specialised ReSoMal is used in selected severe acute malnutrition protocols under supervision.",
+ "strategy": "Match the fluid to severity, ability to drink and the malnutrition protocol.",
+ "difficulty": "hard",
+ "tags": [
+  "malnutrition",
+  "dehydration"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS-0009",
+ "categorySlug": "pediatrics",
+ "stem": "A newborn has an abdominal-wall protrusion covered by a translucent sac. What is the priority action?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Administer oral fluids"
+  },
+  {
+   "id": "b",
+   "text": "Apply sterile gauze soaked with warm normal saline and protect the sac"
+  },
+  {
+   "id": "c",
+   "text": "Push the organs back into the abdomen"
+  },
+  {
+   "id": "d",
+   "text": "Apply dry adhesive dressing"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "An omphalocele or gastroschisis-like defect requires protection of exposed tissue with sterile warm saline gauze, temperature control and urgent surgical referral.",
+ "strategy": "Protect exposed abdominal contents from drying and heat loss while escalating.",
+ "difficulty": "hard",
+ "tags": [
+  "newborn",
+  "omphalocele"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS-0010",
+ "categorySlug": "pediatrics",
+ "stem": "Fetal blood reaches the inferior vena cava from the umbilical vein through the:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Ductus arteriosus"
+  },
+  {
+   "id": "b",
+   "text": "Ductus venosus"
+  },
+  {
+   "id": "c",
+   "text": "Foramen ovale"
+  },
+  {
+   "id": "d",
+   "text": "Superior vena cava"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "The ductus venosus bypasses much of the fetal liver and directs oxygenated placental blood toward the inferior vena cava.",
+ "strategy": "Remember the fetal shunts: ductus venosus, foramen ovale and ductus arteriosus.",
+ "difficulty": "hard",
+ "tags": [
+  "fetal-circulation"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS-0011",
+ "categorySlug": "pediatrics",
+ "stem": "Hypertension in a 3-year-old is most likely to be secondary to a problem in which system?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Adrenal system only"
+  },
+  {
+   "id": "b",
+   "text": "Cardiovascular or renal system"
+  },
+  {
+   "id": "c",
+   "text": "Gastrointestinal system"
+  },
+  {
+   "id": "d",
+   "text": "Neurological system only"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Hypertension in young children is more likely to have a secondary cause, commonly renal or cardiovascular disease, than essential hypertension.",
+ "strategy": "Age changes the differential: investigate secondary causes in very young children.",
+ "difficulty": "hard",
+ "tags": [
+  "paediatric-hypertension"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS-0012",
+ "categorySlug": "pediatrics",
+ "stem": "Which drug–nutrient pairing is incorrect?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Isoniazid—pyridoxine deficiency risk"
+  },
+  {
+   "id": "b",
+   "text": "Phenytoin—vitamin D deficiency risk"
+  },
+  {
+   "id": "c",
+   "text": "Broad-spectrum antibiotics—vitamin K deficiency risk"
+  },
+  {
+   "id": "d",
+   "text": "Digoxin—calcium deficiency as the typical direct deficiency"
+  }
+ ],
+ "correctChoiceId": "d",
+ "rationale": "Isoniazid can cause pyridoxine deficiency, phenytoin affects vitamin D metabolism and antibiotics can reduce vitamin K production. Digoxin is associated with toxicity and electrolyte interactions, not a typical calcium-deficiency state.",
+ "strategy": "Check whether the medication causes a recognised nutrient deficiency rather than merely an electrolyte interaction.",
+ "difficulty": "hard",
+ "tags": [
+  "drug-nutrient",
+  "paediatrics"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS-0013",
+ "categorySlug": "pediatrics",
+ "stem": "A 2-year-old with severe diarrhoea is stable and needs a peripheral IV line. Which catheter is generally most appropriate?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "18 gauge"
+  },
+  {
+   "id": "b",
+   "text": "20 gauge"
+  },
+  {
+   "id": "c",
+   "text": "22 gauge"
+  },
+  {
+   "id": "d",
+   "text": "14 gauge"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "A 22-gauge catheter is commonly suitable for a small child while allowing fluid administration; the smallest catheter that meets clinical need reduces tissue trauma.",
+ "strategy": "Choose paediatric equipment based on vein size and treatment need, not adult defaults.",
+ "difficulty": "hard",
+ "tags": [
+  "paediatric-iv",
+  "diarrhoea"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS-0014",
+ "categorySlug": "pediatrics",
+ "stem": "Which action is inappropriate when administering an acetaminophen suppository to an 18-month-old?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Use gloves"
+  },
+  {
+   "id": "b",
+   "text": "Insert the suppository gently into the rectum"
+  },
+  {
+   "id": "c",
+   "text": "Position the child side-lying with the upper leg flexed"
+  },
+  {
+   "id": "d",
+   "text": "Position the child supine with knees and feet raised"
+  }
+ ],
+ "correctChoiceId": "d",
+ "rationale": "Side-lying or another safe position provides access and reduces injury risk. A supine position with legs raised is not the preferred routine position for rectal insertion.",
+ "strategy": "Use a safe side-lying position and gentle insertion for rectal medication.",
+ "difficulty": "hard",
+ "tags": [
+  "medication",
+  "paediatrics"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS-0015",
+ "categorySlug": "pediatrics",
+ "stem": "A 3-month-old with a fractured femur is said to have rolled off a bed. What is the priority nursing action?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Document only and discharge"
+  },
+  {
+   "id": "b",
+   "text": "Assess the history, examine the infant and follow safeguarding policy"
+  },
+  {
+   "id": "c",
+   "text": "Photograph the injury without consent or assessment"
+  },
+  {
+   "id": "d",
+   "text": "Advise about tetanus vaccine only"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "A femur fracture in a young non-mobile infant is concerning for possible inflicted injury. The nurse ensures safety, documents objectively, assesses and follows safeguarding procedures.",
+ "strategy": "Unexplained serious injury in a non-mobile infant requires safeguarding assessment.",
+ "difficulty": "hard",
+ "tags": [
+  "safeguarding",
+  "fracture"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS-0016",
+ "categorySlug": "pediatrics",
+ "stem": "When should routine vitamin K prophylaxis be given to a newborn?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "After two weeks"
+  },
+  {
+   "id": "b",
+   "text": "Within the first hours after birth"
+  },
+  {
+   "id": "c",
+   "text": "Only after the first immunisation"
+  },
+  {
+   "id": "d",
+   "text": "At two months"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Vitamin K is given soon after birth according to local protocol to prevent vitamin-K-deficiency bleeding.",
+ "strategy": "Newborn vitamin K is an early prophylactic intervention, not a later vaccine.",
+ "difficulty": "hard",
+ "tags": [
+  "newborn",
+  "vitamin-k"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS-0017",
+ "categorySlug": "pediatrics",
+ "stem": "A school-aged pair of twins argue over toys and compete for parental attention. What should the nurse document?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Social isolation"
+  },
+  {
+   "id": "b",
+   "text": "Sibling rivalry"
+  },
+  {
+   "id": "c",
+   "text": "Failure to thrive"
+  },
+  {
+   "id": "d",
+   "text": "Parental rejection"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Competition and conflict over parental attention are common manifestations of sibling rivalry.",
+ "strategy": "Interpret behaviour in developmental and family context rather than labelling illness.",
+ "difficulty": "hard",
+ "tags": [
+  "development",
+  "family"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS-0018",
+ "categorySlug": "pediatrics",
+ "stem": "Which intervention helps reduce suffocation and sleep-related risk in a 1-year-old?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Avoid excess bedding and keep the sleep space clear"
+  },
+  {
+   "id": "b",
+   "text": "Use a pillow under the child"
+  },
+  {
+   "id": "c",
+   "text": "Place the child prone"
+  },
+  {
+   "id": "d",
+   "text": "Use loose blankets around the face"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "A clear sleep space with minimal loose bedding reduces suffocation risk. Infants should be placed supine for sleep.",
+ "strategy": "Keep the sleep environment firm, clear and free of loose bedding.",
+ "difficulty": "hard",
+ "tags": [
+  "safe-sleep",
+  "suffocation"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS-0019",
+ "categorySlug": "pediatrics",
+ "stem": "Why is supine sleep recommended for infants?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "To prevent anencephaly"
+  },
+  {
+   "id": "b",
+   "text": "To prevent Edwards syndrome"
+  },
+  {
+   "id": "c",
+   "text": "To reduce the risk of sudden infant death syndrome"
+  },
+  {
+   "id": "d",
+   "text": "To prevent achondroplasia"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Supine sleep is associated with a lower risk of sudden infant death syndrome compared with prone sleeping.",
+ "strategy": "Remember “back to sleep” for safe infant sleep.",
+ "difficulty": "hard",
+ "tags": [
+  "safe-sleep",
+  "sids"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-PEDS-0020",
+ "categorySlug": "pediatrics",
+ "stem": "A 7-year-old with tetanus is admitted with spasms triggered by noise and light. Nursing care should primarily focus on:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Maximising visitors and stimulation"
+  },
+  {
+   "id": "b",
+   "text": "Reducing external stimuli and maintaining a calm environment"
+  },
+  {
+   "id": "c",
+   "text": "Encouraging vigorous exercise"
+  },
+  {
+   "id": "d",
+   "text": "Withholding prescribed medication"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Tetanus spasms are triggered by sensory stimulation. A quiet, dark environment and prescribed therapy reduce stimulation and complications.",
+ "strategy": "For tetanus, minimise noise, light and unnecessary handling while maintaining airway readiness.",
+ "difficulty": "hard",
+ "tags": [
+  "tetanus",
+  "paediatric-emergency"
  ],
  "isFree": false
 }
