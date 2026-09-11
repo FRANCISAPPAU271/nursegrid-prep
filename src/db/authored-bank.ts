@@ -23,7 +23,7 @@ export type AuthoredQuestion = {
   mediaCaption?: string;
 };
 
-export const AUTHORED_COUNT = 3269;
+export const AUTHORED_COUNT = 3289;
 export const AUTHORED_COUNT_LABEL = "3,200+";
 export const AUTHORED_DIAGRAM_COUNT = 569;
 
@@ -112022,6 +112022,628 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "tags": [
   "falls",
   "polypharmacy"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-USER-0001",
+ "categorySlug": "med-surg",
+ "stem": "Which is a non-modifiable risk factor for coronary artery disease?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Hypertension"
+  },
+  {
+   "id": "b",
+   "text": "Smoking"
+  },
+  {
+   "id": "c",
+   "text": "Family history"
+  },
+  {
+   "id": "d",
+   "text": "Obesity"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Family history cannot be changed. Hypertension, smoking and obesity are modifiable or treatable contributors.",
+ "strategy": "Separate fixed patient characteristics from behaviours and conditions that can be changed.",
+ "difficulty": "hard",
+ "tags": [
+  "coronary-artery-disease"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-USER-0002",
+ "categorySlug": "med-surg",
+ "stem": "Chest pain that occurs when lying flat and is relieved by sitting up is best described as:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Stable angina"
+  },
+  {
+   "id": "b",
+   "text": "Unstable angina"
+  },
+  {
+   "id": "c",
+   "text": "Prinzmetal angina"
+  },
+  {
+   "id": "d",
+   "text": "Decubitus angina"
+  }
+ ],
+ "correctChoiceId": "d",
+ "rationale": "Decubitus angina occurs when supine; sitting up relieves the increased cardiac workload or venous return.",
+ "strategy": "Use the trigger and relieving position to distinguish named angina patterns.",
+ "difficulty": "hard",
+ "tags": [
+  "angina"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-USER-0003",
+ "categorySlug": "med-surg",
+ "stem": "Which description is most characteristic of angina pectoris?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Sharp pain relieved by deep breathing"
+  },
+  {
+   "id": "b",
+   "text": "A constricting, squeezing or choking sensation"
+  },
+  {
+   "id": "c",
+   "text": "Burning pain worsened by food"
+  },
+  {
+   "id": "d",
+   "text": "A dull ache lasting several hours"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Myocardial ischaemia classically produces pressure, heaviness, squeezing or constriction rather than pleuritic or meal-related pain.",
+ "strategy": "Recognise pressure or squeezing as the classic ischaemic description.",
+ "difficulty": "hard",
+ "tags": [
+  "angina"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-USER-0004",
+ "categorySlug": "med-surg",
+ "stem": "Myocardial infarction pain is typically:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Relieved by rest"
+  },
+  {
+   "id": "b",
+   "text": "Intermittent for 3–5 minutes"
+  },
+  {
+   "id": "c",
+   "text": "Continuous and lasting more than 30 minutes"
+  },
+  {
+   "id": "d",
+   "text": "Completely relieved by nitroglycerin"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Infarction pain is usually prolonged and may persist despite rest or nitrates. Any suspected MI requires urgent assessment.",
+ "strategy": "Duration and failure to resolve with rest distinguish infarction from predictable stable angina.",
+ "difficulty": "hard",
+ "tags": [
+  "myocardial-infarction"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-USER-0005",
+ "categorySlug": "med-surg",
+ "stem": "Which test most directly identifies the location and severity of coronary artery stenosis?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Chest radiograph"
+  },
+  {
+   "id": "b",
+   "text": "Electrocardiogram"
+  },
+  {
+   "id": "c",
+   "text": "Coronary angiography"
+  },
+  {
+   "id": "d",
+   "text": "Cardiac MRI"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Coronary angiography visualises the coronary lumen and identifies stenosis directly; ECG detects electrical or ischaemic changes but not the anatomy itself.",
+ "strategy": "Match the test to the question: angiography shows coronary anatomy.",
+ "difficulty": "hard",
+ "tags": [
+  "coronary-angiography"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-USER-0006",
+ "categorySlug": "med-surg",
+ "stem": "Which biomarker commonly rises 3–6 hours after myocardial infarction, peaks around 24 hours and returns toward normal within 72–96 hours?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "AST"
+  },
+  {
+   "id": "b",
+   "text": "CK-MB"
+  },
+  {
+   "id": "c",
+   "text": "Troponin"
+  },
+  {
+   "id": "d",
+   "text": "LDH"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "CK-MB rises within several hours, peaks at about 24 hours and generally returns to baseline within two to three days. Troponin remains elevated longer.",
+ "strategy": "Know the time course: CK-MB is useful when assessing possible reinfarction because it normalises earlier than troponin.",
+ "difficulty": "hard",
+ "tags": [
+  "cardiac-markers"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-USER-0007",
+ "categorySlug": "med-surg",
+ "stem": "The antiplatelet drug routinely given early in suspected myocardial infarction, unless contraindicated, is:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Digoxin"
+  },
+  {
+   "id": "b",
+   "text": "Aspirin"
+  },
+  {
+   "id": "c",
+   "text": "Atropine"
+  },
+  {
+   "id": "d",
+   "text": "Furosemide"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Aspirin rapidly inhibits platelet aggregation and reduces further coronary thrombosis.",
+ "strategy": "For suspected ACS, identify immediate antiplatelet therapy separately from drugs for rhythm, preload or contractility.",
+ "difficulty": "hard",
+ "tags": [
+  "acute-coronary-syndrome"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-USER-0008",
+ "categorySlug": "med-surg",
+ "stem": "Which posture commonly relieves the pain of acute pericarditis?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Supine"
+  },
+  {
+   "id": "b",
+   "text": "Leaning forward while sitting"
+  },
+  {
+   "id": "c",
+   "text": "Left lateral with legs elevated"
+  },
+  {
+   "id": "d",
+   "text": "Trendelenburg"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Inflamed pericardial surfaces rub less when the client sits up and leans forward; lying supine often worsens pain.",
+ "strategy": "Positional pain relieved by leaning forward suggests pericarditis.",
+ "difficulty": "hard",
+ "tags": [
+  "pericarditis"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-USER-0009",
+ "categorySlug": "med-surg",
+ "stem": "A patient with acute pericarditis should be monitored closely for:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Myocardial infarction"
+  },
+  {
+   "id": "b",
+   "text": "Cardiac tamponade"
+  },
+  {
+   "id": "c",
+   "text": "Pulmonary embolism"
+  },
+  {
+   "id": "d",
+   "text": "Aortic dissection"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Pericardial fluid can compress the heart, impair diastolic filling and cause tamponade with hypotension, muffled heart sounds and raised venous pressure.",
+ "strategy": "Pericarditis can become a filling problem: watch for tamponade and falling cardiac output.",
+ "difficulty": "hard",
+ "tags": [
+  "tamponade"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-USER-0010",
+ "categorySlug": "med-surg",
+ "stem": "Which finding is most consistent with left-sided heart failure?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Dependent peripheral oedema"
+  },
+  {
+   "id": "b",
+   "text": "Hepatomegaly"
+  },
+  {
+   "id": "c",
+   "text": "Paroxysmal nocturnal dyspnoea"
+  },
+  {
+   "id": "d",
+   "text": "Ascites"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Left-sided failure causes pulmonary congestion, producing orthopnoea, crackles and paroxysmal nocturnal dyspnoea. Right-sided failure more often causes systemic venous congestion.",
+ "strategy": "Left equals lungs; right equals the systemic venous circulation.",
+ "difficulty": "hard",
+ "tags": [
+  "heart-failure"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-USER-0011",
+ "categorySlug": "med-surg",
+ "stem": "Which drug class reduces preload in heart failure by promoting sodium and water excretion?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Beta-blockers"
+  },
+  {
+   "id": "b",
+   "text": "ACE inhibitors"
+  },
+  {
+   "id": "c",
+   "text": "Diuretics"
+  },
+  {
+   "id": "d",
+   "text": "Positive inotropes"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Diuretics reduce circulating volume and venous return, relieving congestion and preload.",
+ "strategy": "Link diuresis with reduced intravascular volume and preload.",
+ "difficulty": "hard",
+ "tags": [
+  "heart-failure"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-USER-0012",
+ "categorySlug": "med-surg",
+ "stem": "Which is a modifiable risk factor for essential hypertension?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Age"
+  },
+  {
+   "id": "b",
+   "text": "Family history"
+  },
+  {
+   "id": "c",
+   "text": "Smoking"
+  },
+  {
+   "id": "d",
+   "text": "Biological sex"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Smoking is modifiable and contributes to vascular injury and elevated cardiovascular risk. Age, family history and sex are non-modifiable characteristics.",
+ "strategy": "Classify behaviours and exposures as modifiable risks.",
+ "difficulty": "hard",
+ "tags": [
+  "hypertension"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-USER-0013",
+ "categorySlug": "health-promotion",
+ "stem": "The DASH diet for hypertension emphasises:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "High sodium and low fat"
+  },
+  {
+   "id": "b",
+   "text": "Low sodium and high saturated fat"
+  },
+  {
+   "id": "c",
+   "text": "Low sodium with fruits and vegetables"
+  },
+  {
+   "id": "d",
+   "text": "High protein and refined carbohydrates"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "DASH emphasises fruits, vegetables, whole grains, legumes and lower sodium and saturated fat intake.",
+ "strategy": "Look for the option combining sodium reduction with a plant-rich pattern.",
+ "difficulty": "hard",
+ "tags": [
+  "dash",
+  "hypertension"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-USER-0014",
+ "categorySlug": "med-surg",
+ "stem": "A localised bulging of an artery at a weak point in its wall is called a(n):",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Thrombus"
+  },
+  {
+   "id": "b",
+   "text": "Embolus"
+  },
+  {
+   "id": "c",
+   "text": "Aneurysm"
+  },
+  {
+   "id": "d",
+   "text": "Stenosis"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "An aneurysm is a focal dilation caused by weakness in the arterial wall. A thrombus is a clot, an embolus travels, and stenosis is narrowing.",
+ "strategy": "Use the structural definition: bulging is aneurysm; narrowing is stenosis.",
+ "difficulty": "hard",
+ "tags": [
+  "aneurysm"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-USER-0015",
+ "categorySlug": "med-surg",
+ "stem": "Which finding is a classic feature of iron-deficiency anaemia?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Clubbing"
+  },
+  {
+   "id": "b",
+   "text": "Koilonychia"
+  },
+  {
+   "id": "c",
+   "text": "Scleral icterus"
+  },
+  {
+   "id": "d",
+   "text": "Splenomegaly"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Koilonychia, or spoon-shaped nails, can occur with chronic iron deficiency. It should prompt assessment of diet and occult blood loss.",
+ "strategy": "Recognise spoon nails as a classic iron-deficiency clue.",
+ "difficulty": "hard",
+ "tags": [
+  "anaemia",
+  "iron"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-USER-0016",
+ "categorySlug": "pediatrics",
+ "stem": "Sickle-cell disease results from inheritance of which haemoglobin variant?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Haemoglobin A"
+  },
+  {
+   "id": "b",
+   "text": "Haemoglobin F"
+  },
+  {
+   "id": "c",
+   "text": "Haemoglobin S"
+  },
+  {
+   "id": "d",
+   "text": "Haemoglobin C"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "The haemoglobin S beta-chain variant polymerises when deoxygenated, distorting red cells and causing haemolysis and vaso-occlusion.",
+ "strategy": "Connect HbS with polymerisation, sickling and vaso-occlusion.",
+ "difficulty": "hard",
+ "tags": [
+  "sickle-cell"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-USER-0017",
+ "categorySlug": "pediatrics",
+ "stem": "The most painful common sickle-cell crisis is:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Aplastic crisis"
+  },
+  {
+   "id": "b",
+   "text": "Haemolytic crisis"
+  },
+  {
+   "id": "c",
+   "text": "Sequestration crisis"
+  },
+  {
+   "id": "d",
+   "text": "Vaso-occlusive crisis"
+  }
+ ],
+ "correctChoiceId": "d",
+ "rationale": "Vaso-occlusion blocks microcirculation and produces severe ischaemic pain. It is commonly precipitated by dehydration, infection, cold or hypoxia.",
+ "strategy": "When the question asks about severe pain, think microvascular obstruction.",
+ "difficulty": "hard",
+ "tags": [
+  "sickle-cell"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-USER-0018",
+ "categorySlug": "pediatrics",
+ "stem": "Which factor can precipitate a sickle-cell crisis?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Adequate hydration"
+  },
+  {
+   "id": "b",
+   "text": "High oxygen availability"
+  },
+  {
+   "id": "c",
+   "text": "Dehydration"
+  },
+  {
+   "id": "d",
+   "text": "Prescribed rest"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Dehydration increases blood viscosity and promotes sickling and vaso-occlusion.",
+ "strategy": "Choose triggers that worsen viscosity, oxygenation or stress.",
+ "difficulty": "hard",
+ "tags": [
+  "sickle-cell"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-USER-0019",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "The normal arterial blood pH range is:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "7.35–7.45"
+  },
+  {
+   "id": "b",
+   "text": "7.55–7.65"
+  },
+  {
+   "id": "c",
+   "text": "7.00–7.49"
+  },
+  {
+   "id": "d",
+   "text": "7.50–7.60"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Normal arterial pH is 7.35–7.45. Values below or above this range indicate acidemia or alkalemia.",
+ "strategy": "Memorise the core ABG anchors: pH 7.35–7.45, PaCO2 35–45 and bicarbonate 22–26.",
+ "difficulty": "hard",
+ "tags": [
+  "abg"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-USER-0020",
+ "categorySlug": "fluid-electrolyte",
+ "stem": "Which electrolyte is the major extracellular cation?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Potassium"
+  },
+  {
+   "id": "b",
+   "text": "Sodium"
+  },
+  {
+   "id": "c",
+   "text": "Calcium"
+  },
+  {
+   "id": "d",
+   "text": "Chloride"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Sodium is the major extracellular cation and is a principal determinant of extracellular fluid volume and osmolality.",
+ "strategy": "Classify electrolytes by compartment: sodium outside, potassium inside.",
+ "difficulty": "hard",
+ "tags": [
+  "electrolytes"
  ],
  "isFree": false
 }
