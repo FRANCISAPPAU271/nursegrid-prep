@@ -23,7 +23,7 @@ export type AuthoredQuestion = {
   mediaCaption?: string;
 };
 
-export const AUTHORED_COUNT = 3469;
+export const AUTHORED_COUNT = 3479;
 export const AUTHORED_COUNT_LABEL = "3,200+";
 export const AUTHORED_DIAGRAM_COUNT = 589;
 
@@ -118432,5 +118432,322 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "isFree": false,
   "mediaUrl": "/diagrams/NG-MCH-0001.svg",
   "mediaCaption": "Curriculum study diagram"
+},
+{
+ "authoredId": "NG-MCH2-0001",
+ "categorySlug": "maternal-newborn",
+ "stem": "Which fetal structure connects the right and left atria before birth?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Ductus arteriosus"
+  },
+  {
+   "id": "b",
+   "text": "Foramen ovale"
+  },
+  {
+   "id": "c",
+   "text": "Ductus venosus"
+  },
+  {
+   "id": "d",
+   "text": "Umbilical artery"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "The foramen ovale allows blood to pass from the right atrium to the left atrium, bypassing the fetal lungs.",
+ "strategy": "Remember: foramen ovale connects atria; ductus arteriosus connects pulmonary artery and aorta.",
+ "difficulty": "hard",
+ "tags": [
+  "fetal-circulation"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH2-0002",
+ "categorySlug": "maternal-newborn",
+ "stem": "The umbilical artery carries blood that is:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Oxygen-rich from placenta to fetus"
+  },
+  {
+   "id": "b",
+   "text": "Relatively low in oxygen from fetus to placenta"
+  },
+  {
+   "id": "c",
+   "text": "Identical to maternal arterial blood"
+  },
+  {
+   "id": "d",
+   "text": "Free of carbon dioxide"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "The two umbilical arteries return deoxygenated blood and waste from fetus to placenta; the umbilical vein brings oxygenated blood to the fetus.",
+ "strategy": "In fetal circulation, arteries carry blood away from the fetal heart toward the placenta.",
+ "difficulty": "hard",
+ "tags": [
+  "fetal-circulation"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH2-0003",
+ "categorySlug": "maternal-newborn",
+ "stem": "Which condition is a common indication for caesarean birth because of risk of neonatal transmission during labour?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Treated gonorrhoea"
+  },
+  {
+   "id": "b",
+   "text": "Active genital herpes lesions"
+  },
+  {
+   "id": "c",
+   "text": "Remote chlamydia infection"
+  },
+  {
+   "id": "d",
+   "text": "Resolved hepatitis A"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Active genital herpes lesions or prodromal symptoms at labour increase neonatal transmission risk and may indicate caesarean birth.",
+ "strategy": "Distinguish active lesions at labour from treated or remote infections.",
+ "difficulty": "hard",
+ "tags": [
+  "herpes",
+  "birth"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH2-0004",
+ "categorySlug": "maternal-newborn",
+ "stem": "A woman at 36 weeks has painful vaginal bleeding, a rigid tender uterus and shock. Which condition is most likely?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Placenta praevia"
+  },
+  {
+   "id": "b",
+   "text": "Abruptio placentae"
+  },
+  {
+   "id": "c",
+   "text": "Ectopic pregnancy"
+  },
+  {
+   "id": "d",
+   "text": "Incompetent cervix"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Painful bleeding with a tense tender uterus and shock is characteristic of placental abruption; bleeding may be concealed.",
+ "strategy": "Painless bright bleeding suggests praevia; painful bleeding with a rigid uterus suggests abruption.",
+ "difficulty": "hard",
+ "tags": [
+  "abruption",
+  "bleeding"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH2-0005",
+ "categorySlug": "maternal-newborn",
+ "stem": "Which pelvic diameter is especially important during labour because it is the narrowest transverse diameter?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Posterior sagittal"
+  },
+  {
+   "id": "b",
+   "text": "Bispinous"
+  },
+  {
+   "id": "c",
+   "text": "Intertuberous"
+  },
+  {
+   "id": "d",
+   "text": "Obstetric conjugate"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "The bispinous or interspinous diameter between the ischial spines is a key narrow transverse diameter of the mid-pelvis.",
+ "strategy": "The ischial spines define the important mid-pelvic narrowing.",
+ "difficulty": "hard",
+ "tags": [
+  "pelvis",
+  "labour"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH2-0006",
+ "categorySlug": "maternal-newborn",
+ "stem": "The mechanism of normal vertex birth follows which sequence?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Descent, flexion, internal rotation, extension, external rotation"
+  },
+  {
+   "id": "b",
+   "text": "Extension, descent, flexion, internal rotation"
+  },
+  {
+   "id": "c",
+   "text": "Flexion, external rotation, descent, extension"
+  },
+  {
+   "id": "d",
+   "text": "Internal rotation, extension, descent, flexion"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "The cardinal movements include descent, flexion, internal rotation, extension, restitution/external rotation and expulsion.",
+ "strategy": "Track the fetal head through the pelvis in order rather than memorising isolated movements.",
+ "difficulty": "hard",
+ "tags": [
+  "labour",
+  "mechanisms"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH2-0007",
+ "categorySlug": "maternal-newborn",
+ "stem": "A client with false labour is likely to have contractions that:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Become progressively stronger and closer"
+  },
+  {
+   "id": "b",
+   "text": "Are irregular and do not cause progressive cervical change"
+  },
+  {
+   "id": "c",
+   "text": "Always produce bloody show"
+  },
+  {
+   "id": "d",
+   "text": "Cause progressive cervical dilation"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "False-labour contractions are irregular, often lessen with rest or hydration and do not produce progressive cervical dilation.",
+ "strategy": "Progressive intensity, frequency and cervical change indicate true labour.",
+ "difficulty": "hard",
+ "tags": [
+  "false-labour"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH2-0008",
+ "categorySlug": "maternal-newborn",
+ "stem": "Magnesium sulfate is administered for severe pre-eclampsia primarily to prevent:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Haemorrhage"
+  },
+  {
+   "id": "b",
+   "text": "Seizures"
+  },
+  {
+   "id": "c",
+   "text": "Hypotension"
+  },
+  {
+   "id": "d",
+   "text": "Hypomagnesaemia"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Magnesium sulfate is an anticonvulsant used to prevent or treat eclamptic seizures; it does not directly cure hypertension.",
+ "strategy": "In pre-eclampsia, magnesium is for seizure prevention; antihypertensives control blood pressure.",
+ "difficulty": "hard",
+ "tags": [
+  "preeclampsia",
+  "magnesium"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH2-0009",
+ "categorySlug": "maternal-newborn",
+ "stem": "Which hormone is produced by the placenta and contributes to maternal insulin resistance during pregnancy?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Human placental lactogen"
+  },
+  {
+   "id": "b",
+   "text": "Oxytocin"
+  },
+  {
+   "id": "c",
+   "text": "Follicle-stimulating hormone"
+  },
+  {
+   "id": "d",
+   "text": "Prolactin only"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Human placental lactogen alters maternal metabolism and promotes insulin resistance, helping preserve glucose for the fetus.",
+ "strategy": "HPL supports fetal nutrition by changing maternal carbohydrate and fat metabolism.",
+ "difficulty": "hard",
+ "tags": [
+  "hpl",
+  "pregnancy"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH2-0010",
+ "categorySlug": "maternal-newborn",
+ "stem": "A newborn is placed under a radiant warmer after bathing. This demonstrates prevention of which heat loss?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Conduction"
+  },
+  {
+   "id": "b",
+   "text": "Convection"
+  },
+  {
+   "id": "c",
+   "text": "Radiation"
+  },
+  {
+   "id": "d",
+   "text": "Evaporation"
+  }
+ ],
+ "correctChoiceId": "d",
+ "rationale": "Bathing leaves water on the skin; drying and warming reduce evaporative heat loss. A radiant warmer mainly reduces heat loss by radiation.",
+ "strategy": "Match heat-loss type to action: wet skin equals evaporation; nearby cold surfaces equal radiation or conduction.",
+ "difficulty": "hard",
+ "tags": [
+  "newborn",
+  "thermoregulation"
+ ],
+ "isFree": false
 }
 ];
