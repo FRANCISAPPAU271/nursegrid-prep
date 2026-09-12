@@ -25,7 +25,7 @@ export type AuthoredQuestion = {
 
 export const AUTHORED_COUNT = 3479;
 export const AUTHORED_COUNT_LABEL = "3,200+";
-export const AUTHORED_DIAGRAM_COUNT = 589;
+export const AUTHORED_DIAGRAM_COUNT = 594;
 
 export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
@@ -112901,7 +112901,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "intracranial-pressure",
   "neurological-observation"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-NEURO-0008.svg",
+  "mediaCaption": "Original clinical study diagram"
 },
 {
  "authoredId": "NG-NEURO-0009",
@@ -113344,7 +113346,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "hyperkalaemia",
   "ecg"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-FLUID-0002.svg",
+  "mediaCaption": "Original clinical study diagram"
 },
 {
  "authoredId": "NG-FLUID-0003",
@@ -113951,7 +113955,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "digoxin",
   "toxicity"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-PHARM-0001.svg",
+  "mediaCaption": "Original clinical study diagram"
 },
 {
  "authoredId": "NG-PHARM-0002",
@@ -114591,7 +114597,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "asthma",
   "respiratory-failure"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-RESP-0001.svg",
+  "mediaCaption": "Original clinical study diagram"
 },
 {
  "authoredId": "NG-RESP-0002",
@@ -117245,7 +117253,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "newborn",
   "fetal-circulation"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-MAT2-0004.svg",
+  "mediaCaption": "Original clinical study diagram"
 },
 {
  "authoredId": "NG-MAT2-0005",
