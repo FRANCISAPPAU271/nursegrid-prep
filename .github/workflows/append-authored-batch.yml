@@ -1,17 +1,10 @@
-name: Append authored question batch
-
-on:
-  workflow_dispatch:
-
-permissions:
-  contents: read
-
 jobs:
   append-question-batch:
     name: Append questions to production database
     runs-on: ubuntu-latest
-    environment: production
     timeout-minutes: 10
+    env:
+      DATABASE_URL: ${{ secrets.DATABASEURL }}
 
     steps:
       - name: Check out main
@@ -31,7 +24,13 @@ jobs:
       - name: Validate authored bank
         run: npm run verify:bank
 
-      - name: Append new questions without replacing existing data
-        env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      - name: Confirm database secret is available
+        run: |
+          if [ -z "$DATABASE_URL" ]; then
+            echo "DATABASE_URL is missing"
+            exit 1
+          fi
+          echo "DATABASE_URL is available"
+
+      - name: Append new questions
         run: npm run append:authored-batch
