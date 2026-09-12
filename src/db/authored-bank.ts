@@ -25,7 +25,7 @@ export type AuthoredQuestion = {
 
 export const AUTHORED_COUNT = 3469;
 export const AUTHORED_COUNT_LABEL = "3,200+";
-export const AUTHORED_DIAGRAM_COUNT = 569;
+export const AUTHORED_DIAGRAM_COUNT = 589;
 
 export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
@@ -117785,7 +117785,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "preeclampsia",
   "antenatal"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-MCH-0001.svg",
+  "mediaCaption": "Curriculum study diagram"
 },
 {
  "authoredId": "NG-MCH-0002",
@@ -117817,7 +117819,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "placenta-praevia",
   "bleeding"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-MCH-0001.svg",
+  "mediaCaption": "Curriculum study diagram"
 },
 {
  "authoredId": "NG-MCH-0003",
@@ -117849,7 +117853,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "labour",
   "fetal-monitoring"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-MCH-0001.svg",
+  "mediaCaption": "Curriculum study diagram"
 },
 {
  "authoredId": "NG-MCH-0004",
@@ -117881,7 +117887,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "postpartum-haemorrhage",
   "atony"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-MCH-0001.svg",
+  "mediaCaption": "Curriculum study diagram"
 },
 {
  "authoredId": "NG-MCH-0005",
@@ -117913,7 +117921,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "postpartum-haemorrhage",
   "laceration"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-MCH-0001.svg",
+  "mediaCaption": "Curriculum study diagram"
 },
 {
  "authoredId": "NG-MCH-0006",
@@ -117945,7 +117955,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "magnesium",
   "toxicity"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-MCH-0001.svg",
+  "mediaCaption": "Curriculum study diagram"
 },
 {
  "authoredId": "NG-MCH-0007",
@@ -117976,7 +117988,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "tags": [
   "preterm-labour"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-MCH-0001.svg",
+  "mediaCaption": "Curriculum study diagram"
 },
 {
  "authoredId": "NG-MCH-0008",
@@ -118007,7 +118021,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "tags": [
   "pregnancy-signs"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-MCH-0001.svg",
+  "mediaCaption": "Curriculum study diagram"
 },
 {
  "authoredId": "NG-MCH-0009",
@@ -118039,7 +118055,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "labour",
   "stages"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-MCH-0001.svg",
+  "mediaCaption": "Curriculum study diagram"
 },
 {
  "authoredId": "NG-MCH-0010",
@@ -118071,7 +118089,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "placenta",
   "third-stage"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-MCH-0001.svg",
+  "mediaCaption": "Curriculum study diagram"
 },
 {
  "authoredId": "NG-MCH-0011",
@@ -118103,7 +118123,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "normal-birth",
   "cord"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-MCH-0001.svg",
+  "mediaCaption": "Curriculum study diagram"
 },
 {
  "authoredId": "NG-MCH-0012",
@@ -118135,7 +118157,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "newborn",
   "cord"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-MCH-0001.svg",
+  "mediaCaption": "Curriculum study diagram"
 },
 {
  "authoredId": "NG-MCH-0013",
@@ -118167,7 +118191,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "placenta",
   "pregnancy"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-MCH-0001.svg",
+  "mediaCaption": "Curriculum study diagram"
 },
 {
  "authoredId": "NG-MCH-0014",
@@ -118199,7 +118225,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "hormones",
   "pregnancy"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-MCH-0001.svg",
+  "mediaCaption": "Curriculum study diagram"
 },
 {
  "authoredId": "NG-MCH-0015",
@@ -118231,7 +118259,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "newborn",
   "thermoregulation"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-MCH-0001.svg",
+  "mediaCaption": "Curriculum study diagram"
 },
 {
  "authoredId": "NG-MCH-0016",
@@ -118263,7 +118293,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "newborn",
   "cyanosis"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-MCH-0001.svg",
+  "mediaCaption": "Curriculum study diagram"
 },
 {
  "authoredId": "NG-MCH-0017",
@@ -118295,7 +118327,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "newborn",
   "resuscitation"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-MCH-0001.svg",
+  "mediaCaption": "Curriculum study diagram"
 },
 {
  "authoredId": "NG-MCH-0018",
@@ -118327,7 +118361,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "newborn",
   "assessment"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-MCH-0001.svg",
+  "mediaCaption": "Curriculum study diagram"
 },
 {
  "authoredId": "NG-MCH-0019",
@@ -118359,7 +118395,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "malnutrition",
   "shock"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-MCH-0001.svg",
+  "mediaCaption": "Curriculum study diagram"
 },
 {
  "authoredId": "NG-MCH-0020",
@@ -118391,6 +118429,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "growth",
   "paediatrics"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-MCH-0001.svg",
+  "mediaCaption": "Curriculum study diagram"
 }
 ];

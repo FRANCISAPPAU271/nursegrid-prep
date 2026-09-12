@@ -15,4 +15,4 @@ export const QUESTION_COUNT = 3469;
 export const QUESTION_COUNT_LABEL = "3,200+";
 
 /** Number of questions carrying an original diagram. */
-export const DIAGRAM_COUNT = 569;
+export const DIAGRAM_COUNT = 589;
