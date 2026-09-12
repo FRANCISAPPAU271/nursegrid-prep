@@ -23,7 +23,7 @@ export type AuthoredQuestion = {
   mediaCaption?: string;
 };
 
-export const AUTHORED_COUNT = 3449;
+export const AUTHORED_COUNT = 3469;
 export const AUTHORED_COUNT_LABEL = "3,200+";
 export const AUTHORED_DIAGRAM_COUNT = 569;
 
@@ -117752,6 +117752,644 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "tags": [
   "abruption",
   "dic"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH-0001",
+ "categorySlug": "maternal-newborn",
+ "stem": "At an antenatal visit, a pregnant client has BP 150/100 mmHg, severe headache and visual disturbances. What is the priority nursing action?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Reassure and schedule review in one week"
+  },
+  {
+   "id": "b",
+   "text": "Place the client in a safe position, assess urgently and notify the maternity team"
+  },
+  {
+   "id": "c",
+   "text": "Encourage vigorous exercise"
+  },
+  {
+   "id": "d",
+   "text": "Offer a salty snack"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Severe hypertension with neurological symptoms suggests pre-eclampsia with severe features and risk of seizure or stroke. Urgent assessment and escalation are required.",
+ "strategy": "Pregnancy plus severe BP and neurological symptoms is an emergency; prioritise safety and escalation.",
+ "difficulty": "hard",
+ "tags": [
+  "preeclampsia",
+  "antenatal"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH-0002",
+ "categorySlug": "maternal-newborn",
+ "stem": "A pregnant client at 32 weeks reports painless bright-red vaginal bleeding. Which action should the nurse avoid until placenta location is known?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Monitor vital signs and fetal heart rate"
+  },
+  {
+   "id": "b",
+   "text": "Perform a digital vaginal examination"
+  },
+  {
+   "id": "c",
+   "text": "Establish IV access"
+  },
+  {
+   "id": "d",
+   "text": "Prepare for ultrasound"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Painless third-trimester bleeding suggests placenta praevia. Digital examination can disrupt the placenta and cause catastrophic haemorrhage.",
+ "strategy": "Never perform a digital vaginal examination in unexplained antepartum bleeding before excluding praevia.",
+ "difficulty": "hard",
+ "tags": [
+  "placenta-praevia",
+  "bleeding"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH-0003",
+ "categorySlug": "maternal-newborn",
+ "stem": "A woman in labour has recurrent late decelerations. Which intervention is priority?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Increase oxytocin"
+  },
+  {
+   "id": "b",
+   "text": "Reposition laterally and stop oxytocin while escalating"
+  },
+  {
+   "id": "c",
+   "text": "Encourage pushing"
+  },
+  {
+   "id": "d",
+   "text": "Place supine"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Late decelerations indicate uteroplacental insufficiency. Lateral positioning and stopping oxytocin improve perfusion while urgent review occurs.",
+ "strategy": "For late decelerations, improve placental perfusion and remove uterine overstimulation.",
+ "difficulty": "hard",
+ "tags": [
+  "labour",
+  "fetal-monitoring"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH-0004",
+ "categorySlug": "maternal-newborn",
+ "stem": "A postpartum client has heavy bleeding and a boggy uterus. What should the nurse do first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Massage the fundus while calling for help"
+  },
+  {
+   "id": "b",
+   "text": "Leave the client to rest"
+  },
+  {
+   "id": "c",
+   "text": "Apply a tight abdominal binder"
+  },
+  {
+   "id": "d",
+   "text": "Offer oral iron"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "A boggy uterus indicates uterine atony, a common cause of postpartum haemorrhage. Fundal massage promotes contraction while help and uterotonics are arranged.",
+ "strategy": "Heavy bleeding plus a boggy uterus means treat atony immediately and escalate.",
+ "difficulty": "hard",
+ "tags": [
+  "postpartum-haemorrhage",
+  "atony"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH-0005",
+ "categorySlug": "maternal-newborn",
+ "stem": "A woman after delivery has a firm uterus but continues to bleed heavily. Which cause should the nurse suspect?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Uterine atony only"
+  },
+  {
+   "id": "b",
+   "text": "Genital-tract laceration"
+  },
+  {
+   "id": "c",
+   "text": "Normal lochia"
+  },
+  {
+   "id": "d",
+   "text": "Breast engorgement"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Persistent bleeding with a firm contracted uterus suggests cervical, vaginal or perineal trauma rather than atony and requires urgent examination.",
+ "strategy": "In postpartum bleeding, boggy suggests atony; firm with bleeding suggests trauma or retained tissue.",
+ "difficulty": "hard",
+ "tags": [
+  "postpartum-haemorrhage",
+  "laceration"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH-0006",
+ "categorySlug": "maternal-newborn",
+ "stem": "A client receiving magnesium sulfate has respirations 9/min and absent patellar reflexes. What is the priority?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Continue the infusion"
+  },
+  {
+   "id": "b",
+   "text": "Stop magnesium, call for help and prepare calcium gluconate"
+  },
+  {
+   "id": "c",
+   "text": "Encourage ambulation"
+  },
+  {
+   "id": "d",
+   "text": "Give a sedative"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Respiratory depression and absent reflexes indicate magnesium toxicity. Stop the infusion, support airway and prepare the antidote.",
+ "strategy": "Monitor respirations, reflexes and urine output during magnesium therapy.",
+ "difficulty": "hard",
+ "tags": [
+  "magnesium",
+  "toxicity"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH-0007",
+ "categorySlug": "maternal-newborn",
+ "stem": "A woman at 35 weeks has regular contractions and cervical dilation. Which teaching is appropriate?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Sexual intercourse is encouraged to strengthen labour"
+  },
+  {
+   "id": "b",
+   "text": "Avoid intercourse and follow the preterm-labour plan"
+  },
+  {
+   "id": "c",
+   "text": "Take unprescribed herbs"
+  },
+  {
+   "id": "d",
+   "text": "Ignore contractions until term"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Preterm contractions with cervical change require assessment and management; intercourse may increase uterine activity or infection risk depending on the clinical situation.",
+ "strategy": "Preterm labour requires prompt review and adherence to the maternity plan.",
+ "difficulty": "hard",
+ "tags": [
+  "preterm-labour"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH-0008",
+ "categorySlug": "maternal-newborn",
+ "stem": "Which finding is a positive sign of pregnancy?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Morning sickness"
+  },
+  {
+   "id": "b",
+   "text": "Ballottement"
+  },
+  {
+   "id": "c",
+   "text": "Fetal heart sounds heard by Doppler"
+  },
+  {
+   "id": "d",
+   "text": "Breast tenderness"
+  }
+ ],
+ "correctChoiceId": "c",
+ "rationale": "Fetal heart activity is direct evidence of a fetus and is a positive sign. Morning sickness and breast changes are presumptive signs.",
+ "strategy": "Separate maternal symptoms from direct evidence of a fetus.",
+ "difficulty": "hard",
+ "tags": [
+  "pregnancy-signs"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH-0009",
+ "categorySlug": "maternal-newborn",
+ "stem": "The second stage of labour begins with complete cervical dilation and ends with:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Delivery of the placenta"
+  },
+  {
+   "id": "b",
+   "text": "Delivery of the baby"
+  },
+  {
+   "id": "c",
+   "text": "Onset of contractions"
+  },
+  {
+   "id": "d",
+   "text": "Return of the uterus to baseline"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "The second stage extends from full cervical dilation to birth of the baby. Placental delivery occurs in the third stage.",
+ "strategy": "Know the labour stages by their start and end points.",
+ "difficulty": "hard",
+ "tags": [
+  "labour",
+  "stages"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH-0010",
+ "categorySlug": "maternal-newborn",
+ "stem": "Which is a sign that the placenta has separated?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Shortening of the cord"
+  },
+  {
+   "id": "b",
+   "text": "A globular, firm uterus with a gush of blood"
+  },
+  {
+   "id": "c",
+   "text": "A soft uterus with no bleeding"
+  },
+  {
+   "id": "d",
+   "text": "Falling maternal temperature"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Placental separation is suggested by a globular firm uterus, lengthening cord and a gush of blood.",
+ "strategy": "Use the classic three signs: gush, lengthening cord and globular uterus.",
+ "difficulty": "hard",
+ "tags": [
+  "placenta",
+  "third-stage"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH-0011",
+ "categorySlug": "maternal-newborn",
+ "stem": "When the fetal head is delivered, what should the birth attendant check first?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Whether the umbilical cord is around the neck"
+  },
+  {
+   "id": "b",
+   "text": "Whether the mother can stand"
+  },
+  {
+   "id": "c",
+   "text": "Whether the placenta has delivered"
+  },
+  {
+   "id": "d",
+   "text": "Whether the newborn can feed"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "The cord is checked for a nuchal loop. If loose it may be slipped over the head; if tight, appropriate management is needed before the shoulders deliver.",
+ "strategy": "After the head crowns, check for a nuchal cord before completing the birth.",
+ "difficulty": "hard",
+ "tags": [
+  "normal-birth",
+  "cord"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH-0012",
+ "categorySlug": "maternal-newborn",
+ "stem": "The normal umbilical cord contains:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Two arteries and one vein"
+  },
+  {
+   "id": "b",
+   "text": "Two veins and one artery"
+  },
+  {
+   "id": "c",
+   "text": "One artery and one vein"
+  },
+  {
+   "id": "d",
+   "text": "Three arteries"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "The normal cord has two umbilical arteries and one umbilical vein.",
+ "strategy": "Remember “two arteries, one vein” and assess for abnormalities.",
+ "difficulty": "hard",
+ "tags": [
+  "newborn",
+  "cord"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH-0013",
+ "categorySlug": "maternal-newborn",
+ "stem": "The placenta is the chief source of oestrogen and progesterone after approximately the:",
+ "choices": [
+  {
+   "id": "a",
+   "text": "First few days"
+  },
+  {
+   "id": "b",
+   "text": "First four months"
+  },
+  {
+   "id": "c",
+   "text": "Last week only"
+  },
+  {
+   "id": "d",
+   "text": "First year"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "After the first trimester, the placenta becomes the major endocrine organ maintaining pregnancy.",
+ "strategy": "The corpus luteum supports early pregnancy; the placenta takes over later.",
+ "difficulty": "hard",
+ "tags": [
+  "placenta",
+  "pregnancy"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH-0014",
+ "categorySlug": "maternal-newborn",
+ "stem": "Which hormone helps maintain uterine relaxation during pregnancy?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Oestrogen"
+  },
+  {
+   "id": "b",
+   "text": "Progesterone"
+  },
+  {
+   "id": "c",
+   "text": "Follicle-stimulating hormone"
+  },
+  {
+   "id": "d",
+   "text": "Oxytocin"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Progesterone reduces uterine contractility and supports maintenance of pregnancy. Oxytocin promotes contractions.",
+ "strategy": "Link progesterone with pregnancy maintenance and oxytocin with contraction.",
+ "difficulty": "hard",
+ "tags": [
+  "hormones",
+  "pregnancy"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH-0015",
+ "categorySlug": "maternal-newborn",
+ "stem": "A newborn is wet immediately after birth. Which action best reduces heat loss?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Dry the newborn thoroughly and replace wet linen"
+  },
+  {
+   "id": "b",
+   "text": "Place the newborn near an open window"
+  },
+  {
+   "id": "c",
+   "text": "Delay drying until after weighing"
+  },
+  {
+   "id": "d",
+   "text": "Bathe immediately"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Evaporative heat loss is reduced by prompt drying and removal of wet linen; skin-to-skin and a hat also help.",
+ "strategy": "Newborn thermoregulation begins with drying and warmth immediately after birth.",
+ "difficulty": "hard",
+ "tags": [
+  "newborn",
+  "thermoregulation"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH-0016",
+ "categorySlug": "maternal-newborn",
+ "stem": "Which newborn finding requires urgent assessment?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Pink trunk with blue hands and feet immediately after birth"
+  },
+  {
+   "id": "b",
+   "text": "Central cyanosis of the lips and tongue"
+  },
+  {
+   "id": "c",
+   "text": "A strong cry"
+  },
+  {
+   "id": "d",
+   "text": "Flexed posture"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Central cyanosis suggests inadequate oxygenation and requires immediate airway and breathing assessment. Peripheral acrocyanosis can be transitional.",
+ "strategy": "Distinguish benign peripheral acrocyanosis from abnormal central cyanosis.",
+ "difficulty": "hard",
+ "tags": [
+  "newborn",
+  "cyanosis"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH-0017",
+ "categorySlug": "maternal-newborn",
+ "stem": "A newborn is apnoeic after drying and stimulation with a heart rate of 80/min. What is the next priority?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Begin positive-pressure ventilation"
+  },
+  {
+   "id": "b",
+   "text": "Start chest compressions immediately"
+  },
+  {
+   "id": "c",
+   "text": "Give oral glucose"
+  },
+  {
+   "id": "d",
+   "text": "Wait five minutes"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Apnoea with a heart rate below 100/min requires effective positive-pressure ventilation. Compressions follow only if the rate remains below 60 after ventilation.",
+ "strategy": "In neonatal resuscitation, ventilation is the first intervention for apnoea or HR below 100.",
+ "difficulty": "hard",
+ "tags": [
+  "newborn",
+  "resuscitation"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH-0018",
+ "categorySlug": "maternal-newborn",
+ "stem": "A newborn’s anterior fontanel is soft and flat. How should this be documented?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "As a normal finding"
+  },
+  {
+   "id": "b",
+   "text": "As severe dehydration"
+  },
+  {
+   "id": "c",
+   "text": "As raised intracranial pressure"
+  },
+  {
+   "id": "d",
+   "text": "As infection"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "A soft, flat anterior fontanel is expected. A bulging or markedly sunken fontanel is abnormal and needs assessment.",
+ "strategy": "Know normal newborn findings before labelling pathology.",
+ "difficulty": "hard",
+ "tags": [
+  "newborn",
+  "assessment"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH-0019",
+ "categorySlug": "pediatrics",
+ "stem": "A child with severe acute malnutrition has diarrhoea, lethargy and signs of shock. Which action is priority?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "Urgent referral and cautious resuscitation according to the severe-malnutrition protocol"
+  },
+  {
+   "id": "b",
+   "text": "Give unlimited plain water"
+  },
+  {
+   "id": "c",
+   "text": "Give a high-protein meal immediately"
+  },
+  {
+   "id": "d",
+   "text": "Wait for weight gain"
+  }
+ ],
+ "correctChoiceId": "a",
+ "rationale": "Shock in severe acute malnutrition requires urgent referral and carefully monitored fluid management because standard rapid fluids can cause overload.",
+ "strategy": "Severe malnutrition changes fluid-resuscitation choices; follow the protocol and escalate.",
+ "difficulty": "hard",
+ "tags": [
+  "malnutrition",
+  "shock"
+ ],
+ "isFree": false
+},
+{
+ "authoredId": "NG-MCH-0020",
+ "categorySlug": "pediatrics",
+ "stem": "Which growth finding most warrants follow-up in a child with chronic illness?",
+ "choices": [
+  {
+   "id": "a",
+   "text": "A steady parallel growth trajectory"
+  },
+  {
+   "id": "b",
+   "text": "Crossing downward through established weight percentiles"
+  },
+  {
+   "id": "c",
+   "text": "A single missed snack"
+  },
+  {
+   "id": "d",
+   "text": "Normal activity after play"
+  }
+ ],
+ "correctChoiceId": "b",
+ "rationale": "Downward crossing of growth percentiles suggests faltering growth and requires assessment of nutrition, disease control and psychosocial factors.",
+ "strategy": "Use serial growth trends rather than one measurement.",
+ "difficulty": "hard",
+ "tags": [
+  "growth",
+  "paediatrics"
  ],
  "isFree": false
 }
