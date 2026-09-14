@@ -1,3 +1,4 @@
+
 import { randomUUID } from "node:crypto";import "dotenv/config";
 import { db, pool } from "./index";
 import { AUTHORED_QUESTIONS } from "./authored-bank";
@@ -51,3 +52,4 @@ main()
   .finally(async () => {
     await pool.end();
   });
+

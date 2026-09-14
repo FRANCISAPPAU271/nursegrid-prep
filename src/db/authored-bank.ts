@@ -23,9 +23,9 @@ export type AuthoredQuestion = {
   mediaCaption?: string;
 };
 
-export const AUTHORED_COUNT = 3479;
+export const AUTHORED_COUNT = 3500;
 export const AUTHORED_COUNT_LABEL = "3,200+";
-export const AUTHORED_DIAGRAM_COUNT = 589;
+export const AUTHORED_DIAGRAM_COUNT = 615;
 
 export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
@@ -112901,7 +112901,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "intracranial-pressure",
   "neurological-observation"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-NEURO-0008.svg",
+  "mediaCaption": "Original clinical study diagram"
 },
 {
  "authoredId": "NG-NEURO-0009",
@@ -113344,7 +113346,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "hyperkalaemia",
   "ecg"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-FLUID-0002.svg",
+  "mediaCaption": "Original clinical study diagram"
 },
 {
  "authoredId": "NG-FLUID-0003",
@@ -113951,7 +113955,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "digoxin",
   "toxicity"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-PHARM-0001.svg",
+  "mediaCaption": "Original clinical study diagram"
 },
 {
  "authoredId": "NG-PHARM-0002",
@@ -114591,7 +114597,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "asthma",
   "respiratory-failure"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-RESP-0001.svg",
+  "mediaCaption": "Original clinical study diagram"
 },
 {
  "authoredId": "NG-RESP-0002",
@@ -117245,7 +117253,9 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "newborn",
   "fetal-circulation"
  ],
- "isFree": false
+ "isFree": false,
+  "mediaUrl": "/diagrams/NG-MAT2-0004.svg",
+  "mediaCaption": "Original clinical study diagram"
 },
 {
  "authoredId": "NG-MAT2-0005",
@@ -118749,5 +118759,741 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "thermoregulation"
  ],
  "isFree": false
+},
+
+{
+  "authoredId": "NG-3500-0001",
+  "categorySlug": "med-surg",
+  "stem": "A client with suspected acute stroke has sudden facial droop and slurred speech. Which action is the priority before giving anything by mouth?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Assess airway and breathing"
+    },
+    {
+      "id": "b",
+      "text": "Offer water to test swallowing"
+    },
+    {
+      "id": "c",
+      "text": "Give oral aspirin"
+    },
+    {
+      "id": "d",
+      "text": "Place the client flat"
+    }
+  ],
+  "correctChoiceId": "a",
+  "rationale": "Airway and breathing are assessed first, and swallowing must be screened before oral intake because dysphagia and aspiration are common after stroke.",
+  "strategy": "For sudden neurological change, use ABCs first, then protect the airway and establish the time last known well.",
+  "difficulty": "medium",
+  "tags": [
+    "med-surg",
+    "curriculum",
+    "prioritization"
+  ],
+  "isFree": false,
+  "mediaUrl": "/diagrams/ng-3500-0001.svg",
+  "mediaCaption": "Original study diagram: a visual cue for the clinical decision in this question."
+},
+{
+  "authoredId": "NG-3500-0002",
+  "categorySlug": "med-surg",
+  "stem": "A client taking furosemide reports muscle weakness and palpitations. Which laboratory result should the nurse review first?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Serum potassium"
+    },
+    {
+      "id": "b",
+      "text": "Haemoglobin"
+    },
+    {
+      "id": "c",
+      "text": "Platelet count"
+    },
+    {
+      "id": "d",
+      "text": "Serum amylase"
+    }
+  ],
+  "correctChoiceId": "a",
+  "rationale": "Furosemide increases renal potassium loss. Weakness and palpitations may indicate hypokalaemia, which can precipitate dangerous dysrhythmias.",
+  "strategy": "Link each medication to its most important adverse effect and the matching laboratory value.",
+  "difficulty": "medium",
+  "tags": [
+    "cardiovascular-system",
+    "curriculum",
+    "prioritization"
+  ],
+  "isFree": false,
+  "mediaUrl": "/diagrams/ng-3500-0002.svg",
+  "mediaCaption": "Original study diagram: a visual cue for the clinical decision in this question."
+},
+{
+  "authoredId": "NG-3500-0003",
+  "categorySlug": "fluid-electrolyte",
+  "stem": "A client with severe diarrhoea is dizzy when standing, has dry mucous membranes and a weak rapid pulse. Which finding best indicates reduced circulating volume?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Orthostatic hypotension"
+    },
+    {
+      "id": "b",
+      "text": "Warm flushed skin"
+    },
+    {
+      "id": "c",
+      "text": "Bounding pulse"
+    },
+    {
+      "id": "d",
+      "text": "Increased urine output"
+    }
+  ],
+  "correctChoiceId": "a",
+  "rationale": "A fall in blood pressure on standing reflects inadequate circulating volume and impaired compensation. The other options describe the opposite of dehydration.",
+  "strategy": "When assessing fluid loss, prioritise perfusion clues: mental status, pulse quality, blood pressure and urine output.",
+  "difficulty": "medium",
+  "tags": [
+    "fluid-electrolyte",
+    "curriculum",
+    "prioritization"
+  ],
+  "isFree": false,
+  "mediaUrl": "/diagrams/ng-3500-0003.svg",
+  "mediaCaption": "Original study diagram: a visual cue for the clinical decision in this question."
+},
+{
+  "authoredId": "NG-3500-0004",
+  "categorySlug": "pharmacology-parenteral",
+  "stem": "A nurse is preparing to administer insulin. Which action is safest?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Compare the insulin label with the medication record at preparation and bedside"
+    },
+    {
+      "id": "b",
+      "text": "Shake cloudy insulin vigorously"
+    },
+    {
+      "id": "c",
+      "text": "Use the same syringe for insulin and heparin"
+    },
+    {
+      "id": "d",
+      "text": "Inject into an area with lipodystrophy"
+    }
+  ],
+  "correctChoiceId": "a",
+  "rationale": "Two label checks reduce wrong-insulin errors. Cloudy insulin is gently rolled, medications are not mixed unless prescribed, and abnormal tissue is avoided.",
+  "strategy": "High-alert medicines require independent checks, correct technique and a suitable administration site.",
+  "difficulty": "medium",
+  "tags": [
+    "pharmacology",
+    "curriculum",
+    "prioritization"
+  ],
+  "isFree": false,
+  "mediaUrl": "/diagrams/ng-3500-0004.svg",
+  "mediaCaption": "Original study diagram: a visual cue for the clinical decision in this question."
+},
+{
+  "authoredId": "NG-3500-0005",
+  "categorySlug": "maternal-newborn",
+  "stem": "A postpartum client has heavy vaginal bleeding and a boggy uterus. Which position best supports immediate assessment and intervention?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Supine with knees flexed while the fundus is assessed"
+    },
+    {
+      "id": "b",
+      "text": "Prone with legs extended"
+    },
+    {
+      "id": "c",
+      "text": "High Fowler position with oral fluids"
+    },
+    {
+      "id": "d",
+      "text": "Trendelenburg with no assessment"
+    }
+  ],
+  "correctChoiceId": "a",
+  "rationale": "A supine position with knees flexed allows rapid fundal assessment and massage while emergency measures are prepared.",
+  "strategy": "In postpartum haemorrhage, assess uterine tone and begin immediate measures while calling for help.",
+  "difficulty": "medium",
+  "tags": [
+    "maternal-newborn",
+    "curriculum",
+    "prioritization"
+  ],
+  "isFree": false,
+  "mediaUrl": "/diagrams/ng-3500-0005.svg",
+  "mediaCaption": "Original study diagram: a visual cue for the clinical decision in this question."
+},
+{
+  "authoredId": "NG-3500-0006",
+  "categorySlug": "maternal-newborn",
+  "stem": "A pregnant client at 34 weeks reports painless bright-red vaginal bleeding. Which action is safest?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Avoid a digital vaginal examination and notify the provider"
+    },
+    {
+      "id": "b",
+      "text": "Perform a digital examination to locate the bleeding"
+    },
+    {
+      "id": "c",
+      "text": "Encourage ambulation to assess contractions"
+    },
+    {
+      "id": "d",
+      "text": "Apply fundal pressure"
+    }
+  ],
+  "correctChoiceId": "a",
+  "rationale": "Painless bright-red bleeding suggests placenta praevia until assessed. A digital examination can disrupt the placenta and cause catastrophic haemorrhage.",
+  "strategy": "For late-pregnancy bleeding, identify whether it is painful or painless and avoid contraindicated examinations.",
+  "difficulty": "medium",
+  "tags": [
+    "maternal-newborn",
+    "curriculum",
+    "prioritization"
+  ],
+  "isFree": false,
+  "mediaUrl": "/diagrams/ng-3500-0006.svg",
+  "mediaCaption": "Original study diagram: a visual cue for the clinical decision in this question."
+},
+{
+  "authoredId": "NG-3500-0007",
+  "categorySlug": "pediatrics",
+  "stem": "A child with severe respiratory distress is unable to drink and is lethargic. Which action is the priority?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Call for emergency help and support airway and breathing"
+    },
+    {
+      "id": "b",
+      "text": "Wait for the caregiver to provide the history"
+    },
+    {
+      "id": "c",
+      "text": "Give a large oral fluid bolus"
+    },
+    {
+      "id": "d",
+      "text": "Send the child to the waiting area"
+    }
+  ],
+  "correctChoiceId": "a",
+  "rationale": "Inability to drink, lethargy and respiratory distress are danger signs. Airway and breathing support and urgent escalation take priority.",
+  "strategy": "In paediatric emergencies, danger signs override routine history-taking and non-urgent treatment.",
+  "difficulty": "medium",
+  "tags": [
+    "pediatrics",
+    "curriculum",
+    "prioritization"
+  ],
+  "isFree": false,
+  "mediaUrl": "/diagrams/ng-3500-0007.svg",
+  "mediaCaption": "Original study diagram: a visual cue for the clinical decision in this question."
+},
+{
+  "authoredId": "NG-3500-0008",
+  "categorySlug": "pediatrics",
+  "stem": "A child with diarrhoea has sunken eyes, drinks eagerly and the skin pinch returns very slowly. How should the nurse classify dehydration?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Severe dehydration"
+    },
+    {
+      "id": "b",
+      "text": "Some dehydration"
+    },
+    {
+      "id": "c",
+      "text": "No dehydration"
+    },
+    {
+      "id": "d",
+      "text": "Persistent diarrhoea only"
+    }
+  ],
+  "correctChoiceId": "a",
+  "rationale": "Two or more signs including very slow skin return and eager drinking indicate severe dehydration and require urgent rehydration and referral according to IMCI.",
+  "strategy": "Use the number and severity of IMCI signs rather than one isolated symptom.",
+  "difficulty": "medium",
+  "tags": [
+    "imci-ghana",
+    "curriculum",
+    "prioritization"
+  ],
+  "isFree": false,
+  "mediaUrl": "/diagrams/ng-3500-0008.svg",
+  "mediaCaption": "Original study diagram: a visual cue for the clinical decision in this question."
+},
+{
+  "authoredId": "NG-3500-0009",
+  "categorySlug": "mental-health",
+  "stem": "A client says, “I have a plan to end my life tonight and I have the tablets with me.” What should the nurse do first?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Stay with the client and remove access to the tablets while obtaining urgent help"
+    },
+    {
+      "id": "b",
+      "text": "Ask the client to promise not to self-harm"
+    },
+    {
+      "id": "c",
+      "text": "Leave the client alone to calm down"
+    },
+    {
+      "id": "d",
+      "text": "Change the topic to build rapport"
+    }
+  ],
+  "correctChoiceId": "a",
+  "rationale": "A specific plan, immediate time frame and available means indicate high imminent risk. Continuous observation, means restriction and urgent escalation are required.",
+  "strategy": "Directly assess intent, plan, means and timing; imminent risk requires safety actions, not a no-harm promise.",
+  "difficulty": "medium",
+  "tags": [
+    "mental-health",
+    "curriculum",
+    "prioritization"
+  ],
+  "isFree": false,
+  "mediaUrl": "/diagrams/ng-3500-0009.svg",
+  "mediaCaption": "Original study diagram: a visual cue for the clinical decision in this question."
+},
+{
+  "authoredId": "NG-3500-0010",
+  "categorySlug": "safety-infection-control",
+  "stem": "A nurse sustains a needlestick injury after giving an injection. What is the first action?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Wash the area immediately with soap and running water"
+    },
+    {
+      "id": "b",
+      "text": "Squeeze the wound forcefully until it bleeds"
+    },
+    {
+      "id": "c",
+      "text": "Apply bleach to the puncture"
+    },
+    {
+      "id": "d",
+      "text": "Continue the shift without reporting"
+    }
+  ],
+  "correctChoiceId": "a",
+  "rationale": "Immediate washing reduces contamination. The injury is then reported promptly for risk assessment and post-exposure management.",
+  "strategy": "For occupational exposure, clean first, report promptly and follow the post-exposure protocol.",
+  "difficulty": "medium",
+  "tags": [
+    "infection-control",
+    "curriculum",
+    "prioritization"
+  ],
+  "isFree": false,
+  "mediaUrl": "/diagrams/ng-3500-0010.svg",
+  "mediaCaption": "Original study diagram: a visual cue for the clinical decision in this question."
+},
+{
+  "authoredId": "NG-3500-0011",
+  "categorySlug": "health-promotion",
+  "stem": "During a home visit, a mother says her infant has fast breathing and is unable to breastfeed. What is the best response?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Arrange urgent assessment or referral for danger signs"
+    },
+    {
+      "id": "b",
+      "text": "Advise her to wait three days"
+    },
+    {
+      "id": "c",
+      "text": "Recommend only a home herbal remedy"
+    },
+    {
+      "id": "d",
+      "text": "Tell her to return at the next clinic day"
+    }
+  ],
+  "correctChoiceId": "a",
+  "rationale": "Fast breathing with inability to breastfeed is a danger pattern requiring urgent assessment, not delayed routine follow-up.",
+  "strategy": "Community nursing still uses the same danger-sign priorities as hospital care.",
+  "difficulty": "medium",
+  "tags": [
+    "community-health",
+    "curriculum",
+    "prioritization"
+  ],
+  "isFree": false,
+  "mediaUrl": "/diagrams/ng-3500-0011.svg",
+  "mediaCaption": "Original study diagram: a visual cue for the clinical decision in this question."
+},
+{
+  "authoredId": "NG-3500-0012",
+  "categorySlug": "health-promotion",
+  "stem": "A client with iron-deficiency anaemia asks how to improve absorption of prescribed oral iron. Which advice is best?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Take it with a vitamin-C-rich drink if tolerated"
+    },
+    {
+      "id": "b",
+      "text": "Take it with tea after every meal"
+    },
+    {
+      "id": "c",
+      "text": "Stop it when energy improves"
+    },
+    {
+      "id": "d",
+      "text": "Take it with an antacid"
+    }
+  ],
+  "correctChoiceId": "a",
+  "rationale": "Vitamin C improves non-haem iron absorption, while tea and antacids can reduce absorption. Treatment should continue as prescribed.",
+  "strategy": "Medication teaching should include the best timing, interactions and what to expect from the treatment.",
+  "difficulty": "medium",
+  "tags": [
+    "nutrition",
+    "curriculum",
+    "prioritization"
+  ],
+  "isFree": false,
+  "mediaUrl": "/diagrams/ng-3500-0012.svg",
+  "mediaCaption": "Original study diagram: a visual cue for the clinical decision in this question."
+},
+{
+  "authoredId": "NG-3500-0013",
+  "categorySlug": "risk-reduction",
+  "stem": "A client with chronic kidney disease has a new prescription for potassium chloride. Which result requires clarification before administration?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Serum potassium 5.9 mmol/L"
+    },
+    {
+      "id": "b",
+      "text": "Haemoglobin 12 g/dL"
+    },
+    {
+      "id": "c",
+      "text": "Sodium 139 mmol/L"
+    },
+    {
+      "id": "d",
+      "text": "Temperature 36.8°C"
+    }
+  ],
+  "correctChoiceId": "a",
+  "rationale": "A potassium of 5.9 mmol/L is elevated; additional potassium could worsen hyperkalaemia and trigger dysrhythmia.",
+  "strategy": "Before electrolyte replacement, check the current electrolyte value and renal function.",
+  "difficulty": "medium",
+  "tags": [
+    "renal-urinary",
+    "curriculum",
+    "prioritization"
+  ],
+  "isFree": false,
+  "mediaUrl": "/diagrams/ng-3500-0013.svg",
+  "mediaCaption": "Original study diagram: a visual cue for the clinical decision in this question."
+},
+{
+  "authoredId": "NG-3500-0014",
+  "categorySlug": "med-surg",
+  "stem": "A conscious client with diabetes is sweating, trembling and confused. What should the nurse do first?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Check capillary blood glucose and treat suspected hypoglycaemia promptly"
+    },
+    {
+      "id": "b",
+      "text": "Administer the usual long-acting insulin"
+    },
+    {
+      "id": "c",
+      "text": "Encourage vigorous exercise"
+    },
+    {
+      "id": "d",
+      "text": "Restrict all oral intake"
+    }
+  ],
+  "correctChoiceId": "a",
+  "rationale": "Sweating, tremor and confusion are classic hypoglycaemia signs. Check glucose if possible and provide rapid-acting carbohydrate when the client can swallow safely.",
+  "strategy": "Recognise adrenergic and neuroglycopenic signs, then confirm and correct low glucose without delaying treatment.",
+  "difficulty": "medium",
+  "tags": [
+    "endocrine-system",
+    "curriculum",
+    "prioritization"
+  ],
+  "isFree": false,
+  "mediaUrl": "/diagrams/ng-3500-0014.svg",
+  "mediaCaption": "Original study diagram: a visual cue for the clinical decision in this question."
+},
+{
+  "authoredId": "NG-3500-0015",
+  "categorySlug": "fundamentals",
+  "stem": "A nurse is turning an immobile client. Which action best reduces shear injury?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Lift the client with a draw sheet rather than dragging"
+    },
+    {
+      "id": "b",
+      "text": "Pull the client by the arms"
+    },
+    {
+      "id": "c",
+      "text": "Massage reddened skin vigorously"
+    },
+    {
+      "id": "d",
+      "text": "Keep the head of bed elevated as high as possible"
+    }
+  ],
+  "correctChoiceId": "a",
+  "rationale": "Lifting rather than dragging reduces friction and shear. Reddened skin is protected, not vigorously massaged.",
+  "strategy": "Pressure injury prevention combines repositioning, moisture control, nutrition and friction reduction.",
+  "difficulty": "medium",
+  "tags": [
+    "fundamentals",
+    "curriculum",
+    "prioritization"
+  ],
+  "isFree": false,
+  "mediaUrl": "/diagrams/ng-3500-0015.svg",
+  "mediaCaption": "Original study diagram: a visual cue for the clinical decision in this question."
+},
+{
+  "authoredId": "NG-3500-0016",
+  "categorySlug": "risk-reduction",
+  "stem": "A client arrives with crushing chest pain, diaphoresis and shortness of breath. Which action should occur first?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Perform an immediate focused assessment and activate the emergency response"
+    },
+    {
+      "id": "b",
+      "text": "Ask the client to wait for registration"
+    },
+    {
+      "id": "c",
+      "text": "Offer a full meal"
+    },
+    {
+      "id": "d",
+      "text": "Schedule a routine clinic appointment"
+    }
+  ],
+  "correctChoiceId": "a",
+  "rationale": "The symptom cluster suggests acute coronary syndrome. Rapid assessment and emergency escalation are time-critical.",
+  "strategy": "Triage by potential threat to life, not by arrival order or administrative convenience.",
+  "difficulty": "medium",
+  "tags": [
+    "emergency-urgent-nonurgent",
+    "curriculum",
+    "prioritization"
+  ],
+  "isFree": false,
+  "mediaUrl": "/diagrams/ng-3500-0016.svg",
+  "mediaCaption": "Original study diagram: a visual cue for the clinical decision in this question."
+},
+{
+  "authoredId": "NG-3500-0017",
+  "categorySlug": "pharmacology-parenteral",
+  "stem": "A client taking warfarin reports black tarry stools. Which response is most appropriate?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Hold the next dose and notify the prescriber urgently"
+    },
+    {
+      "id": "b",
+      "text": "Reassure the client that this is expected"
+    },
+    {
+      "id": "c",
+      "text": "Give aspirin for discomfort"
+    },
+    {
+      "id": "d",
+      "text": "Advise doubling the next dose"
+    }
+  ],
+  "correctChoiceId": "a",
+  "rationale": "Melena may indicate gastrointestinal bleeding in a client receiving anticoagulation. The dose should be held and urgent review arranged.",
+  "strategy": "Bleeding signs in an anticoagulated client require prompt escalation and review of coagulation status.",
+  "difficulty": "medium",
+  "tags": [
+    "pharmacology",
+    "curriculum",
+    "prioritization"
+  ],
+  "isFree": false,
+  "mediaUrl": "/diagrams/ng-3500-0017.svg",
+  "mediaCaption": "Original study diagram: a visual cue for the clinical decision in this question."
+},
+{
+  "authoredId": "NG-3500-0018",
+  "categorySlug": "maternal-newborn",
+  "stem": "A newborn is cold, breathing normally and has a blood glucose risk because the mother has diabetes. Which intervention helps prevent heat loss and supports glucose stability?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Dry the newborn and provide skin-to-skin contact under a warm cover"
+    },
+    {
+      "id": "b",
+      "text": "Separate the newborn in an uncovered cot"
+    },
+    {
+      "id": "c",
+      "text": "Delay feeding until the next routine round"
+    },
+    {
+      "id": "d",
+      "text": "Bathe the newborn immediately"
+    }
+  ],
+  "correctChoiceId": "a",
+  "rationale": "Drying and skin-to-skin contact reduce heat loss and support glucose stability. Bathing increases evaporative cooling and should be delayed.",
+  "strategy": "For a stable newborn, warmth, early feeding and observation prevent common transition problems.",
+  "difficulty": "medium",
+  "tags": [
+    "maternal-newborn",
+    "curriculum",
+    "prioritization"
+  ],
+  "isFree": false,
+  "mediaUrl": "/diagrams/ng-3500-0018.svg",
+  "mediaCaption": "Original study diagram: a visual cue for the clinical decision in this question."
+},
+{
+  "authoredId": "NG-3500-0019",
+  "categorySlug": "health-promotion",
+  "stem": "Which intervention most directly interrupts faecal-oral transmission in a community?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Handwashing with soap after defecation and before preparing food"
+    },
+    {
+      "id": "b",
+      "text": "Sharing drinking cups among household members"
+    },
+    {
+      "id": "c",
+      "text": "Storing drinking water in an open container"
+    },
+    {
+      "id": "d",
+      "text": "Disposing of waste near a stream"
+    }
+  ],
+  "correctChoiceId": "a",
+  "rationale": "Handwashing at critical times interrupts transfer of pathogens from faeces to food and water.",
+  "strategy": "For infection prevention, identify the transmission route and break it at the most direct point.",
+  "difficulty": "medium",
+  "tags": [
+    "public-health",
+    "curriculum",
+    "prioritization"
+  ],
+  "isFree": false,
+  "mediaUrl": "/diagrams/ng-3500-0019.svg",
+  "mediaCaption": "Original study diagram: a visual cue for the clinical decision in this question."
+},
+{
+  "authoredId": "NG-3500-0020",
+  "categorySlug": "leadership-delegation",
+  "stem": "Which task is most appropriate for a trained nursing assistant under supervision?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Measure and record vital signs for a stable client"
+    },
+    {
+      "id": "b",
+      "text": "Assess a new admission with chest pain"
+    },
+    {
+      "id": "c",
+      "text": "Teach insulin self-injection"
+    },
+    {
+      "id": "d",
+      "text": "Evaluate a complex wound"
+    }
+  ],
+  "correctChoiceId": "a",
+  "rationale": "Routine vital signs for a stable client can be delegated with clear instructions and follow-up. Assessment, teaching and evaluation remain nursing responsibilities.",
+  "strategy": "Delegate tasks that are predictable and within the assistant’s training; retain assessment, teaching and evaluation.",
+  "difficulty": "medium",
+  "tags": [
+    "leadership-delegation",
+    "curriculum",
+    "prioritization"
+  ],
+  "isFree": false,
+  "mediaUrl": "/diagrams/ng-3500-0020.svg",
+  "mediaCaption": "Original study diagram: a visual cue for the clinical decision in this question."
+},
+{
+  "authoredId": "NG-3500-0021",
+  "categorySlug": "risk-reduction",
+  "stem": "A client receiving magnesium sulfate has a respiratory rate of 9 breaths per minute and absent patellar reflexes. What should the nurse do?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Stop the infusion and notify the provider urgently"
+    },
+    {
+      "id": "b",
+      "text": "Increase the infusion rate"
+    },
+    {
+      "id": "c",
+      "text": "Give the next dose early"
+    },
+    {
+      "id": "d",
+      "text": "Encourage the client to walk"
+    }
+  ],
+  "correctChoiceId": "a",
+  "rationale": "Respiratory depression and absent reflexes indicate magnesium toxicity. The infusion is stopped and urgent treatment, including calcium gluconate if prescribed, is prepared.",
+  "strategy": "For high-alert infusions, monitor the specific toxicity signs and know the antidote.",
+  "difficulty": "medium",
+  "tags": [
+    "lab-value-quick-reference",
+    "curriculum",
+    "prioritization"
+  ],
+  "isFree": false,
+  "mediaUrl": "/diagrams/ng-3500-0021.svg",
+  "mediaCaption": "Original study diagram: a visual cue for the clinical decision in this question."
 }
 ];
