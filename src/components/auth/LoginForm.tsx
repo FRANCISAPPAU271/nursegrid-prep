@@ -8,6 +8,10 @@ export default function LoginForm() {
   const router = useRouter();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [mode, setMode] = useState<"email" | "phone">("email");
+  const [phone, setPhone] = useState("");
+  const [code, setCode] = useState("");
+  const [codeSent, setCodeSent] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
@@ -30,6 +34,43 @@ export default function LoginForm() {
     } finally {
       setLoading(false);
     }
+  }
+
+  async function onPhoneSubmit(e: FormEvent) {
+    e.preventDefault();
+    setError(null);
+    setLoading(true);
+    try {
+      const res = await fetch("/api/auth/phone-login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ action: codeSent ? "verify" : "send", phone, code: codeSent ? code : undefined }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error ?? "Unable to use phone sign-in");
+      if (!codeSent) setCodeSent(true);
+      else { router.push("/dashboard"); router.refresh(); }
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Unable to use phone sign-in");
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  if (mode === "phone") {
+    return (
+      <form onSubmit={onPhoneSubmit} className="space-y-4">
+        {error && <div className="rounded-lg bg-rose-50 px-4 py-3 text-sm font-medium text-rose-700">{error}</div>}
+        <div>
+          <label className="mb-1 block text-sm font-semibold text-slate-700">Verified Ghana phone number</label>
+          <input required value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="024 123 4567" className="w-full rounded-lg border border-slate-300 px-3 py-2.5 text-sm outline-none focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/20" />
+        </div>
+        {codeSent && <div><label className="mb-1 block text-sm font-semibold text-slate-700">SMS code</label><input required value={code} onChange={(e) => setCode(e.target.value)} inputMode="numeric" placeholder="6-digit code" className="w-full rounded-lg border border-slate-300 px-3 py-2.5 text-sm outline-none focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/20" /></div>}
+        <button type="submit" disabled={loading} className="flex w-full items-center justify-center rounded-lg bg-emerald-600 px-4 py-2.5 text-sm font-semibold text-white disabled:opacity-70">{loading ? "Please wait…" : codeSent ? "Sign in with code" : "Send sign-in code"}</button>
+        <button type="button" onClick={() => { setMode("email"); setError(null); }} className="w-full text-center text-sm font-semibold text-emerald-700 hover:underline">Use email and password instead</button>
+        <p className="text-center text-xs text-slate-500">This works only for a phone number previously verified and linked to a NurseGrid account.</p>
+      </form>
+    );
   }
 
   return (
@@ -64,6 +105,7 @@ export default function LoginForm() {
           className="w-full rounded-lg border border-slate-300 px-3 py-2.5 text-sm outline-none ring-emerald-500/40 focus:border-emerald-500 focus:ring-4"
         />
       </div>
+      <button type="button" onClick={() => { setMode("phone"); setError(null); }} className="w-full text-center text-sm font-semibold text-emerald-700 hover:underline">Can’t find your email? Sign in with verified phone</button>
       <button
         type="submit"
         disabled={loading}
