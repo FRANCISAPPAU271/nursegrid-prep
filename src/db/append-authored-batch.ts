@@ -1,4 +1,5 @@
-import "dotenv/config";
+
+import { randomUUID } from "node:crypto";import "dotenv/config";
 import { db, pool } from "./index";
 import { AUTHORED_QUESTIONS } from "./authored-bank";
 import { questionCategories } from "./schema";
@@ -12,7 +13,7 @@ import { sql } from "drizzle-orm";
  */
 async function main() {
   const batch = AUTHORED_QUESTIONS.filter((q) => q.authoredId.startsWith("NG-BATCH2-") || q.authoredId.startsWith("NG-USER-") || q.authoredId.startsWith("NG-NEURO-") || q.authoredId.startsWith("NG-FLUID-") || q.authoredId.startsWith("NG-PHARM-") || q.authoredId.startsWith("NG-RESP-") || q.authoredId.startsWith("NG-PEDS-") || q.authoredId.startsWith("NG-PEDS2-") || q.authoredId.startsWith("NG-MIX-") || q.authoredId.startsWith("NG-MAT2-") || q.authoredId.startsWith("NG-MCH-") || q.authoredId.startsWith("NG-MCH2-"));
-  if (batch.length !== 50) throw new Error(`Expected 260 appended questions, found ${batch.length}`);
+if (batch.length !== 260) throw new Error(`Expected 260 appended questions, found ${batch.length}`);
 
   await db.execute(sql`ALTER TABLE "questions" ADD COLUMN IF NOT EXISTS "media_url" text`);
   await db.execute(sql`ALTER TABLE "questions" ADD COLUMN IF NOT EXISTS "media_caption" text`);
@@ -30,10 +31,10 @@ async function main() {
     if (!categoryId) throw new Error(`Missing category: ${q.categorySlug}`);
     await db.execute(sql`
       INSERT INTO "questions" (
-        "category_id", "stem", "choices", "correct_choice_id", "rationale", "strategy",
+            "id", "category_id", "stem", "choices", "correct_choice_id", "rationale", "strategy",
         "difficulty", "tags", "is_free", "source", "authored_id", "media_url", "media_caption"
       ) VALUES (
-        ${categoryId}, ${q.stem}, ${JSON.stringify(q.choices)}::jsonb, ${q.correctChoiceId}, ${q.rationale}, ${q.strategy},
+        ${randomUUID()}, ${categoryId}, ${q.stem}, ${JSON.stringify(q.choices)}::jsonb, ${q.correctChoiceId}, ${q.rationale}, ${q.strategy},
         ${q.difficulty}, ${JSON.stringify(q.tags)}::jsonb, ${q.isFree}, 'authored', ${q.authoredId},
         ${q.mediaUrl ?? null}, ${q.mediaCaption ?? null}
       )
@@ -51,3 +52,4 @@ main()
   .finally(async () => {
     await pool.end();
   });
+
