@@ -355,8 +355,7 @@ export default function BillingPanel({
             {/* Fallback options — shown only when instant payment is unavailable
                 (e.g. Paystack outage or key removed), so students always have
                 a way to pay. */}
-            {!paystackEnabled && (
-              <>
+            <>
                 <button
                   onClick={() => chooseVisa(pickerPlan)}
                   className="flex w-full items-center justify-between rounded-xl border border-slate-200 px-4 py-4 text-left hover:border-emerald-400 hover:bg-emerald-50/50"
@@ -384,7 +383,6 @@ export default function BillingPanel({
                   <span className="text-slate-400">→</span>
                 </button>
               </>
-            )}
           </div>
         )}
       </Modal>
