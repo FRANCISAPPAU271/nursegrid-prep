@@ -11,6 +11,7 @@ import Watermark from "@/components/ui/Watermark";
 import { RichText } from "@/components/questions/RichText";
 import { EmphasisedText } from "../questions/EmphasisedText";
 import { OptionBadge } from "@/components/questions/OptionBadge";
+import ExamReviewSummary from "@/components/exams/ExamReviewSummary";
 
 type ExamMeta = {
   id: string;
@@ -152,6 +153,8 @@ export default function ExamRunner({ examId }: { examId: string }) {
           })()}
           <p className="mt-2 text-sm text-emerald-800">Review every question, your answer, the correct answer, and the rationale below.</p>
         </div>
+
+        <ExamReviewSummary review={review} />
 
         <div className="space-y-4">
           {review.map((q, i) => (
