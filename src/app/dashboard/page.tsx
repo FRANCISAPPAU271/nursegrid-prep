@@ -7,6 +7,7 @@ import GettingStarted from "@/components/dashboard/GettingStarted";
 import { getUserExamDate } from "@/db/user-exam-date";
 import { buildWhatsAppLink } from "@/lib/contact";
 import { EmphasisedText } from "@/components/questions/EmphasisedText";
+import MilestonesCard from "@/components/dashboard/MilestonesCard";
 
 export const dynamic = "force-dynamic";
 
@@ -233,6 +234,8 @@ export default async function OverviewPage() {
           icon="🧠"
         />
       </div>
+
+      <MilestonesCard attempted={questionStats.attempted} accuracy={accuracy} streak={streak} tasksDone={taskStats.done} />
 
       <div className="grid gap-6 lg:grid-cols-3">
         <div className="rounded-2xl border border-slate-200 bg-white p-5 lg:col-span-2">
