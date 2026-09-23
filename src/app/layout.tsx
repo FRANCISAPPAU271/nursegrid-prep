@@ -6,6 +6,7 @@ import ServiceWorkerRegistrar from "@/components/pwa/ServiceWorkerRegistrar";
 import InstallAppPrompt from "@/components/pwa/InstallAppPrompt";
 import CapacitorBridge from "@/components/pwa/CapacitorBridge";
 import WhatsAppButton from "@/components/contact/WhatsAppButton";
+import HelpChat from "@/components/support/HelpChat";
 import BrowserTip from "@/components/ui/BrowserTip";
 import SecurityGuard from "@/components/ui/SecurityGuard";
 import { ToastProvider } from "@/components/ui/Toast";
@@ -91,6 +92,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <InstallAppPrompt />
           <CapacitorBridge />
           <WhatsAppButton />
+          <HelpChat />
           <SecurityGuard />
           <BrowserTip />
           {children}
