@@ -10,6 +10,7 @@ import Watermark from "@/components/ui/Watermark";
 import { RichText } from "@/components/questions/RichText";
 import { EmphasisedText } from "./EmphasisedText";
 import { OptionBadge } from "@/components/questions/OptionBadge";
+import DiagramLightbox from "@/components/questions/DiagramLightbox";
 
 const DIFFICULTY_STYLE: Record<string, string> = {
   easy: "bg-emerald-100 text-emerald-700",
@@ -409,18 +410,7 @@ export default function QuestionQuiz({
               </div>
               {result.mediaUrl && (
                 <div className="overflow-hidden rounded-xl border border-slate-200 bg-white">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={result.mediaUrl}
-                    alt={result.mediaCaption ?? "Visual explanation"}
-                    className="w-full object-contain"
-                    loading="lazy"
-                  />
-                  {result.mediaCaption && (
-                    <p className="border-t border-slate-100 px-3 py-2 text-xs font-medium text-slate-500">
-                      📊 {result.mediaCaption}
-                    </p>
-                  )}
+                  <DiagramLightbox src={result.mediaUrl} alt={result.mediaCaption ?? "Visual explanation"} caption={result.mediaCaption} />
                 </div>
               )}
               <div>
