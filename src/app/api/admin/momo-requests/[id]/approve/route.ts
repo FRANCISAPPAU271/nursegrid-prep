@@ -4,6 +4,7 @@ import { momoPaymentRequests, subscriptions, invoices, users } from "@/db/schema
 import { and, eq } from "drizzle-orm";
 import { requireAdmin, handleApiError, ApiError } from "@/lib/api";
 import { PLAN_DETAILS, type PlanId } from "@/lib/stripe";
+import { isEmailConfigured, momoPaymentStatusEmail, sendEmail } from "@/lib/email";
 
 export async function POST(_request: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
@@ -50,7 +51,7 @@ export async function POST(_request: Request, { params }: { params: Promise<{ id
       momoReference: reqRow.momoReference,
     });
 
-    const userRows = await db.select({ premiumSince: users.premiumSince }).from(users).where(eq(users.id, reqRow.userId)).limit(1);
+    const userRows = await db.select({ premiumSince: users.premiumSince, name: users.name, email: users.email }).from(users).where(eq(users.id, reqRow.userId)).limit(1);
     await db
       .update(users)
       .set({ isPremium: true, premiumSince: userRows[0]?.premiumSince ?? new Date() })
@@ -66,6 +67,15 @@ export async function POST(_request: Request, { params }: { params: Promise<{ id
       })
       .where(eq(momoPaymentRequests.id, id))
       .returning();
+
+    if (isEmailConfigured() && userRows[0]?.email) {
+      try {
+        const message = momoPaymentStatusEmail(userRows[0].name, "approved", plan.label);
+        await sendEmail(userRows[0].email, message.subject, message.html);
+      } catch (emailError) {
+        console.error("Payment approval email failed", emailError);
+      }
+    }
 
     return NextResponse.json({ request: updatedRequest, subscription });
   } catch (error) {
