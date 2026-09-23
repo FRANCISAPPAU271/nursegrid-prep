@@ -51,7 +51,7 @@ export default function SiteFooter() {
           <p>© {YEAR} NurseGrid Prep. Built for student nurses, by nurses.</p>
           <p className="text-center sm:text-right">
             NurseGrid Prep is an independent study tool and is not affiliated with, endorsed by, or sponsored by the
-            Nursing and Midwifery Council of Ghana.
+            Nursing and Midwifery Council.
           </p>
         </div>
       </div>

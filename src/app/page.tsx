@@ -10,7 +10,7 @@ import { buildWhatsAppLink } from "@/lib/contact";
 import { QUESTION_COUNT_LABEL } from "@/lib/question-count";
 
 const TICKER_ITEMS = [
-  "🇬🇭 NMC GHANA LICENSING EXAM COVERED",
+  "NMC LICENSING EXAM COVERED",
   `🧠 ${QUESTION_COUNT_LABEL} UNIQUE QUESTIONS WITH REAL RATIONALES`,
   "💳 PAY WITH MTN MOMO OR VISA",
   "📲 WORKS OFFLINE — NO APP STORE",
@@ -114,7 +114,7 @@ export default async function HomePage() {
           <div>
             <span className="mb-6 inline-flex items-center gap-2 rounded-full border border-lime-400/40 bg-lime-400/10 px-4 py-1.5 text-[11px] font-bold uppercase tracking-widest text-lime-300">
               <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-lime-400" />
-              Built for Ghana&apos;s student nurses &amp; midwives 🇬🇭
+              Built for student nurses &amp; midwives
             </span>
             <h1 className="text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
               Your nursing PIN starts with{" "}
@@ -126,7 +126,7 @@ export default async function HomePage() {
             </h1>
             <p className="mt-6 max-w-xl text-base text-emerald-100/60 sm:text-lg">
               NurseGrid Prep is built for nurses and midwives sitting the{" "}
-              <strong className="font-bold text-emerald-50">NMC Ghana licensing exam</strong> — {QUESTION_COUNT_LABEL} unique
+              <strong className="font-bold text-emerald-50">NMC licensing exam</strong> — {QUESTION_COUNT_LABEL} unique
               exam-style questions where every rationale teaches you the{" "}
               <strong className="font-bold text-emerald-50">clinical reasoning the Council actually tests</strong>,
               plus a task manager that keeps clinicals and revision on track.{" "}
@@ -222,7 +222,7 @@ export default async function HomePage() {
             <h3 className="mt-4 text-lg font-extrabold text-slate-950">Foreign apps at foreign prices</h3>
             <p className="mt-2 text-sm text-slate-600">
               $30–$100 subscriptions built around NCLEX and other foreign exams — auto-renewing, card-only, and blind
-              to Ghana&apos;s NMC syllabus. Built for their market, not yours.
+              to the NMC syllabus. Built for their market, not yours.
             </p>
           </div>
           <div className="relative overflow-hidden rounded-3xl border border-lime-400/40 bg-[#04120d] p-7 text-emerald-50 transition hover:-translate-y-1 hover:shadow-2xl">
@@ -237,7 +237,7 @@ export default async function HomePage() {
             <h3 className="relative mt-3 text-lg font-extrabold">Reasoning-first, priced for you</h3>
             <p className="relative mt-2 text-sm text-emerald-100/60">
               Every one of our {QUESTION_COUNT_LABEL} unique questions teaches the <em>why</em> and the 20-second strategy to crack the next
-              one like it. Built around the Ghana NMC syllabus, from GH₵ 80, paid once with MoMo — never auto-billed.
+              one like it. Built around the NMC syllabus, from GH₵ 80, paid once with MoMo — never auto-billed.
             </p>
           </div>
         </div>
@@ -294,7 +294,7 @@ export default async function HomePage() {
             to your name on the register.
           </h2>
           <p className="mt-3 max-w-2xl text-emerald-100/60">
-            Nurses and midwives across Ghana using NurseGrid Prep to pass the licensing exam and earn their PIN.
+            Nurses and midwives across the region using NurseGrid Prep to pass the licensing exam and earn their PIN.
           </p>
           <div className="mt-12">
             <Testimonials />

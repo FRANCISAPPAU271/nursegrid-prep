@@ -6,7 +6,7 @@ import { QUESTION_COUNT_LABEL } from "@/lib/question-count";
 const FAQS = [
   {
     q: "What is the NMC licensing exam and how does this app help me prepare?",
-    a: "The Nursing and Midwifery Council of Ghana licensing examination is the final hurdle between nursing or midwifery school and your professional PIN. It tests clinical judgement, not just recall — which is exactly what our rationale-first questions, strategy library, Custom Exam builder, and adaptive-difficulty practice mode train you for.",
+    a: "The Nursing and Midwifery Council licensing examination is the final hurdle between nursing or midwifery school and your professional PIN. It tests clinical judgement, not just recall — which is exactly what our rationale-first questions, strategy library, Custom Exam builder, and adaptive-difficulty practice mode train you for.",
   },
   {
     q: "How many questions are included — and are they real exam questions?",
@@ -26,11 +26,11 @@ const FAQS = [
   },
   {
     q: "How can I pay?",
-    a: "You can pay with a Visa card (processed securely through Stripe) from anywhere in the world, or with MTN Mobile Money if you're in Ghana — just send payment to 0598872146 and confirm your transaction reference in the app. Our team verifies each MoMo payment and activates your account, usually within a few hours.",
+    a: "You can pay with a Visa card (processed securely through Stripe) from anywhere in the world, or with MTN Mobile Money for local users — just send payment to 0598872146 and confirm your transaction reference in the app. Our team verifies each MoMo payment and activates your account, usually within a few hours.",
   },
   {
-    q: "Is NurseGrid Prep affiliated with the Nursing and Midwifery Council of Ghana?",
-    a: "No. NurseGrid Prep is an independent study tool built to help nursing students practise exam-style reasoning. It is not affiliated with, endorsed by, or sponsored by the Nursing and Midwifery Council of Ghana or any official examination body, and our questions are original study material, not leaked exam content.",
+    q: "Is NurseGrid Prep affiliated with the Nursing and Midwifery Council?",
+    a: "No. NurseGrid Prep is an independent study tool built to help nursing students practise exam-style reasoning. It is not affiliated with, endorsed by, or sponsored by the Nursing and Midwifery Council or any official examination body, and our questions are original study material, not leaked exam content.",
   },
   {
     q: "Do you offer referral rewards?",
