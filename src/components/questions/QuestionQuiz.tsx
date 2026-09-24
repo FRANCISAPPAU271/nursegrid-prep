@@ -47,6 +47,7 @@ export default function QuestionQuiz({
   const [submitting, setSubmitting] = useState(false);
   const [score, setScore] = useState({ correct: 0, total: 0 });
   const [bookmarkBusy, setBookmarkBusy] = useState(false);
+  const [reportSent, setReportSent] = useState(false);
   const [timedMode, setTimedMode] = useState(false);
   const [timeLeft, setTimeLeft] = useState(TIMED_SECONDS);
   const [timedOut, setTimedOut] = useState(false);
@@ -197,6 +198,17 @@ export default function QuestionQuiz({
     }
   }
 
+  async function reportQuestion(reason: string) {
+    if (!current || reportSent) return;
+    try {
+      const res = await fetch(`/api/questions/${current.id}/report`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ reason }) });
+      if (!res.ok) throw new Error();
+      setReportSent(true);
+    } catch {
+      toast.push("Could not submit the report", "error");
+    }
+  }
+
   async function toggleBookmark() {
     if (!current || bookmarkBusy) return;
     setBookmarkBusy(true);
@@ -214,6 +226,7 @@ export default function QuestionQuiz({
   }
 
   async function goNext() {
+    setReportSent(false);
     setSelected(null);
     setMultiSelected([]);
     setResult(null);
@@ -416,6 +429,10 @@ export default function QuestionQuiz({
               <div>
                 <p className="text-xs font-bold uppercase tracking-wide text-emerald-700">🎯 Test-taking strategy</p>
                 <RichText text={result.strategy} className="mt-1 text-sm leading-relaxed text-slate-700" />
+              </div>
+              <div className="mt-3 flex flex-wrap items-center gap-2 border-t border-slate-200 pt-3">
+                <span className="text-xs text-slate-400">Something wrong?</span>
+                {reportSent ? <span className="text-xs font-semibold text-emerald-700">Report received — thank you.</span> : <select onChange={(e) => { if (e.target.value) void reportQuestion(e.target.value); }} defaultValue="" className="rounded-lg border border-slate-200 px-2 py-1.5 text-xs text-slate-600"><option value="">Report this question…</option><option value="incorrect">Answer may be incorrect</option><option value="unclear">Wording is unclear</option><option value="broken_diagram">Diagram is broken</option><option value="duplicate">Duplicate question</option><option value="outdated">Information may be outdated</option></select>}
               </div>
               <div className="flex items-center justify-between gap-2 pt-1">
                 <span className="text-[11px] font-medium text-slate-400 md:hidden">← Swipe left for next</span>
