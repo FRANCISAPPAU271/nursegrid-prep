@@ -145,6 +145,11 @@ export default async function HomePage() {
               >
                 I have an account
               </Link>
+  href="/sample-questions"
+  className="text-center text-sm font-bold text-lime-300 hover:text-white hover:underline"
+>
+  Try 5 free questions →
+</Link>
             </div>
             <p className="mt-5 text-xs leading-relaxed text-emerald-100/50 sm:text-sm">
               <b className="text-lime-300">3 days of full premium free</b> — every question, mock exams &amp; readiness ·
