@@ -4,7 +4,7 @@ import { cookies } from "next/headers";
 import bcrypt from "bcryptjs";
 import { db } from "@/db";
 import { sessions, users, subscriptions } from "@/db/schema";
-import { and, eq, inArray, lt } from "drizzle-orm";
+import { and, eq, inArray, lt, sql } from "drizzle-orm";
 
 export const SESSION_COOKIE = "nsm_session";
 const SESSION_DAYS = 30;
@@ -57,6 +57,23 @@ export async function createSession(userId: string, meta: SessionMeta = {}) {
     userAgent: meta.userAgent ?? null,
     ipAddress: meta.ipAddress ?? null,
   });
+
+  // Keep a short login history for account-sharing detection. This is separate
+  // from active sessions, so removing the old session does not erase evidence
+  // of repeated logins from different devices.
+  await db.execute(sql`
+    CREATE TABLE IF NOT EXISTS "login_events" (
+      "id" text PRIMARY KEY DEFAULT md5(random()::text || clock_timestamp()::text),
+      "user_id" text NOT NULL,
+      "user_agent" text,
+      "ip_address" text,
+      "created_at" timestamptz NOT NULL DEFAULT now()
+    )
+  `);
+  await db.execute(sql`
+    INSERT INTO "login_events" ("user_id", "user_agent", "ip_address")
+    VALUES (${userId}, ${meta.userAgent ?? null}, ${meta.ipAddress ?? null})
+  `);
 
   const store = await cookies();
   store.set(SESSION_COOKIE, token, {
