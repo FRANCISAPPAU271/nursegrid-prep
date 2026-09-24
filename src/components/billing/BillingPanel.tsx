@@ -24,15 +24,6 @@ function money(cents: number) {
   return `$${(cents / 100).toFixed(2)}`;
 }
 
-// Fixed GH₵ prices for the instant Paystack checkout (mirrors
-// PLAN_GHS_PESEWAS in src/lib/paystack.ts — kept in sync manually because
-// that module is server-only).
-const INSTANT_GHS: Record<PlanId, number> = { four_month: 80, eight_month: 140, annual: 200 };
-
-function approxInstantGhs(planId: PlanId): number {
-  return INSTANT_GHS[planId];
-}
-
 function fmt(d: string | null) {
   if (!d) return "—";
   return new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", year: "numeric" }).format(new Date(d));
@@ -55,14 +46,12 @@ export default function BillingPanel({
   subscriptions,
   invoices,
   stripeEnabled,
-  paystackEnabled = false,
 }: {
   isPremium: boolean;
   premiumTrialEndsAt: string | null;
   subscriptions: Subscription[];
   invoices: Invoice[];
   stripeEnabled: boolean;
-  paystackEnabled?: boolean;
 }) {
   const [pickerPlan, setPickerPlan] = useState<(typeof PLANS)[number] | null>(null);
   const [cardModalPlan, setCardModalPlan] = useState<(typeof PLANS)[number] | null>(null);
@@ -107,25 +96,6 @@ export default function BillingPanel({
       router.replace("/dashboard/billing");
     }
 
-    // Paystack redirect return: verify server-side and activate instantly.
-    const paystackReturn = searchParams.get("paystack");
-    const psReference = searchParams.get("reference") ?? searchParams.get("trxref");
-    if (paystackReturn === "1" && psReference) {
-      toast.push("Confirming your payment…", "info");
-      fetch(`/api/billing/paystack/confirm?reference=${encodeURIComponent(psReference)}`)
-        .then((res) => res.json())
-        .then((data) => {
-          if (data.ok) {
-            toast.push("Payment confirmed — full access activated instantly! 🎉", "success");
-            router.replace("/dashboard/billing");
-            router.refresh();
-          } else {
-            toast.push("Payment not completed yet. If you paid, refresh in a moment — activation is automatic.", "info");
-            router.replace("/dashboard/billing");
-          }
-        })
-        .catch(() => toast.push("We couldn't confirm your payment yet. Please refresh in a moment.", "error"));
-    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchParams]);
 
@@ -163,27 +133,6 @@ export default function BillingPanel({
     }
     setPickerPlan(null);
     setMomoModalPlan(plan);
-  }
-
-  // Instant MoMo/card checkout via Paystack: initialize server-side, then
-  // redirect to the Paystack payment page; webhook + redirect-confirm
-  // activate the plan automatically within seconds of payment.
-  async function chooseInstant(plan: (typeof PLANS)[number]) {
-    setPickerPlan(null);
-    setRedirecting(true);
-    try {
-      const res = await fetch("/api/billing/paystack/checkout", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ plan: plan.id }),
-      });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error ?? "Could not start the payment");
-      window.location.href = data.authorizationUrl;
-    } catch (err) {
-      setRedirecting(false);
-      toast.push(err instanceof Error ? err.message : "Could not start the payment", "error");
-    }
   }
 
   return (
@@ -326,9 +275,7 @@ export default function BillingPanel({
             <p className="text-sm text-slate-600">
               {pickerPlan.name} access is <span className="font-bold text-slate-900">{pickerPlan.price}</span>. Choose how you&apos;d like to pay.
             </p>
-            {/* Fallback options — shown only when instant payment is unavailable
-                (e.g. Paystack outage or key removed), so students always have
-                a way to pay. */}
+            <p className="rounded-xl bg-amber-50 px-4 py-3 text-xs leading-5 text-amber-800">Manual MTN Mobile Money payments are verified against our actual MoMo records before access is activated.</p>
             <button
               onClick={() => chooseMomo(pickerPlan)}
                   className="flex w-full items-center justify-between rounded-xl border border-slate-200 px-4 py-4 text-left hover:border-amber-400 hover:bg-amber-50/50"
