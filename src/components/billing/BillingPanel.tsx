@@ -268,29 +268,45 @@ export default function BillingPanel({
           </div>
         )}
       </div>
-
-      <Modal open={Boolean(pickerPlan)} onClose={() => setPickerPlan(null)} title={pickerPlan ? `Pay for ${pickerPlan.name} access` : ""}>
+      <Modal
+        open={Boolean(pickerPlan)}
+        onClose={() => setPickerPlan(null)}
+        title={pickerPlan ? `Pay for ${pickerPlan.name} access` : ""}
+      >
         {pickerPlan && (
           <div className="space-y-3">
             <p className="text-sm text-slate-600">
-              {pickerPlan.name} access is <span className="font-bold text-slate-900">{pickerPlan.price}</span>. Choose how you&apos;d like to pay.
+              {pickerPlan.name} access is{" "}
+              <span className="font-bold text-slate-900">
+                {pickerPlan.price}
+              </span>
+              . Choose how you&apos;d like to pay.
             </p>
-            <p className="rounded-xl bg-amber-50 px-4 py-3 text-xs leading-5 text-amber-800">Manual MTN Mobile Money payments are verified against our actual MoMo records before access is activated.</p>
-            <button
-              onClick={() => chooseMomo(pickerPlan)}
 
-                  className="flex w-full items-center justify-between rounded-xl border border-slate-200 px-4 py-4 text-left hover:border-amber-400 hover:bg-amber-50/50"
-                >
-                  <span className="flex items-center gap-3">
-                    <span className="text-2xl">ðŸ“±</span>
-                    <span>
-                      <span className="block text-sm font-bold text-slate-900">MTN Mobile Money</span>
-                      <span className="block text-xs text-slate-500">Ghana Â· send to {MOMO_RECEIVER_NUMBER} Â· verified within a few hours</span>
-                    </span>
+            <p className="rounded-xl bg-amber-50 px-4 py-3 text-xs leading-5 text-amber-800">
+              Manual MTN Mobile Money payments are verified against our actual
+              MoMo records before access is activated.
+            </p>
+
+            <button
+              type="button"
+              onClick={() => chooseMomo(pickerPlan)}
+              className="flex w-full items-center justify-between rounded-xl border border-slate-200 px-4 py-4 text-left hover:border-amber-400 hover:bg-amber-50/50"
+            >
+              <span className="flex items-center gap-3">
+                <span className="text-2xl">📱</span>
+                <span>
+                  <span className="block text-sm font-bold text-slate-900">
+                    MTN Mobile Money
                   </span>
-                  <span className="text-slate-400">â†’</span>
-                </button>
-            )}
+                  <span className="block text-xs text-slate-500">
+                    Ghana — send to {MOMO_RECEIVER_NUMBER} — verified within a
+                    few hours
+                  </span>
+                </span>
+              </span>
+              <span className="text-slate-400">→</span>
+            </button>
           </div>
         )}
       </Modal>
@@ -583,5 +599,6 @@ function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
     </div>
   );
 }
+
 
 
