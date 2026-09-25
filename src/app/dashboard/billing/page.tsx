@@ -5,7 +5,6 @@ import { desc, eq } from "drizzle-orm";
 import BillingPanel from "@/components/billing/BillingPanel";
 import type { Invoice, Subscription } from "@/lib/types";
 import { isStripeConfigured } from "@/lib/stripe";
-import { isPaystackConfigured } from "@/lib/paystack";
 import SupportCard from "@/components/contact/SupportCard";
 
 export const dynamic = "force-dynamic";
@@ -57,7 +56,6 @@ export default async function BillingPage() {
         subscriptions={subs}
         invoices={invs}
         stripeEnabled={isStripeConfigured()}
-        paystackEnabled={isPaystackConfigured()}
       />
       <div className="mt-6">
         <SupportCard message="Hi NurseGrid Prep! I need help confirming a payment on my account." />
