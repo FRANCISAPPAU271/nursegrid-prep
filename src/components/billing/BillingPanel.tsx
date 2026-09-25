@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useState } from "react";
 import type { Invoice, Subscription } from "@/lib/types";
@@ -12,20 +12,20 @@ import { QUESTION_COUNT_LABEL } from "@/lib/question-count";
 type PlanId = "four_month" | "eight_month" | "annual";
 
 const PLANS: { id: PlanId; name: string; price: string; priceCents: number; cadence: string; tag: string | null }[] = [
-  { id: "four_month", name: "4 Months", price: "GH₵ 80", priceCents: 500, cadence: "full access for 4 months", tag: null },
-  { id: "eight_month", name: "8 Months", price: "GH₵ 140", priceCents: 900, cadence: "full access for 8 months", tag: null },
-  { id: "annual", name: "1 Year", price: "GH₵ 200", priceCents: 1300, cadence: "full access for 12 months", tag: "Best value" },
+  { id: "four_month", name: "4 Months", price: "GHâ‚µ 80", priceCents: 500, cadence: "full access for 4 months", tag: null },
+  { id: "eight_month", name: "8 Months", price: "GHâ‚µ 140", priceCents: 900, cadence: "full access for 8 months", tag: null },
+  { id: "annual", name: "1 Year", price: "GHâ‚µ 200", priceCents: 1300, cadence: "full access for 12 months", tag: "Best value" },
 ];
 
 function money(cents: number) {
   // Historical USD-cent amounts map to the fixed cedi plan prices.
   const ghs: Record<number, number> = { 500: 80, 900: 140, 1300: 200 };
-  if (ghs[cents]) return `GH₵ ${ghs[cents]}`;
+  if (ghs[cents]) return `GHâ‚µ ${ghs[cents]}`;
   return `$${(cents / 100).toFixed(2)}`;
 }
 
 function fmt(d: string | null) {
-  if (!d) return "—";
+  if (!d) return "â€”";
   return new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", year: "numeric" }).format(new Date(d));
 }
 
@@ -83,7 +83,7 @@ export default function BillingPanel({
         .then((res) => res.json())
         .then((data) => {
           if (data.ok) {
-            toast.push("Payment successful — full access unlocked!", "success");
+            toast.push("Payment successful â€” full access unlocked!", "success");
             router.replace("/dashboard/billing");
             router.refresh();
           } else {
@@ -92,7 +92,7 @@ export default function BillingPanel({
         })
         .catch(() => toast.push("We couldn't confirm your payment yet. Please refresh in a moment.", "error"));
     } else if (checkout === "cancelled") {
-      toast.push("Checkout cancelled — no charge was made.", "info");
+      toast.push("Checkout cancelled â€” no charge was made.", "info");
       router.replace("/dashboard/billing");
     }
 
@@ -128,7 +128,7 @@ export default function BillingPanel({
   function chooseMomo(plan: (typeof PLANS)[number]) {
     if (pendingMomoRequest) {
       setPickerPlan(null);
-      toast.push("You already have a MoMo payment under review — please wait for it to be verified first.", "info");
+      toast.push("You already have a MoMo payment under review â€” please wait for it to be verified first.", "info");
       return;
     }
     setPickerPlan(null);
@@ -140,15 +140,15 @@ export default function BillingPanel({
       {!stripeEnabled && (
         <div className="rounded-xl border border-dashed border-slate-300 bg-slate-50 px-4 py-3 text-xs text-slate-500">
           Card payments are running in demo checkout mode. Add a <code className="rounded bg-slate-200 px-1 py-0.5">STRIPE_SECRET_KEY</code>{" "}
-          environment variable to accept real Visa/card payments via Stripe Checkout — no code changes needed.
+          environment variable to accept real Visa/card payments via Stripe Checkout â€” no code changes needed.
         </div>
       )}
 
       {isTrialOnly && (
         <div className="rounded-2xl border border-amber-200 bg-amber-50 p-5">
-          <p className="text-sm font-bold text-amber-800">🎁 Free premium trial active</p>
+          <p className="text-sm font-bold text-amber-800">ðŸŽ Free premium trial active</p>
           <p className="mt-1 text-sm text-amber-700">
-            You have full premium access — every question, mock exams, readiness and more — until {fmt(premiumTrialEndsAt)}.
+            You have full premium access â€” every question, mock exams, readiness and more â€” until {fmt(premiumTrialEndsAt)}.
             Choose a plan below anytime to keep access after it ends.
           </p>
         </div>
@@ -156,20 +156,20 @@ export default function BillingPanel({
 
       {pendingMomoRequest && (
         <div className="rounded-2xl border border-amber-200 bg-amber-50 p-5">
-          <p className="text-sm font-bold text-amber-800">⏳ MTN Mobile Money payment under review</p>
+          <p className="text-sm font-bold text-amber-800">â³ MTN Mobile Money payment under review</p>
           <p className="mt-1 text-sm text-amber-700">
             We received your payment submission ({planLabel(pendingMomoRequest.plan)}) on {fmt(pendingMomoRequest.createdAt)}. We&apos;re
-            verifying it against our MoMo records — access is activated <b>within 1 hour, usually within minutes</b>.
+            verifying it against our MoMo records â€” access is activated <b>within 1 hour, usually within minutes</b>.
           </p>
           <a
             href={buildWhatsAppLink(
-              `Hi NurseGrid Prep! I submitted a MoMo payment for the ${planLabel(pendingMomoRequest.plan)} plan and I'd love a quick activation. Thank you! 🙏`,
+              `Hi NurseGrid Prep! I submitted a MoMo payment for the ${planLabel(pendingMomoRequest.plan)} plan and I'd love a quick activation. Thank you! ðŸ™`,
             )}
             target="_blank"
             rel="noopener noreferrer"
             className="mt-3 inline-block rounded-xl bg-amber-500 px-4 py-2 text-xs font-bold text-white transition hover:bg-amber-600"
           >
-            💬 Nudge the admin on WhatsApp ({WHATSAPP_DISPLAY_NUMBER})
+            ðŸ’¬ Nudge the admin on WhatsApp ({WHATSAPP_DISPLAY_NUMBER})
           </a>
         </div>
       )}
@@ -180,7 +180,7 @@ export default function BillingPanel({
             <p className="text-sm font-semibold text-slate-500">Current plan</p>
             <p className="mt-1 text-lg font-extrabold text-slate-950">
               {isPremium
-                ? `Full Access${activeSub ? ` · ${planLabel(activeSub.plan)} · via ${paymentMethodLabel(activeSub.paymentMethod)}` : " · free trial"}`
+                ? `Full Access${activeSub ? ` Â· ${planLabel(activeSub.plan)} Â· via ${paymentMethodLabel(activeSub.paymentMethod)}` : " Â· free trial"}`
                 : "Free"}
             </p>
             {activeSub?.currentPeriodEnd && (
@@ -208,23 +208,23 @@ export default function BillingPanel({
               <p className="mt-3 text-3xl font-extrabold text-slate-950">{plan.price}</p>
               <p className="mt-1 text-sm text-slate-600">{plan.cadence}</p>
               <ul className="mt-4 space-y-1.5 text-sm text-slate-600">
-                <li>✅ Unlimited access to all {QUESTION_COUNT_LABEL} unique questions</li>
-                <li>✅ Full rationales and strategy tips</li>
-                <li>✅ Progress tracking across every category</li>
+                <li>âœ… Unlimited access to all {QUESTION_COUNT_LABEL} unique questions</li>
+                <li>âœ… Full rationales and strategy tips</li>
+                <li>âœ… Progress tracking across every category</li>
               </ul>
               <button
                 onClick={() => setPickerPlan(plan)}
                 disabled={redirecting}
                 className="mt-5 rounded-xl bg-emerald-600 px-6 py-3 text-base font-bold text-white shadow-lg shadow-emerald-200 hover:bg-emerald-700 disabled:opacity-70"
               >
-                {redirecting ? "Redirecting…" : `Choose ${plan.name} — ${plan.price}`}
+                {redirecting ? "Redirectingâ€¦" : `Choose ${plan.name} â€” ${plan.price}`}
               </button>
             </div>
           ))}
         </div>
         <div className="mt-4 flex flex-wrap items-center gap-3 text-xs font-medium text-slate-500">
-          <span className="flex items-center gap-1.5 rounded-full bg-slate-100 px-3 py-1.5">💳 Visa Card (worldwide)</span>
-          <span className="flex items-center gap-1.5 rounded-full bg-amber-100 px-3 py-1.5 text-amber-800">📱 MTN Mobile Money (Ghana)</span>
+          <span className="flex items-center gap-1.5 rounded-full bg-slate-100 px-3 py-1.5">ðŸ’³ Visa Card (worldwide)</span>
+          <span className="flex items-center gap-1.5 rounded-full bg-amber-100 px-3 py-1.5 text-amber-800">ðŸ“± MTN Mobile Money (Ghana)</span>
         </div>
       </div>
 
@@ -275,68 +275,20 @@ export default function BillingPanel({
             <p className="text-sm text-slate-600">
               {pickerPlan.name} access is <span className="font-bold text-slate-900">{pickerPlan.price}</span>. Choose how you&apos;d like to pay.
             </p>
-<<<<<<< ours
-            {paystackEnabled && (
-              <button
-                onClick={() => chooseInstant(pickerPlan)}
-                disabled={redirecting}
-                className="flex w-full items-center justify-between rounded-xl border-2 border-emerald-400 bg-gradient-to-r from-emerald-50 to-teal-50 px-4 py-4 text-left transition hover:border-emerald-500 hover:shadow-md disabled:opacity-60"
-              >
-                <span className="flex items-center gap-3">
-                  <span className="text-2xl">⚡</span>
-                  <span>
-                    <span className="flex items-center gap-2 text-sm font-bold text-slate-900">
-                      Pay with MoMo or Card
-                      <span className="rounded-full bg-emerald-600 px-2 py-0.5 text-[10px] font-bold text-white">INSTANT</span>
-                    </span>
-                    <span className="block text-xs text-slate-500">
-                      GH₵ {approxInstantGhs(pickerPlan.id)} · secure checkout · activated in seconds
-                    </span>
-                  </span>
-                </span>
-                <span className="text-emerald-500">→</span>
-              </button>
-            )}
-            {paystackEnabled && (
-              <p className="text-center text-[11px] text-slate-400">
-                {redirecting ? "Opening secure checkout…" : "You'll approve the payment on your phone — access unlocks automatically."}
-              </p>
-            )}
-            {/* Fallback options — shown only when instant payment is unavailable
-                (e.g. Paystack outage or key removed), so students always have
-                a way to pay. */}
-            {!paystackEnabled && (
-              <>
-                <button
-                  onClick={() => chooseVisa(pickerPlan)}
-                  className="flex w-full items-center justify-between rounded-xl border border-slate-200 px-4 py-4 text-left hover:border-emerald-400 hover:bg-emerald-50/50"
-                >
-                  <span className="flex items-center gap-3">
-                    <span className="text-2xl">💳</span>
-                    <span>
-                      <span className="block text-sm font-bold text-slate-900">Visa Card</span>
-                      <span className="block text-xs text-slate-500">Outside Ghana · instant activation</span>
-                    </span>
-                  </span>
-                  <span className="text-slate-400">→</span>
-                </button>
-                <button
-                  onClick={() => chooseMomo(pickerPlan)}
-=======
             <p className="rounded-xl bg-amber-50 px-4 py-3 text-xs leading-5 text-amber-800">Manual MTN Mobile Money payments are verified against our actual MoMo records before access is activated.</p>
             <button
               onClick={() => chooseMomo(pickerPlan)}
->>>>>>> theirs
+
                   className="flex w-full items-center justify-between rounded-xl border border-slate-200 px-4 py-4 text-left hover:border-amber-400 hover:bg-amber-50/50"
                 >
                   <span className="flex items-center gap-3">
-                    <span className="text-2xl">📱</span>
+                    <span className="text-2xl">ðŸ“±</span>
                     <span>
                       <span className="block text-sm font-bold text-slate-900">MTN Mobile Money</span>
-                      <span className="block text-xs text-slate-500">Ghana · send to {MOMO_RECEIVER_NUMBER} · verified within a few hours</span>
+                      <span className="block text-xs text-slate-500">Ghana Â· send to {MOMO_RECEIVER_NUMBER} Â· verified within a few hours</span>
                     </span>
                   </span>
-                  <span className="text-slate-400">→</span>
+                  <span className="text-slate-400">â†’</span>
                 </button>
               </>
             )}
@@ -377,7 +329,7 @@ function CardCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Payment failed");
-      toast.push("Payment successful — full access unlocked!", "success");
+      toast.push("Payment successful â€” full access unlocked!", "success");
       onClose();
       router.refresh();
     } catch (err) {
@@ -390,7 +342,7 @@ function CardCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
   return (
     <form onSubmit={submit} className="space-y-4">
       <p className="rounded-lg bg-slate-50 px-3 py-2 text-xs text-slate-500">
-        Demo checkout — this simulates a card payment. Any card number works except 16 zeros.
+        Demo checkout â€” this simulates a card payment. Any card number works except 16 zeros.
       </p>
       {error && <div className="rounded-lg bg-rose-50 px-4 py-3 text-sm font-medium text-rose-700">{error}</div>}
       <div className="flex items-center justify-between rounded-lg bg-emerald-50 px-4 py-3">
@@ -448,7 +400,7 @@ function CardCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
           disabled={loading}
           className="rounded-lg bg-emerald-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-emerald-700 disabled:opacity-70"
         >
-          {loading ? "Processing…" : `Pay ${plan.price}`}
+          {loading ? "Processingâ€¦" : `Pay ${plan.price}`}
         </button>
       </div>
     </form>
@@ -471,7 +423,7 @@ function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {
-      toast.push("Could not copy — please copy manually", "error");
+      toast.push("Could not copy â€” please copy manually", "error");
     }
   }
 
@@ -502,28 +454,28 @@ function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
   if (submitted) {
     const notifyMessage =
       `Hi NurseGrid Prep! I just paid for the ${plan.name} plan via MTN MoMo.\n` +
-      `• Amount: ${plan.price}\n` +
-      `• From MoMo number: ${momoNumber}\n` +
-      `• Transaction ref: ${momoReference}\n` +
-      `Please activate my account. Thank you! 🙏`;
+      `â€¢ Amount: ${plan.price}\n` +
+      `â€¢ From MoMo number: ${momoNumber}\n` +
+      `â€¢ Transaction ref: ${momoReference}\n` +
+      `Please activate my account. Thank you! ðŸ™`;
     return (
       <div className="space-y-4">
         <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-5 text-center">
-          <div className="text-4xl">✅</div>
+          <div className="text-4xl">âœ…</div>
           <p className="mt-2 text-base font-extrabold text-emerald-900">Payment submitted!</p>
           <p className="mt-1 text-sm text-emerald-800">
-            {plan.name} plan · ref <span className="font-mono font-bold">{momoReference}</span>
+            {plan.name} plan Â· ref <span className="font-mono font-bold">{momoReference}</span>
           </p>
           <p className="mt-2 text-sm text-emerald-800">
-            Your access is activated <b>within 1 hour — usually within minutes</b> once we match your reference against
+            Your access is activated <b>within 1 hour â€” usually within minutes</b> once we match your reference against
             our MoMo records.
           </p>
         </div>
 
         <div className="rounded-2xl border border-slate-200 bg-white p-4">
-          <p className="text-sm font-bold text-slate-900">⚡ Want it activated faster?</p>
+          <p className="text-sm font-bold text-slate-900">âš¡ Want it activated faster?</p>
           <p className="mt-1 text-xs text-slate-500">
-            Tap below to notify the admin on WhatsApp right now — your payment details are pre-filled, just press send.
+            Tap below to notify the admin on WhatsApp right now â€” your payment details are pre-filled, just press send.
           </p>
           <a
             href={buildWhatsAppLink(notifyMessage)}
@@ -531,7 +483,7 @@ function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
             rel="noopener noreferrer"
             className="mt-3 block rounded-xl bg-emerald-600 px-4 py-3 text-center text-sm font-bold text-white shadow-sm transition hover:bg-emerald-700"
           >
-            💬 Notify admin on WhatsApp →
+            ðŸ’¬ Notify admin on WhatsApp â†’
           </a>
         </div>
 
@@ -551,7 +503,7 @@ function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
   return (
     <div className="space-y-4">
       <div className="rounded-xl bg-amber-50 p-4">
-        <p className="text-sm font-bold text-amber-900">Step 1 — Send payment</p>
+        <p className="text-sm font-bold text-amber-900">Step 1 â€” Send payment</p>
         <p className="mt-1 text-sm text-amber-800">
           Send <span className="font-bold">{plan.price}</span> via MTN Mobile Money for {plan.name} access to:
         </p>
@@ -569,17 +521,17 @@ function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
           </button>
         </div>
         <p className="mt-3 text-xs text-amber-700">
-          Dial <span className="font-mono">*170#</span> → Transfer Money → Mobile Money User → enter the number above → enter the amount →
+          Dial <span className="font-mono">*170#</span> â†’ Transfer Money â†’ Mobile Money User â†’ enter the number above â†’ enter the amount â†’
           confirm with your MoMo PIN. Or use the MyMTN / MoMo app.
         </p>
       </div>
 
       <form onSubmit={submit} className="space-y-4">
         <div>
-          <p className="text-sm font-bold text-slate-900">Step 2 — Submit for verification</p>
+          <p className="text-sm font-bold text-slate-900">Step 2 â€” Submit for verification</p>
           <p className="mt-1 text-xs text-slate-500">
             We check your transaction reference against our MoMo records and activate your access{" "}
-            <b>within 1 hour — usually within minutes</b>. After submitting, you can notify the admin on WhatsApp with one tap.
+            <b>within 1 hour â€” usually within minutes</b>. After submitting, you can notify the admin on WhatsApp with one tap.
           </p>
         </div>
         {error && <div className="rounded-lg bg-rose-50 px-4 py-3 text-sm font-medium text-rose-700">{error}</div>}
@@ -613,7 +565,7 @@ function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
             disabled={loading}
             className="rounded-lg bg-amber-500 px-4 py-2 text-sm font-bold text-white shadow-sm hover:bg-amber-600 disabled:opacity-70"
           >
-            {loading ? "Submitting…" : "I've paid — submit for review"}
+            {loading ? "Submittingâ€¦" : "I've paid â€” submit for review"}
           </button>
         </div>
       </form>
@@ -632,3 +584,4 @@ function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
     </div>
   );
 }
+
