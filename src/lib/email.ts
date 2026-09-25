@@ -122,6 +122,19 @@ export function subscriptionExpiringEmail(
   };
 }
 
+export function momoPaymentStatusEmail(name: string, status: "approved" | "rejected", plan: string, note?: string): { subject: string; html: string } {
+  const approved = status === "approved";
+  return {
+    subject: approved ? "✅ Your NurseGrid payment was approved" : "⚠️ Your NurseGrid payment needs attention",
+    html: layout(`
+      <h1 style="font-size:20px;">${approved ? "Payment approved" : "Payment needs attention"}</h1>
+      <p>Hi ${name || "there"},</p>
+      <p>Your MTN MoMo payment request for the <b>${plan}</b> plan was <b>${approved ? "approved" : "not approved"}</b>.</p>
+      ${approved ? `<p>Your full study access is now active. You can continue practising all ${QUESTION_COUNT_LABEL} questions.</p>${button(`${APP_URL}/dashboard/questions`, "Continue studying")}` : `<p>${note || "Please check your transaction reference and contact support if you believe this was a mistake."}</p>${button(`${APP_URL}/dashboard/billing`, "Open billing")}`}
+    `),
+  };
+}
+
 export async function sendPasswordResetEmail(to: string, name: string, resetUrl: string) {
   await sendEmail(
     to,

@@ -113,9 +113,7 @@ export default async function OverviewPage() {
     if (ms > 0) trialDaysLeft = Math.ceil(ms / (24 * 60 * 60 * 1000));
   }
 
-  const communityLink = buildWhatsAppLink(
-    "Hi NurseGrid Prep! I'd like to join the student study community.",
-  );
+  const communityLink = "https://chat.whatsapp.com/Gz8GSdk2mSz7eIdHcMSEUb";
   const testimonialLink = buildWhatsAppLink(
     "Hi NurseGrid Prep! I passed my NMC exam and I'd love to share my story: ",
   );

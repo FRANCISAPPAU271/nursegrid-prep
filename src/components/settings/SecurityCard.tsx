@@ -27,15 +27,15 @@ function describeDevice(userAgent: string | null): string {
 
 export default function SecurityCard() {
   const [session, setSession] = useState<{ userAgent: string | null; createdAt: string } | null>(null);
+  const [activity, setActivity] = useState<{ userAgent: string | null; ipAddress: string | null; createdAt: string }[]>([]);
   const [loading, setLoading] = useState(true);
   const [signingOut, setSigningOut] = useState(false);
   const toast = useToast();
   const router = useRouter();
 
   useEffect(() => {
-    fetch("/api/me/session")
-      .then((res) => res.json())
-      .then((data) => setSession(data.session))
+    Promise.all([fetch("/api/me/session").then((res) => res.json()), fetch("/api/me/login-activity").then((res) => res.json())])
+      .then(([sessionData, activityData]) => { setSession(sessionData.session); setActivity(activityData.activity ?? []); })
       .finally(() => setLoading(false));
   }, []);
 
@@ -84,6 +84,19 @@ export default function SecurityCard() {
           <p className="text-sm text-slate-500">No active session information available.</p>
         )}
       </div>
+      {activity.length > 0 && (
+        <div className="mt-4">
+          <p className="text-xs font-bold uppercase tracking-wide text-slate-500">Recent sign-ins</p>
+          <ul className="mt-2 space-y-2">
+            {activity.slice(0, 5).map((event, index) => (
+              <li key={`${event.createdAt}-${index}`} className="flex items-center justify-between gap-3 text-xs text-slate-600">
+                <span>{describeDevice(event.userAgent)}{event.ipAddress ? ` · ${event.ipAddress}` : ""}</span>
+                <span className="shrink-0 text-slate-400">{new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }).format(new Date(event.createdAt))}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </div>
   );
 }

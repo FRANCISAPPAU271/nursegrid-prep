@@ -80,6 +80,18 @@ export default function Sidebar({
             <div className="my-2 border-t border-slate-800" />
             <p className="px-3 pb-1 pt-1 text-[11px] font-bold uppercase tracking-wide text-slate-500">Admin</p>
             <Link
+              href="/dashboard/admin/analytics"
+              onClick={() => setOpen(false)}
+              className={`flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition ${
+                pathname.startsWith("/dashboard/admin/analytics")
+                  ? "bg-emerald-600 text-white"
+                  : "text-slate-300 hover:bg-slate-800 hover:text-white"
+              }`}
+            >
+              <span className="text-base">📊</span>
+              Analytics
+            </Link>
+            <Link
               href="/dashboard/admin/payments"
               onClick={() => setOpen(false)}
               className={`flex items-center justify-between gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition ${
@@ -109,6 +121,30 @@ export default function Sidebar({
             >
               <span className="text-base">📝</span>
               Upload Questions
+            </Link>
+            <Link
+              href="/dashboard/admin/health"
+              onClick={() => setOpen(false)}
+              className={`flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition ${
+                pathname.startsWith("/dashboard/admin/health")
+                  ? "bg-emerald-600 text-white"
+                  : "text-slate-300 hover:bg-slate-800 hover:text-white"
+              }`}
+            >
+              <span className="text-base">♥</span>
+              System Health
+            </Link>
+            <Link
+              href="/dashboard/admin/reports"
+              onClick={() => setOpen(false)}
+              className={`flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition ${
+                pathname.startsWith("/dashboard/admin/reports")
+                  ? "bg-emerald-600 text-white"
+                  : "text-slate-300 hover:bg-slate-800 hover:text-white"
+              }`}
+            >
+              <span className="text-base">⚑</span>
+              Question Reports
             </Link>
             <Link
               href="/dashboard/admin/most-missed"

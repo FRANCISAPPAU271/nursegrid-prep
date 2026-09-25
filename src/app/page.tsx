@@ -143,7 +143,13 @@ export default async function HomePage() {
                 href="/login"
                 className="rounded-2xl border-2 border-emerald-50/25 px-7 py-4 text-center text-base font-bold text-emerald-50 transition hover:border-lime-400 hover:text-lime-300"
               >
-                I have an account
+                              I have an account
+              </Link>
+              <Link
+                href="/sample-questions"
+                className="text-center text-sm font-bold text-lime-300 hover:text-white hover:underline"
+              >
+                Try 5 free questions →
               </Link>
             </div>
             <p className="mt-5 text-xs leading-relaxed text-emerald-100/50 sm:text-sm">
