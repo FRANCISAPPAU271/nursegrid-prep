@@ -290,7 +290,6 @@ export default function BillingPanel({
                   </span>
                   <span className="text-slate-400">â†’</span>
                 </button>
-              </>
             )}
           </div>
         )}
@@ -584,4 +583,5 @@ function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
     </div>
   );
 }
+
 
