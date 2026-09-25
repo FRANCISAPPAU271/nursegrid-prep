@@ -1,0 +1,119 @@
+diff --git a/src/app/api/questions/[id]/report/route.ts b/src/app/api/questions/[id]/report/route.ts
+new file mode 100644
+index 0000000..34716cc
+--- /dev/null
++++ b/src/app/api/questions/[id]/report/route.ts
+@@ -0,0 +1,21 @@
++import { NextResponse } from "next/server";
++import { z } from "zod";
++import { sql } from "drizzle-orm";
++import { db } from "@/db";
++import { requireStudyAccess, handleApiError } from "@/lib/api";
++
++const schema = z.object({ reason: z.enum(["incorrect", "unclear", "broken_diagram", "duplicate", "outdated"]) });
++
++export async function POST(request: Request, { params }: { params: Promise<{ id: string }> }) {
++  try {
++    const user = await requireStudyAccess();
++    const { id } = await params;
++    const { reason } = schema.parse(await request.json());
++    await db.execute(sql`CREATE TABLE IF NOT EXISTS "question_reports" ("id" text PRIMARY KEY DEFAULT md5(random()::text || clock_timestamp()::text), "question_id" text NOT NULL, "user_id" text NOT NULL, "reason" text NOT NULL, "status" text NOT NULL DEFAULT 'open', "created_at" timestamptz NOT NULL DEFAULT now(), "resolved_at" timestamptz)`);
++    await db.execute(sql`INSERT INTO "question_reports" ("question_id", "user_id", "reason") SELECT ${id}, ${user.id}, ${reason} WHERE NOT EXISTS (SELECT 1 FROM "question_reports" WHERE "question_id" = ${id} AND "user_id" = ${user.id} AND "status" = 'open')`);
++    return NextResponse.json({ ok: true });
++  } catch (error) {
++    if (error instanceof z.ZodError) return NextResponse.json({ error: "Invalid report reason" }, { status: 422 });
++    return handleApiError(error);
++  }
++}
+diff --git a/src/app/dashboard/admin/reports/page.tsx b/src/app/dashboard/admin/reports/page.tsx
+new file mode 100644
+index 0000000..073389c
+--- /dev/null
++++ b/src/app/dashboard/admin/reports/page.tsx
+@@ -0,0 +1,14 @@
++import { redirect } from "next/navigation";
++import { sql } from "drizzle-orm";
++import { db } from "@/db";
++import { getCurrentUser } from "@/lib/auth";
++
++export const dynamic = "force-dynamic";
++
++export default async function AdminReportsPage() {
++  const user = await getCurrentUser();
++  if (!user) redirect("/login");
++  if (!user.isAdmin) redirect("/dashboard");
++  const rows = await db.execute(sql`SELECT r."id", r."question_id" AS "questionId", r."reason", r."status", r."created_at" AS "createdAt", u."email" FROM "question_reports" r INNER JOIN "users" u ON u."id" = r."user_id" ORDER BY r."created_at" DESC LIMIT 100`);
++  return <div><div className="mb-6"><h1 className="text-2xl font-extrabold tracking-tight text-slate-950">Question reports</h1><p className="mt-1 text-slate-600">Review student feedback on unclear, incorrect or outdated questions.</p></div><div className="overflow-hidden rounded-2xl border border-slate-200 bg-white"><div className="overflow-x-auto"><table className="w-full text-left text-sm"><thead className="bg-slate-50 text-xs uppercase tracking-wide text-slate-500"><tr><th className="px-4 py-3">Question</th><th className="px-4 py-3">Reason</th><th className="px-4 py-3">Reported by</th><th className="px-4 py-3">Status</th><th className="px-4 py-3">Date</th></tr></thead><tbody>{rows.rows.map((row) => { const r = row as { id: string; questionId: string; reason: string; status: string; email: string; createdAt: string }; return <tr key={r.id} className="border-t border-slate-100"><td className="max-w-[180px] truncate px-4 py-3 font-mono text-xs text-slate-500">{r.questionId}</td><td className="px-4 py-3 capitalize text-slate-700">{r.reason.replaceAll("_", " ")}</td><td className="px-4 py-3 text-slate-600">{r.email}</td><td className="px-4 py-3"><span className="rounded-full bg-amber-100 px-2 py-1 text-xs font-bold text-amber-700">{r.status}</span></td><td className="px-4 py-3 text-xs text-slate-500">{new Date(r.createdAt).toLocaleString()}</td></tr>; })}</tbody></table></div>{rows.rows.length === 0 && <p className="p-8 text-center text-sm text-slate-500">No question reports yet.</p>}</div></div>;
++}
+diff --git a/src/components/dashboard/Sidebar.tsx b/src/components/dashboard/Sidebar.tsx
+index 0904b8a..39e652e 100644
+--- a/src/components/dashboard/Sidebar.tsx
++++ b/src/components/dashboard/Sidebar.tsx
+@@ -123,6 +123,18 @@ export default function Sidebar({
+               <span className="text-base">📝</span>
+               Upload Questions
+             </Link>
++            <Link
++              href="/dashboard/admin/reports"
++              onClick={() => setOpen(false)}
++              className={`flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition ${
++                pathname.startsWith("/dashboard/admin/reports")
++                  ? "bg-emerald-600 text-white"
++                  : "text-slate-300 hover:bg-slate-800 hover:text-white"
++              }`}
++            >
++              <span className="text-base">⚑</span>
++              Question Reports
++            </Link>
+             <Link
+               href="/dashboard/admin/most-missed"
+               onClick={() => setOpen(false)}
+diff --git a/src/components/questions/QuestionQuiz.tsx b/src/components/questions/QuestionQuiz.tsx
+index 0e6b052..5258e5a 100644
+--- a/src/components/questions/QuestionQuiz.tsx
++++ b/src/components/questions/QuestionQuiz.tsx
+@@ -47,6 +47,7 @@ export default function QuestionQuiz({
+   const [submitting, setSubmitting] = useState(false);
+   const [score, setScore] = useState({ correct: 0, total: 0 });
+   const [bookmarkBusy, setBookmarkBusy] = useState(false);
++  const [reportSent, setReportSent] = useState(false);
+   const [timedMode, setTimedMode] = useState(false);
+   const [timeLeft, setTimeLeft] = useState(TIMED_SECONDS);
+   const [timedOut, setTimedOut] = useState(false);
+@@ -197,6 +198,17 @@ export default function QuestionQuiz({
+     }
+   }
+ 
++  async function reportQuestion(reason: string) {
++    if (!current || reportSent) return;
++    try {
++      const res = await fetch(`/api/questions/${current.id}/report`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ reason }) });
++      if (!res.ok) throw new Error();
++      setReportSent(true);
++    } catch {
++      toast.push("Could not submit the report", "error");
++    }
++  }
++
+   async function toggleBookmark() {
+     if (!current || bookmarkBusy) return;
+     setBookmarkBusy(true);
+@@ -214,6 +226,7 @@ export default function QuestionQuiz({
+   }
+ 
+   async function goNext() {
++    setReportSent(false);
+     setSelected(null);
+     setMultiSelected([]);
+     setResult(null);
+@@ -417,6 +430,10 @@ export default function QuestionQuiz({
+                 <p className="text-xs font-bold uppercase tracking-wide text-emerald-700">🎯 Test-taking strategy</p>
+                 <RichText text={result.strategy} className="mt-1 text-sm leading-relaxed text-slate-700" />
+               </div>
++              <div className="mt-3 flex flex-wrap items-center gap-2 border-t border-slate-200 pt-3">
++                <span className="text-xs text-slate-400">Something wrong?</span>
++                {reportSent ? <span className="text-xs font-semibold text-emerald-700">Report received — thank you.</span> : <select onChange={(e) => { if (e.target.value) void reportQuestion(e.target.value); }} defaultValue="" className="rounded-lg border border-slate-200 px-2 py-1.5 text-xs text-slate-600"><option value="">Report this question…</option><option value="incorrect">Answer may be incorrect</option><option value="unclear">Wording is unclear</option><option value="broken_diagram">Diagram is broken</option><option value="duplicate">Duplicate question</option><option value="outdated">Information may be outdated</option></select>}
++              </div>
+               <div className="flex items-center justify-between gap-2 pt-1">
+                 <span className="text-[11px] font-medium text-slate-400 md:hidden">← Swipe left for next</span>
+                 <button

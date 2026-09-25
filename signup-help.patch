@@ -1,0 +1,32 @@
+diff --git a/src/app/signup/page.tsx b/src/app/signup/page.tsx
+index 90daf19..537fe90 100644
+--- a/src/app/signup/page.tsx
++++ b/src/app/signup/page.tsx
+@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
+ import { getCurrentUser } from "@/lib/auth";
+ import { isSmsConfigured } from "@/lib/sms";
+ import SignupForm from "@/components/auth/SignupForm";
++import { buildWhatsAppLink } from "@/lib/contact";
+ 
+ export default async function SignupPage({
+   searchParams,
+@@ -34,6 +35,19 @@ export default async function SignupPage({
+           <div className="mt-6">
+             <SignupForm defaultReferralCode={ref ?? ""} otpEnabled={isSmsConfigured()} />
+           </div>
++          <div className="mt-6 rounded-xl border border-emerald-100 bg-emerald-50 p-4">
++            <p className="text-sm font-bold text-emerald-900">Registration takes about 2 minutes</p>
++            <ol className="mt-2 space-y-1 text-xs leading-5 text-emerald-800">
++              <li><b>1.</b> Enter your name, email and password.</li>
++              <li><b>2.</b> Choose a security question and remember your answer.</li>
++              <li><b>3.</b> Verify your phone if SMS verification appears.</li>
++              <li><b>4.</b> Start your 48-hour free access.</li>
++            </ol>
++            <div className="mt-3 flex flex-wrap gap-3 text-xs font-bold">
++              <Link href="/sample-questions" className="text-emerald-700 hover:underline">Try sample questions</Link>
++              <a href={buildWhatsAppLink("Hi NurseGrid Prep! I am having trouble registering for an account.")} target="_blank" rel="noopener noreferrer" className="text-emerald-700 hover:underline">Need help? WhatsApp support</a>
++            </div>
++          </div>
+         </div>
+       </div>
+     </main>
