@@ -1,0 +1,119 @@
+diff --git a/src/app/page.tsx b/src/app/page.tsx
+index f22026a..2945c18 100644
+--- a/src/app/page.tsx
++++ b/src/app/page.tsx
+@@ -10,7 +10,7 @@ import { buildWhatsAppLink } from "@/lib/contact";
+ import { QUESTION_COUNT_LABEL } from "@/lib/question-count";
+ 
+ const TICKER_ITEMS = [
+-  "🇬🇭 NMC GHANA LICENSING EXAM COVERED",
++  "NMC LICENSING EXAM COVERED",
+   `🧠 ${QUESTION_COUNT_LABEL} UNIQUE QUESTIONS WITH REAL RATIONALES`,
+   "💳 PAY WITH MTN MOMO OR VISA",
+   "📲 WORKS OFFLINE — NO APP STORE",
+@@ -114,7 +114,7 @@ export default async function HomePage() {
+           <div>
+             <span className="mb-6 inline-flex items-center gap-2 rounded-full border border-lime-400/40 bg-lime-400/10 px-4 py-1.5 text-[11px] font-bold uppercase tracking-widest text-lime-300">
+               <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-lime-400" />
+-              Built for Ghana&apos;s student nurses &amp; midwives 🇬🇭
++              Built for student nurses &amp; midwives
+             </span>
+             <h1 className="text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
+               Your nursing PIN starts with{" "}
+@@ -126,7 +126,7 @@ export default async function HomePage() {
+             </h1>
+             <p className="mt-6 max-w-xl text-base text-emerald-100/60 sm:text-lg">
+               NurseGrid Prep is built for nurses and midwives sitting the{" "}
+-              <strong className="font-bold text-emerald-50">NMC Ghana licensing exam</strong> — {QUESTION_COUNT_LABEL} unique
++              <strong className="font-bold text-emerald-50">NMC licensing exam</strong> — {QUESTION_COUNT_LABEL} unique
+               exam-style questions where every rationale teaches you the{" "}
+               <strong className="font-bold text-emerald-50">clinical reasoning the Council actually tests</strong>,
+               plus a task manager that keeps clinicals and revision on track.{" "}
+@@ -222,7 +222,7 @@ export default async function HomePage() {
+             <h3 className="mt-4 text-lg font-extrabold text-slate-950">Foreign apps at foreign prices</h3>
+             <p className="mt-2 text-sm text-slate-600">
+               $30–$100 subscriptions built around NCLEX and other foreign exams — auto-renewing, card-only, and blind
+-              to Ghana&apos;s NMC syllabus. Built for their market, not yours.
++              to the NMC syllabus. Built for their market, not yours.
+             </p>
+           </div>
+           <div className="relative overflow-hidden rounded-3xl border border-lime-400/40 bg-[#04120d] p-7 text-emerald-50 transition hover:-translate-y-1 hover:shadow-2xl">
+@@ -237,7 +237,7 @@ export default async function HomePage() {
+             <h3 className="relative mt-3 text-lg font-extrabold">Reasoning-first, priced for you</h3>
+             <p className="relative mt-2 text-sm text-emerald-100/60">
+               Every one of our {QUESTION_COUNT_LABEL} unique questions teaches the <em>why</em> and the 20-second strategy to crack the next
+-              one like it. Built around the Ghana NMC syllabus, from GH₵ 80, paid once with MoMo — never auto-billed.
++              one like it. Built around the NMC syllabus, from GH₵ 80, paid once with MoMo — never auto-billed.
+             </p>
+           </div>
+         </div>
+@@ -294,7 +294,7 @@ export default async function HomePage() {
+             to your name on the register.
+           </h2>
+           <p className="mt-3 max-w-2xl text-emerald-100/60">
+-            Nurses and midwives across Ghana using NurseGrid Prep to pass the licensing exam and earn their PIN.
++            Nurses and midwives across the region using NurseGrid Prep to pass the licensing exam and earn their PIN.
+           </p>
+           <div className="mt-12">
+             <Testimonials />
+diff --git a/src/components/marketing/Faq.tsx b/src/components/marketing/Faq.tsx
+index 474e3a5..f29082f 100644
+--- a/src/components/marketing/Faq.tsx
++++ b/src/components/marketing/Faq.tsx
+@@ -6,7 +6,7 @@ import { QUESTION_COUNT_LABEL } from "@/lib/question-count";
+ const FAQS = [
+   {
+     q: "What is the NMC licensing exam and how does this app help me prepare?",
+-    a: "The Nursing and Midwifery Council of Ghana licensing examination is the final hurdle between nursing or midwifery school and your professional PIN. It tests clinical judgement, not just recall — which is exactly what our rationale-first questions, strategy library, Custom Exam builder, and adaptive-difficulty practice mode train you for.",
++    a: "The Nursing and Midwifery Council licensing examination is the final hurdle between nursing or midwifery school and your professional PIN. It tests clinical judgement, not just recall — which is exactly what our rationale-first questions, strategy library, Custom Exam builder, and adaptive-difficulty practice mode train you for.",
+   },
+   {
+     q: "How many questions are included — and are they real exam questions?",
+@@ -26,11 +26,11 @@ const FAQS = [
+   },
+   {
+     q: "How can I pay?",
+-    a: "You can pay with a Visa card (processed securely through Stripe) from anywhere in the world, or with MTN Mobile Money if you're in Ghana — just send payment to 0598872146 and confirm your transaction reference in the app. Our team verifies each MoMo payment and activates your account, usually within a few hours.",
++    a: "You can pay with a Visa card (processed securely through Stripe) from anywhere in the world, or with MTN Mobile Money for local users — just send payment to 0598872146 and confirm your transaction reference in the app. Our team verifies each MoMo payment and activates your account, usually within a few hours.",
+   },
+   {
+-    q: "Is NurseGrid Prep affiliated with the Nursing and Midwifery Council of Ghana?",
+-    a: "No. NurseGrid Prep is an independent study tool built to help nursing students practise exam-style reasoning. It is not affiliated with, endorsed by, or sponsored by the Nursing and Midwifery Council of Ghana or any official examination body, and our questions are original study material, not leaked exam content.",
++    q: "Is NurseGrid Prep affiliated with the Nursing and Midwifery Council?",
++    a: "No. NurseGrid Prep is an independent study tool built to help nursing students practise exam-style reasoning. It is not affiliated with, endorsed by, or sponsored by the Nursing and Midwifery Council or any official examination body, and our questions are original study material, not leaked exam content.",
+   },
+   {
+     q: "Do you offer referral rewards?",
+diff --git a/src/components/marketing/SiteFooter.tsx b/src/components/marketing/SiteFooter.tsx
+index 09adb9f..985a6a5 100644
+--- a/src/components/marketing/SiteFooter.tsx
++++ b/src/components/marketing/SiteFooter.tsx
+@@ -51,7 +51,7 @@ export default function SiteFooter() {
+           <p>© {YEAR} NurseGrid Prep. Built for student nurses, by nurses.</p>
+           <p className="text-center sm:text-right">
+             NurseGrid Prep is an independent study tool and is not affiliated with, endorsed by, or sponsored by the
+-            Nursing and Midwifery Council of Ghana.
++            Nursing and Midwifery Council.
+           </p>
+         </div>
+       </div>
+diff --git a/src/components/marketing/StructuredData.tsx b/src/components/marketing/StructuredData.tsx
+index 130238c..bb608b7 100644
+--- a/src/components/marketing/StructuredData.tsx
++++ b/src/components/marketing/StructuredData.tsx
+@@ -19,13 +19,13 @@ export default function StructuredData() {
+         url: baseUrl,
+         name: "NurseGrid Prep",
+         description:
+-          `Built for Ghana's student nurses & midwives: organise clinicals and revision, then master ${QUESTION_COUNT_LABEL} unique NMC licensing exam-style questions with rationales and proven test-taking strategies.`,
++          `Built for student nurses & midwives: organise clinicals and revision, then master ${QUESTION_COUNT_LABEL} unique NMC licensing exam-style questions with rationales and proven test-taking strategies.`,
+         publisher: { "@id": `${baseUrl}/#organization` },
+       },
+       {
+         "@type": "Product",
+         name: "NurseGrid Prep",
+-        description: "NMC Ghana licensing exam-style question bank, task manager, and study tools for nursing and midwifery students.",
++        description: "NMC licensing exam-style question bank, task manager, and study tools for nursing and midwifery students.",
+         brand: { "@type": "Brand", name: "NurseGrid Prep" },
+         offers: [
+           { "@type": "Offer", name: "4 Months Full Access", price: "80.00", priceCurrency: "GHS" },

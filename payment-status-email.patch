@@ -1,0 +1,103 @@
+diff --git a/src/app/api/admin/momo-requests/[id]/approve/route.ts b/src/app/api/admin/momo-requests/[id]/approve/route.ts
+index 665454a..78a618b 100644
+--- a/src/app/api/admin/momo-requests/[id]/approve/route.ts
++++ b/src/app/api/admin/momo-requests/[id]/approve/route.ts
+@@ -4,6 +4,7 @@ import { momoPaymentRequests, subscriptions, invoices, users } from "@/db/schema
+ import { and, eq } from "drizzle-orm";
+ import { requireAdmin, handleApiError, ApiError } from "@/lib/api";
+ import { PLAN_DETAILS, type PlanId } from "@/lib/stripe";
++import { isEmailConfigured, momoPaymentStatusEmail, sendEmail } from "@/lib/email";
+ 
+ export async function POST(_request: Request, { params }: { params: Promise<{ id: string }> }) {
+   try {
+@@ -50,7 +51,7 @@ export async function POST(_request: Request, { params }: { params: Promise<{ id
+       momoReference: reqRow.momoReference,
+     });
+ 
+-    const userRows = await db.select({ premiumSince: users.premiumSince }).from(users).where(eq(users.id, reqRow.userId)).limit(1);
++    const userRows = await db.select({ premiumSince: users.premiumSince, name: users.name, email: users.email }).from(users).where(eq(users.id, reqRow.userId)).limit(1);
+     await db
+       .update(users)
+       .set({ isPremium: true, premiumSince: userRows[0]?.premiumSince ?? new Date() })
+@@ -67,6 +68,15 @@ export async function POST(_request: Request, { params }: { params: Promise<{ id
+       .where(eq(momoPaymentRequests.id, id))
+       .returning();
+ 
++    if (isEmailConfigured() && userRows[0]?.email) {
++      try {
++        const message = momoPaymentStatusEmail(userRows[0].name, "approved", plan.label);
++        await sendEmail(userRows[0].email, message.subject, message.html);
++      } catch (emailError) {
++        console.error("Payment approval email failed", emailError);
++      }
++    }
++
+     return NextResponse.json({ request: updatedRequest, subscription });
+   } catch (error) {
+     return handleApiError(error);
+diff --git a/src/app/api/admin/momo-requests/[id]/reject/route.ts b/src/app/api/admin/momo-requests/[id]/reject/route.ts
+index 2989293..6397331 100644
+--- a/src/app/api/admin/momo-requests/[id]/reject/route.ts
++++ b/src/app/api/admin/momo-requests/[id]/reject/route.ts
+@@ -4,6 +4,8 @@ import { db } from "@/db";
+ import { momoPaymentRequests } from "@/db/schema";
+ import { eq } from "drizzle-orm";
+ import { requireAdmin, handleApiError, ApiError } from "@/lib/api";
++import { isEmailConfigured, momoPaymentStatusEmail, sendEmail } from "@/lib/email";
++import { users } from "@/db/schema";
+ 
+ const schema = z.object({ reviewNote: z.string().trim().max(500).optional().or(z.literal("")) });
+ 
+@@ -14,7 +16,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
+     const body = await request.json().catch(() => ({}));
+     const { reviewNote } = schema.parse(body);
+ 
+-    const rows = await db.select({ status: momoPaymentRequests.status }).from(momoPaymentRequests).where(eq(momoPaymentRequests.id, id)).limit(1);
++    const rows = await db.select({ status: momoPaymentRequests.status, plan: momoPaymentRequests.plan, userId: momoPaymentRequests.userId }).from(momoPaymentRequests).where(eq(momoPaymentRequests.id, id)).limit(1);
+     if (!rows[0]) throw new ApiError("Payment request not found", 404);
+     if (rows[0].status !== "pending") throw new ApiError("This request has already been reviewed.", 400);
+ 
+@@ -29,6 +31,19 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
+       .where(eq(momoPaymentRequests.id, id))
+       .returning();
+ 
++    if (isEmailConfigured()) {
++      const userRows = await db.select({ name: users.name, email: users.email }).from(users).where(eq(users.id, rows[0].userId)).limit(1);
++      const recipient = userRows[0];
++      if (recipient?.email) {
++        try {
++          const message = momoPaymentStatusEmail(recipient.name, "rejected", rows[0].plan, reviewNote || undefined);
++          await sendEmail(recipient.email, message.subject, message.html);
++        } catch (emailError) {
++          console.error("Payment rejection email failed", emailError);
++        }
++      }
++    }
++
+     return NextResponse.json({ request: updated });
+   } catch (error) {
+     if (error instanceof z.ZodError) {
+diff --git a/src/lib/email.ts b/src/lib/email.ts
+index a116edb..9e84b8c 100644
+--- a/src/lib/email.ts
++++ b/src/lib/email.ts
+@@ -134,6 +134,19 @@ export function studyReminderEmail(name: string): { subject: string; html: strin
+   };
+ }
+ 
++export function momoPaymentStatusEmail(name: string, status: "approved" | "rejected", plan: string, note?: string): { subject: string; html: string } {
++  const approved = status === "approved";
++  return {
++    subject: approved ? "✅ Your NurseGrid payment was approved" : "⚠️ Your NurseGrid payment needs attention",
++    html: layout(`
++      <h1 style="font-size:20px;">${approved ? "Payment approved" : "Payment needs attention"}</h1>
++      <p>Hi ${name || "there"},</p>
++      <p>Your MTN MoMo payment request for the <b>${plan}</b> plan was <b>${approved ? "approved" : "not approved"}</b>.</p>
++      ${approved ? `<p>Your full study access is now active. You can continue practising all ${QUESTION_COUNT_LABEL} questions.</p>${button(`${APP_URL}/dashboard/questions`, "Continue studying")}` : `<p>${note || "Please check your transaction reference and contact support if you believe this was a mistake."}</p>${button(`${APP_URL}/dashboard/billing`, "Open billing")}`}
++    `),
++  };
++}
++
+ export async function sendPasswordResetEmail(to: string, name: string, resetUrl: string) {
+   await sendEmail(
+     to,

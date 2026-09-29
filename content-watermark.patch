@@ -1,0 +1,25 @@
+diff --git a/src/components/ui/Watermark.tsx b/src/components/ui/Watermark.tsx
+index 66a89e8..212738d 100644
+--- a/src/components/ui/Watermark.tsx
++++ b/src/components/ui/Watermark.tsx
+@@ -42,9 +42,9 @@ export default function Watermark() {
+ 
+         if (cancelled) return;
+ 
+-        const dateStr = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric" }).format(new Date());
++        const dateStr = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }).format(new Date());
+ 
+-        const segments = ["NurseGrid Prep"];
++        const segments = ["NurseGrid Prep · For individual study only"];
+         if (email) segments.push(email);
+         if (ip) segments.push(ip);
+         segments.push(dateStr);
+@@ -67,7 +67,7 @@ export default function Watermark() {
+   // and adapts instantly to container sizing.
+   const svg = `
+     <svg xmlns="http://www.w3.org/2000/svg" width="380" height="220" viewBox="0 0 380 220">
+-      <text x="190" y="110" fill="rgba(100, 116, 139, 0.04)" font-size="11" font-family="sans-serif" font-weight="600" transform="rotate(-25 190 110)" text-anchor="middle">
++      <text x="190" y="110" fill="rgba(100, 116, 139, 0.06)" font-size="11" font-family="sans-serif" font-weight="600" transform="rotate(-25 190 110)" text-anchor="middle">
+         ${stampText}
+       </text>
+     </svg>

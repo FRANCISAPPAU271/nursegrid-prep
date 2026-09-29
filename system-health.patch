@@ -1,0 +1,74 @@
+diff --git a/src/app/api/admin/health/route.ts b/src/app/api/admin/health/route.ts
+new file mode 100644
+index 0000000..bc6f053
+--- /dev/null
++++ b/src/app/api/admin/health/route.ts
+@@ -0,0 +1,16 @@
++import { NextResponse } from "next/server";
++import { sql } from "drizzle-orm";
++import { db } from "@/db";
++import { getCurrentUser } from "@/lib/auth";
++
++export async function GET() {
++  const user = await getCurrentUser();
++  if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
++  if (!user.isAdmin) return NextResponse.json({ error: "Forbidden" }, { status: 403 });
++  const checks: Record<string, { status: "ok" | "error"; detail: string }> = {};
++  try { await db.execute(sql`SELECT 1`); checks.database = { status: "ok", detail: "Connected" }; } catch { checks.database = { status: "error", detail: "Unavailable" }; }
++  try { const result = await db.execute(sql`SELECT COUNT(*)::int AS count FROM "questions"`); checks.questionBank = { status: "ok", detail: `${(result.rows[0] as { count: number }).count.toLocaleString()} questions available` }; } catch { checks.questionBank = { status: "error", detail: "Could not read question bank" }; }
++  try { await db.execute(sql`SELECT 1 FROM "users" LIMIT 1`); checks.accounts = { status: "ok", detail: "Available" }; } catch { checks.accounts = { status: "error", detail: "Could not read accounts" }; }
++  const healthy = Object.values(checks).every((check) => check.status === "ok");
++  return NextResponse.json({ healthy, checkedAt: new Date().toISOString(), checks }, { headers: { "Cache-Control": "no-store" } });
++}
+diff --git a/src/app/dashboard/admin/health/page.tsx b/src/app/dashboard/admin/health/page.tsx
+new file mode 100644
+index 0000000..a1244b4
+--- /dev/null
++++ b/src/app/dashboard/admin/health/page.tsx
+@@ -0,0 +1,23 @@
++import { redirect } from "next/navigation";
++import { sql } from "drizzle-orm";
++import { db } from "@/db";
++import { getCurrentUser } from "@/lib/auth";
++
++export const dynamic = "force-dynamic";
++
++async function check(label: string, query: ReturnType<typeof sql>, detail: (row: unknown) => string = () => "Available") {
++  try { const result = await db.execute(query); return { label, ok: true, detail: detail(result.rows[0]) }; } catch { return { label, ok: false, detail: "Unavailable" }; }
++}
++
++export default async function AdminHealthPage() {
++  const user = await getCurrentUser();
++  if (!user) redirect("/login");
++  if (!user.isAdmin) redirect("/dashboard");
++  const checks = await Promise.all([
++    check("Database", sql`SELECT 1`, () => "Connected"),
++    check("Question bank", sql`SELECT COUNT(*)::int AS count FROM "questions"`, (row) => `${(row as { count: number }).count.toLocaleString()} questions available`),
++    check("Accounts", sql`SELECT 1 FROM "users" LIMIT 1`),
++  ]);
++  const healthy = checks.every((item) => item.ok);
++  return <div><div className="mb-6"><h1 className="text-2xl font-extrabold tracking-tight text-slate-950">System health</h1><p className="mt-1 text-slate-600">A quick production check for the services students depend on.</p></div><div className={`rounded-2xl border p-5 ${healthy ? "border-emerald-200 bg-emerald-50" : "border-rose-200 bg-rose-50"}`}><p className={`text-lg font-extrabold ${healthy ? "text-emerald-800" : "text-rose-800"}`}>{healthy ? "System status: Healthy" : "System status: Attention needed"}</p><p className="mt-1 text-sm text-slate-600">Checked at {new Date().toLocaleString()}</p></div><div className="mt-5 grid gap-3 sm:grid-cols-3">{checks.map((item) => <div key={item.label} className="rounded-2xl border border-slate-200 bg-white p-5"><div className="flex items-center justify-between"><p className="font-bold text-slate-900">{item.label}</p><span className={`h-3 w-3 rounded-full ${item.ok ? "bg-emerald-500" : "bg-rose-500"}`} /></div><p className="mt-2 text-sm text-slate-500">{item.detail}</p></div>)}</div></div>;
++}
+diff --git a/src/components/dashboard/Sidebar.tsx b/src/components/dashboard/Sidebar.tsx
+index 39e652e..3d7a6dd 100644
+--- a/src/components/dashboard/Sidebar.tsx
++++ b/src/components/dashboard/Sidebar.tsx
+@@ -123,6 +123,18 @@ export default function Sidebar({
+               <span className="text-base">📝</span>
+               Upload Questions
+             </Link>
++            <Link
++              href="/dashboard/admin/health"
++              onClick={() => setOpen(false)}
++              className={`flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition ${
++                pathname.startsWith("/dashboard/admin/health")
++                  ? "bg-emerald-600 text-white"
++                  : "text-slate-300 hover:bg-slate-800 hover:text-white"
++              }`}
++            >
++              <span className="text-base">♥</span>
++              System Health
++            </Link>
+             <Link
+               href="/dashboard/admin/reports"
+               onClick={() => setOpen(false)}

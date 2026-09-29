@@ -1,0 +1,66 @@
+diff --git a/src/components/billing/BillingPanel.tsx b/src/components/billing/BillingPanel.tsx
+index 79580b7..8f94b0c 100644
+--- a/src/components/billing/BillingPanel.tsx
++++ b/src/components/billing/BillingPanel.tsx
+@@ -326,51 +326,11 @@ export default function BillingPanel({
+             <p className="text-sm text-slate-600">
+               {pickerPlan.name} access is <span className="font-bold text-slate-900">{pickerPlan.price}</span>. Choose how you&apos;d like to pay.
+             </p>
+-            {paystackEnabled && (
+-              <button
+-                onClick={() => chooseInstant(pickerPlan)}
+-                disabled={redirecting}
+-                className="flex w-full items-center justify-between rounded-xl border-2 border-emerald-400 bg-gradient-to-r from-emerald-50 to-teal-50 px-4 py-4 text-left transition hover:border-emerald-500 hover:shadow-md disabled:opacity-60"
+-              >
+-                <span className="flex items-center gap-3">
+-                  <span className="text-2xl">⚡</span>
+-                  <span>
+-                    <span className="flex items-center gap-2 text-sm font-bold text-slate-900">
+-                      Pay with MoMo or Card
+-                      <span className="rounded-full bg-emerald-600 px-2 py-0.5 text-[10px] font-bold text-white">INSTANT</span>
+-                    </span>
+-                    <span className="block text-xs text-slate-500">
+-                      GH₵ {approxInstantGhs(pickerPlan.id)} · secure checkout · activated in seconds
+-                    </span>
+-                  </span>
+-                </span>
+-                <span className="text-emerald-500">→</span>
+-              </button>
+-            )}
+-            {paystackEnabled && (
+-              <p className="text-center text-[11px] text-slate-400">
+-                {redirecting ? "Opening secure checkout…" : "You'll approve the payment on your phone — access unlocks automatically."}
+-              </p>
+-            )}
+             {/* Fallback options — shown only when instant payment is unavailable
+                 (e.g. Paystack outage or key removed), so students always have
+                 a way to pay. */}
+-            <>
+-                <button
+-                  onClick={() => chooseVisa(pickerPlan)}
+-                  className="flex w-full items-center justify-between rounded-xl border border-slate-200 px-4 py-4 text-left hover:border-emerald-400 hover:bg-emerald-50/50"
+-                >
+-                  <span className="flex items-center gap-3">
+-                    <span className="text-2xl">💳</span>
+-                    <span>
+-                      <span className="block text-sm font-bold text-slate-900">Visa Card</span>
+-                      <span className="block text-xs text-slate-500">Outside Ghana · instant activation</span>
+-                    </span>
+-                  </span>
+-                  <span className="text-slate-400">→</span>
+-                </button>
+-                <button
+-                  onClick={() => chooseMomo(pickerPlan)}
++            <button
++              onClick={() => chooseMomo(pickerPlan)}
+                   className="flex w-full items-center justify-between rounded-xl border border-slate-200 px-4 py-4 text-left hover:border-amber-400 hover:bg-amber-50/50"
+                 >
+                   <span className="flex items-center gap-3">
+@@ -382,7 +342,6 @@ export default function BillingPanel({
+                   </span>
+                   <span className="text-slate-400">→</span>
+                 </button>
+-              </>
+           </div>
+         )}
+       </Modal>

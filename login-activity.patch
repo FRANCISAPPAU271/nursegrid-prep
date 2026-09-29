@@ -1,0 +1,98 @@
+diff --git a/src/app/api/me/login-activity/route.ts b/src/app/api/me/login-activity/route.ts
+new file mode 100644
+index 0000000..bd4b9c7
+--- /dev/null
++++ b/src/app/api/me/login-activity/route.ts
+@@ -0,0 +1,12 @@
++import { NextResponse } from "next/server";
++import { sql } from "drizzle-orm";
++import { db } from "@/db";
++import { getCurrentUser } from "@/lib/auth";
++
++export async function GET() {
++  const user = await getCurrentUser();
++  if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
++  await db.execute(sql`CREATE TABLE IF NOT EXISTS "login_events" ("id" text PRIMARY KEY DEFAULT md5(random()::text || clock_timestamp()::text), "user_id" text NOT NULL, "user_agent" text, "ip_address" text, "created_at" timestamptz NOT NULL DEFAULT now())`);
++  const rows = await db.execute(sql`SELECT "user_agent" AS "userAgent", "ip_address" AS "ipAddress", "created_at" AS "createdAt" FROM "login_events" WHERE "user_id" = ${user.id} ORDER BY "created_at" DESC LIMIT 10`);
++  return NextResponse.json({ activity: rows.rows });
++}
+diff --git a/src/components/settings/SecurityCard.tsx b/src/components/settings/SecurityCard.tsx
+index 04c689f..824ae5f 100644
+--- a/src/components/settings/SecurityCard.tsx
++++ b/src/components/settings/SecurityCard.tsx
+@@ -27,15 +27,15 @@ function describeDevice(userAgent: string | null): string {
+ 
+ export default function SecurityCard() {
+   const [session, setSession] = useState<{ userAgent: string | null; createdAt: string } | null>(null);
++  const [activity, setActivity] = useState<{ userAgent: string | null; ipAddress: string | null; createdAt: string }[]>([]);
+   const [loading, setLoading] = useState(true);
+   const [signingOut, setSigningOut] = useState(false);
+   const toast = useToast();
+   const router = useRouter();
+ 
+   useEffect(() => {
+-    fetch("/api/me/session")
+-      .then((res) => res.json())
+-      .then((data) => setSession(data.session))
++    Promise.all([fetch("/api/me/session").then((res) => res.json()), fetch("/api/me/login-activity").then((res) => res.json())])
++      .then(([sessionData, activityData]) => { setSession(sessionData.session); setActivity(activityData.activity ?? []); })
+       .finally(() => setLoading(false));
+   }, []);
+ 
+@@ -84,6 +84,19 @@ export default function SecurityCard() {
+           <p className="text-sm text-slate-500">No active session information available.</p>
+         )}
+       </div>
++      {activity.length > 0 && (
++        <div className="mt-4">
++          <p className="text-xs font-bold uppercase tracking-wide text-slate-500">Recent sign-ins</p>
++          <ul className="mt-2 space-y-2">
++            {activity.slice(0, 5).map((event, index) => (
++              <li key={`${event.createdAt}-${index}`} className="flex items-center justify-between gap-3 text-xs text-slate-600">
++                <span>{describeDevice(event.userAgent)}{event.ipAddress ? ` · ${event.ipAddress}` : ""}</span>
++                <span className="shrink-0 text-slate-400">{new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }).format(new Date(event.createdAt))}</span>
++              </li>
++            ))}
++          </ul>
++        </div>
++      )}
+     </div>
+   );
+ }
+diff --git a/src/lib/auth.ts b/src/lib/auth.ts
+index 4e0838e..accb771 100644
+--- a/src/lib/auth.ts
++++ b/src/lib/auth.ts
+@@ -4,7 +4,7 @@ import { cookies } from "next/headers";
+ import bcrypt from "bcryptjs";
+ import { db } from "@/db";
+ import { sessions, users, subscriptions } from "@/db/schema";
+-import { and, eq, inArray, lt } from "drizzle-orm";
++import { and, eq, inArray, lt, sql } from "drizzle-orm";
+ 
+ export const SESSION_COOKIE = "nsm_session";
+ const SESSION_DAYS = 30;
+@@ -58,6 +58,23 @@ export async function createSession(userId: string, meta: SessionMeta = {}) {
+     ipAddress: meta.ipAddress ?? null,
+   });
+ 
++  // Keep a short login history for account-sharing detection. This is separate
++  // from active sessions, so removing the old session does not erase evidence
++  // of repeated logins from different devices.
++  await db.execute(sql`
++    CREATE TABLE IF NOT EXISTS "login_events" (
++      "id" text PRIMARY KEY DEFAULT md5(random()::text || clock_timestamp()::text),
++      "user_id" text NOT NULL,
++      "user_agent" text,
++      "ip_address" text,
++      "created_at" timestamptz NOT NULL DEFAULT now()
++    )
++  `);
++  await db.execute(sql`
++    INSERT INTO "login_events" ("user_id", "user_agent", "ip_address")
++    VALUES (${userId}, ${meta.userAgent ?? null}, ${meta.ipAddress ?? null})
++  `);
++
+   const store = await cookies();
+   store.set(SESSION_COOKIE, token, {
+     httpOnly: true,

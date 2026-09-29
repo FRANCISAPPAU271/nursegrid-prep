@@ -1,0 +1,51 @@
+"use client";
+
+import { useState } from "react";
+import { buildWhatsAppLink } from "@/lib/contact";
+
+type Topic = { label: string; answer: string };
+
+const topics: Topic[] = [
+  { label: "What does it cost?", answer: "Plans are GH₵80 for 4 months, GH₵140 for 8 months, or GH₵200 for 1 year. The exact price is shown before payment." },
+  { label: "How does the free access work?", answer: "New accounts receive 48 hours of full study access. After that, choose a plan to continue with the full question bank." },
+  { label: "How do I pay by MoMo?", answer: "Choose a plan, select MTN Mobile Money, send the displayed amount to 0598872146, then enter your MoMo number and transaction reference. We verify and approve it manually." },
+  { label: "I cannot log in", answer: "Use your registered email and password. If you forgot the password, choose Forgot password on the login page. If you verified a phone during signup, you can use phone sign-in." },
+  { label: "How many questions are there?", answer: "NurseGrid Prep includes 3,500 curriculum questions, full rationales, and original study diagrams." },
+  { label: "I need human support", answer: "Our support team can help with account recovery, payments and access. Tap the WhatsApp button below and include your registered email if you know it." },
+];
+
+export default function HelpChat() {
+  const [open, setOpen] = useState(false);
+  const [selected, setSelected] = useState<Topic | null>(null);
+
+  return (
+    <div className="fixed bottom-5 right-5 z-[60] sm:bottom-6 sm:right-6">
+      {open && (
+        <div className="mb-3 w-[min(20rem,calc(100vw-2rem))] max-w-[calc(100vw-2rem)] overflow-hidden rounded-2xl border border-emerald-200 bg-white shadow-2xl sm:w-80">
+          <div className="bg-emerald-700 px-4 py-3 text-white">
+            <div className="flex items-center justify-between">
+              <div><p className="text-sm font-extrabold">NurseGrid Help</p><p className="text-[11px] text-emerald-100">Quick answers, anytime</p></div>
+              <button onClick={() => setOpen(false)} aria-label="Close help chat" className="text-xl leading-none text-emerald-100 hover:text-white">×</button>
+            </div>
+          </div>
+          <div className="max-h-[55vh] space-y-2 overflow-y-auto p-3">
+            {!selected ? (
+              <>
+                <p className="px-1 pb-1 text-xs text-slate-500">What can we help with?</p>
+                {topics.map((topic) => <button key={topic.label} onClick={() => setSelected(topic)} className="w-full rounded-xl border border-slate-200 px-3 py-2.5 text-left text-xs font-semibold text-slate-700 transition hover:border-emerald-300 hover:bg-emerald-50">{topic.label}</button>)}
+              </>
+            ) : (
+              <>
+                <button onClick={() => setSelected(null)} className="text-xs font-semibold text-emerald-700 hover:underline">← All questions</button>
+                <p className="mt-3 text-sm font-bold text-slate-900">{selected.label}</p>
+                <p className="mt-2 rounded-xl bg-slate-50 p-3 text-xs leading-5 text-slate-600">{selected.answer}</p>
+                <a href={buildWhatsAppLink(`Hi NurseGrid Prep! I need help with: ${selected.label}`)} target="_blank" rel="noopener noreferrer" className="mt-3 block rounded-xl bg-emerald-600 px-3 py-2.5 text-center text-xs font-bold text-white hover:bg-emerald-700">Chat with support on WhatsApp</a>
+              </>
+            )}
+          </div>
+        </div>
+      )}
+      <button onClick={() => { setOpen((value) => !value); setSelected(null); }} aria-label="Open NurseGrid help" className="flex items-center gap-2 rounded-full bg-emerald-700 px-4 py-3 text-sm font-bold text-white shadow-xl shadow-emerald-900/20 transition hover:bg-emerald-800"><span className="text-lg">💬</span> Help</button>
+    </div>
+  );
+}

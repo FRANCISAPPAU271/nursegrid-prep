@@ -10,17 +10,17 @@ import { buildWhatsAppLink, WHATSAPP_DISPLAY_NUMBER } from "@/lib/contact";
 import { QUESTION_COUNT_LABEL } from "@/lib/question-count";
 
 type PlanId = "four_month" | "eight_month" | "annual";
-
+const CEDI = String.fromCharCode(8373);
 const PLANS: { id: PlanId; name: string; price: string; priceCents: number; cadence: string; tag: string | null }[] = [
-  { id: "four_month", name: "4 Months", price: "GHâ‚µ 80", priceCents: 500, cadence: "full access for 4 months", tag: null },
-  { id: "eight_month", name: "8 Months", price: "GHâ‚µ 140", priceCents: 900, cadence: "full access for 8 months", tag: null },
-  { id: "annual", name: "1 Year", price: "GHâ‚µ 200", priceCents: 1300, cadence: "full access for 12 months", tag: "Best value" },
+  { id: "four_month", name: "4 Months", price: `GH${CEDI} 80`, priceCents: 500, cadence: "full access for 4 months", tag: null },
+  { id: "eight_month", name: "8 Months", price: `GH${CEDI} 140`, priceCents: 900, cadence: "full access for 8 months", tag: null },
+  { id: "annual", name: "1 Year", price: `GH${CEDI} 200`, priceCents: 1300, cadence: "full access for 12 months", tag: "Best value" },
 ];
 
 function money(cents: number) {
   // Historical USD-cent amounts map to the fixed cedi plan prices.
   const ghs: Record<number, number> = { 500: 80, 900: 140, 1300: 200 };
-  if (ghs[cents]) return `GHâ‚µ ${ghs[cents]}`;
+  if (ghs[cents]) return `GH${CEDI} ${ghs[cents]}`;
   return `$${(cents / 100).toFixed(2)}`;
 }
 
@@ -268,30 +268,45 @@ export default function BillingPanel({
           </div>
         )}
       </div>
-
-      <Modal open={Boolean(pickerPlan)} onClose={() => setPickerPlan(null)} title={pickerPlan ? `Pay for ${pickerPlan.name} access` : ""}>
+      <Modal
+        open={Boolean(pickerPlan)}
+        onClose={() => setPickerPlan(null)}
+        title={pickerPlan ? `Pay for ${pickerPlan.name} access` : ""}
+      >
         {pickerPlan && (
           <div className="space-y-3">
             <p className="text-sm text-slate-600">
-              {pickerPlan.name} access is <span className="font-bold text-slate-900">{pickerPlan.price}</span>. Choose how you&apos;d like to pay.
+              {pickerPlan.name} access is{" "}
+              <span className="font-bold text-slate-900">
+                {pickerPlan.price}
+              </span>
+              . Choose how you&apos;d like to pay.
             </p>
-            <p className="rounded-xl bg-amber-50 px-4 py-3 text-xs leading-5 text-amber-800">Manual MTN Mobile Money payments are verified against our actual MoMo records before access is activated.</p>
-            <button
-              onClick={() => chooseMomo(pickerPlan)}
 
-                  className="flex w-full items-center justify-between rounded-xl border border-slate-200 px-4 py-4 text-left hover:border-amber-400 hover:bg-amber-50/50"
-                >
-                  <span className="flex items-center gap-3">
-                    <span className="text-2xl">ðŸ“±</span>
-                    <span>
-                      <span className="block text-sm font-bold text-slate-900">MTN Mobile Money</span>
-                      <span className="block text-xs text-slate-500">Ghana Â· send to {MOMO_RECEIVER_NUMBER} Â· verified within a few hours</span>
-                    </span>
+            <p className="rounded-xl bg-amber-50 px-4 py-3 text-xs leading-5 text-amber-800">
+              Manual MTN Mobile Money payments are verified against our actual
+              MoMo records before access is activated.
+            </p>
+
+            <button
+              type="button"
+              onClick={() => chooseMomo(pickerPlan)}
+              className="flex w-full items-center justify-between rounded-xl border border-slate-200 px-4 py-4 text-left hover:border-amber-400 hover:bg-amber-50/50"
+            >
+              <span className="flex items-center gap-3">
+                <span className="text-2xl">📱</span>
+                <span>
+                  <span className="block text-sm font-bold text-slate-900">
+                    MTN Mobile Money
                   </span>
-                  <span className="text-slate-400">â†’</span>
-                </button>
-              </>
-            )}
+                  <span className="block text-xs text-slate-500">
+                    Ghana — send to {MOMO_RECEIVER_NUMBER} — verified within a
+                    few hours
+                  </span>
+                </span>
+              </span>
+              <span className="text-slate-400">→</span>
+            </button>
           </div>
         )}
       </Modal>
@@ -584,4 +599,9 @@ function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
     </div>
   );
 }
+
+
+
+
+
 

@@ -1,0 +1,57 @@
+diff --git a/src/app/dashboard/admin/analytics/page.tsx b/src/app/dashboard/admin/analytics/page.tsx
+new file mode 100644
+index 0000000..49a6bc7
+--- /dev/null
++++ b/src/app/dashboard/admin/analytics/page.tsx
+@@ -0,0 +1,28 @@
++import { redirect } from "next/navigation";
++import { sql } from "drizzle-orm";
++import { db } from "@/db";
++import { getCurrentUser } from "@/lib/auth";
++
++export const dynamic = "force-dynamic";
++
++export default async function AdminAnalyticsPage() {
++  const user = await getCurrentUser();
++  if (!user) redirect("/login");
++  if (!user.isAdmin) redirect("/dashboard");
++  const [users, active, attempts, pending, questions] = await Promise.all([
++    db.execute(sql`SELECT count(*)::int AS n FROM "users"`),
++    db.execute(sql`SELECT count(DISTINCT "user_id")::int AS n FROM "subscriptions" WHERE "status" = 'active'`),
++    db.execute(sql`SELECT count(*)::int AS n FROM "question_attempts" WHERE "attempted_at" >= now() - interval '7 days'`),
++    db.execute(sql`SELECT count(*)::int AS n FROM "momo_payment_requests" WHERE "status" = 'pending'`),
++    db.execute(sql`SELECT count(*)::int AS n FROM "questions"`),
++  ]);
++  const value = (result: { rows: unknown[] }) => Number((result.rows[0] as { n?: number } | undefined)?.n ?? 0);
++  const cards = [
++    ["Registered users", value(users), "👥"],
++    ["Active paid users", value(active), "💎"],
++    ["Questions answered · 7 days", value(attempts), "🧠"],
++    ["Pending MoMo reviews", value(pending), "📱"],
++    ["Questions in production", value(questions), "📚"],
++  ];
++  return <div><div className="mb-6"><h1 className="text-2xl font-extrabold tracking-tight text-slate-950">Admin analytics</h1><p className="mt-1 text-slate-600">A quick view of product usage and payment operations.</p></div><div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">{cards.map(([label, number, icon]) => <div key={String(label)} className="rounded-2xl border border-slate-200 bg-white p-5"><div className="flex justify-between"><p className="text-sm font-medium text-slate-500">{label}</p><span>{icon}</span></div><p className="mt-2 text-3xl font-extrabold text-slate-950">{String(number)}</p></div>)}</div><div className="mt-6 rounded-2xl border border-emerald-200 bg-emerald-50 p-5"><p className="text-sm font-bold text-emerald-900">Operational reminder</p><p className="mt-1 text-sm text-emerald-800">Verify every manual MoMo transaction against your actual account before approving access.</p></div></div>;
++}
+diff --git a/src/components/dashboard/Sidebar.tsx b/src/components/dashboard/Sidebar.tsx
+index 86e4ffb..0904b8a 100644
+--- a/src/components/dashboard/Sidebar.tsx
++++ b/src/components/dashboard/Sidebar.tsx
+@@ -80,6 +80,18 @@ export default function Sidebar({
+           <>
+             <div className="my-2 border-t border-slate-800" />
+             <p className="px-3 pb-1 pt-1 text-[11px] font-bold uppercase tracking-wide text-slate-500">Admin</p>
++            <Link
++              href="/dashboard/admin/analytics"
++              onClick={() => setOpen(false)}
++              className={`flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition ${
++                pathname.startsWith("/dashboard/admin/analytics")
++                  ? "bg-emerald-600 text-white"
++                  : "text-slate-300 hover:bg-slate-800 hover:text-white"
++              }`}
++            >
++              <span className="text-base">📊</span>
++              Analytics
++            </Link>
+             <Link
+               href="/dashboard/admin/payments"
+               onClick={() => setOpen(false)}

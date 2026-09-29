@@ -19,13 +19,13 @@ export default function StructuredData() {
         url: baseUrl,
         name: "NurseGrid Prep",
         description:
-          `Built for Ghana's student nurses & midwives: organise clinicals and revision, then master ${QUESTION_COUNT_LABEL} unique NMC licensing exam-style questions with rationales and proven test-taking strategies.`,
+          `Built for student nurses & midwives: organise clinicals and revision, then master ${QUESTION_COUNT_LABEL} unique NMC licensing exam-style questions with rationales and proven test-taking strategies.`,
         publisher: { "@id": `${baseUrl}/#organization` },
       },
       {
         "@type": "Product",
         name: "NurseGrid Prep",
-        description: "NMC Ghana licensing exam-style question bank, task manager, and study tools for nursing and midwifery students.",
+        description: "NMC licensing exam-style question bank, task manager, and study tools for nursing and midwifery students.",
         brand: { "@type": "Brand", name: "NurseGrid Prep" },
         offers: [
           { "@type": "Offer", name: "4 Months Full Access", price: "80.00", priceCurrency: "GHS" },
