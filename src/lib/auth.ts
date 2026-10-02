@@ -5,6 +5,7 @@ import bcrypt from "bcryptjs";
 import { db } from "@/db";
 import { sessions, users, subscriptions } from "@/db/schema";
 import { and, eq, inArray, lt, sql } from "drizzle-orm";
+import { isEmailConfigured, newDeviceLoginEmail, sendEmail } from "@/lib/email";
 
 export const SESSION_COOKIE = "nsm_session";
 const SESSION_DAYS = 30;
@@ -70,10 +71,30 @@ export async function createSession(userId: string, meta: SessionMeta = {}) {
       "created_at" timestamptz NOT NULL DEFAULT now()
     )
   `);
+  const recentSameDevice = await db.execute(sql`
+    SELECT 1 FROM "login_events"
+    WHERE "user_id" = ${userId}
+      AND "user_agent" IS NOT DISTINCT FROM ${meta.userAgent ?? null}
+    ORDER BY "created_at" DESC
+    LIMIT 1
+  `);
   await db.execute(sql`
     INSERT INTO "login_events" ("user_id", "user_agent", "ip_address")
     VALUES (${userId}, ${meta.userAgent ?? null}, ${meta.ipAddress ?? null})
   `);
+
+  if (recentSameDevice.rows.length === 0 && isEmailConfigured()) {
+    try {
+      const userRows = await db.execute(sql`SELECT "name", "email" FROM "users" WHERE "id" = ${userId} LIMIT 1`);
+      const recipient = userRows.rows[0] as { name?: string | null; email?: string | null } | undefined;
+      if (recipient?.email) {
+        const message = newDeviceLoginEmail(recipient.name ?? "", meta.userAgent ?? "a new device", meta.ipAddress);
+        await sendEmail(recipient.email, message.subject, message.html);
+      }
+    } catch (error) {
+      console.error("New-device login email failed", error);
+    }
+  }
 
   const store = await cookies();
   store.set(SESSION_COOKIE, token, {
