@@ -122,6 +122,20 @@ export function subscriptionExpiringEmail(
   };
 }
 
+export function newDeviceLoginEmail(name: string, device: string, ipAddress?: string | null): { subject: string; html: string } {
+  return {
+    subject: "🔐 New NurseGrid sign-in detected",
+    html: layout(`
+      <h1 style="font-size:20px;">New sign-in detected</h1>
+      <p>Hi ${name || "there"},</p>
+      <p>Your NurseGrid Prep account was signed in on <b>${device || "a new device"}</b>.</p>
+      ${ipAddress ? `<p style="color:#64748b;font-size:13px;">Network address: ${ipAddress}</p>` : ""}
+      <p>If this was not you, sign out other devices from Settings and change your password immediately.</p>
+      ${button(`${APP_URL}/dashboard/settings`, "Review account security")}
+    `),
+  };
+}
+
 export function momoPaymentStatusEmail(name: string, status: "approved" | "rejected", plan: string, note?: string): { subject: string; html: string } {
   const approved = status === "approved";
   return {
