@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { db } from "@/db";
 import { momoPaymentRequests, subscriptions, invoices, users } from "@/db/schema";
-import { and, eq } from "drizzle-orm";
+import { and, eq, sql } from "drizzle-orm";
 import { requireAdmin, handleApiError, ApiError } from "@/lib/api";
 import { PLAN_DETAILS, type PlanId } from "@/lib/stripe";
 import { isEmailConfigured, momoPaymentStatusEmail, sendEmail } from "@/lib/email";
@@ -56,6 +56,9 @@ export async function POST(_request: Request, { params }: { params: Promise<{ id
       .update(users)
       .set({ isPremium: true, premiumSince: userRows[0]?.premiumSince ?? new Date() })
       .where(eq(users.id, reqRow.userId));
+
+    await db.execute(sql`CREATE TABLE IF NOT EXISTS "payment_audit_events" ("id" text PRIMARY KEY DEFAULT md5(random()::text || clock_timestamp()::text), "request_id" text NOT NULL, "user_id" text NOT NULL, "admin_id" text NOT NULL, "action" text NOT NULL, "amount_cents" integer NOT NULL, "plan" text NOT NULL, "note" text, "created_at" timestamptz NOT NULL DEFAULT now())`);
+    await db.execute(sql`INSERT INTO "payment_audit_events" ("request_id", "user_id", "admin_id", "action", "amount_cents", "plan") VALUES (${id}, ${reqRow.userId}, ${admin.id}, 'approved', ${reqRow.amountCents}, ${plan.label})`);
 
     const [updatedRequest] = await db
       .update(momoPaymentRequests)
