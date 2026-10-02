@@ -75,6 +75,19 @@ export default function Sidebar({
           );
         })}
 
+        <Link
+          href="/dashboard/topic-explainer"
+          onClick={() => setOpen(false)}
+          className={`flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition ${
+            pathname.startsWith("/dashboard/topic-explainer")
+              ? "bg-emerald-600 text-white"
+              : "text-slate-300 hover:bg-slate-800 hover:text-white"
+          }`}
+        >
+          <span className="text-base">📖</span>
+          Topic Explainer
+        </Link>
+
         {isAdmin && (
           <>
             <div className="my-2 border-t border-slate-800" />
@@ -121,18 +134,6 @@ export default function Sidebar({
             >
               <span className="text-base">📝</span>
               Upload Questions
-            </Link>
-            <Link
-              href="/dashboard/topic-explainer"
-              onClick={() => setOpen(false)}
-              className={`flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition ${
-                pathname.startsWith("/dashboard/topic-explainer")
-                  ? "bg-emerald-600 text-white"
-                  : "text-slate-300 hover:bg-slate-800 hover:text-white"
-              }`}
-            >
-              <span className="text-base">📖</span>
-              Topic Explainer
             </Link>
             <Link
               href="/dashboard/admin/payment-audit"
