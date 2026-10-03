@@ -10,6 +10,8 @@
 
 import { REVIEWED_PASTED_BATCH_1 } from "./reviewed-pasted-batch-1";
 
+import { ORIGINAL_ONETOUCH_BATCH_50 } from "./original-onetouch-batch-50";
+
 export type AuthoredQuestion = {
   authoredId: string;
   categorySlug: string;
@@ -25,7 +27,7 @@ export type AuthoredQuestion = {
   mediaCaption?: string;
 };
 
-export const AUTHORED_COUNT = 3510;
+export const AUTHORED_COUNT = 3560;
 export const AUTHORED_COUNT_LABEL = "3,200+";
 export const AUTHORED_DIAGRAM_COUNT = 619;
 
@@ -119499,6 +119501,6 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "mediaCaption": "Original study diagram: a visual cue for the clinical decision in this question."
 },
   ...REVIEWED_PASTED_BATCH_1,
+  ...ORIGINAL_ONETOUCH_BATCH_50,
 ];
-
 
