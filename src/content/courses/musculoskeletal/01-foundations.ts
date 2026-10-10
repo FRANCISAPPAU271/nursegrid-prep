@@ -1,0 +1,251 @@
+import type { CourseModule } from "../types";
+
+export const foundations: CourseModule = {
+  slug: "foundations",
+  title: "Foundations",
+  summary: "The living frame — bone as tissue that is constantly rebuilt, the joints and muscles that move it, how a fracture knits and what calcium and vitamin D have to do with it — then the musculoskeletal assessment done in the right order: history, look-feel-move, the neurovascular check that saves limbs, pain and gait assessment, and the investigations an orthopaedic patient is prepared for.",
+  lessons: [
+    {
+      slug: "bones-joints-and-muscles-structure-function-and-bone-health",
+      title: "Bones, joints and muscles: structure, function and bone health",
+      minutes: 16,
+      objectives: [
+        "Describe the functions of the skeleton and explain why bone is living tissue that remodels throughout life.",
+        "Classify joints and name the structures of a synovial joint, and distinguish ligaments, tendons and muscles and the injuries each suffers.",
+        "Describe the stages of fracture healing, the factors that delay it and the expected healing times for common fractures.",
+        "Explain how parathyroid hormone, vitamin D and calcitonin regulate serum calcium and relate this to hypocalcaemia, hypercalcaemia and bone health across the lifespan.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "The frame that moves — and that rebuilds itself",
+          paragraphs: [
+            "The musculoskeletal system is 206 bones, more than 600 skeletal muscles and the joints, ligaments and tendons that connect them. It gives the body <strong>shape and support</strong>, <strong>protects</strong> the brain, heart, lungs and pelvic organs, produces <strong>movement</strong> when muscles pull on bones across joints, <strong>stores minerals</strong> (99% of the body's calcium and most of its phosphate), and makes blood cells in the red marrow of the pelvis, vertebrae, ribs, sternum and the ends of the long bones (<strong>haemopoiesis</strong>).",
+            "Bone is not dead scaffolding. It is living, vascular tissue in which <strong>osteoclasts</strong> dissolve old bone and <strong>osteoblasts</strong> lay down new bone in a continuous cycle of remodelling that replaces about a tenth of the skeleton every year. Remodelling is why a fracture heals without a scar, why bone thickens where it is loaded (the dominant arm of a labourer) and thins where it is not (a limb in a cast for six weeks, a patient on bed rest, an astronaut), and why diet, hormones, drugs and activity change bone strength throughout life. The <strong>periosteum</strong> — the fibrous membrane covering bone — carries the blood vessels and nerves, which is why a fracture bleeds and why it hurts.",
+            "Every bone has a dense outer shell of <strong>compact (cortical) bone</strong> and an inner honeycomb of <strong>cancellous (spongy) bone</strong>. Long bones have a shaft (diaphysis), expanded ends (epiphyses) covered by articular cartilage, and, in children, a cartilaginous <strong>growth plate (physis)</strong> between them from which the bone lengthens. The growth plate is the weakest point in a child's skeleton and injury to it can stop or distort growth — one of the reasons children's fractures are never ‘just like adult fractures but smaller’.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Joints — how bones meet",
+          columns: ["Type", "Structure", "Movement", "Examples and what goes wrong"],
+          rows: [
+            ["<strong>Fibrous</strong>", "Bones joined by fibrous tissue", "None or very little", "Skull sutures (fontanelles in infants close by 18 months); the tibiofibular joint"],
+            ["<strong>Cartilaginous</strong>", "Bones joined by cartilage", "Slight", "Intervertebral discs (prolapse presses on nerve roots — sciatica), the symphysis pubis (loosens in pregnancy), the growth plates"],
+            ["<strong>Synovial</strong>", "A fibrous capsule lined by synovial membrane that secretes lubricating synovial fluid; articular (hyaline) cartilage covers the bone ends; ligaments stabilise; some joints have menisci (knee) and bursae (fluid cushions)", "Free — the type depends on shape: ball-and-socket (hip, shoulder), hinge (elbow, knee, fingers), pivot (atlas–axis, radius–ulna), saddle (thumb), gliding (wrist, ankle), condyloid (knuckles)", "Osteoarthritis wears the cartilage; rheumatoid arthritis inflames the synovium; gout crystallises in the fluid; infection destroys the cartilage within days (septic arthritis); dislocation tears the capsule and ligaments; bursitis inflames the cushions"],
+          ],
+        },
+        {
+          type: "table",
+          heading: "Muscles, tendons and ligaments — and the injury each one suffers",
+          columns: ["Structure", "What it is", "Properties", "When it fails"],
+          rows: [
+            ["<strong>Skeletal muscle</strong>", "Voluntary striated muscle attached to bone by tendons; works in opposing pairs (biceps flexes, triceps extends) and needs an intact nerve supply to contract", "Strength depends on use: a limb loses noticeable bulk within a week of immobilisation and up to 10–15% of its strength per week of bed rest; contracts isometrically (tension without movement — the quadriceps exercises done in a cast) or isotonically (movement)", "<strong>Strain</strong> (over-stretched or torn muscle fibres), contusion, cramp, wasting (disuse, denervation, malnutrition), contracture (fixed shortening when a joint is left immobile in one position), rhabdomyolysis (muscle breakdown after crush injury or prolonged lying), weakness from nerve injury or low potassium"],
+            ["<strong>Tendon</strong>", "Dense cord of collagen joining muscle to bone", "Very strong but poorly supplied with blood, so it heals slowly", "Tendinitis and tenosynovitis (overuse); rupture — the Achilles tendon snaps with a sound like a gunshot during a sprint, and fluoroquinolone antibiotics and steroid injections weaken tendons"],
+            ["<strong>Ligament</strong>", "Band of collagen joining bone to bone across a joint, giving stability", "Slightly elastic; stabilises in all directions the joint should not move", "<strong>Sprain</strong> (stretched or torn ligament — the ankle is the commonest); a torn ligament leaves an unstable joint that dislocates again; in children ligaments are stronger than bone, so the same force that sprains an adult's wrist fractures a child's radius"],
+            ["<strong>Cartilage</strong>", "Hyaline cartilage caps the bone ends; fibrocartilage forms the menisci and discs", "No blood supply or nerves — nourished by synovial fluid, so damage does not repair itself", "Osteoarthritis; torn meniscus (locking knee); disc prolapse"],
+          ],
+        },
+        {
+          type: "text",
+          heading: "How a fracture heals",
+          paragraphs: [
+            "A broken bone heals in overlapping stages. In the first hours a <strong>haematoma</strong> forms between the fragments from torn periosteal and marrow vessels — this is why a closed femoral fracture can hide a litre or more of blood. Over the first days <strong>inflammation</strong> clears debris and granulation tissue grows into the clot. By two to three weeks osteoblasts and chondroblasts have built a <strong>soft (fibrocartilaginous) callus</strong> that holds the fragments but is not yet rigid — the fracture is ‘sticky’ and movement at the site is no longer painful. Over the following weeks the callus is mineralised into <strong>hard callus</strong> (woven bone) that can be seen on X-ray and bear load, and over months to years <strong>remodelling</strong> replaces woven bone with mature lamellar bone along the lines of stress, so that in children even quite angulated fractures straighten themselves.",
+            "Healing time depends on which bone, how much blood supply it has, and who the patient is. A child's femur unites in four to six weeks; an adult tibia takes twelve to sixteen or longer. Bones with a poor blood supply — the <strong>scaphoid</strong>, the <strong>femoral neck</strong>, the talus and the lower third of the tibia — are notorious for delayed union, non-union and avascular necrosis. Healing is slowed by <strong>infection</strong>, <strong>poor blood supply</strong>, <strong>inadequate immobilisation</strong> or a gap between the fragments, <strong>smoking</strong>, <strong>diabetes</strong>, <strong>malnutrition</strong> (protein, calcium, vitamins C and D, zinc), <strong>corticosteroids</strong>, old age and probably prolonged high-dose NSAID use. The nurse influences several of these every day: nutrition, glycaemic control, wound care, keeping the cast intact and the traction working.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Typical union times (adult, uncomplicated)",
+          columns: ["Fracture", "Approximate time to union", "Note"],
+          rows: [
+            ["Clavicle", "4–6 weeks", "Broad arm sling; children 3 weeks"],
+            ["Distal radius (Colles)", "6 weeks in cast", "Commonest fracture after a fall on the outstretched hand; fragility fracture in older women"],
+            ["Scaphoid", "8–12 weeks", "Poor blood supply; X-ray often normal at first — if the ‘anatomical snuffbox’ is tender, treat as fractured and re-X-ray in 10–14 days"],
+            ["Humeral shaft", "8–12 weeks", "Check the radial nerve — wrist drop"],
+            ["Femoral shaft", "12–16 weeks (child 4–6)", "Blood loss 1–1.5 L; traction or nailing"],
+            ["Tibial shaft", "12–20 weeks", "Highest risk of compartment syndrome and open fracture (little soft tissue cover)"],
+            ["Femoral neck", "Variable; many are replaced rather than left to heal", "Blood supply to the femoral head runs up the neck — displaced fractures lead to avascular necrosis"],
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-ANP-0030.svg",
+          alt: "Negative feedback loop: a stimulus moves a value from its set point, a sensor detects it and an effector reverses the change",
+          caption: "Serum calcium is held inside a narrow window by negative feedback: a fall in calcium releases parathyroid hormone, which pulls calcium from bone, saves it in the kidney and activates vitamin D, and the rising calcium then switches the hormone off again.",
+        },
+        {
+          type: "table",
+          heading: "Calcium control — three hormones and one window (2.2–2.6 mmol/L)",
+          columns: ["Hormone", "From", "Released when", "Effect"],
+          rows: [
+            ["<strong>Parathyroid hormone (PTH)</strong>", "Four parathyroid glands behind the thyroid — easily bruised or removed during thyroidectomy", "Serum calcium falls", "Osteoclasts release calcium from bone; kidney reabsorbs calcium and excretes phosphate; kidney activates vitamin D. Net effect: calcium rises"],
+            ["<strong>Active vitamin D (calcitriol)</strong>", "Made from sunlight on skin or diet, converted in the liver then the kidney", "PTH, low phosphate", "Increases calcium and phosphate absorption from the gut; mineralises bone. Deficiency gives rickets in children and osteomalacia in adults; kidney and liver failure stop activation"],
+            ["<strong>Calcitonin</strong>", "Thyroid C cells", "Serum calcium rises", "Inhibits osteoclasts, lowers calcium (minor role in adults; used as a drug in hypercalcaemia)"],
+            ["<strong>Oestrogen and testosterone</strong>", "Ovaries, testes", "—", "Restrain osteoclasts; loss at the menopause accelerates bone loss, which is why fragility fractures climb steeply in women after 50"],
+          ],
+        },
+        {
+          type: "table",
+          heading: "When calcium leaves the window",
+          columns: ["", "Hypocalcaemia", "Hypercalcaemia"],
+          rows: [
+            ["Common causes", "After thyroid or parathyroid surgery, vitamin D deficiency, chronic kidney disease, acute pancreatitis, massive transfusion (citrate), low magnesium", "Malignancy (bone metastases, myeloma), primary hyperparathyroidism, prolonged immobilisation, vitamin D excess, thiazide diuretics"],
+            ["Signs", "Tingling around the mouth and in the fingers, cramps, <strong>carpopedal spasm</strong>, Trousseau's sign (spasm of the hand when a blood-pressure cuff is inflated), Chvostek's sign (facial twitch on tapping the cheek), tetany, laryngospasm, seizures, prolonged QT", "‘Stones, bones, groans and psychic moans’: thirst and polyuria, constipation, nausea, bone pain, confusion and drowsiness, kidney stones, short QT and arrhythmia"],
+            ["Nursing response", "Report at once (airway risk); check serum calcium and magnesium; IV calcium gluconate 10% for symptomatic patients; oral calcium and vitamin D for maintenance; after thyroidectomy ask about tingling at every set of observations for 48 hours", "Report; IV normal saline rehydration first, then bisphosphonate (zoledronic acid) and treatment of the cause; mobilise the immobilised; stop calcium and vitamin D supplements and thiazides"],
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-NUT-0270.svg",
+          alt: "Fat-soluble vitamins A, D, E and K compared with water-soluble vitamins: storage, time to deficiency and risk of overdose",
+          caption: "Vitamin D is fat-soluble: it is stored for months, so deficiency creeps up slowly in children kept indoors or fully covered and in older people who rarely go outside — and because it is stored, high-dose supplements can also accumulate to toxicity.",
+        },
+        {
+          type: "text",
+          heading: "Bone health across the lifespan — what the nurse teaches",
+          paragraphs: [
+            "Bone mass is built until about the age of 30 (<strong>peak bone mass</strong>) and then slowly lost, faster in women after the menopause. The bank balance built in childhood and adolescence decides how much can be lost later before fractures begin, so bone health is a child-health and antenatal topic as much as a geriatric one. The deposits are <strong>calcium</strong> (milk and yoghurt where affordable, small dried fish eaten whole with the bones, kontomire and other dark leaves, beans, groundnuts, fortified foods), <strong>vitamin D</strong> (ten to thirty minutes of sun on the arms and legs several times a week — dark skin needs longer exposure than pale skin, and fully covered dress, indoor work and keeping infants out of the sun all cause deficiency even in a tropical country), <strong>weight-bearing and resistance exercise</strong> (walking, farming, carrying, dancing), and <strong>protein</strong>.",
+            "The withdrawals are smoking, heavy alcohol, prolonged immobility, under-nutrition and low body weight, early menopause, long courses of corticosteroids (7.5 mg prednisolone or more for three months or longer), some anti-epileptics and antiretrovirals, untreated thyroid excess and chronic kidney disease. A nurse who sees a woman started on long-term prednisolone, an adolescent with anorexia, a man with a fragility fracture or an older woman asking about bone health after the menopause has a prevention conversation to have — and it is far cheaper than a hip fracture.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "What examiners ask from this lesson",
+          body: "Bone is living tissue that remodels — so immobility weakens it and loading strengthens it. Fracture healing runs haematoma → inflammation → soft callus → hard callus → remodelling, and the scaphoid and femoral neck heal badly because their blood supply is poor. Tingling and carpopedal spasm after thyroidectomy mean hypocalcaemia from bruised parathyroids — report it, do not wait for the laboratory. Vitamin D comes mainly from sunlight on skin, and deficiency is common in covered or indoor children and adults even in Ghana.",
+        },
+      ],
+      keyPoints: [
+        "The skeleton supports, protects, moves, stores calcium and makes blood; bone remodels continuously, so loading strengthens it and immobility weakens it.",
+        "Synovial joints move freely and are the site of osteoarthritis (cartilage), rheumatoid arthritis (synovium), gout (crystals) and septic arthritis (which destroys cartilage within days).",
+        "Ligaments join bone to bone (sprain), tendons join muscle to bone (rupture, tendinitis), muscles waste within days of disuse and shorten into contractures if joints are not moved.",
+        "Fracture healing: haematoma → inflammation → soft callus (2–3 weeks) → hard callus (6–12 weeks) → remodelling (months to years); slowed by infection, poor blood supply, movement, smoking, diabetes, steroids and malnutrition.",
+        "PTH raises calcium (bone, kidney, vitamin D activation), calcitonin lowers it, oestrogen protects bone; serum calcium normal 2.2–2.6 mmol/L.",
+        "Hypocalcaemia: perioral tingling, carpopedal spasm, Trousseau's and Chvostek's signs, laryngospasm — classically after thyroidectomy. Hypercalcaemia: thirst, polyuria, constipation, confusion — classically malignancy or immobility.",
+        "Peak bone mass is reached by 30; calcium, vitamin D from sunlight, weight-bearing exercise and avoiding smoking, alcohol and long-term steroids protect it.",
+      ],
+      quiz: {
+        keywords: ["bone", "skelet", "muscle", "joint", "calcium", "vitamin d", "parathyroid", "rickets", "osteo", "negative feedback", "oestrogen", "hypocalc", "hypercalc", "carpal", "thyroidectomy", "thyroid surgery", "fat soluble"],
+      },
+    },
+    {
+      slug: "musculoskeletal-assessment-and-investigations",
+      title: "Musculoskeletal assessment and investigations",
+      minutes: 16,
+      objectives: [
+        "Take a focused musculoskeletal history including mechanism of injury, red flags and any traditional treatment already received.",
+        "Examine a limb or joint using look–feel–move and function, comparing with the other side.",
+        "Perform and document a neurovascular assessment using the six Ps, and escalate the findings that cannot wait.",
+        "Assess pain with an age-appropriate tool, describe common gait abnormalities and weight-bearing status, and prepare patients for X-ray, MRI, DEXA, joint aspiration and the blood tests used in orthopaedics.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "The history — mechanism, function, red flags and what was done before you",
+          paragraphs: [
+            "Start with the <strong>mechanism</strong>: how much energy went into the body and in which direction. A fall from standing in an 80-year-old breaks a hip; a fall from a mango tree or a motorcycle crash at speed can break the pelvis, spine and both femurs at once and the patient needs a trauma primary survey before anyone looks at the obviously deformed leg. A twisting injury tears ligaments and produces spiral fractures; a fall on the outstretched hand breaks the wrist, scaphoid, elbow or clavicle depending on age; a dashboard striking a bent knee dislocates the hip. Ask about pain using <strong>SOCRATES</strong> (site, onset, character, radiation, associated symptoms, timing, exacerbating and relieving factors, severity), about <strong>function</strong> — can they walk, bear weight, climb stairs, dress, hold a cup — and what they could do a week ago, because the gap between the two is the problem you are nursing.",
+            "Ask routinely about the <strong>red flags</strong> that turn a musculoskeletal complaint into an emergency or a cancer referral: night or rest pain, fever and sweats, weight loss, a known cancer, immunosuppression, steroids, new weakness or numbness, and any bladder or bowel change. Record past history that changes management — sickle cell disease, diabetes, previous fractures (fragility), menopause, HIV, tuberculosis contact, bleeding disorders — and the medicines that matter: anticoagulants, steroids, NSAIDs bought from a chemical seller, and tramadol. Ask who is at home, whether there are stairs or a pit latrine across the compound, and what the person does for a living: <strong>discharge planning begins at the first assessment</strong>.",
+            "Finally ask, without judgement, what has already been done. Many Ghanaian patients arrive days or weeks after a <strong>traditional bone setter</strong> has applied tight splints, massage or herbal dressings; some have taken herbal preparations that may contain hidden steroids or NSAIDs. Ask how long ago, what was applied and whether anything was taken by mouth — the answers change what you look for under the bandage and which drugs are safe to give.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Look, feel, move — then function. Always compare with the other side.",
+          style: "steps",
+          items: [
+            "<strong>Look</strong> with the area fully exposed and the other limb beside it: swelling, deformity, shortening or rotation, bruising, wounds (any wound over a fracture makes it open until proved otherwise), scars, redness, muscle wasting, posture and how the limb is being held (a septic hip is held flexed and turned out; a dislocated shoulder is supported by the other hand).",
+            "<strong>Feel</strong> with warm hands, starting away from the painful spot: temperature (compare sides with the back of your hand), localised bony tenderness (fracture) versus soft-tissue tenderness, effusion, crepitus (grating of fragments — note it if present but never try to produce it), distal pulses and capillary refill.",
+            "<strong>Move</strong>: ask for <strong>active</strong> movement first — if the patient can move the joint fully, you rarely need to force it; then gentle <strong>passive</strong> movement, recording the range in degrees and what stops it (pain, stiffness, mechanical block). Never force a joint that is acutely injured, infected or possibly fractured.",
+            "<strong>Function</strong>: watch the patient walk, stand from a chair, grip, lift the arm above the head, bear weight. Record what they can and cannot do rather than only what hurts.",
+            "<strong>Neurovascular status</strong> of everything distal to an injury, cast, dressing or operation — the next table — and <strong>document the baseline</strong>, because the serious findings are changes over time.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "The neurovascular assessment — the six Ps, and what to actually check",
+          columns: ["P", "What you check", "Normal", "Report"],
+          rows: [
+            ["<strong>Pain</strong>", "Severity at rest; pain on <strong>passive stretch</strong> of the muscles in the compartment (straighten the fingers or toes gently); response to analgesia", "Proportionate to the injury, eased by elevation and prescribed analgesia", "Pain out of proportion, increasing despite analgesia, worse on passive stretch — <strong>compartment syndrome until proved otherwise</strong>"],
+            ["<strong>Pallor / colour</strong>", "Compare colour with the other limb; on dark skin look at the nail beds, palms and soles and feel for temperature", "Same colour and warmth as the other side", "Pale, dusky, blue or mottled; one limb cooler than the other"],
+            ["<strong>Pulses</strong>", "Radial and ulnar; dorsalis pedis and posterior tibial; use a Doppler if you cannot feel one and mark the spot", "Present and equal", "Absent or weak — but remember a present pulse does not exclude compartment syndrome"],
+            ["<strong>Paraesthesia</strong> (sensation)", "Light touch in the territory of each nerve: arm — radial (back of the thumb web), median (tip of the index finger), ulnar (tip of the little finger); leg — peroneal (top of the foot, first web space), tibial (sole)", "Normal and equal", "New tingling, numbness, pins and needles, or a patch that feels different"],
+            ["<strong>Paralysis</strong> (movement)", "Arm — thumbs up (radial), OK sign (median), spread the fingers (ulnar); leg — pull the foot up (peroneal), push it down (tibial); wiggle the toes and fingers", "Full active movement", "Weak or absent movement — a late sign"],
+            ["<strong>Perishing cold</strong> and swelling", "Temperature of the limb, capillary refill at the nail bed (press 5 seconds), tightness of swelling, fit of the cast or dressing", "Warm, refill under 2 seconds, swelling soft", "Cold limb, refill over 2 seconds, tense shiny swelling, cast or bandage now tight"],
+          ],
+        },
+        {
+          type: "callout",
+          tone: "warning",
+          title: "How often, and what to do with the answer",
+          body: "Check neurovascular status before and after any splint, cast, traction or reduction, then hourly for the first 24 hours after injury or surgery and four-hourly afterwards, or as prescribed. Document each P so that the next nurse can see a change. Any deterioration — new or worsening pain, altered sensation, reduced movement, colour or temperature change — is reported immediately to the doctor in charge, the limb is kept at heart level (not above it), and any circumferential cast, bandage or dressing is released down to the skin while you wait. A number written on a chart is not an escalation.",
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-SRG-0527.svg",
+          alt: "Fracture types and compartment syndrome: the six Ps in the order they appear, from pain on passive stretch to pulselessness, and the actions to take",
+          caption: "The Ps appear in an order, and pain comes first: by the time the pulse disappears the muscle has usually been dying for hours. Act on disproportionate pain and pain on passive stretch, not on the pulse.",
+        },
+        {
+          type: "table",
+          heading: "Pain assessment — choose the tool for the patient",
+          columns: ["Tool", "Who", "How"],
+          rows: [
+            ["Numeric rating scale 0–10 or verbal descriptor (none, mild, moderate, severe)", "Adults and children over about 8 who can self-report", "Ask at rest <strong>and on movement</strong>; a patient who scores 2 lying still and 9 when turned needs analgesia before turning, physiotherapy and dressings"],
+            ["Wong-Baker FACES", "Children from about 3 years; adults with limited literacy", "Point to the face that shows how much you hurt; explain that it is about pain, not mood"],
+            ["FLACC (Face, Legs, Activity, Cry, Consolability)", "Infants, toddlers and children who cannot self-report", "Observe for 1–5 minutes; each item 0–2; total 0–10. Children in pain also go quiet and still — a silent child in traction is not necessarily comfortable"],
+            ["Abbey Pain Scale or PAINAD", "Older adults with dementia or who cannot communicate", "Vocalisation, facial expression, body language, behaviour change, physiological change, physical change; <strong>assume pain is present</strong> after a hip fracture even if the patient cannot say so"],
+            ["Reassessment", "Everyone", "30 minutes after an intravenous dose and 60 minutes after an oral dose; before and after procedures; believe the patient's report — it is the gold standard, not your estimate from the X-ray"],
+          ],
+        },
+        {
+          type: "table",
+          heading: "Gait, mobility and weight-bearing — words you will write and read",
+          columns: ["Term", "Meaning", "Seen in"],
+          rows: [
+            ["Antalgic gait", "Short stance phase on the painful side — the patient hurries off the sore leg", "Any painful hip, knee, ankle or foot; a limping child always needs assessment"],
+            ["Trendelenburg gait", "Pelvis drops on the opposite side when standing on the weak leg; trunk lurches over it", "Weak hip abductors — developmental dysplasia of the hip, hip arthritis, after hip surgery"],
+            ["High-stepping gait", "Foot slaps and the knee is lifted high because the foot cannot be pulled up", "Foot drop — common peroneal nerve pressure from a cast, tight bandage or traction; L5 nerve root; leprosy"],
+            ["Shuffling, festinating gait", "Short steps, stooped, difficulty starting and turning", "Parkinson's disease — a major falls risk"],
+            ["Waddling gait", "Rolling from side to side", "Proximal muscle weakness — osteomalacia, muscular dystrophy, bilateral hip dysplasia; late pregnancy"],
+            ["Weight-bearing status", "<strong>NWB</strong> non-weight-bearing (foot does not touch the ground), <strong>PWB</strong> partial (touch or a stated percentage), <strong>FWB</strong> full / weight-bear as tolerated", "Written by the surgeon after every fracture or operation and must be known by every nurse and physiotherapist mobilising the patient"],
+            ["Timed Up and Go", "Time to stand from a chair, walk 3 metres, turn, return and sit", "More than 12 seconds predicts falls; a quick bedside functional measure"],
+          ],
+        },
+        {
+          type: "table",
+          heading: "Investigations — what each shows and how the nurse prepares the patient",
+          columns: ["Investigation", "What it shows", "Nursing preparation and points"],
+          rows: [
+            ["<strong>Plain X-ray</strong>", "Fractures, dislocations, joint-space narrowing, bone destruction, callus; normal in the first 10–14 days of osteomyelitis and in some scaphoid and hip fractures", "The rule of twos: two views at right angles, two joints (above and below), two sides in children (compare), two occasions if the first is normal but the signs persist. Ask about pregnancy; remove jewellery and metal; splint and give analgesia before moving the patient to the X-ray department; repeat films after reduction and cast application"],
+            ["CT scan", "Complex fractures (pelvis, spine, joints), pre-operative planning", "Contrast may be used — check kidney function and allergy; spinal precautions maintained throughout"],
+            ["<strong>MRI</strong>", "Soft tissue, discs, spinal cord compression, early osteomyelitis, avascular necrosis, tumours, ligament and meniscal tears", "No ferrous metal: pacemakers, cochlear implants, some aneurysm clips, metal fragments in the eye are contraindications — complete the safety checklist; remove jewellery, hairpins, cards; explain the noise and duration; claustrophobia may need sedation; expensive and scarce, so patients are prioritised"],
+            ["Ultrasound", "Joint effusion, subperiosteal pus, tendon tears, developmental dysplasia of the infant hip (under 4–6 months), DVT", "No preparation; safe in children and pregnancy"],
+            ["<strong>DEXA scan</strong>", "Bone mineral density; T-score −2.5 or lower = osteoporosis, −1 to −2.5 = osteopenia", "No calcium tablets on the day; remove metal; low radiation"],
+            ["Bone scan", "Metastases, stress fractures, infection", "Radioactive tracer — encourage fluids afterwards"],
+            ["Blood tests", "FBC (anaemia from bleeding, white cells in infection); ESR and CRP (inflammation and infection — used to monitor treatment); calcium, phosphate and alkaline phosphatase (ALP rises in healing fractures, rickets, Paget's disease, bone metastases); vitamin D; uric acid (may be normal during an acute gout attack); rheumatoid factor and anti-CCP; sickling test and haemoglobin electrophoresis; creatine kinase (rhabdomyolysis); blood cultures; group and save before surgery", "Take blood cultures <strong>before</strong> antibiotics in suspected bone or joint infection"],
+            ["<strong>Joint aspiration (arthrocentesis)</strong>", "Synovial fluid cell count, Gram stain and culture, crystals (gout) — the test that separates septic arthritis from everything else", "Strict asepsis (it is a sterile cavity); never through infected skin; consent; position and reassure; label specimens; pressure dressing and observe the site; rest the joint; an acutely hot swollen joint should be aspirated before any antibiotic or steroid is given"],
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "What examiners ask from this lesson",
+          body: "The patient in a new cast with increasing pain and tingling in the fingers has possible compartment syndrome — the nurse's first action is to release the cast and padding down to skin, keep the limb at heart level and call the doctor; a present pulse is falsely reassuring. Active movement is tested before passive. Pain is assessed with a tool matched to the patient's age and ability, and reassessed after analgesia. Blood cultures and joint aspiration come before antibiotics. MRI needs a metal safety check; X-rays follow the rule of twos.",
+        },
+      ],
+      keyPoints: [
+        "The history asks mechanism and energy, function now versus before, red flags (night pain, fever, weight loss, cancer, neurology, bladder or bowel change), relevant disease (sickle cell, diabetes, steroids) and what traditional treatment has already been applied.",
+        "Examine look–feel–move–function, expose and compare with the other side, test active before passive movement and never force an acutely injured joint.",
+        "Neurovascular assessment: pain (especially on passive stretch), pallor, pulses, paraesthesia, paralysis, perishing cold, capillary refill and swelling — before and after every splint or cast, hourly for 24 hours, and documented as a baseline so change is visible.",
+        "Pain out of proportion is compartment syndrome until proved otherwise; pulses disappear last.",
+        "Choose the pain tool for the patient (numeric, FACES, FLACC, Abbey) and reassess after every intervention; believe the patient.",
+        "Know the gait patterns and the patient's written weight-bearing status before mobilising anyone.",
+        "X-rays follow the rule of twos and can be normal early; MRI needs a metal check; DEXA T-score ≤ −2.5 is osteoporosis; blood cultures and joint aspiration precede antibiotics.",
+      ],
+      quiz: {
+        keywords: ["neurovascular", "capillary refill", "tingling", "pain assessment", "pain score", "faces", "swollen", "limp", "gait", "walking", "mobility", "range of motion", "deform", "orthopaed", "pain in advanced dementia", "pulses", "pulseless", "sensation", "warmth", "cool skin", "bear weight", "toes"],
+      },
+    },
+  ],
+};

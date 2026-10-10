@@ -1,0 +1,317 @@
+import type { CourseModule } from "../types";
+
+export const fluidImbalance: CourseModule = {
+  slug: "fluid-imbalances-and-iv-therapy",
+  title: "Fluid imbalances and intravenous therapy",
+  summary: "Recognising and correcting too little fluid and too much — oral rehydration plans for children and adults, intravenous resuscitation, fluid overload and restriction — and running an intravenous infusion safely from the prescription to the moment you stop it.",
+  lessons: [
+    {
+      slug: "dehydration-and-hypovolaemia",
+      title: "Dehydration and hypovolaemia in children and adults",
+      minutes: 17,
+      objectives: [
+        "Classify dehydration in a child as none, some or severe and apply WHO Plans A, B and C.",
+        "Prepare and give oral rehydration solution and zinc correctly, including in cholera.",
+        "Recognise hypovolaemic shock in adults and children and start intravenous resuscitation.",
+        "Calculate deficit, maintenance and ongoing-loss requirements.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "The commonest emergency in Ghanaian paediatrics",
+          paragraphs: [
+            "Diarrhoeal disease remains one of the leading killers of children under five in Ghana, and almost every one of those deaths is a death from <strong>dehydration</strong> — which a sachet of oral rehydration salts, clean water and a cup can prevent. Rotavirus, cholera, shigella, salmonella and malaria all cause it; so do vomiting, fever, burns, diabetic ketoacidosis, haemorrhage and simply being too ill to drink.",
+            "Dehydration means loss of water (and usually salt) from the whole body; <strong>hypovolaemia</strong> means the circulating volume is low; <strong>shock</strong> means the circulation can no longer perfuse the tissues. A child can be 10% dehydrated and still have a normal blood pressure — compensation hides the loss until it fails suddenly.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-FLD-2172.svg",
+          alt: "Judging dehydration at the bedside: the order signs appear from thirst to falling blood pressure, the urine output and capillary refill thresholds, and the 4-2-1 maintenance rule",
+          caption: "Thirst → less, darker urine → fast pulse, sunken eyes, slow skin pinch → falling blood pressure. A normal blood pressure does not mean a normal volume.",
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-CHI-3023.svg",
+          alt: "Three-column table classifying no, some and severe dehydration by alertness, drinking, eyes and skin pinch, with the matching treatment plan",
+          caption: "Two or more signs in a column place the child in that column. Lethargic or unconscious, drinking poorly, very slow skin pinch = severe = Plan C now.",
+        },
+        {
+          type: "table",
+          heading: "Classifying and treating the child with diarrhoea (WHO/IMCI)",
+          columns: ["", "No dehydration — Plan A", "Some dehydration — Plan B", "Severe dehydration — Plan C"],
+          rows: [
+            ["Signs (two or more)", "Alert, drinks normally, eyes normal, skin pinch returns immediately", "Restless or irritable, sunken eyes, drinks eagerly or thirsty, skin pinch goes back slowly (under 2 seconds)", "Lethargic or unconscious, sunken eyes, drinks poorly or unable to drink, skin pinch goes back very slowly (more than 2 seconds)"],
+            ["Fluid loss", "Less than 5% of body weight", "5–10%", "More than 10%"],
+            ["Where", "Home", "Health facility, then home", "Facility with IV access — refer urgently if none"],
+            ["Fluid", "Extra fluid after each loose stool: under 2 years 50–100 mL; 2–10 years 100–200 mL; older, as much as wanted — ORS, rice water, soup, clean water; continue breastfeeding", "<strong>ORS 75 mL/kg over 4 hours</strong> by cup and spoon, small frequent sips; if vomiting, wait 10 minutes and continue more slowly; reassess at 4 hours and reclassify; by nasogastric tube 20 mL/kg/hour if unable to drink", "<strong>IV Ringer's lactate (or normal saline) 100 mL/kg</strong>: under 12 months — 30 mL/kg in the first hour, then 70 mL/kg over 5 hours; 12 months to 5 years — 30 mL/kg in 30 minutes, then 70 mL/kg over 2½ hours. Repeat the first bolus if the radial pulse is still weak. Start ORS 5 mL/kg/hour as soon as the child can drink. Reassess every 15–30 minutes"],
+            ["Zinc", "10 mg daily under 6 months; 20 mg daily from 6 months — for 10–14 days in every case", "Same", "Same, once drinking"],
+            ["Feeding", "Continue; one extra meal a day for 2 weeks after", "Continue after the 4 hours", "Resume as soon as able"],
+            ["Return at once if", "Blood in stool, drinking poorly, more unwell, fever, vomiting everything", "Same", "—"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Oral rehydration solution — preparing and giving it",
+          items: [
+            "Low-osmolarity ORS: dissolve <strong>one sachet in exactly the volume stated</strong> (usually 1 litre or 500 mL of clean, boiled-and-cooled water) — too little water makes a hypertonic solution that worsens diarrhoea; too much makes it ineffective. Discard after 24 hours.",
+            "Home-made salt–sugar solution if sachets are unavailable: 1 litre clean water + <strong>half a level teaspoon of salt + six level teaspoons of sugar</strong>; it must taste no saltier than tears.",
+            "Give by cup and spoon or cup, a teaspoon every 1–2 minutes for a small child; a syringe if needed; <strong>not by bottle</strong> and not forced. Vomiting is not a reason to stop — pause 10 minutes, then slower. Continue breastfeeding between sips.",
+            "Mothers must leave with sachets, a demonstration, zinc, feeding advice and the danger signs. Antidiarrhoeals (loperamide) are contraindicated in children; antibiotics are for dysentery (bloody stool), cholera and suspected sepsis, not for watery diarrhoea.",
+            "<strong>Severe acute malnutrition</strong> changes everything: standard ORS and rapid IV fluids kill because the heart is weak and sodium cannot be handled — use ReSoMal slowly by mouth or NG tube (5 mL/kg every 30 minutes for 2 hours, then 5–10 mL/kg/hour) and IV fluids only for shock, at half rate, with a rising pulse or respiratory rate meaning stop.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-FLD-3160.svg",
+          alt: "Plan C table: 100 mL/kg of Ringer's lactate split into 30 mL/kg then 70 mL/kg with different timings for infants and older children",
+          caption: "Plan C: 30 then 70 mL/kg — one hour then five for infants, thirty minutes then two and a half hours for children over a year. Reassess continuously.",
+        },
+        {
+          type: "table",
+          heading: "Cholera: dehydration at speed",
+          columns: ["Point", "What to do"],
+          rows: [
+            ["Recognise", "Sudden profuse painless 'rice-water' stools, vomiting, rapid dehydration in anyone over 5 years during an outbreak; notify the same day"],
+            ["Assess with the adult table", "No dehydration; some (restless, thirsty, sunken eyes, slow pinch, dry tongue); severe (lethargic, weak or absent radial pulse, capillary refill over 3 seconds, unable to drink). <strong>A circulatory sign overrides the fact that the patient can still drink</strong>"],
+            ["Severe", "IV Ringer's lactate 100 mL/kg — adults: 30 mL/kg in 30 minutes then 70 mL/kg over 2½ hours — through two large cannulae; a 60 kg adult may need 6 litres in the first 3 hours and 10–20 litres in the first day; plus ORS as soon as they can drink; antibiotics (doxycycline single dose for adults, azithromycin for children and pregnant women) shorten the illness and shedding"],
+            ["Ongoing losses", "Measure every stool (cholera cot with a bucket) and replace volume for volume with ORS; the mistake is to stop too early"],
+            ["Nursing", "Hourly pulse, respiratory rate, consciousness, stool volume and urine output; watch for overload in the elderly; hypokalaemia (weakness, ileus) — ORS contains potassium; strict hand hygiene, gloves and apron, chlorine disinfection of stools, vomit and surfaces; safe water for the family"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Hypovolaemia in adults — the first hour",
+          items: [
+            "Causes: haemorrhage (trauma, post-partum, ruptured ectopic, GI bleeding, ruptured spleen), gut losses, burns, DKA, sepsis with leak, third-space losses after surgery or in pancreatitis, over-diuresis.",
+            "Recognise: tachycardia, narrow pulse pressure, cool peripheries, capillary refill over 2–3 seconds, postural dizziness, anxiety then confusion, <strong>urine output under 0.5 mL/kg/hour</strong>; hypotension when 30% or more of the volume has gone (class III shock). Young adults and pregnant women compensate for longer; patients on beta-blockers cannot mount a tachycardia.",
+            "Act: lie flat with legs raised (left lateral in late pregnancy), high-flow oxygen, <strong>two large-bore cannulae</strong> (14–16 G) and take blood for full count, group and crossmatch, urea and electrolytes, glucose and lactate; <strong>500 mL warmed isotonic crystalloid (Ringer's lactate or normal saline) over 15 minutes</strong> (250 mL in heart failure or the frail), reassess pulse, blood pressure, capillary refill and consciousness, repeat up to 2 litres while help arrives; for haemorrhage give blood early, control the bleeding (pressure, tourniquet, uterine massage and oxytocics for post-partum haemorrhage) and avoid drowning the patient in clear fluid; catheterise and measure hourly urine; keep warm.",
+            "Never use dextrose 5% or hypotonic fluids for resuscitation — they leave the circulation.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Working out how much fluid",
+          style: "steps",
+          items: [
+            "<strong>Deficit:</strong> percentage dehydration × weight in kg × 10 = mL. A 12 kg child with some dehydration (about 7.5%) has lost 12 × 7.5 × 10 = <strong>900 mL</strong> — which is why Plan B gives 75 mL/kg (12 × 75 = 900 mL) over 4 hours.",
+            "<strong>Maintenance (4-2-1 rule, per hour):</strong> 4 mL/kg for the first 10 kg, 2 mL/kg for the next 10 kg, 1 mL/kg for each kilogram above 20. A 25 kg child: 40 + 20 + 5 = <strong>65 mL/hour</strong> (about 1 560 mL a day). An adult needs roughly 25–30 mL/kg/day — about 2 litres for 70 kg.",
+            "<strong>Ongoing losses:</strong> measure and replace — each watery stool in a child under 2 years with 50–100 mL of ORS; nasogastric aspirate and stoma output millilitre for millilitre with an appropriate fluid; add about 10% more for each degree of fever.",
+            "<strong>Total = deficit + maintenance + ongoing losses</strong>, minus anything already given, re-planned at every reassessment — the patient's pulse, urine and weight tell you whether the arithmetic was right.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Plans and numbers",
+          body: "Plan A: extra fluid at home + zinc. Plan B: ORS 75 mL/kg over 4 hours. Plan C: IV Ringer's 100 mL/kg — infants 30 mL/kg in 1 h then 70 in 5 h; over a year 30 in 30 min then 70 in 2½ h. Zinc 10 mg under 6 months, 20 mg above, for 10–14 days. Adult bolus 500 mL crystalloid over 15 minutes, reassess. Malnutrition: ReSoMal slowly, IV only for shock.",
+        },
+      ],
+      keyPoints: [
+        "Classify the child by alertness, drinking, eyes and skin pinch: Plan A at home, Plan B ORS 75 mL/kg over 4 hours, Plan C IV Ringer's lactate 100 mL/kg.",
+        "ORS is mixed in exactly the stated volume and given by cup and spoon; zinc for 10–14 days; feeding continues; antidiarrhoeals are contraindicated in children.",
+        "Blood pressure falls last — the pulse, capillary refill, urine output and skin tell you first; a weak radial pulse in cholera means severe dehydration whatever the patient says.",
+        "Adult hypovolaemia: two large cannulae, 500 mL isotonic crystalloid over 15 minutes, reassess, blood early for haemorrhage, hourly urine.",
+        "Fluid requirement = deficit (% × kg × 10) + maintenance (4-2-1) + ongoing losses, recalculated at every reassessment; severe malnutrition is rehydrated slowly with ReSoMal.",
+      ],
+      quiz: {
+        keywords: ["dehydrat", "oral rehydration", "zinc", "diarrhoea", "cholera", "hypovolaem", "ringer", "skin pinch", "sunken", "capillary refill", "plan b", "plan c", "resomal", "deficit", "maintenance fluid"],
+      },
+    },
+    {
+      slug: "fluid-overload-and-oedema",
+      title: "Fluid overload, oedema and fluid restriction",
+      minutes: 13,
+      objectives: [
+        "Recognise fluid overload early and respond before pulmonary oedema develops.",
+        "Identify the patients who overload easily and adjust infusion plans for them.",
+        "Nurse the oedematous patient: skin, positioning, mobility, nutrition and comfort.",
+        "Implement a fluid restriction the patient can actually keep.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "The commonest fluid error on a ward",
+          paragraphs: [
+            "Most fluid harm in hospital is not dehydration but <strong>too much fluid, too fast, to the wrong patient</strong>: the elderly woman with a chest infection given a litre of saline four-hourly for three days, the heart-failure patient 'kept open' with a drip nobody reviewed, the oliguric patient whose infusion kept running because the chart said so. The lungs are where the excess finally shows — and by then the patient is breathless and frightened at two in the morning.",
+            "Overload happens when intake exceeds what the kidneys can excrete (kidney failure, excessive IV fluid, SIADH, high-sodium drugs and infusions) or when the body retains salt and water despite a normal intake (heart failure, cirrhosis, nephrotic syndrome, steroids, pregnancy).",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-FLD-2175.svg",
+          alt: "Running a drip safely: drop-rate formula, the signs you are giving too much, the patients who overload easily and what to check before starting an infusion",
+          caption: "Breathlessness that began while the drip ran, crackles at the bases, a rising pulse and respiratory rate, full neck veins — slow or stop it, sit the patient up, give oxygen and call.",
+        },
+        {
+          type: "table",
+          heading: "Recognising overload — from early to late",
+          columns: ["Stage", "Findings", "What the nurse does"],
+          rows: [
+            ["Early", "Weight gain of 1 kg or more overnight; positive cumulative balance; new ankle or sacral oedema; puffy eyes; raised JVP; patient asks for an extra pillow", "Review the infusion and the whole chart; weigh; report; anticipate a diuretic and a slower rate"],
+            ["Established", "Rising pulse and respiratory rate; crackles at both bases; SpO2 falling; breathless on exertion then at rest; cough", "Slow or stop the infusion, sit upright, oxygen to target, call the doctor, prepare furosemide IV, catheter and hourly urine, 12-lead ECG"],
+            ["Pulmonary oedema", "Severe breathlessness, orthopnoea, <strong>frothy pink sputum</strong>, cold sweat, agitation, crackles to the apices, wheeze, hypoxia", "Emergency: stop fluids, sit up with legs dependent, high-flow oxygen, IV furosemide 40–80 mg, consider nitrates and CPAP, continuous monitoring; this is a cardiac-arrest risk"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Patients who overload easily — and how to protect them",
+          items: [
+            "The <strong>very old and very young</strong>, <strong>heart failure</strong> of any cause, <strong>kidney failure or anyone passing little urine</strong>, <strong>severe anaemia</strong> (the heart is already working hard — transfuse slowly, with furosemide between units if needed), <strong>severe acute malnutrition</strong> (ReSoMal slowly; stop if the pulse or breathing rise), <strong>liver cirrhosis</strong>, <strong>pre-eclampsia</strong> (leaky capillaries; restrict to about 80 mL/hour total), and post-operative patients retaining water under the influence of ADH.",
+            "Before every bag: the prescription (fluid, volume, rate, additives), the bag (name, strength, expiry, clarity, seal), the patient (identity, allergy, weight), the site, and <strong>the urine output since the last bag</strong>. Ask 'how much has this patient already had today?' — check the whole chart, not one line.",
+            "Smaller boluses (250 mL) with reassessment after each; a burette or infusion pump for children and at-risk adults; never 'catch up' a drip that has run behind by opening it fully.",
+            "Stop maintenance fluids as soon as the patient drinks; review every IV prescription at least daily; question any prescription for more than 2 litres a day in a small or frail adult.",
+            "Daily weights and a cumulative balance; report a positive balance of more than 1–1.5 litres in 24 hours in an at-risk patient.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Nursing the oedematous patient",
+          items: [
+            "<strong>Skin:</strong> oedematous skin is thin, poorly perfused and breaks down easily — inspect sacrum, heels, ankles and under the breasts and abdomen every shift; reposition two-hourly; pressure-relieving mattress; keep skin clean and dry; pat, do not rub; no tight clothing, tape or tourniquets left on; protect from scratches and insect bites because weeping oedema becomes cellulitis.",
+            "<strong>Positioning:</strong> elevate legs when sitting; upright with the arms supported when breathless; the scrotum supported on a towel; avoid long periods standing.",
+            "<strong>Mobilise</strong> gently — calf muscles pump the fluid back and reduce the DVT risk that oedema and immobility create; passive leg exercises in bed.",
+            "<strong>Diet:</strong> no-added-salt (under 2 g sodium / 5 g salt a day — no stock cubes, salted fish, shito, canned foods, soda); adequate protein unless uraemic; weigh the food's water (soups, fruit, ice) in the restriction.",
+            "<strong>Diuretics:</strong> give in the morning (and early afternoon if twice daily) so the patient sleeps; measure the response — weight and urine; watch potassium, sodium, magnesium, blood pressure (postural) and creatinine; furosemide IV slowly (no faster than 4 mg/minute) to avoid deafness.",
+            "<strong>Comfort and dignity:</strong> commode or urinal within reach after a diuretic; loose clothing and shoes; explain why the swelling is there and what will reduce it; elevate limbs in bed on pillows, not with the knees bent and compressed.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Making a fluid restriction work",
+          items: [
+            "Typical limits: 1–1.5 litres a day in heart failure and hyponatraemia; 500 mL plus the previous day's urine output in oliguric kidney failure; agreed with the doctor and written on the chart and at the bedside.",
+            "Count <strong>everything</strong> liquid at room temperature — tea, water for tablets, soup, porridge, ice, fruit juice, IV fluids and drug infusions — and share the total between the day, with most of it when drugs are taken and at meals.",
+            "Give the patient control: a labelled jug containing the day's allowance, small cups, a written plan; spread small drinks; ice chips and frozen fruit last longer than water.",
+            "Relieve thirst without fluid: frequent mouth care, lip balm, sugar-free gum or sweets, rinsing without swallowing, avoiding salty food and dry hot air; treat the dry mouth of oxygen with humidification.",
+            "Weigh daily; check sodium and potassium; involve the family so they do not bring 'just a small sachet of water'; reassess the limit as the patient improves.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "The overload sequence",
+          body: "Weight gain → oedema and raised JVP → tachycardia and tachypnoea → basal crackles → frothy pink sputum. At the first sign: slow or stop the infusion, sit up, oxygen, call, furosemide. The at-risk list: very old, very young, heart failure, kidney failure or oliguria, severe anaemia, severe malnutrition.",
+        },
+      ],
+      keyPoints: [
+        "Too much fluid, too fast, to the wrong patient is the commonest fluid error; the lungs show it last.",
+        "Early signs are weight gain, positive balance, oedema and raised JVP; late signs are crackles, hypoxia and frothy pink sputum — stop the drip, sit up, oxygen, call, furosemide.",
+        "Check the prescription, bag, patient, site and urine output before every bag, and the whole chart for what has already been given.",
+        "Oedematous skin breaks down easily: inspect, reposition, elevate, mobilise, no-added-salt diet, diuretics in the morning with electrolyte checks.",
+        "A fluid restriction counts everything liquid, is shared through the day, and is kept with mouth care and small cups — not willpower.",
+      ],
+      quiz: {
+        keywords: ["fluid overload", "oedema", "pulmonary oedema", "fluid restriction", "daily weight", "crackles", "jugular", "furosemide", "frusemide", "frothy", "positive balance", "intravenous fluid", "infusion rate", "sodium restrict", "no added salt"],
+      },
+    },
+    {
+      slug: "intravenous-fluid-therapy",
+      title: "Intravenous fluid therapy: choosing, running and stopping the drip",
+      minutes: 16,
+      objectives: [
+        "Classify intravenous fluids as isotonic, hypotonic or hypertonic and predict where each sends the water.",
+        "Choose the right fluid for resuscitation, replacement and maintenance, and know the fluids never to use for each.",
+        "Calculate drops per minute and millilitres per hour and set up a giving set, burette or pump safely.",
+        "Prevent, recognise and manage cannula complications: infiltration, extravasation, phlebitis, infection and air embolism.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Fluid is a drug",
+          paragraphs: [
+            "An intravenous fluid has a name, a strength, a dose (volume and rate), indications, contraindications and side effects, and it is prescribed, checked and documented like any other drug. The three questions before any bag are hung: <strong>why</strong> (resuscitation, replacement of losses, or routine maintenance), <strong>which</strong> (where do I want the water to go?) and <strong>how fast</strong> (and when will I review?). The 'R's of good prescribing — resuscitation, routine maintenance, replacement, redistribution and reassessment — remind you that the plan changes as the patient changes.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-MED-0309.svg",
+          alt: "Where each intravenous fluid sends the water: isotonic fluids stay in the compartment given, hypotonic fluids move water into cells, hypertonic fluids pull water out of cells",
+          caption: "Decide which side of the cell membrane you want the water on, then pick the bag. Water always moves towards the saltier side.",
+        },
+        {
+          type: "table",
+          heading: "The fluids",
+          columns: ["Fluid", "Tonicity and where it goes", "Use for", "Caution"],
+          rows: [
+            ["Sodium chloride 0.9% ('normal saline') — 154 mmol/L sodium and chloride", "Isotonic; stays in the extracellular space (about a quarter remains in the vessels after an hour)", "Resuscitation, dehydration, vomiting with alkalosis (replaces chloride), diluting drugs, with potassium added for maintenance", "Large volumes cause hyperchloraemic acidosis and overload; contains no potassium, glucose or calcium"],
+            ["Ringer's lactate / Hartmann's — sodium 131, potassium 5, calcium 2, lactate 29 mmol/L", "Isotonic; extracellular", "First choice for resuscitation in trauma, burns, cholera and surgery; Plan C; the balanced fluid", "Lactate is metabolised to bicarbonate by the liver — avoid in severe liver failure; contains potassium (small amount — caution in hyperkalaemia and anuria); do not mix with blood or ceftriaxone in the same line (calcium)"],
+            ["Dextrose 5% ('D5W')", "Isotonic in the bag but the glucose is metabolised within minutes, leaving free water that is <strong>hypotonic</strong> — two-thirds goes into cells", "Replacing pure water deficit (hypernatraemia, diabetes insipidus), carrying drugs, preventing hypoglycaemia, maintenance in combination with saline", "<strong>Never for resuscitation</strong> — it leaves the circulation; causes hyponatraemia, especially post-operatively and in children; <strong>never in head injury or raised intracranial pressure</strong> (cerebral oedema); provides almost no calories (200 kcal per litre)"],
+            ["Dextrose 4% with sodium chloride 0.18%; dextrose 5% with saline 0.45%; dextrose–saline", "Hypotonic", "Adult maintenance in some protocols", "Hyponatraemia risk — unsuitable for children and post-operative patients; not for resuscitation"],
+            ["Sodium chloride 0.45% ('half-normal')", "Hypotonic; water into cells", "Hypernatraemic dehydration, DKA after initial resuscitation in some protocols", "Never for shock; cerebral oedema risk if given fast"],
+            ["Dextrose 10%", "Hypertonic in the bag; glucose supply", "Neonatal maintenance and hypoglycaemia (2 mL/kg bolus), bridging in DKA when glucose falls below 14 mmol/L", "Phlebitis in small veins; check glucose"],
+            ["Dextrose 50%", "Very hypertonic; irritant", "Severe adult hypoglycaemia (25–50 mL IV slowly) when 10–20% is unavailable", "Extravasation causes necrosis — large vein, flush well; 10% is preferred"],
+            ["Sodium chloride 3% (hypertonic saline)", "Hypertonic; pulls water out of cells", "Severe symptomatic hyponatraemia (seizures, coma) — 150 mL over 20 minutes; raised intracranial pressure", "Central line preferred; strict sodium monitoring — raising sodium too fast causes osmotic demyelination; senior prescription only"],
+            ["Mannitol 10–20%", "Osmotic diuretic; hypertonic", "Raised intracranial pressure, cerebral malaria oedema in some protocols", "Overload before diuresis; crystallises — filter and warm; monitor urine output and sodium"],
+            ["Colloids (gelatin, albumin 4–5% and 20%)", "Stay longer in the vessels", "Albumin for paracentesis, nephrotic oedema with hypovolaemia, burns after 24 hours; gelatins rarely", "Anaphylaxis (gelatins); starches are no longer used (kidney injury); expensive; crystalloids are the default"],
+            ["Blood and blood products", "Stay in the vessels", "Haemorrhage, severe anaemia", "Through a blood giving set (170–200 micron filter) with saline only; strict identity checks; observations at 0, 15 and 60 minutes"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Choosing by purpose",
+          items: [
+            "<strong>Resuscitation</strong> (shock, severe dehydration): isotonic crystalloid — Ringer's lactate or normal saline — 500 mL bolus in adults (250 mL if frail or heart failure), 20 mL/kg in children (10 mL/kg in malnutrition, severe anaemia or DKA); reassess after each; blood early for haemorrhage.",
+            "<strong>Replacement</strong> of ongoing losses: match the loss — vomiting and nasogastric aspirate with normal saline plus potassium; diarrhoea and stoma output with Ringer's or saline plus potassium; burns by formula with Ringer's.",
+            "<strong>Routine maintenance</strong> for the adult who cannot drink: about 25–30 mL/kg/day water, 1 mmol/kg/day sodium, potassium and chloride, 50–100 g glucose a day — in practice alternating saline and dextrose with potassium added, or a dextrose–saline with potassium, for a maximum of 2–2.5 litres a day in a 70 kg adult and <strong>less in the small, old or frail</strong>. Children: isotonic fluid with dextrose (0.9% saline + 5% dextrose) at 4-2-1 rates — never plain hypotonic fluid.",
+            "<strong>Redistribution</strong> (sepsis, post-operative, cirrhosis, nephrotic): fluid is in the wrong place — give what the circulation needs, measure the response, do not chase oedema with more fluid.",
+            "Potassium is added only to bags (never by bolus), mixed thoroughly, labelled, and run at <strong>no more than 10 mmol/hour</strong> on a general ward (20 mmol/hour with cardiac monitoring), at a concentration of no more than 40 mmol/L peripherally; pre-mixed bags are safer than adding from ampoules.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Calculating the rate",
+          style: "steps",
+          items: [
+            "<strong>Millilitres per hour</strong> (pump): volume ÷ hours. 1 000 mL over 8 hours = <strong>125 mL/hour</strong>.",
+            "<strong>Drops per minute</strong> (gravity): (volume in mL × drop factor) ÷ time in minutes. Standard adult set <strong>20 drops/mL</strong>; blood set <strong>15 drops/mL</strong>; paediatric burette (microdrip) <strong>60 drops/mL</strong>. 1 000 mL over 8 hours with a 20-drop set: (1 000 × 20) ÷ 480 = <strong>42 drops/minute</strong>. 500 mL of normal saline over 4 hours: (500 × 20) ÷ 240 = <strong>42 drops/minute</strong>. A unit of blood (about 350 mL) over 3 hours with a 15-drop set: (350 × 15) ÷ 180 = <strong>29 drops/minute</strong>. With a burette the drops per minute equal the mL per hour — 65 mL/hour = 65 drops/minute.",
+            "<strong>Sense-check:</strong> a gravity drip above about 60 drops/minute cannot be counted reliably — use a pump or question the rate; a rate above 150 mL/hour in a frail adult, or any rate that would give a small child more than 20 mL/kg in an hour, needs a second look.",
+            "Count the drops for a full minute, mark the bag with the start time and the expected hourly level, recheck every hour — position changes, a bent arm and a tissued cannula all change the rate.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Cannula and infusion complications",
+          columns: ["Problem", "Signs", "Prevent", "Act"],
+          rows: [
+            ["Infiltration (non-vesicant fluid in the tissues)", "Swelling, cool pale skin, discomfort, slow or stopped flow, no backflow", "Secure the cannula, avoid joints, check the site hourly, flush before drugs", "Stop, remove the cannula, elevate the limb, warm or cool compress per policy, resite in the other arm, document"],
+            ["Extravasation (vesicant — dextrose 10–50%, potassium, calcium, bicarbonate, phenytoin, vancomycin, chemotherapy, adrenaline/noradrenaline)", "Pain, burning, redness then blistering and necrosis", "Large vein, confirm backflow before and during, dilute irritants, give slowly, central line for infusions", "Stop immediately, <strong>leave the cannula in and aspirate</strong>, call the doctor (antidotes — hyaluronidase, phentolamine for vasopressors), mark and photograph, elevate, refer to plastics if necrosis"],
+            ["Phlebitis (vein inflammation)", "Pain, redness, warmth, a palpable cord along the vein; score with the Visual Infusion Phlebitis scale", "Aseptic insertion, smallest cannula that will do, avoid the antecubital fossa and lower limb, change the site every 72–96 hours or at the first sign, dilute irritant drugs", "Remove at the first sign (score 2), warm compress, resite, document; antibiotics if infected"],
+            ["Infection (local or bloodstream)", "Pus, spreading redness, fever and rigors after flushes", "Hand hygiene, chlorhexidine skin prep, sterile dressing dated, scrub the hub for 15 seconds before access, remove cannulas that are not in use", "Remove, send the tip and blood cultures, antibiotics"],
+            ["Overload", "See the previous lesson", "Pump or burette for the at-risk, review rates, small boluses", "Stop, sit up, oxygen, call"],
+            ["Air embolism", "Sudden breathlessness, chest pain, hypotension, 'mill-wheel' murmur — mainly with central lines", "Prime lines fully, Luer-lock connections, clamp central lines before disconnection, patient supine or head down for central line removal", "Clamp the line, left lateral head-down position, high-flow oxygen, call for help"],
+            ["Speed shock", "Flushing, headache, chest tightness, irregular pulse, collapse during a rapid bolus of a drug", "Give drugs at the stated rate; use pumps for potassium, magnesium, phenytoin", "Stop, maintain the airway, call, keep the line"],
+            ["Haematoma, nerve injury, arterial puncture", "Bruising; shooting pain or numbness; bright pulsatile blood", "Technique; avoid the wrist's radial side and the antecubital fossa for long-term lines", "Pressure; remove; document"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Every shift, every infusion",
+          items: [
+            "Check: right patient, right fluid (name, strength, additives), right rate, bag not expired or cloudy, line primed and connections tight, cannula site clean, dry, dated and pain-free, flow appropriate to the prescribed rate, pump alarms answered — not silenced.",
+            "Label additive bags with drug, dose, date, time and your signature; label lines when there is more than one; never add drugs to blood, mannitol or lipid lines.",
+            "Change giving sets every 72–96 hours (24 hours for blood, lipid and dextrose-containing parenteral nutrition; after each unit of blood); keep the system closed.",
+            "Review the need daily: is the patient drinking? Can the cannula come out? Idle cannulas cause infection and should be removed within 24 hours of last use.",
+            "Document volume infused at the end of each shift on the fluid chart, and any complication, its grade and your action.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Formula and the three nevers",
+          body: "Drops/min = (mL × drop factor) ÷ minutes; sets: 20, blood 15, burette 60. Never resuscitate with dextrose 5% or hypotonic fluid. Never give dextrose 5% in head injury. Never give potassium as a bolus — maximum 10 mmol/hour peripherally, 40 mmol/L.",
+        },
+      ],
+      keyPoints: [
+        "Isotonic fluids (normal saline, Ringer's lactate) stay in the extracellular space and are the resuscitation fluids; dextrose 5% becomes free water and swells cells; hypertonic fluids pull water out.",
+        "Choose by purpose — resuscitation, replacement, maintenance, redistribution — and reassess; maintenance in adults is 25–30 mL/kg/day and children use isotonic fluid with dextrose at 4-2-1 rates.",
+        "Drops per minute = (volume × drop factor) ÷ minutes with sets of 20, 15 (blood) and 60 (burette); check hourly and never 'catch up' a slow drip.",
+        "Infiltration — stop and remove; extravasation of a vesicant — stop, leave the cannula in, aspirate, call; phlebitis — remove at the first sign; idle cannulas come out.",
+        "Potassium only in bags, mixed, labelled, at no more than 10 mmol/hour peripherally.",
+      ],
+      quiz: {
+        keywords: ["intravenous fluid", "normal saline", "ringer", "dextrose", "isotonic", "hypotonic", "hypertonic", "crystalloid", "colloid", "drops per minute", "drop factor", "infusion rate", "burette", "phlebitis", "extravasation", "infiltration", "cannula", "giving set"],
+      },
+    },
+  ],
+};

@@ -1,0 +1,211 @@
+import type { CourseModule } from "../types";
+
+export const valvularAndVascular: CourseModule = {
+  slug: "valvular-and-vascular-disease",
+  title: "Inflammatory, valvular and vascular disorders",
+  summary: "Rheumatic fever and rheumatic heart disease, infective endocarditis and pericarditis; then the legs — arterial versus venous disease, deep vein thrombosis and living safely on anticoagulants.",
+  lessons: [
+    {
+      slug: "rheumatic-heart-disease-endocarditis-and-pericarditis",
+      title: "Rheumatic fever, rheumatic heart disease, infective endocarditis and pericarditis",
+      minutes: 20,
+      objectives: [
+        "Explain how a streptococcal sore throat leads to rheumatic heart disease and how both are prevented.",
+        "Apply the Jones criteria to recognise acute rheumatic fever and plan its nursing care.",
+        "Describe the presentation, diagnosis and nursing care of infective endocarditis.",
+        "Recognise pericarditis and differentiate its pain from that of infarction.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Rheumatic fever — a preventable disease of crowding and poverty",
+          paragraphs: [
+            "Acute rheumatic fever is an autoimmune reaction that follows 2–4 weeks after an untreated <strong>group A streptococcal throat infection</strong>, usually in children aged 5–15 living in crowded conditions. Antibodies made against the bacterium cross-react with the heart, the joints, the skin and the brain.",
+            "Repeated attacks scar the heart valves — most often the <strong>mitral valve</strong>, then the aortic — producing <strong>rheumatic heart disease (RHD)</strong>, which remains a leading cause of heart failure, atrial fibrillation, stroke and maternal death in young Ghanaians. Every episode is preventable with penicillin.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "The revised Jones criteria",
+          columns: ["Major criteria", "Minor criteria"],
+          rows: [
+            ["Carditis — a new murmur, tachycardia out of proportion to the fever, heart failure, a pericardial rub, or valve involvement on echocardiography", "Fever of 38 °C or more (38.5 °C in low-risk populations)"],
+            ["Polyarthritis — migratory, large joints (knees, ankles, elbows, wrists), very painful, dramatic response to aspirin. In high-risk populations such as Ghana, monoarthritis or polyarthralgia also counts", "Arthralgia (when arthritis has not been used as a major criterion)"],
+            ["Sydenham chorea — involuntary jerky movements and emotional lability, sometimes appearing months after the infection", "Raised ESR (30 mm/h or more) or CRP (30 mg/L or more)"],
+            ["Erythema marginatum — pink rings with clear centres on the trunk; not itchy", "Prolonged PR interval on the ECG"],
+            ["Subcutaneous nodules — painless, firm, over bony prominences and tendons", ""],
+            ["Diagnosis: evidence of recent streptococcal infection (a raised or rising ASO titre, a positive throat culture or rapid antigen test) plus two major criteria, or one major and two minor. Chorea alone is enough.", ""],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Management of acute rheumatic fever",
+          items: [
+            "<strong>Eradicate the streptococcus</strong> — a single IM dose of benzathine benzylpenicillin (1.2 million units; 600,000 units if under 27 kg), or oral penicillin V for 10 days; erythromycin if penicillin-allergic.",
+            "<strong>Rest</strong> — bed rest during active carditis, then a gradual return to activity as the inflammatory markers fall.",
+            "<strong>Arthritis and fever</strong> — aspirin or naproxen; expect improvement within 48 hours.",
+            "<strong>Carditis with heart failure</strong> — corticosteroids, diuretics and ACE inhibitors; treat any arrhythmia.",
+            "<strong>Chorea</strong> — a calm environment, protection from injury, and carbamazepine or valproate if severe.",
+            "<strong>Nursing</strong> — vital signs with attention to the resting heart rate and any new murmur, daily weight, comfort for painful joints (support them, never force movement), skin care, nutrition, school work during convalescence, and family teaching that the <em>next</em> sore throat matters.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Secondary prophylaxis — the single most important intervention",
+          items: [
+            "<strong>Benzathine benzylpenicillin IM every 3–4 weeks</strong> (every 3 weeks in high-risk patients): 1.2 million units for 27 kg and above; 600,000 units below 27 kg. Oral penicillin V twice daily is the alternative when injections are refused, but adherence is poorer.",
+            "<strong>Duration:</strong> no carditis — 5 years or until age 21, whichever is longer; mild or healed carditis — 10 years or until age 21–25; moderate-to-severe valve disease or after valve surgery — lifelong.",
+            "Record every injection on a card and trace defaulters — <strong>a missed injection is a window for the next attack</strong>. Injections are painful: use a correct deep IM technique in the ventrogluteal site, warm the vial, and give the child control over small choices.",
+            "<strong>Primary prevention:</strong> treat every streptococcal sore throat in a child with a full course of penicillin; educate schools and parents; reduce crowding where possible.",
+          ],
+        },
+        {
+          type: "text",
+          heading: "Rheumatic heart disease — what the nurse sees",
+          paragraphs: [
+            "<strong>Mitral stenosis</strong> presents with breathlessness, haemoptysis, atrial fibrillation and a loud first heart sound with a low rumbling diastolic murmur at the apex. <strong>Mitral regurgitation</strong> gives a pansystolic murmur radiating to the axilla and a dilated left ventricle. <strong>Aortic stenosis</strong> causes exertional syncope, angina and an ejection systolic murmur radiating to the carotids. <strong>Aortic regurgitation</strong> produces a collapsing pulse and a wide pulse pressure.",
+            "The complications are heart failure, atrial fibrillation with stroke, infective endocarditis and a high-risk pregnancy — a young woman with RHD needs pre-pregnancy counselling and delivery in a hospital with specialist care. Treatment is medical (diuretics, rate control, anticoagulation) until valve repair, balloon valvotomy or replacement is possible; patients with mechanical valves need lifelong warfarin with a higher INR target.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Infective endocarditis",
+          items: [
+            "Infection of the endocardium or valves — <em>Streptococcus viridans</em> from the mouth, <em>Staphylococcus aureus</em> from skin, lines and injecting drug use, enterococci from the bowel and urinary tract — forming <strong>vegetations</strong> that destroy the valve and throw off emboli.",
+            "<strong>At risk:</strong> rheumatic or otherwise damaged valves, prosthetic valves, previous endocarditis, congenital heart disease, long-term IV lines and dialysis, injecting drug use, poor dental health.",
+            "<strong>Presentation:</strong> prolonged fever with night sweats, fatigue, weight loss and anaemia; a <strong>new or changed murmur</strong>; heart failure; embolic events (stroke, splenic or renal infarcts, septic pulmonary emboli with right-sided disease); petechiae, splinter haemorrhages under the nails, Osler’s nodes (painful fingertip nodules), Janeway lesions (painless macules on the palms and soles), Roth spots in the retina, clubbing, splenomegaly and haematuria.",
+            "<strong>Diagnosis:</strong> three sets of blood cultures from different sites, <strong>before antibiotics</strong>, ideally spread over a few hours; echocardiography (trans-oesophageal is the most sensitive); full blood count, ESR and CRP, urinalysis.",
+            "<strong>Treatment:</strong> high-dose IV antibiotics for 4–6 weeks guided by culture (a penicillin or ceftriaxone with gentamicin; vancomycin for MRSA); surgery for valve destruction, heart failure, abscess, large vegetations or persistent infection.",
+            "<strong>Nursing:</strong> strict asepsis with the IV line, antibiotics exactly on time, temperature chart, daily checks for a changing murmur and heart failure, neurological observations for emboli, gentamicin levels and renal function, mouth care, nutrition, activity as tolerated, and emotional support through a long admission.",
+            "<strong>Education:</strong> antibiotic prophylaxis before dental extractions and certain procedures for high-risk patients; meticulous oral hygiene and six-monthly dental review; prompt treatment of skin infections; no injecting drug use; report any fever after discharge at once.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Pericarditis",
+          items: [
+            "Inflammation of the pericardium — viral (commonest), <strong>tuberculous</strong> (frequent in Ghana, especially with HIV), bacterial, uraemic, after infarction (early, or Dressler’s syndrome at 2–10 weeks), after cardiac surgery, autoimmune, malignant.",
+            "<strong>Pain:</strong> sharp, stabbing and retrosternal; worse lying flat, on inspiration, coughing and swallowing; <strong>relieved by sitting up and leaning forward</strong>. Compare infarction: heavy, crushing, unaffected by position or breathing.",
+            "<strong>Signs:</strong> a pericardial friction rub (scratchy, best heard at the left lower sternal border with the patient leaning forward in expiration), fever, tachycardia; widespread saddle-shaped (concave) ST elevation with PR depression on the ECG; echocardiography for an effusion.",
+            "<strong>Treatment:</strong> treat the cause; NSAIDs or high-dose aspirin plus colchicine for viral or idiopathic disease; anti-tuberculous therapy with steroids for TB; dialysis for uraemic pericarditis; drainage of large effusions.",
+            "<strong>Nursing:</strong> position of comfort (upright, leaning forward on a bed table); analgesia on time; monitor for the complications — <strong>tamponade</strong> (falling blood pressure, rising neck veins, quiet heart sounds, pulsus paradoxus) and constrictive pericarditis (chronic right heart failure); rest; and reassurance that the pain is not a heart attack once that has been established.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Three chest pains, three positions",
+          body: "Infarction pain is unchanged by position. Pericarditis pain eases on sitting forward. Pleuritic pain is sharp on breathing. And for the child with a sore throat — ten days of penicillin protects the heart for life.",
+        },
+      ],
+      keyPoints: [
+        "Rheumatic fever follows an untreated streptococcal sore throat by 2–4 weeks; the Jones criteria plus evidence of infection make the diagnosis.",
+        "Benzathine penicillin every 3–4 weeks for years prevents recurrence and valve destruction — a missed injection is a risk.",
+        "Rheumatic mitral disease causes atrial fibrillation, stroke, heart failure and dangerous pregnancies.",
+        "Endocarditis: fever plus a new murmur plus embolic signs; three blood cultures before antibiotics; weeks of IV therapy; dental prophylaxis and oral hygiene afterwards.",
+        "Pericarditis pain is sharp, pleuritic and eased by sitting forward; a friction rub confirms it; watch for tamponade.",
+      ],
+      quiz: {
+        keywords: ["rheumatic", "endocarditis", "pericarditis", "benzathine", "streptococc", "mitral stenosis", "mitral valve", "valve replacement", "friction rub", "jones criteria", "sore throat", "chorea", "blood culture"],
+      },
+    },
+    {
+      slug: "peripheral-vascular-disease-dvt-and-anticoagulation",
+      title: "Peripheral vascular disease, deep vein thrombosis and anticoagulation",
+      minutes: 22,
+      objectives: [
+        "Differentiate arterial from venous disease of the legs and plan nursing care for each.",
+        "Recognise acute limb ischaemia and deep vein thrombosis as emergencies.",
+        "Prevent venous thromboembolism in hospital patients.",
+        "Administer heparin, low-molecular-weight heparin, warfarin and direct oral anticoagulants safely and teach the patient living on them.",
+      ],
+      blocks: [
+        {
+          type: "table",
+          heading: "Arterial versus venous disease of the legs",
+          columns: ["Feature", "Peripheral arterial disease", "Chronic venous insufficiency"],
+          rows: [
+            ["Cause", "Atherosclerosis narrowing the limb arteries — the same risk factors as coronary disease, with smoking and diabetes dominant", "Incompetent valves and venous hypertension after DVT, pregnancy, prolonged standing or obesity"],
+            ["Pain", "Intermittent claudication — cramping calf, thigh or buttock pain after a predictable walking distance, relieved within minutes of rest. Rest pain at night in the forefoot, relieved by hanging the leg out of bed, means critical ischaemia", "Aching, heaviness and swelling, worse at the end of the day and with standing, relieved by elevation"],
+            ["Pulses", "Diminished or absent; ankle–brachial index below 0.9 (below 0.5 is severe)", "Present, though sometimes hard to feel through oedema"],
+            ["Skin", "Cool; pale on elevation and dusky red when dependent; thin, shiny and hairless; thick brittle nails; slow capillary refill", "Warm; brown haemosiderin staining around the ankle; eczema; thickened woody skin; varicose veins"],
+            ["Oedema", "Absent or minimal", "Marked and pitting, worse by evening"],
+            ["Ulcers", "Toes, heels, lateral malleolus and pressure points; small, deep, punched-out, pale or necrotic base, little exudate, very painful", "Medial malleolus (the gaiter area); large, shallow, irregular, moist, pink or sloughy base, moderate pain"],
+            ["Position", "Legs neutral or slightly dependent — never elevated above the heart; a bed cradle; no crossed legs or tight clothing", "Elevate the legs above heart level for 30 minutes several times a day and at night; avoid prolonged standing or sitting"],
+            ["Temperature", "No heat or cold application — neuropathy and poor perfusion make burns and frostbite likely; keep warm with socks and room temperature", "Warmth is tolerated"],
+            ["Compression", "Contraindicated when the ankle–brachial index is below 0.8", "Graduated compression stockings or bandaging are the main treatment once arterial disease is excluded; apply in the morning before oedema forms"],
+            ["Treatment", "Stop smoking (the single most effective measure); a supervised walking programme — walk to near-maximal pain, rest, repeat for 30–45 minutes most days; antiplatelet; statin; blood pressure and glucose control; cilostazol; angioplasty or bypass; amputation for an unsalvageable limb", "Compression, elevation, calf-pump exercise, weight loss, skin care and emollients, dressings that manage exudate, treatment of eczema, venous surgery or ablation"],
+            ["Foot care", "Inspect daily; wash and dry between the toes; moisturise (not between the toes); well-fitting shoes; never barefoot; podiatry for nails and corns; report any break in the skin", "Protect the skin from trauma; the same foot-care habits"],
+          ],
+        },
+        {
+          type: "callout",
+          tone: "warning",
+          title: "The six Ps of acute limb ischaemia",
+          body: "Pain, Pallor, Pulselessness, Paraesthesia, Paralysis and Perishing cold mean an artery has blocked — usually an embolus from atrial fibrillation or thrombosis on a plaque. The limb has about six hours. Keep it level and warm, give nothing by mouth, start oxygen and heparin as prescribed, and get the surgeon now.",
+        },
+        {
+          type: "list",
+          heading: "Deep vein thrombosis",
+          items: [
+            "<strong>Virchow’s triad</strong> explains the risk: venous stasis (immobility, surgery, long journeys, heart failure, paralysis); vessel-wall injury (surgery, trauma, cannulae, previous DVT); and hypercoagulability (pregnancy and the six weeks after birth, oral contraceptives and hormone therapy, cancer, sepsis, dehydration, sickle cell disease, inherited thrombophilia, obesity, smoking).",
+            "<strong>Presentation:</strong> unilateral calf or thigh swelling (measure and compare the circumference 10 cm below the tibial tuberosity — a difference of more than 3 cm matters), warmth, redness, tenderness along the vein, pain on walking, low-grade fever. Many are silent until a pulmonary embolus. Homans’ sign is unreliable and may dislodge the clot — <strong>do not perform it</strong>.",
+            "<strong>Diagnosis:</strong> a clinical probability score (Wells), D-dimer (useful only when negative in a low-probability patient) and compression duplex ultrasound.",
+            "<strong>Treatment:</strong> therapeutic anticoagulation as soon as DVT is suspected unless contraindicated — low-molecular-weight heparin or a direct oral anticoagulant, with warfarin as the longer-term alternative — for at least 3 months (longer for unprovoked or recurrent clots and in cancer). Early mobilisation once anticoagulated; elevate the limb at rest; analgesia; compression stockings for symptom relief.",
+            "<strong>Do not massage or rub the leg.</strong> Sudden breathlessness, pleuritic chest pain, haemoptysis, tachycardia or collapse means pulmonary embolism — a leading preventable cause of hospital death — and is an emergency.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Preventing venous thromboembolism in hospital",
+          items: [
+            "Assess every admission for VTE risk and bleeding risk; reassess at 24 hours and whenever the condition changes.",
+            "<strong>Mechanical:</strong> early and frequent mobilisation; hourly ankle and calf exercises in bed; correctly fitted graduated compression stockings (measure the legs, check the skin and remove them daily; not in arterial disease, neuropathy or leg ulcers); intermittent pneumatic compression in theatre and for high-risk patients.",
+            "<strong>Pharmacological:</strong> low-molecular-weight heparin (for example enoxaparin 40 mg subcutaneously once daily) or unfractionated heparin 5,000 units 8–12-hourly for medical and surgical patients at risk, as per protocol.",
+            "Hydration; avoid prolonged sitting with the legs dependent; no pillows pressing behind the knees; stop combined oral contraceptives four weeks before major elective surgery as advised.",
+            "After birth: early mobilisation, and LMWH for women with risk factors — caesarean section, obesity, pre-eclampsia, prolonged labour, previous VTE.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Anticoagulants and antiplatelets",
+          columns: ["Drug", "Route and monitoring", "Antidote", "Nursing points"],
+          rows: [
+            ["Unfractionated heparin", "IV infusion monitored by aPTT (target 1.5–2.5 times control, checked 6 hours after every change); or subcutaneous prophylaxis without monitoring", "Protamine sulfate", "Weight-based dosing by protocol; a dedicated line; platelet count at baseline and every 2–3 days — a fall of more than 50% at days 5–10 is heparin-induced thrombocytopenia: stop heparin and inform the doctor. Subcutaneous injection into the abdomen 5 cm from the umbilicus at 90°, no aspiration, no massage, rotate sites"],
+            ["Low-molecular-weight heparin — enoxaparin, dalteparin", "Subcutaneous, weight-based; no routine monitoring (anti-Xa levels in renal impairment, pregnancy and extremes of weight)", "Protamine (partial reversal)", "Do not expel the air bubble from the prefilled syringe; reduce the dose in renal failure; longer action, so timing matters before surgery and spinal anaesthesia"],
+            ["Warfarin", "Oral, once daily at the same time (usually evening); INR target 2.0–3.0 for most indications and 2.5–3.5 for mechanical mitral valves; frequent checks until stable, then every 4–12 weeks", "Vitamin K (phytomenadione); prothrombin complex concentrate or fresh frozen plasma for major bleeding", "Takes 3–5 days to work, so it is overlapped with heparin for at least 5 days and until the INR is in range on two consecutive days. Teratogenic — not in pregnancy. Interacts with antibiotics, antifungals, amiodarone, NSAIDs, aspirin, phenytoin, rifampicin, St John’s wort, garlic and ginger supplements and alcohol binges. Keep vitamin K intake consistent — do not suddenly increase or stop green leafy vegetables such as kontomire, aleefu and spinach. Report bleeding gums, nosebleeds, bruising, blood in the urine, black stools and severe headache. Carry an anticoagulant card and tell every dentist, pharmacist and herbalist"],
+            ["Direct oral anticoagulants — rivaroxaban, apixaban, dabigatran", "Oral, fixed dose; no INR monitoring; check renal function", "Idarucizumab for dabigatran; andexanet alfa or prothrombin complex concentrate for the others", "Fewer interactions and no food restrictions; rivaroxaban is taken with food; a missed dose loses protection quickly; not for mechanical valves or severe renal failure; expensive — confirm availability before discharge"],
+            ["Antiplatelets — aspirin 75–100 mg, clopidogrel, ticagrelor", "Oral; no monitoring", "None specific; platelet transfusion for life-threatening bleeding", "Aspirin with food; gastrointestinal bleeding and ulcer risk (use pantoprazole rather than omeprazole with clopidogrel); no aspirin for children because of Reye’s syndrome; dual therapy for 12 months after a stent — never stopped without cardiology advice"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Bleeding precautions for every anticoagulated patient",
+          items: [
+            "Soft toothbrush, electric razor, careful nail care; avoid contact sports and falls — review the home for hazards.",
+            "No NSAIDs or aspirin unless deliberately prescribed together; paracetamol is the analgesic of choice.",
+            "Pressure for 5–10 minutes after injections and venepuncture; avoid intramuscular injections where possible.",
+            "Observe urine, stool, sputum, vomit and skin; watch for unexplained hypotension, tachycardia, back or abdominal pain.",
+            "Teach what to do about a missed dose (take it the same day; never double up) and the importance of attending INR checks.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Pairs to memorise",
+          body: "Heparin → aPTT → protamine. Warfarin → INR → vitamin K. Warfarin needs 3–5 days, so heparin bridges. Enoxaparin: do not expel the bubble, do not rub. Suspected DVT: never massage, never Homans’ test — anticoagulate and watch for pulmonary embolism.",
+        },
+      ],
+      keyPoints: [
+        "Arterial disease: pain on walking, absent pulses, cool shiny hairless skin and punched-out painful ulcers on the toes — keep the legs dependent and warm, no heat, stop smoking.",
+        "Venous disease: oedema, brown staining and moist ulcers at the medial malleolus — elevate, compress, exercise the calf.",
+        "Acute limb ischaemia (the six Ps) and DVT with sudden breathlessness are emergencies.",
+        "Prevent VTE: assess risk, mobilise early, stockings, LMWH as per protocol.",
+        "Heparin is monitored by aPTT and reversed with protamine; warfarin by INR and reversed with vitamin K; DOACs need no INR but strict adherence — and every patient needs bleeding precautions and teaching.",
+      ],
+      quiz: {
+        keywords: ["deep vein thrombosis", "dvt", "pulmonary embol", "warfarin", "heparin", "enoxaparin", "anticoagul", "international normalised ratio", "claudication", "peripheral arterial", "peripheral vascular", "venous ulcer", "arterial ulcer", "varicose", "compression stocking", "homans", "protamine", "vitamin k"],
+      },
+    },
+  ],
+};
