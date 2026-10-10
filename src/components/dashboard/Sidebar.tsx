@@ -18,6 +18,7 @@ const NAV = [
   { href: "/dashboard/study-plan", label: "Study Plan", icon: "📅" },
   { href: "/dashboard/strategies", label: "Strategies", icon: "🎯" },
   { href: "/dashboard/learning", label: "Learning Library", icon: "📚" },
+  { href: "/dashboard/courses", label: "Courses", icon: "📘" },
   { href: "/dashboard/care-plans", label: "Care Plans", icon: "🗒️" },
   { href: "/dashboard/progress", label: "Progress", icon: "📈" },
   { href: "/dashboard/referrals", label: "Invite & Earn", icon: "🎁" },

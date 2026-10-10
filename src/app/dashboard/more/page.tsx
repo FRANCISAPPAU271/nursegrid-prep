@@ -30,6 +30,7 @@ const GROUPS: { title: string; items: { href: string; label: string; icon: strin
   {
     title: "Study resources",
     items: [
+      { href: "/dashboard/courses", label: "Courses", icon: "📘", desc: "Lessons, post-test & certificate" },
       { href: "/dashboard/strategies", label: "Strategies", icon: "🎯", desc: "Test-taking frameworks" },
       { href: "/dashboard/care-plans", label: "Care Plans", icon: "🗒️", desc: "ADPIE care plan builder" },
       { href: "/dashboard/questions/bookmarks", label: "Bookmarked Questions", icon: "🔖", desc: "Your saved questions" },

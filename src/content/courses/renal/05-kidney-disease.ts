@@ -1,0 +1,268 @@
+import type { CourseModule } from "../types";
+
+export const kidneyDisease: CourseModule = {
+  slug: "kidney-disease",
+  title: "Glomerular disease, acute kidney injury and chronic kidney disease",
+  summary: "The diseases of the filter itself — nephritic and nephrotic syndromes — then the kidney that fails suddenly and the kidney that fails slowly: causes, staging, the complications that kill and the nursing care that prevents them.",
+  lessons: [
+    {
+      slug: "glomerulonephritis-and-nephrotic-syndrome",
+      title: "Glomerulonephritis and nephrotic syndrome",
+      minutes: 14,
+      objectives: [
+        "Differentiate the nephritic and nephrotic presentations and link each to the damaged filter.",
+        "Describe acute post-streptococcal glomerulonephritis in children and its nursing management.",
+        "Explain the four features of nephrotic syndrome and its complications.",
+        "Nurse a child or adult with nephrotic syndrome on steroids, including infection prevention and relapse monitoring.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Two ways a filter can fail",
+          paragraphs: [
+            "The glomerulus is a sieve that keeps cells and protein in the blood. When it is <strong>inflamed</strong> it leaks blood cells and filters poorly — the <strong>nephritic</strong> picture: haematuria, oliguria, hypertension and mild oedema with rising creatinine. When its <strong>pores are damaged</strong> without inflammation it leaks massive amounts of protein — the <strong>nephrotic</strong> picture: heavy proteinuria, low albumin, gross oedema and high cholesterol with normal or near-normal function. The two overlap in some diseases, and both can end in chronic kidney disease — glomerular disease is a leading cause of kidney failure in young Ghanaians.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Nephritic versus nephrotic",
+          columns: ["Feature", "Nephritic syndrome", "Nephrotic syndrome"],
+          rows: [
+            ["Main problem", "Inflamed, leaky-to-cells, poorly filtering glomeruli", "Damaged podocytes — leaky to protein"],
+            ["Urine", "<strong>Haematuria</strong> — smoky, cola or tea-coloured; red cell casts; mild to moderate protein; <strong>oliguria</strong>", "<strong>Heavy proteinuria</strong> — more than 3.5 g/day in adults (3+ to 4+ on dipstick), frothy urine; little or no blood"],
+            ["Blood", "Raised urea and creatinine; low complement in post-streptococcal disease; raised ASO titre", "<strong>Albumin below 25–30 g/L</strong>; <strong>cholesterol and triglycerides high</strong>; creatinine usually normal early"],
+            ["Oedema", "Mild — periorbital, from salt and water retention", "<strong>Gross</strong> — periorbital in the morning, legs and scrotum/labia later, ascites, pleural effusions; from low oncotic pressure plus salt retention"],
+            ["Blood pressure", "<strong>Raised</strong> — can cause encephalopathy (headache, seizures) and heart failure", "Normal or low (intravascular depletion) unless advanced"],
+            ["Causes", "Post-streptococcal GN (children 2–12, 1–3 weeks after a sore throat or 3–6 weeks after impetigo/scabies-infected skin), IgA nephropathy, lupus nephritis, infective endocarditis, hepatitis B and C, vasculitis", "Children: <strong>minimal change disease</strong> (90%, steroid-responsive); adults: focal segmental glomerulosclerosis (common in African patients, HIV-associated nephropathy), membranous nephropathy (hepatitis B, malaria, cancers, drugs), diabetic nephropathy, amyloid, lupus; quartan malaria historically"],
+            ["Outcome", "Post-streptococcal: over 95% of children recover fully within weeks; adults and other causes may progress", "Minimal change relapses but rarely fails; other types may progress to CKD"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Acute post-streptococcal glomerulonephritis — nursing the child",
+          items: [
+            "<strong>Recognise:</strong> a school-age child with puffy eyes on waking, tea-coloured urine, passing little, headache, and a blood pressure that is high for age, 1–3 weeks after a sore throat or a few weeks after infected scabies or impetigo — both common on Ghanaian skin. Check for the dangerous complications on arrival: <strong>hypertensive encephalopathy</strong> (severe headache, vomiting, visual disturbance, seizures), <strong>pulmonary oedema</strong> and <strong>acute kidney injury with hyperkalaemia</strong>.",
+            "<strong>Monitor:</strong> blood pressure 4-hourly (more often if raised), daily weight, strict fluid balance and urine output, urine colour and dipstick daily, neurological state, breathing and chest, urea, electrolytes and creatinine.",
+            "<strong>Fluids and salt:</strong> restrict fluid to insensible losses plus the previous day's urine output while oliguric; no-added-salt diet; modest protein restriction only if uraemic; potassium restriction if high.",
+            "<strong>Drugs:</strong> furosemide for oedema, overload and hypertension; nifedipine or amlodipine if blood pressure remains high; penicillin (or erythromycin) for 10 days to clear residual streptococci — it does not alter the nephritis but reduces spread; treat scabies and skin sepsis in the child and household; <strong>no NSAIDs</strong>.",
+            "<strong>Activity and comfort:</strong> bed rest only while hypertensive or oedematous, then normal activity; mouth care and small drinks within the restriction; explain to parents that recovery is the rule, that haematuria on dipstick may persist for months and that follow-up with blood pressure and urine checks is needed.",
+            "<strong>Escalate</strong> for seizures, breathlessness, rising potassium, falling urine output or anuria — dialysis is occasionally needed.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Nephrotic syndrome — assessment and management",
+          items: [
+            "The four features: <strong>heavy proteinuria, hypoalbuminaemia, oedema and hyperlipidaemia</strong>. In children the typical picture is a 2–6-year-old with sudden puffy eyes (often treated first for an 'allergy'), swollen legs, scrotum or labia, a distended abdomen, weight gain, frothy urine, poor appetite and lethargy. Investigations: urine dipstick and protein:creatinine ratio, serum albumin, lipids, urea and creatinine, full blood count, hepatitis B and HIV, sickle cell test, complement, malaria screen; biopsy in adults and in children who do not respond to steroids.",
+            "<strong>Steroids:</strong> prednisolone 60 mg/m²/day (about 2 mg/kg, maximum 60 mg) for 4–6 weeks, then 40 mg/m² on alternate days for 4–6 weeks and tapered — most children respond (urine protein-free) within 2–4 weeks. Teach: give with food in the morning, never stop suddenly, expect increased appetite, weight gain, mood change and a round face, watch for infection, hyperglycaemia and hypertension, and that growth and bone may suffer with repeated courses. Steroid-dependent or frequently relapsing children may need levamisole, cyclophosphamide, tacrolimus or rituximab from a nephrologist.",
+            "<strong>Oedema:</strong> no-added-salt diet; fluid restriction only if severe oedema or hyponatraemia; cautious furosemide — these patients are intravascularly depleted, and over-diuresis causes shock and acute kidney injury; IV 20% albumin with furosemide for severe symptomatic oedema on nephrology advice; daily weight, abdominal girth and fluid balance; elevate legs, support the scrotum, protect skin.",
+            "<strong>Infection prevention</strong> — the leading cause of death: lost immunoglobulins, lost complement, oedema fluid and steroids make <strong>spontaneous bacterial peritonitis</strong> (pneumococcus — fever, abdominal pain, tenderness), cellulitis, pneumonia and sepsis common. Monitor temperature, examine the abdomen daily, teach parents to report fever or abdominal pain immediately; pneumococcal vaccination, prophylactic penicillin during relapses in some protocols, no live vaccines while on high-dose steroids, varicella exposure needs urgent advice.",
+            "<strong>Thrombosis:</strong> loss of antithrombin and haemoconcentration cause renal vein, deep vein and cerebral venous thrombosis — mobilise, avoid dehydration and over-diuresis, no femoral venepuncture, anticoagulate on advice (albumin below 20 g/L).",
+            "<strong>Diet:</strong> normal protein for age (high-protein diets do not help and load the kidney), no added salt, low saturated fat, adequate calories; vitamin D and calcium while on steroids.",
+            "<strong>Home monitoring:</strong> parents dipstick the first morning urine daily or every few days and keep a diary — protein 2+ or more for 3 consecutive days means a relapse and early review; weigh weekly; a written plan for intercurrent infections; stress that relapses are common and treatable and that most children outgrow it.",
+            "Adults: ACE inhibitor or ARB to reduce proteinuria and blood pressure, statin, anticoagulation when albumin is very low, treat the cause (hepatitis B, HIV, diabetes, lupus), and watch for progression to CKD.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Separate them in one line each",
+          body: "Nephritic = blood + hypertension + oliguria after a streptococcal throat or skin infection — monitor the blood pressure, restrict fluid, treat overload. Nephrotic = protein + low albumin + gross oedema + high lipids — steroids, no added salt, cautious diuretics, and infection is the killer.",
+        },
+      ],
+      keyPoints: [
+        "Nephritic syndrome is an inflamed filter: haematuria, oliguria, hypertension and raised creatinine — in Ghana usually post-streptococcal after a sore throat or infected scabies; it is monitored for hypertensive encephalopathy, overload and hyperkalaemia and usually recovers.",
+        "Nephrotic syndrome is a protein-leaking filter: heavy proteinuria, albumin below 25–30, gross oedema and high lipids; minimal change disease in children responds to prednisolone.",
+        "Nephrotic patients are intravascularly depleted despite oedema — diurese cautiously, no-added-salt, normal protein, daily weights.",
+        "Infection (peritonitis, cellulitis, sepsis) and thrombosis are the dangerous complications; vaccinate, examine the abdomen, report fever, mobilise, avoid dehydration.",
+        "Parents dipstick morning urine at home; protein 2+ for 3 days means relapse; steroids are never stopped suddenly.",
+      ],
+      quiz: {
+        keywords: ["nephrotic", "nephritic", "glomerulonephritis", "proteinuria", "haematuria", "hypoalbumin", "albumin", "periorbital", "oedema", "streptococc", "prednisolone", "frothy urine", "cola coloured", "minimal change"],
+      },
+    },
+    {
+      slug: "acute-kidney-injury",
+      title: "Acute kidney injury",
+      minutes: 16,
+      objectives: [
+        "Define and stage acute kidney injury and identify patients at risk.",
+        "Classify causes as pre-renal, intrinsic renal and post-renal and recognise each at the bedside.",
+        "Prevent AKI by protecting perfusion, avoiding nephrotoxins and relieving obstruction.",
+        "Recognise and respond to the life-threatening complications and the indications for dialysis.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "A sudden fall in function that is usually preventable",
+          paragraphs: [
+            "Acute kidney injury (AKI) is a rapid decline in kidney function over hours to days, recognised by a <strong>rise in creatinine of 26 micromol/L or more within 48 hours, a rise to 1.5 times the baseline within 7 days, or urine output below 0.5 mL/kg/hour for 6 hours</strong> (KDIGO). It complicates up to one in five hospital admissions, multiplies the risk of death, and in Ghana is commonly caused by things nurses see every day: diarrhoea and vomiting, severe malaria, sepsis, post-partum haemorrhage, pre-eclampsia, snake bite, herbal remedies and NSAIDs bought over the counter, and obstruction from an enlarged prostate.",
+            "Staging: stage 1 — creatinine 1.5–1.9 × baseline or a rise of 26, urine under 0.5 mL/kg/h for 6–12 hours; stage 2 — 2–2.9 × baseline, urine low for 12 hours or more; stage 3 — 3 × baseline or above 354 micromol/L or dialysis started, urine under 0.3 mL/kg/h for 24 hours or anuria for 12 hours. Most AKI is reversible if the cause is found and treated early; the kidney that is left ischaemic or poisoned for days may not recover.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-CLN-2921.svg",
+          alt: "Acute kidney injury divided into pre-renal, intrinsic renal and post-renal causes with the urine pattern and treatment for each, complications ranked by how fast they kill, and the nursing observations that detect them",
+          caption: "Before the kidney, in the kidney, after the kidney. Pre-renal responds to fluid, post-renal to a catheter, intrinsic to time and support. Hyperkalaemia kills first, then overload, then acidosis and uraemia.",
+        },
+        {
+          type: "table",
+          heading: "Three places the problem can be",
+          columns: ["Type", "What has happened", "Causes", "Clues", "Treatment"],
+          rows: [
+            ["Pre-renal (about 60%)", "Not enough blood reaching a healthy kidney", "Hypovolaemia (diarrhoea, vomiting, haemorrhage, burns, DKA, diuretics), hypotension (sepsis, cardiogenic shock, anaphylaxis), heart failure, cirrhosis, renal artery narrowing with ACE inhibitors and NSAIDs", "History of losses or shock; dry patient, tachycardia, postural drop; <strong>concentrated urine</strong> (high specific gravity, low urine sodium); urea rises more than creatinine; responds to fluid within hours", "Restore perfusion: fluid boluses with reassessment, blood for haemorrhage, treat sepsis within the hour, stop ACE inhibitors/ARBs, NSAIDs and diuretics temporarily; untreated it becomes intrinsic"],
+            ["Intrinsic renal (about 35%)", "The kidney tissue itself is damaged", "<strong>Acute tubular necrosis</strong> from prolonged pre-renal insult or toxins — gentamicin, amphotericin, contrast dye, NSAIDs, herbal remedies, heavy metals, myoglobin (crush, rhabdomyolysis, severe exertion), haemoglobin (severe malaria, G6PD haemolysis, mismatched transfusion), snake venom, tumour lysis; glomerulonephritis; acute interstitial nephritis (penicillins, NSAIDs, proton-pump inhibitors — fever, rash, eosinophils); vascular (malignant hypertension, HUS in children after bloody diarrhoea, pre-eclampsia/HELLP)", "Does not respond to fluid; <strong>dilute urine with casts, protein or blood</strong>; muddy brown casts in ATN; dark red-brown urine with myoglobin or haemoglobin; recent nephrotoxin", "Remove the cause, support with fluid balance matched to output, electrolyte and acid–base management, adjust drug doses; steroids for interstitial nephritis and some glomerulonephritis; dialysis to bridge recovery, which may take days to weeks and passes through a polyuric phase"],
+            ["Post-renal (about 5%)", "Urine cannot leave", "Enlarged prostate or prostate cancer, bladder stones or clots, blocked catheter, urethral stricture, bilateral ureteric stones, cervical or other pelvic cancer, retroperitoneal fibrosis, neurogenic bladder, ureteric injury at surgery", "<strong>Sudden anuria or alternating anuria and polyuria</strong>; palpable bladder; loin pain; a man over 50 'passing nothing'; ultrasound shows a full bladder or dilated kidneys (hydronephrosis)", "<strong>Relieve the obstruction</strong> — urethral or suprapubic catheter for bladder outlet obstruction; nephrostomy or ureteric stent for upper tract; manage post-obstructive diuresis"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Preventing AKI — the nurse's checklist",
+          items: [
+            "<strong>Know who is at risk:</strong> age over 65, CKD, diabetes, heart failure, liver disease, sepsis, hypovolaemia, hypotension, major surgery, contrast studies, nephrotoxic drugs, obstruction, pregnancy complications, severe malaria, sickle cell disease, HIV.",
+            "<strong>Protect perfusion:</strong> treat dehydration and bleeding promptly; keep systolic blood pressure above 90–100 (or the patient's usual); recognise sepsis early; give fluids before and after contrast in at-risk patients.",
+            "<strong>Avoid nephrotoxins</strong> — the 'sick day rules': in any patient who is vomiting, has diarrhoea or fever, or is hypotensive, ask about and withhold (with the prescriber) <strong>ACE inhibitors, ARBs, diuretics, NSAIDs and metformin</strong> until well; question gentamicin beyond 48–72 hours without levels; ask specifically about herbal preparations, bleaching creams, excessive paracetamol and over-the-counter diclofenac.",
+            "<strong>Measure urine output</strong> in anyone acutely ill; catheterise for hourly measurement in shock, major surgery and burns; report two consecutive hours below 0.5 mL/kg/hour; check the catheter before assuming the kidney has failed.",
+            "<strong>Check creatinine and electrolytes</strong> on admission and daily in at-risk patients; compare with the baseline, not just the reference range.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "The complications, in the order they kill",
+          columns: ["Complication", "Detect", "Respond"],
+          rows: [
+            ["Hyperkalaemia", "Potassium above 6.0; peaked T waves, wide QRS, bradycardia, weakness; often no symptoms", "ECG and monitor; calcium gluconate, insulin–dextrose, salbutamol; stop potassium sources; dialysis if refractory (see Module 3)"],
+            ["Fluid overload and pulmonary oedema", "Positive balance, weight gain, oedema, raised JVP, crackles, hypoxia, breathlessness lying flat", "Stop or restrict fluids (insensible losses plus output), sit up, oxygen, IV furosemide trial if not anuric, dialysis if refractory"],
+            ["Metabolic acidosis", "Kussmaul breathing, bicarbonate below 18, worsening hyperkalaemia, drowsiness", "Sodium bicarbonate on prescription if severe; dialysis"],
+            ["Uraemia", "Nausea, vomiting, hiccups, itch, confusion, flapping tremor, pericardial rub and chest pain (pericarditis — risk of tamponade), bleeding tendency (platelet dysfunction), seizures, coma", "Dialysis; antiemetics; protect from bleeding; low-protein, high-energy diet via dietitian"],
+            ["Infection", "The commonest cause of death in AKI — chest, urine, lines", "Hand hygiene, early removal of catheters and cannulas, chest physiotherapy, prompt culture and antibiotics with renal dosing"],
+            ["Drug accumulation", "Toxicity from morphine, digoxin, gentamicin, enoxaparin, metformin (lactic acidosis), aciclovir, sulphonylureas (hypoglycaemia)", "Pharmacist review of every drug; dose reduce or stop; avoid contrast"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Nursing the patient with established AKI",
+          items: [
+            "Strict fluid balance with hourly urine output; daily weight; fluids prescribed as <strong>previous day's output plus 500 mL</strong> (plus losses) in the oliguric phase, and generous replacement in the polyuric recovery phase (urine of 3–5 litres a day with potassium and sodium loss).",
+            "Observations: blood pressure, pulse, respiratory rate, SpO2, temperature, consciousness and ECG monitoring if potassium is high; look for Kussmaul breathing, pericardial rub, flapping tremor and bleeding.",
+            "Bloods daily or more: potassium, sodium, bicarbonate, urea, creatinine, calcium, phosphate, glucose, full blood count; blood gas if acidotic.",
+            "Diet: adequate energy (30–35 kcal/kg) to prevent catabolism, protein 0.8–1 g/kg (more on dialysis), potassium and phosphate restriction while high, salt restriction; involve the dietitian early; small frequent meals and antiemetics for nausea.",
+            "Skin and mouth: itch — cool environment, emollients, short nails; mouth care for uraemic taste and dryness; pressure-area care.",
+            "Safety: confusion and weakness increase falls; avoid sedatives and NSAIDs; venepuncture and cannulation on the non-dominant arm and avoid the forearm veins that may be needed for a future fistula.",
+            "Prepare for dialysis when indicated (<strong>AEIOU</strong>: Acidosis refractory, Electrolytes — potassium refractory above 6.5, Intoxication — lithium, methanol, salicylates, Overload refractory to diuretics, Uraemic pericarditis or encephalopathy) — explain the procedure, assist with catheter insertion, and reassure that most AKI recovers.",
+            "Psychological care and clear information for patient and family; teach discharge precautions — avoid NSAIDs and herbal remedies for life, sick-day rules, follow-up creatinine at 1–3 months because AKI increases the lifetime risk of CKD.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "AKI in three sentences",
+          body: "Creatinine up 26 in 48 hours, 1.5 times baseline in a week, or urine under 0.5 mL/kg/hour for 6 hours. Pre-renal responds to fluid, post-renal to a catheter, intrinsic to time — stop the nephrotoxin. Hyperkalaemia kills first; dialysis for the AEIOU.",
+        },
+      ],
+      keyPoints: [
+        "AKI is diagnosed by a creatinine rise of 26 micromol/L in 48 hours, 1.5 × baseline in 7 days, or urine output below 0.5 mL/kg/hour for 6 hours; most cases are preventable.",
+        "Pre-renal (hypovolaemia, sepsis, heart failure) gives concentrated urine and responds to perfusion; intrinsic (ATN, toxins, myoglobin, malaria, glomerulonephritis) needs the cause removed and support; post-renal (prostate, stones, blocked catheter) needs the obstruction relieved.",
+        "Prevent it: measure urine output, protect blood pressure, withhold ACE inhibitors, ARBs, diuretics, NSAIDs and metformin on sick days, avoid gentamicin and contrast without need, ask about herbal remedies.",
+        "Complications kill in order — hyperkalaemia, overload, acidosis, uraemia, infection; fluids are prescribed as output plus 500 mL while oliguric.",
+        "Dialysis for refractory acidosis, hyperkalaemia, poisoning, overload or uraemic pericarditis and encephalopathy; follow up creatinine after recovery.",
+      ],
+      quiz: {
+        keywords: ["acute kidney", "kidney injury", "renal failure", "oliguri", "anuria", "urine output", "creatinine", "nephrotox", "gentamicin", "pre renal", "post renal", "obstruction", "rhabdomyolysis", "hyperkalaemia", "dialysis", "nsaid"],
+      },
+    },
+    {
+      slug: "chronic-kidney-disease",
+      title: "Chronic kidney disease",
+      minutes: 16,
+      objectives: [
+        "Define and stage chronic kidney disease and name its leading causes in Ghana.",
+        "Explain the complications of CKD — anaemia, bone-mineral disease, cardiovascular disease, acidosis, hyperkalaemia and overload — and their treatment.",
+        "Deliver the interventions that slow progression: blood pressure, glycaemic control, ACE inhibitor/ARB, SGLT2 inhibitors, diet and nephrotoxin avoidance.",
+        "Teach and support a patient and family living with CKD, including diet, drugs, fistula planning and conservative care.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "A silent disease found by a blood test and a dipstick",
+          paragraphs: [
+            "Chronic kidney disease (CKD) is <strong>abnormal kidney structure or function for more than three months</strong> — an eGFR below 60 mL/min/1.73 m², or markers of damage such as albuminuria, haematuria, abnormal imaging or a biopsy finding, at any eGFR. It affects roughly one in ten adults, is silent until late, and is diagnosed in Ghana far too often when a young patient arrives in uraemia needing dialysis that few can afford. The leading causes are <strong>hypertension</strong>, <strong>diabetes</strong>, <strong>chronic glomerulonephritis</strong>, HIV-associated nephropathy, sickle cell nephropathy, obstructive uropathy, recurrent pyelonephritis, polycystic kidney disease, and toxic injury from herbal remedies, NSAIDs and heavy metals — and repeated episodes of AKI.",
+            "The APOL1 gene variants common in West African populations increase the risk of focal segmental glomerulosclerosis and hypertensive kidney disease, which is part of why kidney failure strikes younger here. Screening those at risk — anyone with hypertension, diabetes, HIV, sickle cell disease, a family history or previous AKI — with blood pressure, creatinine/eGFR and urine albumin:creatinine ratio once a year finds the disease when it can still be slowed.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Staging by eGFR (G) and albuminuria (A)",
+          columns: ["Stage", "eGFR (mL/min/1.73 m²)", "Description", "Action"],
+          rows: [
+            ["G1", "90 or more with damage markers", "Normal function with damage (e.g. proteinuria)", "Treat the cause and risk factors; annual check"],
+            ["G2", "60–89 with damage markers", "Mildly reduced", "As above; blood pressure and albuminuria control"],
+            ["G3a / G3b", "45–59 / 30–44", "Mild–moderate / moderate–severe reduction", "Monitor 6-monthly; check haemoglobin, calcium, phosphate, PTH, bicarbonate; adjust drug doses; refer if albuminuria is heavy or decline is fast"],
+            ["G4", "15–29", "Severe reduction", "Nephrology care; prepare for kidney replacement therapy or conservative management; preserve the non-dominant arm veins for a fistula; vaccinate against hepatitis B"],
+            ["G5", "Below 15", "Kidney failure (end-stage)", "Dialysis, transplant or conservative care; symptom management"],
+            ["A1 / A2 / A3", "Albumin:creatinine ratio under 3 / 3–30 / over 30 mg/mmol", "Normal / moderately / severely increased albuminuria", "Higher albuminuria at any eGFR means faster progression and more cardiovascular risk — ACE inhibitor or ARB"],
+          ],
+        },
+        {
+          type: "table",
+          heading: "Complications and what is done about them",
+          columns: ["Complication", "Why", "Signs", "Management and nursing"],
+          rows: [
+            ["Hypertension and cardiovascular disease", "Salt and water retention, RAAS activation, stiff vessels; CKD patients are far more likely to die of heart disease than to reach dialysis", "Raised BP, left ventricular hypertrophy, heart failure, strokes", "Target below 130/80 (lower if albuminuria); ACE inhibitor or ARB first (check potassium and creatinine in 1–2 weeks — a rise in creatinine under 30% is accepted), then calcium-channel blocker and diuretic; statin for most adults with CKD; stop smoking; aspirin for established vascular disease"],
+            ["Anaemia", "Less erythropoietin, iron deficiency, shortened red cell life, blood tests, uraemic marrow suppression", "Fatigue, breathlessness, pallor, poor concentration; normocytic", "Check iron studies; oral or IV iron first; erythropoiesis-stimulating agent (epoetin subcutaneously 1–3 times a week, or darbepoetin) when haemoglobin is below 10 g/dL with iron replete — target 10–11.5, not higher (strokes, hypertension); monitor BP; transfuse sparingly (sensitisation before transplant)"],
+            ["Mineral and bone disorder", "Phosphate retained, active vitamin D not made, calcium falls, parathyroid hormone rises and strips bone", "Bone pain, fractures, itching, vascular calcification, muscle weakness; usually silent", "Low-phosphate diet; <strong>phosphate binders with every meal</strong> (calcium carbonate/acetate, sevelamer); alfacalcidol or calcitriol; cinacalcet; monitor calcium, phosphate, PTH and alkaline phosphatase"],
+            ["Hyperkalaemia", "Reduced excretion plus ACE inhibitors, spironolactone, acidosis, diet", "Usually silent until ECG changes", "Low-potassium diet (soak and double-boil vegetables, avoid coconut water, bananas, oranges, groundnuts, beans, tomatoes, salt substitutes); correct acidosis; review drugs; potassium binders; emergency treatment as in Module 3"],
+            ["Metabolic acidosis", "Hydrogen ions not excreted", "Kussmaul breathing, muscle wasting, bone loss, worsening hyperkalaemia", "Oral sodium bicarbonate 500 mg–1 g two to three times daily to keep bicarbonate above 22; watch sodium load"],
+            ["Fluid overload", "Cannot excrete water and salt", "Oedema, breathlessness, hypertension, weight gain", "Salt restriction, fluid restriction when oliguric, loop diuretics in high doses, dialysis ultrafiltration; daily weight"],
+            ["Uraemic symptoms", "Accumulated toxins", "Anorexia, nausea, metallic taste, hiccups, itch, restless legs, insomnia, cramps, cognitive slowing, sexual dysfunction, pericarditis, neuropathy", "Dietitian; antiemetics; emollients and treatment of phosphate for itch; gabapentin cautiously for restless legs and neuropathy; dialysis when symptoms dominate"],
+            ["Malnutrition", "Anorexia, restrictions, acidosis, inflammation", "Weight loss, low albumin", "Dietitian: adequate energy (30–35 kcal/kg), protein 0.8 g/kg pre-dialysis and 1.0–1.2 on dialysis, quality protein within the potassium and phosphate limits"],
+            ["Infection and bleeding", "Impaired immunity; platelet dysfunction", "Chest and urine infections; bruising, GI bleeding", "Hepatitis B, pneumococcal and influenza vaccination; avoid NSAIDs and aspirin unless indicated; desmopressin for uraemic bleeding"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Slowing the decline — what the evidence says works",
+          items: [
+            "<strong>Blood pressure control</strong> is the most powerful intervention — home monitoring, adherence support, affordable fixed-dose combinations.",
+            "<strong>ACE inhibitor or ARB</strong> for anyone with albuminuria, diabetes or hypertension — reduces proteinuria and slows progression; check potassium and creatinine in 1–2 weeks; withhold on sick days.",
+            "<strong>SGLT2 inhibitors</strong> (dapagliflozin, empagliflozin) slow CKD progression in diabetic and non-diabetic CKD with albuminuria — where affordable; teach about genital hygiene and sick-day rules.",
+            "<strong>Glycaemic control</strong> in diabetes (HbA1c around 53 mmol/mol / 7% individualised; metformin dose-reduced below eGFR 45 and stopped below 30; insulin requirements fall as the kidney fails — hypoglycaemia risk).",
+            "<strong>Avoid nephrotoxins for life:</strong> NSAIDs (including topical in high dose), herbal and traditional medicines, bleaching creams, unnecessary contrast, aminoglycosides; dose-adjust every renally cleared drug; a wallet card listing the eGFR.",
+            "<strong>Diet:</strong> salt under 5 g/day; moderate protein (not high-protein supplements); potassium and phosphate limits as results dictate; adequate calories; a dietitian who knows local foods.",
+            "<strong>Stop smoking, treat obesity, treat acidosis, treat the cause</strong> (HIV with ART, hepatitis B, obstruction, lupus); treat urinary infections promptly; avoid and manage AKI episodes.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Living with CKD — teaching and planning",
+          items: [
+            "Explain the disease in plain terms, the stage, what the numbers mean and what the patient can do; written plan; involve the family and the person who cooks.",
+            "Medicines: why each is taken, which must not be stopped (antihypertensives) and which must be withheld when ill (ACE inhibitor/ARB, diuretics, metformin, SGLT2 inhibitor); binders <em>with</em> food; epoetin injection technique and storage in the fridge; never buy painkillers or herbal remedies without asking.",
+            "Monitoring at home: blood pressure diary, weight, oedema, breathlessness, urine volume; danger signs — breathlessness, chest pain, confusion, vomiting, very low urine output, fever.",
+            "Protect the arm: from stage 4, <strong>no blood pressure cuffs, cannulas or venepuncture on the non-dominant arm</strong>; a fistula is created months before dialysis is needed so it can mature.",
+            "Choices for kidney failure, discussed early and honestly: haemodialysis, peritoneal dialysis, transplantation (living donor where possible), or <strong>conservative kidney management</strong> — full medical and symptom care without dialysis, a legitimate choice for the frail, the very old and those for whom dialysis is unaffordable or unwanted — with palliative care involvement for symptoms and end-of-life planning. In Ghana the National Health Insurance Scheme covers only limited dialysis sessions for some patients; cost, distance and transport shape every plan, and the nurse must help the family understand and prepare for them.",
+            "Psychological and social support: depression is common; fatigue and body-image changes; employment; sexual health; link to patient groups and social welfare; spiritual care.",
+            "Pregnancy in CKD is high risk — contraception counselling and pre-conception nephrology advice; ACE inhibitors are stopped before conception.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "CKD numbers",
+          body: "eGFR below 60 for 3 months (or damage markers). Stages G3a 45–59, G3b 30–44, G4 15–29, G5 below 15. BP below 130/80; ACE inhibitor/ARB for albuminuria; haemoglobin target 10–11.5 on epoetin after iron; binders with meals; protect the fistula arm from stage 4; no NSAIDs or herbal remedies ever.",
+        },
+      ],
+      keyPoints: [
+        "CKD is eGFR below 60 or kidney damage for more than three months; hypertension, diabetes, glomerulonephritis, HIV, sickle cell and toxic injury lead in Ghana; screen those at risk yearly with BP, eGFR and urine albumin.",
+        "Complications follow from lost functions: hypertension and heart disease, anaemia (iron then epoetin), bone-mineral disease (binders with meals, vitamin D), hyperkalaemia, acidosis (bicarbonate), overload and uraemia.",
+        "Progression is slowed by blood pressure control, ACE inhibitor/ARB, SGLT2 inhibitors, glycaemic control, salt and protein moderation and lifelong avoidance of NSAIDs and herbal remedies.",
+        "Teach sick-day rules, drug timing, home monitoring and danger signs; protect the non-dominant arm for a fistula from stage 4.",
+        "Discuss haemodialysis, peritoneal dialysis, transplant and conservative management early and honestly, including cost and distance.",
+      ],
+      quiz: {
+        keywords: ["chronic kidney", "kidney disease", "renal failure", "egfr", "erythropoietin", "epoetin", "phosphate binder", "anaemia of", "uraemi", "ace inhibitor", "albuminuria", "proteinuria", "fistula", "nephrotox", "low potassium diet", "renal failure", "kidney failure"],
+      },
+    },
+  ],
+};

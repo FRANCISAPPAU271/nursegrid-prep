@@ -1,0 +1,221 @@
+import type { CourseModule } from "../types";
+
+export const emergencies: CourseModule = {
+  slug: "dysrhythmias-and-emergencies",
+  title: "Dysrhythmias and cardiac emergencies",
+  summary: "Reading the rhythm strip, the response to each common dysrhythmia, basic and advanced life support, the four types of shock, and cardiac tamponade.",
+  lessons: [
+    {
+      slug: "recognising-dysrhythmias",
+      title: "Recognising common dysrhythmias and the nursing response",
+      minutes: 20,
+      objectives: [
+        "Apply a systematic method to read any rhythm strip.",
+        "Recognise the common brady- and tachyarrhythmias and the heart blocks.",
+        "State the first nursing response to each, including which rhythms are defibrillated and which are cardioverted.",
+        "Explain how potassium, magnesium and calcium disturbances affect the rhythm.",
+      ],
+      blocks: [
+        {
+          type: "list",
+          heading: "A five-step method for every strip",
+          style: "steps",
+          items: [
+            "<strong>Rate</strong> — fast, slow or normal?",
+            "<strong>Rhythm</strong> — regular, regularly irregular, or irregularly irregular? March a strip of paper along the R waves.",
+            "<strong>P waves</strong> — present, one before every QRS, all the same shape?",
+            "<strong>PR interval</strong> — 0.12–0.20 s and constant?",
+            "<strong>QRS</strong> — narrow (under 0.12 s, from above the ventricles) or wide (from the ventricles, or with bundle branch block)? Then ask the two questions that matter most: does the patient have a pulse, and are they stable? <strong>Treat the patient, not the monitor.</strong>",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Common dysrhythmias",
+          columns: ["Rhythm", "Recognition", "Why it matters", "First nursing response"],
+          rows: [
+            ["Sinus bradycardia", "Regular; normal P and QRS; rate under 60", "Normal in athletes and in sleep; caused by beta-blockers, digoxin, inferior infarction, raised intracranial pressure, hypothyroidism, hypothermia, vagal stimulation", "Treat only if symptomatic (hypotension, syncope, chest pain, heart failure, confusion): atropine 0.5 mg IV repeated to 3 mg, then pacing or an adrenaline or isoprenaline infusion. Withhold rate-slowing drugs and inform the doctor"],
+            ["Sinus tachycardia", "Regular; normal P and QRS; rate over 100", "A response to pain, fever, anxiety, hypovolaemia, anaemia, hypoxia, sepsis and drugs such as salbutamol", "Find and treat the cause. Never slow it with drugs without knowing why it is fast"],
+            ["Atrial fibrillation", "Irregularly irregular; no P waves; fibrillating baseline; narrow QRS; ventricular rate often 100–160", "Loss of the atrial kick drops output by up to 30%; clots form in the left atrium — a five-fold stroke risk. The commonest sustained arrhythmia, often from rheumatic mitral disease, hypertension, thyrotoxicosis, alcohol or sepsis", "Apical pulse for a full minute and the pulse deficit; 12-lead ECG. Unstable (shock, syncope, pulmonary oedema, ischaemic chest pain) → synchronised cardioversion. Stable → rate control (beta-blocker, diltiazem, digoxin) and anticoagulation according to stroke risk; rhythm control (amiodarone, elective cardioversion after 3 weeks of anticoagulation) for selected patients"],
+            ["Atrial flutter", "Saw-tooth flutter waves at about 300 a minute with 2:1 or 4:1 block — a ventricular rate of exactly 150 is typical", "The same risks as atrial fibrillation", "As for atrial fibrillation; often responds to low-energy cardioversion"],
+            ["Supraventricular tachycardia", "Regular narrow-complex tachycardia at 150–250; P waves hidden; abrupt onset and offset", "Palpitations, dizziness, chest pain; usually a structurally normal heart", "Vagal manoeuvres (modified Valsalva: blow into a 10 mL syringe for 15 seconds, then lie flat with the legs raised); adenosine 6 mg by rapid IV push into a large vein followed by a flush, then 12 mg — warn of brief chest tightness and a sense of dread, and record the strip; synchronised cardioversion if unstable"],
+            ["Premature ventricular complexes", "Early, wide, bizarre QRS with no preceding P wave, followed by a pause", "Benign in isolation; frequent (more than 6 a minute), multifocal, in runs, or landing on the T wave (R-on-T) after infarction are warning signs", "Check potassium (keep above 4.0) and magnesium, oxygen saturation, caffeine and stimulant use and the digoxin level; inform the doctor; keep monitoring"],
+            ["Ventricular tachycardia", "Three or more consecutive wide bizarre complexes at 100–250 a minute, usually regular", "May have a pulse briefly, or none; degenerates into ventricular fibrillation", "With a pulse and stable: IV amiodarone, correct electrolytes, call the team. With a pulse and unstable: synchronised cardioversion under sedation. Pulseless: treat as ventricular fibrillation — defibrillate"],
+            ["Torsades de pointes", "Polymorphic VT that twists around the baseline, on a background of a long QT", "Caused by hypomagnesaemia, hypokalaemia and QT-prolonging drugs", "Magnesium sulfate 2 g IV; stop the offending drug; defibrillate if pulseless"],
+            ["Ventricular fibrillation", "Chaotic irregular waveform; no QRS; no pulse", "Cardiac arrest — no output. The commonest arrest rhythm after infarction", "Confirm no pulse, start CPR and defibrillate the moment the defibrillator arrives; adrenaline 1 mg after the third shock and then every 3–5 minutes; amiodarone 300 mg after the third shock"],
+            ["Asystole and pulseless electrical activity", "A flat line (check the leads and the gain) or an organised rhythm without a pulse", "Non-shockable arrest rhythms", "CPR; adrenaline 1 mg at once and every 3–5 minutes; search for the reversible causes (the 4 Hs and 4 Ts). Do not shock"],
+          ],
+        },
+        {
+          type: "table",
+          heading: "Heart blocks",
+          columns: ["Block", "ECG", "Significance", "Response"],
+          rows: [
+            ["First-degree", "PR interval longer than 0.20 s; every P conducted", "Usually benign — drugs, inferior infarction, rheumatic fever", "Monitor; review beta-blockers and digoxin"],
+            ["Second-degree Mobitz type I (Wenckebach)", "PR lengthens progressively until a QRS is dropped, then the cycle repeats", "Usually benign and transient (AV nodal); common in inferior infarction", "Monitor; atropine if symptomatic"],
+            ["Second-degree Mobitz type II", "Constant PR with intermittently dropped QRS complexes", "Disease below the AV node; may progress suddenly to complete block", "Continuous monitoring, transcutaneous pacing on standby, permanent pacemaker"],
+            ["Third-degree (complete)", "P waves and QRS complexes independent of each other; slow ventricular escape at 20–40, often wide", "Low output, syncope (Stokes–Adams attacks), risk of asystole", "Pacing — transcutaneous, then transvenous or permanent; atropine rarely helps; keep the patient resting and monitored with a defibrillator at hand"],
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-ELE-2980.svg",
+          alt: "ECG tracings contrasting the tall peaked T wave of hyperkalaemia with the flattened T wave and U wave of hypokalaemia",
+          caption: "Tall peaked T waves — hyperkalaemia. Flat T waves with U waves — hypokalaemia.",
+        },
+        {
+          type: "table",
+          heading: "Electrolytes and the rhythm",
+          columns: ["Disturbance", "ECG", "Risk and causes", "Action"],
+          rows: [
+            ["Hyperkalaemia (above 5.5 mmol/L)", "Tall peaked T waves, flattened P waves, widened QRS, sine wave, asystole", "Cardiac arrest. Renal failure, ACE inhibitors, spironolactone, potassium supplements, crush injury, acidosis, massive transfusion", "Repeat the sample urgently, ECG, calcium gluconate 10% 10 mL IV to protect the heart, insulin with glucose, nebulised salbutamol, treat the cause; stop every potassium-raising drug"],
+            ["Hypokalaemia (below 3.5 mmol/L)", "Flat T waves, U waves, ST depression, prolonged QT", "Ectopics, ventricular tachycardia, torsades; digoxin toxicity. Diuretics, vomiting, diarrhoea, poor intake, insulin, salbutamol", "Oral potassium, or carefully diluted IV potassium — never by push, no faster than 10–20 mmol an hour and on a monitor; check magnesium"],
+            ["Hypomagnesaemia", "Prolonged QT, torsades", "Refractory hypokalaemia and arrhythmia; diuretics, alcohol, diarrhoea", "Magnesium sulfate IV"],
+            ["Hypocalcaemia / hypercalcaemia", "Long QT / short QT", "Arrhythmia; digoxin toxicity is worse with high calcium", "Correct the cause and the level"],
+          ],
+        },
+        {
+          type: "callout",
+          tone: "warning",
+          title: "Only three rhythms are shocked",
+          body: "Ventricular fibrillation and pulseless ventricular tachycardia are defibrillated (unsynchronised). Unstable tachycardias with a pulse — fast atrial fibrillation, SVT, VT with a pulse — are cardioverted with the synchroniser on. Never shock asystole or PEA, and never shock a patient who is talking to you.",
+        },
+      ],
+      keyPoints: [
+        "Rate, rhythm, P waves, PR interval, QRS — then check the pulse and the patient.",
+        "Atrial fibrillation is irregularly irregular with no P waves: count the apical pulse and think about stroke prevention.",
+        "Symptomatic bradycardia: atropine. SVT: vagal manoeuvres then adenosine. VT with a pulse: amiodarone or cardioversion. VF or pulseless VT: defibrillate.",
+        "Mobitz II and complete heart block need pacing; Wenckebach usually needs only observation.",
+        "Peaked T waves mean hyperkalaemia — protect the heart with calcium gluconate; flat T and U waves mean hypokalaemia — correct it before digoxin becomes toxic.",
+      ],
+      quiz: {
+        keywords: ["atrial fibrillation", "ventricular tachycardia", "ventricular fibrillation", "bradycardia", "heart block", "arrhythmia", "dysrhythmia", "adenosine", "atropine", "amiodarone", "pacemaker", "palpitation", "hyperkalaemia", "hypokalaemia", "cardioversion", "supraventricular", "ectopic beat"],
+      },
+    },
+    {
+      slug: "cardiac-arrest-shock-and-tamponade",
+      title: "Cardiac arrest, shock and cardiac tamponade",
+      minutes: 22,
+      objectives: [
+        "Perform adult and paediatric basic life support in the correct sequence with correct compression technique.",
+        "Describe the advanced life support algorithm for shockable and non-shockable rhythms and the reversible causes.",
+        "Classify shock, recognise its compensated stage and prioritise nursing care for each type.",
+        "Recognise cardiac tamponade and prepare for its emergency management.",
+      ],
+      blocks: [
+        {
+          type: "diagram",
+          src: "/diagrams/NG-EMG-0061.svg",
+          alt: "The DRSABC sequence: Danger, Response, Shout for help, Airway, Breathing, Circulation and CPR at thirty compressions to two breaths",
+          caption: "DRSABC — the sequence is the same every time, so that nothing is missed under pressure.",
+        },
+        {
+          type: "list",
+          heading: "Adult basic life support",
+          style: "steps",
+          items: [
+            "<strong>Danger</strong> — make sure the scene is safe for you; never become the second casualty.",
+            "<strong>Response</strong> — shake the shoulders gently and shout “Are you all right?”",
+            "<strong>Shout for help</strong> — send a named person to call the emergency team and fetch the defibrillator or AED.",
+            "<strong>Airway</strong> — head tilt and chin lift (jaw thrust if spinal injury is suspected); remove any visible obstruction.",
+            "<strong>Breathing</strong> — look, listen and feel for no more than 10 seconds. Gasping (agonal breathing) is not breathing.",
+            "<strong>Circulation and CPR</strong> — if the patient is not breathing normally (and has no pulse, for trained staff), start chest compressions: heel of the hand on the centre of the chest, arms straight, <strong>depth 5–6 cm, rate 100–120 a minute</strong>, full recoil, minimal interruptions. Give <strong>30 compressions to 2 breaths</strong>, each breath over about one second with visible chest rise, using a bag-valve-mask with oxygen as soon as it is available.",
+            "Attach the defibrillator or AED the moment it arrives and follow the prompts; resume compressions immediately after each shock. Change the person compressing every 2 minutes.",
+            "Continue until signs of life return, the team takes over, or you are exhausted.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Children and infants — the differences",
+          items: [
+            "The commonest cause of arrest in a child is <strong>hypoxia</strong>, so give <strong>5 initial rescue breaths</strong> before starting compressions.",
+            "Compress <strong>one-third of the chest depth</strong> (about 4 cm in infants and 5 cm in children) — two fingers or two encircling thumbs for an infant, one or two hands for a child.",
+            "Healthcare providers use <strong>15 compressions to 2 breaths</strong> (30:2 for a lone lay rescuer). A lone rescuer gives one minute of CPR before leaving to call for help.",
+            "Defibrillation energy is 4 J/kg; adrenaline is 10 micrograms/kg IV or intraosseous.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Advanced life support in brief",
+          columns: ["Shockable — VF or pulseless VT", "Non-shockable — asystole or PEA"],
+          rows: [
+            ["Shock as soon as the rhythm is identified, then 2 minutes of CPR, then reassess the rhythm", "No shock; 2 minutes of CPR, then reassess the rhythm"],
+            ["Adrenaline 1 mg IV or IO after the third shock, then every 3–5 minutes (alternate cycles)", "Adrenaline 1 mg IV or IO as soon as access is obtained, then every 3–5 minutes"],
+            ["Amiodarone 300 mg IV after the third shock; a further 150 mg after the fifth", "No antiarrhythmic"],
+            ["Both: high-quality compressions, oxygen, an advanced airway with waveform capnography when skilled staff are present, IV or IO access, and treatment of reversible causes", "Both: identify and treat the 4 Hs — hypoxia, hypovolaemia, hypo- or hyperkalaemia and other metabolic causes, hypothermia — and the 4 Ts — tension pneumothorax, tamponade, toxins, thrombosis (coronary or pulmonary)"],
+            ["After return of spontaneous circulation: 12-lead ECG, oxygen to a saturation of 94–98%, blood pressure support, glucose control, temperature management, treat the cause, transfer to critical care", ""],
+          ],
+        },
+        {
+          type: "text",
+          heading: "Shock — the cells are not being perfused",
+          paragraphs: [
+            "Shock is inadequate tissue perfusion and oxygen delivery, whatever the blood pressure reads. The body compensates with tachycardia, vasoconstriction (cool pale skin, delayed capillary refill, a narrowing pulse pressure), reduced urine output and restlessness. The blood pressure is maintained until about 30% of the circulating volume — or of cardiac function — has been lost.",
+            "A normal blood pressure therefore <strong>never excludes shock</strong>, and a falling blood pressure means compensation has already failed. Read the pulse, the skin, the urine output and the mind.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-SRG-0515.svg",
+          alt: "Stages of hypovolaemic shock by percentage of blood lost: pulse rises and the patient becomes anxious long before the blood pressure falls",
+          caption: "Blood pressure falls last — a young patient compensates beautifully and then collapses without warning.",
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-MSN-2695.svg",
+          alt: "Four types of shock with their underlying problem, skin findings and first treatment, and compensated versus decompensated stages",
+          caption: "Four types of shock — the underlying problem decides the first treatment.",
+        },
+        {
+          type: "table",
+          heading: "The four types of shock",
+          columns: ["Type", "Underlying problem and causes", "Distinguishing features", "First treatment"],
+          rows: [
+            ["Hypovolaemic", "Not enough volume: haemorrhage (trauma, gastrointestinal bleeding, postpartum haemorrhage, ruptured ectopic pregnancy), dehydration (diarrhoea, vomiting, burns, diabetic ketoacidosis)", "Cold clammy pale skin, flat neck veins, tachycardia, thirst, oliguria", "Stop the bleeding; two large-bore cannulae; warmed crystalloid boluses (500 mL–1 L in an adult, 20 mL/kg in a child); blood early in haemorrhage; legs elevated; keep warm"],
+            ["Cardiogenic", "Pump failure: large infarction, severe heart failure, arrhythmia, valve rupture, myocarditis, cardiomyopathy", "Cold clammy skin with raised neck veins, crackles, S3, pulmonary oedema", "Oxygen; sit up if the lungs are wet; treat the arrhythmia or the infarct; inotropes (dobutamine, noradrenaline); cautious fluid only if the patient is dry; urgent cardiology"],
+            ["Distributive", "Vessels too wide: septic (the commonest), anaphylactic, neurogenic (spinal cord injury)", "Early sepsis — warm flushed skin, bounding pulse, fever, wide pulse pressure, then cold. Anaphylaxis — urticaria, wheeze, swelling of the face and throat after exposure. Neurogenic — hypotension with bradycardia and warm dry skin", "Sepsis: cultures, antibiotics within one hour, 30 mL/kg crystalloid, lactate, urine output, vasopressors. Anaphylaxis: remove the trigger, adrenaline 0.5 mg of 1:1000 IM into the anterolateral thigh, repeated after 5 minutes if needed, oxygen, fluids, then antihistamine and steroid. Neurogenic: fluids, vasopressors, atropine for bradycardia"],
+            ["Obstructive", "Blood cannot get through: cardiac tamponade, tension pneumothorax, massive pulmonary embolism", "Raised neck veins with clear lungs; tracheal deviation and absent breath sounds in tension pneumothorax; sudden breathlessness and hypoxia in pulmonary embolism", "Relieve the obstruction: pericardiocentesis; needle decompression then a chest drain; thrombolysis or embolectomy"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Nursing a patient in shock — whatever the cause",
+          items: [
+            "ABC first; high-flow oxygen; call for help early and move to a resuscitation area.",
+            "Two large-bore IV cannulae; take blood at the same time — cross-match, full blood count, urea and electrolytes, glucose, lactate, and cultures if sepsis is possible.",
+            "Monitor continuously: heart rate, blood pressure, respiratory rate, saturation, temperature, conscious level, capillary refill and skin. Insert a urinary catheter and record hourly output (target above 0.5 mL/kg/hour).",
+            "Position: supine with the legs raised for hypovolaemic and distributive shock; semi-upright for cardiogenic shock with pulmonary oedema.",
+            "Keep the patient warm and nil by mouth; protect pressure areas.",
+            "Give <strong>no intramuscular drugs</strong> — poorly perfused muscle does not absorb them. The exception is IM adrenaline in anaphylaxis, where the thigh muscle is still perfused early.",
+            "Reassess after every intervention: a rising blood pressure, falling pulse, improving mental state and urine output tell you the treatment is working.",
+            "Document, communicate with SBAR, and support the family.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Cardiac tamponade",
+          items: [
+            "Fluid or blood in the pericardial sac compresses the heart so it cannot fill. Causes: pericarditis (viral, tuberculous — common in Ghana — uraemic, malignant), chest trauma, cardiac surgery, myocardial rupture, aortic dissection, anticoagulation.",
+            "<strong>Beck’s triad:</strong> hypotension, muffled (distant) heart sounds and raised jugular venous pressure. Also tachycardia, a narrowing pulse pressure, breathlessness, anxiety, <strong>pulsus paradoxus</strong> (systolic pressure falls by more than 10 mmHg on inspiration), low-voltage QRS or electrical alternans on the ECG, and an enlarged globular heart with clear lungs on the chest X-ray.",
+            "Nursing response: do not leave the patient; sit them up; high-flow oxygen; IV access with a cautious fluid bolus to support filling; continuous monitoring; call the doctor urgently and prepare for echocardiography-guided <strong>pericardiocentesis</strong> (consent, sterile pack, long needle, ECG monitoring, drainage bottle); have resuscitation equipment at hand; after drainage, monitor for re-accumulation and bleeding.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "The neck veins separate them",
+          body: "A trauma or post-cardiac-surgery patient with falling blood pressure, rising neck veins and quiet heart sounds is a tamponade question. A patient with falling pressure, flat neck veins and clear lungs is a hypovolaemia question.",
+        },
+      ],
+      keyPoints: [
+        "DRSABC; compressions 5–6 cm deep at 100–120 a minute, 30:2, minimal interruptions; defibrillate VF and pulseless VT as early as possible.",
+        "Children: 5 rescue breaths first, 15:2 for healthcare providers, one-third of the chest depth.",
+        "Adrenaline 1 mg every 3–5 minutes — after the third shock in shockable rhythms, at once in non-shockable; amiodarone 300 mg after the third shock; find the 4 Hs and 4 Ts.",
+        "Shock is poor perfusion, not a blood pressure number: tachycardia, cool skin, a narrow pulse pressure and restlessness come first.",
+        "Hypovolaemic — fluids and stop the bleeding; cardiogenic — inotropes, not a fluid flood; anaphylaxis — IM adrenaline; sepsis — antibiotics within the hour; tamponade — Beck’s triad and pericardiocentesis.",
+      ],
+      quiz: {
+        keywords: ["cardiac arrest", "cardiopulmonary resuscitation", "cpr", "chest compression", "defibrillat", "rescue breath", "shock", "hypovolaemi", "cardiogenic", "anaphyla", "tamponade", "beck", "pulsus paradoxus", "adrenaline", "basic life support"],
+      },
+    },
+  ],
+};

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { mockVerdict } from "@/components/exams/MockExamLauncher";
@@ -12,6 +12,7 @@ import { RichText } from "@/components/questions/RichText";
 import { EmphasisedText } from "../questions/EmphasisedText";
 import { OptionBadge } from "@/components/questions/OptionBadge";
 import ExamReviewSummary from "@/components/exams/ExamReviewSummary";
+import PostTestResultBanner from "@/components/courses/PostTestResultBanner";
 
 type ExamMeta = {
   id: string;
@@ -29,6 +30,10 @@ const DIFFICULTY_STYLE: Record<string, string> = {
   hard: "bg-rose-100 text-rose-700",
 };
 
+function serializeAnswers(answers: Record<string, string>): string {
+  return JSON.stringify(Object.entries(answers).sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0)));
+}
+
 export default function ExamRunner({ examId }: { examId: string }) {
   const [loading, setLoading] = useState(true);
   const [meta, setMeta] = useState<ExamMeta | null>(null);
@@ -37,9 +42,23 @@ export default function ExamRunner({ examId }: { examId: string }) {
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [current, setCurrent] = useState(0);
   const [submitting, setSubmitting] = useState(false);
+  // Draft autosave: answers are PATCHed to the server shortly after every
+  // change (and immediately when the tab is hidden/closed) so an exam can be
+  // resumed on any device without losing a single selection.
+  const [saveState, setSaveState] = useState<"idle" | "saving" | "saved" | "error">("idle");
+  const answersRef = useRef<Record<string, string>>({});
+  const dirtyRef = useRef(false);
+  const hydratedRef = useRef(false);
+  // Canonical serialisation of the answers last confirmed on the server, so
+  // we never re-send an identical draft (e.g. right after restoring one).
+  const lastSavedRef = useRef<string>(serializeAnswers({}));
+  const saveTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const toast = useToast();
   const searchParams = useSearchParams();
   const isMock = searchParams.get("mock") === "1" || (meta?.title ?? "").startsWith("Mock NMC Exam");
+  // Course post-tests reuse the exam runner; ?course=<slug> switches the
+  // header link and the result banner to the learning-centre flow.
+  const courseSlug = searchParams.get("course");
   // Mock timer: 150 minutes from the exam's startedAt timestamp.
   const deadline = useMemo(() => {
     if (!meta || meta.status !== "in_progress" || !isMock) return null;
@@ -60,9 +79,88 @@ export default function ExamRunner({ examId }: { examId: string }) {
         if (data.exam) setMeta(data.exam);
         if (data.questions) setQuestions(data.questions);
         if (data.review) setReview(data.review);
+        // Resume: restore autosaved selections and open the first question
+        // that still has no answer (or the last one when all are answered,
+        // so the Submit button is right there).
+        if (Array.isArray(data.answers) && Array.isArray(data.questions)) {
+          const restored: Record<string, string> = {};
+          for (const a of data.answers as { questionId: string; selectedChoiceId: string }[]) {
+            if (a?.questionId && a?.selectedChoiceId) restored[a.questionId] = a.selectedChoiceId;
+          }
+          if (Object.keys(restored).length > 0) {
+            answersRef.current = restored;
+            lastSavedRef.current = serializeAnswers(restored);
+            setAnswers(restored);
+            const list = data.questions as { id: string }[];
+            const firstOpen = list.findIndex((q) => !restored[q.id]);
+            setCurrent(firstOpen === -1 ? Math.max(0, list.length - 1) : firstOpen);
+            setSaveState("saved");
+          }
+        }
+        hydratedRef.current = true;
       })
       .finally(() => setLoading(false));
   }, [examId]);
+
+  const saveDraft = useCallback(
+    async (keepalive = false) => {
+      if (!dirtyRef.current) return;
+      const snapshot = serializeAnswers(answersRef.current);
+      const payload = Object.entries(answersRef.current).map(([questionId, selectedChoiceId]) => ({ questionId, selectedChoiceId }));
+      dirtyRef.current = false;
+      setSaveState("saving");
+      try {
+        const res = await fetch(`/api/exams/${examId}`, {
+          method: "PATCH",
+          headers: { "Content-Type": "application/json" },
+          keepalive,
+          body: JSON.stringify({ answers: payload }),
+        });
+        if (res.ok) lastSavedRef.current = snapshot;
+        setSaveState(res.ok ? "saved" : "error");
+        if (!res.ok) dirtyRef.current = true;
+      } catch {
+        dirtyRef.current = true;
+        setSaveState("error");
+      }
+    },
+    [examId],
+  );
+
+  // Debounced autosave whenever the answers change (after the initial load).
+  useEffect(() => {
+    answersRef.current = answers;
+    if (!hydratedRef.current || !meta || meta.status !== "in_progress") return;
+    if (serializeAnswers(answers) === lastSavedRef.current) return;
+    dirtyRef.current = true;
+    if (saveTimerRef.current) clearTimeout(saveTimerRef.current);
+    saveTimerRef.current = setTimeout(() => {
+      saveTimerRef.current = null;
+      void saveDraft();
+    }, 1200);
+    return () => {
+      if (saveTimerRef.current) {
+        clearTimeout(saveTimerRef.current);
+        saveTimerRef.current = null;
+      }
+    };
+  }, [answers, meta, saveDraft]);
+
+  // Flush pending changes when the student leaves (tab hidden, app closed,
+  // navigation away) — keepalive lets the request outlive the page.
+  useEffect(() => {
+    const flush = () => {
+      if (document.visibilityState === "hidden") void saveDraft(true);
+    };
+    const onPageHide = () => void saveDraft(true);
+    document.addEventListener("visibilitychange", flush);
+    window.addEventListener("pagehide", onPageHide);
+    return () => {
+      document.removeEventListener("visibilitychange", flush);
+      window.removeEventListener("pagehide", onPageHide);
+      void saveDraft(true);
+    };
+  }, [saveDraft]);
 
   function selectAnswer(questionId: string, choiceId: string) {
     setAnswers((a) => ({ ...a, [questionId]: choiceId }));
@@ -95,6 +193,13 @@ export default function ExamRunner({ examId }: { examId: string }) {
 
   async function submitExam() {
     setSubmitting(true);
+    // The final submission carries every answer, so a pending draft save is
+    // redundant (and the server refuses drafts once the exam is completed).
+    if (saveTimerRef.current) {
+      clearTimeout(saveTimerRef.current);
+      saveTimerRef.current = null;
+    }
+    dirtyRef.current = false;
     try {
       const payload = Object.entries(answers).map(([questionId, selectedChoiceId]) => ({ questionId, selectedChoiceId }));
       const res = await fetch(`/api/exams/${examId}/submit`, {
@@ -116,7 +221,7 @@ export default function ExamRunner({ examId }: { examId: string }) {
   if (loading) {
     return (
       <div>
-        <HeaderBar title="Loading exam…" />
+        <HeaderBar title="Loading exam…" courseSlug={courseSlug} />
         <SkeletonList count={4} />
       </div>
     );
@@ -125,7 +230,7 @@ export default function ExamRunner({ examId }: { examId: string }) {
   if (!meta) {
     return (
       <div>
-        <HeaderBar title="Exam not found" />
+        <HeaderBar title="Exam not found" courseSlug={courseSlug} />
         <p className="text-sm text-slate-500">This exam may have been deleted.</p>
       </div>
     );
@@ -136,7 +241,10 @@ export default function ExamRunner({ examId }: { examId: string }) {
     const pct = meta.totalQuestions > 0 ? Math.round((meta.correctCount / meta.totalQuestions) * 100) : 0;
     return (
       <div>
-        <HeaderBar title={meta.title} />
+        <HeaderBar title={meta.title} courseSlug={courseSlug} />
+        {courseSlug ? (
+          <PostTestResultBanner courseSlug={courseSlug} correctCount={meta.correctCount} totalQuestions={meta.totalQuestions} />
+        ) : (
         <div className="mb-6 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 text-center">
           <p className="text-3xl">{isMock ? "🎓" : "🎉"}</p>
           <h2 className="mt-2 text-2xl font-extrabold text-slate-950">
@@ -153,6 +261,7 @@ export default function ExamRunner({ examId }: { examId: string }) {
           })()}
           <p className="mt-2 text-sm text-emerald-800">Review every question, your answer, the correct answer, and the rationale below.</p>
         </div>
+        )}
 
         <ExamReviewSummary review={review} />
 
@@ -218,9 +327,15 @@ export default function ExamRunner({ examId }: { examId: string }) {
         </div>
 
         <div className="mt-6 flex justify-center">
-          <Link href="/dashboard/exams" className="rounded-lg bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-emerald-700">
-            Back to exam builder
-          </Link>
+          {courseSlug ? (
+            <Link href={`/dashboard/courses/${courseSlug}/post-test`} className="rounded-lg bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-emerald-700">
+              Return to course
+            </Link>
+          ) : (
+            <Link href="/dashboard/exams" className="rounded-lg bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-emerald-700">
+              Back to exam builder
+            </Link>
+          )}
         </div>
       </div>
     );
@@ -232,7 +347,7 @@ export default function ExamRunner({ examId }: { examId: string }) {
 
   return (
     <div>
-      <HeaderBar title={meta.title} />
+      <HeaderBar title={meta.title} courseSlug={courseSlug} />
 
       <div className="mb-4 flex flex-wrap items-center justify-between gap-3 rounded-xl bg-slate-100 px-4 py-2.5 text-sm font-semibold text-slate-700">
         <span>
@@ -251,6 +366,16 @@ export default function ExamRunner({ examId }: { examId: string }) {
             </span>
           )}
           <span>{answeredCount} answered</span>
+          {saveState !== "idle" && (
+            <span
+              className={`text-xs font-semibold ${
+                saveState === "error" ? "text-rose-600" : saveState === "saving" ? "text-slate-400" : "text-emerald-600"
+              }`}
+              title="Your answers are saved as you go, so you can leave and resume this exam later."
+            >
+              {saveState === "saving" ? "Saving…" : saveState === "error" ? "Not saved — check connection" : "✓ Saved"}
+            </span>
+          )}
         </span>
       </div>
 
@@ -341,12 +466,18 @@ export default function ExamRunner({ examId }: { examId: string }) {
   );
 }
 
-function HeaderBar({ title }: { title: string }) {
+function HeaderBar({ title, courseSlug }: { title: string; courseSlug?: string | null }) {
   return (
     <div className="mb-6">
-      <Link href="/dashboard/exams" className="text-xs font-semibold text-emerald-700 hover:underline">
-        ← Custom exams
-      </Link>
+      {courseSlug ? (
+        <Link href={`/dashboard/courses/${courseSlug}/post-test`} className="text-xs font-semibold text-emerald-700 hover:underline">
+          ← Course post-test
+        </Link>
+      ) : (
+        <Link href="/dashboard/exams" className="text-xs font-semibold text-emerald-700 hover:underline">
+          ← Custom exams
+        </Link>
+      )}
       <h1 className="mt-1 text-2xl font-extrabold tracking-tight text-slate-950">{title}</h1>
     </div>
   );

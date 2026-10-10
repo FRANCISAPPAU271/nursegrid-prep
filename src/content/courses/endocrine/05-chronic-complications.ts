@@ -1,0 +1,229 @@
+import type { CourseModule } from "../types";
+
+export const chronicComplications: CourseModule = {
+  slug: "chronic-complications",
+  title: "Long-term complications of diabetes",
+  summary: "How years of hyperglycaemia damage small and large vessels — eyes, kidneys, nerves, heart, brain and legs — the annual screening that catches each early, and the diabetic foot in depth: assessment, risk grading, ulcer care, infection and the amputation that good nursing prevents.",
+  lessons: [
+    {
+      slug: "microvascular-and-macrovascular-complications",
+      title: "Microvascular and macrovascular complications",
+      minutes: 16,
+      objectives: [
+        "Explain how hyperglycaemia damages small and large vessels and which factors accelerate it.",
+        "Describe retinopathy, nephropathy and neuropathy — presentation, screening, staging and nursing care.",
+        "Describe the cardiovascular, cerebrovascular and peripheral arterial disease of diabetes and the role of blood pressure, lipids and smoking.",
+        "Deliver the annual review and interpret its results.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Glucose damages vessels slowly and silently",
+          paragraphs: [
+            "Sustained hyperglycaemia glycates proteins, generates oxidative stress and inflames the lining of blood vessels. In the smallest vessels (capillaries of the retina, the glomerulus and the nerves' own blood supply) the walls thicken and leak, then close — <strong>microvascular disease</strong>, which is specific to diabetes and tightly related to glucose control and duration. In the large arteries diabetes accelerates atherosclerosis two- to four-fold — <strong>macrovascular disease</strong> — and here blood pressure, cholesterol and smoking matter as much as glucose. Together they make diabetes the leading cause of adult blindness, kidney failure and non-traumatic amputation, and the reason most people with diabetes die of heart attack or stroke.",
+            "The hopeful part: the landmark trials showed every 1% (11 mmol/mol) fall in HbA1c cuts microvascular complications by about a third, each 10 mmHg of blood pressure by a similar amount, and that control early in the disease protects for decades ('metabolic memory'). Screening finds each complication at a stage where treatment works — but only if it is done every year and acted upon.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-LTC-1788.svg",
+          alt: "Four habits lead to five non-communicable diseases: tobacco, unhealthy diet, inactivity and alcohol drive diabetes, heart disease, stroke, cancer and lung disease",
+          caption: "The same four habits that cause diabetes also drive its complications — tobacco, diet, inactivity and alcohol multiply the damage glucose does to vessels.",
+        },
+        {
+          type: "table",
+          heading: "Microvascular complications",
+          columns: ["Complication", "What happens", "Presentation", "Screening", "Treatment and nursing care"],
+          rows: [
+            ["<strong>Retinopathy</strong> (and maculopathy, cataract, glaucoma)", "Capillary leak and closure in the retina → microaneurysms, haemorrhages, exudates (background); ischaemia → new fragile vessels (proliferative) that bleed into the vitreous and detach the retina; fluid at the macula (maculopathy) blurs central vision", "<strong>None until late</strong> — sight is normal while the retina is being destroyed; then blurring, floaters, sudden loss of vision", "Dilated retinal photography or fundoscopy <strong>at diagnosis in type 2, 5 years after diagnosis or from age 12 in type 1, then yearly</strong> (more often in pregnancy and with rapid HbA1c improvement); visual acuity each visit", "Glucose, blood pressure and lipid control; laser photocoagulation and anti-VEGF injections for proliferative disease and maculopathy; vitrectomy; refer urgently for sudden visual loss. Teach that good vision does not mean a healthy retina; avoid heavy lifting with proliferative disease"],
+            ["<strong>Nephropathy</strong>", "Glomerular hyperfiltration → thickened basement membrane and mesangial expansion → albumin leak → falling GFR → end-stage kidney disease; hypertension accelerates every step", "Silent; microalbuminuria is the first sign; later frothy urine, oedema, rising blood pressure, anaemia, and uraemic symptoms", "<strong>Yearly urine albumin:creatinine ratio</strong> (early morning sample; above 3 mg/mmol abnormal, confirm on 2 of 3 samples; avoid testing during infection, menstruation or after exercise) <strong>and serum creatinine/eGFR</strong>", "ACE inhibitor or ARB for any albuminuria even with normal blood pressure (check potassium and creatinine 1–2 weeks after starting); SGLT2 inhibitor; blood pressure below 130/80; glucose control; stop smoking; avoid NSAIDs and contrast; adjust drug doses (metformin, sulphonylureas, insulin last longer); refer to nephrology when eGFR below 30 or albuminuria heavy; prepare for dialysis and transplant early"],
+            ["<strong>Peripheral neuropathy</strong>", "Damage to long sensory, motor and autonomic fibres; worst in the feet ('stocking' distribution) because the longest nerves fail first", "Numbness, tingling, burning pain worse at night, 'walking on cotton wool', loss of balance, painless injuries; later clawed toes, high arch, wasting; or no symptoms at all with absent sensation", "<strong>Yearly foot examination:</strong> 10 g monofilament at the plantar sites, vibration (128 Hz tuning fork), ankle reflexes, inspection; ask about pain", "Glucose control slows progression; pain: amitriptyline, duloxetine, gabapentin or pregabalin, topical capsaicin (paracetamol and NSAIDs rarely work); protective footwear and daily foot inspection; falls prevention; refer painful or rapidly progressive neuropathy"],
+            ["<strong>Autonomic neuropathy</strong>", "Damage to nerves of the heart, vessels, gut, bladder and sweat glands", "Postural hypotension (dizzy on standing), resting tachycardia, silent myocardial infarction, gastroparesis (bloating, vomiting, erratic glucose), diarrhoea alternating with constipation, erectile dysfunction, bladder retention and overflow, hypoglycaemia unawareness, dry cracked feet, gustatory sweating", "Lying and standing blood pressure; resting pulse; ask about symptoms; post-void bladder scan", "Rise slowly, compression stockings, fludrocortisone/midodrine; small frequent low-fat meals, metoclopramide/domperidone, insulin timing after food; phosphodiesterase inhibitors; timed voiding and catheterisation; relaxed glucose targets; skin care"],
+            ["<strong>Mononeuropathy and others</strong>", "Single nerve infarcts; entrapment", "Sudden third-nerve palsy (eye down and out, pupil spared), foot drop, carpal tunnel, painful thigh wasting (amyotrophy)", "Clinical", "Usually recover over months; glucose control; splints; physiotherapy"],
+          ],
+        },
+        {
+          type: "table",
+          heading: "Macrovascular complications",
+          columns: ["Complication", "Features in diabetes", "Prevention and care"],
+          rows: [
+            ["Coronary heart disease", "Two- to four-fold risk; <strong>silent or atypical infarction</strong> (breathlessness, tiredness, nausea, sweating, hyperglycaemia without chest pain) because of autonomic neuropathy; worse outcomes after MI; heart failure common", "Statin for virtually all over 40 and younger with risk factors; blood pressure below 130/80; aspirin only for established disease; stop smoking; SGLT2 inhibitor or GLP-1 agonist; tight glucose control in hospital after MI; low threshold for ECG in any unwell diabetic"],
+            ["Stroke and transient ischaemic attack", "Two-fold risk; worse recovery; hyperglycaemia at presentation worsens outcome; HHS can mimic stroke", "Blood pressure is the strongest lever; statin; antiplatelet after an event; atrial fibrillation screening and anticoagulation; check glucose in every stroke patient"],
+            ["Peripheral arterial disease", "Distal (below the knee), calcified vessels (falsely high ankle pressures), often painless because of neuropathy — presents as a non-healing ulcer or gangrene rather than claudication", "Yearly pulse palpation (dorsalis pedis, posterior tibial), ankle-brachial index when pulses are absent or ulcers present; stop smoking; statin and antiplatelet; supervised walking; revascularisation before amputation where possible"],
+            ["Hypertension", "Present in 70–80% of type 2; drives all complications", "Target below 130/80 (below 140/90 in the frail); ACE inhibitor/ARB first (kidney protection), then calcium channel blocker and thiazide-like diuretic; home monitoring; salt reduction"],
+            ["Dyslipidaemia", "High triglycerides, low HDL, small dense LDL", "Statin (atorvastatin 20 mg for prevention, 80 mg after an event); diet; fibrates for very high triglycerides"],
+          ],
+        },
+        {
+          type: "table",
+          heading: "Other complications",
+          columns: ["System", "Problems"],
+          rows: [
+            ["Infection", "Impaired neutrophil function and poor perfusion: recurrent boils and carbuncles, candidal vulvovaginitis and balanitis, urinary infection and pyelonephritis, pneumonia, tuberculosis (three-fold risk — screen in Ghana), malignant otitis externa, mucormycosis in DKA, necrotising fasciitis; slower wound healing; vaccinate (influenza, pneumococcal, hepatitis B, COVID-19)"],
+            ["Skin", "Acanthosis nigricans, necrobiosis lipoidica, diabetic dermopathy (shin spots), lipohypertrophy, dry cracked skin, slow healing, fungal nail infection"],
+            ["Musculoskeletal", "Frozen shoulder, trigger finger, carpal tunnel, Dupuytren's, limited joint mobility, Charcot foot, osteoporosis (type 1), fractures"],
+            ["Mouth and teeth", "Periodontal disease (worsens glucose control), dry mouth, oral candidiasis; six-monthly dental review"],
+            ["Sexual and reproductive", "Erectile dysfunction (often the first sign of vascular disease), reduced libido, vaginal dryness, infertility, menstrual irregularity, pregnancy complications"],
+            ["Mental health and cognition", "Depression (twice as common), diabetes distress, eating disorders with insulin omission, dementia (both vascular and Alzheimer's increased)"],
+            ["Hearing and sleep", "Sensorineural hearing loss; obstructive sleep apnoea (ask about snoring and daytime sleepiness)"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "The annual review — a nurse-led checklist",
+          items: [
+            "<strong>Measure:</strong> weight, BMI, waist; blood pressure (lying and standing if symptoms); HbA1c; lipids; creatinine/eGFR; urine albumin:creatinine ratio; (vitamin B12 on metformin; TSH in type 1 and the symptomatic; liver function).",
+            "<strong>Examine:</strong> feet (sensation, pulses, skin, deformity, footwear) with risk grading; injection sites; eyes (acuity, retinal screening arranged); mouth; weight trend.",
+            "<strong>Ask:</strong> hypoglycaemia frequency and awareness; symptoms of neuropathy, claudication, angina, erectile dysfunction, gastroparesis, bladder problems; mood (two-question depression screen); smoking, alcohol, activity, diet; medication adherence, side effects and cost; driving; pregnancy plans and contraception; sick-day understanding.",
+            "<strong>Act:</strong> agree individual targets (HbA1c, blood pressure, LDL); start or adjust statin, ACE inhibitor/ARB, SGLT2 inhibitor; vaccinate; refer (eye clinic, podiatry, renal, cardiology, dietitian, psychology); update the education plan; record a written care plan the patient keeps.",
+            "<strong>In children and adolescents:</strong> growth and puberty, blood pressure, thyroid and coeliac screening in type 1, retinal and kidney screening from age 12 or 5 years' duration, school support, transition planning.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "tip",
+          title: "Three numbers the patient should know",
+          body: "'Know your HbA1c, your blood pressure and your cholesterol.' A patient who can name their targets and last results takes part in the decisions. Write them on a card: HbA1c under 53, BP under 130/80, LDL under 2.6 (or 1.8 after an event), feet checked, eyes checked, kidney test done — with dates.",
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Screening intervals and triggers",
+          body: "Retina: yearly from diagnosis in type 2, from 5 years or age 12 in type 1, every trimester in pregnancy. Kidney: yearly albumin:creatinine ratio and eGFR; ACE inhibitor/ARB for any albuminuria. Feet: yearly examination, more often when at risk; same day for any ulcer. Silent MI, postural hypotension and gastroparesis = autonomic neuropathy.",
+        },
+      ],
+      keyPoints: [
+        "Hyperglycaemia damages small vessels (retina, glomerulus, nerves) in proportion to glucose and duration, and accelerates atherosclerosis in large vessels where blood pressure, lipids and smoking matter as much.",
+        "Retinopathy and nephropathy are silent until late — yearly retinal screening and urine albumin:creatinine ratio with eGFR find them when treatment (laser, anti-VEGF, ACE inhibitor/ARB, SGLT2 inhibitor, blood pressure) still works.",
+        "Peripheral neuropathy removes the warning of pain from the feet; autonomic neuropathy causes postural hypotension, silent infarction, gastroparesis, bladder problems and hypoglycaemia unawareness.",
+        "Most people with diabetes die of heart attack or stroke — statin, blood pressure below 130/80, smoking cessation and glucose control together halve that risk.",
+        "The nurse-led annual review measures, examines, asks and acts — and the patient should know their own HbA1c, blood pressure and cholesterol.",
+      ],
+      quiz: {
+        keywords: ["retinopathy", "nephropathy", "neuropathy", "microalbumin", "albumin creatinine", "complications of diabetes", "diabetic complication", "annual review", "eye screening", "monofilament", "gastroparesis", "postural hypotension", "diabetic", "blurred", "statin", "ace inhibitor"],
+      },
+    },
+    {
+      slug: "the-diabetic-foot",
+      title: "The diabetic foot",
+      minutes: 16,
+      objectives: [
+        "Explain how neuropathy, ischaemia and infection combine to produce ulceration and amputation.",
+        "Perform and document a structured foot assessment and assign a risk category with the matching follow-up.",
+        "Assess and manage a diabetic foot ulcer: classification, offloading, debridement, dressings, infection and referral.",
+        "Recognise the limb-threatening foot and Charcot neuro-arthropathy, and teach foot care that prevents ulcers.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "The foot that cannot feel",
+          paragraphs: [
+            "A diabetic foot ulcer precedes about 85% of diabetes-related amputations, and a person who has one amputation has a high chance of losing the other leg within five years and a five-year mortality worse than many cancers. The sequence is predictable: <strong>neuropathy</strong> removes the pain that would make a person stop walking on a blister, a stone in the shoe or a burn from hot water or a fire; motor neuropathy claws the toes and shifts pressure to the metatarsal heads; autonomic neuropathy dries and cracks the skin. <strong>Ischaemia</strong> from peripheral arterial disease means the injury cannot heal. <strong>Infection</strong> spreads through tissue that is poorly perfused and poorly defended, reaching tendon and bone. Hyperglycaemia feeds all three.",
+            "In Ghana most patients present late — ulcers hidden under traditional dressings, herbal applications and days of walking barefoot to the farm — and amputation rates are high. Almost every step of the pathway is nursing territory: the yearly examination that identifies the at-risk foot, the education that prevents the injury, the same-day referral when a break in the skin appears, the offloading and wound care that heal it, and the recognition of infection before it is too late.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "The three mechanisms",
+          columns: ["Mechanism", "Signs", "What to look for"],
+          rows: [
+            ["Neuropathic foot", "Warm, pink, dry and cracked skin, bounding pulses, clawed toes, callus under the metatarsal heads, high arch, absent sensation; painless ulcers at pressure points (metatarsal heads, tips of toes, heel) with a punched-out appearance and surrounding callus", "Loss of protective sensation on monofilament testing; patient unaware of the ulcer; shoes that do not fit"],
+            ["Ischaemic foot", "Cool, pale or dusky, hair loss, thin shiny skin, thickened nails, slow capillary refill, absent or weak pulses, rest pain relieved by hanging the leg down; ulcers on the margins of the foot, tips of toes and heel, pale base, little callus, painful (unless also neuropathic); gangrene", "Absent pulses, ankle-brachial index below 0.9 (above 1.3 means calcified and unreliable — use toe pressure), claudication history, smoker"],
+            ["Neuro-ischaemic foot (commonest)", "Features of both; insensate and poorly perfused — the most dangerous combination", "Any ulcer in a foot with absent pulses"],
+            ["Infected foot", "Redness spreading more than 2 cm, warmth, swelling, pain or tenderness in a previously painless foot, pus, odour, crepitus, a probe that reaches bone, sausage toe; systemic: fever, rigors, rising glucose and ketones, confusion — may be absent even in severe infection", "Depth, extent and systemic signs; probe-to-bone test for osteomyelitis; X-ray for gas and bone destruction"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Structured foot assessment — every diabetic, at least yearly, and at every visit when at risk",
+          style: "steps",
+          items: [
+            "<strong>Ask:</strong> previous ulcer or amputation; numbness, tingling, burning pain; claudication or rest pain; footwear, walking barefoot, occupation; smoking; vision and ability to reach the feet; who inspects them.",
+            "<strong>Remove shoes and socks</strong> — both feet, including between the toes and the heel; inspect the shoes (wear pattern, foreign objects, fit).",
+            "<strong>Skin and nails:</strong> colour, dryness, cracks, callus, corns, blisters, fissures, maceration between toes (tinea), fungal or ingrown nails, ulcers, previous scars, swelling, temperature difference between feet (a hot swollen foot is Charcot or infection until proved otherwise).",
+            "<strong>Deformity:</strong> clawed or hammer toes, bunions, prominent metatarsal heads, rocker-bottom sole (Charcot), previous amputation, limited joint mobility.",
+            "<strong>Sensation:</strong> <strong>10 g monofilament</strong> — demonstrate on the hand, then apply perpendicular until it bends for 1–2 seconds at the plantar surface of the great toe, first, third and fifth metatarsal heads (and heel), avoiding callus and ulcers, with the patient's eyes closed and random timing; failure at any site = loss of protective sensation. Add vibration with a 128 Hz tuning fork at the tip of the great toe, or the Ipswich touch test (lightly touch the tips of the first, third and fifth toes) where there is no monofilament.",
+            "<strong>Circulation:</strong> palpate dorsalis pedis and posterior tibial pulses; capillary refill; ankle-brachial index with a hand-held Doppler if pulses are absent or an ulcer is present.",
+            "<strong>Classify the risk and act:</strong> see the table below; document, tell the patient their risk category and what it means, and book the follow-up.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Risk categories and follow-up",
+          columns: ["Risk", "Findings", "Follow-up and care"],
+          rows: [
+            ["Low", "No loss of sensation, pulses present, no deformity, no previous ulcer", "Yearly examination; basic foot-care education"],
+            ["Moderate", "Loss of protective sensation <strong>or</strong> absent pulses <strong>or</strong> deformity or callus", "Every 3–6 months by a foot-protection service or trained nurse; callus removal; footwear advice or prescription; intensive education"],
+            ["High", "Loss of sensation <strong>plus</strong> absent pulses, or either with deformity or callus, or kidney failure, or a previous ulcer or amputation", "Every 1–3 months; specialist podiatry and footwear; vascular review; the patient must know how to get same-day help"],
+            ["Active problem", "Ulcer, infection, gangrene, suspected Charcot, unexplained hot swollen foot", "<strong>Same-day</strong> referral to the multidisciplinary foot team or hospital; do not wait for the next appointment"],
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-SUR-0339.svg",
+          alt: "The phases of wound healing — haemostasis, inflammation, proliferation and remodelling — and how diabetes, ischaemia and infection delay each phase",
+          caption: "Healing needs blood supply, control of infection and relief of pressure. In the diabetic foot all three are compromised — which is why the ulcer must be offloaded, debrided and kept clean while glucose is brought under control.",
+        },
+        {
+          type: "table",
+          heading: "Managing the ulcer",
+          columns: ["Element", "Practice"],
+          rows: [
+            ["Assess and classify", "Site, size (measure and trace or photograph), depth (probe gently with a sterile probe — does it reach tendon, joint or bone?), base (granulation, slough, necrosis), edge and surrounding callus, exudate, odour, signs of infection, pulses and sensation. Grade (e.g. Wagner 0 intact skin at risk; 1 superficial; 2 to tendon or capsule; 3 deep with abscess or osteomyelitis; 4 forefoot gangrene; 5 whole-foot gangrene — or the SINBAD/University of Texas systems). Photograph for the record"],
+            ["Investigate", "Glucose and HbA1c, FBC, CRP/ESR, creatinine; wound swab or, better, tissue from the base after cleaning and debridement; X-ray of the foot for osteomyelitis (bone destruction, periosteal reaction — may lag 2–3 weeks), gas and foreign bodies; Doppler/ankle-brachial index; MRI or bone biopsy when available"],
+            ["<strong>Offloading</strong> — the most important and most neglected step", "An ulcer that is walked on will not heal. Total contact cast or removable walker (made irremovable) for plantar neuropathic ulcers without severe infection or ischaemia; otherwise post-operative shoe, felt padding, crutches, wheelchair, bed rest with heel protection; limit walking to essentials; address the job that requires standing. Heel ulcers: offload completely with pillows or heel boots"],
+            ["Debridement", "Sharp removal of callus, slough and dead tissue by a trained practitioner converts a chronic wound into an acute one and reveals the true depth; not in an ischaemic foot without vascular assessment; larval or autolytic alternatives; surgical debridement of deep infection in theatre"],
+            ["Cleansing and dressings", "Clean with saline or potable water; no routine antiseptic soaks; choose a dressing by exudate and depth (moist wound healing; absorbent foam or alginate for wet wounds, hydrogel for dry slough; antimicrobial dressings such as iodine or silver short term for local infection); non-adherent, changed as needed and inspected at least every 2–3 days; protect surrounding skin; no tight bandages. Advanced therapies (negative pressure, growth factors, skin substitutes) where available"],
+            ["Infection", "Mild (local, less than 2 cm redness, superficial): oral antibiotic covering staphylococci and streptococci (flucloxacillin or amoxicillin-clavulanate) 1–2 weeks. Moderate (deeper, more than 2 cm, abscess, tendon, bone): admit, IV broad-spectrum (amoxicillin-clavulanate, or ceftriaxone plus metronidazole; plus clindamycin or vancomycin if MRSA), surgical drainage, culture-guided, 2–4 weeks (6 weeks or more for osteomyelitis). Severe (systemic sepsis, crepitus, necrosis, extensive): emergency — resuscitate, IV antibiotics within the hour, urgent surgical review for debridement or amputation. Do not swab or treat an uninfected ulcer with antibiotics"],
+            ["Ischaemia", "Any ulcer with absent pulses or ABI below 0.9 needs vascular referral — angiography and angioplasty or bypass can save the limb; without blood supply no dressing heals the wound"],
+            ["Systemic", "Glucose control (insulin while infected), nutrition (protein, vitamins, zinc), stop smoking, treat anaemia and oedema, kidney function, pain, tetanus status, pressure-area care of the other heel"],
+            ["Follow-up", "Weekly review and measurement; expect 40–50% reduction in area by 4 weeks — if not, reassess perfusion, offloading, infection and adherence. After healing the foot is 'in remission', not cured: lifelong high-risk follow-up, custom footwear, insoles, education; 40% re-ulcerate within a year"],
+          ],
+        },
+        {
+          type: "table",
+          heading: "Two emergencies",
+          columns: ["Condition", "Recognise", "Act"],
+          rows: [
+            ["Limb-threatening infection or critical ischaemia", "Spreading cellulitis, crepitus, blisters, dusky or black tissue, foul discharge, a hot swollen foot with systemic upset or rising glucose and ketones; or rest pain, pallor, coldness and gangrene", "Same-day hospital admission; blood cultures, X-ray, IV antibiotics, urgent surgical and vascular review; nil by mouth in case of theatre; mark the edge of the redness and the time; elevate (unless ischaemic), do not walk"],
+            ["Charcot neuro-arthropathy", "A warm (2 °C or more warmer than the other side), red, swollen foot in a neuropathic patient with little or no pain, often after minor trauma, pulses present, normal glucose, no wound — mistaken for cellulitis, gout or sprain; X-ray may be normal early; untreated, the bones fragment and the arch collapses into a rocker-bottom foot that ulcerates", "Immediate immobilisation in a total contact cast and non-weight-bearing (crutches/wheelchair) for months until the temperature difference resolves; urgent specialist referral; never walk on it; lifelong custom footwear"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Foot-care education — teach, demonstrate, check",
+          items: [
+            "Look at both feet <strong>every day</strong>, including between the toes and the soles (use a mirror or a relative); report any blister, cut, colour change, swelling or discharge <strong>the same day</strong>.",
+            "Wash daily in lukewarm water tested with the elbow (not the foot), dry carefully between the toes, moisturise dry skin but <strong>not between the toes</strong>.",
+            "<strong>Never walk barefoot</strong> — not in the house, bathroom, compound, farm, beach or church; wear shoes or sandals with a back strap, closed toes where possible; check inside shoes for stones and nails before putting them on; break new shoes in slowly; cotton socks without tight elastic, changed daily.",
+            "Cut nails straight across following the shape of the toe, file the edges; do not cut corns, calluses or ingrown nails yourself; no corn plasters, razor blades, hot water bottles, heaters, charcoal fires or herbal applications on the feet.",
+            "Avoid crossing the legs or sitting close to fires; keep moving; stop smoking; keep glucose and blood pressure controlled.",
+            "Know your risk category, when your next foot check is, and whom to call or where to go today if something is wrong.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "warning",
+          title: "A diabetic foot that is hot and swollen",
+          body: "Infection, Charcot or deep vein thrombosis — never 'just a sprain'. Compare temperature with the other foot, look for a wound, check glucose and inflammatory markers, X-ray, and refer the same day. Weeks of walking on it are the difference between a cast and an amputation.",
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Essentials",
+          body: "Monofilament 10 g at the great toe and metatarsal heads; failure at any site is loss of protective sensation. Pulses absent → ankle-brachial index and vascular referral. Any ulcer → same-day referral, offload, debride, dress, culture tissue not pus, antibiotics only if infected, X-ray for bone. Never barefoot, inspect daily, report breaks the same day. Hot swollen painless foot = Charcot until proved otherwise.",
+        },
+      ],
+      keyPoints: [
+        "Neuropathy removes pain, ischaemia prevents healing and infection spreads — together they turn a blister or a stone in the shoe into an amputation.",
+        "A structured yearly examination (inspection, deformity, 10 g monofilament, pulses) assigns a risk category that sets follow-up: yearly, 3–6 monthly, 1–3 monthly or same day for any active problem.",
+        "Ulcer care is offloading above all, then debridement, moist dressings, tissue culture, antibiotics only for infection, X-ray for osteomyelitis and vascular referral for any foot without pulses.",
+        "Spreading infection, crepitus, necrosis or a systemically unwell patient is a same-day emergency; a hot, swollen, painless neuropathic foot is Charcot and must be immobilised immediately.",
+        "Teach daily inspection, never barefoot, lukewarm water, careful nail care, proper shoes and same-day reporting — and that a healed ulcer is in remission, not cured.",
+      ],
+      quiz: {
+        keywords: ["diabetic foot", "foot care", "foot ulcer", "foot", "monofilament", "barefoot", "neuropath", "callus", "charcot", "osteomyelitis", "gangrene", "amputation", "footwear", "offload", "toenail", "peripheral arterial"],
+      },
+    },
+  ],
+};

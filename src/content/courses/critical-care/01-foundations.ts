@@ -1,0 +1,299 @@
+import type { CourseModule } from "../types";
+
+export const criticalCareFoundations: CourseModule = {
+  slug: "critical-care-foundations",
+  title: "Critical care foundations: the ICU, the critically ill patient and respiratory support",
+  summary: "What critical care is and where it sits in Ghana's health system — levels of care from the ward to the intensive care unit, who benefits from an ICU bed and who does not, the staffing, equipment and infection prevention that make a unit safe, and the nurse's role as the continuous observer; the systematic assessment of the critically ill patient from ABCDE through the systems, the monitors and what they can and cannot tell you, the daily checklist (FAST HUGS BID), the care bundles that prevent the four hospital-acquired infections of the ICU, communication with sedated patients and frightened families, and the post-intensive care syndrome that follows survivors home. Then oxygenation and ventilation in depth: the physiology of oxygen delivery and the two types of respiratory failure, high-flow nasal oxygen, CPAP and bilevel non-invasive ventilation with their indications and contraindications, invasive ventilation — tubes, modes, lung-protective settings, alarms and the DOPES approach to the deteriorating ventilated patient — the ventilator-associated pneumonia bundle, prone positioning, sedation targets, weaning and extubation, and the tracheostomy from routine care to the blocked or displaced tube.",
+  lessons: [
+    {
+      slug: "critical-care-nursing-in-ghana-and-the-systematic-icu-assessment",
+      title: "Critical care nursing in Ghana: levels of care, the ICU bed and the systematic assessment of the critically ill patient",
+      minutes: 18,
+      objectives: [
+        "Describe the levels of care from the general ward to the intensive care unit, where critical care is delivered in Ghana, which patients benefit from an ICU bed and how admission and discharge decisions are made.",
+        "Explain the staffing, equipment, infection prevention and documentation standards that make a unit safe, and the nurse's role as the continuous observer at the bedside.",
+        "Perform a systematic assessment of a critically ill patient — ABCDE, then the systems and the monitors — and run the daily FAST HUGS BID checklist and the care bundles that prevent hospital-acquired infection.",
+        "Communicate with the sedated or ventilated patient and the family using structured tools, recognise the post-intensive care syndrome, and hand over safely with SBAR.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Building on the emergency course",
+          paragraphs: [
+            "The <strong>Shock, Emergency and Critical Care Nursing</strong> course (NGP-EMC-111) taught the first hour: triage, the primary survey, the deteriorating patient, airway and oxygen, access and fluids, the shock states, resuscitation, trauma, burns, poisoning and an introduction to the intensive care unit. This course begins where that one ended. It assumes you can run an ABCDE assessment, read a basic ECG, give oxygen and fluids and recognise shock, and it goes into the hours, days and weeks that follow — the ventilator, the arterial line and the vasopressor infusion, the blood gas, the electrolyte emergency, the failing kidney, the injured brain and the patient whose family must be told that the machines are no longer helping. Where this course says <em>recall from EMC-111</em>, the earlier lesson is the place to revise.",
+            "Critical care nursing is defined less by a place than by a patient. A critically ill patient is one who has, or is at risk of, failure of one or more organ systems and who needs monitoring and treatment that cannot safely be given on a general ward. In Ghana that patient may be on a ventilator in a teaching hospital, on a high-dependency bay in a regional hospital, or in a side room of a district hospital with one oxygen concentrator and a nurse who checks him every fifteen minutes. The principles are the same; what changes is how much can be done, and how early the decision to refer must be made.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Levels of care — the language of the referral",
+          columns: ["Level", "What the patient needs", "Typical nurse-to-patient ratio", "Where it exists in Ghana"],
+          rows: [
+            ["Level 0 — general ward", "Observations four- to six-hourly; oral or simple intravenous treatment", "1 nurse to 6–10 patients", "Every hospital"],
+            ["Level 1 — enhanced ward care", "Observations at least four-hourly with an early warning score, oxygen by mask, one intravenous infusion, close input–output charting; the patient at risk of deterioration or recently stepped down", "1 to 4–6", "Acute medical and surgical wards, recovery bays, the 'side room near the nurses' station'"],
+            ["Level 2 — high dependency", "Support of one failing organ system (excluding invasive ventilation): non-invasive ventilation, a single vasoactive infusion, invasive blood pressure monitoring, post-operative care after major surgery, hourly observations", "1 to 2", "High-dependency units and some ICUs in regional and teaching hospitals; many district hospitals improvise it"],
+            ["Level 3 — intensive care", "Invasive mechanical ventilation, or support of two or more organ systems (for example ventilation plus vasopressors plus renal replacement)", "1 to 1 (1 to 2 only when both patients are stable)", "Teaching hospitals, a growing number of regional hospitals and a few private and military units"],
+          ],
+        },
+        {
+          type: "text",
+          heading: "Critical care in Ghana's health system",
+          paragraphs: [
+            "Ghana's intensive care capacity is small for a population of more than thirty million and is concentrated at the top of the referral pyramid — the teaching hospitals in Accra, Kumasi, Cape Coast, Tamale and Ho, with smaller units in regional hospitals and a handful of private and quasi-government facilities. The COVID-19 response added beds, ventilators, oxygen plants and concentrators, and a number of regional hospitals now run units that did not exist before 2020, but the number of fully staffed level-3 beds per 100,000 people remains far below that of high-income countries. The practical consequences for the nurse are three. First, most critically ill Ghanaians are nursed outside an ICU, so the skills of this course — recognising deterioration, supporting breathing and circulation, interpreting a blood gas, protecting the brain — belong on every ward, not only in the unit. Second, the decision to refer must be made early, because a transfer from a district hospital to a teaching hospital may take hours on a bad road and a patient who is referred in established multi-organ failure arrives too late. Third, every ICU bed is a scarce resource, and the ethics of who gets it (lesson 7.3) are faced daily rather than theoretically.",
+            "Specialist training exists. Post-basic and specialist programmes in critical care nursing are run through the Ghana College of Nurses and Midwives and the universities, and critical care nurses have their own professional groupings; the Ghana College of Physicians and Surgeons trains the intensivists and anaesthetists who lead most units. Cost is a constant presence. The National Health Insurance Scheme covers some ICU care, but families are commonly asked to buy drugs, consumables and investigations outside the benefit package, and the nurse is often the person who has to explain why a vasopressor or a blood gas syringe is needed. Honesty, a clear list and early involvement of the social welfare department are part of ICU nursing in Ghana in a way that textbooks from elsewhere do not describe.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-PUB-0627.svg",
+          alt: "Levels of the Ghana Health Service and where CHPS sits. Teaching hospitals: tertiary, specialist, training and research. Regional hospitals: secondary referral for the region. District hospitals: the first referral point, with theatre and blood, the hub of the district. Health centres and clinics: sub-district outpatient, maternity and outreach. CHPS zone: a community health officer living in the community, home visits, the service moves to the people. Referral runs upward when the case exceeds the level's capacity, and back down again with a written reply so that follow-up happens near home.",
+          caption: "Critical care sits at the top of this pyramid, which is why the referral decision is a critical care skill at every level below it. The critically ill patient who is recognised late at a health centre or district hospital arrives at the teaching hospital too late to benefit from the bed.",
+        },
+        {
+          type: "text",
+          heading: "Who benefits from the ICU bed — and who does not",
+          paragraphs: [
+            "An intensive care bed helps a patient whose critical illness is <strong>potentially reversible</strong> and who would die without the support the unit can give. It does not help a patient whose condition is irreversible and who will die whatever is done, and it is not needed by a patient who would survive on the ward. Most units therefore use a <strong>priority model</strong> for admission. Priority 1: critically ill and unstable, needing treatment that cannot be given elsewhere — the ventilated patient with pneumonia, the patient on vasopressors after septic shock, the postoperative patient after major surgery with unstable physiology. Priority 2: needs intensive monitoring and may need immediate intervention — the patient with diabetic ketoacidosis on an insulin infusion, the patient with a worsening blood gas who may need ventilation. Priority 3: critically ill but with reduced likelihood of recovery because of underlying disease — admission may be given with limits agreed in advance, for example ventilation but no cardiopulmonary resuscitation. Priority 4: too well or too sick to benefit — the stable patient who could be nursed on a ward, and the patient with irreversible disease at the end of life, who needs palliative care rather than organ support.",
+            "The decision is a medical one, but the nurse contributes to it and lives with it. Discharge from the unit is as important as admission: patients stepped down too early, at night or without a handover and a plan are readmitted or die on the ward. A safe step-down needs the receiving ward to be able to give the level of observation the patient still requires, a written plan for oxygen, fluids, drugs and escalation, and a telephone number to call.",
+          ],
+        },
+        {
+          type: "text",
+          heading: "What makes a unit safe: staffing, equipment and infection prevention",
+          paragraphs: [
+            "A level-3 patient needs one nurse, at the bedside, for the whole shift. This is not a luxury: the ventilated, sedated patient cannot call for help, and the interval between a disconnected circuit or a kinked vasopressor line and death is minutes. A unit that routinely runs one nurse to three ventilated patients is not an ICU with a staffing problem; it is a ward with ventilators. When the shift is short, the staffing diagram's rules apply — prioritise, name what will not be done, escalate in writing before the harm. The bedside must have working suction, oxygen, a self-inflating bag with mask and reservoir, airway adjuncts, the monitor with alarms set and audible, an infusion pump for every vasoactive drug, and the emergency drugs; the unit must have a defibrillator, a difficult-airway kit, a blood gas analyser or rapid access to one, and a resuscitation trolley checked and signed every shift. Equipment is checked at the start of every shift and after every patient — the time to discover that the suction does not work is not when the tracheostomy blocks.",
+            "The four infections the ICU gives its patients are <strong>ventilator-associated pneumonia</strong>, <strong>central line-associated bloodstream infection</strong>, <strong>catheter-associated urinary tract infection</strong> and <strong>surgical site infection</strong>, and together with pressure injury they are the commonest preventable harms of critical care. Each has a bundle — a short list of measures that, done together for every patient every day, cut the rate sharply. Hand hygiene at the five moments, gloves and aprons for contact with secretions, dedicated equipment per bed, daily review of every line and tube with the question 'does this patient still need it?', chlorhexidine skin preparation for line insertion, and isolation of patients with resistant organisms are the unit's routines. Antimicrobial resistance is concentrated in ICUs: the broad-spectrum antibiotic started for sepsis must be reviewed at 48 to 72 hours against the cultures and narrowed or stopped.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-ADM-1456.svg",
+          alt: "Staffing a ward: skill mix beats head count. Six people who cannot give an intravenous drug are not the same as four who can. What determines how many nurses a ward needs: patient dependency, not bed numbers; turnover of admissions and discharges; ward layout and distance; skill mix and who may legally do what; leave, study and sickness; teaching and student supervision load. A twenty-bed ward of stable convalescents and a twenty-bed ward of ventilated patients are not the same ward. Building a fair roster: publish it in advance, spread nights and weekends evenly, guarantee rest between shifts, put an experienced nurse on every shift. When the shift is short: prioritise, do not simply work faster; name what will not be done today; escalate in writing before the harm — silent absorption of a shortage tells management the staffing was adequate. Replacing a trained nurse costs far more than retaining one.",
+          caption: "Patient dependency, not bed numbers, decides the ICU roster. The ventilated patient needs one nurse; silent absorption of a shortage tells management the staffing was adequate and leaves the nurse accountable for harm she had warned about.",
+        },
+        {
+          type: "text",
+          heading: "The systematic assessment: ABCDE, then the systems",
+          paragraphs: [
+            "Every ICU assessment starts the same way the emergency one did — <strong>ABCDE</strong> — because the ventilated, monitored patient can still obstruct, desaturate, bleed and fit, and the monitor is often the last to know. Airway: is it patent, is the tube or tracheostomy secure, at what length at the teeth, is the cuff pressure 20 to 30 cmH₂O? Breathing: respiratory rate and pattern, chest movement symmetry, air entry on both sides, secretions, saturation, the ventilator's settings and what the patient is actually achieving, the chest drain if there is one. Circulation: heart rate and rhythm, blood pressure (and its trend, not the single number), capillary refill, skin temperature and mottling, urine output, the vasoactive infusions and their rates, every access site. Disability: conscious level by the Glasgow Coma Scale or, in the sedated patient, the sedation score (Richmond Agitation–Sedation Scale) and the delirium screen (CAM-ICU), pupils, blood glucose, pain by a scale the patient can use or, if he cannot, a behavioural scale. Exposure: temperature, skin from scalp to heels for pressure damage, wounds and drains, lines for infection, calves for thrombosis, the abdomen for distension, the bed for blood.",
+            "Then the systems, head to toe, and then the equipment and the charts. The ICU observation chart records most parameters hourly; the nurse's skill is to read the <em>trends</em> — a heart rate creeping from 90 to 120 over four hours while the blood pressure holds is compensated shock, and the fall in pressure that follows is the late sign. Hourly <strong>urine output</strong> below 0.5 mL/kg for two hours is the earliest routine marker of poor perfusion and of acute kidney injury. A rising lactate, a widening gap between core and peripheral temperature and a falling conscious level each say the same thing. The assessment ends with the question that distinguishes the critical care nurse from a recorder of numbers: <em>what has changed since I last looked, and what am I going to do about it?</em>",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Monitors — what each one tells you, and what it cannot",
+          columns: ["Monitor", "What it measures", "The limitation the examiner asks about"],
+          rows: [
+            ["Pulse oximetry (SpO₂)", "Percentage of haemoglobin saturated with oxygen; pulse rate from the plethysmograph", "Unreliable with poor perfusion, cold fingers, movement, nail varnish and dark pigmentation at low saturations; reads carbon monoxide-bound haemoglobin as saturated; says nothing about ventilation (CO₂) or oxygen content in anaemia"],
+            ["Continuous ECG", "Rate and rhythm", "Does not measure output — pulseless electrical activity looks normal on the screen; artefact from movement and loose electrodes mimics arrhythmia"],
+            ["Non-invasive blood pressure", "Intermittent systolic, diastolic and mean", "Inaccurate in shock, arrhythmia and with the wrong cuff size; a cycle every five minutes misses what happens between cycles"],
+            ["Arterial line", "Continuous beat-to-beat pressure and arterial blood sampling", "Must be levelled and zeroed at the phlebostatic axis; damping and kinking give false readings; disconnection bleeds fast — alarms on, connections visible (lesson 3.1)"],
+            ["Central venous pressure", "Right atrial filling pressure", "A single value correlates poorly with volume status; the trend and the response to a fluid bolus are what matter"],
+            ["End-tidal CO₂ (capnography)", "Exhaled carbon dioxide, breath by breath", "Confirms tube placement and effective compressions; under-reads arterial PaCO₂ when there is dead space; absent trace means no ventilation or no circulation"],
+            ["Temperature", "Core (oesophageal, bladder, rectal) or peripheral", "Axillary readings under-read; the core–peripheral gap widens as perfusion falls"],
+            ["Hourly urine output", "The kidney's report on perfusion", "Needs an accurately measured catheter system; diuretics and glycosuria raise it without improved perfusion"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "FAST HUGS BID — the daily checklist for every ICU patient",
+          style: "bullets",
+          items: [
+            "<strong>F</strong>eeding — is the patient being fed, by which route, is the target rate reached, is the gastric residual acceptable?",
+            "<strong>A</strong>nalgesia — pain assessed with a scale (numeric if he can respond; Behavioural Pain Scale or Critical-Care Pain Observation Tool if not) and treated before sedation is increased.",
+            "<strong>S</strong>edation — a target RASS agreed (usually 0 to −2, light), a daily sedation interruption unless contraindicated, delirium screened with CAM-ICU.",
+            "<strong>T</strong>hromboprophylaxis — low-molecular-weight heparin or unfractionated heparin unless bleeding; mechanical stockings or compression if anticoagulation is contraindicated.",
+            "<strong>H</strong>ead of bed — elevated 30 to 45 degrees in every ventilated or tube-fed patient unless the spine or haemodynamics forbid it.",
+            "<strong>U</strong>lcer prophylaxis — a proton pump inhibitor or H₂ blocker for patients on ventilation more than 48 hours, with coagulopathy, or with shock; reviewed and stopped when risk passes.",
+            "<strong>G</strong>lycaemic control — blood glucose kept in the range 6 to 10 mmol/L; hypoglycaemia is more dangerous than mild hyperglycaemia.",
+            "<strong>S</strong>pontaneous breathing trial — every ventilated patient screened daily for readiness to wean (lesson 1.2).",
+            "<strong>B</strong>owel care — bowels opened, diarrhoea or constipation managed; ileus delays feeding and absorption of drugs.",
+            "<strong>I</strong>ndwelling catheters — every line, drain and urinary catheter reviewed daily with one question: does the patient still need it? If not, remove it today.",
+            "<strong>D</strong>e-escalation of antibiotics — the broad-spectrum regimen reviewed against the cultures at 48 to 72 hours, narrowed, given a stop date, or stopped.",
+          ],
+        },
+        {
+          type: "text",
+          heading: "The early warning score and the unit's reach into the wards",
+          paragraphs: [
+            "Most critical illness begins on the ward, and most ICU admissions from the ward were preceded by hours of abnormal observations that were recorded but not acted on. The <strong>early warning score</strong> (recall EMC-111 lesson 1.2) converts respiratory rate, oxygen saturation, supplemental oxygen, systolic blood pressure, heart rate, conscious level and temperature into a single number with an escalation rule attached — in the NEWS2 system an aggregate of 5 or more, or a score of 3 in any single parameter, requires an urgent review, and 7 or more an emergency response with critical care skills. The score does not replace the nurse's judgement; a score of 2 in a patient who 'just does not look right' still warrants a call. Units that run a critical care outreach team, or at least a telephone that the ward nurse can ring for advice, reduce cardiac arrests on the wards. When you are the ICU nurse who takes that call, the SBAR structure tells you what to ask; when you are the ward nurse who makes it, the R — the recommendation, stated plainly with a time — is the part most often left out.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-PFC-0646.svg",
+          alt: "Handover — where patients are most often lost. Most serious errors begin as information that existed but never crossed a shift boundary. SBAR. Situation: who you are, who the patient is and what is wrong right now — Bed 6, Mr Mensah, 54, his breathing has worsened in the last hour. Background: why he is here and what is relevant, not his whole life story — day 3 after laparotomy, known asthmatic, on IV fluids and antibiotics. Assessment: your observations and what you think is happening — respiratory rate 32, saturations 88 per cent on air, using accessory muscles, I think he is deteriorating. Recommendation: what you want to happen and by when, said out loud — please review him within ten minutes; may I start oxygen now? Why the R matters most: nurses are often trained to hint rather than ask; state the request plainly, with a timeframe, and escalate if you do not get it.",
+          caption: "SBAR is the language of the escalation call, the ICU admission handover and the step-down to the ward. The ICU handover adds the ventilator settings, every infusion and its rate, the lines with their insertion dates, the day's goals and the ceiling of treatment.",
+        },
+        {
+          type: "text",
+          heading: "The patient who cannot speak, and the family who cannot sleep",
+          paragraphs: [
+            "A sedated or intubated patient hears more than he can show. Introduce yourself at every contact, explain what you are about to do, orientate him to time and place, let him see daylight and a clock, bring his spectacles and hearing aid, and give him a means to communicate — a writing board, picture cards, yes/no questions with a hand squeeze. These measures treat and prevent delirium as effectively as any drug (lesson 4.2). Dignity is the same in the ICU as anywhere: screens, covered genitals, a name used rather than a bed number, no conversation across the bed as if he were furniture.",
+            "The family of a critically ill Ghanaian is large, arrives in numbers, and is often paying. Agree a spokesperson, give a daily update at a predictable time in a room with chairs, use plain words, say what is known and what is not, and never let the first mention of death come from a bill. Flexible visiting, within the limits of infection control, is associated with less family anxiety and less patient delirium; the pastor or imam is part of the care. Record every conversation. When the news is bad the structured approach of lesson 7.3 applies — but the groundwork is laid on day one by a nurse who learned the family's names.",
+            "Survival is not the end of the illness. <strong>Post-intensive care syndrome</strong> describes the new or worsened physical weakness, cognitive impairment and anxiety, depression or post-traumatic stress that follow a stay in intensive care, and the parallel syndrome in family members. Deep sedation, immobility, delirium, hypoglycaemia and uncontrolled pain increase the risk; light sedation, early mobilisation, sleep, family presence and an ICU diary that lets the patient later reconstruct the lost days reduce it. Every patient who leaves the unit after more than a few days needs a follow-up plan that includes physiotherapy and someone to ask about nightmares.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "How the examiner tests this lesson",
+          body: "Expect the 'which patient needs the ICU bed' question — choose the unstable patient with a reversible problem over the stable one and over the one who is dying of an irreversible disease. Expect the early warning score threshold (NEWS2: 5 or more aggregate, or 3 in one parameter, means urgent review; 7 or more an emergency response). Expect the hourly urine output cut-off of 0.5 mL/kg, the head-of-bed angle of 30 to 45 degrees, the cuff pressure of 20 to 30 cmH₂O, the glucose target of 6 to 10 mmol/L and the 48- to 72-hour antibiotic review. In an SBAR question the missing element is nearly always the recommendation. In a 'first action' question for a ventilated patient who deteriorates, the answer is to assess the patient — not the monitor — starting with the airway.",
+        },
+        {
+          type: "callout",
+          tone: "tip",
+          title: "A Ghanaian ICU shift, in one paragraph",
+          body: "Take handover at the bedside in SBAR with the chart open. Check the bed space — suction, oxygen, bag and mask, alarms, emergency drugs, infusion pumps and the drugs in them against the prescription. Assess ABCDE and the systems, read the overnight trends, and write what has changed. Run FAST HUGS BID with the doctor on the round and agree the day's goals and the ceiling of treatment. Turn, inspect skin and clean the mouth two-hourly; mobilise if the patient is stable. Talk to the patient every time you touch him. Update the family at the agreed hour and write it down. Before you leave, hand over the same way you received — the information that does not cross the shift boundary is the information that kills.",
+        },
+      ],
+      keyPoints: [
+        "Level 1 is enhanced ward observation, level 2 is single-organ support without invasive ventilation (1 nurse to 2), level 3 is invasive ventilation or multi-organ support (1 nurse to 1); in Ghana most critically ill patients are nursed below level 3, so recognition, support and early referral are skills for every ward.",
+        "An ICU bed benefits the patient with a potentially reversible critical illness (priority 1 and 2); it does not help the patient too well to need it or too sick to benefit, who needs palliative care instead; step-down needs a receiving ward able to observe, a written plan and a number to call.",
+        "A safe unit has one nurse per ventilated patient, checked bedside equipment every shift, audible alarms, infusion pumps for every vasoactive drug, a signed resuscitation trolley, and bundles for ventilator-associated pneumonia, line, catheter and surgical site infection with daily review of every device.",
+        "Assess ABCDE first — tube security and cuff pressure 20–30 cmH₂O, air entry both sides, trends in heart rate and blood pressure, capillary refill, urine output below 0.5 mL/kg/h for two hours as the early perfusion marker, GCS or RASS and CAM-ICU, pupils, glucose, pain by a behavioural scale, skin from scalp to heels — then the systems, then the charts, and ask what has changed.",
+        "Every monitor lies in a predictable way: the oximeter in poor perfusion and carbon monoxide poisoning, the ECG in pulseless electrical activity, the cuff in shock and arrhythmia, the central venous pressure as a single number; capnography confirms tube placement and the effectiveness of compressions.",
+        "FAST HUGS BID every day: feeding, analgesia before sedation, light sedation (RASS 0 to −2) with daily interruption and delirium screening, thromboprophylaxis, head of bed 30–45 degrees, ulcer prophylaxis while at risk, glucose 6–10 mmol/L, spontaneous breathing trial screen, bowel care, indwelling catheters removed when no longer needed, antibiotics de-escalated at 48–72 hours.",
+        "NEWS2 of 5 or more (or 3 in one parameter) means urgent review and 7 or more an emergency response; escalate and hand over in SBAR with the recommendation stated and timed; talk to the sedated patient, give the family a spokesperson and a daily update, and plan for the post-intensive care syndrome from the day of admission.",
+      ],
+      quiz: { keywords: ["intensive care","staffing","skill mix","early warning","deteriorat","sbar","handover","escalat","ventilator-associated","oral care","pressure ulcer","central line","catheter-associated","hospital-acquired","hand hygiene","isolation","deep vein","venous thrombo","pain assessment","sedation","delirium","enteral feed","incident report","accountab","bad news","unconscious","eye care","secretions","glasgow","capillary refill","hypotension","oxygen saturation","pulse oximet","blood pressure measurement","daily weight","fluid balance","justice"] },
+    },
+    {
+      slug: "oxygenation-and-mechanical-ventilation-in-depth",
+      title: "Oxygenation and mechanical ventilation in depth: from high-flow oxygen to the ventilated patient, weaning and the tracheostomy",
+      minutes: 18,
+      objectives: [
+        "Explain oxygen delivery and the two types of respiratory failure, and match each level of respiratory support — controlled oxygen, high-flow nasal oxygen, CPAP, bilevel non-invasive ventilation and invasive ventilation — to the patient who needs it.",
+        "Describe the common ventilator modes and lung-protective settings, interpret the ventilator's alarms, and respond to the deteriorating ventilated patient with the DOPES approach.",
+        "Apply the ventilator-associated pneumonia bundle, sedation targets, prone positioning and the daily weaning screen, spontaneous breathing trial and extubation plan.",
+        "Care for the patient with an endotracheal tube or tracheostomy — securing, cuff pressure, humidification, suctioning, communication — and manage the blocked or displaced tracheostomy tube.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Oxygen delivery, and the two ways breathing fails",
+          paragraphs: [
+            "The cells need oxygen delivered, not merely a number on the oximeter. <strong>Oxygen delivery</strong> is cardiac output multiplied by arterial oxygen content, and arterial oxygen content is almost entirely haemoglobin multiplied by its saturation; the oxygen dissolved in plasma is a trivial fraction. Three things therefore reduce delivery — a low cardiac output, a low haemoglobin and a low saturation — and a saturation of 98 per cent in a patient with a haemoglobin of 5 g/dL and a failing heart is not reassurance. The oxygen cascade runs from the air (21 kPa) through the alveolus, across the one-cell-thick alveolar–capillary membrane, into the blood and out to the mitochondria; anything that thickens the membrane (oedema, pneumonia, fibrosis), fills alveoli with fluid or pus, collapses them, or sends blood past alveoli that are not ventilated (shunt) lowers the arterial oxygen. Ventilation–perfusion mismatch is the commonest mechanism and responds to oxygen; true shunt — blood passing completely unventilated lung, as in severe ARDS or a collapsed lobe — does not, and needs the alveoli reopened with pressure.",
+            "<strong>Type 1 (hypoxaemic) respiratory failure</strong> is a PaO₂ below 8 kPa (60 mmHg) with a normal or low PaCO₂ — the lung's gas-exchange surface has failed, as in pneumonia, pulmonary oedema, ARDS, pulmonary embolism and asthma early on. <strong>Type 2 (hypercapnic) respiratory failure</strong> is a PaCO₂ above 6.0 kPa (45 mmHg), usually with hypoxaemia — the pump has failed: the drive (opioids, brain injury), the nerves and muscles (Guillain–Barré, myasthenia, tetanus, high spinal injury, exhaustion), the chest wall (flail chest, kyphoscoliosis, obesity) or the airways (COPD, late severe asthma). The distinction decides the treatment: type 1 needs oxygen and, if that fails, positive pressure to recruit lung; type 2 needs ventilation — the carbon dioxide must be moved — and oxygen alone may make it worse. Lesson 2.1 reads the blood gas that makes the diagnosis.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-ANP-0084.svg",
+          alt: "Gases move by diffusion, from high to low pressure. The alveolus is an air sac one cell thick, beside a capillary one cell thick; carbon dioxide moves out and oxygen moves in. Anything that thickens this barrier impairs exchange: pulmonary oedema, pneumonia, fibrosis.",
+          caption: "Diffusion across the alveolar–capillary membrane is the step most ICU lung disease attacks. Oxygen corrects the mismatch of ventilation and perfusion; only positive pressure reopens alveoli that are flooded or collapsed, which is why the breathless patient who does not improve on a reservoir mask needs CPAP or a ventilator, not a higher flow.",
+        },
+        {
+          type: "table",
+          heading: "The ladder of respiratory support",
+          columns: ["Support", "What it does", "Who it is for", "Nursing points and limits"],
+          rows: [
+            ["Controlled oxygen (cannula, simple mask, Venturi, reservoir mask)", "Raises the inspired oxygen fraction from 24 to about 90 per cent", "Type 1 failure with adequate breathing; target SpO₂ 94–98 per cent, or 88–92 per cent if at risk of carbon dioxide retention", "Prescribe with a target; a simple mask never below 5 L/min; a reservoir mask is a bridge to something else, not a destination; recall EMC-111 lesson 2.1"],
+            ["High-flow nasal oxygen (HFNO)", "Heated, humidified oxygen at 30–60 L/min with a set FiO₂ (0.21–1.0); washes out dead space, gives a small positive end-expiratory pressure (about 1 cmH₂O per 10 L/min with the mouth closed) and reduces the work of breathing", "Type 1 failure not controlled by a mask — pneumonia, early ARDS, post-extubation support, palliative breathlessness", "Comfortable, patient can eat and talk; needs an oxygen supply that can give 60 L/min (a concentrator cannot); if the respiratory rate and work of breathing have not fallen within an hour, escalate — do not let HFNO delay intubation"],
+            ["CPAP (continuous positive airway pressure)", "A single constant pressure (5–10 cmH₂O) throughout the cycle; splints alveoli open and pushes fluid back", "Acute cardiogenic pulmonary oedema, obstructive sleep apnoea, some type 1 failure", "Does not ventilate — no help for a high PaCO₂"],
+            ["Bilevel NIV (BiPAP)", "A higher inspiratory pressure (IPAP, start 10–12, titrate to 20 cmH₂O) and a lower expiratory pressure (EPAP 4–5 cmH₂O); the difference is the pressure support that moves carbon dioxide", "Type 2 failure: acute exacerbation of COPD with pH 7.25–7.35, neuromuscular and chest-wall failure, weaning support; pulmonary oedema not responding to CPAP", "Needs a conscious, cooperative patient who can protect the airway; blood gas at 1 hour — if pH and PaCO₂ have not improved, plan intubation; mask fit, nasal bridge protection, breaks for drinks and mouth care, a clear escalation plan written before it starts"],
+            ["Invasive ventilation", "Positive-pressure breaths through an endotracheal or tracheostomy tube; full control of volume, pressure, rate, PEEP and FiO₂", "Failure of the above; inability to protect the airway (GCS 8 or less); exhaustion; severe ARDS; need for deep sedation or surgery", "One nurse to one patient; the complications are the subject of the rest of this lesson"],
+          ],
+        },
+        {
+          type: "callout",
+          tone: "warning",
+          title: "When non-invasive ventilation must not be used",
+          body: "Do not put a mask ventilator on a patient who cannot protect the airway (reduced conscious level, GCS below about 10 unless the cause is carbon dioxide narcosis and intubation is immediately available), who is vomiting or has copious secretions, who has facial trauma, burns or recent upper airway or oesophageal surgery, who has an undrained pneumothorax, who is haemodynamically unstable or has a life-threatening arrhythmia, or who is in respiratory arrest. In each of these the mask delays the tube. NIV is a treatment with a time limit: reassess at one hour with a blood gas and a decision.",
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-ADV-0122.svg",
+          alt: "Match the device to the oxygen requirement. Nasal cannula: 1 to 4 litres per minute, 24 to 40 per cent, can eat, drink and talk, dries the nose above 4 litres. Simple mask: 5 to 10 litres per minute, 40 to 60 per cent, never below 5 litres because of carbon dioxide rebreathing. Reservoir mask: 10 to 15 litres per minute, 60 to 90 per cent or more, emergency use, inflate the bag before applying to the face. Venturi: 24 to 60 per cent, exact fixed concentration, use when precision matters, as in COPD. Oxygen is a drug — it needs a prescription, a target saturation and review. Target 94 to 98 per cent generally, 88 to 92 per cent if at risk of carbon dioxide retention.",
+          caption: "The devices of EMC-111 are the bottom rungs of the ladder. The ICU nurse's additional judgement is recognising when a rung has failed — rising respiratory rate, accessory muscle use, a saturation held only by 15 litres, a rising carbon dioxide or a tiring patient — and escalating before the arrest rather than after it.",
+        },
+        {
+          type: "text",
+          heading: "The ventilated patient: tubes, modes and lung-protective settings",
+          paragraphs: [
+            "Intubation in the ICU is usually a <strong>rapid sequence induction</strong> (lesson 7.2 covers the nurse's role in assisting): pre-oxygenation, an induction agent and a muscle relaxant, the tube placed and confirmed by capnography and chest auscultation, secured at the recorded length at the teeth (about 21 cm in women and 23 cm in men for an oral tube), with a chest X-ray to confirm the tip above the carina. Adult tube sizes are usually 7.0 to 7.5 mm internal diameter for women and 8.0 to 8.5 for men. The cuff seals the trachea and is kept at <strong>20 to 30 cmH₂O</strong> with a manometer: lower leaks and lets secretions pass, higher ischaemes the tracheal wall. Unplanned extubation is a nursing-sensitive indicator — tube security, adequate sedation and analgesia, and wrist restraint only when all else fails and with consent of the family and a review every shift.",
+            "<strong>Modes.</strong> In <em>volume-controlled</em> ventilation the ventilator delivers a set tidal volume and the airway pressure becomes the variable to watch; in <em>pressure-controlled</em> ventilation it delivers a set pressure for a set time and the tidal volume becomes the variable. <em>Assist–control</em> (continuous mandatory ventilation) gives every breath at the set size whether the ventilator or the patient triggers it; <em>SIMV</em> gives a set number of mandatory breaths and lets the patient breathe spontaneously, usually with pressure support, between them; <em>pressure support</em> (spontaneous mode, PSV) gives no mandatory breaths at all — the patient triggers each breath and the machine boosts it — and is the weaning mode; <em>CPAP</em> on the ventilator is pressure support with the support turned to zero or near it. Nurses do not usually set modes, but they must be able to read them off the screen and know what a change means.",
+            "<strong>Lung-protective ventilation</strong> is the single most important ventilator concept of the last thirty years: large breaths and high pressures injure lungs, especially injured ones. Tidal volume is set at <strong>6 to 8 mL/kg of predicted body weight</strong> (calculated from height and sex, not actual weight — a short obese woman has small lungs), the plateau pressure is kept at or below 30 cmH₂O, the driving pressure (plateau minus PEEP) ideally below 15 cmH₂O, PEEP at 5 cmH₂O or more to keep alveoli open at the end of expiration, respiratory rate 12 to 20 adjusted to the PaCO₂, inspiratory to expiratory ratio about 1:2 (longer expiration in asthma and COPD to prevent air trapping), and FiO₂ titrated to the lowest value that keeps SpO₂ 92 to 96 per cent (88 to 92 in chronic carbon dioxide retention). In ARDS a somewhat raised PaCO₂ is accepted (permissive hypercapnia) in exchange for small breaths. The humidifier — a heat-and-moisture exchanger at the tube or a heated water humidifier in the circuit — is not optional, because the tube bypasses the nose and dry gas thickens secretions and blocks tubes.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Ventilator alarms — what they mean and what to do",
+          columns: ["Alarm", "Common causes", "Nursing response"],
+          rows: [
+            ["High airway pressure", "Secretions, biting the tube, bronchospasm, coughing or fighting the ventilator, kinked tubing, water in the circuit, tube migrated into the right main bronchus, pneumothorax, worsening lung compliance", "Look at the patient; suction; check the tube and circuit; auscultate both sides; bite block; if the patient is in distress disconnect and ventilate by bag; if the chest is silent on one side and the patient is shocked, think tension pneumothorax"],
+            ["Low airway pressure or low minute volume", "Disconnection, cuff leak or rupture, tube displaced upward, leak in the circuit or humidifier", "Follow the circuit from patient to machine; check cuff pressure and listen for a leak at the mouth; bag the patient while the fault is found"],
+            ["High respiratory rate", "Pain, anxiety, delirium, hypoxia, acidosis, fever, sepsis, insufficient support, auto-triggering from water in the circuit", "Assess the patient for pain and cause before sedating; check the gas; empty the circuit"],
+            ["Apnoea (in a spontaneous mode)", "Oversedation, neurological event, exhaustion, disconnection", "The ventilator gives back-up breaths; assess the patient; the mode may need to change"],
+            ["Low SpO₂ with the ventilator apparently normal", "Displacement, obstruction, pneumothorax, equipment failure, stacked breaths, or a circulatory cause", "DOPES — see below"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "DOPES — the ventilated patient who suddenly deteriorates",
+          style: "steps",
+          items: [
+            "Call for help, increase the FiO₂ to 1.0, and disconnect the patient from the ventilator and ventilate by hand with a self-inflating bag and PEEP valve. If bagging is easy and the saturation recovers, the problem was the ventilator or circuit; if bagging is hard, the problem is in the patient or tube.",
+            "<strong>D</strong>isplacement — is the tube at its recorded length? Is there air entry on both sides? Has it come out, or gone down the right main bronchus? Check capnography.",
+            "<strong>O</strong>bstruction — pass a suction catheter; if it will not pass, the tube is blocked (secretions, blood, kinking, biting) and may need replacing.",
+            "<strong>P</strong>neumothorax — absent breath sounds and hyper-resonance on one side, tracheal deviation, falling blood pressure and rising central venous pressure in a tension pneumothorax: needle decompression then a chest drain (lesson 4.1).",
+            "<strong>E</strong>quipment — oxygen supply, circuit leaks, humidifier, ventilator settings changed or power failure; switch to a different ventilator if in doubt.",
+            "<strong>S</strong>tacked breaths — in asthma and COPD, air trapping from too little expiratory time raises intrathoracic pressure until the heart cannot fill; disconnect, allow a prolonged expiration (press the chest gently if needed) and lengthen the expiratory time.",
+          ],
+        },
+        {
+          type: "text",
+          heading: "Preventing ventilator-associated pneumonia, and the sedated patient",
+          paragraphs: [
+            "<strong>Ventilator-associated pneumonia</strong> is pneumonia developing more than 48 hours after intubation; it lengthens the stay, is frequently caused by resistant organisms and kills a substantial proportion of those who develop it. Its cause is the pooling of contaminated oropharyngeal secretions above the cuff and their passage into the lungs. The <strong>bundle</strong>: head of bed at 30 to 45 degrees at all times; daily sedation interruption and assessment of readiness to extubate, because every day on the ventilator adds risk; oral care with toothbrushing and an antiseptic at least every six hours and suction of the mouth before any repositioning or cuff deflation; cuff pressure checked every shift and kept at 20 to 30 cmH₂O; subglottic suction through a dedicated port where the tube has one; a closed suction system or a new sterile catheter for each pass; the circuit changed only when visibly soiled, and condensate drained away from the patient; hand hygiene and gloves for every contact with the circuit; and stress-ulcer and thrombosis prophylaxis as part of the daily checklist. Nasogastric rather than orogastric tubes increase sinusitis and are avoided in long-term ventilation.",
+            "Sedation is given so that the patient can tolerate the tube and the ventilator, not to keep him quiet. The target is <strong>light sedation</strong> — a Richmond Agitation–Sedation Scale score of 0 to −2 (calm, or lightly sedated and rousable to voice) — with analgesia first (fentanyl or morphine infusion, paracetamol), then a sedative (propofol, midazolam, or dexmedetomidine where available), and the dose reviewed every shift against the target. Deep sedation prolongs ventilation, causes delirium, muscle weakness and post-intensive care syndrome, and hides neurological deterioration. The <strong>daily sedation hold</strong> — stopping the infusions each morning until the patient wakes or becomes distressed, then restarting at half the dose — shortens ventilation by days; it is paired with the spontaneous breathing trial. Neuromuscular blockers (paralysis) are used only for the severest ARDS or uncontrolled ventilator asynchrony, always with deep sedation, because a paralysed, awake patient is a form of torture no monitor will reveal.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-FND-2622.svg",
+          alt: "Positioning: the position is the intervention. Fowler's, sitting up: semi-Fowler 30 to 45 degrees, high Fowler 60 to 90 degrees — for breathlessness, feeding, after meals and nasogastric feeds; gravity drops the diaphragm and keeps stomach contents down. Lateral, on the side with a pillow between the knees and supporting the back — for the unconscious or vomiting patient and pressure area relief. Supine flat on the back after spinal procedures. Prone, face down, used in severe respiratory failure. Positions for specific emergencies: recovery position for the unconscious breathing patient; left lateral head down for air embolism; sitting upright for acute pulmonary oedema. Pressure areas: sacrum, heels, elbows, occiput and shoulder blades lying on the back; trochanter, ankles, ears and knees on the side; ischial tuberosities sitting, where pressure builds faster. Prevention: reposition on a schedule, usually two-hourly, inspect skin at every turn, keep skin clean and dry, feed the patient.",
+          caption: "The ventilated patient's positions are treatments: head up 30 to 45 degrees against aspiration and pneumonia, lateral turns against pressure injury, and prone for severe ARDS, where sixteen hours face down redistributes ventilation to the healthier dorsal lung and improves survival.",
+        },
+        {
+          type: "text",
+          heading: "Prone positioning, weaning and extubation",
+          paragraphs: [
+            "In moderate to severe <strong>ARDS</strong> (PaO₂/FiO₂ ratio below about 150 on PEEP of 5 cmH₂O or more) turning the patient onto the abdomen for <strong>at least sixteen hours</strong> a day improves oxygenation and reduces mortality. It is a team procedure: five people, a leader at the head holding the tube, lines and drains secured and the ventilator circuit disconnected only if unavoidable, eyes closed and protected, the face and chest padded, arms in the swimmer's position changed two-hourly, the head turned regularly, feeding paused briefly and the bed tilted head-up to reduce facial oedema and aspiration. The complications are pressure injury to the face, knees and chest, tube and line displacement, and cardiac arrest during the turn, which is why the team rehearses and the bag and mask stay at the head.",
+            "<strong>Weaning</strong> begins the day the patient is intubated, with the question asked every morning: is he ready? The readiness screen asks whether the cause of respiratory failure is improving, whether the FiO₂ is 0.4 or less and the PEEP 5 to 8 cmH₂O or less with SpO₂ above 90 per cent, whether he is haemodynamically stable on no or low vasopressors, whether he is awake and able to follow commands and cough, and whether the pH is above 7.25. If yes, the sedation is held and a <strong>spontaneous breathing trial</strong> follows — thirty minutes to two hours on pressure support of 5 to 8 cmH₂O or a T-piece — watched for failure: respiratory rate above 35, SpO₂ below 90, heart rate or blood pressure rising more than 20 per cent, sweating, agitation, paradoxical breathing. The <strong>rapid shallow breathing index</strong> (respiratory rate divided by tidal volume in litres) below 105 predicts success. A patient who passes, has a cuff leak when the cuff is deflated (no leak means laryngeal oedema and a risk of stridor), can cough secretions to the end of the tube and protect his airway, is extubated during the day with the team present, to high-flow nasal oxygen or NIV if at risk, and watched for stridor, exhaustion and the need to reintubate within 48 hours. A patient who fails goes back to rest on the ventilator and is tried again tomorrow; the trial is not repeated the same day.",
+          ],
+        },
+        {
+          type: "text",
+          heading: "The tracheostomy",
+          paragraphs: [
+            "A <strong>tracheostomy</strong> is considered when ventilation is expected to last beyond about seven to ten days, when the upper airway is obstructed, or when the patient cannot clear secretions; it is more comfortable than an oral tube, needs less sedation, allows speech with a speaking valve and eating in selected patients, and makes weaning easier. Most ICU tracheostomies are percutaneous at the bedside; surgical tracheostomies are done in theatre. The first seven days, before the tract has matured, are the dangerous ones: a tube that comes out in that period may not go back in through the stoma, and the nurse must know whether the patient has a patent upper airway (so can be oxygenated by the face) or a laryngectomy (so cannot). The tube is secured with ties that admit one finger, the stoma cleaned and dressed daily, the inner cannula cleaned or changed at least every eight hours, the cuff kept at 20 to 30 cmH₂O while ventilated and deflated when the patient is weaning and able to swallow, and humidification is continuous because the nose has been bypassed.",
+            "<strong>Suctioning</strong> is done when needed — audible or visible secretions, a rising airway pressure, a falling saturation, a patient who asks — not by the clock. Pre-oxygenate, use a sterile catheter no more than half the internal diameter of the tube, insert without suction to the carina and withdraw a centimetre, apply suction only on withdrawal for no more than ten to fifteen seconds, allow recovery between passes, watch the heart rate and saturation throughout, and do not instil saline routinely. The patient who cannot speak must have a call bell within reach and a means to communicate at every hour of the day.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-PER-1556.svg",
+          alt: "The tracheostomy: what changes and what can kill. What the tube bypasses: air no longer passes the nose and throat, so it arrives cold, dry and unfiltered; secretions thicken and crust and a crust can block the tube — humidification is treatment, not comfort. Air also bypasses the vocal cords, so the patient cannot speak or call out; give a bell and paper. At the bedside always, from hour one: a spare tube of the same size, a spare tube one size smaller, tracheal dilators and a bag-valve mask, working suction with correct-sized catheters, humidification and sterile saline — checked at every handover and signed for. The patient is distressed and struggling to breathe: 1, is the tube blocked? Pass a suction catheter; if it will not pass the tube is blocked or displaced. 2, has it come out? Look and feel at the stoma; a tube that has slipped in front of the trachea moves air nowhere while looking in place. 3, call for help early and give oxygen at the face and at the stoma while you work. Suction: brief, sterile and only on the way out; pre-oxygenate, insert without suction, apply suction only while withdrawing, keep each pass to a few seconds, never instil saline routinely.",
+          caption: "The tracheostomy emergency algorithm: call for help, oxygen to the face and the stoma, assess patency by passing a suction catheter, remove the inner cannula, deflate the cuff, and if the tube is blocked or displaced remove it and ventilate by the face (if the upper airway is patent) or the stoma while an experienced person reinserts. The box at the bedside is checked and signed every shift.",
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "How the examiner tests this lesson",
+          body: "Numbers: tidal volume 6–8 mL/kg predicted body weight; plateau pressure 30 cmH₂O or less; PEEP at least 5; cuff pressure 20–30 cmH₂O; head of bed 30–45 degrees; suction no more than 10–15 seconds, applied only on withdrawal; NIV reassessed with a blood gas at one hour; prone for 16 hours or more; rapid shallow breathing index below 105; type 1 failure PaO₂ below 8 kPa, type 2 PaCO₂ above 6 kPa. Scenarios: the COPD patient with pH 7.28 and PaCO₂ 9 kPa needs bilevel NIV, not more oxygen; the drowsy, vomiting patient must not have a mask ventilator; the ventilated patient who desaturates is disconnected and bagged while DOPES is run; the high-pressure alarm with a silent side and hypotension is tension pneumothorax; secretions pooling above the cuff cause ventilator-associated pneumonia; a fresh tracheostomy that falls out in the first week is an emergency because the tract is not formed.",
+        },
+      ],
+      keyPoints: [
+        "Oxygen delivery is cardiac output × haemoglobin × saturation; type 1 failure (PaO₂ below 8 kPa, normal or low CO₂) is a gas-exchange problem treated with oxygen and then pressure; type 2 failure (PaCO₂ above 6 kPa) is a pump problem that needs ventilation — oxygen alone can worsen it.",
+        "The ladder: controlled oxygen to a target, high-flow nasal oxygen at 30–60 L/min for type 1 failure, CPAP for pulmonary oedema, bilevel NIV (IPAP 10–20, EPAP 4–5) for type 2 failure with a blood gas and a decision at one hour; NIV is contraindicated when the airway is unprotected, with vomiting, facial trauma, undrained pneumothorax, instability or arrest.",
+        "Lung-protective ventilation: tidal volume 6–8 mL/kg predicted body weight, plateau at or below 30 cmH₂O, driving pressure below 15, PEEP at least 5, FiO₂ titrated to SpO₂ 92–96 per cent (88–92 in chronic CO₂ retention), longer expiration in asthma and COPD, humidification always; read the mode off the screen — assist–control, SIMV, pressure support (the weaning mode).",
+        "Alarms are assessed at the patient, not silenced: high pressure means secretions, biting, bronchospasm, kinking, right main bronchus or pneumothorax; low pressure means disconnection or cuff leak; sudden deterioration means disconnect, bag with 100 per cent oxygen and run DOPES — displacement, obstruction, pneumothorax, equipment, stacked breaths.",
+        "The VAP bundle: head up 30–45 degrees, daily sedation hold and weaning screen, oral care with toothbrushing and antiseptic, cuff 20–30 cmH₂O, subglottic suction, closed or sterile suction, circuit changed only when soiled, condensate away from the patient, hand hygiene; sedation targets RASS 0 to −2 with analgesia first, paralysis only with deep sedation.",
+        "Prone positioning for at least 16 hours improves survival in moderate–severe ARDS and is a rehearsed five-person procedure; weaning is screened daily (cause improving, FiO₂ 0.4 or less, PEEP 8 or less, stable, awake, coughing), tested by a 30–120 minute spontaneous breathing trial, predicted by a rapid shallow breathing index below 105, and completed by daytime extubation after a cuff-leak check with a reintubation plan.",
+        "A tracheostomy is considered after 7–10 days of ventilation; the tract is immature for the first week; the bedside box (spare tubes same and one size smaller, dilators, bag–valve mask, suction, humidification) is checked every shift; suction on withdrawal only for 10–15 seconds without routine saline; the blocked or displaced tube algorithm is call for help, oxygen to face and stoma, pass a catheter, remove the inner cannula, deflate the cuff, remove the tube and ventilate.",
+      ],
+      quiz: { keywords: ["ventilat","ventilator","tracheostomy","suction","endotracheal","subglottic","humidif","oxygen saturation","pulse oximet","oxygen therapy","high-flow","nasal cannula","non-rebreath","carbon dioxide retention","chronic obstructive","copd","spo2","hypoxaemia","hypercapn","respiratory acidosis","paco2","sedation","ketamine","oropharyngeal","secretions","positioning for breathlessness","incentive spirometry","deep breathing","nebulis","hypoxia","pneumonia","oral care","recovery position","oxygen","airway","cyanosis"] },
+    },
+  ],
+};

@@ -37,6 +37,14 @@ export default function QuestionQuiz({
   const [items, setItems] = useState<QuestionPreview[]>([]);
   const [index, setIndex] = useState(0);
   const [offset, setOffset] = useState(0);
+  // Absolute position of items[0] in the set. Normally 0, but after a resume
+  // the first loaded page is the one that contains the saved position.
+  const [baseOffset, setBaseOffset] = useState(0);
+  // Server-derived key for this practice set (null for shuffled/bookmark
+  // sets, which cannot be resumed). Progress is saved after every answer.
+  const [progressKey, setProgressKey] = useState<string | null>(null);
+  const [resumedAt, setResumedAt] = useState<number | null>(null);
+  const [restarting, setRestarting] = useState(false);
   const [total, setTotal] = useState(0);
   const [locked, setLocked] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -107,29 +115,100 @@ export default function QuestionQuiz({
     });
   }
 
+  type BatchResponse = {
+    questions: QuestionPreview[];
+    total?: number;
+    locked?: boolean;
+    offset?: number;
+    progressKey?: string | null;
+    resume?: { position: number; answered: number; correct: number } | null;
+  };
+
   const loadBatch = useCallback(
-    async (nextOffset: number, replace: boolean) => {
+    async (nextOffset: number, replace: boolean, resume = false): Promise<BatchResponse> => {
       const sep = queryString ? "&" : "";
-      const res = await fetch(`/api/questions?${queryString}${sep}limit=${limit}&offset=${nextOffset}`);
-      const data = await res.json();
+      const res = await fetch(
+        `/api/questions?${queryString}${sep}limit=${limit}&offset=${nextOffset}${resume ? "&resume=1" : ""}`,
+      );
+      const data = (await res.json()) as BatchResponse;
+      const list = Array.isArray(data.questions) ? data.questions : [];
       setTotal(data.total ?? 0);
       setLocked(Boolean(data.locked));
-      setItems((prev) => (replace ? data.questions : [...prev, ...data.questions]));
-      return data.questions.length as number;
+      setProgressKey(data.progressKey ?? null);
+      setItems((prev) => (replace ? list : [...prev, ...list]));
+      return { ...data, questions: list };
     },
     [queryString],
   );
 
+  // First load (and whenever the set changes): ask the server for the page
+  // that holds the student's saved position so they continue where they
+  // stopped instead of starting at question 1 every time.
+  const startSet = useCallback(
+    async (resume: boolean) => {
+      setLoading(true);
+      setIndex(0);
+      setOffset(0);
+      setBaseOffset(0);
+      setResumedAt(null);
+      setSelected(null);
+      setMultiSelected([]);
+      setResult(null);
+      setScore({ correct: 0, total: 0 });
+      try {
+        const data = await loadBatch(0, true, resume);
+        const pageOffset = data.offset ?? 0;
+        setOffset(pageOffset);
+        setBaseOffset(pageOffset);
+        if (resume && data.resume && data.resume.position >= pageOffset && data.resume.position - pageOffset < data.questions.length) {
+          setIndex(data.resume.position - pageOffset);
+          setScore({ correct: data.resume.correct, total: data.resume.answered });
+          setResumedAt(data.resume.position);
+        }
+      } finally {
+        setLoading(false);
+      }
+    },
+    [loadBatch],
+  );
+
   useEffect(() => {
-    setLoading(true);
-    setIndex(0);
-    setOffset(0);
-    setSelected(null);
-    setMultiSelected([]);
-    setResult(null);
-    setScore({ correct: 0, total: 0 });
-    loadBatch(0, true).finally(() => setLoading(false));
-  }, [loadBatch]);
+    void startSet(true);
+  }, [startSet]);
+
+  // Persist the position after every answer (fire-and-forget; keepalive lets
+  // the request finish even if the tab is closed straight after answering).
+  function saveProgress(nextPosition: number, nextScore: { correct: number; total: number }) {
+    if (!progressKey) return;
+    try {
+      void fetch("/api/questions/progress", {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        keepalive: true,
+        body: JSON.stringify({ key: progressKey, position: nextPosition, answered: nextScore.total, correct: nextScore.correct }),
+      }).catch(() => {
+        /* progress is a convenience — never interrupt practice over it */
+      });
+    } catch {
+      /* ignore */
+    }
+  }
+
+  async function startOver(confirmFirst = false) {
+    if (restarting) return;
+    if (confirmFirst && typeof window !== "undefined" && !window.confirm("Start this set again from question 1? Your saved position will be cleared (your answer history is kept).")) {
+      return;
+    }
+    setRestarting(true);
+    try {
+      if (progressKey) {
+        await fetch(`/api/questions/progress?key=${encodeURIComponent(progressKey)}`, { method: "DELETE" }).catch(() => undefined);
+      }
+      await startSet(false);
+    } finally {
+      setRestarting(false);
+    }
+  }
 
   const current = items[index];
   const isSataQuestion = Boolean(current?.isSata);
@@ -189,7 +268,9 @@ export default function QuestionQuiz({
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Unable to submit answer");
       setResult(data);
-      setScore((s) => ({ correct: s.correct + (data.isCorrect ? 1 : 0), total: s.total + 1 }));
+      const nextScore = { correct: score.correct + (data.isCorrect ? 1 : 0), total: score.total + 1 };
+      setScore(nextScore);
+      saveProgress(baseOffset + index + 1, nextScore);
     } catch (err) {
       toast.push(err instanceof Error ? err.message : "Unable to submit answer", "error");
       setSelected(null);
@@ -237,9 +318,9 @@ export default function QuestionQuiz({
     if (offset + limit < total) {
       setLoadingMore(true);
       const nextOffset = offset + limit;
-      const count = await loadBatch(nextOffset, false);
+      const batch = await loadBatch(nextOffset, false);
       setOffset(nextOffset);
-      if (count > 0) setIndex((i) => i + 1);
+      if (batch.questions.length > 0) setIndex((i) => i + 1);
       setLoadingMore(false);
     } else {
       setIndex((i) => i + 1);
@@ -274,10 +355,41 @@ export default function QuestionQuiz({
   }
 
   const finished = index >= items.length;
+  const position = baseOffset + index; // absolute 0-based position in the set
+  const canResume = Boolean(progressKey);
+  const progressPct = total > 0 ? Math.min(100, Math.round((Math.min(position, total) / total) * 100)) : 0;
 
   return (
     <div>
       <QuizHeader title={title} subtitle={subtitle} score={score} timedMode={timedMode} onToggleTimed={toggleTimedMode} />
+
+      {canResume && total > 0 && !finished && (
+        <div className="mb-3 rounded-xl border border-slate-200 bg-white px-4 py-2.5 shadow-sm">
+          <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1 text-xs font-semibold text-slate-600">
+            <span>
+              Question {Math.min(position + 1, total)} of {total}
+              {resumedAt !== null && position === resumedAt && (
+                <span className="ml-2 rounded-full bg-emerald-100 px-2 py-0.5 text-[11px] font-bold text-emerald-700">
+                  ↻ Resumed where you left off
+                </span>
+              )}
+            </span>
+            {position > 0 && (
+              <button
+                onClick={() => void startOver(true)}
+                disabled={restarting || loadingMore}
+                className="font-bold text-slate-500 hover:text-rose-600 disabled:opacity-50"
+                title="Forget your saved position and start this set from question 1"
+              >
+                {restarting ? "Restarting…" : "↺ Start over"}
+              </button>
+            )}
+          </div>
+          <div className="mt-1.5 h-1 w-full overflow-hidden rounded-full bg-slate-100">
+            <div className="h-full rounded-full bg-emerald-500 transition-all" style={{ width: `${progressPct}%` }} />
+          </div>
+        </div>
+      )}
 
       {!finished && current && (
         <div
@@ -468,12 +580,23 @@ export default function QuestionQuiz({
               Get full access — from $5
             </Link>
           ) : (
-            <Link
-              href="/dashboard/questions"
-              className="mt-5 inline-block rounded-lg bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-emerald-700"
-            >
-              Back to question bank
-            </Link>
+            <div className="mt-5 flex flex-wrap items-center justify-center gap-2">
+              {canResume && (
+                <button
+                  onClick={() => void startOver()}
+                  disabled={restarting}
+                  className="rounded-lg border border-emerald-600 px-5 py-2.5 text-sm font-semibold text-emerald-700 hover:bg-emerald-50 disabled:opacity-60"
+                >
+                  {restarting ? "Restarting…" : "↺ Practise this set again"}
+                </button>
+              )}
+              <Link
+                href="/dashboard/questions"
+                className="inline-block rounded-lg bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-emerald-700"
+              >
+                Back to question bank
+              </Link>
+            </div>
           )}
         </div>
       )}
@@ -520,7 +643,7 @@ function QuizHeader({
         )}
         {score.total > 0 && (
           <div className="rounded-xl bg-slate-100 px-4 py-2 text-sm font-semibold text-slate-700">
-            Session score: {score.correct}/{score.total}
+            Score so far: {score.correct}/{score.total}
           </div>
         )}
       </div>
