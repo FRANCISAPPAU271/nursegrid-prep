@@ -7,6 +7,28 @@ import { isSata } from "@/lib/sata";
 import { getPracticeProgress, practiceSetKey, type PracticeProgress } from "@/db/practice-progress";
 import { getCourse, getLesson } from "@/content/courses";
 
+// The physical questions table gains an authored_id column once the
+// authored-batch append has run (older databases don't have it). The check is
+// cached briefly so sequential practice costs one tiny lookup every few
+// minutes per server instance — and a database without the column keeps the
+// legacy oldest-first order instead of erroring.
+let authoredIdCheck: { at: number; promise: Promise<boolean> } | null = null;
+function hasAuthoredIdColumn(): Promise<boolean> {
+  const now = Date.now();
+  if (!authoredIdCheck || now - authoredIdCheck.at > 5 * 60 * 1000) {
+    authoredIdCheck = {
+      at: now,
+      promise: db
+        .execute(
+          sql`SELECT 1 FROM information_schema.columns WHERE table_name = 'questions' AND column_name = 'authored_id' LIMIT 1`,
+        )
+        .then((res) => res.rows.length > 0)
+        .catch(() => false),
+    };
+  }
+  return authoredIdCheck.promise;
+}
+
 export async function GET(request: Request) {
   try {
     const user = await requireStudyAccess();
