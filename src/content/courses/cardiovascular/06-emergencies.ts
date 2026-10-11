@@ -3,7 +3,7 @@ import type { CourseModule } from "../types";
 export const emergencies: CourseModule = {
   slug: "dysrhythmias-and-emergencies",
   title: "Dysrhythmias and cardiac emergencies",
-  summary: "Reading the rhythm strip, the response to each common dysrhythmia, basic and advanced life support, the four types of shock, and cardiac tamponade.",
+  summary: "Reading the rhythm strip, the response to each common dysrhythmia, basic and advanced life support, the four types of shock, and cardiac tamponade. — then an ECG pattern drill that turns recognition into reflex.",
   lessons: [
     {
       slug: "recognising-dysrhythmias",
@@ -89,6 +89,135 @@ export const emergencies: CourseModule = {
       ],
       quiz: {
         keywords: ["atrial fibrillation", "ventricular tachycardia", "ventricular fibrillation", "bradycardia", "heart block", "arrhythmia", "dysrhythmia", "adenosine", "atropine", "amiodarone", "pacemaker", "palpitation", "hyperkalaemia", "hypokalaemia", "cardioversion", "supraventricular", "ectopic beat"],
+      },
+    },
+    {
+      slug: "ecg-pattern-drill",
+      title: "ECG pattern drill: see it, name it, act",
+      minutes: 20,
+      objectives: [
+        "Match the strip to the rhythm — atrial fibrillation and flutter, SVT, VT and VF, and the bradycardias.",
+        "Grade heart blocks from first-degree to complete and state which need pacing readiness.",
+        "Read ST-segment change — hyperacute T, elevation, Q waves, inversion and depression — and separate STEMI from ischaemia.",
+        "State the first nursing action for each pattern without hesitation.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "From method to pattern",
+          paragraphs: [
+            "The dysrhythmia lesson gave you the five-step method: rate, regularity, P waves, PR interval, QRS width. Work every strip that way and you will always reach an answer — but experienced nurses also <strong>pattern-match</strong>: they see the chaos of fibrillation, the sawteeth of flutter or the tombstones of infarction the way you recognise a face. This lesson is the visual library that builds that second skill.",
+            "Use it as a drill, not a read: look at each strip with its label covered, name the pattern out loud, state the first action — then uncover and check. Keep the normal reference trace beside you throughout, because <strong>every abnormality is a deviation from a known normal</strong>, and the examination tests deviation, not memorisation.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-ECG-0001.svg",
+          alt: "Normal sinus rhythm with P wave, PR interval, QRS complex, ST segment and T wave labelled",
+          caption: "The reference trace: one P before every QRS, PR 0.12–0.20 s, narrow QRS, flat ST, upright T. Every abnormality in this lesson is a deviation from this picture.",
+        },
+        {
+          type: "table",
+          heading: "Fast rhythms: what you see and what you do",
+          columns: ["Pattern", "What you see", "First action"],
+          rows: [
+            ["Atrial fibrillation", "Irregularly irregular narrow QRS, no P waves, chaotic baseline; the pulse is chaotic with a pulse deficit (apex faster than wrist)", "Rate control per protocol (beta-blocker or digoxin), assess stroke risk for anticoagulation, find the trigger (sepsis, thyrotoxicosis, infarction, alcohol, pulmonary embolism); cardiovert only if unstable or electively"],
+            ["Atrial flutter", "Regular sawtooth baseline near 300/min with narrow QRS in 2:1 or 4:1 ratio — regular where fibrillation is chaotic", "Vagal manoeuvres or adenosine to slow AV conduction and expose the teeth (diagnostic); then rate control and anticoagulation as for fibrillation — ablation cures most"],
+            ["SVT", "Narrow, regular, 150–220/min with no visible P waves; sudden on, sudden off", "Vagal first (straining, Valsalva); adenosine 6 mg then 12 mg rapid IV with continuous monitoring if regular and narrow; synchronised cardioversion if unstable"],
+            ["VT", "Wide, regular, 140–200/min; look for AV dissociation, fusion and capture beats — but treat first and analyse later", "No pulse: unsynchronised shock plus ALS. Pulse but unwell: synchronised cardioversion with sedation. Stable: amiodarone and urgent cardiology — never verapamil"],
+            ["VF", "Chaotic baseline with no complexes and no pulse — the dying heart quivering", "Defibrillate immediately with high-quality CPR, adrenaline and amiodarone per ALS, and hunt the reversible causes alongside"],
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-ECG-0002.svg",
+          alt: "Atrial fibrillation with irregular narrow complexes and no P waves; atrial flutter with a regular sawtooth baseline",
+          caption: "Fibrillation is irregularly irregular with no P waves; flutter is a regular sawtooth near 300/min. Both need rate control and stroke-risk thinking.",
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-ECG-0004.svg",
+          alt: "SVT with rapid regular narrow complexes; VT with rapid regular wide complexes; VF with a chaotic baseline",
+          caption: "Narrow plus regular plus fast is SVT; wide plus regular plus fast is VT until proven otherwise; chaotic with no complexes is VF — only VF and pulseless VT are shocked.",
+        },
+        {
+          type: "table",
+          heading: "Slow rhythms and blocks: what you see and what you do",
+          columns: ["Pattern", "What you see", "First action"],
+          rows: [
+            ["Sinus bradycardia", "Slow but normal: a P wave before every QRS, narrow complexes", "Treat only if unwell (atropine); otherwise find the cause — beta-blockers, digoxin, hypothermia, athletes, sleep"],
+            ["Junctional rhythm", "Narrow complexes at 40–60/min with P waves absent or inverted — the AV junction has taken over", "Monitor and find the cause (inferior infarction, digoxin, beta-blockers); atropine and pacing readiness if unwell"],
+            ["Idioventricular rhythm", "Wide bizarre complexes at 20–40/min — the ventricles' own last back-up", "Pacing pads on, atropine, prepare to pace; CPR on the PEA pathway if pulseless"],
+            ["First-degree block", "PR interval over 0.20 s but every P wave still conducts", "Observe and review AV-nodal drugs (beta-blockers, digoxin, verapamil); needs nothing itself"],
+            ["Mobitz I (Wenckebach)", "PR lengthens with each beat until one drops — grouped beating", "Often transient (inferior infarction, drugs); continuous monitoring, atropine if symptomatic, watch for progression"],
+            ["Mobitz II", "Constant PR with sudden dropped beats, often with a wide QRS — no warning before the drop", "Unstable: pacing pads on, atropine, transcutaneous then transvenous pacing, urgent cardiology — it can become complete block without warning"],
+            ["Complete (third-degree) block", "P waves and QRS complexes beat independently with a slow wide escape — total dissociation", "Transcutaneous pacing now with an atropine or adrenaline bridge per protocol, then a permanent pacemaker; never leave unwatched"],
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-ECG-0006.svg",
+          alt: "Sinus bradycardia with P before every QRS; junctional rhythm narrow without P waves; idioventricular rhythm wide and slow",
+          caption: "The escape ladder: sinus bradycardia keeps its P waves, junctional rhythm loses them at 40–60/min, idioventricular escape is wide at 20–40/min.",
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-ECG-0003.svg",
+          alt: "First-degree block with long PR; Wenckebach with lengthening PR then a dropped beat; Mobitz II with sudden dropped beats; complete block with independent P waves and slow wide escapes",
+          caption: "From delay to dissociation: first-degree conducts everything late, Wenckebach groups then drops, Mobitz II drops without warning, complete block dissociates — the last two need pacing.",
+        },
+        {
+          type: "table",
+          heading: "ST segments: injury versus ischaemia",
+          columns: ["Pattern", "Meaning", "Action"],
+          rows: [
+            ["Hyperacute T waves", "Tall, broad T waves within minutes of occlusion — the earliest sign, before elevation appears", "Repeat the ECG in 15–30 minutes and activate the ACS pathway early; do not wait for troponin"],
+            ["ST elevation in contiguous leads", "STEMI — full-thickness injury; reciprocal ST depression in the opposite wall confirms it", "12-lead within 10 minutes of arrival, reperfusion (PCI or fibrinolysis), aspirin 300 mg chewed, monitoring — the first-ten-minutes care from the ACS lesson"],
+            ["ST depression in V1–V3 with tall R waves", "Posterior STEMI seen in the mirror — the posterior wall has no direct chest lead", "Record posterior leads V7–V9 and treat as STEMI; this is the infarct most often missed"],
+            ["New left bundle branch block", "Possible MI equivalent — the wide discordant complexes can hide an occlusion", "Pull the OLD ECG: new versus old changes everything; troponin and urgent cardiology either way"],
+            ["Pathological Q waves", "Necrosis — hours old, the muscle already dying or dead", "Full ACS care regardless, plus echocardiography; the time of onset guides the reperfusion choice"],
+            ["T-wave inversion or ST depression", "Ischaemia or NSTEMI — partial or transient occlusion", "Serial ECGs with high-sensitivity troponin, risk scoring, dual antiplatelets and heparin per protocol, cardiology review"],
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-ECG-0005.svg",
+          alt: "Six ST patterns: normal, hyperacute T, ST elevation, Q wave, T inversion and ST depression",
+          caption: "Injury evolves: hyperacute T within minutes, ST elevation, Q-wave necrosis, T inversion — while ST depression means ischaemia. Elevation in contiguous leads plus pain is STEMI.",
+        },
+        {
+          type: "list",
+          heading: "The drill: how to use this lesson",
+          style: "steps",
+          items: [
+            "Cover every label and name each strip in under 60 seconds: rhythm, rate, QRS width, ST — then the first action. Repeat until no strip hesitates you.",
+            "Always pull the OLD ECG before calling anything new: a 'new' bundle branch block that is three years old, and ST elevation that is early repolarisation, are both diagnosed from the comparison.",
+            "Record pain-versus-pain-free traces: ischaemia comes and goes, so a normal ECG without pain never rules out ACS — repeat with symptoms and document the time.",
+            "Document every trace the same way: rate, rhythm, QRS width, ST segments, QTc, the time, whether the patient had pain — and hand over in SBAR with the pattern named, not 'funny ECG'.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "See it, name it",
+          body: "Irregular plus narrow plus no P is fibrillation; sawteeth are flutter; narrow plus regular plus fast is SVT; wide plus regular plus fast is VT; chaos is VF. Long PR conducting everything is first-degree; lengthening then dropping is Wenckebach; sudden drops are Mobitz II; independence is complete block. Elevation in contiguous leads is STEMI; V1–V3 depression with tall R is posterior MI.",
+        },
+        {
+          type: "callout",
+          tone: "warning",
+          title: "Patterns that must not wait",
+          body: "VF and pulseless VT: shock now. Mobitz II and complete block: pads on, pace. STEMI including the posterior mirror: reperfuse now. VT until proven otherwise: never verapamil, never wait. Any pattern with no pulse: resuscitation before analysis.",
+        },
+      ],
+      keyPoints: [
+        "Fibrillation is irregularly irregular with no P; flutter is a regular sawtooth; SVT is narrow, regular and fast; VT is wide, regular and fast; VF is chaos — only VF and pulseless VT are shocked.",
+        "First-degree conducts everything late, Wenckebach groups then drops, Mobitz II drops without warning, complete block dissociates — Mobitz II and complete block need pacing readiness.",
+        "Sinus bradycardia keeps its P waves; junctional rhythm loses them at 40–60/min; idioventricular escape is wide at 20–40/min — treat the patient, not the number.",
+        "Hyperacute T, ST elevation in contiguous leads, Q waves and T inversion are the evolution of infarction; ST depression is ischaemia; V1–V3 depression with tall R is posterior STEMI.",
+        "Always compare with the old ECG, repeat with pain, document rate, rhythm, QRS, ST and QTc with the time, and hand over the named pattern.",
+      ],
+      quiz: {
+        keywords: ["ecg pattern", "atrial fibrillation", "atrial flutter", "supraventricular", "ventricular tachycardia", "ventricular fibrillation", "heart block", "wenckebach", "mobitz", "bradycardia", "tachycardia", "st elevation", "st depression", "t wave inversion", "q wave", "reciprocal", "posterior myocardial", "wide qrs", "narrow complex", "shockable", "defibrillat", "cardioversion", "pacing", "adenosine", "atropine", "amiodarone"],
       },
     },
     {

@@ -223,6 +223,12 @@ export const foundations: CourseModule = {
           ],
         },
         {
+          type: "diagram",
+          src: "/diagrams/NG-ECG-0001.svg",
+          alt: "Normal sinus rhythm with P wave, PR interval, QRS complex, ST segment and T wave labelled",
+          caption: "The normal ECG labelled: compare every trace you read against this reference — rate, rhythm, P, PR, QRS, ST, T.",
+        },
+        {
           type: "list",
           heading: "Calculating the rate",
           items: [
