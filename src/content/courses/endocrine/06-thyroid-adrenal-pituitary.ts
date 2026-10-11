@@ -3,7 +3,7 @@ import type { CourseModule } from "../types";
 export const thyroidAdrenalPituitary: CourseModule = {
   slug: "thyroid-adrenal-and-pituitary",
   title: "Thyroid, adrenal and pituitary disorders",
-  summary: "The glands beyond the pancreas: the overactive and underactive thyroid and their two life-threatening extremes, nursing the thyroidectomy patient hour by hour, cortisol excess and deficiency with the steroid rules that prevent adrenal crisis, and the pituitary — growth hormone, prolactin, hypopituitarism and the two disorders of water.",
+  summary: "The glands beyond the pancreas: the overactive and underactive thyroid and their two life-threatening extremes, nursing the thyroidectomy patient hour by hour, cortisol excess and deficiency with the steroid rules that prevent adrenal crisis, the pituitary — growth hormone, prolactin, hypopituitarism and the two disorders of water — and calcium and parathyroid disorders, from tetany to the hypercalcaemic emergency.",
   lessons: [
     {
       slug: "thyroid-disorders",
@@ -398,6 +398,99 @@ export const thyroidAdrenalPituitary: CourseModule = {
       ],
       quiz: {
         keywords: ["pituitary", "diabetes insipidus", "siadh", "antidiuretic", "vasopressin", "desmopressin", "hyponatraemia", "hypernatraemia", "specific gravity", "urine osmolality", "fluid restriction", "acromegaly", "growth hormone", "prolactin", "galactorrhoea", "sheehan", "hemianopia", "thirst", "large volumes", "water intoxication", "oxytocin", "osmolality"],
+      },
+    },
+    {
+      slug: "calcium-and-parathyroid-disorders",
+      title: "Calcium and parathyroid disorders",
+      minutes: 16,
+      objectives: [
+        "Explain how parathyroid hormone, vitamin D and calcitonin hold calcium in its narrow range, and correct calcium for albumin.",
+        "Recognise hypocalcaemia at the bedside and in the blood results, including after thyroid and parathyroid surgery.",
+        "Treat acute hypocalcaemia safely and arrange the follow-up that prevents it recurring.",
+        "Recognise hypercalcaemia, find its cause, and manage the hypercalcaemic emergency in the right order.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Calcium kept in a narrow band",
+          paragraphs: [
+            "Nearly all the body's calcium sits in bone; the tiny fraction in blood — <strong>corrected calcium 2.2–2.6 mmol/L</strong> — runs nerve conduction, muscle contraction (including the heart), clotting and cell signalling, so both ends of the range stop excitable tissue working. Three hormones hold the band: <strong>parathyroid hormone (PTH)</strong> from the four parathyroid glands behind the thyroid raises calcium by releasing it from bone, reclaiming it in the kidney and activating vitamin D in the kidney so the gut absorbs more; <strong>vitamin D</strong> (sunlight plus diet) supplies the gut absorption; <strong>calcitonin</strong> from the thyroid opposes PTH weakly. And one rule the examination loves: <strong>magnesium is needed for PTH release and action — hypocalcaemia with a low magnesium will not correct until the magnesium is replaced</strong>.",
+            "Half of blood calcium rides on albumin, so a low albumin fakes a low calcium: always use the <strong>corrected calcium = measured calcium + 0.02 × (40 − albumin)</strong>, with albumin in g/L. A 'low calcium' with a low albumin and no symptoms is usually a protein problem, not a calcium problem — but symptoms (tingling, spasm, seizures) or a genuinely low corrected value need action whatever the albumin.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Hypocalcaemia: causes, features, tests",
+          columns: ["Group", "Detail"],
+          rows: [
+            ["Surgical (commonest acute cause)", "Thyroidectomy or parathyroidectomy injuring, bruising or removing the parathyroids — tingling within hours to days of neck surgery is hypocalcaemia until proven otherwise; radical neck dissection, laryngectomy."],
+            ["Gland failure", "Autoimmune hypoparathyroidism (isolated or polyglandular), DiGeorge syndrome in children, infiltrative disease, hungry bone syndrome after parathyroidectomy for severe hyperparathyroidism."],
+            ["Vitamin D and minerals", "Vitamin D deficiency (little sun, covered dress, dark skin indoors, malnutrition), rickets and osteomalacia, chronic kidney disease (phosphate retention, no activated vitamin D), low magnesium (alcohol, diuretics, diarrhoea, aminoglycosides) blocking PTH."],
+            ["Other", "Acute pancreatitis (calcium soaps in fat necrosis), massive transfusion (citrate binds calcium), tumour lysis, bisphosphonates and denosumab, foscarnet, hungry bones after treating thyrotoxicosis."],
+            ["Bedside features", "Perioral and fingertip <strong>tingling</strong>, <strong>Chvostek's sign</strong> (tapping the facial nerve twitches the lip), <strong>Trousseau's sign</strong> (a blood-pressure cuff inflated for 3 minutes spasms the hand into the 'main d'accoucheur' posture), carpopedal spasm, cramps, seizures, stridor (laryngospasm), prolonged QT on ECG risking torsades."],
+            ["Blood tests", "Corrected calcium low; <strong>phosphate high with PTH low or absent</strong> points to hypoparathyroidism; phosphate low with PTH high points to vitamin D deficiency or CKD; always check <strong>magnesium</strong>, creatinine, and the ECG."],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Treating acute hypocalcaemia",
+          style: "steps",
+          items: [
+            "Secure the airway, breathing and circulation; attach ECG monitoring (watch the QT); confirm with a corrected calcium and magnesium — <strong>replace a low magnesium first or in parallel</strong>, or the calcium will not hold.",
+            "Give <strong>10 mL of 10% calcium gluconate IV slowly over 10 minutes</strong> (about 90 mg elemental calcium) with ECG monitoring; it may be repeated, then followed by an infusion (for example 100 mL of 10% in a litre over 24 hours, titrated) if symptoms persist. Calcium chloride is three times more elemental calcium and far more irritating — avoid it outside resuscitation. <strong>Never mix calcium with bicarbonate or ceftriaxone in the line.</strong>",
+            "Start oral calcium (1–3 g elemental calcium daily in divided doses) and active vitamin D (<strong>alfacalcidol or calcitriol</strong>) together — plain vitamin D works too slowly for gland failure — and treat the cause (vitamin D repletion, CKD-mineral bone care, stop the offending drug).",
+            "After thyroid or parathyroid surgery, run a protocol, not luck: check corrected calcium on day 1 and 2, warn every patient about tingling and spasm with a number to call, consider routine oral calcium with or without alfacalcidol for total thyroidectomy, and follow parathyroid hormone and calcium for weeks — <strong>permanent hypoparathyroidism needs lifelong calcium and active vitamin D</strong>.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Hypercalcaemia: causes, features, tests",
+          columns: ["Group", "Detail"],
+          rows: [
+            ["Parathyroid (commonest in outpatients)", "Single parathyroid adenoma (85%), hyperplasia, rarely carcinoma — the PTH is high or 'inappropriately normal' beside a high calcium. Family history, young age or jaw tumours suggest MEN syndromes."],
+            ["Malignancy (commonest in inpatients)", "Squamous cancers and breast cancer via PTH-related peptide, myeloma and bony metastases via local destruction — hypercalcaemia in cancer means advanced disease and an emergency until treated."],
+            ["Vitamin D driven", "Granulomas making active vitamin D outside the kidney — <strong>tuberculosis and sarcoidosis</strong> (remember TB in a Ghanaian patient with a high calcium), lymphoma, excess vitamin D or calcium supplements, milk-alkali syndrome."],
+            ["Drugs and states", "Thiazide diuretics (reclaim calcium), lithium (resets the parathyroid thermostat), prolonged immobilisation, hyperthyroidism, Addison's disease, dehydration concentrating everything."],
+            ["Bedside features — 'stones, bones, groans, moans'", "<strong>Stones</strong> (renal colic), <strong>bones</strong> (aches, fractures), abdominal <strong>groans</strong> (constipation, nausea, pain, pancreatitis, ulcer), psychic <strong>moans</strong> (fatigue, confusion, depression, coma) — plus <strong>polyuria and thirst</strong> (calcium blocks ADH), dehydration, hypertension and a <strong>short QT</strong> on ECG."],
+            ["Blood tests", "Corrected calcium high (emergency above <strong>3.5</strong> or symptomatic at any level); PTH high means parathyroid disease; PTH suppressed means look elsewhere (myeloma screen, chest imaging for TB/malignancy, vitamin D level); check phosphate (low in hyperparathyroidism), creatinine, ECG and hydration."],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Managing the hypercalcaemic emergency",
+          style: "steps",
+          items: [
+            "Resuscitate first: airway, breathing, circulation, ECG, corrected calcium, urea and electrolytes, and <strong>aggressive isotonic saline — 3–6 litres in 24 hours if the heart allows</strong> — with strict input-output, daily weights and lung checks, because these patients are always dry and rehydration alone drops the calcium.",
+            "Once volume is restored, add a <strong>loop diuretic (furosemide)</strong> to drive calcium out in the urine — never before fluids, or you worsen the kidney injury. Mobilise the patient; stop thiazides, lithium, calcium and vitamin D supplements.",
+            "Give a <strong>bisphosphonate (zoledronic acid 4 mg IV, dose-reduced in renal impairment)</strong> — the definitive treatment, working over 2–4 days by switching off bone resorption. Bridge severe symptoms with <strong>calcitonin</strong> (works in hours, fades in days) and add <strong>steroids</strong> for granulomatous disease, lymphoma and myeloma.",
+            "Dialyse when the kidneys have failed or the calcium will not fall; treat the cause in parallel (parathyroidectomy for symptomatic or severe primary disease, TB treatment, cancer care); recheck calcium daily, then arrange the follow-up that stops it recurring.",
+          ],
+        },
+        {
+          type: "text",
+          heading: "After the emergency",
+          paragraphs: [
+            "A first severe episode earns a cause, not just treatment: parathyroidectomy cures symptomatic primary hyperparathyroidism (and asymptomatic disease with calcium above 3.0, stones, fractures or young age), with <strong>hungry bone syndrome</strong> watched for afterwards — the starved bones drink calcium for days, so calcium and alfacalcidol stand by. Vitamin D deficiency is repleted (high-dose colecalciferol then maintenance, plus sunlight and diet), CKD-mineral bone disease is managed with phosphate control, alfacalcidol and nephrology follow-up, and every patient leaves knowing the symptoms of both directions and when to return.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Numbers and signs to remember",
+          body: "Corrected calcium = measured + 0.02 × (40 − albumin); normal 2.2–2.6. Hypo: tingling, Chvostek (tap the cheek, the lip twitches), Trousseau (cuff 3 minutes, the hand spasms), seizures, LONG QT — treat with 10 mL of 10% calcium gluconate IV over 10 minutes and fix magnesium first. Hyper: stones, bones, groans, moans, polyuria, SHORT QT — emergency above 3.5: saline litres first, furosemide after fluids, zoledronic acid 4 mg, calcitonin bridge, steroids for granulomas. PTH high with high calcium is parathyroid disease; TB is on the hypercalcaemia list.",
+        },
+      ],
+      keyPoints: [
+        "PTH raises calcium (bone, kidney, gut via vitamin D); magnesium is required for PTH to work; always correct calcium for albumin before acting.",
+        "Hypocalcaemia shows as tingling, Chvostek's and Trousseau's signs, spasm, seizures and a long QT — think post-thyroidectomy, hypoparathyroidism, CKD, vitamin D deficiency and low magnesium.",
+        "Acute hypocalcaemia takes 10 mL of 10% calcium gluconate IV over 10 minutes with ECG monitoring, then oral calcium plus alfacalcidol — and magnesium replaced first or alongside.",
+        "Hypercalcaemia shows as stones, bones, groans, moans, polyuria and a short QT — think parathyroid adenoma, malignancy, TB granulomas, thiazides and lithium.",
+        "The hypercalcaemic emergency (>3.5 or symptomatic) is treated in order: litres of saline, furosemide after volume, zoledronic acid 4 mg, calcitonin bridge, steroids for granulomas — then the cause.",
+        "After neck surgery, calcium is checked on days 1–2, tingling gets a number to call, and permanent hypoparathyroidism needs lifelong calcium and active vitamin D.",
+      ],
+      quiz: {
+        keywords: ["calcium", "hypocalcaemia", "hypercalcaemia", "parathyroid", "tetany", "chvostek", "trousseau", "tingling", "calcium gluconate", "vitamin d", "rickets", "phosphate", "corrected calcium", "thyroidectomy", "muscle spasm"],
       },
     },
   ],

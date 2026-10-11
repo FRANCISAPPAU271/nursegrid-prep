@@ -3,7 +3,7 @@ import type { CourseModule } from "../types";
 export const diabeticEmergencies: CourseModule = {
   slug: "diabetic-emergencies",
   title: "Diabetic emergencies",
-  summary: "The three acute crises of diabetes: hypoglycaemia, which kills in minutes and is reversed in minutes; diabetic ketoacidosis, which needs fluid, insulin and potassium in the right order; and the hyperosmolar state of the elderly, which needs patience.",
+  summary: "The three acute crises of diabetes: hypoglycaemia, which kills in minutes and is reversed in minutes; diabetic ketoacidosis, which needs fluid, insulin and potassium in the right order; and the hyperosmolar state of the elderly, which needs patience — then a synthesis drill sorting all six endocrine crises at the bedside.",
   lessons: [
     {
       slug: "hypoglycaemia",
@@ -246,6 +246,98 @@ export const diabeticEmergencies: CourseModule = {
       ],
       quiz: {
         keywords: ["ketoacidosis", "dka", "diabetic", "ketone", "kussmaul", "acetone", "hyperosmolar", "insulin infusion", "fixed rate", "cerebral oedema", "fruity", "acidosis", "hyperglycaemia", "hyperkalaemia", "hypokalaemia"],
+      },
+    },
+    {
+      slug: "the-crashing-endocrine-patient",
+      title: "The crashing endocrine patient",
+      minutes: 15,
+      objectives: [
+        "Approach any collapsed endocrine patient with airway, breathing, circulation, glucose and temperature in the first minutes.",
+        "Discriminate hypoglycaemia, ketoacidosis, hyperosmolar state, thyroid storm, myxoedema coma and adrenal crisis by onset, vitals and bedside tests.",
+        "Start the correct first-hour treatment for each of the six crises without waiting for confirmatory labs.",
+        "Act safely when the picture is mixed or unclear, and avoid the traps that kill.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Fast or slow, wet or dry, hot or cold",
+          paragraphs: [
+            "Six endocrine crises collapse patients, and the examination — like the emergency department — tests whether you can sort them in minutes from the bedside, before the laboratory answers. Three questions do most of the sorting. <strong>How fast?</strong> Minutes means hypoglycaemia; hours to days means ketoacidosis; days to weeks means the hyperosmolar state or myxoedema coma; abrupt collapse in a steroid-treated or shocked patient means adrenal crisis. <strong>Wet or dry?</strong> Sweating with rapid onset is low sugar; profound dryness with slow onset is high sugar with ketones or hyperosmolality. <strong>Hot or cold?</strong> Fever with agitation and tachycardia is thyroid storm; hypothermia with slowing is myxoedema coma.",
+            "Run every collapse the same way: <strong>airway, breathing, circulation, disability (glucose and GCS), exposure (temperature)</strong> — then capillary glucose, temperature, blood pressure and heart rate, respiratory pattern, skin (sweaty or dry), and a finger-prick ketone test. That handful of bedside facts names the crisis in most cases; the venous gas, urea and electrolytes, osmolality, cortisol and thyroid function that follow confirm it and guide the hours ahead.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "The six crises side by side",
+          columns: ["Crisis", "Onset and temperature", "Circulation and breathing", "Glucose and hallmark"],
+          rows: [
+            ["Severe hypoglycaemia", "Minutes; sweating, pale, normal or low temperature", "Tachycardia, normal breathing then seizures and coma", "Below 4.0 (below 3.0 neuroglycopenic) — confusion, aggression, coma that lifts with sugar"],
+            ["Diabetic ketoacidosis", "Hours to days; warm, dry, acetone breath", "Tachycardia, hypotension, deep sighing Kussmaul breathing, vomiting, abdominal pain", "Usually 14–30 with ketones 3.0+ and pH below 7.3 — the dry, deep-breathing, fruity patient"],
+            ["Hyperosmolar hyperglycaemic state", "Days to weeks in an elderly type 2 patient; dry", "Profound dehydration (8–12 litres), hypotension, drowsiness, seizures, no Kussmaul breathing", "Glucose 30+ with osmolality 320+ and no significant ketosis — the most dehydrated patient on the ward"],
+            ["Thyroid storm", "Acute on untreated hyperthyroidism, often triggered by infection, surgery or childbirth; <strong>fever 38–41</strong>", "Extreme tachycardia, atrial fibrillation, heart failure, agitation, delirium, vomiting, diarrhoea", "Glucose often high; suppressed TSH with high T4 — the hot, wild, tachycardic patient"],
+            ["Myxoedema coma", "Insidious over weeks in untreated hypothyroidism, tipped by cold, infection, sedatives; <strong>hypothermia</strong>", "Bradycardia, hypotension, hypoventilation with CO2 retention, drowsiness to coma, non-pitting puffiness", "Glucose often low with hyponatraemia; high TSH with low T4 — the cold, slow, swollen patient"],
+            ["Adrenal crisis", "Abrupt: known Addison's, pituitary disease, or <strong>steroids stopped suddenly</strong>; intercurrent illness", "<strong>Shock unresponsive to fluids</strong>, vomiting, abdominal pain mimicking an acute abdomen, confusion", "Glucose low with <strong>low sodium and high potassium</strong>; random cortisol low — shock plus hyponatraemia plus hyperkalaemia is adrenal until proven otherwise"],
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-MSN-2718.svg",
+          alt: "Hypoglycaemia versus ketoacidosis: minutes and sweaty against hours-to-days and dry, with the treatment order and the potassium warning in ketoacidosis",
+          caption: "The first discriminator: sweaty and rapid means low sugar, dry and slow means high sugar with ketones — and in ketoacidosis the potassium always falls once insulin starts, whatever it measured at first.",
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-CLN-2915.svg",
+          alt: "Overactive versus underactive thyroid: every symptom is the metabolic rate up or down, TSH moves opposite the gland, and thyroid storm and myxoedema coma are the crises at each end",
+          caption: "The thyroid discriminator: everything fast, hot and tachycardic is storm; everything slow, cold and bradycardic is myxoedema — and TSH moves opposite the gland, which sorts the blood results.",
+        },
+        {
+          type: "table",
+          heading: "First-hour treatment for each crisis",
+          columns: ["Crisis", "First-hour actions"],
+          rows: [
+            ["Severe hypoglycaemia", "Conscious: 15–20 g fast sugar, recheck at 15 minutes up to three cycles. Unconscious or fitting: <strong>nothing by mouth</strong> — 75–100 mL of 20% dextrose IV or glucagon 1 mg IM (0.5 mg under 25 kg); thiamine first in alcohol dependence; admit sulphonylurea cases."],
+            ["Diabetic ketoacidosis", "<strong>Fluid first</strong> (1 L 0.9% saline in the first hour), <strong>insulin second</strong> (fixed-rate 0.1 units/kg/h), <strong>potassium in every bag once below 5.5</strong>, dextrose when glucose falls below 14 — and hunt the trigger (infection, missed insulin, MI, pregnancy)."],
+            ["Hyperosmolar state", "<strong>Fluid is the treatment</strong> (correct over 24–48 hours, osmolality down 3–8 per hour); insulin 0.05 units/kg/h only if glucose stops falling; replace potassium and magnesium; <strong>anticoagulate</strong> (thrombosis risk is extreme); find the trigger."],
+            ["Thyroid storm", "ABCs, cooling (paracetamol and fans — <strong>avoid aspirin</strong>, it displaces thyroid hormone), oxygen, fluids; <strong>beta-blockade</strong> (propranolol or esmolol) unless severe failure; <strong>carbimazole or propylthiouracil</strong>, then <strong>iodine solution</strong> an hour later; <strong>hydrocortisone</strong>; treat the trigger aggressively; ICU."],
+            ["Myxoedema coma", "Gentle handling: <strong>slow rewarming</strong> (blankets, warm room — rapid warming precipitates arrhythmia), airway and ventilation watch, cautious fluids (these patients retain water); <strong>IV levothyroxine loading</strong> plus <strong>hydrocortisone before or with it</strong> (thyroxine alone can precipitate adrenal crisis); treat infection; ICU."],
+            ["Adrenal crisis", "<strong>Hydrocortisone 100 mg IV immediately</strong> (then 50 mg 6-hourly or an infusion) — draw the random cortisol first but <strong>never wait for it</strong>; litres of saline with dextrose for the hypoglycaemia; correct sodium slowly; find and treat the trigger; teach doubling rules before discharge."],
+          ],
+        },
+        {
+          type: "list",
+          heading: "When you cannot tell",
+          style: "steps",
+          items: [
+            "Take the glucose, temperature, blood pressure, heart rate, respiratory pattern and ketones at the bedside now — this set alone names most crises.",
+            "If the glucose is low, or the patient is unconscious and you cannot measure it, <strong>treat as hypoglycaemia first</strong>: sugar harms a hyperglycaemic patient little in minutes, while withheld sugar injures a hypoglycaemic brain permanently.",
+            "If shocked, give fluids while you think — then ask why shock persists: shock plus hyponatraemia plus hyperkalaemia, or any steroid history, earns <strong>immediate hydrocortisone</strong> without waiting for cortisol results.",
+            "Send the venous gas, ketones, full electrolytes with calcium and magnesium, osmolality, ECG, cultures and septic screen together — but <strong>start fluids, glucose correction and (where indicated) steroids and antibiotics before any result returns</strong>, and call senior help early.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "One-line discriminators",
+          body: "Sweaty plus fast is hypoglycaemia; dry plus slow plus Kussmaul is DKA; elderly plus profound dehydration without ketones is HHS; hot plus agitated plus atrial fibrillation is thyroid storm; cold plus slow plus coma is myxoedema; shock that ignores fluids plus low sodium plus high potassium is adrenal crisis. TSH moves opposite the gland. Potassium always falls when DKA treatment starts.",
+        },
+        {
+          type: "callout",
+          tone: "warning",
+          title: "Traps that kill",
+          body: "Putting sugar in an unconscious mouth. Trusting a normal potassium at the start of DKA. Salicylates in thyroid storm. Warming myxoedema coma rapidly. Fluids without hydrocortisone in adrenal crisis. Stopping all insulin in a vomiting type 1 patient — that vomit is often DKA, not gastroenteritis.",
+        },
+      ],
+      keyPoints: [
+        "Sort collapses by speed (minutes is hypo, hours-to-days is DKA, days-to-weeks is HHS or myxoedema), moisture (sweaty is low sugar, dry is high) and temperature (fever is storm, hypothermia is myxoedema).",
+        "Bedside glucose, temperature, blood pressure, respiratory pattern, skin and ketones name most crises before any laboratory result returns.",
+        "First hours: sugar for hypo; fluids–insulin–potassium for DKA; slow fluids plus anticoagulation for HHS; beta-blockade, carbimazole, iodine and hydrocortisone for storm; gentle rewarming, thyroxine with steroids for myxoedema; immediate hydrocortisone with fluids for adrenal crisis.",
+        "Unsure and cannot measure: treat as hypoglycaemia; shock with hyponatraemia, hyperkalaemia or steroid history earns hydrocortisone without waiting for cortisol.",
+        "Never put anything in an unconscious mouth, never trust the starting potassium in DKA, never warm myxoedema rapidly, and never stop insulin in a vomiting type 1 patient.",
+      ],
+      quiz: {
+        keywords: ["thyroid storm", "myxoedema", "myxedema", "adrenal crisis", "addisonian", "kussmaul", "acetone", "hypothermia", "bradycardia", "dka", "ketoacidosis", "hypoglycaemia", "hyperglycaemia", "thyroid", "adrenal", "diabetic", "coma diabetic", "unconscious diabetic"],
       },
     },
   ],

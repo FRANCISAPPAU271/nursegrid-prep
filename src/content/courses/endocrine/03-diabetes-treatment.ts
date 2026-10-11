@@ -226,5 +226,99 @@ export const diabetesTreatment: CourseModule = {
         keywords: ["insulin", "injection site", "lipohypertrophy", "isophane", "soluble insulin", "glargine", "rapid acting", "long acting", "premixed", "mixtard", "clear before cloudy", "sliding scale", "rotate"],
       },
     },
+    {
+      slug: "diabetes-in-hospital",
+      title: "Diabetes in hospital",
+      minutes: 16,
+      objectives: [
+        "Explain why admission destabilises diabetes and state the inpatient glucose targets.",
+        "Convert home regimens to a scheduled basal-bolus routine and explain why sliding-scale-only prescribing fails.",
+        "Plan perioperative diabetes care from the night before surgery to the restart of eating.",
+        "Manage insulin with tube feeds, steroids, dialysis and contrast, and hypo-proof the ward.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Admission makes diabetes worse",
+          paragraphs: [
+            "Infection, pain, surgery, trauma and even fear pour out cortisol, adrenaline and glucagon, which <strong>raise glucose and blunt insulin</strong> — so the diabetic admitted for anything else arrives with climbing sugars. Then hospital adds its own hazards: meals that never come, feeds stopped for procedures, steroids started, new drugs (quinolones, thiazides, antipsychotics), contrast loads, dialysis days, and kidneys that fail and let insulin and sulphonylureas accumulate. Inpatient targets are therefore <strong>looser than home but never neglected: 6–10 mmol/L for most ward patients</strong>, avoiding both the hypoglycaemia that injures and the sustained hyperglycaemia that infects wounds, prolongs stay and tips type 1 patients into ketoacidosis.",
+            "Two rules govern everything that follows. First, <strong>type 1 diabetes always needs background insulin</strong> — omit basal insulin in a type 1 patient, even one who is nil by mouth, vomiting or 'a bit low', and ketoacidosis follows within hours; reduce it, never stop it. Second, <strong>prescribe insulin to a plan, not to the last glucose</strong> — chasing numbers with reactionary doses is how wards manufacture both hypos and DKA.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Basal-bolus beats sliding-scale-only",
+          columns: ["Feature", "Scheduled basal-bolus (do this)", "Sliding scale alone (avoid)"],
+          rows: [
+            ["Idea", "Long-acting basal once daily (about half the total dose) plus rapid-acting with each meal, with a small correction scale added for highs", "Short-acting insulin prescribed only against the current glucose, with no basal and no meal doses"],
+            ["Why it works or fails", "Mimics physiology: basal covers the liver's constant output, boluses cover meals; glucose stays in range between checks", "Purely reactive: it treats the high after it happened, stacks doses, causes hypos, and lets type 1 patients drift into ketosis between readings"],
+            ["Evidence and guidance", "Fewer hypos, better control, shorter stay; recommended by every inpatient guideline for non-critical care", "Kept only as a <strong>correction top-up inside</strong> a basal-bolus plan — never as the whole plan"],
+            ["Converting a home regimen", "Add up the home total daily dose; give <strong>half as basal, half split across meals</strong>; reduce by 20–30% if eating poorly, septic or newly ill; keep the patient's usual insulins where possible so doses stay familiar", "Do not transcribe 'sliding scale' as the admission plan; rewrite it as basal-bolus on every drug chart you review"],
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-DRC-2475.svg",
+          alt: "Insulin action curves from rapid to long-acting with peak times, hypoglycaemia recognition and treatment, and insulin syringe safety rules",
+          caption: "The peak is when the ward patient goes hypoglycaemic: rapid about 1 hour, soluble 2–4 hours, NPH 6–12 hours, long-acting flat — so meals, checks and doses are timed to the curve, not to convenience.",
+        },
+        {
+          type: "list",
+          heading: "Perioperative diabetes, step by step",
+          style: "steps",
+          items: [
+            "<strong>Assess before the list.</strong> Note the type, usual regimen and total daily dose, latest HbA1c, hypos, complications (heart, kidneys, feet, autonomic neuropathy with gastroparesis and silent ischaemia) and starvation plan. Book diabetics <strong>early on the morning list</strong> to shorten fasting. Check glucose and ketones on arrival.",
+            "<strong>The night before and the morning of surgery.</strong> Give the usual basal the night before; on the morning, <strong>omit prandial insulin and sulphonylureas</strong>, give reduced basal (commonly 70–80% of the usual long-acting dose, or half the morning NPH/premix component per local protocol), <strong>hold SGLT2 inhibitors</strong> for 2–3 days before major surgery (euglycaemic ketoacidosis risk) and hold metformin if contrast, AKI risk or major surgery is expected. Never omit all insulin in type 1.",
+            "<strong>During the operation.</strong> Check glucose hourly (half-hourly in type 1 or long cases); run <strong>dextrose-containing maintenance fluid</strong> with potassium once glucose allows; correct highs with small rapid-acting doses per protocol rather than a fixed scale; watch lactate, ketones and potassium. Aim for 6–10 — tight intraoperative control causes hypos under anaesthesia where nobody feels them.",
+            "<strong>Afterwards.</strong> Restart eating as soon as safe and <strong>restart the meal insulin with the first meal</strong>; keep basal running throughout; restart metformin and SGLT2 inhibitors only when eating, hydrated and kidneys recovered (check creatinine); watch surgical wounds and feet; rewrite the discharge regimen explicitly — doses almost always differ from admission.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Feeds, steroids and special situations",
+          columns: ["Situation", "Management"],
+          rows: [
+            ["Continuous nasogastric feed", "Feed is constant carbohydrate: cover with <strong>basal insulin plus regular prandial-equivalent doses</strong> (or an increased basal per protocol), checking glucose 4–6 hourly. <strong>If the feed stops, the feed-covering insulin must stop or halve immediately</strong> — this mismatch is a classic ward hypo; restart together."],
+            ["Total parenteral nutrition", "High dextrose load needs substantial scheduled insulin, often added to the bag plus subcutaneous basal; glucose checked 4–6 hourly; stopping TPN abruptly causes rebound hypo — taper with dextrose cover."],
+            ["Steroids (prednisolone, dexamethasone, hydrocortisone)", "Glucose rises in a <strong>daytime pattern</strong> — normal fasting, high afternoon and evening. Increase daytime prandial doses (often doubling is needed), keep basal, monitor 4 times daily, and <strong>reduce the insulin as the steroids taper</strong> — the commonest error is leaving the high doses running. Steroids can unmask diabetes: check glucose in every non-diabetic on high-dose steroids."],
+            ["Dialysis days", "Insulin is cleared by dialysis and appetite varies: <strong>reduce doses on dialysis days</strong> per protocol, check glucose before, during and after, and watch for delayed hypos overnight. Avoid glibenclamide and metformin in advanced CKD."],
+            ["Contrast and acute kidney injury", "<strong>Hold metformin</strong> when contrast is given with AKI risk, dehydration or emergency procedures; check creatinine at 48 hours and restart only when stable. SGLT2 inhibitors pause during any acute illness with dehydration (ketoacidosis risk). Keep fluids running."],
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-FLD-2160.svg",
+          alt: "Potassium reference range 3.5–5.0 with the ECG and treatment consequences at both extremes",
+          caption: "Every insulin infusion moves potassium into cells: check it before starting, replace through the infusion as it falls, and recheck on schedule — the glucose gets the attention but the potassium causes the arrest.",
+        },
+        {
+          type: "list",
+          heading: "Hypo-proofing the ward",
+          style: "steps",
+          items: [
+            "Time the meal to the insulin, not the reverse: the food trolley and the drug round must meet. If the meal is delayed, delay the prandial dose — never give rapid-acting insulin 'in hope'.",
+            "Keep a <strong>hypo box</strong> on every ward (glucose tablets or gel, glucagon, 20% dextrose, a working meter) and a snack box for delayed meals; every nurse must know the 15–15 rule and the unconscious-patient drill.",
+            "Run <strong>dextrose with every insulin infusion</strong>, reduce insulin the moment feeds or steroids reduce, and hand over 'nil by mouth' patients explicitly — NBM never means 'no basal insulin' in type 1.",
+            "Check glucose <strong>before every insulin dose</strong>, document the dose against the reading, and review the chart daily: repeated hypos need smaller doses, repeated highs need a regimen change — not a bigger sliding scale.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Never events to remember",
+          body: "Never stop all insulin in type 1 — DKA follows in hours. Never prescribe sliding-scale-only as the whole plan. Never give prandial insulin without a meal coming. Never leave high steroid-cover insulin running after steroids stop. Never give concentrated potassium IV push, and never start an insulin infusion without checking and replacing potassium.",
+        },
+      ],
+      keyPoints: [
+        "Admission raises glucose through stress hormones, infection, steroids, feeds and missed meals: inpatient target is 6–10, avoiding both hypo and sustained hyperglycaemia.",
+        "Basal-bolus (half basal, half mealtime, small correction scale) beats sliding-scale-only, which reacts late, stacks, hypos and omits the basal that type 1 patients need to stay out of DKA.",
+        "Perioperative plan: early list, reduced basal on the morning, omit prandial/sulphonylureas, hold SGLT2 inhibitors and at-risk metformin, hourly glucose, dextrose maintenance, restart everything with eating.",
+        "Feeds need matching scheduled insulin that stops when the feed stops; steroids raise daytime glucose needing bigger prandial doses that taper with the steroids; dialysis days need smaller doses.",
+        "Hypo-proofing is systems work: meals with insulin rounds, hypo boxes, dextrose with infusions, glucose before every dose, and daily chart review instead of bigger scales.",
+      ],
+      quiz: {
+        keywords: ["sliding scale", "perioperative", "nil by mouth", "steroid induced", "enteral feed", "tube feed", "insulin infusion", "metformin", "hypoglycaemia", "hyperglycaemia", "diabetic", "diabetes", "insulin", "glucose"],
+      },
+    },
   ],
 };
