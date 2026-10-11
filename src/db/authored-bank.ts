@@ -18,6 +18,7 @@ import { ORIGINAL_NCX_BATCH_4 } from "./original-ncx-batch-4";
 import { ORIGINAL_NCX_BATCH_5 } from "./original-ncx-batch-5";
 import { ORIGINAL_NCX_BATCH_6 } from "./original-ncx-batch-6";
 import { ORIGINAL_NCX_BATCH_7 } from "./original-ncx-batch-7";
+import { ORIGINAL_NCX_BATCH_8 } from "./original-ncx-batch-8";
 
 export type AuthoredQuestion = {
   authoredId: string;
@@ -34,7 +35,7 @@ export type AuthoredQuestion = {
   mediaCaption?: string;
 };
 
-export const AUTHORED_COUNT = 4575;
+export const AUTHORED_COUNT = 4626;
 export const AUTHORED_COUNT_LABEL = "3,200+";
 export const AUTHORED_DIAGRAM_COUNT = 619;
 
@@ -119516,5 +119517,6 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   ...ORIGINAL_NCX_BATCH_5,
   ...ORIGINAL_NCX_BATCH_6,
   ...ORIGINAL_NCX_BATCH_7,
+  ...ORIGINAL_NCX_BATCH_8,
 ];
 
