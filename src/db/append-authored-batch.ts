@@ -13,7 +13,7 @@ import { sql } from "drizzle-orm";
  */
 async function main() {
   const batch = AUTHORED_QUESTIONS.filter((q) => q.authoredId.startsWith("NG-BATCH2-") || q.authoredId.startsWith("NG-USER-") || q.authoredId.startsWith("NG-NEURO-") || q.authoredId.startsWith("NG-FLUID-") || q.authoredId.startsWith("NG-PHARM-") || q.authoredId.startsWith("NG-RESP-") || q.authoredId.startsWith("NG-PEDS-") || q.authoredId.startsWith("NG-PEDS2-") || q.authoredId.startsWith("NG-MIX-") || q.authoredId.startsWith("NG-MAT2-") || q.authoredId.startsWith("NG-MCH-") || q.authoredId.startsWith("NG-MCH2-") || q.authoredId.startsWith("NG-REVIEW-CARDIO-") || q.authoredId.startsWith("NG-ORIGINAL-OT-") || q.authoredId.startsWith("NG-ORIGINAL-NCX-") || q.authoredId.startsWith("NG-3500-"));
-  if (batch.length !== 1091) throw new Error(`Expected 1091 appended questions, found ${batch.length}`);
+  if (batch.length !== 1356) throw new Error(`Expected 1356 appended questions, found ${batch.length}`);
 
   await db.execute(sql`ALTER TABLE "questions" ADD COLUMN IF NOT EXISTS "media_url" text`);
   await db.execute(sql`ALTER TABLE "questions" ADD COLUMN IF NOT EXISTS "media_caption" text`);
