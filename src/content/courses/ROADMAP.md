@@ -19,7 +19,7 @@ course is published.
 | # | Course | Code | Status | Covers "tricky topics" |
 |---|--------|------|--------|------------------------|
 | 1 | Cardiovascular Nursing | NGP-CVN-101 | ✅ written (8 modules / 17 lessons / 5 h) | — |
-| 2 | Respiratory Nursing | NGP-RSP-102 | ✅ written (7 modules / 15 lessons / 4 h) | 2 ABG interpretation · 6 Respiratory disorders · 16 Oxygen therapy |
+| 2 | Respiratory Nursing | NGP-RSP-102 | ✅ written (7 modules / 16 lessons / 4 h) | 2 ABG interpretation · 6 Respiratory disorders · 16 Oxygen therapy |
 | 3 | Renal, Fluid & Electrolyte Nursing | NGP-RFE-103 | ✅ written (7 modules / 16 lessons / 4 h) | 1 Fluid & electrolyte imbalances · 7 Renal / dialysis |
 | 4 | Endocrine & Diabetes Nursing | NGP-END-104 | ✅ written (7 modules / 19 lessons / 5 h) | 4 Diabetes & insulin · 9 Endocrine emergencies |
 | 5 | Neurological Nursing | NGP-NEU-105 | ✅ written (7 modules / 15 lessons / 4 h) | 8 Neurological assessment (GCS, stroke, raised ICP, seizures) |

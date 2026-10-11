@@ -13,7 +13,7 @@ export const respiratoryNursing: Course = {
   title: "Respiratory Nursing",
   tagline: "Oxygen, airways, blood gases and the chest diseases that fill Ghanaian wards — taught in the order you meet them at the bedside.",
   description:
-    "A structured course covering respiratory anatomy and physiology, focused chest assessment, oxygen therapy and airway care, recognising deterioration, arterial blood gas interpretation and acid–base balance, asthma, COPD, pneumonia, tuberculosis, pleural disease and chest drains, pulmonary embolism, pneumothorax, respiratory failure, choking, anaphylaxis and respiratory pharmacology with calculations. Each lesson is written for Ghanaian nursing and midwifery students, uses the diagrams from the NurseGrid question bank, and ends with practice questions drawn from the same bank. Finish every learning activity, pass the post-test and complete the evaluation to earn your certificate.",
+    "A structured course covering respiratory anatomy and physiology, focused chest assessment, oxygen therapy and airway care, recognising deterioration, arterial blood gas interpretation and acid–base balance with a mixed-disorder drill, asthma, COPD, pneumonia, tuberculosis, pleural disease and chest drains, pulmonary embolism, pneumothorax, respiratory failure, choking, anaphylaxis and respiratory pharmacology with calculations. Each lesson is written for Ghanaian nursing and midwifery students, uses the diagrams from the NurseGrid question bank, and ends with practice questions drawn from the same bank. Finish every learning activity, pass the post-test and complete the evaluation to earn your certificate.",
   icon: "🫁",
   level: "Intermediate",
   gradient: "from-sky-600 via-cyan-500 to-teal-400",
@@ -23,7 +23,7 @@ export const respiratoryNursing: Course = {
     "Explain ventilation, diffusion, perfusion and gas transport, and link each to the disease that disrupts it.",
     "Perform and document a focused respiratory assessment and recognise the early signs of deterioration in adults and children.",
     "Prescribe-to-target oxygen therapy safely — choosing the device, humidifying, monitoring and weaning — and care for the airway with suction, adjuncts and tracheostomy care.",
-    "Interpret an arterial blood gas in six steps and plan nursing care for each of the four acid–base disturbances.",
+    "Interpret an arterial blood gas in six steps, plan nursing care for each of the four acid–base disturbances, and work through mixed disorders with compensation checks.",
     "Grade and treat an acute asthma attack and manage a COPD exacerbation with controlled oxygen, bronchodilators, steroids and non-invasive ventilation.",
     "Assess pneumonia with CURB-65, screen, diagnose and support six months of tuberculosis treatment, and apply droplet and airborne precautions correctly.",
     "Care for a patient with a pleural effusion or chest drain and recognise pulmonary embolism, tension pneumothorax, respiratory failure, choking and anaphylaxis as the emergencies they are.",

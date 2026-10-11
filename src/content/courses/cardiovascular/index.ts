@@ -14,7 +14,7 @@ export const cardiovascularNursing: Course = {
   title: "Cardiovascular Nursing",
   tagline: "From the anatomy of the heart to the drug chart — the cardiac nursing the licensing examination expects you to know.",
   description:
-    "A structured course covering cardiac anatomy and physiology, focused assessment, hypertension, coronary artery disease, heart failure, dysrhythmias and cardiac emergencies, rheumatic and valvular disease, vascular disorders and cardiovascular pharmacology. Each lesson is written for Ghanaian nursing and midwifery students, uses the diagrams from the NurseGrid question bank, and ends with practice questions drawn from the same bank. Finish every learning activity, pass the post-test and complete the evaluation to earn your certificate.",
+    "A structured course covering cardiac anatomy and physiology, the conduction system and the normal ECG, focused assessment, hypertension, coronary artery disease, heart failure, dysrhythmias and cardiac emergencies, rheumatic and valvular disease, vascular disorders and cardiovascular pharmacology. Each lesson is written for Ghanaian nursing and midwifery students, uses the diagrams from the NurseGrid question bank, and ends with practice questions drawn from the same bank. Finish every learning activity, pass the post-test and complete the evaluation to earn your certificate.",
   icon: "🫀",
   level: "Intermediate",
   gradient: "from-rose-600 via-red-500 to-orange-400",
@@ -26,7 +26,7 @@ export const cardiovascularNursing: Course = {
     "Describe the diagnosis, staging and nursing management of hypertension, including lifestyle counselling and adherence support in the Ghanaian context.",
     "Recognise angina and acute coronary syndrome, and deliver the first ten minutes of care safely.",
     "Explain left- and right-sided heart failure and manage fluid, drugs, activity and discharge teaching for a patient with heart failure.",
-    "Identify the common dysrhythmias and respond correctly to cardiac arrest, the four types of shock and cardiac tamponade.",
+    "Identify the common dysrhythmias, report a normal 12-lead ECG in the standard order, and respond correctly to cardiac arrest, the four types of shock and cardiac tamponade.",
     "Describe rheumatic fever, rheumatic heart disease, infective endocarditis, pericarditis and peripheral vascular disease, and the prevention measures that matter most.",
     "Administer cardiovascular drugs safely — with the right pre-administration check, the right calculation and the right patient teaching.",
   ],

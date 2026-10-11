@@ -191,12 +191,14 @@ export const foundations: CourseModule = {
     {
       slug: "conduction-system-and-normal-ecg",
       title: "The conduction system and the normal ECG",
-      minutes: 15,
+      minutes: 20,
       objectives: [
         "Trace the conduction pathway from the SA node to the Purkinje fibres and state the intrinsic rate of each pacemaker.",
         "Name the waves and intervals of a normal ECG and their normal durations.",
         "Calculate the heart rate from a rhythm strip.",
         "Place the limb and chest electrodes correctly for a 12-lead ECG.",
+        "State the standard paper speed and calibration, recognise the artefacts that make a trace unreadable, and name the heart wall each lead group views.",
+        "Describe a normal 12-lead ECG in the standard reporting order.",
       ],
       blocks: [
         {
@@ -232,6 +234,31 @@ export const foundations: CourseModule = {
         },
         {
           type: "list",
+          heading: "Calibration and artefacts: never read a bad trace",
+          items: [
+            "Standard paper runs at <strong>25 mm per second</strong> with a calibration of <strong>10 mm per millivolt</strong>: one small square = 1 mm = 0.04 s wide and 0.1 mV tall. Every trace starts with a rectangular <strong>calibration pulse</strong> 5 mm wide and 10 mm tall — if it is 5 mm tall, the machine is on half-calibration and every complex looks half its true voltage.",
+            "<strong>Muscle artefact</strong> — shivering, cold, anxiety or Parkinson's disease draws a fuzzy, spiky baseline. Warm the patient, support the limbs, ask them to relax and keep still, and repeat.",
+            "<strong>Wandering baseline</strong> — breathing movement, a loose electrode or a dried-out gel pad sends the baseline drifting up and down. Re-prepare the skin, replace the electrode, and keep the cables from tugging.",
+            "<strong>AC interference</strong> — a thick, regular 50 Hz fuzz from mains electricity: infusion pumps, beds, poor earthing. Switch off or move nearby equipment, check the right-leg (earth) electrode, and repeat.",
+            "The rule: <strong>fix the trace before reading it</strong>. No nurse should interpret — and no doctor should be handed — a trace where artefact hides the P waves or the ST segments. Repeat, keep the best trace, and document that you did.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "What each lead looks at",
+          columns: ["Leads", "Wall of the heart", "Supplied by", "Why it matters"],
+          rows: [
+            ["II, III, aVF", "Inferior wall", "Right coronary artery (usually)", "Inferior infarction often comes with bradycardia and heart block, because the RCA usually feeds the SA and AV nodes"],
+            ["I, aVL, V5, V6", "Lateral wall", "Circumflex artery (and LAD diagonal branches)", "Lateral changes pair with anterior ones in large LAD infarcts; isolated aVL changes are easy to miss"],
+            ["V1, V2", "Septum", "Septal branches of the LAD", "Septal infarction can knock out both bundle branches at once — watch for complete heart block"],
+            ["V3, V4", "Anterior wall", "Left anterior descending artery", "The 'widow-maker' territory: a large muscle mass that deteriorates fast and needs reperfusion fastest"],
+            ["aVR", "The cavity and the right upper heart — normally entirely negative", "Left main pattern", "The neglected lead: widespread ST depression with ST <strong>elevation in aVR</strong> suggests left main or severe triple-vessel disease — escalate immediately"],
+            ["V4R (right-sided chest lead)", "Right ventricle", "Right coronary artery", "V4 moved to the right chest in inferior infarction: right-ventricular infarct needs <strong>fluids, not nitrates or diuretics</strong>"],
+            ["Contiguous leads", "Two anatomically neighbouring leads (for example II + III + aVF)", "—", "Infarction is diagnosed by ST elevation in <strong>contiguous</strong> leads, not scattered ones — which is why the territories must be memorised"],
+          ],
+        },
+        {
+          type: "list",
           heading: "Electrode placement for a 12-lead ECG",
           items: [
             "<strong>Limb electrodes:</strong> right arm, left arm, right leg (earth) and left leg, on the limbs rather than the trunk where possible, and in the same places every time.",
@@ -240,6 +267,20 @@ export const foundations: CourseModule = {
             "<strong>V5</strong> — anterior axillary line, level with V4. <strong>V6</strong> — mid-axillary line, level with V4.",
             "Prepare the skin (dry, clip hair if needed, clean), lie the patient flat and still, warn that nothing will be felt, and record within 10 minutes of arrival in anyone with chest pain. Label the trace with the name, date, time and whether the patient had pain at the time.",
           ],
+        },
+        {
+          type: "text",
+          heading: "Describing a normal trace",
+          paragraphs: [
+            "Every ECG description follows the same order, whether normal or not: <strong>rate, rhythm, P wave, PR interval, QRS complex, axis, ST segment, T wave, QTc — then the verdict</strong>. The habit matters more than the vocabulary: a fixed order is what stops the reader skipping the QT interval or the aVR that changes everything.",
+            "A normal report sounds like this: 'Rate 72, regular narrow-complex rhythm with a P wave before every QRS — sinus rhythm. PR interval 0.16 seconds, QRS 0.08 seconds, normal axis. ST segments isoelectric, T waves upright, QTc 0.42 seconds. Normal ECG.' Learn to write that sentence from any normal trace, and every abnormality becomes a deviation from a known baseline — which is exactly how the dysrhythmia lesson, and the examination, will test you.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Numbers to remember",
+          body: "Paper 25 mm/s; calibration 10 mm/mV; small square 0.04 s, large square 0.20 s. SA node 60–100, AV junction 40–60, ventricles 20–40. PR 0.12–0.20 s; QRS under 0.12 s; QTc under 0.44–0.46 s. Rate = 300 ÷ large squares (regular) or 6-second count × 10 (irregular). Inferior II/III/aVF, lateral I/aVL/V5/V6, septal V1/V2, anterior V3/V4 — and elevation in aVR with widespread depression means left main disease.",
         },
         {
           type: "callout",
@@ -254,9 +295,11 @@ export const foundations: CourseModule = {
         "Rate = 300 ÷ the large squares between R waves for regular rhythms; count 6 seconds × 10 for irregular ones.",
         "Peaked T waves mean hyperkalaemia; flat T waves with U waves mean hypokalaemia.",
         "Correct electrode placement is a nursing responsibility — a misplaced lead creates a false diagnosis.",
+        "Standard paper runs at 25 mm/s with 10 mm/mV calibration — check the calibration pulse, and fix artefact before reading.",
+        "Inferior II/III/aVF, lateral I/aVL/V5/V6, septal V1/V2, anterior V3/V4; report every trace in the same order — rate, rhythm, P, PR, QRS, ST, T, QTc.",
       ],
       quiz: {
-        keywords: ["ecg", "electrocardiogram", "conduction system", "sinoatrial", "sa node", "av node", "atrioventricular node", "purkinje", "qrs", "p wave", "pr interval", "lead placement", "limb lead"],
+        keywords: ["ecg", "electrocardiogram", "conduction system", "sinoatrial", "sa node", "av node", "atrioventricular node", "purkinje", "qrs", "p wave", "pr interval", "st segment", "t wave", "qt interval", "calibration", "lead placement", "limb lead", "chest lead", "heart block", "bradycardia", "tachycardia", "arrhythmia", "palpitation", "syncope", "chest pain"],
       },
     },
   ],

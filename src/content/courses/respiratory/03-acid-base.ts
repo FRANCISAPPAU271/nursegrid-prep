@@ -3,7 +3,7 @@ import type { CourseModule } from "../types";
 export const acidBase: CourseModule = {
   slug: "arterial-blood-gases-and-acid-base",
   title: "Arterial blood gases and acid–base balance",
-  summary: "Taking and reading a blood gas in six steps, and the four acid–base disturbances — what causes them, what they look like at the bedside and what the nurse does about each.",
+  summary: "Taking and reading a blood gas in six steps, and the four acid–base disturbances — what causes them, what they look like at the bedside and what the nurse does about each — then an advanced drill on mixed disorders, compensation checks and traps.",
   lessons: [
     {
       slug: "arterial-blood-gas-interpretation",
@@ -176,6 +176,117 @@ export const acidBase: CourseModule = {
       ],
       quiz: {
         keywords: ["acidosis", "alkalosis", "kussmaul", "hyperventilat", "hypoventilat", "bicarbonate", "compensat", "anion gap", "ketoacidosis", "lactate", "nasogastric suction", "tetany", "hyperkalaemia", "hypokalaemia", "naloxone"],
+      },
+    },
+    {
+      slug: "abg-drill-mixed-disorders-and-traps",
+      title: "ABG drill: mixed disorders, compensation checks and traps",
+      minutes: 18,
+      objectives: [
+        "Judge whether compensation is adequate using Winter's formula and the acute–chronic rules.",
+        "Unmask a second metabolic disorder with the anion gap, corrected bicarbonate and delta ratio.",
+        "Work through mixed and complex gases to a verdict and an action, as in the examination and the ICU.",
+        "Avoid sampling and interpretation traps, and escalate the red-flag gas without delay.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Beyond single disorders",
+          paragraphs: [
+            "The six steps handle one disorder at a time — but sick patients mix them. The diabetic patient vomits (ketoacidosis plus metabolic alkalosis), the COPD patient takes diuretics (chronic carbon dioxide retention plus metabolic alkalosis), the septic patient stops making urine (lactic acidosis plus renal acidosis), the overdose patient hyperventilates and poisons metabolism at once. Mixed disorders are the rule in emergencies, and the examination tests them with gases whose pH looks deceptively normal.",
+            "Two extra skills separate the nurse who reads gases from the nurse who trusts them. First, <strong>compensation has limits</strong>: the lungs and kidneys move the numbers only so far, so a compensation that overshoots — or fails to appear — is itself a second disorder. Second, <strong>a normal pH never means a normal patient</strong>: two opposing disorders (acidosis plus alkalosis) can cancel each other arithmetically while the patient deteriorates. This lesson drills both skills on ten gases.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Is the compensation adequate?",
+          columns: ["Primary disorder", "Expected compensation", "Mismatch means"],
+          rows: [
+            ["Metabolic acidosis", "<strong>Winter's formula:</strong> expected PaCO2 = 1.5 × HCO3 + 8 mmHg (± 2); divide by 7.5 for kPa. Example: HCO3 8 → expected CO2 about 20 mmHg (2.7 kPa)", "Actual CO2 <strong>higher</strong> than expected = added respiratory acidosis — the patient is tiring and needs ventilatory support. Actual CO2 <strong>lower</strong> = added respiratory alkalosis (pain, sepsis, salicylates)"],
+            ["Metabolic alkalosis", "PaCO2 rises roughly 5 mmHg (0.7 kPa) for every 10 mmol/L of HCO3 above 24 — hypoventilation holds CO2 to balance the base", "PaCO2 above about 55 mmHg (7.3 kPa) = added respiratory acidosis. PaCO2 below expected = added respiratory alkalosis"],
+            ["Acute respiratory acidosis", "HCO3 rises about <strong>1 mmol/L for every 10 mmHg</strong> of CO2 above 40 (about 1 per 1.3 kPa) — the kidneys have not had time", "HCO3 much higher than that = the retention is <strong>chronic</strong> (a retainer) or a metabolic alkalosis coexists. HCO3 lower than expected = added metabolic acidosis"],
+            ["Chronic respiratory acidosis", "HCO3 rises about <strong>3–4 mmol/L for every 10 mmHg</strong> of CO2 above 40 — full renal compensation over days", "pH still below 7.35 despite this = <strong>acute on chronic</strong> — the exacerbation on top of the baseline. A common examination gas"],
+            ["Acute respiratory alkalosis", "HCO3 falls about <strong>2 mmol/L for every 10 mmHg</strong> of CO2 below 40", "HCO3 lower than that = added metabolic acidosis (think salicylates, sepsis with lactate). HCO3 higher = added metabolic alkalosis"],
+            ["Chronic respiratory alkalosis", "HCO3 falls about <strong>4–5 mmol/L for every 10 mmHg</strong> of CO2 below 40 — pregnancy, high altitude, chronic liver disease", "Pregnancy resets the baseline: a PaCO2 near 4.0 kPa (30 mmHg) is normal there, so do not over-ventilate a pregnant woman to 'correct' it"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Unmasking the second metabolic disorder",
+          style: "steps",
+          items: [
+            "Calculate the <strong>anion gap</strong> (sodium minus chloride plus bicarbonate; normal 8–12). A raised gap means an acid has been added — ketones, lactate, uraemic acids, methanol, salicylates. A normal gap with a low bicarbonate means bicarbonate was <strong>lost</strong> — diarrhoea, pancreatic fistula, renal tubular acidosis, litres of normal saline.",
+            "Correct the bicarbonate: <strong>corrected HCO3 = measured HCO3 + (anion gap − 12)</strong>. This reconstructs what the bicarbonate was before the high-gap acid consumed it. Corrected HCO3 above 26 = a hidden <strong>metabolic alkalosis</strong> (vomiting, diuretics) underneath. Below 22 = a hidden <strong>normal-gap acidosis</strong> (diarrhoea, saline resuscitation) as well.",
+            "Check the <strong>delta ratio</strong> = (anion gap − 12) ÷ (24 − HCO3): below 0.4 is a pure normal-gap acidosis; 0.4–0.8 mixed normal- and high-gap; 0.8–2.0 a pure high-gap acidosis; <strong>above 2.0 a high-gap acidosis plus a metabolic alkalosis</strong>. The ratio and the corrected bicarbonate answer the same question two ways.",
+            "Work it once: a vomiting diabetic patient has pH 7.40, HCO3 20 and anion gap 22. The gap says ketoacidosis is present; corrected HCO3 = 20 + 10 = 30 says vomiting alkalosis hides it; delta ratio = 10 ÷ 4 = 2.5 confirms both. Treat the DKA <strong>and</strong> replace the saline and potassium — treating one half leaves the patient ill.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Drill: the metabolic cases",
+          columns: ["Gas and story", "Steps", "Verdict and action"],
+          rows: [
+            ["Fever, rigors, low blood pressure; pH 7.28, PaCO2 4.0 kPa (30 mmHg), HCO3 14, lactate 5.5, K+ 5.8", "Acid; HCO3 low (metabolic); Winter's expected CO2 = 1.5 × 14 + 8 = 29 mmHg — matches, so compensation adequate; single high-gap (lactate) disorder", "Septic lactic acidosis with adequate respiratory compensation. Sepsis six: blood cultures, lactate, fluids, antibiotics within the hour, oxygen, urine output — and watch potassium fall as perfusion returns"],
+            ["Vomiting diabetic patient; pH 7.40, PaCO2 5.3 kPa (40 mmHg), HCO3 20, glucose 26, ketones ++, anion gap 22", "pH normal — the trap. Gap raised (ketoacidosis present); corrected HCO3 = 30; delta ratio 2.5", "Mixed high-gap acidosis (DKA) plus metabolic alkalosis (vomiting) cancelling the pH. Full DKA treatment <strong>plus</strong> saline and potassium replacement for the alkalosis; the normal pH must not reassure anyone"],
+            ["Three days of watery diarrhoea; pH 7.30, PaCO2 4.3 kPa (32 mmHg), HCO3 16, anion gap 10, K+ 3.0", "Acid; HCO3 low; Winter's expected ≈ 32 mmHg — matches; gap normal", "Pure normal-gap metabolic acidosis from bicarbonate loss in stool, with hypokalaemia. Oral rehydration salts or IV fluids, replace potassium, treat the cause — and no bicarbonate infusion"],
+            ["Collapsed after illicit gin; confusion, blurred vision; pH 7.22, PaCO2 3.5 kPa (26 mmHg), HCO3 12, anion gap 24, osmolar gap raised", "Acid; high gap; Winter's expected = 26 mmHg — matches; vision plus high gap plus osmolar gap", "Methanol poisoning — a high-gap acidosis with an osmolar gap and visual symptoms. This is an emergency: ethanol or fomepizole to block metabolism, bicarbonate, haemodialysis, ophthalmology — and report the batch, because others will follow"],
+            ["DKA on treatment, now alert; pH 7.34, HCO3 17, glucose 9, ketones trace, anion gap 11, chloride 114", "pH nearly normal; gap <strong>closed</strong> (11) though HCO3 still low; chloride high", "Resolving DKA with a treatment-emergent hyperchloraemic (normal-gap) acidosis from saline resuscitation — the DKA itself is over. Continue fluids (balanced crystalloid preferred), do not chase the bicarbonate, and convert to subcutaneous insulin by protocol"],
+          ],
+        },
+        {
+          type: "table",
+          heading: "Drill: the carbon dioxide and double disorders",
+          columns: ["Gas and story", "Steps", "Verdict and action"],
+          rows: [
+            ["Known COPD, worse breathlessness; pH 7.30, PaCO2 9.0 kPa (68 mmHg), HCO3 32, PaO2 7.5 kPa on air", "Acid; CO2 very high (respiratory); chronic rule predicts HCO3 ≈ 24 + 4 × 2.8 ≈ 35 — close, but pH still acid", "Acute-on-chronic respiratory acidosis — the exacerbation on top of retention. Controlled oxygen 88–92%, bronchodilators, steroids, antibiotics if infective, BiPAP if pH below 7.35 after treatment — never high-flow oxygen to 'fix' the saturation"],
+            ["Severe asthma, now drowsy; earlier CO2 3.5 kPa, now pH 7.32, PaCO2 6.0 kPa (45 mmHg), wheeze quieter", "pH acid; CO2 'normal' — the deadliest trap in asthma: a CO2 that <strong>rises to normal</strong> means exhaustion, not recovery", "Tiring asthmatic approaching respiratory arrest. ICU now: continuous nebulisers, magnesium, senior review, prepare for intubation — a 'normal' CO2 with a silent chest and drowsiness is a peri-arrest gas"],
+            ["Overdose, sweating, ringing in the ears, fever; pH 7.45, PaCO2 3.0 kPa (23 mmHg), HCO3 16, anion gap 18, glucose low-normal", "Alkaline; CO2 low (respiratory alkalosis) — but HCO3 far lower than the acute rule predicts, and the gap is raised", "Salicylate double disorder: respiratory alkalosis <strong>plus</strong> high-gap metabolic acidosis — the classic combined gas. Activated charcoal if early, urinary alkalinisation, correct glucose and potassium, haemodialysis if severe; young patients deteriorate fast"],
+            ["COPD retainer on thiazides, now vomiting; pH 7.48, PaCO2 8.0 kPa (60 mmHg), HCO3 40, K+ 2.9", "Alkaline despite CO2 retention; HCO3 far above the chronic rule; potassium low", "Chronic respiratory acidosis plus diuretic- and vomiting-driven metabolic alkalosis — the alkalosis worsens CO2 narcosis and apnoea. Stop the thiazide, replace saline and potassium cautiously, monitor breathing and consciousness continuously"],
+            ["After resuscitation from cardiac arrest; pH 7.18, PaCO2 7.5 kPa (56 mmHg), HCO3 14, lactate 9", "Acid; CO2 high <strong>and</strong> HCO3 low — both sides acid together", "Mixed respiratory and metabolic (lactic) acidosis of the arrest: no circulation cleared CO2 or lactate. Ventilate to normal CO2 (avoid hyperventilation), restore perfusion, find the cause — and expect the lactate to wash out over hours if circulation recovers"],
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-LAB-0148.svg",
+          alt: "Three steps for blood gases: pH, then carbon dioxide, then bicarbonate, with normal ranges and the compensation rule",
+          caption: "Keep this reference card beside every drill gas: pH first, then the respiratory number, then the metabolic number — whichever moved with the pH is the cause, the other moving back is compensation.",
+        },
+        {
+          type: "list",
+          heading: "Traps that fake a gas",
+          items: [
+            "<strong>Venous mistaken for arterial:</strong> venous pH runs 0.03–0.05 lower and PCO2 about 0.7–1.0 kPa higher; bicarbonate is close enough to use. A 'respiratory acidosis' in a well patient with an easy bleed is usually a venous sample — check the label before acting.",
+            "<strong>Air bubbles and delay:</strong> bubbles falsely raise PaO2 and lower PaCO2; a warm delay of more than 15 minutes lowers pH and PaO2 as cells keep breathing. Excess liquid heparin dilutes everything and lowers pH and CO2.",
+            "<strong>Litres of normal saline:</strong> large volumes of 0.9% saline cause a hyperchloraemic normal-gap acidosis of their own — the resuscitation becomes the disorder. Balanced crystalloids (Ringer's lactate, Hartmann's) avoid it where available.",
+            "<strong>Potassium on the gas:</strong> a high K+ in a well patient with a difficult, slow bleed is haemolysis until proven otherwise — repeat before treating. But a high K+ with peaked T waves or a wide QRS is treated first and repeated after.",
+            "<strong>The oximeter gap:</strong> in carbon monoxide poisoning the PaO2 is normal while the patient is confused and acidotic, and the pulse oximeter reads falsely reassuring — only co-oximetry shows the carboxyhaemoglobin. Suspect it with headaches in several people, a running engine or charcoal indoors, and cherry-red skin late.",
+            "<strong>Lactate after seizures:</strong> a fit floods lactate transiently — recheck after an hour of quiet before launching a sepsis workup on lactate alone.",
+            "<strong>Read the whole slip:</strong> glucose, potassium, ionised calcium, haemoglobin and lactate come free with the gas — the DKA diagnosis, the transfusion trigger and the potassium emergency are all printed together.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Numbers to remember",
+          body: "Winter's: expected CO2 = 1.5 × HCO3 + 8 mmHg (± 2), divide by 7.5 for kPa. Anion gap 8–12; corrected HCO3 = measured + (gap − 12): above 26 hides an alkalosis, below 22 hides a normal-gap acidosis; delta ratio above 2 means both. Acute CO2 shifts move HCO3 by 1–2 per 10 mmHg; chronic shifts move it 3–5. Red flags: pH below 7.20 or above 7.60, lactate above 4, potassium below 2.5 or above 6.5, acute CO2 above 8 kPa, or any CO2 rising toward normal in a severe asthmatic.",
+        },
+        {
+          type: "callout",
+          tone: "warning",
+          title: "Mixed means sick — escalate",
+          body: "A single disorder has one cause and one treatment; a mixed gas means a sick patient with several things wrong at once. Escalate every mixed disorder, every pH outside 7.20–7.60, every tiring patient and every potassium extreme to senior help and critical care outreach early — and treat the causes in parallel, not one after another.",
+        },
+      ],
+      keyPoints: [
+        "Check compensation adequacy: Winter's formula for metabolic acidosis, the acute (+1–2) and chronic (+3–5) bicarbonate rules for CO2 disorders — overshoot or failure means a second disorder.",
+        "Corrected bicarbonate = measured HCO3 + (anion gap − 12): above 26 hides a metabolic alkalosis, below 22 hides a normal-gap acidosis; a delta ratio above 2 confirms both.",
+        "Classic mixed gases: DKA with vomiting, acute-on-chronic COPD, salicylate double disorder, post-arrest CO2 plus lactate, and recovering DKA with a hyperchloraemic tail — each half needs its own treatment.",
+        "A normal pH can hide two opposing disorders; a 'normal' CO2 in a severe asthmatic means exhaustion, not recovery.",
+        "Traps: venous samples, air bubbles and delay, saline-induced acidosis, haemolysed potassium, the carbon monoxide oximeter gap, and post-seizure lactate.",
+        "Mixed disorders, pH outside 7.20–7.60, lactate above 4, potassium extremes and tiring patients all escalate early.",
+      ],
+      quiz: {
+        keywords: ["abg", "arterial blood gas", "blood gas", "acidosis", "alkalosis", "metabolic acidosis", "respiratory acidosis", "metabolic alkalosis", "respiratory alkalosis", "bicarbonate", "base excess", "anion gap", "delta gap", "lactate", "ketoacidosis", "dka", "compensation", "compensated", "winter", "hyperventilation", "hypoventilation", "hypercapnia", "salicylate", "methanol", "renal failure", "copd", "asthma", "sepsis", "ph 7"],
       },
     },
   ],
