@@ -1,3 +1,8 @@
+name: Append authored question batch
+
+on:
+  workflow_dispatch:
+
 jobs:
   append-question-batch:
     name: Append questions to production database
@@ -7,10 +12,10 @@ jobs:
       DATABASE_URL: ${{ secrets.DATABASEURL }}
 
     steps:
-      - name: Check out main
+      - name: Check out the production branch
         uses: actions/checkout@v4
         with:
-          ref: main
+          ref: enforce-48-hour-access
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
