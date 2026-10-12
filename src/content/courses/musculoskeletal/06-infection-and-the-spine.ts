@@ -8,7 +8,7 @@ export const infectionAndTheSpine: CourseModule = {
     {
       slug: "bone-and-joint-infection-and-sickle-cell-bone-disease",
       title: "Bone and joint infection and sickle cell bone disease",
-      minutes: 17,
+      minutes: 20,
       objectives: [
         "Recognise acute and chronic osteomyelitis, explain the investigations and the principles of prolonged antibiotic and surgical treatment.",
         "Treat septic arthritis as an emergency: recognition, aspiration before antibiotics, washout and aftercare.",
@@ -40,6 +40,19 @@ export const infectionAndTheSpine: CourseModule = {
         },
         {
           type: "table",
+          heading: "The hot joint differential — six faces",
+          columns: ["Cause", "Clues", "Fluid and action"],
+          rows: [
+            ["<strong>Septic arthritis</strong>", "Single joint, severe pain on the slightest movement, fever, risk factors — the emergency below", "Purulent fluid, very high white cells: aspirate, blood cultures, IV antibiotics immediately, urgent washout"],
+            ["<strong>Gout</strong>", "Explosive overnight attack, big toe or ankle, red-hot and exquisitely tender, previous attacks, diuretics, alcohol, kidney disease", "Needle-shaped crystals under the microscope: NSAID or colchicine now, allopurinol later once settled — never start allopurinol in the attack"],
+            ["<strong>Pseudogout</strong>", "Older patient, knee or wrist, calcium pyrophosphate disease with chondrocalcinosis on X-ray", "Blunt crystals: NSAID or steroid injection; look for thyroid, calcium and magnesium triggers"],
+            ["<strong>Reactive arthritis</strong>", "Young adult, days after dysentery or urethritis — can't see (conjunctivitis), can't pee, can't climb stairs", "Sterile inflammatory fluid: treat the trigger infection, NSAIDs, ophthalmology for the eyes"],
+            ["<strong>Haemarthrosis</strong>", "Trauma, haemophilia, or anticoagulant overdose — a tense, rapidly swelling, bloody joint", "Frank blood on tap: rest, ice and factor or reversal — aspirate only if tense or the diagnosis is doubted"],
+            ["<strong>Cellulitis over a joint</strong>", "Red hot skin but the joint itself moves with far less pain and has no true effusion", "No joint fluid to tap: mark the edge, elevate, antibiotics — but re-examine, because septic arthritis hides under cellulitis"],
+          ],
+        },
+        {
+          type: "table",
           heading: "Septic arthritis — the joint that is destroyed in days",
           columns: ["Aspect", "Detail"],
           rows: [
@@ -56,6 +69,17 @@ export const infectionAndTheSpine: CourseModule = {
           src: "/diagrams/NG-PKD-1206.svg",
           alt: "Four questions before giving an antibacterial: is it bacterial, do you need to kill or stop growth, can the drug reach the site, and the patient factors",
           caption: "Bone is a site that drugs reach poorly and dead bone a site they do not reach at all — which is why osteomyelitis needs weeks of a drug that penetrates bone, cultures to choose it, and a surgeon to remove what no drug can treat.",
+        },
+        {
+          type: "list",
+          heading: "Joint aspiration — nursing before, during and after",
+          items: [
+            "<strong>Consent and explain:</strong> why the needle goes in (diagnosis and pressure relief), the sting of local anaesthetic, and the small risks — introduced infection and bleeding. A frightened child needs sedation and a parent present.",
+            "<strong>Run the septic order:</strong> blood cultures first, aspirate the joint as soon as possible, then IV antibiotics without delay — the tap must never become the reason antibiotics wait hours.",
+            "<strong>Keep it sterile:</strong> chlorhexidine preparation, sterile towels and gloves, and never pass the needle through infected skin, a psoriatic plaque or cellulitis — find another entry point or another plan.",
+            "<strong>Label samples at the bedside:</strong> cell count, Gram stain, culture, and crystals — into the right bottles, to the laboratory immediately, with the antibiotics already prescribed so no time is lost.",
+            "<strong>Afterwards:</strong> pressure dressing, rest and ice for 24 hours, then gentle movement; watch for fever or worsening pain (introduced infection is rare but real); chase the results the same day — an untracked fluid result helps no one.",
+          ],
         },
         {
           type: "table",
@@ -120,15 +144,17 @@ export const infectionAndTheSpine: CourseModule = {
         "Sickle cell bone disease: vaso-occlusive crisis (analgesia by the clock within 30 minutes, no pethidine, warmth, fluids, incentive spirometry, search for infection), dactylitis, Salmonella osteomyelitis (fever + single site + cultures), avascular necrosis of the femoral head.",
         "Tetanus: trismus, risus sardonicus, opisthotonus, spasms on stimulation, conscious patient; immunoglobulin, metronidazole, diazepam or magnesium, airway, quiet dark room with clustered care, nutrition and pressure care; vaccinate after recovery.",
         "Prevention is vaccination, clean deliveries and cord care, and tetanus prophylaxis for every tetanus-prone wound.",
+        "Every hot joint runs the differential — septic, gout, pseudogout, reactive, haemarthrosis, cellulitis — but septic arthritis is the diagnosis to exclude first.",
+        "Blood cultures, aspirate, then antibiotics without delay; label fluid at the bedside and chase the result the same day.",
       ],
       quiz: {
-        keywords: ["osteomyelitis", "septic arthritis", "sickle", "salmonella", "bone infection", "abscess", "pott", "spine", "tetanus", "stiff body", "jaw stiffness", "lockjaw", "spasms", "wound infection", "blood cultures", "antibiotic prophylaxis", "surgical site infection", "pin site", "open fracture", "avascular", "haemophilia", "brucell", "undulating"],
+        keywords: ["osteomyelitis", "septic arthritis", "sickle", "salmonella", "bone infection", "abscess", "pott", "spine", "tetanus", "stiff body", "jaw stiffness", "lockjaw", "spasms", "wound infection", "blood cultures", "antibiotic prophylaxis", "surgical site infection", "pin site", "open fracture", "avascular", "haemophilia", "brucell", "undulating", "gout", "pseudogout", "reactive arthritis", "haemarthrosis", "joint aspiration", "arthrocentesis", "crystals", "colchicine"],
       },
     },
     {
       slug: "spinal-injury-back-pain-and-safe-manual-handling",
       title: "Spinal injury, back pain and safe manual handling",
-      minutes: 18,
+      minutes: 21,
       objectives: [
         "Apply spinal precautions from the roadside to the ward, including manual in-line stabilisation, collar care and log rolling.",
         "Distinguish spinal shock, neurogenic shock and autonomic dysreflexia and respond to each.",
@@ -217,6 +243,29 @@ export const infectionAndTheSpine: CourseModule = {
         },
         {
           type: "table",
+          heading: "Three back pains that are not mechanical strain",
+          columns: ["Pattern", "Clues", "Action"],
+          rows: [
+            ["<strong>Prolapsed disc with deficit</strong>", "Sciatica plus foot drop, progressive weakness or numbness that spreads — the nerve is dying, not just irritated", "Urgent MRI and surgical review; progressive deficit operates early, while plain sciatica usually settles"],
+            ["<strong>Spinal stenosis</strong>", "Older patient, leg pain and heaviness on walking that eases on sitting or bending forward — the shopping-trolley sign", "Physiotherapy and activity pacing first; decompression surgery when walking distance collapses or bladder symptoms appear"],
+            ["<strong>Inflammatory back pain</strong>", "Under 40, morning stiffness over 30 minutes, pain that eases with movement and worsens with rest, alternating buttock pain", "NSAIDs, rheumatology referral, spondyloarthritis workup — this is ankylosing disease, not strain, and biologics change its course"],
+            ["<strong>Malignant back pain</strong>", "Over 50, constant pain worse at night, weight loss, known cancer — myeloma, prostate, breast and lung seed the spine", "Urgent MRI (cord compression can follow within hours), oncology referral — never reassure night pain in this group"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "The chronic back — function over cure",
+          items: [
+            "<strong>Reset the goal:</strong> after three months without red flags the aim is function, not a pain-free scan — hurt does not equal harm, and the scan shows age, not damage. Say it plainly and repeat it.",
+            "<strong>Prescribe movement, not rest:</strong> graded walking, core strengthening, McKenzie extension, swimming — with physiotherapy to start and a written programme to continue. Deconditioning is the disease now.",
+            "<strong>Treat the amplifiers:</strong> excess weight, smoking (starves the discs), broken sleep and low mood each add a point to every pain score — address all four or the back never improves.",
+            "<strong>Keep the worker at work:</strong> modified duties beat sick leave; long absence predicts permanent disability better than any MRI finding. Liaise with employers early.",
+            "<strong>Use drugs and procedures honestly:</strong> paracetamol and NSAIDs for flares, amitriptyline for sleep and nerve-type pain, weak opioids briefly at most — injections help selected sciatica short-term, and surgery is for deficit, stenosis and deformity, not for pain alone.",
+            "<strong>Re-flag every visit:</strong> new night pain, new weakness, saddle numbness or bladder change resets the clock to emergency — chronic does not mean the red flags stop applying.",
+          ],
+        },
+        {
+          type: "table",
           heading: "Safe manual handling — the patient's safety and the nurse's back",
           columns: ["Principle", "Practice"],
           rows: [
@@ -251,9 +300,11 @@ export const infectionAndTheSpine: CourseModule = {
         "Back pain red flags: age under 20 or over 55, trauma, thoracic pain, night or constant pain, fever, weight loss, cancer, HIV, TB, steroids, deformity, neurological deficit. Cauda equina — bilateral sciatica, saddle anaesthesia, retention or incontinence — is a same-day MRI and surgical emergency.",
         "Mechanical back pain: stay active, heat, paracetamol and short NSAID course, physiotherapy and exercise, address fear and mood; no bed rest, no routine imaging, no opioids.",
         "Manual handling: assess with TILE, use slide sheets, boards and hoists, bed at hip height, brakes on, stable base, bend knees not back, move feet instead of twisting, never the drag lift, never catch a falling patient, report every injury.",
+        "Disc with deficit, stenosis with claudication, inflammatory pain in the young and malignant pain at night are never plain strain — image and refer.",
+        "Chronic back care aims at function: graded movement, weight, sleep, mood, staying at work — and re-flagging every visit.",
       ],
       quiz: {
-        keywords: ["spinal injur", "spinal cord", "log roll", "neck pain", "cervical spine", "spinal board", "neurogenic", "autonomic dysreflexia", "back pain", "sciatica", "cauda equina", "disc prolapse", "lifting", "manual handling", "moving and handling", "hoist", "bed height", "back injury", "spinal surgery", "parapleg", "paralys", "bedbound", "pressure ulcer", "immobilis", "neck immobilised", "neck stiff", "four rescuers", "sacrum", "lift"],
+        keywords: ["spinal injur", "spinal cord", "log roll", "neck pain", "cervical spine", "spinal board", "neurogenic", "autonomic dysreflexia", "back pain", "sciatica", "cauda equina", "disc prolapse", "lifting", "manual handling", "moving and handling", "hoist", "bed height", "back injury", "spinal surgery", "parapleg", "paralys", "bedbound", "pressure ulcer", "immobilis", "neck immobilised", "neck stiff", "four rescuers", "sacrum", "lift", "stenosis", "claudication", "ankylosing", "spondylitis", "foot drop", "chronic pain"],
       },
     },
   ],

@@ -288,7 +288,7 @@ export const liverBiliaryAndPancreaticDisorders: CourseModule = {
     {
       slug: "gallbladder-biliary-tract-and-pancreatic-disorders",
       title: "Gallbladder, biliary tract and pancreatic disorders",
-      minutes: 16,
+      minutes: 19,
       objectives: [
         "Describe gallstone disease from biliary colic through cholecystitis, choledocholithiasis and cholangitis, and recognise the emergency.",
         "Care for the patient before and after cholecystectomy, including T-tube management.",
@@ -351,6 +351,19 @@ export const liverBiliaryAndPancreaticDisorders: CourseModule = {
           ],
         },
         {
+          type: "table",
+          heading: "Severity and complications — Atlanta in practice",
+          columns: ["Situation", "Clues", "Action"],
+          rows: [
+            ["<strong>Mild (most patients)</strong>", "No organ failure, no local complication; pain settling, eating within days", "Ward care, early low-fat food, fluids, find the cause (ultrasound for stones) — home within a week"],
+            ["<strong>Moderately severe</strong>", "Organ failure that resolves within 48 hours, or a local complication (fluid collection)", "High-dependency care, enteral nutrition, CT if not improving, watch for necrosis"],
+            ["<strong>Severe</strong>", "Organ failure persisting beyond 48 hours — shock, hypoxia, oliguria", "Intensive care, organ support, enteral feeding past the stomach, necrosis surveillance"],
+            ["<strong>Necrosis</strong>", "No improvement by the second week, new fever and rising CRP — dead pancreatic tissue, sterile or infected", "No routine antibiotics for sterile necrosis; infected necrosis needs step-up drainage (radiological or endoscopic) before any surgery"],
+            ["<strong>Pseudocyst</strong>", "Persistent pain or a palpable mass 4 or more weeks after the attack — a walled collection of fluid", "Most resolve alone; drain if infected, bleeding, compressing stomach or bile duct, or still growing after 6 weeks"],
+            ["<strong>The two peaks of death</strong>", "Early deaths are organ failure in the first two weeks; late deaths are infected necrosis weeks later", "Early: fluids, oxygen, organ support. Late: suspect infection in every new fever, culture, image, drain — do not just add antibiotics"],
+          ],
+        },
+        {
           type: "list",
           heading: "Management and nursing care of acute pancreatitis",
           style: "steps",
@@ -388,6 +401,23 @@ export const liverBiliaryAndPancreaticDisorders: CourseModule = {
           title: "Recall",
           body: "Biliary colic: hours of RUQ pain to the right shoulder after fat, no fever. Cholecystitis: over 6 h, fever, Murphy's sign, antibiotics, early laparoscopic cholecystectomy. CBD stone: jaundice, raised ALP, dilated ducts, ERCP. Cholangitis: Charcot's triad (fever/rigors, RUQ pain, jaundice) ± hypotension and confusion = Reynolds' pentad → Sepsis Six and urgent drainage. Post-lap chole: shoulder-tip pain from CO₂; report fever/pain/jaundice (bile leak). T-tube: bag below the duct, never clamp unless told, record bile, clamping trials before meals, cholangiogram day 7–10, out day 10–14. Pancreatitis: pain to the back eased sitting forward, lipase/amylase over 3×, Glasgow 3+ = severe, CRP over 150 at 48 h; Ringer's titrated to urine over 0.5 mL/kg/h, oxygen, morphine, feed early, no routine antibiotics, glucose and calcium, ERCP within 24 h if cholangitis, same-admission cholecystectomy; Grey Turner/Cullen = haemorrhagic. Chronic: steatorrhoea, diabetes, Creon with meals, stop alcohol. Cancer: painless jaundice + palpable gallbladder + weight loss; stent for palliation.",
       },
+        {
+          type: "list",
+          heading: "Feeding, gallstones and prevention — after the crisis",
+          items: [
+            "<strong>Feed early, feed enterally:</strong> low-fat food within 24 hours in mild disease; a nasojejunal tube past the stomach when ileus or severe disease prevents eating. Gut feeding protects the gut barrier and prevents infection — total parenteral nutrition is the last resort, not the default.",
+            "<strong>Remove a gallstone cause before discharge</strong> in mild biliary pancreatitis — cholecystectomy on the same admission prevents the second, often worse, attack. Cholangitis or a stuck stone needs ERCP within 72 hours.",
+            "<strong>Confront alcohol directly:</strong> brief intervention on the ward, withdrawal watch (tremor, sweats, seizures need benzodiazepines), and a clear message — abstinence gives the gland its only chance; continued drinking leads to chronic pancreatitis.",
+            "<strong>Fix the fixable:</strong> triglycerides (fibrates, diabetes control, weight), calcium, smoking (it accelerates chronic disease), and the drug chart — stop thiazides, azathioprine, valproate and other culprits where alternatives exist.",
+            "<strong>Warn about chronic pancreatitis</strong> after repeated attacks: burning pain, oily floating stools, weight loss and diabetes from a calcified, burnt-out gland — pancreatic enzyme capsules with meals, insulin when diabetes comes, and absolute alcohol abstinence.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Lipase height is not severity",
+          body: "Amylase and lipase confirm the diagnosis — they do not grade it. Severity is organ failure and necrosis: urea rising, haematocrit climbing, calcium falling, CRP above 150 at 48 hours, and the patient who looks worse, not the number that looks bigger.",
+        },
       ],
       keyPoints: [
         "Gallstones — cholesterol in the fat, female, forty, fertile patient and pigment in sickle cell disease — cause biliary colic when they move, cholecystitis when the cystic duct stays blocked (fever, Murphy's sign, antibiotics and early laparoscopic cholecystectomy), obstructive jaundice when they reach the bile duct (ERCP) and ascending cholangitis when the blocked duct infects (Charcot's triad, Sepsis Six and urgent drainage).",
@@ -395,9 +425,11 @@ export const liverBiliaryAndPancreaticDisorders: CourseModule = {
         "Acute pancreatitis follows gallstones or alcohol in most patients, presents with epigastric pain boring to the back and eased by sitting forward with persistent vomiting, is diagnosed by lipase or amylase over three times normal, and is scored for severity with the Glasgow criteria and a 48-hour CRP.",
         "Outcome in pancreatitis depends on the first 48 hours: Ringer's lactate titrated to urine output above 0.5 mL/kg/h without overload, oxygen, close observation of respiration, glucose and calcium, strong opioid analgesia, early oral or enteral feeding instead of prolonged starvation, no prophylactic antibiotics, ERCP within 24 hours for cholangitis, cholecystectomy in the same admission for gallstone disease and vigilance for necrosis, pseudocyst and organ failure.",
         "Chronic pancreatitis brings pain, steatorrhoea and brittle diabetes managed with absolute alcohol cessation, enzyme capsules with every meal, fat-soluble vitamins and careful analgesia; pancreatic head cancer presents as painless jaundice with a palpable gallbladder and weight loss, is rarely resectable and is palliated with biliary stenting, itch and pain control and early palliative care.",
+        "Atlanta grades by organ failure and local complications: mild goes home in days, severe needs ICU, and infected necrosis is drained step-up, not cut out.",
+        "Feed early and enterally, remove gallstone causes before discharge, and remember lipase height never grades severity.",
       ],
       quiz: {
-        keywords: ["cholecyst", "gallstone", "gall bladder", "gallbladder", "biliary", "bile duct", "obstructive jaundice", "jaundice", "rigors", "t tube", "pancrea", "pancreatitis", "amylase", "lipase", "murphy", "right upper quadrant", "fatty food", "fatty meal", "epigastric", "cholangitis", "charcot", "steatorrhoea", "ercp", "shoulder tip", "courvoisier", "grey turner", "cullen", "creon", "enzyme replacement"],
+        keywords: ["cholecyst", "gallstone", "gall bladder", "gallbladder", "biliary", "bile duct", "obstructive jaundice", "jaundice", "rigors", "t tube", "pancrea", "pancreatitis", "amylase", "lipase", "murphy", "right upper quadrant", "fatty food", "fatty meal", "epigastric", "cholangitis", "charcot", "steatorrhoea", "ercp", "shoulder tip", "courvoisier", "grey turner", "cullen", "creon", "enzyme replacement", "atlanta", "necrosis", "necrotising", "pseudocyst", "enteral feeding", "cholecystectomy", "chronic pancreatitis"],
       },
     },
   ],

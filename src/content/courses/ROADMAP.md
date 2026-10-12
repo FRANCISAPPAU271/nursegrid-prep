@@ -65,3 +65,8 @@ are taught in full once and cross-referenced elsewhere rather than duplicated.
 - New lessons: lung-cancer (resp-05, 16 min, 25 keywords, post-test +20) and dialysis-emergencies-drill (renal-06, 14 min, anchors existing pool +2).
 - Diagram retrofits from bank stock: pneumonia <- MCB-2500 Gram stain; chronic-kidney-disease <- LTC-1813 CKD stages; pituitary-disorders-and-water-balance <- EPR-1038 chain of command; endocrine-drugs-and-calculations <- DRC-2390 formulas.
 - Post-test keyword pools: lung-cancer 122 matches, dialysis drill 94 (88 excl. peritonitis). No credit-hour changes.
+
+## 2026-10-12 — Batch 2 neuro/GI/MSK/skin (105–108) on deep/batch2
+- 3 NEW lessons: brain-tumours-hydrocephalus-and-shunts (neuro-02, 16 min), headache (neuro-06, 15 min), lower-gastrointestinal-bleeding (GI-04, 15 min). Post-test deltas: neuro +45, GI +3 (anchors existing pool); keyword pools tumours=102, headache=60, lower-bleed=48.
+- 4 EXPANSIONS where coverage existed: pancreatitis +3 (Atlanta severity, feeding/definitive, lipase callout), hot-joint +2 (differential, aspiration nursing), back-pain +2 (non-mechanical patterns, chronic back), SJS/TEN +2 (SCORTEN, culprit history).
+- No diagram retrofits: bank has no shunt/migraine/melaena/gout/SJS art — text/table depth instead. No credit-hour changes.

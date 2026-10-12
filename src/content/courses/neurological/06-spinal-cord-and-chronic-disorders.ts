@@ -3,7 +3,7 @@ import type { CourseModule } from "../types";
 export const spinalCordAndChronicDisorders: CourseModule = {
   slug: "spinal-cord-and-chronic-disorders",
   title: "Spinal Cord Injury, Neuromuscular and Chronic Neurological Disorders",
-  summary: "The spine protected from the roadside to the rehabilitation ward and the dysreflexia that can kill years later; the weaknesses that stop breathing — Guillain-Barré and myasthenia; tetanus, flaccid paralysis and the dying nerves of neuropathy; and the long disorders of movement, memory, attention and head pain that fill medical wards and outpatient clinics.",
+  summary: "The spine protected from the roadside to the rehabilitation ward and the dysreflexia that can kill years later; the weaknesses that stop breathing — Guillain-Barré and myasthenia; tetanus, flaccid paralysis and the dying nerves of neuropathy; and the long disorders of movement, memory, attention and head pain that fill medical wards and outpatient clinics. Headache now has its own lesson of primary syndromes and secondary drills.",
   lessons: [
     {
       slug: "spinal-cord-injury",
@@ -455,5 +455,64 @@ export const spinalCordAndChronicDisorders: CourseModule = {
         keywords: ["parkinson", "levodopa", "shuffling", "dementia", "alzheimer", "delirium", "acute confusion", "wander", "sundown", "restraint", "haloperidol", "antipsychotic", "metoclopramide", "headache", "migraine", "photophobia", "multiple sclerosis", "motor neurone", "witchcraft", "facial pain"],
       },
     },
+    {
+      slug: "headache",
+      title: "Headache",
+      minutes: 15,
+      objectives: [
+        "Take a headache history that separates primary syndromes from secondary warnings.",
+        "Diagnose migraine, tension-type and cluster headache and start the right treatment.",
+        "Act on thunderclap headache, meningitis, temporal arteritis, pre-eclampsia and medication overuse.",
+        "Apply SNOOP red flags and arrange same-day investigation where needed.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Common, usually benign, occasionally the only warning",
+          paragraphs: [
+            "Headache fills more clinic hours than almost any other symptom, and nearly all of it is primary — migraine and tension-type disease with a normal brain underneath. The history is the scan: <strong>onset</strong> (thunderclap in seconds is never primary), <strong>pattern</strong> (episodic with freedom between, or new and daily), <strong>associated features</strong> (aura, nausea, tearing eye, fever, neck stiffness, visual loss, pregnancy, blood pressure, drugs), and <strong>change</strong> (a new headache over 50, or the worst headache of a life, is secondary until proven otherwise).",
+            "Run the SNOOP red flags from the earlier lesson on every new or changed headache — systemic signs, neurological signs, onset sudden, older age, pattern change — and use this lesson for what each answer means and what the primary syndromes look like when the screen is negative.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Migraine, tension and cluster",
+          columns: ["Syndrome", "Picture", "Treatment"],
+          rows: [
+            ["<strong>Migraine</strong>", "Hours to 3 days; unilateral throbbing; nausea with photo- and phonophobia; visual aura in a quarter; triggers — missed meals, sleep loss, menses, alcohol", "Treat early: NSAID plus triptan plus antiemetic together; rest in the dark; prophylaxis (propranolol, amitriptyline, topiramate) when attacks are frequent or disabling"],
+            ["<strong>Tension-type</strong>", "Band-like bilateral pressure; stress and bad sleep; no nausea, no aura, function continues", "Reassurance that the brain is normal, NSAID for episodes, sleep, posture and physiotherapy — investigate only when the pattern changes"],
+            ["<strong>Cluster</strong>", "Young men; 15 minutes to 3 hours of orbital agony, often nightly, with tearing and a red eye on the same side", "High-flow oxygen and subcutaneous sumatriptan abort the attack; verapamil prevents the cluster — never leave cluster on plain paracetamol"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Secondary headaches — the drills",
+          items: [
+            "<strong>Thunderclap — subarachnoid haemorrhage:</strong> worst headache of life peaking in seconds, vomiting, neck stiffness, collapse. CT head immediately; if negative, lumbar puncture for xanthochromia — then nimodipine, neurosurgery, and no delay.",
+            "<strong>Fever plus headache — meningitis:</strong> neck stiffness, rash, confusion or seizures. Blood cultures, antibiotics within the hour — before the lumbar puncture if that would delay them — then the full meningitis pathway.",
+            "<strong>Over 50 with scalp tenderness — temporal arteritis:</strong> new headache, pain on chewing (jaw claudication), transient visual loss. ESR and CRP now and <strong>steroids the same day, before the biopsy</strong> — every day of delay risks permanent blindness.",
+            "<strong>Pregnant with headache — pre-eclampsia:</strong> visual disturbance, upper abdominal pain, raised blood pressure. Magnesium sulphate pathway and delivery planning — headache in pregnancy is never just headache.",
+            "<strong>Daily analgesics — medication overuse:</strong> headache on 15 or more days a month with regular paracetamol, NSAID or triptan use. Explain the trap, withdraw the overused drug with a bridge plan, and limit future use to set days per month.",
+            "<strong>Sinus and eye causes:</strong> purulent discharge with pain worse on bending (treat the sinus; periorbital swelling in a child is an emergency), and acute angle-closure glaucoma — red painful eye with haloes and vomiting — which needs pressure-lowering treatment within hours.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "The two same-day headaches",
+          body: "Worst headache of life — CT today. New headache over 50 with scalp tenderness or jaw pain on chewing — steroids today, before the biopsy, before blindness. These two drills save brain and sight.",
+        },
+      ],
+      keyPoints: [
+        "Onset, pattern, associations and change separate primary headache from secondary — thunderclap and new-over-50 are secondary until proven otherwise.",
+        "Migraine throbs unilaterally with nausea and aura; tension bands bilaterally; cluster burns behind one eye nightly in young men.",
+        "Thunderclap means CT then lumbar puncture; meningitis means antibiotics within the hour; temporal arteritis means steroids the same day.",
+        "Headache in pregnancy runs the pre-eclampsia pathway; daily analgesics cause the headache they treat.",
+        "SNOOP every new headache; investigate change, not just pain.",
+      ],
+      quiz: {
+        keywords: ["headache", "migraine", "aura", "tension headache", "cluster headache", "trigeminal", "thunderclap", "subarachnoid", "meningitis", "temporal arteritis", "giant cell arteritis", "pre-eclampsia", "sinusitis", "medication overuse", "triptan", "snoop"],
+      },
+    }
   ],
 };
