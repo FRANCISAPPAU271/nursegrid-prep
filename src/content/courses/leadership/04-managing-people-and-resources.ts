@@ -3,7 +3,7 @@ import type { CourseModule } from "../types";
 export const managingPeopleAndResources: CourseModule = {
   slug: "managing-people-money-and-supplies",
   title: "Managing people, money and supplies",
-  summary: "The three staffing questions — how many, which mix, and why they leave — and the roster as a safety document; fatigue, overtime, leave and absence; keeping staff safe from sharps, hepatitis B, violence, back injury and tuberculosis and supporting them after the worst days; then the ward's money and materials: fixed and variable costs, procurement and the law that governs it, conflicts of interest and gifts, petty cash and audit, running a store without stock-outs, equipment that works, and the operations thinking that shortens queues and frees beds.",
+  summary: "The three staffing questions — how many, which mix, and why they leave — and the roster as a safety document; fatigue, overtime, leave and absence; keeping staff safe from sharps, hepatitis B, violence, back injury and tuberculosis and supporting them after the worst days; then the ward's money and materials: fixed and variable costs, procurement and the law that governs it, conflicts of interest and gifts, petty cash and audit, running a store without stock-outs, equipment that works, and the operations thinking that shortens queues and frees beds. Being in charge of the shift closes the module — handover, allocation, flow and accountability.",
   lessons: [
     {
       slug: "staffing-rosters-workforce-and-staff-safety",
@@ -189,5 +189,74 @@ export const managingPeopleAndResources: CourseModule = {
       ],
       quiz: { keywords: ["fixed cost","variable cost","recurrent and capital","capital expenditure","budget","budget request","persuasive","petty cash","audit query","internal auditor","auditor","gift or inducement","inducement","personal payment","supplier","conflict of interest","brother owns","procurement","tendering","competitive tender","single sourc","segregation of duties","orders supplies","receives and records","stock","stock card","stock discrepancy","physical count","reorder level","reorder","consumption","first expiry","expiry and stock rotation","shorter expiry","expired medicines","expired last month","requisition","runs out of gloves","run out","drug store","ward's stock","equipment maintenance","donated machines","no longer work","cost of waste","protects the facility's operating budget","explaining a shortage","must buy an item","shortage","efficien","bottleneck","throughput","smoothing demand","discharge planning and flow","length of stay","referral coordination","waiting times remain","inventory","financial","diverted","controlled drugs register","vaccine fridge","freezing vaccines","waste of","operating budget","cost of","costs","cheaper","expensive"] },
     },
+    {
+      slug: "being-in-charge-of-the-shift",
+      title: "Being in charge of the shift",
+      minutes: 15,
+      objectives: [
+        "Take and give handover that carries accountability across shifts.",
+        "Allocate staff by acuity and skill mix and manage gaps safely.",
+        "Run beds, flow, ward rounds and escalation through the shift.",
+        "Own incidents, documentation and handover-out at shift end.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "The shift has one accountable nurse",
+          paragraphs: [
+            "Being in charge is not a title but an accountability: from handover to handover, one nurse answers for who does what, which patient is sickest, what was escalated and what was documented. The first thirty minutes set the shift — take handover at the bedside where possible, walk the ward with fresh eyes, find the sickest patient yourself, count the staff you actually have against the roster's promise, and check the emergency drugs, oxygen and equipment before the emergency checks you.",
+            "Presence is the method: visible on the ward not in the office, approachable before the crisis, decisive during it. The in-charge nurse who is found early is called early — and early calls are what keep small problems small.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "The shift rhythm",
+          columns: ["Phase", "The in-charge does", "Never"],
+          rows: [
+            ["<strong>Start — the first 30 minutes</strong>", "Handover plus walkaround, allocation by acuity and skill mix, bed state known, risks flagged (the deteriorating, the violent, the absconder, the nil-by-mouth)", "Accept handover sitting down without seeing the sickest patient — paper lies about who is dying"],
+            ["<strong>Middle — the working hours</strong>", "Ward round with doctors, allocations reassessed at breaks, admissions and discharges flowing, breaks protected, deteriorating patients owned personally", "Let breaks gut the ward of skill — stagger them so every hour has its competent nurse"],
+            ["<strong>End — the last 30 minutes</strong>", "Handover-out complete and documented, incidents reported, next-shift gaps flagged, controlled drugs counted, loose ends tied or explicitly handed over", "Leave the mess 'for nights' undocumented — the unhanded-over problem is still yours at 2 a.m."],
+            ["<strong>Nights and weekends</strong>", "Same standards with fewer hands: escalate earlier, use the on-call chain properly, keep the matron informed of anything unusual", "Heroics alone — no procedure beyond scope, no silent struggling; calling for help is competence, not failure"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Staffing gaps and hard calls",
+          items: [
+            "<strong>Cover absence honestly:</strong> reallocate by acuity first, call bank or overtime per policy, and if the ward is unsafe, close beds or divert admissions with the manager's agreement — documented, not whispered.",
+            "<strong>Guard the skill mix:</strong> students and assistants supervised within scope, never allocated beyond it; the sickest patient gets the strongest nurse, not the nearest one.",
+            "<strong>Address conflict the same shift:</strong> privately, specifically, about patient impact — care affected goes on an incident form whatever the personalities involved.",
+            "<strong>Refuse the unsafe in writing:</strong> allocation you cannot safely cover is escalated to matron or manager and recorded — verbal warnings evaporate, written ones protect patients and nurses.",
+            "<strong>Protect yourself to protect them:</strong> eat, hydrate, debrief after the worst shifts — the in-charge nurse who collapses at hour ten helps no one at hour twelve.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Beds, flow and escalation",
+          items: [
+            "<strong>Know the bed state hourly:</strong> occupied, ready, dirty, blocked — flow is the in-charge nurse's second patient, and a full emergency department starts at your dirty beds.",
+            "<strong>Prioritise admissions and discharges:</strong> emergencies before electives, outliers reviewed for return, discharges processed early with transport, drugs and family called — morning discharges cure afternoon gridlock.",
+            "<strong>Escalate by score, every time:</strong> early-warning score to doctor to on-call to matron, SBAR on every call, response times documented — the nurse who escalated properly is never blamed for the outcome.",
+            "<strong>Own every incident:</strong> make safe first, report on the form the same shift, support patient and staff, and feed the learning back — incidents buried are incidents repeated.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Accountability cannot be delegated",
+          body: "You can delegate the task but never the accountability — the drug the student gave wrongly, the observation the assistant missed, the fall on your shift: yours to answer, yours to learn from. That is what in charge means.",
+        },
+      ],
+      keyPoints: [
+        "The first 30 minutes set the shift: handover, walkaround, sickest patient seen, staffing reality checked, emergency kit verified.",
+        "Allocate by acuity and skill mix, stagger breaks to protect skill, and refuse unsafe cover in writing.",
+        "Run beds hourly, discharge early, escalate by score with SBAR, and own every incident the same shift.",
+        "Nights and weekends keep the same standards with earlier escalation — calling for help is competence.",
+        "Tasks delegate; accountability never does — the in-charge nurse answers and learns.",
+      ],
+      quiz: {
+        keywords: ["nurse in charge", "shift leader", "shift handover", "ward round", "bed management", "staff allocation", "skill mix", "escalation", "incident report", "duty roster", "supervision", "delegation", "accountability", "ward management", "taking charge"],
+      },
+    }
   ],
 };

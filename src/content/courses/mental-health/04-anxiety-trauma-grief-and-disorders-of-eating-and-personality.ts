@@ -3,7 +3,7 @@ import type { CourseModule } from "../types";
 export const anxietyTraumaGriefAndDisordersOfEatingAndPersonality: CourseModule = {
   slug: "anxiety-trauma-grief-and-disorders-of-eating-and-personality",
   title: "Anxiety, trauma, grief, and disorders of eating and personality",
-  summary: "The stress response and the anxiety disorders sorted by the object of the fear — generalised anxiety, panic, phobias, obsessive-compulsive disorder, acute stress, adjustment and post-traumatic stress disorder — the physical illnesses and substances that imitate them, somatic and dissociative presentations, managing panic and hyperventilation at the bedside, CBT, exposure, relaxation, SSRIs, the benzodiazepine trap and the management of insomnia; then loss, grief and mourning in Ghana, supporting the bereaved and the dying, palliative care and total pain, self-harm and its care, anorexia and bulimia and the refeeding danger, and the personality disorders with the consistent team approach they require.",
+  summary: "The stress response and the anxiety disorders sorted by the object of the fear — generalised anxiety, panic, phobias, obsessive-compulsive disorder, acute stress, adjustment and post-traumatic stress disorder — the physical illnesses and substances that imitate them, somatic and dissociative presentations, managing panic and hyperventilation at the bedside, CBT, exposure, relaxation, SSRIs, the benzodiazepine trap and the management of insomnia; then loss, grief and mourning in Ghana, supporting the bereaved and the dying, palliative care and total pain, self-harm and its care, anorexia and bulimia and the refeeding danger, and the personality disorders with the consistent team approach they require. Somatic, conversion and dissociative disorders close the module with their own lesson.",
   lessons: [
     {
       slug: "anxiety-panic-ocd-trauma-and-somatic-presentations",
@@ -134,7 +134,7 @@ export const anxietyTraumaGriefAndDisordersOfEatingAndPersonality: CourseModule 
     {
       slug: "grief-loss-self-harm-eating-disorders-and-personality-disorders",
       title: "Grief, loss, self-harm, eating disorders and personality disorders",
-      minutes: 18,
+      minutes: 20,
       objectives: [
         "Describe normal grief, mourning and the stages and tasks of grieving, recognise anticipatory, complicated and depressive grief, and support bereaved people — including after stillbirth, miscarriage and the death of a child — in ways that respect Ghanaian rites while protecting the vulnerable.",
         "Apply palliative care principles to the dying patient: total pain, recognising the dying phase, truth-telling and advance wishes, responding to a request for help to die, care of the dying child and the family, and culturally appropriate care after death.",
@@ -200,6 +200,31 @@ export const anxietyTraumaGriefAndDisordersOfEatingAndPersonality: CourseModule 
           ],
         },
         {
+          type: "table",
+          heading: "Medical complications and monitoring",
+          columns: ["System", "Signs", "Monitoring and action"],
+          rows: [
+            ["<strong>Heart</strong>", "Bradycardia, hypotension, postural drop, prolonged QT — the heart starves too", "Pulse, lying-standing pressure, ECG; admit bradycardia under 40 or QT lengthening; correct potassium and magnesium first"],
+            ["<strong>Temperature and metabolism</strong>", "Hypothermia, cold blue hands and feet, lanugo hair", "Temperature chart, warming, slow refeeding — cold plus bradycardic is admission, not reassurance"],
+            ["<strong>Electrolytes (especially purging)</strong>", "Low potassium, chloride, bicarbonate shifts; swollen parotids, knuckle calluses, dental erosion", "U&E, magnesium, phosphate before and during refeeding; replace per protocol; watch for tetany and arrhythmia"],
+            ["<strong>Bone and hormones</strong>", "Amenorrhoea, fractures, stunted growth in adolescents", "DEXA where available, calcium and vitamin D, oestrogen assessment — bone lost in teens never fully returns"],
+            ["<strong>Gut</strong>", "Constipation, bloating, gastroparesis, superior mesenteric artery syndrome in severe loss", "Small frequent meals, gentle laxation, watch for vomiting with pain — surgical causes still occur"],
+            ["<strong>Blood and immunity</strong>", "Anaemia, leukopenia, frequent infections", "FBC, iron and B12; infections present without fever in starvation — low threshold for workup"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Nursing the eating-disordered patient",
+          items: [
+            "<strong>Supervise meals and after:</strong> eat with the patient, stay 30 minutes after, bathroom watched — explained as care against the illness, not punishment of the person; blind weights when numbers feed obsession.",
+            "<strong>Separate person from illness:</strong> praise health and courage, never weight or appearance — 'you look better' is heard as 'you look fatter'; the alliance is with the healthy self against the disorder.",
+            "<strong>Work blame-free with families:</strong> parents did not cause this and are essential to recovery — family meals supported, siblings' needs named, school pressure and social-media ideals discussed openly.",
+            "<strong>Hold Ghanaian context gently:</strong> faith explanations, fasting norms, traditional healers, aunties who comment on bodies — negotiate safety without mocking belief, and ally with pastors and imams who support treatment.",
+            "<strong>Keep one consistent team plan:</strong> meal plan, exercise rules, privileges and boundaries identical across shifts — splitting staff is the illness's defence; handover includes the plan, not just the weight.",
+            "<strong>Watch medically while treating psychiatrically:</strong> vitals, ECG, labs, food-fluid charts and weights on schedule — the psychiatric patient who collapses medically was under-monitored, not unlucky.",
+          ],
+        },
+        {
           type: "callout",
           tone: "warning",
           title: "Refeeding syndrome — the meal that kills the starving",
@@ -243,8 +268,72 @@ export const anxietyTraumaGriefAndDisordersOfEatingAndPersonality: CourseModule 
         "Anorexia nervosa is deliberate low weight with fear of fatness and distorted body image, with bradycardia, hypotension, hypothermia and electrolyte danger; bulimia is bingeing and purging at normal weight with parotid swelling, dental erosion and hypokalaemia; nursing is BMI and consistent weighing, supervised meals, post-meal observation, electrolytes and firm kind limits.",
         "Refeeding syndrome kills the starving who are fed too fast: start low and go slow, thiamine before feeding, and daily phosphate, potassium, magnesium and glucose for the first week.",
         "Personality disorders are enduring patterns from adolescence; emotionally unstable (borderline) personality disorder brings unstable relationships, fear of abandonment, impulsivity, self-harm and splitting, and is nursed with one plan, one voice, early kind limits, firm boundaries, validation of feeling, serious assessment of every suicidal statement, a crisis plan, brief admissions and support for staff — never the label 'manipulative'.",
+        "Starvation injures heart, temperature, electrolytes, bone, gut and blood — bradycardia under 40, QT lengthening and purging shifts admit and monitor.",
+        "Supervise meals and after, praise health never weight, keep one team plan, and work with families and faith without blame or mockery.",
       ],
-      quiz: { keywords: ["grief","bereave","stages of grief","anticipatory","complicated grief","traditional rites","widow","stillbirth","miscarriage","breaking bad news","bad news","truth telling","dying","end of life","palliative care","has just been told","has died","deceased","sits silently","could have saved","kept his room","rites","mortuary","religious rites","last offices","culturally appropriate","cultural beliefs","self harm","adolescent self harm","care after deliberate","risk assessment after self harm","boundar","professional boundaries","eating disorder","anorexia","refeeding","very low weight","low weight","body image","bmi calculation","purg","request for assistance in dying","advance wishes","advance planning","recognising the dying phase","care of the dying","caring for a dying child","supporting siblings","sids","sudden infant death","grief that becomes","grief and depression","staff support after an incident","postvention","bereaved"] },
+      quiz: { keywords: ["grief", "bereave", "stages of grief", "anticipatory", "complicated grief", "traditional rites", "widow", "stillbirth", "miscarriage", "breaking bad news", "bad news", "truth telling", "dying", "end of life", "palliative care", "has just been told", "has died", "deceased", "sits silently", "could have saved", "kept his room", "rites", "mortuary", "religious rites", "last offices", "culturally appropriate", "cultural beliefs", "self harm", "adolescent self harm", "care after deliberate", "risk assessment after self harm", "boundar", "professional boundaries", "eating disorder", "anorexia", "refeeding", "very low weight", "low weight", "body image", "bmi calculation", "purg", "request for assistance in dying", "advance wishes", "advance planning", "recognising the dying phase", "care of the dying", "caring for a dying child", "supporting siblings", "sids", "sudden infant death", "grief that becomes", "grief and depression", "staff support after an incident", "postvention", "bereaved", "bulimia", "amenorrhoea", "lanugo", "bradycardia", "qt prolongation", "meal supervision", "body mass index"] },
     },
+    {
+      slug: "somatic-symptom-conversion-and-dissociative-disorders",
+      title: "Somatic symptom, conversion and dissociative disorders",
+      minutes: 15,
+      objectives: [
+        "Distinguish somatic symptom, health anxiety, conversion, dissociative, factitious and malingering presentations.",
+        "Nurse distress expressed bodily without collusion or confrontation.",
+        "Support functional rehabilitation alongside psychological treatment.",
+        "Manage reassurance-seeking, families and prayer-camp negotiation.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Real suffering, no medical cause found",
+          paragraphs: [
+            "Distress speaks bodily in every culture — headache, weakness, seizures that are not epilepsy, pain that migrates, fatigue that confines — and medically unexplained symptoms fill Ghanaian outpatient departments daily. Investigate thoroughly ONCE, then stop: each repeated negative test reassures for a day and harms for a year, teaching the patient that the answer is another scan rather than recovery.",
+            "The disorders share bodily language with different grammars: somatic symptom disorder suffers symptoms with excessive worry; health anxiety fears disease it does not have; conversion (functional neurological disorder) loses function that does not fit anatomy; dissociative disorders lose memory or identity after trauma; factitious disorder seeks the sick role; malingering seeks external gain. The nurse tells them apart to treat each rightly.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "The presentations — picture and management",
+          columns: ["Presentation", "Picture", "Management"],
+          rows: [
+            ["<strong>Somatic symptom disorder</strong>", "Persistent distressing physical symptoms with excessive worry, time and doctor visits", "One doctor, scheduled reviews, function goals — the regular appointment replaces the emergency dash"],
+            ["<strong>Health anxiety</strong>", "Fear of disease despite reassurance, body-checking, doctor-shopping, test-chasing", "CBT for anxiety, agreed limits on tests, treatment of the anxiety itself — reassurance alone never holds"],
+            ["<strong>Conversion / functional neurological</strong>", "Weakness, seizures, speech or vision loss that does not fit anatomy, often after stress — Hoover's sign, normal EEG in events", "Neurology confirms, physiotherapy plus psychology rehabilitate together, prognosis shared with hope — most improve"],
+            ["<strong>Dissociative amnesia and fugue</strong>", "Memory loss or wandering travel after trauma the mind cannot hold", "Safety first, gentle history without forcing recall, trauma therapy when stable — memory returns as safety grows"],
+            ["<strong>Factitious disorder</strong>", "Fakes or induces illness for the care role itself — tampered samples, dramatic histories, hospital-hopping", "Consistent team boundaries, psychiatric care, no confrontation — accusation scatters, boundaries contain"],
+            ["<strong>Malingering</strong>", "Fakes for external gain — sick excuse, drugs, money, court advantage", "Objective documentation, functional observation, clear limits, seniors involved — records describe, never diagnose motive"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Nursing: validate function, treat distress",
+          items: [
+            "<strong>Believe the suffering:</strong> symptoms are real even when their cause is the mind — 'all in your head' is never said; suffering denied seeks louder symptoms.",
+            "<strong>One team, one plan:</strong> stop contradictory opinions and repeated workups; scheduled reviews with agreed test limits replace emergency visits and doctor-shopping.",
+            "<strong>Rehabilitate function:</strong> physiotherapy goals, graded activity, return to roles — functional weakness recovers with retraining, and every regained function proves recovery possible.",
+            "<strong>Treat the comorbidity:</strong> depression and anxiety ride alongside in most — screen and treat both, because the bodily symptoms outlast untreated mood disorders.",
+            "<strong>Work with families without blame:</strong> explain the stress-body link plainly, coach help that rewards function not illness, and negotiate prayer camps — faith kept, chaining and starvation refused.",
+            "<strong>Hold the middle path:</strong> neither 'you're faking' nor 'the doctors missed it' — suffering is real, the body is healthy, and rehabilitation with talking treatment is how people recover.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Confrontation colludes in reverse",
+          body: "Accusing 'you're faking' destroys care; agreeing 'the doctors missed it' destroys recovery. The middle path: suffering is real, the body is healthy, and rehabilitation with talking treatment is how people recover.",
+        },
+      ],
+      keyPoints: [
+        "Investigate thoroughly once, then stop — repeated negatives teach scan-seeking, not recovery.",
+        "Somatic suffers symptoms, health anxiety fears disease, conversion loses function, dissociative loses memory, factitious seeks care, malingering seeks gain.",
+        "One team, scheduled reviews, agreed test limits, function goals — structure replaces shopping and dashing.",
+        "Physiotherapy plus psychology rehabilitate conversion together; comorbidity treated alongside; families coached without blame.",
+        "Neither faking-accusation nor missed-disease agreement — the middle path validates suffering and prescribes recovery.",
+      ],
+      quiz: {
+        keywords: ["somatic symptom", "health anxiety", "hypochondriasis", "conversion disorder", "functional neurological", "dissociative", "dissociative amnesia", "factitious", "malingering", "medically unexplained", "psychosomatic", "illness behaviour", "secondary gain", "reassurance seeking"],
+      },
+    }
   ],
 };

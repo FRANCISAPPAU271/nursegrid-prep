@@ -3,7 +3,7 @@ import type { CourseModule } from "../types";
 export const theProfessionTheNursingProcessAndCommunication: CourseModule = {
   slug: "the-profession-the-nursing-process-and-communication",
   title: "The profession, the nursing process and communication",
-  summary: "What nursing is and how it is organised and regulated in Ghana — history, cadres, the Nursing and Midwifery Council, the PIN and CPD, the health team, the levels of care and the NHIS — with the concepts of health, illness and holistic care, the roles of the nurse and the ethical and legal ground every lesson stands on: the four principles, valid consent, confidentiality, negligence, the Patients' Charter and accountability; the nursing process from assessment to evaluation, nursing versus medical diagnosis, SMART goals, priorities by airway–breathing–circulation and Maslow, and the care plan; and the communication and record-keeping that make care safe — therapeutic techniques and blocks, interpreters and teach-back, breaking bad news, documentation rules, SBAR handover, incident and near-miss reporting and the just culture.",
+  summary: "What nursing is and how it is organised and regulated in Ghana — history, cadres, the Nursing and Midwifery Council, the PIN and CPD, the health team, the levels of care and the NHIS — with the concepts of health, illness and holistic care, the roles of the nurse and the ethical and legal ground every lesson stands on: the four principles, valid consent, confidentiality, negligence, the Patients' Charter and accountability; the nursing process from assessment to evaluation, nursing versus medical diagnosis, SMART goals, priorities by airway–breathing–circulation and Maslow, and the care plan; and the communication and record-keeping that make care safe — therapeutic techniques and blocks, interpreters and teach-back, breaking bad news, documentation rules, SBAR handover, incident and near-miss reporting and the just culture. Culture, beliefs and bedside nursing close the module — asked, never assumed.",
   lessons: [
     {
       slug: "nursing-in-ghana-the-profession-health-and-the-patient",
@@ -358,5 +358,66 @@ export const theProfessionTheNursingProcessAndCommunication: CourseModule = {
       ],
       quiz: { keywords: ["therapeutic communication","using an interpreter","interpreter","teach back","health literacy","breaking bad news","finding out what the patient already","principles of documentation","timing of documentation","retrospective documentation","documentation and error","structured handover","handover communication","sbar","handover","incident reporting","reporting a near miss","near miss","just culture","responding to a complaint","complaint","confidentiality within the family","confidentiality in a shared ward","disclosure to a relative","verbal orders","accessing records","social media","patient identifiability","communicating with a deaf","hearing loss and communication","language and labelling","stigma in the ward","rapport","silence","nursing record","electronic record","a relative who answers for the patient","aphasia","consent form"] },
     },
+    {
+      slug: "culture-beliefs-and-nursing-care",
+      title: "Culture, beliefs and nursing care",
+      minutes: 15,
+      objectives: [
+        "Assess beliefs and practices that affect care without stereotyping.",
+        "Adapt medicines, fasting, food and modesty needs at the bedside.",
+        "Handle blood refusal, traditional medicine and prayer camps safely.",
+        "Use interpreters well and honour death and birth rites.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Every patient brings a worldview",
+          paragraphs: [
+            "Culture shapes how pain is shown or hidden, who decides (the patient, the elder, the husband, the family meeting), what food heals or harms, how birth and death must go, and whether the hospital is trusted or feared. The nurse's assessment question — 'what should we know about your beliefs to care for you well?' — outperforms every stereotype, because the Muslim name does not mean she fasts and the cross does not mean he accepts blood.",
+            "Cultural humility beats cultural competence as an aim: competence suggests the nurse has finished learning a culture; humility keeps asking, keeps adapting, and apologises and corrects when it gets it wrong — which every nurse regularly does.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Beliefs at the bedside",
+          columns: ["Belief or practice", "Nursing response", "Never"],
+          rows: [
+            ["<strong>Blood and transfusion refusal</strong>", "Explore respectfully, explain consequences plainly, offer alternatives, convene doctor and family, document the informed decision fully", "Coerce, mock or delay the meeting — refusal handled badly becomes a death and a court case"],
+            ["<strong>Fasting and medicines</strong>", "Ramadan and church fasts: adjust timing where safe, agree when the fast must break for health, ally with imam or pastor", "Declare 'health before religion' and stop listening — the patient then fasts secretly and takes nothing"],
+            ["<strong>Prayer camps and faith healing</strong>", "Respect the faith, insist on safety: medicines continue, psychosis and epilepsy watched, chaining and starvation reported as abuse", "Mock belief or surrender care to it — negotiation keeps the patient in both worlds safely"],
+            ["<strong>Traditional and herbal medicine</strong>", "Ask without judgement, record what is taken, check interactions and organ harm, agree continue-alongside over secret substitution", "Forbid what you cannot enforce — prohibition drives herbs underground where they interact unseen"],
+            ["<strong>Modesty and examination</strong>", "Same-sex carer where possible, curtains and covering, explain before exposing, chaperone always", "Expose casually or rush the covered patient — violated modesty refuses the next examination too"],
+            ["<strong>Food taboos</strong>", "Eggs, meat or fish refused postnatally or in illness: adapt the meal plan with the dietitian, find acceptable proteins", "Force the taboo food or chart 'refused diet' without offering alternatives"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Language, family, birth and death",
+          items: [
+            "<strong>Interpret properly:</strong> professional or trained interpreters first; family filter and children must never interpret bad news — speak to the patient, not the interpreter, in short chunks, and write key instructions down.",
+            "<strong>Include the deciders:</strong> elders, husbands, family meetings — bring them into the conversation early while keeping the patient's own voice central, especially hers.",
+            "<strong>Honour birth practices:</strong> position, placenta wishes, cord care, naming seclusion — negotiate each for safety rather than banning; the placenta buried at home costs nothing, the cord cut with a dirty blade costs a baby.",
+            "<strong>Honour death rites:</strong> ask the family about washing, prayers, handling, timing and placenta or burial customs — facilitate within infection rules; the body handled wrongly grieves a family for years.",
+            "<strong>Read marks correctly:</strong> tribal marks and medicinal scars are identity, documented as found — ask before assuming injury, and know which practices (and which practitioners) must be reported.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "tip",
+          title: "Ask, don't assume",
+          body: "The Muslim name doesn't mean she fasts; the cross doesn't mean he refuses blood; the illiterate grandmother may decide for the graduate daughter. One question — 'what should we know about your beliefs to care for you well?' — outperforms every stereotype.",
+        },
+      ],
+      keyPoints: [
+        "Ask beliefs, don't assume them — 'what should we know about your beliefs to care for you well?' opens every admission.",
+        "Refusal, fasting, herbs and prayer camps are negotiated for safety, never mocked and never surrendered to.",
+        "Modesty, food taboos and birth practices adapt care plans; interpreters speak short chunks to the patient, never through children.",
+        "Death rites are honoured within infection rules; marks are identity until asked otherwise.",
+        "Humility over competence — keep asking, keep adapting, apologise and correct.",
+      ],
+      quiz: {
+        keywords: ["cultural competence", "cultural care", "transcultural", "health beliefs", "traditional medicine", "traditional healer", "prayer camp", "fasting and medicines", "blood refusal", "blood transfusion refusal", "modesty", "language barrier", "interpreter", "death rites", "food taboo"],
+      },
+    }
   ],
 };

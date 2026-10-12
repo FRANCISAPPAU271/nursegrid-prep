@@ -3,7 +3,7 @@ import type { CourseModule } from "../types";
 export const communicationDocumentationQualityAndSafety: CourseModule = {
   slug: "communication-documentation-quality-and-patient-safety",
   title: "Communication, documentation, quality and patient safety",
-  summary: "The information that keeps patients safe — therapeutic communication and the patient who is hard to reach, breaking bad news, structured handover with SBAR, escalation and telephone communication, the critical result, written reports, and the rules of documentation that stand up in court and in an NHIS claim; then patient safety as a system: incidents and near misses, just culture, root cause analysis, risk management, quality dimensions, standards and SOPs, audit against research, the audit cycle and PDSA, patient identification and checklists, complaints, maternal death audit and disease notification.",
+  summary: "The information that keeps patients safe — therapeutic communication and the patient who is hard to reach, breaking bad news, structured handover with SBAR, escalation and telephone communication, the critical result, written reports, and the rules of documentation that stand up in court and in an NHIS claim; then patient safety as a system: incidents and near misses, just culture, root cause analysis, risk management, quality dimensions, standards and SOPs, audit against research, the audit cycle and PDSA, patient identification and checklists, complaints, maternal death audit and disease notification. Difficult conversations close the module — bad news, collusion, anger, refusal, disclosure and ceilings.",
   lessons: [
     {
       slug: "communication-handover-and-documentation",
@@ -230,5 +230,72 @@ export const communicationDocumentationQualityAndSafety: CourseModule = {
       ],
       quiz: { keywords: ["incident","incident report","near miss","reporting a near miss","adverse event","medication error","unharmed","wrong patient","wrong drug","just culture","punishing","blame","root cause","root cause analysis","risk management","slippery","quality improvement","quality as a","small scale","clinical audit","audit cycle","audit","hand hygiene compliance","compliance is poor","standards and protocols","standard operating","guideline","evaluating a service","satisfaction","complaint","complains about","wishes to complain","complains angrily","dissatisfied","relative complains","responding to a complaint","handling a patient complaint","managing a complaint","handling a dissatisfied","patient safety","specimen labelling and identification","wristband","surgical safety checklist","checklist","time out","falls prevention","falls risk","whistleblow","reporting an unsafe","maternal death audit","notifiable","notifiable disease","disease notification","zero reporting","surveillance data quality","infection control audit","infection prevention leadership","infection prevention committee","peer review","learning from","baseline","using data for improvement","presenting data honestly","error disclosure","interruption","double check","second check","prescription legibility","cannot read the name of a drug","critical result handling","handling critical results","resuscitation trolley","oxygen concentrator","power outage","disaster preparedness","simulation","incident reporting"] },
     },
+    {
+      slug: "difficult-conversations",
+      title: "Difficult conversations",
+      minutes: 15,
+      objectives: [
+        "Structure breaking bad news so the patient is informed and held.",
+        "Navigate family collusion without obeying or overruling it.",
+        "De-escalate anger, handle refusal and disclose harm honestly.",
+        "Hold ceiling-of-care and conflict conversations with structure.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Most of nursing's hardest work is talking",
+          paragraphs: [
+            "Bad news is a procedure: prepared, private, plain-worded, with silence as an instrument and return as a promise. The doctor usually gives the diagnosis; the nurse is there before, during and afterwards — answering the questions that arrive an hour later, holding the family that arrives with them, and never contradicting or pre-empting what the patient has been told.",
+            "Ghana adds the commonest ethical knot: relatives who love the patient asking you to keep the truth from her. Neither agree nor overrule — explore what they fear, ally with their love, explain why understanding helps, and keep the patient's right to know while letting the family be present for every step of it.",
+          ],
+        },
+        {
+                  type: "diagram",
+                  src: "/diagrams/NG-FAM-1722.svg",
+                  alt: "Bad-news structure with the Ghanaian family-collusion dilemma",
+                  caption: "Private place, sit down, ask what she knows and wants to know, warn then tell plainly, silence, feelings before facts, next steps and return. To 'please don't tell her': neither agree nor overrule — explore fears, ally with love, keep the patient's right to know.",
+                },
+        {
+          type: "table",
+          heading: "SPIKES and beyond",
+          columns: ["Step", "Do", "Avoid"],
+          rows: [
+            ["<strong>Setting</strong>", "Private place, sit down, introduce everyone, phones off, tissues within reach", "Corridors, standing over beds, interruptions — setting is the first sentence"],
+            ["<strong>Perception</strong>", "'What have you understood so far?' — start where they are", "Assuming they know nothing or everything; both insult"],
+            ["<strong>Invitation</strong>", "'How much do you want to know? Who decides with you?'", "Forcing detail on the patient who wants it in stages — or via the elder"],
+            ["<strong>Knowledge</strong>", "Warning shot, then plain words without euphemism, then STOP", "Jargon, euphemism and the burying of the news in subordinate clauses"],
+            ["<strong>Emotions</strong>", "Name the feeling, allow silence, respond to feeling before facts", "Platitudes, premature reassurance, and fleeing the silence that heals"],
+            ["<strong>Strategy</strong>", "Next steps agreed, return date set, written summary offered", "Leaving without a plan or a return — abandonment undoes honesty"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Anger, refusal, harm and ceilings",
+          items: [
+            "<strong>Angry relative:</strong> listen without interrupting, acknowledge the feeling, apologise for the experience without admitting fault, solve what you can now — security and incident forms are last resorts, not first ones.",
+            "<strong>Refusing treatment:</strong> check capacity and understanding, explore the real fear (pain, cost, faith, rumour), correct gently, involve family and doctor, document refusal with witnesses — never coerce, never abandon.",
+            "<strong>Disclosing harm:</strong> early, honest and factual — what happened, what it means, what is being done — with a senior present and full documentation; the duty of candour means the patient hears it from us, not from gossip.",
+            "<strong>Ceiling-of-care talks:</strong> honest prognosis, the patient's values and fears, family meeting with one consistent message, decision and review date documented — ceilings set in crisis without conversation haunt everyone.",
+            "<strong>Colleague conflict:</strong> private, specific, about patient impact, with a proposed fix — and up the chain when patient care is affected; corridor complaints change nothing, incident forms change systems.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Feelings before facts",
+          body: "After bad news, respond to the feeling before the facts — the tears, the silence, the anger — and only then the plan. Information given to unmet feeling is never heard; feeling met first lets facts land.",
+        },
+      ],
+      keyPoints: [
+        "Bad news runs SPIKES: setting, perception, invitation, knowledge plainly, emotions first, strategy with a return date.",
+        "To 'don't tell her': neither agree nor overrule — explore fears, ally with love, keep the patient's right to know.",
+        "Anger gets listening and solutions; refusal gets exploration and documentation; harm gets early honest disclosure with a senior present.",
+        "Ceilings are set in family meetings with one message, documented with a review date — never in corridor whispers.",
+        "Feelings before facts — information given to unmet feeling is never heard.",
+      ],
+      quiz: {
+        keywords: ["breaking bad news", "spikes", "difficult conversation", "angry relative", "complaint", "refusal of treatment", "informed refusal", "disclosure of harm", "duty of candour", "dnar", "ceiling of care", "conflict resolution", "de-escalation", "grief counselling", "bereavement support"],
+      },
+    }
   ],
 };

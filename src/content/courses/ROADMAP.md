@@ -88,3 +88,10 @@ are taught in full once and cross-referenced elsewhere rather than duplicated.
 - 2 EXPANSIONS: qualitative coding +2 (coding-to-themes table, analysis trustworthiness), RDT-negative fever +2 (what-next-by-presentation table, safety-netting).
 - DROPPED as already covered: chart-error (full safe-med lesson), antidotes (poisoning antidotes block + high-alert reversals), appraisal (CASP worked example), VHF prep (37K VHF lesson). No diagram retrofits. No credit-hour changes.
 - Post-test delta: community +0 (pools school=15, reach=23 — small but lesson-honest). No credit-hour changes.
+
+## 2026-10-12 — Batch 6 leadership/fundamentals/procedures/mental-health (113/118/124/116) on deep/batch6 — PROGRAM COMPLETE
+- 4 NEW lessons: being-in-charge-of-the-shift (leadership-04, 15 min), difficult-conversations (leadership-06, 15 min, FAM-1722 retrofit), culture-beliefs-and-nursing-care (fundamentals-01, 15 min), somatic-symptom-conversion-and-dissociative-disorders (mental-health-04, 15 min).
+- 1 EXPANSION: eating disorders +2 (medical complications table, nursing list).
+- DROPPED as already covered: documentation (two lessons), chest-drain (full procedure text), feeding-tube (NG/gastrostomy/PN + refeeding). No credit-hour changes.
+- Post-test deltas: leadership +0 (anchors pool of 264), fundamentals +8, mental +1 (bank holds ~1 somatic match).
+- PROGRAM TOTALS: 19 new lessons + 16 expansions + 7 diagram retrofits across Batches 1–6 (planned 41 new — remainder found already covered; no padding added).
