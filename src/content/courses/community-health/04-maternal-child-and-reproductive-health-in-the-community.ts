@@ -3,7 +3,7 @@ import type { CourseModule } from "../types";
 export const maternalChildAndReproductiveHealthInTheCommunity: CourseModule = {
   slug: "maternal-child-and-reproductive-health-in-the-community",
   title: "Maternal, child and reproductive health in the community",
-  summary: "Safe motherhood from the CHPS compound — early booking and the eight contacts, the routine preventives, the danger signs, birth preparedness and complication readiness, traditional birth attendants, home births and referral, the four postnatal contacts, maternal death audit, and newborn care at home; child health — the Ghana immunisation schedule, the cold chain and the vaccine vial monitor, outreach, dropout and defaulter tracing, AEFI, growth monitoring at the child welfare clinic, vitamin A and deworming, IMCI and community case management of malaria, pneumonia and diarrhoea; and family planning counselling and methods, postpartum and adolescent contraception, adolescent-friendly and school health services, the law on consent, defilement and child marriage, gender-based violence, FGM, sexually transmitted infections and cervical cancer screening.",
+  summary: "Safe motherhood from the CHPS compound — early booking and the eight contacts, the routine preventives, the danger signs, birth preparedness and complication readiness, traditional birth attendants, home births and referral, the four postnatal contacts, maternal death audit, and newborn care at home; child health — the Ghana immunisation schedule, the cold chain and the vaccine vial monitor, outreach, dropout and defaulter tracing, AEFI, growth monitoring at the child welfare clinic, vitamin A and deworming, IMCI and community case management of malaria, pneumonia and diarrhoea; and family planning counselling and methods, postpartum and adolescent contraception, adolescent-friendly and school health services, the law on consent, defilement and child marriage, gender-based violence, FGM, sexually transmitted infections and cervical cancer screening. School health services get their own lesson of screening, MDA and referral.",
   lessons: [
     {
       slug: "safe-motherhood-and-newborn-care-in-the-community",
@@ -328,5 +328,76 @@ export const maternalChildAndReproductiveHealthInTheCommunity: CourseModule = {
       ],
       quiz: { keywords: ["family planning","contracept","implant","injectable","condom","dual protection","emergency contraception","lactational amenorrhoea","vasectomy","combined oral","progestogen only","counselling","postpartum family planning","adolescent sexual health","adolescent friendly","adolescent confidentiality","confidentiality with an adolescent","adolescent pregnancy","age of consent","gender based violence","rape","female genital mutilation","cervical cancer screening","cervical screening","cervical cancer prevention","visual inspection with acetic acid","breast examination technique","breast self","school health","syndromic management","syphilis","gonorrhoea","safe abortion","post abortion care","infertility"] },
     },
+    {
+      slug: "school-health-services",
+      title: "School health services",
+      minutes: 15,
+      objectives: [
+        "Describe the components of the School Health Education Programme.",
+        "Run school screening — vision, hearing, dental, nutrition and skin — with referral.",
+        "Deliver school-based MDA, immunisation and WASH standards.",
+        "Manage menstrual health, first aid and health clubs in schools.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "The school as a health setting",
+          paragraphs: [
+            "The <strong>School Health Education Programme</strong>, run jointly by the Ghana Education Service and the Ghana Health Service, treats the school as a health setting for the children in it and a channel to the households they come from: the child dewormed, screened and taught carries the message, the medicine and the habit home. The community nurse's school role is scheduled, not occasional — entry screening each year, mass treatment rounds, club support and a referral loop that closes.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Screening — what, how, and where it goes",
+          columns: ["Screen", "How", "Refer and treat"],
+          rows: [
+            ["<strong>Vision</strong>", "E-chart at school entry and yearly; the teacher flags squinting and front-row creeping", "Fail goes to the eye clinic — spectacles change grades; cataract and allergy need more than glasses"],
+            ["<strong>Hearing</strong>", "Whisper and clap tests in a quiet room; chronic discharge noted", "Wax removed, discharging ears treated, true loss to ENT — the 'dull child' is often the deaf one"],
+            ["<strong>Dental</strong>", "Lift the lip: caries, gum disease, fluorosis", "Toothbrush and fluoride habit taught; caries to dental — pain keeps children home as surely as fever"],
+            ["<strong>Nutrition</strong>", "Pallor, BMI, under- and over-weight; younger siblings' MUAC asked about", "Anaemia worked up, school feeding linked, severe cases to the clinic with the family counselled"],
+            ["<strong>Skin</strong>", "Scabies, ringworm, tungiasis (jiggers) on hands, feet and scalp", "Treat per protocol, exclude only while infectious, treat household contacts — the classroom reinfests otherwise"],
+            ["<strong>Schistosomiasis (endemic areas)</strong>", "Blood in urine asked and tested", "Praziquantel rounds plus safe-water education — treatment without behaviour change reinfests by term's end"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "MDA, immunisation and WASH in schools",
+          items: [
+            "<strong>HPV single dose for girls from nine:</strong> consented through parents with myths answered in advance (it prevents cancer, it does not encourage sex) — catch-up rounds sweep the defaulters.",
+            "<strong>Tetanus catch-up and campaign vaccines:</strong> school rounds reach the children clinics miss — cards checked, doses recorded, adverse events watched with the teacher briefed.",
+            "<strong>Praziquantel and albendazole rounds:</strong> directly observed with a snack to cut nausea, whole school treated together, coverage recorded by class — snacks cut the vomiting that fuels refusal next round.",
+            "<strong>WASH standards enforced:</strong> separate latrines for girls and boys in adequate numbers, hand-washing stations with soap that is refilled, safe drinking water — inspect termly with the head teacher, not once.",
+            "<strong>Menstrual hygiene managed:</strong> private changing space, disposal bins emptied, emergency pads stocked, boys taught respect — menstruation costs Ghanaian girls school days every month it is unplanned for.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "First aid, clubs and the referral loop",
+          items: [
+            "<strong>Stock the first aid box and train the teacher:</strong> bleeds, sprains, asthma, seizures, fainting — what the teacher handles, what goes to the clinic now, emergency contacts posted where substitutes can find them.",
+            "<strong>Run health clubs, not lectures:</strong> peer educators, debates, hygiene inspections, substance-use and road-safety campaigns — children enforce on each other what no nurse can.",
+            "<strong>Track menstrual absence:</strong> days lost to periods, pain or teasing are recorded and acted on — analgesia access, pad supply and a no-tease policy measured in attendance, not intentions.",
+            "<strong>Close the referral loop:</strong> every screening list carries three columns — found, referred, confirmed seen — with feedback slips returned from the clinic; referred is not served.",
+            "<strong>Feed and protect together:</strong> link the school feeding programme with deworming and screening rounds — the fed child learns, the screened child is found, the treated child stays.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Screened is not served",
+          body: "A vision list without spectacles, a referral slip without feedback, a deworming round without records — screening that ends at finding is theatre. Every list needs three columns: found, referred, confirmed seen.",
+        },
+      ],
+      keyPoints: [
+        "SHEP makes the school a health setting and a channel to households — scheduled entry screening, treatment rounds, clubs and a referral loop.",
+        "Screen vision, hearing, dental, nutrition, skin and schistosomiasis — and refer with feedback, not just slips.",
+        "HPV, tetanus catch-up and praziquantel-albendazole rounds run through schools with consent, snacks and coverage records.",
+        "WASH inspected termly, menstrual hygiene stocked and tracked, first aid trained — girls' attendance measures it all.",
+        "Found, referred, confirmed seen — the three columns that turn screening into service.",
+      ],
+      quiz: {
+        keywords: ["school health", "school entry", "vision screening", "hearing screening", "deworming", "mass drug administration", "praziquantel", "albendazole", "hpv vaccine", "menstrual hygiene", "school feeding", "health club", "bullying", "dental caries"],
+      },
+    }
   ],
 };

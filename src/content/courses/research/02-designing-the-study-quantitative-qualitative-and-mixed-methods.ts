@@ -120,7 +120,7 @@ export const designingTheStudyQuantitativeQualitativeAndMixedMethods: CourseModu
     {
       slug: "qualitative-and-mixed-methods-research-interviews-focus-groups-and-trustworthiness",
       title: "Qualitative and mixed-methods research: interviews, focus groups and trustworthiness",
-      minutes: 17,
+      minutes: 19,
       objectives: [
         "Explain what qualitative research is for, how its assumptions differ from those of quantitative research, and match phenomenology, grounded theory, ethnography and the case study to the questions each answers.",
         "Describe purposive sampling and saturation, and conduct, record and transcribe an in-depth interview and a focus group discussion using open questions, probes and a topic guide in the participant's language.",
@@ -178,6 +178,31 @@ export const designingTheStudyQuantitativeQualitativeAndMixedMethods: CourseModu
           caption: "Social desirability in the raw: people tell researchers what they expect the researcher wants to hear, and stay silent about what they expect to be scolded for. The qualitative researcher's defences are rapport, a non-judgemental opening, the participant's own language, a private setting and — for the most sensitive subjects — the individual interview rather than the group.",
         },
         {
+          type: "table",
+          heading: "Coding — from transcript to themes",
+          columns: ["Step", "What to do", "Standard"],
+          rows: [
+            ["<strong>Open coding</strong>", "Label the first two or three transcripts line by line, staying close to participants' own words", "Dozens of small honest codes beat five grand premature ones"],
+            ["<strong>Codebook</strong>", "Define each code with an example; the team codes one transcript together and agrees", "Revised as you go, dated with every version — the codebook is a living document"],
+            ["<strong>Categories to themes</strong>", "Group codes into categories, then into the few themes that answer the question", "Count sparingly — frequency is not importance; one dissenting voice can be the finding"],
+            ["<strong>Saturation</strong>", "Stop sampling when the last interviews add no new codes", "Document when saturation was reached and on which code — claimed, not assumed"],
+            ["<strong>Software or manual</strong>", "NVivo or ATLAS.ti organise large studies; paper, highlighters and tables serve small ones", "The thinking is the method — software stores, the researcher interprets"],
+            ["<strong>Quotes</strong>", "Choose vivid AND typical quotes, anonymised with participant codes, never names", "Every theme earns its place with evidence the reader can inspect"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Trust in analysis — audit your own thinking",
+          items: [
+            "<strong>Transcribe fast and faithfully:</strong> within 48 hours, in the language spoken, with pauses and laughter kept — translation during transcription loses meaning; translate analysed excerpts later with a bilingual checker.",
+            "<strong>Double-code samples:</strong> two researchers code the same transcript independently, then discuss every difference — disagreement refines the codebook more than agreement confirms it.",
+            "<strong>Hunt negative cases:</strong> actively seek the quote, participant or site that breaks your emerging theme — a theme that survives its strongest challenger can be believed.",
+            "<strong>Take themes back:</strong> member checking with participants or peers — 'is this what you meant?' — corrects the researcher's projections before they harden into findings.",
+            "<strong>Keep an audit trail:</strong> dated decisions, reflexive diary entries on your own position, codebook versions — the supervisor or examiner follows your footprints from raw words to conclusions.",
+            "<strong>Defend the leaps:</strong> present raw excerpt, codes and theme together and justify each jump — analysis the researcher cannot explain step by step is opinion with quotes.",
+          ],
+        },
+        {
           type: "text",
           heading: "Trustworthiness, mixed methods and the ethics of intimacy",
           paragraphs: [
@@ -229,8 +254,10 @@ export const designingTheStudyQuantitativeQualitativeAndMixedMethods: CourseModu
         "Thematic analysis moves from immersion through coding to themes checked against the whole data set and reported with attributed verbatim quotations, while the reflexive journal records the researcher's assumptions and decisions.",
         "Trustworthiness rests on credibility (prolonged engagement, triangulation, member checking, negative cases), transferability (thick description), dependability (audit trail) and confirmability (findings traceable to data); social desirability and leading questions are its chief enemies.",
         "Mixed methods combine the traditions in convergent, explanatory sequential or exploratory sequential designs; qualitative work carries its own ethical duties about distress, identifiable quotations and the small community that knows who was interviewed.",
+        "Code line by line, build a living codebook, group into themes, stop at documented saturation — software stores, the researcher interprets.",
+        "Double-code, hunt negative cases, check back with participants, trail every decision — trustworthiness is built in analysis, not asserted after.",
       ],
-      quiz: { keywords: ["quantitative and qualitative research","qualitative","choosing a qualitative approach","saturation","purposive sampling","purposive","focus group","interview","in-depth interview","observation as a method","self reported","qualitative data analysis","transcript","analyse","trustworthiness","credibility","reflexivity","triangulation","mixed methods","action research","structuring a qualitative question","rapport before assessment","guarded and inconsistent answers","social desirability","understand why","understand how","participant","families decide","mothers decline","compliance is far higher","use of silence","honest answers about effectiveness"] },
+      quiz: { keywords: ["quantitative and qualitative research", "qualitative", "choosing a qualitative approach", "saturation", "purposive sampling", "purposive", "focus group", "interview", "in-depth interview", "observation as a method", "self reported", "qualitative data analysis", "transcript", "analyse", "trustworthiness", "credibility", "reflexivity", "triangulation", "mixed methods", "action research", "structuring a qualitative question", "rapport before assessment", "guarded and inconsistent answers", "social desirability", "understand why", "understand how", "participant", "families decide", "mothers decline", "compliance is far higher", "use of silence", "honest answers about effectiveness", "coding", "codebook", "thematic analysis", "nvivo", "member checking", "audit trail"] },
     },
   ],
 };

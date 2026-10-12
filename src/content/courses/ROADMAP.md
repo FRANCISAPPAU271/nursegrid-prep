@@ -82,3 +82,9 @@ are taught in full once and cross-referenced elsewhere rather than duplicated.
 - 2 EXPANSIONS: ventilator alarms +2 (circuit/gas/power safety, waveforms), triage +2 (ETAT table, paediatric pitfalls).
 - DROPPED as already covered: vasoactives (drug table + infusion + extravasation), deteriorating post-op (33K complications lesson), needlestick/PEP (22K incl. HepC). No diagram retrofits (no fitting unused art). No credit-hour changes.
 - Post-test deltas: emergency +6, periop +22, IPC +2 (ED keywords narrowed after +219 first pass; bank holds few sedation/MDRO questions). No credit-hour changes.
+
+## 2026-10-12 — Batch 5 pharmacy/research/community/tropical (112/121/117/120) on deep/batch5
+- 2 NEW lessons: school-health-services (community-04, 15 min), reaching-hard-to-reach-populations (community-01, 15 min).
+- 2 EXPANSIONS: qualitative coding +2 (coding-to-themes table, analysis trustworthiness), RDT-negative fever +2 (what-next-by-presentation table, safety-netting).
+- DROPPED as already covered: chart-error (full safe-med lesson), antidotes (poisoning antidotes block + high-alert reversals), appraisal (CASP worked example), VHF prep (37K VHF lesson). No diagram retrofits. No credit-hour changes.
+- Post-test delta: community +0 (pools school=15, reach=23 — small but lesson-honest). No credit-hour changes.
