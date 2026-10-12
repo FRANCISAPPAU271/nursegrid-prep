@@ -70,3 +70,9 @@ are taught in full once and cross-referenced elsewhere rather than duplicated.
 - 3 NEW lessons: brain-tumours-hydrocephalus-and-shunts (neuro-02, 16 min), headache (neuro-06, 15 min), lower-gastrointestinal-bleeding (GI-04, 15 min). Post-test deltas: neuro +45, GI +3 (anchors existing pool); keyword pools tumours=102, headache=60, lower-bleed=48.
 - 4 EXPANSIONS where coverage existed: pancreatitis +3 (Atlanta severity, feeding/definitive, lipase callout), hot-joint +2 (differential, aspiration nursing), back-pain +2 (non-mechanical patterns, chronic back), SJS/TEN +2 (SCORTEN, culprit history).
 - No diagram retrofits: bank has no shunt/migraine/melaena/gout/SJS art — text/table depth instead. No credit-hour changes.
+
+## 2026-10-12 — Batch 3 blood/obs/paeds/gynae (109/110/115/122) on deep/batch3
+- 5 NEW lessons: full-blood-count-interpretation-drill (blood-01, 15 min), breastfeeding (obs-06, 16 min), fever-and-rash-in-children-drill (paeds-04, 15 min), adolescent-health (paeds-06, 15 min), endometriosis-and-chronic-pelvic-pain (gynae-02, 15 min).
+- 2 EXPANSIONS: partograph +3 (Labour Care Guide, action scenarios, documentation callout), adnexal mass +2 (workup table + OPR-1172 diagram retrofit).
+- Transfusion drill DROPPED (two existing lessons, 55K chars, fully cover process + reactions); complementary-feeding expansion DROPPED (already well covered). No padding.
+- Post-test deltas: blood +2 (anchors pool), obs +43, paeds +28 (keywords narrowed after +299 first pass), gynae +1 (bank holds ~12 endometriosis matches). No credit-hour changes.

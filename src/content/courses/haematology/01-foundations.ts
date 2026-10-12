@@ -3,7 +3,7 @@ import type { CourseModule } from "../types";
 export const foundations: CourseModule = {
   slug: "foundations-of-blood-and-immunity",
   title: "Foundations: blood, haemostasis and the immune system",
-  summary: "What blood is made of and where it is made, what the full blood count is actually telling you, how to take and label the sample so the result can be believed, the haematological history and examination on dark skin, how bleeding stops and how the body defends itself — the vocabulary every later lesson on anaemia, sickle cell disease, bleeding, transfusion, cancer and HIV depends on.",
+  summary: "What blood is made of and where it is made, what the full blood count is actually telling you, how to take and label the sample so the result can be believed, the haematological history and examination on dark skin, how bleeding stops and how the body defends itself — the vocabulary every later lesson on anaemia, sickle cell disease, bleeding, transfusion, cancer and HIV depends on. A closing drill rehearses FBC interpretation by pattern — red cells, white cells, platelets and the film comment.",
   lessons: [
     {
       slug: "blood-haematopoiesis-and-the-full-blood-count",
@@ -125,6 +125,82 @@ export const foundations: CourseModule = {
       ],
       quiz: {
         keywords: ["full blood count","haemoglobin of","haemoglobin is","haemoglobin taken","haemoglobin values","haemoglobin 8","mean haemoglobin","point of care haemoglobin","platelet","white cell","neutrophil","leukopenia","red cell","red blood","blood film","blood sample","sample tube","order should the tubes","citrate tube","edta","haemolysed","venepuncture","pallor","lymph node","spleen","mean cell volume","blood group","blood test","grouping sample","cross matching","clotting screen","anaemi","laboratory result","normal range","reference range"],
+      },
+    },
+    {
+      slug: "full-blood-count-interpretation-drill",
+      title: "Full blood count interpretation drill",
+      minutes: 15,
+      objectives: [
+        "Classify anaemia by MCV and reticulocytes and separate iron deficiency from thalassaemia trait.",
+        "Interpret white cell patterns — neutrophilia, neutropenia, lymphocytosis, eosinophilia and blasts.",
+        "Interpret platelet counts and link thrombocytopenia to bleeding risk and cause.",
+        "Read the film comment and act on parasites, sickle cells, schistocytes and blasts.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Read in order — red, white, platelets, film",
+          paragraphs: [
+            "Every count is read the same way: <strong>red cells first</strong> (haemoglobin, then MCV, then reticulocytes — the MCV classifies, the reticulocytes explain), <strong>white cells second</strong> (total, then which line moves), <strong>platelets third</strong> (number, then bleeding), and the <strong>film comment last</strong> (the microscopist looked — read what they saw). Cover the right column of each table below, name the pattern from the middle, and say the action aloud before checking.",
+            "Two rules govern every reading: <strong>trends beat single numbers</strong> (a haemoglobin falling from 12 to 9 matters more than a stable 9), and <strong>one result never diagnoses</strong> — the count answers the clinical question, it does not replace it.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Anaemia by MCV — the drill",
+          columns: ["Pattern", "Causes", "Distinguisher and action"],
+          rows: [
+            ["<strong>Microcytic, low retics — iron deficiency</strong>", "Blood loss (hookworm, heavy periods, frequent donation), poor intake, pregnancy demand", "Low ferritin, koilonychia, pica — replace iron AND find the leak; a man or postmenopausal woman with iron deficiency is investigated for bowel cancer"],
+            ["<strong>Microcytic, normal red-cell count — thalassaemia trait</strong>", "Inherited; common where malaria selected for it, including Ghana", "Mentzer index (MCV divided by red count) under 13, normal ferritin — confirm with haemoglobin electrophoresis, counsel the couple, and stop the useless years of iron"],
+            ["<strong>Normocytic, HIGH retics — bleed or haemolysis</strong>", "Acute bleeding, haemolysis (sickle cell, malaria, G6PD, autoimmune)", "Jaundice, dark urine, high LDH and bilirubin — the marrow answers, so find what destroys or drains; transfuse the unstable, treat the cause"],
+            ["<strong>Normocytic, LOW retics — marrow cannot answer</strong>", "Anaemia of chronic disease or inflammation, kidney failure, marrow failure, early iron or B12 deficiency", "Normal retics with anaemia indict the marrow or its supplies — check kidneys, inflammation, drugs, and refer pancytopenia urgently"],
+            ["<strong>Macrocytic — B12 or folate (usually)</strong>", "Poor intake (alcohol, poverty diets), malabsorption, pregnancy demand, drugs, hypothyroidism", "Hypersegmented neutrophils on film, glossitis, numb feet in B12 — replace folate in pregnancy, B12 by injection when absorption fails, and never give folate alone before excluding B12 deficiency"],
+          ],
+        },
+        {
+          type: "table",
+          heading: "White cells and platelets — the drill",
+          columns: ["Finding", "First thoughts", "Action"],
+          rows: [
+            ["<strong>Neutrophilia</strong>", "Bacterial infection, steroids, stress, pregnancy — the commonest rise", "Find the source (chest, urine, wound, abdomen); steroids demarginate without infection — read the patient, not just the number"],
+            ["<strong>Neutropenia</strong>", "Viral infections, sepsis consuming cells, drugs, chemotherapy, marrow failure", "Under 0.5 is critical — isolate, culture fast, start antibiotics within the hour for fever; check every drug on the chart"],
+            ["<strong>Lymphocytosis</strong>", "Viral infections in children, pertussis, chronic lymphocytic leukaemia in the elderly", "Age decides: a well toddler with lymphocytes has a virus; an adult with persistent counts and nodes needs a film and referral"],
+            ["<strong>Eosinophilia</strong>", "Worms, allergy and asthma, drugs, skin disease", "Stool for ova and parasites, deworm, review drugs — eosinophils point outward to parasites and allergy, not inward to marrow"],
+            ["<strong>Blasts or atypical cells</strong>", "Leukaemia until proven otherwise", "Urgent referral the same day — do not repeat the count next week and watch; a child with blasts and bone pain goes now"],
+            ["<strong>Thrombocytopenia</strong>", "Dengue, malaria, sepsis, ITP, drugs (heparin — think HIT with clots), marrow failure, hypersplenism", "Bleeding watch, no intramuscular injections, urgent cause-hunt under 20 or with bleeding — falling platelets with new clots on heparin is HIT: stop all heparin"],
+            ["<strong>Thrombocytosis</strong>", "Reactive — iron deficiency, infection, inflammation, after splenectomy — far more often than essential", "Treat the cause and recheck; persistent counts over 1,000 with clots or erythromelalgia go to haematology"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "The film comment — what the microscopist is telling you",
+          items: [
+            "<strong>Malaria parasites:</strong> species and density guide treatment — falciparum with high density, schizonts or pigment in neutrophils is severe until proven otherwise; a negative film with strong suspicion is repeated, not believed.",
+            "<strong>Sickle cells and targets:</strong> confirm known disease or reveal it — with Howell–Jolly bodies (the spleen has died) the child needs penicillin, vaccines and malaria protection for life.",
+            "<strong>Spherocytes:</strong> small dense cells without central pallor — hereditary spherocytosis or autoimmune haemolysis; Coombs test and reticulocytes decide.",
+            "<strong>Schistocytes:</strong> fragmented red cells mean shearing in small vessels — TTP, HUS or DIC. TTP's pentad (thrombocytopenia, haemolysis, confusion, kidney injury, fever) is a plasma-exchange emergency: do not transfuse platelets without haematology.",
+            "<strong>Hypersegmented neutrophils:</strong> more than five lobes — B12 or folate deficiency written on the white cells before the anaemia declares itself.",
+            "<strong>Left shift and toxic granulation:</strong> young neutrophils with dark granules — serious bacterial infection or sepsis; pair with cultures and urgency.",
+            "<strong>Rouleaux:</strong> red cells stacked like coins — high protein: myeloma, chronic infection, pregnancy. Back pain with rouleaux and anaemia in an older adult is myeloma until disproven.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "MCV plus reticulocytes first",
+          body: "Low MCV with low retics is iron until proven otherwise — but microcytosis with a NORMAL red-cell count is thalassaemia trait: check electrophoresis before years of useless iron. High retics means the marrow answers (bleed or haemolysis); low retics means it cannot (iron, B12, marrow failure).",
+        },
+      ],
+      keyPoints: [
+        "Read red (Hb, MCV, retics), white (total then line), platelets, then the film comment — trends beat single numbers.",
+        "Microcytic: iron (low ferritin, find the leak) versus thalassaemia trait (normal red count, electrophoresis, stop the iron).",
+        "High retics means bleed or haemolysis; low retics indicts marrow or supplies; macrocytosis is B12 or folate until proven otherwise.",
+        "Neutrophils under 0.5, any blasts, schistocytes with confusion, and parasites with severity signs are same-day emergencies.",
+        "The film comment is a consultation, not decoration — parasites, sickle cells, spherocytes, hypersegmentation and rouleaux each name a disease.",
+      ],
+      quiz: {
+        keywords: ["full blood count", "fbc", "haemoglobin", "mcv", "microcytic", "macrocytic", "normocytic", "reticulocyte", "leucocytosis", "leukocytosis", "leukopenia", "neutropenia", "thrombocytopenia", "thrombocytosis", "pancytopenia", "blasts", "blood film", "malaria parasite", "eosinophilia", "thalassaemia", "anaemia", "polycythaemia"],
       },
     },
     {

@@ -123,7 +123,7 @@ export const infectionsAndBenignGynaecology: CourseModule = {
     {
       slug: "fibroids-ovarian-cysts-prolapse-incontinence-and-obstetric-fistula",
       title: "Benign gynaecology: fibroids, ovarian cysts and torsion, pelvic organ prolapse, urinary incontinence and obstetric fistula",
-      minutes: 18,
+      minutes: 20,
       objectives: [
         "Describe uterine fibroids — types, symptoms, complications in and out of pregnancy, investigation and the medical, radiological and surgical options — and counsel the Ghanaian woman for whom they are the commonest reason for gynaecological surgery.",
         "Assess an adnexal mass, distinguish functional from pathological cysts, calculate and act on the risk of malignancy, and recognise and respond to ovarian torsion and cyst rupture as surgical emergencies.",
@@ -152,6 +152,25 @@ export const infectionsAndBenignGynaecology: CourseModule = {
           alt: "The acute abdomen — where the pain points. Right upper: gallbladder, liver. Epigastric: peptic ulcer, pancreas. Left upper: spleen. Flanks: kidney, ureter. Umbilical: early appendix, small bowel. Right iliac: appendix, ectopic, ovary. Suprapubic: bladder, uterus. Left iliac: sigmoid colon, ectopic, ovary. Appendicitis moves: starts vague and central, then shifts to the right iliac fossa and becomes sharp and localised. Sudden relief of severe pain is not recovery — the appendix has burst; pain returns worse and everywhere, peritonitis. Four rules: nil by mouth; no analgesia until reviewed by the surgeon; no laxative, no enema; no heat to the abdomen. Observe, chart vital signs, IV fluids and prepare for theatre. Intestinal obstruction — pain colicky in waves, vomiting, distension, absolute constipation.",
           caption: "Both iliac fossae hold an ovary and a tube. In a woman with sudden one-sided iliac fossa pain the list is appendicitis, ectopic pregnancy, ovarian torsion and a ruptured or bleeding cyst — the pregnancy test and the ultrasound separate them, and the clock matters for all four.",
         },
+        {
+          type: "table",
+          heading: "The adnexal mass workup — in order",
+          columns: ["Step", "What to do", "Why"],
+          rows: [
+            ["<strong>1. Pregnancy test</strong>", "Urine hCG in every reproductive-age woman with pain or a mass, before scan or drugs", "Ectopic pregnancy kills and mimics everything — it is excluded first, always"],
+            ["<strong>2. History</strong>", "Pain (sudden vs chronic, cyclical?), bleeding pattern, discharge and fever, weight loss, cancer in the family", "Sudden pain is torsion or rupture; cyclical pain is endometriosis; weight loss with a mass is malignancy"],
+            ["<strong>3. Examination</strong>", "Vital signs and peritonism first, then the mass — size, mobility, tenderness — plus cervical motion tenderness", "Shock with a mass is bleeding until proven otherwise; a fixed hard mass with ascites is cancer until referred"],
+            ["<strong>4. Scan</strong>", "Simple thin-walled cyst under 5 cm in a premenopausal woman is usually functional — rescan in 6–12 weeks", "Solid areas, thick septations, nodules, ascites or bilateral masses raise malignancy concern and need referral"],
+            ["<strong>5. Tumour markers</strong>", "CA-125 interpreted WITH the scan — it also rises in endometriosis, PID, fibroids and pregnancy", "The Risk of Malignancy Index combines scan score, menopausal status and CA-125 to decide who goes to oncology"],
+            ["<strong>6. Referral</strong>", "Postmenopausal complex mass, ascites, cachexia or high RMI goes to gynaecology-oncology; acute unstable goes to theatre", "The wrong operation for ovarian cancer is worse than no operation — refer before cutting"],
+          ],
+        },
+        {
+                  type: "diagram",
+                  src: "/diagrams/NG-OPR-1172.svg",
+                  alt: "Gynaecological problems sorted by bleeding, pain, lump or discharge",
+                  caption: "Bleeding, pain, a lump or a discharge — each points to a different short list. Sudden severe pain is torsion, rupture or ectopic; cyclical long-standing pain is endometriosis or chronic infection; postmenopausal bleeding is cancer until proven otherwise.",
+                },
         {
           type: "text",
           heading: "Torsion, rupture and haemorrhage: the ovarian emergencies",
@@ -215,8 +234,10 @@ export const infectionsAndBenignGynaecology: CourseModule = {
         "Pelvic organ prolapse (cystocele, rectocele, enterocele, uterine descent to procidentia, vault prolapse) follows childbirth, straining, heavy carrying, obesity and oestrogen loss; manage with lifestyle, pelvic floor training (10-second holds, 10 times, 3 times daily for 3 months), vaginal oestrogen, a ring or shelf pessary changed every 4–6 months, and repair surgery after childbearing with lifelong avoidance of straining.",
         "Incontinence is stress, urge, mixed, overflow or continuous (fistula); assess with a 3-day bladder diary, urinalysis, cough test and post-void residual; treat infection, atrophy, caffeine and constipation, then pelvic floor training for stress and bladder training then antimuscarinics or mirabegron for urge, with surgery for refractory stress incontinence and dignified containment where cure is not possible.",
         "Obstetric fistula follows prolonged obstructed labour and causes continuous leakage, stillbirth, foot drop and social exclusion; a Foley on free drainage for 14 days to 6 weeks with 4–5 litres of fluid a day can close a fresh fistula; established fistulas are repaired free at Mankessim, Tamale and the teaching hospitals with over 80 per cent success; post-repair catheter care, high fluids and no distension decide the outcome; reintegration and an elective caesarean next time complete the care; the partograph and timely referral prevent it.",
+        "Pregnancy test first, history and examination second, scan third — simple small premenopausal cysts are watched, complex or postmenopausal masses are referred.",
+        "CA-125 means nothing without the scan; the Risk of Malignancy Index decides who needs gynaecology-oncology before any operation.",
       ],
-      quiz: { keywords: ["fibroid","ovarian","torsion","cystocele","uterine prolapse","uterine-prolapse","pelvic-organ","pelvic organ","colporrhaphy","something coming down","incontinence","bladder training","obstetric fistula","obstructed labour","leakage of urine","leaking urine","fistula","urinary catheter","catheterised","self-catheterisation","retained urine","drainage bag","urinary retention","hysterectom","cyst removed","iron deficiency","sinus and fistula","pelvic pain","endometri","one-sided","urinalysis","continuous bladder","indwelling","female catheterisation","catheter-associated"] },
+      quiz: { keywords: ["fibroid", "ovarian", "torsion", "cystocele", "uterine prolapse", "uterine-prolapse", "pelvic-organ", "pelvic organ", "colporrhaphy", "something coming down", "incontinence", "bladder training", "obstetric fistula", "obstructed labour", "leakage of urine", "leaking urine", "fistula", "urinary catheter", "catheterised", "self-catheterisation", "retained urine", "drainage bag", "urinary retention", "hysterectom", "cyst removed", "iron deficiency", "sinus and fistula", "pelvic pain", "endometri", "one-sided", "urinalysis", "continuous bladder", "indwelling", "female catheterisation", "catheter-associated", "pregnancy test", "ca-125", "rmi", "ultrasound", "referral", "ascites", "malignancy"] },
     },
   ],
 };
