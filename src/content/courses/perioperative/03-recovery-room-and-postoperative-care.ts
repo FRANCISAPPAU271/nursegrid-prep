@@ -3,7 +3,7 @@ import type { CourseModule } from "../types";
 export const recoveryRoomAndPostoperativeCare: CourseModule = {
   slug: "recovery-room-and-postoperative-care",
   title: "Recovery room and postoperative care",
-  summary: "The first hour after anaesthesia — the handover from theatre, the airway, breathing and circulation checks in order, the recovery position, oxygen, pain, nausea, shivering and the block that has not yet worn off, the criteria for discharge from recovery and the handover to the ward; postoperative care on the ward — observations and the early warning score, breathing exercises and early mobilisation, analgesia by the clock, patient-controlled and epidural analgesia, fluids, urine output and the fluid balance chart, nasogastric tubes and the return of bowel function, diet progression and enhanced recovery, wound and drain care, elimination, sleep and the record; and the complications in their timetable — haemorrhage and hypovolaemic shock, the fever by day, atelectasis and pneumonia, surgical site infection, dehiscence and evisceration, deep vein thrombosis and pulmonary embolism, ileus and obstruction, anastomotic leak, urinary retention and infection, delirium, fat embolism and sepsis.",
+  summary: "The first hour after anaesthesia — the handover from theatre, the airway, breathing and circulation checks in order, the recovery position, oxygen, pain, nausea, shivering and the block that has not yet worn off, the criteria for discharge from recovery and the handover to the ward; postoperative care on the ward — observations and the early warning score, breathing exercises and early mobilisation, analgesia by the clock, patient-controlled and epidural analgesia, fluids, urine output and the fluid balance chart, nasogastric tubes and the return of bowel function, diet progression and enhanced recovery, wound and drain care, elimination, sleep and the record; and the complications in their timetable — haemorrhage and hypovolaemic shock, the fever by day, atelectasis and pneumonia, surgical site infection, dehiscence and evisceration, deep vein thrombosis and pulmonary embolism, ileus and obstruction, anastomotic leak, urinary retention and infection, delirium, fat embolism and sepsis. Pumps, blocks and neuraxial red flags get their own analgesia lesson.",
   lessons: [
     {
       slug: "the-recovery-room-and-handover-to-the-ward",
@@ -229,6 +229,75 @@ export const recoveryRoomAndPostoperativeCare: CourseModule = {
         "Walking from day one, stockings and heparin, two-hourly pressure relief, hygiene, mouth care, sleep and honest information complete the care; enhanced recovery protocols cut complications by a third; and the patient goes home after abdominal surgery knowing how to care for the wound, what not to lift for four to six weeks, when sutures come out and the signs that mean she must return.",
       ],
       quiz: { keywords: ["post-operative respiratory complications","deep breathing","chest physiotherapy","early mobilisation","immobility complications","patient controlled analgesia","breakthrough pain","analgesic ladder","opioid-induced constipation","urine output after major surgery","fluid balance chart","intravenous infusion","drip rate","drops per minute","infiltration","phlebitis","nasogastric tube after bowel surgery","nasogastric tube complications","return of bowel function","flatus","paralytic ileus","nutrition after gastrointestinal surgery","diet progression","clear fluids","enhanced recovery","total parenteral nutrition","surgical drains","surgical drain observation","managing a surgical drain","wound pain that worsens","aseptic dressing technique","discharge advice after abdominal surgery","pressure ulcer prevention","thromboprophylaxis","post-operative","postoperative","after surgery","mobilis","nasogastric","fluid balance","cannula","opioid"] },
+    },
+    {
+      slug: "patient-controlled-epidural-and-regional-analgesia",
+      title: "Patient-controlled, epidural and regional analgesia",
+      minutes: 15,
+      objectives: [
+        "Run patient-controlled analgesia safely from double-check to monitoring.",
+        "Nurse the epidural: block height, motor checks, pressure and red flags.",
+        "Recognise local anaesthetic toxicity and post-dural-puncture headache.",
+        "Time anticoagulants around neuraxial catheters and remove catheters safely.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Beyond the ladder — when pain needs a pump or a catheter",
+          paragraphs: [
+            "Multimodal analgesia — paracetamol plus NSAID around the clock — continues underneath everything in this lesson; pumps and catheters add to it, never replace it. <strong>PCA</strong> puts a safe bolus in the patient's own hand with a lockout that makes overdose nearly impossible — provided ONLY the patient presses the button, a rule the family must hear as a prohibition, not a suggestion. <strong>Epidurals</strong> bathe spinal nerves in dilute local anaesthetic for thorax, abdomen and major joint surgery, and <strong>regional catheters</strong> numb single limbs — all three trade superb pain relief for complications the nurse must catch early.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "PCA nursing — checks that cannot be skipped",
+          columns: ["Step", "Standard", "If wrong"],
+          rows: [
+            ["<strong>Prescription</strong>", "Drug, concentration, bolus dose, lockout interval and any background infusion — checked by TWO nurses against the pump", "Any mismatch stops everything until the prescriber clarifies — programmed pumps obey errors faithfully"],
+            ["<strong>Setup</strong>", "Dedicated line or non-return valve, anti-siphon valve, pump history cleared, patient taught: press BEFORE pain peaks", "Shared lines without valves siphon boluses into fluids or flush opioids as a bolus — both kill"],
+            ["<strong>Monitoring</strong>", "Pain, sedation and respiratory rate hourly then 4-hourly; nausea, itch and retention asked; 4-hourly totals reviewed", "Rising demand means uncontrolled pain OR a complication (bleeding, compartment syndrome, urine retention) — examine, don't just increase"],
+            ["<strong>Over-sedation</strong>", "Stop the pump, oxygen, stimulate, call — naloxone titrated 40–100 micrograms to breathing, not to wide awake", "Background infusions in opioid-naive adults cause most PCA harm — question them, monitor harder, remove early"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Epidural nursing — block checks and red flags",
+          items: [
+            "<strong>Map the block every shift:</strong> cold or ice level documented against the surgical site — a block climbing too high brings hypotension and bradycardia: fluids, vasopressor per protocol, head-down tilt, and the anaesthetist called.",
+            "<strong>Grade movement with Bromage:</strong> full movement, knee weakness, foot movement only, or complete block — dense block with new back pain is a haematoma until MRI disproves it; urinary retention is expected, so catheterise per protocol.",
+            "<strong>Watch pressure and breathing:</strong> hypotension is common as vessels dilate — fluids first, then protocol vasopressor; respiratory depression is rare with dilute solutions but real — naloxone and escalation as for PCA.",
+            "<strong>Suspect infection late:</strong> fever with back pain and new deficit days after insertion is an epidural abscess — emergency MRI and antibiotics; aseptic insertion technique and daily site inspection prevent most.",
+            "<strong>Time anticoagulants exactly:</strong> catheter removal 12 hours after prophylactic LMWH with the next dose 4 hours after — follow the protocol to the hour, never improvise, because the haematoma that paralyses comes from a mistimed dose.",
+            "<strong>Remove and verify:</strong> check the catheter tip is intact on removal, document length and tip, and continue neuro observations — deficits can declare after removal too.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Regional blocks, LAST and spinal headache",
+          items: [
+            "<strong>Protect the numb limb:</strong> pressure areas, burns from heat, falls on an insensate leg — the block that removes pain removes protection; have the oral pain plan ready for when it wears off.",
+            "<strong>Know LAST by heart:</strong> local anaesthetic systemic toxicity — perioral tingling, tinnitus, agitation, then seizures and arrest: stop the LA, give oxygen, control seizures with benzodiazepine, and run 20% LIPID emulsion per protocol — know where the lipid kit lives before you need it.",
+            "<strong>Watch for spinal headache:</strong> positional headache within days of spinal anaesthesia or accidental dural puncture — worse upright, better flat: fluids, caffeine, analgesia, and an epidural blood patch when severe or prolonged.",
+            "<strong>Document the block lifecycle:</strong> what was placed, what runs through it, block height and Bromage each shift, site condition, removal time and tip — the record that proves vigilance when nerves are questioned.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "warning",
+          title: "Back pain with a block is a scan, not reassurance",
+          body: "New back pain, numb weak legs or bladder change with an epidural in place or recently removed is a haematoma or abscess until MRI disproves it — call anaesthesia immediately; decompression within hours saves legs, reassurance loses them.",
+        },
+      ],
+      keyPoints: [
+        "Multimodal base continues under every pump and catheter; only the patient presses PCA — family pressing kills.",
+        "PCA needs two-nurse programming checks, anti-siphon setup, sedation-plus-rate monitoring and 4-hourly totals review.",
+        "Epidurals need block height, Bromage, pressure and site checks every shift — dense block with back pain is MRI today.",
+        "Anticoagulant timing around catheters follows the protocol to the hour; verify the tip on removal and keep neuro obs.",
+        "LAST runs lipid emulsion; spinal headache lies flat, hydrates and patches when severe.",
+      ],
+      quiz: {
+        keywords: ["patient controlled analgesia", "pca", "epidural", "spinal headache", "postdural puncture", "regional block", "local anaesthetic toxicity", "respiratory depression", "naloxone", "motor block", "bromage", "catheter removal", "multimodal analgesia", "epidural haematoma", "epidural abscess"],
+      },
     },
     {
       slug: "postoperative-complications-and-their-timetable",

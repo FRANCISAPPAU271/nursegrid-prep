@@ -2,8 +2,8 @@ import type { CourseModule } from "../types";
 
 export const traumaEnvironmentalAndPoisoning: CourseModule = {
   slug: "trauma-environmental-emergencies-and-poisoning",
-  title: "Trauma, environmental emergencies and poisoning",
-  summary: "The injured patient from the roadside to the ward — mechanism, the trauma primary survey, the chest injuries that kill in minutes, haemorrhage, abdominal and pelvic injury, head and spinal injury, limbs, compartment syndrome and amputated parts, and the signs of abuse; then burns in the emergency phase, drowning, electrical injury, heat stroke, hypothermia, snakebite, scorpion and bee stings, dog bites and rabies, and tetanus-prone wounds; then poisoning and overdose with the five principles, the common Ghanaian poisons and their antidotes, and the care of the patient who harmed themselves.",
+  title: "Trauma, acute pain and procedural sedation, environmental emergencies and poisoning",
+  summary: "The injured patient from the roadside to the ward — mechanism, the trauma primary survey, the chest injuries that kill in minutes, haemorrhage, abdominal and pelvic injury, head and spinal injury, limbs, compartment syndrome and amputated parts, and the signs of abuse; then burns in the emergency phase, drowning, electrical injury, heat stroke, hypothermia, snakebite, scorpion and bee stings, dog bites and rabies, and tetanus-prone wounds; then poisoning and overdose with the five principles, the common Ghanaian poisons and their antidotes, and the care of the patient who harmed themselves. Acute pain and procedural sedation close the module — ladder analgesia that is reassessed, ketamine, blocks and rescue.",
   lessons: [
     {
       slug: "trauma-nursing",
@@ -350,5 +350,76 @@ export const traumaEnvironmentalAndPoisoning: CourseModule = {
       ],
       quiz: { keywords: ["poison","overdose","swallowed","ingest","many paracetamol tablets","quantity of paracetamol","paracetamol overdose","paracetamol tablets","paracetamol eight hours","paracetamol four hours","unknown number of paracetamol","large quantity of tablets","quantity of tablets","kerosene","paraffin","drinks bottle","drink bottle","soft drink bottle","stored in a","vomiting not be induced","mouthwash","unsure how much","organophosphate","pesticide","pinpoint","salivat","wet lungs","atropine","naloxone","pethidine","respiratory rate of 6","respirations of 7","unrousable","difficult to rouse","opioid overdose","charcoal","activated charcoal","deliberate","self harm","deliberate overdose","after a deliberate","unknown substance","akpeteshie","caustic","battery","benzodiazepine","how much was","drunk","thiamine","wernicke","sugar in his mouth","unconscious diabetic","glucagon","10% dextrose","naloxone duration","observed closely","risk assessment after","suicide risk","twelve hours after","button battery","codeine"] },
     },
+    {
+      slug: "acute-pain-and-procedural-sedation",
+      title: "Acute pain and procedural sedation",
+      minutes: 16,
+      objectives: [
+        "Assess pain rapidly with PQRST and the right scale for the patient.",
+        "Deliver ladder analgesia by protocol and reassess after every intervention.",
+        "Prepare and monitor procedural sedation with capnography and a dedicated watcher.",
+        "Rescue over-sedation with airway steps, flumazenil and naloxone.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Pain is the emergency too",
+          paragraphs: [
+            "Emergency departments under-treat pain everywhere — the elderly who do not complain, the intoxicated who cannot, the sickle cell patient labelled drug-seeking for knowing the dose that works. <strong>Oligoanalgesia</strong> has a name because it has victims: pain that delays breathing exercises, hides examination, and turns trust to fear. Treat pain as the fifth vital sign — scored on arrival, rescored after every intervention, and believed.",
+            "Assess fast: <strong>PQRST</strong> (provokes, quality, radiates, severity 0–10, time) with a scale that fits — numbers for adults, faces for children, FLACC behaviour for toddlers, CPOT for the non-verbal adult. The loop that fails most is not assessment but <strong>reassessment</strong>: score, treat, rescore, escalate — every time.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "The ED ladder — drug by pain",
+          columns: ["Pain", "Regimen", "Notes"],
+          rows: [
+            ["<strong>Mild to moderate</strong>", "Paracetamol plus NSAID together (ibuprofen or diclofenac where safe), ice, splint, position", "Reassess at 30–60 minutes; the combination beats either drug alone and spares opioids"],
+            ["<strong>Severe</strong>", "IV morphine titrated 2.5–5 mg every 5–10 minutes with an antiemetic, to pain controlled or sedation", "Chart pain, sedation and respiratory rate with every dose; have naloxone drawn; frail and elderly start smaller"],
+            ["<strong>Renal colic</strong>", "NSAID first — diclofenac IM or IV — plus fluids; opioid only if pain persists", "The NSAID treats the ureteric spasm itself; fever with colic is an obstructed infected kidney — urgent decompression"],
+            ["<strong>Sickle cell crisis</strong>", "The patient's own effective plan, believed and started fast — parenteral opioids, fluids, oxygen if hypoxic", "Score believed, waits measured in minutes; dismissing known patients as seeking is the error examiners punish"],
+            ["<strong>Fracture and dislocation</strong>", "Splint FIRST — the best analgesic for a fracture — plus Entonox for the move and a block where skilled", "Neurovascular checks before and after every splint and every manipulation, documented both times"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Procedural sedation — reductions, dislocations, cardioversion, abscess",
+          items: [
+            "<strong>Consent and fast honestly:</strong> explain the plan, the grogginess and the rare risks; aspiration risk is weighed, not wished away — urgent procedures proceed with suction ready and positioning planned.",
+            "<strong>Prepare like an anaesthetic:</strong> IV access, monitors on, oxygen running, suction tested, airway kit open, and reversal agents DRAWN UP — flumazenil for benzodiazepines, naloxone for opioids — before the first sedative dose.",
+            "<strong>Know ketamine's deal:</strong> 1–1.5 mg/kg IV dissociates — eyes open but elsewhere, airway reflexes kept, pain and memory gone; warn of vivid dreams and soften with midazolam; laryngospasm is rare and answers to positioning, suction and bagging.",
+            "<strong>Monitor continuously with a dedicated watcher:</strong> pulse oximetry plus capnography where available, blood pressure and respiratory rate every 5 minutes, sedation score charted — the watcher watches the patient, not the procedure.",
+            "<strong>Recover to baseline:</strong> observe until talking, walking and scoring baseline; discharge with an escort, written instructions and a plan for pain at home — no driving, no decisions, no alcohol for 24 hours.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Blocks the ED nurse assists",
+          columns: ["Block", "For", "Nursing points"],
+          rows: [
+            ["<strong>Fascia iliaca / femoral</strong>", "Hip fracture — the block that replaces buckets of morphine in the frail elderly", "Position lateral, expose landmarks, monitor through injection, watch for local anaesthetic toxicity"],
+            ["<strong>Haematoma block</strong>", "Colles fracture reduction — lidocaine into the fracture haematoma under sterile prep", "Sterile field, label the syringe, check median nerve function before and after"],
+            ["<strong>Digital block</strong>", "Finger injuries and dislocations — never with adrenaline-containing solution", "Elevate after, check capillary refill, warn the numb finger burns and crushes unnoticed"],
+            ["<strong>Bier's block (IV regional)</strong>", "Forearm procedures under tourniquet — specialist only", "Tourniquet time watched to the minute; release is staged; resuscitation kit present for LA toxicity"],
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Ketamine in one line",
+          body: "Ketamine 1–1.5 mg/kg IV dissociates — eyes open but elsewhere, airway reflexes kept, emergence dreams warned and midazolam-softened; laryngospasm is rare, suction and bagging are the answer, and the patient is watched till talking baseline.",
+        },
+      ],
+      keyPoints: [
+        "Score pain on arrival with the fitting scale, believe the score, treat by ladder, and rescore after every intervention.",
+        "NSAID first for renal colic, the patient's own plan fast for sickle crisis, splint first for fractures — then reassess.",
+        "Sedation is prepared like an anaesthetic: consent, monitors, suction, airway kit, and flumazenil plus naloxone drawn before dosing.",
+        "Ketamine preserves airway reflexes but still needs a dedicated watcher, capnography and recovery to baseline.",
+        "Blocks spare opioids — fascia iliaca for hips, haematoma for Colles — with neurovascular checks before and after.",
+      ],
+      quiz: {
+        keywords: ["pain assessment", "oligoanalgesia", "procedural sedation", "conscious sedation", "ketamine", "nitrous oxide", "entonox", "nerve block", "femoral block", "haematoma block", "renal colic", "sickle cell pain", "fracture pain", "flumazenil", "capnography", "fasting before sedation", "sedation score"],
+      },
+    }
   ],
 };

@@ -76,3 +76,9 @@ are taught in full once and cross-referenced elsewhere rather than duplicated.
 - 2 EXPANSIONS: partograph +3 (Labour Care Guide, action scenarios, documentation callout), adnexal mass +2 (workup table + OPR-1172 diagram retrofit).
 - Transfusion drill DROPPED (two existing lessons, 55K chars, fully cover process + reactions); complementary-feeding expansion DROPPED (already well covered). No padding.
 - Post-test deltas: blood +2 (anchors pool), obs +43, paeds +28 (keywords narrowed after +299 first pass), gynae +1 (bank holds ~12 endometriosis matches). No credit-hour changes.
+
+## 2026-10-12 — Batch 4 emergency/ICU/theatre/IPC (111/123/119/114) on deep/batch4
+- 3 NEW lessons: acute-pain-and-procedural-sedation (emergency-05, 16 min), patient-controlled-epidural-and-regional-analgesia (periop-03, 15 min), multidrug-resistant-organisms (IPC-03, 15 min).
+- 2 EXPANSIONS: ventilator alarms +2 (circuit/gas/power safety, waveforms), triage +2 (ETAT table, paediatric pitfalls).
+- DROPPED as already covered: vasoactives (drug table + infusion + extravasation), deteriorating post-op (33K complications lesson), needlestick/PEP (22K incl. HepC). No diagram retrofits (no fitting unused art). No credit-hour changes.
+- Post-test deltas: emergency +6, periop +22, IPC +2 (ED keywords narrowed after +219 first pass; bank holds few sedation/MDRO questions). No credit-hour changes.
