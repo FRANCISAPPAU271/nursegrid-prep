@@ -96,7 +96,7 @@ export const obstructive: CourseModule = {
     {
       slug: "copd",
       title: "Chronic obstructive pulmonary disease",
-      minutes: 15,
+      minutes: 19,
       objectives: [
         "Differentiate chronic bronchitis and emphysema and relate them to the clinical picture.",
         "Manage an acute exacerbation with controlled oxygen, bronchodilators, steroids and antibiotics.",
@@ -125,6 +125,27 @@ export const obstructive: CourseModule = {
           ],
         },
         {
+          type: "text",
+          heading: "Staging the stable disease — and choosing inhalers",
+          paragraphs: [
+            "Stable COPD is now grouped A, B and E from symptoms (breathlessness scores, the CAT questionnaire) and exacerbation history — not from the FEV1 number. Group A (few symptoms, no recent flare) needs a single bronchodilator. Group B (troublesome daily symptoms, no severe flare) needs LABA plus LAMA together. Group E (two moderate or one hospitalised exacerbation in the last year) starts LABA plus LAMA — and adds an inhaled steroid only if blood eosinophils are 300 or above, because steroids help eosinophilic inflammation and harm the rest with pneumonia risk.",
+            "The principle that saves money and lungs: <strong>check technique and adherence before stepping up.</strong> Half of failing treatment is an inhaler fired into the air in front of open lips. Watch the patient use their own device at every visit, add a spacer to every metered-dose inhaler, and ask about smoking, biomass smoke, missed doses, cost and herbal substitutes before adding another drug. Theophylline tablets remain in Ghanaian practice as a cheap last resort — narrow safety margin, so watch for nausea, tremor and palpitations and check interactions with antibiotics and seizure drugs.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "COPD inhalers and drugs",
+          columns: ["Class", "Examples", "Device and technique point", "Watch for"],
+          rows: [
+            ["<strong>SABA — rescue</strong>", "Salbutamol", "Metered-dose inhaler plus spacer, or nebuliser in exacerbation", "Tremor, fast pulse, low potassium with heavy use"],
+            ["<strong>SAMA — rescue</strong>", "Ipratropium", "Often combined with salbutamol in one nebuliser", "Dry mouth; caution in glaucoma (mask seal) and urinary retention"],
+            ["<strong>LABA — maintenance</strong>", "Salmeterol, formoterol", "Twice daily, dry-powder or MDI — rinsing not needed", "Tremor, palpitations; never alone in asthma, but no routine ICS needed in COPD"],
+            ["<strong>LAMA — maintenance</strong>", "Tiotropium", "Once daily HandiHaler or soft-mist — slow deep breath, hold 10 seconds", "Dry mouth, constipation, urinary difficulty; the backbone of Groups B and E"],
+            ["<strong>ICS/LABA — selected</strong>", "Budesonide/formoterol, fluticasone/salmeterol", "Rinse mouth after every use; spacer helps", "Oral thrush, hoarseness, pneumonia risk — reserve for frequent flares with eosinophils"],
+            ["<strong>Triple therapy</strong>", "ICS/LABA/LAMA", "Single or multiple inhalers — simplify where possible", "Review yearly: can the steroid be withdrawn if no flares and low eosinophils?"],
+          ],
+        },
+        {
           type: "list",
           heading: "Acute exacerbation — nursing and medical management",
           items: [
@@ -136,6 +157,18 @@ export const obstructive: CourseModule = {
             "<strong>Type 2 respiratory failure</strong> — rising PaCO2 with pH below 7.35 despite an hour of optimal treatment — needs <strong>non-invasive ventilation (BiPAP)</strong>: explain, fit the mask, start low pressures and build up, stay with the patient for the first 30 minutes, check the gas at 1 and 4 hours, protect the nasal bridge, allow breaks for drinks and nebulisers, and watch for gastric distension and vomiting. Decide and document in advance whether intubation would be appropriate.",
             "<strong>General care:</strong> upright position, pursed-lip breathing coaching, pacing of activities, hydration to loosen sputum, chest physiotherapy if secretions are retained, early mobilisation, VTE prophylaxis, nutrition (small frequent high-energy meals — eating is exhausting), reassurance for the anxiety that always accompanies breathlessness, and sedatives avoided.",
             "<strong>Danger signs:</strong> drowsiness, confusion, flapping tremor, bounding pulse, falling respiratory rate — hypercapnia — or SpO2 that will not reach 88% on controlled oxygen; a silent chest; new chest pain (pneumothorax); haemodynamic instability.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Cor pulmonale and the long-term complications",
+          items: [
+            "<strong>Cor pulmonale:</strong> years of hypoxia narrow the pulmonary vessels until the right heart fails — raised JVP, ankle and sacral oedema, tender enlarged liver, ascites. Oxygen is the treatment that unloads the right heart; diuretics relieve swelling but over-diuresis drops the preload a stiff ventricle needs — weigh daily and titrate to the JVP, not to dry legs.",
+            "<strong>Polycythaemia:</strong> chronic hypoxia drives extra red cells — ruddy face, headache, sluggish blood. Hydration and oxygen are the answer; venesection is rarely needed and smoking must stop because carbon monoxide worsens it.",
+            "<strong>Wasting and weakness:</strong> breathing burns calories and steroids waste muscle — the thin emphysematous patient keeps losing weight. High-protein small meals, resistance exercise in rehabilitation, vitamin D and a physiotherapy referral do more than appetite tonics.",
+            "<strong>Bone and eye costs of steroids:</strong> repeated prednisolone courses thin bones and cloud lenses. Calcium and vitamin D, bone-protecting treatment for the frequent user, and eye checks for cataract and glaucoma in ICS users.",
+            "<strong>Mind and sleep:</strong> breathlessness breeds anxiety, and anxiety breeds breathlessness; depression hides in a third of severe COPD. Screen mood, treat panic-breathing with pursed-lip coaching, and ask about morning headache and daytime sleepiness — overlap with sleep apnoea is common.",
+            "<strong>Bullae and pneumothorax:</strong> emphysematous lungs tear — sudden one-sided pain with worse breathlessness after coughing is a pneumothorax until proven otherwise. Keep oxygen targeted even with a chest drain, and warn bronchoscopic and flying patients to seek advice first.",
           ],
         },
         {
@@ -166,9 +199,11 @@ export const obstructive: CourseModule = {
         "Drowsiness, flapping tremor and a bounding pulse mean CO2 retention; a pH below 7.35 after an hour means NIV.",
         "Pursed-lip breathing, pacing, pulmonary rehabilitation, vaccination and smoking cessation are nursing interventions, not extras.",
         "Long-term oxygen for 15 hours a day prolongs life in the severely hypoxic non-smoker.",
+        "Stable COPD is grouped A, B, E by symptoms and flares: LABA plus LAMA for B and E, adding inhaled steroid only with frequent flares and eosinophils above 300.",
+        "Cor pulmonale is treated with oxygen first and cautious diuretics; repeat steroids cost bone, muscle and mood — protect all three.",
       ],
       quiz: {
-        keywords: ["copd", "chronic obstructive", "emphysema", "chronic bronchitis", "pursed lip", "hypercapn", "co2 retention", "cor pulmonale", "smoking", "venturi", "non invasive ventilation", "bipap", "oxygen", "barrel chest", "spirometry"],
+        keywords: ["copd", "chronic obstructive", "emphysema", "chronic bronchitis", "pursed lip", "hypercapn", "co2 retention", "cor pulmonale", "smoking", "venturi", "non invasive ventilation", "bipap", "oxygen", "barrel chest", "spirometry", "gold", "lama", "laba", "tiotropium", "eosinophil", "pulmonary hypertension", "polycythaemia", "theophylline", "pulmonary rehabilitation"],
       },
     },
   ],

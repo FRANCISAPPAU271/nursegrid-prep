@@ -13,7 +13,7 @@ export const respiratoryNursing: Course = {
   title: "Respiratory Nursing",
   tagline: "Oxygen, airways, blood gases and the chest diseases that fill Ghanaian wards — taught in the order you meet them at the bedside.",
   description:
-    "A structured course covering respiratory anatomy and physiology, focused chest assessment, oxygen therapy and airway care, recognising deterioration, arterial blood gas interpretation and acid–base balance with a mixed-disorder drill, asthma, COPD, pneumonia, tuberculosis, pleural disease and chest drains, pulmonary embolism, pneumothorax, respiratory failure, choking, anaphylaxis and respiratory pharmacology with calculations. Each lesson is written for Ghanaian nursing and midwifery students, uses the diagrams from the NurseGrid question bank, and ends with practice questions drawn from the same bank. Finish every learning activity, pass the post-test and complete the evaluation to earn your certificate.",
+    "A structured course covering respiratory anatomy and physiology, focused chest assessment, oxygen therapy and airway care, recognising deterioration, arterial blood gas interpretation and acid–base balance with a mixed-disorder drill, asthma, COPD, pneumonia, tuberculosis, pleural disease and chest drains, pulmonary embolism, pneumothorax, respiratory failure, choking, anaphylaxis and respiratory pharmacology with calculations. Each lesson is written for Ghanaian nursing and midwifery students, uses the diagrams from the NurseGrid question bank, and ends with practice questions drawn from the same bank. The course also covers lung cancer, the malignancy that mimics respiratory infection. Finish every learning activity, pass the post-test and complete the evaluation to earn your certificate.",
   icon: "🫁",
   level: "Intermediate",
   gradient: "from-sky-600 via-cyan-500 to-teal-400",
@@ -28,6 +28,7 @@ export const respiratoryNursing: Course = {
     "Assess pneumonia with CURB-65, screen, diagnose and support six months of tuberculosis treatment, and apply droplet and airborne precautions correctly.",
     "Care for a patient with a pleural effusion or chest drain and recognise pulmonary embolism, tension pneumothorax, respiratory failure, choking and anaphylaxis as the emergencies they are.",
     "Administer respiratory drugs safely with correct inhaler technique, monitoring and dose calculations.",
+    "Recognise the red flags of lung cancer, respond to its emergencies and support smoking cessation and palliative care.",
   ],
   audience: [
     "Final-year nursing and midwifery students preparing for the N&MC licensing examination",

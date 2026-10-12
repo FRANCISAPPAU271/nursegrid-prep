@@ -3,7 +3,7 @@ import type { CourseModule } from "../types";
 export const renalReplacement: CourseModule = {
   slug: "renal-replacement-therapy",
   title: "Dialysis and kidney transplantation",
-  summary: "What haemodialysis and peritoneal dialysis do, how to care for the access that keeps a patient alive, the complications of each treatment, and the nursing of the kidney transplant recipient.",
+  summary: "What haemodialysis and peritoneal dialysis do, how to care for the access that keeps a patient alive, the complications of each treatment, and the nursing of the kidney transplant recipient. A closing drill rehearses the emergencies: hypotension, dialyser reactions, air embolism, bleeding access and peritonitis.",
   lessons: [
     {
       slug: "dialysis-and-transplant-nursing",
@@ -107,5 +107,79 @@ export const renalReplacement: CourseModule = {
         keywords: ["dialysis", "haemodialysis", "peritoneal", "fistula", "arteriovenous", "thrill", "bruit", "transplant", "immunosuppress", "tacrolimus", "rejection", "peritonitis", "effluent", "tenckhoff", "dry weight", "disequilibrium", "chronic kidney", "renal failure", "kidney failure", "hepatitis b", "heparin"],
       },
     },
+    {
+      slug: "dialysis-emergencies-drill",
+      title: "Dialysis emergencies drill",
+      minutes: 14,
+      objectives: [
+        "Recognise and respond to intradialytic hypotension, cramps, disequilibrium and dialyser reactions.",
+        "Act on air embolism, haemolysis, access bleeding and hyperkalaemia without delay.",
+        "Manage peritonitis, exit-site infection, outflow failure and fluid leaks in peritoneal dialysis.",
+        "Apply the first-five-minutes routine to any dialysis emergency.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "A drill, not a lecture",
+          paragraphs: [
+            "The previous lesson taught the treatments; this one drills the emergencies. Each table row is a scenario — cover the right column, name the emergency from the middle, and say your first three actions aloud before checking. In a dialysis emergency the order never changes: keep the patient alive, stop the harm, then call for help and document — and every minute of delay in peritonitis, air embolism or a bleeding fistula costs function or life.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "On haemodialysis — the emergency drill",
+          columns: ["Emergency", "First signs", "Immediate actions"],
+          rows: [
+            ["<strong>Intradialytic hypotension</strong>", "Yawning, nausea, cramps, dizziness, falling pressure — too much fluid off too fast", "Stop ultrafiltration, recline the chair, small fluid bolus (100–200 mL saline), recheck pressure every few minutes, reduce the target weight loss"],
+            ["<strong>Muscle cramps</strong>", "Painful calf or hand cramps mid-session with hypotension", "Stop ultrafiltration, stretch and massage, warm compresses, saline bolus if hypotensive, review dry weight and dialysate sodium after"],
+            ["<strong>Disequilibrium syndrome</strong>", "Headache, nausea, restlessness then drowsiness or seizures — first sessions, very high urea cleared too fast", "Slow or stop dialysis, protect the airway, urgent doctor call, anticonvulsant per protocol — prevent with short slow first sessions"],
+            ["<strong>Dialyser (first-use) reaction</strong>", "Minutes after start: itching, flushing, wheeze, chest or back pain, hypotension", "Stop dialysis immediately — DO NOT return the blood — discard the circuit blood, oxygen, IV fluids, adrenaline, antihistamine and steroid per anaphylaxis protocol"],
+            ["<strong>Haemolysis</strong>", "Burgundy blood in the venous line, chest pain, breathlessness, falling haematocrit", "Clamp the venous line — do NOT return the blood — stop the pump, oxygen, urgent labs (potassium rises fast), find the cause (kinked line, faulty heat, water problem)"],
+            ["<strong>Air embolism</strong>", "Sudden breathlessness, cough, chest pain, confusion or collapse with air visible in lines", "Clamp the venous line, left-side head-down position, 100% oxygen, urgent doctor call — check every connection before every session so it never happens"],
+            ["<strong>Access bleed or thrombosis</strong>", "Bleeding that will not stop after needle removal, or a fistula with no thrill and no bruit", "Bleed: firm direct pressure 10–15 minutes without peeking, pressure dressing, check haemoglobin; clotted: keep the arm still, no cannulation, urgent vascular call — report at once, not at handover"],
+            ["<strong>Hyperkalaemia before dialysis</strong>", "Peaked T waves, widening QRS, weakness — the reason dialysis cannot wait", "ECG now, calcium to protect the heart, insulin-glucose to shift potassium, salbutamol nebuliser, urgent dialysis"],
+          ],
+        },
+        {
+          type: "table",
+          heading: "On peritoneal dialysis — the emergency drill",
+          columns: ["Emergency", "First signs", "Immediate actions"],
+          rows: [
+            ["<strong>Peritonitis</strong>", "Cloudy effluent, abdominal pain, fever — sometimes cloudy fluid alone", "Sample the FIRST cloudy bag for cell count and culture BEFORE antibiotics, start intraperitoneal antibiotics per protocol the same day, monitor pain, fever and fluid clarity daily — delayed treatment loses the membrane"],
+            ["<strong>Exit-site or tunnel infection</strong>", "Redness, swelling, discharge or pain at the catheter exit — with fever if the tunnel is involved", "Swab and culture, topical or oral antibiotics per protocol, daily exit-site care, watch for tunnel tenderness — tunnel infections often need catheter removal"],
+            ["<strong>Outflow failure</strong>", "Fluid goes in but will not drain — constipation is the commonest cause, then catheter migration or fibrin", "Laxatives first, check for kinks, try repositioning (walk, roll side to side), flush per protocol — heparin or urokinase for fibrin, X-ray if migrated"],
+            ["<strong>Dialysate leak</strong>", "Wet dressing, swelling of scrotum, labia or abdominal wall, poor drains", "Pause exchanges or go low-volume, keep the exit site dry and dressed, inform the team — early leaks need rest days; genital oedema needs urgent review"],
+            ["<strong>Fluid overload or dehydration</strong>", "Overload: breathlessness, oedema, hypertension; dehydration: cramps, hypotension, dizziness", "Overload: stronger glucose bags per prescription, salt and fluid review, urgent haemodialysis if pulmonary oedema; dehydration: weaker bags, review target weight and diuretics"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "The first five minutes — every emergency",
+          items: [
+            "<strong>Call for help early</strong> — press the bell and send for the nurse in charge and the doctor while you act; a second pair of hands is treatment.",
+            "<strong>Position for the problem:</strong> recline for hypotension, sit up for breathlessness and pulmonary oedema, left-side head-down for air embolism, flat and still for a bleeding fistula.",
+            "<strong>Stop the harm safely:</strong> pause ultrafiltration, clamp the right line, never return blood in dialyser reactions or haemolysis, sample cloudy effluent before antibiotics.",
+            "<strong>Measure what matters:</strong> blood pressure, pulse, oxygen saturation, glucose and temperature now and every few minutes — trends decide escalation better than single numbers.",
+            "<strong>Document times, not essays:</strong> when it started, what you saw, what you did and when, who you called and what they ordered — the audit trail protects the patient and you.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "warning",
+          title: "Two never-events to memorise",
+          body: "Air in the circuit: clamp the venous line, left-side head-down, 100% oxygen, urgent call — and check every connection before every session. A fistula with no thrill and no bruit has clotted: nothing goes into that arm, and vascular surgery hears about it now, not at handover.",
+        },
+      ],
+      keyPoints: [
+        "Hypotension and cramps: stop ultrafiltration, recline, saline bolus, lower the target — most episodes end there.",
+        "Dialyser reaction and haemolysis: never return the blood — clamp, discard the circuit, treat anaphylaxis or hyperkalaemia and find the cause.",
+        "Air embolism: clamp, left-side head-down, 100% oxygen, urgent call.",
+        "Cloudy effluent is peritonitis until cultured: sample the first bag, then intraperitoneal antibiotics the same day.",
+        "Every emergency runs the same five minutes: help, position, stop the harm, measure, document.",
+      ],
+      quiz: {
+        keywords: ["dialysis", "haemodialysis", "hemodialysis", "peritoneal dialysis", "capd", "renal failure", "chronic kidney", "acute kidney", "uraemia", "hyperkalaemia", "peritonitis", "peritoneal", "cloudy effluent", "disequilibrium", "fistula", "arteriovenous fistula", "fluid overload", "pulmonary oedema", "metabolic acidosis", "hypotension", "air embolism", "haemolysis", "ultrafiltration"],
+      },
+    }
   ],
 };

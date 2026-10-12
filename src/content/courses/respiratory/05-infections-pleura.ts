@@ -2,13 +2,13 @@ import type { CourseModule } from "../types";
 
 export const infectionsAndPleura: CourseModule = {
   slug: "infections-and-pleural-disease",
-  title: "Pneumonia, tuberculosis and the pleura",
-  summary: "The infections that fill Ghanaian medical wards — pneumonia and tuberculosis — with the infection-control measures that protect the nurse, and the pleural disorders that need a chest drain.",
+  title: "Pneumonia, tuberculosis, lung cancer and the pleura",
+  summary: "The infections that fill Ghanaian medical wards — pneumonia and tuberculosis — with the infection-control measures that protect the nurse, and the pleural disorders that need a chest drain. Lung cancer joins them as the malignancy that mimics infection.",
   lessons: [
     {
       slug: "pneumonia",
       title: "Pneumonia",
-      minutes: 13,
+      minutes: 18,
       objectives: [
         "Classify pneumonia by where it was acquired and explain why that changes the organism and the antibiotic.",
         "Assess severity with CURB-65 and recognise the complications.",
@@ -24,6 +24,23 @@ export const infectionsAndPleura: CourseModule = {
             "Where it was caught predicts the organism. <strong>Community-acquired</strong> — <em>Streptococcus pneumoniae</em> above all, <em>Haemophilus influenzae</em>, atypicals (<em>Mycoplasma</em>, <em>Legionella</em>), viruses including influenza and COVID-19, and in people with HIV <em>Pneumocystis jirovecii</em> and TB. <strong>Hospital-acquired</strong> (48 hours or more after admission) — Gram-negatives (<em>Klebsiella</em>, <em>Pseudomonas</em>, <em>E. coli</em>) and <em>Staphylococcus aureus</em>, often resistant. <strong>Aspiration</strong> — mixed oral anaerobes after vomiting, reduced consciousness, stroke, seizures, alcohol or a poor swallow, typically in the right lower lobe. <strong>Ventilator-associated</strong> in intensive care.",
           ],
         },
+        {
+          type: "table",
+          heading: "Classifying by setting — why the address matters",
+          columns: ["Type", "Definition", "Likely organisms", "Empiric direction (local protocol rules)"],
+          rows: [
+            ["<strong>Community-acquired (CAP)</strong>", "Caught at home; the common pneumonia", "Pneumococcus, Haemophilus, atypicals (Mycoplasma, Chlamydophila, Legionella), viruses", "Amoxicillin or co-amoxiclav, adding a macrolide when atypical is suspected or disease is severe"],
+            ["<strong>Hospital-acquired (HAP)</strong>", "Begins 48 hours or more after admission", "Gram-negatives including Klebsiella and Pseudomonas, Staphylococcus including MRSA", "Broad cover per hospital protocol after cultures — never the CAP prescription"],
+            ["<strong>Ventilator-associated (VAP)</strong>", "Pneumonia in a patient ventilated over 48–72 hours", "The HAP organisms, often more resistant with every ventilated day", "Treat per ICU protocol — but the real treatment is the prevention bundle below"],
+            ["<strong>Aspiration pneumonia</strong>", "Following inhaled oropharyngeal contents — stroke, seizures, reflux, tube feeds, alcohol", "Anaerobes plus gram-negatives; chemical pneumonitis if acidic gastric contents", "Co-amoxiclav or clindamycin-based cover plus a swallow workup so it never recurs"],
+          ],
+        },
+        {
+                  type: "diagram",
+                  src: "/diagrams/NG-MCB-2500.svg",
+                  alt: "Gram stain: purple Gram-positive cocci in clusters and chains versus pink Gram-negative rods, with shape-and-arrangement naming",
+                  caption: "Purple clusters (staphylococcus) and chains (streptococcus) against pink rods (E. coli, Klebsiella, Pseudomonas). The Gram-negative outer membrane means endotoxin — the road to septic shock — so report the Gram result the moment it arrives.",
+                },
         {
           type: "list",
           heading: "Presentation and assessment",
@@ -49,6 +66,19 @@ export const infectionsAndPleura: CourseModule = {
           ],
         },
         {
+          type: "table",
+          heading: "When pneumonia doesn't behave — complications",
+          columns: ["Complication", "Clues", "Action"],
+          rows: [
+            ["<strong>Parapneumonic effusion</strong>", "Fever that will not settle, dullness and reduced breath sounds at the base", "Chest X-ray and ultrasound; diagnostic tap — clear fluid may resolve with antibiotics alone"],
+            ["<strong>Empyema</strong>", "Spiking fever, rigors, pleuritic pain and frank pus on tap", "Chest drain plus antibiotics; fibrinolytics or surgery if the pus loculates"],
+            ["<strong>Lung abscess</strong>", "Foul-smelling sputum, swinging fever, air-fluid level on X-ray — think aspiration and alcohol", "Prolonged antibiotics (weeks), postural drainage, bronchoscopy if an obstructing lesion is suspected"],
+            ["<strong>Bacteraemia and sepsis</strong>", "Rigors, hypotension, confusion, rising lactate after pneumonia onset", "Blood cultures, broad-spectrum antibiotics within the hour, fluids and sepsis monitoring"],
+            ["<strong>ARDS</strong>", "Worsening hypoxia with bilateral shadows despite oxygen — the lungs stiffen everywhere", "ICU, lung-protective ventilation, treat the trigger; fluids balanced against drowning the lungs"],
+            ["<strong>Atelectasis</strong>", "Mucus plugs collapse a lobe — low-grade fever, diminished sounds, shift toward the collapse", "Physiotherapy, deep breathing, suction and bronchoscopy for stubborn plugs"],
+          ],
+        },
+        {
           type: "list",
           heading: "Prevention — the nurse's part",
           items: [
@@ -56,6 +86,18 @@ export const infectionsAndPleura: CourseModule = {
             "Aspiration risk: swallow screen before oral intake after stroke; upright 30–45° for feeding and for 30 minutes afterwards; nasogastric position confirmed by pH before every feed; head of bed at 30° for ventilated and tube-fed patients; oral care with chlorhexidine or toothbrushing at least twice daily; avoid over-sedation; treat vomiting promptly.",
             "Vaccination: pneumococcal conjugate vaccine and Hib in the EPI schedule; pneumococcal and annual influenza vaccines for older adults, sickle cell disease, HIV, chronic lung, heart and kidney disease and diabetes; measles vaccination prevents measles pneumonia.",
             "Reduce indoor smoke, encourage exclusive breastfeeding for six months, treat malnutrition and HIV, and give co-trimoxazole prophylaxis to eligible people living with HIV.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Hospital and ventilator bundles — prevention with a checklist",
+          items: [
+            "<strong>Nurse the ventilated patient at 30–45°</strong> unless contraindicated — the single most effective VAP measure — and confirm nasogastric position by pH before every feed.",
+            "<strong>Interrupt sedation daily</strong> and assess readiness to wean and extubate: every extra ventilated day grows resistance. Pair the wake-up with a breathing trial and delirium check.",
+            "<strong>Clean the mouth with chlorhexidine or thorough toothbrushing</strong> at least twice daily and suction subglottic secretions where the tube allows — the oropharynx seeds the lungs.",
+            "<strong>Keep cuff pressure 20–30 cmH2O</strong> — too low aspirates, too high injures the trachea — and change circuits only when soiled or faulty, with strict hand hygiene before every airway touch.",
+            "<strong>Give DVT and stress-ulcer prophylaxis</strong> to every ventilated patient unless contraindicated: stockings or heparin, and acid suppression where the protocol requires it.",
+            "<strong>Prevent HAP on the ward</strong> with everything in the prevention list above plus a bundle mindset — sit up, mobilise from day zero, and treat every hospital day as an infection risk to justify.",
           ],
         },
         {
@@ -71,9 +113,11 @@ export const infectionsAndPleura: CourseModule = {
         "CURB-65 guides severity; cultures before antibiotics, antibiotics within an hour.",
         "Nursing: oxygen to target, upright, hydration, deep breathing and coughing, pain control, droplet or airborne precautions as indicated.",
         "Failure to improve by 72 hours means wrong drug, wrong diagnosis or a collection; prevent aspiration with swallow screening, 30° head elevation and oral care.",
+        "CAP, HAP, VAP and aspiration differ in organism and antibiotic: hospital onset means gram-negatives and possible MRSA — culture first, cover broad.",
+        "Fever that will not settle means a collection until proven otherwise: effusion, empyema or abscess need imaging and drainage, not just more antibiotics.",
       ],
       quiz: {
-        keywords: ["pneumonia", "consolidation", "curb", "aspiration", "sputum", "crackles", "droplet", "chest infection", "pneumococcal", "deep breathing", "incentive spirom", "fast breathing", "chest indrawing"],
+        keywords: ["pneumonia", "consolidation", "curb", "aspiration", "sputum", "crackles", "droplet", "chest infection", "pneumococcal", "deep breathing", "incentive spirom", "fast breathing", "chest indrawing", "hospital acquired", "ventilator associated", "vap", "hap", "empyema", "lung abscess", "ards", "sepsis", "gram stain", "staphylococcus", "pseudomonas"],
       },
     },
     {
@@ -258,5 +302,89 @@ export const infectionsAndPleura: CourseModule = {
         keywords: ["pleural effusion", "chest drain", "chest tube", "underwater seal", "water seal", "thoracentesis", "pleural tap", "empyema", "pleur", "bubbling", "swinging", "clamp", "stony dull", "occlusive dressing"],
       },
     },
+    {
+      slug: "lung-cancer",
+      title: "Lung cancer",
+      minutes: 16,
+      objectives: [
+        "Recognise the red-flag presentation of lung cancer and distinguish it from tuberculosis and pneumonia.",
+        "Compare small-cell and non-small-cell lung cancer and explain paraneoplastic syndromes.",
+        "Respond to the emergencies of lung cancer: SVC obstruction, massive haemoptysis, airway obstruction, hypercalcaemia and cord compression.",
+        "Plan nursing care across treatment and palliative stages, including smoking cessation and breathlessness management.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "The malignancy that mimics infection",
+          paragraphs: [
+            "In Ghana lung cancer is found late — and often after two courses of TB treatment for a cough that was never tuberculosis. Any adult with a persistent cough, weight loss and an abnormal chest X-ray deserves the question asked early: could this be malignancy? Smoking is the dominant cause worldwide and rising among Ghanaian men, but biomass cooking smoke, occupational dusts, asbestos and old TB scarring all contribute — and a never-smoker with a persistent shadow is not exempt.",
+            "Diagnosis starts with the chest X-ray — a nodule, a mass, a non-resolving consolidation, an effusion — and is confirmed by CT and tissue: sputum cytology, bronchoscopy, or CT-guided biopsy. Histology divides everything that follows into two families, because small-cell and non-small-cell cancers behave, spread and respond so differently that they are treated as different diseases.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Small-cell versus non-small-cell",
+          columns: ["Feature", "Small-cell (SCLC)", "Non-small-cell (NSCLC)"],
+          rows: [
+            ["Share and origin", "About 15% — central, from neuroendocrine cells, almost always smokers", "About 85% — adenocarcinoma (outer lung, many never-smokers), squamous (central, smokers), large-cell"],
+            ["Growth and spread", "Doubling in weeks; metastasised at diagnosis in most — brain, liver, bone, adrenals", "Slower; surgery can cure early localised disease"],
+            ["Paraneoplastic syndromes", "SIADH (low sodium, confusion), ectopic ACTH (Cushing picture), Lambert-Eaton muscle weakness", "Hypercalcaemia from PTH-related protein, clubbing and hypertrophic osteoarthropathy, Trousseau clots"],
+            ["Treatment direction", "Chemotherapy plus radiotherapy — responds fast, relapses fast; surgery rarely", "Surgery for early stage, radiotherapy, chemotherapy, targeted drugs and immunotherapy by mutation"],
+            ["What the nurse watches", "Sodium, confusion, weakness climbing stairs; brain-metastasis signs", "Calcium, weight, pain pattern, breath sounds; molecular-test results that open new drugs"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Red flags and assessment",
+          items: [
+            "<strong>Cough beyond three weeks</strong> that changes character or survives antibiotics, especially with weight loss and loss of appetite — the classic trio.",
+            "<strong>Haemoptysis:</strong> blood-streaked sputum is ominous; frank bleeding is an emergency (see below). Ask amount, frequency and clots.",
+            "<strong>Clubbing, hoarseness and stridor:</strong> finger clubbing (lung cancer until proven otherwise), a husky voice from recurrent laryngeal nerve palsy, wheeze or stridor from airway compression.",
+            "<strong>Pancoast clues:</strong> shoulder or arm pain with drooping eyelid and small pupil (Horner syndrome) from an apical tumour invading nerves and vessels.",
+            "<strong>Superior vena cava obstruction:</strong> swollen face, neck and arms with engorged chest veins, worse lying flat, with headache and breathlessness — the emergency callout below.",
+            "<strong>Spread review:</strong> bone pain, new headache or weakness, liver fullness, supraclavicular nodes — examine the neck, chest, bones and brain in every new case.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Emergencies in lung cancer",
+          columns: ["Emergency", "Clues", "Immediate nursing actions"],
+          rows: [
+            ["<strong>Superior vena cava obstruction</strong>", "Face, neck and arm swelling, distended chest veins, stridor, confusion — worse flat", "Sit upright, oxygen, IV access in a leg vein, urgent oncology or radiotherapy referral; steroids and anticoagulation per protocol; never lie flat for procedures"],
+            ["<strong>Massive haemoptysis</strong>", "More than 100–200 mL of blood, or any bleed with breathlessness or shock", "Position bleeding-side down if known, oxygen, large-bore IVs, cross-match, nil by mouth, urgent bronchoscopy or embolisation call — death comes from drowning, not blood loss"],
+            ["<strong>Airway obstruction and stridor</strong>", "Noisy breathing, use of accessory muscles, panic", "Sit up, oxygen, nebulised adrenaline per protocol, urgent anaesthetic or ENT call for stenting or debulking — keep nil by mouth"],
+            ["<strong>Hypercalcaemia</strong>", "Thirst, polyuria, constipation, confusion, shortened QT — bones, stones, groans and psychic moans", "IV fluids (litres unless overloaded), recheck calcium, bisphosphonate per protocol, mobilise, stop thiazides and lithium"],
+            ["<strong>Spinal cord compression</strong>", "Back pain with leg weakness, numbness or bladder change — hours matter", "Lie flat with log-rolling only, high-dose steroids immediately per protocol, emergency MRI and neurosurgical or orthopaedic call — never wait for morning"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Treatment and nursing care",
+          items: [
+            "<strong>Know the plan and its toxicities:</strong> surgery (lobectomy — chest drain, pain, sputum retention); radiotherapy (oesophagitis, skin, fatigue); chemotherapy (nausea, marrow suppression, neuropathy); targeted and immunotherapy (rash, diarrhoea, pneumonitis). Teach the red-flag symptoms of each before the patient goes home.",
+            "<strong>Manage breathlessness actively:</strong> positioning, fan-to-face airflow, pacing, low-dose opioids for refractory dyspnoea, oxygen only if hypoxic, drain malignant effusions — breathlessness is suffered, not measured, so believe the score the patient gives.",
+            "<strong>Help them stop smoking now:</strong> cessation after diagnosis improves treatment response, wound healing and survival. Brief advice, nicotine replacement and follow-up at every contact — the idea that it is too late is the lie that kills.",
+            "<strong>Feed, relieve pain and protect against clots:</strong> small frequent high-protein meals, early dietitian review; WHO-ladder pain control with laxatives alongside opioids; VTE awareness — lung cancer clots, so mobilise and report leg swelling or sudden breathlessness.",
+            "<strong>Start palliative care at diagnosis, not at the end:</strong> symptom control, honest conversation about goals, advance planning, family support and hospice links run alongside curative treatment — early palliative care improves both quality and length of life.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "SVC obstruction in one picture",
+          body: "Swollen face and arms with bulging chest veins, worse lying flat, in a lung cancer patient — sit them up, give oxygen, cannulate a leg, and call oncology urgently. It is the commonest oncological emergency you will meet on a medical ward.",
+        },
+      ],
+      keyPoints: [
+        "A cough beyond three weeks with weight loss is lung cancer until proven otherwise — never a third course of TB drugs without tissue or CT.",
+        "Small-cell grows in weeks and secretes hormones (SIADH, ACTH); non-small-cell grows slower and causes hypercalcaemia and clubbing.",
+        "SVC obstruction, massive haemoptysis, stridor, hypercalcaemia and cord compression are emergencies with drills — sit up, oxygenate, escalate.",
+        "Treat breathlessness, pain, clots and malnutrition actively; smoking cessation after diagnosis still improves survival.",
+        "Palliative care starts at diagnosis and runs alongside treatment — it lengthens life as well as easing it.",
+      ],
+      quiz: {
+        keywords: ["lung cancer", "bronchogenic", "small cell", "non small cell", "haemoptysis", "clubbing", "finger clubbing", "superior vena cava", "svc obstruction", "paraneoplastic", "smoking", "smoking cessation", "chest x ray", "solitary nodule", "pleural effusion", "cough", "breathlessness", "weight loss", "hoarseness", "stridor", "pancoast", "mesothelioma", "asbestos", "copd", "pneumonia"],
+      },
+    }
   ],
 };

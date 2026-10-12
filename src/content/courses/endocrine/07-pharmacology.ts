@@ -54,6 +54,12 @@ export const pharmacology: CourseModule = {
           ],
         },
         {
+                  type: "diagram",
+                  src: "/diagrams/NG-DRC-2390.svg",
+                  alt: "Drug calculation formulas: want-over-have, drops per minute, mL per hour, weight-based doses, unit ladder and sense-check",
+                  caption: "Want-over-have for tablets, volume × drop-factor ÷ minutes for gravity drips, volume ÷ hours for pumps, dose-per-kg first for weight-based doses — convert units on the ladder first, and sense-check every answer.",
+                },
+        {
           type: "table",
           heading: "Insulin doses, syringes and infusions",
           columns: ["Problem", "Working", "Answer"],

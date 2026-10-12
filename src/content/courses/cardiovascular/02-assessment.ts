@@ -172,7 +172,7 @@ export const assessment: CourseModule = {
     {
       slug: "cardiac-investigations-and-nursing-care",
       title: "Cardiac investigations and the nursing care around them",
-      minutes: 16,
+      minutes: 19,
       objectives: [
         "Explain the purpose of the common cardiac investigations and what the nurse must prepare.",
         "Interpret troponin, BNP, lipid and electrolyte results in context.",
@@ -208,6 +208,27 @@ export const assessment: CourseModule = {
           ],
         },
         {
+          type: "table",
+          heading: "Contrast and radiation safety — the nurse's checks",
+          columns: ["Check", "Why it matters", "What the nurse does"],
+          rows: [
+            ["<strong>Previous contrast reaction</strong>", "A prior reaction to CT dye or angiography dye predicts the next one — hives, bronchospasm or anaphylaxis", "Ask every time; document and flag; alert the team so premedication and resuscitation readiness are arranged"],
+            ["<strong>Kidney function</strong>", "Iodinated contrast can injure kidneys, especially with CKD, dehydration, heart failure or diabetes", "Check a recent creatinine and eGFR; hydrate before and after unless fluid-restricted; hold metformin when eGFR is below 30 or AKI threatens, restarting only when creatinine is back to baseline"],
+            ["<strong>Pregnancy</strong>", "Radiation and contrast reach the fetus", "Ask every woman of childbearing age; shield the abdomen; postpone non-urgent studies; gadolinium MRI avoided in pregnancy unless essential"],
+            ["<strong>Allergies, asthma and fasting</strong>", "Asthma raises bronchospasm risk; a full stomach risks aspiration under sedation", "Confirm the allergy band and NPO status — usually 6 hours for TOE and catheter procedures; check blood glucose in diabetes"],
+            ["<strong>Anticoagulants and bleeding risk</strong>", "Arterial puncture on full anticoagulation bleeds", "Report warfarin, DOACs, heparin and dual antiplatelets; know which the cardiologist wants held and which continued — never decide alone"],
+            ["<strong>Metal, devices and claustrophobia (MRI)</strong>", "The magnet pulls metal and can disturb devices", "Screen for pacemakers, ICDs, stents, coils, implants and metal work; warn about noise, tunnel and 30–60 minutes of stillness; arrange sedation for the severely claustrophobic"],
+          ],
+        },
+        {
+          type: "text",
+          heading: "Explaining the test — words that get consent",
+          paragraphs: [
+            "The doctor explains the risks and takes the consent — but the patient asks the nurse what will <em>actually happen</em>. Plain words, given before the trolley arrives, turn a frightened patient into a cooperative one. Echocardiography: warm gel and a probe on the chest, pictures made with sound, about half an hour, nothing painful. Exercise stress: you walk on a belt that gets faster while we watch your heart — tell us the moment you feel chest pain or dizziness, and we stop immediately. Holter: a small recorder you wear home for a day — press the button and write the time whenever you feel symptoms.",
+            "For catheterisation: a thin tube through the wrist or groin to the heart while you are awake but sleepy; dye that may make you feel hot and flushed for seconds; pressure but not sharp pain; you must lie still and may be asked to cough or breathe deeply. For CT coronary angiography: an injection of dye through a cannula, beta-blocker tablets first to slow the heart, hold your breath for a few seconds, the warm flush is normal. Always close with three checks: what they must not eat or drink and from when, which tablets to take or hold, and who to tell if chest pain, bleeding or breathlessness follows the test.",
+          ],
+        },
+        {
           type: "list",
           heading: "Cardiac catheterisation and angiography — before the procedure",
           items: [
@@ -231,6 +252,18 @@ export const assessment: CourseModule = {
           ],
         },
         {
+          type: "list",
+          heading: "Recovery and red flags after invasive and contrast studies",
+          items: [
+            "<strong>After TOE:</strong> nothing by mouth until the gag reflex is back (usually 1–2 hours) — then sips first. Sore throat and a streak of blood in saliva are common; fever, neck pain, vomiting blood or chest pain are not — think oesophageal injury and escalate fast.",
+            "<strong>After CT with contrast:</strong> watch the cannula site for extravasation (swelling, blistering — elevate, cold compress, inform radiology); delayed hives or wheeze can appear hours later; push fluids unless restricted and recheck creatinine in at-risk patients.",
+            "<strong>After a stress test:</strong> stay with the patient until ECG, pain and blood pressure are back to baseline; prolonged chest pain, new arrhythmia or a pressure that will not recover needs the crash trolley near and the doctor present — dobutamine effects wear off within minutes of stopping the infusion.",
+            "<strong>After catheterisation — beyond the groin:</strong> chest pain (coronary dissection or spasm), weakness or speech change (stroke from a dislodged plaque), a new murmur or breathlessness, and falling urine output with rising creatinine (contrast kidney injury in the next 48 hours).",
+            "<strong>After cardiac MRI:</strong> gadolinium reactions are uncommon but ask about rash or breathlessness before discharge; the sedated or anxious patient needs observation until fully awake; document device checks for pacemaker patients.",
+            "<strong>Hand over in writing:</strong> what was done, dye volume and type, access site and closure, vitals trend, urine output, and exactly what to watch overnight — the night nurse cannot watch for what she was never told.",
+          ],
+        },
+        {
           type: "callout",
           tone: "warning",
           title: "Two emergencies after a femoral puncture",
@@ -243,9 +276,11 @@ export const assessment: CourseModule = {
         "Hold metformin around contrast studies and encourage fluids afterwards to protect the kidneys.",
         "After femoral catheterisation: leg straight, check the site and distal pulses every 15 minutes in the first hour.",
         "A cold pulseless limb or an expanding haematoma is reported immediately.",
+        "Screen every contrast study for prior reaction, kidney function, pregnancy, anticoagulants and NPO status — and hold metformin when AKI threatens.",
+        "After TOE keep nil by mouth until the gag returns; after any catheter study watch beyond the groin for chest pain, stroke signs and falling urine output.",
       ],
       quiz: {
-        keywords: ["troponin", "cardiac enzyme", "cardiac catheterisation", "cardiac catheterization", "angiography", "angiogram", "echocardiogra", "cholesterol", "lipid", "contrast", "stress test", "natriuretic", "metformin", "femoral"],
+        keywords: ["troponin", "cardiac enzyme", "cardiac catheterisation", "cardiac catheterization", "angiography", "angiogram", "echocardiogra", "cholesterol", "lipid", "contrast", "stress test", "natriuretic", "metformin", "femoral", "transoesophageal", "ct coronary", "cardiac mri", "gadolinium", "dobutamine", "informed consent", "extravasation"],
       },
     },
   ],

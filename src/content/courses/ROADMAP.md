@@ -59,3 +59,9 @@ are taught in full once and cross-referenced elsewhere rather than duplicated.
 4. `npm run typecheck` and `npx eslint src/content/courses` clean.
 5. Review HTML generated and read by the course owner before the course is published.
 6. Course added to `COURSES` in `src/content/courses/index.ts` (catalogue order = table order above).
+
+## 2026-10-12 — Batch 1 close-out (101–104) on deep/batch1-closeout
+- Expanded 5 thin lessons to 8–9 blocks: cardiac-investigations-and-nursing-care (+3), copd (+4), pneumonia (+5), glomerulonephritis-and-nephrotic-syndrome (+4), non-insulin-glucose-lowering-drugs (+4).
+- New lessons: lung-cancer (resp-05, 16 min, 25 keywords, post-test +20) and dialysis-emergencies-drill (renal-06, 14 min, anchors existing pool +2).
+- Diagram retrofits from bank stock: pneumonia <- MCB-2500 Gram stain; chronic-kidney-disease <- LTC-1813 CKD stages; pituitary-disorders-and-water-balance <- EPR-1038 chain of command; endocrine-drugs-and-calculations <- DRC-2390 formulas.
+- Post-test keyword pools: lung-cancer 122 matches, dialysis drill 94 (88 excl. peritonitis). No credit-hour changes.

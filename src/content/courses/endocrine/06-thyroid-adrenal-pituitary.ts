@@ -341,6 +341,12 @@ export const thyroidAdrenalPituitary: CourseModule = {
           ],
         },
         {
+                  type: "diagram",
+                  src: "/diagrams/NG-EPR-1038.svg",
+                  alt: "Endocrine chain of command: hypothalamus orders, pituitary relays, target gland acts, with paired-result reading",
+                  caption: "Three links — hypothalamus, pituitary, target gland. Read the pair: a failed gland shouts back with a high pituitary signal, while a failed pituitary never asks — the logic behind every pituitary diagnosis in this lesson.",
+                },
+        {
           type: "table",
           heading: "Anterior pituitary disorders",
           columns: ["Disorder", "Cause", "Features", "Diagnosis and treatment", "Nursing points"],

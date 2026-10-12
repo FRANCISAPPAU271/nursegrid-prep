@@ -8,7 +8,7 @@ export const diabetesTreatment: CourseModule = {
     {
       slug: "non-insulin-glucose-lowering-drugs",
       title: "Non-insulin glucose-lowering drugs",
-      minutes: 16,
+      minutes: 20,
       objectives: [
         "Explain the mechanism, benefits, adverse effects and nursing points of each class of non-insulin agent.",
         "Identify which drugs cause hypoglycaemia and which do not, and counsel accordingly.",
@@ -22,6 +22,17 @@ export const diabetesTreatment: CourseModule = {
           paragraphs: [
             "Type 2 diabetes is progressive: beta cells fail by a few per cent a year, so a treatment that works today will need adding to tomorrow. The approach is stepwise — lifestyle at every step, <strong>metformin</strong> first unless contraindicated, then a second agent chosen by the patient's circumstances (cardiovascular or kidney disease, weight, hypoglycaemia risk, cost and availability), and <strong>insulin</strong> when tablets are no longer enough or at any point when the patient is symptomatic with very high glucose, ketotic, pregnant, or acutely ill. In Ghana the agents most reliably available and covered by insurance are metformin, glibenclamide or gliclazide and insulin; the newer classes are increasingly found in the cities but are expensive.",
             "Two questions decide most counselling: <em>Can this drug cause hypoglycaemia?</em> (sulphonylureas, meglitinides and insulin — yes; metformin, DPP-4 inhibitors, SGLT2 inhibitors, GLP-1 agonists and pioglitazone alone — essentially no) and <em>What does it do to weight?</em> (sulphonylureas, pioglitazone and insulin gain; metformin neutral or slight loss; SGLT2 inhibitors and GLP-1 agonists lose).",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Starting and titrating — the first prescription",
+          items: [
+            "<strong>Metformin starts low and climbs slow:</strong> 500 mg with the evening meal, adding 500 mg each week toward 1,000 mg twice daily as the gut allows — 2,000 mg is the usual ceiling. Warn about nausea and loose stool in the first weeks, take it with food, and use the extended-release form where available if the gut rebels.",
+            "<strong>Sulphonylureas start low in the vulnerable:</strong> gliclazide 40–80 mg with breakfast, titrated against fasting glucose toward 4–7 mmol/L — lower doses and slower steps in the elderly and kidney disease. Teach hypo recognition from the first tablet, not after the first collapse.",
+            "<strong>Review HbA1c at three months</strong> and intensify without delay if it sits above target — the failure to step up for years has a name, clinical inertia, and it costs eyes, kidneys and feet. Add the second agent; do not just re-prescribe the failing one.",
+            "<strong>De-intensify the frail:</strong> in the elderly with limited life expectancy, relax the target (HbA1c below 64–69 rather than 53), simplify to fewer tablets, and stop the sulphonylurea first — a hypo that breaks a hip undoes years of good control.",
+            "<strong>Document the plan the patient can repeat:</strong> drug, dose, timing against meals, what to do if a dose is missed, hypo action, sick-day holds and the review date. A plan the patient cannot repeat back has not been taught.",
           ],
         },
         {
@@ -56,6 +67,27 @@ export const diabetesTreatment: CourseModule = {
           ],
         },
         {
+          type: "table",
+          heading: "Sick-day rules and perioperative holds",
+          columns: ["Situation", "What to hold", "What to do instead"],
+          rows: [
+            ["<strong>Vomiting, diarrhoea, fever with poor intake</strong>", "SGLT2 inhibitors and metformin — dehydration plus drug equals ketoacidosis and lactic acidosis", "Keep drinking, check glucose AND ketones, seek care if ketones rise, vomiting exceeds 24 hours or confusion appears; restart when eating and well for 24–48 hours"],
+            ["<strong>Not eating (illness, fasting, pre-procedure)</strong>", "Sulphonylureas and meglitinides — no food plus insulin-push equals hypoglycaemia", "Check glucose more often; if on insulin, reduce meal-time doses per plan but never stop basal or long-acting insulin"],
+            ["<strong>Type 1 diabetes, any illness</strong>", "Nothing — especially never stop insulin", "Sick-day ketone monitoring, extra correction doses per plan, fluids and early presentation: illness raises insulin needs, and stopping insulin causes DKA within hours"],
+            ["<strong>Before major surgery</strong>", "SGLT2 inhibitors 3 days before; sulphonylurea on the morning; metformin if contrast, AKI risk or major shifts expected", "Variable-rate IV insulin where indicated; restart tablets only when eating normally and kidneys confirmed safe"],
+            ["<strong>Contrast X-ray studies</strong>", "Metformin when eGFR is below 30, AKI threatens, or large contrast loads are planned", "Hydrate before and after unless restricted; recheck creatinine at 48 hours and restart metformin only when it is back to baseline"],
+            ["<strong>Ramadan and prolonged fasts</strong>", "Discuss BEFORE the fast: sulphonylureas usually need dose reduction or a switch to evening dosing", "Pre-Ramadan review with glucose targets, when to break the fast (below 3.9 or above 16.7 with symptoms), and a post-fast medication review"],
+          ],
+        },
+        {
+          type: "text",
+          heading: "Adherence — making treatment stick",
+          paragraphs: [
+            "Half of prescribed glucose-lowering tablets are not taken as directed — not from stubbornness but from pill burden, cost, side effects, hypo fear and the silent nature of high glucose. Simplify first: fixed-dose combinations where available, once-daily choices (gliclazide MR, gliflozins, weekly GLP-1) and timings tied to meals the patient actually eats. Ask about cost and NHIS cover directly — a patient who nods and then halves every tablet to make the packet last needs a cheaper regimen, not a lecture.",
+            "Teach the missed-dose rule once and check it twice: take it when remembered unless the next dose is near — never double up. Ask about herbal and traditional medicines without judgement, check for real interactions (liver injury, hypoglycaemia, kidney harm), and agree that prescribed treatment continues alongside, not replaced by, anything else. Store tablets cool and dry — heat and humidity degrade them — involve a family member in the hypo plan, and link every refill to a review: weight, blood pressure, feet, glucose diary and one question that matters more than the numbers — what stops you taking them?",
+          ],
+        },
+        {
           type: "callout",
           tone: "warning",
           title: "Sulphonylurea hypoglycaemia is not a quick fix",
@@ -74,9 +106,11 @@ export const diabetesTreatment: CourseModule = {
         "Metformin: take with food, no hypos alone, stop for contrast, vomiting, sepsis and when eGFR is below 30 because of lactic acidosis.",
         "SGLT2 inhibitors lose glucose in urine, protect heart and kidney, cause thrush and volume depletion and can cause ketoacidosis with a normal glucose — stop during illness and before surgery.",
         "Start insulin at any stage for marked symptoms, very high glucose, ketones, pregnancy or acute illness — insulin is a tool, not a failure.",
+        "Metformin titrates 500 mg weekly to 1,000 mg twice daily; review HbA1c at 3 months and intensify without delay — waiting years is clinical inertia.",
+        "Sick days: hold SGLT2 inhibitors and metformin when dehydrated, hold sulphonylureas when not eating, never stop insulin in type 1 — and plan every fast and surgery in advance.",
       ],
       quiz: {
-        keywords: ["metformin", "glibenclamide", "gliclazide", "sulphonylurea", "sulfonylurea", "hypoglyc", "lactic acidosis", "contrast", "dapagliflozin", "empagliflozin", "sglt2", "sitagliptin", "liraglutide", "pioglitazone", "oral hypoglycaemic", "antidiabetic", "type 2 diabetes"],
+        keywords: ["metformin", "glibenclamide", "gliclazide", "sulphonylurea", "sulfonylurea", "hypoglyc", "lactic acidosis", "contrast", "dapagliflozin", "empagliflozin", "sglt2", "sitagliptin", "liraglutide", "pioglitazone", "oral hypoglycaemic", "antidiabetic", "type 2 diabetes", "sick day", "missed dose", "adherence", "titration", "perioperative", "fasting", "ramadan", "clinical inertia"],
       },
     },
     {

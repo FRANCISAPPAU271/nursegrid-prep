@@ -13,7 +13,7 @@ export const renalFluidElectrolyteNursing: Course = {
   title: "Renal, Fluid & Electrolyte Nursing",
   tagline: "Water, salt, potassium and the kidneys that balance them — the fluid and electrolyte nursing that the licensing examination tests hardest.",
   description:
-    "A structured course covering renal anatomy and physiology, body fluid compartments and their regulation, renal and fluid assessment, dehydration and oral and intravenous rehydration in children and adults, fluid overload and restriction, intravenous fluid therapy and infusion calculations, sodium, potassium, calcium, magnesium and phosphate imbalances, urinary tract infection and catheter care, retention, incontinence, prostate disease, stones and schistosomiasis, glomerulonephritis and nephrotic syndrome, acute kidney injury, chronic kidney disease, dialysis and transplantation, and renal pharmacology. Each lesson is written for Ghanaian nursing and midwifery students, uses the diagrams from the NurseGrid question bank, and ends with practice questions drawn from the same bank. Finish every learning activity, pass the post-test and complete the evaluation to earn your certificate.",
+    "A structured course covering renal anatomy and physiology, body fluid compartments and their regulation, renal and fluid assessment, dehydration and oral and intravenous rehydration in children and adults, fluid overload and restriction, intravenous fluid therapy and infusion calculations, sodium, potassium, calcium, magnesium and phosphate imbalances, urinary tract infection and catheter care, retention, incontinence, prostate disease, stones and schistosomiasis, glomerulonephritis and nephrotic syndrome, acute kidney injury, chronic kidney disease, dialysis and transplantation, and renal pharmacology. Each lesson is written for Ghanaian nursing and midwifery students, uses the diagrams from the NurseGrid question bank, and ends with practice questions drawn from the same bank. The course also includes a drill on responding to dialysis emergencies. Finish every learning activity, pass the post-test and complete the evaluation to earn your certificate.",
   icon: "💧",
   level: "Intermediate",
   gradient: "from-indigo-600 via-blue-500 to-cyan-400",
@@ -27,7 +27,7 @@ export const renalFluidElectrolyteNursing: Course = {
     "Recognise and manage sodium, potassium, calcium, magnesium and phosphate imbalances, including the emergency treatment of hyperkalaemia and safe potassium replacement.",
     "Prevent and manage urinary tract infection, catheter-associated infection, retention, incontinence, prostate disease, stones and schistosomiasis.",
     "Differentiate nephritic and nephrotic syndromes, acute kidney injury and chronic kidney disease, and deliver the nursing care, teaching and prevention each requires.",
-    "Care for patients on haemodialysis, peritoneal dialysis and after transplantation, and administer renal and fluid drugs safely with correct calculations and renal dose adjustment.",
+    "Care for patients on haemodialysis, peritoneal dialysis and after transplantation, respond to dialysis emergencies, and administer renal and fluid drugs safely with correct calculations and renal dose adjustment.",
   ],
   audience: [
     "Final-year nursing and midwifery students preparing for the N&MC licensing examination",
