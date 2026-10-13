@@ -3,7 +3,7 @@ import type { CourseModule } from "../types";
 export const chronicAndLongTermConditionsOfChildhood: CourseModule = {
   slug: "chronic-and-long-term-conditions-of-childhood",
   title: "Chronic and long-term conditions of childhood",
-  summary: "Sickle cell disease from newborn screening to the clinic — inheritance, penicillin, vaccines, folic acid, hydroxyurea, the crises and the family's beliefs; the child with HIV — early infant diagnosis, same-day ART, cotrimoxazole, disclosure and adherence; rheumatic fever and rheumatic heart disease, congenital heart disease and the child in heart failure; nephrotic syndrome, acute glomerulonephritis and urinary infection; type 1 diabetes, epilepsy and the child on long-term steroids; then childhood cancer — the warning signs, Burkitt lymphoma, retinoblastoma, Wilms tumour and leukaemia, neutropenic fever and treatment abandonment; disability — cerebral palsy, Down syndrome, spina bifida and hydrocephalus, hearing and visual impairment, the social model and Act 715; the adolescent — puberty, sexual and reproductive health, mental health, substance use, chronic illness in boarding school and transition; and the dying child and palliative care.",
+  summary: "Sickle cell disease from newborn screening to the clinic — inheritance, penicillin, vaccines, folic acid, hydroxyurea, the crises and the family's beliefs; the child with HIV — early infant diagnosis, same-day ART, cotrimoxazole, disclosure and adherence; rheumatic fever and rheumatic heart disease, congenital heart disease and the child in heart failure; nephrotic syndrome, acute glomerulonephritis and urinary infection; type 1 diabetes, epilepsy and the child on long-term steroids; then childhood cancer — the warning signs, Burkitt lymphoma, retinoblastoma, Wilms tumour and leukaemia, neutropenic fever and treatment abandonment; disability — cerebral palsy, Down syndrome, spina bifida and hydrocephalus, hearing and visual impairment, the social model and Act 715; the adolescent — puberty, sexual and reproductive health, mental health, substance use, chronic illness in boarding school and transition; and the dying child and palliative care. Adolescent health now has its own lesson of HEEADSSS, confidentiality and transition.",
   lessons: [
     {
       slug: "sickle-cell-hiv-cardiac-renal-and-endocrine-disease-in-children",
@@ -126,6 +126,80 @@ export const chronicAndLongTermConditionsOfChildhood: CourseModule = {
         "Type 1 diabetes is insulin for life — injection technique, glucose testing, hypo rules (below 4 mmol/L: sugar, recheck in 15 minutes, snack), sick-day rules (never stop insulin) and the school informed; epilepsy is a daily drug never stopped suddenly, seizure first aid taught to family and school, and the beliefs about possession and contagion answered; long-term steroids need growth, blood pressure and glucose monitoring, no sudden stopping, a steroid card, deferred live vaccines and urgent review after measles or chickenpox exposure.",
       ],
       quiz: { keywords: ["sickle cell disease in childhood","sickle cell","explaining sickle cell inheritance","inheritance","autosomal recessive","carrier","daily penicillin","folic acid","paediatric hiv disclosure","disclosure","cotrimoxazole","antiretroviral","arv","rheumatic fever","rheumatic heart","benzathine","sore throat","congenital heart disease","tetralogy","nephrotic syndrome","nephrotic","acute glomerulonephritis","glomerulonephritis","cola coloured","puffy face","type 1 diabetes in a child","type 1 diabetes","diabetic child","epilepsy","sodium valproate","haemophilia","proteinuria","frothy urine","prednisolone","scabies","cyanosis","spleen","pallor","genotype","25 per cent","50%","trait","steroid side effects in children"] },
+    },
+    {
+      slug: "adolescent-health",
+      title: "Adolescent health",
+      minutes: 15,
+      objectives: [
+        "Describe puberty and the developmental tasks of the 10–19 years.",
+        "Interview the adolescent with HEEADSSS, including time alone.",
+        "Apply confidentiality and consent correctly, stating the limits upfront.",
+        "Support chronic illness adherence and planned transition to adult care.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "No longer a child, not yet an adult",
+          paragraphs: [
+            "Adolescence spans 10 to 19: the growth spurt, breast and genital development by Tanner stages, menarche around 12, voice and muscle change — with a brain whose risk-taking circuits mature years before its braking circuits, which is why the lecture on danger fails and the conversation about consequences sometimes works. The developmental tasks are identity, independence, peer belonging and body image — and hospital wards built for toddlers or adults meet none of them, which is why adolescents need bays, visiting rules and visiting hours of their own.",
+            "Two truths organise all adolescent nursing: <strong>they will not tell the truth in front of a parent</strong>, and <strong>the treatment that marks them as different is the treatment they stop</strong> — privacy and normalcy are clinical instruments, not favours.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "HEEADSSS — the interview that finds the real problem",
+          items: [
+            "<strong>Home:</strong> who lives there, who decides, safety, recent moves or loss — the runaway and the thrown-out teenager sleep in markets and lorry stations.",
+            "<strong>Education and Eating:</strong> school attendance and performance, bullying, meals and body image — falling grades and skipped meals flag depression, pregnancy and eating disorders alike.",
+            "<strong>Activities and peers:</strong> friends, phones, gangs, sport — isolation warns as loudly as the wrong crowd.",
+            "<strong>Drugs:</strong> alcohol, cigarettes, cannabis, tramadol — ask what, how often, how funded; tramadol misuse now fills Ghanaian emergency rooms with seizing young men.",
+            "<strong>Sexuality:</strong> relationships, contraception, pregnancy, STI symptoms, coercion — ask every adolescent, whatever the presenting complaint.",
+            "<strong>Suicide, mood and Safety:</strong> sleep, appetite, hopelessness, self-harm, and the direct question — 'have you thought of harming yourself?' Asked calmly, it opens; never asked, it kills silently. Cover violence at home, on the road and online.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Issues by presentation",
+          columns: ["Issue", "Approach", "Refer when"],
+          rows: [
+            ["<strong>Delayed puberty</strong>", "No breast development by 13 or testes growth by 14 — usually constitutional delay; plot growth, reassure, review", "Short stature with delay, chronic illness signs, or distress that reassurance cannot settle"],
+            ["<strong>Heavy or irregular periods</strong>", "Anovulatory cycles are normal for two years after menarche — diary, iron, tranexamic acid or COC for heaviness", "Bleeding through protection hourly, haemoglobin falling, or hirsutism with acne suggesting PCOS"],
+            ["<strong>Substance use</strong>", "Brief non-judgemental intervention — feedback, responsibility, advice, menu, empathy — with follow-up arranged", "Daily use, withdrawal, seizures, injecting, or use with self-harm — to psychiatry and rehabilitation together"],
+            ["<strong>Low mood and self-harm</strong>", "Ask directly, assess risk tonight versus thoughts only, make a safety plan with named people and removed means", "Any attempt, any plan with means, psychosis, or a plan the family cannot supervise — same-day psychiatry"],
+            ["<strong>Eating concerns</strong>", "Screen weight, periods, purging and exercise; involve the family early — the full lesson sits in the mental health course", "Rapid loss, bradycardia, fainting, electrolytes disturbed — medicine and psychiatry together, urgently"],
+            ["<strong>Chronic illness non-adherence</strong>", "Simplify regimens, link doses to routines, allow negotiated control, use peer supporters — adherence falls because treatment marks difference", "Repeated crises or viral rebound despite support — to the multidisciplinary team, not to punishment"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Confidentiality, consent and transition",
+          items: [
+            "<strong>See them alone for part of every visit</strong> from about 12 — explain to parent and adolescent together first, then ask the parent to step out. Time alone is the instrument; without it you take the parent's history twice.",
+            "<strong>State confidentiality and its limits upfront:</strong> what is said stays private EXCEPT suicide risk, abuse, or danger to others — which must be shared to keep them safe. Limits stated at the start preserve trust when they are used.",
+            "<strong>Respect evolving capacity:</strong> involve parents in big decisions but hear the adolescent's voice in all of them; contraception and STI care must be reachable without a parent's permission or they will not be reached at all.",
+            "<strong>Document carefully:</strong> record what was asked, what limits were stated, who was present for which part, and risk assessments verbatim — the adolescent record is read in disputes more than any other.",
+            "<strong>Transition from 14, not at 18:</strong> introduce the adult team early, hold joint visits, write the transfer summary (diagnosis, drugs, complications, psychosocial notes) — no abrupt birthday discharge that loses the diabetic or the HIV-positive young adult to no care at all.",
+            "<strong>Fast-track the pregnant adolescent:</strong> non-judgemental antenatal booking, STI and HIV screening, birth planning, stay-in-school support — and contraception counselled for after birth, whatever the family says.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Time alone is not optional",
+          body: "The adolescent interviewed only in front of a parent tells you the parent's history. Explain confidentiality and its three limits — suicide, abuse, danger to others — see them alone for part of every visit, and mean it.",
+        },
+      ],
+      keyPoints: [
+        "Puberty, identity, independence and peer belonging organise the 10–19 years — wards and rules must fit adolescents, not toddlers.",
+        "HEEADSSS covers Home, Education, Eating, Activities, Drugs, Sexuality, Suicide/mood and Safety — with time alone for the truth.",
+        "Confidentiality is promised with its three limits stated upfront; evolving capacity is respected; records are exact.",
+        "Ask suicide directly and make safety plans; brief-intervene substances; simplify chronic regimens instead of punishing non-adherence.",
+        "Transition starts at 14 with joint visits and a written summary — never an abrupt discharge at 18.",
+      ],
+      quiz: {
+        keywords: ["adolescent", "teenager", "puberty", "tanner", "menarche", "headss", "confidentiality", "substance use", "self harm", "eating disorder", "transition to adult care", "adolescent pregnancy", "risk-taking behaviour"],
+      },
     },
     {
       slug: "childhood-cancer-disability-adolescence-and-the-dying-child",

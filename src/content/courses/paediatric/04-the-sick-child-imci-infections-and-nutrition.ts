@@ -3,7 +3,7 @@ import type { CourseModule } from "../types";
 export const theSickChildImciInfectionsAndNutrition: CourseModule = {
   slug: "the-sick-child-imci-infections-and-nutrition",
   title: "The sick child: IMCI, infections and nutrition",
-  summary: "The IMCI approach to the child from two months to five years — the general danger signs, the four main symptoms, classify–treat–counsel–follow up — then fever: malaria testing and treatment including severe malaria and pre-referral artesunate, meningitis, measles, typhoid, ear infection, sepsis and the febrile child with HIV or tuberculosis; cough or difficult breathing: counting breaths, pneumonia and its treatment, bronchiolitis, croup, asthma in children, the inhaled foreign body and oxygen for children; and diarrhoea and nutrition: the three plans, ORS and zinc, dysentery and persistent diarrhoea, the ten steps of severe acute malnutrition, CMAM and RUTF, and feeding counselling by age.",
+  summary: "The IMCI approach to the child from two months to five years — the general danger signs, the four main symptoms, classify–treat–counsel–follow up — then fever: malaria testing and treatment including severe malaria and pre-referral artesunate, meningitis, measles, typhoid, ear infection, sepsis and the febrile child with HIV or tuberculosis; cough or difficult breathing: counting breaths, pneumonia and its treatment, bronchiolitis, croup, asthma in children, the inhaled foreign body and oxygen for children; and diarrhoea and nutrition: the three plans, ORS and zinc, dysentery and persistent diarrhoea, the ten steps of severe acute malnutrition, CMAM and RUTF, and feeding counselling by age. A rash drill sorts the febrile exanthems from the emergencies.",
   lessons: [
     {
       slug: "assessing-the-sick-child-imci-fever-malaria-and-meningitis",
@@ -113,6 +113,74 @@ export const theSickChildImciInfectionsAndNutrition: CourseModule = {
         "Suspect TB in any child with two weeks of cough or fever, weight loss or a household contact who coughs — diagnose with contact history, X-ray and GeneXpert, treat 2HRZE/4HR by weight, and give preventive therapy to under-five contacts and children with HIV; offer HIV testing to every child with recurrent infection, thrush, failure to thrive or an HIV-positive mother, and treat the febrile child with HIV urgently.",
       ],
       quiz: { keywords: ["imci","general danger sign","integrated management","pre referral","emergency signs","lethargic","unable to drink","vomits everything","fever in a child","severe malaria in a child","severe malaria","artesunate dosing","artesunate","malaria in a child","meningitis recognition","meningitis","neck stiffness","measles","complications of measles","otitis media","sore throat","paediatric hiv","hiv exposed","cotrimoxazole prophylaxis","childhood tuberculosis","contact tracing","febrile","intestinal worms","worm","prevention of mother to child","infant feeding and hiv","child with fever","convulsing","convulsion","sick child","two month old"] },
+    },
+    {
+      slug: "fever-and-rash-in-children-drill",
+      title: "Fever and rash in children — drill",
+      minutes: 15,
+      objectives: [
+        "Describe a rash systematically by morphology, distribution, blanching and fever timing.",
+        "Distinguish measles, rubella, chickenpox, scarlet fever, roseola and hand-foot-mouth disease.",
+        "Recognise meningococcaemia, Kawasaki disease, HSP and scalded skin as emergencies.",
+        "Isolate, notify and protect contacts correctly for each exanthem.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Describe before you diagnose",
+          paragraphs: [
+            "Every rash is described in the same order before any name is offered: <strong>morphology</strong> (flat macules, raised papules, fluid vesicles, pus pustules, blood purpura), <strong>distribution</strong> (measles starts on the face and moves down, chickenpox favours the trunk, scarlet fever the flexures, hand-foot-mouth the name), <strong>blanching</strong> — press a clear glass: blanching redness is dilated vessels, NON-blanching purple is blood outside vessels and an emergency until proven otherwise — <strong>fever timing</strong> (rash WITH fever, or rash AS the fever breaks in roseola), and the child herself: the well playing child with spots and the toxic lethargic child with spots have different diseases.",
+            "Then the three questions that complete every rash history: <strong>immunisations</strong> (which, when, card seen?), <strong>contacts</strong> (who else is ill — school, siblings, measles in the compound?), and <strong>drugs</strong> (any new medicine in the past weeks — drug eruptions mimic exanthems).",
+          ],
+        },
+        {
+          type: "table",
+          heading: "The exanthems — pattern and action",
+          columns: ["Disease", "Pattern", "Action"],
+          rows: [
+            ["<strong>Measles</strong>", "Cough, coryza, conjunctivitis plus Koplik spots inside the cheek, then a face-to-feet maculopapular rash — in the unimmunised child", "Airborne isolation, vitamin A, treat the pneumonia-diarrhoea-ear complications, notify immediately — measles kills through what follows it"],
+            ["<strong>Rubella</strong>", "Mild fever and rash with tender post-auricular nodes — trivial in the child, catastrophic in early pregnancy", "Notify, keep away from pregnant women, confirm the MMR schedule for contacts"],
+            ["<strong>Chickenpox</strong>", "Itchy crops where macules, vesicles and crusts sit SIDE BY SIDE, trunk first — crops are the signature", "Isolate until every lesion crusts, no aspirin (Reye syndrome), urgent care for newborns, pregnancy and the immunocompromised"],
+            ["<strong>Scarlet fever</strong>", "Strep throat plus sandpaper rash, strawberry tongue and flushed cheeks with pale mouth", "Penicillin for ten days — treatment prevents rheumatic fever, which is the point of treating"],
+            ["<strong>Roseola</strong>", "High fever for three to four days in a well 6–24-month-old, then pink rash AS the fever breaks", "Reassure — the rash is the recovery; the fever that preceded it often brings febrile convulsions"],
+            ["<strong>Slapped cheek (fifth disease)</strong>", "Bright red cheeks with lacy body rash from parvovirus — the child is already past infectivity", "Warn two groups only: sickle cell families (aplastic crisis stops red cells) and early pregnancy (fetal anaemia)"],
+            ["<strong>Hand-foot-mouth</strong>", "Vesicles on hands, feet and inside the mouth from coxsackie — painful mouth, mild illness", "Fluids and analgesia, watch intake — dehydration, not the virus, hospitalises"],
+          ],
+        },
+        {
+          type: "table",
+          heading: "Rashes that are emergencies",
+          columns: ["Emergency", "Clues", "Action"],
+          rows: [
+            ["<strong>Meningococcaemia</strong>", "Fever with NON-blanching purpura in a rapidly worsening child — the glass test that stays purple", "Ceftriaxone immediately, before lumbar puncture — fluids, oxygen, intensive care; every hour of antibiotics delayed raises death"],
+            ["<strong>Kawasaki disease</strong>", "Fever over five days plus four of: red eyes, red cracked lips/strawberry tongue, rash, swollen red hands/feet, large neck node", "IV immunoglobulin plus aspirin urgently, echocardiogram for coronary aneurysms — untreated, one in four damages coronaries"],
+            ["<strong>HSP (IgA vasculitis)</strong>", "Palpable purpura on buttocks and legs plus joint pain, colicky abdomen or blood in urine", "Blood pressure and urine watched for weeks — kidneys decide the outcome; steroids for severe gut or kidney involvement"],
+            ["<strong>Scalded skin (SSSS)</strong>", "Neonatal blistering and peeling with a positive Nikolsky sign from staphylococcal toxin", "Burn-like nursing — warm room, fluids, anti-staphylococcal antibiotics, minimal handling"],
+            ["<strong>Stevens-Johnson</strong>", "Drug in the past weeks, painful skin, blisters plus two or more mucosal erosions", "Stop the drug today and refer — the full drill is in the skin course's SJS lesson"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Isolate, notify, protect",
+          items: [
+            "<strong>Isolate by route:</strong> measles and chickenpox are airborne — N95, closed door, cohort staff; exclude from school four days from measles rash onset and until every chickenpox lesion crusts.",
+            "<strong>Notify without waiting:</strong> measles, rubella and meningitis are immediately notifiable under IDSR — one suspected case triggers the call upward, the specimen and the address, before laboratory confirmation.",
+            "<strong>Protect contacts:</strong> MMR within 72 hours of measles exposure, immunoglobulin for high-risk contacts, rifampicin or ciprofloxacin prophylaxis for meningococcal household contacts.",
+            "<strong>Give vitamin A for measles:</strong> two age-based doses 24 hours apart — it halves measles blindness and lowers death; check the eyes for xerophthalmia in every case.",
+            "<strong>Vaccinate at every contact:</strong> the rash child, the siblings, the compound — check cards, catch up the defaulters, and record today's vaccines before the family leaves.",
+          ],
+        },
+      ],
+      keyPoints: [
+        "Describe morphology, distribution, blanching, fever timing and the child's state — then ask immunisations, contacts and drugs.",
+        "Measles runs face-to-feet with cough-coryza-conjunctivitis; chickenpox shows all stages side by side; roseola rashes as fever breaks.",
+        "Non-blanching purpura with fever is meningococcaemia — ceftriaxone before lumbar puncture; five-day fever with red eyes and lips is Kawasaki.",
+        "Parvovirus threatens sickle cell children and early pregnancy; scarlet fever's penicillin prevents rheumatic fever.",
+        "Airborne-isolate measles and chickenpox, notify immediately under IDSR, give vitamin A, and vaccinate every contact.",
+      ],
+      quiz: {
+        keywords: ["measles", "rubella", "chickenpox", "varicella", "scarlet fever", "roseola", "erythema infectiosum", "kawasaki", "henoch", "meningococcal", "meningococcaemia", "hand foot and mouth", "exanthem", "purpura", "febrile rash", "childhood rash"],
+      },
     },
     {
       slug: "the-child-with-cough-or-difficult-breathing",

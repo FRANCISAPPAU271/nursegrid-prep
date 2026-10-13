@@ -3,7 +3,7 @@ import type { CourseModule } from "../types";
 export const bowelDisordersAndTheSurgicalAbdomen: CourseModule = {
   slug: "bowel-disorders-and-the-surgical-abdomen",
   title: "Bowel disorders and the surgical abdomen",
-  summary: "Constipation and its drugs, the obstructed bowel and the strangulated hernia, inflammatory bowel disease and the anorectal conditions — then the acute abdomen as a system: appendicitis, peritonitis and perforation, and the perioperative nursing of abdominal surgery from fasting to the fourth post-operative day.",
+  summary: "Constipation and its drugs, the obstructed bowel and the strangulated hernia, inflammatory bowel disease and the anorectal conditions — then the acute abdomen as a system: appendicitis, peritonitis and perforation, and the perioperative nursing of abdominal surgery from fasting to the fourth post-operative day. Lower gastrointestinal bleeding completes the bleeding picture begun in Module 2.",
   lessons: [
     {
       slug: "constipation-bowel-obstruction-hernias-and-inflammatory-bowel-disease",
@@ -326,5 +326,68 @@ export const bowelDisordersAndTheSurgicalAbdomen: CourseModule = {
         keywords: ["appendic", "peritonitis", "guarding", "rigid abdomen", "rebound", "laparotomy", "nil by mouth", "fasting", "pre operative", "preoperative", "post operative", "postoperative", "early mobilisation", "deep breathing", "dehiscence", "evisceration", "incentive spirometer", "checklist", "clear fluids", "surgical site", "wound infection", "anastomo", "paralytic", "mcburney", "rovsing", "acute abdomen", "free air"],
       },
     },
+    {
+      slug: "lower-gastrointestinal-bleeding",
+      title: "Lower gastrointestinal bleeding",
+      minutes: 15,
+      objectives: [
+        "Distinguish lower from upper gastrointestinal bleeding by history and examination.",
+        "Resuscitate the bleeding patient and correct coagulopathy safely.",
+        "Risk-stratify into stable and unstable and arrange the right investigation urgently.",
+        "Counsel the common anorectal causes and recognise the bowel cancer that must not be missed.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Blood from below the ligament of Treitz",
+          paragraphs: [
+            "Lower bleeding usually announces itself honestly — bright red blood on paper, in the pan, or mixed through stool — but blood lies about its address: a brisk upper bleed can rush through red, and a slow right-colon bleed can emerge black as melaena. So every rectal bleed starts with the upper-gut question from Module 2 — NSAIDs, ulcer history, liver disease, vomiting blood — because an unstable 'lower' bleed with an upper cause needs an urgent upper endoscopy, not a colonoscopy queue.",
+            "In Ghana haemorrhoids and fissures cause most rectal bleeding, and most of it is small and benign — but bowel cancer rises with age, diverticular bleeding strikes the elderly suddenly and massively, and inflammatory bowel disease bleeds in the young. Age, pattern and associated symptoms sort the queue; iron deficiency and weight loss promote any bleed to urgent.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Causes by clue",
+          columns: ["Cause", "Clues", "Direction"],
+          rows: [
+            ["<strong>Haemorrhoids</strong>", "Bright red blood on paper or dripping in the pan, painless, with constipation and straining", "Fibre, fluids, unhurried toileting; banding or surgery for persistent piles — see the anorectal section; investigate first bleeds over 40"],
+            ["<strong>Anal fissure</strong>", "Sharp pain on passing stool with streaks of blood — pain is the clue piles lack", "Stool softeners, warm baths, GTN or diltiazem ointment; surgery only for chronic fissures"],
+            ["<strong>Diverticular bleeding</strong>", "Older patient, sudden painless large-volume bleed that usually stops by itself — then recurs", "Resuscitate, observe, colonoscopy after preparation; bleeding that will not stop needs CT angiography or surgery"],
+            ["<strong>Inflammatory bowel disease</strong>", "Young patient, bloody diarrhoea with urgency, crampy pain, weight loss", "Stool infection screen first, then gastroenterology — 5-ASA, steroids and escalation; toxic megacolon (distension, fever, tachycardia) is surgical"],
+            ["<strong>Bowel cancer and polyps</strong>", "Over 50, altered bowel habit, weight loss, iron-deficiency anaemia — the bleed that must not be missed", "Urgent colonoscopy; never attribute rectal bleeding to piles in this group without looking inside"],
+            ["<strong>Angiodysplasia</strong>", "Elderly, recurrent obscure bleeds with a normal colonoscopy, often on anticoagulants", "Capsule endoscopy or CT angiography where available; endoscopic ablation of the lesions"],
+            ["<strong>Meckel's diverticulum</strong>", "Child with painless maroon bleeding — ectopic gastric tissue ulcerating small bowel", "Technetium scan, surgical resection — the rule of twos: 2% of people, 2 feet from the valve, age 2"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Resuscitate, stratify, scope",
+          items: [
+            "<strong>Resuscitate like any bleed:</strong> airway, breathing, circulation — two large cannulas, type and crossmatch, warmed fluids, transfusion at haemoglobin below 70 (higher with heart disease), and tranexamic acid where the protocol supports it.",
+            "<strong>Correct clotting with the doctor, not alone:</strong> ask about warfarin, DOACs and antiplatelets; reverse or hold per protocol while weighing the stroke and stent risk — stopping everything blindly trades a bleed for a clot.",
+            "<strong>Stratify into stable and unstable:</strong> pulse, blood pressure with postural drop, lactate, haemoglobin trend, age and comorbidity. Young, stable, tiny bleed — outpatient scope. Old, shocked, anticoagulated or rebleeding — admit, monitor, scope as an inpatient after preparation.",
+            "<strong>Scope the stable, scan the unstable:</strong> colonoscopy after bowel preparation finds and often treats the source; the exsanguinating patient goes to resuscitation and surgery with CT angiography to locate the bleed — not to an endoscopy waiting list.",
+            "<strong>Chase the obscure bleed:</strong> normal upper and lower endoscopy with ongoing loss means small bowel — capsule endoscopy, tagged red-cell scan or CT angiography where available, with iron replacement and transfusion bridging the gap.",
+            "<strong>Watch the stool chart, not just the pulse:</strong> weigh pads, record every motion's colour and estimate, recheck haemoglobin on schedule — rebleeding declares itself in the pan hours before the pressure falls.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "warning",
+          title: "Anticoagulants and the rectal bleed",
+          body: "Resuscitate first, ask about warfarin, DOACs and antiplatelets second — and discuss holding or reversing with the doctor, not alone: stopping everything can trade a bleed for a stroke. A massive lower bleed with shock goes to resuscitation and surgery, not to the endoscopy waiting list.",
+        },
+      ],
+      keyPoints: [
+        "Bright red usually means below Treitz and black usually above — but brisk upper bleeds run red, so always ask the upper-gut question first.",
+        "Piles bleed painlessly on paper, fissures hurt, diverticula flood the elderly, IBD bleeds the young with diarrhoea, and cancer hides behind piles over 50.",
+        "Resuscitate, correct clotting with the doctor, stratify by vitals and comorbidity — stable scopes routinely, unstable resuscitates and scans.",
+        "Never send rectal bleeding with iron deficiency or weight loss home as piles without looking inside.",
+        "The stool chart warns hours before the blood pressure — weigh pads and record every motion.",
+      ],
+      quiz: {
+        keywords: ["rectal bleeding", "haematochezia", "lower gi", "melaena", "diverticular", "haemorrhoids", "hemorrhoids", "anal fissure", "colonoscopy", "sigmoidoscopy", "inflammatory bowel", "ulcerative colitis", "crohns", "colorectal", "colon cancer", "anticoagulant", "transfusion", "gi bleed"],
+      },
+    }
   ],
 };

@@ -3,7 +3,7 @@ import type { CourseModule } from "../types";
 export const menstrualAndEndocrineDisorders: CourseModule = {
   slug: "menstrual-and-endocrine-disorders",
   title: "Menstrual and endocrine disorders",
-  summary: "The disorders of menstruation that fill Ghanaian gynaecology clinics — primary and secondary amenorrhoea and the pregnancy test that comes first, primary and secondary dysmenorrhoea, abnormal uterine bleeding organised by PALM-COEIN, heavy menstrual bleeding and the iron deficiency it quietly causes, premenstrual syndrome, polycystic ovary syndrome, endometriosis and adenomyosis, menstrual hygiene and the schoolgirl who stays home — and the medical and nursing management of each; then the two ends of reproductive life — delayed and precocious puberty, Turner and Klinefelter syndromes and the imperforate hymen, premature ovarian insufficiency, the perimenopause and menopause with their vasomotor, genitourinary, psychological and skeletal consequences, menopausal hormone therapy and its alternatives, osteoporosis and fall prevention, and respectful care of the older woman.",
+  summary: "The disorders of menstruation that fill Ghanaian gynaecology clinics — primary and secondary amenorrhoea and the pregnancy test that comes first, primary and secondary dysmenorrhoea, abnormal uterine bleeding organised by PALM-COEIN, heavy menstrual bleeding and the iron deficiency it quietly causes, premenstrual syndrome, polycystic ovary syndrome, endometriosis and adenomyosis, menstrual hygiene and the schoolgirl who stays home — and the medical and nursing management of each; then the two ends of reproductive life — delayed and precocious puberty, Turner and Klinefelter syndromes and the imperforate hymen, premature ovarian insufficiency, the perimenopause and menopause with their vasomotor, genitourinary, psychological and skeletal consequences, menopausal hormone therapy and its alternatives, osteoporosis and fall prevention, and respectful care of the older woman. Endometriosis and chronic pelvic pain now have their own lesson.",
   lessons: [
     {
       slug: "abnormal-uterine-bleeding-dysmenorrhoea-amenorrhoea-and-polycystic-ovary-syndrome",
@@ -132,6 +132,67 @@ export const menstrualAndEndocrineDisorders: CourseModule = {
         "Premenstrual syndrome is diagnosed by a two-cycle prospective diary showing luteal symptoms and a symptom-free week; lifestyle first, then ovulation suppression, cognitive behavioural therapy or an SSRI; the bleeding and symptom diary is the nurse's most useful tool.",
       ],
       quiz: { keywords: ["menstruat","menstrual","period pain","prostaglandin","dysmenorrh","amenorrh","imperforate","endometri","fibroid","iron deficiency","oral iron","iron tablets","irregular spotting","spotting","bleeding pattern","turner","corpus luteum","ovulation","oestrogen","progest","leuprolide","35-day","30-day cycles","haemoglobin of 7","heavier than a period","hormone receptor"] },
+    },
+    {
+      slug: "endometriosis-and-chronic-pelvic-pain",
+      title: "Endometriosis and chronic pelvic pain",
+      minutes: 15,
+      objectives: [
+        "Distinguish primary from secondary dysmenorrhoea by history.",
+        "Describe endometriosis and adenomyosis and explain the diagnostic delay.",
+        "Outline the investigation and the medical and surgical management.",
+        "Support fertility planning and chronic pain in endometriosis.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Pain that has been normalised for too long",
+          paragraphs: [
+            "Periods that stop school or work are never normal — yet endometriosis waits seven to ten years for diagnosis while girls are told pain is womanhood. Endometrial tissue outside the uterus — ovaries, peritoneum, bowel, bladder — bleeds monthly with nowhere to go, causing inflammation, scarring, adhesions and blood-filled <strong>endometriomas (chocolate cysts)</strong>. <strong>Adenomyosis</strong> is its cousin inside the uterine muscle: a bulky tender uterus with heavy crushing periods in the thirties and forties.",
+            "Suspect it in the teenager whose dysmenorrhoea worsens year on year, the woman with deep pain on intercourse, cyclical bowel or bladder symptoms, and the couple with unexplained infertility — progressive, deep and cyclical are the three words that separate it from primary period pain.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Secondary dysmenorrhoea — the differential",
+          columns: ["Cause", "Clues", "Direction"],
+          rows: [
+            ["<strong>Endometriosis</strong>", "Teen onset that worsens, deep dyspareunia, cyclical bowel or bladder pain, infertility; tender nodules behind the cervix", "Laparoscopy is the gold standard — see and treat; COC or progestin first-line while waiting"],
+            ["<strong>Adenomyosis</strong>", "Thirties and forties, heavy prolonged crushing periods, bulky tender uterus", "Levonorgestrel IUS shrinks bleeding dramatically; hysterectomy when the family is complete"],
+            ["<strong>Fibroids</strong>", "Pressure symptoms and heavy bleeding with an enlarged irregular uterus — see the fibroids lesson", "Scan and refer by size, symptoms and fertility plans"],
+            ["<strong>Chronic PID</strong>", "Discharge, cervical motion tenderness, partner symptoms — infection, not endometriosis", "Antibiotics for both partners per syndromic protocol, then reassess the pain"],
+            ["<strong>IUD-related pain</strong>", "Recent insertion with cramping or heavy bleeding", "Check threads and position on scan; remove or reposition if malpositioned"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Diagnosis and management",
+          items: [
+            "<strong>Believe, diary, examine:</strong> a pain diary (timing, severity, bowel, bladder, intercourse, school days lost), gentle examination with consent, and transvaginal or rectal scan — an endometrioma looks ground-glass, but a NORMAL scan never excludes endometriosis.",
+            "<strong>Treat without waiting years:</strong> NSAIDs timed from before bleeding starts, continuous combined contraception or progestin, levonorgestrel IUS — response to treatment supports the diagnosis while laparoscopy is awaited.",
+            "<strong>Laparoscopy sees and treats:</strong> ablation or excision of deposits, adhesiolysis, ovarian cystectomy sparing healthy tissue — counsel that surgery helps pain and fertility but disease can recur.",
+            "<strong>Reserve GnRH analogues for selected cases:</strong> monthly injections with add-back therapy, short courses only — bone loss and menopausal symptoms limit them to severe disease under specialist care.",
+            "<strong>Plan fertility early:</strong> refer subfertility after a year of trying (six months over 35) without delay — endometriosis plus time is the combination that closes the window; assisted reproduction where available.",
+            "<strong>Treat the chronic pain, not just the lesions:</strong> physiotherapy for pelvic floor spasm, psychological support, school and work letters that name the disease — pain that outlasts the lesions is real and needs the pain clinic, not dismissal.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "warning",
+          title: "The pregnancy test comes before the painkillers",
+          body: "Every acute pelvic pain in a reproductive-age woman gets a pregnancy test before anything else — ectopic kills. Then fever and discharge (PID and abscess), then sudden and severe (torsion and rupture) — and only then the chronic story of endometriosis.",
+        },
+      ],
+      keyPoints: [
+        "Periods that stop life are never normal — progressive, deep and cyclical pain is endometriosis until investigated.",
+        "Endometriosis implants outside the uterus; adenomyosis invades its muscle — bulky tender uterus with heavy crushing periods.",
+        "A normal scan never excludes endometriosis; laparoscopy sees and treats; COC, progestin or LNG-IUS starts now.",
+        "Plan fertility early and treat chronic pain as its own disease with physio, psychology and pain-clinic referral.",
+        "Acute pelvic pain runs pregnancy test, fever check and sudden-severe screen before any chronic diagnosis.",
+      ],
+      quiz: {
+        keywords: ["endometriosis", "dysmenorrhoea", "pelvic pain", "dyspareunia", "adenomyosis", "chocolate cyst", "endometrioma", "laparoscopy", "infertility", "menorrhagia", "chronic pelvic pain", "progestin", "gnrh", "danazol"],
+      },
     },
     {
       slug: "puberty-disorders-premature-ovarian-insufficiency-and-the-menopause",

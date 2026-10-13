@@ -3,7 +3,7 @@ import type { CourseModule } from "../types";
 export const postnatalAndNewbornCare: CourseModule = {
   slug: "postnatal-and-newborn-care",
   title: "Postnatal and newborn care",
-  summary: "The six weeks after birth for the mother — involution and lochia, the four postnatal contacts, the examination, breastfeeding and its problems, sepsis, bleeding, clots, blood pressure, bladder, perineum, mood and contraception; and the newborn — immediate care and the Golden Minute of resuscitation, the examination, the danger signs, jaundice, infection, hypoglycaemia, the small and preterm baby and kangaroo mother care.",
+  summary: "The six weeks after birth for the mother — involution and lochia, the four postnatal contacts, the examination, breastfeeding and its problems, sepsis, bleeding, clots, blood pressure, bladder, perineum, mood and contraception; and the newborn — immediate care and the Golden Minute of resuscitation, the examination, the danger signs, jaundice, infection, hypoglycaemia, the small and preterm baby and kangaroo mother care. Breastfeeding now has its own lesson from the first hour to expression, problems, HIV and return to work.",
   lessons: [
     {
       slug: "the-puerperium-and-postnatal-care",
@@ -206,6 +206,75 @@ export const postnatalAndNewbornCare: CourseModule = {
           "heavy fresh bleeding",
           "wedge",
         ],
+      },
+    },
+    {
+      slug: "breastfeeding",
+      title: "Breastfeeding",
+      minutes: 16,
+      objectives: [
+        "Support initiation in the first hour with positioning, attachment and demand feeding.",
+        "Teach hand expression and the safe storage of breast milk.",
+        "Manage engorgement, sore nipples, mastitis, abscess and perceived low supply.",
+        "Counsel on HIV, medicines in milk and returning to work or school.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "The first hour decides the first six months",
+          paragraphs: [
+            "Put the naked baby skin-to-skin on the mother's chest within minutes of birth and keep them there — warm, calm and rooting — until the first feed finishes. <strong>Colostrum</strong> looks like too little and is exactly enough: concentrated antibody, laxative and growth factor in teaspoons. No prelacteal feeds, no water, no formula 'while the milk comes in' — every bottle given in the first days teaches the breast to make less.",
+            "Feed on demand, eight to twelve times in 24 hours, from both breasts, day and night — night feeds build supply. <strong>Exclusive breastfeeding for six months, then complementary foods with continued breastfeeding to two years and beyond</strong>: that sentence, believed and supported, prevents more malnutrition and diarrhoea deaths than any drug on the ward.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Positioning, attachment and milk transfer",
+          columns: ["Step", "Good looks like", "Fix"],
+          rows: [
+            ["<strong>Position</strong>", "Baby's tummy to mother's tummy, ear-shoulder-hip in line, whole body supported, nose to nipple so the head tilts back", "Unwrap tight swaddling, bring baby TO breast (not breast to baby), support the back not the head"],
+            ["<strong>Attachment</strong>", "Wide-open mouth, lower lip turned out, chin touching breast, more areola visible above than below, no pain beyond the first sucks", "Break a shallow latch with a clean finger and start again — a clicking, painful feed transfers no milk and injures nipples"],
+            ["<strong>Milk transfer</strong>", "Slow deep sucks with swallowing, softening breast, baby content and sleepy, six or more wet nappies and steady weight gain", "Frequent short fussy feeds with no weight gain mean re-attachment and review, not formula — weigh, watch a whole feed, then decide"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Problems and fixes",
+          items: [
+            "<strong>Engorgement (days 2–5):</strong> bilateral hot hard leaking breasts — feed frequently, warm compress before to flow, cold after to soothe, hand-express just enough to soften the areola so baby can latch. It passes; scheduled feeds make it worse.",
+            "<strong>Sore and cracked nipples:</strong> almost always shallow attachment — fix the latch first, then air-dry, lanolin, and check for white patches of thrush in baby's mouth needing both mother and baby treated.",
+            "<strong>Mastitis:</strong> a unilateral painful wedge with fever and flu-like aches — CONTINUE feeding (stopping worsens it), rest, fluids, analgesia and antibiotics that are safe in lactation. A hot fluctuant lump is an abscess: feed from the other side and refer urgently for ultrasound and drainage.",
+            "<strong>'Not enough milk':</strong> the commonest reason for stopping, rarely true — weight, nappies and a watched feed decide. More skin-to-skin, correct attachment, no bottles or pacifiers, and confidence: anxiety dries the let-down, not the supply.",
+            "<strong>Twins, preterm and sick babies:</strong> kangaroo care plus expressed milk by cup — preterm milk is richer, cups avoid nipple confusion, and every millilitre of mother's milk protects a gut that formula injures.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "HIV, medicines and going back to work",
+          items: [
+            "<strong>HIV:</strong> with maternal ART and viral suppression, exclusive breastfeeding for six months then complementary foods with continued breastfeeding — mixed feeding before six months raises transmission, and safe formula is unaffordable for most; support the mother's choice without shaming either way.",
+            "<strong>Medicines in milk:</strong> most are compatible — check before stopping breastfeeding, not instead of treating. Antimalarials, most antibiotics, antihypertensives and antiretrovirals are generally continued; cytotoxics, radioisotopes and a short list of others are not — verify against the reference, never from memory.",
+            "<strong>Alcohol and smoking:</strong> advise none; if she drinks, one standard drink after a feed with two hours before the next is harm reduction, not permission — and smoking near any baby harms lungs whatever the feed.",
+            "<strong>Expression and storage:</strong> washed hands, clean covered container; room temperature up to 4 hours, fridge 4 days, freezer up to 6 months — thaw in the fridge or warm water, never the microwave; feed by cup. Teach hand expression before discharge: every working mother needs it.",
+            "<strong>Work and school:</strong> maternity leave, expressing breaks, a clean storage place — negotiate all three before she leaves the ward. A baby left with a sibling and thin koko is how exclusive breastfeeding dies at six weeks.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Mastitis versus engorgement versus abscess",
+          body: "Engorgement is bilateral, hot and hard on days 2–5 — feed through it. Mastitis is a unilateral painful wedge with fever — feed through it AND give antibiotics. An abscess is a fluctuant lump — feed from the other side and refer for drainage.",
+        },
+      ],
+      keyPoints: [
+        "Skin-to-skin and the first feed within the hour, colostrum only, demand feeding 8–12 times daily — no prelacteal feeds ever.",
+        "Position tummy-to-mummy, attach wide and deep, confirm transfer by swallowing, softening, nappies and weight.",
+        "Engorgement and mastitis are fed through; cracked nipples mean shallow latch; abscess feeds one side and refers.",
+        "HIV with ART breastfeeds exclusively to six months; most medicines are compatible — check, don't stop.",
+        "Expression, storage and cup feeding keep the working mother's baby on breast milk — teach all three before discharge.",
+      ],
+      quiz: {
+        keywords: ["breastfeeding", "breast feeding", "lactation", "colostrum", "attachment", "latch", "positioning", "engorgement", "mastitis", "cracked nipple", "nipple", "expression of breast milk", "exclusive breastfeeding", "complementary feeding", "weaning", "breast abscess", "thrush", "hiv and breastfeeding", "infant feeding"],
       },
     },
     {

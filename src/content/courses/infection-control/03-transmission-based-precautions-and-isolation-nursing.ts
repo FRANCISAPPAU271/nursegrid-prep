@@ -3,7 +3,7 @@ import type { CourseModule } from "../types";
 export const transmissionBasedPrecautionsAndIsolationNursing: CourseModule = {
   slug: "transmission-based-precautions-and-isolation-nursing",
   title: "Transmission-based precautions and isolation nursing",
-  summary: "The precautions added on top of standard precautions when the organism is known or suspected: contact, droplet and airborne — which diseases, which PPE, which room; tuberculosis on an open Ghanaian ward and the N95; protective isolation of the neutropenic patient; isolation versus quarantine; how to nurse a patient in isolation well — the room, the equipment, visitors, transport, specimens, dignity and mental health, discontinuing isolation, terminal cleaning and care of the deceased; and the high-consequence infections Ghana must be ready for — cholera and the treatment centre, viral haemorrhagic fever, measles and meningitis in outbreaks, and the immediately notifiable list.",
+  summary: "The precautions added on top of standard precautions when the organism is known or suspected: contact, droplet and airborne — which diseases, which PPE, which room; tuberculosis on an open Ghanaian ward and the N95; protective isolation of the neutropenic patient; isolation versus quarantine; how to nurse a patient in isolation well — the room, the equipment, visitors, transport, specimens, dignity and mental health, discontinuing isolation, terminal cleaning and care of the deceased; and the high-consequence infections Ghana must be ready for — cholera and the treatment centre, viral haemorrhagic fever, measles and meningitis in outbreaks, and the immediately notifiable list. Multidrug-resistant organisms now have their own lesson of screening, isolation, decolonisation and outbreak response.",
   lessons: [
     {
       slug: "contact-droplet-and-airborne-precautions",
@@ -111,6 +111,79 @@ export const transmissionBasedPrecautionsAndIsolationNursing: CourseModule = {
         "Isolation separates the ill patient while infectious; quarantine restricts the well but exposed contact for one incubation period; contact tracing connects the two and depends on confidentiality.",
       ],
       quiz: { keywords: ["transmission based precautions","airborne precautions","contact precautions","negative pressure","tuberculosis infection control","tuberculosis risk to staff","screening for tuberculosis","sputum for tuberculosis","isolation nursing","isolation","single room","mrsa","measles","chickenpox","scabies","ringworm","childhood tuberculosis","tuberculosis treatment adherence","pulmonary tuberculosis","smear positive","meningococc","c difficile","contact screening","genexpert","household contacts","productive cough","night sweats","open ward","suspected meningococcal","nursed in isolation","transported","crowded","overcrowd","directly observed","antituberculous","rifampicin","isoniazid","pyridoxine","ethambutol"] },
+    },
+    {
+      slug: "multidrug-resistant-organisms",
+      title: "Multidrug-resistant organisms",
+      minutes: 15,
+      objectives: [
+        "Describe MRSA, VRE, ESBL, CRE, C. difficile and resistant Gram-negatives.",
+        "Apply screening, isolation and decolonisation for colonised patients.",
+        "Manage the MDRO outbreak from signal to stand-down.",
+        "Link every prescription to stewardship and resistance prevention.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "When the drugs stop working",
+          paragraphs: [
+            "Resistance arrives in two forms that demand different responses: <strong>colonisation</strong> — the organism lives on skin, nose or gut without making the patient ill — and <strong>infection</strong>, where it invades and harms. The colonised patient needs isolation and decolonisation, not antibiotics; treating colonisation with last-line drugs breeds worse resistance. In Ghana ESBL already fills neonatal units, MRSA complicates wounds, carbapenem resistance creeps upward, and every unnecessary capsule from clinicians, chemical sellers and poultry farmers pushes the curve — the nurse who screens, isolates and questions prescriptions fights the slow pandemic at its source.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "The organisms — where they live and what stops them",
+          columns: ["Organism", "Where and how", "Nursing measures"],
+          rows: [
+            ["<strong>MRSA</strong>", "Nose, wounds, lines — spread by hands and contact", "Contact precautions, single room or cohort, mupirocin nasal plus chlorhexidine washes for 5 days, rescreen; vancomycin only if infected"],
+            ["<strong>VRE</strong>", "Gut and environment — survives on surfaces for weeks", "Contact precautions with dedicated equipment, bleach cleaning, strict hand hygiene; linezolid or daptomycin decisions belong to specialists"],
+            ["<strong>ESBL E. coli and Klebsiella</strong>", "Urine, blood, neonatal units — defeats cephalosporins", "Contact precautions, catheter care (remove unnecessary catheters), carbapenem guarded for true infection only"],
+            ["<strong>CRE (carbapenem-resistant)</strong>", "The last line failing — gut, wounds, devices", "Strict contact precautions, cohorted staff, immediate notification and outbreak team — every case is an incident"],
+            ["<strong>C. difficile</strong>", "Watery diarrhoea during or after antibiotics — spores everywhere", "Contact precautions PLUS soap-and-water handwashing (alcohol does not kill spores), bleach cleaning, stop the culprit antibiotic, fidaxomicin or vancomycin"],
+            ["<strong>Acinetobacter and Pseudomonas</strong>", "Ventilators, burns, moist equipment, sinks", "Contact precautions, equipment decontamination, dry storage, water and sink hygiene on outbreak wards"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Screen, isolate, decolonise",
+          items: [
+            "<strong>Screen the high-risk on admission:</strong> ICU transfers, previous MDRO carriers, recent hospitalisation abroad, chronic wounds — nose, groin and rectal swabs per protocol, with results chased not filed.",
+            "<strong>Isolate without delay or stigma:</strong> single room or cohort bay, gloves and gown, dedicated equipment, flagged notes and bed — explained to patient and family as protection, not punishment.",
+            "<strong>Decolonise MRSA properly:</strong> mupirocin to the nose plus daily chlorhexidine washes for five days, then rescreen — half-courses breed mupirocin resistance too.",
+            "<strong>Wash right for the organism:</strong> alcohol rub for most MDRO contact, but SOAP AND WATER for C. difficile and norovirus — the spore and the non-enveloped virus laugh at alcohol.",
+            "<strong>Clean to the organism:</strong> bleach (hypochlorite) for C. difficile and VRE rooms with terminal clean on discharge or transfer; curtains, mattresses and equipment included, not just the floor.",
+            "<strong>Communicate on every move:</strong> carrier status travels with the patient — receiving ward, theatre, transport and discharge letter all told; silence colonises the next ward.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Outbreak — two cases are a signal",
+          items: [
+            "<strong>Define the signal:</strong> same organism, same place, same time — two linked cases start the response, not ten; pull the dates, wards and antibiograms together.",
+            "<strong>Isolate and cohort immediately:</strong> cases together under designated staff, admissions and transfers restricted while the picture clarifies.",
+            "<strong>Audit the basics under pressure:</strong> hand compliance, cleaning scores, device necessity, antibiotic charts — outbreaks expose the shortcut everyone tolerated.",
+            "<strong>Screen to find the iceberg:</strong> contacts, environment and water where indicated — the visible cases are rarely all of them.",
+            "<strong>Review every antibiotic on the ward with stewardship:</strong> stop the unnecessary, narrow the broad, shorten the prolonged — the outbreak and the prescribing end together.",
+            "<strong>Stand down formally:</strong> two incubation periods without new cases, terminal cleaning, report filed through surveillance — and the lessons kept, not the blame.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Colonised is not infected",
+          body: "A screening swab growing MRSA in a well patient is colonisation — isolate and decolonise, don't prescribe vancomycin. Infection means signs: fever, pus, rising CRP. Treat the patient, not the swab — except C. difficile diarrhoea, which is always disease.",
+        },
+      ],
+      keyPoints: [
+        "Colonisation needs isolation and decolonisation; infection needs antibiotics — treating swabs breeds worse resistance.",
+        "MRSA decolonises with mupirocin plus chlorhexidine; VRE and C. difficile need bleach and (for C. diff) soap and water.",
+        "CRE is an incident from the first case: strict contact precautions, cohorted staff, immediate notification.",
+        "Screen high-risk admissions, flag carriers on every transfer, and communicate without stigma.",
+        "Two linked cases start outbreak response: cohort, audit, screen, steward antibiotics, stand down formally.",
+      ],
+      quiz: {
+        keywords: ["mrsa", "meticillin", "vre", "vancomycin resistant", "esbl", "extended spectrum", "carbapenem", "acinetobacter", "pseudomonas", "c difficile", "clostridioides", "colonisation", "decolonisation", "mupirocin", "chlorhexidine bathing", "screening swab", "contact precautions", "stewardship", "resistant organism"],
+      },
     },
     {
       slug: "nursing-the-patient-in-isolation-dignity-visitors-transport-discharge-and-death",

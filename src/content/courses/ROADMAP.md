@@ -18,10 +18,10 @@ course is published.
 
 | # | Course | Code | Status | Covers "tricky topics" |
 |---|--------|------|--------|------------------------|
-| 1 | Cardiovascular Nursing | NGP-CVN-101 | ✅ written (8 modules / 17 lessons / 5 h) | — |
-| 2 | Respiratory Nursing | NGP-RSP-102 | ✅ written (7 modules / 15 lessons / 4 h) | 2 ABG interpretation · 6 Respiratory disorders · 16 Oxygen therapy |
+| 1 | Cardiovascular Nursing | NGP-CVN-101 | ✅ written (8 modules / 18 lessons / 5 h) | — |
+| 2 | Respiratory Nursing | NGP-RSP-102 | ✅ written (7 modules / 16 lessons / 4 h) | 2 ABG interpretation · 6 Respiratory disorders · 16 Oxygen therapy |
 | 3 | Renal, Fluid & Electrolyte Nursing | NGP-RFE-103 | ✅ written (7 modules / 16 lessons / 4 h) | 1 Fluid & electrolyte imbalances · 7 Renal / dialysis |
-| 4 | Endocrine & Diabetes Nursing | NGP-END-104 | ✅ written (7 modules / 15 lessons / 4 h) | 4 Diabetes & insulin · 9 Endocrine emergencies |
+| 4 | Endocrine & Diabetes Nursing | NGP-END-104 | ✅ written (7 modules / 19 lessons / 5 h) | 4 Diabetes & insulin · 9 Endocrine emergencies |
 | 5 | Neurological Nursing | NGP-NEU-105 | ✅ written (7 modules / 15 lessons / 4 h) | 8 Neurological assessment (GCS, stroke, raised ICP, seizures) |
 | 6 | Gastrointestinal & Hepatic Nursing | NGP-GIT-106 | ✅ written (7 modules / 15 lessons / 4 h) | — (nutrition, enteral/parenteral feeding, refeeding; cholera & ORS plans; stoma care) |
 | 7 | Musculoskeletal Nursing | NGP-MSK-107 | ✅ written (7 modules / 15 lessons / 4 h) | — (fractures, casts & traction, compartment syndrome, hip fracture & falls, NAI, spinal injury & manual handling, sickle cell bone disease, analgesic ladder & local anaesthetic doses) |
@@ -59,3 +59,39 @@ are taught in full once and cross-referenced elsewhere rather than duplicated.
 4. `npm run typecheck` and `npx eslint src/content/courses` clean.
 5. Review HTML generated and read by the course owner before the course is published.
 6. Course added to `COURSES` in `src/content/courses/index.ts` (catalogue order = table order above).
+
+## 2026-10-12 — Batch 1 close-out (101–104) on deep/batch1-closeout
+- Expanded 5 thin lessons to 8–9 blocks: cardiac-investigations-and-nursing-care (+3), copd (+4), pneumonia (+5), glomerulonephritis-and-nephrotic-syndrome (+4), non-insulin-glucose-lowering-drugs (+4).
+- New lessons: lung-cancer (resp-05, 16 min, 25 keywords, post-test +20) and dialysis-emergencies-drill (renal-06, 14 min, anchors existing pool +2).
+- Diagram retrofits from bank stock: pneumonia <- MCB-2500 Gram stain; chronic-kidney-disease <- LTC-1813 CKD stages; pituitary-disorders-and-water-balance <- EPR-1038 chain of command; endocrine-drugs-and-calculations <- DRC-2390 formulas.
+- Post-test keyword pools: lung-cancer 122 matches, dialysis drill 94 (88 excl. peritonitis). No credit-hour changes.
+
+## 2026-10-12 — Batch 2 neuro/GI/MSK/skin (105–108) on deep/batch2
+- 3 NEW lessons: brain-tumours-hydrocephalus-and-shunts (neuro-02, 16 min), headache (neuro-06, 15 min), lower-gastrointestinal-bleeding (GI-04, 15 min). Post-test deltas: neuro +45, GI +3 (anchors existing pool); keyword pools tumours=102, headache=60, lower-bleed=48.
+- 4 EXPANSIONS where coverage existed: pancreatitis +3 (Atlanta severity, feeding/definitive, lipase callout), hot-joint +2 (differential, aspiration nursing), back-pain +2 (non-mechanical patterns, chronic back), SJS/TEN +2 (SCORTEN, culprit history).
+- No diagram retrofits: bank has no shunt/migraine/melaena/gout/SJS art — text/table depth instead. No credit-hour changes.
+
+## 2026-10-12 — Batch 3 blood/obs/paeds/gynae (109/110/115/122) on deep/batch3
+- 5 NEW lessons: full-blood-count-interpretation-drill (blood-01, 15 min), breastfeeding (obs-06, 16 min), fever-and-rash-in-children-drill (paeds-04, 15 min), adolescent-health (paeds-06, 15 min), endometriosis-and-chronic-pelvic-pain (gynae-02, 15 min).
+- 2 EXPANSIONS: partograph +3 (Labour Care Guide, action scenarios, documentation callout), adnexal mass +2 (workup table + OPR-1172 diagram retrofit).
+- Transfusion drill DROPPED (two existing lessons, 55K chars, fully cover process + reactions); complementary-feeding expansion DROPPED (already well covered). No padding.
+- Post-test deltas: blood +2 (anchors pool), obs +43, paeds +28 (keywords narrowed after +299 first pass), gynae +1 (bank holds ~12 endometriosis matches). No credit-hour changes.
+
+## 2026-10-12 — Batch 4 emergency/ICU/theatre/IPC (111/123/119/114) on deep/batch4
+- 3 NEW lessons: acute-pain-and-procedural-sedation (emergency-05, 16 min), patient-controlled-epidural-and-regional-analgesia (periop-03, 15 min), multidrug-resistant-organisms (IPC-03, 15 min).
+- 2 EXPANSIONS: ventilator alarms +2 (circuit/gas/power safety, waveforms), triage +2 (ETAT table, paediatric pitfalls).
+- DROPPED as already covered: vasoactives (drug table + infusion + extravasation), deteriorating post-op (33K complications lesson), needlestick/PEP (22K incl. HepC). No diagram retrofits (no fitting unused art). No credit-hour changes.
+- Post-test deltas: emergency +6, periop +22, IPC +2 (ED keywords narrowed after +219 first pass; bank holds few sedation/MDRO questions). No credit-hour changes.
+
+## 2026-10-12 — Batch 5 pharmacy/research/community/tropical (112/121/117/120) on deep/batch5
+- 2 NEW lessons: school-health-services (community-04, 15 min), reaching-hard-to-reach-populations (community-01, 15 min).
+- 2 EXPANSIONS: qualitative coding +2 (coding-to-themes table, analysis trustworthiness), RDT-negative fever +2 (what-next-by-presentation table, safety-netting).
+- DROPPED as already covered: chart-error (full safe-med lesson), antidotes (poisoning antidotes block + high-alert reversals), appraisal (CASP worked example), VHF prep (37K VHF lesson). No diagram retrofits. No credit-hour changes.
+- Post-test delta: community +0 (pools school=15, reach=23 — small but lesson-honest). No credit-hour changes.
+
+## 2026-10-12 — Batch 6 leadership/fundamentals/procedures/mental-health (113/118/124/116) on deep/batch6 — PROGRAM COMPLETE
+- 4 NEW lessons: being-in-charge-of-the-shift (leadership-04, 15 min), difficult-conversations (leadership-06, 15 min, FAM-1722 retrofit), culture-beliefs-and-nursing-care (fundamentals-01, 15 min), somatic-symptom-conversion-and-dissociative-disorders (mental-health-04, 15 min).
+- 1 EXPANSION: eating disorders +2 (medical complications table, nursing list).
+- DROPPED as already covered: documentation (two lessons), chest-drain (full procedure text), feeding-tube (NG/gastrostomy/PN + refeeding). No credit-hour changes.
+- Post-test deltas: leadership +0 (anchors pool of 264), fundamentals +8, mental +1 (bank holds ~1 somatic match).
+- PROGRAM TOTALS: 19 new lessons + 16 expansions + 7 diagram retrofits across Batches 1–6 (planned 41 new — remainder found already covered; no padding added).

@@ -8,7 +8,7 @@ export const kidneyDisease: CourseModule = {
     {
       slug: "glomerulonephritis-and-nephrotic-syndrome",
       title: "Glomerulonephritis and nephrotic syndrome",
-      minutes: 14,
+      minutes: 18,
       objectives: [
         "Differentiate the nephritic and nephrotic presentations and link each to the damaged filter.",
         "Describe acute post-streptococcal glomerulonephritis in children and its nursing management.",
@@ -38,6 +38,19 @@ export const kidneyDisease: CourseModule = {
           ],
         },
         {
+          type: "table",
+          heading: "Glomerular diseases beyond PSGN",
+          columns: ["Disease", "The clue pattern", "Note"],
+          rows: [
+            ["<strong>IgA nephropathy</strong>", "Visible blood in urine <em>during</em> a sore throat or respiratory infection — synpharyngitic, not weeks later", "The commonest glomerulonephritis worldwide; many do well, some progress — blood pressure control is the treatment"],
+            ["<strong>Lupus nephritis</strong>", "Young woman with joint pains, facial rash, mouth ulcers — plus proteinuria and active urinary sediment", "Treat the lupus and the kidney together; pregnancy needs planning around teratogenic drugs"],
+            ["<strong>ANCA vasculitis</strong>", "Older adult with sinus or lung symptoms, fatigue and a creatinine climbing over weeks", "A small-vessel vasculitis emergency — immunosuppression saves kidneys and life"],
+            ["<strong>Goodpasture (anti-GBM) disease</strong>", "Haemoptysis plus rapidly rising creatinine — lungs and kidneys bleeding together", "Plasma exchange removes the antibody; smoking makes the lung bleeding worse — stop it today"],
+            ["<strong>Diabetic nephropathy</strong>", "Years of diabetes, then albuminuria, then proteinuria and falling eGFR — often with retinopathy alongside", "The commonest cause of kidney failure in adults; ACE inhibitors, glucose and pressure control slow it"],
+            ["<strong>Hypertensive nephrosclerosis</strong>", "Long-standing severe hypertension with bland urine and slowly rising creatinine", "Control the pressure and the kidneys stabilise — malignant hypertension needs urgent lowering"],
+          ],
+        },
+        {
           type: "list",
           heading: "Acute post-streptococcal glomerulonephritis — nursing the child",
           items: [
@@ -64,6 +77,22 @@ export const kidneyDisease: CourseModule = {
           ],
         },
         {
+          type: "list",
+          heading: "Kidney biopsy — nursing before and after",
+          items: [
+            "<strong>Before — prepare and explain:</strong> consent taken by the doctor, blood pressure controlled, platelets and clotting checked, anticoagulants and antiplatelets held per protocol, blood grouped in case. Explain the prone position, the local anaesthetic sting and the loud click of the biopsy gun so the patient holds still at the signal.",
+            "<strong>After — flat and watched:</strong> bed rest flat for 4–6 hours with observations every 15 minutes, then half-hourly, then hourly; check every urine void — faint pink in the first one or two voids is common.",
+            "<strong>Watch the three bleeding warnings:</strong> gross haematuria that persists or worsens, clots with inability to pass urine, and severe or worsening flank pain with pallor, tachycardia or hypotension — a perinephric bleed. Keep the patient flat, run fluids, recheck haemoglobin and call the urology or surgical team, not just the ward doctor.",
+            "<strong>Record and hand over:</strong> number of passes, pain scores, all blood pressures and pulses, urine colour each void, total urine output, and the discharge advice — rest 1–2 weeks, no lifting or contact sport, report visible blood, clots, fever, severe pain or inability to urinate.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "warning",
+          title: "Rapidly progressive GN — weeks to dialysis",
+          body: "Blood and protein in the urine with a creatinine climbing over days to weeks is rapidly progressive glomerulonephritis until proven otherwise — ANCA vasculitis or Goodpasture disease. Add coughing of blood and it is an emergency on two fronts. Early high-dose steroids, immunosuppression and sometimes plasma exchange can save the kidneys; watchful waiting loses them. Escalate the same day.",
+        },
+        {
           type: "callout",
           tone: "exam",
           title: "Separate them in one line each",
@@ -76,9 +105,11 @@ export const kidneyDisease: CourseModule = {
         "Nephrotic patients are intravascularly depleted despite oedema — diurese cautiously, no-added-salt, normal protein, daily weights.",
         "Infection (peritonitis, cellulitis, sepsis) and thrombosis are the dangerous complications; vaccinate, examine the abdomen, report fever, mobilise, avoid dehydration.",
         "Parents dipstick morning urine at home; protein 2+ for 3 days means relapse; steroids are never stopped suddenly.",
+        "Blood with a sore throat is IgA; lungs plus kidneys bleeding is Goodpasture; young woman with rash and proteinuria is lupus — patterns diagnose.",
+        "After kidney biopsy keep flat 4–6 hours and watch every void: persistent gross haematuria, clots or flank pain with shock means a perinephric bleed.",
       ],
       quiz: {
-        keywords: ["nephrotic", "nephritic", "glomerulonephritis", "proteinuria", "haematuria", "hypoalbumin", "albumin", "periorbital", "oedema", "streptococc", "prednisolone", "frothy urine", "cola coloured", "minimal change"],
+        keywords: ["nephrotic", "nephritic", "glomerulonephritis", "proteinuria", "haematuria", "hypoalbumin", "albumin", "periorbital", "oedema", "streptococc", "prednisolone", "frothy urine", "cola coloured", "minimal change", "biopsy", "iga", "lupus nephritis", "goodpasture", "anca", "vasculitis", "diabetic nephropathy", "rapidly progressive"],
       },
     },
     {
@@ -204,6 +235,12 @@ export const kidneyDisease: CourseModule = {
             ["A1 / A2 / A3", "Albumin:creatinine ratio under 3 / 3–30 / over 30 mg/mmol", "Normal / moderately / severely increased albuminuria", "Higher albuminuria at any eGFR means faster progression and more cardiovascular risk — ACE inhibitor or ARB"],
           ],
         },
+        {
+                  type: "diagram",
+                  src: "/diagrams/NG-LTC-1813.svg",
+                  alt: "CKD stages G1 to G5 with screening, fluid allowance arithmetic and fistula-arm protection",
+                  caption: "Function falls through G1–G5 while the patient feels nothing — screen every diabetic and hypertensive with urine protein AND creatinine, allow yesterday's urine plus 500 mL, and keep cuffs and cannulas off the future fistula arm.",
+                },
         {
           type: "table",
           heading: "Complications and what is done about them",

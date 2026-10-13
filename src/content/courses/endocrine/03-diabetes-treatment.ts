@@ -8,7 +8,7 @@ export const diabetesTreatment: CourseModule = {
     {
       slug: "non-insulin-glucose-lowering-drugs",
       title: "Non-insulin glucose-lowering drugs",
-      minutes: 16,
+      minutes: 20,
       objectives: [
         "Explain the mechanism, benefits, adverse effects and nursing points of each class of non-insulin agent.",
         "Identify which drugs cause hypoglycaemia and which do not, and counsel accordingly.",
@@ -22,6 +22,17 @@ export const diabetesTreatment: CourseModule = {
           paragraphs: [
             "Type 2 diabetes is progressive: beta cells fail by a few per cent a year, so a treatment that works today will need adding to tomorrow. The approach is stepwise — lifestyle at every step, <strong>metformin</strong> first unless contraindicated, then a second agent chosen by the patient's circumstances (cardiovascular or kidney disease, weight, hypoglycaemia risk, cost and availability), and <strong>insulin</strong> when tablets are no longer enough or at any point when the patient is symptomatic with very high glucose, ketotic, pregnant, or acutely ill. In Ghana the agents most reliably available and covered by insurance are metformin, glibenclamide or gliclazide and insulin; the newer classes are increasingly found in the cities but are expensive.",
             "Two questions decide most counselling: <em>Can this drug cause hypoglycaemia?</em> (sulphonylureas, meglitinides and insulin — yes; metformin, DPP-4 inhibitors, SGLT2 inhibitors, GLP-1 agonists and pioglitazone alone — essentially no) and <em>What does it do to weight?</em> (sulphonylureas, pioglitazone and insulin gain; metformin neutral or slight loss; SGLT2 inhibitors and GLP-1 agonists lose).",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Starting and titrating — the first prescription",
+          items: [
+            "<strong>Metformin starts low and climbs slow:</strong> 500 mg with the evening meal, adding 500 mg each week toward 1,000 mg twice daily as the gut allows — 2,000 mg is the usual ceiling. Warn about nausea and loose stool in the first weeks, take it with food, and use the extended-release form where available if the gut rebels.",
+            "<strong>Sulphonylureas start low in the vulnerable:</strong> gliclazide 40–80 mg with breakfast, titrated against fasting glucose toward 4–7 mmol/L — lower doses and slower steps in the elderly and kidney disease. Teach hypo recognition from the first tablet, not after the first collapse.",
+            "<strong>Review HbA1c at three months</strong> and intensify without delay if it sits above target — the failure to step up for years has a name, clinical inertia, and it costs eyes, kidneys and feet. Add the second agent; do not just re-prescribe the failing one.",
+            "<strong>De-intensify the frail:</strong> in the elderly with limited life expectancy, relax the target (HbA1c below 64–69 rather than 53), simplify to fewer tablets, and stop the sulphonylurea first — a hypo that breaks a hip undoes years of good control.",
+            "<strong>Document the plan the patient can repeat:</strong> drug, dose, timing against meals, what to do if a dose is missed, hypo action, sick-day holds and the review date. A plan the patient cannot repeat back has not been taught.",
           ],
         },
         {
@@ -56,6 +67,27 @@ export const diabetesTreatment: CourseModule = {
           ],
         },
         {
+          type: "table",
+          heading: "Sick-day rules and perioperative holds",
+          columns: ["Situation", "What to hold", "What to do instead"],
+          rows: [
+            ["<strong>Vomiting, diarrhoea, fever with poor intake</strong>", "SGLT2 inhibitors and metformin — dehydration plus drug equals ketoacidosis and lactic acidosis", "Keep drinking, check glucose AND ketones, seek care if ketones rise, vomiting exceeds 24 hours or confusion appears; restart when eating and well for 24–48 hours"],
+            ["<strong>Not eating (illness, fasting, pre-procedure)</strong>", "Sulphonylureas and meglitinides — no food plus insulin-push equals hypoglycaemia", "Check glucose more often; if on insulin, reduce meal-time doses per plan but never stop basal or long-acting insulin"],
+            ["<strong>Type 1 diabetes, any illness</strong>", "Nothing — especially never stop insulin", "Sick-day ketone monitoring, extra correction doses per plan, fluids and early presentation: illness raises insulin needs, and stopping insulin causes DKA within hours"],
+            ["<strong>Before major surgery</strong>", "SGLT2 inhibitors 3 days before; sulphonylurea on the morning; metformin if contrast, AKI risk or major shifts expected", "Variable-rate IV insulin where indicated; restart tablets only when eating normally and kidneys confirmed safe"],
+            ["<strong>Contrast X-ray studies</strong>", "Metformin when eGFR is below 30, AKI threatens, or large contrast loads are planned", "Hydrate before and after unless restricted; recheck creatinine at 48 hours and restart metformin only when it is back to baseline"],
+            ["<strong>Ramadan and prolonged fasts</strong>", "Discuss BEFORE the fast: sulphonylureas usually need dose reduction or a switch to evening dosing", "Pre-Ramadan review with glucose targets, when to break the fast (below 3.9 or above 16.7 with symptoms), and a post-fast medication review"],
+          ],
+        },
+        {
+          type: "text",
+          heading: "Adherence — making treatment stick",
+          paragraphs: [
+            "Half of prescribed glucose-lowering tablets are not taken as directed — not from stubbornness but from pill burden, cost, side effects, hypo fear and the silent nature of high glucose. Simplify first: fixed-dose combinations where available, once-daily choices (gliclazide MR, gliflozins, weekly GLP-1) and timings tied to meals the patient actually eats. Ask about cost and NHIS cover directly — a patient who nods and then halves every tablet to make the packet last needs a cheaper regimen, not a lecture.",
+            "Teach the missed-dose rule once and check it twice: take it when remembered unless the next dose is near — never double up. Ask about herbal and traditional medicines without judgement, check for real interactions (liver injury, hypoglycaemia, kidney harm), and agree that prescribed treatment continues alongside, not replaced by, anything else. Store tablets cool and dry — heat and humidity degrade them — involve a family member in the hypo plan, and link every refill to a review: weight, blood pressure, feet, glucose diary and one question that matters more than the numbers — what stops you taking them?",
+          ],
+        },
+        {
           type: "callout",
           tone: "warning",
           title: "Sulphonylurea hypoglycaemia is not a quick fix",
@@ -74,9 +106,11 @@ export const diabetesTreatment: CourseModule = {
         "Metformin: take with food, no hypos alone, stop for contrast, vomiting, sepsis and when eGFR is below 30 because of lactic acidosis.",
         "SGLT2 inhibitors lose glucose in urine, protect heart and kidney, cause thrush and volume depletion and can cause ketoacidosis with a normal glucose — stop during illness and before surgery.",
         "Start insulin at any stage for marked symptoms, very high glucose, ketones, pregnancy or acute illness — insulin is a tool, not a failure.",
+        "Metformin titrates 500 mg weekly to 1,000 mg twice daily; review HbA1c at 3 months and intensify without delay — waiting years is clinical inertia.",
+        "Sick days: hold SGLT2 inhibitors and metformin when dehydrated, hold sulphonylureas when not eating, never stop insulin in type 1 — and plan every fast and surgery in advance.",
       ],
       quiz: {
-        keywords: ["metformin", "glibenclamide", "gliclazide", "sulphonylurea", "sulfonylurea", "hypoglyc", "lactic acidosis", "contrast", "dapagliflozin", "empagliflozin", "sglt2", "sitagliptin", "liraglutide", "pioglitazone", "oral hypoglycaemic", "antidiabetic", "type 2 diabetes"],
+        keywords: ["metformin", "glibenclamide", "gliclazide", "sulphonylurea", "sulfonylurea", "hypoglyc", "lactic acidosis", "contrast", "dapagliflozin", "empagliflozin", "sglt2", "sitagliptin", "liraglutide", "pioglitazone", "oral hypoglycaemic", "antidiabetic", "type 2 diabetes", "sick day", "missed dose", "adherence", "titration", "perioperative", "fasting", "ramadan", "clinical inertia"],
       },
     },
     {
@@ -224,6 +258,100 @@ export const diabetesTreatment: CourseModule = {
       ],
       quiz: {
         keywords: ["insulin", "injection site", "lipohypertrophy", "isophane", "soluble insulin", "glargine", "rapid acting", "long acting", "premixed", "mixtard", "clear before cloudy", "sliding scale", "rotate"],
+      },
+    },
+    {
+      slug: "diabetes-in-hospital",
+      title: "Diabetes in hospital",
+      minutes: 16,
+      objectives: [
+        "Explain why admission destabilises diabetes and state the inpatient glucose targets.",
+        "Convert home regimens to a scheduled basal-bolus routine and explain why sliding-scale-only prescribing fails.",
+        "Plan perioperative diabetes care from the night before surgery to the restart of eating.",
+        "Manage insulin with tube feeds, steroids, dialysis and contrast, and hypo-proof the ward.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Admission makes diabetes worse",
+          paragraphs: [
+            "Infection, pain, surgery, trauma and even fear pour out cortisol, adrenaline and glucagon, which <strong>raise glucose and blunt insulin</strong> — so the diabetic admitted for anything else arrives with climbing sugars. Then hospital adds its own hazards: meals that never come, feeds stopped for procedures, steroids started, new drugs (quinolones, thiazides, antipsychotics), contrast loads, dialysis days, and kidneys that fail and let insulin and sulphonylureas accumulate. Inpatient targets are therefore <strong>looser than home but never neglected: 6–10 mmol/L for most ward patients</strong>, avoiding both the hypoglycaemia that injures and the sustained hyperglycaemia that infects wounds, prolongs stay and tips type 1 patients into ketoacidosis.",
+            "Two rules govern everything that follows. First, <strong>type 1 diabetes always needs background insulin</strong> — omit basal insulin in a type 1 patient, even one who is nil by mouth, vomiting or 'a bit low', and ketoacidosis follows within hours; reduce it, never stop it. Second, <strong>prescribe insulin to a plan, not to the last glucose</strong> — chasing numbers with reactionary doses is how wards manufacture both hypos and DKA.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Basal-bolus beats sliding-scale-only",
+          columns: ["Feature", "Scheduled basal-bolus (do this)", "Sliding scale alone (avoid)"],
+          rows: [
+            ["Idea", "Long-acting basal once daily (about half the total dose) plus rapid-acting with each meal, with a small correction scale added for highs", "Short-acting insulin prescribed only against the current glucose, with no basal and no meal doses"],
+            ["Why it works or fails", "Mimics physiology: basal covers the liver's constant output, boluses cover meals; glucose stays in range between checks", "Purely reactive: it treats the high after it happened, stacks doses, causes hypos, and lets type 1 patients drift into ketosis between readings"],
+            ["Evidence and guidance", "Fewer hypos, better control, shorter stay; recommended by every inpatient guideline for non-critical care", "Kept only as a <strong>correction top-up inside</strong> a basal-bolus plan — never as the whole plan"],
+            ["Converting a home regimen", "Add up the home total daily dose; give <strong>half as basal, half split across meals</strong>; reduce by 20–30% if eating poorly, septic or newly ill; keep the patient's usual insulins where possible so doses stay familiar", "Do not transcribe 'sliding scale' as the admission plan; rewrite it as basal-bolus on every drug chart you review"],
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-DRC-2475.svg",
+          alt: "Insulin action curves from rapid to long-acting with peak times, hypoglycaemia recognition and treatment, and insulin syringe safety rules",
+          caption: "The peak is when the ward patient goes hypoglycaemic: rapid about 1 hour, soluble 2–4 hours, NPH 6–12 hours, long-acting flat — so meals, checks and doses are timed to the curve, not to convenience.",
+        },
+        {
+          type: "list",
+          heading: "Perioperative diabetes, step by step",
+          style: "steps",
+          items: [
+            "<strong>Assess before the list.</strong> Note the type, usual regimen and total daily dose, latest HbA1c, hypos, complications (heart, kidneys, feet, autonomic neuropathy with gastroparesis and silent ischaemia) and starvation plan. Book diabetics <strong>early on the morning list</strong> to shorten fasting. Check glucose and ketones on arrival.",
+            "<strong>The night before and the morning of surgery.</strong> Give the usual basal the night before; on the morning, <strong>omit prandial insulin and sulphonylureas</strong>, give reduced basal (commonly 70–80% of the usual long-acting dose, or half the morning NPH/premix component per local protocol), <strong>hold SGLT2 inhibitors</strong> for 2–3 days before major surgery (euglycaemic ketoacidosis risk) and hold metformin if contrast, AKI risk or major surgery is expected. Never omit all insulin in type 1.",
+            "<strong>During the operation.</strong> Check glucose hourly (half-hourly in type 1 or long cases); run <strong>dextrose-containing maintenance fluid</strong> with potassium once glucose allows; correct highs with small rapid-acting doses per protocol rather than a fixed scale; watch lactate, ketones and potassium. Aim for 6–10 — tight intraoperative control causes hypos under anaesthesia where nobody feels them.",
+            "<strong>Afterwards.</strong> Restart eating as soon as safe and <strong>restart the meal insulin with the first meal</strong>; keep basal running throughout; restart metformin and SGLT2 inhibitors only when eating, hydrated and kidneys recovered (check creatinine); watch surgical wounds and feet; rewrite the discharge regimen explicitly — doses almost always differ from admission.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Feeds, steroids and special situations",
+          columns: ["Situation", "Management"],
+          rows: [
+            ["Continuous nasogastric feed", "Feed is constant carbohydrate: cover with <strong>basal insulin plus regular prandial-equivalent doses</strong> (or an increased basal per protocol), checking glucose 4–6 hourly. <strong>If the feed stops, the feed-covering insulin must stop or halve immediately</strong> — this mismatch is a classic ward hypo; restart together."],
+            ["Total parenteral nutrition", "High dextrose load needs substantial scheduled insulin, often added to the bag plus subcutaneous basal; glucose checked 4–6 hourly; stopping TPN abruptly causes rebound hypo — taper with dextrose cover."],
+            ["Steroids (prednisolone, dexamethasone, hydrocortisone)", "Glucose rises in a <strong>daytime pattern</strong> — normal fasting, high afternoon and evening. Increase daytime prandial doses (often doubling is needed), keep basal, monitor 4 times daily, and <strong>reduce the insulin as the steroids taper</strong> — the commonest error is leaving the high doses running. Steroids can unmask diabetes: check glucose in every non-diabetic on high-dose steroids."],
+            ["Dialysis days", "Insulin is cleared by dialysis and appetite varies: <strong>reduce doses on dialysis days</strong> per protocol, check glucose before, during and after, and watch for delayed hypos overnight. Avoid glibenclamide and metformin in advanced CKD."],
+            ["Contrast and acute kidney injury", "<strong>Hold metformin</strong> when contrast is given with AKI risk, dehydration or emergency procedures; check creatinine at 48 hours and restart only when stable. SGLT2 inhibitors pause during any acute illness with dehydration (ketoacidosis risk). Keep fluids running."],
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-FLD-2160.svg",
+          alt: "Potassium reference range 3.5–5.0 with the ECG and treatment consequences at both extremes",
+          caption: "Every insulin infusion moves potassium into cells: check it before starting, replace through the infusion as it falls, and recheck on schedule — the glucose gets the attention but the potassium causes the arrest.",
+        },
+        {
+          type: "list",
+          heading: "Hypo-proofing the ward",
+          style: "steps",
+          items: [
+            "Time the meal to the insulin, not the reverse: the food trolley and the drug round must meet. If the meal is delayed, delay the prandial dose — never give rapid-acting insulin 'in hope'.",
+            "Keep a <strong>hypo box</strong> on every ward (glucose tablets or gel, glucagon, 20% dextrose, a working meter) and a snack box for delayed meals; every nurse must know the 15–15 rule and the unconscious-patient drill.",
+            "Run <strong>dextrose with every insulin infusion</strong>, reduce insulin the moment feeds or steroids reduce, and hand over 'nil by mouth' patients explicitly — NBM never means 'no basal insulin' in type 1.",
+            "Check glucose <strong>before every insulin dose</strong>, document the dose against the reading, and review the chart daily: repeated hypos need smaller doses, repeated highs need a regimen change — not a bigger sliding scale.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Never events to remember",
+          body: "Never stop all insulin in type 1 — DKA follows in hours. Never prescribe sliding-scale-only as the whole plan. Never give prandial insulin without a meal coming. Never leave high steroid-cover insulin running after steroids stop. Never give concentrated potassium IV push, and never start an insulin infusion without checking and replacing potassium.",
+        },
+      ],
+      keyPoints: [
+        "Admission raises glucose through stress hormones, infection, steroids, feeds and missed meals: inpatient target is 6–10, avoiding both hypo and sustained hyperglycaemia.",
+        "Basal-bolus (half basal, half mealtime, small correction scale) beats sliding-scale-only, which reacts late, stacks, hypos and omits the basal that type 1 patients need to stay out of DKA.",
+        "Perioperative plan: early list, reduced basal on the morning, omit prandial/sulphonylureas, hold SGLT2 inhibitors and at-risk metformin, hourly glucose, dextrose maintenance, restart everything with eating.",
+        "Feeds need matching scheduled insulin that stops when the feed stops; steroids raise daytime glucose needing bigger prandial doses that taper with the steroids; dialysis days need smaller doses.",
+        "Hypo-proofing is systems work: meals with insulin rounds, hypo boxes, dextrose with infusions, glucose before every dose, and daily chart review instead of bigger scales.",
+      ],
+      quiz: {
+        keywords: ["sliding scale", "perioperative", "nil by mouth", "steroid induced", "enteral feed", "tube feed", "insulin infusion", "metformin", "hypoglycaemia", "hyperglycaemia", "diabetic", "diabetes", "insulin", "glucose"],
       },
     },
   ],

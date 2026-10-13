@@ -116,7 +116,7 @@ export const inflammatoryAllergicAndMalignantSkinDisease: CourseModule = {
     {
       slug: "drug-eruptions-anaphylaxis-severe-cutaneous-reactions-and-skin-cancer",
       title: "Drug eruptions, anaphylaxis, severe cutaneous reactions and skin cancer",
-      minutes: 17,
+      minutes: 19,
       objectives: [
         "Recognise the common drug eruptions and the warning signs that a rash is becoming a severe cutaneous adverse reaction.",
         "Recognise and treat anaphylaxis with intramuscular adrenaline at the correct dose, position and follow-up.",
@@ -180,6 +180,32 @@ export const inflammatoryAllergicAndMalignantSkinDisease: CourseModule = {
         },
         {
           type: "table",
+          heading: "SCORTEN — seven bad signs in SJS/TEN",
+          columns: ["SCORTEN item", "Threshold / meaning"],
+          rows: [
+            ["Age", "Over 40 years — 1 point"],
+            ["Heart rate", "Over 120 beats per minute — 1 point"],
+            ["Cancer", "Malignancy present — 1 point"],
+            ["Detached body surface", "Over 10% on day one — 1 point"],
+            ["Urea", "Over 10 mmol/L — 1 point"],
+            ["Glucose", "Over 14 mmol/L — 1 point"],
+            ["Bicarbonate", "Under 20 mmol/L — 1 point"],
+            ["Add the points", "0–1 points: about 3% die · 2 points: about 12% · 3 points: about 35% · 4 points: about 58% · 5 or more: about 90% — score on admission and counsel the family honestly"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "The drug history that finds the culprit",
+          items: [
+            "<strong>List everything taken in the past 8 weeks:</strong> prescribed tablets, over-the-counter drugs, single-dose antibiotics and antimalarials, eye drops, injections, vaccines — and every herbal and traditional preparation, asked about without judgement.",
+            "<strong>Build the timeline:</strong> when each drug started, when the fever and sore eyes began, when the rash appeared. The newest drug is usually guiltiest — but allopurinol and carbamazepine can smoulder for weeks before igniting.",
+            "<strong>Ask about past reactions:</strong> a previous rash on the same drug, a fixed spot that returns in the same place, a family member with a severe drug reaction — history of allergy is the strongest predictor of the next one.",
+            "<strong>Never rechallenge:</strong> re-exposure to the culprit or its close chemical cousins can kill within hours — carbamazepine, phenytoin and phenobarbital cross-react through their aromatic ring. Stop the whole class, not just the tablet.",
+            "<strong>Document in red everywhere:</strong> drug, class, reaction and date on the folder, the prescription chart and the patient's written alert card — and file the BlueForm report so the next patient is protected too.",
+          ],
+        },
+        {
+          type: "table",
           heading: "Skin cancer on dark skin — rarer, found later, deadlier",
           columns: ["Cancer", "Who and where in Ghana", "Recognition and action"],
           rows: [
@@ -218,9 +244,11 @@ export const inflammatoryAllergicAndMalignantSkinDisease: CourseModule = {
         "Manage SJS/TEN by stopping the culprit immediately, burns-unit or ICU care, fluids by urine output, warm room, analgesia, early NG nutrition, strict asepsis without prophylactic antibiotics, minimal handling, detached epidermis left as a dressing, non-adherent dressings, no adhesive tape, hourly eye lubrication and daily ophthalmology, mouth and genital care to prevent adhesions, airway vigilance; afterwards record the allergy and class in red, an alert card, family information, no rechallenge, an ART switch, and the BlueForm (serious reactions within 24 hours).",
         "Squamous cell carcinoma on dark skin arises in chronic scars and wounds (burn scars, leg ulcers, osteomyelitis sinuses, Buruli scars) and on the sun-exposed skin of people with albinism — a changing, raised, bleeding, painful or non-healing wound after three months of correct care is biopsied; prevent by early grafting, healing ulcers and lifelong sun protection, hats, sunglasses, sunscreen and skin checks for albinism.",
         "Melanoma on dark skin is acral — soles, palms, nails, mucosae — found late; apply ABCDE to pigmented lesions, refer a widening or irregular single dark nail band and any pigmented sole ‘ulcer’, excision biopsy only; Kaposi sarcoma (HHV-8) is purple-black patches, plaques and nodules on legs, face and palate with lymphoedema — HIV test, ART, chemotherapy for extensive or visceral disease; biopsy any lesion you cannot name, that changes, bleeds or fails to heal, and send all specimens for histology.",
+        "SCORTEN scores seven admission findings — 2 points means about 12% mortality, 4 points about 58% — and guides honest family counselling.",
+        "Find the culprit with an 8-week drug timeline, never rechallenge the class, and document the allergy in red with an alert card and BlueForm.",
       ],
       quiz: {
-        keywords: ["anaphyla", "allerg", "penicillin", "adrenaline", "epinephrine", "stridor", "drug reaction", "adverse drug", "adverse reaction", "pharmacovigilance", "blue form", "rash and swelling", "widespread rash", "a rash", "vancomycin", "flushing", "red man", "cotrimoxazole", "nevirapine", "allopurinol", "carbamazepine", "stevens", "toxic epidermal", "blister", "mouth ulcer", "melanoma", "kaposi", "fungating", "albin", "sunlight", "skin cancer", "mole", "biopsy", "transfusion reaction", "urticaria", "angioedema", "hives", "wheeze"],
+        keywords: ["anaphyla", "allerg", "penicillin", "adrenaline", "epinephrine", "stridor", "drug reaction", "adverse drug", "adverse reaction", "pharmacovigilance", "blue form", "rash and swelling", "widespread rash", "a rash", "vancomycin", "flushing", "red man", "cotrimoxazole", "nevirapine", "allopurinol", "carbamazepine", "stevens", "toxic epidermal", "blister", "mouth ulcer", "melanoma", "kaposi", "fungating", "albin", "sunlight", "skin cancer", "mole", "biopsy", "transfusion reaction", "urticaria", "angioedema", "hives", "wheeze", "scorten", "culprit drug", "rechallenge", "alert card", "drug allergy", "nikolsky"],
       },
     },
   ],

@@ -254,7 +254,7 @@ export const infectionEpidemiologyAndTheFebrilePatient: CourseModule = {
     {
       slug: "the-febrile-patient-fever-in-ghana-specimens-and-the-sepsis-question",
       title: "The febrile patient: fever in Ghana, specimens and the sepsis question",
-      minutes: 18,
+      minutes: 20,
       objectives: [
         "Explain what fever is and how it differs from hyperthermia, measure temperature correctly and recognise the errors that fake it, describe rigors and the classical fever patterns, and nurse the fever itself safely in adults and children.",
         "Take a fever history that finds the diagnosis — duration, pattern, travel, contacts, animals, water and food, season, immunisation, HIV status, pregnancy, medicines and occupation — and build the differential diagnosis of fever in Ghana from the company the fever keeps.",
@@ -328,6 +328,31 @@ export const infectionEpidemiologyAndTheFebrilePatient: CourseModule = {
           caption: "Culture bottles first, every time, and before the antibiotic. The laboratory can only report what reached it intact, labelled and in time — a haemolysed, unlabelled or under-filled sample is a repeat venepuncture for the patient and a day lost for the diagnosis.",
         },
         {
+          type: "table",
+          heading: "RDT negative — what next by presentation",
+          columns: ["Presentation", "Workup", "Do not"],
+          rows: [
+            ["<strong>Respiratory — cough, fast breathing</strong>", "Pneumonia assessment by IMCI, COVID test where indicated, TB workup if prolonged — treat the syndrome found", "Give an antimalarial 'in case' — the negative test was the answer to the malaria question"],
+            ["<strong>Urinary — dysuria, frequency, flank pain</strong>", "Urine dipstick and culture; pregnancy test where relevant; UTI treatment by guideline", "Send home without examining the urine — fever plus dysuria is UTI until cultured otherwise"],
+            ["<strong>Abdominal — sustained fever, pain, constipation</strong>", "Typhoid workup with blood culture where available; rose spots are rare on dark skin so history decides", "Start chloramphenicol-era habits — treat per current guideline and review resistance patterns"],
+            ["<strong>Well child, viral picture</strong>", "Coryza, playful between fevers, no focus — fluids, paracetamol, safety-net and review", "Prescribe antibiotic plus antimalarial 'to cover everything' — coverage without diagnosis is resistance farming"],
+            ["<strong>Danger signs, any presentation</strong>", "Lethargy, convulsions, shock, stiff neck — sepsis and meningitis pathways with immediate referral", "Wait for the film, the culture or the morning — danger signs outrank every test result"],
+            ["<strong>Persistent beyond 7 days</strong>", "Weight loss, night sweats, contact history — TB, HIV, abscess and endocarditis workup with referral", "Repeat antimalarials for a fever that was never malaria — rethink, refer, investigate"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Safety-netting the undifferentiated fever",
+          items: [
+            "<strong>Explain the plan plainly:</strong> what this most likely is, what has been excluded, what to watch for — a mother who understands the plan returns; one who was rushed does not.",
+            "<strong>Fluids and feeding:</strong> more fluids, continued feeding and breastfeeding through fever — the child who stops drinking returns today, not at review.",
+            "<strong>Paracetamol right:</strong> dosed by weight for comfort, not by the clock to suppress every tenth of a degree — and never aspirin in children.",
+            "<strong>Name the return triggers:</strong> fever beyond 48 hours, new rash, neck stiffness, convulsions, not drinking, fast breathing, blood anywhere — written down, not just spoken.",
+            "<strong>Book the review, don't suggest it:</strong> a 48–72 hour appointment with a name and a place — 'come if worried' loses the illiterate, the far and the polite.",
+            "<strong>Document the thinking:</strong> differential written, RDT result recorded, advice given and to whom — the chart proves a clinician reasoned, not merely prescribed.",
+          ],
+        },
+        {
           type: "text",
           heading: "Sepsis, the first hour, and the danger signs in a febrile child",
           paragraphs: [
@@ -369,8 +394,10 @@ export const infectionEpidemiologyAndTheFebrilePatient: CourseModule = {
         "Test before treating malaria by RDT or film; a negative test means look elsewhere, a positive HRP2 test may persist for weeks after cure, and a severely ill patient is treated for severe malaria and sepsis together while the film is read.",
         "Blood cultures go before the first antibiotic but never delay it beyond minutes: clean skin and bottle tops, no re-palpation, 8–10 mL per adult bottle, two sets, culture bottles first in the order of draw, labelled at the bedside and incubated at once; cerebrospinal fluid is carried by hand and never refrigerated; sputum is collected outdoors, early morning, deep cough; stool for cholera goes in Cary-Blair; a single Widal titre proves nothing.",
         "Sepsis is infection with organ dysfunction — new confusion, respiratory rate 22 or more, systolic 100 mmHg or less, falling urine output, mottled skin, lactate above 2 — and the Sepsis Six (cultures, lactate, urine output out; oxygen, fluids, antibiotics in) is completed within one hour with the malaria test added; IMCI danger signs, a fever under two months, a fever in sickle cell disease and neutropenic fever are emergencies; paracetamol 15 mg/kg, no aspirin in children, light clothing and fluids rather than cold sponging.",
+        "A negative RDT answers the malaria question — work the presentation instead: respiratory, urinary, abdominal, viral, danger signs or persistent.",
+        "Safety-net every undifferentiated fever: fluids, weight-based paracetamol, written return triggers, a booked 48–72 hour review and documented reasoning.",
       ],
-      quiz: { keywords: ["fever","febrile","fever with confusion","febrile convulsion","rigor","shivering","blood culture","blood cultures before antibiotics","specimen","specimen collection","specimen handling","specimen labelling","specimen transport","sputum specimen","stool specimen","cerebrospinal fluid","lumbar puncture","malaria rapid diagnostic","rapid diagnostic test","negative malaria","widal","recognising sepsis","sepsis","septic shock","deteriorating","early warning","temperature measurement","neutropenic","unexplained fever","prolonged fever","undulating","convulsing"] },
+      quiz: { keywords: ["fever", "febrile", "fever with confusion", "febrile convulsion", "rigor", "shivering", "blood culture", "blood cultures before antibiotics", "specimen", "specimen collection", "specimen handling", "specimen labelling", "specimen transport", "sputum specimen", "stool specimen", "cerebrospinal fluid", "lumbar puncture", "malaria rapid diagnostic", "rapid diagnostic test", "negative malaria", "widal", "recognising sepsis", "sepsis", "septic shock", "deteriorating", "early warning", "temperature measurement", "neutropenic", "unexplained fever", "prolonged fever", "undulating", "convulsing", "rdt negative", "safety netting", "undifferentiated fever", "typhoid", "urinary tract infection"] },
     },
   ],
 };

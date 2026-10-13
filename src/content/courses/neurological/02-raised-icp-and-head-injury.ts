@@ -2,8 +2,8 @@ import type { CourseModule } from "../types";
 
 export const raisedIcpAndHeadInjury: CourseModule = {
   slug: "raised-icp-and-head-injury",
-  title: "Raised intracranial pressure and head injury",
-  summary: "What happens inside the closed box of the skull when the brain swells or bleeds, the early and late signs of rising pressure, the nursing measures that lower it, and the head-injured patient from the roadside to discharge — including the lucid interval that kills the patient who 'looked fine'.",
+  title: "Raised intracranial pressure, brain tumours, hydrocephalus and head injury",
+  summary: "What happens inside the closed box of the skull when the brain swells or bleeds, the early and late signs of rising pressure, the nursing measures that lower it, and the head-injured patient from the roadside to discharge — including the lucid interval that kills the patient who 'looked fine'. Brain tumours and hydrocephalus join as the mass lesions behind the pressure, with the shunts that relieve it and the malfunction drill.",
   lessons: [
     {
       slug: "raised-intracranial-pressure",
@@ -218,5 +218,76 @@ export const raisedIcpAndHeadInjury: CourseModule = {
         keywords: ["head injury", "skull", "lucid", "extradural", "subdural", "concussion", "cerebrospinal fluid", "from the nose", "rhinorrhoea", "helmet", "motorcycl", "okada", "road traffic", "neck pain", "cervical spine", "primary survey", "head injured", "haematoma"],
       },
     },
+    {
+      slug: "brain-tumours-hydrocephalus-and-shunts",
+      title: "Brain tumours, hydrocephalus and shunts",
+      minutes: 16,
+      objectives: [
+        "Recognise the presentation of a brain tumour and describe the common types in adults and children.",
+        "Explain communicating and non-communicating hydrocephalus and recognise normal-pressure hydrocephalus.",
+        "Nurse the patient with a shunt and monitor for blockage, infection and overdrainage.",
+        "Apply the shunt malfunction drill and escalate without delay.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "A mass in a closed box",
+          paragraphs: [
+            "Every mass inside the skull — tumour, blood, abscess, blocked fluid — obeys the Monro–Kellie rule from the raised-pressure lesson: something must give, and what gives is brain. Tumours declare themselves in two ways at once: <strong>raised pressure</strong> (morning headache with vomiting, papilloedema, drowsiness) and <strong>local damage</strong> (a seizure, a weak hand, a changed personality, lost vision) — the combination of a general pressure symptom with one focal sign is the pattern that demands imaging.",
+            "In Ghana tumours present late: headaches treated as malaria for months, seizures treated as epilepsy without a scan, children with head growth put down to 'big head running in the family'. CT is now reachable in the cities and referral must not wait for blindness or coma — a first seizure in an adult, a personality change with headache, or a child whose head outgrows its centiles is imaged, not reassured.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "The common tumours",
+          columns: ["Tumour", "Clues", "Direction"],
+          rows: [
+            ["<strong>Glioma</strong>", "Adults; infiltrative — seizures plus a progressive focal deficit over weeks", "Maximal safe removal plus radiotherapy and chemotherapy; steroids shrink the surrounding oedema fast"],
+            ["<strong>Meningioma</strong>", "Middle-aged women especially; slow-growing from the coverings — seizures, slow deficit", "Surgery cures most; observe tiny incidental ones"],
+            ["<strong>Pituitary adenoma</strong>", "Bitemporal hemianopia (losing the outer fields) plus hormone loss or excess — see the pituitary lesson", "Trans-sphenoidal surgery; vision charts and hormone checks before and after"],
+            ["<strong>Acoustic neuroma</strong>", "Unilateral deafness with tinnitus and imbalance — the eighth nerve first", "Surgery or focused radiotherapy; protect hearing and the facial nerve"],
+            ["<strong>Secondaries</strong>", "Known lung, breast, melanoma or kidney cancer; often multiple lesions with oedema", "Steroids for the oedema, whole-brain or focused radiotherapy, treatment of the primary"],
+            ["<strong>Childhood posterior fossa tumours</strong>", "Child with morning vomiting, clumsiness and head tilt — medulloblastoma and astrocytoma sit where the fluid drains", "Urgent surgery plus radiotherapy and chemotherapy; hydrocephalus often needs a shunt first"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Hydrocephalus and shunts — what the nurse must know",
+          items: [
+            "<strong>Two blockages:</strong> non-communicating (blood, pus, tumour or a congenital membrane blocks flow <em>inside</em> the ventricles) and communicating (flow escapes but is not absorbed — after meningitis or subarachnoid blood). Both raise pressure; both are relieved by drainage.",
+            "<strong>Read the infant's head:</strong> a bulging fontanelle, sunset eyes, scalp veins and a head crossing centiles upward — measure the circumference and plot it at every visit, because the tape finds hydrocephalus before the eyes do.",
+            "<strong>Know normal-pressure hydrocephalus:</strong> the elderly triad of gait failure, incontinence and dementia — wet, wobbly and wacky — with big ventricles but normal pressure. A spinal tap test predicts who improves, and a shunt can return an 'Alzheimer' patient to walking.",
+            "<strong>Know the shunt's route:</strong> ventriculoperitoneal (ventricle to abdomen, the commonest), ventriculoatrial, and lumboperitoneal — a valve sets the drainage pressure and a reservoir sits under the scalp. Document the type, the valve setting and the operation date where every nurse can find them.",
+            "<strong>Nurse the new shunt closely:</strong> neurological observations, temperature, wound and track inspection, head circumference in children, abdominal pain or distension (the distal end), and intake-output — infection and blockage declare themselves in the first weeks.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Shunt malfunction and infection — the drill",
+          columns: ["Problem", "Clues", "Action"],
+          rows: [
+            ["<strong>Blockage</strong>", "Headache, vomiting and drowsiness return; sunset eyes in the child; abdominal pain or distension from the distal end", "Urgent neurosurgery, CT head, shunt-series X-ray — raised ICP rebuilds in hours; never pump the reservoir without a neurosurgical order"],
+            ["<strong>Infection</strong>", "Fever with headache and neck stiffness, redness or swelling along the shunt track — usually within weeks of surgery", "Blood cultures, urgent neurosurgical review, antibiotics — the reservoir is tapped only sterilely, in theatre, by the surgeon; most infected shunts are removed"],
+            ["<strong>Overdrainage</strong>", "Headache worse upright and better lying flat; drowsiness or collapse from a subdural collection", "Lie flat, urgent scan and neurosurgical review — the valve setting may need raising"],
+          ],
+        },
+        {
+          type: "callout",
+          tone: "warning",
+          title: "Fever plus headache in a shunted patient",
+          body: "Fever plus headache in a shunted patient is shunt infection until proven otherwise — blood cultures, urgent neurosurgical review, and never aspirate or pump the reservoir on the ward. A blocked shunt re-creates raised pressure in hours: drowsiness following headache and vomiting is the escalator, not a phase.",
+        },
+      ],
+      keyPoints: [
+        "Pressure symptoms plus one focal sign — seizure, deficit, personality or vision change — is a tumour until imaged.",
+        "Gliomas infiltrate, meningiomas resect, pituitary adenomas cost the outer visual fields, and childhood vomiting with clumsiness sits at the back of the head.",
+        "Hydrocephalus is blocked flow inside or failed absorption outside; the infant's tape measure and the elder's wet-wobbly-wacky triad find it.",
+        "Shunt blockage rebuilds pressure in hours, infection follows fever within weeks of surgery, overdrainage hurts upright — all go urgently to neurosurgery.",
+        "Never pump or tap a shunt reservoir on the ward; document type, valve setting and operation date where all can see.",
+      ],
+      quiz: {
+        keywords: ["brain tumour", "brain tumor", "glioma", "meningioma", "pituitary adenoma", "acoustic neuroma", "cerebral metastases", "hydrocephalus", "shunt", "ventriculoperitoneal", "vp shunt", "normal pressure hydrocephalus", "papilloedema", "raised intracranial", "headache", "vomiting", "seizure", "focal deficit", "craniotomy"],
+      },
+    }
   ],
 };

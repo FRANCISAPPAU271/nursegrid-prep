@@ -231,5 +231,115 @@ export const diabetesFoundations: CourseModule = {
         keywords: ["diabetic", "diabetic diet", "carbohydrate", "self monitor", "blood glucose monitoring", "glucometer", "sick day", "ketone", "hba1c", "diabetes education", "foot care", "sugar", "soft drink", "overweight", "ramadan"],
       },
     },
+    {
+      slug: "diabetes-in-pregnancy",
+      title: "Diabetes in pregnancy",
+      minutes: 18,
+      objectives: [
+        "Distinguish gestational diabetes from diabetes first found in pregnancy and from pre-existing diabetes, and screen at the right contacts.",
+        "State the glucose targets in pregnancy and manage diet, activity, monitoring and insulin safely as requirements rise.",
+        "Nurse labour, birth and the postpartum period in a diabetic mother, including the insulin changes at delivery.",
+        "Anticipate the problems of the baby of a diabetic mother and counsel every diabetic woman of child-bearing age before conception.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Pregnancy unmasks diabetes",
+          paragraphs: [
+            "From the second trimester the placenta pours out hormones — human placental lactogen, progesterone, cortisol and prolactin — that <strong>resist insulin</strong>, so that glucose stays in the mother's blood for the baby. A healthy pancreas answers by making up to three times more insulin; a pancreas that cannot keep up lets the glucose rise, and that is <strong>gestational diabetes (GDM)</strong>: diabetes first recognised in pregnancy, usually at 24–28 weeks when resistance peaks. It affects roughly one pregnancy in seven in Ghana's cities and is rising with obesity and late childbearing.",
+            "Three different situations hide under 'diabetes in pregnancy' and the examination separates them: <strong>GDM</strong> (begins in pregnancy, usually resolves after birth, predicts type 2 later); <strong>overt diabetes first found in pregnancy</strong> (booking glucose already in the diabetes range — this woman had undiagnosed type 2 and keeps it after birth); and <strong>pre-existing type 1 or type 2</strong> (known before conception, the highest-risk group, needing joint care from booking). Uncontrolled glucose harms both: miscarriage, malformations (in pre-existing disease), pre-eclampsia, polyhydramnios, macrosomia with shoulder dystocia and birth injury, preterm birth, stillbirth — and for the baby, respiratory distress, hypoglycaemia, jaundice and a lifetime risk of obesity and diabetes. Good control removes most of this excess risk, which is why screening and targets matter.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Finding it: who, when and how",
+          columns: ["Step", "What to do"],
+          rows: [
+            ["At booking (every woman)", "Ask about previous GDM, big babies (4 kg or more), stillbirth, malformations, family diabetes, obesity, polycystic ovaries, glucosuria. Check a <strong>fasting glucose and HbA1c</strong>: fasting 7.0 or more, random 11.1 or more with symptoms, or HbA1c 6.5% or more means <strong>overt diabetes</strong> — manage as pre-existing type 2, not GDM."],
+            ["24–28 weeks (every woman not already diabetic)", "<strong>75 g oral glucose tolerance test</strong> after an overnight fast: fasting, 1-hour and 2-hour samples. WHO thresholds — fasting <strong>5.1</strong>, 1-hour <strong>10.0</strong>, 2-hour <strong>8.5 mmol/L</strong>; <strong>any one value at or above its cut-off is GDM</strong>. Test earlier (first contact, repeat at 24–28) with strong risk factors."],
+            ["Where OGTT is unavailable", "Use what the clinic has honestly: fasting glucose 5.1–6.9 or random 7.8–11.0 with risk factors should raise suspicion and earn referral; do not call a single random value 'GDM' without follow-up testing. Urine glucose alone never diagnoses — the renal threshold falls in pregnancy."],
+            ["After birth", "GDM usually resolves, but <strong>one in three develops type 2 within years</strong>: every woman needs a <strong>75 g OGTT at 6–12 weeks postpartum</strong> (or fasting glucose where OGTT is impossible), then lifelong screening every 1–3 years, plus counselling that the next pregnancy carries a 30–50% recurrence risk."],
+          ],
+        },
+        {
+          type: "table",
+          heading: "Targets in pregnancy",
+          columns: ["Measure", "Target"],
+          rows: [
+            ["Fasting / pre-meal capillary glucose", "Below <strong>5.3 mmol/L</strong>"],
+            ["1 hour after meals", "Below <strong>7.8 mmol/L</strong>"],
+            ["2 hours after meals", "Below <strong>6.7 mmol/L</strong>"],
+            ["HbA1c (pre-existing diabetes)", "Below <strong>6.5%</strong> before conception; below 6.0–6.5% in pregnancy <strong>without significant hypoglycaemia</strong> — HbA1c reads falsely low in pregnancy (anaemia, faster red-cell turnover), so capillary readings rule."],
+            ["Hypoglycaemia", "Tight targets make hypos common, especially with type 1; warnings blunt in pregnancy. Every insulin-treated woman and her partner must know the 15–15 rule and glucagon, and doses fall sharply the moment the placenta delivers."],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Managing GDM step by step",
+          style: "steps",
+          items: [
+            "<strong>Start with food, movement and monitoring.</strong> The plate method from local foods (half vegetables, one fist of starch, palm of protein), three meals plus snacks, no sweet drinks; 150 minutes a week of brisk walking or equivalent; capillary glucose fasting and 1–2 hours after meals so patterns show. Most GDM is controlled on this alone.",
+            "<strong>Add drugs when targets miss twice in a fortnight.</strong> <strong>Insulin is first-line and safe</strong> — it does not cross the placenta: usually soluble with meals plus isophane at night, doses reviewed every 1–2 weeks because requirements climb steeply after 28 weeks. <strong>Metformin</strong> crosses the placenta but is accepted where insulin is refused, unavailable or unaffordable; sulphonylureas, SGLT2 inhibitors, GLP-1 agents and statins are <strong>avoided</strong>.",
+            "<strong>Watch the baby, not just the glucose.</strong> Growth scans from 28 weeks (macrosomia, polyhydramnios), kick counts, blood pressure and urine protein at every contact (pre-eclampsia is more common), anaemia and infection control. Poor control, macrosomia or polyhydramnios earns consultant review and a delivery plan.",
+            "<strong>Plan the birth early.</strong> Uncomplicated diet-controlled GDM: await spontaneous labour to <strong>40 weeks 6 days</strong>. GDM on drugs, poor control, macrosomia or complications: consultant-led birth, usually <strong>37–39 weeks</strong>; estimated weight above 4.5 kg in diabetes favours caesarean section. Never let a diabetic pregnancy drift post-term — stillbirth risk rises.",
+            "<strong>Hand over, do not hand off.</strong> The midwife, doctor, anaesthetist and neonatal team must all know the plan before labour: glucose targets, insulin or infusion protocol, shoulder-dystocia readiness, and who checks the baby's glucose after birth.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-OBS-0539.svg",
+          alt: "The eight-contact antenatal schedule: booking by 12 weeks then contacts at 20, 26, 30, 34, 36, 38 and 40 weeks with the checks done at every visit",
+          caption: "Diabetes care rides on the antenatal contacts: book early to catch overt diabetes, screen at 24–28 weeks, then track glucose, growth, liquor and blood pressure together at every visit.",
+        },
+        {
+          type: "table",
+          heading: "Labour, birth and the days after",
+          columns: ["Phase", "Care"],
+          rows: [
+            ["In labour", "Aim for capillary glucose <strong>4–7 mmol/L</strong>. Women on diet or metformin alone usually need only monitoring; women on insulin need a sliding protocol — typically hourly glucose with a dextrose background and short-acting insulin or a variable-rate infusion — because labour burns glucose unpredictably. Continue fetal monitoring; have glucose gel and neonatal support ready."],
+            ["Birth", "Macrosomia means <strong>shoulder dystocia preparation for every vaginal birth</strong>: experienced attendant, McRoberts position and suprapubic pressure rehearsed, no fundal pressure, paediatrician present. Document the birth weight and cord gases where available."],
+            ["Hours after birth", "<strong>Insulin requirements crash at delivery</strong> — stop the infusion, halve the pre-pregnancy doses in type 1 (then titrate), stop GDM insulin entirely and watch for hypos while breastfeeding starts. Keep the mother hydrated and fed; check glucose before each feed for the first day."],
+            ["Weeks after birth", "<strong>Encourage exclusive breastfeeding</strong> — it improves the mother's glucose and the baby's weight trajectory; most insulins and metformin are compatible with it. Book the <strong>6–12 week OGTT</strong>, start contraception before discharge (implants and IUCDs are first-choice; combined pills wait until breastfeeding is established and blood pressure is normal), and counsel on weight, activity and pre-pregnancy planning next time."],
+          ],
+        },
+        {
+          type: "text",
+          heading: "The baby of a diabetic mother",
+          paragraphs: [
+            "Maternal glucose crosses the placenta; maternal insulin does not — so the fetus makes its own extra insulin and <strong>grows fat</strong> (macrosomia: above 4 kg, with the truncal obesity that traps shoulders), while chronic high glucose delays lung maturity and <strong>respiratory distress</strong> follows even near term. At birth the glucose supply stops but the baby's insulin keeps flowing: <strong>neonatal hypoglycaemia</strong> follows within hours, alongside hypocalcaemia, polycythaemia (ruddy, sluggish), hyperbilirubinaemia and, in pre-existing disease, malformations of heart, spine and limbs.",
+            "Prevention is feeding and warmth: <strong>feed within the first hour</strong>, keep the baby skin-to-skin, check glucose before the second feed and before subsequent feeds until stable, acting below <strong>2.6 mmol/L</strong> (buccal dextrose gel with a feed, IV 10% dextrose 2 mL/kg if low or symptomatic — never concentrated dextrose). Preterm or growth-restricted babies of diabetic mothers nurse in <strong>kangaroo care</strong> exactly like any low-birth-weight infant, with the same attention to attachment and milk flow.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-MAT-2332.svg",
+          alt: "Kangaroo mother care positioning, the four signs of good breastfeeding attachment, and low birth weight definitions",
+          caption: "For the preterm or low-birth-weight baby of a diabetic mother: kangaroo positioning for warmth and breathing, all four attachment signs for effective feeding, and the weight cut-offs that decide the level of care.",
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Numbers to remember",
+          body: "Booking: fasting 7.0, random 11.1 or HbA1c 6.5% means overt diabetes. OGTT at 24–28 weeks: 5.1 fasting, 10.0 at 1 hour, 8.5 at 2 hours — any one high is GDM. Targets: fasting below 5.3, 1-hour below 7.8, 2-hour below 6.7. Birth: 40+6 if diet-controlled and uncomplicated, 37–39 if on drugs or complicated, caesarean considered above 4.5 kg. After: OGTT at 6–12 weeks, recurrence 30–50%. Baby: feed within 1 hour, act below 2.6.",
+        },
+        {
+          type: "callout",
+          tone: "warning",
+          title: "Before pregnancy, not during it",
+          body: "Every diabetic woman of child-bearing age needs preconception counselling at every clinic visit: aim for HbA1c below 6.5%, take folic acid 5 mg daily, stop ACE inhibitors, ARBs and statins, screen the eyes and kidneys, and use reliable contraception until control is good. Malformations are decided in the first weeks — often before she knows she is pregnant.",
+        },
+      ],
+      keyPoints: [
+        "GDM is diabetes first recognised in pregnancy (24–28 week OGTT: 5.1, 10.0, 8.5 — any one high); booking glucose in the diabetes range means overt, pre-existing disease that persists after birth.",
+        "Pregnancy targets are tight — fasting below 5.3, 1-hour below 7.8, 2-hour below 6.7 — achieved first with local-food diet, activity and monitoring, then insulin (first-line, safe) as requirements climb.",
+        "Track the baby as well as the glucose: growth scans, liquor, kick counts and blood pressure, with a delivery plan by 37–40 weeks and shoulder-dystocia readiness for macrosomia.",
+        "In labour aim for 4–7; at delivery insulin needs crash — stop GDM insulin, halve type 1 doses — then breastfeed, book the 6–12 week OGTT and start contraception before discharge.",
+        "The baby risks macrosomia, respiratory distress, hypoglycaemia below 2.6, jaundice and polycythaemia: feed within the hour, check glucose before feeds, keep warm skin-to-skin.",
+        "Preconception care prevents the harm that pregnancy care cannot undo: HbA1c below 6.5, folate 5 mg, stop ACE inhibitors and statins, screen eyes and kidneys.",
+      ],
+      quiz: {
+        keywords: ["gestational", "diabetes in pregnancy", "pregnant diabetic", "ogtt", "oral glucose tolerance", "macrosomia", "big baby", "shoulder dystocia", "preconception", "antenatal diabetes", "neonatal hypoglycaemia", "polyhydramnios", "birth weight", "diabetic", "diabetes", "glucose", "hba1c"],
+      },
+    },
   ],
 };

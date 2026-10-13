@@ -161,7 +161,7 @@ export const criticalCareFoundations: CourseModule = {
     {
       slug: "oxygenation-and-mechanical-ventilation-in-depth",
       title: "Oxygenation and mechanical ventilation in depth: from high-flow oxygen to the ventilated patient, weaning and the tracheostomy",
-      minutes: 18,
+      minutes: 20,
       objectives: [
         "Explain oxygen delivery and the two types of respiratory failure, and match each level of respiratory support — controlled oxygen, high-flow nasal oxygen, CPAP, bilevel non-invasive ventilation and invasive ventilation — to the patient who needs it.",
         "Describe the common ventilator modes and lung-protective settings, interpret the ventilator's alarms, and respond to the deteriorating ventilated patient with the DOPES approach.",
@@ -230,6 +230,30 @@ export const criticalCareFoundations: CourseModule = {
         },
         {
           type: "list",
+          heading: "The alarms behind the alarms — circuit, gas, power and fatigue",
+          items: [
+            "<strong>Gas and power first:</strong> low pipeline pressure, empty backup cylinder and flat battery kill silently — ventilators stay on mains with the battery tested, cylinders checked every shift, and a self-inflating bag with a PEEP valve at every bedside for the failure that still happens.",
+            "<strong>Humidifier and rainout:</strong> cold dry gases injure mucosa and thicken secretions; overheated water scalds airways — keep the chamber filled, the temperature set, and drain condensate toward the trap, never back toward the patient, because water in the circuit also triggers false breaths.",
+            "<strong>PEEP lost on disconnect:</strong> every circuit break — suction, transfer, nebuliser — collapses recruited lung; minimise breaks, bag with PEEP, and recheck saturation and pressure after every reconnection.",
+            "<strong>Customise limits per patient:</strong> default alarm limits fit no one — set high and low pressures, volumes and rates around the patient's own prescription at the start of every shift and after every change.",
+            "<strong>Fight alarm fatigue honestly:</strong> hundreds of alarms a shift train nurses to stop hearing — respond to every alarm, fix the cause not the sound, audit which alarms fire falsely, and never disable or indefinitely silence: the muted alarm precedes the arrest.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Waveforms — what the curves whisper",
+          columns: ["Pattern", "Meaning", "Action"],
+          rows: [
+            ["<strong>Rising expiratory baseline</strong>", "Air-trapping and auto-PEEP — the lung never empties, in asthma and COPD", "Slow the rate, lengthen expiry, bronchodilate, and disconnect briefly if the patient crashes from trapped gas"],
+            ["<strong>Sawtooth expiratory flow</strong>", "Secretions fluttering in the tube", "Suction, humidify, and recheck — the sawtooth that persists after suction is bronchospasm, not mucus"],
+            ["<strong>Shark-fin capnography upstroke</strong>", "Obstructed exhalation — bronchospasm or a kinked tube", "Bronchodilators, check the tube and circuit, deepen sedation only after the cause is treated"],
+            ["<strong>Flat capnography</strong>", "No CO2 at all — disconnection, oesophageal tube, or cardiac arrest", "Check the patient and the circuit NOW — feel for breathing, bag if absent, call the arrest if pulseless"],
+            ["<strong>Beak on the pressure-volume loop</strong>", "Overdistension — the lung stretched past comfort", "Lower tidal volume or PEEP per lung-protective protocol and recheck the loop"],
+            ["<strong>Double-triggering and fighting</strong>", "Patient demand outruns machine support — pain, acidosis, fear, or too little flow", "Treat pain and cause first, then adjust support with the doctor — sedation without diagnosis is restraint"],
+          ],
+        },
+        {
+          type: "list",
           heading: "DOPES — the ventilated patient who suddenly deteriorates",
           style: "steps",
           items: [
@@ -292,8 +316,10 @@ export const criticalCareFoundations: CourseModule = {
         "The VAP bundle: head up 30–45 degrees, daily sedation hold and weaning screen, oral care with toothbrushing and antiseptic, cuff 20–30 cmH₂O, subglottic suction, closed or sterile suction, circuit changed only when soiled, condensate away from the patient, hand hygiene; sedation targets RASS 0 to −2 with analgesia first, paralysis only with deep sedation.",
         "Prone positioning for at least 16 hours improves survival in moderate–severe ARDS and is a rehearsed five-person procedure; weaning is screened daily (cause improving, FiO₂ 0.4 or less, PEEP 8 or less, stable, awake, coughing), tested by a 30–120 minute spontaneous breathing trial, predicted by a rapid shallow breathing index below 105, and completed by daytime extubation after a cuff-leak check with a reintubation plan.",
         "A tracheostomy is considered after 7–10 days of ventilation; the tract is immature for the first week; the bedside box (spare tubes same and one size smaller, dilators, bag–valve mask, suction, humidification) is checked every shift; suction on withdrawal only for 10–15 seconds without routine saline; the blocked or displaced tube algorithm is call for help, oxygen to face and stoma, pass a catheter, remove the inner cannula, deflate the cuff, remove the tube and ventilate.",
+        "Gas, power, humidifier and PEEP fail behind the patient alarms — backup cylinder, tested battery, filled chamber and bag with PEEP valve at every bed.",
+        "Read the curves: rising baseline is trapped gas, sawtooth is secretions, shark-fin is bronchospasm, flat CO2 is disconnection or arrest — act on the pattern.",
       ],
-      quiz: { keywords: ["ventilat","ventilator","tracheostomy","suction","endotracheal","subglottic","humidif","oxygen saturation","pulse oximet","oxygen therapy","high-flow","nasal cannula","non-rebreath","carbon dioxide retention","chronic obstructive","copd","spo2","hypoxaemia","hypercapn","respiratory acidosis","paco2","sedation","ketamine","oropharyngeal","secretions","positioning for breathlessness","incentive spirometry","deep breathing","nebulis","hypoxia","pneumonia","oral care","recovery position","oxygen","airway","cyanosis"] },
+      quiz: { keywords: ["ventilat", "ventilator", "tracheostomy", "suction", "endotracheal", "subglottic", "humidif", "oxygen saturation", "pulse oximet", "oxygen therapy", "high-flow", "nasal cannula", "non-rebreath", "carbon dioxide retention", "chronic obstructive", "copd", "spo2", "hypoxaemia", "hypercapn", "respiratory acidosis", "paco2", "sedation", "ketamine", "oropharyngeal", "secretions", "positioning for breathlessness", "incentive spirometry", "deep breathing", "nebulis", "hypoxia", "pneumonia", "oral care", "recovery position", "oxygen", "airway", "cyanosis", "waveform", "capnography", "auto-peep", "air trapping", "alarm fatigue", "ventilator graphics"] },
     },
   ],
 };

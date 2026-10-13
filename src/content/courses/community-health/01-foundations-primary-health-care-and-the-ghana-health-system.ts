@@ -3,7 +3,7 @@ import type { CourseModule } from "../types";
 export const foundationsPrimaryHealthCareAndTheGhanaHealthSystem: CourseModule = {
   slug: "foundations-primary-health-care-and-the-ghana-health-system",
   title: "Foundations: primary health care and the Ghana health system",
-  summary: "What community and public health nursing are and how they differ from ward nursing; health, its determinants and the layers around a person; the structure of Ghana's health system from the Ministry of Health and Ghana Health Service to the CHPS zone, referral up and supervision down, the NHIS and how care is paid for; primary health care from Alma-Ata to Astana, the CHPS policy born at Navrongo, community entry through chiefs, elders and durbars, volunteers and health committees, participation and intersectoral collaboration; and community diagnosis — collecting and ranking the problems, setting priorities with the community, SMART objectives, the planning cycle, implementation through local structures, monitoring with indicators and honest evaluation.",
+  summary: "What community and public health nursing are and how they differ from ward nursing; health, its determinants and the layers around a person; the structure of Ghana's health system from the Ministry of Health and Ghana Health Service to the CHPS zone, referral up and supervision down, the NHIS and how care is paid for; primary health care from Alma-Ata to Astana, the CHPS policy born at Navrongo, community entry through chiefs, elders and durbars, volunteers and health committees, participation and intersectoral collaboration; and community diagnosis — collecting and ranking the problems, setting priorities with the community, SMART objectives, the planning cycle, implementation through local structures, monitoring with indicators and honest evaluation. Reaching nomadic, riverine, mining, slum and border populations closes the module.",
   lessons: [
     {
       slug: "community-health-nursing-and-the-ghana-health-system",
@@ -232,6 +232,67 @@ export const foundationsPrimaryHealthCareAndTheGhanaHealthSystem: CourseModule =
         "Sustainability and equity are designed from the first day — community ownership, integration into routine structures, local resources, maintainable technology, trained local people and honest volunteer incentives — and the question 'who have we not seen this month?' keeps the promise of Alma-Ata.",
       ],
       quiz: { keywords: ["primary health care","alma ata","chps","community entry","durbar","traditional leaders","chief","community health volunteer","working with volunteers","selection of community health volunteers","community participation","intersectoral","sustainability of programmes","sustainability of a community programme","programme sustainability","equity in service delivery","outreach planning","community based rehabilitation","rapport before assessment","choosing the person to teach","task shifting","assembly","community infection prevention","community disaster response"] },
+    },
+    {
+      slug: "reaching-hard-to-reach-populations",
+      title: "Reaching hard-to-reach populations",
+      minutes: 15,
+      objectives: [
+        "Map the populations missed by facility-based services and why.",
+        "Plan community entry through trusted leaders and insiders.",
+        "Run outreach and mobile services scheduled around people's lives.",
+        "Adapt for language, disability, mistrust and mobility with defaulter tracking.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "The last mile is the hardest",
+          paragraphs: [
+            "Facility coverage lies by averaging: a district at 90% hides pockets at 40% — the nomadic camp, the island village, the mining site, the zongo compound, the border town — missed by distance, mobility, language, mistrust, cost or papers. Equity is CHPS's unfinished business, and the community nurse finishes it by disaggregating coverage until the hidden pockets appear on the map, then going to them on their terms, not the clinic's.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Groups, barriers and strategies",
+          columns: ["Group", "Barriers", "Strategies"],
+          rows: [
+            ["<strong>Nomadic Fulani</strong>", "Cattle routes, temporary camps, language, male decision-making", "Engage the ardo first, time visits to camp presence, language-matched male and female staff, bundle EPI with animal-health outreach days"],
+            ["<strong>Riverine and island Volta</strong>", "Water between home and care, cold-chain breaks, seasonal isolation", "Canoe outreach with waterproof cold chain, scheduled market-day clinics, emergency transport plans agreed before the emergency"],
+            ["<strong>Galamsey mining sites</strong>", "Young mobile men, injuries, mercury, STIs, night work, illegality fears", "Evening and weekend hours, peer educators, injury and STI care without judgement or police involvement — care first, always"],
+            ["<strong>Urban slums and zongos</strong>", "Density, landlord control, language mix, cost, mistrust of uniforms", "Compound visits, mosque and church announcements, resident volunteers, no-fee first contact that proves the service before asking anything"],
+            ["<strong>Border communities</strong>", "Cross-border lives, language, papers demanded at gates", "Collaborate across the border post, never demand papers for care, track defaulters by phone across both sides"],
+            ["<strong>Persons with disability</strong>", "Physical access, transport cost, stigma that hides them indoors", "Home visits as routine not favour, communication aids, carers trained — count them in coverage or they stay invisible"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Entry, trust and staying",
+          items: [
+            "<strong>Durbar first, services second:</strong> chief, queen mother and elders grant permission and mobilise — entry through leaders is strategy, not courtesy; skipping it closes compounds faster than any rumour.",
+            "<strong>Recruit insiders:</strong> community health volunteers from the group itself, language-matched, paid or recognised — outsiders visit, insiders remain.",
+            "<strong>Schedule around lives:</strong> market days, farming seasons, prayer times, miners' nights — the clinic timetable that ignores livelihoods serves only the idle.",
+            "<strong>Bundle every visit:</strong> EPI plus antenatal plus screening plus family planning in one attendance — the cost of coming is a day's wage, so one visit must do the work of four.",
+            "<strong>Track across mobility:</strong> phone numbers, camp revisit dates, border-crossing treatment buddies — defaulters are followed, never filed; mobility explains loss, it does not excuse it.",
+            "<strong>Measure the pocket:</strong> coverage disaggregated by sub-group, camp and compound — the 40% inside the 90% is found by counting small, and what is counted small gets visited.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "tip",
+          title: "Permission is not trust",
+          body: "The chief's blessing opens the gate; only kept promises keep it open — return when you said, bring what you promised, and never use the visit to scold. Trust is the cold chain of outreach: break it once and everything spoils.",
+        },
+      ],
+      keyPoints: [
+        "District averages hide 40% pockets — disaggregate coverage until the nomadic, riverine, mining, slum and border groups appear.",
+        "Each group has its barrier and its strategy: ardos for Fulani, canoes for islands, nights for miners, compounds for slums, no papers at borders.",
+        "Durbar first, insiders recruited, schedules around livelihoods, services bundled — one visit must do the work of four.",
+        "Track defaulters across mobility with phones and revisits; mobility explains loss, it never excuses it.",
+        "Permission opens the gate, kept promises keep it open — trust is the cold chain of outreach.",
+      ],
+      quiz: {
+        keywords: ["hard to reach", "nomadic", "fulani", "slum", "zongo", "galamsey", "island community", "riverine", "border community", "chps", "chps compound", "queen mother", "mobile clinic", "migrant health", "community durbar"],
+      },
     },
     {
       slug: "community-diagnosis-planning-and-evaluation",

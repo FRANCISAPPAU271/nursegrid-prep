@@ -8,7 +8,7 @@ export const emergencyNursingFoundations: CourseModule = {
     {
       slug: "emergency-care-in-ghana-triage-and-the-primary-survey",
       title: "Emergency care in Ghana, triage and the primary survey",
-      minutes: 18,
+      minutes: 20,
       objectives: [
         "Describe how emergency care is organised in Ghana — the 112 ambulance line, the referral ladder from CHPS compound to teaching hospital, the emergency unit — and the legal and ethical duties that apply before any question of payment, consent or police involvement.",
         "Triage patients into colour categories with target times, re-triage as they change, and avoid the classic errors of under-triage: the quiet patient, the walking patient, the child and the pregnant woman.",
@@ -109,6 +109,30 @@ export const emergencyNursingFoundations: CourseModule = {
           body: "Going to the obvious injury first — splinting the deformed leg of a man whose airway is gurgling. Trusting the blood pressure — a young adult, a child or a pregnant woman can lose 30% of their blood volume with a normal systolic pressure; the pulse, the skin and the capillary refill tell the truth earlier. And stopping the reassessment — the patient who was yellow at the door is red twenty minutes later, and only the nurse who returns to look will know.",
         },
         {
+          type: "table",
+          heading: "ETAT — emergency triage for children",
+          columns: ["Category", "Signs", "Action"],
+          rows: [
+            ["<strong>Emergency — Airway and Breathing</strong>", "Obstructed or absent breathing, central cyanosis, severe respiratory distress", "Manage NOW — airway, oxygen, bag if needed; the child does not join any queue"],
+            ["<strong>Emergency — Circulation (shock)</strong>", "Cold hands with weak fast pulse and capillary refill over 3 seconds, lethargy", "Shock pathway immediately — IV or intraosseous access, fluid boluses, keep warm, glucose check"],
+            ["<strong>Emergency — Coma and Convulsion</strong>", "Unresponsive, convulsing now, or post-ictal and not waking", "Airway and recovery position, glucose, anticonvulsant per protocol, exclude meningitis and malaria"],
+            ["<strong>Priority — see ahead of the queue</strong>", "Tiny infant under 2 months, lethargy, pallor, oedema, severe malnutrition, burns, poisoning, severe pain or distress", "Fast-track to assessment — these children deteriorate while waiting politely"],
+            ["<strong>Queue — stable, wait their turn</strong>", "Alert, pink, warm, feeding, no emergency or priority sign", "Join the queue with instructions to return instantly with any change — and re-triage the line itself"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Paediatric triage pitfalls",
+          items: [
+            "<strong>Children compensate, then crash:</strong> tachycardia with cool peripheries and delayed refill is shock already — hypotension in a child is pre-arrest, not early warning. Act on perfusion, never wait for pressure.",
+            "<strong>Fever alone is not an emergency:</strong> danger signs decide, not the thermometer — a playful 39°C child queues behind a lethargic 37.5°C one every time.",
+            "<strong>Weigh, don't guess:</strong> every drug, fluid and shock bolus is per kilogram — estimate honestly when no scale exists, write the weight on the triage slip, and recheck doses at handover.",
+            "<strong>Warm and sweeten:</strong> hypothermia and hypoglycaemia kill quietly in small and sick children — temperature and glucose are triage observations, not ward afterthoughts.",
+            "<strong>Believe the mother:</strong> 'she is different today' from a mother who knows her child outranks a normal-looking score — upgrade the category and let assessment prove you wrong.",
+            "<strong>Re-triage the queue:</strong> children change in minutes — eyes sweep the waiting line continuously, and any child who worsens while waiting jumps the line without apology.",
+          ],
+        },
+        {
           type: "callout",
           tone: "exam",
           title: "Points examiners return to",
@@ -123,8 +147,10 @@ export const emergencyNursingFoundations: CourseModule = {
         "Airway comes with cervical spine control after trauma (jaw thrust, neutral alignment); breathing means rate, effort, saturation and 15 L/min oxygen; circulation means pulse, skin, capillary refill, haemorrhage control, two large cannulae and bloods before the blood pressure falls.",
         "Disability includes AVPU or GCS, pupils and a glucose in every altered patient; exposure means undress, look at the back, then cover, warm and preserve dignity.",
         "The secondary survey, AMPLE history, tetanus check, analgesia and investigations follow; hand over with SBAR or ATMIST, telephone ahead, give every patient a unique number, secure property and preserve forensic evidence.",
+        "ETAT sorts children into Emergency (airway, shock, coma), Priority (tiny, lethargic, pale, malnourished, burnt, poisoned) and Queue — emergencies never wait.",
+        "Children crash without hypotension first: act on perfusion, weigh every dose, check temperature and glucose, believe the mother, re-triage the line.",
       ],
-      quiz: { keywords: ["triage","primary survey","secondary survey","casualty","emergency unit","emergency department","scene","before approaching","assess first","first action","do first","unresponsive","collapsed","not breathing","noisy breathing","motorbike crash","motorbike","road crash","crash","collision","which patient","glasgow","coma scale","conscious level","airway, breathing","breathing and circulation","after checking airway","112","ambulance","emergency treatment","unconscious patient","unconscious","cervical spine","neck immobilis","immobilis","log roll","quiet patient","silent and still","fixed sequence","four casualties","tagged","four rescuers","move a casualty","suspected spinal","lying conscious on the road","motorcyclist","found on the floor","unwitnessed fall","neck pain","cyanotic and unresponsive","emergency exit","verbal abuse of staff","emergency patients wait","wait many hours","airway","most urgently","life threatening"] },
+      quiz: { keywords: ["triage", "primary survey", "secondary survey", "casualty", "emergency unit", "emergency department", "scene", "before approaching", "assess first", "first action", "do first", "unresponsive", "collapsed", "not breathing", "noisy breathing", "motorbike crash", "motorbike", "road crash", "crash", "collision", "which patient", "glasgow", "coma scale", "conscious level", "airway, breathing", "breathing and circulation", "after checking airway", "112", "ambulance", "emergency treatment", "unconscious patient", "unconscious", "cervical spine", "neck immobilis", "immobilis", "log roll", "quiet patient", "silent and still", "fixed sequence", "four casualties", "tagged", "four rescuers", "move a casualty", "suspected spinal", "lying conscious on the road", "motorcyclist", "found on the floor", "unwitnessed fall", "neck pain", "cyanotic and unresponsive", "emergency exit", "verbal abuse of staff", "emergency patients wait", "wait many hours", "airway", "most urgently", "life threatening", "etat", "paediatric triage", "emergency triage", "priority signs"] },
     },
     {
       slug: "recognising-and-escalating-the-deteriorating-patient",
