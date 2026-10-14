@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Herb-drug clashes: natural is NOT safe</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="130" height="60" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="85" y="56" font-weight="bold" font-size="10">BLEEDERS</text>
+<text x="85" y="69" font-size="8">garlic + ginger +</text>
+<text x="85" y="80" font-size="8">ginkgo + warfarin!</text>
+<rect x="165" y="36" width="130" height="60" rx="6" fill="#ffedd5" stroke="#c2410c" stroke-width="1.5"/>
+<text x="230" y="56" font-weight="bold" font-size="10">CANCELLERS</text>
+<text x="230" y="69" font-size="8">St John's wort kills</text>
+<text x="230" y="80" font-size="8">ARVs + pills!</text>
+<rect x="310" y="36" width="130" height="60" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="375" y="56" font-weight="bold" font-size="10">ORGAN HITTERS</text>
+<text x="375" y="69" font-size="8">liver + kidney +</text>
+<text x="375" y="80" font-size="8">heart toxic!</text>
+<rect x="20" y="104" width="205" height="56" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="122" y="124" font-weight="bold" font-size="10">HYPO + HYPER</text>
+<text x="122" y="137" font-size="8">bitter leaf + drugs =</text>
+<text x="122" y="148" font-size="8">sugar crashes!</text>
+<rect x="235" y="104" width="205" height="56" rx="6" fill="#111827"/>
+<text x="337" y="124" font-weight="bold" font-size="10" fill="#ffffff">ADULTERANTS!</text>
+<text x="337" y="137" font-size="8" fill="#ffffff">steroids + lead +</text>
+<text x="337" y="148" font-size="8" fill="#ffffff">hidden drugs!</text>
+</g>
+<rect x="0" y="172" width="460" height="318" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="194" font-weight="bold">"NATURAL = SAFE" KILLS: hemlock is natural; arsenic is natural; DOSE makes poison</text>
+<text x="20" y="208">(Paracelsus!). Herbs = DRUGS with unknown doses + unknown purity + real pharmacology.</text>
+<text x="20" y="228">BLEEDERS: garlic + ginger + ginkgo + ginseng + high-dose vitamin E + warfarin/heparin/</text>
+<text x="20" y="242">aspirin = bleeding (gums! nose! surgical! GI!). Stop 7-14 days pre-op (M03.2!). Teach:</text>
+<text x="20" y="256">"blood-thinning herbs + blood-thinning drugs = too thin!"</text>
+<text x="20" y="276">CANCELLERS (CYP450!): St John's wort induces enzymes → eats ARVs (resistance! death!) +</text>
+<text x="20" y="290">contraceptive pills (pregnancies!) + transplant drugs (rejection!) + warfarin. ASK every</text>
+<text x="20" y="304">HIV/TB/family-planning client: "bush teas for mood/sleep…?" — kindly, lifesavingly.</text>
+<text x="20" y="324">HYPO STACKS: bitter leaf + glibenclamide/insulin = crashes (sweats! confusion! coma!).</text>
+<text x="20" y="338">Teach BGL logs + hypo signs + separate/adjust + never double-dose ("herb OR drug day" —</text>
+<text x="20" y="352">no! coordinate BOTH with the doctor!).</text>
+<text x="20" y="372">ORGAN HITTERS: liver (kava! chaparral! heavy neem! — yellow eyes? dark urine? STOP + LFTs!)</text>
+<text x="20" y="386">· kidneys (aristolochia! NSAID-like! — swelling? less urine?) · heart (stimulant herbs +</text>
+<text x="20" y="400">palpitations? — ECG!). Unexplained organ injury? ASK HERBS FIRST.</text>
+<text x="20" y="420">ADULTERANTS: "herbal" mixtures hiding STEROIDS (moon face! sugar! — ask!) + sildenafil +</text>
+<text x="20" y="434">NSAIDs + LEAD/mercury (market ayurvedics!) + alcohol. Unregistered = suspect. FDA</text>
+<text x="20" y="448">numbers checked, reactions REPORTED (M03.2!).</text>
+<text x="20" y="468">MANTRA: "dose makes poison — ask every herb, check every clash."</text>
+</g>
+</svg>

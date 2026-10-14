@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Charting that protects: EHR standards</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="96" height="60" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="68" y="56" font-weight="bold" font-size="8">ACCURATE</text>
+<text x="68" y="69" font-size="8">exact values,</text>
+<text x="68" y="80" font-size="8">quoted words</text>
+<rect x="124" y="36" width="96" height="60" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="172" y="56" font-weight="bold" font-size="8">COMPLETE</text>
+<text x="172" y="69" font-size="8">assess + act +</text>
+<text x="172" y="80" font-size="8">evaluate</text>
+<rect x="228" y="36" width="96" height="60" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="276" y="56" font-weight="bold" font-size="8">TIMELY</text>
+<text x="276" y="69" font-size="8">real-time or</text>
+<text x="276" y="80" font-size="8">late-entry label!</text>
+<rect x="332" y="36" width="108" height="60" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="386" y="56" font-weight="bold" font-size="8">YOUR LOGIN</text>
+<text x="386" y="69" font-size="8">never share,</text>
+<text x="386" y="80" font-size="8">log out!</text>
+</g>
+<rect x="0" y="106" width="460" height="384" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="128" font-weight="bold">4 NON-NEGOTIABLES: exact values + full nursing process + real-time timing + your own</text>
+<text x="20" y="142">login. "Vitals stable" is NOT charting — "BP 118/74, P 88 reg, R 18, T 36.8, SpO2 97% RA" is.</text>
+<text x="20" y="162">STRUCTURED vs NARRATIVE: tick-boxes/vitals flow for trends + searchable data; narrative for</text>
+<text x="20" y="176">story ("patient states 'the pain moved to my shoulder'"). Use BOTH: flow-sheet without story</text>
+<text x="20" y="190">loses meaning; story without numbers loses trends.</text>
+<text x="20" y="210">COPY-PASTE DANGERS (exam favourite!): cloned notes carry dead facts ("afebrile" on a febrile</text>
+<text x="20" y="224">child!), propagate errors, defraud billing, mislead the next nurse. Rules: NEVER copy vitals/</text>
+<text x="20" y="238">assessments forward; verify EVERY carried line; attest only what YOU did; facilities should</text>
+<text x="20" y="252">audit cloning — and examiners fail cloners.</text>
+<text x="20" y="272">AMENDMENTS: never delete/overwrite — addendum with date-time-reason ("late entry 14:20:</text>
+<text x="20" y="286">omitted 10:00 insulin — given, site L abdomen, BGL 11.2 → recheck 12:00"). Wrong-patient entry?</text>
+<text x="20" y="300">Flag + retract per policy + notify + document correction. Audit trails record ALL.</text>
+<text x="20" y="320">ABBREVIATIONS: only approved lists! "U" (units — mistaken for 0!), trailing zeros (5.0 mg),</text>
+<text x="20" y="334">"QD" (daily?) kill — write "units", "5 mg", "daily". EHR drop-downs exist to PREVENT this:</text>
+<text x="20" y="348">pick the list, don't free-text the danger.</text>
+<text x="20" y="368">CHARTING BY EXCEPTION? Only with rock-solid baselines + policy backing. Default: chart the</text>
+<text x="20" y="382">full assessment — "if it wasn't documented, it wasn't done" still rules courts.</text>
+<text x="20" y="402">STUDENT RULE: chart under your own login, co-signed per policy; never borrow a staff login —</text>
+<text x="20" y="416">borrowed logins forge legal records + hide your learning + end placements.</text>
+<text x="20" y="436">MANTRA: "accurate, complete, timely, mine — every entry, every time."</text>
+<text x="20" y="456">LINK: PRO-I M2 honesty + accountability — the EHR remembers what paper forgave.</text>
+</g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Adult learning + clinical teaching</text>
+<text x="20" y="52" font-size="12" font-weight="bold" fill="#111827">KNOWLES: 5 ADULT-LEARNING TRUTHS</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="70">1. Self-direction — adults co-plan; ask goals first (\"what do you want from today?\")</text>
+<text x="30" y="86">2. Experience — build ON their years (junior midwives know labour; link, don't lecture)</text>
+<text x="30" y="102">3. Readiness — teach at need (cannulation the morning of cannulation lists, not last term)</text>
+<text x="30" y="118">4. Problem-centred — cases beat chapters (\"this breathless child — what's your ABCDE?\")</text>
+<text x="30" y="134">5. Internal motivation — dignity + growth + patients, not fear + marks (praise progress)</text>
+</g>
+<text x="20" y="160" font-size="12" font-weight="bold" fill="#111827">BLOOM'S 3 DOMAINS (teach + test all three)</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="168" width="130" height="72" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="85" y="188" font-weight="bold" font-size="10">COGNITIVE</text>
+<text x="85" y="202" font-size="8">know → apply → analyse</text>
+<text x="85" y="213" font-size="8">"why this drug,</text>
+<text x="85" y="224" font-size="8">this dose?"</text>
+<rect x="156" y="168" width="130" height="72" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="221" y="188" font-weight="bold" font-size="10">PSYCHOMOTOR</text>
+<text x="221" y="202" font-size="8">see → do → teach</text>
+<text x="221" y="213" font-size="8">demo → return-demo</text>
+<text x="221" y="224" font-size="8">→ supervised solo</text>
+<rect x="292" y="168" width="148" height="72" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="366" y="188" font-weight="bold" font-size="10">AFFECTIVE</text>
+<text x="366" y="202" font-size="8">feel → value → live</text>
+<text x="366" y="213" font-size="8">empathy, ethics,</text>
+<text x="366" y="224" font-size="8">attitude checks</text>
+</g>
+<rect x="0" y="252" width="460" height="238" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="274" font-weight="bold">CLINICAL METHODS LADDER (low → high fidelity): bedside Q&amp;A → demonstration</text>
+<text x="20" y="288">+ return-demo → case-based discussion → role-play (breaking news, de-escalation) →</text>
+<text x="20" y="302">simulation/scenario drills (arrest, PPH, neonatal resus) → supervised real care. Rule:</text>
+<text x="20" y="316">NEVER first-time-on-patient what drills can teach — manikins absorb errors, patients</text>
+<text x="20" y="330">mustn't. Lesson plan: objective (SMART) → prior check → teach → practise → assess →</text>
+<text x="20" y="344">summary + handout. Questioning: open first (\"what do you see?\"), Socratic probes,</text>
+<text x="20" y="358">wait 5 seconds, praise reasoning aloud — humiliation teaches hiding, not healing.</text>
+<text x="20" y="378" font-weight="bold">PATIENT EDUCATION (your commonest teaching): assess (literacy, language, beliefs,</text>
+<text x="20" y="392">barriers) → chunk (3 points max) → plain words + demo → TEACH-BACK (\"show me / tell</text>
+<text x="20" y="406">me how you'll…\") → leaflets/pictures → document taught + understood. Inhalers, insulin,</text>
+<text x="20" y="420">ORPs, wound care, TB/DOTS adherence, discharge meds — un-taught discharges rebound</text>
+<text x="20" y="434">as readmissions. Family included (consent), interpreters used, beliefs respected —</text>
+<text x="20" y="448">education imposed without listening is lecturing; with listening, it's healing.</text>
+<text x="20" y="468">Exam line: \"adults learn by need, experience and problems — teach the gap, not the chapter.\"</text>
+</g>
+</svg>

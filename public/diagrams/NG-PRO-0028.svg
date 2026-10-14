@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">PRO-II exam map + 20 tricky points</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="96" height="60" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="68" y="56" font-weight="bold" font-size="8">M1 LEAD</text>
+<text x="68" y="69" font-size="8">styles × situation</text>
+<text x="68" y="80" font-size="8">POSDCORB, EI</text>
+<rect x="124" y="36" width="96" height="60" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="172" y="56" font-weight="bold" font-size="8">M2 TEACH</text>
+<text x="172" y="69" font-size="8">Knowles, Bloom,</text>
+<text x="172" y="80" font-size="8">SBI, fail fair</text>
+<rect x="228" y="36" width="96" height="60" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="276" y="56" font-weight="bold" font-size="8">M3 EVIDENCE</text>
+<text x="276" y="69" font-size="8">PICO, 5 steps,</text>
+<text x="276" y="80" font-size="8">designs, ethics</text>
+<rect x="332" y="36" width="108" height="60" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="386" y="56" font-weight="bold" font-size="8">M4 QUALITY</text>
+<text x="386" y="69" font-size="8">PDSA, audit,</text>
+<text x="386" y="80" font-size="8">cheese, RCA</text>
+<rect x="72" y="104" width="140" height="60" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="142" y="124" font-weight="bold" font-size="8">M5 SYSTEM</text>
+<text x="142" y="137" font-size="8">levels, NHIS,</text>
+<text x="142" y="148" font-size="8">referral, policy</text>
+<rect x="228" y="104" width="140" height="60" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="298" y="124" font-weight="bold" font-size="8">M6 CAREER</text>
+<text x="298" y="137" font-size="8">ladder, licence,</text>
+<text x="298" y="148" font-size="8">enterprise, image</text>
+</g>
+<rect x="0" y="176" width="460" height="314" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="198" font-weight="bold">20 TRICKY POINTS (course killers — learn cold):</text>
+<text x="20" y="212">1 Style fits SITUATION not preference · 2 laissez-faire never for novices/crises ·</text>
+<text x="20" y="226">3 rosters: fair+safe+early, swaps approved · 4 never all-junior nights · 5 conflict:</text>
+<text x="20" y="240">private+soon+specific · 6 Knowles: need+experience+problems · 7 teach-back every</text>
+<text x="20" y="254">discharge · 8 SBI + Pendleton (learner first) · 9 never sign unseen competencies ·</text>
+<text x="20" y="268">10 warn-in-writing before failing · 11 ethics approval BEFORE data · 12 PICO every</text>
+<text x="20" y="282">question · 13 appraise: valid? big? useful HERE? · 14 predators: verify indexing ·</text>
+<text x="20" y="296">15 PDSA pilot small, abandon honestly · 16 re-audit or it didn't happen · 17 bundles</text>
+<text x="20" y="310">all-or-nothing · 18 CUSS + stop-the-line any rank · 19 HeFRA=facilities, NMC=people ·</text>
+<text x="20" y="324">20 stabilise BEFORE referral; counter-refer back · 21 exemptions registered never</text>
+<text x="20" y="338">billed · 22 data-cooking = fraud · 23 GRNA≠NMC · 24 licence order: NMC→HeFRA→tax→</text>
+<text x="20" y="352">NHIS→protocols→insurance · 25 image: phone-down, patients-off-socials.</text>
+<text x="20" y="372" font-weight="bold">COUNTDOWN: 6 wks — map 42 objectives + weak topics; 4 wks — timed past Qs +</text>
+<text x="20" y="386">rationales; 2 wks — cards (styles, PICO, PDSA, bundles, ladders, 25 points); 1 wk — mock +</text>
+<text x="20" y="400">sleep; eve — pack + rest; DAY — read twice, structure (canvas!), cite modules, attempt all.</text>
+<text x="20" y="420">SCENARIO FORMULA: diagnose (bones/whys) → lead (style+Lewin) → teach (demo/feedback) →</text>
+<text x="20" y="434">evidence (PICO/guideline) → quality (PDSA/measure) → system (cost/escalate) → career (file</text>
+<text x="20" y="448">+ reflect). Seven threads, full marks — the question names the ward, you name the system.</text>
+<text x="20" y="468">PLEDGE: \"I will lead fairly, teach kindly, obey evidence, design safety, serve the system,</text>
+<text x="20" y="480">and grow deliberately — the compass (PRO-I) in hand, the canvas (PRO-II) on the wall.\"</text>
+</g>
+</svg>

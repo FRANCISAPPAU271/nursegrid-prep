@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Ageing changes by system + nursing eye</text>
+<g font-size="8" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="132" height="86" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="86" y="54" font-weight="bold" font-size="9">HEART + VESSELS</text>
+<text x="86" y="67" font-size="8">stiff arteries → systolic</text>
+<text x="86" y="78" font-size="8">HTN; slow baroreflex →</text>
+<text x="86" y="89" font-size="8">postural drops</text>
+<text x="86" y="103" font-size="8" fill="#065f46">lie-sit-stand BPs;</text>
+<text x="86" y="114" font-size="8" fill="#065f46">rise slowly, hydrate</text>
+<rect x="164" y="36" width="132" height="86" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="230" y="54" font-weight="bold" font-size="9">LUNGS + KIDNEY</text>
+<text x="230" y="67" font-size="8">stiff chest, weak cough;</text>
+<text x="230" y="78" font-size="8">GFR falls ~1%/yr,</text>
+<text x="230" y="89" font-size="8">thirst blunted</text>
+<text x="230" y="103" font-size="8" fill="#065f46">chest physio, fluids;</text>
+<text x="230" y="114" font-size="8" fill="#065f46">dose by kidney (M04)</text>
+<rect x="308" y="36" width="132" height="86" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="374" y="54" font-weight="bold" font-size="9">BONES + MUSCLE</text>
+<text x="374" y="67" font-size="8">bone loss, sarcopenia,</text>
+<text x="374" y="78" font-size="8">stiff joints, slow</text>
+<text x="374" y="89" font-size="8">gait, kyphosis</text>
+<text x="374" y="103" font-size="8" fill="#065f46">calcium + D, weights,</text>
+<text x="374" y="114" font-size="8" fill="#065f46">fall-proof home</text>
+<rect x="20" y="130" width="132" height="86" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="86" y="148" font-weight="bold" font-size="9">BRAIN + SENSES</text>
+<text x="86" y="161" font-size="8">slower recall, poor sleep;</text>
+<text x="86" y="172" font-size="8">presbyopia, cataract,</text>
+<text x="86" y="183" font-size="8">presbycusis, taste loss</text>
+<text x="86" y="197" font-size="8" fill="#065f46">glasses + hearing aids</text>
+<text x="86" y="208" font-size="8" fill="#065f46">ON; face, light, repeat</text>
+<rect x="164" y="130" width="132" height="86" rx="6" fill="#f3e8ff" stroke="#7e22ce" stroke-width="1.5"/>
+<text x="230" y="148" font-weight="bold" font-size="9">SKIN + GUT</text>
+<text x="230" y="161" font-size="8">thin dry skin, slow heal;</text>
+<text x="230" y="172" font-size="8">teeth loss, slow gut,</text>
+<text x="230" y="183" font-size="8">constipation common</text>
+<text x="230" y="197" font-size="8" fill="#065f46">moisturise, offload;</text>
+<text x="230" y="208" font-size="8" fill="#065f46">fibre + fluids + move</text>
+<rect x="308" y="130" width="132" height="86" rx="6" fill="#ffedd5" stroke="#c2410c" stroke-width="1.5"/>
+<text x="374" y="148" font-weight="bold" font-size="9">IMMUNE + GLANDS</text>
+<text x="374" y="161" font-size="8">weak defences, poor</text>
+<text x="374" y="172" font-size="8">fever response; glucose</text>
+<text x="374" y="183" font-size="8">+ thyroid drift</text>
+<text x="374" y="197" font-size="8" fill="#065f46">vaccinate; afebrile ≠</text>
+<text x="374" y="208" font-size="8" fill="#065f46">well — watch function</text>
+</g>
+<rect x="0" y="226" width="460" height="264" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="248" font-weight="bold">THEORIES (exam pairs): BIOLOGICAL — programmed/genetic (clock in genes),</text>
+<text x="20" y="262">wear-and-tear (use wears parts), free-radical (oxidants damage cells — antioxidants</text>
+<text x="20" y="276">protect), cross-link (stiff proteins — lenses, arteries), immunological (defences fade).</text>
+<text x="20" y="296">PSYCHOSOCIAL — disengagement (mutual withdrawal — dated, don't impose), activity</text>
+<text x="20" y="310">(stay busy, stay well — mostly true), continuity (keep identity/roles — best fit).</text>
+<text x="20" y="330">GOLDEN RULES: ageing ≠ disease (slower recall normal; getting lost is NOT — M03);</text>
+<text x="20" y="344">reserve shrinks (small insults, big crashes — UTI → delirium, see M03); presentation</text>
+<text x="20" y="358">blunts (silent MI, afebrile sepsis — function change IS the fever); recovery slows</text>
+<text x="20" y="372">(deconditioning starts DAY 1 of bed rest — mobilise early, M06); variability rules</text>
+<text x="20" y="386">(70 ≠ 70 — assess FUNCTION not candles: frailty beats age, M02).</text>
+<text x="20" y="406">Ghana ages fast: 60+ growing, urban + rural elders, NCDs rising, NHIS covers 70+</text>
+<text x="20" y="420">premiums (PRO-II M5: register, don't bill) — gerontology is every nurse's near future.</text>
+<text x="20" y="440">Myths busted: \"old = confused\" (no — assess 3Ds, M03) · \"pain is normal\" (no — assess +</text>
+<text x="20" y="454">treat, M03) · \"nothing helps\" (rehab + aids + cataract surgery transform) · \"they prefer</text>
+<text x="20" y="468">rest\" (they prefer PURPOSE — ask, don't assume).</text>
+</g>
+</svg>

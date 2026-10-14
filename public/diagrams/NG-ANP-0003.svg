@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 520" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="520" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">The generalized cell</text>
+<!-- cell body -->
+<path d="M60,260 C60,150 120,90 200,90 C300,90 340,160 335,250 C330,340 280,420 190,420 C110,420 60,350 60,260 Z" fill="#f8fafc" stroke="#334155" stroke-width="2.5"/>
+<path d="M68,260 C68,156 124,98 200,98 C292,98 332,162 327,250 C322,334 276,412 190,412 C116,412 68,346 68,260 Z" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+<!-- nucleus -->
+<circle cx="170" cy="260" r="52" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+<circle cx="170" cy="260" r="12" fill="#1d4ed8"/>
+<path d="M135,240 q10,-8 20,0 M165,285 q10,-8 20,0 M140,275 q8,6 16,0" stroke="#1d4ed8" stroke-width="1.5" fill="none"/>
+<!-- rough ER -->
+<g stroke="#b91c1c" stroke-width="1.5" fill="none">
+<path d="M228,200 q30,-12 60,0 M228,212 q30,-12 60,0 M228,224 q30,-12 60,0"/>
+</g>
+<g fill="#b91c1c">
+<circle cx="240" cy="198" r="1.8"/><circle cx="258" cy="197" r="1.8"/><circle cx="276" cy="198" r="1.8"/>
+<circle cx="240" cy="210" r="1.8"/><circle cx="258" cy="209" r="1.8"/><circle cx="276" cy="210" r="1.8"/>
+<circle cx="249" cy="222" r="1.8"/><circle cx="267" cy="221" r="1.8"/>
+</g>
+<!-- smooth ER -->
+<g stroke="#7c3aed" stroke-width="1.5" fill="none">
+<path d="M96,320 q14,-10 28,0 q14,10 28,0 M100,334 q14,-10 28,0 q14,10 28,0"/>
+</g>
+<!-- Golgi -->
+<g stroke="#0d9488" stroke-width="2" fill="none">
+<path d="M236,300 q26,-14 52,0 M240,310 q24,-12 46,0 M244,320 q20,-10 38,0"/>
+</g>
+<!-- mitochondrion -->
+<ellipse cx="250" cy="150" rx="34" ry="18" fill="#fef3c7" stroke="#b45309" stroke-width="2" transform="rotate(-18 250 150)"/>
+<path d="M232,152 q8,-10 16,0 q8,10 16,0 q8,-10 16,0" stroke="#b45309" stroke-width="1.5" fill="none"/>
+<!-- lysosome -->
+<circle cx="110" cy="180" r="10" fill="#fda4af" stroke="#be123c" stroke-width="1.5"/>
+<!-- centrioles -->
+<g fill="#475569">
+<rect x="238" y="360" width="26" height="8" rx="2"/>
+<rect x="244" y="344" width="8" height="26" rx="2"/>
+</g>
+<!-- ribosome dots -->
+<g fill="#64748b">
+<circle cx="120" cy="250" r="1.8"/><circle cx="132" cy="300" r="1.8"/><circle cx="200" cy="330" r="1.8"/>
+<circle cx="290" cy="270" r="1.8"/><circle cx="300" cy="220" r="1.8"/><circle cx="180" cy="140" r="1.8"/>
+<circle cx="140" cy="120" r="1.8"/><circle cx="310" cy="320" r="1.8"/><circle cx="220" cy="390" r="1.8"/>
+</g>
+<!-- labels left -->
+<g font-size="10" fill="#111827">
+<line x1="58" y1="230" x2="14" y2="210" stroke="#6b7280" stroke-width="1"/>
+<text x="12" y="206" font-weight="bold">Plasma</text>
+<text x="12" y="218" font-weight="bold">membrane</text>
+<line x1="102" y1="176" x2="60" y2="150" stroke="#6b7280" stroke-width="1"/>
+<text x="12" y="146" font-weight="bold">Lysosome</text>
+<text x="12" y="158" font-size="9" fill="#6b7280">digestion</text>
+<line x1="100" y1="326" x2="60" y2="352" stroke="#6b7280" stroke-width="1"/>
+<text x="12" y="362" font-weight="bold">Smooth ER</text>
+<text x="12" y="374" font-size="9" fill="#6b7280">lipids</text>
+<line x1="150" y1="308" x2="110" y2="392" stroke="#6b7280" stroke-width="1"/>
+<text x="60" y="404" font-weight="bold">Nucleus: DNA,</text>
+<text x="60" y="416" font-weight="bold">control centre</text>
+</g>
+<!-- labels right -->
+<g font-size="10" fill="#111827">
+<line x1="282" y1="142" x2="330" y2="110" stroke="#6b7280" stroke-width="1"/>
+<text x="332" y="106" font-weight="bold">Mitochondrion</text>
+<text x="332" y="118" font-size="9" fill="#6b7280">ATP energy</text>
+<line x1="290" y1="210" x2="336" y2="196" stroke="#6b7280" stroke-width="1"/>
+<text x="338" y="192" font-weight="bold">Rough ER</text>
+<text x="338" y="204" font-size="9" fill="#6b7280">protein + ribosomes</text>
+<line x1="292" y1="308" x2="336" y2="300" stroke="#6b7280" stroke-width="1"/>
+<text x="338" y="296" font-weight="bold">Golgi apparatus</text>
+<text x="338" y="308" font-size="9" fill="#6b7280">packaging</text>
+<line x1="262" y1="362" x2="320" y2="380" stroke="#6b7280" stroke-width="1"/>
+<text x="322" y="384" font-weight="bold">Centrioles</text>
+<text x="322" y="396" font-size="9" fill="#6b7280">cell division</text>
+</g>
+<text x="200" y="448" font-size="10" fill="#374151" text-anchor="middle">Free dots = <tspan font-weight="bold">ribosomes</tspan> (protein assembly) floating in the <tspan font-weight="bold">cytoplasm</tspan>.</text>
+<rect x="0" y="464" width="460" height="56" fill="#f1f5f9"/>
+<text x="20" y="486" font-size="10" fill="#111827">The membrane decides what enters: diffusion and osmosis ride free down their gradients,</text>
+<text x="20" y="500" font-size="10" fill="#111827">active transport pays ATP to move substances uphill. IV fluids exploit exactly this.</text>
+</svg>

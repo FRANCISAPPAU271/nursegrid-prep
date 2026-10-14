@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Stress: alarm to exhaustion (Selye)</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="130" height="60" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="85" y="56" font-weight="bold" font-size="10">1. ALARM</text>
+<text x="85" y="69" font-size="8">fight-flight! adrenalin,</text>
+<text x="85" y="80" font-size="8">pulse up, fear!</text>
+<rect x="165" y="36" width="130" height="60" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="230" y="56" font-weight="bold" font-size="10">2. RESISTANCE</text>
+<text x="230" y="69" font-size="8">coping holds, body</text>
+<text x="230" y="80" font-size="8">pays quietly!</text>
+<rect x="310" y="36" width="130" height="60" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="375" y="56" font-weight="bold" font-size="10">3A. RECOVERY</text>
+<text x="375" y="69" font-size="8">threat ends, rest,</text>
+<text x="375" y="80" font-size="8">growth!</text>
+<rect x="105" y="104" width="250" height="52" rx="6" fill="#111827"/>
+<text x="230" y="124" font-weight="bold" font-size="10" fill="#ffffff">3B. EXHAUSTION — illness, collapse, burnout!</text>
+<text x="230" y="137" font-size="8" fill="#ffffff">stress unrelieved → ulcers, HTN, depression, errors</text>
+<text x="230" y="149" font-size="8" fill="#ffffff">nurse AND patient — intervene at 2, never 3B!</text>
+</g>
+<rect x="0" y="168" width="460" height="322" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="190" font-weight="bold">GAS (Selye — exam!): ALARM (fight-flight: adrenalin, cortisol, pulse/BP/sugar UP)</text>
+<text x="20" y="204">→ RESISTANCE (coping holds, resources drain) → RECOVERY or EXHAUSTION (systems fail:</text>
+<text x="20" y="218">ulcers, HTN, infections, depression, burnout!). Nurse acts at RESISTANCE — rest, relief,</text>
+<text x="20" y="232">referral — before exhaustion bills arrive.</text>
+<text x="20" y="252">LAZARUS (appraisal!): stress = event × MEANING. Primary ("threat? challenge? loss?") +</text>
+<text x="20" y="266">secondary ("can I cope? help available?") → coping → re-appraisal. Same diagnosis: threat</text>
+<text x="20" y="280">("I'll die!") vs challenge ("I'll fight!") — nurse REFRAMES appraisals (M05!).</text>
+<text x="20" y="300">FIGHT-FLIGHT-FREEZE: pupils, pulse, breath, sugar, digestion OFF, immunity DOWN. Chronic</text>
+<text x="20" y="314">= disease: HTN, diabetes, ulcers, infertility, infections, poor healing, mental illness.</text>
+<text x="20" y="328">Calming the body (breathing! presence! pain relief!) IS treating disease.</text>
+<text x="20" y="348">STRESSORS RANKED (Holmes-Rahe!): death of spouse/child, divorce, illness, job loss, moves,</text>
+<text x="20" y="362">exams, money — STACKED stressors multiply: bereaved + broke + ill = crisis watch (M03.2!).</text>
+<text x="20" y="382">NURSE'S OWN STRESS: shifts, deaths, hierarchy, exams — recognise YOUR phase (snapping?</text>
+<text x="20" y="396">numb? dreading shifts? = resistance fraying!) → sleep + food + debrief + boundaries + help</text>
+<text x="20" y="410">(COM M02!). Burnout nurses harm patients — self-care IS safety (PRO-II!).</text>
+<text x="20" y="430">WARD CALMERS: explain before doing · choices · pain treated FIRST · families near · noise</text>
+<text x="20" y="444">down · sleep guarded · prayer room · honest timelines. Calm wards heal; chaos wards sicken.</text>
+<text x="20" y="464">LINKS: COM presence · NUT comfort · GER rest · PRO-II wellbeing.</text>
+<text x="20" y="478">MANTRA: "alarm informs, resistance warns, exhaustion bills — act at two."</text>
+</g>
+</svg>

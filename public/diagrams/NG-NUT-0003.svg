@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Anthropometry: measure right, read right</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="132" height="90" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="86" y="56" font-weight="bold" font-size="10">BMI (adults)</text>
+<text x="86" y="70" font-size="8">kg/m²: &lt;18.5 under ·</text>
+<text x="86" y="81" font-size="8">18.5–24.9 OK · 25–29.9</text>
+<text x="86" y="92" font-size="8">over · ≥30 obese</text>
+<text x="86" y="105" font-size="8" fill="#b91c1c">&lt;16 severe thinness</text>
+<text x="86" y="116" font-size="8" fill="#6b7280">fails: pregnancy,</text>
+<text x="86" y="117" font-size="8" fill="#6b7280">athletes, oedema</text>
+<rect x="164" y="36" width="132" height="90" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="230" y="56" font-weight="bold" font-size="10">MUAC (6–59 mo)</text>
+<text x="230" y="70" font-size="8">&lt;11.5 cm RED = SAM ·</text>
+<text x="230" y="81" font-size="8">11.5–12.5 YELLOW =</text>
+<text x="230" y="92" font-size="8">MAM · ≥12.5 GREEN</text>
+<text x="230" y="105" font-size="8" fill="#b91c1c">+ oedema = SAM any</text>
+<text x="230" y="116" font-size="8" fill="#b91c1c">MUAC — check feet!</text>
+<rect x="308" y="36" width="132" height="90" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="374" y="56" font-weight="bold" font-size="10">MUAC older</text>
+<text x="374" y="70" font-size="8">5–9 y: &lt;13.5 low ·</text>
+<text x="374" y="81" font-size="8">adults: &lt;23 low ·</text>
+<text x="374" y="92" font-size="8">pregnancy: &lt;23 at</text>
+<text x="374" y="103" font-size="8">risk — feed + follow</text>
+<text x="374" y="116" font-size="8" fill="#6b7280">left arm, midpoint,</text>
+<text x="374" y="117" font-size="8" fill="#6b7280">snug not tight</text>
+</g>
+<text x="20" y="148" font-size="12" font-weight="bold" fill="#111827">GROWTH CHARTS (WHO z-scores, under-5)</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="166">Weight-for-AGE (underweight) · Height-for-AGE (stunting — chronic) · Weight-for-HEIGHT</text>
+<text x="30" y="182">(wasting — acute) · Head circumference (brain growth) · &lt;−2 SD = malnourished, &lt;−3 SD =</text>
+<text x="30" y="198">SEVERE. Plot EVERY visit — flat/falling lines alarm before cutoffs do. Length &lt;2 y lying,</text>
+<text x="30" y="214">height ≥2 y standing; shoes off, Frankfurt gaze, two measurers for squirmers.</text>
+</g>
+<rect x="0" y="226" width="460" height="264" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="248" font-weight="bold">TECHNIQUE (wrong measure = wrong child): zeroed/calibrated scale · light clothes ·</text>
+<text x="20" y="262">same time of day · read eye-level · repeat if odd · MUAC left-arm midpoint, tape flat ·</text>
+<text x="20" y="276">OEDEMA check both feet (press 3 s — pit = kwashiorkor/SAM until proven, M05!).</text>
+<text x="20" y="296">ADULT EXTRAS: waist (men &gt;102, women &gt;88 cm = metabolic risk) · weight TREND (5% in</text>
+<text x="20" y="310">3 mo unintentional = red flag — MUST, GER M06) · grip/strength eyeball · pregnancy: weight</text>
+<text x="20" y="324">gain chart + fundal height + Hb (M03).</text>
+<text x="20" y="344">READING RULES: trend beats point (crossing lines down = failing, even "normal") · stunting</text>
+<text x="20" y="358">= chronic story (feed + infections + care history) · wasting = ACUTE (food now + illness</text>
+<text x="20" y="372">hunt) · oedema + any MUAC = SAM protocol (M05) · obesity rising: BMI + waist + counsel</text>
+<text x="20" y="386">(M05) — Ghana's double burden (stunted child, obese mother, same house).</text>
+<text x="20" y="406">DOCUMENT: date, weight, height, MUAC, oedema Y/N, z-scores, plotted chart filed,</text>
+<text x="20" y="420">action + review date (PRO-I M5). Calibrate scales monthly; broken tapes replaced —</text>
+<text x="20" y="434">equipment lies kill quietly. Teach mothers to READ the chart ("line going up = growing</text>
+<text x="20" y="448">well") — literate mothers return; lectured mothers default.</text>
+<text x="20" y="468">Exam line: \"measure twice, plot always, read trends — oedema overrules every tape.\"</text>
+</g>
+</svg>

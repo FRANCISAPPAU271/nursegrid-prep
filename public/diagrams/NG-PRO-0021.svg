@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">PDSA + QI tools + the audit cycle</text>
+<g font-size="10" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="96" height="64" rx="30" fill="#3730a3"/>
+<text x="68" y="61" font-weight="bold" fill="#ffffff">PLAN</text>
+<text x="68" y="75" font-size="8" fill="#ffffff">aim + measure</text>
+<text x="68" y="86" font-size="8" fill="#ffffff">+ change idea</text>
+<rect x="132" y="36" width="96" height="64" rx="30" fill="#4f46e5"/>
+<text x="180" y="61" font-weight="bold" fill="#ffffff">DO</text>
+<text x="180" y="75" font-size="8" fill="#ffffff">pilot SMALL</text>
+<text x="180" y="86" font-size="8" fill="#ffffff">1 bay, 2 weeks</text>
+<rect x="244" y="36" width="96" height="64" rx="30" fill="#065f46"/>
+<text x="292" y="61" font-weight="bold" fill="#ffffff">STUDY</text>
+<text x="292" y="75" font-size="8" fill="#ffffff">data vs aim</text>
+<text x="292" y="86" font-size="8" fill="#ffffff">run chart</text>
+<rect x="356" y="36" width="84" height="64" rx="30" fill="#b91c1c"/>
+<text x="398" y="61" font-weight="bold" fill="#ffffff">ACT</text>
+<text x="398" y="75" font-size="8" fill="#ffffff">adopt/adapt</text>
+<text x="398" y="86" font-size="8" fill="#ffffff">/abandon</text>
+</g>
+<text x="20" y="122" font-size="12" font-weight="bold" fill="#111827">DIAGNOSE FIRST: fishbone + 5 whys</text>
+<g font-size="9" fill="#111827">
+<text x="30" y="140">FISHBONE (6 bones): People · Process · Place/equipment · Protocols · Products/drugs ·</text>
+<text x="30" y="154">Pressure (workload) — brainstorm every fall/error/infection onto bones, then vote top 3.</text>
+<text x="30" y="172">5 WHYS (drill to root): \"Fall at 02:00\" → why? dark + no bell → why? bell broken 3 weeks →</text>
+<text x="30" y="186">why? reported verbally only → why? no maintenance log → why? nobody owns it → FIX: log +</text>
+<text x="30" y="200">owner + weekly check. Symptoms seduce; roots cure — treat roots, symptoms starve.</text>
+</g>
+<rect x="0" y="212" width="460" height="278" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="234" font-weight="bold">MEASURE: run charts + Pareto — plot weekly (falls, infections, waits) as dots over</text>
+<text x="20" y="248">time (median line; shifts/trends = real change, wobbles = noise); Pareto: 20% of causes</text>
+<text x="20" y="262">drive 80% of harm — fix the tall bars first. Aim SMART: \"cut Bay B falls 50% in 90 days\".</text>
+<text x="20" y="282" font-weight="bold">AUDIT CYCLE (close every loop): set standard (protocol/guideline) → measure practice</text>
+<text x="20" y="296">→ compare (gap = %) → change (ONE fix, owned, dated) → RE-AUDIT (same tool, same place)</text>
+<text x="20" y="310">→ sustain (protocol + induction + spot-checks) → publish (ward board + meeting + CPD).</text>
+<text x="20" y="324">Unaudited changes evaporate; un-re-audited audits decorate. Audit topics: hand hygiene,</text>
+<text x="20" y="338">drug-chart completeness, partograph use, triage waits, documentation (PRO-I 8 rules),</text>
+<text x="20" y="352">discharge teaching, vital-sign frequency. Sample 20–30 (enough to act, small enough to</text>
+<text x="20" y="366">finish); blame-free (systems, not names — or data dies).</text>
+<text x="20" y="386" font-weight="bold">SPREAD + SUSTAIN: pilot → prove (data!) → package (1-page protocol + training) →</text>
+<text x="20" y="400">spread (bay → ward → hospital, champions each site) → sustain (induction, audits, board</text>
+<text x="20" y="414">visibility, celebrate streaks). Quality dimensions (IOM/STEEEP): Safe, Timely, Effective,</text>
+<text x="20" y="428">Efficient, Equitable, Patient-centred — every project should lift at least two.</text>
+<text x="20" y="448">Change ideas need owners + dates + measures — \"someone should…\" improves nothing.</text>
+<text x="20" y="466">Exam line: \"diagnose with bones and whys, test with PDSA, prove with run charts, lock with re-audit.\"</text>
+</g>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Recognise it: depression, anxiety, psychosis</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="130" height="66" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="85" y="56" font-weight="bold" font-size="10">DEPRESSION</text>
+<text x="85" y="69" font-size="8">low + joyless +</text>
+<text x="85" y="80" font-size="8">tired + hopeless</text>
+<text x="85" y="91" font-size="8">2+ WEEKS!</text>
+<rect x="165" y="36" width="130" height="66" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="230" y="56" font-weight="bold" font-size="10">ANXIETY</text>
+<text x="230" y="69" font-size="8">worry + restless +</text>
+<text x="230" y="80" font-size="8">tense + sleepless</text>
+<text x="230" y="91" font-size="8">6+ MONTHS!</text>
+<rect x="310" y="36" width="130" height="66" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="375" y="56" font-weight="bold" font-size="10">PSYCHOSIS</text>
+<text x="375" y="69" font-size="8">voices + beliefs +</text>
+<text x="375" y="80" font-size="8">disorganised +</text>
+<text x="375" y="91" font-size="8">withdrawn!</text>
+</g>
+<rect x="0" y="112" width="460" height="378" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="134" font-weight="bold">DEPRESSION (exam!): low mood + anhedonia (joyless!) + fatigue + worthlessness +</text>
+<text x="20" y="148">sleep/appetite shift + poor focus + SLOW or agitated + suicidal thoughts — 2+ WEEKS,</text>
+<text x="20" y="162">daily, function IMPAIRED. Postnatal: + bonding failure + intrusive harm-fears (M06.2!).</text>
+<text x="20" y="182">ANXIETY (GAD!): EXCESSIVE worry + restlessness + tension + poor focus + irritable +</text>
+<text x="20" y="196">sleepless — 6+ MONTHS, uncontrollable. Panic: sudden terror + pounding + "dying!" —</text>
+<text x="20" y="210">breathe WITH them + rule out MEDICAL (thyroid! asthma! drugs!).</text>
+<text x="20" y="230">PSYCHOSIS: HALLUCINATIONS (voices!) + DELUSIONS (fixed false beliefs!) + disorganised</text>
+<text x="20" y="244">speech/behaviour + NEGATIVE (flat, withdrawn, self-neglect!). Schizophrenia vs brief vs</text>
+<text x="20" y="258">drug-induced vs MEDICAL (UTI! malaria! typhoid delirium! — rule out FIRST!).</text>
+<text x="20" y="278">SUBSTANCES: alcohol (akpeteshie! pito! beer!) + tramadol + wee + cocaine — CAGE-ish ask:</text>
+<text x="20" y="292">Cut down? Annoyed? Guilty? Eye-opener? Withdrawal DANGEROUS (seizures! DTs!) — medical,</text>
+<text x="20" y="306">never "tough it out". MI spirit (M05!) + refer, judge never.</text>
+<text x="20" y="326">SCREEN (PHQ-2/GAD-2!): "down/hopeless…? little interest…?" + "nervous…? can't stop</text>
+<text x="20" y="340">worrying…?" — positives → PHQ-9/GAD-7 + suicide ask (M06.2!) + refer. Two questions,</text>
+<text x="20" y="354">every chronic/antenatal/postnatal visit — depression HIDES in diabetes, HIV, TB queues.</text>
+<text x="20" y="374">MEDICAL FIRST: thyroid, anaemia, UTI, malaria, drugs (steroids! efavirenz!), alcohol —</text>
+<text x="20" y="388">rule OUT before "it's psychiatric". Confusion + fever + age = DELIRIUM until proven</text>
+<text x="20" y="402">otherwise (GER M5!). Nurses catch what labels miss.</text>
+<text x="20" y="422">LANGUAGE: "person with schizophrenia" — never "schizo/mad/psycho" (COM M5!). Words</text>
+<text x="20" y="436">decide help-seeking — stigma kills quietly (M06.2!).</text>
+<text x="20" y="456">LINKS: COM suicide/psychosis · GER delirium/dementia · NUT perinatal.</text>
+<text x="20" y="470">MANTRA: "screen two, rule out medical, ask suicide, refer kindly."</text>
+</g>
+</svg>

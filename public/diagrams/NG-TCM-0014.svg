@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="380" font-family="sans-serif">
+<rect width="460" height="380" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="230" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#0f172a">TCAM Exam Map</text>
+<text x="230" y="42" text-anchor="middle" font-size="10" fill="#64748b">Seven modules — one must-know each, plus OSCE stations (NG-TCM-0014)</text>
+<g font-size="10" fill="#0f172a">
+<rect x="14" y="52" width="432" height="212" fill="#f8fafc" stroke="#1d4ed8" stroke-width="2" rx="6"/>
+<text x="24" y="70" font-size="12" font-weight="bold" fill="#1d4ed8">MODULE MUST-KNOWS</text>
+<text x="24" y="88">M01 — Define TCAM + pluralism; why patients combine systems</text>
+<text x="24" y="106">M02 — Healer types + crafts; five remedy families + belief roots</text>
+<text x="24" y="124">M03 — Interaction triads (warfarin/diabetes/BP) + pregnancy red list + surgery stops</text>
+<text x="24" y="142">M04 — Massage 7 contraindications (DVT NEVER!) + 4Q evidence check + scope line</text>
+<text x="24" y="160">M05 — Kleinman 8 + LEARN 5 + disclosure rules + 5-line note</text>
+<text x="24" y="178">M06 — Act 595 + FDA numbers + two-way referrals + ward checklist</text>
+<text x="24" y="196">M07 — Capstone wheel: ASK → SAFETY → SORT → SHARE → BRIDGE → SUSTAIN</text>
+<text x="24" y="214">Cross-cutting — both-and language · quoted beliefs · review dates · teach-back</text>
+<text x="24" y="232">Cross-cutting — harm refused + documented + reported via channels, always</text>
+</g>
+<rect x="14" y="272" width="432" height="66" fill="#fef2f2" stroke="#b91c1c" stroke-width="2" rx="6"/>
+<text x="24" y="292" font-size="12" font-weight="bold" fill="#b91c1c">LIKELY OSCE STATIONS</text>
+<g font-size="10" fill="#0f172a">
+<text x="24" y="310">Counsel the warfarin + bitters patient · Take a TM history · Negotiate the prayer-camp discharge</text>
+<text x="24" y="326">Teach 4-2-6 breathing · Check an FDA number · Write a 5-line negotiated note</text>
+</g>
+<rect x="14" y="344" width="432" height="26" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1" rx="4"/>
+<text x="230" y="361" text-anchor="middle" font-size="10" fill="#475569">Examiners reward safety + respect + documentation — in that order. Original NurseGrid content.</text>
+</svg>

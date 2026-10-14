@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">The 3Ds: compare + delirium hunt</text>
+<g font-size="8" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="132" height="110" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="86" y="56" font-weight="bold" font-size="10">DELIRIUM</text>
+<text x="86" y="70" font-size="8">ACUTE (hours-days),</text>
+<text x="86" y="81" font-size="8">FLUCTUATES, inattentive,</text>
+<text x="86" y="92" font-size="8">agitated OR drowsy</text>
+<text x="86" y="106" font-size="8" fill="#065f46">CAUSE hunt (below);</text>
+<text x="86" y="117" font-size="8" fill="#065f46">REVERSIBLE emergency</text>
+<text x="86" y="132" font-size="8" fill="#6b7280">CAM: acute+inattention</text>
+<text x="86" y="141" font-size="8" fill="#6b7280">+disorganised/altered</text>
+<rect x="164" y="36" width="132" height="110" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="230" y="56" font-weight="bold" font-size="10">DEMENTIA</text>
+<text x="230" y="70" font-size="8">SLOW (months-years),</text>
+<text x="230" y="81" font-size="8">steady decline, alert,</text>
+<text x="230" y="92" font-size="8">memory + function lost</text>
+<text x="230" y="106" font-size="8" fill="#065f46">support + safety +</text>
+<text x="230" y="117" font-size="8" fill="#065f46">carers; mostly IRREVERSIBLE</text>
+<text x="230" y="132" font-size="8" fill="#6b7280">rule out reversible first!</text>
+<text x="230" y="141" font-size="8" fill="#6b7280">(B12, thyroid, NPH, SDH)</text>
+<rect x="308" y="36" width="132" height="110" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="374" y="56" font-weight="bold" font-size="10">DEPRESSION</text>
+<text x="374" y="70" font-size="8">WEEKS, mood-led,</text>
+<text x="374" y="81" font-size="8">"don't know" + distressed,</text>
+<text x="374" y="92" font-size="8">appetite/sleep crash</text>
+<text x="374" y="106" font-size="8" fill="#065f46">TREATABLE: therapy,</text>
+<text x="374" y="117" font-size="8" fill="#065f46">activity, meds, safety</text>
+<text x="374" y="132" font-size="8" fill="#6b7280">GDS + suicide ask (M02)</text>
+<text x="374" y="141" font-size="8" fill="#6b7280">always</text>
+</g>
+<text x="20" y="168" font-size="12" font-weight="bold" fill="#111827">DELIRIUM HUNT: PINCH ME + CAM</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="186">P — Pain · I — Infection (UTI, chest, sepsis) · N — Nutrition (dehydrated? low Na/glucose?) ·</text>
+<text x="30" y="202">C — Constipation + Catheter (retention!) · H — Hydration + Hypoxia + Heart (MI/HF) ·</text>
+<text x="30" y="218">M — Meds (anticholinergics, sedatives, opioids, steroids — M04) · E — Environment (ward move,</text>
+<text x="30" y="234">sensory loss, sleep loss, restraints). CAM positive = acute onset + inattention + (disorganised</text>
+<text x="30" y="250">thinking OR altered consciousness). HYPOACTIVE (quiet, drowsy) kills most — missed, not mild.</text>
+</g>
+<rect x="0" y="262" width="460" height="228" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="284" font-weight="bold">DELIRIUM CARE: treat cause urgently + orient (clock, daylight, aids ON, family</text>
+<text x="20" y="298">photos, explain every touch) + hydrate/feed/mobilise + review meds (stop culprits) +</text>
+<text x="20" y="312">sleep (noise down, pain controlled, catheters OUT) + stay WITH (family sit-in, 1:1 if</text>
+<text x="20" y="326">unsafe) + antipsychotic ONLY if distressed/unsafe per doctor (low dose, short, review).</text>
+<text x="20" y="340">Restraints worsen delirium — last resort, prescribed, reviewed (PRO-I M6 Act 846 spirit).</text>
+<text x="20" y="360" font-weight="bold">DEMENTIA CARE: routine + familiar faces + one-step instructions + validate feelings</text>
+<text x="20" y="374">(\"you miss home — tell me about it\") not facts-argued; BPSD (agitation, wandering, sundown)</text>
+<text x="20" y="388">= unmet need first (pain? toilet? fear? boredom?) → redirect, music, walk-with, carer respite;</text>
+<text x="20" y="402">drugs last (antipsychotics raise stroke/death — specialist only). Safety: stove, meds, money,</text>
+<text x="20" y="416">roads, wandering plan (ID bracelet, neighbour alert, locked gates kindly explained).</text>
+<text x="20" y="436">DEPRESSION CARE: screen (GDS), suicide safety, grief support, activity + daylight + roles,</text>
+<text x="20" y="450">treat pain/insomnia/constipation (misery mimics), meds per doctor + adherence + review —</text>
+<text x="20" y="464">\"old + sad ≠ normal\" — treatable at every age. Overlap real: delirium ON dementia common —</text>
+<text x="20" y="478">baseline (M02) tells which is new.</text>
+</g>
+</svg>

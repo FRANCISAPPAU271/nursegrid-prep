@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Frailty + function + falls workup</text>
+<text x="20" y="50" font-size="12" font-weight="bold" fill="#111827">CLINICAL FRAILTY SCALE (eyeball + confirm)</text>
+<g font-size="8" fill="#111827" text-anchor="middle">
+<rect x="20" y="58" width="60" height="52" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="50" y="76" font-weight="bold">1-3</text>
+<text x="50" y="88" font-size="8">fit → managing</text>
+<text x="50" y="99" font-size="8">well, active</text>
+<rect x="88" y="58" width="60" height="52" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="118" y="76" font-weight="bold">4</text>
+<text x="118" y="88" font-size="8">vulnerable:</text>
+<text x="118" y="99" font-size="8">slowed, tired</text>
+<rect x="156" y="58" width="60" height="52" rx="6" fill="#ffedd5" stroke="#c2410c" stroke-width="1.5"/>
+<text x="186" y="76" font-weight="bold">5-6</text>
+<text x="186" y="88" font-size="8">mild-moderate:</text>
+<text x="186" y="99" font-size="8">needs help</text>
+<rect x="224" y="58" width="60" height="52" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="254" y="76" font-weight="bold">7-8</text>
+<text x="254" y="88" font-size="8">severe: fully</text>
+<text x="254" y="99" font-size="8">dependent</text>
+<rect x="292" y="58" width="60" height="52" rx="6" fill="#111827"/>
+<text x="322" y="76" font-weight="bold" fill="#ffffff">9</text>
+<text x="322" y="88" font-size="8" fill="#ffffff">terminally ill,</text>
+<text x="322" y="99" font-size="8" fill="#ffffff">not otherwise frail</text>
+<rect x="360" y="58" width="80" height="52" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="400" y="76" font-weight="bold" font-size="8">PHENOTYPE</text>
+<text x="400" y="88" font-size="8">weak, slow, low</text>
+<text x="400" y="99" font-size="8">activity, loss, tired</text>
+</g>
+<text x="20" y="132" font-size="12" font-weight="bold" fill="#111827">FUNCTION: Katz ADL + Lawton IADL + TUG</text>
+<g font-size="9" fill="#111827">
+<rect x="20" y="140" width="205" height="66" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="30" y="158" font-weight="bold" font-size="10">KATZ ADL (basic 6)</text>
+<text x="30" y="172" font-size="8">bathing, dressing, toileting,</text>
+<text x="30" y="183" font-size="8">transferring, continence, feeding</text>
+<text x="30" y="196" font-size="8" fill="#065f46">loss order reverses gains —</text>
+<text x="30" y="205" font-size="8" fill="#065f46">bathing first, feeding last</text>
+<rect x="235" y="140" width="205" height="66" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="245" y="158" font-weight="bold" font-size="10">LAWTON IADL (complex 8)</text>
+<text x="245" y="172" font-size="8">phone, shopping, cooking, house,</text>
+<text x="245" y="183" font-size="8">laundry, transport, meds, money</text>
+<text x="245" y="196" font-size="8" fill="#065f46">fails FIRST — early warning;</text>
+<text x="245" y="205" font-size="8" fill="#065f46">culture-adjust (cooking roles)</text>
+</g>
+<rect x="0" y="218" width="460" height="272" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="240" font-weight="bold">TUG (Timed Up-and-Go): chair → 3 m → turn → sit. &lt;10 s normal, 10–20 s</text>
+<text x="20" y="254">at-risk, &gt;20 s high-risk + needs aid/assessment. Watch: push-off, steps, turn,</text>
+<text x="20" y="268">sitting — the test you can run in any OPD with any chair.</text>
+<text x="20" y="288" font-weight="bold">FALLS WORKUP (every faller + every TUG &gt;20 s): history (when/where/doing —</text>
+<text x="20" y="302">trip? dizzy? blackout? injury? lying-time?) → meds (sedatives, BP drugs, hypoglycaemics</text>
+<text x="20" y="316">— M04) → lie-sit-stand BPs + pulse (rhythm?) → vision + feet + footwear → neuro</text>
+<text x="20" y="330">(weakness? Parkinson? stroke?) → cognition/delirium (M03) → home hazards (M06) →</text>
+<text x="20" y="344">plan (physio + aids + meds trim + cataract referral + vitamin D + balance class).</text>
+<text x="20" y="364">Red-flag falls: head strike + anticoagulant (scan!), hip pain (fracture until proven),</text>
+<text x="20" y="378">chest pain/palpitations/syncope (cardiac), neuro deficit (stroke), fever + fall (sepsis),</text>
+<text x="20" y="392">long lie (rhabdomyolysis, pressure damage, dehydration — check CK/kidney).</text>
+<text x="20" y="412">PRESSURE RISK rides with frailty: Braden/Waterlow on admission, skin daily, offload</text>
+<text x="20" y="426">q2–4h, mattress by risk, nutrition (M06) — immobility + age + damp skin ulcerate fast.</text>
+<text x="20" y="446">Document baseline ADL/IADL/TUG/CFS on EVERY elder admission — without baselines,</text>
+<text x="20" y="460">change is invisible and delirium hides (PRO-I M5 + M01 function rule).</text>
+<text x="20" y="476">Exam line: \"IADL fails first, TUG triages, every fall gets a workup, baselines catch delirium.\"</text>
+</g>
+</svg>

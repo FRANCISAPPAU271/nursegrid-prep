@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">NHIS + financing + the nurse's policy voice</text>
+<text x="20" y="50" font-size="12" font-weight="bold" fill="#111827">NHIS MONEY IN → CARE OUT</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="58" width="128" height="70" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="84" y="78" font-weight="bold" font-size="9">IN: levies</text>
+<text x="84" y="92" font-size="8">NHI levy (VAT),</text>
+<text x="84" y="103" font-size="8">SSNIT share,</text>
+<text x="84" y="114" font-size="8">premiums</text>
+<rect x="166" y="58" width="128" height="70" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="230" y="78" font-weight="bold" font-size="9">POOL: NHIA</text>
+<text x="230" y="92" font-size="8">fund + district</text>
+<text x="230" y="103" font-size="8">schemes +</text>
+<text x="230" y="114" font-size="8">claims vetting</text>
+<rect x="312" y="58" width="128" height="70" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="376" y="78" font-weight="bold" font-size="9">OUT: benefits</text>
+<text x="376" y="92" font-size="8">OPD, admissions,</text>
+<text x="376" y="103" font-size="8">maternity, drugs</text>
+<text x="376" y="114" font-size="8">on list</text>
+</g>
+<g font-size="10" fill="#111827">
+<text x="20" y="150">EXEMPT (no premium): under-18, 70+, indigents, pregnant women (free maternal), SSNIT</text>
+<text x="20" y="164">pensioners, LEAP/disability per policy — REGISTER them, don't bill them. Excluded: cosmetic,</text>
+<text x="20" y="178">optics beyond list, most cancers beyond protocol, VIP extras — explain BEFORE care, bill</text>
+<text x="20" y="192">transparently. Claims: document → code → vet → pay (delays happen — accurate claims pay</text>
+<text x="20" y="206">first; PRO-I M5's records are revenue). Fraud (upcoding, ghost patients, drug diversion)</text>
+<text x="20" y="220">prosecutes — nurses guard the pool.</text>
+</g>
+<rect x="0" y="232" width="460" height="258" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="254" font-weight="bold">FINANCING MIX: tax + levies + premiums + donors + out-of-pocket (shrinking it =</text>
+<text x="20" y="268">UHC). UHC/SDG 3: everyone covered, protected from ruin, quality assured — nurses are</text>
+<text x="20" y="282">UHC's workforce (most numerous, most rural, most trusted). Cost-conscious care: right test,</text>
+<text x="20" y="296">right drug (STG generics), no waste — stewardship IS advocacy for the next patient.</text>
+<text x="20" y="316" font-weight="bold">POLICY CYCLE: agenda (problem + data + story) → formulate (draft + consult) → adopt</text>
+<text x="20" y="330">(approve + fund) → implement (train + supply + supervise) → evaluate (did it work? audit!)</text>
+<text x="20" y="344">→ revise. Nurse's ladder: ward data → facility meeting → district/regional forums → GRNA</text>
+<text x="20" y="358">+ NMC position papers → MOH consultations → media + MPs (evidence + stories + asks).</text>
+<text x="20" y="378">GRNA (association: welfare + voice) ≠ NMC (regulator: licence + discipline — PRO-I M1):</text>
+<text x="20" y="392">join, pay dues, vote, volunteer — associations amplify solo voices into policy. Strikes:</text>
+<text x="20" y="406">last resort, legal procedure, minimum service for the dying — ethics outlast disputes</text>
+<text x="20" y="420">(PRO-I M2/M3: abandonment never lawful). Global: WHO, ICN, SDGs — Ghana's nurses</text>
+<text x="20" y="434">in diaspora + at home shape world health; migration's push/pull debated — serve,</text>
+<text x="20" y="448">learn, return-or-remit: the brain-drain conversation needs nurse voices most.</text>
+<text x="20" y="468">Exam line: \"nurses deliver policy at bedsides — and must write it in boardrooms.\"</text>
+</g>
+</svg>

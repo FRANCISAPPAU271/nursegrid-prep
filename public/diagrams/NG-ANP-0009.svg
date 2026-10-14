@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 430" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="430" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">The villus: absorption close up</text>
+<!-- lumen arrows -->
+<g stroke="#6b7280" stroke-width="1.5" fill="none">
+<path d="M150,50 L150,80 M145,72 L150,82 L155,72"/>
+<path d="M230,50 L230,80 M225,72 L230,82 L235,72"/>
+<path d="M310,50 L310,80 M305,72 L310,82 L315,72"/>
+</g>
+<text x="330" y="70" font-size="9" fill="#6b7280">nutrients in</text>
+<!-- three villi -->
+<g>
+<rect x="120" y="90" width="60" height="170" rx="28" fill="#ffedd5" stroke="#92400e" stroke-width="2"/>
+<rect x="200" y="90" width="60" height="170" rx="28" fill="#ffedd5" stroke="#92400e" stroke-width="2"/>
+<rect x="280" y="90" width="60" height="170" rx="28" fill="#ffedd5" stroke="#92400e" stroke-width="2"/>
+<!-- brush borders -->
+<g stroke="#92400e" stroke-width="1.5">
+<line x1="132" y1="90" x2="132" y2="78"/><line x1="144" y1="86" x2="144" y2="74"/><line x1="156" y1="86" x2="156" y2="74"/><line x1="168" y1="90" x2="168" y2="78"/>
+<line x1="212" y1="90" x2="212" y2="78"/><line x1="224" y1="86" x2="224" y2="74"/><line x1="236" y1="86" x2="236" y2="74"/><line x1="248" y1="90" x2="248" y2="78"/>
+<line x1="292" y1="90" x2="292" y2="78"/><line x1="304" y1="86" x2="304" y2="74"/><line x1="316" y1="86" x2="316" y2="74"/><line x1="328" y1="90" x2="328" y2="78"/>
+</g>
+<!-- lacteals -->
+<rect x="144" y="140" width="12" height="120" rx="6" fill="#65a30d"/>
+<rect x="224" y="140" width="12" height="120" rx="6" fill="#65a30d"/>
+<rect x="304" y="140" width="12" height="120" rx="6" fill="#65a30d"/>
+<!-- capillary loops -->
+<g fill="none" stroke-width="2.5">
+<path d="M130,250 Q130,160 150,150 M170,250 Q170,160 150,150" stroke="#b91c1c"/>
+<path d="M210,250 Q210,160 230,150 M250,250 Q250,160 230,150" stroke="#1d4ed8"/>
+<path d="M290,250 Q290,160 310,150 M330,250 Q330,160 310,150" stroke="#b91c1c"/>
+</g>
+<!-- base -->
+<rect x="100" y="260" width="260" height="14" fill="#fcd34d" stroke="#92400e" stroke-width="1.5"/>
+</g>
+<!-- labels -->
+<g font-size="10" fill="#111827">
+<line x1="120" y1="80" x2="80" y2="66" stroke="#6b7280" stroke-width="1"/>
+<text x="12" y="62" font-weight="bold">Microvilli</text>
+<text x="12" y="74" font-size="9" fill="#6b7280">brush border enzymes</text>
+<line x1="200" y1="120" x2="100" y2="140" stroke="#6b7280" stroke-width="1"/>
+<text x="12" y="136" font-weight="bold">Epithelium</text>
+<text x="12" y="148" font-size="9" fill="#6b7280">one cell thick</text>
+<line x1="224" y1="190" x2="150" y2="210" stroke="#6b7280" stroke-width="1"/>
+<text x="60" y="206" font-weight="bold">Lacteal (lymph)</text>
+<text x="60" y="218" font-size="9" fill="#6b7280">takes the fats</text>
+<line x1="250" y1="220" x2="360" y2="210" stroke="#6b7280" stroke-width="1"/>
+<text x="362" y="206" font-weight="bold">Capillary</text>
+<text x="362" y="218" font-size="9" fill="#6b7280">takes sugars +</text>
+<text x="362" y="230" font-size="9" fill="#6b7280">amino acids</text>
+<text x="362" y="252" font-weight="bold">→ portal vein</text>
+<text x="362" y="264" font-size="9" fill="#6b7280">→ liver first</text>
+</g>
+<rect x="0" y="330" width="460" height="100" fill="#f1f5f9"/>
+<text x="20" y="352" font-size="10" fill="#111827">Folds × villi × microvilli multiply the small intestine to ~200 m² — a tennis court.</text>
+<text x="20" y="366" font-size="10" fill="#111827">Blood takes sugars and amino acids to the liver; lymph takes fats around it.</text>
+<text x="20" y="380" font-size="10" fill="#111827">Flatten the villi (coeliac disease, severe malnutrition) and absorption collapses:</text>
+<text x="20" y="394" font-size="10" fill="#111827">diarrhoea, wasting and deficiencies no appetite can fix.</text>
+</svg>

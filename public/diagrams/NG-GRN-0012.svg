@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Mobility + aids + home safety</text>
+<text x="20" y="50" font-size="12" font-weight="bold" fill="#111827">DECONDITIONING STARTS DAY 1 (bed rest = decline)</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="68">Muscle 1–3%/day, bones thin, clots form, lungs + bowels stall, delirium blooms — MOBILISE</text>
+<text x="30" y="84">from admission: sit out, stand, walk (aids + supervision), physio day 1, "pyjamas ban" (dress</text>
+<text x="30" y="100">= mindset). Exercise Rx: strength 2×/wk + balance 3×/wk + walk 150 min/wk + flex daily.</text>
+</g>
+<text x="20" y="124" font-size="12" font-weight="bold" fill="#111827">AIDS (assess → fit → train → review)</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="132" width="96" height="72" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="68" y="152" font-weight="bold" font-size="9">STICK</text>
+<text x="68" y="166" font-size="8">opposite hand,</text>
+<text x="68" y="177" font-size="8">elbow 20–30°,</text>
+<text x="68" y="190" font-size="8" fill="#065f46">mild unsteadiness</text>
+<rect x="124" y="132" width="96" height="72" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="172" y="152" font-weight="bold" font-size="9">FRAME</text>
+<text x="172" y="166" font-size="8">lift-step-place,</text>
+<text x="172" y="177" font-size="8">indoors + level,</text>
+<text x="172" y="190" font-size="8" fill="#065f46">weak/very unsteady</text>
+<rect x="228" y="132" width="96" height="72" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="276" y="152" font-weight="bold" font-size="9">WHEELCHAIR</text>
+<text x="276" y="166" font-size="8">fitted + cushion,</text>
+<text x="276" y="177" font-size="8">pressure plan,</text>
+<text x="276" y="190" font-size="8" fill="#065f46">not a parking bay!</text>
+<rect x="332" y="132" width="108" height="72" rx="6" fill="#ffedd5" stroke="#c2410c" stroke-width="1.5"/>
+<text x="386" y="152" font-weight="bold" font-size="9">HOME AIDS</text>
+<text x="386" y="166" font-size="8">rails, raised seat,</text>
+<text x="386" y="177" font-size="8">commode, ramp,</text>
+<text x="386" y="190" font-size="8" fill="#065f46">bed lever, bell</text>
+</g>
+<rect x="0" y="216" width="460" height="274" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="238" font-weight="bold">HOME HAZARDS CHECKLIST (visit + fix + re-visit): light (bulbs + night lights + torch)</text>
+<text x="20" y="252">+ floor (mats OUT, cords taped, spills wiped, level thresholds) + bathroom (rails, non-slip,</text>
+<text x="20" y="266">raised seat, shower stool) + bed (height, lever, bell, commode near) + stairs (rails BOTH sides,</text>
+<text x="20" y="280">contrast edges, gate if wandering) + kitchen (stove guard, kettle tipper, gas check for smell-</text>
+<text x="20" y="294">loss) + outside (path even, handrail, farm-task swap: lighter duties, same dignity).</text>
+<text x="20" y="314">HIP FRACTURE PATHWAY: suspect (fall + hip/groin pain + short rotated leg — don't walk!) →</text>
+<text x="20" y="328">X-ray → analgesia + fluids + delirium watch → surgery FAST (&lt;48 h saves lives) → mobilise</text>
+<text x="20" y="342">DAY 1 post-op → physio + OT + nutrition + bone protection (calcium/D + osteoporosis Rx) →</text>
+<text x="20" y="356">home rehab + falls plan (M02 workup). 1-year mortality ~30% — speed + mobilisation decide.</text>
+<text x="20" y="376">REHAB GOALS (elder-set, M01): "walk to farm gate / mosque / market stall" — SMART + dated +</text>
+<text x="20" y="390">team (nurse + physio + OT + family + elder) + reviewed. OT: dressing gadgets, kitchen</text>
+<text x="20" y="404">adaptations, energy-saving (sit to cook, pace tasks). Contractures prevented (position +</text>
+<text x="20" y="418">passive moves), Foot drop splinted, pressure plan rides along (M02). Celebrate metres:</text>
+<text x="20" y="432">"bed-to-door Monday, gate Friday" — progress posted where the elder SEES it.</text>
+<text x="20" y="452">Discharge: aids fitted + home visited + family trained (teach-back) + follow-up dated +</text>
+<text x="20" y="466">CHPS linked — rehabilitation continues at home or it evaporates.</text>
+</g>
+</svg>

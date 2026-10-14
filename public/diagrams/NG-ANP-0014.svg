@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 480" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="480" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Blood: composition + who can give to whom</text>
+<!-- centrifuge tube -->
+<rect x="40" y="50" width="70" height="220" rx="10" fill="none" stroke="#334155" stroke-width="2"/>
+<rect x="42" y="52" width="66" height="120" fill="#fde68a"/>
+<rect x="42" y="172" width="66" height="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="0.5"/>
+<rect x="42" y="182" width="66" height="86" fill="#b91c1c"/>
+<g font-size="10" fill="#111827">
+<line x1="110" y1="100" x2="150" y2="100" stroke="#6b7280" stroke-width="1"/>
+<text x="152" y="96" font-weight="bold">Plasma 55%</text>
+<text x="152" y="108" font-size="9" fill="#6b7280">water, albumin, globulins,</text>
+<text x="152" y="120" font-size="9" fill="#6b7280">fibrinogen, nutrients</text>
+<line x1="110" y1="177" x2="150" y2="177" stroke="#6b7280" stroke-width="1"/>
+<text x="152" y="181" font-weight="bold">Buffy coat &lt;1%</text>
+<text x="152" y="193" font-size="9" fill="#6b7280">white cells + platelets</text>
+<line x1="110" y1="225" x2="150" y2="225" stroke="#6b7280" stroke-width="1"/>
+<text x="152" y="221" font-weight="bold">Red cells ~45%</text>
+<text x="152" y="233" font-size="9" fill="#6b7280">haematocrit: M ~45, F ~40</text>
+</g>
+<text x="75" y="288" font-size="9" fill="#6b7280" text-anchor="middle">spun blood</text>
+<!-- compatibility grid -->
+<text x="20" y="318" font-size="12" font-weight="bold" fill="#111827">ABO compatibility (donor → recipient)</text>
+<g font-size="10" fill="#111827" text-anchor="middle">
+<text x="70" y="344" font-weight="bold" font-size="9" fill="#6b7280">donor \ recip.</text>
+<text x="150" y="344" font-weight="bold">O</text>
+<text x="215" y="344" font-weight="bold">A</text>
+<text x="280" y="344" font-weight="bold">B</text>
+<text x="345" y="344" font-weight="bold">AB</text>
+<text x="70" y="368" font-weight="bold">O</text>
+<text x="70" y="392" font-weight="bold">A</text>
+<text x="70" y="416" font-weight="bold">B</text>
+<text x="70" y="440" font-weight="bold">AB</text>
+<g font-size="13" font-weight="bold">
+<text x="150" y="370" fill="#15803d">✓</text><text x="215" y="370" fill="#15803d">✓</text><text x="280" y="370" fill="#15803d">✓</text><text x="345" y="370" fill="#15803d">✓</text>
+<text x="150" y="394" fill="#b91c1c">✗</text><text x="215" y="394" fill="#15803d">✓</text><text x="280" y="394" fill="#b91c1c">✗</text><text x="345" y="394" fill="#15803d">✓</text>
+<text x="150" y="418" fill="#b91c1c">✗</text><text x="215" y="418" fill="#b91c1c">✗</text><text x="280" y="418" fill="#15803d">✓</text><text x="345" y="418" fill="#15803d">✓</text>
+<text x="150" y="442" fill="#b91c1c">✗</text><text x="215" y="442" fill="#b91c1c">✗</text><text x="280" y="442" fill="#b91c1c">✗</text><text x="345" y="442" fill="#15803d">✓</text>
+</g>
+</g>
+<rect x="0" y="452" width="460" height="28" fill="#f1f5f9"/>
+<text x="20" y="470" font-size="10" fill="#111827">O−: universal donor. AB+: universal recipient. Rh− never takes Rh+ — and ABO never replaces a crossmatch.</text>
+</svg>

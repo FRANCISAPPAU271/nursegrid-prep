@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Six principles + where they collide</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="40" width="130" height="76" rx="8" fill="#eef2ff" stroke="#3730a3" stroke-width="2"/>
+<text x="85" y="58" font-weight="bold" font-size="10">AUTONOMY</text>
+<text x="85" y="72" font-size="8">self-rule: consent,</text>
+<text x="85" y="83" font-size="8">refusal, capacity,</text>
+<text x="85" y="94" font-size="8">privacy, choice</text>
+<text x="85" y="106" font-size="8" fill="#6b7280">\"his life, his call\"</text>
+<rect x="156" y="40" width="130" height="76" rx="8" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="221" y="58" font-weight="bold" font-size="10">BENEFICENCE</text>
+<text x="221" y="72" font-size="8">do good: advocate,</text>
+<text x="221" y="83" font-size="8">prevent harm, help</text>
+<text x="221" y="94" font-size="8">where you can</text>
+<text x="221" y="106" font-size="8" fill="#6b7280">\"act for his best\"</text>
+<rect x="292" y="40" width="148" height="76" rx="8" fill="#fef2f2" stroke="#7f1d1d" stroke-width="1.5"/>
+<text x="366" y="58" font-weight="bold" font-size="10">NON-MALEFICENCE</text>
+<text x="366" y="72" font-size="8">do no harm: safety,</text>
+<text x="366" y="83" font-size="8">restraint minimum,</text>
+<text x="366" y="94" font-size="8">risk-vs-benefit</text>
+<text x="366" y="106" font-size="8" fill="#6b7280">\"first, don't hurt\"</text>
+<rect x="20" y="124" width="130" height="76" rx="8" fill="#fef9c3" stroke="#713f12" stroke-width="1.5"/>
+<text x="85" y="142" font-weight="bold" font-size="10">JUSTICE</text>
+<text x="85" y="156" font-size="8">fair share: triage,</text>
+<text x="85" y="167" font-size="8">no favouritism,</text>
+<text x="85" y="178" font-size="8">no discrimination</text>
+<text x="85" y="190" font-size="8" fill="#6b7280">\"same rules, all\"</text>
+<rect x="156" y="124" width="130" height="76" rx="8" fill="#f3e8ff" stroke="#6b21a8" stroke-width="1"/>
+<text x="221" y="142" font-weight="bold" font-size="10">FIDELITY</text>
+<text x="221" y="156" font-size="8">keep faith: promises,</text>
+<text x="221" y="167" font-size="8">loyalty, advocacy,</text>
+<text x="221" y="178" font-size="8">confidentiality</text>
+<text x="221" y="190" font-size="8" fill="#6b7280">\"as you promised\"</text>
+<rect x="292" y="124" width="148" height="76" rx="8" fill="#ffedd5" stroke="#7c2d12" stroke-width="1"/>
+<text x="366" y="142" font-weight="bold" font-size="10">VERACITY</text>
+<text x="366" y="156" font-size="8">tell truth: bad news,</text>
+<text x="366" y="167" font-size="8">error disclosure,</text>
+<text x="366" y="178" font-size="8">no placebos-by-lie</text>
+<text x="366" y="190" font-size="8" fill="#6b7280">\"honest, kindly\"</text>
+</g>
+<text x="20" y="224" font-size="12" font-weight="bold" fill="#111827">Classic collisions (exams live here)</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="244"><tspan font-weight="bold">Autonomy vs beneficence:</tspan> competent refusal of life-saving treatment → refusal WINS (assess capacity, inform, document, respect)</text>
+<text x="30" y="262"><tspan font-weight="bold">Veracity vs non-maleficence:</tspan> brutal truth vs kind timing → truth WINS, delivered well (SPIKES: Setting, Perception, Invitation, Knowledge, Emotion, Summary)</text>
+<text x="30" y="280"><tspan font-weight="bold">Justice vs fidelity:</tspan> your patient vs all patients (one ventilator, one theatre slot) → fair criteria (triage protocol, not shouting/wealth/queue-jumping)</text>
+<text x="30" y="298"><tspan font-weight="bold">Confidentiality vs protection:</tspan> secret vs serious harm (child abuse, imminent violence, unfit driver/pilot) → protection WINS (disclose minimum to right authority)</text>
+</g>
+<rect x="0" y="312" width="460" height="178" fill="#f1f5f9"/>
+<text x="20" y="334" font-size="10" fill="#111827">No principle outranks absolutely — balance them, choose least-restrictive, document</text>
+<text x="20" y="348" font-size="10" fill="#111827">WHY. Capacity is decision-specific + time-specific: assess understanding, retention,</text>
+<text x="20" y="362" font-size="10" fill="#111827">weighing, communicating — support first (hearing aid, language, time of day), judge</text>
+<text x="20" y="376" font-size="10" fill="#111827">last. Children: evolving capacity + parental responsibility + courts for refusal of</text>
+<text x="20" y="390" font-size="10" fill="#111827">life-saving care — never the nurse's solo call. Double effect: pain relief that may</text>
+<text x="20" y="404" font-size="10" fill="#111827">hasten death is ethical when INTENT is comfort, dose titrated, death foreseen but</text>
+<text x="20" y="418" font-size="10" fill="#111827">not intended — document intent explicitly. Futility: treatment with no benefit may</text>
+<text x="20" y="432" font-size="10" fill="#111827">be withheld/withdrawn with team + family + second opinion — never silently, never</text>
+<text x="20" y="446" font-size="10" fill="#111827">alone. Euthanasia is ILLEGAL in Ghana — palliate, don't participate.</text>
+<text x="20" y="460" font-size="10" fill="#111827">Exam stems: name the principles, name the collision, apply the framework, document.</text>
+</svg>

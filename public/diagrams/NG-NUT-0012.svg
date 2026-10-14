@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Community nutrition in action</text>
+<text x="20" y="50" font-size="12" font-weight="bold" fill="#111827">CWC/OUTREACH ENGINE (monthly, every child &lt;5)</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="68">Weigh + plot + counsel (M02!) + vaccines + vitamin A + deworm + IYCF demo + sick-child triage</text>
+<text x="30" y="84">+ defaulters listed + pregnant/lactating counselled. Fast queues + kind words + charts handed</text>
+<text x="30" y="100">over = retention. "Weighing day is village health day" — drum, mobilise, celebrate gains!</text>
+</g>
+<text x="20" y="124" font-size="12" font-weight="bold" fill="#111827">SEASONAL CALENDAR (plan the hungry months!)</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="132" width="132" height="72" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="86" y="152" font-weight="bold" font-size="9">HARVEST</text>
+<text x="86" y="166" font-size="8">store (dry + raised +</text>
+<text x="86" y="177" font-size="8">pest-proof!) + sell</text>
+<text x="86" y="190" font-size="8" fill="#065f46">surplus smart +</text>
+<text x="86" y="199" font-size="8" fill="#065f46">save seeds</text>
+<rect x="164" y="132" width="132" height="72" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="230" y="152" font-weight="bold" font-size="9">LEAN SEASON</text>
+<text x="230" y="166" font-size="8">stored grains + dried</text>
+<text x="230" y="177" font-size="8">fish + groundnut +</text>
+<text x="230" y="190" font-size="8" fill="#065f46">garden greens +</text>
+<text x="230" y="199" font-size="8" fill="#065f46">screen MORE!</text>
+<rect x="308" y="132" width="132" height="72" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="374" y="152" font-weight="bold" font-size="9">RAINS/MALARIA</text>
+<text x="374" y="166" font-size="8">nets + test/treat +</text>
+<text x="374" y="177" font-size="8">diarrhoea WASH +</text>
+<text x="374" y="190" font-size="8" fill="#065f46">growth watch (illness</text>
+<text x="374" y="199" font-size="8" fill="#065f46">flattens curves!)</text>
+</g>
+<rect x="0" y="216" width="460" height="274" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="238" font-weight="bold">HOME GARDENS (vitamins at the doorstep): kontomire + moringa + orange sweet potato</text>
+<text x="20" y="252">+ pawpaw + pepper + beans — demo plots at CHPS/schools/churches; seeds shared; harvest</text>
+<text x="20" y="266">taught (pick + cook same day!). Poultry/rabbits/fishponds where apt (protein + income).</text>
+<text x="20" y="286">COOKING DEMOS (monthly!): enriched koko (M03!) + leaching (M04!) + ORS (M03/M06!) + rainbow</text>
+<text x="20" y="300">stews + complementary bowls — mothers COOK (not watch!), taste, take recipe cards, teach-back.</text>
+<text x="20" y="314">Grandmothers + fathers invited — family decisions need family demos.</text>
+<text x="20" y="334">SCHOOLS: feeding enrol + VERIFY eating (not selling!) + deworm + vision + gardens + WASH +</text>
+<text x="20" y="348">nutrition lessons (rainbow plates drawn!). MARKETS/MOSQUES/CHURCHES: salt checks, MUAC</text>
+<text x="20" y="362">screening days, drama/songs, weighing + counsel pop-ups.</text>
+<text x="20" y="382">RECORDS → ACTION: registers complete + DHIMS entered + defaulters TRACED (home visit, not</text>
+<text x="20" y="396">scolding!) + data reviewed monthly (PRO-II M4: coverage? SAM finds? faltering? — act on gaps).</text>
+<text x="20" y="410">Data cooked = children missed (PRO-II M5 warning stands!).</text>
+<text x="20" y="430">PARTNERS: chiefs/assembly (mobilise!) + agric extension (seeds/storage!) + environmental</text>
+<text x="20" y="444">health (vendors/water!) + welfare (LEAP/vulnerable!) + NGOs (supplies/training!) + TBAs (ANC</text>
+<text x="20" y="458">allies!) — nurses CONVENE (PRO-II M5 ladder: ward data → district forums!).</text>
+<text x="20" y="476">Exam line: \"weigh monthly, demo always, trace kindly — gardens grow vitamins home.\"</text>
+</g>
+</svg>

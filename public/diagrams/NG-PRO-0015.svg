@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Leadership styles: match the moment</text>
+<g font-size="9" fill="#111827">
+<rect x="20" y="36" width="200" height="86" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="30" y="56" font-weight="bold" font-size="10">AUTOCRATIC (directive)</text>
+<text x="30" y="70" font-size="8">"Do this NOW" — decides alone,</text>
+<text x="30" y="81" font-size="8">orders clear, no debate.</text>
+<text x="30" y="96" font-size="8" fill="#065f46">USE: arrests, fire, violence,</text>
+<text x="30" y="107" font-size="8" fill="#065f46">mass casualty — seconds count.</text>
+<rect x="240" y="36" width="200" height="86" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="250" y="56" font-weight="bold" font-size="10">DEMOCRATIC (participative)</text>
+<text x="250" y="70" font-size="8">"What do you think?" — consults,</text>
+<text x="250" y="81" font-size="8">decides with team buy-in.</text>
+<text x="250" y="96" font-size="8" fill="#065f46">USE: rosters, protocols, ward</text>
+<text x="250" y="107" font-size="8" fill="#065f46">changes — ownership matters.</text>
+<rect x="20" y="130" width="200" height="86" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="30" y="150" font-weight="bold" font-size="10">LAISSEZ-FAIRE (delegative)</text>
+<text x="30" y="164" font-size="8">"You handle it" — hands off,</text>
+<text x="30" y="175" font-size="8">trusts experts fully.</text>
+<text x="30" y="190" font-size="8" fill="#065f46">USE: senior teams, experts —</text>
+<text x="30" y="201" font-size="8" fill="#065f46">NEVER juniors in crisis.</text>
+<rect x="240" y="130" width="200" height="86" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="250" y="150" font-weight="bold" font-size="10">TRANSFORMATIONAL</text>
+<text x="250" y="164" font-size="8">"See what we can become" —</text>
+<text x="250" y="175" font-size="8">vision, coaches, inspires.</text>
+<text x="250" y="190" font-size="8" fill="#065f46">USE: quality drives, culture</text>
+<text x="250" y="201" font-size="8" fill="#065f46">change, demoralised wards.</text>
+</g>
+<rect x="0" y="226" width="460" height="264" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="248" font-weight="bold">SITUATIONAL RULE: competence × urgency picks the style</text>
+<text x="20" y="262">Novice + routine → DIRECT (teach, check); novice + emergency → AUTOCRATIC;</text>
+<text x="20" y="276">competent + change → DEMOCRATIC; expert + stable → LAISSEZ-FAIRE; broken</text>
+<text x="20" y="290">culture → TRANSFORMATIONAL. Servant leaders add: \"what do you need from me?\"</text>
+<text x="20" y="304">— removing obstacles so the team shines; the ward's success is their appraisal.</text>
+<text x="20" y="324" font-weight="bold">EMOTIONAL INTELLIGENCE (5 domains): self-awareness (know your triggers —</text>
+<text x="20" y="338">hunger, fatigue, disrespect), self-regulation (pause before reacting), motivation</text>
+<text x="20" y="352">(purpose beyond pay), empathy (feel the junior's first-night terror), social skill</text>
+<text x="20" y="366">(resolve, persuade, reconcile). High-EI in-charges get incident reports; low-EI</text>
+<text x="20" y="380">ones get cover-ups. Management = things (rosters, stock, budgets); leadership =</text>
+<text x="20" y="394">people (vision, trust, growth) — ward in-charges must do BOTH, switching by the</text>
+<text x="20" y="408">minute. Leading change: unfreeze (why now? data + story), move (pilot small,</text>
+<text x="20" y="422">support loudly), refreeze (protocol + audit + celebrate) — Lewin's 3 steps beat</text>
+<text x="20" y="436">"because I said so" every time. New graduates lead from day one: handovers,</text>
+<text x="20" y="450">students, relatives, emergencies — the uniform leads before the rank does.</text>
+<text x="20" y="470">Exam line: \"the best style is the one the SITUATION needs, not the leader prefers.\"</text>
+</g>
+</svg>

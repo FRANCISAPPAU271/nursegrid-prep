@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Continence + pain + senses</text>
+<g font-size="8" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="96" height="88" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="68" y="56" font-weight="bold" font-size="9">STRESS</text>
+<text x="68" y="70" font-size="8">leaks on cough/</text>
+<text x="68" y="81" font-size="8">laugh/lift</text>
+<text x="68" y="94" font-size="8" fill="#065f46">pelvic floor +</text>
+<text x="68" y="105" font-size="8" fill="#065f46">weight + refer</text>
+<rect x="124" y="36" width="96" height="88" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="172" y="56" font-weight="bold" font-size="9">URGE</text>
+<text x="172" y="70" font-size="8">"can't hold",</text>
+<text x="172" y="81" font-size="8">frequency,</text>
+<text x="172" y="94" font-size="8" fill="#065f46">bladder training</text>
+<text x="172" y="105" font-size="8" fill="#065f46">+ timed voids</text>
+<rect x="228" y="36" width="96" height="88" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="276" y="56" font-weight="bold" font-size="9">OVERFLOW</text>
+<text x="276" y="70" font-size="8">dribble, weak</text>
+<text x="276" y="81" font-size="8">stream, retention</text>
+<text x="276" y="94" font-size="8" fill="#065f46">scan bladder,</text>
+<text x="276" y="105" font-size="8" fill="#065f46">treat cause</text>
+<rect x="332" y="36" width="108" height="88" rx="6" fill="#ffedd5" stroke="#c2410c" stroke-width="1.5"/>
+<text x="386" y="56" font-weight="bold" font-size="9">FUNCTIONAL</text>
+<text x="386" y="70" font-size="8">can't REACH:</text>
+<text x="386" y="81" font-size="8">mobility, toilet,</text>
+<text x="386" y="94" font-size="8" fill="#065f46">commode, rails,</text>
+<text x="386" y="105" font-size="8" fill="#065f46">light, clothes</text>
+</g>
+<text x="20" y="146" font-size="12" font-weight="bold" fill="#111827">PAIN: believe + scale + ladder</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="164">"Pain is normal at your age" is NEGLIGENCE with grey hair. Scale: numbers/faces;</text>
+<text x="30" y="180">PAINAD for dementia (breathing, vocalisation, face, body, consolability). Ladder:</text>
+<text x="30" y="196">paracetamol scheduled → +NSAID (kidney/GI caution!) → +opioid (constipation plan!) →</text>
+<text x="30" y="212">adjuvants (neuropathic) + NON-DRUGS (heat, positioning, physio, massage, distraction,</text>
+<text x="30" y="228">prayer). Review: pain score + bowels + sedation + function — \"can farm again?\" wins.</text>
+</g>
+<rect x="0" y="240" width="460" height="250" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="262" font-weight="bold">CONTINENCE CARE: diary 3 days (fluids, voids, leaks, triggers) → treat cause (UTI,</text>
+<text x="20" y="276">prostate, atrophic vaginitis, meds, constipation pressing bladder!) → train (timed voids,</text>
+<text x="20" y="290">pelvic floor, urge-suppression: freeze-squeeze-breathe) → aids (pads sized + skin barrier,</text>
+<text x="20" y="304">commode, urinal, raised seat) → catheters LAST (retention/ulcers/terminal — aseptic, review</text>
+<text x="20" y="318">DAILY, remove ASAP — CAUTI kills elders). Constipation: fluids + fibre + move + toilet</text>
+<text x="20" y="332">routine + review culprits (opioids, iron, anticholinergics) — impaction mimics retention +</text>
+<text x="20" y="346">confusion (PINCH ME's C!). Dignity: private, prompt, odour-free, never shaming — pads</text>
+<text x="20" y="360">changed fast, skin guarded (moisture lesions ulcerate).</text>
+<text x="20" y="380" font-weight="bold">SENSES: cataract (cloudy lens — REFER: surgery transforms) + glaucoma (silent thief —</text>
+<text x="20" y="394">screen pressures, drops adherence!) + glasses updated + light + contrast (rails marked,</text>
+<text x="20" y="408">mats removed); hearing (wax OUT first! then aids + batteries + face-to-face speech); taste/</text>
+<text x="20" y="422">smell (season food, check gas safety); feet (shoes fit, nails cut, diabetics guarded).</text>
+<text x="20" y="442">Mouth: dentures fitted + cleaned, thrush treated, dry-mouth sips — chewing = nutrition</text>
+<text x="20" y="456">(M06). Sensory loss isolates → confusion + falls + depression: aids ON is treatment.</text>
+<text x="20" y="474">Exam line: \"type the leak, scale the pain, clear the lens and wax — dignity in each.\"</text>
+</g>
+</svg>

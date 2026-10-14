@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 480" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="480" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">28-day cycle + fertile window + bleeding flags</text>
+<!-- day strip -->
+<rect x="20" y="44" width="420" height="40" fill="#f8fafc" stroke="#334155" stroke-width="1"/>
+<rect x="20" y="44" width="75" height="40" fill="#fecaca"/>
+<rect x="95" y="44" width="120" height="40" fill="#fde68a"/>
+<rect x="215" y="44" width="30" height="40" fill="#b91c1c"/>
+<rect x="245" y="44" width="195" height="40" fill="#c7d2fe"/>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<text x="57" y="62">days 1–5</text>
+<text x="57" y="74" font-weight="bold">MENSTRUATION</text>
+<text x="155" y="62">days 1–13</text>
+<text x="155" y="74" font-weight="bold">FOLLICULAR (oestrogen↑)</text>
+<text x="230" y="62">14</text>
+<text x="230" y="74" font-weight="bold" fill="#ffffff">OVU</text>
+<text x="342" y="62">days 15–28</text>
+<text x="342" y="74" font-weight="bold">LUTEAL (progesterone)</text>
+</g>
+<!-- fertile window -->
+<rect x="170" y="96" width="105" height="26" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="222" y="113" font-size="10" font-weight="bold" fill="#065f46" text-anchor="middle">FERTILE WINDOW ~days 10–17</text>
+<text x="230" y="138" font-size="9" fill="#374151" text-anchor="middle">sperm live 5 days + ovum 24 h — ovulation day varies; window beats calendar</text>
+<!-- hormone curves -->
+<text x="20" y="162" font-size="12" font-weight="bold" fill="#111827">Hormones across the cycle</text>
+<line x1="40" y1="176" x2="40" y2="250" stroke="#111827" stroke-width="1"/>
+<line x1="40" y1="250" x2="440" y2="250" stroke="#111827" stroke-width="1"/>
+<path d="M40,235 C120,230 170,200 215,180 C260,200 320,230 440,235" fill="none" stroke="#d97706" stroke-width="2.5"/>
+<path d="M215,248 L215,190" stroke="#b91c1c" stroke-width="2.5"/>
+<circle cx="215" cy="185" r="5" fill="#b91c1c"/>
+<text x="228" y="188" font-size="9" fill="#b91c1c" font-weight="bold">LH surge → ovulation</text>
+<path d="M250,248 C300,245 330,210 360,205 C390,205 410,235 440,240" fill="none" stroke="#7c3aed" stroke-width="2.5"/>
+<g font-size="9" fill="#111827">
+<text x="90" y="222">oestrogen (FSH-driven)</text>
+<text x="330" y="228">progesterone</text>
+<text x="90" y="244" font-size="8" fill="#6b7280">builds lining + mucus thins</text>
+<text x="330" y="240" font-size="8" fill="#6b7280">holds lining; falls → bleed</text>
+</g>
+<rect x="0" y="260" width="460" height="220" fill="#f1f5f9"/>
+<text x="20" y="282" font-size="10" fill="#111827" font-weight="bold">Normal: 21–35 days apart, 2–7 days, &lt;80 mL (≤16 soaked products/cycle).</text>
+<text x="20" y="298" font-size="10" fill="#111827">HMB (flooding, clots, anaemia): PALM-COEIN workup + iron + tranexamic/NSAID/</text>
+<text x="20" y="312" font-size="10" fill="#111827">hormonal/IUS ladder. IMB (between periods): cervix + pregnancy + IUCD + thyroid.</text>
+<text x="20" y="326" font-size="10" fill="#111827">PCB (after sex): SPECULUM + screen + refer — never reassure blind. PMB (after</text>
+<text x="20" y="340" font-size="10" fill="#111827">menopause): ENDOMETRIAL CANCER until proven otherwise — urgent TVUS +</text>
+<text x="20" y="354" font-size="10" fill="#111827">biopsy. Amenorrhoea: PREGNANCY TEST FIRST — then outflow (Asherman's), ovary</text>
+<text x="20" y="368" font-size="10" fill="#111827">(PCOS, POI), pituitary (prolactin — check drugs), hypothalamic (weight/exercise/</text>
+<text x="20" y="382" font-size="10" fill="#111827">stress), thyroid. Dysmenorrhoea: primary (prostaglandins — NSAIDs + heat +</text>
+<text x="20" y="396" font-size="10" fill="#111827">hormonal) vs secondary (endometriosis/adenomyosis/fibroids — scan + refer).</text>
+<text x="20" y="410" font-size="10" fill="#111827">Mittelschmerz + egg-white mucus + LH kits mark ovulation for conception — or</text>
+<text x="20" y="424" font-size="10" fill="#111827">for teaching why rhythm alone fails. Perimenopause (45–55): shorter→longer</text>
+<text x="20" y="438" font-size="10" fill="#111827">gaps + flushes + sleep/mood + bone/heart — HRT counselled, not feared.</text>
+</svg>

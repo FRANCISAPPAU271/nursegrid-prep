@@ -1,4 +1,15 @@
 import type { Course, CourseModule, Lesson } from "./types";
+import { anatomyPhysiologyI } from "./anatomy-physiology-i";
+import { anatomyPhysiologyII } from "./anatomy-physiology-ii";
+import { anatomyPhysiologyIII } from "./anatomy-physiology-iii";
+import { professionalismI } from "./professionalism-i";
+import { professionalismII } from "./professionalism-ii";
+import { gerontologyNursing } from "./gerontology-nursing";
+import { nutritionAndDietetics } from "./nutrition-and-dietetics";
+import { nursingInformatics } from "./nursing-informatics";
+import { therapeuticCommunication } from "./therapeutic-communication";
+import { behaviouralSciences } from "./behavioural-sciences";
+import { tcam } from "./tcam";
 import { cardiovascularNursing } from "./cardiovascular";
 import { respiratoryNursing } from "./respiratory";
 import { renalFluidElectrolyteNursing } from "./renal";
@@ -28,6 +39,17 @@ export type { Course, CourseModule, Lesson, LessonBlock, LessonQuiz } from "./ty
 
 /** Every published course, in catalogue order. */
 export const COURSES: Course[] = [
+  anatomyPhysiologyI,
+  anatomyPhysiologyII,
+  anatomyPhysiologyIII,
+  professionalismI,
+  professionalismII,
+  gerontologyNursing,
+  nutritionAndDietetics,
+  nursingInformatics,
+  therapeuticCommunication,
+  behaviouralSciences,
+  tcam,
   cardiovascularNursing,
   respiratoryNursing,
   renalFluidElectrolyteNursing,

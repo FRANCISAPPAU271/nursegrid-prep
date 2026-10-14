@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 480" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="480" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Germ layers + organogenesis weeks 3–8</text>
+<g font-size="10" fill="#111827" text-anchor="middle">
+<rect x="20" y="40" width="130" height="80" rx="8" fill="#dbeafe" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="85" y="60" font-weight="bold">ECTODERM</text>
+<text x="85" y="74" font-size="9">skin + nails/hair</text>
+<text x="85" y="86" font-size="9">brain + cord + nerves</text>
+<text x="85" y="98" font-size="9">lens, retina, enamel</text>
+<text x="85" y="110" font-size="8" fill="#6b7280">fails: NTDs, anencephaly</text>
+<rect x="158" y="40" width="130" height="80" rx="8" fill="#fecaca" stroke="#7f1d1d" stroke-width="1.5"/>
+<text x="223" y="60" font-weight="bold">MESODERM</text>
+<text x="223" y="74" font-size="9">muscle + bone</text>
+<text x="223" y="86" font-size="9">heart + blood + vessels</text>
+<text x="223" y="98" font-size="9">kidneys + gonads</text>
+<text x="223" y="110" font-size="8" fill="#6b7280">fails: cardiac, renal</text>
+<rect x="296" y="40" width="144" height="80" rx="8" fill="#fef9c3" stroke="#713f12" stroke-width="1.5"/>
+<text x="368" y="60" font-weight="bold">ENDODERM</text>
+<text x="368" y="74" font-size="9">gut lining + liver,</text>
+<text x="368" y="86" font-size="9">pancreas, lungs,</text>
+<text x="368" y="98" font-size="9">bladder, thyroid</text>
+<text x="368" y="110" font-size="8" fill="#6b7280">fails: atresias, fistulae</text>
+</g>
+<text x="20" y="146" font-size="12" font-weight="bold" fill="#111827">Critical weeks (from LMP): all-or-none → vulnerable → growing</text>
+<g font-size="9" fill="#111827">
+<text x="20" y="166">wks 1–2: all-or-none (lost or intact)</text>
+<rect x="20" y="172" width="420" height="14" fill="#ecfdf5" stroke="#065f46" stroke-width="1"/>
+<text x="20" y="200">wks 3–8: ORGANOGENESIS — most vulnerable (heart, CNS, limbs, face, palate)</text>
+<rect x="20" y="206" width="420" height="14" fill="#fecaca" stroke="#7f1d1d" stroke-width="1.5"/>
+<g font-size="8" fill="#374151">
+<text x="30" y="233">neurulation 3–4 (folate!)</text>
+<text x="170" y="233">heart beats wk 4</text>
+<text x="280" y="233">limbs 4–8 • face/palate 4–9</text>
+</g>
+<text x="20" y="250">wks 9–40: growth + function (brain, lungs, fat — alcohol/smoke stunt throughout)</text>
+<rect x="20" y="256" width="420" height="14" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+</g>
+<rect x="0" y="282" width="460" height="198" fill="#f1f5f9"/>
+<text x="20" y="304" font-size="10" fill="#111827">Most damage happens before most women know: counsel PREconception (folate</text>
+<text x="20" y="318" font-size="10" fill="#111827">5 mg × 12 w, stop alcohol/smoking, review EVERY drug, control diabetes/thyroid/</text>
+<text x="20" y="332" font-size="10" fill="#111827">PKU, rubella immunity, weight). Teratogen hits: alcohol (FAS: face + growth + brain),</text>
+<text x="20" y="346" font-size="10" fill="#111827">valproate (NTDs), warfarin (bone + brain), retinoids (CNS + cardiac + face), ACE-i</text>
+<text x="20" y="360" font-size="10" fill="#111827">(renal), tetracycline (teeth), NSAIDs 3rd trimester (ductus). Screen: dating 11–14 w</text>
+<text x="20" y="374" font-size="10" fill="#111827">(+ nuchal/combined), anomaly 18–22 w, growth as indicated. Newborn checks: cry/</text>
+<text x="20" y="388" font-size="10" fill="#111827">tone/colour, hips (Barlow/Ortolani), heart (murmur + femorals), palate (feel it),</text>
+<text x="20" y="402" font-size="10" fill="#111827">anus (patent?), testes down, red reflex, hearing — plus cord vessels (2 arteries?)</text>
+<text x="20" y="416" font-size="10" fill="#111827">and dysmorphic review where flagged. Bilious vomiting, no stool 48 h, jaundice</text>
+<text x="20" y="430" font-size="10" fill="#111827">&lt;24 h, apnoeas, poor feeds + sweating: all escalate same-shift. The anomaly scan</text>
+<text x="20" y="444" font-size="10" fill="#111827">finds ~half of majors — the newborn exam catches the rest. Do both well.</text>
+</svg>

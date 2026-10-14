@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Three lenses: psych, society, culture</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="130" height="66" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="85" y="56" font-weight="bold" font-size="10">PSYCHOLOGY</text>
+<text x="85" y="69" font-size="8">mind: think, feel,</text>
+<text x="85" y="80" font-size="8">learn, cope, grow</text>
+<text x="85" y="91" font-size="8" fill="#6b7280">Freud · Pavlov · Piaget</text>
+<rect x="165" y="36" width="130" height="66" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="230" y="56" font-weight="bold" font-size="10">SOCIOLOGY</text>
+<text x="230" y="69" font-size="8">groups: family, class,</text>
+<text x="230" y="80" font-size="8">roles, inequality</text>
+<text x="230" y="91" font-size="8" fill="#6b7280">Parsons · norms</text>
+<rect x="310" y="36" width="130" height="66" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="375" y="56" font-weight="bold" font-size="10">ANTHROPOLOGY</text>
+<text x="375" y="69" font-size="8">culture: beliefs,</text>
+<text x="375" y="80" font-size="8">rituals, healers</text>
+<text x="375" y="91" font-size="8" fill="#6b7280">Kleinman · meanings</text>
+</g>
+<rect x="0" y="112" width="460" height="378" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="134" font-weight="bold">3 LENSES, 1 PATIENT: PSYCHOLOGY (her mind: fear? beliefs? learning?) · SOCIOLOGY</text>
+<text x="20" y="148">(her world: family? money? role? inequality?) · ANTHROPOLOGY (her meaning: what IS this</text>
+<text x="20" y="162">illness to her? spirits? punishment? test?). Rotate all three — single-lens care blinds.</text>
+<text x="20" y="182">PSYCHOLOGY SCHOOLS (exam names!): psychodynamic (Freud — unconscious, childhood, defences</text>
+<text x="20" y="196">— M03!) · behavioural (Pavlov/Skinner — learned habits, rewards — M05!) · cognitive (Beck</text>
+<text x="20" y="210">— thoughts shape feelings — M05/M06!) · humanistic (Maslow/Rogers — needs, growth, empathy</text>
+<text x="20" y="224">— COM!). Developmental: Piaget + Erikson + Bowlby (M02!).</text>
+<text x="20" y="244">SOCIOLOGY GIFTS: sick role (Parsons — rights + duties of "patient"!) · socialisation (how</text>
+<text x="20" y="258">we learn "nurse/patient/mother"!) · norms (ward rules, queues, visiting!) · inequality</text>
+<text x="20" y="272">(poverty sickens — M04 SDH!) · stigma (Goffman — spoiled identity — M06!).</text>
+<text x="20" y="292">ANTHROPOLOGY GIFTS: explanatory models (Kleinman — "what do YOU call this? what caused</text>
+<text x="20" y="306">it? what will heal it?" — ASK IT!) · medical pluralism (hospital + herbalist + pastor —</text>
+<text x="20" y="320">patients use ALL — negotiate, never mock! — NUT/COM!) · rituals (birth, death, healing —</text>
+<text x="20" y="334">make ROOM!).</text>
+<text x="20" y="354">SICK ROLE (Parsons — exam!): rights (exempt from duties + not blamed + cared for) + duties</text>
+<text x="20" y="368">(want recovery + seek proper help + cooperate!). Misuse? "Malingering" rare — assume need;</text>
+<text x="20" y="382">chronic illness strains the role (never "recovers" — support, don't judge!).</text>
+<text x="20" y="402">KLEINMAN'S 3 QUESTIONS (use weekly!): "what do you call this problem…? what do you think</text>
+<text x="20" y="416">caused it…? what do you think will heal it…?" — 60 seconds, whole belief-worlds revealed.</text>
+<text x="20" y="436">LINKS: COM M5 culture · NUT myths · GER roles · PRO-I respect.</text>
+<text x="20" y="456">MANTRA: "mind it, place it, mean it — psych, society, culture."</text>
+</g>
+</svg>

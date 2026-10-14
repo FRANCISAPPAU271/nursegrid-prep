@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Communication canvas: 6 moves, every case</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="205" height="64" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="122" y="56" font-weight="bold" font-size="10">1. PHASE?</text>
+<text x="122" y="70" font-size="8">orient? work? end?</text>
+<text x="122" y="81" font-size="8">role matched?</text>
+<text x="122" y="92" font-size="8" fill="#6b7280">start right!</text>
+<rect x="235" y="36" width="205" height="64" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="337" y="56" font-weight="bold" font-size="10">2. ATTEND!</text>
+<text x="337" y="70" font-size="8">SOLER + chair +</text>
+<text x="337" y="81" font-size="8">level-4 listen!</text>
+<text x="337" y="92" font-size="8" fill="#6b7280">body first!</text>
+<rect x="20" y="108" width="205" height="64" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="122" y="128" font-weight="bold" font-size="10">3. EXPLORE</text>
+<text x="122" y="142" font-size="8">funnel + feelings-</text>
+<text x="122" y="153" font-size="8">first + ladder!</text>
+<text x="122" y="164" font-size="8" fill="#6b7280">mirror + check!</text>
+<rect x="235" y="108" width="205" height="64" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="337" y="128" font-weight="bold" font-size="10">4. STORM?</text>
+<text x="337" y="142" font-size="8">SPIKES / LEAP /</text>
+<text x="337" y="153" font-size="8">HEAR / CUS it!</text>
+<text x="337" y="164" font-size="8" fill="#6b7280">protocol, not panic!</text>
+<rect x="20" y="180" width="205" height="64" rx="6" fill="#f3e8ff" stroke="#7e22ce" stroke-width="1.5"/>
+<text x="122" y="200" font-weight="bold" font-size="10">5. ADAPT</text>
+<text x="122" y="214" font-size="8">child? elder? deaf?</text>
+<text x="122" y="225" font-size="8">language? culture?</text>
+<text x="122" y="236" font-size="8" fill="#6b7280">their way!</text>
+<rect x="235" y="180" width="205" height="64" rx="6" fill="#111827"/>
+<text x="337" y="200" font-weight="bold" font-size="10" fill="#ffffff">6. CLOSE IT</text>
+<text x="337" y="214" font-size="8" fill="#ffffff">summarise + plan +</text>
+<text x="337" y="225" font-size="8" fill="#ffffff">teach-back + record!</text>
+<text x="337" y="236" font-size="8" fill="#ffffff">end kindly!</text>
+</g>
+<rect x="0" y="256" width="460" height="234" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="278" font-weight="bold">CANVAS DISCIPLINE: six questions on every communication case — phase? attend?</text>
+<text x="20" y="292">explore? storm? adapt? close? Answer all six = distinction; closed questions first or no</text>
+<text x="20" y="306">teach-back = the classic fail. Tape it to your exam brain.</text>
+<text x="20" y="326">SCENARIO FORMULA: phase + role → SOLER attend → funnel + ladder → storm protocol</text>
+<text x="20" y="340">(SPIKES/LEAP/HEAR/CUS!) → adapt (age/senses/language!) → summarise + teach-back +</text>
+<text x="20" y="354">document. Six sentences, full marks — examiners scan for empathy + structure + closing.</text>
+<text x="20" y="374">PRACTICE MENU (90 days): chair challenge · funnel histories · mirror week · SPIKES role-</text>
+<text x="20" y="388">play · SBI daily · complaint log · interpreter drill · silence tolerance. Pick THREE,</text>
+<text x="20" y="402">log them, reflect (Gibbs!), present one. Skills grow logged.</text>
+<text x="20" y="422">OSCE PLAY: read stem → phase? → SOLER → open → feelings → ladder → storm? → adapt →</text>
+<text x="20" y="436">close + teach-back. Talk ALOUD your thinking — examiners mark heard reasoning.</text>
+<text x="20" y="456">LINKS: PRO-I consent/boundaries · GER dignity · NUT counsel · INF SBAR/record.</text>
+<text x="20" y="470">MANTRA: "phase it, attend it, explore it, storm it, adapt it, close it."</text>
+</g>
+</svg>

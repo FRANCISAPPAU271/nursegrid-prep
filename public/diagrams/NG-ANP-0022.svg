@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 480" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="480" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Nephron: what moves where (+ drug sites)</text>
+<!-- glomerulus -->
+<circle cx="110" cy="80" r="30" fill="#fecaca" stroke="#7f1d1d" stroke-width="2"/>
+<path d="M60,80 C60,40 160,40 160,80" fill="none" stroke="#1d4ed8" stroke-width="4"/>
+<text x="110" y="84" font-size="9" font-weight="bold" fill="#7f1d1d" text-anchor="middle">glomerulus</text>
+<text x="110" y="96" font-size="8" fill="#7f1d1d" text-anchor="middle">FILTER 180 L/day</text>
+<text x="200" y="60" font-size="9" fill="#111827">water + small solutes OUT</text>
+<text x="200" y="72" font-size="9" fill="#111827">cells + protein STAY</text>
+<text x="200" y="88" font-size="9" fill="#6b7280">GFR ~125 mL/min;</text>
+<text x="200" y="100" font-size="9" fill="#6b7280">creatinine tracks it</text>
+<!-- PCT -->
+<path d="M130,108 C170,120 90,135 130,150 C170,165 100,175 140,190" fill="none" stroke="#d97706" stroke-width="5" stroke-linecap="round"/>
+<text x="200" y="150" font-size="9" font-weight="bold" fill="#111827">PCT: reabsorbs ~65%</text>
+<text x="200" y="162" font-size="9" fill="#111827">glucose 100%, Na⁺, H₂O,</text>
+<text x="200" y="174" font-size="9" fill="#111827">HCO₃⁻ (acetazolamide here)</text>
+<!-- loop -->
+<path d="M140,190 L140,260 L200,260 L200,190" fill="none" stroke="#0d9488" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="60" y="222" font-size="9" font-weight="bold" fill="#111827" text-anchor="end">desc: H₂O out</text>
+<text x="60" y="234" font-size="9" fill="#111827" text-anchor="end">(ADH-independent)</text>
+<text x="220" y="222" font-size="9" font-weight="bold" fill="#111827">asc: Na⁺/K⁺/2Cl⁻ out</text>
+<text x="220" y="234" font-size="9" fill="#b91c1c">furosemide BLOCKS here</text>
+<text x="220" y="246" font-size="9" fill="#111827">→ dilutes, builds gradient</text>
+<!-- DCT -->
+<path d="M200,190 C240,180 160,165 200,155 C230,148 210,140 230,132" fill="none" stroke="#7c3aed" stroke-width="5" stroke-linecap="round"/>
+<text x="260" y="140" font-size="9" font-weight="bold" fill="#111827">DCT: NaCl out</text>
+<text x="260" y="152" font-size="9" fill="#b91c1c">thiazides BLOCK here;</text>
+<text x="260" y="164" font-size="9" fill="#111827">Ca²⁺ under PTH</text>
+<!-- CD -->
+<rect x="300" y="120" width="26" height="140" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+<text x="340" y="150" font-size="9" font-weight="bold" fill="#111827">Collecting duct</text>
+<text x="340" y="162" font-size="9" fill="#111827">ADH: water in</text>
+<text x="340" y="174" font-size="9" fill="#111827">aldosterone: Na⁺ in,</text>
+<text x="340" y="186" font-size="9" fill="#111827">K⁺/H⁺ out (spirono-</text>
+<text x="340" y="198" font-size="9" fill="#111827">lactone blocks)</text>
+<text x="313" y="276" font-size="9" fill="#1d4ed8" text-anchor="middle">→ pelvis → ureter</text>
+<text x="313" y="288" font-size="9" fill="#6b7280" text-anchor="middle">~1–2 L urine/day</text>
+<rect x="0" y="300" width="460" height="180" fill="#f1f5f9"/>
+<text x="20" y="322" font-size="10" fill="#111827">Read every diuretic by this map: furosemide (loop — powerful, wastes K⁺/Ca²⁺,</text>
+<text x="20" y="336" font-size="10" fill="#111827">needs hearing + BP watch), thiazides (DCT — gentler, first-line hypertension),</text>
+<text x="20" y="350" font-size="10" fill="#111827">spironolactone (CD — spares K⁺, gynaecomastia). Output targets: ≥0.5 mL/kg/h</text>
+<text x="20" y="364" font-size="10" fill="#111827">adults, ≥1 child — oliguria below that, anuria below 100 mL/day. Rising creatinine</text>
+<text x="20" y="378" font-size="10" fill="#111827">+ falling output + hyperkalaemia = AKI until proven otherwise: fluids if dry,</text>
+<text x="20" y="392" font-size="10" fill="#111827">stop nephrotoxins (NSAIDs, aminoglycosides, contrast, ACE-i in stenosis), relieve</text>
+<text x="20" y="406" font-size="10" fill="#111827">obstruction (catheter, stones, prostate), and NEVER fluid-overload the anuric —</text>
+<text x="20" y="420" font-size="10" fill="#111827">lungs drown while kidneys sleep. Daily weights + strict balance are the monitor.</text>
+<text x="20" y="442" font-size="10" fill="#111827">Anatomy close-up: bank diagram NG-ANP-0088.</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Gibbs cycle + portfolio + exam countdown</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="128" height="64" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="84" y="56" font-weight="bold">1. DESCRIPTION</text>
+<text x="84" y="70" font-size="8">What happened? Who,</text>
+<text x="84" y="81" font-size="8">when, where — facts.</text>
+<text x="84" y="92" font-size="8" fill="#6b7280">(no judgment yet)</text>
+<rect x="166" y="36" width="128" height="64" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="230" y="56" font-weight="bold">2. FEELINGS</text>
+<text x="230" y="70" font-size="8">What felt? Before,</text>
+<text x="230" y="81" font-size="8">during, after — honest.</text>
+<rect x="312" y="36" width="128" height="64" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="376" y="56" font-weight="bold">3. EVALUATION</text>
+<text x="376" y="70" font-size="8">What went well /</text>
+<text x="376" y="81" font-size="8">badly? Objectively.</text>
+<rect x="20" y="108" width="128" height="64" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="84" y="128" font-weight="bold">4. ANALYSIS</text>
+<text x="84" y="142" font-size="8">Why? Theory, Code,</text>
+<text x="84" y="153" font-size="8">ethics, systems.</text>
+<rect x="166" y="108" width="128" height="64" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="230" y="128" font-weight="bold">5. CONCLUSION</text>
+<text x="230" y="142" font-size="8">What learned? What</text>
+<text x="230" y="153" font-size="8">else possible?</text>
+<rect x="312" y="108" width="128" height="64" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="376" y="128" font-weight="bold">6. ACTION PLAN</text>
+<text x="376" y="142" font-size="8">Next time I will…</text>
+<text x="376" y="153" font-size="8">+ date + evidence.</text>
+</g>
+<rect x="0" y="184" width="460" height="306" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="206" font-weight="bold">PORTFOLIO (PIN file — tribunal-ready, job-winning): PIN + renewals, CPD log</text>
+<text x="20" y="220">(certificates, hours, reflections), appraisals, competencies signed, incident learnings,</text>
+<text x="20" y="234">compliments + complaints with responses, teaching given, audits joined. Update quarterly;</text>
+<text x="20" y="248">reflect monthly (Gibbs above); de-identify patients ALWAYS (M4/M6: Act 843).</text>
+<text x="20" y="268" font-weight="bold">EXAM COUNTDOWN (licensing + interviews): 6 weeks out — syllabus map + weak</text>
+<text x="20" y="282">topics (this course's 42 objectives); 4 weeks — past questions timed + rationales; 2 weeks —</text>
+<text x="20" y="296">rapid-review cards (Act numbers, 4-box, ISBAR, 8 rules, 5 delegation rights, 4 negligence</text>
+<text x="20" y="310">elements); 1 week — mock OSCE/exam conditions + sleep; eve — pack PIN slip, ID, pens,</text>
+<text x="20" y="324">rest (cramming curdles judgment). Day: read twice, answer asked, structure (compass!),</text>
+<text x="20" y="338">cite Acts + Code, attempt all, review. Interviews: STAR stories (Situation-Task-Action-</text>
+<text x="20" y="352">Result) from reflections; \"tell me about an ethical dilemma\" = compass aloud.</text>
+<text x="20" y="372" font-weight="bold">20 TRICKY POINTS (course killers — learn cold):</text>
+<text x="20" y="386">1 Implied≠informed consent · 2 Gillick/mature-minor · 3 DNAR needs discussion · 4 NBM</text>
+<text x="20" y="400">before sedation · 5 U/IU/zeros banned · 6 copy-paste forbidden · 7 verbal orders read-back ·</text>
+<text x="20" y="414">8 students countersigned · 9 restraint prescribed+reviewed · 10 whistle rungs in order ·</text>
+<text x="20" y="428">11 857/846/560/732/720/843 numbers · 12 vicarious≠immune · 13 coroner needs no consent ·</text>
+<text x="20" y="442">14 DOVVSU breaks confidentiality · 15 access logs catch snoops · 16 late entries headed ·</text>
+<text x="20" y="456">17 ISBAR worry-first · 18 disclosure: what/harm/next/apology · 19 staffing in writing ·</text>
+<text x="20" y="470">20 not documented = not done — every module, every exam, every tribunal.</text>
+</g>
+</svg>

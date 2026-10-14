@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Family systems + health beliefs</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="130" height="60" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="85" y="56" font-weight="bold" font-size="10">SYSTEM: 1 SICK</text>
+<text x="85" y="69" font-size="8">= ALL affected:</text>
+<text x="85" y="80" font-size="8">roles shift!</text>
+<rect x="165" y="36" width="130" height="60" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="230" y="56" font-weight="bold" font-size="10">GENOGRAM IT</text>
+<text x="230" y="69" font-size="8">map 3 generations:</text>
+<text x="230" y="80" font-size="8">who? ill? close?</text>
+<rect x="310" y="36" width="130" height="60" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="375" y="56" font-weight="bold" font-size="10">MEETINGS</text>
+<text x="375" y="69" font-size="8">deciders together,</text>
+<text x="375" y="80" font-size="8">one story!</text>
+<rect x="20" y="104" width="205" height="56" rx="6" fill="#ffedd5" stroke="#c2410c" stroke-width="1.5"/>
+<text x="122" y="124" font-weight="bold" font-size="10">BELIEFS: KLEINMAN 3</text>
+<text x="122" y="137" font-size="8">call it? caused it?</text>
+<text x="122" y="148" font-size="8">heals it?</text>
+<rect x="235" y="104" width="205" height="56" rx="6" fill="#f3e8ff" stroke="#7e22ce" stroke-width="1.5"/>
+<text x="337" y="124" font-weight="bold" font-size="10">NEGOTIATE</text>
+<text x="337" y="137" font-size="8">hospital + tradition</text>
+<text x="337" y="148" font-size="8">TOGETHER, safe!</text>
+</g>
+<rect x="0" y="172" width="460" height="318" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="194" font-weight="bold">SYSTEMS THEORY: family = system — one member ill → roles shift (daughter cooks,</text>
+<text x="20" y="208">son pays, wife decides!) → boundaries flex → beliefs rule ("asram, not malaria!"). Nurse</text>
+<text x="20" y="222">the SYSTEM: who does what NOW? who decides? who's breaking? (M03 carers!).</text>
+<text x="20" y="242">GENOGRAM (draw it!): 3 generations — squares/circles, ages, illnesses, deaths, closeness</text>
+<text x="20" y="256">(thick/thin/broken lines!), who lives where. 5 minutes, whole system visible — chronic +</text>
+<text x="20" y="270">genetic + mental-health cases REQUIRE it. Exam: "draw + interpret" — practise!</text>
+<text x="20" y="290">GHANA FAMILIES: extended + compound + matrilineal/patrilineal lines (Ashanti uncle decides!</text>
+<text x="20" y="304">— know WHO!) · polygamous + single + child-headed (AIDS/accidents!) · fostering (nephews</text>
+<text x="20" y="318">raised as sons!). Never assume nuclear — ASK ("who is family here…?").</text>
+<text x="20" y="338">FAMILY MEETINGS: gather DECIDERS (not crowds!) · one story, plain words · Kleinman beliefs</text>
+<text x="20" y="352">heard · options + costs HONEST · decision + date · document who agreed. Consent lives here</text>
+<text x="20" y="366">(PRO-I!). "Discuss with husband" = process — schedule the return!</text>
+<text x="20" y="386">BELIEFS → BEHAVIOUR: asram + teething · "cold" foods forbidden · blood fears ("drained!")</text>
+<text x="20" y="400">· CS = failure myths · mental illness = spirits · vaccines = infertility plots. NEGOTIATE</text>
+<text x="20" y="414">each (NUT/COM!): hospital + tradition together where safe; kindly firm where unsafe.</text>
+<text x="20" y="434">FAITH: pray WITH consent ("shall we pray before theatre?") · pastors/imams welcomed · fasting</text>
+<text x="20" y="448">+ drugs scheduled · dying rituals ROOMED (GER!). Faith + medicine, never versus.</text>
+<text x="20" y="468">MANTRA: "map the system, meet the deciders, negotiate the beliefs."</text>
+</g>
+</svg>

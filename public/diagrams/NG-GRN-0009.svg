@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Loneliness + family + caregiver support</text>
+<text x="20" y="50" font-size="12" font-weight="bold" fill="#111827">LONELINESS KILLS (as deadly as smoking 15/day)</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="68">Screen: "Do you feel lonely? Who visits weekly?" → prescribe: worship + market-day routines +</text>
+<text x="30" y="84">grandchild time + elder groups + phone credit + radio + befrienders + day centres where apt.</text>
+</g>
+<text x="20" y="108" font-size="12" font-weight="bold" fill="#111827">FAMILY MEETING (run it, don't dread it)</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="126">Invite (elder + key kin + decision-maker) → agenda (ONE page: facts → options → decision) →</text>
+<text x="30" y="142">elder speaks FIRST → facts plain → options honest (home vs admit vs palliative) → decide +</text>
+<text x="30" y="158">document + date review. Conflicts: private caucuses, "what would Mama want?", mediator if stuck.</text>
+</g>
+<text x="20" y="182" font-size="12" font-weight="bold" fill="#111827">CAREGIVER BURDEN (the second patient)</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="190" width="132" height="72" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="86" y="210" font-weight="bold" font-size="9">SPOT IT</text>
+<text x="86" y="224" font-size="8">exhaustion, tears,</text>
+<text x="86" y="235" font-size="8">anger, illness,</text>
+<text x="86" y="246" font-size="8">"can't cope"</text>
+<text x="86" y="257" font-size="8" fill="#6b7280">Zarit-4 if used</text>
+<rect x="164" y="190" width="132" height="72" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="230" y="210" font-weight="bold" font-size="9">RELIEVE IT</text>
+<text x="230" y="224" font-size="8">respite (hours→</text>
+<text x="230" y="235" font-size="8">weeks), share rota,</text>
+<text x="230" y="246" font-size="8">day care, home help</text>
+<text x="230" y="257" font-size="8" fill="#6b7280">rest = safety</text>
+<rect x="308" y="190" width="132" height="72" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="374" y="210" font-weight="bold" font-size="9">EQUIP IT</text>
+<text x="374" y="224" font-size="8">train (lifts, meds,</text>
+<text x="374" y="235" font-size="8">dementia tips), aids,</text>
+<text x="374" y="246" font-size="8">emergency numbers</text>
+<text x="374" y="257" font-size="8" fill="#6b7280">teach-back all</text>
+</g>
+<rect x="0" y="274" width="460" height="216" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="296" font-weight="bold">SUPPORT MAP (Ghana-real): family rota (share nights/bathing/market) + neighbours</text>
+<text x="20" y="310">+ worship groups + CHPS home visits + social welfare + NHIS + LEAP/disability where apt +</text>
+<text x="20" y="324">hired help vetted + private home-care vetted (PRO-II M6: licence check!). Write the map,</text>
+<text x="20" y="338">share numbers, review monthly — unsupported carers break, and broken carers harm.</text>
+<text x="20" y="358" font-weight="bold">COMMUNICATION: elder DIRECT first (consent, goals — PRO-I M2/M4), family WITH</text>
+<text x="20" y="372">consent; bad news SPIKES-style (setting, perception, invite, knowledge, emotion, plan);</text>
+<text x="20" y="386">dementia updates scheduled (not corridor ambushes); money talk early (who pays? NHIS?</text>
+<text x="20" y="400">exemptions? — PRO-II M5) to prevent discharge crises. Document meetings (who/decided/date).</text>
+<text x="20" y="420">GRIEF (before + after death): anticipatory grief normal — name it, normalise, support;</text>
+<text x="20" y="434">widowhood risks (depression, suicide, self-neglect — M03 screens) need follow-up visits,</text>
+<text x="20" y="448">not condolences alone. Rituals honoured (washing, prayers, funerals — Ghana's goodbyes</text>
+<text x="20" y="462">matter); complicated grief (stuck months, can't function) referred.</text>
+<text x="20" y="478">Exam line: \"loneliness screened, families met, carers treated as second patients.\"</text>
+</g>
+</svg>

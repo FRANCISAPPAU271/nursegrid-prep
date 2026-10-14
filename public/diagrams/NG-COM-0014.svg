@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">COM exam map + 25 tricky points</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="96" height="60" rx="6" fill="#fce7f3" stroke="#9d174d" stroke-width="1.5"/>
+<text x="68" y="56" font-weight="bold" font-size="8">M1 BASE</text>
+<text x="68" y="69" font-size="8">Peplau, empathy,</text>
+<text x="68" y="80" font-size="8">trust, flags</text>
+<rect x="124" y="36" width="96" height="60" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="172" y="56" font-weight="bold" font-size="8">M2 EARS</text>
+<text x="172" y="69" font-size="8">SOLER, levels,</text>
+<text x="172" y="80" font-size="8">presence</text>
+<rect x="228" y="36" width="96" height="60" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="276" y="56" font-weight="bold" font-size="8">M3 TALK</text>
+<text x="276" y="69" font-size="8">funnel, ladder,</text>
+<text x="276" y="80" font-size="8">teach-back</text>
+<rect x="332" y="36" width="108" height="60" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="386" y="56" font-weight="bold" font-size="8">M4 STORM</text>
+<text x="386" y="69" font-size="8">SPIKES, LEAP,</text>
+<text x="386" y="80" font-size="8">grief, HEAR</text>
+<rect x="72" y="104" width="140" height="60" rx="6" fill="#ffedd5" stroke="#c2410c" stroke-width="1.5"/>
+<text x="142" y="124" font-weight="bold" font-size="8">M5 EVERYONE</text>
+<text x="142" y="137" font-size="8">child, elder,</text>
+<text x="142" y="148" font-size="8">senses, culture</text>
+<rect x="228" y="104" width="140" height="60" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="298" y="124" font-weight="bold" font-size="8">M6 TEAM</text>
+<text x="298" y="137" font-size="8">SBAR, CUS,</text>
+<text x="298" y="148" font-size="8">DESC, SBI</text>
+</g>
+<rect x="0" y="176" width="460" height="314" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="198" font-weight="bold">25 TRICKY POINTS (learn cold):</text>
+<text x="20" y="212">1 Peplau 3 phases · 2 6 roles · 3 empathy vs sympathy · 4 trust 5 parts · 5 6 flags ·</text>
+<text x="20" y="226">6 SOLER 5 · 7 listening 4 levels · 8 feelings-first · 9 5 killers · 10 presence + touch ·</text>
+<text x="20" y="240">11 4 silences · 12 funnel order + 70/30 · 13 5 banned Qs · 14 ladder 4 · 15 teach-back ·</text>
+<text x="20" y="254">16 SPIKES 6 · 17 LEAP 4 · 18 Worden tasks · 19 HEAR 4 · 20 candour · 21 child play · 22 no</text>
+<text x="20" y="268">elderspeak · 23 interpreter drill · 24 SBAR + read-back · 25 CUS + DESC + SBI.</text>
+<text x="20" y="288">COUNTDOWN: 6 wks — map objectives + weak topics; 4 wks — timed past Qs + canvas answers;</text>
+<text x="20" y="302">2 wks — cards (acronyms, scripts, 25 points); 1 wk — mock + role-play + sleep; eve — pack</text>
+<text x="20" y="316">+ rest; DAY — read twice, canvas-structure, cite modules, attempt ALL.</text>
+<text x="20" y="336">FORMULA: phase → attend → explore → storm → adapt → close. OSCE: think ALOUD. Interviews:</text>
+<text x="20" y="350">STAR from practice log ("our complaints fell..."); "angry relative?" = LEAP aloud; "why</text>
+<text x="20" y="364">communication?" = one story (de-identified) + words-that-heal passion.</text>
+<text x="20" y="384">PORTFOLIO CROWN: practice log + reflections + SBI records + complaint learning + CPD +</text>
+<text x="20" y="398">role-play videos (consented!). Skills logged = skills owned.</text>
+<text x="20" y="418">PLEDGE: "I will sit, listen at level 4, ask open, mirror kindly, storm by protocol, adapt</text>
+<text x="20" y="432">to everyone, close every talk — words that heal, presence that stays."</text>
+<text x="20" y="452">ELIMINATION TRICK: strike reassurance/advice/judgment/defending — pick empathy + explore.</text>
+<text x="20" y="466">MANTRA: "phase it, attend it, explore it, storm it, adapt it, close it."</text>
+</g>
+</svg>

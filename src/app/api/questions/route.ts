@@ -141,8 +141,20 @@ export async function GET(request: Request) {
       .where(whereClause)
       // Questions are bulk-inserted in batches that share one created_at, so
       // the id tiebreaker is what makes page boundaries (and saved resume
-      // positions) deterministic.
-      .orderBy(random ? sql`random()` : asc(questions.createdAt), asc(questions.id))
+      // positions) deterministic. Non-random sets pin the original NCX
+      // decision-tree items first (internal authored_id prefix — never
+      // exposed to clients), then legacy oldest-first order.
+      .orderBy(
+        ...(random
+          ? [sql`random()`]
+          : (await hasAuthoredIdColumn())
+            ? [
+                sql`CASE WHEN "authored_id" LIKE 'NG-ORIGINAL-NCX-%' THEN 0 ELSE 1 END`,
+                asc(questions.createdAt),
+                asc(questions.id),
+              ]
+            : [asc(questions.createdAt), asc(questions.id)]),
+      )
       .limit(limit)
       .offset(effectiveOffset);
 

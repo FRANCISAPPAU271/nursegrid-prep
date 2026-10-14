@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">DIKW: data becomes wisdom at the bedside</text>
+<g font-size="10" fill="#111827" text-anchor="middle">
+<polygon points="230,40 300,120 160,120" fill="#fef9c3" stroke="#713f12" stroke-width="1.5"/>
+<text x="230" y="82" font-weight="bold">WISDOM</text>
+<text x="230" y="95" font-size="8">"hold the dose"</text>
+<text x="230" y="108" font-size="8">nurse decides!</text>
+<polygon points="230,40 300,120 160,120" fill="none"/>
+<rect x="140" y="126" width="180" height="34" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="230" y="140" font-weight="bold" font-size="9">KNOWLEDGE — protocol says</text>
+<text x="230" y="153" font-size="8">"K+ 6.1 + peaked T = emergency"</text>
+<rect x="120" y="166" width="220" height="34" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="230" y="180" font-weight="bold" font-size="9">INFORMATION — lab + ECG linked</text>
+<text x="230" y="193" font-size="8">"this result + this tracing = pattern"</text>
+<rect x="100" y="206" width="260" height="34" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="230" y="220" font-weight="bold" font-size="9">DATA — raw facts typed in</text>
+<text x="230" y="233" font-size="8">"K+ 6.1" · "T-wave peaked" · "BP 90/60"</text>
+</g>
+<rect x="0" y="252" width="460" height="238" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="274" font-weight="bold">READ UP: nurses feed data, systems build information, protocols add knowledge —</text>
+<text x="20" y="288">but only the NURSE turns it into wisdom ("call the doctor NOW, hold the drug"). Garbage</text>
+<text x="20" y="302">typed in = garbage wisdom out: your keystrokes ARE patient safety.</text>
+<text x="20" y="322">INFORMATICS = people + data + technology improving care (IMIA/ANA). Not "IT for nurses" —</text>
+<text x="20" y="336">nursing judgment expressed through digital tools. Every chart entry, alert answer and</text>
+<text x="20" y="350">DHIMS2 figure is informatics in action.</text>
+<text x="20" y="370">ROLES LADDER: bedside nurse (accurate data!) → super-user (ward trainer) → analyst (builds</text>
+<text x="20" y="384">reports) → informaticist (designs systems) → CNIO (leads strategy). Exams ask the LADDER</text>
+<text x="20" y="398">order + the TIGER competencies: basic computer skills, information literacy, information</text>
+<text x="20" y="412">management. Every nurse needs rung 1–2; specialists climb higher.</text>
+<text x="20" y="432">WISDOM TEST: "system says discharge, gut says deteriorating?" — wisdom overrides: reassess,</text>
+<text x="20" y="446">escalate, document WHY. Computers suggest; nurses decide; patients live with it.</text>
+<text x="20" y="466">MANTRA: "right data, right person, right time — decided by the right nurse."</text>
+</g>
+</svg>

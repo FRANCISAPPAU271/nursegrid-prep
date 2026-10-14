@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">SAM: classify + 10 steps save lives</text>
+<g font-size="8" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="132" height="86" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="86" y="55" font-weight="bold" font-size="9">MARASMUS</text>
+<text x="86" y="68" font-size="8">severe WASTING:</text>
+<text x="86" y="79" font-size="8">matchstick limbs, old-</text>
+<text x="86" y="90" font-size="8">man face, hungry,</text>
+<text x="86" y="101" font-size="8">MUAC &lt;11.5 / WFH</text>
+<text x="86" y="114" font-size="8" fill="#b91c1c">&lt;−3, NO oedema</text>
+<rect x="164" y="36" width="132" height="86" rx="6" fill="#ffedd5" stroke="#c2410c" stroke-width="1.5"/>
+<text x="230" y="55" font-weight="bold" font-size="9">KWASHIORKOR</text>
+<text x="230" y="68" font-size="8">OEDEMA + misery:</text>
+<text x="230" y="79" font-size="8">puffy feet/face, flaky-</text>
+<text x="230" y="90" font-size="8">paint skin, red hair,</text>
+<text x="230" y="101" font-size="8">irritable, anorexic —</text>
+<text x="230" y="114" font-size="8" fill="#b91c1c">oedema = SAM always</text>
+<rect x="308" y="36" width="132" height="86" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="374" y="55" font-weight="bold" font-size="9">TRIAGE: WHERE?</text>
+<text x="374" y="68" font-size="8">appetite + alert + no</text>
+<text x="374" y="79" font-size="8">complications = OTP</text>
+<text x="374" y="90" font-size="8">(RUTF home); oedema+++ /</text>
+<text x="374" y="101" font-size="8">no appetite / danger =</text>
+<text x="374" y="114" font-size="8" fill="#b91c1c">INPATIENT stabilise</text>
+</g>
+<text x="20" y="144" font-size="12" font-weight="bold" fill="#111827">10 STEPS (WHO: stabilise days 1–7, rehabilitate after)</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="162">1 Hypoglycaemia (feed/sugar NOW — drowsy? test + treat) · 2 Hypothermia (warm: skin, blankets,</text>
+<text x="30" y="178">hat — cold kills quietly) · 3 Dehydration (ReSoMal SLOWLY — standard IV overloads!) · 4 Electrolytes</text>
+<text x="30" y="194">(K+/Mg — ReSoMal + food, NO iron yet!) · 5 Infection (assume + treat: antibiotics per protocol,</text>
+<text x="30" y="210">malaria, TB/HIV hunt — fever often ABSENT!) · 6 Micros (A, zinc, folate, multivit — iron LATER).</text>
+</g>
+<rect x="0" y="222" width="460" height="268" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="244" font-weight="bold">7 Cautious feeds (F75 small-frequent — stabilise, NOT fatten) · 8 Catch-up (F100/RUTF</text>
+<text x="20" y="258">generous — appetite returns = recovering!) · 9 Love + play (tender care, mother present, toys,</text>
+<text x="20" y="272">stimulation — brains rebuild with bodies) · 10 Prepare discharge (mother trained: feeds,</text>
+<text x="20" y="286">hygiene, vaccines, follow-up dated — OTP/RUTF + reviews till recovered).</text>
+<text x="20" y="306">KILLERS OF SAM CARE: IV fluids fast (heart failure!) · iron early (feeds infection — wait!) ·</text>
+<text x="20" y="320">high-protein feasts day 1 (re-feed — M05/GER!) · missed hypothermia/hypoglycaemia (check</text>
+<text x="20" y="334">ROUTINELY!) · mother excluded (she feeds, warms, watches — partner, never visitor).</text>
+<text x="20" y="354">OTP (outpatient): appetite test passes (eats RUTF eagerly!) + alert + no oedema+++ / danger →</text>
+<text x="20" y="368">RUTF home + antibiotics + weekly review (weight, appetite, illness) → graduate per protocol.</text>
+<text x="20" y="382">MAM: counsel + fortify + follow + SFP where available — catch BEFORE SAM.</text>
+<text x="20" y="402">DISCHARGE: eating family foods + gaining + mother confident + vaccines/deworm done + review</text>
+<text x="20" y="416">dated + CHPS linked. Document feeds + weights + steps daily (PRO-I M5); debrief deaths</text>
+<text x="20" y="430">(audit each — PRO-II M4: what failed? oedema missed? fluids fast? cold unwarmed?).</text>
+<text x="20" y="450">Mothers: praise + teach + feed WITH (demo enriched koko — M03!) — blame starves return;</text>
+<text x="20" y="464">kindness + RUTF + follow-up graduate survivors.</text>
+</g>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Ageing pharmacology + Beers red list</text>
+<g font-size="8" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="96" height="84" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="68" y="56" font-weight="bold" font-size="9">ABSORB</text>
+<text x="68" y="70" font-size="8">slower gut, less</text>
+<text x="68" y="81" font-size="8">acid — slower</text>
+<text x="68" y="92" font-size="8">onset, same</text>
+<text x="68" y="105" font-size="8" fill="#065f46">don't re-dose</text>
+<text x="68" y="114" font-size="8" fill="#065f46">early!</text>
+<rect x="124" y="36" width="96" height="84" rx="6" fill="#ffedd5" stroke="#c2410c" stroke-width="1.5"/>
+<text x="172" y="56" font-weight="bold" font-size="9">DISTRIBUTE</text>
+<text x="172" y="70" font-size="8">less water, more</text>
+<text x="172" y="81" font-size="8">fat, low albumin</text>
+<text x="172" y="92" font-size="8">→ water-drugs</text>
+<text x="172" y="105" font-size="8" fill="#065f46">stronger, fat-drugs</text>
+<text x="172" y="114" font-size="8" fill="#065f46">linger</text>
+<rect x="228" y="36" width="96" height="84" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="276" y="56" font-weight="bold" font-size="9">METABOLISE</text>
+<text x="276" y="70" font-size="8">smaller liver,</text>
+<text x="276" y="81" font-size="8">slower enzymes</text>
+<text x="276" y="92" font-size="8">→ levels rise</text>
+<text x="276" y="105" font-size="8" fill="#065f46">start low,</text>
+<text x="276" y="114" font-size="8" fill="#065f46">go slow</text>
+<rect x="332" y="36" width="108" height="84" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="386" y="56" font-weight="bold" font-size="9">EXCRETE</text>
+<text x="386" y="70" font-size="8">GFR falls ~1%/yr</text>
+<text x="386" y="81" font-size="8">→ renally-cleared</text>
+<text x="386" y="92" font-size="8">drugs accumulate</text>
+<text x="386" y="105" font-size="8" fill="#065f46">DOSE BY eGFR,</text>
+<text x="386" y="114" font-size="8" fill="#065f46">check creatinine</text>
+</g>
+<text x="20" y="142" font-size="12" font-weight="bold" fill="#111827">BEERS RED LIST (avoid / caution in 65+)</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="160">ANTICHOLINERGICS (urinary + confusion + constipation + falls): chlorpheniramine, bladder</text>
+<text x="30" y="176">antispasmodics, tricyclics, first-gen antihistamines in cold cures — burden ADDS UP.</text>
+<text x="30" y="192">SEDATIVES: benzodiazepines + 'sleeping tablets' (falls + delirium + dependence) — sleep</text>
+<text x="30" y="208">hygiene first (M01); antipsychotics for BPSD (stroke/death — specialist only, M03).</text>
+<text x="30" y="224">NSAIDs chronic (bleed + kidney + HF — PPI + shortest + review); sulfonylureas long-acting</text>
+<text x="30" y="240">(hypo — prefer safer agents); nitrofurantoin (poor kidney + lung risk); sliding-scale</text>
+<text x="30" y="256">insulin alone; muscle relaxants; highly anticholinergic antiemetics.</text>
+</g>
+<rect x="0" y="268" width="460" height="222" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="290" font-weight="bold">SENSITIVITY UP: brain (sedation/confusion at baby doses), BP (dizzy drops),</text>
+<text x="20" y="304">bleeding (anticoag + NSAID + falls = triple threat), glucose (hypo unawareness), kidney</text>
+<text x="20" y="318">(NSAID + diuretic + ACEi = triple whammy — watch creatinine + K+).</text>
+<text x="20" y="338">PRESCRIBING CASCADES (drug treats drug's side effect): NSAID → HTN → amlodipine →</text>
+<text x="20" y="352">ankle swelling → furosemide → incontinence → anticholinergic → confusion → antipsychotic…</text>
+<text x="20" y="366">STOP: ask \"could a DRUG cause this new symptom?\" BEFORE adding (M02 CGA meds domain).</text>
+<text x="20" y="386">OTC + HERBAL count: NSAIDs, cold cures (anticholinergic!), laxatives, 'blood tonics' (iron),</text>
+<text x="20" y="400">herbals (bleed + kidney + interactions — ask WITHOUT judgment, document, check).</text>
+<text x="20" y="420">RULE: every elder drug needs indication + benefit&gt;harm + lowest dose + review date —</text>
+<text x="20" y="434">\"we've always taken it\" retires here (M04 deprescribing next lesson).</text>
+<text x="20" y="454">Exam line: \"less water, slower liver, weaker kidney, tender brain — start low, go slow, review all.\"</text>
+</g>
+</svg>

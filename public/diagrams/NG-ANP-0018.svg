@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 480" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="480" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Three vessels + what crosses the capillary</text>
+<!-- artery -->
+<circle cx="85" cy="100" r="48" fill="none" stroke="#7f1d1d" stroke-width="14"/>
+<circle cx="85" cy="100" r="48" fill="none" stroke="#b91c1c" stroke-width="2"/>
+<circle cx="85" cy="100" r="34" fill="none" stroke="#fca5a5" stroke-width="2"/>
+<circle cx="85" cy="100" r="20" fill="#fecaca"/>
+<text x="85" y="164" font-size="11" font-weight="bold" fill="#111827" text-anchor="middle">Artery</text>
+<text x="85" y="178" font-size="9" fill="#6b7280" text-anchor="middle">thick muscle + elastic;</text>
+<text x="85" y="190" font-size="9" fill="#6b7280" text-anchor="middle">small lumen, high pressure</text>
+<!-- vein -->
+<circle cx="230" cy="100" r="48" fill="none" stroke="#1e3a8a" stroke-width="6"/>
+<circle cx="230" cy="100" r="42" fill="#dbeafe"/>
+<path d="M230,62 L242,100 L230,138 M230,62 L218,100 L230,138" fill="none" stroke="#1e40af" stroke-width="2"/>
+<text x="230" y="164" font-size="11" font-weight="bold" fill="#111827" text-anchor="middle">Vein</text>
+<text x="230" y="178" font-size="9" fill="#6b7280" text-anchor="middle">thin wall, big lumen,</text>
+<text x="230" y="190" font-size="9" fill="#6b7280" text-anchor="middle">valves stop backflow</text>
+<!-- capillary -->
+<circle cx="375" cy="100" r="48" fill="#fef9c3" stroke="#713f12" stroke-width="2" stroke-dasharray="6 3"/>
+<circle cx="375" cy="100" r="30" fill="#fde68a"/>
+<circle cx="367" cy="100" r="9" fill="#b91c1c"/><circle cx="384" cy="100" r="9" fill="#b91c1c"/>
+<text x="375" y="164" font-size="11" font-weight="bold" fill="#111827" text-anchor="middle">Capillary</text>
+<text x="375" y="178" font-size="9" fill="#6b7280" text-anchor="middle">one cell thick; red cells</text>
+<text x="375" y="190" font-size="9" fill="#6b7280" text-anchor="middle">pass single file</text>
+<!-- exchange strip -->
+<text x="20" y="224" font-size="12" font-weight="bold" fill="#111827">Capillary exchange (Starling forces)</text>
+<rect x="40" y="240" width="380" height="44" fill="#fef9c3" stroke="#713f12" stroke-width="1.5"/>
+<text x="60" y="258" font-size="10" font-weight="bold" fill="#111827">arterial end</text>
+<text x="60" y="272" font-size="9" fill="#111827">HP 35 → pushes OUT</text>
+<text x="330" y="258" font-size="10" font-weight="bold" fill="#111827">venous end</text>
+<text x="330" y="272" font-size="9" fill="#111827">OP 25 → pulls IN</text>
+<g stroke="#b91c1c" stroke-width="2">
+<line x1="150" y1="244" x2="150" y2="232"/><path d="M150,232 l-4,7 l8,0 Z" fill="#b91c1c"/>
+<line x1="150" y1="280" x2="150" y2="292"/><path d="M150,292 l-4,-7 l8,0 Z" fill="#b91c1c"/>
+</g>
+<g stroke="#1d4ed8" stroke-width="2">
+<line x1="310" y1="232" x2="310" y2="244"/><path d="M310,244 l-4,-7 l8,0 Z" fill="#1d4ed8"/>
+<line x1="310" y1="292" x2="310" y2="280"/><path d="M310,280 l-4,7 l8,0 Z" fill="#1d4ed8"/>
+</g>
+<text x="230" y="262" font-size="9" fill="#6b7280" text-anchor="middle">net: ~3 L/day left over</text>
+<text x="230" y="274" font-size="9" fill="#6b7280" text-anchor="middle">→ drained by lymphatics</text>
+<rect x="0" y="308" width="460" height="172" fill="#f1f5f9"/>
+<text x="20" y="330" font-size="10" fill="#111827">Oedema has four doors — read the swelling by them. 1. Raised hydrostatic pressure:</text>
+<text x="20" y="344" font-size="10" fill="#111827">heart failure, venous stasis, too much IV fluid, standing all day. 2. Low oncotic pull:</text>
+<text x="20" y="358" font-size="10" fill="#111827">low albumin — malnutrition, liver failure, nephrotic loss, burns. 3. Leaky walls:</text>
+<text x="20" y="372" font-size="10" fill="#111827">inflammation, allergy, sepsis. 4. Blocked drains: lymphoedema — firm, non-pitting,</text>
+<text x="20" y="386" font-size="10" fill="#111827">limb-shaped (filariasis, post-mastectomy, tumour). Pitting + worse by evening +</text>
+<text x="20" y="400" font-size="10" fill="#111827">better by morning = venous/HP oedema: elevate above the heart, move the pump,</text>
+<text x="20" y="414" font-size="10" fill="#111827">TEDS/stockings, daily weights, strict fluid balance. Eyelids + face first thing =</text>
+<text x="20" y="428" font-size="10" fill="#111827">renal/nephrotic until proven otherwise. One hot swollen calf is never oedema —</text>
+<text x="20" y="442" font-size="10" fill="#111827">it is DVT until ruled out: no massage, no elevation-and-wait, escalate.</text>
+</svg>

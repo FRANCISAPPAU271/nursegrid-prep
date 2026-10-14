@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Ward management: POSDCORB + conflict</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="96" height="70" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="68" y="58" font-weight="bold" font-size="10">PLAN</text>
+<text x="68" y="72" font-size="8">targets, rosters,</text>
+<text x="68" y="83" font-size="8">leave, budgets,</text>
+<text x="68" y="94" font-size="8">cover plans</text>
+<rect x="124" y="36" width="96" height="70" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="172" y="58" font-weight="bold" font-size="10">ORGANISE</text>
+<text x="172" y="72" font-size="8">teams, zones,</text>
+<text x="172" y="83" font-size="8">roles, duty</text>
+<text x="172" y="94" font-size="8">allocation</text>
+<rect x="228" y="36" width="96" height="70" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="276" y="58" font-weight="bold" font-size="10">STAFF</text>
+<text x="276" y="72" font-size="8">right mix/skill,</text>
+<text x="276" y="83" font-size="8">supervise,</text>
+<text x="276" y="94" font-size="8">mentor</text>
+<rect x="332" y="36" width="108" height="70" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="386" y="58" font-weight="bold" font-size="10">DIRECT</text>
+<text x="386" y="72" font-size="8">brief, ISBAR,</text>
+<text x="386" y="83" font-size="8">decide,</text>
+<text x="386" y="94" font-size="8">motivate</text>
+<rect x="72" y="114" width="96" height="70" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="120" y="136" font-weight="bold" font-size="10">COORD.</text>
+<text x="120" y="150" font-size="8">rounds, referrals,</text>
+<text x="120" y="161" font-size="8">pharmacy,</text>
+<text x="120" y="172" font-size="8">theatre, lab</text>
+<rect x="182" y="114" width="96" height="70" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="230" y="136" font-weight="bold" font-size="10">REPORT</text>
+<text x="230" y="150" font-size="8">handover, stats,</text>
+<text x="230" y="161" font-size="8">incidents,</text>
+<text x="230" y="172" font-size="8">audits</text>
+<rect x="292" y="114" width="96" height="70" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="340" y="136" font-weight="bold" font-size="10">BUDGET</text>
+<text x="340" y="150" font-size="8">stock, imprest,</text>
+<text x="340" y="161" font-size="8">waste, cost</text>
+<text x="340" y="172" font-size="8">control</text>
+</g>
+<rect x="0" y="196" width="460" height="294" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="218" font-weight="bold">ROSTER RULES: fair, safe, published early — skill mix every shift (never all-junior</text>
+<text x="20" y="232">nights), rest between nights (11h+), requests honoured in rotation, swaps approved</text>
+<text x="20" y="246">not assumed, cover planned before leave granted. Favouritism rosters breed tribunals.</text>
+<text x="20" y="266" font-weight="bold">5 CONFLICT STYLES (use by stakes): competing (emergency safety — my way now),</text>
+<text x="20" y="280">collaborating (best solution — time + trust allow), compromising (split fast — rosters,</text>
+<text x="20" y="294">leave), avoiding (trivial/cooling — revisit, never bury), accommodating (relationship</text>
+<text x="20" y="308">beats point — concede graciously). Process: private, soon, specific (\"when X, effect Y,</text>
+<text x="20" y="322">suggest Z\"), listen fully, agree + document + follow up. Shouting at bedsides =</text>
+<text x="20" y="336">misconduct with witnesses (PRO-I M6: defamation + professionalism).</text>
+<text x="20" y="356" font-weight="bold">SUPERVISION: students/juniors need planned (objectives + buddy + checks),</text>
+<text x="20" y="370">supportive (debrief scares same-shift), signed (countersign + competencies) oversight —</text>
+<text x="20" y="384">"watch and learn" unsupervised is abandonment of two people. Appraisals: annual,</text>
+<text x="20" y="398">evidence-based, two-way (strengths + ONE growth goal + support), documented —</text>
+<text x="20" y="412">surprise criticisms at appraisal = failed year-round feedback. Supplies: par levels,</text>
+<text x="20" y="426">first-expiry-first-out, controlled drugs counted per policy, breakages logged —</text>
+<text x="20" y="440">stock-outs of oxytocin/MgSO4/antibiotics are management failures with body counts.</text>
+<text x="20" y="460">Exam line: \"POSDCORB plans the ward; conflict styles protect the team; rosters prove fairness.\"</text>
+</g>
+</svg>

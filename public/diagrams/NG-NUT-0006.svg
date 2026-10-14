@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">IYCF timeline + teens + elders</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="132" height="80" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="86" y="56" font-weight="bold" font-size="9">0–6 MONTHS</text>
+<text x="86" y="70" font-size="8">EXCLUSIVE breast:</text>
+<text x="86" y="81" font-size="8">nothing else, not</text>
+<text x="86" y="92" font-size="8">even water; on</text>
+<text x="86" y="103" font-size="8">demand, day+night</text>
+<rect x="164" y="36" width="132" height="80" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="230" y="56" font-weight="bold" font-size="9">6–24 MONTHS</text>
+<text x="230" y="70" font-size="8">breast + COMPLEMENT:</text>
+<text x="230" y="81" font-size="8">timely, adequate,</text>
+<text x="230" y="92" font-size="8">safe, fed with love</text>
+<text x="230" y="103" font-size="8">(responsive!)</text>
+<rect x="308" y="36" width="132" height="80" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="374" y="56" font-weight="bold" font-size="9">2–5 YEARS</text>
+<text x="374" y="70" font-size="8">family pot + 3 meals</text>
+<text x="374" y="81" font-size="8">+ 2 snacks; own</text>
+<text x="374" y="92" font-size="8">bowl (see intake!);</text>
+<text x="374" y="103" font-size="8">vitamin A + deworm</text>
+</g>
+<text x="20" y="138" font-size="12" font-weight="bold" fill="#111827">COMPLEMENTARY FEEDING (6 mo: enriched koko + family foods)</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="156">START 6 mo (not before — gut unready; not late — breast alone insufficient): thick enriched koko</text>
+<text x="30" y="172">(groundnut paste + milk/egg + palm oil + mashed fruit) → mashed family foods → finger foods →</text>
+<text x="30" y="188">family pot by 12 mo. Frequency: 2–3 meals (6–8 mo) → 3–4 (9–24 mo) + 1–2 snacks; HYGIENE (M06:</text>
+<text x="30" y="204">wash, fresh, covered, reheated once); responsive (eye contact, patience, no force).</text>
+</g>
+<rect x="0" y="216" width="460" height="274" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="238" font-weight="bold">BREASTFEEDING CRAFT: within 1 HOUR (colostrum = first vaccine!) → attachment (mouth</text>
+<text x="20" y="252">wide, chin in, lower lip out, more areola below) → 8–12 feeds/day → burp + alternate →</text>
+<text x="20" y="266">problems solved (sore: latch fix + lanolin/air; engorged: frequent + warm + express; mastitis:</text>
+<text x="20" y="280">continue + antibiotics + refer if abscess; "not enough": MORE suckling + rest + fluids — 99%</text>
+<text x="20" y="294">supply meets demand!). HIV: ART + counsel per current guideline (exclusive + adherent).</text>
+<text x="20" y="314">SCHOOL-AGE (5–9): breakfast daily (learners fed learn!) + lunchbox/pack (protein + fruit +</text>
+<text x="20" y="328">water) + deworm + vision/hearing + limit sweets/sodas (teeth + weight). TEENS: growth spurt</text>
+<text x="20" y="342">needs (protein + iron — girls menstruating! + calcium) + sport fuel + body-image care (eating</text>
+<text x="20" y="356">disorders screened kindly) + junk-talk (shito + kelewele joy + balance, not bans).</text>
+<text x="20" y="376">ELDERS (GER M06!): protein each meal + calcium/D + fibre + fluids + teeth + company + MUST</text>
+<text x="20" y="390">screened — appetite + access + ability reviewed every contact.</text>
+<text x="20" y="410">FAILURE-TO-THRIVE (flat/falling curve — M02!): feed assessed (recall + observe a feed!) +</text>
+<text x="20" y="424">illness hunted (diarrhoea? TB? HIV? UTI? worms? malaria?) + home visited (who feeds? how</text>
+<text x="20" y="438">often? beliefs?) + plan (fortify + treat + demo feeds + 2-week review). Admit SAM (M05).</text>
+<text x="20" y="458">Document IYCF counsel + demos + weights (PRO-I M5); grandmothers + fathers included —</text>
+<text x="20" y="472">feeding decisions are family decisions.</text>
+</g>
+</svg>

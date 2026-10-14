@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">The nutrition canvas: ABCD on 1 page</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="205" height="64" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="122" y="56" font-weight="bold" font-size="10">1. ABCD SNAPSHOT</text>
+<text x="122" y="70" font-size="8">anthro + labs + signs +</text>
+<text x="122" y="81" font-size="8">diet recall — classify!</text>
+<text x="122" y="92" font-size="8" fill="#6b7280">well/risk/SAM/obese</text>
+<rect x="235" y="36" width="205" height="64" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="337" y="56" font-weight="bold" font-size="10">2. RED FLAGS?</text>
+<text x="337" y="70" font-size="8">oedema, severe anaemia,</text>
+<text x="337" y="81" font-size="8">re-feed, DKA, bleed,</text>
+<text x="337" y="92" font-size="8" fill="#6b7280">faltering infant — ACT!</text>
+<rect x="20" y="108" width="205" height="64" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="122" y="128" font-weight="bold" font-size="10">3. COUNSEL (ONE!)</text>
+<text x="122" y="142" font-size="8">praise + one change +</text>
+<text x="122" y="153" font-size="8">teach-back + cook</text>
+<text x="122" y="164" font-size="8" fill="#6b7280">involved!</text>
+<rect x="235" y="108" width="205" height="64" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="337" y="128" font-weight="bold" font-size="10">4. TREAT + DEMO</text>
+<text x="337" y="142" font-size="8">supplements/feeds/meds</text>
+<text x="337" y="153" font-size="8">+ demo (koko/ORS/</text>
+<text x="337" y="164" font-size="8" fill="#6b7280">leach/latch!)</text>
+<rect x="20" y="180" width="205" height="64" rx="6" fill="#f3e8ff" stroke="#7e22ce" stroke-width="1.5"/>
+<text x="122" y="200" font-weight="bold" font-size="10">5. FAMILY+SAFETY</text>
+<text x="122" y="214" font-size="8">myths negotiated,</text>
+<text x="122" y="225" font-size="8">5 keys + water chain,</text>
+<text x="122" y="236" font-size="8" fill="#6b7280">money plan!</text>
+<rect x="235" y="180" width="205" height="64" rx="6" fill="#111827"/>
+<text x="337" y="200" font-weight="bold" font-size="10" fill="#ffffff">6. REVIEW DATED</text>
+<text x="337" y="214" font-size="8" fill="#ffffff">weights + diaries +</text>
+<text x="337" y="225" font-size="8" fill="#ffffff">labs + next visit —</text>
+<text x="337" y="236" font-size="8" fill="#ffffff">traced if missed!</text>
+</g>
+<rect x="0" y="256" width="460" height="234" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="278" font-weight="bold">CANVAS DISCIPLINE: one page per client, folder front, updated each contact —</text>
+<text x="20" y="292">handover reads it, students learn it, audits love it, defaulters traced from it.</text>
+<text x="20" y="312">SCENARIO FORMULA: ABCD (classify!) → red flags (act!) → counsel (ONE + teach-back) →</text>
+<text x="20" y="326">treat + demo → family + safety → review dated. Six sentences, full marks — examiners</text>
+<text x="20" y="340">scan for classification, ONE change, demos, myths, safety and dates; vague virtue zero.</text>
+<text x="20" y="360">MEAL-PLAN CRAFT (answer structure!): kcal + protein target → 3 meals + snacks → Ghana</text>
+<text x="20" y="374">foods (cheap + seasonal!) → portions (fist/palm/2-fists) → fluids → demo + teach-back →</text>
+<text x="20" y="388">review. Diabetic/renal/pregnant/child/elder — same skeleton, swapped fillings!</text>
+<text x="20" y="408">QI PROJECT (90 days): CWC coverage? SAM finds? anaemia Hb? HbA1c? demo counts? — pick</text>
+<text x="20" y="422">ONE, PDSA, run-chart, present (PRO-II M4). Canvas + data = portfolio crown: "our SAM</text>
+<text x="20" y="436">graduation hit 95% — here's the canvas that did it."</text>
+<text x="20" y="456">MYTHS BANK: eggs-thief · eat-down · pepper-milk · colostrum-dirty · "big = healthy" ·</text>
+<text x="20" y="470">"Coke gives blood" — negotiated with elders, never mocked (M03!).</text>
+</g>
+</svg>

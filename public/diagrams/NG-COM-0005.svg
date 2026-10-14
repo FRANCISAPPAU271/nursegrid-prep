@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">The question funnel: wide to narrow</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<polygon points="60,36 400,36 370,80 90,80" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="230" y="56" font-weight="bold" font-size="10">OPEN — "tell me about…"</text>
+<text x="230" y="69" font-size="8">stories, feelings, their words</text>
+<polygon points="90,86 370,86 340,130 120,130" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="230" y="105" font-weight="bold" font-size="10">PROBE — "help me understand…"</text>
+<text x="230" y="118" font-size="8">gently deeper, one thread</text>
+<polygon points="120,136 340,136 310,180 150,180" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="230" y="155" font-weight="bold" font-size="10">CLOSED — "how many…? when…?"</text>
+<text x="230" y="168" font-size="8">facts, numbers, checks</text>
+</g>
+<rect x="0" y="192" width="460" height="298" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="214" font-weight="bold">FUNNEL ORDER: open first (their story!) → probe gently (one thread!) → closed last</text>
+<text x="20" y="228">(facts!). Reversed funnels (20 closed questions first) interrogate; funnels HEAR. Ratio aim:</text>
+<text x="20" y="242">70% open/probe, 30% closed — emergencies excepted.</text>
+<text x="20" y="262">OPENERS: "tell me about…", "what's it like…?", "how has…?", "what matters most…?". PROBES:</text>
+<text x="20" y="276">"help me understand…", "say more about…", "what was the hardest part…?". CLOSED: "how</text>
+<text x="20" y="290">many stools? what time? which leg? on a scale 0–10…?" — facts that focus care.</text>
+<text x="20" y="310">BANNED (exam traps!): LEADING ("you took your drugs, right?" — coerces lies!) · MULTIPLE</text>
+<text x="20" y="324">("pain? fever? appetite? bowels?" — pick ONE!) · WHY-BOMBS ("why did you default?!" —</text>
+<text x="20" y="338">accuses! → "what made it hard to come?" heals!) · JARGON ("describe your micturition" —</text>
+<text x="20" y="352">"how is passing urine?" works!) · DOUBLE-NEGATIVES ("you don't not want…?" — huh?).</text>
+<text x="20" y="372">SCALE QUESTIONS: "pain 0–10?" · "worry 0–10?" · "confidence taking meds 0–10?" — numbers</text>
+<text x="20" y="386">track change + open talk ("a 7! what would make it a 5?"). Miracle question (solution talk):</text>
+<text x="20" y="400">"if tonight fixed one thing, what'd morning look like?" — reveals TRUE goals.</text>
+<text x="20" y="420">CHILDREN: one question + play + parent-triangulate (M05!). ELDERS: slow + loud-clear + one</text>
+<text x="20" y="434">at a time (GER!). LANGUAGE GAPS: short + interpreter + teach-back (M05!).</text>
+<text x="20" y="454">LINKS: M02 feelings-first · NUT diet histories · INF PICO asking.</text>
+<text x="20" y="468">MANTRA: "open the door, follow one thread, count last."</text>
+</g>
+</svg>

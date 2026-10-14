@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">The elder canvas: CGA on 1 page</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="205" height="64" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="122" y="56" font-weight="bold" font-size="10">1. BASELINE+FRAILTY</text>
+<text x="122" y="70" font-size="8">CFS + Katz/IADL + TUG +</text>
+<text x="122" y="81" font-size="8">AMT + GDS + weight</text>
+<text x="122" y="92" font-size="8" fill="#6b7280">change needs baselines</text>
+<rect x="235" y="36" width="205" height="64" rx="6" fill="#ffedd5" stroke="#c2410c" stroke-width="1.5"/>
+<text x="337" y="56" font-weight="bold" font-size="10">2. PROBLEMS LIST</text>
+<text x="337" y="70" font-size="8">numbered: medical,</text>
+<text x="337" y="81" font-size="8">mind, meds, social,</text>
+<text x="337" y="92" font-size="8" fill="#6b7280">shared with elder</text>
+<rect x="20" y="108" width="205" height="64" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="122" y="128" font-weight="bold" font-size="10">3. MEDS + SENSES</text>
+<text x="122" y="142" font-size="8">brown bag + Beers +</text>
+<text x="122" y="153" font-size="8">aids ON (glasses,</text>
+<text x="122" y="164" font-size="8" fill="#6b7280">hearing, dentures)</text>
+<rect x="235" y="108" width="205" height="64" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="337" y="128" font-weight="bold" font-size="10">4. PLAN (owned)</text>
+<text x="337" y="142" font-size="8">who/what/when per</text>
+<text x="337" y="153" font-size="8">problem + review</text>
+<text x="337" y="164" font-size="8" fill="#6b7280">date + diaries</text>
+<rect x="20" y="180" width="205" height="64" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="122" y="200" font-weight="bold" font-size="10">5. FAMILY+MAP</text>
+<text x="122" y="214" font-size="8">meeting + rota +</text>
+<text x="122" y="225" font-size="8">support map +</text>
+<text x="122" y="236" font-size="8" fill="#6b7280">money plan</text>
+<rect x="235" y="180" width="205" height="64" rx="6" fill="#111827"/>
+<text x="337" y="200" font-weight="bold" font-size="10" fill="#ffffff">6. GOALS</text>
+<text x="337" y="214" font-size="8" fill="#ffffff">"walk to farm gate</text>
+<text x="337" y="225" font-size="8" fill="#ffffff">by December" —</text>
+<text x="337" y="236" font-size="8" fill="#ffffff">THEIR north star</text>
+</g>
+<rect x="0" y="256" width="460" height="234" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="278" font-weight="bold">CANVAS DISCIPLINE: one page per elder, folder front, updated each contact —</text>
+<text x="20" y="292">handover reads it (ISBAR + canvas — PRO-I M5), students learn from it, audits love it.</text>
+<text x="20" y="312">SCENARIO FORMULA: baseline (what changed?) → hunt (delirium? drugs? red flags?) →</text>
+<text x="20" y="326">assess (CGA 8 — M02) → plan (owned + dated) → family (meeting + map) → goals (theirs) →</text>
+<text x="20" y="340">document + review. Seven sentences, full marks — examiners scan for baselines, hunts,</text>
+<text x="20" y="354">meds, family and goals; vague virtue scores zero.</text>
+<text x="20" y="374">RED-FLAG REFLEXES: new confusion (delirium hunt — M03) · fall + anticoag (scan) · hip</text>
+<text x="20" y="388">pain (don't walk) · chest/neuro symptoms (pathways) · fever + fall (sepsis) · weight loss</text>
+<text x="20" y="402">(MUST + cause) · bruises/fear (see alone — M05) · "off legs" (acute illness until proven).</text>
+<text x="20" y="422">QI PROJECT (90 days): mini-CGA coverage? falls rate? Beers rate? delirium detection?</text>
+<text x="20" y="436">mobilised-day-1 %? — pick ONE, PDSA, run-chart, present (PRO-II M4). Canvas + data =</text>
+<text x="20" y="450">portfolio crown (M06 PRO-II): "our ward's falls fell 40% — here's the canvas that did it."</text>
+<text x="20" y="470">Exam line: \"baseline, hunt, assess, plan, family, goals — one page, every elder.\"</text>
+</g>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 480" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="480" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Glucose control + the three emergencies</text>
+<!-- seesaw -->
+<line x1="60" y1="120" x2="400" y2="120" stroke="#334155" stroke-width="2"/>
+<path d="M230,120 L205,160 L255,160 Z" fill="#334155"/>
+<rect x="40" y="56" width="170" height="56" rx="8" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<text x="125" y="72" font-weight="bold" font-size="10">INSULIN (fed) — LOWERS</text>
+<text x="125" y="85">glucose → cells + glycogen + fat</text>
+<text x="125" y="97">β-cells; absent T1, resisted T2</text>
+</g>
+<rect x="250" y="56" width="170" height="56" rx="8" fill="#fef9c3" stroke="#713f12" stroke-width="1.5"/>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<text x="335" y="72" font-weight="bold" font-size="10">GLUCAGON (fasting) — RAISES</text>
+<text x="335" y="85">glycogen → glucose + new glucose</text>
+<text x="335" y="97">α-cells (+ adrenaline, cortisol, GH)</text>
+</g>
+<text x="230" y="178" font-size="10" fill="#111827" text-anchor="middle">Target: fasting 4–7, 2 h post-meal &lt;10 mmol/L • HbA1c &lt;7% most adults</text>
+<!-- emergencies -->
+<g font-size="9" fill="#111827">
+<rect x="20" y="192" width="130" height="128" rx="8" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+<text x="85" y="210" text-anchor="middle" font-weight="bold" font-size="10">HYPO &lt;4</text>
+<text x="85" y="224" text-anchor="middle">FAST killer, FAST fix</text>
+<text x="30" y="240">sweaty, shaky, hungry,</text>
+<text x="30" y="252">confused → coma, fits</text>
+<text x="30" y="268" font-weight="bold">conscious: 15 g fast</text>
+<text x="30" y="280" font-weight="bold">sugar, recheck 15 min</text>
+<text x="30" y="292" font-weight="bold">unconscious: NEVER</text>
+<text x="30" y="304" font-weight="bold">oral — IM glucagon /</text>
+<text x="30" y="316" font-weight="bold">IV dextrose + recheck</text>
+<rect x="158" y="192" width="144" height="128" rx="8" fill="#fef2f2" stroke="#7f1d1d" stroke-width="1.5"/>
+<text x="230" y="210" text-anchor="middle" font-weight="bold" font-size="10">DKA (T1)</text>
+<text x="230" y="224" text-anchor="middle">sugar + ketones + acid</text>
+<text x="168" y="240">thirsty, polyuric, Kussmaul,</text>
+<text x="168" y="252">fruity breath, vomiting</text>
+<text x="168" y="268" font-weight="bold">fluids FIRST, then fixed-</text>
+<text x="168" y="280" font-weight="bold">rate insulin + K⁺ as it</text>
+<text x="168" y="292" font-weight="bold">falls + find trigger +</text>
+<text x="168" y="304" font-weight="bold">hourly gases/ketones</text>
+<rect x="310" y="192" width="130" height="128" rx="8" fill="#fff7ed" stroke="#7c2d12" stroke-width="1.5"/>
+<text x="375" y="210" text-anchor="middle" font-weight="bold" font-size="10">HHS (T2 elder)</text>
+<text x="375" y="224" text-anchor="middle">sugar, NO ketones</text>
+<text x="320" y="240">profoundly dry,</text>
+<text x="320" y="252">confused, sugar 30+</text>
+<text x="320" y="268" font-weight="bold">SLOW fluids (falls</text>
+<text x="320" y="280" font-weight="bold">fast = cerebral</text>
+<text x="320" y="292" font-weight="bold">oedema), low-dose</text>
+<text x="320" y="304" font-weight="bold">insulin, VTE watch</text>
+</g>
+<rect x="0" y="332" width="460" height="148" fill="#f1f5f9"/>
+<text x="20" y="354" font-size="10" fill="#111827">Sick-day rules: NEVER stop insulin when ill (illness RAISES need) — monitor 2-hourly,</text>
+<text x="20" y="368" font-size="10" fill="#111827">hydrate, check ketones, seek help for vomiting/DKA signs. Feet: daily inspect (between</text>
+<text x="20" y="382" font-size="10" fill="#111827">toes), never barefoot, cut nails straight, new ulcer = same-day review — neuropathy</text>
+<text x="20" y="396" font-size="10" fill="#111827">silences injury, ischaemia prevents healing. Hypo unawareness (repeated hypos blunt</text>
+<text x="20" y="410" font-size="10" fill="#111827">warning): loosen targets + driving ban per local rules until resolved — the Ghana</text>
+<text x="20" y="424" font-size="10" fill="#111827">DVLA restricts licences after severe/recurrent hypos. Every diabetic admission:</text>
+<text x="20" y="438" font-size="10" fill="#111827">feet checked, insulin charted (right TYPE + DOSE + TIME — never \"sliding scale\" alone),</text>
+<text x="20" y="452" font-size="10" fill="#111827">hypo kit at the bedside, pre-op plan written.</text>
+</svg>

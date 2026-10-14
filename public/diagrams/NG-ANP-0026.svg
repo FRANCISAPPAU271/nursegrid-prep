@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 500" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="500" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">ABCDE: assess → treat → reassess, in order</text>
+<g font-size="10" fill="#111827">
+<rect x="20" y="40" width="60" height="60" rx="8" fill="#7f1d1d"/>
+<text x="50" y="76" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">A</text>
+<text x="90" y="58" font-weight="bold">Airway — look + listen</text>
+<text x="90" y="72" font-size="9">stridor / gurgling / silence / see-saw?</text>
+<text x="90" y="86" font-size="9" font-weight="bold">head tilt–chin lift (jaw thrust if trauma),</text>
+<text x="90" y="98" font-size="9" font-weight="bold">suction, OPA/NPA, C-spine, senior help</text>
+<rect x="20" y="108" width="60" height="60" rx="8" fill="#b91c1c"/>
+<text x="50" y="144" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">B</text>
+<text x="90" y="126" font-weight="bold">Breathing — rate, effort, sats, sounds</text>
+<text x="90" y="140" font-size="9">tachypnoea / recession / silent / absent one side?</text>
+<text x="90" y="154" font-size="9" font-weight="bold">sit up, O₂ to target, listen, ABG/VBG,</text>
+<text x="90" y="166" font-size="9" font-weight="bold">nebulizers/antibiotics per cause</text>
+<rect x="20" y="176" width="60" height="60" rx="8" fill="#c2410c"/>
+<text x="50" y="212" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">C</text>
+<text x="90" y="194" font-weight="bold">Circulation — pulse, BP, refill, urine, ECG</text>
+<text x="90" y="208" font-size="9">tachycardic / hypotensive / mottled / anuric?</text>
+<text x="90" y="222" font-size="9" font-weight="bold">IV access, fluids or blood per type, ECG,</text>
+<text x="90" y="234" font-size="9" font-weight="bold">lactate, cultures if septic, keep warm</text>
+<rect x="20" y="244" width="60" height="60" rx="8" fill="#713f12"/>
+<text x="50" y="280" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">D</text>
+<text x="90" y="262" font-weight="bold">Disability — GCS, pupils, glucose</text>
+<text x="90" y="276" font-size="9">GCS drop / blown pupil / posturing / seizing?</text>
+<text x="90" y="290" font-size="9" font-weight="bold">glucose NOW, naloxone/thiamine if indicated,</text>
+<text x="90" y="302" font-size="9" font-weight="bold">seizure protocol, CT head, neuro obs</text>
+<rect x="20" y="312" width="60" height="60" rx="8" fill="#334155"/>
+<text x="50" y="348" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">E</text>
+<text x="90" y="330" font-weight="bold">Exposure — temp, rash, fluids, pain, lines</text>
+<text x="90" y="344" font-size="9">fever / purpura / oedema / full bladder / pain?</text>
+<text x="90" y="358" font-size="9" font-weight="bold">cultures + antibiotics, analgesia, bladder,</text>
+<text x="90" y="370" font-size="9" font-weight="bold">glucose, VTE prophylaxis, keep dignity</text>
+</g>
+<rect x="0" y="384" width="460" height="116" fill="#f1f5f9"/>
+<text x="20" y="406" font-size="10" fill="#111827">Never move past an uncorrected A or B to admire C. Reassess after EVERY</text>
+<text x="20" y="420" font-size="10" fill="#111827">intervention — fluids, oxygen, drugs all demand a before-and-after set.</text>
+<text x="20" y="434" font-size="10" fill="#111827">Hand over with SBAR + the trend + what's pending. Document times: antibiotics,</text>
+<text x="20" y="448" font-size="10" fill="#111827">fluids, escalation calls, reviews. And check suction, oxygen and the defibrillator</text>
+<text x="20" y="462" font-size="10" fill="#111827">at every shift start — emergencies borrow no equipment.</text>
+</svg>

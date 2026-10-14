@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 480" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="480" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Nursing in Ghana: regulator vs association + cadres</text>
+<rect x="20" y="40" width="205" height="120" rx="8" fill="#eef2ff" stroke="#3730a3" stroke-width="2"/>
+<g font-size="10" fill="#111827">
+<text x="122" y="60" text-anchor="middle" font-weight="bold" font-size="11">NMC — REGULATOR</text>
+<text x="122" y="74" text-anchor="middle" font-size="9" fill="#6b7280">Health Professions Act 857</text>
+<text x="30" y="94">• registers + licences nurses</text>
+<text x="30" y="108">• accredits schools, sets exams</text>
+<text x="30" y="122">• disciplines (tribunal: caution /</text>
+<text x="30" y="136">suspend / erase from register)</text>
+<text x="30" y="152" font-weight="bold">protects the PUBLIC</text>
+</g>
+<rect x="235" y="40" width="205" height="120" rx="8" fill="#fef9c3" stroke="#713f12" stroke-width="1.5"/>
+<g font-size="10" fill="#111827">
+<text x="337" y="60" text-anchor="middle" font-weight="bold" font-size="11">GRNA — ASSOCIATION</text>
+<text x="337" y="74" text-anchor="middle" font-size="9" fill="#6b7280">Ghana Registered Nurses &amp; Midwives</text>
+<text x="245" y="94">• professional + union voice</text>
+<text x="245" y="108">• bargains conditions of service</text>
+<text x="245" y="122">• CPD, welfare, advocacy</text>
+<text x="245" y="136">• CANNOT licence or erase</text>
+<text x="245" y="152" font-weight="bold">serves the NURSE</text>
+</g>
+<text x="20" y="186" font-size="12" font-weight="bold" fill="#111827">Cadres (each with its register + scope)</text>
+<g font-size="10" fill="#111827">
+<rect x="20" y="194" width="205" height="66" rx="8" fill="#f8fafc" stroke="#334155" stroke-width="1"/>
+<text x="122" y="212" text-anchor="middle" font-weight="bold">REGISTERED (degree/diploma)</text>
+<text x="30" y="228">RGN • RM • RPHN • RMN • RCN</text>
+<text x="30" y="242">assess, diagnose (nursing), plan,</text>
+<text x="30" y="254" font-size="9" fill="#6b7280">prescribe per protocol, lead, delegate</text>
+<rect x="235" y="194" width="205" height="66" rx="8" fill="#f8fafc" stroke="#334155" stroke-width="1"/>
+<text x="337" y="212" text-anchor="middle" font-weight="bold">ENROLLED + ASSISTANTS</text>
+<text x="245" y="228">Enrolled Nurse • HCA / aide</text>
+<text x="245" y="242">bedside care under supervision;</text>
+<text x="245" y="254" font-size="9" fill="#6b7280">accountable for own acts, always</text>
+</g>
+<text x="20" y="284" font-size="12" font-weight="bold" fill="#111827">Settings: hospital → CHPS → classroom → policy</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="292" width="100" height="40" rx="6" fill="#fee2e2" stroke="#7f1d1d" stroke-width="1"/>
+<text x="70" y="308">hospital</text>
+<text x="70" y="320" font-size="8" fill="#6b7280">wards, OPD, theatre</text>
+<rect x="126" y="292" width="100" height="40" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1"/>
+<text x="176" y="308">community</text>
+<text x="176" y="320" font-size="8" fill="#6b7280">CHPS, outreaches</text>
+<rect x="232" y="292" width="100" height="40" rx="6" fill="#dbeafe" stroke="#1d4ed8" stroke-width="1"/>
+<text x="282" y="308">education</text>
+<text x="282" y="320" font-size="8" fill="#6b7280">tutors, preceptors</text>
+<rect x="338" y="292" width="102" height="40" rx="6" fill="#f3e8ff" stroke="#6b21a8" stroke-width="1"/>
+<text x="389" y="308">leadership</text>
+<text x="389" y="320" font-size="8" fill="#6b7280">DDNS → policy</text>
+</g>
+<rect x="0" y="344" width="460" height="136" fill="#f1f5f9"/>
+<text x="20" y="366" font-size="10" fill="#111827">Exam trap: NMC licences and erases; GRNA bargains and supports. The question</text>
+<text x="20" y="380" font-size="10" fill="#111827">\"who disciplines the negligent nurse?\" is NMC — always. \"Who negotiates salaries?\"</text>
+<text x="20" y="394" font-size="10" fill="#111827">is GRNA — always. Cadre decides SCOPE: enrolled and assistants work supervised,</text>
+<text x="20" y="408" font-size="10" fill="#111827">but ALL cadres answer for their own acts — \"I was told to\" excuses nobody.</text>
+<text x="20" y="422" font-size="10" fill="#111827">Students: indexed, supervised, accountable to NMC + school from day one — the</text>
+<text x="20" y="436" font-size="10" fill="#111827">uniform borrows the profession's trust; the licence must earn it back.</text>
+</svg>

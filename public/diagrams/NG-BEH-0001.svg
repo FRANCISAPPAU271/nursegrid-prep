@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Biopsychosocial: the whole person</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<circle cx="150" cy="110" r="62" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5" opacity="0.85"/>
+<text x="150" y="100" font-weight="bold" font-size="10">BIO</text>
+<text x="150" y="113" font-size="8">genes, germs,</text>
+<text x="150" y="124" font-size="8">injury, drugs</text>
+<circle cx="310" cy="110" r="62" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5" opacity="0.85"/>
+<text x="310" y="100" font-weight="bold" font-size="10">PSYCHO</text>
+<text x="310" y="113" font-size="8">beliefs, mood,</text>
+<text x="310" y="124" font-size="8">coping, trauma</text>
+<circle cx="230" cy="160" r="62" fill="#dcfce7" stroke="#065f46" stroke-width="1.5" opacity="0.85"/>
+<text x="230" y="175" font-weight="bold" font-size="10">SOCIAL</text>
+<text x="230" y="188" font-size="8">family, money,</text>
+<text x="230" y="199" font-size="8">culture, faith</text>
+<rect x="185" y="118" width="90" height="26" rx="13" fill="#111827"/>
+<text x="230" y="135" font-weight="bold" font-size="9" fill="#ffffff">THE PATIENT</text>
+</g>
+<rect x="0" y="232" width="460" height="258" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="254" font-weight="bold">ENGEL'S MODEL (exam core!): every illness = BIO × PSYCHO × SOCIAL interacting —</text>
+<text x="20" y="268">treat one circle and miss the person. Chest pain: BIO (MI?) × PSYCHO (terror of dying like</text>
+<text x="20" y="282">father!) × SOCIAL (breadwinner, can't afford admission!). Assess ALL three, always.</text>
+<text x="20" y="302">MIND-BODY PROOFS: stress → ulcers/HTN/flares · grief → immunity dips · fear → pain</text>
+<text x="20" y="316">amplified · hope + support → wounds heal faster. PLACEBO (belief heals!) vs NOCEBO (dread</text>
+<text x="20" y="330">harms!) — your words DOSE physiology: "this often helps within days" is medicine.</text>
+<text x="20" y="350">NURSE'S BPS ASSESSMENT: BIO — disease, pain, meds, function · PSYCHO — beliefs ("what do</text>
+<text x="20" y="364">you fear most…?"), mood, coping, trauma · SOCIAL — who decides? money? transport? faith?</text>
+<text x="20" y="378">work? Document all three (INF!) — plans touching one circle fail.</text>
+<text x="20" y="398">vs BIOMEDICAL: old model = body-as-machine, germ → drug. BPS keeps the drug AND adds the</text>
+<text x="20" y="412">person: counsel the fear, fund the transport, bless the faith — adherence follows.</text>
+<text x="20" y="432">EXAM MOVE: any "holistic care?" question = BPS three circles + one example EACH + "nurse</text>
+<text x="20" y="446">assesses all three" — full marks. Interview: "tell us holistic" = one patient's 3 circles.</text>
+<text x="20" y="466">MANTRA: "bio explains it, psycho feels it, social shapes it — nurse all three."</text>
+</g>
+</svg>

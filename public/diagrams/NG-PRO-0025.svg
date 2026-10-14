@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Career ladder + education pathways</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="120" y="36" width="220" height="44" rx="6" fill="#3730a3"/>
+<text x="230" y="54" font-weight="bold" font-size="9" fill="#ffffff">CHIEF / DIRECTOR NURSING</text>
+<text x="230" y="68" font-size="8" fill="#ffffff">policy, directorates, national office</text>
+<rect x="120" y="86" width="220" height="44" rx="6" fill="#4f46e5"/>
+<text x="230" y="104" font-weight="bold" font-size="9" fill="#ffffff">DEPUTY DIRECTOR (DDNS+)</text>
+<text x="230" y="118" font-size="8" fill="#ffffff">regional/district leadership</text>
+<rect x="120" y="136" width="220" height="44" rx="6" fill="#6366f1"/>
+<text x="230" y="154" font-weight="bold" font-size="9" fill="#ffffff">PRINCIPAL NURSING OFFICER</text>
+<text x="230" y="168" font-size="8" fill="#ffffff">in-charge, specialists, tutors</text>
+<rect x="120" y="186" width="220" height="44" rx="6" fill="#059669"/>
+<text x="230" y="204" font-weight="bold" font-size="9" fill="#ffffff">SENIOR NURSING OFFICER</text>
+<text x="230" y="218" font-size="8" fill="#ffffff">shift leads, preceptors</text>
+<rect x="120" y="236" width="220" height="44" rx="6" fill="#10b981"/>
+<text x="230" y="254" font-weight="bold" font-size="9" fill="#ffffff">STAFF NURSE / MIDWIFE</text>
+<text x="230" y="268" font-size="8" fill="#ffffff">bedside foundation — all start here</text>
+</g>
+<rect x="0" y="290" width="460" height="200" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="312" font-weight="bold">EDUCATION CLIMB: diploma/RGN → BSc top-up (2–3 yrs) → MPH/MSc/MPhil → PhD/</text>
+<text x="20" y="326">postdoc; specialities via post-basic certificates (critical care, perioperative, ophthalmic,</text>
+<text x="20" y="340">ENT, mental health, paediatrics, oncology, nephrology, emergency) + midwifery (post-basic</text>
+<text x="20" y="354">or direct). Study leave: serve → apply → bond (rules vary — read yours); scholarships:</text>
+<text x="20" y="368">Ghana scholarships, Commonwealth, DAAD, facility sponsorships — apply EARLY + widely.</text>
+<text x="20" y="388" font-weight="bold">PROMOTION FUEL: appraisals (M01: no surprises — feed back year-round), CPD log</text>
+<text x="20" y="402">(PRO-I M7: courses + reflections + QI/audit evidence), interviews (STAR from portfolio),</text>
+<text x="20" y="416">exams where required, clean disciplinary record (PRO-I M3 ladder avoided), years served.</text>
+<text x="20" y="436">Plan in 5-year blocks: \"by 2030: BSc + critical-care cert + SNO + 2 QI publications\" —</text>
+<text x="20" y="450">reviewed yearly with a mentor (M02). Lateral moves teach: CHPS → ICU → classroom →</text>
+<text x="20" y="464">policy — breadth before height builds the directors of tomorrow.</text>
+<text x="20" y="480">Exam line: \"climb deliberately — qualifications open doors, portfolios walk through them.\"</text>
+</g>
+</svg>

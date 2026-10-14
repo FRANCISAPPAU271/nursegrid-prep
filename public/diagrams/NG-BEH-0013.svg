@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Behavioural canvas: 6 moves, every case</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="205" height="64" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="122" y="56" font-weight="bold" font-size="10">1. BPS IT</text>
+<text x="122" y="70" font-size="8">bio? psycho? social?</text>
+<text x="122" y="81" font-size="8">all three named!</text>
+<text x="122" y="92" font-size="8" fill="#6b7280">whole person!</text>
+<rect x="235" y="36" width="205" height="64" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="337" y="56" font-weight="bold" font-size="10">2. STAGE IT</text>
+<text x="337" y="70" font-size="8">Erikson? Piaget?</text>
+<text x="337" y="81" font-size="8">change-stage?</text>
+<text x="337" y="92" font-size="8" fill="#6b7280">match care!</text>
+<rect x="20" y="108" width="205" height="64" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="122" y="128" font-weight="bold" font-size="10">3. STRESS?</text>
+<text x="122" y="142" font-size="8">GAS phase? coping?</text>
+<text x="122" y="153" font-size="8">crisis? defence?</text>
+<text x="122" y="164" font-size="8" fill="#6b7280">support it!</text>
+<rect x="235" y="108" width="205" height="64" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="337" y="128" font-weight="bold" font-size="10">4. SYSTEM?</text>
+<text x="337" y="142" font-size="8">family? rainbow?</text>
+<text x="337" y="153" font-size="8">beliefs? Kleinman!</text>
+<text x="337" y="164" font-size="8" fill="#6b7280">negotiate!</text>
+<rect x="20" y="180" width="205" height="64" rx="6" fill="#f3e8ff" stroke="#7e22ce" stroke-width="1.5"/>
+<text x="122" y="200" font-weight="bold" font-size="10">5. MOVE IT</text>
+<text x="122" y="214" font-size="8">OARS? DARN?</text>
+<text x="122" y="225" font-size="8">ONE SMART step!</text>
+<text x="122" y="236" font-size="8" fill="#6b7280">evoke, install never!</text>
+<rect x="235" y="180" width="205" height="64" rx="6" fill="#111827"/>
+<text x="337" y="200" font-weight="bold" font-size="10" fill="#ffffff">6. MIND IT</text>
+<text x="337" y="214" font-size="8" fill="#ffffff">screen? suicide?</text>
+<text x="337" y="225" font-size="8" fill="#ffffff">stigma? refer!</text>
+<text x="337" y="236" font-size="8" fill="#ffffff">follow YOU!</text>
+</g>
+<rect x="0" y="256" width="460" height="234" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="278" font-weight="bold">CANVAS DISCIPLINE: six questions on every behavioural case — BPS? stage? stress?</text>
+<text x="20" y="292">system? move? mind? Answer all six = distinction; bio-only or advice-only = the classic</text>
+<text x="20" y="306">fail. Tape it to your exam brain.</text>
+<text x="20" y="326">SCENARIO FORMULA: BPS three circles → stage-match (Erikson/change!) → GAS/coping/crisis</text>
+<text x="20" y="340">+ defence named → family/rainbow/Kleinman negotiated → OARS + ONE SMART → screen +</text>
+<text x="20" y="354">suicide + refer + document. Six sentences, full marks.</text>
+<text x="20" y="374">PRACTICE MENU (90 days): Kleinman week · ruler week · OARS a colleague · genogram week ·</text>
+<text x="20" y="388">screen-five · calm audit · defence diary · life-review gift. Pick THREE, log, Gibbs,</text>
+<text x="20" y="402">present one. Behaviours logged = behaviours owned.</text>
+<text x="20" y="422">THEORY TAGS: every answer NAMES theories (Engel! Erikson! Selye! Lazarus! Freud! Bandura!</text>
+<text x="20" y="436">Prochaska! Parsons! Kleinman! Bowlby! Piaget!) — tagged answers score, untagged float.</text>
+<text x="20" y="456">LINKS: COM skills · NUT counsel · GER lifespan · PRO-I ethics · INF records.</text>
+<text x="20" y="470">MANTRA: "BPS it, stage it, stress it, system it, move it, mind it."</text>
+</g>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="340" font-family="sans-serif">
+<rect width="460" height="340" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="230" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#0f172a">The Capstone Wheel</text>
+<text x="230" y="42" text-anchor="middle" font-size="10" fill="#64748b">Six moves for every pluralist case — spin it fully (NG-TCM-0013)</text>
+<g font-size="10" fill="#0f172a">
+<rect x="14" y="52" width="140" height="100" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2" rx="6"/>
+<text x="24" y="70" font-size="12" font-weight="bold" fill="#1d4ed8">1. ASK</text>
+<text x="24" y="88">Kleinman 8 + full</text>
+<text x="24" y="100">TM inventory — quote</text>
+<text x="24" y="112">beliefs, list remedies</text>
+<text x="24" y="128">(M05 · M01)</text>
+<rect x="160" y="52" width="140" height="100" fill="#fef2f2" stroke="#b91c1c" stroke-width="2" rx="6"/>
+<text x="170" y="70" font-size="12" font-weight="bold" fill="#b91c1c">2. SAFETY</text>
+<text x="170" y="88">Interactions? toxicity?</text>
+<text x="170" y="100">pregnancy? surgery?</text>
+<text x="170" y="112">DVT? — hold + consult</text>
+<text x="170" y="128">(M03 · M04)</text>
+<rect x="306" y="52" width="140" height="100" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2" rx="6"/>
+<text x="316" y="70" font-size="12" font-weight="bold" fill="#1d4ed8">3. SORT</text>
+<text x="316" y="88">Welcome / sequence /</text>
+<text x="316" y="100">substitute / refuse —</text>
+<text x="316" y="112">4Q evidence check</text>
+<text x="316" y="128">(M02 · M04)</text>
+<rect x="14" y="158" width="140" height="100" fill="#fef2f2" stroke="#b91c1c" stroke-width="2" rx="6"/>
+<text x="24" y="176" font-size="12" font-weight="bold" fill="#b91c1c">4. SHARE</text>
+<text x="24" y="194">LEARN negotiation —</text>
+<text x="24" y="206">trade, sequence, set</text>
+<text x="24" y="218">review date (M05)</text>
+<text x="24" y="234">Both-and language!</text>
+<rect x="160" y="158" width="140" height="100" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2" rx="6"/>
+<text x="170" y="176" font-size="12" font-weight="bold" fill="#1d4ed8">5. BRIDGE</text>
+<text x="170" y="194">Loop healer/pastor/</text>
+<text x="170" y="206">family — written note,</text>
+<text x="170" y="218">thanks, feedback</text>
+<text x="170" y="234">(M06)</text>
+<rect x="306" y="158" width="140" height="100" fill="#f8fafc" stroke="#b91c1c" stroke-width="2" rx="6"/>
+<text x="316" y="176" font-size="12" font-weight="bold" fill="#b91c1c">6. SUSTAIN</text>
+<text x="316" y="194">5-line note + safety</text>
+<text x="316" y="206">net + follow-up +</text>
+<text x="316" y="218">audit (M05 · M06)</text>
+<text x="316" y="234">Teach-back!</text>
+</g>
+<rect x="14" y="266" width="432" height="34" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1" rx="4"/>
+<text x="230" y="281" text-anchor="middle" font-size="10" fill="#475569">ASK → SAFETY → SORT → SHARE → BRIDGE → SUSTAIN — skip a spoke and the wheel wobbles.</text>
+<text x="230" y="294" text-anchor="middle" font-size="10" fill="#475569">Original NurseGrid content.</text>
+</svg>

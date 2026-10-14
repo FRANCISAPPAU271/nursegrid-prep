@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Neonatal resuscitation: ventilation first, always</text>
+<g font-size="10" fill="#111827" text-anchor="middle">
+<rect x="120" y="40" width="220" height="40" rx="8" fill="#dcfce7" stroke="#065f46" stroke-width="2"/>
+<text x="230" y="56" font-weight="bold">BIRTH: dry + warm + stimulate</text>
+<text x="230" y="69" font-size="9">hat, warmed towels, clock on,</text>
+<rect x="120" y="96" width="220" height="36" rx="8" fill="#f8fafc" stroke="#334155" stroke-width="1.5"/>
+<text x="230" y="110" font-weight="bold">Breathing? Tone? HR &gt;100?</text>
+<text x="230" y="123" font-size="9">YES → routine: delayed clamp, skin-to-skin</text>
+<rect x="120" y="148" width="220" height="44" rx="8" fill="#fef9c3" stroke="#713f12" stroke-width="2"/>
+<text x="230" y="163" font-weight="bold">NO → airway + PPV 40–60/min</text>
+<text x="230" y="176" font-size="9">neutral position, right mask,</text>
+<text x="230" y="188" font-size="9">chest rise = working (MR SOPA)</text>
+<rect x="120" y="208" width="220" height="40" rx="8" fill="#ffedd5" stroke="#7c2d12" stroke-width="1.5"/>
+<text x="230" y="223" font-weight="bold">HR &lt;100? → corrective steps</text>
+<text x="230" y="236" font-size="9">MR SOPA + O₂ up + senior help</text>
+<rect x="120" y="264" width="220" height="40" rx="8" fill="#fed7aa" stroke="#7c2d12" stroke-width="1.5"/>
+<text x="230" y="279" font-weight="bold">HR &lt;60? → compressions 3:1</text>
+<text x="230" y="292" font-size="9">100% O₂ + 2-thumb technique</text>
+<rect x="120" y="320" width="220" height="40" rx="8" fill="#fecaca" stroke="#7f1d1d" stroke-width="2"/>
+<text x="230" y="335" font-weight="bold">still &lt;60? → adrenaline + volume</text>
+<text x="230" y="348" font-size="9">IV/IO 10 mcg/kg + 10 mL/kg + glucose</text>
+<g stroke="#334155" stroke-width="1.5">
+<line x1="230" y1="80" x2="230" y2="96"/><line x1="230" y1="132" x2="230" y2="148"/>
+<line x1="230" y1="192" x2="230" y2="208"/><line x1="230" y1="248" x2="230" y2="264"/>
+<line x1="230" y1="304" x2="230" y2="320"/>
+</g>
+</g>
+<rect x="0" y="372" width="460" height="118" fill="#f1f5f9"/>
+<text x="20" y="394" font-size="10" fill="#111827">Meconium: vigorous = routine care; flat = airway + PPV (no routine suction).</text>
+<text x="20" y="408" font-size="10" fill="#111827">Preterm: plastic wrap + hat + CPAP early + gentle (lungs + brain fragile).</text>
+<text x="20" y="422" font-size="10" fill="#111827">Cord gases + APGAR 1/5/10 + TIMES for every step + SBAR handover. Equipment</text>
+<text x="20" y="436" font-size="10" fill="#111827">checked before EVERY birth: suction, O₂/air, bag-masks (term + preterm), ET tubes,</text>
+<text x="20" y="450" font-size="10" fill="#111827">adrenaline + fluids + glucose, warming. The golden minute is won in setup.</text>
+<text x="20" y="464" font-size="10" fill="#111827">Compressions need EFFECTIVE ventilation first — air before algebra.</text>
+</svg>

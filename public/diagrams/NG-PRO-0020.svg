@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">EBP: 5 steps + PICO + appraisal</text>
+<text x="20" y="50" font-size="10" fill="#111827">EBP = best evidence + clinical expertise + patient values — three legs, one stool.</text>
+<g font-size="10" fill="#111827" text-anchor="middle">
+<rect x="20" y="58" width="76" height="74" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="58" y="80" font-weight="bold" font-size="9">1. ASK</text>
+<text x="58" y="94" font-size="8">PICO</text>
+<text x="58" y="105" font-size="8">question</text>
+<text x="58" y="120" font-size="8" fill="#6b7280">answerable</text>
+<rect x="104" y="58" width="76" height="74" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="142" y="80" font-weight="bold" font-size="9">2. ACQUIRE</text>
+<text x="142" y="94" font-size="8">guidelines,</text>
+<text x="142" y="105" font-size="8">reviews first</text>
+<text x="142" y="120" font-size="8" fill="#6b7280">STG, WHO</text>
+<rect x="188" y="58" width="76" height="74" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="226" y="80" font-weight="bold" font-size="9">3. APPRAISE</text>
+<text x="226" y="94" font-size="8">valid? big?</text>
+<text x="226" y="105" font-size="8">useful here?</text>
+<text x="226" y="120" font-size="8" fill="#6b7280">checklist</text>
+<rect x="272" y="58" width="76" height="74" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="310" y="80" font-weight="bold" font-size="9">4. APPLY</text>
+<text x="310" y="94" font-size="8">+ expertise</text>
+<text x="310" y="105" font-size="8">+ values</text>
+<text x="310" y="120" font-size="8" fill="#6b7280">shared call</text>
+<rect x="356" y="58" width="84" height="74" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="398" y="80" font-weight="bold" font-size="9">5. ASSESS</text>
+<text x="398" y="94" font-size="8">did it work?</text>
+<text x="398" y="105" font-size="8">audit it</text>
+<text x="398" y="120" font-size="8" fill="#6b7280">close loop</text>
+</g>
+<text x="20" y="156" font-size="12" font-weight="bold" fill="#111827">PICO (turn worry into question)</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="174">P — Population (\"in post-op adults…\") · I — Intervention (\"…does early mobilisation…\") ·</text>
+<text x="30" y="190">C — Comparison (\"…vs bed rest…\") · O — Outcome (\"…cut DVT/pneumonia?\") → searchable,</text>
+<text x="30" y="206">answerable, auditable. Add T (time) where apt: \"…within 48 hours?\"</text>
+</g>
+<rect x="0" y="218" width="460" height="272" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="240" font-weight="bold">APPRAISE (3 questions, 3 minutes): 1 VALID? (right patients? randomised/blinded?</text>
+<text x="20" y="254">follow-up complete? harms reported?) → 2 BIG? (effect size + confidence intervals —</text>
+<text x="20" y="268">statistical ≠ clinical significance) → 3 USEFUL HERE? (my patients? my resources? my</text>
+<text x="20" y="282">setting? — a US ICU trial may not fit a Ghana district ward). Red flags: tiny samples,</text>
+<text x="20" y="296">industry-only funding undisclosed, surrogate outcomes (\"lowers X\" ≠ \"saves lives\"), no</text>
+<text x="20" y="310">harms reported, predatory journals. Trust pyramid: Ghana STG/protocols + WHO →</text>
+<text x="20" y="324">systematic reviews → RCTs → cohorts → expert opinion → \"we've always done it\".</text>
+<text x="20" y="344" font-weight="bold">BARRIERS + BEATERS: no time (journal club 30 min/month, one paper, ward-relevant) →</text>
+<text x="20" y="358">no access (WHO HINARI, open access, library, protocols first) → no skill (appraisal buddies,</text>
+<text x="20" y="372">CPD courses) → \"doctors decide\" (nurses own nursing care evidence: pressure care,</text>
+<text x="20" y="386">falls, feeding, education) → no authority (pilot small, audit, present data — data persuades</text>
+<text x="20" y="400">where rank resists). Tradition kills quietly: routine episiotomy, NPO-from-midnight,</text>
+<text x="20" y="414">saline-for-all — EBP retired each where evidence spoke. \"We've always done it\" is</text>
+<text x="20" y="428">history, not justification: honour experience, obey evidence, blend with expertise.</text>
+<text x="20" y="448">Journal club recipe: 1 paper + 3 appraisal Qs + \"what changes Monday?\" + audit + date.</text>
+<text x="20" y="466">Exam line: \"ask answerably, acquire hierarchically, appraise skeptically, apply jointly, assess honestly.\"</text>
+</g>
+</svg>
