@@ -12,9 +12,9 @@ import { QUESTION_COUNT_LABEL } from "@/lib/question-count";
 const TICKER_ITEMS = [
   "NMC LICENSING EXAM COVERED",
   `🧠 ${QUESTION_COUNT_LABEL} UNIQUE QUESTIONS WITH REAL RATIONALES`,
-  "💳 SECURE ONE-TIME PAYMENT · NEVER AUTO-BILLED",
+  "💳 SECURE ACCESS · NEVER AUTO-BILLED",
   "📲 WORKS OFFLINE — NO APP STORE",
-  "💚 FROM GH₵ 80 · ZERO AUTO-RENEWALS",
+  "💚 CLINICAL JUDGEMENT FIRST · FULL RATIONALES",
   "🎯 STRATEGY LIBRARY: PRIORITISATION · DELEGATION · PHARMA MATH",
 ];
 
@@ -80,12 +80,6 @@ export default async function HomePage() {
               Why us
             </Link>
             <Link
-              href="/#pricing"
-              className="hidden rounded-lg px-3 py-2 text-sm font-semibold text-slate-600 hover:text-slate-950 md:inline-block"
-            >
-              Pricing
-            </Link>
-            <Link
               href="/login"
               className="rounded-lg px-3 py-2 text-sm font-semibold text-slate-600 hover:text-slate-950"
             >
@@ -129,8 +123,7 @@ export default async function HomePage() {
               <strong className="font-bold text-emerald-50">NMC licensing exam</strong> — {QUESTION_COUNT_LABEL} unique
               exam-style questions where every rationale teaches you the{" "}
               <strong className="font-bold text-emerald-50">clinical reasoning the Council actually tests</strong>,
-              plus a task manager that keeps clinicals and revision on track.{" "}
-              <strong className="font-bold text-emerald-50">From GH₵ 80. One-time payment.</strong>
+              plus a task manager that keeps clinicals and revision on track.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
               <Link
@@ -154,7 +147,7 @@ export default async function HomePage() {
             </div>
             <p className="mt-5 text-xs leading-relaxed text-emerald-100/50 sm:text-sm">
               <b className="text-lime-300">3 days of full premium free</b> — every question, mock exams &amp; readiness ·
-              No card needed · Then <b className="text-lime-300">from GH₵ 80</b> — one payment, never auto-billed
+              No card needed to start
             </p>
           </div>
 
@@ -240,10 +233,10 @@ export default async function HomePage() {
               The NurseGrid way
             </span>
             <span className="relative mt-4 block text-3xl">🧠</span>
-            <h3 className="relative mt-3 text-lg font-extrabold">Reasoning-first, priced for you</h3>
+            <h3 className="relative mt-3 text-lg font-extrabold">Reasoning-first, built for you</h3>
             <p className="relative mt-2 text-sm text-emerald-100/60">
               Every one of our {QUESTION_COUNT_LABEL} unique questions teaches the <em>why</em> and the 20-second strategy to crack the next
-              one like it. Built around the NMC syllabus, from GH₵ 80, paid once — never auto-billed.
+              one like it. Built specifically around the NMC syllabus and clinical judgment.
             </p>
           </div>
         </div>
@@ -326,99 +319,6 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* PRICING */}
-      <section id="pricing" className="mx-auto max-w-4xl px-4 py-16 sm:px-6 md:py-24">
-        <div className="text-center">
-          <span className="inline-block rounded-full bg-emerald-100 px-4 py-1.5 text-xs font-extrabold uppercase tracking-widest text-emerald-700">
-            Pricing
-          </span>
-          <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-slate-950 sm:text-4xl">
-            Less than the cost of one taxi
-            <br />
-            to the exam centre.
-          </h2>
-          <p className="mt-3 text-slate-600">
-            Tasks &amp; notes free forever. One payment unlocks everything —{" "}
-            <b className="text-slate-900">we never auto-bill you.</b>
-          </p>
-        </div>
-
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          <div className="flex flex-col rounded-3xl border border-slate-900/10 bg-white p-8 transition hover:-translate-y-1 hover:shadow-2xl">
-            <p className="text-base font-extrabold text-slate-950">Sprint · 4 Months</p>
-            <p className="mt-3 text-5xl font-extrabold tracking-tight text-slate-950">
-              GH₵ 80<span className="text-base font-semibold text-slate-500"> / 4 months</span>
-            </p>
-            <p className="mt-2 text-sm text-slate-500">≈ GH₵ 80 · perfect if your exam date is close</p>
-            <ul className="mt-6 flex-1 space-y-2 text-sm text-slate-600">
-              <li>✓ All {QUESTION_COUNT_LABEL} unique licensing-style questions</li>
-              <li>✓ Full rationales &amp; strategy tips</li>
-              <li>✓ Weakness radar by category</li>
-              <li>✓ Bookmarks &amp; mixed practice mode</li>
-            </ul>
-            <Link
-              href="/signup"
-              className="mt-8 block rounded-2xl bg-slate-950 px-4 py-3.5 text-center text-base font-extrabold text-white transition hover:bg-emerald-700"
-            >
-              Start Sprint
-            </Link>
-          </div>
-          <div className="flex flex-col rounded-3xl border border-slate-900/10 bg-white p-8 transition hover:-translate-y-1 hover:shadow-2xl">
-            <p className="text-base font-extrabold text-slate-950">Steady · 8 Months</p>
-            <p className="mt-3 text-5xl font-extrabold tracking-tight text-slate-950">
-              GH₵ 140<span className="text-base font-semibold text-slate-500"> / 8 months</span>
-            </p>
-            <p className="mt-2 text-sm text-slate-500">≈ GH₵ 140 · a full academic year of prep</p>
-            <ul className="mt-6 flex-1 space-y-2 text-sm text-slate-600">
-              <li>✓ Everything in Sprint, for 8 months</li>
-              <li>✓ Ideal from mid-programme to exam day</li>
-              <li>✓ New question drops included</li>
-              <li>✓ Bookmarks &amp; mixed practice mode</li>
-            </ul>
-            <Link
-              href="/signup"
-              className="mt-8 block rounded-2xl bg-slate-950 px-4 py-3.5 text-center text-base font-extrabold text-white transition hover:bg-emerald-700"
-            >
-              Start Steady
-            </Link>
-          </div>
-          <div className="relative flex flex-col rounded-3xl border-2 border-lime-400 bg-[#04120d] p-8 text-emerald-50 shadow-2xl shadow-slate-950/30 transition hover:-translate-y-1 sm:col-span-2 lg:col-span-1">
-            <span className="absolute -top-3.5 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-lime-400 px-4 py-1 text-[11px] font-extrabold uppercase tracking-wider text-slate-950">
-              Best value · lowest monthly cost
-            </span>
-            <p className="text-base font-extrabold">Journey · 1 Year</p>
-            <p className="mt-3 text-5xl font-extrabold tracking-tight">
-              GH₵ 200<span className="text-base font-semibold text-emerald-100/50"> / year</span>
-            </p>
-            <p className="mt-2 text-sm text-emerald-100/50">That's under GH₵ 17/month for the full journey</p>
-            <ul className="mt-6 flex-1 space-y-2 text-sm text-emerald-100/80">
-              <li>✓ Everything in Sprint, for 12 months</li>
-              <li>✓ Covers resits &amp; final-year revision</li>
-              <li>✓ New question drops included</li>
-              <li>✓ Priority WhatsApp support</li>
-            </ul>
-            <Link
-              href="/signup"
-              className="mt-8 block rounded-2xl bg-lime-400 px-4 py-3.5 text-center text-base font-extrabold text-slate-950 transition hover:bg-lime-300"
-            >
-              Start Journey
-            </Link>
-          </div>
-        </div>
-
-        <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-          <span className="flex w-full max-w-xs items-center justify-center gap-2 rounded-full border border-slate-900/10 bg-white px-5 py-2.5 text-xs font-bold text-slate-600 sm:w-auto">
-            💳 Visa & Mastercard accepted
-          </span>
-          <span className="flex w-full max-w-xs items-center justify-center gap-2 rounded-full border border-slate-900/10 bg-white px-5 py-2.5 text-xs font-bold text-slate-600 sm:w-auto">
-            ⚡ Instant access & receipt
-          </span>
-          <span className="flex w-full max-w-xs items-center justify-center gap-2 rounded-full border border-slate-900/10 bg-white px-5 py-2.5 text-xs font-bold text-slate-600 sm:w-auto">
-            🔒 One-time payment · zero auto-renewal
-          </span>
-        </div>
-      </section>
-
       {/* FAQ */}
       <section id="overview" className="bg-white px-4 py-16 sm:px-6 md:py-24">
         <div className="mx-auto max-w-3xl">
@@ -452,7 +352,7 @@ export default async function HomePage() {
             Your licensing pass starts today.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-emerald-100/60">
-            3 days of full premium free. No card. No auto-billing. Just the smartest way to prep — from GH₵ 80.
+            3 days of full premium free. No card needed. Just the smartest way to prep for your licensing exam.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
             <Link

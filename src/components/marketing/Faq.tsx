@@ -17,16 +17,16 @@ const FAQS = [
     a: "Tasks and notes are completely free, forever — you can plan clinicals, assignments, and study sessions with no limits. You'll also get a free preview set of questions in every category and full access to the strategy library, so you can try before you pay.",
   },
   {
-    q: "How much does full access cost?",
-    a: `Choose the plan that fits you: GH₵ 80 for 4 months, GH₵ 140 for 8 months, or GH₵ 200 for a full year (best value). All plans unlock unlimited access to all ${QUESTION_COUNT_LABEL} unique questions, rationales, strategies, and progress tracking for the length of the plan.`,
+    q: "How does premium access work?",
+    a: `Start with a 3-day full premium trial — no card required. You get unlimited access to all ${QUESTION_COUNT_LABEL} unique licensing-style questions, rationales, strategies, mock exams, and progress tracking. Flexible access options are available directly in your dashboard once you create an account.`,
   },
   {
     q: "Will I be charged again automatically?",
-    a: "No. Both plans are a single payment for a fixed period (4 months or 1 year) — there are no auto-renewals or surprise charges. When your access period ends, you can simply choose a plan again to continue.",
+    a: "No. All access plans are single one-time payments for a fixed period — there are zero auto-renewals or unexpected charges.",
   },
   {
-    q: "How can I pay?",
-    a: "We support Visa and Mastercard payments securely online, as well as local payment options inside the app once you create your account. All plans are one-time payments with zero automatic renewals or hidden charges.",
+    q: "How can I upgrade my account?",
+    a: "Upgrade options and secure payment methods are available directly inside your dashboard once you create an account. All access is one-time with zero automatic renewals or hidden charges.",
   },
   {
     q: "Is NurseGrid Prep affiliated with the Nursing and Midwifery Council?",
@@ -38,7 +38,7 @@ const FAQS = [
   },
   {
     q: "How can I get help or contact support?",
-    a: "The fastest way is WhatsApp — tap the chat button in the corner of the screen, or message us directly at +233 54 242 8075. You can also email support@nursegridprep.app.",
+    a: "The fastest way is WhatsApp — tap the chat button on the screen to reach support directly, or email support@nursegridprep.app.",
   },
 ];
 

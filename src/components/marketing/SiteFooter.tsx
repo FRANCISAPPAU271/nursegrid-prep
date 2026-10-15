@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { buildWhatsAppLink, WHATSAPP_DISPLAY_NUMBER } from "@/lib/contact";
+import { buildWhatsAppLink } from "@/lib/contact";
 
 const YEAR = new Date().getFullYear();
 
@@ -15,9 +15,6 @@ export default function SiteFooter() {
           <nav aria-label="Footer" className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-slate-500">
             <Link href="/#overview" className="hover:text-emerald-700">
               Overview &amp; FAQ
-            </Link>
-            <Link href="/#pricing" className="hover:text-emerald-700">
-              Pricing
             </Link>
             <Link href="/signup" className="hover:text-emerald-700">
               Sign up
@@ -40,7 +37,7 @@ export default function SiteFooter() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 hover:text-emerald-700"
             >
-              <span aria-hidden>💬</span> WhatsApp {WHATSAPP_DISPLAY_NUMBER}
+              <span aria-hidden>💬</span> WhatsApp Support
             </a>
             <Link href="/login" className="text-slate-300 hover:text-emerald-700">
               Staff
