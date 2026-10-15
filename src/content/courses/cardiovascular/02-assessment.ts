@@ -82,6 +82,8 @@ export const assessment: CourseModule = {
       ],
       quiz: {
         keywords: ["apex beat", "apical pulse", "jugular venous", "heart sounds", "murmur", "capillary refill", "pitting oedema", "peripheral pulse", "pedal pulse", "chest pain assessment", "orthopnoea", "pulse deficit", "cardiovascular assessment"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-CVN-004"],
       },
     },
     {
@@ -167,6 +169,8 @@ export const assessment: CourseModule = {
       ],
       quiz: {
         keywords: ["blood pressure measurement", "measuring blood pressure", "cuff", "postural", "orthostatic", "korotkoff", "pulse deficit", "vital signs", "pulse oximetry", "oxygen saturation", "respiratory rate", "early warning"],
+        categories: ["fundamentals", "med-surg"],
+        questionIds: ["NG-MOD-CVN-005"],
       },
     },
     {
@@ -281,6 +285,8 @@ export const assessment: CourseModule = {
       ],
       quiz: {
         keywords: ["troponin", "cardiac enzyme", "cardiac catheterisation", "cardiac catheterization", "angiography", "angiogram", "echocardiogra", "cholesterol", "lipid", "contrast", "stress test", "natriuretic", "metformin", "femoral", "transoesophageal", "ct coronary", "cardiac mri", "gadolinium", "dobutamine", "informed consent", "extravasation"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-CVN-006"],
       },
     },
   ],

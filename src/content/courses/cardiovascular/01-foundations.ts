@@ -102,6 +102,8 @@ export const foundations: CourseModule = {
       ],
       quiz: {
         keywords: ["tricuspid", "mitral valve", "aortic valve", "pulmonary artery", "pulmonary vein", "coronary artery", "pericardium", "myocardium", "endocardium", "heart chamber", "chambers of the heart", "blood flow through the heart", "left ventricle", "right atrium", "heart sound"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-CVN-001"],
       },
     },
     {
@@ -186,6 +188,8 @@ export const foundations: CourseModule = {
       ],
       quiz: {
         keywords: ["cardiac output", "stroke volume", "preload", "afterload", "mean arterial pressure", "pulse pressure", "baroreceptor", "renin", "angiotensin", "aldosterone", "systole", "diastole", "contractility", "heart rate", "blood pressure", "hypotension"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-CVN-002"],
       },
     },
     {
@@ -306,6 +310,8 @@ export const foundations: CourseModule = {
       ],
       quiz: {
         keywords: ["ecg", "electrocardiogram", "conduction system", "sinoatrial", "sa node", "av node", "atrioventricular node", "purkinje", "qrs", "p wave", "pr interval", "st segment", "t wave", "qt interval", "calibration", "lead placement", "limb lead", "chest lead", "heart block", "bradycardia", "tachycardia", "arrhythmia", "palpitation", "syncope", "chest pain"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-CVN-003"],
       },
     },
   ],

@@ -107,6 +107,8 @@ export const valvularAndVascular: CourseModule = {
       ],
       quiz: {
         keywords: ["rheumatic", "endocarditis", "pericarditis", "benzathine", "streptococc", "mitral stenosis", "mitral valve", "valve replacement", "friction rub", "jones criteria", "sore throat", "chorea", "blood culture"],
+        categories: ["med-surg", "safety-infection-control"],
+        questionIds: ["NG-MOD-CVN-019", "NG-MOD-CVN-020"],
       },
     },
     {
@@ -205,6 +207,8 @@ export const valvularAndVascular: CourseModule = {
       ],
       quiz: {
         keywords: ["deep vein thrombosis", "dvt", "pulmonary embol", "warfarin", "heparin", "enoxaparin", "anticoagul", "international normalised ratio", "claudication", "peripheral arterial", "peripheral vascular", "venous ulcer", "arterial ulcer", "varicose", "compression stocking", "homans", "protamine", "vitamin k"],
+        categories: ["med-surg", "pharmacology-parenteral"],
+        questionIds: ["NG-MOD-CVN-021"],
       },
     },
   ],

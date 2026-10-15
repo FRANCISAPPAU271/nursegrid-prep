@@ -90,6 +90,8 @@ export const pharmacology: CourseModule = {
       ],
       quiz: {
         keywords: ["digoxin", "furosemide", "frusemide", "beta-blocker", "beta blocker", "atenolol", "propranolol", "ace inhibitor", "warfarin", "heparin", "nitrate", "glyceryl trinitrate", "amlodipine", "spironolactone", "statin", "clopidogrel", "apical pulse", "antihypertensive", "diuretic"],
+        categories: ["pharmacology-parenteral", "med-surg"],
+        questionIds: ["NG-MOD-CVN-022", "NG-MOD-CVN-023", "NG-MOD-CVN-024"],
       },
     },
   ],

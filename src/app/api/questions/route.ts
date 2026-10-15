@@ -59,20 +59,74 @@ export async function GET(request: Request) {
     if (categoryId) conditions.push(eq(questions.categoryId, categoryId));
 
     // Course lesson practice: restrict to questions whose tags or stem match
-    // the lesson's keywords (hyphens normalised so "heart-failure" matches
-    // "heart failure"). Resolved from the authored course content, so the
-    // client never supplies raw patterns.
+    // the lesson's keywords, prioritising dedicated module-authored scenario
+    // questions and filtering keywords to relevant categories.
     const courseSlug = searchParams.get("course");
     const lessonSlug = searchParams.get("lesson");
+    let courseOrderClause: SQL | null = null;
     if (courseSlug && lessonSlug) {
       const course = getCourse(courseSlug);
       const lesson = course ? getLesson(course, lessonSlug) : undefined;
       if (!course || !lesson) throw new ApiError("Lesson not found", 404);
+
+      const qIds = lesson.lesson.quiz.questionIds ?? [];
+      const hasAuthIdCol = await hasAuthoredIdColumn();
+
+      const lessonTagPattern = `%"lesson:${lesson.lesson.slug}"%`;
+      const moduleTagPattern = `%"module:${lesson.module.slug}"%`;
+      const courseTagPattern = `%"course:${course.slug}"%`;
+
+      const idCheckSql = qIds.length > 0
+        ? hasAuthIdCol
+          ? sql`(coalesce("authored_id", '') = ANY(ARRAY[${sql.join(qIds.map((id) => sql`${id}`), sql`, `)}]::text[]) OR ${questions.tags}::text LIKE ANY(ARRAY[${sql.join(qIds.map((id) => sql`'%' || ${id} || '%'`), sql`, `)}]::text[]))`
+          : sql`${questions.tags}::text LIKE ANY(ARRAY[${sql.join(qIds.map((id) => sql`'%' || ${id} || '%'`), sql`, `)}]::text[])`
+        : null;
+
+      // Restrict keywords search to the lesson's target categories if specified
+      let categoryMatchSql: SQL | null = null;
+      if (lesson.lesson.quiz.categories && lesson.lesson.quiz.categories.length > 0) {
+        const catRows = await db
+          .select({ id: questionCategories.id })
+          .from(questionCategories)
+          .where(inArray(questionCategories.slug, lesson.lesson.quiz.categories));
+        if (catRows.length > 0) {
+          categoryMatchSql = inArray(questions.categoryId, catRows.map((r) => r.id));
+        }
+      }
+
       const patterns = lesson.lesson.quiz.keywords.map((k) => `%${k.toLowerCase().replace(/-/g, " ")}%`);
       const patternArray = sql`ARRAY[${sql.join(patterns.map((p) => sql`${p}`), sql`, `)}]::text[]`;
-      conditions.push(
-        sql`(lower(replace(${questions.tags}::text, '-', ' ')) LIKE ANY(${patternArray}) OR lower(replace(${questions.stem}, '-', ' ')) LIKE ANY(${patternArray}))`,
-      );
+      const keywordMatchSql = sql`(lower(replace(${questions.tags}::text, '-', ' ')) LIKE ANY(${patternArray}) OR lower(replace(${questions.stem}, '-', ' ')) LIKE ANY(${patternArray}))`;
+
+      const filteredKeywordSql = categoryMatchSql
+        ? and(categoryMatchSql, keywordMatchSql)!
+        : keywordMatchSql;
+
+      const lessonConditions: SQL[] = [
+        sql`${questions.tags}::text LIKE ${lessonTagPattern}`,
+        sql`${questions.tags}::text LIKE ${moduleTagPattern}`,
+        sql`${questions.tags}::text LIKE ${courseTagPattern}`,
+        filteredKeywordSql,
+      ];
+      if (idCheckSql) {
+        lessonConditions.unshift(idCheckSql);
+      }
+      conditions.push(sql`(${sql.join(lessonConditions, sql` OR `)})`);
+
+      if (qIds.length > 0 && hasAuthIdCol) {
+        courseOrderClause = sql`CASE
+          WHEN coalesce("authored_id", '') = ANY(ARRAY[${sql.join(qIds.map((id) => sql`${id}`), sql`, `)}]::text[]) THEN 0
+          WHEN ${questions.tags}::text LIKE ${lessonTagPattern} THEN 1
+          WHEN ${questions.tags}::text LIKE ${moduleTagPattern} THEN 2
+          ELSE 3
+        END`;
+      } else {
+        courseOrderClause = sql`CASE
+          WHEN ${questions.tags}::text LIKE ${lessonTagPattern} THEN 0
+          WHEN ${questions.tags}::text LIKE ${moduleTagPattern} THEN 1
+          ELSE 2
+        END`;
+      }
     }
     if (!user.isPremium) {
       conditions.push(eq(questions.isFree, true));
@@ -145,15 +199,17 @@ export async function GET(request: Request) {
       // decision-tree items first (internal authored_id prefix — never
       // exposed to clients), then legacy oldest-first order.
       .orderBy(
-        ...(random
-          ? [sql`random()`]
-          : (await hasAuthoredIdColumn())
-            ? [
-                sql`CASE WHEN "authored_id" LIKE 'NG-ORIGINAL-NCX-%' THEN 0 ELSE 1 END`,
-                asc(questions.createdAt),
-                asc(questions.id),
-              ]
-            : [asc(questions.createdAt), asc(questions.id)]),
+        ...(courseOrderClause
+          ? [courseOrderClause, ...(random ? [sql`random()`] : [asc(questions.createdAt), asc(questions.id)])]
+          : random
+            ? [sql`random()`]
+            : (await hasAuthoredIdColumn())
+              ? [
+                  sql`CASE WHEN "authored_id" LIKE 'NG-ORIGINAL-NCX-%' THEN 0 ELSE 1 END`,
+                  asc(questions.createdAt),
+                  asc(questions.id),
+                ]
+              : [asc(questions.createdAt), asc(questions.id)]),
       )
       .limit(limit)
       .offset(effectiveOffset);

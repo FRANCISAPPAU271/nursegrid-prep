@@ -108,6 +108,8 @@ export const coronary: CourseModule = {
       ],
       quiz: {
         keywords: ["angina", "glyceryl trinitrate", "nitroglycerin", "sublingual", "atherosclerosis", "coronary artery disease", "coronary heart disease", "risk factor for coronary", "statin", "cholesterol", "sildenafil", "nitrate"],
+        categories: ["pharmacology-parenteral", "med-surg"],
+        questionIds: ["NG-MOD-CVN-012"],
       },
     },
     {
@@ -234,6 +236,8 @@ export const coronary: CourseModule = {
       ],
       quiz: {
         keywords: ["myocardial infarction", "acute coronary syndrome", "stemi", "heart attack", "chest pain", "thrombolysis", "thrombolytic", "streptokinase", "aspirin 300", "chew", "reperfusion", "percutaneous coronary", "cardiac rehabilitation", "troponin"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-CVN-010", "NG-MOD-CVN-011"],
       },
     },
   ],

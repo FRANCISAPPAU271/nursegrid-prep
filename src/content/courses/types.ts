@@ -25,6 +25,8 @@ export type LessonQuiz = {
   keywords: string[];
   /** Optional question-category slugs to restrict the search to. */
   categories?: string[];
+  /** Optional authored question IDs directly mapped to this lesson. */
+  questionIds?: string[];
 };
 
 export type Lesson = {

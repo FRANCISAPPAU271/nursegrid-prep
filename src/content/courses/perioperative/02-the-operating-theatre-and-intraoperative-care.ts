@@ -129,7 +129,11 @@ export const theOperatingTheatreAndIntraoperativeCare: CourseModule = {
         "Swabs, needles, blades and instruments are counted aloud by two people before the operation, when items are added, at staff changes, before a cavity is closed and at skin closure; a wrong count means tell the surgeon now, recount, search, explore, X-ray before leaving theatre and report.",
         "Specimens are labelled in theatre at the time with name, number, site and side and the right fixative; the diathermy plate goes on a dry muscular area away from bone and metal; latex-allergic patients go first in a latex-free room; theatre waste is black, yellow and brown; and the WHO checklist's sign in, time out and sign out are spoken pauses that any team member may stop the operation to complete.",
       ],
-      quiz: { keywords: ["theatre zones","traffic and door discipline","theatre attire","theatre team roles","scrub nurse","surgical scrub","sterile field","sterility indicators","sterilisation versus disinfection","autoclave principle","autoclave","damp sterile pack","instrument categories","toothed versus plain forceps","surgical count","swab count","specimen handling","sharps in theatre","diathermy safety","latex allergy","surgical safety checklist","the surgical safety checklist","time out","sign in","sterilis","disinfect","aseptic","decontamination","surgical site infection prevention","chain of infection","waste segregation","theatre","sterile","scrub","swab","autoclav","instrument","specimen","sharps injury"] },
+      quiz: {
+        keywords: ["theatre zones","traffic and door discipline","theatre attire","theatre team roles","scrub nurse","surgical scrub","sterile field","sterility indicators","sterilisation versus disinfection","autoclave principle","autoclave","damp sterile pack","instrument categories","toothed versus plain forceps","surgical count","swab count","specimen handling","sharps in theatre","diathermy safety","latex allergy","surgical safety checklist","the surgical safety checklist","time out","sign in","sterilis","disinfect","aseptic","decontamination","surgical site infection prevention","chain of infection","waste segregation","theatre","sterile","scrub","swab","autoclav","instrument","specimen","sharps injury"],
+        categories: ["safety-infection-control", "med-surg"],
+        questionIds: ["NG-MOD-PERIOP-004", "NG-MOD-PERIOP-005"],
+      },
     },
     {
       slug: "anaesthesia-positioning-and-intraoperative-patient-safety",
@@ -257,7 +261,11 @@ export const theOperatingTheatreAndIntraoperativeCare: CourseModule = {
         "Resuscitation fluid is a warmed isotonic crystalloid or blood, never 5 % dextrose; blood loss is tallied from suction and weighed swabs; blood is checked by two people at the patient and warmed; a reaction under anaesthesia shows as hypotension, bronchospasm, oozing and dark urine — stop the transfusion first.",
         "Malignant hyperthermia (rising carbon dioxide, tachycardia, rigidity, late fever) is treated by stopping the trigger, dantrolene 2.5 mg/kg repeated, active cooling and treatment of hyperkalaemia; anaphylaxis by stopping the trigger, adrenaline, oxygen and fluids; and the nurse in theatre protects the patient's dignity, hearing, privacy and consent — no procedure is added on the table.",
       ],
-      quiz: { keywords: ["anaesthesia types","general anaesthesia","general anaesthetic","spinal anaesthesia observation","spinal anaesthesia","local anaesthetic","lidocaine","sedation","care of the unconscious patient in theat","patient positioning injury","positioning during long operations","perioperative hypothermia","warming","malignant hyperthermia","anaphylaxis","anaphylactic","atropine","chaperone and dignity","blood transfusion safety","febrile transfusion reaction","transfusion reaction","laparoscopic surgery","oropharyngeal airway","endotracheal","anaesthe","transfusion","latex","ketamine"] },
+      quiz: {
+        keywords: ["anaesthesia types","general anaesthesia","general anaesthetic","spinal anaesthesia observation","spinal anaesthesia","local anaesthetic","lidocaine","sedation","care of the unconscious patient in theat","patient positioning injury","positioning during long operations","perioperative hypothermia","warming","malignant hyperthermia","anaphylaxis","anaphylactic","atropine","chaperone and dignity","blood transfusion safety","febrile transfusion reaction","transfusion reaction","laparoscopic surgery","oropharyngeal airway","endotracheal","anaesthe","transfusion","latex","ketamine"],
+        categories: ["med-surg", "pharmacology-parenteral", "safety-infection-control"],
+        questionIds: ["NG-MOD-PERIOP-006"],
+      },
     },
   ],
 };

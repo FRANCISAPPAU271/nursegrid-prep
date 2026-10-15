@@ -89,6 +89,8 @@ export const emergencies: CourseModule = {
       ],
       quiz: {
         keywords: ["atrial fibrillation", "ventricular tachycardia", "ventricular fibrillation", "bradycardia", "heart block", "arrhythmia", "dysrhythmia", "adenosine", "atropine", "amiodarone", "pacemaker", "palpitation", "hyperkalaemia", "hypokalaemia", "cardioversion", "supraventricular", "ectopic beat"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-CVN-016"],
       },
     },
     {
@@ -218,6 +220,8 @@ export const emergencies: CourseModule = {
       ],
       quiz: {
         keywords: ["ecg pattern", "atrial fibrillation", "atrial flutter", "supraventricular", "ventricular tachycardia", "ventricular fibrillation", "heart block", "wenckebach", "mobitz", "bradycardia", "tachycardia", "st elevation", "st depression", "t wave inversion", "q wave", "reciprocal", "posterior myocardial", "wide qrs", "narrow complex", "shockable", "defibrillat", "cardioversion", "pacing", "adenosine", "atropine", "amiodarone"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-CVN-017"],
       },
     },
     {
@@ -344,6 +348,8 @@ export const emergencies: CourseModule = {
       ],
       quiz: {
         keywords: ["cardiac arrest", "cardiopulmonary resuscitation", "cpr", "chest compression", "defibrillat", "rescue breath", "shock", "hypovolaemi", "cardiogenic", "anaphyla", "tamponade", "beck", "pulsus paradoxus", "adrenaline", "basic life support"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-CVN-018"],
       },
     },
   ],

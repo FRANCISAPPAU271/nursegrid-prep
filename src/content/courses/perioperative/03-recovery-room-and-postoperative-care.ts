@@ -119,7 +119,11 @@ export const recoveryRoomAndPostoperativeCare: CourseModule = {
         "Discharge from recovery is by criteria — an Aldrete score of 9 or more, reflexes back, observations stable for 30 minutes near baseline, pain and nausea controlled, bleeding minimal, temperature 36 °C or more, block regressing, prescriptions and instructions written, the anaesthetist in agreement and the ward ready — never by the clock.",
         "The handover to the ward is an SBAR at the bedside with the chart, the ward nurse assesses before she signs, the patient travels warm with rails up and enough oxygen, the postoperative bed has oxygen, suction, charts, a bowl, a drip stand, the right position and a call bell, and the day-surgery patient goes home only street-fit, with a responsible adult, written instructions and the warnings for 24 hours.",
       ],
-      quiz: { keywords: ["recovery room care","immediate post-anaesthetic recovery","recovery handover","handover from theatre to ward","airway care in the recovery room","recovery position and airway","criteria for discharge from recovery","post-operative nausea","antiemetic","shivering","spinal anaesthesia observation","oxygen delivery devices","pulse oximetry","suction","snoring","stridor","naloxone","opioid overdose","pain assessment","pain score","early warning score","day surgery discharge safety","day surgery discharge","handover after emergency surgery","sbar","oxygen","sedation scoring","shiver","analgesia","airway"] },
+      quiz: {
+        keywords: ["recovery room care","immediate post-anaesthetic recovery","recovery handover","handover from theatre to ward","airway care in the recovery room","recovery position and airway","criteria for discharge from recovery","post-operative nausea","antiemetic","shivering","spinal anaesthesia observation","oxygen delivery devices","pulse oximetry","suction","snoring","stridor","naloxone","opioid overdose","pain assessment","pain score","early warning score","day surgery discharge safety","day surgery discharge","handover after emergency surgery","sbar","oxygen","sedation scoring","shiver","analgesia","airway"],
+        categories: ["med-surg", "safety-infection-control"],
+        questionIds: ["NG-MOD-PERIOP-007"],
+      },
     },
     {
       slug: "postoperative-care-on-the-ward",
@@ -228,7 +232,11 @@ export const recoveryRoomAndPostoperativeCare: CourseModule = {
         "The theatre dressing stays for 48 hours unless soaked; increasing wound pain means infection or haematoma; drains are secured, kept patent, measured and described each shift, suction bottles keep their vacuum, and more than about 100 mL of fresh blood in an hour is haemorrhage; the bladder must empty within six to eight hours and the catheter comes out as early as possible.",
         "Walking from day one, stockings and heparin, two-hourly pressure relief, hygiene, mouth care, sleep and honest information complete the care; enhanced recovery protocols cut complications by a third; and the patient goes home after abdominal surgery knowing how to care for the wound, what not to lift for four to six weeks, when sutures come out and the signs that mean she must return.",
       ],
-      quiz: { keywords: ["post-operative respiratory complications","deep breathing","chest physiotherapy","early mobilisation","immobility complications","patient controlled analgesia","breakthrough pain","analgesic ladder","opioid-induced constipation","urine output after major surgery","fluid balance chart","intravenous infusion","drip rate","drops per minute","infiltration","phlebitis","nasogastric tube after bowel surgery","nasogastric tube complications","return of bowel function","flatus","paralytic ileus","nutrition after gastrointestinal surgery","diet progression","clear fluids","enhanced recovery","total parenteral nutrition","surgical drains","surgical drain observation","managing a surgical drain","wound pain that worsens","aseptic dressing technique","discharge advice after abdominal surgery","pressure ulcer prevention","thromboprophylaxis","post-operative","postoperative","after surgery","mobilis","nasogastric","fluid balance","cannula","opioid"] },
+      quiz: {
+        keywords: ["post-operative respiratory complications","deep breathing","chest physiotherapy","early mobilisation","immobility complications","patient controlled analgesia","breakthrough pain","analgesic ladder","opioid-induced constipation","urine output after major surgery","fluid balance chart","intravenous infusion","drip rate","drops per minute","infiltration","phlebitis","nasogastric tube after bowel surgery","nasogastric tube complications","return of bowel function","flatus","paralytic ileus","nutrition after gastrointestinal surgery","diet progression","clear fluids","enhanced recovery","total parenteral nutrition","surgical drains","surgical drain observation","managing a surgical drain","wound pain that worsens","aseptic dressing technique","discharge advice after abdominal surgery","pressure ulcer prevention","thromboprophylaxis","post-operative","postoperative","after surgery","mobilis","nasogastric","fluid balance","cannula","opioid"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-PERIOP-007", "NG-MOD-PERIOP-009"],
+      },
     },
     {
       slug: "patient-controlled-epidural-and-regional-analgesia",
@@ -297,6 +305,8 @@ export const recoveryRoomAndPostoperativeCare: CourseModule = {
       ],
       quiz: {
         keywords: ["patient controlled analgesia", "pca", "epidural", "spinal headache", "postdural puncture", "regional block", "local anaesthetic toxicity", "respiratory depression", "naloxone", "motor block", "bromage", "catheter removal", "multimodal analgesia", "epidural haematoma", "epidural abscess"],
+        categories: ["pharmacology-parenteral", "med-surg"],
+        questionIds: ["NG-MOD-PERIOP-008"],
       },
     },
     {
@@ -423,7 +433,11 @@ export const recoveryRoomAndPostoperativeCare: CourseModule = {
         "Deep vein thrombosis is one painful swollen warm calf — no Homans' sign, no massage, report; pulmonary embolism is sudden breathlessness, pleuritic pain, tachycardia, hypoxia or collapse — sit up, high-flow oxygen, call; anastomotic leak begins as unexplained tachycardia on days 5–7; delirium is a symptom whose causes (hypoxia, glucose, pain, drugs, infection, dehydration, retention, constipation) are found and treated without restraint or sedation; fat embolism is hypoxia, confusion and petechiae 24–72 hours after a long-bone fracture.",
         "Sepsis is infection with new confusion, a respiratory rate of 22 or more, a systolic pressure of 100 or less or falling urine; the Sepsis Six within the hour takes cultures, lactate and urine output and gives oxygen, fluids and antibiotics, with a malaria test alongside and source control to follow.",
       ],
-      quiz: { keywords: ["post-operative haemorrhage","concealed haemorrhage","early signs of hypovolaemic shock","early recognition of hypovolaemic shock","shock classification","compensated shock","post-operative fever by day","postoperative fever timing","post-operative fever timing","wound dehiscence","warning sign before dehiscence","evisceration","surgical site infection","wound infection","deep vein thrombosis","pulmonary embolism","calf pain","sepsis recognition","sepsis management","septic shock","anastomotic leak recognition","anastomotic leak","paralytic ileus","postoperative confusion","post-operative confusion in the elderly","fat embolism","catheter-associated","hospital-acquired pneumonia","acute kidney injury","pressure injury","anaphylaxis","dvt","embol","dehisc","evisc","sepsis","delirium"] },
+      quiz: {
+        keywords: ["post-operative haemorrhage","concealed haemorrhage","early signs of hypovolaemic shock","early recognition of hypovolaemic shock","shock classification","compensated shock","post-operative fever by day","postoperative fever timing","post-operative fever timing","wound dehiscence","warning sign before dehiscence","evisceration","surgical site infection","wound infection","deep vein thrombosis","pulmonary embolism","calf pain","sepsis recognition","sepsis management","septic shock","anastomotic leak recognition","anastomotic leak","paralytic ileus","postoperative confusion","post-operative confusion in the elderly","fat embolism","catheter-associated","hospital-acquired pneumonia","acute kidney injury","pressure injury","anaphylaxis","dvt","embol","dehisc","evisc","sepsis","delirium"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-PERIOP-009"],
+      },
     },
   ],
 };

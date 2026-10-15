@@ -135,7 +135,11 @@ export const theSurgicalPatientAndPreoperativeCare: CourseModule = {
         "Preoperative assessment finds and corrects the risks: age and reserve, anaemia (find the cause; about 10 g/dL for elective major surgery), sickle cell disease (test everyone; warm, hydrated, oxygenated), diabetes (first on the list), uncontrolled hypertension, heart and lung disease, obesity, malnutrition, jaundice (clotting, vitamin K, hydration), steroids (never omitted), anticoagulants (planned in advance), pregnancy, smoking and herbal medicines (stopped one to two weeks before).",
         "Routine investigations are a full blood count, sickling test, blood group with crossmatch or group-and-save, urinalysis and a pregnancy test where relevant, with electrolytes, glucose, clotting, ECG and chest X-ray by indication; the ASA grade summarises fitness, and psychological, cultural and financial preparation is part of the clinical care.",
       ],
-      quiz: { keywords: ["informed consent for surgery","consent verification","consent and the anxious patient","consent in an unconscious emergency","elements of valid consent","what makes consent valid","refusal of treatment","presumption of capacity","treatment without consent","marking the operative site","elective surgery","emergency surgery","pre-operative assessment","risk factors for wound breakdown","diabetes and surgical wounds","bleeding risk in jaundice","obstructive jaundice observation","herbal remedy","anaemia in ghana","sickle cell crisis","allergy history","latex allergy","frailty","breaking bad news","advocacy for a patient","chaperone and dignity","age of consent","witness","surgery","consent form","capacity","allergy","interpreter","using an interpreter"] },
+      quiz: {
+        keywords: ["informed consent for surgery","consent verification","consent and the anxious patient","consent in an unconscious emergency","elements of valid consent","what makes consent valid","refusal of treatment","presumption of capacity","treatment without consent","marking the operative site","elective surgery","emergency surgery","pre-operative assessment","risk factors for wound breakdown","diabetes and surgical wounds","bleeding risk in jaundice","obstructive jaundice observation","herbal remedy","anaemia in ghana","sickle cell crisis","allergy history","latex allergy","frailty","breaking bad news","advocacy for a patient","chaperone and dignity","age of consent","witness","surgery","consent form","capacity","allergy","interpreter","using an interpreter"],
+        categories: ["safety-infection-control", "med-surg", "leadership-delegation"],
+        questionIds: ["NG-MOD-PERIOP-001"],
+      },
     },
     {
       slug: "preoperative-preparation-fasting-medicines-and-the-checklist",
@@ -258,7 +262,11 @@ export const theSurgicalPatientAndPreoperativeCare: CourseModule = {
         "A single dose of the prophylactic antibiotic is given intravenously within the 60 minutes before incision, repeated for long or bloody operations and not continued as prophylaxis beyond 24 hours; premedication is given after consent and the checklist, at the prescribed time, and the patient does not walk afterwards.",
         "The preoperative checklist — identity, consent and site, allergies, fasting times, observations, results and blood available, glucose, medicines and premedication, bowel and skin preparation, prostheses and valuables, stockings, notes and imaging, infection status, next of kin — is completed with the patient, handed over verbally in reception and signed by both nurses; in an emergency the essentials are compressed, never skipped.",
       ],
-      quiz: { keywords: ["pre-operative fasting","preoperative fasting rationale","fasting in a delayed theatre list","nil by mouth","pre-operative checklist","pre-operative preparation","bowel preparation","deep breathing and coughing","incentive spirometer","perioperative glycaemic control","premedication","thromboprophylaxis","deep vein thrombosis prevention","anti-embolism stockings","antibiotic prophylaxis timing","prophylactic antibiotic","labelling the pre-transfusion sample","group and save","dentures","wristband","fasting","warfarin","pre-operative","enema","stockings","metformin","premed","anxious","steroid withdrawal"] },
+      quiz: {
+        keywords: ["pre-operative fasting","preoperative fasting rationale","fasting in a delayed theatre list","nil by mouth","pre-operative checklist","pre-operative preparation","bowel preparation","deep breathing and coughing","incentive spirometer","perioperative glycaemic control","premedication","thromboprophylaxis","deep vein thrombosis prevention","anti-embolism stockings","antibiotic prophylaxis timing","prophylactic antibiotic","labelling the pre-transfusion sample","group and save","dentures","wristband","fasting","warfarin","pre-operative","enema","stockings","metformin","premed","anxious","steroid withdrawal"],
+        categories: ["safety-infection-control", "pharmacology-parenteral", "med-surg"],
+        questionIds: ["NG-MOD-PERIOP-002", "NG-MOD-PERIOP-003"],
+      },
     },
   ],
 };

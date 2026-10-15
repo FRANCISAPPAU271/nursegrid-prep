@@ -97,6 +97,8 @@ export const heartFailure: CourseModule = {
       ],
       quiz: {
         keywords: ["heart failure", "left ventricular failure", "right ventricular failure", "right sided", "left sided", "pulmonary oedema", "orthopnoea", "ejection fraction", "jugular venous", "third heart sound", "cardiomyopathy", "cor pulmonale"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-CVN-013"],
       },
     },
     {
@@ -204,6 +206,8 @@ export const heartFailure: CourseModule = {
       ],
       quiz: {
         keywords: ["heart failure", "daily weight", "furosemide", "frusemide", "digoxin", "spironolactone", "fluid restriction", "pulmonary oedema", "fluid overload", "low salt", "sodium restriction", "weigh"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-CVN-014", "NG-MOD-CVN-015"],
       },
     },
   ],

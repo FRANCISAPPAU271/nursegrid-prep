@@ -104,6 +104,8 @@ export const hypertension: CourseModule = {
       ],
       quiz: {
         keywords: ["hypertension", "high blood pressure", "raised blood pressure", "target organ", "retinopathy", "left ventricular hypertrophy", "stroke risk", "silent killer", "blood pressure of 1"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-CVN-007", "NG-MOD-CVN-008"],
       },
     },
     {
@@ -209,6 +211,8 @@ export const hypertension: CourseModule = {
       ],
       quiz: {
         keywords: ["antihypertensive", "amlodipine", "nifedipine", "lisinopril", "enalapril", "losartan", "hydrochlorothiazide", "bendroflumethiazide", "methyldopa", "labetalol", "hypertensive emergency", "hypertensive crisis", "hypertensive urgency", "dash diet", "salt restriction", "ace inhibitor", "pre-eclampsia", "magnesium sulfate", "adherence"],
+        categories: ["pharmacology-parenteral", "med-surg"],
+        questionIds: ["NG-MOD-CVN-009"],
       },
     },
   ],
