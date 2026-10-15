@@ -11,6 +11,7 @@
 import { REVIEWED_PASTED_BATCH_1 } from "./reviewed-pasted-batch-1";
 
 import { ORIGINAL_CLINICAL_BATCH_50 } from "./original-clinical-batch-50";
+import { ORIGINAL_CLINICAL_BATCH_SCREENSHOTS } from "./original-clinical-batch-screenshots";
 import { ORIGINAL_NCX_BATCH_1 } from "./original-ncx-batch-1";
 import { ORIGINAL_NCX_BATCH_2 } from "./original-ncx-batch-2";
 import { ORIGINAL_NCX_BATCH_3 } from "./original-ncx-batch-3";
@@ -36,7 +37,7 @@ export type AuthoredQuestion = {
   mediaCaption?: string;
 };
 
-export const AUTHORED_COUNT = 4684;
+export const AUTHORED_COUNT = 4805;
 export const AUTHORED_COUNT_LABEL = "3,200+";
 export const AUTHORED_DIAGRAM_COUNT = 619;
 
@@ -119511,6 +119512,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 },
   ...REVIEWED_PASTED_BATCH_1,
   ...ORIGINAL_CLINICAL_BATCH_50,
+  ...ORIGINAL_CLINICAL_BATCH_SCREENSHOTS,
   ...ORIGINAL_NCX_BATCH_1,
   ...ORIGINAL_NCX_BATCH_2,
   ...ORIGINAL_NCX_BATCH_3,
