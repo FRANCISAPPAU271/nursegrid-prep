@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 480" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="480" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Abdomen: quadrants + classic pains</text>
+<!-- abdomen -->
+<rect x="30" y="60" width="200" height="240" rx="70" fill="#fef9c3" stroke="#713f12" stroke-width="2"/>
+<line x1="130" y1="60" x2="130" y2="300" stroke="#713f12" stroke-width="1.5" stroke-dasharray="6 4"/>
+<line x1="30" y1="180" x2="230" y2="180" stroke="#713f12" stroke-width="1.5" stroke-dasharray="6 4"/>
+<circle cx="130" cy="180" r="3" fill="#713f12"/>
+<g font-size="11" font-weight="bold" fill="#7c2d12">
+<text x="55" y="86">RUQ</text>
+<text x="155" y="86">LUQ</text>
+<text x="55" y="206">RLQ</text>
+<text x="155" y="206">LLQ</text>
+</g>
+<g font-size="8.5" fill="#374151">
+<text x="42" y="102">liver, gallbladder</text>
+<text x="42" y="113">duodenum, R kidney</text>
+<text x="142" y="102">stomach, spleen</text>
+<text x="142" y="113">pancreas tail, L kidney</text>
+<text x="42" y="222">appendix, R ovary</text>
+<text x="42" y="233">caecum, R ureter</text>
+<text x="142" y="222">sigmoid, L ovary</text>
+<text x="142" y="233">desc. colon, L ureter</text>
+</g>
+<text x="130" y="292" font-size="9" fill="#6b7280" text-anchor="middle">bladder / uterus (midline, low)</text>
+<!-- pain map -->
+<text x="250" y="76" font-size="12" font-weight="bold" fill="#111827">Pain points to</text>
+<g font-size="10" fill="#111827">
+<circle cx="258" cy="96" r="4" fill="#b91c1c"/><text x="268" y="100" font-weight="bold">RUQ: gallbladder</text>
+<text x="268" y="112" font-size="9" fill="#6b7280">Murphy's: stops breathing</text>
+<circle cx="258" cy="130" r="4" fill="#b91c1c"/><text x="268" y="134" font-weight="bold">Epigastric: ulcer, pancreatitis</text>
+<text x="268" y="146" font-size="9" fill="#6b7280">pancreatitis bores to the back</text>
+<circle cx="258" cy="164" r="4" fill="#b91c1c"/><text x="268" y="168" font-weight="bold">RLQ: appendicitis</text>
+<text x="268" y="180" font-size="9" fill="#6b7280">McBurney's; navel → RLQ shift</text>
+<circle cx="258" cy="198" r="4" fill="#b91c1c"/><text x="268" y="202" font-weight="bold">LLQ: diverticulitis</text>
+<text x="268" y="214" font-size="9" fill="#6b7280">older adult, fever + tender</text>
+<circle cx="258" cy="232" r="4" fill="#b91c1c"/><text x="268" y="236" font-weight="bold">Suprapubic: bladder, UTI</text>
+<text x="268" y="248" font-size="9" fill="#6b7280">burning, frequency, urgency</text>
+<circle cx="258" cy="266" r="4" fill="#b91c1c"/><text x="268" y="270" font-weight="bold">Flank → groin: kidney stone</text>
+<text x="268" y="282" font-size="9" fill="#6b7280">colicky, restless, haematuria</text>
+<circle cx="258" cy="300" r="4" fill="#7f1d1d"/><text x="268" y="304" font-weight="bold">Rigid + guarding: peritonitis</text>
+<text x="268" y="316" font-size="9" fill="#6b7280">surgical emergency — escalate</text>
+</g>
+<rect x="0" y="340" width="460" height="140" fill="#f1f5f9"/>
+<text x="20" y="362" font-size="10" fill="#111827">Abdomen order is sacred: inspect → auscultate → percuss → palpate — listen before</text>
+<text x="20" y="376" font-size="10" fill="#111827">you touch, because palpation changes bowel sounds. Normal: gurgles every 5–15 s.</text>
+<text x="20" y="390" font-size="10" fill="#111827">Hyperactive (early obstruction, diarrhoea) → hypoactive (ileus, peritonitis) → absent</text>
+<text x="20" y="404" font-size="10" fill="#111827">(5 full minutes of silence) is a worsening ladder. Palpate tender areas LAST; watch</text>
+<text x="20" y="418" font-size="10" fill="#111827">the face, not the abdomen. Rebound tenderness and rigidity mean peritoneum —</text>
+<text x="20" y="432" font-size="10" fill="#111827">stop examining and start escalating. The stethoscope earns its place here.</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Female reproductive: frontal + breast</text>
+<!-- uterus -->
+<path d="M200,80 L260,80 L250,170 L210,170 Z" fill="#fce7f3" stroke="#831843" stroke-width="2"/>
+<rect x="218" y="170" width="24" height="40" fill="#f9a8d4" stroke="#831843" stroke-width="2"/>
+<rect x="214" y="210" width="32" height="50" fill="#fbcfe8" stroke="#831843" stroke-width="1.5"/>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<text x="230" y="110">fundus/body</text>
+<text x="230" y="122" font-size="8" fill="#6b7280">myometrium:</text>
+<text x="230" y="132" font-size="8" fill="#6b7280">oxytocin squeezes</text>
+<text x="230" y="150" font-size="8">endometrium sheds</text>
+<text x="230" y="192">cervix</text>
+<text x="230" y="238">vagina</text>
+</g>
+<!-- tubes + ovaries -->
+<path d="M200,90 C160,85 130,80 110,95" fill="none" stroke="#831843" stroke-width="4"/>
+<path d="M260,90 C300,85 330,80 350,95" fill="none" stroke="#831843" stroke-width="4"/>
+<ellipse cx="95" cy="110" rx="22" ry="28" fill="#fbcfe8" stroke="#831843" stroke-width="1.5"/>
+<ellipse cx="365" cy="110" rx="22" ry="28" fill="#fbcfe8" stroke="#831843" stroke-width="1.5"/>
+<text x="95" y="114" font-size="9" fill="#831843" text-anchor="middle">ovary</text>
+<text x="365" y="114" font-size="9" fill="#831843" text-anchor="middle">ovary</text>
+<g font-size="8" fill="#111827">
+<text x="60" y="70">fimbriae sweep</text>
+<text x="330" y="70">ampulla: fertilisation</text>
+<text x="330" y="150">ectopic lodges here</text>
+<text x="330" y="161">(PID/smoking/IVF risk)</text>
+</g>
+<!-- breast inset -->
+<rect x="20" y="272" width="420" height="86" rx="8" fill="#fdf2f8" stroke="#831843" stroke-width="1"/>
+<text x="230" y="290" font-size="11" font-weight="bold" fill="#111827" text-anchor="middle">Breast: lobules → ducts → nipple (lymph → axilla)</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<circle cx="90" cy="318" r="16" fill="#f9a8d4" stroke="#831843" stroke-width="1"/>
+<text x="90" y="321" font-size="8">lobules</text>
+<text x="90" y="348" font-size="8" fill="#6b7280">make milk</text>
+<line x1="106" y1="318" x2="150" y2="318" stroke="#831843" stroke-width="2"/>
+<circle cx="175" cy="318" r="14" fill="#fbcfe8" stroke="#831843" stroke-width="1"/>
+<text x="175" y="321" font-size="8">ducts</text>
+<text x="175" y="348" font-size="8" fill="#6b7280">carry it</text>
+<line x1="189" y1="318" x2="225" y2="318" stroke="#831843" stroke-width="2"/>
+<ellipse cx="250" cy="318" rx="14" ry="10" fill="#831843"/>
+<text x="250" y="321" font-size="8" fill="#ffffff">nipple</text>
+<text x="250" y="348" font-size="8" fill="#6b7280">+ areola</text>
+<path d="M300,318 L360,300" stroke="#1d4ed8" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="365" y="300" font-size="8" fill="#1d4ed8">axillary nodes</text>
+<text x="365" y="311" font-size="8" fill="#1d4ed8">(sentinel first)</text>
+<text x="330" y="340" font-size="8" fill="#6b7280">most cancers start in ducts</text>
+</g>
+<rect x="0" y="370" width="460" height="120" fill="#f1f5f9"/>
+<text x="20" y="392" font-size="10" fill="#111827">Red flags: postcoital/intermenstrual bleeding or discharge (cervix — screen: HPV</text>
+<text x="20" y="406" font-size="10" fill="#111827">vaccine + VIA/Pap + treat precancer); amenorrhoea + pain + bleeding (ectopic until</text>
+<text x="20" y="420" font-size="10" fill="#111827">proven otherwise — ruptured = shock); new lump, nipple change/discharge, skin</text>
+<text x="20" y="434" font-size="10" fill="#111827">dimpling or peau d'orange (breast — triple assessment: exam + imaging + biopsy).</text>
+<text x="20" y="448" font-size="10" fill="#111827">Pelvic floor (levator ani) holds all of it — Kegels prevent prolapse + incontinence;</text>
+<text x="20" y="462" font-size="10" fill="#111827">teach every postnatal woman before discharge, not at the 6-week problem visit.</text>
+</svg>

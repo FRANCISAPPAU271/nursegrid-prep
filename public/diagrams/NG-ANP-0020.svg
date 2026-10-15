@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 480" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="480" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Airways, lobes + pleura</text>
+<!-- trachea -->
+<rect x="215" y="44" width="30" height="70" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+<g stroke="#0369a1" stroke-width="1">
+<line x1="215" y1="56" x2="245" y2="56"/><line x1="215" y1="68" x2="245" y2="68"/><line x1="215" y1="80" x2="245" y2="80"/><line x1="215" y1="92" x2="245" y2="92"/>
+</g>
+<text x="260" y="72" font-size="9" fill="#111827">trachea (C-rings)</text>
+<text x="260" y="104" font-size="9" fill="#111827">carina ↓</text>
+<!-- bronchi -->
+<path d="M230,114 L150,150" stroke="#0369a1" stroke-width="10" stroke-linecap="round" fill="none"/>
+<path d="M230,114 L310,160" stroke="#0369a1" stroke-width="8" stroke-linecap="round" fill="none"/>
+<text x="120" y="140" font-size="9" fill="#111827">R main: wider,</text>
+<text x="120" y="151" font-size="9" fill="#111827">steeper ↓</text>
+<text x="315" y="172" font-size="9" fill="#111827">L main: narrower,</text>
+<text x="315" y="183" font-size="9" fill="#111827">more angled</text>
+<!-- lungs -->
+<path d="M60,170 C60,150 90,140 120,150 L190,185 C200,230 195,290 170,320 L90,320 C65,290 55,230 60,170 Z" fill="#f0f9ff" stroke="#0369a1" stroke-width="2"/>
+<path d="M270,195 C280,185 300,180 330,190 L395,215 C405,260 400,295 375,320 L290,320 C270,290 262,240 270,195 Z" fill="#f0f9ff" stroke="#0369a1" stroke-width="2"/>
+<!-- fissures -->
+<path d="M95,225 L185,215" stroke="#0369a1" stroke-width="1.5"/>
+<path d="M70,300 L170,215" stroke="#0369a1" stroke-width="1.5"/>
+<path d="M285,300 L360,215" stroke="#0369a1" stroke-width="1.5"/>
+<g font-size="10" font-weight="bold" fill="#0c4a6e" text-anchor="middle">
+<text x="120" y="205">upper</text>
+<text x="140" y="245">middle</text>
+<text x="115" y="300">lower</text>
+<text x="345" y="245">upper</text>
+<text x="330" y="300">lower</text>
+</g>
+<text x="120" y="336" font-size="11" font-weight="bold" fill="#111827" text-anchor="middle">RIGHT: 3 lobes</text>
+<text x="335" y="336" font-size="11" font-weight="bold" fill="#111827" text-anchor="middle">LEFT: 2 + cardiac notch</text>
+<!-- pleura inset -->
+<rect x="60" y="348" width="340" height="34" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="230" y="362" font-size="10" fill="#111827" text-anchor="middle">Pleura: parietal (wall) + visceral (lung) — fluid film between.</text>
+<text x="230" y="375" font-size="10" fill="#111827" text-anchor="middle">Air in the space = pneumothorax. Pus/fluid = effusion/empyema.</text>
+<rect x="0" y="394" width="460" height="86" fill="#f1f5f9"/>
+<text x="20" y="416" font-size="10" fill="#111827">Aspiration goes RIGHT (wider, steeper) — so do over-advanced ET tubes: check bilateral</text>
+<text x="20" y="430" font-size="10" fill="#111827">air entry + capnography after every intubation. Tension pneumothorax (deviated</text>
+<text x="20" y="444" font-size="10" fill="#111827">trachea, hyperresonant, silent, hypotensive) is needled on sight — never wait for X-ray.</text>
+<text x="20" y="458" font-size="10" fill="#111827">Gas exchange lives at the alveolus — see bank diagram NG-ANP-0084.</text>
+</svg>

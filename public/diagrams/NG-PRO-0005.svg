@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Code domains + scope triangle + boundaries</text>
+<text x="20" y="52" font-size="12" font-weight="bold" fill="#111827">CODE: six duties (NMC code, every shift)</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="60" width="128" height="52" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="84" y="78" font-weight="bold">PRIORITIZE PEOPLE</text>
+<text x="84" y="90" font-size="8">dignity, needs first,</text>
+<text x="84" y="101" font-size="8">listen, advocate</text>
+<rect x="156" y="60" width="128" height="52" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="220" y="78" font-weight="bold">PRACTISE EFFECTIVELY</text>
+<text x="220" y="90" font-size="8">evidence, competence,</text>
+<text x="220" y="101" font-size="8">refer when unsure</text>
+<rect x="292" y="60" width="148" height="52" rx="6" fill="#fef2f2" stroke="#7f1d1d" stroke-width="1.5"/>
+<text x="366" y="78" font-weight="bold">PRESERVE SAFETY</text>
+<text x="366" y="90" font-size="8">no harm, speak up,</text>
+<text x="366" y="101" font-size="8">staffing honesty</text>
+<rect x="20" y="118" width="128" height="52" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="84" y="136" font-weight="bold">COMMUNICATE</text>
+<text x="84" y="148" font-size="8">clear, kind, recorded,</text>
+<text x="84" y="159" font-size="8">handover complete</text>
+<rect x="156" y="118" width="128" height="52" rx="6" fill="#f3e8ff" stroke="#6b21a8" stroke-width="1"/>
+<text x="220" y="136" font-weight="bold">BE OPEN (CANDOUR)</text>
+<text x="220" y="148" font-size="8">admit errors, disclose,</text>
+<text x="220" y="159" font-size="8">learn, apologise</text>
+<rect x="292" y="118" width="148" height="52" rx="6" fill="#ffedd5" stroke="#7c2d12" stroke-width="1"/>
+<text x="366" y="136" font-weight="bold">UPHOLD TRUST + LEAD</text>
+<text x="366" y="148" font-size="8">integrity, role model,</text>
+<text x="366" y="159" font-size="8">mentor juniors</text>
+</g>
+<text x="20" y="194" font-size="12" font-weight="bold" fill="#111827">SCOPE = register + competence + context</text>
+<g font-size="10" fill="#111827" text-anchor="middle">
+<path d="M230,206 L130,286 L330,286 Z" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+<text x="230" y="232" font-weight="bold">REGISTER</text>
+<text x="230" y="244" font-size="8">(cadre + PIN)</text>
+<text x="170" y="276" font-weight="bold">COMPETENCE</text>
+<text x="290" y="276" font-weight="bold">CONTEXT</text>
+<text x="170" y="286" font-size="8">(trained + current)</text>
+<text x="290" y="286" font-size="8">(orders + setting)</text>
+</g>
+<text x="20" y="312" font-size="12" font-weight="bold" fill="#111827">BOUNDARIES: therapeutic, never personal</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="330">• gifts: token perishables shared with team OK; money/influence NEVER — decline kindly, document</text>
+<text x="30" y="346">• relationships: sexual/romantic with current patients = ERASURE; ex-patients: still forbidden territory</text>
+<text x="30" y="362">• social media: no patients, cases, photos, rants about work — private accounts still identify you</text>
+<text x="30" y="378">• money/religion/politics: never borrow/lend, preach or campaign at the bedside</text>
+</g>
+<rect x="0" y="390" width="460" height="100" fill="#f1f5f9"/>
+<text x="20" y="412" font-size="10" fill="#111827">Emergency doctrine: beyond-scope acts in true emergency (no competent help</text>
+<text x="20" y="426" font-size="10" fill="#111827">available, act within best ability, refer the instant help arrives, document necessity)</text>
+<text x="20" y="440" font-size="10" fill="#111827">are DEFENSIBLE — routine beyond-scope work is not. Standing orders/protocols</text>
+<text x="20" y="454" font-size="10" fill="#111827">(CHPS prescribing, immunization, emergency contraception) EXTEND scope lawfully</text>
+<text x="20" y="468" font-size="10" fill="#111827">— follow them exactly, document under them, escalate outside them.</text>
+</svg>

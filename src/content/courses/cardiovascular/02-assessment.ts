@@ -1,0 +1,287 @@
+import type { CourseModule } from "../types";
+
+export const assessment: CourseModule = {
+  slug: "assessment",
+  title: "Assessing the cardiovascular patient",
+  summary: "A structured history, a hands-on examination, an accurate blood pressure and the investigations that follow — including the nursing care around cardiac catheterisation.",
+  lessons: [
+    {
+      slug: "focused-cardiovascular-assessment",
+      title: "Focused cardiovascular history and examination",
+      minutes: 15,
+      objectives: [
+        "Take a focused cardiovascular history using a structured pain assessment.",
+        "Perform inspection, palpation and auscultation of the cardiovascular system in a logical order.",
+        "Grade peripheral pulses and oedema and assess capillary refill.",
+        "Recognise the findings that require immediate escalation.",
+      ],
+      blocks: [
+        {
+          type: "list",
+          heading: "History — the symptoms that matter",
+          items: [
+            "<strong>Chest pain</strong> — use PQRST: <strong>P</strong>rovocation and palliation (exertion? rest? breathing? position?), <strong>Q</strong>uality (crushing, tight, sharp, burning), <strong>R</strong>egion and radiation (central? jaw, arm, back?), <strong>S</strong>everity (0–10), <strong>T</strong>iming (onset, duration, constant or intermittent). Cardiac pain is typically heavy, central, radiates and lasts more than a few minutes.",
+            "<strong>Breathlessness</strong> — on exertion (how many steps or how far on the flat?), orthopnoea (how many pillows?), paroxysmal nocturnal dyspnoea (waking gasping in the night).",
+            "<strong>Palpitations</strong> — fast or slow, regular or irregular, sudden or gradual, with dizziness or collapse?",
+            "<strong>Syncope or near-syncope</strong> — on exertion it suggests aortic stenosis or an arrhythmia and is a red flag.",
+            "<strong>Oedema</strong> — ankles, the sacrum in bed-bound patients, abdominal swelling, tight clothes, weight gain.",
+            "<strong>Leg symptoms</strong> — pain on walking relieved by rest (intermittent claudication), cold or discoloured feet, ulcers that will not heal.",
+            "<strong>Risk factors and background</strong> — hypertension, diabetes, smoking, alcohol, family history, previous rheumatic fever or sore throats as a child, kidney disease, pregnancy and recent childbirth, current medicines and herbal preparations.",
+          ],
+        },
+        {
+          type: "text",
+          heading: "Inspection — look before you touch",
+          paragraphs: [
+            "General appearance (distress, pallor, sweating, cyanosis of the lips and tongue), position (sitting bolt upright; leaning forward in pericarditis), breathing pattern and rate, the jugular venous pressure with the patient at 45°, a visible apex beat, scars from previous surgery, clubbing and splinter haemorrhages in the nails, xanthelasma around the eyes, ankle and sacral oedema, leg ulcers, and the colour, temperature and hair distribution of the legs.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Palpation",
+          items: [
+            "<strong>Radial pulse</strong> — rate (for a full minute if irregular), rhythm, volume and character. Compare both sides.",
+            "<strong>Apical pulse</strong> — fifth intercostal space, mid-clavicular line, counted for one full minute before digoxin or whenever the radial pulse is irregular. A radial count lower than the apical count is a <strong>pulse deficit</strong>, typical of atrial fibrillation.",
+            "<strong>Peripheral pulses</strong> — carotid (one side at a time), brachial, femoral, popliteal, posterior tibial and dorsalis pedis. Grade 0 absent, 1+ weak or thready, 2+ normal, 3+ full or bounding.",
+            "<strong>Capillary refill</strong> — press the nail bed or sternum for 5 seconds; colour should return within 2 seconds in a warm room. Prolonged refill means poor perfusion or a cold patient.",
+            "<strong>Skin</strong> — cold and clammy in shock; warm and flushed in early sepsis; temperature difference between the two legs in arterial disease.",
+            "<strong>Oedema</strong> — press firmly over the tibia or sacrum for 5 seconds. Grade 1+ a slight pit that disappears quickly; 2+ a deeper pit lasting 10–15 seconds; 3+ a deep pit lasting more than a minute with a visibly swollen limb; 4+ a very deep pit lasting 2–5 minutes with gross swelling.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Auscultation — the five areas",
+          columns: ["Area", "Location", "Listen for"],
+          rows: [
+            ["Aortic", "2nd intercostal space, right sternal border", "S2 loudest; the murmur of aortic stenosis, radiating to the neck"],
+            ["Pulmonic", "2nd intercostal space, left sternal border", "Splitting of S2; pulmonary murmurs"],
+            ["Erb’s point", "3rd intercostal space, left sternal border", "S1 and S2 equally; aortic regurgitation"],
+            ["Tricuspid", "4th–5th intercostal space, left sternal border", "Tricuspid murmurs, louder on inspiration"],
+            ["Mitral (apex)", "5th intercostal space, mid-clavicular line", "S1 loudest; mitral stenosis and regurgitation; S3 and S4 with the bell"],
+          ],
+        },
+        {
+          type: "text",
+          paragraphs: [
+            "Listen in a quiet room. Use the <strong>diaphragm</strong> for high-pitched sounds (S1, S2 and most murmurs) and the <strong>bell</strong>, applied lightly, for low-pitched sounds (S3, S4 and mitral stenosis). Then move to the lung bases: fine crackles that do not clear with coughing suggest pulmonary oedema. The order — “<strong>A</strong>ll <strong>P</strong>atients <strong>E</strong>njoy <strong>T</strong>ime <strong>M</strong>agazine” — keeps you from missing an area.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "warning",
+          title: "Escalate immediately",
+          body: "New chest pain; a systolic pressure below 90 mmHg or a fall of more than 40 mmHg from baseline; a heart rate above 130 or below 40; new confusion or drowsiness; cold mottled peripheries or capillary refill over 3 seconds; urine output below 0.5 mL/kg/hour; or an absent pulse in a limb that is pale, painful and cold.",
+        },
+      ],
+      keyPoints: [
+        "Use PQRST for every chest pain — cardiac pain is heavy, central, radiating and prolonged.",
+        "Count the apical pulse for a full minute when the rhythm is irregular or before digoxin; a pulse deficit suggests atrial fibrillation.",
+        "Pulses are graded 0 to 3+, oedema 1+ to 4+, and capillary refill should be under 2 seconds.",
+        "Auscultate aortic, pulmonic, Erb’s point, tricuspid and mitral areas, then the lung bases.",
+        "Cold peripheries, falling urine output and new confusion are perfusion signs that matter more than a single blood pressure reading.",
+      ],
+      quiz: {
+        keywords: ["apex beat", "apical pulse", "jugular venous", "heart sounds", "murmur", "capillary refill", "pitting oedema", "peripheral pulse", "pedal pulse", "chest pain assessment", "orthopnoea", "pulse deficit", "cardiovascular assessment"],
+      },
+    },
+    {
+      slug: "measuring-blood-pressure-and-vital-signs",
+      title: "Measuring blood pressure correctly — and reading the other vital signs with it",
+      minutes: 14,
+      objectives: [
+        "Prepare the patient and select the correct cuff for an accurate blood pressure.",
+        "Measure blood pressure by auscultation and identify the Korotkoff sounds.",
+        "Identify common sources of error and the direction in which each distorts the reading.",
+        "Measure and interpret postural blood pressure and the pulse deficit.",
+      ],
+      blocks: [
+        {
+          type: "diagram",
+          src: "/diagrams/NG-FND-2588.svg",
+          alt: "Adult normal ranges for vital signs, the errors that distort each measurement, the effect of cuff size and how to measure postural hypotension",
+          caption: "Normal adult ranges, the measurement errors that distort each sign, cuff-size effects and the postural blood pressure technique.",
+        },
+        {
+          type: "list",
+          heading: "The correct technique",
+          style: "steps",
+          items: [
+            "Rest the patient for at least <strong>5 minutes</strong>, seated, back supported, feet flat on the floor and legs uncrossed. No caffeine, smoking or exercise in the previous 30 minutes; bladder empty; no talking during the measurement.",
+            "Choose the cuff: the bladder should encircle at least <strong>80%</strong> of the arm and its width should be about <strong>40%</strong> of the arm circumference. Record the cuff size used.",
+            "Support the bare arm at <strong>heart level</strong> with the palm up. Place the cuff 2–3 cm above the antecubital fossa with the artery marker over the brachial artery.",
+            "Estimate the systolic pressure by palpating the radial pulse while inflating; note where it disappears, deflate fully and wait 30 seconds.",
+            "Inflate to <strong>30 mmHg above</strong> the palpated systolic. Deflate at <strong>2–3 mmHg per second</strong> with the stethoscope diaphragm over the brachial artery (not under the cuff).",
+            "The first clear tapping sound (<strong>Korotkoff phase I</strong>) is the systolic pressure; the point at which the sounds disappear (<strong>phase V</strong>) is the diastolic pressure.",
+            "Measure <strong>both arms</strong> at the first visit and use the higher arm thereafter. Take two readings 1–2 minutes apart and record the average.",
+            "Record the reading, the arm, the position and the cuff size, exactly as measured — do not round to the nearest 10.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Errors and the direction of the error",
+          columns: ["Error", "Effect on the reading"],
+          rows: [
+            ["Cuff too small or wrapped loosely", "Falsely high"],
+            ["Cuff too large", "Falsely low"],
+            ["Arm below heart level, or unsupported so the patient holds it up", "Falsely high"],
+            ["Arm above heart level", "Falsely low"],
+            ["Patient talking, legs crossed, back unsupported, full bladder, recent caffeine or smoking", "Falsely high — by 5–15 mmHg"],
+            ["Deflating too fast", "Systolic underestimated, diastolic overestimated"],
+            ["Re-inflating without waiting 30 seconds", "Venous congestion gives a falsely high diastolic"],
+            ["Clothing under the cuff, or the stethoscope pushed under the cuff", "Unreliable sounds"],
+            ["Defective or uncalibrated device", "Error in either direction — check the equipment, not only the patient"],
+          ],
+        },
+        {
+          type: "text",
+          heading: "Postural (orthostatic) blood pressure",
+          paragraphs: [
+            "Measure after the patient has been lying for 5 minutes, then at <strong>1 and 3 minutes after standing</strong>. A fall of <strong>20 mmHg or more in systolic</strong> or <strong>10 mmHg or more in diastolic</strong>, or dizziness on standing, defines orthostatic hypotension. Common causes are dehydration, antihypertensives, diuretics, bleeding, prolonged bed rest and autonomic neuropathy in diabetes. Stay beside the patient throughout — this is when falls happen.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Read the other vital signs with it",
+          items: [
+            "<strong>Pulse</strong> — rate, rhythm and volume. Tachycardia with a normal blood pressure is early shock until proven otherwise.",
+            "<strong>Respiratory rate</strong> — the most sensitive early warning sign and the one most often estimated rather than counted. Count for a full minute.",
+            "<strong>Oxygen saturation</strong> — a reading below 94% in a patient without chronic lung disease needs action. Poor perfusion, cold hands, nail varnish, movement and bright light make it unreliable, and in anaemia or carbon monoxide poisoning a normal reading is falsely reassuring because the probe measures the proportion of haemoglobin that is saturated, not how much haemoglobin there is.",
+            "<strong>Temperature</strong> — fever raises the heart rate by roughly 10 beats per minute for each degree Celsius.",
+            "<strong>Pulse deficit</strong> — the apical rate minus the radial rate, counted simultaneously by two nurses for one full minute; present in atrial fibrillation and frequent ectopic beats.",
+            "Use an early warning score where one exists and escalate on the score, not on your impression — and always report the <strong>trend</strong>, not a single number.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "How these are examined",
+          body: "A question that says a nurse used a small cuff on a large arm is asking you to recognise a falsely high reading. A question about an older patient who felt dizzy on standing is asking for a postural blood pressure — lying, then standing at 1 and 3 minutes — and for the nurse to stay with the patient.",
+        },
+      ],
+      keyPoints: [
+        "Five minutes’ rest, the correct cuff, arm at heart level and no talking — much clinic “hypertension” is a measurement error.",
+        "Small cuff = falsely high; large cuff = falsely low; arm below the heart = falsely high.",
+        "Korotkoff phase I is the systolic pressure; phase V (disappearance) is the diastolic pressure.",
+        "Orthostatic hypotension: a fall of 20 mmHg systolic or 10 mmHg diastolic within 3 minutes of standing.",
+        "Never report a blood pressure without the pulse, the respiratory rate and the trend.",
+      ],
+      quiz: {
+        keywords: ["blood pressure measurement", "measuring blood pressure", "cuff", "postural", "orthostatic", "korotkoff", "pulse deficit", "vital signs", "pulse oximetry", "oxygen saturation", "respiratory rate", "early warning"],
+      },
+    },
+    {
+      slug: "cardiac-investigations-and-nursing-care",
+      title: "Cardiac investigations and the nursing care around them",
+      minutes: 19,
+      objectives: [
+        "Explain the purpose of the common cardiac investigations and what the nurse must prepare.",
+        "Interpret troponin, BNP, lipid and electrolyte results in context.",
+        "Provide safe care before and after cardiac catheterisation and angiography.",
+        "Recognise the complications of invasive cardiac procedures.",
+      ],
+      blocks: [
+        {
+          type: "table",
+          heading: "Blood tests the cardiac nurse must know",
+          columns: ["Test", "What it tells you", "Notes"],
+          rows: [
+            ["Troponin I or T", "Cardiac muscle injury", "Rises 3–6 hours after injury, peaks at 12–24 hours and stays raised for 7–14 days. Repeat at 3–6 hours if the first result is normal. Also raised in renal failure, sepsis, pulmonary embolism and myocarditis"],
+            ["CK-MB", "Cardiac muscle injury", "Rises at 4–6 hours, peaks at 18–24 hours and normalises within 2–3 days — useful for detecting re-infarction"],
+            ["BNP or NT-proBNP", "Ventricular stretch", "BNP above 100 pg/mL supports heart failure; a normal value makes it unlikely"],
+            ["Lipid profile (fasting 9–12 hours)", "Atherosclerotic risk", "Targets: total cholesterol under 5.2 mmol/L; LDL under 2.6 mmol/L (lower after an infarct); HDL above 1.0 mmol/L; triglycerides under 1.7 mmol/L"],
+            ["Urea, creatinine and electrolytes", "Renal function; potassium and magnesium for the rhythm", "Potassium 3.5–5.0 mmol/L. Check before ACE inhibitors, spironolactone, digoxin, diuretics and contrast"],
+            ["Full blood count", "Anaemia as a cause of angina or heart failure; platelets before anticoagulation", "A haemoglobin below 7–8 g/dL may need transfusion in a cardiac patient"],
+            ["Blood glucose and HbA1c", "Diabetes as a risk factor", "Stress hyperglycaemia is common after an infarct and worsens outcome"],
+            ["INR and aPTT", "Warfarin and heparin monitoring", "INR 2–3 for most indications; aPTT 1.5–2.5 times control on a heparin infusion"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Non-invasive investigations",
+          items: [
+            "<strong>12-lead ECG</strong> — rhythm, ischaemia, infarction, hypertrophy, electrolyte effects. Record within 10 minutes of chest pain and repeat with any change in symptoms.",
+            "<strong>Chest X-ray</strong> — heart size (a cardiothoracic ratio above 50% is cardiomegaly), pulmonary oedema, pleural effusion.",
+            "<strong>Echocardiography</strong> — chamber size, wall motion, ejection fraction, valve function, pericardial fluid and vegetations. No preparation for the trans-thoracic study; the trans-oesophageal study needs fasting, sedation and nil by mouth until the gag reflex returns.",
+            "<strong>Exercise stress test</strong> — ST changes with exertion. Light meal only, no caffeine, comfortable shoes; beta-blockers are sometimes withheld on instruction. The test is stopped for chest pain, ST depression, a falling blood pressure or an arrhythmia.",
+            "<strong>24-hour Holter monitor</strong> — for intermittent palpitations or unexplained syncope; the patient keeps a diary of symptoms and activity.",
+            "<strong>Ambulatory or home blood pressure monitoring</strong> — confirms hypertension and excludes “white-coat” readings.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Contrast and radiation safety — the nurse's checks",
+          columns: ["Check", "Why it matters", "What the nurse does"],
+          rows: [
+            ["<strong>Previous contrast reaction</strong>", "A prior reaction to CT dye or angiography dye predicts the next one — hives, bronchospasm or anaphylaxis", "Ask every time; document and flag; alert the team so premedication and resuscitation readiness are arranged"],
+            ["<strong>Kidney function</strong>", "Iodinated contrast can injure kidneys, especially with CKD, dehydration, heart failure or diabetes", "Check a recent creatinine and eGFR; hydrate before and after unless fluid-restricted; hold metformin when eGFR is below 30 or AKI threatens, restarting only when creatinine is back to baseline"],
+            ["<strong>Pregnancy</strong>", "Radiation and contrast reach the fetus", "Ask every woman of childbearing age; shield the abdomen; postpone non-urgent studies; gadolinium MRI avoided in pregnancy unless essential"],
+            ["<strong>Allergies, asthma and fasting</strong>", "Asthma raises bronchospasm risk; a full stomach risks aspiration under sedation", "Confirm the allergy band and NPO status — usually 6 hours for TOE and catheter procedures; check blood glucose in diabetes"],
+            ["<strong>Anticoagulants and bleeding risk</strong>", "Arterial puncture on full anticoagulation bleeds", "Report warfarin, DOACs, heparin and dual antiplatelets; know which the cardiologist wants held and which continued — never decide alone"],
+            ["<strong>Metal, devices and claustrophobia (MRI)</strong>", "The magnet pulls metal and can disturb devices", "Screen for pacemakers, ICDs, stents, coils, implants and metal work; warn about noise, tunnel and 30–60 minutes of stillness; arrange sedation for the severely claustrophobic"],
+          ],
+        },
+        {
+          type: "text",
+          heading: "Explaining the test — words that get consent",
+          paragraphs: [
+            "The doctor explains the risks and takes the consent — but the patient asks the nurse what will <em>actually happen</em>. Plain words, given before the trolley arrives, turn a frightened patient into a cooperative one. Echocardiography: warm gel and a probe on the chest, pictures made with sound, about half an hour, nothing painful. Exercise stress: you walk on a belt that gets faster while we watch your heart — tell us the moment you feel chest pain or dizziness, and we stop immediately. Holter: a small recorder you wear home for a day — press the button and write the time whenever you feel symptoms.",
+            "For catheterisation: a thin tube through the wrist or groin to the heart while you are awake but sleepy; dye that may make you feel hot and flushed for seconds; pressure but not sharp pain; you must lie still and may be asked to cough or breathe deeply. For CT coronary angiography: an injection of dye through a cannula, beta-blocker tablets first to slow the heart, hold your breath for a few seconds, the warm flush is normal. Always close with three checks: what they must not eat or drink and from when, which tablets to take or hold, and who to tell if chest pain, bleeding or breathlessness follows the test.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Cardiac catheterisation and angiography — before the procedure",
+          items: [
+            "Informed consent is obtained by the doctor; explain that a warm flush, a metallic taste and brief palpitations are normal when the dye is injected.",
+            "Nil by mouth for 6–8 hours; most cardiac medicines continue with a sip of water unless the team says otherwise.",
+            "Ask about allergy to iodine, shellfish or previous contrast; check creatinine and potassium; <strong>withhold metformin</strong> on the day and for 48 hours afterwards until renal function is confirmed normal.",
+            "Record baseline vital signs and <strong>mark the distal pulses</strong> (dorsalis pedis and posterior tibial for a femoral approach, radial for a wrist approach) so they can be found quickly afterwards.",
+            "Prepare the site, secure IV access, remove jewellery and dentures according to protocol, and have the patient empty the bladder.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "After the procedure",
+          items: [
+            "<strong>Femoral approach:</strong> bed rest with the leg straight and the head of the bed no higher than 30° for 4–6 hours (less with a closure device); the patient must not flex the hip. <strong>Radial approach:</strong> compression band, wrist kept still, check the radial pulse and the colour and warmth of the hand.",
+            "Observe the puncture site for bleeding or haematoma and check the distal pulses, colour, temperature and sensation <strong>every 15 minutes for the first hour</strong>, then half-hourly, then hourly as per protocol.",
+            "Vital signs on the same schedule. Report chest pain, an arrhythmia, hypotension, or a vagal episode (bradycardia, nausea and sweating when the sheath is removed).",
+            "Encourage oral fluids, or give IV fluids as prescribed, to flush the contrast and protect the kidneys; monitor urine output.",
+            "If the site bleeds, apply firm direct pressure just above the puncture, keep the patient flat and call for help.",
+            "Teach the patient to report bleeding, swelling, numbness or a cold limb after discharge and to avoid heavy lifting for several days.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Recovery and red flags after invasive and contrast studies",
+          items: [
+            "<strong>After TOE:</strong> nothing by mouth until the gag reflex is back (usually 1–2 hours) — then sips first. Sore throat and a streak of blood in saliva are common; fever, neck pain, vomiting blood or chest pain are not — think oesophageal injury and escalate fast.",
+            "<strong>After CT with contrast:</strong> watch the cannula site for extravasation (swelling, blistering — elevate, cold compress, inform radiology); delayed hives or wheeze can appear hours later; push fluids unless restricted and recheck creatinine in at-risk patients.",
+            "<strong>After a stress test:</strong> stay with the patient until ECG, pain and blood pressure are back to baseline; prolonged chest pain, new arrhythmia or a pressure that will not recover needs the crash trolley near and the doctor present — dobutamine effects wear off within minutes of stopping the infusion.",
+            "<strong>After catheterisation — beyond the groin:</strong> chest pain (coronary dissection or spasm), weakness or speech change (stroke from a dislodged plaque), a new murmur or breathlessness, and falling urine output with rising creatinine (contrast kidney injury in the next 48 hours).",
+            "<strong>After cardiac MRI:</strong> gadolinium reactions are uncommon but ask about rash or breathlessness before discharge; the sedated or anxious patient needs observation until fully awake; document device checks for pacemaker patients.",
+            "<strong>Hand over in writing:</strong> what was done, dye volume and type, access site and closure, vitals trend, urine output, and exactly what to watch overnight — the night nurse cannot watch for what she was never told.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "warning",
+          title: "Two emergencies after a femoral puncture",
+          body: "A pale, cold, pulseless limb is arterial occlusion. An expanding swelling at the site, or back or flank pain with a falling blood pressure, may be a retroperitoneal bleed. Both need the doctor immediately — not at the next scheduled check.",
+        },
+      ],
+      keyPoints: [
+        "Troponin rises 3–6 hours after injury; a single normal result on arrival does not exclude infarction — repeat it.",
+        "Potassium and renal function are checked before ACE inhibitors, spironolactone, digoxin, diuretics and contrast.",
+        "Hold metformin around contrast studies and encourage fluids afterwards to protect the kidneys.",
+        "After femoral catheterisation: leg straight, check the site and distal pulses every 15 minutes in the first hour.",
+        "A cold pulseless limb or an expanding haematoma is reported immediately.",
+        "Screen every contrast study for prior reaction, kidney function, pregnancy, anticoagulants and NPO status — and hold metformin when AKI threatens.",
+        "After TOE keep nil by mouth until the gag returns; after any catheter study watch beyond the groin for chest pain, stroke signs and falling urine output.",
+      ],
+      quiz: {
+        keywords: ["troponin", "cardiac enzyme", "cardiac catheterisation", "cardiac catheterization", "angiography", "angiogram", "echocardiogra", "cholesterol", "lipid", "contrast", "stress test", "natriuretic", "metformin", "femoral", "transoesophageal", "ct coronary", "cardiac mri", "gadolinium", "dobutamine", "informed consent", "extravasation"],
+      },
+    },
+  ],
+};

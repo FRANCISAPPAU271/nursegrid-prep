@@ -1,0 +1,293 @@
+import type { CourseModule } from "../types";
+
+export const raisedIcpAndHeadInjury: CourseModule = {
+  slug: "raised-icp-and-head-injury",
+  title: "Raised intracranial pressure, brain tumours, hydrocephalus and head injury",
+  summary: "What happens inside the closed box of the skull when the brain swells or bleeds, the early and late signs of rising pressure, the nursing measures that lower it, and the head-injured patient from the roadside to discharge — including the lucid interval that kills the patient who 'looked fine'. Brain tumours and hydrocephalus join as the mass lesions behind the pressure, with the shunts that relieve it and the malfunction drill.",
+  lessons: [
+    {
+      slug: "raised-intracranial-pressure",
+      title: "Raised intracranial pressure",
+      minutes: 16,
+      objectives: [
+        "Explain the Monro–Kellie doctrine, cerebral perfusion pressure and the causes of raised intracranial pressure.",
+        "Recognise early and late signs, Cushing's triad and the patterns of brain herniation.",
+        "Deliver the nursing measures that lower intracranial pressure and avoid those that raise it.",
+        "Describe the medical and surgical treatments — osmotherapy, ventilation, CSF drainage, decompression — and the monitoring they require.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "A closed box with one exit",
+          paragraphs: [
+            "Normal intracranial pressure (ICP) is 5–15 mmHg. The skull holds brain, blood and cerebrospinal fluid in a fixed volume (<strong>Monro–Kellie</strong>). When something is added — a haematoma, oedema around a tumour, infarct or contusion, blocked CSF (hydrocephalus), an abscess, or swelling after hypoxia, meningitis or hepatic failure — the body compensates by squeezing CSF into the spinal canal and venous blood out of the head. Compensation is silent and brief. Once it is exhausted, small additions produce large pressure rises, perfusion falls, the ischaemic brain swells further, and the brain is pushed towards the only exit, the foramen magnum (<strong>herniation</strong> or coning), compressing the brainstem that keeps the patient breathing.",
+            "What the brain needs is flow. <strong>Cerebral perfusion pressure = mean arterial pressure − ICP</strong>; it must stay above about 60 mmHg. So a rising ICP can be made worse by a falling blood pressure (shock, over-sedation, excessive antihypertensives), and the body's last defence — the <strong>Cushing response</strong> — is to drive the blood pressure up to force blood through, which reflexly slows the heart. Hypertension with bradycardia in a drowsy patient is the brain shouting for help, and it is late.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-CLN-2911.svg",
+          alt: "Glasgow Coma Scale components, why the total conceals the pattern, the earliest sign of rising intracranial pressure, Cushing's triad as a late sign, and nursing actions that lower intracranial pressure",
+          caption: "The earliest sign of rising pressure is a change in the patient — restless, drowsy, not quite himself. Cushing's triad is the last warning. The nursing actions in between are what keep the pressure down.",
+        },
+        {
+          type: "table",
+          heading: "Signs — early to late",
+          columns: ["Stage", "Adults and older children", "Infants"],
+          rows: [
+            ["<strong>Early</strong> (compensating)", "Change in conscious level or behaviour — restlessness, irritability, drowsiness, confusion, slowed responses; <strong>headache</strong> worse in the morning, on lying flat, coughing, straining or bending; <strong>vomiting</strong>, often without nausea and sometimes projectile; blurred or double vision (sixth nerve); papilloedema on fundoscopy (takes hours to days); mild weakness or pronator drift on the opposite side", "Irritability, high-pitched cry, poor feeding, vomiting, lethargy, <strong>bulging tense fontanelle</strong>, separated sutures, increasing head circumference, dilated scalp veins, 'sunset' eyes"],
+            ["<strong>Progressing</strong>", "Falling GCS (loses orientation, then speech, then eye opening; motor response goes from obeying to localising to flexion); <strong>one pupil enlarging and reacting sluggishly</strong> (third nerve under the tentorium); hemiparesis; seizures", "Falling conscious level, seizures, apnoeic spells, bradycardia"],
+            ["<strong>Late</strong> (herniating)", "<strong>Cushing's triad</strong>: rising systolic with widening pulse pressure, bradycardia, irregular respiration (Cheyne–Stokes → ataxic → apnoea); fixed dilated pupil(s); decorticate then decerebrate posturing; loss of brainstem reflexes (gag, cough, corneal); hyperthermia; death", "Same, with fixed pupils and posturing"],
+          ],
+        },
+        {
+          type: "table",
+          heading: "Herniation patterns",
+          columns: ["Type", "What shifts", "Signs"],
+          rows: [
+            ["Uncal (lateral transtentorial)", "Medial temporal lobe pushed under the tentorium by a one-sided mass (extradural, subdural, tumour)", "Ipsilateral dilated fixed pupil (III), contralateral hemiparesis, falling consciousness — the classic surgical emergency"],
+            ["Central transtentorial", "Both hemispheres press down on the midbrain (diffuse swelling, hydrocephalus)", "Progressive drowsiness, small then mid-position fixed pupils, Cheyne–Stokes breathing, decorticate then decerebrate posturing"],
+            ["Tonsillar (coning)", "Cerebellar tonsils forced through the foramen magnum (posterior fossa mass, or lumbar puncture in raised ICP)", "Neck stiffness, sudden apnoea, bradycardia, hypertension, cardiorespiratory arrest — why LP is never done before raised pressure is excluded"],
+            ["Subfalcine", "Cingulate gyrus under the falx", "Leg weakness, may be silent; precedes other types"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Nursing measures that lower ICP — and the actions that raise it",
+          items: [
+            "<strong>Head of the bed at 30°</strong> (unless spinal injury is unexcluded — then tilt the whole bed) and the <strong>head and neck in neutral midline</strong>: flexion, rotation or a tight collar or tape around the neck kinks the jugular veins and traps blood in the head. Avoid extreme hip flexion (raises intra-abdominal and intrathoracic pressure).",
+            "<strong>Protect oxygenation and carbon dioxide</strong>: hypoxia (PaO₂ below 8 kPa / saturation below 94%) and hypercapnia dilate cerebral vessels and raise ICP — keep saturation 94–98%, airway clear, and in the ventilated patient PaCO₂ 4.5–5.0 kPa (normocapnia; brief hyperventilation only as a rescue because it constricts vessels and reduces flow). <strong>Suction only when needed</strong>, pre-oxygenate, each pass under 10–15 seconds — suctioning, coughing and gagging spike ICP.",
+            "<strong>Keep the blood pressure up and the brain perfused</strong>: treat shock, avoid hypotension from sedatives and antihypertensives, maintain mean arterial pressure as prescribed (often systolic above 100–110 in head injury); treat severe hypertension only on medical instruction — it may be the Cushing response.",
+            "<strong>Fluids:</strong> isotonic (0.9% saline) at the prescribed rate; <strong>never hypotonic fluids</strong> (5% dextrose, 0.45% saline) — water enters swollen cells and worsens oedema; avoid dehydration too. Monitor sodium (diabetes insipidus and SIADH both follow head injury) and glucose (hyper- and hypoglycaemia both harm the injured brain).",
+            "<strong>Temperature:</strong> treat fever aggressively (paracetamol, fans, tepid sponging, cooled fluids, treat infection) — every degree raises cerebral metabolism; avoid shivering.",
+            "<strong>Seizures</strong> raise ICP sharply: treat promptly, give prescribed prophylaxis, protect from injury.",
+            "<strong>Reduce stimulation and cluster care:</strong> quiet, dim, calm environment; space nursing procedures rather than doing them all at once (each raises ICP and the rises summate); explain to the family that loud grief at the bedside is heard by the patient and raises pressure; gentle touch and a familiar voice lower it.",
+            "<strong>Avoid Valsalva:</strong> no straining — prevent constipation with stool softeners, do not ask the patient to push up the bed, no isometric exercises; treat vomiting with antiemetics; use a nasogastric tube when gastric distension or vomiting is a problem (oral route if basal skull fracture).",
+            "<strong>Pain and agitation</strong> raise ICP — assess and treat (analgesia, sedation in the ventilated patient as prescribed), but remember sedation hides the conscious level: pupils and vital signs become the guide.",
+            "<strong>Observe:</strong> GCS, pupils, limb power and vital signs at least hourly, more often when unstable; report the earliest change, not the triad.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-MED-0309.svg",
+          alt: "Where each intravenous fluid sends the water: isotonic stays in the compartment, hypotonic swells cells with a danger of cerebral oedema and is never used in head injury, hypertonic shrinks cells and is used for raised intracranial pressure",
+          caption: "Water moves towards the saltier side. Hypotonic fluids (5% dextrose once the sugar is used, 0.45% saline) swell the injured brain and are never given in head injury; hypertonic saline and mannitol pull water out of it.",
+        },
+        {
+          type: "table",
+          heading: "Medical and surgical treatment",
+          columns: ["Treatment", "How it works and nursing points"],
+          rows: [
+            ["<strong>Mannitol 20%</strong> 0.25–1 g/kg IV over 15–30 minutes (e.g. 70 kg × 0.5 g = 35 g = 175 mL)", "Osmotic diuretic: pulls water from brain into blood, then out through the kidney; effect within 15–30 minutes, lasts 2–6 hours; often used as a bridge to surgery. Needs a filter needle/giving set (crystals), a catheter and strict fluid balance (brisk diuresis), electrolytes and osmolality (stop if serum osmolality above 320), blood pressure (hypovolaemia follows), and watch for rebound. Not in anuria or active intracranial bleeding without surgical plan"],
+            ["<strong>Hypertonic saline</strong> (3% 2.5–5 mL/kg over 10–20 minutes, or 5%/7.5% boluses, central line for higher strengths)", "Draws water out of the brain while expanding the circulation — preferred when the patient is hypotensive or hyponatraemic; monitor sodium (target 145–155, never above 160; correct chronic hyponatraemia slowly), infusion site (phlebitis)"],
+            ["Sedation, analgesia and controlled ventilation", "Reduce cerebral metabolism and prevent coughing against the tube; propofol or midazolam with an opioid; target normocapnia; neuromuscular blockade in refractory cases"],
+            ["CSF drainage", "External ventricular drain (EVD) in hydrocephalus or for ICP monitoring: keep the chamber zeroed at the tragus (foramen of Monro) and at the prescribed height; clamp before moving or repositioning the patient and re-level afterwards; record hourly volume and colour; strict asepsis — infection is the main risk; never flush without instruction; a sudden stop in drainage or a change in the waveform is reported"],
+            ["ICP monitoring", "Intraparenchymal bolt or EVD transducer in severe head injury (GCS 8 or less with abnormal CT); treat sustained ICP above 20–22 mmHg; nurse to the CPP target"],
+            ["Corticosteroids", "<strong>Dexamethasone</strong> reduces vasogenic oedema around tumours and abscesses (and is given with antibiotics in bacterial meningitis); steroids are <strong>harmful in head injury and stroke</strong> and are not used"],
+            ["Surgery", "Evacuation of extradural or subdural haematoma, excision of tumour or abscess, decompressive craniectomy (bone flap removed to let the brain swell — never position the patient on the side without the flap; helmet or protection until cranioplasty), shunt for hydrocephalus"],
+            ["Barbiturate coma, hypothermia", "Last-resort measures in refractory intracranial hypertension in intensive care"],
+            ["Lumbar puncture", "<strong>Contraindicated</strong> until raised pressure from a mass is excluded (CT) — removing fluid from below pulls the brainstem down"],
+          ],
+        },
+        {
+          type: "callout",
+          tone: "warning",
+          title: "Things that raise ICP that nurses do",
+          body: "Flexing the neck on a pillow; taping the tube tightly around the neck; a collar that is too tight; suctioning for 30 seconds; turning, bathing, physiotherapy and a dressing all in the same ten minutes; letting the patient strain on a bedpan; running 5% dextrose; leaving a fever untreated; a noisy, bright bedside; a blood pressure allowed to drop with sedatives. Each one is avoidable.",
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Summary card",
+          body: "Normal ICP 5–15; treat sustained above 20. CPP = MAP − ICP, keep above 60. Earliest sign: altered consciousness and behaviour. Late: Cushing's triad (hypertension with wide pulse pressure, bradycardia, irregular breathing), blown pupil, posturing. Nursing: head up 30°, neck neutral, oxygen, normocapnia, short suction, isotonic fluids only, treat fever and seizures, cluster care, no straining, hourly neuro obs. Drugs: mannitol 0.25–1 g/kg or hypertonic saline; dexamethasone only for tumour and meningitis oedema; no LP until CT.",
+        },
+      ],
+      keyPoints: [
+        "The skull is a closed box: after brief compensation by CSF and venous blood, any added volume raises pressure steeply and pushes the brain towards the foramen magnum; perfusion depends on MAP minus ICP.",
+        "The earliest sign is a change in conscious level or behaviour; a dilating sluggish pupil, hemiparesis and Cushing's triad (hypertension with widening pulse pressure, bradycardia, irregular breathing) are late.",
+        "Nursing lowers ICP: head up 30° with the neck in midline, saturation 94–98% and normocapnia, brief pre-oxygenated suction, isotonic fluids only, fever and seizures treated, care clustered and the environment quiet, no straining.",
+        "Mannitol 0.25–1 g/kg or hypertonic saline buys time; dexamethasone helps tumour and meningitis oedema but harms head injury and stroke; surgery evacuates haematomas and drains CSF.",
+        "Never perform a lumbar puncture, give hypotonic fluids or let the blood pressure fall in a patient with suspected raised intracranial pressure.",
+      ],
+      quiz: {
+        keywords: ["intracranial", "head injury", "cushing", "pulse pressure", "dilated pupil", "mannitol", "hypertonic", "cerebral oedema", "midline", "coning", "papilloedema", "craniotomy", "fixed, dilated", "fixed dilated", "lumbar puncture"],
+      },
+    },
+    {
+      slug: "head-injury",
+      title: "Head injury",
+      minutes: 16,
+      objectives: [
+        "Distinguish primary from secondary brain injury and explain why nursing care targets the second.",
+        "Classify head injury by GCS and recognise scalp, skull and intracranial injuries — concussion, contusion, extradural, subdural and diffuse axonal injury.",
+        "Manage the head-injured patient from first contact: ABCDE with cervical spine protection, imaging criteria, observation schedule and escalation.",
+        "Give safe discharge advice and describe post-concussion problems and prevention.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Two injuries, one of them preventable",
+          paragraphs: [
+            "Head injury is the leading cause of death and disability in young adults in Ghana, driven by motorcycle ('okada') and road crashes, falls from heights and trees, assaults and sports. The impact causes the <strong>primary injury</strong> — contusion, laceration, shearing of axons, a torn vessel — which is done by the time the patient arrives and cannot be undone. Everything after that is <strong>secondary injury</strong>: brain cells around the damage die over the following hours and days because of hypoxia, hypotension, hypercapnia, raised intracranial pressure, fever, seizures, hyper- or hypoglycaemia and infection. Secondary injury is what nursing prevents: a single episode of hypotension or hypoxia roughly doubles mortality after severe head injury.",
+            "The other killer is the clot that grows while the patient looks well. The <strong>lucid interval</strong> of an extradural haematoma — knocked out, wakes, talks normally, goes home or is left on a trolley, then deteriorates and dies — is the reason head injuries are observed on a schedule and never discharged on appearance alone.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Classification and types of injury",
+          columns: ["Category", "Features", "Nursing significance"],
+          rows: [
+            ["Severity by GCS", "Mild 13–15 (80%); moderate 9–12; severe 3–8", "Severe = airway protection, CT, neurosurgical referral, ICU; mild still needs structured observation if any risk feature"],
+            ["Scalp injury", "Bleeds profusely (vascular, does not constrict); boggy swelling (haematoma); lacerations may hide a fracture", "Direct pressure, inspect and palpate the wound for depressed bone; blood loss can shock a child"],
+            ["Skull fracture — linear, depressed, open, basal", "Linear often benign but marks force; depressed may need elevation; open (scalp breached) risks infection; <strong>basal skull fracture</strong>: CSF from nose (rhinorrhoea) or ear (otorrhoea), 'halo' sign on gauze, bruising behind the ear (Battle's sign) or around both eyes (raccoon/panda eyes), blood behind the eardrum, hearing loss, facial palsy", "Basal fracture: <strong>no nasogastric tube or nasal airway</strong> (may enter the brain) — use the oral route; do not pack or plug the nose or ear; let CSF drain onto a loose sterile pad, test with dipstick (glucose positive) or halo; antibiotics not routinely; warn of meningitis signs"],
+            ["Concussion (mild traumatic brain injury)", "Brief loss of consciousness or dazed state, amnesia for the event, headache, dizziness, nausea, confusion; CT normal", "Observation, rest, graded return to activity; second impact before recovery is dangerous"],
+            ["Contusion", "Bruised brain, often frontal and temporal (coup and contre-coup), swells over 24–72 hours", "Delayed deterioration — observation continues even when the initial CT looks small"],
+            ["<strong>Extradural haematoma</strong>", "Arterial (middle meningeal artery) bleeding between skull and dura after a temporal fracture; young patient; <strong>lucid interval</strong> then rapid deterioration, ipsilateral blown pupil, contralateral weakness; lens-shaped on CT", "Surgical emergency — burr hole/craniotomy; outcome excellent if evacuated before coning"],
+            ["<strong>Subdural haematoma</strong>", "Venous (bridging veins) bleeding beneath the dura. Acute: severe injury, poor prognosis. Chronic: elderly, alcohol, anticoagulants, trivial or forgotten fall weeks before — fluctuating confusion, headache, drowsiness, unsteady gait, hemiparesis; crescent-shaped on CT", "Think of it in any confused elderly or alcohol-dependent patient or anyone on warfarin after a fall; reversible with drainage"],
+            ["Subarachnoid haemorrhage (traumatic)", "Blood in CSF spaces; headache, meningism", "Vasospasm risk; nimodipine in aneurysmal type"],
+            ["Diffuse axonal injury", "Shearing of axons from rotational force (high-speed crash, shaken infant); coma from the start with a near-normal CT", "Prolonged ICU care, poor outcome; prevention of secondary injury is all that can be offered"],
+            ["Associated injuries", "Cervical spine injury in 5–10% of significant head injuries; facial fractures; chest and abdominal injuries causing the hypotension", "Collar and in-line immobilisation until the spine is cleared; the whole primary survey, not just the head"],
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-TRA-1838.svg",
+          alt: "The primary survey: airway with cervical spine protection, breathing with oxygen now, circulation where blood pressure falls last, disability with conscious level pupils and glucose, exposure with warmth; deterioration restarts the survey",
+          caption: "Airway with the neck protected, breathing, circulation, then disability. A blocked airway kills before the bleed and the bleed before the head injury — and a falling score is worse than a low steady one.",
+        },
+        {
+          type: "list",
+          heading: "Immediate management — ABCDE",
+          style: "steps",
+          items: [
+            "<strong>Airway with cervical spine control:</strong> assume a neck injury in every head injury until cleared — manual in-line stabilisation, then a correctly sized collar, blocks and tape; jaw thrust not head tilt; oral (not nasal) airway; suction blood and vomit; GCS 8 or less or absent gag → intubation by a skilled person. Log roll to clear vomit.",
+            "<strong>Breathing:</strong> high-flow oxygen to keep saturation 94–98% (hypoxia doubles mortality); look for chest injuries (pneumothorax, flail segment); watch the respiratory pattern.",
+            "<strong>Circulation:</strong> control external bleeding (scalp wounds bleed heavily); two large cannulae, blood for cross-match, glucose, electrolytes, alcohol level if relevant; <strong>maintain systolic above 100–110 mmHg</strong> — hypotension after head injury means bleeding elsewhere (chest, abdomen, pelvis, long bones) or spinal shock; isotonic fluids and blood, not dextrose.",
+            "<strong>Disability:</strong> GCS (three components), pupils, limb movements, <strong>capillary glucose</strong>; note alcohol or drugs but never attribute a low score to them until proved; seizures → benzodiazepine.",
+            "<strong>Exposure:</strong> head-to-toe for other injuries and signs of basal fracture; log roll to examine the back; keep warm; analgesia (paracetamol, cautious titrated opioid — pain raises ICP; avoid heavy sedation that masks the GCS); antiemetic; tetanus prophylaxis for wounds; nil by mouth until the need for surgery is known.",
+            "<strong>Imaging:</strong> CT head within 1 hour if GCS below 13 at any point, GCS below 15 at 2 hours, suspected open, depressed or basal skull fracture, post-traumatic seizure, focal deficit, or more than one episode of vomiting; within 8 hours if loss of consciousness or amnesia with age 65 or over, anticoagulation or bleeding disorder, a dangerous mechanism (pedestrian or cyclist hit by a vehicle, ejection, fall from over 1 m or 5 stairs) or retrograde amnesia over 30 minutes. Anticoagulated patients are scanned even without other features. A skull X-ray does not exclude a brain injury. If no CT is available, these criteria define who must be referred.",
+            "<strong>Refer to neurosurgery</strong> for any surgical lesion on CT, GCS 8 or less, deteriorating GCS, open or depressed fracture, CSF leak, penetrating injury, unexplained confusion over 4 hours, or seizures. Stabilise before transfer, with an escort who can manage the airway.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Ward observation and care",
+          columns: ["Element", "Practice"],
+          rows: [
+            ["Neurological observations", "Half-hourly until GCS 15, then half-hourly for 2 hours, hourly for 4 hours, 2-hourly thereafter; return to half-hourly after any deterioration. GCS components, pupils, limb power, vital signs, headache, vomiting, behaviour. Escalate: fall of 2 GCS points (1 motor), GCS below 15 for over 30 minutes, severe or increasing headache, persistent vomiting, agitation, new pupil change or weakness, seizure, CSF leak"],
+            ["Positioning and ICP care", "Head up 30° once the spine is cleared (tilt the bed if not), neck neutral, loosen collar strap if it obstructs veins once cleared, quiet environment, avoid straining, treat fever and pain, isotonic fluids, glucose 6–10 mmol/L"],
+            ["Wounds and leaks", "Scalp wound cleaned, explored and sutured after fracture excluded; CSF leak — loose pad, no packing, no NG/nasal tubes, head up, report increase or fever/neck stiffness"],
+            ["Seizures", "Protect, time, benzodiazepine if over 5 minutes, prophylactic antiepileptic (phenytoin or levetiracetam) for 7 days in severe injury as prescribed"],
+            ["Nutrition and elimination", "Early feeding (oral once alert and swallow safe; NG by the oral route if basal fracture); bowel care to avoid straining; catheter for the unconscious and for fluid balance; monitor sodium (DI/SIADH)"],
+            ["Agitation and confusion", "Exclude hypoxia, pain, full bladder, hypoglycaemia, rising ICP and alcohol withdrawal before any sedation; low bed, padded rails, one-to-one if needed, family presence, avoid restraint; never sedate without a doctor's assessment because sedation hides the GCS"],
+            ["Family", "Explain what is being watched for and why he is woken; involve them in orientation; prepare them for personality change, memory loss and fatigue after moderate and severe injury"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Discharge advice after a minor head injury — given verbally and in writing to a responsible adult",
+          items: [
+            "Someone must stay with the patient for the first 24–48 hours and wake them every 2–4 hours during the first night to check they can be roused and answer sensibly.",
+            "Return immediately (or call for an ambulance) for: increasing drowsiness or difficulty waking; confusion or strange behaviour; severe or worsening headache not relieved by paracetamol; repeated vomiting; a fit; weakness, numbness or difficulty walking, speaking or seeing; clear fluid or blood from the nose or ear; unequal pupils; neck stiffness or fever.",
+            "Rest; paracetamol for headache; <strong>no alcohol, sleeping tablets or sedatives</strong> for 48 hours; no driving, operating machinery, sport or heights until recovered; no contact sport for at least 2–3 weeks and only when symptom-free (second-impact risk in the young).",
+            "Expect headache, tiredness, poor concentration, irritability, dizziness and poor sleep for days to weeks (post-concussion syndrome); seek review if symptoms persist beyond 2–4 weeks, and before returning to demanding work or examinations.",
+            "Prevention counselling: helmets for riders and pillion passengers (correctly fastened), seat belts, no riding or driving after alcohol, child car safety, safe scaffolding and tree-climbing practices, falls prevention in the elderly and review of anticoagulation and alcohol in those who fall.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "warning",
+          title: "Never",
+          body: "Never put a nasogastric tube or nasal airway into a patient with a possible basal skull fracture. Never attribute a low GCS to alcohol until a clot is excluded. Never run 5% dextrose. Never accept hypotension as 'due to the head injury' in an adult — find the bleeding. Never discharge a head injury to go home alone, or on the strength of how well he looks right now.",
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Patterns to recognise",
+          body: "Lucid interval, young patient, temporal blow → extradural, blown pupil same side, weak limbs opposite → surgery now. Elderly or alcohol-dependent patient on warfarin, confused and unsteady weeks after a minor fall → chronic subdural. Clear fluid from the nose, bruising behind the ear → basal fracture, oral route only. Observation schedule: half-hourly × 2 h, hourly × 4 h, 2-hourly. Hypoxia or hypotension doubles mortality.",
+        },
+      ],
+      keyPoints: [
+        "The primary injury is done at impact; secondary injury from hypoxia, hypotension, raised ICP, fever, seizures and glucose extremes develops over hours and is what nursing prevents.",
+        "Classify by GCS (mild 13–15, moderate 9–12, severe 3–8), protect the cervical spine in every head injury, and recognise basal skull fracture (CSF leak, Battle's sign, panda eyes) — oral tubes only.",
+        "Extradural haematoma kills through a lucid interval; chronic subdural hides in the confused elderly, alcohol-dependent or anticoagulated patient weeks after a trivial fall.",
+        "ABCDE with oxygen, systolic above 100–110, glucose, GCS and pupils; CT within an hour for GCS below 13, fractures, seizures, focal signs or repeated vomiting; observe half-hourly for 2 hours, hourly for 4, then 2-hourly and escalate any fall of 2 points.",
+        "Discharge only to a responsible adult with written warning signs, no alcohol or sedatives for 48 hours, and helmet and road-safety counselling.",
+      ],
+      quiz: {
+        keywords: ["head injury", "skull", "lucid", "extradural", "subdural", "concussion", "cerebrospinal fluid", "from the nose", "rhinorrhoea", "helmet", "motorcycl", "okada", "road traffic", "neck pain", "cervical spine", "primary survey", "head injured", "haematoma"],
+      },
+    },
+    {
+      slug: "brain-tumours-hydrocephalus-and-shunts",
+      title: "Brain tumours, hydrocephalus and shunts",
+      minutes: 16,
+      objectives: [
+        "Recognise the presentation of a brain tumour and describe the common types in adults and children.",
+        "Explain communicating and non-communicating hydrocephalus and recognise normal-pressure hydrocephalus.",
+        "Nurse the patient with a shunt and monitor for blockage, infection and overdrainage.",
+        "Apply the shunt malfunction drill and escalate without delay.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "A mass in a closed box",
+          paragraphs: [
+            "Every mass inside the skull — tumour, blood, abscess, blocked fluid — obeys the Monro–Kellie rule from the raised-pressure lesson: something must give, and what gives is brain. Tumours declare themselves in two ways at once: <strong>raised pressure</strong> (morning headache with vomiting, papilloedema, drowsiness) and <strong>local damage</strong> (a seizure, a weak hand, a changed personality, lost vision) — the combination of a general pressure symptom with one focal sign is the pattern that demands imaging.",
+            "In Ghana tumours present late: headaches treated as malaria for months, seizures treated as epilepsy without a scan, children with head growth put down to 'big head running in the family'. CT is now reachable in the cities and referral must not wait for blindness or coma — a first seizure in an adult, a personality change with headache, or a child whose head outgrows its centiles is imaged, not reassured.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "The common tumours",
+          columns: ["Tumour", "Clues", "Direction"],
+          rows: [
+            ["<strong>Glioma</strong>", "Adults; infiltrative — seizures plus a progressive focal deficit over weeks", "Maximal safe removal plus radiotherapy and chemotherapy; steroids shrink the surrounding oedema fast"],
+            ["<strong>Meningioma</strong>", "Middle-aged women especially; slow-growing from the coverings — seizures, slow deficit", "Surgery cures most; observe tiny incidental ones"],
+            ["<strong>Pituitary adenoma</strong>", "Bitemporal hemianopia (losing the outer fields) plus hormone loss or excess — see the pituitary lesson", "Trans-sphenoidal surgery; vision charts and hormone checks before and after"],
+            ["<strong>Acoustic neuroma</strong>", "Unilateral deafness with tinnitus and imbalance — the eighth nerve first", "Surgery or focused radiotherapy; protect hearing and the facial nerve"],
+            ["<strong>Secondaries</strong>", "Known lung, breast, melanoma or kidney cancer; often multiple lesions with oedema", "Steroids for the oedema, whole-brain or focused radiotherapy, treatment of the primary"],
+            ["<strong>Childhood posterior fossa tumours</strong>", "Child with morning vomiting, clumsiness and head tilt — medulloblastoma and astrocytoma sit where the fluid drains", "Urgent surgery plus radiotherapy and chemotherapy; hydrocephalus often needs a shunt first"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Hydrocephalus and shunts — what the nurse must know",
+          items: [
+            "<strong>Two blockages:</strong> non-communicating (blood, pus, tumour or a congenital membrane blocks flow <em>inside</em> the ventricles) and communicating (flow escapes but is not absorbed — after meningitis or subarachnoid blood). Both raise pressure; both are relieved by drainage.",
+            "<strong>Read the infant's head:</strong> a bulging fontanelle, sunset eyes, scalp veins and a head crossing centiles upward — measure the circumference and plot it at every visit, because the tape finds hydrocephalus before the eyes do.",
+            "<strong>Know normal-pressure hydrocephalus:</strong> the elderly triad of gait failure, incontinence and dementia — wet, wobbly and wacky — with big ventricles but normal pressure. A spinal tap test predicts who improves, and a shunt can return an 'Alzheimer' patient to walking.",
+            "<strong>Know the shunt's route:</strong> ventriculoperitoneal (ventricle to abdomen, the commonest), ventriculoatrial, and lumboperitoneal — a valve sets the drainage pressure and a reservoir sits under the scalp. Document the type, the valve setting and the operation date where every nurse can find them.",
+            "<strong>Nurse the new shunt closely:</strong> neurological observations, temperature, wound and track inspection, head circumference in children, abdominal pain or distension (the distal end), and intake-output — infection and blockage declare themselves in the first weeks.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Shunt malfunction and infection — the drill",
+          columns: ["Problem", "Clues", "Action"],
+          rows: [
+            ["<strong>Blockage</strong>", "Headache, vomiting and drowsiness return; sunset eyes in the child; abdominal pain or distension from the distal end", "Urgent neurosurgery, CT head, shunt-series X-ray — raised ICP rebuilds in hours; never pump the reservoir without a neurosurgical order"],
+            ["<strong>Infection</strong>", "Fever with headache and neck stiffness, redness or swelling along the shunt track — usually within weeks of surgery", "Blood cultures, urgent neurosurgical review, antibiotics — the reservoir is tapped only sterilely, in theatre, by the surgeon; most infected shunts are removed"],
+            ["<strong>Overdrainage</strong>", "Headache worse upright and better lying flat; drowsiness or collapse from a subdural collection", "Lie flat, urgent scan and neurosurgical review — the valve setting may need raising"],
+          ],
+        },
+        {
+          type: "callout",
+          tone: "warning",
+          title: "Fever plus headache in a shunted patient",
+          body: "Fever plus headache in a shunted patient is shunt infection until proven otherwise — blood cultures, urgent neurosurgical review, and never aspirate or pump the reservoir on the ward. A blocked shunt re-creates raised pressure in hours: drowsiness following headache and vomiting is the escalator, not a phase.",
+        },
+      ],
+      keyPoints: [
+        "Pressure symptoms plus one focal sign — seizure, deficit, personality or vision change — is a tumour until imaged.",
+        "Gliomas infiltrate, meningiomas resect, pituitary adenomas cost the outer visual fields, and childhood vomiting with clumsiness sits at the back of the head.",
+        "Hydrocephalus is blocked flow inside or failed absorption outside; the infant's tape measure and the elder's wet-wobbly-wacky triad find it.",
+        "Shunt blockage rebuilds pressure in hours, infection follows fever within weeks of surgery, overdrainage hurts upright — all go urgently to neurosurgery.",
+        "Never pump or tap a shunt reservoir on the ward; document type, valve setting and operation date where all can see.",
+      ],
+      quiz: {
+        keywords: ["brain tumour", "brain tumor", "glioma", "meningioma", "pituitary adenoma", "acoustic neuroma", "cerebral metastases", "hydrocephalus", "shunt", "ventriculoperitoneal", "vp shunt", "normal pressure hydrocephalus", "papilloedema", "raised intracranial", "headache", "vomiting", "seizure", "focal deficit", "craniotomy"],
+      },
+    }
+  ],
+};

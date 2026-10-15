@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">HBM + stages: why change happens</text>
+<g font-size="8" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="80" height="56" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="60" y="56" font-weight="bold">SUSCEPT?</text>
+<text x="60" y="68">"could IT hit</text>
+<text x="60" y="79">ME?"</text>
+<rect x="106" y="36" width="80" height="56" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="146" y="56" font-weight="bold">SEVERE?</text>
+<text x="146" y="68">"how BAD</text>
+<text x="146" y="79">if so?"</text>
+<rect x="192" y="36" width="80" height="56" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="232" y="56" font-weight="bold">BENEFIT?</text>
+<text x="232" y="68">"will ACTING</text>
+<text x="232" y="79">help?"</text>
+<rect x="278" y="36" width="80" height="56" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="318" y="56" font-weight="bold">BARRIERS?</text>
+<text x="318" y="68">"what BLOCKS</text>
+<text x="318" y="79">me?"</text>
+<rect x="364" y="36" width="76" height="56" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="402" y="56" font-weight="bold">CUE + CAN?</text>
+<text x="402" y="68">"trigger +</text>
+<text x="402" y="79">able?"</text>
+<rect x="20" y="100" width="66" height="48" rx="6" fill="#f1f5f9" stroke="#6b7280" stroke-width="1"/>
+<text x="53" y="118" font-weight="bold">PRE</text>
+<text x="53" y="130">"no need!"</text>
+<text x="53" y="141">raise doubt</text>
+<rect x="92" y="100" width="66" height="48" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="125" y="118" font-weight="bold">CONTEMPL</text>
+<text x="125" y="130">"maybe…"</text>
+<text x="125" y="141">tip balance</text>
+<rect x="164" y="100" width="66" height="48" rx="6" fill="#ffedd5" stroke="#c2410c" stroke-width="1.5"/>
+<text x="197" y="118" font-weight="bold">PREP</text>
+<text x="197" y="130">"soon!"</text>
+<text x="197" y="141">plan it</text>
+<rect x="236" y="100" width="66" height="48" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="269" y="118" font-weight="bold">ACT</text>
+<text x="269" y="130">"doing!"</text>
+<text x="269" y="141">support</text>
+<rect x="308" y="100" width="66" height="48" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="341" y="118" font-weight="bold">MAINTAIN</text>
+<text x="341" y="130">"keeping!"</text>
+<text x="341" y="141">relapse plan</text>
+<rect x="380" y="100" width="60" height="48" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="410" y="118" font-weight="bold">RELAPSE</text>
+<text x="410" y="130">"slipped!"</text>
+<text x="410" y="141">restart kind</text>
+</g>
+<rect x="0" y="160" width="460" height="330" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="182" font-weight="bold">HBM (exam!): action needs SUSCEPTIBILITY ("me too!") + SEVERITY ("bad!") + BENEFITS</text>
+<text x="20" y="196">(outweigh!) − BARRIERS (shrunk!) + CUE (trigger!) + SELF-EFFICACY ("I CAN!"). Diagnose the</text>
+<text x="20" y="210">MISSING belief: no fear? show risk. Fear frozen? shrink barriers + boost can-do.</text>
+<text x="20" y="230">STAGES (Prochaska — exam!): PREcontemplation ("no need" → raise doubt, don't preach!) ·</text>
+<text x="20" y="244">CONTEMPLation ("maybe…" → tip decisional balance!) · PREParation ("soon!" → plan!) ·</text>
+<text x="20" y="258">ACTION ("doing!" → support + praise!) · MAINTENANCE ("keeping!" → relapse plan!) ·</text>
+<text x="20" y="272">RELAPSE ("slipped!" → normalise + restart kindly!). Match talk to stage!</text>
+<text x="20" y="292">MISMATCH HARMS: action-plans for precontemplators ("here's a diet sheet!" → bin!) · doubt-</text>
+<text x="20" y="306">raising for actors ("are you SURE…?" → undermines!). Stage FIRST ("where are you…?"),</text>
+<text x="20" y="320">then match. Ruler: "ready 0–10…? why not lower…?" (their reasons = change talk!).</text>
+<text x="20" y="340">SELF-EFFICACY (Bandura!): "I CAN" predicts doing. Build: small wins ("one walk!") · models</text>
+<text x="20" y="354">("market women like you did it!") · praise effort ("you came — strong start!") · skills</text>
+<text x="20" y="368">(demos! teach-back!). Efficacy beats fear — scared + helpless = frozen.</text>
+<text x="20" y="388">RELAPSE = DATA: "what triggered…? what worked before…? restart which piece…?" — lapse</text>
+<text x="20" y="402">(slip!) vs relapse (slide!) vs collapse (give-up!) — rescue at lapse, always kindly.</text>
+<text x="20" y="422">CUES: pill + toothbrush · clinic + market day · walks + radio news · reviews + paydays.</text>
+<text x="20" y="436">Anchor new habits to old routines — memory outsourced, adherence inbuilt.</text>
+<text x="20" y="456">LINKS: NUT one-change · COM miracle/scales · M06 MI spirit.</text>
+<text x="20" y="470">MANTRA: "stage it, match it, shrink barriers, grow can-do."</text>
+</g>
+</svg>

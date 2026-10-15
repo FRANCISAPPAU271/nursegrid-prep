@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">INF exam map + 25 tricky points</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="96" height="60" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="68" y="56" font-weight="bold" font-size="8">M1 BASE</text>
+<text x="68" y="69" font-size="8">DIKW, ladder,</text>
+<text x="68" y="80" font-size="8">DHIMS2, quality</text>
+<rect x="124" y="36" width="96" height="60" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="172" y="56" font-weight="bold" font-size="8">M2 CHART</text>
+<text x="172" y="69" font-size="8">4 rules, clone,</text>
+<text x="172" y="80" font-size="8">downtime, SBAR</text>
+<rect x="228" y="36" width="96" height="60" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="276" y="56" font-weight="bold" font-size="8">M3 LOCK</text>
+<text x="276" y="69" font-size="8">Act 843, consent,</text>
+<text x="276" y="80" font-size="8">breach, snoop</text>
+<rect x="332" y="36" width="108" height="60" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="386" y="56" font-weight="bold" font-size="8">M4 GUARD</text>
+<text x="386" y="69" font-size="8">alerts, BCMA,</text>
+<text x="386" y="80" font-size="8">tele, equity</text>
+<rect x="72" y="104" width="140" height="60" rx="6" fill="#ffedd5" stroke="#c2410c" stroke-width="1.5"/>
+<text x="142" y="124" font-weight="bold" font-size="8">M5 THINK</text>
+<text x="142" y="137" font-size="8">PICO, CRAAP,</text>
+<text x="142" y="148" font-size="8">run charts</text>
+<rect x="228" y="104" width="140" height="60" rx="6" fill="#f3e8ff" stroke="#7e22ce" stroke-width="1.5"/>
+<text x="298" y="124" font-weight="bold" font-size="8">M6 SHINE</text>
+<text x="298" y="137" font-size="8">social, AI,</text>
+<text x="298" y="148" font-size="8">change!</text>
+</g>
+<rect x="0" y="176" width="460" height="314" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="198" font-weight="bold">25 TRICKY POINTS (learn cold):</text>
+<text x="20" y="212">1 DIKW order + nurse both ends · 2 definition verbatim · 3 ladder 5 rungs · 4 TIGER 3 ·</text>
+<text x="20" y="226">5 LHIMS vs DHIMS2 vs eTracker · 6 7 quality dimensions · 7 chart 4 rules · 8 never clone ·</text>
+<text x="20" y="240">9 addendum not delete · 10 banned abbreviations · 11 5 rights + 2 IDs · 12 downtime 5 ·</text>
+<text x="20" y="254">13 SBAR + read-back · 14 need-to-know + minimum · 15 Act 843 + Commission · 16 consent</text>
+<text x="20" y="268">scripts · 17 breach 5 steps · 18 snooping price · 19 fatigue fight · 20 BCMA no bypass ·</text>
+<text x="20" y="282">21 telehealth toolkit · 22 PICO + CRAAP · 23 run-chart rules · 24 pause test · 25 AI verify.</text>
+<text x="20" y="302">COUNTDOWN: 6 wks — map objectives + weak topics; 4 wks — timed past Qs + canvas answers;</text>
+<text x="20" y="316">2 wks — cards (lists, steps, rules, 25 points); 1 wk — mock + sleep; eve — pack + rest;</text>
+<text x="20" y="330">DAY — read twice, canvas-structure, cite modules, attempt ALL.</text>
+<text x="20" y="350">FORMULA: DIKW → safety → privacy → record → evidence → improve. Interviews: STAR from QI</text>
+<text x="20" y="364">("our override rate fell..."); "breach?" = drill aloud; "why informatics?" = one statistic</text>
+<text x="20" y="378">(de-identified) + data-with-heartbeat passion.</text>
+<text x="20" y="398">PORTFOLIO CROWN: run charts + QI protocol + club log + change story + reflections + CPD.</text>
+<text x="20" y="412">One finished informatics project outranks ten certificates.</text>
+<text x="20" y="432">PLEDGE: "I will enter honestly, verify always, lock every record, read every alert, verify</text>
+<text x="20" y="446">every AI, design for the disconnected — data with a heartbeat, decided by a nurse."</text>
+<text x="20" y="466">LINKS: PRO-I compass · PRO-II QI · GER audits · NUT canvas — one safety fabric.</text>
+</g>
+</svg>

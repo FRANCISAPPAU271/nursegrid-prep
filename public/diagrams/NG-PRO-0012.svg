@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Courts, evidence + the concern ladder</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="200" height="110" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="120" y="56" font-weight="bold" font-size="10">CIVIL (compensation)</text>
+<text x="120" y="72" font-size="8">Negligence claims (Module 03's</text>
+<text x="120" y="83" font-size="8">4 elements) — balance of</text>
+<text x="120" y="94" font-size="8">probabilities; damages paid;</text>
+<text x="120" y="105" font-size="8">employer often vicariously</text>
+<text x="120" y="116" font-size="8">liable; records = exhibit A.</text>
+<text x="120" y="131" font-size="8" fill="#6b7280">Patient/family sues.</text>
+<rect x="240" y="36" width="200" height="110" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="340" y="56" font-weight="bold" font-size="10">CRIMINAL (punishment)</text>
+<text x="340" y="72" font-size="8">Assault, manslaughter, unlawful</text>
+<text x="340" y="83" font-size="8">abortion, practising unlicensed,</text>
+<text x="340" y="94" font-size="8">falsifying records, theft of drugs</text>
+<text x="340" y="105" font-size="8">— beyond reasonable doubt;</text>
+<text x="340" y="116" font-size="8">fine/imprisonment; State prosecutes.</text>
+<text x="340" y="131" font-size="8" fill="#6b7280">Police → AG → court.</text>
+</g>
+<text x="20" y="166" font-size="12" font-weight="bold" fill="#111827">GIVING EVIDENCE (witness/statement/inquest)</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="184">1. Statements: facts only (seen/heard/done), times, quotes — write with in-charge/lawyer, keep a copy.</text>
+<text x="30" y="200">2. Subpoena = MUST attend; refresh from YOUR notes (courts allow); fees per rules.</text>
+<text x="30" y="216">3. Demeanour: address the bench, truth even when ugly, \"I don't recall\" beats guessing, no jargon.</text>
+<text x="30" y="232">4. Coroner's inquests: who/when/where/how died — assist, don't defend; lessons recorded openly.</text>
+<text x="30" y="248">5. Discipline ≠ court: NMC tribunal can strike off even after acquittal (different tests) — and vice versa.</text>
+</g>
+<rect x="0" y="258" width="460" height="232" fill="#f1f5f9"/>
+<text x="20" y="280" font-size="10" fill="#111827" font-weight="bold">THE CONCERN LADDER (Act 720 protects every rung — document each)</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="298">Rung 1 — IN-CHARGE (verbal + written): danger, short-staffing, faulty equipment, bullying.</text>
+<text x="30" y="314">Rung 2 — MANAGEMENT/CEO (written, copied): no action, repeated harm, cover-up pressure.</text>
+<text x="30" y="330">Rung 3 — REGULATORS (NMC, HeFRA, DPC, CHRAJ): unlicensed practice, systemic danger, data breach.</text>
+<text x="30" y="346">Rung 4 — POLICE/DOVVSU (crimes): assault, theft, falsification, abuse — preserve evidence.</text>
+<text x="30" y="362">Rung 5 — MEDIA (LAST, lawyer first): public danger + all rungs exhausted + public interest —</text>
+<text x="30" y="378">defamation law punishes false claims; truth + public interest defend. Never leak patient data.</text>
+<text x="30" y="398">Victimisation for protected disclosures (dismissal, demotion, transfer, threats) is UNLAWFUL</text>
+<text x="30" y="412">— report retaliation to CHRAJ/NMC; union + legal aid support. Anonymous where policy allows,</text>
+<text x="30" y="426">but signed disclosures carry weight. Colleague impaired? Support + report (patients first,</text>
+<text x="30" y="440">Module 03 duty) — covering addiction/diversion makes you party to the next harm.</text>
+<text x="30" y="460">Social media: no patient images/details, no workplace defamation, no \"day in my ward\"</text>
+<text x="30" y="474">identifiers — one viral post can end a career faster than any tribunal.</text>
+</g>
+</svg>

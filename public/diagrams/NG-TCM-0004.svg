@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Common remedies: know them by name</text>
+<g font-size="8" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="100" height="56" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="70" y="54" font-weight="bold">NEEM</text>
+<text x="70" y="66">malaria? skin?</text>
+<text x="70" y="77">fever baths!</text>
+<rect x="126" y="36" width="100" height="56" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="176" y="54" font-weight="bold">MORINGA</text>
+<text x="176" y="66">food-medicine:</text>
+<text x="176" y="77">leaves + pods!</text>
+<rect x="232" y="36" width="100" height="56" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="282" y="54" font-weight="bold">PREKESE</text>
+<text x="282" y="66">soup + postpartum</text>
+<text x="282" y="77">+ BP talk!</text>
+<rect x="338" y="36" width="102" height="56" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="389" y="54" font-weight="bold">BITTER LEAF</text>
+<text x="389" y="66">sugar talk +</text>
+<text x="389" y="77">HYPO risk!</text>
+<rect x="20" y="98" width="100" height="56" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="70" y="116" font-weight="bold">GINGER</text>
+<text x="70" y="128">nausea + colds;</text>
+<text x="70" y="139">bleed watch!</text>
+<rect x="126" y="98" width="100" height="56" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="176" y="116" font-weight="bold">GARLIC</text>
+<text x="176" y="128">BP + "blood";</text>
+<text x="176" y="139">bleed watch!</text>
+<rect x="232" y="98" width="100" height="56" rx="6" fill="#ffedd5" stroke="#c2410c" stroke-width="1.5"/>
+<text x="282" y="116" font-weight="bold">ALOE</text>
+<text x="282" y="128">skin + burns;</text>
+<text x="282" y="139">gut cramps!</text>
+<rect x="338" y="98" width="102" height="56" rx="6" fill="#f3e8ff" stroke="#7e22ce" stroke-width="1.5"/>
+<text x="389" y="116" font-weight="bold">ASRAM MIX</text>
+<text x="389" y="128">teething herbs;</text>
+<text x="389" y="139">ask contents!</text>
+</g>
+<rect x="0" y="166" width="460" height="324" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="188" font-weight="bold">KNOW BY NAME (exam + ward!): NEEM (dogonyaro — fever baths, skin, "malaria" —</text>
+<text x="20" y="202">bitter, liver watch!) · MORINGA (food-medicine — leaves/pods, anaemia talk, gentle!) ·</text>
+<text x="20" y="216">PREKESE (aidan — soups, postpartum, BP claims!) · BITTER LEAF (onugbu — "sugar" remedy —</text>
+<text x="20" y="230">HYPO danger with diabetic drugs!) · GINGER (nausea, colds — bleed caution!) · GARLIC</text>
+<text x="20" y="244">(BP, "cleans blood" — bleed caution!) · ALOE (burns, skin — gut cramps if drunk!) · ASRAM</text>
+<text x="20" y="258">mixes (teething — ASK contents: some contain alcohol! lead! sedatives!).</text>
+<text x="20" y="278">PREPARATIONS: decoctions (BOILED — dose varies!) · infusions (steeped) · poultices (skin!)</text>
+<text x="20" y="292">· enemas (frequent — ask! dehydrate infants!) · baths (fever, skin, ritual!) · powders ·</text>
+<text x="20" y="306">alcohol-based bitters (pregnancy! children! liver! — flag!). Dose unknown = risk unknown.</text>
+<text x="20" y="326">BELIEFS AROUND THEM: "bitter cures" (stronger = better? — overdose logic!) · "natural =</text>
+<text x="20" y="340">safe" (deadliest myth — M03!) · purging cleans (diarrhoea = healing? — dehydrates!) ·</text>
+<text x="20" y="354">teething causes all (asram delays malaria care!) · "hospital + herbs clash always" (some do,</text>
+<text x="20" y="368">most negotiable — M03/M05!). Kleinman each (BEH!).</text>
+<text x="20" y="388">ASK ROUTINE: "which herbs…? how prepared…? how much, how often…? alcohol in it…? who</text>
+<text x="20" y="402">gave it…? since when…? any reaction…?" — warmly, no eyebrow! Document ALL (M05!).</text>
+<text x="20" y="422">RESPECT + VERIFY: honour the knowledge ("neem baths soothe — let's add ORS + watch fever!")</text>
+<text x="20" y="436">+ verify safety (pregnancy? bleeding? liver? — M03!) + follow up. Both, always both.</text>
+<text x="20" y="456">LINKS: NUT foods-as-meds · BEH Kleinman · M03 safety deepens.</text>
+<text x="20" y="470">MANTRA: "name it, dose it, ask alcohol, check pregnancy, follow it."</text>
+</g>
+</svg>

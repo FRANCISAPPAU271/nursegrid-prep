@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 480" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="480" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Placenta + cord: exchange + what crosses</text>
+<!-- maternal side -->
+<rect x="20" y="44" width="150" height="150" fill="#fecaca" stroke="#7f1d1d" stroke-width="1.5"/>
+<text x="95" y="62" font-size="10" font-weight="bold" fill="#7f1d1d" text-anchor="middle">MATERNAL</text>
+<text x="95" y="76" font-size="9" fill="#7f1d1d" text-anchor="middle">decidua + intervillous</text>
+<text x="95" y="88" font-size="9" fill="#7f1d1d" text-anchor="middle">space (maternal blood</text>
+<text x="95" y="100" font-size="9" fill="#7f1d1d" text-anchor="middle">bathing the villi)</text>
+<!-- villi -->
+<g stroke="#065f46" stroke-width="3" fill="none">
+<path d="M190,80 C210,100 200,130 215,150"/>
+<path d="M240,80 C230,110 245,130 235,155"/>
+<path d="M290,80 C300,105 290,130 305,150"/>
+</g>
+<g stroke="#b91c1c" stroke-width="1.5" fill="none">
+<path d="M190,80 C210,100 200,130 215,150"/>
+<path d="M240,80 C230,110 245,130 235,155"/>
+<path d="M290,80 C300,105 290,130 305,150"/>
+</g>
+<text x="250" y="62" font-size="10" font-weight="bold" fill="#111827" text-anchor="middle">VILLI (fetal capillaries inside)</text>
+<text x="250" y="178" font-size="9" fill="#374151" text-anchor="middle">exchange WITHOUT blood mixing (haemochorial)</text>
+<!-- cord -->
+<rect x="180" y="200" width="140" height="46" rx="10" fill="#e0f2fe" stroke="#0369a1" stroke-width="1.5"/>
+<circle cx="220" cy="223" r="10" fill="#1d4ed8"/><circle cx="248" cy="223" r="10" fill="#1d4ed8"/><circle cx="282" cy="223" r="12" fill="#b91c1c"/>
+<text x="250" y="262" font-size="9" fill="#111827" text-anchor="middle">cord: 2 arteries (blue, to placenta) + 1 vein (red, to fetus) + Wharton's jelly</text>
+<text x="250" y="275" font-size="9" fill="#b91c1c" text-anchor="middle" font-weight="bold">single umbilical artery → anomaly + growth scan</text>
+<!-- crosses table -->
+<g font-size="10" fill="#111827">
+<text x="30" y="302" font-weight="bold">Mother → fetus (needed):</text>
+<text x="30" y="316" font-size="9">O₂, glucose, amino acids, IgG antibodies (3rd trimester — passive immunity), vitamins</text>
+<text x="30" y="332" font-weight="bold">Fetus → mother (cleared):</text>
+<text x="30" y="346" font-size="9">CO₂, urea, bilirubin — maternal liver/kidneys do the work (rhesus + infection cross too)</text>
+<text x="30" y="362" font-weight="bold" fill="#b91c1c">Crosses that harm:</text>
+<text x="30" y="376" font-size="9">alcohol (FAS), nicotine/CO (FGR, abruption), TORCH (toxo, rubella, CMV, HSV, syphilis),</text>
+<text x="30" y="390" font-size="9">HIV (test + treat + plan delivery/feeding), malaria (IPTp-SP + ITN), drugs: ACE-i, warfarin,</text>
+<text x="30" y="404" font-size="9">valproate, retinoids, tetracycline, NSAIDs (3rd trimester) — check EVERY prescription</text>
+</g>
+<rect x="0" y="416" width="460" height="64" fill="#f1f5f9"/>
+<text x="20" y="438" font-size="10" fill="#111827">Dating: LMP Naegele (−3 mo + 7 d + 1 y) until dating scan (11–14 w CRL) corrects it.</text>
+<text x="20" y="452" font-size="10" fill="#111827">Term 37–42 w; viability ~24 w; steroids 24–34 w mature lungs. Folate 5 mg × 12 w</text>
+<text x="20" y="466" font-size="10" fill="#111827">preconception prevents neural-tube defects — counsel every woman of childbearing age.</text>
+</svg>

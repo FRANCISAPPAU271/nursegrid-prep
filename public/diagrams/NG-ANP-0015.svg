@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 480" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="480" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Haemostasis: three steps + the cascade</text>
+<g font-size="10" fill="#111827" text-anchor="middle">
+<rect x="130" y="44" width="200" height="34" rx="8" fill="#fef2f2" stroke="#b91c1c" stroke-width="2"/>
+<text x="230" y="58" font-weight="bold">Vessel injury</text>
+<text x="230" y="70" font-size="9" fill="#6b7280">collagen exposed</text>
+<rect x="130" y="96" width="200" height="34" rx="8" fill="#fff7ed" stroke="#7c2d12" stroke-width="1.5"/>
+<text x="230" y="110" font-weight="bold">1. Vascular spasm</text>
+<text x="230" y="122" font-size="9" fill="#6b7280">smooth muscle clamps down</text>
+<rect x="130" y="148" width="200" height="34" rx="8" fill="#fef9c3" stroke="#713f12" stroke-width="1.5"/>
+<text x="230" y="162" font-weight="bold">2. Platelet plug</text>
+<text x="230" y="174" font-size="9" fill="#6b7280">sticky, then stuck (aspirin blocks this)</text>
+<rect x="130" y="200" width="200" height="52" rx="8" fill="#f1f5f9" stroke="#334155" stroke-width="1.5"/>
+<text x="230" y="214" font-weight="bold">3. Coagulation cascade</text>
+<text x="230" y="228" font-size="9">intrinsic + extrinsic → factor X →</text>
+<text x="230" y="240" font-size="9">thrombin → fibrin mesh (warfarin,</text>
+<text x="230" y="252" font-size="9" fill="#6b7280">heparin and DOACs block here)</text>
+<g stroke="#334155" stroke-width="1.5">
+<line x1="230" y1="78" x2="230" y2="96"/><path d="M230,96 l-5,-8 l10,0 Z" fill="#334155"/>
+<line x1="230" y1="130" x2="230" y2="148"/><path d="M230,148 l-5,-8 l10,0 Z" fill="#334155"/>
+<line x1="230" y1="182" x2="230" y2="200"/><path d="M230,200 l-5,-8 l10,0 Z" fill="#334155"/>
+</g>
+<rect x="40" y="280" width="170" height="52" rx="8" fill="#ecfdf5" stroke="#065f46" stroke-width="1.5"/>
+<text x="125" y="294" font-weight="bold">Clot retracts</text>
+<text x="125" y="306" font-size="9">serum squeezed out,</text>
+<text x="125" y="318" font-size="9">edges pulled together</text>
+<rect x="250" y="280" width="170" height="52" rx="8" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="335" y="294" font-weight="bold">Fibrinolysis</text>
+<text x="335" y="306" font-size="9">plasmin dissolves fibrin,</text>
+<text x="335" y="318" font-size="9">vessel reopens (D-dimers rise)</text>
+<line x1="230" y1="252" x2="230" y2="266" stroke="#334155" stroke-width="1.5"/>
+<line x1="125" y1="266" x2="335" y2="266" stroke="#334155" stroke-width="1.5"/>
+<line x1="125" y1="266" x2="125" y2="280" stroke="#334155" stroke-width="1.5"/>
+<line x1="335" y1="266" x2="335" y2="280" stroke="#334155" stroke-width="1.5"/>
+</g>
+<rect x="0" y="348" width="460" height="132" fill="#f1f5f9"/>
+<text x="20" y="370" font-size="10" fill="#111827">Read the labs by the diagram: low platelets break step 2 (petechiae, oozing); raised</text>
+<text x="20" y="384" font-size="10" fill="#111827">PT/INR or APTT break step 3 (deep bleeds, haemarthrosis). Vitamin K builds factors II,</text>
+<text x="20" y="398" font-size="10" fill="#111827">VII, IX and X — newborns get it at birth because the gut starts sterile. Haemophilia A</text>
+<text x="20" y="412" font-size="10" fill="#111827">(factor VIII) and B (factor IX) are X-linked — boys bleed, mothers carry. And clots have</text>
+<text x="20" y="426" font-size="10" fill="#111827">their own triad — stasis, vessel injury, hypercoagulability (Virchow) — behind every</text>
+<text x="20" y="440" font-size="10" fill="#111827">DVT: the immobile leg, the post-op patient, the oestrogen pill. Move them.</text>
+</svg>

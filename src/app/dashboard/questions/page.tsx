@@ -4,6 +4,7 @@ import { db } from "@/db";
 import { questionAttempts } from "@/db/schema";
 import { eq, sql } from "drizzle-orm";
 import { getCachedCategorySummaries } from "@/lib/catalog";
+import { listPracticeProgress, practiceSetKey, type PracticeProgress } from "@/db/practice-progress";
 
 export const dynamic = "force-dynamic";
 
@@ -28,7 +29,7 @@ export default async function QuestionBankPage() {
 
   // Category catalog data is cached (rarely changes); only the user's own
   // attempt progress needs a fresh, per-request query.
-  const [categoryRows, progressRows] = await Promise.all([
+  const [categoryRows, progressRows, savedPositions] = await Promise.all([
     getCachedCategorySummaries(),
     db
       .select({
@@ -39,6 +40,9 @@ export default async function QuestionBankPage() {
       .from(questionAttempts)
       .where(eq(questionAttempts.userId, user.id))
       .groupBy(questionAttempts.categoryId),
+    // Saved "resume" positions per category; purely informational, so a
+    // failure here must never take the question bank down with it.
+    listPracticeProgress(user.id).catch((): Map<string, PracticeProgress> => new Map()),
   ]);
 
   const progressMap = new Map(progressRows.map((p) => [p.categoryId, p]));
@@ -87,6 +91,10 @@ export default async function QuestionBankPage() {
           const progress = progressMap.get(c.id);
           const accuracy = progress && progress.attempted > 0 ? Math.round((progress.correct / progress.attempted) * 100) : null;
           const attemptPct = c.totalQuestions > 0 ? Math.min(100, Math.round(((progress?.attempted ?? 0) / c.totalQuestions) * 100)) : 0;
+          const setSize = user.isPremium ? c.totalQuestions : c.freeQuestions;
+          const key = practiceSetKey({ categorySlug: c.slug, isPremium: user.isPremium });
+          const saved = key ? savedPositions.get(key) : undefined;
+          const resumeAt = saved && saved.position > 0 && saved.position < setSize ? saved.position + 1 : null;
           return (
             <Link
               key={c.id}
@@ -107,6 +115,9 @@ export default async function QuestionBankPage() {
                   <span>{c.totalQuestions.toLocaleString()} questions</span>
                   <span>{accuracy === null ? "Not started" : `${accuracy}% correct`}</span>
                 </div>
+                {resumeAt !== null && (
+                  <p className="mt-1.5 text-xs font-bold text-emerald-700">▶ Resume at question {resumeAt}</p>
+                )}
                 <div className="mt-1.5 h-1.5 w-full overflow-hidden rounded-full bg-slate-100">
                   <div className="h-full rounded-full bg-emerald-500" style={{ width: `${attemptPct}%` }} />
                 </div>

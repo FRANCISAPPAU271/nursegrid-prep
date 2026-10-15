@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">The change canvas: ward fix on 1 page</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="205" height="70" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="122" y="56" font-weight="bold" font-size="10">1. PROBLEM + AIM</text>
+<text x="122" y="70" font-size="8">"Bay B: 6 falls/quarter;</text>
+<text x="122" y="81" font-size="8">AIM: cut 50% in 90 days"</text>
+<text x="122" y="94" font-size="8" fill="#6b7280">data + story + SMART</text>
+<rect x="235" y="36" width="205" height="70" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="337" y="56" font-weight="bold" font-size="10">2. STAKEHOLDERS</text>
+<text x="337" y="70" font-size="8">nurses, doctor, physio,</text>
+<text x="337" y="81" font-size="8">cleaners, relatives, maint.</text>
+<text x="337" y="94" font-size="8" fill="#6b7280">champion + sponsor</text>
+<rect x="20" y="114" width="205" height="70" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="122" y="134" font-weight="bold" font-size="10">3. DIAGNOSIS</text>
+<text x="122" y="148" font-size="8">fishbone + 5 whys +</text>
+<text x="122" y="159" font-size="8">Pareto: bells, light,</text>
+<text x="122" y="170" font-size="8" fill="#6b7280">footwear = 80%</text>
+<rect x="235" y="114" width="205" height="70" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="337" y="134" font-weight="bold" font-size="10">4. CHANGE (PDSA)</text>
+<text x="337" y="148" font-size="8">bedtime safety check:</text>
+<text x="337" y="159" font-size="8">bell-light-footwear-</text>
+<text x="337" y="170" font-size="8" fill="#6b7280">toilet, 2-wk pilot</text>
+<rect x="20" y="192" width="205" height="70" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="122" y="212" font-weight="bold" font-size="10">5. MEASURE</text>
+<text x="122" y="226" font-size="8">falls/100 bed-days,</text>
+<text x="122" y="237" font-size="8">weekly run chart</text>
+<text x="122" y="248" font-size="8" fill="#6b7280">on ward board</text>
+<rect x="235" y="192" width="205" height="70" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="337" y="212" font-weight="bold" font-size="10">6. SUSTAIN</text>
+<text x="337" y="226" font-size="8">protocol + induction</text>
+<text x="337" y="237" font-size="8">+ spot audits +</text>
+<text x="337" y="248" font-size="8" fill="#6b7280">streak parties</text>
+</g>
+<rect x="0" y="274" width="460" height="216" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="296" font-weight="bold">LEADERSHIP THREAD (M01): style per phase — democratic to diagnose (team owns</text>
+<text x="20" y="310">bones), transformational to launch (vision + quick wins), laissez-faire to sustain</text>
+<text x="20" y="324">(champions run it); Lewin throughout (unfreeze with data+story → move with pilot →</text>
+<text x="20" y="338">refreeze with protocol). TEACHING THREAD (M02): train the check (demo + return-demo),</text>
+<text x="20" y="352">feedback SBI weekly, debrief scares. EVIDENCE THREAD (M03): PICO the doubt, STG +</text>
+<text x="20" y="366">reviews for the bundle, journal club one paper. SAFETY THREAD (M04): good-catch log,</text>
+<text x="20" y="380">blame-free data, CUSS honoured. SYSTEM THREAD (M05): cost it (falls = extra days + claims),</text>
+<text x="20" y="394">brief DHMT, register learnings upward. CAREER THREAD (M06): file canvas + charts +</text>
+<text x="20" y="408">protocol + reflection as portfolio crown — interview STAR ready.</text>
+<text x="20" y="428">Resistance? Listen (fear? workload? past failures?) → co-design → pilot tiny → show data →</text>
+<text x="20" y="442">celebrate adopters — never mandate what evidence + invitation can win. Canvas on the</text>
+<text x="20" y="456">ward board, updated weekly, owned by name — \"someone should…\" improves nothing.</text>
+<text x="20" y="474">Exam line: \"one page, six boxes, six threads — the capstone made visible.\"</text>
+</g>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 480" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="480" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">4-box tool + escalation ladder</text>
+<g font-size="9" fill="#111827">
+<rect x="20" y="40" width="205" height="86" rx="8" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="122" y="58" text-anchor="middle" font-weight="bold" font-size="10">1. MEDICAL INDICATIONS</text>
+<text x="30" y="74">• diagnosis? prognosis? options?</text>
+<text x="30" y="86">• benefits vs burdens of EACH?</text>
+<text x="30" y="98">• what does \"do nothing\" do?</text>
+<text x="30" y="110">• is proposed care futile?</text>
+<text x="30" y="120" font-size="8" fill="#6b7280">facts first — opinions later</text>
+<rect x="235" y="40" width="205" height="86" rx="8" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="337" y="58" text-anchor="middle" font-weight="bold" font-size="10">2. PATIENT PREFERENCES</text>
+<text x="245" y="74">• capacity? informed? voluntary?</text>
+<text x="245" y="86">• stated wishes / advance directive?</text>
+<text x="245" y="98">• surrogate: who? how sure?</text>
+<text x="245" y="110">• refusal honoured + documented?</text>
+<text x="245" y="120" font-size="8" fill="#6b7280">autonomy's box — heavy weight</text>
+<rect x="20" y="134" width="205" height="86" rx="8" fill="#fef9c3" stroke="#713f12" stroke-width="1.5"/>
+<text x="122" y="152" text-anchor="middle" font-weight="bold" font-size="10">3. QUALITY OF LIFE</text>
+<text x="30" y="168">• patient's OWN view (not yours)?</text>
+<text x="30" y="180">• deficits treatment would leave?</text>
+<text x="30" y="192">• bias check: disability ≠ misery</text>
+<text x="30" y="204">• palliative parallel plan?</text>
+<text x="30" y="214" font-size="8" fill="#6b7280">their life, their metric</text>
+<rect x="235" y="134" width="205" height="86" rx="8" fill="#f3e8ff" stroke="#6b21a8" stroke-width="1.5"/>
+<text x="337" y="152" text-anchor="middle" font-weight="bold" font-size="10">4. CONTEXTUAL FEATURES</text>
+<text x="245" y="168">• family, culture, faith, money?</text>
+<text x="245" y="180">• law: what MUST/MUSTN'T?</text>
+<text x="245" y="192">• resources: fair allocation?</text>
+<text x="245" y="204">• team conflict? hierarchy?</text>
+<text x="245" y="214" font-size="8" fill="#6b7280">justice + reality live here</text>
+</g>
+<text x="20" y="244" font-size="12" font-weight="bold" fill="#111827">Escalation ladder (climb, don't jump — document every rung)</text>
+<g font-size="10" fill="#111827" text-anchor="middle">
+<rect x="20" y="252" width="200" height="26" rx="6" fill="#f8fafc" stroke="#334155" stroke-width="1"/>
+<text x="120" y="269">bedside nurse + patient/family talk</text>
+<rect x="130" y="282" width="200" height="26" rx="6" fill="#f8fafc" stroke="#334155" stroke-width="1"/>
+<text x="230" y="299">in-charge + treating doctor</text>
+<rect x="240" y="312" width="200" height="26" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1.5"/>
+<text x="340" y="329">ethics committee / senior MDT</text>
+</g>
+<rect x="0" y="348" width="460" height="132" fill="#f1f5f9"/>
+<text x="20" y="370" font-size="10" fill="#111827">Worked direction: confused elder refusing NG feed → Box 1 (malnutrition risk vs</text>
+<text x="20" y="384" font-size="10" fill="#111827">aspiration/burden?) → Box 2 (capacity now? prior wishes? family input?) → Box 3</text>
+<text x="20" y="398" font-size="10" fill="#111827">(comfort vs prolonging dying?) → Box 4 (home support? costs?) → team + family</text>
+<text x="20" y="412" font-size="10" fill="#111827">consensus + time-limited trial or comfort plan + DOCUMENT reasoning. Moral</text>
+<text x="20" y="426" font-size="10" fill="#111827">distress (blocked from right action): speak up the ladder, debrief, write it, seek</text>
+<text x="20" y="440" font-size="10" fill="#111827">committee — silence corrodes into residue and exit. Objection: refer promptly,</text>
+<text x="20" y="454" font-size="10" fill="#111827">never abandon; emergencies admit no refusal.</text>
+</svg>

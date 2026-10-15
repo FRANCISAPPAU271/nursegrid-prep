@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Elder abuse + end-of-life essentials</text>
+<g font-size="8" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="76" height="80" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="58" y="56" font-weight="bold" font-size="8">PHYSICAL</text>
+<text x="58" y="70" font-size="8">hits, burns,</text>
+<text x="58" y="81" font-size="8">restraint,</text>
+<text x="58" y="92" font-size="8">over-sedation</text>
+<text x="58" y="106" font-size="8" fill="#6b7280">injury patterns</text>
+<rect x="104" y="36" width="76" height="80" rx="6" fill="#ffedd5" stroke="#c2410c" stroke-width="1.5"/>
+<text x="142" y="56" font-weight="bold" font-size="8">EMOTIONAL</text>
+<text x="142" y="70" font-size="8">threats, insults,</text>
+<text x="142" y="81" font-size="8">isolation,</text>
+<text x="142" y="92" font-size="8">infantilising</text>
+<text x="142" y="106" font-size="8" fill="#6b7280">fear, withdrawal</text>
+<rect x="188" y="36" width="76" height="80" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="226" y="56" font-weight="bold" font-size="8">FINANCIAL</text>
+<text x="226" y="70" font-size="8">pension theft,</text>
+<text x="226" y="81" font-size="8">forced sales,</text>
+<text x="226" y="92" font-size="8">"fees" skimmed</text>
+<text x="226" y="106" font-size="8" fill="#6b7280">missing money</text>
+<rect x="272" y="36" width="76" height="80" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="310" y="56" font-weight="bold" font-size="8">NEGLECT</text>
+<text x="310" y="70" font-size="8">unfed, dirty,</text>
+<text x="310" y="81" font-size="8">ulcers, missed</text>
+<text x="310" y="92" font-size="8">meds/visits</text>
+<text x="310" y="106" font-size="8" fill="#6b7280">self-neglect too</text>
+<rect x="356" y="36" width="84" height="80" rx="6" fill="#f3e8ff" stroke="#7e22ce" stroke-width="1.5"/>
+<text x="398" y="56" font-weight="bold" font-size="8">SEXUAL</text>
+<text x="398" y="70" font-size="8">any non-consensual</text>
+<text x="398" y="81" font-size="8">contact — believe,</text>
+<text x="398" y="92" font-size="8">forensic, DOVVSU</text>
+<text x="398" y="106" font-size="8" fill="#6b7280">urgent</text>
+</g>
+<text x="20" y="138" font-size="12" font-weight="bold" fill="#111827">DETECT → PROTECT → REPORT</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="156">SEE ALONE ("routine check, family wait outside") → ASK kindly ("do you feel safe? who hurts/</text>
+<text x="30" y="172">frightens you?") → EXAMINE (body map injuries, photos per protocol, verbatim quotes) →</text>
+<text x="30" y="188">PROTECT (admit if unsafe, never confront abuser with elder present) → REPORT (in-charge +</text>
+<text x="30" y="204">Social Welfare + DOVVSU/police — Acts 560/732, PRO-I M4/M6: protection beats secrecy) →</text>
+<text x="30" y="220">FOLLOW UP (review date, safe discharge only). Witchcraft accusations = abuse + refer.</text>
+</g>
+<rect x="0" y="232" width="460" height="258" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="254" font-weight="bold">END-OF-LIFE ESSENTIALS: recognise dying (surprise question: "would I be surprised</text>
+<text x="20" y="268">if they died in 12 months?" — if NO, plan!) → goals talk (where? who? what matters? DNAR</text>
+<text x="20" y="282">discussed + documented per policy — PRO-I M2) → palliate (pain ladder M03 + breathlessness</text>
+<text x="20" y="296">+ secretions + nausea + agitation + mouth care) → comfort (family present, prayers, light,</text>
+<text x="20" y="310">position, sips if wanted) → after (verify death per protocol, wash + honour rituals, belongings</text>
+<text x="20" y="324">listed, family grief + practical help, staff debrief).</text>
+<text x="20" y="344">ADVANCE CARE PLANS: wishes written while capacitous (place, funeral, who decides) —</text>
+<text x="20" y="358">reviewed yearly; capacity assessed per decision (PRO-I M2/M4); family guided ("what would</text>
+<text x="20" y="372">THEY want?"), futile CPR avoided by conversation not surprise. Stopping burdens (dialysis,</text>
+<text x="20" y="386">admissions, tubes) with consent + comfort = care, not killing — document reasoning.</text>
+<text x="20" y="406">Nurse's dying-patient checklist: pain 0–3? breath settled? mouth moist? family called?</text>
+<text x="20" y="420">prayers offered? rituals known? belongings safe? juniors supported? self debriefed? —</text>
+<text x="20" y="434">good deaths are NURSED, not happened. Coroner/reportable rules (PRO-I M6) still apply;</text>
+<text x="20" y="448">expected deaths need doctor certification + family tenderness in equal measure.</text>
+<text x="20" y="468">Exam line: \"see alone, ask kindly, protect first, report always — and nurse good deaths.\"</text>
+</g>
+</svg>

@@ -1,0 +1,210 @@
+import type { CourseModule } from "../types";
+
+export const obstructive: CourseModule = {
+  slug: "obstructive-airway-disease",
+  title: "Asthma and COPD",
+  summary: "The two obstructive diseases every ward and emergency unit sees daily: how to grade an asthma attack and treat it in the right order, and how to manage COPD without either starving or drowning the patient in oxygen.",
+  lessons: [
+    {
+      slug: "asthma",
+      title: "Asthma: chronic control and the acute attack",
+      minutes: 16,
+      objectives: [
+        "Explain the pathophysiology of asthma and identify common triggers in Ghana.",
+        "Grade an acute attack as moderate, severe or life-threatening and act on the grade.",
+        "Deliver the emergency treatment sequence correctly and recognise the patient who is not responding.",
+        "Teach inhaler and spacer technique, peak-flow monitoring and a written action plan.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "What is happening in the airways",
+          paragraphs: [
+            "Asthma is chronic inflammation of the airways that makes them twitchy. On exposure to a trigger three things happen together: the smooth muscle contracts (<strong>bronchospasm</strong>), the lining swells (<strong>mucosal oedema</strong>) and the glands pour out thick <strong>mucus</strong>. Air gets in more easily than it gets out, so expiration is prolonged and wheezy, the chest hyperinflates and the work of breathing climbs. Between attacks the airways may be normal — which is why asthma is under-treated: the patient feels well and stops the preventer.",
+            "Triggers: viral infections, dust and dust mites, cockroach and animal dander, mould and damp, smoke (tobacco, charcoal, firewood, mosquito coils, refuse burning), harmattan dust, strong perfumes and insecticide sprays, cold air, exercise, emotion, aspirin and NSAIDs, beta-blockers (including eye drops), and occupational dusts and fumes.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-NCD-0506.svg",
+          alt: "Table of asthma severity: moderate, severe and life-threatening, with the warning that the dangerous patient is often the quiet one",
+          caption: "Grade the attack in the first minute. Wheeze needs moving air — a chest that goes silent is closing, not improving.",
+        },
+        {
+          type: "table",
+          heading: "Grading the acute attack",
+          columns: ["Grade", "Features (any one is enough for the higher grade)", "Response"],
+          rows: [
+            ["Moderate", "Speaks in sentences; respiratory rate below 25; pulse below 110; SpO2 94% or more; peak flow 50–75% of best or predicted", "Salbutamol by spacer or nebuliser, oral prednisolone, reassess within 15–30 minutes; may go home with a plan if it settles"],
+            ["Acute severe", "Cannot complete a sentence in one breath; respiratory rate 25 or more; pulse 110 or more; peak flow 33–50%; using accessory muscles", "Oxygen, back-to-back nebulisers with ipratropium added, systemic steroid, admit, repeat observations every 15 minutes"],
+            ["Life-threatening", "<strong>Silent chest</strong>, cyanosis, SpO2 below 92%, PaO2 below 8 kPa, feeble respiratory effort, exhaustion, confusion or drowsiness, bradycardia, arrhythmia, hypotension, peak flow below 33% or unable to perform", "Call the doctor and the critical-care team immediately; continuous nebulisers, IV magnesium, IV hydrocortisone, blood gas, prepare for intubation"],
+            ["Near-fatal", "Raised PaCO2 (a normal or high CO2 in an asthmatic who is breathing fast means they are failing) or needing ventilation", "Intensive care"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Emergency treatment — in order",
+          style: "steps",
+          items: [
+            "<strong>Sit upright</strong>, stay calm and stay with the patient; call for help early.",
+            "<strong>Oxygen</strong> to keep SpO2 94–98% — high flow via reservoir mask if severe; drive nebulisers with oxygen at 6–8 L/min in asthma.",
+            "<strong>Salbutamol</strong> nebulised 5 mg (2.5 mg in children under 5), repeated every 15–20 minutes or continuously (back-to-back) in severe attacks; in moderate attacks 4–10 puffs via a spacer, one puff at a time with 4–5 breaths each, is as effective.",
+            "<strong>Ipratropium bromide</strong> 0.5 mg nebulised (0.25 mg in children) added to salbutamol in severe and life-threatening attacks, every 4–6 hours.",
+            "<strong>Corticosteroid</strong> early — prednisolone 40–50 mg orally (1–2 mg/kg in children, maximum 40 mg) or hydrocortisone 100 mg IV (4 mg/kg in children) if unable to swallow. Steroids take 4–6 hours to work, which is why they must be given at the start, and are continued for at least 5 days.",
+            "<strong>Magnesium sulphate</strong> 1.2–2 g IV over 20 minutes for severe or life-threatening attacks not responding (40 mg/kg in children); monitor blood pressure.",
+            "<strong>Reassess every 15 minutes</strong>: respiratory rate, pulse, SpO2, peak flow when able, ability to speak, chest sounds, consciousness. Blood gas in life-threatening attacks or SpO2 below 92%. IV aminophylline or IV salbutamol only under senior direction with cardiac monitoring.",
+            "<strong>Not improving or getting quieter</strong> → critical care now. Sedation is never given to a struggling asthmatic. Antibiotics only for clear bacterial infection — most attacks are viral.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "After the attack and long-term control",
+          items: [
+            "Before discharge: peak flow above 75% of best and stable for 24 hours on inhaled therapy, inhaler technique checked, a written <strong>asthma action plan</strong>, prednisolone to complete, and a review within a week. Many deaths follow discharge within days.",
+            "<strong>Stepwise treatment:</strong> everyone with asthma needs an <strong>inhaled corticosteroid preventer</strong> (beclometasone or budesonide) taken every day, with a short-acting beta-agonist reliever as needed. A long-acting beta-agonist is added only alongside the steroid (combination inhaler), never alone. Needing the reliever more than twice a week, waking at night or any attack means the preventer step is too low.",
+            "<strong>Inhaler technique (metered-dose inhaler):</strong> shake, remove the cap, breathe out fully away from the inhaler, seal the lips, press once as you start a slow deep breath in, hold for 10 seconds, wait 30–60 seconds before the next puff. Rinse the mouth after steroid inhalers to prevent thrush and hoarseness.",
+            "<strong>Spacer:</strong> always with a metered-dose inhaler in children and in attacks; one puff into the spacer then 4–5 normal breaths; wash weekly in detergent and air-dry (do not rub — static holds the drug on the walls); a 500 mL plastic bottle with a hole cut for the inhaler is a proven low-cost spacer.",
+            "<strong>Peak flow diary</strong> and personal best; zones — green (above 80%: continue), amber (50–80%: increase reliever, start plan), red (below 50%: emergency).",
+            "Trigger avoidance: no smoking in the home, cook outdoors or with a chimney, damp-dust, cover mattresses, avoid aspirin and NSAIDs if sensitive, treat allergic rhinitis, annual influenza vaccine; exercise is encouraged with a reliever beforehand if needed.",
+            "Pregnancy: asthma must be treated — uncontrolled asthma harms the baby more than inhaled steroids ever will.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "warning",
+          title: "Signs the asthmatic is about to arrest",
+          body: "Silent chest, drowsiness or confusion, exhaustion, inability to speak, bradycardia, cyanosis, SpO2 below 92% despite oxygen, and a normal or rising PaCO2. Do not leave the bedside; do not sedate; call critical care.",
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Order of drugs",
+          body: "Oxygen → salbutamol → ipratropium → steroid (early, oral if possible) → magnesium → critical care. Beta-blockers, NSAIDs and sedatives are contraindicated. Everyone goes home with a preventer and a plan.",
+        },
+      ],
+      keyPoints: [
+        "Asthma is bronchospasm plus oedema plus mucus on a background of chronic inflammation; the preventer treats the inflammation, the reliever the spasm.",
+        "Grade every attack: cannot finish a sentence = severe; silent chest, SpO2 below 92%, exhaustion or confusion = life-threatening.",
+        "Treat in order: oxygen, nebulised salbutamol, ipratropium, early steroid, magnesium — reassess every 15 minutes.",
+        "A chest that goes quiet is closing; a normal PaCO2 in a tachypnoeic asthmatic means failure.",
+        "Spacers for children and attacks; rinse the mouth after inhaled steroids; discharge only with technique checked, a written plan and early review.",
+      ],
+      quiz: {
+        keywords: ["asthma", "salbutamol", "bronchodilator", "inhaler", "spacer", "peak flow", "wheez", "silent chest", "nebuli", "ipratropium", "bronchospasm", "metered dose", "prednisolone"],
+      },
+    },
+    {
+      slug: "copd",
+      title: "Chronic obstructive pulmonary disease",
+      minutes: 19,
+      objectives: [
+        "Differentiate chronic bronchitis and emphysema and relate them to the clinical picture.",
+        "Manage an acute exacerbation with controlled oxygen, bronchodilators, steroids and antibiotics.",
+        "Recognise type 2 respiratory failure and the role of non-invasive ventilation.",
+        "Teach breathing techniques, energy conservation, smoking cessation and pulmonary rehabilitation.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "A preventable, progressive disease",
+          paragraphs: [
+            "COPD is persistent airflow limitation that is not fully reversible, caused by years of inhaled irritants — tobacco smoke above all, but in Ghana very often <strong>biomass smoke</strong> from charcoal and firewood cooking in enclosed kitchens, which is why many patients are women who have never smoked. Occupational dusts and poorly treated childhood infections and TB add to the risk. It is diagnosed by spirometry: FEV1/FVC below 0.7 after a bronchodilator.",
+            "Two processes overlap. <strong>Chronic bronchitis</strong> — a productive cough for at least three months in two consecutive years — is inflamed, mucus-filled airways. <strong>Emphysema</strong> is destruction of the alveolar walls, so the lung loses its elastic recoil and its surface for gas exchange, air is trapped and the chest becomes barrel-shaped. Unlike asthma, symptoms are present every day and worsen slowly over years, punctuated by exacerbations that each take something away.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "The clinical picture",
+          columns: ["Feature", "Emphysema-predominant ('pink puffer')", "Bronchitis-predominant ('blue bloater')"],
+          rows: [
+            ["Build and appearance", "Thin, barrel chest, pursed-lip breathing, tripod position, pink because they hyperventilate to keep oxygen up", "Overweight, cyanosed, oedematous"],
+            ["Main symptom", "Breathlessness on exertion, little sputum", "Chronic productive cough, frequent infections, wheeze"],
+            ["Blood gases", "Near-normal until late", "Hypoxaemia and CO2 retention earlier; polycythaemia"],
+            ["Right heart", "Late", "Cor pulmonale early — raised JVP, ankle oedema, enlarged liver"],
+            ["Reality", "Most patients are a mixture of both; the labels are a learning aid, not a diagnosis", ""],
+          ],
+        },
+        {
+          type: "text",
+          heading: "Staging the stable disease — and choosing inhalers",
+          paragraphs: [
+            "Stable COPD is now grouped A, B and E from symptoms (breathlessness scores, the CAT questionnaire) and exacerbation history — not from the FEV1 number. Group A (few symptoms, no recent flare) needs a single bronchodilator. Group B (troublesome daily symptoms, no severe flare) needs LABA plus LAMA together. Group E (two moderate or one hospitalised exacerbation in the last year) starts LABA plus LAMA — and adds an inhaled steroid only if blood eosinophils are 300 or above, because steroids help eosinophilic inflammation and harm the rest with pneumonia risk.",
+            "The principle that saves money and lungs: <strong>check technique and adherence before stepping up.</strong> Half of failing treatment is an inhaler fired into the air in front of open lips. Watch the patient use their own device at every visit, add a spacer to every metered-dose inhaler, and ask about smoking, biomass smoke, missed doses, cost and herbal substitutes before adding another drug. Theophylline tablets remain in Ghanaian practice as a cheap last resort — narrow safety margin, so watch for nausea, tremor and palpitations and check interactions with antibiotics and seizure drugs.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "COPD inhalers and drugs",
+          columns: ["Class", "Examples", "Device and technique point", "Watch for"],
+          rows: [
+            ["<strong>SABA — rescue</strong>", "Salbutamol", "Metered-dose inhaler plus spacer, or nebuliser in exacerbation", "Tremor, fast pulse, low potassium with heavy use"],
+            ["<strong>SAMA — rescue</strong>", "Ipratropium", "Often combined with salbutamol in one nebuliser", "Dry mouth; caution in glaucoma (mask seal) and urinary retention"],
+            ["<strong>LABA — maintenance</strong>", "Salmeterol, formoterol", "Twice daily, dry-powder or MDI — rinsing not needed", "Tremor, palpitations; never alone in asthma, but no routine ICS needed in COPD"],
+            ["<strong>LAMA — maintenance</strong>", "Tiotropium", "Once daily HandiHaler or soft-mist — slow deep breath, hold 10 seconds", "Dry mouth, constipation, urinary difficulty; the backbone of Groups B and E"],
+            ["<strong>ICS/LABA — selected</strong>", "Budesonide/formoterol, fluticasone/salmeterol", "Rinse mouth after every use; spacer helps", "Oral thrush, hoarseness, pneumonia risk — reserve for frequent flares with eosinophils"],
+            ["<strong>Triple therapy</strong>", "ICS/LABA/LAMA", "Single or multiple inhalers — simplify where possible", "Review yearly: can the steroid be withdrawn if no flares and low eosinophils?"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Acute exacerbation — nursing and medical management",
+          items: [
+            "An exacerbation is a sustained worsening of breathlessness, cough, sputum volume or purulence beyond day-to-day variation, usually triggered by infection (viral or bacterial) or air pollution; always consider pneumonia, pneumothorax, pulmonary embolism and heart failure as alternatives.",
+            "<strong>Controlled oxygen:</strong> start at 24–28% via Venturi (or 1–2 L nasal cannula) targeting <strong>SpO2 88–92%</strong>; blood gas within 30–60 minutes and after every change. If the PaCO2 is normal and the patient is not acidotic, the target can be raised to 94–98%. Never leave a hypoxic patient without oxygen out of fear of CO2 retention — titrate it.",
+            "<strong>Bronchodilators:</strong> nebulised salbutamol 2.5–5 mg and ipratropium 0.5 mg, 4–6 hourly and more often if needed, driven by <strong>air</strong> (compressor) with nasal oxygen continuing, or by oxygen for no more than 6 minutes at a time.",
+            "<strong>Steroids:</strong> prednisolone 30–40 mg daily for 5 days (hydrocortisone IV if unable to swallow).",
+            "<strong>Antibiotics</strong> when sputum is purulent or there are signs of pneumonia — amoxicillin, doxycycline or a macrolide per local guidance; send sputum first.",
+            "<strong>Type 2 respiratory failure</strong> — rising PaCO2 with pH below 7.35 despite an hour of optimal treatment — needs <strong>non-invasive ventilation (BiPAP)</strong>: explain, fit the mask, start low pressures and build up, stay with the patient for the first 30 minutes, check the gas at 1 and 4 hours, protect the nasal bridge, allow breaks for drinks and nebulisers, and watch for gastric distension and vomiting. Decide and document in advance whether intubation would be appropriate.",
+            "<strong>General care:</strong> upright position, pursed-lip breathing coaching, pacing of activities, hydration to loosen sputum, chest physiotherapy if secretions are retained, early mobilisation, VTE prophylaxis, nutrition (small frequent high-energy meals — eating is exhausting), reassurance for the anxiety that always accompanies breathlessness, and sedatives avoided.",
+            "<strong>Danger signs:</strong> drowsiness, confusion, flapping tremor, bounding pulse, falling respiratory rate — hypercapnia — or SpO2 that will not reach 88% on controlled oxygen; a silent chest; new chest pain (pneumothorax); haemodynamic instability.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Cor pulmonale and the long-term complications",
+          items: [
+            "<strong>Cor pulmonale:</strong> years of hypoxia narrow the pulmonary vessels until the right heart fails — raised JVP, ankle and sacral oedema, tender enlarged liver, ascites. Oxygen is the treatment that unloads the right heart; diuretics relieve swelling but over-diuresis drops the preload a stiff ventricle needs — weigh daily and titrate to the JVP, not to dry legs.",
+            "<strong>Polycythaemia:</strong> chronic hypoxia drives extra red cells — ruddy face, headache, sluggish blood. Hydration and oxygen are the answer; venesection is rarely needed and smoking must stop because carbon monoxide worsens it.",
+            "<strong>Wasting and weakness:</strong> breathing burns calories and steroids waste muscle — the thin emphysematous patient keeps losing weight. High-protein small meals, resistance exercise in rehabilitation, vitamin D and a physiotherapy referral do more than appetite tonics.",
+            "<strong>Bone and eye costs of steroids:</strong> repeated prednisolone courses thin bones and cloud lenses. Calcium and vitamin D, bone-protecting treatment for the frequent user, and eye checks for cataract and glaucoma in ICS users.",
+            "<strong>Mind and sleep:</strong> breathlessness breeds anxiety, and anxiety breeds breathlessness; depression hides in a third of severe COPD. Screen mood, treat panic-breathing with pursed-lip coaching, and ask about morning headache and daytime sleepiness — overlap with sleep apnoea is common.",
+            "<strong>Bullae and pneumothorax:</strong> emphysematous lungs tear — sudden one-sided pain with worse breathlessness after coughing is a pneumothorax until proven otherwise. Keep oxygen targeted even with a chest drain, and warn bronchoscopic and flying patients to seek advice first.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Living with COPD — what the nurse teaches",
+          items: [
+            "<strong>Stop smoking</strong> and reduce smoke exposure — the only intervention that slows the decline. Offer counselling and nicotine replacement at every contact; help the household move cooking outdoors or to a ventilated space and a cleaner stove.",
+            "<strong>Pursed-lip breathing:</strong> breathe in through the nose for two counts, out through pursed lips for four — it keeps airways open on expiration and empties trapped air. <strong>Diaphragmatic breathing</strong> with a hand on the abdomen. Use them before and during exertion.",
+            "<strong>Energy conservation:</strong> plan the day, sit to wash and dress, rest between tasks, lean forward on a table when breathless, keep frequently used items within reach.",
+            "<strong>Inhalers:</strong> long-acting bronchodilators (LAMA, LABA) are the foundation; inhaled steroids are added for frequent exacerbations; check technique every visit; a spacer for metered-dose inhalers.",
+            "<strong>Pulmonary rehabilitation</strong> — supervised exercise, education and breathing training — improves breathlessness and quality of life more than any inhaler; walking daily is the home version.",
+            "<strong>Vaccination:</strong> influenza yearly and pneumococcal; prompt treatment of chest infections with a self-management plan (standby steroids and antibiotics where appropriate).",
+            "<strong>Nutrition and weight:</strong> underweight patients do worse — high-energy, high-protein small meals; oxygen during meals if hypoxic.",
+            "<strong>Long-term oxygen therapy</strong> for at least 15 hours a day when resting PaO2 is persistently below 7.3 kPa (or below 8 kPa with cor pulmonale or polycythaemia) prolongs life — but only in patients who have stopped smoking (fire risk and futility).",
+            "<strong>Advance care planning:</strong> COPD is a terminal illness in its final stage; discuss wishes about ventilation and where care should happen while the patient is well enough to decide. Breathlessness at the end of life is relieved by low-dose opioids, a fan on the face, positioning and company.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "COPD in four numbers",
+          body: "FEV1/FVC below 0.7. Target SpO2 88–92%. Start oxygen at 24–28% Venturi and check a gas at 30–60 minutes. NIV when pH is below 7.35 after an hour of treatment.",
+        },
+      ],
+      keyPoints: [
+        "COPD is irreversible airflow limitation from smoke — tobacco or biomass — confirmed by FEV1/FVC below 0.7.",
+        "Exacerbation: controlled oxygen to 88–92%, nebulised salbutamol and ipratropium by air, 5 days of prednisolone, antibiotics for purulent sputum.",
+        "Drowsiness, flapping tremor and a bounding pulse mean CO2 retention; a pH below 7.35 after an hour means NIV.",
+        "Pursed-lip breathing, pacing, pulmonary rehabilitation, vaccination and smoking cessation are nursing interventions, not extras.",
+        "Long-term oxygen for 15 hours a day prolongs life in the severely hypoxic non-smoker.",
+        "Stable COPD is grouped A, B, E by symptoms and flares: LABA plus LAMA for B and E, adding inhaled steroid only with frequent flares and eosinophils above 300.",
+        "Cor pulmonale is treated with oxygen first and cautious diuretics; repeat steroids cost bone, muscle and mood — protect all three.",
+      ],
+      quiz: {
+        keywords: ["copd", "chronic obstructive", "emphysema", "chronic bronchitis", "pursed lip", "hypercapn", "co2 retention", "cor pulmonale", "smoking", "venturi", "non invasive ventilation", "bipap", "oxygen", "barrel chest", "spirometry", "gold", "lama", "laba", "tiotropium", "eosinophil", "pulmonary hypertension", "polycythaemia", "theophylline", "pulmonary rehabilitation"],
+      },
+    },
+  ],
+};

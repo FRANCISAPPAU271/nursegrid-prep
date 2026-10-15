@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">SDH rainbow: why the poor sicken first</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="130" y="36" width="200" height="30" rx="15" fill="#111827"/>
+<text x="230" y="55" font-weight="bold" font-size="9" fill="#ffffff">AGE · SEX · GENES (fixed!)</text>
+<rect x="100" y="70" width="260" height="28" rx="14" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="230" y="88" font-weight="bold" font-size="9">LIFESTYLE: food, smoke, drink, sex, exercise</text>
+<rect x="70" y="102" width="320" height="28" rx="14" fill="#ffedd5" stroke="#c2410c" stroke-width="1.5"/>
+<text x="230" y="120" font-weight="bold" font-size="9">COMMUNITY: family, friends, faith, neighbours</text>
+<rect x="40" y="134" width="380" height="28" rx="14" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="230" y="152" font-weight="bold" font-size="9">LIVING: housing, water, work, school, clinic, transport</text>
+<rect x="20" y="166" width="420" height="28" rx="14" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="230" y="184" font-weight="bold" font-size="9">STRUCTURE: economy, policy, NHIS, gender, power</text>
+</g>
+<rect x="0" y="204" width="460" height="286" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="226" font-weight="bold">DAHLGREN-WHITEHEAD (exam!): 5 layers, inside out — fixed → lifestyle → community</text>
+<text x="20" y="240">→ living conditions → structural forces. Nurses act on ALL: counsel lifestyle, mobilise</text>
+<text x="20" y="254">community, navigate living barriers, ADVOCATE structure (PRO-II!).</text>
+<text x="20" y="274">GRADIENT (Marmot!): each step down wealth/education = sicker + shorter lives — NOT just</text>
+<text x="20" y="288">poor-vs-rich but EVERY rung. Ghana: north vs south, rural vs urban, girl vs boy schooling,</text>
+<text x="20" y="302">kayayei vs office — gradients everywhere. Name them, never blame victims.</text>
+<text x="20" y="322">NURSE'S SDH SCREEN (ask!): money ("treatment affordable…?") · food ("meals daily…?") ·</text>
+<text x="20" y="336">housing ("rooms? water? toilet? smoke?") · work ("leave possible…?") · transport ("how far?</text>
+<text x="20" y="350">cost?") · school ("missed days…?") · safety ("safe at home…?") · NHIS ("card active…?").</text>
+<text x="20" y="370">ACT: dawn appointments (market women!) · drugs + food parcels · transport funds · NHIS</text>
+<text x="20" y="384">renewal help · referral letters (social welfare!) · community links (CHPS! churches!). Small</text>
+<text x="20" y="398">navigations, huge adherence — default is usually POVERTY, not defiance.</text>
+<text x="20" y="418">GENDER lens: women decide-last, pay-last, eat-last — involve husbands-kindly + empower</text>
+<text x="20" y="432">("your health feeds the family!") + screen abuse privately (PRO-I!). Girl-children: school</text>
+<text x="20" y="446">kept = health won — counsel fees-vs-future with parents.</text>
+<text x="20" y="466">MANTRA: "Don't blame the defaulter — map the rainbow, bridge the gap."</text>
+</g>
+</svg>

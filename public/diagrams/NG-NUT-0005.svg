@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Pregnancy + lactation nutrition</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="132" height="86" rx="6" fill="#f3e8ff" stroke="#7e22ce" stroke-width="1.5"/>
+<text x="86" y="56" font-weight="bold" font-size="9">EXTRA NEEDS</text>
+<text x="86" y="70" font-size="8">+340 kcal (2nd tri),</text>
+<text x="86" y="81" font-size="8">+450 (3rd); +500</text>
+<text x="86" y="92" font-size="8">lactation; protein</text>
+<text x="86" y="103" font-size="8">+25 g; fluids UP</text>
+<text x="86" y="114" font-size="8" fill="#6b7280">"eat better,</text>
+<text x="86" y="117" font-size="8" fill="#6b7280">not twice"</text>
+<rect x="164" y="36" width="132" height="86" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="230" y="56" font-weight="bold" font-size="9">IRON+FOLATE</text>
+<text x="230" y="70" font-size="8">daily tabs ANC;</text>
+<text x="230" y="81" font-size="8">with C, away tea;</text>
+<text x="230" y="92" font-size="8">dark stools normal;</text>
+<text x="230" y="103" font-size="8">folate preconception</text>
+<text x="230" y="114" font-size="8" fill="#b91c1c">anaemia = PPH risk!</text>
+<rect x="308" y="36" width="132" height="86" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="374" y="56" font-weight="bold" font-size="9">CALCIUM+I+D</text>
+<text x="374" y="70" font-size="8">milk/small fish +</text>
+<text x="374" y="81" font-size="8">sun; IODISED salt;</text>
+<text x="374" y="92" font-size="8">low calcium linked</text>
+<text x="374" y="103" font-size="8">pre-eclampsia risk</text>
+<text x="374" y="114" font-size="8" fill="#6b7280">supplement gaps</text>
+</g>
+<text x="20" y="144" font-size="12" font-weight="bold" fill="#111827">GAIN + AVOID + COUNSEL</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="162">GAIN (term): normal BMI 11.5–16 kg; underweight 12.5–18; overweight 7–11.5; obese 5–9.</text>
+<text x="30" y="178">Track ANC monthly — flat/falling = feed + hunt (anaemia? malaria? worms? twins? BP?).</text>
+<text x="30" y="194">AVOID: alcohol (NO safe amount — FAS!) · smoking · raw/undercooked meat-fish-eggs ·</text>
+<text x="30" y="210">unpasteurised milk · high-mercury big fish · excess vitamin A pills (liver+supps caution) ·</text>
+<text x="30" y="226">"herbs to widen birth canal" (unproven + risky — counsel kindly, involve elders).</text>
+</g>
+<rect x="0" y="238" width="460" height="252" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="260" font-weight="bold">NAUSEA/PICA/HB: small frequent dry-ish meals + ginger + B6 foods; PICA (clay/ice) =</text>
+<text x="20" y="274">iron hunt + counsel (clay blocks iron + parasites!); Hb each trimester + treat trio (iron +</text>
+<text x="20" y="288">malaria + worms — M01); constipation (fluids + fibre + move); heartburn (small + upright).</text>
+<text x="20" y="308">GESTATIONAL DIABETES (flag + refer): risk (obese, prior big baby/GDM, family) → screen per</text>
+<text x="20" y="322">protocol → diet (M04 diabetic plate + walks) + glucose watched → big baby/shoulder dystocia</text>
+<text x="20" y="336">prevented. Pre-eclampsia: BP + urine + calcium + refer fast — diet helps, delivery cures.</text>
+<text x="20" y="356">LACTATION: +500 kcal + protein + fluids (drink to thirst + pale urine) + CONTINUE iron/folate</text>
+<text x="20" y="370">3 mo + iodised salt + calcium/D; NO alcohol/smart drugs pass freely — counsel abstinence;</text>
+<text x="20" y="384">eat RAINBOW (milk quality follows diet); rest + support = supply (stress + exhaustion dry</text>
+<text x="20" y="398">more breasts than diet does — involve family!).</text>
+<text x="20" y="418">MYTHS (negotiate, never mock): "egg = big baby/thief" (eggs = brain food!) · "eat down to</text>
+<text x="20" y="432">ease labour" (starved mothers bleed + tear) · "pepper spoils milk" (eat normally, watch baby)</text>
+<text x="20" y="446">· "colostrum dirty" (LIQUID GOLD — M06/next lesson!). Grandmothers counselled WITH mothers.</text>
+<text x="20" y="466">Exam line: \"better not twice, iron with C, zero alcohol — grandmothers counselled too.\"</text>
+</g>
+</svg>

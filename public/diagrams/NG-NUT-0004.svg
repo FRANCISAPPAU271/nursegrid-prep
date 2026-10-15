@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">ABCD assessment + referral chain</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="96" height="84" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="68" y="56" font-weight="bold" font-size="9">A: ANTHRO</text>
+<text x="68" y="70" font-size="8">weight, height,</text>
+<text x="68" y="81" font-size="8">MUAC, BMI,</text>
+<text x="68" y="92" font-size="8">oedema, trend</text>
+<text x="68" y="106" font-size="8" fill="#6b7280">(last lesson)</text>
+<rect x="124" y="36" width="96" height="84" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="172" y="56" font-weight="bold" font-size="9">B: BIOCHEM</text>
+<text x="172" y="70" font-size="8">Hb, albumin,</text>
+<text x="172" y="81" font-size="8">glucose, lipids,</text>
+<text x="172" y="92" font-size="8">K+/Na, vitamins</text>
+<text x="172" y="106" font-size="8" fill="#6b7280">labs confirm</text>
+<rect x="228" y="36" width="96" height="84" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="276" y="56" font-weight="bold" font-size="9">C: CLINICAL</text>
+<text x="276" y="70" font-size="8">hair, eyes, mouth,</text>
+<text x="276" y="81" font-size="8">skin, nails,</text>
+<text x="276" y="92" font-size="8">thyroid, nerves</text>
+<text x="276" y="106" font-size="8" fill="#6b7280">head-to-toe</text>
+<rect x="332" y="36" width="108" height="84" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="386" y="56" font-weight="bold" font-size="9">D: DIETARY</text>
+<text x="386" y="70" font-size="8">24-h recall,</text>
+<text x="386" y="81" font-size="8">frequency,</text>
+<text x="386" y="92" font-size="8">money, beliefs,</text>
+<text x="386" y="106" font-size="8" fill="#6b7280">cook, teeth</text>
+</g>
+<text x="20" y="142" font-size="12" font-weight="bold" fill="#111827">DIET HISTORY (15 min, kindly)</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="160">24-h recall (everything! drinks, snacks, bites) → frequency (protein/veg/fruit weekly?) →</text>
+<text x="30" y="176">money (food budget? seasons? hungry months?) → beliefs (taboos? fasting? "hot/cold"?) →</text>
+<text x="30" y="192">cook + teeth + swallow + appetite + bowels + alcohol. NO shame — shame starves honesty.</text>
+</g>
+<rect x="0" y="204" width="460" height="286" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="226" font-weight="bold">LABS THAT MATTER: Hb/Hct (anaemia + cause hunt — M01 trio) · albumin/prealbumin</text>
+<text x="20" y="240">(protein stores — slow/fast) · glucose/HbA1c (diabetes — M04) · lipids (risk — M04/M05) ·</text>
+<text x="20" y="254">K+/Na/Mg/PO4 (re-feeding + diuretics — M05/GER) · creatinine/eGFR (dose + protein calls) ·</text>
+<text x="20" y="268">iron studies/B12/folate/vit D where indicated · stool worms · malaria where febrile. Labs</text>
+<text x="20" y="282">CONFIRM, nurses' eyes SUSPECT — order with reason, chase results, act + document.</text>
+<text x="20" y="302">CLINICAL PASS (link M01 signs): hair (red/easy-pluck = protein) · eyes (pale, Bitot, night</text>
+<text x="20" y="316">blind) · mouth (glossitis, cracks, thrush, dentures) · skin (flaky paint, poor heal, oedema) ·</text>
+<text x="20" y="330">nails (spoon, pale) · thyroid (goitre) · nerves (numbness, reflexes — B1/B12) · muscle/fat</text>
+<text x="20" y="344">wasting (temples, shoulders, buttocks — eyeball + grip).</text>
+<text x="20" y="364">SYNTHESIS → ACTION: ABCD + MUST/MNA (GER M06) → classify (well / at-risk / malnourished /</text>
+<text x="20" y="378">obese) → counsel (Module 01 chain: praise + ONE change + teach-back) → treat (supplements,</text>
+<text x="20" y="392">deworm, therapeutic feeds per protocol — M05) → REFER (dietician, doctor, welfare, SAM unit,</text>
+<text x="20" y="406">diabetes/HTN clinic — M04) → REVIEW dated. Red flags same-day: SAM/oedema, severe anaemia,</text>
+<text x="20" y="420">re-feed risk, dysphagia + weight loss, pregnancy + poor gain, infant faltering.</text>
+<text x="20" y="440">SPECIAL PASS: pregnancy (gain + Hb + BP + urine — M03) · elders (MUST + teeth + swallow +</text>
+<text x="20" y="454">loneliness — GER) · illness (appetite + losses + needs UP) · post-op (protein + healing).</text>
+<text x="20" y="474">Exam line: \"ABCD every assessment — labs confirm, eyes suspect, diet explains, action dated.\"</text>
+</g>
+</svg>

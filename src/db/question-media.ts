@@ -45,10 +45,14 @@ export async function getMediaForQuestions(
   const map = new Map<string, { mediaUrl: string; mediaCaption: string | null }>();
   if (questionIds.length === 0) return map;
   await ensureMediaColumns();
+  // NOTE: drizzle expands a JS array inside sql`` to a parenthesised list
+  // "($1, $2, …)", which is what IN expects — but NOT a Postgres array, so
+  // "= ANY(${ids})" fails with "op ANY/ALL (array) requires array on right
+  // side" and took the completed-exam review down with it (500).
   const result = await db.execute(sql`
     SELECT "id", "media_url", "media_caption"
     FROM "questions"
-    WHERE "id" = ANY(${questionIds}) AND "media_url" IS NOT NULL
+    WHERE "id" IN ${questionIds} AND "media_url" IS NOT NULL
   `);
   for (const r of result.rows) {
     const row = r as { id: string; media_url: string; media_caption: string | null };

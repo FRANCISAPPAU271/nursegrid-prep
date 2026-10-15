@@ -96,6 +96,22 @@ select:focus-visible,
   body {
     display: none !important;
   }
+  /* Course certificates are the one page a learner may legitimately print.
+     The certificate page opts in by setting data-allow-print on <body>
+     while it is mounted; everything except the certificate stays hidden. */
+  body[data-allow-print="1"] {
+    display: block !important;
+    background: #fff !important;
+  }
+  body[data-allow-print="1"] aside,
+  body[data-allow-print="1"] nav,
+  body[data-allow-print="1"] .print-hide {
+    display: none !important;
+  }
+  body[data-allow-print="1"] main > div {
+    max-width: none !important;
+    padding: 0 !important;
+  }
 }
 
 @keyframes fade-in {

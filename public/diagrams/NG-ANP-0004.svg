@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 560" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="560" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">The long bone and the osteon</text>
+<!-- distal epiphysis -->
+<ellipse cx="120" cy="400" rx="42" ry="30" fill="#fcd34d" stroke="#92400e" stroke-width="2"/>
+<g stroke="#b45309" stroke-width="1" fill="none">
+<path d="M92,392 l14,6 M108,388 l10,10 M124,390 l12,-4 M96,404 l16,2 M120,402 l10,8"/>
+</g>
+<!-- shaft -->
+<rect x="98" y="170" width="44" height="205" fill="#fde68a" stroke="#92400e" stroke-width="2"/>
+<rect x="110" y="182" width="20" height="181" fill="#fef9c3" stroke="#d97706" stroke-width="1"/>
+<!-- proximal epiphysis -->
+<ellipse cx="120" cy="140" rx="46" ry="34" fill="#fcd34d" stroke="#92400e" stroke-width="2"/>
+<g stroke="#b45309" stroke-width="1" fill="none">
+<path d="M88,132 l14,6 M104,128 l10,10 M122,130 l12,-4 M94,144 l16,2 M118,142 l10,8"/>
+</g>
+<!-- articular cartilage cap -->
+<path d="M78,122 Q120,96 162,122 L162,130 Q120,104 78,130 Z" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="1.5"/>
+<!-- epiphyseal lines -->
+<line x1="98" y1="176" x2="142" y2="176" stroke="#b91c1c" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="98" y1="372" x2="142" y2="372" stroke="#b91c1c" stroke-width="1.5" stroke-dasharray="4 3"/>
+<!-- periosteum hint -->
+<line x1="94" y1="190" x2="94" y2="350" stroke="#be123c" stroke-width="2.5"/>
+<!-- labels -->
+<g font-size="10" fill="#111827">
+<line x1="150" y1="112" x2="200" y2="96" stroke="#6b7280" stroke-width="1"/>
+<text x="202" y="92" font-weight="bold">Articular cartilage</text>
+<text x="202" y="104" font-size="9" fill="#6b7280">smooth, no blood supply</text>
+<line x1="162" y1="140" x2="200" y2="140" stroke="#6b7280" stroke-width="1"/>
+<text x="202" y="136" font-weight="bold">Epiphysis: spongy bone</text>
+<text x="202" y="148" font-size="9" fill="#6b7280">+ red marrow (blood made here)</text>
+<line x1="142" y1="176" x2="200" y2="184" stroke="#6b7280" stroke-width="1"/>
+<text x="202" y="188" font-weight="bold">Epiphyseal line</text>
+<text x="202" y="200" font-size="9" fill="#6b7280">grown shut by ~18–25 yrs</text>
+<line x1="94" y1="250" x2="50" y2="250" stroke="#6b7280" stroke-width="1"/>
+<text x="12" y="246" font-weight="bold">Periosteum</text>
+<text x="12" y="258" font-size="9" fill="#6b7280">pain + repair skin</text>
+<line x1="142" y1="250" x2="200" y2="250" stroke="#6b7280" stroke-width="1"/>
+<text x="202" y="246" font-weight="bold">Compact bone</text>
+<text x="202" y="258" font-size="9" fill="#6b7280">dense, weight-bearing</text>
+<line x1="130" y1="300" x2="200" y2="312" stroke="#6b7280" stroke-width="1"/>
+<text x="202" y="308" font-weight="bold">Medullary cavity</text>
+<text x="202" y="320" font-size="9" fill="#6b7280">yellow marrow (fat store)</text>
+<text x="202" y="352" font-weight="bold">Diaphysis = the shaft</text>
+<text x="202" y="396" font-weight="bold">Distal epiphysis</text>
+</g>
+<!-- osteon inset -->
+<circle cx="330" cy="450" r="52" fill="#fef3c7" stroke="#92400e" stroke-width="2"/>
+<circle cx="330" cy="450" r="38" fill="none" stroke="#b45309" stroke-width="1.5"/>
+<circle cx="330" cy="450" r="24" fill="none" stroke="#b45309" stroke-width="1.5"/>
+<circle cx="330" cy="450" r="6" fill="#b91c1c"/>
+<g stroke="#92400e" stroke-width="1">
+<line x1="330" y1="404" x2="330" y2="420"/><line x1="330" y1="480" x2="330" y2="496"/>
+<line x1="284" y1="450" x2="300" y2="450"/><line x1="360" y1="450" x2="376" y2="450"/>
+<line x1="298" y1="418" x2="309" y2="429"/><line x1="351" y1="471" x2="362" y2="482"/>
+</g>
+<g fill="#111827">
+<circle cx="330" cy="432" r="2"/><circle cx="344" cy="450" r="2"/><circle cx="330" cy="468" r="2"/><circle cx="316" cy="450" r="2"/>
+</g>
+<text x="330" y="522" font-size="10" font-weight="bold" fill="#111827" text-anchor="middle">Osteon: rings of bone (lamellae)</text>
+<text x="330" y="534" font-size="9" fill="#6b7280" text-anchor="middle">around a canal of vessels + nerve</text>
+<text x="20" y="452" font-size="10" fill="#374151">Bone cells: <tspan font-weight="bold">blasts</tspan> build,</text>
+<text x="20" y="466" font-size="10" fill="#374151"><tspan font-weight="bold">clasts</tspan> chew back,</text>
+<text x="20" y="480" font-size="10" fill="#374151"><tspan font-weight="bold">cytes</tspan> keep house —</text>
+<text x="20" y="494" font-size="10" fill="#374151">remodelling never stops.</text>
+<rect x="0" y="0" width="0" height="0" fill="none"/>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Patients' charter: rights + responsibilities</text>
+<rect x="20" y="40" width="205" height="230" rx="8" fill="#eef2ff" stroke="#3730a3" stroke-width="2"/>
+<g font-size="10" fill="#111827">
+<text x="122" y="60" text-anchor="middle" font-weight="bold" font-size="11">PATIENTS' RIGHTS</text>
+<text x="30" y="80">1. Care without discrimination</text>
+<text x="30" y="96">(tribe, wealth, status, illness)</text>
+<text x="30" y="114">2. Dignity, privacy, modesty</text>
+<text x="30" y="130">3. Information + informed consent</text>
+<text x="30" y="146">(diagnosis, options, costs, risks)</text>
+<text x="30" y="164">4. Confidentiality of records</text>
+<text x="30" y="180">5. Refuse / second opinion / leave</text>
+<text x="30" y="196">(against advice, documented)</text>
+<text x="30" y="214">6. Pain relief + comfort + food</text>
+<text x="30" y="230">7. Complain without punishment</text>
+<text x="30" y="246">8. Next-of-kin + visitors + faith</text>
+<text x="30" y="262" font-size="8" fill="#6b7280">posted in OPD — quote it</text>
+</g>
+<rect x="235" y="40" width="205" height="230" rx="8" fill="#fef9c3" stroke="#713f12" stroke-width="1.5"/>
+<g font-size="10" fill="#111827">
+<text x="337" y="60" text-anchor="middle" font-weight="bold" font-size="11">RESPONSIBILITIES</text>
+<text x="245" y="80">1. Honest history + NHIS card</text>
+<text x="245" y="96">+ prescribed fees paid</text>
+<text x="245" y="114">2. Follow agreed treatment</text>
+<text x="245" y="130">(or say why, promptly)</text>
+<text x="245" y="146">3. Respect staff + patients + rules</text>
+<text x="245" y="162">(visiting hours, noise, phones)</text>
+<text x="245" y="180">4. Keep appointments / cancel</text>
+<text x="245" y="196">5. Handle property + equipment</text>
+<text x="245" y="212">with care; no violence,</text>
+<text x="245" y="228">ever — abuse ≠ free care</text>
+<text x="245" y="246">6. Ask questions — silence</text>
+<text x="245" y="262" font-size="8" fill="#6b7280">is not consent</text>
+</g>
+<text x="20" y="294" font-size="12" font-weight="bold" fill="#111827">Complaint ladder (teach every admission)</text>
+<g font-size="10" fill="#111827" text-anchor="middle">
+<rect x="20" y="302" width="130" height="30" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="85" y="321">ward: in-charge NOW</text>
+<rect x="156" y="302" width="140" height="30" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="226" y="321">facility: management/QA</text>
+<rect x="302" y="302" width="138" height="30" rx="6" fill="#ffedd5" stroke="#7c2d12" stroke-width="1"/>
+<text x="371" y="321">NMC / GHS / courts</text>
+</g>
+<rect x="0" y="344" width="460" height="146" fill="#f1f5f9"/>
+<text x="20" y="366" font-size="10" fill="#111827">Dignity details: curtains drawn + gowns tied + exposure minimum + chaperones +</text>
+<text x="20" y="380" font-size="10" fill="#111827">names/preferences used + language interpreted (never children for bad news) +</text>
+<text x="20" y="394" font-size="10" fill="#111827">faith/diet/customs accommodated + dying undisturbed with family. Complaints are</text>
+<text x="20" y="408" font-size="10" fill="#111827">GIFTS: listen, apologize for experience, fix fast, file + learn — the complainant</text>
+<text x="20" y="422" font-size="10" fill="#111827">ignored becomes the litigant or the headline. Document complaint + response +</text>
+<text x="20" y="436" font-size="10" fill="#111827">outcome. Retaliation against complainants (delayed care, rudeness, discharge</text>
+<text x="20" y="450" font-size="10" fill="#111827">threats) is misconduct — chargeable. Rights end where others' begin: violent or</text>
+<text x="20" y="464" font-size="10" fill="#111827">abusive patients are managed (security, boundaries, police) AND still treated.</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Confidentiality: keep / share / break</text>
+<rect x="20" y="40" width="420" height="96" rx="8" fill="#dcfce7" stroke="#065f46" stroke-width="2"/>
+<g font-size="10" fill="#111827">
+<text x="230" y="60" text-anchor="middle" font-weight="bold" font-size="11">🟢 KEEP — the default, always</text>
+<text x="30" y="78">records, corridor talk, phones, screens, handovers, social media, family enquiries (\"is she here?\" → confirm identity + consent first)</text>
+<text x="30" y="94">deceased keep confidentiality too (disclose to executors/coroner/public-health only per law) • adolescents: Gillick-competent privacy with</text>
+<text x="30" y="110">safeguarding limits stated • HIV/STI/mental-health/abortion: extra stigma = extra locks, never ward gossip</text>
+<text x="30" y="126" font-weight="bold">test: would the patient expect this person to know? No → silence.</text>
+</g>
+<rect x="20" y="144" width="420" height="96" rx="8" fill="#fef9c3" stroke="#713f12" stroke-width="1.5"/>
+<g font-size="10" fill="#111827">
+<text x="230" y="164" text-anchor="middle" font-weight="bold" font-size="11">🟡 SHARE — for direct care, minimum necessary</text>
+<text x="30" y="182">treating team (handover, referrals, results) • consent implied for care, explicit for teaching/research/photos</text>
+<text x="30" y="198">patient access: records shown + explained on request (Data Protection Act 2012) • audit/quality: de-identified where possible</text>
+<text x="30" y="214">relatives: ONLY with consent or best-interests incapacity (document who + why) • interpreters bound + briefed</text>
+<text x="30" y="230" font-weight="bold">test: is this person IN the care, and is this detail NEEDED? Both yes → share.</text>
+</g>
+<rect x="20" y="248" width="420" height="96" rx="8" fill="#fecaca" stroke="#7f1d1d" stroke-width="2"/>
+<g font-size="10" fill="#111827">
+<text x="230" y="268" text-anchor="middle" font-weight="bold" font-size="11">🔴 BREAK — serious harm or law demands, minimum to right authority</text>
+<text x="30" y="286">child abuse/neglect → DOVVSU + social welfare (MANDATORY, Act 560) • imminent violence → police + warned victim</text>
+<text x="30" y="302">notifiable disease → public health (TB, cholera, meningitis, AFP...) • court order → disclose as ordered, inform patient</text>
+<text x="30" y="318">unfit driver/pilot, impaired colleague endangering patients → regulator/employer • partner at HIV/STI risk → notification services</text>
+<text x="30" y="334" font-weight="bold">test: serious, imminent, identifiable harm only proper disclosure prevents? Yes → break, document, tell patient after.</text>
+</g>
+<rect x="0" y="356" width="460" height="134" fill="#f1f5f9"/>
+<text x="20" y="378" font-size="10" fill="#111827">Practical locks: screens angled away, passwords never shared, folders closed + filed,</text>
+<text x="20" y="392" font-size="10" fill="#111827">handovers out of earshot, phones on silent + clinical-use-only, no records home/photographed,</text>
+<text x="20" y="406" font-size="10" fill="#111827">shred/confidential-waste, log-offs every exit. Breach drill: contain (retrieve/delete/lock) →</text>
+<text x="20" y="420" font-size="10" fill="#111827">inform in-charge + data officer → assess harm → notify patient/regulator per policy → incident</text>
+<text x="20" y="434" font-size="10" fill="#111827">form + learning. Snooping (colleague's/celebrity's/relative's file without care role) is</text>
+<text x="20" y="448" font-size="10" fill="#111827">misconduct — audits log every access. Advocacy: the voiceless (child, unconscious,</text>
+<text x="20" y="462" font-size="10" fill="#111827">mentally ill, prisoner, poor) get YOUR voice + safeguarding referrals + follow-up.</text>
+</svg>

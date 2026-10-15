@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 480" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="480" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Burns: rule of nines + depth</text>
+<text x="20" y="52" font-size="12" font-weight="bold" fill="#111827">FRONT</text>
+<text x="250" y="52" font-size="12" font-weight="bold" fill="#111827">BACK</text>
+<!-- front figure -->
+<g stroke="#334155" stroke-width="2" fill="#f8fafc">
+<circle cx="120" cy="80" r="18"/>
+<text x="120" y="84" font-size="10" font-weight="bold" fill="#b91c1c" text-anchor="middle" stroke="none">9</text>
+<rect x="92" y="102" width="56" height="52" rx="8"/>
+<text x="120" y="124" font-size="10" font-weight="bold" fill="#b91c1c" text-anchor="middle" stroke="none">9</text>
+<text x="120" y="136" font-size="8" fill="#6b7280" text-anchor="middle" stroke="none">chest</text>
+<rect x="92" y="156" width="56" height="52" rx="8"/>
+<text x="120" y="178" font-size="10" font-weight="bold" fill="#b91c1c" text-anchor="middle" stroke="none">9</text>
+<text x="120" y="190" font-size="8" fill="#6b7280" text-anchor="middle" stroke="none">abdomen</text>
+<line x1="92" y1="110" x2="60" y2="170" stroke-width="12" stroke-linecap="round"/>
+<line x1="148" y1="110" x2="180" y2="170" stroke-width="12" stroke-linecap="round"/>
+<text x="48" y="150" font-size="10" font-weight="bold" fill="#b91c1c" stroke="none">4.5</text>
+<text x="182" y="150" font-size="10" font-weight="bold" fill="#b91c1c" stroke="none">4.5</text>
+<line x1="106" y1="208" x2="100" y2="290" stroke-width="14" stroke-linecap="round"/>
+<line x1="134" y1="208" x2="140" y2="290" stroke-width="14" stroke-linecap="round"/>
+<text x="100" y="256" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle" stroke="none">9</text>
+<text x="140" y="256" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle" stroke="none">9</text>
+</g>
+<text x="120" y="308" font-size="9" fill="#6b7280" text-anchor="middle">perineum 1</text>
+<!-- back figure -->
+<g stroke="#334155" stroke-width="2" fill="#e2e8f0">
+<circle cx="350" cy="80" r="18"/>
+<text x="350" y="84" font-size="10" font-weight="bold" fill="#b91c1c" text-anchor="middle" stroke="none">9*</text>
+<rect x="322" y="102" width="56" height="106" rx="8"/>
+<text x="350" y="150" font-size="12" font-weight="bold" fill="#b91c1c" text-anchor="middle" stroke="none">18</text>
+<text x="350" y="164" font-size="8" fill="#6b7280" text-anchor="middle" stroke="none">back + buttocks</text>
+<line x1="322" y1="110" x2="290" y2="170" stroke-width="12" stroke-linecap="round"/>
+<line x1="378" y1="110" x2="410" y2="170" stroke-width="12" stroke-linecap="round"/>
+<text x="278" y="150" font-size="10" font-weight="bold" fill="#b91c1c" stroke="none">4.5</text>
+<text x="412" y="150" font-size="10" font-weight="bold" fill="#b91c1c" stroke="none">4.5</text>
+<line x1="336" y1="208" x2="330" y2="290" stroke-width="14" stroke-linecap="round"/>
+<line x1="364" y1="208" x2="370" y2="290" stroke-width="14" stroke-linecap="round"/>
+<text x="330" y="256" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle" stroke="none">9</text>
+<text x="370" y="256" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle" stroke="none">9</text>
+</g>
+<text x="250" y="308" font-size="9" fill="#374151">*Head 9 = 4.5 front + 4.5 back. Each arm 9, each leg 18, torso 36. Palm ≈ 1%.</text>
+<!-- depth strip -->
+<text x="20" y="336" font-size="12" font-weight="bold" fill="#111827">DEPTH</text>
+<g font-size="10" fill="#111827">
+<rect x="20" y="344" width="100" height="34" fill="#fecaca" stroke="#7f1d1d" stroke-width="1"/>
+<text x="70" y="358" text-anchor="middle" font-weight="bold">1st: red,</text>
+<text x="70" y="370" text-anchor="middle">painful, dry</text>
+<rect x="125" y="344" width="100" height="34" fill="#fca5a5" stroke="#7f1d1d" stroke-width="1"/>
+<text x="175" y="358" text-anchor="middle" font-weight="bold">2nd: blistered,</text>
+<text x="175" y="370" text-anchor="middle" font-weight="bold">weeping, sore</text>
+<rect x="230" y="344" width="100" height="34" fill="#e7e5e4" stroke="#57534e" stroke-width="1"/>
+<text x="280" y="358" text-anchor="middle" font-weight="bold">3rd: white/</text>
+<text x="280" y="370" text-anchor="middle" font-weight="bold">charred, numb</text>
+<rect x="335" y="344" width="105" height="34" fill="#44403c" stroke="#111827" stroke-width="1"/>
+<text x="387" y="358" text-anchor="middle" font-weight="bold" fill="#ffffff">4th: to muscle/</text>
+<text x="387" y="370" text-anchor="middle" font-weight="bold" fill="#ffffff">bone</text>
+</g>
+<rect x="0" y="392" width="460" height="88" fill="#f1f5f9"/>
+<text x="20" y="414" font-size="10" fill="#111827">Pain falling silent as depth increases is not improvement — dead nerves feel nothing.</text>
+<text x="20" y="428" font-size="10" fill="#111827">Burns nursing: stop the burning, ABCs + fluids + warmth + tetanus, then the wound.</text>
+<text x="20" y="442" font-size="10" fill="#111827">Refer: face/airway, hands/feet/perineum, circumferential, electrical, chemical,</text>
+<text x="20" y="456" font-size="10" fill="#111827">&gt;10% in a child or &gt;15% in an adult — and any suspicious scald pattern.</text>
+</svg>

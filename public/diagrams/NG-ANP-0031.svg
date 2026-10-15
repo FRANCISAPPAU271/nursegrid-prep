@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Male reproductive: sagittal + sperm journey</text>
+<!-- bladder -->
+<ellipse cx="180" cy="90" rx="55" ry="38" fill="#fef9c3" stroke="#713f12" stroke-width="1.5"/>
+<text x="180" y="94" font-size="10" fill="#111827" text-anchor="middle">bladder</text>
+<!-- prostate -->
+<ellipse cx="180" cy="150" rx="30" ry="22" fill="#fed7aa" stroke="#7c2d12" stroke-width="1.5"/>
+<text x="180" y="154" font-size="9" fill="#7c2d12" text-anchor="middle">prostate</text>
+<!-- seminal vesicle -->
+<ellipse cx="105" cy="130" rx="22" ry="30" fill="#ffedd5" stroke="#7c2d12" stroke-width="1"/>
+<text x="105" y="126" font-size="8" fill="#7c2d12" text-anchor="middle">seminal</text>
+<text x="105" y="136" font-size="8" fill="#7c2d12" text-anchor="middle">vesicle</text>
+<!-- vas deferens loop -->
+<path d="M180,52 C260,40 300,90 295,160 C292,220 260,250 230,255" fill="none" stroke="#1d4ed8" stroke-width="3"/>
+<text x="310" y="140" font-size="9" fill="#111827">vas deferens</text>
+<text x="310" y="152" font-size="8" fill="#6b7280">(vasectomy cuts here)</text>
+<!-- urethra -->
+<path d="M180,112 L180,172 C180,200 220,210 280,215 L360,220" fill="none" stroke="#d97706" stroke-width="4"/>
+<text x="330" y="210" font-size="9" fill="#111827">urethra (20 cm)</text>
+<!-- Cowper's -->
+<circle cx="205" cy="185" r="8" fill="#ffedd5" stroke="#7c2d12" stroke-width="1"/>
+<text x="225" y="188" font-size="8" fill="#111827">Cowper's</text>
+<!-- penis -->
+<rect x="270" y="200" width="110" height="40" rx="20" fill="#fce7f3" stroke="#831843" stroke-width="1.5"/>
+<text x="325" y="224" font-size="9" fill="#831843" text-anchor="middle">corpora (erectile)</text>
+<!-- scrotum/testis -->
+<ellipse cx="210" cy="300" rx="55" ry="55" fill="#fef2f2" stroke="#7f1d1d" stroke-width="1.5"/>
+<ellipse cx="210" cy="300" rx="28" ry="36" fill="#fecaca" stroke="#7f1d1d" stroke-width="1.5"/>
+<path d="M238,275 C250,290 250,310 238,325" fill="none" stroke="#7f1d1d" stroke-width="3"/>
+<text x="210" y="303" font-size="9" font-weight="bold" fill="#7f1d1d" text-anchor="middle">testis</text>
+<text x="262" y="300" font-size="9" fill="#111827">epididymis</text>
+<text x="130" y="350" font-size="9" fill="#6b7280">scrotum: 2–3°C cooler</text>
+<text x="130" y="362" font-size="9" fill="#6b7280">(cremaster + dartos)</text>
+<!-- journey numbers -->
+<g font-size="11" font-weight="bold" fill="#1d4ed8">
+<text x="195" y="282">➊</text><text x="252" y="282">➋</text><text x="292" y="200">➌</text>
+<text x="150" y="130">➍</text><text x="168" y="185">➎</text><text x="300" y="238">➏</text>
+</g>
+<rect x="0" y="376" width="460" height="114" fill="#f1f5f9"/>
+<text x="20" y="398" font-size="10" fill="#111827">Sperm: testis ➊ → epididymis (mature + store) ➋ → vas ➌ → + seminal fructose ➍</text>
+<text x="20" y="412" font-size="10" fill="#111827">+ prostate fluid ➎ → urethra ➏. Erection = parasympathetic inflow; ejaculation =</text>
+<text x="20" y="426" font-size="10" fill="#111827">sympathetic + somatic outflow — cord injury, pelvic surgery, diabetes and drugs</text>
+<text x="20" y="440" font-size="10" fill="#111827">split them. TORSION: sudden severe pain + high transverse testis + absent cremasteric</text>
+<text x="20" y="454" font-size="10" fill="#111827">+ nausea — Doppler + emergency exploration &lt;6 h. Never \"wait and see\" a hot scrotum.</text>
+<text x="20" y="468" font-size="10" fill="#111827">BPH squeezes (dribbling, nocturia); cancer hardens (nodule, raised PSA) — DRE + PSA.</text>
+</svg>

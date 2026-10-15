@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 480" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="480" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Contraception ladder (% pregnant in a year, typical use)</text>
+<g font-size="10" fill="#111827">
+<rect x="20" y="40" width="300" height="26" fill="#065f46"/>
+<text x="30" y="57" fill="#ffffff" font-weight="bold">implant / IUS / copper IUD — &lt;1% (LARC: fit-and-forget)</text>
+<rect x="20" y="70" width="240" height="26" fill="#15803d"/>
+<text x="30" y="87" fill="#ffffff" font-weight="bold">injection (DMPA) — 6%</text>
+<rect x="20" y="100" width="220" height="26" fill="#65a30d"/>
+<text x="30" y="117" fill="#ffffff" font-weight="bold">pill / patch / ring — 9%</text>
+<rect x="20" y="130" width="170" height="26" fill="#d97706"/>
+<text x="30" y="147" fill="#ffffff" font-weight="bold">condoms — 18% (+ STI cover)</text>
+<rect x="20" y="160" width="140" height="26" fill="#c2410c"/>
+<text x="30" y="177" fill="#ffffff" font-weight="bold">withdrawal / fertility awareness — 22%+</text>
+<rect x="20" y="190" width="60" height="26" fill="#7f1d1d"/>
+<text x="90" y="207" font-weight="bold">nothing — 85%</text>
+</g>
+<text x="20" y="238" font-size="12" font-weight="bold" fill="#111827">Emergency (after UPSI) — sooner beats stronger</text>
+<g font-size="10" fill="#111827">
+<rect x="20" y="246" width="130" height="70" rx="8" fill="#dcfce7" stroke="#065f46" stroke-width="2"/>
+<text x="85" y="264" text-anchor="middle" font-weight="bold">Copper IUD</text>
+<text x="85" y="278" text-anchor="middle">≤5 DAYS</text>
+<text x="85" y="292" text-anchor="middle" font-size="9">most effective +</text>
+<text x="85" y="304" text-anchor="middle" font-size="9">ongoing cover</text>
+<rect x="158" y="246" width="136" height="70" rx="8" fill="#fef9c3" stroke="#713f12" stroke-width="1.5"/>
+<text x="226" y="264" text-anchor="middle" font-weight="bold">Ulipristal (UPA)</text>
+<text x="226" y="278" text-anchor="middle">≤120 HOURS</text>
+<text x="226" y="292" text-anchor="middle" font-size="9">best pill to day 5;</text>
+<text x="226" y="304" text-anchor="middle" font-size="9">delays ovulation</text>
+<rect x="302" y="246" width="138" height="70" rx="8" fill="#ffedd5" stroke="#7c2d12" stroke-width="1.5"/>
+<text x="371" y="264" text-anchor="middle" font-weight="bold">Levonorgestrel</text>
+<text x="371" y="278" text-anchor="middle">≤72 HOURS</text>
+<text x="371" y="292" text-anchor="middle" font-size="9">OTC-friendly; double</text>
+<text x="371" y="304" text-anchor="middle" font-size="9">dose if &gt;70 kg/inducers</text>
+</g>
+<rect x="0" y="328" width="460" height="152" fill="#f1f5f9"/>
+<text x="20" y="350" font-size="10" fill="#111827">COC reds (UKMEC 4 — never): migraine WITH aura, VTE, smoker ≥35 (15+/day),</text>
+<text x="20" y="364" font-size="10" fill="#111827">BP ≥160/100, current breast cancer, &lt;3 weeks postpartum + VTE risks, major</text>
+<text x="20" y="378" font-size="10" fill="#111827">surgery + immobilisation. Missed COC: 1 late (&lt;24 h) take ASAP; ≥2 missed or</text>
+<text x="20" y="392" font-size="10" fill="#111827">week-1 UPSI → EC + 7 days' condoms. POP: desogestrel 12-h window, traditional</text>
+<text x="20" y="406" font-size="10" fill="#111827">3-h — missed + UPSI → EC. DMPA: 13 weeks + 7-day grace; late + UPSI → EC.</text>
+<text x="20" y="420" font-size="10" fill="#111827">ONLY condoms cover STIs — dual method counsel every new partner. Pregnancy</text>
+<text x="20" y="434" font-size="10" fill="#111827">test 3 weeks after ANY EC. Quick-start most methods same-day with backup +</text>
+<text x="20" y="448" font-size="10" fill="#111827">follow-up test — access beats perfection.</text>
+</svg>

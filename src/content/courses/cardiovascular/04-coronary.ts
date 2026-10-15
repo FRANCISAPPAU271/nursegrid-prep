@@ -1,0 +1,240 @@
+import type { CourseModule } from "../types";
+
+export const coronary: CourseModule = {
+  slug: "coronary-artery-disease",
+  title: "Coronary artery disease and acute coronary syndromes",
+  summary: "From the fatty streak to the blocked artery: risk factors, angina and safe nitrate use, then the first ten minutes of a heart attack, reperfusion, complications and recovery.",
+  lessons: [
+    {
+      slug: "atherosclerosis-and-angina",
+      title: "Atherosclerosis, risk factors and angina",
+      minutes: 15,
+      objectives: [
+        "Explain how atherosclerosis develops and how it causes angina and infarction.",
+        "Classify the risk factors for coronary artery disease and plan risk-factor education.",
+        "Distinguish stable, unstable and variant angina and silent ischaemia.",
+        "Teach a patient to use glyceryl trinitrate safely.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "From plaque to pain",
+          paragraphs: [
+            "Atherosclerosis begins when LDL cholesterol enters a damaged arterial wall and is taken up by macrophages to form a fatty streak. Over years the lesion grows into a fibrous plaque that narrows the artery. A <strong>stable plaque</strong> with a thick cap narrows the vessel gradually and causes angina when demand outstrips supply. An <strong>unstable plaque</strong> with a thin cap ruptures suddenly; platelets stick to the exposed core, a thrombus forms and the artery blocks — the mechanism of acute coronary syndrome.",
+            "Myocardial oxygen <strong>demand</strong> rises with heart rate, blood pressure, contractility and wall tension. <strong>Supply</strong> falls with narrowing, spasm, anaemia and hypoxia. Angina is the pain of a temporary imbalance; infarction is the death of muscle when the imbalance lasts.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-LTC-1788.svg",
+          alt: "Four shared behavioural risks — tobacco, harmful alcohol, unhealthy diet and inactivity — lead through raised blood pressure, glucose and weight to stroke, heart failure, kidney failure and heart attack",
+          caption: "The same four habits cause five different diseases — which is why risk-factor teaching is cardiac nursing.",
+        },
+        {
+          type: "table",
+          heading: "Risk factors for coronary artery disease",
+          columns: ["Non-modifiable", "Modifiable"],
+          rows: [
+            ["Age — men over 45, women over 55", "Hypertension"],
+            ["Male sex, and women after the menopause", "Smoking and all tobacco use"],
+            ["Family history of premature coronary disease (a first-degree relative affected before 55 in men or 65 in women)", "Diabetes mellitus and insulin resistance"],
+            ["Ethnicity and inherited lipid disorders", "Dyslipidaemia — high LDL, low HDL, high triglycerides"],
+            ["", "Central obesity and physical inactivity"],
+            ["", "A diet high in salt, sugar and saturated fat"],
+            ["", "Chronic stress and depression, harmful alcohol use, chronic kidney disease, HIV and some of its treatments"],
+          ],
+        },
+        {
+          type: "table",
+          heading: "Types of angina",
+          columns: ["Type", "Pattern", "Relief", "Significance"],
+          rows: [
+            ["Stable angina", "Predictable: brought on by exertion, cold, a heavy meal or emotion; lasts 3–5 minutes and under 15", "Rest and/or sublingual GTN within minutes", "A fixed narrowing; managed as an outpatient"],
+            ["Unstable angina", "New onset, at rest or on minimal exertion, more frequent, more severe or lasting longer than before", "Poorly relieved by rest or GTN", "Plaque rupture — an acute coronary syndrome; admit and treat as an emergency"],
+            ["Variant (Prinzmetal) angina", "At rest, often at night or early morning, in cycles; transient ST elevation during pain", "Calcium channel blockers and nitrates", "Coronary artery spasm; beta-blockers may make it worse"],
+            ["Silent ischaemia", "No pain — breathlessness, fatigue, or nothing at all", "—", "Common in diabetes and older adults; found on the ECG"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Nursing care during an episode of angina",
+          style: "steps",
+          items: [
+            "Stop the activity and sit the patient down — rest reduces demand.",
+            "Assess the pain (PQRST), pulse, blood pressure and saturation; record a 12-lead ECG if one is available.",
+            "Give sublingual glyceryl trinitrate (tablet or spray) as prescribed if the systolic pressure is above 90 mmHg and the patient has not taken sildenafil or a similar drug in the last 24–48 hours.",
+            "Repeat every 5 minutes up to three doses. Pain that is <strong>not relieved within 5 minutes of the first dose</strong> is treated as a possible infarction: call for help and give aspirin 300 mg to chew unless contraindicated.",
+            "Give oxygen only if the saturation is below 94%.",
+            "Stay with the patient, reassure, and document the trigger, the duration and the response.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Teaching a patient to use GTN",
+          items: [
+            "<strong>Sit down</strong> before taking it — it lowers the blood pressure and can cause dizziness or fainting.",
+            "Place the tablet under the tongue and let it dissolve; do not swallow it. A tingling or burning feeling means the tablet is active. Use the spray under the tongue without inhaling.",
+            "Headache, flushing and warmth are expected and settle; paracetamol may be taken.",
+            "Keep tablets in the original dark glass bottle away from heat and light and replace the bottle 8 weeks after opening (check the label); the spray lasts until its expiry date.",
+            "Take a dose <strong>before</strong> an activity that is known to bring on pain.",
+            "<strong>Never</strong> take GTN within 24–48 hours of sildenafil, tadalafil or vardenafil — the combination causes profound hypotension.",
+            "Carry it always, tell the family where it is, and seek emergency help if the pain is not relieved within 5 minutes of the first dose.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Long-term management",
+          items: [
+            "<strong>Risk-factor control</strong> — stop smoking; control blood pressure and diabetes; lower LDL with a statin (report unexplained muscle pain); reach a healthy weight; exercise within limits; eat a Mediterranean or DASH-style diet.",
+            "<strong>Anti-anginal drugs</strong> — beta-blockers first-line (they lower heart rate and demand); calcium channel blockers; long-acting nitrates such as isosorbide mononitrate, which need a <strong>nitrate-free interval of 8–12 hours</strong> each day, usually overnight, to prevent tolerance; nicorandil or ivabradine as additions.",
+            "<strong>Antiplatelet</strong> — aspirin 75–100 mg daily for life, or clopidogrel if aspirin is not tolerated.",
+            "<strong>Revascularisation</strong> — percutaneous coronary intervention with a stent, or coronary artery bypass grafting for multi-vessel or left main disease.",
+            "<strong>Living with angina</strong> — balance activity and rest; avoid exertion after heavy meals, in extreme heat or cold and during emotional stress; teach the warning signs of infarction and when to call for help.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "The pattern has changed — the answer has changed",
+          body: "If a question describes chest pain at rest, pain that has changed its usual pattern, or pain not relieved by three doses of GTN, the answer is never “reassure and document”. It is an acute coronary syndrome until proven otherwise.",
+        },
+      ],
+      keyPoints: [
+        "Angina is temporary ischaemia from a supply–demand imbalance; infarction is muscle death when the imbalance persists.",
+        "Stable angina is predictable and relieved by rest or GTN; unstable angina is new, at rest or worsening — an emergency.",
+        "GTN: sit down, one dose under the tongue, repeat every 5 minutes up to three doses, call for help if the first dose has not worked within 5 minutes; never with sildenafil.",
+        "Long-acting nitrates need a daily nitrate-free interval to prevent tolerance.",
+        "Only risk-factor change — smoking, blood pressure, diabetes, lipids, weight and activity — alters the disease itself.",
+      ],
+      quiz: {
+        keywords: ["angina", "glyceryl trinitrate", "nitroglycerin", "sublingual", "atherosclerosis", "coronary artery disease", "coronary heart disease", "risk factor for coronary", "statin", "cholesterol", "sildenafil", "nitrate"],
+      },
+    },
+    {
+      slug: "acute-coronary-syndrome",
+      title: "Acute coronary syndrome and myocardial infarction",
+      minutes: 22,
+      objectives: [
+        "Recognise the typical and atypical presentations of myocardial infarction.",
+        "Describe, in order, the first ten minutes of nursing care for a patient with suspected infarction.",
+        "Differentiate STEMI, NSTEMI and unstable angina and explain the options for reperfusion.",
+        "Monitor for and respond to the complications of infarction, and plan recovery and rehabilitation.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "The clock starts when the artery blocks",
+          paragraphs: [
+            "When a coronary artery occludes, the muscle it supplies begins to die within 20–40 minutes and is largely lost by 6 hours. Every intervention — aspirin, reperfusion, monitoring for arrhythmia — is a race against that clock. The nurse is usually the first professional the patient meets, and the quality of the first ten minutes decides how much heart muscle survives.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-CVM-1488.svg",
+          alt: "Chest pain: the pain that should frighten you, the silent presentations, and the six things the nurse does in order in the first ten minutes",
+          caption: "Chest pain — the first ten minutes decide the outcome.",
+        },
+        {
+          type: "table",
+          heading: "Recognising acute coronary syndrome",
+          columns: ["", "Typical presentation", "Atypical presentation — women, older adults, diabetes"],
+          rows: [
+            ["Pain", "Central, crushing, heavy or tight; lasts more than 20 minutes; not relieved by rest or GTN; radiates to the left arm, both arms, jaw, neck, back or epigastrium", "Vague discomfort, indigestion-like epigastric pain, or no pain at all — the “silent” infarct"],
+            ["Associated features", "Sweating, nausea and vomiting, breathlessness, grey pallor, anxiety and a sense of impending doom", "Sudden breathlessness, profound fatigue or weakness, collapse, confusion, vomiting"],
+            ["Signs", "Tachycardia or bradycardia; hypotension or hypertension; cool clammy skin; S3 or S4; crackles if the ventricle is failing", "New heart failure, a new arrhythmia, unexplained hyperglycaemia"],
+          ],
+        },
+        {
+          type: "table",
+          heading: "The three acute coronary syndromes",
+          columns: ["Syndrome", "ECG", "Troponin", "Meaning"],
+          rows: [
+            ["STEMI", "ST elevation in two or more contiguous leads, or new left bundle branch block", "Raised", "Complete occlusion of an artery — needs immediate reperfusion"],
+            ["NSTEMI", "ST depression, T-wave inversion, or normal", "Raised", "Partial occlusion or distal embolisation with muscle injury — urgent antithrombotic treatment and early angiography"],
+            ["Unstable angina", "As NSTEMI", "Normal", "Ischaemia without detectable injury — the same early management; high risk of progression"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "The first ten minutes — in order",
+          style: "steps",
+          items: [
+            "<strong>Sit the patient up</strong> (semi-recumbent), stay with them, call for help and move them to a monitored area with a defibrillator at hand.",
+            "<strong>Record a 12-lead ECG within 10 minutes</strong> of first contact and show it to a doctor immediately — the ECG is the diagnosis and decides reperfusion.",
+            "Attach continuous cardiac monitoring and pulse oximetry; record a full set of vital signs.",
+            "Give <strong>aspirin 300 mg to chew</strong> (not swallowed whole) unless the patient is allergic or has already taken it; a second antiplatelet (clopidogrel or ticagrelor) is given on the doctor’s order.",
+            "Give <strong>sublingual GTN</strong> if the systolic pressure is above 90 mmHg, there is no sign of right ventricular infarction and no recent sildenafil; repeat as prescribed.",
+            "Give <strong>oxygen only if the saturation is below 94%</strong> — routine high-flow oxygen in a well-saturated patient increases infarct size.",
+            "Insert IV access and send bloods: troponin (to be repeated at 3–6 hours), full blood count, urea and electrolytes, glucose, lipids and clotting.",
+            "Relieve persisting pain with <strong>small titrated doses of IV morphine</strong> and an antiemetic as prescribed; pain drives sympathetic activity and oxygen demand. Watch the respiratory rate and blood pressure.",
+            "Prepare for reperfusion: consent, allergy check, contraindications to fibrinolysis, weight, and transfer arrangements if PCI is elsewhere.",
+            "Communicate: a calm explanation and a nurse who stays reduce fear, catecholamines and demand.",
+          ],
+        },
+        {
+          type: "text",
+          heading: "Reperfusion — opening the artery",
+          paragraphs: [
+            "For STEMI, <strong>primary percutaneous coronary intervention</strong> (PCI — balloon and stent) is the treatment of choice if it can be delivered within 90–120 minutes of first medical contact. Where PCI cannot be reached in that time — the reality for most of Ghana outside the teaching hospitals — <strong>fibrinolysis</strong> (streptokinase, alteplase or tenecteplase) should start within 30 minutes of arrival and within 12 hours of symptom onset, followed by transfer for angiography.",
+            "Absolute contraindications to fibrinolysis include active bleeding, any previous haemorrhagic stroke, ischaemic stroke within the last 3–6 months, recent major surgery or trauma, suspected aortic dissection and a known bleeding disorder. Uncontrolled hypertension above 180/110 mmHg, pregnancy and recent prolonged CPR are relative contraindications.",
+            "NSTEMI and unstable angina are treated with dual antiplatelet therapy, anticoagulation (fondaparinux, enoxaparin or heparin), anti-anginal drugs and angiography within 24–72 hours according to risk.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Nursing care during and after fibrinolysis",
+          items: [
+            "Baseline neurological observations, vital signs and a 12-lead ECG. Avoid unnecessary needle punctures and all intramuscular injections before and for 24 hours after.",
+            "Monitor for <strong>bleeding</strong>: puncture sites, gums, urine, stool and vomit, and any change in consciousness or a sudden severe headache (intracranial bleed — stop the infusion and call the doctor).",
+            "Watch for signs of reperfusion: pain relief, resolution of ST elevation by more than half at 60–90 minutes, and reperfusion arrhythmias (commonly an accelerated idioventricular rhythm, which usually needs no treatment).",
+            "<strong>Streptokinase</strong>: hypotension and allergic reactions are common — slow the infusion, give fluids and an antihistamine as prescribed. It is never given a second time in a lifetime because of antibodies.",
+            "Hypotension, bradycardia and nausea at the moment of reperfusion of an inferior infarct are vagal and respond to atropine and fluids.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Complications of myocardial infarction",
+          columns: ["Complication", "When", "What you see", "Nursing response"],
+          rows: [
+            ["Dysrhythmias", "First 24–48 hours; ventricular fibrillation is the commonest cause of death before hospital", "Ectopics, VT, VF; bradycardia and heart block in inferior infarcts; atrial fibrillation", "Continuous monitoring with a defibrillator at the bedside; keep potassium above 4.0 and magnesium above 1.0 mmol/L; early recognition and advanced life support"],
+            ["Heart failure and pulmonary oedema", "Any time; large anterior infarcts", "Breathlessness, crackles, S3, falling saturation, pink frothy sputum", "Sit up, oxygen, diuretic, nitrates, strict fluid balance, daily weight"],
+            ["Cardiogenic shock", "Loss of more than 40% of the left ventricle", "Systolic below 90 mmHg, cold clammy skin, oliguria, confusion", "Inotropes, urgent revascularisation, mechanical support where available; avoid fluid overload"],
+            ["Pericarditis", "Days 2–4 (early) or 2–10 weeks (Dressler’s syndrome)", "Sharp pleuritic pain worse lying flat, friction rub, fever", "Sit forward; aspirin or NSAIDs as prescribed; watch for tamponade"],
+            ["Mechanical rupture", "Days 3–7", "New loud systolic murmur (papillary muscle or septal rupture); sudden collapse (free-wall rupture)", "Emergency echocardiogram and surgery — the reason the first week needs rest and close observation"],
+            ["Ventricular aneurysm and mural thrombus", "Weeks", "Persistent ST elevation; embolic stroke", "Anticoagulation; neurological monitoring"],
+            ["Re-infarction", "Any time", "Recurrent pain, new ECG changes, a second rise in CK-MB", "Treat as a new event"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Recovery and rehabilitation",
+          items: [
+            "First 12–24 hours: bed or chair rest, a commode rather than a bedpan, assisted hygiene; then progressive mobilisation as tolerated, checking pulse and symptoms before and after each step.",
+            "Prevent straining: stool softeners, a high-fibre diet and fluids — the Valsalva manoeuvre causes vagal bradycardia and raises demand.",
+            "Low-salt, low-saturated-fat diet; small frequent meals; no smoking — a smoke-free ward and a smoke-free home.",
+            "<strong>Secondary prevention, usually for life:</strong> dual antiplatelet therapy for 12 months then aspirin alone, a high-intensity statin, a beta-blocker, an ACE inhibitor, and sublingual GTN to carry.",
+            "<strong>Cardiac rehabilitation:</strong> supervised, graded exercise and education. Driving and return to work usually after 4–6 weeks for an uncomplicated infarct; sexual activity can resume when the patient can climb two flights of stairs without symptoms (about 4–6 weeks) — never with erectile-dysfunction drugs while on nitrates.",
+            "Depression is common after infarction and worsens outcomes — screen for it and refer.",
+            "Teach the signs that must bring the patient straight back: pain not relieved by GTN within 5 minutes, breathlessness, palpitations, fainting.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "warning",
+          title: "Right ventricular infarction",
+          body: "Inferior ST elevation with a raised JVP, clear lungs and hypotension means the right ventricle is involved. These patients depend on preload — nitrates, morphine and diuretics can collapse the blood pressure, and they need fluids instead. Check for right-sided involvement before giving GTN to any inferior infarct.",
+        },
+      ],
+      keyPoints: [
+        "ECG within 10 minutes; aspirin 300 mg chewed; GTN if the systolic is above 90; oxygen only if saturation is below 94%; morphine titrated for persisting pain.",
+        "STEMI needs reperfusion — PCI within 90–120 minutes, or fibrinolysis within 30 minutes of arrival when PCI is out of reach.",
+        "Troponin can be normal in the first 3–6 hours; repeat it.",
+        "Ventricular fibrillation in the first 24–48 hours is the main cause of early death: continuous monitoring and a defibrillator at hand.",
+        "Secondary prevention — antiplatelets, statin, beta-blocker, ACE inhibitor, risk-factor change and rehabilitation — is for life.",
+      ],
+      quiz: {
+        keywords: ["myocardial infarction", "acute coronary syndrome", "stemi", "heart attack", "chest pain", "thrombolysis", "thrombolytic", "streptokinase", "aspirin 300", "chew", "reperfusion", "percutaneous coronary", "cardiac rehabilitation", "troponin"],
+      },
+    },
+  ],
+};

@@ -8,6 +8,7 @@ const NAV = [
   { href: "/dashboard", label: "Overview", icon: "🏠", exact: true },
   { href: "/dashboard/tasks", label: "Tasks", icon: "🗂️" },
   { href: "/dashboard/notes", label: "Notes", icon: "📝" },
+  { href: "/dashboard/courses", label: "Courses", icon: "📘" },
   { href: "/dashboard/questions", label: "Question Bank", icon: "🧠" },
   { href: "/dashboard/offline", label: "Offline Study", icon: "📶" },
   { href: "/dashboard/flashcards", label: "Flashcards", icon: "🃏" },

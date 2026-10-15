@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Nutrition + hydration + swallow safety</text>
+<text x="20" y="50" font-size="12" font-weight="bold" fill="#111827">MUST (5 steps, every admission + monthly)</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="68">BMI (&gt;20=0, 18.5–20=1, &lt;18.5=2) + weight loss (3–6 mo: &lt;5%=0, 5–10%=1, &gt;10%=2) +</text>
+<text x="30" y="84">acute disease/no intake &gt;5 days (=2) → 0 low (routine) · 1 medium (watch + fortify) · ≥2 HIGH</text>
+<text x="30" y="100">(treat: dietician + fortify + supplements + weekly weights). MUAC where scales fail.</text>
+</g>
+<text x="20" y="124" font-size="12" font-weight="bold" fill="#111827">WHY ELDERS STARVE (fix the cause!)</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="132" width="132" height="64" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="86" y="152" font-weight="bold" font-size="9">MOUTH</text>
+<text x="86" y="166" font-size="8">teeth, dentures,</text>
+<text x="86" y="177" font-size="8">thrush, dry mouth,</text>
+<text x="86" y="190" font-size="8" fill="#065f46">fix mouth first!</text>
+<rect x="164" y="132" width="132" height="64" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="230" y="152" font-weight="bold" font-size="9">BODY+MIND</text>
+<text x="230" y="166" font-size="8">dysphagia, drugs,</text>
+<text x="230" y="177" font-size="8">depression, dementia,</text>
+<text x="230" y="190" font-size="8" fill="#065f46">pain, constipation</text>
+<rect x="308" y="132" width="132" height="64" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="374" y="152" font-weight="bold" font-size="9">MONEY+MEALS</text>
+<text x="374" y="166" font-size="8">poverty, cooking,</text>
+<text x="374" y="177" font-size="8">shopping, eating</text>
+<text x="374" y="190" font-size="8" fill="#065f46">alone, alcohol</text>
+</g>
+<rect x="0" y="208" width="460" height="282" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="230" font-weight="bold">FEEDING CARE: protein each meal (beans, fish, eggs, groundnut) + fortify (milk,</text>
+<text x="20" y="244">oil, groundnut paste into porridge) + small frequent meals + favourite foods + company</text>
+<text x="20" y="258">(eat WITH, not watched) + dentures IN + upright 30–45 min after + supplements where</text>
+<text x="20" y="272">prescribed (between meals, not instead). Fluids 1.5–2 L (unless restricted): water jug IN</text>
+<text x="20" y="286">REACH + prompted sips + favourite cup + monitor (dark urine, confusion, constipation =</text>
+<text x="20" y="300">dry — M03 delirium!). Dehydration signs: thirst late, dry tongue, postural drop, AKI.</text>
+<text x="20" y="320" font-weight="bold">DYSPHAGIA (stroke, Parkinson, dementia): cough/choke, wet voice, pocketing, weight</text>
+<text x="20" y="334">loss, chest infections → NBM until screened (water test per protocol) → textures (soft,</text>
+<text x="20" y="348">minced, pureed; thickened fluids) → upright 90°, chin-tuck, small bites, no rushing, no</text>
+<text x="20" y="362">syringe-squirting (aspiration!) → speech/dietician referral → NG short-term / PEG decision</text>
+<text x="20" y="376">WITH goals + family (M05: comfort vs prolonging — document). Aspiration pneumonia</text>
+<text x="20" y="390">prevention = positioning + textures + mouth care (thrice daily — dirty mouths seed lungs).</text>
+<text x="20" y="410">RE-FEEDING RISK (starved &gt;5 days, BMI &lt;16, big loss): start LOW + thiamine + K+/Mg/PO4</text>
+<text x="20" y="424">watched + doctor-led — feeding fast kills (cardiac failure). Tube feeds: check position</text>
+<text x="20" y="438">EVERY use (pH/placement per protocol — NEVER 'whoosh test' alone), head up, flush, mouth</text>
+<text x="20" y="452">care continues (tube ≠ mouth retired). Weights weekly, intake charts honest, MUST rescreened</text>
+<text x="20" y="466">— nutrition documented is nutrition done (PRO-I M5).</text>
+</g>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Run charts: hear what data says</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="205" height="60" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="122" y="56" font-weight="bold" font-size="10">SHIFT = 6+ ONE SIDE</text>
+<text x="122" y="69" font-size="8">median line crossed?</text>
+<text x="122" y="80" font-size="8">something CHANGED!</text>
+<rect x="235" y="36" width="205" height="60" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="337" y="56" font-weight="bold" font-size="10">TREND = 5+ CLIMBING</text>
+<text x="337" y="69" font-size="8">steady rise/fall =</text>
+<text x="337" y="80" font-size="8">drift, act early!</text>
+<rect x="20" y="104" width="205" height="56" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="122" y="124" font-weight="bold" font-size="10">RUNS = TOO FEW</text>
+<text x="122" y="137" font-size="8">crossings = hidden</text>
+<text x="122" y="148" font-size="8">pattern, dig deeper!</text>
+<rect x="235" y="104" width="205" height="56" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="337" y="124" font-weight="bold" font-size="10">ANNOTATE!</text>
+<text x="337" y="137" font-size="8">"PDSA 2 started →"</text>
+<text x="337" y="148" font-size="8">marks cause on chart!</text>
+</g>
+<rect x="0" y="172" width="460" height="318" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="194" font-weight="bold">READING RULE: plot median, watch for shifts (6+ one side), trends (5+ climbing), runs</text>
+<text x="20" y="208">(too few crossings) — then ANNOTATE changes ("new triage →"). No rules broken = common</text>
+<text x="20" y="222">variation, don't overreact; rules broken = investigate + act. Monthly dots minimum!</text>
+<text x="20" y="242">DASHBOARD DISCIPLINE: pick 5–7 ward metrics (falls, pressure injuries, hand-hygiene %,</text>
+<text x="20" y="256">discharge before noon, med errors, satisfaction) → traffic-light them → review MONTHLY as a</text>
+<text x="20" y="270">team → ONE action per red. Dashboards nobody reads are wallpaper.</text>
+<text x="20" y="290">PDSA + DATA: Plan (run chart baseline!) → Do (small test) → Study (chart moved?) → Act</text>
+<text x="20" y="304">(adopt/adapt/abandon). "We trained everyone" without a chart is hope, not improvement</text>
+<text x="20" y="318">(PRO-II M4!). QI without measures = motion without movement.</text>
+<text x="20" y="338">DHIMS2 LOOP: your tallies → district tables → YOUR facility review: coverage falling?</text>
+<text x="20" y="352">defaulters rising? stock-outs patterned? Bring the printout to staff meetings — data you</text>
+<text x="20" y="366">collected should change care you give (NUT records-into-action!).</text>
+<text x="20" y="386">PRESENTING DATA: one message per slide, big annotated charts, plain words ("falls halved</text>
+<text x="20" y="400">since night rounding — 8 to 4"), no 3D pies, no table walls. Tell the STORY the chart tells.</text>
+<text x="20" y="420">BENCHMARK HONESTLY: compare like-with-like (district hospitals vs peers, not teaching</text>
+<text x="20" y="434">hospitals!) — and celebrate publicly, investigate privately. Data shames nobody; hides nothing.</text>
+<text x="20" y="454">LINKS: PRO-II M4 QI engine · NUT M6 records · GER M7 audits.</text>
+<text x="20" y="468">MANTRA: "plot it, read it, act it, share it — data that rests, rots."</text>
+</g>
+</svg>

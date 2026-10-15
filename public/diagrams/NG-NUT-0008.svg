@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Kidney + liver + gut + gout + allergy</text>
+<g font-size="8" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="132" height="92" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="86" y="55" font-weight="bold" font-size="9">KIDNEY (CKD)</text>
+<text x="86" y="68" font-size="8">protein moderated</text>
+<text x="86" y="79" font-size="8">(not zero!); salt LOW;</text>
+<text x="86" y="90" font-size="8">potassium LOW (leach</text>
+<text x="86" y="101" font-size="8">veg!); phosphate LOW</text>
+<text x="86" y="112" font-size="8">(dairy/nuts/cola);</text>
+<text x="86" y="123" font-size="8" fill="#b91c1c">fluids as prescribed</text>
+<rect x="164" y="36" width="132" height="92" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="230" y="55" font-weight="bold" font-size="9">LIVER</text>
+<text x="230" y="68" font-size="8">alcohol ZERO;</text>
+<text x="230" y="79" font-size="8">protein ADEQUATE</text>
+<text x="230" y="90" font-size="8">(never starve!); salt</text>
+<text x="230" y="101" font-size="8">LOW in ascites;</text>
+<text x="230" y="112" font-size="8">small frequent;</text>
+<text x="230" y="123" font-size="8" fill="#6b7280">thiamine if alcohol</text>
+<rect x="308" y="36" width="132" height="92" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="374" y="55" font-weight="bold" font-size="9">GUT</text>
+<text x="374" y="68" font-size="8">diarrhoea: ORS+zinc,</text>
+<text x="374" y="79" font-size="8">KEEP feeding;</text>
+<text x="374" y="90" font-size="8">constipation: fibre+</text>
+<text x="374" y="101" font-size="8">fluids+move; ulcer:</text>
+<text x="374" y="112" font-size="8">regular meals, NSAID/</text>
+<text x="374" y="123" font-size="8">smoke/alcohol out</text>
+</g>
+<text x="20" y="150" font-size="12" font-weight="bold" fill="#111827">GOUT + ALLERGY vs INTOLERANCE</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="168">GOUT: fluids UP + weight down + alcohol (esp. beer) down + red-meat/seafood moderate +</text>
+<text x="30" y="184">cherries/veg welcome; drugs (allopurinol/colchicine) per doctor — diet HELPS, meds CONTROL.</text>
+<text x="30" y="200">ALLERGY (immune, fast, can kill — hives/swelling/wheeze/collapse): avoid trigger STRICTLY,</text>
+<text x="30" y="216">label-read, adrenaline where prescribed + action plan; INTOLERANCE (slow, gut-led — lactose):</text>
+<text x="30" y="232">reduce/lactase/small-with-meals — different danger, different diet!</text>
+</g>
+<rect x="0" y="244" width="460" height="246" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="266" font-weight="bold">KIDNEY DETAIL: protein per stage/dialysis (dietician/doctor set — too little wastes</text>
+<text x="20" y="280">muscle!); potassium leach (peel + soak + boil + discard water — yam/plantain/cocoyam!);</text>
+<text x="20" y="294">salt &lt;1 tsp + no added at table; fluids measured (prior-day urine + 500 mL typical — follow</text>
+<text x="20" y="308">order!); phosphate binders WITH meals; daily weights + BP + oedema watched.</text>
+<text x="20" y="328">DYSPHAGIA (GER link!): NBM till screened → textures + upright + referrals; HIATUS/REFLUX:</text>
+<text x="20" y="342">small + upright + late-meals out + weight down; POST-OP gut: advance as ordered + protein</text>
+<text x="20" y="356">for healing; PANCREATITIS: NBM → low-fat advance per doctor.</text>
+<text x="20" y="376">COUNSELLING: restrictions explained by REASON ("potassium stops hearts when kidneys fail —</text>
+<text x="20" y="390">leaching protects you") + shown (demo leaching!) + written lists (eat/avoid) + cook trained +</text>
+<text x="20" y="404">review + labs trended (K+, creatinine, LFTs, glucose). Forbidden-only counsel fails — always</text>
+<text x="20" y="418">pair "stop X" with "eat Y instead". Document diet + demos + labs + review.</text>
+<text x="20" y="438">RED FLAGS: K+ symptoms (weakness/palpitations) · fluid overload (breathless/oedema/gain) ·</text>
+<text x="20" y="452">GI bleed (vomit blood/black stool) · anaphylaxis (adrenaline + emergency) · ascites fever/</text>
+<text x="20" y="466">confusion — emergency pathways, diet never delays hospital.</text>
+</g>
+</svg>

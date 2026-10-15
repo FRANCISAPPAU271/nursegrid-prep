@@ -11,6 +11,16 @@
 import { REVIEWED_PASTED_BATCH_1 } from "./reviewed-pasted-batch-1";
 
 import { ORIGINAL_CLINICAL_BATCH_50 } from "./original-clinical-batch-50";
+import { ORIGINAL_CLINICAL_BATCH_SCREENSHOTS } from "./original-clinical-batch-screenshots";
+import { ORIGINAL_NCX_BATCH_1 } from "./original-ncx-batch-1";
+import { ORIGINAL_NCX_BATCH_2 } from "./original-ncx-batch-2";
+import { ORIGINAL_NCX_BATCH_3 } from "./original-ncx-batch-3";
+import { ORIGINAL_NCX_BATCH_4 } from "./original-ncx-batch-4";
+import { ORIGINAL_NCX_BATCH_5 } from "./original-ncx-batch-5";
+import { ORIGINAL_NCX_BATCH_6 } from "./original-ncx-batch-6";
+import { ORIGINAL_NCX_BATCH_7 } from "./original-ncx-batch-7";
+import { ORIGINAL_NCX_BATCH_8 } from "./original-ncx-batch-8";
+import { ORIGINAL_NCX_BATCH_9 } from "./original-ncx-batch-9";
 
 export type AuthoredQuestion = {
   authoredId: string;
@@ -27,7 +37,7 @@ export type AuthoredQuestion = {
   mediaCaption?: string;
 };
 
-export const AUTHORED_COUNT = 3560;
+export const AUTHORED_COUNT = 4805;
 export const AUTHORED_COUNT_LABEL = "3,200+";
 export const AUTHORED_DIAGRAM_COUNT = 619;
 
@@ -119502,5 +119512,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 },
   ...REVIEWED_PASTED_BATCH_1,
   ...ORIGINAL_CLINICAL_BATCH_50,
+  ...ORIGINAL_CLINICAL_BATCH_SCREENSHOTS,
+  ...ORIGINAL_NCX_BATCH_1,
+  ...ORIGINAL_NCX_BATCH_2,
+  ...ORIGINAL_NCX_BATCH_3,
+  ...ORIGINAL_NCX_BATCH_4,
+  ...ORIGINAL_NCX_BATCH_5,
+  ...ORIGINAL_NCX_BATCH_6,
+  ...ORIGINAL_NCX_BATCH_7,
+  ...ORIGINAL_NCX_BATCH_8,
+  ...ORIGINAL_NCX_BATCH_9,
 ];
 

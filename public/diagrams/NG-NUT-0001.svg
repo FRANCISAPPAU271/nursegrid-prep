@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Macros + energy balance + fibre + water</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="132" height="100" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="86" y="56" font-weight="bold" font-size="10">CARBS 4 kcal/g</text>
+<text x="86" y="70" font-size="8">45–65% energy: brain +</text>
+<text x="86" y="81" font-size="8">muscle fuel. Whole &gt; refined:</text>
+<text x="86" y="92" font-size="8">millet, maize, brown rice,</text>
+<text x="86" y="103" font-size="8">oats, sweet potato</text>
+<text x="86" y="116" font-size="8" fill="#b91c1c">limit: sugary drinks,</text>
+<text x="86" y="127" font-size="8" fill="#b91c1c">sweets, white overload</text>
+<rect x="164" y="36" width="132" height="100" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="230" y="56" font-weight="bold" font-size="10">PROTEIN 4 kcal/g</text>
+<text x="230" y="70" font-size="8">10–35%: build + repair +</text>
+<text x="230" y="81" font-size="8">immune. ~0.8 g/kg (more in</text>
+<text x="230" y="92" font-size="8">pregnancy, illness, elders)</text>
+<text x="230" y="103" font-size="8">beans, fish, eggs,</text>
+<text x="230" y="116" font-size="8">groundnut, soya, chicken</text>
+<text x="230" y="127" font-size="8" fill="#6b7280">combine plants daily</text>
+<rect x="308" y="36" width="132" height="100" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="374" y="56" font-weight="bold" font-size="10">FATS 9 kcal/g</text>
+<text x="374" y="70" font-size="8">20–35%: brain, hormones,</text>
+<text x="374" y="81" font-size="8">vitamins A/D/E/K. Unsat &gt;</text>
+<text x="374" y="92" font-size="8">sat: groundnut, soya, fish,</text>
+<text x="374" y="103" font-size="8">avocado, palm (moderate)</text>
+<text x="374" y="116" font-size="8" fill="#b91c1c">limit: deep-fried, trans,</text>
+<text x="374" y="127" font-size="8" fill="#b91c1c">fatty meats</text>
+</g>
+<text x="20" y="158" font-size="12" font-weight="bold" fill="#111827">ENERGY BALANCE (kcal in vs out)</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="176">IN (food/drink) = OUT (BMR ~60–70% + activity + digestion) → stable · IN &gt; OUT → gain ·</text>
+<text x="30" y="192">IN &lt; OUT → lose. Needs rise: pregnancy (+340–450), lactation (+500), teens, illness, manual</text>
+<text x="30" y="208">work; fall: elders, sedentary, small frames. Counsel portions + movement, never starvation.</text>
+</g>
+<rect x="0" y="220" width="460" height="270" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="242" font-weight="bold">FIBRE 25–30 g/day: feeds gut, slows sugar, lowers cholesterol, fills cheaply —</text>
+<text x="20" y="256">beans, vegetables, fruits, whole grains, groundnut skins. Add GRADUALLY + water (gas fades).</text>
+<text x="20" y="276">WATER: 1.5–2 L/day (more in heat, fever, breastfeeding, diarrhoea; LESS where restricted —</text>
+<text x="20" y="290">heart/kidney limits honoured!). Pale urine = hydrated. Sugary drinks ≠ water (liquid weight).</text>
+<text x="20" y="310">GLYCAEMIC SENSE: pair carbs with protein/fibre/fat (banku + beans + veg beats banku alone);</text>
+<text x="20" y="324">whole fruit &gt; juice (fibre kept, sugar slowed); breakfast eaten (skippers overeat nights).</text>
+<text x="20" y="344">GHANA PLATE WISDOM: fufu/banku/kenkey + soup with fish/beans + plenty veg = ALREADY</text>
+<text x="20" y="358">balanced — counsel PORTIONS (fist carbs, palm protein, 2 fists veg) + oil restrained + salt-</text>
+<text x="20" y="372">smart, not foreign foods. Festive overload + daily soft drinks = the modern mismatch.</text>
+<text x="20" y="392">COUNSELLING: 24-h recall ("what did you eat yesterday?") → praise good → ONE change ("swap</text>
+<text x="20" y="406">afternoon Coke for water + groundnuts") → teach-back → review. Shame starves honesty;</text>
+<text x="20" y="420">poverty-aware plans (beans/eggs/groundnut = cheap protein; seasonal veg = cheap vitamins).</text>
+<text x="20" y="440">Nurses model: eat breakfast, drink water on shift, fruit in bag — counselled plates start</text>
+<text x="20" y="454">with the counsellor's own. Document diet counsel given (PRO-I M5).</text>
+<text x="20" y="474">Exam line: \"4-4-9, fibre 25+, water pale — portions counselled, poverty respected.\"</text>
+</g>
+</svg>

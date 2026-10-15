@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Mentorship, preceptorship + feedback</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="132" height="100" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="86" y="56" font-weight="bold" font-size="10">MENTOR</text>
+<text x="86" y="70" font-size="8">long-term guide:</text>
+<text x="86" y="81" font-size="8">career, confidence,</text>
+<text x="86" y="92" font-size="8">wisdom, doors</text>
+<text x="86" y="107" font-size="8" fill="#6b7280">months–years</text>
+<text x="86" y="122" font-size="8" fill="#6b7280">"become"</text>
+<rect x="164" y="36" width="132" height="100" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="230" y="56" font-weight="bold" font-size="10">PRECEPTOR</text>
+<text x="230" y="70" font-size="8">placement expert:</text>
+<text x="230" y="81" font-size="8">skills, sign-offs,</text>
+<text x="230" y="92" font-size="8">day-to-day</text>
+<text x="230" y="107" font-size="8" fill="#6b7280">weeks–months</text>
+<text x="230" y="122" font-size="8" fill="#6b7280">"perform"</text>
+<rect x="308" y="36" width="132" height="100" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="374" y="56" font-weight="bold" font-size="10">SUPERVISOR</text>
+<text x="374" y="70" font-size="8">accountable boss:</text>
+<text x="374" y="81" font-size="8">safety, standards,</text>
+<text x="374" y="92" font-size="8">appraisal</text>
+<text x="374" y="107" font-size="8" fill="#6b7280">ongoing</text>
+<text x="374" y="122" font-size="8" fill="#6b7280">"answer for"</text>
+</g>
+<text x="20" y="158" font-size="12" font-weight="bold" fill="#111827">FEEDBACK: SBI + PENDLETON (not the sandwich dodge)</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="176">SBI — Situation (\"on the drug round at 10:00…\") → Behavior (\"…you skipped the allergy check…\")</text>
+<text x="30" y="192">→ Impact (\"…so a reaction could have been missed — and you looked rushed, are you OK?\").</text>
+<text x="30" y="208">Pendleton — learner goes FIRST (what went well? what to change?) → preceptor adds → agree ONE</text>
+<text x="30" y="224">action. Rules: soon, private, specific, behaviour-not-person, balanced, forward-looking, documented.</text>
+</g>
+<rect x="0" y="236" width="460" height="254" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="258" font-weight="bold">Difficult learners: diagnose before disciplining — knowledge gap (teach), skills gap</text>
+<text x="20" y="272">(drill), attitude gap (values talk + consequences), welfare gap (money, health, grief — refer:</text>
+<text x="20" y="286">counselling, SRC, chaplaincy), unsafe gap (remove from risk NOW, remediate, re-assess).</text>
+<text x="20" y="306" font-weight="bold">FAILING honestly (the profession's immune system): warn early + in writing (no surprise</text>
+<text x="20" y="320">fails) → support plan (objectives, mentor, timeline, evidence) → re-assess fairly → if still</text>
+<text x="20" y="334">unsafe, FAIL + document + report to school (passing the unsafe endangers hundreds of future</text>
+<text x="20" y="348">patients — kindness to one student is cruelty to them all). Appeals respected, records kept.</text>
+<text x="20" y="368" font-weight="bold">Mentor duties: orient (ward, people, emergencies, expectations), set objectives (3 per</text>
+<text x="20" y="382">placement, SMART), observe + countersign (PRO-I: students never solo beyond scope),</text>
+<text x="20" y="396">protect (rest, meals, nights supervised, bullying intercepted), debrief scares same-shift,</text>
+<text x="20" y="410">assess fairly (evidence, not favouritism — your signature vouches to the NMC).</text>
+<text x="20" y="430">Role-model rule: students copy your hand hygiene, your tone with cleaners, your honesty</text>
+<text x="20" y="444">about errors — the hidden curriculum out-teaches every lesson plan. Teach the nurse</text>
+<text x="20" y="458">you'd trust with your own mother: competent hands, honest mouth, kind eyes.</text>
+<text x="20" y="476">Exam line: \"feedback feeds forward — specific, soon, private, and always with a next step.\"</text>
+</g>
+</svg>

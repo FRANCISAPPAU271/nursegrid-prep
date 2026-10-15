@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 450" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="450" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">The sarcomere: sliding filaments</text>
+<!-- relaxed -->
+<text x="20" y="52" font-size="12" font-weight="bold" fill="#111827">RELAXED — Z-discs apart, H zone wide</text>
+<g>
+<line x1="60" y1="70" x2="60" y2="150" stroke="#b91c1c" stroke-width="4"/>
+<line x1="400" y1="70" x2="400" y2="150" stroke="#b91c1c" stroke-width="4"/>
+<g stroke="#1d4ed8" stroke-width="2">
+<line x1="60" y1="90" x2="190" y2="90"/><line x1="60" y1="110" x2="190" y2="110"/><line x1="60" y1="130" x2="190" y2="130"/>
+<line x1="270" y1="90" x2="400" y2="90"/><line x1="270" y1="110" x2="400" y2="110"/><line x1="270" y1="130" x2="400" y2="130"/>
+</g>
+<g stroke="#b91c1c" stroke-width="5">
+<line x1="195" y1="88" x2="265" y2="88"/><line x1="195" y1="108" x2="265" y2="108"/><line x1="195" y1="128" x2="265" y2="128"/>
+</g>
+<line x1="60" y1="162" x2="400" y2="162" stroke="#6b7280" stroke-width="1"/>
+<line x1="60" y1="157" x2="60" y2="167" stroke="#6b7280" stroke-width="1"/>
+<line x1="400" y1="157" x2="400" y2="167" stroke="#6b7280" stroke-width="1"/>
+<text x="230" y="158" font-size="10" text-anchor="middle" fill="#111827">one sarcomere (Z-disc to Z-disc)</text>
+<text x="230" y="90" font-size="9" text-anchor="middle" fill="#6b7280">H zone</text>
+</g>
+<!-- contracted -->
+<text x="20" y="200" font-size="12" font-weight="bold" fill="#111827">CONTRACTED — Z-discs pulled together, H zone gone</text>
+<g>
+<line x1="130" y1="218" x2="130" y2="298" stroke="#b91c1c" stroke-width="4"/>
+<line x1="330" y1="218" x2="330" y2="298" stroke="#b91c1c" stroke-width="4"/>
+<g stroke="#1d4ed8" stroke-width="2">
+<line x1="130" y1="238" x2="245" y2="238"/><line x1="130" y1="258" x2="245" y2="258"/><line x1="130" y1="278" x2="245" y2="278"/>
+<line x1="215" y1="238" x2="330" y2="238"/><line x1="215" y1="258" x2="330" y2="258"/><line x1="215" y1="278" x2="330" y2="278"/>
+</g>
+<g stroke="#b91c1c" stroke-width="5">
+<line x1="195" y1="236" x2="265" y2="236"/><line x1="195" y1="256" x2="265" y2="256"/><line x1="195" y1="276" x2="276" y2="276"/>
+</g>
+<line x1="130" y1="310" x2="330" y2="310" stroke="#6b7280" stroke-width="1"/>
+<line x1="130" y1="305" x2="130" y2="315" stroke="#6b7280" stroke-width="1"/>
+<line x1="330" y1="305" x2="330" y2="315" stroke="#6b7280" stroke-width="1"/>
+<text x="230" y="306" font-size="10" text-anchor="middle" fill="#111827">same filaments — shorter sarcomere</text>
+</g>
+<!-- legend -->
+<g font-size="10" fill="#111827">
+<line x1="40" y1="336" x2="70" y2="336" stroke="#b91c1c" stroke-width="4"/>
+<text x="76" y="340">Z-discs (red) + thick myosin (red bundle)</text>
+<line x1="40" y1="354" x2="70" y2="354" stroke="#1d4ed8" stroke-width="2"/>
+<text x="76" y="358">thin actin anchored to the Z-discs (blue)</text>
+</g>
+<rect x="0" y="378" width="460" height="72" fill="#f1f5f9"/>
+<text x="20" y="400" font-size="10" fill="#111827">Heads of myosin grab actin, pull, release, repeat — each cycle spends one ATP.</text>
+<text x="20" y="414" font-size="10" fill="#111827">Calcium opens the binding sites (contraction); pumping it away closes them (relaxation).</text>
+<text x="20" y="428" font-size="10" fill="#111827">No ATP, no release — the locked cross-bridges of rigor mortis.</text>
+</svg>

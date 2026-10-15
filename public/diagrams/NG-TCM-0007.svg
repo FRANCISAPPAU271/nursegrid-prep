@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Hands + breath: massage + relaxation</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="130" height="60" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="85" y="56" font-weight="bold" font-size="10">MASSAGE</text>
+<text x="85" y="69" font-size="8">hands + feet + back:</text>
+<text x="85" y="80" font-size="8">pain, sleep, calm!</text>
+<rect x="165" y="36" width="130" height="60" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="230" y="56" font-weight="bold" font-size="10">BREATHING</text>
+<text x="230" y="69" font-size="8">slow in-4 out-6:</text>
+<text x="230" y="80" font-size="8">panic, pain, BP!</text>
+<rect x="310" y="36" width="130" height="60" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="375" y="56" font-weight="bold" font-size="10">RELAXATION</text>
+<text x="375" y="69" font-size="8">tense-release +</text>
+<text x="375" y="80" font-size="8">imagery + music!</text>
+<rect x="20" y="104" width="205" height="56" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="122" y="124" font-weight="bold" font-size="10">CONTRAINDICATIONS!</text>
+<text x="122" y="137" font-size="8">clots! fractures! skin!</text>
+<text x="122" y="148" font-size="8">cancer-site! ask!</text>
+<rect x="235" y="104" width="205" height="56" rx="6" fill="#ffedd5" stroke="#c2410c" stroke-width="1.5"/>
+<text x="337" y="124" font-weight="bold" font-size="10">CONSENT + CULTURE</text>
+<text x="337" y="137" font-size="8">"may I…?" gender +</text>
+<text x="337" y="148" font-size="8">faith + document!</text>
+</g>
+<rect x="0" y="172" width="460" height="318" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="194" font-weight="bold">MASSAGE (nurse-scope!): HAND (chemo nausea! anxiety!) · FOOT (sleep! labour! elders!)</text>
+<text x="20" y="208">· BACK/SHOULDER (tension! grief-held bodies!) · 5-15 min, shea butter, warm hands, consent.</text>
+<text x="20" y="222">Teach FAMILY (back rubs for labour! foot rubs for dying!) — skills that outlast shifts.</text>
+<text x="20" y="242">HOW: warm hands + oil/butter + slow strokes toward heart + ask pressure ("more? less?") +</text>
+<text x="20" y="256">breathe together + quiet + 5-min minimum. End: "rest now — I'll check soon." Document:</text>
+<text x="20" y="270">site + minutes + response (pain 7→4! slept!).</text>
+<text x="20" y="290">BREATHING: in-4, hold-2, out-6 (long OUT calms!) · panic: breathe WITH them, count aloud</text>
+<text x="20" y="304">· labour: slow rhythm + partner counts · pain: breath + imagery ("blow the pain away").</text>
+<text x="20" y="318">Teach + practise + cue cards — breaths beat pills for panic.</text>
+<text x="20" y="338">RELAXATION: progressive tense-RELEASE (feet→face!) · guided imagery (river! farm! beach!)</text>
+<text x="20" y="352">· music (gospel! highlife softly!) · prayer-meditation (faith-framed calm!). Insomnia,</text>
+<text x="20" y="366">hypertension, chronic pain, pre-op fear — prescribe sessions like drugs.</text>
+<text x="20" y="386">CONTRAINDICATIONS: DVT/clots (NEVER massage legs!) · fractures/dislocations · skin</text>
+<text x="20" y="400">infection/burns/open wounds · cancer SITES (ask doctor!) · bleeding disorders · first-</text>
+<text x="20" y="414">trimester abdomen · patient REFUSAL (always final!). Check, then touch.</text>
+<text x="20" y="434">CONSENT + CULTURE: "may I massage your feet…?" + gender match offered + faith respected</text>
+<text x="20" y="448">+ chaperone where apt + DOCUMENT consent + response. Touch heals; unconsented touch harms.</text>
+<text x="20" y="468">MANTRA: "warm hands, slow breath, consent first, document response."</text>
+</g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">GER exam map + 25 tricky points</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="96" height="60" rx="6" fill="#ffedd5" stroke="#c2410c" stroke-width="1.5"/>
+<text x="68" y="56" font-weight="bold" font-size="8">M1 AGEING</text>
+<text x="68" y="69" font-size="8">theories, systems,</text>
+<text x="68" y="80" font-size="8">pillars, ageism</text>
+<rect x="124" y="36" width="96" height="60" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="172" y="56" font-weight="bold" font-size="8">M2 ASSESS</text>
+<text x="172" y="69" font-size="8">CFS, Katz/IADL,</text>
+<text x="172" y="80" font-size="8">TUG, CGA</text>
+<rect x="228" y="36" width="96" height="60" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="276" y="56" font-weight="bold" font-size="8">M3 3Ds</text>
+<text x="276" y="69" font-size="8">CAM, PINCH ME,</text>
+<text x="276" y="80" font-size="8">leaks, pain</text>
+<rect x="332" y="36" width="108" height="60" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="386" y="56" font-weight="bold" font-size="8">M4 MEDS</text>
+<text x="386" y="69" font-size="8">Beers, bag,</text>
+<text x="386" y="80" font-size="8">deprescribe</text>
+<rect x="72" y="104" width="140" height="60" rx="6" fill="#f3e8ff" stroke="#7e22ce" stroke-width="1.5"/>
+<text x="142" y="124" font-weight="bold" font-size="8">M5 HEARTS</text>
+<text x="142" y="137" font-size="8">carers, abuse,</text>
+<text x="142" y="148" font-size="8">good deaths</text>
+<rect x="228" y="104" width="140" height="60" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="298" y="124" font-weight="bold" font-size="8">M6 FUEL/MOVE</text>
+<text x="298" y="137" font-size="8">MUST, swallow,</text>
+<text x="298" y="148" font-size="8">aids, hips</text>
+</g>
+<rect x="0" y="176" width="460" height="314" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="198" font-weight="bold">25 TRICKY POINTS (learn cold):</text>
+<text x="20" y="212">1 function over candles · 2 afebrile ≠ well · 3 IADL fails first · 4 TUG &gt;20 = high-risk ·</text>
+<text x="20" y="226">5 CFS from 2-wk baseline · 6 every fall gets workup · 7 long lie = CK/kidney · 8 aids ON</text>
+<text x="20" y="240">before screens · 9 delirium excluded FIRST · 10 CAM: acute+inattention+(1) · 11 PINCH</text>
+<text x="20" y="254">ME hunt · 12 hypoactive kills most · 13 validate feelings, not facts · 14 GDS + suicide</text>
+<text x="20" y="268">ask · 15 four leaks typed · 16 catheters LAST · 17 PAINAD behaviour · 18 NSAID kidney/GI,</text>
+<text x="20" y="282">opioids bowel plan · 19 cataract referred, wax OUT · 20 Beers: antichol/benzo/NSAID ·</text>
+<text x="20" y="296">21 triple whammy + sick-day rules · 22 brown bag every admission · 23 taper never</text>
+<text x="20" y="310">abrupt (5 classes) · 24 see abuse ALONE, report always · 25 MUST + re-feed low+slow.</text>
+<text x="20" y="330" font-weight="bold">COUNTDOWN: 6 wks — map 42 objectives + weak topics; 4 wks — timed past Qs +</text>
+<text x="20" y="344">canvas rationales; 2 wks — cards (CFS, CAM, PINCH ME, Beers, MUST, 25 points); 1 wk —</text>
+<text x="20" y="358">mock + sleep; eve — pack + rest; DAY — read twice, canvas-structure, cite modules, all.</text>
+<text x="20" y="378">FORMULA: baseline → hunt → assess (CGA) → plan → family → goals → document. Interviews:</text>
+<text x="20" y="392">STAR from canvas ("our falls fell 40%..."); "difficult elder?" = BPSD-as-need aloud.</text>
+<text x="20" y="412">PORTFOLIO CROWN: canvas + charts + QI + reflections + board photos (de-identified) +</text>
+<text x="20" y="426">family-meeting log + meds-MOT data. One finished elder-project outranks ten certificates.</text>
+<text x="20" y="446">PLEDGE: "I will see function not candles, hunt every new confusion, type every leak,</text>
+<text x="20" y="460">question every drug, see abuse alone, feed with company, walk my elders daily — grey</text>
+<text x="20" y="474">hair, full dignity, always."</text>
+</g>
+</svg>

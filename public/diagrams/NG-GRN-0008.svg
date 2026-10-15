@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Reconcile + adhere + deprescribe</text>
+<text x="20" y="50" font-size="12" font-weight="bold" fill="#111827">BROWN-BAG RECONCILIATION (every admission/visit)</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="68">"Bring EVERYTHING in a bag" → list (name/dose/time/reason/prescriber) → compare vs chart →</text>
+<text x="30" y="84">resolve (omissions? duplications? OTC/herbal? expired?) → document ONE true list → counsel →</text>
+<text x="30" y="100">share (folder + patient card + family). Catches: double paracetamol, dead drugs, borrowed pills.</text>
+</g>
+<text x="20" y="124" font-size="12" font-weight="bold" fill="#111827">ADHERENCE: barriers → beaters</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="132" width="132" height="72" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="86" y="152" font-weight="bold" font-size="9">CAN'T</text>
+<text x="86" y="166" font-size="8">cost, distance,</text>
+<text x="86" y="177" font-size="8">eyes/hands, swallow</text>
+<text x="86" y="190" font-size="8" fill="#065f46">generics, blister,</text>
+<text x="86" y="199" font-size="8" fill="#065f46">liquids, aids</text>
+<rect x="164" y="132" width="132" height="72" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="230" y="152" font-weight="bold" font-size="9">FORGETS</text>
+<text x="230" y="166" font-size="8">memory, complex</text>
+<text x="230" y="177" font-size="8">regimes, no routine</text>
+<text x="230" y="190" font-size="8" fill="#065f46">pill box, alarms,</text>
+<text x="230" y="199" font-size="8" fill="#065f46">family DOT, simplify</text>
+<rect x="308" y="132" width="132" height="72" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="374" y="152" font-weight="bold" font-size="9">WON'T</text>
+<text x="374" y="166" font-size="8">side effects, "cured",</text>
+<text x="374" y="177" font-size="8">beliefs, mistrust</text>
+<text x="374" y="190" font-size="8" fill="#065f46">listen, fix effects,</text>
+<text x="374" y="199" font-size="8" fill="#065f46">teach-back, negotiate</text>
+</g>
+<rect x="0" y="216" width="460" height="274" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="238" font-weight="bold">DEPRESCRIBING (5 steps, with doctor + pharmacist + elder): 1 list ALL (brown bag) →</text>
+<text x="20" y="252">2 match indication (no reason = candidate) → 3 benefit vs harm NOW (frailty/goals change</text>
+<text x="20" y="266">maths — statin at 88 with CFS 7? discuss) → 4 taper/stop ONE at a time (benzodiazepines,</text>
+<text x="20" y="280">anticholinergics, PPIs-without-cause, duplicate paracetamol, dead supplements) → 5 monitor</text>
+<text x="20" y="294">+ document + tell family what to watch. NEVER abrupt: benzos, steroids, beta-blockers,</text>
+<text x="20" y="308">antidepressants, antiparkinson — taper per protocol. Stopping well = prescribing well.</text>
+<text x="20" y="328">SIMPLIFY wins adherence: once-daily where possible, align times (morning/evening), pill</text>
+<text x="20" y="342">boxes + blister packs, big-print lists with REASONS (\"white — BP — morning\"), teach-back</text>
+<text x="20" y="356">(M02 PRO-II), family DOT for dementia, phone alarms, refill synced to one date.</text>
+<text x="20" y="376">MONITOR the risky: anticoag (bleeds + falls + INRs), insulin/sulfonylureas (hypo plan +</text>
+<text x="20" y="390">glucose + family trained), diuretics (weight + K+ + kidney), opioids (bowels + sedation),</text>
+<text x="20" y="404">digoxin (levels + K+ + vision), lithium (levels + fluids). Diaries beat memory: BP, glucose,</text>
+<text x="20" y="418">weight, pain, bowels — reviewed each visit, doses adjusted, harms caught early.</text>
+<text x="20" y="438">Nurse's power: you see the bag, the home, the confusion, the fall — flag Beers drugs,</text>
+<text x="20" y="452">cascades and non-adherence UP (ISBAR to doctor/pharmacist — PRO-I M5) and counsel DOWN</text>
+<text x="20" y="466">with teach-back. Document lists + counsel + plans (PRO-I M5).</text>
+</g>
+</svg>

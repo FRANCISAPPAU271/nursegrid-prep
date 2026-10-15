@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">5 keys to safer food + danger zone</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="76" height="84" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="58" y="56" font-weight="bold" font-size="8">1. CLEAN</text>
+<text x="58" y="70" font-size="8">hands, surfaces,</text>
+<text x="58" y="81" font-size="8">utensils, water</text>
+<text x="58" y="92" font-size="8">safe; wash veg/</text>
+<text x="58" y="103" font-size="8">fruit well</text>
+<rect x="104" y="36" width="76" height="84" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="142" y="56" font-weight="bold" font-size="8">2. SEPARATE</text>
+<text x="142" y="70" font-size="8">raw meat/fish</text>
+<text x="142" y="81" font-size="8">AWAY from</text>
+<text x="142" y="92" font-size="8">cooked/ready;</text>
+<text x="142" y="103" font-size="8">boards differ</text>
+<rect x="188" y="36" width="76" height="84" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="226" y="56" font-weight="bold" font-size="8">3. COOK</text>
+<text x="226" y="70" font-size="8">thoroughly</text>
+<text x="226" y="81" font-size="8">(70°C+, juices</text>
+<text x="226" y="92" font-size="8">clear); reheat</text>
+<text x="226" y="103" font-size="8">ONCE steaming</text>
+<rect x="272" y="36" width="76" height="84" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="310" y="56" font-weight="bold" font-size="8">4. CHILL</text>
+<text x="310" y="70" font-size="8">cool fast, fridge</text>
+<text x="310" y="81" font-size="8">&lt;5°C; &gt;2 h out</text>
+<text x="310" y="92" font-size="8">= suspect; no</text>
+<text x="310" y="103" font-size="8">fridge? cook fresh</text>
+<rect x="356" y="36" width="84" height="84" rx="6" fill="#f3e8ff" stroke="#7e22ce" stroke-width="1.5"/>
+<text x="398" y="56" font-weight="bold" font-size="8">5. SAFE RAW</text>
+<text x="398" y="70" font-size="8">safe water +</text>
+<text x="398" y="81" font-size="8">pasteurised milk;</text>
+<text x="398" y="92" font-size="8">wash fruit;</text>
+<text x="398" y="103" font-size="8">check dates</text>
+</g>
+<text x="20" y="142" font-size="12" font-weight="bold" fill="#111827">DANGER ZONE 5–60°C (germs double ~20 min!)</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="160">Cooked food out &gt;2 h (1 h in heat!) = SUSPECT — reheat steaming ONCE or discard. Cool fast</text>
+<text x="30" y="176">(shallow pans, stir); fridge crowded = warm spots; leftovers dated + 2-day rule; baby food</text>
+<text x="30" y="192">fresh each feed (M03!). Flies = faeces couriers — cover ALL food, always.</text>
+</g>
+<rect x="0" y="204" width="460" height="286" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="226" font-weight="bold">FOODBORNE HITS: diarrhoea/vomiting hours after feasts (staph/B. cereus) · typhoid</text>
+<text x="20" y="240">(fever + headache + rose spots — water/food + carriers!) · cholera (rice-water + shock — ORS +</text>
+<text x="20" y="254">refer FAST!) · hepatitis A/E (jaundice + dark urine) · worms (soil + raw veg + bare feet!) ·</text>
+<text x="20" y="268">aflatoxin (mouldy groundnut/maize — LIVER CANCER: dry + sort + discard mouldy!).</text>
+<text x="20" y="288">OUTBREAK RESPONSE: treat (ORS/zinc/antibiotics per protocol) + trace (common meal? vendor?</text>
+<text x="20" y="302">water?) + notify (disease control — cholera/typhoid = IDSR!) + fix source (vendor pause +</text>
+<text x="20" y="316">water chlorinate + community alert) + document + follow-up. Nurses detect clusters at OPD.</text>
+<text x="20" y="336">VENDOR/CHOP-BAR CHECKS: medical fitness + handwash + hair covered + clean water + covered</text>
+<text x="20" y="350">food + waste binned + toilets near + no sick-handler cooking. Counsel (don't only punish!):</text>
+<text x="20" y="364">"covered + fresh + hot = customers + health". Liaise environmental health officers.</text>
+<text x="20" y="384">HOSPITAL KITCHENS: same 5 keys + therapeutic diets labelled + allergens flagged (M04!) +</text>
+<text x="20" y="398">immunocompromised extra-care + audits (PRO-II M4: swab + temp-log + train).</text>
+<text x="20" y="418">WATER: boiled/filtered/chlorinated where unsafe; stored covered + narrow-neck + tap; cups</text>
+<text x="20" y="432">clean; sachet/bottled checked (FDA!). "Water chain" taught at every diarrhoea case: source →</text>
+<text x="20" y="446">carry → store → serve — germs enter at EVERY link unguarded.</text>
+<text x="20" y="466">Exam line: \"clean, separate, cook, chill, safe-raw — 2 hours out, reheat once or out.\"</text>
+</g>
+</svg>

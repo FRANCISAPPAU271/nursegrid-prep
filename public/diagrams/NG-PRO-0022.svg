@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Swiss cheese + safety bundles</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="96" height="78" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="68" y="56" font-weight="bold" font-size="8">POLICIES</text>
+<text x="68" y="70" font-size="8">protocols,</text>
+<text x="68" y="81" font-size="8">checklists,</text>
+<text x="68" y="92" font-size="8">training</text>
+<text x="68" y="105" font-size="8" fill="#b91c1c">holes: outdated</text>
+<rect x="124" y="36" width="96" height="78" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="172" y="56" font-weight="bold" font-size="8">CHECKS</text>
+<text x="172" y="70" font-size="8">double-check,</text>
+<text x="172" y="81" font-size="8">read-back,</text>
+<text x="172" y="92" font-size="8">time-outs</text>
+<text x="172" y="105" font-size="8" fill="#b91c1c">holes: rushed</text>
+<rect x="228" y="36" width="96" height="78" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="276" y="56" font-weight="bold" font-size="8">PEOPLE</text>
+<text x="276" y="70" font-size="8">vigilance,</text>
+<text x="276" y="81" font-size="8">handover,</text>
+<text x="276" y="92" font-size="8">teamwork</text>
+<text x="276" y="105" font-size="8" fill="#b91c1c">holes: fatigue</text>
+<rect x="332" y="36" width="108" height="78" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="386" y="56" font-weight="bold" font-size="8">TECH</text>
+<text x="386" y="70" font-size="8">alarms, pumps,</text>
+<text x="386" y="81" font-size="8">labels, IT</text>
+<text x="386" y="92" font-size="8">barriers</text>
+<text x="386" y="105" font-size="8" fill="#b91c1c">holes: ignored</text>
+</g>
+<text x="20" y="132" font-size="10" fill="#111827">Harm flies straight ONLY when holes align — add slices, shrink holes, never rely on one.</text>
+<text x="20" y="152" font-size="12" font-weight="bold" fill="#111827">BUNDLES (all-or-nothing sets)</text>
+<g font-size="9" fill="#111827">
+<rect x="20" y="160" width="205" height="72" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="30" y="180" font-weight="bold" font-size="10">MEDICATION SAFETY</text>
+<text x="30" y="194" font-size="8">10 rights (patient/drug/dose/route/</text>
+<text x="30" y="205" font-size="8">time/reason/refusal/response/</text>
+<text x="30" y="216" font-size="8">doc/education) + high-alert double-</text>
+<text x="30" y="227" font-size="8">check (insulin, heparin, chemo, KCl)</text>
+<rect x="235" y="160" width="205" height="72" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="245" y="180" font-weight="bold" font-size="10">INFECTION PREVENTION</text>
+<text x="245" y="194" font-size="8">5 moments hand hygiene + asepsis</text>
+<text x="245" y="205" font-size="8">+ PPE + waste segregation +</text>
+<text x="245" y="216" font-size="8">catheter/line necessity reviews</text>
+<text x="245" y="227" font-size="8">(remove = best prevention)</text>
+<rect x="20" y="240" width="205" height="72" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="30" y="260" font-weight="bold" font-size="10">FALLS + PRESSURE</text>
+<text x="30" y="274" font-size="8">risk score on admission + care</text>
+<text x="30" y="285" font-size="8">plan (call bell, light, footwear /</text>
+<text x="30" y="296" font-size="8">turning, mattress, nutrition) +</text>
+<text x="30" y="307" font-size="8">re-assess each shift</text>
+<rect x="235" y="240" width="205" height="72" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="245" y="260" font-weight="bold" font-size="10">SURGICAL + ID CHECKS</text>
+<text x="245" y="274" font-size="8">WHO time-out (sign in/out) +</text>
+<text x="245" y="285" font-size="8">2 identifiers before EVERY drug/</text>
+<text x="245" y="296" font-size="8">blood/sample/procedure + site</text>
+<text x="245" y="307" font-size="8">marking + counts</text>
+</g>
+<rect x="0" y="324" width="460" height="166" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="346" font-weight="bold">CULTURE: just (report freely, reckless still accountable) — huddles, safety walks,</text>
+<text x="20" y="360">good-catch awards, debriefs. NEVER EVENTS (should never happen): wrong-site surgery,</text>
+<text x="20" y="374">ABO-incompatible blood, retained instruments, inpatient suicide by hanging, infant</text>
+<text x="20" y="388">abduction/discharge-to-wrong-family, insulin/heparin 10× overdoses — each triggers RCA:</text>
+<text x="20" y="402">timeline → fishbone/whys → contributory systems → actions (owned/dated) → shared learning.</text>
+<text x="20" y="422">Human factors: fatigue, interruptions, look-alike/sound-alike drugs (store apart!), hierarchy</text>
+<text x="20" y="436">silence — design systems for tired humans, not ideal ones. Stop-the-line: ANYONE halts</text>
+<text x="20" y="450">unsafe care, no rank needed — the cleaner who stops a wrong-blood transfusion is the</text>
+<text x="20" y="464">day's hero. Exam line: \"safety is designed in slices — and everyone holds a stop card.\"</text>
+</g>
+</svg>

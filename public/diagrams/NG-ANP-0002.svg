@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 500" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="500" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Body cavities and their membranes</text>
+<!-- dorsal bracket -->
+<text x="34" y="240" font-size="12" font-weight="bold" fill="#1d4ed8" transform="rotate(-90 34 240)" text-anchor="middle">DORSAL</text>
+<line x1="44" y1="60" x2="44" y2="380" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="44" y1="60" x2="52" y2="60" stroke="#1d4ed8" stroke-width="2"/>
+<line x1="44" y1="380" x2="52" y2="380" stroke="#1d4ed8" stroke-width="2"/>
+<!-- ventral bracket -->
+<line x1="196" y1="140" x2="196" y2="380" stroke="#b91c1c" stroke-width="2"/>
+<line x1="188" y1="140" x2="196" y2="140" stroke="#b91c1c" stroke-width="2"/>
+<line x1="188" y1="380" x2="196" y2="380" stroke="#b91c1c" stroke-width="2"/>
+<text x="210" y="260" font-size="12" font-weight="bold" fill="#b91c1c" transform="rotate(-90 210 260)" text-anchor="middle">VENTRAL</text>
+<!-- head: cranial cavity -->
+<circle cx="122" cy="82" r="24" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+<text x="122" y="86" font-size="9" text-anchor="middle" fill="#1d4ed8">brain</text>
+<!-- torso -->
+<rect x="80" y="112" width="84" height="268" rx="16" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<!-- vertebral strip -->
+<rect x="114" y="112" width="16" height="268" fill="none" stroke="#1d4ed8" stroke-width="1.5" stroke-dasharray="4 3"/>
+<!-- thoracic -->
+<rect x="86" y="118" width="72" height="88" rx="8" fill="#fee2e2"/>
+<text x="122" y="150" font-size="9" text-anchor="middle" fill="#7f1d1d">lungs</text>
+<text x="122" y="163" font-size="9" text-anchor="middle" fill="#7f1d1d">heart</text>
+<text x="122" y="132" font-size="9" font-weight="bold" text-anchor="middle" fill="#7f1d1d">THORACIC</text>
+<!-- diaphragm -->
+<line x1="80" y1="212" x2="164" y2="212" stroke="#334155" stroke-width="3"/>
+<text x="86" y="209" font-size="8" fill="#334155">diaphragm</text>
+<!-- abdominal -->
+<rect x="86" y="218" width="72" height="96" rx="8" fill="#ffedd5"/>
+<text x="122" y="232" font-size="9" font-weight="bold" text-anchor="middle" fill="#7c2d12">ABDOMINAL</text>
+<text x="122" y="258" font-size="9" text-anchor="middle" fill="#7c2d12">stomach • liver</text>
+<text x="122" y="271" font-size="9" text-anchor="middle" fill="#7c2d12">intestines • kidneys</text>
+<!-- pelvic -->
+<rect x="86" y="320" width="72" height="54" rx="8" fill="#fef9c3"/>
+<text x="122" y="334" font-size="9" font-weight="bold" text-anchor="middle" fill="#713f12">PELVIC</text>
+<text x="122" y="356" font-size="9" text-anchor="middle" fill="#713f12">bladder • reproductive</text>
+<!-- leader lines + labels -->
+<g font-size="10">
+<line x1="146" y1="76" x2="236" y2="60" stroke="#6b7280" stroke-width="1"/>
+<text x="240" y="58" font-weight="bold" fill="#111827">Cranial cavity — brain</text>
+<text x="240" y="72" font-size="9" fill="#6b7280">membrane: meninges</text>
+<line x1="130" y1="150" x2="236" y2="150" stroke="#6b7280" stroke-width="1"/>
+<text x="240" y="148" font-weight="bold" fill="#111827">Vertebral canal — spinal cord</text>
+<text x="240" y="162" font-size="9" fill="#6b7280">membrane: meninges</text>
+<line x1="158" y1="180" x2="236" y2="205" stroke="#6b7280" stroke-width="1"/>
+<text x="240" y="203" font-weight="bold" fill="#111827">Thoracic — lungs, heart, vessels</text>
+<text x="240" y="217" font-size="9" fill="#6b7280">pleura • pericardium • mediastinum</text>
+<line x1="158" y1="260" x2="236" y2="275" stroke="#6b7280" stroke-width="1"/>
+<text x="240" y="273" font-weight="bold" fill="#111827">Abdominal — digestive organs</text>
+<text x="240" y="287" font-size="9" fill="#6b7280">membrane: peritoneum</text>
+<line x1="158" y1="347" x2="236" y2="347" stroke="#6b7280" stroke-width="1"/>
+<text x="240" y="345" font-weight="bold" fill="#111827">Pelvic — bladder, reproductive</text>
+<text x="240" y="359" font-size="9" fill="#6b7280">continuous with the abdomen</text>
+</g>
+<text x="240" y="404" font-size="10" fill="#374151">Serous membranes come in pairs:</text>
+<text x="240" y="418" font-size="10" fill="#374151"><tspan font-weight="bold">parietal</tspan> lines the wall,</text>
+<text x="240" y="432" font-size="10" fill="#374151"><tspan font-weight="bold">visceral</tspan> covers the organ.</text>
+<rect x="0" y="448" width="460" height="52" fill="#f1f5f9"/>
+<text x="20" y="470" font-size="10" fill="#111827">The slit between the two layers is where fluid, blood and infection collect —</text>
+<text x="20" y="484" font-size="10" fill="#111827">pleural effusion, cardiac tamponade, peritonitis, meningitis.</text>
+</svg>

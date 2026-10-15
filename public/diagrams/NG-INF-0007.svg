@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">CDSS + BCMA: machines that guard meds</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="130" height="60" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="85" y="56" font-weight="bold" font-size="10">ALERTS</text>
+<text x="85" y="69" font-size="8">allergy, dose,</text>
+<text x="85" y="80" font-size="8">duplicate, clash!</text>
+<rect x="165" y="36" width="130" height="60" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="230" y="56" font-weight="bold" font-size="10">REMINDERS</text>
+<text x="230" y="69" font-size="8">vaccines, screens,</text>
+<text x="230" y="80" font-size="8">rechecks due!</text>
+<rect x="310" y="36" width="130" height="60" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="375" y="56" font-weight="bold" font-size="10">ORDER SETS</text>
+<text x="375" y="69" font-size="8">bundles built-in:</text>
+<text x="375" y="80" font-size="8">sepsis, DKA!</text>
+<rect x="20" y="104" width="205" height="60" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="122" y="124" font-weight="bold" font-size="10">FATIGUE FIGHT</text>
+<text x="122" y="137" font-size="8">read + decide +</text>
+<text x="122" y="148" font-size="8">reason every one!</text>
+<rect x="235" y="104" width="205" height="60" rx="6" fill="#ffedd5" stroke="#c2410c" stroke-width="1.5"/>
+<text x="337" y="124" font-weight="bold" font-size="10">BCMA SCAN</text>
+<text x="337" y="137" font-size="8">wristband + packet</text>
+<text x="337" y="148" font-size="8">+ 5 rights!</text>
+</g>
+<rect x="0" y="176" width="460" height="314" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="198" font-weight="bold">CDSS = alerts + reminders + order sets + calculators + guidelines at the point of</text>
+<text x="20" y="212">care. Catches: allergies, overdoses, duplicates, interactions, missed vaccines, overdue</text>
+<text x="20" y="226">rechecks. Fails when: ignored, overridden blindly, or trusted instead of assessed.</text>
+<text x="20" y="246">FATIGUE (exam core!): 100 daily alerts → 95 noise → brain mutes ALL → the real one kills.</text>
+<text x="20" y="260">Fight: read EVERY alert, decide consciously, document override REASONS, report noisy rules</text>
+<text x="20" y="274">(super-user → analyst → retune!). Never "click-through nursing" — overrides need reasons.</text>
+<text x="20" y="294">BCMA (bar-code meds admin): scan wristband + scan packet + system matches order → 5 rights</text>
+<text x="20" y="308">verified electronically. Workarounds KILL: pre-scanned bands, scanned-then-carried trays,</text>
+<text x="20" y="322">"scanner broken, skip it" — each bypass deletes the safety net. Scanner truly dead? Full</text>
+<text x="20" y="336">manual 5-rights + 2 identifiers + report + document.</text>
+<text x="20" y="356">SMART PUMPS + CALCULATORS: drug libraries limit doses; paediatric calculators need weight</text>
+<text x="20" y="370">VERIFIED (wrong weight = wrong everything — NUT M2 measure!). Independent double-checks</text>
+<text x="20" y="384">for high-risk drugs: insulin, heparin, chemo, K+ infusions (GER M4!).</text>
+<text x="20" y="404">AUTOMATION BIAS: "the computer said so" is not nursing judgment (M01 wisdom!). System says</text>
+<text x="20" y="418">discharge + gut says deteriorating → reassess, escalate, document. Computers suggest;</text>
+<text x="20" y="432">nurses decide; audit trails remember who clicked.</text>
+<text x="20" y="452">LINKS: M02 CPOE/verify · GER M4 polypharmacy · NUT M4/M5 dosing · PRO-I compass.</text>
+<text x="20" y="466">MANTRA: "read it, scan it, verify it — then give it."</text>
+</g>
+</svg>

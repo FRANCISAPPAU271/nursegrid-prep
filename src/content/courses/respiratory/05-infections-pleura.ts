@@ -1,0 +1,390 @@
+import type { CourseModule } from "../types";
+
+export const infectionsAndPleura: CourseModule = {
+  slug: "infections-and-pleural-disease",
+  title: "Pneumonia, tuberculosis, lung cancer and the pleura",
+  summary: "The infections that fill Ghanaian medical wards — pneumonia and tuberculosis — with the infection-control measures that protect the nurse, and the pleural disorders that need a chest drain. Lung cancer joins them as the malignancy that mimics infection.",
+  lessons: [
+    {
+      slug: "pneumonia",
+      title: "Pneumonia",
+      minutes: 18,
+      objectives: [
+        "Classify pneumonia by where it was acquired and explain why that changes the organism and the antibiotic.",
+        "Assess severity with CURB-65 and recognise the complications.",
+        "Plan nursing care that clears secretions, supports oxygenation and prevents spread.",
+        "Prevent hospital-acquired and aspiration pneumonia in your own patients.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "Infection of the alveoli",
+          paragraphs: [
+            "Pneumonia is infection of the lung tissue: the alveoli fill with inflammatory fluid and pus (consolidation), so the affected lobe is ventilated poorly but still perfused — a shunt — and the patient becomes hypoxic. It remains a leading cause of death in children under five and in older adults in Ghana, and the commonest reason for an avoidable death after surgery.",
+            "Where it was caught predicts the organism. <strong>Community-acquired</strong> — <em>Streptococcus pneumoniae</em> above all, <em>Haemophilus influenzae</em>, atypicals (<em>Mycoplasma</em>, <em>Legionella</em>), viruses including influenza and COVID-19, and in people with HIV <em>Pneumocystis jirovecii</em> and TB. <strong>Hospital-acquired</strong> (48 hours or more after admission) — Gram-negatives (<em>Klebsiella</em>, <em>Pseudomonas</em>, <em>E. coli</em>) and <em>Staphylococcus aureus</em>, often resistant. <strong>Aspiration</strong> — mixed oral anaerobes after vomiting, reduced consciousness, stroke, seizures, alcohol or a poor swallow, typically in the right lower lobe. <strong>Ventilator-associated</strong> in intensive care.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Classifying by setting — why the address matters",
+          columns: ["Type", "Definition", "Likely organisms", "Empiric direction (local protocol rules)"],
+          rows: [
+            ["<strong>Community-acquired (CAP)</strong>", "Caught at home; the common pneumonia", "Pneumococcus, Haemophilus, atypicals (Mycoplasma, Chlamydophila, Legionella), viruses", "Amoxicillin or co-amoxiclav, adding a macrolide when atypical is suspected or disease is severe"],
+            ["<strong>Hospital-acquired (HAP)</strong>", "Begins 48 hours or more after admission", "Gram-negatives including Klebsiella and Pseudomonas, Staphylococcus including MRSA", "Broad cover per hospital protocol after cultures — never the CAP prescription"],
+            ["<strong>Ventilator-associated (VAP)</strong>", "Pneumonia in a patient ventilated over 48–72 hours", "The HAP organisms, often more resistant with every ventilated day", "Treat per ICU protocol — but the real treatment is the prevention bundle below"],
+            ["<strong>Aspiration pneumonia</strong>", "Following inhaled oropharyngeal contents — stroke, seizures, reflux, tube feeds, alcohol", "Anaerobes plus gram-negatives; chemical pneumonitis if acidic gastric contents", "Co-amoxiclav or clindamycin-based cover plus a swallow workup so it never recurs"],
+          ],
+        },
+        {
+                  type: "diagram",
+                  src: "/diagrams/NG-MCB-2500.svg",
+                  alt: "Gram stain: purple Gram-positive cocci in clusters and chains versus pink Gram-negative rods, with shape-and-arrangement naming",
+                  caption: "Purple clusters (staphylococcus) and chains (streptococcus) against pink rods (E. coli, Klebsiella, Pseudomonas). The Gram-negative outer membrane means endotoxin — the road to septic shock — so report the Gram result the moment it arrives.",
+                },
+        {
+          type: "list",
+          heading: "Presentation and assessment",
+          items: [
+            "Fever, rigors, productive cough (rusty sputum with pneumococcus), pleuritic chest pain, breathlessness, tachypnoea, tachycardia; in older adults often just <strong>confusion, falls or going off food</strong> without fever.",
+            "Signs: reduced expansion, dull percussion, bronchial breathing, coarse crackles and increased vocal fremitus over the consolidated lobe; SpO2 falls.",
+            "Investigations: chest X-ray (consolidation; also look for effusion and cavities), full blood count, urea and electrolytes, CRP, blood cultures and sputum culture <strong>before antibiotics</strong>, HIV test, blood gas if SpO2 is below 92%, TB tests if cough is prolonged or the picture does not fit.",
+            "<strong>CURB-65</strong> scores one point each for <strong>C</strong>onfusion, <strong>U</strong>rea above 7 mmol/L, <strong>R</strong>espiratory rate 30 or more, <strong>B</strong>lood pressure below 90 systolic or 60 diastolic, and age <strong>65</strong> or over: 0–1 may be treated at home, 2 needs admission, 3 or more means severe pneumonia and consideration for high-dependency care. A nurse can calculate CRB-65 without the blood test.",
+            "In children use the IMCI classification: fast breathing = pneumonia (oral amoxicillin); chest indrawing or any danger sign = severe pneumonia (admit, oxygen, injectable antibiotics).",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Treatment and nursing care",
+          items: [
+            "<strong>Antibiotics within the first hour</strong> of diagnosis, per local guidelines: amoxicillin (with a macrolide such as azithromycin if atypical infection is suspected) for mild community-acquired pneumonia; IV ceftriaxone or co-amoxiclav plus a macrolide for severe; broader cover with anti-pseudomonal agents for hospital-acquired; metronidazole added for aspiration; co-trimoxazole in high dose for <em>Pneumocystis</em>. Switch to oral when improving and complete the course (usually 5–7 days).",
+            "<strong>Oxygen</strong> to 94–98% (88–92% if a retainer); upright position, good lung down if unilateral; monitor respiratory rate, SpO2, temperature, blood pressure and consciousness at least four-hourly and more often if CURB-65 is 2 or more.",
+            "<strong>Fluids</strong> — oral if able, IV if septic or not drinking; watch for dehydration from fever and tachypnoea, and for overload in the elderly and in heart failure. Nutrition: small frequent meals.",
+            "<strong>Airway clearance:</strong> hydration, humidified oxygen, deep breathing and coughing with pillow support of the painful side, huffing, incentive spirometry, chest physiotherapy if secretions are retained, early mobilisation.",
+            "<strong>Pain and fever:</strong> paracetamol; pleuritic pain must be controlled or the patient will not breathe deeply; avoid cough suppressants in productive cough.",
+            "<strong>Infection control:</strong> standard precautions; droplet precautions (surgical mask within one metre, single room or cohort) for influenza, COVID-19 and suspected meningococcal disease; airborne precautions if TB is possible. Hand hygiene before and after every contact; cough etiquette; sputum pots covered and disposed of as infectious waste.",
+            "<strong>Watch for complications:</strong> sepsis and septic shock, respiratory failure, parapneumonic effusion and <strong>empyema</strong> (persistent fever, rising CRP, stony dullness — needs drainage), lung abscess, pericarditis, and failure to improve at 48–72 hours, which means the wrong drug, the wrong diagnosis (TB, PE, cancer) or a collection to drain.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "When pneumonia doesn't behave — complications",
+          columns: ["Complication", "Clues", "Action"],
+          rows: [
+            ["<strong>Parapneumonic effusion</strong>", "Fever that will not settle, dullness and reduced breath sounds at the base", "Chest X-ray and ultrasound; diagnostic tap — clear fluid may resolve with antibiotics alone"],
+            ["<strong>Empyema</strong>", "Spiking fever, rigors, pleuritic pain and frank pus on tap", "Chest drain plus antibiotics; fibrinolytics or surgery if the pus loculates"],
+            ["<strong>Lung abscess</strong>", "Foul-smelling sputum, swinging fever, air-fluid level on X-ray — think aspiration and alcohol", "Prolonged antibiotics (weeks), postural drainage, bronchoscopy if an obstructing lesion is suspected"],
+            ["<strong>Bacteraemia and sepsis</strong>", "Rigors, hypotension, confusion, rising lactate after pneumonia onset", "Blood cultures, broad-spectrum antibiotics within the hour, fluids and sepsis monitoring"],
+            ["<strong>ARDS</strong>", "Worsening hypoxia with bilateral shadows despite oxygen — the lungs stiffen everywhere", "ICU, lung-protective ventilation, treat the trigger; fluids balanced against drowning the lungs"],
+            ["<strong>Atelectasis</strong>", "Mucus plugs collapse a lobe — low-grade fever, diminished sounds, shift toward the collapse", "Physiotherapy, deep breathing, suction and bronchoscopy for stubborn plugs"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Prevention — the nurse's part",
+          items: [
+            "Post-operative and immobile patients: sit up, mobilise early, hourly deep breathing and coughing, incentive spirometry, adequate analgesia, hydration.",
+            "Aspiration risk: swallow screen before oral intake after stroke; upright 30–45° for feeding and for 30 minutes afterwards; nasogastric position confirmed by pH before every feed; head of bed at 30° for ventilated and tube-fed patients; oral care with chlorhexidine or toothbrushing at least twice daily; avoid over-sedation; treat vomiting promptly.",
+            "Vaccination: pneumococcal conjugate vaccine and Hib in the EPI schedule; pneumococcal and annual influenza vaccines for older adults, sickle cell disease, HIV, chronic lung, heart and kidney disease and diabetes; measles vaccination prevents measles pneumonia.",
+            "Reduce indoor smoke, encourage exclusive breastfeeding for six months, treat malnutrition and HIV, and give co-trimoxazole prophylaxis to eligible people living with HIV.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Hospital and ventilator bundles — prevention with a checklist",
+          items: [
+            "<strong>Nurse the ventilated patient at 30–45°</strong> unless contraindicated — the single most effective VAP measure — and confirm nasogastric position by pH before every feed.",
+            "<strong>Interrupt sedation daily</strong> and assess readiness to wean and extubate: every extra ventilated day grows resistance. Pair the wake-up with a breathing trial and delirium check.",
+            "<strong>Clean the mouth with chlorhexidine or thorough toothbrushing</strong> at least twice daily and suction subglottic secretions where the tube allows — the oropharynx seeds the lungs.",
+            "<strong>Keep cuff pressure 20–30 cmH2O</strong> — too low aspirates, too high injures the trachea — and change circuits only when soiled or faulty, with strict hand hygiene before every airway touch.",
+            "<strong>Give DVT and stress-ulcer prophylaxis</strong> to every ventilated patient unless contraindicated: stockings or heparin, and acid suppression where the protocol requires it.",
+            "<strong>Prevent HAP on the ward</strong> with everything in the prevention list above plus a bundle mindset — sit up, mobilise from day zero, and treat every hospital day as an infection risk to justify.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "CURB-65 and the first hour",
+          body: "Confusion, Urea above 7, Respiratory rate 30 or more, Blood pressure below 90/60, age 65 or over — score 2 admits, 3 is severe. Cultures first, antibiotics within the hour, oxygen to target, sit up, and make the patient cough.",
+        },
+      ],
+      keyPoints: [
+        "Pneumonia is consolidation of the alveoli; where it was acquired predicts the organism and the antibiotic.",
+        "Older adults may present only with confusion or falls; children are classified by breathing rate and chest indrawing.",
+        "CURB-65 guides severity; cultures before antibiotics, antibiotics within an hour.",
+        "Nursing: oxygen to target, upright, hydration, deep breathing and coughing, pain control, droplet or airborne precautions as indicated.",
+        "Failure to improve by 72 hours means wrong drug, wrong diagnosis or a collection; prevent aspiration with swallow screening, 30° head elevation and oral care.",
+        "CAP, HAP, VAP and aspiration differ in organism and antibiotic: hospital onset means gram-negatives and possible MRSA — culture first, cover broad.",
+        "Fever that will not settle means a collection until proven otherwise: effusion, empyema or abscess need imaging and drainage, not just more antibiotics.",
+      ],
+      quiz: {
+        keywords: ["pneumonia", "consolidation", "curb", "aspiration", "sputum", "crackles", "droplet", "chest infection", "pneumococcal", "deep breathing", "incentive spirom", "fast breathing", "chest indrawing", "hospital acquired", "ventilator associated", "vap", "hap", "empyema", "lung abscess", "ards", "sepsis", "gram stain", "staphylococcus", "pseudomonas"],
+      },
+    },
+    {
+      slug: "tuberculosis",
+      title: "Tuberculosis: find it, treat it, finish it",
+      minutes: 16,
+      objectives: [
+        "Screen for TB using the four symptoms and know who must be screened at every visit.",
+        "Describe diagnosis by GeneXpert, microscopy and chest X-ray, and the standard six-month regimen.",
+        "Monitor for the side effects of each anti-TB drug and support adherence to completion.",
+        "Apply airborne precautions that protect staff and other patients.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "The disease that is found by asking",
+          paragraphs: [
+            "<em>Mycobacterium tuberculosis</em> spreads in airborne droplet nuclei that hang in the air for hours after a cough, sneeze or song in a poorly ventilated room. Most infected people contain it as <strong>latent TB</strong>; about one in ten will develop active disease in their lifetime, far more if they have HIV, diabetes, malnutrition, silicosis, are very young or old, smoke, or take steroids or chemotherapy. Pulmonary TB is the infectious form; TB can also attack lymph nodes, pleura, spine, meninges, kidneys, abdomen and the whole body (miliary).",
+            "Ghana's National TB Programme offers diagnosis and treatment <strong>free of charge</strong>. The nurse's task is to <strong>find</strong> the cases hiding on the ward and in the clinic, <strong>start</strong> treatment the same week, and make sure the patient <strong>finishes</strong> six months of tablets after feeling well at week three.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-IMD-0892.svg",
+          alt: "Tuberculosis: screen for four symptoms, GeneXpert first, two-month intensive phase then four-month continuation phase",
+          caption: "Cough for two weeks or more is the trigger; GeneXpert is the first test; the patient feels well long before the bacilli are dead.",
+        },
+        {
+          type: "list",
+          heading: "Screening and diagnosis",
+          items: [
+            "Ask every patient about the four symptoms: <strong>cough (of any duration in HIV; two weeks or more otherwise), fever, night sweats and weight loss</strong>; add haemoptysis, chest pain, loss of appetite and a TB contact. Screen <strong>every person living with HIV at every visit</strong>, every household contact of a case, prisoners, miners, health workers and people with diabetes.",
+            "<strong>GeneXpert MTB/RIF</strong> on sputum is the first test — it detects TB and rifampicin resistance within two hours. Sputum smear microscopy for acid-fast bacilli (two samples: spot and early morning) and culture where available. Chest X-ray shows upper-lobe infiltrates and cavities, but cannot confirm TB alone. Urine LAM for very ill patients with HIV. Tuberculin skin test and IGRA detect infection, not disease.",
+            "Collect sputum <strong>outdoors or in a well-ventilated space</strong>, never in a closed toilet; rinse the mouth, deep cough, 3–5 mL, sterile pot, label and send the same day. Test every TB patient for HIV and every HIV patient for TB.",
+            "Children: TB is often smear-negative; diagnosis rests on contact history, failure to thrive, prolonged fever and cough, X-ray and gastric aspirates or induced sputum. Give BCG at birth.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-IPC-0060.svg",
+          alt: "The standard new-case TB regimen: two-month intensive phase with rifampicin, isoniazid, pyrazinamide and ethambutol, then four-month continuation with rifampicin and isoniazid",
+          caption: "2HRZE / 4HR — six months, fixed-dose combination tablets, weight-banded, taken daily and supervised.",
+        },
+        {
+          type: "table",
+          heading: "The drugs and what to watch",
+          columns: ["Drug", "Main adverse effects", "Nursing points"],
+          rows: [
+            ["Rifampicin (R)", "Orange-red urine, tears, sweat and contact lenses (harmless — warn the patient); hepatitis; flu-like syndrome; thrombocytopenia", "Powerful enzyme inducer: makes <strong>oral contraceptives</strong>, warfarin, some antiretrovirals (nevirapine, protease inhibitors), steroids and anticonvulsants less effective — advise additional contraception and liaise with the ART clinic (dolutegravir dose is doubled)"],
+            ["Isoniazid (H)", "Peripheral neuropathy (burning feet, numbness), hepatitis, rash, rarely psychosis or seizures", "Give <strong>pyridoxine (vitamin B6) 10–25 mg daily</strong> to prevent neuropathy, especially in HIV, diabetes, pregnancy, malnutrition and alcohol use"],
+            ["Pyrazinamide (Z)", "Hepatitis (the commonest cause of drug-induced liver injury in the regimen), hyperuricaemia and joint pains, rash", "Report jaundice, vomiting or right upper quadrant pain the same day; joint pain usually responds to paracetamol or an NSAID"],
+            ["Ethambutol (E)", "Optic neuritis — reduced visual acuity and <strong>red-green colour blindness</strong>", "Check vision and colour discrimination at baseline and ask at every visit; stop and report any visual change; avoid in young children who cannot report vision"],
+            ["Streptomycin and other injectables (now rarely used; some drug-resistant regimens)", "Ototoxicity (deafness, dizziness), nephrotoxicity, injection-site pain", "Baseline and monthly hearing and renal function; avoid in pregnancy"],
+            ["Drug-resistant TB (bedaquiline, linezolid, levofloxacin, clofazimine…)", "QT prolongation, peripheral neuropathy, anaemia, skin discolouration", "Managed by the programme with ECG and blood monitoring; longer regimens; adherence support is everything"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Treatment and adherence support",
+          items: [
+            "<strong>New cases: 2HRZE/4HR</strong> — two months of four drugs (intensive phase), then four months of rifampicin and isoniazid (continuation), as fixed-dose combination tablets dosed by weight band, taken daily on an empty stomach at the same time. TB meningitis and bone TB are treated for 9–12 months; drug-resistant TB for 6–18 months with different drugs.",
+            "<strong>Directly observed treatment</strong> by a health worker or trained community treatment supporter, with a treatment card, is the programme standard; the nurse identifies the supporter, teaches them, and traces any patient who misses doses within days. Phone reminders, enablers for transport and nutritional support where available.",
+            "<strong>Monitor:</strong> weight monthly (adjust the dose), sputum smear at the end of month 2, month 5 and month 6 to confirm conversion and cure, liver symptoms, vision, neuropathy, and the patient's understanding. Baseline liver function and HIV test; glucose check.",
+            "<strong>Teach:</strong> why six months when you feel well after three weeks (the dormant bacilli die slowly; stopping early breeds resistance that is far harder and longer to treat); orange urine is expected; take the tablets even when nauseated — try at bedtime; no alcohol; report jaundice, visual change, burning feet or rash; contraception while on rifampicin; cover the cough; sleep in a ventilated room and, if smear-positive, apart from infants for the first two weeks; bring household contacts for screening (children under five and people with HIV get isoniazid preventive therapy).",
+            "<strong>TB and HIV:</strong> start antiretroviral therapy within two weeks of starting TB treatment (regardless of CD4), with co-trimoxazole prophylaxis; watch for immune reconstitution syndrome (worsening symptoms after starting ART). TB is the leading cause of death in people living with HIV.",
+            "Nutrition, stigma and poverty are the barriers to cure: a patient who cannot afford transport to collect tablets, or who hides the diagnosis from the family, will default. Ask, and link to social support.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-IPC-0051.svg",
+          alt: "Contact, droplet and airborne precautions, all built on standard precautions for every patient",
+          caption: "TB needs airborne precautions: an N95 respirator on the nurse, a surgical mask on the patient, open windows or negative pressure, and the door closed.",
+        },
+        {
+          type: "list",
+          heading: "Infection control for TB",
+          items: [
+            "<strong>Administrative:</strong> screen and separate coughing patients at triage ('cough corner'), fast-track them, collect sputum outside, and treat promptly — <strong>effective treatment is the most powerful infection-control measure</strong>; a smear-positive patient is usually non-infectious after two weeks of effective therapy.",
+            "<strong>Environmental:</strong> natural ventilation — open windows on opposite walls, fans directing air outwards, nurse TB patients in well-ventilated rooms or outdoors by day; negative-pressure isolation and ultraviolet lights where available; never nurse a suspected TB case in a closed air-conditioned bay.",
+            "<strong>Personal protection:</strong> a fit-checked <strong>N95 or FFP2 respirator</strong> (not a surgical mask) for staff entering the room, especially during sputum induction, suctioning, nebulisation and bronchoscopy; a <strong>surgical mask on the patient</strong> whenever they leave the room; cough etiquette; hand hygiene. Visitors limited and masked; children and pregnant women kept away during the infectious period.",
+            "Health workers: annual symptom screening, know your HIV status, prompt evaluation of any cough of two weeks.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "One side effect per drug",
+          body: "Rifampicin — orange urine and failed contraception. Isoniazid — neuropathy, so give pyridoxine. Pyrazinamide — liver and gout. Ethambutol — eyes. Streptomycin — ears and kidneys. Cough two weeks → GeneXpert. Six months, supervised, free.",
+        },
+      ],
+      keyPoints: [
+        "Screen everyone for cough, fever, night sweats and weight loss; every HIV patient at every visit; GeneXpert is the first test.",
+        "Standard regimen 2HRZE/4HR for six months, weight-banded fixed-dose tablets, directly observed, free under the national programme.",
+        "Rifampicin: orange urine and drug interactions (contraception, ARVs); isoniazid: neuropathy (pyridoxine); pyrazinamide: liver; ethambutol: vision.",
+        "Patients feel well by week three — teach why stopping early breeds resistance; trace missed doses within days.",
+        "Airborne precautions: N95 on the nurse, surgical mask on the patient, ventilation, sputum collected outdoors; effective treatment ends infectiousness within about two weeks.",
+      ],
+      quiz: {
+        keywords: ["tuberculosis", "isoniazid", "rifampicin", "ethambutol", "pyrazinamide", "sputum", "acid fast", "genexpert", "airborne", "n95", "pyridoxine", "directly observed", "night sweats", "bcg", "haemoptysis"],
+      },
+    },
+    {
+      slug: "pleural-disorders-and-chest-drains",
+      title: "Pleural effusion, empyema and chest drain care",
+      minutes: 14,
+      objectives: [
+        "Differentiate transudate and exudate effusions and recognise effusion and empyema at the bedside.",
+        "Assist safely with thoracentesis and chest drain insertion.",
+        "Interpret swinging and bubbling in an underwater seal drain and troubleshoot problems.",
+        "Manage accidental disconnection or dislodgement and assist with removal.",
+      ],
+      blocks: [
+        {
+          type: "list",
+          heading: "Fluid, pus, blood or air in the pleural space",
+          items: [
+            "<strong>Pleural effusion</strong> — fluid between the pleural layers compresses the lung. <strong>Transudates</strong> (low protein) come from pressure or low albumin: heart failure (usually bilateral), nephrotic syndrome, liver cirrhosis, malnutrition. <strong>Exudates</strong> (high protein, from inflamed or leaking pleura) come from pneumonia, <strong>TB</strong> (the commonest exudate in Ghana), cancer, pulmonary embolism, pancreatitis and autoimmune disease.",
+            "<strong>Empyema</strong> is pus in the pleural space, usually complicating pneumonia or TB: persistent swinging fever, rising inflammatory markers, chest pain and toxicity; it must be drained, usually with a chest drain and sometimes surgery, plus prolonged antibiotics.",
+            "<strong>Haemothorax</strong> after chest trauma or surgery; <strong>chylothorax</strong> (milky lymph) after thoracic surgery or lymphoma; <strong>pneumothorax</strong> (air) is covered in Module 6.",
+            "<strong>Findings:</strong> breathlessness in proportion to the volume, pleuritic pain early, dry cough, reduced expansion, <strong>stony dull percussion</strong>, absent breath sounds and reduced vocal fremitus at the base, trachea pushed away if massive. Chest X-ray shows blunting of the costophrenic angle (about 200 mL or more) or a dense white-out; ultrasound is the best guide for drainage.",
+          ],
+        },
+        {
+          type: "list",
+          heading: "Thoracentesis (pleural tap) — the nurse's role",
+          items: [
+            "Consent, explain, check clotting and platelets, and the chest X-ray or ultrasound mark. Position the patient <strong>sitting upright, leaning forward over a bed table with arms on a pillow</strong> so the fluid pools posteriorly and the ribs separate.",
+            "Aseptic trolley; local anaesthetic; the needle enters just <strong>above the rib</strong> to avoid the neurovascular bundle beneath it. Ask the patient not to cough or move during the procedure, and to say if they feel faint, dizzy or pain in the shoulder.",
+            "Label samples for protein, LDH, glucose, pH, cell count, Gram stain and culture, acid-fast bacilli or GeneXpert, and cytology. Do not drain more than about 1–1.5 L at one sitting — re-expansion pulmonary oedema and hypotension.",
+            "Afterwards: observations every 15 minutes for the first hour, watch for breathlessness, cough, chest pain, hypotension or a falling saturation (pneumothorax, bleeding, oedema), check the dressing, and a chest X-ray if symptomatic or as ordered.",
+          ],
+        },
+        {
+          type: "diagram",
+          src: "/diagrams/NG-SGY-0738.svg",
+          alt: "Underwater seal chest drainage: the tube tip sits 2 cm under sterile water so air leaves the chest and nothing returns, with the nurse's checks for swinging and bubbling",
+          caption: "The water is a one-way valve. Swinging means patent; bubbling means air is leaving; no swinging means blocked, kinked or a lung that has re-expanded.",
+        },
+        {
+          type: "table",
+          heading: "Reading the drain",
+          columns: ["Observation", "What it means", "Action"],
+          rows: [
+            ["Water level swings (tidals) up on inspiration and down on expiration", "Tube is patent and in the pleural space", "Normal — record it"],
+            ["Swinging has stopped", "Blocked or kinked tube, dependent loop full of fluid, or the lung has fully re-expanded", "Check the tubing from chest to bottle, straighten kinks, lift loops to drain, ask the patient to cough and breathe deeply; do not strip or milk the tubing routinely (it creates dangerous negative pressure); if still absent, inform the doctor — may need a chest X-ray"],
+            ["Bubbling only on coughing or expiration", "Air still leaving a pneumothorax — expected early", "Record and monitor; it should lessen over days"],
+            ["Continuous vigorous bubbling", "Air leak — in the system (loose connection, drain hole outside the chest) or a large bronchopleural leak", "Check every connection and the insertion site; briefly clamp close to the chest only if trained and permitted to localise the leak; inform the doctor"],
+            ["No bubbling in a patient who had a pneumothorax", "Leak has sealed, or the tube is blocked", "Correlate with swinging and symptoms; X-ray"],
+            ["Bright red blood more than 100–200 mL/hour, or a sudden large drainage", "Haemorrhage", "Inform the doctor immediately; observations; prepare for blood and theatre"],
+            ["Patient suddenly breathless, chest pain, tachycardia, trachea shifting, subcutaneous emphysema spreading", "Tension pneumothorax (clamped or blocked drain), drain displaced, or re-expansion oedema", "Unclamp any clamp, sit up, high-flow oxygen, call for help urgently"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Caring for the patient with a chest drain",
+          items: [
+            "Keep the bottle <strong>upright and below the level of the chest</strong> at all times, on the floor or in a stand — lifting it above the chest siphons fluid back into the pleura. Keep the water level 2 cm above the tube tip and top up with sterile water if it evaporates. Secure the tubing with no dependent loops, and the drain with sutures and a firm dressing.",
+            "<strong>Two clamps and spare sterile water at the bedside</strong>, but <strong>never clamp a bubbling drain</strong> — the air has nowhere to go and a tension pneumothorax builds. Clamp only briefly when changing the bottle, when ordered before removal as a trial, or when a bottle is accidentally knocked over and the seal is lost, and release at once if the patient becomes breathless.",
+            "Mark the fluid level on the bottle with the date and time every shift and more often if draining heavily; record volume, colour and consistency and the presence of swinging and bubbling on the chart. Suction, if prescribed, is low pressure (−10 to −20 cmH2O) and the suction chamber should bubble gently, not boil.",
+            "Observations: respiratory rate, SpO2, pulse, blood pressure and pain, four-hourly or more often; inspect the insertion site for infection, bleeding and subcutaneous emphysema (crackling under the skin); keep the dressing dry and intact.",
+            "<strong>Pain relief</strong> before physiotherapy and movement; encourage deep breathing, coughing, incentive spirometry and shoulder exercises on the affected side to re-expand the lung and prevent a frozen shoulder; sit up and mobilise with the bottle carried below chest level.",
+            "<strong>If the tubing disconnects:</strong> immediately reconnect with a clean connector or place the chest end of the tube in a bottle of sterile water below the chest; replace the system; inform the doctor; X-ray. <strong>If the drain falls out:</strong> cover the wound immediately with a sterile occlusive dressing taped on three sides (so air can leave but not enter) or a gloved hand, stay with the patient, call for help, observe for tension pneumothorax.",
+            "<strong>Removal</strong> when drainage is minimal, bubbling has stopped and the X-ray shows re-expansion: give analgesia 30 minutes before; two people — one removes while the other ties the purse-string or applies the occlusive dressing; the patient takes a deep breath and holds it or performs a Valsalva (bears down) at the moment of removal to prevent air being sucked in; occlusive dressing for 48 hours; X-ray afterwards; observe for recurrence.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "Chest-drain rules in one breath",
+          body: "Bottle below the chest, tube tip 2 cm under water, no loops, no routine clamping, never clamp a bubbling drain, two clamps at the bedside, swinging = patent, continuous bubbling = leak, tube out = occlusive dressing taped on three sides, remove at the end of a held deep breath.",
+        },
+      ],
+      keyPoints: [
+        "Effusions are transudates (heart failure, low albumin) or exudates (pneumonia, TB, cancer); stony dullness and absent breath sounds at the base.",
+        "For a pleural tap the patient sits forward over a table; the needle passes above the rib; drain no more than 1–1.5 L at once.",
+        "Underwater seal: bottle below the chest, swinging means patent, bubbling means air leaving; never clamp a bubbling drain.",
+        "Disconnected tube — reconnect or immerse in sterile water; drain out — occlusive dressing taped on three sides; sudden breathlessness — think tension pneumothorax.",
+        "Pain control, deep breathing and shoulder exercises re-expand the lung; remove at the end of a held breath with an airtight dressing.",
+      ],
+      quiz: {
+        keywords: ["pleural effusion", "chest drain", "chest tube", "underwater seal", "water seal", "thoracentesis", "pleural tap", "empyema", "pleur", "bubbling", "swinging", "clamp", "stony dull", "occlusive dressing"],
+      },
+    },
+    {
+      slug: "lung-cancer",
+      title: "Lung cancer",
+      minutes: 16,
+      objectives: [
+        "Recognise the red-flag presentation of lung cancer and distinguish it from tuberculosis and pneumonia.",
+        "Compare small-cell and non-small-cell lung cancer and explain paraneoplastic syndromes.",
+        "Respond to the emergencies of lung cancer: SVC obstruction, massive haemoptysis, airway obstruction, hypercalcaemia and cord compression.",
+        "Plan nursing care across treatment and palliative stages, including smoking cessation and breathlessness management.",
+      ],
+      blocks: [
+        {
+          type: "text",
+          heading: "The malignancy that mimics infection",
+          paragraphs: [
+            "In Ghana lung cancer is found late — and often after two courses of TB treatment for a cough that was never tuberculosis. Any adult with a persistent cough, weight loss and an abnormal chest X-ray deserves the question asked early: could this be malignancy? Smoking is the dominant cause worldwide and rising among Ghanaian men, but biomass cooking smoke, occupational dusts, asbestos and old TB scarring all contribute — and a never-smoker with a persistent shadow is not exempt.",
+            "Diagnosis starts with the chest X-ray — a nodule, a mass, a non-resolving consolidation, an effusion — and is confirmed by CT and tissue: sputum cytology, bronchoscopy, or CT-guided biopsy. Histology divides everything that follows into two families, because small-cell and non-small-cell cancers behave, spread and respond so differently that they are treated as different diseases.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Small-cell versus non-small-cell",
+          columns: ["Feature", "Small-cell (SCLC)", "Non-small-cell (NSCLC)"],
+          rows: [
+            ["Share and origin", "About 15% — central, from neuroendocrine cells, almost always smokers", "About 85% — adenocarcinoma (outer lung, many never-smokers), squamous (central, smokers), large-cell"],
+            ["Growth and spread", "Doubling in weeks; metastasised at diagnosis in most — brain, liver, bone, adrenals", "Slower; surgery can cure early localised disease"],
+            ["Paraneoplastic syndromes", "SIADH (low sodium, confusion), ectopic ACTH (Cushing picture), Lambert-Eaton muscle weakness", "Hypercalcaemia from PTH-related protein, clubbing and hypertrophic osteoarthropathy, Trousseau clots"],
+            ["Treatment direction", "Chemotherapy plus radiotherapy — responds fast, relapses fast; surgery rarely", "Surgery for early stage, radiotherapy, chemotherapy, targeted drugs and immunotherapy by mutation"],
+            ["What the nurse watches", "Sodium, confusion, weakness climbing stairs; brain-metastasis signs", "Calcium, weight, pain pattern, breath sounds; molecular-test results that open new drugs"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Red flags and assessment",
+          items: [
+            "<strong>Cough beyond three weeks</strong> that changes character or survives antibiotics, especially with weight loss and loss of appetite — the classic trio.",
+            "<strong>Haemoptysis:</strong> blood-streaked sputum is ominous; frank bleeding is an emergency (see below). Ask amount, frequency and clots.",
+            "<strong>Clubbing, hoarseness and stridor:</strong> finger clubbing (lung cancer until proven otherwise), a husky voice from recurrent laryngeal nerve palsy, wheeze or stridor from airway compression.",
+            "<strong>Pancoast clues:</strong> shoulder or arm pain with drooping eyelid and small pupil (Horner syndrome) from an apical tumour invading nerves and vessels.",
+            "<strong>Superior vena cava obstruction:</strong> swollen face, neck and arms with engorged chest veins, worse lying flat, with headache and breathlessness — the emergency callout below.",
+            "<strong>Spread review:</strong> bone pain, new headache or weakness, liver fullness, supraclavicular nodes — examine the neck, chest, bones and brain in every new case.",
+          ],
+        },
+        {
+          type: "table",
+          heading: "Emergencies in lung cancer",
+          columns: ["Emergency", "Clues", "Immediate nursing actions"],
+          rows: [
+            ["<strong>Superior vena cava obstruction</strong>", "Face, neck and arm swelling, distended chest veins, stridor, confusion — worse flat", "Sit upright, oxygen, IV access in a leg vein, urgent oncology or radiotherapy referral; steroids and anticoagulation per protocol; never lie flat for procedures"],
+            ["<strong>Massive haemoptysis</strong>", "More than 100–200 mL of blood, or any bleed with breathlessness or shock", "Position bleeding-side down if known, oxygen, large-bore IVs, cross-match, nil by mouth, urgent bronchoscopy or embolisation call — death comes from drowning, not blood loss"],
+            ["<strong>Airway obstruction and stridor</strong>", "Noisy breathing, use of accessory muscles, panic", "Sit up, oxygen, nebulised adrenaline per protocol, urgent anaesthetic or ENT call for stenting or debulking — keep nil by mouth"],
+            ["<strong>Hypercalcaemia</strong>", "Thirst, polyuria, constipation, confusion, shortened QT — bones, stones, groans and psychic moans", "IV fluids (litres unless overloaded), recheck calcium, bisphosphonate per protocol, mobilise, stop thiazides and lithium"],
+            ["<strong>Spinal cord compression</strong>", "Back pain with leg weakness, numbness or bladder change — hours matter", "Lie flat with log-rolling only, high-dose steroids immediately per protocol, emergency MRI and neurosurgical or orthopaedic call — never wait for morning"],
+          ],
+        },
+        {
+          type: "list",
+          heading: "Treatment and nursing care",
+          items: [
+            "<strong>Know the plan and its toxicities:</strong> surgery (lobectomy — chest drain, pain, sputum retention); radiotherapy (oesophagitis, skin, fatigue); chemotherapy (nausea, marrow suppression, neuropathy); targeted and immunotherapy (rash, diarrhoea, pneumonitis). Teach the red-flag symptoms of each before the patient goes home.",
+            "<strong>Manage breathlessness actively:</strong> positioning, fan-to-face airflow, pacing, low-dose opioids for refractory dyspnoea, oxygen only if hypoxic, drain malignant effusions — breathlessness is suffered, not measured, so believe the score the patient gives.",
+            "<strong>Help them stop smoking now:</strong> cessation after diagnosis improves treatment response, wound healing and survival. Brief advice, nicotine replacement and follow-up at every contact — the idea that it is too late is the lie that kills.",
+            "<strong>Feed, relieve pain and protect against clots:</strong> small frequent high-protein meals, early dietitian review; WHO-ladder pain control with laxatives alongside opioids; VTE awareness — lung cancer clots, so mobilise and report leg swelling or sudden breathlessness.",
+            "<strong>Start palliative care at diagnosis, not at the end:</strong> symptom control, honest conversation about goals, advance planning, family support and hospice links run alongside curative treatment — early palliative care improves both quality and length of life.",
+          ],
+        },
+        {
+          type: "callout",
+          tone: "exam",
+          title: "SVC obstruction in one picture",
+          body: "Swollen face and arms with bulging chest veins, worse lying flat, in a lung cancer patient — sit them up, give oxygen, cannulate a leg, and call oncology urgently. It is the commonest oncological emergency you will meet on a medical ward.",
+        },
+      ],
+      keyPoints: [
+        "A cough beyond three weeks with weight loss is lung cancer until proven otherwise — never a third course of TB drugs without tissue or CT.",
+        "Small-cell grows in weeks and secretes hormones (SIADH, ACTH); non-small-cell grows slower and causes hypercalcaemia and clubbing.",
+        "SVC obstruction, massive haemoptysis, stridor, hypercalcaemia and cord compression are emergencies with drills — sit up, oxygenate, escalate.",
+        "Treat breathlessness, pain, clots and malnutrition actively; smoking cessation after diagnosis still improves survival.",
+        "Palliative care starts at diagnosis and runs alongside treatment — it lengthens life as well as easing it.",
+      ],
+      quiz: {
+        keywords: ["lung cancer", "bronchogenic", "small cell", "non small cell", "haemoptysis", "clubbing", "finger clubbing", "superior vena cava", "svc obstruction", "paraneoplastic", "smoking", "smoking cessation", "chest x ray", "solitary nodule", "pleural effusion", "cough", "breathlessness", "weight loss", "hoarseness", "stridor", "pancoast", "mesothelioma", "asbestos", "copd", "pneumonia"],
+      },
+    }
+  ],
+};

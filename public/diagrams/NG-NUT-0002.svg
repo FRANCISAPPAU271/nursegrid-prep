@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Micronutrients + the balanced plate</text>
+<g font-size="8" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="132" height="88" rx="6" fill="#ffedd5" stroke="#c2410c" stroke-width="1.5"/>
+<text x="86" y="55" font-weight="bold" font-size="9">VITAMIN A</text>
+<text x="86" y="68" font-size="8">vision + immune + skin</text>
+<text x="86" y="79" font-size="8">mango, pawpaw, palm oil,</text>
+<text x="86" y="90" font-size="8">orange sweet potato, liver</text>
+<text x="86" y="103" font-size="8" fill="#b91c1c">lack: night blindness,</text>
+<text x="86" y="114" font-size="8" fill="#b91c1c">xerosis, infections</text>
+<rect x="164" y="36" width="132" height="88" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="230" y="55" font-weight="bold" font-size="9">IRON + FOLATE + B12</text>
+<text x="230" y="68" font-size="8">blood makers</text>
+<text x="230" y="79" font-size="8">liver, beans, kontomire,</text>
+<text x="230" y="90" font-size="8">+ vitamin C to absorb!</text>
+<text x="230" y="103" font-size="8" fill="#b91c1c">lack: anaemia, fatigue,</text>
+<text x="230" y="114" font-size="8" fill="#b91c1c">NTDs (folate)</text>
+<rect x="308" y="36" width="132" height="88" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="374" y="55" font-weight="bold" font-size="9">CALCIUM + D</text>
+<text x="374" y="68" font-size="8">bones + teeth + muscle</text>
+<text x="374" y="79" font-size="8">milk, small fish (bones),</text>
+<text x="374" y="90" font-size="8">kontomire + SUNLIGHT</text>
+<text x="374" y="103" font-size="8" fill="#b91c1c">lack: rickets, fractures,</text>
+<text x="374" y="114" font-size="8" fill="#b91c1c">tetany</text>
+<rect x="20" y="132" width="132" height="80" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="86" y="151" font-weight="bold" font-size="9">IODINE + ZINC</text>
+<text x="86" y="164" font-size="8">thyroid + growth + heal</text>
+<text x="86" y="175" font-size="8">IODISED salt, seafood,</text>
+<text x="86" y="186" font-size="8">meat, beans, nuts</text>
+<text x="86" y="199" font-size="8" fill="#b91c1c">lack: goitre, cretinism,</text>
+<text x="86" y="208" font-size="8" fill="#b91c1c">slow healing</text>
+<rect x="164" y="132" width="132" height="80" rx="6" fill="#f3e8ff" stroke="#7e22ce" stroke-width="1.5"/>
+<text x="230" y="151" font-weight="bold" font-size="9">VITAMIN C + Bs</text>
+<text x="230" y="164" font-size="8">immune + iron + nerves</text>
+<text x="230" y="175" font-size="8">citrus, pineapple, veg,</text>
+<text x="230" y="186" font-size="8">whole grains, meat</text>
+<text x="230" y="199" font-size="8" fill="#b91c1c">lack: scurvy, beriberi,</text>
+<text x="230" y="208" font-size="8" fill="#b91c1c">pellagra, neuritis</text>
+<rect x="308" y="132" width="132" height="80" rx="6" fill="#e0f2fe" stroke="#0369a1" stroke-width="1.5"/>
+<text x="374" y="151" font-weight="bold" font-size="9">THE PLATE</text>
+<text x="374" y="164" font-size="8">½ veg/fruit + ¼ carbs</text>
+<text x="374" y="175" font-size="8">+ ¼ protein + water;</text>
+<text x="374" y="186" font-size="8">oil/salt restrained,</text>
+<text x="374" y="199" font-size="8" fill="#065f46">colour = vitamins!</text>
+<text x="374" y="208" font-size="8" fill="#065f46">"eat rainbow"</text>
+</g>
+<rect x="0" y="224" width="460" height="266" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="246" font-weight="bold">ABSORPTION TRICKS: iron + vitamin C ( Beans + orange); iron AWAY from tea/coffee</text>
+<text x="20" y="260">(tannins block — 2 h gap); calcium + D + sunlight; fat WITH A/D/E/K (oil in stew carries</text>
+<text x="20" y="274">them); B12 needs animal foods (vegans + elders + PPI-users supplement).</text>
+<text x="20" y="294">DEFICIENCY SPOTTING (nurse's eye): pale conjunctiva/tongue (anaemia) · night blindness +</text>
+<text x="20" y="308">Bitot spots (A) · bowed legs/wrist widening (D/rickets) · goitre (iodine) · bleeding gums +</text>
+<text x="20" y="322">corkscrew hairs (C) · glossitis + cracks (B2/B6/B12) · poor healing + hair loss (zinc/protein) ·</text>
+<text x="20" y="336">oedema + flaky paint skin + red hair (kwashiorkor — M05) · wasted limbs (marasmus — M05).</text>
+<text x="20" y="356">SUPPLEMENTS (route + counsel): iron+folate pregnancy · vitamin A campaigns (6–59 mo) ·</text>
+<text x="20" y="370">iodised salt ALWAYS · zinc + ORS diarrhoea · B12 elders/vegans · calcium/D where diet poor —</text>
+<text x="20" y="384">teach (dose, timing, side effects: iron dark stools/constipation + take with C, away from</text>
+<text x="20" y="398">tea) + adherence + document (PRO-I M5). Food FIRST, pills fill gaps — never replace meals.</text>
+<text x="20" y="418">MEAL PLANNING: 3 meals + 1–2 snacks; protein + veg EVERY meal; whole carbs; water default;</text>
+<text x="20" y="432">market-list by season (cheap + fresh); cook once, eat twice (leftovers safe — M06); festive</text>
+<text x="20" y="446">foods enjoyed, not daily. "Eat rainbow, drink water, move daily" — counsel it everywhere:</text>
+<text x="20" y="460">ANC, OPD, wards, CHPS, schools, churches, markets.</text>
+<text x="20" y="476">Exam line: \"colour carries vitamins, C carries iron, sun carries D — food first, pills fill gaps.\"</text>
+</g>
+</svg>

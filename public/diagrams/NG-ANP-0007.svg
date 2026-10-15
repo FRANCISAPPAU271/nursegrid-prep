@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 500" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="500" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Intramuscular sites: landmarks, not guesses</text>
+<!-- deltoid -->
+<text x="20" y="52" font-size="12" font-weight="bold" fill="#111827">A — Deltoid (arm)</text>
+<rect x="40" y="62" width="90" height="150" rx="30" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+<line x1="40" y1="86" x2="130" y2="86" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="134" y="89" font-size="9" fill="#6b7280">acromion</text>
+<path d="M55,110 L115,110 L85,160 Z" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<circle cx="85" cy="130" r="5" fill="#b91c1c"/>
+<text x="20" y="230" font-size="9" fill="#374151">3 fingerbreadths below</text>
+<text x="20" y="242" font-size="9" fill="#374151">the acromion, into the</text>
+<text x="20" y="254" font-size="9" fill="#374151">triangle. Max ~1 mL.</text>
+<!-- vastus -->
+<text x="180" y="52" font-size="12" font-weight="bold" fill="#111827">B — Vastus lateralis (thigh)</text>
+<rect x="200" y="62" width="90" height="150" rx="20" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+<line x1="200" y1="112" x2="290" y2="112" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 3"/>
+<line x1="200" y1="162" x2="290" y2="162" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 3"/>
+<rect x="200" y="112" width="90" height="50" fill="#dbeafe" opacity="0.7"/>
+<circle cx="245" cy="137" r="5" fill="#1d4ed8"/>
+<text x="292" y="116" font-size="9" fill="#6b7280">hand above</text>
+<text x="292" y="128" font-size="9" fill="#6b7280">the knee</text>
+<text x="292" y="164" font-size="9" fill="#6b7280">hand below</text>
+<text x="292" y="176" font-size="9" fill="#6b7280">gr. trochanter</text>
+<text x="180" y="230" font-size="9" fill="#374151">Middle third, outer thigh.</text>
+<text x="180" y="242" font-size="9" fill="#374151">Infant site. 1–3 mL adult.</text>
+<!-- ventrogluteal -->
+<text x="20" y="286" font-size="12" font-weight="bold" fill="#111827">C — Ventrogluteal (hip): the adult site of choice</text>
+<ellipse cx="110" cy="360" rx="80" ry="52" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+<circle cx="60" cy="330" r="4" fill="#6b7280"/>
+<text x="30" y="318" font-size="9" fill="#6b7280">ASIS</text>
+<circle cx="160" cy="392" r="4" fill="#6b7280"/>
+<text x="150" y="410" font-size="9" fill="#6b7280">gr. trochanter</text>
+<path d="M60,330 L110,345 L160,392" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+<circle cx="112" cy="362" r="6" fill="#b91c1c"/>
+<text x="200" y="330" font-size="10" fill="#111827">Heel of hand on the greater</text>
+<text x="200" y="344" font-size="10" fill="#111827">trochanter, index toward the ASIS,</text>
+<text x="200" y="358" font-size="10" fill="#111827">middle fanned back — inject the</text>
+<text x="200" y="372" font-size="10" fill="#111827">centre of the <tspan font-weight="bold">V</tspan>. 1–3 mL adult.</text>
+<text x="200" y="392" font-size="10" fill="#b91c1c">Dorsogluteal (upper-outer</text>
+<text x="200" y="406" font-size="10" fill="#b91c1c">buttock) is retired: the sciatic</text>
+<text x="200" y="420" font-size="10" fill="#b91c1c">nerve and gluteal artery live there.</text>
+<rect x="0" y="440" width="460" height="60" fill="#f1f5f9"/>
+<text x="20" y="462" font-size="10" fill="#111827">Landmark every injection, every time — muscle hides nerves and vessels you cannot see.</text>
+<text x="20" y="476" font-size="10" fill="#111827">90° to the skin, aspirate per policy, and never inject through infection or a lesion.</text>
+</svg>

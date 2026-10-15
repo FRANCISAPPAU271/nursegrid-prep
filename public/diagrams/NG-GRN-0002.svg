@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Healthy ageing: pillars + screening</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="132" height="78" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="86" y="56" font-weight="bold" font-size="10">HEALTH</text>
+<text x="86" y="70" font-size="8">move 150 min/wk,</text>
+<text x="86" y="81" font-size="8">eat colourful, sleep,</text>
+<text x="86" y="92" font-size="8">no smoke, little</text>
+<text x="86" y="103" font-size="8">alcohol, vaccinate</text>
+<rect x="164" y="36" width="132" height="78" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="230" y="56" font-weight="bold" font-size="10">PARTICIPATION</text>
+<text x="230" y="70" font-size="8">family, worship,</text>
+<text x="230" y="81" font-size="8">work welcomed,</text>
+<text x="230" y="92" font-size="8">vote, volunteer,</text>
+<text x="230" y="103" font-size="8">grandparent loud</text>
+<rect x="308" y="36" width="132" height="78" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="374" y="56" font-weight="bold" font-size="10">SECURITY</text>
+<text x="374" y="70" font-size="8">income/pension,</text>
+<text x="374" y="81" font-size="8">safe home, NHIS</text>
+<text x="374" y="92" font-size="8">active, abuse-free,</text>
+<text x="374" y="103" font-size="8">will written</text>
+</g>
+<text x="20" y="136" font-size="12" font-weight="bold" fill="#111827">SCREENING SCHEDULE (60+, yearly unless stated)</text>
+<g font-size="10" fill="#111827">
+<text x="30" y="154">BP + weight + glucose/HbA1c · lipids · vision (cataract/glaucoma) · hearing · dental ·</text>
+<text x="30" y="170">feet (diabetics each visit) · cognition + mood (M02 tools) · falls + frailty review ·</text>
+<text x="30" y="186">prostate/breast/cervical per protocol · TB screen if cough · meds review (M04).</text>
+<text x="30" y="202">VACCINES: influenza yearly · pneumococcal · COVID boosters · tetanus boosters ·</text>
+<text x="30" y="218">hepatitis B if at risk — chart + recall; consent + explain (PRO-I M2/M4).</text>
+</g>
+<rect x="0" y="230" width="460" height="260" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="252" font-weight="bold">LIFESTYLE PRESCRIPTIONS (write them like drugs): WALK (brisk 30 min × 5 — with</text>
+<text x="20" y="266">friend/stick where needed) + STRENGTH (bands/weights 2×/wk — sarcopenia reverses!) +</text>
+<text x="20" y="280">BALANCE (heel-toe, one-leg holds — falls halve) + PLATE (protein each meal, calcium + D,</text>
+<text x="20" y="294">5 veg/fruit, salt-smart, fluids 1.5–2 L unless restricted) + SLEEP (routine, daylight, less</text>
+<text x="20" y="308">caffeine/naps — hypnotics last resort, M04) + BRAIN (read, worship, games, grandkids' homework)</text>
+<text x="20" y="322">+ TEETH (brush + dentures fitted + yearly dentist — chewing = nutrition).</text>
+<text x="20" y="342" font-weight="bold">AGEISM (the nurse's bias check): NEVER \"too old for…\" (surgery, rehab, hearing aids,</text>
+<text x="20" y="356">romance, learning) — assess fitness not age; NEVER elderspeak (\"sweetie/sit down dear\" —</text>
+<text x="20" y="370">patronising, disempowering); ALWAYS address + explain + consent directly (not via the</text>
+<text x="20" y="384">\"responsible\" child — autonomy survives grey hair, PRO-I M2/M4); ALWAYS ask goals (\"what</text>
+<text x="20" y="398">matters to YOU this year?\" — farming? wedding? independence? — care aims there).</text>
+<text x="20" y="418">CHPS + OPD role: keep registers, recall defaulters, vaccinate outreaches, screen markets/</text>
+<text x="20" y="432">mosques/churches, teach families (M05) — prevention creates the healthy 80-year-olds</text>
+<text x="20" y="446">who teach YOU tomorrow. Document promotion given (PRO-I M5: unrecorded = untaught).</text>
+<text x="20" y="466">Exam line: \"health + participation + security — screen yearly, prescribe lifestyle, ban ageism.\"</text>
+</g>
+</svg>

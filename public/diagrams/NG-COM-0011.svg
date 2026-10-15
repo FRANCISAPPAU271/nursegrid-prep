@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">SBAR: handover that saves lives</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="96" height="60" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="68" y="56" font-weight="bold" font-size="10">S</text>
+<text x="68" y="69" font-size="8">SITUATION</text>
+<text x="68" y="80" font-size="8">"Kofi, 4, shock?"</text>
+<rect x="124" y="36" width="96" height="60" rx="6" fill="#ffedd5" stroke="#c2410c" stroke-width="1.5"/>
+<text x="172" y="56" font-weight="bold" font-size="10">B</text>
+<text x="172" y="69" font-size="8">BACKGROUND</text>
+<text x="172" y="80" font-size="8">"diarrhoea, day 2"</text>
+<rect x="228" y="36" width="96" height="60" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="276" y="56" font-weight="bold" font-size="10">A</text>
+<text x="276" y="69" font-size="8">ASSESSMENT</text>
+<text x="276" y="80" font-size="8">"weak pulse…"</text>
+<rect x="332" y="36" width="108" height="60" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="386" y="56" font-weight="bold" font-size="10">R</text>
+<text x="386" y="69" font-size="8">RECOMMEND.</text>
+<text x="386" y="80" font-size="8">"come + IV now!"</text>
+</g>
+<rect x="0" y="106" width="460" height="384" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="128" font-weight="bold">SBAR (exam pure!): Situation (who + what's wrong NOW!) · Background (admission +</text>
+<text x="20" y="142">course!) · Assessment (YOUR findings + worry!) · Recommendation (what you NEED!). 60</text>
+<text x="20" y="156">seconds, spoken + read-back. ISBAR adds I (Identify: "Ama, RN, ward B"!).</text>
+<text x="20" y="176">READ-BACK (closed loop!): every order + critical value repeated ("insulin 8 units —</text>
+<text x="20" y="190">confirm?") + confirmed ("confirmed!"). No read-back = open loop = error hunting ground.</text>
+<text x="20" y="210">BEDSIDE HANDOVER: at the bed + patient included ("anything to add, Maame?") + charts +</text>
+<text x="20" y="224">pumps checked TOGETHER. Catches errors (wrong fluids! missed doses!), builds trust, teaches</text>
+<text x="20" y="238">juniors. Sensitive news aside first — dignity before process.</text>
+<text x="20" y="258">STRUCTURED TOOLS: written handover sheets (same headings every shift!) · EHR summaries ·</text>
+<text x="20" y="272">whiteboards (allergies! falls! NPO!) · safety huddles (5-min start-of-shift: "who's sickest?</text>
+<text x="20" y="286">what's pending?"). Memory-only handover = malpractice invitation.</text>
+<text x="20" y="306">ESCALATION (CUS!): "I'm CONCERNED… I'm UNCOMFORTABLE… this is a SAFETY issue!" — rising</text>
+<text x="20" y="320">assertiveness + chain of command (senior → doctor → matron → medical director). Silence</text>
+<text x="20" y="334">kills: unvoiced worry is unwitnessed harm (PRO-I compass!). Document escalations.</text>
+<text x="20" y="354">INTERPROFESSIONAL: first names + roles + respect ("doctor, 60 seconds?") · pharmacist/</text>
+<text x="20" y="368">physio/dietician consulted EARLY · ward rounds: nurse presents (you know MOST!) · disagree</text>
+<text x="20" y="382">privately, unite publicly. Hierarchy never outranks safety.</text>
+<text x="20" y="402">PHONE SBAR: identify + SBAR + read-back + "when will you come? what meanwhile?" + NAME</text>
+<text x="20" y="416">taken + documented. Night calls concise: situation FIRST, never story-first.</text>
+<text x="20" y="436">LINKS: INF M02 downtime/handover · PRO-I M5/M6 · GER M6 · NUT M6 referrals.</text>
+<text x="20" y="456">MANTRA: "SBAR it, read it back, bedside it, escalate it."</text>
+</g>
+</svg>

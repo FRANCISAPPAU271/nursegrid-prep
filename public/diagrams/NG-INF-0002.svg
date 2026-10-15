@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Ghana's digital health: your data's journey</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="130" height="66" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="85" y="56" font-weight="bold" font-size="10">WARD / OPD</text>
+<text x="85" y="69" font-size="8">LHIMS / HIMS</text>
+<text x="85" y="80" font-size="8">orders, vitals,</text>
+<text x="85" y="91" font-size="8">notes, bills</text>
+<rect x="165" y="36" width="130" height="66" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="230" y="56" font-weight="bold" font-size="10">COMMUNITY</text>
+<text x="230" y="69" font-size="8">eTracker + mHealth</text>
+<text x="230" y="80" font-size="8">CWC, ANC, SMS</text>
+<text x="230" y="91" font-size="8">reminders</text>
+<rect x="310" y="36" width="130" height="66" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="375" y="56" font-weight="bold" font-size="10">DISTRICT</text>
+<text x="375" y="69" font-size="8">DHIMS2</text>
+<text x="375" y="80" font-size="8">monthly tallies,</text>
+<text x="375" y="91" font-size="8">coverage, trends</text>
+<rect x="105" y="112" width="250" height="52" rx="6" fill="#111827"/>
+<text x="230" y="132" font-weight="bold" font-size="10" fill="#ffffff">NATIONAL (GHS / MoH)</text>
+<text x="230" y="145" font-size="8" fill="#ffffff">policy, vaccines, staffing — from YOUR keystrokes!</text>
+<text x="230" y="157" font-size="8" fill="#ffffff">wrong tally → wrong vaccines → empty fridge</text>
+</g>
+<rect x="0" y="176" width="460" height="314" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="198" font-weight="bold">FLOW: ward LHIMS + community eTracker feed district DHIMS2 → national dashboards →</text>
+<text x="20" y="212">decisions. One invented CWC tally multiplies into national coverage lies — data quality</text>
+<text x="20" y="226">is a MORAL act: "if you didn't weigh her, don't tally her."</text>
+<text x="20" y="246">SYSTEMS TO KNOW: LHIMS (hospital records/orders/billing) · DHIMS2 (aggregate reporting) ·</text>
+<text x="20" y="260">eTracker (individual longitudinal: ANC, TB, HIV) · mHealth (SMS reminders, MoTeCH, hotlines) ·</text>
+<text x="20" y="274">telemedicine (doctor-at-distance consults) · paper hybrids (downtime backbones!).</text>
+<text x="20" y="294">GHANA REALITIES: power cuts (save + charge!), patchy network (sync later, never lose!),</text>
+<text x="20" y="308">shared computers (log OUT!), low digital literacy (patient teach-back!), language gaps</text>
+<text x="20" y="322">(audio/visual aids!). Exam favourite: "how do YOU keep data flowing when the light is off?"</text>
+<text x="20" y="336">— paper backup, batch entry, verify on sync, report gaps honestly.</text>
+<text x="20" y="356">NURSE'S DATA DUTIES: enter completely + accurately + ON TIME · validate before submit ·</text>
+<text x="20" y="370">query weird figures (200 ANC visits in a 50-bed week?) · never fabricate · feedback loops:</text>
+<text x="20" y="384">read YOUR facility's dashboard monthly — trends you see save lives you know.</text>
+<text x="20" y="404">QUALITY DIMENSIONS (exam list!): accuracy, completeness, timeliness, consistency,</text>
+<text x="20" y="418">relevance, accessibility, confidentiality. 7 words — memorise as "A nurse's Complete Timely</text>
+<text x="20" y="432">Consistent Relevant Accessible Confidential record" — AC-TCRAC? Better: "All Care Teams</text>
+<text x="20" y="446">Create Records Accurately, Completely" — invent YOUR mnemonic and keep it!</text>
+<text x="20" y="466">POWER LINE: "behind every national health statistic stands a nurse with a pen or phone."</text>
+</g>
+</svg>

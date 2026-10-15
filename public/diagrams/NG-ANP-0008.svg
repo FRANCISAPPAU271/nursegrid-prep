@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 580" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="580" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">The digestive tract and accessory organs</text>
+<!-- mouth -->
+<ellipse cx="140" cy="56" rx="26" ry="12" fill="#fecdd3" stroke="#be123c" stroke-width="1.5"/>
+<circle cx="112" cy="50" r="4" fill="#0d9488"/><circle cx="168" cy="50" r="4" fill="#0d9488"/>
+<!-- oesophagus -->
+<path d="M134,68 L134,140 M146,68 L146,140" stroke="#b45309" stroke-width="2.5"/>
+<!-- stomach -->
+<path d="M134,140 Q100,150 102,182 Q104,214 140,216 Q176,218 178,190 Q179,168 146,164 L146,140" fill="#ffedd5" stroke="#92400e" stroke-width="2"/>
+<!-- liver -->
+<path d="M210,140 L320,140 Q340,140 338,162 L330,196 Q250,210 212,196 Q202,160 210,140 Z" fill="#7f1d1d" opacity="0.85"/>
+<path d="M210,140 L320,140 Q340,140 338,162 L330,196 Q250,210 212,196 Q202,160 210,140 Z" fill="none" stroke="#7f1d1d" stroke-width="2"/>
+<!-- gallbladder -->
+<path d="M258,200 q12,0 10,16 q-2,12 -12,10 q-9,-2 -8,-12 q1,-14 10,-14" fill="#65a30d" stroke="#365314" stroke-width="1.5"/>
+<!-- pancreas -->
+<ellipse cx="220" cy="232" rx="52" ry="12" fill="#fde68a" stroke="#92400e" stroke-width="1.5"/>
+<!-- duodenum loop -->
+<path d="M178,196 Q210,200 214,232 Q216,258 190,262" fill="none" stroke="#b45309" stroke-width="5" stroke-linecap="round"/>
+<!-- small intestine coils -->
+<g fill="none" stroke="#d97706" stroke-width="5" stroke-linecap="round">
+<path d="M150,276 L250,276 M140,296 L260,296 M150,316 L250,316 M140,336 L260,336 M150,356 L230,356"/>
+</g>
+<g stroke="#d97706" stroke-width="5">
+<path d="M250,276 Q268,286 260,296" fill="none"/><path d="M140,296 Q122,306 140,316" fill="none"/>
+<path d="M250,316 Q268,326 260,336" fill="none"/><path d="M140,336 Q132,346 150,356" fill="none"/>
+</g>
+<!-- large intestine frame -->
+<g fill="none" stroke="#b91c1c" stroke-width="9" stroke-linecap="round">
+<path d="M300,270 L300,400"/>
+<path d="M100,270 L100,400"/>
+<path d="M100,270 L300,270"/>
+</g>
+<g stroke="#7f1d1d" stroke-width="1.5">
+<line x1="100" y1="290" x2="100" y2="290"/><line x1="100" y1="310" x2="100" y2="310"/>
+</g>
+<!-- caecum + appendix -->
+<ellipse cx="300" cy="408" rx="12" ry="14" fill="none" stroke="#b91c1c" stroke-width="4"/>
+<path d="M296,420 q-6,14 -14,18" fill="none" stroke="#b91c1c" stroke-width="3" stroke-linecap="round"/>
+<!-- sigmoid + rectum -->
+<path d="M100,400 Q140,410 170,430 Q190,440 196,452" fill="none" stroke="#b91c1c" stroke-width="7" stroke-linecap="round"/>
+<rect x="188" y="452" width="16" height="30" fill="#fecaca" stroke="#7f1d1d" stroke-width="1.5"/>
+<!-- labels left -->
+<g font-size="10" fill="#111827">
+<line x1="114" y1="56" x2="80" y2="48" stroke="#6b7280" stroke-width="1"/>
+<text x="12" y="44" font-weight="bold">Mouth</text>
+<text x="12" y="56" font-size="9" fill="#6b7280">chew + amylase</text>
+<line x1="134" y1="100" x2="80" y2="104" stroke="#6b7280" stroke-width="1"/>
+<text x="12" y="100" font-weight="bold">Oesophagus</text>
+<text x="12" y="112" font-size="9" fill="#6b7280">peristalsis only</text>
+<line x1="104" y1="180" x2="66" y2="186" stroke="#6b7280" stroke-width="1"/>
+<text x="12" y="182" font-weight="bold">Stomach</text>
+<text x="12" y="194" font-size="9" fill="#6b7280">acid + pepsin → chyme</text>
+<line x1="168" y1="232" x2="110" y2="238" stroke="#6b7280" stroke-width="1"/>
+<text x="20" y="234" font-weight="bold">Pancreas</text>
+<text x="20" y="246" font-size="9" fill="#6b7280">enzymes + bicarbonate</text>
+<line x1="122" y1="316" x2="70" y2="330" stroke="#6b7280" stroke-width="1"/>
+<text x="12" y="326" font-weight="bold">Small intestine</text>
+<text x="12" y="338" font-size="9" fill="#6b7280">digestion ends, absorption</text>
+<line x1="100" y1="352" x2="66" y2="372" stroke="#6b7280" stroke-width="1"/>
+<text x="12" y="380" font-weight="bold">Descending colon</text>
+<text x="12" y="392" font-size="9" fill="#6b7280">stores + dehydrates</text>
+<line x1="192" y1="466" x2="140" y2="480" stroke="#6b7280" stroke-width="1"/>
+<text x="60" y="484" font-weight="bold">Rectum</text>
+</g>
+<!-- labels right -->
+<g font-size="10" fill="#111827">
+<line x1="330" y1="160" x2="368" y2="150" stroke="#6b7280" stroke-width="1"/>
+<text x="370" y="146" font-weight="bold">Liver</text>
+<text x="370" y="158" font-size="9" fill="#6b7280">bile + 500 jobs</text>
+<line x1="268" y1="210" x2="330" y2="222" stroke="#6b7280" stroke-width="1"/>
+<text x="332" y="226" font-weight="bold">Gallbladder</text>
+<text x="332" y="238" font-size="9" fill="#6b7280">stores bile</text>
+<line x1="212" y1="246" x2="300" y2="244" stroke="#6b7280" stroke-width="1"/>
+<text x="302" y="240" font-weight="bold">Duodenum</text>
+<text x="302" y="252" font-size="9" fill="#6b7280">the mixing bowl</text>
+<line x1="300" y1="290" x2="348" y2="300" stroke="#6b7280" stroke-width="1"/>
+<text x="350" y="296" font-weight="bold">Ascending</text>
+<text x="350" y="308" font-weight="bold">colon</text>
+<text x="350" y="320" font-size="9" fill="#6b7280">absorbs water</text>
+<line x1="200" y1="270" x2="280" y2="352" stroke="#6b7280" stroke-width="1"/>
+<text x="230" y="366" font-weight="bold">Transverse colon</text>
+<line x1="290" y1="430" x2="330" y2="440" stroke="#6b7280" stroke-width="1"/>
+<text x="332" y="444" font-weight="bold">Appendix</text>
+</g>
+<rect x="0" y="508" width="460" height="72" fill="#f1f5f9"/>
+<text x="20" y="530" font-size="10" fill="#111827">One tube, ~9 metres, five jobs: ingest, push (peristalsis), digest, absorb, expel.</text>
+<text x="20" y="544" font-size="10" fill="#111827">Most digestion ends in the duodenum; most absorption ends in the jejunum —</text>
+<text x="20" y="558" font-size="10" fill="#111827">the colon mostly reclaims water and hosts the flora.</text>
+</svg>

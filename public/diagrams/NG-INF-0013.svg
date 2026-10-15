@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Informatics canvas: 6 moves, every case</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="205" height="64" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="122" y="56" font-weight="bold" font-size="10">1. DIKW SPOT</text>
+<text x="122" y="70" font-size="8">data? info? knowledge?</text>
+<text x="122" y="81" font-size="8">wisdom needed?</text>
+<text x="122" y="92" font-size="8" fill="#6b7280">classify first!</text>
+<rect x="235" y="36" width="205" height="64" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="337" y="56" font-weight="bold" font-size="10">2. SAFETY?</text>
+<text x="337" y="70" font-size="8">verify, alert, downtime,</text>
+<text x="337" y="81" font-size="8">patient harmed?</text>
+<text x="337" y="92" font-size="8" fill="#6b7280">act + document!</text>
+<rect x="20" y="108" width="205" height="64" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="122" y="128" font-weight="bold" font-size="10">3. PRIVACY?</text>
+<text x="122" y="142" font-size="8">consent? need-to-know?</text>
+<text x="122" y="153" font-size="8">Act 843? breach</text>
+<text x="122" y="164" font-size="8" fill="#6b7280">drill if leaked!</text>
+<rect x="235" y="108" width="205" height="64" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="337" y="128" font-weight="bold" font-size="10">4. RECORD IT</text>
+<text x="337" y="142" font-size="8">accurate + complete +</text>
+<text x="337" y="153" font-size="8">timely + MY login!</text>
+<text x="337" y="164" font-size="8" fill="#6b7280">addendum if wrong!</text>
+<rect x="20" y="180" width="205" height="64" rx="6" fill="#f3e8ff" stroke="#7e22ce" stroke-width="1.5"/>
+<text x="122" y="200" font-weight="bold" font-size="10">5. EVIDENCE?</text>
+<text x="122" y="214" font-size="8">PICO? guideline?</text>
+<text x="122" y="225" font-size="8">CRAAP? journal</text>
+<text x="122" y="236" font-size="8" fill="#6b7280">club it!</text>
+<rect x="235" y="180" width="205" height="64" rx="6" fill="#111827"/>
+<text x="337" y="200" font-weight="bold" font-size="10" fill="#ffffff">6. IMPROVE IT</text>
+<text x="337" y="214" font-size="8" fill="#ffffff">run chart + PDSA +</text>
+<text x="337" y="225" font-size="8" fill="#ffffff">report + teach!</text>
+<text x="337" y="236" font-size="8" fill="#ffffff">close the loop!</text>
+</g>
+<rect x="0" y="256" width="460" height="234" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="278" font-weight="bold">CANVAS DISCIPLINE: six questions on every informatics case — DIKW? safety? privacy?</text>
+<text x="20" y="292">record? evidence? improve? Answer all six = distinction; skip privacy or improvement =</text>
+<text x="20" y="306">the classic fail. Tape it to your exam brain.</text>
+<text x="20" y="326">SCENARIO FORMULA: spot the DIKW level → secure safety (verify/alert/downtime!) → lock</text>
+<text x="20" y="340">privacy (consent/843/breach drill!) → record properly (addendum!) → cite evidence</text>
+<text x="20" y="354">(PICO/guideline!) → improve it (run chart/PDSA/report!). Six sentences, full marks.</text>
+<text x="20" y="374">QI MENU (90 days): alert-override audit · BCMA compliance · downtime readiness · DHIMS2</text>
+<text x="20" y="388">timeliness · SMS reminder pilot · hand-hygiene dashboard · charting completeness. Pick ONE,</text>
+<text x="20" y="402">baseline it, PDSA it, board it, present it (M05!).</text>
+<text x="20" y="422">CHANGE PLAY: why-story → champions+sceptics → elbow training → quick wins → feedback →</text>
+<text x="20" y="436">sustain. Every QI answer ends with spread + sustain, never "we trained everyone."</text>
+<text x="20" y="456">LINKS: PRO-II M4/M6 QI + leadership · NUT M7 canvas habit · GER M7 audits · PRO-I compass.</text>
+<text x="20" y="470">MANTRA: "spot it, safe it, lock it, log it, prove it, improve it."</text>
+</g>
+</svg>

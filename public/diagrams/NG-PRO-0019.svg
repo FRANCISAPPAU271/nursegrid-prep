@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 490" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="490" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">The research process + designs</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="36" width="62" height="60" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="51" y="58" font-weight="bold" font-size="8">1. TOPIC</text>
+<text x="51" y="71" font-size="8">gap + question</text>
+<rect x="88" y="36" width="62" height="60" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="119" y="58" font-weight="bold" font-size="8">2. REVIEW</text>
+<text x="119" y="71" font-size="8">literature</text>
+<rect x="156" y="36" width="62" height="60" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="187" y="58" font-weight="bold" font-size="8">3. DESIGN</text>
+<text x="187" y="71" font-size="8">+ sample</text>
+<rect x="224" y="36" width="62" height="60" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="255" y="58" font-weight="bold" font-size="8">4. ETHICS</text>
+<text x="255" y="71" font-size="8">approval</text>
+<rect x="292" y="36" width="62" height="60" rx="6" fill="#fef9c3" stroke="#713f12" stroke-width="1"/>
+<text x="323" y="58" font-weight="bold" font-size="8">5. COLLECT</text>
+<text x="323" y="71" font-size="8">+ analyse</text>
+<rect x="360" y="36" width="80" height="60" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="400" y="58" font-weight="bold" font-size="8">6. SHARE</text>
+<text x="400" y="71" font-size="8">publish+use</text>
+</g>
+<text x="20" y="120" font-size="12" font-weight="bold" fill="#111827">QUANTITATIVE vs QUALITATIVE</text>
+<g font-size="9" fill="#111827" text-anchor="middle">
+<rect x="20" y="128" width="200" height="92" rx="6" fill="#eef2ff" stroke="#3730a3" stroke-width="1.5"/>
+<text x="120" y="148" font-weight="bold" font-size="10">QUANTITATIVE (how many?)</text>
+<text x="120" y="163" font-size="8">numbers, counts, trials, surveys</text>
+<text x="120" y="174" font-size="8">RCTs, cohorts, cross-sectional</text>
+<text x="120" y="189" font-size="8" fill="#065f46">strength: generalises;</text>
+<text x="120" y="200" font-size="8" fill="#065f46">validity + reliability rule</text>
+<rect x="240" y="128" width="200" height="92" rx="6" fill="#dcfce7" stroke="#065f46" stroke-width="1.5"/>
+<text x="340" y="148" font-weight="bold" font-size="10">QUALITATIVE (why/how?)</text>
+<text x="340" y="163" font-size="8">stories, interviews, focus groups</text>
+<text x="340" y="174" font-size="8">phenomenology, ethnography</text>
+<text x="340" y="189" font-size="8" fill="#065f46">strength: deep meaning;</text>
+<text x="340" y="200" font-size="8" fill="#065f46">trustworthiness rules</text>
+</g>
+<rect x="0" y="232" width="460" height="258" fill="#f1f5f9"/>
+<g font-size="10" fill="#111827">
+<text x="20" y="254" font-weight="bold">DESIGNS LADDER (weak → strong for cause): case report → cross-sectional →</text>
+<text x="20" y="268">case-control → cohort → RCT → systematic review/meta-analysis. Higher = stronger,</text>
+<text x="20" y="282">costlier, slower — match design to question (outbreak? cross-sectional NOW beats</text>
+<text x="20" y="296">RCT someday). Sampling: random (fair, generalises) vs purposive (rich cases) vs</text>
+<text x="20" y="310">convenience (cheap, biased — admit limits). Tools: questionnaires (pilot first!),</text>
+<text x="20" y="324">observation checklists, interview guides, meters/monitors — calibrated + pretested.</text>
+<text x="20" y="344" font-weight="bold">RESEARCH ETHICS (non-negotiable): committee approval FIRST (GHS Ethics Review,</text>
+<text x="20" y="358">institutional IRB — no approval, no data, no excuses) → informed consent (purpose, risks,</text>
+<text x="20" y="372">benefits, voluntary, withdraw-anytime — PRO-I consent rules) → confidentiality (codes not</text>
+<text x="20" y="386">names, locked data — Act 843) → no harm (vulnerable groups need extra shields: children,</text>
+<text x="20" y="400">prisoners, the critically ill) → honesty (no fabrication/falsification/plagiarism —</text>
+<text x="20" y="414">career-ending fraud). Disseminate: ward presentation → conference → journal; negative</text>
+<text x="20" y="428">results publish too (hidden failures re-harm). Audit ≠ research (measures vs standard,</text>
+<text x="20" y="442">no new knowledge claim) — but needs permission + confidentiality all the same.</text>
+<text x="20" y="462">Exam line: \"design matches question, ethics precedes data, and shared findings change care.\"</text>
+</g>
+</svg>

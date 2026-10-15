@@ -113,11 +113,6 @@ export default function LoginForm() {
       >
         {loading ? "Signing in…" : "Log in"}
       </button>
-      <div className="rounded-lg border border-dashed border-emerald-300 bg-emerald-50 px-4 py-3 text-xs text-emerald-800">
-        <p className="font-semibold">Demo accounts</p>
-        <p>Premium: demo@nursegrid.app / password123</p>
-        <p>Free: free@nursegrid.app / password123</p>
-      </div>
       <p className="text-center text-[11px] text-slate-400">
         🔒 For your security, only one device can be signed in per account at a time.
       </p>

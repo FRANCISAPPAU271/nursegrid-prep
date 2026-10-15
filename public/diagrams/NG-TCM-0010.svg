@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="340" font-family="sans-serif">
+<rect width="460" height="340" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+<text x="230" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#0f172a">From Listening to Shared Plans</text>
+<text x="230" y="42" text-anchor="middle" font-size="10" fill="#64748b">LEARN negotiation + documentation spine (NG-TCM-0010)</text>
+<g font-size="10" fill="#0f172a">
+<rect x="14" y="52" width="216" height="150" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2" rx="6"/>
+<text x="24" y="70" font-size="12" font-weight="bold" fill="#1d4ed8">LEARN MODEL</text>
+<text x="24" y="88">L — Listen to the patient's story</text>
+<text x="24" y="106">E — Explain YOUR view simply</text>
+<text x="24" y="124">A — Acknowledge differences</text>
+<text x="36" y="136">("I see it differently because…")</text>
+<text x="24" y="154">R — Recommend a plan</text>
+<text x="24" y="172">N — Negotiate agreement —</text>
+<text x="36" y="184">both sides give something</text>
+<rect x="236" y="52" width="210" height="150" fill="#fef2f2" stroke="#b91c1c" stroke-width="2" rx="6"/>
+<text x="246" y="70" font-size="12" font-weight="bold" fill="#b91c1c">NEGOTIATION MOVES</text>
+<text x="246" y="88">Trade, don't forbid: "Take the</text>
+<text x="258" y="100">tablets AND the blessed water"</text>
+<text x="246" y="116">Sequence: "Finish the 3-day</text>
+<text x="258" y="128">malaria course, then the herbs"</text>
+<text x="246" y="144">Substitute: safe ritual for a</text>
+<text x="258" y="156">dangerous one (prayer, not cuts)</text>
+<text x="246" y="172">Set review dates: "Come back</text>
+<text x="258" y="184">Friday — we check together"</text>
+</g>
+<rect x="14" y="210" width="432" height="82" fill="#f8fafc" stroke="#b91c1c" stroke-width="2" rx="6"/>
+<text x="24" y="230" font-size="12" font-weight="bold" fill="#b91c1c">DOCUMENT TM USE — THE 5-LINE NOTE</text>
+<g font-size="10" fill="#0f172a">
+<text x="24" y="248">1. WHAT (name/dose/frequency)  2. WHO advised it  3. WHY patient values it</text>
+<text x="24" y="264">4. WHAT was negotiated (trade / sequence / substitute + review date)</text>
+<text x="24" y="280">5. SAFETY net given ("Return at once if…, bring all bottles Friday")</text>
+</g>
+<rect x="14" y="300" width="432" height="28" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1" rx="4"/>
+<text x="230" y="318" text-anchor="middle" font-size="10" fill="#475569">If it is not written, the next nurse starts from zero — and the patient notices. Original NurseGrid content.</text>
+</svg>

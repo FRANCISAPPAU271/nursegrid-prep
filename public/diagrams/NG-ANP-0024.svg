@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 480" font-family="sans-serif">
+<rect x="0" y="0" width="460" height="480" fill="#ffffff"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#111827">Brain lateral: lobes + what breaks where</text>
+<!-- brain outline -->
+<path d="M70,200 C70,110 140,60 230,60 C330,60 390,120 390,200 C390,240 370,260 340,268 L110,268 C85,255 70,230 70,200 Z" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+<!-- lobe divisions -->
+<path d="M225,62 C220,130 218,200 215,268" fill="none" stroke="#334155" stroke-width="1.5"/>
+<path d="M70,205 C140,195 250,200 388,195" fill="none" stroke="#334155" stroke-width="1.5"/>
+<path d="M320,68 C315,130 318,170 330,192" fill="none" stroke="#334155" stroke-width="1.5" stroke-dasharray="5 3"/>
+<!-- lobe washes -->
+<path d="M78,198 C78,115 142,68 222,66 C218,130 216,165 216,197 C160,193 110,194 78,198 Z" fill="#fecaca" opacity="0.6"/>
+<path d="M232,66 C285,68 312,80 318,100 C316,140 318,168 328,190 C290,193 250,194 224,195 C226,150 228,105 232,66 Z" fill="#fde68a" opacity="0.6"/>
+<path d="M326,72 C365,95 382,140 383,192 C365,193 345,193 332,192 C322,150 322,105 326,72 Z" fill="#c7d2fe" opacity="0.6"/>
+<path d="M76,210 C140,202 250,206 384,202 C382,232 365,252 340,260 L112,260 C90,248 76,228 76,210 Z" fill="#bbf7d0" opacity="0.6"/>
+<!-- labels -->
+<g font-size="10" font-weight="bold" fill="#111827">
+<text x="140" y="130">FRONTAL</text>
+<text x="140" y="143" font-size="8.5" font-weight="normal">personality, Broca's</text>
+<text x="140" y="154" font-size="8.5" font-weight="normal">speech, motor strip</text>
+<text x="245" y="130">PARIETAL</text>
+<text x="245" y="143" font-size="8.5" font-weight="normal">sensation, spatial,</text>
+<text x="245" y="154" font-size="8.5" font-weight="normal">neglect if R-sided</text>
+<text x="338" y="130" font-size="9">OCCIP.</text>
+<text x="338" y="143" font-size="8.5" font-weight="normal">vision</text>
+<text x="230" y="240">TEMPORAL: hearing, memory, Wernicke's (understanding)</text>
+</g>
+<!-- cerebellum + brainstem -->
+<ellipse cx="330" cy="300" rx="55" ry="28" fill="#e9d5ff" stroke="#6d28d9" stroke-width="1.5"/>
+<text x="330" y="298" font-size="10" font-weight="bold" fill="#111827" text-anchor="middle">cerebellum</text>
+<text x="330" y="310" font-size="8.5" fill="#374151" text-anchor="middle">coordination, balance</text>
+<rect x="240" y="276" width="30" height="52" fill="#ffedd5" stroke="#7c2d12" stroke-width="1.5"/>
+<text x="190" y="296" font-size="9" fill="#111827" text-anchor="end">brainstem:</text>
+<text x="190" y="308" font-size="9" fill="#111827" text-anchor="end">breathing, HR, BP,</text>
+<text x="190" y="320" font-size="9" fill="#111827" text-anchor="end">cough, swallow</text>
+<rect x="0" y="336" width="460" height="144" fill="#f1f5f9"/>
+<text x="20" y="358" font-size="10" fill="#111827">Left hemisphere: language in ~95% (Broca's = can't speak fluently; Wernicke's =</text>
+<text x="20" y="372" font-size="10" fill="#111827">can't understand). Right: spatial attention (neglects the left world). MCA stroke —</text>
+<text x="20" y="386" font-size="10" fill="#111827">the commonest — hits face + arm (homunculus) + language if left. Cerebellar:</text>
+<text x="20" y="400" font-size="10" fill="#111827">ataxia, nystagmus, slurred scanning speech — same side as the lesion. Brainstem:</text>
+<text x="20" y="414" font-size="10" fill="#111827">crossed signs + vitals at risk. Meninges + CSF + ventricles cushion all of it — blood,</text>
+<text x="20" y="428" font-size="10" fill="#111827">pus or tumour inside a closed box raises ICP: headache, vomiting, drowsiness →</text>
+<text x="20" y="442" font-size="10" fill="#111827">Cushing's triad (↑BP + widening PP, ↓HR, irregular breathing) + blown pupil.</text>
+</svg>
