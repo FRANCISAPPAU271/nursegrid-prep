@@ -26,7 +26,7 @@ const FAQS = [
   },
   {
     q: "How can I pay?",
-    a: "You can pay with a Visa card (processed securely through Stripe) from anywhere in the world, or with MTN Mobile Money for local users — just send payment to 0598872146 and confirm your transaction reference in the app. Our team verifies each MoMo payment and activates your account, usually within a few hours.",
+    a: "We support Visa and Mastercard payments securely online, as well as local payment options inside the app once you create your account. All plans are one-time payments with zero automatic renewals or hidden charges.",
   },
   {
     q: "Is NurseGrid Prep affiliated with the Nursing and Midwifery Council?",

@@ -8,7 +8,7 @@ type Topic = { label: string; answer: string };
 const topics: Topic[] = [
   { label: "What does it cost?", answer: "Plans are GH₵80 for 4 months, GH₵140 for 8 months, or GH₵200 for 1 year. The exact price is shown before payment." },
   { label: "How does the free access work?", answer: "New accounts receive 48 hours of full study access. After that, choose a plan to continue with the full question bank." },
-  { label: "How do I pay by MoMo?", answer: "Choose a plan, select MTN Mobile Money, send the displayed amount to 0598872146, then enter your MoMo number and transaction reference. We verify and approve it manually." },
+  { label: "How do payments work?", answer: "Choose a plan on the billing screen inside your account. We support card payments and local payment methods. All plans are one-time payments for the full duration with zero recurring fees." },
   { label: "I cannot log in", answer: "Use your registered email and password. If you forgot the password, choose Forgot password on the login page. If you verified a phone during signup, you can use phone sign-in." },
   { label: "How many questions are there?", answer: "NurseGrid Prep includes 3,500 curriculum questions, full rationales, and original study diagrams." },
   { label: "I need human support", answer: "Our support team can help with account recovery, payments and access. Tap the WhatsApp button below and include your registered email if you know it." },

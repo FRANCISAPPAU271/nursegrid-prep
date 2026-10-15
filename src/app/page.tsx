@@ -12,9 +12,9 @@ import { QUESTION_COUNT_LABEL } from "@/lib/question-count";
 const TICKER_ITEMS = [
   "NMC LICENSING EXAM COVERED",
   `🧠 ${QUESTION_COUNT_LABEL} UNIQUE QUESTIONS WITH REAL RATIONALES`,
-  "💳 PAY WITH MTN MOMO OR VISA",
+  "💳 SECURE ONE-TIME PAYMENT · NEVER AUTO-BILLED",
   "📲 WORKS OFFLINE — NO APP STORE",
-  "💚 FROM GH₵ 80 · NEVER AUTO-BILLED",
+  "💚 FROM GH₵ 80 · ZERO AUTO-RENEWALS",
   "🎯 STRATEGY LIBRARY: PRIORITISATION · DELEGATION · PHARMA MATH",
 ];
 
@@ -130,7 +130,7 @@ export default async function HomePage() {
               exam-style questions where every rationale teaches you the{" "}
               <strong className="font-bold text-emerald-50">clinical reasoning the Council actually tests</strong>,
               plus a task manager that keeps clinicals and revision on track.{" "}
-              <strong className="font-bold text-emerald-50">From GH₵ 80. Pay with MoMo.</strong>
+              <strong className="font-bold text-emerald-50">From GH₵ 80. One-time payment.</strong>
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
               <Link
@@ -243,7 +243,7 @@ export default async function HomePage() {
             <h3 className="relative mt-3 text-lg font-extrabold">Reasoning-first, priced for you</h3>
             <p className="relative mt-2 text-sm text-emerald-100/60">
               Every one of our {QUESTION_COUNT_LABEL} unique questions teaches the <em>why</em> and the 20-second strategy to crack the next
-              one like it. Built around the NMC syllabus, from GH₵ 80, paid once with MoMo — never auto-billed.
+              one like it. Built around the NMC syllabus, from GH₵ 80, paid once — never auto-billed.
             </p>
           </div>
         </div>
@@ -408,10 +408,10 @@ export default async function HomePage() {
 
         <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
           <span className="flex w-full max-w-xs items-center justify-center gap-2 rounded-full border border-slate-900/10 bg-white px-5 py-2.5 text-xs font-bold text-slate-600 sm:w-auto">
-            📱 MTN MoMo · send to 0598872146
+            💳 Visa & Mastercard accepted
           </span>
           <span className="flex w-full max-w-xs items-center justify-center gap-2 rounded-full border border-slate-900/10 bg-white px-5 py-2.5 text-xs font-bold text-slate-600 sm:w-auto">
-            💳 Visa · accepted worldwide
+            ⚡ Instant access & receipt
           </span>
           <span className="flex w-full max-w-xs items-center justify-center gap-2 rounded-full border border-slate-900/10 bg-white px-5 py-2.5 text-xs font-bold text-slate-600 sm:w-auto">
             🔒 One-time payment · zero auto-renewal

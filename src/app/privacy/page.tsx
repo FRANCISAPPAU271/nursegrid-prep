@@ -42,7 +42,7 @@ export default function PrivacyPolicyPage() {
             <ul className="list-disc space-y-1.5 pl-5">
               <li><strong>Account information:</strong> name, email address, hashed password, nursing school, and cohort (if provided).</li>
               <li><strong>Study activity:</strong> tasks, notes, care plans, question attempts, bookmarks, and progress statistics you create while using the app.</li>
-              <li><strong>Payment information:</strong> when you purchase full access, card payments are processed by Stripe, and MTN Mobile Money payments are verified using the transaction reference and MoMo number you submit. We do not store full card numbers on our servers.</li>
+              <li><strong>Payment information:</strong> when you purchase full access, card payments are processed securely by our payment partners, and local payment requests are verified using the transaction reference you submit. We do not store full card numbers on our servers.</li>
               <li><strong>Device information:</strong> browser type, IP address, device identifiers, and push notification tokens (only if you enable notifications in our mobile apps).</li>
               <li><strong>Usage data:</strong> pages visited, features used, and general analytics to help us improve the product.</li>
             </ul>
