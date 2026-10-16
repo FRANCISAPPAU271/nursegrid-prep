@@ -138,6 +138,8 @@ export const pharmacology: CourseModule = {
       ],
       quiz: {
         keywords: ["glasgow", "coma scale", "phenytoin", "diazepam", "lorazepam", "midazolam", "mannitol", "hypertonic", "artesunate", "ceftriaxone", "magnesium sulphate", "magnesium sulfate", "calcium gluconate", "naloxone", "thrombolysis", "mg/kg", "per kg", "loading dose", "drops per minute", "ml/hour", "ml per hour", "procyclidine", "levodopa"],
+        categories: ["pharmacology-parenteral"],
+        questionIds: ["NG-MOD-NEURO-019", "NG-MOD-NEURO-020"],
       },
     },
   ],

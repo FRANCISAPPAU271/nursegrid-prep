@@ -111,6 +111,8 @@ export const raisedIcpAndHeadInjury: CourseModule = {
       ],
       quiz: {
         keywords: ["intracranial", "head injury", "cushing", "pulse pressure", "dilated pupil", "mannitol", "hypertonic", "cerebral oedema", "midline", "coning", "papilloedema", "craniotomy", "fixed, dilated", "fixed dilated", "lumbar puncture"],
+        categories: ["med-surg", "critical-care"],
+        questionIds: ["NG-MOD-NEURO-004"],
       },
     },
     {
@@ -216,6 +218,8 @@ export const raisedIcpAndHeadInjury: CourseModule = {
       ],
       quiz: {
         keywords: ["head injury", "skull", "lucid", "extradural", "subdural", "concussion", "cerebrospinal fluid", "from the nose", "rhinorrhoea", "helmet", "motorcycl", "okada", "road traffic", "neck pain", "cervical spine", "primary survey", "head injured", "haematoma"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-NEURO-005", "NG-MOD-NEURO-006"],
       },
     },
     {
@@ -287,6 +291,8 @@ export const raisedIcpAndHeadInjury: CourseModule = {
       ],
       quiz: {
         keywords: ["brain tumour", "brain tumor", "glioma", "meningioma", "pituitary adenoma", "acoustic neuroma", "cerebral metastases", "hydrocephalus", "shunt", "ventriculoperitoneal", "vp shunt", "normal pressure hydrocephalus", "papilloedema", "raised intracranial", "headache", "vomiting", "seizure", "focal deficit", "craniotomy"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-NEURO-004"],
       },
     }
   ],

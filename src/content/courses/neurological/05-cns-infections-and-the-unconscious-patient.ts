@@ -150,6 +150,8 @@ export const cnsInfectionsAndUnconsciousPatient: CourseModule = {
       ],
       quiz: {
         keywords: ["meningitis", "meningococc", "neck stiffness", "stiff neck", "kernig", "brudzinski", "fontanelle", "lumbar puncture", "cerebrospinal fluid", "csf", "photophobia", "non blanching", "glass test", "encephalitis", "cerebral malaria", "severe malaria", "artesunate", "rifampicin", "droplet", "cryptococc", "aciclovir"],
+        categories: ["med-surg", "infection-control"],
+        questionIds: ["NG-MOD-NEURO-013"],
       },
     },
     {
@@ -266,6 +268,8 @@ export const cnsInfectionsAndUnconsciousPatient: CourseModule = {
       ],
       quiz: {
         keywords: ["unconscious", "coma", "unresponsive", "recovery position", "oropharyngeal", "guedel", "jaw thrust", "eye care", "mouth care", "pressure ulcer", "pressure sore", "passive", "contracture", "nasogastric", "naloxone", "organophosph", "poison", "overdose", "charcoal", "gag reflex"],
+        categories: ["fundamentals"],
+        questionIds: ["NG-MOD-NEURO-014"],
       },
     },
   ],

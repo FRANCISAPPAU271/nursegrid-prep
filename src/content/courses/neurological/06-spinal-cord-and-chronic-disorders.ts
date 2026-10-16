@@ -139,6 +139,8 @@ export const spinalCordAndChronicDisorders: CourseModule = {
       ],
       quiz: {
         keywords: ["spinal", "cervical collar", "log roll", "paraly", "paraplegi", "quadripleg", "tetrapleg", "neurogenic shock", "spinal shock", "autonomic dysreflexia", "dysreflexia", "immobilis", "spine", "neck injury", "neck pain", "wheelchair", "intermittent catheter", "self catheter"],
+        categories: ["med-surg", "critical-care"],
+        questionIds: ["NG-MOD-NEURO-015", "NG-MOD-NEURO-016"],
       },
     },
     {
@@ -233,6 +235,8 @@ export const spinalCordAndChronicDisorders: CourseModule = {
       ],
       quiz: {
         keywords: ["guillain", "ascending", "climbed to", "risen to", "neuromuscular", "weakness", "myasthen", "pyridostigmine", "neostigmine", "ptosis", "eyelid", "double vision", "bell's palsy", "bells palsy", "facial nerve", "forehead", "cannot close", "facial droop", "wet voice", "thymus", "vital capacity"],
+        categories: ["med-surg", "pharmacology-oral"],
+        questionIds: ["NG-MOD-NEURO-017", "NG-MOD-NEURO-018"],
       },
     },
     {
@@ -306,6 +310,8 @@ export const spinalCordAndChronicDisorders: CourseModule = {
       ],
       quiz: {
         keywords: ["tetanus", "lockjaw", "trismus", "spasms", "cord care", "cord stump", "stray dog", "rabies", "rusty", "puncture wound", "neuropath", "numbness", "barefoot", "foot care", "diabetic foot", "monofilament", "flaccid paralysis", "polio", "leprosy", "isoniazid", "pyridoxine", "b12"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-NEURO-018"],
       },
     },
     {
@@ -453,6 +459,8 @@ export const spinalCordAndChronicDisorders: CourseModule = {
       ],
       quiz: {
         keywords: ["parkinson", "levodopa", "shuffling", "dementia", "alzheimer", "delirium", "acute confusion", "wander", "sundown", "restraint", "haloperidol", "antipsychotic", "metoclopramide", "headache", "migraine", "photophobia", "multiple sclerosis", "motor neurone", "witchcraft", "facial pain"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-NEURO-017"],
       },
     },
     {
@@ -512,6 +520,8 @@ export const spinalCordAndChronicDisorders: CourseModule = {
       ],
       quiz: {
         keywords: ["headache", "migraine", "aura", "tension headache", "cluster headache", "trigeminal", "thunderclap", "subarachnoid", "meningitis", "temporal arteritis", "giant cell arteritis", "pre-eclampsia", "sinusitis", "medication overuse", "triptan", "snoop"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-NEURO-008"],
       },
     }
   ],

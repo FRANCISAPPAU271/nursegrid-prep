@@ -139,6 +139,8 @@ export const seizuresAndEpilepsy: CourseModule = {
       ],
       quiz: {
         keywords: ["seizure", "epilep", "convuls", "fitting again", "anticonvulsant", "antiepileptic", "phenytoin", "carbamazepine", "valproate", "phenobarb", "lamotrigine", "levetiracetam", "post ictal", "postictal", "staring", "absence seizure", "jerking", "aura"],
+        categories: ["med-surg", "pharmacology-oral"],
+        questionIds: ["NG-MOD-NEURO-010", "NG-MOD-NEURO-012"],
       },
     },
     {
@@ -240,6 +242,8 @@ export const seizuresAndEpilepsy: CourseModule = {
       ],
       quiz: {
         keywords: ["status epilepticus", "febrile", "convuls", "seizure", "diazepam", "lorazepam", "midazolam", "phenytoin", "eclampsia", "magnesium sulphate", "magnesium sulfate", "cerebral malaria", "severe malaria", "artesunate", "tepid", "fitting", "still fitting", "rectal"],
+        categories: ["pharmacology-parenteral", "critical-care"],
+        questionIds: ["NG-MOD-NEURO-011"],
       },
     },
   ],

@@ -111,6 +111,8 @@ export const foundations: CourseModule = {
       ],
       quiz: {
         keywords: ["neurone", "nervous system", "cerebrospinal", "cranial nerve", "cerebr", "brain", "spinal cord", "sympathetic", "parasympathetic", "autonomic", "neurotransmitter", "myelin", "reflex", "meninges", "broca", "frontal lobe", "dopamine", "acetylcholine"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-NEURO-002", "NG-MOD-NEURO-003"],
       },
     },
     {
@@ -242,6 +244,8 @@ export const foundations: CourseModule = {
       ],
       quiz: {
         keywords: ["glasgow", "coma scale", "conscious", "pupil", "neurological observation", "neuro obs", "avpu", "painful stimulus", "localis", "pulse pressure", "limb power", "dilated pupil", "unresponsive", "responds to"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-NEURO-001"],
       },
     },
   ],

@@ -120,6 +120,8 @@ export const stroke: CourseModule = {
       ],
       quiz: {
         keywords: ["stroke", "slurred", "facial droop", "face droop", "drooping face", "last seen well", "thrombolysis", "thrombolytic", "transient ischaemic", "atrial fibrillation", "cerebrovascular", "sudden weakness", "hemipleg", "subarachnoid", "thunderclap", "nimodipine", "cannot lift"],
+        categories: ["pharmacology-parenteral", "med-surg"],
+        questionIds: ["NG-MOD-NEURO-007", "NG-MOD-NEURO-008"],
       },
     },
     {
@@ -239,6 +241,8 @@ export const stroke: CourseModule = {
       ],
       quiz: {
         keywords: ["stroke", "swallow", "aspirat", "dysphagia", "aphasia", "hemipleg", "flaccid", "affected arm", "neglect", "rehabilitat", "pressure ulcer", "contracture", "passive range", "call bell", "wet voice", "nil by mouth", "walking stick"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-NEURO-009"],
       },
     },
   ],
