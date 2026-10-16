@@ -159,6 +159,8 @@ export const pharmacology: CourseModule = {
       ],
       quiz: {
         keywords: ["insulin", "dextrose", "mg/dl", "hba1c", "levothyroxine", "hydrocortisone", "prednisolone", "steroid", "metformin", "glucagon", "carbimazole", "desmopressin", "infusion rate", "ml/h", "micrograms"],
+        categories: ["pharmacology-parenteral", "med-surg"],
+        questionIds: ["NG-MOD-ENDO-019", "NG-MOD-ENDO-020"],
       },
     },
   ],

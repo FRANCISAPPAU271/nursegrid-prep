@@ -134,6 +134,8 @@ export const diabeticEmergencies: CourseModule = {
       ],
       quiz: {
         keywords: ["hypoglyc", "glucagon", "dextrose", "glucose gel", "sweaty", "trembling", "shaky", "low blood sugar", "unconscious diabetic", "thiamine", "wernicke", "neonatal hypoglyc", "jittery"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-ENDO-009"],
       },
     },
     {
@@ -246,6 +248,8 @@ export const diabeticEmergencies: CourseModule = {
       ],
       quiz: {
         keywords: ["ketoacidosis", "dka", "diabetic", "ketone", "kussmaul", "acetone", "hyperosmolar", "insulin infusion", "fixed rate", "cerebral oedema", "fruity", "acidosis", "hyperglycaemia", "hyperkalaemia", "hypokalaemia"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-ENDO-010"],
       },
     },
     {
@@ -338,6 +342,8 @@ export const diabeticEmergencies: CourseModule = {
       ],
       quiz: {
         keywords: ["thyroid storm", "myxoedema", "myxedema", "adrenal crisis", "addisonian", "kussmaul", "acetone", "hypothermia", "bradycardia", "dka", "ketoacidosis", "hypoglycaemia", "hyperglycaemia", "thyroid", "adrenal", "diabetic", "coma diabetic", "unconscious diabetic"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-ENDO-011"],
       },
     },
   ],

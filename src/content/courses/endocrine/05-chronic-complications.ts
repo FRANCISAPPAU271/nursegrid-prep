@@ -101,6 +101,8 @@ export const chronicComplications: CourseModule = {
       ],
       quiz: {
         keywords: ["retinopathy", "nephropathy", "neuropathy", "microalbumin", "albumin creatinine", "complications of diabetes", "diabetic complication", "annual review", "eye screening", "monofilament", "gastroparesis", "postural hypotension", "diabetic", "blurred", "statin", "ace inhibitor"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-ENDO-012"],
       },
     },
     {
@@ -223,6 +225,8 @@ export const chronicComplications: CourseModule = {
       ],
       quiz: {
         keywords: ["diabetic foot", "foot care", "foot ulcer", "foot", "monofilament", "barefoot", "neuropath", "callus", "charcot", "osteomyelitis", "gangrene", "amputation", "footwear", "offload", "toenail", "peripheral arterial"],
+        categories: ["health-promotion", "med-surg"],
+        questionIds: ["NG-MOD-ENDO-013"],
       },
     },
   ],

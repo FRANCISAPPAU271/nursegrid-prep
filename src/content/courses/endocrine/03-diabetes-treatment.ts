@@ -111,6 +111,8 @@ export const diabetesTreatment: CourseModule = {
       ],
       quiz: {
         keywords: ["metformin", "glibenclamide", "gliclazide", "sulphonylurea", "sulfonylurea", "hypoglyc", "lactic acidosis", "contrast", "dapagliflozin", "empagliflozin", "sglt2", "sitagliptin", "liraglutide", "pioglitazone", "oral hypoglycaemic", "antidiabetic", "type 2 diabetes", "sick day", "missed dose", "adherence", "titration", "perioperative", "fasting", "ramadan", "clinical inertia"],
+        categories: ["pharmacology-parenteral", "med-surg"],
+        questionIds: ["NG-MOD-ENDO-006"],
       },
     },
     {
@@ -258,6 +260,8 @@ export const diabetesTreatment: CourseModule = {
       ],
       quiz: {
         keywords: ["insulin", "injection site", "lipohypertrophy", "isophane", "soluble insulin", "glargine", "rapid acting", "long acting", "premixed", "mixtard", "clear before cloudy", "sliding scale", "rotate"],
+        categories: ["pharmacology-parenteral", "med-surg"],
+        questionIds: ["NG-MOD-ENDO-007", "NG-MOD-ENDO-008"],
       },
     },
     {
@@ -352,6 +356,8 @@ export const diabetesTreatment: CourseModule = {
       ],
       quiz: {
         keywords: ["sliding scale", "perioperative", "nil by mouth", "steroid induced", "enteral feed", "tube feed", "insulin infusion", "metformin", "hypoglycaemia", "hyperglycaemia", "diabetic", "diabetes", "insulin", "glucose"],
+        categories: ["med-surg", "pharmacology-parenteral"],
+        questionIds: ["NG-MOD-ENDO-006", "NG-MOD-ENDO-009"],
       },
     },
   ],

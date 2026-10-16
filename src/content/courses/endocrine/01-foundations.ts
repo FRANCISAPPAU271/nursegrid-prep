@@ -93,6 +93,8 @@ export const foundations: CourseModule = {
       ],
       quiz: {
         keywords: ["hormone", "endocrine", "pituitary", "hypothalam", "thyroid", "adrenal", "insulin", "glucagon", "cortisol", "negative feedback", "tsh", "thyroxine", "antidiuretic", "oxytocin", "pancrea"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-ENDO-001"],
       },
     },
     {
@@ -184,6 +186,8 @@ export const foundations: CourseModule = {
       ],
       quiz: {
         keywords: ["blood glucose", "random blood", "glucose tolerance", "glycated", "glycosuria", "hba1c", "thyroid function", "tsh", "cortisol", "synacthen", "dexamethasone", "goitre", "exophthalm", "polyuria", "polydipsia", "glucometer", "finger prick"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-ENDO-002"],
       },
     },
   ],

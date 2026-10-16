@@ -111,6 +111,8 @@ export const diabetesFoundations: CourseModule = {
       ],
       quiz: {
         keywords: ["diabetes", "type 1", "type 2", "diabetes mellitus", "gestational", "polyuria", "polydipsia", "hba1c", "glucose tolerance", "fasting glucose", "metabolic syndrome", "prediabetes", "insulin resistance", "obesity", "waist"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-ENDO-003"],
       },
     },
     {
@@ -229,6 +231,8 @@ export const diabetesFoundations: CourseModule = {
       ],
       quiz: {
         keywords: ["diabetic", "diabetic diet", "carbohydrate", "self monitor", "blood glucose monitoring", "glucometer", "sick day", "ketone", "hba1c", "diabetes education", "foot care", "sugar", "soft drink", "overweight", "ramadan"],
+        categories: ["med-surg", "health-promotion"],
+        questionIds: ["NG-MOD-ENDO-004"],
       },
     },
     {
@@ -339,6 +343,8 @@ export const diabetesFoundations: CourseModule = {
       ],
       quiz: {
         keywords: ["gestational", "diabetes in pregnancy", "pregnant diabetic", "ogtt", "oral glucose tolerance", "macrosomia", "big baby", "shoulder dystocia", "preconception", "antenatal diabetes", "neonatal hypoglycaemia", "polyhydramnios", "birth weight", "diabetic", "diabetes", "glucose", "hba1c"],
+        categories: ["maternal-newborn", "med-surg"],
+        questionIds: ["NG-MOD-ENDO-005"],
       },
     },
   ],

@@ -112,6 +112,8 @@ export const thyroidAdrenalPituitary: CourseModule = {
       ],
       quiz: {
         keywords: ["thyroid", "hypothyroid", "hyperthyroid", "thyrotoxic", "graves", "goitre", "iodine", "iodised", "levothyroxine", "thyroxine", "carbimazole", "propylthiouracil", "thyroid storm", "myxoedema", "tsh", "cretin"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-ENDO-014"],
       },
     },
     {
@@ -209,6 +211,8 @@ export const thyroidAdrenalPituitary: CourseModule = {
       ],
       quiz: {
         keywords: ["thyroidectomy", "thyroid surgery", "thyroid", "hypocalcaemia", "tingling", "chvostek", "trousseau", "tetany", "calcium gluconate", "laryngeal nerve", "haematoma", "neck swelling", "tracheostomy set", "clip remover", "parathyroid"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-ENDO-015"],
       },
     },
     {
@@ -319,6 +323,8 @@ export const thyroidAdrenalPituitary: CourseModule = {
       ],
       quiz: {
         keywords: ["adrenal", "addison", "cushing", "cortisol", "hydrocortisone", "prednisolone", "steroid", "fludrocortisone", "phaeochromocytoma", "pheochromocytoma", "aldosterone", "hyperaldosteron", "moon face", "striae", "pigmentation", "buffalo hump"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-ENDO-016"],
       },
     },
     {
@@ -404,6 +410,8 @@ export const thyroidAdrenalPituitary: CourseModule = {
       ],
       quiz: {
         keywords: ["pituitary", "diabetes insipidus", "siadh", "antidiuretic", "vasopressin", "desmopressin", "hyponatraemia", "hypernatraemia", "specific gravity", "urine osmolality", "fluid restriction", "acromegaly", "growth hormone", "prolactin", "galactorrhoea", "sheehan", "hemianopia", "thirst", "large volumes", "water intoxication", "oxytocin", "osmolality"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-ENDO-017"],
       },
     },
     {
@@ -497,6 +505,8 @@ export const thyroidAdrenalPituitary: CourseModule = {
       ],
       quiz: {
         keywords: ["calcium", "hypocalcaemia", "hypercalcaemia", "parathyroid", "tetany", "chvostek", "trousseau", "tingling", "calcium gluconate", "vitamin d", "rickets", "phosphate", "corrected calcium", "thyroidectomy", "muscle spasm"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-ENDO-018"],
       },
     },
   ],
