@@ -267,21 +267,21 @@ export default function ExamRunner({ examId }: { examId: string }) {
 
         <div className="space-y-4">
           {review.map((q, i) => (
-            <div key={q.id} className="relative secure-content rounded-2xl border border-slate-200 bg-white p-5">
+            <div key={q.id} className="relative secure-content rounded-2xl border border-slate-200 bg-white p-4 sm:p-5">
               <Watermark />
-              <div className="flex items-center justify-between gap-2">
-                <div className="flex items-center gap-2">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
                   <span className="text-xs font-bold text-slate-400">Q{i + 1}</span>
                   <span className={`rounded-full px-2 py-0.5 text-[11px] font-semibold capitalize ${DIFFICULTY_STYLE[q.difficulty]}`}>
                     {q.difficulty}
                   </span>
                   <span className="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-600">{q.categoryName}</span>
                 </div>
-                <span className={`text-sm font-bold ${q.isCorrect ? "text-emerald-600" : "text-rose-600"}`}>
+                <span className={`text-xs sm:text-sm font-bold ${q.isCorrect ? "text-emerald-600" : "text-rose-600"}`}>
                   {q.isCorrect ? "✓ Correct" : q.selectedChoiceId ? "✕ Incorrect" : "— Unanswered"}
                 </span>
               </div>
-              <p className="mt-3 text-sm leading-relaxed text-slate-900"><EmphasisedText text={q.stem} /></p>
+              <p className="mt-3 text-[14px] sm:text-sm leading-relaxed text-slate-900"><EmphasisedText text={q.stem} /></p>
               <div className="mt-3 space-y-2">
                 {q.choices.map((choice) => {
                   const correctIds = q.correctChoiceId.split(",");
@@ -291,7 +291,7 @@ export default function ExamRunner({ examId }: { examId: string }) {
                   return (
                     <div
                       key={choice.id}
-                      className={`rounded-lg border px-3 py-2 text-sm ${
+                      className={`rounded-lg border px-3 py-2 text-xs sm:text-sm ${
                         isCorrectChoice
                           ? "border-emerald-400 bg-emerald-50 text-emerald-900"
                           : isYourWrongChoice
@@ -299,9 +299,9 @@ export default function ExamRunner({ examId }: { examId: string }) {
                             : "border-slate-200 text-slate-600"
                       }`}
                     >
-                      <span className="flex items-start gap-3">
+                      <span className="flex items-start gap-2.5 sm:gap-3">
                         <OptionBadge label={choice.id} state={isCorrectChoice ? "correct" : isYourWrongChoice ? "wrong" : "default"} />
-                        <span className="pt-1">{choice.text}</span>
+                        <span className="pt-0.5 leading-snug">{choice.text}</span>
                       </span>
                     </div>
                   );
@@ -380,16 +380,16 @@ export default function ExamRunner({ examId }: { examId: string }) {
       </div>
 
       {q && (
-        <div className="relative secure-content rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <div className="relative secure-content rounded-2xl border border-slate-200 bg-white p-4 sm:p-6 shadow-sm">
           <Watermark />
-          <div className="mb-3 flex items-center gap-2">
+          <div className="mb-3 flex flex-wrap items-center gap-2">
             <span className={`rounded-full px-2 py-0.5 text-[11px] font-semibold capitalize ${DIFFICULTY_STYLE[q.difficulty]}`}>{q.difficulty}</span>
             <span className="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-600">{q.categoryName}</span>
             {q.isSata && (
               <span className="rounded-full bg-indigo-100 px-2 py-0.5 text-[11px] font-bold text-indigo-700">Select all that apply</span>
             )}
           </div>
-          <p className="text-base leading-relaxed text-slate-900"><EmphasisedText text={q.stem} /></p>
+          <p className="text-[15px] sm:text-base leading-relaxed text-slate-900"><EmphasisedText text={q.stem} /></p>
           <div className="mt-5 space-y-2.5">
             {q.choices.map((choice) => {
               const selected = q.isSata
@@ -399,7 +399,7 @@ export default function ExamRunner({ examId }: { examId: string }) {
                 <button
                   key={choice.id}
                   onClick={() => (q.isSata ? toggleSataAnswer(q.id, choice.id) : selectAnswer(q.id, choice.id))}
-                  className={`flex w-full items-start gap-3 rounded-xl border px-4 py-3 text-left text-sm transition ${
+                  className={`flex w-full items-start gap-2.5 sm:gap-3 rounded-xl border px-3.5 py-3 sm:px-4 text-left text-[13px] sm:text-sm leading-snug sm:leading-normal transition ${
                     selected
                       ? q.isSata
                         ? "border-indigo-500 bg-indigo-50 text-indigo-900"
@@ -408,7 +408,7 @@ export default function ExamRunner({ examId }: { examId: string }) {
                   }`}
                 >
                   <OptionBadge label={choice.id} shape={q.isSata ? "square" : "circle"} state={selected ? "selected" : "default"} />
-                  <span className="pt-1">{choice.text}</span>
+                  <span className="pt-0.5">{choice.text}</span>
                 </button>
               );
             })}
@@ -416,22 +416,33 @@ export default function ExamRunner({ examId }: { examId: string }) {
         </div>
       )}
 
-      <div className="mt-5 flex items-center justify-between gap-3">
+      <div className="mt-5 flex items-center justify-between gap-2 sm:gap-3">
         <button
           onClick={() => setCurrent((i) => Math.max(0, i - 1))}
           disabled={current === 0}
-          className="rounded-lg border border-slate-200 px-4 py-2 text-sm font-semibold text-slate-600 hover:bg-slate-50 disabled:opacity-40"
+          className="rounded-xl border border-slate-200 px-3.5 sm:px-4 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-50 disabled:opacity-40 shrink-0"
         >
-          ← Previous
+          ← Prev
         </button>
 
-        <div className="flex flex-wrap justify-center gap-1.5 px-2">
+        {/* Mobile portrait progress indicator */}
+        <div className="flex sm:hidden flex-col items-center justify-center text-center px-1">
+          <span className="text-xs font-bold text-slate-800 tabular-nums">
+            {current + 1} / {questions.length}
+          </span>
+          <span className="text-[10px] text-slate-500 tabular-nums">
+            {answeredCount} done
+          </span>
+        </div>
+
+        {/* Tablet & Desktop dot grid */}
+        <div className="hidden sm:flex flex-wrap justify-center gap-1.5 px-2 max-h-24 overflow-y-auto">
           {questions.map((qq, i) => (
             <button
               key={qq.id}
               onClick={() => setCurrent(i)}
               className={`h-2.5 w-2.5 rounded-full transition ${
-                i === current ? "bg-emerald-600" : answers[qq.id] ? "bg-emerald-300" : "bg-slate-200"
+                i === current ? "bg-emerald-600 ring-2 ring-emerald-300" : answers[qq.id] ? "bg-emerald-300" : "bg-slate-200"
               }`}
               aria-label={`Go to question ${i + 1}`}
             />
@@ -441,7 +452,7 @@ export default function ExamRunner({ examId }: { examId: string }) {
         {current + 1 < questions.length ? (
           <button
             onClick={() => setCurrent((i) => Math.min(questions.length - 1, i + 1))}
-            className="rounded-lg bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800"
+            className="rounded-xl bg-slate-900 px-4 sm:px-5 py-2.5 text-sm font-semibold text-white hover:bg-slate-800 shrink-0"
           >
             Next →
           </button>
@@ -449,9 +460,9 @@ export default function ExamRunner({ examId }: { examId: string }) {
           <button
             onClick={submitExam}
             disabled={submitting}
-            className="rounded-lg bg-emerald-600 px-5 py-2 text-sm font-bold text-white shadow-sm hover:bg-emerald-700 disabled:opacity-70"
+            className="rounded-xl bg-emerald-600 px-4 sm:px-5 py-2.5 text-sm font-bold text-white shadow-sm hover:bg-emerald-700 disabled:opacity-70 shrink-0"
           >
-            {submitting ? "Submitting…" : "Submit exam →"}
+            {submitting ? "Submitting…" : "Submit →"}
           </button>
         )}
       </div>

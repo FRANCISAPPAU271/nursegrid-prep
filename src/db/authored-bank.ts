@@ -27,6 +27,34 @@ import { ENDOCRINE_MODULE_SCENARIOS } from "./endocrine-module-scenarios";
 import { RENAL_MODULE_SCENARIOS } from "./renal-module-scenarios";
 import { NEURO_MODULE_SCENARIOS } from "./neuro-module-scenarios";
 import { GI_MODULE_SCENARIOS } from "./gi-module-scenarios";
+import { MSK_MODULE_SCENARIOS } from "./msk-module-scenarios";
+import { HAEM_MODULE_SCENARIOS } from "./haem-module-scenarios";
+import { IPC_MODULE_SCENARIOS } from "./ipc-module-scenarios";
+import { PAED_MODULE_SCENARIOS } from "./paed-module-scenarios";
+import { OBS_MODULE_SCENARIOS } from "./obs-module-scenarios";
+import { EMERG_MODULE_SCENARIOS } from "./emerg-module-scenarios";
+import { MH_MODULE_SCENARIOS } from "./mh-module-scenarios";
+import { FUND_MODULE_SCENARIOS } from "./fund-module-scenarios";
+import { CC_MODULE_SCENARIOS } from "./cc-module-scenarios";
+import { COMM_MODULE_SCENARIOS } from "./comm-module-scenarios";
+import { CHN_MODULE_SCENARIOS } from "./chn-module-scenarios";
+import { PHARM_MODULE_SCENARIOS } from "./pharm-module-scenarios";
+import { GERO_MODULE_SCENARIOS } from "./gero-module-scenarios";
+import { GYN_MODULE_SCENARIOS } from "./gyn-module-scenarios";
+import { INTEG_MODULE_SCENARIOS } from "./integ-module-scenarios";
+import { NUTR_MODULE_SCENARIOS } from "./nutr-module-scenarios";
+import { PROC_MODULE_SCENARIOS } from "./proc-module-scenarios";
+import { LEAD_MODULE_SCENARIOS } from "./lead-module-scenarios";
+import { TC_MODULE_SCENARIOS } from "./tc-module-scenarios";
+import { PRO1_MODULE_SCENARIOS } from "./pro1-module-scenarios";
+import { PRO2_MODULE_SCENARIOS } from "./pro2-module-scenarios";
+import { BEH_MODULE_SCENARIOS } from "./beh-module-scenarios";
+import { INFO_MODULE_SCENARIOS } from "./info-module-scenarios";
+import { RSCH_MODULE_SCENARIOS } from "./rsch-module-scenarios";
+import { TCAM_MODULE_SCENARIOS } from "./tcam-module-scenarios";
+import { AP1_MODULE_SCENARIOS } from "./ap1-module-scenarios";
+import { AP2_MODULE_SCENARIOS } from "./ap2-module-scenarios";
+import { AP3_MODULE_SCENARIOS } from "./ap3-module-scenarios";
 
 export type AuthoredQuestion = {
   authoredId: string;
@@ -43,7 +71,7 @@ export type AuthoredQuestion = {
   mediaCaption?: string;
 };
 
-export const AUTHORED_COUNT = 4950;
+export const AUTHORED_COUNT = 5510;
 export const AUTHORED_COUNT_LABEL = "3,200+";
 export const AUTHORED_DIAGRAM_COUNT = 619;
 
@@ -119534,5 +119562,33 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   ...RENAL_MODULE_SCENARIOS,
   ...NEURO_MODULE_SCENARIOS,
   ...GI_MODULE_SCENARIOS,
+  ...MSK_MODULE_SCENARIOS,
+  ...HAEM_MODULE_SCENARIOS,
+  ...IPC_MODULE_SCENARIOS,
+  ...PAED_MODULE_SCENARIOS,
+  ...OBS_MODULE_SCENARIOS,
+  ...EMERG_MODULE_SCENARIOS,
+  ...MH_MODULE_SCENARIOS,
+  ...FUND_MODULE_SCENARIOS,
+  ...CC_MODULE_SCENARIOS,
+  ...COMM_MODULE_SCENARIOS,
+  ...CHN_MODULE_SCENARIOS,
+  ...PHARM_MODULE_SCENARIOS,
+  ...GERO_MODULE_SCENARIOS,
+  ...GYN_MODULE_SCENARIOS,
+  ...INTEG_MODULE_SCENARIOS,
+  ...NUTR_MODULE_SCENARIOS,
+  ...PROC_MODULE_SCENARIOS,
+  ...LEAD_MODULE_SCENARIOS,
+  ...TC_MODULE_SCENARIOS,
+  ...PRO1_MODULE_SCENARIOS,
+  ...PRO2_MODULE_SCENARIOS,
+  ...BEH_MODULE_SCENARIOS,
+  ...INFO_MODULE_SCENARIOS,
+  ...RSCH_MODULE_SCENARIOS,
+  ...TCAM_MODULE_SCENARIOS,
+  ...AP1_MODULE_SCENARIOS,
+  ...AP2_MODULE_SCENARIOS,
+  ...AP3_MODULE_SCENARIOS,
 ];
 

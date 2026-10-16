@@ -113,7 +113,11 @@ export const clinicalJudgementAndPrioritisation: CourseModule = {
         "Within one patient the order is assess, act on the life threat, escalate, then document — patient, then prescriber, then paper.",
         "Early warning scores, the IMCI general danger signs and triage categories are structured ways of applying the same judgement so that the sickest patient is found first by everyone, every time.",
       ],
-      quiz: { keywords: ["nursing process","first step of the nursing process","nursing versus medical diagnosis","nursing diagnosis","individualised care planning","writing a measurable goal","smart objectives","objective set by","subjective and objective data","assess first","priority","prioriti","prioritisation using abc","prioritising a patient assignment","most urgent","first action","nursing priority","priority observation","priority nursing","priorities in poisoning","which patient","deteriorat","early warning","clinical judgement","quiet patient","worsening","life threatening","danger sign","general danger","stable patient","abc","evaluating a nutrition care plan","evaluating patient and family","care plan"] },
+      quiz: {
+        questionIds: ["NG-MOD-LEAD-001"],
+        categories: ["leadership-delegation"],
+        keywords: ["nursing process","first step of the nursing process","nursing versus medical diagnosis","nursing diagnosis","individualised care planning","writing a measurable goal","smart objectives","objective set by","subjective and objective data","assess first","priority","prioriti","prioritisation using abc","prioritising a patient assignment","most urgent","first action","nursing priority","priority observation","priority nursing","priorities in poisoning","which patient","deteriorat","early warning","clinical judgement","quiet patient","worsening","life threatening","danger sign","general danger","stable patient","abc","evaluating a nutrition care plan","evaluating patient and family","care plan"]
+      },
     },
     {
       slug: "prioritising-patients-time-and-limited-resources",
@@ -230,7 +234,11 @@ export const clinicalJudgementAndPrioritisation: CourseModule = {
         "When staff fail to arrive, the nurse in charge assesses workload and dependency, re-prioritises to protect essential care and escalates the shortfall formally and in writing; missed care is reported, not hidden.",
         "Beyond the ward, prioritise home visits by risk and time-sensitivity, community problems by magnitude, severity, feasibility and community concern, and patient flow by finding the bottleneck, discharging early and referring with a call ahead.",
       ],
-      quiz: { keywords: ["triage","mass casualty","disaster","evacuation","incident command","flood response","relief camp","fire safety","fire drill","fire breaks out","hospital evacuation","psychological first aid","limited resources","resource constraints","competing demands","time management","workload","staff shortage","fail to report for a shift","interruption","escalat","chain of command","has not responded","two calls","deteriorating patient","home visiting priorities","purpose of the home visit","prioritising community","community problems","bottleneck","identifying a bottleneck","improving throughput","smoothing demand","waiting time","discharge planning","home circumstances and discharge","continuity of care after discharge","length of stay","referral coordination","referral practice","referral pathway","referral within the health system","queue","sixty patients","before eight in the morning","ward bed","turned away","documentation in emergencies","documentation in an incident","dead body management","communication with the public","staff welfare in disasters","only qualified staff member"] },
+      quiz: {
+        questionIds: ["NG-MOD-LEAD-002"],
+        categories: ["leadership-delegation"],
+        keywords: ["triage","mass casualty","disaster","evacuation","incident command","flood response","relief camp","fire safety","fire drill","fire breaks out","hospital evacuation","psychological first aid","limited resources","resource constraints","competing demands","time management","workload","staff shortage","fail to report for a shift","interruption","escalat","chain of command","has not responded","two calls","deteriorating patient","home visiting priorities","purpose of the home visit","prioritising community","community problems","bottleneck","identifying a bottleneck","improving throughput","smoothing demand","waiting time","discharge planning","home circumstances and discharge","continuity of care after discharge","length of stay","referral coordination","referral practice","referral pathway","referral within the health system","queue","sixty patients","before eight in the morning","ward bed","turned away","documentation in emergencies","documentation in an incident","dead body management","communication with the public","staff welfare in disasters","only qualified staff member"]
+      },
     },
   ],
 };

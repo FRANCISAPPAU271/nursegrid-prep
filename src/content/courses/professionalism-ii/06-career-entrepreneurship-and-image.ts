@@ -72,8 +72,9 @@ export const careerEntrepreneurshipAndImage: CourseModule = {
         "Five-year plans written + yearly mentor-reviewed; setbacks get reflection, not surrender.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO2-016"],
         keywords: ["career", "promotion", "SNO", "principal", "director", "specialities", "top-up", "BSc", "masters", "PhD", "study leave", "scholarships", "bond", "appraisal", "five-year plan"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
     {
@@ -142,8 +143,9 @@ export const careerEntrepreneurshipAndImage: CourseModule = {
         "Moonlighting theft + title fraud end careers; licences, books and words must match.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO2-017","NG-MOD-PRO2-018"],
         keywords: ["entrepreneurship", "private practice", "HeFRA", "licence", "home care", "clinic", "business plan", "pricing", "marketing", "image", "social media", "welfare", "pension", "burnout", "title fraud"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
   ],

@@ -127,7 +127,11 @@ export const theChildInGhanaGrowthDevelopmentAndTheFamily: CourseModule = {
         "Development is cephalocaudal, proximodistal, general to specific, in a fixed sequence at a variable rate; judge against limit ages, correct for prematurity until two years, and regard the loss of any skill as abnormal.",
         "Red flags: no social smile by 8–10 weeks, head lag or persistent primitive reflexes at 6 months, not sitting alone by 9 months, not walking or no words by 18 months, no two-word phrases by 2–2½ years, hand preference before 12–18 months, any regression — refer, do not reassure.",
       ],
-      quiz: { keywords: ["developmental milestone","developmental regression","sequence of development","principles of development","corrected age","correcting for prematurity","growth versus development","interpreting a growth chart","growth monitoring","growth chart","milestone","head circumference","weight for age","height for age","stunting","underweight","child welfare clinic","vitamin a supplementation","deworming","school health","childhood obesity","school feeding","faltering","under five","fontanelle","erikson","adolescent nutrition","chps compound"] },
+      quiz: {
+        keywords: ["developmental milestone","developmental regression","sequence of development","principles of development","corrected age","correcting for prematurity","growth versus development","interpreting a growth chart","growth monitoring","growth chart","milestone","head circumference","weight for age","height for age","stunting","underweight","child welfare clinic","vitamin a supplementation","deworming","school health","childhood obesity","school feeding","faltering","under five","fontanelle","erikson","adolescent nutrition","chps compound"],
+        categories: ["pediatrics", "health-promotion"],
+        questionIds: ["NG-MOD-PAED-001", "NG-MOD-PAED-003"],
+      },
     },
     {
       slug: "the-hospitalised-child-family-centred-care-consent-and-protection",
@@ -236,7 +240,11 @@ export const theChildInGhanaGrowthDevelopmentAndTheFamily: CourseModule = {
         "Under the Children's Act (Act 560) a parent or guardian consents for a child under 18 and the child's view must be heard; seek the child's assent, treat in emergencies in the child's best interests, escalate a parental refusal of life-saving treatment, and give adolescents confidential, friendly care with the limits explained first.",
         "Suspect abuse when the injury does not fit the story or the child's stage, care was delayed, bruises are of different ages or patterned, burns have tide lines, or the child is frozen and watchful; treat, believe, do not confront, document verbatim with a body map, inform the senior nurse and doctor, protect the child and report to the Department of Social Welfare and DOVVSU.",
       ],
-      quiz: { keywords: ["play in hospital","pain assessment in a young child","flacc","separation anxiety","hospitalisation","hospitalised child","preparing a child for a procedure","holding a child still","talking to a school age child","explaining a diagnosis","family centred care","involving parents","siblings","parents of a disabled child","caring for a dying child","dying child","consent in children","assent","older child","confidentiality with an adolescent","adolescent confidentiality","child abuse","suspected child abuse","non accidental","a parent's account","neglect","toddler","school age","research involving children","protest","paediatric ward","children's ward"] },
+      quiz: {
+        keywords: ["play in hospital","pain assessment in a young child","flacc","separation anxiety","hospitalisation","hospitalised child","preparing a child for a procedure","holding a child still","talking to a school age child","explaining a diagnosis","family centred care","involving parents","siblings","parents of a disabled child","caring for a dying child","dying child","consent in children","assent","older child","confidentiality with an adolescent","adolescent confidentiality","child abuse","suspected child abuse","non accidental","a parent's account","neglect","toddler","school age","research involving children","protest","paediatric ward","children's ward"],
+        categories: ["pediatrics"],
+        questionIds: ["NG-MOD-PAED-002"],
+      },
     },
   ],
 };

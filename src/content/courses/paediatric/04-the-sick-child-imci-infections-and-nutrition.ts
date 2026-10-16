@@ -112,7 +112,11 @@ export const theSickChildImciInfectionsAndNutrition: CourseModule = {
         "Typhoid is the fever that lasts a week with abdominal pain and a relative bradycardia (watch for perforation); otitis media gets five days of amoxicillin and dry wicking while mastoiditis is referred; infant urinary infection hides behind fever without a source; measles gets isolation, vitamin A and notification.",
         "Suspect TB in any child with two weeks of cough or fever, weight loss or a household contact who coughs — diagnose with contact history, X-ray and GeneXpert, treat 2HRZE/4HR by weight, and give preventive therapy to under-five contacts and children with HIV; offer HIV testing to every child with recurrent infection, thrush, failure to thrive or an HIV-positive mother, and treat the febrile child with HIV urgently.",
       ],
-      quiz: { keywords: ["imci","general danger sign","integrated management","pre referral","emergency signs","lethargic","unable to drink","vomits everything","fever in a child","severe malaria in a child","severe malaria","artesunate dosing","artesunate","malaria in a child","meningitis recognition","meningitis","neck stiffness","measles","complications of measles","otitis media","sore throat","paediatric hiv","hiv exposed","cotrimoxazole prophylaxis","childhood tuberculosis","contact tracing","febrile","intestinal worms","worm","prevention of mother to child","infant feeding and hiv","child with fever","convulsing","convulsion","sick child","two month old"] },
+      quiz: {
+        keywords: ["imci","general danger sign","integrated management","pre referral","emergency signs","lethargic","unable to drink","vomits everything","fever in a child","severe malaria in a child","severe malaria","artesunate dosing","artesunate","malaria in a child","meningitis recognition","meningitis","neck stiffness","measles","complications of measles","otitis media","sore throat","paediatric hiv","hiv exposed","cotrimoxazole prophylaxis","childhood tuberculosis","contact tracing","febrile","intestinal worms","worm","prevention of mother to child","infant feeding and hiv","child with fever","convulsing","convulsion","sick child","two month old"],
+        categories: ["pediatrics"],
+        questionIds: ["NG-MOD-PAED-009"],
+      },
     },
     {
       slug: "fever-and-rash-in-children-drill",
@@ -180,6 +184,8 @@ export const theSickChildImciInfectionsAndNutrition: CourseModule = {
       ],
       quiz: {
         keywords: ["measles", "rubella", "chickenpox", "varicella", "scarlet fever", "roseola", "erythema infectiosum", "kawasaki", "henoch", "meningococcal", "meningococcaemia", "hand foot and mouth", "exanthem", "purpura", "febrile rash", "childhood rash"],
+        categories: ["pediatrics"],
+        questionIds: ["NG-MOD-PAED-009"],
       },
     },
     {
@@ -281,7 +287,11 @@ export const theSickChildImciInfectionsAndNutrition: CourseModule = {
         "Acute asthma: salbutamol 2–10 puffs by spacer every 20 minutes for the first hour plus oral prednisolone 1–2 mg/kg (max 40 mg) for 3–5 days; severe attacks add oxygen, nebulised salbutamol and ipratropium and admission; a silent chest, cyanosis, exhaustion or drowsiness is life-threatening — continuous nebulisation, magnesium, senior help.",
         "Long-term asthma control is teaching: spacer technique at every visit (a 500 mL bottle works), a written action plan, smoke and trigger avoidance, a preventer inhaled steroid for any child needing a reliever more than twice a week, and no cough syrups, antihistamines or aspirin for any child's cough.",
       ],
-      quiz: { keywords: ["counting respiratory rate","fast breathing","chest indrawing","stridor","wheez","pneumonia","oxygen saturation","pulse oximet","bronchiolitis","croup","barking cough","recognising a severe asthma attack","asthma triggers","asthma","salbutamol","spacer","nebulis","prednisolone","foreign body aspiration","choking","whooping cough","amoxicillin","grunting","cyanosis","epiglottitis","respiratory rate in a child","breaths per minute","breaths a minute","cough for","cough and","difficulty breathing","oral antibiotic","inhaler","peak flow","silent chest","unable to speak","humidif","swallowed a","groundnut","peanut","coryza","whoop"] },
+      quiz: {
+        keywords: ["counting respiratory rate","fast breathing","chest indrawing","stridor","wheez","pneumonia","oxygen saturation","pulse oximet","bronchiolitis","croup","barking cough","recognising a severe asthma attack","asthma triggers","asthma","salbutamol","spacer","nebulis","prednisolone","foreign body aspiration","choking","whooping cough","amoxicillin","grunting","cyanosis","epiglottitis","respiratory rate in a child","breaths per minute","breaths a minute","cough for","cough and","difficulty breathing","oral antibiotic","inhaler","peak flow","silent chest","unable to speak","humidif","swallowed a","groundnut","peanut","coryza","whoop"],
+        categories: ["pediatrics"],
+        questionIds: ["NG-MOD-PAED-012"],
+      },
     },
     {
       slug: "diarrhoea-dehydration-and-malnutrition-in-children",
@@ -406,7 +416,11 @@ export const theSickChildImciInfectionsAndNutrition: CourseModule = {
         "Moderate malnutrition and anaemia are treated with feeding counselling, supplementary food where available, infection treatment, deworming, vitamin A, iron and folate for three months and fortnightly weighing — the stage where counselling prevents admission.",
         "Complementary feeding from six months with breastfeeding to two years: thick enough to stay on the spoon, in the child's own bowl, enriched with groundnut, egg, fish powder, beans, dark green leaves and oil, an animal food daily, rising from 2–3 tablespoons twice a day at six months to three-quarters to a full cup three to four times a day plus snacks by one year, fed responsively and increased during and after illness — ask what was eaten yesterday before you advise.",
       ],
-      quiz: { keywords: ["assessing dehydration in a child","dehydration classification","severe dehydration","some dehydration","plan a","plan b","plan c","ors volume in plan b","preparing ors at home","home fluids","oral rehydration","zinc","skin pinch","sunken eyes","fluid overload during rehydration","bloody diarrhoea","blood in the stool","lactose","muac","measuring muac","bilateral pitting oedema","oedema in a well grown child","severe acute malnutrition","malnutrition","kwashiorkor","marasmus","f 75","rutf","refeeding","iron in severe malnutrition","antibiotics in severe malnutrition","fluid choice","discharge after malnutrition","appetite test","complementary feeding","thickness of infant porridge","feeding during illness","feeding a child who refuses food","over dilution of infant formula","infant formula","vitamin a","weaning","stunting","exclusive breastfeeding","zinc in childhood","75 ml/kg","100 ml/kg","koko","porridge","eggs","loose stools","sachet","drinks eagerly","powdered formula","watery stools","prolonged diarrhoea","childhood diarrhoea","child with diarrhoea","acute diarrhoea","gastroenteritis","lactose intolerance"] },
+      quiz: {
+        keywords: ["assessing dehydration in a child","dehydration classification","severe dehydration","some dehydration","plan a","plan b","plan c","ors volume in plan b","preparing ors at home","home fluids","oral rehydration","zinc","skin pinch","sunken eyes","fluid overload during rehydration","bloody diarrhoea","blood in the stool","lactose","muac","measuring muac","bilateral pitting oedema","oedema in a well grown child","severe acute malnutrition","malnutrition","kwashiorkor","marasmus","f 75","rutf","refeeding","iron in severe malnutrition","antibiotics in severe malnutrition","fluid choice","discharge after malnutrition","appetite test","complementary feeding","thickness of infant porridge","feeding during illness","feeding a child who refuses food","over dilution of infant formula","infant formula","vitamin a","weaning","stunting","exclusive breastfeeding","zinc in childhood","75 ml/kg","100 ml/kg","koko","porridge","eggs","loose stools","sachet","drinks eagerly","powdered formula","watery stools","prolonged diarrhoea","childhood diarrhoea","child with diarrhoea","acute diarrhoea","gastroenteritis","lactose intolerance"],
+        categories: ["fluid-electrolyte", "pediatrics"],
+        questionIds: ["NG-MOD-PAED-010", "NG-MOD-PAED-011"],
+      },
     },
   ],
 };

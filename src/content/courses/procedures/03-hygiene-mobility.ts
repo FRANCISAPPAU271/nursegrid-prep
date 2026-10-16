@@ -107,7 +107,11 @@ export const hygieneComfortAndMobilityProcedures: CourseModule = {
         "Toenails straight across — but file, do not cut, in diabetes and arterial disease, and teach daily foot inspection, tested water, drying between the toes, no barefoot walking and no heat at the feet; electric razor only for the anticoagulated.",
         "Pressure-area care: risk score within six hours and skin inspection at every reposition, looking on dark skin for colour change, warmth, firmness and pain; SSKIN — a pressure-redistributing surface with heels floated, skin inspection, keep moving with the 30-degree tilt and slide sheets, manage incontinence and moisture with barrier products, and feed and hydrate; no rings, spirit, powder, massage or heat.",
       ],
-      quiz: { keywords: ["bed bath","bathing","perineal","oral care","mouth care","denture","unconscious","hair","nail","foot care","diabetic foot","eye care","ear care","pressure ulcer","pressure area","pressure injur","shear","sacrum","turning","hygiene","scabies","lice","ringworm","incontinence","moisture","staging","soap","candid"] },
+      quiz: {
+        questionIds: ["NG-MOD-PROC-007"],
+        categories: ["fundamentals"],
+        keywords: ["bed bath","bathing","perineal","oral care","mouth care","denture","unconscious","hair","nail","foot care","diabetic foot","eye care","ear care","pressure ulcer","pressure area","pressure injur","shear","sacrum","turning","hygiene","scabies","lice","ringworm","incontinence","moisture","staging","soap","candid"]
+      },
     },
     {
       slug: "positioning-safer-moving-walking-aids-falls-restraint-and-heat-and-cold-applications",
@@ -226,7 +230,11 @@ export const hygieneComfortAndMobilityProcedures: CourseModule = {
         "Restraint only as an authorised, time-limited last resort after documented alternatives: least restrictive device, two fingers beneath, quick-release knot to the frame, fifteen-minute checks, two-hourly release, never for convenience or punishment; therapeutic holding of children with parental consent.",
         "Heat and cold for 15–30 minutes, covered, with skin checks, never on impaired sensation or circulation, no cold in sickle cell disease; tepid sponging for fever is withdrawn — antipyretics for comfort, light clothing and fluids — and active cooling is for hyperthermia only.",
       ],
-      quiz: { keywords: ["position","positioning","recovery position","log roll","lifting","mobilis","ambulat","crutch","walking stick","walking aid","wheelchair","range of motion","contracture","deep vein","anti-embolism","stockings","falls risk","restrain","comfort","immobility","bed rest","hazards of bed rest","postural hypotension","venous thrombo","physiotherap","assistive","hemiplegi","paralys"] },
+      quiz: {
+        questionIds: ["NG-MOD-PROC-006"],
+        categories: ["fundamentals"],
+        keywords: ["position","positioning","recovery position","log roll","lifting","mobilis","ambulat","crutch","walking stick","walking aid","wheelchair","range of motion","contracture","deep vein","anti-embolism","stockings","falls risk","restrain","comfort","immobility","bed rest","hazards of bed rest","postural hypotension","venous thrombo","physiotherap","assistive","hemiplegi","paralys"]
+      },
     },
   ],
 };

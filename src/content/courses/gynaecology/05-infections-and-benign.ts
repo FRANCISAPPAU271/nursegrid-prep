@@ -118,7 +118,11 @@ export const infectionsAndBenignGynaecology: CourseModule = {
         "Bartholin's abscess is drained and marsupialised (biopsy over 40); female genital schistosomiasis mimics cervicitis and STI in women from endemic areas and is treated with praziquantel; genital infections and HIV amplify each other, so every STI visit offers HIV testing, PEP within 72 hours when indicated and PrEP for women at continuing risk.",
         "The parts of the consultation that prevent reinfection — partner treatment, condoms and abstinence until both are treated, HIV and syphilis testing, completing the course, review and retesting, screening for violence, safeguarding under 16, reporting, and a private non-judgemental manner — are the treatment too.",
       ],
-      quiz: { keywords: ["syndromic","urethral discharge","vaginal discharge","genital ulcer","syphilis","gonorrh","trichomon","candid","pelvic inflammatory","partner treatment","dual protection","condom","hepatitis b","post-exposure","adolescent confidentiality","stigma","metronidazole","ceftriaxone","azithromycin","antifungal","nystatin","lower abdominal pain","offensive discharge","sexually","hiv test","test and treat","tell her husband","not to tell her parents","indurated"] },
+      quiz: {
+        questionIds: ["NG-MOD-GYN-012", "NG-MOD-GYN-013"],
+        categories: ["safety-infection-control", "maternal-newborn"],
+        keywords: ["syndromic","urethral discharge","vaginal discharge","genital ulcer","syphilis","gonorrh","trichomon","candid","pelvic inflammatory","partner treatment","dual protection","condom","hepatitis b","post-exposure","adolescent confidentiality","stigma","metronidazole","ceftriaxone","azithromycin","antifungal","nystatin","lower abdominal pain","offensive discharge","sexually","hiv test","test and treat","tell her husband","not to tell her parents","indurated"]
+      },
     },
     {
       slug: "fibroids-ovarian-cysts-prolapse-incontinence-and-obstetric-fistula",
@@ -237,7 +241,11 @@ export const infectionsAndBenignGynaecology: CourseModule = {
         "Pregnancy test first, history and examination second, scan third — simple small premenopausal cysts are watched, complex or postmenopausal masses are referred.",
         "CA-125 means nothing without the scan; the Risk of Malignancy Index decides who needs gynaecology-oncology before any operation.",
       ],
-      quiz: { keywords: ["fibroid", "ovarian", "torsion", "cystocele", "uterine prolapse", "uterine-prolapse", "pelvic-organ", "pelvic organ", "colporrhaphy", "something coming down", "incontinence", "bladder training", "obstetric fistula", "obstructed labour", "leakage of urine", "leaking urine", "fistula", "urinary catheter", "catheterised", "self-catheterisation", "retained urine", "drainage bag", "urinary retention", "hysterectom", "cyst removed", "iron deficiency", "sinus and fistula", "pelvic pain", "endometri", "one-sided", "urinalysis", "continuous bladder", "indwelling", "female catheterisation", "catheter-associated", "pregnancy test", "ca-125", "rmi", "ultrasound", "referral", "ascites", "malignancy"] },
+      quiz: {
+        questionIds: ["NG-MOD-GYN-014"],
+        categories: ["maternal-newborn"],
+        keywords: ["fibroid", "ovarian", "torsion", "cystocele", "uterine prolapse", "uterine-prolapse", "pelvic-organ", "pelvic organ", "colporrhaphy", "something coming down", "incontinence", "bladder training", "obstetric fistula", "obstructed labour", "leakage of urine", "leaking urine", "fistula", "urinary catheter", "catheterised", "self-catheterisation", "retained urine", "drainage bag", "urinary retention", "hysterectom", "cyst removed", "iron deficiency", "sinus and fistula", "pelvic pain", "endometri", "one-sided", "urinalysis", "continuous bladder", "indwelling", "female catheterisation", "catheter-associated", "pregnancy test", "ca-125", "rmi", "ultrasound", "referral", "ascites", "malignancy"]
+      },
     },
   ],
 };

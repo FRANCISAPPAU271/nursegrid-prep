@@ -79,8 +79,9 @@ export const respiratorySystem: CourseModule = {
         "Vesicular normal; bronchial = consolidation; crackles = fluid/fibrosis; wheeze = narrowed; stridor = upper emergency; rub = pleurisy.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP2-010"],
         keywords: ["airway", "larynx", "epiglottis", "stridor", "bronchus", "aspiration", "asthma", "lobes", "pleura", "pneumothorax", "alveolus", "surfactant", "breath sounds", "crackles", "wheeze"],
-        categories: ["fundamentals", "medsurg"],
+        categories: ["fluid-electrolyte"],
       },
     },
     {
@@ -148,8 +149,9 @@ export const respiratorySystem: CourseModule = {
         "ROME: Respiratory Opposite, Metabolic Equal; deterioration drill: sit up, target O₂, ABCs, listen, gases, escalate.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP2-011","NG-MOD-AP2-012"],
         keywords: ["breathing", "diaphragm", "tidal volume", "dead space", "Kussmaul", "Cheyne-Stokes", "haemoglobin", "Bohr", "lactate", "CO2", "chemoreceptors", "hypoxic drive", "ABG", "acidosis", "oxygen therapy"],
-        categories: ["medsurg", "fundamentals"],
+        categories: ["fluid-electrolyte"],
       },
     },
   ],

@@ -108,7 +108,11 @@ export const asepsisDecontaminationAndSterilisation: CourseModule = {
         "Clean to dirty and never back: incision outwards, vulva front to back before catheterisation, perineum front to back, male meatus outwards with the foreskin replaced, eye from inner canthus outwards with the uninfected eye first.",
         "A torn, damp, expired, dropped or indicator-unchanged pack is unsterile; boiled instruments are disinfected not sterile; shortages are answered by requisition and strict non-touch technique, not by improvised sterility.",
       ],
-      quiz: { keywords: ["order of eye drops","perineal care","aseptic technique","aseptic dressing technique","medical versus surgical asepsis","surgical asepsis","medical asepsis","asepsis","aseptic","sterile field","maintaining a sterile field","sterile glove","sterile gloves","trolley","dressing trolley","wound dressing technique","forceps","sterile pack","damp sterile pack","vulval swabbing","sterile","drape","waist","removing an adherent dressing","wound cleansing","wound swab technique","swab","eye care","cleaning a wound","in which direction","front to back","each swab","fingertip of the second glove","glove touches","turns away","answer a colleague","midway through","mid procedure","assembling equipment","principles of trolley preparation","trolley layout","top shelf","lower shelf","scrub nurse","theatre team roles","gowning","surgical count","swab count","catheterisation","foreskin","balloon","eye drops","pinna","ear drops","instillation"] },
+      quiz: {
+        keywords: ["order of eye drops","perineal care","aseptic technique","aseptic dressing technique","medical versus surgical asepsis","surgical asepsis","medical asepsis","asepsis","aseptic","sterile field","maintaining a sterile field","sterile glove","sterile gloves","trolley","dressing trolley","wound dressing technique","forceps","sterile pack","damp sterile pack","vulval swabbing","sterile","drape","waist","removing an adherent dressing","wound cleansing","wound swab technique","swab","eye care","cleaning a wound","in which direction","front to back","each swab","fingertip of the second glove","glove touches","turns away","answer a colleague","midway through","mid procedure","assembling equipment","principles of trolley preparation","trolley layout","top shelf","lower shelf","scrub nurse","theatre team roles","gowning","surgical count","swab count","catheterisation","foreskin","balloon","eye drops","pinna","ear drops","instillation"],
+        categories: ["fundamentals", "safety-infection-control"],
+        questionIds: ["NG-MOD-IPC-009"],
+      },
     },
     {
       slug: "cleaning-disinfection-and-sterilisation",
@@ -221,7 +225,11 @@ export const asepsisDecontaminationAndSterilisation: CourseModule = {
         "Reprocessing runs point-of-use containment, cleaning by protected staff, inspection, packaging, sterilisation or disinfection, and storage off the floor — in one direction, with a log; single-use items are never reprocessed.",
         "Environmental cleaning moves clean to dirty and high to low with colour-coded equipment and frequently touched surfaces at least daily; the theatre's zones, attire, closed doors and minimal traffic are the sterile field built into the building.",
       ],
-      quiz: { keywords: ["traffic and door","street clothing","door discipline","hepatitis a","theatre zones","decontamination","sterilisation versus disinfection","sterilisation","disinfect","autoclave","sterility indicators","sterilisation monitoring","autoclave principle","autoclave tape","chlorine","boiling","ward cleaning","sharps in theatre","surgical instrument","soiled instrument","instrument categories","instruments that will enter","high level disinfection","spores","bacterial spores","blood pressure cuff","thermometer","bedpan","in what order should a hospital ward","soaked in alcohol","boiling water cannot","changed colour","sterilising conditions","reprocess","reuse","cleaned before","blood is spilled","spilled","mixed with","ten minutes","bed rail","curtain","between patients","nebuliser equipment infection control","between doses"] },
+      quiz: {
+        keywords: ["traffic and door","street clothing","door discipline","hepatitis a","theatre zones","decontamination","sterilisation versus disinfection","sterilisation","disinfect","autoclave","sterility indicators","sterilisation monitoring","autoclave principle","autoclave tape","chlorine","boiling","ward cleaning","sharps in theatre","surgical instrument","soiled instrument","instrument categories","instruments that will enter","high level disinfection","spores","bacterial spores","blood pressure cuff","thermometer","bedpan","in what order should a hospital ward","soaked in alcohol","boiling water cannot","changed colour","sterilising conditions","reprocess","reuse","cleaned before","blood is spilled","spilled","mixed with","ten minutes","bed rail","curtain","between patients","nebuliser equipment infection control","between doses"],
+        categories: ["safety-infection-control"],
+        questionIds: ["NG-MOD-IPC-010"],
+      },
     },
   ],
 };

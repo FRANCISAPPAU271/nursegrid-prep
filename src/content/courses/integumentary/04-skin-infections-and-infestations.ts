@@ -98,6 +98,8 @@ export const skinInfectionsAndInfestations: CourseModule = {
         "Wound prophylaxis: clean minor wound — toxoid if under three doses or over 10 years; tetanus-prone wound — toxoid if under three doses or over 5 years, plus immunoglobulin at a separate site if fewer than three documented doses or heavy contamination; unknown status counts as unimmunised; proper wound cleaning always.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INTEG-010", "NG-MOD-INTEG-011"],
+        categories: ["safety-infection-control", "pediatrics"],
         keywords: ["ringworm", "fungal", "antifungal", "scalp", "scaly", "ring shaped", "hair loss", "candida", "nystatin", "thrush", "impetigo", "cellulitis", "abscess", "pus ", "purulent", "boils", "necrotising", "gangrene", "leprosy", "buruli", "yaws", "tetanus", "scarification", "uvulectomy", "mrsa", "staph", "penicillin", "flucloxacillin", "benzathine", "griseofulvin", "clotrimazole", "mycobacter", "bcg", "undermined", "painless ulcer", "endemic district", "rusty", "puncture wound", "contaminated wound", "wound infection", "surgical site"],
       },
     },
@@ -198,6 +200,8 @@ export const skinInfectionsAndInfestations: CourseModule = {
         "Stop spread: airborne precautions and immune staff for measles and chickenpox; contact precautions for scabies, mpox and zoster; shared waiting areas separated; schools excluded until non-infectious; every notifiable rash (measles, rubella, mpox, guinea worm, yaws, anthrax, diphtheria) reported through IDSR within 24 hours.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INTEG-012"],
+        categories: ["safety-infection-control"],
         keywords: ["scabies", "burrow", "between the fingers", "worse at night", "lice", "nits", "measles", "koplik", "chickenpox", "varicella", "herpes", "zoster", "shingles", "mpox", "monkeypox", "onchocerc", "fast flowing", "riverine", "going blind", "filaria", "lymphatic", "ivermectin", "permethrin", "benzyl benzoate", "isolation", "airborne", "contact precaution", "same age", "vitamin a", "measles vaccin", "incubation", "infectious", "household contact", "residential school", "boarding", "notif", "surveillance", "idsr", "endemic district", "guinea worm", "worm emerging"],
       },
     },

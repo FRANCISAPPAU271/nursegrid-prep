@@ -118,7 +118,11 @@ export const fertilityAndEarlyPregnancy: CourseModule = {
         "Ask about and record herbal, injection and spiritual remedies; name the specific harms (vaginal insertions, enemas, unlicensed injections, lost years) without mockery; keep faith allies on side; attach hope to a plan with a timeline.",
         "Infertility is grief and a social catastrophe borne mainly by the woman even when the cause is male: treat the couple as the patient, give results to both, protect confidentiality absolutely, screen for depression and violence, protect intimacy from the calendar, support the decision to stop, and present adoption and fostering early as real parenthood.",
       ],
-      quiz: { keywords: ["infertil","fertility","ovulat","semen","sperm","spermatogenesis","capacitation","fallopian","pelvic inflammatory","klinefelter","turner","endometri","sex determination","sex selection","advertis","testimonial","cures diabetes","grief","stages of grief","basal body","cervical mucus","corpus luteum","menstrual cycle","35-day","30-day cycles","high fever three weeks","not conceived","couple","in vitro","embryo","hydrocele","scrotal swelling","genetic counselling","sickle cell trait"] },
+      quiz: {
+        questionIds: ["NG-MOD-GYN-010"],
+        categories: ["maternal-newborn"],
+        keywords: ["infertil","fertility","ovulat","semen","sperm","spermatogenesis","capacitation","fallopian","pelvic inflammatory","klinefelter","turner","endometri","sex determination","sex selection","advertis","testimonial","cures diabetes","grief","stages of grief","basal body","cervical mucus","corpus luteum","menstrual cycle","35-day","30-day cycles","high fever three weeks","not conceived","couple","in vitro","embryo","hydrocele","scrotal swelling","genetic counselling","sickle cell trait"]
+      },
     },
     {
       slug: "early-pregnancy-loss-ectopic-and-molar-pregnancy-and-comprehensive-abortion-care",
@@ -228,7 +232,11 @@ export const fertilityAndEarlyPregnancy: CourseModule = {
         "Act 29 section 58 permits abortion by a registered practitioner in an approved facility for rape, defilement or incest, risk to life or physical or mental health, or serious fetal abnormality, with only the woman's consent; GHS standards place first-trimester care at every level; an objecting provider must refer; regimens are mifepristone 200 mg then misoprostol 800 micrograms at 24–48 hours (or misoprostol alone) or MVA to 12 weeks, and hospital-based regimens beyond.",
         "The nurse provides confidential, respectful, prompt care, tells women that safe abortion is lawful and available, gives analgesia and clear warning signs, ensures anti-D and histology, starts contraception the same day, and treats every woman after any abortion as a patient — never a suspect.",
       ],
-      quiz: { keywords: ["ectopic","amenorrhoea","shoulder tip","shoulder-tip","miscarr","hydatidiform","grape","hcg","pregnancy test","abortion","post-abortion","unsafe abortion","sepsis","hypovolaemic","bleeding internally","vaginal bleeding","rhesus","anti-d","crying","bereave","care after miscarriage","fallopian tube","pelvic inflammatory","cervical os","empty uterus","uterus larger","severe vomiting","offensive discharge","blood pressure falls","blood pressure is still","pulse is 124","pulse of 118","blood cultures","lactate","iliac fossa"] },
+      quiz: {
+        questionIds: ["NG-MOD-GYN-009", "NG-MOD-GYN-011"],
+        categories: ["maternal-newborn"],
+        keywords: ["ectopic","amenorrhoea","shoulder tip","shoulder-tip","miscarr","hydatidiform","grape","hcg","pregnancy test","abortion","post-abortion","unsafe abortion","sepsis","hypovolaemic","bleeding internally","vaginal bleeding","rhesus","anti-d","crying","bereave","care after miscarriage","fallopian tube","pelvic inflammatory","cervical os","empty uterus","uterus larger","severe vomiting","offensive discharge","blood pressure falls","blood pressure is still","pulse is 124","pulse of 118","blood cultures","lactate","iliac fossa"]
+      },
     },
   ],
 };

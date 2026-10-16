@@ -72,8 +72,9 @@ export const geriatricAssessment: CourseModule = {
         "Pressure care pairs with frailty; baselines documented always — no baseline, no delirium call.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-GERO-003", "NG-MOD-GERO-004"],
+        categories: ["gerontology-community"],
         keywords: ["frailty", "CFS", "phenotype", "Katz", "ADL", "Lawton", "IADL", "TUG", "falls", "postural", "syncope", "long lie", "rhabdomyolysis", "pressure", "baseline"],
-        categories: ["fundamentals"],
       },
     },
     {
@@ -135,8 +136,9 @@ export const geriatricAssessment: CourseModule = {
         "Document + trend all; re-screen each admission and yearly.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-GERO-005"],
+        categories: ["gerontology-community"],
         keywords: ["cognition", "AMT", "clock-draw", "GDS", "depression", "suicide", "CGA", "collateral", "MUST", "problems list", "goals", "team", "mini-CGA", "screening", "mood"],
-        categories: ["fundamentals"],
       },
     },
   ],

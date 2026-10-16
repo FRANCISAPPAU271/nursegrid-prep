@@ -66,8 +66,9 @@ export const mentalHealthEssentials: CourseModule = {
         "Delirium acute/fluctuating (emergency!) vs dementia chronic vs depression mood/guilt.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-BEH-017"],
         keywords: ["depression", "anhedonia", "anxiety", "GAD", "panic", "psychosis", "hallucinations", "delusions", "PHQ", "GAD-7", "screening", "postnatal", "substances", "CAGE", "delirium"],
-        categories: ["fundamentals"],
+        categories: ["mental-health"],
       },
     },
     {
@@ -130,8 +131,9 @@ export const mentalHealthEssentials: CourseModule = {
         "Relationship: same + predictable + hopeful + human + bounded; debrief self always.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-BEH-018"],
         keywords: ["suicide", "safety plan", "referral", "CPN", "psychiatrist", "follow-up", "warnings", "stigma", "Goffman", "chaining", "Mental Health Act", "relationship", "hope", "debrief", "escort"],
-        categories: ["fundamentals"],
+        categories: ["mental-health"],
       },
     },
   ],

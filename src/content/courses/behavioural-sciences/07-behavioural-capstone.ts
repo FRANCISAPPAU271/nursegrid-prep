@@ -65,8 +65,9 @@ export const behaviouralCapstone: CourseModule = {
         "Chained psychosis: safety + Kleinman + pastor ally + unchain + CPN + report abuse.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-BEH-019","NG-MOD-BEH-001"],
         keywords: ["capstone", "scenarios", "canvas", "formula", "BPS", "tags", "theorists", "defaulter", "detachment", "projection", "postnatal", "psychosis", "distinction", "reasoning", "SMART"],
-        categories: ["fundamentals"],
+        categories: ["mental-health"],
       },
     },
     {
@@ -137,8 +138,9 @@ export const behaviouralCapstone: CourseModule = {
         "Pledge signed + filed; menu started within 7 days.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-BEH-020","NG-MOD-BEH-018"],
         keywords: ["practice", "menu", "tags", "theorists", "tricky points", "countdown", "STAR", "interviews", "pledge", "portfolio", "90 days", "distinction", "canvas", "Gibbs", "fluency"],
-        categories: ["fundamentals"],
+        categories: ["mental-health"],
       },
     },
   ],

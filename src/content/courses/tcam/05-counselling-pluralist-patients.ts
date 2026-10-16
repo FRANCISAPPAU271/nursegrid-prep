@@ -66,6 +66,7 @@ export const pluralistCounselling: CourseModule = {
         "Quote beliefs in notes — next nurse starts informed, exam: explore before coercing.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCAM-015"],
         keywords: ["Kleinman", "explanatory", "beliefs", "disclose", "barriers", "listening", "reflect", "quote", "admission", "fears", "healer", "warmth", "summarise", "adherence", "model"],
         categories: ["fundamentals"],
       },
@@ -130,6 +131,7 @@ export const pluralistCounselling: CourseModule = {
         "Unwritten = next nurse starts zero + patient notices; charted = legal armour.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCAM-016","NG-MOD-TCAM-017"],
         keywords: ["LEARN", "negotiate", "trade", "sequence", "substitute", "review", "disclosure", "document", "safety", "refusal", "ethics", "alternative", "contract", "adherence", "harmful"],
         categories: ["fundamentals"],
       },

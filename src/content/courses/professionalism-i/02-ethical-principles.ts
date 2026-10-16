@@ -72,8 +72,9 @@ export const ethicalPrinciples: CourseModule = {
         "Exam: P-C-F-D — Principles, Collision, Framework, Document — and the nurse's independent duty, not 'doctor said'.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO1-004", "NG-MOD-PRO1-005"],
         keywords: ["autonomy", "consent", "refusal", "capacity", "beneficence", "non-maleficence", "double effect", "futility", "justice", "triage", "fidelity", "veracity", "SPIKES", "confidentiality", "euthanasia"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
     {
@@ -131,8 +132,9 @@ export const ethicalPrinciples: CourseModule = {
         "Objection: advance, referred, never abandon, no emergencies refusal, no imposition — patient timely care is the test.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO1-006"],
         keywords: ["values", "dignity", "integrity", "4-box", "dilemma", "DNR", "transfusion", "Jehovah", "triage", "allocation", "moral distress", "residue", "debrief", "whistleblowing", "conscientious objection"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
   ],

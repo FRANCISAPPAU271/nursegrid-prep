@@ -72,8 +72,9 @@ export const qualityImprovementAndPatientSafety: CourseModule = {
         "Spread: prove → package → champions → induction + streaks; one finished cycle = portfolio gold.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO2-010"],
         keywords: ["quality", "STEEEP", "PDSA", "fishbone", "5 whys", "run chart", "Pareto", "audit", "re-audit", "SMART aim", "spread", "sustain", "measurement", "improvement", "champions"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
     {
@@ -142,8 +143,9 @@ export const qualityImprovementAndPatientSafety: CourseModule = {
         "Stop-the-line for all ranks; CUSS graded assertiveness; celebrate good catches.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO2-011","NG-MOD-PRO2-012"],
         keywords: ["Swiss cheese", "Reason", "just culture", "bundles", "10 rights", "high-alert", "LASA", "never events", "RCA", "human factors", "stop-the-line", "CUSS", "handover", "alarms", "good catch"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
   ],

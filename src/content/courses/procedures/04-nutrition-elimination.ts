@@ -107,7 +107,11 @@ export const nutritionAndEliminationProcedures: CourseModule = {
         "Nutrition screening with a validated tool on admission and weekly — body-mass index, unplanned weight loss and acute disease effect; a score of 2 or more is a dietitian referral and a plan; children by weight plots, mid-upper arm circumference and oedema.",
         "Fluid balance: every volume measured in and out, pads weighed, totals each shift and at 24 hours, read against daily weight and the minimum urine output of 0.5 mL/kg/hour in adults and 1 mL/kg/hour in children; two hours below this, a positive balance over two litres or an absent output is reported.",
       ],
-      quiz: { keywords: ["nasogastric","ng tube","aspirate","ph paper","parenteral nutrition","dysphagia","swallow","choking","fluid balance","dehydration","oral rehydration","malnutrition","enteral feed","crushing","fluid intake","intravenous fluid","body mass","muac","weight loss","appetite","refeeding","thiamine","aspirat","fluid overload","intestinal obstruction"] },
+      quiz: {
+        questionIds: ["NG-MOD-PROC-010"],
+        categories: ["fundamentals"],
+        keywords: ["nasogastric","ng tube","aspirate","ph paper","parenteral nutrition","dysphagia","swallow","choking","fluid balance","dehydration","oral rehydration","malnutrition","enteral feed","crushing","fluid intake","intravenous fluid","body mass","muac","weight loss","appetite","refeeding","thiamine","aspirat","fluid overload","intestinal obstruction"]
+      },
     },
     {
       slug: "urinary-elimination-procedures-bedpans-catheterisation-catheter-care-removal-and-bladder-irrigation",
@@ -212,7 +216,11 @@ export const nutritionAndEliminationProcedures: CourseModule = {
         "Continuous irrigation: room-temperature saline through a three-way catheter titrated to the colour of drainage, irrigant in and total out charted with true urine output as the difference; drainage that stops with pain is clot retention — stop the inflow and call; confusion with a falling sodium is fluid absorption.",
         "Suprapubic catheters are cleaned with soap and water and changed within minutes by trained staff; condom catheters are sized, applied without circumferential tape, and removed daily for skin inspection; intermittent self-catheterisation four to six times a day keeps volumes below 400–500 mL; the bladder scanner has replaced the diagnostic catheter for residual volumes.",
       ],
-      quiz: { keywords: ["catheterisation","indwelling","urinary catheter","catheter care","catheter bag","drainage bag","balloon","catheter-associated","trial without","suprapubic","self-catheter","bladder irrigation","bladder scan","retention","incontinence","bedpan","urinal","urinalysis","urine output","haematuria","urinary tract infection","urinary","prostate","bladder","perineal","foreskin","clot","cystitis"] },
+      quiz: {
+        questionIds: ["NG-MOD-PROC-008", "NG-MOD-PROC-009"],
+        categories: ["safety-infection-control", "fundamentals"],
+        keywords: ["catheterisation","indwelling","urinary catheter","catheter care","catheter bag","drainage bag","balloon","catheter-associated","trial without","suprapubic","self-catheter","bladder irrigation","bladder scan","retention","incontinence","bedpan","urinal","urinalysis","urine output","haematuria","urinary tract infection","urinary","prostate","bladder","perineal","foreskin","clot","cystitis"]
+      },
     },
     {
       slug: "bowel-procedures-enemas-suppositories-digital-evacuation-flatus-tube-stoma-care-and-diarrhoea",
@@ -315,7 +323,11 @@ export const nutritionAndEliminationProcedures: CourseModule = {
         "Diarrhoea: classify dehydration first — none, some (oral rehydration 75 mL/kg over four hours, supervised) or severe (Ringer's lactate 100 mL/kg now, oral as soon as possible); zinc for every child under five; continue feeding; no antimotility drugs in children; antibiotics only for dysentery, severe cholera and the immunocompromised.",
         "Contact precautions, soap-and-water hand hygiene, 2 per cent chlorine for stool and vomit and 0.5 per cent for surfaces, same-day notification and a Cary–Blair specimen for suspected cholera, and the F-diagram barriers — latrine, soap, safe water, covered food — taught at the bedside.",
       ],
-      quiz: { keywords: ["enema","suppository","rectal","constipation","flatus","stoma","colostomy","ileostomy","bowel","diarrhoea","cholera","stool","laxative","purgative","ileus","haemorrhoid","anorectal","bowel prep","fibre","oral rehydration","dehydration","zinc","hand hygiene","faecal","incontinence","intestinal obstruction"] },
+      quiz: {
+        questionIds: ["NG-MOD-PROC-011"],
+        categories: ["fundamentals"],
+        keywords: ["enema","suppository","rectal","constipation","flatus","stoma","colostomy","ileostomy","bowel","diarrhoea","cholera","stool","laxative","purgative","ileus","haemorrhoid","anorectal","bowel prep","fibre","oral rehydration","dehydration","zinc","hand hygiene","faecal","incontinence","intestinal obstruction"]
+      },
     },
   ],
 };

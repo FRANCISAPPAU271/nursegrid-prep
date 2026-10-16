@@ -72,8 +72,9 @@ export const patientsRightsAndAdvocacy: CourseModule = {
         "Admission talk (name, routine, plan, costs, questions, complaints) prevents most grievances — document it.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO1-010"],
         keywords: ["patients charter", "rights", "responsibilities", "dignity", "privacy", "informed consent", "refusal", "second opinion", "complaint", "retaliation", "interpreter", "chaperone", "NHIS", "discrimination", "violence"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
     {
@@ -142,8 +143,9 @@ export const patientsRightsAndAdvocacy: CourseModule = {
         "Advocacy: children, unconscious, mentally ill, prisoners, poor, disabled, elders, survivors — speak, refer, follow up, document.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO1-011", "NG-MOD-PRO1-012"],
         keywords: ["confidentiality", "privacy", "disclosure", "Data Protection Act", "DOVVSU", "social welfare", "mandatory reporting", "child abuse", "safeguarding", "advocacy", "notifiable disease", "court order", "snooping", "breach", "vulnerable"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
   ],

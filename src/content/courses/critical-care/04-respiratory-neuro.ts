@@ -100,7 +100,11 @@ export const respiratoryAndNeurologicalCriticalCare: CourseModule = {
         "Tension pneumothorax in a ventilated patient — rising airway pressure, falling saturation and pressure, rising CVP, a silent hyper-resonant side, distended neck veins — is decompressed with a needle before any X-ray and then drained; haemothorax draining more than 1,500 mL or 200 mL/h needs the surgeon; effusions are drained no faster than 1.5 litres at a time.",
         "The chest drain system — collection, water seal, suction — stays below the chest, upright and unclamped: swinging means the lung is not fully up, bubbling means an air leak, the suction chamber bubbles gently; never milk the tubing, never clamp a bubbling drain or clamp for transport, reconnect or immerse a disconnected tube at once, cover a dislodged tube with a three-sided dressing, and remove after 24 hours without bubbling, with the lung up on X-ray, during Valsalva, with two people.",
       ],
-      quiz: { keywords: ["respiratory failure","asthma","silent chest","peak flow","copd","chronic obstructive","pneumothorax","chest drain","underwater","bubbling","swinging","pneumonia","pleural","flail","rib fracture","chest injury","salbutamol","nebulis","spacer","prednisolone","carbon dioxide retention","oxygen saturation","high-flow","wheeze","stridor","incentive spirometry","deep breathing","acute chest","pulmonary embol","hypoxaemia","hypercapn","respiratory acidosis","spo2","oxygen","airway","ventilat","tracheostomy","suction"] },
+      quiz: {
+        questionIds: ["NG-MOD-CC-010", "NG-MOD-CC-011"],
+        categories: ["med-surg"],
+        keywords: ["respiratory failure","asthma","silent chest","peak flow","copd","chronic obstructive","pneumothorax","chest drain","underwater","bubbling","swinging","pneumonia","pleural","flail","rib fracture","chest injury","salbutamol","nebulis","spacer","prednisolone","carbon dioxide retention","oxygen saturation","high-flow","wheeze","stridor","incentive spirometry","deep breathing","acute chest","pulmonary embol","hypoxaemia","hypercapn","respiratory acidosis","spo2","oxygen","airway","ventilat","tracheostomy","suction"]
+      },
     },
     {
       slug: "neurocritical-care-brain-injury-stroke-seizures-neuromuscular-failure-and-delirium",
@@ -212,7 +216,11 @@ export const respiratoryAndNeurologicalCriticalCare: CourseModule = {
         "In Guillain–Barré syndrome and myasthenic crisis the saturation falls last: watch the count-to-twenty, the voice, the cough and secretions, and the bedside vital capacity — below 15–20 mL/kg or falling 30 per cent means elective intubation; avoid suxamethonium in Guillain–Barré, give immunoglobulin or plasma exchange, and manage the autonomic instability, pain, thrombosis risk and the months of rehabilitation.",
         "Spinal cord injury above T6 causes neurogenic shock (MAP 85–90 for a week, atropine for bradycardia) and later autonomic dysreflexia (sit up, empty the bladder, remove the trigger); delirium — usually hypoactive — is screened every shift with CAM-ICU and prevented and treated with the ABCDEF bundle, sleep, orientation, family and removal of restraints and offending drugs, with haloperidol only for dangerous agitation; death by neurological criteria requires a known cause, exclusion of reversible factors, absent brainstem reflexes and a failed apnoea test by two doctors.",
       ],
-      quiz: { keywords: ["glasgow","coma scale","pupil","intracranial","head injury","stroke","thrombolysis","aphasia","hemipleg","seizure","epilep","status epilepticus","diazepam","phenytoin","benzodiazepine","meningitis","lumbar puncture","neck stiffness","guillain","myasthenia","delirium","confusion","spinal cord","log roll","cervical spine","unconscious","recovery position","hyponatr","convulsion","thiamine","sedation","syncope","unresponsive","neuroleptic malignant","serotonin"] },
+      quiz: {
+        questionIds: ["NG-MOD-CC-012", "NG-MOD-CC-019"],
+        categories: ["med-surg", "mental-health"],
+        keywords: ["glasgow","coma scale","pupil","intracranial","head injury","stroke","thrombolysis","aphasia","hemipleg","seizure","epilep","status epilepticus","diazepam","phenytoin","benzodiazepine","meningitis","lumbar puncture","neck stiffness","guillain","myasthenia","delirium","confusion","spinal cord","log roll","cervical spine","unconscious","recovery position","hyponatr","convulsion","thiamine","sedation","syncope","unresponsive","neuroleptic malignant","serotonin"]
+      },
     },
   ],
 };

@@ -142,7 +142,11 @@ export const majorTraumaBurnsAndToxicology: CourseModule = {
         "Burns: intubate early with an uncut tube for inhalation signs; 100 per cent oxygen for carbon monoxide (normal oximeter) and hydroxocobalamin for cyanide; escharotomy for circumferential chest and limb burns with hourly distal checks; rule of nines with the palm as 1 per cent and erythema excluded, Lund and Browder in children; Parkland 2–4 mL × kg × % TBSA over 24 hours from the time of burn, half in the first 8 hours, titrated hourly to a urine output of 0.5 mL/kg/hour in adults, 1 in children and 2 in electrical injury, avoiding fluid creep; albumin after 8–12 hours in large burns.",
         "After the first day: cooling, cleaning, daily depth assessment and protocol dressings with early excision and grafting of deep burns; burn sepsis recognised by wound change, falling platelets, glucose and feed intolerance and rising vasopressor need rather than fever alone; enteral feeding within 6–12 hours at 1.5–2 g/kg protein with micronutrients in a warm room; procedural analgesia with ketamine or pre-dressing opioid; electrical injury monitored for arrhythmia, compartment syndrome and myoglobinuria; chemical burns irrigated for an hour; anti-contracture positioning, splints, physiotherapy and psychological care from day one.",
       ],
-      quiz: { keywords: ["trauma","massive transfusion","transfusion reaction","transfusion","hypovolaemic","compartment","fat embol","rhabdomyol","cervical spine","log roll","burn","parkland","rule of nines","cross-match","group and","blood products","platelet","coagul","flail","rib fracture","chest injury","pneumothorax","head injury","tetanus","skin graft","fracture","haemorrhage","shock","compensated","electric","wound dehiscence"] },
+      quiz: {
+        questionIds: ["NG-MOD-CC-016", "NG-MOD-CC-017"],
+        categories: ["med-surg", "fluid-electrolyte"],
+        keywords: ["trauma","massive transfusion","transfusion reaction","transfusion","hypovolaemic","compartment","fat embol","rhabdomyol","cervical spine","log roll","burn","parkland","rule of nines","cross-match","group and","blood products","platelet","coagul","flail","rib fracture","chest injury","pneumothorax","head injury","tetanus","skin graft","fracture","haemorrhage","shock","compensated","electric","wound dehiscence"]
+      },
     },
     {
       slug: "toxicology-and-environmental-critical-care",
@@ -267,7 +271,11 @@ export const majorTraumaBurnsAndToxicology: CourseModule = {
         "Alcohol withdrawal is anticipated by asking every admission about the last drink: tremor at 6 hours, hallucinations at 12–24, seizures at 24–48, delirium tremens at 48–96 with 5–15 per cent mortality; CIWA-Ar four-hourly, symptom-triggered benzodiazepines escalating to infusion or propofol, thiamine 200–500 mg IV three times a day before any glucose, magnesium and phosphate replaced, a lit quiet room without restraint; herbal and traditional remedies cause liver and kidney failure, hypoglycaemia, adrenal crisis and heavy-metal poisoning, interact with warfarin, antiretrovirals and antiepileptics, and above all delay — ask, record, report to the FDA, and do not shame.",
         "Heat stroke (core above 40 °C with brain dysfunction) is cooled to below 39 °C within 30 minutes by immersion or evaporation with ice packs, stopping at 38–38.5, without antipyretics, with rhabdomyolysis, DIC and organ failure watched for days; drowning is hypoxic lung and brain injury treated with PEEP, normothermia and no prophylactic antibiotics, with discharge at 6–8 hours if asymptomatic; near-hanging needs an expert airway, neck vessel imaging, ICP care and constant observation; the hypothermic patient is handled gently, rewarmed externally then internally, given limited drugs and shocks below 30 °C, and is not dead until warm and dead.",
       ],
-      quiz: { keywords: ["organophosph","pesticide","atropine","paracetamol overdose","activated charcoal","kerosene","ingest","opioid overdose","naloxone","overdose","tramadol","alcohol withdrawal","thiamine","benzodiazepine","snake","heat stroke","hyperthermia","hypothermia","drowning","electric","serotonin","neuroleptic malignant","lithium toxicity","digoxin toxicity","local anaesthetic","anaphyla","poison","diazepam","herbal remedy","unresponsive","choking"] },
+      quiz: {
+        questionIds: ["NG-MOD-CC-018"],
+        categories: ["pharmacology-parenteral"],
+        keywords: ["organophosph","pesticide","atropine","paracetamol overdose","activated charcoal","kerosene","ingest","opioid overdose","naloxone","overdose","tramadol","alcohol withdrawal","thiamine","benzodiazepine","snake","heat stroke","hyperthermia","hypothermia","drowning","electric","serotonin","neuroleptic malignant","lithium toxicity","digoxin toxicity","local anaesthetic","anaphyla","poison","diazepam","herbal remedy","unresponsive","choking"]
+      },
     },
   ],
 };

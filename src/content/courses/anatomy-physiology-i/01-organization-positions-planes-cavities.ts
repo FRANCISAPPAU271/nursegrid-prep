@@ -110,8 +110,9 @@ export const organizationPositionsPlanesCavities: CourseModule = {
         "Homeostasis holds the internal environment steady; negative feedback reverses a change, positive feedback amplifies it until an event breaks the loop.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP1-001"],
         keywords: ["levels of organization", "organ systems", "homeostasis", "negative feedback", "positive feedback", "anatomy", "physiology", "survival needs"],
-        categories: ["fundamentals"],
+        categories: ["risk-reduction"],
       },
     },
     {
@@ -210,8 +211,9 @@ export const organizationPositionsPlanesCavities: CourseModule = {
         "The diaphragm divides thorax from abdomen; nothing divides abdomen from pelvis, so pelvic trouble presents abdominally.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP1-002","NG-MOD-AP1-003"],
         keywords: ["anatomical position", "directional terms", "proximal distal", "body planes", "sagittal", "transverse", "body cavities", "peritoneum", "pleura", "pericardium", "meninges", "mediastinum"],
-        categories: ["fundamentals"],
+        categories: ["risk-reduction"],
       },
     },
   ],

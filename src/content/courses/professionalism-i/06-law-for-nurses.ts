@@ -73,8 +73,9 @@ export const lawForNurses: CourseModule = {
         "Memorize Act numbers in pairs; cite precisely in forms, letters and exams.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO1-016", "NG-MOD-PRO1-017"],
         keywords: ["Act 857", "NMC", "licensing", "Act 846", "mental health", "detention", "restraint", "Act 560", "Act 732", "DOVVSU", "Act 843", "data protection", "coroner", "police cases", "evidence", "constitution"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
     {
@@ -143,8 +144,9 @@ export const lawForNurses: CourseModule = {
         "Defamation guardrail: facts via channels (privileged), never accusations on social media.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO1-018"],
         keywords: ["civil", "criminal", "coroner", "tribunal", "evidence", "statement", "subpoena", "inquest", "whistleblower", "Act 720", "CHRAJ", "retaliation", "defamation", "social media", "vicarious"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
   ],

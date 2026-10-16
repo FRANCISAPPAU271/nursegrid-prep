@@ -66,8 +66,9 @@ export const foundationsOfBehaviouralScience: CourseModule = {
         "Exams/interviews: three circles + example each = holistic care, full marks.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-BEH-001"],
         keywords: ["biopsychosocial", "Engel", "holistic", "mind-body", "placebo", "nocebo", "biomedical", "beliefs", "fears", "deciders", "adherence", "assessment", "circles", "hope", "stress"],
-        categories: ["fundamentals"],
+        categories: ["mental-health"],
       },
     },
     {
@@ -130,8 +131,9 @@ export const foundationsOfBehaviouralScience: CourseModule = {
         "Kleinman weekly: call it? caused it? heals it? — then negotiate, never mock.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-BEH-002","NG-MOD-BEH-003"],
         keywords: ["psychology", "sociology", "anthropology", "Freud", "Pavlov", "Beck", "Maslow", "sick role", "Parsons", "stigma", "Goffman", "Kleinman", "pluralism", "rituals", "lenses"],
-        categories: ["fundamentals"],
+        categories: ["mental-health"],
       },
     },
   ],

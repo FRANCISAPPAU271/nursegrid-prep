@@ -68,8 +68,9 @@ export const reproductiveAnatomy: CourseModule = {
         "Monthly testicular self-exam for young men: painless hard lump = urgent ultrasound + markers.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP3-004","NG-MOD-AP3-005"],
         keywords: ["testis", "spermatogenesis", "testosterone", "epididymis", "vasectomy", "prostate", "erection", "priapism", "torsion", "cremasteric", "varicocele", "hydrocele", "BPH", "PSA", "testicular cancer"],
-        categories: ["medsurg", "fundamentals"],
+        categories: ["med-surg"],
       },
     },
     {
@@ -126,8 +127,9 @@ export const reproductiveAnatomy: CourseModule = {
         "Breast: lobules→ducts→nipple, lymph→axilla; awareness + red flags → triple assessment in 2 weeks; chaperone every intimate exam.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP3-006"],
         keywords: ["ovary", "ovulation", "corpus luteum", "fallopian tube", "ectopic", "uterus", "endometriosis", "fibroids", "cervix", "HPV", "vagina", "pelvic floor", "Kegels", "breast", "triple assessment"],
-        categories: ["medsurg", "fundamentals"],
+        categories: ["med-surg"],
       },
     },
   ],

@@ -66,6 +66,7 @@ export const herbalMedicineSafety: CourseModule = {
         "Adulterants: steroids/sildenafil/NSAIDs/lead/alcohol — miracle speed tells; verify + report.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCAM-007","NG-MOD-TCAM-008","NG-MOD-TCAM-009"],
         keywords: ["interactions", "Paracelsus", "bleeders", "warfarin", "St John's wort", "CYP450", "ARVs", "hypo", "bitter leaf", "steroids", "adulterants", "liver", "INR", "clash", "dose"],
         categories: ["fundamentals"],
       },
@@ -130,6 +131,7 @@ export const herbalMedicineSafety: CourseModule = {
         "Frame reporting as protection, never punishment — blame chills disclosure.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCAM-010","NG-MOD-TCAM-011"],
         keywords: ["pregnancy", "abortifacients", "enemas", "children", "surgery", "anaesthetist", "breastfeeding", "report", "FDA", "sample", "ANC", "bitters", "teratogens", "hypoglycaemia", "LFTs"],
         categories: ["fundamentals"],
       },

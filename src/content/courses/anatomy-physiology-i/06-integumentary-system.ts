@@ -72,8 +72,9 @@ export const integumentarySystem: CourseModule = {
         "Read colour in the mucosae, sclera, tongue, palms and nail beds on dark skin; compare sides and feel for change.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP1-016"],
         keywords: ["epidermis", "dermis", "hypodermis", "keratin", "melanin", "sebaceous", "sweat gland", "hair follicle", "capillary refill", "clubbing", "pallor", "cyanosis", "jaundice", "sclera", "pressure injury"],
-        categories: ["fundamentals"],
+        categories: ["risk-reduction"],
       },
     },
     {
@@ -140,8 +141,9 @@ export const integumentarySystem: CourseModule = {
         "Healing: inflammatory → proliferative → maturation; infection, ischaemia, diabetes, malnutrition, smoking and steroids delay it.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP1-017","NG-MOD-AP1-018"],
         keywords: ["thermoregulation", "hypothalamus", "fever", "pyrogens", "hyperthermia", "heatstroke", "hypothermia", "shivering", "burns", "rule of nines", "wound healing", "granulation", "keloid", "tetanus", "urine output"],
-        categories: ["fundamentals"],
+        categories: ["risk-reduction"],
       },
     },
   ],

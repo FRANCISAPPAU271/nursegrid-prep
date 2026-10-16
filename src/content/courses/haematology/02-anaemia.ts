@@ -120,6 +120,8 @@ export const anaemia: CourseModule = {
       ],
       quiz: {
         keywords: ["anaemi","iron deficien","iron tablet","iron supplement","oral iron","iron intake","iron status","iron therapy","prescribed iron","ferrous","elemental","hookworm","deworm","barefoot","pallor","kontomire","haemoglobin of","haemoglobin 8","haemoglobin is","blood film","mean cell volume","malaria","artesunate","sulfadoxine","bed net","treated net","breathless at rest","menstrual","adolescent girls","vitamin c","palmar pallor","ferritin"],
+        categories: ["pharmacology-parenteral", "med-surg"],
+        questionIds: ["NG-MOD-HAEM-003"],
       },
     },
     {
@@ -239,6 +241,8 @@ export const anaemia: CourseModule = {
       ],
       quiz: {
         keywords: ["folic","folate","b12","pernicious","schilling","tingling in her feet","g6pd","haemoly","dark urine","jaundice","phototherapy","bilirubin","rhesus","blood group o","persistently anaemic","anaemic despite","anaemia in pregnan","anaemia carry","anaemia more dangerous","found to be anaemic","haemoglobin of 6","haemoglobin is 8","iron and folic","iron supplementation in young children","iron withheld","spinal defect","animal products","spleen","kidney disease commonly become anaemic","aplastic","erythropoietin","naphthalene","primaquine"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-HAEM-004", "NG-MOD-HAEM-005"],
       },
     },
   ],

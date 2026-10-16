@@ -66,8 +66,9 @@ export const ehrDocumentation: CourseModule = {
         "Court test: defends me, hands over safely, bills honestly — all three.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INFO-004","NG-MOD-INFO-005"],
         keywords: ["charting", "documentation", "accurate", "complete", "timely", "login", "copy-paste", "cloning", "addendum", "late entry", "abbreviations", "ADPIE", "structured", "narrative", "audit"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
     {
@@ -130,8 +131,9 @@ export const ehrDocumentation: CourseModule = {
         "Links: PRO-I handover/compass, GER meds, NUT precision — safety is one fabric.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INFO-006","NG-MOD-INFO-007"],
         keywords: ["CPOE", "orders", "verify", "5 rights", "identifiers", "read-back", "downtime", "SBAR", "handover", "audit trail", "alert fatigue", "override", "MAR", "reconcile", "wrong-patient"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
   ],

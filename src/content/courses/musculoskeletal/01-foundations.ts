@@ -127,6 +127,8 @@ export const foundations: CourseModule = {
       ],
       quiz: {
         keywords: ["bone", "skelet", "muscle", "joint", "calcium", "vitamin d", "parathyroid", "rickets", "osteo", "negative feedback", "oestrogen", "hypocalc", "hypercalc", "carpal", "thyroidectomy", "thyroid surgery", "fat soluble"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-MSK-010"],
       },
     },
     {
@@ -245,6 +247,8 @@ export const foundations: CourseModule = {
       ],
       quiz: {
         keywords: ["neurovascular", "capillary refill", "tingling", "pain assessment", "pain score", "faces", "swollen", "limp", "gait", "walking", "mobility", "range of motion", "deform", "orthopaed", "pain in advanced dementia", "pulses", "pulseless", "sensation", "warmth", "cool skin", "bear weight", "toes"],
+        categories: ["med-surg", "fundamentals"],
+        questionIds: ["NG-MOD-MSK-001", "NG-MOD-MSK-002"],
       },
     },
   ],

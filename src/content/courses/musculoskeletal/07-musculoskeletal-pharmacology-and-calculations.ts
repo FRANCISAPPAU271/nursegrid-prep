@@ -179,6 +179,8 @@ export const musculoskeletalPharmacologyAndCalculations: CourseModule = {
       ],
       quiz: {
         keywords: ["nsaid", "ibuprofen", "diclofenac", "paracetamol", "morphine", "opioid", "analgesic ladder", "analges", "tramadol", "codeine", "pethidine", "naloxone", "methotrexate", "allopurinol", "colchicine", "prednisolone", "corticosteroid", "bisphosphon", "calcium", "vitamin d", "tetanus", "cloxacillin", "flucloxacillin", "ceftriaxone", "local anaesth", "lidocaine", "lignocaine", "ketamine", "mg/kg", "per kilogram", "weight based", "paediatric dose", "diazepam", "patient controlled", "breakthrough", "adjuvant", "anti inflammatory", "anticoagul", "warfarin", "heparin"],
+        categories: ["pharmacology-parenteral"],
+        questionIds: ["NG-MOD-MSK-018", "NG-MOD-MSK-019", "NG-MOD-MSK-020"],
       },
     },
   ],

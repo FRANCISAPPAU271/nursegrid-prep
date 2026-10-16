@@ -121,7 +121,11 @@ export const microbiologyAndTheChainOfInfection: CourseModule = {
         "Innate immunity (skin, mucosa, acid, cilia, flora, phagocytes, inflammation) is what devices and antibiotics breach; adaptive immunity is specific, has memory, and is active (made by the patient, slow, lasting) or passive (given, immediate, short).",
         "Neutropenia, HIV, steroids, diabetes, malnutrition, sickle cell disease, the newborn, the older adult and anyone with a device or an open wound have defences down — infection may show as fever alone, or as confusion with no fever at all.",
       ],
-      quiz: { keywords: ["bacterial structure","bacterial spores","bacterial morphology","bacterial growth","gram staining","gram stain","gram positive","gram negative","culture media","virulence","incubation period","normal flora","opportunistic","classifying disease causing organisms","fungal infection","viral infection","parasitology","microscopy","herd immunity","pseudomonas","spore","capsule","anaerob","neutrophil","white cell","ringworm","candida","immunity","antibody","colonis","streptococc","clostridi","micro organism","bacteria","virus","fungal","helminth","innate","adaptive","booster dose","bactericidal","beta lactam","facultative","septicaemia","hookworm","amoebiasis","schistosom","scabies"] },
+      quiz: {
+        keywords: ["bacterial structure","bacterial spores","bacterial morphology","bacterial growth","gram staining","gram stain","gram positive","gram negative","culture media","virulence","incubation period","normal flora","opportunistic","classifying disease causing organisms","fungal infection","viral infection","parasitology","microscopy","herd immunity","pseudomonas","spore","capsule","anaerob","neutrophil","white cell","ringworm","candida","immunity","antibody","colonis","streptococc","clostridi","micro organism","bacteria","virus","fungal","helminth","innate","adaptive","booster dose","bactericidal","beta lactam","facultative","septicaemia","hookworm","amoebiasis","schistosom","scabies"],
+        categories: ["safety-infection-control"],
+        questionIds: ["NG-MOD-IPC-001", "NG-MOD-IPC-002"],
+      },
     },
     {
       slug: "the-chain-of-infection-transmission-routes-and-health-care-associated-infection",
@@ -223,7 +227,11 @@ export const microbiologyAndTheChainOfInfection: CourseModule = {
         "Hand hygiene, PPE, isolation and sterile equipment break the mode of transmission; aseptic technique, closed systems and early device removal close the portal of entry; immunisation, nutrition and treating HIV and diabetes protect the host.",
         "Carriers are not labelled, so standard precautions apply to every patient every time; transmission-based precautions are added for known or suspected organisms, and nothing extra is done merely because a patient has HIV.",
       ],
-      quiz: { keywords: ["chain of infection","portal of entry","reservoir","fomite","vector","healthcare associated infection","health care associated infection","hospital acquired","vulnerable groups","defining health care associated","preventing ventilator and hospital","levels of prevention","atypical presentation of infection","infection without fever","carrier","airborne","transmission","susceptib","incubat","communicable","epidemic","faecal oral","excreta","hepatitis b transmission","hiv transmission","ebola transmission","sharing a cup","screening programme","immunisation coverage","unvaccinated","herd protection","between caring for two patients"] },
+      quiz: {
+        keywords: ["chain of infection","portal of entry","reservoir","fomite","vector","healthcare associated infection","health care associated infection","hospital acquired","vulnerable groups","defining health care associated","preventing ventilator and hospital","levels of prevention","atypical presentation of infection","infection without fever","carrier","airborne","transmission","susceptib","incubat","communicable","epidemic","faecal oral","excreta","hepatitis b transmission","hiv transmission","ebola transmission","sharing a cup","screening programme","immunisation coverage","unvaccinated","herd protection","between caring for two patients"],
+        categories: ["safety-infection-control"],
+        questionIds: ["NG-MOD-IPC-001"],
+      },
     },
   ],
 };

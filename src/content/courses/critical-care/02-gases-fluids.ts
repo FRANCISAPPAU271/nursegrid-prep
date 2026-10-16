@@ -127,7 +127,11 @@ export const bloodGasesFluidsAndElectrolytes: CourseModule = {
         "Oxygenation is read against the FiO₂: PaO₂ in kPa should be roughly the oxygen percentage minus 10; a PaO₂/FiO₂ ratio below 300 mmHg on PEEP of 5 is ARDS (below 200 moderate, below 100 severe); a venous gas serves for pH, bicarbonate and lactate but not oxygen.",
         "Mixed disorders are suspected when compensation does not fit, the pH sits on the wrong side, or the gap does not match; a ventilated patient cannot compensate so his rate must be adjusted for him; a normal or rising CO₂ in a tiring asthmatic or an acidotic child is the sign of impending arrest, and a lactate that does not fall means the treatment is not working.",
       ],
-      quiz: { keywords: ["blood gas","abg","acidosis","alkalosis","paco2","bicarbonate","anion gap","compensat","lactate of","base excess","hypoxaemia","hypercapn","respiratory acidosis","metabolic acidosis","respiratory alkalosis","metabolic alkalosis","ketoacidosis","carbon dioxide retention","hyperkal","hypokal","oxygen saturation","pulse oximet","rib fracture","spo2","hyperventilat","ketone","arrhythm","salbutamol","obstruction","ileus"] },
+      quiz: {
+        questionIds: ["NG-MOD-CC-003", "NG-MOD-CC-004"],
+        categories: ["med-surg", "fluid-electrolyte"],
+        keywords: ["blood gas","abg","acidosis","alkalosis","paco2","bicarbonate","anion gap","compensat","lactate of","base excess","hypoxaemia","hypercapn","respiratory acidosis","metabolic acidosis","respiratory alkalosis","metabolic alkalosis","ketoacidosis","carbon dioxide retention","hyperkal","hypokal","oxygen saturation","pulse oximet","rib fracture","spo2","hyperventilat","ketone","arrhythm","salbutamol","obstruction","ileus"]
+      },
     },
     {
       slug: "fluid-and-electrolyte-emergencies-in-the-critically-ill",
@@ -238,7 +242,11 @@ export const bloodGasesFluidsAndElectrolytes: CourseModule = {
         "Sodium is corrected slowly — hyponatraemia by no more than 8–10 mmol/L in 24 hours (osmotic demyelination), with 150 mL of 3 per cent saline only for seizures or severe symptoms; hypernatraemia by no more than 10 mmol/L in 24 hours (cerebral oedema) with water, enterally where possible; magnesium is replaced by pump with reflexes watched, ionised calcium is used in the critically ill and calcium gluconate given through a large vein, and hypophosphataemia weakens the respiratory muscles and prevents weaning.",
         "Refeeding syndrome follows carbohydrate after five or more days of little intake: phosphate, potassium and magnesium collapse within one to three days; prevent it with thiamine before feeding, a start at 10–20 kcal/kg/day building over four to seven days, daily electrolytes for a week and replacement before and during feeding; slow the feed, do not stop it.",
       ],
-      quiz: { keywords: ["potassium","hyperkal","hypokal","calcium gluconate","qrs","t wave","hyponatr","hypernatr","sodium","hypertonic saline","hypomagnes","refeeding","fluid balance","fluid overload","central venous","ringer","albumin","colloid","crystalloid","dextrose","osmol","siadh","tonicity","isotonic","third space","diuretic","furosemide","frusemide","hypovolaemic","infusion rate","drops per minute","cross-match","blood products","transfusion reaction","massive transfusion","creatinine","urea","capillary refill","fluid restriction","daily weight","dehydrat","rehydrat","pitting","compensated"] },
+      quiz: {
+        questionIds: ["NG-MOD-CC-005", "NG-MOD-CC-016"],
+        categories: ["fluid-electrolyte", "med-surg"],
+        keywords: ["potassium","hyperkal","hypokal","calcium gluconate","qrs","t wave","hyponatr","hypernatr","sodium","hypertonic saline","hypomagnes","refeeding","fluid balance","fluid overload","central venous","ringer","albumin","colloid","crystalloid","dextrose","osmol","siadh","tonicity","isotonic","third space","diuretic","furosemide","frusemide","hypovolaemic","infusion rate","drops per minute","cross-match","blood products","transfusion reaction","massive transfusion","creatinine","urea","capillary refill","fluid restriction","daily weight","dehydrat","rehydrat","pitting","compensated"]
+      },
     },
   ],
 };

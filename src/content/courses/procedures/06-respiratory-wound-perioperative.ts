@@ -118,7 +118,11 @@ export const respiratoryWoundAndPerioperativeProcedures: CourseModule = {
         "An underwater-seal drain sits below the chest with the tip 2 cm under water; the nurse records swinging, bubbling and drainage, reports more than 100–200 mL/h of fresh blood, limits effusion drainage to about 1.5 L in the first hour, never clamps a bubbling drain or clamps for a walk, never milks the tube, reconnects a disconnection to a new system, and covers a dislodged drain with a three-sided dressing.",
         "Postoperative and respiratory patients practise the active cycle of breathing with huffing hourly, use an incentive spirometer with volumes recorded, and receive postural drainage with percussion before meals and stopped for distress — and are walked, because mobilisation and analgesia clear more chests than any device.",
       ],
-      quiz: { keywords: ["oxygen therapy","oxygen","nasal cannula","face mask","non-rebreath","reservoir","humidif","concentrator","flow rate","litres per minute","oropharyngeal","suction","suctioning","tracheostomy","trache","chest physio","postural drainage","incentive spirom","deep breathing","peak flow","chest drain","underwater seal","water seal","swinging","secretions","hypoxia","hypoxaemia","cyanosis","carbon dioxide retention","copd","oxygen saturation","pulse oximet","airway","breathless","asthma","sputum","nebulis"] },
+      quiz: {
+        questionIds: ["NG-MOD-PROC-015"],
+        categories: ["fundamentals"],
+        keywords: ["oxygen therapy","oxygen","nasal cannula","face mask","non-rebreath","reservoir","humidif","concentrator","flow rate","litres per minute","oropharyngeal","suction","suctioning","tracheostomy","trache","chest physio","postural drainage","incentive spirom","deep breathing","peak flow","chest drain","underwater seal","water seal","swinging","secretions","hypoxia","hypoxaemia","cyanosis","carbon dioxide retention","copd","oxygen saturation","pulse oximet","airway","breathless","asthma","sputum","nebulis"]
+      },
     },
     {
       slug: "wound-assessment-aseptic-dressing-technique-dressing-selection-suture-and-staple-removal-surgical-drains-and-casts",
@@ -223,7 +227,11 @@ export const respiratoryWoundAndPerioperativeProcedures: CourseModule = {
         "Know what each drain is for, secure it below the wound without kinks, keep the vacuum, chart volume and character every shift and report fresh blood, bile, faeces, pus or a sudden stop, empty aseptically, shorten only on instruction, and remove with the vacuum released, a steady pull, the tip checked and the site dressed.",
         "After a cast, splint or limb surgery record neurovascular observations hourly for 24 hours — pain out of proportion and on passive stretch first, then pallor, paraesthesia, pressure, poikilothermia, and pulselessness and paralysis as late signs — and at the first suspicion of compartment syndrome split the cast and padding to skin, keep the limb at heart level, give analgesia and call the surgeon; teach cast care and the symptoms that must be reported at once.",
       ],
-      quiz: { keywords: ["dressing","wound","wound bed","slough","granulat","exudate","wound cleansing","aseptic","sterile field","suture","dehiscence","evisceration","cast","plaster","neurovascular","compartment","pressure ulcer","burns","skin graft","healing","second intention","infected wound","wound infection","tetanus","drain","swab","wound swab","bandag","moist","negative pressure","diabetic foot","surgical site","clip removal"] },
+      quiz: {
+        questionIds: ["NG-MOD-PROC-016"],
+        categories: ["med-surg"],
+        keywords: ["dressing","wound","wound bed","slough","granulat","exudate","wound cleansing","aseptic","sterile field","suture","dehiscence","evisceration","cast","plaster","neurovascular","compartment","pressure ulcer","burns","skin graft","healing","second intention","infected wound","wound infection","tetanus","drain","swab","wound swab","bandag","moist","negative pressure","diabetic foot","surgical site","clip removal"]
+      },
     },
     {
       slug: "pre-operative-preparation-theatre-checklist-sterile-supplies-recovery-handover-and-post-operative-care-procedures",
@@ -317,7 +325,11 @@ export const respiratoryWoundAndPerioperativeProcedures: CourseModule = {
         "Complications keep a timetable — airway, bleeding, shock and retention in the first hours; chest on days 1–2; wound infection and anastomotic leak on days 3–5; deep vein thrombosis, pulmonary embolism and dehiscence on days 5–10 — so a fever is read by its day, a pink serous discharge is reported as a warning, a burst wound is covered with warm saline pads with the patient supine and knees flexed, and a swollen calf is measured and imaged, never tested with Homans' sign.",
         "Enhanced recovery is the ward's job: carbohydrate drinks and minimal fasting, warming, opioid-sparing analgesia, sips within hours and diet the next day, catheter and drains out early, out of bed on the day of surgery, hourly breathing and leg exercises, chewing gum for ileus, and a planned discharge with written instructions — and a day-surgery patient goes home only awake, comfortable, drinking, walking, escorted and told not to drive for 24 hours.",
       ],
-      quiz: { keywords: ["pre-operative","preoperative","fasting","nil by mouth","surgical safety","operation site","post-operative","postoperative","recovery room","anaesthe","spinal anaesthe","theatre","consent","informed consent","premedication","deep vein","paralytic ileus","fever after","dehiscence","urinary retention","bladder scan","analgesi"] },
+      quiz: {
+        questionIds: ["NG-MOD-PROC-017"],
+        categories: ["fundamentals"],
+        keywords: ["pre-operative","preoperative","fasting","nil by mouth","surgical safety","operation site","post-operative","postoperative","recovery room","anaesthe","spinal anaesthe","theatre","consent","informed consent","premedication","deep vein","paralytic ileus","fever after","dehiscence","urinary retention","bladder scan","analgesi"]
+      },
     },
   ],
 };

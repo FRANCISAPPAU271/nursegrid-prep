@@ -109,7 +109,11 @@ export const theExpandedProgrammeOnImmunisation: CourseModule = {
         "True contraindications are few — anaphylaxis to a previous dose or component, severe immunosuppression for live vaccines, intussusception history for rotavirus, encephalopathy after pertussis vaccine, yellow fever under six months; moderate or severe illness defers; minor illness, antibiotics, malnutrition, prematurity, breastfeeding, local reactions and family history are false contraindications that create missed opportunities.",
         "Routes: intradermal (bleb) for BCG, subcutaneous for MR and yellow fever, intramuscular into the anterolateral thigh for everything else in infancy and the deltoid in the older child; never the dorsogluteal site in children.",
       ],
-      quiz: { keywords: ["immunis","vaccin","ghana epi schedule","epi schedule","expanded programme","vaccines given at nine months","nine month","pentavalent","bcg","opv","pneumococcal","yellow fever","meningococcal","hepatitis b vaccine","herd immunity","herd protection","booster","intradermal","catch up","whooping cough","tetanus","measles","antibody","immunoglobulin","antigen","cervical cancer","0.05","0.5 ml","18 months","9 months","14 weeks","10 weeks"] },
+      quiz: {
+        keywords: ["immunis","vaccin","ghana epi schedule","epi schedule","expanded programme","vaccines given at nine months","nine month","pentavalent","bcg","opv","pneumococcal","yellow fever","meningococcal","hepatitis b vaccine","herd immunity","herd protection","booster","intradermal","catch up","whooping cough","tetanus","measles","antibody","immunoglobulin","antigen","cervical cancer","0.05","0.5 ml","18 months","9 months","14 weeks","10 weeks"],
+        categories: ["pediatrics"],
+        questionIds: ["NG-MOD-PAED-008"],
+      },
     },
     {
       slug: "the-cold-chain-and-running-a-safe-immunisation-session",
@@ -219,7 +223,11 @@ export const theExpandedProgrammeOnImmunisation: CourseModule = {
         "Every dose by auto-disable syringe (0.05 mL for BCG), right site and route, no aspiration, no recapping, straight into a safety box within arm's reach that is sealed at three-quarters full; vials and sharps to the yellow stream, expired vaccines to brown, nothing to the black bin but packaging.",
         "A session is planned from the microplan, screens age, card, due vaccines and illness, explains the expected minor reactions and the warning signs in the mother's language, gives all due vaccines with pentavalent last, observes for 15–20 minutes with adrenaline 1:1,000 at hand, and records every dose on the card, in the register and on the tally sheet with the next date written on the card.",
       ],
-      quiz: { keywords: ["cold chain","vaccine vial monitor","vial monitor","freezing vaccines","vaccine storage","vaccine refrigerator","refrigerator","minus 2","11°c","11 degrees","multi dose vial","reconstitut","diluent","immunisation of a child with a mild illn","missed opportunities to vaccinate","missed immunisation doses","epi catch up","storage of medicines","drug storage conditions","unreliable power","temperature range","8°c","expiry","stock rotation","first expiry","power supply","temperature chart","mild cough","runny nose","37.6","afebrile","outreach"] },
+      quiz: {
+        keywords: ["cold chain","vaccine vial monitor","vial monitor","freezing vaccines","vaccine storage","vaccine refrigerator","refrigerator","minus 2","11°c","11 degrees","multi dose vial","reconstitut","diluent","immunisation of a child with a mild illn","missed opportunities to vaccinate","missed immunisation doses","epi catch up","storage of medicines","drug storage conditions","unreliable power","temperature range","8°c","expiry","stock rotation","first expiry","power supply","temperature chart","mild cough","runny nose","37.6","afebrile","outreach"],
+        categories: ["safety-infection-control"],
+        questionIds: ["NG-MOD-PAED-007"],
+      },
     },
     {
       slug: "aefi-coverage-defaulters-and-vaccine-preventable-diseases",
@@ -334,7 +342,11 @@ export const theExpandedProgrammeOnImmunisation: CourseModule = {
         "Case definitions: measles — fever, generalised maculopapular rash and cough, coryza or conjunctivitis; AFP — any child under 15 with acute floppy weakness (two stools 24–48 hours apart within 14 days); neonatal tetanus — sucked normally for two days then cannot, with stiffness or spasms between days 3 and 28; pertussis — cough two weeks with paroxysms, whoop or vomiting; diphtheria — pharyngitis with an adherent grey membrane; yellow fever — fever then jaundice within two weeks; all but pertussis are reported within 24 hours.",
         "A measles case gets isolation, vitamin A on days 1 and 2 by age, IgM, same-day notification and vaccination of the compound; crowded, malnourished, unvaccinated children get measles vaccine with vitamin A in the first week of any emergency; hesitancy is complacency, convenience or confidence and is answered by listening, honest specific answers, concrete risk and trusted community voices — never coercion.",
       ],
-      quiz: { keywords: ["adverse event","aefi","vaccine vigilance","pharmacovigilance","immunisation refusal","responding to immunisation refusal","rumour","immunisation dropout","dropout","defaulter","defaulting mother","coverage","equity in service delivery","migrant","outreach","campaign","surveillance","notifiable","measles outbreak","measles in emergencies","measles vaccination","whooping cough","neonatal tetanus","case definition","yellow fever","complications of measles","vitamin a supplementation and measles","swelling at the injection site","tender lump","fever some hours after","fda","coverage rose","78 to 81","85 per cent","70 per cent","dose one","dose three","unvaccinated","unimmunised","refuses vaccination","father refuses","causes harm"] },
+      quiz: {
+        keywords: ["adverse event","aefi","vaccine vigilance","pharmacovigilance","immunisation refusal","responding to immunisation refusal","rumour","immunisation dropout","dropout","defaulter","defaulting mother","coverage","equity in service delivery","migrant","outreach","campaign","surveillance","notifiable","measles outbreak","measles in emergencies","measles vaccination","whooping cough","neonatal tetanus","case definition","yellow fever","complications of measles","vitamin a supplementation and measles","swelling at the injection site","tender lump","fever some hours after","fda","coverage rose","78 to 81","85 per cent","70 per cent","dose one","dose three","unvaccinated","unimmunised","refuses vaccination","father refuses","causes harm"],
+        categories: ["pediatrics"],
+        questionIds: ["NG-MOD-PAED-008"],
+      },
     },
   ],
 };

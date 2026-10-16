@@ -153,6 +153,8 @@ export const malignancyAndImmunology: CourseModule = {
       ],
       quiz: {
         keywords: ["leukaemia","leukopenia","lymphoma","burkitt","jaw swelling","enlarging jaw","cancer pain","advanced cancer","childhood cancer","cancer often","malignant tumour","tumour","sarcoma","chemotherap","cytotoxic","cyclophosphamide","ondansetron","vesicant","extravasat","neutrop","white cell count","marrow","mouth care","mouth infections","tumour lysis","high potassium, high phosphate","hypercalc","very thirsty","lymph node","night sweats","bruising with no injury","palliative","morphine","neutropenic","bone pain","diagnosed late","oncology","hair loss","she has cancer","the diagnosis","going to die","bad news","end his life","cancer","hodgkin","myeloma","bone marrow","mucositis","allopurinol","spinal cord compression","radiotherapy"],
+        categories: ["safety-infection-control", "med-surg"],
+        questionIds: ["NG-MOD-HAEM-015", "NG-MOD-HAEM-016", "NG-MOD-HAEM-017"],
       },
     },
     {
@@ -301,6 +303,8 @@ export const malignancyAndImmunology: CourseModule = {
       ],
       quiz: {
         keywords: ["hiv ","hiv.","hiv,","hiv?","hiv positive","hiv status","hiv test","hiv clinic","hiv in ","hiv can","hiv exposed","living with hiv","with hiv","antiretroviral","cd4","viral load","tld","dolutegravir","zidovudine","cotrimoxazole","mother to child","post exposure","prophylaxis be started","needlestick","sharps","hollow bore","hepatitis b","opportunistic","oral candidiasis","nystatin","isoniazid","rifampicin","disclos","red sticker","stigma","adherence","feels well","condom","undetectable","reluctant to touch","sharing a cup","cures hiv","reluctant to care","pmtct","dna pcr","window period","cryptococc","kaposi","nevirapine"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-HAEM-015"],
       },
     },
     {
@@ -449,6 +453,8 @@ export const malignancyAndImmunology: CourseModule = {
       ],
       quiz: {
         keywords: ["allerg","anaphyla","adrenaline","epinephrine","auto injector","urticaria","stridor","lupus","prednisolone","corticosteroid","vaccin","immunis","bcg","measles","pentavalent","pneumococcal","cold chain","vial monitor","vaccine refrigerator","vaccine fridge","fridge","aefi","adverse event","herd","booster","innate","adaptive","passive","immunoglobulin","tetanus","latex","balloons","rejection","groundnut","penicillin gave her a rash","allergic to penicillin","histamine","antihistamine","rumour","coverage","epi ","expanded programme","hypersensitiv","autoimmun","immunosuppress","immunocompromised","splenectomy","live vaccine","hydroxychloroquine","transplant","mantoux"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-HAEM-013"],
       },
     },
   ],

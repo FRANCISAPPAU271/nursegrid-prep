@@ -184,6 +184,8 @@ export const pregnancyAndAntenatalCare: CourseModule = {
           "trimester",
           "pregnan",
         ],
+        categories: ["maternal-newborn"],
+        questionIds: ["NG-MOD-OBS-006"],
       },
     },
     {
@@ -377,6 +379,8 @@ export const pregnancyAndAntenatalCare: CourseModule = {
           "larger than expected for her dates",
           "vesicles",
         ],
+        categories: ["maternal-newborn"],
+        questionIds: ["NG-MOD-OBS-007", "NG-MOD-OBS-008"],
       },
     },
     {
@@ -562,6 +566,8 @@ export const pregnancyAndAntenatalCare: CourseModule = {
           "hepatitis b vaccine",
           "hepatitis b",
         ],
+        categories: ["maternal-newborn"],
+        questionIds: ["NG-MOD-OBS-007"],
       },
     },
   ],

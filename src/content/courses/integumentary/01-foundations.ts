@@ -136,6 +136,8 @@ export const foundations: CourseModule = {
         "Cannula skin: pale cool swelling = infiltration (extravasation if vesicant — stop, aspirate, elevate, report); red warm cord = phlebitis (remove, resite). Investigations: KOH scraping, Wood's lamp, swab only infected wounds, slit-skin smear, biopsy, patch tests, HIV test when the skin suggests it.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INTEG-001", "NG-MOD-INTEG-002"],
+        categories: ["fundamentals"],
         keywords: ["skin pinch", "skin turgor", "turgor", "dark skin", "pallor", "cyanos", "jaundice", "clammy", "capillary refill", "sweating", "sweaty", "cold pale skin", "lesion", "itchy", "rashes", "a rash", "flushing", "pale, cool", "pitting", "nail", "hot to touch", "cool skin", "mottled", "excoriat", "around a stoma", "cannula site", "phlebitis", "extravasat", "bruis", "petechi", "skin to skin", "bed bath", "bathing", "skin care"],
       },
     },
@@ -244,6 +246,8 @@ export const foundations: CourseModule = {
         "Document cause, site, size (length × width × depth, undermining), bed, exudate, edge, pain, infection signs, plan and review date, with a dated photograph taken with consent; a chronic wound that has not shrunk by 20–40 per cent in four weeks needs the whole plan reviewed, and one that changes character needs a biopsy.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INTEG-003"],
+        categories: ["fundamentals"],
         keywords: ["wound healing", "healing", "granulat", "slough", "exudat", "macerat", "moist", "wound bed", "collagen", "vitamin c", "zinc", "scurvy", "dehiscence", "eviscerat", "intention", "keloid", "raised scar", "scarring", "inflammation", "red, warm", "swab", "necrotic", "dead tissue", "debride", "scab", "slow healing", "heal slowly", "delay healing", "wound assessment", "record of a wound", "contaminated wound", "puncture wound", "rusty", "wound care"],
       },
     },

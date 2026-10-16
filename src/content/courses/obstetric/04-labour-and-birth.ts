@@ -150,6 +150,8 @@ export const labourAndBirth: CourseModule = {
       ],
       quiz: {
         keywords: ["in labour", "labour ward", "of labour", "labour,", "labour.", "labour and", "labouring", "true labour", "false labour", "stage of labour", "first stage", "second stage", "third stage", "fourth stage", "active management", "controlled cord traction", "cord traction", "10 iu", "partograph", "alert line", "action line", "cervical dilat", "dilatation", "dilation", "contractions", "crowns", "perineum", "perineal", "perineal tear", "placenta has not delivered", "placenta has separated", "placenta and its membranes", "mechanism of", "vertex", "occipito", "denominator", "pelvic brim", "companion", "sister stay", "sister remain", "respectful", "slaps", "upright", "active phase", "4 cm", "complete cervical", "head is delivered", "head delivers", "head is born", "head crowns", "pethidine", "traditional birth attendant", "birth attendant", "deliver with a traditional", "two fifths", "four fifths", "three in ten", "contractions of", "lasting 100", "refuses a vaginal examination", "vaginal examination", "fundus", "uterus firm", "palpates the uterus", "done with the cord", "placenta home", "frustrated", "no antenatal care", "advanced labour", "pelvic diameter", "narrowest", "shoulders", "labour care guide", "lcg", "prolonged labour", "augmentation", "artificial rupture of membranes"],
+        categories: ["maternal-newborn"],
+        questionIds: ["NG-MOD-OBS-009", "NG-MOD-OBS-011"],
       },
     },
     {
@@ -294,6 +296,8 @@ export const labourAndBirth: CourseModule = {
           "augmentation of labour",
           "augmentation",
         ],
+        categories: ["maternal-newborn"],
+        questionIds: ["NG-MOD-OBS-010"],
       },
     },
     {
@@ -453,6 +457,8 @@ export const labourAndBirth: CourseModule = {
           "hurt during a previous",
           "progressing",
         ],
+        categories: ["maternal-newborn"],
+        questionIds: ["NG-MOD-OBS-009"],
       },
     },
   ],

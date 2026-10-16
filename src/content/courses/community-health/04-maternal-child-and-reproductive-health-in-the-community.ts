@@ -103,7 +103,11 @@ export const maternalChildAndReproductiveHealthInTheCommunity: CourseModule = {
         "Watch a whole feed and fix attachment — areola above the lip, wide mouth, lower lip out, chin to breast — before advising anything; exclusive breastfeeding for six months with no water, expressed milk by cup for the working mother, and support through week three.",
         "Visit within 24 hours, on day 3, day 7–14 and at six weeks: check the mother's bleeding, uterus, lochia, vital signs, breasts, legs and mood; check the baby's feeding, warmth, cord, skin, weight and immunisations; refer the same day for any danger sign; give kangaroo care to the low-birth-weight baby; counsel on postpartum family planning and register the birth.",
       ],
-      quiz: { keywords: ["antenatal care","antenatal contact","booking","birth preparedness","danger sign","iron and folate","deworming","traditional birth attendant","postnatal care","postpartum family planning","maternal death audit","maternal mortality","newborn care","cord care","kangaroo","exclusive breastfeeding","signs of good attachment","colostrum","danger signs a mother should be taught","neonatal sepsis","neonatal jaundice","ophthalmia neonatorum","adolescent pregnancy","nutrition in pregnancy","food taboos in pregnancy","folate in pregnancy","herbal medicine in pregnancy"] },
+      quiz: {
+        questionIds: ["NG-MOD-CHN-012"],
+        categories: ["maternal-newborn"],
+        keywords: ["antenatal care","antenatal contact","booking","birth preparedness","danger sign","iron and folate","deworming","traditional birth attendant","postnatal care","postpartum family planning","maternal death audit","maternal mortality","newborn care","cord care","kangaroo","exclusive breastfeeding","signs of good attachment","colostrum","danger signs a mother should be taught","neonatal sepsis","neonatal jaundice","ophthalmia neonatorum","adolescent pregnancy","nutrition in pregnancy","food taboos in pregnancy","folate in pregnancy","herbal medicine in pregnancy"]
+      },
     },
     {
       slug: "child-health-in-the-community-immunisation-growth-monitoring-and-imci",
@@ -216,7 +220,11 @@ export const maternalChildAndReproductiveHealthInTheCommunity: CourseModule = {
         "IMCI asks every child for the general danger signs, counts breathing for a full minute against 60/50/40, looks for in-drawing, tests every fever before treating, classifies dehydration and treats with ORS plans A, B or C plus zinc for 10–14 days, and never gives antidiarrhoeals or antibiotics for watery diarrhoea.",
         "Referral means the first dose, rectal artesunate if needed, sugar water or breast milk, warmth, a note and transport; counselling means demonstrating the medicine, feeding and fluids, and teach-back of when to return immediately; community volunteers manage pneumonia, malaria and diarrhoea under monthly supervision.",
       ],
-      quiz: { keywords: ["epi schedule","immunis","vaccin","cold chain","vaccine vial monitor","freezing vaccines","missed opportunities to vaccinate","immunisation dropout","defaulter tracing","outreach planning","aefi","bcg","pentavalent","pneumococcal","yellow fever","growth monitoring","growth curve","growth chart","weight for age","child welfare clinic","muac","mid upper arm","vitamin a supplementation","deworming","intestinal worms","imci","counting respiratory rate","chest indrawing","fast breathing","zinc","oral rehydration","home fluids","fever in a ghanaian child","danger signs in the sick child","pre referral treatment","milestone","sequence of development","developmental regression","corrected age","immunisation refusal"] },
+      quiz: {
+        questionIds: ["NG-MOD-CHN-010", "NG-MOD-CHN-011"],
+        categories: ["pediatrics"],
+        keywords: ["epi schedule","immunis","vaccin","cold chain","vaccine vial monitor","freezing vaccines","missed opportunities to vaccinate","immunisation dropout","defaulter tracing","outreach planning","aefi","bcg","pentavalent","pneumococcal","yellow fever","growth monitoring","growth curve","growth chart","weight for age","child welfare clinic","muac","mid upper arm","vitamin a supplementation","deworming","intestinal worms","imci","counting respiratory rate","chest indrawing","fast breathing","zinc","oral rehydration","home fluids","fever in a ghanaian child","danger signs in the sick child","pre referral treatment","milestone","sequence of development","developmental regression","corrected age","immunisation refusal"]
+      },
     },
     {
       slug: "family-planning-adolescent-school-and-reproductive-health",
@@ -326,7 +334,11 @@ export const maternalChildAndReproductiveHealthInTheCommunity: CourseModule = {
         "The age of consent to sex is 16 and defilement is a crime to be reported through DOVVSU and social welfare; marriage under 18 is prohibited by the Children's Act; consent to treatment is 18 with services given in the child's best interest; the School Health Education Programme adds education, screening, HPV and deworming, WASH and menstrual hygiene, feeding, first aid, safety and epidemic response.",
         "Manage sexually transmitted infections syndromically with the four Cs, promote HPV vaccination and VIA or HPV screening for women 25–49, assess both partners for infertility, refer for lawful abortion and give post-abortion care without judgement, and respond to gender-based violence with safety, treatment, emergency contraception within 120 hours, PEP within 72, documentation and referral.",
       ],
-      quiz: { keywords: ["family planning","contracept","implant","injectable","condom","dual protection","emergency contraception","lactational amenorrhoea","vasectomy","combined oral","progestogen only","counselling","postpartum family planning","adolescent sexual health","adolescent friendly","adolescent confidentiality","confidentiality with an adolescent","adolescent pregnancy","age of consent","gender based violence","rape","female genital mutilation","cervical cancer screening","cervical screening","cervical cancer prevention","visual inspection with acetic acid","breast examination technique","breast self","school health","syndromic management","syphilis","gonorrhoea","safe abortion","post abortion care","infertility"] },
+      quiz: {
+        questionIds: ["NG-MOD-CHN-013"],
+        categories: ["maternal-newborn"],
+        keywords: ["family planning","contracept","implant","injectable","condom","dual protection","emergency contraception","lactational amenorrhoea","vasectomy","combined oral","progestogen only","counselling","postpartum family planning","adolescent sexual health","adolescent friendly","adolescent confidentiality","confidentiality with an adolescent","adolescent pregnancy","age of consent","gender based violence","rape","female genital mutilation","cervical cancer screening","cervical screening","cervical cancer prevention","visual inspection with acetic acid","breast examination technique","breast self","school health","syndromic management","syphilis","gonorrhoea","safe abortion","post abortion care","infertility"]
+      },
     },
     {
       slug: "school-health-services",
@@ -396,6 +408,8 @@ export const maternalChildAndReproductiveHealthInTheCommunity: CourseModule = {
         "Found, referred, confirmed seen — the three columns that turn screening into service.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-CHN-018"],
+        categories: ["health-promotion"],
         keywords: ["school health", "school entry", "vision screening", "hearing screening", "deworming", "mass drug administration", "praziquantel", "albendazole", "hpv vaccine", "menstrual hygiene", "school feeding", "health club", "bullying", "dental caries"],
       },
     }

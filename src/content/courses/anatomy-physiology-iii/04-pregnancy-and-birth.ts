@@ -74,8 +74,9 @@ export const pregnancyAndBirth: CourseModule = {
         "PE: ≥140/90 + protein/end-organ; severe/HELLP/eclampsia = MgSO₄ + control + deliver; postnatal seizures to 6 weeks.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP3-010","NG-MOD-AP3-011"],
         keywords: ["pregnancy", "Naegele", "dating scan", "trimesters", "placenta", "teratogens", "TORCH", "folate", "antenatal", "IPTp", "anaemia", "GDM", "pre-eclampsia", "eclampsia", "MgSO4"],
-        categories: ["fundamentals", "medsurg"],
+        categories: ["med-surg"],
       },
     },
     {
@@ -132,8 +133,9 @@ export const pregnancyAndBirth: CourseModule = {
         "Cord prolapse: lift presenting part + emergency CS; shoulder: HELPERR, no fundal pressure; breech: skilled or section.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP3-012"],
         keywords: ["labour", "partograph", "contractions", "CTG", "episiotomy", "placenta", "APGAR", "resuscitation", "postnatal", "lochia", "perineal", "psychosis", "PPH", "TXA", "shoulder dystocia"],
-        categories: ["fundamentals", "medsurg"],
+        categories: ["med-surg"],
       },
     },
   ],

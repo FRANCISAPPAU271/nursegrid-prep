@@ -66,8 +66,9 @@ export const evidenceDashboardsQuality: CourseModule = {
         "Journal club monthly: PICO + design + plain results + vote + pilot + measure.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INFO-015"],
         keywords: ["EBP", "PICO", "hierarchy", "CRAAP", "HINARI", "PubMed", "CINAHL", "systematic review", "RCT", "guidelines", "journal club", "predatory", "search", "appraisal", "evidence"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
     {
@@ -130,8 +131,9 @@ export const evidenceDashboardsQuality: CourseModule = {
         "Present: one message + big annotated chart + plain words; benchmark like-with-like.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INFO-016"],
         keywords: ["run chart", "median", "shift", "trend", "runs", "annotate", "dashboard", "metrics", "PDSA", "baseline", "variation", "benchmark", "presenting", "DHIMS2", "QI"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
   ],

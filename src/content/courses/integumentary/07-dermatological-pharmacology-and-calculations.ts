@@ -167,6 +167,8 @@ export const dermatologicalPharmacologyAndCalculations: CourseModule = {
         "Calculations: Parkland 4 mL × kg × % TBSA Ringer's lactate, half in the first 8 hours from the time of burn (70 kg, 30% = 8,400 mL → 525 then 262.5 mL/h; late arrival compresses the first half into the remaining time; children add 4-2-1 maintenance), urine targets 0.5 mL/kg/h adults, 1 mL/kg/h children, 1–2 mL/kg/h electrical; rule of nines and the infant's 18% head; drops per minute = mL/h × drop factor ÷ 60; weight-based doses (ivermectin, griseofulvin, azithromycin, flucloxacillin, aciclovir, morphine) by want ÷ have × volume; dilutions by ratio (1% to 1:10,000 is 1 in 100; 5% to 0.05% is 1 in 100; 5% to 0.5% is 1 in 10); always estimate first, write units, and double-check decimals and strengths (1:1,000 versus 1:10,000 adrenaline).",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INTEG-019", "NG-MOD-INTEG-020"],
+        categories: ["pharmacology-parenteral", "fundamentals"],
         keywords: ["topical", "the cream", "lightening cream", "ointment", "emollient", "hydrocortisone", "betamethasone", "steroid", "antifungal", "griseofulvin", "clotrimazole", "nystatin", "permethrin", "ivermectin", "benzyl benzoate", "aciclovir", "antihistamine", "chlorpheniramine", "flucloxacillin", "penicillin", "benzathine", "azithromycin", "doxycycline", "silver sulfadiazine", "chlorhexidine", "povidone", "permanganate", "tetanus", "toxoid", "immunoglobulin", "parkland", "4 ml", "mg/kg", "adrenaline", "anaphyla", "drops per minute", "drip", "paracetamol", "morphine", "ketamine", "analges", "dressing change", "vancomycin", "cotrimoxazole", "allerg"],
       },
     },

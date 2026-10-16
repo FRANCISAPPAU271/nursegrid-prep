@@ -72,8 +72,9 @@ export const therapeuticDiets: CourseModule = {
         "Counsel: ONE change + cook + festivals planned; red flags rush, never diet-first.",
       ],
       quiz: {
-        keywords: ["diabetes", "plate", "carbohydrate", "hypo", "15-15", "DKA", "insulin", "feet", "DASH", "salt", "potassium", "sick-day", "HbA1c", "weight", "festival"],
+        questionIds: ["NG-MOD-NUTR-009", "NG-MOD-NUTR-010"],
         categories: ["fundamentals"],
+        keywords: ["diabetes", "plate", "carbohydrate", "hypo", "15-15", "DKA", "insulin", "feet", "DASH", "salt", "potassium", "sick-day", "HbA1c", "weight", "festival"],
       },
     },
     {
@@ -142,8 +143,9 @@ export const therapeuticDiets: CourseModule = {
         "Every stop paired with start; demo + lists + cook + review; red flags rush.",
       ],
       quiz: {
-        keywords: ["CKD", "potassium", "leaching", "phosphate", "fluids", "dialysis", "liver", "ascites", "thiamine", "diarrhoea", "ORS", "ulcer", "gout", "allergy", "anaphylaxis", "lactose"],
+        questionIds: ["NG-MOD-NUTR-011", "NG-MOD-NUTR-012"],
         categories: ["fundamentals"],
+        keywords: ["CKD", "potassium", "leaching", "phosphate", "fluids", "dialysis", "liver", "ascites", "thiamine", "diarrhoea", "ORS", "ulcer", "gout", "allergy", "anaphylaxis", "lactose"],
       },
     },
   ],

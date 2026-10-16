@@ -65,8 +65,9 @@ export const professionalismCapstone: CourseModule = {
         "10-mark formula: six cited sentences; structure + specifics = distinctions.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO1-019", "NG-MOD-PRO1-004"],
         keywords: ["compass", "triage", "refusal", "disclosure", "candour", "escalation", "unsafe orders", "whistleblower", "scenarios", "reasoning", "ISBAR", "incident", "scope", "ethics", "negligence"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
     {
@@ -137,8 +138,9 @@ export const professionalismCapstone: CourseModule = {
         "Pledge signed + filed: patients first, scope honest, danger escalated, learning lifelong.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO1-020", "NG-MOD-PRO1-001"],
         keywords: ["Gibbs", "reflection", "portfolio", "CPD", "appraisal", "competencies", "licensing exam", "OSCE", "STAR", "interviews", "pledge", "countdown", "rapid review", "tribunal", "distinction"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
   ],

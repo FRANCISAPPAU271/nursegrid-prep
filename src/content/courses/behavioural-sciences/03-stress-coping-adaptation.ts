@@ -66,8 +66,9 @@ export const stressCopingAdaptation: CourseModule = {
         "Nurse stress: recognise phase → sleep + debrief + boundaries + help; self-care = safety.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-BEH-008"],
         keywords: ["Selye", "GAS", "alarm", "resistance", "exhaustion", "Lazarus", "appraisal", "reframe", "fight-flight", "cortisol", "Holmes-Rahe", "stressors", "burnout", "calm", "self-care"],
-        categories: ["fundamentals"],
+        categories: ["mental-health"],
       },
     },
     {
@@ -130,8 +131,9 @@ export const stressCopingAdaptation: CourseModule = {
         "Carers: include + respite + teach + watch hidden + screen burnout + thank.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-BEH-009","NG-MOD-BEH-010","NG-MOD-BEH-011"],
         keywords: ["coping", "problem-focused", "emotion-focused", "crisis", "Caplan", "defences", "Freud", "denial", "projection", "displacement", "regression", "sublimation", "carers", "burnout", "respite"],
-        categories: ["fundamentals"],
+        categories: ["mental-health"],
       },
     },
   ],

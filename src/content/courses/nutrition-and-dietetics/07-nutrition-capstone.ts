@@ -65,8 +65,9 @@ export const nutritionCapstone: CourseModule = {
         "Obesity+HTN: DASH + smoke + myth kindly + cook + BP log + monthly; 10-mark formula aloud.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-NUTR-019"],
+        categories: ["pharmacology-parenteral"],
         keywords: ["capstone", "scenarios", "ABCD", "classify", "faltering", "anaemia", "diabetes", "kwashiorkor", "OTP", "obesity", "formula", "distinction", "reasoning", "canvas", "myths"],
-        categories: ["fundamentals"],
       },
     },
     {
@@ -137,8 +138,9 @@ export const nutritionCapstone: CourseModule = {
         "Pledge signed + filed; project started within 30 days.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-NUTR-020"],
+        categories: ["health-promotion"],
         keywords: ["meal plans", "QI project", "PDSA", "tricky points", "countdown", "STAR", "interviews", "pledge", "portfolio", "90 days", "distinction", "canvas", "run chart", "Ghana foods", "portions"],
-        categories: ["fundamentals"],
       },
     },
   ],

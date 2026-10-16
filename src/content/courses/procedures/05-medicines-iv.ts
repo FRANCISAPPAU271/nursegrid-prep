@@ -122,7 +122,11 @@ export const medicinesAndIntravenousTherapyProcedures: CourseModule = {
         "Intramuscular at 90 degrees with a needle long enough to reach muscle: ventrogluteal preferred for adults and children over seven months (up to 3 mL), vastus lateralis for infants, deltoid for up to 1 mL, dorsogluteal no longer recommended; Z-track for all, 1 mL per ten seconds, no aspiration for vaccines.",
         "Controlled drugs double-locked with the key held by the registered nurse in charge, every dose and wastage entered and witnessed by two people, the balance counted at every handover and any discrepancy reported at once; after an error, assess the patient, inform the prescriber and in-charge, report the incident and tell the patient.",
       ],
-      quiz: { keywords: ["rights of medication","medication error","prescription","oral medication","sublingual","crush","eye drop","eye ointment","ear drop","pinna","inhaler","spacer","nebulis","vaginal","intradermal","bcg","subcutaneous","insulin injection","insulin","intramuscular","ventrogluteal","dorsogluteal","z-track","injection site","needle","ampoule","vial","reconstitut","controlled drug","morphine","pethidine","drug administration","high-alert","allergy","adverse drug","pharmacovigilance","expiry","syrup","paediatric dose","dosage"] },
+      quiz: {
+        questionIds: ["NG-MOD-PROC-012", "NG-MOD-PROC-014"],
+        categories: ["pharmacology-parenteral"],
+        keywords: ["rights of medication","medication error","prescription","oral medication","sublingual","crush","eye drop","eye ointment","ear drop","pinna","inhaler","spacer","nebulis","vaginal","intradermal","bcg","subcutaneous","insulin injection","insulin","intramuscular","ventrogluteal","dorsogluteal","z-track","injection site","needle","ampoule","vial","reconstitut","controlled drug","morphine","pethidine","drug administration","high-alert","allergy","adverse drug","pharmacovigilance","expiry","syrup","paediatric dose","dosage"]
+      },
     },
     {
       slug: "peripheral-cannulation-intravenous-infusions-and-drugs-infusion-arithmetic-and-blood-transfusion",
@@ -231,7 +235,11 @@ export const medicinesAndIntravenousTherapyProcedures: CourseModule = {
         "For transfusion, identify the patient by asking name and date of birth against the band, hand-label the sample tube at the bedside after taking it, check the unit with a second trained person aloud (identity, compatibility label, donation number, group, expiry, special requirements, appearance), start within thirty minutes of the fridge and finish within four hours, through a 170–200 micron filter set primed with saline only, with observations at baseline, fifteen minutes, hourly and at the end.",
         "For any reaction stop the transfusion, keep the vein open with saline through a new set, recheck identity, call, keep the unit and report; loin pain, dark urine and hypotension in the first fifteen minutes is ABO haemolysis — resuscitate and maintain urine output; breathlessness with crackles in the elderly or a child is overload — sit up, oxygen, diuretic; rigors and collapse suggest bacterial contamination — cultures and antibiotics.",
       ],
-      quiz: { keywords: ["cannula","peripheral line","phlebitis","infiltration","extravasation","drop rate","drops per minute","giving set","infusion pump","flush","intravenous","transfusion","blood transfusion","transfusion reaction","cross-match","central line","central venous","infusion","normal saline","ringer","dextrose","potassium infusion","fluid overload","air embol","haemolytic","platelet","intravenous fluid","hypovolaem","circulatory overload","vancomycin"] },
+      quiz: {
+        questionIds: ["NG-MOD-PROC-013"],
+        categories: ["fundamentals"],
+        keywords: ["cannula","peripheral line","phlebitis","infiltration","extravasation","drop rate","drops per minute","giving set","infusion pump","flush","intravenous","transfusion","blood transfusion","transfusion reaction","cross-match","central line","central venous","infusion","normal saline","ringer","dextrose","potassium infusion","fluid overload","air embol","haemolytic","platelet","intravenous fluid","hypovolaem","circulatory overload","vancomycin"]
+      },
     },
   ],
 };

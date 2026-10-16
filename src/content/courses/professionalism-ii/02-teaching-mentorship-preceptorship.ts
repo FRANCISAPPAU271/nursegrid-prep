@@ -72,8 +72,9 @@ export const teachingMentorshipPreceptorship: CourseModule = {
         "Daily 5-minute pearls; log teaching as CPD for you and learners.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO2-004"],
         keywords: ["Knowles", "andragogy", "adult learning", "Bloom", "cognitive", "psychomotor", "affective", "demonstration", "simulation", "Socratic", "teach-back", "patient education", "adherence", "DOTS", "lesson plan"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
     {
@@ -142,8 +143,9 @@ export const teachingMentorshipPreceptorship: CourseModule = {
         "Fail honestly: early written warning → support plan → fair re-assess → fail + report; never sign unseen.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO2-005","NG-MOD-PRO2-006"],
         keywords: ["mentor", "preceptor", "supervisor", "feedback", "SBI", "Pendleton", "competency", "countersign", "objectives", "debrief", "difficult learners", "failing", "support plan", "hidden curriculum", "assessment"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
   ],

@@ -72,8 +72,9 @@ export const malnutritionInAllForms: CourseModule = {
         "Document daily; audit every death; demo home feeds before discharge.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-NUTR-013", "NG-MOD-NUTR-014"],
+        categories: ["pediatrics", "fluid-electrolyte"],
         keywords: ["marasmus", "kwashiorkor", "SAM", "MAM", "OTP", "RUTF", "F75", "F100", "ReSoMal", "appetite", "hypothermia", "hypoglycaemia", "iron", "audit", "discharge"],
-        categories: ["fundamentals"],
       },
     },
     {
@@ -142,8 +143,9 @@ export const malnutritionInAllForms: CourseModule = {
         "Eating disorders: kindly screen + K+/heart + refer + family; anti-stigma clinic audited.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-NUTR-015", "NG-MOD-NUTR-016"],
+        categories: ["health-promotion", "fundamentals"],
         keywords: ["hidden hunger", "vitamin A", "campaigns", "obesity", "stigma", "5-10%", "children", "play", "double burden", "re-feeding", "thiamine", "electrolytes", "eating disorders", "counselling", "trends"],
-        categories: ["fundamentals"],
       },
     },
   ],

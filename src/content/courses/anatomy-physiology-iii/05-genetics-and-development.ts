@@ -73,8 +73,9 @@ export const geneticsAndDevelopment: CourseModule = {
         "Counsel: 3-generation pedigree, honest screening ladder, non-directive, written summary, refer genetics, document all.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP3-013","NG-MOD-AP3-014"],
         keywords: ["genetics", "chromosomes", "alleles", "meiosis", "nondisjunction", "Punnett", "dominant", "recessive", "X-linked", "pedigree", "sickle cell", "hydroxyurea", "Down syndrome", "NIPT", "counselling"],
-        categories: ["fundamentals", "medsurg"],
+        categories: ["med-surg"],
       },
     },
     {
@@ -137,8 +138,9 @@ export const geneticsAndDevelopment: CourseModule = {
         "Red flags: distress, murmur + poor feeds, bilious/no stool, jaundice <24 h, hypo, sepsis, dysmorphic, ambiguous — same-shift escalation.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP3-015"],
         keywords: ["embryology", "gastrulation", "germ layers", "organogenesis", "neural tube", "folate", "teratogens", "fetal alcohol", "cleft", "Down syndrome", "DDH", "clubfoot", "atresia", "newborn exam", "APGAR"],
-        categories: ["fundamentals", "medsurg"],
+        categories: ["med-surg"],
       },
     },
   ],

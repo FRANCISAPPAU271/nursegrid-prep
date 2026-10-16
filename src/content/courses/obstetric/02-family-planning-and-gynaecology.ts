@@ -139,6 +139,8 @@ export const familyPlanningAndGynaecology: CourseModule = {
           "30 day cycles",
           "regular 30 day",
         ],
+        categories: ["health-promotion", "maternal-newborn"],
+        questionIds: ["NG-MOD-OBS-003", "NG-MOD-OBS-004"],
       },
     },
     {
@@ -302,6 +304,8 @@ export const familyPlanningAndGynaecology: CourseModule = {
           "husband beats",
           "husband insists on signing",
         ],
+        categories: ["maternal-newborn"],
+        questionIds: ["NG-MOD-OBS-005"],
       },
     },
   ],

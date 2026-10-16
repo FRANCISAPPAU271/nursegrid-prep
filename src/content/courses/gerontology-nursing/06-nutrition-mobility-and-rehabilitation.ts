@@ -72,8 +72,9 @@ export const nutritionMobilityAndRehabilitation: CourseModule = {
         "Re-feeding: start low + thiamine + electrolytes, doctor-led; tubes verified every use.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-GERO-005"],
+        categories: ["gerontology-community"],
         keywords: ["MUST", "malnutrition", "MUAC", "fortify", "protein", "hydration", "dehydration", "dysphagia", "aspiration", "textures", "re-feeding", "thiamine", "tube feed", "dentures", "thrush"],
-        categories: ["fundamentals"],
       },
     },
     {
@@ -142,8 +143,9 @@ export const nutritionMobilityAndRehabilitation: CourseModule = {
         "Goals elder-set + SMART + celebrated; discharge with aids + training + CHPS link.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-GERO-015", "NG-MOD-GERO-017"],
+        categories: ["health-promotion", "fundamentals"],
         keywords: ["deconditioning", "mobilise", "exercise", "sarcopenia", "balance", "stick", "frame", "wheelchair", "home safety", "hazards", "hip fracture", "rehab", "OT", "physio", "goals"],
-        categories: ["fundamentals"],
       },
     },
   ],

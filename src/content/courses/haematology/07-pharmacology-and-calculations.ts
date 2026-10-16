@@ -147,6 +147,8 @@ export const haematologicalPharmacologyAndCalculations: CourseModule = {
       ],
       quiz: {
         keywords: ["iron tablet","iron supplement","oral iron","ferrous","elemental","iron deficien","prescribed iron","folic","folate","b12","daily penicillin","vitamin k","heparin","warfarin","inr","aspirin","antiplatelet","anticoagul","anti d","dolutegravir","tld","cotrimoxazole","isoniazid","pyridoxine","nystatin","ml/kg","drops per minute","drip rate","units per hour","units in","mg/kg","how many millilitres","what volume","what rate","transfus","z track","ondansetron","cyclophosphamide","cytotoxic","kontomire","black stool","black tarry","antibiotic and develops bruising","herbal preparation daily","reverses the effect","hydroxocobalamin","hydroxyurea","penicillin v","tranexamic","enoxaparin","protamine","clopidogrel","filgrastim","zidovudine","desferrioxamine","how many ml","15 drops","iron poisoning"],
+        categories: ["pharmacology-parenteral", "med-surg", "pediatrics"],
+        questionIds: ["NG-MOD-HAEM-018", "NG-MOD-HAEM-019", "NG-MOD-HAEM-020"],
       },
     },
   ],

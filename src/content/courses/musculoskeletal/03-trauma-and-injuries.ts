@@ -130,6 +130,8 @@ export const traumaAndInjuries: CourseModule = {
       ],
       quiz: {
         keywords: ["primary survey", "triage", "trauma", "crash", "road traffic", "motorcycle", "collision", "crushed", "crush injur", "trapped under", "rubble", "rhabdo", "hypovolaemic", "flail", "rib fracture", "cervical spine", "neck pain", "spinal injur", "log roll", "severe bleeding", "amputated part", "mass casualty", "bleeding heavily", "pressure on the wound", "tourniquet", "pelvic binder"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-MSK-007", "NG-MOD-MSK-008"],
       },
     },
     {
@@ -259,6 +261,8 @@ export const traumaAndInjuries: CourseModule = {
       ],
       quiz: {
         keywords: ["sprain", "dislocat", "amputat", "stump", "phantom", "prosthe", "rehabilitat", "disabilit", "wheelchair", "gangrene", "diabetic foot", "cold compress", "elevat", "crutch", "walking aid", "walking stick", "physiotherap", "community based rehabilitation", "persons with disability", "haemophilia", "swollen knee", "burn across a joint", "contracture", "scar"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-MSK-008"],
       },
     },
   ],

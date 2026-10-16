@@ -73,8 +73,9 @@ export const urinarySystem: CourseModule = {
         "Anatomy: bank 0088; function + drugs: 0022 — read every diuretic by its segment.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP2-013","NG-MOD-AP2-014"],
         keywords: ["kidney", "ureter", "bladder", "urethra", "UTI", "catheter", "nephron", "glomerulus", "GFR", "creatinine", "ADH", "aldosterone", "urinalysis", "proteinuria", "AKI"],
-        categories: ["medsurg", "fundamentals"],
+        categories: ["fluid-electrolyte"],
       },
     },
     {
@@ -135,8 +136,9 @@ export const urinarySystem: CourseModule = {
         "Balance charts: all in, all out, cumulative, daily weights (1 kg ≈ 1 L), escalate on output/weight/lungs/electrolytes.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP2-015"],
         keywords: ["fluids", "dehydration", "overload", "third-spacing", "IV fluids", "sodium", "potassium", "calcium", "magnesium", "phosphate", "acid-base", "compensation", "anion gap", "fluid balance", "daily weights"],
-        categories: ["medsurg", "fundamentals"],
+        categories: ["fluid-electrolyte"],
       },
     },
   ],

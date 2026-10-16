@@ -66,6 +66,7 @@ export const listeningAndAttending: CourseModule = {
         "Document: observed + done + quoted — listening IS intervention.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCOM-004", "NG-MOD-TCOM-005"],
         keywords: ["SOLER", "Egan", "listening", "levels", "empathic", "encouragers", "interrupting", "minimising", "feelings", "gaps", "body language", "attending", "silence", "nod", "document"],
         categories: ["fundamentals"],
       },
@@ -130,6 +131,7 @@ export const listeningAndAttending: CourseModule = {
         "Self-care = patient safety: processed grief prevents burnout, errors, exits.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCOM-006"],
         keywords: ["presence", "touch", "silence", "holding space", "self-awareness", "triggers", "debrief", "Gibbs", "burnout", "grief", "dying", "consent", "culture", "flinch", "reflection"],
         categories: ["fundamentals"],
       },

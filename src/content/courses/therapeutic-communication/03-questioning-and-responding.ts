@@ -66,6 +66,7 @@ export const questioningAndResponding: CourseModule = {
         "Document key questions + answers; funnel language wins interviews.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCOM-007"],
         keywords: ["funnel", "open questions", "closed questions", "probes", "leading", "why", "multiple", "jargon", "scale", "miracle question", "solution-focused", "goals", "rephrase", "ratio", "interrogation"],
         categories: ["fundamentals"],
       },
@@ -130,6 +131,7 @@ export const questioningAndResponding: CourseModule = {
         "Disclose tiny + rare + for them; their stage, always.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCOM-008", "NG-MOD-TCOM-009"],
         keywords: ["paraphrase", "reflect", "clarify", "summarise", "ladder", "teach-back", "confrontation", "discrepancy", "self-disclosure", "mirror", "tentative", "fuzzy", "corrections", "check", "responding"],
         categories: ["fundamentals"],
       },

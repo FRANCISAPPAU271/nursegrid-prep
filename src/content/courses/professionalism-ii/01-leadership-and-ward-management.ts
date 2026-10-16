@@ -65,8 +65,9 @@ export const leadershipAndWardManagement: CourseModule = {
         "New graduates lead from day one; teams copy in-charge behaviour, not policies.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO2-001"],
         keywords: ["leadership", "management", "autocratic", "democratic", "laissez-faire", "transformational", "servant", "situational", "emotional intelligence", "Lewin", "change", "vision", "motivation", "culture", "in-charge"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
     {
@@ -128,8 +129,9 @@ export const leadershipAndWardManagement: CourseModule = {
         "Never all-junior nights; escalate unsafe staffing in writing with documented deferred care.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO2-002","NG-MOD-PRO2-003"],
         keywords: ["POSDCORB", "ward management", "roster", "skill mix", "supervision", "appraisal", "conflict", "competing", "collaborating", "compromising", "supplies", "stock", "controlled drugs", "in-charge", "delegation"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
   ],

@@ -67,8 +67,9 @@ export const bedsideApplication: CourseModule = {
         "Document measurements, not adjectives — so the next nurse can see change.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP1-019","NG-MOD-AP1-003"],
         keywords: ["assessment", "compare sides", "gait", "range of motion", "muscle strength", "CMS", "capillary refill", "auscultate", "bowel sounds", "palpation", "melaena", "turgor", "oedema", "pressure areas", "documentation"],
-        categories: ["fundamentals"],
+        categories: ["risk-reduction"],
       },
     },
     {
@@ -138,8 +139,9 @@ export const bedsideApplication: CourseModule = {
         "Anatomy locates, physiology explains, you act — the capstone of A&P I.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP1-020","NG-MOD-AP1-004"],
         keywords: ["red flags", "fracture", "compartment syndrome", "cauda equina", "septic arthritis", "GI bleed", "obstruction", "peritonitis", "appendicitis", "McBurney", "cellulitis", "ABCDE", "melanoma", "SBAR", "escalation"],
-        categories: ["fundamentals", "medsurg"],
+        categories: ["risk-reduction"],
       },
     },
   ],

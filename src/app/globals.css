@@ -56,8 +56,14 @@ label {
 }
 
 /* Prevent accidental pull-to-refresh interrupting quizzes mid-question.
-   NOTE: overflow-x:hidden on html/body was removed — it freezes scrolling
-   and touch on some mobile browsers. */
+   Use overflow-x: clip so horizontal viewport blowout is completely stopped
+   without breaking position: sticky or creating unwanted scroll containers. */
+html,
+body {
+  max-width: 100vw;
+  overflow-x: clip;
+}
+
 body {
   overscroll-behavior-y: contain;
 }

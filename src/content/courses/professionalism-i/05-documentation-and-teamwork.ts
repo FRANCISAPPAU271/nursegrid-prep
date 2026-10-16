@@ -72,8 +72,9 @@ export const documentationHandoverTeamwork: CourseModule = {
         "Late entries headed + reasoned, never back-timed; self-audit ten charts monthly.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO1-013"],
         keywords: ["documentation", "SOAPIE", "DAR", "FOCUS", "contemporaneous", "countersign", "abbreviations", "e-records", "copy-paste", "audit", "late entry", "retention", "evidence", "handover", "tribunal"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
     {
@@ -142,8 +143,9 @@ export const documentationHandoverTeamwork: CourseModule = {
         "Unsafe staffing escalated IN WRITING with visible prioritizing; verbal orders emergency-only with read-back.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO1-014", "NG-MOD-PRO1-015"],
         keywords: ["ISBAR", "SBAR", "handover", "read-back", "bedside", "referral", "incident", "disclosure", "near-miss", "teamwork", "rounds", "closed-loop", "conflict", "staffing", "verbal orders"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
   ],

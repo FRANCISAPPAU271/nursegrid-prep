@@ -133,6 +133,8 @@ export const woundCare: CourseModule = {
         "Surgical site infection: day 3–7 increasing pain, spreading warmth, pus, fever; swab viable tissue after cleansing and before antibiotics; prevent by glucose and nutrition control, clipping not shaving, prophylaxis within 60 minutes of incision, normothermia, hand hygiene and ANTT.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INTEG-020"],
+        categories: ["fundamentals"],
         keywords: ["dressing", "sterile", "aseptic", "trolley", "gloves", "glove", "hand hygiene", "hand wash", "alcohol hand", "cleansing", "cleaning a wound", "saline", "gauze", "adhered", "negative pressure", "suture", "staple", "wound swab", "sharps", "soiled", "waste", "decontaminat", "autoclave", "disinfect", "sterilis", "surgical site", "wound infection", "purulent", "pus ", "wound care"],
       },
     },
@@ -247,6 +249,8 @@ export const woundCare: CourseModule = {
         "Established injuries: total offloading, TIME assessment and weekly measurement, debridement, dressings by stage, infection control, nutrition, pain relief, family teaching; escalate stage 3–4, suspected osteomyelitis, sepsis or no progress at four weeks; report hospital-acquired injuries as incidents and document risk scores, checks, turns, surface and teaching.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INTEG-004", "NG-MOD-INTEG-005"],
+        categories: ["fundamentals"],
         keywords: ["pressure ulcer", "pressure area", "pressure damage", "pressure sore", "pressure injur", "sacrum", "heel", "non blanching", "blanch", "bedbound", "bed bound", "bedridden", "immobile", "immobil", "turning an immobile", "reposition", "frail", "incontinence", "macerat", "shear", "friction", "air mattress", "mattress", "after a stroke", "risk assessment tool", "skin loss", "braden", "waterlow", "cannula site", "extravasat", "infiltrat", "phlebitis", "pillow", "in a chair"],
       },
     },
@@ -374,6 +378,8 @@ export const woundCare: CourseModule = {
         "Lymphatic filariasis: progressive leg swelling and hydrocele with acute febrile attacks — mass drug administration prevents transmission, while daily washing, drying between toes, entry-lesion treatment, elevation, exercise, footwear and antibiotics for attacks control the limb. Guinea worm is notifiable the same day; a chronic ulcer that changes its edge is biopsied for Marjolin's cancer.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INTEG-018"],
+        categories: ["fundamentals"],
         keywords: ["leg ulcer", "foot care", "diabetic foot", "foot ulcer", "neuropath", "callus", "toenail", "feet of", "examining the feet", "barefoot", "amputat", "compression bandag", "compression stocking", "arterial disease", "brown stained", "varicose", "venous ulcer", "venous insufficiency", "buruli", "painless ulcer", "undermined", "filaria", "lymphoedema", "lymphatic", "swollen leg", "worm emerging", "guinea worm", "gangrene", "footwear", "shoes", "under the ball", "metatarsal", "no pain in the area", "ulcer above the ankle", "ulceration", "foot infection", "sickle cell leg"],
       },
     },

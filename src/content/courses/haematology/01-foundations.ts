@@ -125,6 +125,8 @@ export const foundations: CourseModule = {
       ],
       quiz: {
         keywords: ["full blood count","haemoglobin of","haemoglobin is","haemoglobin taken","haemoglobin values","haemoglobin 8","mean haemoglobin","point of care haemoglobin","platelet","white cell","neutrophil","leukopenia","red cell","red blood","blood film","blood sample","sample tube","order should the tubes","citrate tube","edta","haemolysed","venepuncture","pallor","lymph node","spleen","mean cell volume","blood group","blood test","grouping sample","cross matching","clotting screen","anaemi","laboratory result","normal range","reference range"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-HAEM-001"],
       },
     },
     {
@@ -201,6 +203,8 @@ export const foundations: CourseModule = {
       ],
       quiz: {
         keywords: ["full blood count", "fbc", "haemoglobin", "mcv", "microcytic", "macrocytic", "normocytic", "reticulocyte", "leucocytosis", "leukocytosis", "leukopenia", "neutropenia", "thrombocytopenia", "thrombocytosis", "pancytopenia", "blasts", "blood film", "malaria parasite", "eosinophilia", "thalassaemia", "anaemia", "polycythaemia"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-HAEM-001", "NG-MOD-HAEM-002"],
       },
     },
     {
@@ -347,6 +351,8 @@ export const foundations: CourseModule = {
       ],
       quiz: {
         keywords: ["clotting","coagulation","a clot","clots","inr","immunity","innate","antibod","antigen","immunoglobulin","booster","breastfed infant","colostrum","lymph","inflammation","inflamed","cd4","viral load","white cell","neutrophil","allerg","anaphyla","platelet","spleen","surface antigen","vaccine","leukopenia","fever and shivering","shivering violently","haemostasis","d dimer"],
+        categories: ["pharmacology-parenteral", "med-surg"],
+        questionIds: ["NG-MOD-HAEM-018", "NG-MOD-HAEM-019"],
       },
     },
   ],

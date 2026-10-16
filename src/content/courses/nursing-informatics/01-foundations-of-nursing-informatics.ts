@@ -66,8 +66,9 @@ export const foundationsOfNursingInformatics: CourseModule = {
         "Mantra: right data, right person, right time — decided by the right nurse.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INFO-001","NG-MOD-INFO-002"],
         keywords: ["DIKW", "data", "information", "knowledge", "wisdom", "informatics", "IMIA", "TIGER", "competencies", "super-user", "CNIO", "ladder", "hyperkalaemia", "definition", "judgment"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
     {
@@ -130,8 +131,9 @@ export const foundationsOfNursingInformatics: CourseModule = {
         "Behind every statistic stands a nurse — be one the nation can trust.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INFO-003"],
         keywords: ["DHIMS2", "LHIMS", "eTracker", "mHealth", "telemedicine", "Ghana", "data quality", "dimensions", "fabrication", "downtime", "dashboard", "tallies", "coverage", "MoTeCH", "SMS"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
   ],

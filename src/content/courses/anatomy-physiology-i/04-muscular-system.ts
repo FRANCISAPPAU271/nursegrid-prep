@@ -86,8 +86,9 @@ export const muscularSystem: CourseModule = {
         "Everyday movement is unfused tetanus; tone is resting readiness; isometric effort spikes blood pressure.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP1-010","NG-MOD-AP1-011"],
         keywords: ["muscle", "sarcomere", "sliding filament", "actin", "myosin", "neuromuscular junction", "acetylcholine", "tetanus", "muscle tone", "rigor mortis", "creatine", "oxygen debt", "myasthenia"],
-        categories: ["fundamentals"],
+        categories: ["risk-reduction"],
       },
     },
     {
@@ -167,8 +168,9 @@ export const muscularSystem: CourseModule = {
         "Positioning and daily range-of-motion through every plane is how nurses feed sarcomeres and joints.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP1-012"],
         keywords: ["origin insertion", "prime mover", "antagonist", "deltoid", "vastus lateralis", "ventrogluteal", "intramuscular", "quadriceps", "hamstring", "diaphragm", "sternocleidomastoid", "myasthenia", "muscular dystrophy", "atrophy", "range of motion"],
-        categories: ["fundamentals"],
+        categories: ["risk-reduction"],
       },
     },
   ],

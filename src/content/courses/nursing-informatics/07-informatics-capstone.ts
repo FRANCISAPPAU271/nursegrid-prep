@@ -65,8 +65,9 @@ export const informaticsCapstone: CourseModule = {
         "Wrong SMS: recall + breach drill same shift + verification double-check.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INFO-019","NG-MOD-INFO-001"],
         keywords: ["capstone", "scenarios", "canvas", "formula", "cloning", "snooping", "downtime", "override", "breach", "SMS", "distinction", "reasoning", "addendum", "incident", "improve"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
     {
@@ -137,8 +138,9 @@ export const informaticsCapstone: CourseModule = {
         "Pledge signed + filed; project started within 30 days.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INFO-020","NG-MOD-INFO-008"],
         keywords: ["QI project", "PDSA", "tricky points", "countdown", "STAR", "interviews", "pledge", "portfolio", "90 days", "distinction", "canvas", "run chart", "change", "spread", "sustain"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
   ],

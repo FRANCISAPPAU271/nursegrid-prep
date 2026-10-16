@@ -105,7 +105,11 @@ export const nutritionFluidsAndElimination: CourseModule = {
         "Fluid deficit is treated orally whenever the patient can drink, with ORS made one sachet to one litre and zinc for children, and intravenously when losses are rapid, the patient is in shock or vomiting everything; overload from an unreviewed infusion is managed by stopping, sitting up, oxygen and the diuretic.",
         "A peripheral infusion is prescribed, checked, labelled and run at a calculated rate — volume times drop factor over minutes, 20, 15 or 60 drops per millilitre — never caught up, monitored hourly for infiltration, phlebitis, infection, overload and air embolism, and the cannula is reviewed daily and removed as soon as it has no purpose.",
       ],
-      quiz: { keywords: ["functions of macronutrients","classifying local staples","body mass index","bmi calculation","mid upper arm circumference","nutritional assessment","malnutrition in the older adult","swallowing difficulty","dysphagia","silent aspiration","nasogastric","nasogastric tube","confirming nasogastric tube position","ph paper","enteral feeding","nasogastric feeding position","feeding tube","fluid balance charting","fluid balance chart","fluid balance","checking cumulative intake","recording small fluid volumes","weight as a measure of fluid balance","earliest sign of dehydration","fluid overload","recognising fluid overload","drop rate","drops per minute","infusion rate","giving set","intravenous therapy","cannula","cannula site","phlebitis","infiltration","signs of infiltration","extravasation","air embolism","nil by mouth","food taboos","fat soluble vitamins","vitamin c","maintenance fluid","appetite","anorexia","dietary assessment","protein energy","kwashiorkor","marasmus","obesity","upright","parenteral nutrition","tpn","aspirate","insensible loss","positive balance","oral rehydration","ringer","dextrose","hypotonic","isotonic","hypertonic","fluid restriction"] },
+      quiz: {
+        questionIds: ["NG-MOD-FUND-012", "NG-MOD-FUND-016"],
+        categories: ["fundamentals", "pharmacology-parenteral"],
+        keywords: ["functions of macronutrients","classifying local staples","body mass index","bmi calculation","mid upper arm circumference","nutritional assessment","malnutrition in the older adult","swallowing difficulty","dysphagia","silent aspiration","nasogastric","nasogastric tube","confirming nasogastric tube position","ph paper","enteral feeding","nasogastric feeding position","feeding tube","fluid balance charting","fluid balance chart","fluid balance","checking cumulative intake","recording small fluid volumes","weight as a measure of fluid balance","earliest sign of dehydration","fluid overload","recognising fluid overload","drop rate","drops per minute","infusion rate","giving set","intravenous therapy","cannula","cannula site","phlebitis","infiltration","signs of infiltration","extravasation","air embolism","nil by mouth","food taboos","fat soluble vitamins","vitamin c","maintenance fluid","appetite","anorexia","dietary assessment","protein energy","kwashiorkor","marasmus","obesity","upright","parenteral nutrition","tpn","aspirate","insensible loss","positive balance","oral rehydration","ringer","dextrose","hypotonic","isotonic","hypertonic","fluid restriction"]
+      },
     },
     {
       slug: "urinary-elimination-urinalysis-and-catheterisation",
@@ -199,7 +203,11 @@ export const nutritionFluidsAndElimination: CourseModule = {
         "A catheter that stops draining is checked for kinks, clamps and dehydration before a washout or a change; bypassing is treated by removing the cause rather than upsizing; and in continuous irrigation the true urine output is drainage minus irrigant, with red drainage, clots or a filling bladder reported and irrigation never run into a bladder that is not draining.",
         "Removal is on order with the balloon fully deflated, early in the day, with the first voids measured and reassessment at six to eight hours; bladder training lengthens the voiding interval gradually, and intermittent catheterisation taught as a clean technique protects the neuropathic bladder with far less infection than an indwelling tube.",
       ],
-      quiz: { keywords: ["urinalysis","midstream specimen","catheter specimen","twenty four hour urine","urine specimen","urinary catheterisation","catheterisation","catheter care","urinary catheter care","catheter associated","catheter balloon","balloon inflation","foreskin","drainage bag","trial without catheter","bladder irrigation","continuous bladder irrigation","clot retention","urinary retention","bladder scan","incontinence","urinary incontinence","urge incontinence","bladder training","toileting and dignity","bedpan","urinal","haematuria","urinary tract infection","suprapubic","specific gravity","glycosuria","proteinuria","0.5 ml/kg","hourly urine"] },
+      quiz: {
+        questionIds: ["NG-MOD-FUND-013"],
+        categories: ["fundamentals", "safety-infection-control"],
+        keywords: ["urinalysis","midstream specimen","catheter specimen","twenty four hour urine","urine specimen","urinary catheterisation","catheterisation","catheter care","urinary catheter care","catheter associated","catheter balloon","balloon inflation","foreskin","drainage bag","trial without catheter","bladder irrigation","continuous bladder irrigation","clot retention","urinary retention","bladder scan","incontinence","urinary incontinence","urge incontinence","bladder training","toileting and dignity","bedpan","urinal","haematuria","urinary tract infection","suprapubic","specific gravity","glycosuria","proteinuria","0.5 ml/kg","hourly urine"]
+      },
     },
     {
       slug: "bowel-elimination-enemas-stoma-care-and-stool-specimens",
@@ -310,7 +318,11 @@ export const nutritionFluidsAndElimination: CourseModule = {
         "A healthy stoma is pink, moist, raised and painless; a dusky, black, retracted, prolapsed or bleeding stoma is reported; a colostomy passes formed stool and an ileostomy 800–1200 mL of enzyme-rich fluid a day that burns the skin and demands 2–3 litres of salty fluid and a drainable bag emptied at a third full.",
         "The appliance is removed top down, the skin cleaned with warm water and patted dry, the stoma measured and the flange cut 2–3 mm larger and applied bottom up, changed at the first leak; teaching begins before surgery with site marking, and the grief, fear, cultural meaning and cost of a stoma in Ghana are addressed as part of the care.",
       ],
-      quiz: { keywords: ["constipation","overflow from constipation","laxative","stool specimen","stool specimen in cholera","enema","bowel washout","suppository","rectal","flatus","stoma","stoma care","colostomy","ileostomy","stoma appliance","stoma output","assessing a new stoma","dusky","haemorrhoids","anal fissure","melaena","bowel habit","defecation","fibre","opioid induced constipation","evacuant enema","bowel preparation","colonoscopy","pale stool","fresh blood","tarry","stoma and body image","ostomy"] },
+      quiz: {
+        questionIds: ["NG-MOD-FUND-014"],
+        categories: ["fundamentals"],
+        keywords: ["constipation","overflow from constipation","laxative","stool specimen","stool specimen in cholera","enema","bowel washout","suppository","rectal","flatus","stoma","stoma care","colostomy","ileostomy","stoma appliance","stoma output","assessing a new stoma","dusky","haemorrhoids","anal fissure","melaena","bowel habit","defecation","fibre","opioid induced constipation","evacuant enema","bowel preparation","colonoscopy","pale stool","fresh blood","tarry","stoma and body image","ostomy"]
+      },
     },
   ],
 };

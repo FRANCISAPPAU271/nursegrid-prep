@@ -89,8 +89,9 @@ export const skeletalSystemAndJoints: CourseModule = {
         "206 bones: 80 axial (skull, spine, ribs), 126 appendicular — learn them as landmarks, not lists.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP1-007","NG-MOD-AP1-008"],
         keywords: ["bone", "skeleton", "osteon", "ossification", "epiphyseal", "calcium", "parathyroid", "chvostek", "trousseau", "fracture healing", "callus", "red marrow", "axial", "appendicular", "vertebrae", "fontanelle"],
-        categories: ["fundamentals"],
+        categories: ["risk-reduction"],
       },
     },
     {
@@ -165,8 +166,9 @@ export const skeletalSystemAndJoints: CourseModule = {
         "Compartment syndrome: pain out of proportion + pain on stretch → loosen, level with heart, escalate now.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP1-009"],
         keywords: ["joint", "synovial", "cartilage", "ligament", "tendon", "flexion", "abduction", "fracture", "osteoporosis", "arthritis", "compartment syndrome", "dislocation", "sprain", "meniscus", "bursitis"],
-        categories: ["fundamentals"],
+        categories: ["risk-reduction"],
       },
     },
   ],

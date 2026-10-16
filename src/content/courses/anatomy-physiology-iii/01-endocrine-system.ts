@@ -73,8 +73,9 @@ export const endocrineSystem: CourseModule = {
         "Five-question history + vitals/weight/neck/eyes/hands/reflexes + growth charts in children.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP3-001","NG-MOD-AP3-002"],
         keywords: ["hormone", "endocrine", "receptor", "feedback", "pituitary", "hypothalamus", "GH", "acromegaly", "prolactin", "ADH", "diabetes insipidus", "SIADH", "Sheehan", "goitre", "growth chart"],
-        categories: ["fundamentals", "medsurg"],
+        categories: ["med-surg"],
       },
     },
     {
@@ -137,8 +138,9 @@ export const endocrineSystem: CourseModule = {
         "Hypo: 15-15 conscious, glucagon/IV dextrose unconscious, never oral in coma; DKA: fluids→insulin→K⁺→trigger; HHS: slow fluids.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP3-003"],
         keywords: ["thyroid", "hyperthyroid", "Graves", "thyroid storm", "hypothyroid", "myxoedema", "adrenal", "Cushing", "Addison", "crisis", "steroids", "diabetes", "insulin", "hypo", "DKA"],
-        categories: ["medsurg", "fundamentals"],
+        categories: ["med-surg"],
       },
     },
   ],

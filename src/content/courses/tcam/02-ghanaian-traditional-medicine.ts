@@ -66,6 +66,7 @@ export const ghanaianTraditionalMedicine: CourseModule = {
         "Document healer + treatment + coordination + referrals; partnership scripts score.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCAM-004","NG-MOD-TCAM-005"],
         keywords: ["herbalists", "TBAs", "bone-setters", "spiritualists", "referral", "partnership", "gangrene", "splints", "chaining", "gratitude", "etiquette", "map", "TMPC", "document", "slips"],
         categories: ["fundamentals"],
       },
@@ -130,6 +131,7 @@ export const ghanaianTraditionalMedicine: CourseModule = {
         "Log a personal pharmacopoeia; known-by-name nurses get told truth.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCAM-006"],
         keywords: ["neem", "moringa", "prekese", "bitter leaf", "ginger", "garlic", "aloe", "asram", "decoctions", "enemas", "bitters", "alcohol", "beliefs", "dose", "log"],
         categories: ["fundamentals"],
       },

@@ -82,8 +82,9 @@ export const cellsDivisionAndTissues: CourseModule = {
         "Water follows salt: hypotonic swells cells, hypertonic shrinks them, isotonic holds them — the whole logic of IV fluid choice.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP1-004","NG-MOD-AP1-005"],
         keywords: ["cell", "organelles", "nucleus", "mitochondria", "osmosis", "diffusion", "active transport", "tonicity", "hypotonic", "hypertonic", "plasma membrane", "phagocytosis"],
-        categories: ["fundamentals"],
+        categories: ["risk-reduction"],
       },
     },
     {
@@ -176,8 +177,9 @@ export const cellsDivisionAndTissues: CourseModule = {
         "Repair is regeneration (same tissue back) or fibrosis (collagen scar) — and the tissue decides which.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP1-006"],
         keywords: ["mitosis", "meiosis", "chromosomes", "diploid", "haploid", "epithelial", "connective tissue", "muscle tissue", "nervous tissue", "mucous membrane", "serous membrane", "synovial"],
-        categories: ["fundamentals"],
+        categories: ["risk-reduction"],
       },
     },
   ],

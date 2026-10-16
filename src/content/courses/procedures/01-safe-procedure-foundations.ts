@@ -164,7 +164,11 @@ export const safeProcedureFoundations: CourseModule = {
         "Sterile on the top shelf, clean on the bottom, used items never travel upwards; sharps box at the point of use, never recap, seal at three-quarters; waste black/yellow/brown at source; spills absorbed first, then 0.5 per cent chlorine for ten minutes.",
         "Clean before you disinfect or sterilise, match the level to the Spaulding class, never re-use single-use items, and write a contemporaneous, signed, legible record — if it was not recorded, it was not done.",
       ],
-      quiz: { keywords: ["hand hygiene","hand wash","handwash","alcohol hand","five moments","moments","gloves","personal protective","aseptic","sterile field","sterile","trolley","sharps","needlestick","waste","segregat","decontaminat","disinfect","autoclave","sterilis","spill","standard precautions","consent","documentation","chain of infection","isolation","hospital-acquired","transmission-based","airborne","post-exposure","accountab","scope of practice","nursing process","care plan","infection prevention","wristband","abbreviation","negligence"] },
+      quiz: {
+        questionIds: ["NG-MOD-PROC-001"],
+        categories: ["safety-infection-control"],
+        keywords: ["hand hygiene","hand wash","handwash","alcohol hand","five moments","moments","gloves","personal protective","aseptic","sterile field","sterile","trolley","sharps","needlestick","waste","segregat","decontaminat","disinfect","autoclave","sterilis","spill","standard precautions","consent","documentation","chain of infection","isolation","hospital-acquired","transmission-based","airborne","post-exposure","accountab","scope of practice","nursing process","care plan","infection prevention","wristband","abbreviation","negligence"]
+      },
     },
     {
       slug: "admission-transfer-discharge-and-bed-making-procedures",
@@ -280,7 +284,11 @@ export const safeProcedureFoundations: CourseModule = {
         "The post-operative bed has protective sheets at the head and middle, no pillow until reflexes return, covers folded to the side for the trolley, and oxygen, suction, a vomit bowl, an infusion stand and the observation equipment tested at the bedside.",
         "Terminal cleaning: strip and bag, discard disposables, clean every surface with detergent from clean to dirty and high to low, then disinfect to the level the previous infection demands (0.5 per cent chlorine after cholera, diarrhoea, resistant organisms or bloodborne infection), remake, restock and record.",
       ],
-      quiz: { keywords: ["admission","discharge","discharge plan","discharge against","against medical advice","referral letter","referral","bed making","linen","soiled","bed rails","call bell","patient environment","handover","sbar","orientation","falls risk","dignity","consent","confidential","ambulance","decontaminat","pressure area","bed rest","hazards of bed rest"] },
+      quiz: {
+        questionIds: ["NG-MOD-PROC-002"],
+        categories: ["leadership-delegation"],
+        keywords: ["admission","discharge","discharge plan","discharge against","against medical advice","referral letter","referral","bed making","linen","soiled","bed rails","call bell","patient environment","handover","sbar","orientation","falls risk","dignity","consent","confidential","ambulance","decontaminat","pressure area","bed rest","hazards of bed rest"]
+      },
     },
   ],
 };

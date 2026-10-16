@@ -110,7 +110,11 @@ export const healthAssessmentAndVitalSigns: CourseModule = {
         "Oxygen saturation is normally 95–100 per cent with targets of 94–98 or 88–92 per cent; cold, movement, varnish and poor perfusion give false low readings, while anaemia and carbon monoxide give false reassurance.",
         "Frequency is prescribed by the patient's condition and tightened after any insult; an early warning score forces the respiratory rate to be counted and ties the total to an action, but the deteriorating patient is recognised by the pattern and escalated with SBAR before the blood pressure falls.",
       ],
-      quiz: { keywords: ["blood pressure measurement","blood pressure measurement technique","blood pressure measurement error","cuff","postural blood pressure","postural hypotension","temperature measurement","thermoregulation","pyrexia","hypothermia","pulse oximetry","oxygen saturation","respiratory rate as a warning sign","respiratory assessment","respiratory rate","radial pulse","apical","pulse deficit","tachycardia","early warning","vital signs","observations","negative feedback","shivering","rigor","capillary refill","pulse rate","pulse pressure","hyperthermia","thermometer","irregular pulse","deteriorating patient","escalat"] },
+      quiz: {
+        questionIds: ["NG-MOD-FUND-004", "NG-MOD-FUND-005"],
+        categories: ["fundamentals"],
+        keywords: ["blood pressure measurement","blood pressure measurement technique","blood pressure measurement error","cuff","postural blood pressure","postural hypotension","temperature measurement","thermoregulation","pyrexia","hypothermia","pulse oximetry","oxygen saturation","respiratory rate as a warning sign","respiratory assessment","respiratory rate","radial pulse","apical","pulse deficit","tachycardia","early warning","vital signs","observations","negative feedback","shivering","rigor","capillary refill","pulse rate","pulse pressure","hyperthermia","thermometer","irregular pulse","deteriorating patient","escalat"]
+      },
     },
     {
       slug: "health-history-physical-examination-and-neurological-observations",
@@ -219,7 +223,11 @@ export const healthAssessmentAndVitalSigns: CourseModule = {
         "Hydration is judged by thirst, urine, pulse and skin before the blood pressure, which falls last; urine output of 0.5 mL/kg/h in adults and 1 mL/kg/h in children and daily weight on the same scales are the best continuous measures.",
         "Weight, height and BMI, mid-upper-arm circumference, capillary blood glucose in every unwell or confused patient, Snellen acuity before any eye treatment and a daily head-to-toe skin inspection that knows how pressure damage looks on dark skin complete the bedside assessment, and every finding is recorded in measurable, comparable words.",
       ],
-      quiz: { keywords: ["sequence of physical assessment","order of palpation","abdominal examination sequence","percussion note","palpation","auscultation","percussion","subjective and objective data","documenting assessment findings","neurological observations","glasgow coma","recording conscious level","pupillary assessment","pupil","capillary blood glucose","visual acuity","earliest sign of dehydration","skin pinch","skin turgor","pallor","cyanosis","head injury","cushing","falling conscious level","lymph node","breath sounds","crackles","wheeze","tracheal","heart sounds","sensation","orientation","gait","nutritional status","mucous membranes"] },
+      quiz: {
+        questionIds: ["NG-MOD-FUND-005", "NG-MOD-FUND-006"],
+        categories: ["fundamentals"],
+        keywords: ["sequence of physical assessment","order of palpation","abdominal examination sequence","percussion note","palpation","auscultation","percussion","subjective and objective data","documenting assessment findings","neurological observations","glasgow coma","recording conscious level","pupillary assessment","pupil","capillary blood glucose","visual acuity","earliest sign of dehydration","skin pinch","skin turgor","pallor","cyanosis","head injury","cushing","falling conscious level","lymph node","breath sounds","crackles","wheeze","tracheal","heart sounds","sensation","orientation","gait","nutritional status","mucous membranes"]
+      },
     },
   ],
 };

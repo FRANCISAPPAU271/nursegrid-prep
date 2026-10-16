@@ -65,8 +65,9 @@ export const menstrualCycleAndContraception: CourseModule = {
         "Perimenopause: gap changes + flushes + sleep/mood + bone/heart — HRT counselled per risks, not feared.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP3-007"],
         keywords: ["menstrual cycle", "FSH", "LH surge", "ovulation", "progesterone", "oestrogen", "fertile window", "HMB", "PCB", "PMB", "amenorrhoea", "dysmenorrhoea", "endometriosis", "perimenopause", "HRT"],
-        categories: ["fundamentals", "medsurg"],
+        categories: ["med-surg"],
       },
     },
     {
@@ -128,8 +129,9 @@ export const menstrualCycleAndContraception: CourseModule = {
         "GATHER counsel: efficacy + fit + side effects + STI + fertility + consent; quick-start same-day; safeguard adolescents.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP3-008","NG-MOD-AP3-009"],
         keywords: ["fertilisation", "implantation", "hCG", "twins", "chorionicity", "ectopic", "contraception", "LARC", "IUD", "implant", "COC", "VTE", "missed pill", "emergency contraception", "GATHER"],
-        categories: ["fundamentals", "medsurg"],
+        categories: ["med-surg"],
       },
     },
   ],

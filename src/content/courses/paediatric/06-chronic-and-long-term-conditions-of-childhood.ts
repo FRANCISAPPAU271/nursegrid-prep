@@ -125,7 +125,11 @@ export const chronicAndLongTermConditionsOfChildhood: CourseModule = {
         "Nephrotic syndrome (2–6 years, periorbital oedema, 4+ protein) is prednisolone, daily weight and dipstick, no added salt and infection vigilance; acute glomerulonephritis (cola urine, oedema, hypertension after a throat or skin infection) is fluid and salt restriction, blood pressure monitoring, furosemide and penicillin with full recovery in most; infant urinary infection hides behind fever without a source and a first infection is investigated by ultrasound.",
         "Type 1 diabetes is insulin for life — injection technique, glucose testing, hypo rules (below 4 mmol/L: sugar, recheck in 15 minutes, snack), sick-day rules (never stop insulin) and the school informed; epilepsy is a daily drug never stopped suddenly, seizure first aid taught to family and school, and the beliefs about possession and contagion answered; long-term steroids need growth, blood pressure and glucose monitoring, no sudden stopping, a steroid card, deferred live vaccines and urgent review after measles or chickenpox exposure.",
       ],
-      quiz: { keywords: ["sickle cell disease in childhood","sickle cell","explaining sickle cell inheritance","inheritance","autosomal recessive","carrier","daily penicillin","folic acid","paediatric hiv disclosure","disclosure","cotrimoxazole","antiretroviral","arv","rheumatic fever","rheumatic heart","benzathine","sore throat","congenital heart disease","tetralogy","nephrotic syndrome","nephrotic","acute glomerulonephritis","glomerulonephritis","cola coloured","puffy face","type 1 diabetes in a child","type 1 diabetes","diabetic child","epilepsy","sodium valproate","haemophilia","proteinuria","frothy urine","prednisolone","scabies","cyanosis","spleen","pallor","genotype","25 per cent","50%","trait","steroid side effects in children"] },
+      quiz: {
+        keywords: ["sickle cell disease in childhood","sickle cell","explaining sickle cell inheritance","inheritance","autosomal recessive","carrier","daily penicillin","folic acid","paediatric hiv disclosure","disclosure","cotrimoxazole","antiretroviral","arv","rheumatic fever","rheumatic heart","benzathine","sore throat","congenital heart disease","tetralogy","nephrotic syndrome","nephrotic","acute glomerulonephritis","glomerulonephritis","cola coloured","puffy face","type 1 diabetes in a child","type 1 diabetes","diabetic child","epilepsy","sodium valproate","haemophilia","proteinuria","frothy urine","prednisolone","scabies","cyanosis","spleen","pallor","genotype","25 per cent","50%","trait","steroid side effects in children"],
+        categories: ["pediatrics"],
+        questionIds: ["NG-MOD-PAED-016", "NG-MOD-PAED-017", "NG-MOD-PAED-018"],
+      },
     },
     {
       slug: "adolescent-health",
@@ -199,6 +203,8 @@ export const chronicAndLongTermConditionsOfChildhood: CourseModule = {
       ],
       quiz: {
         keywords: ["adolescent", "teenager", "puberty", "tanner", "menarche", "headss", "confidentiality", "substance use", "self harm", "eating disorder", "transition to adult care", "adolescent pregnancy", "risk-taking behaviour"],
+        categories: ["pediatrics"],
+        questionIds: ["NG-MOD-PAED-017"],
       },
     },
     {
@@ -323,7 +329,11 @@ export const chronicAndLongTermConditionsOfChildhood: CourseModule = {
         "Adolescents get confidential, non-judgemental care — puberty questions answered, delayed puberty referred, contraception, emergency contraception, STI and HIV testing and HPV provided without a parent, direct questions about mood, self-harm and substances, iron–folic acid for anaemia, protection from exploitation — and the adolescent with a chronic illness gets a boarding-school plan and a transition to a named adult clinician that starts at about fourteen.",
         "Palliative care begins at diagnosis and runs alongside treatment: pain by the clock, by mouth, by the child — paracetamol and ibuprofen then oral morphine titrated without ceiling with a laxative from day one, never codeine or tramadol — anticipated symptom control, honest age-appropriate communication led by the child's questions, the parents' decisions on place of care and cultural and spiritual practices supported, siblings included, bereavement follow-up, and the team's own grief acknowledged.",
       ],
-      quiz: { keywords: ["fever in a child on chemotherapy","chemotherapy","neutropeni","mouth care during chemotherapy","burkitt","retinoblastoma","leukaemia","treatment abandonment","childhood cancer","why childhood cancer","jaw swelling","down syndrome","trisomy","cerebral palsy","hydrocephalus","spina bifida","congenital talipes","club foot","cleft lip","cleft palate","feeding an infant with cleft","disability","community based rehabilitation","persons with disability","act 715","inclusive","parents of a disabled child","deaf","adolescent","adolescent friendly","adolescent chronic illness","boarding school","transition to adult","missed doses","confidentiality with an adolescent","adolescent sexual health","adolescent pregnancy","energy drinks","substance use","caring for a dying child","dying child","bereavement","breaking bad news","end of life","siblings","witchcraft","late presentation","teacher","peer","puberty","body image","autonomy","16 year old","15 year old","14 year old","17 year old","head circumference","drooling","school health","junior high","schoolchildren","school based"] },
+      quiz: {
+        keywords: ["fever in a child on chemotherapy","chemotherapy","neutropeni","mouth care during chemotherapy","burkitt","retinoblastoma","leukaemia","treatment abandonment","childhood cancer","why childhood cancer","jaw swelling","down syndrome","trisomy","cerebral palsy","hydrocephalus","spina bifida","congenital talipes","club foot","cleft lip","cleft palate","feeding an infant with cleft","disability","community based rehabilitation","persons with disability","act 715","inclusive","parents of a disabled child","deaf","adolescent","adolescent friendly","adolescent chronic illness","boarding school","transition to adult","missed doses","confidentiality with an adolescent","adolescent sexual health","adolescent pregnancy","energy drinks","substance use","caring for a dying child","dying child","bereavement","breaking bad news","end of life","siblings","witchcraft","late presentation","teacher","peer","puberty","body image","autonomy","16 year old","15 year old","14 year old","17 year old","head circumference","drooling","school health","junior high","schoolchildren","school based"],
+        categories: ["pediatrics"],
+        questionIds: ["NG-MOD-PAED-018"],
+      },
     },
   ],
 };

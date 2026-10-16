@@ -228,13 +228,13 @@ export default function CatSessionRunner({ sessionId }: { sessionId: string }) {
       </div>
 
       {question && (
-        <div className="animate-fade-in relative secure-content rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+        <div className="animate-fade-in relative secure-content rounded-2xl border border-slate-200 bg-white p-4 sm:p-6 shadow-sm">
           <Watermark />
-          <div className="mb-3 flex items-center gap-2">
+          <div className="mb-3 flex flex-wrap items-center gap-2">
             <span className={`rounded-full px-2 py-0.5 text-[11px] font-semibold capitalize ${DIFFICULTY_STYLE[question.difficulty]}`}>{question.difficulty}</span>
             <span className="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-600">{question.categoryName}</span>
           </div>
-          <p className="text-base leading-relaxed text-slate-900"><EmphasisedText text={question.stem} /></p>
+          <p className="text-[15px] sm:text-base leading-relaxed text-slate-900"><EmphasisedText text={question.stem} /></p>
           <div className="mt-5 space-y-2.5">
             {question.choices.map((choice) => {
               const isSelected = selected === choice.id;
@@ -245,7 +245,7 @@ export default function CatSessionRunner({ sessionId }: { sessionId: string }) {
                   key={choice.id}
                   disabled={Boolean(selected)}
                   onClick={() => submitAnswer(choice.id)}
-                  className={`flex w-full items-start gap-3 rounded-xl border px-4 py-3 text-left text-sm transition disabled:cursor-default ${
+                  className={`flex w-full items-start gap-2.5 sm:gap-3 rounded-xl border px-3.5 py-3 sm:px-4 text-left text-[13px] sm:text-sm leading-snug sm:leading-normal transition disabled:cursor-default ${
                     isCorrectChoice
                       ? "border-emerald-400 bg-emerald-50 text-emerald-900"
                       : isWrongSelected
@@ -256,7 +256,7 @@ export default function CatSessionRunner({ sessionId }: { sessionId: string }) {
                   }`}
                 >
                   <OptionBadge label={choice.id} state={isCorrectChoice ? "correct" : isWrongSelected ? "wrong" : isSelected ? "selected" : "default"} />
-                  <span className="pt-1">{choice.text}</span>
+                  <span className="pt-0.5">{choice.text}</span>
                 </button>
               );
             })}

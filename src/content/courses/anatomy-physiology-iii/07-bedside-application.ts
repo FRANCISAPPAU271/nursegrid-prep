@@ -73,8 +73,9 @@ export const bedsideApplicationIII: CourseModule = {
         "Monitor: glucose/ketones, gases, U&E/Mg/Phos, ECG, balance/weights, neuro obs — insulin by double-check, never 'U'.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP3-019","NG-MOD-AP3-001"],
         keywords: ["hypo", "DKA", "HHS", "thyroid storm", "myxoedema", "Addisonian", "hydrocortisone", "hypercalcaemia", "hyponatraemia", "hyperkalaemia", "insulin safety", "fluids", "monitoring", "sick-day", "trigger"],
-        categories: ["medsurg", "fundamentals"],
+        categories: ["med-surg"],
       },
     },
     {
@@ -131,8 +132,9 @@ export const bedsideApplicationIII: CourseModule = {
         "Trolleys checked, drills quarterly, SBAR + times, honest audit, family care, staff debrief — culture saves lives.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP3-020","NG-MOD-AP3-002"],
         keywords: ["APH", "abruption", "praevia", "ectopic", "eclampsia", "MgSO4", "embolus", "sepsis", "neonatal resuscitation", "PPV", "APGAR", "RDS", "jaundice", "kernicterus", "cooling"],
-        categories: ["medsurg", "fundamentals"],
+        categories: ["med-surg"],
       },
     },
   ],

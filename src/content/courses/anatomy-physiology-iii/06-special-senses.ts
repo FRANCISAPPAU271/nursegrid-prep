@@ -68,8 +68,9 @@ export const specialSenses: CourseModule = {
         "Cataract (day-case cure), glaucoma (drops for life), angle-closure/GCA/detachment/chemical = same-day emergencies; diabetics screened yearly.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP3-016","NG-MOD-AP3-017"],
         keywords: ["eye", "cornea", "aqueous", "glaucoma", "lens", "cataract", "retina", "macula", "optic disc", "visual pathway", "hemianopia", "acuity", "fundoscopy", "detachment", "giant cell arteritis"],
-        categories: ["fundamentals", "medsurg"],
+        categories: ["med-surg"],
       },
     },
     {
@@ -133,8 +134,9 @@ export const specialSenses: CourseModule = {
         "Drops warm + lie 5 min; syringing needs otoscopy + history; deaf: face/loop/pen/interpreter, never family for consent.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP3-018"],
         keywords: ["ear", "tympanic membrane", "ossicles", "cochlea", "Eustachian", "Rinne", "Weber", "audiometry", "otitis", "presbycusis", "ototoxic", "BPPV", "Epley", "Meniere", "anosmia"],
-        categories: ["fundamentals", "medsurg"],
+        categories: ["med-surg"],
       },
     },
   ],

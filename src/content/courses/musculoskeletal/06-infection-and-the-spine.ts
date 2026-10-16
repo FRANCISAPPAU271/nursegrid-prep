@@ -149,6 +149,8 @@ export const infectionAndTheSpine: CourseModule = {
       ],
       quiz: {
         keywords: ["osteomyelitis", "septic arthritis", "sickle", "salmonella", "bone infection", "abscess", "pott", "spine", "tetanus", "stiff body", "jaw stiffness", "lockjaw", "spasms", "wound infection", "blood cultures", "antibiotic prophylaxis", "surgical site infection", "pin site", "open fracture", "avascular", "haemophilia", "brucell", "undulating", "gout", "pseudogout", "reactive arthritis", "haemarthrosis", "joint aspiration", "arthrocentesis", "crystals", "colchicine"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-MSK-015"],
       },
     },
     {
@@ -305,6 +307,8 @@ export const infectionAndTheSpine: CourseModule = {
       ],
       quiz: {
         keywords: ["spinal injur", "spinal cord", "log roll", "neck pain", "cervical spine", "spinal board", "neurogenic", "autonomic dysreflexia", "back pain", "sciatica", "cauda equina", "disc prolapse", "lifting", "manual handling", "moving and handling", "hoist", "bed height", "back injury", "spinal surgery", "parapleg", "paralys", "bedbound", "pressure ulcer", "immobilis", "neck immobilised", "neck stiff", "four rescuers", "sacrum", "lift", "stenosis", "claudication", "ankylosing", "spondylitis", "foot drop", "chronic pain"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-MSK-016", "NG-MOD-MSK-017"],
       },
     },
   ],

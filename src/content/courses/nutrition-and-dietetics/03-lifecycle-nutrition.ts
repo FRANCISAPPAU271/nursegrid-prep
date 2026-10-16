@@ -72,8 +72,9 @@ export const lifecycleNutrition: CourseModule = {
         "Colostrum previewed at ANC; counsel documented; family converted feeds baby.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-NUTR-006", "NG-MOD-NUTR-007"],
+        categories: ["maternal-newborn"],
         keywords: ["pregnancy", "lactation", "weight gain", "iron", "folate", "calcium", "anaemia", "alcohol", "FAS", "pica", "GDM", "pre-eclampsia", "myths", "colostrum", "ANC"],
-        categories: ["fundamentals"],
       },
     },
     {
@@ -142,8 +143,9 @@ export const lifecycleNutrition: CourseModule = {
         "Demo + grandmothers + fathers; document IYCF; log observed feeds as CPD.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-NUTR-008"],
+        categories: ["gerontology-community"],
         keywords: ["breastfeeding", "exclusive", "colostrum", "latch", "mastitis", "complementary", "koko", "responsive", "IYCF", "school feeding", "teens", "anaemia", "failure-to-thrive", "demo", "deworm"],
-        categories: ["fundamentals"],
       },
     },
   ],

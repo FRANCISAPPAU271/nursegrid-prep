@@ -120,6 +120,8 @@ export const bloodTransfusion: CourseModule = {
       ],
       quiz: {
         keywords: ["transfus","blood group","rhesus","cross match","grouping sample","group and save","compatib","whole blood","platelets differ","giving set","unit of whole blood","controlled storage","maximum period","wristband","two nurses","two registered","second nurse","refuses a blood","observations be","dextrose","same line","drops per minute","ml/kg","frail elderly woman with chronic anaemia","transfused slowly","haemoglobin of 4.2","point of care haemoglobin","blood is administered","before a unit","labelled at the bedside","abo incompat","abo group","abo blood","unit of blood","packed cell","fresh frozen","cryoprecipitate","within 30 minutes","blood warmer","15 drops","identity band"],
+        categories: ["fundamentals", "med-surg"],
+        questionIds: ["NG-MOD-HAEM-012"],
       },
     },
     {
@@ -248,6 +250,8 @@ export const bloodTransfusion: CourseModule = {
       ],
       quiz: {
         keywords: ["transfusion reaction","transfus","loin pain","flank pain","lower back pain","dark urine","dark red urine","rigors","shivering an hour","fever and shivering","mild fever","urticaria","itching","anaphyla","overload","distended neck veins","frusemide","screened","donor","donat","voluntary","surface antigen","anti d","rhesus negative","rhesus positive","rhesus disease","air embolism","citrate","hypocalc","stored blood","several units","hepatitis b","syphilis","stop the transfusion","haemovigilance","replacement donor","blood service","haemolytic disease","exchange transfusion"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-HAEM-013", "NG-MOD-HAEM-014"],
       },
     },
   ],

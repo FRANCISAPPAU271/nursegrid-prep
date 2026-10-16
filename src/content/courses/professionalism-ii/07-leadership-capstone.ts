@@ -65,8 +65,9 @@ export const leadershipCapstone: CourseModule = {
         "10-mark formula: seven cited sentences; structure + specifics + measurement = distinctions.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO2-019","NG-MOD-PRO2-001"],
         keywords: ["capstone", "scenarios", "turnaround", "conflict", "stock-outs", "staffing", "falsification", "formula", "Lewin", "PDSA", "escalation", "CUSS", "portfolio", "reasoning", "distinction"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
     {
@@ -137,8 +138,9 @@ export const leadershipCapstone: CourseModule = {
         "Pledge signed + filed; first change project within 90 days of finishing.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO2-020","NG-MOD-PRO2-002"],
         keywords: ["change canvas", "resistance", "co-design", "champion", "sponsor", "tricky points", "countdown", "STAR", "interviews", "pledge", "portfolio", "90 days", "distinction", "leader", "sustain"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
   ],

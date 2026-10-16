@@ -133,6 +133,8 @@ export const burns: CourseModule = {
         "Electrical burns hide deep injury — ECG monitoring, myoglobinuria, fasciotomy, fractures; chemical burns need prolonged irrigation and no neutralisation; children need Lund and Browder, glucose, warmth and vigilance for inflicted patterns; refer face, hands, feet, genitals, joints, circumferential, inhalation, electrical, chemical, large, very young, old and suspicious burns to a burns unit.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INTEG-006", "NG-MOD-INTEG-007"],
+        categories: ["risk-reduction", "fluid-electrolyte"],
         keywords: ["burns", "a burn", "the burn", "burnt", "scald", "rule of nines", "body surface", "parkland", "4 ml", "ringer", "urine output is falling", "ml/kg/hour", "0.5 ml/kg", "singed", "hoarse", "smoke", "palm oil", "shea", "hot water", "boiling water", "kerosene", "market fire", "wood fire", "cling film", "cooling", "cool running", "encircling", "circumferential", "electric", "flame", "airway burn", "inhalation", "running water", "burning room", "stove"],
       },
     },
@@ -256,6 +258,8 @@ export const burns: CourseModule = {
         "Psychological recovery needs pain control, honest information, family and peer support, screening for PTSD and depression, and planned return to school and work; prevention means raised cooking, child-free kitchens, safe fuel storage, LPG checks, epilepsy control, water-not-oil first aid and community advocacy.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INTEG-008", "NG-MOD-INTEG-009"],
+        categories: ["risk-reduction", "med-surg"],
         keywords: ["burns", "a burn", "the burn", "burn to", "burn patient", "scald", "skin graft", "graft", "donor site", "contracture", "pseudomonas", "burns unit", "partial thickness", "full thickness", "tetanus", "itchy", "itching", "pressure garment", "across a joint", "hypermetabol", "extensive burns", "silver sulfadiazine", "blister", "splint", "physiotherapy", "rehabilitat", "scarring", "keloid", "raised scar", "toxoid", "immunoglobulin"],
       },
     },

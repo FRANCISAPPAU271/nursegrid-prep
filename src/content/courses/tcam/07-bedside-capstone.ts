@@ -64,6 +64,7 @@ export const bedsideCapstone: CourseModule = {
         "Defend aloud: safety first + respect always + documentation closing.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCAM-020","NG-MOD-TCAM-007"],
         keywords: ["capstone", "wheel", "diabetic", "fasting", "pregnant", "oxytocic", "MLM", "budget", "convulsion", "ABCs", "tetanus", "escort", "defend", "spokes", "complex"],
         categories: ["fundamentals"],
       },
@@ -128,6 +129,7 @@ export const bedsideCapstone: CourseModule = {
         "Lifelong: monthly audits + quarterly greetings + yearly updates + handover stories.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCAM-001","NG-MOD-TCAM-010"],
         keywords: ["exam", "OSCE", "audit", "ready", "habits", "map", "marking", "safety", "respect", "documentation", "teach", "lifelong", "stories", "colleague", "wheel"],
         categories: ["fundamentals"],
       },

@@ -255,6 +255,8 @@ export const obstetricPharmacologyAndCalculations: CourseModule = {
           "0.5 mg",
           "25 micrograms",
         ],
+        categories: ["pharmacology-parenteral", "maternal-newborn"],
+        questionIds: ["NG-MOD-OBS-019", "NG-MOD-OBS-020"],
       },
     },
   ],

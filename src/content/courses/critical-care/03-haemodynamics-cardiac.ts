@@ -120,7 +120,11 @@ export const haemodynamicsAndCardiacCriticalCare: CourseModule = {
         "Vasoactive infusions run through a dedicated central lumen, are never flushed, bolused or stopped abruptly, are changed over by double-pumping, are titrated in small steps to a written target with the response recorded, and a rising requirement is reported as deterioration.",
         "Extravasated vasopressor: restart the drug by another route, stop the infusion, leave the cannula in and aspirate, phentolamine 5–10 mg infiltrated around the site (or topical GTN), elevate, mark, photograph, document and report; prevent it with early central access and hourly checks of any peripheral site.",
       ],
-      quiz: { keywords: ["central venous","dopamine","extravasat","infiltrat","infusion pump","infusion rate","drops per minute","ml per hour","ml/hour","receptor","beta-blocker","glyceryl trinitrate","adrenaline","atropine","hypotension","tachycardia","capillary refill","hypovolaemic","weight-based","mg/kg","heparin","digoxin","blood pressure measurement","compensat","ecg","insulin infusion","fluid balance","shock","cardiac","anaphyla","vancomycin","daily weight"] },
+      quiz: {
+        questionIds: ["NG-MOD-CC-006", "NG-MOD-CC-007"],
+        categories: ["med-surg", "pharmacology-parenteral"],
+        keywords: ["central venous","dopamine","extravasat","infiltrat","infusion pump","infusion rate","drops per minute","ml per hour","ml/hour","receptor","beta-blocker","glyceryl trinitrate","adrenaline","atropine","hypotension","tachycardia","capillary refill","hypovolaemic","weight-based","mg/kg","heparin","digoxin","blood pressure measurement","compensat","ecg","insulin infusion","fluid balance","shock","cardiac","anaphyla","vancomycin","daily weight"]
+      },
     },
     {
       slug: "acute-coronary-syndromes-heart-failure-and-cardiac-emergencies-in-the-icu",
@@ -234,7 +238,11 @@ export const haemodynamicsAndCardiacCriticalCare: CourseModule = {
         "Tamponade (Beck's triad, pulsus paradoxus, rising CVP) needs pericardiocentesis with fluid as a bridge and no diuretics, nitrates or unprepared intubation; massive pulmonary embolism with hypotension needs thrombolysis then heparin, cautious fluid and noradrenaline; every ICU patient has thromboprophylaxis reviewed daily.",
         "Peri-arrest: adverse features mean synchronised cardioversion (tachycardia) or atropine 500 microgram to 3 mg then pacing (bradycardia); stable SVT gets vagal manoeuvres and adenosine 6/12/18 mg with a strip running; AF is rate-controlled and anticoagulated and usually signals another problem; broad complex gets amiodarone; torsades gets magnesium; digoxin toxicity is held and its electrolytes corrected; after arrest, SpO₂ 94–98, normal PaCO₂, MAP 65, glucose 7.8–10, fever prevented for 72 hours, early angiography and no prognostication before 72 hours.",
       ],
-      quiz: { keywords: ["chest pain","myocardial infarction","troponin","aspirin","glyceryl trinitrate","heparin","warfarin","inr","coagul","heart failure","pulmonary oedema","positioning for breathlessness","hypertensive","hydralazine","tamponade","pericard","pulmonary embol","deep vein","atrial fibrillation","digoxin","digoxin toxicity","beta-blocker","defibrillat","cardiac arrest","chest compression","ecg","qrs","t wave","tachycardia","furosemide","diuretic","rheumatic","endocarditis","daily weight","arrest","syncope","unresponsive"] },
+      quiz: {
+        questionIds: ["NG-MOD-CC-008"],
+        categories: ["med-surg", "pharmacology-parenteral"],
+        keywords: ["chest pain","myocardial infarction","troponin","aspirin","glyceryl trinitrate","heparin","warfarin","inr","coagul","heart failure","pulmonary oedema","positioning for breathlessness","hypertensive","hydralazine","tamponade","pericard","pulmonary embol","deep vein","atrial fibrillation","digoxin","digoxin toxicity","beta-blocker","defibrillat","cardiac arrest","chest compression","ecg","qrs","t wave","tachycardia","furosemide","diuretic","rheumatic","endocarditis","daily weight","arrest","syncope","unresponsive"]
+      },
     },
   ],
 };

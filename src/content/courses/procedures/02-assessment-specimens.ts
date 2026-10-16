@@ -130,7 +130,11 @@ export const assessmentAndSpecimenProcedures: CourseModule = {
         "Glasgow Coma Scale components are reported separately with pupils, limb power and vital signs; a fall of two points or one motor point, a new pupil change or restlessness in a head-injured patient is an immediate review.",
         "The early warning score sets frequency and escalation — 0: twelve-hourly; 1–4: four- to six-hourly and inform the in-charge; any single 3: urgent review; 5–6: hourly and urgent review; 7+: emergency call and continuous monitoring — and every call is made in ISBAR with a time and recorded.",
       ],
-      quiz: { keywords: ["vital signs","temperature","thermometer","axillary","oral temperature","hypothermia","pulse","radial","apical","pulse deficit","tachycardia","respiratory rate","respiration","breaths per minute","blood pressure measurement","blood pressure","cuff","postural hypotension","pulse oximet","oxygen saturation","spo2","pain assessment","height","body mass","muac","mid-upper","head circumference","glasgow","coma scale","pupil","neurological observation","early warning","deteriorat","capillary refill","fluid balance","daily weight"] },
+      quiz: {
+        questionIds: ["NG-MOD-PROC-003"],
+        categories: ["fundamentals"],
+        keywords: ["vital signs","temperature","thermometer","axillary","oral temperature","hypothermia","pulse","radial","apical","pulse deficit","tachycardia","respiratory rate","respiration","breaths per minute","blood pressure measurement","blood pressure","cuff","postural hypotension","pulse oximet","oxygen saturation","spo2","pain assessment","height","body mass","muac","mid-upper","head circumference","glasgow","coma scale","pupil","neurological observation","early warning","deteriorat","capillary refill","fluid balance","daily weight"]
+      },
     },
     {
       slug: "specimen-collection-point-of-care-testing-and-the-twelve-lead-ecg",
@@ -239,7 +243,11 @@ export const assessmentAndSpecimenProcedures: CourseModule = {
         "Point-of-care: glucose from the side of a washed fingertip with a single-use lancet (treat below 4.0 mmol/L); malaria RDT read in the 15–20 minute window, any faint line is positive, no control line is invalid; HIV by the serial algorithm with consent, face-to-face results and same-day linkage.",
         "Twelve-lead ECG within ten minutes of chest pain: limb electrodes on the limbs, V1 and V2 in the fourth intercostal spaces either side of the sternum, V4 in the fifth space mid-clavicular, V3 between, V5 and V6 in the anterior and mid-axillary lines level with V4; 25 mm/s and 10 mm/mV; check for artefact; label with symptoms.",
       ],
-      quiz: { keywords: ["specimen","midstream","catheter specimen","urinalysis","urine specimen","stool specimen","sputum","swab","wound swab","venepuncture","order of draw","blood culture","haemolys","blood glucose","capillary","rapid diagnostic","hiv test","ecg","electrode","label","laboratory","cholera","genexpert","microscopy","culture media","gram stain","cerebrospinal","haemoglobin","ketone","proteinuria","glycosuria","needlestick","sharps","malaria rapid"] },
+      quiz: {
+        questionIds: ["NG-MOD-PROC-004", "NG-MOD-PROC-005"],
+        categories: ["safety-infection-control", "fundamentals"],
+        keywords: ["specimen","midstream","catheter specimen","urinalysis","urine specimen","stool specimen","sputum","swab","wound swab","venepuncture","order of draw","blood culture","haemolys","blood glucose","capillary","rapid diagnostic","hiv test","ecg","electrode","label","laboratory","cholera","genexpert","microscopy","culture media","gram stain","cerebrospinal","haemoglobin","ketone","proteinuria","glycosuria","needlestick","sharps","malaria rapid"]
+      },
     },
   ],
 };

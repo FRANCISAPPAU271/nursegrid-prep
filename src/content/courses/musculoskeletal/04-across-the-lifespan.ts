@@ -119,6 +119,8 @@ export const acrossTheLifespan: CourseModule = {
       ],
       quiz: {
         keywords: ["hip fracture", "femur", "neck of femur", "falls prevention", "fall prevention", "falls risk", "fall risk", "reduces falls", "falls this year", "fear of falling", "falling at home", "begun falling", "after a fall", "since a fall", "fallen twice", "begins to fall", "multifactorial", "osteoporosis", "fracture risk", "postural", "dizz", "walking", "walking aid", "walking stick", "walking frame", "frail", "early mobilis", "hip replacement", "post operative confusion", "delirium", "polypharmacy", "nine different medicines", "eight regular medicines", "several medicines", "menopaus", "bone health"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-MSK-010"],
       },
     },
     {
@@ -247,6 +249,8 @@ export const acrossTheLifespan: CourseModule = {
       ],
       quiz: {
         keywords: ["child abuse", "non accidental", "different stages", "inconsistent", "parent's account", "injury at home", "bone set", "greenstick", "femur fracture", "in traction", "hospitalised child", "holding a child", "preparing a child", "play", "separation", "school age", "toddler", "milestone", "developmental", "not yet walking", "bowed legs", "talipes", "club foot", "cerebral palsy", "spina bifida", "disabled child", "limp", "rickets", "supracondylar", "growth plate", "fears", "bear weight", "haemophilia"],
+        categories: ["pediatrics"],
+        questionIds: ["NG-MOD-MSK-009", "NG-MOD-MSK-011"],
       },
     },
   ],

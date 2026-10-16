@@ -122,7 +122,11 @@ export const theProfessionTheNursingProcessAndCommunication: CourseModule = {
         "The Council protects the public through the register, the annual PIN renewed by 31 January, CPD credits, the Code and discipline; the nurse is accountable to patient, employer, Council and courts, negligence needs duty, breach, causation and harm, and the scope of practice is not widened by a staff shortage.",
         "Valid consent needs capacity (presumed), information and voluntariness and may be withdrawn at any time; a relative cannot consent for a competent adult; confidentiality survives death and opens only through consent, need to know, the law or serious risk to others; a refusal is explored, informed, documented and respected.",
       ],
-      quiz: { keywords: ["definition of health","determinants of health","levels of the health system","ghana health service","ministry of health","referral pathway","nhis","national health insurance","scope of practice","renewal of the pin","practising without a valid pin","sanctions available to the council","continuing professional development","professional accountability","nurse's professional position","patients' charter","advocacy for a patient","elements of valid consent","what makes consent valid","refusal of treatment","presumption of capacity","treatment without consent","confidentiality","duration of the duty of confidentiality","social media and patient","elements of negligence","autonomy","justice in allocating","veracity","professional boundaries","discrimination in care","health team","primary health care","levels of prevention","cultural beliefs and treatment","traditional beliefs about illness"] },
+      quiz: {
+        questionIds: ["NG-MOD-FUND-002"],
+        categories: ["fundamentals"],
+        keywords: ["definition of health","determinants of health","levels of the health system","ghana health service","ministry of health","referral pathway","nhis","national health insurance","scope of practice","renewal of the pin","practising without a valid pin","sanctions available to the council","continuing professional development","professional accountability","nurse's professional position","patients' charter","advocacy for a patient","elements of valid consent","what makes consent valid","refusal of treatment","presumption of capacity","treatment without consent","confidentiality","duration of the duty of confidentiality","social media and patient","elements of negligence","autonomy","justice in allocating","veracity","professional boundaries","discrimination in care","health team","primary health care","levels of prevention","cultural beliefs and treatment","traditional beliefs about illness"]
+      },
     },
     {
       slug: "the-nursing-process-critical-thinking-and-care-planning",
@@ -242,7 +246,11 @@ export const theProfessionTheNursingProcessAndCommunication: CourseModule = {
         "Implementation begins with reassessment, proceeds with consent and within scope, delegates only the right task for the right patient to the right person with accountability retained, and is documented with the patient's response at the time.",
         "Evaluation compares the outcome with the goal on the date set — met, partly met or not met — and a goal not met sends the nurse back to ask whether the assessment, diagnosis, goal or intervention was wrong, and to revise rather than repeat.",
       ],
-      quiz: { keywords: ["nursing process","first step of the nursing process","subjective and objective data","nursing versus medical diagnosis","nursing diagnosis","writing a measurable goal","measurable goal","individualised care planning","care plan","evaluation","prioritising a patient assignment","prioritisation using abc","prioritisation with limited resources","prioritization","clinical judgement","documenting assessment findings","data collection","goal","smart objectives","assess first","abc"] },
+      quiz: {
+        questionIds: ["NG-MOD-FUND-001"],
+        categories: ["fundamentals"],
+        keywords: ["nursing process","first step of the nursing process","subjective and objective data","nursing versus medical diagnosis","nursing diagnosis","writing a measurable goal","measurable goal","individualised care planning","care plan","evaluation","prioritising a patient assignment","prioritisation using abc","prioritisation with limited resources","prioritization","clinical judgement","documenting assessment findings","data collection","goal","smart objectives","assess first","abc"]
+      },
     },
     {
       slug: "communication-documentation-and-handover",
@@ -356,7 +364,11 @@ export const theProfessionTheNursingProcessAndCommunication: CourseModule = {
         "The nursing record is a legal document: accurate, objective, complete, contemporaneous, legible, signed with name and designation; errors are struck through with a single line and labelled, late entries are labelled with both times, backdating and signing for care not given are falsification, and 'if it was not written, it was not done'.",
         "Incidents and near misses are reported after the patient is made safe and told the truth; a just culture asks what allowed the error rather than who made it, fixes the system and still holds reckless acts to account; and confidentiality extends to notes, phones, photographs and social media.",
       ],
-      quiz: { keywords: ["therapeutic communication","using an interpreter","interpreter","teach back","health literacy","breaking bad news","finding out what the patient already","principles of documentation","timing of documentation","retrospective documentation","documentation and error","structured handover","handover communication","sbar","handover","incident reporting","reporting a near miss","near miss","just culture","responding to a complaint","complaint","confidentiality within the family","confidentiality in a shared ward","disclosure to a relative","verbal orders","accessing records","social media","patient identifiability","communicating with a deaf","hearing loss and communication","language and labelling","stigma in the ward","rapport","silence","nursing record","electronic record","a relative who answers for the patient","aphasia","consent form"] },
+      quiz: {
+        questionIds: ["NG-MOD-FUND-003"],
+        categories: ["fundamentals"],
+        keywords: ["therapeutic communication","using an interpreter","interpreter","teach back","health literacy","breaking bad news","finding out what the patient already","principles of documentation","timing of documentation","retrospective documentation","documentation and error","structured handover","handover communication","sbar","handover","incident reporting","reporting a near miss","near miss","just culture","responding to a complaint","complaint","confidentiality within the family","confidentiality in a shared ward","disclosure to a relative","verbal orders","accessing records","social media","patient identifiability","communicating with a deaf","hearing loss and communication","language and labelling","stigma in the ward","rapport","silence","nursing record","electronic record","a relative who answers for the patient","aphasia","consent form"]
+      },
     },
     {
       slug: "culture-beliefs-and-nursing-care",
@@ -416,6 +428,8 @@ export const theProfessionTheNursingProcessAndCommunication: CourseModule = {
         "Humility over competence — keep asking, keep adapting, apologise and correct.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-FUND-003", "NG-MOD-FUND-002"],
+        categories: ["fundamentals"],
         keywords: ["cultural competence", "cultural care", "transcultural", "health beliefs", "traditional medicine", "traditional healer", "prayer camp", "fasting and medicines", "blood refusal", "blood transfusion refusal", "modesty", "language barrier", "interpreter", "death rites", "food taboo"],
       },
     }

@@ -17,6 +17,18 @@ const TABS = [
 export default function MobileTabBar() {
   const pathname = usePathname();
 
+  // Hide the bottom tab bar when actively taking an exam or CAT session
+  // so the question runner and answer choices get full vertical screen space
+  // in portrait mode without accidental tab switches.
+  const isTakingExam =
+    pathname.match(/^\/dashboard\/exams\/[^/]+$/) ||
+    pathname.match(/^\/dashboard\/cat\/[^/]+$/) ||
+    pathname.endsWith("/post-test");
+
+  if (isTakingExam) {
+    return null;
+  }
+
   return (
     <nav
       aria-label="Primary"

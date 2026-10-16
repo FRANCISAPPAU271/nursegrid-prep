@@ -115,7 +115,11 @@ export const tuberculosisHivHepatitisAndSexuallyTransmittedInfections: CourseMod
         "Rifampicin-resistant tuberculosis is detected on the first Xpert and treated with all-oral regimens — six-month BPaLM or a nine- to eleven-month bedaquiline-based regimen — monitored with monthly ECGs, blood counts, neuropathy and vision checks and cultures, with strong patient support.",
         "Infection control is FAST — find the cougher at triage, separate him with a surgical mask and open air, treat him promptly — plus cross-ventilation, outdoor sputum collection, N95 respirators for staff in isolation rooms and at sputum induction, and BCG at birth; every new case triggers household contact screening within a week, entry in the register and treatment card, outcome reporting against a 90 per cent success target, and the detective work that turns ‘lost to follow-up’ back into a patient on treatment.",
       ],
-      quiz: { keywords: ["tuberculosis","tb ","genexpert","sputum","acid-fast","directly observed","phases of tb treatment","intensive phase","continuation phase","rifampicin","isoniazid","pyridoxine","ethambutol","orange","enzyme induction","side effects of tb drugs","antituberculous","tuberculosis treatment adherence","contact screening","childhood tuberculosis","screening for tuberculosis","cough for","night sweats","weight loss over","airborne precautions","tuberculosis infection control","respiratory hygiene","bcg","nutrition in tuberculosis","productive cough","smear-positive"] },
+      quiz: {
+        questionIds: ["NG-MOD-COMM-006", "NG-MOD-COMM-007"],
+        categories: ["safety-infection-control", "pharmacology-parenteral"],
+        keywords: ["tuberculosis","tb ","genexpert","sputum","acid-fast","directly observed","phases of tb treatment","intensive phase","continuation phase","rifampicin","isoniazid","pyridoxine","ethambutol","orange","enzyme induction","side effects of tb drugs","antituberculous","tuberculosis treatment adherence","contact screening","childhood tuberculosis","screening for tuberculosis","cough for","night sweats","weight loss over","airborne precautions","tuberculosis infection control","respiratory hygiene","bcg","nutrition in tuberculosis","productive cough","smear-positive"]
+      },
     },
     {
       slug: "hiv-testing-treatment-prevention-and-living-well",
@@ -237,7 +241,11 @@ export const tuberculosisHivHepatitisAndSexuallyTransmittedInfections: CourseMod
         "Prevention is condoms, PrEP for those at substantial risk, PEP within 72 hours for 28 days, treatment as prevention (undetectable equals untransmittable), screened blood, one needle one syringe one patient, sterile instruments, treatment of STIs and the structural work of keeping girls in school and reaching key populations.",
         "Living well means built adherence, patient-controlled disclosure with assisted partner notification, gradual disclosure to children, mental health screening, nutrition, cervical screening every three years, safe conception, and confidentiality enforced by the Patients' Charter and the Ghana AIDS Commission Act 938 — and a nurse whose attitude is the first treatment the patient receives.",
       ],
-      quiz: { keywords: ["hiv","antiretroviral","viral load","cd4","test and treat","disclosure of hiv","disclosure","adherence and viral load","nursing precautions in hiv","hiv transmission","infant feeding and hiv","mother-to-child","hiv-exposed","dolutegravir","cotrimoxazole","post-exposure prophylaxis","needlestick","sharps injury","occupational exposure","opportunistic","candidiasis","stigma","internalised stigma","confidentiality in a shared ward","refusing to care","health-related stigma","condom","dual protection","herbal medicine and antiretroviral","antiretroviral drug interaction","adolescent confidentiality","sharing a cup","universal precautions"] },
+      quiz: {
+        questionIds: ["NG-MOD-COMM-008", "NG-MOD-COMM-002"],
+        categories: ["health-promotion", "safety-infection-control"],
+        keywords: ["hiv","antiretroviral","viral load","cd4","test and treat","disclosure of hiv","disclosure","adherence and viral load","nursing precautions in hiv","hiv transmission","infant feeding and hiv","mother-to-child","hiv-exposed","dolutegravir","cotrimoxazole","post-exposure prophylaxis","needlestick","sharps injury","occupational exposure","opportunistic","candidiasis","stigma","internalised stigma","confidentiality in a shared ward","refusing to care","health-related stigma","condom","dual protection","herbal medicine and antiretroviral","antiretroviral drug interaction","adolescent confidentiality","sharing a cup","universal precautions"]
+      },
     },
     {
       slug: "hepatitis-b-and-c-and-the-sexually-transmitted-infections",
@@ -351,7 +359,11 @@ export const tuberculosisHivHepatitisAndSexuallyTransmittedInfections: CourseMod
         "Congenital syphilis is prevented by screening at booking and benzathine penicillin at least 30 days before delivery with partner treatment; ophthalmia neonatorum by tetracycline eye ointment within an hour of birth, and treated as an emergency with ceftriaxone, hourly irrigation and treatment of both parents; the Jarisch–Herxheimer reaction is explained before the injection.",
         "After sexual assault the survivor is believed and offered HIV PEP within 72 hours for 28 days, emergency contraception within five days, presumptive STI treatment, hepatitis B and tetanus cover, baseline and follow-up tests, psychological support and the choice to report; HPV vaccination of girls at nine and cervical screening from thirty prevent the commonest STI's deadliest consequence.",
       ],
-      quiz: { keywords: ["hepatitis","hepatitis b","hepatitis b vaccination","hepatitis b transmission","syndromic","syndromic management","urethral discharge","vaginal discharge","genital ulcer","syphilis","congenital syphilis","benzathine","gonorrhoea","ophthalmia","pelvic inflammatory","partner treatment","dual protection","condom","adolescent sexual","adolescent confidentiality","cervical cancer","herpes","trichomon","sexual health","liver function","cirrhosis","needlestick","birth dose","liver function"] },
+      quiz: {
+        questionIds: ["NG-MOD-COMM-009"],
+        categories: ["maternal-newborn"],
+        keywords: ["hepatitis","hepatitis b","hepatitis b vaccination","hepatitis b transmission","syndromic","syndromic management","urethral discharge","vaginal discharge","genital ulcer","syphilis","congenital syphilis","benzathine","gonorrhoea","ophthalmia","pelvic inflammatory","partner treatment","dual protection","condom","adolescent sexual","adolescent confidentiality","cervical cancer","herpes","trichomon","sexual health","liver function","cirrhosis","needlestick","birth dose","liver function"]
+      },
     },
   ],
 };

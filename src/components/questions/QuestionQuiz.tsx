@@ -396,13 +396,13 @@ export default function QuestionQuiz({
           onTouchStart={onTouchStart}
           onTouchMove={onTouchMove}
           onTouchEnd={onTouchEnd}
-          className={`animate-fade-in relative secure-content rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-transform duration-150 ${
+          className={`animate-fade-in relative secure-content rounded-2xl border border-slate-200 bg-white p-4 sm:p-6 shadow-sm transition-transform duration-150 ${
             swipeHint ? "-translate-x-2 opacity-90" : ""
           }`}
         >
           <Watermark />
-          <div className="mb-4 flex items-center justify-between">
-            <div className="flex items-center gap-2">
+          <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
+            <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
               <span className={`rounded-full px-2 py-0.5 text-[11px] font-semibold capitalize ${DIFFICULTY_STYLE[current.difficulty]}`}>
                 {current.difficulty}
               </span>
@@ -416,7 +416,7 @@ export default function QuestionQuiz({
                 Question {offset + index + 1} of {total.toLocaleString()}
               </span>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 shrink-0">
               {timedMode && !result && (
                 <span
                   className={`rounded-full px-2.5 py-1 font-mono text-xs font-bold tabular-nums ${
@@ -448,7 +448,7 @@ export default function QuestionQuiz({
             </div>
           )}
 
-          <p className="text-base leading-relaxed text-slate-900"><EmphasisedText text={current.stem} /></p>
+          <p className="text-[15px] sm:text-base leading-relaxed text-slate-900"><EmphasisedText text={current.stem} /></p>
 
           <div className="mt-5 space-y-2.5">
             {current.choices.map((choice) => {
@@ -463,7 +463,7 @@ export default function QuestionQuiz({
                     key={choice.id}
                     disabled={Boolean(result)}
                     onClick={() => toggleMultiChoice(choice.id)}
-                    className={`flex w-full items-start gap-3 rounded-xl border px-4 py-3 text-left text-sm transition disabled:cursor-default ${
+                    className={`flex w-full items-start gap-2.5 sm:gap-3 rounded-xl border px-3.5 py-3 sm:px-4 text-left text-[13px] sm:text-sm leading-snug sm:leading-normal transition disabled:cursor-default ${
                       isCorrectChoice
                         ? "border-emerald-400 bg-emerald-50 text-emerald-900"
                         : isWrongTicked
@@ -478,7 +478,7 @@ export default function QuestionQuiz({
                       shape="square"
                       state={isCorrectChoice ? "correct" : isWrongTicked ? "wrong" : isMissedCorrect ? "missed" : isTicked ? "selected" : "default"}
                     />
-                    <span>{choice.text}</span>
+                    <span className="pt-0.5">{choice.text}</span>
                   </button>
                 );
               }
@@ -490,7 +490,7 @@ export default function QuestionQuiz({
                   key={choice.id}
                   disabled={Boolean(selected)}
                   onClick={() => submitAnswer(choice.id)}
-                  className={`flex w-full items-start gap-3 rounded-xl border px-4 py-3 text-left text-sm transition disabled:cursor-default ${
+                  className={`flex w-full items-start gap-2.5 sm:gap-3 rounded-xl border px-3.5 py-3 sm:px-4 text-left text-[13px] sm:text-sm leading-snug sm:leading-normal transition disabled:cursor-default ${
                     isCorrectChoice
                       ? "border-emerald-400 bg-emerald-50 text-emerald-900"
                       : isWrongSelected
@@ -504,7 +504,7 @@ export default function QuestionQuiz({
                     label={choice.id}
                     state={isCorrectChoice ? "correct" : isWrongSelected ? "wrong" : isSelected ? "selected" : "default"}
                   />
-                  <span>{choice.text}</span>
+                  <span className="pt-0.5">{choice.text}</span>
                 </button>
               );
             })}
@@ -623,10 +623,10 @@ function QuizHeader({
         <Link href="/dashboard/questions" className="text-xs font-semibold text-emerald-700 hover:underline">
           ← Question bank
         </Link>
-        <h1 className="mt-1 text-2xl font-extrabold tracking-tight text-slate-950">{title}</h1>
-        <p className="text-slate-600">{subtitle}</p>
+        <h1 className="mt-1 text-xl sm:text-2xl font-extrabold tracking-tight text-slate-950">{title}</h1>
+        <p className="text-xs sm:text-sm text-slate-600">{subtitle}</p>
       </div>
-      <div className="flex items-center gap-2">
+      <div className="flex flex-wrap items-center gap-2">
         {onToggleTimed && (
           <button
             onClick={onToggleTimed}

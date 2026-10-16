@@ -105,6 +105,8 @@ export const sickleCellDisease: CourseModule = {
       ],
       quiz: {
         keywords: ["sickle","sickling","haemoglobin variant","trait","carrier","autosomal","recessive","inherit","genetic","genotype","daily penicillin","pneumococcal","newborn screen","screen newborns","spleen","folic acid","marry","single dna letter","genogram","chance in each pregnancy","dna","electrophoresis","premarital","penicillin v"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-HAEM-006"],
       },
     },
     {
@@ -214,6 +216,8 @@ export const sickleCellDisease: CourseModule = {
       ],
       quiz: {
         keywords: ["sickle","painful crisis","vaso occlusive","acute chest","sequestration","enlarging abdomen","limb pain","pain in both thighs","regular intervals","morphine","pethidine","incentive spirometry","ceftriaxone","osteomyelitis","salmonella","hemipleg","analgesi","oxygen saturation","splenic","spleen","priapism","dactylitis","exchange transfusion","aplastic crisis"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-HAEM-006", "NG-MOD-HAEM-007"],
       },
     },
     {
@@ -327,6 +331,8 @@ export const sickleCellDisease: CourseModule = {
       ],
       quiz: {
         keywords: ["sickle","leg ulcer","avascular","trait","genotype","contracept","hypoxia","stigma","chronic illness","palliative","genetic","marry","eco map","genogram","chronic pain","opioid","school health","transition","hydroxyurea","transcranial","iron overload","avascular necrosis","premarital"],
+        categories: ["pharmacology-parenteral", "med-surg"],
+        questionIds: ["NG-MOD-HAEM-008"],
       },
     },
   ],

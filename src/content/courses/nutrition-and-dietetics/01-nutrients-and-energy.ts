@@ -72,8 +72,9 @@ export const nutrientsAndEnergy: CourseModule = {
         "Model plates personally; document counsel; log as CPD.",
       ],
       quiz: {
-        keywords: ["carbohydrate", "protein", "fats", "energy", "4-4-9", "BMR", "fibre", "water", "glycaemic", "portions", "recall", "teach-back", "poverty", "counselling", "plate"],
+        questionIds: ["NG-MOD-NUTR-001"],
         categories: ["fundamentals"],
+        keywords: ["carbohydrate", "protein", "fats", "energy", "4-4-9", "BMR", "fibre", "water", "glycaemic", "portions", "recall", "teach-back", "poverty", "counselling", "plate"],
       },
     },
     {
@@ -142,8 +143,9 @@ export const nutrientsAndEnergy: CourseModule = {
         "Anaemia: diet + malaria + worms + Hb + cause — trio treated, never iron-blind.",
       ],
       quiz: {
-        keywords: ["vitamin A", "iron", "folate", "B12", "calcium", "vitamin D", "iodine", "zinc", "vitamin C", "anaemia", "goitre", "rickets", "supplements", "rainbow", "absorption"],
+        questionIds: ["NG-MOD-NUTR-002"],
         categories: ["fundamentals"],
+        keywords: ["vitamin A", "iron", "folate", "B12", "calcium", "vitamin D", "iodine", "zinc", "vitamin C", "anaemia", "goitre", "rickets", "supplements", "rainbow", "absorption"],
       },
     },
   ],

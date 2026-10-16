@@ -63,29 +63,35 @@ export default function LessonBlocks({ blocks }: { blocks: LessonBlock[] }) {
             return (
               <section key={i} className="space-y-2.5">
                 {block.heading && <Heading>{block.heading}</Heading>}
-                <div className="overflow-x-auto rounded-xl border border-slate-200">
-                  <table className="w-full min-w-[560px] border-collapse text-left text-sm">
-                    <thead className="bg-slate-50">
-                      <tr>
-                        {block.columns.map((c, j) => (
-                          <th key={j} className="border-b border-slate-200 px-3 py-2 text-xs font-bold uppercase tracking-wide text-slate-600">
-                            {c}
-                          </th>
-                        ))}
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {block.rows.map((row, r) => (
-                        <tr key={r} className={r % 2 === 1 ? "bg-slate-50/60" : "bg-white"}>
-                          {row.map((cell, c) => (
-                            <td key={c} className={`border-b border-slate-100 px-3 py-2 align-top leading-relaxed text-slate-700 ${c === 0 ? "font-semibold text-slate-900" : ""}`}>
-                              <InlineText text={cell} />
-                            </td>
+                <div className="relative">
+                  <div className="sm:hidden mb-1 flex items-center justify-between text-[11px] font-semibold text-slate-400">
+                    <span>📊 Table</span>
+                    <span className="flex items-center gap-1 text-emerald-700">👉 Swipe horizontally to view full table</span>
+                  </div>
+                  <div className="overflow-x-auto rounded-xl border border-slate-200 overscroll-x-contain [-webkit-overflow-scrolling:touch]">
+                    <table className="w-full min-w-[500px] border-collapse text-left text-sm">
+                      <thead className="bg-slate-50">
+                        <tr>
+                          {block.columns.map((c, j) => (
+                            <th key={j} className="border-b border-slate-200 px-3 py-2 text-xs font-bold uppercase tracking-wide text-slate-600">
+                              {c}
+                            </th>
                           ))}
                         </tr>
-                      ))}
-                    </tbody>
-                  </table>
+                      </thead>
+                      <tbody>
+                        {block.rows.map((row, r) => (
+                          <tr key={r} className={r % 2 === 1 ? "bg-slate-50/60" : "bg-white"}>
+                            {row.map((cell, c) => (
+                              <td key={c} className={`border-b border-slate-100 px-3 py-2 align-top leading-relaxed text-slate-700 ${c === 0 ? "font-semibold text-slate-900" : ""}`}>
+                                <InlineText text={cell} />
+                              </td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               </section>
             );

@@ -131,7 +131,11 @@ export const menstrualAndEndocrineDisorders: CourseModule = {
         "PCOS: two of oligo-/anovulation, hyperandrogenism and polycystic ovaries after exclusions; insulin resistance underlies it; risks are diabetes, cardiovascular disease and endometrial cancer; manage by weight loss, metabolic screening, cycle control and endometrial protection, treatment of hirsutism, and letrozole, clomifene or metformin for fertility.",
         "Premenstrual syndrome is diagnosed by a two-cycle prospective diary showing luteal symptoms and a symptom-free week; lifestyle first, then ovulation suppression, cognitive behavioural therapy or an SSRI; the bleeding and symptom diary is the nurse's most useful tool.",
       ],
-      quiz: { keywords: ["menstruat","menstrual","period pain","prostaglandin","dysmenorrh","amenorrh","imperforate","endometri","fibroid","iron deficiency","oral iron","iron tablets","irregular spotting","spotting","bleeding pattern","turner","corpus luteum","ovulation","oestrogen","progest","leuprolide","35-day","30-day cycles","haemoglobin of 7","heavier than a period","hormone receptor"] },
+      quiz: {
+        questionIds: ["NG-MOD-GYN-003"],
+        categories: ["maternal-newborn"],
+        keywords: ["menstruat","menstrual","period pain","prostaglandin","dysmenorrh","amenorrh","imperforate","endometri","fibroid","iron deficiency","oral iron","iron tablets","irregular spotting","spotting","bleeding pattern","turner","corpus luteum","ovulation","oestrogen","progest","leuprolide","35-day","30-day cycles","haemoglobin of 7","heavier than a period","hormone receptor"]
+      },
     },
     {
       slug: "endometriosis-and-chronic-pelvic-pain",
@@ -191,6 +195,8 @@ export const menstrualAndEndocrineDisorders: CourseModule = {
         "Acute pelvic pain runs pregnancy test, fever check and sudden-severe screen before any chronic diagnosis.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-GYN-005"],
+        categories: ["maternal-newborn"],
         keywords: ["endometriosis", "dysmenorrhoea", "pelvic pain", "dyspareunia", "adenomyosis", "chocolate cyst", "endometrioma", "laparoscopy", "infertility", "menorrhagia", "chronic pelvic pain", "progestin", "gnrh", "danazol"],
       },
     },
@@ -311,7 +317,11 @@ export const menstrualAndEndocrineDisorders: CourseModule = {
         "MHT is the most effective treatment for vasomotor symptoms and prevents bone loss; a progestogen is mandatory when the uterus is present; transdermal oestrogen avoids thrombotic risk; benefits outweigh risks for most women under 60 or within ten years of menopause; contraindicated in breast cancer, undiagnosed bleeding, venous thromboembolism and active liver disease; vaginal oestrogen suits almost everyone with genitourinary symptoms; contraception continues one year after the last period over 50, two years under 50.",
         "The older woman needs osteoporosis prevention (calcium, vitamin D, weight-bearing exercise, no smoking; bisphosphonates for established disease), a falls assessment of the person, the medicines and the house, urgent investigation of any post-menopausal bleeding, continued cervical and breast screening, attention to prolapse and incontinence, and the same privacy, directness and respect as any other woman.",
       ],
-      quiz: { keywords: ["puberty","turner","klinefelter","imperforate","menopaus","hot flush","oestrogen","bone health","osteopor","fracture risk","older woman","postmenopausal","incontinence","bladder training","calcium and vitamin d","vitamin d","colporrhaphy","chromosome","karyotype","adolescent nutrition","anterior pituitary","pituitary","hormone receptor","minor fall","sex determination"] },
+      quiz: {
+        questionIds: ["NG-MOD-GYN-004"],
+        categories: ["maternal-newborn"],
+        keywords: ["puberty","turner","klinefelter","imperforate","menopaus","hot flush","oestrogen","bone health","osteopor","fracture risk","older woman","postmenopausal","incontinence","bladder training","calcium and vitamin d","vitamin d","colporrhaphy","chromosome","karyotype","adolescent nutrition","anterior pituitary","pituitary","hormone receptor","minor fall","sex determination"]
+      },
     },
   ],
 };

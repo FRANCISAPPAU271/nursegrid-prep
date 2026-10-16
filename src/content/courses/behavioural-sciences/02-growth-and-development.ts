@@ -66,8 +66,9 @@ export const growthAndDevelopment: CourseModule = {
         "Safeguarding: flags + mismatch + repeats → document exactly + report NOW.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-BEH-004","NG-MOD-BEH-005"],
         keywords: ["Bowlby", "attachment", "secure base", "protest", "despair", "detachment", "Piaget", "sensorimotor", "pre-operational", "concrete", "formal", "play", "regression", "safeguarding", "rooming-in"],
-        categories: ["fundamentals"],
+        categories: ["mental-health"],
       },
     },
     {
@@ -130,8 +131,9 @@ export const growthAndDevelopment: CourseModule = {
         "Exams: stage-match (age + task + quote) AND stage-care — both halves, full marks.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-BEH-006","NG-MOD-BEH-007"],
         keywords: ["Erikson", "trust", "autonomy", "initiative", "industry", "identity", "intimacy", "generativity", "integrity", "despair", "adolescence", "life review", "regression", "virtues", "stages"],
-        categories: ["fundamentals"],
+        categories: ["mental-health"],
       },
     },
   ],

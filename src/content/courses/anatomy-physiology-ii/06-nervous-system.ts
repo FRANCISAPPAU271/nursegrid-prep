@@ -66,8 +66,9 @@ export const nervousSystem: CourseModule = {
         "GCS E4V5M6, ≤8 intubate; drop of 2, asymmetry, posturing = emergency; neuro obs start at the fall, not the review.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP2-016"],
         keywords: ["neurone", "myelin", "action potential", "synapse", "neurotransmitter", "lobes", "cerebellum", "brainstem", "meningitis", "CSF", "raised ICP", "Cushing", "spinal cord", "reflex", "GCS"],
-        categories: ["medsurg", "fundamentals"],
+        categories: ["fluid-electrolyte"],
       },
     },
     {
@@ -136,8 +137,9 @@ export const nervousSystem: CourseModule = {
         "Altered drill: glucose, sats, vitals, GCS, pupils, exposure, ECG, VBG, collateral — delirium is reversible, find PINCH-ME.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP2-017","NG-MOD-AP2-018"],
         keywords: ["PNS", "plexus", "wrist drop", "foot drop", "neuropathy", "sympathetic", "parasympathetic", "vagus", "dysreflexia", "cranial nerves", "stroke", "thrombolysis", "GCS", "delirium", "naloxone"],
-        categories: ["medsurg", "fundamentals"],
+        categories: ["fluid-electrolyte"],
       },
     },
   ],

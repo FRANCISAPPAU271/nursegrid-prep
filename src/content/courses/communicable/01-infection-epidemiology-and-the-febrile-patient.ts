@@ -128,7 +128,11 @@ export const infectionEpidemiologyAndTheFebrilePatient: CourseModule = {
         "Active immunity is made by the host, slow and lasting; passive is given, immediate and brief; both may be natural or artificial, and the unimmunised patient with a tetanus-prone wound needs immunoglobulin and toxoid together; herd immunity protects the unvaccinated only when coverage is high everywhere, about 95 per cent for measles, and never for tetanus.",
         "Sporadic, endemic, epidemic, outbreak, pandemic, elimination and eradication have exact meanings; a single case of an immediately notifiable disease is an outbreak; the levels of prevention run primordial, primary, secondary (screening) and tertiary; and the NMEP, NTP, NACP with the Ghana AIDS Commission, the NTD programme, the EPI and the Disease Surveillance Department organise Ghana's response.",
       ],
-      quiz: { keywords: ["chain of infection","portal of entry","incubation period","virulence","transmission","vector","vectors and local disease transmission","classifying disease-causing organisms","normal flora","opportunistic infection","bacterial spores","bacterial morphology","bacterial structure","viral infection","parasitology","immunity","herd immunity","endemic","communicable","infectious disease","zoonotic","one health","faecal-oral","faecal oral transmission","levels of prevention","airborne precautions","transmission-based precautions","gram staining","culture media","bacterial growth","microscopy","healthcare-associated infection","standard precautions","universal precautions","traditional beliefs about illness","shared risk factors","antibiotics ineffective"] },
+      quiz: {
+        questionIds: ["NG-MOD-COMM-001", "NG-MOD-COMM-002"],
+        categories: ["safety-infection-control"],
+        keywords: ["chain of infection","portal of entry","incubation period","virulence","transmission","vector","vectors and local disease transmission","classifying disease-causing organisms","normal flora","opportunistic infection","bacterial spores","bacterial morphology","bacterial structure","viral infection","parasitology","immunity","herd immunity","endemic","communicable","infectious disease","zoonotic","one health","faecal-oral","faecal oral transmission","levels of prevention","airborne precautions","transmission-based precautions","gram staining","culture media","bacterial growth","microscopy","healthcare-associated infection","standard precautions","universal precautions","traditional beliefs about illness","shared risk factors","antibiotics ineffective"]
+      },
     },
     {
       slug: "measuring-disease-idsr-reporting-and-investigating-an-outbreak",
@@ -249,7 +253,11 @@ export const infectionEpidemiologyAndTheFebrilePatient: CourseModule = {
         "The nurse who sees the first case treats and isolates, notifies by telephone at once, records a traceable address, takes the specimen the guideline names, begins to list contacts and educates without blame; meningitis thresholds are 3 (alert) and 10 (epidemic) per 100,000 per week, and one suspected case is the threshold for cholera, yellow fever, VHF, AFP, Guinea worm and neonatal tetanus.",
         "Isolation is for the ill and lasts the period of communicability; quarantine is for the well-but-exposed and lasts one incubation period; contact tracing lists, finds, follows and protects the exposed; data quality means complete, timely, accurate reporting with feedback; and rumours are verified and answered quickly, truthfully and without ridicule by someone the community trusts.",
       ],
-      quiz: { keywords: ["incidence","prevalence","attack rate","case fatality","epidemic curve","epidemic","outbreak","outbreak investigation","recognising an outbreak","steps of outbreak investigation","case definition","surveillance","notifiable","immediately notifiable","zero reporting","disease notification","contact tracing","isolation and quarantine","quarantine","rumours","rumour","principles of screening","herd protection","coverage","district level","facility data","data quality","elimination and surveillance","guinea worm","timing of control measures","interpreting the epidemic curve","cohort and case-control","one health","unusual number","index case"] },
+      quiz: {
+        questionIds: ["NG-MOD-COMM-001"],
+        categories: ["safety-infection-control"],
+        keywords: ["incidence","prevalence","attack rate","case fatality","epidemic curve","epidemic","outbreak","outbreak investigation","recognising an outbreak","steps of outbreak investigation","case definition","surveillance","notifiable","immediately notifiable","zero reporting","disease notification","contact tracing","isolation and quarantine","quarantine","rumours","rumour","principles of screening","herd protection","coverage","district level","facility data","data quality","elimination and surveillance","guinea worm","timing of control measures","interpreting the epidemic curve","cohort and case-control","one health","unusual number","index case"]
+      },
     },
     {
       slug: "the-febrile-patient-fever-in-ghana-specimens-and-the-sepsis-question",
@@ -397,7 +405,11 @@ export const infectionEpidemiologyAndTheFebrilePatient: CourseModule = {
         "A negative RDT answers the malaria question — work the presentation instead: respiratory, urinary, abdominal, viral, danger signs or persistent.",
         "Safety-net every undifferentiated fever: fluids, weight-based paracetamol, written return triggers, a booked 48–72 hour review and documented reasoning.",
       ],
-      quiz: { keywords: ["fever", "febrile", "fever with confusion", "febrile convulsion", "rigor", "shivering", "blood culture", "blood cultures before antibiotics", "specimen", "specimen collection", "specimen handling", "specimen labelling", "specimen transport", "sputum specimen", "stool specimen", "cerebrospinal fluid", "lumbar puncture", "malaria rapid diagnostic", "rapid diagnostic test", "negative malaria", "widal", "recognising sepsis", "sepsis", "septic shock", "deteriorating", "early warning", "temperature measurement", "neutropenic", "unexplained fever", "prolonged fever", "undulating", "convulsing", "rdt negative", "safety netting", "undifferentiated fever", "typhoid", "urinary tract infection"] },
+      quiz: {
+        questionIds: ["NG-MOD-COMM-001"],
+        categories: ["safety-infection-control"],
+        keywords: ["fever", "febrile", "fever with confusion", "febrile convulsion", "rigor", "shivering", "blood culture", "blood cultures before antibiotics", "specimen", "specimen collection", "specimen handling", "specimen labelling", "specimen transport", "sputum specimen", "stool specimen", "cerebrospinal fluid", "lumbar puncture", "malaria rapid diagnostic", "rapid diagnostic test", "negative malaria", "widal", "recognising sepsis", "sepsis", "septic shock", "deteriorating", "early warning", "temperature measurement", "neutropenic", "unexplained fever", "prolonged fever", "undulating", "convulsing", "rdt negative", "safety netting", "undifferentiated fever", "typhoid", "urinary tract infection"]
+      },
     },
   ],
 };

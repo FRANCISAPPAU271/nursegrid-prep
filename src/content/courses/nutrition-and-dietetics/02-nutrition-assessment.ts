@@ -72,8 +72,9 @@ export const nutritionAssessment: CourseModule = {
         "Audit measures; trace defaulters; weighing days retain with kindness + speed.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-NUTR-003", "NG-MOD-NUTR-004"],
+        categories: ["fundamentals", "pediatrics"],
         keywords: ["BMI", "MUAC", "SAM", "MAM", "oedema", "kwashiorkor", "growth chart", "z-score", "stunting", "wasting", "underweight", "waist", "calibrate", "trend", "CWC"],
-        categories: ["fundamentals"],
       },
     },
     {
@@ -142,8 +143,9 @@ export const nutritionAssessment: CourseModule = {
         "Red flags same-day; one-page ABCD forms; 10 supervised assessments for fluency.",
       ],
       quiz: {
-        keywords: ["ABCD", "diet history", "24-hour recall", "labs", "albumin", "HbA1c", "clinical signs", "glossitis", "koilonychia", "classify", "referral", "beliefs", "taboos", "review", "documentation"],
+        questionIds: ["NG-MOD-NUTR-005"],
         categories: ["fundamentals"],
+        keywords: ["ABCD", "diet history", "24-hour recall", "labs", "albumin", "HbA1c", "clinical signs", "glossitis", "koilonychia", "classify", "referral", "beliefs", "taboos", "review", "documentation"],
       },
     },
   ],

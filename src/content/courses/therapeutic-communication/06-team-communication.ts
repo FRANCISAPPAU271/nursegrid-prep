@@ -66,6 +66,7 @@ export const teamCommunication: CourseModule = {
         "Nurse presents rounds; disagree privately; hierarchy never outranks safety.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCOM-016"],
         keywords: ["SBAR", "ISBAR", "read-back", "bedside", "handover", "CUS", "escalation", "chain of command", "huddle", "whiteboard", "rounds", "interprofessional", "silence", "phone", "document"],
         categories: ["fundamentals"],
       },
@@ -130,6 +131,7 @@ export const teamCommunication: CourseModule = {
         "SBI feedback: situation + behaviour + impact; praise public, correct private.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCOM-017", "NG-MOD-TCOM-018"],
         keywords: ["assertive", "passive", "aggressive", "DESC", "CUS", "conflict", "win-win", "bullying", "lateral violence", "SBI", "feedback", "speaking up", "hierarchy", "precept", "document"],
         categories: ["fundamentals"],
       },

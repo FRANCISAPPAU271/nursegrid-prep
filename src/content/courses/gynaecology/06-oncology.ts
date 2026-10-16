@@ -102,7 +102,11 @@ export const gynaecologicalAndBreastOncology: CourseModule = {
         "Nursing through radiotherapy covers lodging and logistics, skin care, diarrhoea, cystitis, fatigue, vaginal dilation after treatment, induced menopause and follow-up; palliative care starts at diagnosis and treats bleeding (packing, tranexamic acid, radiotherapy), odour (metronidazole, hygiene), fistula, lymphoedema and pain (morphine by the clock with a laxative, adjuvants) across the physical, psychological, social and spiritual dimensions.",
         "Vaccination is primary prevention, screening and ablation secondary, treatment and palliation tertiary; the woman with cervical cancer is unscreened rather than blameworthy, and her daughters are vaccinated and her sisters screened.",
       ],
-      quiz: { keywords: ["cervical cancer","cervical screen","cervical smear","visual inspection","acetic","levels of prevention","cancer screening","screening able to prevent","chemotherap","palliative","hospice","morphine","total pain","analgesic ladder","cancer","stigma","bleeding pattern","postmenopausal bleeding","offensive discharge","vaccine causes","present with advanced","treatment abandonment","herbal treatment","staging of a cancer","going to die","not to tell her the diagnosis","end his life","codeine"] },
+      quiz: {
+        questionIds: ["NG-MOD-GYN-015"],
+        categories: ["maternal-newborn"],
+        keywords: ["cervical cancer","cervical screen","cervical smear","visual inspection","acetic","levels of prevention","cancer screening","screening able to prevent","chemotherap","palliative","hospice","morphine","total pain","analgesic ladder","cancer","stigma","bleeding pattern","postmenopausal bleeding","offensive discharge","vaccine causes","present with advanced","treatment abandonment","herbal treatment","staging of a cancer","going to die","not to tell her the diagnosis","end his life","codeine"]
+      },
     },
     {
       slug: "endometrial-ovarian-and-vulval-cancer-benign-breast-disease-and-breast-cancer",
@@ -213,7 +217,11 @@ export const gynaecologicalAndBreastOncology: CourseModule = {
         "Treatment is multimodal by stage and receptors — mastectomy or breast conservation with radiotherapy, sentinel node biopsy or axillary clearance, anthracycline–taxane chemotherapy, tamoxifen or aromatase inhibitors for receptor-positive disease, trastuzumab for HER2 — and cost, logistics and support groups are part of the plan.",
         "Nursing: pre-operative preparation and fertility counselling; drain and wound care, arm exercises from day one and lifelong protection of the arm after axillary surgery; anti-emetics, mouth care, contraception and the neutropenic fever emergency during chemotherapy; skin care in radiotherapy; endocrine adherence; fungating wound care; pain by the ladder; and shortening the delay that fear of mastectomy, spiritual explanations, herbal treatment, dismissive first contacts and cost impose.",
       ],
-      quiz: { keywords: ["ovarian","endometri","postmenopausal bleeding","vulv","hydatidiform","breast cancer","breast lump","breast examination","breast self","mastectomy","axillary","lymph node","lymphoedema","lymphatic system","body image","fungating","chemotherap","neutropen","cytotoxic","mastitis","nipple","painless breast lump","malignan","oestrogen","hot flush","anticipatory grief","advanced cancer","results mean she has cancer","staging of a cancer","not to tell their mother","cancer pain"] },
+      quiz: {
+        questionIds: ["NG-MOD-GYN-016", "NG-MOD-GYN-017"],
+        categories: ["maternal-newborn"],
+        keywords: ["ovarian","endometri","postmenopausal bleeding","vulv","hydatidiform","breast cancer","breast lump","breast examination","breast self","mastectomy","axillary","lymph node","lymphoedema","lymphatic system","body image","fungating","chemotherap","neutropen","cytotoxic","mastitis","nipple","painless breast lump","malignan","oestrogen","hot flush","anticipatory grief","advanced cancer","results mean she has cancer","staging of a cancer","not to tell their mother","cancer pain"]
+      },
     },
   ],
 };

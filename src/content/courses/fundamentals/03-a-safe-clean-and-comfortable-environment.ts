@@ -112,7 +112,11 @@ export const aSafeCleanAndComfortableEnvironment: CourseModule = {
         "Standard precautions apply to everyone: the five moments of hand hygiene, PPE chosen by task and removed gloves first, respiratory hygiene, safe linen and injection practice and sharps safety; contact, droplet and airborne precautions are added for known infections and protective isolation for the neutropenic.",
         "Equipment is cleaned before it is disinfected (0.5 per cent chlorine, fresh daily) or sterilised (autoclave 121 °C 15–20 min) to the level Spaulding assigns; waste is segregated at the bedside into black, yellow with sharps and brown; a needlestick is bled, washed, reported and covered by prophylaxis within 72 hours; and sepsis in a ward patient is recognised by the respiratory rate and treated within the hour.",
       ],
-      quiz: { keywords: ["admission","discharge planning","wristband","falls risk","falls prevention","preventing falls","assessing a fall","multifactorial nature of falls","bed rails","restraint and the least restrictive","least restrictive","fire safety","hazard","spill","managing a body fluid spill","hand hygiene","hand hygiene moments","five moments","alcohol hand rub","standard precautions","universal precautions","personal protective equipment","gloves","chain of infection","reservoir","portal of entry","health care waste","waste segregation","sharps","needlestick","needlestick prevention","sharps safety","transmission based","bed making","noise","workplace violence","manual handling","reporting an unsafe environment","fire safety in a health facility","hospital evacuation","call bell","footwear","property","discharge against medical advice","request to leave","teaching a patient before discharge","continuity of care","home circumstances and discharge","referral letter"] },
+      quiz: {
+        questionIds: ["NG-MOD-FUND-007", "NG-MOD-FUND-008"],
+        categories: ["fundamentals", "safety-infection-control"],
+        keywords: ["admission","discharge planning","wristband","falls risk","falls prevention","preventing falls","assessing a fall","multifactorial nature of falls","bed rails","restraint and the least restrictive","least restrictive","fire safety","hazard","spill","managing a body fluid spill","hand hygiene","hand hygiene moments","five moments","alcohol hand rub","standard precautions","universal precautions","personal protective equipment","gloves","chain of infection","reservoir","portal of entry","health care waste","waste segregation","sharps","needlestick","needlestick prevention","sharps safety","transmission based","bed making","noise","workplace violence","manual handling","reporting an unsafe environment","fire safety in a health facility","hospital evacuation","call bell","footwear","property","discharge against medical advice","request to leave","teaching a patient before discharge","continuity of care","home circumstances and discharge","referral letter"]
+      },
     },
     {
       slug: "personal-hygiene-comfort-and-sleep",
@@ -217,7 +221,11 @@ export const aSafeCleanAndComfortableEnvironment: CourseModule = {
         "Comfort is made of clean dry tight linen changed at once when wet, correct support of limbs, loose covers over the feet, a bed cradle for painful limbs, an occupied bed changed by rolling rather than dragging, and the habit of asking and believing the answer.",
         "Sleep cycles through NREM and REM every ninety minutes and is a treatment; on the ward it is destroyed by noise, light, pain, clock-driven observations and worry, and it is restored by clustering care, bedtime analgesia, a dark quiet ward, the patient's own routine and ten minutes of listening before any sedative, which in the older person is tomorrow's fall.",
       ],
-      quiz: { keywords: ["bed bath","oral care","mouth care","denture care","denture","eye care","perineal care","hair care","foot care","footwear and foot care","pressure area care","detecting early pressure damage","dark skin","sleep and rest","sleep advice","insomnia","linen","soiled linen","lice","scabies","dignity","oral health in older adults","toileting and dignity","front to back","soap","chaperone","cultural","religious","shea butter","dry skin","moisture","bathing","oral candidiasis"] },
+      quiz: {
+        questionIds: ["NG-MOD-FUND-007", "NG-MOD-FUND-018"],
+        categories: ["fundamentals"],
+        keywords: ["bed bath","oral care","mouth care","denture care","denture","eye care","perineal care","hair care","foot care","footwear and foot care","pressure area care","detecting early pressure damage","dark skin","sleep and rest","sleep advice","insomnia","linen","soiled linen","lice","scabies","dignity","oral health in older adults","toileting and dignity","front to back","soap","chaperone","cultural","religious","shea butter","dry skin","moisture","bathing","oral candidiasis"]
+      },
     },
   ],
 };

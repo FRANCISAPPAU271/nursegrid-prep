@@ -64,8 +64,9 @@ export const blood: CourseModule = {
         "Reaction drill: STOP the blood, saline open, call doctor + blood bank, recheck identity, vitals, samples.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP2-001"],
         keywords: ["blood", "plasma", "albumin", "haematocrit", "red cells", "haemoglobin", "erythropoietin", "iron", "B12", "folate", "anaemia", "sickle cell", "ABO", "transfusion", "crossmatch"],
-        categories: ["fundamentals", "medsurg"],
+        categories: ["fluid-electrolyte"],
       },
     },
     {
@@ -124,8 +125,9 @@ export const blood: CourseModule = {
         "Bleeding side: low platelets, raised INR/APTT; clotting side: D-dimers + symptoms; know each anticoagulant's antidote.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP2-002","NG-MOD-AP2-003"],
         keywords: ["white cells", "differential", "neutrophils", "lymphocytes", "eosinophils", "neutropenia", "platelets", "haemostasis", "fibrin", "thrombin", "vitamin K", "haemophilia", "DVT", "anticoagulant", "warfarin"],
-        categories: ["fundamentals", "medsurg"],
+        categories: ["fluid-electrolyte"],
       },
     },
   ],

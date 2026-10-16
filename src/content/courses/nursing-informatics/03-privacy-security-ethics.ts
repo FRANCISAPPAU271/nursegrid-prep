@@ -66,8 +66,9 @@ export const privacySecurityEthics: CourseModule = {
         "Minors/vulnerable: team + safeguarding only; document who knew and why.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INFO-008"],
         keywords: ["confidentiality", "need-to-know", "minimum necessary", "consent", "Act 843", "Data Protection", "Commission", "disclosure", "family", "break-glass", "screenshots", "minors", "safeguarding", "audit", "HIV"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
     {
@@ -130,8 +131,9 @@ export const privacySecurityEthics: CourseModule = {
         "Snooping: trails catch all; suspension/N&MC/dismissal — visit, don't snoop.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INFO-009","NG-MOD-INFO-010"],
         keywords: ["passwords", "MFA", "phishing", "ransomware", "social engineering", "USB", "WhatsApp", "breach", "contain", "notify", "snooping", "firewall", "lock", "lost device", "interview"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
   ],

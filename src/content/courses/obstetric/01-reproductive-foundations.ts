@@ -184,6 +184,8 @@ export const reproductiveFoundations: CourseModule = {
           "cycles run",
           "ovulation is most likely",
         ],
+        categories: ["health-promotion", "maternal-newborn"],
+        questionIds: ["NG-MOD-OBS-001", "NG-MOD-OBS-002"],
       },
     },
   ],

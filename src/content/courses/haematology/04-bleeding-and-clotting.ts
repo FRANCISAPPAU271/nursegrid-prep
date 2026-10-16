@@ -123,6 +123,8 @@ export const bleedingAndClotting: CourseModule = {
       ],
       quiz: {
         keywords: ["platelet","thrombocytopen","petechi","bruis","bleeding gums","bleeds from the gums","nosebleed","nose bleed","epistaxis","haemophil","factor ix","x linked","maternal uncle","swollen knee","desmopressin","vitamin k","aspirin","nsaid","non steroidal","warfarin","inr","fat malabsorption","clotting screen","coagulation","heparin","liver disease","black stool","black tarry","anticoagul","purpura","factor viii","haemarthrosis","von willebrand","tranexamic","fresh frozen plasma","dengue"],
+        categories: ["pediatrics", "med-surg"],
+        questionIds: ["NG-MOD-HAEM-009", "NG-MOD-HAEM-010"],
       },
     },
     {
@@ -235,6 +237,8 @@ export const bleedingAndClotting: CourseModule = {
       ],
       quiz: {
         keywords: ["haemorrhag","bleeding heavily","heavy bleeding","severe bleeding","blood loss","hypovolaem","tachycard","capillary refill","cross match","group and","pressure to","snake","20 minute","massive transfusion","units of stored blood","many units","several units","hypothermia","postpartum bleeding","postpartum haemorrhage","shock","impaled","ectopic","pulse of 122","road traffic","bleeding","tranexamic","antivenom","disseminated intravascular","clotting test","fibrinogen","o negative","large bore","direct pressure"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-HAEM-011"],
       },
     },
   ],

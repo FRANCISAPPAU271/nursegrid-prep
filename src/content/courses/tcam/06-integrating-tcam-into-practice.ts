@@ -66,6 +66,7 @@ export const integratingPractice: CourseModule = {
         "Harmful healer: safety first + treat + document + report — never send back.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCAM-018"],
         keywords: ["referral", "healer", "bridge", "feedback", "TBA", "pastor", "red", "flags", "mock", "visiting", "thanks", "dialogue", "escort", "outcomes", "trust"],
         categories: ["fundamentals"],
       },
@@ -130,6 +131,7 @@ export const integratingPractice: CourseModule = {
         "Incidents: FDA forms + book + handover; audit monthly — routine outlives you.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCAM-019"],
         keywords: ["Act", "595", "Council", "licence", "FDA", "adverse", "checklist", "admission", "discharge", "audit", "report", "channels", "scope", "policy", "integration"],
         categories: ["fundamentals"],
       },

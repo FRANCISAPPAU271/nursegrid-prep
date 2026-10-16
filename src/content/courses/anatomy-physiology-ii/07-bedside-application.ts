@@ -67,8 +67,9 @@ export const bedsideApplicationII: CourseModule = {
         "Resus check every shift: defib, suction, O₂, airway bag, drugs in date, access kit — signed, legal.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP2-019","NG-MOD-AP2-007"],
         keywords: ["vital signs", "respiratory rate", "SpO2", "blood pressure", "MAP", "NEWS2", "early warning", "ABCDE", "GCS", "urine output", "escalation", "SBAR", "resuscitation", "defibrillator", "handover"],
-        categories: ["fundamentals", "medsurg"],
+        categories: ["fluid-electrolyte"],
       },
     },
     {
@@ -125,8 +126,9 @@ export const bedsideApplicationII: CourseModule = {
         "Debrief the team, support the family, report honestly, rest deliberately — the capstone of A&P II.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP2-020","NG-MOD-AP2-008"],
         keywords: ["shock", "fluid challenge", "respiratory failure", "NIV", "AKI", "DKA", "coma", "cardiac arrest", "defibrillation", "adrenaline", "reversible causes", "ROSC", "DNAR", "ceilings of care", "debrief"],
-        categories: ["medsurg", "fundamentals"],
+        categories: ["fluid-electrolyte"],
       },
     },
   ],

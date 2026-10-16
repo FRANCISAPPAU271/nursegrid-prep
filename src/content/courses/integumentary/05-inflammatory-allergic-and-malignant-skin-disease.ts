@@ -110,6 +110,8 @@ export const inflammatoryAllergicAndMalignantSkinDisease: CourseModule = {
         "Pruritus without a rash: dry skin, scabies, onchocerciasis, kidney and liver failure, iron deficiency, thyroid disease, diabetes, HIV, lymphoma, polycythaemia and drugs — examine fully, investigate, treat the cause, emollients, cooling, no soap, night antihistamine for sleep; on dark skin read inflammation as darkening and warmth, and explain post-inflammatory pigment change so that patients do not bleach it.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INTEG-013", "NG-MOD-INTEG-014"],
+        categories: ["pediatrics", "med-surg"],
         keywords: ["eczema", "eczematous", "dermatitis", "atopic", "psoriasis", "urticaria", "itchy", "itching", "antihistamine", "chlorpheniramine", "lightening", "lighten", "thin skin", "visible vessels", "rounded face", "cushing", "steroid cream", "topical", "emollient", "soap", "acne", "keloid", "raised scar", "nail", "pruritus", "weeping", "dry skin", "moisturis", "hydrocortisone", "betamethasone", "clobetasol", "allerg", "latex", "herbal remedy", "the cream", "excoriat", "gloves", "hand hygiene"],
       },
     },
@@ -248,6 +250,8 @@ export const inflammatoryAllergicAndMalignantSkinDisease: CourseModule = {
         "Find the culprit with an 8-week drug timeline, never rechallenge the class, and document the allergy in red with an alert card and BlueForm.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INTEG-015", "NG-MOD-INTEG-016"],
+        categories: ["pharmacology-parenteral", "health-promotion"],
         keywords: ["anaphyla", "allerg", "penicillin", "adrenaline", "epinephrine", "stridor", "drug reaction", "adverse drug", "adverse reaction", "pharmacovigilance", "blue form", "rash and swelling", "widespread rash", "a rash", "vancomycin", "flushing", "red man", "cotrimoxazole", "nevirapine", "allopurinol", "carbamazepine", "stevens", "toxic epidermal", "blister", "mouth ulcer", "melanoma", "kaposi", "fungating", "albin", "sunlight", "skin cancer", "mole", "biopsy", "transfusion reaction", "urticaria", "angioedema", "hives", "wheeze", "scorten", "culprit drug", "rechallenge", "alert card", "drug allergy", "nikolsky"],
       },
     },

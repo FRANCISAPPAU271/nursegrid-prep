@@ -126,6 +126,8 @@ export const jointAndBoneDisease: CourseModule = {
       ],
       quiz: {
         keywords: ["osteoarthritis", "arthritis", "joint replacement", "hip replacement", "knee replacement", "arthroplasty", "walking aid", "walking stick", "crutch", "stairs", "hoist", "obes", "exercises", "physiotherap", "early mobilis", "mobility", "joint pain", "knee", "dislocat", "anti inflammatory", "big toe"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-MSK-012"],
       },
     },
     {
@@ -226,6 +228,8 @@ export const jointAndBoneDisease: CourseModule = {
       ],
       quiz: {
         keywords: ["rheumatoid", "gout", "uric", "purine", "lupus", "rheumatic", "joint pain", "stiff, swollen", "each morning", "methotrexate", "prednisolone", "corticosteroid", "long term steroid", "allopurinol", "colchicine", "nsaid", "diclofenac", "ibuprofen", "anti inflammatory", "autoimmune", "psoria", "big toe", "toe joint", "undulating", "brucell"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-MSK-013", "NG-MOD-MSK-014"],
       },
     },
     {
@@ -327,6 +331,8 @@ export const jointAndBoneDisease: CourseModule = {
       ],
       quiz: {
         keywords: ["osteoporosis", "osteomalacia", "rickets", "vitamin d", "calcium", "menopaus", "oestrogen", "bisphosphon", "bone pain", "pathological", "metasta", "dark skin", "fracture risk", "dexa", "bowed legs", "fat soluble", "parathyroid", "hypocalc", "hypercalc", "carpal", "thyroidectomy", "thyroid surgery", "breast cancer", "cancer pain", "long term steroid", "fortif", "bone health", "paget"],
+        categories: ["med-surg", "pharmacology-parenteral"],
+        questionIds: ["NG-MOD-MSK-010", "NG-MOD-MSK-018"],
       },
     },
   ],

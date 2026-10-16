@@ -73,8 +73,9 @@ export const nursingProfession: CourseModule = {
         "Purpose test for 'who' questions: public → NMC, nurse → GRNA — the exam trap, defused.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO1-001"],
         keywords: ["profession", "Nightingale", "Korle Bu", "NMC", "GRNA", "Act 857", "RGN", "midwife", "enrolled", "scope of practice", "CHPS", "regulator", "association", "accountability", "supervision"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
     {
@@ -136,8 +137,9 @@ export const nursingProfession: CourseModule = {
         "Tribunal: complaint → investigation → hearing → caution/conditions/suspension/erasure; honest records are exhibit A.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO1-002", "NG-MOD-PRO1-003"],
         keywords: ["NMC", "Act 857", "indexing", "accreditation", "licensure", "registration", "PIN", "renewal", "CPD", "verification", "fitness-to-practice", "tribunal", "erasure", "suspension", "unlicensed"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
   ],

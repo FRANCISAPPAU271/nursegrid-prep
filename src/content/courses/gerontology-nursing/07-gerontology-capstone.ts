@@ -65,8 +65,9 @@ export const gerontologyCapstone: CourseModule = {
         "Dying: surprise question → goals + ACP + comfort + checklist + debrief; 10-mark formula practised aloud.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-GERO-018", "NG-MOD-GERO-019"],
+        categories: ["gerontology-community", "safety-infection-control"],
         keywords: ["capstone", "scenarios", "baseline", "hunt", "formula", "anticoag", "incontinence", "refusal", "abuse", "dying", "distinction", "reasoning", "canvas", "goals", "family"],
-        categories: ["fundamentals"],
       },
     },
     {
@@ -137,8 +138,9 @@ export const gerontologyCapstone: CourseModule = {
         "Pledge signed + filed; project started within 30 days.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-GERO-020"],
+        categories: ["leadership-delegation"],
         keywords: ["QI project", "PDSA", "tricky points", "countdown", "STAR", "interviews", "pledge", "portfolio", "90 days", "distinction", "canvas", "run chart", "gerontology", "dignity", "momentum"],
-        categories: ["fundamentals"],
       },
     },
   ],

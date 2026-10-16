@@ -66,6 +66,7 @@ export const specialPopulations: CourseModule = {
         "Aphasia/confusion: yes-no + pictures + patience + reorient; assume intelligence.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCOM-013", "NG-MOD-TCOM-014"],
         keywords: ["children", "play", "teddy", "honesty", "choices", "teens", "privacy", "elders", "elderspeak", "deaf", "blind", "aphasia", "dementia", "adaptations", "triangulate"],
         categories: ["fundamentals"],
       },
@@ -130,6 +131,7 @@ export const specialPopulations: CourseModule = {
         "Psychosis/stigma: calm + needs + urgent refer; kind language; privacy fierce.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCOM-015"],
         keywords: ["interpreters", "languages", "cultural humility", "literacy", "teach-back", "pictures", "suicide", "self-harm", "psychosis", "stigma", "negotiate", "rituals", "Ewe", "Twi", "communal"],
         categories: ["fundamentals"],
       },

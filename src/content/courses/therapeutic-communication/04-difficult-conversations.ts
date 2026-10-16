@@ -66,6 +66,7 @@ export const difficultConversations: CourseModule = {
         "Strategy: realistic hope + written plan + red flags + debrief yourself.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCOM-010"],
         keywords: ["SPIKES", "Baile", "bad news", "warning shot", "perception", "invitation", "emotions", "strategy", "stayer", "euphemisms", "culture", "hope", "honesty", "debrief", "revisit"],
         categories: ["fundamentals"],
       },
@@ -130,6 +131,7 @@ export const difficultConversations: CourseModule = {
         "Candour: prompt honest disclosure + sorry + fix + prevent + document; cover-ups kill careers.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCOM-011", "NG-MOD-TCOM-012"],
         keywords: ["LEAP", "anger", "de-escalation", "grief", "Worden", "Kubler-Ross", "denial", "complaints", "HEAR", "candour", "sorry", "errors", "volume", "rituals", "follow-up"],
         categories: ["fundamentals"],
       },

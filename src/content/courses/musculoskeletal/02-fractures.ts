@@ -138,6 +138,8 @@ export const fractures: CourseModule = {
       ],
       quiz: {
         keywords: ["fractur", "splint", "tetanus", "crash", "road traffic", "motorcycle", "collision", "deformed", "bone set", "primary survey", "trauma", "severe bleeding", "laceration", "bleeding heavily", "pressure on the wound"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-MSK-001"],
       },
     },
     {
@@ -267,6 +269,8 @@ export const fractures: CourseModule = {
       ],
       quiz: {
         keywords: ["plaster", "in a cast", "forearm cast", "cast report", "newly applied", "tibia", "skeletal traction", "in traction", "traction pin", "pin site", "external fix", "femur", "immobilis", "crutch", "walking stick", "walking aid", "stairs", "orthopaed", "splint", "toes", "pulseless", "tightly", "bone set", "sores under", "bear weight", "sling"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-MSK-003", "NG-MOD-MSK-004", "NG-MOD-MSK-005"],
       },
     },
     {
@@ -400,6 +404,8 @@ export const fractures: CourseModule = {
       ],
       quiz: {
         keywords: ["compartment", "fat embol", "pulmonary embol", "deep vein", "dvt", "thrombo", "anti embolism", "stockings", "calf", "immobil", "bed rest", "bedridden", "bedbound", "bed bound", "pressure ulcer", "pressure area", "pressure injur", "pressure damage", "pressure sore", "shear", "reposition", "contracture", "range of motion", "mobilis", "non union", "wound infection", "osteomyelitis", "sacrum", "non blanching", "anticoagul", "warfarin", "heparin"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-MSK-006", "NG-MOD-MSK-007"],
       },
     },
   ],

@@ -66,8 +66,9 @@ export const behaviourChangeMotivation: CourseModule = {
         "Relapse = data: lapse→rescue kindly; cues anchor habits; ONE change per visit.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-BEH-014","NG-MOD-BEH-015"],
         keywords: ["HBM", "beliefs", "susceptibility", "severity", "barriers", "self-efficacy", "Bandura", "stages", "Prochaska", "precontemplation", "contemplation", "relapse", "ruler", "cues", "match"],
-        categories: ["fundamentals"],
+        categories: ["mental-health"],
       },
     },
     {
@@ -130,8 +131,9 @@ export const behaviourChangeMotivation: CourseModule = {
         "SMART: one goal + confidence ruler (shrink <7!) + review + praise, scold never.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-BEH-016"],
         keywords: ["MI", "PACE", "OARS", "DARN", "change talk", "sustain talk", "resistance", "righting reflex", "5As", "SMART", "ambivalence", "evoke", "affirm", "Miller", "goals"],
-        categories: ["fundamentals"],
+        categories: ["mental-health"],
       },
     },
   ],

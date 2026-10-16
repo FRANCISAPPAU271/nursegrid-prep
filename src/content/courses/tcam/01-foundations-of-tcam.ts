@@ -66,6 +66,7 @@ export const foundationsOfTcam: CourseModule = {
         "Fix orthodox gaps too: access + kindness + meaning keep patients.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCAM-001"],
         keywords: ["TCAM", "traditional", "complementary", "alternative", "integrative", "WHO", "pluralism", "interactions", "delays", "adherence", "KNUST", "Act 575", "silence", "meaning", "80%"],
         categories: ["fundamentals"],
       },
@@ -130,6 +131,7 @@ export const foundationsOfTcam: CourseModule = {
         "Quacks: secret + cure-all + no licence + forbids hospital → warn + report.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCAM-002","NG-MOD-TCAM-003"],
         keywords: ["Act 575", "TMPC", "FDA", "licence", "registration", "herbalists", "TBAs", "bone-setters", "spiritualists", "peddlers", "quacks", "labels", "integration", "referral", "pharmacopoeia"],
         categories: ["fundamentals"],
       },

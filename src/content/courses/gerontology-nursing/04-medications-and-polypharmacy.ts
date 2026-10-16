@@ -65,8 +65,9 @@ export const medicationsAndPolypharmacy: CourseModule = {
         "Triple whammy needs sick-day rules + monitoring + nurse-flagged review.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-GERO-009", "NG-MOD-GERO-010"],
+        categories: ["pharmacology-parenteral", "gerontology-community"],
         keywords: ["pharmacokinetics", "GFR", "eGFR", "Beers", "anticholinergic", "benzodiazepine", "NSAID", "sulfonylurea", "cascade", "triple whammy", "OTC", "herbal", "sensitivity", "hypo", "bleeding"],
-        categories: ["fundamentals"],
       },
     },
     {
@@ -135,8 +136,9 @@ export const medicationsAndPolypharmacy: CourseModule = {
         "Yearly meds MOT for 5+ drugs: bag + Beers + cascade + deprescribe-one + teach-back.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-GERO-011"],
+        categories: ["pharmacology-parenteral"],
         keywords: ["reconciliation", "brown bag", "adherence", "pill box", "DOT", "teach-back", "deprescribing", "taper", "withdrawal", "simplify", "diary", "MOT", "polypharmacy", "pharmacist", "Beers"],
-        categories: ["fundamentals"],
       },
     },
   ],

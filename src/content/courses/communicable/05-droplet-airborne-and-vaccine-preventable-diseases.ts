@@ -122,7 +122,11 @@ export const dropletAirborneAndVaccinePreventableDiseases: CourseModule = {
         "Pertussis needs azithromycin and apnoea watch in infants; diphtheria needs antitoxin and strict droplet isolation; Hib and pneumococcal disease have receded behind the Pentavalent and PCV; rubella threatens the first-trimester foetus; mumps and chickenpox need droplet or airborne precautions and have no vaccine in the schedule; each child's book is checked and the missed dose given at any contact.",
         "The EPI session runs on fixed routes and sites, true contraindications only (anaphylaxis, severe immunodeficiency for live vaccines, pregnancy for live vaccines), a cold chain of +2 to +8 °C with twice-daily readings, no freezing, conditioned ice packs and the vaccine vial monitor as the authority, the 28-day open-vial rule for liquid vaccines and the six-hour rule for reconstituted ones, an emergency tray with adrenaline 0.01 mL/kg of 1:1,000, reporting of every serious adverse event within 24 hours, honest coverage with drop-out below ten per cent, defaulter tracing and outreach — and vitamin A and deworming at the same visit.",
       ],
-      quiz: { keywords: ["meningitis","meningitis belt","meningococc","neck stiffness","cerebrospinal fluid appearance","lumbar puncture","bactericidal","ceftriaxone","photophobia","dry season","harmattan","measles","complications of measles","vitamin a","whooping cough","whoop","pneumococc","pentavalent","bcg","vaccin","immunis","epi schedule","herd immunity","herd protection","coverage","missed opportunities","dropout","defaulter tracing","vaccine vial","aefi","catch-up","outbreak response","displacement camp","transmission-based precautions","child with meningitis","non-blanching","epi catch-up and contraindications"] },
+      quiz: {
+        questionIds: ["NG-MOD-COMM-012", "NG-MOD-COMM-013", "NG-MOD-COMM-014"],
+        categories: ["safety-infection-control", "pediatrics"],
+        keywords: ["meningitis","meningitis belt","meningococc","neck stiffness","cerebrospinal fluid appearance","lumbar puncture","bactericidal","ceftriaxone","photophobia","dry season","harmattan","measles","complications of measles","vitamin a","whooping cough","whoop","pneumococc","pentavalent","bcg","vaccin","immunis","epi schedule","herd immunity","herd protection","coverage","missed opportunities","dropout","defaulter tracing","vaccine vial","aefi","catch-up","outbreak response","displacement camp","transmission-based precautions","child with meningitis","non-blanching","epi catch-up and contraindications"]
+      },
     },
     {
       slug: "influenza-covid-19-mpox-and-the-infections-of-droplets-and-air",
@@ -233,7 +237,11 @@ export const dropletAirborneAndVaccinePreventableDiseases: CourseModule = {
         "Respiratory infection control starts with triage, a mask and a ventilated respiratory corner for every cougher, respiratory hygiene with tissues and bins that exist, droplet precautions for the infections that fall and airborne precautions — a fit-checked N95, a ventilated or negative-pressure room — for tuberculosis, measles, chickenpox, avian influenza and every aerosol-generating procedure, with cross-ventilation as a treatment in itself.",
         "Hand hygiene at the five moments with alcohol rub by default, personal protective equipment put on and taken off in the correct order, limited and masked visitors, oxygen devices matched to the need with a target saturation and hourly readings, positioning as treatment, and a health worker who is vaccinated, fit-tested, screened for tuberculosis and sent home when she is ill are the system that the pandemic proved and that the next epidemic will test.",
       ],
-      quiz: { keywords: ["mpox","respiratory hygiene","airborne precautions","transmission-based precautions","isolation nursing","isolation and dignity","isolation and quarantine","quarantine","ventilation","pneumonia","community acquired pneumonia","contact tracing","occupational health","vaccination of staff","aerosol","bronchiolitis","fast breathing","chest indrawing","danger signs in the sick child","viral upper respiratory","runny nose","viral infection","lesions look the same age","swollen lymph nodes and a rash","crowded","overcrowd","same age","respiratory infection","hand hygiene","hospital linen","spillage","ward cleaning"] },
+      quiz: {
+        questionIds: ["NG-MOD-COMM-012", "NG-MOD-COMM-013"],
+        categories: ["safety-infection-control", "pediatrics"],
+        keywords: ["mpox","respiratory hygiene","airborne precautions","transmission-based precautions","isolation nursing","isolation and dignity","isolation and quarantine","quarantine","ventilation","pneumonia","community acquired pneumonia","contact tracing","occupational health","vaccination of staff","aerosol","bronchiolitis","fast breathing","chest indrawing","danger signs in the sick child","viral upper respiratory","runny nose","viral infection","lesions look the same age","swollen lymph nodes and a rash","crowded","overcrowd","same age","respiratory infection","hand hygiene","hospital linen","spillage","ward cleaning"]
+      },
     },
   ],
 };

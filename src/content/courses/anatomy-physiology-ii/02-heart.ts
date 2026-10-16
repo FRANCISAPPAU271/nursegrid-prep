@@ -65,8 +65,9 @@ export const heart: CourseModule = {
         "Irregular rhythm: full-minute apical count; pulse deficit = apical minus radial, counted simultaneously.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP2-004","NG-MOD-AP2-005"],
         keywords: ["heart", "mediastinum", "pericardium", "tamponade", "myocardium", "atrium", "ventricle", "tricuspid", "mitral", "aortic valve", "S1", "S2", "murmur", "coronary", "apical pulse"],
-        categories: ["fundamentals", "medsurg"],
+        categories: ["fluid-electrolyte"],
       },
     },
     {
@@ -126,8 +127,9 @@ export const heart: CourseModule = {
         "Left failure: lungs (crackles, orthopnoea, froth); right failure: body (JVP, oedema, liver); chest pain: ECG in 10 min.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP2-006"],
         keywords: ["SA node", "AV node", "Purkinje", "ECG", "P wave", "QRS", "ST elevation", "fibrillation", "cardiac cycle", "stroke volume", "ejection fraction", "cardiac output", "preload", "afterload", "heart failure"],
-        categories: ["medsurg", "fundamentals"],
+        categories: ["fluid-electrolyte"],
       },
     },
   ],

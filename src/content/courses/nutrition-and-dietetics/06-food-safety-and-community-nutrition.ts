@@ -72,8 +72,9 @@ export const foodSafetyAndCommunityNutrition: CourseModule = {
         "Document counsel/demos; log detects as CPD/QI; funerals need bulk-cooking keys.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-NUTR-017"],
+        categories: ["safety-infection-control"],
         keywords: ["food safety", "5 keys", "danger zone", "diarrhoea", "typhoid", "cholera", "IDSR", "aflatoxin", "vendors", "water chain", "ORS", "outbreak", "hygiene", "leftovers", "notify"],
-        categories: ["fundamentals"],
       },
     },
     {
@@ -142,8 +143,9 @@ export const foodSafetyAndCommunityNutrition: CourseModule = {
         "Partners convened quarterly; outreaches logged as CPD/QI/portfolio crowns.",
       ],
       quiz: {
-        keywords: ["CWC", "outreach", "defaulters", "seasonal", "hungry season", "gardens", "demos", "koko", "school feeding", "DHIMS", "tracing", "partners", "chiefs", "campaigns", "retention"],
+        questionIds: ["NG-MOD-NUTR-018"],
         categories: ["fundamentals"],
+        keywords: ["CWC", "outreach", "defaulters", "seasonal", "hungry season", "gardens", "demos", "koko", "school feeding", "DHIMS", "tracing", "partners", "chiefs", "campaigns", "retention"],
       },
     },
   ],

@@ -72,8 +72,9 @@ export const psychosocialAbuseAndEndOfLife: CourseModule = {
         "Money talk early; bad news SPIKES-style; elder's voice opens everything.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-GERO-013"],
+        categories: ["leadership-delegation"],
         keywords: ["loneliness", "social prescribing", "family meeting", "caregiver", "burden", "respite", "Zarit", "grief", "widowhood", "rituals", "autonomy", "SPIKES", "conflict", "support map", "CHPS"],
-        categories: ["fundamentals"],
       },
     },
     {
@@ -142,8 +143,9 @@ export const psychosocialAbuseAndEndOfLife: CourseModule = {
         "Good-death checklist + after-death protocol + debriefs; never discharge to danger.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-GERO-012", "NG-MOD-GERO-014"],
+        categories: ["gerontology-community"],
         keywords: ["elder abuse", "DOVVSU", "Welfare", "neglect", "financial abuse", "body map", "witchcraft", "surprise question", "advance care", "DNAR", "palliative", "good death", "grief", "debrief", "protection"],
-        categories: ["fundamentals"],
       },
     },
   ],

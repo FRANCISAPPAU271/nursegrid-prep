@@ -118,7 +118,11 @@ export const gynaecologicalSurgerySgbvAndMensHealth: CourseModule = {
         "Ovaries conserved means no surgical menopause; oophorectomy under 50 means oestrogen-only replacement to at least the natural age of menopause unless contraindicated; sexual function survives hysterectomy and often improves; myomectomy means contraception for 6–12 months and a hospital birth; grief for the uterus is real and myths are corrected with the partner present when she wishes.",
         "Drug essentials: misoprostol 200 microgram tablets (600 oral or 400 sublingual for incomplete miscarriage, 800 for missed miscarriage and abortion after mifepristone 200 mg); tranexamic acid 1 g; iron continued 3 months after recovery; anti-D within 72 hours for the rhesus-negative woman; methotrexate 50 mg/m² with cytotoxic precautions and hCG follow-up; GnRH analogues for up to 6 months; letrozole or clomifene with a pregnancy test before each course; benzathine penicillin 2.4 million units; ceftriaxone, doxycycline, azithromycin and metronidazole with their cautions; DMPA 150 mg 13-weekly and levonorgestrel 1.5 mg.",
       ],
-      quiz: { keywords: ["hysterectom","consent for","informed consent","pre-operative","post-operative","nil by mouth","clear fluids","fasting instruction","deep vein","thrombosis","early mobilisation","urinary retention","urinary catheter","surgical site","antibiotic prophylaxis","metronidazole","oral contraceptive","enzyme induction","pharmacovigilance","adverse drug reaction","analgesic ladder","morphine","wound swab","healing by second intention","sterile field","sterile drape","swab count","colporrhaphy","leuprolide","progestogen","injectable volume","reconstitut","closed suction drain","bowel function is returning","fever on the first day","day after abdominal surgery","shoulder tip pain after laparoscopic","husband insists","cyst removed"] },
+      quiz: {
+        questionIds: ["NG-MOD-GYN-018", "NG-MOD-GYN-019"],
+        categories: ["pharmacology-parenteral", "maternal-newborn"],
+        keywords: ["hysterectom","consent for","informed consent","pre-operative","post-operative","nil by mouth","clear fluids","fasting instruction","deep vein","thrombosis","early mobilisation","urinary retention","urinary catheter","surgical site","antibiotic prophylaxis","metronidazole","oral contraceptive","enzyme induction","pharmacovigilance","adverse drug reaction","analgesic ladder","morphine","wound swab","healing by second intention","sterile field","sterile drape","swab count","colporrhaphy","leuprolide","progestogen","injectable volume","reconstitut","closed suction drain","bowel function is returning","fever on the first day","day after abdominal surgery","shoulder tip pain after laparoscopic","husband insists","cyst removed"]
+      },
     },
     {
       slug: "sexual-and-gender-based-violence-female-genital-mutilation-and-adolescent-sexual-health",
@@ -227,7 +231,11 @@ export const gynaecologicalSurgerySgbvAndMensHealth: CourseModule = {
         "Adolescent-friendly services are reachable, confidential, non-judgemental, affordable and staffed by willing providers; explain confidentiality limits before disclosure, screen with HEEADSSS, offer dual protection with implants, injectables or pills plus condoms, emergency contraception, STI care, HIV testing and PrEP, HPV vaccination and mental health support, and include boys; comprehensive sexuality education is primary prevention.",
         "Document violence and abuse contemporaneously — her words, a body map, photographs with consent, samples and their handover, treatment and referrals — assess immediate danger and make a safety plan, refer under Act 732, follow up within a week, and never send a survivor away untreated, promise a child secrecy, or perform any genital cutting.",
       ],
-      quiz: { keywords: ["violence","gender-based","assault","abuse","confidentiality with an adolescent","adolescent confidentiality","adolescent","16-year-old","15-year-old","17-year-old","14-year-old","teenage","genital mutilation","genital cutting","female genital","post-exposure","emergency contracep","self-harm","preserving evidence","police","stigma","sexual","injuries inconsistent","husband beats","fearful","antenatal clinic alone","bruising on her upper arms","injuries at different stages","do not match the explanation","legal capacity","14-year-old refuses","therapeutic communication","not to tell her mother","not to tell her parents","told to her mother"] },
+      quiz: {
+        questionIds: ["NG-MOD-GYN-020"],
+        categories: ["leadership-delegation"],
+        keywords: ["violence","gender-based","assault","abuse","confidentiality with an adolescent","adolescent confidentiality","adolescent","16-year-old","15-year-old","17-year-old","14-year-old","teenage","genital mutilation","genital cutting","female genital","post-exposure","emergency contracep","self-harm","preserving evidence","police","stigma","sexual","injuries inconsistent","husband beats","fearful","antenatal clinic alone","bruising on her upper arms","injuries at different stages","do not match the explanation","legal capacity","14-year-old refuses","therapeutic communication","not to tell her mother","not to tell her parents","told to her mother"]
+      },
     },
     {
       slug: "mens-sexual-and-reproductive-health-prostate-testis-and-sexual-dysfunction",
@@ -338,7 +346,11 @@ export const gynaecologicalSurgerySgbvAndMensHealth: CourseModule = {
         "Erectile dysfunction is a vascular warning sign and a window on diabetes, hypertension, drugs, hypogonadism and depression; manage causes and offer sildenafil or tadalafil — never with nitrates, caution with alpha-blockers, priapism beyond four hours is an emergency; premature ejaculation responds to behavioural methods, SSRIs and anxiety treatment; roadside aphrodisiacs are often adulterated with sildenafil and are dangerous with nitrates.",
         "Male circumcision by trained providers is safe, needs simple wound care, and reduces HIV acquisition by about 60 per cent; paraphimosis and post-gonococcal urethral stricture need urgent and specialist care; and male involvement in family planning, infertility, STI control and violence prevention is engagement without control — the man as partner and client, never as the gatekeeper of a woman's care.",
       ],
-      quiz: { keywords: ["prostate","testic","scrotal","scrotum","hydrocele","epididym","bladder irrigation","irrigation","clot retention","trial without catheter","urinary catheter","catheterising a male","foreskin","retained urine","drained gradually","urinary retention","male urinary","semen","sperm","vasectomy","male infertility","klinefelter","tall young man","young ghanaian man","testicular self","enlarged prostate","prostatic urethra","groin swelling","scrotal swelling","torsion","not passed urine","declines hiv testing","poor urinary stream","nitrate"] },
+      quiz: {
+        questionIds: ["NG-MOD-GYN-010"],
+        categories: ["maternal-newborn"],
+        keywords: ["prostate","testic","scrotal","scrotum","hydrocele","epididym","bladder irrigation","irrigation","clot retention","trial without catheter","urinary catheter","catheterising a male","foreskin","retained urine","drained gradually","urinary retention","male urinary","semen","sperm","vasectomy","male infertility","klinefelter","tall young man","young ghanaian man","testicular self","enlarged prostate","prostatic urethra","groin swelling","scrotal swelling","torsion","not passed urine","declines hiv testing","poor urinary stream","nitrate"]
+      },
     },
   ],
 };

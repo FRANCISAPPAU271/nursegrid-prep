@@ -66,6 +66,7 @@ export const foundationsOfTherapeuticCommunication: CourseModule = {
         "Flags: false reassurance, advice, judging, subject-change, defending, probing — eliminate first.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCOM-001", "NG-MOD-TCOM-002"],
         keywords: ["therapeutic", "Peplau", "orientation", "working", "termination", "roles", "empathy", "sympathy", "trust", "false reassurance", "advice", "judging", "goals", "stranger", "counsellor"],
         categories: ["fundamentals"],
       },
@@ -130,6 +131,7 @@ export const foundationsOfTherapeuticCommunication: CourseModule = {
         "Ghana: 80+ languages, communal decisions, spiritual framing, elder hierarchy — exam gold.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCOM-003"],
         keywords: ["barriers", "builders", "non-verbal", "congruence", "jargon", "literacy", "teach-back", "touch", "consent", "languages", "interpreters", "communal", "spiritual", "chair", "privacy"],
         categories: ["fundamentals"],
       },

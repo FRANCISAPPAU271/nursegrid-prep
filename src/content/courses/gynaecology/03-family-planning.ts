@@ -132,7 +132,11 @@ export const familyPlanningInDepth: CourseModule = {
         "Progestogen-only pill within 3 hours daily (12 for desogestrel) with 2 days' back-up if late; DMPA 150 mg IM or DMPA-SC 104 mg (self-injection) every 13 weeks with 4 weeks' grace, NET-EN every 8 weeks — do not massage, expect irregular bleeding then amenorrhoea, fertility returns in up to a year, bone caution under 18 and over 45.",
         "Emergency contraception is not abortion: levonorgestrel 1.5 mg best within 24 hours and to 72–120 hours (double dose with enzyme inducers or over 70 kg), ulipristal 30 mg to 120 hours, copper IUD within 5 days the most effective; quick-start an ongoing method the same day; manage bleeding complaints with explanation and simple treatment so that the method is kept.",
       ],
-      quiz: { keywords: ["family planning","contracept","condom","dual protection","oral contraceptive","rifampicin","enzyme induction","lactational","postpartum family","emergency contracep","intercourse","cervical mucus","basal body","natural family","ovulation timing","adolescent confidentiality","16-year-old","sexually active","undecided","rumour","infertility","self-efficacy","adolescent-friendly","adolescent sexual","teenage pregnancy","six-week check","cannot conceive while breastfeeding","levels of prevention","informed","cures diabetes","perceived susceptibility","exclusive breastfeeding is the healthiest"] },
+      quiz: {
+        questionIds: ["NG-MOD-GYN-006", "NG-MOD-GYN-007"],
+        categories: ["pharmacology-parenteral", "maternal-newborn"],
+        keywords: ["family planning","contracept","condom","dual protection","oral contraceptive","rifampicin","enzyme induction","lactational","postpartum family","emergency contracep","intercourse","cervical mucus","basal body","natural family","ovulation timing","adolescent confidentiality","16-year-old","sexually active","undecided","rumour","infertility","self-efficacy","adolescent-friendly","adolescent sexual","teenage pregnancy","six-week check","cannot conceive while breastfeeding","levels of prevention","informed","cures diabetes","perceived susceptibility","exclusive breastfeeding is the healthiest"]
+      },
     },
     {
       slug: "implants-intrauterine-devices-and-permanent-methods",
@@ -254,7 +258,11 @@ export const familyPlanningInDepth: CourseModule = {
         "Sterilisation consent is the client's own, informed that the method is permanent and that equally effective reversible methods exist, obtained by the operator on the national form in her language, never in labour, under sedation or on the table, and never dependent on a spouse's agreement or a provider's judgement about family size.",
         "Stock cards, monthly requisitions from average consumption (maximum three months, reorder at one and a half), first-expiry first-out, dry locked storage, the family planning register and DHIMS2 reporting keep methods on the shelf; adverse events and suspected faulty products go to the FDA on the Blue Form or SafetyWatch within 7 days when serious.",
       ],
-      quiz: { keywords: ["implant","injectable","progestogen","spotting","permanent method","vasectomy","husband has not consented","family planning","contracept","pelvic inflammatory","ectopic","fallopian","semen","sperm","irregular spotting","bleeding pattern","six-week","postpartum family","rifampicin","enzyme induction","bone health","consent for","legal capacity","undecided","dual protection","condom","adolescent confidentiality","husband insists","signed a consent form"] },
+      quiz: {
+        questionIds: ["NG-MOD-GYN-008"],
+        categories: ["maternal-newborn"],
+        keywords: ["implant","injectable","progestogen","spotting","permanent method","vasectomy","husband has not consented","family planning","contracept","pelvic inflammatory","ectopic","fallopian","semen","sperm","irregular spotting","bleeding pattern","six-week","postpartum family","rifampicin","enzyme induction","bone health","consent for","legal capacity","undecided","dual protection","condom","adolescent confidentiality","husband insists","signed a consent form"]
+      },
     },
   ],
 };

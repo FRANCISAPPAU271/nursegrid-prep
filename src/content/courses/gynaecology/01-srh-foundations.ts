@@ -131,7 +131,11 @@ export const sexualAndReproductiveHealthFoundations: CourseModule = {
         "Framework: National Reproductive Health Service Policy and Standards; family planning in the NHIS benefit package since January 2022; single-dose HPV vaccine routine since October 2025; Act 29 section 58 (abortion grounds), Act 732 (domestic violence), Act 484/741 (female genital mutilation), Act 560 (marriage at 18), defilement under 16, consent to treatment at 18.",
         "The nurse is counsellor, provider, screener, educator, advocate, recorder and referral link; at every contact ask about the last menstrual period, the need for contraception, cervical screening status and safety at home — and examine your own provider bias.",
       ],
-      quiz: { keywords: ["reproductive health","reproductive","puberty","menstrual cycle","corpus luteum","ovulation","sex determination","sex selection","turner","klinefelter","levels of prevention","determinants","maternal death","maternal mortality","incidence","prevalence","adolescent sexual","adolescent-friendly","family planning counselling","gender-based","female genital","sexually active","cervical cancer prevention","cervical screening in ghana","placental hormone","spermatogenesis","scrotum","male reproductive","hormone receptor","pituitary","in vitro","genetic counselling"] },
+      quiz: {
+        questionIds: ["NG-MOD-GYN-002"],
+        categories: ["maternal-newborn"],
+        keywords: ["reproductive health","reproductive","puberty","menstrual cycle","corpus luteum","ovulation","sex determination","sex selection","turner","klinefelter","levels of prevention","determinants","maternal death","maternal mortality","incidence","prevalence","adolescent sexual","adolescent-friendly","family planning counselling","gender-based","female genital","sexually active","cervical cancer prevention","cervical screening in ghana","placental hormone","spermatogenesis","scrotum","male reproductive","hormone receptor","pituitary","in vitro","genetic counselling"]
+      },
     },
     {
       slug: "gynaecological-history-examination-and-investigations",
@@ -257,7 +261,11 @@ export const sexualAndReproductiveHealthFoundations: CourseModule = {
         "Hormones are timed — FSH, LH, oestradiol and prolactin on day 2–5, mid-luteal progesterone seven days before the expected period; ultrasound is the first imaging; hysterosalpingography is done on day 7–10 after a negative pregnancy test; pipelle sampling investigates post-menopausal bleeding; laparoscopy sees and treats the pelvis.",
         "Red flags leave with a plan: possible ectopic, post-menopausal or post-coital bleeding, severe anaemia, pelvic sepsis, suspected torsion, a breast lump, continuous urinary leakage, injuries that do not match the story, and any pregnant or sexually active girl under 16.",
       ],
-      quiz: { keywords: ["vaginal examination","chaperone","dignity","vulval","cervical smear","midstream","urine specimen","pregnancy test","hcg","breast examination","breast lump","testicular self","last menstrual period","naegele","menstrual cycle phases","menstruating","woman of","something coming down","postmenopausal bleeding","pelvic inflammatory disease","lower abdominal pain","refuses a vaginal","confidentiality with an adolescent","examines a patient's abdomen","bruising on her upper arms","frightened","wound swab","transport medium"] },
+      quiz: {
+        questionIds: ["NG-MOD-GYN-001"],
+        categories: ["maternal-newborn"],
+        keywords: ["vaginal examination","chaperone","dignity","vulval","cervical smear","midstream","urine specimen","pregnancy test","hcg","breast examination","breast lump","testicular self","last menstrual period","naegele","menstrual cycle phases","menstruating","woman of","something coming down","postmenopausal bleeding","pelvic inflammatory disease","lower abdominal pain","refuses a vaginal","confidentiality with an adolescent","examines a patient's abdomen","bruising on her upper arms","frightened","wound swab","transport medium"]
+      },
     },
   ],
 };

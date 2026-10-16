@@ -130,7 +130,11 @@ export const malariaAndVectorBorneDiseases: CourseModule = {
         "Malaria in pregnancy causes anaemia, miscarriage, stillbirth and low birth weight; IPTp-SP is three tablets observed at each contact from 16 weeks, monthly, at least three doses, not in the first trimester or with cotrimoxazole; every pregnant woman gets a net, every fever a test, and severe malaria artesunate in any trimester.",
         "Prevention rests on nets used every night by everyone, indoor residual spraying in selected districts, larval source management, seasonal malaria chemoprevention with SP plus amodiaquine for children 3–59 months in the north, the malaria vaccine at 6, 7, 9 and 18 months, chemoprophylaxis for sickle cell disease and travellers, community case management within 24 hours of fever, and reporting every treatment failure.",
       ],
-      quiz: { keywords: ["malaria","severe malaria","artesunate","artemether","artemisinin","amodiaquine","lumefantrine","quinine","rapid diagnostic","parasit","plasmodium","malaria parasitology","intermittent preventive","sulfadoxine","insecticide","treated net","bed net","vector control","anaemia in pregnancy","hypoglycaemia in","g6pd","danger signs in the sick child","imci","antimalarial","weight-based dosing","paediatric weight-based","convulsing with a high fever","transfusion in chronic anaemia","classifying anaemia","severe anaemia"] },
+      quiz: {
+        questionIds: ["NG-MOD-COMM-003", "NG-MOD-COMM-004"],
+        categories: ["pharmacology-parenteral", "med-surg"],
+        keywords: ["malaria","severe malaria","artesunate","artemether","artemisinin","amodiaquine","lumefantrine","quinine","rapid diagnostic","parasit","plasmodium","malaria parasitology","intermittent preventive","sulfadoxine","insecticide","treated net","bed net","vector control","anaemia in pregnancy","hypoglycaemia in","g6pd","danger signs in the sick child","imci","antimalarial","weight-based dosing","paediatric weight-based","convulsing with a high fever","transfusion in chronic anaemia","classifying anaemia","severe anaemia"]
+      },
     },
     {
       slug: "yellow-fever-dengue-filariasis-onchocerciasis-and-vector-control",
@@ -237,7 +241,11 @@ export const malariaAndVectorBorneDiseases: CourseModule = {
         "Mass drug administration doses by height pole — ivermectin 1 to 4 tablets from 90 cm, albendazole 400 mg, praziquantel about 40 mg/kg after food — excludes children under 90 cm or five years for ivermectin, pregnant women and the severely ill, observes every swallow, warns of the Mazzotti reaction and treats it with rest, fluids, paracetamol and an antihistamine, and needs coverage of 65 per cent (filariasis), 80 per cent (onchocerciasis) and 75 per cent of school children (schistosomiasis) every round.",
         "Integrated vector management matches the method to the vector — environmental management of breeding sites, larvicides, indoor residual spraying, nets, biological control, personal protection and community participation — and the nurse's home visit finds the uncovered drum, the tyre and the folded net and agrees one change with the person who decides.",
       ],
-      quiz: { keywords: ["yellow fever","aedes","aedes breeding","mosquito","breeding site","lymphatic filariasis","lymphoedema","hydrocele","filaria","onchocerciasis","mass drug administration","mass drug","trypanosomiasis","sleeping sickness","vector control","vector control at source","vector control at household","insecticide","breeding","vectors and local disease transmission","vector","travel","evaluating a programme","neglected tropical","stigma in neglected","endemic","immediately notifiable","mosquito responsible","water storage","containers","tyres","gutter","drainage"] },
+      quiz: {
+        questionIds: ["NG-MOD-COMM-005"],
+        categories: ["med-surg"],
+        keywords: ["yellow fever","aedes","aedes breeding","mosquito","breeding site","lymphatic filariasis","lymphoedema","hydrocele","filaria","onchocerciasis","mass drug administration","mass drug","trypanosomiasis","sleeping sickness","vector control","vector control at source","vector control at household","insecticide","breeding","vectors and local disease transmission","vector","travel","evaluating a programme","neglected tropical","stigma in neglected","endemic","immediately notifiable","mosquito responsible","water storage","containers","tyres","gutter","drainage"]
+      },
     },
   ],
 };

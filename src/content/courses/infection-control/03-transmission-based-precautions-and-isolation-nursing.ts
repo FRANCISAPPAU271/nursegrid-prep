@@ -110,7 +110,11 @@ export const transmissionBasedPrecautionsAndIsolationNursing: CourseModule = {
         "Protective isolation for the neutropenic patient reverses the direction of risk: hand hygiene before entry, no ill visitors, no flowers or raw food, no rectal procedures, and fever of 38 °C treated as sepsis within the hour.",
         "Isolation separates the ill patient while infectious; quarantine restricts the well but exposed contact for one incubation period; contact tracing connects the two and depends on confidentiality.",
       ],
-      quiz: { keywords: ["transmission based precautions","airborne precautions","contact precautions","negative pressure","tuberculosis infection control","tuberculosis risk to staff","screening for tuberculosis","sputum for tuberculosis","isolation nursing","isolation","single room","mrsa","measles","chickenpox","scabies","ringworm","childhood tuberculosis","tuberculosis treatment adherence","pulmonary tuberculosis","smear positive","meningococc","c difficile","contact screening","genexpert","household contacts","productive cough","night sweats","open ward","suspected meningococcal","nursed in isolation","transported","crowded","overcrowd","directly observed","antituberculous","rifampicin","isoniazid","pyridoxine","ethambutol"] },
+      quiz: {
+        keywords: ["transmission based precautions","airborne precautions","contact precautions","negative pressure","tuberculosis infection control","tuberculosis risk to staff","screening for tuberculosis","sputum for tuberculosis","isolation nursing","isolation","single room","mrsa","measles","chickenpox","scabies","ringworm","childhood tuberculosis","tuberculosis treatment adherence","pulmonary tuberculosis","smear positive","meningococc","c difficile","contact screening","genexpert","household contacts","productive cough","night sweats","open ward","suspected meningococcal","nursed in isolation","transported","crowded","overcrowd","directly observed","antituberculous","rifampicin","isoniazid","pyridoxine","ethambutol"],
+        categories: ["safety-infection-control"],
+        questionIds: ["NG-MOD-IPC-005", "NG-MOD-IPC-006"],
+      },
     },
     {
       slug: "multidrug-resistant-organisms",
@@ -183,6 +187,8 @@ export const transmissionBasedPrecautionsAndIsolationNursing: CourseModule = {
       ],
       quiz: {
         keywords: ["mrsa", "meticillin", "vre", "vancomycin resistant", "esbl", "extended spectrum", "carbapenem", "acinetobacter", "pseudomonas", "c difficile", "clostridioides", "colonisation", "decolonisation", "mupirocin", "chlorhexidine bathing", "screening swab", "contact precautions", "stewardship", "resistant organism"],
+        categories: ["safety-infection-control"],
+        questionIds: ["NG-MOD-IPC-007"],
       },
     },
     {
@@ -279,7 +285,11 @@ export const transmissionBasedPrecautionsAndIsolationNursing: CourseModule = {
         "Terminal cleaning removes disposables, linen and waste, decontaminates dedicated equipment, and cleans then disinfects every surface high to low with detergent and 0.1 per cent chlorine (0.5 per cent for spills, C. difficile, norovirus and VHF), with the mattress cover checked and the clean recorded.",
         "Care after death uses standard precautions with leaks contained and a hazard-labelled body bag; the family may view and rites are accommodated — except for viral haemorrhagic fever and cholera, where trained teams and safe, dignified burial are required; bodies after a disaster do not cause epidemics.",
       ],
-      quiz: { keywords: ["discrimination in care","nursed in isolation","isolation and dignity","isolation and quarantine","quarantine","contact tracing","visitors","dead body","care of the deceased","mortuary","last offices","stigma","side room","psychological","neutropenia","neutrophil","fever in the neutropenic","neutropenia and infection risk","chemotherapy side effects","leukaemia and neutropenia","on chemotherapy","receiving chemotherapy","feels like a prisoner","staff avoid","communicable","incubation period","well family member","close contact","bloodborne infection has died","traditional rites","religious rites","bereaved","care after death","weeping","lesion on her hand","nurse in ghana develops chickenpox","implication for her work","internalised stigma","deserves it","label a patient","red sticker","language and labelling","leprosy","buruli","hiv status"] },
+      quiz: {
+        keywords: ["discrimination in care","nursed in isolation","isolation and dignity","isolation and quarantine","quarantine","contact tracing","visitors","dead body","care of the deceased","mortuary","last offices","stigma","side room","psychological","neutropenia","neutrophil","fever in the neutropenic","neutropenia and infection risk","chemotherapy side effects","leukaemia and neutropenia","on chemotherapy","receiving chemotherapy","feels like a prisoner","staff avoid","communicable","incubation period","well family member","close contact","bloodborne infection has died","traditional rites","religious rites","bereaved","care after death","weeping","lesion on her hand","nurse in ghana develops chickenpox","implication for her work","internalised stigma","deserves it","label a patient","red sticker","language and labelling","leprosy","buruli","hiv status"],
+        categories: ["safety-infection-control"],
+        questionIds: ["NG-MOD-IPC-007"],
+      },
     },
     {
       slug: "high-consequence-infections-cholera-viral-haemorrhagic-fever-measles-meningitis-and-the-notifiable-list",
@@ -386,7 +396,11 @@ export const transmissionBasedPrecautionsAndIsolationNursing: CourseModule = {
         "Immediately notifiable under IDSR: cholera, viral haemorrhagic fever, measles, meningitis, yellow fever, acute flaccid paralysis, neonatal tetanus, guinea worm, human rabies, anthrax, plague, novel respiratory infections, maternal death and any unusual cluster — on a single suspected case, without laboratory confirmation.",
         "Health workers are infected before anyone suspects: the two screening questions at the gate and standard precautions for every febrile patient are what keep the outbreak at one case.",
       ],
-      quiz: { keywords: ["spasms triggered","plan c","severely dehydrated","vitamin a supplementation and measles","stray dog","ebola","lassa","viral haemorrhagic fever","haemorrhagic fever","cholera","cholera treatment centre","rehydration in cholera","stool specimen in cholera","acid base disturbance in cholera","fluid and diet in cholera recovery","measles in emergencies","complications of measles","meningitis","meningitis belt","typhoid","shigellosis","hepatitis a","rabies","tetanus","neonatal tetanus","yellow fever","mpox","rice water","zinc","oral rehydration","lumbar puncture","guinea worm","funeral","burial","amoebiasis","profuse watery","watery stool","bloody diarrhoea","harmattan","neck stiffness","photophobia","jaw stiffness","darkened","ciprofloxacin","ceftriaxone","benzylpenicillin","0.5 mg","faeces","faecal"] },
+      quiz: {
+        keywords: ["spasms triggered","plan c","severely dehydrated","vitamin a supplementation and measles","stray dog","ebola","lassa","viral haemorrhagic fever","haemorrhagic fever","cholera","cholera treatment centre","rehydration in cholera","stool specimen in cholera","acid base disturbance in cholera","fluid and diet in cholera recovery","measles in emergencies","complications of measles","meningitis","meningitis belt","typhoid","shigellosis","hepatitis a","rabies","tetanus","neonatal tetanus","yellow fever","mpox","rice water","zinc","oral rehydration","lumbar puncture","guinea worm","funeral","burial","amoebiasis","profuse watery","watery stool","bloody diarrhoea","harmattan","neck stiffness","photophobia","jaw stiffness","darkened","ciprofloxacin","ceftriaxone","benzylpenicillin","0.5 mg","faeces","faecal"],
+        categories: ["safety-infection-control"],
+        questionIds: ["NG-MOD-IPC-008"],
+      },
     },
   ],
 };

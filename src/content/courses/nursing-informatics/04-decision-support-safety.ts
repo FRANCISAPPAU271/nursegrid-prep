@@ -66,8 +66,9 @@ export const decisionSupportSafety: CourseModule = {
         "Mantra: read it, scan it, verify it — then give it.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INFO-011","NG-MOD-INFO-012"],
         keywords: ["CDSS", "alerts", "reminders", "order sets", "calculators", "alert fatigue", "override", "BCMA", "bar-code", "workarounds", "smart pumps", "automation bias", "double-check", "sepsis", "bundles"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
     {
@@ -130,8 +131,9 @@ export const decisionSupportSafety: CourseModule = {
         "Limits: no hands/eyes-on; in-person when unsure; emergencies to facilities.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INFO-013","NG-MOD-INFO-014"],
         keywords: ["telehealth", "telemedicine", "mHealth", "SMS", "store-and-forward", "remote monitoring", "virtual", "safety-netting", "escalation", "wearables", "hotlines", "equity", "digital divide", "documentation", "red flags"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
   ],

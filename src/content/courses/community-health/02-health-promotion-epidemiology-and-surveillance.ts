@@ -117,7 +117,11 @@ export const healthPromotionEpidemiologyAndSurveillance: CourseModule = {
         "Stigma and discrimination around HIV, TB, epilepsy, mental illness, leprosy and Buruli ulcer are countered by visible confidentiality, standard precautions for everyone, person-first language and facts; gender decides who seeks care and when, and gender-based violence is a health problem to treat, document and refer.",
         "When the determinant is outside the person — water, roads, markets, policy — advocacy with your own data to those who can decide is the intervention; evaluate health promotion by observed behaviour against a baseline, not by sessions held or by what people say.",
       ],
-      quiz: { keywords: ["health education versus health promotion","health education","levels of prevention","ottawa charter","creating supportive environments","perceived susceptibility","stages of change","self efficacy","social norms","fear appeals","choosing a communication approach","choosing a communication channel","social and behaviour change","health education that changes behaviour","health education and behaviour","teach back","health literacy","plain language","stigma and health seeking","stigma reduction","discrimination in the health facility","gender mainstreaming","gender and health seeking","advocacy versus education","advocacy and intersectoral action","food demonstration","counselling without shaming","herd immunity","chps","community health nurse"] },
+      quiz: {
+        questionIds: ["NG-MOD-CHN-004"],
+        categories: ["health-promotion"],
+        keywords: ["health education versus health promotion","health education","levels of prevention","ottawa charter","creating supportive environments","perceived susceptibility","stages of change","self efficacy","social norms","fear appeals","choosing a communication approach","choosing a communication channel","social and behaviour change","health education that changes behaviour","health education and behaviour","teach back","health literacy","plain language","stigma and health seeking","stigma reduction","discrimination in the health facility","gender mainstreaming","gender and health seeking","advocacy versus education","advocacy and intersectoral action","food demonstration","counselling without shaming","herd immunity","chps","community health nurse"]
+      },
     },
     {
       slug: "epidemiology-demography-and-biostatistics-for-the-community-nurse",
@@ -240,7 +244,11 @@ export const healthPromotionEpidemiologyAndSurveillance: CourseModule = {
         "The verb names the design — prevalence (cross-sectional), what caused these cases (case-control, odds ratio), risk of developing (cohort, relative risk), effect of (randomised trial, the only design that proves cause), experiences of (qualitative).",
         "Screening is secondary prevention justified by the Wilson and Jungner criteria; sensitivity rules out, specificity rules in, positive predictive value falls with falling prevalence, and every reactive screening result is confirmed before it is given.",
       ],
-      quiz: { keywords: ["screening","incidence and prevalence","incidence","prevalence","attack rate","case fatality","rates and denominators","rate versus raw number","relative and absolute risk","prevalence and treatment","population and sample","random sampling","levels of measurement","choosing mean or median","calculating the mean","calculating the median","the mode","the range","standard deviation","normal distribution","normal curve","bar chart versus histogram","frequency and percentage","ratio and proportion","percentiles","misleading graphs","truncated axis","principles of screening","screening programme criteria","screening test performance","positive predictive value","sensitivity","specificity","correlation and causation","confounding","cohort","case control","randomised","census","birth and death registration","chain of infection","incubation period","epidemic"] },
+      quiz: {
+        questionIds: ["NG-MOD-CHN-005"],
+        categories: ["health-promotion"],
+        keywords: ["screening","incidence and prevalence","incidence","prevalence","attack rate","case fatality","rates and denominators","rate versus raw number","relative and absolute risk","prevalence and treatment","population and sample","random sampling","levels of measurement","choosing mean or median","calculating the mean","calculating the median","the mode","the range","standard deviation","normal distribution","normal curve","bar chart versus histogram","frequency and percentage","ratio and proportion","percentiles","misleading graphs","truncated axis","principles of screening","screening programme criteria","screening test performance","positive predictive value","sensitivity","specificity","correlation and causation","confounding","cohort","case control","randomised","census","birth and death registration","chain of infection","incubation period","epidemic"]
+      },
     },
     {
       slug: "disease-surveillance-idsr-and-outbreak-investigation",
@@ -349,7 +357,11 @@ export const healthPromotionEpidemiologyAndSurveillance: CourseModule = {
         "Isolation is for the ill for the infectious period; quarantine for the well but exposed for one incubation period; contact tracing lists, finds, follows and protects contacts under confidentiality; risk communication through trusted leaders and local radio decides whether the community cooperates or hides its cases.",
         "Every maternal death at home or in a facility is notified within 24 hours and reviewed without blame through verbal autopsy and the three delays; One Health links human, animal and environmental surveillance for anthrax, rabies, avian influenza and the viral haemorrhagic fevers.",
       ],
-      quiz: { keywords: ["immediately notifiable","notifiable disease","disease notification","zero reporting","case definition","recognising an outbreak","defining an outbreak","steps of outbreak investigation","outbreak investigation","epidemic curve","describing an outbreak","timing of control measures","isolation and quarantine","quarantine","contact tracing","rumours during an outbreak","health education during an outbreak","surveillance data quality","disease surveillance","surveillance","dhis2","health information and dhis2","index case","meningitis","cholera","measles","yellow fever","viral haemorrhagic fever","guinea worm","neonatal tetanus","maternal death audit","elimination and surveillance","community based surveillance","alert threshold","epidemic threshold"] },
+      quiz: {
+        questionIds: ["NG-MOD-CHN-006"],
+        categories: ["safety-infection-control"],
+        keywords: ["immediately notifiable","notifiable disease","disease notification","zero reporting","case definition","recognising an outbreak","defining an outbreak","steps of outbreak investigation","outbreak investigation","epidemic curve","describing an outbreak","timing of control measures","isolation and quarantine","quarantine","contact tracing","rumours during an outbreak","health education during an outbreak","surveillance data quality","disease surveillance","surveillance","dhis2","health information and dhis2","index case","meningitis","cholera","measles","yellow fever","viral haemorrhagic fever","guinea worm","neonatal tetanus","maternal death audit","elimination and surveillance","community based surveillance","alert threshold","epidemic threshold"]
+      },
     },
   ],
 };

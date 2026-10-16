@@ -72,8 +72,9 @@ export const researchAndEvidenceBasedPractice: CourseModule = {
         "Audit measures vs standard; nurses research nursing questions; finish ward-small first.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO2-007"],
         keywords: ["research", "literature review", "quantitative", "qualitative", "RCT", "cohort", "cross-sectional", "systematic review", "sampling", "validity", "reliability", "ethics committee", "IRB", "informed consent", "audit"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
     {
@@ -142,8 +143,9 @@ export const researchAndEvidenceBasedPractice: CourseModule = {
         "Journal club monthly: 1 paper + 3 questions + 'what changes Monday?' + audit date.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO2-008","NG-MOD-PRO2-009"],
         keywords: ["EBP", "evidence-based", "PICO", "appraisal", "validity", "effect size", "guidelines", "STG", "WHO", "systematic review", "predatory", "journal club", "HINARI", "barriers", "tradition"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
   ],

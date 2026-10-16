@@ -66,6 +66,7 @@ export const complementaryTherapies: CourseModule = {
         "Consent + culture + chaperone + document — touch heals, unconsented harms.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCAM-012","NG-MOD-TCAM-013"],
         keywords: ["massage", "shea", "breathing", "relaxation", "imagery", "music", "DVT", "contraindications", "consent", "labour", "panic", "insomnia", "document", "family", "vagus"],
         categories: ["fundamentals"],
       },
@@ -130,6 +131,7 @@ export const complementaryTherapies: CourseModule = {
         "Both-and language every counsel: 'prayer AND drugs' keeps patients inside care.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCAM-014"],
         keywords: ["faith", "prayer", "clergy", "fasting", "supplements", "MLM", "cupping", "aromatherapy", "acupuncture", "evidence", "delays", "scope", "both-and", "budgets", "refer"],
         categories: ["fundamentals"],
       },

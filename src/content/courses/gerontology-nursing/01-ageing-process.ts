@@ -65,8 +65,9 @@ export const ageingProcess: CourseModule = {
         "Ghana ages fast with NCDs rising; NHIS covers 70+ premiums — register, don't bill.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-GERO-001"],
+        categories: ["gerontology-community"],
         keywords: ["theories", "programmed", "wear-and-tear", "free-radical", "disengagement", "activity", "continuity", "sarcopenia", "presbycusis", "cataract", "GFR", "reserve", "afebrile", "function", "myths"],
-        categories: ["fundamentals"],
       },
     },
     {
@@ -128,8 +129,9 @@ export const ageingProcess: CourseModule = {
         "CHPS/OPD: registers, recalls, outreaches, family teaching — document all promotion.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-GERO-002"],
+        categories: ["gerontology-community"],
         keywords: ["healthy ageing", "pillars", "participation", "screening", "vaccines", "influenza", "pneumococcal", "lifestyle", "exercise", "sarcopenia", "balance", "ageism", "elderspeak", "goals", "CHPS"],
-        categories: ["fundamentals"],
       },
     },
   ],

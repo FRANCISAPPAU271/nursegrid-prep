@@ -65,6 +65,7 @@ export const communicationCapstone: CourseModule = {
         "Dismissed worry: recheck + CUS + DESC + incident + SBI the speaker.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCOM-019", "NG-MOD-TCOM-002"],
         keywords: ["capstone", "scenarios", "canvas", "formula", "SPIKES", "LEAP", "HEAR", "CUS", "DESC", "distinction", "reasoning", "OSCE", "think-aloud", "SBI", "close"],
         categories: ["fundamentals"],
       },
@@ -137,6 +138,7 @@ export const communicationCapstone: CourseModule = {
         "Pledge signed + filed; practice started within 7 days.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-TCOM-020", "NG-MOD-TCOM-001"],
         keywords: ["practice", "OSCE", "role-play", "tricky points", "countdown", "STAR", "interviews", "pledge", "portfolio", "90 days", "distinction", "canvas", "think-aloud", "Gibbs", "log"],
         categories: ["fundamentals"],
       },

@@ -106,6 +106,8 @@ export const skinAcrossTheLifespan: CourseModule = {
         "Safeguarding steps: treat the child, history from carer and child separately, full examination including scalp, mouth, genitals and soles, precise documentation on a body map with measurements and photographs, no confrontation, no discharge with the suspected abuser, inform senior staff, involve social welfare, the child protection team and DOVVSU under the Children's Act, keep the child safe and support the protective parent.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INTEG-017"],
+        categories: ["pediatrics"],
         keywords: ["neonat", "umbilical", "umbilicus", "cord stump", "cord care", "jaundice", "kwashiorkor", "flaking", "flaky", "peeling", "pellagra", "vitamin a", "measles", "nappy", "diaper", "mongolian", "bruis", "non accidental", "glove and stocking", "chlorhexidine", "danger sign", "skin to skin", "kangaroo", "kept warm", "hypothermia", "vernix", "birthmark", "scald", "child abuse", "cigarette", "pustule", "impetigo", "scabies", "ringworm", "scalp", "nits", "lice"],
       },
     },
@@ -233,6 +235,8 @@ export const skinAcrossTheLifespan: CourseModule = {
         "Fungating malignant wounds are managed for comfort: topical metronidazole, charcoal and honey for odour; absorbent foam and alginate with barrier film for exudate; non-adherent layers, alginate, topical adrenaline or tranexamic acid and dark towels for bleeding; the analgesic ladder with pre-dressing breakthrough and topical morphine for pain; antibiotics for cellulitis; family teaching with local materials; and palliative care for the person and those around them.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INTEG-018"],
+        categories: ["fundamentals"],
         keywords: ["frail", "thin skin", "skin tear", "turgor", "bruis", "incontinence", "hiv ", "hiv positive", "hiv status", "antiretroviral", "kaposi", "seborrh", "thrush", "oral candid", "zoster", "acanthosis", "spider naevi", "palmar erythema", "pruritus", "uraemic", "pretibial", "lupus", "malar rash", "butterfly", "vitiligo", "cotrimoxazole prophylaxis", "diabetic foot", "foot care", "necrobiosis", "dry skin", "itching", "purpura", "senile", "excoriat", "around a stoma", "bed bath", "bathing", "skin care", "pressure ulcer", "pressure area", "pressure damage", "fungating"],
       },
     },

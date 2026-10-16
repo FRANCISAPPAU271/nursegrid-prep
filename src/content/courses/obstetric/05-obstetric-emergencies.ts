@@ -192,6 +192,8 @@ export const obstetricEmergencies: CourseModule = {
           "position best supports",
           "immediate care",
         ],
+        categories: ["maternal-newborn"],
+        questionIds: ["NG-MOD-OBS-012"],
       },
     },
     {
@@ -354,6 +356,8 @@ export const obstetricEmergencies: CourseModule = {
           "maternal deaths involved delays",
           "delays",
         ],
+        categories: ["maternal-newborn"],
+        questionIds: ["NG-MOD-OBS-013", "NG-MOD-OBS-014", "NG-MOD-OBS-015"],
       },
     },
   ],

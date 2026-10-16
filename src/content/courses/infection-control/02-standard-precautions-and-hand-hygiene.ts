@@ -107,7 +107,11 @@ export const standardPrecautionsAndHandHygiene: CourseModule = {
         "Gloves are not a substitute for hand hygiene: clean hands before gloving for an aseptic task and always after removal, because hands are contaminated as gloves come off and gloves leak.",
         "Compliance rises with a multimodal strategy — rub at the point of care, training, audit with feedback, reminders and a culture where anyone can prompt anyone — not with training alone; beware the Hawthorne effect in audit figures.",
       ],
-      quiz: { keywords: ["washes her hands","fomite","bed rail","between patients","glove","hand hygiene","handwashing","hand washing","hand rub","five moments","critical moments for handwashing","surgical scrub","hand hygiene moments","scrub","her hands","wash their hands","hands be held","cleaning her hands","commonly missed","before gowning","without cleaning","hand hygiene compliance","the audit cycle","hawthorne","observation as a method","creating supportive environments","removes her gloves","professional accountability","patient education","visiting their relative","soap","alcohol hand"] },
+      quiz: {
+        keywords: ["washes her hands","fomite","bed rail","between patients","glove","hand hygiene","handwashing","hand washing","hand rub","five moments","critical moments for handwashing","surgical scrub","hand hygiene moments","scrub","her hands","wash their hands","hands be held","cleaning her hands","commonly missed","before gowning","without cleaning","hand hygiene compliance","the audit cycle","hawthorne","observation as a method","creating supportive environments","removes her gloves","professional accountability","patient education","visiting their relative","soap","alcohol hand"],
+        categories: ["safety-infection-control"],
+        questionIds: ["NG-MOD-IPC-003"],
+      },
     },
     {
       slug: "standard-precautions-ppe-respiratory-hygiene-safe-injections-spills-and-linen",
@@ -207,7 +211,11 @@ export const standardPrecautionsAndHandHygiene: CourseModule = {
         "Safe injection: one needle, one syringe, one patient, one time; prefer single-dose vials; swab, date and use a new sterile needle and syringe for every entry into a multi-dose vial; never recap; sharps box at the point of use.",
         "Spills: protect yourself, absorb and remove the organic matter, disinfect with 0.5 per cent chlorine for ten minutes, then clean; soiled linen is rolled inwards into a leak-proof bag at the bedside; shared equipment is cleaned between patients; nothing extra is done because a patient has HIV.",
       ],
-      quiz: { keywords: ["glove","discrimination in care","theatre attire","fully covered","standard precautions","universal precautions","personal protective equipment","removing personal protective equipment","respiratory hygiene","injection safety","multi dose vial","multidose","spillage","body fluid spill","spill","hospital linen","linen","ward cleaning","nursing precautions in hiv","gown","apron","body fluid","soiled","sneeze","tissue available","separate set of crockery","health related stigma","stigma in the ward","stigma reduction in the facility","reluctant to touch","blood splashes","wearing gloves","bed making","contact precautions","in what order","removed after caring","every patient","all patients"] },
+      quiz: {
+        keywords: ["glove","discrimination in care","theatre attire","fully covered","standard precautions","universal precautions","personal protective equipment","removing personal protective equipment","respiratory hygiene","injection safety","multi dose vial","multidose","spillage","body fluid spill","spill","hospital linen","linen","ward cleaning","nursing precautions in hiv","gown","apron","body fluid","soiled","sneeze","tissue available","separate set of crockery","health related stigma","stigma in the ward","stigma reduction in the facility","reluctant to touch","blood splashes","wearing gloves","bed making","contact precautions","in what order","removed after caring","every patient","all patients"],
+        categories: ["safety-infection-control"],
+        questionIds: ["NG-MOD-IPC-004"],
+      },
     },
   ],
 };

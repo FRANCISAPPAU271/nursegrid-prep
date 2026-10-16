@@ -156,7 +156,11 @@ export const criticalCareFoundations: CourseModule = {
         "FAST HUGS BID every day: feeding, analgesia before sedation, light sedation (RASS 0 to −2) with daily interruption and delirium screening, thromboprophylaxis, head of bed 30–45 degrees, ulcer prophylaxis while at risk, glucose 6–10 mmol/L, spontaneous breathing trial screen, bowel care, indwelling catheters removed when no longer needed, antibiotics de-escalated at 48–72 hours.",
         "NEWS2 of 5 or more (or 3 in one parameter) means urgent review and 7 or more an emergency response; escalate and hand over in SBAR with the recommendation stated and timed; talk to the sedated patient, give the family a spokesperson and a daily update, and plan for the post-intensive care syndrome from the day of admission.",
       ],
-      quiz: { keywords: ["intensive care","staffing","skill mix","early warning","deteriorat","sbar","handover","escalat","ventilator-associated","oral care","pressure ulcer","central line","catheter-associated","hospital-acquired","hand hygiene","isolation","deep vein","venous thrombo","pain assessment","sedation","delirium","enteral feed","incident report","accountab","bad news","unconscious","eye care","secretions","glasgow","capillary refill","hypotension","oxygen saturation","pulse oximet","blood pressure measurement","daily weight","fluid balance","justice"] },
+      quiz: {
+        questionIds: ["NG-MOD-CC-001", "NG-MOD-CC-002"],
+        categories: ["med-surg", "safety-infection-control"],
+        keywords: ["intensive care","staffing","skill mix","early warning","deteriorat","sbar","handover","escalat","ventilator-associated","oral care","pressure ulcer","central line","catheter-associated","hospital-acquired","hand hygiene","isolation","deep vein","venous thrombo","pain assessment","sedation","delirium","enteral feed","incident report","accountab","bad news","unconscious","eye care","secretions","glasgow","capillary refill","hypotension","oxygen saturation","pulse oximet","blood pressure measurement","daily weight","fluid balance","justice"]
+      },
     },
     {
       slug: "oxygenation-and-mechanical-ventilation-in-depth",
@@ -319,7 +323,11 @@ export const criticalCareFoundations: CourseModule = {
         "Gas, power, humidifier and PEEP fail behind the patient alarms — backup cylinder, tested battery, filled chamber and bag with PEEP valve at every bed.",
         "Read the curves: rising baseline is trapped gas, sawtooth is secretions, shark-fin is bronchospasm, flat CO2 is disconnection or arrest — act on the pattern.",
       ],
-      quiz: { keywords: ["ventilat", "ventilator", "tracheostomy", "suction", "endotracheal", "subglottic", "humidif", "oxygen saturation", "pulse oximet", "oxygen therapy", "high-flow", "nasal cannula", "non-rebreath", "carbon dioxide retention", "chronic obstructive", "copd", "spo2", "hypoxaemia", "hypercapn", "respiratory acidosis", "paco2", "sedation", "ketamine", "oropharyngeal", "secretions", "positioning for breathlessness", "incentive spirometry", "deep breathing", "nebulis", "hypoxia", "pneumonia", "oral care", "recovery position", "oxygen", "airway", "cyanosis", "waveform", "capnography", "auto-peep", "air trapping", "alarm fatigue", "ventilator graphics"] },
+      quiz: {
+        questionIds: ["NG-MOD-CC-009", "NG-MOD-CC-010"],
+        categories: ["med-surg"],
+        keywords: ["ventilat", "ventilator", "tracheostomy", "suction", "endotracheal", "subglottic", "humidif", "oxygen saturation", "pulse oximet", "oxygen therapy", "high-flow", "nasal cannula", "non-rebreath", "carbon dioxide retention", "chronic obstructive", "copd", "spo2", "hypoxaemia", "hypercapn", "respiratory acidosis", "paco2", "sedation", "ketamine", "oropharyngeal", "secretions", "positioning for breathlessness", "incentive spirometry", "deep breathing", "nebulis", "hypoxia", "pneumonia", "oral care", "recovery position", "oxygen", "airway", "cyanosis", "waveform", "capnography", "auto-peep", "air trapping", "alarm fatigue", "ventilator graphics"]
+      },
     },
   ],
 };

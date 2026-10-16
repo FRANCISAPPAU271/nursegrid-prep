@@ -72,8 +72,9 @@ export const healthSystemsAndPolicyInGhana: CourseModule = {
         "Emergencies move now, paperwork follows; walk the ladder to lead it.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO2-013"],
         keywords: ["CHPS", "health centre", "district hospital", "regional", "teaching hospital", "MOH", "GHS", "HeFRA", "CHAG", "referral", "counter-referral", "stabilise", "gatekeeping", "bypassing", "DHMT"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
     {
@@ -142,8 +143,9 @@ export const healthSystemsAndPolicyInGhana: CourseModule = {
         "Ladder: ward data → facility → district/region → GRNA → MOH → media/MPs; GRNA≠NMC; data never cooked.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO2-014","NG-MOD-PRO2-015"],
         keywords: ["NHIS", "NHIA", "exemptions", "premiums", "levy", "claims", "benefits", "financing", "UHC", "SDG", "policy cycle", "GRNA", "advocacy", "stewardship", "data integrity"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
   ],

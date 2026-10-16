@@ -109,7 +109,11 @@ export const emergencyAssistingAndEndOfLifeProcedures: CourseModule = {
         "Burns get twenty minutes of cool running water, clothing and jewellery off, cling film or a clean cloth, warmth for the patient, nothing from the kitchen, blisters left intact, area by the rule of nines or the palm, fluids for more than 10 per cent in a child or 15 per cent in an adult titrated to urine output of 0.5 mL/kg/h (1 mL/kg/h in a child), and referral for the face, hands, feet, perineum, joints, circumferential, inhalation, electrical, chemical, full-thickness and large burns.",
         "Bleeding is stopped by firm direct pressure, elevation and dressings added on top, with a timed tourniquet only for catastrophic limb haemorrhage; epistaxis by sitting forward and pinching the soft nose for ten to fifteen minutes; seizures by protecting the head, nothing in the mouth, timing, and the recovery position after, with help called at five minutes; snakebite by keeping still, splinting at heart level, carrying, and antivenom — no cutting, sucking, tourniquets, ice or herbs; hypoglycaemia by fast sugar if swallowing is safe and intravenous dextrose if not; poisoning by never inducing vomiting; animal bites by fifteen minutes of soap and water and same-day rabies prophylaxis.",
       ],
-      quiz: { keywords: ["basic life support","chest compression","compressions","rescue breath","defibrillat","automated external","choking","back blows","unresponsive","cardiac arrest","anaphylaxis","adrenaline","epinephrine","hypoglycaemia","seizure","convulsion","haemorrhage","burns","snake","poisoning","primary survey","triage","spinal injury","recovery position","drowning","shock","first aid","fracture","immobilis","splint","airway","epistaxis","head injury","rabies","chest pain"] },
+      quiz: {
+        questionIds: ["NG-MOD-PROC-018"],
+        categories: ["risk-reduction"],
+        keywords: ["basic life support","chest compression","compressions","rescue breath","defibrillat","automated external","choking","back blows","unresponsive","cardiac arrest","anaphylaxis","adrenaline","epinephrine","hypoglycaemia","seizure","convulsion","haemorrhage","burns","snake","poisoning","primary survey","triage","spinal injury","recovery position","drowning","shock","first aid","fracture","immobilis","splint","airway","epistaxis","head injury","rabies","chest pain"]
+      },
     },
     {
       slug: "assisting-with-lumbar-puncture-paracentesis-pleural-aspiration-bone-marrow-and-minor-surgery-and-orthopaedic-nursing-of-fractures-and-traction",
@@ -219,7 +223,11 @@ export const emergencyAssistingAndEndOfLifeProcedures: CourseModule = {
         "In traction the prescribed weight hangs free and is never lifted or removed without an order, the cord sits in the pulley with secure knots, the limb is aligned with countertraction, skin traction carries no more than 10 per cent of body weight, gallows traction is for children under two with the buttocks just clear of the mattress and hourly foot checks, and the skin under straps, the Thomas-splint ring, the heels, sacrum and the peroneal nerve are inspected every shift.",
         "Pin sites are inspected every shift and cleaned daily to weekly with chlorhexidine, one applicator per pin, no ointments, a dry dressing and capped pin ends, with early reporting of spreading redness, discharge or loosening; the patient in traction or a fixator does hourly breathing, ankle and quadriceps exercises, uses the trapeze, receives thromboprophylaxis, eats fibre and drinks, and is mobilised to the surgeon's limit with the physiotherapist.",
       ],
-      quiz: { keywords: ["lumbar puncture","paracentesis","ascitic","eye irrigation","ear syringing","ear irrigation","epistaxis","nosebleed","pin site","skeletal traction","traction","fracture","cast","plaster","neurovascular","compartment","cerebrospinal","meningitis","ascites","pleural","aspiration of","positioning","sterile","trolley","consent","local anaesthe","specimen","poisoning","nasal packing","eye drop"] },
+      quiz: {
+        questionIds: ["NG-MOD-PROC-019"],
+        categories: ["fundamentals"],
+        keywords: ["lumbar puncture","paracentesis","ascitic","eye irrigation","ear syringing","ear irrigation","epistaxis","nosebleed","pin site","skeletal traction","traction","fracture","cast","plaster","neurovascular","compartment","cerebrospinal","meningitis","ascites","pleural","aspiration of","positioning","sterile","trolley","consent","local anaesthe","specimen","poisoning","nasal packing","eye drop"]
+      },
     },
     {
       slug: "care-of-the-dying-person-verification-of-death-last-offices-and-the-nursing-record-confidentiality-and-accountability",
@@ -323,7 +331,11 @@ export const emergencyAssistingAndEndOfLifeProcedures: CourseModule = {
         "Records are contemporaneous, dated and timed by the 24-hour clock, signed with name, designation and registration number, legible in permanent ink, corrected only by a single line that is initialled and dated, free of blank lines, specific and objective with the patient's own words quoted, containing assessment, action, response and plan and the time and name of every escalation, with incidents reported on the form and in the notes, electronic logins never shared, and handover structured from the record.",
         "Confidentiality survives death and is broken only through consent, the care team's need to know, a legal requirement or a serious risk to others; the registered nurse is accountable for her own acts, her delegation and her refusals; after an error she treats the patient, tells the person in charge, records and reports, and discloses honestly; and she practises only on a PIN renewed by 31 January with 10, 15 or 20 CPD credits by grade, because practising on a lapsed PIN is an offence under section 73(d) of Act 857.",
       ],
-      quiz: { keywords: ["dying","end of life","palliative","last offices","death","mortuary","bereave","ebola","viral haemorrhagic","stillbirth","handover","sbar","incident report","incident","negligence","confidential","record keeping","police","nursing process","care plan","documentation","accountab","whistleblow","grief","religious","hospice","morphine","breaking bad news","bad news","disclosure","error disclosure","medication error"] },
+      quiz: {
+        questionIds: ["NG-MOD-PROC-020"],
+        categories: ["fundamentals"],
+        keywords: ["dying","end of life","palliative","last offices","death","mortuary","bereave","ebola","viral haemorrhagic","stillbirth","handover","sbar","incident report","incident","negligence","confidential","record keeping","police","nursing process","care plan","documentation","accountab","whistleblow","grief","religious","hospice","morphine","breaking bad news","bad news","disclosure","error disclosure","medication error"]
+      },
     },
   ],
 };

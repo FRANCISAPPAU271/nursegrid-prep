@@ -113,7 +113,11 @@ export const foundationsPrimaryHealthCareAndTheGhanaHealthSystem: CourseModule =
         "The NHIS (Act 852, 2012) covers about 95 per cent of conditions and exempts children, people aged 70 and over, pregnant women, the indigent, LEAP beneficiaries, people with severe disability or mental illness and SSNIT members; membership lapses yearly, about half the population is active, and the Ghana Medical Trust Fund now supports specialist care for chronic non-communicable diseases.",
         "Before saying 'go to the hospital', the community nurse checks registration and renewal, the real cost of transport and the services that are free regardless of insurance — immunisation, antenatal and postnatal care, TB and HIV treatment and the national disease programmes.",
       ],
-      quiz: { keywords: ["definition of health","determinants of health","health system structure","levels of the health system","ministry of health","ghana health service","district health management","purpose of chps","the chps zone","role of the community health officer","community health nurse","referral pathway","referral practice","referral within the health system","referral letter","pre referral","national health insurance","nhis","equity in service delivery","primary health care","alma ata","health education versus health promotion","public health"] },
+      quiz: {
+        questionIds: ["NG-MOD-CHN-002", "NG-MOD-CHN-003"],
+        categories: ["gerontology-community"],
+        keywords: ["definition of health","determinants of health","health system structure","levels of the health system","ministry of health","ghana health service","district health management","purpose of chps","the chps zone","role of the community health officer","community health nurse","referral pathway","referral practice","referral within the health system","referral letter","pre referral","national health insurance","nhis","equity in service delivery","primary health care","alma ata","health education versus health promotion","public health"]
+      },
     },
     {
       slug: "primary-health-care-chps-and-community-entry",
@@ -231,7 +235,11 @@ export const foundationsPrimaryHealthCareAndTheGhanaHealthSystem: CourseModule =
         "Participation ranges from being informed to being in control; the community's permission to approach never replaces the individual's consent, which must be informed, voluntary, in her language and freely refusable without loss of care.",
         "Sustainability and equity are designed from the first day — community ownership, integration into routine structures, local resources, maintainable technology, trained local people and honest volunteer incentives — and the question 'who have we not seen this month?' keeps the promise of Alma-Ata.",
       ],
-      quiz: { keywords: ["primary health care","alma ata","chps","community entry","durbar","traditional leaders","chief","community health volunteer","working with volunteers","selection of community health volunteers","community participation","intersectoral","sustainability of programmes","sustainability of a community programme","programme sustainability","equity in service delivery","outreach planning","community based rehabilitation","rapport before assessment","choosing the person to teach","task shifting","assembly","community infection prevention","community disaster response"] },
+      quiz: {
+        questionIds: ["NG-MOD-CHN-001", "NG-MOD-CHN-002"],
+        categories: ["gerontology-community"],
+        keywords: ["primary health care","alma ata","chps","community entry","durbar","traditional leaders","chief","community health volunteer","working with volunteers","selection of community health volunteers","community participation","intersectoral","sustainability of programmes","sustainability of a community programme","programme sustainability","equity in service delivery","outreach planning","community based rehabilitation","rapport before assessment","choosing the person to teach","task shifting","assembly","community infection prevention","community disaster response"]
+      },
     },
     {
       slug: "reaching-hard-to-reach-populations",
@@ -291,6 +299,8 @@ export const foundationsPrimaryHealthCareAndTheGhanaHealthSystem: CourseModule =
         "Permission opens the gate, kept promises keep it open — trust is the cold chain of outreach.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-CHN-001"],
+        categories: ["gerontology-community"],
         keywords: ["hard to reach", "nomadic", "fulani", "slum", "zongo", "galamsey", "island community", "riverine", "border community", "chps", "chps compound", "queen mother", "mobile clinic", "migrant health", "community durbar"],
       },
     },
@@ -397,7 +407,11 @@ export const foundationsPrimaryHealthCareAndTheGhanaHealthSystem: CourseModule =
         "Monitoring tracks inputs, activities and outputs continuously; evaluation judges relevance, effectiveness, efficiency, impact and sustainability periodically; supportive supervision — observe, review, coach, agree actions — keeps the plan a habit.",
         "Measure the baseline before any change, remember that facility data count attenders rather than the population, use the plan–do–study–act cycle for small measured improvements, and take the results back to the community in a form it can use.",
       ],
-      quiz: { keywords: ["community participation in planning","equity in service delivery","herd protection and coverage","immunisation dropout","intersectoral","programme sustainability","sustainability of programmes","community diagnosis","prioritising community problems","using data at district level","use of routine health data","limitations of facility data","facility versus community data","planning cycle","smart objectives","budgeting","resource constraints","evaluating a programme","evaluating a public health programme","evaluating a service","evaluating health promotion","evaluating a nutrition education session","community nutrition assessment","population and sample","coverage","sustainability","using data for improvement","supportive supervision","inventory and stock management","requisition"] },
+      quiz: {
+        questionIds: ["NG-MOD-CHN-003", "NG-MOD-CHN-002"],
+        categories: ["gerontology-community"],
+        keywords: ["community participation in planning","equity in service delivery","herd protection and coverage","immunisation dropout","intersectoral","programme sustainability","sustainability of programmes","community diagnosis","prioritising community problems","using data at district level","use of routine health data","limitations of facility data","facility versus community data","planning cycle","smart objectives","budgeting","resource constraints","evaluating a programme","evaluating a public health programme","evaluating a service","evaluating health promotion","evaluating a nutrition education session","community nutrition assessment","population and sample","coverage","sustainability","using data for improvement","supportive supervision","inventory and stock management","requisition"]
+      },
     },
   ],
 };

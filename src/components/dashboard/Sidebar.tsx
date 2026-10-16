@@ -58,7 +58,7 @@ export default function Sidebar({
         <span className="text-lg font-bold tracking-tight text-white">NurseGrid Prep</span>
       </Link>
 
-      <nav className="flex-1 space-y-1 px-3">
+      <nav className="flex-1 space-y-1 px-3 overflow-y-auto overscroll-contain">
         {NAV.map((item) => {
           const active = item.exact ? pathname === item.href : pathname.startsWith(item.href);
           return (

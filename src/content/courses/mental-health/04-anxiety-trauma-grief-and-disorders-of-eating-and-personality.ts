@@ -129,7 +129,11 @@ export const anxietyTraumaGriefAndDisordersOfEatingAndPersonality: CourseModule 
         "CBT with graded exposure (phobias), exposure and response prevention (OCD) and trauma-focused CBT (PTSD) is first-line, with relaxation, breathing, exercise, caffeine reduction and sleep hygiene; psychological first aid, not forced debriefing, follows trauma.",
         "SSRIs are the first-line drugs and take weeks; propranolol relieves performance symptoms but not in asthma; benzodiazepines cause dependence within weeks and are for days only; hypnotics are for two weeks at most and sedatives are avoided in older people — insomnia is treated by finding the cause, sleep hygiene and CBT.",
       ],
-      quiz: { keywords: ["anxiety","panic","phobia","obsess","compuls","washes his hands","post traumatic","avoidance","re living","acute stress","generalised anxiety","hyperventilat","benzodiazepine","diazepam use","diazepam","dependence","somatic","conversion presentation","investigations are normal","hyperthyroid","thyrotoxic","phaeochromocytoma","physical mimics","repeated reassurance","insomnia","sleeping tablets","hypnotic","sleep advice","sleep and rest","melatonin","sedatives in older","about to die","needle phobia","stress response","psychological support after","separation anxiety","consent and the anxious patient","energy drinks","propranolol","autonomic nervous system","cortisol","road accident survivor","relaxation","adrenaline","tingling fingers"] },
+      quiz: {
+        keywords: ["anxiety","panic","phobia","obsess","compuls","washes his hands","post traumatic","avoidance","re living","acute stress","generalised anxiety","hyperventilat","benzodiazepine","diazepam use","diazepam","dependence","somatic","conversion presentation","investigations are normal","hyperthyroid","thyrotoxic","phaeochromocytoma","physical mimics","repeated reassurance","insomnia","sleeping tablets","hypnotic","sleep advice","sleep and rest","melatonin","sedatives in older","about to die","needle phobia","stress response","psychological support after","separation anxiety","consent and the anxious patient","energy drinks","propranolol","autonomic nervous system","cortisol","road accident survivor","relaxation","adrenaline","tingling fingers"],
+        categories: ["mental-health"],
+        questionIds: ["NG-MOD-MH-009", "NG-MOD-MH-010"],
+      },
     },
     {
       slug: "grief-loss-self-harm-eating-disorders-and-personality-disorders",
@@ -271,7 +275,11 @@ export const anxietyTraumaGriefAndDisordersOfEatingAndPersonality: CourseModule 
         "Starvation injures heart, temperature, electrolytes, bone, gut and blood — bradycardia under 40, QT lengthening and purging shifts admit and monitor.",
         "Supervise meals and after, praise health never weight, keep one team plan, and work with families and faith without blame or mockery.",
       ],
-      quiz: { keywords: ["grief", "bereave", "stages of grief", "anticipatory", "complicated grief", "traditional rites", "widow", "stillbirth", "miscarriage", "breaking bad news", "bad news", "truth telling", "dying", "end of life", "palliative care", "has just been told", "has died", "deceased", "sits silently", "could have saved", "kept his room", "rites", "mortuary", "religious rites", "last offices", "culturally appropriate", "cultural beliefs", "self harm", "adolescent self harm", "care after deliberate", "risk assessment after self harm", "boundar", "professional boundaries", "eating disorder", "anorexia", "refeeding", "very low weight", "low weight", "body image", "bmi calculation", "purg", "request for assistance in dying", "advance wishes", "advance planning", "recognising the dying phase", "care of the dying", "caring for a dying child", "supporting siblings", "sids", "sudden infant death", "grief that becomes", "grief and depression", "staff support after an incident", "postvention", "bereaved", "bulimia", "amenorrhoea", "lanugo", "bradycardia", "qt prolongation", "meal supervision", "body mass index"] },
+      quiz: {
+        keywords: ["grief", "bereave", "stages of grief", "anticipatory", "complicated grief", "traditional rites", "widow", "stillbirth", "miscarriage", "breaking bad news", "bad news", "truth telling", "dying", "end of life", "palliative care", "has just been told", "has died", "deceased", "sits silently", "could have saved", "kept his room", "rites", "mortuary", "religious rites", "last offices", "culturally appropriate", "cultural beliefs", "self harm", "adolescent self harm", "care after deliberate", "risk assessment after self harm", "boundar", "professional boundaries", "eating disorder", "anorexia", "refeeding", "very low weight", "low weight", "body image", "bmi calculation", "purg", "request for assistance in dying", "advance wishes", "advance planning", "recognising the dying phase", "care of the dying", "caring for a dying child", "supporting siblings", "sids", "sudden infant death", "grief that becomes", "grief and depression", "staff support after an incident", "postvention", "bereaved", "bulimia", "amenorrhoea", "lanugo", "bradycardia", "qt prolongation", "meal supervision", "body mass index"],
+        categories: ["mental-health"],
+        questionIds: ["NG-MOD-MH-011", "NG-MOD-MH-012"],
+      },
     },
     {
       slug: "somatic-symptom-conversion-and-dissociative-disorders",
@@ -333,6 +341,8 @@ export const anxietyTraumaGriefAndDisordersOfEatingAndPersonality: CourseModule 
       ],
       quiz: {
         keywords: ["somatic symptom", "health anxiety", "hypochondriasis", "conversion disorder", "functional neurological", "dissociative", "dissociative amnesia", "factitious", "malingering", "medically unexplained", "psychosomatic", "illness behaviour", "secondary gain", "reassurance seeking"],
+        categories: ["mental-health"],
+        questionIds: ["NG-MOD-MH-009"],
       },
     }
   ],

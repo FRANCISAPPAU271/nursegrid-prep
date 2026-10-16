@@ -66,8 +66,9 @@ export const vesselsShockAndLymphatics: CourseModule = {
         "Technique rules: rest, position, cuff size (small cuff = falsely high), both arms first, document everything.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP2-007"],
         keywords: ["artery", "arteriole", "capillary", "vein", "valves", "Starling", "oedema", "venous return", "DVT", "blood pressure", "MAP", "Korotkoff", "baroreceptor", "RAAS", "hypertension"],
-        categories: ["fundamentals", "medsurg"],
+        categories: ["fluid-electrolyte"],
       },
     },
     {
@@ -130,8 +131,9 @@ export const vesselsShockAndLymphatics: CourseModule = {
         "Innate (born) vs adaptive (learned); active (made) vs passive (borrowed); lymphoedema: elevate, compress, protect skin, never cannulate.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP2-008","NG-MOD-AP2-009"],
         keywords: ["circulation", "Circle of Willis", "hepatic portal", "fetal circulation", "shock", "hypovolaemic", "cardiogenic", "sepsis", "anaphylaxis", "adrenaline", "lymphatic", "nodes", "spleen", "immunity", "lymphoedema"],
-        categories: ["medsurg", "fundamentals"],
+        categories: ["fluid-electrolyte"],
       },
     },
   ],

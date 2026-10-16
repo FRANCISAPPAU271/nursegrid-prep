@@ -66,8 +66,9 @@ export const digitalProfessionalism: CourseModule = {
         "Curate a hireable footprint: learn publicly, celebrate ethically, advocate kindly.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INFO-017"],
         keywords: ["social media", "reputation", "de-identification", "pause test", "boundaries", "friend-requests", "cyberbullying", "screenshot", "whistleblowing", "defamation", "footprint", "employers", "NMC", "selfies", "DMs"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
     {
@@ -130,8 +131,9 @@ export const digitalProfessionalism: CourseModule = {
         "Resistance decoded: redesign workflows, pilot small, ask patients, buddy up.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-INFO-018"],
         keywords: ["AI", "artificial intelligence", "hallucinations", "bias", "prompting", "equity", "digital divide", "change", "super-user", "resistance", "Kotter", "champions", "sustain", "leadership", "validation"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
   ],

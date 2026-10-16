@@ -66,8 +66,9 @@ export const socialDeterminantsCulture: CourseModule = {
         "Document SDH + navigation; default = poverty until proven otherwise.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-BEH-012"],
         keywords: ["SDH", "rainbow", "Dahlgren-Whitehead", "gradient", "Marmot", "inequality", "poverty", "NHIS", "transport", "gender", "navigate", "screen", "defaulter", "adherence", "housing"],
-        categories: ["fundamentals"],
+        categories: ["mental-health"],
       },
     },
     {
@@ -130,8 +131,9 @@ export const socialDeterminantsCulture: CourseModule = {
         "Faith: pray-with + welcome clergy + schedule fasting + room rituals — never versus.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-BEH-013"],
         keywords: ["family", "systems", "genogram", "matrilineal", "extended", "deciders", "meetings", "beliefs", "negotiate", "asram", "faith", "pastor", "fasting", "rituals", "consent"],
-        categories: ["fundamentals"],
+        categories: ["mental-health"],
       },
     },
   ],

@@ -66,8 +66,9 @@ export const codeAndAccountability: CourseModule = {
         "Spiritual care facilitates theirs, never recruits; objections referred (Module 02), never imposed.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO1-007"],
         keywords: ["code of conduct", "candour", "scope of practice", "competence", "standing orders", "CHPS", "emergency doctrine", "boundaries", "gifts", "dual relationships", "social media", "erasure", "trust", "dignity", "referral"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
     {
@@ -129,8 +130,9 @@ export const codeAndAccountability: CourseModule = {
         "Ladder: near-miss → error → negligence → misconduct → crime; records contemporaneous, factual, signed, unaltered.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-PRO1-008", "NG-MOD-PRO1-009"],
         keywords: ["accountability", "responsibility", "authority", "delegation", "supervision", "vicarious liability", "negligence", "duty", "Bolam", "causation", "res ipsa", "misconduct", "documentation", "incident", "disclosure"],
-        categories: ["fundamentals"],
+        categories: ["leadership-delegation"],
       },
     },
   ],

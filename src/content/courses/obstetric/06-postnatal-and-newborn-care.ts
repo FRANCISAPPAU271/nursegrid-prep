@@ -206,6 +206,8 @@ export const postnatalAndNewbornCare: CourseModule = {
           "heavy fresh bleeding",
           "wedge",
         ],
+        categories: ["maternal-newborn"],
+        questionIds: ["NG-MOD-OBS-016"],
       },
     },
     {
@@ -275,6 +277,8 @@ export const postnatalAndNewbornCare: CourseModule = {
       ],
       quiz: {
         keywords: ["breastfeeding", "breast feeding", "lactation", "colostrum", "attachment", "latch", "positioning", "engorgement", "mastitis", "cracked nipple", "nipple", "expression of breast milk", "exclusive breastfeeding", "complementary feeding", "weaning", "breast abscess", "thrush", "hiv and breastfeeding", "infant feeding"],
+        categories: ["maternal-newborn"],
+        questionIds: ["NG-MOD-OBS-017"],
       },
     },
     {
@@ -440,6 +444,8 @@ export const postnatalAndNewbornCare: CourseModule = {
           "wet cloth",
           "removed the wet",
         ],
+        categories: ["maternal-newborn"],
+        questionIds: ["NG-MOD-OBS-018"],
       },
     },
     {
@@ -632,6 +638,8 @@ export const postnatalAndNewbornCare: CourseModule = {
           "weighing 1",
           "weighing 2",
         ],
+        categories: ["maternal-newborn"],
+        questionIds: ["NG-MOD-OBS-018"],
       },
     },
   ],

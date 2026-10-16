@@ -124,7 +124,11 @@ export const zoonosesHaemorrhagicFeversAndNeglectedTropicalDiseases: CourseModul
         "Tetanus prevention is three Pentavalent doses in infancy, five tetanus–diphtheria doses for women giving three, five, ten years and then lifelong protection, a booster after ten years for clean wounds and five years for dirty ones with immunoglobulin when fewer than three doses are known, clean delivery and chlorhexidine or dry cord care — the measures that eliminated maternal and neonatal tetanus in Ghana in 2011 and make every case a notifiable sentinel event.",
         "Anthrax strikes those who open or eat an animal that died suddenly — a painless black eschar with oedema, or bloody diarrhoea with high mortality — and is treated with ciprofloxacin or doxycycline and prevented by deep burial, livestock vaccination and post-exposure antibiotics, as in the Upper East outbreak of 2023; brucellosis comes from unboiled milk, leptospirosis from rat urine in flood water, and all the zoonoses are met by One Health — the nurse and the veterinary officer on the same telephone call.",
       ],
-      quiz: { keywords: ["ebola","lassa","viral haemorrhagic","haemorrhagic fever","bleeding gums","rats are common","dead body","care of the deceased","contact tracing in an outbreak","personal protective equipment","removing personal protective","specimen transport","rabies","dog","post-exposure","rabies post-exposure","rabies exposure","immunoglobulin","brucellosis","unboiled","zoonotic","one health","tetanus","neonatal tetanus","tetanus risk in wounds","tetanus immunoglobulin","cord care","puncture wound","rusty nail","herdsman","sore throat and bleeding","travel to an area","suspected case of","notifiable disease reporting"] },
+      quiz: {
+        questionIds: ["NG-MOD-COMM-015", "NG-MOD-COMM-016"],
+        categories: ["safety-infection-control"],
+        keywords: ["ebola","lassa","viral haemorrhagic","haemorrhagic fever","bleeding gums","rats are common","dead body","care of the deceased","contact tracing in an outbreak","personal protective equipment","removing personal protective","specimen transport","rabies","dog","post-exposure","rabies post-exposure","rabies exposure","immunoglobulin","brucellosis","unboiled","zoonotic","one health","tetanus","neonatal tetanus","tetanus risk in wounds","tetanus immunoglobulin","cord care","puncture wound","rusty nail","herdsman","sore throat and bleeding","travel to an area","suspected case of","notifiable disease reporting"]
+      },
     },
     {
       slug: "leprosy-buruli-ulcer-yaws-scabies-and-the-infections-of-the-skin",
@@ -235,7 +239,11 @@ export const zoonosesHaemorrhagicFeversAndNeglectedTropicalDiseases: CourseModul
         "Impetigo is soaked and treated topically or with flucloxacillin and its streptococcus prevented from reaching the kidneys and the heart; tinea capitis needs six to eight weeks of griseofulvin and sterilised clippers; tungiasis needs sterile extraction, tetanus cover and shoes; larva migrans albendazole or ivermectin; mycetoma months of antifungals or antibiotics; and an integrated skin screening at school finds all of them, and the leprosy and Buruli cases, in one visit.",
         "Chronic ulcers heal by second intention through haemostasis, inflammation, proliferation and maturation; black and yellow are debrided, red is kept moist and pink is protected, and infection, anaemia, poor nutrition, steroids and walking on the wound delay healing; for the person left with a deformity, community-based rehabilitation in its five components — health, education, livelihood, social and empowerment — and the Persons with Disability Act 715 turn a cured disease into a restored life.",
       ],
-      quiz: { keywords: ["leprosy","buruli","buruli ulcer","scabies","itchy","burrows","ringworm","fungal","antifungal","scalp","hair loss","cellulitis","wound infection","gas gangrene","skin infection","footwear","stigma","stigma in neglected tropical","language and labelling","neglected tropical","mass treatment","boarding","residential school","household contacts","linen","lymphoedema","painless","clear centre","cream as soon as"] },
+      quiz: {
+        questionIds: ["NG-MOD-COMM-018"],
+        categories: ["med-surg"],
+        keywords: ["leprosy","buruli","buruli ulcer","scabies","itchy","burrows","ringworm","fungal","antifungal","scalp","hair loss","cellulitis","wound infection","gas gangrene","skin infection","footwear","stigma","stigma in neglected tropical","language and labelling","neglected tropical","mass treatment","boarding","residential school","household contacts","linen","lymphoedema","painless","clear centre","cream as soon as"]
+      },
     },
   ],
 };

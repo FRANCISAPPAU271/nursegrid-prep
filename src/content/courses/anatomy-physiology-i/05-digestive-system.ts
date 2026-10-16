@@ -82,8 +82,9 @@ export const digestiveSystem: CourseModule = {
         "Pale stools mean blocked bile, melaena means blood from above, fresh blood from below.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP1-013"],
         keywords: ["peristalsis", "segmentation", "swallowing", "dysphagia", "stomach", "chyme", "pepsin", "duodenum", "jejunum", "ileum", "colon", "defecation", "constipation", "diarrhoea", "melaena", "ileocecal"],
-        categories: ["fundamentals"],
+        categories: ["risk-reduction"],
       },
     },
     {
@@ -157,8 +158,9 @@ export const digestiveSystem: CourseModule = {
         "Iron in duodenum, calcium needs vitamin D, B12 needs intrinsic factor + ileum; insulin stores, glucagon releases.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-AP1-014","NG-MOD-AP1-015"],
         keywords: ["liver", "bile", "gallbladder", "pancreas", "amylase", "lipase", "trypsin", "lactase", "villus", "absorption", "steatorrhoea", "jaundice", "bilirubin", "intrinsic factor", "insulin", "glucagon"],
-        categories: ["fundamentals"],
+        categories: ["risk-reduction"],
       },
     },
   ],

@@ -72,8 +72,9 @@ export const threeDsAndChronicConditions: CourseModule = {
         "Depression: GDS + suicide ask + grief + activity + treat misery; old + sad ≠ normal.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-GERO-006", "NG-MOD-GERO-007", "NG-MOD-GERO-008"],
+        categories: ["mental-health", "gerontology-community"],
         keywords: ["dementia", "delirium", "depression", "CAM", "PINCH ME", "hypoactive", "BPSD", "validation", "sundowning", "GDS", "suicide", "pseudodementia", "antipsychotic", "restraints", "attention"],
-        categories: ["fundamentals"],
       },
     },
     {
@@ -142,8 +143,9 @@ export const threeDsAndChronicConditions: CourseModule = {
         "Dignity in intimate care = early reporting; shame = late sepsis and fractures.",
       ],
       quiz: {
+        questionIds: ["NG-MOD-GERO-016"],
+        categories: ["gerontology-community"],
         keywords: ["incontinence", "stress", "urge", "overflow", "catheter", "CAUTI", "constipation", "impaction", "pain", "PAINAD", "ladder", "NSAID", "opioid", "cataract", "glaucoma", "wax", "dentures"],
-        categories: ["fundamentals"],
       },
     },
   ],
