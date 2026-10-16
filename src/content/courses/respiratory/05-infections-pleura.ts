@@ -118,6 +118,8 @@ export const infectionsAndPleura: CourseModule = {
       ],
       quiz: {
         keywords: ["pneumonia", "consolidation", "curb", "aspiration", "sputum", "crackles", "droplet", "chest infection", "pneumococcal", "deep breathing", "incentive spirom", "fast breathing", "chest indrawing", "hospital acquired", "ventilator associated", "vap", "hap", "empyema", "lung abscess", "ards", "sepsis", "gram stain", "staphylococcus", "pseudomonas"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-RESP-011"],
       },
     },
     {
@@ -218,6 +220,8 @@ export const infectionsAndPleura: CourseModule = {
       ],
       quiz: {
         keywords: ["tuberculosis", "isoniazid", "rifampicin", "ethambutol", "pyrazinamide", "sputum", "acid fast", "genexpert", "airborne", "n95", "pyridoxine", "directly observed", "night sweats", "bcg", "haemoptysis"],
+        categories: ["safety-infection-control", "pharmacology-parenteral", "med-surg"],
+        questionIds: ["NG-MOD-RESP-012", "NG-MOD-RESP-013"],
       },
     },
     {
@@ -300,6 +304,8 @@ export const infectionsAndPleura: CourseModule = {
       ],
       quiz: {
         keywords: ["pleural effusion", "chest drain", "chest tube", "underwater seal", "water seal", "thoracentesis", "pleural tap", "empyema", "pleur", "bubbling", "swinging", "clamp", "stony dull", "occlusive dressing"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-RESP-014", "NG-MOD-RESP-015", "NG-MOD-RESP-016"],
       },
     },
     {
@@ -384,6 +390,8 @@ export const infectionsAndPleura: CourseModule = {
       ],
       quiz: {
         keywords: ["lung cancer", "bronchogenic", "small cell", "non small cell", "haemoptysis", "clubbing", "finger clubbing", "superior vena cava", "svc obstruction", "paraneoplastic", "smoking", "smoking cessation", "chest x ray", "solitary nodule", "pleural effusion", "cough", "breathlessness", "weight loss", "hoarseness", "stridor", "pancoast", "mesothelioma", "asbestos", "copd", "pneumonia"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-RESP-014"],
       },
     }
   ],

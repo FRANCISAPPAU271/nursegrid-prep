@@ -93,6 +93,8 @@ export const foundations: CourseModule = {
       ],
       quiz: {
         keywords: ["alveol", "surfactant", "gas exchange", "diaphragm", "trachea", "bronch", "pleura", "respiratory rate", "ventilation", "lung", "oxygen saturation", "hypoxic drive", "carbon dioxide", "spirometry", "tidal volume"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-RESP-001"],
       },
     },
     {
@@ -177,6 +179,8 @@ export const foundations: CourseModule = {
       ],
       quiz: {
         keywords: ["breath sound", "crackles", "wheez", "stridor", "auscultat", "respiratory rate", "spo2", "oxygen saturation", "pulse oximet", "cyanosis", "sputum", "peak flow", "dyspnoea", "haemoptysis", "chest x ray", "accessory muscle", "tripod"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-RESP-002"],
       },
     },
   ],

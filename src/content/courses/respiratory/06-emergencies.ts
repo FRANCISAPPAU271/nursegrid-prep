@@ -90,6 +90,8 @@ export const emergencies: CourseModule = {
       ],
       quiz: {
         keywords: ["pulmonary embol", "pneumothorax", "deep vein", "dvt", "thrombo", "anticoagul", "heparin", "enoxaparin", "warfarin", "inr", "chest drain", "needle decompression", "pleuritic", "compression stocking", "virchow"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-RESP-017"],
       },
     },
     {
@@ -185,6 +187,8 @@ export const emergencies: CourseModule = {
       ],
       quiz: {
         keywords: ["respiratory failure", "anaphyla", "adrenaline", "epinephrine", "choking", "back blows", "abdominal thrust", "chest thrust", "heimlich", "foreign body", "stridor", "angioedema", "urticaria", "allerg", "bag valve mask", "non invasive ventilation"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-RESP-018"],
       },
     },
   ],

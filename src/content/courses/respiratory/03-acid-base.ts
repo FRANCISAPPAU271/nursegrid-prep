@@ -95,6 +95,8 @@ export const acidBase: CourseModule = {
       ],
       quiz: {
         keywords: ["arterial blood gas", "abg", "paco2", "pao2", "hco3", "bicarbonate", "acidosis", "alkalosis", "allen", "compensat", "radial artery", "blood gas"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-RESP-006"],
       },
     },
     {
@@ -176,6 +178,8 @@ export const acidBase: CourseModule = {
       ],
       quiz: {
         keywords: ["acidosis", "alkalosis", "kussmaul", "hyperventilat", "hypoventilat", "bicarbonate", "compensat", "anion gap", "ketoacidosis", "lactate", "nasogastric suction", "tetany", "hyperkalaemia", "hypokalaemia", "naloxone"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-RESP-007", "NG-MOD-RESP-008"],
       },
     },
     {
@@ -287,6 +291,8 @@ export const acidBase: CourseModule = {
       ],
       quiz: {
         keywords: ["abg", "arterial blood gas", "blood gas", "acidosis", "alkalosis", "metabolic acidosis", "respiratory acidosis", "metabolic alkalosis", "respiratory alkalosis", "bicarbonate", "base excess", "anion gap", "delta gap", "lactate", "ketoacidosis", "dka", "compensation", "compensated", "winter", "hyperventilation", "hypoventilation", "hypercapnia", "salicylate", "methanol", "renal failure", "copd", "asthma", "sepsis", "ph 7"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-RESP-006", "NG-MOD-RESP-008"],
       },
     },
   ],

@@ -103,6 +103,8 @@ export const pharmacology: CourseModule = {
       ],
       quiz: {
         keywords: ["salbutamol", "ipratropium", "inhaler", "spacer", "nebuli", "theophylline", "aminophylline", "prednisolone", "hydrocortisone", "corticosteroid", "montelukast", "magnesium sulphate", "mucolytic", "codeine", "oxygen cylinder", "bronchodilator", "metered dose"],
+        categories: ["pharmacology-parenteral", "med-surg"],
+        questionIds: ["NG-MOD-RESP-019", "NG-MOD-RESP-020"],
       },
     },
   ],

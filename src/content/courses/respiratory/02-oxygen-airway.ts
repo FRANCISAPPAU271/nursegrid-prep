@@ -79,6 +79,8 @@ export const oxygenAndAirway: CourseModule = {
       ],
       quiz: {
         keywords: ["oxygen", "nasal cannula", "non rebreather", "reservoir mask", "venturi", "face mask", "humidif", "hypoxia", "hypoxaemia", "oxygen saturation", "spo2", "oxygen cylinder", "oxygen concentrator", "flow rate", "litres per minute"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-RESP-003"],
       },
     },
     {
@@ -168,6 +170,8 @@ export const oxygenAndAirway: CourseModule = {
       ],
       quiz: {
         keywords: ["suction", "tracheostomy", "incentive spirom", "chest physiotherapy", "postural drainage", "deep breathing", "oropharyngeal airway", "guedel", "airway", "secretions", "atelectasis", "recovery position", "jaw thrust", "head tilt"],
+        categories: ["safety-infection-control", "med-surg"],
+        questionIds: ["NG-MOD-RESP-004", "NG-MOD-RESP-005"],
       },
     },
     {
@@ -263,6 +267,8 @@ export const oxygenAndAirway: CourseModule = {
       ],
       quiz: {
         keywords: ["early warning", "deteriorat", "respiratory distress", "respiratory failure", "sbar", "abcde", "fast breathing", "chest indrawing", "danger sign", "hypercapn", "hypoxia", "escalat", "respiratory rate", "cyanosis"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-RESP-003", "NG-MOD-RESP-005"],
       },
     },
   ],

@@ -91,6 +91,8 @@ export const obstructive: CourseModule = {
       ],
       quiz: {
         keywords: ["asthma", "salbutamol", "bronchodilator", "inhaler", "spacer", "peak flow", "wheez", "silent chest", "nebuli", "ipratropium", "bronchospasm", "metered dose", "prednisolone"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-RESP-009"],
       },
     },
     {
@@ -204,6 +206,8 @@ export const obstructive: CourseModule = {
       ],
       quiz: {
         keywords: ["copd", "chronic obstructive", "emphysema", "chronic bronchitis", "pursed lip", "hypercapn", "co2 retention", "cor pulmonale", "smoking", "venturi", "non invasive ventilation", "bipap", "oxygen", "barrel chest", "spirometry", "gold", "lama", "laba", "tiotropium", "eosinophil", "pulmonary hypertension", "polycythaemia", "theophylline", "pulmonary rehabilitation"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-RESP-010"],
       },
     },
   ],
