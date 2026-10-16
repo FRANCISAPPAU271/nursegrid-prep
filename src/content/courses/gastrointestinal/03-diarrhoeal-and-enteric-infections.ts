@@ -152,6 +152,8 @@ export const diarrhoealAndEntericInfections: CourseModule = {
       ],
       quiz: {
         keywords: ["diarrhoea", "dehydrat", "cholera", "oral rehydration", "rehydrat", " ors", "zinc", "sunken eyes", "skin pinch", "plan a", "plan b", "plan c", "ringer", "rice water", "rotavirus", "home fluids", "koko", "watery stool", "loose stool", "sachet"],
+        categories: ["safety-infection-control", "med-surg"],
+        questionIds: ["NG-MOD-GI-006"],
       },
     },
     {
@@ -260,6 +262,8 @@ export const diarrhoealAndEntericInfections: CourseModule = {
       ],
       quiz: {
         keywords: ["typhoid", "widal", "bloody diarrhoea", "shigella", "amoeb", "dysentery", "worm", "hookworm", "schistosom", "deworm", "albendazole", "praziquantel", "latrine", "open defecation", "sanitation", "handwashing", "hand washing", "food hygiene", "street food", "intestinal", "safe water", "bilharzia", "faecal oral", "enteric precaution", "liver abscess", "perianal"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-GI-007"],
       },
     },
   ],

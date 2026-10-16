@@ -160,6 +160,8 @@ export const bowelDisordersAndTheSurgicalAbdomen: CourseModule = {
       ],
       quiz: {
         keywords: ["constipat", "laxative", "enema", "suppository", "bowel obstruction", "intestinal obstruction", "obstructed", "ileus", "flatus", "distension", "distended", "hernia", "strangulated", "intussusception", "hirschsprung", "volvulus", "haemorrhoid", "piles", "fissure", "anal fistula", "colitis", "inflammatory bowel", "crohn", "irritable bowel", "rectal bleeding", "bowel habit", "fibre", "sitz", "impaction", "senna", "lactulose", "bisacodyl"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-GI-009", "NG-MOD-GI-010"],
       },
     },
     {
@@ -324,6 +326,8 @@ export const bowelDisordersAndTheSurgicalAbdomen: CourseModule = {
       ],
       quiz: {
         keywords: ["appendic", "peritonitis", "guarding", "rigid abdomen", "rebound", "laparotomy", "nil by mouth", "fasting", "pre operative", "preoperative", "post operative", "postoperative", "early mobilisation", "deep breathing", "dehiscence", "evisceration", "incentive spirometer", "checklist", "clear fluids", "surgical site", "wound infection", "anastomo", "paralytic", "mcburney", "rovsing", "acute abdomen", "free air"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-GI-008", "NG-MOD-GI-003"],
       },
     },
     {
@@ -387,6 +391,8 @@ export const bowelDisordersAndTheSurgicalAbdomen: CourseModule = {
       ],
       quiz: {
         keywords: ["rectal bleeding", "haematochezia", "lower gi", "melaena", "diverticular", "haemorrhoids", "hemorrhoids", "anal fissure", "colonoscopy", "sigmoidoscopy", "inflammatory bowel", "ulcerative colitis", "crohns", "colorectal", "colon cancer", "anticoagulant", "transfusion", "gi bleed"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-GI-017"],
       },
     }
   ],

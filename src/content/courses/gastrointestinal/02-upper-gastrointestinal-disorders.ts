@@ -100,6 +100,8 @@ export const upperGastrointestinalDisorders: CourseModule = {
       ],
       quiz: {
         keywords: ["peptic", "duodenal", "pylori", "omeprazole", "proton pump", "antacid", "heartburn", "reflux", "nsaid", "diclofenac", "epigastric", "gastritis", "stomach", "pyloric", "tarry", "melaena", "haematemesis", "indigestion", "dyspepsia", "misoprostol", "perforat", "board like", "gastric acid", "gastric ulcer", "ulcer pain"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-GI-003", "NG-MOD-GI-004"],
       },
     },
     {
@@ -208,6 +210,8 @@ export const upperGastrointestinalDisorders: CourseModule = {
       ],
       quiz: {
         keywords: ["haematemesis", "melaena", "tarry", "black stool", "coffee ground", "varice", "cirrhosis", "shock", "cross match", "transfus", "hypovolaemi", "large bore", "blood loss", "vomiting blood", "portal hypertension", "terlipressin", "octreotide", "tamponade", "bleeding ulcer", "upper gi"],
+        categories: ["med-surg", "pharmacology-parenteral"],
+        questionIds: ["NG-MOD-GI-012", "NG-MOD-GI-020"],
       },
     },
     {
@@ -364,6 +368,8 @@ export const upperGastrointestinalDisorders: CourseModule = {
       ],
       quiz: {
         keywords: ["vomit", "nausea", "antiemetic", "nasogastric", "ng tube", "ng feed", "aspirate", "bile", "pyloric", "metoclopramide", "ondansetron", "hyperemesis", "projectile", "whoosh", "tube position", "tube feed", "promethazine", "cyclizine"],
+        categories: ["pharmacology-parenteral", "med-surg"],
+        questionIds: ["NG-MOD-GI-019", "NG-MOD-GI-005"],
       },
     },
   ],

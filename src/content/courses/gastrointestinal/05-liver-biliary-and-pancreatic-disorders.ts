@@ -135,6 +135,8 @@ export const liverBiliaryAndPancreaticDisorders: CourseModule = {
       ],
       quiz: {
         keywords: ["jaundice", "jaundiced", "hepatitis", "hepatitis b", "hepatitis a", "needlestick", "sharps", "dark urine", "pale stool", "bilirubin", "liver disease", "hepatic", "phototherapy", "neonatal jaundice", "g6pd", "birth dose", "hbsag", "kernicterus", "exchange transfusion", "yellow eyes", "yellowing", "sclera", "anti hbs", "post exposure"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-GI-014"],
       },
     },
     {
@@ -283,6 +285,8 @@ export const liverBiliaryAndPancreaticDisorders: CourseModule = {
       ],
       quiz: {
         keywords: ["cirrhosis", "ascites", "paracentesis", "encephalopathy", "flapping", "asterixis", "lactulose", "spironolactone", "varice", "liver disease", "liver failure", "liver function", "hepatic", "alcohol", "paracetamol overdose", "acetylcysteine", "albumin", "aflatoxin", "vitamin k", "clotting", "thiamine", "wernicke", "alcohol withdrawal", "delirium tremens", "portal hypertension", "hepatorenal", "spider naevi", "akpeteshie", "palm wine"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-GI-011", "NG-MOD-GI-012"],
       },
     },
     {
@@ -430,6 +434,8 @@ export const liverBiliaryAndPancreaticDisorders: CourseModule = {
       ],
       quiz: {
         keywords: ["cholecyst", "gallstone", "gall bladder", "gallbladder", "biliary", "bile duct", "obstructive jaundice", "jaundice", "rigors", "t tube", "pancrea", "pancreatitis", "amylase", "lipase", "murphy", "right upper quadrant", "fatty food", "fatty meal", "epigastric", "cholangitis", "charcot", "steatorrhoea", "ercp", "shoulder tip", "courvoisier", "grey turner", "cullen", "creon", "enzyme replacement", "atlanta", "necrosis", "necrotising", "pseudocyst", "enteral feeding", "cholecystectomy", "chronic pancreatitis"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-GI-013", "NG-MOD-GI-014"],
       },
     },
   ],

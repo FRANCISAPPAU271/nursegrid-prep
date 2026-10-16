@@ -175,6 +175,8 @@ export const gastrointestinalPharmacologyAndCalculations: CourseModule = {
       ],
       quiz: {
         keywords: ["omeprazole", "proton pump", "antacid", "antiemetic", "metoclopramide", "laxative", "lactulose", "loperamide", "zinc", "oral rehydration", "plan b", "plan c", "ringer", "drops per minute", "drop factor", "giving set", "infusion rate", "ml per hour", "ml/hour", "mg/kg", "per kg", "albendazole", "mebendazole", "praziquantel", "metronidazole", "ciprofloxacin", "doxycycline", "vitamin k", "crushed", "enteric coated", "modified release", "hyoscine", "buscopan", "spironolactone", "terlipressin", "tenofovir", "misoprostol"],
+        categories: ["med-surg", "pharmacology-parenteral"],
+        questionIds: ["NG-MOD-GI-018", "NG-MOD-GI-019", "NG-MOD-GI-020"],
       },
     },
   ],

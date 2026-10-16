@@ -147,6 +147,8 @@ export const stomasNutritionAndGastrointestinalCancers: CourseModule = {
       ],
       quiz: {
         keywords: ["ostomy", "stoma ", "stoma?", "appliance", "colostomy", "ileostomy", "urostomy", "peristomal", "flange", "body image", "dusky", "effluent", "pouch"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-GI-015"],
       },
     },
     {
@@ -299,6 +301,8 @@ export const stomasNutritionAndGastrointestinalCancers: CourseModule = {
       ],
       quiz: {
         keywords: ["malnutrition", "malnourished", "muac", "kwashiorkor", "marasmus", "refeeding", "bmi", "nutrition", "enteral feed", "nasogastric feed", "tube feed", "parenteral nutrition", "total parenteral", "albumin", "weight loss", "dysphagia", "swallow", "oesophag", "colorectal", "bowel cancer", "colon cancer", "stomach cancer", "gastric cancer", "liver cancer", "hepatocellular", "red flag", "palliative", "morphine", "dumping", "fortif", "high energy", "f 75", "f 100", "rutf"],
+        categories: ["pharmacology-parenteral", "med-surg"],
+        questionIds: ["NG-MOD-GI-016", "NG-MOD-GI-017"],
       },
     },
   ],

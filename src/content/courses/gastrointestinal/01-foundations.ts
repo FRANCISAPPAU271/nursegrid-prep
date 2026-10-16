@@ -125,6 +125,8 @@ export const foundations: CourseModule = {
       ],
       quiz: {
         keywords: ["digest", "absorb", "enzyme", "bile", "intestin", "stomach", "peristal", "villi", "pancrea", "oesophag", "sphincter", "portal", "vitamin", "small bowel", "large bowel", "colon", "rectum", "saliva", "defecat", "gastrin", "bilirubin"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-GI-001"],
       },
     },
     {
@@ -241,6 +243,8 @@ export const foundations: CourseModule = {
       ],
       quiz: {
         keywords: ["abdominal pain", "abdomen", "bowel sounds", "distended", "guarding", "palpat", "percuss", "auscultat", "stool", "tarry", "dark urine", "endoscop", "colonoscop", "bowel preparation", "bmi", "muac", "weight loss", "skin pinch", "sunken eyes", "fluid balance", "paracentesis", "pregnancy test", "ectopic"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-GI-001", "NG-MOD-GI-002"],
       },
     },
   ],
