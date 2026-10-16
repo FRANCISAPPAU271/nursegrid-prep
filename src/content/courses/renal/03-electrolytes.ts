@@ -88,6 +88,8 @@ export const electrolytes: CourseModule = {
       ],
       quiz: {
         keywords: ["hyponatraemia", "hypernatraemia", "sodium", "siadh", "diabetes insipidus", "hypertonic saline", "fluid restriction", "desmopressin", "cerebral oedema", "osmolality", "confusion", "seizure", "thiazide", "dextrose"],
+        categories: ["fluid-electrolyte"],
+        questionIds: ["NG-MOD-RENAL-007"],
       },
     },
     {
@@ -167,6 +169,8 @@ export const electrolytes: CourseModule = {
       ],
       quiz: {
         keywords: ["potassium", "hyperkalaemia", "hypokalaemia", "calcium gluconate", "peaked t", "tented t", "u wave", "insulin and dextrose", "resonium", "digoxin toxicity", "spironolactone", "furosemide", "ace inhibitor", "ecg"],
+        categories: ["fluid-electrolyte", "pharmacology-parenteral"],
+        questionIds: ["NG-MOD-RENAL-008", "NG-MOD-RENAL-009"],
       },
     },
     {
@@ -242,6 +246,8 @@ export const electrolytes: CourseModule = {
       ],
       quiz: {
         keywords: ["calcium", "hypocalcaemia", "hypercalcaemia", "magnesium", "hypomagnes", "phosphat", "trousseau", "chvostek", "tetany", "calcium gluconate", "patellar reflex", "magnesium sulphate", "refeeding", "parathyroid", "thyroidectomy", "bisphosphonate"],
+        categories: ["fluid-electrolyte", "pharmacology-parenteral"],
+        questionIds: ["NG-MOD-RENAL-010"],
       },
     },
   ],

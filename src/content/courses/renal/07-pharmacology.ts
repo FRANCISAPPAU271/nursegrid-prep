@@ -118,6 +118,8 @@ export const pharmacology: CourseModule = {
       ],
       quiz: {
         keywords: ["furosemide", "frusemide", "diuretic", "spironolactone", "thiazide", "hydrochlorothiazide", "potassium chloride", "calcium gluconate", "erythropoietin", "epoetin", "phosphate binder", "drops per minute", "drop factor", "infusion rate", "mannitol", "nephrotox", "gentamicin", "desmopressin"],
+        categories: ["pharmacology-parenteral", "pharmacology-oral"],
+        questionIds: ["NG-MOD-RENAL-019", "NG-MOD-RENAL-020"],
       },
     },
   ],

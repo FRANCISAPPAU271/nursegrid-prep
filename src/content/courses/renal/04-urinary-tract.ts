@@ -95,6 +95,8 @@ export const urinaryTract: CourseModule = {
       ],
       quiz: {
         keywords: ["urinary tract infection", "cystitis", "pyelonephritis", "catheter", "catheteris", "foley", "indwelling", "nitrite", "dysuria", "bacteriuria", "drainage bag", "meatal", "paraphimosis", "balloon", "midstream"],
+        categories: ["med-surg", "infection-control"],
+        questionIds: ["NG-MOD-RENAL-011"],
       },
     },
     {
@@ -208,6 +210,8 @@ export const urinaryTract: CourseModule = {
       ],
       quiz: {
         keywords: ["urinary retention", "incontinence", "pelvic floor", "kegel", "bladder training", "prostat", "turp", "bladder irrigation", "renal colic", "kidney stone", "renal calcul", "schistosom", "praziquantel", "haematuria", "overflow", "fistula"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-RENAL-012"],
       },
     },
   ],

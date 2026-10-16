@@ -110,6 +110,8 @@ export const kidneyDisease: CourseModule = {
       ],
       quiz: {
         keywords: ["nephrotic", "nephritic", "glomerulonephritis", "proteinuria", "haematuria", "hypoalbumin", "albumin", "periorbital", "oedema", "streptococc", "prednisolone", "frothy urine", "cola coloured", "minimal change", "biopsy", "iga", "lupus nephritis", "goodpasture", "anca", "vasculitis", "diabetic nephropathy", "rapidly progressive"],
+        categories: ["med-surg", "pediatrics"],
+        questionIds: ["NG-MOD-RENAL-013", "NG-MOD-RENAL-014"],
       },
     },
     {
@@ -201,6 +203,8 @@ export const kidneyDisease: CourseModule = {
       ],
       quiz: {
         keywords: ["acute kidney", "kidney injury", "renal failure", "oliguri", "anuria", "urine output", "creatinine", "nephrotox", "gentamicin", "pre renal", "post renal", "obstruction", "rhabdomyolysis", "hyperkalaemia", "dialysis", "nsaid"],
+        categories: ["med-surg", "fluid-electrolyte"],
+        questionIds: ["NG-MOD-RENAL-005", "NG-MOD-RENAL-008"],
       },
     },
     {
@@ -299,6 +303,8 @@ export const kidneyDisease: CourseModule = {
       ],
       quiz: {
         keywords: ["chronic kidney", "kidney disease", "renal failure", "egfr", "erythropoietin", "epoetin", "phosphate binder", "anaemia of", "uraemi", "ace inhibitor", "albuminuria", "proteinuria", "fistula", "nephrotox", "low potassium diet", "renal failure", "kidney failure"],
+        categories: ["med-surg", "pharmacology-oral"],
+        questionIds: ["NG-MOD-RENAL-015"],
       },
     },
   ],

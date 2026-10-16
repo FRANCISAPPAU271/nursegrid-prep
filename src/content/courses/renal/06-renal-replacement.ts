@@ -105,6 +105,8 @@ export const renalReplacement: CourseModule = {
       ],
       quiz: {
         keywords: ["dialysis", "haemodialysis", "peritoneal", "fistula", "arteriovenous", "thrill", "bruit", "transplant", "immunosuppress", "tacrolimus", "rejection", "peritonitis", "effluent", "tenckhoff", "dry weight", "disequilibrium", "chronic kidney", "renal failure", "kidney failure", "hepatitis b", "heparin"],
+        categories: ["med-surg"],
+        questionIds: ["NG-MOD-RENAL-016", "NG-MOD-RENAL-017"],
       },
     },
     {
@@ -179,6 +181,8 @@ export const renalReplacement: CourseModule = {
       ],
       quiz: {
         keywords: ["dialysis", "haemodialysis", "hemodialysis", "peritoneal dialysis", "capd", "renal failure", "chronic kidney", "acute kidney", "uraemia", "hyperkalaemia", "peritonitis", "peritoneal", "cloudy effluent", "disequilibrium", "fistula", "arteriovenous fistula", "fluid overload", "pulmonary oedema", "metabolic acidosis", "hypotension", "air embolism", "haemolysis", "ultrafiltration"],
+        categories: ["med-surg", "critical-care"],
+        questionIds: ["NG-MOD-RENAL-018", "NG-MOD-RENAL-017"],
       },
     }
   ],

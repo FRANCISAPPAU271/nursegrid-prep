@@ -116,6 +116,8 @@ export const fluidImbalance: CourseModule = {
       ],
       quiz: {
         keywords: ["dehydrat", "oral rehydration", "zinc", "diarrhoea", "cholera", "hypovolaem", "ringer", "skin pinch", "sunken", "capillary refill", "plan b", "plan c", "resomal", "deficit", "maintenance fluid"],
+        categories: ["fluid-electrolyte"],
+        questionIds: ["NG-MOD-RENAL-004"],
       },
     },
     {
@@ -203,6 +205,8 @@ export const fluidImbalance: CourseModule = {
       ],
       quiz: {
         keywords: ["fluid overload", "oedema", "pulmonary oedema", "fluid restriction", "daily weight", "crackles", "jugular", "furosemide", "frusemide", "frothy", "positive balance", "intravenous fluid", "infusion rate", "sodium restrict", "no added salt"],
+        categories: ["med-surg", "fluid-electrolyte"],
+        questionIds: ["NG-MOD-RENAL-005"],
       },
     },
     {
@@ -311,6 +315,8 @@ export const fluidImbalance: CourseModule = {
       ],
       quiz: {
         keywords: ["intravenous fluid", "normal saline", "ringer", "dextrose", "isotonic", "hypotonic", "hypertonic", "crystalloid", "colloid", "drops per minute", "drop factor", "infusion rate", "burette", "phlebitis", "extravasation", "infiltration", "cannula", "giving set"],
+        categories: ["pharmacology-parenteral", "fluid-electrolyte"],
+        questionIds: ["NG-MOD-RENAL-006"],
       },
     },
   ],

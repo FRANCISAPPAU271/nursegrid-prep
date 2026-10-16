@@ -90,6 +90,8 @@ export const foundations: CourseModule = {
       ],
       quiz: {
         keywords: ["kidney", "renal", "nephron", "glomerul", "renin", "aldosterone", "antidiuretic", "erythropoietin", "urine output", "creatinine", "bladder", "ureter", "urethra", "glomerular filtration"],
+        categories: ["med-surg", "fluid-electrolyte"],
+        questionIds: ["NG-MOD-RENAL-001"],
       },
     },
     {
@@ -173,6 +175,8 @@ export const foundations: CourseModule = {
       ],
       quiz: {
         keywords: ["fluid balance", "dehydrat", "oedema", "osmosis", "isotonic", "hypotonic", "hypertonic", "interstitial", "intracellular", "extracellular", "albumin", "third spacing", "antidiuretic", "aldosterone", "body water"],
+        categories: ["fluid-electrolyte"],
+        questionIds: ["NG-MOD-RENAL-002"],
       },
     },
     {
@@ -291,6 +295,8 @@ export const foundations: CourseModule = {
       ],
       quiz: {
         keywords: ["urinalysis", "specific gravity", "proteinuria", "haematuria", "midstream", "urine specimen", "fluid balance", "daily weight", "urine output", "creatinine", "urea", "egfr", "skin turgor", "sunken", "capillary refill", "jugular"],
+        categories: ["fluid-electrolyte", "med-surg"],
+        questionIds: ["NG-MOD-RENAL-003"],
       },
     },
   ],

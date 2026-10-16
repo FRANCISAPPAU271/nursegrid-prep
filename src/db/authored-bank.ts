@@ -24,6 +24,7 @@ import { ORIGINAL_NCX_BATCH_9 } from "./original-ncx-batch-9";
 import { COURSE_MODULE_SCENARIOS } from "./course-module-scenarios";
 import { RESPIRATORY_MODULE_SCENARIOS } from "./respiratory-module-scenarios";
 import { ENDOCRINE_MODULE_SCENARIOS } from "./endocrine-module-scenarios";
+import { RENAL_MODULE_SCENARIOS } from "./renal-module-scenarios";
 
 export type AuthoredQuestion = {
   authoredId: string;
@@ -40,7 +41,7 @@ export type AuthoredQuestion = {
   mediaCaption?: string;
 };
 
-export const AUTHORED_COUNT = 4890;
+export const AUTHORED_COUNT = 4910;
 export const AUTHORED_COUNT_LABEL = "3,200+";
 export const AUTHORED_DIAGRAM_COUNT = 619;
 
@@ -119528,5 +119529,6 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   ...COURSE_MODULE_SCENARIOS,
   ...RESPIRATORY_MODULE_SCENARIOS,
   ...ENDOCRINE_MODULE_SCENARIOS,
+  ...RENAL_MODULE_SCENARIOS,
 ];
 
