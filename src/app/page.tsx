@@ -7,6 +7,8 @@ import WaitlistForm from "@/components/marketing/WaitlistForm";
 import SiteFooter from "@/components/marketing/SiteFooter";
 import StructuredData from "@/components/marketing/StructuredData";
 import FaqSchema from "@/components/marketing/FaqSchema";
+import ComparisonTable from "@/components/marketing/ComparisonTable";
+import WhoItsFor from "@/components/marketing/WhoItsFor";
 import { buildWhatsAppLink } from "@/lib/contact";
 import { QUESTION_COUNT_LABEL } from "@/lib/question-count";
 
@@ -80,6 +82,12 @@ export default async function HomePage() {
               className="hidden rounded-lg px-3 py-2 text-sm font-semibold text-slate-600 hover:text-slate-950 md:inline-block"
             >
               Why us
+            </Link>
+            <Link
+              href="/#compare"
+              className="hidden rounded-lg px-3 py-2 text-sm font-semibold text-slate-600 hover:text-slate-950 md:inline-block"
+            >
+              Compare
             </Link>
             <Link
               href="/login"
@@ -254,13 +262,45 @@ export default async function HomePage() {
           ))}
         </ol>
 
-        <div className="mt-10">
-          <Link
-            href="/sample-questions"
-            className="inline-flex items-center gap-2 rounded-2xl bg-slate-950 px-6 py-3.5 text-sm font-extrabold text-white transition hover:bg-emerald-700"
-          >
-            Start with step 1 — free, no account →
-          </Link>
+        <div className="mt-10 rounded-3xl border border-emerald-200 bg-emerald-50 p-6 sm:p-8">
+          <div className="grid gap-8 sm:grid-cols-[1.2fr_0.8fr] sm:items-center">
+            <div>
+              <h3 className="text-lg font-extrabold text-emerald-950">
+                What the 3 free days actually include
+              </h3>
+              <ul className="mt-3 grid gap-2 text-sm text-emerald-900">
+                {[
+                  "Every question in the bank — not a sample set",
+                  "Full rationales, distractor-by-distractor",
+                  "Mock exams with readiness scoring",
+                  "Weakness radar across every category",
+                  "The strategy library and task board",
+                  "No card. No auto-billing. Cancel by doing nothing.",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2">
+                    <span aria-hidden className="mt-0.5 text-emerald-600">
+                      ✓
+                    </span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="flex flex-col gap-3">
+              <Link
+                href="/signup"
+                className="rounded-2xl bg-emerald-700 px-6 py-3.5 text-center text-sm font-extrabold text-white transition hover:bg-emerald-800"
+              >
+                Start the free trial →
+              </Link>
+              <Link
+                href="/sample-questions"
+                className="rounded-2xl border-2 border-emerald-300 px-6 py-3.5 text-center text-sm font-bold text-emerald-800 transition hover:border-emerald-500 hover:bg-white"
+              >
+                Or try 5 questions first
+              </Link>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -312,6 +352,27 @@ export default async function HomePage() {
             </p>
           </div>
         </div>
+      </section>
+
+      {/* COMPARISON */}
+      <section id="compare" className="mx-auto max-w-6xl px-4 py-16 sm:px-6 md:py-20">
+        <span className="inline-block rounded-full bg-emerald-100 px-4 py-1.5 text-xs font-extrabold uppercase tracking-widest text-emerald-700">
+          Side by side
+        </span>
+        <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-slate-950 sm:text-4xl">
+          The honest comparison.
+        </h2>
+        <p className="mt-3 max-w-2xl text-slate-600">
+          PDF packs are cheap and teach you nothing. Foreign apps teach well but are priced and built for another
+          market. Here is the full picture, including what we don&apos;t do.
+        </p>
+        <div className="mt-10">
+          <ComparisonTable />
+        </div>
+        <p className="mt-4 text-xs leading-relaxed text-slate-500">
+          Describes categories of product, not any named competitor. We are an independent study tool and are not
+          affiliated with the Nursing and Midwifery Council.
+        </p>
       </section>
 
       {/* FEATURES BENTO */}
@@ -381,6 +442,24 @@ export default async function HomePage() {
               </Link>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* WHO IT'S FOR */}
+      <section id="who" className="mx-auto max-w-6xl px-4 py-16 sm:px-6 md:py-20">
+        <span className="inline-block rounded-full bg-emerald-100 px-4 py-1.5 text-xs font-extrabold uppercase tracking-widest text-emerald-700">
+          Is this you?
+        </span>
+        <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-slate-950 sm:text-4xl">
+          Built for the way you
+          <br />
+          actually revise.
+        </h2>
+        <p className="mt-3 max-w-2xl text-slate-600">
+          Four people end up paying for this app, for four different reasons. Find yours.
+        </p>
+        <div className="mt-10">
+          <WhoItsFor />
         </div>
       </section>
 
