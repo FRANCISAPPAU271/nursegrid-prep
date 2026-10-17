@@ -27,6 +27,37 @@ export const UPDATES: string[] = [
     "619 questions now carry an original diagram — label it yourself, then check.",
 ];
 
+/**
+ * Wrap prose for the plain-text alternative.
+ *
+ * 74 columns is the old convention for a reason: it survives narrow windows and
+ * every quoting style in every client. Unbroken tokens — URLs, in practice — are
+ * left whole rather than split, because a broken unsubscribe link is useless.
+ *
+ * Continuation lines are indented to sit under the text, not under the marker,
+ * so a wrapped bullet still looks like one bullet.
+ */
+function wrap(text: string, opts?: { width?: number; first?: string; rest?: string }): string {
+    const width = opts?.width ?? 74;
+    const first = opts?.first ?? "";
+    const rest = opts?.rest ?? "";
+    const words = text.split(/\s+/).filter(Boolean);
+    const lines: string[] = [];
+    let line = "";
+    let prefix = first;
+    for (const word of words) {
+        if (line && prefix.length + line.length + 1 + word.length > width) {
+            lines.push(prefix + line);
+            line = word;
+            prefix = rest;
+        } else {
+            line = line ? `${line} ${word}` : word;
+        }
+    }
+    if (line) lines.push(prefix + line);
+    return lines.join("\n");
+}
+
 const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "https://nursegridprep.com";
 
 function firstName(name: string): string {
@@ -39,7 +70,7 @@ export function weeklyDigestEmail(args: {
     userId: string;
     name: string;
     updates?: string[];
-}): { subject: string; html: string } {
+}): { subject: string; html: string; text: string } {
     const { userId, name } = args;
     const updates = args.updates ?? UPDATES;
     const who = firstName(name);
@@ -54,8 +85,13 @@ export function weeklyDigestEmail(args: {
         )
         .join("");
 
+    // Inbox preview text. Without one, clients show the first line of the body,
+    // which reads as a repetition of the subject.
+    const preheader = `What's new this week, and where your access stands.`;
+
     const html = `
   <div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;max-width:480px;margin:0 auto;color:#0f172a;">
+    <div style="display:none;max-height:0;overflow:hidden;opacity:0;color:transparent;height:0;width:0;">${preheader}</div>
     <div style="background:#059669;height:6px;border-radius:6px;margin-bottom:24px;"></div>
 
     <h1 style="font-size:20px;margin:0 0 8px;">Hi ${who},</h1>
@@ -92,5 +128,34 @@ export function weeklyDigestEmail(args: {
             : ""}
   </div>`;
 
-    return { subject: `${who}, here's what's new at NurseGrid`, html };
+    // The plain-text alternative. Spam filters treat HTML-only mail with
+    // suspicion, and some people read in clients that never render HTML.
+    const text = [
+        `Hi ${who},`,
+        "",
+        "Here's what's new at NurseGrid this week.",
+        "",
+        "NEW THIS WEEK",
+        "",
+        ...updates.map((u) => wrap(u, { width: 74, first: "  - ", rest: "    " })),
+        "",
+        "KEEP YOUR ACCESS GOING",
+        "",
+        wrap(
+            `Subscribing keeps all ${QUESTION_COUNT_LABEL} questions, every rationale, the mock exams and the readiness scoring open. One payment for the period you choose - never auto-billed.`,
+        ),
+        "",
+        `Subscribe: ${APP_URL}/dashboard/billing`,
+        "",
+        "--",
+        "NurseGrid Prep - exam prep for Ghana's NMC licensing exam",
+        APP_URL,
+        "",
+        wrap("You get this because you created a NurseGrid Prep account. One email a week, nothing else."),
+        unsub ? `Unsubscribe: ${unsub}` : "",
+    ]
+        .join("\n")
+        .trim();
+
+    return { subject: `${who}, here's what's new at NurseGrid`, html, text };
 }

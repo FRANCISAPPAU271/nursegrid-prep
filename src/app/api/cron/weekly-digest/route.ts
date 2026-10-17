@@ -457,10 +457,11 @@ export async function GET(request: Request) {
 
     await mapLimit(rows, CONCURRENCY, async (u) => {
       try {
-        const { subject, html } = weeklyDigestEmail({ userId: u.id, name: u.name });
+        const { subject, html, text } = weeklyDigestEmail({ userId: u.id, name: u.name });
 
         await sendEmail(u.email, subject, html, {
           unsubscribeUrl: unsubscribeUrl(APP_URL, u.id) || undefined,
+          text,
         });
 
         await db.execute(sql`

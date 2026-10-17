@@ -37,7 +37,7 @@ export async function sendEmail(
   to: string,
   subject: string,
   html: string,
-  options?: { unsubscribeUrl?: string },
+  options?: { unsubscribeUrl?: string; text?: string },
 ): Promise<{ id?: string }> {
   const bulkHeaders: Record<string, string> = options?.unsubscribeUrl
     ? {
@@ -59,6 +59,9 @@ export async function sendEmail(
         to: [{ email: to }],
         subject,
         htmlContent: html,
+        // Plain-text alternative. Brevo sends multipart/alternative when this is
+        // present, which is materially better for spam scoring than HTML alone.
+        ...(options?.text ? { textContent: options.text } : {}),
         ...(Object.keys(bulkHeaders).length ? { headers: bulkHeaders } : {}),
       }),
     });
@@ -76,7 +79,7 @@ export async function sendEmail(
 
   if (process.env.RESEND_API_KEY) {
     const resend = new Resend(process.env.RESEND_API_KEY);
-    const { data } = await resend.emails.send({ from: FROM_ADDRESS, to, subject, html, ...(Object.keys(bulkHeaders).length ? { headers: bulkHeaders } : {}) });
+    const { data } = await resend.emails.send({ from: FROM_ADDRESS, to, subject, html, ...(options?.text ? { text: options.text } : {}), ...(Object.keys(bulkHeaders).length ? { headers: bulkHeaders } : {}) });
     return { id: data?.id };
   }
 
