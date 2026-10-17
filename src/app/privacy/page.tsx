@@ -52,7 +52,13 @@ export default function PrivacyPolicyPage() {
             <ul className="list-disc space-y-1.5 pl-5">
               <li>To provide, maintain, and improve the task manager, question bank, and other core features.</li>
               <li>To process payments and manage your subscription or access period.</li>
-              <li>To send transactional emails (e.g., password resets) and, if you opt in, study reminders or product updates.</li>
+              <li>To send transactional emails, such as password resets and purchase receipts.</li>
+              <li>
+                To send one weekly email to every registered account describing what is new in the product and the state of that
+                account&rsquo;s access. This is part of having an account rather than a separate marketing list: it goes only to
+                people who registered, it is sent at most once a week, it carries no third-party advertising, and every message
+                contains a one-click unsubscribe link that works without signing in.
+              </li>
               <li>To detect and prevent fraud, abuse, or account sharing that violates our Terms of Service.</li>
               <li>To comply with legal obligations and enforce our agreements.</li>
             </ul>
@@ -85,7 +91,11 @@ export default function PrivacyPolicyPage() {
             <ul className="list-disc space-y-1.5 pl-5">
               <li>You can update your profile information at any time from Settings.</li>
               <li>You can request a copy of your data or request deletion of your account by contacting us at the email below.</li>
-              <li>You can unsubscribe from non-essential emails at any time using the link in those emails.</li>
+              <li>
+                You can stop the weekly email at any time with the unsubscribe link at the foot of any message. It works
+                immediately and without signing in, and it does not affect your account or your access.
+              </li>
+              <li>We do not sell your information, and we do not share your email address with advertisers.</li>
             </ul>
           </Section>
 

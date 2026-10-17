@@ -43,6 +43,10 @@ export default async function SignupPage({
               <li><b>3.</b> Verify your phone if SMS verification appears.</li>
               <li><b>4.</b> Start your 3 days of full premium access.</li>
             </ol>
+            <p className="mt-3 text-xs leading-5 text-emerald-800">
+              We&rsquo;ll send one email a week with what&rsquo;s new, plus a note about your access. One click to stop —
+              no card, no third-party ads.
+            </p>
             <div className="mt-3 flex flex-wrap gap-3 text-xs font-bold">
               <Link href="/sample-questions" className="text-emerald-700 hover:underline">Try sample questions</Link>
               <a href={buildWhatsAppLink("Hi NurseGrid Prep! I am having trouble registering for an account.")} target="_blank" rel="noopener noreferrer" className="text-emerald-700 hover:underline">Need help? WhatsApp support</a>
