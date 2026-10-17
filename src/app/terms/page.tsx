@@ -73,8 +73,10 @@ export default function TermsPage() {
           <Section title="5. Referral program">
             <p>
               Our referral program grants bonus access time to both the referrer and the referred user when a new account is created using a valid
-              referral link or code. We may modify, suspend, or discontinue the referral program, or reward amounts, at any time, and may withhold
-              rewards obtained through fraud or abuse.
+              referral link or code, and grants account credit to the referrer once the referred account completes its first paid purchase. The
+              referred account receives a discount on that first purchase. Credit is applied automatically at checkout, has no cash value, cannot be
+              transferred or withdrawn, and is limited to the purchase price of a plan. We may modify, suspend, or discontinue the referral program,
+              or reward amounts, at any time, and may withhold rewards obtained through fraud or abuse.
             </p>
           </Section>
 
