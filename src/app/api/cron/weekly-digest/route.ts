@@ -78,6 +78,87 @@ async function mapLimit<T, R>(items: T[], limit: number, fn: (item: T) => Promis
 
 type Row = { id: string; name: string; email: string };
 
+/**
+ * Preflight check, used by `?dryRun=1`.
+ *
+ * The failure this exists for: a dead provider key used to surface as two
+ * hundred identical errors in the response, buried under one another, with
+ * nothing saying "the credential is the problem". This asks the provider
+ * directly and answers in one line.
+ */
+async function checkProvider(): Promise<{
+  provider: "brevo" | "resend" | "none";
+  keyValid: boolean | null;
+  senderVerified: boolean | null;
+  detail: string;
+}> {
+  const from = process.env.EMAIL_FROM || "";
+  const fromAddress = (from.match(/<([^>]+)>/)?.[1] ?? from).trim();
+
+  if (process.env.BREVO_API_KEY) {
+    const key = process.env.BREVO_API_KEY.trim();
+    const looksRight = key.startsWith("xkeysib-");
+    try {
+      const acct = await fetch("https://api.brevo.com/v3/account", {
+        headers: { "api-key": key, Accept: "application/json" },
+      });
+      if (acct.status === 401) {
+        return {
+          provider: "brevo",
+          keyValid: false,
+          senderVerified: null,
+          detail:
+            "Brevo rejected the key (401 Key not found). Generate a new one at Brevo → SMTP & API → API Keys." +
+            (looksRight ? "" : " The stored value also does not look like an API key — those start with 'xkeysib-'."),
+        };
+      }
+      if (!acct.ok) {
+        return { provider: "brevo", keyValid: null, senderVerified: null, detail: `Brevo account check returned ${acct.status}.` };
+      }
+
+      const senders = await fetch("https://api.brevo.com/v3/senders", {
+        headers: { "api-key": key, Accept: "application/json" },
+      });
+      let senderVerified: boolean | null = null;
+      if (senders.ok) {
+        const list = (await senders.json().catch(() => ({}))) as { senders?: { email?: string; active?: boolean }[] };
+        const match = (list.senders ?? []).find((s) => (s.email ?? "").toLowerCase() === fromAddress.toLowerCase());
+        senderVerified = Boolean(match?.active);
+      }
+      return {
+        provider: "brevo",
+        keyValid: true,
+        senderVerified,
+        detail: senderVerified
+          ? `Key is valid and ${fromAddress} is a verified sender.`
+          : senderVerified === false
+            ? `Key is valid, but ${fromAddress || "(EMAIL_FROM unset)"} is not a verified, active sender in Brevo.`
+            : "Key is valid; could not read the sender list.",
+      };
+    } catch (e) {
+      return { provider: "brevo", keyValid: null, senderVerified: null, detail: `Could not reach Brevo: ${e instanceof Error ? e.message : "unknown"}` };
+    }
+  }
+
+  if (process.env.RESEND_API_KEY) {
+    try {
+      const res = await fetch("https://api.resend.com/domains", {
+        headers: { Authorization: `Bearer ${process.env.RESEND_API_KEY}` },
+      });
+      return {
+        provider: "resend",
+        keyValid: res.ok ? true : res.status === 401 ? false : null,
+        senderVerified: null,
+        detail: res.ok ? "Resend key is valid." : `Resend returned ${res.status}.`,
+      };
+    } catch (e) {
+      return { provider: "resend", keyValid: null, senderVerified: null, detail: `Could not reach Resend: ${e instanceof Error ? e.message : "unknown"}` };
+    }
+  }
+
+  return { provider: "none", keyValid: null, senderVerified: null, detail: "No email provider configured." };
+}
+
 export async function GET(request: Request) {
   try {
     const secret = process.env.CRON_SECRET;
@@ -86,11 +167,40 @@ export async function GET(request: Request) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
+    const dryRun = new URL(request.url).searchParams.get("dryRun") === "1";
+
     if (!isEmailConfigured()) {
       return NextResponse.json({ ok: true, skipped: "email not configured (set BREVO_API_KEY + EMAIL_FROM)" });
     }
 
     await ensureTables();
+
+    // `?dryRun=1` reports exactly what a real run would do — how many people are
+    // due, and whether the provider would accept the message — without sending.
+    if (dryRun) {
+      const countRow = (
+        await db.execute(sql`
+          SELECT count(*)::int AS due
+          FROM users u
+          WHERE u.is_admin = false
+            AND u.created_at < ${new Date(Date.now() - 48 * 3600000).toISOString()}::timestamptz
+            AND NOT EXISTS (SELECT 1 FROM email_optouts e WHERE lower(e.email) = lower(u.email))
+            AND NOT EXISTS (
+              SELECT 1 FROM weekly_digest_sends d
+              WHERE d.user_id = u.id AND d.kind = 'weekly' AND d.period_key = ${isoWeekKey(new Date())}
+            )
+        `)
+      ).rows[0] as unknown as { due: number };
+
+      const provider = await checkProvider();
+      return NextResponse.json({
+        ok: provider.keyValid === true && provider.senderVerified !== false,
+        dryRun: true,
+        week: isoWeekKey(new Date()),
+        accountsDue: countRow?.due ?? 0,
+        provider,
+      });
+    }
 
     const now = new Date();
     const weekKey = isoWeekKey(now);
