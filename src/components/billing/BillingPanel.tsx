@@ -35,15 +35,16 @@ const PLANS: { id: PlanId; name: string; price: string; priceCents: number; cade
   { id: "annual", name: "1 Year", price: formatPesewas(PLAN_PRICES_PESEWAS.annual), priceCents: 1300, cadence: "full access for 12 months", tag: "Best value" },
 ];
 
+// Invoices still carry the historical USD-cent amount; this maps it to the
+// cedi price it has always represented.
+const CENTS_TO_PESEWAS: Record<number, number> = {
+  500: PLAN_PRICES_PESEWAS.four_month,
+  900: PLAN_PRICES_PESEWAS.eight_month,
+  1300: PLAN_PRICES_PESEWAS.annual,
+};
+
 function money(cents: number) {
-  // Invoices still carry the historical USD-cent amount; map it to the cedi
-  // price it has always represented.
-  const byPesewas: Record<number, number> = {
-    500: PLAN_PRICES_PESEWAS.four_month,
-    900: PLAN_PRICES_PESEWAS.eight_month,
-    1300: PLAN_PRICES_PESEWAS.annual,
-  };
-  if (byPesewas[cents]) return formatPesewas(byPesewas[cents]);
+  if (CENTS_TO_PESEWAS[cents]) return formatPesewas(CENTS_TO_PESEWAS[cents]);
   return formatPesewas(cents);
 }
 
@@ -331,7 +332,25 @@ export default function BillingPanel({
                   <tr key={inv.id} className="border-b border-slate-50 last:border-0">
                     <td className="py-2.5 text-slate-700">{fmt(inv.issuedAt)}</td>
                     <td className="py-2.5 text-slate-700">{inv.plan}</td>
-                    <td className="py-2.5 text-slate-700">{money(inv.amountCents)}</td>
+                    <td className="py-2.5 text-slate-700">
+                      {(() => {
+                        // The invoice row is a receipt, so it has to show what
+                        // left the customer's account — not the list price the
+                        // discount was taken off.
+                        const discount = inv.discountPesewas ?? 0;
+                        if (discount <= 0) return money(inv.amountCents);
+                        const listPesewas = CENTS_TO_PESEWAS[inv.amountCents] ?? inv.amountCents;
+                        return (
+                          <>
+                            {formatPesewas(Math.max(0, listPesewas - discount))}
+                            <span className="ml-1 text-xs text-slate-400 line-through">{formatPesewas(listPesewas)}</span>
+                            <span className="block text-[11px] font-semibold text-emerald-700">
+                              saved {formatPesewas(discount)}
+                            </span>
+                          </>
+                        );
+                      })()}
+                    </td>
                     <td className="py-2.5 text-slate-700">
                       {paymentMethodLabel(inv.paymentMethod)}
                       {inv.paymentMethod === "mtn_momo" && inv.momoReference && (

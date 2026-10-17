@@ -42,6 +42,7 @@ export default async function BillingPage() {
     paymentMethod: i.paymentMethod,
     momoNumber: i.momoNumber,
     momoReference: i.momoReference,
+    discountPesewas: i.discountPesewas,
     issuedAt: i.issuedAt.toISOString(),
   }));
 

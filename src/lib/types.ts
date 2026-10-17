@@ -213,6 +213,8 @@ export type Invoice = {
   paymentMethod: PaymentMethod;
   momoNumber: string | null;
   momoReference: string | null;
+  /** Total discount applied to this invoice, in pesewas (0 for older rows). */
+  discountPesewas?: number;
   issuedAt: string;
 };
 

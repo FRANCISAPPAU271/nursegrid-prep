@@ -395,6 +395,9 @@ export const invoices = pgTable("invoices", {
   paymentMethod: paymentMethodEnum("payment_method").notNull().default("card"),
   momoNumber: text("momo_number"),
   momoReference: text("momo_reference"),
+  // Total referral discount applied to this invoice, in pesewas. Without it a
+  // receipt would show the list price and quietly overstate what was charged.
+  discountPesewas: integer("discount_pesewas").notNull().default(0),
   issuedAt: timestamp("issued_at", { withTimezone: true }).notNull().defaultNow(),
 }, (t) => [index("invoices_user_idx").on(t.userId)]);
 
