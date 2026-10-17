@@ -28,6 +28,37 @@ const MAX_PER_RUN = Number(process.env.WEEKLY_DIGEST_BATCH ?? 200);
 const CONCURRENCY = 6;
 const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "https://nursegridprep.com";
 
+/**
+ * Addresses that can never receive mail.
+ *
+ * RFC 2606 and RFC 6761 reserve these names for documentation and testing, so a
+ * message sent to one is a guaranteed bounce. Bounces are the fastest way to
+ * lose a sender's reputation, and this database contains seeded demo accounts
+ * (`demo@nursegrid.app`, `*@example.com`) that are not real people.
+ *
+ * Filtered in SQL so they never enter the batch, rather than skipped afterwards
+ * where they would still count against the daily quota.
+ */
+const UNDELIVERABLE_DOMAINS = [
+  "example.com",
+  "example.org",
+  "example.net",
+  "test",
+  "invalid",
+  "localhost",
+  // The app's own alternate domain. It has no MX record — checked 2026-10-17 —
+  // so seeded demo accounts at @nursegrid.app bounce every time. Real users are
+  // on whatever address they registered with; nobody legitimately has one here.
+  "nursegrid.app",
+];
+
+const UNDELIVERABLE_SQL = sql`
+  lower(split_part(u.email, '@', 2)) NOT IN (${sql.join(
+    UNDELIVERABLE_DOMAINS.map((d) => sql`${d}`),
+    sql`, `,
+  )})
+`;
+
 let tablesEnsured = false;
 
 async function ensureTables() {
@@ -407,19 +438,22 @@ export async function GET(request: Request) {
     // `?dryRun=1` reports exactly what a real run would do — how many people are
     // due, and whether the provider would accept the message — without sending.
     if (dryRun) {
+      const cutoff = new Date(Date.now() - 48 * 3600000).toISOString();
       const countRow = (
         await db.execute(sql`
-          SELECT count(*)::int AS due
+          SELECT
+            count(*) FILTER (WHERE ${UNDELIVERABLE_SQL})::int AS due,
+            count(*) FILTER (WHERE NOT (${UNDELIVERABLE_SQL}))::int AS undeliverable
           FROM users u
           WHERE u.is_admin = false
-            AND u.created_at < ${new Date(Date.now() - 48 * 3600000).toISOString()}::timestamptz
+            AND u.created_at < ${cutoff}::timestamptz
             AND NOT EXISTS (SELECT 1 FROM email_optouts e WHERE lower(e.email) = lower(u.email))
             AND NOT EXISTS (
               SELECT 1 FROM weekly_digest_sends d
               WHERE d.user_id = u.id AND d.kind = 'weekly' AND d.period_key = ${isoWeekKey(new Date())}
             )
         `)
-      ).rows[0] as unknown as { due: number };
+      ).rows[0] as unknown as { due: number; undeliverable: number };
 
       const provider = await checkProvider();
       return NextResponse.json({
@@ -427,6 +461,7 @@ export async function GET(request: Request) {
         dryRun: true,
         week: isoWeekKey(new Date()),
         accountsDue: countRow?.due ?? 0,
+        excludedUndeliverable: countRow?.undeliverable ?? 0,
         provider,
       });
     }
@@ -446,6 +481,7 @@ export async function GET(request: Request) {
             SELECT 1 FROM weekly_digest_sends d
             WHERE d.user_id = u.id AND d.kind = 'weekly' AND d.period_key = ${weekKey}
           )
+          AND ${UNDELIVERABLE_SQL}
         ORDER BY u.created_at ASC
         LIMIT ${MAX_PER_RUN}
       `)
