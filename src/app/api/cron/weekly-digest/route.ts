@@ -52,11 +52,28 @@ const UNDELIVERABLE_DOMAINS = [
   "nursegrid.app",
 ];
 
+/**
+ * Addresses the provider has told us are dead, learned rather than listed.
+ *
+ * The first real send produced 9 hard bounces — "550-5.1.1 the email account
+ * that you tried to reach does not exist". Those are permanent: retrying them
+ * every week achieves nothing except raising the bounce rate, and bounce rate
+ * is what gets a sender throttled. At 169 recipients, nine dead addresses is
+ * over 5%, past the point where mailbox providers start noticing.
+ *
+ * `email_bounces` is filled from the provider's own event log after each send,
+ * so this stays correct without anybody maintaining a list.
+ */
+const PERMANENTLY_UNDELIVERABLE_SQL = sql`
+  NOT EXISTS (SELECT 1 FROM email_bounces b WHERE lower(b.email) = lower(u.email))
+`;
+
 const UNDELIVERABLE_SQL = sql`
   lower(split_part(u.email, '@', 2)) NOT IN (${sql.join(
     UNDELIVERABLE_DOMAINS.map((d) => sql`${d}`),
     sql`, `,
   )})
+  AND ${PERMANENTLY_UNDELIVERABLE_SQL}
 `;
 
 let tablesEnsured = false;
@@ -70,6 +87,14 @@ async function ensureTables() {
       "period_key" text NOT NULL,
       "sent_at" timestamptz NOT NULL DEFAULT now(),
       PRIMARY KEY ("user_id", "kind", "period_key")
+    )
+  `);
+  await db.execute(sql`
+    CREATE TABLE IF NOT EXISTS "email_bounces" (
+      "email" text PRIMARY KEY,
+      "kind" text NOT NULL,
+      "reason" text,
+      "created_at" timestamptz NOT NULL DEFAULT now()
     )
   `);
   await db.execute(sql`
@@ -270,6 +295,7 @@ async function reconcileBatch(
   rejected: number;
   unconfirmed: number;
   rolledBack: number;
+  bounced?: number;
   reason: string | null;
 }> {
   const none = { checked: false, delivered: 0, rejected: 0, unconfirmed: 0, rolledBack: 0, reason: null };
@@ -294,6 +320,7 @@ async function reconcileBatch(
   const classify = (events: Ev[]) => {
     const rejected = new Set<string>();
     const delivered = new Set<string>();
+    const bounced = new Map<string, { kind: string; reason: string | null }>();
     let reason: string | null = null;
     for (const e of events) {
       if (!e.email) continue;
@@ -301,11 +328,16 @@ async function reconcileBatch(
       if (e.event === "error") {
         rejected.add(email);
         reason ??= e.reason?.trim() ?? null;
+      } else if (e.event === "hardBounces" || e.event === "softBounces") {
+        // A hard bounce is permanent: the mailbox does not exist. Retrying it
+        // next week only adds to the bounce rate that gets senders throttled,
+        // so it is remembered and excluded from future batches.
+        bounced.set(email, { kind: e.event, reason: e.reason?.trim() ?? null });
       } else if (e.event === "delivered" || e.event === "opened" || e.event === "clicks" || e.event === "uniqueOpened") {
         delivered.add(email);
       }
     }
-    return { rejected, delivered, reason };
+    return { rejected, delivered, bounced, reason };
   };
 
   try {
@@ -317,14 +349,14 @@ async function reconcileBatch(
     if (events === null) {
       return { ...none, checked: false, reason: "the key cannot read the event log" };
     }
-    let { rejected, delivered, reason } = classify(events);
+    let { rejected, delivered, bounced, reason } = classify(events);
 
     const known = new Set([...rejected, ...delivered]);
     const unknownCount = recipients.filter((r) => !known.has(r.email.toLowerCase())).length;
     if (unknownCount > 0 && rejected.size > 0) {
       await new Promise((r) => setTimeout(r, 6000));
       events = (await readEvents()) ?? events;
-      ({ rejected, delivered, reason } = classify(events));
+      ({ rejected, delivered, bounced, reason } = classify(events));
     }
 
     const allKnown = new Set([...rejected, ...delivered]);
@@ -347,6 +379,15 @@ async function reconcileBatch(
       `);
     }
 
+    // Remember dead mailboxes so they are never retried.
+    for (const [email, info] of bounced) {
+      await db.execute(sql`
+        INSERT INTO email_bounces (email, kind, reason)
+        VALUES (${email}, ${info.kind}, ${info.reason})
+        ON CONFLICT (email) DO UPDATE SET kind = EXCLUDED.kind, reason = EXCLUDED.reason
+      `);
+    }
+
     return {
       checked: true,
       // Only messages with a delivery event are called delivered. Subtracting
@@ -355,6 +396,7 @@ async function reconcileBatch(
       rejected: recipients.filter((r) => rejected.has(r.email.toLowerCase())).length,
       unconfirmed: unconfirmed.length,
       rolledBack: uniqueIds.length,
+      bounced: bounced.size,
       reason,
     };
   } catch (e) {
@@ -527,6 +569,7 @@ export async function GET(request: Request) {
       delivered: verdict.checked ? verdict.delivered : null,
       rejected: verdict.checked ? verdict.rejected : null,
       unconfirmed: verdict.checked ? verdict.unconfirmed : null,
+      bounced: verdict.bounced ?? null,
       rolledBack: verdict.rolledBack,
       verification: verdict.checked
         ? verdict.rejected > 0 || verdict.unconfirmed > 0
