@@ -1,6 +1,7 @@
 import { QUESTION_COUNT_LABEL } from "@/lib/question-count";
+import { SITE_URL } from "@/lib/site-url";
 export default function StructuredData() {
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
+  const baseUrl = SITE_URL;
 
   const data = {
     "@context": "https://schema.org",

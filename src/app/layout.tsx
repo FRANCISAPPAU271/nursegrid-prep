@@ -11,6 +11,7 @@ import BrowserTip from "@/components/ui/BrowserTip";
 import SecurityGuard from "@/components/ui/SecurityGuard";
 import { ToastProvider } from "@/components/ui/Toast";
 import { QUESTION_COUNT_LABEL } from "@/lib/question-count";
+import { SITE_URL } from "@/lib/site-url";
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -23,7 +24,7 @@ const description =
   `Built for Ghana's student nurses & midwives: organise clinicals and revision, then master ${QUESTION_COUNT_LABEL} unique NMC licensing-style questions with rationales that teach real clinical reasoning. From GH₵ 80 — one-time payment, never auto-billed.`;
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"),
+  metadataBase: new URL(SITE_URL),
   title: { default: title, template: "%s · NurseGrid Prep" },
   description,
   keywords: [
