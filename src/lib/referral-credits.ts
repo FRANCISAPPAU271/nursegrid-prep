@@ -45,7 +45,22 @@ export const MIN_PAYABLE_PESEWAS = 1_00;
 
 let tablesEnsured = false;
 
-async function ensureTables() {
+/**
+ * Idempotent DDL for everything the referral feature adds to the schema.
+ *
+ * This project deploys without a migration step, so a column exists only once
+ * this function has run somewhere. Every code path that *writes* the new
+ * columns calls it first — but so must the code paths that merely *read*
+ * them, which is why it is exported: the Drizzle schema names
+ * `invoices.discount_pesewas`, so a plain `select()` touches the column even
+ * on a query that does not care about discounts. Without an explicit call
+ * ahead of that query, the first logged-in page view after a deploy could
+ * 500 before any writer had a chance to create the column.
+ *
+ * Safe to call anywhere, as often as you like: after the first successful
+ * run in a process it returns immediately.
+ */
+export async function ensureTables() {
     if (tablesEnsured) return;
     await db.execute(sql`
         CREATE TABLE IF NOT EXISTS "referral_credits" (

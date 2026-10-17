@@ -5,12 +5,17 @@ import { and, eq, sql } from "drizzle-orm";
 import { requireAdmin, handleApiError, ApiError } from "@/lib/api";
 import { PLAN_DETAILS, type PlanId } from "@/lib/stripe";
 import { isEmailConfigured, momoPaymentStatusEmail, sendEmail } from "@/lib/email";
-import { awardReferralCredit, recordInvoiceDiscount, spendCredit } from "@/lib/referral-credits";
+import { awardReferralCredit, ensureTables, recordInvoiceDiscount, spendCredit } from "@/lib/referral-credits";
 
 export async function POST(_request: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
     const admin = await requireAdmin();
     const { id } = await params;
+
+    // select() names every declared column, including the discount columns
+    // that only exist once the runtime DDL has run. A pending request created
+    // before this deploy could otherwise be impossible to approve.
+    await ensureTables();
 
     const rows = await db.select().from(momoPaymentRequests).where(eq(momoPaymentRequests.id, id)).limit(1);
     const reqRow = rows[0];

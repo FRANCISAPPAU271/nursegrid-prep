@@ -3,6 +3,7 @@ import { db } from "@/db";
 import { subscriptions, invoices, users } from "@/db/schema";
 import { and, eq } from "drizzle-orm";
 import { PLAN_DETAILS, type PlanId } from "@/lib/stripe";
+import { PLAN_PRICES_PESEWAS } from "@/lib/pricing";
 import { awardReferralCredit, recordInvoiceDiscount, spendCredit } from "@/lib/referral-credits";
 
 // ---------------------------------------------------------------------------
@@ -20,12 +21,6 @@ import { awardReferralCredit, recordInvoiceDiscount, spendCredit } from "@/lib/r
 export function isPaystackConfigured(): boolean {
   return Boolean(process.env.PAYSTACK_SECRET_KEY);
 }
-
-export const PLAN_GHS_PESEWAS: Record<PlanId, number> = {
-  four_month: 80_00, // GH₵ 80
-  eight_month: 140_00, // GH₵ 140
-  annual: 200_00, // GH₵ 200
-};
 
 const API = "https://api.paystack.co";
 
@@ -53,7 +48,7 @@ export async function initializeTransaction(params: {
 }): Promise<{ authorizationUrl: string; reference: string }> {
   const basePayload = {
     email: params.email,
-    amount: params.amountPesewas ?? PLAN_GHS_PESEWAS[params.planId],
+    amount: params.amountPesewas ?? PLAN_PRICES_PESEWAS[params.planId],
     currency: "GHS",
     callback_url: params.callbackUrl,
     metadata: {

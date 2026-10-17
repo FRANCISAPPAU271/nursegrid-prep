@@ -4,6 +4,7 @@ import { db } from "@/db";
 import { momoPaymentRequests, users } from "@/db/schema";
 import { desc, eq } from "drizzle-orm";
 import AdminMomoReview from "@/components/admin/AdminMomoReview";
+import { ensureTables } from "@/lib/referral-credits";
 import type { MomoPaymentRequest } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
@@ -12,6 +13,10 @@ export default async function AdminPaymentsPage() {
   const user = await getCurrentUser();
   if (!user) redirect("/login");
   if (!user.isAdmin) redirect("/dashboard");
+
+  // The discount columns are created by idempotent DDL at runtime, never by a
+  // migration during deploy. Create them before selecting them.
+  await ensureTables();
 
   const rows = await db
     .select({

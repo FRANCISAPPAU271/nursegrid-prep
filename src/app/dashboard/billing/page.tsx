@@ -3,7 +3,7 @@ import { db } from "@/db";
 import { subscriptions, invoices } from "@/db/schema";
 import { desc, eq } from "drizzle-orm";
 import BillingPanel from "@/components/billing/BillingPanel";
-import { creditBalance } from "@/lib/referral-credits";
+import { creditBalance, ensureTables } from "@/lib/referral-credits";
 import type { Invoice, Subscription } from "@/lib/types";
 import { isStripeConfigured } from "@/lib/stripe";
 import SupportCard from "@/components/contact/SupportCard";
@@ -14,9 +14,17 @@ export default async function BillingPage() {
   const user = await getCurrentUser();
   if (!user) return null;
 
-  const [subRows, invoiceRows] = await Promise.all([
+  // Invoice rows now carry discount_pesewas, and select() names that column
+  // whether or not the caller asks for it. The column is created by
+  // idempotent DDL, not by a migration during deploy, so run the DDL before
+  // the first SELECT — this page must not be the thing that discovers the
+  // column is missing, because it would 500 for every logged-in user.
+  await ensureTables();
+
+  const [subRows, invoiceRows, credit] = await Promise.all([
     db.select().from(subscriptions).where(eq(subscriptions.userId, user.id)).orderBy(desc(subscriptions.createdAt)),
     db.select().from(invoices).where(eq(invoices.userId, user.id)).orderBy(desc(invoices.issuedAt)),
+    creditBalance(user.id),
   ]);
 
   const subs: Subscription[] = subRows.map((s) => ({
@@ -58,7 +66,7 @@ export default async function BillingPage() {
         subscriptions={subs}
         invoices={invs}
         stripeEnabled={isStripeConfigured()}
-        creditBalancePesewas={(await creditBalance(user.id)).balancePesewas}
+        creditBalancePesewas={credit.balancePesewas}
       />
       <div className="mt-6">
         <SupportCard message="Hi NurseGrid Prep! I need help confirming a payment on my account." />
