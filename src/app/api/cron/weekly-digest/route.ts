@@ -9,19 +9,19 @@ export const dynamic = "force-dynamic";
 export const maxDuration = 60;
 
 // ---------------------------------------------------------------------------
-// Weekly email job: a general reminder to subscribe, plus what's new.
+// Weekly email job: one general reminder to subscribe, plus what's new.
 //
-// Runs daily at 07:00 UTC (07:00 Ghana) rather than weekly. Each user gets at
-// most ONE email per ISO week, but the list is metered across daily batches,
-// which keeps every run inside the function limit and inside Brevo's 300/day
-// free tier. On a small list it finishes in a single run.
+// The email itself is identical for everyone, so this route only has to answer
+// one question: who has not had this week's email yet? No segments, no
+// per-user copy, no subscription lookup.
 //
-// Idempotency: weekly_digest_sends is keyed on
-// (user_id, kind, period_key), so a retry or a manual invocation can never
-// email the same person twice for the same week.
+// Runs daily at 07:00 UTC and meters the list across batches, so a long list
+// never trips the function timeout or Brevo's 300/day free tier. Each person
+// still gets at most ONE email per ISO week, enforced by the primary key on
+// weekly_digest_sends — a retry or a manual run cannot double-send.
 //
-// Auth: Vercel cron sends "Authorization: Bearer $CRON_SECRET". With no
-// secret set the job fails closed rather than becoming a public mail cannon.
+// Fails closed if CRON_SECRET is unset, so it can never become a public
+// mail cannon.
 // ---------------------------------------------------------------------------
 
 const MAX_PER_RUN = Number(process.env.WEEKLY_DIGEST_BATCH ?? 200);
@@ -76,13 +76,7 @@ async function mapLimit<T, R>(items: T[], limit: number, fn: (item: T) => Promis
   return out;
 }
 
-type Row = {
-  id: string;
-  name: string;
-  email: string;
-  is_premium: boolean;
-  access_ends_on: string | null;
-};
+type Row = { id: string; name: string; email: string };
 
 export async function GET(request: Request) {
   try {
@@ -104,19 +98,8 @@ export async function GET(request: Request) {
 
     const rows = (
       await db.execute(sql`
-        SELECT u.id,
-               u.name,
-               u.email,
-               u.is_premium,
-               s.current_period_end AS access_ends_on
+        SELECT u.id, u.name, u.email
         FROM users u
-        LEFT JOIN LATERAL (
-          SELECT current_period_end
-          FROM subscriptions
-          WHERE user_id = u.id AND status = 'active'
-          ORDER BY current_period_end DESC
-          LIMIT 1
-        ) s ON true
         WHERE u.is_admin = false
           AND u.created_at < ${newAccountCutoff.toISOString()}::timestamptz
           AND NOT EXISTS (SELECT 1 FROM email_optouts e WHERE lower(e.email) = lower(u.email))
@@ -129,23 +112,12 @@ export async function GET(request: Request) {
       `)
     ).rows as unknown as Row[];
 
-    const sent = { premium: 0, free: 0 };
+    let sent = 0;
     const errors: string[] = [];
-
-    const fmt = (iso: string | null) =>
-      iso
-        ? new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "long", year: "numeric" }).format(new Date(iso))
-        : null;
 
     await mapLimit(rows, CONCURRENCY, async (u) => {
       try {
-        const isPremium = Boolean(u.is_premium);
-        const { subject, html } = weeklyDigestEmail({
-          userId: u.id,
-          name: u.name,
-          isPremium,
-          accessEndsOn: fmt(u.access_ends_on),
-        });
+        const { subject, html } = weeklyDigestEmail({ userId: u.id, name: u.name });
 
         await sendEmail(u.email, subject, html, {
           unsubscribeUrl: unsubscribeUrl(APP_URL, u.id) || undefined,
@@ -157,8 +129,7 @@ export async function GET(request: Request) {
           ON CONFLICT DO NOTHING
         `);
 
-        if (isPremium) sent.premium += 1;
-        else sent.free += 1;
+        sent += 1;
       } catch (e) {
         errors.push(`digest:${u.id}: ${e instanceof Error ? e.message : "send failed"}`);
       }
@@ -167,9 +138,9 @@ export async function GET(request: Request) {
     return NextResponse.json({
       ok: true,
       week: weekKey,
-      sent: { total: sent.premium + sent.free, ...sent },
+      sent,
       batchLimit: MAX_PER_RUN,
-      remainingThisWeek: rows.length === MAX_PER_RUN ? "more queued for tomorrow's run" : 0,
+      moreQueuedForTomorrow: rows.length === MAX_PER_RUN,
       errors: errors.slice(0, 20),
     });
   } catch (error) {
