@@ -6,6 +6,7 @@ import Faq from "@/components/marketing/Faq";
 import WaitlistForm from "@/components/marketing/WaitlistForm";
 import SiteFooter from "@/components/marketing/SiteFooter";
 import StructuredData from "@/components/marketing/StructuredData";
+import FaqSchema from "@/components/marketing/FaqSchema";
 import { buildWhatsAppLink } from "@/lib/contact";
 import { QUESTION_COUNT_LABEL } from "@/lib/question-count";
 
@@ -56,6 +57,7 @@ export default async function HomePage() {
   return (
     <main className="min-h-screen bg-[#f6f8f5]">
       <StructuredData />
+      <FaqSchema />
       <a
         href="#main-content"
         className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-slate-950 focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-white"
@@ -133,19 +135,27 @@ export default async function HomePage() {
                 Start 3-day free premium trial
               </Link>
               <Link
-                href="/login"
-                className="rounded-2xl border-2 border-emerald-50/25 px-7 py-4 text-center text-base font-bold text-emerald-50 transition hover:border-lime-400 hover:text-lime-300"
-              >
-                              I have an account
-              </Link>
-              <Link
                 href="/sample-questions"
-                className="text-center text-sm font-bold text-lime-300 hover:text-white hover:underline"
+                className="rounded-2xl border-2 border-emerald-50/25 px-7 py-4 text-center text-base font-bold text-emerald-50 transition hover:border-lime-400 hover:text-lime-300"
               >
                 Try 5 free questions →
               </Link>
             </div>
-            <p className="mt-5 text-xs leading-relaxed text-emerald-100/50 sm:text-sm">
+            <ul className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 text-xs font-semibold text-emerald-100/70 sm:text-sm">
+              <li className="flex items-center gap-1.5">
+                <span aria-hidden>📱</span> Pay with MTN MoMo or Visa
+              </li>
+              <li className="flex items-center gap-1.5">
+                <span aria-hidden>🔒</span> One-time payment
+              </li>
+              <li className="flex items-center gap-1.5">
+                <span aria-hidden>🚫</span> Never auto-billed
+              </li>
+              <li className="flex items-center gap-1.5">
+                <span aria-hidden>💬</span> WhatsApp support
+              </li>
+            </ul>
+            <p className="mt-4 text-xs leading-relaxed text-emerald-100/50 sm:text-sm">
               <b className="text-lime-300">3 days of full premium free</b> — every question, mock exams &amp; readiness ·
               No card needed to start
             </p>
@@ -191,6 +201,68 @@ export default async function HomePage() {
           ))}
         </div>
       </div>
+
+      {/* HOW IT WORKS */}
+      <section id="how" className="mx-auto max-w-6xl px-4 py-16 sm:px-6 md:py-20">
+        <span className="inline-block rounded-full bg-emerald-100 px-4 py-1.5 text-xs font-extrabold uppercase tracking-widest text-emerald-700">
+          How it works
+        </span>
+        <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-slate-950 sm:text-4xl">
+          From curious to prepared
+          <br />
+          in three steps.
+        </h2>
+        <p className="mt-3 max-w-2xl text-slate-600">
+          No card, no download, no sales call. You can be answering real licensing-style questions in under two
+          minutes.
+        </p>
+
+        <ol className="mt-12 grid gap-5 md:grid-cols-3">
+          {[
+            {
+              step: "1",
+              icon: "👀",
+              title: "See the questions first",
+              body: "Answer five free licensing-style questions with full rationales. No account needed — judge the teaching quality before you give us anything.",
+            },
+            {
+              step: "2",
+              icon: "🚀",
+              title: "Unlock 3 days of everything",
+              body: "Create an account and get every question, mock exam, readiness score and the strategy library free for three days. No card required.",
+            },
+            {
+              step: "3",
+              icon: "📱",
+              title: "Pay only when it's working",
+              body: "If it's helping, choose an access period and pay once with MTN MoMo or Visa. One-time payment, never auto-billed.",
+            },
+          ].map((s) => (
+            <li
+              key={s.step}
+              className="relative rounded-3xl border border-slate-900/5 bg-white p-7 transition hover:-translate-y-1 hover:shadow-xl"
+            >
+              <span className="absolute right-6 top-5 text-5xl font-extrabold leading-none text-emerald-500/10">
+                {s.step}
+              </span>
+              <span className="grid h-11 w-11 place-items-center rounded-xl bg-emerald-500/10 text-xl">
+                {s.icon}
+              </span>
+              <h3 className="mt-4 text-lg font-extrabold text-slate-950">{s.title}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-slate-600">{s.body}</p>
+            </li>
+          ))}
+        </ol>
+
+        <div className="mt-10">
+          <Link
+            href="/sample-questions"
+            className="inline-flex items-center gap-2 rounded-2xl bg-slate-950 px-6 py-3.5 text-sm font-extrabold text-white transition hover:bg-emerald-700"
+          >
+            Start with step 1 — free, no account →
+          </Link>
+        </div>
+      </section>
 
       {/* WHY */}
       <section id="why" className="mx-auto max-w-6xl px-4 py-16 sm:px-6 md:py-24">
@@ -277,6 +349,37 @@ export default async function HomePage() {
                 <p className="mt-2 text-sm text-slate-600">{f.description}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* MID-PAGE CTA */}
+      <section className="bg-white px-4 pb-16 sm:px-6">
+        <div className="mx-auto max-w-6xl overflow-hidden rounded-3xl bg-gradient-to-br from-emerald-700 to-emerald-900 px-6 py-10 text-center sm:px-10 sm:text-left">
+          <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
+            <div>
+              <h2 className="text-2xl font-extrabold tracking-tight text-white sm:text-3xl">
+                Still reading? Try the questions instead.
+              </h2>
+              <p className="mt-2 max-w-xl text-sm text-emerald-100/80">
+                Five full questions with rationales, free and without an account. It takes about four minutes and tells
+                you more than any landing page can.
+              </p>
+            </div>
+            <div className="flex shrink-0 flex-col gap-3 sm:flex-row">
+              <Link
+                href="/sample-questions"
+                className="rounded-xl bg-white px-6 py-3.5 text-center text-sm font-extrabold text-emerald-900 transition hover:bg-lime-300"
+              >
+                Try 5 questions free →
+              </Link>
+              <Link
+                href="/signup"
+                className="rounded-xl border-2 border-white/30 px-6 py-3.5 text-center text-sm font-bold text-white transition hover:border-lime-300 hover:text-lime-300"
+              >
+                Start free trial
+              </Link>
+            </div>
           </div>
         </div>
       </section>
@@ -371,9 +474,10 @@ export default async function HomePage() {
             </a>
           </div>
           <div className="mx-auto mt-12 max-w-md rounded-3xl border border-white/10 bg-white/5 p-6 text-left">
-            <p className="text-sm font-extrabold text-emerald-50">Not ready to sign up yet?</p>
+            <p className="text-sm font-extrabold text-emerald-50">Want free exam-day tips first?</p>
             <p className="mt-1 text-xs text-emerald-100/60">
-              Join the waitlist for weekly exam-day tips, new question drops, and early access to new features.
+              Join the list for weekly exam-day tips, new question drops, and early access to new features. Leave any
+              time — no spam.
             </p>
             <div className="mt-4">
               <WaitlistForm />

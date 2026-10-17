@@ -41,7 +41,7 @@ export default async function SignupPage({
               <li><b>1.</b> Enter your name, email and password.</li>
               <li><b>2.</b> Choose a security question and remember your answer.</li>
               <li><b>3.</b> Verify your phone if SMS verification appears.</li>
-              <li><b>4.</b> Start your 48-hour free access.</li>
+              <li><b>4.</b> Start your 3 days of full premium access.</li>
             </ol>
             <div className="mt-3 flex flex-wrap gap-3 text-xs font-bold">
               <Link href="/sample-questions" className="text-emerald-700 hover:underline">Try sample questions</Link>
