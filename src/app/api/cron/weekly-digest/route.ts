@@ -225,13 +225,70 @@ export async function GET(request: Request) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
-    const dryRun = new URL(request.url).searchParams.get("dryRun") === "1";
+    const params = new URL(request.url).searchParams;
+    const dryRun = params.get("dryRun") === "1";
+    const verify = params.get("verify") === "1";
+    const reset = params.get("reset") === "1";
+    const currentWeek = isoWeekKey(new Date());
 
     if (!isEmailConfigured()) {
       return NextResponse.json({ ok: true, skipped: "email not configured (set BREVO_API_KEY + EMAIL_FROM)" });
     }
 
     await ensureTables();
+
+    // `?reset=1` clears this week's ledger so the same people can be sent to
+    // again. Needed when sends were accepted by the provider but rejected
+    // afterwards (an unverified sender, for instance) and therefore never
+    // reached anybody: the normal path would otherwise wait a whole week.
+    if (reset) {
+      const deleted = await db.execute(sql`
+        DELETE FROM weekly_digest_sends
+        WHERE kind = 'weekly' AND period_key = ${currentWeek}
+      `);
+      return NextResponse.json({
+        ok: true,
+        reset: currentWeek,
+        rowsDeleted: (deleted as unknown as { rowCount?: number }).rowCount ?? null,
+      });
+    }
+
+    // `?verify=1` asks the provider what actually happened to recent sends.
+    // A 2xx from the send endpoint only means "accepted"; the real outcome
+    // (delivered, rejected for an unverified sender, bounced) shows up here.
+    if (verify) {
+      if (!process.env.BREVO_API_KEY) {
+        return NextResponse.json({ ok: false, error: "verify needs BREVO_API_KEY" }, { status: 400 });
+      }
+      const res = await fetch(
+        "https://api.brevo.com/v3/smtp/statistics/events?limit=500&days=2&sort=desc",
+        { headers: { "api-key": process.env.BREVO_API_KEY.trim(), Accept: "application/json" } },
+      );
+      if (!res.ok) {
+        return NextResponse.json({ ok: false, error: `Brevo statistics returned ${res.status}` }, { status: 502 });
+      }
+      const body = (await res.json().catch(() => ({}))) as {
+        events?: { event?: string; reason?: string; email?: string }[];
+      };
+      const events = body.events ?? [];
+      const counts: Record<string, number> = {};
+      const reasons: Record<string, number> = {};
+      for (const e of events) {
+        const k = e.event ?? "unknown";
+        counts[k] = (counts[k] ?? 0) + 1;
+        if (k === "error" && e.reason) reasons[e.reason.trim()] = (reasons[e.reason.trim()] ?? 0) + 1;
+      }
+      const delivered = (counts.delivered ?? 0) + (counts.opened ?? 0) + (counts.clicks ?? 0);
+      return NextResponse.json({
+        ok: delivered > 0 || (counts.error ?? 0) === 0,
+        checkedEvents: events.length,
+        counts,
+        topReasons: Object.entries(reasons)
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, 3)
+          .map(([reason, n]) => ({ reason, count: n })),
+      });
+    }
 
     // `?dryRun=1` reports exactly what a real run would do — how many people are
     // due, and whether the provider would accept the message — without sending.
