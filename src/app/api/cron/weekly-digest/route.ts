@@ -256,12 +256,23 @@ async function checkProvider(): Promise<{
       });
 
       if (res.status === 401) {
+        // Two very different 401s. A key created with "Sending access" only is
+        // perfectly good for this job and is refused by every read endpoint,
+        // including this one; an unknown key is a real problem. Reading the
+        // body tells them apart, and conflating them would have this route
+        // report a healthy send-only key as broken - the same class of mistake
+        // as "sent: 173" when nothing had been delivered.
+        const body = (await res.json().catch(() => ({}))) as { message?: string; name?: string };
+        const restricted =
+          body.name === "restricted_api_key" || /restricted to only send/i.test(body.message ?? "");
         return {
           provider: "resend",
-          keyValid: false,
-          canSend: false,
+          keyValid: restricted,
+          canSend: restricted,
           senderVerified: null,
-          detail: "Resend rejected the key. Create a new one at Resend -> API Keys; they start with re_.",
+          detail: restricted
+            ? "Key is valid and limited to sending, so domain verification cannot be read with this scope. A real test send is the proof: use ?to=address."
+            : "Resend rejected the key. Create a new one at Resend -> API Keys; they start with re_.",
         };
       }
       if (!res.ok) {
