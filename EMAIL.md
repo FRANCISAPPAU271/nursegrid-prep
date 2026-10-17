@@ -54,6 +54,31 @@ What the replies mean:
 | `{"error":"Unauthorized"}` | Missing or wrong `CRON_SECRET`, or it isn't set at all. |
 | `sent: 0` | Working, but everybody already had this week's email (or there are no users yet). |
 
+### Checking it without sending anything
+
+Add `?dryRun=1`:
+
+```bash
+curl -H "Authorization: Bearer YOUR_CRON_SECRET" \
+  "https://nursegridprep.com/api/cron/weekly-digest?dryRun=1"
+```
+
+```json
+{ "ok": true, "dryRun": true, "week": "2026-W42", "accountsDue": 173,
+  "provider": { "provider": "brevo", "keyValid": true, "keyKind": "api",
+                "canSend": true, "senderVerified": null,
+                "detail": "Key is accepted and permitted to send. ..." } }
+```
+
+It answers two questions that used to require a real send: **how many people are
+due right now**, and **would Brevo accept the request**. It probes the send
+endpoint with an empty body, which cannot deliver anything.
+
+- `keyKind: "smtp"` means an SMTP relay password (`xsmtpsib-`) was stored instead
+  of an API key (`xkeysib-`). That was the actual cause of the first failed run.
+- `senderVerified: null` is normal for a send-only key — it is not permitted to
+  list senders. Only a real send proves the sender address is accepted.
+
 Running it twice in the same week is safe — the second run sends nothing,
 because the primary key on `weekly_digest_sends` records who has had week `2026-W42`.
 
