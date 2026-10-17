@@ -63,35 +63,49 @@ export default function LessonBlocks({ blocks }: { blocks: LessonBlock[] }) {
             return (
               <section key={i} className="space-y-2.5">
                 {block.heading && <Heading>{block.heading}</Heading>}
-                <div className="relative">
-                  <div className="sm:hidden mb-1 flex items-center justify-between text-[11px] font-semibold text-slate-400">
-                    <span>📊 Table</span>
-                    <span className="flex items-center gap-1 text-emerald-700">👉 Swipe horizontally to view full table</span>
-                  </div>
-                  <div className="overflow-x-auto rounded-xl border border-slate-200 overscroll-x-contain [-webkit-overflow-scrolling:touch]">
-                    <table className="w-full min-w-[500px] border-collapse text-left text-sm">
-                      <thead className="bg-slate-50">
-                        <tr>
-                          {block.columns.map((c, j) => (
-                            <th key={j} className="border-b border-slate-200 px-3 py-2 text-xs font-bold uppercase tracking-wide text-slate-600">
-                              {c}
-                            </th>
+                
+                {/* Mobile portrait: responsive stacked cards so phone never needs to be rotated */}
+                <div className="space-y-3 sm:hidden">
+                  {block.rows.map((row, r) => (
+                    <div key={r} className="rounded-xl border border-slate-200 bg-white p-3.5 shadow-xs space-y-2">
+                      {row.map((cell, c) => (
+                        <div key={c} className="text-xs leading-relaxed">
+                          <span className="block text-[10px] font-bold uppercase tracking-wide text-emerald-800 mb-0.5">
+                            {block.columns[c] ?? `Item ${c + 1}`}
+                          </span>
+                          <span className={c === 0 ? "font-semibold text-slate-900" : "text-slate-700"}>
+                            <InlineText text={cell} />
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  ))}
+                </div>
+
+                {/* Tablet and Desktop: full data table */}
+                <div className="hidden sm:block overflow-x-auto rounded-xl border border-slate-200">
+                  <table className="w-full border-collapse text-left text-sm">
+                    <thead className="bg-slate-50">
+                      <tr>
+                        {block.columns.map((c, j) => (
+                          <th key={j} className="border-b border-slate-200 px-3 py-2 text-xs font-bold uppercase tracking-wide text-slate-600">
+                            {c}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {block.rows.map((row, r) => (
+                        <tr key={r} className={r % 2 === 1 ? "bg-slate-50/60" : "bg-white"}>
+                          {row.map((cell, c) => (
+                            <td key={c} className={`border-b border-slate-100 px-3 py-2 align-top leading-relaxed text-slate-700 ${c === 0 ? "font-semibold text-slate-900" : ""}`}>
+                              <InlineText text={cell} />
+                            </td>
                           ))}
                         </tr>
-                      </thead>
-                      <tbody>
-                        {block.rows.map((row, r) => (
-                          <tr key={r} className={r % 2 === 1 ? "bg-slate-50/60" : "bg-white"}>
-                            {row.map((cell, c) => (
-                              <td key={c} className={`border-b border-slate-100 px-3 py-2 align-top leading-relaxed text-slate-700 ${c === 0 ? "font-semibold text-slate-900" : ""}`}>
-                                <InlineText text={cell} />
-                              </td>
-                            ))}
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
+                      ))}
+                    </tbody>
+                  </table>
                 </div>
               </section>
             );

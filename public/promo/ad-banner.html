@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NurseGrid Prep — Official Promotional Banner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>NurseGrid Prep — Official Promotional Banner & Mobile Ad</title>
   <style>
     * {
       margin: 0;
@@ -12,68 +12,143 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     }
     body {
-      background-color: #0f172a;
+      background-color: #0b1320;
+      color: #fff;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
       min-height: 100vh;
-      padding: 24px;
-      color: #fff;
+      padding: 16px 12px 40px;
     }
-    .banner-container {
+
+    /* Format Switcher (WhatsApp Status / Story / Web) */
+    .format-switcher {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(30, 41, 59, 0.95);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      padding: 6px 10px;
+      border-radius: 9999px;
+      margin-bottom: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+      max-width: 100%;
+      overflow-x: auto;
+    }
+    .format-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: #94a3b8;
+      padding-left: 6px;
+      white-space: nowrap;
+    }
+    .switch-btn {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #e2e8f0;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 11px;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+    .switch-btn:hover, .switch-btn.active {
+      background: #10b981;
+      border-color: #10b981;
+      color: #064e3b;
+    }
+
+    /* Outer Card / Banner */
+    .ad-card {
       width: 100%;
-      max-width: 1200px;
-      background: linear-gradient(135deg, #064e3b 0%, #065f46 35%, #047857 70%, #0d9488 100%);
+      max-width: 420px; /* Perfect smartphone portrait width */
+      background: linear-gradient(160deg, #064e3b 0%, #065f46 25%, #047857 60%, #0d9488 100%);
       border-radius: 28px;
-      padding: 48px;
-      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.1);
+      padding: 24px 20px;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.15);
       position: relative;
       overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      transition: max-width 0.3s ease;
+    }
+
+    /* Widescreen mode override if user switches to desktop billboard */
+    .ad-card.desktop-mode {
+      max-width: 1050px;
       display: grid;
       grid-template-columns: 1.2fr 0.8fr;
-      gap: 40px;
+      padding: 40px;
+      gap: 36px;
       align-items: center;
     }
-    /* Subtle background medical pattern glow */
-    .banner-container::before {
+
+    /* Decorative background medical gradient orb */
+    .ad-card::before {
       content: "";
       position: absolute;
-      top: -100px;
-      right: -100px;
-      width: 450px;
-      height: 450px;
-      background: radial-gradient(circle, rgba(52, 211, 153, 0.25) 0%, transparent 70%);
+      top: -80px;
+      right: -80px;
+      width: 280px;
+      height: 280px;
+      background: radial-gradient(circle, rgba(52, 211, 153, 0.35) 0%, transparent 70%);
       border-radius: 50%;
       pointer-events: none;
     }
-    .banner-content {
+
+    /* Header & Brand Badge */
+    .header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       position: relative;
       z-index: 2;
     }
     .brand-badge {
       display: inline-flex;
       align-items: center;
-      gap: 8px;
-      background: rgba(255, 255, 255, 0.15);
-      backdrop-filter: blur(8px);
-      padding: 8px 16px;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.18);
+      backdrop-filter: blur(10px);
+      padding: 6px 12px;
       border-radius: 9999px;
-      font-size: 13px;
-      font-weight: 700;
+      font-size: 11px;
+      font-weight: 800;
       letter-spacing: 0.5px;
       text-transform: uppercase;
       color: #a7f3d0;
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      margin-bottom: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+    .gh-flag-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: rgba(0, 0, 0, 0.3);
+      padding: 4px 8px;
+      border-radius: 9999px;
+      font-size: 11px;
+      font-weight: 700;
+      color: #f1f5f9;
+    }
+
+    /* Main Typography */
+    .hero-text {
+      position: relative;
+      z-index: 2;
     }
     h1 {
-      font-size: 42px;
+      font-size: 28px;
       font-weight: 900;
-      line-height: 1.15;
-      letter-spacing: -0.8px;
-      margin-bottom: 16px;
+      line-height: 1.18;
+      letter-spacing: -0.6px;
+      margin-bottom: 8px;
       color: #ffffff;
+    }
+    .desktop-mode h1 {
+      font-size: 40px;
     }
     h1 span {
       background: linear-gradient(to right, #6ee7b7, #a7f3d0);
@@ -81,302 +156,287 @@
       -webkit-text-fill-color: transparent;
     }
     .subtitle {
-      font-size: 18px;
-      line-height: 1.5;
+      font-size: 13.5px;
+      line-height: 1.45;
       color: #e2e8f0;
-      margin-bottom: 28px;
-      max-width: 580px;
+      font-weight: 500;
     }
-    .feature-grid {
+
+    /* Features Grid */
+    .feature-list {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 14px;
-      margin-bottom: 32px;
+      gap: 8px 10px;
+      position: relative;
+      z-index: 2;
     }
     .feature-item {
       display: flex;
       align-items: center;
-      gap: 10px;
-      font-size: 15px;
-      font-weight: 600;
-      color: #f1f5f9;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      color: #f8fafc;
     }
     .feature-icon {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 28px;
-      height: 28px;
+      display: inline-grid;
+      place-items: center;
+      width: 18px;
+      height: 18px;
       background: #10b981;
       border-radius: 50%;
-      font-size: 14px;
-      font-weight: 800;
+      font-size: 10px;
+      font-weight: 900;
       color: #064e3b;
       flex-shrink: 0;
     }
-    .cta-row {
-      display: flex;
-      align-items: center;
-      gap: 18px;
-      flex-wrap: wrap;
-    }
-    .cta-btn {
+
+    /* Interactive Live Question Preview Card */
+    .question-card-preview {
       background: #ffffff;
-      color: #064e3b;
-      font-size: 16px;
-      font-weight: 800;
-      padding: 14px 28px;
-      border-radius: 14px;
-      text-decoration: none;
-      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      transition: all 0.2s;
-    }
-    .cta-btn:hover {
-      transform: translateY(-2px);
-      background: #f0fdf4;
-    }
-    .price-tag {
-      font-size: 14px;
-      color: #d1fae5;
-      font-weight: 600;
-    }
-    .price-tag strong {
-      color: #ffffff;
-      font-size: 18px;
-    }
-    /* Phone Mockup */
-    .mockup-wrapper {
+      border-radius: 20px;
+      padding: 14px;
+      box-shadow: 0 15px 35px -8px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.1);
+      color: #0f172a;
       position: relative;
       z-index: 2;
       display: flex;
-      justify-content: center;
-    }
-    .phone {
-      width: 290px;
-      height: 520px;
-      background: #020617;
-      border-radius: 40px;
-      padding: 12px;
-      box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.7), 0 0 0 6px #1e293b;
-      position: relative;
-      display: flex;
       flex-direction: column;
+      gap: 8px;
     }
-    .phone-screen {
-      flex: 1;
-      background: #f8fafc;
-      border-radius: 28px;
-      overflow: hidden;
+    .q-meta {
       display: flex;
-      flex-direction: column;
-      color: #0f172a;
-    }
-    .phone-header {
-      background: #065f46;
-      padding: 14px 16px;
-      color: #fff;
-      display: flex;
+      justify-content: space-between;
       align-items: center;
-      justify-content: space-between;
-    }
-    .phone-body {
-      padding: 14px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      flex: 1;
-    }
-    .q-badge-row {
-      display: flex;
-      justify-content: space-between;
-      font-size: 11px;
-      font-weight: 700;
+      font-size: 10.5px;
+      font-weight: 800;
       color: #047857;
+    }
+    .q-tag {
+      background: #dcfce7;
+      padding: 2px 7px;
+      border-radius: 6px;
     }
     .q-stem {
       font-size: 12px;
       font-weight: 700;
-      line-height: 1.4;
+      line-height: 1.35;
       color: #1e293b;
     }
-    .option {
-      background: #ffffff;
-      border: 1px solid #e2e8f0;
-      border-radius: 10px;
-      padding: 8px 10px;
-      font-size: 11px;
+    .q-choice {
       display: flex;
       align-items: center;
       gap: 8px;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      padding: 7px 9px;
+      border-radius: 9px;
+      font-size: 11px;
       color: #334155;
     }
-    .option.active {
-      border-color: #10b981;
+    .q-choice.correct {
       background: #ecfdf5;
-      color: #065f46;
+      border-color: #10b981;
+      color: #064e3b;
       font-weight: 700;
     }
-    .badge-icon {
-      width: 18px;
-      height: 18px;
+    .q-badge {
+      width: 16px;
+      height: 16px;
       border-radius: 50%;
       background: #e2e8f0;
       display: grid;
       place-items: center;
       font-size: 9px;
       font-weight: 800;
+      color: #64748b;
     }
-    .option.active .badge-icon {
+    .q-choice.correct .q-badge {
       background: #10b981;
       color: #fff;
     }
-    .rationale-preview {
+    .rationale-box {
       background: #f0fdf4;
       border: 1px solid #bbf7d0;
       border-radius: 8px;
-      padding: 8px;
-      font-size: 10px;
-      color: #166534;
+      padding: 6px 8px;
+      font-size: 9.5px;
       line-height: 1.35;
+      color: #166534;
     }
-    /* Floating trust pill */
-    .trust-pill {
-      position: absolute;
-      bottom: -15px;
-      left: -20px;
+
+    /* Call To Action & Pricing */
+    .action-container {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .cta-button {
       background: #ffffff;
       color: #064e3b;
-      padding: 10px 16px;
-      border-radius: 16px;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-      font-size: 12px;
+      font-size: 15px;
       font-weight: 800;
+      padding: 13px 20px;
+      border-radius: 14px;
+      text-decoration: none;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
       display: flex;
       align-items: center;
+      justify-content: center;
       gap: 8px;
-      border: 1px solid #e2e8f0;
+      transition: all 0.2s;
     }
-    @media (max-width: 900px) {
-      .banner-container {
-        grid-template-columns: 1fr;
-        padding: 32px 24px;
-        text-align: center;
-      }
-      .subtitle {
-        margin-left: auto;
-        margin-right: auto;
-      }
-      .feature-grid {
-        grid-template-columns: 1fr;
-        max-width: 320px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: left;
-      }
-      .cta-row {
-        justify-content: center;
-      }
-      .mockup-wrapper {
-        margin-top: 20px;
-      }
+    .cta-button:hover {
+      background: #f0fdf4;
+      transform: translateY(-2px);
+    }
+    .price-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 12px;
+      color: #d1fae5;
+    }
+    .price-badge {
+      background: rgba(0, 0, 0, 0.25);
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+    /* Trust strip at bottom */
+    .trust-strip {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-size: 10.5px;
+      font-weight: 700;
+      color: #a7f3d0;
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+      padding-top: 10px;
+      text-align: center;
     }
   </style>
 </head>
 <body>
 
-  <div class="banner-container">
-    <div class="banner-content">
+  <!-- Format Switcher -->
+  <div class="format-switcher">
+    <span class="format-label">📐 Ad Format:</span>
+    <button type="button" class="switch-btn active" onclick="setMode('portrait')">📱 Mobile Portrait (No Rotation)</button>
+    <button type="button" class="switch-btn" onclick="setMode('desktop')">💻 Desktop Billboard</button>
+  </div>
+
+  <!-- The Main Ad Card (Defaults to 100% Upright Mobile Portrait) -->
+  <div class="ad-card" id="adCard">
+    
+    <!-- Top Header -->
+    <div class="header-row">
       <div class="brand-badge">
-        <span>🩺</span> NurseGrid Prep · Ghana NMC Licensing
+        <span>🩺</span> NurseGrid Prep
       </div>
+      <div class="gh-flag-pill">
+        <span>🇬🇭</span> Ghana NMC 2026
+      </div>
+    </div>
+
+    <!-- Main Message -->
+    <div class="hero-text">
       <h1>Pass Your NMC Exam <span>First Time.</span></h1>
       <p class="subtitle">
-        Master clinical reasoning with 5,510 rationale-first NextGen scenario questions, all 35 pre-licensing nursing courses, and live adaptive testing.
+        5,510 rationale-first NextGen scenario questions, all 35 pre-licensing courses & live CAT simulator.
       </p>
+    </div>
 
-      <div class="feature-grid">
-        <div class="feature-item">
-          <span class="feature-icon">✓</span>
-          <span>5,510 Authored NCLEX Questions</span>
-        </div>
-        <div class="feature-item">
-          <span class="feature-icon">✓</span>
-          <span>All 35 Nursing School Courses</span>
-        </div>
-        <div class="feature-item">
-          <span class="feature-icon">✓</span>
-          <span>619 Diagnostic Visual Diagrams</span>
-        </div>
-        <div class="feature-item">
-          <span class="feature-icon">✓</span>
-          <span>Adaptive Test (CAT) Simulator</span>
-        </div>
-        <div class="feature-item">
-          <span class="feature-icon">✓</span>
-          <span>Works Offline in Rural Rotations</span>
-        </div>
-        <div class="feature-item">
-          <span class="feature-icon">✓</span>
-          <span>Instant MTN / Telecel MoMo</span>
-        </div>
+    <!-- Feature Badges -->
+    <div class="feature-list">
+      <div class="feature-item">
+        <span class="feature-icon">✓</span>
+        <span>5,510 NCLEX Questions</span>
       </div>
-
-      <div class="cta-row">
-        <a href="https://nursegrid-prep-l7l9-git-release-ncx-first-courses-francis-b50d.vercel.app/" class="cta-btn">
-          Start Free Practice Now →
-        </a>
-        <div class="price-tag">
-          From <strong>GH₵ 80</strong> · One-time payment
-        </div>
+      <div class="feature-item">
+        <span class="feature-icon">✓</span>
+        <span>All 35 Nursing Courses</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">✓</span>
+        <span>619 Bedside Diagrams</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">✓</span>
+        <span>Live Adaptive CAT Test</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">✓</span>
+        <span>Offline Mode for Clinicals</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">✓</span>
+        <span>Instant MoMo Payment</span>
       </div>
     </div>
 
-    <div class="mockup-wrapper">
-      <div class="phone">
-        <div class="phone-screen">
-          <div class="phone-header">
-            <span style="font-size: 11px; font-weight: 800;">🩺 NurseGrid Prep</span>
-            <span style="font-size: 10px; background: rgba(255,255,255,0.2); padding: 2px 6px; border-radius: 4px;">⏱ 01:12</span>
-          </div>
-          <div class="phone-body">
-            <div class="q-badge-row">
-              <span style="background: #dcfce7; padding: 2px 6px; border-radius: 4px;">Med-Surg</span>
-              <span style="color: #64748b;">Q12 of 150</span>
-            </div>
-            <div class="q-stem">
-              A client with severe heart failure develops acute dyspnea and pink frothy sputum. What is the priority nursing action?
-            </div>
-            <div class="option">
-              <span class="badge-icon">A</span>
-              <span>Encourage 2 Litres of oral fluids</span>
-            </div>
-            <div class="option active">
-              <span class="badge-icon">B</span>
-              <span>Place in High Fowler's & administer O2</span>
-            </div>
-            <div class="option">
-              <span class="badge-icon">C</span>
-              <span>Administer subcutaneous heparin</span>
-            </div>
-            <div class="option">
-              <span class="badge-icon">D</span>
-              <span>Perform passive leg raises immediately</span>
-            </div>
-            <div class="rationale-preview">
-              <strong>✓ Correct (High Fowler's):</strong> Minimizes venous return, reduces pulmonary capillary hydrostatic pressure, and maximizes lung expansion.
-            </div>
-          </div>
-        </div>
+    <!-- In-App Bedside Question Preview -->
+    <div class="question-card-preview">
+      <div class="q-meta">
+        <span class="q-tag">Med-Surg · Priority Care</span>
+        <span>Q12 of 150</span>
       </div>
-      <div class="trust-pill">
-        <span style="font-size: 16px;">🇬🇭</span>
-        <span>Used by student nurses across Ghana</span>
+      <div class="q-stem">
+        A client with severe acute pulmonary oedema develops sudden dyspnea and pink frothy sputum. What is the priority nursing action?
+      </div>
+      <div class="q-choice">
+        <span class="q-badge">A</span>
+        <span>Force oral hydration</span>
+      </div>
+      <div class="q-choice correct">
+        <span class="q-badge">B</span>
+        <span>High Fowler's position & High-flow O₂</span>
+      </div>
+      <div class="q-choice">
+        <span class="q-badge">C</span>
+        <span>Passive leg raise</span>
+      </div>
+      <div class="rationale-box">
+        <strong>✓ High Fowler's Position:</strong> Decreases venous return (preload) to relieve pulmonary congestion and maximizes diaphragmatic excursion.
       </div>
     </div>
+
+    <!-- Call to Action -->
+    <div class="action-container">
+      <a href="https://nursegrid-prep-l7l9-git-release-ncx-first-courses-francis-b50d.vercel.app/" class="cta-button">
+        Start Free Practice Questions →
+      </a>
+      <div class="price-row">
+        <span>Full Access from <strong>GH₵ 80</strong></span>
+        <span class="price-badge">MTN / Telecel MoMo</span>
+      </div>
+    </div>
+
+    <!-- Trust Footer -->
+    <div class="trust-strip">
+      <span>🔒 Official NurseGrid Prep · Built for Ghanaian Nursing Students</span>
+    </div>
+
   </div>
+
+  <script>
+    function setMode(mode) {
+      const card = document.getElementById('adCard');
+      document.querySelectorAll('.switch-btn').forEach(btn => btn.classList.remove('active'));
+      if (mode === 'desktop') {
+        card.classList.add('desktop-mode');
+        event.target.classList.add('active');
+      } else {
+        card.classList.remove('desktop-mode');
+        event.target.classList.add('active');
+      }
+    }
+  </script>
 
 </body>
 </html>
