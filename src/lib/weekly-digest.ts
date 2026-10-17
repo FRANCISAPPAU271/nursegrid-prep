@@ -122,6 +122,11 @@ export function weeklyDigestEmail(args: {
 
     <p style="margin:0 0 24px;">— NurseGrid Prep</p>
 
+    <p style="color:#94a3b8;font-size:12px;line-height:1.6;margin:0 0 8px;">
+      If this arrived in your Promotions tab, drag it into Primary once — Gmail
+      remembers, and every later one follows it.
+    </p>
+
     <p style="color:#94a3b8;font-size:12px;line-height:1.6;margin:0;">
       You get this because you created a NurseGrid Prep account. One email a week, nothing else.${
           unsub
@@ -146,6 +151,10 @@ export function weeklyDigestEmail(args: {
         ),
         "",
         "- NurseGrid Prep",
+        "",
+        wrap(
+            "If this arrived in your Promotions tab, drag it into Primary once - Gmail remembers, and every later one follows it.",
+        ),
         "",
         wrap("You get this because you created a NurseGrid Prep account. One email a week, nothing else."),
         unsub ? `Unsubscribe: ${unsub}` : "",
