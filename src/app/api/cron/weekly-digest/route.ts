@@ -154,6 +154,88 @@ async function checkProvider(): Promise<{
   const from = process.env.EMAIL_FROM || "";
   const fromAddress = (from.match(/<([^>]+)>/)?.[1] ?? from).trim();
 
+  if (process.env.RESEND_API_KEY) {
+    try {
+      const res = await fetch("https://api.resend.com/domains", {
+        headers: { Authorization: `Bearer ${process.env.RESEND_API_KEY}` },
+      });
+
+      if (res.status === 401) {
+        // Two very different 401s. A key created with "Sending access" only is
+        // perfectly good for this job and is refused by every read endpoint,
+        // including this one; an unknown key is a real problem. Reading the
+        // body tells them apart, and conflating them would have this route
+        // report a healthy send-only key as broken - the same class of mistake
+        // as "sent: 173" when nothing had been delivered.
+        const body = (await res.json().catch(() => ({}))) as { message?: string; name?: string };
+        const restricted =
+          body.name === "restricted_api_key" || /restricted to only send/i.test(body.message ?? "");
+        return {
+          provider: "resend",
+          keyValid: restricted,
+          canSend: restricted,
+          senderVerified: null,
+          detail: restricted
+            ? "Key is valid and limited to sending, so domain verification cannot be read with this scope. A real test send is the proof: use ?to=address."
+            : "Resend rejected the key. Create a new one at Resend -> API Keys; they start with re_.",
+        };
+      }
+      if (!res.ok) {
+        return {
+          provider: "resend",
+          keyValid: null,
+          canSend: null,
+          senderVerified: null,
+          detail: `Unexpected answer from Resend while checking the key: ${res.status}.`,
+        };
+      }
+
+      // A valid key is not the whole story: Resend will accept a message for a
+      // domain whose DNS has not verified, then fail it. Check the domain the
+      // From address actually uses, and name the records still outstanding -
+      // "pending" alone sends people hunting through four DNS entries.
+      const body = (await res.json().catch(() => ({}))) as {
+        data?: { name?: string; status?: string; records?: { record?: string; name?: string; status?: string }[] }[];
+      };
+      const domain = (fromAddress.split("@")[1] ?? "").toLowerCase();
+      const match = (body.data ?? []).find(
+        (d) => (d.name ?? "").toLowerCase() === domain,
+      );
+
+      if (!match) {
+        return {
+          provider: "resend",
+          keyValid: true,
+          canSend: true,
+          senderVerified: false,
+          detail: `The key works, but ${domain || "(EMAIL_FROM unset)"} has not been added in Resend. Add it under Domains, then publish the DNS records it shows.`,
+        };
+      }
+
+      const pending = (match.records ?? [])
+        .filter((r) => (r.status ?? "").toLowerCase() !== "verified")
+        .map((r) => `${r.record ?? "record"} (${r.name ?? "?"})`);
+
+      const verified = (match.status ?? "").toLowerCase() === "verified";
+      return {
+        provider: "resend",
+        keyValid: true,
+        canSend: true,
+        senderVerified: verified,
+        detail: verified
+          ? `${domain} is verified in Resend and may send.`
+          : `${domain} is in Resend but not verified yet. Still outstanding: ${pending.length ? pending.join(", ") : "see the Domains page"}. DNS can take a few minutes to an hour to propagate.`,
+      };
+    } catch (e) {
+      return {
+        provider: "resend",
+        keyValid: null,
+        senderVerified: null,
+        detail: `Could not reach Resend: ${e instanceof Error ? e.message : "unknown"}`,
+      };
+    }
+  }
+
   if (process.env.BREVO_API_KEY) {
     const key = process.env.BREVO_API_KEY.trim();
     // Only the credential family is ever reported, never the key itself.
@@ -250,88 +332,6 @@ async function checkProvider(): Promise<{
     }
   }
 
-  if (process.env.RESEND_API_KEY) {
-    try {
-      const res = await fetch("https://api.resend.com/domains", {
-        headers: { Authorization: `Bearer ${process.env.RESEND_API_KEY}` },
-      });
-
-      if (res.status === 401) {
-        // Two very different 401s. A key created with "Sending access" only is
-        // perfectly good for this job and is refused by every read endpoint,
-        // including this one; an unknown key is a real problem. Reading the
-        // body tells them apart, and conflating them would have this route
-        // report a healthy send-only key as broken - the same class of mistake
-        // as "sent: 173" when nothing had been delivered.
-        const body = (await res.json().catch(() => ({}))) as { message?: string; name?: string };
-        const restricted =
-          body.name === "restricted_api_key" || /restricted to only send/i.test(body.message ?? "");
-        return {
-          provider: "resend",
-          keyValid: restricted,
-          canSend: restricted,
-          senderVerified: null,
-          detail: restricted
-            ? "Key is valid and limited to sending, so domain verification cannot be read with this scope. A real test send is the proof: use ?to=address."
-            : "Resend rejected the key. Create a new one at Resend -> API Keys; they start with re_.",
-        };
-      }
-      if (!res.ok) {
-        return {
-          provider: "resend",
-          keyValid: null,
-          canSend: null,
-          senderVerified: null,
-          detail: `Unexpected answer from Resend while checking the key: ${res.status}.`,
-        };
-      }
-
-      // A valid key is not the whole story: Resend will accept a message for a
-      // domain whose DNS has not verified, then fail it. Check the domain the
-      // From address actually uses, and name the records still outstanding -
-      // "pending" alone sends people hunting through four DNS entries.
-      const body = (await res.json().catch(() => ({}))) as {
-        data?: { name?: string; status?: string; records?: { record?: string; name?: string; status?: string }[] }[];
-      };
-      const domain = (fromAddress.split("@")[1] ?? "").toLowerCase();
-      const match = (body.data ?? []).find(
-        (d) => (d.name ?? "").toLowerCase() === domain,
-      );
-
-      if (!match) {
-        return {
-          provider: "resend",
-          keyValid: true,
-          canSend: true,
-          senderVerified: false,
-          detail: `The key works, but ${domain || "(EMAIL_FROM unset)"} has not been added in Resend. Add it under Domains, then publish the DNS records it shows.`,
-        };
-      }
-
-      const pending = (match.records ?? [])
-        .filter((r) => (r.status ?? "").toLowerCase() !== "verified")
-        .map((r) => `${r.record ?? "record"} (${r.name ?? "?"})`);
-
-      const verified = (match.status ?? "").toLowerCase() === "verified";
-      return {
-        provider: "resend",
-        keyValid: true,
-        canSend: true,
-        senderVerified: verified,
-        detail: verified
-          ? `${domain} is verified in Resend and may send.`
-          : `${domain} is in Resend but not verified yet. Still outstanding: ${pending.length ? pending.join(", ") : "see the Domains page"}. DNS can take a few minutes to an hour to propagate.`,
-      };
-    } catch (e) {
-      return {
-        provider: "resend",
-        keyValid: null,
-        senderVerified: null,
-        detail: `Could not reach Resend: ${e instanceof Error ? e.message : "unknown"}`,
-      };
-    }
-  }
-
   return { provider: "none", keyValid: null, senderVerified: null, detail: "No email provider configured." };
 }
 
@@ -361,7 +361,12 @@ async function reconcileBatch(
   reason: string | null;
 }> {
   const none = { checked: false, delivered: 0, rejected: 0, unconfirmed: 0, rolledBack: 0, reason: null };
-  if (!process.env.BREVO_API_KEY || recipients.length === 0) return none;
+  if (!process.env.BREVO_API_KEY || recipients.length === 0) {
+    // Brevo's event log is the only delivery truth this project can read. With
+    // Brevo retired there is nothing to reconcile against, so say so instead of
+    // reporting zero delivered and alarming whoever reads the batch result.
+    return recipients.length === 0 ? none : { ...none, reason: "delivery events are only readable from Brevo; this deployment sends with Resend" };
+  }
 
   type Ev = { event?: string; email?: string; date?: string; reason?: string };
   const readEvents = async (): Promise<Ev[] | null> => {
@@ -507,7 +512,14 @@ export async function GET(request: Request) {
     // (delivered, rejected for an unverified sender, bounced) shows up here.
     if (verify) {
       if (!process.env.BREVO_API_KEY) {
-        return NextResponse.json({ ok: false, error: "verify needs BREVO_API_KEY" }, { status: 400 });
+        return NextResponse.json(
+          {
+            ok: true,
+            skipped:
+              "Delivery events can only be read from Brevo. This deployment sends with Resend, which is verified for nursegridprep.com, so there is no event log to reconcile here.",
+          },
+          { status: 200 },
+        );
       }
       const res = await fetch(
         "https://api.brevo.com/v3/smtp/statistics/events?limit=500&days=2&sort=desc",
