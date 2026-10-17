@@ -76,56 +76,60 @@ export function weeklyDigestEmail(args: {
     const who = firstName(name);
     const unsub = unsubscribeUrl(APP_URL, userId);
 
-    const updateRows = updates
-        .map(
-            (line) => `<tr>
-        <td style="padding:0 8px 10px 0;vertical-align:top;color:#059669;font-weight:800;">•</td>
-        <td style="padding:0 0 10px;color:#334155;font-size:13.5px;line-height:1.65;">${line}</td>
-      </tr>`,
-        )
-        .join("");
-
     // Inbox preview text. Without one, clients show the first line of the body,
     // which reads as a repetition of the subject.
     const preheader = `What's new this week, and where your access stands.`;
 
+    // Deliberately plain.
+    //
+    // This message was landing in Gmail's Promotions tab, and its design was a
+    // large part of why: a coloured header bar, a tinted card with an uppercase
+    // kicker, and a filled green "Subscribe" button are the visual grammar of a
+    // marketing campaign. Gmail's classifier reads exactly those signals —
+    // templates, buttons, multiple links — and files them accordingly.
+    //
+    // So this is written the way a person would write to one person: a plain
+    // paragraph, a short list, one link to the dashboard, a sign-off. No cards,
+    // no buttons, no tracked banner. The subscribe prompt survives as a
+    // sentence, because the email's job is still to be useful — but it no
+    // longer looks like an advertisement, because it isn't one.
+    //
+    // The `role="presentation"` table that used to lay out the bullets is gone
+    // with the card; a plain <ul> renders correctly in every client that
+    // matters and is far less template-like.
+    const bullets = updates
+        .map(
+            (line) =>
+                `<li style="margin:0 0 10px;">${line}</li>`,
+        )
+        .join("");
+
     const html = `
-  <div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;max-width:480px;margin:0 auto;color:#0f172a;">
+  <div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;max-width:520px;margin:0 auto;color:#0f172a;font-size:15px;line-height:1.7;">
     <div style="display:none;max-height:0;overflow:hidden;opacity:0;color:transparent;height:0;width:0;">${preheader}</div>
-    <div style="background:#059669;height:6px;border-radius:6px;margin-bottom:24px;"></div>
 
-    <h1 style="font-size:20px;margin:0 0 8px;">Hi ${who},</h1>
-    <p style="font-size:14px;line-height:1.7;color:#334155;margin:0 0 22px;">
-      Here's what's new at NurseGrid this week.
+    <p style="margin:0 0 16px;">Hi ${who},</p>
+    <p style="margin:0 0 16px;">Here's what's new at NurseGrid this week:</p>
+
+    <ul style="margin:0 0 18px;padding-left:22px;">${bullets}</ul>
+
+    <p style="margin:0 0 16px;">
+      Everything is where you left it — your dashboard is at
+      <a href="${APP_URL}/dashboard" style="color:#047857;">${APP_URL.replace(/^https?:\/\//, "")}/dashboard</a>.
+      If you want to keep every question and mock exam open, you can choose a plan from the
+      billing page while you are there.
     </p>
 
-    <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:14px;padding:18px 20px;">
-      <p style="margin:0 0 12px;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#047857;">New this week</p>
-      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">${updateRows}</table>
-    </div>
+    <p style="margin:0 0 24px;">— NurseGrid Prep</p>
 
-    <div style="border:1px solid #e2e8f0;border-radius:14px;padding:20px;margin-top:22px;">
-      <p style="margin:0 0 6px;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#64748b;">Keep your access going</p>
-      <p style="margin:0;font-size:13.5px;line-height:1.65;color:#334155;">
-        Subscribing keeps all ${QUESTION_COUNT_LABEL} questions, every rationale, the mock exams
-        and the readiness scoring open. One payment for the period you choose — never auto-billed.
-      </p>
-      <p style="text-align:left;margin:18px 0 0;">
-        <a href="${APP_URL}/dashboard/billing" style="background:#059669;color:#fff;text-decoration:none;padding:12px 24px;border-radius:10px;font-weight:700;display:inline-block;">Subscribe</a>
-      </p>
-    </div>
-
-    <hr style="border:none;border-top:1px solid #e2e8f0;margin:28px 0 12px;" />
     <p style="color:#94a3b8;font-size:12px;line-height:1.6;margin:0;">
-      NurseGrid Prep — exam prep for Ghana's NMC licensing exam ·
-      <a href="${APP_URL}" style="color:#059669;">nursegridprep.com</a>
+      You get this because you created a NurseGrid Prep account. One email a week, nothing else.${
+          unsub
+              ? `
+      <a href="${unsub}" style="color:#94a3b8;text-decoration:underline;">Unsubscribe</a>`
+              : ""
+      }
     </p>
-    ${unsub
-            ? `<p style="color:#94a3b8;font-size:11px;line-height:1.6;margin-top:10px;">
-             You get this because you created a NurseGrid Prep account. One email a week, nothing else.
-             <a href="${unsub}" style="color:#94a3b8;text-decoration:underline;">Unsubscribe</a>
-           </p>`
-            : ""}
   </div>`;
 
     // The plain-text alternative. Spam filters treat HTML-only mail with
@@ -133,23 +137,15 @@ export function weeklyDigestEmail(args: {
     const text = [
         `Hi ${who},`,
         "",
-        "Here's what's new at NurseGrid this week.",
-        "",
-        "NEW THIS WEEK",
+        "Here's what's new at NurseGrid this week:",
         "",
         ...updates.map((u) => wrap(u, { width: 74, first: "  - ", rest: "    " })),
         "",
-        "KEEP YOUR ACCESS GOING",
-        "",
         wrap(
-            `Subscribing keeps all ${QUESTION_COUNT_LABEL} questions, every rationale, the mock exams and the readiness scoring open. One payment for the period you choose - never auto-billed.`,
+            `Everything is where you left it - your dashboard is at ${APP_URL}/dashboard. If you want to keep every question (${QUESTION_COUNT_LABEL}) and the mock exams open, you can choose a plan from the billing page while you are there.`,
         ),
         "",
-        `Subscribe: ${APP_URL}/dashboard/billing`,
-        "",
-        "--",
-        "NurseGrid Prep - exam prep for Ghana's NMC licensing exam",
-        APP_URL,
+        "- NurseGrid Prep",
         "",
         wrap("You get this because you created a NurseGrid Prep account. One email a week, nothing else."),
         unsub ? `Unsubscribe: ${unsub}` : "",

@@ -15,6 +15,18 @@ import { QUESTION_COUNT_LABEL } from "@/lib/question-count";
 
 const FROM_ADDRESS = process.env.EMAIL_FROM || "NurseGrid Prep <onboarding@resend.dev>";
 
+/**
+ * Where replies go.
+ *
+ * A bulk email with no Reply-To is a one-way broadcast, and mailbox providers
+ * read it that way. Replying is the strongest engagement signal there is: a
+ * real person answering a real person is the opposite of a campaign. This
+ * defaults to the From address so nothing changes today, and lets a future
+ * domain sender (hello@nursegridprep.com) keep its replies in the monitored
+ * Gmail box via EMAIL_REPLY_TO.
+ */
+const REPLY_TO = process.env.EMAIL_REPLY_TO || FROM_ADDRESS;
+
 export function isEmailConfigured(): boolean {
   return Boolean(process.env.BREVO_API_KEY || process.env.RESEND_API_KEY);
 }
@@ -56,6 +68,7 @@ export async function sendEmail(
       },
       body: JSON.stringify({
         sender,
+        replyTo: parseFrom(REPLY_TO),
         to: [{ email: to }],
         subject,
         htmlContent: html,
@@ -79,7 +92,7 @@ export async function sendEmail(
 
   if (process.env.RESEND_API_KEY) {
     const resend = new Resend(process.env.RESEND_API_KEY);
-    const { data } = await resend.emails.send({ from: FROM_ADDRESS, to, subject, html, ...(options?.text ? { text: options.text } : {}), ...(Object.keys(bulkHeaders).length ? { headers: bulkHeaders } : {}) });
+    const { data } = await resend.emails.send({ from: FROM_ADDRESS, replyTo: parseFrom(REPLY_TO).email, to, subject, html, ...(options?.text ? { text: options.text } : {}), ...(Object.keys(bulkHeaders).length ? { headers: bulkHeaders } : {}) });
     return { id: data?.id };
   }
 
