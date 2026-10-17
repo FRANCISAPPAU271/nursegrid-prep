@@ -76,6 +76,33 @@ export const referrals = pgTable("referrals", {
   uniqueIndex("referrals_referee_idx").on(t.refereeUserId),
 ]);
 
+// ---------- Referral credit (a wallet, not a coupon) ----------
+// The reward for bringing somebody in is money off, and money has to be
+// accounted for: `earned` rows are written when a referred friend's FIRST
+// payment clears, `spent` rows when the credit is used against a purchase.
+// Balance = earned − spent, from the same rows that provide the audit trail.
+//
+// Awarding on payment rather than on signup is deliberate. A signup reward is
+// farmed with throwaway addresses; a payment reward costs the farmer as much
+// as it pays them.
+export const referralCredits = pgTable("referral_credits", {
+  id: text("id").primaryKey().$defaultFn(genId),
+  userId: text("user_id").notNull().references(() => users.id, { onDelete: "cascade" }),
+  kind: text("kind").notNull(), // "earned" | "spent"
+  amountPesewas: integer("amount_pesewas").notNull(),
+  // Links an earning to the referral that produced it, so one friend can only
+  // ever credit their referrer once.
+  referralId: text("referral_id").references(() => referrals.id, { onDelete: "set null" }),
+  // Invoice id for a spend; the referral id for an earn. The unique index is
+  // what makes both operations idempotent under webhook retries.
+  sourceId: text("source_id"),
+  note: text("note"),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+}, (t) => [
+  index("referral_credits_user_idx").on(t.userId),
+  uniqueIndex("referral_credits_source_idx").on(t.kind, t.sourceId),
+]);
+
 export const waitlistSignups = pgTable("waitlist_signups", {
   id: text("id").primaryKey().$defaultFn(genId),
   email: text("email").notNull(),
@@ -382,6 +409,12 @@ export const momoPaymentRequests = pgTable("momo_payment_requests", {
   userId: text("user_id").notNull().references(() => users.id, { onDelete: "cascade" }),
   plan: subscriptionPlanEnum("plan").notNull(),
   amountCents: integer("amount_cents").notNull(),
+  // What the customer was actually asked to send, in pesewas, after any
+  // referral credit or first-purchase discount. The admin approving the
+  // request checks this against the MoMo confirmation SMS.
+  payablePesewas: integer("payable_pesewas"),
+  creditAppliedPesewas: integer("credit_applied_pesewas").notNull().default(0),
+  discountPesewas: integer("discount_pesewas").notNull().default(0),
   momoNumber: text("momo_number").notNull(),
   momoReference: text("momo_reference").notNull(),
   status: momoRequestStatusEnum("status").notNull().default("pending"),

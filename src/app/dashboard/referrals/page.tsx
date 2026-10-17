@@ -4,6 +4,7 @@ import { users, referrals } from "@/db/schema";
 import { desc, eq } from "drizzle-orm";
 import { generateReferralCode } from "@/lib/referral";
 import ReferralPanel from "@/components/referrals/ReferralPanel";
+import { creditBalance } from "@/lib/referral-credits";
 
 export const dynamic = "force-dynamic";
 
@@ -30,16 +31,22 @@ export default async function ReferralsPage() {
     .where(eq(referrals.referrerUserId, user.id))
     .orderBy(desc(referrals.createdAt));
 
+  const credit = await creditBalance(user.id);
+
   return (
     <div>
       <div className="mb-6 flex flex-col gap-1">
         <h1 className="text-2xl font-extrabold tracking-tight text-slate-950">Invite & Earn</h1>
-        <p className="text-slate-600">Give 3 days of free premium, get 3 days back for every friend who signs up.</p>
+        <p className="text-slate-600">
+          Earn GH₵ 20 off your next renewal for every friend who joins and pays — they get GH₵ 10 off their first purchase.
+        </p>
       </div>
       <ReferralPanel
         referralCode={referralCode}
         totalReferrals={rows.length}
         totalBonusDays={rows.reduce((sum, r) => sum + r.rewardDays, 0)}
+        creditBalancePesewas={credit.balancePesewas}
+        creditEarnedPesewas={credit.earnedPesewas}
         referrals={rows.map((r) => ({
           id: r.id,
           rewardDays: r.rewardDays,

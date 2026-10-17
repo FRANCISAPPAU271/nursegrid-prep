@@ -3,6 +3,7 @@ import { db } from "@/db";
 import { subscriptions, invoices } from "@/db/schema";
 import { desc, eq } from "drizzle-orm";
 import BillingPanel from "@/components/billing/BillingPanel";
+import { creditBalance } from "@/lib/referral-credits";
 import type { Invoice, Subscription } from "@/lib/types";
 import { isStripeConfigured } from "@/lib/stripe";
 import SupportCard from "@/components/contact/SupportCard";
@@ -56,6 +57,7 @@ export default async function BillingPage() {
         subscriptions={subs}
         invoices={invs}
         stripeEnabled={isStripeConfigured()}
+        creditBalancePesewas={(await creditBalance(user.id)).balancePesewas}
       />
       <div className="mt-6">
         <SupportCard message="Hi NurseGrid Prep! I need help confirming a payment on my account." />

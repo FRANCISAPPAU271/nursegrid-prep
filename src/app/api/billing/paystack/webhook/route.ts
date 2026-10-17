@@ -45,6 +45,8 @@ export async function POST(request: Request) {
       planId: tx.planId,
       reference: tx.reference,
       channel: tx.channel,
+      creditAppliedPesewas: tx.creditAppliedPesewas,
+      friendDiscountPesewas: tx.friendDiscountPesewas,
     });
 
     return NextResponse.json({ ok: true, ...result });

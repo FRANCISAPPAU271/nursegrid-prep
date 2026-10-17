@@ -3,6 +3,7 @@ import { db } from "@/db";
 import { subscriptions, invoices, users } from "@/db/schema";
 import { and, eq } from "drizzle-orm";
 import { PLAN_DETAILS, type PlanId } from "@/lib/stripe";
+import { awardReferralCredit, recordInvoiceDiscount, spendCredit } from "@/lib/referral-credits";
 
 // ---------------------------------------------------------------------------
 // Paystack integration — instant activation for Ghana payments.
@@ -41,16 +42,28 @@ export async function initializeTransaction(params: {
   planId: PlanId;
   userId: string;
   callbackUrl: string;
+  /**
+   * What to actually charge, in pesewas, already net of any referral credit.
+   * Computed server-side by checkoutTotals() — never trusted from the client,
+   * or a crafted request could buy a year of access for one pesewa.
+   */
+  amountPesewas?: number;
+  creditAppliedPesewas?: number;
+  friendDiscountPesewas?: number;
 }): Promise<{ authorizationUrl: string; reference: string }> {
   const basePayload = {
     email: params.email,
-    amount: PLAN_GHS_PESEWAS[params.planId],
+    amount: params.amountPesewas ?? PLAN_GHS_PESEWAS[params.planId],
     currency: "GHS",
     callback_url: params.callbackUrl,
     metadata: {
       userId: params.userId,
       planId: params.planId,
       product: "nursegrid-premium",
+      // Carried through the redirect so activation can settle the wallet
+      // against exactly what this transaction consumed.
+      creditAppliedPesewas: params.creditAppliedPesewas ?? 0,
+      friendDiscountPesewas: params.friendDiscountPesewas ?? 0,
     },
   };
 
@@ -88,6 +101,8 @@ export type VerifiedTransaction = {
   channel: string; // "mobile_money" | "card" | ...
   userId: string | null;
   planId: PlanId | null;
+  creditAppliedPesewas: number;
+  friendDiscountPesewas: number;
 };
 
 export async function verifyTransaction(reference: string): Promise<VerifiedTransaction> {
@@ -111,6 +126,8 @@ export async function verifyTransaction(reference: string): Promise<VerifiedTran
     channel: t.channel,
     userId: typeof meta.userId === "string" ? meta.userId : null,
     planId,
+    creditAppliedPesewas: Number(meta.creditAppliedPesewas) || 0,
+    friendDiscountPesewas: Number(meta.friendDiscountPesewas) || 0,
   };
 }
 
@@ -122,6 +139,8 @@ export async function activatePaidPlan(params: {
   planId: PlanId;
   reference: string;
   channel: string;
+  creditAppliedPesewas?: number;
+  friendDiscountPesewas?: number;
 }): Promise<{ activated: boolean; alreadyProcessed: boolean }> {
   const existing = await db
     .select({ id: invoices.id })
@@ -153,7 +172,7 @@ export async function activatePaidPlan(params: {
     })
     .returning();
 
-  await db.insert(invoices).values({
+  const [invoice] = await db.insert(invoices).values({
     userId: params.userId,
     subscriptionId: subscription.id,
     amountCents: plan.amountCents,
@@ -161,7 +180,19 @@ export async function activatePaidPlan(params: {
     status: "paid",
     paymentMethod,
     momoReference: params.reference,
-  });
+  }).returning({ id: invoices.id });
+
+  // Settle the referral wallet against this purchase. Both calls are
+  // idempotent, because webhook and redirect-confirm can both land here for
+  // the same reference — the invoice check above stops a second activation,
+  // and the unique index stops a second ledger write.
+  const totalDiscount = (params.creditAppliedPesewas ?? 0) + (params.friendDiscountPesewas ?? 0);
+  if (invoice?.id) {
+    await recordInvoiceDiscount(invoice.id, totalDiscount);
+    await spendCredit({ userId: params.userId, amountPesewas: params.creditAppliedPesewas ?? 0, invoiceId: invoice.id });
+  }
+  // This is the moment credit becomes real for whoever brought them in.
+  await awardReferralCredit(params.userId);
 
   const userRows = await db
     .select({ premiumSince: users.premiumSince })

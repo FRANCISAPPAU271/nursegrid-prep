@@ -5,6 +5,7 @@ import { users } from "@/db/schema";
 import { eq } from "drizzle-orm";
 import { requireUser, handleApiError } from "@/lib/api";
 import { getStripe, isStripeConfigured, PLAN_DETAILS } from "@/lib/stripe";
+import { checkoutTotals } from "@/lib/referral-credits";
 
 const schema = z.object({ plan: z.enum(["four_month", "eight_month", "annual"]) });
 
@@ -19,6 +20,12 @@ export async function POST(request: Request) {
     const { plan: planId } = schema.parse(body);
     const plan = PLAN_DETAILS[planId];
     const stripe = getStripe();
+
+    // Stripe prices this plan in USD while referral credit is denominated in
+    // cedis, so the discount is applied as an equivalent fraction of the list
+    // price. One true ratio, no invented exchange rate.
+    const totals = await checkoutTotals(user.id, planId);
+    const unitAmount = Math.max(1, Math.round((plan.amountCents * totals.payablePesewas) / totals.listPesewas));
     const origin = new URL(request.url).origin;
 
     let customerId = (await db.select({ stripeCustomerId: users.stripeCustomerId }).from(users).where(eq(users.id, user.id)).limit(1))[0]?.stripeCustomerId;
@@ -36,7 +43,7 @@ export async function POST(request: Request) {
         {
           price_data: {
             currency: "usd",
-            unit_amount: plan.amountCents,
+            unit_amount: unitAmount,
             product_data: { name: `NurseGrid Prep — ${plan.label} access` },
           },
           quantity: 1,
@@ -45,7 +52,12 @@ export async function POST(request: Request) {
       success_url: `${origin}/dashboard/billing?checkout=success&session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${origin}/dashboard/billing?checkout=cancelled`,
       client_reference_id: user.id,
-      metadata: { userId: user.id, plan: planId },
+      metadata: {
+        userId: user.id,
+        plan: planId,
+        creditAppliedPesewas: String(totals.creditAppliedPesewas),
+        friendDiscountPesewas: String(totals.friendDiscountPesewas),
+      },
     });
 
     return NextResponse.json({ url: session.url });

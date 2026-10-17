@@ -226,6 +226,10 @@ export type MomoPaymentRequest = {
   userEmail: string;
   plan: "four_month" | "eight_month" | "annual";
   amountCents: number;
+  /** The amount the customer was told to send, in pesewas, after any discount. */
+  payablePesewas?: number | null;
+  creditAppliedPesewas?: number;
+  discountPesewas?: number;
   momoNumber: string;
   momoReference: string;
   status: MomoRequestStatus;

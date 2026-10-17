@@ -5,6 +5,7 @@ import { and, eq, sql } from "drizzle-orm";
 import { requireAdmin, handleApiError, ApiError } from "@/lib/api";
 import { PLAN_DETAILS, type PlanId } from "@/lib/stripe";
 import { isEmailConfigured, momoPaymentStatusEmail, sendEmail } from "@/lib/email";
+import { awardReferralCredit, recordInvoiceDiscount, spendCredit } from "@/lib/referral-credits";
 
 export async function POST(_request: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
@@ -40,7 +41,7 @@ export async function POST(_request: Request, { params }: { params: Promise<{ id
       })
       .returning();
 
-    await db.insert(invoices).values({
+    const [invoice] = await db.insert(invoices).values({
       userId: reqRow.userId,
       subscriptionId: subscription.id,
       amountCents: reqRow.amountCents,
@@ -49,7 +50,21 @@ export async function POST(_request: Request, { params }: { params: Promise<{ id
       paymentMethod: "mtn_momo",
       momoNumber: reqRow.momoNumber,
       momoReference: reqRow.momoReference,
-    });
+    }).returning({ id: invoices.id });
+
+    // A real payment just landed, so this is the moment to credit whoever
+    // referred this customer. Idempotent: approving twice cannot pay twice.
+    const referralReward = await awardReferralCredit(reqRow.userId);
+
+    // Draw down the credit that was offered on the payment screen.
+    if (invoice?.id) {
+      await recordInvoiceDiscount(invoice.id, reqRow.discountPesewas ?? 0);
+      await spendCredit({
+        userId: reqRow.userId,
+        amountPesewas: reqRow.creditAppliedPesewas ?? 0,
+        invoiceId: invoice.id,
+      });
+    }
 
     const userRows = await db.select({ premiumSince: users.premiumSince, name: users.name, email: users.email }).from(users).where(eq(users.id, reqRow.userId)).limit(1);
     await db
@@ -90,7 +105,14 @@ export async function POST(_request: Request, { params }: { params: Promise<{ id
       notifyError = userRows[0]?.email ? "email is not configured" : "no email address on the account";
     }
 
-    return NextResponse.json({ request: updatedRequest, subscription, notified, notifyError });
+    return NextResponse.json({
+      request: updatedRequest,
+      subscription,
+      invoiceId: invoice?.id ?? null,
+      referralCreditAwarded: referralReward.awarded,
+      notified,
+      notifyError,
+    });
   } catch (error) {
     return handleApiError(error);
   }

@@ -3,6 +3,7 @@ import { db } from "@/db";
 import { users, subscriptions, invoices } from "@/db/schema";
 import { and, eq } from "drizzle-orm";
 import { getStripe, isStripeConfigured, PLAN_DETAILS, isValidPlanId } from "@/lib/stripe";
+import { awardReferralCredit, recordInvoiceDiscount, spendCredit } from "@/lib/referral-credits";
 import type Stripe from "stripe";
 
 // Optional webhook endpoint for production robustness (e.g. if a customer closes
@@ -66,14 +67,24 @@ export async function POST(request: Request) {
             })
             .returning();
 
-          await db.insert(invoices).values({
+          const [invoice] = await db.insert(invoices).values({
             userId,
             subscriptionId: subscription.id,
             amountCents: plan.amountCents,
             plan: plan.label,
             status: "paid",
             paymentMethod: "card",
-          });
+          }).returning({ id: invoices.id });
+
+          // Settle the referral wallet. Both calls are idempotent, which
+          // matters because Stripe retries webhooks until it gets a 2xx.
+          const creditAppliedPesewas = Number(session.metadata?.creditAppliedPesewas) || 0;
+          const friendDiscountPesewas = Number(session.metadata?.friendDiscountPesewas) || 0;
+          if (invoice?.id) {
+            await recordInvoiceDiscount(invoice.id, creditAppliedPesewas + friendDiscountPesewas);
+            await spendCredit({ userId, amountPesewas: creditAppliedPesewas, invoiceId: invoice.id });
+          }
+          await awardReferralCredit(userId);
 
           await db.update(users).set({ isPremium: true, premiumSince: new Date() }).where(eq(users.id, userId));
         }

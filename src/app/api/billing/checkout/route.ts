@@ -5,6 +5,7 @@ import { subscriptions, invoices, users } from "@/db/schema";
 import { and, eq } from "drizzle-orm";
 import { requireUser, handleApiError } from "@/lib/api";
 import { PLAN_DETAILS } from "@/lib/stripe";
+import { awardReferralCredit, checkoutTotals, recordInvoiceDiscount, spendCredit } from "@/lib/referral-credits";
 
 // This is the fallback demo card checkout used only when Stripe is not
 // configured (no STRIPE_SECRET_KEY). Once real Stripe keys are added, the
@@ -21,6 +22,7 @@ export async function POST(request: Request) {
     const body = await request.json();
     const data = schema.parse(body);
     const plan = PLAN_DETAILS[data.plan];
+    const totals = await checkoutTotals(user.id, data.plan);
 
     // Simulate payment processor latency + a deterministic "decline" only for
     // obviously fake test numbers, otherwise approve (this is a mock gateway).
@@ -60,12 +62,18 @@ export async function POST(request: Request) {
       })
       .returning();
 
+    if (invoice) {
+      await recordInvoiceDiscount(invoice.id, totals.friendDiscountPesewas + totals.creditAppliedPesewas);
+      await spendCredit({ userId: user.id, amountPesewas: totals.creditAppliedPesewas, invoiceId: invoice.id });
+    }
+    const referralReward = await awardReferralCredit(user.id);
+
     await db
       .update(users)
       .set({ isPremium: true, premiumSince: user.premiumSince ?? new Date() })
       .where(eq(users.id, user.id));
 
-    return NextResponse.json({ subscription, invoice }, { status: 201 });
+    return NextResponse.json({ subscription, invoice, totals, referralCreditAwarded: referralReward.awarded }, { status: 201 });
   } catch (error) {
     if (error instanceof z.ZodError) {
       return NextResponse.json({ error: error.issues[0]?.message ?? "Invalid input" }, { status: 422 });

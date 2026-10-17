@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { requireUser, handleApiError, ApiError } from "@/lib/api";
 import { isPaystackConfigured, initializeTransaction } from "@/lib/paystack";
+import { checkoutTotals } from "@/lib/referral-credits";
 
 export const dynamic = "force-dynamic";
 
@@ -21,14 +22,23 @@ export async function POST(request: Request) {
     const { plan } = schema.parse(body);
 
     const origin = new URL(request.url).origin;
+
+    // What this person should actually pay, after their friend discount and
+    // any referral credit. Computed here, on the server, from the ledger —
+    // never taken from the request body.
+    const totals = await checkoutTotals(user.id, plan);
+
     const { authorizationUrl, reference } = await initializeTransaction({
       email: user.email,
       planId: plan,
       userId: user.id,
       callbackUrl: `${origin}/dashboard/billing?paystack=1`,
+      amountPesewas: totals.payablePesewas,
+      creditAppliedPesewas: totals.creditAppliedPesewas,
+      friendDiscountPesewas: totals.friendDiscountPesewas,
     });
 
-    return NextResponse.json({ authorizationUrl, reference });
+    return NextResponse.json({ authorizationUrl, reference, totals });
   } catch (error) {
     if (error instanceof z.ZodError) {
       return NextResponse.json({ error: error.issues[0]?.message ?? "Invalid input" }, { status: 422 });

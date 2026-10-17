@@ -8,20 +8,43 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { MOMO_RECEIVER_NUMBER, MOMO_RECEIVER_NAME } from "@/lib/momo";
 import { buildWhatsAppLink, WHATSAPP_DISPLAY_NUMBER } from "@/lib/contact";
 import { QUESTION_COUNT_LABEL } from "@/lib/question-count";
+import { PLAN_PRICES_PESEWAS, formatPesewas } from "@/lib/pricing";
 
 type PlanId = "four_month" | "eight_month" | "annual";
-const CEDI = String.fromCharCode(8373);
+
+/** What /api/billing/totals returns per plan (pesewas + preformatted labels). */
+type PlanTotals = {
+  listPesewas: number;
+  listLabel: string;
+  friendDiscountPesewas: number;
+  friendDiscountLabel: string;
+  creditAppliedPesewas: number;
+  creditAppliedLabel: string;
+  payablePesewas: number;
+  payableLabel: string;
+  creditBalancePesewas: number;
+  creditBalanceLabel: string;
+  firstPurchase: boolean;
+};
+// Prices come from one place. They used to be typed out here and again in
+// money() below, which meant a discount could be calculated against a
+// different number than the one on the screen.
 const PLANS: { id: PlanId; name: string; price: string; priceCents: number; cadence: string; tag: string | null }[] = [
-  { id: "four_month", name: "4 Months", price: `GH${CEDI} 80`, priceCents: 500, cadence: "full access for 4 months", tag: null },
-  { id: "eight_month", name: "8 Months", price: `GH${CEDI} 140`, priceCents: 900, cadence: "full access for 8 months", tag: null },
-  { id: "annual", name: "1 Year", price: `GH${CEDI} 200`, priceCents: 1300, cadence: "full access for 12 months", tag: "Best value" },
+  { id: "four_month", name: "4 Months", price: formatPesewas(PLAN_PRICES_PESEWAS.four_month), priceCents: 500, cadence: "full access for 4 months", tag: null },
+  { id: "eight_month", name: "8 Months", price: formatPesewas(PLAN_PRICES_PESEWAS.eight_month), priceCents: 900, cadence: "full access for 8 months", tag: null },
+  { id: "annual", name: "1 Year", price: formatPesewas(PLAN_PRICES_PESEWAS.annual), priceCents: 1300, cadence: "full access for 12 months", tag: "Best value" },
 ];
 
 function money(cents: number) {
-  // Historical USD-cent amounts map to the fixed cedi plan prices.
-  const ghs: Record<number, number> = { 500: 80, 900: 140, 1300: 200 };
-  if (ghs[cents]) return `GH${CEDI} ${ghs[cents]}`;
-  return `$${(cents / 100).toFixed(2)}`;
+  // Invoices still carry the historical USD-cent amount; map it to the cedi
+  // price it has always represented.
+  const byPesewas: Record<number, number> = {
+    500: PLAN_PRICES_PESEWAS.four_month,
+    900: PLAN_PRICES_PESEWAS.eight_month,
+    1300: PLAN_PRICES_PESEWAS.annual,
+  };
+  if (byPesewas[cents]) return formatPesewas(byPesewas[cents]);
+  return formatPesewas(cents);
 }
 
 function fmt(d: string | null) {
@@ -46,17 +69,24 @@ export default function BillingPanel({
   subscriptions,
   invoices,
   stripeEnabled,
+  creditBalancePesewas = 0,
 }: {
   isPremium: boolean;
   premiumTrialEndsAt: string | null;
   subscriptions: Subscription[];
   invoices: Invoice[];
   stripeEnabled: boolean;
+  /** Referral credit waiting to be applied to the next purchase. */
+  creditBalancePesewas?: number;
 }) {
   const [pickerPlan, setPickerPlan] = useState<(typeof PLANS)[number] | null>(null);
   const [cardModalPlan, setCardModalPlan] = useState<(typeof PLANS)[number] | null>(null);
   const [momoModalPlan, setMomoModalPlan] = useState<(typeof PLANS)[number] | null>(null);
   const [redirecting, setRedirecting] = useState(false);
+  // Live totals from the server — the single source of truth for what this
+  // account actually pays, so a plan card can never advertise a price the
+  // checkout will not honour.
+  const [totals, setTotals] = useState<Record<string, PlanTotals> | null>(null);
   const [pendingMomoRequest, setPendingMomoRequest] = useState<{ id: string; plan: string; createdAt: string } | null>(null);
   const toast = useToast();
   const router = useRouter();
@@ -64,6 +94,21 @@ export default function BillingPanel({
 
   const activeSub = subscriptions.find((s) => s.status === "active") ?? null;
   const isTrialOnly = isPremium && !activeSub && premiumTrialEndsAt;
+
+  useEffect(() => {
+    let alive = true;
+    fetch("/api/billing/totals")
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => {
+        if (alive && d?.plans) setTotals(d.plans as Record<string, PlanTotals>);
+      })
+      .catch(() => {
+        /* the cards fall back to list price; checkout recomputes server-side regardless */
+      });
+    return () => {
+      alive = false;
+    };
+  }, []);
 
   useEffect(() => {
     fetch("/api/billing/momo/checkout")
@@ -194,6 +239,21 @@ export default function BillingPanel({
         <h2 className="mb-4 text-base font-bold text-slate-950">
           {isPremium && activeSub ? "Renew or extend your access" : "Choose a plan to unlock the full question bank"}
         </h2>
+
+        {creditBalancePesewas > 0 && (
+          <div className="mb-4 rounded-xl border border-emerald-200 bg-emerald-50 px-4 py-3">
+            <p className="text-sm font-semibold text-emerald-900">
+              You have {formatPesewas(creditBalancePesewas)} in referral credit
+            </p>
+            <p className="mt-1 text-xs text-emerald-800">
+              It is taken off automatically when you choose a plan — no code to enter. Earn more by{" "}
+              <a href="/dashboard/referrals" className="font-semibold underline">
+                inviting classmates
+              </a>
+              .
+            </p>
+          </div>
+        )}
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {PLANS.map((plan) => (
             <div key={plan.id} className="relative flex flex-col rounded-2xl border border-emerald-200 bg-white p-6 shadow-sm">
@@ -205,8 +265,28 @@ export default function BillingPanel({
               <span className="w-fit rounded-full bg-emerald-100 px-3 py-1 text-xs font-bold uppercase tracking-wide text-emerald-700">
                 {plan.name}
               </span>
-              <p className="mt-3 text-3xl font-extrabold text-slate-950">{plan.price}</p>
-              <p className="mt-1 text-sm text-slate-600">{plan.cadence}</p>
+              {(() => {
+                const t = totals?.[plan.id];
+                const discounted = t ? t.payablePesewas < t.listPesewas : false;
+                return (
+                  <>
+                    <p className="mt-3 text-3xl font-extrabold text-slate-950">
+                      {t ? t.payableLabel : plan.price}
+                      {discounted && (
+                        <span className="ml-2 text-base font-semibold text-slate-400 line-through">{t!.listLabel}</span>
+                      )}
+                    </p>
+                    <p className="mt-1 text-sm text-slate-600">{plan.cadence}</p>
+                    {discounted && (
+                      <p className="mt-2 text-xs font-semibold text-emerald-700">
+                        {t!.friendDiscountPesewas > 0 && <>First-purchase {t!.friendDiscountLabel} off</>}
+                        {t!.friendDiscountPesewas > 0 && t!.creditAppliedPesewas > 0 && " + "}
+                        {t!.creditAppliedPesewas > 0 && <>{t!.creditAppliedLabel} credit applied</>}
+                      </p>
+                    )}
+                  </>
+                );
+              })()}
               <ul className="mt-4 space-y-1.5 text-sm text-slate-600">
                 <li>✅ Unlimited access to all {QUESTION_COUNT_LABEL} unique questions</li>
                 <li>✅ Full rationales and strategy tips</li>
@@ -217,7 +297,9 @@ export default function BillingPanel({
                 disabled={redirecting}
                 className="mt-5 rounded-xl bg-emerald-600 px-6 py-3 text-base font-bold text-white shadow-lg shadow-emerald-200 hover:bg-emerald-700 disabled:opacity-70"
               >
-                {redirecting ? "Redirecting…" : `Choose ${plan.name} — ${plan.price}`}
+                {redirecting
+                  ? "Redirecting…"
+                  : `Choose ${plan.name} — ${totals?.[plan.id]?.payableLabel ?? plan.price}`}
               </button>
             </div>
           ))}
@@ -278,8 +360,14 @@ export default function BillingPanel({
             <p className="text-sm text-slate-600">
               {pickerPlan.name} access is{" "}
               <span className="font-bold text-slate-900">
-                {pickerPlan.price}
+                {totals?.[pickerPlan.id]?.payableLabel ?? pickerPlan.price}
               </span>
+              {totals?.[pickerPlan.id] && totals[pickerPlan.id].payablePesewas < totals[pickerPlan.id].listPesewas && (
+                <>
+                  {" "}
+                  <span className="text-slate-400 line-through">{totals[pickerPlan.id].listLabel}</span>
+                </>
+              )}
               . Choose how you&apos;d like to pay.
             </p>
 
@@ -312,17 +400,26 @@ export default function BillingPanel({
       </Modal>
 
       <Modal open={Boolean(cardModalPlan)} onClose={() => setCardModalPlan(null)} title="Pay with Visa Card">
-        {cardModalPlan && <CardCheckoutForm plan={cardModalPlan} onClose={() => setCardModalPlan(null)} />}
+        {cardModalPlan && <CardCheckoutForm plan={cardModalPlan} planTotals={totals?.[cardModalPlan.id]} onClose={() => setCardModalPlan(null)} />}
       </Modal>
 
       <Modal open={Boolean(momoModalPlan)} onClose={() => setMomoModalPlan(null)} title="Pay with MTN Mobile Money">
-        {momoModalPlan && <MomoCheckoutForm plan={momoModalPlan} onClose={() => setMomoModalPlan(null)} />}
+        {momoModalPlan && <MomoCheckoutForm plan={momoModalPlan} planTotals={totals?.[momoModalPlan.id]} onClose={() => setMomoModalPlan(null)} />}
       </Modal>
     </div>
   );
 }
 
-function CardCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onClose: () => void }) {
+function CardCheckoutForm({
+  plan,
+  planTotals,
+  onClose,
+}: {
+  plan: (typeof PLANS)[number];
+  planTotals?: PlanTotals;
+  onClose: () => void;
+}) {
+  const payableLabel = planTotals?.payableLabel ?? plan.price;
   const [cardName, setCardName] = useState("");
   const [cardNumber, setCardNumber] = useState("");
   const [expiry, setExpiry] = useState("");
@@ -362,7 +459,7 @@ function CardCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
       {error && <div className="rounded-lg bg-rose-50 px-4 py-3 text-sm font-medium text-rose-700">{error}</div>}
       <div className="flex items-center justify-between rounded-lg bg-emerald-50 px-4 py-3">
         <span className="text-sm font-semibold text-emerald-800">{plan.name} access</span>
-        <span className="text-sm font-bold text-emerald-800">{plan.price}</span>
+        <span className="text-sm font-bold text-emerald-800">{payableLabel}</span>
       </div>
       <div>
         <label className="mb-1 block text-sm font-semibold text-slate-700">Name on card</label>
@@ -415,15 +512,28 @@ function CardCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
           disabled={loading}
           className="rounded-lg bg-emerald-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-emerald-700 disabled:opacity-70"
         >
-          {loading ? "Processing…" : `Pay ${plan.price}`}
+          {loading ? "Processing…" : `Pay ${payableLabel}`}
         </button>
       </div>
     </form>
   );
 }
 
-function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onClose: () => void }) {
+function MomoCheckoutForm({
+  plan,
+  planTotals,
+  onClose,
+}: {
+  plan: (typeof PLANS)[number];
+  planTotals?: PlanTotals;
+  onClose: () => void;
+}) {
   const [momoNumber, setMomoNumber] = useState("");
+  // plan.price is the list price; with referral credit or a first-purchase
+  // discount it is not the amount that should arrive on the MoMo line.
+  const totals = planTotals ?? null;
+  const payableLabel = totals?.payableLabel ?? plan.price;
+  const discounted = totals ? totals.payablePesewas < totals.listPesewas : false;
   const [momoReference, setMomoReference] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -469,7 +579,7 @@ function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
   if (submitted) {
     const notifyMessage =
       `Hi NurseGrid Prep! I just paid for the ${plan.name} plan via MTN MoMo.\n` +
-      `• Amount: ${plan.price}\n` +
+      `• Amount: ${payableLabel}\n` +
       `• From MoMo number: ${momoNumber}\n` +
       `• Transaction ref: ${momoReference}\n` +
       `Please activate my account. Thank you! 🙏`;
@@ -520,7 +630,17 @@ function MomoCheckoutForm({ plan, onClose }: { plan: (typeof PLANS)[number]; onC
       <div className="rounded-xl bg-amber-50 p-4">
         <p className="text-sm font-bold text-amber-900">Step 1 — Send payment</p>
         <p className="mt-1 text-sm text-amber-800">
-          Send <span className="font-bold">{plan.price}</span> via MTN Mobile Money for {plan.name} access to:
+          Send <span className="font-bold">{payableLabel}</span> via MTN Mobile Money for {plan.name} access to:
+        </p>
+        {discounted && totals && (
+          <p className="mt-1 text-xs font-semibold text-emerald-800">
+            {totals.listLabel}
+            {totals.friendDiscountPesewas > 0 && <> − {totals.friendDiscountLabel} first-purchase discount</>}
+            {totals.creditAppliedPesewas > 0 && <> − {totals.creditAppliedLabel} referral credit</>} = {totals.payableLabel}
+          </p>
+        )}
+        <p className="mt-1 text-[11px] text-amber-700">
+          Send exactly this amount — an admin matches it against the MoMo confirmation before activating access.
         </p>
         <div className="mt-3 flex items-center justify-between rounded-lg bg-white px-4 py-3">
           <div>

@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useToast } from "@/components/ui/Toast";
+import { formatPesewas } from "@/lib/pricing";
 
 type ReferralItem = {
   id: string;
@@ -26,11 +27,16 @@ export default function ReferralPanel({
   referralCode,
   totalReferrals,
   totalBonusDays,
+  creditBalancePesewas,
+  creditEarnedPesewas,
   referrals,
 }: {
   referralCode: string;
   totalReferrals: number;
   totalBonusDays: number;
+  /** Spare credit, applied automatically at the next purchase. */
+  creditBalancePesewas: number;
+  creditEarnedPesewas: number;
   referrals: ReferralItem[];
 }) {
   const [copied, setCopied] = useState<"link" | "code" | null>(null);
@@ -66,15 +72,23 @@ export default function ReferralPanel({
           <p className="mt-2 text-2xl font-extrabold text-slate-950">{totalBonusDays}</p>
         </div>
         <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-5">
-          <p className="text-sm font-medium text-emerald-700">Reward per referral</p>
-          <p className="mt-2 text-2xl font-extrabold text-emerald-800">3 days</p>
+          <p className="text-sm font-medium text-emerald-700">Credit for next renewal</p>
+          <p className="mt-2 text-2xl font-extrabold text-emerald-800">{formatPesewas(creditBalancePesewas)}</p>
+          {creditEarnedPesewas > 0 && (
+            <p className="mt-1 text-xs text-emerald-700">
+              {formatPesewas(creditEarnedPesewas)} earned in total
+            </p>
+          )}
         </div>
       </div>
 
       <div className="rounded-2xl border border-slate-200 bg-white p-6">
         <h2 className="text-base font-bold text-slate-950">Your referral link</h2>
         <p className="mt-1 text-sm text-slate-600">
-          Share this link with classmates. When they create an account, you both get 3 days of free premium access.
+          Share this link with classmates. When a friend you invited makes their first payment, you earn{" "}
+          <strong className="font-semibold text-slate-800">GH₵ 20</strong> off your next renewal — and they get{" "}
+          <strong className="font-semibold text-slate-800">GH₵ 10</strong> off their first purchase. Credit stacks, and it is
+          applied automatically at checkout.
         </p>
         <div className="mt-4 flex flex-col gap-3 sm:flex-row">
           <input
@@ -103,7 +117,7 @@ export default function ReferralPanel({
         <h2 className="mb-4 text-base font-bold text-slate-950">Referral history</h2>
         {referrals.length === 0 ? (
           <p className="py-6 text-center text-sm text-slate-500">
-            No referrals yet — share your link above to start earning free premium days.
+            No referrals yet — share your link above. You earn GH₵ 20 when a friend makes their first payment.
           </p>
         ) : (
           <ul className="divide-y divide-slate-100">

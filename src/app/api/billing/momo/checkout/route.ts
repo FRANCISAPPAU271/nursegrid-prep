@@ -6,6 +6,7 @@ import { desc, eq } from "drizzle-orm";
 import { requireUser, handleApiError } from "@/lib/api";
 import { PLAN_DETAILS } from "@/lib/stripe";
 import { MOMO_RECEIVER_NUMBER } from "@/lib/momo";
+import { checkoutTotals } from "@/lib/referral-credits";
 
 export async function GET() {
   try {
@@ -51,12 +52,20 @@ export async function POST(request: Request) {
     const data = schema.parse(body);
     const plan = PLAN_DETAILS[data.plan];
 
+    // What the customer should actually send by MoMo. The admin reviewing the
+    // request sees this figure, so the amount on the screen matches the amount
+    // in the customer's MoMo confirmation SMS.
+    const totals = await checkoutTotals(user.id, data.plan);
+
     const [pendingRequest] = await db
       .insert(momoPaymentRequests)
       .values({
         userId: user.id,
         plan: data.plan,
         amountCents: plan.amountCents,
+        payablePesewas: totals.payablePesewas,
+        creditAppliedPesewas: totals.creditAppliedPesewas,
+        discountPesewas: totals.friendDiscountPesewas + totals.creditAppliedPesewas,
         momoNumber: data.momoNumber,
         momoReference: data.momoReference,
         status: "pending",
@@ -64,7 +73,7 @@ export async function POST(request: Request) {
       .returning();
 
     return NextResponse.json(
-      { request: pendingRequest, receiverNumber: MOMO_RECEIVER_NUMBER },
+      { request: pendingRequest, receiverNumber: MOMO_RECEIVER_NUMBER, totals },
       { status: 201 },
     );
   } catch (error) {

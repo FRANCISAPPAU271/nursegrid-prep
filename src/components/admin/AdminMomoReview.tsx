@@ -5,6 +5,7 @@ import type { MomoPaymentRequest, MomoRequestStatus } from "@/lib/types";
 import Empty from "@/components/ui/Empty";
 import Modal from "@/components/ui/Modal";
 import { useToast } from "@/components/ui/Toast";
+import { PLAN_PRICES_PESEWAS, formatPesewas } from "@/lib/pricing";
 
 const STATUS_STYLE: Record<MomoRequestStatus, string> = {
   pending: "bg-amber-100 text-amber-700",
@@ -13,10 +14,6 @@ const STATUS_STYLE: Record<MomoRequestStatus, string> = {
 };
 
 const PLAN_LABEL: Record<string, string> = { four_month: "4 Months", eight_month: "8 Months", annual: "1 Year" };
-
-function money(cents: number) {
-  return `$${(cents / 100).toFixed(2)}`;
-}
 
 function fmt(d: string) {
   return new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit" }).format(
@@ -152,8 +149,33 @@ export default function AdminMomoReview({ initial }: { initial: MomoPaymentReque
                   <p className="text-xs text-slate-500">{r.userEmail}</p>
                 </div>
                 <div className="text-right">
-                  <p className="text-sm font-bold text-slate-900">{money(r.amountCents)}</p>
-                  <p className="text-xs text-slate-500">{PLAN_LABEL[r.plan] ?? r.plan}</p>
+                  {(() => {
+                    // The reviewer is matching this against an MTN SMS, so the
+                    // number shown has to be what the customer was told to send —
+                    // not the list price, which is wrong whenever a discount
+                    // applied. Older rows predate the column: fall back to list.
+                    const listPesewas = PLAN_PRICES_PESEWAS[r.plan];
+                    const payable = r.payablePesewas ?? listPesewas;
+                    const discounted = payable < listPesewas;
+                    return (
+                      <>
+                        <p className="text-sm font-bold text-slate-900">{formatPesewas(payable)}</p>
+                        <p className="text-xs text-slate-500">
+                          {PLAN_LABEL[r.plan] ?? r.plan}
+                          {discounted && <> · list {formatPesewas(listPesewas)}</>}
+                        </p>
+                        {discounted && (
+                          <p className="text-[11px] font-semibold text-emerald-700">
+                            {(r.creditAppliedPesewas ?? 0) > 0 && <>{formatPesewas(r.creditAppliedPesewas!)} credit</>}
+                            {(r.creditAppliedPesewas ?? 0) > 0 && (r.discountPesewas ?? 0) - (r.creditAppliedPesewas ?? 0) > 0 && " + "}
+                            {(r.discountPesewas ?? 0) - (r.creditAppliedPesewas ?? 0) > 0 && (
+                              <>{formatPesewas((r.discountPesewas ?? 0) - (r.creditAppliedPesewas ?? 0))} first-purchase off</>
+                            )}
+                          </p>
+                        )}
+                      </>
+                    );
+                  })()}
                 </div>
               </div>
 
