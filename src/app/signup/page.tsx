@@ -29,7 +29,7 @@ export default async function SignupPage({
           </p>
           {ref && (
             <div className="mt-4 rounded-lg bg-emerald-50 px-3 py-2 text-xs font-semibold text-emerald-800">
-              🎁 You were invited with code {ref.toUpperCase()} — sign up to get 3 days of free premium!
+              🎁 You were invited with code {ref.toUpperCase()} — sign up to get 3 days of free premium, plus a discount on your first plan.
             </div>
           )}
           <div className="mt-6">

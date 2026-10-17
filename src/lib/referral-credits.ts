@@ -259,6 +259,28 @@ export async function spendCredit(params: {
 }
 
 /**
+ * Which of this user's referrals have already paid out.
+ *
+ * Returns the set of referral ids that have an `earned` row, so the invite
+ * screen can say "paid" or "waiting for their first payment" per friend
+ * instead of guessing from the signup bonus. A referral exists from the
+ * moment the friend registers; the money only lands when they pay, and those
+ * are two different facts the referrer deserves to see separately.
+ */
+export async function paidOutReferralIds(userId: string): Promise<Set<string>> {
+    await ensureTables();
+    const result = await db.execute(sql`
+        SELECT "source_id" FROM "referral_credits"
+        WHERE "user_id" = ${userId} AND "kind" = 'earned' AND "source_id" IS NOT NULL
+    `);
+    return new Set(
+        (result.rows as Array<{ source_id: string | null }>)
+            .map((row) => row.source_id)
+            .filter((id): id is string => Boolean(id)),
+    );
+}
+
+/**
  * Mark what was discounted on an invoice, so a receipt can explain itself and
  * a support question has an answer without consulting a table of guesses.
  */

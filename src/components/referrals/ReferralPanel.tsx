@@ -6,10 +6,11 @@ import { formatPesewas } from "@/lib/pricing";
 
 type ReferralItem = {
   id: string;
-  rewardDays: number;
   createdAt: string;
   refereeName: string;
   refereeEmail: string;
+  /** True once this friend's first payment has cleared and the reward landed. */
+  creditEarned: boolean;
 };
 
 function fmt(d: string) {
@@ -26,14 +27,15 @@ function maskEmail(email: string) {
 export default function ReferralPanel({
   referralCode,
   totalReferrals,
-  totalBonusDays,
+  rewardPesewas,
   creditBalancePesewas,
   creditEarnedPesewas,
   referrals,
 }: {
   referralCode: string;
   totalReferrals: number;
-  totalBonusDays: number;
+  /** What one completed referral is worth, in pesewas. */
+  rewardPesewas: number;
   /** Spare credit, applied automatically at the next purchase. */
   creditBalancePesewas: number;
   creditEarnedPesewas: number;
@@ -68,8 +70,8 @@ export default function ReferralPanel({
           <p className="mt-2 text-2xl font-extrabold text-slate-950">{totalReferrals}</p>
         </div>
         <div className="rounded-2xl border border-slate-200 bg-white p-5">
-          <p className="text-sm font-medium text-slate-500">Free premium days earned</p>
-          <p className="mt-2 text-2xl font-extrabold text-slate-950">{totalBonusDays}</p>
+          <p className="text-sm font-medium text-slate-500">Credit earned</p>
+          <p className="mt-2 text-2xl font-extrabold text-slate-950">{formatPesewas(creditEarnedPesewas)}</p>
         </div>
         <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-5">
           <p className="text-sm font-medium text-emerald-700">Credit for next renewal</p>
@@ -128,7 +130,11 @@ export default function ReferralPanel({
                   <p className="text-xs text-slate-500">{maskEmail(r.refereeEmail)}</p>
                 </div>
                 <div className="text-right">
-                  <p className="text-xs font-semibold text-emerald-700">+{r.rewardDays} days</p>
+                  {r.creditEarned ? (
+                    <p className="text-xs font-semibold text-emerald-700">+{formatPesewas(rewardPesewas)} earned</p>
+                  ) : (
+                    <p className="text-xs font-medium text-slate-500">Waiting for their first payment</p>
+                  )}
                   <p className="text-xs text-slate-400">{fmt(r.createdAt)}</p>
                 </div>
               </li>

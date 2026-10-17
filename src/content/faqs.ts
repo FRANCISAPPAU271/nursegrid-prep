@@ -44,7 +44,7 @@ export const FAQS: FaqItem[] = [
   },
   {
     q: "Do you offer referral rewards?",
-    a: "Yes! Every account gets a personal referral link. When a friend signs up using your link, you both automatically receive 3 days of free premium access — no limit on how many friends you invite.",
+    a: "Yes. Every account gets a personal referral link. A friend who joins with your link starts with 3 days of full premium, and you get 3 bonus premium days as soon as they join. When that friend makes their first payment, you also earn credit toward your own next plan, applied automatically at checkout, and they get a discount on that first purchase. There is no limit on how many friends you invite, and your referral page shows which friends have paid and how much credit you have ready to use.",
   },
   {
     q: "How can I get help or contact support?",
