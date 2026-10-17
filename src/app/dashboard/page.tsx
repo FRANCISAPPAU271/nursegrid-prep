@@ -8,6 +8,7 @@ import { getUserExamDate } from "@/db/user-exam-date";
 import { buildWhatsAppLink } from "@/lib/contact";
 import { EmphasisedText } from "@/components/questions/EmphasisedText";
 import MilestonesCard from "@/components/dashboard/MilestonesCard";
+import WeeklyAlertToggle from "@/components/pwa/WeeklyAlertToggle";
 
 export const dynamic = "force-dynamic";
 
@@ -234,6 +235,12 @@ export default async function OverviewPage() {
       </div>
 
       <MilestonesCard attempted={questionStats.attempted} accuracy={accuracy} streak={streak} tasksDone={taskStats.done} />
+
+      {/* Device-level alert for the weekly email. Renders nothing in browsers
+          that cannot do push, so it never offers a button that would fail. */}
+      <div className="mt-4">
+        <WeeklyAlertToggle publicKey={process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY ?? ""} />
+      </div>
 
       <div className="grid gap-6 lg:grid-cols-3">
         <div className="rounded-2xl border border-slate-200 bg-white p-5 lg:col-span-2">

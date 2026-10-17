@@ -3,6 +3,7 @@ import { db } from "@/db";
 import { sql } from "drizzle-orm";
 import { isEmailConfigured, sendEmail } from "@/lib/email";
 import { weeklyDigestEmail } from "@/lib/weekly-digest";
+import { isPushConfigured, pushToUser } from "@/lib/web-push";
 import { unsubscribeUrl } from "@/lib/unsubscribe";
 
 export const dynamic = "force-dynamic";
@@ -640,6 +641,19 @@ export async function GET(request: Request) {
           unsubscribeUrl: unsubscribeUrl(APP_URL, u.id) || undefined,
           text,
         });
+
+        // The email is sent; whether the mail app shows it in Primary or files
+        // it under Promotions is out of our hands, and only Primary raises a
+        // notification. A device subscription is the one channel where the
+        // alert is ours to deliver, so ring it here, next to the send, and let
+        // it fail silently - a notification must never break the email.
+        if (isPushConfigured()) {
+          await pushToUser(u.id, {
+            title: "Your NurseGrid update is ready",
+            body: "This week's new questions and where your access stands — open the app.",
+            url: "/dashboard",
+          }).catch(() => {});
+        }
 
         await db.execute(sql`
           INSERT INTO weekly_digest_sends (user_id, kind, period_key)
