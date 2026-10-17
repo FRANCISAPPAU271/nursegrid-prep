@@ -38,7 +38,7 @@ export async function sendEmail(
   subject: string,
   html: string,
   options?: { unsubscribeUrl?: string },
-): Promise<void> {
+): Promise<{ id?: string }> {
   const bulkHeaders: Record<string, string> = options?.unsubscribeUrl
     ? {
         "List-Unsubscribe": `<${options.unsubscribeUrl}>`,
@@ -66,13 +66,18 @@ export async function sendEmail(
       const body = await res.text().catch(() => "");
       throw new Error(`Brevo send failed (${res.status}): ${body.slice(0, 200)}`);
     }
-    return;
+    // Brevo answers 201 with a messageId. A 2xx only means the message was
+    // accepted for processing — it can still be rejected afterwards (an
+    // unverified sender is the classic case), which is why the caller needs
+    // this id to check the real outcome.
+    const body = (await res.json().catch(() => ({}))) as { messageId?: string };
+    return { id: body.messageId };
   }
 
   if (process.env.RESEND_API_KEY) {
     const resend = new Resend(process.env.RESEND_API_KEY);
-    await resend.emails.send({ from: FROM_ADDRESS, to, subject, html, ...(Object.keys(bulkHeaders).length ? { headers: bulkHeaders } : {}) });
-    return;
+    const { data } = await resend.emails.send({ from: FROM_ADDRESS, to, subject, html, ...(Object.keys(bulkHeaders).length ? { headers: bulkHeaders } : {}) });
+    return { id: data?.id };
   }
 
   throw new Error("No email provider configured (set BREVO_API_KEY or RESEND_API_KEY)");

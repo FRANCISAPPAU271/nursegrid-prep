@@ -217,6 +217,82 @@ async function checkProvider(): Promise<{
   return { provider: "none", keyValid: null, senderVerified: null, detail: "No email provider configured." };
 }
 
+/**
+ * Reconcile what we just sent against what the provider actually did with it.
+ *
+ * A 2xx from Brevo means "accepted", not "delivered". When a sender address is
+ * not verified, every message is accepted and then rejected a moment later. The
+ * ledger row is written on acceptance, so without this check those users would
+ * silently skip a whole week — which is exactly what happened on 2026-10-17:
+ * "sent: 173", and all 173 were thrown away.
+ *
+ * Brevo's event log carries the recipient address, so a rejection can be traced
+ * back to a specific user and their ledger row removed. They then stay due.
+ */
+async function reconcileBatch(
+  batchStartedAt: Date,
+  recipients: { id: string; email: string }[],
+  weekKey: string,
+): Promise<{ checked: boolean; rejected: number; rolledBack: number; reason: string | null }> {
+  if (!process.env.BREVO_API_KEY || recipients.length === 0) {
+    return { checked: false, rejected: 0, rolledBack: 0, reason: null };
+  }
+
+  // Events are written asynchronously; give them a moment to land.
+  await new Promise((r) => setTimeout(r, 4000));
+
+  try {
+    const res = await fetch("https://api.brevo.com/v3/smtp/statistics/events?limit=500&days=1&sort=desc", {
+      headers: { "api-key": process.env.BREVO_API_KEY.trim(), Accept: "application/json" },
+    });
+    if (!res.ok) {
+      // A send-only key cannot read events. That is a legitimate configuration,
+      // so this is reported, not treated as a failure.
+      return { checked: false, rejected: 0, rolledBack: 0, reason: `event log returned ${res.status}` };
+    }
+
+    const body = (await res.json().catch(() => ({}))) as {
+      events?: { event?: string; email?: string; date?: string; reason?: string }[];
+    };
+    const cutoff = batchStartedAt.getTime() - 60_000;
+    const events = (body.events ?? []).filter((e) => {
+      const t = e.date ? Date.parse(e.date) : NaN;
+      return Number.isFinite(t) ? t >= cutoff : false;
+    });
+
+    const byEmail = new Map(recipients.map((r) => [r.email.toLowerCase(), r.id]));
+    const rejectedIds = new Set<string>();
+    let reason: string | null = null;
+
+    for (const e of events) {
+      if (e.event !== "error") continue;
+      const id = e.email ? byEmail.get(e.email.toLowerCase()) : undefined;
+      if (id) {
+        rejectedIds.add(id);
+        reason ??= e.reason?.trim() ?? null;
+      }
+    }
+
+    let rolledBack = 0;
+    for (const id of rejectedIds) {
+      await db.execute(sql`
+        DELETE FROM weekly_digest_sends
+        WHERE user_id = ${id} AND kind = 'weekly' AND period_key = ${weekKey}
+      `);
+      rolledBack += 1;
+    }
+
+    return { checked: true, rejected: rejectedIds.size, rolledBack, reason };
+  } catch (e) {
+    return {
+      checked: false,
+      rejected: 0,
+      rolledBack: 0,
+      reason: `could not read the event log: ${e instanceof Error ? e.message : "unknown"}`,
+    };
+  }
+}
+
 export async function GET(request: Request) {
   try {
     const secret = process.env.CRON_SECRET;
@@ -337,7 +413,8 @@ export async function GET(request: Request) {
       `)
     ).rows as unknown as Row[];
 
-    let sent = 0;
+    const batchStartedAt = new Date();
+    const accepted: { id: string; email: string }[] = [];
     const errors: string[] = [];
 
     await mapLimit(rows, CONCURRENCY, async (u) => {
@@ -354,19 +431,33 @@ export async function GET(request: Request) {
           ON CONFLICT DO NOTHING
         `);
 
-        sent += 1;
+        accepted.push({ id: u.id, email: u.email });
       } catch (e) {
         errors.push(`digest:${u.id}: ${e instanceof Error ? e.message : "send failed"}`);
       }
     });
 
+    // "accepted" is what we know for certain; "delivered" is what the provider
+    // confirms. Anything rejected is un-marked so it is retried.
+    const verdict = await reconcileBatch(batchStartedAt, accepted, weekKey);
+
     return NextResponse.json({
-      ok: true,
+      ok: errors.length === 0 && verdict.rejected === 0,
       week: weekKey,
-      sent,
+      accepted: accepted.length,
+      // Kept for backwards compatibility with anything reading `sent`.
+      sent: accepted.length,
+      delivered: verdict.checked ? accepted.length - verdict.rejected : null,
+      rejected: verdict.checked ? verdict.rejected : null,
+      rolledBack: verdict.rolledBack,
+      verification: verdict.checked
+        ? verdict.rejected > 0
+          ? `provider rejected ${verdict.rejected}; those users remain due — ${verdict.reason ?? "no reason given"}`
+          : "provider accepted every message for delivery"
+        : `not verified — ${verdict.reason ?? "no event log access"}`,
       batchLimit: MAX_PER_RUN,
       moreQueuedForTomorrow: rows.length === MAX_PER_RUN,
-      errors: errors.slice(0, 20),
+      errors: errors.slice(0, 5),
     });
   } catch (error) {
     console.error(error);
