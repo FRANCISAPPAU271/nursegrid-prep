@@ -79,6 +79,29 @@ endpoint with an empty body, which cannot deliver anything.
 - `senderVerified: null` is normal for a send-only key — it is not permitted to
   list senders. Only a real send proves the sender address is accepted.
 
+### The three diagnostic modes
+
+Append any of these to the cron URL. All need the same `Authorization` header.
+
+| Mode | Answers |
+|---|---|
+| `?dryRun=1` | How many people are due right now, and would Brevo accept the request. Sends nothing. |
+| `?verify=1` | What actually happened to recent sends, from Brevo's own event log. |
+| `?reset=1` | Clears this week's ledger so the same people can be sent to again. |
+
+**`?verify=1` matters more than it looks.** A 2xx from Brevo means *accepted*, not
+*delivered*. On 2026-10-17 the first live run reported `sent: 173` and every one
+of those messages was then rejected asynchronously, because the sender address
+was not a verified Brevo sender. `?verify=1` reported:
+
+```json
+{ "ok": false, "counts": { "requests": 173, "error": 173 },
+  "topReasons": [{ "reason": "Sending has been rejected because the sender you used
+    … is not valid. Validate your sender or authenticate your domain", "count": 173 }] }
+```
+
+So after any send: run `?verify=1`, and only believe `delivered`.
+
 Running it twice in the same week is safe — the second run sends nothing,
 because the primary key on `weekly_digest_sends` records who has had week `2026-W42`.
 
