@@ -254,11 +254,61 @@ async function checkProvider(): Promise<{
       const res = await fetch("https://api.resend.com/domains", {
         headers: { Authorization: `Bearer ${process.env.RESEND_API_KEY}` },
       });
+
+      if (res.status === 401) {
+        return {
+          provider: "resend",
+          keyValid: false,
+          canSend: false,
+          senderVerified: null,
+          detail: "Resend rejected the key. Create a new one at Resend -> API Keys; they start with re_.",
+        };
+      }
+      if (!res.ok) {
+        return {
+          provider: "resend",
+          keyValid: null,
+          canSend: null,
+          senderVerified: null,
+          detail: `Unexpected answer from Resend while checking the key: ${res.status}.`,
+        };
+      }
+
+      // A valid key is not the whole story: Resend will accept a message for a
+      // domain whose DNS has not verified, then fail it. Check the domain the
+      // From address actually uses, and name the records still outstanding -
+      // "pending" alone sends people hunting through four DNS entries.
+      const body = (await res.json().catch(() => ({}))) as {
+        data?: { name?: string; status?: string; records?: { record?: string; name?: string; status?: string }[] }[];
+      };
+      const domain = (fromAddress.split("@")[1] ?? "").toLowerCase();
+      const match = (body.data ?? []).find(
+        (d) => (d.name ?? "").toLowerCase() === domain,
+      );
+
+      if (!match) {
+        return {
+          provider: "resend",
+          keyValid: true,
+          canSend: true,
+          senderVerified: false,
+          detail: `The key works, but ${domain || "(EMAIL_FROM unset)"} has not been added in Resend. Add it under Domains, then publish the DNS records it shows.`,
+        };
+      }
+
+      const pending = (match.records ?? [])
+        .filter((r) => (r.status ?? "").toLowerCase() !== "verified")
+        .map((r) => `${r.record ?? "record"} (${r.name ?? "?"})`);
+
+      const verified = (match.status ?? "").toLowerCase() === "verified";
       return {
         provider: "resend",
-        keyValid: res.ok ? true : res.status === 401 ? false : null,
-        senderVerified: null,
-        detail: res.ok ? "Resend key is valid." : `Resend returned ${res.status}.`,
+        keyValid: true,
+        canSend: true,
+        senderVerified: verified,
+        detail: verified
+          ? `${domain} is verified in Resend and may send.`
+          : `${domain} is in Resend but not verified yet. Still outstanding: ${pending.length ? pending.join(", ") : "see the Domains page"}. DNS can take a few minutes to an hour to propagate.`,
       };
     } catch (e) {
       return {
@@ -419,7 +469,7 @@ export async function GET(request: Request) {
     const currentWeek = isoWeekKey(new Date());
 
     if (!isEmailConfigured()) {
-      return NextResponse.json({ ok: true, skipped: "email not configured (set BREVO_API_KEY + EMAIL_FROM)" });
+      return NextResponse.json({ ok: true, skipped: "email not configured (set BREVO_API_KEY or RESEND_API_KEY, plus EMAIL_FROM)" });
     }
 
     await ensureTables();
@@ -475,6 +525,44 @@ export async function GET(request: Request) {
           .slice(0, 3)
           .map(([reason, n]) => ({ reason, count: n })),
       });
+    }
+
+    // `?to=someone@example.com` sends the real weekly email to exactly one
+    // address — the same template, the same provider, the same headers as the
+    // Monday run — and writes nothing to the send ledger.
+    //
+    // This exists because "does the new sender work?" is otherwise unanswerable
+    // without mailing all ~170 students and reading the wreckage. Guarded by the
+    // cron secret like everything else here, and capped to one recipient so it
+    // cannot be turned into an open relay.
+    const testTo = (params.get("to") ?? "").trim();
+    if (testTo && !dryRun) {
+      if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(testTo)) {
+        return NextResponse.json({ ok: false, error: "`to` is not a valid address" }, { status: 400 });
+      }
+      const sample = weeklyDigestEmail({ userId: "test-recipient", name: "there" });
+      try {
+        const result = await sendEmail(testTo, sample.subject, sample.html, {
+          text: sample.text,
+          // No unsubscribe header on a test: it would imply a subscription
+          // relationship for an address that has none.
+        });
+        return NextResponse.json({
+          ok: true,
+          sent: true,
+          to: testTo,
+          from: process.env.EMAIL_FROM || "(unset — provider default)",
+          replyTo: process.env.EMAIL_REPLY_TO || null,
+          provider: process.env.BREVO_API_KEY ? "brevo" : process.env.RESEND_API_KEY ? "resend" : "none",
+          messageId: result.id ?? null,
+          note: "Open it in the inbox, then Show original. SPF, DKIM and DMARC should all say PASS and the authenticated domain should be the one in EMAIL_FROM.",
+        });
+      } catch (e) {
+        return NextResponse.json(
+          { ok: false, sent: false, to: testTo, error: e instanceof Error ? e.message : String(e) },
+          { status: 502 },
+        );
+      }
     }
 
     // `?dryRun=1` reports exactly what a real run would do — how many people are
