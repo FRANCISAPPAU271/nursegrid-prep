@@ -233,63 +233,101 @@ async function reconcileBatch(
   batchStartedAt: Date,
   recipients: { id: string; email: string }[],
   weekKey: string,
-): Promise<{ checked: boolean; rejected: number; rolledBack: number; reason: string | null }> {
-  if (!process.env.BREVO_API_KEY || recipients.length === 0) {
-    return { checked: false, rejected: 0, rolledBack: 0, reason: null };
-  }
+): Promise<{
+  checked: boolean;
+  delivered: number;
+  rejected: number;
+  unconfirmed: number;
+  rolledBack: number;
+  reason: string | null;
+}> {
+  const none = { checked: false, delivered: 0, rejected: 0, unconfirmed: 0, rolledBack: 0, reason: null };
+  if (!process.env.BREVO_API_KEY || recipients.length === 0) return none;
 
-  // Events are written asynchronously; give them a moment to land.
-  await new Promise((r) => setTimeout(r, 4000));
-
-  try {
+  type Ev = { event?: string; email?: string; date?: string; reason?: string };
+  const readEvents = async (): Promise<Ev[] | null> => {
     const res = await fetch("https://api.brevo.com/v3/smtp/statistics/events?limit=500&days=1&sort=desc", {
-      headers: { "api-key": process.env.BREVO_API_KEY.trim(), Accept: "application/json" },
+      headers: { "api-key": process.env.BREVO_API_KEY!.trim(), Accept: "application/json" },
     });
-    if (!res.ok) {
-      // A send-only key cannot read events. That is a legitimate configuration,
-      // so this is reported, not treated as a failure.
-      return { checked: false, rejected: 0, rolledBack: 0, reason: `event log returned ${res.status}` };
-    }
-
-    const body = (await res.json().catch(() => ({}))) as {
-      events?: { event?: string; email?: string; date?: string; reason?: string }[];
-    };
+    // A send-only key cannot read the log. That is a legitimate configuration,
+    // so it is reported rather than treated as a failure.
+    if (!res.ok) return null;
+    const body = (await res.json().catch(() => ({}))) as { events?: Ev[] };
     const cutoff = batchStartedAt.getTime() - 60_000;
-    const events = (body.events ?? []).filter((e) => {
+    return (body.events ?? []).filter((e) => {
       const t = e.date ? Date.parse(e.date) : NaN;
       return Number.isFinite(t) ? t >= cutoff : false;
     });
+  };
 
-    const byEmail = new Map(recipients.map((r) => [r.email.toLowerCase(), r.id]));
-    const rejectedIds = new Set<string>();
+  const classify = (events: Ev[]) => {
+    const rejected = new Set<string>();
+    const delivered = new Set<string>();
     let reason: string | null = null;
-
     for (const e of events) {
-      if (e.event !== "error") continue;
-      const id = e.email ? byEmail.get(e.email.toLowerCase()) : undefined;
-      if (id) {
-        rejectedIds.add(id);
+      if (!e.email) continue;
+      const email = e.email.toLowerCase();
+      if (e.event === "error") {
+        rejected.add(email);
         reason ??= e.reason?.trim() ?? null;
+      } else if (e.event === "delivered" || e.event === "opened" || e.event === "clicks" || e.event === "uniqueOpened") {
+        delivered.add(email);
       }
     }
+    return { rejected, delivered, reason };
+  };
 
-    let rolledBack = 0;
-    for (const id of rejectedIds) {
+  try {
+    // Events land asynchronously. Check, and if anything is still unexplained
+    // while the batch is failing, look once more before deciding — a single
+    // short window is how a rejected message gets mis-filed as delivered.
+    await new Promise((r) => setTimeout(r, 6000));
+    let events = await readEvents();
+    if (events === null) {
+      return { ...none, checked: false, reason: "the key cannot read the event log" };
+    }
+    let { rejected, delivered, reason } = classify(events);
+
+    const known = new Set([...rejected, ...delivered]);
+    const unknownCount = recipients.filter((r) => !known.has(r.email.toLowerCase())).length;
+    if (unknownCount > 0 && rejected.size > 0) {
+      await new Promise((r) => setTimeout(r, 6000));
+      events = (await readEvents()) ?? events;
+      ({ rejected, delivered, reason } = classify(events));
+    }
+
+    const allKnown = new Set([...rejected, ...delivered]);
+    const unconfirmed = recipients.filter((r) => !allKnown.has(r.email.toLowerCase()));
+
+    // Anything rejected is un-marked so the person stays due. When the batch is
+    // demonstrably failing, unconfirmed messages are treated the same way: a
+    // working sender resolves every message promptly, and leaving them marked
+    // is what silently costs someone a week.
+    const toRollBack = [
+      ...recipients.filter((r) => rejected.has(r.email.toLowerCase())),
+      ...(rejected.size > 0 ? unconfirmed : []),
+    ];
+    const uniqueIds = [...new Set(toRollBack.map((r) => r.id))];
+
+    for (const id of uniqueIds) {
       await db.execute(sql`
         DELETE FROM weekly_digest_sends
         WHERE user_id = ${id} AND kind = 'weekly' AND period_key = ${weekKey}
       `);
-      rolledBack += 1;
     }
 
-    return { checked: true, rejected: rejectedIds.size, rolledBack, reason };
-  } catch (e) {
     return {
-      checked: false,
-      rejected: 0,
-      rolledBack: 0,
-      reason: `could not read the event log: ${e instanceof Error ? e.message : "unknown"}`,
+      checked: true,
+      // Only messages with a delivery event are called delivered. Subtracting
+      // rejections from accepts would be a guess.
+      delivered: recipients.filter((r) => delivered.has(r.email.toLowerCase())).length,
+      rejected: recipients.filter((r) => rejected.has(r.email.toLowerCase())).length,
+      unconfirmed: unconfirmed.length,
+      rolledBack: uniqueIds.length,
+      reason,
     };
+  } catch (e) {
+    return { ...none, checked: false, reason: `could not read the event log: ${e instanceof Error ? e.message : "unknown"}` };
   }
 }
 
@@ -442,18 +480,21 @@ export async function GET(request: Request) {
     const verdict = await reconcileBatch(batchStartedAt, accepted, weekKey);
 
     return NextResponse.json({
-      ok: errors.length === 0 && verdict.rejected === 0,
+      ok: errors.length === 0 && verdict.checked && verdict.rejected === 0 && verdict.unconfirmed === 0,
       week: weekKey,
       accepted: accepted.length,
-      // Kept for backwards compatibility with anything reading `sent`.
+      // Kept for anything still reading `sent`.
       sent: accepted.length,
-      delivered: verdict.checked ? accepted.length - verdict.rejected : null,
+      // Confirmed by the provider. Never inferred by subtraction — that is how
+      // a rejected message gets filed as delivered.
+      delivered: verdict.checked ? verdict.delivered : null,
       rejected: verdict.checked ? verdict.rejected : null,
+      unconfirmed: verdict.checked ? verdict.unconfirmed : null,
       rolledBack: verdict.rolledBack,
       verification: verdict.checked
-        ? verdict.rejected > 0
-          ? `provider rejected ${verdict.rejected}; those users remain due — ${verdict.reason ?? "no reason given"}`
-          : "provider accepted every message for delivery"
+        ? verdict.rejected > 0 || verdict.unconfirmed > 0
+          ? `provider rejected ${verdict.rejected} and left ${verdict.unconfirmed} unconfirmed; ${verdict.rolledBack} returned to the due list — ${verdict.reason ?? "no reason given"}`
+          : `all ${verdict.delivered} confirmed delivered`
         : `not verified — ${verdict.reason ?? "no event log access"}`,
       batchLimit: MAX_PER_RUN,
       moreQueuedForTomorrow: rows.length === MAX_PER_RUN,
