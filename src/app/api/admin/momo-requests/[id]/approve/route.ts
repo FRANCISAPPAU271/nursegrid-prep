@@ -71,16 +71,26 @@ export async function POST(_request: Request, { params }: { params: Promise<{ id
       .where(eq(momoPaymentRequests.id, id))
       .returning();
 
+    // The payment has committed by this point, so a failed email must not fail
+    // the request. But it must not disappear either: an admin who believes the
+    // customer was told, when they were not, has no reason to follow up, and
+    // that silence is why a rejected sender went unnoticed for so long.
+    let notified = false;
+    let notifyError: string | null = null;
     if (isEmailConfigured() && userRows[0]?.email) {
       try {
         const message = momoPaymentStatusEmail(userRows[0].name, "approved", plan.label);
         await sendEmail(userRows[0].email, message.subject, message.html);
+        notified = true;
       } catch (emailError) {
+        notifyError = emailError instanceof Error ? emailError.message : "email failed";
         console.error("Payment approval email failed", emailError);
       }
+    } else {
+      notifyError = userRows[0]?.email ? "email is not configured" : "no email address on the account";
     }
 
-    return NextResponse.json({ request: updatedRequest, subscription });
+    return NextResponse.json({ request: updatedRequest, subscription, notified, notifyError });
   } catch (error) {
     return handleApiError(error);
   }

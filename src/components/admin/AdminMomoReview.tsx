@@ -55,7 +55,16 @@ export default function AdminMomoReview({ initial }: { initial: MomoPaymentReque
       const res = await fetch(`/api/admin/momo-requests/${request.id}/approve`, { method: "POST" });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Failed to approve payment");
-      toast.push(`Approved — ${request.userName} now has premium access`, "success");
+      // The approval succeeded either way; say so plainly, but never imply the
+      // customer was emailed when the notification failed.
+      if (data.notified === false) {
+        toast.push(
+          `Approved — but the confirmation email failed (${data.notifyError ?? "unknown reason"}). Tell ${request.userName} another way.`,
+          "error",
+        );
+      } else {
+        toast.push(`Approved — ${request.userName} has been emailed and now has premium access`, "success");
+      }
     } catch (err) {
       setRequests(previous);
       toast.push(err instanceof Error ? err.message : "Failed to approve payment", "error");
@@ -86,7 +95,14 @@ export default function AdminMomoReview({ initial }: { initial: MomoPaymentReque
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Failed to reject payment");
-      toast.push(`Rejected — ${request.userName} was not granted access`, "info");
+      if (data.notified === false) {
+        toast.push(
+          `Rejected — but the email failed (${data.notifyError ?? "unknown reason"}). Tell ${request.userName} another way.`,
+          "error",
+        );
+      } else {
+        toast.push(`Rejected — ${request.userName} has been emailed`, "info");
+      }
     } catch (err) {
       setRequests(previous);
       toast.push(err instanceof Error ? err.message : "Failed to reject payment", "error");

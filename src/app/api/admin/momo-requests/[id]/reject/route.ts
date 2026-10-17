@@ -36,6 +36,10 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
       .where(eq(momoPaymentRequests.id, id))
       .returning();
 
+    // As with approval: the rejection has committed, so a failed email must not
+    // fail the request — but the admin needs to know it failed.
+    let notified = false;
+    let notifyError: string | null = null;
     if (isEmailConfigured()) {
       const userRows = await db.select({ name: users.name, email: users.email }).from(users).where(eq(users.id, rows[0].userId)).limit(1);
       const recipient = userRows[0];
@@ -43,13 +47,19 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
         try {
           const message = momoPaymentStatusEmail(recipient.name, "rejected", rows[0].plan, reviewNote || undefined);
           await sendEmail(recipient.email, message.subject, message.html);
+          notified = true;
         } catch (emailError) {
+          notifyError = emailError instanceof Error ? emailError.message : "email failed";
           console.error("Payment rejection email failed", emailError);
         }
+      } else {
+        notifyError = "no email address on the account";
       }
+    } else {
+      notifyError = "email is not configured";
     }
 
-    return NextResponse.json({ request: updated });
+    return NextResponse.json({ request: updated, notified, notifyError });
   } catch (error) {
     if (error instanceof z.ZodError) {
       return NextResponse.json({ error: error.issues[0]?.message ?? "Invalid input" }, { status: 422 });
