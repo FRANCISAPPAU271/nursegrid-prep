@@ -110,6 +110,34 @@ was not a verified Brevo sender. `?verify=1` reported:
 
 So after any send: run `?verify=1`, and only believe `delivered`.
 
+### A send is not a delivery
+
+After every batch the job reads the provider's event log and reconciles:
+
+| Field | Meaning |
+|---|---|
+| `accepted` | messages the provider took (a 2xx) |
+| `delivered` | messages with a real delivery event — never inferred |
+| `rejected` | messages the provider threw away afterwards |
+| `unconfirmed` | no event either way |
+| `rolledBack` | people returned to the due list because their mail did not arrive |
+
+Anyone rejected, and anyone unconfirmed during a failing batch, has their ledger
+row deleted so they stay due. `ok` is `false` whenever anything was rejected, so
+a broken sender can never look like a success.
+
+Verified live on 2026-10-17 with the sender still unverified:
+
+```json
+{ "ok": false, "accepted": 3, "delivered": 0, "rejected": 3,
+  "unconfirmed": 0, "rolledBack": 3,
+  "verification": "provider rejected 3 and left 0 unconfirmed; 3 returned to the due list — Sending has been rejected because the sender ... is not valid." }
+```
+
+The first version of this check said `delivered: 1` for that same batch, because
+it computed accepted − rejected and one rejection event had not landed yet. It
+now only counts confirmed deliveries.
+
 Running it twice in the same week is safe — the second run sends nothing,
 because the primary key on `weekly_digest_sends` records who has had week `2026-W42`.
 
