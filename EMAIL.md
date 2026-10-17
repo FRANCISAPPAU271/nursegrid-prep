@@ -1,5 +1,13 @@
 # The weekly email
 
+> **Paused 2026-10-17, pending a verified Brevo sender.** The job works end to end —
+> 173 accounts, correct segmentation, idempotent ledger — but Brevo rejects every
+> message because no sender address is verified on the account. The schedule is
+> removed from `vercel.json` so it cannot run unattended and mark people as
+> contacted for mail that never arrived. Restore the cron entry once a sender is
+> verified, then run `?reset=1` and a real run, then `?verify=1` to confirm
+> `delivered` rather than `requests`.
+
 One email, once a week, to everyone who has a NurseGrid account.
 
 It does two things and nothing else: **reminds them they can subscribe**, and **tells them what's new**.
