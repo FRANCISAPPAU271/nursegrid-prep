@@ -1,5 +1,12 @@
 # Getting email working (one-time, ~10 minutes)
 
+> **Resolved 2026-10-17.** Sender verified: `nursegritprep@gmail.com`. The address
+> is missing the *d* in "grid" — it is the spelling that was originally in
+> `EMAIL_FROM`, before it was "corrected", and correcting it is what kept the
+> sends rejected. `EMAIL_FROM` now points at the verified spelling. Fixing the
+> typo later means re-verifying the other address in Brevo first.
+
+
 Everything else about the weekly email is finished, deployed and tested.
 It cannot send because Brevo rejects the sender address, and only the account
 owner can fix that.
