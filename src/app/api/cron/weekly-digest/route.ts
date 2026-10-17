@@ -4,6 +4,7 @@ import { sql } from "drizzle-orm";
 import { isEmailConfigured, sendEmail } from "@/lib/email";
 import { weeklyDigestEmail, trialEndedNudgeEmail, type DigestSegment } from "@/lib/weekly-digest";
 import { unsubscribeUrl } from "@/lib/unsubscribe";
+import { registrationStatus } from "@/content/exam-calendar";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
@@ -50,6 +51,13 @@ async function ensureTables() {
       "created_at" timestamptz NOT NULL DEFAULT now()
     )
   `);
+  await db.execute(sql`
+    CREATE TABLE IF NOT EXISTS "exam_registered" (
+      "user_id" text PRIMARY KEY,
+      "sitting" text,
+      "created_at" timestamptz NOT NULL DEFAULT now()
+    )
+  `);
   tablesEnsured = true;
 }
 
@@ -87,6 +95,7 @@ type Row = {
   correct: number;
   week: number;
   last_at: string | null;
+  already_registered: boolean;
 };
 
 export async function GET(request: Request) {
@@ -105,6 +114,9 @@ export async function GET(request: Request) {
 
     const now = new Date();
     const weekKey = isoWeekKey(now);
+    // Same deadline for everyone in this run; the per-user copy only differs by
+    // whether they have already told us they registered.
+    const examStatus = registrationStatus(now);
     const weekAgo = new Date(now.getTime() - 7 * 86400000);
     const newAccountCutoff = new Date(now.getTime() - 48 * 3600000);
 
@@ -113,8 +125,10 @@ export async function GET(request: Request) {
     // receives two emails in one week.
     const lapsedTrials = (
       await db.execute(sql`
-        SELECT u.id, u.name, u.email
+        SELECT u.id, u.name, u.email,
+               (r.user_id IS NOT NULL) AS already_registered
         FROM users u
+        LEFT JOIN exam_registered r ON r.user_id = u.id
         WHERE u.is_admin = false
           AND u.is_premium = false
           AND u.premium_trial_ends_at IS NOT NULL
@@ -133,14 +147,19 @@ export async function GET(request: Request) {
         ORDER BY u.premium_trial_ends_at ASC
         LIMIT ${Math.floor(MAX_PER_RUN / 4)}
       `)
-    ).rows as unknown as { id: string; name: string; email: string }[];
+    ).rows as unknown as { id: string; name: string; email: string; already_registered: boolean }[];
 
     let nudged = 0;
     const errors: string[] = [];
 
     await mapLimit(lapsedTrials, CONCURRENCY, async (u) => {
       try {
-        const { subject, html } = trialEndedNudgeEmail({ userId: u.id, name: u.name });
+        const { subject, html } = trialEndedNudgeEmail({
+          userId: u.id,
+          name: u.name,
+          registration: examStatus,
+          alreadyRegistered: Boolean(u.already_registered),
+        });
         await sendEmail(u.email, subject, html, { unsubscribeUrl: unsubscribeUrl(APP_URL, u.id) || undefined });
         await db.execute(sql`
           INSERT INTO weekly_digest_sends (user_id, kind, period_key)
@@ -170,8 +189,10 @@ export async function GET(request: Request) {
                COALESCE(a.total, 0)::int   AS total,
                COALESCE(a.correct, 0)::int AS correct,
                COALESCE(a.week, 0)::int    AS week,
-               a.last_at
+               a.last_at,
+               (r.user_id IS NOT NULL)     AS already_registered
         FROM users u
+        LEFT JOIN exam_registered r ON r.user_id = u.id
         LEFT JOIN (
           SELECT user_id,
                  COUNT(*)::int                                   AS total,
@@ -206,10 +227,6 @@ export async function GET(request: Request) {
         const segment: DigestSegment =
           total === 0 ? "never_started" : thisWeek === 0 ? "lapsed" : "active";
 
-        const trialEnded = Boolean(
-          !u.is_premium && u.trial_ends_at && new Date(u.trial_ends_at).getTime() < now.getTime(),
-        );
-
         const { subject, html } = weeklyDigestEmail({
           userId: u.id,
           name: u.name,
@@ -221,7 +238,8 @@ export async function GET(request: Request) {
             daysSinceLastAnswer: daysSince,
           },
           isPremium: Boolean(u.is_premium),
-          trialEnded,
+          registration: examStatus,
+          alreadyRegistered: Boolean(u.already_registered),
         });
 
         await sendEmail(u.email, subject, html, { unsubscribeUrl: unsubscribeUrl(APP_URL, u.id) || undefined });
@@ -241,6 +259,11 @@ export async function GET(request: Request) {
     return NextResponse.json({
       ok: true,
       week: weekKey,
+      examRegistration: {
+        sitting: examStatus.sitting.label,
+        closingDate: examStatus.sitting.registrationCloses,
+        urgency: examStatus.urgency,
+      },
       sent: { total: totalSent, trialNudge: nudged, ...sent },
       batchLimit: MAX_PER_RUN,
       remainingThisWeek: rows.length === MAX_PER_RUN ? "more queued for tomorrow's run" : 0,
