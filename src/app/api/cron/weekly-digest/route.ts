@@ -88,6 +88,7 @@ type Row = { id: string; name: string; email: string };
  */
 async function checkProvider(): Promise<{
   provider: "brevo" | "resend" | "none";
+  keyKind?: "api" | "smtp" | "unknown";
   keyValid: boolean | null;
   senderVerified: boolean | null;
   detail: string;
@@ -97,7 +98,15 @@ async function checkProvider(): Promise<{
 
   if (process.env.BREVO_API_KEY) {
     const key = process.env.BREVO_API_KEY.trim();
-    const looksRight = key.startsWith("xkeysib-");
+    // Which kind of Brevo credential is stored? Only the family prefix is
+    // reported, never the key. xkeysib- is the v3 API key; xsmtpsib- is the
+    // SMTP relay password, a common paste by mistake, which cannot
+    // authenticate api.brevo.com.
+    const keyKind: "api" | "smtp" | "unknown" = key.startsWith("xkeysib-")
+      ? "api"
+      : key.startsWith("xsmtpsib-")
+        ? "smtp"
+        : "unknown";
     try {
       const acct = await fetch("https://api.brevo.com/v3/account", {
         headers: { "api-key": key, Accept: "application/json" },
@@ -106,10 +115,14 @@ async function checkProvider(): Promise<{
         return {
           provider: "brevo",
           keyValid: false,
+          keyKind,
           senderVerified: null,
           detail:
-            "Brevo rejected the key (401 Key not found). Generate a new one at Brevo → SMTP & API → API Keys." +
-            (looksRight ? "" : " The stored value also does not look like an API key — those start with 'xkeysib-'."),
+            keyKind === "smtp"
+              ? "The stored value is a Brevo SMTP relay password (xsmtpsib-…), not an API key, so it cannot authenticate api.brevo.com. Create an API key at Brevo → SMTP & API → API Keys — it starts with xkeysib-."
+              : keyKind === "unknown"
+                ? "Brevo rejected the stored value (401 Key not found) and it matches neither Brevo credential format. Create an API key at Brevo → SMTP & API → API Keys — it starts with xkeysib-."
+                : "Brevo rejected a correctly-formatted API key (401 Key not found), so it has most likely been revoked. Generate a new one at Brevo → SMTP & API → API Keys.",
         };
       }
       if (!acct.ok) {
