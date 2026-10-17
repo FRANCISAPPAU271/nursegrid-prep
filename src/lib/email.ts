@@ -25,7 +25,26 @@ function parseFrom(from: string): { name: string; email: string } {
   return { name: "NurseGrid Prep", email: from.trim() };
 }
 
-export async function sendEmail(to: string, subject: string, html: string): Promise<void> {
+/**
+ * Send one email.
+ *
+ * `options.unsubscribeUrl` adds the RFC 8058 List-Unsubscribe headers. Gmail
+ * and Yahoo require them for bulk senders, and they put a native
+ * "Unsubscribe" button next to the sender name — which is friendlier than
+ * making someone scroll to the footer to find the link.
+ */
+export async function sendEmail(
+  to: string,
+  subject: string,
+  html: string,
+  options?: { unsubscribeUrl?: string },
+): Promise<void> {
+  const bulkHeaders: Record<string, string> = options?.unsubscribeUrl
+    ? {
+        "List-Unsubscribe": `<${options.unsubscribeUrl}>`,
+        "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      }
+    : {};
   if (process.env.BREVO_API_KEY) {
     const sender = parseFrom(FROM_ADDRESS);
     const res = await fetch("https://api.brevo.com/v3/smtp/email", {
@@ -40,6 +59,7 @@ export async function sendEmail(to: string, subject: string, html: string): Prom
         to: [{ email: to }],
         subject,
         htmlContent: html,
+        ...(Object.keys(bulkHeaders).length ? { headers: bulkHeaders } : {}),
       }),
     });
     if (!res.ok) {
@@ -51,7 +71,7 @@ export async function sendEmail(to: string, subject: string, html: string): Prom
 
   if (process.env.RESEND_API_KEY) {
     const resend = new Resend(process.env.RESEND_API_KEY);
-    await resend.emails.send({ from: FROM_ADDRESS, to, subject, html });
+    await resend.emails.send({ from: FROM_ADDRESS, to, subject, html, ...(Object.keys(bulkHeaders).length ? { headers: bulkHeaders } : {}) });
     return;
   }
 
