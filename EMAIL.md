@@ -1,6 +1,8 @@
 # The weekly email
 
-> **Paused 2026-10-17, pending a verified Brevo sender.** The job works end to end —
+> **Sender is verified: `nursegritprep@gmail.com` (misspelled, deliberately kept
+> — see RESUME.md). Blocked on one rebuild 2026-10-17; the deployed build still
+> carries the old sender.** The job works end to end —
 > 173 accounts, correct segmentation, idempotent ledger — but Brevo rejects every
 > message because no sender address is verified on the account. The schedule is
 > removed from `vercel.json` so it cannot run unattended and mark people as

@@ -1,10 +1,13 @@
 # Getting email working (one-time, ~10 minutes)
 
-> **Resolved 2026-10-17.** Sender verified: `nursegritprep@gmail.com`. The address
-> is missing the *d* in "grid" — it is the spelling that was originally in
-> `EMAIL_FROM`, before it was "corrected", and correcting it is what kept the
-> sends rejected. `EMAIL_FROM` now points at the verified spelling. Fixing the
-> typo later means re-verifying the other address in Brevo first.
+> **Resolved 2026-10-17.** The verified sender is `nursegritprep@gmail.com` —
+> misspelled, missing the *d*, and permanently so: it is the mailbox the owner
+> actually controls, and the correctly spelled address cannot be verified
+> without access to it. `EMAIL_FROM` matches this spelling. Do not "correct"
+> it; a corrected value is rejected at the sender check on every send.
+>
+> Everything else on this page is done. The only outstanding step is a rebuild
+> the 2026-10-17 deployment quota blocked; see RESUME.md.
 
 
 Everything else about the weekly email is finished, deployed and tested.
@@ -18,10 +21,9 @@ Sending has been rejected because the sender you used
 nursegridprep@gmail.com is not valid. Validate your sender or authenticate your domain
 ```
 
-Both spellings of the address were tried (`nursegritprep@` — the typo that was
-in `EMAIL_FROM` — and `nursegridprep@`). Neither is a verified Brevo sender, and
-the Brevo account has **never delivered a single email** (180 requests, 180
-errors, 0 delivered, 90-day window).
+The account had **never delivered a single email** — 180 requests, 180 errors,
+0 delivered over a 90-day window — because no usable sender was ever verified
+against the address the app was sending from.
 
 The API key on the project is send-only by design: it cannot create a sender,
 list senders, or authenticate a domain. That is why this needs the dashboard.
