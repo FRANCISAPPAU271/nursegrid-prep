@@ -88,8 +88,9 @@ type Row = { id: string; name: string; email: string };
  */
 async function checkProvider(): Promise<{
   provider: "brevo" | "resend" | "none";
-  keyKind?: "api" | "smtp" | "unknown";
   keyValid: boolean | null;
+  keyKind?: "api" | "smtp" | "unknown";
+  canSend?: boolean | null;
   senderVerified: boolean | null;
   detail: string;
 }> {
@@ -98,58 +99,97 @@ async function checkProvider(): Promise<{
 
   if (process.env.BREVO_API_KEY) {
     const key = process.env.BREVO_API_KEY.trim();
-    // Which kind of Brevo credential is stored? Only the family prefix is
-    // reported, never the key. xkeysib- is the v3 API key; xsmtpsib- is the
-    // SMTP relay password, a common paste by mistake, which cannot
-    // authenticate api.brevo.com.
+    // Only the credential family is ever reported, never the key itself.
     const keyKind: "api" | "smtp" | "unknown" = key.startsWith("xkeysib-")
       ? "api"
       : key.startsWith("xsmtpsib-")
         ? "smtp"
         : "unknown";
+
     try {
-      const acct = await fetch("https://api.brevo.com/v3/account", {
-        headers: { "api-key": key, Accept: "application/json" },
+      // Probe the endpoint we actually use, with an empty body, which cannot
+      // deliver anything. Brevo answers 400 "sender is missing" when the key
+      // may send, 401 when the key is unknown, 403 when it lacks the send
+      // scope. Checking /v3/account would be wrong: a send-only key, the
+      // correct scope for this job, is forbidden there.
+      const probe = await fetch("https://api.brevo.com/v3/smtp/email", {
+        method: "POST",
+        headers: { "api-key": key, "Content-Type": "application/json", Accept: "application/json" },
+        body: "{}",
       });
-      if (acct.status === 401) {
+
+      if (probe.status === 401) {
         return {
           provider: "brevo",
           keyValid: false,
           keyKind,
+          canSend: false,
           senderVerified: null,
           detail:
             keyKind === "smtp"
-              ? "The stored value is a Brevo SMTP relay password (xsmtpsib-…), not an API key, so it cannot authenticate api.brevo.com. Create an API key at Brevo → SMTP & API → API Keys — it starts with xkeysib-."
+              ? "The stored value is a Brevo SMTP relay password (xsmtpsib-...), not an API key, so it cannot authenticate api.brevo.com. Create an API key at Brevo -> SMTP & API -> API Keys, it starts with xkeysib-."
               : keyKind === "unknown"
-                ? "Brevo rejected the stored value (401 Key not found) and it matches neither Brevo credential format. Create an API key at Brevo → SMTP & API → API Keys — it starts with xkeysib-."
-                : "Brevo rejected a correctly-formatted API key (401 Key not found), so it has most likely been revoked. Generate a new one at Brevo → SMTP & API → API Keys.",
+                ? "Brevo rejected the stored value (401 Key not found) and it matches neither Brevo credential format. Create an API key at Brevo -> SMTP & API -> API Keys, it starts with xkeysib-."
+                : "Brevo rejected a correctly-formatted API key (401 Key not found), so it has most likely been revoked. Generate a new one at Brevo -> SMTP & API -> API Keys.",
         };
       }
-      if (!acct.ok) {
-        return { provider: "brevo", keyValid: null, senderVerified: null, detail: `Brevo account check returned ${acct.status}.` };
+
+      if (probe.status === 403) {
+        return {
+          provider: "brevo",
+          keyValid: true,
+          keyKind,
+          canSend: false,
+          senderVerified: null,
+          detail:
+            "The key is genuine but is not allowed to send transactional email. In Brevo -> SMTP & API -> API Keys, grant this key access to transactional email.",
+        };
       }
 
+      if (probe.status !== 400) {
+        return {
+          provider: "brevo",
+          keyValid: null,
+          keyKind,
+          canSend: null,
+          senderVerified: null,
+          detail: `Unexpected answer from Brevo while checking the key: ${probe.status}.`,
+        };
+      }
+
+      // The key may send. Sender verification needs the sender scope, which a
+      // send-only key does not have - say so rather than implying a problem.
+      let senderVerified: boolean | null = null;
+      let note = "";
       const senders = await fetch("https://api.brevo.com/v3/senders", {
         headers: { "api-key": key, Accept: "application/json" },
       });
-      let senderVerified: boolean | null = null;
-      if (senders.ok) {
+      if (senders.status === 403) {
+        note = " The key cannot list senders (send-only scope), so the sender address was not confirmed - expected for this scope.";
+      } else if (senders.ok) {
         const list = (await senders.json().catch(() => ({}))) as { senders?: { email?: string; active?: boolean }[] };
-        const match = (list.senders ?? []).find((s) => (s.email ?? "").toLowerCase() === fromAddress.toLowerCase());
+        const match = (list.senders ?? []).find((x) => (x.email ?? "").toLowerCase() === fromAddress.toLowerCase());
         senderVerified = Boolean(match?.active);
+        note = senderVerified ? "" : ` ${fromAddress || "(EMAIL_FROM unset)"} is not an active, verified sender in Brevo.`;
       }
+
       return {
         provider: "brevo",
         keyValid: true,
+        keyKind,
+        canSend: true,
         senderVerified,
-        detail: senderVerified
-          ? `Key is valid and ${fromAddress} is a verified sender.`
-          : senderVerified === false
-            ? `Key is valid, but ${fromAddress || "(EMAIL_FROM unset)"} is not a verified, active sender in Brevo.`
-            : "Key is valid; could not read the sender list.",
+        detail: `Key is accepted and permitted to send.${note}`,
       };
     } catch (e) {
-      return { provider: "brevo", keyValid: null, senderVerified: null, detail: `Could not reach Brevo: ${e instanceof Error ? e.message : "unknown"}` };
+      return {
+        provider: "brevo",
+        keyValid: null,
+        keyKind,
+        canSend: null,
+        senderVerified: null,
+        detail: `Could not reach Brevo: ${e instanceof Error ? e.message : "unknown"}`,
+      };
     }
   }
 
@@ -165,7 +205,12 @@ async function checkProvider(): Promise<{
         detail: res.ok ? "Resend key is valid." : `Resend returned ${res.status}.`,
       };
     } catch (e) {
-      return { provider: "resend", keyValid: null, senderVerified: null, detail: `Could not reach Resend: ${e instanceof Error ? e.message : "unknown"}` };
+      return {
+        provider: "resend",
+        keyValid: null,
+        senderVerified: null,
+        detail: `Could not reach Resend: ${e instanceof Error ? e.message : "unknown"}`,
+      };
     }
   }
 
@@ -207,7 +252,7 @@ export async function GET(request: Request) {
 
       const provider = await checkProvider();
       return NextResponse.json({
-        ok: provider.keyValid === true && provider.senderVerified !== false,
+        ok: provider.keyValid === true && provider.canSend === true && provider.senderVerified !== false,
         dryRun: true,
         week: isoWeekKey(new Date()),
         accountsDue: countRow?.due ?? 0,
