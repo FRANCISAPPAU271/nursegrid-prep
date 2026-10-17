@@ -15,7 +15,7 @@ const TESTIMONIALS = [
   },
   {
     quote:
-      "The strategy library taught me to think through prioritisation instead of guessing. And honestly? GH₵ 200 for a full year when foreign apps wanted 10 times that — activated in 2 minutes. No contest.",
+      "The strategy library taught me to think through prioritisation instead of guessing. And honestly? A fraction of what the foreign apps charge for a full year — activated in 2 minutes. No contest.",
     name: "Efua M.",
     role: "Midwife, passed licensing first attempt",
     initials: "EM",

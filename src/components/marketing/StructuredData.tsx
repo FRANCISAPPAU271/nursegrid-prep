@@ -24,15 +24,18 @@ export default function StructuredData() {
         publisher: { "@id": `${baseUrl}/#organization` },
       },
       {
-        "@type": "Product",
+        // Modelled as a SoftwareApplication rather than a Product: the app has
+        // no published price (pricing is shown in-app), and a Product node with
+        // no `offers` or `review` just triggers a "missing field" warning in
+        // Search Console while earning no rich result. This type is also simply
+        // more accurate — it is a web application, not a retail product.
+        "@type": "SoftwareApplication",
         name: "NurseGrid Prep",
-        description: "NMC licensing exam-style question bank, task manager, and study tools for nursing and midwifery students.",
+        description:
+          "NMC licensing exam-style question bank, task manager, and study tools for nursing and midwifery students.",
+        applicationCategory: "EducationalApplication",
+        operatingSystem: "Web",
         brand: { "@type": "Brand", name: "NurseGrid Prep" },
-        offers: [
-          { "@type": "Offer", name: "4 Months Full Access", price: "80.00", priceCurrency: "GHS" },
-          { "@type": "Offer", name: "8 Months Full Access", price: "140.00", priceCurrency: "GHS" },
-          { "@type": "Offer", name: "1 Year Full Access", price: "200.00", priceCurrency: "GHS" },
-        ],
       },
     ],
   };

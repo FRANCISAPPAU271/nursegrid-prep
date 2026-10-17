@@ -20,8 +20,12 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 const title = "NurseGrid Prep — Pass Ghana's NMC Licensing Exam First Time";
+// Deliberately carries no price. Pricing lives in the dashboard by product
+// decision, so advertising a figure in the search snippet would promise
+// something the landing page never confirms. The trust point ("one-time
+// payment") survives without the number.
 const description =
-  `Built for Ghana's student nurses & midwives: organise clinicals and revision, then master ${QUESTION_COUNT_LABEL} unique NMC licensing-style questions with rationales that teach real clinical reasoning. From GH₵ 80 — one-time payment, never auto-billed.`;
+  `Built for Ghana's student nurses & midwives: organise clinicals and revision, then master ${QUESTION_COUNT_LABEL} unique NMC licensing-style questions with rationales that teach real clinical reasoning. One-time payment — never auto-billed.`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

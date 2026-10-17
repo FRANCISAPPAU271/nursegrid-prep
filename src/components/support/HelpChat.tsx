@@ -2,15 +2,16 @@
 
 import { useState } from "react";
 import { buildWhatsAppLink } from "@/lib/contact";
+import { QUESTION_COUNT_LABEL } from "@/lib/question-count";
 
 type Topic = { label: string; answer: string };
 
 const topics: Topic[] = [
-  { label: "What does it cost?", answer: "Plans are GH₵80 for 4 months, GH₵140 for 8 months, or GH₵200 for 1 year. The exact price is shown before payment." },
-  { label: "How does the free access work?", answer: "New accounts receive 48 hours of full study access. After that, choose a plan to continue with the full question bank." },
+  { label: "What does it cost?", answer: "Access is a single one-time payment covering either 4 months, 8 months or a full year. The exact price for each is shown in your account before you pay, and nothing renews automatically." },
+  { label: "How does the free access work?", answer: "New accounts receive 3 days of full premium access — every question, mock exams and readiness tools. After that, choose a plan to keep going, or keep using the task board for free." },
   { label: "How do payments work?", answer: "Choose a plan on the billing screen inside your account. We support card payments and local payment methods. All plans are one-time payments for the full duration with zero recurring fees." },
   { label: "I cannot log in", answer: "Use your registered email and password. If you forgot the password, choose Forgot password on the login page. If you verified a phone during signup, you can use phone sign-in." },
-  { label: "How many questions are there?", answer: "NurseGrid Prep includes 3,500 curriculum questions, full rationales, and original study diagrams." },
+  { label: "How many questions are there?", answer: `NurseGrid Prep includes ${QUESTION_COUNT_LABEL} unique licensing-style questions, full rationales for every option, and original study diagrams.` },
   { label: "I need human support", answer: "Our support team can help with account recovery, payments and access. Tap the WhatsApp button below and include your registered email if you know it." },
 ];
 
