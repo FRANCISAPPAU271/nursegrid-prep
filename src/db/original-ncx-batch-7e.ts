@@ -346,7 +346,7 @@ export const NCX7_PART_E: AuthoredQuestion[] = [
   }),
   q({
     n: 848, cat: "maternal-newborn",
-    stem: "A **Rh-negative mother (O negative)** has a healthy **Rh-positive baby (O positive)**. Which action comes **first**?",
+    stem: "A woman who is **Rh-negative (O negative)** has just delivered a healthy baby. Which action comes **first**?",
     choices: [
       "Screening the cord blood for the baby's blood type",
       "Doing a direct Coombs test on the baby",
@@ -354,15 +354,15 @@ export const NCX7_PART_E: AuthoredQuestion[] = [
       "Giving RhoGAM to the newborn infant",
     ],
     correct: "a",
-    explain: "<strong>Confirm the trigger before treating it</strong> — cord typing proves Rh-positive exposure justifying maternal RhoGAM within 72 hours; Coombs evaluates suspected haemolysis, and RhoGAM protects future pregnancies through the mother, never the newborn. Verify first, inject second.",
+    explain: "RhoGAM is only justified if the baby has inherited Rh-positive blood, so the cord blood is typed first and the injection follows a positive result — and it must be given within 72 hours. That is why typing comes before treating: about a third of Rh-negative mothers carry an Rh-negative baby who needs no prophylaxis at all. Coombs testing looks for haemolysis once sensitisation is suspected, not for whether prophylaxis is needed. Maternal RhoGAM follows confirmed typing rather than preceding it. Newborns are never given RhoGAM, because the antibody protects the mother's future pregnancies.",
     others: {
-      b: "Coombs evaluates haemolysis, not prophylaxis need.",
-      c: "Maternal RhoGAM follows confirmed typing.",
-      d: "Newborns never receive RhoGAM.",
+      b: "Coombs assesses haemolysis; it does not decide whether prophylaxis is needed.",
+      c: "Maternal RhoGAM follows a confirmed Rh-positive baby, and the dose is given within 72 hours.",
+      d: "RhoGAM is never given to the newborn — it protects the mother.",
     },
-    ref: "Ghana — Rh prophylaxis; cord typing before RhoGAM",
-    strategy: "Decision tree: Rh-mismatched pairs type cords — confirm positive, then protect mother.",
-    tags: ["Rh", "RhoGAM", "cord-blood", "prophylaxis"],
+    ref: "Ghana — Rh incompatibility; cord blood typing before RhoGAM",
+    strategy: "Type the baby before you treat the mother. No cord result, no RhoGAM.",
+    tags: ["rh-incompatibility", "rhogam", "cord-blood", "postpartum"],
   }),
   q({
     n: 849, cat: "med-surg",

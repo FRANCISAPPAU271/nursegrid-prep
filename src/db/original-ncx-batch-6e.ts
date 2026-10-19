@@ -48,13 +48,13 @@ export const NCX6_PART_E: AuthoredQuestion[] = [
     n: 633, cat: "safety-infection-control",
     stem: "A sacral **stage-III ulcer** drains foul pus. In which situation should the nurse **intervene**?",
     choices: [
-      "The assistant enters wearing a mask",
+      "The assistant removes the soiled dressing with bare hands",
       "The enrolled nurse enters gowned and gloved",
       "The family brings the client a milkshake",
       "Two staff lift (not drag) the client to turn him",
     ],
     correct: "a",
-    explain: "<strong>Infected pressure ulcers need contact precautions — masks never</strong>, with doors open and gowns-plus-gloves for wound contact. Correct gowning, protein-rich shakes for nitrogen balance and lift-turning against shear all deserve praise, not correction.",
+    explain: "<strong>Removing a soiled dressing from an infected pressure ulcer with bare hands breaks contact precautions</strong> — gown and gloves are required for any contact with the wound or its drainage. The other three are all correct practice: gowning and gloving before wound contact, a protein-rich drink that supports healing, and lift-turning rather than dragging to avoid shear.",
     others: {
       b: "Gown-and-glove entry is correct contact precaution.",
       c: "Protein shakes rebuild the nitrogen ulcers waste.",

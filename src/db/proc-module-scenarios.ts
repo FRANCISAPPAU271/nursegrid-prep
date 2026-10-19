@@ -64,31 +64,31 @@ export const PROC_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-PROC-003",
     categorySlug: "fundamentals",
-    stem: "A nurse is measuring blood pressure on an obese adult client. The only available blood pressure cuff is a standard adult size cuff that is significantly too narrow and short for the client's arm circumference. If the nurse proceeds with this cuff, what systematic error in blood pressure measurement will occur?",
+    stem: "A nurse measuring a 68-year-old client's blood pressure hears Korotkoff sounds beginning at 168 mmHg, becoming completely inaudible at 150 mmHg, returning at 128 mmHg, and finally disappearing at 84 mmHg. What does this pattern represent, and how should the nurse record the reading?",
     choices: [
       {
         id: "a",
-        text: "The measured blood pressure will be falsely elevated (pseudohypertension)",
+        text: "An auscultatory gap — record 168/84 and, at later readings, inflate beyond the point where the radial pulse disappears so the true systolic is not missed",
       },
       {
         id: "b",
-        text: "The measured blood pressure will be falsely decreased",
+        text: "An auscultatory gap — record 128/84, because the higher sounds are arterial wall artefact and not true systolic",
       },
       {
         id: "c",
-        text: "The cuff size has zero effect on pneumatic sphygmomanometer readings",
+        text: "A normal Korotkoff sequence — record 150/84, taking the point of disappearance as the systolic pressure",
       },
       {
         id: "d",
-        text: "The diastolic reading will measure zero while the systolic will be accurate",
+        text: "A widened phase IV — record 168/128 and repeat the measurement on the opposite arm for confirmation",
       },
     ],
     correctChoiceId: "a",
     rationale:
-      "Proper blood pressure cuff sizing is critical for clinical accuracy: the inflatable bladder width must equal 40% of the upper arm circumference, and the length must encircle 80% to 100% of the arm. Using a cuff that is too small (too narrow or short) requires excessive pneumatic pressure to occlude the underlying brachial artery, yielding a falsely high blood pressure reading (can overestimate systolic and diastolic BP by 10 to 40 mmHg). Conversely, using a cuff that is too large/wide yields a falsely low reading.",
-    strategy: "BP cuff sizing rules: Too small/narrow cuff = Falsely HIGH reading. Too large/wide cuff = Falsely LOW reading. Bladder must encircle 80-100% of arm.",
+      "An auscultatory gap is a silent interval between the first Korotkoff sound and the return of phase II sounds, seen most often in older hypertensive clients and in aortic stenosis. It matters because if the cuff is inflated only to the expected systolic, the first sounds fall inside the gap and the true systolic is missed, so the reading is falsely low. The safeguard is to palpate the radial artery while inflating 20 to 30 mmHg beyond the point where the pulse disappears, then deflate at 2 to 3 mmHg per second. The first sound heard is the systolic (168) and the final disappearance is the diastolic (84). Why the other options fail: recording 128/84 mistakes the return of phase II for the systolic and underestimates pressure by 40 mmHg; a 22 mmHg silent interval between phases I and II is not a normal sequence, and a disappearance point is never the systolic; and 128 reflects phase II re-appearance, not a diastolic, so repeat measurement on the other arm would not correct the misreading.",
+    strategy: "A silent interval between phases I and II is an auscultatory gap. Record the first sound heard as systolic and the last sound heard as diastolic, and inflate well above the palpated systolic so the gap cannot hide it.",
     difficulty: "easy",
-    tags: ["procedures", "vital-signs", "blood-pressure", "cuff-sizing", "clinical-measurement"],
+    tags: ["procedures", "vital-signs", "blood-pressure", "auscultatory-gap", "korotkoff"],
     isFree: true,
   },
   {

@@ -266,7 +266,7 @@ export const NCX8_PART_B: AuthoredQuestion[] = [
   }),
   q({
     n: 1046, cat: "fundamentals",
-    stem: "A **nursing care plan** is prepared chiefly to achieve which **goal**?",
+    stem: "Which purpose of the written **nursing care plan** matters most **when care is handed over at change of shift**?",
     choices: [
       "Promote continuity of care across all shifts",
       "Change nursing actions to improve responses",
@@ -274,15 +274,15 @@ export const NCX8_PART_B: AuthoredQuestion[] = [
       "Assign blame for poor outcomes",
     ],
     correct: "a",
-    explain: "<strong>Written plans unite every shift's hands</strong> — continuity across nurses and days is the care plan's prime goal, while action-changing evaluates and tolerance-measuring audits afterwards. Planned continuous; handed seamless.",
+    explain: "<strong>Written plans unite every shift's hands</strong> — at handover the plan carries what has been done and what comes next, so continuity across nurses and days is the purpose that matters most here, while action-changing evaluates and tolerance-measuring audits afterwards. Planned continuous; handed seamless.",
     others: {
       b: "Action-changing evaluates downstream.",
       c: "Tolerance-measuring audits afterwards.",
       d: "Blame-assigning punishes — plans unite.",
     },
-    ref: "Fundamentals of nursing — care plans; continuity",
+    ref: "Fundamentals of nursing — care plans; continuity at handover",
     strategy: "Decision tree: plans continued — shifts united, care seamless.",
-    tags: ["care-plan", "continuity", "shifts", "goal"],
+    tags: ["care-plan", "continuity", "handover", "goal"],
   }),
   q({
     n: 1047, cat: "fundamentals",

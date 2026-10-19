@@ -322,16 +322,16 @@ export const OBS_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-OBS-018",
     categorySlug: "maternal-newborn",
-    stem: "At 1 minute after birth, a newborn has a heart rate of 115 beats/minute, a weak and irregular cry, some flexion of the extremities, grimaces in response to bulb suctioning, and has a pink body with cyanotic hands and feet (acrocyanosis). What is this infant's 1-minute APGAR score?",
+    stem: "At 1 minute after birth, a newborn has a heart rate of 115 beats/minute, a weak and irregular cry, some flexion of the extremities, grimaces in response to bulb suctioning, and a pink body with cyanotic hands and feet (acrocyanosis). What is this infant's 1-minute APGAR score?",
     choices: [
-      { id: "a", text: "5" },
+      { id: "a", text: "6" },
       { id: "b", text: "7" },
-      { id: "c", text: "8" },
-      { id: "d", text: "9" }
+      { id: "c", text: "5" },
+      { id: "d", text: "8" }
     ],
-    correctChoiceId: "b",
-    rationale: "APGAR scoring breakdown: (1) Heart rate: 115 bpm (> 100) = 2 points; (2) Respiratory effort: weak/irregular cry = 1 point (good strong cry = 2); (3) Muscle tone: some flexion of extremities = 1 point (active motion = 2); (4) Reflex irritability: grimace to suctioning = 1 point (vigorous cry/cough = 2); (5) Color: body pink, blue extremities (acrocyanosis) = 1 point (completely pink = 2). Total APGAR score = 2 + 1 + 1 + 1 + 1 = 7.",
-    strategy: "APGAR breakdown: HR > 100 (2) + Weak cry (1) + Some flexion (1) + Grimace (1) + Acrocyanosis (1) = 7. Acrocyanosis is normal in the first 24 hours.",
+    correctChoiceId: "a",
+    rationale: "Score each of the five components and add them. Heart rate 115 beats/minute is above 100, which scores 2. A weak and irregular cry scores 1 for respiratory effort. Some flexion of the extremities scores 1 for muscle tone. Grimacing in response to suctioning scores 1 for reflex irritability. A pink body with cyanotic hands and feet is acrocyanosis, which scores 1 for colour. That is 2 + 1 + 1 + 1 + 1 = 6. A score of 7 would need a second point somewhere, from a stronger cry, active motion or a fully pink colour, and none of those is described. The score is repeated at five minutes.",
+    strategy: "APGAR is five components out of 2, summed: HR > 100 (2) + weak cry (1) + some flexion (1) + grimace (1) + acrocyanosis (1) = 6.",
     difficulty: "medium",
     tags: ["obstetrics", "apgar-score", "newborn-assessment", "neonatal-transition"],
     isFree: true,

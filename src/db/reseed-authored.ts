@@ -16,9 +16,9 @@ import { CATEGORY_META } from "./question-bank";
 // answers were just other topics' correct answers. That trains pattern
 // matching, not clinical reasoning.
 //
-// This script installs 2,979 individually authored items. Each has its own
+// This script installs 5,510 individually authored items. Each has its own
 // distractors, a rationale that teaches the principle, an explanation of why
-// each wrong option is wrong, and a transferable strategy. 535 carry an
+// each wrong option is wrong, and a transferable strategy. 619 carry an
 // original diagram.
 //
 //   KEPT:      users, sessions, subscriptions, invoices, MoMo requests,

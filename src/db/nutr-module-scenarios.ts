@@ -8,24 +8,24 @@ export const NUTR_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "1,770 kcal (Carbohydrates: 250 x 4 = 1,000 kcal; Protein: 80 x 4 = 320 kcal; Fat: 50 x 9 = 450 kcal; Total = 1,770 kcal)",
+        text: "1,770 kcal",
       },
       {
         id: "b",
-        text: "3,420 kcal (all macronutrients provide 9 kcal per gram)",
+        text: "3,420 kcal",
       },
       {
         id: "c",
-        text: "1,520 kcal (all macronutrients provide 4 kcal per gram)",
+        text: "1,520 kcal",
       },
       {
         id: "d",
-        text: "850 kcal (only carbohydrates yield measurable energy)",
+        text: "1,320 kcal",
       },
     ],
     correctChoiceId: "a",
     rationale:
-      "Nutrient energy calculations are based on Atwater physiological fuel values: Carbohydrates yield 4 kcal/g, Proteins yield 4 kcal/g, Fats (lipids) yield 9 kcal/g, and Alcohol yields 7 kcal/g. Calculating for this meal plan: Carbohydrates = 250 g x 4 kcal/g = 1,000 kcal; Protein = 80 g x 4 kcal/g = 320 kcal; Fat = 50 g x 9 kcal/g = 450 kcal. Sum of energy: 1,000 + 320 + 450 = 1,770 kcal.",
+      "Nutrient energy calculations use the Atwater physiological fuel values: carbohydrate 4 kcal/g, protein 4 kcal/g, fat 9 kcal/g (alcohol 7 kcal/g). This plan gives carbohydrate 250 g x 4 = 1,000 kcal; protein 80 g x 4 = 320 kcal; fat 50 g x 9 = 450 kcal; total 1,000 + 320 + 450 = 1,770 kcal. Why the other options fail: 3,420 kcal applies 9 kcal/g to every macronutrient, which overstates carbohydrate and protein, both of which yield 4 kcal/g. 1,520 kcal applies 4 kcal/g to fat, understating fat at 9 kcal/g. 1,320 kcal counts only carbohydrate and protein and omits the 450 kcal contributed by fat entirely.",
     strategy: "Macronutrient caloric math: Carbs = 4 kcal/g, Protein = 4 kcal/g, Fat = 9 kcal/g. Multiply each by its multiplier and sum the products.",
     difficulty: "easy",
     tags: ["nutrition", "macronutrients", "caloric-calculation", "energy-metabolism", "dietetics"],

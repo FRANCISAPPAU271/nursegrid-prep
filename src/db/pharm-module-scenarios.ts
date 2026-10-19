@@ -181,34 +181,34 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     tags: ["pharmacology", "drug-calculations", "paediatric-dosing", "antibiotics", "math"],
     isFree: true,
   },
-  {
+{
     authoredId: "NG-MOD-PHARM-007",
     categorySlug: "pharmacology-parenteral",
-    stem: "A physician prescribes 1,000 mL of 0.9% Normal Saline to infuse intravenously over 8 hours for a dehydrated client in a rural clinic without electronic infusion pumps. The nurse selects a standard gravity administration set with a drop factor of 15 drops/mL (gtt/mL). At what rate in drops per minute (gtt/min) should the nurse regulate the gravity drip?",
+    stem: "A client is to receive 100 mL of fluid over 1 hour through a microdrip set that delivers 60 drops per millilitre. At how many drops per minute should the nurse run the infusion?",
     choices: [
       {
         id: "a",
-        text: "31 gtt/min",
+        text: "100 drops per minute",
       },
       {
         id: "b",
-        text: "42 gtt/min",
+        text: "60 drops per minute",
       },
       {
         id: "c",
-        text: "21 gtt/min",
+        text: "50 drops per minute",
       },
       {
         id: "d",
-        text: "125 gtt/min",
+        text: "16 drops per minute",
       },
     ],
     correctChoiceId: "a",
     rationale:
-      "Formula for gravity IV drip rate: Drip rate (gtt/min) = (Total volume in mL * Drop factor in gtt/mL) / Time in minutes. Volume = 1,000 mL; Drop factor = 15 gtt/mL; Time = 8 hours * 60 minutes = 480 minutes. Calculation: (1,000 * 15) / 480 = 15,000 / 480 = 31.25 drops/min. Rounding to the nearest whole drop yields 31 gtt/min. (125 mL/hr is the hourly volumetric rate, not the gravity drop rate).",
-    strategy: "IV drop rate formula: (Volume in mL * Drop factor) / Time in minutes = (1,000 * 15) / 480 = 31 gtt/min.",
+      "CORRECT (A) — \"100 drops per minute\". With a microdrip set the drop factor is 60 gtt/mL, so 100 mL over 60 minutes = 1.67 mL per minute, and 1.67 × 60 = 100 drops per minute. There is a useful shortcut with microdrip tubing: drops per minute equals millilitres per hour, because the drop factor and the minutes in an hour are both 60. Option 60 drops per minute applies the shortcut to the wrong volume. Option 50 drops per minute would deliver 50 mL in the hour, half the prescription. Option 16 drops per minute is what a 15 gtt/mL macrodrip set would need for a much slower infusion. Always state the drop factor before calculating; a microdrip and a macrodrip set give very different rates for the same volume.",
+    strategy: "Microdrip tubing is 60 gtt/mL, so drops per minute equals millilitres per hour.",
     difficulty: "easy",
-    tags: ["pharmacology", "drug-calculations", "iv-drip-rate", "gravity-set", "math"],
+    tags: ["pharmacology", "drug-calculations", "iv-drip-rate", "microdrip", "math"],
     isFree: true,
   },
   {

@@ -341,21 +341,21 @@ export const FUND_MODULE_SCENARIOS: AuthoredQuestion[] = [
     tags: ["fundamentals", "unconscious-patient", "eye-care", "corneal-protection", "comatose-client"],
     isFree: true,
   },
-  {
+{
     authoredId: "NG-MOD-FUND-019",
     categorySlug: "fundamentals",
-    stem: "Following the death of an adult client on the medical ward, the nurse prepares the body for family viewing and transport to the mortuary (post-mortem care). Which nursing action is clinically correct and culturally respectful?",
+    stem: "A patient has died and the family is coming to view the body. What should the nurse do about the patient's dentures?",
     choices: [
-      { id: "a", text: "Leave the client flat in a prone position with the jaw unsupported" },
-      { id: "b", text: "Elevate the head of the bed slightly (about 15 to 30 degrees), place a pillow under the head, gently close the eyes, clean the body, and ensure identification tags are securely attached" },
-      { id: "c", text: "Immediately remove all endotracheal tubes and intravenous lines before notifying the coroner in an unexplained sudden death" },
-      { id: "d", text: "Place the body directly into a black plastic bag before the family arrives to say goodbye" }
+      { id: "a", text: "Insert them before rigor mortis sets in and leave them in place for the viewing" },
+      { id: "b", text: "Discard them, because they are personal property" },
+      { id: "c", text: "Send them to the mortuary separately and out of view" },
+      { id: "d", text: "Leave them out and explain that this is hospital policy" },
     ],
-    correctChoiceId: "b",
-    rationale: "Proper post-mortem care includes: elevating the head of the bed slightly (15–30 degrees) and placing a pillow under the head to prevent pooling of blood (livor mortis / hypostasis) in the facial tissues which causes dark facial discolouration; closing the eyelids gently; placing rolled gauze under the chin to keep the mouth closed; washing soiled areas; replacing clean linens; and ensuring identification tags are attached to the body (usually big toe/wrist) and outer shroud. In coroner's cases (unexplained or suspicious deaths), lines and tubes must NOT be removed.",
-    strategy: "Post-mortem care: Elevate head of bed slightly (prevents facial blood pooling/discoloration) + Close eyes + Clean body + ID tags attached. Never remove lines in coroner's cases.",
+    correctChoiceId: "a",
+    rationale: "Dentures are inserted before rigor mortis develops, because afterwards the jaw cannot be opened without force, and leaving them in restores the familiar appearance of the face for the family and reduces the visible change caused by death. They are personal property and should be accounted for, not discarded, and if they cannot be inserted they must be labelled and sent with the body. Sending them out of view removes something that belongs with the patient, and there is no policy that requires dentures to be left out.",
+    strategy: "Insert dentures before rigor: the family should see the face they know.",
     difficulty: "easy",
-    tags: ["fundamentals", "post-mortem-care", "end-of-life", "patient-dignity", "ethics"],
+    tags: ["post-mortem-care", "death", "fundamentals"],
     isFree: false,
   },
   {
