@@ -4,17 +4,42 @@ import { cookies } from "next/headers";
 import bcrypt from "bcryptjs";
 import { db } from "@/db";
 import { sessions, users, subscriptions } from "@/db/schema";
-import { and, eq, inArray, lt, sql } from "drizzle-orm";
+import { eq, inArray, lt, sql } from "drizzle-orm";
 import { isEmailConfigured, newDeviceLoginEmail, sendEmail } from "@/lib/email";
+
+// Hosts this app is served from, so the session is not stranded on one of them.
+// Production uses all three of apex, www. and app.; a host-only cookie set on
+// one is invisible on the others, which reads to the customer as being logged
+// out — typically the moment they return from a payment page and land on the
+// canonical host instead of the one they started on.
+function sessionCookieDomain(): string | undefined {
+  const appUrl = process.env.NEXT_PUBLIC_APP_URL;
+  if (!appUrl) return undefined;
+  try {
+    const host = new URL(appUrl).hostname;
+    if (!host.includes(".") || host === "localhost" || host === "127.0.0.1") return undefined;
+    return `.${host.replace(/^www\./, "")}`;
+  } catch {
+    return undefined;
+  }
+}
 
 export const SESSION_COOKIE = "nsm_session";
 const SESSION_DAYS = 30;
 
 // Prevents account/password sharing: only this many devices may be signed in
 // at once per account. Logging in on a new device signs out the oldest
-// session(s) beyond this limit. Set to 1 to strictly allow only one active
-// device at a time.
-const MAX_ACTIVE_SESSIONS = 1;
+// session(s) beyond this limit.
+//
+// This was hardcoded to 1, which signed a paying customer out of their laptop
+// every time they opened the app on their phone — the most common way a paid
+// account "logs itself out". Three devices covers phone + laptop + tablet,
+// which is normal use rather than sharing; it can be tightened by setting
+// MAX_ACTIVE_SESSIONS in the environment.
+const MAX_ACTIVE_SESSIONS = Math.max(
+  1,
+  Number.parseInt(process.env.MAX_ACTIVE_SESSIONS ?? "3", 10) || 3,
+);
 
 export async function hashPassword(password: string) {
   return bcrypt.hash(password, 10);
@@ -59,41 +84,44 @@ export async function createSession(userId: string, meta: SessionMeta = {}) {
     ipAddress: meta.ipAddress ?? null,
   });
 
-  // Keep a short login history for account-sharing detection. This is separate
-  // from active sessions, so removing the old session does not erase evidence
-  // of repeated logins from different devices.
-  await db.execute(sql`
-    CREATE TABLE IF NOT EXISTS "login_events" (
-      "id" text PRIMARY KEY DEFAULT md5(random()::text || clock_timestamp()::text),
-      "user_id" text NOT NULL,
-      "user_agent" text,
-      "ip_address" text,
-      "created_at" timestamptz NOT NULL DEFAULT now()
-    )
-  `);
-  const recentSameDevice = await db.execute(sql`
-    SELECT 1 FROM "login_events"
-    WHERE "user_id" = ${userId}
-      AND "user_agent" IS NOT DISTINCT FROM ${meta.userAgent ?? null}
-    ORDER BY "created_at" DESC
-    LIMIT 1
-  `);
-  await db.execute(sql`
-    INSERT INTO "login_events" ("user_id", "user_agent", "ip_address")
-    VALUES (${userId}, ${meta.userAgent ?? null}, ${meta.ipAddress ?? null})
-  `);
+  // Keep a short login history for account-sharing detection. This is
+  // diagnostic only: if it fails, the customer must still be signed in.
+  try {
+    await db.execute(sql`
+      CREATE TABLE IF NOT EXISTS "login_events" (
+        "id" text PRIMARY KEY DEFAULT md5(random()::text || clock_timestamp()::text),
+        "user_id" text NOT NULL,
+        "user_agent" text,
+        "ip_address" text,
+        "created_at" timestamptz NOT NULL DEFAULT now()
+      )
+    `);
+    const recentSameDevice = await db.execute(sql`
+      SELECT 1 FROM "login_events"
+      WHERE "user_id" = ${userId}
+        AND "user_agent" IS NOT DISTINCT FROM ${meta.userAgent ?? null}
+      ORDER BY "created_at" DESC
+      LIMIT 1
+    `);
+    await db.execute(sql`
+      INSERT INTO "login_events" ("user_id", "user_agent", "ip_address")
+      VALUES (${userId}, ${meta.userAgent ?? null}, ${meta.ipAddress ?? null})
+    `);
 
-  if (recentSameDevice.rows.length === 0 && isEmailConfigured()) {
-    try {
-      const userRows = await db.execute(sql`SELECT "name", "email" FROM "users" WHERE "id" = ${userId} LIMIT 1`);
-      const recipient = userRows.rows[0] as { name?: string | null; email?: string | null } | undefined;
-      if (recipient?.email) {
-        const message = newDeviceLoginEmail(recipient.name ?? "", meta.userAgent ?? "a new device", meta.ipAddress);
-        await sendEmail(recipient.email, message.subject, message.html);
+    if (recentSameDevice.rows.length === 0 && isEmailConfigured()) {
+      try {
+        const userRows = await db.execute(sql`SELECT "name", "email" FROM "users" WHERE "id" = ${userId} LIMIT 1`);
+        const recipient = userRows.rows[0] as { name?: string | null; email?: string | null } | undefined;
+        if (recipient?.email) {
+          const message = newDeviceLoginEmail(recipient.name ?? "", meta.userAgent ?? "a new device", meta.ipAddress);
+          await sendEmail(recipient.email, message.subject, message.html);
+        }
+      } catch (error) {
+        console.error("New-device login email failed", error);
       }
-    } catch (error) {
-      console.error("New-device login email failed", error);
     }
+  } catch (error) {
+    console.error("Login history write failed; continuing", error);
   }
 
   const store = await cookies();
@@ -101,6 +129,7 @@ export async function createSession(userId: string, meta: SessionMeta = {}) {
     httpOnly: true,
     sameSite: "lax",
     secure: process.env.NODE_ENV === "production",
+    domain: sessionCookieDomain(),
     path: "/",
     expires: expiresAt,
   });
@@ -113,7 +142,16 @@ export async function destroySession() {
   if (token) {
     await db.delete(sessions).where(eq(sessions.token, token));
   }
-  store.delete(SESSION_COOKIE);
+  // Clearing must target the same domain the cookie was set on, or the
+  // browser keeps the cookie and "log out" silently does nothing.
+  store.set(SESSION_COOKIE, "", {
+    httpOnly: true,
+    sameSite: "lax",
+    secure: process.env.NODE_ENV === "production",
+    domain: sessionCookieDomain(),
+    path: "/",
+    maxAge: 0,
+  });
 }
 
 export type SessionUser = {
@@ -129,6 +167,119 @@ export type SessionUser = {
   referralCode: string | null;
   createdAt: Date;
 };
+
+// How long after a paid period ends the account keeps working while a renewal
+// settles. Covers late webhooks, clock skew between regions, and the window in
+// which a customer is on the phone with support.
+const ENTITLEMENT_GRACE_MS = 3 * 24 * 60 * 60 * 1000;
+
+/**
+ * Decide whether this user may study — without ever destroying the stored flag.
+ *
+ * This used to be inline and destructive: whenever no active subscription row
+ * with a future period end could be found, it wrote `users.is_premium = false`.
+ * Because it runs on every dashboard render, a single missing, cancelled or
+ * momentarily unavailable row permanently stripped access from someone who had
+ * paid, and the study gate then invited them to pay a second time. The buyer's
+ * session looked fine; their entitlement had simply been deleted.
+ *
+ * Entitlement is now derived from evidence, not destroyed on the absence of it:
+ *
+ *   1. a running trial or an admin grants access;
+ *   2. a live subscription grants access — and repairs a stored `false`;
+ *   3. if the subscription table cannot be read, the stored flag is trusted;
+ *   4. access is revoked only when a subscription row proves the last period
+ *      ended more than the grace window ago;
+ *   5. no subscription rows at all is treated as "no evidence", not as expiry,
+ *      so legacy and manually-granted accounts keep working.
+ */
+async function resolveEntitlement(user: SessionUser): Promise<SessionUser> {
+  if (user.isAdmin) return user;
+
+  const now = Date.now();
+  const trialActive = Boolean(user.premiumTrialEndsAt && user.premiumTrialEndsAt.getTime() > now);
+
+  if (trialActive) {
+    if (!user.isPremium) await healPremium(user);
+    user.isPremium = true;
+    return user;
+  }
+
+  let rows: { status: string; currentPeriodEnd: Date | null }[];
+  try {
+    rows = await db
+      .select({ status: subscriptions.status, currentPeriodEnd: subscriptions.currentPeriodEnd })
+      .from(subscriptions)
+      .where(eq(subscriptions.userId, user.id));
+  } catch (error) {
+    // A failed lookup must never cost a paying customer their access.
+    console.error("Entitlement lookup failed; keeping stored premium flag", error);
+    return user;
+  }
+
+  // A period that has not ended is entitlement, whatever label the row wears.
+  // The old code trusted only status === "active" and then wrote "expired"
+  // over rows it had itself misjudged, so rows now exist that are labelled
+  // expired while still holding a future period end. A null period end still
+  // requires an active row, or an unpaid cancelled signup would grant access.
+  const liveSub = rows.some((s) =>
+    s.currentPeriodEnd ? s.currentPeriodEnd.getTime() > now : s.status === "active",
+  );
+
+  if (liveSub) {
+    if (!user.isPremium) await healPremium(user);
+    user.isPremium = true;
+    return user;
+  }
+
+  if (!user.isPremium) return user;
+
+  const revoke = async () => {
+    user.isPremium = false;
+    try {
+      await db.update(users).set({ isPremium: false }).where(eq(users.id, user.id));
+    } catch (error) {
+      console.error("Premium expiry persist failed", error);
+    }
+    return user;
+  };
+
+  // No subscription rows at all. Subscription rows are only ever updated, never
+  // deleted (only the dev seed deletes them), so an empty history means this
+  // account has never paid. If it was holding a trial, that trial is simply
+  // over. If it holds no trial date either, it is a legacy or admin-granted
+  // plan with no end date and must keep working — that population is exactly
+  // who the old code was wrongly locking out.
+  if (rows.length === 0) {
+    return user.premiumTrialEndsAt ? revoke() : user;
+  }
+
+  // There is subscription history. Honor the latest period end, with grace, so
+  // a renewal that is still settling cannot strand a customer.
+  const lastPeriodEnd = rows.reduce(
+    (latest, s) => Math.max(latest, s.currentPeriodEnd?.getTime() ?? 0),
+    0,
+  );
+
+  if (lastPeriodEnd === 0) return user; // rows exist but carry no date: keep
+  if (now < lastPeriodEnd + ENTITLEMENT_GRACE_MS) return user;
+
+  return revoke();
+}
+
+/** Repair a stored premium flag that a subscription proves should be true. */
+async function healPremium(user: SessionUser) {
+  try {
+    await db
+      .update(users)
+      .set({ isPremium: true, premiumSince: user.premiumSince ?? new Date() })
+      .where(eq(users.id, user.id));
+    user.premiumSince = user.premiumSince ?? new Date();
+  } catch (error) {
+    // Access is already granted in memory; a failed repair must not block it.
+    console.error("Premium heal failed", error);
+  }
+}
 
 // Wrapped in React's cache() so multiple calls within the same request/render
 // (e.g. the dashboard layout and every page both call getCurrentUser()) share
@@ -168,34 +319,7 @@ export const getCurrentUser = cache(async (): Promise<SessionUser | null> => {
 
   const { expiresAt: _expiresAt, ...user } = row;
 
-  // Lazily recompute premium status now that plans are fixed-term (4 months /
-  // 1 year) rather than lifetime. Only do this extra work when the user is
-  // currently marked premium, so free users (the majority) pay no extra cost.
-  if (user.isPremium) {
-    const trialActive = Boolean(user.premiumTrialEndsAt && user.premiumTrialEndsAt.getTime() > Date.now());
-
-    if (!trialActive) {
-      const activeSubs = await db
-        .select({ id: subscriptions.id, currentPeriodEnd: subscriptions.currentPeriodEnd })
-        .from(subscriptions)
-        .where(and(eq(subscriptions.userId, user.id), eq(subscriptions.status, "active")));
-
-      const hasValidSub = activeSubs.some((s) => !s.currentPeriodEnd || s.currentPeriodEnd.getTime() > Date.now());
-
-      if (!hasValidSub) {
-        const expiredIds = activeSubs
-          .filter((s) => s.currentPeriodEnd && s.currentPeriodEnd.getTime() <= Date.now())
-          .map((s) => s.id);
-        if (expiredIds.length > 0) {
-          await db.update(subscriptions).set({ status: "expired" }).where(inArray(subscriptions.id, expiredIds));
-        }
-        await db.update(users).set({ isPremium: false }).where(eq(users.id, user.id));
-        user.isPremium = false;
-      }
-    }
-  }
-
-  return user;
+  return resolveEntitlement(user);
 });
 
 export async function getCurrentSessionInfo() {

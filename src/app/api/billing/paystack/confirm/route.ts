@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
-import { requireUser, handleApiError, ApiError } from "@/lib/api";
+import { handleApiError, ApiError } from "@/lib/api";
+import { getCurrentUser } from "@/lib/auth";
 import { isPaystackConfigured, verifyTransaction, activatePaidPlan } from "@/lib/paystack";
 
 export const dynamic = "force-dynamic";
@@ -11,7 +12,6 @@ export const dynamic = "force-dynamic";
 // activates; the second becomes a no-op.
 export async function GET(request: Request) {
   try {
-    const user = await requireUser();
     if (!isPaystackConfigured()) throw new ApiError("Instant payment is not configured.", 503);
 
     const { searchParams } = new URL(request.url);
@@ -23,8 +23,19 @@ export async function GET(request: Request) {
       return NextResponse.json({ ok: false, status: tx.status });
     }
     if (!tx.planId || !tx.userId) throw new ApiError("Payment is missing plan details.", 422);
-    // The payer must be the logged-in user this payment was initialized for.
-    if (tx.userId !== user.id) throw new ApiError("This payment belongs to a different account.", 403);
+
+    // A session is optional here. It used to be required, and that was a hole:
+    // the customer pays, Paystack returns them to a host or a moment where the
+    // session cookie is absent, requireUser() throws 401, and the money is gone
+    // with the plan still inactive - which reads back as "pay again".
+    // The reference is verified directly with Paystack and the user id comes
+    // from metadata we wrote at initialization, so the reference alone
+    // identifies the rightful payer. A session is only used to reject a
+    // mismatch.
+    const viewer = await getCurrentUser();
+    if (viewer && viewer.id !== tx.userId) {
+      throw new ApiError("This payment belongs to a different account.", 403);
+    }
 
     const result = await activatePaidPlan({
       userId: tx.userId,
@@ -35,7 +46,7 @@ export async function GET(request: Request) {
       friendDiscountPesewas: tx.friendDiscountPesewas,
     });
 
-    return NextResponse.json({ ok: true, ...result });
+    return NextResponse.json({ ok: true, signedIn: Boolean(viewer), ...result });
   } catch (error) {
     return handleApiError(error);
   }
