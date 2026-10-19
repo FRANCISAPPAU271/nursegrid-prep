@@ -8,24 +8,24 @@ export const PRO1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Continue working scheduled shifts normally while waiting for the regulatory body's annual audit cycle",
+        text: "Carry on working the rota as normal while the council's annual audit cycle comes round",
       },
       {
         id: "b",
-        text: "Notify the nurse manager immediately, refrain from practicing clinical nursing until the licence is formally renewed or temporary authorization is granted, and expedite renewal",
+        text: "Notify the manager, stop practising until the licence is renewed, and expedite renewal",
       },
       {
         id: "c",
-        text: "Work under a colleague's registration PIN on the electronic medication administration record until renewal is processed",
+        text: "Chart under a colleague's registration PIN on the electronic medication record until renewal",
       },
       {
         id: "d",
-        text: "Perform only non-invasive procedures and delegate all intravenous medications to student nurses",
+        text: "Do only non-invasive tasks, and hand all intravenous medicines to the student nurses",
       },
     ],
     correctChoiceId: "b",
     rationale:
-      "Practicing nursing without an active, unencumbered professional licence violates national nursing statutory laws and professional regulations (such as the Health Professions Regulatory Bodies Act and Nursing & Midwifery Council standards). Practicing with an expired licence constitutes illegal, unauthorized practice, exposing the individual to criminal penalties, disciplinary sanctions, and loss of professional indemnity coverage. The nurse must notify their supervisor immediately and step down from clinical practice until the licence is restored. Continuing to practice (b), charting under a colleague's credentials (c), or practicing selectively (d) are fraudulent, unlawful, and breach professional standards.",
+      "Practicing nursing without an active, unencumbered professional licence violates national nursing statutory laws and professional regulations (such as the Health Professions Regulatory Bodies Act and Nursing & Midwifery Council standards). Practicing with an expired licence constitutes illegal, unauthorized practice, exposing the individual to criminal penalties, disciplinary sanctions, and loss of professional indemnity coverage. The nurse must notify their supervisor immediately and step down from clinical practice until the licence is restored. Continuing to practice (b), charting under a colleague's credentials (c), or practicing selectively (d) are fraudulent, unlawful, and breach professional standards. Why the other options fail: option a leaves the nurse in unlawful practice. Option c uses another person's registration, which is fraudulent. Option d still delivers nursing care without a licence, whatever the task.",
     strategy: "Professional regulation standard: Active licensure is a mandatory legal prerequisite for clinical practice. Practicing with an expired license is illegal.",
     difficulty: "easy",
     tags: ["professionalism", "licensure", "regulation", "legal-nursing", "nmc"],
@@ -38,24 +38,24 @@ export const PRO1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Obtaining routine baseline vital signs after the initial clinical assessment has been documented",
+        text: "Take routine baseline observations once the initial assessment has been documented",
       },
       {
         id: "b",
-        text: "Assisting the client with perineal hygiene and changing bed linens",
+        text: "Help the client with perineal hygiene and change the bed linen after the ward round",
       },
       {
         id: "c",
-        text: "Delivering a clean urine specimen bottle to the hospital pathology laboratory",
+        text: "Carry a clean urine specimen bottle down to the hospital pathology laboratory",
       },
       {
         id: "d",
-        text: "Comprehensive nursing assessment, developing the nursing care plan, and evaluating the client's clinical response to intravenous nitroglycerin",
+        text: "The assessment, the care plan and the evaluation of the response to nitroglycerin",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "According to professional practice acts and regulatory delegation guidelines, the registered nurse cannot delegate tasks that require specialized nursing knowledge, clinical judgment, comprehensive assessment, care planning, or clinical evaluation (the 'E-A-T' principle: Evaluate, Assess, Teach). An unstable client requires ongoing registered nurse assessment and titration of high-alert cardiovascular medications. Routine vital sign checks on stable clients (a), personal hygiene (c), and specimen transport (d) can be safely delegated to assistive personnel within their designated job descriptions.",
+      "According to professional practice acts and regulatory delegation guidelines, the registered nurse cannot delegate tasks that require specialized nursing knowledge, clinical judgment, comprehensive assessment, care planning, or clinical evaluation (the 'E-A-T' principle: Evaluate, Assess, Teach). An unstable client requires ongoing registered nurse assessment and titration of high-alert cardiovascular medications. Routine vital sign checks on stable clients (a), personal hygiene (c), and specimen transport (d) can be safely delegated to assistive personnel within their designated job descriptions. Why the other options fail: option a is routine work that can be delegated once the assessment is written. Options b and c are personal care and portering tasks that sit within the assistant's role.",
     strategy: "Delegation rule: The RN cannot delegate Assessment, Teaching, or Evaluation (E-A-T) or any care for an unstable, complex client.",
     difficulty: "easy",
     tags: ["professionalism", "delegation", "scope-of-practice", "cadres", "leadership"],
@@ -68,24 +68,24 @@ export const PRO1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "CPD is an optional academic pursuit designed solely for nurses seeking promotion to university professorships",
+        text: "An optional academic pursuit for nurses who hope to become university lecturers",
       },
       {
         id: "b",
-        text: "CPD is a mandatory regulatory requirement to ensure lifelong learning, maintenance of clinical competence, and safe public protection through verified educational credits",
+        text: "A mandatory requirement for lifelong learning, with verified competence credits",
       },
       {
         id: "c",
-        text: "CPD points are granted automatically based purely on consecutive years of clinical employment without formal educational activities",
+        text: "Awarded automatically after a number of consecutive years of clinical employment",
       },
       {
         id: "d",
-        text: "CPD programs are intended exclusively to replace undergraduate pre-service nursing education curricula",
+        text: "Intended to replace the undergraduate pre-service nursing curriculum entirely",
       },
     ],
     correctChoiceId: "b",
     rationale:
-      "Continuous Professional Development (CPD) is a statutory regulatory mandate established by nursing regulatory councils (including the Ghana NMC, UK NMC, and US State Boards). Its primary mission is public protection by ensuring that registered practitioners continuously maintain, update, and enhance clinical knowledge, evidence-based skills, and professional ethics throughout their careers. It is not optional (a), cannot be acquired passively through tenure alone (b), and does not replace pre-service training (d).",
+      "Continuous Professional Development (CPD) is a statutory regulatory mandate established by nursing regulatory councils (including the Ghana NMC, UK NMC, and US State Boards). Its primary mission is public protection by ensuring that registered practitioners continuously maintain, update, and enhance clinical knowledge, evidence-based skills, and professional ethics throughout their careers. It is not optional (a), cannot be acquired passively through tenure alone (b), and does not replace pre-service training (d). Why the other options fail: option a makes continuing development optional. Option c awards credit for time served without any learning. Option d confuses professional development with pre-registration training.",
     strategy: "Regulatory principle: CPD is mandatory for all licensed nurses to guarantee ongoing competence and protect public safety.",
     difficulty: "easy",
     tags: ["professionalism", "cpd", "lifelong-learning", "regulation", "licensure"],
@@ -115,7 +115,7 @@ export const PRO1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "a",
     rationale:
-      "Autonomy is the ethical and legal principle that recognizes an individual's right to self-determination, bodily integrity, and independent decision-making regarding their own medical care, provided they possess decision-making capacity. A competent adult has the absolute legal and ethical right to refuse any medical treatment, even life-sustaining interventions like blood transfusions. Paternalism (a) overrides client choices for their perceived good. Beneficence (b) promotes well-being, but does not legally or ethically supersede a competent client's autonomous refusal. Non-maleficence (c) means doing no harm.",
+      "Autonomy is the ethical and legal principle that recognizes an individual's right to self-determination, bodily integrity, and independent decision-making regarding their own medical care, provided they possess decision-making capacity. A competent adult has the absolute legal and ethical right to refuse any medical treatment, even life-sustaining interventions like blood transfusions. Paternalism (a) overrides client choices for their perceived good. Beneficence (b) promotes well-being, but does not legally or ethically supersede a competent client's autonomous refusal. Non-maleficence (c) means doing no harm. Why the other options fail: option b overrides the client's choice for what others judge to be their good. Option c is the duty to promote welfare, and it does not override a competent refusal. Option d is the duty not to harm, which here means informing and supporting the decision.",
     strategy: "Ethical rule: Autonomy grants mentally competent adults the absolute right to refuse medical interventions, even when providers believe the choice is unwise or fatal.",
     difficulty: "medium",
     tags: ["professionalism", "autonomy", "ethics", "informed-refusal", "bioethics"],
@@ -128,24 +128,24 @@ export const PRO1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Conceal the error and withhold the next scheduled dose of insulin to balance out the cumulative daily dose",
+        text: "Conceal the error and withhold the next scheduled dose to balance the day's total",
       },
       {
         id: "b",
-        text: "Wait silently to see if the client develops diaphoresis and tremors before taking any clinical action",
+        text: "Wait quietly to see whether the client develops sweating and tremor before acting",
       },
       {
         id: "c",
-        text: "Alter the medication administration record to reflect 5 units to protect the nurse's employment record from disciplinary inquiry",
+        text: "Change the medication record to five units before anyone reviews the chart",
       },
       {
         id: "d",
-        text: "Assess the client, monitor capillary blood glucose frequently, notify the physician immediately, inform the client honestly, provide fast-acting carbohydrates, and document the incident objectively",
+        text: "Assess and monitor, tell the prescriber, tell the client, treat and document",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "Veracity is the obligation to tell the truth and avoid deception; Non-maleficence is the duty to prevent harm. When a medication error occurs, the nurse's first duty is client safety (frequent monitoring, providing oral glucose as ordered/protocol, physician notification) and honest disclosure to both the clinical team and the client. Falsifying documentation (d), concealing the error (b), or waiting for symptomatic hypoglycemic brain injury (c) violates professional ethics, medical candor, and criminal law.",
+      "Veracity is the obligation to tell the truth and avoid deception; Non-maleficence is the duty to prevent harm. When a medication error occurs, the nurse's first duty is client safety (frequent monitoring, providing oral glucose as ordered/protocol, physician notification) and honest disclosure to both the clinical team and the client. Falsifying documentation (d), concealing the error (b), or waiting for symptomatic hypoglycemic brain injury (c) violates professional ethics, medical candor, and criminal law. Why the other options fail: option a hides the error and unbalances the day's dosing. Option b waits for harm instead of preventing it. Option c falsifies the record, which is a separate offence.",
     strategy: "Medication error protocol: Prioritize client safety, notify provider, practice veracity (honest disclosure), and document objectively. Never conceal or falsify records.",
     difficulty: "easy",
     tags: ["professionalism", "veracity", "non-maleficence", "medication-error", "candour"],
@@ -158,24 +158,24 @@ export const PRO1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Unplug the client's mechanical ventilator unilaterally to end the client's suffering without informing anyone",
+        text: "Turn off the ventilator unilaterally to end the client's suffering, without telling anyone",
       },
       {
         id: "b",
-        text: "Abandon the shift immediately without handing over care to protest the medical decisions",
+        text: "Walk off the shift at once without handing over care, to protest the decisions",
       },
       {
         id: "c",
-        text: "Complain about the medical team's lack of ethics on public social media forums to rally community pressure",
+        text: "Post about the team's ethics on public social media to rally community pressure",
       },
       {
         id: "d",
-        text: "Consult the hospital ethics committee, present the documented advance directive to the care team, and advocate for an interdisciplinary palliative care conference",
+        text: "Consult the ethics committee, present the directive and request a palliative conference",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "Moral distress occurs when a healthcare professional knows the ethically correct action but feels powerless to act due to systemic or institutional constraints. Constructive resolution involves utilizing established institutional mechanisms: engaging the hospital ethics committee, reviewing and advocating for the client's documented advance directives, and requesting an interdisciplinary conference including palliative specialists and the family. Euthanasia/unilateral withdrawal without legal orders (a) is illegal homicide; abandoning a shift (c) constitutes patient abandonment; public social media venting (d) breaches confidentiality and professional codes.",
+      "Moral distress occurs when a healthcare professional knows the ethically correct action but feels powerless to act due to systemic or institutional constraints. Constructive resolution involves utilizing established institutional mechanisms: engaging the hospital ethics committee, reviewing and advocating for the client's documented advance directives, and requesting an interdisciplinary conference including palliative specialists and the family. Euthanasia/unilateral withdrawal without legal orders (a) is illegal homicide; abandoning a shift (c) constitutes patient abandonment; public social media venting (d) breaches confidentiality and professional codes. Why the other options fail: option a withdraws treatment without any lawful authority. Option b abandons the client. Option c breaches confidentiality and the professional code.",
     strategy: "Managing moral distress: Utilize institutional ethics committees and interprofessional case conferences to advocate for client advance directives.",
     difficulty: "medium",
     tags: ["professionalism", "moral-distress", "ethics-committee", "advance-directives", "palliative-care"],
@@ -188,24 +188,24 @@ export const PRO1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Duty of care, Breach of duty, Causation (proximate cause), and Actual damages (injury)",
+        text: "Duty, breach of duty, causation and actual damages",
       },
       {
         id: "b",
-        text: "Intent, malice, criminal record, and medical expenses",
+        text: "Intent, malice, a criminal record and the medical expenses incurred",
       },
       {
         id: "c",
-        text: "Informed consent, written contract, bad outcome, and high hospital fees",
+        text: "Informed consent, a written contract, a bad outcome and high hospital fees",
       },
       {
         id: "d",
-        text: "Assault, battery, slander, and emotional distress",
+        text: "Assault, battery, slander and the emotional distress that followed",
       },
     ],
     correctChoiceId: "a",
     rationale:
-      "The four essential legal elements of nursing malpractice (professional negligence) are: 1) Duty of care (a legal obligation to adhere to a standard of care created by the nurse-client relationship); 2) Breach of duty (failure to meet the accepted standard of care); 3) Causation/Proximate cause (a direct causal link showing that the breach caused the harm); and 4) Actual damages/injury (measurable physical, emotional, or financial harm). Malice or intent (a) are elements of intentional torts or crimes, not negligence. An unfortunate outcome without a breach of duty (b) does not constitute malpractice.",
+      "The four essential legal elements of nursing malpractice (professional negligence) are: 1) Duty of care (a legal obligation to adhere to a standard of care created by the nurse-client relationship); 2) Breach of duty (failure to meet the accepted standard of care); 3) Causation/Proximate cause (a direct causal link showing that the breach caused the harm); and 4) Actual damages/injury (measurable physical, emotional, or financial harm). Malice or intent (a) are elements of intentional torts or crimes, not negligence. An unfortunate outcome without a breach of duty (b) does not constitute malpractice. Why the other options fail: option b lists criminal and financial elements. Option c confuses consent with negligence, since a bad outcome alone is not malpractice. Option d lists intentional torts.",
     strategy: "Remember the 4 D's of malpractice: Duty, Dereliction (Breach), Direct cause (Causation), and Damage (Injury).",
     difficulty: "medium",
     tags: ["professionalism", "malpractice", "negligence", "legal-nursing", "standards-of-care"],
@@ -218,24 +218,24 @@ export const PRO1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "The registered nurse has zero responsibility because the task was completely transferred to the assistant",
+        text: "The registered nurse bears no responsibility, because the task was fully transferred",
       },
       {
         id: "b",
-        text: "The hospital CEO is the sole person accountable for any untoward event occurring inside the facility",
+        text: "The hospital chief executive is solely accountable for anything that happens inside it",
       },
       {
         id: "c",
-        text: "The registered nurse retains overall accountability for supervising the delegated task, ensuring timely execution, and evaluating client outcomes",
+        text: "The registered nurse keeps accountability for supervising and evaluating the task",
       },
       {
         id: "d",
-        text: "The client is primarily at fault for failing to notify the staff when early symptoms of hunger appeared",
+        text: "The client is mainly at fault for not reporting the early symptoms of hunger",
       },
     ],
     correctChoiceId: "c",
     rationale:
-      "A core tenet of nursing delegation is that while authority and responsibility for carrying out a task can be delegated to another worker, professional accountability for the overall outcome of nursing care cannot be delegated away. The delegating nurse remains legally and professionally accountable for appropriate delegation (assessing competency, communicating clearly, supervising, and timely follow-up/evaluation). Shifting 100% of blame to the assistant (a), the CEO (b), or the victim (c) ignores statutory professional accountability.",
+      "A core tenet of nursing delegation is that while authority and responsibility for carrying out a task can be delegated to another worker, professional accountability for the overall outcome of nursing care cannot be delegated away. The delegating nurse remains legally and professionally accountable for appropriate delegation (assessing competency, communicating clearly, supervising, and timely follow-up/evaluation). Shifting 100% of blame to the assistant (a), the CEO (b), or the victim (c) ignores statutory professional accountability. Why the other options fail: option a mistakes delegation for a transfer of accountability. Option b misstates who carries professional responsibility. Option d blames the client for a failure of supervision.",
     strategy: "Delegation law: Responsibility can be delegated, but professional accountability always remains with the registered nurse.",
     difficulty: "easy",
     tags: ["professionalism", "accountability", "delegation", "supervision", "legal-duty"],
@@ -248,24 +248,24 @@ export const PRO1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "The nurse has complete immunity because nurses are legally obligated to obey all written physician orders blindly",
+        text: "The nurse is immune, because nurses are legally obliged to obey written orders blindly",
       },
       {
         id: "b",
-        text: "Only the hospital pharmacy is liable because pharmacists dispense all floor medications",
+        text: "Only the hospital pharmacy is liable, because pharmacists dispense every ward medicine",
       },
       {
         id: "c",
-        text: "The nurse is immune under the doctrine of respondeat superior since the doctor is the captain of the ship",
+        text: "The nurse is immune under respondeat superior, since the doctor is captain of the ship",
       },
       {
         id: "d",
-        text: "The nurse is personally legally liable for malpractice because a licensed nurse has an independent professional duty to question and withhold unsafe, lethal prescriptions",
+        text: "The nurse is personally liable, because a nurse must question a lethal order and withhold it",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "A registered nurse is an autonomous licensed professional, not an agent who blindly executes orders. Under the law and nursing practice acts, a nurse has an independent legal and ethical duty to protect client safety, which includes recognizing lethal or unreasonable medication doses, withholding them, clarifying with the prescriber, and escalating up the chain of command if necessary. Administering a patently lethal order makes the nurse personally liable for professional negligence and wrongful death. The 'captain of the ship' doctrine (b and d) does not protect nurses from individual accountability for gross clinical errors.",
+      "A registered nurse is an autonomous licensed professional, not an agent who blindly executes orders. Under the law and nursing practice acts, a nurse has an independent legal and ethical duty to protect client safety, which includes recognizing lethal or unreasonable medication doses, withholding them, clarifying with the prescriber, and escalating up the chain of command if necessary. Administering a patently lethal order makes the nurse personally liable for professional negligence and wrongful death. The 'captain of the ship' doctrine (b and d) does not protect nurses from individual accountability for gross clinical errors. Why the other options fail: option a assumes that an order indemnifies the nurse. Option b shares liability with the pharmacy but does not remove the nurse's. Option c does not protect gross error.",
     strategy: "Legal rule: Licensed nurses are independently accountable for every medication they administer. Blindly following an obviously unsafe physician order results in nurse malpractice liability.",
     difficulty: "hard",
     tags: ["professionalism", "independent-liability", "medication-safety", "legal-precedent", "malpractice"],
@@ -278,24 +278,24 @@ export const PRO1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Explaining the surgical risks, potential benefits, alternative medical therapies, and answering all surgical procedural questions",
+        text: "Explain the risks, the benefits and the alternatives, and answer the surgical questions",
       },
       {
         id: "b",
-        text: "Guaranteeing to the client that no complications or surgical errors will occur during the procedure",
+        text: "Guarantee to the client that no complication or surgical error will occur",
       },
       {
         id: "c",
-        text: "Confirming that the client is competent, that the signature is authentic, and that the client gave consent voluntarily without coercion",
+        text: "Confirm competence, the authenticity of the signature and that consent was voluntary",
       },
       {
         id: "d",
-        text: "Signing as the legal surrogate decision-maker if the client expresses hesitation or doubt about the operation",
+        text: "Sign as the surrogate decision-maker if the client hesitates about the operation",
       },
     ],
     correctChoiceId: "c",
     rationale:
-      "When witnessing a consent form, the nurse's legal responsibility is limited to three specific elements: 1) confirming the client is mentally competent to sign; 2) verifying the authenticity of the signature; and 3) verifying that consent was given voluntarily without coercion. Explaining the surgical procedure, risks, benefits, and alternatives (a) is the non-delegable legal responsibility of the healthcare provider performing the surgery (the surgeon). The nurse never guarantees outcomes (c) and cannot sign as a surrogate (d). If the client does not understand the surgery, the nurse must notify the surgeon to return and provide further explanation before signing.",
+      "When witnessing a consent form, the nurse's legal responsibility is limited to three specific elements: 1) confirming the client is mentally competent to sign; 2) verifying the authenticity of the signature; and 3) verifying that consent was given voluntarily without coercion. Explaining the surgical procedure, risks, benefits, and alternatives (a) is the non-delegable legal responsibility of the healthcare provider performing the surgery (the surgeon). The nurse never guarantees outcomes (c) and cannot sign as a surrogate (d). If the client does not understand the surgery, the nurse must notify the surgeon to return and provide further explanation before signing. Why the other options fail: option a is the surgeon's non-delegable duty. Option b is a guarantee that no one can give. Option d makes the nurse the decision-maker, which the witness never is.",
     strategy: "Informed consent rule: The physician/surgeon explains risks, benefits, and alternatives. The nurse witnesses the signature, verifies competence, and ensures voluntary consent.",
     difficulty: "medium",
     tags: ["professionalism", "informed-consent", "witnessing", "patient-advocacy", "legal-duty"],
@@ -308,24 +308,24 @@ export const PRO1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "An intentional violation of data privacy laws and professional ethics that constitutes gross misconduct subject to immediate termination and regulatory sanction",
+        text: "An intentional privacy breach and gross misconduct, with discipline and regulatory referral",
       },
       {
         id: "b",
-        text: "Acceptable practice because all hospital staff are bound by general employee confidentiality agreements anyway",
+        text: "Acceptable, because every member of staff is bound by a general confidentiality agreement",
       },
       {
         id: "c",
-        text: "Acceptable educational practice provided the nurse does not share the information with news journalists",
+        text: "Acceptable educational practice, provided the findings are not shared with journalists",
       },
       {
         id: "d",
-        text: "A minor administrative infraction that requires no action unless the client files a formal complaint",
+        text: "A minor administrative infraction that needs no action unless the client complains",
       },
     ],
     correctChoiceId: "a",
     rationale:
-      "Accessing a client's electronic protected health information (ePHI) without a legitimate clinical 'need to know' directly violates data protection laws (e.g., Ghana Data Protection Act, HIPAA, GDPR) and nursing professional codes of conduct. Clinical staff may only access the records of clients directly assigned to their care. Snooping into records out of curiosity is an intentional privacy breach that triggers automatic audit alerts, immediate disciplinary termination, and referral to the nursing regulatory board for professional sanctions.",
+      "Accessing a client's electronic protected health information (ePHI) without a legitimate clinical 'need to know' directly violates data protection laws (e.g., Ghana Data Protection Act, HIPAA, GDPR) and nursing professional codes of conduct. Clinical staff may only access the records of clients directly assigned to their care. Snooping into records out of curiosity is an intentional privacy breach that triggers automatic audit alerts, immediate disciplinary termination, and referral to the nursing regulatory board for professional sanctions. Why the other options fail: option b ignores the need-to-know rule. Option c treats curiosity as a clinical need. Option d waits for a complaint that privacy law does not require.",
     strategy: "Data privacy rule: Access patient health records ONLY when directly involved in their clinical care ('need-to-know' basis). Snooping out of curiosity is illegal.",
     difficulty: "easy",
     tags: ["professionalism", "confidentiality", "data-protection", "hipaa", "ehr-security"],
@@ -338,24 +338,24 @@ export const PRO1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Follow the children's instructions because adult children automatically possess supreme legal authority over elderly parents",
+        text: "Follow the children's instructions, because adult children hold authority over parents",
       },
       {
         id: "b",
-        text: "Support the client's autonomous choice, facilitate a family care conference, and collaborate with medical social work to explore home-based support options",
+        text: "Support her choice, convene a family meeting and arrange home-based support",
       },
       {
         id: "c",
-        text: "Sedate the client to prevent resistance and coordinate the nursing home transfer smoothly",
+        text: "Sedate the client to prevent resistance and move her to the nursing home smoothly",
       },
       {
         id: "d",
-        text: "Refuse to speak with either the client or the family until a formal court guardianship trial occurs",
+        text: "Refuse to speak to the client or the family until a guardianship hearing is held",
       },
     ],
     correctChoiceId: "b",
     rationale:
-      "Patient advocacy is a cornerstone of professional nursing practice. The nurse must defend the client's right to self-determination and voice their preferences when capable of expressing them, regardless of family pressure. Having mild impairment does not strip an individual of legal competence to choose their living arrangements. The nurse advocates for the client by organizing a multidisciplinary family meeting and coordinating safe home health services. Assuming family supremacy (a) or chemically restraining the client (b) violates fundamental human rights and professional codes.",
+      "Patient advocacy is a cornerstone of professional nursing practice. The nurse must defend the client's right to self-determination and voice their preferences when capable of expressing them, regardless of family pressure. Having mild impairment does not strip an individual of legal competence to choose their living arrangements. The nurse advocates for the client by organizing a multidisciplinary family meeting and coordinating safe home health services. Assuming family supremacy (a) or chemically restraining the client (b) violates fundamental human rights and professional codes. Why the other options fail: option a gives the children an authority they do not have. Option c is chemical restraint. Option d abandons the client while a dispute is settled.",
     strategy: "Advocacy rule: The nurse advocates for the client's expressed wishes and autonomy, not the family's convenience or desires.",
     difficulty: "medium",
     tags: ["professionalism", "patient-advocacy", "autonomy", "gerontology", "patient-rights"],
@@ -368,24 +368,24 @@ export const PRO1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Squeeze the documentation into the margin next to the 08:30 entries using microscopic handwriting to make it appear contemporaneous",
+        text: "Squeeze the entry into the margin beside the 08:30 notes in tiny handwriting",
       },
       {
         id: "b",
-        text: "Use white correction fluid to erase another nurse's entry and write the analgesic record over it",
+        text: "Use correction fluid to erase another nurse's entry and write the dose over it",
       },
       {
         id: "c",
-        text: "Write a 'Late Entry' with the current date and time (14:00), clearly identify the actual administration time (08:30), document the medication and dose objectively, and sign the entry",
+        text: "Write a late entry with the writing time, the actual time, the drug and dose, and sign it",
       },
       {
         id: "d",
-        text: "Discard the chart page and re-copy the entire shift notes from memory to hide the omission",
+        text: "Discard the chart page and rewrite the whole shift's notes from memory",
       },
     ],
     correctChoiceId: "c",
     rationale:
-      "Legal documentation standards require that records are accurate, contemporaneous, and unadulterated. When charting is omitted, the nurse must record a 'Late Entry'. The entry must state the current date and time of writing, reference the exact time the event occurred ('Late entry for 08:30: Administered morphine 5 mg IM...'), record factual clinical details, and be signed with professional credentials. Squeezing notes into margins (b), using white correction fluid (c), or recreating chart pages (d) are considered fraudulent record tampering in court and can lead to criminal charges and license suspension.",
+      "Legal documentation standards require that records are accurate, contemporaneous, and unadulterated. When charting is omitted, the nurse must record a 'Late Entry'. The entry must state the current date and time of writing, reference the exact time the event occurred ('Late entry for 08:30: Administered morphine 5 mg IM...'), record factual clinical details, and be signed with professional credentials. Squeezing notes into margins (b), using white correction fluid (c), or recreating chart pages (d) are considered fraudulent record tampering in court and can lead to criminal charges and license suspension. Why the other options fail: option a makes the note appear contemporaneous when it is not. Option b alters a colleague's entry. Option d destroys the original record.",
     strategy: "Legal documentation: When adding omitted information, label it as a 'Late Entry' with current date/time, reference the event time, and sign. Never erase, squeeze, or white-out.",
     difficulty: "easy",
     tags: ["professionalism", "documentation", "late-entry", "legal-records", "charting"],
@@ -398,24 +398,24 @@ export const PRO1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Document in the client's official medical record: 'Incident report filed with hospital risk management committee due to patient fall.'",
+        text: "Chart that an incident report was filed with the risk management committee after the fall",
       },
       {
         id: "b",
-        text: "Record the objective facts of the event, assessment findings, and interventions in the medical record, and complete the incident report as an internal administrative document without mentioning it in the chart",
+        text: "Document the facts in the record and file the incident report separately",
       },
       {
         id: "c",
-        text: "Place a carbon copy of the completed incident report into the client's bedside binder for family review",
+        text: "Put a carbon copy of the completed incident report in the client's bedside binder",
       },
       {
         id: "d",
-        text: "Omit any mention of the fall from the client's medical chart if no visible laceration or fracture occurred",
+        text: "Leave the fall out of the notes if there was no laceration and no fracture",
       },
     ],
     correctChoiceId: "b",
     rationale:
-      "An incident report (variance/occurrence report) is an internal administrative quality improvement and risk management tool designed to identify system defects; it is protected under institutional quality assurance legal privilege. Documenting in the client's medical chart that an incident report was completed (a) or filing a copy in the medical record (c) can make the internal investigative document discoverable in a malpractice lawsuit. The nurse documents objective clinical facts (fall, assessment, physician notification, vitals, interventions) in the chart and submits the incident report separately. Concealing the fall (d) is illegal fraud.",
+      "An incident report (variance/occurrence report) is an internal administrative quality improvement and risk management tool designed to identify system defects; it is protected under institutional quality assurance legal privilege. Documenting in the client's medical chart that an incident report was completed (a) or filing a copy in the medical record (c) can make the internal investigative document discoverable in a malpractice lawsuit. The nurse documents objective clinical facts (fall, assessment, physician notification, vitals, interventions) in the chart and submits the incident report separately. Concealing the fall (d) is illegal fraud. Why the other options fail: options a and c put the internal report into the clinical record, where it becomes discoverable. Option d conceals an event that the record must show.",
     strategy: "Documentation standard: Document objective facts in the client's medical record. NEVER document that an incident report was completed in the chart.",
     difficulty: "medium",
     tags: ["professionalism", "incident-reporting", "risk-management", "documentation", "legal-nursing"],
@@ -428,24 +428,24 @@ export const PRO1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Accept the resident's judgment and wait until morning surgical rounds to reassess the airway",
+        text: "Accept the resident's judgement and wait for the morning surgical round to reassess",
       },
       {
         id: "b",
-        text: "Immediately escalate up the administrative and clinical chain of command (contact the attending surgeon, rapid response team, and charge nurse/nursing supervisor) to secure urgent airway intervention",
+        text: "Escalate the chain of command: attending surgeon, rapid response, nursing supervisor",
       },
       {
         id: "c",
-        text: "Leave the client unattended to search the hospital corridors for the resident",
+        text: "Leave the client alone and walk the corridors looking for the resident",
       },
       {
         id: "d",
-        text: "Administer an unprescribed intravenous sedative to calm the client's breathing efforts",
+        text: "Give an unprescribed intravenous sedative to calm the client's breathing",
       },
     ],
     correctChoiceId: "b",
     rationale:
-      "When a client is deteriorating and the primary provider fails or refuses to respond appropriately, the nurse has an affirmative legal and professional duty to activate the organizational chain of command. Post-thyroidectomy neck hematoma and stridor represent an imminent, life-threatening airway emergency. The nurse must call the emergency rapid response team, contact the attending surgeon or surgical chief directly, and notify the nursing supervisor. Waiting for rounds (a) or giving sedatives that cause fatal respiratory arrest (d) is gross clinical malpractice.",
+      "When a client is deteriorating and the primary provider fails or refuses to respond appropriately, the nurse has an affirmative legal and professional duty to activate the organizational chain of command. Post-thyroidectomy neck hematoma and stridor represent an imminent, life-threatening airway emergency. The nurse must call the emergency rapid response team, contact the attending surgeon or surgical chief directly, and notify the nursing supervisor. Waiting for rounds (a) or giving sedatives that cause fatal respiratory arrest (d) is gross clinical malpractice. Why the other options fail: option a waits on an airway that is closing. Option c abandons a deteriorating client. Option d sedates a client who needs an airway, and does so outside any order.",
     strategy: "Chain of command rule: When a client is deteriorating and a physician fails to respond, escalate up the chain of command immediately. Never abandon a compromised airway.",
     difficulty: "medium",
     tags: ["professionalism", "chain-of-command", "escalation", "airway-emergency", "patient-advocacy"],
@@ -475,7 +475,7 @@ export const PRO1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "a",
     rationale:
-      "Assault is an intentional act that creates an apprehension or fear of immediate harmful or offensive contact (e.g., threatening the client with security guards to force compliance). Battery is the actual unauthorized, intentional, offensive, or harmful physical contact with another person without consent (e.g., forcibly administering an intramuscular injection over a competent client's explicit refusal). Forcing medical treatment on a competent individual without legal/emergency authorization constitutes both civil and criminal battery. Defamation (a) involves harming reputation; libel (b) is written defamation.",
+      "Assault is an intentional act that creates an apprehension or fear of immediate harmful or offensive contact (e.g., threatening the client with security guards to force compliance). Battery is the actual unauthorized, intentional, offensive, or harmful physical contact with another person without consent (e.g., forcibly administering an intramuscular injection over a competent client's explicit refusal). Forcing medical treatment on a competent individual without legal/emergency authorization constitutes both civil and criminal battery. Defamation (a) involves harming reputation; libel (b) is written defamation. Why the other options fail: option b concerns reputation and spoken words, not contact. Option c concerns privacy and publication. Option d concerns agreements and product liability.",
     strategy: "Legal tort definitions: Assault is the threat that causes apprehension of harm; Battery is the actual unauthorized physical contact.",
     difficulty: "medium",
     tags: ["professionalism", "intentional-torts", "assault-and-battery", "legal-nursing", "patient-rights"],
@@ -505,7 +505,7 @@ export const PRO1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "c",
     rationale:
-      "False imprisonment is the unlawful intentional confinement, restraint, or restriction of an individual's freedom of movement without legal authorization, clinical justification, or consent. Applying physical restraints (or four raised side rails to prevent exit) without clinical necessity, less restrictive alternatives, or a valid time-limited provider order constitutes false imprisonment. Restraints may only be used when an imminent risk of physical harm to self or others exists, and they require strict protocols, ongoing documentation, and timely orders.",
+      "False imprisonment is the unlawful intentional confinement, restraint, or restriction of an individual's freedom of movement without legal authorization, clinical justification, or consent. Applying physical restraints (or four raised side rails to prevent exit) without clinical necessity, less restrictive alternatives, or a valid time-limited provider order constitutes false imprisonment. Restraints may only be used when an imminent risk of physical harm to self or others exists, and they require strict protocols, ongoing documentation, and timely orders. Why the other options fail: option a requires an intent to kill. Option b requires a death. Option d concerns information rather than movement.",
     strategy: "Restraint law: Unlawfully restraining a client or restricting their physical freedom without justification or orders constitutes False Imprisonment.",
     difficulty: "easy",
     tags: ["professionalism", "false-imprisonment", "restraints", "intentional-torts", "patient-rights"],
@@ -518,24 +518,24 @@ export const PRO1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Confront the parent angrily in the clinic waiting area and demand an immediate signed confession",
+        text: "Confront the parent angrily in the waiting area and demand a signed confession",
       },
       {
         id: "b",
-        text: "Remain silent to preserve the parent's confidentiality under the patient privacy charter",
+        text: "Stay silent, to preserve the parent's confidentiality under the privacy charter",
       },
       {
         id: "c",
-        text: "Wait six months until the next scheduled vaccination visit to see if additional injuries occur",
+        text: "Wait six months until the next vaccination visit to see whether more injuries appear",
       },
       {
         id: "d",
-        text: "Immediately report the suspected child abuse to child protective services and law enforcement authorities as a statutory mandatory reporter",
+        text: "Report at once to child protection and the police, as a mandatory reporter",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "Healthcare professionals are legally designated mandatory reporters under national child protection statutes (such as the Children's Act). When a nurse has reasonable cause to suspect child abuse or neglect based on clinical findings (such as patterned burns and multiple fractures in varying stages of healing incompatible with the reported history), the nurse is legally mandated to report immediately to child welfare authorities or police. Good-faith reporting is legally protected from civil liability. Maintaining confidentiality (c) does not apply in child abuse; delay (d) endangers the child's life.",
+      "Healthcare professionals are legally designated mandatory reporters under national child protection statutes (such as the Children's Act). When a nurse has reasonable cause to suspect child abuse or neglect based on clinical findings (such as patterned burns and multiple fractures in varying stages of healing incompatible with the reported history), the nurse is legally mandated to report immediately to child welfare authorities or police. Good-faith reporting is legally protected from civil liability. Maintaining confidentiality (c) does not apply in child abuse; delay (d) endangers the child's life. Why the other options fail: option a risks the child and contaminates any case. Option b treats confidentiality as a shield for abuse, which it is not. Option c leaves the child at risk for half a year.",
     strategy: "Mandatory reporting: Nurses are legally obligated to report suspected child or elder abuse immediately. Patient confidentiality does not protect abuse.",
     difficulty: "easy",
     tags: ["professionalism", "mandatory-reporting", "child-abuse", "pediatrics", "statutory-duty"],
@@ -548,24 +548,24 @@ export const PRO1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Immediately notify the charge nurse or nursing supervisor to remove the colleague from client care and ensure client safety",
+        text: "Tell the charge nurse at once and remove the colleague from client care",
       },
       {
         id: "b",
-        text: "Ignore the signs because confronting a peer harms team morale and nursing solidarity",
+        text: "Ignore the signs, because confronting a colleague damages morale and team solidarity",
       },
       {
         id: "c",
-        text: "Offer the colleague strong black coffee and tell them to take a nap in the staff breakroom",
+        text: "Give the colleague strong coffee and send them for a nap in the staff break room",
       },
       {
         id: "d",
-        text: "Search the colleague's personal locker and car trunk without their knowledge to gather forensic evidence",
+        text: "Search the colleague's locker and car boot without telling them, to find evidence",
       },
     ],
     correctChoiceId: "a",
     rationale:
-      "Client safety is the nurse's paramount professional and ethical responsibility. When a colleague exhibits signs of chemical impairment on duty, the nurse has an urgent ethical and legal obligation to report the behavior immediately to the supervisor or charge nurse so that the impaired individual is safely relieved of client care duties. Suspected drug diversion also requires formal investigation and drug screening according to institutional policy. Covering up (b), looking away (a), or conducting private vigilante searches (d) enables ongoing endangerment of vulnerable clients.",
+      "Client safety is the nurse's paramount professional and ethical responsibility. When a colleague exhibits signs of chemical impairment on duty, the nurse has an urgent ethical and legal obligation to report the behavior immediately to the supervisor or charge nurse so that the impaired individual is safely relieved of client care duties. Suspected drug diversion also requires formal investigation and drug screening according to institutional policy. Covering up (b), looking away (a), or conducting private vigilante searches (d) enables ongoing endangerment of vulnerable clients. Why the other options fail: option b leaves impaired practice in place. Option c leaves the colleague in clinical contact and does nothing about the missing opioids. Option d is a search with no authority behind it.",
     strategy: "Impaired nurse protocol: Protect client safety first by immediately reporting signs of impairment to the nursing supervisor.",
     difficulty: "easy",
     tags: ["professionalism", "impaired-nurse", "substance-abuse", "client-safety", "ethics"],
@@ -578,24 +578,24 @@ export const PRO1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "An inspiring act of health promotion that should be commended by the hospital public relations team",
+        text: "An inspiring act of health promotion that the hospital press office should commend",
       },
       {
         id: "b",
-        text: "Completely acceptable under privacy laws since the child's full medical record number was omitted",
+        text: "Completely acceptable, since the child's record number was not written in the post",
       },
       {
         id: "c",
-        text: "A severe breach of client confidentiality, privacy, and professional boundaries that violates regulatory standards and warrants disciplinary action",
+        text: "A serious confidentiality and boundary breach that warrants disciplinary action",
       },
       {
         id: "d",
-        text: "A permissible action if the nurse deletes the post within 24 hours before many followers see it",
+        text: "Permissible if the nurse deletes the post within twenty-four hours",
       },
     ],
     correctChoiceId: "c",
     rationale:
-      "Posting photographs, videos, or identifiable descriptions of clients on personal social media accounts—regardless of intent or whether the client's name is explicitly stated—is a flagrant breach of privacy laws (HIPAA, Data Protection Act) and nursing regulatory standards. The child's image and hospital unit constitute personally identifiable protected health information. Regulatory councils (NMC, NCSBN, State Boards) impose severe disciplinary penalties, including suspension or revocation of registration, for social media boundary violations. Deleting the post later (c) does not erase the violation.",
+      "Posting photographs, videos, or identifiable descriptions of clients on personal social media accounts—regardless of intent or whether the client's name is explicitly stated—is a flagrant breach of privacy laws (HIPAA, Data Protection Act) and nursing regulatory standards. The child's image and hospital unit constitute personally identifiable protected health information. Regulatory councils (NMC, NCSBN, State Boards) impose severe disciplinary penalties, including suspension or revocation of registration, for social media boundary violations. Deleting the post later (c) does not erase the violation. Why the other options fail: option a ignores consent and the child's privacy. Option b is wrong because the image and the unit identify the child. Option d treats deletion as an undo, when publication has already happened.",
     strategy: "Social media ethics: Never photograph clients or post any clinical client information on social media. Zero exceptions.",
     difficulty: "easy",
     tags: ["professionalism", "social-media", "confidentiality", "professional-boundaries", "regulation"],
