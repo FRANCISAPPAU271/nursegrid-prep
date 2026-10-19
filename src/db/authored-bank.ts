@@ -73,7 +73,7 @@ export type AuthoredQuestion = {
 
 export const AUTHORED_COUNT = 5510;
 export const AUTHORED_COUNT_LABEL = "3,200+";
-export const AUTHORED_DIAGRAM_COUNT = 619;
+export const AUTHORED_DIAGRAM_COUNT = 614;
 
 export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
