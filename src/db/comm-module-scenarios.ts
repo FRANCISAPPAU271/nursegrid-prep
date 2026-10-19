@@ -8,24 +8,24 @@ export const COMM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Isolate the patient immediately under viral haemorrhagic fever precautions and report the suspected case to the District Disease Control Officer within 24 hours",
+        text: "Isolate under VHF precautions and report the suspected case to the district disease control officer within 24 hours",
       },
       {
         id: "b",
-        text: "Wait for confirmatory RT-PCR and serology lab results before notifying local health authorities",
+        text: "Wait for the RT-PCR and serology results before notifying the district, so that the report is laboratory-confirmed",
       },
       {
         id: "c",
-        text: "Record the case in the monthly routine outpatient morbidity ledger for review at the end of the quarter",
+        text: "Record the case in the routine outpatient ledger and review the pattern at the end of the quarter",
       },
       {
         id: "d",
-        text: "Discharge the patient with oral antipyretics and schedule an outpatient review in one week",
+        text: "Discharge with oral antipyretics and review in a week, since the fever has lasted only 3 days",
       },
     ],
     correctChoiceId: "a",
     rationale:
-      "Under the WHO and Ghana Health Service Integrated Disease Surveillance and Response (IDSR) strategy, conditions with epidemic potential (such as acute viral haemorrhagic fevers, yellow fever, cholera, and meningococcal meningitis) mandate immediate suspected case reporting within 24 hours by telephone, SMS, or direct call to the District Health Directorate, alongside immediate strict contact/droplet barrier isolation. Notification must NEVER be delayed pending laboratory confirmation, as rapid containment prevents catastrophic community transmission.",
+      "Under the WHO and Ghana Health Service Integrated Disease Surveillance and Response (IDSR) strategy, conditions with epidemic potential (such as acute viral haemorrhagic fevers, yellow fever, cholera, and meningococcal meningitis) mandate immediate suspected case reporting within 24 hours by telephone, SMS, or direct call to the District Health Directorate, alongside immediate strict contact/droplet barrier isolation. Notification must NEVER be delayed pending laboratory confirmation, as rapid containment prevents catastrophic community transmission. Why the other options fail: option b waits for confirmation, which is exactly what the 24-hour rule forbids for a disease with epidemic potential. Option c files the case for quarterly review, which delays any response by months. Option d discharges a patient with a suspected haemorrhagic fever, which removes him from isolation and returns him to the community.",
     strategy: "IDSR notification rules: Epidemic-prone conditions (haemorrhagic fevers, yellow fever, cholera) require immediate reporting within 24 hours upon SUSPICION, before lab results.",
     difficulty: "easy",
     tags: ["communicable-diseases", "idsr", "public-health", "haemorrhagic-fever", "infection-control"],
@@ -38,24 +38,24 @@ export const COMM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Squeeze the wound vigorously to express blood, apply concentrated sodium hypochlorite, and wait 7 days for baseline HIV antibody results before taking PEP",
+        text: "Squeeze the wound to express blood, apply concentrated bleach, and wait 7 days for the baseline HIV test before starting PEP",
       },
       {
         id: "b",
-        text: "Wash the puncture wound immediately with soap and running water, and initiate a 28-day course of 3-drug antiretroviral PEP as soon as possible, ideally within 2 hours and no later than 72 hours",
+        text: "Wash with soap and running water, then begin 28 days of three-drug PEP immediately, ideally within 2 hours and never after 72",
       },
       {
         id: "c",
-        text: "Start PEP only if the healthcare worker tests HIV-positive on rapid antibody screening immediately after the injury",
+        text: "Start PEP only if the worker's rapid antibody test is positive at the time of injury, since the drugs are toxic",
       },
       {
         id: "d",
-        text: "Take a single dose of oral zidovudine within 24 hours; no ongoing follow-up is necessary",
+        text: "Take a single dose of zidovudine within 24 hours, which is sufficient and needs no follow-up",
       },
     ],
     correctChoiceId: "b",
     rationale:
-      "Immediate management of occupational blood exposure requires washing the wound thoroughly with soap and water (never scrubbing, squeezing, or applying caustic bleach). Post-Exposure Prophylaxis (PEP) with a 3-drug antiretroviral regimen (e.g., tenofovir + lamivudine + dolutegravir) should be initiated as urgently as possible, ideally within 2 hours of exposure. PEP is ineffective if delayed beyond 72 hours. The full course lasts 28 days with baseline and follow-up HIV testing at 6 weeks and 3 months.",
+      "Immediate management of occupational blood exposure requires washing the wound thoroughly with soap and water (never scrubbing, squeezing, or applying caustic bleach). Post-Exposure Prophylaxis (PEP) with a 3-drug antiretroviral regimen (e.g., tenofovir + lamivudine + dolutegravir) should be initiated as urgently as possible, ideally within 2 hours of exposure. PEP is ineffective if delayed beyond 72 hours. The full course lasts 28 days with baseline and follow-up HIV testing at 6 weeks and 3 months. Why the other options fail: option a squeezes and bleaches the wound, which damages tissue and has not been recommended for years, and it delays PEP by a week. Option c makes prophylaxis conditional on a test that will be negative in early infection. Option d gives a single drug for one day, when the regimen is three drugs for 28 days.",
     strategy: "Occupational HIV PEP: Wash with soap/water (no squeezing), start 3-drug PEP within 2 hours (cutoff 72 hours), complete full 28-day course.",
     difficulty: "medium",
     tags: ["communicable-diseases", "hiv", "pep", "occupational-health", "infection-control"],
@@ -68,24 +68,24 @@ export const COMM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Administer IV artesunate as a continuous 72-hour infusion mixed with concentrated dextrose",
+        text: "Give it as a continuous 72-hour infusion in concentrated dextrose, so that the parasitaemia falls steadily",
       },
       {
         id: "b",
-        text: "Give a single dose of oral artemether-lumefantrine via nasogastric tube and avoid parenteral therapy",
+        text: "Give a single dose of crushed artemether-lumefantrine down the nasogastric tube and avoid parenteral therapy",
       },
       {
         id: "c",
-        text: "Administer IV artesunate 2.4 mg/kg at 0 hours, 12 hours, and 24 hours, then once daily until the patient can tolerate a full 3-day oral artemisinin-based combination therapy (ACT) course",
+        text: "Give 2.4 mg/kg at 0, 12 and 24 hours, then once daily until a full 3-day oral ACT course can be taken",
       },
       {
         id: "d",
-        text: "Infuse intravenous chloroquine over 4 hours and monitor for hypotension",
+        text: "Infuse intravenous chloroquine over 4 hours and monitor for hypotension, since chloroquine is the traditional first-line",
       },
     ],
     correctChoiceId: "c",
     rationale:
-      "WHO and Ghana National Malaria Control Programme guidelines mandate intravenous or intramuscular artesunate (2.4 mg/kg for adults, 3.0 mg/kg for children < 20 kg) as the first-line treatment for severe malaria. The dosing schedule is 0, 12, and 24 hours, then once every 24 hours thereafter. A minimum of 3 parenteral doses must be given. Once the patient is awake and tolerating oral intake, a complete 3-day course of an oral artemisinin-based combination therapy (ACT, such as artemether-lumefantrine or artesunate-amodiaquine) must be completed to prevent recrudescence.",
+      "WHO and Ghana National Malaria Control Programme guidelines mandate intravenous or intramuscular artesunate (2.4 mg/kg for adults, 3.0 mg/kg for children < 20 kg) as the first-line treatment for severe malaria. The dosing schedule is 0, 12, and 24 hours, then once every 24 hours thereafter. A minimum of 3 parenteral doses must be given. Once the patient is awake and tolerating oral intake, a complete 3-day course of an oral artemisinin-based combination therapy (ACT, such as artemether-lumefantrine or artesunate-amodiaquine) must be completed to prevent recrudescence. Why the other options fail: option a gives artesunate by continuous infusion, which is not its pharmacology and would miss the dose schedule. Option b relies on an enteral drug in a comatose patient and skips the parenteral doses the guidelines require. Option d returns to chloroquine, which falciparum resistance has made unusable for severe disease.",
     strategy: "Severe malaria first-line: IV artesunate 2.4 mg/kg at 0, 12, 24 hours (minimum 3 doses), followed by a complete 3-day oral ACT course.",
     difficulty: "medium",
     tags: ["communicable-diseases", "malaria", "artesunate", "severe-malaria", "pharmacology"],
@@ -98,24 +98,24 @@ export const COMM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Acute recrudescence of chloroquine-sensitive vivax malaria requiring primaquine",
+        text: "Recrudescence of vivax malaria, which needs primaquine to clear the liver-stage parasites",
       },
       {
         id: "b",
-        text: "Aplastic anaemia caused by permanent bone marrow suppression",
+        text: "Aplastic anaemia from permanent marrow suppression caused by the artesunate course",
       },
       {
         id: "c",
-        text: "Immune thrombocytopenic purpura triggered by mosquito salivary antigens",
+        text: "Immune thrombocytopenic purpura triggered by mosquito salivary antigens, which needs steroids",
       },
       {
         id: "d",
-        text: "Post-artemisinin delayed haemolysis (PADH), requiring immediate haemoglobin monitoring and potential transfusion support",
+        text: "Post-artemisinin delayed haemolysis, needing haemoglobin monitoring and transfusion if severe",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "Post-artemisinin delayed haemolysis (PADH) is a recognized phenomenon occurring 1 to 4 weeks (typically around days 7–21) after parenteral artesunate therapy in patients with high initial parasitaemia. Artesunate causes splenic 'pitting', where dead parasites are extracted from erythrocytes, leaving once-parasitized erythrocytes ('once-infected RBCs') with shortened lifespans that undergo delayed intravascular clearance. Patients present with haemolytic anaemia, jaundice, and dark urine. Management involves supportive care and blood transfusion if severe.",
+      "Post-artemisinin delayed haemolysis (PADH) is a recognized phenomenon occurring 1 to 4 weeks (typically around days 7–21) after parenteral artesunate therapy in patients with high initial parasitaemia. Artesunate causes splenic 'pitting', where dead parasites are extracted from erythrocytes, leaving once-parasitized erythrocytes ('once-infected RBCs') with shortened lifespans that undergo delayed intravascular clearance. Patients present with haemolytic anaemia, jaundice, and dark urine. Management involves supportive care and blood transfusion if severe. Why the other options fail: option a names a recurrent infection, but the parasitaemia has cleared and the reticulocyte count is up, which points to destruction rather than relapse. Option b describes permanent marrow failure, which does not recover and does not raise reticulocytes. Option c gives a platelet disorder, which does not explain the falling haemoglobin and the indirect bilirubin.",
     strategy: "Post-artesunate surveillance: Watch for delayed haemolysis (PADH) 1-3 weeks post-treatment in patients with high initial parasitaemia.",
     difficulty: "hard",
     tags: ["communicable-diseases", "malaria", "artesunate", "haemolysis", "padh"],
@@ -128,24 +128,24 @@ export const COMM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "These are critical warning signs of severe dengue (plasma leakage and impending dengue shock syndrome) requiring immediate IV crystalloid resuscitation",
+        text: "Critical warning signs of severe dengue: plasma leakage with impending shock, needing immediate crystalloid",
       },
       {
         id: "b",
-        text: "This indicates normal convalescence because defervescence signals complete viral clearance",
+        text: "Normal convalescence, since defervescence marks viral clearance and the end of the illness",
       },
       {
         id: "c",
-        text: "The patient is experiencing an uncomplicated vasovagal response to antipyretics",
+        text: "A vasovagal reaction to the antipyretics, which needs rest and a further dose of paracetamol",
       },
       {
         id: "d",
-        text: "This is typical allergic gastroenteritis triggered by non-steroidal anti-inflammatory drugs",
+        text: "Allergic gastroenteritis from an NSAID, which needs an antihistamine and a bland diet",
       },
     ],
     correctChoiceId: "a",
     rationale:
-      "In dengue virus infection, the critical phase begins at defervescence (typically days 3–7 of illness). The development of dengue warning signs (severe abdominal pain, persistent vomiting, fluid accumulation/ascites/pleural effusion, mucosal bleeding, lethargy/restlessness, hepatomegaly > 2 cm, and rapid rise in haematocrit with sharp drop in platelets) signals systemic capillary permeability, plasma leakage, and impending Dengue Shock Syndrome (DSS). The nurse must immediately admit the patient for close monitoring and judicious isotonic IV fluid resuscitation.",
+      "In dengue virus infection, the critical phase begins at defervescence (typically days 3–7 of illness). The development of dengue warning signs (severe abdominal pain, persistent vomiting, fluid accumulation/ascites/pleural effusion, mucosal bleeding, lethargy/restlessness, hepatomegaly > 2 cm, and rapid rise in haematocrit with sharp drop in platelets) signals systemic capillary permeability, plasma leakage, and impending Dengue Shock Syndrome (DSS). The nurse must immediately admit the patient for close monitoring and judicious isotonic IV fluid resuscitation. Why the other options fail: option b reads defervescence as recovery, when in dengue it marks the start of the critical phase. Option c attributes warning signs to a vagal response, which does not cause mucosal bleeding. Option d invents a drug reaction that does not produce abdominal pain with bleeding and lethargy.",
     strategy: "Dengue warning signs: Defervescence + abdominal pain + persistent vomiting + mucosal bleed = critical phase plasma leakage / shock.",
     difficulty: "medium",
     tags: ["communicable-diseases", "dengue", "arbovirus", "warning-signs", "shock"],
@@ -158,24 +158,24 @@ export const COMM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Place the patient in a shared 6-bed ward and instruct the patient to wear a cloth mask when sleeping",
+        text: "A shared bay with a cloth mask for the patient while sleeping, since the diagnosis is not yet confirmed",
       },
       {
         id: "b",
-        text: "Place the patient in an airborne infection isolation room (negative pressure) and ensure all healthcare workers wear fitted N95 or FFP2 respirators",
+        text: "Airborne isolation in a negative-pressure room, with fit-tested N95 respirators for all staff on entry",
       },
       {
         id: "c",
-        text: "Maintain standard precautions only until sputum acid-fast bacilli (AFB) smear results are confirmed positive",
+        text: "Standard precautions only until the sputum smear is positive, because cavitation alone does not transmit",
       },
       {
         id: "d",
-        text: "Enforce strict contact precautions including sterile surgical gowns and non-permeable shoe covers",
+        text: "Contact precautions with sterile gowns and shoe covers, since the organism survives on surfaces",
       },
     ],
     correctChoiceId: "b",
     rationale:
-      "Mycobacterium tuberculosis is transmitted via droplet nuclei that remain suspended in the air. Any patient with presumptive active pulmonary tuberculosis (cavitary disease, chronic cough, haemoptysis) must be placed immediately in an Airborne Infection Isolation Room (AIIR) with negative pressure (>= 6–12 air exchanges per hour) venting to the outside. Staff must wear fit-tested N95 (or FFP2) particulate respirators upon room entry. If transported, the patient must wear a surgical mask. Sputum GeneXpert MTB/RIF is the rapid molecular test of choice to identify TB and rifampicin resistance.",
+      "Mycobacterium tuberculosis is transmitted via droplet nuclei that remain suspended in the air. Any patient with presumptive active pulmonary tuberculosis (cavitary disease, chronic cough, haemoptysis) must be placed immediately in an Airborne Infection Isolation Room (AIIR) with negative pressure (>= 6–12 air exchanges per hour) venting to the outside. Staff must wear fit-tested N95 (or FFP2) particulate respirators upon room entry. If transported, the patient must wear a surgical mask. Sputum GeneXpert MTB/RIF is the rapid molecular test of choice to identify TB and rifampicin resistance. Why the other options fail: option a leaves a cavitary case in a shared bay, which is the setting in which droplet nuclei spread. Option c waits for a smear, which is often negative and never a reason to relax precautions. Option d uses contact precautions, which do not address an organism carried in the air.",
     strategy: "Tuberculosis isolation: Airborne precautions (negative pressure room + fitted N95 respirator). Patient wears surgical mask during transport.",
     difficulty: "easy",
     tags: ["communicable-diseases", "tuberculosis", "airborne-precautions", "genexpert", "infection-control"],
@@ -205,7 +205,7 @@ export const COMM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "c",
     rationale:
-      "Ethambutol causes dose-dependent retrobulbar optic neuritis, manifesting as decreased visual acuity, central scotomas, and loss of red-green color discrimination. Baseline and periodic visual acuity and color vision testing (Ishihara plates) are indicated. If visual toxicity occurs, ethambutol must be discontinued immediately to prevent permanent blindness. In contrast, rifampicin causes orange-red discoloration of body fluids; isoniazid causes peripheral neuropathy (prevented with pyridoxine/vitamin B6) and hepatotoxicity; and pyrazinamide causes hyperuricaemia and arthralgias.",
+      "Ethambutol causes dose-dependent retrobulbar optic neuritis, manifesting as decreased visual acuity, central scotomas, and loss of red-green color discrimination. Baseline and periodic visual acuity and color vision testing (Ishihara plates) are indicated. If visual toxicity occurs, ethambutol must be discontinued immediately to prevent permanent blindness. In contrast, rifampicin causes orange-red discoloration of body fluids; isoniazid causes peripheral neuropathy (prevented with pyridoxine/vitamin B6) and hepatotoxicity; and pyrazinamide causes hyperuricaemia and arthralgias. Why the other options fail: option a causes orange-red discolouration of body fluids, not visual loss. Option b causes peripheral neuropathy and hepatitis, prevented with pyridoxine. Option d causes hyperuricaemia and arthralgia. None of the three affects the optic nerve.",
     strategy: "TB medication toxicities: Ethambutol = Eyes (optic neuritis, red-green color loss); Isoniazid = Neurons (neuropathy / B6 deficiency); Rifampicin = Red secretions.",
     difficulty: "easy",
     tags: ["communicable-diseases", "tuberculosis", "ethambutol", "optic-neuritis", "pharmacology"],
@@ -218,24 +218,24 @@ export const COMM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Immediately switch the client to second-line protease inhibitor therapy without assessing adherence barriers",
+        text: "Switch to second-line protease inhibitor therapy now, since a detectable load means the regimen has failed",
       },
       {
         id: "b",
-        text: "Discontinue all antiretroviral medications for 4 weeks to clear drug-resistant mutants",
+        text: "Stop all antiretrovirals for 4 weeks, so that the resistant mutants are cleared before restarting",
       },
       {
         id: "c",
-        text: "Reassure the client that a viral load of 3,200 copies/mL represents undetectable viral suppression",
+        text: "Reassure the client that 3,200 copies/mL still counts as suppression, and review in a year",
       },
       {
         id: "d",
-        text: "Initiate Enhanced Adherence Counseling (EAC) for 3 monthly sessions and repeat the viral load test after 3 months before considering a regimen switch",
+        text: "Start enhanced adherence counselling for 3 monthly sessions and repeat the viral load in 3 months before any switch",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "In national and WHO HIV treatment guidelines, virological non-suppression is defined as a viral load >= 1,000 copies/mL on two consecutive measurements 3 months apart. When an elevated viral load is detected in a patient reporting missed doses, the immediate protocol is not an automatic drug switch; instead, the nurse initiates Enhanced Adherence Counseling (EAC) monthly for 3 months to identify and overcome barriers to 95%+ pill adherence. A repeat viral load is conducted after 3 months; if still >= 1,000 copies/mL despite documented adherence, treatment failure is confirmed and the patient is switched to second-line therapy.",
+      "In national and WHO HIV treatment guidelines, virological non-suppression is defined as a viral load >= 1,000 copies/mL on two consecutive measurements 3 months apart. When an elevated viral load is detected in a patient reporting missed doses, the immediate protocol is not an automatic drug switch; instead, the nurse initiates Enhanced Adherence Counseling (EAC) monthly for 3 months to identify and overcome barriers to 95%+ pill adherence. A repeat viral load is conducted after 3 months; if still >= 1,000 copies/mL despite documented adherence, treatment failure is confirmed and the patient is switched to second-line therapy. Why the other options fail: option a switches regimen on one result and before adherence has been addressed, which risks losing the second line as well. Option b stops treatment, which allows the virus to rebound. Option c calls 3,200 copies/mL suppression, when the threshold is below 1,000 on two occasions.",
     strategy: "HIV viral non-suppression (VL >= 1,000): Provide Enhanced Adherence Counseling (EAC) for 3 months and retest before switching regimens.",
     difficulty: "medium",
     tags: ["communicable-diseases", "hiv", "art", "viral-load", "adherence-counseling"],
@@ -248,24 +248,24 @@ export const COMM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Administer Hepatitis B vaccine (monovalent birth dose) and Hepatitis B Immune Globulin (HBIG) at separate anatomical intramuscular sites within 12 hours of delivery",
+        text: "Give hepatitis B vaccine and HBIG within 12 hours, at separate intramuscular sites",
       },
       {
         id: "b",
-        text: "Administer oral lamivudine drops to the infant and delay all vaccinations until 6 weeks of age",
+        text: "Start oral lamivudine for the infant and delay all vaccinations until the 6-week visit",
       },
       {
         id: "c",
-        text: "Give Hepatitis B Immune Globulin alone at 6 weeks of age during the first child welfare clinic visit",
+        text: "Give HBIG alone at the 6-week child welfare clinic, when the vaccine schedule begins",
       },
       {
         id: "d",
-        text: "No intervention is indicated if the infant is delivered by elective caesarean section",
+        text: "Give no prophylaxis if the baby was delivered by elective caesarean section, because there was no exposure",
       },
     ],
     correctChoiceId: "a",
     rationale:
-      "Perinatal transmission from HBsAg-positive mothers carries up to a 90% risk of chronic neonatal infection leading to cirrhosis and hepatocellular carcinoma in adulthood. Immediate prevention requires administering Hepatitis B vaccine (monovalent birth dose) and Hepatitis B Immune Globulin (HBIG, 0.5 mL) within 12 hours of birth at two separate anatomical sites (e.g., left and right anterolateral thighs). This combined active-passive immunoprophylaxis reduces transmission rates by over 90–95%. The infant then completes the standard pentavalent vaccine series at 6, 10, and 14 weeks.",
+      "Perinatal transmission from HBsAg-positive mothers carries up to a 90% risk of chronic neonatal infection leading to cirrhosis and hepatocellular carcinoma in adulthood. Immediate prevention requires administering Hepatitis B vaccine (monovalent birth dose) and Hepatitis B Immune Globulin (HBIG, 0.5 mL) within 12 hours of birth at two separate anatomical sites (e.g., left and right anterolateral thighs). This combined active-passive immunoprophylaxis reduces transmission rates by over 90–95%. The infant then completes the standard pentavalent vaccine series at 6, 10, and 14 weeks. Why the other options fail: option b gives an antiviral to the infant and postpones the vaccine that prevents carriage. Option c gives passive antibody alone and six weeks late, by which time transmission may already have occurred. Option d treats caesarean delivery as protection, when the risk comes from maternal blood and the birth process itself.",
     strategy: "Hepatitis B perinatal prophylaxis: Monovalent HepB vaccine + HBIG given within 12 hours of birth at separate injection sites.",
     difficulty: "easy",
     tags: ["communicable-diseases", "hepatitis-b", "neonatal", "vertical-transmission", "immunization"],
@@ -278,24 +278,24 @@ export const COMM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Encourage oral rehydration salts (ORS) slowly with a spoon and withhold intravenous therapy",
+        text: "Give oral rehydration solution by spoon and withhold intravenous fluid until the pulse returns",
       },
       {
         id: "b",
-        text: "Initiate WHO Plan C emergency intravenous rehydration with Ringer's lactate: 100 mL/kg total (30 mL/kg in the first 30 minutes, then 70 mL/kg over 2.5 hours)",
+        text: "Begin WHO Plan C: Ringer's lactate 100 mL/kg, 30 mL/kg in the first 30 minutes then 70 mL/kg over 2.5 hours",
       },
       {
         id: "c",
-        text: "Administer intravenous loperamide to halt gastrointestinal hypermotility",
+        text: "Give intravenous loperamide to stop the stools, so that the fluid losses slow enough to catch up",
       },
       {
         id: "d",
-        text: "Infuse 500 mL of 5% dextrose in water over 8 hours to avoid hypernatraemia",
+        text: "Infuse 500 mL of 5% dextrose over 8 hours, which avoids the risk of hypernatraemia",
       },
     ],
     correctChoiceId: "b",
     rationale:
-      "The patient presents with severe cholera dehydration with hypovolaemic shock (lethargy, absent peripheral pulse, skin tenting > 2 s), which is rapidly fatal within hours without aggressive volume restoration. Under WHO Plan C for cholera, adult fluid resuscitation requires 100 mL/kg of IV Ringer's lactate: 30 mL/kg within the first 30 minutes, followed by 70 mL/kg over 2.5 hours. As soon as the patient is able to drink, oral rehydration salts (ORS) and oral zinc are initiated, followed by single-dose oral doxycycline or azithromycin to reduce duration and shedding. Antimotility drugs (like loperamide) are strictly contraindicated.",
+      "The patient presents with severe cholera dehydration with hypovolaemic shock (lethargy, absent peripheral pulse, skin tenting > 2 s), which is rapidly fatal within hours without aggressive volume restoration. Under WHO Plan C for cholera, adult fluid resuscitation requires 100 mL/kg of IV Ringer's lactate: 30 mL/kg within the first 30 minutes, followed by 70 mL/kg over 2.5 hours. As soon as the patient is able to drink, oral rehydration salts (ORS) and oral zinc are initiated, followed by single-dose oral doxycycline or azithromycin to reduce duration and shedding. Antimotility drugs (like loperamide) are strictly contraindicated. Why the other options fail: option a gives oral fluid to a patient with no radial pulse, which cannot be absorbed fast enough. Option c gives an antimotility drug, which is contraindicated in cholera. Option d gives dextrose without electrolyte at a rate far too slow for shock.",
     strategy: "Severe cholera dehydration (Plan C): Rapid IV Ringer's lactate (100 mL/kg: 30 mL/kg in 30 min, 70 mL/kg in 2.5 h). NEVER give loperamide.",
     difficulty: "medium",
     tags: ["communicable-diseases", "cholera", "plan-c", "dehydration", "rehydration"],
@@ -308,24 +308,24 @@ export const COMM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Benign ileocaecal spasm triggered by oral rehydration",
+        text: "Benign ileocaecal spasm from the oral rehydration, which settles with an antispasmodic",
       },
       {
         id: "b",
-        text: "Transient amoebic colitis responsive to oral metronidazole",
+        text: "Amoebic colitis, which responds to oral metronidazole without surgery",
       },
       {
         id: "c",
-        text: "Typhoid intestinal perforation (usually of the terminal ileum) with acute peritonitis",
+        text: "Typhoid intestinal perforation of the terminal ileum, with acute peritonitis",
       },
       {
         id: "d",
-        text: "Acute cholecystitis with preserved peritoneal boundaries",
+        text: "Acute cholecystitis with intact peritoneal boundaries, which needs an ultrasound",
       },
     ],
     correctChoiceId: "c",
     rationale:
-      "Salmonella Typhi invades the Peyer patches in the lymphoid tissue of the terminal ileum. During the late second to third week of illness, necrosis and ulceration of Peyer patches can lead to intestinal perforation, the most lethal surgical complication of typhoid fever. Clinical signs include sudden severe abdominal pain, board-like involuntary guarding, rebound tenderness, free intraperitoneal air causing loss of hepatic dullness on percussion, and hypovolaemic/septic shock. The nurse must make the patient nil by mouth, initiate resuscitation, start broad-spectrum IV antibiotics, and alert the surgical team immediately.",
+      "Salmonella Typhi invades the Peyer patches in the lymphoid tissue of the terminal ileum. During the late second to third week of illness, necrosis and ulceration of Peyer patches can lead to intestinal perforation, the most lethal surgical complication of typhoid fever. Clinical signs include sudden severe abdominal pain, board-like involuntary guarding, rebound tenderness, free intraperitoneal air causing loss of hepatic dullness on percussion, and hypovolaemic/septic shock. The nurse must make the patient nil by mouth, initiate resuscitation, start broad-spectrum IV antibiotics, and alert the surgical team immediately. Why the other options fail: option a calls a rigid abdomen with lost liver dullness a spasm, which delays surgery. Option b gives a medical diagnosis and an oral drug to a patient in shock. Option d keeps the peritoneum intact, when free air and guarding show that it is not.",
     strategy: "Typhoid fever red flags: Late 2nd/3rd week sudden abdominal pain + rigid abdomen + shock = ileal perforation. Emergency laparotomy needed.",
     difficulty: "medium",
     tags: ["communicable-diseases", "typhoid", "salmonella", "intestinal-perforation", "surgical-emergency"],
@@ -338,24 +338,24 @@ export const COMM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Maintain airborne precautions in a negative pressure room for 3 weeks",
+        text: "Airborne precautions in a negative-pressure room for 3 weeks, since meningococcus survives in air",
       },
       {
         id: "b",
-        text: "Isolate the patient under contact precautions only and avoid offering prophylaxis to roommates",
+        text: "Contact precautions only, with no prophylaxis for roommates because they were vaccinated",
       },
       {
         id: "c",
-        text: "No isolation is required once IV ceftriaxone is ordered",
+        text: "No isolation once IV ceftriaxone is started, since the drug renders the patient non-infectious at once",
       },
       {
         id: "d",
-        text: "Enforce droplet precautions for 24 hours after the start of effective antibiotic therapy, and administer chemoprophylaxis (e.g., single-dose oral ciprofloxacin or rifampicin) to close hostel contacts",
+        text: "Droplet precautions until 24 hours of effective antibiotic, with ciprofloxacin prophylaxis for hostel contacts",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "Meningococcal meningitis (caused by Neisseria meningitidis) is transmitted via large respiratory droplets. Droplet precautions (surgical mask within 1–2 metres, private room) must be maintained until 24 hours after initiation of effective antimicrobial therapy (e.g., IV ceftriaxone or penicillin). Close contacts (household members, dorm roommates, healthcare workers with direct oral secretion exposure such as during CPR or endotracheal intubation) must receive post-exposure chemoprophylaxis with single-dose oral ciprofloxacin (500 mg), rifampicin, or IM ceftriaxone as soon as possible.",
+      "Meningococcal meningitis (caused by Neisseria meningitidis) is transmitted via large respiratory droplets. Droplet precautions (surgical mask within 1–2 metres, private room) must be maintained until 24 hours after initiation of effective antimicrobial therapy (e.g., IV ceftriaxone or penicillin). Close contacts (household members, dorm roommates, healthcare workers with direct oral secretion exposure such as during CPR or endotracheal intubation) must receive post-exposure chemoprophylaxis with single-dose oral ciprofloxacin (500 mg), rifampicin, or IM ceftriaxone as soon as possible. Why the other options fail: option a over-isolates and under-treats, since meningococcus is a droplet organism and 3 weeks is not the rule. Option b drops prophylaxis for the contacts at highest risk. Option c ends isolation on the first dose rather than after 24 hours of treatment.",
     strategy: "Meningococcal disease: Droplet precautions for 24 hours after starting antibiotics + chemoprophylaxis (ciprofloxacin/rifampicin) for close contacts.",
     difficulty: "medium",
     tags: ["communicable-diseases", "meningitis", "droplet-precautions", "chemoprophylaxis", "infection-control"],
@@ -368,24 +368,24 @@ export const COMM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Administer two age-appropriate doses of high-dose Vitamin A (200,000 IU for age >= 12 months) given 24 hours apart",
+        text: "Two age-appropriate doses of high-dose vitamin A, 200,000 IU for a child of 12 months or more, 24 hours apart",
       },
       {
         id: "b",
-        text: "Administer high-dose oral aspirin every 4 hours for 7 days",
+        text: "High-dose oral aspirin every 4 hours for 7 days, to control the fever and the rash",
       },
       {
         id: "c",
-        text: "Prescribe prophylactic oral chloramphenicol for 14 days",
+        text: "Prophylactic oral chloramphenicol for 14 days, to prevent secondary bacterial infection",
       },
       {
         id: "d",
-        text: "Administer systemic corticosteroids to suppress the maculopapular rash",
+        text: "Systemic corticosteroids to suppress the rash, which shortens the illness and prevents croup",
       },
     ],
     correctChoiceId: "a",
     rationale:
-      "WHO and UNICEF protocols mandate that all children diagnosed with acute measles receive two doses of high-potency oral Vitamin A given on consecutive days (50,000 IU for infants < 6 months, 100,000 IU for 6–11 months, and 200,000 IU for >= 12 months; a third dose is added at 2–4 weeks if signs of xerophthalmia exist). Measles rapidly depletes vitamin A stores, which can lead to corneal ulceration, blindness, severe pneumonia, and croup. Vitamin A therapy reduces overall measles mortality and morbidity by up to 50%. Aspirin is contraindicated due to the risk of Reye syndrome.",
+      "WHO and UNICEF protocols mandate that all children diagnosed with acute measles receive two doses of high-potency oral Vitamin A given on consecutive days (50,000 IU for infants < 6 months, 100,000 IU for 6–11 months, and 200,000 IU for >= 12 months; a third dose is added at 2–4 weeks if signs of xerophthalmia exist). Measles rapidly depletes vitamin A stores, which can lead to corneal ulceration, blindness, severe pneumonia, and croup. Vitamin A therapy reduces overall measles mortality and morbidity by up to 50%. Aspirin is contraindicated due to the risk of Reye syndrome. Why the other options fail: option b gives aspirin, which is contraindicated in measles because of Reye syndrome. Option c gives an antibiotic that does not treat a viral illness and does not reduce mortality. Option d gives steroids, which suppress immunity in a child already made vulnerable by measles.",
     strategy: "Measles therapy: High-dose Vitamin A (2 doses on consecutive days) restores epithelial integrity and reduces mortality by 50%. Never give aspirin.",
     difficulty: "easy",
     tags: ["communicable-diseases", "measles", "pediatrics", "vitamin-a", "vaccine-preventable"],
@@ -398,24 +398,24 @@ export const COMM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Enforce strict airborne isolation for 6 weeks and administer oral ciprofloxacin",
+        text: "Airborne isolation for 6 weeks, since the cough spreads organisms over long distances",
       },
       {
         id: "b",
-        text: "Place the infant on droplet precautions and administer a 5-day course of oral azithromycin, while monitoring for apnoea and bradycardia",
+        text: "Droplet precautions, with oral azithromycin for 5 days, and continuous monitoring for apnoea and bradycardia",
       },
       {
         id: "c",
-        text: "Maintain standard precautions only and treat with oral metronidazole",
+        text: "Standard precautions only, with oral metronidazole for 10 days, since the infant is already coughing",
       },
       {
         id: "d",
-        text: "Administer intramuscular penicillin G and avoid monitoring respiratory pattern",
+        text: "Intramuscular penicillin G, with routine observations only, since apnoea is uncommon after 4 months",
       },
     ],
     correctChoiceId: "b",
     rationale:
-      "Bordetella pertussis causes whooping cough, which in infants under 6 months presents with severe coughing spells, post-tussive cyanosis, apnoea, and bradycardia. Transmission occurs through large infectious respiratory droplets; the infant must be placed on droplet precautions until 5 days of effective macrolide therapy (such as azithromycin, 10 mg/kg on day 1, then 5 mg/kg on days 2–5) have been completed. Continuous cardiopulmonary and oxygen saturation monitoring is critical because infants are at high risk of sudden apnoea and death.",
+      "Bordetella pertussis causes whooping cough, which in infants under 6 months presents with severe coughing spells, post-tussive cyanosis, apnoea, and bradycardia. Transmission occurs through large infectious respiratory droplets; the infant must be placed on droplet precautions until 5 days of effective macrolide therapy (such as azithromycin, 10 mg/kg on day 1, then 5 mg/kg on days 2–5) have been completed. Continuous cardiopulmonary and oxygen saturation monitoring is critical because infants are at high risk of sudden apnoea and death. Why the other options fail: option a uses airborne isolation, which pertussis does not require, and ciprofloxacin, which is not the drug of choice in a 4-month-old. Option c uses standard precautions only and metronidazole, which does not cover Bordetella. Option d gives penicillin and abandons monitoring in the age group most likely to stop breathing.",
     strategy: "Pertussis management: Droplet precautions for 5 days of macrolide therapy (azithromycin). Monitor closely for apnoea and bradycardia in infants.",
     difficulty: "medium",
     tags: ["communicable-diseases", "pertussis", "whooping-cough", "azithromycin", "pediatrics"],
@@ -428,24 +428,24 @@ export const COMM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Suture the lacerations tightly with continuous silk sutures, apply herbal poultices, and give a single dose of tetanus toxoid only",
+        text: "Suture the lacerations tightly, apply a herbal poultice, and give a single dose of tetanus toxoid",
       },
       {
         id: "b",
-        text: "Administer high-dose intravenous dexamethasone and wait 10 days to see if the child develops hydrophobia",
+        text: "Give intravenous dexamethasone and observe for 10 days for signs of hydrophobia before treating",
       },
       {
         id: "c",
-        text: "Wash the wound immediately with soap, detergent, and copious running water for at least 15 minutes, infiltrate Rabies Immune Globulin (RIG) in and around the wound, and initiate the 4-dose rabies vaccination series (days 0, 3, 7, 14)",
+        text: "Wash with soap and running water for 15 minutes, infiltrate RIG around the wound, and vaccinate on days 0, 3, 7 and 14",
       },
       {
         id: "d",
-        text: "Clean the wound with dry cotton, avoid washing to prevent spreading virus, and administer oral amoxicillin",
+        text: "Clean with dry cotton without washing, so that the virus is not spread, and give oral amoxicillin",
       },
     ],
     correctChoiceId: "c",
     rationale:
-      "Rabies is virtually 100% fatal once clinical symptoms develop. Category III exposure (transdermal bites or scratches, licking of broken skin) mandates three immediate interventions: (1) immediate and vigorous washing of all bite wounds with soap, water, and povidone-iodine for at least 15 minutes (which physically removes and inactivates the envelope of the rabies virus); (2) prompt infiltration of Rabies Immune Globulin (RIG, 20 IU/kg) into and around the wound margins to provide immediate passive immunity; and (3) initiating the active cell-culture rabies vaccine series on days 0, 3, 7, and 14. Primary suturing of rabies wounds is contraindicated as it inoculates virus deeper into tissues.",
+      "Rabies is virtually 100% fatal once clinical symptoms develop. Category III exposure (transdermal bites or scratches, licking of broken skin) mandates three immediate interventions: (1) immediate and vigorous washing of all bite wounds with soap, water, and povidone-iodine for at least 15 minutes (which physically removes and inactivates the envelope of the rabies virus); (2) prompt infiltration of Rabies Immune Globulin (RIG, 20 IU/kg) into and around the wound margins to provide immediate passive immunity; and (3) initiating the active cell-culture rabies vaccine series on days 0, 3, 7, and 14. Primary suturing of rabies wounds is contraindicated as it inoculates virus deeper into tissues. Why the other options fail: option a sutures a contaminated bite and leaves the virus in the tissue without immunoglobulin or vaccine. Option b gives steroids, which are not indicated, and waits for the disease, which is almost always fatal once it starts. Option d avoids washing, which removes the one intervention with proven benefit.",
     strategy: "Rabies Category III PEP: Immediate 15-minute soap-and-water wash + infiltrate RIG around wound + complete 4-dose vaccine (0, 3, 7, 14). NEVER suture primarily.",
     difficulty: "easy",
     tags: ["communicable-diseases", "rabies", "zoonosis", "post-exposure-prophylaxis", "wound-care"],
@@ -475,7 +475,7 @@ export const COMM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "d",
     rationale:
-      "Lassa fever is an acute arenavirus viral haemorrhagic fever endemic to West Africa, transmitted via the multimammate rat (Mastomys natalensis) urine/faeces or human body fluids. Intravenous ribavirin is the specific, proven antiviral agent that significantly reduces mortality if initiated within the first 6 days of illness. In addition to ribavirin, strict viral haemorrhagic fever (VHF) barrier nursing precautions with impermeable personal protective equipment, fluid balance management, and avoidance of intramuscular injections are mandatory.",
+      "Lassa fever is an acute arenavirus viral haemorrhagic fever endemic to West Africa, transmitted via the multimammate rat (Mastomys natalensis) urine/faeces or human body fluids. Intravenous ribavirin is the specific, proven antiviral agent that significantly reduces mortality if initiated within the first 6 days of illness. In addition to ribavirin, strict viral haemorrhagic fever (VHF) barrier nursing precautions with impermeable personal protective equipment, fluid balance management, and avoidance of intramuscular injections are mandatory. Why the other options fail: option a treats influenza. Option b treats cytomegalovirus. Option c treats herpes simplex and varicella. None has activity against an arenavirus, and ribavirin is the only agent with a mortality benefit in Lassa fever.",
     strategy: "Lassa fever management: VHF barrier isolation + intravenous ribavirin started within the first 6 days of illness.",
     difficulty: "medium",
     tags: ["communicable-diseases", "lassa-fever", "haemorrhagic-fever", "ribavirin", "infection-control"],
@@ -488,24 +488,24 @@ export const COMM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Single dose of oral praziquantel 40 mg/kg administered immediately after food",
+        text: "A single oral dose of praziquantel 40 mg/kg, taken immediately after food",
       },
       {
         id: "b",
-        text: "Oral albendazole 400 mg twice daily for 28 days",
+        text: "Oral albendazole 400 mg twice daily for 28 days, which clears the flukes in the bladder wall",
       },
       {
         id: "c",
-        text: "Intramuscular benzathine penicillin every week for 3 weeks",
+        text: "Intramuscular benzathine penicillin weekly for 3 weeks, to sterilise the urinary tract",
       },
       {
         id: "d",
-        text: "Oral metronidazole 500 mg three times daily for 10 days",
+        text: "Oral metronidazole 500 mg three times daily for 10 days, which kills the adult worms",
       },
     ],
     correctChoiceId: "a",
     rationale:
-      "Schistosoma haematobium is a digenetic blood fluke inhabiting the vesical venous plexus of the bladder and pelvis, causing urinary schistosomiasis (bilharzia) characterized by terminal haematuria, dysuria, and bladder wall calcification (with long-term risk of squamous cell carcinoma of the bladder). Praziquantel at a single oral dose of 40 mg/kg taken after a meal is the drug of choice recommended by WHO and Ghana Health Service Neglected Tropical Disease (NTD) control programmes.",
+      "Schistosoma haematobium is a digenetic blood fluke inhabiting the vesical venous plexus of the bladder and pelvis, causing urinary schistosomiasis (bilharzia) characterized by terminal haematuria, dysuria, and bladder wall calcification (with long-term risk of squamous cell carcinoma of the bladder). Praziquantel at a single oral dose of 40 mg/kg taken after a meal is the drug of choice recommended by WHO and Ghana Health Service Neglected Tropical Disease (NTD) control programmes. Why the other options fail: option b is a deworming regimen that does not kill schistosomes. Option c treats syphilis. Option d treats anaerobic and protozoal infections but not the flukes in the vesical plexus.",
     strategy: "Schistosomiasis treatment: Oral praziquantel 40 mg/kg single dose taken after food cures both S. haematobium and S. mansoni.",
     difficulty: "easy",
     tags: ["communicable-diseases", "schistosomiasis", "bilharzia", "praziquantel", "ntd"],
@@ -518,24 +518,24 @@ export const COMM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Intravenous vancomycin for 5 days followed by oral cephalexin",
+        text: "Intravenous vancomycin for 5 days, followed by oral cephalexin, which covers the usual skin organisms",
       },
       {
         id: "b",
-        text: "Daily oral rifampicin (10 mg/kg) plus clarithromycin (7.5 mg/kg twice daily) for a total duration of 8 weeks, combined with wound care and limb physiotherapy",
+        text: "Rifampicin 10 mg/kg daily plus clarithromycin 7.5 mg/kg twice daily for 8 weeks, with wound care and physiotherapy",
       },
       {
         id: "c",
-        text: "Immediate total limb amputation to prevent systemic dissemination",
+        text: "Immediate above-knee amputation, to prevent systemic dissemination of the infection",
       },
       {
         id: "d",
-        text: "Oral fluconazole for 6 months without local wound dressings",
+        text: "Oral fluconazole for 6 months without local wound dressing, since the lesion is fungal in origin",
       },
     ],
     correctChoiceId: "b",
     rationale:
-      "Buruli ulcer is caused by Mycobacterium ulcerans, which produces the cytotoxic, immunosuppressive toxin mycolactone, leading to extensive painless necrotic skin ulceration with characteristic undermined edges. WHO and Ghana Health Service guidelines establish oral rifampicin (10 mg/kg once daily) combined with clarithromycin (7.5 mg/kg twice daily) for 8 weeks as the first-line treatment. This fully oral regimen has replaced older streptomycin injections. Early antimicrobial treatment combined with regular aseptic dressing and limb physiotherapy prevents joint contractures and disabling deformities.",
+      "Buruli ulcer is caused by Mycobacterium ulcerans, which produces the cytotoxic, immunosuppressive toxin mycolactone, leading to extensive painless necrotic skin ulceration with characteristic undermined edges. WHO and Ghana Health Service guidelines establish oral rifampicin (10 mg/kg once daily) combined with clarithromycin (7.5 mg/kg twice daily) for 8 weeks as the first-line treatment. This fully oral regimen has replaced older streptomycin injections. Early antimicrobial treatment combined with regular aseptic dressing and limb physiotherapy prevents joint contractures and disabling deformities. Why the other options fail: option a covers ordinary skin flora and does not touch Mycobacterium ulcerans. Option c amputates a limb that responds to oral therapy in 8 weeks, which is the outcome the regimen exists to prevent. Option d treats a fungal infection that the PCR has excluded.",
     strategy: "Buruli ulcer treatment: Oral rifampicin + clarithromycin daily for 8 weeks + daily aseptic dressings and physiotherapy to avoid contractures.",
     difficulty: "medium",
     tags: ["communicable-diseases", "buruli-ulcer", "mycobacterium-ulcerans", "rifampicin", "ntd"],
@@ -548,24 +548,24 @@ export const COMM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Administer intravenous loperamide and use alcohol-based hand rub between all patient contacts",
+        text: "Give intravenous loperamide and use alcohol rub between patients, since the diarrhoea is the main risk",
       },
       {
         id: "b",
-        text: "Switch to intravenous gentamicin and allow the patient to share a commode with roommates",
+        text: "Switch to intravenous gentamicin and let the patient share a commode, since the spores are not on the skin",
       },
       {
         id: "c",
-        text: "Place the patient on Contact Precautions, wash hands with soap and water (not alcohol rub), discontinue the offending antibiotics if possible, and initiate oral vancomycin or fidaxomicin",
+        text: "Contact precautions, hand washing with soap and water, stop the inciting antibiotics, and give oral vancomycin or fidaxomicin",
       },
       {
         id: "d",
-        text: "Place the patient in an airborne isolation room and administer oral amoxicillin",
+        text: "Airborne isolation with oral amoxicillin, since the spores become airborne during episodes of diarrhoea",
       },
     ],
     correctChoiceId: "c",
     rationale:
-      "Clostridioides difficile is an anaerobic, spore-forming bacillus that proliferates following broad-spectrum antimicrobial destruction of normal colonic flora. Spores are resistant to alcohol-based hand rubs; healthcare workers MUST wash hands thoroughly with soap and water to physically remove spores. The patient requires Contact Precautions (dedicated gown, gloves, dedicated equipment) and disinfection with 0.5% hypochlorite (bleach). Treatment entails discontinuing the inciting antibiotic and administering oral vancomycin (125 mg 4 times daily) or oral fidaxomicin. Antimotility agents are contraindicated as they cause toxic megacolon.",
+      "Clostridioides difficile is an anaerobic, spore-forming bacillus that proliferates following broad-spectrum antimicrobial destruction of normal colonic flora. Spores are resistant to alcohol-based hand rubs; healthcare workers MUST wash hands thoroughly with soap and water to physically remove spores. The patient requires Contact Precautions (dedicated gown, gloves, dedicated equipment) and disinfection with 0.5% hypochlorite (bleach). Treatment entails discontinuing the inciting antibiotic and administering oral vancomycin (125 mg 4 times daily) or oral fidaxomicin. Antimotility agents are contraindicated as they cause toxic megacolon. Why the other options fail: option a gives an antimotility drug, which risks toxic megacolon, and alcohol rub, which does not remove spores. Option b switches to a drug that does not treat C. difficile and shares a commode, which spreads spores. Option d uses airborne isolation for a contact organism and amoxicillin, which is one of the drugs that causes the disease.",
     strategy: "C. difficile protocol: Soap and water hand hygiene (NOT alcohol rub) + Contact Precautions + Oral vancomycin. Antimotility drugs are contraindicated.",
     difficulty: "medium",
     tags: ["communicable-diseases", "clostridioides-difficile", "antimicrobial-stewardship", "contact-precautions", "hand-hygiene"],
@@ -595,7 +595,7 @@ export const COMM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "d",
     rationale:
-      "Aluminium-adsorbed vaccines (such as DTP-HepB-Hib pentavalent, Tetanus-diphtheria/Td, and Hepatitis B) are irreversibly damaged when frozen. Freezing breaks the antigen-adjuvant lattice, causing the aluminium to form heavy, agglomerated granules that precipitate rapidly and lose immunogenicity while increasing local reactogenicity. The WHO Shake Test compares a suspected frozen vial with a known deliberately frozen control vial: if the test vial sediments as fast as or faster than the frozen control (clearing within 15–30 minutes), the vaccine has been freeze-damaged and must be discarded.",
+      "Aluminium-adsorbed vaccines (such as DTP-HepB-Hib pentavalent, Tetanus-diphtheria/Td, and Hepatitis B) are irreversibly damaged when frozen. Freezing breaks the antigen-adjuvant lattice, causing the aluminium to form heavy, agglomerated granules that precipitate rapidly and lose immunogenicity while increasing local reactogenicity. The WHO Shake Test compares a suspected frozen vial with a known deliberately frozen control vial: if the test vial sediments as fast as or faster than the frozen control (clearing within 15–30 minutes), the vaccine has been freeze-damaged and must be discarded. Why the other options fail: option a is used to check acidity, which is not what freezing changes. Option b cultures for sterility, which freezing does not necessarily breach. Option c measures urine density and has nothing to do with vaccines. Only the shake test detects the agglutination of aluminium adjuvant that freezing causes.",
     strategy: "Vaccine cold chain safety: The Shake Test is the validated WHO method to detect irreversible freeze damage in aluminium-adsorbed vaccines.",
     difficulty: "easy",
     tags: ["communicable-diseases", "cold-chain", "shake-test", "vaccines", "epi"],
