@@ -8,24 +8,24 @@ export const GERO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Age-related decline in immune and thermoregulatory reserves leads to atypical presentations of infection, where acute delirium and falls often manifest before fever or localizing symptoms",
+        text: "Blunted immune and thermoregulatory responses mean infection can present as delirium and falls before fever appears",
       },
       {
         id: "b",
-        text: "The patient is experiencing normal, expected cognitive deterioration inherent to chronological ageing",
+        text: "Normal cognitive ageing, because memory and orientation decline steadily and falls become more common in the eighties",
       },
       {
         id: "c",
-        text: "The patient is feigning confusion to receive extra attention from nursing staff",
+        text: "Anxiety related to the move into residential care, since disorientation and falls often follow a change of environment",
       },
       {
         id: "d",
-        text: "A normal body temperature of 36.6 °C completely excludes any systemic bacterial infection",
+        text: "An absence of infection, because a temperature of 36.6 C makes a urinary tract infection unlikely in an older adult",
       },
     ],
     correctChoiceId: "a",
     rationale:
-      "A hallmark of geriatric medicine is atypical presentation of illness. In older adults, blunted hypothalamic thermoregulation, decreased interleukin/cytokine response, and diminished physiological reserve often prevent the development of a classic febrile response. Consequently, common infections (such as urinary tract infections or pneumonia) frequently present without fever or tachypnoea, instead manifesting as acute delirium, functional decline, anorexia, lethargy, or new-onset falls ('off legs'). The nurse must recognize sudden acute confusion in an elder as an emergency medical trigger until proven otherwise.",
+      "A hallmark of geriatric medicine is atypical presentation of illness. In older adults, blunted hypothalamic thermoregulation, decreased interleukin/cytokine response, and diminished physiological reserve often prevent the development of a classic febrile response. Consequently, common infections (such as urinary tract infections or pneumonia) frequently present without fever or tachypnoea, instead manifesting as acute delirium, functional decline, anorexia, lethargy, or new-onset falls ('off legs'). The nurse must recognize sudden acute confusion in an elder as an emergency medical trigger until proven otherwise. Why the other options fail: option b treats a change that happened in a day as normal ageing, when normal ageing does not produce acute confusion, and delirium is a medical emergency. Option c attributes the presentation to attention-seeking, which no assessment finding supports and which delays treatment of an infection. Option d treats a normal temperature as proof against infection, when blunted thermoregulation is precisely why older adults do not mount a fever.",
     strategy: "Atypical presentation in elders: Blunted febrile response means infections often present as acute delirium, functional decline, or falls rather than fever.",
     difficulty: "easy",
     tags: ["gerontology", "atypical-presentation", "delirium", "urinary-tract-infection", "ageing-physiology"],
@@ -38,24 +38,24 @@ export const GERO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Use a high-pitched, sing-song voice and refer to the client as 'sweetie' and 'grandma' to comfort them",
+        text: "Use a high-pitched, sing-song voice and call the client sweetie or grandma, because warmth and familiarity aid comprehension",
       },
       {
         id: "b",
-        text: "Face the client directly at eye level in good lighting, minimize background noise, speak clearly in a normal conversational volume with a lower pitch, and confirm understanding",
+        text: "Face the client at eye level in good light, reduce background noise, speak clearly at a normal volume in a lower pitch, and check understanding",
       },
       {
         id: "c",
-        text: "Shout loudly directly into the client's ear canal while standing behind them",
+        text: "Raise your voice and stand behind the client, since speaking loudly into the better ear compensates for high-frequency loss",
       },
       {
         id: "d",
-        text: "Direct all communication exclusively to the client's adult children without addressing the client",
+        text: "Ask the client's adult children what is needed and address replies to them, so that information is not misunderstood",
       },
     ],
     correctChoiceId: "b",
     rationale:
-      "Presbycusis involves progressive loss of high-frequency hearing and impaired speech discrimination. Shouting or using high-pitched sing-song tones ('elderspeak') actually distorts sound frequencies and is patronizing, causing diminished self-esteem. Therapeutic communication requires facing the patient directly so visual lip-reading cues can assist, ensuring good lighting, reducing ambient noise, and speaking clearly in a deeper (lower-pitched), normal-volume voice. Elderspeak (e.g., using terms like 'sweetie', 'honey', using collective pronouns like 'did we take our pills?') is an insidious form of ageism associated with increased resistance to care.",
+      "Presbycusis involves progressive loss of high-frequency hearing and impaired speech discrimination. Shouting or using high-pitched sing-song tones ('elderspeak') actually distorts sound frequencies and is patronizing, causing diminished self-esteem. Therapeutic communication requires facing the patient directly so visual lip-reading cues can assist, ensuring good lighting, reducing ambient noise, and speaking clearly in a deeper (lower-pitched), normal-volume voice. Elderspeak (e.g., using terms like 'sweetie', 'honey', using collective pronouns like 'did we take our pills?') is an insidious form of ageism associated with increased resistance to care. Why the other options fail: option a uses the high-pitched voice and the endearments that define elderspeak, both of which distort speech and reduce the client to a child. Option c shouts from behind, which removes the lip-reading and visual cues she depends on and distorts the sound further. Option d removes the client from the conversation altogether, which is exclusion rather than a communication strategy.",
     strategy: "Geriatric communication: Face directly at eye level, reduce ambient noise, lower voice pitch (not volume/shouting), and NEVER use patronizing elderspeak.",
     difficulty: "easy",
     tags: ["gerontology", "communication", "presbycusis", "elderspeak", "ageism"],
@@ -68,24 +68,24 @@ export const GERO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Transferring independently from a bed into an armchair",
+        text: "Transferring independently from bed to armchair, using a frame or the bed rail",
       },
       {
         id: "b",
-        text: "Bathing oneself safely in the shower",
+        text: "Bathing safely in the shower without help, once grab rails have been fitted",
       },
       {
         id: "c",
-        text: "Managing financial affairs, balancing a chequebook, and handling monthly utility bills",
+        text: "Managing finances, balancing a chequebook and paying monthly utility bills",
       },
       {
         id: "d",
-        text: "Maintaining urinary and fecal continence",
+        text: "Maintaining urinary and faecal continence through the day and night",
       },
     ],
     correctChoiceId: "c",
     rationale:
-      "Basic Activities of Daily Living (ADLs, measured by the Katz Index) encompass fundamental self-care tasks essential for survival: bathing, dressing, toileting, transferring, continence, and feeding. In contrast, Instrumental Activities of Daily Living (IADLs, measured by the Lawton scale) require higher-order executive functioning and neuropsychological integration to live independently in the community: managing finances, using the telephone, shopping, meal preparation, housekeeping, laundry, transportation, and managing medications. Loss of IADLs typically occurs before loss of basic ADLs in progressive cognitive decline.",
+      "Basic Activities of Daily Living (ADLs, measured by the Katz Index) encompass fundamental self-care tasks essential for survival: bathing, dressing, toileting, transferring, continence, and feeding. In contrast, Instrumental Activities of Daily Living (IADLs, measured by the Lawton scale) require higher-order executive functioning and neuropsychological integration to live independently in the community: managing finances, using the telephone, shopping, meal preparation, housekeeping, laundry, transportation, and managing medications. Loss of IADLs typically occurs before loss of basic ADLs in progressive cognitive decline. Why the other options fail: option a is a basic ADL, transferring on the Katz index. Option b is a basic ADL, bathing. Option d is a basic ADL, continence. All three are self-care tasks needed for survival and none requires the executive planning that defines an instrumental activity.",
     strategy: "ADLs vs IADLs: Basic ADLs = fundamental self-care (bathing, feeding, toileting). IADLs = community living skills (finances, cooking, phone, medications).",
     difficulty: "easy",
     tags: ["gerontology", "geriatric-assessment", "adls", "iadls", "functional-assessment"],
@@ -98,24 +98,24 @@ export const GERO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "A time of 19 seconds represents superior athletic agility; discharge without walking aids",
+        text: "Under 20 seconds is normal for a client of this age, so reassure her and give no walking aid until the time exceeds 30 seconds",
       },
       {
         id: "b",
-        text: "The test indicates severe paralysis; immediately place the client on total bed rest with bilateral wrist restraints",
+        text: "The result is not interpretable without knowing her gait speed, so repeat the test on three separate mornings before acting",
       },
       {
         id: "c",
-        text: "The test is invalid unless repeated exactly 10 times consecutively on the same morning",
+        text: "Nineteen seconds indicates a low risk of falling, because the threshold for referral is 30 seconds in community-dwelling elders",
       },
       {
         id: "d",
-        text: "A completion time greater than 12 seconds indicates high fall risk; initiate a multifactorial fall prevention bundle including medication review, physical therapy for balance, and home hazard modification",
+        text: "Over 12 seconds means high fall risk; begin a multifactorial bundle: medication review, balance training and home hazard modification",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "The Timed Up and Go (TUG) test is a validated clinical screening tool for balance, gait speed, and fall risk in older adults. Most community-dwelling older adults complete the TUG in under 10–12 seconds. A score of >= 12 seconds (or >= 14 seconds depending on guideline cutoff) indicates clinically significant gait instability, frailty, and high risk of falling. Interventions must be multifactorial: comprehensive medication review (especially psychotropics and antihypertensives), referral to physical therapy for balance/strength training, environmental hazard abatement (loose rugs, grab bars), and proper walking aid fitting.",
+      "The Timed Up and Go (TUG) test is a validated clinical screening tool for balance, gait speed, and fall risk in older adults. Most community-dwelling older adults complete the TUG in under 10–12 seconds. A score of >= 12 seconds (or >= 14 seconds depending on guideline cutoff) indicates clinically significant gait instability, frailty, and high risk of falling. Interventions must be multifactorial: comprehensive medication review (especially psychotropics and antihypertensives), referral to physical therapy for balance/strength training, environmental hazard abatement (loose rugs, grab bars), and proper walking aid fitting. Why the other options fail: option a inverts the threshold and would delay a walking aid for a client who is already slow. Option b invents a repeat-testing requirement, when the TUG is validated as a single measurement. Option c quotes a 30-second threshold that belongs to no version of the test, and would reassure a client who needs intervention now.",
     strategy: "TUG test: Scores >= 12 seconds indicate high fall risk requiring a multifactorial fall prevention bundle. Never restrict mobility with bed rest.",
     difficulty: "medium",
     tags: ["gerontology", "fall-risk", "tug-test", "mobility", "fall-prevention"],
@@ -128,24 +128,24 @@ export const GERO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Provide high-protein (1.2 to 1.5 g/kg/day), energy-dense small frequent meals, incorporate oral nutritional supplements between meals, and address dental/chewing barriers",
+        text: "High-protein energy-dense meals in small frequent portions, oral supplements between meals, and treatment of dental or denture problems",
       },
       {
         id: "b",
-        text: "Prescribe strict calorie restriction and low-protein vegetarian broths to protect renal glomeruli",
+        text: "A low-protein, calorie-restricted diet to protect the glomeruli from hyperfiltration, with protein given mainly as clear broth",
       },
       {
         id: "c",
-        text: "Immediately insert a permanent percutaneous endoscopic gastrostomy (PEG) feeding tube without attempting oral feeding",
+        text: "A trial of oral feeding for 2 weeks, then a percutaneous endoscopic gastrostomy if the weight continues to fall",
       },
       {
         id: "d",
-        text: "Advise the client to drink 2 liters of plain water before each meal to expand stomach volume",
+        text: "Two litres of water before each meal to distend the stomach, which is the standard first step for weight loss in older adults",
       },
     ],
     correctChoiceId: "a",
     rationale:
-      "Involuntary weight loss and sarcopenia in older adults lead to immune dysfunction, pressure injuries, fall-related fractures, and increased mortality. Age-related anabolic resistance requires higher protein intake (1.2–1.5 g/kg/day in older adults with acute or chronic illness, compared to 0.8 g/kg in younger adults) along with progressive resistance exercises. Strategies include: energy- and protein-dense foods (eggs, milk, groundnut paste, fish), small frequent meals, pleasant dining environments, oral nutritional supplements between meals (so appetite for regular meals is not blunted), and inspecting the oral cavity for poorly fitting dentures or stomatitis.",
+      "Involuntary weight loss and sarcopenia in older adults lead to immune dysfunction, pressure injuries, fall-related fractures, and increased mortality. Age-related anabolic resistance requires higher protein intake (1.2–1.5 g/kg/day in older adults with acute or chronic illness, compared to 0.8 g/kg in younger adults) along with progressive resistance exercises. Strategies include: energy- and protein-dense foods (eggs, milk, groundnut paste, fish), small frequent meals, pleasant dining environments, oral nutritional supplements between meals (so appetite for regular meals is not blunted), and inspecting the oral cavity for poorly fitting dentures or stomatitis. Why the other options fail: option b prescribes the opposite of what sarcopenia needs, and protein restriction accelerates muscle loss. Option c moves to tube feeding before oral strategies have been tried, which guidelines reserve for their failure. Option d fills the stomach with water before meals, which reduces intake in a client whose intake is already inadequate.",
     strategy: "Geriatric malnutrition & sarcopenia: Higher protein needs (1.2-1.5 g/kg/day) + small frequent energy-dense meals + check oral/denture health.",
     difficulty: "medium",
     tags: ["gerontology", "nutrition", "sarcopenia", "weight-loss", "frailty"],
@@ -158,24 +158,24 @@ export const GERO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Insidious onset (months to years) with progressive memory loss and clear consciousness throughout early stages",
+        text: "Insidious onset over months to years with progressive memory loss and clear consciousness until the late stages",
       },
       {
         id: "b",
-        text: "Acute onset (hours to days) with a fluctuating course, marked inattention, and altered level of consciousness triggered by an underlying medical condition",
+        text: "Acute onset over hours to days, a fluctuating course, marked inattention and altered consciousness, triggered by a medical cause",
       },
       {
         id: "c",
-        text: "Subacute onset accompanied by prominent feelings of worthlessness, slowed speech, and answering 'I don't know' on cognitive tests",
+        text: "Subacute onset with prominent worthlessness, slowed speech and 'I don't know' answers on cognitive testing",
       },
       {
         id: "d",
-        text: "Permanent irreversible brain atrophy that never resolves with treatment",
+        text: "A permanent and irreversible decline in cognition that does not resolve when the underlying illness is treated",
       },
     ],
     correctChoiceId: "b",
     rationale:
-      "Differentiating the '3 Ds' is critical in gerontological nursing: Delirium has an ACUTE onset (hours to days), a fluctuating course throughout the day, altered level of consciousness (hyperactive, hypoactive, or mixed), severe inattention, and is a medical emergency caused by reversible underlying physiological insults (infection, medications, hypoxia, electrolyte shifts). In contrast, Dementia has an INSIDIOUS, gradual onset (months to years), progressive decline in memory and executive function, with preserved alertness until late stages. Depression has a subacute onset, prominent dysphoria, vegetative signs, and clients often answer cognitive questions with 'I don't know' (pseudodementia).",
+      "Differentiating the '3 Ds' is critical in gerontological nursing: Delirium has an ACUTE onset (hours to days), a fluctuating course throughout the day, altered level of consciousness (hyperactive, hypoactive, or mixed), severe inattention, and is a medical emergency caused by reversible underlying physiological insults (infection, medications, hypoxia, electrolyte shifts). In contrast, Dementia has an INSIDIOUS, gradual onset (months to years), progressive decline in memory and executive function, with preserved alertness until late stages. Depression has a subacute onset, prominent dysphoria, vegetative signs, and clients often answer cognitive questions with 'I don't know' (pseudodementia). Why the other options fail: option a describes dementia, with its insidious onset and preserved consciousness until late. Option c describes depression, with its subacute onset, worthlessness and 'I don't know' answers. Option d gives permanence, which is the opposite of delirium's defining reversibility.",
     strategy: "The 3 Ds: Delirium = Acute + Fluctuating + Altered consciousness/inattention. Dementia = Insidious + Progressive + Clear consciousness.",
     difficulty: "easy",
     tags: ["gerontology", "delirium", "dementia", "depression", "3-ds"],
@@ -188,24 +188,24 @@ export const GERO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Apply bilateral wrist restraints tightly to the bed rails to prevent dislodging lines",
+        text: "Apply bilateral wrist restraints to the bed rails, releasing them every 2 hours, to protect the cannula and prevent a fall",
       },
       {
         id: "b",
-        text: "Administer high-dose intravenous lorazepam every 2 hours without investigating underlying physiological triggers",
+        text: "Give intravenous lorazepam every 2 hours until the agitation settles, then review the precipitating cause",
       },
       {
         id: "c",
-        text: "Assign a continuous one-on-one companion, provide gentle reorientation, ensure sensory aids (glasses and hearing aids) are in place, treat pain and urinary retention, and avoid physical restraints",
+        text: "Assign one-to-one supervision, reorient gently, replace glasses and hearing aids, treat pain and retention, and avoid restraints",
       },
       {
         id: "d",
-        text: "Turn off all room lights and close the door completely to isolate the client from stimulation",
+        text: "Dim the room and close the door to reduce stimulation, and nurse the client in a side room away from the desk",
       },
     ],
     correctChoiceId: "c",
     rationale:
-      "Physical restraints are strictly contraindicated as first-line management in delirium; they increase agitation, injury, strangulation, pressure ulcers, and functional decline. Evidence-based delirium care prioritizes multicomponent non-pharmacological interventions: one-on-one observation/family presence, frequent gentle reorientation, using sensory aids (glasses, hearing aids), early mobilization, optimizing hydration, assessing for constipation or urinary retention, treating uncontrolled pain (a major delirium driver), and avoiding deliriogenic medications (such as benzodiazepines and anticholinergics).",
+      "Physical restraints are strictly contraindicated as first-line management in delirium; they increase agitation, injury, strangulation, pressure ulcers, and functional decline. Evidence-based delirium care prioritizes multicomponent non-pharmacological interventions: one-on-one observation/family presence, frequent gentle reorientation, using sensory aids (glasses, hearing aids), early mobilization, optimizing hydration, assessing for constipation or urinary retention, treating uncontrolled pain (a major delirium driver), and avoiding deliriogenic medications (such as benzodiazepines and anticholinergics). Why the other options fail: option a uses physical restraint, which is contraindicated in delirium and increases agitation, injury and strangulation. Option b sedates a client whose delirium has an untreated cause, and benzodiazepines are themselves deliriogenic. Option d isolates a client who needs supervision and orientation, and removes the sensory cues that keep him oriented.",
     strategy: "Delirium management: NEVER restrain (escalates agitation). Reorient, place glasses/hearing aids, treat pain/retention, ensure continuous companion.",
     difficulty: "medium",
     tags: ["gerontology", "delirium", "restraint-reduction", "post-op-care", "non-pharmacological"],
@@ -218,24 +218,24 @@ export const GERO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Keep the client in bed all day in a dark room so they will sleep through the evening",
+        text: "Keep the client in bed in a darkened room during the day, so that sleep pressure builds and the evening restlessness settles",
       },
       {
         id: "b",
-        text: "Give the client caffeinated beverages in the late afternoon to keep them alert",
+        text: "Offer tea or coffee in the late afternoon to keep the client alert, so that agitation does not build before bedtime",
       },
       {
         id: "c",
-        text: "Confront and argue with the client's hallucinations to re-establish objective reality",
+        text: "Correct the hallucinations firmly each time they occur, so that the client learns to distinguish them from reality",
       },
       {
         id: "d",
-        text: "Maximize daytime sunlight exposure, maintain a predictable daily routine, turn on indoor lights before dusk, and create a calm evening environment with soothing music and reduced noise",
+        text: "Maximise morning daylight, keep a predictable routine, light the room before dusk, and keep evenings calm with music and low noise",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "Sundowning is a circadian rhythm disruption common in dementia, characterized by worsening confusion, agitation, and motor restlessness in the late afternoon and evening. Effective non-pharmacological interventions include: (1) maximizing exposure to bright natural sunlight in the morning to stabilize the circadian pacemaker; (2) maintaining a consistent, structured daily schedule for meals, exercise, and activities; (3) turning on indoor lighting before sunset to prevent shadows and perceptual illusions; (4) minimizing evening noise and visitors; and (5) avoiding caffeine or daytime napping. Arguing with hallucinations triggers catastrophic emotional reactions.",
+      "Sundowning is a circadian rhythm disruption common in dementia, characterized by worsening confusion, agitation, and motor restlessness in the late afternoon and evening. Effective non-pharmacological interventions include: (1) maximizing exposure to bright natural sunlight in the morning to stabilize the circadian pacemaker; (2) maintaining a consistent, structured daily schedule for meals, exercise, and activities; (3) turning on indoor lighting before sunset to prevent shadows and perceptual illusions; (4) minimizing evening noise and visitors; and (5) avoiding caffeine or daytime napping. Arguing with hallucinations triggers catastrophic emotional reactions. Why the other options fail: option a removes daytime light and activity, which weakens the circadian signal and makes the evening worse. Option b adds a stimulant at the time of day the client is already over-aroused. Option c confronts the hallucination, which provokes a catastrophic reaction in a client who cannot test reality.",
     strategy: "Sundowning interventions: Morning sunlight, turn on lights BEFORE sunset, structured routine, calm quiet evening, avoid confrontation.",
     difficulty: "easy",
     tags: ["gerontology", "alzheimers", "sundowning", "dementia", "circadian-rhythm"],
@@ -265,7 +265,7 @@ export const GERO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "a",
     rationale:
-      "A prescribing cascade occurs when an adverse drug effect is misinterpreted as a new, unrelated medical condition, prompting the prescription of a second medication to treat the side effect of the first. The second drug exposes the vulnerable older adult to additional adverse effects and drug interactions (e.g., amlodipine peripheral vasodilation edema -> furosemide added -> hypokalaemia/dehydration -> orthostatic fall). The gerontological nurse must always consider: 'Could this new symptom be an adverse effect of an existing medication?' before accepting a new diagnosis and additional prescriptions.",
+      "A prescribing cascade occurs when an adverse drug effect is misinterpreted as a new, unrelated medical condition, prompting the prescription of a second medication to treat the side effect of the first. The second drug exposes the vulnerable older adult to additional adverse effects and drug interactions (e.g., amlodipine peripheral vasodilation edema -> furosemide added -> hypokalaemia/dehydration -> orthostatic fall). The gerontological nurse must always consider: 'Could this new symptom be an adverse effect of an existing medication?' before accepting a new diagnosis and additional prescriptions. Why the other options fail: option b is loss of response to a drug over time, which is not what happened here. Option c is an immune-mediated reaction, whereas ankle oedema from amlodipine is a predictable pharmacological effect. Option d concerns the fraction of a dose reaching the circulation after first-pass metabolism, which does not explain a new diagnosis and a second drug.",
     strategy: "Prescribing cascade: When a drug side effect is misdiagnosed as a new illness and treated with another drug. Always review the drug chart first.",
     difficulty: "easy",
     tags: ["gerontology", "polypharmacy", "prescribing-cascade", "medication-safety", "pharmacology"],
@@ -278,24 +278,24 @@ export const GERO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Diazepam causes immediate, irreversible renal cortical necrosis in older adults",
+        text: "Diazepam is renally cleared, and reduced renal blood flow in older adults allows the drug to reach toxic concentrations within one dose",
       },
       {
         id: "b",
-        text: "Long-acting benzodiazepines have prolonged half-lives in older adults due to increased volume of distribution and decreased hepatic clearance, causing severe daytime sedation, ataxia, cognitive impairment, and hip fractures",
+        text: "Long-acting benzodiazepines accumulate in older adults because fat mass is higher and hepatic clearance is lower, causing sedation, ataxia and fractures",
       },
       {
         id: "c",
-        text: "Benzodiazepines are rapidly metabolized in older adults, rendering them completely ineffective",
+        text: "Older adults metabolise benzodiazepines faster, so a 5 mg dose is ineffective and a higher dose would be needed for sleep",
       },
       {
         id: "d",
-        text: "Diazepam produces severe acute hyperthermia and malignant hypertension",
+        text: "Diazepam causes acute hyperthermia and malignant hypertension in older adults, which is why it is listed as potentially inappropriate",
       },
     ],
     correctChoiceId: "b",
     rationale:
-      "The Beers Criteria strongly advises against using benzodiazepines (especially long-acting agents like diazepam, flurazepam, or chlordiazepoxide) for insomnia in older adults. Age-related changes in body composition (increased proportion of body fat, decreased body water) expand the volume of distribution for lipid-soluble drugs, while reduced hepatic cytochrome P450 oxidation dramatically prolongs elimination half-lives (diazepam's half-life can exceed 100 hours in frail elders). This leads to accumulation, prolonged hangover sedation, impaired motor coordination, confusion, and more than a twofold increased risk of falls and hip fractures.",
+      "The Beers Criteria strongly advises against using benzodiazepines (especially long-acting agents like diazepam, flurazepam, or chlordiazepoxide) for insomnia in older adults. Age-related changes in body composition (increased proportion of body fat, decreased body water) expand the volume of distribution for lipid-soluble drugs, while reduced hepatic cytochrome P450 oxidation dramatically prolongs elimination half-lives (diazepam's half-life can exceed 100 hours in frail elders). This leads to accumulation, prolonged hangover sedation, impaired motor coordination, confusion, and more than a twofold increased risk of falls and hip fractures. Why the other options fail: option a invents an irreversible renal injury that diazepam does not cause and places the clearance in the wrong organ. Option c reverses the pharmacokinetics, since clearance falls rather than rises with age. Option d attributes hyperthermia and malignant hypertension to a drug whose toxicity is sedation, ataxia and respiratory depression.",
     strategy: "Beers criteria & benzodiazepines: Lipid-soluble long-acting drugs linger for days in older bodies, causing daytime ataxia, confusion, and hip fractures.",
     difficulty: "medium",
     tags: ["gerontology", "beers-criteria", "benzodiazepines", "polypharmacy", "fall-risk"],
@@ -308,24 +308,24 @@ export const GERO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "A serum creatinine of 0.8 mg/dL always reflects hyperactive, superior renal filtration",
+        text: "A creatinine of 0.8 mg/dL confirms normal filtration in this client, so the standard dose can be given without adjustment",
       },
       {
         id: "b",
-        text: "Enoxaparin is solely eliminated by hepatic biliary excretion and unaffected by kidney function",
+        text: "Enoxaparin is cleared by the liver and bile, so renal function does not influence its dose or accumulation",
       },
       {
         id: "c",
-        text: "In frail older adults with reduced skeletal muscle mass (sarcopenia), serum creatinine is falsely low despite significant age-related decline in glomerular filtration, masking severe renal impairment",
+        text: "Reduced muscle mass lowers creatinine production, so a normal creatinine can hide a substantially reduced glomerular filtration rate",
       },
       {
         id: "d",
-        text: "Normal creatinine values indicate that the client requires twice the standard therapeutic dose",
+        text: "A normal creatinine means the dose should be doubled, because low muscle mass also lowers the volume of distribution",
       },
     ],
     correctChoiceId: "c",
     rationale:
-      "Creatinine is an endogenous breakdown product of skeletal muscle. In frail, sarcopenic older adults, muscle mass is markedly reduced; therefore, baseline creatinine production is very low. Even when Glomerular Filtration Rate (GFR) drops by 50% or more due to normal renal ageing, serum creatinine may remain within 'normal' reference limits (e.g., 0.8 mg/dL). Clinicians who rely solely on serum creatinine overlook severe renal impairment. Calculating CrCl using the Cockcroft-Gault formula reveals the true impairment, avoiding fatal accumulation of renally cleared drugs like enoxaparin, digoxin, and aminoglycosides.",
+      "Creatinine is an endogenous breakdown product of skeletal muscle. In frail, sarcopenic older adults, muscle mass is markedly reduced; therefore, baseline creatinine production is very low. Even when Glomerular Filtration Rate (GFR) drops by 50% or more due to normal renal ageing, serum creatinine may remain within 'normal' reference limits (e.g., 0.8 mg/dL). Clinicians who rely solely on serum creatinine overlook severe renal impairment. Calculating CrCl using the Cockcroft-Gault formula reveals the true impairment, avoiding fatal accumulation of renally cleared drugs like enoxaparin, digoxin, and aminoglycosides. Why the other options fail: option a reads a single normal value as proof of normal filtration, which is the error the item tests. Option b is wrong about the route, since enoxaparin is renally cleared and accumulates in renal impairment. Option d doubles a dose on the strength of a value that may be masking impairment, which would increase the risk of bleeding.",
     strategy: "Geriatric renal clearance: Sarcopenia masks renal impairment with falsely normal serum creatinine. Always calculate CrCl (Cockcroft-Gault) for drug dosing.",
     difficulty: "hard",
     tags: ["gerontology", "pharmacology", "renal-clearance", "sarcopenia", "creatinine-clearance"],
@@ -338,24 +338,24 @@ export const GERO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Ignore the situation because family domestic care is strictly private and protected from health worker interference",
+        text: "Respect the family's privacy, record the observations without comment, and raise the concern at the next routine review, since the caregiver is present",
       },
       {
         id: "b",
-        text: "Confront the caregiver with verbal insults and physically remove the elder without official authorization",
+        text: "Remove the elder to a place of safety immediately and without notifying any authority, because the danger to her is obvious",
       },
       {
         id: "c",
-        text: "Advise the caregiver to lock the elder in a back bedroom to avoid social embarrassment",
+        text: "Confront the caregiver, demand return of the pension and give 24 hours to clean the room before deciding whether to report",
       },
       {
         id: "d",
-        text: "Provide immediate wound care and hydration, document all objective physical and environmental findings in detail, and report suspected elder neglect and financial exploitation to the Social Welfare Department and protective authorities",
+        text: "Give wound care and fluids, document the findings, and report suspected neglect and financial exploitation to social welfare and adult protection",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "Nurses have a legal, ethical, and professional duty as mandated reporters of suspected elder abuse and neglect. The physical signs (multiple severe pressure ulcers, fecal soiling, emaciation, dehydration) demonstrate severe neglect (the failure of a caregiver to provide necessary food, shelter, hygiene, or medical care). Diverting the client's pension constitutes financial exploitation. The nurse's immediate actions are: (1) provide emergency clinical stabilization (first aid, wound cleansing, hydration); (2) objectively photograph (with consent) and document injuries; and (3) notify the Department of Social Welfare and adult protective authorities.",
+      "Nurses have a legal, ethical, and professional duty as mandated reporters of suspected elder abuse and neglect. The physical signs (multiple severe pressure ulcers, fecal soiling, emaciation, dehydration) demonstrate severe neglect (the failure of a caregiver to provide necessary food, shelter, hygiene, or medical care). Diverting the client's pension constitutes financial exploitation. The nurse's immediate actions are: (1) provide emergency clinical stabilization (first aid, wound cleansing, hydration); (2) objectively photograph (with consent) and document injuries; and (3) notify the Department of Social Welfare and adult protective authorities. Why the other options fail: option a defers a mandated report to a routine review and leaves the client in danger. Option b removes the client without notifying anyone, which bypasses the protective authorities the nurse is required to involve. Option c negotiates with the caregiver and delays the report, giving time for evidence to be lost and for retaliation against the client.",
     strategy: "Elder abuse & neglect: Mandated reporting obligation. Provide immediate clinical care -> Document objective findings -> Report to Social Welfare.",
     difficulty: "easy",
     tags: ["gerontology", "elder-abuse", "neglect", "social-welfare", "ethics"],
@@ -368,24 +368,24 @@ export const GERO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Respect the client's autonomous choice, conduct a collaborative risk-enablement assessment, implement safety measures (physical therapy supervision, non-skid footwear), and educate the son that restraining a capacitous adult is unlawful",
+        text: "Respect his decision, reduce the risk with supervision, physiotherapy and non-skid footwear, and explain that restraining a capacitous adult is unlawful",
       },
       {
         id: "b",
-        text: "Follow the son's instructions and lock the wheelchair belt because family wishes override client decisions",
+        text: "Follow the son's instruction and belt him into the wheelchair, because a concerned family member may consent to restraint on the client's behalf",
       },
       {
         id: "c",
-        text: "Administer a chemical sedative so the client forgets his desire to ambulate",
+        text: "Convene a best-interest meeting and keep him in the wheelchair until the meeting agrees that he may walk again",
       },
       {
         id: "d",
-        text: "Discharge the client immediately for non-compliance with the son's safety preferences",
+        text: "Ask him to sign a form accepting all risk, then allow walking only when his son is not on the unit to see it",
       },
     ],
     correctChoiceId: "a",
     rationale:
-      "A cognitively competent adult possesses the legal and ethical right to make autonomous decisions regarding their body and mobility, including accepting reasonable, informed risks (risk enablement/dignity of risk). Relatives cannot override the capacitous choices of an adult. Enclosing the client in a wheelchair with a belt constitutes unlawful physical restraint (false imprisonment). The nurse acts as patient advocate: respects the client's autonomy, implements risk-reduction strategies (physical therapy, balance training, escort supervision), and educates the family on the hazards of forced immobility (deconditioning, depression, contractures).",
+      "A cognitively competent adult possesses the legal and ethical right to make autonomous decisions regarding their body and mobility, including accepting reasonable, informed risks (risk enablement/dignity of risk). Relatives cannot override the capacitous choices of an adult. Enclosing the client in a wheelchair with a belt constitutes unlawful physical restraint (false imprisonment). The nurse acts as patient advocate: respects the client's autonomy, implements risk-reduction strategies (physical therapy, balance training, escort supervision), and educates the family on the hazards of forced immobility (deconditioning, depression, contractures). Why the other options fail: option b lets a relative consent to restraint on behalf of a capacitous adult, which no relative can do. Option c defers the decision to a meeting while the restraint continues, which is detention by another name. Option d makes walking conditional on his son's absence, conceding the autonomy the nurse is meant to protect.",
     strategy: "Autonomy vs Beneficence: Competent adults have the right to informed risk (dignity of risk). Relatives cannot mandate physical restraints.",
     difficulty: "medium",
     tags: ["gerontology", "ethics", "autonomy", "dignity-of-risk", "restraint-free"],
@@ -398,24 +398,24 @@ export const GERO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "PEG tube feeding is mandatory in all dementia patients to guarantee longevity and cure swallowing impairment",
+        text: "Place the PEG now, because tube feeding is the only way to prevent aspiration in a client who coughs on all oral intake",
       },
       {
         id: "b",
-        text: "Evidence shows that PEG tubes in advanced dementia do NOT prevent aspiration pneumonia, prolong life, or improve quality of life; recommend gentle, comfort-focused oral assisted feeding and palliative mouth care",
+        text: "PEG feeding does not prevent aspiration, prolong life or improve comfort in advanced dementia; offer careful hand feeding and mouth care",
       },
       {
         id: "c",
-        text: "PEG tubes completely eliminate the physiological risk of bacterial pneumonia",
+        text: "Place the PEG, because it removes the risk of aspiration pneumonia by bypassing the pharynx entirely",
       },
       {
         id: "d",
-        text: "Withhold all food, fluids, and mouth care completely and allow no oral contact",
+        text: "Withhold all food, fluid and mouth care, and allow no oral contact, to avoid provoking another aspiration event",
       },
     ],
     correctChoiceId: "b",
     rationale:
-      "Extensive clinical trials and professional guidelines (American Geriatrics Society, British Geriatrics Society) demonstrate that enteral tube feeding (PEG tubes) in advanced dementia does NOT prolong survival, does not improve nutritional status, does not prevent aspiration (patients aspirate oropharyngeal secretions and gastric contents), and does not reduce pressure ulcers. Tube feeding often leads to physical restraints to prevent tube pulling, fluid overload, and loss of the pleasure of taste. Geriatric palliative care recommends 'careful hand feeding' (comfort-focused oral feeding for pleasure) and meticulous oral hygiene.",
+      "Extensive clinical trials and professional guidelines (American Geriatrics Society, British Geriatrics Society) demonstrate that enteral tube feeding (PEG tubes) in advanced dementia does NOT prolong survival, does not improve nutritional status, does not prevent aspiration (patients aspirate oropharyngeal secretions and gastric contents), and does not reduce pressure ulcers. Tube feeding often leads to physical restraints to prevent tube pulling, fluid overload, and loss of the pleasure of taste. Geriatric palliative care recommends 'careful hand feeding' (comfort-focused oral feeding for pleasure) and meticulous oral hygiene. Why the other options fail: option a offers a benefit the evidence does not support, since a tube does not stop aspiration of oral secretions. Option c claims the tube removes aspiration risk, when gastric reflux and oropharyngeal secretions remain. Option d withdraws comfort as well as nutrition, when hand feeding and mouth care are the recommended alternative.",
     strategy: "Advanced dementia & tube feeding: PEG tubes do NOT prevent aspiration or prolong life. Evidence supports careful comfort hand feeding.",
     difficulty: "medium",
     tags: ["gerontology", "palliative-care", "dementia", "peg-tube", "end-of-life"],
@@ -428,24 +428,24 @@ export const GERO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Passive bed rest for 4 weeks with no active joint movement",
+        text: "Four weeks of bed rest with passive range-of-motion only, so that the muscles recover before any loading begins",
       },
       {
         id: "b",
-        text: "Exclusively sitting in an armchair while performing deep breathing exercises",
+        text: "Seated deep-breathing exercises three times a day, which improve oxygen delivery to the quadriceps and rebuild strength",
       },
       {
         id: "c",
-        text: "Progressive resistance (strength) training targeting major muscle groups 2 to 3 days per week, combined with balance training and adequate dietary protein",
+        text: "Progressive resistance training for the major muscle groups 2 to 3 days a week, with balance work and adequate protein",
       },
       {
         id: "d",
-        text: "Rapid high-impact plyometric jumping for 60 minutes daily",
+        text: "Daily high-impact plyometric jumping for 60 minutes, which loads the muscle most and builds strength fastest",
       },
     ],
     correctChoiceId: "c",
     rationale:
-      "Progressive resistance training (PRT) is the gold standard, evidence-based intervention to stimulate muscle protein synthesis, reverse muscle atrophy (sarcopenia), and restore functional independence in older adults, even in nonagenarians. Resistance training (using body weight, resistance bands, or light weights) 2–3 times weekly increases myofibrillar cross-sectional area and neuromuscular coordination. Combining PRT with balance exercises (e.g., tandem stance, tai chi) and dietary protein (1.2–1.5 g/kg/day) provides maximal protection against falls and fractures.",
+      "Progressive resistance training (PRT) is the gold standard, evidence-based intervention to stimulate muscle protein synthesis, reverse muscle atrophy (sarcopenia), and restore functional independence in older adults, even in nonagenarians. Resistance training (using body weight, resistance bands, or light weights) 2–3 times weekly increases myofibrillar cross-sectional area and neuromuscular coordination. Combining PRT with balance exercises (e.g., tandem stance, tai chi) and dietary protein (1.2–1.5 g/kg/day) provides maximal protection against falls and fractures. Why the other options fail: option a imposes the immobility that caused the weakness and will worsen it. Option b does not load the muscle, so it cannot reverse sarcopenia. Option d applies high-impact loading that a frail, deconditioned client cannot tolerate and that risks injury without building strength.",
     strategy: "Reversing sarcopenia: Progressive resistance/strength training 2-3 times/week + balance exercises + adequate protein. Bed rest accelerates atrophy.",
     difficulty: "easy",
     tags: ["gerontology", "sarcopenia", "resistance-training", "rehabilitation", "health-promotion"],
@@ -458,24 +458,24 @@ export const GERO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Stress incontinence; instruct the client to cough vigorously while sneezing",
+        text: "Stress incontinence; teach pelvic floor exercises and advise her to cough before she stands up",
       },
       {
         id: "b",
-        text: "Overflow incontinence; insert an indwelling Foley catheter permanently",
+        text: "Overflow incontinence; teach her to void by suprapubic pressure and review her anticholinergic burden",
       },
       {
         id: "c",
-        text: "Reflex incontinence; restrict all daily fluid intake to less than 300 mL",
+        text: "Functional incontinence; restrict fluids to under 300 mL a day so that the bladder never fills enough to leak",
       },
       {
         id: "d",
-        text: "Urge incontinence (overactive bladder); initiate a timed voiding schedule, bladder retraining, pelvic floor muscle exercises, and eliminate bladder irritants (caffeine and alcohol)",
+        text: "Urge incontinence; start timed voiding, bladder retraining, pelvic floor exercises and removal of caffeine and alcohol",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "Urge incontinence is characterized by sudden, involuntary detrusor muscle contractions causing an uncontrollable urge to void followed by leakage of moderate-to-large amounts of urine (overactive bladder). First-line interventions are behavioral: bladder retraining (gradually increasing intervals between scheduled voiding), pelvic floor muscle (Kegel) training, prompt toileting, and avoiding dietary bladder irritants (caffeine, artificial sweeteners, alcohol). Stress incontinence involves small-volume leakage during exertion/coughing; functional incontinence is due to physical/cognitive barriers to reaching the toilet.",
+      "Urge incontinence is characterized by sudden, involuntary detrusor muscle contractions causing an uncontrollable urge to void followed by leakage of moderate-to-large amounts of urine (overactive bladder). First-line interventions are behavioral: bladder retraining (gradually increasing intervals between scheduled voiding), pelvic floor muscle (Kegel) training, prompt toileting, and avoiding dietary bladder irritants (caffeine, artificial sweeteners, alcohol). Stress incontinence involves small-volume leakage during exertion/coughing; functional incontinence is due to physical/cognitive barriers to reaching the toilet. Why the other options fail: option a describes stress incontinence, which leaks small volumes on exertion rather than after an uncontrollable urge. Option b describes overflow incontinence, which presents as constant dribbling from an over-distended bladder. Option c mislabels the problem as functional and answers it with fluid restriction, which concentrates the urine and irritates the bladder further.",
     strategy: "Incontinence types: Sudden intense urge + large leak = Urge incontinence (overactive detrusor). Treat with bladder training, Kegels, avoid caffeine.",
     difficulty: "medium",
     tags: ["gerontology", "urinary-incontinence", "urge-incontinence", "bladder-retraining", "functional-health"],
@@ -488,24 +488,24 @@ export const GERO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Hold the cane in the LEFT hand (opposite the affected side), advance the cane and the right leg forward together, then follow with the left leg",
+        text: "Hold the cane in the left hand, opposite the affected knee; move the cane and the right leg together, then step through with the left",
       },
       {
         id: "b",
-        text: "Hold the cane in the right hand (same side as the affected knee) and advance it after both legs have moved",
+        text: "Hold the cane in the right hand, on the same side as the affected knee, and advance it after both legs have moved",
       },
       {
         id: "c",
-        text: "Lean the entire chest over the cane while keeping both elbows completely locked",
+        text: "Hold the cane in the left hand but advance it with the left leg, so that the stronger side leads every step",
       },
       {
         id: "d",
-        text: "Advance the unaffected leg first while leaving the cane behind",
+        text: "Hold the cane in the right hand and advance it first, then bring the right leg up to the cane before the left",
       },
     ],
     correctChoiceId: "a",
     rationale:
-      "Proper cane technique requires holding the cane on the UNAFFECTED (stronger) side (the 'COAL' acronym: Cane Opposite Affected Leg). This widens the base of support and shifts the body's center of gravity away from the damaged joint. Sequence of ambulation: (1) advance the cane and the affected (weaker) leg forward simultaneously, distributing body weight between the cane and the weak leg; (2) step forward with the unaffected (stronger) leg past the cane. When navigating stairs, remember: 'Up with the good (strong leg leads), down with the bad (cane and weak leg lead)'.",
+      "Proper cane technique requires holding the cane on the UNAFFECTED (stronger) side (the 'COAL' acronym: Cane Opposite Affected Leg). This widens the base of support and shifts the body's center of gravity away from the damaged joint. Sequence of ambulation: (1) advance the cane and the affected (weaker) leg forward simultaneously, distributing body weight between the cane and the weak leg; (2) step forward with the unaffected (stronger) leg past the cane. When navigating stairs, remember: 'Up with the good (strong leg leads), down with the bad (cane and weak leg lead)'. Why the other options fail: option b holds the cane on the affected side, which increases the load through the painful knee. Option c advances the cane with the stronger leg, which removes support at the moment the weak leg takes weight. Option d advances the cane first and then the affected leg, a sequence that does not distribute weight safely.",
     strategy: "Cane ergonomics: Hold on UNAFFECTED (strong) side (COAL). Move cane and weak leg forward together, then follow with strong leg.",
     difficulty: "easy",
     tags: ["gerontology", "assistive-devices", "cane-technique", "mobility", "biomechanics"],
@@ -518,24 +518,24 @@ export const GERO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Hand the spouse a 40-page textbook on neurological rehabilitation at the hospital exit door",
+        text: "Give the spouse a written rehabilitation manual at discharge and ask her to telephone the ward with any question",
       },
       {
         id: "b",
-        text: "Complete comprehensive medication reconciliation, conduct a home safety hazard check, train the spouse on transfers and swallowing precautions, and ensure a home visit or telephone follow-up within 48 to 72 hours",
+        text: "Reconcile the medicines, check the home for hazards, train the spouse in transfers and swallowing, and follow up within 48 to 72 hours",
       },
       {
         id: "c",
-        text: "Instruct the client not to contact the health center unless a catastrophic emergency occurs",
+        text: "Arrange a clinic review at 6 weeks and advise her to call the emergency services if anything changes before then",
       },
       {
         id: "d",
-        text: "Discontinue all blood pressure and antiplatelet medications prior to discharge",
+        text: "Stop the antihypertensive and antiplatelet drugs at discharge, so that falls and bleeding are not compounded at home",
       },
     ],
     correctChoiceId: "b",
     rationale:
-      "Care transitions between hospital and home are high-risk periods for frail elders; nearly 20% of discharged older adults experience hospital readmission within 30 days. Evidence-based transitional care bundles emphasize: (1) comprehensive medication reconciliation to resolve discrepancies and educate on new prescriptions; (2) practical caregiver training on transfers, positioning, and dysphagia precautions; (3) home hazard evaluation (grab bars, lighting, tripping hazards); (4) scheduling follow-up medical visits; and (5) proactive post-discharge follow-up (home visit by community nurse or telephone call) within 48–72 hours.",
+      "Care transitions between hospital and home are high-risk periods for frail elders; nearly 20% of discharged older adults experience hospital readmission within 30 days. Evidence-based transitional care bundles emphasize: (1) comprehensive medication reconciliation to resolve discrepancies and educate on new prescriptions; (2) practical caregiver training on transfers, positioning, and dysphagia precautions; (3) home hazard evaluation (grab bars, lighting, tripping hazards); (4) scheduling follow-up medical visits; and (5) proactive post-discharge follow-up (home visit by community nurse or telephone call) within 48–72 hours. Why the other options fail: option a hands over information without teaching or follow-up, which is a handout rather than a transition plan. Option c leaves a 6-week gap across the highest-risk period, when most readmissions occur. Option d stops the secondary prevention that prevents the next stroke and would raise rather than lower the risk.",
     strategy: "Transitional care in elders: Medication reconciliation + caregiver transfer/swallow training + follow-up within 48-72 hours prevent 30-day readmissions.",
     difficulty: "medium",
     tags: ["gerontology", "discharge-planning", "transitional-care", "stroke-rehabilitation", "caregiver-support"],
@@ -548,24 +548,24 @@ export const GERO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Tie both hands to the bed rails using double-loop cotton restraints",
+        text: "Apply double-loop cotton restraints to both wrists so that the cannula is not pulled out, and check them hourly",
       },
       {
         id: "b",
-        text: "Attach a vest restraint and raise all four full-length bed rails",
+        text: "Fit a vest restraint and raise all four bed rails, which is the least restrictive option that prevents wandering",
       },
       {
         id: "c",
-        text: "Investigate and meet underlying unmet physical needs (pain, thirst, toilet urge, room temperature), relocate the client closer to the nurses' station, and engage the client with meaningful tactile tasks (folding towels)",
+        text: "Investigate unmet needs such as pain, thirst and a full bladder, move him near the nurses' station, and give purposeful activity",
       },
       {
         id: "d",
-        text: "Administer 5 mg of haloperidol intramuscularly every 4 hours around the clock",
+        text: "Give intramuscular haloperidol every 4 hours around the clock, which settles the agitation and prevents night wandering",
       },
     ],
     correctChoiceId: "c",
     rationale:
-      "In dementia and delirium, motor restlessness and wandering are purposeful expressions of unmet physical or emotional needs (pain, full bladder/bowel, thirst, hunger, boredom, or fear). Restraint-free care requires investigating and satisfying these underlying needs first: offer fluids, assist with toileting, evaluate pain, optimize lighting, move the client closer to the nursing desk for visibility, and provide therapeutic diversion (folding towels, sorting socks, listening to favorite music). Restraints and 4 bed rails increase entrapment, asphyxiation, and fall injuries.",
+      "In dementia and delirium, motor restlessness and wandering are purposeful expressions of unmet physical or emotional needs (pain, full bladder/bowel, thirst, hunger, boredom, or fear). Restraint-free care requires investigating and satisfying these underlying needs first: offer fluids, assist with toileting, evaluate pain, optimize lighting, move the client closer to the nursing desk for visibility, and provide therapeutic diversion (folding towels, sorting socks, listening to favorite music). Restraints and 4 bed rails increase entrapment, asphyxiation, and fall injuries. Why the other options fail: option a restrains both wrists, which increases agitation and injury and is not a first-line measure. Option b adds a vest and four rails, the most restrictive combination, and carries entrapment risk. Option d sedates an older adult with dementia around the clock and masks the unmet need instead of meeting it.",
     strategy: "Restraint alternatives: Address unmet physical needs (toileting, pain, thirst), place close to nurses' station, and use purposeful tactile tasks.",
     difficulty: "easy",
     tags: ["gerontology", "restraint-alternatives", "patient-safety", "dementia-care", "nursing-interventions"],
@@ -578,24 +578,24 @@ export const GERO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Advise the client to wait until severe dementia develops before discussing medical preferences",
+        text: "Wait until the dementia is severe, because preferences expressed now cannot cover decisions that arise later",
       },
       {
         id: "b",
-        text: "Instruct the daughter to verbally override all future choices without any formal documentation",
+        text: "Ask the daughter to confirm his wishes verbally at the time, which is sufficient without any written document",
       },
       {
         id: "c",
-        text: "Inform the client that advance directives are illegal and forbidden under medical ethics",
+        text: "Explain that advance directives cannot be used in Ghana and that the family will decide by consensus instead",
       },
       {
         id: "d",
-        text: "Advance Care Planning (ACP), including executing an Advance Directive (Living Will) and appointing a Durable Power of Attorney for Healthcare (Healthcare Proxy) while the client retains decisional capacity",
+        text: "Advance care planning now: execute a living will and appoint a durable power of attorney for healthcare while he still has capacity",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "Advance Care Planning (ACP) enables individuals to articulate their values and preferences regarding future medical treatments and to appoint a substitute decision-maker (Durable Power of Attorney for Healthcare / Healthcare Proxy). This must be initiated EARLY in the disease course while the individual retains decisional legal capacity. Key components include: (1) a Living Will detailing preferences regarding life-sustaining treatments (CPR, mechanical ventilation, artificial feeding); and (2) designating a trusted healthcare proxy. Once capacity is lost, the patient can no longer legally execute these advance instruments.",
+      "Advance Care Planning (ACP) enables individuals to articulate their values and preferences regarding future medical treatments and to appoint a substitute decision-maker (Durable Power of Attorney for Healthcare / Healthcare Proxy). This must be initiated EARLY in the disease course while the individual retains decisional legal capacity. Key components include: (1) a Living Will detailing preferences regarding life-sustaining treatments (CPR, mechanical ventilation, artificial feeding); and (2) designating a trusted healthcare proxy. Once capacity is lost, the patient can no longer legally execute these advance instruments. Why the other options fail: option a waits for capacity to be lost, at which point the instruments can no longer be executed. Option b relies on a verbal instruction given in crisis, which carries no legal weight and invites family conflict. Option c states a legal position that is not correct and leaves the client with no documented voice in his own care.",
     strategy: "Advance care planning: Must be established EARLY while the client has decisional capacity. Designate Healthcare Proxy and document treatment preferences.",
     difficulty: "easy",
     tags: ["gerontology", "advance-directives", "living-will", "healthcare-proxy", "ethics"],
