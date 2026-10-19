@@ -38,11 +38,11 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Community ownership and intersectoral partnership, with community members actively planning, mobilizing local resources, and overseeing health facility operations",
+        text: "Sole clinical supervision of the nurse's medical prescriptions and diagnostic decisions",
       },
       {
         id: "b",
-        text: "Sole clinical supervision of the nurse's medical prescriptions and diagnostic decisions",
+        text: "Community ownership and intersectoral partnership, with community members actively planning, mobilizing local resources, and overseeing health facility operations",
       },
       {
         id: "c",
@@ -53,7 +53,7 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Serving as full-time paid hospital employees managing surgical operations",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
       "Under the Alma-Ata declaration and the Ghana CHPS policy, Primary Health Care relies heavily on community participation and intersectoral collaboration. The Community Health Management Committee (CHMC) consists of respected, diverse community representatives (women leaders, youth representatives, elders, teachers). Their role is to foster community ownership, maintain the CHPS compound, mobilize communal labor and local resources, support community emergency transport systems (CETS), and provide liaison between community members and health staff.",
     strategy: "PHC principles: Community Health Management Committees (CHMC) represent community participation and ownership, not clinical supervision.",
@@ -68,22 +68,22 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "To systematically identify geographical boundaries, household locations, water sources, vulnerable groups, and community resources to plan targeted public health interventions",
-      },
-      {
-        id: "b",
         text: "To assess property values for the district assembly to levy household taxes",
       },
       {
-        id: "c",
+        id: "b",
         text: "To report illegal structures to municipal building code enforcement agencies",
+      },
+      {
+        id: "c",
+        text: "To systematically identify geographical boundaries, household locations, water sources, vulnerable groups, and community resources to plan targeted public health interventions",
       },
       {
         id: "d",
         text: "To determine which households should be excluded from free immunization services",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
       "A community profile and social mapping exercise is a participatory epidemiological assessment conducted by the Community Health Officer with community volunteers. It maps out geographical zones, household distribution, pregnant women, under-five children, water points, latrines, refuse dumps, and local resources. This enables the CHO to establish a functional household register, plan outreach routes, track defaulters, and prioritize high-risk families.",
     strategy: "Social mapping: Tool to visualize community layout, household populations, vulnerable groups, and public health risks for targeted outreach.",
@@ -98,22 +98,22 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Advocating for national policies and municipal legislation that ban trans-fats and enforce high taxes on tobacco and sugar-sweetened beverages",
-      },
-      {
-        id: "b",
         text: "Administering the measles-rubella vaccine to infants at 9 months of age",
       },
       {
-        id: "c",
+        id: "b",
         text: "Performing random blood glucose screening at a community health fair",
       },
       {
-        id: "d",
+        id: "c",
         text: "Providing limb physical therapy and occupational rehabilitation for an elder after a cerebrovascular accident",
       },
+      {
+        id: "d",
+        text: "Advocating for national policies and municipal legislation that ban trans-fats and enforce high taxes on tobacco and sugar-sweetened beverages",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
       "Primordial prevention targets the underlying economic, social, environmental, and behavioral conditions and policies to prevent the emergence and establishment of risk factors themselves (e.g., legislation banning trans-fats, taxing tobacco/sugary drinks, urban planning for sidewalks). Primary prevention prevents disease onset in individuals who already possess or are exposed to risk factors (e.g., vaccination, bed nets). Secondary prevention involves early detection and prompt treatment (e.g., screenings). Tertiary prevention aims to reduce disability and rehabilitate established illness.",
     strategy: "Prevention levels: Primordial = policies/laws stopping risk factors from emerging; Primary = stopping disease before it begins; Secondary = screening; Tertiary = rehabilitation.",
@@ -158,11 +158,11 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Isolate and rehydrate patients, notify the District Disease Control Officer immediately, establish a working case definition, and line-list cases by time, place, and person",
+        text: "Wait until at least 50 cases are admitted before creating an outbreak line list or alerting authorities",
       },
       {
         id: "b",
-        text: "Wait until at least 50 cases are admitted before creating an outbreak line list or alerting authorities",
+        text: "Isolate and rehydrate patients, notify the District Disease Control Officer immediately, establish a working case definition, and line-list cases by time, place, and person",
       },
       {
         id: "c",
@@ -173,7 +173,7 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Discontinue clinical care to conduct environmental river inspections alone",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
       "The initial steps in outbreak investigation demand parallel action: (1) provide immediate clinical care and infection control (rehydration and isolation), (2) notify the District Health Management Team (DHMT) within 24 hours, (3) verify the diagnosis with laboratory stool specimens (Cary-Blair medium), (4) establish a clear case definition, and (5) construct a line list characterizing cases by person (age, sex, occupation), place (hamlet, water source), and time (date and hour of onset) to construct an epidemic curve and identify the source of exposure.",
     strategy: "Outbreak investigation sequence: Treat and isolate -> notify DHMT immediately -> establish case definition -> line list cases (time, place, person).",
@@ -188,22 +188,22 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "The 'walk of praise and shame' (transect walk) to open defecation sites, followed by placing fresh feces next to a plate of food to demonstrate fly transmission",
-      },
-      {
-        id: "b",
         text: "Imposing heavy monetary police fines on households without completed water closets",
       },
       {
-        id: "c",
+        id: "b",
         text: "Delivering a 2-hour formal lecture on micro-organisms using a textbook projector",
+      },
+      {
+        id: "c",
+        text: "The 'walk of praise and shame' (transect walk) to open defecation sites, followed by placing fresh feces next to a plate of food to demonstrate fly transmission",
       },
       {
         id: "d",
         text: "Providing free government contractors to construct flush toilets for every resident",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
       "Community-Led Total Sanitation (CLTS) is an innovative methodology for mobilizing communities to completely eliminate open defecation without external subsidies. The triggering process uses participatory rural appraisal tools: the transect walk ('walk of shame/praise') where villagers guide facilitators to open defecation areas, calculation of medical costs, feces calculation (tons produced annually), and the 'food and shit' demonstration where flies move from feces directly onto food. Triggering collective shame and disgust prompts the community to declare an emergency action plan to achieve Open Defecation Free (ODF) status using locally available materials.",
     strategy: "CLTS triggering: Uses participatory demonstrations (transect walk, fly-feces-food demo) to ignite collective disgust and community-led latrine building.",
@@ -218,22 +218,22 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Bring water to a rolling boil for at least 1 minute, allow it to cool, and store it in a clean, covered, narrow-necked container with a dispensing tap or ladle",
-      },
-      {
-        id: "b",
         text: "Leave water in an open bucket in the sun for 10 minutes to kill all cysts and helminth eggs",
       },
       {
-        id: "c",
+        id: "b",
         text: "Strain water through a single layer of nylon mesh and drink immediately without chemical disinfection or boiling",
       },
       {
-        id: "d",
+        id: "c",
         text: "Add kerosene drops to clear the sediment before serving to young infants",
       },
+      {
+        id: "d",
+        text: "Bring water to a rolling boil for at least 1 minute, allow it to cool, and store it in a clean, covered, narrow-necked container with a dispensing tap or ladle",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
       "Boiling water to a vigorous rolling boil for at least 1 minute (or 3 minutes at high altitudes) kills bacteria, viruses, and protozoan cysts (including Giardia and Cryptosporidium). Safe storage is equally vital to prevent recontamination: water must be stored in a clean, covered container with a narrow neck or a fitted tap. If wide-mouthed buckets are used, unwashed hands dipping cups into the water introduce pathogens. Water treatment without safe storage fails to interrupt the faecal-oral cycle.",
     strategy: "Household water safety: Rolling boil for 1 minute + safe storage in narrow-necked covered container with tap to prevent recontamination.",
@@ -278,11 +278,11 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "The infant is exhibiting growth faltering (growth stagnation), which is an early danger signal requiring comprehensive feeding assessment and intervention",
+        text: "The infant's growth is optimal because the weight remains above the -2 SD malnutrition line",
       },
       {
         id: "b",
-        text: "The infant's growth is optimal because the weight remains above the -2 SD malnutrition line",
+        text: "The infant is exhibiting growth faltering (growth stagnation), which is an early danger signal requiring comprehensive feeding assessment and intervention",
       },
       {
         id: "c",
@@ -293,7 +293,7 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "This represents normal physiological plateauing that requires no investigation or follow-up",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
       "Growth monitoring evaluates the trajectory (trend) of growth over time, not merely a single point in time. A horizontal or downward curve on the growth chart signifies growth faltering (growth stagnation), which precedes clinical wasting or stunting. Even if the weight point is currently within the 'green' or normal zone, failure to gain weight over consecutive months indicates inadequate energy intake, recurrent subclinical infection (e.g., giardiasis, urinary infection), or poor complementary feeding. The nurse must explore complementary feeding practices, check for illness, and schedule a 2-week follow-up.",
     strategy: "Growth chart interpretation: The DIRECTION of the curve matters most. A flat or falling line means growth faltering regardless of where it plots.",
@@ -308,22 +308,22 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Identify defaulters using the child register and mobile phone numbers, and coordinate with community health volunteers to conduct home-tracing visits to complete missed doses",
-      },
-      {
-        id: "b",
         text: "Discontinue all outreach immunization sessions until mothers apologize for missing clinic dates",
       },
       {
-        id: "c",
+        id: "b",
         text: "Restart the entire pentavalent immunization series from dose 1 for any child who missed a scheduled date",
+      },
+      {
+        id: "c",
+        text: "Identify defaulters using the child register and mobile phone numbers, and coordinate with community health volunteers to conduct home-tracing visits to complete missed doses",
       },
       {
         id: "d",
         text: "Report the community to the district police for failing to achieve national immunization targets",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
       "An EPI dropout rate (Penta 1 to Penta 3) exceeding 10% indicates poor service utilization, accessibility barriers, or loss to follow-up. National EPI protocols mandate active defaulter tracing using the clinic immunization register, appointment tickler files, and Community Health Volunteers (CHVs). CHVs trace caregivers at home to identify barriers (e.g., maternal illness, relocation, fear of adverse events) and encourage attendance. Missed doses are given immediately without restarting the primary series.",
     strategy: "EPI dropout management: A dropout rate > 10% requires active defaulter tracking through home visits by volunteers. Never restart missed vaccine series.",
@@ -338,22 +338,22 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Assess newborn breathing, temperature, breastfeeding latch, and umbilical cord stump, while checking maternal uterine involution, lochia flow, and blood pressure",
-      },
-      {
-        id: "b",
         text: "Administer adult oral contraceptives to the mother and introduce infant cereal porridge",
       },
       {
-        id: "c",
+        id: "b",
         text: "Collect payment for unregistered home delivery and advise the mother to stay indoors for 40 days without opening windows",
       },
       {
-        id: "d",
+        id: "c",
         text: "Bathe the newborn in ice-cold herbal water to strengthen the infant's skin",
       },
+      {
+        id: "d",
+        text: "Assess newborn breathing, temperature, breastfeeding latch, and umbilical cord stump, while checking maternal uterine involution, lochia flow, and blood pressure",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
       "The first 48 hours postpartum carry the highest risk of neonatal and maternal mortality. Recommended postnatal home visits occur on day 1 (within 24 hours), day 3, day 7, and at 6 weeks. The CHO must examine the newborn for danger signs (tachypnoea > 60 bpm, chest indrawing, hypothermia < 36.5 °C, lethargy, poor sucking, cord bleeding/pus) and promote chlorhexidine 7.1% or clean dry cord care and exclusive breastfeeding. The mother is evaluated for postpartum haemorrhage, uterine tone, foul lochia, puerperal sepsis, and elevated blood pressure.",
     strategy: "Postnatal home visit priorities: Evaluate maternal bleeding/uterus/BP and newborn breathing/temperature/breastfeeding/cord care.",
@@ -398,11 +398,11 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Enroll in the Outpatient Therapeutic Programme (OTP) for home management with weekly Ready-to-Use Therapeutic Food (RUTF), a 7-day course of oral amoxicillin, and weekly follow-up",
+        text: "Immediately admit to an inpatient stabilization center (SC) for intensive intravenous dextrose resuscitation",
       },
       {
         id: "b",
-        text: "Immediately admit to an inpatient stabilization center (SC) for intensive intravenous dextrose resuscitation",
+        text: "Enroll in the Outpatient Therapeutic Programme (OTP) for home management with weekly Ready-to-Use Therapeutic Food (RUTF), a 7-day course of oral amoxicillin, and weekly follow-up",
       },
       {
         id: "c",
@@ -413,7 +413,7 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Administer high-dose intravenous furosemide to prevent congestive heart failure",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
       "Under CMAM protocols, Severe Acute Malnutrition (SAM) is defined as MUAC < 11.5 cm (red) or weight-for-height Z-score < -3 SD or bilateral pitting edema. Children with SAM who are alert, clinically stable, have no medical complications, and pass the appetite test (eagerly consuming RUTF) are managed as outpatients in the Outpatient Therapeutic Programme (OTP). Management includes: weekly weight-based sachets of RUTF (Plumpy'Nut), a routine 7-day course of oral amoxicillin, single-dose deworming, Vitamin A (if not given in past month), and weekly clinic monitoring.",
     strategy: "CMAM triage: SAM (MUAC < 11.5 cm) + PASSED appetite test + NO medical complications = Outpatient Therapeutic Programme (OTP) with RUTF.",
@@ -428,22 +428,22 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Keep the child warm, provide initial 10% oral glucose/sugar water to prevent hypoglycaemia, and arrange urgent referral to an Inpatient Stabilization Center (SC) for F-75 therapeutic formula feeding",
-      },
-      {
-        id: "b",
         text: "Give the mother two cartons of RUTF and instruct her to force-feed the child at home",
       },
       {
-        id: "c",
+        id: "b",
         text: "Administer a rapid 20 mL/kg normal saline IV bolus over 15 minutes to wash out edema",
+      },
+      {
+        id: "c",
+        text: "Keep the child warm, provide initial 10% oral glucose/sugar water to prevent hypoglycaemia, and arrange urgent referral to an Inpatient Stabilization Center (SC) for F-75 therapeutic formula feeding",
       },
       {
         id: "d",
         text: "Advise the mother that the swelling is normal puppy fat and discharge the child",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
       "Severe Acute Malnutrition (SAM) with complications (severe +3 edema, failed appetite test, hypothermia, lethargy, or severe infection) cannot be managed safely in the community. Such children have reductive adaptation, impaired hepatic/cardiac function, and are at high risk of sudden death from hypothermia, hypoglycaemia, and fluid overload. The CHO must warm the child (skin-to-skin or warm clothing), give 10% oral glucose or sugar water (50 mL) to prevent hypoglycaemia during transit, and immediately refer to an Inpatient Stabilization Center where feeding starts with starter formula F-75. Rapid IV fluid boluses are strictly contraindicated in kwashiorkor due to acute heart failure.",
     strategy: "SAM with complications: Failed appetite test or +3 edema = Inpatient Stabilization Center referral. Keep warm, give sugar water, NO rapid IV boluses.",
@@ -458,22 +458,22 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Explain the findings, recommend reducing salt and salted bouillon seasoning cubes, encourage daily physical activity, advise avoiding tobacco and excess alcohol, and schedule a confirmatory blood pressure evaluation within 1 to 2 weeks",
-      },
-      {
-        id: "b",
         text: "Tell the farmer that asymptomatic high blood pressure is harmless and requires no dietary modification",
       },
       {
-        id: "c",
+        id: "b",
         text: "Administer sublingual nifedipine immediately and send the patient home without review",
       },
       {
-        id: "d",
+        id: "c",
         text: "Advise the farmer to stop drinking plain water to reduce blood volume",
       },
+      {
+        id: "d",
+        text: "Explain the findings, recommend reducing salt and salted bouillon seasoning cubes, encourage daily physical activity, advise avoiding tobacco and excess alcohol, and schedule a confirmatory blood pressure evaluation within 1 to 2 weeks",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
       "Hypertension is termed the 'silent killer' because it is usually asymptomatic until target-organ damage occurs (stroke, heart failure, chronic kidney disease). In West Africa, high dietary sodium from processed foods and bouillon seasoning cubes is a major contributor to hypertension. The nurse should explain the reading clearly, advise dietary modification (DASH approach, reducing sodium, increasing fruits/vegetables), smoking cessation, alcohol reduction, and regular exercise. The patient requires scheduled confirmatory re-evaluation within 1–2 weeks before establishing a formal diagnosis and pharmacological initiation.",
     strategy: "Community hypertension screening: Educate on asymptomatic nature, promote dietary sodium reduction (bouillon cubes), and book confirmatory recheck.",
@@ -518,11 +518,11 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Administer mass school deworming with single-dose oral albendazole (400 mg), treat affected pupils and their entire households simultaneously with topical permethrin, and notify parents discretely to preserve dignity",
+        text: "Publicly shame and isolate affected children in front of the school assembly to encourage cleanliness",
       },
       {
         id: "b",
-        text: "Publicly shame and isolate affected children in front of the school assembly to encourage cleanliness",
+        text: "Administer mass school deworming with single-dose oral albendazole (400 mg), treat affected pupils and their entire households simultaneously with topical permethrin, and notify parents discretely to preserve dignity",
       },
       {
         id: "c",
@@ -533,7 +533,7 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Spray the school classrooms with DDT pesticide while students are seated inside",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
       "School health services provide screening, preventive treatment, health education, and a healthy school environment. Helminth infections cause iron-deficiency anaemia and cognitive impairment; routine school mass deworming with single-dose oral albendazole 400 mg (or mebendazole 500 mg) is standard. Scabies requires treating the affected pupils and all household members simultaneously with 5% permethrin cream (or benzyl benzoate) while washing and sun-drying bedclothes. Actions must preserve pupil dignity and confidentiality to avoid stigmatization and school dropouts.",
     strategy: "School health: Annual mass deworming (albendazole 400 mg) + simultaneous household treatment for scabies + anti-stigma protection.",
@@ -548,22 +548,22 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Gently clean off the substances with clean water, explain the risk of neonatal tetanus, demonstrate clean dry cord care or 7.1% chlorhexidine gel application, and engage the grandmother respectfully as a key care partner",
-      },
-      {
-        id: "b",
         text: "Arrest the grandmother immediately with local police for child abuse",
       },
       {
-        id: "c",
+        id: "b",
         text: "Encourage the practice as an authentic traditional heritage custom and take no action",
+      },
+      {
+        id: "c",
+        text: "Gently clean off the substances with clean water, explain the risk of neonatal tetanus, demonstrate clean dry cord care or 7.1% chlorhexidine gel application, and engage the grandmother respectfully as a key care partner",
       },
       {
         id: "d",
         text: "Instruct the mother to ignore the grandmother and lock the infant in a separate room",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
       "Applying substances like cow dung, ash, or mud to the umbilical stump introduces Clostridium tetani spores, causing neonatal tetanus (trismus, inability to suck, spasms, and high mortality). The nurse must provide culturally sensitive health education without belittling elders: gently wash away the substance, educate the family on the link between unsterile applications and tetanus, demonstrate the proper use of 7.1% chlorhexidine digluconate gel (or clean dry cord care), and empower the grandmother by involving her in safe newborn care.",
     strategy: "Harmful traditional practices: Educate with cultural humility, clean the contamination, demonstrate safe alternatives (chlorhexidine), and partner with family elders.",
@@ -578,22 +578,22 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Advocate for the client's safety and human rights, alert the local police, Assembly Member, and Social Welfare Department, and provide health education explaining the biological causes of cerebral malaria to dispel supernatural myths",
-      },
-      {
-        id: "b",
         text: "Agree with the community mob and assist in evicting the widow to maintain popularity on the unit",
       },
       {
-        id: "c",
+        id: "b",
         text: "Remain silent because traditional spiritual beliefs fall completely outside the nurse's professional mandate",
       },
       {
-        id: "d",
+        id: "c",
         text: "Advise the widow to confess to the accusations to appease the community leaders",
       },
+      {
+        id: "d",
+        text: "Advocate for the client's safety and human rights, alert the local police, Assembly Member, and Social Welfare Department, and provide health education explaining the biological causes of cerebral malaria to dispel supernatural myths",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
       "Community health nurses are ethical advocates for human rights, vulnerable populations, and social justice. Witchcraft accusations in rural West Africa frequently target vulnerable, destitute elderly women with dementia, depression, or eccentricities. The nurse has a duty to protect the client by immediately contacting local law enforcement, community leadership (Chief, Assembly Member), and the Department of Social Welfare. Concurrently, the nurse conducts public health education explaining the medical etiology of illnesses like severe malaria, meningitis, and stroke to dismantle harmful supernatural scapegoating.",
     strategy: "Community advocacy: Protect vulnerable clients against human rights abuses, engage law enforcement/social welfare, and demystify illness etiology through health education.",

@@ -38,11 +38,11 @@ export const CC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Relocate the sensor to the forehead or earlobe, verify probe signal quality, and individualize alarm parameters within physician orders",
+        text: "Silence the audible alarm permanently to prevent disturbing other patients on the unit",
       },
       {
         id: "b",
-        text: "Silence the audible alarm permanently to prevent disturbing other patients on the unit",
+        text: "Relocate the sensor to the forehead or earlobe, verify probe signal quality, and individualize alarm parameters within physician orders",
       },
       {
         id: "c",
@@ -53,7 +53,7 @@ export const CC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Discontinue continuous pulse oximetry monitoring entirely since the patient is awake and restless",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
       "Mitigating alarm fatigue without compromising patient safety requires addressing technical causes of artifact and individualizing alarm limits based on the patient's baseline. In vasoconstricted or hypoperfused patients, digits often produce weak plethysmographic signals; moving the sensor to a centrally perfused site (forehead or earlobe) improves accuracy. Permanently silencing alarms or dropping thresholds below safe limits (such as 70%) violates patient safety standards and risks undetected hypoxic arrest.",
     strategy: "Alarm fatigue: Address signal artifacts at the sensor source (central vs peripheral site) rather than disabling safety thresholds.",
@@ -68,22 +68,22 @@ export const CC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Uncompensated respiratory acidosis with severe hypoxaemia",
-      },
-      {
-        id: "b",
         text: "Fully compensated metabolic alkalosis with hypercapnia",
       },
       {
-        id: "c",
+        id: "b",
         text: "Partially compensated respiratory alkalosis with hypoxaemia",
+      },
+      {
+        id: "c",
+        text: "Uncompensated respiratory acidosis with severe hypoxaemia",
       },
       {
         id: "d",
         text: "Uncompensated metabolic acidosis with compensatory hypoventilation",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
       "A pH of 7.23 is acidic (normal 7.35–7.45). The PaCO2 of 70 mmHg is markedly elevated (normal 35–45 mmHg), which explains the acidaemia, confirming a respiratory cause. The serum bicarbonate (HCO3-) of 26 mEq/L is within normal limits (22–26 mEq/L), demonstrating that renal compensation has not yet occurred (uncompensated). PaO2 of 54 mmHg represents acute hypoxaemic failure. The patient requires immediate escalation (e.g., non-invasive positive pressure ventilation such as BiPAP or invasive mechanical ventilation).",
     strategy: "ABG analysis: pH < 7.35 (acidosis) + high PaCO2 matches acidosis (respiratory) + normal HCO3 (uncompensated).",
@@ -98,22 +98,22 @@ export const CC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Partially compensated metabolic acidosis; hyperventilation is a physiological compensatory mechanism to blow off carbon dioxide",
-      },
-      {
-        id: "b",
         text: "Uncompensated respiratory acidosis; tachypnoea indicates imminent respiratory muscle failure requiring immediate paralytic intubation",
       },
       {
-        id: "c",
+        id: "b",
         text: "Fully compensated metabolic acidosis; the low bicarbonate has restored blood pH to the physiological reference range",
       },
       {
-        id: "d",
+        id: "c",
         text: "Primary respiratory alkalosis caused by acute hyperventilation syndrome",
       },
+      {
+        id: "d",
+        text: "Partially compensated metabolic acidosis; hyperventilation is a physiological compensatory mechanism to blow off carbon dioxide",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
       "The pH is 7.28 (acidic), and HCO3- is 13 mEq/L (markedly low), indicating primary metabolic acidosis from ketoacid accumulation. The PaCO2 is 29 mmHg (low, normal 35–45 mmHg), showing that the respiratory system is attempting to compensate by blowing off volatile acid (Kussmaul respirations). Because the pH has not fully normalized, this represents partially compensated metabolic acidosis. Kussmaul breathing is an appropriate protective compensatory response and should not be suppressed.",
     strategy: "DKA compensation: Low HCO3 matches low pH (metabolic acidosis); low PaCO2 shows active respiratory blowing off of acid.",
@@ -158,11 +158,11 @@ export const CC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Check the tubing and catheter for air bubbles, blood clots, or kinks, and perform a fast-flush square-wave test",
+        text: "Immediately discontinue the arterial catheter without physician consultation",
       },
       {
         id: "b",
-        text: "Immediately discontinue the arterial catheter without physician consultation",
+        text: "Check the tubing and catheter for air bubbles, blood clots, or kinks, and perform a fast-flush square-wave test",
       },
       {
         id: "c",
@@ -173,7 +173,7 @@ export const CC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Administer a rapid bolus of 500 mL normal saline through the arterial catheter",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
       "Overdamping of an arterial line is commonly caused by compliance dampeners such as air bubbles in the transducer tubing, blood clots at the catheter tip, loose connections, or anatomical kinks. The nurse should inspect the entire pressure tubing system, eliminate microbubbles, check catheter position, and execute a fast-flush (square-wave) test to evaluate dynamic system response. Fluids and medications must NEVER be bolused through an arterial line due to severe risk of limb ischaemia and arterial thrombosis.",
     strategy: "Arterial line troubleshooting: Overdamping = bubbles/clots/kinks. Inspect tubing and run square-wave test; NEVER bolus through an A-line.",
@@ -188,22 +188,22 @@ export const CC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Stop the infusion immediately, leave the cannula in place to aspirate residual drug, and prepare phentolamine mesylate for subcutaneous infiltration around the extravasation site",
-      },
-      {
-        id: "b",
         text: "Increase the infusion rate to clear the peripheral vein and apply ice packs tightly over the forearm",
       },
       {
-        id: "c",
+        id: "b",
         text: "Immediately pull out the cannula and apply firm direct manual pressure over the site for 15 minutes",
+      },
+      {
+        id: "c",
+        text: "Stop the infusion immediately, leave the cannula in place to aspirate residual drug, and prepare phentolamine mesylate for subcutaneous infiltration around the extravasation site",
       },
       {
         id: "d",
         text: "Flush the line vigorously with 20 mL of sterile water to dilute the vasopressor in local tissues",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
       "Norepinephrine is a potent alpha-1 adrenergic agonist; peripheral extravasation causes intense local vasoconstriction leading to ischaemic tissue necrosis and gangrene. Immediate management: stop the infusion, leave the catheter in place to aspirate any residual vesicant, notify the provider, and administer the specific antidote phentolamine mesylate (an alpha-adrenergic antagonist) subcutaneously in a circle around the extravasated area to reverse vasoconstriction. Ice and vigorous flushing are contraindicated.",
     strategy: "Vasopressor extravasation: Stop immediately, do NOT pull catheter before aspirating, inject phentolamine (alpha-blocker) antidote.",
@@ -218,22 +218,22 @@ export const CC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Ventricular tachyarrhythmias and excessive tachycardia due to beta-1 adrenergic stimulation",
-      },
-      {
-        id: "b",
         text: "Severe peripheral vasoconstriction and cold digits from alpha-1 receptor activation",
       },
       {
-        id: "c",
+        id: "b",
         text: "Significant bradycardia and complete heart block",
       },
       {
-        id: "d",
+        id: "c",
         text: "Hypoglycaemia and metabolic alkalosis",
       },
+      {
+        id: "d",
+        text: "Ventricular tachyarrhythmias and excessive tachycardia due to beta-1 adrenergic stimulation",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
       "Dobutamine is a synthetic inotrope with predominantly beta-1 adrenergic receptor agonist activity (and mild beta-2 and alpha-1 activity). By augmenting myocardial contractility and AV nodal conduction, it increases myocardial oxygen consumption and can provoke sinus tachycardia, premature ventricular contractions (PVCs), and ventricular tachyarrhythmias. Continuous cardiac rhythm monitoring and blood pressure surveillance are mandatory.",
     strategy: "Inotrope pharmacology: Beta-1 agonists (dobutamine) increase contractility but carry high arrhythmogenic risk (tachycardia, PVCs, VT).",
@@ -278,11 +278,11 @@ export const CC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Low tidal volumes (4–6 mL/kg of predicted/ideal body weight) with plateau pressure maintained <= 30 cmH2O and titrated positive end-expiratory pressure (PEEP)",
+        text: "High tidal volumes (12–15 mL/kg) to re-expand collapsed dependent alveoli and maintain PaCO2 below 30 mmHg",
       },
       {
         id: "b",
-        text: "High tidal volumes (12–15 mL/kg) to re-expand collapsed dependent alveoli and maintain PaCO2 below 30 mmHg",
+        text: "Low tidal volumes (4–6 mL/kg of predicted/ideal body weight) with plateau pressure maintained <= 30 cmH2O and titrated positive end-expiratory pressure (PEEP)",
       },
       {
         id: "c",
@@ -293,7 +293,7 @@ export const CC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Hyperventilation to induce respiratory alkalosis with target pH > 7.55",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
       "The ARDSNet protocol establishes that lung-protective ventilation utilizing low tidal volumes (4–8 mL/kg, targeting 6 mL/kg of predicted/ideal body weight) and keeping inspiratory plateau pressures <= 30 cmH2O significantly reduces mortality by mitigating ventilator-induced lung injury (volutrauma, barotrauma, biotrauma). PEEP is titrated to maintain alveolar recruitment and prevent atelectotrauma. Permissive hypercapnia is tolerated as long as severe acidaemia (pH < 7.15–7.20) is avoided.",
     strategy: "ARDSNet standard: 6 mL/kg ideal body weight + plateau pressure <= 30 cmH2O + permissive hypercapnia to protect fragile lung tissue.",
@@ -308,22 +308,22 @@ export const CC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Terminate the SBT immediately, return the patient to prior resting ventilator settings, reassure the patient, and evaluate causes of trial failure",
-      },
-      {
-        id: "b",
         text: "Continue the trial for the full 30 minutes because transient tachypnoea is expected during weaning",
       },
       {
-        id: "c",
+        id: "b",
         text: "Administer 10 mg of intravenous morphine to calm the patient and continue the trial",
+      },
+      {
+        id: "c",
+        text: "Terminate the SBT immediately, return the patient to prior resting ventilator settings, reassure the patient, and evaluate causes of trial failure",
       },
       {
         id: "d",
         text: "Immediately extubate the patient to non-invasive positive pressure ventilation",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
       "Criteria for failing a spontaneous breathing trial (SBT) include tachypnoea (respiratory rate > 35 breaths/min for >= 5 min), hypoxaemia (SpO2 < 88–90%), tachycardia (HR > 120 or >= 20% increase), accessory muscle use/paradoxical abdominal breathing, diaphoresis, and acute agitation or somnolence. The nurse must terminate the trial immediately, reconnect the patient to full ventilator support, provide reassurance, and investigate reversible causes (e.g., fatigue, secretions, bronchospasm, anxiety, electrolyte imbalances) before reattempting the next day.",
     strategy: "Weaning safety: RR > 35, SpO2 < 90%, HR > 120, or retractions = abort SBT immediately and restore full resting support.",
@@ -338,22 +338,22 @@ export const CC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "CPP is 52 mmHg; the nurse should notify the physician because CPP is below the target threshold of 60 to 70 mmHg",
-      },
-      {
-        id: "b",
         text: "CPP is 96 mmHg; the nurse should administer an antihypertensive agent to prevent cerebral hyperperfusion",
       },
       {
-        id: "c",
+        id: "b",
         text: "CPP is 74 mmHg; the nurse should document that perfusion is optimal and maintain current management",
       },
       {
-        id: "d",
+        id: "c",
         text: "CPP is 22 mmHg; the nurse should hyperventilate the patient to a PaCO2 of 20 mmHg",
       },
+      {
+        id: "d",
+        text: "CPP is 52 mmHg; the nurse should notify the physician because CPP is below the target threshold of 60 to 70 mmHg",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
       "Cerebral Perfusion Pressure is calculated as MAP minus ICP (CPP = MAP - ICP). Here, CPP = 74 mmHg - 22 mmHg = 52 mmHg. Evidence-based neurocritical care guidelines (Brain Trauma Foundation) recommend maintaining CPP between 60 and 70 mmHg to prevent secondary ischaemic brain injury. A CPP of 52 mmHg with elevated ICP (> 20 mmHg) requires immediate intervention, which may include titrating vasopressors to elevate MAP, administering hyperosmolar therapy (hypertonic saline or mannitol), and maintaining head-of-bed elevation.",
     strategy: "CPP formula: CPP = MAP - ICP. Target CPP is 60-70 mmHg; < 60 leads to secondary cerebral ischaemia.",
@@ -398,11 +398,11 @@ export const CC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Impending clotting of the haemofilter membrane, requiring assessment of circuit patency and possible filter replacement",
+        text: "Significant air embolism in the arterial access catheter",
       },
       {
         id: "b",
-        text: "Significant air embolism in the arterial access catheter",
+        text: "Impending clotting of the haemofilter membrane, requiring assessment of circuit patency and possible filter replacement",
       },
       {
         id: "c",
@@ -413,7 +413,7 @@ export const CC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Patient hypovolaemia requiring an immediate 1-litre saline bolus through the access line",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
       "Transmembrane Pressure (TMP) represents the hydrostatic pressure difference across the semipermeable haemofilter membrane. A steadily rising TMP combined with an increasing filter pressure drop indicates protein layering and microthrombus formation within the hollow fibers (impending filter clotting). The nurse should assess the circuit, check anticoagulation delivery (e.g., regional citrate or heparin), and prepare to change the circuit if clotting progresses to avoid losing blood sequestered in a clotted filter.",
     strategy: "CRRT alarms: Elevated TMP and rising filter pressure drop indicate circuit/filter clotting.",
@@ -428,22 +428,22 @@ export const CC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "To treat vasopressor-refractory shock by reversing critical illness-related corticosteroid insufficiency (CIRCI) and upregulating adrenergic receptors",
-      },
-      {
-        id: "b",
         text: "To directly sterilize the bloodstream and replace broad-spectrum antimicrobial therapy",
       },
       {
-        id: "c",
+        id: "b",
         text: "To rapidly lower blood glucose levels and promote diuresis",
+      },
+      {
+        id: "c",
+        text: "To treat vasopressor-refractory shock by reversing critical illness-related corticosteroid insufficiency (CIRCI) and upregulating adrenergic receptors",
       },
       {
         id: "d",
         text: "To induce systemic sedation and decrease cerebral metabolic demand",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
       "In septic shock refractory to fluid resuscitation and escalating doses of vasopressors (norepinephrine >= 0.25 mcg/kg/min plus vasopressin), Surviving Sepsis guidelines recommend intravenous hydrocortisone at 200 mg per day. Critical illness-related corticosteroid insufficiency (CIRCI) and down-regulated vascular adrenergic receptors are common in severe sepsis. Low-dose hydrocortisone restores vascular tone, upregulates alpha-1 adrenergic receptors, and accelerates shock reversal without inducing immunosuppressive harm.",
     strategy: "Refractory shock: IV hydrocortisone (200 mg/day) treats CIRCI and restores vascular responsiveness to catecholamines.",
@@ -458,22 +458,22 @@ export const CC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Acute hypocalcaemia caused by citrate binding to circulating ionized calcium",
-      },
-      {
-        id: "b",
         text: "Severe hypercalcaemia from excessive bone resorption",
       },
       {
-        id: "c",
+        id: "b",
         text: "Hypernatraemia resulting from high sodium content in packed red cells",
       },
       {
-        id: "d",
+        id: "c",
         text: "Severe hypokalaemia caused by rapid red cell potassium uptake",
       },
+      {
+        id: "d",
+        text: "Acute hypocalcaemia caused by citrate binding to circulating ionized calcium",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
       "Stored blood products contain sodium citrate as an anticoagulant. When massive volumes are infused rapidly (e.g., > 1 unit every 5 minutes), the liver's metabolic capacity to clear citrate is overwhelmed, particularly in hypothermic or shocked patients. Citrate chelates circulating ionized calcium, causing acute hypocalcaemia characterized by QT prolongation, neuromuscular excitability (Trousseau sign, Chvostek sign, twitching), decreased cardiac contractility, and hypotension. The nurse should anticipate IV calcium chloride or calcium gluconate replacement.",
     strategy: "Massive transfusion complication: Citrate toxicity binds ionized calcium -> hypocalcaemia (long QT, twitching/Trousseau sign). Treat with IV calcium.",
@@ -518,11 +518,11 @@ export const CC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Initiate intravenous N-acetylcysteine (NAC) protocol promptly to replenish hepatic glutathione stores and prevent fulminant hepatic necrosis",
+        text: "Administer intravenous naloxone continuous infusion to reverse central nervous system depression",
       },
       {
         id: "b",
-        text: "Administer intravenous naloxone continuous infusion to reverse central nervous system depression",
+        text: "Initiate intravenous N-acetylcysteine (NAC) protocol promptly to replenish hepatic glutathione stores and prevent fulminant hepatic necrosis",
       },
       {
         id: "c",
@@ -533,7 +533,7 @@ export const CC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Infuse sodium polystyrene sulfonate to accelerate gastrointestinal excretion",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
       "Acetaminophen overdose saturates glucuronidation and sulfation pathways, shunting metabolism to cytochrome P450, which produces the toxic metabolite NAPQI (N-acetyl-p-benzoquinone imine). When endogenous glutathione is depleted, NAPQI binds hepatocytes causing centrilobular hepatic necrosis. N-acetylcysteine (NAC) serves as a glutathione precursor and substitute, detoxifying NAPQI. Initiating NAC within 8 hours of acute ingestion provides virtually 100% hepatoprotection.",
     strategy: "Acetaminophen antidote: N-acetylcysteine (NAC) replenishes glutathione to neutralize toxic NAPQI metabolite.",
@@ -548,22 +548,22 @@ export const CC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Identify and treat underlying medical triggers (hypoxia, infection, electrolyte imbalance), promote sleep hygiene, reorient the patient, and mobilize early",
-      },
-      {
-        id: "b",
         text: "Immediately administer high-dose intravenous haloperidol every 2 hours without investigating underlying physiological causes",
       },
       {
-        id: "c",
+        id: "b",
         text: "Apply four-point physical leather restraints and close the window blinds permanently",
+      },
+      {
+        id: "c",
+        text: "Identify and treat underlying medical triggers (hypoxia, infection, electrolyte imbalance), promote sleep hygiene, reorient the patient, and mobilize early",
       },
       {
         id: "d",
         text: "Initiate continuous deep benzodiazepine sedation targeting a RASS score of -5",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
       "ICU delirium is a clinical syndrome of acute brain dysfunction characterized by fluctuating inattention and altered awareness. First-line management focuses on non-pharmacological interventions and identifying modifiable physiological causes (hypoxia, sepsis, metabolic derangements, pain, anticholinergic/sedative medications, urinary retention). Evidence-based bundles (ABCDEF bundle) emphasize pain control, daily sedation vacation, spontaneous breathing trials, delirium monitoring, early physical mobilization, and sleep optimization. Benzodiazepines and unnecessary restraints worsen delirium.",
     strategy: "ICU delirium (CAM-ICU positive): Non-pharmacologic bundle first (treat causes, mobilize, reorient, optimize sleep). Avoid benzodiazepines.",
@@ -578,22 +578,22 @@ export const CC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Maintain systolic blood pressure > 100 mmHg (or MAP >= 65 mmHg), urine output 1 to 3 mL/kg/h, PaO2 >= 100 mmHg, and normothermia",
-      },
-      {
-        id: "b",
         text: "Permit profound hypotension and hypothermia to slow down organ cellular metabolism",
       },
       {
-        id: "c",
+        id: "b",
         text: "Restrict all intravenous fluids and discontinue mechanical ventilation prior to the operating room",
       },
       {
-        id: "d",
+        id: "c",
         text: "Maintain continuous deep sedation with high-dose propofol and fentanyl infusions",
       },
+      {
+        id: "d",
+        text: "Maintain systolic blood pressure > 100 mmHg (or MAP >= 65 mmHg), urine output 1 to 3 mL/kg/h, PaO2 >= 100 mmHg, and normothermia",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
       "Brain death produces autonomic storm followed by loss of sympathetic vascular tone, diabetes insipidus, poikilothermia, and endocrine failure. To preserve organ viability for transplantation, the nurse maintains optimal physiological goals (often remembered as the 'Rule of 100s'): systolic blood pressure >= 100 mmHg (MAP >= 65), PaO2 >= 100 mmHg (SaO2 >= 95%), urine output 100–200 mL/h (or 1–3 mL/kg/h), blood glucose 100–150 mg/dL, and core body temperature > 36 °C. Hormonal resuscitation (levothyroxine/T4, methylprednisolone, vasopressin) is standard.",
     strategy: "Organ donor management (Rule of 100s): SBP > 100, PaO2 > 100, urine output 100 mL/h (1-3 mL/kg/h), normothermia.",

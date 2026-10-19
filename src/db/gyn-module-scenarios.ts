@@ -38,11 +38,11 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Interpret as a VIA-positive screen indicative of high-grade precancerous cervical intraepithelial neoplasia; evaluate eligibility for same-day single-visit 'screen-and-treat' (thermal ablation or cryotherapy) or refer for colposcopy/biopsy",
+        text: "Reassure the client that acetowhitening is normal physiological mucus and repeat screening in 10 years",
       },
       {
         id: "b",
-        text: "Reassure the client that acetowhitening is normal physiological mucus and repeat screening in 10 years",
+        text: "Interpret as a VIA-positive screen indicative of high-grade precancerous cervical intraepithelial neoplasia; evaluate eligibility for same-day single-visit 'screen-and-treat' (thermal ablation or cryotherapy) or refer for colposcopy/biopsy",
       },
       {
         id: "c",
@@ -53,7 +53,7 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Prescribe oral amoxicillin for 5 days and discharge without further cervical assessment",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
       "In Visual Inspection with Acetic Acid (VIA), dilute acetic acid dehydrates cells and reversibly coagulates nuclear proteins. Precancerous dysplastic cells (cervical intraepithelial neoplasia, CIN) have high nuclear-to-cytoplasmic ratios, causing them to reflect light and appear dense, opaque, well-demarcated acetowhite lesions adjacent to the squamocolumnar junction (SCJ / transformation zone). Under WHO screen-and-treat guidelines for low-resource settings, eligible VIA-positive lesions are treated immediately with thermal ablation or cryotherapy, or referred for colposcopic biopsy if suspicious for invasive carcinoma.",
     strategy: "VIA screening: Dense, well-defined acetowhite lesions touching the SCJ = VIA-positive -> screen-and-treat (ablation) or colposcopy referral.",
@@ -68,22 +68,22 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Structural etiology: Leiomyoma (PALM - L); prioritize correcting symptomatic iron-deficiency anaemia (oral or parenteral iron therapy) and initiating medical stabilization (tranexamic acid or levonorgestrel IUD)",
-      },
-      {
-        id: "b",
         text: "Non-structural etiology: Coagulopathy (COEIN - C); immediately initiate lifelong plasma exchange",
       },
       {
-        id: "c",
+        id: "b",
         text: "Malignancy (PALM - M); counsel the client for immediate pelvic radiation therapy",
+      },
+      {
+        id: "c",
+        text: "Structural etiology: Leiomyoma (PALM - L); prioritize correcting symptomatic iron-deficiency anaemia (oral or parenteral iron therapy) and initiating medical stabilization (tranexamic acid or levonorgestrel IUD)",
       },
       {
         id: "d",
         text: "Iatrogenic (COEIN - I); advise the client that fibroid bleeding requires no medical treatment or iron therapy",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
       "The FIGO PALM-COEIN system classifies causes of Abnormal Uterine Bleeding (AUB). PALM denotes structural causes: Polyp, Adenomyosis, Leiomyoma (fibroid), and Malignancy/hyperplasia. COEIN denotes non-structural causes: Coagulopathy, Ovulatory dysfunction, Endometrial, Iatrogenic, and Not yet classified. Uterine leiomyomas (L) increase the endometrial surface area and disrupt myometrial contractility, causing menorrhagia and severe secondary microcytic anaemia. Priority nursing care includes correcting anaemia with iron supplementation, administering antifibrinolytics (tranexamic acid during menses) or LNG-IUS, and surgical referral for myomectomy if childbearing is desired.",
     strategy: "PALM-COEIN: Leiomyoma (L) is a structural cause of AUB. Address profound anaemia (Hb 7.8) and medical hemostasis first.",
@@ -98,22 +98,22 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Hyperandrogenism and hyperinsulinaemia/insulin resistance; long-term risks include type 2 diabetes mellitus, cardiovascular disease, and endometrial hyperplasia/carcinoma from chronic unopposed oestrogen",
-      },
-      {
-        id: "b",
         text: "Primary adrenal insufficiency; long-term risk of catastrophic salt-wasting crisis",
       },
       {
-        id: "c",
+        id: "b",
         text: "Severe thyroid storm; long-term risk of high-output cardiac failure within 48 hours",
       },
       {
-        id: "d",
+        id: "c",
         text: "Complete irreversible ovarian destruction requiring bilateral oophorectomy immediately",
       },
+      {
+        id: "d",
+        text: "Hyperandrogenism and hyperinsulinaemia/insulin resistance; long-term risks include type 2 diabetes mellitus, cardiovascular disease, and endometrial hyperplasia/carcinoma from chronic unopposed oestrogen",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
       "Polycystic Ovary Syndrome (PCOS) diagnosed by Rotterdam criteria requires at least 2 of 3 features: (1) oligo/anovulation; (2) clinical or biochemical hyperandrogenism; and (3) polycystic ovarian morphology on ultrasound. Hyperinsulinaemia secondary to peripheral insulin resistance stimulates ovarian theca cell androgen production and decreases sex hormone-binding globulin (SHBG). Chronic anovulation leads to persistent, unopposed oestrogen stimulation of the endometrium (without cyclical progesterone from a corpus luteum), predisposing women to endometrial hyperplasia and adenocarcinoma, as well as metabolic syndrome and type 2 diabetes.",
     strategy: "PCOS pathophysiology: Hyperinsulinaemia drives androgen excess. Chronic anovulation -> unopposed oestrogen -> high risk of endometrial hyperplasia/cancer.",
@@ -158,11 +158,11 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "MEC Category 4 (unacceptable health risk; absolute contraindication); combined hormonal contraceptives are contraindicated due to a markedly elevated risk of myocardial infarction, thromboembolism, and stroke",
+        text: "MEC Category 1 (no restriction); COCs may be safely initiated without limitation",
       },
       {
         id: "b",
-        text: "MEC Category 1 (no restriction); COCs may be safely initiated without limitation",
+        text: "MEC Category 4 (unacceptable health risk; absolute contraindication); combined hormonal contraceptives are contraindicated due to a markedly elevated risk of myocardial infarction, thromboembolism, and stroke",
       },
       {
         id: "c",
@@ -173,7 +173,7 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "COCs are safe provided she takes them with grape juice",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
       "Under the WHO and CDC Medical Eligibility Criteria (MEC): Category 4 represents an absolute contraindication where health risks outweigh any benefits. Age >= 35 years combined with heavy smoking (>= 15 cigarettes/day) synergistically increases hepatic production of clotting factors and promotes arterial vasospasm/thrombosis, dramatically raising the incidence of fatal myocardial infarction, deep venous thrombosis, pulmonary embolism, and ischaemic stroke. Safe, non-oestrogen alternatives for this client include copper IUD, levonorgestrel IUD, progestogen-only implants, or depot medroxyprogesterone acetate (DMPA).",
     strategy: "Contraceptive eligibility (MEC 4): Oestrogen-containing methods are absolutely contraindicated in women >= 35 who smoke >= 15 cigarettes/day (thrombosis/stroke risk).",
@@ -188,24 +188,24 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "A copper intrauterine device (Cu-IUD) inserted within 5 days is the most effective emergency contraception (> 99% efficacy); oral alternatives within 72 hours include levonorgestrel (1.5 mg) or ulipristal acetate (30 mg within 120 hours)",
-      },
-      {
-        id: "b",
         text: "High-dose oral vitamin C tablets taken every 2 hours for 3 days",
       },
       {
-        id: "c",
+        id: "b",
         text: "Douching with vinegar immediately, followed by vigorous aerobic jumping",
+      },
+      {
+        id: "c",
+        text: "A copper intrauterine device (Cu-IUD) inserted within 5 days is the most effective emergency contraception (> 99% efficacy); oral alternatives within 72 hours include levonorgestrel (1.5 mg) or ulipristal acetate (30 mg within 120 hours)",
       },
       {
         id: "d",
         text: "No emergency contraceptive exists beyond 12 hours post-coitus; she must wait for menses",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
-      "The copper IUD (Cu-IUD) is the most effective method of emergency contraception, with a failure rate of less than 0.1%, and can be inserted up to 5 days (120 hours) after unprotected intercourse (or up to 5 days after the earliest calculated day of ovulation), providing ongoing long-term contraception for up to 10–12 years. If oral options are preferred: levonorgestrel 1.5 mg is licensed up to 72 hours (efficacy decreases with time and higher BMI); ulipristal acetate (30 mg selective progesterone receptor modulator) maintains high efficacy up to 120 hours (5 days) post-coitus.",
+      "The copper IUD (Cu-IUD) is the most effective method of emergency contraception, with a failure rate of less than 0.1%, and can be inserted up to 5 days (120 hours) after unprotected intercourse (or up to 5 days after the earliest calculated day of ovulation), providing ongoing long-term contraception for up to 10–12 years. If oral options cre preferred: levonorgestrel 1.5 mg is licensed up to 72 hours (efficacy decreases with time and higher BMI); ulipristal acetate (30 mg selective progesterone receptor modulator) maintains high efficacy up to 120 hours (5 days) post-coitus.",
     strategy: "Emergency contraception: Copper IUD is the #1 most effective emergency method (up to 5 days / 120 h). Oral LNG up to 72 h; Ulipristal up to 120 h.",
     difficulty: "easy",
     tags: ["gynaecology", "emergency-contraception", "copper-iud", "levonorgestrel", "family-planning"],
@@ -218,22 +218,22 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Irregular spotting and light bleeding are common and expected during the first 3 to 6 months, after which menstrual flow typically becomes significantly lighter, with many women developing amenorrhoea",
-      },
-      {
-        id: "b",
         text: "Menstrual flow will permanently double in volume every month, requiring weekly blood transfusions",
       },
       {
-        id: "c",
+        id: "b",
         text: "Bleeding will stop instantly today and no blood will ever be seen again",
       },
       {
-        id: "d",
+        id: "c",
         text: "Any spotting during the first month indicates immediate pelvic sepsis requiring emergency laparotomy",
       },
+      {
+        id: "d",
+        text: "Irregular spotting and light bleeding are common and expected during the first 3 to 6 months, after which menstrual flow typically becomes significantly lighter, with many women developing amenorrhoea",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
       "The levonorgestrel-releasing intrauterine system (LNG-IUS) releases local progestogen that induces profound endometrial glandular atrophy. In the initial 3–6 months following insertion, users frequently experience frequent, irregular, light bleeding or spotting as the endometrium thins. By 12 months, overall menstrual blood loss is reduced by >= 90%, and 20–50% of women achieve amenorrhoea. Anticipatory guidance regarding this transient bleeding pattern is the single most effective nursing strategy to prevent client anxiety and premature device discontinuation.",
     strategy: "LNG-IUS counselling: Anticipatory guidance on 3-6 months of benign irregular light spotting, followed by dramatically lighter periods or amenorrhoea.",
@@ -278,11 +278,11 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Schedule during the follicular phase (days 7 to 10 of the menstrual cycle, after cessation of menstrual bleeding but before ovulation), confirm a negative pregnancy test, and rule out active pelvic infection",
+        text: "Schedule during active heavy menstruation to wash out the fallopian tubes with radiographic contrast",
       },
       {
         id: "b",
-        text: "Schedule during active heavy menstruation to wash out the fallopian tubes with radiographic contrast",
+        text: "Schedule during the follicular phase (days 7 to 10 of the menstrual cycle, after cessation of menstrual bleeding but before ovulation), confirm a negative pregnancy test, and rule out active pelvic infection",
       },
       {
         id: "c",
@@ -293,7 +293,7 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Perform the procedure without confirming pregnancy status or checking for pelvic pain",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
       "Hysterosalpingography (HSG) involves fluoroscopic radiopaque contrast injection into the endocervical canal to outline the endometrial cavity and fallopian tubes. Timing is critical: it must be performed during the early follicular phase (days 7–10 of a 28-day cycle), after menstrual flow has completely ceased (to prevent retrograde flushing of menstrual debris/endometrial tissue into the peritoneal cavity and avoid venous extravasation) but BEFORE ovulation occurs (to prevent irradiating or flushing an early fertilised ovum). Active pelvic inflammatory disease is an absolute contraindication because contrast injection can precipitate fulminant pelvic peritonitis.",
     strategy: "HSG timing & safety: Days 7-10 (post-menses, pre-ovulation) + negative pregnancy test + absolute exclusion of active pelvic infection.",
@@ -308,22 +308,22 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Threatened miscarriage (abortion)",
-      },
-      {
-        id: "b",
         text: "Inevitable miscarriage",
       },
       {
-        id: "c",
+        id: "b",
         text: "Incomplete miscarriage",
+      },
+      {
+        id: "c",
+        text: "Threatened miscarriage (abortion)",
       },
       {
         id: "d",
         text: "Missed miscarriage",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
       "Spontaneous abortion categories in early pregnancy are classified clinically: (1) Threatened abortion: vaginal bleeding occurs, the cervical os remains CLOSED, and the fetus remains viable (cardiac activity present); the pregnancy may proceed successfully to term. (2) Inevitable abortion: bleeding with uterine cramping and the cervical os is DILATED (open), making pregnancy loss unavoidable. (3) Incomplete abortion: cervical os is open with partial expulsion of products of conception. (4) Complete abortion: all products expelled, os closed. (5) Missed abortion: embryo/fetal demise occurs without bleeding or expulsion; os closed.",
     strategy: "Miscarriage classification: Vaginal bleeding + CLOSED os + VIABLE fetal heartbeat = Threatened miscarriage. Reassurance and pelvic rest.",
@@ -338,22 +338,22 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Prompt treatment of Pelvic Inflammatory Disease (PID) prevents permanent tubal mucosal scaring, which dramatically reduces the lifelong risks of tubal factor infertility, ectopic pregnancy, and chronic pelvic pain",
-      },
-      {
-        id: "b",
         text: "Antibiotics cure the patient within 30 minutes, allowing immediate discharge without follow-up",
       },
       {
-        id: "c",
+        id: "b",
         text: "The CDC forbids taking swabs or microbiological cultures in any pelvic pain presentation",
       },
       {
-        id: "d",
+        id: "c",
         text: "Bacterial cultures are 100% negative in all cases of acute sexually transmitted infections",
       },
+      {
+        id: "d",
+        text: "Prompt treatment of Pelvic Inflammatory Disease (PID) prevents permanent tubal mucosal scaring, which dramatically reduces the lifelong risks of tubal factor infertility, ectopic pregnancy, and chronic pelvic pain",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
       "Pelvic Inflammatory Disease (PID) is an ascending polymicrobial infection from the endocervix into the endometrium, fallopian tubes (salpingitis), ovaries, and pelvic peritoneum, commonly triggered by Chlamydia trachomatis and Neisseria gonorrhoeae. The CDC guidelines mandate empiric antibiotic therapy in sexually active young women presenting with lower pelvic pain and at least one minimum clinical criterion (cervical motion tenderness, uterine tenderness, or adnexal tenderness). Even brief delays in treatment lead to endosalpingeal deciliation, intraluminal scarring, and tubal occlusion, causing tubal infertility (10% after 1 episode, 40% after 3 episodes), ectopic pregnancy, and chronic debilitating pelvic pain.",
     strategy: "PID urgency: Minimum criteria (cervical motion tenderness) warrants immediate empiric broad-spectrum antibiotics to prevent permanent tubal scarring and infertility.",
@@ -398,11 +398,11 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Bartholin gland abscess; perform incision and drainage with insertion of a Word catheter (or marsupialization) and prescribe sitz baths and analgesia",
+        text: "Squamous cell carcinoma of the vulva; perform an immediate radical vulvectomy",
       },
       {
         id: "b",
-        text: "Squamous cell carcinoma of the vulva; perform an immediate radical vulvectomy",
+        text: "Bartholin gland abscess; perform incision and drainage with insertion of a Word catheter (or marsupialization) and prescribe sitz baths and analgesia",
       },
       {
         id: "c",
@@ -413,7 +413,7 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Folliculitis; instruct the client to squeeze the lesion forcefully at home",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
       "The greater vestibular (Bartholin) glands are located bilaterally at the 4 and 8 o'clock positions of the posterior vaginal introitus. When the duct becomes obstructed, fluid accumulates (Bartholin cyst), which can become acutely infected and form an abscess. The patient develops rapid, severe, throbbing unilateral vulval pain and dyspareunia. Management of an abscess requires incision and drainage. Simple incision alone has an 80% recurrence rate; therefore, placing a Word catheter for 4–6 weeks (allowing epithelialization of a new tract) or performing surgical marsupialization is necessary.",
     strategy: "Bartholin abscess: Painful fluctuant mass at 4 or 8 o'clock of introitus. Treatment = I&D with Word catheter placement or marsupialization + sitz baths.",
@@ -428,22 +428,22 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Perform a direct punch biopsy of the cervical mass (or refer for urgent colposcopy with biopsy) for definitive histological staging and confirmation of cervical carcinoma",
-      },
-      {
-        id: "b",
         text: "Reassure the client that post-coital bleeding is harmless and perform a routine Pap smear in 3 years",
       },
       {
-        id: "c",
+        id: "b",
         text: "Prescribe oral metronidazole for bacterial vaginosis and discharge without further follow-up",
+      },
+      {
+        id: "c",
+        text: "Perform a direct punch biopsy of the cervical mass (or refer for urgent colposcopy with biopsy) for definitive histological staging and confirmation of cervical carcinoma",
       },
       {
         id: "d",
         text: "Cauterize the entire cervix with silver nitrate without obtaining tissue for pathology",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
       "Post-coital bleeding (contact bleeding), intermenstrual bleeding, and foul-smelling vaginal discharge are cardinal red-flag warning signs of invasive cervical carcinoma. A visible, friable, exophytic, or ulcerated cervical lesion requires an immediate tissue punch biopsy for histological evaluation. A routine cytological screening smear (Pap smear) is inappropriate and contraindicated when a gross, visible lesion is present, because cytology has a false-negative rate of up to 50% in invasive cancer due to surface necrosis and blood obscuring neoplastic cells.",
     strategy: "Cervical cancer red flags: Post-coital bleeding + visible friable cervical lesion requires direct TISSUE BIOPSY, not a screening Pap smear.",
@@ -458,22 +458,22 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Any postmenopausal bleeding is considered endometrial carcinoma until proven otherwise; refer urgently for transvaginal ultrasound (to assess endometrial stripe thickness) and endometrial biopsy (Pipelle sampling)",
-      },
-      {
-        id: "b",
         text: "Postmenopausal bleeding is a natural sign of recurring fertility in older age and requires no evaluation",
       },
       {
-        id: "c",
+        id: "b",
         text: "Administer high-dose oral vitamin K to stop the bleeding and avoid all invasive tests",
       },
       {
-        id: "d",
+        id: "c",
         text: "Advise the client that spotting is caused by psychological stress and prescribe diazepam",
       },
+      {
+        id: "d",
+        text: "Any postmenopausal bleeding is considered endometrial carcinoma until proven otherwise; refer urgently for transvaginal ultrasound (to assess endometrial stripe thickness) and endometrial biopsy (Pipelle sampling)",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
       "The cardinal clinical rule in gynaecology is that postmenopausal bleeding (PMB) is presumed to be endometrial adenocarcinoma until definitively excluded. Approximately 10% of women presenting with PMB have underlying endometrial malignancy. Initial diagnostic evaluation includes transvaginal ultrasonography (TVUS): an endometrial thickness <= 4 mm has a > 99% negative predictive value for endometrial cancer. If the endometrium is > 4 mm, irregular, or bleeding persists, outpatient endometrial biopsy (using a Pipelle aspirator) or hysteroscopy with directed biopsy is required.",
     strategy: "Postmenopausal bleeding: Cardinal rule -> Presume endometrial cancer until proven otherwise. Urgent transvaginal ultrasound & Pipelle biopsy.",
@@ -518,11 +518,11 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Unapposed systemic oestrogen stimulates continuous endometrial proliferation, dramatically increasing the risk of endometrial hyperplasia and adenocarcinoma; the progestogen induces secretory transformation, shedding the lining and protecting against cancer",
+        text: "Oestrogen alone causes immediate complete loss of hair and facial bone collapse",
       },
       {
         id: "b",
-        text: "Oestrogen alone causes immediate complete loss of hair and facial bone collapse",
+        text: "Unapposed systemic oestrogen stimulates continuous endometrial proliferation, dramatically increasing the risk of endometrial hyperplasia and adenocarcinoma; the progestogen induces secretory transformation, shedding the lining and protecting against cancer",
       },
       {
         id: "c",
@@ -533,7 +533,7 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Progestogen completely prevents all future heart disease and reverses physiological ageing",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
       "In postmenopausal women with an intact uterus, systemic oestrogen-only replacement therapy stimulates unchecked endometrial cell proliferation (mitosis), resulting in endometrial hyperplasia and a markedly elevated risk of endometrial adenocarcinoma. Adding a progestogen (either sequentially for cyclical withdrawal bleeding or continuously for amenorrhoea) antagonizes oestrogenic proliferative effects, converting the endometrium to a thin, secretory, atrophic state and preventing malignant transformation. Women who have had a surgical hysterectomy do not have an endometrium and therefore take oestrogen-only HRT.",
     strategy: "HRT pharmacology: Intact uterus requires COMBINED oestrogen + progestogen (progestogen protects against endometrial cancer). Post-hysterectomy takes oestrogen alone.",
@@ -548,22 +548,22 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Fitting of a vaginal ring pessary, combined with topical vaginal oestrogen cream to prevent mucosal ulceration, instructions on regular cleaning/replacement schedules, and pelvic floor muscle (Kegel) training",
-      },
-      {
-        id: "b",
         text: "Strict bed rest with both legs elevated on pillows permanently for the rest of her life",
       },
       {
-        id: "c",
+        id: "b",
         text: "High-dose systemic chemotherapy infusions",
+      },
+      {
+        id: "c",
+        text: "Fitting of a vaginal ring pessary, combined with topical vaginal oestrogen cream to prevent mucosal ulceration, instructions on regular cleaning/replacement schedules, and pelvic floor muscle (Kegel) training",
       },
       {
         id: "d",
         text: "Inserting tight vaginal gauze packs packed with dry salt",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
       "Pelvic organ prolapse (POP) results from attenuation and stretching of the endopelvic fascia and levator ani pelvic diaphragm muscles. In frail older women or those who decline or are unfit for surgery, vaginal pessaries (e.g., silicone ring or Gellhorn pessaries) provide an effective, safe conservative solution. The pessary mechanically elevates the prolapsed pelvic organs. Nursing care includes: (1) ensuring correct size fit; (2) teaching hygiene and removal/cleaning intervals (or scheduling clinic follow-up every 3–6 months); (3) prescribing local topical oestrogen cream to prevent vaginal epithelial ulceration; and (4) pelvic floor muscle training.",
     strategy: "Pelvic organ prolapse: Conservative care for high surgical risk = Vaginal pessary + local oestrogen cream to prevent erosion + Kegel exercises.",
@@ -578,22 +578,22 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Ensure immediate safety and emotional support; obtain forensic evidence maintaining chain of custody (if consented); administer emergency contraception; initiate HIV Post-Exposure Prophylaxis (PEP within 72 h for 28 days); provide presumptive STI prophylaxis (ceftriaxone, doxycycline, metronidazole); and arrange psychosocial counseling",
-      },
-      {
-        id: "b",
         text: "Direct the client to take a hot bath, wash all her clothing immediately, and return next week for routine blood tests",
       },
       {
-        id: "c",
+        id: "b",
         text: "Interrogate the client aggressively regarding her clothing and alcohol intake before offering medical care",
       },
       {
-        id: "d",
+        id: "c",
         text: "Refuse medical care until police officers finish interrogating her in the public waiting room",
       },
+      {
+        id: "d",
+        text: "Ensure immediate safety and emotional support; obtain forensic evidence maintaining chain of custody (if consented); administer emergency contraception; initiate HIV Post-Exposure Prophylaxis (PEP within 72 h for 28 days); provide presumptive STI prophylaxis (ceftriaxone, doxycycline, metronidazole); and arrange psychosocial counseling",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
       "Management of sexual assault requires a compassionate, trauma-informed approach addressing immediate medical, legal, and psychological needs: (1) Physical and psychological safety in a private environment; (2) Forensic evidence collection (clothing, swabs) before bathing, maintaining strict chain of custody; (3) Emergency contraception (levonorgestrel, ulipristal, or copper IUD) to prevent unwanted pregnancy; (4) HIV Post-Exposure Prophylaxis (PEP) started urgently within 72 hours and continued for 28 days; (5) Empiric antimicrobial prophylaxis against gonorrhoea, chlamydia, and trichomoniasis; (6) Tetanus and Hepatitis B vaccination; and (7) Structured psychological crisis intervention.",
     strategy: "Sexual assault care bundle: Safety/trauma-informed care + forensic chain of custody + emergency contraception + HIV PEP (< 72 h) + empiric STI prophylaxis + counseling.",

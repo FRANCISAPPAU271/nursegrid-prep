@@ -112021,11 +112021,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Aortic stenosis"
+   "text": "Mitral regurgitation"
   },
   {
    "id": "b",
-   "text": "Mitral regurgitation"
+   "text": "Aortic stenosis"
   },
   {
    "id": "c",
@@ -112036,8 +112036,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Stable angina"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Exertional syncope, exertional breathlessness and a harsh ejection systolic murmur radiating to the carotids are the classic triad of severe aortic stenosis. The narrowed valve cannot increase output as demand rises, so blood pressure falls and the patient faints; symptom onset marks a sharp rise in the risk of sudden death and is an indication for urgent assessment. Option B produces a pansystolic murmur at the apex radiating to the axilla. Option C gives tearing pain, not exertional syncope. Option D causes chest pain rather than syncope, and does not produce that murmur.",
+ "correctChoiceId": "b",
+ "rationale": "Exertional syncope, exertional breathlessness and a harsh ejection systolic murmur radiating to the carotids are the classic triad of severe aortic stenosis. The narrowed valve cannot increase output as demand rises, so blood pressure falls and the patient faints; symptom onset marks a sharp rise in the risk of sudden death and is an indication for urgent assessment. Option A produces a pansystolic murmur at the apex radiating to the axilla. Option C gives tearing pain, not exertional syncope. Option D causes chest pain rather than syncope, and does not produce that murmur.",
  "strategy": "Exertional syncope plus a murmur radiating to the carotids equals aortic stenosis. It is not benign.",
  "difficulty": "hard",
  "tags": [
@@ -112052,23 +112052,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Infective endocarditis"
-  },
-  {
-   "id": "b",
    "text": "An uncomplicated influenza illness"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Rheumatoid arthritis"
+  },
+  {
+   "id": "c",
+   "text": "Infective endocarditis"
   },
   {
    "id": "d",
    "text": "Aortic stenosis"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Fever that persists beyond a week in someone with a prosthetic valve, together with a new murmur and Osler nodes, is infective endocarditis, and the prosthetic material makes it both more likely and more dangerous. Blood cultures are taken from separate sites before antibiotics, and an echocardiogram is arranged urgently. Option B does not produce a new murmur or embolic skin lesions. Option C does not cause a new murmur with fever. Option D is a structural diagnosis, not an infection, and would not explain the fever.",
+ "correctChoiceId": "c",
+ "rationale": "Fever that persists beyond a week in someone with a prosthetic valve, together with a new murmur and Osler nodes, is infective endocarditis, and the prosthetic material makes it both more likely and more dangerous. Blood cultures are taken from separate sites before antibiotics, and an echocardiogram is arranged urgently. Option A does not produce a new murmur or embolic skin lesions. Option B does not cause a new murmur with fever. Option D is a structural diagnosis, not an infection, and would not explain the fever.",
  "strategy": "Prosthetic valve plus persistent fever plus new murmur means endocarditis. Culture first, then treat.",
  "difficulty": "hard",
  "tags": [
@@ -112083,23 +112083,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Obtain a 12-lead electrocardiogram and activate the acute coronary syndrome pathway"
-  },
-  {
-   "id": "b",
    "text": "Give him an antacid and observe whether the pain settles"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Ask him to sit in the waiting area until a bed is free"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Arrange a fasting lipid profile before any treatment"
+  },
+  {
+   "id": "d",
+   "text": "Obtain a 12-lead electrocardiogram and activate the acute coronary syndrome pathway"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Central crushing pain radiating to the jaw with sweating and nausea is acute coronary syndrome, and the single time-critical action is a 12-lead electrocardiogram within about ten minutes of arrival, read and acted on, alongside oxygen if hypoxic, aspirin, and continuous monitoring. Option B treats cardiac pain as indigestion and wastes the reperfusion window. Option C delays a patient who may be in ventricular fibrillation within the hour. Option D investigates risk factors long after the diagnosis must be made.",
+ "correctChoiceId": "d",
+ "rationale": "Central crushing pain radiating to the jaw with sweating and nausea is acute coronary syndrome, and the single time-critical action is a 12-lead electrocardiogram within about ten minutes of arrival, read and acted on, alongside oxygen if hypoxic, aspirin, and continuous monitoring. Option A treats cardiac pain as indigestion and wastes the reperfusion window. Option B delays a patient who may be in ventricular fibrillation within the hour. Option C investigates risk factors long after the diagnosis must be made.",
  "strategy": "Chest pain plus jaw radiation plus sweating equals ACS. ECG in ten minutes, then escalate.",
  "difficulty": "hard",
  "tags": [
@@ -112148,11 +112148,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "A repeat troponin after an interval, with continuous monitoring, because a single early sample cannot exclude infarction"
+   "text": "Discharge home, because a normal troponin excludes infarction"
   },
   {
    "id": "b",
-   "text": "Discharge home, because a normal troponin excludes infarction"
+   "text": "A repeat troponin after an interval, with continuous monitoring, because a single early sample cannot exclude infarction"
   },
   {
    "id": "c",
@@ -112163,8 +112163,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "A troponin repeated in seven days"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Troponin is released only once myocardium has died, and it takes hours to become detectable, so a normal result very early after the onset of pain does not exclude infarction. The protocol is a repeat sample at a set interval with ECG monitoring and clinical reassessment. Option B would discharge a patient in the highest-risk window. Option C gives a dangerous drug without evidence. Option D is far too late to guide treatment.",
+ "correctChoiceId": "b",
+ "rationale": "Troponin is released only once myocardium has died, and it takes hours to become detectable, so a normal result very early after the onset of pain does not exclude infarction. The protocol is a repeat sample at a set interval with ECG monitoring and clinical reassessment. Option A would discharge a patient in the highest-risk window. Option C gives a dangerous drug without evidence. Option D is far too late to guide treatment.",
  "strategy": "A normal early troponin means nothing yet. Repeat it on the protocol and keep monitoring.",
  "difficulty": "hard",
  "tags": [
@@ -112179,23 +112179,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Chewing breaks the tablet up so it is absorbed quickly and starts working sooner"
-  },
-  {
-   "id": "b",
    "text": "Chewing prevents the aspirin from irritating the stomach"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Chewing reduces the dose needed"
+  },
+  {
+   "id": "c",
+   "text": "Chewing breaks the tablet up so it is absorbed quickly and starts working sooner"
   },
   {
    "id": "d",
    "text": "Chewing stops the aspirin affecting clotting"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Aspirin needs to block platelet aggregation on the ruptured plaque as fast as possible, and a chewed tablet is absorbed through the buccal and gastric mucosa far sooner than a swallowed one. Option B is wrong: chewing does not protect the stomach, and the irritation is a separate concern. Option C is wrong because the dose is unchanged. Option D is the opposite of the drug's purpose.",
+ "correctChoiceId": "c",
+ "rationale": "Aspirin needs to block platelet aggregation on the ruptured plaque as fast as possible, and a chewed tablet is absorbed through the buccal and gastric mucosa far sooner than a swallowed one. Option A is wrong: chewing does not protect the stomach, and the irritation is a separate concern. Option B is wrong because the dose is unchanged. Option D is the opposite of the drug's purpose.",
  "strategy": "In suspected MI aspirin is chewed, not swallowed, so it works in minutes.",
  "difficulty": "hard",
  "tags": [
@@ -112210,23 +112210,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "A non-steroidal anti-inflammatory drug with colchicine"
-  },
-  {
-   "id": "b",
    "text": "Intravenous antibiotics"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "A beta blocker to slow the heart rate"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Long-term anticoagulation"
+  },
+  {
+   "id": "d",
+   "text": "A non-steroidal anti-inflammatory drug with colchicine"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Acute pericarditis is treated with a non-steroidal anti-inflammatory drug for the inflammation and pain, combined with colchicine because it lowers the rate of recurrence and prevents constrictive complications. Option B treats an infection the client may not have; antibiotics are used only if there is a proven cause. Option C does not treat the inflammation. Option D is irrelevant here and, in pericarditis with effusion, would carry its own risk of haemopericardium.",
+ "correctChoiceId": "d",
+ "rationale": "Acute pericarditis is treated with a non-steroidal anti-inflammatory drug for the inflammation and pain, combined with colchicine because it lowers the rate of recurrence and prevents constrictive complications. Option A treats an infection the client may not have; antibiotics are used only if there is a proven cause. Option B does not treat the inflammation. Option C is irrelevant here and, in pericarditis with effusion, would carry its own risk of haemopericardium.",
  "strategy": "Pericarditis: NSAID plus colchicine. Antibiotics only for a proven cause.",
  "difficulty": "hard",
  "tags": [
@@ -112272,11 +112272,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Weigh daily and report a 2 kg gain in three days"
+   "text": "Take the tablet at night to avoid daytime urination"
   },
   {
    "id": "b",
-   "text": "Take the tablet at night to avoid daytime urination"
+   "text": "Weigh daily and report a 2 kg gain in three days"
   },
   {
    "id": "c",
@@ -112287,8 +112287,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Double the dose on days when breathing is worse"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Daily weight is the earliest reliable sign of fluid retention, and a gain of about 2 kg over three days signals decompensation before breathlessness or oedema appear. The client needs to know the threshold at which to seek help.\n\nWhy the other options fail:\n• B — Diuretics are taken in the morning; night dosing causes nocturia and falls.\n• C — Stopping when swelling settles withdraws the treatment that keeps the client compensated.\n• D — Clients never adjust a diuretic dose themselves; that risks dehydration and electrolyte loss.\n\nReference: Ghana STG — heart failure; diuretic counselling",
+ "correctChoiceId": "b",
+ "rationale": "Daily weight is the earliest reliable sign of fluid retention, and a gain of about 2 kg over three days signals decompensation before breathlessness or oedema appear. The client needs to know the threshold at which to seek help.\n\nWhy the other options fail:\n• A — Diuretics are taken in the morning; night dosing causes nocturia and falls.\n• C — Stopping when swelling settles withdraws the treatment that keeps the client compensated.\n• D — Clients never adjust a diuretic dose themselves; that risks dehydration and electrolyte loss.\n\nReference: Ghana STG — heart failure; diuretic counselling",
  "strategy": "Counselling answers name a number the client can act on at home.",
  "difficulty": "hard",
  "tags": [
@@ -112306,22 +112306,22 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Serum potassium and creatinine"
-  },
-  {
-   "id": "b",
    "text": "Serum amylase and lipase"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Full blood count only"
+  },
+  {
+   "id": "c",
+   "text": "Serum potassium and creatinine"
   },
   {
    "id": "d",
    "text": "Thyroid function only"
   }
  ],
- "correctChoiceId": "a",
+ "correctChoiceId": "c",
  "rationale": "ACE inhibitors reduce aldosterone, so potassium rises, and they reduce glomerular pressure, so creatinine can rise, particularly in a patient with renal artery stenosis or a depleted circulation. Potassium and creatinine are checked before treatment and again after starting or increasing the dose, and the patient is warned about the dry cough and about angioedema. Amylase, lipase and thyroid function are not the parameters this drug class affects.",
  "strategy": "ACE inhibitors raise potassium and creatinine. Check both after starting.",
  "difficulty": "hard",
@@ -112337,23 +112337,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Stopping smoking"
-  },
-  {
-   "id": "b",
    "text": "His age"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "His family history of hypertension"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "His biological sex"
+  },
+  {
+   "id": "d",
+   "text": "Stopping smoking"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Smoking is the most powerful modifiable contributor: each cigarette raises blood pressure acutely, and smoking damages the vessels that hypertension is already stressing, so quitting reduces cardiovascular risk immediately and continues to do so. Options B, C and D are fixed characteristics. They affect risk and they explain why he needs a lower target, but no advice changes them.",
+ "correctChoiceId": "d",
+ "rationale": "Smoking is the most powerful modifiable contributor: each cigarette raises blood pressure acutely, and smoking damages the vessels that hypertension is already stressing, so quitting reduces cardiovascular risk immediately and continues to do so. Options A, B and D are fixed characteristics. They affect risk and they explain why he needs a lower target, but no advice changes them.",
  "strategy": "Address the modifiable factors, and start with smoking because it multiplies every other risk.",
  "difficulty": "hard",
  "tags": [
@@ -112400,11 +112400,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Call for emergency help, keep him flat and prepare for urgent surgery with blood ready"
+   "text": "Palpate the mass firmly to assess its size"
   },
   {
    "id": "b",
-   "text": "Palpate the mass firmly to assess its size"
+   "text": "Call for emergency help, keep him flat and prepare for urgent surgery with blood ready"
   },
   {
    "id": "c",
@@ -112415,8 +112415,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Apply a heat pack to the back pain"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "A tender pulsatile abdominal mass with back pain and shock is a leaking or ruptured abdominal aortic aneurysm, and death can occur within minutes; the patient is kept flat, help is summoned immediately, and blood products and theatre are prepared. Option B risks precipitating rupture. Option C delays a surgical emergency and oral fluids are inappropriate in a patient who may be anaesthetised at any moment. Option D has no effect on the bleeding and wastes time.",
+ "correctChoiceId": "b",
+ "rationale": "A tender pulsatile abdominal mass with back pain and shock is a leaking or ruptured abdominal aortic aneurysm, and death can occur within minutes; the patient is kept flat, help is summoned immediately, and blood products and theatre are prepared. Option A risks precipitating rupture. Option C delays a surgical emergency and oral fluids are inappropriate in a patient who may be anaesthetised at any moment. Option D has no effect on the bleeding and wastes time.",
  "strategy": "Back pain plus pulsatile abdominal mass plus shock is a ruptured aneurysm. Theatre, not assessment.",
  "difficulty": "hard",
  "tags": [
@@ -112431,23 +112431,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Full blood count with serum ferritin"
-  },
-  {
-   "id": "b",
    "text": "A fasting blood glucose"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Serum calcium"
+  },
+  {
+   "id": "c",
+   "text": "Full blood count with serum ferritin"
   },
   {
    "id": "d",
    "text": "A chest radiograph"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Spoon-shaped nails, a sore smooth tongue and pale conjunctivae together point to iron deficiency, and the first step is a full blood count showing a microcytic hypochromic anaemia with a low ferritin confirming depleted iron stores. Once confirmed, the cause must be found, particularly bleeding. Option B investigates diabetes, which does not produce these findings. Option C does not explain anaemia or nail changes. Option D is not the first-line test for this presentation.",
+ "correctChoiceId": "c",
+ "rationale": "Spoon-shaped nails, a sore smooth tongue and pale conjunctivae together point to iron deficiency, and the first step is a full blood count showing a microcytic hypochromic anaemia with a low ferritin confirming depleted iron stores. Once confirmed, the cause must be found, particularly bleeding. Option A investigates diabetes, which does not produce these findings. Option B does not explain anaemia or nail changes. Option D is not the first-line test for this presentation.",
  "strategy": "Spooned nails plus a sore tongue equals iron deficiency. Find the iron, then find the bleeding.",
  "difficulty": "hard",
  "tags": [
@@ -112463,23 +112463,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Treat it as an emergency: take cultures and obtain urgent medical review for intravenous antibiotics"
-  },
-  {
-   "id": "b",
    "text": "Give paracetamol and reassess in the morning"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Advise him to increase oral fluids and stay at home"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Arrange an outpatient review next week"
+  },
+  {
+   "id": "d",
+   "text": "Treat it as an emergency: take cultures and obtain urgent medical review for intravenous antibiotics"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Sickle cell disease causes functional asplenia through repeated infarction of the spleen, so the patient cannot mount a response to encapsulated organisms, and pneumococcal sepsis can kill within hours of a first fever. A temperature above 38°C is therefore treated as an emergency with cultures and prompt intravenous antibiotics. Option B allows sepsis to progress through the night. Option C leaves a bacteraemic patient at home. Option D delays treatment by days.",
+ "correctChoiceId": "d",
+ "rationale": "Sickle cell disease causes functional asplenia through repeated infarction of the spleen, so the patient cannot mount a response to encapsulated organisms, and pneumococcal sepsis can kill within hours of a first fever. A temperature above 38°C is therefore treated as an emergency with cultures and prompt intravenous antibiotics. Option A allows sepsis to progress through the night. Option B leaves a bacteraemic patient at home. Option C delays treatment by days.",
  "strategy": "Fever in sickle cell disease is sepsis until proved otherwise. Cultures, then antibiotics, now.",
  "difficulty": "hard",
  "tags": [
@@ -112525,11 +112525,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Splenic sequestration with sudden severe anaemia"
+   "text": "Iron-deficiency anaemia"
   },
   {
    "id": "b",
-   "text": "Iron-deficiency anaemia"
+   "text": "Splenic sequestration with sudden severe anaemia"
   },
   {
    "id": "c",
@@ -112540,8 +112540,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Acute chest syndrome"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "In splenic sequestration the spleen traps red cells, so the haemoglobin falls abruptly while the spleen enlarges rapidly. The child becomes pale, drowsy and tachycardic and can go into hypovolaemic shock within hours, which makes it an emergency requiring urgent cross-match and transfusion. Parents are taught to feel for an enlarging spleen and to bring the child immediately. Option B develops over weeks rather than hours. Option C does not explain sudden pallor with a swollen abdomen. Option D produces chest pain, fever and respiratory signs rather than a splenic mass.",
+ "correctChoiceId": "b",
+ "rationale": "In splenic sequestration the spleen traps red cells, so the haemoglobin falls abruptly while the spleen enlarges rapidly. The child becomes pale, drowsy and tachycardic and can go into hypovolaemic shock within hours, which makes it an emergency requiring urgent cross-match and transfusion. Parents are taught to feel for an enlarging spleen and to bring the child immediately. Option A develops over weeks rather than hours. Option C does not explain sudden pallor with a swollen abdomen. Option D produces chest pain, fever and respiratory signs rather than a splenic mass.",
  "strategy": "Sudden pallor with a rapidly enlarging spleen in sickle cell disease means sequestration: transfuse urgently.",
  "difficulty": "hard",
  "tags": [
@@ -112556,23 +112556,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "PaCO2 of 26 mmHg"
-  },
-  {
-   "id": "b",
    "text": "PaCO2 of 52 mmHg"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "PaCO2 of 40 mmHg"
+  },
+  {
+   "id": "c",
+   "text": "PaCO2 of 26 mmHg"
   },
   {
    "id": "d",
    "text": "PaCO2 of 60 mmHg"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "In metabolic acidosis the lungs compensate by hyperventilating, which blows off carbon dioxide and drives PaCO2 below the normal 35 to 45 mmHg range. A PaCO2 of 26 mmHg alongside a pH of 7.18 and a bicarbonate of 9 mmol/L is the expected respiratory compensation.\n\nWhy the other options fail:\n• B — A PaCO2 of 52 mmHg indicates hypoventilation and would deepen the acidosis, not compensate for it.\n• C — A PaCO2 of 40 mmHg is a normal value, so no compensation has occurred at all.\n• D — A PaCO2 of 60 mmHg represents a second, respiratory acidosis on top of the metabolic one.\n\nReference: Ghana STG — acid–base interpretation; compensation",
+ "correctChoiceId": "c",
+ "rationale": "In metabolic acidosis the lungs compensate by hyperventilating, which blows off carbon dioxide and drives PaCO2 below the normal 35 to 45 mmHg range. A PaCO2 of 26 mmHg alongside a pH of 7.18 and a bicarbonate of 9 mmol/L is the expected respiratory compensation.\n\nWhy the other options fail:\n• A — A PaCO2 of 52 mmHg indicates hypoventilation and would deepen the acidosis, not compensate for it.\n• B — A PaCO2 of 40 mmHg is a normal value, so no compensation has occurred at all.\n• D — A PaCO2 of 60 mmHg represents a second, respiratory acidosis on top of the metabolic one.\n\nReference: Ghana STG — acid–base interpretation; compensation",
  "strategy": "Interpret the bicarbonate to name the primary disorder, then check whether carbon dioxide has moved the opposite way.",
  "difficulty": "hard",
  "tags": [
@@ -112590,23 +112590,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Rapid correction can cause cerebral oedema as water shifts into brain cells"
-  },
-  {
-   "id": "b",
    "text": "Rapid correction causes immediate renal failure"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Rapid correction causes hyperkalaemia"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Rapid correction makes the patient dehydrated"
+  },
+  {
+   "id": "d",
+   "text": "Rapid correction can cause cerebral oedema as water shifts into brain cells"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "In hypernatraemia the brain has adapted by generating idiogenic osmoles to hold water, and if the sodium is dropped faster than the brain can readjust, water floods into the cells and produces cerebral oedema with seizures. Correction is therefore limited to about 10 mmol/L in 24 hours. Option B is not a consequence of correcting sodium. Option C is unrelated; potassium is not driven by sodium correction. Option D is the opposite, since the patient is already water-depleted and is being rehydrated.",
+ "correctChoiceId": "d",
+ "rationale": "In hypernatraemia the brain has adapted by generating idiogenic osmoles to hold water, and if the sodium is dropped faster than the brain can readjust, water floods into the cells and produces cerebral oedema with seizures. Correction is therefore limited to about 10 mmol/L in 24 hours. Option A is not a consequence of correcting sodium. Option B is unrelated; potassium is not driven by sodium correction. Option C is the opposite, since the patient is already water-depleted and is being rehydrated.",
  "strategy": "Correct hypernatraemia at about 10 mmol/L per day, or the brain swells.",
  "difficulty": "hard",
  "tags": [
@@ -113928,11 +113928,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Hold the dose and notify the prescriber, anticipating a dose or interval change"
+   "text": "Give the next dose early to maintain the level"
   },
   {
    "id": "b",
-   "text": "Give the next dose early to maintain the level"
+   "text": "Hold the dose and notify the prescriber, anticipating a dose or interval change"
   },
   {
    "id": "c",
@@ -113943,8 +113943,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Double the dose to ensure the infection is covered"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "A vancomycin trough of 25 mg/L is well above the usual target range, and the risk of nephrotoxicity rises steeply with sustained high exposure, so the dose is withheld and the prescriber informed. Levels are taken immediately before the next dose so that the result reflects the trough. Option B raises the level further. Option C abandons the monitoring that keeps the drug safe. Option D is the opposite of what a high level calls for.",
+ "correctChoiceId": "b",
+ "rationale": "A vancomycin trough of 25 mg/L is well above the usual target range, and the risk of nephrotoxicity rises steeply with sustained high exposure, so the dose is withheld and the prescriber informed. Levels are taken immediately before the next dose so that the result reflects the trough. Option A raises the level further. Option C abandons the monitoring that keeps the drug safe. Option D is the opposite of what a high level calls for.",
  "strategy": "High vancomycin trough means hold and re-check. Never chase a trough upwards.",
  "difficulty": "hard",
  "tags": [
@@ -113960,23 +113960,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "A new order for aspirin for mild joint pain"
-  },
-  {
-   "id": "b",
    "text": "An order to withhold the next warfarin dose"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "An order to give oral vitamin K"
+  },
+  {
+   "id": "c",
+   "text": "A new order for aspirin for mild joint pain"
   },
   {
    "id": "d",
    "text": "An order to recheck the INR in the morning"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "The INR is far above target and the gums are already bleeding, so adding an antiplatelet drug that also damages the gastric mucosa would compound a serious bleeding risk, and the nurse should query it. Options B, C and D are all appropriate: the warfarin is held, vitamin K reverses the effect, and the INR is rechecked to confirm the response.",
+ "correctChoiceId": "c",
+ "rationale": "The INR is far above target and the gums are already bleeding, so adding an antiplatelet drug that also damages the gastric mucosa would compound a serious bleeding risk, and the nurse should query it. Options A, B and D are all appropriate: the warfarin is held, vitamin K reverses the effect, and the INR is rechecked to confirm the response.",
  "strategy": "Already bleeding and over-anticoagulated? The antiplatelet is the order to stop and question.",
  "difficulty": "hard",
  "tags": [
@@ -113992,23 +113992,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Assess oxygenation, work of breathing and the ECG, and report if the tachycardia is marked or persistent"
-  },
-  {
-   "id": "b",
    "text": "Stop all bronchodilators permanently"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Give a beta blocker to slow the heart"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Assume the asthma is worsening and give another nebuliser without assessment"
+  },
+  {
+   "id": "d",
+   "text": "Assess oxygenation, work of breathing and the ECG, and report if the tachycardia is marked or persistent"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Tremor and tachycardia are expected beta2-agonist effects and are usually tolerable, so the question is whether the patient is better or worse. Assessing saturation, work of breathing, speech and the ECG distinguishes the expected side effects from a worsening asthma attack or an arrhythmia. Option B removes the treatment that is keeping the airway open. Option C would precipitate bronchospasm. Option D treats a side effect as if it were the disease.",
+ "correctChoiceId": "d",
+ "rationale": "Tremor and tachycardia are expected beta2-agonist effects and are usually tolerable, so the question is whether the patient is better or worse. Assessing saturation, work of breathing, speech and the ECG distinguishes the expected side effects from a worsening asthma attack or an arrhythmia. Option A removes the treatment that is keeping the airway open. Option B would precipitate bronchospasm. Option C treats a side effect as if it were the disease.",
  "strategy": "Salbutamol always causes tremor and tachycardia. Judge the patient, not the reading.",
  "difficulty": "hard",
  "tags": [
@@ -114088,23 +114088,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Through the outer mid-thigh clothing if necessary"
-  },
-  {
-   "id": "b",
    "text": "Into the deltoid after removing all clothing"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Into the abdomen"
+  },
+  {
+   "id": "c",
+   "text": "Through the outer mid-thigh clothing if necessary"
   },
   {
    "id": "d",
    "text": "Deep into the gluteal muscle"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "The auto-injector is delivered into the outer mid-thigh and can be given through clothing if needed; delaying treatment is dangerous.\n\nWhy the other options fail:\n• B — Moving to the deltoid wastes time in anaphylaxis, and the thigh is the recommended site even through clothing.\n• C — The abdomen is not the recommended site for an auto-injector and absorption is less reliable than from the thigh.\n• D — The gluteal site is not used for self-injection and would delay treatment while clothing is removed.",
+ "correctChoiceId": "c",
+ "rationale": "The auto-injector is delivered into the outer mid-thigh and can be given through clothing if needed; delaying treatment is dangerous.\n\nWhy the other options fail:\n• A — Moving to the deltoid wastes time in anaphylaxis, and the thigh is the recommended site even through clothing.\n• B — The abdomen is not the recommended site for an auto-injector and absorption is less reliable than from the thigh.\n• D — The gluteal site is not used for self-injection and would delay treatment while clothing is removed.",
  "strategy": "For anaphylaxis, give IM epinephrine promptly in the outer mid-thigh.",
  "difficulty": "hard",
  "tags": [
@@ -114124,19 +114124,19 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Contact pharmacy or the prescriber for a suitable formulation"
-  },
-  {
-   "id": "c",
    "text": "Force the patient to swallow it"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Ask a relative to administer it"
+  },
+  {
+   "id": "d",
+   "text": "Contact pharmacy or the prescriber for a suitable formulation"
   }
  ],
- "correctChoiceId": "b",
- "rationale": "The nurse should not alter a medication without checking formulation and stability. Pharmacy can identify a liquid or appropriate alternative.\n\nWhy the other options fail:\n• A — Crushing an unverified tablet can destroy a modified-release preparation and release the dose at once.\n• C — Forcing a patient to swallow risks aspiration and is never acceptable.\n• D — Asking a relative to administer medication takes the prescription outside the hands of the people accountable for it.",
+ "correctChoiceId": "d",
+ "rationale": "The nurse should not alter a medication without checking formulation and stability. Pharmacy can identify a liquid or appropriate alternative.\n\nWhy the other options fail:\n• A — Crushing an unverified tablet can destroy a modified-release preparation and release the dose at once.\n• B — Forcing a patient to swallow risks aspiration and is never acceptable.\n• C — Asking a relative to administer medication takes the prescription outside the hands of the people accountable for it.",
  "strategy": "Difficulty swallowing requires formulation review, not unauthorised crushing.",
  "difficulty": "hard",
  "tags": [
@@ -114152,11 +114152,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Dehydration only"
+   "text": "Water intoxication or hyponatraemia"
   },
   {
    "id": "b",
-   "text": "Water intoxication or hyponatraemia"
+   "text": "Dehydration only"
   },
   {
    "id": "c",
@@ -114167,8 +114167,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Hyperglycaemia only"
   }
  ],
- "correctChoiceId": "b",
- "rationale": "Excess desmopressin can cause water retention and dilutional hyponatraemia, producing headache, nausea, confusion or drowsiness.\n\nWhy the other options fail:\n• A — Dehydration alone does not explain drowsiness and headache in a patient taking desmopressin, which retains water.\n• C — Iron deficiency causes fatigue and pallor, not acute drowsiness with headache.\n• D — Hyperglycaemia is not the effect of desmopressin, which is an antidiuretic.",
+ "correctChoiceId": "a",
+ "rationale": "Excess desmopressin can cause water retention and dilutional hyponatraemia, producing headache, nausea, confusion or drowsiness.\n\nWhy the other options fail:\n• B — Dehydration alone does not explain drowsiness and headache in a patient taking desmopressin, which retains water.\n• C — Iron deficiency causes fatigue and pallor, not acute drowsiness with headache.\n• D — Hyperglycaemia is not the effect of desmopressin, which is an antidiuretic.",
  "strategy": "Desmopressin toxicity looks like water excess; monitor sodium, weight and neurological status.",
  "difficulty": "hard",
  "tags": [
@@ -114184,11 +114184,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Giving it as a direct intravenous bolus"
+   "text": "Diluting it and infusing it by a volumetric pump"
   },
   {
    "id": "b",
-   "text": "Diluting it and infusing it by a volumetric pump"
+   "text": "Giving it as a direct intravenous bolus"
   },
   {
    "id": "c",
@@ -114199,8 +114199,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Monitoring the cardiac rhythm during the infusion"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Concentrated potassium given as a bolus reaches the myocardium at a concentration that can stop the heart, which is why it is always diluted and infused at a controlled rate, usually no faster than 10 mmol per hour peripherally. Options B, C and D are all correct practice: a pump controls the rate, the potassium and renal function determine the dose, and the rhythm detects the effect.",
+ "correctChoiceId": "b",
+ "rationale": "Concentrated potassium given as a bolus reaches the myocardium at a concentration that can stop the heart, which is why it is always diluted and infused at a controlled rate, usually no faster than 10 mmol per hour peripherally. Options A, C and D are all correct practice: a pump controls the rate, the potassium and renal function determine the dose, and the rhythm detects the effect.",
  "strategy": "Never push potassium. Dilute it, pump it, and watch the rhythm.",
  "difficulty": "hard",
  "tags": [
@@ -114216,23 +114216,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Withholding the next dose and considering vitamin K as prescribed"
-  },
-  {
-   "id": "b",
    "text": "Giving the usual dose because there is no bleeding"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Giving an extra dose to bring the INR down"
+  },
+  {
+   "id": "c",
+   "text": "Withholding the next dose and considering vitamin K as prescribed"
   },
   {
    "id": "d",
    "text": "Switching immediately to heparin without advice"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "An INR of 5.5 is well above the therapeutic range of 2 to 3 for most indications, and although the patient is not bleeding the risk of haemorrhage is high. The prescription is usually withheld, the INR rechecked, and vitamin K considered, with a search for the cause such as a new interacting drug. Option B adds to the anticoagulation. Option C is a contradiction: warfarin raises the INR, so more would raise it further. Option D is a decision for the prescriber, not an automatic substitution.",
+ "correctChoiceId": "c",
+ "rationale": "An INR of 5.5 is well above the therapeutic range of 2 to 3 for most indications, and although the patient is not bleeding the risk of haemorrhage is high. The prescription is usually withheld, the INR rechecked, and vitamin K considered, with a search for the cause such as a new interacting drug. Option A adds to the anticoagulation. Option B is a contradiction: warfarin raises the INR, so more would raise it further. Option D is a decision for the prescriber, not an automatic substitution.",
  "strategy": "High INR without bleeding: hold the dose, recheck, and expect vitamin K to be considered.",
  "difficulty": "hard",
  "tags": [
@@ -114248,23 +114248,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Report it, because the prescriber may switch to an alternative such as an ARB"
-  },
-  {
-   "id": "b",
    "text": "Reassure the patient that the cough will always resolve on its own"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Stop the drug permanently without telling anyone"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Increase the dose to settle the cough"
+  },
+  {
+   "id": "d",
+   "text": "Report it, because the prescriber may switch to an alternative such as an ARB"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "A dry, tickly cough affects a significant minority of patients on ACE inhibitors and is caused by bradykinin accumulation. It does not settle for most people, and if it is troublesome the prescriber usually substitutes an angiotensin receptor blocker, which does not cause it. Option B is wrong because the cough is characteristically persistent. Option C removes a drug the patient needs without review. Option D would not help and could worsen hypotension.",
+ "correctChoiceId": "d",
+ "rationale": "A dry, tickly cough affects a significant minority of patients on ACE inhibitors and is caused by bradykinin accumulation. It does not settle for most people, and if it is troublesome the prescriber usually substitutes an angiotensin receptor blocker, which does not cause it. Option A is wrong because the cough is characteristically persistent. Option B removes a drug the patient needs without review. Option C would not help and could worsen hypotension.",
  "strategy": "ACE inhibitor cough is common and persistent; the answer is usually an ARB.",
  "difficulty": "hard",
  "tags": [
@@ -114312,11 +114312,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Naloxone"
+   "text": "Flumazenil"
   },
   {
    "id": "b",
-   "text": "Flumazenil"
+   "text": "Naloxone"
   },
   {
    "id": "c",
@@ -114327,8 +114327,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Protamine"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "The findings indicate opioid-induced respiratory depression. Naloxone reverses opioid effects while airway and ventilation support are provided.\n\nWhy the other options fail:\n• B — Flumazenil reverses benzodiazepines; this patient has opioid toxicity, with pinpoint pupils and slow breathing.\n• C — Vitamin K reverses warfarin and has nothing to do with opioid depression.\n• D — Protamine reverses heparin, not opioids.",
+ "correctChoiceId": "b",
+ "rationale": "The findings indicate opioid-induced respiratory depression. Naloxone reverses opioid effects while airway and ventilation support are provided.\n\nWhy the other options fail:\n• A — Flumazenil reverses benzodiazepines; this patient has opioid toxicity, with pinpoint pupils and slow breathing.\n• C — Vitamin K reverses warfarin and has nothing to do with opioid depression.\n• D — Protamine reverses heparin, not opioids.",
  "strategy": "Prioritise respiratory rate and consciousness; opioid respiratory depression requires naloxone and ventilation support.",
  "difficulty": "hard",
  "tags": [
@@ -114344,23 +114344,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Use meticulous oral hygiene and attend dental reviews"
-  },
-  {
-   "id": "b",
    "text": "Stop phenytoin abruptly"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Avoid all fluids"
+  },
+  {
+   "id": "c",
+   "text": "Use meticulous oral hygiene and attend dental reviews"
   },
   {
    "id": "d",
    "text": "Double the dose"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Gingival hyperplasia is associated with phenytoin. Good oral hygiene and dental care reduce complications; abrupt withdrawal can precipitate seizures.\n\nWhy the other options fail:\n• B — Stopping phenytoin abruptly can precipitate seizures; changes are made only under medical direction.\n• C — Restricting fluids does not treat gingival hyperplasia and risks dehydration.\n• D — Doubling the dose increases the very effect that caused the gums to swell.",
+ "correctChoiceId": "c",
+ "rationale": "Gingival hyperplasia is associated with phenytoin. Good oral hygiene and dental care reduce complications; abrupt withdrawal can precipitate seizures.\n\nWhy the other options fail:\n• A — Stopping phenytoin abruptly can precipitate seizures; changes are made only under medical direction.\n• B — Restricting fluids does not treat gingival hyperplasia and risks dehydration.\n• D — Doubling the dose increases the very effect that caused the gums to swell.",
  "strategy": "Know chronic adverse effects and teach prevention without stopping anticonvulsants suddenly.",
  "difficulty": "hard",
  "tags": [
@@ -114376,23 +114376,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Hold the drug and notify the prescriber before the next dose"
-  },
-  {
-   "id": "b",
    "text": "Give the next dose because spironolactone protects the heart"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Encourage a diet high in potassium"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Give an extra dose to lower the potassium"
+  },
+  {
+   "id": "d",
+   "text": "Hold the drug and notify the prescriber before the next dose"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Spironolactone is a potassium-sparing diuretic, so it retains potassium, and a level of 6.1 mmol/L is dangerous enough to threaten the myocardium. The next dose is withheld, the prescriber informed, and the ECG and renal function reviewed; treatment may include stopping the drug and giving a potassium binder or a diuretic that wastes potassium. Option B adds to the retention. Option C worsens it. Option D misunderstands the drug, which raises potassium rather than lowering it.",
+ "correctChoiceId": "d",
+ "rationale": "Spironolactone is a potassium-sparing diuretic, so it retains potassium, and a level of 6.1 mmol/L is dangerous enough to threaten the myocardium. The next dose is withheld, the prescriber informed, and the ECG and renal function reviewed; treatment may include stopping the drug and giving a potassium binder or a diuretic that wastes potassium. Option A adds to the retention. Option B worsens it. Option C misunderstands the drug, which raises potassium rather than lowering it.",
  "strategy": "Potassium-sparing diuretics raise potassium. At 6.1, hold the drug and call.",
  "difficulty": "hard",
  "tags": [
@@ -114440,11 +114440,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Urine, sweat and tears may turn orange-red, and contact lenses can be permanently stained"
+   "text": "The medicine can be stopped as soon as the cough improves"
   },
   {
    "id": "b",
-   "text": "The medicine can be stopped as soon as the cough improves"
+   "text": "Urine, sweat and tears may turn orange-red, and contact lenses can be permanently stained"
   },
   {
    "id": "c",
@@ -114455,8 +114455,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Missed doses can safely be doubled the next day"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "The orange-red discolouration is harmless but alarming if it is unexpected, and it permanently stains soft contact lenses, so warning the client prevents both distress and damage. Rifampicin is also a powerful enzyme inducer, which makes the interaction teaching essential. Option B risks relapse and resistance. Option C is false: rifampicin reduces the effect of oral contraceptives, warfarin and many antiretrovirals. Option D is never correct for antimicrobials.",
+ "correctChoiceId": "b",
+ "rationale": "The orange-red discolouration is harmless but alarming if it is unexpected, and it permanently stains soft contact lenses, so warning the client prevents both distress and damage. Rifampicin is also a powerful enzyme inducer, which makes the interaction teaching essential. Option A risks relapse and resistance. Option C is false: rifampicin reduces the effect of oral contraceptives, warfarin and many antiretrovirals. Option D is never correct for antimicrobials.",
  "strategy": "Rifampicin stains everything orange and induces liver enzymes. Warn about both.",
  "difficulty": "hard",
  "tags": [
@@ -114472,23 +114472,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Keep salt and fluid intake steady and report vomiting or diarrhoea promptly"
-  },
-  {
-   "id": "b",
    "text": "Restrict all fluids to less than one litre a day"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Double the next dose if one dose is forgotten"
+  },
+  {
+   "id": "c",
+   "text": "Keep salt and fluid intake steady and report vomiting or diarrhoea promptly"
   },
   {
    "id": "d",
    "text": "Stop the drug as soon as the mood improves"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "CORRECT (A) — \"Keep salt and fluid intake steady and report vomiting or diarrhoea promptly\". Lithium is a salt that competes with sodium: when the body is short of sodium, the kidney reabsorbs more lithium, the plasma level rises and toxicity follows. Anything that depletes salt or water, such as a hot climate with heavy sweating, vomiting, diarrhoea, a low-salt diet or diuretics, therefore raises the level. The patient should drink normally, keep salt intake consistent, and report illness with vomiting or diarrhoea so the level can be checked. Option B is dangerous: fluid restriction concentrates the lithium. Option C could produce a double dose, and missed doses should be discussed with the prescriber rather than doubled. Option D invites relapse, because lithium is continued to prevent further episodes. Levels, thyroid function and renal function are monitored long term.",
+ "correctChoiceId": "c",
+ "rationale": "CORRECT (C) — \"Keep salt and fluid intake steady and report vomiting or diarrhoea promptly\". Lithium is a salt that competes with sodium: when the body is short of sodium, the kidney reabsorbs more lithium, the plasma level rises and toxicity follows. Anything that depletes salt or water, such as a hot climate with heavy sweating, vomiting, diarrhoea, a low-salt diet or diuretics, therefore raises the level. The patient should drink normally, keep salt intake consistent, and report illness with vomiting or diarrhoea so the level can be checked. Option A is dangerous: fluid restriction concentrates the lithium. Option B could produce a double dose, and missed doses should be discussed with the prescriber rather than doubled. Option D invites relapse, because lithium is continued to prevent further episodes. Levels, thyroid function and renal function are monitored long term.",
  "strategy": "Lithium follows sodium. Loss of salt or water raises the level, so steady intake and prompt reporting matter.",
  "difficulty": "hard",
  "tags": [
@@ -114506,23 +114506,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Take it with a source of vitamin C such as orange juice, expect dark stools, and avoid tea at the same time"
-  },
-  {
-   "id": "b",
    "text": "Take it with an antacid to protect the stomach"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Stop it as soon as the stools darken"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Take it with a cup of tea to improve the taste"
+  },
+  {
+   "id": "d",
+   "text": "Take it with a source of vitamin C such as orange juice, expect dark stools, and avoid tea at the same time"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Vitamin C keeps iron in the ferrous form that is absorbed, while tea contains tannins and antacids raise the gastric pH, and both substantially reduce uptake. Dark stools are the harmless result of unabsorbed iron and are not a reason to stop. Options B and D directly impair absorption. Option C risks abandoning treatment for a normal effect.",
+ "correctChoiceId": "d",
+ "rationale": "Vitamin C keeps iron in the ferrous form that is absorbed, while tea contains tannins and antacids raise the gastric pH, and both substantially reduce uptake. Dark stools are the harmless result of unabsorbed iron and are not a reason to stop. Options A and D directly impair absorption. Option B risks abandoning treatment for a normal effect.",
  "strategy": "Vitamin C up, tea and antacids down. Black stools are expected, not a reason to stop.",
  "difficulty": "hard",
  "tags": [
@@ -114538,11 +114538,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Reassure and reassess in one hour"
+   "text": "Treat as impending respiratory failure and call for urgent assistance"
   },
   {
    "id": "b",
-   "text": "Treat as impending respiratory failure and call for urgent assistance"
+   "text": "Reassure and reassess in one hour"
   },
   {
    "id": "c",
@@ -114553,8 +114553,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Place the patient flat"
   }
  ],
- "correctChoiceId": "b",
- "rationale": "A silent chest with severe work of breathing indicates critically reduced airflow and impending respiratory failure. Urgent airway and ventilatory support are required.\n\nWhy the other options fail:\n• A — Reassuring and reviewing in an hour would allow a silent chest to progress to arrest.\n• C — Oral fluids in a patient who cannot complete a sentence risks aspiration.\n• D — Lying the patient flat reduces lung expansion and worsens the work of breathing.",
+ "correctChoiceId": "a",
+ "rationale": "A silent chest with severe work of breathing indicates critically reduced airflow and impending respiratory failure. Urgent airway and ventilatory support are required.\n\nWhy the other options fail:\n• B — Reassuring and reviewing in an hour would allow a silent chest to progress to arrest.\n• C — Oral fluids in a patient who cannot complete a sentence risks aspiration.\n• D — Lying the patient flat reduces lung expansion and worsens the work of breathing.",
  "strategy": "In asthma, a quiet chest can be more dangerous than loud wheezing because airflow is severely limited.",
  "difficulty": "hard",
  "tags": [
@@ -114570,11 +114570,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Assess ventilation and prepare prescribed ventilatory support"
+   "text": "Give unlimited high-flow oxygen without monitoring"
   },
   {
    "id": "b",
-   "text": "Give unlimited high-flow oxygen without monitoring"
+   "text": "Assess ventilation and prepare prescribed ventilatory support"
   },
   {
    "id": "c",
@@ -114585,8 +114585,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Place the patient flat"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Drowsiness and rising PaCO2 suggest hypercapnic respiratory failure. Oxygen must be titrated to the prescribed target while ventilation is assessed and escalated.\n\nWhy the other options fail:\n• B — Unlimited high-flow oxygen without monitoring can worsen hypercapnia and cause oxygen toxicity in COPD.\n• C — Sedatives depress respiratory drive and would deepen the hypercapnia.\n• D — Lying flat impairs diaphragm movement and worsens ventilation.",
+ "correctChoiceId": "b",
+ "rationale": "Drowsiness and rising PaCO2 suggest hypercapnic respiratory failure. Oxygen must be titrated to the prescribed target while ventilation is assessed and escalated.\n\nWhy the other options fail:\n• A — Unlimited high-flow oxygen without monitoring can worsen hypercapnia and cause oxygen toxicity in COPD.\n• C — Sedatives depress respiratory drive and would deepen the hypercapnia.\n• D — Lying flat impairs diaphragm movement and worsens ventilation.",
  "strategy": "In COPD, treat hypoxia while avoiding unmonitored oxygen excess and assess ventilation, not saturation alone.",
  "difficulty": "hard",
  "tags": [
@@ -114602,23 +114602,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Check for kinks, secretions and tube obstruction while assessing the patient"
-  },
-  {
-   "id": "b",
    "text": "Silence the alarm permanently"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Increase sedation without assessment"
+  },
+  {
+   "id": "c",
+   "text": "Check for kinks, secretions and tube obstruction while assessing the patient"
   },
   {
    "id": "d",
    "text": "Disconnect the ventilator and leave the patient alone"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "A high-pressure alarm commonly indicates increased resistance from kinking, secretions or obstruction. The patient is assessed and the airway is checked immediately.\n\nWhy the other options fail:\n• B — Silencing the alarm removes the warning without treating the obstruction.\n• C — Increasing sedation without assessment hides the problem and removes the patient's ability to compensate.\n• D — Disconnecting and leaving the patient alone removes ventilation entirely from someone who cannot breathe.",
+ "correctChoiceId": "c",
+ "rationale": "A high-pressure alarm commonly indicates increased resistance from kinking, secretions or obstruction. The patient is assessed and the airway is checked immediately.\n\nWhy the other options fail:\n• A — Silencing the alarm removes the warning without treating the obstruction.\n• B — Increasing sedation without assessment hides the problem and removes the patient's ability to compensate.\n• D — Disconnecting and leaving the patient alone removes ventilation entirely from someone who cannot breathe.",
  "strategy": "Always assess the patient first, then trace the ventilator circuit for obstruction.",
  "difficulty": "hard",
  "tags": [
@@ -114634,23 +114634,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Sit her upright, give prescribed oxygen, assess ABCs and escalate urgently for suspected pulmonary embolism"
-  },
-  {
-   "id": "b",
    "text": "Massage the calf to relieve the pain"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Encourage her to walk to improve her circulation"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Give an oral analgesic and reassess in one hour"
+  },
+  {
+   "id": "d",
+   "text": "Sit her upright, give prescribed oxygen, assess ABCs and escalate urgently for suspected pulmonary embolism"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Sudden breathlessness and hypoxaemia after major hip surgery is pulmonary embolism until proved otherwise, and it can progress to cardiac arrest within minutes, so oxygen, upright positioning, a full ABCDE assessment and immediate escalation come first. Option B is harmful: massaging the leg can dislodge more thrombus. Option C mobilises a hypoxic patient with a possible embolus. Option D treats the pain and misses the diagnosis.",
+ "correctChoiceId": "d",
+ "rationale": "Sudden breathlessness and hypoxaemia after major hip surgery is pulmonary embolism until proved otherwise, and it can progress to cardiac arrest within minutes, so oxygen, upright positioning, a full ABCDE assessment and immediate escalation come first. Option A is harmful: massaging the leg can dislodge more thrombus. Option B mobilises a hypoxic patient with a possible embolus. Option C treats the pain and misses the diagnosis.",
  "strategy": "After hip surgery, sudden breathlessness and hypoxia mean pulmonary embolism. Oxygen and escalate.",
  "difficulty": "hard",
  "tags": [
@@ -114698,11 +114698,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Assess the patient and tubing for obstruction or disconnection and call for help"
+   "text": "Clamp the tube for 30 minutes"
   },
   {
    "id": "b",
-   "text": "Clamp the tube for 30 minutes"
+   "text": "Assess the patient and tubing for obstruction or disconnection and call for help"
   },
   {
    "id": "c",
@@ -114713,8 +114713,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Ignore the change"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Sudden dyspnoea with a change in drainage-system function may indicate obstruction, disconnection or worsening pneumothorax. The patient and system need immediate assessment.\n\nWhy the other options fail:\n• B — Clamping the tube traps air and can convert a pneumothorax into a tension pneumothorax.\n• C — Stripping the tubing generates high negative pressure and can damage lung tissue.\n• D — Ignoring a change in the water seal misses a developing pneumothorax or a disconnected system.",
+ "correctChoiceId": "b",
+ "rationale": "Sudden dyspnoea with a change in drainage-system function may indicate obstruction, disconnection or worsening pneumothorax. The patient and system need immediate assessment.\n\nWhy the other options fail:\n• A — Clamping the tube traps air and can convert a pneumothorax into a tension pneumothorax.\n• C — Stripping the tubing generates high negative pressure and can damage lung tissue.\n• D — Ignoring a change in the water seal misses a developing pneumothorax or a disconnected system.",
  "strategy": "A sudden clinical change plus altered chest-tube function requires assessment, not routine clamping or stripping.",
  "difficulty": "hard",
  "tags": [
@@ -114730,23 +114730,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Prepare for immediate decompression while supporting oxygenation"
-  },
-  {
-   "id": "b",
    "text": "Wait for a routine chest radiograph"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Place the patient prone"
+  },
+  {
+   "id": "c",
+   "text": "Prepare for immediate decompression while supporting oxygenation"
   },
   {
    "id": "d",
    "text": "Encourage coughing"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Tension pneumothorax compromises ventilation and venous return and requires immediate decompression; treatment must not wait for imaging.\n\nWhy the other options fail:\n• B — Waiting for a radiograph in tension pneumothorax is how patients die; decompression is clinical, not radiological.\n• C — Prone positioning makes ventilation worse and delays decompression.\n• D — Coughing increases intrathoracic pressure and cannot relieve a tension pneumothorax.",
+ "correctChoiceId": "c",
+ "rationale": "Tension pneumothorax compromises ventilation and venous return and requires immediate decompression; treatment must not wait for imaging.\n\nWhy the other options fail:\n• A — Waiting for a radiograph in tension pneumothorax is how patients die; decompression is clinical, not radiological.\n• B — Prone positioning makes ventilation worse and delays decompression.\n• D — Coughing increases intrathoracic pressure and cannot relieve a tension pneumothorax.",
  "strategy": "Shock plus unilateral absent breath sounds is a decompression emergency.",
  "difficulty": "hard",
  "tags": [
@@ -114762,23 +114762,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "High Fowler with legs dependent if tolerated"
-  },
-  {
-   "id": "b",
    "text": "Flat supine"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Prone"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Trendelenburg"
+  },
+  {
+   "id": "d",
+   "text": "High Fowler with legs dependent if tolerated"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Upright positioning improves lung expansion and reduces venous return, helping relieve pulmonary congestion while oxygen and prescribed therapy are given.\n\nWhy the other options fail:\n• B — Lying flat increases venous return to an overloaded heart and floods the lungs further.\n• C — Prone positioning impairs ventilation and access to the airway in an unstable patient.\n• D — Trendelenburg increases venous return and worsens pulmonary congestion.",
+ "correctChoiceId": "d",
+ "rationale": "Upright positioning improves lung expansion and reduces venous return, helping relieve pulmonary congestion while oxygen and prescribed therapy are given.\n\nWhy the other options fail:\n• A — Lying flat increases venous return to an overloaded heart and floods the lungs further.\n• B — Prone positioning impairs ventilation and access to the airway in an unstable patient.\n• C — Trendelenburg increases venous return and worsens pulmonary congestion.",
  "strategy": "For pulmonary oedema, sit upright and support oxygenation.",
  "difficulty": "hard",
  "tags": [
@@ -114826,11 +114826,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Airway and breathing"
+   "text": "Pain score"
   },
   {
    "id": "b",
-   "text": "Pain score"
+   "text": "Airway and breathing"
   },
   {
    "id": "c",
@@ -114841,8 +114841,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Urine output"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Cyanosis and unresponsiveness indicate an immediate ABC emergency. Airway and breathing are assessed and supported before secondary data collection.\n\nWhy the other options fail:\n• B — A pain score is a secondary assessment and cannot be obtained from an unresponsive patient.\n• C — Dietary history is irrelevant to an immediate airway emergency.\n• D — Urine output is a late perfusion marker and plays no part in the first minute.",
+ "correctChoiceId": "b",
+ "rationale": "Cyanosis and unresponsiveness indicate an immediate ABC emergency. Airway and breathing are assessed and supported before secondary data collection.\n\nWhy the other options fail:\n• A — A pain score is a secondary assessment and cannot be obtained from an unresponsive patient.\n• C — Dietary history is irrelevant to an immediate airway emergency.\n• D — Urine output is a late perfusion marker and plays no part in the first minute.",
  "strategy": "Use ABC priorities in every collapse, regardless of the diagnosis suspected.",
  "difficulty": "hard",
  "tags": [
@@ -114858,23 +114858,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Pneumothorax"
-  },
-  {
-   "id": "b",
    "text": "Constipation"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Hypoglycaemia"
+  },
+  {
+   "id": "c",
+   "text": "Pneumothorax"
   },
   {
    "id": "d",
    "text": "Cellulitis only"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Central-line insertion can puncture the pleura and cause pneumothorax, presenting with sudden dyspnoea and chest pain.\n\nWhy the other options fail:\n• B — Constipation has no relationship to sudden dyspnoea immediately after line insertion.\n• C — Hypoglycaemia causes sweating and confusion, not sharp pleuritic chest pain.\n• D — Cellulitis is a local skin infection and does not produce sudden breathlessness.",
+ "correctChoiceId": "c",
+ "rationale": "Central-line insertion can puncture the pleura and cause pneumothorax, presenting with sudden dyspnoea and chest pain.\n\nWhy the other options fail:\n• A — Constipation has no relationship to sudden dyspnoea immediately after line insertion.\n• B — Hypoglycaemia causes sweating and confusion, not sharp pleuritic chest pain.\n• D — Cellulitis is a local skin infection and does not produce sudden breathlessness.",
  "strategy": "Link sudden respiratory symptoms after central-line insertion with pneumothorax.",
  "difficulty": "hard",
  "tags": [
@@ -114890,23 +114890,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Assess the patient and improve probe position or peripheral perfusion"
-  },
-  {
-   "id": "b",
    "text": "Administer sedatives"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Document the value as accurate"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Remove all oxygen"
+  },
+  {
+   "id": "d",
+   "text": "Assess the patient and improve probe position or peripheral perfusion"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Poor perfusion and a poor waveform can make pulse oximetry unreliable. The patient is assessed directly while the probe and circulation are corrected.\n\nWhy the other options fail:\n• B — Sedation in a patient with a genuinely low saturation would remove their drive to breathe.\n• C — Documenting a value from a poor waveform as accurate records an artefact as a clinical finding.\n• D — Removing oxygen from a patient reading 82% could be fatal if the reading is real.",
+ "correctChoiceId": "d",
+ "rationale": "Poor perfusion and a poor waveform can make pulse oximetry unreliable. The patient is assessed directly while the probe and circulation are corrected.\n\nWhy the other options fail:\n• A — Sedation in a patient with a genuinely low saturation would remove their drive to breathe.\n• B — Documenting a value from a poor waveform as accurate records an artefact as a clinical finding.\n• C — Removing oxygen from a patient reading 82% could be fatal if the reading is real.",
  "strategy": "Never treat an isolated number without checking signal quality and clinical signs.",
  "difficulty": "hard",
  "tags": [
@@ -114954,11 +114954,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Wash with soap and water and report immediately"
+   "text": "Squeeze aggressively for ten minutes"
   },
   {
    "id": "b",
-   "text": "Squeeze aggressively for ten minutes"
+   "text": "Wash with soap and water and report immediately"
   },
   {
    "id": "c",
@@ -114969,8 +114969,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Hide the injury"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Washing and immediate reporting allow timely exposure assessment, baseline testing and post-exposure prophylaxis when indicated.\n\nWhy the other options fail:\n• B — Squeezing the wound is no longer advised; it can force contaminated blood deeper and damages tissue.\n• C — Bleach is caustic and damages the wound; it is not a first-aid measure.\n• D — Concealing the injury forfeits post-exposure prophylaxis in the window when it works.",
+ "correctChoiceId": "b",
+ "rationale": "Washing and immediate reporting allow timely exposure assessment, baseline testing and post-exposure prophylaxis when indicated.\n\nWhy the other options fail:\n• A — Squeezing the wound is no longer advised; it can force contaminated blood deeper and damages tissue.\n• C — Bleach is caustic and damages the wound; it is not a first-aid measure.\n• D — Concealing the injury forfeits post-exposure prophylaxis in the window when it works.",
  "strategy": "After a sharps injury: wash, report and obtain urgent occupational-health review.",
  "difficulty": "hard",
  "tags": [
@@ -114986,23 +114986,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "A nasal cannula at 1 to 2 litres per minute"
-  },
-  {
-   "id": "b",
    "text": "A simple face mask at 8 litres per minute"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "A non-rebreathe mask at 15 litres per minute"
+  },
+  {
+   "id": "c",
+   "text": "A nasal cannula at 1 to 2 litres per minute"
   },
   {
    "id": "d",
    "text": "A Venturi mask set to 60 per cent"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "CORRECT (A) — \"A nasal cannula at 1 to 2 litres per minute\". A nasal cannula delivers roughly 24 per cent at 1 litre per minute and adds about 4 per cent for each further litre, so 1 to 2 litres gives the 24 to 28 per cent band asked for. The concentration is variable, because it depends on the patient's inspiratory flow and on how much room air is entrained, which is acceptable when the target range is broad. Option B delivers around 40 to 60 per cent and would overshoot badly. Option C delivers close to 100 per cent and is reserved for critical illness. Option D is a fixed-performance device, and while accuracy is its advantage, 60 per cent is far above the target. Choose the device that matches the target range and the patient's tolerance, and remember that nasal cannula flows above about 4 litres per minute dry and irritate the nasal mucosa.",
+ "correctChoiceId": "c",
+ "rationale": "CORRECT (C) — \"A nasal cannula at 1 to 2 litres per minute\". A nasal cannula delivers roughly 24 per cent at 1 litre per minute and adds about 4 per cent for each further litre, so 1 to 2 litres gives the 24 to 28 per cent band asked for. The concentration is variable, because it depends on the patient's inspiratory flow and on how much room air is entrained, which is acceptable when the target range is broad. Option A delivers around 40 to 60 per cent and would overshoot badly. Option B delivers close to 100 per cent and is reserved for critical illness. Option D is a fixed-performance device, and while accuracy is its advantage, 60 per cent is far above the target. Choose the device that matches the target range and the patient's tolerance, and remember that nasal cannula flows above about 4 litres per minute dry and irritate the nasal mucosa.",
  "strategy": "Nasal cannula: 1 litre is about 24 per cent, and each extra litre adds about 4 per cent.",
  "difficulty": "hard",
  "tags": [
@@ -115020,23 +115020,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Offload pressure, reposition and document/escalate the skin change"
-  },
-  {
-   "id": "b",
    "text": "Massage the reddened area vigorously"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Apply heat directly"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Leave the patient in the same position"
+  },
+  {
+   "id": "d",
+   "text": "Offload pressure, reposition and document/escalate the skin change"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Non-blanching erythema may be a stage 1 pressure injury. Pressure must be relieved and the area monitored and documented.\n\nWhy the other options fail:\n• B — Massaging reddened skin damages tissue that is already ischaemic.\n• C — Direct heat increases metabolic demand in tissue that cannot meet it and can cause burns.\n• D — Leaving the patient in the same position allows the injury to progress to ulceration.",
+ "correctChoiceId": "d",
+ "rationale": "Non-blanching erythema may be a stage 1 pressure injury. Pressure must be relieved and the area monitored and documented.\n\nWhy the other options fail:\n• A — Massaging reddened skin damages tissue that is already ischaemic.\n• B — Direct heat increases metabolic demand in tissue that cannot meet it and can cause burns.\n• C — Leaving the patient in the same position allows the injury to progress to ulceration.",
  "strategy": "Non-blanching redness means pressure damage has begun; remove pressure rather than massage.",
  "difficulty": "hard",
  "tags": [
@@ -115084,11 +115084,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Accept the feeling, stay with her, and introduce the stoma gradually when she is ready"
+   "text": "Insist that she look at it now so that she gets used to it"
   },
   {
    "id": "b",
-   "text": "Insist that she look at it now so that she gets used to it"
+   "text": "Accept the feeling, stay with her, and introduce the stoma gradually when she is ready"
   },
   {
    "id": "c",
@@ -115099,8 +115099,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Ask the family to do all the stoma care and stop teaching her"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Refusal to look at a new stoma is a normal grief reaction to a change in body image, and it resolves with time and support. The nurse acknowledges the feeling, does not force contact, and builds tolerance gradually by involving the patient in small steps while demonstrating care. Option B overrides her coping and damages trust. Option C abandons teaching that she will need before discharge. Option D leaves her dependent and unprepared to care for herself.",
+ "correctChoiceId": "b",
+ "rationale": "Refusal to look at a new stoma is a normal grief reaction to a change in body image, and it resolves with time and support. The nurse acknowledges the feeling, does not force contact, and builds tolerance gradually by involving the patient in small steps while demonstrating care. Option A overrides her coping and damages trust. Option C abandons teaching that she will need before discharge. Option D leaves her dependent and unprepared to care for herself.",
  "strategy": "A new stoma is a loss first and a skill second. Accept the feeling, then teach in small steps.",
  "difficulty": "hard",
  "tags": [
@@ -115116,23 +115116,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Pre-oxygenate and limit each suction pass to about 10 to 15 seconds"
-  },
-  {
-   "id": "b",
    "text": "Suction continuously for a full minute to clear everything at once"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Use the largest catheter that will pass, to shorten the procedure"
+  },
+  {
+   "id": "c",
+   "text": "Pre-oxygenate and limit each suction pass to about 10 to 15 seconds"
   },
   {
    "id": "d",
    "text": "Instil 5 mL of normal saline to loosen secretions before each pass"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Suctioning removes oxygen as well as secretions, so the patient is pre-oxygenated, each pass is limited to roughly 10 to 15 seconds, and the catheter is withdrawn with rotation without applying suction on the way in. Option B causes prolonged hypoxia. Option C uses a catheter that occludes the airway and increases trauma and hypoxaemia. Option D is no longer recommended: instilling saline does not loosen secretions, and it pushes them deeper and causes desaturation.",
+ "correctChoiceId": "c",
+ "rationale": "Suctioning removes oxygen as well as secretions, so the patient is pre-oxygenated, each pass is limited to roughly 10 to 15 seconds, and the catheter is withdrawn with rotation without applying suction on the way in. Option A causes prolonged hypoxia. Option B uses a catheter that occludes the airway and increases trauma and hypoxaemia. Option D is no longer recommended: instilling saline does not loosen secretions, and it pushes them deeper and causes desaturation.",
  "strategy": "Pre-oxygenate, ten to fifteen seconds a pass, suction on the way out only.",
  "difficulty": "hard",
  "tags": [
@@ -115148,23 +115148,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "In some people with chronic high carbon dioxide, too much oxygen can worsen retention and cause drowsiness and respiratory failure"
-  },
-  {
-   "id": "b",
    "text": "Oxygen does no good at all in COPD"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "The target is set only to save money on oxygen"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "High-flow oxygen causes immediate lung collapse in every patient"
+  },
+  {
+   "id": "d",
+   "text": "In some people with chronic high carbon dioxide, too much oxygen can worsen retention and cause drowsiness and respiratory failure"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "In a minority of patients with chronic hypercapnia the hypoxic drive contributes to ventilation, and a high inspired oxygen can increase carbon dioxide retention through several mechanisms, producing drowsiness, acidosis and eventually respiratory failure. The prescribed target range balances adequate oxygenation against that risk, with blood gases and the patient's level of consciousness monitored. Option B is wrong: oxygen is essential, it is just titrated. Option C invents a motive. Option D describes a pneumothorax, not oxygen therapy.",
+ "correctChoiceId": "d",
+ "rationale": "In a minority of patients with chronic hypercapnia the hypoxic drive contributes to ventilation, and a high inspired oxygen can increase carbon dioxide retention through several mechanisms, producing drowsiness, acidosis and eventually respiratory failure. The prescribed target range balances adequate oxygenation against that risk, with blood gases and the patient's level of consciousness monitored. Option A is wrong: oxygen is essential, it is just titrated. Option B invents a motive. Option C describes a pneumothorax, not oxygen therapy.",
  "strategy": "COPD oxygen is titrated to 88 to 92 per cent. Enough to oxygenate, not enough to suppress breathing.",
  "difficulty": "hard",
  "tags": [
@@ -115214,11 +115214,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Report at once and check the bandages and traction ropes"
+   "text": "Reassess the toes again in one hour"
   },
   {
    "id": "b",
-   "text": "Reassess the toes again in one hour"
+   "text": "Report at once and check the bandages and traction ropes"
   },
   {
    "id": "c",
@@ -115229,8 +115229,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Document the finding and continue routine care"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Cool, pale toes with delayed capillary refill mean the circulation is being obstructed, most often by a tight bandage, a slipped traction rope or a cast. The obstruction is relieved immediately and the surgeon informed, because untreated ischaemia leads to permanent damage.\n\nWhy the other options fail:\n• B — An hour of ischaemia is enough to damage muscle and nerve.\n• C — Warming the surface does not restore perfusion and hides the change.\n• D — This is an emergency, not an observation to record and leave.\n\nReference: Ghana STG — traction care; neurovascular observation",
+ "correctChoiceId": "b",
+ "rationale": "Cool, pale toes with delayed capillary refill mean the circulation is being obstructed, most often by a tight bandage, a slipped traction rope or a cast. The obstruction is relieved immediately and the surgeon informed, because untreated ischaemia leads to permanent damage.\n\nWhy the other options fail:\n• A — An hour of ischaemia is enough to damage muscle and nerve.\n• C — Warming the surface does not restore perfusion and hides the change.\n• D — This is an emergency, not an observation to record and leave.\n\nReference: Ghana STG — traction care; neurovascular observation",
  "strategy": "In traction, the toes report the circulation — compare colour, warmth, refill and movement each shift.",
  "difficulty": "hard",
  "tags": [
@@ -115248,23 +115248,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Recognise it as a stress response to hospitalisation and offer reassurance and supportive play"
-  },
-  {
-   "id": "b",
    "text": "Tell the child off for behaving like a baby"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Ask for an immediate psychiatric referral"
+  },
+  {
+   "id": "c",
+   "text": "Recognise it as a stress response to hospitalisation and offer reassurance and supportive play"
   },
   {
    "id": "d",
    "text": "Restrict fluids from the afternoon onwards"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Toddlers and preschool children commonly regress under stress, and admission is a major stress. Bedwetting in a previously trained child is a normal, temporary response that improves when the child feels safe, is prepared for procedures and is given play and routine. Option B adds shame to fear and can prolong the regression. Option C medicalises a normal response. Option D is a dehydration risk and does not address the cause.",
+ "correctChoiceId": "c",
+ "rationale": "Toddlers and preschool children commonly regress under stress, and admission is a major stress. Bedwetting in a previously trained child is a normal, temporary response that improves when the child feels safe, is prepared for procedures and is given play and routine. Option A adds shame to fear and can prolong the regression. Option B medicalises a normal response. Option D is a dehydration risk and does not address the cause.",
  "strategy": "Regression in hospital is a communication, not a discipline problem. Reassure, prepare and play.",
  "difficulty": "hard",
  "tags": [
@@ -115280,23 +115280,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Feed frequently and express milk if the breast stays full"
-  },
-  {
-   "id": "b",
    "text": "Stop feeding from both breasts for two days"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Bind the breasts tightly with a firm bandage"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Restrict fluids until the engorgement settles"
+  },
+  {
+   "id": "d",
+   "text": "Feed frequently and express milk if the breast stays full"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Engorgement is milk stasis plus oedema, and the treatment is to keep the milk moving: frequent feeding with good attachment, expressing after feeds if the breast remains hard, and a warm shower before feeding. Analgesia and a cold pack between feeds ease the discomfort.\n\nWhy the other options fail:\n• B — Stopping feeding worsens stasis and is the commonest route to mastitis.\n• C — Binding compresses ducts and causes blocked ducts and abscess.\n• D — Fluid restriction does not reduce milk production and dehydrates the mother.\n\nReference: Ghana STG — breastfeeding; engorgement",
+ "correctChoiceId": "d",
+ "rationale": "Engorgement is milk stasis plus oedema, and the treatment is to keep the milk moving: frequent feeding with good attachment, expressing after feeds if the breast remains hard, and a warm shower before feeding. Analgesia and a cold pack between feeds ease the discomfort.\n\nWhy the other options fail:\n• A — Stopping feeding worsens stasis and is the commonest route to mastitis.\n• B — Binding compresses ducts and causes blocked ducts and abscess.\n• C — Fluid restriction does not reduce milk production and dehydrates the mother.\n\nReference: Ghana STG — breastfeeding; engorgement",
  "strategy": "Engorgement is treated by emptying, not by resting or binding the breast.",
  "difficulty": "hard",
  "tags": [
@@ -115346,11 +115346,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "A 3-year-old with severe recession and grunting who remains breathless on high-flow oxygen"
+   "text": "A 5-year-old with mild diarrhoea who is alert and drinking"
   },
   {
    "id": "b",
-   "text": "A 5-year-old with mild diarrhoea who is alert and drinking"
+   "text": "A 3-year-old with severe recession and grunting who remains breathless on high-flow oxygen"
   },
   {
    "id": "c",
@@ -115361,8 +115361,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "A 9-year-old dressed and ready for discharge"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Grunting, severe recession and no response to oxygen is a child in respiratory failure, which is the most time-critical finding in any waiting room and takes precedence over every other patient listed. Option B is mild illness with a protected airway. Option C is stable and awaiting imaging. Option D is well enough for discharge. In prioritisation questions, the child who is failing to respond to treatment outranks the one who has not yet been treated.",
+ "correctChoiceId": "b",
+ "rationale": "Grunting, severe recession and no response to oxygen is a child in respiratory failure, which is the most time-critical finding in any waiting room and takes precedence over every other patient listed. Option A is mild illness with a protected airway. Option C is stable and awaiting imaging. Option D is well enough for discharge. In prioritisation questions, the child who is failing to respond to treatment outranks the one who has not yet been treated.",
  "strategy": "Assess first the child who looks worst despite treatment, not the one who is merely waiting.",
  "difficulty": "hard",
  "tags": [
@@ -115378,23 +115378,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Rotate the injection sites systematically so that lumps and unpredictable absorption do not develop"
-  },
-  {
-   "id": "b",
    "text": "Use the same site every day so the technique is familiar"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Aspirate after inserting the needle before injecting"
+  },
+  {
+   "id": "c",
+   "text": "Rotate the injection sites systematically so that lumps and unpredictable absorption do not develop"
   },
   {
    "id": "d",
    "text": "Reuse the needle until it becomes blunt to reduce cost"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Repeated injection into the same spot causes lipohypertrophy, which absorbs insulin unpredictably and produces unexplained highs and lows, so sites are rotated within and between regions. Option B is the direct cause of that problem. Option C is unnecessary for subcutaneous insulin and adds pain. Option D leaves a bent, burred needle that causes pain and inaccurate dosing.",
+ "correctChoiceId": "c",
+ "rationale": "Repeated injection into the same spot causes lipohypertrophy, which absorbs insulin unpredictably and produces unexplained highs and lows, so sites are rotated within and between regions. Option A is the direct cause of that problem. Option B is unnecessary for subcutaneous insulin and adds pain. Option D leaves a bent, burred needle that causes pain and inaccurate dosing.",
  "strategy": "Rotate sites to protect absorption. A lump is not just cosmetic, it changes the dose.",
  "difficulty": "hard",
  "tags": [
@@ -115410,23 +115410,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Oral rehydration with ReSoMal under the severe-malnutrition protocol, with close monitoring"
-  },
-  {
-   "id": "b",
    "text": "Rapid intravenous Ringer's lactate at twice the usual rate"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Large volumes of plain water by mouth"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "No fluids until the diarrhoea stops"
+  },
+  {
+   "id": "d",
+   "text": "Oral rehydration with ReSoMal under the severe-malnutrition protocol, with close monitoring"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "In severe acute malnutrition the myocardium and the sodium-potassium balance are both compromised, so standard rehydration fluids and rates can precipitate heart failure. The specific low-sodium, high-potassium solution is given slowly under the malnutrition protocol with feeding continued and the child watched. Option B is the classic error and can kill. Option C gives no electrolytes and risks hyponatraemia. Option D allows shock to develop.",
+ "correctChoiceId": "d",
+ "rationale": "In severe acute malnutrition the myocardium and the sodium-potassium balance are both compromised, so standard rehydration fluids and rates can precipitate heart failure. The specific low-sodium, high-potassium solution is given slowly under the malnutrition protocol with feeding continued and the child watched. Option A is the classic error and can kill. Option B gives no electrolytes and risks hyponatraemia. Option C allows shock to develop.",
  "strategy": "In severe malnutrition, rehydrate slowly with the malnutrition-specific fluid, never with rapid standard boluses.",
  "difficulty": "hard",
  "tags": [
@@ -115474,11 +115474,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Pulmonary artery to the descending aorta"
+   "text": "Aorta to the pulmonary artery"
   },
   {
    "id": "b",
-   "text": "Aorta to the pulmonary artery"
+   "text": "Pulmonary artery to the descending aorta"
   },
   {
    "id": "c",
@@ -115489,8 +115489,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Umbilical vein to the inferior vena cava"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "CORRECT (A) — \"Pulmonary artery to the descending aorta\". In fetal life the lungs are fluid-filled and collapsed, and pulmonary vascular resistance is high, so most blood entering the pulmonary artery is shunted through the ductus arteriosus into the descending aorta and back to the placenta. It is kept open by circulating prostaglandins and by low oxygen tension. After birth, breathing expands the lungs, pulmonary resistance falls and oxygen rises; prostaglandin levels fall and the ductus constricts and becomes the ligamentum arteriosum. Option B reverses the direction, which is what happens after birth if the ductus fails to close, producing a left-to-right shunt and pulmonary overcirculation. Option C describes the foramen ovale. Option D describes the ductus venosus, which bypasses the liver. Knowing which vessel connects which two structures is what the examination is testing.",
+ "correctChoiceId": "b",
+ "rationale": "CORRECT (B) — \"Pulmonary artery to the descending aorta\". In fetal life the lungs are fluid-filled and collapsed, and pulmonary vascular resistance is high, so most blood entering the pulmonary artery is shunted through the ductus arteriosus into the descending aorta and back to the placenta. It is kept open by circulating prostaglandins and by low oxygen tension. After birth, breathing expands the lungs, pulmonary resistance falls and oxygen rises; prostaglandin levels fall and the ductus constricts and becomes the ligamentum arteriosum. Option A reverses the direction, which is what happens after birth if the ductus fails to close, producing a left-to-right shunt and pulmonary overcirculation. Option C describes the foramen ovale. Option D describes the ductus venosus, which bypasses the liver. Knowing which vessel connects which two structures is what the examination is testing.",
  "strategy": "Ductus arteriosus: pulmonary artery to aorta. Ductus venosus: umbilical vein to inferior vena cava.",
  "difficulty": "hard",
  "tags": [
@@ -115507,23 +115507,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "A secondary cause such as renal or cardiovascular disease"
-  },
-  {
-   "id": "b",
    "text": "Essential hypertension inherited from the parents"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "A normal finding that needs no further assessment"
+  },
+  {
+   "id": "c",
+   "text": "A secondary cause such as renal or cardiovascular disease"
   },
   {
    "id": "d",
    "text": "Anxiety about the clinic visit"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Hypertension in a young child is uncommon and is much more likely to be secondary, with renal parenchymal disease and coarctation of the aorta heading the list, so the child needs urinalysis, renal function and imaging rather than reassurance. Option B describes the usual pattern in adolescents and adults. Option C would miss a treatable cause of significant harm. Option D does not explain persistently raised readings at three visits.",
+ "correctChoiceId": "c",
+ "rationale": "Hypertension in a young child is uncommon and is much more likely to be secondary, with renal parenchymal disease and coarctation of the aorta heading the list, so the child needs urinalysis, renal function and imaging rather than reassurance. Option A describes the usual pattern in adolescents and adults. Option B would miss a treatable cause of significant harm. Option D does not explain persistently raised readings at three visits.",
  "strategy": "High blood pressure in a small child is a clue to an underlying disease, usually renal or cardiac.",
  "difficulty": "hard",
  "tags": [
@@ -115602,11 +115602,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Pull the pinna down and back before instilling"
+   "text": "Pull the pinna up and back before instilling"
   },
   {
    "id": "b",
-   "text": "Pull the pinna up and back before instilling"
+   "text": "Pull the pinna down and back before instilling"
   },
   {
    "id": "c",
@@ -115617,8 +115617,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Warm the drops in a microwave before use"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "In a child under three the external canal runs upwards and forwards, so the pinna is pulled gently down and back to straighten it. The child lies on the opposite side and stays there for a few minutes afterwards.\n\nWhy the other options fail:\n• B — Up and back is the technique for an adult or an older child, not a toddler.\n• C — Sitting allows the drops to run straight out of the canal.\n• D — Microwaving heats unevenly and can scald the canal; drops are warmed in the hand.\n\nReference: Ghana nursing curriculum — paediatric medication administration",
+ "correctChoiceId": "b",
+ "rationale": "In a child under three the external canal runs upwards and forwards, so the pinna is pulled gently down and back to straighten it. The child lies on the opposite side and stays there for a few minutes afterwards.\n\nWhy the other options fail:\n• A — Up and back is the technique for an adult or an older child, not a toddler.\n• C — Sitting allows the drops to run straight out of the canal.\n• D — Microwaving heats unevenly and can scald the canal; drops are warmed in the hand.\n\nReference: Ghana nursing curriculum — paediatric medication administration",
  "strategy": "Under three years pull down and back; over three years pull up and back.",
  "difficulty": "hard",
  "tags": [
@@ -115636,23 +115636,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Explain that these are the usual bruises of a child who is learning to walk"
-  },
-  {
-   "id": "b",
    "text": "Report the bruises as a suspected non-accidental injury"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Ask for a skeletal survey before anything else"
+  },
+  {
+   "id": "c",
+   "text": "Explain that these are the usual bruises of a child who is learning to walk"
   },
   {
    "id": "d",
    "text": "Advise the mother to stop the child from standing"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Bruises on the shins, knees and forehead are the expected pattern in a child who is mobile and pulling to stand, because these are the bony points that meet furniture and the floor. The history matches the developmental stage and the sites. Option B treats a normal finding as abuse and would distress the family and trigger an unnecessary investigation. Option C is disproportionate to accidental bruising. Option D would interfere with a normal developmental milestone.",
+ "correctChoiceId": "c",
+ "rationale": "Bruises on the shins, knees and forehead are the expected pattern in a child who is mobile and pulling to stand, because these are the bony points that meet furniture and the floor. The history matches the developmental stage and the sites. Option A treats a normal finding as abuse and would distress the family and trigger an unnecessary investigation. Option B is disproportionate to accidental bruising. Option D would interfere with a normal developmental milestone.",
  "strategy": "Match the bruise to the developmental stage. Shins and knees belong to a walker, not a baby who cannot move.",
  "difficulty": "hard",
  "tags": [
@@ -115670,23 +115670,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Vitamin K deficiency bleeding, because prophylaxis was not given at birth"
-  },
-  {
-   "id": "b",
    "text": "Haemophilia A"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Idiopathic thrombocytopenic purpura"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Disseminated intravascular coagulation from sepsis"
+  },
+  {
+   "id": "d",
+   "text": "Vitamin K deficiency bleeding, because prophylaxis was not given at birth"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Late vitamin K deficiency bleeding presents between two weeks and three months, classically in exclusively breastfed babies who did not receive vitamin K at birth, and it can present as intracranial haemorrhage, so it is a medical emergency. Option B is an inherited factor deficiency that presents in boys with joint and soft-tissue bleeding, not in the first weeks with umbilical bleeding. Option C causes petechiae and bruising with a low platelet count. Option D would come with a sick, febrile baby.",
+ "correctChoiceId": "d",
+ "rationale": "Late vitamin K deficiency bleeding presents between two weeks and three months, classically in exclusively breastfed babies who did not receive vitamin K at birth, and it can present as intracranial haemorrhage, so it is a medical emergency. Option A is an inherited factor deficiency that presents in boys with joint and soft-tissue bleeding, not in the first weeks with umbilical bleeding. Option B causes petechiae and bruising with a low platelet count. Option C would come with a sick, febrile baby.",
  "strategy": "Late bleeding in an unprophylaxed breastfed newborn is vitamin K deficiency until proved otherwise.",
  "difficulty": "hard",
  "tags": [
@@ -115734,11 +115734,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Keep the sleep space clear of pillows, thick blankets and soft toys, and place the child on their back"
+   "text": "Use a firm pillow to keep the head raised"
   },
   {
    "id": "b",
-   "text": "Use a firm pillow to keep the head raised"
+   "text": "Keep the sleep space clear of pillows, thick blankets and soft toys, and place the child on their back"
   },
   {
    "id": "c",
@@ -115749,8 +115749,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Line the cot with thick padding on all four sides"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Once a child can roll, the risk changes from SIDS to suffocation and entrapment, and the principle stays the same: a firm, flat surface, nothing loose in the cot, no pillows or padded bumpers, and the child placed on their back. Option B adds a soft surface that can cover the face. Option C increases the risk of rebreathing. Option D reintroduces the soft, loose materials the cot should not contain.",
+ "correctChoiceId": "b",
+ "rationale": "Once a child can roll, the risk changes from SIDS to suffocation and entrapment, and the principle stays the same: a firm, flat surface, nothing loose in the cot, no pillows or padded bumpers, and the child placed on their back. Option A adds a soft surface that can cover the face. Option C increases the risk of rebreathing. Option D reintroduces the soft, loose materials the cot should not contain.",
  "strategy": "A safe cot is an empty cot: firm flat mattress, nothing loose, child on the back.",
  "difficulty": "hard",
  "tags": [
@@ -115766,23 +115766,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Use a rear-facing car seat in the back, and never hold the baby in someone's arms"
-  },
-  {
-   "id": "b",
    "text": "Hold the baby securely on an adult's lap for short trips"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Use a forward-facing seat to let the baby see out"
+  },
+  {
+   "id": "c",
+   "text": "Use a rear-facing car seat in the back, and never hold the baby in someone's arms"
   },
   {
    "id": "d",
    "text": "Lay the baby flat on the back seat with the seatbelt over the blanket"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "A rear-facing seat spreads the forces of a crash across the whole back of an infant's body and protects the relatively heavy head and weak neck, and it is used in the back seat away from the front passenger airbag. Option B is the most dangerous option: an adult cannot hold a child in a crash. Option C faces the fragile neck forward too early. Option D provides no restraint at all.",
+ "correctChoiceId": "c",
+ "rationale": "A rear-facing seat spreads the forces of a crash across the whole back of an infant's body and protects the relatively heavy head and weak neck, and it is used in the back seat away from the front passenger airbag. Option A is the most dangerous option: an adult cannot hold a child in a crash. Option B faces the fragile neck forward too early. Option D provides no restraint at all.",
  "strategy": "Rear-facing, back seat, never on a lap. That is the whole of infant car safety.",
  "difficulty": "hard",
  "tags": [
@@ -115798,23 +115798,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "A quiet, darkened, single room with clustered care and minimal handling"
-  },
-  {
-   "id": "b",
    "text": "Frequent visitors and bright lighting for observation"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Vigorous physiotherapy of the jaw and limbs"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Withholding sedation until the spasms stop"
+  },
+  {
+   "id": "d",
+   "text": "A quiet, darkened, single room with clustered care and minimal handling"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Tetanus toxin blocks the release of inhibitory transmitters, so any stimulus can trigger a generalised spasm that obstructs the airway or fractures the spine. The environment is the treatment: a quiet, dark, single room, minimal handling, clustered care, and sedation with muscle relaxation prescribed. Option B supplies the stimuli that cause spasms. Option C can provoke spasm and injury. Option D lets the spasms continue unchecked.",
+ "correctChoiceId": "d",
+ "rationale": "Tetanus toxin blocks the release of inhibitory transmitters, so any stimulus can trigger a generalised spasm that obstructs the airway or fractures the spine. The environment is the treatment: a quiet, dark, single room, minimal handling, clustered care, and sedation with muscle relaxation prescribed. Option A supplies the stimuli that cause spasms. Option B can provoke spasm and injury. Option C lets the spasms continue unchecked.",
  "strategy": "In tetanus, the room is part of the prescription. Quiet, dark, minimal handling, sedated.",
  "difficulty": "hard",
  "tags": [
@@ -115862,11 +115862,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Industry versus inferiority"
+   "text": "Trust versus mistrust"
   },
   {
    "id": "b",
-   "text": "Trust versus mistrust"
+   "text": "Industry versus inferiority"
   },
   {
    "id": "c",
@@ -115877,7 +115877,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Identity versus role confusion"
   }
  ],
- "correctChoiceId": "a",
+ "correctChoiceId": "b",
  "rationale": "Erikson places industry versus inferiority in the school-age years, roughly six to twelve, when the child is learning to master tasks, follow rules and be productive among peers. Hospitalisation threatens that task, so schoolwork, play and praise for achievement matter. Trust versus mistrust belongs to infancy, autonomy versus shame and doubt to the toddler years, and identity versus role confusion to adolescence.",
  "strategy": "School age is industry versus inferiority: keep them busy, capable and praised.",
  "difficulty": "hard",
@@ -115894,23 +115894,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Encourage the mother to room in and keep a consistent nurse on the shift"
-  },
-  {
-   "id": "b",
    "text": "Ask the mother to leave without telling him to avoid upset"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Restrict visiting so that he gets used to the ward"
+  },
+  {
+   "id": "c",
+   "text": "Encourage the mother to room in and keep a consistent nurse on the shift"
   },
   {
    "id": "d",
    "text": "Tell him firmly that crying is not allowed"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "This is normal separation anxiety, which peaks in the toddler years, and the management is to keep the parent present where possible, maintain routines and toys from home, and assign a consistent nurse so that a relationship can form. Option B teaches the child that his mother disappears without warning and deepens the distress. Option C removes the very person he needs. Option D punishes a developmentally appropriate response.",
+ "correctChoiceId": "c",
+ "rationale": "This is normal separation anxiety, which peaks in the toddler years, and the management is to keep the parent present where possible, maintain routines and toys from home, and assign a consistent nurse so that a relationship can form. Option A teaches the child that his mother disappears without warning and deepens the distress. Option B removes the very person he needs. Option D punishes a developmentally appropriate response.",
  "strategy": "Toddler plus screaming at separation is normal. Keep the parent close and be the same nurse.",
  "difficulty": "hard",
  "tags": [
@@ -115926,23 +115926,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Protest"
-  },
-  {
-   "id": "b",
    "text": "Despair"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Detachment"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Denial"
+  },
+  {
+   "id": "d",
+   "text": "Protest"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "In protest, the first phase of separation anxiety, the toddler cries loudly, searches for the parent, rejects the attention of strangers and tries to bring the parent back. Option B comes later, when the crying stops and the child becomes withdrawn and apathetic. Option C comes later still, when the child appears to accept comfort from anyone and treats the parent with indifference, which looks like improvement and is not. Option D is not a phase of separation response.",
+ "correctChoiceId": "d",
+ "rationale": "In protest, the first phase of separation anxiety, the toddler cries loudly, searches for the parent, rejects the attention of strangers and tries to bring the parent back. Option A comes later, when the crying stops and the child becomes withdrawn and apathetic. Option B comes later still, when the child appears to accept comfort from anyone and treats the parent with indifference, which looks like improvement and is not. Option C is not a phase of separation response.",
  "strategy": "Loud and angry is protest. Quiet and withdrawn is despair. Indifferent is detachment.",
  "difficulty": "hard",
  "tags": [
@@ -115990,11 +115990,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Trust versus mistrust"
+   "text": "Autonomy versus shame and doubt"
   },
   {
    "id": "b",
-   "text": "Autonomy versus shame and doubt"
+   "text": "Trust versus mistrust"
   },
   {
    "id": "c",
@@ -116005,8 +116005,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Industry versus inferiority"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Erikson places trust versus mistrust in the first year of life, and it is built through consistent, responsive caregiving: the infant learns that needs are met and the world is reliable. Repeated admissions and inconsistent caregiving threaten that task, so the nurse should support the mother's presence and involve her in feeding and comforting. Option B belongs to the toddler years, option C to the preschool years and option D to school age.",
+ "correctChoiceId": "b",
+ "rationale": "Erikson places trust versus mistrust in the first year of life, and it is built through consistent, responsive caregiving: the infant learns that needs are met and the world is reliable. Repeated admissions and inconsistent caregiving threaten that task, so the nurse should support the mother's presence and involve her in feeding and comforting. Option A belongs to the toddler years, option C to the preschool years and option D to school age.",
  "strategy": "Infancy is trust versus mistrust, and it is built by consistent, responsive care.",
  "difficulty": "hard",
  "tags": [
@@ -116022,23 +116022,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Shame and doubt about their own ability to act"
-  },
-  {
-   "id": "b",
    "text": "Mistrust of the world and of caregivers"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Guilt about taking initiative"
+  },
+  {
+   "id": "c",
+   "text": "Shame and doubt about their own ability to act"
   },
   {
    "id": "d",
    "text": "Feelings of inferiority about their competence"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "The toddler stage is autonomy versus shame and doubt, and the toddler builds autonomy by making small choices and having them respected. Constant prohibition and no control over small decisions produce shame and doubt. Option B belongs to the first stage, trust versus mistrust, which is about consistent care in infancy. Option C belongs to the preschool years, initiative versus guilt. Option D belongs to school age, industry versus inferiority.",
+ "correctChoiceId": "c",
+ "rationale": "The toddler stage is autonomy versus shame and doubt, and the toddler builds autonomy by making small choices and having them respected. Constant prohibition and no control over small decisions produce shame and doubt. Option A belongs to the first stage, trust versus mistrust, which is about consistent care in infancy. Option B belongs to the preschool years, initiative versus guilt. Option D belongs to school age, industry versus inferiority.",
  "strategy": "Erikson's toddler task is autonomy. Give choices, or you build shame.",
  "difficulty": "hard",
  "tags": [
@@ -116054,23 +116054,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Erikson described psychosocial conflicts that continue across the whole lifespan, while Freud described psychosexual stages ending in adolescence"
-  },
-  {
-   "id": "b",
    "text": "Erikson described psychosexual stages, while Freud described psychosocial tasks"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Both theories end at adolescence and reject any later development"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Erikson's stages are purely biological, while Freud's are social"
+  },
+  {
+   "id": "d",
+   "text": "Erikson described psychosocial conflicts that continue across the whole lifespan, while Freud described psychosexual stages ending in adolescence"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Erikson extended development across the whole lifespan in eight psychosocial stages, each turning on a conflict between the individual and their social world, which is why a nurse can apply it to an older adult as readily as to a toddler. Option B reverses the two theorists. Option C is wrong about Erikson, who was specifically arguing against the idea that development stops in adolescence. Option D misdescribes both.",
+ "correctChoiceId": "d",
+ "rationale": "Erikson extended development across the whole lifespan in eight psychosocial stages, each turning on a conflict between the individual and their social world, which is why a nurse can apply it to an older adult as readily as to a toddler. Option A reverses the two theorists. Option B is wrong about Erikson, who was specifically arguing against the idea that development stops in adolescence. Option C misdescribes both.",
  "strategy": "Erikson equals psychosocial and lifespan. Freud equals psychosexual and childhood.",
  "difficulty": "hard",
  "tags": [
@@ -116118,11 +116118,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "9 to 12 months"
+   "text": "3 to 4 months"
   },
   {
    "id": "b",
-   "text": "3 to 4 months"
+   "text": "9 to 12 months"
   },
   {
    "id": "c",
@@ -116133,7 +116133,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "18 to 24 months"
   }
  ],
- "correctChoiceId": "a",
+ "correctChoiceId": "b",
  "rationale": "The pincer grasp, taking a small object between the thumb and forefinger, develops between about nine and twelve months. At three to four months the infant is swiping at objects, and by five to six months can rake an object towards the palm. By eighteen to twenty-four months the child is building towers and using a spoon. The grasp is a useful developmental marker because it reflects both fine motor control and the visual coordination that precedes self-feeding.",
  "strategy": "Pincer grasp appears around 9 to 12 months; before that, it is a whole-hand rake.",
  "difficulty": "hard",
@@ -116150,23 +116150,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Reduce noise, light and handling, and keep the environment calm and quiet"
-  },
-  {
-   "id": "b",
    "text": "Encourage frequent visitors to keep the child company"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Keep the lights bright so the child can be watched closely"
+  },
+  {
+   "id": "c",
+   "text": "Reduce noise, light and handling, and keep the environment calm and quiet"
   },
   {
    "id": "d",
    "text": "Carry out frequent non-urgent procedures to monitor progress"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Tetanus toxin removes the normal inhibition of motor neurons, so any sensory stimulus, a door, a light, a touch, can set off a generalised spasm that obstructs the airway. A quiet, dim room, minimal handling, clustered care and sedation are the core nursing measures. Option B adds exactly the stimuli that provoke spasm. Option C is the opposite of what is needed. Option D causes avoidable spasms.",
+ "correctChoiceId": "c",
+ "rationale": "Tetanus toxin removes the normal inhibition of motor neurons, so any sensory stimulus, a door, a light, a touch, can set off a generalised spasm that obstructs the airway. A quiet, dim room, minimal handling, clustered care and sedation are the core nursing measures. Option A adds exactly the stimuli that provoke spasm. Option B is the opposite of what is needed. Option D causes avoidable spasms.",
  "strategy": "In tetanus the environment is the treatment. Quiet, dim, and handle as little as possible.",
  "difficulty": "hard",
  "tags": [
@@ -116182,23 +116182,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Protect the airway and safety, then assess temperature and treat fever as prescribed"
-  },
-  {
-   "id": "b",
    "text": "Force paracetamol into the mouth during the seizure"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Restrain the arms and legs firmly"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Place a spoon between the teeth"
+  },
+  {
+   "id": "d",
+   "text": "Protect the airway and safety, then assess temperature and treat fever as prescribed"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "The immediate priority is to protect the child from injury and keep the airway clear, positioning on the side, timing the seizure and loosening clothing, with oxygen and suction available. Temperature is assessed and antipyretics given once the seizure has stopped. Option B risks aspiration. Option C risks fracture of a young child's bones and prolongs the seizure. Option D can break teeth and obstruct the airway.",
+ "correctChoiceId": "d",
+ "rationale": "The immediate priority is to protect the child from injury and keep the airway clear, positioning on the side, timing the seizure and loosening clothing, with oxygen and suction available. Temperature is assessed and antipyretics given once the seizure has stopped. Option A risks aspiration. Option B risks fracture of a young child's bones and prolongs the seizure. Option C can break teeth and obstruct the airway.",
  "strategy": "During a seizure, protect and position. Nothing goes into the mouth. Treat the fever after.",
  "difficulty": "hard",
  "tags": [
@@ -116246,11 +116246,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Explain simply that his thoughts cannot make anyone ill, and invite him to help with small tasks"
+   "text": "Agree that angry thoughts can cause illness"
   },
   {
    "id": "b",
-   "text": "Agree that angry thoughts can cause illness"
+   "text": "Explain simply that his thoughts cannot make anyone ill, and invite him to help with small tasks"
   },
   {
    "id": "c",
@@ -116261,8 +116261,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Suggest he stop talking about his sister"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Preschool children reason with magical thinking and are egocentric, so they readily believe that a wish or an angry thought caused an event. The child needs a simple explanation that thoughts cannot cause illness, reassurance that he is not to blame, and a small real role in care, which restores some control. Option B confirms the misconception. Options C and D dismiss a genuine worry that will otherwise persist unspoken.",
+ "correctChoiceId": "b",
+ "rationale": "Preschool children reason with magical thinking and are egocentric, so they readily believe that a wish or an angry thought caused an event. The child needs a simple explanation that thoughts cannot cause illness, reassurance that he is not to blame, and a small real role in care, which restores some control. Option A confirms the misconception. Options C and D dismiss a genuine worry that will otherwise persist unspoken.",
  "strategy": "Preschoolers believe wishes come true. Say plainly that thoughts did not cause the illness.",
  "difficulty": "hard",
  "tags": [
@@ -116278,23 +116278,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Apply firm direct pressure above the insertion site and call for help"
-  },
-  {
-   "id": "b",
    "text": "Reinforce the dressing without looking at the site"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Sit the child upright and leave the site to be checked later"
+  },
+  {
+   "id": "c",
+   "text": "Apply firm direct pressure above the insertion site and call for help"
   },
   {
    "id": "d",
    "text": "Wait for the next scheduled observation round"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "A saturated dressing after femoral catheterisation means the puncture site is bleeding and may be bleeding into the groin, so the nurse applies firm pressure at and just above the insertion site, keeps the child flat, checks distal pulses and calls for help. Option B hides the blood loss and conceals the size of the problem. Option C removes the pressure and adds gravitational flow. Option D allows continued haemorrhage.",
+ "correctChoiceId": "c",
+ "rationale": "A saturated dressing after femoral catheterisation means the puncture site is bleeding and may be bleeding into the groin, so the nurse applies firm pressure at and just above the insertion site, keeps the child flat, checks distal pulses and calls for help. Option A hides the blood loss and conceals the size of the problem. Option B removes the pressure and adds gravitational flow. Option D allows continued haemorrhage.",
  "strategy": "Blood through the dressing means press on the site now, then check the distal pulse.",
  "difficulty": "hard",
  "tags": [
@@ -116310,23 +116310,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "A new drop in the level of consciousness"
-  },
-  {
-   "id": "b",
    "text": "A mild headache that eases with paracetamol"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Appetite slowly returning"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "A temperature falling from 39 to 37.8 degrees"
+  },
+  {
+   "id": "d",
+   "text": "A new drop in the level of consciousness"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "A child with meningitis who becomes less responsive may be developing raised intracranial pressure, a seizure, a subdural collection or worsening sepsis, and this is the sign that changes fastest and matters most. Option B is expected and improving. Option C is a sign of recovery. Option D is the response to treatment.",
+ "correctChoiceId": "d",
+ "rationale": "A child with meningitis who becomes less responsive may be developing raised intracranial pressure, a seizure, a subdural collection or worsening sepsis, and this is the sign that changes fastest and matters most. Option A is expected and improving. Option B is a sign of recovery. Option C is the response to treatment.",
  "strategy": "Improving infection with a falling conscious level means the brain is in trouble. Escalate.",
  "difficulty": "hard",
  "tags": [
@@ -116374,11 +116374,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Pause for ten minutes and then restart with smaller, more frequent volumes"
+   "text": "Stop oral rehydration and give nothing by mouth for twelve hours"
   },
   {
    "id": "b",
-   "text": "Stop oral rehydration and give nothing by mouth for twelve hours"
+   "text": "Pause for ten minutes and then restart with smaller, more frequent volumes"
   },
   {
    "id": "c",
@@ -116389,8 +116389,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Switch to plain water instead of the rehydration solution"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Vomiting during oral rehydration is common and does not mean failure, because the fluid is absorbed even when some comes back. The correct response is a short pause, then smaller volumes given more often, by syringe or spoon, and continuing. Option B removes the treatment the child needs. Option C provokes more vomiting. Option D replaces electrolytes with water alone.",
+ "correctChoiceId": "b",
+ "rationale": "Vomiting during oral rehydration is common and does not mean failure, because the fluid is absorbed even when some comes back. The correct response is a short pause, then smaller volumes given more often, by syringe or spoon, and continuing. Option A removes the treatment the child needs. Option C provokes more vomiting. Option D replaces electrolytes with water alone.",
  "strategy": "Vomiting does not stop ORS working. Pause, then smaller and more often.",
  "difficulty": "hard",
  "tags": [
@@ -116406,23 +116406,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Give the overdue dose now and continue the schedule; do not restart the series"
-  },
-  {
-   "id": "b",
    "text": "Restart the whole schedule from the first dose"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Wait until the child is two years old to resume"
+  },
+  {
+   "id": "c",
+   "text": "Give the overdue dose now and continue the schedule; do not restart the series"
   },
   {
    "id": "d",
    "text": "Give all the missed doses in one visit"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "A delayed immunisation is always given as soon as it is possible, from where the schedule stopped, and the series is never restarted, because the doses already received remain valid. Option B would withhold protection the child already has. Option C increases the period of vulnerability to diseases with high mortality in infancy. Option D is not a valid schedule and is not how any antigen is given.",
+ "correctChoiceId": "c",
+ "rationale": "A delayed immunisation is always given as soon as it is possible, from where the schedule stopped, and the series is never restarted, because the doses already received remain valid. Option A would withhold protection the child already has. Option B increases the period of vulnerability to diseases with high mortality in infancy. Option D is not a valid schedule and is not how any antigen is given.",
  "strategy": "Late does not mean restart. Pick up at the dose that was missed and carry on.",
  "difficulty": "hard",
  "tags": [
@@ -116438,23 +116438,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "If the child is drowsy, breathing fast, not drinking, or has a convulsion"
-  },
-  {
-   "id": "b",
    "text": "Only if the temperature goes above 39 degrees"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Never, because fever in children is always harmless"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Only if the fever has lasted more than a week"
+  },
+  {
+   "id": "d",
+   "text": "If the child is drowsy, breathing fast, not drinking, or has a convulsion"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "The height of the fever matters far less than how the child behaves, so the signs that should bring a family to care are the general danger signs: lethargy or drowsiness, fast or laboured breathing, inability to drink or feed, a convulsion, or a rash that does not fade. Option B misses a seriously ill child with a modest fever. Option C is wrong: fever can be the first sign of malaria, pneumonia or meningitis. Option D is a dangerous delay.",
+ "correctChoiceId": "d",
+ "rationale": "The height of the fever matters far less than how the child behaves, so the signs that should bring a family to care are the general danger signs: lethargy or drowsiness, fast or laboured breathing, inability to drink or feed, a convulsion, or a rash that does not fade. Option A misses a seriously ill child with a modest fever. Option B is wrong: fever can be the first sign of malaria, pneumonia or meningitis. Option C is a dangerous delay.",
  "strategy": "In a febrile child, watch the child not the thermometer.",
  "difficulty": "hard",
  "tags": [
@@ -117142,11 +117142,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "An untreated chlamydial infection several years earlier"
+   "text": "A single small intramural fibroid"
   },
   {
    "id": "b",
-   "text": "A single small intramural fibroid"
+   "text": "An untreated chlamydial infection several years earlier"
   },
   {
    "id": "c",
@@ -117157,8 +117157,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Ten years of combined oral contraceptive use"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Chlamydia is often silent and climbs through the cervix to the tubes, where the resulting scarring and adhesions close the fimbrial ends, and it is the commonest preventable cause of tubal infertility. Option B distorts the uterine cavity and can interfere with implantation, but it does not scar the tubes. Option C is irrelevant to tubal pathology. Option D does not cause tubal blockage: combined oral contraceptives reduce the risk of pelvic infection rather than causing it.",
+ "correctChoiceId": "b",
+ "rationale": "Chlamydia is often silent and climbs through the cervix to the tubes, where the resulting scarring and adhesions close the fimbrial ends, and it is the commonest preventable cause of tubal infertility. Option A distorts the uterine cavity and can interfere with implantation, but it does not scar the tubes. Option C is irrelevant to tubal pathology. Option D does not cause tubal blockage: combined oral contraceptives reduce the risk of pelvic infection rather than causing it.",
  "strategy": "Tubal blockage is a scar. Ask about past pelvic infection, especially chlamydia.",
  "difficulty": "hard",
  "tags": [
@@ -117174,23 +117174,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "The blood supply is cut off and the testis can die within a few hours"
-  },
-  {
-   "id": "b",
    "text": "Surgery is the only way to control the pain"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "The testis will burst as the swelling increases"
+  },
+  {
+   "id": "c",
+   "text": "The blood supply is cut off and the testis can die within a few hours"
   },
   {
    "id": "d",
    "text": "Delaying will allow the torsion to spread to the other side"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Testicular torsion twists the spermatic cord and stops arterial flow. Salvage rates are high when the testis is untwisted within about six hours and fall steeply after that, so this is a surgical emergency regardless of the hour. Option B is wrong because the issue is ischaemia, not analgesia. Option C is wrong: the testis does not rupture from swelling, it infarcts. Option D is wrong: torsion is a mechanical accident of one cord and does not spread; the opposite side is fixed at the same operation to prevent it happening there.",
+ "correctChoiceId": "c",
+ "rationale": "Testicular torsion twists the spermatic cord and stops arterial flow. Salvage rates are high when the testis is untwisted within about six hours and fall steeply after that, so this is a surgical emergency regardless of the hour. Option A is wrong because the issue is ischaemia, not analgesia. Option B is wrong: the testis does not rupture from swelling, it infarcts. Option D is wrong: torsion is a mechanical accident of one cord and does not spread; the opposite side is fixed at the same operation to prevent it happening there.",
  "strategy": "Sudden scrotal pain with an absent cremasteric reflex is torsion. Six hours is the salvage window.",
  "difficulty": "hard",
  "tags": [
@@ -117206,23 +117206,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Pulmonary vascular resistance falls as the lungs expand, and the fetal shunts begin to close"
-  },
-  {
-   "id": "b",
    "text": "Left atrial pressure falls below right atrial pressure"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "The ductus venosus opens to admit more placental blood"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Systemic vascular resistance falls below pulmonary vascular resistance"
+  },
+  {
+   "id": "d",
+   "text": "Pulmonary vascular resistance falls as the lungs expand, and the fetal shunts begin to close"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "The first breaths expand the lungs and drop pulmonary vascular resistance, so pulmonary blood flow rises and more blood returns to the left atrium, raising left atrial pressure above right. That reversal closes the foramen ovale, and rising arterial oxygen closes the ductus arteriosus. Option B describes the fetal direction, which is the opposite of what happens after birth. Option C is wrong: the ductus venosus closes when the cord is cut, it does not open. Option D has the pressures backwards, since systemic resistance rises once the placenta is removed.",
+ "correctChoiceId": "d",
+ "rationale": "The first breaths expand the lungs and drop pulmonary vascular resistance, so pulmonary blood flow rises and more blood returns to the left atrium, raising left atrial pressure above right. That reversal closes the foramen ovale, and rising arterial oxygen closes the ductus arteriosus. Option A describes the fetal direction, which is the opposite of what happens after birth. Option B is wrong: the ductus venosus closes when the cord is cut, it does not open. Option C has the pressures backwards, since systemic resistance rises once the placenta is removed.",
  "strategy": "After birth: lung resistance falls, left atrial pressure rises, shunts close.",
  "difficulty": "hard",
  "tags": [
@@ -117270,11 +117270,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Document acrocyanosis and continue routine newborn care"
+   "text": "Start free-flow oxygen at 5 L per minute"
   },
   {
    "id": "b",
-   "text": "Start free-flow oxygen at 5 L per minute"
+   "text": "Document acrocyanosis and continue routine newborn care"
   },
   {
    "id": "c",
@@ -117285,8 +117285,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Check a blood glucose urgently"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Blue hands and feet with a pink trunk is acrocyanosis, caused by sluggish peripheral circulation and cooling in the first hours, and it resolves without treatment when the baby is warm. The normal heart rate, respiratory rate and saturation confirm that this is not hypoxia. Option B treats a normal finding with oxygen the baby does not need. Option C mistakes a peripheral sign for central cyanosis, which would involve the lips, tongue and trunk. Option D investigates a problem the baby does not have.",
+ "correctChoiceId": "b",
+ "rationale": "Blue hands and feet with a pink trunk is acrocyanosis, caused by sluggish peripheral circulation and cooling in the first hours, and it resolves without treatment when the baby is warm. The normal heart rate, respiratory rate and saturation confirm that this is not hypoxia. Option A treats a normal finding with oxygen the baby does not need. Option C mistakes a peripheral sign for central cyanosis, which would involve the lips, tongue and trunk. Option D investigates a problem the baby does not have.",
  "strategy": "Blue hands and feet with a pink trunk is acrocyanosis. Blue lips and trunk is not.",
  "difficulty": "hard",
  "tags": [
@@ -117302,23 +117302,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Low birth weight, prompting review of feeding, temperature control and glucose"
-  },
-  {
-   "id": "b",
    "text": "Normal weight for a term baby"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Macrosomic"
+  },
+  {
+   "id": "c",
+   "text": "Low birth weight, prompting review of feeding, temperature control and glucose"
   },
   {
    "id": "d",
    "text": "Very low birth weight"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Low birth weight is any weight below 2,500 g at birth, so 2,380 g falls in that band; a term baby at this weight is also small for gestational age and needs feeding, thermal and glucose surveillance. Option B is wrong because the threshold for normal birth weight is 2,500 g. Option C is wrong at the other extreme: macrosomia means a weight over about 4,000 g. Option D is wrong because very low birth weight means under 1,500 g.",
+ "correctChoiceId": "c",
+ "rationale": "Low birth weight is any weight below 2,500 g at birth, so 2,380 g falls in that band; a term baby at this weight is also small for gestational age and needs feeding, thermal and glucose surveillance. Option A is wrong because the threshold for normal birth weight is 2,500 g. Option B is wrong at the other extreme: macrosomia means a weight over about 4,000 g. Option D is wrong because very low birth weight means under 1,500 g.",
  "strategy": "Under 2,500 g is low birth weight; under 1,500 g is very low.",
  "difficulty": "hard",
  "tags": [
@@ -117334,23 +117334,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Around 16 January"
-  },
-  {
-   "id": "b",
    "text": "Around 7 January"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Around 24 January"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Around 29 January"
+  },
+  {
+   "id": "d",
+   "text": "Around 16 January"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Ovulation occurs about 14 days before the next period, not 14 days after the last one. In a 30-day cycle that is day 16, which is 16 January. Counting from the start of bleeding rather than back from the next period is the commonest error. Option B is only day 7, when the follicle is still developing. Option C is day 24, which is in the luteal phase. Option D is the day before the next period, when ovulation is long past and pregnancy is not possible.",
+ "correctChoiceId": "d",
+ "rationale": "Ovulation occurs about 14 days before the next period, not 14 days after the last one. In a 30-day cycle that is day 16, which is 16 January. Counting from the start of bleeding rather than back from the next period is the commonest error. Option A is only day 7, when the follicle is still developing. Option B is day 24, which is in the luteal phase. Option C is the day before the next period, when ovulation is long past and pregnancy is not possible.",
  "strategy": "Ovulation: 14 days before the next period, not after the last one.",
  "difficulty": "hard",
  "tags": [
@@ -117398,11 +117398,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "A single intramuscular dose of ceftriaxone"
+   "text": "Oral levofloxacin for seven days"
   },
   {
    "id": "b",
-   "text": "Oral levofloxacin for seven days"
+   "text": "A single intramuscular dose of ceftriaxone"
   },
   {
    "id": "c",
@@ -117413,8 +117413,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Warfarin with regular INR checks"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Current guidance treats gonorrhoea with a single intramuscular dose of ceftriaxone, and partners are treated as well; coverage for chlamydia is usually added because the two infections travel together. Option B is wrong twice over: quinolones are avoided in pregnancy and resistance to them is now widespread. Option C treats inflammatory bowel disease and has no effect on gonorrhoea. Option D is an anticoagulant and would be actively dangerous in pregnancy.",
+ "correctChoiceId": "b",
+ "rationale": "Current guidance treats gonorrhoea with a single intramuscular dose of ceftriaxone, and partners are treated as well; coverage for chlamydia is usually added because the two infections travel together. Option A is wrong twice over: quinolones are avoided in pregnancy and resistance to them is now widespread. Option C treats inflammatory bowel disease and has no effect on gonorrhoea. Option D is an anticoagulant and would be actively dangerous in pregnancy.",
  "strategy": "Gonorrhoea in pregnancy: single-dose ceftriaxone, and treat the partner.",
  "difficulty": "hard",
  "tags": [
@@ -117430,23 +117430,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Arrange assessment for a secondary cause such as endometriosis"
-  },
-  {
-   "id": "b",
    "text": "Reassure her that period pain is always normal and needs no review"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Suggest iron supplements on their own"
+  },
+  {
+   "id": "c",
+   "text": "Arrange assessment for a secondary cause such as endometriosis"
   },
   {
    "id": "d",
    "text": "Advise her to give up all physical activity"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Primary dysmenorrhoea usually responds to non-steroidal anti-inflammatories or a combined hormonal contraceptive. Pain that is severe, that disrupts school, and that no longer responds is a reason to look for endometriosis or an obstructive anomaly rather than to reassure. Option B dismisses a symptom that is interfering with her life and may have a treatable cause. Option C does nothing for pain, although iron may be needed if she is anaemic. Option D removes a measure that usually helps and would not treat the cause.",
+ "correctChoiceId": "c",
+ "rationale": "Primary dysmenorrhoea usually responds to non-steroidal anti-inflammatories or a combined hormonal contraceptive. Pain that is severe, that disrupts school, and that no longer responds is a reason to look for endometriosis or an obstructive anomaly rather than to reassure. Option A dismisses a symptom that is interfering with her life and may have a treatable cause. Option B does nothing for pain, although iron may be needed if she is anaemic. Option D removes a measure that usually helps and would not treat the cause.",
  "strategy": "Pain that stops her living normally, or stops responding to NSAIDs, needs a diagnosis, not reassurance.",
  "difficulty": "hard",
  "tags": [
@@ -117462,23 +117462,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "The head is proportionally large and the neck muscles are weak, so it can flop and obstruct the airway"
-  },
-  {
-   "id": "b",
    "text": "The skull bones are fully fused and cannot move"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "The brain is smaller than an adult's relative to the body"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "The neck is longer than in an adult"
+  },
+  {
+   "id": "d",
+   "text": "The head is proportionally large and the neck muscles are weak, so it can flop and obstruct the airway"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "The newborn head is about a quarter of the total body length and the neck muscles are not yet strong enough to control it, so an unsupported head flops backwards and can obstruct the airway or strain the neck. The skull is also not fully fused: the sutures and fontanelles are open, which allows moulding during birth and growth afterwards. Option B is the opposite of the truth. Option C is wrong, because the brain is proportionally larger than an adult's. Option D is wrong, because the newborn neck is short.",
+ "correctChoiceId": "d",
+ "rationale": "The newborn head is about a quarter of the total body length and the neck muscles are not yet strong enough to control it, so an unsupported head flops backwards and can obstruct the airway or strain the neck. The skull is also not fully fused: the sutures and fontanelles are open, which allows moulding during birth and growth afterwards. Option A is the opposite of the truth. Option B is wrong, because the brain is proportionally larger than an adult's. Option C is wrong, because the newborn neck is short.",
  "strategy": "Support the head until head control develops: the newborn head is large and the neck muscles are weak.",
  "difficulty": "hard",
  "tags": [
@@ -117525,11 +117525,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Anterior and posterior vaginal wall prolapse"
+   "text": "An acute urinary tract infection"
   },
   {
    "id": "b",
-   "text": "An acute urinary tract infection"
+   "text": "Anterior and posterior vaginal wall prolapse"
   },
   {
    "id": "c",
@@ -117540,8 +117540,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Vulval candidiasis"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "A bulge with stress incontinence points to a cystocele, and the need to splint the posterior wall to open the bowel points to a rectocele; the two commonly coexist after vaginal deliveries. Option B explains urgency and burning, not a bulge or the need to splint. Option C causes heavy bleeding and pressure but not this combination. Option D causes itch and discharge, not mechanical obstruction of stool.",
+ "correctChoiceId": "b",
+ "rationale": "A bulge with stress incontinence points to a cystocele, and the need to splint the posterior wall to open the bowel points to a rectocele; the two commonly coexist after vaginal deliveries. Option A explains urgency and burning, not a bulge or the need to splint. Option C causes heavy bleeding and pressure but not this combination. Option D causes itch and discharge, not mechanical obstruction of stool.",
  "strategy": "Bulge plus stress leak equals cystocele. Bulge plus splinting to pass stool equals rectocele.",
  "difficulty": "hard",
  "tags": [
@@ -117556,23 +117556,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "She has not passed urine since the catheter came out and has a constant urge to void"
-  },
-  {
-   "id": "b",
    "text": "She feels mildly tired after mobilising"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "She has had one normal bowel movement"
+  },
+  {
+   "id": "c",
+   "text": "She has not passed urine since the catheter came out and has a constant urge to void"
   },
   {
    "id": "d",
    "text": "She has a good appetite and is drinking well"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Pelvic repair causes oedema and pain around the bladder neck, so urinary retention is a recognised early complication and one that can cause distension and infection if it is left. A bladder scan and catheterisation may be needed. Options B, C and D are the ordinary signs of uneventful recovery and need no action beyond encouragement.",
+ "correctChoiceId": "c",
+ "rationale": "Pelvic repair causes oedema and pain around the bladder neck, so urinary retention is a recognised early complication and one that can cause distension and infection if it is left. A bladder scan and catheterisation may be needed. Options A, B and D are the ordinary signs of uneventful recovery and need no action beyond encouragement.",
  "strategy": "After pelvic surgery, no urine plus a constant urge means retention until a scan proves otherwise.",
  "difficulty": "hard",
  "tags": [
@@ -117588,23 +117588,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Ulceration and infection of the exposed tissue"
-  },
-  {
-   "id": "b",
    "text": "Improved pelvic floor tone"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Ovarian torsion"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "A stress fracture of the pelvis"
+  },
+  {
+   "id": "d",
+   "text": "Ulceration and infection of the exposed tissue"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Cervix and vaginal skin that are permanently outside the body lose their moisture, rub on clothing and become keratinised, then ulcerate; the ulcers can bleed and become infected, and the same woman is at risk of urinary retention and upper tract damage. Option B is the opposite of the truth, since the pelvic floor has failed. Option C is unrelated to prolapse. Option D is not a recognised consequence of prolapse.",
+ "correctChoiceId": "d",
+ "rationale": "Cervix and vaginal skin that are permanently outside the body lose their moisture, rub on clothing and become keratinised, then ulcerate; the ulcers can bleed and become infected, and the same woman is at risk of urinary retention and upper tract damage. Option A is the opposite of the truth, since the pelvic floor has failed. Option B is unrelated to prolapse. Option C is not a recognised consequence of prolapse.",
  "strategy": "Tissue that lives outside the body dries, rubs and ulcerates.",
  "difficulty": "hard",
  "tags": [
@@ -117650,11 +117650,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Rupture of a tubo-ovarian abscess"
+   "text": "Uncomplicated PID responding to antibiotics"
   },
   {
    "id": "b",
-   "text": "Uncomplicated PID responding to antibiotics"
+   "text": "Rupture of a tubo-ovarian abscess"
   },
   {
    "id": "c",
@@ -117665,8 +117665,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Ovarian hyperstimulation"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "A tubo-ovarian abscess that ruptures spills pus into the peritoneal cavity, producing sudden severe pain, peritonism and septic shock; the shoulder-tip pain comes from diaphragmatic irritation. This is a surgical emergency. Option B is wrong because treated PID improves over days, it does not deteriorate abruptly. Option C causes dysuria and frequency without shock. Option D follows ovulation induction and would not present in a client being treated for pelvic infection.",
+ "correctChoiceId": "b",
+ "rationale": "A tubo-ovarian abscess that ruptures spills pus into the peritoneal cavity, producing sudden severe pain, peritonism and septic shock; the shoulder-tip pain comes from diaphragmatic irritation. This is a surgical emergency. Option A is wrong because treated PID improves over days, it does not deteriorate abruptly. Option C causes dysuria and frequency without shock. Option D follows ovulation induction and would not present in a client being treated for pelvic infection.",
  "strategy": "Sudden collapse in PID means a ruptured abscess until proved otherwise.",
  "difficulty": "hard",
  "tags": [
@@ -117682,23 +117682,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Arrange prompt cervical assessment with a smear and referral for colposcopy"
-  },
-  {
-   "id": "b",
    "text": "Reassure her that postcoital bleeding is a normal variant"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Treat her for thrush and review in six months"
+  },
+  {
+   "id": "c",
+   "text": "Arrange prompt cervical assessment with a smear and referral for colposcopy"
   },
   {
    "id": "d",
    "text": "Advise abstaining from intercourse for a fortnight with no follow-up"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Postcoital bleeding is the classic early warning of cervical cancer, and it also occurs with cervical ectopy, polyps and infection, so it must be examined rather than assumed benign. Option B is wrong: postcoital bleeding is never simply normal and always needs a diagnosis. Option C treats an infection the client may not have and delays cancer diagnosis. Option D removes the symptom without investigating it.",
+ "correctChoiceId": "c",
+ "rationale": "Postcoital bleeding is the classic early warning of cervical cancer, and it also occurs with cervical ectopy, polyps and infection, so it must be examined rather than assumed benign. Option A is wrong: postcoital bleeding is never simply normal and always needs a diagnosis. Option B treats an infection the client may not have and delays cancer diagnosis. Option D removes the symptom without investigating it.",
  "strategy": "Bleeding after intercourse is a red flag for the cervix. Examine, do not reassure.",
  "difficulty": "hard",
  "tags": [
@@ -117714,23 +117714,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "A low fibrinogen with prolonged clotting times"
-  },
-  {
-   "id": "b",
    "text": "A raised platelet count with shortened clotting times"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Polycythaemia with a raised haematocrit"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Hyperalbuminaemia with a normal coagulation screen"
+  },
+  {
+   "id": "d",
+   "text": "A low fibrinogen with prolonged clotting times"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Abruption releases placental thromboplastin into the maternal circulation and triggers disseminated intravascular coagulation, so fibrinogen and platelets are consumed and clotting times lengthen; the bleeding you see at puncture sites is the consumption coagulopathy, not the abruption itself. Option B describes the opposite of DIC. Option C is a red cell problem and does not cause oozing. Option D does not affect coagulation, and the screen would not be normal in DIC.",
+ "correctChoiceId": "d",
+ "rationale": "Abruption releases placental thromboplastin into the maternal circulation and triggers disseminated intravascular coagulation, so fibrinogen and platelets are consumed and clotting times lengthen; the bleeding you see at puncture sites is the consumption coagulopathy, not the abruption itself. Option A describes the opposite of DIC. Option B is a red cell problem and does not cause oozing. Option C does not affect coagulation, and the screen would not be normal in DIC.",
  "strategy": "Abruption plus oozing equals DIC. Expect a low fibrinogen and prolonged clotting times.",
  "difficulty": "hard",
  "tags": [
@@ -117780,11 +117780,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Performing a digital vaginal examination"
+   "text": "Monitoring maternal vital signs and the fetal heart rate"
   },
   {
    "id": "b",
-   "text": "Monitoring maternal vital signs and the fetal heart rate"
+   "text": "Performing a digital vaginal examination"
   },
   {
    "id": "c",
@@ -117795,8 +117795,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Preparing the client for an ultrasound scan"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Painless bright-red bleeding late in pregnancy suggests placenta praevia, and a digital examination can tear through the placenta sitting over the cervical os, causing catastrophic haemorrhage. The examination is deferred until ultrasound has shown the placental site. Option B is essential baseline observation. Option C is needed because she may bleed heavily and needs a route for fluids and blood. Option D is the investigation that must come before any examination.",
+ "correctChoiceId": "b",
+ "rationale": "Painless bright-red bleeding late in pregnancy suggests placenta praevia, and a digital examination can tear through the placenta sitting over the cervical os, causing catastrophic haemorrhage. The examination is deferred until ultrasound has shown the placental site. Option A is essential baseline observation. Option C is needed because she may bleed heavily and needs a route for fluids and blood. Option D is the investigation that must come before any examination.",
  "strategy": "Bleeding late in pregnancy: scan before you touch. No digital examination until praevia is excluded.",
  "difficulty": "hard",
  "tags": [
@@ -117814,23 +117814,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Turn her onto her side, stop the oxytocin and call for urgent review"
-  },
-  {
-   "id": "b",
    "text": "Increase the oxytocin to speed delivery"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Ask her to push through each contraction"
+  },
+  {
+   "id": "c",
+   "text": "Turn her onto her side, stop the oxytocin and call for urgent review"
   },
   {
    "id": "d",
    "text": "Lay her flat on her back and continue to observe"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Late decelerations that repeat show the fetus is not getting enough oxygen through the placenta during contractions. Lying her on her side relieves aortocaval compression and improves uterine perfusion, stopping the oxytocin removes the drug driving the contractions, and urgent review decides whether delivery is needed. Option B adds contractions to a placenta that cannot keep up. Option C is unsafe before full dilatation. Option D worsens the compression the lateral position is meant to relieve.",
+ "correctChoiceId": "c",
+ "rationale": "Late decelerations that repeat show the fetus is not getting enough oxygen through the placenta during contractions. Lying her on her side relieves aortocaval compression and improves uterine perfusion, stopping the oxytocin removes the drug driving the contractions, and urgent review decides whether delivery is needed. Option A adds contractions to a placenta that cannot keep up. Option B is unsafe before full dilatation. Option D worsens the compression the lateral position is meant to relieve.",
  "strategy": "Late decelerations mean the placenta cannot keep up. Turn her, stop the oxytocin, escalate.",
  "difficulty": "hard",
  "tags": [
@@ -117848,23 +117848,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Massage the fundus firmly while summoning help"
-  },
-  {
-   "id": "b",
    "text": "Leave her to rest and reassess in thirty minutes"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Apply a tight abdominal binder and document"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Give oral iron and encourage a hot drink"
+  },
+  {
+   "id": "d",
+   "text": "Massage the fundus firmly while summoning help"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "A boggy uterus means the myometrium is not contracting around the open vessels at the placental site, which is uterine atony and the commonest cause of postpartum haemorrhage. Fundal massage stimulates contraction at once while help and uterotonics are on their way. Option B allows continued blood loss. Option C does nothing to make the uterus contract. Option D treats anaemia later, not haemorrhage now.",
+ "correctChoiceId": "d",
+ "rationale": "A boggy uterus means the myometrium is not contracting around the open vessels at the placental site, which is uterine atony and the commonest cause of postpartum haemorrhage. Fundal massage stimulates contraction at once while help and uterotonics are on their way. Option A allows continued blood loss. Option B does nothing to make the uterus contract. Option C treats anaemia later, not haemorrhage now.",
  "strategy": "Boggy uterus means atony. Rub it up first, and call for help while you do.",
  "difficulty": "hard",
  "tags": [
@@ -117916,11 +117916,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Stop the infusion, call for help and prepare calcium gluconate"
+   "text": "Continue the infusion at the same rate and recheck in an hour"
   },
   {
    "id": "b",
-   "text": "Continue the infusion at the same rate and recheck in an hour"
+   "text": "Stop the infusion, call for help and prepare calcium gluconate"
   },
   {
    "id": "c",
@@ -117931,8 +117931,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Give a sedative so she can rest"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Loss of deep tendon reflexes followed by respiratory depression is the classic progression of magnesium toxicity, and it can go on to cardiac arrest. The infusion is stopped immediately, breathing is supported, and calcium gluconate, the antidote, is given as prescribed. Option B lets the level climb further. Option C is unsafe in a woman who is already hypoventilating and at risk of falling. Option D would deepen the respiratory depression.",
+ "correctChoiceId": "b",
+ "rationale": "Loss of deep tendon reflexes followed by respiratory depression is the classic progression of magnesium toxicity, and it can go on to cardiac arrest. The infusion is stopped immediately, breathing is supported, and calcium gluconate, the antidote, is given as prescribed. Option A lets the level climb further. Option C is unsafe in a woman who is already hypoventilating and at risk of falling. Option D would deepen the respiratory depression.",
  "strategy": "Reflexes disappear before breathing fails. Stop the magnesium and reach for calcium gluconate.",
  "difficulty": "hard",
  "tags": [
@@ -117950,23 +117950,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Avoid intercourse and follow the preterm-labour plan she was given"
-  },
-  {
-   "id": "b",
    "text": "Intercourse is encouraged because it will strengthen the contractions"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Unprescribed herbal preparations are safe to use at this stage"
+  },
+  {
+   "id": "c",
+   "text": "Avoid intercourse and follow the preterm-labour plan she was given"
   },
   {
    "id": "d",
    "text": "Ignore the contractions until she reaches term"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Contractions with cervical change at 35 weeks is threatened preterm labour, and she needs assessment for infection, membrane status and fetal wellbeing, with steroids and magnesium considered. Intercourse is avoided because semen contains prostaglandins and because infection is a recognised trigger. Option B is the opposite of the advice. Option C exposes her and the fetus to unregulated substances at a vulnerable time. Option D risks delivering outside hospital without the neonatal team ready.",
+ "correctChoiceId": "c",
+ "rationale": "Contractions with cervical change at 35 weeks is threatened preterm labour, and she needs assessment for infection, membrane status and fetal wellbeing, with steroids and magnesium considered. Intercourse is avoided because semen contains prostaglandins and because infection is a recognised trigger. Option A is the opposite of the advice. Option B exposes her and the fetus to unregulated substances at a vulnerable time. Option D risks delivering outside hospital without the neonatal team ready.",
  "strategy": "Contractions plus a changing cervix before term is preterm labour. Assess, and avoid intercourse.",
  "difficulty": "hard",
  "tags": [
@@ -117983,23 +117983,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "A positive sign of pregnancy"
-  },
-  {
-   "id": "b",
    "text": "A presumptive sign of pregnancy"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "A probable sign of pregnancy"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "An unrelated finding"
+  },
+  {
+   "id": "d",
+   "text": "A positive sign of pregnancy"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Signs of pregnancy are graded by how directly they prove a fetus is present. Hearing the fetal heart is direct evidence of a fetus, so it is a positive sign, alongside ultrasound visualisation and the examiner feeling fetal parts. Option B covers symptoms the woman reports, such as nausea and breast tenderness. Option C covers changes the examiner finds, such as a softened cervix or a positive pregnancy test. Option D is wrong because the finding proves the diagnosis.",
+ "correctChoiceId": "d",
+ "rationale": "Signs of pregnancy are graded by how directly they prove a fetus is present. Hearing the fetal heart is direct evidence of a fetus, so it is a positive sign, alongside ultrasound visualisation and the examiner feeling fetal parts. Option A covers symptoms the woman reports, such as nausea and breast tenderness. Option B covers changes the examiner finds, such as a softened cervix or a positive pregnancy test. Option C is wrong because the finding proves the diagnosis.",
  "strategy": "Hearing the heart is a positive sign. Symptoms are presumptive; examination findings are probable.",
  "difficulty": "hard",
  "tags": [
@@ -118050,11 +118050,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "A firm globular uterus, a lengthening cord and a gush of blood"
+   "text": "A soft uterus, a shortening cord and no bleeding"
   },
   {
    "id": "b",
-   "text": "A soft uterus, a shortening cord and no bleeding"
+   "text": "A firm globular uterus, a lengthening cord and a gush of blood"
   },
   {
    "id": "c",
@@ -118065,8 +118065,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "A contracting uterus with no change in the cord or bleeding"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "When the placenta separates it drops into the lower segment, so the uterus becomes firm and globular, the visible cord lengthens because the placenta has moved down, and blood collected behind it escapes in a gush. Option B describes the opposite of every sign. Option C leaves out the cord change that shows descent. Option D describes a uterus contracting without separation having occurred.",
+ "correctChoiceId": "b",
+ "rationale": "When the placenta separates it drops into the lower segment, so the uterus becomes firm and globular, the visible cord lengthens because the placenta has moved down, and blood collected behind it escapes in a gush. Option A describes the opposite of every sign. Option C leaves out the cord change that shows descent. Option D describes a uterus contracting without separation having occurred.",
  "strategy": "Separation: uterus globular, cord longer, blood gushes. The cord lengthens, it never shortens.",
  "difficulty": "hard",
  "tags": [
@@ -118084,23 +118084,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Whether the cord is looped around the neck"
-  },
-  {
-   "id": "b",
    "text": "Whether the mother can stand and walk"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Whether the placenta has separated"
+  },
+  {
+   "id": "c",
+   "text": "Whether the cord is looped around the neck"
   },
   {
    "id": "d",
    "text": "Whether the newborn will accept a feed"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "A nuchal cord is common. A loose loop is slipped over the head; a tight one is managed by clamping and cutting, or by the somersault manoeuvre, so that the shoulders can deliver without tearing the cord or restricting the baby. Option B is irrelevant at this moment. Option C cannot happen before the baby is born. Option D is assessed after birth, not during delivery of the head.",
+ "correctChoiceId": "c",
+ "rationale": "A nuchal cord is common. A loose loop is slipped over the head; a tight one is managed by clamping and cutting, or by the somersault manoeuvre, so that the shoulders can deliver without tearing the cord or restricting the baby. Option A is irrelevant at this moment. Option B cannot happen before the baby is born. Option D is assessed after birth, not during delivery of the head.",
  "strategy": "Head out, check the neck: a nuchal cord decides how the shoulders are delivered.",
  "difficulty": "hard",
  "tags": [
@@ -118118,23 +118118,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "The two arteries return deoxygenated blood to the placenta and the single vein carries oxygenated blood to the fetus"
-  },
-  {
-   "id": "b",
    "text": "The two veins carry oxygenated blood and the single artery returns deoxygenated blood"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "The vessel count has no functional significance"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "The three arteries supply the placenta with maternal blood"
+  },
+  {
+   "id": "d",
+   "text": "The two arteries return deoxygenated blood to the placenta and the single vein carries oxygenated blood to the fetus"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "The normal cord contains two umbilical arteries, which carry deoxygenated blood from the fetus back to the placenta, and one umbilical vein, which returns oxygenated, nutrient-rich blood to the fetus. The count is checked because a single umbilical artery is associated with renal and cardiac anomalies and prompts closer examination of the newborn. Option B reverses the vessels. Option C is wrong, because the finding is part of the routine newborn check. Option D confuses the umbilical circulation with the maternal uterine supply.",
+ "correctChoiceId": "d",
+ "rationale": "The normal cord contains two umbilical arteries, which carry deoxygenated blood from the fetus back to the placenta, and one umbilical vein, which returns oxygenated, nutrient-rich blood to the fetus. The count is checked because a single umbilical artery is associated with renal and cardiac anomalies and prompts closer examination of the newborn. Option A reverses the vessels. Option B is wrong, because the finding is part of the routine newborn check. Option C confuses the umbilical circulation with the maternal uterine supply.",
  "strategy": "Two arteries out, one vein in. A single artery warrants a careful look for other anomalies.",
  "difficulty": "hard",
  "tags": [
@@ -118186,11 +118186,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Progesterone"
+   "text": "Oestrogen"
   },
   {
    "id": "b",
-   "text": "Oestrogen"
+   "text": "Progesterone"
   },
   {
    "id": "c",
@@ -118201,8 +118201,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Oxytocin"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Progesterone quietens the myometrium and is the reason the uterus does not contract in response to the mechanical stretch of a growing fetus. Its withdrawal, and the rise in oestrogen and oxytocin receptors, is part of what brings labour on. Option B promotes growth of uterine muscle and increases contractility near term. Option C acts on the ovary, not the uterus. Option D does the opposite: it drives contractions.",
+ "correctChoiceId": "b",
+ "rationale": "Progesterone quietens the myometrium and is the reason the uterus does not contract in response to the mechanical stretch of a growing fetus. Its withdrawal, and the rise in oestrogen and oxytocin receptors, is part of what brings labour on. Option A promotes growth of uterine muscle and increases contractility near term. Option C acts on the ovary, not the uterus. Option D does the opposite: it drives contractions.",
  "strategy": "Progesterone keeps the uterus quiet. Oxytocin wakes it up.",
  "difficulty": "hard",
  "tags": [
@@ -118220,23 +118220,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Dry the baby thoroughly, remove the wet linen and use skin-to-skin contact with a hat"
-  },
-  {
-   "id": "b",
    "text": "Place the baby near an open window for fresh air"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Delay drying until after the baby is weighed"
+  },
+  {
+   "id": "c",
+   "text": "Dry the baby thoroughly, remove the wet linen and use skin-to-skin contact with a hat"
   },
   {
    "id": "d",
    "text": "Bathe the baby immediately to clean the skin"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "A wet newborn loses heat fast by evaporation, and cold stress drives up oxygen consumption and glucose use. Drying removes the water, dry linen and skin-to-skin contact provide warmth, and a hat reduces loss from the head, which is proportionally large. Option B increases convective loss. Option C leaves the baby wet through the weighing. Option D adds evaporative loss and is not done straight after birth.",
+ "correctChoiceId": "c",
+ "rationale": "A wet newborn loses heat fast by evaporation, and cold stress drives up oxygen consumption and glucose use. Drying removes the water, dry linen and skin-to-skin contact provide warmth, and a hat reduces loss from the head, which is proportionally large. Option A increases convective loss. Option B leaves the baby wet through the weighing. Option D adds evaporative loss and is not done straight after birth.",
  "strategy": "Wet newborns cool by evaporation. Dry first, then wrap and give the baby to the mother.",
  "difficulty": "hard",
  "tags": [
@@ -118254,23 +118254,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Blue discoloration of the lips, tongue and central trunk"
-  },
-  {
-   "id": "b",
    "text": "Blue hands and feet with a pink trunk at one hour of age"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "A strong cry with a heart rate of 150 per minute"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "A flexed posture with the arms drawn in"
+  },
+  {
+   "id": "d",
+   "text": "Blue discoloration of the lips, tongue and central trunk"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Central cyanosis means the lips, tongue and trunk are blue, which indicates true hypoxaemia and demands immediate assessment of airway, breathing and circulation, with oxygen and a search for congenital heart disease or sepsis. Option B is acrocyanosis, a normal transitional finding in the first hours. Option C is entirely normal. Option D is the normal resting posture of a term newborn from flexor tone.",
+ "correctChoiceId": "d",
+ "rationale": "Central cyanosis means the lips, tongue and trunk are blue, which indicates true hypoxaemia and demands immediate assessment of airway, breathing and circulation, with oxygen and a search for congenital heart disease or sepsis. Option A is acrocyanosis, a normal transitional finding in the first hours. Option B is entirely normal. Option C is the normal resting posture of a term newborn from flexor tone.",
  "strategy": "Blue in the centre is hypoxia. Blue in the hands and feet only is normal transitional acrocyanosis.",
  "difficulty": "hard",
  "tags": [
@@ -118322,11 +118322,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "As a possible sign of raised intracranial pressure needing urgent review"
+   "text": "As a normal finding needing no action"
   },
   {
    "id": "b",
-   "text": "As a normal finding needing no action"
+   "text": "As a possible sign of raised intracranial pressure needing urgent review"
   },
   {
    "id": "c",
@@ -118337,8 +118337,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "As proof of a skull fracture"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "A soft, flat fontanelle is normal. A tense, bulging one suggests raised intracranial pressure from causes such as meningitis, haemorrhage or hydrocephalus, and needs urgent assessment of the baby's conscious level, feeding, tone and vital signs. Option B misses a serious sign. Option C is backwards: dehydration makes the fontanelle sunken, not bulging. Option D is not what a bulge shows.",
+ "correctChoiceId": "b",
+ "rationale": "A soft, flat fontanelle is normal. A tense, bulging one suggests raised intracranial pressure from causes such as meningitis, haemorrhage or hydrocephalus, and needs urgent assessment of the baby's conscious level, feeding, tone and vital signs. Option A misses a serious sign. Option C is backwards: dehydration makes the fontanelle sunken, not bulging. Option D is not what a bulge shows.",
  "strategy": "Soft and flat is normal. Bulging means pressure. Sunken means dehydration.",
  "difficulty": "hard",
  "tags": [
@@ -118356,23 +118356,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Urgent referral with cautious, closely monitored fluid resuscitation using the severe-malnutrition protocol"
-  },
-  {
-   "id": "b",
    "text": "Unlimited plain water by mouth until the child improves"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "A large high-protein meal as soon as the child will take it"
+  },
+  {
+   "id": "c",
+   "text": "Urgent referral with cautious, closely monitored fluid resuscitation using the severe-malnutrition protocol"
   },
   {
    "id": "d",
    "text": "Waiting for weight gain before treating the dehydration"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Shock in severe acute malnutrition is treated with slower, smaller volumes than in a well-nourished child, because the malnourished heart and circulation tolerate rapid fluid badly and can be tipped into heart failure. The child needs urgent referral and the specific protocol. Option B does not correct shock. Option C risks refeeding syndrome and is not the immediate need. Option D leaves a shocked child untreated.",
+ "correctChoiceId": "c",
+ "rationale": "Shock in severe acute malnutrition is treated with slower, smaller volumes than in a well-nourished child, because the malnourished heart and circulation tolerate rapid fluid badly and can be tipped into heart failure. The child needs urgent referral and the specific protocol. Option A does not correct shock. Option B risks refeeding syndrome and is not the immediate need. Option D leaves a shocked child untreated.",
  "strategy": "In severe malnutrition, fluids are given slowly and watched closely. Fast boluses cause overload.",
  "difficulty": "hard",
  "tags": [
@@ -118390,23 +118390,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Weight crossing downwards through two established percentile lines"
-  },
-  {
-   "id": "b",
    "text": "A steady growth curve parallel to the centile lines"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "One missed afternoon snack"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Full activity and normal play after school"
+  },
+  {
+   "id": "d",
+   "text": "Weight crossing downwards through two established percentile lines"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Children should track along a centile. Crossing two or more downward is faltering growth and calls for assessment of intake, malabsorption, disease control and psychosocial factors. Option B is exactly the pattern expected of healthy growth, even in chronic illness. Option C is trivial and does not change a growth trajectory. Option D is a sign of wellbeing, not a concern.",
+ "correctChoiceId": "d",
+ "rationale": "Children should track along a centile. Crossing two or more downward is faltering growth and calls for assessment of intake, malabsorption, disease control and psychosocial factors. Option A is exactly the pattern expected of healthy growth, even in chronic illness. Option B is trivial and does not change a growth trajectory. Option C is a sign of wellbeing, not a concern.",
  "strategy": "Growth should track its centile. Crossing lines downwards is the abnormality.",
  "difficulty": "hard",
  "tags": [
@@ -118455,11 +118455,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "The umbilical arteries carry blood from the fetus towards the placenta, where it picks up oxygen"
+   "text": "The umbilical arteries carry oxygenated blood from the placenta to the fetus"
   },
   {
    "id": "b",
-   "text": "The umbilical arteries carry oxygenated blood from the placenta to the fetus"
+   "text": "The umbilical arteries carry blood from the fetus towards the placenta, where it picks up oxygen"
   },
   {
    "id": "c",
@@ -118470,8 +118470,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "The umbilical arteries carry only carbon dioxide and no oxygen"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "The naming rule is that arteries carry blood away from the heart, so the two umbilical arteries run from the fetal iliac vessels out to the placenta, and they therefore carry blood that has already given up oxygen to the fetal tissues. The single umbilical vein returns oxygenated blood to the fetus. Options B and C reverse the direction. Option D is wrong because the blood carries carbon dioxide but is not free of oxygen.",
+ "correctChoiceId": "b",
+ "rationale": "The naming rule is that arteries carry blood away from the heart, so the two umbilical arteries run from the fetal iliac vessels out to the placenta, and they therefore carry blood that has already given up oxygen to the fetal tissues. The single umbilical vein returns oxygenated blood to the fetus. Options A and C reverse the direction. Option D is wrong because the blood carries carbon dioxide but is not free of oxygen.",
  "strategy": "Umbilical arteries run fetus to placenta. Umbilical vein runs placenta to fetus.",
  "difficulty": "hard",
  "tags": [
@@ -118486,23 +118486,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Passing through an infected birth canal exposes the newborn to herpes, which can cause severe neonatal infection"
-  },
-  {
-   "id": "b",
    "text": "Caesarean birth cures the maternal infection"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "The lesions make vaginal delivery physically impossible"
+  },
+  {
+   "id": "c",
+   "text": "Passing through an infected birth canal exposes the newborn to herpes, which can cause severe neonatal infection"
   },
   {
    "id": "d",
    "text": "Herpes causes the uterus to stop contracting"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Neonatal herpes is acquired mainly during passage through an infected birth canal, and it can cause disseminated disease with meningoencephalitis and high mortality, so a caesarean birth before or soon after membrane rupture substantially reduces the risk. Option B is wrong: surgery does not treat the mother's infection, which still needs antiviral treatment. Option C overstates the mechanical problem. Option D has no basis.",
+ "correctChoiceId": "c",
+ "rationale": "Neonatal herpes is acquired mainly during passage through an infected birth canal, and it can cause disseminated disease with meningoencephalitis and high mortality, so a caesarean birth before or soon after membrane rupture substantially reduces the risk. Option A is wrong: surgery does not treat the mother's infection, which still needs antiviral treatment. Option B overstates the mechanical problem. Option D has no basis.",
  "strategy": "Active herpes at term: the risk is to the baby in the birth canal, not to the uterus.",
  "difficulty": "hard",
  "tags": [
@@ -118518,23 +118518,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Placental abruption with concealed haemorrhage"
-  },
-  {
-   "id": "b",
    "text": "Placenta praevia"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Normal labour"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "An ovarian cyst"
+  },
+  {
+   "id": "d",
+   "text": "Placental abruption with concealed haemorrhage"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Painful bleeding with a rigid, tender uterus and shock that seems out of proportion to the visible blood loss is concealed abruption, where blood accumulates behind the placenta instead of escaping. The maternal state, not the vaginal loss, is the guide to severity. Option B causes painless bleeding and a soft uterus. Option C does not produce a woody uterus or shock. Option D would not explain the uterine findings.",
+ "correctChoiceId": "d",
+ "rationale": "Painful bleeding with a rigid, tender uterus and shock that seems out of proportion to the visible blood loss is concealed abruption, where blood accumulates behind the placenta instead of escaping. The maternal state, not the vaginal loss, is the guide to severity. Option A causes painless bleeding and a soft uterus. Option B does not produce a woody uterus or shock. Option C would not explain the uterine findings.",
  "strategy": "Shock worse than the visible bleeding plus a hard tender uterus means concealed abruption.",
  "difficulty": "hard",
  "tags": [
@@ -118582,11 +118582,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Extension, where the head should pivot under the pubic arch and deliver"
+   "text": "Flexion, where the chin should tuck onto the chest"
   },
   {
    "id": "b",
-   "text": "Flexion, where the chin should tuck onto the chest"
+   "text": "Extension, where the head should pivot under the pubic arch and deliver"
   },
   {
    "id": "c",
@@ -118597,8 +118597,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Descent, which has not yet begun"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "The cardinal movements run descent, flexion, internal rotation, extension and then restitution and external rotation. If the head has descended and rotated, the next step is extension, in which the occiput passes under the pubic symphysis and the head is born by extension. Exactly here is where progress is stalling. Option B refers to a step already completed. Option C is stated in the question. Option D is stated in the question as completed.",
+ "correctChoiceId": "b",
+ "rationale": "The cardinal movements run descent, flexion, internal rotation, extension and then restitution and external rotation. If the head has descended and rotated, the next step is extension, in which the occiput passes under the pubic symphysis and the head is born by extension. Exactly here is where progress is stalling. Option A refers to a step already completed. Option C is stated in the question. Option D is stated in the question as completed.",
  "strategy": "Descent, flexion, rotation, extension. If the head will not extend under the arch, that step has stalled.",
  "difficulty": "hard",
  "tags": [
@@ -118614,23 +118614,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Call for urgent review, give prescribed antibiotics and prepare for delivery"
-  },
-  {
-   "id": "b",
    "text": "Encourage her to keep pushing and reassess in two hours"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Give paracetamol and turn the fetal monitor off"
+  },
+  {
+   "id": "c",
+   "text": "Call for urgent review, give prescribed antibiotics and prepare for delivery"
   },
   {
    "id": "d",
    "text": "Reassure her that a fever in labour is harmless"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Maternal fever with fetal tachycardia and offensive liquor is chorioamnionitis, an intra-amniotic infection that puts both mother and fetus at risk of sepsis and is a reason to expedite delivery, with broad-spectrum antibiotics started immediately. Option B delays treatment of an established infection. Option C hides the fetal response that shows how the fetus is coping. Option D is wrong: intrapartum fever is a warning sign, not a trivial finding.",
+ "correctChoiceId": "c",
+ "rationale": "Maternal fever with fetal tachycardia and offensive liquor is chorioamnionitis, an intra-amniotic infection that puts both mother and fetus at risk of sepsis and is a reason to expedite delivery, with broad-spectrum antibiotics started immediately. Option A delays treatment of an established infection. Option B hides the fetal response that shows how the fetus is coping. Option D is wrong: intrapartum fever is a warning sign, not a trivial finding.",
  "strategy": "Fever plus fetal tachycardia plus smelly liquor equals chorioamnionitis. Antibiotics and delivery.",
  "difficulty": "hard",
  "tags": [
@@ -118645,23 +118645,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "To prevent or treat eclamptic seizures"
-  },
-  {
-   "id": "b",
    "text": "To lower her blood pressure directly"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "To strengthen uterine contractions"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "To replace a magnesium deficiency"
+  },
+  {
+   "id": "d",
+   "text": "To prevent or treat eclamptic seizures"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Magnesium sulfate is given in severe pre-eclampsia as seizure prophylaxis, because eclampsia is the complication that kills. It acts centrally as a central nervous system depressant and membrane stabiliser; it does not treat the hypertension itself, which needs a separate antihypertensive, and it does not replace a deficiency. Option B is a common misconception: the blood pressure still needs its own drug. Option C is the opposite of the effect. Option D is not the indication.",
+ "correctChoiceId": "d",
+ "rationale": "Magnesium sulfate is given in severe pre-eclampsia as seizure prophylaxis, because eclampsia is the complication that kills. It acts centrally as a central nervous system depressant and membrane stabiliser; it does not treat the hypertension itself, which needs a separate antihypertensive, and it does not replace a deficiency. Option A is a common misconception: the blood pressure still needs its own drug. Option B is the opposite of the effect. Option C is not the indication.",
  "strategy": "Magnesium prevents fits, not high blood pressure. You still need an antihypertensive.",
  "difficulty": "hard",
  "tags": [
@@ -118709,11 +118709,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Caput succedaneum"
+   "text": "Cephalhaematoma"
   },
   {
    "id": "b",
-   "text": "Cephalhaematoma"
+   "text": "Caput succedaneum"
   },
   {
    "id": "c",
@@ -118724,8 +118724,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Subgaleal haemorrhage"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Caput succedaneum is oedema of the scalp over the presenting part, and because it sits above the periosteum it crosses the suture lines and pits on pressure, then resolves within days without treatment. Option B is a subperiosteal bleed that does not cross the midline and feels firm with a defined edge. Option C would need imaging and usually shows other signs. Option D is a boggy swelling that crosses sutures but is not limited to the presenting part and can cause major blood loss and shock.",
+ "correctChoiceId": "b",
+ "rationale": "Caput succedaneum is oedema of the scalp over the presenting part, and because it sits above the periosteum it crosses the suture lines and pits on pressure, then resolves within days without treatment. Option A is a subperiosteal bleed that does not cross the midline and feels firm with a defined edge. Option C would need imaging and usually shows other signs. Option D is a boggy swelling that crosses sutures but is not limited to the presenting part and can cause major blood loss and shock.",
  "strategy": "Crosses the midline and pits: caput. Stops at the suture line and is firm: cephalhaematoma.",
  "difficulty": "hard",
  "tags": [
@@ -118777,11 +118777,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "Serum potassium"
+      "text": "Haemoglobin"
     },
     {
       "id": "b",
-      "text": "Haemoglobin"
+      "text": "Serum potassium"
     },
     {
       "id": "c",
@@ -118792,8 +118792,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
       "text": "Serum amylase"
     }
   ],
-  "correctChoiceId": "a",
-  "rationale": "Furosemide drives potassium out in the urine, and a low potassium makes the myocardium much more sensitive to digoxin, so hypokalaemia can produce the nausea, weakness and palpitations that precede digoxin toxicity and dangerous dysrhythmias. The potassium is therefore the first result to check. Option B relates to anaemia and explains none of these symptoms. Option C relates to bleeding and infection. Option D relates to pancreatitis, which does not follow diuretic use.",
+  "correctChoiceId": "b",
+  "rationale": "Furosemide drives potassium out in the urine, and a low potassium makes the myocardium much more sensitive to digoxin, so hypokalaemia can produce the nausea, weakness and palpitations that precede digoxin toxicity and dangerous dysrhythmias. The potassium is therefore the first result to check. Option A relates to anaemia and explains none of these symptoms. Option C relates to bleeding and infection. Option D relates to pancreatitis, which does not follow diuretic use.",
   "strategy": "Loop diuretics waste potassium, and low potassium sensitises the heart to digoxin. Check the potassium first.",
   "difficulty": "medium",
   "tags": [
@@ -118812,23 +118812,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "A fall in blood pressure on standing"
-    },
-    {
-      "id": "b",
       "text": "Warm, flushed skin"
     },
     {
-      "id": "c",
+      "id": "b",
       "text": "A bounding pulse"
+    },
+    {
+      "id": "c",
+      "text": "A fall in blood pressure on standing"
     },
     {
       "id": "d",
       "text": "Increased urine output"
     }
   ],
-  "correctChoiceId": "a",
-  "rationale": "A drop in blood pressure when the client stands means the circulation cannot compensate for the volume lost in the stool, and it is a late and reliable sign of significant depletion. Option B describes vasodilation, which is the opposite of the cool, clammy periphery of hypovolaemia. Option C describes a full, forceful pulse, whereas volume loss gives a weak, rapid, thready one. Option D is the opposite of the truth, since the kidneys conserve water and urine output falls.",
+  "correctChoiceId": "c",
+  "rationale": "A drop in blood pressure when the client stands means the circulation cannot compensate for the volume lost in the stool, and it is a late and reliable sign of significant depletion. Option A describes vasodilation, which is the opposite of the cool, clammy periphery of hypovolaemia. Option B describes a full, forceful pulse, whereas volume loss gives a weak, rapid, thready one. Option D is the opposite of the truth, since the kidneys conserve water and urine output falls.",
   "strategy": "Standing blood pressure is the bedside test for volume. Warm and bounding means too much, not too little.",
   "difficulty": "medium",
   "tags": [
@@ -118847,23 +118847,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "Check the insulin label against the medication record at preparation and again at the bedside, and use a dedicated insulin syringe"
-    },
-    {
-      "id": "b",
       "text": "Shake the cloudy insulin vigorously to mix it"
     },
     {
-      "id": "c",
+      "id": "b",
       "text": "Draw insulin and heparin into the same syringe to save a puncture"
     },
     {
-      "id": "d",
+      "id": "c",
       "text": "Inject into a site of lipodystrophy so absorption is slower"
+    },
+    {
+      "id": "d",
+      "text": "Check the insulin label against the medication record at preparation and again at the bedside, and use a dedicated insulin syringe"
     }
   ],
-  "correctChoiceId": "a",
-  "rationale": "Insulin is a high-alert drug, and the independent double check of the vial against the record at preparation and again at the bedside catches the wrong-vial, wrong-strength errors that cause most insulin harm. Two people and two moments, with an insulin-specific syringe. Option B is wrong because shaking denatures the suspension; it is rolled gently. Option C would mix two drugs with different routes and risks. Option D gives unpredictable absorption.",
+  "correctChoiceId": "d",
+  "rationale": "Insulin is a high-alert drug, and the independent double check of the vial against the record at preparation and again at the bedside catches the wrong-vial, wrong-strength errors that cause most insulin harm. Two people and two moments, with an insulin-specific syringe. Option A is wrong because shaking denatures the suspension; it is rolled gently. Option B would mix two drugs with different routes and risks. Option C gives unpredictable absorption.",
   "strategy": "Insulin is high alert: two checks, two moments, dedicated syringe. Roll cloudy insulin, never shake.",
   "difficulty": "medium",
   "tags": [
@@ -118917,11 +118917,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "Escalate immediately for urgent paediatric review and antibiotics"
+      "text": "Clean it with spirit and review at the next clinic visit"
     },
     {
       "id": "b",
-      "text": "Clean it with spirit and review at the next clinic visit"
+      "text": "Escalate immediately for urgent paediatric review and antibiotics"
     },
     {
       "id": "c",
@@ -118932,8 +118932,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
       "text": "Apply a traditional herbal preparation and observe"
     }
   ],
-  "correctChoiceId": "a",
-  "rationale": "Spreading redness beyond the stump, an offensive smell and poor feeding point to omphalitis, which can progress to necrotising fasciitis and neonatal sepsis within hours. It needs urgent review and intravenous antibiotics. Option B delays treatment of a spreading infection. Option C traps moisture and warmth, which favours bacterial growth. Option D introduces unsterile material onto a site that is already infected.",
+  "correctChoiceId": "b",
+  "rationale": "Spreading redness beyond the stump, an offensive smell and poor feeding point to omphalitis, which can progress to necrotising fasciitis and neonatal sepsis within hours. It needs urgent review and intravenous antibiotics. Option A delays treatment of a spreading infection. Option C traps moisture and warmth, which favours bacterial growth. Option D introduces unsterile material onto a site that is already infected.",
   "strategy": "Redness spreading from the stump with a sick baby is omphalitis. Escalate the same hour.",
   "difficulty": "medium",
   "tags": [
@@ -118952,23 +118952,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "Call for emergency help and support airway and breathing"
-    },
-    {
-      "id": "b",
       "text": "Finish taking the full history before doing anything else"
     },
     {
-      "id": "c",
+      "id": "b",
       "text": "Give a large oral fluid bolus"
+    },
+    {
+      "id": "c",
+      "text": "Call for emergency help and support airway and breathing"
     },
     {
       "id": "d",
       "text": "Ask the family to wait in the general queue"
     }
   ],
-  "correctChoiceId": "a",
-  "rationale": "Inability to drink, lethargy and respiratory distress are IMCI general danger signs, and together they mean the child may stop breathing while you are still talking. Airway and breathing are supported first, help is summoned, and the history follows alongside resuscitation. Option B puts paperwork ahead of a child who is deteriorating. Option C is unsafe in a child in respiratory distress, who may aspirate. Option D leaves a child with danger signs unobserved.",
+  "correctChoiceId": "c",
+  "rationale": "Inability to drink, lethargy and respiratory distress are IMCI general danger signs, and together they mean the child may stop breathing while you are still talking. Airway and breathing are supported first, help is summoned, and the history follows alongside resuscitation. Option A puts paperwork ahead of a child who is deteriorating. Option B is unsafe in a child in respiratory distress, who may aspirate. Option D leaves a child with danger signs unobserved.",
   "strategy": "Danger signs mean act now and assess later. Airway and breathing come before any history.",
   "difficulty": "medium",
   "tags": [
@@ -118987,23 +118987,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "Severe dehydration"
-    },
-    {
-      "id": "b",
       "text": "Some dehydration"
     },
     {
-      "id": "c",
+      "id": "b",
       "text": "No dehydration"
     },
     {
-      "id": "d",
+      "id": "c",
       "text": "Persistent diarrhoea with no dehydration"
+    },
+    {
+      "id": "d",
+      "text": "Severe dehydration"
     }
   ],
-  "correctChoiceId": "a",
-  "rationale": "Under the IMCI classification, two or more of the severe signs, including sunken eyes, a very slow skin pinch, inability or eagerness to drink and lethargy, place the child in severe dehydration, which requires immediate Plan C intravenous fluids and urgent referral. Option B describes a child with some signs, such as restlessness and thirst, who can usually be managed with oral rehydration under Plan B. Option C requires no dehydration signs at all. Option D describes a duration, not a hydration state.",
+  "correctChoiceId": "d",
+  "rationale": "Under the IMCI classification, two or more of the severe signs, including sunken eyes, a very slow skin pinch, inability or eagerness to drink and lethargy, place the child in severe dehydration, which requires immediate Plan C intravenous fluids and urgent referral. Option A describes a child with some signs, such as restlessness and thirst, who can usually be managed with oral rehydration under Plan B. Option B requires no dehydration signs at all. Option C describes a duration, not a hydration state.",
   "strategy": "Two severe signs equals severe dehydration. Plan C, not oral fluids.",
   "difficulty": "medium",
   "tags": [
@@ -119057,11 +119057,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "Ask for latex-free gloves and equipment to be supplied for the client's care"
+      "text": "Wear powdered latex gloves and wash hands afterwards"
     },
     {
       "id": "b",
-      "text": "Wear powdered latex gloves and wash hands afterwards"
+      "text": "Ask for latex-free gloves and equipment to be supplied for the client's care"
     },
     {
       "id": "c",
@@ -119072,8 +119072,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
       "text": "Avoid all contact with the client"
     }
   ],
-  "correctChoiceId": "a",
-  "rationale": "Latex allergy ranges from contact dermatitis to anaphylaxis, and the safe response is to remove the allergen from the environment with latex-free gloves, catheters and tourniquets rather than to try to work around it. Option B is dangerous, because the powder aerosolises the allergen and can trigger a reaction by inhalation. Option C offers no protection against a protein that passes through glove material on contact. Option D abandons a client who needs care, when the equipment can simply be changed.",
+  "correctChoiceId": "b",
+  "rationale": "Latex allergy ranges from contact dermatitis to anaphylaxis, and the safe response is to remove the allergen from the environment with latex-free gloves, catheters and tourniquets rather than to try to work around it. Option A is dangerous, because the powder aerosolises the allergen and can trigger a reaction by inhalation. Option C offers no protection against a protein that passes through glove material on contact. Option D abandons a client who needs care, when the equipment can simply be changed.",
   "strategy": "Latex allergy is managed by removing latex, not by layering gloves over it.",
   "difficulty": "medium",
   "tags": [
@@ -119092,23 +119092,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "Arrange urgent assessment or referral for the danger signs"
-    },
-    {
-      "id": "b",
       "text": "Advise her to wait three days and see whether it settles"
     },
     {
-      "id": "c",
+      "id": "b",
       "text": "Recommend a home herbal remedy and review next month"
+    },
+    {
+      "id": "c",
+      "text": "Arrange urgent assessment or referral for the danger signs"
     },
     {
       "id": "d",
       "text": "Tell her to return on the next routine clinic day"
     }
   ],
-  "correctChoiceId": "a",
-  "rationale": "Fast breathing with inability to feed is the IMCI pattern for severe pneumonia in a young infant, and it carries a high mortality if treatment is delayed. The baby needs to be seen and referred the same day for antibiotics and oxygen. Option B is a delay that a two-month-old may not survive. Option C substitutes an unproven remedy for treatment. Option D is routine care applied to an emergency.",
+  "correctChoiceId": "c",
+  "rationale": "Fast breathing with inability to feed is the IMCI pattern for severe pneumonia in a young infant, and it carries a high mortality if treatment is delayed. The baby needs to be seen and referred the same day for antibiotics and oxygen. Option A is a delay that a two-month-old may not survive. Option B substitutes an unproven remedy for treatment. Option D is routine care applied to an emergency.",
   "strategy": "A young infant who cannot feed and is breathing fast has severe pneumonia until proved otherwise.",
   "difficulty": "medium",
   "tags": [
@@ -119127,23 +119127,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "A cup of tea taken with the tablet"
-    },
-    {
-      "id": "b",
       "text": "A glass of orange juice"
     },
     {
-      "id": "c",
+      "id": "b",
       "text": "A glass of clean water"
     },
     {
-      "id": "d",
+      "id": "c",
       "text": "A glass of guava juice"
+    },
+    {
+      "id": "d",
+      "text": "A cup of tea taken with the tablet"
     }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"A cup of tea taken with the tablet\". Tea, and to a lesser extent coffee, contains tannins and polyphenols that bind ferrous iron in the gut and form insoluble complexes, so less iron is absorbed. The tablet should be taken with water or a vitamin-C-rich drink and tea should be separated from it by at least an hour or two. Options B and D are both rich in vitamin C, which reduces ferric iron to the ferrous form and improves absorption, so they are helpful rather than harmful. Option C is neutral and is the recommended vehicle. Calcium in milk and antacids also impair absorption, but the question asks specifically about a drink, and tea is the one most often taken with meals in Ghana.",
+  "correctChoiceId": "d",
+  "rationale": "CORRECT (D) — \"A cup of tea taken with the tablet\". Tea, and to a lesser extent coffee, contains tannins and polyphenols that bind ferrous iron in the gut and form insoluble complexes, so less iron is absorbed. The tablet should be taken with water or a vitamin-C-rich drink and tea should be separated from it by at least an hour or two. Options A and D are both rich in vitamin C, which reduces ferric iron to the ferrous form and improves absorption, so they are helpful rather than harmful. Option B is neutral and is the recommended vehicle. Calcium in milk and antacids also impair absorption, but the question asks specifically about a drink, and tea is the one most often taken with meals in Ghana.",
   "strategy": "Tea binds iron; vitamin C releases it. Separate tea from the tablet by an hour or two.",
   "difficulty": "medium",
   "tags": [
@@ -119199,11 +119199,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "Give intravenous glucose or intramuscular glucagon, because nothing can be given by mouth"
+      "text": "Sit the client up and give a glass of orange juice"
     },
     {
       "id": "b",
-      "text": "Sit the client up and give a glass of orange juice"
+      "text": "Give intravenous glucose or intramuscular glucagon, because nothing can be given by mouth"
     },
     {
       "id": "c",
@@ -119214,8 +119214,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
       "text": "Wait and recheck the glucose in fifteen minutes"
     }
   ],
-  "correctChoiceId": "a",
-  "rationale": "A glucose of 1.9 mmol/L with an unresponsive client is severe hypoglycaemia, and the airway cannot be protected for oral treatment, so glucose is given parenterally or glucagon is injected while help is called. Option B is unsafe: an unconscious client cannot swallow and will aspirate. Option C would lower the glucose further. Option D allows continuing cerebral glucose deprivation, which can cause permanent injury.",
+  "correctChoiceId": "b",
+  "rationale": "A glucose of 1.9 mmol/L with an unresponsive client is severe hypoglycaemia, and the airway cannot be protected for oral treatment, so glucose is given parenterally or glucagon is injected while help is called. Option A is unsafe: an unconscious client cannot swallow and will aspirate. Option C would lower the glucose further. Option D allows continuing cerebral glucose deprivation, which can cause permanent injury.",
   "strategy": "Unconscious means nothing by mouth. Intravenous glucose or glucagon instead.",
   "difficulty": "medium",
   "tags": [
@@ -119234,23 +119234,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "Lift the client with a draw sheet rather than dragging"
-    },
-    {
-      "id": "b",
       "text": "Pull the client by the arms"
     },
     {
-      "id": "c",
+      "id": "b",
       "text": "Massage reddened skin vigorously"
+    },
+    {
+      "id": "c",
+      "text": "Lift the client with a draw sheet rather than dragging"
     },
     {
       "id": "d",
       "text": "Keep the head of the bed as high as possible"
     }
   ],
-  "correctChoiceId": "a",
-  "rationale": "Shear occurs when the skin stays in contact with the sheet while the deeper tissues slide, which tears the small vessels between them. Lifting with a draw sheet or hoist removes the sliding force altogether. Option B drags the client and concentrates force on the shoulders. Option C damages skin that is already showing pressure injury. Option D increases the sliding force down the sacrum and is one of the recognised risk factors for pressure injury.",
+  "correctChoiceId": "c",
+  "rationale": "Shear occurs when the skin stays in contact with the sheet while the deeper tissues slide, which tears the small vessels between them. Lifting with a draw sheet or hoist removes the sliding force altogether. Option A drags the client and concentrates force on the shoulders. Option B damages skin that is already showing pressure injury. Option D increases the sliding force down the sacrum and is one of the recognised risk factors for pressure injury.",
   "strategy": "Shear is caused by dragging. Lift, never pull, and keep the head of the bed low.",
   "difficulty": "medium",
   "tags": [
@@ -119269,23 +119269,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "Perform an immediate focused assessment and activate the emergency response"
-    },
-    {
-      "id": "b",
       "text": "Ask the client to complete registration before being seen"
     },
     {
-      "id": "c",
+      "id": "b",
       "text": "Offer a full meal while waiting"
     },
     {
-      "id": "d",
+      "id": "c",
       "text": "Schedule a routine clinic appointment for next week"
+    },
+    {
+      "id": "d",
+      "text": "Perform an immediate focused assessment and activate the emergency response"
     }
   ],
-  "correctChoiceId": "a",
-  "rationale": "This symptom cluster is acute coronary syndrome, and time is muscle: the priority is a rapid focused assessment with an electrocardiogram and immediate activation of the emergency pathway so that reperfusion is not delayed. Option B places administration ahead of a time-critical presentation. Option C is unsafe in a client who may need urgent intervention. Option D is a routine appointment for an emergency.",
+  "correctChoiceId": "d",
+  "rationale": "This symptom cluster is acute coronary syndrome, and time is muscle: the priority is a rapid focused assessment with an electrocardiogram and immediate activation of the emergency pathway so that reperfusion is not delayed. Option A places administration ahead of a time-critical presentation. Option B is unsafe in a client who may need urgent intervention. Option C is a routine appointment for an emergency.",
   "strategy": "Crushing pain with sweating is acute coronary syndrome. Assessment and escalation, not paperwork.",
   "difficulty": "medium",
   "tags": [
@@ -119339,11 +119339,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "Dry the newborn and provide skin-to-skin contact under a warm cover"
+      "text": "Place the newborn in an uncovered cot away from the mother"
     },
     {
       "id": "b",
-      "text": "Place the newborn in an uncovered cot away from the mother"
+      "text": "Dry the newborn and provide skin-to-skin contact under a warm cover"
     },
     {
       "id": "c",
@@ -119354,8 +119354,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
       "text": "Bathe the newborn immediately to remove amniotic fluid"
     }
   ],
-  "correctChoiceId": "a",
-  "rationale": "Cold stress drives up glucose consumption, so a baby already at risk of hypoglycaemia because of maternal diabetes can become severely hypoglycaemic simply from being cold. Drying removes the evaporative loss, skin-to-skin contact warms the baby, and a cover holds the heat in while early feeding is established. Option B allows convective and evaporative loss to continue. Option C compounds the glucose problem. Option D adds cooling at the moment the baby can least afford it.",
+  "correctChoiceId": "b",
+  "rationale": "Cold stress drives up glucose consumption, so a baby already at risk of hypoglycaemia because of maternal diabetes can become severely hypoglycaemic simply from being cold. Drying removes the evaporative loss, skin-to-skin contact warms the baby, and a cover holds the heat in while early feeding is established. Option A allows convective and evaporative loss to continue. Option C compounds the glucose problem. Option D adds cooling at the moment the baby can least afford it.",
   "strategy": "Warm first, feed early: cold stress and hypoglycaemia feed each other in the newborn.",
   "difficulty": "medium",
   "tags": [
@@ -119374,23 +119374,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "Handwashing with soap after defecation and before preparing food"
-    },
-    {
-      "id": "b",
       "text": "Sharing drinking cups among household members"
     },
     {
-      "id": "c",
+      "id": "b",
       "text": "Storing drinking water in an open container"
+    },
+    {
+      "id": "c",
+      "text": "Handwashing with soap after defecation and before preparing food"
     },
     {
       "id": "d",
       "text": "Disposing of waste near a stream"
     }
   ],
-  "correctChoiceId": "a",
-  "rationale": "Faecal-oral transmission depends on pathogens from stool reaching the mouth, and handwashing with soap at the two critical moments, after defecation and before food preparation, breaks that route at its narrowest point. Option B transfers saliva and hand contamination directly between people. Option C allows contamination and mosquito breeding. Option D puts human waste into the water supply that the community uses.",
+  "correctChoiceId": "c",
+  "rationale": "Faecal-oral transmission depends on pathogens from stool reaching the mouth, and handwashing with soap at the two critical moments, after defecation and before food preparation, breaks that route at its narrowest point. Option A transfers saliva and hand contamination directly between people. Option B allows contamination and mosquito breeding. Option D puts human waste into the water supply that the community uses.",
   "strategy": "One barrier, two moments: soap after the toilet and before food.",
   "difficulty": "medium",
   "tags": [
@@ -119409,23 +119409,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "Clear instructions and the parameters for reporting back"
-    },
-    {
-      "id": "b",
       "text": "A general request to keep an eye on the patient"
     },
     {
-      "id": "c",
+      "id": "b",
       "text": "Permission to decide when to escalate without reference"
     },
     {
-      "id": "d",
+      "id": "c",
       "text": "A time limit only, with no expected findings"
+    },
+    {
+      "id": "d",
+      "text": "Clear instructions and the parameters for reporting back"
     }
   ],
-  "correctChoiceId": "a",
-  "rationale": "Safe delegation requires the task, the expected findings, the limits of the assistant's authority and the criteria for reporting back, which is why delegation is taught as the five rights: task, circumstance, person, direction and supervision. Option B gives no measurable instruction. Option C hands over clinical judgement that belongs to the registered nurse. Option D sets a time but leaves the assistant unable to judge what matters, so deterioration may go unreported.",
+  "correctChoiceId": "d",
+  "rationale": "Safe delegation requires the task, the expected findings, the limits of the assistant's authority and the criteria for reporting back, which is why delegation is taught as the five rights: task, circumstance, person, direction and supervision. Option A gives no measurable instruction. Option B hands over clinical judgement that belongs to the registered nurse. Option C sets a time but leaves the assistant unable to judge what matters, so deterioration may go unreported.",
   "strategy": "Delegate the task, the limits and the reporting criteria. All three, or it is not safe.",
   "difficulty": "medium",
   "tags": [

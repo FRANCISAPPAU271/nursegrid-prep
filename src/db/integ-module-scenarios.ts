@@ -38,11 +38,11 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Macule: A flat, non-palpable, circumscribed area of skin color change measuring less than 1 cm in diameter without elevation or depression",
+        text: "Papule: A large fluid-filled blister greater than 5 cm in diameter located deep in the subcutaneous adipose tissue",
       },
       {
         id: "b",
-        text: "Papule: A large fluid-filled blister greater than 5 cm in diameter located deep in the subcutaneous adipose tissue",
+        text: "Macule: A flat, non-palpable, circumscribed area of skin color change measuring less than 1 cm in diameter without elevation or depression",
       },
       {
         id: "c",
@@ -53,7 +53,7 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Wheal: A permanent open cavity extending through the muscle into the periosteum",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
       "Primary skin lesion taxonomy is fundamental to clinical dermatology: (1) A macule is a flat, non-palpable change in skin color < 1 cm (e.g., freckle, petechia); if > 1 cm, it is a patch. (2) A papule is an elevated, palpable, solid mass < 1 cm (e.g., mole, wart); if > 1 cm, it is a plaque. (3) A vesicle is an elevated cavity filled with clear serous fluid <= 0.5–1 cm (e.g., herpes simplex); if > 1 cm, it is a bulla (blister). (4) A wheal is a transient, raised, edematous, erythematous area with irregular borders caused by dermal fluid extravasation (e.g., urticaria/hives).",
     strategy: "Lesion taxonomy: Macule = flat color change < 1 cm. Papule = solid raised < 1 cm. Vesicle = fluid blister < 1 cm. Bulla = fluid blister > 1 cm.",
@@ -68,22 +68,22 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Debride non-viable yellow slough (Tissue) and manage heavy exudate using an absorbent dressing to prevent surrounding skin breakdown while maintaining a warm, moist wound bed (Moisture balance)",
-      },
-      {
-        id: "b",
         text: "Apply dry gauze and leave the wound exposed to hot sunlight to completely desiccate the tissue bed",
       },
       {
-        id: "c",
+        id: "b",
         text: "Pour undiluted 10% povidone-iodine and 3% hydrogen peroxide repeatedly into the ulcer bed to destroy all cellular activity",
+      },
+      {
+        id: "c",
+        text: "Debride non-viable yellow slough (Tissue) and manage heavy exudate using an absorbent dressing to prevent surrounding skin breakdown while maintaining a warm, moist wound bed (Moisture balance)",
       },
       {
         id: "d",
         text: "Surgically amputate the entire lower extremity immediately without attempting conservative wound dressings",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
       "The TIME framework optimizes the chronic wound microenvironment: (1) Tissue non-viable: Slough and necrotic eschar promote bacterial biofilm and must be debrided (autolytic, enzymatic, sharp, or mechanical); (2) Infection/Inflammation: Control bacterial burden and biofilm; (3) Moisture imbalance: Chronic wounds heal fastest in a physiological moist (not wet, not dry) environment; excessive exudate macerates surrounding skin and contains destructive metalloproteinases, requiring absorbent dressings (calcium alginates, hydrofibers, foam); and (4) Edge advancement: Epidermal cells require a healthy granulating matrix to migrate across wound margins.",
     strategy: "TIME wound care: Non-viable slough requires debridement + excess exudate requires absorbent dressing to balance moisture and prevent maceration.",
@@ -98,22 +98,22 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Stage 2 pressure injury",
-      },
-      {
-        id: "b",
         text: "Stage 1 pressure injury",
       },
       {
-        id: "c",
+        id: "b",
         text: "Stage 3 pressure injury",
       },
       {
-        id: "d",
+        id: "c",
         text: "Unstageable pressure injury",
       },
+      {
+        id: "d",
+        text: "Stage 2 pressure injury",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
       "According to NPUAP/EPUAP staging: Stage 1 is intact skin with localized non-blanchable erythema (or localized warmth, firmness, or discoloration in dark skin). Stage 2 is partial-thickness loss of skin with exposed dermis, presenting as a shallow open ulcer with a viable, red or pink, moist wound bed without slough, eschar, or granulation tissue, OR presenting as an intact or open/ruptured serum-filled blister. Stage 3 involves full-thickness skin loss with visible adipose tissue and granulation; Stage 4 involves exposed bone, tendon, or muscle. Unstageable occurs when slough or eschar completely obscures the base.",
     strategy: "Pressure injury staging: Partial-thickness dermis loss with red/pink bed OR intact serum blister = Stage 2. Full-thickness into fat = Stage 3.",
@@ -158,11 +158,11 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "36% TBSA",
+        text: "27% TBSA",
       },
       {
         id: "b",
-        text: "27% TBSA",
+        text: "36% TBSA",
       },
       {
         id: "c",
@@ -173,7 +173,7 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "18% TBSA",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
       "Under the adult Wallace Rule of Nines: Head and neck = 9%; Anterior trunk = 18% (chest 9% + abdomen 9%); Posterior trunk = 18% (upper back 9% + lower back/buttocks 9%); Each arm = 9% total (anterior 4.5% + posterior 4.5%); Each leg = 18% total (anterior 9% + posterior 9%); Perineum/genitalia = 1%. In this client: Anterior chest (9%) + Entire abdomen (9%) + Entire left arm (9%) + Anterior left leg (9%) = 9 + 9 + 9 + 9 = 36% TBSA.",
     strategy: "Rule of Nines calculation: Chest (9%) + Abdomen (9%) + Entire arm (9%) + Anterior leg (9%) = 36% TBSA.",
@@ -188,22 +188,22 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Total 24-hour volume = 11,200 mL; administer 5,600 mL during the first 8 hours post-injury (at 800 mL/hr over the remaining 7 hours) and the remaining 5,600 mL over the subsequent 16 hours",
-      },
-      {
-        id: "b",
         text: "Total 24-hour volume = 5,600 mL; administer at a steady continuous rate of 233 mL/hr across all 24 hours",
       },
       {
-        id: "c",
+        id: "b",
         text: "Total 24-hour volume = 22,400 mL; infuse rapidly over 4 hours with 10% dextrose",
+      },
+      {
+        id: "c",
+        text: "Total 24-hour volume = 11,200 mL; administer 5,600 mL during the first 8 hours post-injury (at 800 mL/hr over the remaining 7 hours) and the remaining 5,600 mL over the subsequent 16 hours",
       },
       {
         id: "d",
         text: "Fluid resuscitation is contraindicated in burns to prevent pulmonary congestion",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
       "The Parkland (Baxter) formula states: Total 24-hour fluid = 4 mL x weight (kg) x % TBSA burns. For this client: 4 mL x 70 kg x 40% = 11,200 mL of balanced crystalloid (Lactated Ringer's). Delivery schedule: 50% (5,600 mL) must be infused within the FIRST 8 HOURS FROM THE TIME OF INJURY, and the remaining 50% (5,600 mL) over the next 16 hours (350 mL/hr). Because 1 hour elapsed before arrival, the initial 5,600 mL must be infused over the remaining 7 hours: 5,600 mL / 7 hours = 800 mL/hr. The nurse titrates this rate to maintain adult urine output at 0.5–1.0 mL/kg/hr (30–50 mL/hr).",
     strategy: "Parkland resuscitation: 4 mL x kg x % TBSA. 50% given in first 8 hours FROM TIME OF BURN (adjust for delay). Target urine output 0.5-1.0 mL/kg/hr.",
@@ -218,22 +218,22 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Prepare immediately for endotracheal intubation before progressive laryngeal edema produces complete upper airway obstruction",
-      },
-      {
-        id: "b",
         text: "Administer oral throat lozenges and place the client in a quiet room to sleep",
       },
       {
-        id: "c",
+        id: "b",
         text: "Reassure the client that singed facial hair is harmless and administer cough syrup",
       },
       {
-        id: "d",
+        id: "c",
         text: "Wait 24 hours to observe if respiratory stridor worsens before consulting the anaesthetist",
       },
+      {
+        id: "d",
+        text: "Prepare immediately for endotracheal intubation before progressive laryngeal edema produces complete upper airway obstruction",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
       "Physical findings of singed nasal hairs, facial burns, carbonaceous sputum, hoarseness, and STRIDOR are pathognomonic of acute thermal inhalation injury and impending upper airway compromise. Supraglottic thermal injury causes rapid, massive laryngeal and vocal cord edema that peaks within 12–24 hours. Once stridor appears, the airway lumen is critically narrowed; delayed intubation frequently becomes impossible due to anatomical distortion, necessitating emergency surgical cricothyroidotomy. Proactive, early endotracheal intubation is the definitive lifesaving priority.",
     strategy: "Inhalation injury: Facial burns + soot + hoarseness/stridor = impending complete airway closure. Secure airway with IMMEDIATE intubation.",
@@ -278,11 +278,11 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Necrotizing fasciitis (a surgical emergency requiring immediate broad-spectrum IV antibiotics and emergency surgical debridement)",
+        text: "Simple superficial erysipelas (manageable with oral paracetamol at home)",
       },
       {
         id: "b",
-        text: "Simple superficial erysipelas (manageable with oral paracetamol at home)",
+        text: "Necrotizing fasciitis (a surgical emergency requiring immediate broad-spectrum IV antibiotics and emergency surgical debridement)",
       },
       {
         id: "c",
@@ -293,7 +293,7 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Venous stasis pigmentation requiring compression stockings",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
       "Necrotizing fasciitis is a fulminant, rapidly progressive bacterial infection of the deep subcutaneous tissue and fascia with a mortality rate exceeding 25–40%. Cardinal warning signs distinguishing necrotizing fasciitis from benign cellulitis are: (1) severe, exquisite pain markedly OUT OF PROPORTION to superficial clinical findings; (2) rapid progression across marked skin margins within hours; (3) palpable subcutaneous crepitus (gas production from anaerobic pathogens); (4) bullae, skin necrosis, or dishwater-gray fluid discharge; and (5) early hemodynamic instability (septic shock). Immediate surgical fasciotomy and aggressive debridement are vital.",
     strategy: "Necrotizing fasciitis: Pain out of proportion to skin signs + crepitus/bullae + shock = Surgical emergency. Immediate radical debridement.",
@@ -308,22 +308,22 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Impetigo is highly contagious; practice strict hand hygiene, separate towels and linens, soak and gently remove crusts before applying topical mupirocin, and monitor for dark tea-colored urine (post-streptococcal glomerulonephritis)",
-      },
-      {
-        id: "b",
         text: "Impetigo is a genetic condition that cannot be transmitted to siblings or classmates",
       },
       {
-        id: "c",
+        id: "b",
         text: "Forcefully scrub the lesions with wire brushes to remove all scabs at once",
+      },
+      {
+        id: "c",
+        text: "Impetigo is highly contagious; practice strict hand hygiene, separate towels and linens, soak and gently remove crusts before applying topical mupirocin, and monitor for dark tea-colored urine (post-streptococcal glomerulonephritis)",
       },
       {
         id: "d",
         text: "Encourage the child to attend school and share pillows with other children",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
       "Impetigo is a highly contagious superficial bacterial skin infection caused primarily by Staphylococcus aureus and Streptococcus pyogenes (Group A Strep). Lesions typically begin as fragile vesicles that rupture, releasing exudate that dries into characteristic 'honey-colored crusts'. Nursing care focuses on: (1) preventing transmission (contact precautions, hand hygiene, separate towels/bedding, keeping child home until 24 hours of antimicrobial therapy); (2) crust removal (soaking with warm soapy water before applying topical mupirocin 2%); and (3) monitoring for post-streptococcal glomerulonephritis (periorbital edema, gross hematuria/tea-colored urine, hypertension) 1–3 weeks post-infection.",
     strategy: "Impetigo management: Honey-colored crusts = highly contagious. Warm soak crusts + mupirocin ointment + monitor for tea-colored urine (PSGN).",
@@ -338,22 +338,22 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Apply 5% permethrin cream thoroughly from the neck down to the soles of the feet, leave on for 8 to 14 hours before washing off, treat all close household contacts simultaneously, and wash all bedding/clothing used in the past 3 days in hot water",
-      },
-      {
-        id: "b",
         text: "Apply permethrin exclusively to the visible burrows on the wrists and wash off after 10 minutes",
       },
       {
-        id: "c",
+        id: "b",
         text: "Treat only the family members who currently feel itchy; asymptomatic members require no treatment",
       },
       {
-        id: "d",
+        id: "c",
         text: "Spray the children's entire bodies with commercial petroleum fly spray daily for one month",
       },
+      {
+        id: "d",
+        text: "Apply 5% permethrin cream thoroughly from the neck down to the soles of the feet, leave on for 8 to 14 hours before washing off, treat all close household contacts simultaneously, and wash all bedding/clothing used in the past 3 days in hot water",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
       "Scabies is an infestation caused by the microscopic mite Sarcoptes scabiei var. hominis. Mites burrow into the stratum corneum and deposit eggs/feces, triggering a delayed type IV hypersensitivity reaction characterized by severe nocturnal pruritus and pathognomonic linear burrows in interdigital web spaces, flexor wrists, axillae, umbilicus, and genitalia. Successful eradication mandates: (1) topical 5% permethrin cream applied from the jawline/neck down over the entire body (including under fingernails and between toes; in infants, the scalp and face are included) for 8–14 hours; (2) treating ALL household contacts simultaneously regardless of symptoms (incubation period is 4–6 weeks); and (3) hot-water laundering of linens.",
     strategy: "Scabies eradication: 5% permethrin from neck down overnight (8-14 h) + treat ALL household contacts simultaneously + wash bedding in hot water.",
@@ -398,11 +398,11 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Plaque psoriasis exhibiting the Auspitz sign",
+        text: "Tinea corporis exhibiting the Darier sign",
       },
       {
         id: "b",
-        text: "Tinea corporis exhibiting the Darier sign",
+        text: "Plaque psoriasis exhibiting the Auspitz sign",
       },
       {
         id: "c",
@@ -413,7 +413,7 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Lichen planus exhibiting Wickham striae",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
       "Plaque psoriasis (psoriasis vulgaris) is a chronic immune-mediated inflammatory dermatosis driven by T-lymphocytes and cytokines (IL-17, IL-23, TNF-alpha), resulting in hyperproliferation of epidermal keratinocytes (epidermal turnover accelerates from 28 days to 3–4 days). The hallmark lesions are sharply demarcated erythematous plaques covered with silvery, micaceous scales on extensor surfaces. The Auspitz sign is the appearance of punctate capillary bleeding spots when scales are scraped off, caused by thinned suprapapillary epidermal plates over dilated, tortuous dermal capillaries. Lesions developing at sites of skin trauma demonstrate the Koebner phenomenon.",
     strategy: "Psoriasis hallmarks: Silvery-white scales on extensor surfaces + pinpoint bleeding when scraped (Auspitz sign) + new lesions at trauma sites (Koebner).",
@@ -428,22 +428,22 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Toxic Epidermal Necrolysis / Stevens-Johnson Syndrome (TEN/SJS overlap); discontinue the offending sulfonamide immediately and transfer to an intensive care burn unit for aggressive supportive fluid and wound care",
-      },
-      {
-        id: "b",
         text: "Mild drug exanthem; advise the client to double the cotrimoxazole dose to eradicate the infection",
       },
       {
-        id: "c",
+        id: "b",
         text: "Heat rash (miliaria); prescribe a cold beverage and discharge home",
+      },
+      {
+        id: "c",
+        text: "Toxic Epidermal Necrolysis / Stevens-Johnson Syndrome (TEN/SJS overlap); discontinue the offending sulfonamide immediately and transfer to an intensive care burn unit for aggressive supportive fluid and wound care",
       },
       {
         id: "d",
         text: "Normal adverse effect that resolves spontaneously while continuing the antibiotic",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
       "Stevens-Johnson Syndrome (SJS) and Toxic Epidermal Necrolysis (TEN) are life-threatening Severe Cutaneous Adverse Reactions (SCAR) characterized by widespread epidermal apoptosis and detachment triggered primarily by medications (sulfonamides, antiepileptics like carbamazepine/phenytoin, allopurinol, nevirapine). SJS involves < 10% TBSA epidermal detachment; SJS/TEN overlap involves 10–30% TBSA; TEN involves > 30% TBSA. Mucosal involvement (lips, oral cavity, eyes, genitalia) is present in > 90% of cases. A positive Nikolsky sign (sloughing of epidermis with light tangential shear) reflects epidermal-dermal cleavage. Immediate cessation of the causative drug and transfer to a specialized burn unit are vital.",
     strategy: "SJS / TEN: Sulfonamide trigger + mucosal erosion + positive Nikolsky sign (epidermal sloughing). STOP DRUG IMMEDIATELY and treat like severe burns in ICU.",
@@ -458,22 +458,22 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Acral lentiginous melanoma (the predominant melanoma in Black and dark-skinned populations, occurring on non-sun-exposed palms, soles, and subungual nail beds); evaluated using the ABCDE criteria",
-      },
-      {
-        id: "b",
         text: "Superficial spreading melanoma caused strictly by sunburns on the facial forehead",
       },
       {
-        id: "c",
+        id: "b",
         text: "Benign lentigo that never requires histological examination or biopsy",
       },
       {
-        id: "d",
+        id: "c",
         text: "Basal cell carcinoma of the sun-exposed cheek",
       },
+      {
+        id: "d",
+        text: "Acral lentiginous melanoma (the predominant melanoma in Black and dark-skinned populations, occurring on non-sun-exposed palms, soles, and subungual nail beds); evaluated using the ABCDE criteria",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
       "While overall melanoma incidence is lower in dark-skinned individuals due to the photoprotective effect of eumelanin against UV radiation, when melanoma does occur in African, Black, and Asian populations, it is disproportionately Acral Lentiginous Melanoma (ALM), accounting for 50–70% of all melanomas in these populations. Unlike other melanomas, ALM is NOT related to UV radiation/sun exposure and characteristically develops on glabrous skin: palms, soles, and subungual nail beds (Hutchinson's sign). The ABCDE mnemonic (Asymmetry, Border irregularity, Color variegation, Diameter > 6 mm, Evolution/change) guides identification, and suspicious lesions mandate urgent excisional biopsy.",
     strategy: "Melanoma in dark skin: Acral lentiginous melanoma (palms, soles, nail beds) is NOT sun-related and is the most common subtype in Black populations. Use ABCDE.",
@@ -518,11 +518,11 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Cleanse gently with sterile normal saline, carefully roll back and re-approximate the epidermal flap without stretching, secure with a silicone-based non-adherent dressing or tubular retention bandage, and avoid aggressive adhesive paper tape directly on frail skin",
+        text: "Surgically excise and discard the viable skin flap using scissors and scrub with alcohol",
       },
       {
         id: "b",
-        text: "Surgically excise and discard the viable skin flap using scissors and scrub with alcohol",
+        text: "Cleanse gently with sterile normal saline, carefully roll back and re-approximate the epidermal flap without stretching, secure with a silicone-based non-adherent dressing or tubular retention bandage, and avoid aggressive adhesive paper tape directly on frail skin",
       },
       {
         id: "c",
@@ -533,7 +533,7 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Leave the wound completely uncovered and open to the air without any dressing",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
       "In older adults, epidermal thinning, flattening of the dermal-epidermal junction (rete ridges), loss of dermal collagen, and microvascular atrophy make the skin exceptionally fragile, predisposing to skin tears from minor shear or friction. According to the International Skin Tear Advisory Panel (ISTAP): for a Type 1 skin tear (where the flap can cover the entire wound bed), the nurse must: (1) gently irrigate with normal saline; (2) gently re-approximate the viable epidermal flap using a moist sterile swab or gloved finger; (3) secure with a non-adherent dressing (silicone foam or mesh); and (4) NEVER apply adhesive tape directly to the fragile peri-wound skin.",
     strategy: "Skin tear management: Cleanse gently -> Roll back/re-approximate viable flap -> Cover with non-adherent silicone dressing. NO adhesive tape on frail skin.",
@@ -548,22 +548,22 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "One Fingertip Unit (FTU, approximately 0.5 g squeezed from the distal interphalangeal crease to fingertip) covers an area equal to two adult flat handprints; use the minimum amount necessary, apply once or twice daily, and avoid potent steroids on the face, groin, and axillae",
-      },
-      {
-        id: "b",
         text: "Apply an entire 60 g tube like thick cake icing over the entire body three times daily",
       },
       {
-        id: "c",
+        id: "b",
         text: "Topical steroids have zero side effects and can be used on the eyelids continuously for years",
+      },
+      {
+        id: "c",
+        text: "One Fingertip Unit (FTU, approximately 0.5 g squeezed from the distal interphalangeal crease to fingertip) covers an area equal to two adult flat handprints; use the minimum amount necessary, apply once or twice daily, and avoid potent steroids on the face, groin, and axillae",
       },
       {
         id: "d",
         text: "Clobetasol should only be taken orally with black coffee",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
       "The Fingertip Unit (FTU) is the standardized metric for topical dermatological medications: 1 FTU is the amount of ointment/cream expressed from a standard 5 mm nozzle tube from the distal skin crease to the tip of an adult index finger (~0.5 g). One FTU adequately covers a surface area equivalent to TWO adult handprints (with fingers joined). Potent and super-potent topical corticosteroids (like clobetasol) carry serious risks of local adverse effects (epidermal atrophy, telangiectasia, striae, hypopigmentation, secondary infection) and systemic absorption (HPA axis suppression, Cushing syndrome). They are strictly avoided on high-absorption, thin-skinned areas such as the face, neck, groin, and axillae.",
     strategy: "Topical steroid dosing: 1 FTU = 0.5 g = 2 adult handprints. Use sparingly, short-term. Avoid potent steroids on face, groin, and axillae (atrophy risk).",
@@ -578,22 +578,22 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Calcium alginate or hydrofiber rope/pad dressings covered by an absorbent secondary foam dressing",
-      },
-      {
-        id: "b",
         text: "Thin semi-permeable film dressing (e.g., Tegaderm)",
       },
       {
-        id: "c",
+        id: "b",
         text: "Dry non-absorbent sterile plastic wrap",
       },
       {
-        id: "d",
+        id: "c",
         text: "Dry single-ply cotton gauze that is allowed to dry and stick to the bed",
       },
+      {
+        id: "d",
+        text: "Calcium alginate or hydrofiber rope/pad dressings covered by an absorbent secondary foam dressing",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
       "Dressing selection must match wound exudate levels according to the moisture balance principle. Calcium alginates (derived from seaweed) and hydrofiber dressings are highly absorbent, capable of absorbing 15–20 times their weight in exudate. When contacting wound fluid, sodium ions in exudate exchange with calcium ions in the alginate, forming a hydrophilic non-adherent gel that traps bacteria, maintains moisture balance, and prevents periwound maceration. In contrast, thin film dressings have zero absorption capacity and would trap fluid causing massive maceration. Dry gauze adheres to the wound and traumatizes new capillary buds upon removal.",
     strategy: "Dressing selection: Heavy exudate = Calcium alginate or Hydrofiber + Foam. Dry/necrotic wound = Hydrogel. Minimal drainage = Thin film / Hydrocolloid.",

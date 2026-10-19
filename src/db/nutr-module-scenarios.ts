@@ -38,11 +38,11 @@ export const NUTR_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Take the iron with a vitamin C source such as orange juice or baobab pulp, and keep tea, coffee, milk, and antacids at least 2 hours away from the dose",
+        text: "Take the iron with the largest meal of the day, because food buffers gastric irritation and improves absorption",
       },
       {
         id: "b",
-        text: "Take the iron with the largest meal of the day, because food buffers gastric irritation and improves absorption",
+        text: "Take the iron with a vitamin C source such as orange juice or baobab pulp, and keep tea, coffee, milk, and antacids at least 2 hours away from the dose",
       },
       {
         id: "c",
@@ -53,9 +53,9 @@ export const NUTR_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Take the iron with strong tea or cocoa to disguise the metallic taste, since this improves tolerance of the tablets",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
-      "Non-heme iron (plant sources and oral iron supplements) exists in the insoluble ferric (Fe3+) state. Ascorbic acid (vitamin C) reduces ferric iron to the soluble, easily absorbed ferrous (Fe2+) state and prevents formation of unabsorbable complexes, significantly enhancing intestinal absorption. Conversely, polyphenols and tannins (found in tea, coffee, cocoa), phytates (in unrefined bran, whole grains), calcium (in dairy products), and antacids bind iron and inhibit absorption by up to 60–80%. The nurse must teach the client to space tea, coffee, and dairy at least 2 hours away from iron doses. Why the other options fail: taking iron with a meal (option b) is the commonest patient habit and is plausible because it reduces nausea, but food binds the ferrous ion and cuts absorption by roughly 40 to 50 percent, so timing relative to meals matters. Milk and calcium (option c) are the trap of a familiar comfort measure: calcium competes directly with iron for absorption in the enterocyte. Tea and cocoa (option d) are pleasant to take but their polyphenols and tannins complex ferric iron in the gut lumen and can reduce uptake by more than half.",
+      "Non-heme iron (plant sources and oral iron supplements) exists in the insoluble ferric (Fe3+) state. Ascorbic acid (vitamin C) reduces ferric iron to the soluble, easily absorbed ferrous (Fe2+) state and prevents formation of unabsorbable complexes, significantly enhancing intestinal absorption. Conversely, polyphenols and tannins (found in tea, coffee, cocoa), phytates (in unrefined bran, whole grains), calcium (in dairy products), and antacids bind iron and inhibit absorption by up to 60–80%. The nurse must teach the client to space tea, coffee, and dairy at least 2 hours away from iron doses. Why the other options fail: taking iron with a meal (option a) is the commonest patient habit and is plausible because it reduces nausea, but food binds the ferrous ion and cuts absorption by roughly 40 to 50 percent, so timing relative to meals matters. Milk and calcium (option c) are the trap of a familiar comfort measure: calcium competes directly with iron for absorption in the enterocyte. Tea and cocoa (option d) are pleasant to take but their polyphenols and tannins complex ferric iron in the gut lumen and can reduce uptake by more than half.",
     strategy: "Iron bioavailability: Vitamin C enhances iron absorption (Fe3+ -> Fe2+). Tannins (tea), phytates (bran), and calcium (milk) inhibit absorption; space by 2 hours.",
     difficulty: "easy",
     tags: ["nutrition", "iron-absorption", "vitamin-c", "tannins", "anaemia"],
@@ -68,24 +68,24 @@ export const NUTR_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Angular cheilitis with fissuring at the mouth corners, together with an atrophic, smooth, beefy-red tongue",
-      },
-      {
-        id: "b",
         text: "Bilateral painless enlargement of the parotid glands, with loss of the buccal fat pad",
       },
       {
-        id: "c",
+        id: "b",
         text: "Transverse white bands across the fingernails, with thinning of the hair and easy pluckability",
+      },
+      {
+        id: "c",
+        text: "Angular cheilitis with fissuring at the mouth corners, together with an atrophic, smooth, beefy-red tongue",
       },
       {
         id: "d",
         text: "Swollen, friable gums that bleed on gentle brushing, with loose teeth in otherwise sound molars",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
-      "The clinical ('C') component of the ABCD nutritional assessment evaluates physical signs of nutrient deficiency on mucosal surfaces, skin, hair, and nails. Angular cheilitis (stomatitis with fissuring and maceration at labial commissures) and glossitis (inflammation, erythema, and papillary atrophy of the tongue) are classic physical indicators of riboflavin (vitamin B2), pyridoxine (vitamin B6), iron, or folate/B12 deficiencies. Koilonychia (spoon nails) reflects chronic severe iron deficiency, not vitamin C excess. Why the other options fail: bilateral parotid enlargement (option b) is a real nutritional sign but points to bulimia, starvation, or HIV salivary gland disease, none of which the stem describes, and the buccal fat pad is lost in wasting rather than in B2 deficiency. Transverse white nail bands (option c) are Mees' lines, seen after arsenic exposure, severe systemic illness, or chemotherapy, not riboflavin or iron deficiency. Friable bleeding gums with loose teeth (option d) are the gingival picture of scurvy, which is vitamin C deficiency; it is a mucosal sign, but a different nutrient from the one the stem asks about.",
+      "The clinical ('C') component of the ABCD nutritional assessment evaluates physical signs of nutrient deficiency on mucosal surfaces, skin, hair, and nails. Angular cheilitis (stomatitis with fissuring and maceration at labial commissures) and glossitis (inflammation, erythema, and papillary atrophy of the tongue) are classic physical indicators of riboflavin (vitamin B2), pyridoxine (vitamin B6), iron, or folate/B12 deficiencies. Koilonychia (spoon nails) reflects chronic severe iron deficiency, not vitamin C excess. Why the other options fail: bilateral parotid enlargement (option a) is a real nutritional sign but points to bulimia, starvation, or HIV salivary gland disease, none of which the stem describes, and the buccal fat pad is lost in wasting rather than in B2 deficiency. Transverse white nail bands (option b) are Mees' lines, seen after arsenic exposure, severe systemic illness, or chemotherapy, not riboflavin or iron deficiency. Friable bleeding gums with loose teeth (option d) are the gingival picture of scurvy, which is vitamin C deficiency; it is a mucosal sign, but a different nutrient from the one the stem asks about.",
     strategy: "Clinical signs of deficiency: Angular cheilitis and glossitis indicate riboflavin (B2), B-complex, or iron deficiency. Inspect oral mucosa closely.",
     difficulty: "medium",
     tags: ["nutrition", "nutritional-assessment", "abcd-model", "angular-cheilitis", "b-vitamins"],
@@ -98,24 +98,24 @@ export const NUTR_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Classify as severe acute malnutrition, do an appetite test with ready-to-use therapeutic food, check for pitting oedema and danger signs, and enrol in outpatient or inpatient care",
-      },
-      {
-        id: "b",
         text: "Classify as moderate acute malnutrition, give a single dose of vitamin A, and review the child at the clinic in 4 weeks once the oedema has settled",
       },
       {
-        id: "c",
+        id: "b",
         text: "Enrol the child for outpatient care only if bilateral pitting oedema is absent, and refer for inpatient stabilisation only once MUAC falls below 10.5 cm",
       },
       {
-        id: "d",
+        id: "c",
         text: "Repeat the MUAC measurement after 2 weeks of supplementary feeding at home, and assign a classification only if the value has not improved by then",
       },
+      {
+        id: "d",
+        text: "Classify as severe acute malnutrition, do an appetite test with ready-to-use therapeutic food, check for pitting oedema and danger signs, and enrol in outpatient or inpatient care",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
-      "MUAC is a rapid, validated, age-independent screening tool for acute wasting in children aged 6 to 59 months: (1) Red (< 11.5 cm) = Severe Acute Malnutrition (SAM), carrying a 9- to 11-fold increased risk of mortality; (2) Yellow (11.5 to 12.4 cm) = Moderate Acute Malnutrition (MAM); (3) Green (>= 12.5 cm) = Normal nutritional status. A child with a MUAC of 11.2 cm has SAM. Management requires: assessment for bilateral pitting edema, checking for medical complications (fever, hypothermia, severe anemia, hypoglycemia, respiratory distress), conducting an RUTF appetite test, and admitting to Inpatient Stabilization (if complications present or failed appetite test) or Outpatient Therapeutic Program (OTP). Why the other options fail: option b under-calls the severity. The yellow MAM band runs from 11.5 to 12.4 cm, and 11.2 cm sits below it in the red band, so a single vitamin A dose and a four-week review leaves a child with a nine- to eleven-fold mortality risk untreated. Option c invents a threshold that does not exist: MUAC below 10.5 cm is not an admission criterion, and oedema makes a child severely malnourished at any MUAC rather than excluding them from care. Option d delays a decision that must be made now; two weeks of home feeding in a child at this risk is time the child does not have.",
+      "MUAC is a rapid, validated, age-independent screening tool for acute wasting in children aged 6 to 59 months: (1) Red (< 11.5 cm) = Severe Acute Malnutrition (SAM), carrying a 9- to 11-fold increased risk of mortality; (2) Yellow (11.5 to 12.4 cm) = Moderate Acute Malnutrition (MAM); (3) Green (>= 12.5 cm) = Normal nutritional status. A child with a MUAC of 11.2 cm has SAM. Management requires: assessment for bilateral pitting edema, checking for medical complications (fever, hypothermia, severe anemia, hypoglycemia, respiratory distress), conducting an RUTF appetite test, and admitting to Inpatient Stabilization (if complications present or failed appetite test) or Outpatient Therapeutic Program (OTP). Why the other options fail: option a under-calls the severity. The yellow MAM band runs from 11.5 to 12.4 cm, and 11.2 cm sits below it in the red band, so a single vitamin A dose and a four-week review leaves a child with a nine- to eleven-fold mortality risk untreated. Option b invents a threshold that does not exist: MUAC below 10.5 cm is not an admission criterion, and oedema makes a child severely malnourished at any MUAC rather than excluding them from care. Option c delays a decision that must be made now; two weeks of home feeding in a child at this risk is time the child does not have.",
     strategy: "Pediatric MUAC cutoffs: < 11.5 cm = RED (Severe Acute Malnutrition). Urgent appetite test + medical screening -> OTP with RUTF or Inpatient care.",
     difficulty: "easy",
     tags: ["nutrition", "pediatrics", "muac", "sam", "child-health"],
@@ -158,11 +158,11 @@ export const NUTR_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Folic acid 400 mcg daily from at least 1 month before conception through the first trimester, to prevent neural tube defects",
+        text: "Folic acid 5 mg daily from the first antenatal visit, because the neural tube closes during the second trimester",
       },
       {
         id: "b",
-        text: "Folic acid 5 mg daily from the first antenatal visit, because the neural tube closes during the second trimester",
+        text: "Folic acid 400 mcg daily from at least 1 month before conception through the first trimester, to prevent neural tube defects",
       },
       {
         id: "c",
@@ -173,9 +173,9 @@ export const NUTR_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "No supplement is needed when the diet is rich in green leafy vegetables and legumes, provided iron stores are normal",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
-      "The embryonic neural tube closes completely between day 21 and day 28 post-conception (approximately 3 to 4 weeks after fertilization), often before a woman realizes she is pregnant. Periconceptional folic acid supplementation (400 mcg or 0.4 mg daily for average-risk women) started at least 1 month prior to conception and continued through the 12th week of gestation reduces the incidence of neural tube defects (spina bifida, anencephaly, encephalocele) by up to 70%. High-risk women (history of previous NTD, maternal diabetes, obesity, sickle cell, or taking antiepileptic drugs) require a higher dose of 4–5 mg daily. Why the other options fail: option b carries the high-risk dose and the wrong clock. Five milligrams is reserved for women with a previous affected pregnancy, diabetes, obesity, sickle cell disease, or anticonvulsant use, and the neural tube is closed by day 28, long before the second trimester. Option c starts after the window has shut; ultrasound confirmation at 8 weeks is five weeks past closure. Option d trusts diet alone, but dietary folate is poorly bioavailable and the protective evidence rests on periconceptional supplementation, so a good diet does not substitute for the tablet.",
+      "The embryonic neural tube closes completely between day 21 and day 28 post-conception (approximately 3 to 4 weeks after fertilization), often before a woman realizes she is pregnant. Periconceptional folic acid supplementation (400 mcg or 0.4 mg daily for average-risk women) started at least 1 month prior to conception and continued through the 12th week of gestation reduces the incidence of neural tube defects (spina bifida, anencephaly, encephalocele) by up to 70%. High-risk women (history of previous NTD, maternal diabetes, obesity, sickle cell, or taking antiepileptic drugs) require a higher dose of 4–5 mg daily. Why the other options fail: option a carries the high-risk dose and the wrong clock. Five milligrams is reserved for women with a previous affected pregnancy, diabetes, obesity, sickle cell disease, or anticonvulsant use, and the neural tube is closed by day 28, long before the second trimester. Option c starts after the window has shut; ultrasound confirmation at 8 weeks is five weeks past closure. Option d trusts diet alone, but dietary folate is poorly bioavailable and the protective evidence rests on periconceptional supplementation, so a good diet does not substitute for the tablet.",
     strategy: "Periconceptional folate: 400 mcg daily starting >= 1 month BEFORE conception through 12 weeks gestation. Neural tube closes by day 28 post-conception.",
     difficulty: "easy",
     tags: ["nutrition", "folic-acid", "neural-tube-defects", "preconception-care", "maternal-health"],
@@ -188,24 +188,24 @@ export const NUTR_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Continue exclusive breastfeeding to 6 months; breast milk is about 88% water and meets all fluid and nutrient needs even in hot weather",
-      },
-      {
-        id: "b",
         text: "Give boiled water between feeds in hot weather, because breast milk alone cannot replace the water lost through sweating",
       },
       {
-        id: "c",
+        id: "b",
         text: "Introduce thin maize porridge at 4 months, since breast milk no longer meets energy needs after 3 months of age",
+      },
+      {
+        id: "c",
+        text: "Continue exclusive breastfeeding to 6 months; breast milk is about 88% water and meets all fluid and nutrient needs even in hot weather",
       },
       {
         id: "d",
         text: "Offer sugar water after each feed to prevent hypoglycaemia until the infant is 6 months old and eating solids",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
-      "WHO and UNICEF recommend Exclusive Breastfeeding (EBF) for the first 6 months of life (no other liquids or solids, not even water, except for vitamins, mineral supplements, or oral rehydration salts/medicines). Breast milk is 87–88% water with low osmolarity, satisfying all infant hydration requirements even in arid tropical climates. Giving water, teas, or thin porridges fills the infant's small stomach, decreases breast suckling (lowering maternal prolactin and milk supply), and introduces waterborne pathogens causing diarrhoeal diseases, the leading cause of infant mortality in low-resource settings. Why the other options fail: option b is the grandmother's argument in clinical clothing. It sounds like sensible hydration, but breast milk is low in solute and high in water, so an exclusively breastfed infant in a hot climate is not water-depleted, and top-up water displaces a feed and its protein. Option c brings complementary feeding forward by two months, against WHO guidance, and thin porridge is energy-dilute, which is how infants become malnourished rather than better nourished. Option d adds sugar without protein or micronutrients and fills the small stomach, reducing suckling and therefore prolactin-driven milk production.",
+      "WHO and UNICEF recommend Exclusive Breastfeeding (EBF) for the first 6 months of life (no other liquids or solids, not even water, except for vitamins, mineral supplements, or oral rehydration salts/medicines). Breast milk is 87–88% water with low osmolarity, satisfying all infant hydration requirements even in arid tropical climates. Giving water, teas, or thin porridges fills the infant's small stomach, decreases breast suckling (lowering maternal prolactin and milk supply), and introduces waterborne pathogens causing diarrhoeal diseases, the leading cause of infant mortality in low-resource settings. Why the other options fail: option a is the grandmother's argument in clinical clothing. It sounds like sensible hydration, but breast milk is low in solute and high in water, so an exclusively breastfed infant in a hot climate is not water-depleted, and top-up water displaces a feed and its protein. Option b brings complementary feeding forward by two months, against WHO guidance, and thin porridge is energy-dilute, which is how infants become malnourished rather than better nourished. Option d adds sugar without protein or micronutrients and fills the small stomach, reducing suckling and therefore prolactin-driven milk production.",
     strategy: "Exclusive breastfeeding: EBF for first 6 months (zero water/solids). Breast milk is 88% water and provides complete hydration even in tropical heat.",
     difficulty: "easy",
     tags: ["nutrition", "exclusive-breastfeeding", "infant-nutrition", "iycf", "health-promotion"],
@@ -218,24 +218,24 @@ export const NUTR_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Atrophic gastritis with hypochlorhydria reduces acid and pepsin, so protein-bound B12 cannot be cleaved for absorption",
-      },
-      {
-        id: "b",
         text: "Loss of intrinsic factor alone, because parietal cell loss is the sole cause of B12 malabsorption in older adults",
       },
       {
-        id: "c",
+        id: "b",
         text: "Bacterial overgrowth in the small bowel, which competes for dietary B12 before it can reach the terminal ileum",
       },
       {
-        id: "d",
+        id: "c",
         text: "Enhanced renal excretion of transcobalamin-bound B12, secondary to an age-related fall in glomerular filtration",
       },
+      {
+        id: "d",
+        text: "Atrophic gastritis with hypochlorhydria reduces acid and pepsin, so protein-bound B12 cannot be cleaved for absorption",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
-      "Age-related atrophic gastritis affects 10–30% of older adults, leading to loss of gastric parietal cells, hypochlorhydria (decreased hydrochloric acid), and diminished pepsin secretion. Dietary vitamin B12 is bound to animal proteins; gastric acid and pepsin are mandatory to cleave B12 from food proteins so it can bind to haptocorrin and subsequently to intrinsic factor for terminal ileal absorption. When gastric acid is low, protein-bound B12 malabsorption develops despite adequate dietary intake. Older adults frequently require crystalline B12 supplements (which do not require acid cleavage) or parenteral B12 injections. Why the other options fail: option b names a genuine mechanism but makes it exclusive. This client eats fish and eggs, so the food-bound fraction is precisely the part that fails first, and intrinsic factor loss is a contributing factor here rather than the sole explanation the stem asks for. Option c is a real cause of B12 deficiency in blind loops and strictures, but nothing in the history suggests stasis, surgery, or a structural lesion. Option d invents a route of loss; B12 is conserved through enterohepatic circulation, and falling filtration rate does not strip transcobalamin-bound vitamin from plasma.",
+      "Age-related atrophic gastritis affects 10–30% of older adults, leading to loss of gastric parietal cells, hypochlorhydria (decreased hydrochloric acid), and diminished pepsin secretion. Dietary vitamin B12 is bound to animal proteins; gastric acid and pepsin are mandatory to cleave B12 from food proteins so it can bind to haptocorrin and subsequently to intrinsic factor for terminal ileal absorption. When gastric acid is low, protein-bound B12 malabsorption develops despite adequate dietary intake. Older adults frequently require crystalline B12 supplements (which do not require acid cleavage) or parenteral B12 injections. Why the other options fail: option a names a genuine mechanism but makes it exclusive. This client eats fish and eggs, so the food-bound fraction is precisely the part that fails first, and intrinsic factor loss is a contributing factor here rather than the sole explanation the stem asks for. Option b is a real cause of B12 deficiency in blind loops and strictures, but nothing in the history suggests stasis, surgery, or a structural lesion. Option c invents a route of loss; B12 is conserved through enterohepatic circulation, and falling filtration rate does not strip transcobalamin-bound vitamin from plasma.",
     strategy: "Geriatric B12 malabsorption: Atrophic gastritis -> hypochlorhydria -> inability to cleave protein-bound B12 -> B12 deficiency and neurological deficits.",
     difficulty: "medium",
     tags: ["nutrition", "gerontology", "vitamin-b12", "atrophic-gastritis", "hypochlorhydria"],
@@ -278,11 +278,11 @@ export const NUTR_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "High in potassium, calcium, magnesium, and fibre, with sodium below 2,300 mg/day and ideally 1,500 mg/day",
+        text: "High in potassium and calcium from fruit and low-fat dairy, with sodium limited to 3,000 mg/day for blood pressure control",
       },
       {
         id: "b",
-        text: "High in potassium and calcium from fruit and low-fat dairy, with sodium limited to 3,000 mg/day for blood pressure control",
+        text: "High in potassium, calcium, magnesium, and fibre, with sodium below 2,300 mg/day and ideally 1,500 mg/day",
       },
       {
         id: "c",
@@ -293,9 +293,9 @@ export const NUTR_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Emphasises whole grains and nuts, with sodium replaced at every meal by potassium-based salt substitutes",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
-      "The DASH diet is an evidence-based nutritional intervention that lowers systolic blood pressure by 8–14 mmHg. It emphasizes: (1) rich intake of fruits and vegetables (4–5 servings of each daily); (2) low-fat dairy products (providing calcium); (3) whole grains, poultry, fish, and nuts (providing magnesium and potassium); and (4) marked reduction in sodium, red meats, sweets, and saturated fats. Potassium, calcium, and magnesium promote vascular smooth muscle relaxation and urinary sodium excretion. Restricting sodium to < 2,300 mg/day (or <= 1,500 mg/day in hypertensive individuals) provides additive blood pressure lowering. Why the other options fail: option b gets the foods right and the number wrong. Three thousand milligrams is above the upper limit that defines the plan, and the blood-pressure benefit is dose-dependent, which is why 1,500 mg is the stronger target. Option c states the opposite of the mechanism: potassium and magnesium are among the nutrients that lower blood pressure, and their intake is a defining feature of DASH rather than an irrelevance. Option d sounds like DASH but swaps a dietary pattern for a product, and salt substitutes are hazardous in the renal impairment that commonly accompanies hypertension.",
+      "The DASH diet is an evidence-based nutritional intervention that lowers systolic blood pressure by 8–14 mmHg. It emphasizes: (1) rich intake of fruits and vegetables (4–5 servings of each daily); (2) low-fat dairy products (providing calcium); (3) whole grains, poultry, fish, and nuts (providing magnesium and potassium); and (4) marked reduction in sodium, red meats, sweets, and saturated fats. Potassium, calcium, and magnesium promote vascular smooth muscle relaxation and urinary sodium excretion. Restricting sodium to < 2,300 mg/day (or <= 1,500 mg/day in hypertensive individuals) provides additive blood pressure lowering. Why the other options fail: option a gets the foods right and the number wrong. Three thousand milligrams is above the upper limit that defines the plan, and the blood-pressure benefit is dose-dependent, which is why 1,500 mg is the stronger target. Option c states the opposite of the mechanism: potassium and magnesium are among the nutrients that lower blood pressure, and their intake is a defining feature of DASH rather than an irrelevance. Option d sounds like DASH but swaps a dietary pattern for a product, and salt substitutes are hazardous in the renal impairment that commonly accompanies hypertension.",
     strategy: "DASH diet: High potassium, magnesium, calcium + high fiber + sodium <= 1,500-2,300 mg/day. Proven to lower BP significantly.",
     difficulty: "easy",
     tags: ["nutrition", "dash-diet", "hypertension", "sodium-reduction", "cardiovascular-health"],
@@ -308,24 +308,24 @@ export const NUTR_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Protein 0.6 to 0.8 g/kg/day, with potassium, phosphorus, and sodium restricted and potassium-based salt substitutes avoided",
-      },
-      {
-        id: "b",
         text: "Increase protein to 1.5 g/kg/day to replace losses, and restrict only sodium and fluid until dialysis begins",
       },
       {
-        id: "c",
+        id: "b",
         text: "Restrict potassium and phosphorus only, since protein does not raise urea until dialysis has been started",
+      },
+      {
+        id: "c",
+        text: "Protein 0.6 to 0.8 g/kg/day, with potassium, phosphorus, and sodium restricted and potassium-based salt substitutes avoided",
       },
       {
         id: "d",
         text: "Restrict sodium and phosphorus only, and use potassium-based salt substitutes freely to make the diet palatable",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
-      "In advanced pre-dialysis CKD (Stage 4–5): (1) Protein is controlled to 0.6–0.8 g/kg/day to decrease nitrogenous waste production (blood urea nitrogen) and slow renal functional decline (once dialysis begins, protein is increased to 1.2 g/kg to replace dialysate amino acid loss); (2) Potassium restriction (< 2–3 g/day) is essential because failing nephrons cannot excrete potassium, risking fatal cardiac arrhythmias; (3) Phosphorus restriction (< 800–1,000 mg/day) prevents hyperphosphatemia, secondary hyperparathyroidism, and vascular calcification; and (4) Sodium restriction (< 2 g/day) controls fluid retention and hypertension. Why the other options fail: option b imports the dialysis prescription into the pre-dialysis stage. Protein rises to about 1.2 g/kg only once dialysis replaces amino acids lost in the dialysate, and 1.5 g/kg at an eGFR of 22 generates a nitrogen load the failing kidney cannot clear. Option c denies the central mechanism of uraemia, which is protein catabolism raising blood urea nitrogen well before dialysis. Option d removes the two restrictions that matter least here and adds a potassium load, which is the most dangerous omission in a client who cannot excrete potassium.",
+      "In advanced pre-dialysis CKD (Stage 4–5): (1) Protein is controlled to 0.6–0.8 g/kg/day to decrease nitrogenous waste production (blood urea nitrogen) and slow renal functional decline (once dialysis begins, protein is increased to 1.2 g/kg to replace dialysate amino acid loss); (2) Potassium restriction (< 2–3 g/day) is essential because failing nephrons cannot excrete potassium, risking fatal cardiac arrhythmias; (3) Phosphorus restriction (< 800–1,000 mg/day) prevents hyperphosphatemia, secondary hyperparathyroidism, and vascular calcification; and (4) Sodium restriction (< 2 g/day) controls fluid retention and hypertension. Why the other options fail: option a imports the dialysis prescription into the pre-dialysis stage. Protein rises to about 1.2 g/kg only once dialysis replaces amino acids lost in the dialysate, and 1.5 g/kg at an eGFR of 22 generates a nitrogen load the failing kidney cannot clear. Option b denies the central mechanism of uraemia, which is protein catabolism raising blood urea nitrogen well before dialysis. Option d removes the two restrictions that matter least here and adds a potassium load, which is the most dangerous omission in a client who cannot excrete potassium.",
     strategy: "CKD pre-dialysis nutrition: Moderate protein (0.6-0.8 g/kg) + restrict potassium + restrict phosphorus + restrict sodium. Avoid potassium salt substitutes.",
     difficulty: "medium",
     tags: ["nutrition", "ckd", "renal-diet", "potassium-restriction", "phosphorus-control"],
@@ -338,24 +338,24 @@ export const NUTR_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Eliminate wheat, rye, barley, and contaminated oats, substituting rice, maize, cassava, yam, millet, and sorghum",
-      },
-      {
-        id: "b",
         text: "Eliminate rice, maize, and cassava, which cross-react with gliadin, while allowing wheat in small amounts",
       },
       {
-        id: "c",
+        id: "b",
         text: "Avoid all grains including rice and millet, and base the diet on oats that have not been certified gluten-free",
       },
       {
-        id: "d",
+        id: "c",
         text: "Eliminate gluten strictly for 6 months, then reintroduce wheat gradually once the villi have recovered",
       },
+      {
+        id: "d",
+        text: "Eliminate wheat, rye, barley, and contaminated oats, substituting rice, maize, cassava, yam, millet, and sorghum",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
-      "Celiac disease is an immune-mediated enteropathy triggered by ingestion of gluten storage proteins (gliadin in wheat, secalin in rye, hordein in barley) in genetically susceptible individuals, causing immune-mediated mucosal inflammation, crypt hyperplasia, and villous atrophy in the small intestine. The sole effective treatment is strict, lifelong elimination of all gluten-containing grains: Barley, Rye, Oats (unless certified gluten-free), and Wheat (the 'BROW' mnemonic). Safe naturally gluten-free alternatives include: rice, maize, cassava, yams, plantains, potatoes, soy, millet, sorghum, arrowroot, and buckwheat. Why the other options fail: option b reverses the safe and unsafe lists. Rice, maize, and cassava contain no gluten and do not cross-react with gliadin, while wheat is the single most important grain to remove. Option c is a double error: it eliminates grains that are safe and then builds the diet on ordinary oats, which are routinely contaminated with wheat during milling and transport. Option d treats coeliac disease as a temporary elimination diet, but the enteropathy recurs with any reintroduction, so the restriction is lifelong.",
+      "Celiac disease is an immune-mediated enteropathy triggered by ingestion of gluten storage proteins (gliadin in wheat, secalin in rye, hordein in barley) in genetically susceptible individuals, causing immune-mediated mucosal inflammation, crypt hyperplasia, and villous atrophy in the small intestine. The sole effective treatment is strict, lifelong elimination of all gluten-containing grains: Barley, Rye, Oats (unless certified gluten-free), and Wheat (the 'BROW' mnemonic). Safe naturally gluten-free alternatives include: rice, maize, cassava, yams, plantains, potatoes, soy, millet, sorghum, arrowroot, and buckwheat. Why the other options fail: option a reverses the safe and unsafe lists. Rice, maize, and cassava contain no gluten and do not cross-react with gliadin, while wheat is the single most important grain to remove. Option b is a double error: it eliminates grains that are safe and then builds the diet on ordinary oats, which are routinely contaminated with wheat during milling and transport. Option c treats coeliac disease as a temporary elimination diet, but the enteropathy recurs with any reintroduction, so the restriction is lifelong.",
     strategy: "Celiac disease diet: Eliminate 'BROW' (Barley, Rye, Oats, Wheat). Safe staples = Rice, Maize, Yam, Cassava, Plantain, Millet, Sorghum.",
     difficulty: "easy",
     tags: ["nutrition", "celiac-disease", "gluten-free", "brow-grains", "malabsorption"],
@@ -398,11 +398,11 @@ export const NUTR_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Refeeding syndrome: the carbohydrate load triggers insulin release, which drives phosphate, potassium, and magnesium into cells",
+        text: "Hyperkalaemia from the rapid cellular release of potassium and magnesium as feeding is started after starvation",
       },
       {
         id: "b",
-        text: "Hyperkalaemia from the rapid cellular release of potassium and magnesium as feeding is started after starvation",
+        text: "Refeeding syndrome: the carbohydrate load triggers insulin release, which drives phosphate, potassium, and magnesium into cells",
       },
       {
         id: "c",
@@ -413,9 +413,9 @@ export const NUTR_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Hypoglycaemia from the insulin surge, which depletes serum glucose and causes tremor, confusion, and arrhythmia",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
-      "Refeeding syndrome is a potentially fatal metabolic complication occurring when malnourished, starved individuals are refed too rapidly. During prolonged starvation, the body shifts from carbohydrate to fat/ketone metabolism, and total-body electrolyte stores (especially phosphorus, potassium, and magnesium) become profoundly depleted despite near-normal serum levels. Reintroducing carbohydrates triggers a massive surge of endogenous insulin. Insulin stimulates intracellular uptake of glucose, phosphate, potassium, and magnesium. Rapid intracellular phosphorylation of glucose rapidly consumes remaining extracellular phosphate, causing severe hypophosphatemia, impaired ATP production, diaphragmatic weakness, hemolytic anemia, and lethal arrhythmias. Why the other options fail: option b reverses the electrolyte direction. Insulin drives potassium into cells, so refeeding produces hypokalaemia, not hyperkalaemia, and it does not explain a phosphorus of 0.4 mmol/L. Option c is a genuine hazard of refeeding and explains the confusion, but thiamine deficiency does not lower serum phosphate and the stem's laboratory value is the discriminator. Option d names the right hormone and the wrong substrate; glucose is being driven into cells and is generally normal or high, while the measured deficit is phosphate.",
+      "Refeeding syndrome is a potentially fatal metabolic complication occurring when malnourished, starved individuals are refed too rapidly. During prolonged starvation, the body shifts from carbohydrate to fat/ketone metabolism, and total-body electrolyte stores (especially phosphorus, potassium, and magnesium) become profoundly depleted despite near-normal serum levels. Reintroducing carbohydrates triggers a massive surge of endogenous insulin. Insulin stimulates intracellular uptake of glucose, phosphate, potassium, and magnesium. Rapid intracellular phosphorylation of glucose rapidly consumes remaining extracellular phosphate, causing severe hypophosphatemia, impaired ATP production, diaphragmatic weakness, hemolytic anemia, and lethal arrhythmias. Why the other options fail: option a reverses the electrolyte direction. Insulin drives potassium into cells, so refeeding produces hypokalaemia, not hyperkalaemia, and it does not explain a phosphorus of 0.4 mmol/L. Option c is a genuine hazard of refeeding and explains the confusion, but thiamine deficiency does not lower serum phosphate and the stem's laboratory value is the discriminator. Option d names the right hormone and the wrong substrate; glucose is being driven into cells and is generally normal or high, while the measured deficit is phosphate.",
     strategy: "Refeeding syndrome: Rapid feeding -> insulin surge -> intracellular shift of phosphate, potassium, magnesium -> profound hypophosphatemia & cardiac arrest. 'Start low, go slow' + thiamine.",
     difficulty: "hard",
     tags: ["nutrition", "refeeding-syndrome", "hypophosphatemia", "fluid-electrolyte", "critical-care"],
@@ -428,24 +428,24 @@ export const NUTR_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Vitamin A deficiency causing xerophthalmia; give 200,000 IU orally on day 1, day 2, and again at least 2 weeks later",
-      },
-      {
-        id: "b",
         text: "Vitamin A deficiency; give a single 200,000 IU dose and repeat only if night blindness persists after 6 weeks",
       },
       {
-        id: "c",
+        id: "b",
         text: "Riboflavin deficiency; give oral riboflavin 5 mg daily until the Bitot's spots have resolved completely",
+      },
+      {
+        id: "c",
+        text: "Vitamin A deficiency causing xerophthalmia; give 200,000 IU orally on day 1, day 2, and again at least 2 weeks later",
       },
       {
         id: "d",
         text: "Vitamin A deficiency; apply topical antibiotic ointment to the plaques and review the child in 4 weeks",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
-      "Vitamin A is essential for rhodopsin synthesis in retinal rod cells (for scotopic/night vision) and for maintaining epithelial integrity of ocular surfaces. Deficiency causes xerophthalmia: Stage XN (night blindness), Stage X1A (conjunctival xerosis), Stage X1B (Bitot's spots — keratinized epithelial debris on the bulbar conjunctiva), Stage X2 (corneal xerosis), and Stage X3 (corneal ulceration and keratomalacia, resulting in irreversible blindness). WHO treatment protocol for clinical xerophthalmia: 200,000 IU orally (> 12 months; 100,000 IU for infants 6–11 months) immediately on Day 1, Day 2, and Day 14. Why the other options fail: option b gets the drug and the diagnosis right and the schedule wrong. The WHO regimen is three doses, on day 1, day 2, and day 14, because hepatic stores are empty and a single dose does not restore them before the cornea is at risk. Option c treats the eye as a local riboflavin problem; Bitot's spots are keratinised debris of vitamin A deficiency, and riboflavin does not address the corneal melting risk. Option d manages the plaque as an infection, but topical ointment does nothing for the systemic deficiency driving it and the four-week delay risks keratomalacia.",
+      "Vitamin A is essential for rhodopsin synthesis in retinal rod cells (for scotopic/night vision) and for maintaining epithelial integrity of ocular surfaces. Deficiency causes xerophthalmia: Stage XN (night blindness), Stage X1A (conjunctival xerosis), Stage X1B (Bitot's spots — keratinized epithelial debris on the bulbar conjunctiva), Stage X2 (corneal xerosis), and Stage X3 (corneal ulceration and keratomalacia, resulting in irreversible blindness). WHO treatment protocol for clinical xerophthalmia: 200,000 IU orally (> 12 months; 100,000 IU for infants 6–11 months) immediately on Day 1, Day 2, and Day 14. Why the other options fail: option a gets the drug and the diagnosis right and the schedule wrong. The WHO regimen is three doses, on day 1, day 2, and day 14, because hepatic stores are empty and a single dose does not restore them before the cornea is at risk. Option b treats the eye as a local riboflavin problem; Bitot's spots are keratinised debris of vitamin A deficiency, and riboflavin does not address the corneal melting risk. Option d manages the plaque as an infection, but topical ointment does nothing for the systemic deficiency driving it and the four-week delay risks keratomalacia.",
     strategy: "Vitamin A deficiency (Xerophthalmia): Night blindness + Bitot spots -> WHO high-dose Vitamin A (Day 1, Day 2, and 2 weeks later) prevents permanent corneal melting.",
     difficulty: "medium",
     tags: ["nutrition", "vitamin-a", "xerophthalmia", "bitot-spots", "child-health"],
@@ -458,24 +458,24 @@ export const NUTR_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Pellagra from niacin or tryptophan deficiency; the 4 Ds are dermatitis, diarrhoea, dementia, and death",
-      },
-      {
-        id: "b",
         text: "Scurvy from vitamin C deficiency, in which perifollicular haemorrhage, gum disease, and poor wound healing accompany the rash",
       },
       {
-        id: "c",
+        id: "b",
         text: "Beriberi from thiamine deficiency, which produces dermatitis, diarrhoea, and dementia in alcohol-dependent clients",
       },
       {
-        id: "d",
+        id: "c",
         text: "Riboflavin deficiency, which produces a symmetrical photosensitive rash on sun-exposed skin with glossitis",
       },
+      {
+        id: "d",
+        text: "Pellagra from niacin or tryptophan deficiency; the 4 Ds are dermatitis, diarrhoea, dementia, and death",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
-      "Pellagra is caused by a severe deficiency of niacin (nicotinic acid / vitamin B3) or its precursor amino acid tryptophan. It is historically associated with diets based almost exclusively on un-nixtamalized maize or chronic alcoholism with poor dietary intake. The hallmark is the classic '4 Ds': (1) Photosensitive Dermatitis (symmetrical, well-demarcated hyperkeratotic rash with burning sensation, classically encircling the neck as 'Casal necklace'); (2) Diarrhea (frequent watery stools, malabsorption, glossitis); (3) Dementia (headache, insomnia, depression, confusion, hallucinations); and (4) Death if untreated. Prompt administration of oral nicotinamide cures the condition. Why the other options fail: option b is tempting because the client is an alcoholic with a poor diet, but scurvy produces perifollicular haemorrhage and gingival disease rather than Casal's necklace, and it has no 4 Ds mnemonic. Option c draws on the same alcohol history and sounds close, yet thiamine deficiency causes peripheral neuropathy and high-output cardiac failure, not a photosensitive rash with diarrhoea and dementia. Option d gets the rash distribution right and the vitamin wrong: riboflavin deficiency causes angular stomatitis and a scrotal or nasolabial dermatitis, not the collar-line plaque the stem describes.",
+      "Pellagra is caused by a severe deficiency of niacin (nicotinic acid / vitamin B3) or its precursor amino acid tryptophan. It is historically associated with diets based almost exclusively on un-nixtamalized maize or chronic alcoholism with poor dietary intake. The hallmark is the classic '4 Ds': (1) Photosensitive Dermatitis (symmetrical, well-demarcated hyperkeratotic rash with burning sensation, classically encircling the neck as 'Casal necklace'); (2) Diarrhea (frequent watery stools, malabsorption, glossitis); (3) Dementia (headache, insomnia, depression, confusion, hallucinations); and (4) Death if untreated. Prompt administration of oral nicotinamide cures the condition. Why the other options fail: option a is tempting because the client is an alcoholic with a poor diet, but scurvy produces perifollicular haemorrhage and gingival disease rather than Casal's necklace, and it has no 4 Ds mnemonic. Option b draws on the same alcohol history and sounds close, yet thiamine deficiency causes peripheral neuropathy and high-output cardiac failure, not a photosensitive rash with diarrhoea and dementia. Option c gets the rash distribution right and the vitamin wrong: riboflavin deficiency causes angular stomatitis and a scrotal or nasolabial dermatitis, not the collar-line plaque the stem describes.",
     strategy: "Pellagra triad/tetrad: Niacin (B3) deficiency -> 4 Ds: Dermatitis (Casal's necklace), Diarrhea, Dementia, Death. Rapid response to nicotinamide.",
     difficulty: "easy",
     tags: ["nutrition", "pellagra", "niacin-b3", "4-ds", "casals-necklace"],
@@ -518,11 +518,11 @@ export const NUTR_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Aspirate gastric fluid and confirm pH 5.5 or below, with initial placement checked by X-ray, and keep the head of the bed at 30 to 45 degrees",
+        text: "Confirm placement with the auscultatory whoosh test, and keep the head of the bed flat during and after the feed",
       },
       {
         id: "b",
-        text: "Confirm placement with the auscultatory whoosh test, and keep the head of the bed flat during and after the feed",
+        text: "Aspirate gastric fluid and confirm pH 5.5 or below, with initial placement checked by X-ray, and keep the head of the bed at 30 to 45 degrees",
       },
       {
         id: "c",
@@ -533,9 +533,9 @@ export const NUTR_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Confirm by X-ray before every feed, and elevate the head of the bed to 15 degrees during the infusion",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
-      "Aspiration pneumonia is a major, preventable complication of enteral feeding. Bedside placement confirmation standards: Testing the pH of aspirated fluid (gastric aspirate is acidic, with a pH <= 5.5, whereas respiratory or intestinal secretions typically have a pH >= 6.0–7.0) is the validated bedside standard; abdominal X-ray is the gold standard for initial placement. The auscultatory 'whoosh test' (air insufflation) is unreliable and dangerous because air sounds transmit clearly from the pleural space, bronchus, or esophagus, leading to fatal pulmonary infusion. To minimize aspiration, the head of the bed must remain elevated 30–45 degrees during and for 1 hour after feeding. Why the other options fail: option b is retained practice in many units, which is exactly why it is a good distractor; insufflated air transmits from the pleura and bronchus as readily as from the stomach, so the whoosh test cannot distinguish oesophageal or pulmonary placement and has caused fatal intrapulmonary infusion. Option c substitutes colour for pH, but bile staining is neither sensitive nor specific and says nothing about whether the tip is in the airway. Option d is right about X-ray for initial placement and wrong about doing it before every feed, and 15 degrees is too low to protect against aspiration.",
+      "Aspiration pneumonia is a major, preventable complication of enteral feeding. Bedside placement confirmation standards: Testing the pH of aspirated fluid (gastric aspirate is acidic, with a pH <= 5.5, whereas respiratory or intestinal secretions typically have a pH >= 6.0–7.0) is the validated bedside standard; abdominal X-ray is the gold standard for initial placement. The auscultatory 'whoosh test' (air insufflation) is unreliable and dangerous because air sounds transmit clearly from the pleural space, bronchus, or esophagus, leading to fatal pulmonary infusion. To minimize aspiration, the head of the bed must remain elevated 30–45 degrees during and for 1 hour after feeding. Why the other options fail: option a is retained practice in many units, which is exactly why it is a good distractor; insufflated air transmits from the pleura and bronchus as readily as from the stomach, so the whoosh test cannot distinguish oesophageal or pulmonary placement and has caused fatal intrapulmonary infusion. Option c substitutes colour for pH, but bile staining is neither sensitive nor specific and says nothing about whether the tip is in the airway. Option d is right about X-ray for initial placement and wrong about doing it before every feed, and 15 degrees is too low to protect against aspiration.",
     strategy: "NG tube feeding safety: Verify position via aspirate pH <= 5.5 (NEVER the whoosh test). Keep head of bed elevated 30-45 degrees to prevent fatal aspiration.",
     difficulty: "medium",
     tags: ["nutrition", "enteral-feeding", "ng-tube-verification", "ph-testing", "aspiration-prevention"],
@@ -548,24 +548,24 @@ export const NUTR_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Hang 10% dextrose in water at the same rate, because the constant insulin drive will cause rebound hypoglycaemia",
-      },
-      {
-        id: "b",
         text: "Hang 0.9% sodium chloride at the same rate until the new bag arrives, then resume the TPN as prescribed",
       },
       {
-        id: "c",
+        id: "b",
         text: "Pause the infusion and restart the new TPN at half the previous rate once it arrives from the pharmacy",
+      },
+      {
+        id: "c",
+        text: "Hang 10% dextrose in water at the same rate, because the constant insulin drive will cause rebound hypoglycaemia",
       },
       {
         id: "d",
         text: "Hang 5% dextrose at the same rate and monitor capillary glucose hourly until the new bag is available",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
-      "TPN solutions contain high concentrations of hypertonic glucose (typically 15–25% dextrose), stimulating constant, high-level endogenous insulin secretion from pancreatic beta cells. If a TPN infusion is suddenly stopped or interrupted without tapering, circulating hyperinsulinaemia persists in the absence of exogenous glucose supply, causing rapid and severe rebound hypoglycemia (diaphoresis, tremors, altered mental status, seizures, and coma). If a TPN bag runs dry and the next bag is unavailable, the nurse must immediately hang 10% Dextrose in Water (D10W) at the existing TPN rate until the new TPN solution arrives. Why the other options fail: option b maintains the line and the volume but not the glucose, and saline does nothing to blunt a hyperinsulinaemic state. Option c is the most dangerous of the three: stopping the infusion abruptly produces the same rebound hypoglycaemia, and restarting at half rate prolongs it. Option d is the strongest distractor because 5% dextrose is a dextrose solution, but it delivers half the glucose of the 10% bag the client was receiving, so the same insulin drive outpaces the replacement.",
+      "TPN solutions contain high concentrations of hypertonic glucose (typically 15–25% dextrose), stimulating constant, high-level endogenous insulin secretion from pancreatic beta cells. If a TPN infusion is suddenly stopped or interrupted without tapering, circulating hyperinsulinaemia persists in the absence of exogenous glucose supply, causing rapid and severe rebound hypoglycemia (diaphoresis, tremors, altered mental status, seizures, and coma). If a TPN bag runs dry and the next bag is unavailable, the nurse must immediately hang 10% Dextrose in Water (D10W) at the existing TPN rate until the new TPN solution arrives. Why the other options fail: option a maintains the line and the volume but not the glucose, and saline does nothing to blunt a hyperinsulinaemic state. Option b is the most dangerous of the three: stopping the infusion abruptly produces the same rebound hypoglycaemia, and restarting at half rate prolongs it. Option d is the strongest distractor because 5% dextrose is a dextrose solution, but it delivers half the glucose of the 10% bag the client was receiving, so the same insulin drive outpaces the replacement.",
     strategy: "TPN interruption protocol: If TPN is interrupted or delayed, hang 10% Dextrose in Water (D10W) immediately to prevent rebound hypoglycemia.",
     difficulty: "easy",
     tags: ["nutrition", "tpn", "rebound-hypoglycemia", "parenteral-nutrition", "central-venous-line"],
@@ -578,24 +578,24 @@ export const NUTR_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Universal salt iodization, mandatory fortification of all edible commercial salt with potassium iodate",
-      },
-      {
-        id: "b",
         text: "Universal fortification of wheat flour with iodine, supported by annual iodized oil capsules for schoolchildren",
       },
       {
-        id: "c",
+        id: "b",
         text: "Annual oral iodine supplementation for all women of childbearing age, delivered through antenatal clinics",
       },
       {
-        id: "d",
+        id: "c",
         text: "Iodized oil injection campaigns for schoolchildren every 2 years, with no change to household salt",
       },
+      {
+        id: "d",
+        text: "Universal salt iodization, mandatory fortification of all edible commercial salt with potassium iodate",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
-      "Iodine is an essential trace element required for thyroid hormone (thyroxine [T4] and triiodothyronine [T3]) synthesis. Iodine Deficiency Disorders (IDD) represent the single greatest cause of preventable brain damage and mental impairment worldwide. Manifestations include endemic goiter, hypothyroidism, impaired cognitive development in children, increased pregnancy loss, stillbirths, and congenital iodine deficiency syndrome (cretinism: severe irreversible cognitive impairment, deaf-mutism, spastic diplegia, and dwarfism). Universal Salt Iodization (USI) is recognized by WHO as the most equitable, cost-effective, and sustainable public health intervention to eliminate IDD globally. Why the other options fail: option b widens the vehicle to a food that is not eaten by everyone in the same quantity as salt and leaves the poorest households uncovered, which is the reason flour fortification is neither sufficient nor the chosen strategy. Option c reaches only women who attend antenatal services, the coverage gap salt iodization exists to close, and oral iodine is not the delivery route used in mass programmes. Option d is a repeated injection campaign that reaches children after the critical neurodevelopmental window has already passed and leaves household salt unfortified.",
+      "Iodine is an essential trace element required for thyroid hormone (thyroxine [T4] and triiodothyronine [T3]) synthesis. Iodine Deficiency Disorders (IDD) represent the single greatest cause of preventable brain damage and mental impairment worldwide. Manifestations include endemic goiter, hypothyroidism, impaired cognitive development in children, increased pregnancy loss, stillbirths, and congenital iodine deficiency syndrome (cretinism: severe irreversible cognitive impairment, deaf-mutism, spastic diplegia, and dwarfism). Universal Salt Iodization (USI) is recognized by WHO as the most equitable, cost-effective, and sustainable public health intervention to eliminate IDD globally. Why the other options fail: option a widens the vehicle to a food that is not eaten by everyone in the same quantity as salt and leaves the poorest households uncovered, which is the reason flour fortification is neither sufficient nor the chosen strategy. Option b reaches only women who attend antenatal services, the coverage gap salt iodization exists to close, and oral iodine is not the delivery route used in mass programmes. Option c is a repeated injection campaign that reaches children after the critical neurodevelopmental window has already passed and leaves household salt unfortified.",
     strategy: "Public health nutrition: Universal Salt Iodization is the gold-standard population intervention preventing endemic goiter, cretinism, and cognitive deficits.",
     difficulty: "easy",
     tags: ["nutrition", "public-health", "universal-salt-iodization", "iodine-deficiency", "cretinism"],
