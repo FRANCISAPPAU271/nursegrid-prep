@@ -8,24 +8,24 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Inspect the conjunctivae, oral mucous membranes, and lips for ashen-grey or blue discoloration, and examine the palms and nail beds rather than relying on general facial skin tone",
-      },
-      {
-        id: "b",
         text: "Assess the anterior forearm in ordinary room light, since this site is least exposed to the sun and gives the truest reading of the underlying haemoglobin",
       },
       {
-        id: "c",
+        id: "b",
         text: "Look for bright pink flushing over the abdomen, because the increased cutaneous blood flow of sepsis is most visible where the skin is thinnest",
       },
       {
-        id: "d",
+        id: "c",
         text: "Record that cyanosis and pallor cannot be assessed at all in this skin tone, and rely on the arterial blood gas and serum lactate to detect hypoperfusion",
       },
+      {
+        id: "d",
+        text: "Inspect the conjunctivae, oral mucous membranes, and lips for ashen-grey or blue discoloration, and examine the palms and nail beds rather than relying on general facial skin tone",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
-      "In darkly pigmented skin, high epidermal melanin concentrations mask the subtle cutaneous color changes seen in lighter skin. Pallor presents not as obvious whiteness, but as a dull, ashen-grey color in dark skin or a yellowish-brown tinge in olive/brown skin. Cyanosis in dark-skinned individuals is best detected by inspecting areas of least pigmentation and rich capillary vascularity: the conjunctivae, buccal mucosa, hard palate, tongue, lips, and palmar surfaces of hands and soles of feet. Additionally, the nurse must palpate the skin for localized warmth, edema, and induration rather than relying solely on erythema. Why the other options fail: option b is how blood pressure and rashes are often checked, but the forearm carries the same melanin as the face and gives no better signal. Option c looks for flushing rather than for the ashen or blue change the question asks about, and flushing in sepsis is inconsistent. Option d is the belief the item exists to correct: central and mucosal surfaces are assessable in every skin tone, and relying on the gas misses the hours before lactate rises.",
+      "In darkly pigmented skin, high epidermal melanin concentrations mask the subtle cutaneous color changes seen in lighter skin. Pallor presents not as obvious whiteness, but as a dull, ashen-grey color in dark skin or a yellowish-brown tinge in olive/brown skin. Cyanosis in dark-skinned individuals is best detected by inspecting areas of least pigmentation and rich capillary vascularity: the conjunctivae, buccal mucosa, hard palate, tongue, lips, and palmar surfaces of hands and soles of feet. Additionally, the nurse must palpate the skin for localized warmth, edema, and induration rather than relying solely on erythema. Why the other options fail: option a is how blood pressure and rashes are often checked, but the forearm carries the same melanin as the face and gives no better signal. Option b looks for flushing rather than for the ashen or blue change the question asks about, and flushing in sepsis is inconsistent. Option c is the belief the item exists to correct: central and mucosal surfaces are assessable in every skin tone, and relying on the gas misses the hours before lactate rises.",
     strategy: "Dark skin assessment: Inspect mucous membranes (buccal mucosa, tongue, conjunctivae) and palms/soles for pallor/cyanosis; palpate for warmth/induration.",
     difficulty: "easy",
     tags: ["integumentary", "skin-assessment", "dark-skin", "cyanosis", "pallor"],
@@ -38,11 +38,11 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Papule: A raised, fluid-filled lesion more than 1 cm across, sitting deep in the subcutaneous fat and collapsing when pressure is applied",
+        text: "Macule: A flat, non-palpable, circumscribed area of skin color change measuring less than 1 cm in diameter without elevation or depression",
       },
       {
         id: "b",
-        text: "Macule: A flat, non-palpable, circumscribed area of skin color change measuring less than 1 cm in diameter without elevation or depression",
+        text: "Papule: A raised, fluid-filled lesion more than 1 cm across, sitting deep in the subcutaneous fat and collapsing when pressure is applied",
       },
       {
         id: "c",
@@ -53,9 +53,9 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Wheal: A permanent cavity that extends through the dermis into the underlying muscle, leaving a depressed scar once it closes",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "a",
     rationale:
-      "Primary skin lesion taxonomy is fundamental to clinical dermatology: (1) A macule is a flat, non-palpable change in skin color < 1 cm (e.g., freckle, petechia); if > 1 cm, it is a patch. (2) A papule is an elevated, palpable, solid mass < 1 cm (e.g., mole, wart); if > 1 cm, it is a plaque. (3) A vesicle is an elevated cavity filled with clear serous fluid <= 0.5–1 cm (e.g., herpes simplex); if > 1 cm, it is a bulla (blister). (4) A wheal is a transient, raised, edematous, erythematous area with irregular borders caused by dermal fluid extravasation (e.g., urticaria/hives). Why the other options fail: option a attaches a fluid-filled cavity and a deep location to a papule, which is solid and superficial, and a fluid-filled lesion over 1 cm is a bulla rather than a papule. Option c describes a scar or a nodule, not a blister; a bulla is defined by being fluid-filled and larger than 1 cm. Option d describes an ulcer reaching muscle, whereas a wheal is a transient oedematous swelling of the dermis that resolves without scarring.",
+      "Primary skin lesion taxonomy is fundamental to clinical dermatology: (1) A macule is a flat, non-palpable change in skin color < 1 cm (e.g., freckle, petechia); if > 1 cm, it is a patch. (2) A papule is an elevated, palpable, solid mass < 1 cm (e.g., mole, wart); if > 1 cm, it is a plaque. (3) A vesicle is an elevated cavity filled with clear serous fluid <= 0.5–1 cm (e.g., herpes simplex); if > 1 cm, it is a bulla (blister). (4) A wheal is a transient, raised, edematous, erythematous area with irregular borders caused by dermal fluid extravasation (e.g., urticaria/hives). Why the other options fail: option b attaches a fluid-filled cavity and a deep location to a papule, which is solid and superficial, and a fluid-filled lesion over 1 cm is a bulla rather than a papule. Option c describes a scar or a nodule, not a blister; a bulla is defined by being fluid-filled and larger than 1 cm. Option d describes an ulcer reaching muscle, whereas a wheal is a transient oedematous swelling of the dermis that resolves without scarring.",
     strategy: "Lesion taxonomy: Macule = flat color change < 1 cm. Papule = solid raised < 1 cm. Vesicle = fluid blister < 1 cm. Bulla = fluid blister > 1 cm.",
     difficulty: "easy",
     tags: ["integumentary", "dermatology", "skin-lesions", "macule", "taxonomy"],
@@ -76,16 +76,16 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Debride the non-viable slough and manage the heavy exudate with an absorbent dressing, keeping the bed moist while protecting the surrounding skin from maceration",
+        text: "Apply a hydrocolloid sheet and review at seven days, since an occlusive dressing softens slough and absorbs exudate without any need for active debridement",
       },
       {
         id: "d",
-        text: "Apply a hydrocolloid sheet and review at seven days, since an occlusive dressing softens slough and absorbs exudate without any need for active debridement",
+        text: "Debride the non-viable slough and manage the heavy exudate with an absorbent dressing, keeping the bed moist while protecting the surrounding skin from maceration",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "d",
     rationale:
-      "The TIME framework optimizes the chronic wound microenvironment: (1) Tissue non-viable: Slough and necrotic eschar promote bacterial biofilm and must be debrided (autolytic, enzymatic, sharp, or mechanical); (2) Infection/Inflammation: Control bacterial burden and biofilm; (3) Moisture imbalance: Chronic wounds heal fastest in a physiological moist (not wet, not dry) environment; excessive exudate macerates surrounding skin and contains destructive metalloproteinases, requiring absorbent dressings (calcium alginates, hydrofibers, foam); and (4) Edge advancement: Epidermal cells require a healthy granulating matrix to migrate across wound margins. Why the other options fail: option a addresses neither letter of the framework: slough left in place harbours biofilm, and a dry weekly dressing violates moisture balance in a heavily exuding wound. Option b dries the bed out to loosen slough, which is the opposite of moist wound healing, and hydrogen peroxide is cytotoxic to the fibroblasts trying to close the wound. Option d is the nearest miss: hydrocolloid does soften slough autolytically, but it cannot cope with heavy exudate and will leak and macerate the peri-wound skin.",
+      "The TIME framework optimizes the chronic wound microenvironment: (1) Tissue non-viable: Slough and necrotic eschar promote bacterial biofilm and must be debrided (autolytic, enzymatic, sharp, or mechanical); (2) Infection/Inflammation: Control bacterial burden and biofilm; (3) Moisture imbalance: Chronic wounds heal fastest in a physiological moist (not wet, not dry) environment; excessive exudate macerates surrounding skin and contains destructive metalloproteinases, requiring absorbent dressings (calcium alginates, hydrofibers, foam); and (4) Edge advancement: Epidermal cells require a healthy granulating matrix to migrate across wound margins. Why the other options fail: option a addresses neither letter of the framework: slough left in place harbours biofilm, and a dry weekly dressing violates moisture balance in a heavily exuding wound. Option b dries the bed out to loosen slough, which is the opposite of moist wound healing, and hydrogen peroxide is cytotoxic to the fibroblasts trying to close the wound. Option c is the nearest miss: hydrocolloid does soften slough autolytically, but it cannot cope with heavy exudate and will leak and macerate the peri-wound skin.",
     strategy: "TIME wound care: Non-viable slough requires debridement + excess exudate requires absorbent dressing to balance moisture and prevent maceration.",
     difficulty: "medium",
     tags: ["integumentary", "wound-care", "time-framework", "slough", "exudate-management"],
@@ -106,16 +106,16 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Unstageable pressure injury",
+        text: "Stage 2 pressure injury",
       },
       {
         id: "d",
-        text: "Stage 2 pressure injury",
+        text: "Unstageable pressure injury",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "c",
     rationale:
-      "According to NPUAP/EPUAP staging: Stage 1 is intact skin with localized non-blanchable erythema (or localized warmth, firmness, or discoloration in dark skin). Stage 2 is partial-thickness loss of skin with exposed dermis, presenting as a shallow open ulcer with a viable, red or pink, moist wound bed without slough, eschar, or granulation tissue, OR presenting as an intact or open/ruptured serum-filled blister. Stage 3 involves full-thickness skin loss with visible adipose tissue and granulation; Stage 4 involves exposed bone, tendon, or muscle. Unstageable occurs when slough or eschar completely obscures the base. Why the other options fail: option a is intact skin with non-blanchable erythema and no loss of skin, which is not the shallow open wound described. Option b extends through the dermis into subcutaneous fat, which this wound does not. Option c cannot be staged because slough or eschar obscures the base, when here the base is visible and pink.",
+      "According to NPUAP/EPUAP staging: Stage 1 is intact skin with localized non-blanchable erythema (or localized warmth, firmness, or discoloration in dark skin). Stage 2 is partial-thickness loss of skin with exposed dermis, presenting as a shallow open ulcer with a viable, red or pink, moist wound bed without slough, eschar, or granulation tissue, OR presenting as an intact or open/ruptured serum-filled blister. Stage 3 involves full-thickness skin loss with visible adipose tissue and granulation; Stage 4 involves exposed bone, tendon, or muscle. Unstageable occurs when slough or eschar completely obscures the base. Why the other options fail: option a is intact skin with non-blanchable erythema and no loss of skin, which is not the shallow open wound described. Option b extends through the dermis into subcutaneous fat, which this wound does not. Option d cannot be staged because slough or eschar obscures the base, when here the base is visible and pink.",
     strategy: "Pressure injury staging: Partial-thickness dermis loss with red/pink bed OR intact serum blister = Stage 2. Full-thickness into fat = Stage 3.",
     difficulty: "easy",
     tags: ["integumentary", "pressure-injury", "npuap-staging", "stage-2", "wound-care"],
@@ -128,11 +128,11 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Reposition every 2 hours with a 30-degree lateral tilt, use a pressure-redistributing mattress, float the heels on pillows, and keep the skin dry and barrier-protected",
+        text: "Reposition every four hours and massage the reddened prominences with a moisturising cream at each turn, since massage restores capillary blood flow to ischaemic tissue",
       },
       {
         id: "b",
-        text: "Reposition every four hours and massage the reddened prominences with a moisturising cream at each turn, since massage restores capillary blood flow to ischaemic tissue",
+        text: "Reposition every 2 hours with a 30-degree lateral tilt, use a pressure-redistributing mattress, float the heels on pillows, and keep the skin dry and barrier-protected",
       },
       {
         id: "c",
@@ -143,9 +143,9 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Reposition every two hours but keep the head of the bed elevated at 60 degrees for comfort, and use a donut cushion to lift the sacrum clear of the mattress",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
-      "A Braden score <= 12 signifies high risk for pressure injury development (scores range from 6 to 23; lower scores mean higher risk). Evidence-based prevention mandates: (1) frequent repositioning (at least every 2 hours in bed, every 1 hour in a chair); (2) using a 30-degree lateral tilted position (avoids direct vertical pressure on the trochanter and sacrum); (3) floating heels off the mattress using pillows under calves; (4) pressure-redistribution support surfaces; (5) moisture barriers for incontinence; and (6) avoiding elevation of the head of the bed > 30 degrees (reduces shear forces). Vigorously massaging bony prominences causes deep tissue capillary damage. Why the other options fail: option b doubles the interval and adds massage over an area that may already be ischaemic, which damages the deep capillary bed rather than restoring flow. Option c raises the head to 90 degrees, which converts pressure into shearing force through the sacrum, and a ring cushion concentrates pressure on the rim. Option d gets the interval right and then does both of the things that cause harm: sustained 60-degree elevation and a donut cushion.",
+      "A Braden score <= 12 signifies high risk for pressure injury development (scores range from 6 to 23; lower scores mean higher risk). Evidence-based prevention mandates: (1) frequent repositioning (at least every 2 hours in bed, every 1 hour in a chair); (2) using a 30-degree lateral tilted position (avoids direct vertical pressure on the trochanter and sacrum); (3) floating heels off the mattress using pillows under calves; (4) pressure-redistribution support surfaces; (5) moisture barriers for incontinence; and (6) avoiding elevation of the head of the bed > 30 degrees (reduces shear forces). Vigorously massaging bony prominences causes deep tissue capillary damage. Why the other options fail: option a doubles the interval and adds massage over an area that may already be ischaemic, which damages the deep capillary bed rather than restoring flow. Option c raises the head to 90 degrees, which converts pressure into shearing force through the sacrum, and a ring cushion concentrates pressure on the rim. Option d gets the interval right and then does both of the things that cause harm: sustained 60-degree elevation and a donut cushion.",
     strategy: "Pressure ulcer prevention: Reposition q2h + 30-degree tilt + float heels + pressure-relieving mattress. NEVER massage bony prominences or use donut rings.",
     difficulty: "easy",
     tags: ["integumentary", "braden-scale", "pressure-injury-prevention", "repositioning", "patient-safety"],
@@ -222,20 +222,20 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Reassure the family that singed nasal hair is a cosmetic finding, and treat the hoarseness with voice rest and warm fluids",
+        text: "Prepare immediately for endotracheal intubation before progressive laryngeal edema produces complete upper airway obstruction",
       },
       {
         id: "c",
-        text: "Recheck the arterial blood gas in 4 hours and call the anaesthetist if the stridor has worsened by then, to avoid an unnecessary tube",
+        text: "Reassure the family that singed nasal hair is a cosmetic finding, and treat the hoarseness with voice rest and warm fluids",
       },
       {
         id: "d",
-        text: "Prepare immediately for endotracheal intubation before progressive laryngeal edema produces complete upper airway obstruction",
+        text: "Recheck the arterial blood gas in 4 hours and call the anaesthetist if the stridor has worsened by then, to avoid an unnecessary tube",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "b",
     rationale:
-      "Physical findings of singed nasal hairs, facial burns, carbonaceous sputum, hoarseness, and STRIDOR are pathognomonic of acute thermal inhalation injury and impending upper airway compromise. Supraglottic thermal injury causes rapid, massive laryngeal and vocal cord edema that peaks within 12–24 hours. Once stridor appears, the airway lumen is critically narrowed; delayed intubation frequently becomes impossible due to anatomical distortion, necessitating emergency surgical cricothyroidotomy. Proactive, early endotracheal intubation is the definitive lifesaving priority. Why the other options fail: option a rests on the normal PaO2, which is the trap in the stem: oxygenation is preserved until the airway closes, so a normal gas does not exclude an impending obstruction. Option b treats two of the four warning signs as trivial. Option c is the classic delay: stridor means the lumen is already critically narrowed, and by the time it worsens the swelling can make intubation impossible, leaving cricothyroidotomy as the only route.",
+      "Physical findings of singed nasal hairs, facial burns, carbonaceous sputum, hoarseness, and STRIDOR are pathognomonic of acute thermal inhalation injury and impending upper airway compromise. Supraglottic thermal injury causes rapid, massive laryngeal and vocal cord edema that peaks within 12–24 hours. Once stridor appears, the airway lumen is critically narrowed; delayed intubation frequently becomes impossible due to anatomical distortion, necessitating emergency surgical cricothyroidotomy. Proactive, early endotracheal intubation is the definitive lifesaving priority. Why the other options fail: option a rests on the normal PaO2, which is the trap in the stem: oxygenation is preserved until the airway closes, so a normal gas does not exclude an impending obstruction. Option c treats two of the four warning signs as trivial. Option d is the classic delay: stridor means the lumen is already critically narrowed, and by the time it worsens the swelling can make intubation impossible, leaving cricothyroidotomy as the only route.",
     strategy: "Inhalation injury: Facial burns + soot + hoarseness/stridor = impending complete airway closure. Secure airway with IMMEDIATE intubation.",
     difficulty: "easy",
     tags: ["integumentary", "burns", "inhalation-injury", "airway-management", "stridor"],
@@ -282,20 +282,20 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Necrotizing fasciitis (a surgical emergency requiring immediate broad-spectrum IV antibiotics and emergency surgical debridement)",
+        text: "Contact dermatitis from a laundry detergent; stop the product and apply a topical corticosteroid to the affected leg",
       },
       {
         id: "c",
-        text: "Contact dermatitis from a laundry detergent; stop the product and apply a topical corticosteroid to the affected leg",
+        text: "Necrotizing fasciitis (a surgical emergency requiring immediate broad-spectrum IV antibiotics and emergency surgical debridement)",
       },
       {
         id: "d",
         text: "Venous stasis pigmentation with a superimposed ulcer; apply compression bandaging and refer to the leg ulcer clinic",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "c",
     rationale:
-      "Necrotizing fasciitis is a fulminant, rapidly progressive bacterial infection of the deep subcutaneous tissue and fascia with a mortality rate exceeding 25–40%. Cardinal warning signs distinguishing necrotizing fasciitis from benign cellulitis are: (1) severe, exquisite pain markedly OUT OF PROPORTION to superficial clinical findings; (2) rapid progression across marked skin margins within hours; (3) palpable subcutaneous crepitus (gas production from anaerobic pathogens); (4) bullae, skin necrosis, or dishwater-gray fluid discharge; and (5) early hemodynamic instability (septic shock). Immediate surgical fasciotomy and aggressive debridement are vital. Why the other options fail: option a names the right family of infection and the wrong depth: erysipelas is superficial, does not produce crepitus or bullae, and does not cause shock, so oral treatment at home would be fatal. Option c fits the erythema and none of the rest, and a steroid would suppress the only defence the tissue has. Option d is a chronic picture that develops over months, not an acute presentation with tachycardia, hypotension and gas in the tissues.",
+      "Necrotizing fasciitis is a fulminant, rapidly progressive bacterial infection of the deep subcutaneous tissue and fascia with a mortality rate exceeding 25–40%. Cardinal warning signs distinguishing necrotizing fasciitis from benign cellulitis are: (1) severe, exquisite pain markedly OUT OF PROPORTION to superficial clinical findings; (2) rapid progression across marked skin margins within hours; (3) palpable subcutaneous crepitus (gas production from anaerobic pathogens); (4) bullae, skin necrosis, or dishwater-gray fluid discharge; and (5) early hemodynamic instability (septic shock). Immediate surgical fasciotomy and aggressive debridement are vital. Why the other options fail: option a names the right family of infection and the wrong depth: erysipelas is superficial, does not produce crepitus or bullae, and does not cause shock, so oral treatment at home would be fatal. Option b fits the erythema and none of the rest, and a steroid would suppress the only defence the tissue has. Option d is a chronic picture that develops over months, not an acute presentation with tachycardia, hypotension and gas in the tissues.",
     strategy: "Necrotizing fasciitis: Pain out of proportion to skin signs + crepitus/bullae + shock = Surgical emergency. Immediate radical debridement.",
     difficulty: "medium",
     tags: ["integumentary", "skin-infections", "necrotizing-fasciitis", "septic-shock", "emergency-surgery"],
@@ -308,24 +308,24 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Impetigo spreads only by direct contact with the crusts, so the child can attend school provided the lesions are covered with a light bandage",
+        text: "Highly contagious: strict hand hygiene, separate towels, soak and remove crusts before mupirocin, and watch for tea-coloured urine (post-streptococcal GN)",
       },
       {
         id: "b",
-        text: "Scrub the crusts off with a loofah at each bath so the ointment reaches the skin, and keep the child home until every lesion has healed",
+        text: "Impetigo spreads only by direct contact with the crusts, so the child can attend school provided the lesions are covered with a light bandage",
       },
       {
         id: "c",
-        text: "Highly contagious: strict hand hygiene, separate towels, soak and remove crusts before mupirocin, and watch for tea-coloured urine (post-streptococcal GN)",
+        text: "Scrub the crusts off with a loofah at each bath so the ointment reaches the skin, and keep the child home until every lesion has healed",
       },
       {
         id: "d",
         text: "Impetigo is a self-limiting viral rash; keep the skin dry, avoid antibiotics, and return only if the child develops a fever or the rash spreads",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "a",
     rationale:
-      "Impetigo is a highly contagious superficial bacterial skin infection caused primarily by Staphylococcus aureus and Streptococcus pyogenes (Group A Strep). Lesions typically begin as fragile vesicles that rupture, releasing exudate that dries into characteristic 'honey-colored crusts'. Nursing care focuses on: (1) preventing transmission (contact precautions, hand hygiene, separate towels/bedding, keeping child home until 24 hours of antimicrobial therapy); (2) crust removal (soaking with warm soapy water before applying topical mupirocin 2%); and (3) monitoring for post-streptococcal glomerulonephritis (periorbital edema, gross hematuria/tea-colored urine, hypertension) 1–3 weeks post-infection. Why the other options fail: option b has the right instinct about crusts and the wrong method, since scrubbing spreads the exudate and breaks the skin further. Option d misclassifies a bacterial infection as viral and withholds the treatment that shortens it. Option a is the most tempting, because exclusion from school is genuinely no longer required after 24 hours of treatment, but the option drops the household measures and the renal follow-up that the question is asking for.",
+      "Impetigo is a highly contagious superficial bacterial skin infection caused primarily by Staphylococcus aureus and Streptococcus pyogenes (Group A Strep). Lesions typically begin as fragile vesicles that rupture, releasing exudate that dries into characteristic 'honey-colored crusts'. Nursing care focuses on: (1) preventing transmission (contact precautions, hand hygiene, separate towels/bedding, keeping child home until 24 hours of antimicrobial therapy); (2) crust removal (soaking with warm soapy water before applying topical mupirocin 2%); and (3) monitoring for post-streptococcal glomerulonephritis (periorbital edema, gross hematuria/tea-colored urine, hypertension) 1–3 weeks post-infection. Why the other options fail: option c has the right instinct about crusts and the wrong method, since scrubbing spreads the exudate and breaks the skin further. Option d misclassifies a bacterial infection as viral and withholds the treatment that shortens it. Option b is the most tempting, because exclusion from school is genuinely no longer required after 24 hours of treatment, but the option drops the household measures and the renal follow-up that the question is asking for.",
     strategy: "Impetigo management: Honey-colored crusts = highly contagious. Warm soak crusts + mupirocin ointment + monitor for tea-colored urine (PSGN).",
     difficulty: "easy",
     tags: ["integumentary", "pediatrics", "impetigo", "bacterial-infections", "psgn"],
@@ -346,16 +346,16 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Apply 5% permethrin from the neck down overnight, but delay treating the household contacts until the index child is symptom-free",
+        text: "Apply 5% permethrin from the neck down overnight for 8 to 14 hours, treat all household contacts at the same time, and hot-wash bedding used in the past 3 days",
       },
       {
         id: "d",
-        text: "Apply 5% permethrin from the neck down overnight for 8 to 14 hours, treat all household contacts at the same time, and hot-wash bedding used in the past 3 days",
+        text: "Apply 5% permethrin from the neck down overnight, but delay treating the household contacts until the index child is symptom-free",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "c",
     rationale:
-      "Scabies is an infestation caused by the microscopic mite Sarcoptes scabiei var. hominis. Mites burrow into the stratum corneum and deposit eggs/feces, triggering a delayed type IV hypersensitivity reaction characterized by severe nocturnal pruritus and pathognomonic linear burrows in interdigital web spaces, flexor wrists, axillae, umbilicus, and genitalia. Successful eradication mandates: (1) topical 5% permethrin cream applied from the jawline/neck down over the entire body (including under fingernails and between toes; in infants, the scalp and face are included) for 8–14 hours; (2) treating ALL household contacts simultaneously regardless of symptoms (incubation period is 4–6 weeks); and (3) hot-water laundering of linens. Why the other options fail: option a treats only what can be seen, but mites are present in clinically normal skin between burrows, and ten minutes is far short of the 8 to 14 hours needed for the cream to work. Option b ignores the four to six week incubation period, during which a contact is infectious without itching. Option c is the best of the three and still wrong on the one point that drives reinfestation: simultaneous treatment, because a delay simply re-infests the treated child.",
+      "Scabies is an infestation caused by the microscopic mite Sarcoptes scabiei var. hominis. Mites burrow into the stratum corneum and deposit eggs/feces, triggering a delayed type IV hypersensitivity reaction characterized by severe nocturnal pruritus and pathognomonic linear burrows in interdigital web spaces, flexor wrists, axillae, umbilicus, and genitalia. Successful eradication mandates: (1) topical 5% permethrin cream applied from the jawline/neck down over the entire body (including under fingernails and between toes; in infants, the scalp and face are included) for 8–14 hours; (2) treating ALL household contacts simultaneously regardless of symptoms (incubation period is 4–6 weeks); and (3) hot-water laundering of linens. Why the other options fail: option a treats only what can be seen, but mites are present in clinically normal skin between burrows, and ten minutes is far short of the 8 to 14 hours needed for the cream to work. Option b ignores the four to six week incubation period, during which a contact is infectious without itching. Option d is the best of the three and still wrong on the one point that drives reinfestation: simultaneous treatment, because a delay simply re-infests the treated child.",
     strategy: "Scabies eradication: 5% permethrin from neck down overnight (8-14 h) + treat ALL household contacts simultaneously + wash bedding in hot water.",
     difficulty: "easy",
     tags: ["integumentary", "scabies", "infestations", "permethrin", "contact-prevention"],
@@ -368,24 +368,24 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Bathe in lukewarm water for 10 minutes, pat damp, and apply a thick fragrance-free emollient within 3 minutes (the 'soak and seal' method)",
-      },
-      {
-        id: "b",
         text: "Bathe the child three times daily in hot soapy water and scrub the skin with a dry loofah, so that the scale is removed before the emollient is applied",
       },
       {
-        id: "c",
+        id: "b",
         text: "Keep the skin as dry as possible and avoid all moisturisers, because emollients trap bacteria in the lichenified plaques and worsen the eczema",
       },
       {
-        id: "d",
+        id: "c",
         text: "Give a daily dilute bleach bath and leave the skin to air dry completely before applying any topical corticosteroid to the raw creases",
       },
+      {
+        id: "d",
+        text: "Bathe in lukewarm water for 10 minutes, pat damp, and apply a thick fragrance-free emollient within 3 minutes (the 'soak and seal' method)",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
-      "Atopic dermatitis is characterized by epidermal skin barrier dysfunction (filaggrin deficiency), transepidermal water loss, and immune dysregulation ('the itch that rashes'). The cornerstone of maintenance therapy is the 'soak and seal' technique: (1) short lukewarm baths (not hot water, which strips natural lipids); (2) mild soap-free cleansers; (3) patting skin lightly so it remains slightly damp; and (4) liberal application of lipid-rich, fragrance-free emollients (ointments like petrolatum or thick creams) within 3 minutes of stepping out of the water to lock in hydration. Topical corticosteroids are reserved for acute inflammatory flares. Why the other options fail: option b uses heat and friction, both of which strip the lipid barrier and drive the itch-scratch cycle the plan exists to break. Option c inverts the treatment: emollients are the maintenance therapy, not a cause of infection. Option d borrows a real adjunct, dilute bleach bathing, and then air-dries the skin and jumps to a steroid, which skips the emollient that replaces the missing barrier.",
+      "Atopic dermatitis is characterized by epidermal skin barrier dysfunction (filaggrin deficiency), transepidermal water loss, and immune dysregulation ('the itch that rashes'). The cornerstone of maintenance therapy is the 'soak and seal' technique: (1) short lukewarm baths (not hot water, which strips natural lipids); (2) mild soap-free cleansers; (3) patting skin lightly so it remains slightly damp; and (4) liberal application of lipid-rich, fragrance-free emollients (ointments like petrolatum or thick creams) within 3 minutes of stepping out of the water to lock in hydration. Topical corticosteroids are reserved for acute inflammatory flares. Why the other options fail: option a uses heat and friction, both of which strip the lipid barrier and drive the itch-scratch cycle the plan exists to break. Option b inverts the treatment: emollients are the maintenance therapy, not a cause of infection. Option c borrows a real adjunct, dilute bleach bathing, and then air-dries the skin and jumps to a steroid, which skips the emollient that replaces the missing barrier.",
     strategy: "Eczema barrier repair: Soak and seal -> Lukewarm bath + pat damp + apply thick ointment/cream within 3 minutes. Avoid hot water and fragrances.",
     difficulty: "easy",
     tags: ["integumentary", "pediatrics", "atopic-dermatitis", "eczema", "skin-barrier"],
@@ -428,24 +428,24 @@ export const INTEG_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "A morbilliform drug exanthem; stop the cotrimoxazole, give an oral antihistamine, and review in the outpatient clinic in one week",
+        text: "TEN/SJS overlap; stop the sulfonamide immediately and transfer to a burns intensive care unit for fluid and wound management",
       },
       {
         id: "b",
-        text: "Staphylococcal scalded skin syndrome; start intravenous flucloxacillin and keep the skin moist with paraffin gauze until it re-epithelialises",
+        text: "A morbilliform drug exanthem; stop the cotrimoxazole, give an oral antihistamine, and review in the outpatient clinic in one week",
       },
       {
         id: "c",
-        text: "TEN/SJS overlap; stop the sulfonamide immediately and transfer to a burns intensive care unit for fluid and wound management",
+        text: "Staphylococcal scalded skin syndrome; start intravenous flucloxacillin and keep the skin moist with paraffin gauze until it re-epithelialises",
       },
       {
         id: "d",
         text: "Erythema multiforme major; continue the antibiotic, give systemic corticosteroids, and reassess the mucosal lesions daily on the ward",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "a",
     rationale:
-      "Stevens-Johnson Syndrome (SJS) and Toxic Epidermal Necrolysis (TEN) are life-threatening Severe Cutaneous Adverse Reactions (SCAR) characterized by widespread epidermal apoptosis and detachment triggered primarily by medications (sulfonamides, antiepileptics like carbamazepine/phenytoin, allopurinol, nevirapine). SJS involves < 10% TBSA epidermal detachment; SJS/TEN overlap involves 10–30% TBSA; TEN involves > 30% TBSA. Mucosal involvement (lips, oral cavity, eyes, genitalia) is present in > 90% of cases. A positive Nikolsky sign (sloughing of epidermis with light tangential shear) reflects epidermal-dermal cleavage. Immediate cessation of the causative drug and transfer to a specialized burn unit are vital. Why the other options fail: option a describes the common benign drug rash and misses mucosal erosion and a positive Nikolsky sign, either of which rules it out, and a week's outpatient review is far too slow. Option b is a real blistering disease but it is caused by staphylococcal toxin in young children, splits at the granular layer, and does not follow a sulfonamide. Option d keeps the culprit drug running, which is the single most dangerous thing to do in TEN.",
+      "Stevens-Johnson Syndrome (SJS) and Toxic Epidermal Necrolysis (TEN) are life-threatening Severe Cutaneous Adverse Reactions (SCAR) characterized by widespread epidermal apoptosis and detachment triggered primarily by medications (sulfonamides, antiepileptics like carbamazepine/phenytoin, allopurinol, nevirapine). SJS involves < 10% TBSA epidermal detachment; SJS/TEN overlap involves 10–30% TBSA; TEN involves > 30% TBSA. Mucosal involvement (lips, oral cavity, eyes, genitalia) is present in > 90% of cases. A positive Nikolsky sign (sloughing of epidermis with light tangential shear) reflects epidermal-dermal cleavage. Immediate cessation of the causative drug and transfer to a specialized burn unit are vital. Why the other options fail: option b describes the common benign drug rash and misses mucosal erosion and a positive Nikolsky sign, either of which rules it out, and a week's outpatient review is far too slow. Option c is a real blistering disease but it is caused by staphylococcal toxin in young children, splits at the granular layer, and does not follow a sulfonamide. Option d keeps the culprit drug running, which is the single most dangerous thing to do in TEN.",
     strategy: "SJS / TEN: Sulfonamide trigger + mucosal erosion + positive Nikolsky sign (epidermal sloughing). STOP DRUG IMMEDIATELY and treat like severe burns in ICU.",
     difficulty: "hard",
     tags: ["integumentary", "sjs-ten", "nikolsky-sign", "drug-reactions", "burn-icu"],

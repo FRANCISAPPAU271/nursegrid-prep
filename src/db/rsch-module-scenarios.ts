@@ -8,24 +8,24 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Research tests hypotheses to produce generalisable knowledge; QI improves processes and outcomes within one facility",
-      },
-      {
-        id: "b",
         text: "Research is always local and unpublished, while QI is always multicentre and generalisable",
       },
       {
-        id: "c",
+        id: "b",
         text: "Research needs board review only when it is funded, while QI never requires ethical oversight",
       },
       {
-        id: "d",
+        id: "c",
         text: "Research and QI differ only in name, and the same methods and approvals apply to both",
       },
+      {
+        id: "d",
+        text: "Research tests hypotheses to produce generalisable knowledge; QI improves processes and outcomes within one facility",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
-      "Nursing research is a systematic scientific inquiry designed to generate new generalizable knowledge, discover relationships, or test biological/behavioral hypotheses that can be applied beyond the local institution. Quality Improvement (QI), by contrast, uses established evidence and systematic data-guided activities to bring about immediate, practical improvements in local healthcare delivery processes and outcomes within a specific clinical setting. Research typically requires formal IRB ethical oversight (b); research is intended for dissemination (c); and they have distinct methodologies and governance (d). Why the other options fail: option b reverses the ethical requirement, because both research and QI can need review depending on risk. Option c makes publication the distinction, which is false. Option d collapses a real methodological and regulatory difference into a matter of naming.",
+      "Nursing research is a systematic scientific inquiry designed to generate new generalizable knowledge, discover relationships, or test biological/behavioral hypotheses that can be applied beyond the local institution. Quality Improvement (QI), by contrast, uses established evidence and systematic data-guided activities to bring about immediate, practical improvements in local healthcare delivery processes and outcomes within a specific clinical setting. Research typically requires formal IRB ethical oversight (b); research is intended for dissemination (c); and they have distinct methodologies and governance (d). Why the other options fail: option a reverses the ethical requirement, because both research and QI can need review depending on risk. Option b makes publication the distinction, which is false. Option c collapses a real methodological and regulatory difference into a matter of naming.",
     strategy: "Research vs. QI: Research generates new, generalizable knowledge; Quality Improvement optimizes local clinical processes using existing evidence.",
     difficulty: "easy",
     tags: ["research", "evidence-based-practice", "quality-improvement", "methodology", "leadership"],
@@ -162,20 +162,20 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Data saturation, the point at which further interviews yield no new themes",
+        text: "A type II statistical error, which arises when the sample is too small to detect an effect",
       },
       {
         id: "c",
-        text: "A type II statistical error, which arises when the sample is too small to detect an effect",
+        text: "Data saturation, the point at which further interviews yield no new themes",
       },
       {
         id: "d",
         text: "Cronbach alpha of 0.88, which shows the interview guide is internally consistent",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "c",
     rationale:
-      "In qualitative research, sample size is not determined by pre-study statistical mathematical formulas (power analysis). Instead, sampling continues until 'Data Saturation' (or informational redundancy) is achieved—the point at which gathering additional participant data no longer reveals new perspectives, properties, or themes. Statistical power (a), Type II errors (c), and Cronbach's alpha (d) are quantitative psychometric and inferential statistical concepts irrelevant to qualitative sampling closure. Why the other options fail: option a is a quantitative sample-size calculation. Option c is a statistical error about failing to detect an effect. Option d is a measure of internal consistency, not of thematic exhaustion.",
+      "In qualitative research, sample size is not determined by pre-study statistical mathematical formulas (power analysis). Instead, sampling continues until 'Data Saturation' (or informational redundancy) is achieved—the point at which gathering additional participant data no longer reveals new perspectives, properties, or themes. Statistical power (a), Type II errors (c), and Cronbach's alpha (d) are quantitative psychometric and inferential statistical concepts irrelevant to qualitative sampling closure. Why the other options fail: option a is a quantitative sample-size calculation. Option b is a statistical error about failing to detect an effect. Option d is a measure of internal consistency, not of thematic exhaustion.",
     strategy: "Qualitative research standard: Sample size is determined by Data Saturation—continuing interviews until no new themes or information emerge.",
     difficulty: "easy",
     tags: ["research", "qualitative-research", "data-saturation", "phenomenology", "sampling"],
@@ -192,20 +192,20 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Member checking, returning transcripts and themes to participants to confirm the findings",
+        text: "Cluster sampling of participants, so that each adolescent's account is weighted equally",
       },
       {
         id: "c",
-        text: "Cluster sampling of participants, so that each adolescent's account is weighted equally",
+        text: "Member checking, returning transcripts and themes to participants to confirm the findings",
       },
       {
         id: "d",
         text: "Prolonged engagement in the field, so that the researcher becomes a familiar presence",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "b",
     rationale:
-      "Member checking (also known as participant validation) is a core method used in qualitative research to establish Credibility (the qualitative parallel to internal validity). The researcher shares transcripts, analytic categories, or preliminary thematic findings with study participants to allow them to confirm whether the interpretations accurately and authentically represent their true lived realities. Randomization (a), cluster sampling (b), and regression (d) belong exclusively to quantitative statistical methods. Why the other options fail: option a blinds coders, which guards against bias but does not return findings to participants. Option c changes how participants are sampled. Option d extends time in the field, which is a different technique.",
+      "Member checking (also known as participant validation) is a core method used in qualitative research to establish Credibility (the qualitative parallel to internal validity). The researcher shares transcripts, analytic categories, or preliminary thematic findings with study participants to allow them to confirm whether the interpretations accurately and authentically represent their true lived realities. Randomization (a), cluster sampling (b), and regression (d) belong exclusively to quantitative statistical methods. Why the other options fail: option a blinds coders, which guards against bias but does not return findings to participants. Option b changes how participants are sampled. Option d extends time in the field, which is a different technique.",
     strategy: "Qualitative trustworthiness: Member checking involves sharing findings with participants to verify the accuracy of the researcher's interpretations.",
     difficulty: "easy",
     tags: ["research", "member-checking", "trustworthiness", "credibility", "qualitative-rigor"],
@@ -218,24 +218,24 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Stratified random sampling, with the roster divided into tiers and participants drawn at random from each",
+        text: "Purposive sampling, with key informants chosen from each region and type of hospital",
       },
       {
         id: "b",
-        text: "Quota sampling, with the researcher filling each regional tier to a set number by convenience",
+        text: "Stratified random sampling, with the roster divided into tiers and participants drawn at random from each",
       },
       {
         id: "c",
-        text: "Cluster sampling, with whole facilities selected at random and every nurse in them surveyed",
+        text: "Quota sampling, with the researcher filling each regional tier to a set number by convenience",
       },
       {
         id: "d",
-        text: "Purposive sampling, with key informants chosen from each region and type of hospital",
+        text: "Cluster sampling, with whole facilities selected at random and every nurse in them surveyed",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "a",
     rationale:
-      "Stratified random sampling is a probability sampling method in which the target population is first divided into mutually exclusive, homogeneous subgroups or strata (e.g., geographical regions, hospital tiers, clinical cadres), and random samples are drawn proportionally from each stratum. This ensures that smaller or minority sub-populations are adequately and representatively reflected in the final sample, minimizing sampling error. Snowball (a), convenience (b), and purposive (c) are non-probability sampling methods prone to severe selection bias. Why the other options fail: option b fills tiers by convenience rather than at random. Option c samples whole facilities rather than individuals within tiers. Option d selects informants deliberately rather than randomly.",
+      "Stratified random sampling is a probability sampling method in which the target population is first divided into mutually exclusive, homogeneous subgroups or strata (e.g., geographical regions, hospital tiers, clinical cadres), and random samples are drawn proportionally from each stratum. This ensures that smaller or minority sub-populations are adequately and representatively reflected in the final sample, minimizing sampling error. Snowball (a), convenience (b), and purposive (c) are non-probability sampling methods prone to severe selection bias. Why the other options fail: option c fills tiers by convenience rather than at random. Option d samples whole facilities rather than individuals within tiers. Option a selects informants deliberately rather than randomly.",
     strategy: "Sampling methods: Stratified random sampling divides the population into strata (subgroups) and randomly samples within each stratum to ensure representativeness.",
     difficulty: "medium",
     tags: ["research", "sampling-methods", "stratified-random-sampling", "probability-sampling", "bias-reduction"],
@@ -248,24 +248,24 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "It shows strong internal consistency, so the items correlate and measure the same construct",
-      },
-      {
-        id: "b",
         text: "It shows the scale is invalid, because alpha must be below 0.05 to be significant",
       },
       {
-        id: "c",
+        id: "b",
         text: "It shows an unacceptable error rate of 88%, so the tool needs revision",
+      },
+      {
+        id: "c",
+        text: "It shows strong internal consistency, so the items correlate and measure the same construct",
       },
       {
         id: "d",
         text: "It shows high content validity, because a high alpha means the items cover the construct",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
-      "Cronbach's alpha ($\alpha$) is a measure of internal consistency reliability for multi-item psychometric scales, evaluating the degree to which items that propose to measure the same general construct produce similar scores. A Cronbach's alpha of 0.70 to 0.79 is considered acceptable, 0.80 to 0.89 is good/strong, and $\ge 0.90$ is excellent. An alpha of 0.88 confirms strong internal reliability. It is not a p-value where $< 0.05$ is sought (b); it does not denote an error rate (c); and reliability does not automatically guarantee content validity (d), which evaluates whether items cover the full conceptual domain. Why the other options fail: option b applies a p-value threshold to a reliability coefficient. Option c misreads 0.88 as an error rate. Option d treats internal consistency as evidence of content coverage, which it is not.",
+      "Cronbach's alpha ($\alpha$) is a measure of internal consistency reliability for multi-item psychometric scales, evaluating the degree to which items that propose to measure the same general construct produce similar scores. A Cronbach's alpha of 0.70 to 0.79 is considered acceptable, 0.80 to 0.89 is good/strong, and $\ge 0.90$ is excellent. An alpha of 0.88 confirms strong internal reliability. It is not a p-value where $< 0.05$ is sought (b); it does not denote an error rate (c); and reliability does not automatically guarantee content validity (d), which evaluates whether items cover the full conceptual domain. Why the other options fail: option a applies a p-value threshold to a reliability coefficient. Option b misreads 0.88 as an error rate. Option d treats internal consistency as evidence of content coverage, which it is not.",
     strategy: "Psychometrics: Cronbach's alpha measures internal consistency reliability. Values $\ge 0.70\text{--}0.80$ indicate good-to-strong reliability.",
     difficulty: "medium",
     tags: ["research", "cronbachs-alpha", "reliability", "internal-consistency", "measurement-instruments"],
@@ -398,7 +398,7 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "250 is the incidence and 1,200 the prevalence, because incidence counts new cases and prevalence all existing cases",
+        text: "250 is the incidence and 1,200 the prevalence: incidence counts new cases, prevalence all existing",
       },
       {
         id: "b",
@@ -406,16 +406,16 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "250 is the incidence rate and 1,200 the cumulative incidence over the same period",
+        text: "250 is the incidence rate and 1,200 the cumulative incidence measured over the same period",
       },
       {
         id: "d",
-        text: "250 is the case fatality rate and 1,200 the attack rate among contacts of the cases",
+        text: "250 is the case fatality rate and 1,200 the attack rate among close household contacts",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "a",
     rationale:
-      "Incidence and Prevalence are fundamental epidemiological metrics: INCIDENCE refers to the number of NEW cases of a disease that develop in a population at risk during a specified time interval (here, 250 new TB cases in 2025). PREVALENCE refers to the TOTAL number of all existing cases (both new and pre-existing) in the population at a given time point or period (here, 1,200 total cases). Option c reverses these definitions; options a and d identify unrelated mortality or immunological parameters. Why the other options fail: option b reverses incidence and prevalence. Option c invents a cumulative measure for 1,200, which is the number under treatment at one time. Option d uses mortality and attack rates, which describe deaths and contacts.",
+      "Incidence and prevalence are fundamental epidemiological measures. INCIDENCE is the number of NEW cases arising in a population at risk during a stated period: here, 250 newly diagnosed cases in 2025. PREVALENCE is the TOTAL number of existing cases, new and old, alive with the disease at a point or over a period: here, 1,200 people under treatment during the year. The same population of 100,000 is the denominator, so 250 is an incidence and 1,200 a prevalence, not a rate expressed per population. Why the other options fail: option b swaps the two definitions and claims that prevalence counts new cases, which is the definition of incidence. Option c invents a cumulative incidence for 1,200, which is a count of existing cases rather than a measure of new ones. Option d uses mortality and contact measures, neither of which describes 250 new cases or 1,200 existing cases.",
     strategy: "Epidemiology: Incidence = NEW cases (inflow). Prevalence = ALL existing cases (total burden).",
     difficulty: "easy",
     tags: ["research", "epidemiology", "incidence", "prevalence", "biostatistics"],
@@ -432,20 +432,20 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "A type II error, failing to detect a real effect because the sample was too small",
+        text: "A sampling error, because the sample was not representative of the population",
       },
       {
         id: "c",
-        text: "A sampling error, because the sample was not representative of the population",
+        text: "A type II error, failing to detect a real effect because the sample was too small",
       },
       {
         id: "d",
         text: "A confounding error, because a third variable produced the apparent effect",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "b",
     rationale:
-      "In hypothesis testing: A TYPE I ERROR (alpha error, false positive) occurs when the researcher rejects the null hypothesis when the null hypothesis is actually true in reality (concluding that a treatment works when it is actually ineffective). A TYPE II ERROR (beta error, false negative) occurs when the researcher fails to reject the null hypothesis when it is actually false (concluding that a treatment does not work when it actually does, often due to inadequate sample size/power). Rejecting a true null hypothesis is a Type I error. Why the other options fail: option b is the error of missing a real effect, which did not happen here. Option c is about representativeness rather than inference. Option d invokes confounding, which the question excludes by stating the drug is inert.",
+      "In hypothesis testing: A TYPE I ERROR (alpha error, false positive) occurs when the researcher rejects the null hypothesis when the null hypothesis is actually true in reality (concluding that a treatment works when it is actually ineffective). A TYPE II ERROR (beta error, false negative) occurs when the researcher fails to reject the null hypothesis when it is actually false (concluding that a treatment does not work when it actually does, often due to inadequate sample size/power). Rejecting a true null hypothesis is a Type I error. Why the other options fail: option c is the error of missing a real effect, which did not happen here. Option b is about representativeness rather than inference. Option d invokes confounding, which the question excludes by stating the drug is inert.",
     strategy: "Statistical errors: Type I error = False Positive (claiming a difference when none exists). Type II error = False Negative (missing a real difference).",
     difficulty: "medium",
     tags: ["research", "type-i-error", "hypothesis-testing", "p-value", "biostatistics"],
@@ -488,24 +488,24 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "An independent samples t-test, which compares two independent group means",
-      },
-      {
-        id: "b",
         text: "A chi-square test of independence, which compares two categorical variables",
       },
       {
-        id: "c",
+        id: "b",
         text: "A Kruskal-Wallis test, which compares three or more independent group medians",
+      },
+      {
+        id: "c",
+        text: "An independent samples t-test, which compares two independent group means",
       },
       {
         id: "d",
         text: "A Kaplan-Meier analysis, which compares time to an event between groups",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
-      "An Independent Samples Student's t-test is the standard parametric inferential statistical test used to determine whether there is a statistically significant difference between the means of two independent groups on a continuous, normally distributed dependent variable (e.g., mean blood pressure in mmHg). A Chi-square test (b) compares categorical proportions between groups. Kruskal-Wallis (c) is non-parametric for 3 or more groups. Kaplan-Meier (d) analyzes time-to-event survival data. Why the other options fail: option b compares categorical variables. Option c compares medians across three or more groups. Option d compares time to an event.",
+      "An Independent Samples Student's t-test is the standard parametric inferential statistical test used to determine whether there is a statistically significant difference between the means of two independent groups on a continuous, normally distributed dependent variable (e.g., mean blood pressure in mmHg). A Chi-square test (b) compares categorical proportions between groups. Kruskal-Wallis (c) is non-parametric for 3 or more groups. Kaplan-Meier (d) analyzes time-to-event survival data. Why the other options fail: option a compares categorical variables. Option b compares medians across three or more groups. Option d compares time to an event.",
     strategy: "Choosing statistical tests: Comparing continuous means between 2 independent groups = Independent t-test. Comparing categorical proportions = Chi-square.",
     difficulty: "medium",
     tags: ["research", "t-test", "inferential-statistics", "bivariate-analysis", "biostatistics"],
@@ -522,20 +522,20 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Sensitivity 92% and specificity 96%, because the healthy clients supply the true positive rate",
-      },
-      {
-        id: "c",
         text: "Sensitivity 96% and specificity 92%, and the positive predictive value must equal the sensitivity",
       },
       {
-        id: "d",
+        id: "c",
         text: "Sensitivity 4% and specificity 8%, because these are the proportions of false results in each group",
       },
+      {
+        id: "d",
+        text: "Sensitivity 92% and specificity 96%, because the healthy clients supply the true positive rate",
+      },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "d",
     rationale:
-      "SENSITIVITY is the ability of a test to correctly identify individuals who HAVE the disease (True Positive Rate = True Positives / Total Diseased = 96 / 100 = 96%). SPECIFICITY is the ability of a test to correctly identify individuals who DO NOT HAVE the disease (True Negative Rate = True Negatives / Total Non-diseased = 92 / 100 = 92%). High sensitivity rules OUT disease when negative (SnNOut); high specificity rules IN disease when positive (SpPIn). Option b correctly calculates both metrics. Why the other options fail: option b exchanges the two measures, giving the non-case rate to sensitivity. Option c adds a predictive value that cannot be derived from these numbers. Option d reports the false rates rather than the true rates.",
+      "SENSITIVITY is the ability of a test to correctly identify individuals who HAVE the disease (True Positive Rate = True Positives / Total Diseased = 96 / 100 = 96%). SPECIFICITY is the ability of a test to correctly identify individuals who DO NOT HAVE the disease (True Negative Rate = True Negatives / Total Non-diseased = 92 / 100 = 92%). High sensitivity rules OUT disease when negative (SnNOut); high specificity rules IN disease when positive (SpPIn). Option d correctly calculates both metrics. Why the other options fail: option d exchanges the two measures, giving the non-case rate to sensitivity. Option b adds a predictive value that cannot be derived from these numbers. Option c reports the false rates rather than the true rates.",
     strategy: "Diagnostic accuracy: Sensitivity = ability to detect true positives (sick people). Specificity = ability to identify true negatives (healthy people).",
     difficulty: "easy",
     tags: ["research", "sensitivity", "specificity", "screening-tests", "malaria-rdt"],
@@ -552,20 +552,20 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Acquire, appraise, apply, assess and ask, with the question formed after the search",
+        text: "Assess, apply, appraise, acquire and ask, working backwards from the outcome",
       },
       {
         id: "c",
-        text: "Assess, apply, appraise, acquire and ask, working backwards from the outcome",
+        text: "Acquire, appraise, apply, assess and ask, with the question formed after the search",
       },
       {
         id: "d",
         text: "Ask, appraise, acquire, apply and assess, with appraisal done before the search",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "b",
     rationale:
-      "The evidence-based practice process follows the classic 5 A's sequential framework: 1) ASK: Convert clinical need into a structured, answerable clinical inquiry (PICO); 2) ACQUIRE: Efficiently search biomedical databases for the best available evidence; 3) APPRAISE: Critically evaluate the evidence for validity, reliability, and clinical applicability; 4) APPLY: Integrate critical evidence with clinical expertise, patient values/circumstances, and available resources; 5) ASSESS: Evaluate the outcomes of the practice change and identify areas for ongoing improvement. Why the other options fail: option a begins with the search before the question. Option b puts appraisal before the question. Option d appraises before acquiring the evidence.",
+      "The evidence-based practice process follows the classic 5 A's sequential framework: 1) ASK: Convert clinical need into a structured, answerable clinical inquiry (PICO); 2) ACQUIRE: Efficiently search biomedical databases for the best available evidence; 3) APPRAISE: Critically evaluate the evidence for validity, reliability, and clinical applicability; 4) APPLY: Integrate critical evidence with clinical expertise, patient values/circumstances, and available resources; 5) ASSESS: Evaluate the outcomes of the practice change and identify areas for ongoing improvement. Why the other options fail: option a begins with the search before the question. Option c puts appraisal before the question. Option d appraises before acquiring the evidence.",
     strategy: "The 5 A's of EBP: Ask -> Acquire -> Appraise -> Apply -> Assess.",
     difficulty: "easy",
     tags: ["research", "ebp", "5-as-of-ebp", "evidence-based-practice", "pico"],
@@ -578,24 +578,24 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Closing the audit loop, because the re-audit shows the changes achieved the standard",
+        text: "The reporting phase, because the loop closes when the results are published",
       },
       {
         id: "b",
-        text: "The first audit, because the baseline measurement is what starts the cycle",
+        text: "Closing the audit loop, because the re-audit shows the changes achieved the standard",
       },
       {
         id: "c",
-        text: "The research phase, because a re-audit is equivalent to a controlled trial",
+        text: "The first audit, because the baseline measurement is what starts the cycle",
       },
       {
         id: "d",
-        text: "The reporting phase, because the loop closes when the results are published",
+        text: "The research phase, because a re-audit is equivalent to a controlled trial",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "a",
     rationale:
-      "A clinical audit is incomplete without 'closing the audit loop'. The complete audit cycle consists of: 1) setting standards; 2) measuring baseline practice; 3) comparing practice against standards; 4) implementing targeted changes; and 5) re-auditing practice. The re-audit verifies whether implemented interventions achieved sustained compliance with standards, closing the loop and establishing clinical governance. Audits are quality improvement activities, not punitive misconduct trials (a) or falsifications (b). Why the other options fail: option b describes the first audit, which happened before the changes. Option c equates a re-audit with a trial, which it is not. Option d closes the loop on publication rather than on measured improvement.",
+      "A clinical audit is incomplete without 'closing the audit loop'. The complete audit cycle consists of: 1) setting standards; 2) measuring baseline practice; 3) comparing practice against standards; 4) implementing targeted changes; and 5) re-auditing practice. The re-audit verifies whether implemented interventions achieved sustained compliance with standards, closing the loop and establishing clinical governance. Audits are quality improvement activities, not punitive misconduct trials (a) or falsifications (b). Why the other options fail: option c describes the first audit, which happened before the changes. Option d equates a re-audit with a trial, which it is not. Option a closes the loop on publication rather than on measured improvement.",
     strategy: "Clinical audit cycle: Setting standards -> Measuring -> Implementing change -> Re-auditing (Closing the loop).",
     difficulty: "easy",
     tags: ["research", "clinical-audit", "audit-cycle", "closing-the-loop", "hand-hygiene"],

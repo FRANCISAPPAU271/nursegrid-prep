@@ -8,24 +8,24 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Sustained exogenous cortisol suppressed CRH and ACTH, so the adrenal cortex atrophied and cannot respond when the drug stops",
-      },
-      {
-        id: "b",
         text: "Prednisone blocked the adrenal cortisol receptors, so endogenous cortisol could not act despite normal secretion",
       },
       {
-        id: "c",
+        id: "b",
         text: "The pituitary continued to secrete ACTH throughout treatment, and the cortex exhausted its stored cortisol",
       },
       {
-        id: "d",
+        id: "c",
         text: "Prednisone induced hepatic enzymes that clear cortisol so rapidly that levels fall as soon as a dose is missed",
       },
+      {
+        id: "d",
+        text: "Sustained exogenous cortisol suppressed CRH and ACTH, so the adrenal cortex atrophied and cannot respond when the drug stops",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
-      "The hypothalamic-pituitary-adrenal (HPA) axis functions under strict negative feedback. When high levels of systemic glucocorticoids are present, they signal the hypothalamus to suppress CRH and the anterior pituitary to suppress ACTH. Over weeks of therapeutic glucocorticoid therapy, lack of trophic ACTH stimulation leads to progressive disuse atrophy of the adrenal cortex (specifically the zona fasciculata and zona reticularis). If exogenous steroids are abruptly stopped rather than gradually tapered, the atrophic adrenal cortex cannot immediately resume cortisol synthesis. The resulting acute secondary adrenal insufficiency (Addisonian crisis) causes vascular collapse (cortisol is permissive for catecholamine vasoconstriction), hypoglycemia (loss of cortisol-stimulated gluconeogenesis), nausea, vomiting, and distributive shock. Option a correctly identifies this endocrine mechanism. Why the other options fail: option b invents pancreatic destruction, and the pancreas is not the site of cortisol production. Option c blames the thyroid for consuming cortisol, which no thyroid hormone does. Option d describes one gland becoming another, which does not happen; atrophy is the mechanism, not metamorphosis.",
+      "The hypothalamic-pituitary-adrenal (HPA) axis functions under strict negative feedback. When high levels of systemic glucocorticoids are present, they signal the hypothalamus to suppress CRH and the anterior pituitary to suppress ACTH. Over weeks of therapeutic glucocorticoid therapy, lack of trophic ACTH stimulation leads to progressive disuse atrophy of the adrenal cortex (specifically the zona fasciculata and zona reticularis). If exogenous steroids are abruptly stopped rather than gradually tapered, the atrophic adrenal cortex cannot immediately resume cortisol synthesis. The resulting acute secondary adrenal insufficiency (Addisonian crisis) causes vascular collapse (cortisol is permissive for catecholamine vasoconstriction), hypoglycemia (loss of cortisol-stimulated gluconeogenesis), nausea, vomiting, and distributive shock. Option d correctly identifies this endocrine mechanism. Why the other options fail: option a invents pancreatic destruction, and the pancreas is not the site of cortisol production. Option b blames the thyroid for consuming cortisol, which no thyroid hormone does. Option c describes one gland becoming another, which does not happen; atrophy is the mechanism, not metamorphosis.",
     strategy: "Endocrine physiology: Exogenous glucocorticoids suppress CRH and ACTH, causing adrenal atrophy. Abrupt cessation triggers acute adrenal crisis (hypotension, hypoglycemia, shock).",
     difficulty: "easy",
     tags: ["anatomy-physiology", "hpa-axis", "adrenal-crisis", "glucocorticoid-withdrawal", "negative-feedback"],
@@ -38,11 +38,11 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "SIADH from unregulated ADH release by the injured pituitary, retaining water and concentrating the urine",
+        text: "Central diabetes insipidus from damage to the posterior pituitary, so ADH is not secreted and the ducts cannot reabsorb water",
       },
       {
         id: "b",
-        text: "Central diabetes insipidus from damage to the posterior pituitary, so ADH is not secreted and the ducts cannot reabsorb water",
+        text: "SIADH from unregulated ADH release by the injured pituitary, retaining water and concentrating the urine",
       },
       {
         id: "c",
@@ -53,9 +53,9 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Primary hyperparathyroidism after surgery, with calcium-driven osmotic diuresis and a dilute urine",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "a",
     rationale:
-      "Antidiuretic Hormone (ADH, also known as arginine vasopressin) is synthesized by supraoptic and paraventricular nuclei of the hypothalamus and transported axonally to the posterior pituitary (neurohypophysis) for storage and release. ADH acts on V2 receptors on the basolateral membrane of renal medullary collecting duct principal cells, triggering cAMP-mediated exocytic insertion of Aquaporin-2 water channels into the apical membrane, which allows free water reabsorption into the hypertonic medullary interstitium. Surgical damage to the posterior pituitary stalk during hypophysectomy causes Central Diabetes Insipidus. Without ADH, the collecting ducts remain water-impermeable, causing massive, unabated excretion of dilute urine (polyuria, low urine specific gravity < 1.005, urine osmolality < 200 mOsm/kg), systemic hemoconcentration, and hypernatremia (Na > 145 mEq/L). SIADH (a) causes water retention and dilutional hyponatremia. Option b is correct. Why the other options fail: option a reverses the physiology, because SIADH concentrates the urine and lowers the sodium rather than producing 600 mL/hour of dilute urine at a sodium of 158. Option c would stop urine altogether as filtration fails, not give a specific gravity of 1.002. Option d would give hypercalcaemia and a milder diuresis, not this abrupt postoperative picture.",
+      "Antidiuretic Hormone (ADH, also known as arginine vasopressin) is synthesized by supraoptic and paraventricular nuclei of the hypothalamus and transported axonally to the posterior pituitary (neurohypophysis) for storage and release. ADH acts on V2 receptors on the basolateral membrane of renal medullary collecting duct principal cells, triggering cAMP-mediated exocytic insertion of Aquaporin-2 water channels into the apical membrane, which allows free water reabsorption into the hypertonic medullary interstitium. Surgical damage to the posterior pituitary stalk during hypophysectomy causes Central Diabetes Insipidus. Without ADH, the collecting ducts remain water-impermeable, causing massive, unabated excretion of dilute urine (polyuria, low urine specific gravity < 1.005, urine osmolality < 200 mOsm/kg), systemic hemoconcentration, and hypernatremia (Na > 145 mEq/L). SIADH (a) causes water retention and dilutional hyponatremia. Option a is correct. Why the other options fail: option b reverses the physiology, because SIADH concentrates the urine and lowers the sodium rather than producing 600 mL/hour of dilute urine at a sodium of 158. Option c would stop urine altogether as filtration fails, not give a specific gravity of 1.002. Option d would give hypercalcaemia and a milder diuresis, not this abrupt postoperative picture.",
     strategy: "Posterior pituitary physiology: ADH inserts aquaporin-2 channels to reabsorb water. Central DI = lack of ADH -> massive dilute polyuria (low specific gravity) and hypernatremia.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "diabetes-insipidus", "antidiuretic-hormone", "posterior-pituitary", "aquaporins"],
@@ -72,20 +72,20 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Aldosterone-secreting adenoma of the zona glomerulosa, with secondary catecholamine release from volume depletion",
+        text: "Pheochromocytoma: a chromaffin-cell tumour of the adrenal medulla that autonomously secretes catecholamines",
       },
       {
         id: "c",
-        text: "Pheochromocytoma: a chromaffin-cell tumour of the adrenal medulla that autonomously secretes catecholamines",
+        text: "Aldosterone-secreting adenoma of the zona glomerulosa, with secondary catecholamine release from volume depletion",
       },
       {
         id: "d",
         text: "Pituitary infarction with loss of ACTH, leaving the medulla unopposed and producing episodic hypertension",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "b",
     rationale:
-      "The adrenal gland consists of an outer cortex (derived from mesoderm: zona glomerulosa, fasciculata, reticularis) and an inner ADRENAL MEDULLA (derived from neural crest ectoderm, essentially a modified sympathetic ganglion). Medullary chromaffin cells are innervated by preganglionic sympathetic cholinergic fibers and synthesize catecholamines (roughly 80% epinephrine, 20% norepinephrine). A PHEOCHROMOCYTOMA is a chromaffin cell neuroendocrine tumor that autonomously produces massive, episodic surges of catecholamines. Alpha-1 receptor stimulation causes intense systemic arteriolar vasoconstriction (paroxysmal malignant hypertension), while beta-1 stimulation causes tachycardia and forceful myocardial contractions (palpitations, pounding headache, diaphoresis). Catecholamines are metabolized into metanephrines, normetanephrines, and vanillylmandelic acid (VMA), measured in urine to confirm diagnosis. Option c is correct. Why the other options fail: option a gives cortisol deficiency, which produces hypotension and hyperkalaemia rather than paroxysmal hypertension with raised metanephrines. Option b gives aldosterone excess, which produces hypertension with hypokalaemia and suppressed renin, not episodic headache with diaphoresis. Option d removes ACTH and cannot raise catecholamines.",
+      "The adrenal gland consists of an outer cortex (derived from mesoderm: zona glomerulosa, fasciculata, reticularis) and an inner ADRENAL MEDULLA (derived from neural crest ectoderm, essentially a modified sympathetic ganglion). Medullary chromaffin cells are innervated by preganglionic sympathetic cholinergic fibers and synthesize catecholamines (roughly 80% epinephrine, 20% norepinephrine). A PHEOCHROMOCYTOMA is a chromaffin cell neuroendocrine tumor that autonomously produces massive, episodic surges of catecholamines. Alpha-1 receptor stimulation causes intense systemic arteriolar vasoconstriction (paroxysmal malignant hypertension), while beta-1 stimulation causes tachycardia and forceful myocardial contractions (palpitations, pounding headache, diaphoresis). Catecholamines are metabolized into metanephrines, normetanephrines, and vanillylmandelic acid (VMA), measured in urine to confirm diagnosis. Option b is correct. Why the other options fail: option a gives cortisol deficiency, which produces hypotension and hyperkalaemia rather than paroxysmal hypertension with raised metanephrines. Option c gives aldosterone excess, which produces hypertension with hypokalaemia and suppressed renin, not episodic headache with diaphoresis. Option d removes ACTH and cannot raise catecholamines.",
     strategy: "Adrenal medulla physiology: Chromaffin cells secrete catecholamines (epinephrine/norepinephrine). Pheochromocytoma = chromaffin tumor -> 5 P's (Pressure/HTN, Pain/headache, Perspiration, Palpitations, Pallor).",
     difficulty: "medium",
     tags: ["anatomy-physiology", "pheochromocytoma", "adrenal-medulla", "chromaffin-cells", "catecholamines"],
@@ -102,20 +102,20 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Both cell types are stimulated by testosterone alone, and neither responds to pituitary gonadotropins",
+        text: "LH drives Leydig cells to make testosterone; FSH drives Sertoli cells to nourish sperm, form the blood-testis barrier and secrete inhibin",
       },
       {
         id: "c",
-        text: "Sertoli cells secrete testosterone under LH, and Leydig cells form the blood-testis barrier under FSH",
+        text: "Both cell types are stimulated by testosterone alone, and neither responds to pituitary gonadotropins",
       },
       {
         id: "d",
-        text: "LH drives Leydig cells to make testosterone; FSH drives Sertoli cells to nourish sperm, form the blood-testis barrier and secrete inhibin",
+        text: "Sertoli cells secrete testosterone under LH, and Leydig cells form the blood-testis barrier under FSH",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "b",
     rationale:
-      "Testicular function relies on two distinct cell populations regulated by anterior pituitary gonadotropins: 1) LEYDIG CELLS (interstitial cells located in connective tissue between seminiferous tubules): Stimulated by LUTEINIZING HORMONE (LH), they synthesize and secrete TESTOSTERONE, which promotes spermatogenesis, secondary male sex characteristics, and anabolic metabolism; 2) SERTOLI CELLS (sustentacular 'nurse' cells lining seminiferous tubules): Stimulated by FOLLICLE-STIMULATING HORMONE (FSH) and testosterone, they form tight junctions that create the immunologically vital BLOOD-TESTIS BARRIER (protecting haploid germ cells from autoimmune attack), provide physical and metabolic nourishment to developing spermatogonia, phagocytose excess spermatid cytoplasm, and secrete Androgen-Binding Protein (ABP, maintaining high intratesticular testosterone) and Inhibin B (which provides negative feedback on pituitary FSH). Option d accurately details these roles. Why the other options fail: option a assigns prostate fluid to Leydig cells and urine to Sertoli cells, neither of which is a testicular function. Option b denies both the division of labour and the pituitary control that drives it. Option c swaps the two cells and their tropic hormones, which is the commonest error in this item.",
+      "Testicular function relies on two distinct cell populations regulated by anterior pituitary gonadotropins: 1) LEYDIG CELLS (interstitial cells located in connective tissue between seminiferous tubules): Stimulated by LUTEINIZING HORMONE (LH), they synthesize and secrete TESTOSTERONE, which promotes spermatogenesis, secondary male sex characteristics, and anabolic metabolism; 2) SERTOLI CELLS (sustentacular 'nurse' cells lining seminiferous tubules): Stimulated by FOLLICLE-STIMULATING HORMONE (FSH) and testosterone, they form tight junctions that create the immunologically vital BLOOD-TESTIS BARRIER (protecting haploid germ cells from autoimmune attack), provide physical and metabolic nourishment to developing spermatogonia, phagocytose excess spermatid cytoplasm, and secrete Androgen-Binding Protein (ABP, maintaining high intratesticular testosterone) and Inhibin B (which provides negative feedback on pituitary FSH). Option b accurately details these roles. Why the other options fail: option a assigns prostate fluid to Leydig cells and urine to Sertoli cells, neither of which is a testicular function. Option c denies both the division of labour and the pituitary control that drives it. Option d swaps the two cells and their tropic hormones, which is the commonest error in this item.",
     strategy: "Male reproductive physiology: LH stimulates Leydig cells -> Testosterone. FSH stimulates Sertoli cells -> Spermatogenesis support & blood-testis barrier.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "leydig-cells", "sertoli-cells", "spermatogenesis", "testosterone"],
@@ -222,20 +222,20 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Fertilisation occurs in the uterine cavity, and shoulder pain comes from irritation of the aorta",
+        text: "Fertilisation occurs in the ampulla; blood under the diaphragm irritates the phrenic nerve (C3-C5), referring pain to the shoulder",
       },
       {
         id: "c",
-        text: "Fertilisation occurs in the ampulla, and shoulder pain is referred from the ovarian plexus to the neck",
+        text: "Fertilisation occurs in the uterine cavity, and shoulder pain comes from irritation of the aorta",
       },
       {
         id: "d",
-        text: "Fertilisation occurs in the ampulla; blood under the diaphragm irritates the phrenic nerve (C3-C5), referring pain to the shoulder",
+        text: "Fertilisation occurs in the ampulla, and shoulder pain is referred from the ovarian plexus to the neck",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "b",
     rationale:
-      "The fallopian tube consists of four anatomical regions: the infundibulum (with fimbriae), ampulla, isthmus, and interstitial (intramural) segment. The AMPULLA is the widest, longest segment and is the normal physiological site of human fertilisation (sperm capacitation, acrosome reaction, and zygote formation). If previous salpingitis or pelvic inflammatory disease (PID) damages ciliated tubal epithelium, embryo transit is blocked, leading to ampullary ectopic implantation (roughly 70–80% of tubal pregnancies). As the trophoblast erodes tubal vessels, rupture produces acute internal hemorrhage (hemoperitoneum). Intraperitoneal blood pools beneath the hemidiaphragm when the client is supine, irritating sensory fibers of the Phrenic Nerve (spinal roots C3, C4, C5). Because the supraclavicular sensory nerves share the same C3–C4 cervical spinal cord segments, diaphragmatic irritation manifests as referred ipsilateral shoulder tip pain (Kehr's sign). Option d accurately explains both fertilisation and the neuroanatomy of Kehr's sign. Why the other options fail: option a puts fertilisation in the cervix and refers pain through cervical nerves, neither of which is anatomically possible. Option b puts fertilisation in the uterine cavity, where implantation occurs but fertilisation does not. Option c has the right site but the wrong pathway, because the shoulder pain comes from the diaphragm through the phrenic nerve, not from the ovarian plexus.",
+      "The fallopian tube consists of four anatomical regions: the infundibulum (with fimbriae), ampulla, isthmus, and interstitial (intramural) segment. The AMPULLA is the widest, longest segment and is the normal physiological site of human fertilisation (sperm capacitation, acrosome reaction, and zygote formation). If previous salpingitis or pelvic inflammatory disease (PID) damages ciliated tubal epithelium, embryo transit is blocked, leading to ampullary ectopic implantation (roughly 70–80% of tubal pregnancies). As the trophoblast erodes tubal vessels, rupture produces acute internal hemorrhage (hemoperitoneum). Intraperitoneal blood pools beneath the hemidiaphragm when the client is supine, irritating sensory fibers of the Phrenic Nerve (spinal roots C3, C4, C5). Because the supraclavicular sensory nerves share the same C3–C4 cervical spinal cord segments, diaphragmatic irritation manifests as referred ipsilateral shoulder tip pain (Kehr's sign). Option b accurately explains both fertilisation and the neuroanatomy of Kehr's sign. Why the other options fail: option a puts fertilisation in the cervix and refers pain through cervical nerves, neither of which is anatomically possible. Option c puts fertilisation in the uterine cavity, where implantation occurs but fertilisation does not. Option d has the right site but the wrong pathway, because the shoulder pain comes from the diaphragm through the phrenic nerve, not from the ovarian plexus.",
     strategy: "Reproductive anatomy: Fertilisation occurs in the Ampulla of the fallopian tube. Rupture causes hemoperitoneum -> phrenic nerve irritation (C3-C5) -> referred shoulder pain (Kehr's sign).",
     difficulty: "medium",
     tags: ["anatomy-physiology", "fallopian-tube-ampulla", "ectopic-pregnancy", "phrenic-nerve", "kehrs-sign"],
@@ -248,24 +248,24 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "They suppress FSH and LH, blocking recruitment and the LH surge, while progestin thickens mucus and thins the endometrium",
-      },
-      {
-        id: "b",
         text: "They act as a chemical spermicide in the vagina, killing sperm before they can reach the cervix",
       },
       {
-        id: "c",
+        id: "b",
         text: "They thicken the cervical mucus and seal the external os with scar tissue after the first cycle",
+      },
+      {
+        id: "c",
+        text: "They suppress FSH and LH, blocking recruitment and the LH surge, while progestin thickens mucus and thins the endometrium",
       },
       {
         id: "d",
         text: "They prevent the endometrium from shedding, so a blastocyst cannot implant in a stable lining",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
-      "Combined oral contraceptives (COCs) contain synthetic estrogen (ethinyl estradiol) and a progestin. They prevent conception through multiple synergistic neuroendocrine and reproductive mechanisms: 1) Estrogen exerts negative feedback on the anterior pituitary, suppressing Follicle-Stimulating Hormone (FSH), which prevents ovarian follicle recruitment and selection; 2) Progestin suppresses Luteinizing Hormone (LH) secretion, completely blocking the mid-cycle LH surge and thereby preventing ovulation (the primary mechanism); 3) Progestin thickens cervical mucus, making it hostile and impermeable to ascending spermatozoa; and 4) Progestin creates an atrophic, asynchronous endometrium unfavorable for blastocyst implantation, and slows tubal peristalsis. Option a accurately details these physiological actions. Why the other options fail: option b treats a hormonal contraceptive as a spermicide, which would not suppress ovulation or change the endometrium. Option c describes scarring that pills do not cause. Option d reverses the effect on the endometrium, which becomes thin and unsupportive rather than shedding continuously.",
+      "Combined oral contraceptives (COCs) contain synthetic estrogen (ethinyl estradiol) and a progestin. They prevent conception through multiple synergistic neuroendocrine and reproductive mechanisms: 1) Estrogen exerts negative feedback on the anterior pituitary, suppressing Follicle-Stimulating Hormone (FSH), which prevents ovarian follicle recruitment and selection; 2) Progestin suppresses Luteinizing Hormone (LH) secretion, completely blocking the mid-cycle LH surge and thereby preventing ovulation (the primary mechanism); 3) Progestin thickens cervical mucus, making it hostile and impermeable to ascending spermatozoa; and 4) Progestin creates an atrophic, asynchronous endometrium unfavorable for blastocyst implantation, and slows tubal peristalsis. Option c accurately details these physiological actions. Why the other options fail: option a treats a hormonal contraceptive as a spermicide, which would not suppress ovulation or change the endometrium. Option b describes scarring that pills do not cause. Option d reverses the effect on the endometrium, which becomes thin and unsupportive rather than shedding continuously.",
     strategy: "Contraceptive pharmacology: Estrogen/progestin suppress pituitary FSH and LH -> blocks follicle development and LH surge (inhibits ovulation) + thickens cervical mucus.",
     difficulty: "easy",
     tags: ["anatomy-physiology", "oral-contraceptives", "lh-fsh-suppression", "cervical-mucus", "contraceptive-mechanism"],
@@ -282,20 +282,20 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Plasma volume rises more than red cell mass, diluting the haemoglobin; supine, the uterus compresses the vena cava and drops venous return",
-      },
-      {
-        id: "c",
         text: "Marrow suppression by pregnancy hormones, so red cell production falls below the rising plasma volume",
       },
       {
-        id: "d",
+        id: "c",
         text: "Aortocaval compression by the uterus, which also sequesters red cells in the splenic pool and lowers the count",
       },
+      {
+        id: "d",
+        text: "Plasma volume rises more than red cell mass, diluting the haemoglobin; supine, the uterus compresses the vena cava and drops venous return",
+      },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "d",
     rationale:
-      "Pregnancy induces profound maternal cardiovascular remodeling: 1) PHYSIOLOGIC ANEMIA OF PREGNANCY: Total blood volume increases by ~45%, but plasma volume expands disproportionately (~45–50%) compared to red blood cell mass (~20–30%). This relative hemodilution causes physiological decreases in hemoglobin (normal nadir in 2nd/3rd trimester is >= 10.5 g/dL) and hematocrit (~32–33%), reducing blood viscosity to optimize uteroplacental perfusion; 2) SUPINE HYPOTENSIVE SYNDROME (Vena Cava Syndrome): After 20 weeks, the gravid uterus compresses the Inferior Vena Cava (IVC) and abdominal aorta against the vertebral column when supine. Obstructed venous return drastically decreases right atrial preload, stroke volume, and cardiac output, dropping systemic blood pressure and causing maternal cerebral hypoperfusion (dizziness, diaphoresis) and fetal bradycardia. Tilting the client to the LEFT LATERAL position displaces the uterus off the IVC, instantly restoring venous return and blood pressure. Option b is correct. Why the other options fail: option a explains the haemoglobin with haemorrhage, but not the immediate recovery on turning left. Option c blames marrow suppression, when red cell mass actually rises in pregnancy. Option d invokes splenic sequestration, which does not occur, and still does not explain the dilutional haemoglobin.",
+      "Pregnancy induces profound maternal cardiovascular remodeling: 1) PHYSIOLOGIC ANEMIA OF PREGNANCY: Total blood volume increases by ~45%, but plasma volume expands disproportionately (~45–50%) compared to red blood cell mass (~20–30%). This relative hemodilution causes physiological decreases in hemoglobin (normal nadir in 2nd/3rd trimester is >= 10.5 g/dL) and hematocrit (~32–33%), reducing blood viscosity to optimize uteroplacental perfusion; 2) SUPINE HYPOTENSIVE SYNDROME (Vena Cava Syndrome): After 20 weeks, the gravid uterus compresses the Inferior Vena Cava (IVC) and abdominal aorta against the vertebral column when supine. Obstructed venous return drastically decreases right atrial preload, stroke volume, and cardiac output, dropping systemic blood pressure and causing maternal cerebral hypoperfusion (dizziness, diaphoresis) and fetal bradycardia. Tilting the client to the LEFT LATERAL position displaces the uterus off the IVC, instantly restoring venous return and blood pressure. Option d is correct. Why the other options fail: option a explains the haemoglobin with haemorrhage, but not the immediate recovery on turning left. Option b blames marrow suppression, when red cell mass actually rises in pregnancy. Option c invokes splenic sequestration, which does not occur, and still does not explain the dilutional haemoglobin.",
     strategy: "Pregnancy cardiovascular physiology: Plasma expansion > RBC expansion = physiologic hemodilutional anemia. Gravid uterus compresses IVC in supine position -> Supine Hypotensive Syndrome (relieved by left lateral position).",
     difficulty: "medium",
     tags: ["anatomy-physiology", "physiologic-anemia-pregnancy", "supine-hypotensive-syndrome", "maternal-hemodynamics", "inferior-vena-cava"],
@@ -338,24 +338,24 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Cervical stretch triggers a vagal reflex that increases uterine blood flow and strengthens contractions through oxygen delivery",
+        text: "Cervical stretch signals the hypothalamus to release oxytocin from the posterior pituitary, which strengthens contractions and stretches the cervix further",
       },
       {
         id: "b",
-        text: "Stretch receptors signal the posterior pituitary to release prostaglandins, which soften the cervix and intensify contractions",
+        text: "Cervical stretch triggers a vagal reflex that increases uterine blood flow and strengthens contractions through oxygen delivery",
       },
       {
         id: "c",
-        text: "Cervical stretch stimulates the adrenal medulla, and circulating adrenaline drives stronger myometrial contractions",
+        text: "Stretch receptors signal the posterior pituitary to release prostaglandins, which soften the cervix and intensify contractions",
       },
       {
         id: "d",
-        text: "Cervical stretch signals the hypothalamus to release oxytocin from the posterior pituitary, which strengthens contractions and stretches the cervix further",
+        text: "Cervical stretch stimulates the adrenal medulla, and circulating adrenaline drives stronger myometrial contractions",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "a",
     rationale:
-      "The Ferguson Reflex is a classic neuroendocrine POSITIVE FEEDBACK loop governing parturition: 1) As uterine contractions push the fetal presenting part into the birth canal, mechanical distension and stretching of the cervix and vaginal wall stimulate sensory stretch receptors; 2) Afferent neural signals travel via pelvic nerves up the anterolateral spinal cord to the hypothalamus (supraoptic and paraventricular nuclei); 3) Hypothalamic magnocellular neurons fire, releasing pulses of OXYTOCIN from the POSTERIOR PITUITARY into systemic circulation; 4) Oxytocin binds to upregulated G-protein coupled oxytocin receptors on myometrial smooth muscle cells, increasing intracellular calcium and triggering more forceful uterine contractions; 5) Stronger contractions force the fetus deeper against the cervix, generating even greater cervical stretch and further oxytocin release. This self-amplifying cycle continues until expulsion of the fetus breaks the mechanical stimulus. Option d accurately charts this reflex. Why the other options fail: option a sends the reflex through the vagus and oxygen delivery, which is not a positive feedback loop. Option b names prostaglandins, which are local mediators and are not released from the pituitary. Option c recruits the adrenal medulla, and adrenaline is not the oxytocin loop.",
+      "The Ferguson Reflex is a classic neuroendocrine POSITIVE FEEDBACK loop governing parturition: 1) As uterine contractions push the fetal presenting part into the birth canal, mechanical distension and stretching of the cervix and vaginal wall stimulate sensory stretch receptors; 2) Afferent neural signals travel via pelvic nerves up the anterolateral spinal cord to the hypothalamus (supraoptic and paraventricular nuclei); 3) Hypothalamic magnocellular neurons fire, releasing pulses of OXYTOCIN from the POSTERIOR PITUITARY into systemic circulation; 4) Oxytocin binds to upregulated G-protein coupled oxytocin receptors on myometrial smooth muscle cells, increasing intracellular calcium and triggering more forceful uterine contractions; 5) Stronger contractions force the fetus deeper against the cervix, generating even greater cervical stretch and further oxytocin release. This self-amplifying cycle continues until expulsion of the fetus breaks the mechanical stimulus. Option a accurately charts this reflex. Why the other options fail: option b sends the reflex through the vagus and oxygen delivery, which is not a positive feedback loop. Option c names prostaglandins, which are local mediators and are not released from the pituitary. Option d recruits the adrenal medulla, and adrenaline is not the oxytocin loop.",
     strategy: "Parturition neuroendocrinology: Ferguson reflex = cervical stretch -> hypothalamic sensory signals -> posterior pituitary OXYTOCIN pulsatile release -> stronger myometrial contractions (positive feedback loop).",
     difficulty: "medium",
     tags: ["anatomy-physiology", "ferguson-reflex", "oxytocin", "positive-feedback", "labor-physiology"],
@@ -368,11 +368,11 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "25% homozygous disease, 50% asymptomatic carrier and 25% unaffected, with no difference between sons and daughters",
+        text: "25% carrier, 50% affected and 25% unaffected, because two carrier parents produce mostly affected children",
       },
       {
         id: "b",
-        text: "25% carrier, 50% affected and 25% unaffected, because two carrier parents produce mostly affected children",
+        text: "25% homozygous disease, 50% asymptomatic carrier and 25% unaffected, with no difference between sons and daughters",
       },
       {
         id: "c",
@@ -383,9 +383,9 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "No child can be affected, because each parent carries only one copy and the trait skips a generation",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
-      "Sickle Cell Disease is inherited in an AUTOSOMAL RECESSIVE Mendelian pattern caused by a single point mutation (substitution of valine for glutamic acid at codon 6 of the beta-globin chain on chromosome 11). When both biological parents are asymptomatic heterozygous carriers (HbAS x HbAS), each conception has independent probabilities determined by a Punnett square: 1) 25% probability (1 in 4) of inheriting both mutant alleles (HbSS) and manifesting Sickle Cell Disease; 2) 50% probability (2 in 4) of inheriting one mutant and one normal allele (HbAS) and carrying the asymptomatic Sickle Cell Trait; 3) 25% probability (1 in 4) of inheriting two normal alleles (HbAA) and being completely non-affected and non-carrier. Gender has no influence because the beta-globin gene is located on an autosome (chromosome 11), not a sex chromosome. Option a is correct. Why the other options fail: option b inverts the carrier and affected proportions. Option c treats the sickle gene as dominant, which it is not. Option d invents skipping generations, which autosomal recessive inheritance does not do.",
+      "Sickle Cell Disease is inherited in an AUTOSOMAL RECESSIVE Mendelian pattern caused by a single point mutation (substitution of valine for glutamic acid at codon 6 of the beta-globin chain on chromosome 11). When both biological parents are asymptomatic heterozygous carriers (HbAS x HbAS), each conception has independent probabilities determined by a Punnett square: 1) 25% probability (1 in 4) of inheriting both mutant alleles (HbSS) and manifesting Sickle Cell Disease; 2) 50% probability (2 in 4) of inheriting one mutant and one normal allele (HbAS) and carrying the asymptomatic Sickle Cell Trait; 3) 25% probability (1 in 4) of inheriting two normal alleles (HbAA) and being completely non-affected and non-carrier. Gender has no influence because the beta-globin gene is located on an autosome (chromosome 11), not a sex chromosome. Option b is correct. Why the other options fail: option a inverts the carrier and affected proportions. Option c treats the sickle gene as dominant, which it is not. Option d invents skipping generations, which autosomal recessive inheritance does not do.",
     strategy: "Genetics: Autosomal recessive carrier parents (Aa x Aa) = 25% affected (aa), 50% carrier (Aa), 25% unaffected non-carrier (AA). Equal distribution in males and females.",
     difficulty: "easy",
     tags: ["anatomy-physiology", "mendelian-genetics", "autosomal-recessive", "sickle-cell-disease", "punnett-square"],
@@ -402,20 +402,20 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Each son has a 50% chance of disease, and each daughter a 50% chance of being a carrier with no disease",
-      },
-      {
-        id: "c",
         text: "Sons cannot be affected because the father passes a normal Y, and daughters are carriers only",
       },
       {
-        id: "d",
+        id: "c",
         text: "All sons are affected and all daughters are carriers, because the mother has two mutated X chromosomes",
       },
+      {
+        id: "d",
+        text: "Each son has a 50% chance of disease, and each daughter a 50% chance of being a carrier with no disease",
+      },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "d",
     rationale:
-      "Hemophilia A (Factor VIII deficiency) is inherited in an X-LINKED RECESSIVE pattern. The mother is heterozygous (XHXh, where Xh carries the mutation; she is protected by Lyonization/the normal XH allele). The father has normal karyotype (XHY). For each son (XY), the mother contributes either the normal XH or the mutant Xh (50% probability). Because males are HEMIZYGOUS (they have only one X chromosome and a Y chromosome with no factor VIII locus), inheriting the mutant Xh inevitably manifests the disease (50% of sons will have hemophilia A). For each daughter (XX), the father always contributes his normal XH, so no daughter can be homozygous affected (0% risk of manifesting disease); however, each daughter has a 50% chance of inheriting the maternal Xh, becoming an asymptomatic carrier (XHXh). Option b is genetically accurate. Why the other options fail: option a gives daughters a 50% chance of disease, but they inherit a normal paternal X and can only be carriers. Option c says sons cannot be affected, yet they inherit the maternal X and half of them will be. Option d gives the mother two mutated X chromosomes, which would make her affected rather than a carrier.",
+      "Hemophilia A (Factor VIII deficiency) is inherited in an X-LINKED RECESSIVE pattern. The mother is heterozygous (XHXh, where Xh carries the mutation; she is protected by Lyonization/the normal XH allele). The father has normal karyotype (XHY). For each son (XY), the mother contributes either the normal XH or the mutant Xh (50% probability). Because males are HEMIZYGOUS (they have only one X chromosome and a Y chromosome with no factor VIII locus), inheriting the mutant Xh inevitably manifests the disease (50% of sons will have hemophilia A). For each daughter (XX), the father always contributes his normal XH, so no daughter can be homozygous affected (0% risk of manifesting disease); however, each daughter has a 50% chance of inheriting the maternal Xh, becoming an asymptomatic carrier (XHXh). Option d is genetically accurate. Why the other options fail: option a gives daughters a 50% chance of disease, but they inherit a normal paternal X and can only be carriers. Option b says sons cannot be affected, yet they inherit the maternal X and half of them will be. Option c gives the mother two mutated X chromosomes, which would make her affected rather than a carrier.",
     strategy: "Genetics: X-linked recessive carrier mother (XHXh) x Normal father (XHY) = 50% of sons affected; 50% of daughters are carriers; 0% daughters affected.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "x-linked-recessive", "hemophilia-a", "hemizygous", "pediatric-genetics"],
@@ -466,16 +466,16 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "The canal of Schlemm collapses from high episcleral venous pressure, so drainage stops even though the angle is open",
+        text: "The lens swells and blocks the pupil, so fluid is trapped in the posterior chamber and pushes the vitreous forward",
       },
       {
         id: "d",
-        text: "The lens swells and blocks the pupil, so fluid is trapped in the posterior chamber and pushes the vitreous forward",
+        text: "The canal of Schlemm collapses from high episcleral venous pressure, so drainage stops even though the angle is open",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "c",
     rationale:
-      "Aqueous humor is continuously secreted by the ciliary body epithelium into the posterior chamber, flows through the pupil into the anterior chamber, and drains out of the eye via the iridocorneal filtration angle through the trabecular meshwork into the CANAL OF SCHLEMM. In clients with an anatomically narrow anterior chamber angle (e.g., hyperopes, older adults with enlarging lenses), pupillary dilation (mydriasis in darkness or from anticholinergics) bunches up the peripheral iris. Pupillary block traps aqueous humor in the posterior chamber, bowing the peripheral iris forward (iris bombé) against the trabecular meshwork. This acute mechanical occlusion blocks aqueous outflow while ciliary production continues, driving intraocular pressure from normal (10–21 mmHg) to extreme heights (>50–60 mmHg). The sudden ocular hypertension produces corneal edema ('steamy' cornea), severe pain, colored halos, and ischemic necrosis of the optic nerve (CN II) with irreversible blindness unless urgently treated with cholinergic miosis (pilocarpine), aqueous suppressants (timolol, acetazolamide), and laser peripheral iridotomy. Option d is correct. Why the other options fail: option b makes overproduction the fault, when the picture is blocked drainage through a closed angle. Option c puts the block at the canal of Schlemm with an open angle, which is open-angle glaucoma and does not give a fixed mid-dilated pupil with a steamy cornea. Option d describes lens swelling with trapped posterior chamber fluid, which does not open the classic pupillary block sequence.",
+      "Aqueous humor is continuously secreted by the ciliary body epithelium into the posterior chamber, flows through the pupil into the anterior chamber, and drains out of the eye via the iridocorneal filtration angle through the trabecular meshwork into the CANAL OF SCHLEMM. In clients with an anatomically narrow anterior chamber angle (e.g., hyperopes, older adults with enlarging lenses), pupillary dilation (mydriasis in darkness or from anticholinergics) bunches up the peripheral iris. Pupillary block traps aqueous humor in the posterior chamber, bowing the peripheral iris forward (iris bombé) against the trabecular meshwork. This acute mechanical occlusion blocks aqueous outflow while ciliary production continues, driving intraocular pressure from normal (10–21 mmHg) to extreme heights (>50–60 mmHg). The sudden ocular hypertension produces corneal edema ('steamy' cornea), severe pain, colored halos, and ischemic necrosis of the optic nerve (CN II) with irreversible blindness unless urgently treated with cholinergic miosis (pilocarpine), aqueous suppressants (timolol, acetazolamide), and laser peripheral iridotomy. Option c is correct. Why the other options fail: option b makes overproduction the fault, when the picture is blocked drainage through a closed angle. Option d puts the block at the canal of Schlemm with an open angle, which is open-angle glaucoma and does not give a fixed mid-dilated pupil with a steamy cornea. Option c describes lens swelling with trapped posterior chamber fluid, which does not open the classic pupillary block sequence.",
     strategy: "Ocular anatomy: Aqueous humor drains via trabecular meshwork into Canal of Schlemm. Angle-closure glaucoma = iris bows forward, blocking drainage -> dangerous IOP spike and optic nerve ischemia.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "angle-closure-glaucoma", "aqueous-humor", "canal-of-schlemm", "intraocular-pressure"],
@@ -488,24 +488,24 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Rods carry rhodopsin, dominate the periphery and give dim-light and motion vision without colour; cones fill the fovea and give acuity and colour",
-      },
-      {
-        id: "b",
         text: "Rods give high-acuity colour vision in the fovea, while cones are the dim-light receptors spread through the periphery",
       },
       {
-        id: "c",
+        id: "b",
         text: "Rods and cones are evenly distributed, so peripheral and central vision have the same acuity and colour sense",
       },
       {
-        id: "d",
+        id: "c",
         text: "Cones respond to light but rods respond only to colour, so night vision is monochromatic and colourless",
       },
+      {
+        id: "d",
+        text: "Rods carry rhodopsin, dominate the periphery and give dim-light and motion vision without colour; cones fill the fovea and give acuity and colour",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
-      "The neural retina contains two distinct classes of photoreceptor neurons: 1) RODS (~120 million): Concentrated in the peripheral retina, rods contain the visual photopigment RHODOPSIN (requiring Vitamin A). They exhibit high convergent neural wiring (many rods synapse onto one bipolar cell), making them exceptionally sensitive to single photons of light. They mediate SCOTOPIC VISION (dim light, night vision, peripheral motion detection, and shades of gray) but have low spatial resolution and zero color discrimination; 2) CONES (~6 million): Concentrated primarily in the macula lutea and exclusively packed in the FOVEA CENTRALIS (the area of sharpest vision). Cones contain three opsin photopigments sensitive to specific wavelengths (short/blue, medium/green, long/red). With low neural convergence (often a 1:1 ratio with bipolar and ganglion cells), cones mediate PHOTOPIC VISION (bright daylight), high visual acuity (resolving fine details), and full-color vision. Option a accurately details these differences. Why the other options fail: option b swaps the two receptors. Option c flattens the retinal distribution, which would abolish the fovea and the peripheral field together. Option d reverses colour and dim-light function, which belong to cones and rods respectively.",
+      "The neural retina contains two distinct classes of photoreceptor neurons: 1) RODS (~120 million): Concentrated in the peripheral retina, rods contain the visual photopigment RHODOPSIN (requiring Vitamin A). They exhibit high convergent neural wiring (many rods synapse onto one bipolar cell), making them exceptionally sensitive to single photons of light. They mediate SCOTOPIC VISION (dim light, night vision, peripheral motion detection, and shades of gray) but have low spatial resolution and zero color discrimination; 2) CONES (~6 million): Concentrated primarily in the macula lutea and exclusively packed in the FOVEA CENTRALIS (the area of sharpest vision). Cones contain three opsin photopigments sensitive to specific wavelengths (short/blue, medium/green, long/red). With low neural convergence (often a 1:1 ratio with bipolar and ganglion cells), cones mediate PHOTOPIC VISION (bright daylight), high visual acuity (resolving fine details), and full-color vision. Option d accurately details these differences. Why the other options fail: option a swaps the two receptors. Option b flattens the retinal distribution, which would abolish the fovea and the peripheral field together. Option c reverses colour and dim-light function, which belong to cones and rods respectively.",
     strategy: "Retinal histology: Rods = Rhodopsin, periphery, dim light/scotopic vision, black/white, high sensitivity. Cones = Color (red/green/blue), central fovea, bright light/photopic vision, high acuity.",
     difficulty: "easy",
     tags: ["anatomy-physiology", "retina", "photoreceptors", "rods-and-cones", "fovea-centralis"],
@@ -522,20 +522,20 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Ossicular otosclerosis fixes the stapes in the oval window, so sound is not conducted and the pressure builds in the middle ear",
-      },
-      {
-        id: "c",
         text: "Perilymph leaks through a ruptured round window, so the cochlea loses fluid and the canals fire irregularly",
       },
       {
-        id: "d",
+        id: "c",
         text: "A vestibular schwannoma compresses the eighth nerve, producing episodic vertigo with progressive high-frequency loss",
       },
+      {
+        id: "d",
+        text: "Ossicular otosclerosis fixes the stapes in the oval window, so sound is not conducted and the pressure builds in the middle ear",
+      },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "d",
     rationale:
-      "The inner ear (labyrinth) consists of a bony labyrinth containing Perilymph (high in Na+, resembling ECF) and an inner membranous labyrinth containing ENDOLYMPH (high in K+, resembling ICF, secreted by the stria vascularis). The membranous labyrinth comprises the Cochlea (hearing transduction via the Organ of Corti) and the Vestibular apparatus (semicircular canals sensing rotational acceleration, and utricle/saccule sensing linear motion and gravity). In MÉNIÈRE'S DISEASE, impaired resorption of endolymph through the endolymphatic sac leads to ENDOLYMPHATIC HYDROPS (dilation and increased fluid pressure within the entire membranous labyrinth). Hydrops causes micro-ruptures of the membrane, mixing high-potassium endolymph with perilymph, which depolarizes and paralyzes vestibulocochlear nerve fibers (CN VIII). Clinically, this manifests as episodic rotational vertigo, fluctuating sensorineural hearing loss, tinnitus, and aural fullness. Option b is correct. Why the other options fail: option b describes otosclerosis, which gives progressive conductive loss rather than hours-long vertigo with roaring tinnitus. Option c describes a perilymph fistula, which follows trauma or straining and does not produce fluctuating low-frequency loss. Option d describes a vestibular schwannoma, whose loss is high-frequency and progressive, not episodic.",
+      "The inner ear (labyrinth) consists of a bony labyrinth containing Perilymph (high in Na+, resembling ECF) and an inner membranous labyrinth containing ENDOLYMPH (high in K+, resembling ICF, secreted by the stria vascularis). The membranous labyrinth comprises the Cochlea (hearing transduction via the Organ of Corti) and the Vestibular apparatus (semicircular canals sensing rotational acceleration, and utricle/saccule sensing linear motion and gravity). In MÉNIÈRE'S DISEASE, impaired resorption of endolymph through the endolymphatic sac leads to ENDOLYMPHATIC HYDROPS (dilation and increased fluid pressure within the entire membranous labyrinth). Hydrops causes micro-ruptures of the membrane, mixing high-potassium endolymph with perilymph, which depolarizes and paralyzes vestibulocochlear nerve fibers (CN VIII). Clinically, this manifests as episodic rotational vertigo, fluctuating sensorineural hearing loss, tinnitus, and aural fullness. Option d is correct. Why the other options fail: option d describes otosclerosis, which gives progressive conductive loss rather than hours-long vertigo with roaring tinnitus. Option b describes a perilymph fistula, which follows trauma or straining and does not produce fluctuating low-frequency loss. Option c describes a vestibular schwannoma, whose loss is high-frequency and progressive, not episodic.",
     strategy: "Inner ear physiology: Ménière's disease = Endolymphatic hydrops (excess endolymph pressure in membranous labyrinth) -> episodic vertigo + fluctuating sensorineural hearing loss + tinnitus.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "inner-ear", "menieres-disease", "endolymphatic-hydrops", "vestibular-system"],
@@ -548,24 +548,24 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Thyroid hormones raise beta-adrenergic receptor density and uncouple mitochondrial phosphorylation, so metabolic rate and heat production climb",
+        text: "Thyroid hormones increase peripheral conversion of T4 to reverse T3, which drives the adrenergic surge of the crisis",
       },
       {
         id: "b",
-        text: "Thyroid hormones block the sodium-potassium pump, so intracellular sodium rises and the heart rate climbs in compensation",
+        text: "Thyroid hormones raise beta-adrenergic receptor density and uncouple mitochondrial phosphorylation, so metabolic rate and heat production climb",
       },
       {
         id: "c",
-        text: "Thyroid hormones increase peripheral conversion of T4 to reverse T3, which drives the adrenergic surge of the crisis",
+        text: "Thyroid hormones block the sodium-potassium pump, so intracellular sodium rises and the heart rate climbs in compensation",
       },
       {
         id: "d",
         text: "Thyroid hormones bind directly to cardiac myocytes and increase contractility without changing metabolic rate or heat production",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "a",
     rationale:
-      "Thyroid hormones (T3 and T4) act as nuclear transcription factors regulating basal metabolic rate and cellular protein synthesis across all organ systems: 1) ADRENERGIC RECEPTOR UPREGULATION: T3 massively increases the density and sensitivity of beta-adrenergic receptors in cardiac myocytes and vascular smooth muscle, creating an exaggerated, hyper-responsive state to endogenous catecholamines (manifesting as profound tachycardia, systolic hypertension, atrial fibrillation, and tremors); 2) MITOCHONDRIAL UNCOUPLING & CALORIGENESIS: T3 stimulates the Na+/K+ ATPase pump and induces uncoupling proteins (UCPs) in mitochondria. Instead of storing energy efficiently as ATP, cellular proton gradients dissipate directly as heat (calorigenesis), skyrocketing basal metabolic rate and producing hyperpyrexia (temperatures exceeding 40 °C), profound diaphoresis, and severe dehydration; 3) HIGH-OUTPUT CARDIAC FAILURE: T3-induced vasodilation combined with extreme metabolic oxygen demands increases cardiac output initially, but unrelenting tachyarrhythmias precipitate acute high-output cardiac decompensation. Option c accurately explains this cellular pathophysiology. Why the other options fail: option b has thyroid hormone blocking the sodium-potassium pump, which is not its mechanism at these concentrations. Option c raises reverse T3, an inactive metabolite that does not drive the crisis. Option d separates contractility from metabolic rate, when the hormone raises both.",
+      "Thyroid hormones (T3 and T4) act as nuclear transcription factors regulating basal metabolic rate and cellular protein synthesis across all organ systems: 1) ADRENERGIC RECEPTOR UPREGULATION: T3 massively increases the density and sensitivity of beta-adrenergic receptors in cardiac myocytes and vascular smooth muscle, creating an exaggerated, hyper-responsive state to endogenous catecholamines (manifesting as profound tachycardia, systolic hypertension, atrial fibrillation, and tremors); 2) MITOCHONDRIAL UNCOUPLING & CALORIGENESIS: T3 stimulates the Na+/K+ ATPase pump and induces uncoupling proteins (UCPs) in mitochondria. Instead of storing energy efficiently as ATP, cellular proton gradients dissipate directly as heat (calorigenesis), skyrocketing basal metabolic rate and producing hyperpyrexia (temperatures exceeding 40 °C), profound diaphoresis, and severe dehydration; 3) HIGH-OUTPUT CARDIAC FAILURE: T3-induced vasodilation combined with extreme metabolic oxygen demands increases cardiac output initially, but unrelenting tachyarrhythmias precipitate acute high-output cardiac decompensation. Option a accurately explains this cellular pathophysiology. Why the other options fail: option c has thyroid hormone blocking the sodium-potassium pump, which is not its mechanism at these concentrations. Option a raises reverse T3, an inactive metabolite that does not drive the crisis. Option d separates contractility from metabolic rate, when the hormone raises both.",
     strategy: "Thyroid physiology: T3/T4 upregulate beta-adrenergic receptors + uncouple mitochondrial phosphorylation -> extreme calorigenesis (hyperpyrexia), hypermetabolism, and adrenergic storm.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "thyroid-storm", "t3-t4-cellular-actions", "calorigenesis", "beta-adrenergic-receptors"],
@@ -578,24 +578,24 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "The spiral arterioles are sealed by clot in the placental bed, and atony prevents the clot from forming",
+        text: "Contraction of the criss-crossing myometrial fibres compresses the spiral arterioles like living ligatures, and atony leaves them open",
       },
       {
         id: "b",
-        text: "Haemostasis depends on the cervix closing after delivery, and atony leaves the os open and bleeding",
+        text: "The spiral arterioles are sealed by clot in the placental bed, and atony prevents the clot from forming",
       },
       {
         id: "c",
-        text: "The uterine arteries are kinked at the internal os by contraction, and a boggy uterus cannot kink them",
+        text: "Haemostasis depends on the cervix closing after delivery, and atony leaves the os open and bleeding",
       },
       {
         id: "d",
-        text: "Contraction of the criss-crossing myometrial fibres compresses the spiral arterioles like living ligatures, and atony leaves them open",
+        text: "The uterine arteries are kinked at the internal os by contraction, and a boggy uterus cannot kink them",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "a",
     rationale:
-      "At term, the uteroplacental circulation receives approximately 10% to 15% of total maternal cardiac output (roughly 500 to 700 mL of blood per minute). When the placenta detaches from the uterine wall, dozens of high-flow, low-resistance maternal spiral arterioles are sheared open. The body achieves immediate hemostasis NOT via the clotting cascade (which is far too slow to prevent exsanguination within minutes), but through mechanical vasoconstriction: the myometrium consists of three interwoven muscular layers, with the middle layer arranged in a criss-crossing, figure-of-eight network. As the uterus contracts down in response to endogenous oxytocin release, these interlacing myometrial fibers act as 'LIVING LIGATURES,' physically constricting and clamping down on the open spiral arteries like biological tourniquets. In UTERINE ATONY (the cause of >80% of primary PPH), myometrial smooth muscle fails to contract (often due to prolonged labor, uterine overdistension, or bladder distension), leaving spiral vessels wide open to hemorrhage. Immediate fundal massage and uterotonics (oxytocin) stimulate myometrial contractions to halt bleeding. Option d is correct. Why the other options fail: option a relies on clot alone, which cannot seal arterioles carrying 500 to 700 mL a minute without the myometrial clamp. Option b shifts haemostasis to the cervix, which plays no part in it. Option c kinks vessels at the internal os, which is not the mechanism of post-placental haemostasis.",
+      "At term, the uteroplacental circulation receives approximately 10% to 15% of total maternal cardiac output (roughly 500 to 700 mL of blood per minute). When the placenta detaches from the uterine wall, dozens of high-flow, low-resistance maternal spiral arterioles are sheared open. The body achieves immediate hemostasis NOT via the clotting cascade (which is far too slow to prevent exsanguination within minutes), but through mechanical vasoconstriction: the myometrium consists of three interwoven muscular layers, with the middle layer arranged in a criss-crossing, figure-of-eight network. As the uterus contracts down in response to endogenous oxytocin release, these interlacing myometrial fibers act as 'LIVING LIGATURES,' physically constricting and clamping down on the open spiral arteries like biological tourniquets. In UTERINE ATONY (the cause of >80% of primary PPH), myometrial smooth muscle fails to contract (often due to prolonged labor, uterine overdistension, or bladder distension), leaving spiral vessels wide open to hemorrhage. Immediate fundal massage and uterotonics (oxytocin) stimulate myometrial contractions to halt bleeding. Option a is correct. Why the other options fail: option b relies on clot alone, which cannot seal arterioles carrying 500 to 700 mL a minute without the myometrial clamp. Option c shifts haemostasis to the cervix, which plays no part in it. Option d kinks vessels at the internal os, which is not the mechanism of post-placental haemostasis.",
     strategy: "Postpartum hemostasis: Middle myometrial muscle fibers ('living ligatures') contract in figure-8 pattern to mechanically clamp severed spiral arterioles. Uterine atony fails to clamp them -> massive PPH.",
     difficulty: "easy",
     tags: ["anatomy-physiology", "uterine-atony", "postpartum-hemorrhage", "living-ligatures", "myometrial-contraction"],

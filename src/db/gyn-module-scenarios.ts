@@ -8,24 +8,24 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Provide auditory and visual privacy, explain the examination, obtain informed consent, offer a documented chaperone, and keep the visit confidential",
-      },
-      {
-        id: "b",
         text: "Insist that a parent or guardian sign written authorisation before any examination, because she is under 18 years old",
       },
       {
-        id: "c",
+        id: "b",
         text: "Examine her with the door closed but without a chaperone, since she has asked for confidentiality and a third person would breach it",
+      },
+      {
+        id: "c",
+        text: "Provide auditory and visual privacy, explain the examination, obtain informed consent, offer a documented chaperone, and keep the visit confidential",
       },
       {
         id: "d",
         text: "Obtain consent and examine her with a chaperone present, but do not discuss the procedure in advance in case it increases her anxiety",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
-      "Under national and international adolescent sexual and reproductive health guidelines, sexually active adolescents have the right to confidential, non-judgmental counseling, screening, and contraceptive services. For an intimate pelvic examination, the nurse must: (1) guarantee visual and auditory privacy; (2) explain the indications, instruments, and sensations to alleviate anxiety; (3) secure the client's voluntary informed consent; and (4) provide and document the presence of an impartial chaperone to protect both client dignity and provider safety. Why the other options fail: option b applies a parental-authorisation rule that adolescent sexual and reproductive health standards do not impose, and it denies the service she came for. Option c keeps the record confidential but exposes her body, which is not confidentiality and breaches both dignity and the chaperone requirement. Option d keeps the chaperone but removes the explanation, so the consent it takes is not informed.",
+      "Under national and international adolescent sexual and reproductive health guidelines, sexually active adolescents have the right to confidential, non-judgmental counseling, screening, and contraceptive services. For an intimate pelvic examination, the nurse must: (1) guarantee visual and auditory privacy; (2) explain the indications, instruments, and sensations to alleviate anxiety; (3) secure the client's voluntary informed consent; and (4) provide and document the presence of an impartial chaperone to protect both client dignity and provider safety. Why the other options fail: option a applies a parental-authorisation rule that adolescent sexual and reproductive health standards do not impose, and it denies the service she came for. Option b keeps the record confidential but exposes her body, which is not confidentiality and breaches both dignity and the chaperone requirement. Option d keeps the chaperone but removes the explanation, so the consent it takes is not informed.",
     strategy: "Gynaecological examination standards: Privacy + explanation + informed consent + chaperone documentation + non-judgmental adolescent confidentiality.",
     difficulty: "easy",
     tags: ["gynaecology", "ethics", "chaperone", "adolescent-health", "pelvic-examination"],
@@ -42,20 +42,20 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Interpret as a VIA-positive screen showing high-grade precancerous change; offer same-day thermal ablation or cryotherapy, or refer for colposcopy and biopsy",
+        text: "Interpret as inconclusive because the acid was applied for only 1 minute, and repeat the test with a 3-minute application before deciding",
       },
       {
         id: "c",
-        text: "Interpret as inconclusive because the acid was applied for only 1 minute, and repeat the test with a 3-minute application before deciding",
+        text: "Interpret as a VIA-positive screen showing high-grade precancerous change; offer same-day thermal ablation or cryotherapy, or refer for colposcopy and biopsy",
       },
       {
         id: "d",
         text: "Interpret as invasive carcinoma; refer urgently for radical hysterectomy and radiotherapy without taking a biopsy of the lesion",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "c",
     rationale:
-      "In Visual Inspection with Acetic Acid (VIA), dilute acetic acid dehydrates cells and reversibly coagulates nuclear proteins. Precancerous dysplastic cells (cervical intraepithelial neoplasia, CIN) have high nuclear-to-cytoplasmic ratios, causing them to reflect light and appear dense, opaque, well-demarcated acetowhite lesions adjacent to the squamocolumnar junction (SCJ / transformation zone). Under WHO screen-and-treat guidelines for low-resource settings, eligible VIA-positive lesions are treated immediately with thermal ablation or cryotherapy, or referred for colposcopic biopsy if suspicious for invasive carcinoma. Why the other options fail: option a misreads acetowhitening as normal; glycogenated epithelium does not form a dense, well-defined lesion at the squamocolumnar junction, and a 5-year recall is wrong for a screen-positive cervix. Option c invents a 3-minute protocol, when one minute is the standard application and the lesion is already diagnostic. Option d skips histology before radical surgery, which no screening programme permits on a visual inspection alone.",
+      "In Visual Inspection with Acetic Acid (VIA), dilute acetic acid dehydrates cells and reversibly coagulates nuclear proteins. Precancerous dysplastic cells (cervical intraepithelial neoplasia, CIN) have high nuclear-to-cytoplasmic ratios, causing them to reflect light and appear dense, opaque, well-demarcated acetowhite lesions adjacent to the squamocolumnar junction (SCJ / transformation zone). Under WHO screen-and-treat guidelines for low-resource settings, eligible VIA-positive lesions are treated immediately with thermal ablation or cryotherapy, or referred for colposcopic biopsy if suspicious for invasive carcinoma. Why the other options fail: option a misreads acetowhitening as normal; glycogenated epithelium does not form a dense, well-defined lesion at the squamocolumnar junction, and a 5-year recall is wrong for a screen-positive cervix. Option b invents a 3-minute protocol, when one minute is the standard application and the lesion is already diagnostic. Option d skips histology before radical surgery, which no screening programme permits on a visual inspection alone.",
     strategy: "VIA screening: Dense, well-defined acetowhite lesions touching the SCJ = VIA-positive -> screen-and-treat (ablation) or colposcopy referral.",
     difficulty: "medium",
     tags: ["gynaecology", "cervical-cancer", "via-screening", "screen-and-treat", "oncology"],
@@ -72,20 +72,20 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Structural: adenomyosis (PALM-A); proceed to hysterectomy because medical therapy will not control bleeding of this volume",
+        text: "Structural: leiomyoma (PALM-L); correct the iron-deficiency anaemia and start tranexamic acid or a levonorgestrel IUD",
       },
       {
         id: "c",
-        text: "Structural: leiomyoma (PALM-L); correct the iron-deficiency anaemia and start tranexamic acid or a levonorgestrel IUD",
+        text: "Structural: adenomyosis (PALM-A); proceed to hysterectomy because medical therapy will not control bleeding of this volume",
       },
       {
         id: "d",
         text: "Non-structural: ovulatory dysfunction (COEIN-O); induce ovulation with clomiphene and defer treatment of the anaemia",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "b",
     rationale:
-      "The FIGO PALM-COEIN system classifies causes of Abnormal Uterine Bleeding (AUB). PALM denotes structural causes: Polyp, Adenomyosis, Leiomyoma (fibroid), and Malignancy/hyperplasia. COEIN denotes non-structural causes: Coagulopathy, Ovulatory dysfunction, Endometrial, Iatrogenic, and Not yet classified. Uterine leiomyomas (L) increase the endometrial surface area and disrupt myometrial contractility, causing menorrhagia and severe secondary microcytic anaemia. Priority nursing care includes correcting anaemia with iron supplementation, administering antifibrinolytics (tranexamic acid during menses) or LNG-IUS, and surgical referral for myomectomy if childbearing is desired. Why the other options fail: option a selects a non-structural category for a lesion proved on ultrasound, and plasma exchange is not a treatment for coagulopathy. Option b names a structural category that is not present and proceeds to hysterectomy before any medical stabilization. Option d selects a non-structural category and defers the anaemia, which is the immediate threat at a haemoglobin of 7.8 g/dL.",
+      "The FIGO PALM-COEIN system classifies causes of Abnormal Uterine Bleeding (AUB). PALM denotes structural causes: Polyp, Adenomyosis, Leiomyoma (fibroid), and Malignancy/hyperplasia. COEIN denotes non-structural causes: Coagulopathy, Ovulatory dysfunction, Endometrial, Iatrogenic, and Not yet classified. Uterine leiomyomas (L) increase the endometrial surface area and disrupt myometrial contractility, causing menorrhagia and severe secondary microcytic anaemia. Priority nursing care includes correcting anaemia with iron supplementation, administering antifibrinolytics (tranexamic acid during menses) or LNG-IUS, and surgical referral for myomectomy if childbearing is desired. Why the other options fail: option a selects a non-structural category for a lesion proved on ultrasound, and plasma exchange is not a treatment for coagulopathy. Option c names a structural category that is not present and proceeds to hysterectomy before any medical stabilization. Option d selects a non-structural category and defers the anaemia, which is the immediate threat at a haemoglobin of 7.8 g/dL.",
     strategy: "PALM-COEIN: Leiomyoma (L) is a structural cause of AUB. Address profound anaemia (Hb 7.8) and medical hemostasis first.",
     difficulty: "medium",
     tags: ["gynaecology", "fibroids", "leiomyoma", "palm-coein", "heavy-menstrual-bleeding"],
@@ -102,20 +102,20 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Hyperprolactinaemia with suppressed GnRH; the long-term risks are galactorrhoea, headache and growth of a pituitary adenoma",
+        text: "Hyperandrogenism with insulin resistance; the long-term risks are type 2 diabetes, cardiovascular disease and endometrial hyperplasia",
       },
       {
         id: "c",
-        text: "Hypothalamic amenorrhoea from an energy deficit; the long-term risks are low bone density and recurrent stress fractures",
+        text: "Hyperprolactinaemia with suppressed GnRH; the long-term risks are galactorrhoea, headache and growth of a pituitary adenoma",
       },
       {
         id: "d",
-        text: "Hyperandrogenism with insulin resistance; the long-term risks are type 2 diabetes, cardiovascular disease and endometrial hyperplasia",
+        text: "Hypothalamic amenorrhoea from an energy deficit; the long-term risks are low bone density and recurrent stress fractures",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "b",
     rationale:
-      "Polycystic Ovary Syndrome (PCOS) diagnosed by Rotterdam criteria requires at least 2 of 3 features: (1) oligo/anovulation; (2) clinical or biochemical hyperandrogenism; and (3) polycystic ovarian morphology on ultrasound. Hyperinsulinaemia secondary to peripheral insulin resistance stimulates ovarian theca cell androgen production and decreases sex hormone-binding globulin (SHBG). Chronic anovulation leads to persistent, unopposed oestrogen stimulation of the endometrium (without cyclical progesterone from a corpus luteum), predisposing women to endometrial hyperplasia and adenocarcinoma, as well as metabolic syndrome and type 2 diabetes. Why the other options fail: option a describes ovarian failure, which gives a low oestrogen and a raised FSH with hot flushes, not hyperandrogenism with a polycystic ovarian morphology. Option b describes hyperprolactinaemia, which suppresses GnRH and causes amenorrhoea without the hirsutism and insulin resistance seen here. Option c describes hypothalamic amenorrhoea, which produces a low or normal LH and no ovarian enlargement.",
+      "Polycystic Ovary Syndrome (PCOS) diagnosed by Rotterdam criteria requires at least 2 of 3 features: (1) oligo/anovulation; (2) clinical or biochemical hyperandrogenism; and (3) polycystic ovarian morphology on ultrasound. Hyperinsulinaemia secondary to peripheral insulin resistance stimulates ovarian theca cell androgen production and decreases sex hormone-binding globulin (SHBG). Chronic anovulation leads to persistent, unopposed oestrogen stimulation of the endometrium (without cyclical progesterone from a corpus luteum), predisposing women to endometrial hyperplasia and adenocarcinoma, as well as metabolic syndrome and type 2 diabetes. Why the other options fail: option a describes ovarian failure, which gives a low oestrogen and a raised FSH with hot flushes, not hyperandrogenism with a polycystic ovarian morphology. Option c describes hyperprolactinaemia, which suppresses GnRH and causes amenorrhoea without the hirsutism and insulin resistance seen here. Option d describes hypothalamic amenorrhoea, which produces a low or normal LH and no ovarian enlargement.",
     strategy: "PCOS pathophysiology: Hyperinsulinaemia drives androgen excess. Chronic anovulation -> unopposed oestrogen -> high risk of endometrial hyperplasia/cancer.",
     difficulty: "medium",
     tags: ["gynaecology", "pcos", "rotterdam-criteria", "insulin-resistance", "endometrial-cancer-risk"],
@@ -128,24 +128,24 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Endometriosis",
-      },
-      {
-        id: "b",
         text: "Acute appendicitis",
       },
       {
-        id: "c",
+        id: "b",
         text: "Cervical incompetence",
+      },
+      {
+        id: "c",
+        text: "Endometriosis",
       },
       {
         id: "d",
         text: "Primary dysmenorrhoea",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
-      "Endometriosis is characterized by the implantation and proliferation of functional endometrial glands and stroma outside the uterine cavity (most commonly on the ovaries, uterosacral ligaments, pouch of Douglas, and pelvic peritoneum). The classic clinical triad is: (1) secondary dysmenorrhoea; (2) deep dyspareunia; and (3) subfertility/infertility, often accompanied by dyschezia (pain on defecation) and uterosacral nodularity. Primary dysmenorrhoea occurs without pelvic pathology and lacks dyspareunia or nodularity. Definitive diagnosis is established via diagnostic laparoscopy showing 'powder-burn' or 'chocolate' endometriotic lesions. Why the other options fail: option b is an acute abdominal emergency that has no cyclical relation to menstruation, no dyschezia and no uterosacral nodularity. Option c describes painless mid-trimester cervical dilatation, which causes pregnancy loss rather than cyclic pelvic pain. Option d is primary dysmenorrhoea, which begins with the first periods, has no dyspareunia or nodularity, and does not cause infertility.",
+      "Endometriosis is characterized by the implantation and proliferation of functional endometrial glands and stroma outside the uterine cavity (most commonly on the ovaries, uterosacral ligaments, pouch of Douglas, and pelvic peritoneum). The classic clinical triad is: (1) secondary dysmenorrhoea; (2) deep dyspareunia; and (3) subfertility/infertility, often accompanied by dyschezia (pain on defecation) and uterosacral nodularity. Primary dysmenorrhoea occurs without pelvic pathology and lacks dyspareunia or nodularity. Definitive diagnosis is established via diagnostic laparoscopy showing 'powder-burn' or 'chocolate' endometriotic lesions. Why the other options fail: option a is an acute abdominal emergency that has no cyclical relation to menstruation, no dyschezia and no uterosacral nodularity. Option b describes painless mid-trimester cervical dilatation, which causes pregnancy loss rather than cyclic pelvic pain. Option d is primary dysmenorrhoea, which begins with the first periods, has no dyspareunia or nodularity, and does not cause infertility.",
     strategy: "Endometriosis triad: Severe cyclic pelvic pain + deep dyspareunia + subfertility/infertility with uterosacral tenderness/nodularity.",
     difficulty: "easy",
     tags: ["gynaecology", "endometriosis", "dyspareunia", "subfertility", "pelvic-pain"],
@@ -162,20 +162,20 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "MEC category 4: combined hormonal contraceptives are contraindicated, because her age and smoking load give an unacceptable arterial thrombosis risk",
-      },
-      {
-        id: "c",
         text: "MEC category 2: start a low-dose combined pill now and advise her to cut down to fewer than 15 cigarettes a day, then review in 3 months",
       },
       {
-        id: "d",
+        id: "c",
         text: "MEC category 3: prescribe a combined pill containing 20 micrograms of ethinylestradiol, which lowers the clot risk enough to be used",
       },
+      {
+        id: "d",
+        text: "MEC category 4: combined hormonal contraceptives are contraindicated, because her age and smoking load give an unacceptable arterial thrombosis risk",
+      },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "d",
     rationale:
-      "Under the WHO and CDC Medical Eligibility Criteria (MEC): Category 4 represents an absolute contraindication where health risks outweigh any benefits. Age >= 35 years combined with heavy smoking (>= 15 cigarettes/day) synergistically increases hepatic production of clotting factors and promotes arterial vasospasm/thrombosis, dramatically raising the incidence of fatal myocardial infarction, deep venous thrombosis, pulmonary embolism, and ischaemic stroke. Safe, non-oestrogen alternatives for this client include copper IUD, levonorgestrel IUD, progestogen-only implants, or depot medroxyprogesterone acetate (DMPA). Why the other options fail: option a ignores the age and the smoking load, the two variables that set the category. Option c treats a category 2 as permission to start the method that is contraindicated, and adds dose escalation that exists nowhere in the guidance. Option d applies a category 3 to a client who is a 4, and assumes that lowering the oestrogen dose removes an arterial risk that it does not.",
+      "Under the WHO and CDC Medical Eligibility Criteria (MEC): Category 4 represents an absolute contraindication where health risks outweigh any benefits. Age >= 35 years combined with heavy smoking (>= 15 cigarettes/day) synergistically increases hepatic production of clotting factors and promotes arterial vasospasm/thrombosis, dramatically raising the incidence of fatal myocardial infarction, deep venous thrombosis, pulmonary embolism, and ischaemic stroke. Safe, non-oestrogen alternatives for this client include copper IUD, levonorgestrel IUD, progestogen-only implants, or depot medroxyprogesterone acetate (DMPA). Why the other options fail: option a ignores the age and the smoking load, the two variables that set the category. Option b treats a category 2 as permission to start the method that is contraindicated, and adds dose escalation that exists nowhere in the guidance. Option c applies a category 3 to a client who is a 4, and assumes that lowering the oestrogen dose removes an arterial risk that it does not.",
     strategy: "Contraceptive eligibility (MEC 4): Oestrogen-containing methods are absolutely contraindicated in women >= 35 who smoke >= 15 cigarettes/day (thrombosis/stroke risk).",
     difficulty: "easy",
     tags: ["gynaecology", "family-planning", "who-mec", "combined-oral-contraceptives", "contraindications"],
@@ -248,11 +248,11 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Ruptured ectopic pregnancy with haemoperitoneum; secure two large-bore IVs, resuscitate, cross-match blood and prepare for emergency laparotomy",
+        text: "Threatened miscarriage with vagal syncope; give intramuscular morphine for the pain and arrange a repeat ultrasound in the morning",
       },
       {
         id: "b",
-        text: "Threatened miscarriage with vagal syncope; give intramuscular morphine for the pain and arrange a repeat ultrasound in the morning",
+        text: "Ruptured ectopic pregnancy with haemoperitoneum; secure two large-bore IVs, resuscitate, cross-match blood and prepare for emergency laparotomy",
       },
       {
         id: "c",
@@ -263,9 +263,9 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Acute pelvic inflammatory disease with sepsis; start intravenous antibiotics and fluids and reassess after 6 hours",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
-      "This clinical picture is diagnostic of a ruptured ectopic pregnancy with massive haemoperitoneum causing hypovolaemic shock. The classic triad consists of amenorrhoea, unilateral abdominal/pelvic pain, and vaginal bleeding. Referred shoulder tip pain (Kehr's sign) occurs when diaphragmatic peritoneum is irritated by pooled blood (innervated by the phrenic nerve, C3–C5). Marked cervical motion tenderness reflects severe peritoneal irritation. Ruptured ectopic pregnancy is a surgical emergency; immediate resuscitation with two large-bore IV cannulae (14–16 gauge), rapid fluid boluses, blood cross-matching, and urgent surgical hemostasis are mandatory to prevent maternal exsanguination. Why the other options fail: option b treats a shocked client as a threatened miscarriage and gives morphine, which masks deterioration while the bleeding continues. Option c delays surgery by 24 hours in a client with a falling blood pressure and a distended abdomen. Option d attributes the picture to infection, which produces fever and a normal or raised blood pressure, not shoulder-tip pain and shock.",
+      "This clinical picture is diagnostic of a ruptured ectopic pregnancy with massive haemoperitoneum causing hypovolaemic shock. The classic triad consists of amenorrhoea, unilateral abdominal/pelvic pain, and vaginal bleeding. Referred shoulder tip pain (Kehr's sign) occurs when diaphragmatic peritoneum is irritated by pooled blood (innervated by the phrenic nerve, C3–C5). Marked cervical motion tenderness reflects severe peritoneal irritation. Ruptured ectopic pregnancy is a surgical emergency; immediate resuscitation with two large-bore IV cannulae (14–16 gauge), rapid fluid boluses, blood cross-matching, and urgent surgical hemostasis are mandatory to prevent maternal exsanguination. Why the other options fail: option a treats a shocked client as a threatened miscarriage and gives morphine, which masks deterioration while the bleeding continues. Option c delays surgery by 24 hours in a client with a falling blood pressure and a distended abdomen. Option d attributes the picture to infection, which produces fever and a normal or raised blood pressure, not shoulder-tip pain and shock.",
     strategy: "Ruptured ectopic pregnancy: Amenorrhoea + unilateral pain + shock + shoulder pain (phrenic irritation). Resuscitate with large-bore IVs & prep for surgery.",
     difficulty: "medium",
     tags: ["gynaecology", "ectopic-pregnancy", "haemoperitoneum", "hypovolaemic-shock", "surgical-emergency"],
@@ -278,11 +278,11 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Any day she is not bleeding, provided the pregnancy test is negative; active pelvic infection need not delay the procedure",
+        text: "Days 7 to 10, after bleeding has stopped and before ovulation, with a negative pregnancy test and no active pelvic infection",
       },
       {
         id: "b",
-        text: "Days 7 to 10, after bleeding has stopped and before ovulation, with a negative pregnancy test and no active pelvic infection",
+        text: "Any day she is not bleeding, provided the pregnancy test is negative; active pelvic infection need not delay the procedure",
       },
       {
         id: "c",
@@ -293,9 +293,9 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Days 21 to 24, in the luteal phase, so that tubal spasm is reduced and the cavity distends more evenly during injection",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "a",
     rationale:
-      "Hysterosalpingography (HSG) involves fluoroscopic radiopaque contrast injection into the endocervical canal to outline the endometrial cavity and fallopian tubes. Timing is critical: it must be performed during the early follicular phase (days 7–10 of a 28-day cycle), after menstrual flow has completely ceased (to prevent retrograde flushing of menstrual debris/endometrial tissue into the peritoneal cavity and avoid venous extravasation) but BEFORE ovulation occurs (to prevent irradiating or flushing an early fertilised ovum). Active pelvic inflammatory disease is an absolute contraindication because contrast injection can precipitate fulminant pelvic peritonitis. Why the other options fail: option a drops the infection screen, the one absolute contraindication, because contrast injection into an inflamed pelvis can precipitate peritonitis. Option c schedules during menstruation, when debris is flushed retrograde into the peritoneum and venous extravasation is more likely. Option d schedules in the luteal phase, when an early conceptus may be in the tube and tubal spasm distorts the study.",
+      "Hysterosalpingography (HSG) involves fluoroscopic radiopaque contrast injection into the endocervical canal to outline the endometrial cavity and fallopian tubes. Timing is critical: it must be performed during the early follicular phase (days 7–10 of a 28-day cycle), after menstrual flow has completely ceased (to prevent retrograde flushing of menstrual debris/endometrial tissue into the peritoneal cavity and avoid venous extravasation) but BEFORE ovulation occurs (to prevent irradiating or flushing an early fertilised ovum). Active pelvic inflammatory disease is an absolute contraindication because contrast injection can precipitate fulminant pelvic peritonitis. Why the other options fail: option b drops the infection screen, the one absolute contraindication, because contrast injection into an inflamed pelvis can precipitate peritonitis. Option c schedules during menstruation, when debris is flushed retrograde into the peritoneum and venous extravasation is more likely. Option d schedules in the luteal phase, when an early conceptus may be in the tube and tubal spasm distorts the study.",
     strategy: "HSG timing & safety: Days 7-10 (post-menses, pre-ovulation) + negative pregnancy test + absolute exclusion of active pelvic infection.",
     difficulty: "medium",
     tags: ["gynaecology", "hsg", "infertility", "tubal-patency", "diagnostic-procedures"],
@@ -316,16 +316,16 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Threatened miscarriage",
+        text: "Missed miscarriage",
       },
       {
         id: "d",
-        text: "Missed miscarriage",
+        text: "Threatened miscarriage",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "d",
     rationale:
-      "Spontaneous abortion categories in early pregnancy are classified clinically: (1) Threatened abortion: vaginal bleeding occurs, the cervical os remains CLOSED, and the fetus remains viable (cardiac activity present); the pregnancy may proceed successfully to term. (2) Inevitable abortion: bleeding with uterine cramping and the cervical os is DILATED (open), making pregnancy loss unavoidable. (3) Incomplete abortion: cervical os is open with partial expulsion of products of conception. (4) Complete abortion: all products expelled, os closed. (5) Missed abortion: embryo/fetal demise occurs without bleeding or expulsion; os closed. Why the other options fail: option a describes inevitable miscarriage, which requires a dilated os and cramping that this client does not have. Option b describes incomplete miscarriage, which requires an open os and passage of tissue. Option d describes missed miscarriage, in which the embryo has died and is retained, whereas this scan shows cardiac activity. A closed os with a viable embryo is what separates threatened from all three.",
+      "Spontaneous abortion categories in early pregnancy are classified clinically: (1) Threatened abortion: vaginal bleeding occurs, the cervical os remains CLOSED, and the fetus remains viable (cardiac activity present); the pregnancy may proceed successfully to term. (2) Inevitable abortion: bleeding with uterine cramping and the cervical os is DILATED (open), making pregnancy loss unavoidable. (3) Incomplete abortion: cervical os is open with partial expulsion of products of conception. (4) Complete abortion: all products expelled, os closed. (5) Missed abortion: embryo/fetal demise occurs without bleeding or expulsion; os closed. Why the other options fail: option a describes inevitable miscarriage, which requires a dilated os and cramping that this client does not have. Option b describes incomplete miscarriage, which requires an open os and passage of tissue. Option c describes missed miscarriage, in which the embryo has died and is retained, whereas this scan shows cardiac activity. A closed os with a viable embryo is what separates threatened from all three.",
     strategy: "Miscarriage classification: Vaginal bleeding + CLOSED os + VIABLE fetal heartbeat = Threatened miscarriage. Reassurance and pelvic rest.",
     difficulty: "easy",
     tags: ["gynaecology", "miscarriage", "threatened-abortion", "early-pregnancy", "obstetrics"],
@@ -346,16 +346,16 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Treatment can safely wait 48 hours while a pregnancy test and pelvic ultrasound exclude an ectopic pregnancy",
+        text: "Prompt treatment prevents tubal scarring and lowers the lifelong risk of infertility, ectopic pregnancy and chronic pelvic pain",
       },
       {
         id: "d",
-        text: "Prompt treatment prevents tubal scarring and lowers the lifelong risk of infertility, ectopic pregnancy and chronic pelvic pain",
+        text: "Treatment can safely wait 48 hours while a pregnancy test and pelvic ultrasound exclude an ectopic pregnancy",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "c",
     rationale:
-      "Pelvic Inflammatory Disease (PID) is an ascending polymicrobial infection from the endocervix into the endometrium, fallopian tubes (salpingitis), ovaries, and pelvic peritoneum, commonly triggered by Chlamydia trachomatis and Neisseria gonorrhoeae. The CDC guidelines mandate empiric antibiotic therapy in sexually active young women presenting with lower pelvic pain and at least one minimum clinical criterion (cervical motion tenderness, uterine tenderness, or adnexal tenderness). Even brief delays in treatment lead to endosalpingeal deciliation, intraluminal scarring, and tubal occlusion, causing tubal infertility (10% after 1 episode, 40% after 3 episodes), ectopic pregnancy, and chronic debilitating pelvic pain. Why the other options fail: option a delays treatment for a culture that is often negative and that CDC guidance explicitly does not require before antibiotics. Option b adds a threshold that does not exist; any one of the three minimum criteria is enough to treat. Option c gives the same delay a different justification, but ectopic pregnancy is excluded in parallel, not by withholding antibiotics.",
+      "Pelvic Inflammatory Disease (PID) is an ascending polymicrobial infection from the endocervix into the endometrium, fallopian tubes (salpingitis), ovaries, and pelvic peritoneum, commonly triggered by Chlamydia trachomatis and Neisseria gonorrhoeae. The CDC guidelines mandate empiric antibiotic therapy in sexually active young women presenting with lower pelvic pain and at least one minimum clinical criterion (cervical motion tenderness, uterine tenderness, or adnexal tenderness). Even brief delays in treatment lead to endosalpingeal deciliation, intraluminal scarring, and tubal occlusion, causing tubal infertility (10% after 1 episode, 40% after 3 episodes), ectopic pregnancy, and chronic debilitating pelvic pain. Why the other options fail: option a delays treatment for a culture that is often negative and that CDC guidance explicitly does not require before antibiotics. Option b adds a threshold that does not exist; any one of the three minimum criteria is enough to treat. Option d gives the same delay a different justification, but ectopic pregnancy is excluded in parallel, not by withholding antibiotics.",
     strategy: "PID urgency: Minimum criteria (cervical motion tenderness) warrants immediate empiric broad-spectrum antibiotics to prevent permanent tubal scarring and infertility.",
     difficulty: "medium",
     tags: ["gynaecology", "pid", "chlamydia", "gonorrhoea", "infertility-prevention"],
@@ -368,11 +368,11 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Vulvovaginal candidiasis; treat with a topical azole such as clotrimazole, or a single 150 mg oral dose of fluconazole",
+        text: "Bacterial vaginosis; treat with oral metronidazole 400 mg twice daily for 5 days and avoid vaginal azoles",
       },
       {
         id: "b",
-        text: "Bacterial vaginosis; treat with oral metronidazole 400 mg twice daily for 5 days and avoid vaginal azoles",
+        text: "Vulvovaginal candidiasis; treat with a topical azole such as clotrimazole, or a single 150 mg oral dose of fluconazole",
       },
       {
         id: "c",
@@ -383,9 +383,9 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Atrophic vaginitis; treat with topical oestrogen cream and review the vaginal pH after four weeks of therapy",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
-      "Vulvovaginal Candidiasis (typically Candida albicans) presents with intense vulvovaginal pruritus, dysuria, dyspareunia, and classic thick, curd-like, white 'cottage cheese' discharge. The vaginal pH remains acidic (normal, <= 4.5), which distinguishes it from Bacterial Vaginosis and Trichomoniasis (where pH > 4.5). KOH wet mount reveals characteristic pseudohyphae and budding blastospores. Treatment consists of topical azoles (clotrimazole, miconazole pessaries) or single-dose oral fluconazole 150 mg (oral fluconazole is avoided during pregnancy, where topical clotrimazole is preferred). Why the other options fail: option b names bacterial vaginosis, which gives a thin grey discharge with a fishy odour and a pH above 4.5, and metronidazole would not clear the pseudohyphae on the KOH mount. Option c names trichomoniasis, which gives a frothy yellow-green discharge, a pH above 4.5 and motile flagellates, and ceftriaxone does not treat it. Option d names atrophic vaginitis, which follows oestrogen loss and would not show budding yeast.",
+      "Vulvovaginal Candidiasis (typically Candida albicans) presents with intense vulvovaginal pruritus, dysuria, dyspareunia, and classic thick, curd-like, white 'cottage cheese' discharge. The vaginal pH remains acidic (normal, <= 4.5), which distinguishes it from Bacterial Vaginosis and Trichomoniasis (where pH > 4.5). KOH wet mount reveals characteristic pseudohyphae and budding blastospores. Treatment consists of topical azoles (clotrimazole, miconazole pessaries) or single-dose oral fluconazole 150 mg (oral fluconazole is avoided during pregnancy, where topical clotrimazole is preferred). Why the other options fail: option a names bacterial vaginosis, which gives a thin grey discharge with a fishy odour and a pH above 4.5, and metronidazole would not clear the pseudohyphae on the KOH mount. Option c names trichomoniasis, which gives a frothy yellow-green discharge, a pH above 4.5 and motile flagellates, and ceftriaxone does not treat it. Option d names atrophic vaginitis, which follows oestrogen loss and would not show budding yeast.",
     strategy: "Vaginitis differential: Thick curd-like discharge + intense pruritus + pH <= 4.5 + pseudohyphae = Vulvovaginal candidiasis -> Clotrimazole / Fluconazole.",
     difficulty: "easy",
     tags: ["gynaecology", "candidiasis", "vaginitis", "clotrimazole", "infectious-diseases"],
@@ -402,20 +402,20 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Bartholin gland abscess; incise and drain and insert a Word catheter or marsupialise, with sitz baths and analgesia",
-      },
-      {
-        id: "c",
         text: "A sebaceous cyst of the labium majus; incise and express the contents under local anaesthetic and pack the cavity open",
       },
       {
-        id: "d",
+        id: "c",
         text: "A vulval haematoma; apply ice packs and observe for 24 hours, because incision and drainage would increase the bleeding",
       },
+      {
+        id: "d",
+        text: "Bartholin gland abscess; incise and drain and insert a Word catheter or marsupialise, with sitz baths and analgesia",
+      },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "d",
     rationale:
-      "The greater vestibular (Bartholin) glands are located bilaterally at the 4 and 8 o'clock positions of the posterior vaginal introitus. When the duct becomes obstructed, fluid accumulates (Bartholin cyst), which can become acutely infected and form an abscess. The patient develops rapid, severe, throbbing unilateral vulval pain and dyspareunia. Management of an abscess requires incision and drainage. Simple incision alone has an 80% recurrence rate; therefore, placing a Word catheter for 4–6 weeks (allowing epithelialization of a new tract) or performing surgical marsupialization is necessary. Why the other options fail: option a treats a fluctuant, exquisitely tender abscess as an uninfected cyst, which will not settle with compresses and risks spontaneous rupture. Option c names a sebaceous cyst, which is not fixed at the introitus in the 4 o'clock position and does not need open packing. Option d names a haematoma, which follows trauma and is not managed by observation when it is this painful.",
+      "The greater vestibular (Bartholin) glands are located bilaterally at the 4 and 8 o'clock positions of the posterior vaginal introitus. When the duct becomes obstructed, fluid accumulates (Bartholin cyst), which can become acutely infected and form an abscess. The patient develops rapid, severe, throbbing unilateral vulval pain and dyspareunia. Management of an abscess requires incision and drainage. Simple incision alone has an 80% recurrence rate; therefore, placing a Word catheter for 4–6 weeks (allowing epithelialization of a new tract) or performing surgical marsupialization is necessary. Why the other options fail: option a treats a fluctuant, exquisitely tender abscess as an uninfected cyst, which will not settle with compresses and risks spontaneous rupture. Option b names a sebaceous cyst, which is not fixed at the introitus in the 4 o'clock position and does not need open packing. Option c names a haematoma, which follows trauma and is not managed by observation when it is this painful.",
     strategy: "Bartholin abscess: Painful fluctuant mass at 4 or 8 o'clock of introitus. Treatment = I&D with Word catheter placement or marsupialization + sitz baths.",
     difficulty: "easy",
     tags: ["gynaecology", "bartholin-abscess", "vulval-disorders", "word-catheter", "minor-surgery"],
@@ -428,24 +428,24 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Perform a cervical Pap smear now and refer only if the cytology shows high-grade dysplasia, because cytology is the diagnostic test",
+        text: "Take a direct punch biopsy of the cervical mass, or refer urgently for colposcopy and biopsy, to obtain histological confirmation",
       },
       {
         id: "b",
-        text: "Treat the visible lesion with cryotherapy at this visit and review her in 6 months with a repeat screening test, as for a VIA-positive cervix",
+        text: "Perform a cervical Pap smear now and refer only if the cytology shows high-grade dysplasia, because cytology is the diagnostic test",
       },
       {
         id: "c",
-        text: "Take a direct punch biopsy of the cervical mass, or refer urgently for colposcopy and biopsy, to obtain histological confirmation",
+        text: "Treat the visible lesion with cryotherapy at this visit and review her in 6 months with a repeat screening test, as for a VIA-positive cervix",
       },
       {
         id: "d",
         text: "Prescribe a course of metronidazole and doxycycline and re-examine the cervix once the discharge has cleared",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "a",
     rationale:
-      "Post-coital bleeding (contact bleeding), intermenstrual bleeding, and foul-smelling vaginal discharge are cardinal red-flag warning signs of invasive cervical carcinoma. A visible, friable, exophytic, or ulcerated cervical lesion requires an immediate tissue punch biopsy for histological evaluation. A routine cytological screening smear (Pap smear) is inappropriate and contraindicated when a gross, visible lesion is present, because cytology has a false-negative rate of up to 50% in invasive cancer due to surface necrosis and blood obscuring neoplastic cells. Why the other options fail: option a relies on cytology in the presence of a visible, friable mass, where surface necrosis and blood produce a high false-negative rate and a smear cannot stage the lesion. Option b ablates a lesion that has not been sampled, destroying the evidence and delaying diagnosis. Option d treats an assumed infection while a malignant ulcer continues to grow.",
+      "Post-coital bleeding (contact bleeding), intermenstrual bleeding, and foul-smelling vaginal discharge are cardinal red-flag warning signs of invasive cervical carcinoma. A visible, friable, exophytic, or ulcerated cervical lesion requires an immediate tissue punch biopsy for histological evaluation. A routine cytological screening smear (Pap smear) is inappropriate and contraindicated when a gross, visible lesion is present, because cytology has a false-negative rate of up to 50% in invasive cancer due to surface necrosis and blood obscuring neoplastic cells. Why the other options fail: option b relies on cytology in the presence of a visible, friable mass, where surface necrosis and blood produce a high false-negative rate and a smear cannot stage the lesion. Option c ablates a lesion that has not been sampled, destroying the evidence and delaying diagnosis. Option d treats an assumed infection while a malignant ulcer continues to grow.",
     strategy: "Cervical cancer red flags: Post-coital bleeding + visible friable cervical lesion requires direct TISSUE BIOPSY, not a screening Pap smear.",
     difficulty: "easy",
     tags: ["gynaecology", "cervical-cancer", "oncology", "post-coital-bleeding", "biopsy"],
@@ -458,24 +458,24 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Reassure and review in 6 months, because a few episodes of spotting after 12 years of amenorrhoea are usually atrophic",
+        text: "Treat any postmenopausal bleeding as endometrial cancer until it is excluded; refer for transvaginal ultrasound and endometrial biopsy",
       },
       {
         id: "b",
-        text: "Request a cervical smear first, because postmenopausal bleeding is most often caused by cervical rather than endometrial pathology",
+        text: "Reassure and review in 6 months, because a few episodes of spotting after 12 years of amenorrhoea are usually atrophic",
       },
       {
         id: "c",
-        text: "Start combined HRT to stabilise the endometrium and reassess only if the bleeding recurs after 3 months of treatment",
+        text: "Request a cervical smear first, because postmenopausal bleeding is most often caused by cervical rather than endometrial pathology",
       },
       {
         id: "d",
-        text: "Treat any postmenopausal bleeding as endometrial cancer until it is excluded; refer for transvaginal ultrasound and endometrial biopsy",
+        text: "Start combined HRT to stabilise the endometrium and reassess only if the bleeding recurs after 3 months of treatment",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "a",
     rationale:
-      "The cardinal clinical rule in gynaecology is that postmenopausal bleeding (PMB) is presumed to be endometrial adenocarcinoma until definitively excluded. Approximately 10% of women presenting with PMB have underlying endometrial malignancy. Initial diagnostic evaluation includes transvaginal ultrasonography (TVUS): an endometrial thickness <= 4 mm has a > 99% negative predictive value for endometrial cancer. If the endometrium is > 4 mm, irregular, or bleeding persists, outpatient endometrial biopsy (using a Pipelle aspirator) or hysteroscopy with directed biopsy is required. Why the other options fail: option a attributes the bleeding to atrophy and defers the one investigation that excludes cancer; atrophy can cause spotting, but it is a diagnosis of exclusion. Option b investigates the cervix when the endometrium is the source in most cases, and a normal smear does not exclude endometrial cancer. Option c treats the bleeding with the hormone that can drive endometrial proliferation, and delays the biopsy.",
+      "The cardinal clinical rule in gynaecology is that postmenopausal bleeding (PMB) is presumed to be endometrial adenocarcinoma until definitively excluded. Approximately 10% of women presenting with PMB have underlying endometrial malignancy. Initial diagnostic evaluation includes transvaginal ultrasonography (TVUS): an endometrial thickness <= 4 mm has a > 99% negative predictive value for endometrial cancer. If the endometrium is > 4 mm, irregular, or bleeding persists, outpatient endometrial biopsy (using a Pipelle aspirator) or hysteroscopy with directed biopsy is required. Why the other options fail: option b attributes the bleeding to atrophy and defers the one investigation that excludes cancer; atrophy can cause spotting, but it is a diagnosis of exclusion. Option c investigates the cervix when the endometrium is the source in most cases, and a normal smear does not exclude endometrial cancer. Option d treats the bleeding with the hormone that can drive endometrial proliferation, and delays the biopsy.",
     strategy: "Postmenopausal bleeding: Cardinal rule -> Presume endometrial cancer until proven otherwise. Urgent transvaginal ultrasound & Pipelle biopsy.",
     difficulty: "easy",
     tags: ["gynaecology", "endometrial-cancer", "postmenopausal-bleeding", "pipelle-biopsy", "oncology"],
@@ -488,11 +488,11 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Its symptoms are vague and mimic benign gut disorders, so most cases present at stage III or IV; work up with transvaginal ultrasound and CA-125",
+        text: "It arises from the cervical epithelium and spreads without symptoms, which is why smear screening is used; work up with a Pap smear and colposcopy",
       },
       {
         id: "b",
-        text: "It arises from the cervical epithelium and spreads without symptoms, which is why smear screening is used; work up with a Pap smear and colposcopy",
+        text: "Its symptoms are vague and mimic benign gut disorders, so most cases present at stage III or IV; work up with transvaginal ultrasound and CA-125",
       },
       {
         id: "c",
@@ -503,9 +503,9 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "It is commonest in women under 40 and grows rapidly; work up with laparoscopy and a CA-19-9 level, the tumour marker for ovarian cancer",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
-      "Epithelial ovarian cancer is often dubbed the 'silent killer' because it lacks a reliable screening test (Pap smears detect cervical, not ovarian, cells) and produces non-specific, insidious symptoms—persistent bloating, early satiety, pelvic fullness, and urinary frequency—that patients and clinicians frequently attribute to irritable bowel syndrome, dyspepsia, or normal ageing. Consequently, over 70% of women are diagnosed at an advanced stage (FIGO Stage III or IV with peritoneal carcinomatosis and ascites). Workup includes transvaginal ultrasound and serum CA-125 tumor marker testing. Why the other options fail: option b confuses ovarian with cervical cancer and proposes a smear that samples the wrong organ. Option c offers CT and CEA, a marker for colorectal rather than ovarian cancer, and no ovarian mass is truly symptomless until palpable. Option d reverses the age distribution and offers CA-19-9, which is not the ovarian marker.",
+      "Epithelial ovarian cancer is often dubbed the 'silent killer' because it lacks a reliable screening test (Pap smears detect cervical, not ovarian, cells) and produces non-specific, insidious symptoms—persistent bloating, early satiety, pelvic fullness, and urinary frequency—that patients and clinicians frequently attribute to irritable bowel syndrome, dyspepsia, or normal ageing. Consequently, over 70% of women are diagnosed at an advanced stage (FIGO Stage III or IV with peritoneal carcinomatosis and ascites). Workup includes transvaginal ultrasound and serum CA-125 tumor marker testing. Why the other options fail: option a confuses ovarian with cervical cancer and proposes a smear that samples the wrong organ. Option c offers CT and CEA, a marker for colorectal rather than ovarian cancer, and no ovarian mass is truly symptomless until palpable. Option d reverses the age distribution and offers CA-19-9, which is not the ovarian marker.",
     strategy: "Ovarian cancer presentation: Vague GI symptoms (persistent bloating, early satiety, abdominal distension) + solid adnexal mass -> Pelvic ultrasound & CA-125.",
     difficulty: "medium",
     tags: ["gynaecology", "ovarian-cancer", "ca-125", "oncology", "adnexal-mass"],
@@ -518,11 +518,11 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "The progestogen reduces breast tenderness and bloating, which are the commonest reasons women stop hormone therapy in the first year",
+        text: "Unopposed oestrogen drives endometrial proliferation and raises the risk of hyperplasia and adenocarcinoma; the progestogen sheds the lining",
       },
       {
         id: "b",
-        text: "Unopposed oestrogen drives endometrial proliferation and raises the risk of hyperplasia and adenocarcinoma; the progestogen sheds the lining",
+        text: "The progestogen reduces breast tenderness and bloating, which are the commonest reasons women stop hormone therapy in the first year",
       },
       {
         id: "c",
@@ -533,9 +533,9 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "The progestogen prevents the vasomotor flushes from rebounding after 6 months of oestrogen therapy, which is why it is added",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "a",
     rationale:
-      "In postmenopausal women with an intact uterus, systemic oestrogen-only replacement therapy stimulates unchecked endometrial cell proliferation (mitosis), resulting in endometrial hyperplasia and a markedly elevated risk of endometrial adenocarcinoma. Adding a progestogen (either sequentially for cyclical withdrawal bleeding or continuously for amenorrhoea) antagonizes oestrogenic proliferative effects, converting the endometrium to a thin, secretory, atrophic state and preventing malignant transformation. Women who have had a surgical hysterectomy do not have an endometrium and therefore take oestrogen-only HRT. Why the other options fail: option a gives a comfort benefit as the reason for a therapy that is given to prevent cancer. Option c is right that the endometrium is the target but wrong to stop protection after 12 months, when the risk persists for as long as oestrogen is taken. Option d invents a rebound phenomenon and ignores the endometrium entirely.",
+      "In postmenopausal women with an intact uterus, systemic oestrogen-only replacement therapy stimulates unchecked endometrial cell proliferation (mitosis), resulting in endometrial hyperplasia and a markedly elevated risk of endometrial adenocarcinoma. Adding a progestogen (either sequentially for cyclical withdrawal bleeding or continuously for amenorrhoea) antagonizes oestrogenic proliferative effects, converting the endometrium to a thin, secretory, atrophic state and preventing malignant transformation. Women who have had a surgical hysterectomy do not have an endometrium and therefore take oestrogen-only HRT. Why the other options fail: option b gives a comfort benefit as the reason for a therapy that is given to prevent cancer. Option c is right that the endometrium is the target but wrong to stop protection after 12 months, when the risk persists for as long as oestrogen is taken. Option d invents a rebound phenomenon and ignores the endometrium entirely.",
     strategy: "HRT pharmacology: Intact uterus requires COMBINED oestrogen + progestogen (progestogen protects against endometrial cancer). Post-hysterectomy takes oestrogen alone.",
     difficulty: "easy",
     tags: ["gynaecology", "hrt", "menopause", "progestogen", "endometrial-protection"],
@@ -556,16 +556,16 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Fit a vaginal ring pessary with topical oestrogen to protect the mucosa, teach cleaning and replacement, and add pelvic floor training",
+        text: "Insert a weighted vaginal cone daily and remove it only once the prolapse no longer descends when she coughs",
       },
       {
         id: "d",
-        text: "Insert a weighted vaginal cone daily and remove it only once the prolapse no longer descends when she coughs",
+        text: "Fit a vaginal ring pessary with topical oestrogen to protect the mucosa, teach cleaning and replacement, and add pelvic floor training",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "d",
     rationale:
-      "Pelvic organ prolapse (POP) results from attenuation and stretching of the endopelvic fascia and levator ani pelvic diaphragm muscles. In frail older women or those who decline or are unfit for surgery, vaginal pessaries (e.g., silicone ring or Gellhorn pessaries) provide an effective, safe conservative solution. The pessary mechanically elevates the prolapsed pelvic organs. Nursing care includes: (1) ensuring correct size fit; (2) teaching hygiene and removal/cleaning intervals (or scheduling clinic follow-up every 3–6 months); (3) prescribing local topical oestrogen cream to prevent vaginal epithelial ulceration; and (4) pelvic floor muscle training. Why the other options fail: option a uses a pessary without oestrogen and leaves it a year, which risks mucosal erosion and ulceration in an atrophic vagina. Option b asks the client to bear down, which raises intra-abdominal pressure and worsens prolapse rather than strengthening the floor. Option d uses a weighted cone, which is not a prolapse device and cannot be left in until the prolapse stops descending.",
+      "Pelvic organ prolapse (POP) results from attenuation and stretching of the endopelvic fascia and levator ani pelvic diaphragm muscles. In frail older women or those who decline or are unfit for surgery, vaginal pessaries (e.g., silicone ring or Gellhorn pessaries) provide an effective, safe conservative solution. The pessary mechanically elevates the prolapsed pelvic organs. Nursing care includes: (1) ensuring correct size fit; (2) teaching hygiene and removal/cleaning intervals (or scheduling clinic follow-up every 3–6 months); (3) prescribing local topical oestrogen cream to prevent vaginal epithelial ulceration; and (4) pelvic floor muscle training. Why the other options fail: option a uses a pessary without oestrogen and leaves it a year, which risks mucosal erosion and ulceration in an atrophic vagina. Option b asks the client to bear down, which raises intra-abdominal pressure and worsens prolapse rather than strengthening the floor. Option c uses a weighted cone, which is not a prolapse device and cannot be left in until the prolapse stops descending.",
     strategy: "Pelvic organ prolapse: Conservative care for high surgical risk = Vaginal pessary + local oestrogen cream to prevent erosion + Kegel exercises.",
     difficulty: "medium",
     tags: ["gynaecology", "pelvic-organ-prolapse", "cystocele", "pessary-care", "gerontology"],
@@ -578,24 +578,24 @@ export const GYN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Collect the forensic evidence first and defer emotional support until the examination is over, so that the samples are not lost",
+        text: "Ensure safety and support; with consent collect forensic evidence; give emergency contraception, HIV PEP and STI prophylaxis; arrange counselling",
       },
       {
         id: "b",
-        text: "Give HIV PEP only if the assailant is known to be positive, and defer emergency contraception until a pregnancy test is back",
+        text: "Collect the forensic evidence first and defer emotional support until the examination is over, so that the samples are not lost",
       },
       {
         id: "c",
-        text: "Advise her to report to the police before any examination, since evidence cannot be collected without a case number",
+        text: "Give HIV PEP only if the assailant is known to be positive, and defer emergency contraception until a pregnancy test is back",
       },
       {
         id: "d",
-        text: "Ensure safety and support; with consent collect forensic evidence; give emergency contraception, HIV PEP and STI prophylaxis; arrange counselling",
+        text: "Advise her to report to the police before any examination, since evidence cannot be collected without a case number",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "a",
     rationale:
-      "Management of sexual assault requires a compassionate, trauma-informed approach addressing immediate medical, legal, and psychological needs: (1) Physical and psychological safety in a private environment; (2) Forensic evidence collection (clothing, swabs) before bathing, maintaining strict chain of custody; (3) Emergency contraception (levonorgestrel, ulipristal, or copper IUD) to prevent unwanted pregnancy; (4) HIV Post-Exposure Prophylaxis (PEP) started urgently within 72 hours and continued for 28 days; (5) Empiric antimicrobial prophylaxis against gonorrhoea, chlamydia, and trichomoniasis; (6) Tetanus and Hepatitis B vaccination; and (7) Structured psychological crisis intervention. Why the other options fail: option a sequences evidence before support, when a crying, trembling client cannot give informed consent to anything until she is settled. Option b makes PEP conditional on knowing the assailant's status, which is not required, and defers contraception that is time-critical. Option c makes a police case number a precondition of care, which no service requires and which re-traumatises the client.",
+      "Management of sexual assault requires a compassionate, trauma-informed approach addressing immediate medical, legal, and psychological needs: (1) Physical and psychological safety in a private environment; (2) Forensic evidence collection (clothing, swabs) before bathing, maintaining strict chain of custody; (3) Emergency contraception (levonorgestrel, ulipristal, or copper IUD) to prevent unwanted pregnancy; (4) HIV Post-Exposure Prophylaxis (PEP) started urgently within 72 hours and continued for 28 days; (5) Empiric antimicrobial prophylaxis against gonorrhoea, chlamydia, and trichomoniasis; (6) Tetanus and Hepatitis B vaccination; and (7) Structured psychological crisis intervention. Why the other options fail: option b sequences evidence before support, when a crying, trembling client cannot give informed consent to anything until she is settled. Option c makes PEP conditional on knowing the assailant's status, which is not required, and defers contraception that is time-critical. Option d makes a police case number a precondition of care, which no service requires and which re-traumatises the client.",
     strategy: "Sexual assault care bundle: Safety/trauma-informed care + forensic chain of custody + emergency contraception + HIV PEP (< 72 h) + empiric STI prophylaxis + counseling.",
     difficulty: "easy",
     tags: ["gynaecology", "sexual-assault", "trauma-informed-care", "hiv-pep", "emergency-contraception"],

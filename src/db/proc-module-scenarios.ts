@@ -8,24 +8,24 @@ export const PROC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Gloves first, followed by eye protection (goggles/face shield), gown, mask or respirator, and perform immediate hand hygiene",
-      },
-      {
-        id: "b",
         text: "Mask or respirator first, then gown, then gloves, then eye protection, with hand hygiene performed only after leaving the room",
       },
       {
-        id: "c",
+        id: "b",
         text: "Gown and gloves together, rolled inside out into a bundle, then eye protection and mask together at the door before hand hygiene",
       },
       {
-        id: "d",
+        id: "c",
         text: "Eye protection first while the gloves are still on, then gloves, then gown, then mask, with hand hygiene after the mask is removed",
       },
+      {
+        id: "d",
+        text: "Gloves first, followed by eye protection (goggles/face shield), gown, mask or respirator, and perform immediate hand hygiene",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
-      "The outer surfaces of gloves and the front of the gown are heavily contaminated during patient care. The CDC recommended sequence for doffing PPE minimizes transmission to clean skin and mucous membranes: (1) Gloves are removed first (glove-in-glove technique) because they are the most heavily contaminated item; (2) Goggles or face shield are removed by grasping the clean headband/earpieces; (3) Gown is unfastened, peeled away from neck and shoulders, turned inside out, and rolled into a bundle; (4) Mask or respirator is removed last (touching only the clean elastic strings/ties, never the front surface) after exiting the room (or just before exiting for non-airborne precautions); and (5) Hand hygiene is performed immediately. Why the other options fail: removing the mask first (option b) feels right because the mask covers the face, but it is the last item removed in a doffing sequence because the hands must be free of contamination before they touch the straps behind the head. Option c bundles the two most contaminated items together, which means handling a soiled gown with soiled gloves and then carrying that contamination to the eye protection. Option d reverses the first two steps: removing goggles while wearing gloves transfers glove contamination directly to the face and hair.",
+      "The outer surfaces of gloves and the front of the gown are heavily contaminated during patient care. The CDC recommended sequence for doffing PPE minimizes transmission to clean skin and mucous membranes: (1) Gloves are removed first (glove-in-glove technique) because they are the most heavily contaminated item; (2) Goggles or face shield are removed by grasping the clean headband/earpieces; (3) Gown is unfastened, peeled away from neck and shoulders, turned inside out, and rolled into a bundle; (4) Mask or respirator is removed last (touching only the clean elastic strings/ties, never the front surface) after exiting the room (or just before exiting for non-airborne precautions); and (5) Hand hygiene is performed immediately. Why the other options fail: removing the mask first (option a) feels right because the mask covers the face, but it is the last item removed in a doffing sequence because the hands must be free of contamination before they touch the straps behind the head. Option b bundles the two most contaminated items together, which means handling a soiled gown with soiled gloves and then carrying that contamination to the eye protection. Option c reverses the first two steps: removing goggles while wearing gloves transfers glove contamination directly to the face and hair.",
     strategy: "PPE doffing order: Gloves first (most contaminated) -> Goggles/face shield -> Gown -> Mask/respirator last -> Immediate hand hygiene.",
     difficulty: "easy",
     tags: ["procedures", "ppe", "doffing-sequence", "infection-control", "safety"],
@@ -42,20 +42,20 @@ export const PROC_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Confirm decision-making capacity, have the physician explain the specific risks, explore reasons for leaving, obtain the DAMA signature, and provide discharge medications and a welcome to return",
+        text: "Ask the client to sign the DAMA form before any further discussion and supply the prescribed medications, so the treatment plan continues at home",
       },
       {
         id: "c",
-        text: "Ask the client to sign the DAMA form before any further discussion and supply the prescribed medications, so the treatment plan continues at home",
+        text: "Confirm decision-making capacity, have the physician explain the specific risks, explore reasons for leaving, obtain the DAMA signature, and provide discharge medications and a welcome to return",
       },
       {
         id: "d",
         text: "Explain the risks once and let the client leave without further documentation, since a refusal signed under pressure cannot be relied on in law",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "c",
     rationale:
-      "A mentally competent adult has the legal right to refuse medical care and leave a healthcare facility against medical advice (DAMA). Restraining the client or withholding belongings constitutes false imprisonment and battery. The nurse's professional responsibility includes: (1) confirming the client has decisional capacity (understands situation and consequences); (2) facilitating an urgent discussion where the physician explains specific risks (e.g., sudden cardiac death); (3) exploring underlying barriers (childcare, finances, business) to find alternatives; (4) offering the DAMA release form for signature (or documenting refusal to sign); and (5) providing discharge medications, essential advice, and explicitly welcoming the client back if symptoms recur. Why the other options fail: option a gets the legal principle right and the nursing obligation wrong. A competent adult cannot be detained, but documenting the exit without assessing capacity or arranging the risk discussion leaves out the part that protects the client and the nurse. Option c reverses the order: taking a signature before the risks have been explained produces a form that records nothing of value. Option d abandons documentation altogether, and the reasoning it offers is the opposite of the law, which is that a contemporaneous record of risks explained is exactly what makes a refusal defensible.",
+      "A mentally competent adult has the legal right to refuse medical care and leave a healthcare facility against medical advice (DAMA). Restraining the client or withholding belongings constitutes false imprisonment and battery. The nurse's professional responsibility includes: (1) confirming the client has decisional capacity (understands situation and consequences); (2) facilitating an urgent discussion where the physician explains specific risks (e.g., sudden cardiac death); (3) exploring underlying barriers (childcare, finances, business) to find alternatives; (4) offering the DAMA release form for signature (or documenting refusal to sign); and (5) providing discharge medications, essential advice, and explicitly welcoming the client back if symptoms recur. Why the other options fail: option a gets the legal principle right and the nursing obligation wrong. A competent adult cannot be detained, but documenting the exit without assessing capacity or arranging the risk discussion leaves out the part that protects the client and the nurse. Option b reverses the order: taking a signature before the risks have been explained produces a form that records nothing of value. Option d abandons documentation altogether, and the reasoning it offers is the opposite of the law, which is that a contemporaneous record of risks explained is exactly what makes a refusal defensible.",
     strategy: "DAMA protocol: Confirm capacity -> Explain specific life-threatening risks -> Explore compromises -> Request DAMA signature -> Provide discharge meds & welcome back.",
     difficulty: "medium",
     tags: ["procedures", "dama", "ethics", "autonomy", "legal-nursing"],
@@ -68,24 +68,24 @@ export const PROC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "An auscultatory gap; record 128/84, because the higher sounds are arterial wall artefact rather than true systolic pressure",
+        text: "An auscultatory gap — record 168/84 and, at later readings, inflate beyond the point where the radial pulse disappears so the true systolic is not missed",
       },
       {
         id: "b",
-        text: "A normal Korotkoff sequence; record 150/84, treating the point at which sounds disappear as the systolic pressure",
+        text: "An auscultatory gap; record 128/84, because the higher sounds are arterial wall artefact rather than true systolic pressure",
       },
       {
         id: "c",
-        text: "An auscultatory gap — record 168/84 and, at later readings, inflate beyond the point where the radial pulse disappears so the true systolic is not missed",
+        text: "A normal Korotkoff sequence; record 150/84, treating the point at which sounds disappear as the systolic pressure",
       },
       {
         id: "d",
         text: "A widened phase IV; record 168/128 and repeat the measurement on the opposite arm to confirm the finding before documenting it",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "a",
     rationale:
-      "An auscultatory gap is a silent interval between the first Korotkoff sound and the return of phase II sounds, seen most often in older hypertensive clients and in aortic stenosis. It matters because if the cuff is inflated only to the expected systolic, the first sounds fall inside the gap and the true systolic is missed, so the reading is falsely low. The safeguard is to palpate the radial artery while inflating 20 to 30 mmHg beyond the point where the pulse disappears, then deflate at 2 to 3 mmHg per second. The first sound heard is the systolic (168) and the final disappearance is the diastolic (84). Why the other options fail: recording 128/84 (option a) mistakes the return of phase II for the systolic and underestimates the pressure by 40 mmHg. Option b calls a 22 mmHg silent interval between phases I and II a normal sequence, and takes a disappearance point as systolic, which no Korotkoff phase ever is. Option d names a phase IV change rather than a gap and pairs the true systolic with the phase II return as though that were the diastolic.",
+      "An auscultatory gap is a silent interval between the first Korotkoff sound and the return of phase II sounds, seen most often in older hypertensive clients and in aortic stenosis. It matters because if the cuff is inflated only to the expected systolic, the first sounds fall inside the gap and the true systolic is missed, so the reading is falsely low. The safeguard is to palpate the radial artery while inflating 20 to 30 mmHg beyond the point where the pulse disappears, then deflate at 2 to 3 mmHg per second. The first sound heard is the systolic (168) and the final disappearance is the diastolic (84). Why the other options fail: recording 128/84 (option b) mistakes the return of phase II for the systolic and underestimates the pressure by 40 mmHg. Option c calls a 22 mmHg silent interval between phases I and II a normal sequence, and takes a disappearance point as systolic, which no Korotkoff phase ever is. Option d names a phase IV change rather than a gap and pairs the true systolic with the phase II return as though that were the diastolic.",
     strategy: "A silent interval between phases I and II is an auscultatory gap. Record the first sound heard as systolic and the last sound heard as diastolic, and inflate well above the palpated systolic so the gap cannot hide it.",
     difficulty: "easy",
     tags: ["procedures", "vital-signs", "blood-pressure", "auscultatory-gap", "korotkoff"],
@@ -162,20 +162,20 @@ export const PROC_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Bed at elbow height of the shorter nurse, head flat, friction-reducing slide sheet under the torso, knees and hips bent, wide base, and move on a synchronized count",
+        text: "Raise the head of the bed to 45 degrees, place a slide sheet under the client, and have one nurse pull while the other lifts the client's shoulders clear of the mattress",
       },
       {
         id: "c",
-        text: "Raise the head of the bed to 45 degrees, place a slide sheet under the client, and have one nurse pull while the other lifts the client's shoulders clear of the mattress",
+        text: "Bed at elbow height of the shorter nurse, head flat, friction-reducing slide sheet under the torso, knees and hips bent, wide base, and move on a synchronized count",
       },
       {
         id: "d",
         text: "Use a hoist without checking that the sling size matches the client, and ask the client to hold the nurses' shoulders and pull themselves up to help with the transfer",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "c",
     rationale:
-      "Safe patient handling and ergonomic guidelines protect both health workers and clients: (1) elevate the bed surface to the working height of the caregivers (elbow/waist level) to eliminate spinal stooping; (2) flatten the bed (lowering head of bed) so gravity does not oppose upward movement; (3) use friction-reducing slide sheets or draw sheets to reduce shear forces and friction that damage fragile skin; (4) maintain proper body mechanics (wide base of support with feet shoulder-width apart, knees and hips flexed, spine neutral, lifting by shifting body weight using leg and gluteal muscles rather than lumbar spine muscles); and (5) coordinate movements on a verbal count. Why the other options fail: option a is the classic injury posture: bending from the waist with straight knees loads the lumbar spine and puts the nurses at risk rather than the client. Option c raises the head of the bed, so gravity now opposes the move, and lifting the shoulders clear of the mattress converts a slide into a lift. Option d uses the right equipment carelessly and then adds a pull on the nurses' shoulders, which is both a client fall risk and an injury risk for the staff.",
+      "Safe patient handling and ergonomic guidelines protect both health workers and clients: (1) elevate the bed surface to the working height of the caregivers (elbow/waist level) to eliminate spinal stooping; (2) flatten the bed (lowering head of bed) so gravity does not oppose upward movement; (3) use friction-reducing slide sheets or draw sheets to reduce shear forces and friction that damage fragile skin; (4) maintain proper body mechanics (wide base of support with feet shoulder-width apart, knees and hips flexed, spine neutral, lifting by shifting body weight using leg and gluteal muscles rather than lumbar spine muscles); and (5) coordinate movements on a verbal count. Why the other options fail: option a is the classic injury posture: bending from the waist with straight knees loads the lumbar spine and puts the nurses at risk rather than the client. Option b raises the head of the bed, so gravity now opposes the move, and lifting the shoulders clear of the mattress converts a slide into a lift. Option d uses the right equipment carelessly and then adds a pull on the nurses' shoulders, which is both a client fall risk and an injury risk for the staff.",
     strategy: "Ergonomic transfer: Bed at elbow height + flat head of bed + friction-reducing slide sheet + bend knees/wide base + shift weight together.",
     difficulty: "easy",
     tags: ["procedures", "ergonomics", "body-mechanics", "patient-transfer", "shear-prevention"],
@@ -192,20 +192,20 @@ export const PROC_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Wash from the scrotum upward toward the meatus in one stroke, replacing the foreskin afterwards, so the most contaminated area is cleaned first",
+        text: "Retract the foreskin, cleanse the glans from the meatus outward in circles, wash down the shaft, then replace the foreskin immediately to prevent paraphimosis",
       },
       {
         id: "c",
-        text: "Retract the foreskin, cleanse the glans from the meatus outward in circles, wash down the shaft, then replace the foreskin immediately to prevent paraphimosis",
+        text: "Wash from the scrotum upward toward the meatus in one stroke, replacing the foreskin afterwards, so the most contaminated area is cleaned first",
       },
       {
         id: "d",
         text: "Retract the foreskin and cleanse with an alcohol-based rub to reduce bacterial colonisation, then replace it and apply powder to keep the skin dry and free of odour",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "b",
     rationale:
-      "Perineal care for an uncircumcised male requires retracting the prepuce (foreskin) to clean accumulated smegma and secretions. The nurse washes from the cleanest area to the dirtiest: starting at the urethral meatus and wiping in circular outward motions around the glans toward the corona. Crucially, the nurse must REPOSITION (reduce) the foreskin back over the glans immediately after cleansing. Leaving the foreskin retracted causes constricting bands around the penile shaft, venous stasis, severe edema, arterial compromise, and penile ischemia—a surgical emergency known as paraphimosis. Why the other options fail: option a gets the cleansing right and then leaves the foreskin retracted, which is precisely the mechanism of paraphimosis, and a constricting band behind the glans can cause arterial compromise within hours. Option b reverses the direction of cleaning, carrying faecal organisms from the scrotum to the meatus and into the catheter. Option d adds an alcohol rub to mucous membrane, which is painful and damaging, and powder under a replaced foreskin promotes maceration.",
+      "Perineal care for an uncircumcised male requires retracting the prepuce (foreskin) to clean accumulated smegma and secretions. The nurse washes from the cleanest area to the dirtiest: starting at the urethral meatus and wiping in circular outward motions around the glans toward the corona. Crucially, the nurse must REPOSITION (reduce) the foreskin back over the glans immediately after cleansing. Leaving the foreskin retracted causes constricting bands around the penile shaft, venous stasis, severe edema, arterial compromise, and penile ischemia—a surgical emergency known as paraphimosis. Why the other options fail: option a gets the cleansing right and then leaves the foreskin retracted, which is precisely the mechanism of paraphimosis, and a constricting band behind the glans can cause arterial compromise within hours. Option c reverses the direction of cleaning, carrying faecal organisms from the scrotum to the meatus and into the catheter. Option d adds an alcohol rub to mucous membrane, which is painful and damaging, and powder under a replaced foreskin promotes maceration.",
     strategy: "Male perineal care: Retract foreskin -> Cleanse meatus outwards in circles -> IMMEDIATELY replace foreskin to prevent fatal paraphimosis.",
     difficulty: "easy",
     tags: ["procedures", "perineal-care", "hygiene", "paraphimosis-prevention", "catheter-care"],
@@ -248,11 +248,11 @@ export const PROC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Transient hypotension, post-obstructive diuresis with electrolyte depletion, and decompression hematuria",
+        text: "Acute kidney injury from reflex vasoconstriction, with oliguria for 24 hours and a rising creatinine that requires fluid restriction",
       },
       {
         id: "b",
-        text: "Acute kidney injury from reflex vasoconstriction, with oliguria for 24 hours and a rising creatinine that requires fluid restriction",
+        text: "Transient hypotension, post-obstructive diuresis with electrolyte depletion, and decompression hematuria",
       },
       {
         id: "c",
@@ -263,9 +263,9 @@ export const PROC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Gross haematuria from traumatic insertion, needing continuous bladder irrigation through a three-lumen catheter",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
-      "Rapid evacuation of a massively distended bladder (> 1,000 mL) abruptly relieves intra-abdominal and pelvic venous compression, leading to splanchnic venous pooling and transient orthostatic hypotension. In addition, relief of prolonged bilateral urinary obstruction can trigger 'post-obstructive diuresis'—a massive polyuria due to impaired renal tubular concentrating ability, risking severe dehydration, hypokalaemia, and hyponatraemia. Rupture of engorged mucosal capillaries in the rapidly collapsing bladder wall can also cause decompression hematuria. The nurse monitors vital signs, true urine output hourly, and serum electrolytes. Why the other options fail: option b predicts oliguria, but the physiological response to relieving prolonged obstruction is the opposite: the tubules have lost their concentrating ability, so large volumes of dilute urine are passed. Option c reverses the haemodynamic direction; decompression causes venodilation and hypotension, not hypertensive crisis. Option d attributes bleeding to insertion trauma, but decompression haematuria comes from ruptured mucosal capillaries in a bladder wall that has suddenly collapsed, and it does not usually need irrigation.",
+      "Rapid evacuation of a massively distended bladder (> 1,000 mL) abruptly relieves intra-abdominal and pelvic venous compression, leading to splanchnic venous pooling and transient orthostatic hypotension. In addition, relief of prolonged bilateral urinary obstruction can trigger 'post-obstructive diuresis'—a massive polyuria due to impaired renal tubular concentrating ability, risking severe dehydration, hypokalaemia, and hyponatraemia. Rupture of engorged mucosal capillaries in the rapidly collapsing bladder wall can also cause decompression hematuria. The nurse monitors vital signs, true urine output hourly, and serum electrolytes. Why the other options fail: option a predicts oliguria, but the physiological response to relieving prolonged obstruction is the opposite: the tubules have lost their concentrating ability, so large volumes of dilute urine are passed. Option c reverses the haemodynamic direction; decompression causes venodilation and hypotension, not hypertensive crisis. Option d attributes bleeding to insertion trauma, but decompression haematuria comes from ruptured mucosal capillaries in a bladder wall that has suddenly collapsed, and it does not usually need irrigation.",
     strategy: "Bladder decompression risks: Rapid drainage of > 1,000 mL can cause hypotension, post-obstructive diuresis (electrolyte loss), and decompression hematuria.",
     difficulty: "medium",
     tags: ["procedures", "urinary-retention", "post-obstructive-diuresis", "catheterization", "renal"],
@@ -282,20 +282,20 @@ export const PROC_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Withdraw the tube slightly into the nasopharynx, stop advancing, assess airway and saturation, let the client rest, then re-advance with chin tucked to chest",
+        text: "Stop advancing, leave the tube at its current depth, give oxygen by mask, and then continue advancing slowly while the client swallows between breaths",
       },
       {
         id: "c",
-        text: "Stop advancing, leave the tube at its current depth, give oxygen by mask, and then continue advancing slowly while the client swallows between breaths",
+        text: "Withdraw the tube slightly into the nasopharynx, stop advancing, assess airway and saturation, let the client rest, then re-advance with chin tucked to chest",
       },
       {
         id: "d",
         text: "Ask the client to cough forcefully to clear the tube from the airway, then deflate the cuff if present and advance the tube further towards the stomach",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "c",
     rationale:
-      "Coughing, choking, dyspnoea, stridor, or cyanosis during NG tube insertion indicates that the tube has entered the larynx/trachea rather than the esophagus. The nurse must immediately stop advancing and pull the tube back into the posterior nasopharynx to relieve airway compromise. Once the client recovers, takes deep breaths, and normal color returns, the nurse instructs the client to tuck their chin down toward their chest (which closes the glottis over the trachea and opens the esophagus) and advance the tube gently as the client takes sips of water through a straw. Why the other options fail: option a is the over-reaction that costs time and trauma; the tube only needs withdrawing to the nasopharynx, not removing and restarting in the other nostril, and the airway must be assessed first. Option c leaves the tube in the airway while oxygen is applied and then advances it further, which pushes it deeper into the trachea. Option d asks a choking client to cough around an obstructing tube and then advances it, worsening the obstruction instead of relieving it.",
+      "Coughing, choking, dyspnoea, stridor, or cyanosis during NG tube insertion indicates that the tube has entered the larynx/trachea rather than the esophagus. The nurse must immediately stop advancing and pull the tube back into the posterior nasopharynx to relieve airway compromise. Once the client recovers, takes deep breaths, and normal color returns, the nurse instructs the client to tuck their chin down toward their chest (which closes the glottis over the trachea and opens the esophagus) and advance the tube gently as the client takes sips of water through a straw. Why the other options fail: option a is the over-reaction that costs time and trauma; the tube only needs withdrawing to the nasopharynx, not removing and restarting in the other nostril, and the airway must be assessed first. Option b leaves the tube in the airway while oxygen is applied and then advances it further, which pushes it deeper into the trachea. Option d asks a choking client to cough around an obstructing tube and then advances it, worsening the obstruction instead of relieving it.",
     strategy: "NG tube respiratory distress: Coughing/choking/cyanosis = tube in trachea! Stop immediately, withdraw slightly into nasopharynx, let client breathe, then advance with chin-tuck and swallows.",
     difficulty: "easy",
     tags: ["procedures", "ng-tube", "tube-insertion", "airway-safety", "clinical-nursing"],
@@ -312,20 +312,20 @@ export const PROC_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Venous congestion from a tight stoma support; apply warm moist compresses and reassess the colour at the next dressing round",
+        text: "The stoma is necrotic due to vascular compromise/ischemia; notify the surgical team immediately as this requires urgent surgical re-exploration",
       },
       {
         id: "c",
-        text: "The stoma is necrotic due to vascular compromise/ischemia; notify the surgical team immediately as this requires urgent surgical re-exploration",
+        text: "Venous congestion from a tight stoma support; apply warm moist compresses and reassess the colour at the next dressing round",
       },
       {
         id: "d",
         text: "Retained blood pigment from theatre; clean the stoma gently with saline and chlorhexidine to reveal the true mucosal colour",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "b",
     rationale:
-      "A healthy, viable newly created gastrointestinal stoma is beefy red or pink, moist, warm, and slightly edematous (resembling buccal oral mucosa). A dusky, dark red, purple, brown, or black stoma indicates inadequate arterial blood supply or severe venous congestion resulting in stomal ischemia and necrosis. This is a post-operative surgical emergency. The nurse must immediately notify the surgeon for urgent evaluation, inspect the depth of necrosis using a small glass test tube with a penlight (to evaluate whether necrosis extends below the peritoneal fascial level), and prepare the client for potential surgical revision. Why the other options fail: option a describes a real phenomenon but the wrong one: slough is a superficial yellow-white film over pink mucosa, whereas a uniformly purple-black, flaccid, dry stoma is full-thickness ischaemia. Option b identifies congestion but prescribes a dressing-round reassessment, which delays the only intervention that saves the stoma. Option d treats a surgical emergency as a cleaning problem, and chlorhexidine on an ischaemic stoma adds chemical injury to the existing insult.",
+      "A healthy, viable newly created gastrointestinal stoma is beefy red or pink, moist, warm, and slightly edematous (resembling buccal oral mucosa). A dusky, dark red, purple, brown, or black stoma indicates inadequate arterial blood supply or severe venous congestion resulting in stomal ischemia and necrosis. This is a post-operative surgical emergency. The nurse must immediately notify the surgeon for urgent evaluation, inspect the depth of necrosis using a small glass test tube with a penlight (to evaluate whether necrosis extends below the peritoneal fascial level), and prepare the client for potential surgical revision. Why the other options fail: option a describes a real phenomenon but the wrong one: slough is a superficial yellow-white film over pink mucosa, whereas a uniformly purple-black, flaccid, dry stoma is full-thickness ischaemia. Option c identifies congestion but prescribes a dressing-round reassessment, which delays the only intervention that saves the stoma. Option d treats a surgical emergency as a cleaning problem, and chlorhexidine on an ischaemic stoma adds chemical injury to the existing insult.",
     strategy: "Stoma viability: Normal stoma = Beefy red/pink & moist. Purple/dark/black stoma = ISCHEMIA/NECROSIS. Immediate surgical notification required.",
     difficulty: "easy",
     tags: ["procedures", "stoma-care", "colostomy", "stomal-necrosis", "surgical-emergency"],
@@ -368,24 +368,24 @@ export const PROC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Phlebitis (Grade 3); stop the infusion, remove the cannula, apply a warm moist compress, elevate the arm, and restart access in the opposite arm",
-      },
-      {
-        id: "b",
         text: "Chemical phlebitis; slow the infusion, apply a cool compress to the cord, and continue through the same cannula so that the vein is not lost and access is preserved",
       },
       {
-        id: "c",
+        id: "b",
         text: "Superficial thrombophlebitis; use the other lumen of the same catheter and apply heparinoid gel along the palpable cord to disperse the clot",
       },
       {
-        id: "d",
+        id: "c",
         text: "Infiltration from the cannula tip dislodging into tissue; aspirate the cannula, then restart the infusion proximal to the swelling on the same arm",
       },
+      {
+        id: "d",
+        text: "Phlebitis (Grade 3); stop the infusion, remove the cannula, apply a warm moist compress, elevate the arm, and restart access in the opposite arm",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
-      "Phlebitis is chemical, mechanical, or bacterial inflammation of the vein tunica intima. The classic clinical presentation includes erythema, localized warmth, pain/tenderness, and a palpable indurated venous cord (Grade 3 on the Infusion Nurses Society Phlebitis Scale). Priority management: (1) immediately stop the infusion and remove the cannula; (2) apply a warm, moist compress to relieve inflammation and promote venous blood flow; (3) elevate the affected extremity; (4) document findings and score; and (5) resite the new IV line in the contralateral extremity if ongoing therapy is required. In contrast, infiltration presents with coolness, blanching, and soft edema. Why the other options fail: option b uses the right word and the wrong action: a Grade 3 phlebitis, with a palpable cord 4 cm along the vein, needs the cannula out, not slowed, and continuing to infuse prolongs endothelial injury. Option c keeps the device in the same vessel and treats a chemical injury as a thrombotic one. Option d misidentifies the complication; infiltration produces cool blanched swelling, not warmth and a tender cord, so flushing and restarting proximal to it would be the wrong manoeuvre entirely.",
+      "Phlebitis is chemical, mechanical, or bacterial inflammation of the vein tunica intima. The classic clinical presentation includes erythema, localized warmth, pain/tenderness, and a palpable indurated venous cord (Grade 3 on the Infusion Nurses Society Phlebitis Scale). Priority management: (1) immediately stop the infusion and remove the cannula; (2) apply a warm, moist compress to relieve inflammation and promote venous blood flow; (3) elevate the affected extremity; (4) document findings and score; and (5) resite the new IV line in the contralateral extremity if ongoing therapy is required. In contrast, infiltration presents with coolness, blanching, and soft edema. Why the other options fail: option a uses the right word and the wrong action: a Grade 3 phlebitis, with a palpable cord 4 cm along the vein, needs the cannula out, not slowed, and continuing to infuse prolongs endothelial injury. Option b keeps the device in the same vessel and treats a chemical injury as a thrombotic one. Option c misidentifies the complication; infiltration produces cool blanched swelling, not warmth and a tender cord, so flushing and restarting proximal to it would be the wrong manoeuvre entirely.",
     strategy: "Phlebitis vs Infiltration: Phlebitis = Warmth, redness, palpable cord -> Discontinue cannula + warm compress. Infiltration = Coolness, swelling, pallor.",
     difficulty: "easy",
     tags: ["procedures", "iv-cannula", "phlebitis", "iv-complications", "patient-safety"],
@@ -398,11 +398,11 @@ export const PROC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Select the deltoid, aspirate before injecting to confirm that the needle is not in a vessel, and massage the site afterwards to speed absorption of the dose",
+        text: "Abdominal wall at least 5 cm from the umbilicus, pinch a fold, 90 degrees, keep the air bubble, do not aspirate, do not massage",
       },
       {
         id: "b",
-        text: "Abdominal wall at least 5 cm from the umbilicus, pinch a fold, 90 degrees, keep the air bubble, do not aspirate, do not massage",
+        text: "Select the deltoid, aspirate before injecting to confirm that the needle is not in a vessel, and massage the site afterwards to speed absorption of the dose",
       },
       {
         id: "c",
@@ -413,9 +413,9 @@ export const PROC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Inject into the umbilicus itself at 15 degrees, since this is the most vascular part of the abdominal wall and will absorb the dose most reliably",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "a",
     rationale:
-      "Best-practice technique for subcutaneous enoxaparin administration: (1) use the anterolateral or posterolateral abdomen (the 'love handles'), alternating sides and staying >= 2 inches away from the umbilicus; (2) DO NOT expel the air bubble from the prefilled syringe (the bubble ensures the entire medication dose is delivered and creates an air seal preventing subcutaneous tracking); (3) pinch a skin fold throughout the injection and insert the needle at 90 degrees (or 45 degrees in thin individuals); (4) DO NOT aspirate for blood (aspiration causes tissue damage and hematoma); and (5) DO NOT massage or rub the injection site after needle withdrawal (rubbing causes capillary rupture and severe bruising). Why the other options fail: option a sends a subcutaneous drug into muscle and then aspirates, which is unnecessary for heparin and increases tissue trauma. Option c removes the air bubble that is there to deliver the full dose and seal the track, and firm pressure after the injection promotes the bruising the technique is meant to avoid. Option d injects into umbilical tissue, which is thin, poorly vascular for absorption and painful, and a 15-degree angle is too shallow for a 2 cm pinched fold.",
+      "Best-practice technique for subcutaneous enoxaparin administration: (1) use the anterolateral or posterolateral abdomen (the 'love handles'), alternating sides and staying >= 2 inches away from the umbilicus; (2) DO NOT expel the air bubble from the prefilled syringe (the bubble ensures the entire medication dose is delivered and creates an air seal preventing subcutaneous tracking); (3) pinch a skin fold throughout the injection and insert the needle at 90 degrees (or 45 degrees in thin individuals); (4) DO NOT aspirate for blood (aspiration causes tissue damage and hematoma); and (5) DO NOT massage or rub the injection site after needle withdrawal (rubbing causes capillary rupture and severe bruising). Why the other options fail: option b sends a subcutaneous drug into muscle and then aspirates, which is unnecessary for heparin and increases tissue trauma. Option c removes the air bubble that is there to deliver the full dose and seal the track, and firm pressure after the injection promotes the bruising the technique is meant to avoid. Option d injects into umbilical tissue, which is thin, poorly vascular for absorption and painful, and a 15-degree angle is too shallow for a 2 cm pinched fold.",
     strategy: "Enoxaparin injection rules: Abdominal wall >= 2 inches from umbilicus + keep air bubble + 90-degree angle + NO aspiration + NO rubbing/massaging.",
     difficulty: "easy",
     tags: ["procedures", "enoxaparin", "subcutaneous-injection", "heparin", "medication-administration"],
@@ -432,20 +432,20 @@ export const PROC_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Hyperventilate the client by hand for 10 seconds, insert the catheter until resistance is met, and apply suction for 20 seconds in a single uninterrupted pass",
+        text: "Hyperoxygenate with 100% O2 for 30 to 60 seconds, advance without suction, suction only on withdrawal for 10 to 15 seconds, 1 minute between passes",
       },
       {
         id: "c",
-        text: "Hyperoxygenate with 100% O2 for 30 to 60 seconds, advance without suction, suction only on withdrawal for 10 to 15 seconds, 1 minute between passes",
+        text: "Hyperventilate the client by hand for 10 seconds, insert the catheter until resistance is met, and apply suction for 20 seconds in a single uninterrupted pass",
       },
       {
         id: "d",
         text: "Instil 5 mL of sterile saline to loosen the secretions, suction for 15 seconds, and repeat every 2 minutes until the chest sounds clear on auscultation",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "b",
     rationale:
-      "Tracheostomy and endotracheal suctioning carries risks of hypoxemia, mucosal trauma, cardiac arrhythmias, and vagal-mediated bradycardia. Evidence-based protocol mandates: (1) pre-oxygenate (hyperoxygenate) with 100% O2 for 30–60 seconds prior to suctioning; (2) insert catheter gently WITHOUT suction until resistance is met or client coughs, then pull back 1–2 cm; (3) apply suction ONLY while withdrawing and twirling the catheter; (4) limit suction duration to <= 10–15 seconds per pass; (5) re-oxygenate between passes and allow at least 1 minute of recovery; and (6) routine normal saline instillation is strictly contraindicated as it flushes colonized biofilm into lower airways. Why the other options fail: option a sucks during insertion, which strips oxygen from the airway for the whole pass, and 30 seconds is twice the safe duration. Option b pre-oxygenates for too short a time and then applies 20 seconds of continuous suction, which is a recognised cause of hypoxaemia and vagal bradycardia. Option d instils saline, which is no longer recommended because it dislodges biofilm into the lower airways, and repeating every two minutes without recovery time causes cumulative hypoxia.",
+      "Tracheostomy and endotracheal suctioning carries risks of hypoxemia, mucosal trauma, cardiac arrhythmias, and vagal-mediated bradycardia. Evidence-based protocol mandates: (1) pre-oxygenate (hyperoxygenate) with 100% O2 for 30–60 seconds prior to suctioning; (2) insert catheter gently WITHOUT suction until resistance is met or client coughs, then pull back 1–2 cm; (3) apply suction ONLY while withdrawing and twirling the catheter; (4) limit suction duration to <= 10–15 seconds per pass; (5) re-oxygenate between passes and allow at least 1 minute of recovery; and (6) routine normal saline instillation is strictly contraindicated as it flushes colonized biofilm into lower airways. Why the other options fail: option a sucks during insertion, which strips oxygen from the airway for the whole pass, and 30 seconds is twice the safe duration. Option c pre-oxygenates for too short a time and then applies 20 seconds of continuous suction, which is a recognised cause of hypoxaemia and vagal bradycardia. Option d instils saline, which is no longer recommended because it dislodges biofilm into the lower airways, and repeating every two minutes without recovery time causes cumulative hypoxia.",
     strategy: "Tracheostomy suctioning: Pre-oxygenate with 100% O2 + NO suction during insertion + suction ONLY on withdrawal for <= 10-15 seconds max. Never instill saline.",
     difficulty: "easy",
     tags: ["procedures", "tracheostomy", "suctioning", "hypoxemia-prevention", "airway-management"],
@@ -462,20 +462,20 @@ export const PROC_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Tape the open end to the drainage unit, position the client on the affected side, and call the medical team to reconnect the system at the bedside",
+        text: "Submerge the distal open end 2 to 4 cm in a bottle of sterile water to re-establish a water seal, and prepare a new drainage unit",
       },
       {
         id: "c",
-        text: "Remove the chest tube completely and cover the insertion site with an occlusive dressing until the medical team arrives",
+        text: "Tape the open end to the drainage unit, position the client on the affected side, and call the medical team to reconnect the system at the bedside",
       },
       {
         id: "d",
-        text: "Submerge the distal open end 2 to 4 cm in a bottle of sterile water to re-establish a water seal, and prepare a new drainage unit",
+        text: "Remove the chest tube completely and cover the insertion site with an occlusive dressing until the medical team arrives",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "b",
     rationale:
-      "When a chest tube disconnects from its drainage canister, atmospheric air can rush into the negative-pressure pleural space, precipitating a tension pneumothorax or collapsing the lung. The immediate lifesaving action is to submerge the distal open tip of the chest tube 2 to 4 cm (1 to 2 inches) into a sterile bottle of water or normal saline kept at the bedside. This creates an immediate temporary water seal, allowing air to escape from the pleural space during exhalation while preventing air from being sucked back in during inspiration. Clamping the tube is contraindicated because trapped air cannot escape, causing tension pneumothorax. Why the other options fail: option a is the most common wrong answer, and it is dangerous: clamping a disconnected tube in a client with a pneumothorax traps air in the pleural space and can convert a simple pneumothorax into a tension pneumothorax. Option b leaves the system open to atmosphere and simply tapes it, so air is drawn back in with every breath. Option c removes a tube that may still be draining and seals the chest, which risks both re-expansion failure and tension.",
+      "When a chest tube disconnects from its drainage canister, atmospheric air can rush into the negative-pressure pleural space, precipitating a tension pneumothorax or collapsing the lung. The immediate lifesaving action is to submerge the distal open tip of the chest tube 2 to 4 cm (1 to 2 inches) into a sterile bottle of water or normal saline kept at the bedside. This creates an immediate temporary water seal, allowing air to escape from the pleural space during exhalation while preventing air from being sucked back in during inspiration. Clamping the tube is contraindicated because trapped air cannot escape, causing tension pneumothorax. Why the other options fail: option a is the most common wrong answer, and it is dangerous: clamping a disconnected tube in a client with a pneumothorax traps air in the pleural space and can convert a simple pneumothorax into a tension pneumothorax. Option c leaves the system open to atmosphere and simply tapes it, so air is drawn back in with every breath. Option d removes a tube that may still be draining and seals the chest, which risks both re-expansion failure and tension.",
     strategy: "Chest tube disconnection: Submerge distal tube 2-4 cm in bottle of sterile water to create immediate water seal. NEVER clamp a disconnected chest tube.",
     difficulty: "medium",
     tags: ["procedures", "chest-tube", "water-seal", "pneumothorax", "emergency-action"],
@@ -522,20 +522,20 @@ export const PROC_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Rate 100 to 120 per minute, depth at least 5 cm (max 6 cm), full recoil after each compression, pauses under 10 seconds, ratio 30:2",
+        text: "Compress at 100 to 120 per minute to a depth of 6 cm without allowing full recoil, so that coronary perfusion pressure is maintained continuously",
       },
       {
         id: "c",
-        text: "Compress at 100 to 120 per minute to a depth of 6 cm without allowing full recoil, so that coronary perfusion pressure is maintained continuously",
+        text: "Rate 100 to 120 per minute, depth at least 5 cm (max 6 cm), full recoil after each compression, pauses under 10 seconds, ratio 30:2",
       },
       {
         id: "d",
         text: "Compress at 100 to 120 per minute to a depth of 5 cm, pausing after every 30 compressions for two rescue breaths of 2 seconds each",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "c",
     rationale:
-      "High-quality CPR is the primary determinant of cardiac arrest survival: (1) Compression rate of 100 to 120 beats per minute; (2) Compression depth of at least 5 cm (2 inches) but not exceeding 6 cm (2.4 inches) in adults; (3) Allow full chest recoil after each compression (leaning prevents coronary perfusion by impeding venous return); (4) Minimize all pauses in compressions (chest compression fraction > 60–80%, pauses < 10 seconds); and (5) Compression-to-ventilation ratio of 30:2 in adults without advanced airway, rotating compressors every 2 minutes to prevent fatigue. Why the other options fail: option a slows the rate below 100 and reduces depth below 5 cm, both of which cut cardiac output, and a 15-second pulse check every cycle destroys the compression fraction. Option c gets rate and depth right and then forbids recoil, which raises intrathoracic pressure and reduces venous return, the exact mechanism that makes leaning harmful. Option d is close but the pauses exceed 10 seconds once the two breaths are given slowly, and no target for minimising interruption is stated.",
+      "High-quality CPR is the primary determinant of cardiac arrest survival: (1) Compression rate of 100 to 120 beats per minute; (2) Compression depth of at least 5 cm (2 inches) but not exceeding 6 cm (2.4 inches) in adults; (3) Allow full chest recoil after each compression (leaning prevents coronary perfusion by impeding venous return); (4) Minimize all pauses in compressions (chest compression fraction > 60–80%, pauses < 10 seconds); and (5) Compression-to-ventilation ratio of 30:2 in adults without advanced airway, rotating compressors every 2 minutes to prevent fatigue. Why the other options fail: option a slows the rate below 100 and reduces depth below 5 cm, both of which cut cardiac output, and a 15-second pulse check every cycle destroys the compression fraction. Option b gets rate and depth right and then forbids recoil, which raises intrathoracic pressure and reduces venous return, the exact mechanism that makes leaning harmful. Option d is close but the pauses exceed 10 seconds once the two breaths are given slowly, and no target for minimising interruption is stated.",
     strategy: "High-quality CPR metrics: Rate 100-120/min + Depth 5-6 cm (2-2.4 inches) + Full recoil (don't lean) + Minimize pauses (< 10 s) + 30:2 ratio.",
     difficulty: "easy",
     tags: ["procedures", "cpr", "bls", "cardiac-arrest", "resuscitation"],
@@ -578,24 +578,24 @@ export const PROC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Place a pillow under the shoulders and tilt the bed head-down, so that blood drains away from the face and the family can see the body more clearly",
+        text: "Raise the head of the bed 15 to 30 degrees or put a pillow under the head to prevent facial lividity, close the eyes, and support the jaw",
       },
       {
         id: "b",
-        text: "Close the eyes and jaw, leave the bed flat, and open the window to cool the room, since cooling the body prevents discoloration of the face",
+        text: "Place a pillow under the shoulders and tilt the bed head-down, so that blood drains away from the face and the family can see the body more clearly",
       },
       {
         id: "c",
-        text: "Wash the body, remove all tubes and lines, and keep the head flat under a sheet until the family arrives so that the face is not disturbed",
+        text: "Close the eyes and jaw, leave the bed flat, and open the window to cool the room, since cooling the body prevents discoloration of the face",
       },
       {
         id: "d",
-        text: "Raise the head of the bed 15 to 30 degrees or put a pillow under the head to prevent facial lividity, close the eyes, and support the jaw",
+        text: "Wash the body, remove all tubes and lines, and keep the head flat under a sheet until the family arrives so that the face is not disturbed",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "a",
     rationale:
-      "Post-mortem care honors client dignity and provides compassionate closure for grieving families: (1) elevate the head of the bed 15–30 degrees or place a pillow under the head promptly to prevent dependent blood pooling (livor mortis) in the face, which causes purple discoloration; (2) close the eyelids gently; (3) insert dentures and support the lower jaw with a rolled towel under the chin before rigor mortis sets in; (4) remove non-forensic invasive tubes/catheters (unless an autopsy/coroner's inquest is mandated); (5) cleanse soiled body areas and replace soiled bed linens; and (6) position clean sheets neatly to the shoulders for family viewing. Why the other options fail: option a tilts the head down, which is the fastest way to produce the facial lividity the question asks how to avoid, and it does so for a reason (better visibility) that sounds considerate. Option b leaves the body flat, so dependent pooling continues, and cooling the room does not stop it. Option c keeps the head flat for the same cosmetic reason and reaches it by the opposite route, and it also strips every line, which pre-empts a coroner's or autopsy decision that is not the nurse's to make.",
+      "Post-mortem care honors client dignity and provides compassionate closure for grieving families: (1) elevate the head of the bed 15–30 degrees or place a pillow under the head promptly to prevent dependent blood pooling (livor mortis) in the face, which causes purple discoloration; (2) close the eyelids gently; (3) insert dentures and support the lower jaw with a rolled towel under the chin before rigor mortis sets in; (4) remove non-forensic invasive tubes/catheters (unless an autopsy/coroner's inquest is mandated); (5) cleanse soiled body areas and replace soiled bed linens; and (6) position clean sheets neatly to the shoulders for family viewing. Why the other options fail: option b tilts the head down, which is the fastest way to produce the facial lividity the question asks how to avoid, and it does so for a reason (better visibility) that sounds considerate. Option c leaves the body flat, so dependent pooling continues, and cooling the room does not stop it. Option d keeps the head flat for the same cosmetic reason and reaches it by the opposite route, and it also strips every line, which pre-empts a coroner's or autopsy decision that is not the nurse's to make.",
     strategy: "Post-mortem care: Elevate head with pillow (prevents facial blood pooling/lividity) + close eyes & support jaw + wash & clean linens before family viewing.",
     difficulty: "easy",
     tags: ["procedures", "post-mortem-care", "dignity", "end-of-life", "nursing-ethics"],

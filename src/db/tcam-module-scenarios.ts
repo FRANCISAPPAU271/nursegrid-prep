@@ -102,20 +102,20 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Cellulitis complicating the splint; cut the splint off, elevate the limb and start intravenous antibiotics",
+        text: "Acute compartment syndrome secondary to constrictive traditional splinting, requiring immediate splint removal and emergency orthopedic surgical fasciotomy",
       },
       {
         id: "c",
-        text: "Delayed union of the tibial shaft; continue immobilisation in the same splint and arrange orthopaedic clinic review in six weeks",
+        text: "Cellulitis complicating the splint; cut the splint off, elevate the limb and start intravenous antibiotics",
       },
       {
         id: "d",
-        text: "Acute compartment syndrome secondary to constrictive traditional splinting, requiring immediate splint removal and emergency orthopedic surgical fasciotomy",
+        text: "Delayed union of the tibial shaft; continue immobilisation in the same splint and arrange orthopaedic clinic review in six weeks",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "b",
     rationale:
-      "Traditional bonesetter gangrene (TBS gangrene) and acute compartment syndrome are well-documented severe pediatric surgical complications in Sub-Saharan Africa. Overly tight, unyielding traditional bamboo or wooden splints encasing an acutely fractured, swelling limb elevate intracompartmental pressures above capillary perfusion pressure. This causes ischemia, nerve necrosis, and muscle infarction (the 6 P's: Pain out of proportion, Pressure/tense calf, Paresthesia, Pallor, Paralysis, Pulselessness). The nurse must immediately cut off constricting splints, notify the orthopedic surgeon, and prepare for emergent surgical fasciotomy to prevent amputation. Option d correctly identifies this surgical emergency. Why the other options fail: DVT does not render a limb pulseless and anticoagulation would not relieve compartment pressure; cellulitis does not cause pulselessness; and delayed union is a late radiographic finding, not an acute limb-threatening event.",
+      "Traditional bonesetter gangrene (TBS gangrene) and acute compartment syndrome are well-documented severe pediatric surgical complications in Sub-Saharan Africa. Overly tight, unyielding traditional bamboo or wooden splints encasing an acutely fractured, swelling limb elevate intracompartmental pressures above capillary perfusion pressure. This causes ischemia, nerve necrosis, and muscle infarction (the 6 P's: Pain out of proportion, Pressure/tense calf, Paresthesia, Pallor, Paralysis, Pulselessness). The nurse must immediately cut off constricting splints, notify the orthopedic surgeon, and prepare for emergent surgical fasciotomy to prevent amputation. Option b correctly identifies this surgical emergency. Why the other options fail: DVT does not render a limb pulseless and anticoagulation would not relieve compartment pressure; cellulitis does not cause pulselessness; and delayed union is a late radiographic finding, not an acute limb-threatening event.",
     strategy: "Traditional bonesetter injury: Tight wooden splints on fractures cause Acute Compartment Syndrome (the 6 P's). Cut off splints immediately and prepare for emergency fasciotomy.",
     difficulty: "medium",
     tags: ["tcam", "traditional-bonesetter", "compartment-syndrome", "tbs-gangrene", "surgical-emergency"],
@@ -162,18 +162,18 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Facilitate the pastoral prayer and anointing visit at a mutually suitable time, ensuring standard infection control (hand hygiene) is maintained, while ensuring that intravenous antibiotics and medical treatments continue uninterrupted",
+        text: "Decline the visit until the client is discharged, because religious gatherings are a recognised source of hospital-acquired infection on inpatient wards and in side rooms",
       },
       {
         id: "c",
-        text: "Decline the visit until the client is discharged, because religious gatherings are a recognised source of hospital-acquired infection on inpatient wards and in side rooms",
+        text: "Facilitate the pastoral prayer and anointing visit at a mutually suitable time, ensuring standard infection control (hand hygiene) is maintained, while ensuring that intravenous antibiotics and medical treatments continue uninterrupted",
       },
       {
         id: "d",
         text: "Postpone the visit until the antibiotic course is finished, so that prayer does not interfere with the action of the intravenous antibiotic or reduce its effectiveness",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "c",
     rationale:
       "In pluralist healthcare environments, spiritual beliefs and faith-based practices play a vital therapeutic role in client coping, psychological well-being, and hope. The nurse should support beneficial spiritual rituals (prayer, anointing) provided they do not introduce infection risks or disrupt necessary medical therapy. Coordinating visiting times, enforcing hand hygiene, and maintaining continuous antibiotic administration bridges faith and evidence-based science harmoniously. Arresting clergy (a) causes emotional distress; stopping antibiotics (c) leads to septic death; pouring oil into IV lines (d) causes fatal oil embolism and sepsis. Why the other options fail: spiritual rituals are not risk-free and still require infection control; refusing the visit confuses infection prevention with spiritual care; and prayer does not interfere with antibiotic action.",
     strategy: "Faith-based integration: Accommodate and support spiritual rituals that bring comfort while ensuring infection control and uninterrupted medical therapy.",
@@ -196,14 +196,14 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "St John's Wort is a potent inducer of CYP3A4 and intestinal P-glycoprotein, accelerating antiretroviral metabolism, lowering plasma concentrations, and leading to treatment failure and viral drug resistance",
+        text: "St John's Wort chelates dolutegravir in the gut lumen, and separating the two doses by at least two hours completely prevents the interaction from occurring",
       },
       {
         id: "d",
-        text: "St John's Wort chelates dolutegravir in the gut lumen, and separating the two doses by at least two hours completely prevents the interaction from occurring",
+        text: "St John's Wort is a potent inducer of CYP3A4 and intestinal P-glycoprotein, accelerating antiretroviral metabolism, lowering plasma concentrations, and leading to treatment failure and viral drug resistance",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "d",
     rationale:
       "St. John's Wort (*Hypericum perforatum*) is a classic, high-yield NCLEX herb-drug interaction. It is a powerful inducer of hepatic CYP3A4 enzymes and P-glycoprotein (efflux transporter). Co-administration significantly lowers the serum concentration of drugs metabolized by CYP3A4—including antiretrovirals (protease inhibitors, NNRTIs, integrase inhibitors), oral contraceptives (causing unintended pregnancy), cyclosporine/tacrolimus (causing organ transplant rejection), and warfarin. It also causes serotonin syndrome when combined with SSRIs. St. John's Wort does not cure HIV (b) and has extensive interactions (d). Why the other options fail: St John's Wort induces rather than inhibits CYP3A4, so concentrations fall; it is not pharmacokineticially inert; and the interaction is enzyme induction, not gut chelation, so separating doses does not correct it.",
     strategy: "High-yield NCLEX interaction: St. John's Wort INDUCES CYP3A4 and P-glycoprotein, dropping blood levels of antiretrovirals, birth control, and immunosuppressants.",
@@ -226,14 +226,14 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Ginkgo and garlic have no measurable effect on haemostasis at all; only dietary vitamin K alters the INR during chronic warfarin therapy in a stable client",
+        text: "Ginkgo biloba and Garlic possess intrinsic antiplatelet properties and inhibit platelet aggregation, which synergistically potentiates warfarin anticoagulation and dramatically increases severe hemorrhage risk",
       },
       {
         id: "d",
-        text: "Ginkgo biloba and Garlic possess intrinsic antiplatelet properties and inhibit platelet aggregation, which synergistically potentiates warfarin anticoagulation and dramatically increases severe hemorrhage risk",
+        text: "Ginkgo and garlic have no measurable effect on haemostasis at all; only dietary vitamin K alters the INR during chronic warfarin therapy in a stable client",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "c",
     rationale:
       "The '4 G's' of herbal medicine—Ginkgo biloba, Garlic, Ginseng, and Ginger (plus Feverfew and Saw Palmetto)—exhibit antiplatelet properties and impair platelet aggregation. When taken concurrently with anticoagulants (warfarin, heparin, NOACs) or antiplatelet agents (aspirin, clopidogrel), they synergistically elevate bleeding risks, manifesting as spontaneous epistaxis, gastrointestinal bleeding, hematuria, or intracranial hemorrhage. The nurse must recognize this synergistic antiplatelet interaction and advise immediate discontinuation. Garlic does not clot blood (c) or inhibit marrow vitamin K (a). Why the other options fail: the interaction is pharmacodynamic antiplatelet additivity, not CYP2C9 induction; garlic does not contain vitamin K; and haemostasis is affected well beyond dietary vitamin K.",
     strategy: "NCLEX rule: The '4 G's' (Ginkgo, Garlic, Ginseng, Ginger) increase bleeding risk when taken with anticoagulants or antiplatelets.",
@@ -248,22 +248,22 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Aristolochic Acid Nephropathy (fibrosing interstitial nephritis) leading to end-stage renal disease, alongside a high risk of upper urothelial tract carcinoma",
-      },
-      {
-        id: "b",
         text: "Chronic interstitial nephritis that carries no malignant potential once the offending tea is stopped and renal function is supported",
       },
       {
-        id: "c",
+        id: "b",
         text: "Acute tubular necrosis that recovers fully after withdrawal of the tea, with normal renal function documented at follow-up",
       },
       {
-        id: "d",
+        id: "c",
         text: "Membranous nephropathy with nephrotic-range proteinuria but preserved glomerular filtration rate and no cancer risk",
       },
+      {
+        id: "d",
+        text: "Aristolochic Acid Nephropathy (fibrosing interstitial nephritis) leading to end-stage renal disease, alongside a high risk of upper urothelial tract carcinoma",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
       "Aristolochic acid (found in plants of the *Aristolochia* genus, often used in traditional slimming teas and rheumatic remedies) is a potent nephrotoxin and human carcinogen. It causes Aristolochic Acid Nephropathy (previously known as Chinese Herb Nephropathy or Balkan Endemic Nephropathy), characterized by extensive renal interstitial fibrosis, tubular atrophy without glomerular lesions, and rapid progression to end-stage renal disease (ESRD). Crucially, aristolochic acid forms DNA adducts that induce high rates of upper urinary tract urothelial carcinoma. It does not cause reversible pancreatitis (b) or cardiomyopathy (d). Why the other options fail: aristolochic acid nephropathy is fibrosing and irreversible with a documented urothelial cancer risk; it is not acute tubular necrosis that recovers; and it is not a podocytopathy with preserved filtration.",
     strategy: "Herbal toxicity: Aristolochic acid (*Aristolochia*) is severely nephrotoxic, causing irreversible fibrosing interstitial nephritis and urothelial carcinoma.",
@@ -282,18 +282,18 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Discontinue all herbal supplements immediately (at least 2 to 3 weeks prior to elective surgery) to prevent intraoperative hemorrhage, unstable hemodynamic fluctuations, and adverse anesthetic drug interactions",
+        text: "Stop only St John's Wort and continue ginkgo and ginseng up to the day of surgery, since only the antidepressant herb affects anaesthesia",
       },
       {
         id: "c",
-        text: "Stop only St John's Wort and continue ginkgo and ginseng up to the day of surgery, since only the antidepressant herb affects anaesthesia",
+        text: "Discontinue all herbal supplements immediately (at least 2 to 3 weeks prior to elective surgery) to prevent intraoperative hemorrhage, unstable hemodynamic fluctuations, and adverse anesthetic drug interactions",
       },
       {
         id: "d",
         text: "Continue all three but halve the dose for the week before surgery, so that the blood-thinning effect falls without losing the memory benefit",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "c",
     rationale:
       "The American Society of Anesthesiologists (ASA) and surgical safety guidelines mandate that all herbal remedies and dietary supplements should be discontinued at least 2 to 3 weeks prior to elective surgery. Herbals pose multiple perioperative hazards: Ginkgo and Ginseng inhibit platelet function and provoke intraoperative hemorrhage; St. John's Wort induces hepatic drug metabolism, altering anesthetic clearance and prolonging sedative recovery; Ephedra/Ginseng can trigger intraoperative cardiac arrhythmias and hypertensive crises. Doubling doses (a) or hiding supplement use (d) creates life-threatening surgical emergencies. Why the other options fail: disclosure on the morning of surgery is too late to reverse platelet inhibition or enzyme induction; leaving ginkgo and ginseng in place preserves the bleeding risk; and dose reduction does not remove the interaction.",
     strategy: "Perioperative rule: Stop all herbal supplements at least 2 to 3 weeks prior to elective surgery to prevent bleeding and anesthesia interactions.",
@@ -338,22 +338,22 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "It stimulates the vagus nerve directly at the wrist point, producing bradycardia and abolishing the vomiting reflex at its source in the medulla oblongata",
+        text: "Stimulating specific neurovascular acupoints modulates autonomic pathways, triggers the release of endogenous endorphins and serotonin, and activates the Gate Control mechanism to suppress emetic and nociceptive signalling",
       },
       {
         id: "b",
-        text: "It works purely as a placebo; controlled trials show no measurable neurochemical or autonomic change beyond the psychological ritual of treatment itself",
+        text: "It stimulates the vagus nerve directly at the wrist point, producing bradycardia and abolishing the vomiting reflex at its source in the medulla oblongata",
       },
       {
         id: "c",
-        text: "It blocks the phrenic nerve on the affected side, paralysing the diaphragm and preventing the physical movement of vomiting",
+        text: "It works purely as a placebo; controlled trials show no measurable neurochemical or autonomic change beyond the psychological ritual of treatment itself",
       },
       {
         id: "d",
-        text: "Stimulating specific neurovascular acupoints modulates autonomic pathways, triggers the release of endogenous endorphins and serotonin, and activates the Gate Control mechanism to suppress emetic and nociceptive signalling",
+        text: "It blocks the phrenic nerve on the affected side, paralysing the diaphragm and preventing the physical movement of vomiting",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "a",
     rationale:
       "Acupuncture and acupressure (such as pressure at the P6 Neiguan point on the anterior forearm) are evidence-supported complementary therapies recognized by the WHO and oncology guidelines for managing postoperative and chemotherapy-induced nausea and pain. Physiological research demonstrates that acupoint stimulation activates A-beta and A-delta sensory fibers, modulates central autonomic nervous system centers, releases endogenous opioids (beta-endorphins, enkephalins), alters serotonin transmission, and engages the Gate Control Theory to blunt emetic and pain pathways. It does not destroy nerves (a) or paralyze the diaphragm (c). Why the other options fail: acupressure does not stimulate the vagus directly to produce bradycardia; trial evidence shows measurable autonomic and neurochemical effects rather than pure placebo; and it does not paralyse the diaphragm.",
     strategy: "Complementary therapies: Acupressure/acupuncture stimulates neurovascular pathways, releasing endogenous endorphins and modulating autonomic emetic and pain reflexes.",
@@ -368,11 +368,11 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Active DVT in the affected limb, due to the risk of dislodging the thrombus and causing a fatal pulmonary embolism",
+        text: "Chronic venous insufficiency with long-standing ankle oedema and brown skin staining of the lower leg",
       },
       {
         id: "b",
-        text: "Chronic venous insufficiency with long-standing ankle oedema and brown skin staining of the lower leg",
+        text: "Active DVT in the affected limb, due to the risk of dislodging the thrombus and causing a fatal pulmonary embolism",
       },
       {
         id: "c",
@@ -383,7 +383,7 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Type 2 diabetes with symmetrical peripheral neuropathy and reduced sensation in both feet",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
       "Therapeutic massage and manual soft tissue therapies are contraindicated in acute Deep Vein Thrombosis (DVT), thrombophlebitis, local burns, infected wounds, and severe bleeding disorders. Massaging an extremity harboring an acute venous thrombus exerts mechanical shearing forces that dislodge the clot into systemic venous circulation, causing acute pulmonary embolism, cardiovascular collapse, and sudden death. Tension headaches (b), anxiety (c), and mild soreness (d) are classic clinical indications for relaxation massage. Why the other options fail: venous insufficiency, osteoarthritis and diabetic neuropathy are relative cautions at most, and massage is commonly used for each; only an active thrombus carries the dislodgement risk that makes massage absolute.",
     strategy: "Massage contraindications: NEVER massage an extremity with suspected or diagnosed DVT—mechanical friction dislodges the clot into a fatal pulmonary embolism.",
@@ -402,18 +402,18 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Decreased sympathetic nervous system output, reduced heart rate and respiratory rate, lowered blood pressure, and decreased peripheral muscle tension",
-      },
-      {
-        id: "c",
         text: "No measurable physiological change at all; the benefit of guided imagery is entirely subjective and cannot be measured",
       },
       {
-        id: "d",
+        id: "c",
         text: "Marked parasympathetic excess with a heart rate below 50 beats/min, hypotension and dizziness needing intravenous fluids",
       },
+      {
+        id: "d",
+        text: "Decreased sympathetic nervous system output, reduced heart rate and respiratory rate, lowered blood pressure, and decreased peripheral muscle tension",
+      },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "d",
     rationale:
       "Herbert Benson's 'Relaxation Response' is the physiological opposite of the sympathetic fight-or-flight stress reaction. Mind-body complementary therapies (guided imagery, progressive muscle relaxation, meditation, deep diaphragmatic breathing) stimulate the parasympathetic nervous system via the vagus nerve. This causes decreased circulating catecholamines (epinephrine, norepinephrine) and cortisol, reduction in heart rate and respiratory rate, decreased blood pressure, dilation of peripheral blood vessels, and relaxation of skeletal muscle tension. Sympathetic surges (a) or acidosis (d) indicate worsening stress or pathology. Why the other options fail: a catecholamine surge is the stress response being treated, not the relaxation response; the effect is measurable rather than purely subjective; and symptomatic bradycardia with hypotension indicates overstimulation, not a normal relaxation response.",
     strategy: "Relaxation response: Elicits parasympathetic activation—decreased heart rate, lower blood pressure, reduced respiratory rate, and muscle relaxation.",
@@ -432,18 +432,18 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Do you understand that continuing this herbal tea will damage your liver within a month if you do not stop it now?",
+        text: "'What do you call your problem, what do you think caused it, and what kind of treatment do you believe works best for you?'",
       },
       {
         id: "c",
-        text: "'What do you call your problem, what do you think caused it, and what kind of treatment do you believe works best for you?'",
+        text: "Do you understand that continuing this herbal tea will damage your liver within a month if you do not stop it now?",
       },
       {
         id: "d",
         text: "Can you sign this form confirming that you have refused standard medical advice and accept the consequences?",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "b",
     rationale:
       "Arthur Kleinman's Explanatory Model questions elicit the client's personal understanding and cultural construction of their illness without passing judgment: 'What do you call your problem? What do you think caused it? Why do you think it started when it did? What does your sickness do to your body? What kind of treatment do you think you should receive?' Asking these open-ended, respectful questions uncovers health beliefs, explains herbal remedy use, and creates a non-defensive foundation for collaborative care. Condescending 'Why' questions (a) and threats (b, d) shut down dialogue. Why the other options fail: the remaining three options are judgemental or confrontational and close the interview; Kleinman's model requires open questions about the client's own explanation of the illness.",
     strategy: "Kleinman's Explanatory Model: Use open, non-judgmental questions to elicit what the client believes caused their illness and how they think it should be treated.",
@@ -462,18 +462,18 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Listen carefully to the client's concerns about the tablets, then recommend the standard regimen without any further discussion of herbal alternatives",
+        text: "Collaborate with the client on an agreed plan that keeps safe cultural preferences such as prayer and culinary garlic while maintaining daily antihypertensives and shared home blood pressure monitoring",
       },
       {
         id: "c",
-        text: "Acknowledge the client's cultural beliefs, then agree to withhold antihypertensives for one month while the garlic water is given a fair trial",
+        text: "Listen carefully to the client's concerns about the tablets, then recommend the standard regimen without any further discussion of herbal alternatives",
       },
       {
         id: "d",
-        text: "Collaborate with the client on an agreed plan that keeps safe cultural preferences such as prayer and culinary garlic while maintaining daily antihypertensives and shared home blood pressure monitoring",
+        text: "Acknowledge the client's cultural beliefs, then agree to withhold antihypertensives for one month while the garlic water is given a fair trial",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "b",
     rationale:
       "The LEARN model is an evidence-based cross-cultural communication framework: 1) LISTEN with empathy; 2) EXPLAIN your clinical perceptions; 3) ACKNOWLEDGE and discuss differences and similarities; 4) RECOMMEND treatment; 5) NEGOTIATE agreement. In the Negotiation step, the nurse and client collaborate on a culturally acceptable, clinically safe compromise: accommodating the client's cultural and spiritual values (prayer, culinary garlic) while maintaining essential life-saving biomedical therapies (antihypertensive pills). Coercive threats (a, c) provoke rejection; abandoning medicine (b) leads to hypertensive stroke. Why the other options fail: explaining and instructing is the Explain and Recommend steps rather than Negotiate; recommending without discussion is also Recommend; and agreeing to withhold antihypertensives abandons the clinical bottom line instead of negotiating around it.",
     strategy: "LEARN model: Negotiate a culturally congruent plan that honors the client's values while preserving essential evidence-based medical treatments.",
@@ -518,11 +518,11 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Licensing traditional medical practitioners, accrediting their premises and disciplining those who practise without valid registration",
+        text: "Conducting scientific research on plant medicines, evaluating botanical safety, toxicology and efficacy, and standardising herbal formulations for national healthcare delivery",
       },
       {
         id: "b",
-        text: "Conducting scientific research on plant medicines, evaluating botanical safety, toxicology and efficacy, and standardising herbal formulations for national healthcare delivery",
+        text: "Licensing traditional medical practitioners, accrediting their premises and disciplining those who practise without valid registration",
       },
       {
         id: "c",
@@ -533,9 +533,9 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Setting the retail price of imported herbal products and approving the advertising claims that manufacturers make for them",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "a",
     rationale:
-      "The Centre for Plant Medicine Research (CPMR) at Mampong-Akuapem (established in 1975) is Ghana's premier national biomedical research institute dedicated to the scientific investigation of medicinal plants. CPMR conducts rigorous botanical, phytochemical, microbiological, pharmacological, and toxicological analyses on traditional herbal medicines, develops standardized efficacy-tested botanical products (e.g., *Cryptolepis* for malaria), and advises the Ministry of Health and FDA Ghana on safe integration into the public health system. Options a, c, and d are fictional absurdities. Why the other options fail: practitioner licensing is the TMPC's role; supplying medicines is a procurement function; and price setting is not a research function.",
+      "The Centre for Plant Medicine Research (CPMR) at Mampong-Akuapem (established in 1975) is Ghana's premier national biomedical research institute dedicated to the scientific investigation of medicinal plants. CPMR conducts rigorous botanical, phytochemical, microbiological, pharmacological, and toxicological analyses on traditional herbal medicines, develops standardized efficacy-tested botanical products (e.g., *Cryptolepis* for malaria), and advises the Ministry of Health and FDA Ghana on safe integration into the public health system. Options b, c, bnd d are fictional absurdities. Why the other options fail: practitioner licensing is the TMPC's role; supplying medicines is a procurement function; and price setting is not a research function.",
     strategy: "Ghanaian plant research: The Centre for Plant Medicine Research (CPMR) at Mampong conducts scientific research, safety profiling, and standardization of botanical medicines.",
     difficulty: "easy",
     tags: ["tcam", "cpmr", "mampong-akuapem", "medical-herbalists", "plant-medicine-research"],
@@ -556,14 +556,14 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Stop the product, secure the packaging and batch number for laboratory analysis, give supportive care, and file an Adverse Drug Reaction report with FDA Ghana",
+        text: "Report the reaction only if a second client presents with the same pattern of liver injury within the same month",
       },
       {
         id: "d",
-        text: "Report the reaction only if a second client presents with the same pattern of liver injury within the same month",
+        text: "Stop the product, secure the packaging and batch number for laboratory analysis, give supportive care, and file an Adverse Drug Reaction report with FDA Ghana",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "d",
     rationale:
       "When an Adverse Drug Reaction (ADR) or toxic organ injury (e.g., herbal hepatotoxicity) is suspected: 1) the offending product must be discontinued immediately; 2) the physical product, packaging, and batch/lot numbers should be preserved for toxicological investigation; 3) medical supportive care initiated; and 4) an official Adverse Drug Reaction (ADR) report submitted to the national regulatory pharmacovigilance authority (such as the FDA Ghana Safety Watch System / Yellow Form). This enables regulatory alerts, recalls of contaminated batches, and public protection. Throwing evidence away (a), doubling toxic doses (b), or hiding events (d) violates pharmacovigilance duty. Why the other options fail: watchful waiting delays the regulatory report that protects other clients; continuing the product sustains the injury; and waiting for a second case defeats the purpose of spontaneous reporting.",
     strategy: "Herbal pharmacovigilance: Stop the offending herbal, preserve product batch details for analysis, and file an official Adverse Drug Reaction (ADR) report with regulatory authorities.",

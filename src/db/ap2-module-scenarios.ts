@@ -42,20 +42,20 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Factor Xa converts prothrombin to thrombin, which cleaves fibrinogen into cross-linked fibrin strands",
+        text: "Thrombin activates protein C, which cleaves fibrinogen into the insoluble mesh that forms the clot",
       },
       {
         id: "c",
-        text: "Thrombin activates protein C, which cleaves fibrinogen into the insoluble mesh that forms the clot",
+        text: "Factor Xa converts prothrombin to thrombin, which cleaves fibrinogen into cross-linked fibrin strands",
       },
       {
         id: "d",
         text: "Tissue factor converts fibrinogen directly into fibrin without the need for thrombin",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "c",
     rationale:
-      "Hemostasis occurs in two interconnected phases: 1) Primary hemostasis involves transient vasoconstriction, von Willebrand factor binding to exposed subendothelial collagen, and platelet adhesion, activation, and aggregation to form an unstable platelet plug; 2) Secondary hemostasis involves the coagulation cascade (intrinsic and extrinsic pathways), which converge at the common pathway: Factor X is activated to Factor Xa (with Factor Va, calcium, and phospholipids forming the prothrombinase complex). This complex converts prothrombin into active THROMBIN. Thrombin then cleaves soluble circulating FIBRINOGEN into insoluble FIBRIN monomers, which are cross-linked by Factor XIIIa into a resilient, insoluble fibrin mesh that stabilizes the clot. Option b accurately identifies this core biochemical step. Why the other options fail: option a stops at platelet phospholipid and converts prothrombin without thrombin. Option c uses protein C, which is an anticoagulant and does the opposite. Option d skips thrombin, and fibrinogen cannot be converted to fibrin without it.",
+      "Hemostasis occurs in two interconnected phases: 1) Primary hemostasis involves transient vasoconstriction, von Willebrand factor binding to exposed subendothelial collagen, and platelet adhesion, activation, and aggregation to form an unstable platelet plug; 2) Secondary hemostasis involves the coagulation cascade (intrinsic and extrinsic pathways), which converge at the common pathway: Factor X is activated to Factor Xa (with Factor Va, calcium, and phospholipids forming the prothrombinase complex). This complex converts prothrombin into active THROMBIN. Thrombin then cleaves soluble circulating FIBRINOGEN into insoluble FIBRIN monomers, which are cross-linked by Factor XIIIa into a resilient, insoluble fibrin mesh that stabilizes the clot. Option c accurately identifies this core biochemical step. Why the other options fail: option a stops at platelet phospholipid and converts prothrombin without thrombin. Option b uses protein C, which is an anticoagulant and does the opposite. Option d skips thrombin, and fibrinogen cannot be converted to fibrin without it.",
     strategy: "Coagulation cascade: The common pathway converges on Factor Xa converting Prothrombin to Thrombin, which cleaves Fibrinogen into stable Fibrin mesh.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "hemostasis", "coagulation-cascade", "thrombin", "fibrinogen"],
@@ -72,20 +72,20 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Microthrombi consume platelets and factors, but fibrinolysis is suppressed, so the patient clots without bleeding",
+        text: "Vasodilation and capillary leak produce the bleeding, while the coagulation cascade remains inactive throughout",
       },
       {
         id: "c",
-        text: "Vasodilation and capillary leak produce the bleeding, while the coagulation cascade remains inactive throughout",
+        text: "Microthrombi consume platelets and factors, but fibrinolysis is suppressed, so the patient clots without bleeding",
       },
       {
         id: "d",
         text: "Fibrinogen is consumed faster than the liver can replace it, so bleeding occurs while coagulation tests stay normal",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "b",
     rationale:
-      "Disseminated Intravascular Coagulation (DIC) is a complex consumptive coagulopathy triggered by systemic endothelial injury, endotoxins, or tissue factor release in severe sepsis, trauma, or obstetric emergencies. Massive systemic activation of thrombin creates widespread microvascular fibrin thrombi that occlude small arterioles and capillaries, causing end-organ ischemia and tissue infarction (e.g., gangrene of digits, renal cortical necrosis). Paradoxically, this relentless micro-thrombosis completely exhausts the body's circulating stores of platelets, fibrinogen, and clotting factors (consumptive phase), while secondary hyperfibrinolysis generates high levels of fibrin degradation products (D-dimer) that act as potent anticoagulants, producing catastrophic spontaneous hemorrhage (oozing from IV sites, mucosal bleeding, internal hematomas). Option c correctly explains this paradox. Why the other options fail: option a describes polycythaemia, the opposite of the consumptive thrombocytopenia of DIC. Option b suppresses fibrinolysis, but DIC produces both clotting and bleeding. Option d turns fibrinogen into gastric acid, which is not a process.",
+      "Disseminated Intravascular Coagulation (DIC) is a complex consumptive coagulopathy triggered by systemic endothelial injury, endotoxins, or tissue factor release in severe sepsis, trauma, or obstetric emergencies. Massive systemic activation of thrombin creates widespread microvascular fibrin thrombi that occlude small arterioles and capillaries, causing end-organ ischemia and tissue infarction (e.g., gangrene of digits, renal cortical necrosis). Paradoxically, this relentless micro-thrombosis completely exhausts the body's circulating stores of platelets, fibrinogen, and clotting factors (consumptive phase), while secondary hyperfibrinolysis generates high levels of fibrin degradation products (D-dimer) that act as potent anticoagulants, producing catastrophic spontaneous hemorrhage (oozing from IV sites, mucosal bleeding, internal hematomas). Option b correctly explains this paradox. Why the other options fail: option a describes polycythaemia, the opposite of the consumptive thrombocytopenia of DIC. Option c suppresses fibrinolysis, but DIC produces both clotting and bleeding. Option d turns fibrinogen into gastric acid, which is not a process.",
     strategy: "DIC pathophysiology: Widespread microvascular thrombosis -> consumption of platelets and clotting factors -> simultaneous thrombosis and severe hemorrhagic bleeding.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "disseminated-intravascular-coagulation", "dic", "consumption-coagulopathy", "sepsis"],
@@ -98,24 +98,24 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Tachycardia shortens diastole, when most coronary flow and ventricular filling occur, while oxygen demand rises",
+        text: "Tachycardia increases blood velocity, which shears red cells and reduces oxygen delivery",
       },
       {
         id: "b",
-        text: "Tachycardia compresses the coronary arteries during systole and reduces flow to the subendocardium",
+        text: "Tachycardia shortens diastole, when most coronary flow and ventricular filling occur, while oxygen demand rises",
       },
       {
         id: "c",
-        text: "Tachycardia increases oxygen extraction to its maximum, so any further demand cannot be met",
+        text: "Tachycardia compresses the coronary arteries during systole and reduces flow to the subendocardium",
       },
       {
         id: "d",
-        text: "Tachycardia increases blood velocity, which shears red cells and reduces oxygen delivery",
+        text: "Tachycardia increases oxygen extraction to its maximum, so any further demand cannot be met",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "a",
     rationale:
-      "Unlike all other systemic vascular beds which are perfused during systole, the left ventricular myocardium is perfused almost entirely during ventricular DIASTOLE. During systole, high intramyocardial compressive forces compress subendocardial coronary capillaries, and open aortic valve leaflets partially shield the coronary ostia. When the aortic valve closes in diastole, coronary perfusion pressure peaks. At rapid heart rates (e.g., >150–180 bpm), the cardiac cycle shortens primarily at the expense of diastolic duration (diastolic filling time plummets), severely curtailing coronary perfusion time. Simultaneously, tachycardia skyrockets myocardial metabolic oxygen consumption (MVO2), producing acute supply-demand mismatch and profound subendocardial ischemia (angina and ST depressions). Option d is physiologically correct. Why the other options fail: option b puts the compression in systole, but coronary flow is predominantly diastolic, which is the point. Option c says extraction is already maximal, which is true at rest but is not the supply-demand mechanism asked for. Option d invokes shear haemolysis, which does not occur at this rate.",
+      "Unlike all other systemic vascular beds which are perfused during systole, the left ventricular myocardium is perfused almost entirely during ventricular DIASTOLE. During systole, high intramyocardial compressive forces compress subendocardial coronary capillaries, and open aortic valve leaflets partially shield the coronary ostia. When the aortic valve closes in diastole, coronary perfusion pressure peaks. At rapid heart rates (e.g., >150–180 bpm), the cardiac cycle shortens primarily at the expense of diastolic duration (diastolic filling time plummets), severely curtailing coronary perfusion time. Simultaneously, tachycardia skyrockets myocardial metabolic oxygen consumption (MVO2), producing acute supply-demand mismatch and profound subendocardial ischemia (angina and ST depressions). Option a is physiologically correct. Why the other options fail: option c puts the compression in systole, but coronary flow is predominantly diastolic, which is the point. Option d says extraction is already maximal, which is true at rest but is not the supply-demand mechanism asked for. Option a invokes shear haemolysis, which does not occur at this rate.",
     strategy: "Coronary physiology: Coronary blood flow occurs during DIASTOLE. Tachycardia shortens diastolic time + increases oxygen demand -> triggers myocardial ischemia.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "coronary-perfusion", "diastole", "tachycardia", "myocardial-ischemia"],
@@ -128,24 +128,24 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Obstruction to left ventricular filling raises left atrial and pulmonary venous pressures, causing congestion and later right heart failure",
-      },
-      {
-        id: "b",
         text: "Obstruction raises left ventricular end-diastolic pressure, which backs up into the pulmonary veins",
       },
       {
-        id: "c",
+        id: "b",
         text: "Obstruction causes blood to back up into the vena cavae, raising jugular venous pressure before the lungs are affected",
       },
       {
-        id: "d",
+        id: "c",
         text: "Obstruction increases left ventricular systolic pressure, causing concentric hypertrophy and aortic dilatation",
       },
+      {
+        id: "d",
+        text: "Obstruction to left ventricular filling raises left atrial and pulmonary venous pressures, causing congestion and later right heart failure",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
-      "The mitral (bicuspid) valve separates the left atrium from the left ventricle. In mitral stenosis, fusion and calcification of the valve leaflets obstruct blood flow during diastole from the left atrium into the left ventricle. This anatomical restriction creates a high pressure gradient, causing marked left atrial dilation and elevated left atrial pressure. Because pulmonary veins lack valves, this elevated pressure transmits retrograde directly into the pulmonary venous circulation and pulmonary capillaries. When hydrostatic capillary pressure exceeds plasma oncotic pressure (~25 mmHg), fluid transudates into the pulmonary interstitium and alveoli (orthopnea, dyspnea, crackles, pulmonary edema). Chronic pulmonary venous hypertension induces pulmonary arteriolar remodeling, pulmonary arterial hypertension, and secondary right ventricular hypertrophy and failure. Option a correctly charts this hemodynamic pathway. Why the other options fail: option b puts the obstruction after the ventricle, but the block is at the mitral valve, so ventricular filling pressure is low, not high. Option c backs blood into the vena cavae first, which happens late and only after the lungs. Option d raises systolic pressure, which stenosis does not do.",
+      "The mitral (bicuspid) valve separates the left atrium from the left ventricle. In mitral stenosis, fusion and calcification of the valve leaflets obstruct blood flow during diastole from the left atrium into the left ventricle. This anatomical restriction creates a high pressure gradient, causing marked left atrial dilation and elevated left atrial pressure. Because pulmonary veins lack valves, this elevated pressure transmits retrograde directly into the pulmonary venous circulation and pulmonary capillaries. When hydrostatic capillary pressure exceeds plasma oncotic pressure (~25 mmHg), fluid transudates into the pulmonary interstitium and alveoli (orthopnea, dyspnea, crackles, pulmonary edema). Chronic pulmonary venous hypertension induces pulmonary arteriolar remodeling, pulmonary arterial hypertension, and secondary right ventricular hypertrophy and failure. Option d correctly charts this hemodynamic pathway. Why the other options fail: option a puts the obstruction after the ventricle, but the block is at the mitral valve, so ventricular filling pressure is low, not high. Option b backs blood into the vena cavae first, which happens late and only after the lungs. Option c raises systolic pressure, which stenosis does not do.",
     strategy: "Valvular hemodynamics: Mitral stenosis -> elevated left atrial pressure -> retrograde pulmonary venous congestion -> pulmonary edema and right heart failure.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "mitral-stenosis", "pulmonary-hypertension", "cardiac-valves", "hemodynamics"],
@@ -192,20 +192,20 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Baroreceptors trigger histamine release, producing vasodilation and capillary leak that restore flow",
+        text: "Falling stretch reduces afferent firing, disinhibiting the medulla, so sympathetic outflow raises rate, contractility and resistance",
       },
       {
         id: "c",
-        text: "Falling stretch reduces afferent firing, disinhibiting the medulla, so sympathetic outflow raises rate, contractility and resistance",
+        text: "Baroreceptors trigger histamine release, producing vasodilation and capillary leak that restore flow",
       },
       {
         id: "d",
         text: "Baroreceptors stop firing at low pressure, so the medulla loses all control of vascular tone until volume is restored",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "b",
     rationale:
-      "Arterial baroreceptors (stretch-sensitive mechanoreceptors located within the carotid sinus [innervated by CN IX] and aortic arch [innervated by CN X]) constantly monitor arterial wall distension. In acute hemorrhage, decreased intravascular volume lowers mean arterial pressure and decreases wall stretch, leading to a marked decrease in afferent nerve firing to the nucleus tractus solitarius in the medulla oblongata. This loss of inhibitory input disinhibits sympathetic autonomic outflow while simultaneously withdrawing parasympathetic (vagal) tone. Sympathetic stimulation releases norepinephrine at beta-1 receptors (causing compensatory tachycardia and increased stroke volume) and alpha-1 receptors (causing arteriolar vasoconstriction, elevating systemic vascular resistance, and venous constriction to autotransfuse blood to the central core). Option c accurately describes the baroreflex. Why the other options fail: option a has the receptors firing faster as pressure falls, when stretch falls and firing stops. Option b brings in histamine, which is not part of the baroreflex. Option d says the reflex stops working at low pressure, when that is exactly when it is most active.",
+      "Arterial baroreceptors (stretch-sensitive mechanoreceptors located within the carotid sinus [innervated by CN IX] and aortic arch [innervated by CN X]) constantly monitor arterial wall distension. In acute hemorrhage, decreased intravascular volume lowers mean arterial pressure and decreases wall stretch, leading to a marked decrease in afferent nerve firing to the nucleus tractus solitarius in the medulla oblongata. This loss of inhibitory input disinhibits sympathetic autonomic outflow while simultaneously withdrawing parasympathetic (vagal) tone. Sympathetic stimulation releases norepinephrine at beta-1 receptors (causing compensatory tachycardia and increased stroke volume) and alpha-1 receptors (causing arteriolar vasoconstriction, elevating systemic vascular resistance, and venous constriction to autotransfuse blood to the central core). Option b accurately describes the baroreflex. Why the other options fail: option a has the receptors firing faster as pressure falls, when stretch falls and firing stops. Option c brings in histamine, which is not part of the baroreflex. Option d says the reflex stops working at low pressure, when that is exactly when it is most active.",
     strategy: "Baroreceptor reflex: Hypovolemia -> decreased baroreceptor stretch -> sympathetic activation (tachycardia, vasoconstriction, increased contractility) to support MAP.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "baroreceptor-reflex", "blood-pressure-regulation", "sympathetic-nervous-system", "hypovolemia"],
@@ -218,24 +218,24 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Anaerobic glycolysis lowers ATP, the precapillary sphincters dilate while venules stay constricted, so fluid leaks and sludges",
+        text: "Compensatory vasoconstriction fails in the arterioles, but the venules constrict and the back-pressure forces fluid into the tissues",
       },
       {
         id: "b",
-        text: "Prolonged hypoperfusion causes vasodilation of both arterioles and venules, so the pressure falls without capillary leak",
+        text: "Anaerobic glycolysis lowers ATP, the precapillary sphincters dilate while venules stay constricted, so fluid leaks and sludges",
       },
       {
         id: "c",
-        text: "ATP depletion opens capillary beds but the venules dilate first, so blood pools and lactate falls as flow improves",
+        text: "Prolonged hypoperfusion causes vasodilation of both arterioles and venules, so the pressure falls without capillary leak",
       },
       {
         id: "d",
-        text: "Compensatory vasoconstriction fails in the arterioles, but the venules constrict and the back-pressure forces fluid into the tissues",
+        text: "ATP depletion opens capillary beds but the venules dilate first, so blood pools and lactate falls as flow improves",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "a",
     rationale:
-      "In the progressive (decompensated) stage of shock, homeostatic compensatory reflexes are overwhelmed. Persistent severe tissue hypoperfusion starves cells of oxygen, forcing prolonged anaerobic metabolism that produces heavy lactic acidosis (lactate >4–6 mmol/L). Local acidemia and hyperkalemia paralyze the precapillary arteriolar sphincters (causing them to dilate), while postcapillary venules remain constricted due to sympathetic acidosis resistance. This anatomical imbalance skyrockets hydrostatic capillary pressure, driving fluid and plasma proteins out of the vascular space into the interstitium (third-spacing and hemoconcentration). Sludged red cells aggregate in microvessels, producing microthrombi and irreversible end-organ cellular necrosis (MODS). Option d correctly explains progressive shock microvascular failure. Why the other options fail: option a dilates both sides of the capillary bed, which would not produce the sludging and leak described. Option c has lactate falling as flow improves, when the patient is worsening. Option d constricts the venules only, which overstates one half of the picture and misses the sphincter failure.",
+      "In the progressive (decompensated) stage of shock, homeostatic compensatory reflexes are overwhelmed. Persistent severe tissue hypoperfusion starves cells of oxygen, forcing prolonged anaerobic metabolism that produces heavy lactic acidosis (lactate >4–6 mmol/L). Local acidemia and hyperkalemia paralyze the precapillary arteriolar sphincters (causing them to dilate), while postcapillary venules remain constricted due to sympathetic acidosis resistance. This anatomical imbalance skyrockets hydrostatic capillary pressure, driving fluid and plasma proteins out of the vascular space into the interstitium (third-spacing and hemoconcentration). Sludged red cells aggregate in microvessels, producing microthrombi and irreversible end-organ cellular necrosis (MODS). Option a correctly explains progressive shock microvascular failure. Why the other options fail: option b dilates both sides of the capillary bed, which would not produce the sludging and leak described. Option d has lactate falling as flow improves, when the patient is worsening. Option a constricts the venules only, which overstates one half of the picture and misses the sphincter failure.",
     strategy: "Stages of shock: Progressive stage = compensatory failure -> anaerobic lactic acidosis -> precapillary sphincter failure with postcapillary venular constriction -> massive capillary leak and MODS.",
     difficulty: "hard",
     tags: ["anatomy-physiology", "stages-of-shock", "progressive-shock", "lactic-acidosis", "microcirculation"],
@@ -248,11 +248,11 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Axillary lymphatics removed, so protein-rich interstitial fluid cannot drain and accumulates, with later fibroadipose thickening",
+        text: "Lymph nodes produce albumin, so removing them lowers plasma oncotic pressure throughout the body",
       },
       {
         id: "b",
-        text: "Lymph nodes produce albumin, so removing them lowers plasma oncotic pressure throughout the body",
+        text: "Axillary lymphatics removed, so protein-rich interstitial fluid cannot drain and accumulates, with later fibroadipose thickening",
       },
       {
         id: "c",
@@ -263,9 +263,9 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Lymphatic obstruction raises capillary hydrostatic pressure by increasing venous pressure in the limb",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
-      "Under normal microvascular Starling equilibrium, capillary hydrostatic pressure filtration slightly exceeds plasma colloid osmotic reabsorption, resulting in an obligate net filtration of 2 to 4 liters of fluid per day into the interstitial space. The lymphatic system functions as the exclusive drainage network that vacuums up this fluid and extravasated macromolecules (proteins, fats, cellular debris) and channels it back into the venous circulation via the thoracic duct and right lymphatic duct into the subclavian veins. Surgical resection or radiation of axillary lymph nodes obliterates this anatomical drainage conduit. High-protein fluid stagnates in subcutaneous tissue, elevating tissue oncotic pressure, attracting more fluid, triggering chronic inflammation, fibroblast activation, and progressive fibroadipose deposition (lymphedema). This is why no blood pressure cuffs, IV insertions, or venipunctures are permitted on the affected arm. Option a is correct. Why the other options fail: option b has lymph nodes making albumin, which they do not. Option c severs the brachial artery, which would cause ischaemia, not oedema. Option d raises capillary hydrostatic pressure, which is the mechanism of venous oedema, not of lymphatic obstruction.",
+      "Under normal microvascular Starling equilibrium, capillary hydrostatic pressure filtration slightly exceeds plasma colloid osmotic reabsorption, resulting in an obligate net filtration of 2 to 4 liters of fluid per day into the interstitial space. The lymphatic system functions as the exclusive drainage network that vacuums up this fluid and extravasated macromolecules (proteins, fats, cellular debris) and channels it back into the venous circulation via the thoracic duct and right lymphatic duct into the subclavian veins. Surgical resection or radiation of axillary lymph nodes obliterates this anatomical drainage conduit. High-protein fluid stagnates in subcutaneous tissue, elevating tissue oncotic pressure, attracting more fluid, triggering chronic inflammation, fibroblast activation, and progressive fibroadipose deposition (lymphedema). This is why no blood pressure cuffs, IV insertions, or venipunctures are permitted on the affected arm. Option b is correct. Why the other options fail: option a has lymph nodes making albumin, which they do not. Option c severs the brachial artery, which would cause ischaemia, not oedema. Option d raises capillary hydrostatic pressure, which is the mechanism of venous oedema, not of lymphatic obstruction.",
     strategy: "Lymphatic physiology: Lymphatics return interstitial fluid and extravasated proteins to the venous circulation. Resection causes high-protein interstitial accumulation (lymphedema).",
     difficulty: "easy",
     tags: ["anatomy-physiology", "lymphatic-drainage", "lymphedema", "mastectomy", "starling-forces"],
@@ -282,20 +282,20 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Surfactant is produced by type I cells and coats the alveoli, preventing them from over-expanding during inspiration",
-      },
-      {
-        id: "c",
         text: "Surfactant increases surface tension in small alveoli so that they empty into larger ones and equalise pressure",
       },
       {
-        id: "d",
+        id: "c",
         text: "Surfactant is a lipoprotein that keeps the alveolar walls adherent, preventing them from separating during inspiration",
       },
+      {
+        id: "d",
+        text: "Surfactant is produced by type I cells and coats the alveoli, preventing them from over-expanding during inspiration",
+      },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "d",
     rationale:
-      "The Law of Laplace states that the collapsing inward pressure (P) inside an elastic sphere is directly proportional to surface tension (T) and inversely proportional to radius (r): P = 2T / r. Without surfactant, smaller alveoli (smaller r) would generate much higher collapsing pressures than larger alveoli, causing smaller alveoli to empty their air into larger ones and collapse completely (diffuse micro-atelectasis). Pulmonary surfactant (a complex lipoprotein predominantly dipalmitoylphosphatidylcholine secreted by Type II alveolar pneumocytes beginning around 24–28 weeks and maturing around 35 weeks) intersperses between water molecules at the alveolar air-liquid interface. It markedly reduces surface tension, equalizes pressure across alveoli of varying sizes, increases pulmonary compliance, and prevents end-expiratory collapse. In NRDS, lack of surfactant causes massive atelectasis, severe V/Q mismatch, and respiratory failure. Option b accurately explains this biophysics. Why the other options fail: option b gives surfactant to type I cells, which cover the gas-exchange surface and do not secrete it. Option c raises surface tension, which is the opposite of surfactant action. Option d makes the alveolar walls adherent, which would prevent expansion rather than collapse.",
+      "The Law of Laplace states that the collapsing inward pressure (P) inside an elastic sphere is directly proportional to surface tension (T) and inversely proportional to radius (r): P = 2T / r. Without surfactant, smaller alveoli (smaller r) would generate much higher collapsing pressures than larger alveoli, causing smaller alveoli to empty their air into larger ones and collapse completely (diffuse micro-atelectasis). Pulmonary surfactant (a complex lipoprotein predominantly dipalmitoylphosphatidylcholine secreted by Type II alveolar pneumocytes beginning around 24–28 weeks and maturing around 35 weeks) intersperses between water molecules at the alveolar air-liquid interface. It markedly reduces surface tension, equalizes pressure across alveoli of varying sizes, increases pulmonary compliance, and prevents end-expiratory collapse. In NRDS, lack of surfactant causes massive atelectasis, severe V/Q mismatch, and respiratory failure. Option d accurately explains this biophysics. Why the other options fail: option d gives surfactant to type I cells, which cover the gas-exchange surface and do not secrete it. Option b raises surface tension, which is the opposite of surfactant action. Option c makes the alveolar walls adherent, which would prevent expansion rather than collapse.",
     strategy: "Alveolar biophysics: Type II pneumocytes secrete surfactant (dipalmitoylphosphatidylcholine), which reduces alveolar surface tension (Laplace law) and prevents end-expiratory atelectasis.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "pulmonary-surfactant", "type-ii-pneumocytes", "law-of-laplace", "respiratory-distress-syndrome"],
@@ -368,24 +368,24 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "NSAIDs constrict the afferent arteriole by removing prostaglandins, and the ACE inhibitor dilates the efferent, so filtration pressure collapses",
-      },
-      {
-        id: "b",
         text: "NSAIDs constrict the efferent arteriole while the ACE inhibitor dilates the afferent, so blood is shunted from the cortex",
       },
       {
-        id: "c",
+        id: "b",
         text: "Both drugs constrict the afferent arteriole, so renal blood flow falls and creatinine rises without a change in filtration pressure",
+      },
+      {
+        id: "c",
+        text: "NSAIDs constrict the afferent arteriole by removing prostaglandins, and the ACE inhibitor dilates the efferent, so filtration pressure collapses",
       },
       {
         id: "d",
         text: "The ACE inhibitor reduces aldosterone, so sodium loss drops the blood pressure and the creatinine rises from prerenal causes alone",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
-      "Glomerular Filtration Rate (GFR) depends on intraglomerular capillary hydrostatic pressure, which is regulated by opposing tone in the afferent (inflow) and efferent (outflow) arterioles. 1) Renal prostaglandins (PGE2, PGI2) selectively vasodilate the AFFERENT arteriole to maintain inflow during low perfusion states. NSAIDs inhibit cyclooxygenase (COX), blocking prostaglandin synthesis, causing afferent vasoconstriction and starving the glomerulus of blood flow; 2) Angiotensin II selectively vasoconstricts the EFFERENT arteriole, maintaining intraglomerular pressure (like putting a thumb on a garden hose). ACE inhibitors block angiotensin II, causing efferent vasodilation and depressurizing the glomerular capillary bed. Combining NSAIDs (afferent clamp) and ACE inhibitors/ARBs (efferent open) destroys intraglomerular pressure, precipitating acute prerenal kidney injury ('triple whammy' with diuretics). Option a is correct. Why the other options fail: option b reverses the arterioles, giving the NSAID the efferent and the ACE inhibitor the afferent. Option c makes both drugs constrict the afferent, which is not how ACE inhibitors act. Option d explains the creatinine by prerenal volume loss alone, which cannot account for a rise this size in five days.",
+      "Glomerular Filtration Rate (GFR) depends on intraglomerular capillary hydrostatic pressure, which is regulated by opposing tone in the afferent (inflow) and efferent (outflow) arterioles. 1) Renal prostaglandins (PGE2, PGI2) selectively vasodilate the AFFERENT arteriole to maintain inflow during low perfusion states. NSAIDs inhibit cyclooxygenase (COX), blocking prostaglandin synthesis, causing afferent vasoconstriction and starving the glomerulus of blood flow; 2) Angiotensin II selectively vasoconstricts the EFFERENT arteriole, maintaining intraglomerular pressure (like putting a thumb on a garden hose). ACE inhibitors block angiotensin II, causing efferent vasodilation and depressurizing the glomerular capillary bed. Combining NSAIDs (afferent clamp) and ACE inhibitors/ARBs (efferent open) destroys intraglomerular pressure, precipitating acute prerenal kidney injury ('triple whammy' with diuretics). Option c is correct. Why the other options fail: option a reverses the arterioles, giving the NSAID the efferent and the ACE inhibitor the afferent. Option b makes both drugs constrict the afferent, which is not how ACE inhibitors act. Option d explains the creatinine by prerenal volume loss alone, which cannot account for a rise this size in five days.",
     strategy: "Renal hemodynamics: Prostaglandins dilate Afferent arteriole; Angiotensin II constricts Efferent arteriole. NSAID (afferent constriction) + ACEI (efferent dilation) collapses GFR.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "glomerular-filtration-rate", "afferent-efferent-arteriole", "nsaids-ace-inhibitors", "renal-hemodynamics"],
@@ -402,20 +402,20 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Renin from juxtaglomerular cells activates angiotensinogen directly to angiotensin II, bypassing the pulmonary step",
+        text: "The macula densa releases aldosterone, which drives sodium reabsorption and raises the blood pressure",
       },
       {
         id: "c",
-        text: "The macula densa releases aldosterone, which drives sodium reabsorption and raises the blood pressure",
+        text: "Renin from juxtaglomerular cells activates angiotensinogen directly to angiotensin II, bypassing the pulmonary step",
       },
       {
         id: "d",
         text: "Juxtaglomerular cells release ADH, which retains water and restores volume without changing vascular tone",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "c",
     rationale:
-      "The Renin-Angiotensin-Aldosterone System (RAAS) is the body's primary long-term regulator of blood pressure and extracellular fluid volume: 1) Juxtaglomerular granular cells in the afferent arteriole detect decreased renal perfusion pressure (and macula densa senses low tubular NaCl), releasing the enzyme RENIN; 2) Renin cleaves hepatically produced Angiotensinogen into Angiotensin I; 3) Angiotensin-Converting Enzyme (ACE, predominantly in pulmonary vascular endothelium) cleaves Angiotensin I into ANGIOTENSIN II; 4) Angiotensin II exerts potent systemic vasoconstriction, stimulates hypothalamic thirst and ADH release, and stimulates the adrenal cortex (zona glomerulosa) to secrete ALDOSTERONE; 5) Aldosterone upregulates Na+/K+ ATPase pumps in distal tubules and collecting ducts, reabsorbing sodium and water while excreting potassium and H+. Option b accurately traces this cascade. Why the other options fail: option b skips the pulmonary step, but angiotensin I is inactive until ACE converts it. Option c gives aldosterone to the macula densa, which releases no hormone. Option d uses ADH from the juxtaglomerular cells, which do not store it.",
+      "The Renin-Angiotensin-Aldosterone System (RAAS) is the body's primary long-term regulator of blood pressure and extracellular fluid volume: 1) Juxtaglomerular granular cells in the afferent arteriole detect decreased renal perfusion pressure (and macula densa senses low tubular NaCl), releasing the enzyme RENIN; 2) Renin cleaves hepatically produced Angiotensinogen into Angiotensin I; 3) Angiotensin-Converting Enzyme (ACE, predominantly in pulmonary vascular endothelium) cleaves Angiotensin I into ANGIOTENSIN II; 4) Angiotensin II exerts potent systemic vasoconstriction, stimulates hypothalamic thirst and ADH release, and stimulates the adrenal cortex (zona glomerulosa) to secrete ALDOSTERONE; 5) Aldosterone upregulates Na+/K+ ATPase pumps in distal tubules and collecting ducts, reabsorbing sodium and water while excreting potassium and H+. Option c accurately traces this cascade. Why the other options fail: option c skips the pulmonary step, but angiotensin I is inactive until ACE converts it. Option b gives aldosterone to the macula densa, which releases no hormone. Option d uses ADH from the juxtaglomerular cells, which do not store it.",
     strategy: "RAAS cascade: Low renal perfusion -> Renin -> Angiotensin I -> ACE -> Angiotensin II (vasoconstriction) -> Aldosterone (Na+/H2O retention, K+ excretion).",
     difficulty: "easy",
     tags: ["anatomy-physiology", "raas", "renin", "angiotensin-ii", "aldosterone"],
@@ -436,16 +436,16 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "The kidneys excrete hydrogen ions and regenerate bicarbonate, which is the only compensation in DKA",
+        text: "The low bicarbonate is the compensation for a primary respiratory alkalosis, and the lungs are still overventilating",
       },
       {
         id: "d",
-        text: "The low bicarbonate is the compensation for a primary respiratory alkalosis, and the lungs are still overventilating",
+        text: "The kidneys excrete hydrogen ions and regenerate bicarbonate, which is the only compensation in DKA",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "d",
     rationale:
-      "The carbonic acid-bicarbonate buffer system operates according to the equilibrium: CO2 + H2O <-> H2CO3 <-> H+ + HCO3-. In DKA, excessive ketoacids (acetoacetic acid, beta-hydroxybutyric acid) dissociate into hydrogen ions (H+), which bind to and consume circulating bicarbonate (HCO3-), causing a primary severe metabolic acidosis (pH 7.15, HCO3- 8 mEq/L). The respiratory center in the brainstem detects the high arterial H+ and responds rapidly by triggering Kussmaul respirations (deep, rapid breathing). Blowing off CO2 lowers arterial PaCO2 (24 mmHg), which pulls the chemical equilibrium to the left, decreasing H2CO3 and free H+ ions and elevating pH back toward normal physiological range (partial respiratory compensation). Option c correctly identifies this physiological compensatory mechanism. Why the other options fail: option b retains carbon dioxide, which would add acid rather than remove it. Option c makes renal compensation the only mechanism, when the Kussmaul breathing is the immediate one. Option d calls the picture a respiratory alkalosis, when the bicarbonate of 8 identifies the metabolic process.",
+      "The carbonic acid-bicarbonate buffer system operates according to the equilibrium: CO2 + H2O <-> H2CO3 <-> H+ + HCO3-. In DKA, excessive ketoacids (acetoacetic acid, beta-hydroxybutyric acid) dissociate into hydrogen ions (H+), which bind to and consume circulating bicarbonate (HCO3-), causing a primary severe metabolic acidosis (pH 7.15, HCO3- 8 mEq/L). The respiratory center in the brainstem detects the high arterial H+ and responds rapidly by triggering Kussmaul respirations (deep, rapid breathing). Blowing off CO2 lowers arterial PaCO2 (24 mmHg), which pulls the chemical equilibrium to the left, decreasing H2CO3 and free H+ ions and elevating pH back toward normal physiological range (partial respiratory compensation). Option d correctly identifies this physiological compensatory mechanism. Why the other options fail: option b retains carbon dioxide, which would add acid rather than remove it. Option d makes renal compensation the only mechanism, when the Kussmaul breathing is the immediate one. Option c calls the picture a respiratory alkalosis, when the bicarbonate of 8 identifies the metabolic process.",
     strategy: "Acid-base compensation: Primary metabolic acidosis triggers respiratory hyperventilation (Kussmaul breathing) to blow off CO2 and reduce carbonic acid/H+ concentration.",
     difficulty: "easy",
     tags: ["anatomy-physiology", "acid-base-balance", "kussmaul-respirations", "metabolic-acidosis", "carbonic-acid-bicarbonate-buffer"],
@@ -466,16 +466,16 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Pressure rises because brain tissue swells and displaces CSF into the spinal canal faster than it can be reabsorbed",
+        text: "Pressure rises only when the mass exceeds the volume of the whole cranial cavity, so the curve is flat until herniation begins",
       },
       {
         id: "d",
-        text: "Pressure rises only when the mass exceeds the volume of the whole cranial cavity, so the curve is flat until herniation begins",
+        text: "Pressure rises because brain tissue swells and displaces CSF into the spinal canal faster than it can be reabsorbed",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "c",
     rationale:
-      "The Monro-Kellie doctrine states that the rigid, inelastic cranial vault is a closed box containing a constant total volume comprised of three distinct compartments: Brain parenchymal tissue (~80%), Intravascular blood (~10%), and Cerebrospinal fluid (CSF, ~10%). Because the skull cannot expand, an increase in the volume of one component (or an added mass like a hematoma or tumor) must be compensated by an equal decrease in the volume of the other components to maintain normal ICP (5–15 mmHg). Early compensation occurs by displacing CSF into the thecal sac and compressing cerebral venous sinuses. Once these compensatory buffers are exhausted (the compliance curve breakpoint), even a tiny addition of 1 to 2 mL of volume causes an exponential, catastrophic surge in ICP, collapsing cerebral perfusion pressure and causing fatal brainstem herniation. Option d is correct. Why the other options fail: option a treats the skull as elastic, when the whole point is that it is rigid. Option b has brain tissue dissolving into air, which is not a mechanism. Option d makes the pressure-volume curve flat until herniation, when it becomes exponential before that point.",
+      "The Monro-Kellie doctrine states that the rigid, inelastic cranial vault is a closed box containing a constant total volume comprised of three distinct compartments: Brain parenchymal tissue (~80%), Intravascular blood (~10%), and Cerebrospinal fluid (CSF, ~10%). Because the skull cannot expand, an increase in the volume of one component (or an added mass like a hematoma or tumor) must be compensated by an equal decrease in the volume of the other components to maintain normal ICP (5–15 mmHg). Early compensation occurs by displacing CSF into the thecal sac and compressing cerebral venous sinuses. Once these compensatory buffers are exhausted (the compliance curve breakpoint), even a tiny addition of 1 to 2 mL of volume causes an exponential, catastrophic surge in ICP, collapsing cerebral perfusion pressure and causing fatal brainstem herniation. Option c is correct. Why the other options fail: option a treats the skull as elastic, when the whole point is that it is rigid. Option b has brain tissue dissolving into air, which is not a mechanism. Option c makes the pressure-volume curve flat until herniation, when it becomes exponential before that point.",
     strategy: "Neurophysiology: Monro-Kellie hypothesis = rigid skull contains fixed volume (brain 80%, blood 10%, CSF 10%). Once CSF/blood displacement buffers fail, ICP spikes exponentially.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "monro-kellie-doctrine", "intracranial-pressure", "cerebral-perfusion", "epidural-hematoma"],
@@ -548,24 +548,24 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Cushing triad: hypertension with a widened pulse pressure, bradycardia and irregular breathing, from rising intracranial pressure",
+        text: "Virchow triad: stasis, hypercoagulability and endothelial injury, from immobility after head injury",
       },
       {
         id: "b",
-        text: "Beck triad: hypotension, muffled heart sounds and distended neck veins, from pericardial tamponade",
+        text: "Cushing triad: hypertension with a widened pulse pressure, bradycardia and irregular breathing, from rising intracranial pressure",
       },
       {
         id: "c",
-        text: "Virchow triad: stasis, hypercoagulability and endothelial injury, from immobility after head injury",
+        text: "Beck triad: hypotension, muffled heart sounds and distended neck veins, from pericardial tamponade",
       },
       {
         id: "d",
         text: "Charcot triad: fever, jaundice and right upper quadrant pain, from ascending cholangitis",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "a",
     rationale:
-      "Cushing's Triad is a classic physiological response to terminal intracranial hypertension and medullary ischemia: 1) Severe Systolic Hypertension with WIDENING PULSE PRESSURE: When ICP approaches mean arterial pressure, brainstem hypoperfusion and ischemia trigger a massive sympathetic surge (Cushing reflex) to forcibly drive blood flow into cerebral circulation; 2) BRADYCARDIA: Extreme systemic hypertension stimulates carotid and aortic baroreceptors, triggering intense vagal outflow to slow the heart rate; 3) IRREGULAR RESPIRATIONS (Cheyne-Stokes or ataxic breathing): Mechanical compression and distortion of the respiratory centers in the medulla oblongata and pons cause erratic breathing. Cushing's triad is a late, grave clinical sign indicating impending or ongoing cerebral herniation requiring emergency hyperosmolar therapy (mannitol/3% saline) and neurosurgical decompression. Option c is correct. Why the other options fail: option b describes tamponade, which gives hypotension rather than hypertension. Option c describes the clotting triad, which has nothing to do with a rising blood pressure and a slowing pulse. Option d describes cholangitis, which gives fever and jaundice.",
+      "Cushing's Triad is a classic physiological response to terminal intracranial hypertension and medullary ischemia: 1) Severe Systolic Hypertension with WIDENING PULSE PRESSURE: When ICP approaches mean arterial pressure, brainstem hypoperfusion and ischemia trigger a massive sympathetic surge (Cushing reflex) to forcibly drive blood flow into cerebral circulation; 2) BRADYCARDIA: Extreme systemic hypertension stimulates carotid and aortic baroreceptors, triggering intense vagal outflow to slow the heart rate; 3) IRREGULAR RESPIRATIONS (Cheyne-Stokes or ataxic breathing): Mechanical compression and distortion of the respiratory centers in the medulla oblongata and pons cause erratic breathing. Cushing's triad is a late, grave clinical sign indicating impending or ongoing cerebral herniation requiring emergency hyperosmolar therapy (mannitol/3% saline) and neurosurgical decompression. Option a is correct. Why the other options fail: option c describes tamponade, which gives hypotension rather than hypertension. Option a describes the clotting triad, which has nothing to do with a rising blood pressure and a slowing pulse. Option d describes cholangitis, which gives fever and jaundice.",
     strategy: "Neurological emergencies: Cushing's Triad = Systolic hypertension with widening pulse pressure + Bradycardia + Irregular respirations = severe intracranial hypertension / impending herniation.",
     difficulty: "easy",
     tags: ["anatomy-physiology", "cushings-triad", "intracranial-hypertension", "brainstem-ischemia", "herniation"],

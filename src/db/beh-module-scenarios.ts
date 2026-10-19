@@ -8,11 +8,11 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Explore how the disease, psychological stressors and social circumstances interact to shape the client's attendance",
+        text: "Focus on beta-cell failure and the HbA1c, because the metabolic problem is what the treatment targets",
       },
       {
         id: "b",
-        text: "Focus on beta-cell failure and the HbA1c, because the metabolic problem is what the treatment targets",
+        text: "Explore how the disease, psychological stressors and social circumstances interact to shape the client's attendance",
       },
       {
         id: "c",
@@ -23,9 +23,9 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Add an antidepressant first, because depression is the most common reason for missing appointments",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
-      "George Engel's Biopsychosocial Model posits that health, illness, and healthcare delivery cannot be fully understood by biological pathology alone. It requires examining the dynamic interplay of biological factors (glycemic control, genetics), psychological components (illness perceptions, coping styles, emotional distress, self-efficacy), and social determinants (socioeconomic status, family dynamics, work schedule, cultural beliefs). Narrow biomedical reductionism (b) ignores the real-world behavioral drivers of chronic disease; shaming the client (c) and unwarranted neuroimaging (d) are non-therapeutic. Why the other options fail: option b stays inside the biomedical lens the question asks the nurse to move beyond. Option c replaces assessment with judgement. Option d adds a treatment for a problem the assessment has not yet established.",
+      "George Engel's Biopsychosocial Model posits that health, illness, and healthcare delivery cannot be fully understood by biological pathology alone. It requires examining the dynamic interplay of biological factors (glycemic control, genetics), psychological components (illness perceptions, coping styles, emotional distress, self-efficacy), and social determinants (socioeconomic status, family dynamics, work schedule, cultural beliefs). Narrow biomedical reductionism (b) ignores the real-world behavioral drivers of chronic disease; shaming the client (c) and unwarranted neuroimaging (d) are non-therapeutic. Why the other options fail: option a stays inside the biomedical lens the question asks the nurse to move beyond. Option c replaces assessment with judgement. Option d adds a treatment for a problem the assessment has not yet established.",
     strategy: "Biopsychosocial Model: Always assess biological, psychological, and social dimensions concurrently to understand client health behaviors.",
     difficulty: "easy",
     tags: ["behavioural-sciences", "biopsychosocial-model", "chronic-illness", "health-behaviour", "mental-health"],
@@ -68,24 +68,24 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Elicit the client's own explanation of the illness, then negotiate a plan that respects it",
+        text: "Refer the client to a cultural broker who can persuade them that the spiritual explanation is wrong",
       },
       {
         id: "b",
-        text: "Explain that the biomedical model is the only evidence-based one, and ask the client to accept the prescription first",
+        text: "Elicit the client's own explanation of the illness, then negotiate a plan that respects it",
       },
       {
         id: "c",
-        text: "Refer the client to a cultural broker who can persuade them that the spiritual explanation is wrong",
+        text: "Explain that the biomedical model is the only evidence-based one, and ask the client to accept the prescription first",
       },
       {
         id: "d",
         text: "Adjust the prescription to fit the client's belief, and give a lower dose so the drug does not cool the body too quickly",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "a",
     rationale:
-      "Arthur Kleinman's Explanatory Model framework encourages clinicians to explore how clients and families understand their sickness: etiology, timing, pathophysiology, severity, and acceptable treatment. Eliciting the client's perspective fosters trust and cultural humility, enabling the nurse to bridge clinical recommendations with the client's cultural framework (negotiating safe medical adherence while respecting spiritual practices that do not cause harm). Ridiculing the client (a) or issuing ultimatums (b) causes immediate care disengagement. Endorsing abandonment of evidence-based therapy (d) is dangerous malpractice. Why the other options fail: option b dismisses the belief and ends the negotiation before it starts. Option c contradicts the belief rather than exploring it. Option d accepts the belief so completely that it abandons effective treatment.",
+      "Arthur Kleinman's Explanatory Model framework encourages clinicians to explore how clients and families understand their sickness: etiology, timing, pathophysiology, severity, and acceptable treatment. Eliciting the client's perspective fosters trust and cultural humility, enabling the nurse to bridge clinical recommendations with the client's cultural framework (negotiating safe medical adherence while respecting spiritual practices that do not cause harm). Ridiculing the client (a) or issuing ultimatums (b) causes immediate care disengagement. Endorsing abandonment of evidence-based therapy (d) is dangerous malpractice. Why the other options fail: option c dismisses the belief and ends the negotiation before it starts. Option a contradicts the belief rather than exploring it. Option d accepts the belief so completely that it abandons effective treatment.",
     strategy: "Kleinman's Explanatory Model: Understand the client's perspective on illness etiology and treatment expectations before negotiating medical therapy.",
     difficulty: "medium",
     tags: ["behavioural-sciences", "kleinman", "explanatory-model", "cultural-competence", "anthropology"],
@@ -162,20 +162,20 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Identity versus role confusion, because peer opinion shapes the adolescent's sense of self",
-      },
-      {
-        id: "c",
         text: "Initiative versus guilt, because the adolescent feels guilty about needing help",
       },
       {
-        id: "d",
+        id: "c",
         text: "Generativity versus stagnation, because the adolescent wants to contribute to others",
       },
+      {
+        id: "d",
+        text: "Identity versus role confusion, because peer opinion shapes the adolescent's sense of self",
+      },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "d",
     rationale:
-      "Adolescents (ages 12 to 18 years) navigate Erikson's developmental stage of Identity versus Role Confusion. The primary developmental task is developing a sense of self, personal values, and peer group belonging. Fitting in with peers is paramount; chronic illnesses and visible regimens (like injections or blood glucose testing) threaten peer conformity and identity formation. The nurse should address this by integrating peer support groups, exploring discrete injection routines, and empowering autonomous self-care. Trust vs Mistrust (a) is infancy; Initiative vs Guilt (c) is early childhood (3–6 yrs); Generativity vs Stagnation (d) is middle adulthood (40–65 yrs). Why the other options fail: option a belongs to infancy. Option c belongs to the preschool years. Option d belongs to midlife, when the task is contributing to the next generation.",
+      "Adolescents (ages 12 to 18 years) navigate Erikson's developmental stage of Identity versus Role Confusion. The primary developmental task is developing a sense of self, personal values, and peer group belonging. Fitting in with peers is paramount; chronic illnesses and visible regimens (like injections or blood glucose testing) threaten peer conformity and identity formation. The nurse should address this by integrating peer support groups, exploring discrete injection routines, and empowering autonomous self-care. Trust vs Mistrust (a) is infancy; Initiative vs Guilt (c) is early childhood (3–6 yrs); Generativity vs Stagnation (d) is middle adulthood (40–65 yrs). Why the other options fail: option a belongs to infancy. Option b belongs to the preschool years. Option c belongs to midlife, when the task is contributing to the next generation.",
     strategy: "Erikson's stages: Adolescence (12–18) = Identity vs. Role Confusion. Peer conformity and fitting in are critical drivers of health behaviors.",
     difficulty: "easy",
     tags: ["behavioural-sciences", "erikson", "identity-vs-role-confusion", "adolescence", "psychosocial"],
@@ -188,24 +188,24 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Autonomy versus shame, because the client is struggling to remain independent in hospital",
+        text: "Ego integrity versus despair, because the client is reviewing life and seeking peace with it",
       },
       {
         id: "b",
-        text: "Industry versus inferiority, because the client measures their worth by past achievement",
+        text: "Autonomy versus shame, because the client is struggling to remain independent in hospital",
       },
       {
         id: "c",
-        text: "Ego integrity versus despair, because the client is reviewing life and seeking peace with it",
+        text: "Industry versus inferiority, because the client measures their worth by past achievement",
       },
       {
         id: "d",
         text: "Intimacy versus isolation, because the client is seeking closeness in later life",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "a",
     rationale:
-      "Older adulthood (65+ years) centers on Erikson's stage of Ego Integrity versus Despair. The developmental task is life review: looking back over one's life to achieve a sense of fulfillment, meaning, and coherence (Ego Integrity) versus experiencing bitter regret, despair, and fear of impending death. Engaging in life review is a healthy, therapeutic process that nurses should facilitate through active listening and validation. Autonomy vs Shame (a) is toddlerhood (1–3 yrs); Industry vs Inferiority (b) is school age (6–12 yrs); Intimacy vs Isolation (d) is young adulthood (18–40 yrs). Why the other options fail: option a belongs to toddlerhood. Option b belongs to school age. Option d belongs to young adulthood.",
+      "Older adulthood (65+ years) centers on Erikson's stage of Ego Integrity versus Despair. The developmental task is life review: looking back over one's life to achieve a sense of fulfillment, meaning, and coherence (Ego Integrity) versus experiencing bitter regret, despair, and fear of impending death. Engaging in life review is a healthy, therapeutic process that nurses should facilitate through active listening and validation. Autonomy vs Shame (a) is toddlerhood (1–3 yrs); Industry vs Inferiority (b) is school age (6–12 yrs); Intimacy vs Isolation (d) is young adulthood (18–40 yrs). Why the other options fail: option b belongs to toddlerhood. Option c belongs to school age. Option d belongs to young adulthood.",
     strategy: "Erikson's stages: Older adult (65+) = Ego Integrity vs. Despair. Life review and reflecting on one's life story are core developmental milestones.",
     difficulty: "easy",
     tags: ["behavioural-sciences", "erikson", "ego-integrity", "gerontology", "psychosocial-development"],
@@ -222,20 +222,20 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "The resistance stage, with cortisol maintaining glucose and blood pressure despite the strain",
+        text: "A eustress phase, in which beneficial stress improves performance and adaptation",
       },
       {
         id: "c",
-        text: "The exhaustion stage, with adrenal atrophy, hypoglycaemia and collapse after prolonged stress",
+        text: "The resistance stage, with cortisol maintaining glucose and blood pressure despite the strain",
       },
       {
         id: "d",
-        text: "A eustress phase, in which beneficial stress improves performance and adaptation",
+        text: "The exhaustion stage, with adrenal atrophy, hypoglycaemia and collapse after prolonged stress",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "b",
     rationale:
-      "Hans Selye's General Adaptation Syndrome (GAS) comprises three distinct biological stages: 1) ALARM REACTION: Acute 'fight-or-flight' activation of the sympathetic nervous system and hypothalamic-pituitary-adrenal (HPA) axis (tachycardia, hypertension, hyperglycemia); 2) RESISTANCE: Sustained corticosteroid release and physiological adaptation to resist the ongoing stressor; 3) EXHAUSTION: Depletion of adaptive energy reserves following prolonged, relentless stress, resulting in organ system breakdown, adrenal insufficiency, blunted immune function, shock, or death. Option d accurately describes this terminal decompensatory phase. Why the other options fail: option a is the first stage, with a catecholamine surge rather than collapse. Option b is not a stage of the syndrome. Option c is where the body holds out at a cost, before its resources run down.",
+      "Hans Selye's General Adaptation Syndrome (GAS) comprises three distinct biological stages: 1) ALARM REACTION: Acute 'fight-or-flight' activation of the sympathetic nervous system and hypothalamic-pituitary-adrenal (HPA) axis (tachycardia, hypertension, hyperglycemia); 2) RESISTANCE: Sustained corticosteroid release and physiological adaptation to resist the ongoing stressor; 3) EXHAUSTION: Depletion of adaptive energy reserves following prolonged, relentless stress, resulting in organ system breakdown, adrenal insufficiency, blunted immune function, shock, or death. Option b accurately describes this terminal decompensatory phase. Why the other options fail: option a is the first stage, with a catecholamine surge rather than collapse. Option c is not a stage of the syndrome. Option d is where the body holds out at a cost, before its resources run down.",
     strategy: "Selye's GAS stages: Alarm (acute fight-or-flight) -> Resistance (coping/adaptation) -> Exhaustion (depletion of physiological reserves, collapse).",
     difficulty: "medium",
     tags: ["behavioural-sciences", "general-adaptation-syndrome", "selye", "stress-theory", "exhaustion"],
@@ -278,11 +278,11 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Regression, when a child under stress returns to earlier behaviours such as bedwetting and thumb sucking",
+        text: "Repression, when the child pushes the frightening memory of admission out of awareness",
       },
       {
         id: "b",
-        text: "Repression, when the child pushes the frightening memory of admission out of awareness",
+        text: "Regression, when a child under stress returns to earlier behaviours such as bedwetting and thumb sucking",
       },
       {
         id: "c",
@@ -293,9 +293,9 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Reaction formation, when the child behaves in the opposite way to how they actually feel",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "a",
     rationale:
-      "Regression is a common, adaptive, and temporary ego defense mechanism in young children facing severe stress, physical illness, hospitalization, or separation from family. The child retreats to behaviors associated with an earlier, safer developmental stage (e.g., thumb-sucking, enuresis, wanting a bottle) where they felt completely nurtured and protected. Reassuring parents that this behavior is normal and will resolve as health and security return prevents punitive parental reactions that worsen distress. Punishment (c) increases anxiety; attributing this to brain damage (a) or manipulation (d) is clinically inaccurate. Why the other options fail: option b is repression, which is unconscious forgetting rather than a return to earlier behaviour. Option c is fixation, a developmental arrest rather than a temporary retreat. Option d would show behaviour opposite to the child's fear.",
+      "Regression is a common, adaptive, and temporary ego defense mechanism in young children facing severe stress, physical illness, hospitalization, or separation from family. The child retreats to behaviors associated with an earlier, safer developmental stage (e.g., thumb-sucking, enuresis, wanting a bottle) where they felt completely nurtured and protected. Reassuring parents that this behavior is normal and will resolve as health and security return prevents punitive parental reactions that worsen distress. Punishment (c) increases anxiety; attributing this to brain damage (a) or manipulation (d) is clinically inaccurate. Why the other options fail: option a is repression, which is unconscious forgetting rather than a return to earlier behaviour. Option c is fixation, a developmental arrest rather than a temporary retreat. Option d would show behaviour opposite to the child's fear.",
     strategy: "Defense mechanisms: Regression is retreating to an earlier developmental milestone during acute stress. It is normal and temporary in hospitalized children.",
     difficulty: "easy",
     tags: ["behavioural-sciences", "regression", "defense-mechanisms", "pediatrics", "hospitalization-stress"],
@@ -342,20 +342,20 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Explain the risks of missed appointments and send a formal reminder before the next visit",
+        text: "Transfer her care to a clinic nearer her home and close the record if she does not attend",
       },
       {
         id: "c",
-        text: "Report the mother to social services for neglect, because three children are at risk",
+        text: "Explain the risks of missed appointments and send a formal reminder before the next visit",
       },
       {
         id: "d",
-        text: "Transfer her care to a clinic nearer her home and close the record if she does not attend",
+        text: "Report the mother to social services for neglect, because three children are at risk",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "b",
     rationale:
-      "The WHO Social Determinants of Health (SDOH) emphasizes that conditions in which people are born, grow, live, work, and age (e.g., poverty, transport deficits, childcare lack, insecure employment) drive more than 80% of health outcomes and clinic non-attendance. Labeling individuals 'non-compliant' ignores structural inequities. A compassionate home visit uncovers real barriers and allows tailored solutions (CHPS home visits, mobile outreach, transport subsidies, flexible clinic hours). Punitive threats (a and b) and patient abandonment (c) worsen maternal-fetal mortality and violate human rights. Why the other options fail: option b treats a structural problem as a reminder problem. Option c attributes the missed visits to the mother's character. Option d relocates care without removing the barrier that stopped her.",
+      "The WHO Social Determinants of Health (SDOH) emphasizes that conditions in which people are born, grow, live, work, and age (e.g., poverty, transport deficits, childcare lack, insecure employment) drive more than 80% of health outcomes and clinic non-attendance. Labeling individuals 'non-compliant' ignores structural inequities. A compassionate home visit uncovers real barriers and allows tailored solutions (CHPS home visits, mobile outreach, transport subsidies, flexible clinic hours). Punitive threats (a and b) and patient abandonment (c) worsen maternal-fetal mortality and violate human rights. Why the other options fail: option c treats a structural problem as a reminder problem. Option d attributes the missed visits to the mother's character. Option b relocates care without removing the barrier that stopped her.",
     strategy: "SDOH principle: Before attributing missed care to poor personal motivation, identify and address structural socioeconomic barriers.",
     difficulty: "easy",
     tags: ["behavioural-sciences", "social-determinants", "sdoh", "health-equity", "community-health"],
@@ -368,24 +368,24 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Explain the interaction, validate the wish for strength, and agree a safe alternative with the family",
-      },
-      {
-        id: "b",
         text: "Remove the tea from the bedside, explain why it is unsafe, and document the conversation",
       },
       {
-        id: "c",
+        id: "b",
         text: "Allow the tea because family beliefs matter, and monitor the electrolytes and weight closely",
+      },
+      {
+        id: "c",
+        text: "Explain the interaction, validate the wish for strength, and agree a safe alternative with the family",
       },
       {
         id: "d",
         text: "Ask the family to stop bringing remedies and restrict their visits until the client stabilises",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
-      "Cultural competence requires balancing respect for traditional cultural health practices with patient physiological safety. Licorice root contains glycyrrhizin, which inhibits 11-beta-hydroxysteroid dehydrogenase, leading to mineralocorticoid excess, severe hypokalemia, hypertension, and heart failure decompensation. The nurse explains the mechanism respectfully without denigrating their beliefs, validates their positive intention to heal, and negotiates safe alternatives (e.g., safe herbal teas without cardiac interactions or prayer/rituals). Aggressive confiscation (b) destroys trust; passive negligence (c) precipitates fatal heart failure; security ejection (d) alienates the support system. Why the other options fail: option b removes the tea but not the belief, and the family will bring it again. Option c allows a substance that is actively harmful in heart failure. Option d punishes the family and guarantees that the next remedy is hidden.",
+      "Cultural competence requires balancing respect for traditional cultural health practices with patient physiological safety. Licorice root contains glycyrrhizin, which inhibits 11-beta-hydroxysteroid dehydrogenase, leading to mineralocorticoid excess, severe hypokalemia, hypertension, and heart failure decompensation. The nurse explains the mechanism respectfully without denigrating their beliefs, validates their positive intention to heal, and negotiates safe alternatives (e.g., safe herbal teas without cardiac interactions or prayer/rituals). Aggressive confiscation (b) destroys trust; passive negligence (c) precipitates fatal heart failure; security ejection (d) alienates the support system. Why the other options fail: option a removes the tea but not the belief, and the family will bring it again. Option b allows a substance that is actively harmful in heart failure. Option d punishes the family and guarantees that the next remedy is hidden.",
     strategy: "Negotiating cultural health practices: Respect the intention, educate on specific physiological risks, and negotiate safe cultural practices that avoid harm.",
     difficulty: "medium",
     tags: ["behavioural-sciences", "cultural-competence", "herbal-medicine", "drug-herb-interactions", "patient-education"],
@@ -488,24 +488,24 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "A score of 21 with active suicidal ideation, which indicates severe depression needing urgent review",
-      },
-      {
-        id: "b",
         text: "A score of 15, which indicates moderately severe depression and a routine referral",
       },
       {
-        id: "c",
+        id: "b",
         text: "A score of 10, which is the threshold for mild depression and needs no action",
       },
       {
-        id: "d",
+        id: "c",
         text: "A score of 5, which indicates minimal symptoms despite the reported weight loss",
       },
+      {
+        id: "d",
+        text: "A score of 21 with active suicidal ideation, which indicates severe depression needing urgent review",
+      },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "d",
     rationale:
-      "The PHQ-9 is a standardized 9-item depression screening tool scored from 0 to 27: 0–4 = minimal/none; 5–9 = mild; 10–14 = moderate; 15–19 = moderately severe; 20–27 = severe depression. A score of 20 or higher signifies severe major depressive disorder. Any endorsement of item 9 (thoughts of being better off dead or hurting oneself) demands immediate comprehensive suicide risk assessment and emergency psychiatric referral. Involuntary ECT (c) is never indicated for mild depression; discharging a suffering client (d) constitutes medical negligence. Why the other options fail: option b scores the symptoms as minimal, which the weight loss and anhedonia contradict. Option c treats a mild score as an emergency and names a treatment that requires consent and referral. Option d calls the presentation malingering, which no score supports.",
+      "The PHQ-9 is a standardized 9-item depression screening tool scored from 0 to 27: 0–4 = minimal/none; 5–9 = mild; 10–14 = moderate; 15–19 = moderately severe; 20–27 = severe depression. A score of 20 or higher signifies severe major depressive disorder. Any endorsement of item 9 (thoughts of being better off dead or hurting oneself) demands immediate comprehensive suicide risk assessment and emergency psychiatric referral. Involuntary ECT (c) is never indicated for mild depression; discharging a suffering client (d) constitutes medical negligence. Why the other options fail: option a scores the symptoms as minimal, which the weight loss and anhedonia contradict. Option b treats a mild score as an emergency and names a treatment that requires consent and referral. Option c calls the presentation malingering, which no score supports.",
     strategy: "PHQ-9 interpretation: Scores 20–27 represent severe depression. Item 9 mandates immediate, direct suicide risk assessment.",
     difficulty: "easy",
     tags: ["behavioural-sciences", "depression", "phq-9", "mental-health-screening", "psychiatric-nursing"],
@@ -522,20 +522,20 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Ask about mood and sleep first, and raise suicide only if the client mentions it",
+        text: "Reassure the client that things will improve and return to the assessment later in the shift",
       },
       {
         id: "c",
-        text: "Reassure the client that things will improve and return to the assessment later in the shift",
+        text: "Ask about mood and sleep first, and raise suicide only if the client mentions it",
       },
       {
         id: "d",
         text: "Promise confidentiality so the client feels safe enough to disclose more",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "c",
     rationale:
-      "Suicide risk assessment requires direct, unambiguous, objective questioning. Asking directly about suicidal ideation does NOT plant the idea in a person's head; rather, it provides relief and opens communication. The nurse must assess: 1) ideation; 2) plan specificity; 3) lethality of chosen method; and 4) immediate access to means. If risk is present, the client must never be left alone (initiating continuous 1-to-1 visual observation and removing environmental hazards). False reassurance (a) trivializes despair; promising secrecy (c) is dangerous malpractice; leaving the client alone (d) allows suicide completion. Why the other options fail: option b waits for the client to raise suicide, when the nurse must ask. Option c reassures without assessing. Option d promises a secrecy the nurse cannot keep and must not offer.",
+      "Suicide risk assessment requires direct, unambiguous, objective questioning. Asking directly about suicidal ideation does NOT plant the idea in a person's head; rather, it provides relief and opens communication. The nurse must assess: 1) ideation; 2) plan specificity; 3) lethality of chosen method; and 4) immediate access to means. If risk is present, the client must never be left alone (initiating continuous 1-to-1 visual observation and removing environmental hazards). False reassurance (a) trivializes despair; promising secrecy (c) is dangerous malpractice; leaving the client alone (d) allows suicide completion. Why the other options fail: option c waits for the client to raise suicide, when the nurse must ask. Option b reassures without assessing. Option d promises a secrecy the nurse cannot keep and must not offer.",
     strategy: "Suicide assessment rule: Ask directly about suicidal thoughts, plan, and means. Never promise secrecy, and never leave an actively suicidal client alone.",
     difficulty: "easy",
     tags: ["behavioural-sciences", "suicide-assessment", "patient-safety", "psychosocial", "crisis-intervention"],

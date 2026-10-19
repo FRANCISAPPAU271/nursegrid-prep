@@ -8,11 +8,11 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Pay a formal courtesy visit to the chief, elders, queen mother, assembly member and unit committee, explaining the mission and asking their cooperation",
+        text: "Begin door-to-door immunisation and household assessment straight away, and introduce yourself to the elders at the first community durbar",
       },
       {
         id: "b",
-        text: "Begin door-to-door immunisation and household assessment straight away, and introduce yourself to the elders at the first community durbar",
+        text: "Pay a formal courtesy visit to the chief, elders, queen mother, assembly member and unit committee, explaining the mission and asking their cooperation",
       },
       {
         id: "c",
@@ -23,9 +23,9 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Hold an open meeting at the market for mothers, since the women are the main users of the service and their consent is sufficient",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
-      "Community entry is the formal, socially accepted process of entering a community to initiate public health programmes. In Ghana and West African community health practice, the nurse must first pay a formal courtesy call on traditional authority figures (the Chief, elders, Queen Mother) alongside elected political representatives (Assembly Member, Unit Committee members). Bypassing traditional authority breaches cultural protocol, generates community distrust, and leads to resistance to health initiatives. Once permission, blessing, and partnership are secured, a community durbar is organized to introduce health staff to the wider community. Why the other options fail: option b skips the courtesy call that secures permission and trust, and a later durbar cannot repair the breach. Option c routes the entry through the district assembly and leaves out the traditional authority the community actually looks to. Option d assumes that mothers' attendance substitutes for the chief's consent, which it does not.",
+      "Community entry is the formal, socially accepted process of entering a community to initiate public health programmes. In Ghana and West African community health practice, the nurse must first pay a formal courtesy call on traditional authority figures (the Chief, elders, Queen Mother) alongside elected political representatives (Assembly Member, Unit Committee members). Bypassing traditional authority breaches cultural protocol, generates community distrust, and leads to resistance to health initiatives. Once permission, blessing, and partnership are secured, a community durbar is organized to introduce health staff to the wider community. Why the other options fail: option a skips the courtesy call that secures permission and trust, and a later durbar cannot repair the breach. Option c routes the entry through the district assembly and leaves out the traditional authority the community actually looks to. Option d assumes that mothers' attendance substitutes for the chief's consent, which it does not.",
     strategy: "Community entry protocol: Always start with traditional leadership (Chief, Queen Mother, elders) and local governance representatives before initiating any field activities.",
     difficulty: "easy",
     tags: ["community-health", "chps", "community-entry", "primary-health-care", "leadership"],
@@ -38,11 +38,11 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Clinical supervision of the nurse's prescriptions and diagnostic decisions, through a committee of senior clinicians",
+        text: "Community ownership and intersectoral partnership, with members planning, mobilising local resources and overseeing the facility",
       },
       {
         id: "b",
-        text: "Community ownership and intersectoral partnership, with members planning, mobilising local resources and overseeing the facility",
+        text: "Clinical supervision of the nurse's prescriptions and diagnostic decisions, through a committee of senior clinicians",
       },
       {
         id: "c",
@@ -53,9 +53,9 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Day-to-day management of the CHPS compound's paid staff, including recruitment, postings and discipline",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "a",
     rationale:
-      "Under the Alma-Ata declaration and the Ghana CHPS policy, Primary Health Care relies heavily on community participation and intersectoral collaboration. The Community Health Management Committee (CHMC) consists of respected, diverse community representatives (women leaders, youth representatives, elders, teachers). Their role is to foster community ownership, maintain the CHPS compound, mobilize communal labor and local resources, support community emergency transport systems (CETS), and provide liaison between community members and health staff. Why the other options fail: option a gives the committee clinical authority it does not have, because supervision of practice belongs to the health system rather than to community representatives. Option c turns a community body into a revenue collector for the directorate, which is not its function. Option d gives it employment powers over staff, which belong to the district health administration.",
+      "Under the Alma-Ata declaration and the Ghana CHPS policy, Primary Health Care relies heavily on community participation and intersectoral collaboration. The Community Health Management Committee (CHMC) consists of respected, diverse community representatives (women leaders, youth representatives, elders, teachers). Their role is to foster community ownership, maintain the CHPS compound, mobilize communal labor and local resources, support community emergency transport systems (CETS), and provide liaison between community members and health staff. Why the other options fail: option b gives the committee clinical authority it does not have, because supervision of practice belongs to the health system rather than to community representatives. Option c turns a community body into a revenue collector for the directorate, which is not its function. Option d gives it employment powers over staff, which belong to the district health administration.",
     strategy: "PHC principles: Community Health Management Committees (CHMC) represent community participation and ownership, not clinical supervision.",
     difficulty: "medium",
     tags: ["community-health", "chmc", "primary-health-care", "community-participation", "governance"],
@@ -76,16 +76,16 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "To map boundaries, household locations, water sources, vulnerable groups and local resources, so that interventions can be targeted",
+        text: "To decide which households should pay for services and which should be excluded from free immunisation",
       },
       {
         id: "d",
-        text: "To decide which households should pay for services and which should be excluded from free immunisation",
+        text: "To map boundaries, household locations, water sources, vulnerable groups and local resources, so that interventions can be targeted",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "d",
     rationale:
-      "A community profile and social mapping exercise is a participatory epidemiological assessment conducted by the Community Health Officer with community volunteers. It maps out geographical zones, household distribution, pregnant women, under-five children, water points, latrines, refuse dumps, and local resources. This enables the CHO to establish a functional household register, plan outreach routes, track defaulters, and prioritize high-risk families. Why the other options fail: option a turns a public health exercise into a tax assessment and guarantees resistance. Option b turns it into code enforcement, which is not its purpose and would deter households from being mapped at all. Option d uses the profile to exclude households from services, when its purpose is to find the ones that need them.",
+      "A community profile and social mapping exercise is a participatory epidemiological assessment conducted by the Community Health Officer with community volunteers. It maps out geographical zones, household distribution, pregnant women, under-five children, water points, latrines, refuse dumps, and local resources. This enables the CHO to establish a functional household register, plan outreach routes, track defaulters, and prioritize high-risk families. Why the other options fail: option a turns a public health exercise into a tax assessment and guarantees resistance. Option b turns it into code enforcement, which is not its purpose and would deter households from being mapped at all. Option c uses the profile to exclude households from services, when its purpose is to find the ones that need them.",
     strategy: "Social mapping: Tool to visualize community layout, household populations, vulnerable groups, and public health risks for targeted outreach.",
     difficulty: "medium",
     tags: ["community-health", "chps", "social-mapping", "epidemiology", "planning"],
@@ -98,24 +98,24 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Administering measles-rubella vaccine to infants at 9 months and vitamin A to children under five",
+        text: "Advocating for national and municipal policies that ban trans fats and tax tobacco and sugar-sweetened drinks",
       },
       {
         id: "b",
-        text: "Screening random blood glucose at a community health fair and referring raised readings for confirmation",
+        text: "Administering measles-rubella vaccine to infants at 9 months and vitamin A to children under five",
       },
       {
         id: "c",
-        text: "Providing physiotherapy and occupational rehabilitation to an elder after a stroke",
+        text: "Screening random blood glucose at a community health fair and referring raised readings for confirmation",
       },
       {
         id: "d",
-        text: "Advocating for national and municipal policies that ban trans fats and tax tobacco and sugar-sweetened drinks",
+        text: "Providing physiotherapy and occupational rehabilitation to an elder after a stroke",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "a",
     rationale:
-      "Primordial prevention targets the underlying economic, social, environmental, and behavioral conditions and policies to prevent the emergence and establishment of risk factors themselves (e.g., legislation banning trans-fats, taxing tobacco/sugary drinks, urban planning for sidewalks). Primary prevention prevents disease onset in individuals who already possess or are exposed to risk factors (e.g., vaccination, bed nets). Secondary prevention involves early detection and prompt treatment (e.g., screenings). Tertiary prevention aims to reduce disability and rehabilitate established illness. Why the other options fail: option a is primary prevention, immunising an infant before exposure. Option b is secondary prevention, detecting disease early in an asymptomatic person. Option c is tertiary prevention, limiting disability after a stroke. None acts on the risk factors before they become established.",
+      "Primordial prevention targets the underlying economic, social, environmental, and behavioral conditions and policies to prevent the emergence and establishment of risk factors themselves (e.g., legislation banning trans-fats, taxing tobacco/sugary drinks, urban planning for sidewalks). Primary prevention prevents disease onset in individuals who already possess or are exposed to risk factors (e.g., vaccination, bed nets). Secondary prevention involves early detection and prompt treatment (e.g., screenings). Tertiary prevention aims to reduce disability and rehabilitate established illness. Why the other options fail: option b is primary prevention, immunising an infant before exposure. Option c is secondary prevention, detecting disease early in an asymptomatic person. Option d is tertiary prevention, limiting disability after a stroke. None acts on the risk factors before they become established.",
     strategy: "Prevention levels: Primordial = policies/laws stopping risk factors from emerging; Primary = stopping disease before it begins; Secondary = screening; Tertiary = rehabilitation.",
     difficulty: "medium",
     tags: ["community-health", "levels-of-prevention", "primordial-prevention", "health-promotion", "policy"],
@@ -128,11 +128,11 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "IMR = (1,200 / 20,000) * 1,000 = 60 infant deaths per 1,000 live births",
+        text: "IMR = (1,200 / 20,000) * 100,000 = 6,000 infant deaths per 100,000 population",
       },
       {
         id: "b",
-        text: "IMR = (1,200 / 20,000) * 100,000 = 6,000 infant deaths per 100,000 population",
+        text: "IMR = (1,200 / 20,000) * 1,000 = 60 infant deaths per 1,000 live births",
       },
       {
         id: "c",
@@ -143,9 +143,9 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "IMR = (1,200 / 18,800) * 100 = 6.38 percent mortality",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
-      "The Infant Mortality Rate (IMR) is defined as the number of deaths of infants under one year of age per 1,000 live births in a given population during a specific year. Formula: (Number of infant deaths under 1 year / Total live births) * 1,000. Here, (1,200 / 20,000) * 1,000 = 60 deaths per 1,000 live births. IMR is universally recognized as one of the most sensitive indicators of general community health, socioeconomic development, and healthcare system quality. (Note: Maternal Mortality Ratio uses a multiplier of 100,000). Why the other options fail: option b multiplies by 100,000, the convention for the maternal mortality ratio, not the infant rate. Option c inverts the fraction and divides births by deaths. Option d divides deaths by survivors and multiplies by 100, which is neither the rate nor a percentage of live births.",
+      "The Infant Mortality Rate (IMR) is defined as the number of deaths of infants under one year of age per 1,000 live births in a given population during a specific year. Formula: (Number of infant deaths under 1 year / Total live births) * 1,000. Here, (1,200 / 20,000) * 1,000 = 60 deaths per 1,000 live births. IMR is universally recognized as one of the most sensitive indicators of general community health, socioeconomic development, and healthcare system quality. (Note: Maternal Mortality Ratio uses a multiplier of 100,000). Why the other options fail: option a multiplies by 100,000, the convention for the maternal mortality ratio, not the infant rate. Option c inverts the fraction and divides births by deaths. Option d divides deaths by survivors and multiplies by 100, which is neither the rate nor a percentage of live births.",
     strategy: "IMR calculation: (Deaths under 1 year / Live births) * 1,000. Expressed per 1,000 live births.",
     difficulty: "easy",
     tags: ["community-health", "epidemiology", "infant-mortality-rate", "vital-statistics", "public-health"],
@@ -162,20 +162,20 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Rehydrate and isolate patients, notify the district disease control officer, define a case, and line-list by time, place and person",
+        text: "Send the stool specimens first and begin the case search only after the laboratory reports the organism",
       },
       {
         id: "c",
-        text: "Send the stool specimens first and begin the case search only after the laboratory reports the organism",
+        text: "Rehydrate and isolate patients, notify the district disease control officer, define a case, and line-list by time, place and person",
       },
       {
         id: "d",
         text: "Inspect the river and the water sources first, and begin clinical care once the source has been confirmed",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "c",
     rationale:
-      "The initial steps in outbreak investigation demand parallel action: (1) provide immediate clinical care and infection control (rehydration and isolation), (2) notify the District Health Management Team (DHMT) within 24 hours, (3) verify the diagnosis with laboratory stool specimens (Cary-Blair medium), (4) establish a clear case definition, and (5) construct a line list characterizing cases by person (age, sex, occupation), place (hamlet, water source), and time (date and hour of onset) to construct an epidemic curve and identify the source of exposure. Why the other options fail: option a waits for a case count that no protocol sets and delays the notification that starts the investigation. Option c puts laboratory confirmation ahead of the case search, so the outbreak grows while the results are awaited. Option d investigates the environment before treating patients, when care, notification and the line list run in parallel and come first.",
+      "The initial steps in outbreak investigation demand parallel action: (1) provide immediate clinical care and infection control (rehydration and isolation), (2) notify the District Health Management Team (DHMT) within 24 hours, (3) verify the diagnosis with laboratory stool specimens (Cary-Blair medium), (4) establish a clear case definition, and (5) construct a line list characterizing cases by person (age, sex, occupation), place (hamlet, water source), and time (date and hour of onset) to construct an epidemic curve and identify the source of exposure. Why the other options fail: option a waits for a case count that no protocol sets and delays the notification that starts the investigation. Option b puts laboratory confirmation ahead of the case search, so the outbreak grows while the results are awaited. Option d investigates the environment before treating patients, when care, notification and the line list run in parallel and come first.",
     strategy: "Outbreak investigation sequence: Treat and isolate -> notify DHMT immediately -> establish case definition -> line list cases (time, place, person).",
     difficulty: "medium",
     tags: ["community-health", "outbreak-investigation", "epidemiology", "idsr", "waterborne-disease"],
@@ -218,24 +218,24 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Leave water in an open bucket in the sun for 10 minutes, which is enough to kill cysts and helminth eggs before drinking",
+        text: "Bring water to a rolling boil for at least 1 minute, cool it, and store it covered in a narrow-necked container with a tap or ladle",
       },
       {
         id: "b",
-        text: "Strain water through a single layer of nylon mesh and drink it immediately, without boiling or disinfection",
+        text: "Leave water in an open bucket in the sun for 10 minutes, which is enough to kill cysts and helminth eggs before drinking",
       },
       {
         id: "c",
-        text: "Add a few drops of kerosene to settle the sediment, then pour off the clear water for infants to drink",
+        text: "Strain water through a single layer of nylon mesh and drink it immediately, without boiling or disinfection",
       },
       {
         id: "d",
-        text: "Bring water to a rolling boil for at least 1 minute, cool it, and store it covered in a narrow-necked container with a tap or ladle",
+        text: "Add a few drops of kerosene to settle the sediment, then pour off the clear water for infants to drink",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "a",
     rationale:
-      "Boiling water to a vigorous rolling boil for at least 1 minute (or 3 minutes at high altitudes) kills bacteria, viruses, and protozoan cysts (including Giardia and Cryptosporidium). Safe storage is equally vital to prevent recontamination: water must be stored in a clean, covered container with a narrow neck or a fitted tap. If wide-mouthed buckets are used, unwashed hands dipping cups into the water introduce pathogens. Water treatment without safe storage fails to interrupt the faecal-oral cycle. Why the other options fail: option a relies on ten minutes of sun in an open bucket, which does not inactivate cysts or helminth eggs. Option b strains out debris but removes neither bacteria nor viruses, and drinking immediately adds recontamination. Option c adds kerosene, which clears the appearance of the water and poisons the infant.",
+      "Boiling water to a vigorous rolling boil for at least 1 minute (or 3 minutes at high altitudes) kills bacteria, viruses, and protozoan cysts (including Giardia and Cryptosporidium). Safe storage is equally vital to prevent recontamination: water must be stored in a clean, covered container with a narrow neck or a fitted tap. If wide-mouthed buckets are used, unwashed hands dipping cups into the water introduce pathogens. Water treatment without safe storage fails to interrupt the faecal-oral cycle. Why the other options fail: option b relies on ten minutes of sun in an open bucket, which does not inactivate cysts or helminth eggs. Option c strains out debris but removes neither bacteria nor viruses, and drinking immediately adds recontamination. Option d adds kerosene, which clears the appearance of the water and poisons the infant.",
     strategy: "Household water safety: Rolling boil for 1 minute + safe storage in narrow-necked covered container with tap to prevent recontamination.",
     difficulty: "easy",
     tags: ["community-health", "wash", "water-treatment", "hygiene", "child-health"],
@@ -248,24 +248,24 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Remove food, utensils and animals, cover furniture, stay out for 2 hours, and do not wash or plaster the walls for 6 months",
-      },
-      {
-        id: "b",
         text: "Wash and scrub the sprayed internal walls with soap and water as soon as the team has left, so that children do not touch the deposit",
       },
       {
-        id: "c",
+        id: "b",
         text: "Seal every window and door for 48 hours and keep the household out of the compound for that time",
+      },
+      {
+        id: "c",
+        text: "Remove food, utensils and animals, cover furniture, stay out for 2 hours, and do not wash or plaster the walls for 6 months",
       },
       {
         id: "d",
         text: "Repaint the walls with white latex within 24 hours, which seals the insecticide into the plaster and prolongs its effect",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
-      "Indoor Residual Spraying (IRS) applies a long-lasting insecticide to the interior walls and ceilings where endophilic Anopheles mosquitoes rest after a blood meal. Community preparation requires: (1) removing food, water, utensils, and animals; (2) moving heavy furniture to the center and covering it; (3) sweeping floors before spraying; (4) remaining outside for 2 hours post-spraying; and (5) critically, refraining from washing, scrubbing, plastering, or repainting sprayed walls for at least 6 months to maintain the residual insecticide deposit. Why the other options fail: option b washes the insecticide off the walls within hours and removes the residual effect the spray is meant to give. Option c seals the house and keeps the family out, which is neither necessary nor safe. Option d paints over the deposit, which hides it from the mosquito as effectively as washing it off.",
+      "Indoor Residual Spraying (IRS) applies a long-lasting insecticide to the interior walls and ceilings where endophilic Anopheles mosquitoes rest after a blood meal. Community preparation requires: (1) removing food, water, utensils, and animals; (2) moving heavy furniture to the center and covering it; (3) sweeping floors before spraying; (4) remaining outside for 2 hours post-spraying; and (5) critically, refraining from washing, scrubbing, plastering, or repainting sprayed walls for at least 6 months to maintain the residual insecticide deposit. Why the other options fail: option a washes the insecticide off the walls within hours and removes the residual effect the spray is meant to give. Option b seals the house and keeps the family out, which is neither necessary nor safe. Option d paints over the deposit, which hides it from the mosquito as effectively as washing it off.",
     strategy: "IRS community education: Protect food/pets, vacate for 2 hours, and DO NOT wash, plaster, or paint walls for 6 months.",
     difficulty: "medium",
     tags: ["community-health", "malaria-control", "indoor-residual-spraying", "vector-control", "health-education"],
@@ -278,11 +278,11 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Optimal growth, because a weight between the median and -2 SD lines is within the normal range",
+        text: "Growth faltering: a flat weight curve over 3 months is an early danger sign and needs a feeding assessment and follow-up",
       },
       {
         id: "b",
-        text: "Growth faltering: a flat weight curve over 3 months is an early danger sign and needs a feeding assessment and follow-up",
+        text: "Optimal growth, because a weight between the median and -2 SD lines is within the normal range",
       },
       {
         id: "c",
@@ -293,9 +293,9 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Normal plateauing at this age, which needs no investigation and can be reviewed at the next routine visit",
       },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "a",
     rationale:
-      "Growth monitoring evaluates the trajectory (trend) of growth over time, not merely a single point in time. A horizontal or downward curve on the growth chart signifies growth faltering (growth stagnation), which precedes clinical wasting or stunting. Even if the weight point is currently within the 'green' or normal zone, failure to gain weight over consecutive months indicates inadequate energy intake, recurrent subclinical infection (e.g., giardiasis, urinary infection), or poor complementary feeding. The nurse must explore complementary feeding practices, check for illness, and schedule a 2-week follow-up. Why the other options fail: option a reads a single point as normal and ignores the flat trajectory, which is the finding. Option c diagnoses overfeeding in a child who is not gaining weight at all. Option d calls three months without weight gain normal plateauing, when growth faltering is the earlier and treatable signal.",
+      "Growth monitoring evaluates the trajectory (trend) of growth over time, not merely a single point in time. A horizontal or downward curve on the growth chart signifies growth faltering (growth stagnation), which precedes clinical wasting or stunting. Even if the weight point is currently within the 'green' or normal zone, failure to gain weight over consecutive months indicates inadequate energy intake, recurrent subclinical infection (e.g., giardiasis, urinary infection), or poor complementary feeding. The nurse must explore complementary feeding practices, check for illness, and schedule a 2-week follow-up. Why the other options fail: option b reads a single point as normal and ignores the flat trajectory, which is the finding. Option c diagnoses overfeeding in a child who is not gaining weight at all. Option d calls three months without weight gain normal plateauing, when growth faltering is the earlier and treatable signal.",
     strategy: "Growth chart interpretation: The DIRECTION of the curve matters most. A flat or falling line means growth faltering regardless of where it plots.",
     difficulty: "medium",
     tags: ["community-health", "cwc", "growth-monitoring", "child-health", "nutrition"],
@@ -308,24 +308,24 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Restart the whole pentavalent series from dose 1 for every child who missed a date, so that immunity is complete",
+        text: "Trace defaulters through the child register and phone numbers, and send community volunteers to bring them for the missed doses",
       },
       {
         id: "b",
-        text: "Suspend outreach sessions until attendance improves, so that staff time is not wasted on small numbers",
+        text: "Restart the whole pentavalent series from dose 1 for every child who missed a date, so that immunity is complete",
       },
       {
         id: "c",
-        text: "Trace defaulters through the child register and phone numbers, and send community volunteers to bring them for the missed doses",
+        text: "Suspend outreach sessions until attendance improves, so that staff time is not wasted on small numbers",
       },
       {
         id: "d",
         text: "Report the community to the district assembly for failing to meet the national immunisation coverage target",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "a",
     rationale:
-      "An EPI dropout rate (Penta 1 to Penta 3) exceeding 10% indicates poor service utilization, accessibility barriers, or loss to follow-up. National EPI protocols mandate active defaulter tracing using the clinic immunization register, appointment tickler files, and Community Health Volunteers (CHVs). CHVs trace caregivers at home to identify barriers (e.g., maternal illness, relocation, fear of adverse events) and encourage attendance. Missed doses are given immediately without restarting the primary series. Why the other options fail: option a restarts a series that does not need restarting, which wastes vaccine and gives children doses they do not need. Option b suspends the service that defaulters need in order to return. Option d treats a health-system problem as a community offence.",
+      "An EPI dropout rate (Penta 1 to Penta 3) exceeding 10% indicates poor service utilization, accessibility barriers, or loss to follow-up. National EPI protocols mandate active defaulter tracing using the clinic immunization register, appointment tickler files, and Community Health Volunteers (CHVs). CHVs trace caregivers at home to identify barriers (e.g., maternal illness, relocation, fear of adverse events) and encourage attendance. Missed doses are given immediately without restarting the primary series. Why the other options fail: option b restarts a series that does not need restarting, which wastes vaccine and gives children doses they do not need. Option c suspends the service that defaulters need in order to return. Option d treats a health-system problem as a community offence.",
     strategy: "EPI dropout management: A dropout rate > 10% requires active defaulter tracking through home visits by volunteers. Never restart missed vaccine series.",
     difficulty: "easy",
     tags: ["community-health", "epi", "immunization", "defaulter-tracing", "public-health"],
@@ -342,20 +342,20 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Advise the mother to stay indoors for 40 days without opening the windows, which protects her from cold and evil spirits",
+        text: "Assess the newborn's breathing, temperature, feeding and cord, and the mother's involution, lochia and blood pressure",
       },
       {
         id: "c",
-        text: "Bathe the newborn in cold herbal water, which hardens the skin and prevents rash in the first week",
+        text: "Advise the mother to stay indoors for 40 days without opening the windows, which protects her from cold and evil spirits",
       },
       {
         id: "d",
-        text: "Assess the newborn's breathing, temperature, feeding and cord, and the mother's involution, lochia and blood pressure",
+        text: "Bathe the newborn in cold herbal water, which hardens the skin and prevents rash in the first week",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "b",
     rationale:
-      "The first 48 hours postpartum carry the highest risk of neonatal and maternal mortality. Recommended postnatal home visits occur on day 1 (within 24 hours), day 3, day 7, and at 6 weeks. The CHO must examine the newborn for danger signs (tachypnoea > 60 bpm, chest indrawing, hypothermia < 36.5 °C, lethargy, poor sucking, cord bleeding/pus) and promote chlorhexidine 7.1% or clean dry cord care and exclusive breastfeeding. The mother is evaluated for postpartum haemorrhage, uterine tone, foul lochia, puerperal sepsis, and elevated blood pressure. Why the other options fail: option a adds a contraceptive and complementary food to a visit whose purpose is to find danger signs in the first 48 hours. Option b imposes a 40-day confinement without examining either patient. Option c applies cold herbal water to a newborn, which causes hypothermia rather than preventing rash.",
+      "The first 48 hours postpartum carry the highest risk of neonatal and maternal mortality. Recommended postnatal home visits occur on day 1 (within 24 hours), day 3, day 7, and at 6 weeks. The CHO must examine the newborn for danger signs (tachypnoea > 60 bpm, chest indrawing, hypothermia < 36.5 °C, lethargy, poor sucking, cord bleeding/pus) and promote chlorhexidine 7.1% or clean dry cord care and exclusive breastfeeding. The mother is evaluated for postpartum haemorrhage, uterine tone, foul lochia, puerperal sepsis, and elevated blood pressure. Why the other options fail: option a adds a contraceptive and complementary food to a visit whose purpose is to find danger signs in the first 48 hours. Option c imposes a 40-day confinement without examining either patient. Option d applies cold herbal water to a newborn, which causes hypothermia rather than preventing rash.",
     strategy: "Postnatal home visit priorities: Evaluate maternal bleeding/uterus/BP and newborn breathing/temperature/breastfeeding/cord care.",
     difficulty: "easy",
     tags: ["community-health", "postnatal-care", "home-visiting", "maternal-newborn", "neonatal-danger-signs"],
@@ -368,24 +368,24 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "A progestogen-only injectable, implant or copper IUD, all of which are safe during exclusive breastfeeding",
-      },
-      {
-        id: "b",
         text: "A combined oral contraceptive, started now, because oestrogen does not affect milk supply after 6 weeks",
       },
       {
-        id: "c",
+        id: "b",
         text: "A combined transdermal patch, which avoids the liver and therefore the effect on breast milk",
+      },
+      {
+        id: "c",
+        text: "A progestogen-only injectable, implant or copper IUD, all of which are safe during exclusive breastfeeding",
       },
       {
         id: "d",
         text: "A monthly combined injectable, which gives steadier hormone levels than a daily pill",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "c",
     rationale:
-      "According to the WHO Medical Eligibility Criteria (MEC), estrogen-containing contraceptives (combined oral contraceptives, combined injectables, and contraceptive patches) are Category 4 (unacceptable health risk) in the first 3 weeks postpartum and Category 3 (risks outweigh benefits) between 3 weeks and 6 weeks (or 6 months if exclusively breastfeeding) because estrogens suppress breast milk volume and composition and increase venous thromboembolism risk. In contrast, progestin-only methods (DMPA injections, levonorgestrel/etonogestrel implants, progestin-only pills) and copper IUDs do not impair lactation and are MEC Category 1 or 2 at 6 weeks postpartum. Why the other options fail: option b is an oestrogen-containing method in a mother who is exclusively breastfeeding, where combined methods are not first-line. Option c wrongly assumes that a transdermal route spares lactation, when the oestrogen still enters the circulation. Option d is a combined method by another route, with the same objection.",
+      "According to the WHO Medical Eligibility Criteria (MEC), estrogen-containing contraceptives (combined oral contraceptives, combined injectables, and contraceptive patches) are Category 4 (unacceptable health risk) in the first 3 weeks postpartum and Category 3 (risks outweigh benefits) between 3 weeks and 6 weeks (or 6 months if exclusively breastfeeding) because estrogens suppress breast milk volume and composition and increase venous thromboembolism risk. In contrast, progestin-only methods (DMPA injections, levonorgestrel/etonogestrel implants, progestin-only pills) and copper IUDs do not impair lactation and are MEC Category 1 or 2 at 6 weeks postpartum. Why the other options fail: option a is an oestrogen-containing method in a mother who is exclusively breastfeeding, where combined methods are not first-line. Option b wrongly assumes that a transdermal route spares lactation, when the oestrogen still enters the circulation. Option d is a combined method by another route, with the same objection.",
     strategy: "Contraception in breastfeeding mothers: Estrogen suppresses milk production (Category 3/4). Choose progestin-only methods (implants, DMPA, POPs) or copper IUDs.",
     difficulty: "medium",
     tags: ["community-health", "family-planning", "who-mec", "breastfeeding", "reproductive-health"],
@@ -402,20 +402,20 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Enrol in the outpatient therapeutic programme: weekly RUTF, a 7-day course of oral amoxicillin, and weekly review",
-      },
-      {
-        id: "c",
         text: "Give the mother a 2-week supply of fortified porridge and review the child at the next monthly clinic",
       },
       {
-        id: "d",
+        id: "c",
         text: "Give a single dose of vitamin A and deworming and discharge, since the child has no oedema and is alert",
       },
+      {
+        id: "d",
+        text: "Enrol in the outpatient therapeutic programme: weekly RUTF, a 7-day course of oral amoxicillin, and weekly review",
+      },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "d",
     rationale:
-      "Under CMAM protocols, Severe Acute Malnutrition (SAM) is defined as MUAC < 11.5 cm (red) or weight-for-height Z-score < -3 SD or bilateral pitting edema. Children with SAM who are alert, clinically stable, have no medical complications, and pass the appetite test (eagerly consuming RUTF) are managed as outpatients in the Outpatient Therapeutic Programme (OTP). Management includes: weekly weight-based sachets of RUTF (Plumpy'Nut), a routine 7-day course of oral amoxicillin, single-dose deworming, Vitamin A (if not given in past month), and weekly clinic monitoring. Why the other options fail: option a admits a child who meets the criteria for outpatient care, which separates him from his family and uses a bed he does not need. Option c offers no therapeutic food and sets a review a month away. Option d gives micronutrients alone and treats severe acute malnutrition as if the problem were a deficiency.",
+      "Under CMAM protocols, Severe Acute Malnutrition (SAM) is defined as MUAC < 11.5 cm (red) or weight-for-height Z-score < -3 SD or bilateral pitting edema. Children with SAM who are alert, clinically stable, have no medical complications, and pass the appetite test (eagerly consuming RUTF) are managed as outpatients in the Outpatient Therapeutic Programme (OTP). Management includes: weekly weight-based sachets of RUTF (Plumpy'Nut), a routine 7-day course of oral amoxicillin, single-dose deworming, Vitamin A (if not given in past month), and weekly clinic monitoring. Why the other options fail: option a admits a child who meets the criteria for outpatient care, which separates him from his family and uses a bed he does not need. Option b offers no therapeutic food and sets a review a month away. Option c gives micronutrients alone and treats severe acute malnutrition as if the problem were a deficiency.",
     strategy: "CMAM triage: SAM (MUAC < 11.5 cm) + PASSED appetite test + NO medical complications = Outpatient Therapeutic Programme (OTP) with RUTF.",
     difficulty: "medium",
     tags: ["community-health", "cmam", "muac", "severe-acute-malnutrition", "rutf"],
@@ -488,11 +488,11 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Place the bag on a clean barrier on a raised surface, clean your hands, take out only what is needed, and disinfect items before they go back",
+        text: "Place the bag on the floor beside the bed so that it does not soil the client's table, and wash your hands when you leave",
       },
       {
         id: "b",
-        text: "Place the bag on the floor beside the bed so that it does not soil the client's table, and wash your hands when you leave",
+        text: "Place the bag on a clean barrier on a raised surface, clean your hands, take out only what is needed, and disinfect items before they go back",
       },
       {
         id: "c",
@@ -503,9 +503,9 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Put used dressings in the main compartment and dispose of them at the health centre, so that the household bin is not contaminated",
       },
     ],
-    correctChoiceId: "a",
+    correctChoiceId: "b",
     rationale:
-      "The community nursing bag is a vital tool that carries essential clinical instruments into home environments. Bag technique is an infection control procedure designed to prevent cross-contamination between households. Key principles: (1) place the bag on a clean plastic/paper barrier on an elevated dry surface (never directly on the floor); (2) perform hand hygiene before opening the bag; (3) extract only needed equipment onto a clean field; (4) used items (thermometer, scissors) must be cleaned and disinfected before returning to the bag; (5) contaminated biological waste is packaged separately and never placed inside the clean bag. Why the other options fail: option b puts a contaminated bag on the floor and cleans your hands only after you leave, so the next household is contaminated from the first touch. Option c leaves the bag open and wipes the outside afterwards, which does not clean the items inside it. Option d stores used dressings in the bag that carries clean equipment into the next home.",
+      "The community nursing bag is a vital tool that carries essential clinical instruments into home environments. Bag technique is an infection control procedure designed to prevent cross-contamination between households. Key principles: (1) place the bag on a clean plastic/paper barrier on an elevated dry surface (never directly on the floor); (2) perform hand hygiene before opening the bag; (3) extract only needed equipment onto a clean field; (4) used items (thermometer, scissors) must be cleaned and disinfected before returning to the bag; (5) contaminated biological waste is packaged separately and never placed inside the clean bag. Why the other options fail: option a puts a contaminated bag on the floor and cleans your hands only after you leave, so the next household is contaminated from the first touch. Option c leaves the bag open and wipes the outside afterwards, which does not clean the items inside it. Option d stores used dressings in the bag that carries clean equipment into the next home.",
     strategy: "Bag technique: Elevated surface + clean paper barrier + hand hygiene BEFORE opening bag + disinfect equipment before replacing.",
     difficulty: "easy",
     tags: ["community-health", "bag-technique", "home-visiting", "infection-control", "fundamentals"],
@@ -522,20 +522,20 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Give single-dose albendazole to all pupils, treat affected children and their households with permethrin, and tell parents privately",
-      },
-      {
-        id: "c",
         text: "Treat only the pupils with visible lesions, since scabies spreads through direct contact and not through households",
       },
       {
-        id: "d",
+        id: "c",
         text: "Spray the classrooms with insecticide while the pupils are seated, which kills the mites in the desks and floors",
       },
+      {
+        id: "d",
+        text: "Give single-dose albendazole to all pupils, treat affected children and their households with permethrin, and tell parents privately",
+      },
     ],
-    correctChoiceId: "b",
+    correctChoiceId: "d",
     rationale:
-      "School health services provide screening, preventive treatment, health education, and a healthy school environment. Helminth infections cause iron-deficiency anaemia and cognitive impairment; routine school mass deworming with single-dose oral albendazole 400 mg (or mebendazole 500 mg) is standard. Scabies requires treating the affected pupils and all household members simultaneously with 5% permethrin cream (or benzyl benzoate) while washing and sun-drying bedclothes. Actions must preserve pupil dignity and confidentiality to avoid stigmatization and school dropouts. Why the other options fail: option a isolates children for a condition that is curable within a day and announces it publicly, which drives families away from treatment. Option c treats only the visible cases and leaves the household reservoir untreated, so reinfection follows. Option d sprays an insecticide into an occupied classroom, which does not kill mites living in skin and exposes children to a pesticide.",
+      "School health services provide screening, preventive treatment, health education, and a healthy school environment. Helminth infections cause iron-deficiency anaemia and cognitive impairment; routine school mass deworming with single-dose oral albendazole 400 mg (or mebendazole 500 mg) is standard. Scabies requires treating the affected pupils and all household members simultaneously with 5% permethrin cream (or benzyl benzoate) while washing and sun-drying bedclothes. Actions must preserve pupil dignity and confidentiality to avoid stigmatization and school dropouts. Why the other options fail: option a isolates children for a condition that is curable within a day and announces it publicly, which drives families away from treatment. Option b treats only the visible cases and leaves the household reservoir untreated, so reinfection follows. Option c sprays an insecticide into an occupied classroom, which does not kill mites living in skin and exposes children to a pesticide.",
     strategy: "School health: Annual mass deworming (albendazole 400 mg) + simultaneous household treatment for scabies + anti-stigma protection.",
     difficulty: "easy",
     tags: ["community-health", "school-health", "deworming", "scabies", "health-promotion"],
@@ -556,16 +556,16 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Clean the cord with clean water, explain the tetanus risk, demonstrate clean dry cord care or chlorhexidine gel, and involve the grandmother",
+        text: "Tell the mother to keep the grandmother away from the infant, and give the family no further explanation",
       },
       {
         id: "d",
-        text: "Tell the mother to keep the grandmother away from the infant, and give the family no further explanation",
+        text: "Clean the cord with clean water, explain the tetanus risk, demonstrate clean dry cord care or chlorhexidine gel, and involve the grandmother",
       },
     ],
-    correctChoiceId: "c",
+    correctChoiceId: "d",
     rationale:
-      "Applying substances like cow dung, ash, or mud to the umbilical stump introduces Clostridium tetani spores, causing neonatal tetanus (trismus, inability to suck, spasms, and high mortality). The nurse must provide culturally sensitive health education without belittling elders: gently wash away the substance, educate the family on the link between unsterile applications and tetanus, demonstrate the proper use of 7.1% chlorhexidine digluconate gel (or clean dry cord care), and empower the grandmother by involving her in safe newborn care. Why the other options fail: option a turns a health problem into a criminal case before anyone has explained it, and removes the infant from the family. Option b leaves a practice that causes neonatal tetanus unchallenged in the name of culture. Option d separates the grandmother from the infant without teaching anyone, so the practice returns when the nurse leaves.",
+      "Applying substances like cow dung, ash, or mud to the umbilical stump introduces Clostridium tetani spores, causing neonatal tetanus (trismus, inability to suck, spasms, and high mortality). The nurse must provide culturally sensitive health education without belittling elders: gently wash away the substance, educate the family on the link between unsterile applications and tetanus, demonstrate the proper use of 7.1% chlorhexidine digluconate gel (or clean dry cord care), and empower the grandmother by involving her in safe newborn care. Why the other options fail: option a turns a health problem into a criminal case before anyone has explained it, and removes the infant from the family. Option b leaves a practice that causes neonatal tetanus unchallenged in the name of culture. Option c separates the grandmother from the infant without teaching anyone, so the practice returns when the nurse leaves.",
     strategy: "Harmful traditional practices: Educate with cultural humility, clean the contamination, demonstrate safe alternatives (chlorhexidine), and partner with family elders.",
     difficulty: "medium",
     tags: ["community-health", "cord-care", "neonatal-tetanus", "cultural-safety", "health-education"],
@@ -582,20 +582,20 @@ export const CHN_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Refer the case to the chief and elders and accept their ruling, since witchcraft accusations fall under customary law",
+        text: "Protect her safety and rights, alert the police, assembly member and social welfare, and teach the community how malaria is transmitted",
       },
       {
         id: "c",
-        text: "Explain that the accusation is not a health matter and confine your role to treating the child's malaria",
+        text: "Refer the case to the chief and elders and accept their ruling, since witchcraft accusations fall under customary law",
       },
       {
         id: "d",
-        text: "Protect her safety and rights, alert the police, assembly member and social welfare, and teach the community how malaria is transmitted",
+        text: "Explain that the accusation is not a health matter and confine your role to treating the child's malaria",
       },
     ],
-    correctChoiceId: "d",
+    correctChoiceId: "b",
     rationale:
-      "Community health nurses are ethical advocates for human rights, vulnerable populations, and social justice. Witchcraft accusations in rural West Africa frequently target vulnerable, destitute elderly women with dementia, depression, or eccentricities. The nurse has a duty to protect the client by immediately contacting local law enforcement, community leadership (Chief, Assembly Member), and the Department of Social Welfare. Concurrently, the nurse conducts public health education explaining the medical etiology of illnesses like severe malaria, meningitis, and stroke to dismantle harmful supernatural scapegoating. Why the other options fail: option a removes the client from her home and rewards the accusation with her absence. Option b hands the case to customary arbitration, which cannot protect her from a mob. Option c confines the nurse to prescribing for malaria and abandons the advocacy duty that the threat makes immediate.",
+      "Community health nurses are ethical advocates for human rights, vulnerable populations, and social justice. Witchcraft accusations in rural West Africa frequently target vulnerable, destitute elderly women with dementia, depression, or eccentricities. The nurse has a duty to protect the client by immediately contacting local law enforcement, community leadership (Chief, Assembly Member), and the Department of Social Welfare. Concurrently, the nurse conducts public health education explaining the medical etiology of illnesses like severe malaria, meningitis, and stroke to dismantle harmful supernatural scapegoating. Why the other options fail: option a removes the client from her home and rewards the accusation with her absence. Option c hands the case to customary arbitration, which cannot protect her from a mob. Option d confines the nurse to prescribing for malaria and abandons the advocacy duty that the threat makes immediate.",
     strategy: "Community advocacy: Protect vulnerable clients against human rights abuses, engage law enforcement/social welfare, and demystify illness etiology through health education.",
     difficulty: "medium",
     tags: ["community-health", "ethics", "advocacy", "vulnerable-populations", "human-rights"],
