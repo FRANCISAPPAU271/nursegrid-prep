@@ -458,7 +458,7 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Aqueous humour cannot drain through the trabecular meshwork because the iris is pushed forward into the angle by pupillary block",
+        text: "The lens swells and blocks the pupil, so fluid is trapped in the posterior chamber and pushes the vitreous forward",
       },
       {
         id: "b",
@@ -466,7 +466,7 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "The lens swells and blocks the pupil, so fluid is trapped in the posterior chamber and pushes the vitreous forward",
+        text: "Aqueous humour cannot drain through the trabecular meshwork because the iris is pushed forward into the angle by pupillary block",
       },
       {
         id: "d",
@@ -475,7 +475,7 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "c",
     rationale:
-      "Aqueous humor is continuously secreted by the ciliary body epithelium into the posterior chamber, flows through the pupil into the anterior chamber, and drains out of the eye via the iridocorneal filtration angle through the trabecular meshwork into the CANAL OF SCHLEMM. In clients with an anatomically narrow anterior chamber angle (e.g., hyperopes, older adults with enlarging lenses), pupillary dilation (mydriasis in darkness or from anticholinergics) bunches up the peripheral iris. Pupillary block traps aqueous humor in the posterior chamber, bowing the peripheral iris forward (iris bombé) against the trabecular meshwork. This acute mechanical occlusion blocks aqueous outflow while ciliary production continues, driving intraocular pressure from normal (10–21 mmHg) to extreme heights (>50–60 mmHg). The sudden ocular hypertension produces corneal edema ('steamy' cornea), severe pain, colored halos, and ischemic necrosis of the optic nerve (CN II) with irreversible blindness unless urgently treated with cholinergic miosis (pilocarpine), aqueous suppressants (timolol, acetazolamide), and laser peripheral iridotomy. Why the other options fail: option b makes overproduction the fault, when the picture is blocked drainage through a closed angle. Option d puts the block at the canal of Schlemm with an open angle, which is open-angle glaucoma and does not give a fixed mid-dilated pupil with a steamy cornea. Option c describes lens swelling with trapped posterior chamber fluid, which does not open the classic pupillary block sequence.",
+      "Aqueous humor is continuously secreted by the ciliary body epithelium into the posterior chamber, flows through the pupil into the anterior chamber, and drains out of the eye via the iridocorneal filtration angle through the trabecular meshwork into the CANAL OF SCHLEMM. In clients with an anatomically narrow anterior chamber angle (e.g., hyperopes, older adults with enlarging lenses), pupillary dilation (mydriasis in darkness or from anticholinergics) bunches up the peripheral iris. Pupillary block traps aqueous humor in the posterior chamber, bowing the peripheral iris forward (iris bombé) against the trabecular meshwork. This acute mechanical occlusion blocks aqueous outflow while ciliary production continues, driving intraocular pressure from normal (10–21 mmHg) to extreme heights (>50–60 mmHg). The sudden ocular hypertension produces corneal edema ('steamy' cornea), severe pain, colored halos, and ischemic necrosis of the optic nerve (CN II) with irreversible blindness unless urgently treated with cholinergic miosis (pilocarpine), aqueous suppressants (timolol, acetazolamide), and laser peripheral iridotomy. Why the other options fail: Overproduction by an inflamed ciliary body is not the mechanism, because outflow is blocked while secretion continues; lens swelling that pushes the vitreous forward misplaces the block, which sits at the pupil and the angle; a collapsed canal of Schlemm with an open angle describes open-angle glaucoma, not this acute attack.",
     strategy: "Ocular anatomy: Aqueous humor drains via trabecular meshwork into Canal of Schlemm. Angle-closure glaucoma = iris bows forward, blocking drainage -> dangerous IOP spike and optic nerve ischemia.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "angle-closure-glaucoma", "aqueous-humor", "canal-of-schlemm", "intraocular-pressure"],
@@ -518,7 +518,7 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Endolymph pressure rises within the membranous labyrinth, distorting hair cells and the ampullae, and producing the attacks",
+        text: "Ossicular otosclerosis fixes the stapes in the oval window, so sound is not conducted and the pressure builds in the middle ear",
       },
       {
         id: "b",
@@ -530,12 +530,12 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "Ossicular otosclerosis fixes the stapes in the oval window, so sound is not conducted and the pressure builds in the middle ear",
+        text: "Endolymph pressure rises within the membranous labyrinth, distorting hair cells and the ampullae, and producing the attacks",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "The inner ear (labyrinth) consists of a bony labyrinth containing Perilymph (high in Na+, resembling ECF) and an inner membranous labyrinth containing ENDOLYMPH (high in K+, resembling ICF, secreted by the stria vascularis). The membranous labyrinth comprises the Cochlea (hearing transduction via the Organ of Corti) and the Vestibular apparatus (semicircular canals sensing rotational acceleration, and utricle/saccule sensing linear motion and gravity). In MÉNIÈRE'S DISEASE, impaired resorption of endolymph through the endolymphatic sac leads to ENDOLYMPHATIC HYDROPS (dilation and increased fluid pressure within the entire membranous labyrinth). Hydrops causes micro-ruptures of the membrane, mixing high-potassium endolymph with perilymph, which depolarizes and paralyzes vestibulocochlear nerve fibers (CN VIII). Clinically, this manifests as episodic rotational vertigo, fluctuating sensorineural hearing loss, tinnitus, and aural fullness. Why the other options fail: option d describes otosclerosis, which gives progressive conductive loss rather than hours-long vertigo with roaring tinnitus. Option b describes a perilymph fistula, which follows trauma or straining and does not produce fluctuating low-frequency loss. Option c describes a vestibular schwannoma, whose loss is high-frequency and progressive, not episodic.",
+      "The inner ear (labyrinth) consists of a bony labyrinth containing Perilymph (high in Na+, resembling ECF) and an inner membranous labyrinth containing ENDOLYMPH (high in K+, resembling ICF, secreted by the stria vascularis). The membranous labyrinth comprises the Cochlea (hearing transduction via the Organ of Corti) and the Vestibular apparatus (semicircular canals sensing rotational acceleration, and utricle/saccule sensing linear motion and gravity). In MÉNIÈRE'S DISEASE, impaired resorption of endolymph through the endolymphatic sac leads to ENDOLYMPHATIC HYDROPS (dilation and increased fluid pressure within the entire membranous labyrinth). Hydrops causes micro-ruptures of the membrane, mixing high-potassium endolymph with perilymph, which depolarizes and paralyzes vestibulocochlear nerve fibers (CN VIII). Clinically, this manifests as episodic rotational vertigo, fluctuating sensorineural hearing loss, tinnitus, and aural fullness. Why the other options fail: A perilymph fistula follows trauma or straining and does not give fluctuating hearing loss with aural fullness; a vestibular schwannoma gives progressive unilateral loss with steady rather than episodic vertigo; otosclerosis fixes the stapes and gives progressive conductive loss without hours-long vertigo and roaring tinnitus.",
     strategy: "Inner ear physiology: Ménière's disease = Endolymphatic hydrops (excess endolymph pressure in membranous labyrinth) -> episodic vertigo + fluctuating sensorineural hearing loss + tinnitus.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "inner-ear", "menieres-disease", "endolymphatic-hydrops", "vestibular-system"],
@@ -548,11 +548,11 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Thyroid hormones increase peripheral conversion of T4 to reverse T3, which drives the adrenergic surge of the crisis",
+        text: "Thyroid hormones raise beta-adrenergic receptor density and uncouple mitochondrial phosphorylation, so metabolic rate and heat production climb",
       },
       {
         id: "b",
-        text: "Thyroid hormones raise beta-adrenergic receptor density and uncouple mitochondrial phosphorylation, so metabolic rate and heat production climb",
+        text: "Thyroid hormones increase peripheral conversion of T4 to reverse T3, which drives the adrenergic surge of the crisis",
       },
       {
         id: "c",
@@ -565,7 +565,7 @@ export const AP3_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "a",
     rationale:
-      "Thyroid hormones (T3 and T4) act as nuclear transcription factors regulating basal metabolic rate and cellular protein synthesis across all organ systems: 1) ADRENERGIC RECEPTOR UPREGULATION: T3 massively increases the density and sensitivity of beta-adrenergic receptors in cardiac myocytes and vascular smooth muscle, creating an exaggerated, hyper-responsive state to endogenous catecholamines (manifesting as profound tachycardia, systolic hypertension, atrial fibrillation, and tremors); 2) MITOCHONDRIAL UNCOUPLING & CALORIGENESIS: T3 stimulates the Na+/K+ ATPase pump and induces uncoupling proteins (UCPs) in mitochondria. Instead of storing energy efficiently as ATP, cellular proton gradients dissipate directly as heat (calorigenesis), skyrocketing basal metabolic rate and producing hyperpyrexia (temperatures exceeding 40 °C), profound diaphoresis, and severe dehydration; 3) HIGH-OUTPUT CARDIAC FAILURE: T3-induced vasodilation combined with extreme metabolic oxygen demands increases cardiac output initially, but unrelenting tachyarrhythmias precipitate acute high-output cardiac decompensation. Why the other options fail: option c has thyroid hormone blocking the sodium-potassium pump, which is not its mechanism at these concentrations. Option a raises reverse T3, an inactive metabolite that does not drive the crisis. Option d separates contractility from metabolic rate, when the hormone raises both.",
+      "Thyroid hormones (T3 and T4) act as nuclear transcription factors regulating basal metabolic rate and cellular protein synthesis across all organ systems: 1) ADRENERGIC RECEPTOR UPREGULATION: T3 massively increases the density and sensitivity of beta-adrenergic receptors in cardiac myocytes and vascular smooth muscle, creating an exaggerated, hyper-responsive state to endogenous catecholamines (manifesting as profound tachycardia, systolic hypertension, atrial fibrillation, and tremors); 2) MITOCHONDRIAL UNCOUPLING & CALORIGENESIS: T3 stimulates the Na+/K+ ATPase pump and induces uncoupling proteins (UCPs) in mitochondria. Instead of storing energy efficiently as ATP, cellular proton gradients dissipate directly as heat (calorigenesis), skyrocketing basal metabolic rate and producing hyperpyrexia (temperatures exceeding 40 °C), profound diaphoresis, and severe dehydration; 3) HIGH-OUTPUT CARDIAC FAILURE: T3-induced vasodilation combined with extreme metabolic oxygen demands increases cardiac output initially, but unrelenting tachyarrhythmias precipitate acute high-output cardiac decompensation. Why the other options fail: Conversion of T4 to reverse T3 produces an inactive metabolite and cannot drive the adrenergic surge; blocking the sodium-potassium pump is not the mechanism at these concentrations; binding myocytes directly without raising metabolic rate or heat production does not explain the fever and the oxygen demand.",
     strategy: "Thyroid physiology: T3/T4 upregulate beta-adrenergic receptors + uncouple mitochondrial phosphorylation -> extreme calorigenesis (hyperpyrexia), hypermetabolism, and adrenergic storm.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "thyroid-storm", "t3-t4-cellular-actions", "calorigenesis", "beta-adrenergic-receptors"],

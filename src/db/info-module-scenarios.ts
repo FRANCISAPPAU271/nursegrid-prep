@@ -38,7 +38,7 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "A shared vocabulary that lets diagnoses, interventions and outcomes be compared across systems and used for quality measurement",
+        text: "A coding scheme that shortens documentation by allowing nurses to enter single numbers instead of sentences",
       },
       {
         id: "b",
@@ -46,7 +46,7 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "A coding scheme that shortens documentation by allowing nurses to enter single numbers instead of sentences",
+        text: "A shared vocabulary that lets diagnoses, interventions and outcomes be compared across systems and used for quality measurement",
       },
       {
         id: "d",
@@ -55,7 +55,7 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "c",
     rationale:
-      "Standardized nursing terminologies (e.g., International Classification for Nursing Practice [ICNP], SNOMED-CT, NANDA/NIC/NOC) create a consistent, structured language that represents nursing care across multidisciplinary platforms. This standardization ensures semantic interoperability between diverse electronic systems, makes nursing contributions visible in clinical documentation, allows aggregation of Big Data for nursing research, and enables evaluation of nurse-sensitive client outcomes. It does not replace assessment, monetize nursing inappropriately, or displace medical diagnoses. Why the other options fail: option c describes shorthand, not a terminology. Option b makes documentation a billing exercise, which is not its clinical purpose. Option d replaces medical diagnosis with slang and destroys the comparability the standard exists to create.",
+      "Standardized nursing terminologies (e.g., International Classification for Nursing Practice [ICNP], SNOMED-CT, NANDA/NIC/NOC) create a consistent, structured language that represents nursing care across multidisciplinary platforms. This standardization ensures semantic interoperability between diverse electronic systems, makes nursing contributions visible in clinical documentation, allows aggregation of Big Data for nursing research, and enables evaluation of nurse-sensitive client outcomes. It does not replace assessment, monetize nursing inappropriately, or displace medical diagnoses. Why the other options fail: A billing structure turns documentation into a charging exercise rather than a clinical record; a coding scheme of single numbers is shorthand, not a terminology; a translator that converts nursing notes into medical diagnoses loses the nursing content in the medical model.",
     strategy: "Informatics principle: Standardized nursing terminologies enable interoperability, make nursing care visible and quantifiable, and drive evidence-based outcomes.",
     difficulty: "easy",
     tags: ["nursing-informatics", "standardized-terminologies", "icnp", "interoperability", "data-standards"],
@@ -158,7 +158,7 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Withhold the dose, hold the order in the system, contact the prescriber and notify the pharmacist",
+        text: "Administer the dose as prescribed, because the prescriber is accountable for the order",
       },
       {
         id: "b",
@@ -166,7 +166,7 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Administer the dose as prescribed, because the prescriber is accountable for the order",
+        text: "Withhold the dose, hold the order in the system, contact the prescriber and notify the pharmacist",
       },
       {
         id: "d",
@@ -175,7 +175,7 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "c",
     rationale:
-      "Computerized Provider Order Entry (CPOE) significantly reduces illegibility errors but does not eliminate prescribing errors (such as wrong dose or wrong frequency selections from drop-down menus). The nurse remains the ultimate safety barrier before medication administration. When an unsafe or questionable order appears in CPOE, the nurse must withhold the drug, flag or hold the order, contact the prescriber for clarification, and consult pharmacy. Assuming computer orders are infallible leads to fatal bleeding; modifying an order without authorization or deleting records violates pharmacy and nursing practice acts. Why the other options fail: option c assumes the order is correct because it is electronic, which is exactly the false assumption CPOE was meant to end. Option b changes the order without the prescriber, which is a second error. Option d deletes the record, which destroys the evidence of the error.",
+      "Computerized Provider Order Entry (CPOE) significantly reduces illegibility errors but does not eliminate prescribing errors (such as wrong dose or wrong frequency selections from drop-down menus). The nurse remains the ultimate safety barrier before medication administration. When an unsafe or questionable order appears in CPOE, the nurse must withhold the drug, flag or hold the order, contact the prescriber for clarification, and consult pharmacy. Assuming computer orders are infallible leads to fatal bleeding; modifying an order without authorization or deleting records violates pharmacy and nursing practice acts. Why the other options fail: Changing the order to five thousand units without the prescriber is practising medicine and hides the error; giving it because the prescriber is accountable assumes an electronic order is correct, which is the assumption computerised ordering exists to end; cancelling silently leaves the error in the record for the next nurse to repeat.",
     strategy: "CPOE safety: Computerized orders can still contain human selection errors. Always verify clinical appropriateness; withhold and clarify unsafe orders immediately.",
     difficulty: "medium",
     tags: ["nursing-informatics", "cpoe", "medication-safety", "heparin", "order-verification"],
@@ -188,11 +188,11 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Activate the downtime protocol, move to paper charts and shadow records, and designate staff to track orders and admissions",
+        text: "Ask the nurses to record observations and doses on their phones and enter them when the system returns",
       },
       {
         id: "b",
-        text: "Ask the nurses to record observations and doses on their phones and enter them when the system returns",
+        text: "Activate the downtime protocol, move to paper charts and shadow records, and designate staff to track orders and admissions",
       },
       {
         id: "c",
@@ -205,7 +205,7 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "b",
     rationale:
-      "When electronic health systems experience scheduled or unscheduled downtime, clinical operations must maintain uninterrupted patient safety through an established downtime policy and disaster recovery protocol. The charge nurse activates downtime standard operating procedures: accessing downtime emergency paper binders, deploying paper medication administration records (MARs) and progress notes, tracking client movement manually, and utilizing runner messengers for urgent laboratory and pharmacy orders. Ceasing care causes preventable deaths; discharging patients recklessly or relying on human memory causes catastrophic medical errors. Why the other options fail: option c stops care because the computer is down, which harms patients. Option b records on personal phones, which is not an approved downtime record. Option d discharges clients to reduce paperwork, which is not a clinical decision.",
+      "When electronic health systems experience scheduled or unscheduled downtime, clinical operations must maintain uninterrupted patient safety through an established downtime policy and disaster recovery protocol. The charge nurse activates downtime standard operating procedures: accessing downtime emergency paper binders, deploying paper medication administration records (MARs) and progress notes, tracking client movement manually, and utilizing runner messengers for urgent laboratory and pharmacy orders. Ceasing care causes preventable deaths; discharging patients recklessly or relying on human memory causes catastrophic medical errors. Why the other options fail: Recording observations on personal phones is not an approved downtime record and puts protected health information on an unmanaged device; stopping medicines and monitoring because the computer is down harms clients; discharging stable clients to shrink the reconstruction workload transfers risk to them.",
     strategy: "EHR downtime response: Activate the facility downtime protocol immediately, deploy standardized paper charts and MARs, and maintain rigorous manual documentation.",
     difficulty: "medium",
     tags: ["nursing-informatics", "downtime-protocol", "business-continuity", "disaster-preparedness", "patient-safety"],
@@ -218,11 +218,11 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "An acceptable practice, because the nurse knows the clients personally and meant no harm",
+        text: "An unlawful breach of role-based access and need-to-know, subject to discipline and regulatory reporting",
       },
       {
         id: "b",
-        text: "An unlawful breach of role-based access and need-to-know, subject to discipline and regulatory reporting",
+        text: "An acceptable practice, because the nurse knows the clients personally and meant no harm",
       },
       {
         id: "c",
@@ -235,7 +235,7 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "a",
     rationale:
-      "Access to electronic protected health information (ePHI) is legally restricted by Role-Based Access Control (RBAC) and the statutory 'need-to-know' principle under data privacy statutes (such as the Ghana Data Protection Act 2012 [Act 843], HIPAA, and GDPR). Healthcare personnel may only open the records of clients directly assigned to their clinical care. Snooping into the records of neighbors, acquaintances, or public figures without clinical justification is an intentional privacy violation resulting in disciplinary action, termination, and professional council investigation. Why the other options fail: option c makes access lawful as long as nothing is printed. Option d makes it a mistake with no consequence, when the access was deliberate. Option a rewards curiosity about neighbours, which is exactly what access controls exist to prevent.",
+      "Access to electronic protected health information (ePHI) is legally restricted by Role-Based Access Control (RBAC) and the statutory 'need-to-know' principle under data privacy statutes (such as the Ghana Data Protection Act 2012 [Act 843], HIPAA, and GDPR). Healthcare personnel may only open the records of clients directly assigned to their clinical care. Snooping into the records of neighbors, acquaintances, or public figures without clinical justification is an intentional privacy violation resulting in disciplinary action, termination, and professional council investigation. Why the other options fail: Treating the access as acceptable because the nurse knows the clients ignores role-based access and need-to-know; making it a breach only when records are printed or posted misstates where the breach occurs; calling it a minor deviation ignores that the access was deliberate.",
     strategy: "Data privacy rule: You may ONLY access health records of clients currently assigned to your direct clinical care. Browsing unassigned records is illegal snooping.",
     difficulty: "easy",
     tags: ["nursing-informatics", "data-privacy", "rbac", "audit-logs", "confidentiality"],
@@ -278,7 +278,7 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Personal devices and consumer messaging apps are not encrypted or approved, so the image breaches privacy law and policy",
+        text: "The image is likely to be of poor quality, so the second opinion would be unreliable",
       },
       {
         id: "b",
@@ -286,7 +286,7 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "The image is likely to be of poor quality, so the second opinion would be unreliable",
+        text: "Personal devices and consumer messaging apps are not encrypted or approved, so the image breaches privacy law and policy",
       },
       {
         id: "d",
@@ -295,7 +295,7 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "c",
     rationale:
-      "Capturing client clinical images on personal, unencrypted mobile devices and transmitting them across consumer messaging platforms violates client privacy rights, institutional BYOD (Bring Your Own Device) policies, and statutory health data protection laws. Digital clinical photography requires: 1) explicit informed client consent; 2) utilization of enterprise-secured, encrypted, institutional hardware and HIPAA/Data Protection Act-compliant platforms; and 3) direct storage into the client's official medical record. Camera resolution and battery usage are irrelevant to data privacy laws. Why the other options fail: option c addresses image quality rather than privacy. Option b addresses backup rather than consent or encryption. Option d overstates the rule: second opinions are permitted, they simply have to travel by a lawful route.",
+      "Capturing client clinical images on personal, unencrypted mobile devices and transmitting them across consumer messaging platforms violates client privacy rights, institutional BYOD (Bring Your Own Device) policies, and statutory health data protection laws. Digital clinical photography requires: 1) explicit informed client consent; 2) utilization of enterprise-secured, encrypted, institutional hardware and HIPAA/Data Protection Act-compliant platforms; and 3) direct storage into the client's official medical record. Camera resolution and battery usage are irrelevant to data privacy laws. Why the other options fail: Backup of a hospital device addresses resilience, not consent or encryption; image quality is a diagnostic concern, not the privacy question; requiring a formal transfer for a second opinion overstates a rule that only requires consent and a lawful channel.",
     strategy: "Digital privacy: Never photograph clients or transmit clinical images using personal smartphones and consumer messaging apps. Use institutional secure platforms only.",
     difficulty: "easy",
     tags: ["nursing-informatics", "clinical-photography", "mobile-security", "data-protection", "smartphone-ethics"],
@@ -308,7 +308,7 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Read the alert, withhold the ampicillin, recheck the allergy record and ask the prescriber for a non-penicillin drug",
+        text: "Give the ampicillin with an antihistamine premedication, so any reaction is blunted",
       },
       {
         id: "b",
@@ -320,12 +320,12 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "Give the ampicillin with an antihistamine premedication, so any reaction is blunted",
+        text: "Read the alert, withhold the ampicillin, recheck the allergy record and ask the prescriber for a non-penicillin drug",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "Clinical Decision Support Systems (CDSS) provide real-time, evidence-based alerts at the point of care to intercept adverse drug events. High-tier critical alerts (such as severe drug-allergy interactions) represent life-threatening safety hazards. The nurse must not succumb to 'alert fatigue' (mindlessly overriding pop-ups). The nurse must review the alert, withhold the drug, verify the documented penicillin allergy, and notify the prescriber to order a safe therapeutic alternative. Automatic overrides cause fatal anaphylaxis; antacids do not prevent immune-mediated anaphylactic shock. Why the other options fail: option b overrides the alert without resolving the allergy. Option d premedicates and gives the drug anyway. Option c dismisses a documented anaphylaxis as stale, which is not a judgement the nurse can make at the keyboard.",
+      "Clinical Decision Support Systems (CDSS) provide real-time, evidence-based alerts at the point of care to intercept adverse drug events. High-tier critical alerts (such as severe drug-allergy interactions) represent life-threatening safety hazards. The nurse must not succumb to 'alert fatigue' (mindlessly overriding pop-ups). The nurse must review the alert, withhold the drug, verify the documented penicillin allergy, and notify the prescriber to order a safe therapeutic alternative. Automatic overrides cause fatal anaphylaxis; antacids do not prevent immune-mediated anaphylactic shock. Why the other options fail: Overriding the alert after checking the dose leaves the documented anaphylaxis unresolved; dismissing the allergy as stale or mild is not a judgement the nurse may make at the keyboard; premedicating and giving the drug anyway blunts nothing and risks the reaction.",
     strategy: "CDSS alerts: Never bypass or override critical clinical decision support alerts without reading and investigating. Overriding allergy alerts causes fatal anaphylaxis.",
     difficulty: "easy",
     tags: ["nursing-informatics", "cdss", "clinical-decision-support", "alert-fatigue", "anaphylaxis"],
@@ -338,7 +338,7 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "A dangerous workaround that bypasses bedside patient identification and raises the risk of a wrong-patient error",
+        text: "A benign technical malfunction with no implication for patient safety, because the nurse knows the client",
       },
       {
         id: "b",
@@ -350,12 +350,12 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "A benign technical malfunction with no implication for patient safety, because the nurse knows the client",
+        text: "A dangerous workaround that bypasses bedside patient identification and raises the risk of a wrong-patient error",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "A 'workaround' is an informal bypass of an established safety system created by staff to cope with workflow obstacles or save time. Photocopying client barcodes onto carts, badges, or door frames completely dismantles the core safety mechanism of BCMA—which is verifying the Right Patient at the bedside simultaneously with the Right Drug. If a barcode is unreadable, the nurse must reprint and apply a new wristband immediately. Labeling workarounds as innovations or benign ignores root causes of severe wrong-patient medication administration fatalities. Why the other options fail: option b calls the shortcut efficient, which is how workarounds spread. Option c blames the scanner rather than the practice it was substituted for. Option d says the risk is nil because the nurse knows the client, which is precisely the assumption that produces wrong-patient errors.",
+      "A 'workaround' is an informal bypass of an established safety system created by staff to cope with workflow obstacles or save time. Photocopying client barcodes onto carts, badges, or door frames completely dismantles the core safety mechanism of BCMA—which is verifying the Right Patient at the bedside simultaneously with the Right Drug. If a barcode is unreadable, the nurse must reprint and apply a new wristband immediately. Labeling workarounds as innovations or benign ignores root causes of severe wrong-patient medication administration fatalities. Why the other options fail: Calling the shortcut efficient is how workarounds spread; blaming the scanner makes a software problem of a substitution the nurse chose; treating it as benign because the nurse knows the client is the assumption bedside scanning exists to remove.",
     strategy: "BCMA safety: Never use workarounds (such as scanning surrogate barcodes away from the bedside). Always scan the client's actual wristband at the bedside.",
     difficulty: "medium",
     tags: ["nursing-informatics", "bcma", "workarounds", "medication-errors", "patient-identification"],
@@ -398,7 +398,7 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "It allows offline data capture and decision support on the tablet, with records synchronised when connectivity returns",
+        text: "It replaces paper registers entirely, because tablets work in every setting and need no network at all",
       },
       {
         id: "b",
@@ -410,12 +410,12 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "It replaces paper registers entirely, because tablets work in every setting and need no network at all",
+        text: "It allows offline data capture and decision support on the tablet, with records synchronised when connectivity returns",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "mHealth (mobile health) applications on portable smartphones and tablets revolutionize rural primary health care (such as CHPS compounds) by supporting: 1) offline functionality with store-and-forward data synchronization; 2) algorithmic point-of-care guidance for early recognition of obstetric and neonatal danger signs; 3) automated SMS text reminders for antenatal care and infant vaccinations; and 4) real-time referral communication with district hospitals. It enhances frontline human care rather than replacing clinicians with robots or imposing unaffordable hardware burdens. Why the other options fail: option d overstates it, because tablets do need power, maintenance and a network eventually. Option b shifts the record onto the mother. Option c makes video the only solution, when offline capture and decision support are the functions described.",
+      "mHealth (mobile health) applications on portable smartphones and tablets revolutionize rural primary health care (such as CHPS compounds) by supporting: 1) offline functionality with store-and-forward data synchronization; 2) algorithmic point-of-care guidance for early recognition of obstetric and neonatal danger signs; 3) automated SMS text reminders for antenatal care and infant vaccinations; and 4) real-time referral communication with district hospitals. It enhances frontline human care rather than replacing clinicians with robots or imposing unaffordable hardware burdens. Why the other options fail: Moving record keeping onto the mother transfers the burden of documentation; real-time video is only one channel and is not what offline capability gives; replacing paper registers entirely overstates it, because tablets need power, maintenance and eventually a network.",
     strategy: "mHealth advantages: Portable, offline-capable data collection, algorithmic decision support, and SMS patient reminders in resource-constrained environments.",
     difficulty: "easy",
     tags: ["nursing-informatics", "mhealth", "chps", "primary-health-care", "digital-health"],
@@ -458,7 +458,7 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Form an interprofessional improvement team, analyse insertion and dwell-time data, and trial a nurse-driven removal reminder",
+        text: "Dock the pay of the night shift nurses until the rate falls below the national benchmark",
       },
       {
         id: "b",
@@ -470,12 +470,12 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "Dock the pay of the night shift nurses until the rate falls below the national benchmark",
+        text: "Form an interprofessional improvement team, analyse insertion and dwell-time data, and trial a nurse-driven removal reminder",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "Clinical dashboards aggregate EHR data into visual indicators (run charts, control charts) to monitor nurse-sensitive indicators (e.g., CAUTI, CLABSI, pressure injuries, falls). When run charts demonstrate non-random negative trends (e.g., 6 consecutive points above benchmark), informatics-guided leadership investigates the underlying data (e.g., catheter dwell times), implements evidence-based interventions (such as EHR automated reminders for early catheter removal or nurse-driven discontinuation protocols), and tracks post-intervention metrics. Deleting data is fraudulent; punitive blaming destroys safety culture. Why the other options fail: option b hides the metric, which removes the signal without changing the rate. Option c audits a policy without examining the data. Option d punishes staff before investigating, which is not an improvement method.",
+      "Clinical dashboards aggregate EHR data into visual indicators (run charts, control charts) to monitor nurse-sensitive indicators (e.g., CAUTI, CLABSI, pressure injuries, falls). When run charts demonstrate non-random negative trends (e.g., 6 consecutive points above benchmark), informatics-guided leadership investigates the underlying data (e.g., catheter dwell times), implements evidence-based interventions (such as EHR automated reminders for early catheter removal or nurse-driven discontinuation protocols), and tracks post-intervention metrics. Deleting data is fraudulent; punitive blaming destroys safety culture. Why the other options fail: Withdrawing the metric removes the signal without changing the rate; auditing a new policy without examining the existing data repeats the gap; docking pay punishes staff before the cause is investigated.",
     strategy: "Clinical dashboards: Transform electronic clinical metrics into targeted quality improvement initiatives and monitor trend shifts on run charts.",
     difficulty: "medium",
     tags: ["nursing-informatics", "clinical-dashboards", "cauti", "quality-indicators", "run-charts"],
@@ -518,7 +518,7 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Use the alert as decision support, assess the client at the bedside, check the labs and escalate as the findings warrant",
+        text: "Ignore the alert, because an algorithm cannot interpret borderline vital signs in an older adult",
       },
       {
         id: "b",
@@ -526,7 +526,7 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Ignore the alert, because an algorithm cannot interpret borderline vital signs in an older adult",
+        text: "Use the alert as decision support, assess the client at the bedside, check the labs and escalate as the findings warrant",
       },
       {
         id: "d",
@@ -535,7 +535,7 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "c",
     rationale:
-      "Artificial Intelligence (AI) and machine learning models in healthcare serve as assistive decision support, NOT replacements for professional clinical judgment. Predictive models identify subtle patterns in massive EHR datasets that human clinicians might overlook (e.g., early sepsis trajectories). The nurse must validate AI alerts by performing an in-person physical assessment, synthesizing clinical context, and verifying objective diagnostic data. Total dismissal of AI misses early warning opportunities; blind subservience to AI risks algorithmic bias and error. Why the other options fail: option c discards a validated signal. Option b follows the alert without assessment, which is automation bias. Option d treats the alert as noise to be waited out rather than a finding to be checked.",
+      "Artificial Intelligence (AI) and machine learning models in healthcare serve as assistive decision support, NOT replacements for professional clinical judgment. Predictive models identify subtle patterns in massive EHR datasets that human clinicians might overlook (e.g., early sepsis trajectories). The nurse must validate AI alerts by performing an in-person physical assessment, synthesizing clinical context, and verifying objective diagnostic data. Total dismissal of AI misses early warning opportunities; blind subservience to AI risks algorithmic bias and error. Why the other options fail: Following the alert without assessment is automation bias; ignoring a validated alert discards a signal the bedside assessment is meant to test; repeating observations until the alert withdraws treats the alert as noise rather than a finding to act on.",
     strategy: "AI in nursing: AI serves as augmented decision support. The nurse retains final clinical accountability through independent assessment and professional judgment.",
     difficulty: "medium",
     tags: ["nursing-informatics", "artificial-intelligence", "machine-learning", "clinical-judgement", "sepsis-prediction"],
@@ -548,11 +548,11 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Transfer every inpatient to another facility and close the unit until the systems are restored",
+        text: "Move to manual downtime procedures, protect patients, switch to paper, disconnect the network and notify incident command",
       },
       {
         id: "b",
-        text: "Move to manual downtime procedures, protect patients, switch to paper, disconnect the network and notify incident command",
+        text: "Transfer every inpatient to another facility and close the unit until the systems are restored",
       },
       {
         id: "c",
@@ -565,7 +565,7 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "a",
     rationale:
-      "A ransomware cyberattack represents a combined IT disaster and clinical emergency. The nursing team's absolute priority is maintaining client physical safety by transitioning to full manual paper-based business continuity procedures (manual vitals, paper MARs, independent medication double-checks). Concurrently, nursing leadership coordinates with hospital incident command and disconnects devices from network ports to prevent malware propagation. Paying ransoms is a law enforcement decision; abandoning clients or vigilante counter-hacking are dangerous and illegal. Why the other options fail: option c pays criminals from petty cash, which funds further attacks and restores nothing quickly. Option a moves every patient out of a hospital that can still function on paper. Option d keeps using the compromised network.",
+      "A ransomware cyberattack represents a combined IT disaster and clinical emergency. The nursing team's absolute priority is maintaining client physical safety by transitioning to full manual paper-based business continuity procedures (manual vitals, paper MARs, independent medication double-checks). Concurrently, nursing leadership coordinates with hospital incident command and disconnects devices from network ports to prevent malware propagation. Paying ransoms is a law enforcement decision; abandoning clients or vigilante counter-hacking are dangerous and illegal. Why the other options fail: Paying the ransom funds criminals and restores nothing quickly; transferring every inpatient and closing the unit abandons a hospital that can still function on paper; charting on ward computers that depend on the encrypted servers records nothing that will survive.",
     strategy: "Cyberattack response: Protect client physical safety first, activate emergency manual paper downtime operations, and collaborate with incident command.",
     difficulty: "medium",
     tags: ["nursing-informatics", "cyberattack", "ransomware", "business-continuity", "incident-command"],
@@ -578,11 +578,11 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Position the mobile computer so eye contact is kept, explain what is being entered and involve the client in the plan",
+        text: "Ask the client to enter their own history into the tablet while the nurse attends to other tasks",
       },
       {
         id: "b",
-        text: "Ask the client to enter their own history into the tablet while the nurse attends to other tasks",
+        text: "Position the mobile computer so eye contact is kept, explain what is being entered and involve the client in the plan",
       },
       {
         id: "c",
@@ -595,7 +595,7 @@ export const INFO_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "b",
     rationale:
-      "Technology must serve the patient, not replace the human therapeutic relationship. Nurses can humanize technology by: 1) positioning the computer screen so it does not form a physical barrier between nurse and client; 2) maintaining regular eye contact and verbal communication; 3) explaining what is being documented ('I am entering your blood pressure reading into your electronic chart now'); and 4) actively involving the client in reviewing goals, lab trends, and discharge plans. Refusing to document is illegal negligence; hiding behind computers destroys the therapeutic alliance. Why the other options fail: option c documents without speaking, which is the complaint the nurse made. Option d leaves documentation to memory, which produces inaccuracy. Option b delegates the history, which is not assessment.",
+      "Technology must serve the patient, not replace the human therapeutic relationship. Nurses can humanize technology by: 1) positioning the computer screen so it does not form a physical barrier between nurse and client; 2) maintaining regular eye contact and verbal communication; 3) explaining what is being documented ('I am entering your blood pressure reading into your electronic chart now'); and 4) actively involving the client in reviewing goals, lab trends, and discharge plans. Refusing to document is illegal negligence; hiding behind computers destroys the therapeutic alliance. Why the other options fail: Delegating the history to the client's own tablet loses the clinical interview; charting at the bedside without speaking is the behaviour the nurse complained about; reconstructing the shift from memory produces inaccuracy.",
     strategy: "Human-centered informatics: Position technology to maintain eye contact, narrate your documentation to the client, and keep human connection at the center of care.",
     difficulty: "easy",
     tags: ["nursing-informatics", "patient-centered-care", "technology-integration", "therapeutic-presence", "professionalism"],

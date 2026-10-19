@@ -192,11 +192,11 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Cluster sampling of participants, so that each adolescent's account is weighted equally",
+        text: "Member checking, returning transcripts and themes to participants to confirm the findings",
       },
       {
         id: "c",
-        text: "Member checking, returning transcripts and themes to participants to confirm the findings",
+        text: "Cluster sampling of participants, so that each adolescent's account is weighted equally",
       },
       {
         id: "d",
@@ -205,7 +205,7 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "b",
     rationale:
-      "Member checking (also known as participant validation) is a core method used in qualitative research to establish Credibility (the qualitative parallel to internal validity). The researcher shares transcripts, analytic categories, or preliminary thematic findings with study participants to allow them to confirm whether the interpretations accurately and authentically represent their true lived realities. Randomization, cluster sampling, and regression belong exclusively to quantitative statistical methods. Why the other options fail: option a blinds coders, which guards against bias but does not return findings to participants. Option b changes how participants are sampled. Option d extends time in the field, which is a different technique.",
+      "Member checking (also known as participant validation) is a core method used in qualitative research to establish Credibility (the qualitative parallel to internal validity). The researcher shares transcripts, analytic categories, or preliminary thematic findings with study participants to allow them to confirm whether the interpretations accurately and authentically represent their true lived realities. Randomization, cluster sampling, and regression belong exclusively to quantitative statistical methods. Why the other options fail: Double-blind allocation of transcripts guards against coder bias but does not return findings to participants; cluster sampling changes how participants are selected and says nothing about trustworthiness; prolonged engagement builds familiarity over time but is not a check on whether the themes match what participants meant.",
     strategy: "Qualitative trustworthiness: Member checking involves sharing findings with participants to verify the accuracy of the researcher's interpretations.",
     difficulty: "easy",
     tags: ["research", "member-checking", "trustworthiness", "credibility", "qualitative-rigor"],
@@ -218,11 +218,11 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Purposive sampling, with key informants chosen from each region and type of hospital",
+        text: "Stratified random sampling, with the roster divided into tiers and participants drawn at random from each",
       },
       {
         id: "b",
-        text: "Stratified random sampling, with the roster divided into tiers and participants drawn at random from each",
+        text: "Purposive sampling, with key informants chosen from each region and type of hospital",
       },
       {
         id: "c",
@@ -235,7 +235,7 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "a",
     rationale:
-      "Stratified random sampling is a probability sampling method in which the target population is first divided into mutually exclusive, homogeneous subgroups or strata (e.g., geographical regions, hospital tiers, clinical cadres), and random samples are drawn proportionally from each stratum. This ensures that smaller or minority sub-populations are adequately and representatively reflected in the final sample, minimizing sampling error. Snowball, convenience, and purposive are non-probability sampling methods prone to severe selection bias. Why the other options fail: option c fills tiers by convenience rather than at random. Option d samples whole facilities rather than individuals within tiers. Option a selects informants deliberately rather than randomly.",
+      "Stratified random sampling is a probability sampling method in which the target population is first divided into mutually exclusive, homogeneous subgroups or strata (e.g., geographical regions, hospital tiers, clinical cadres), and random samples are drawn proportionally from each stratum. This ensures that smaller or minority sub-populations are adequately and representatively reflected in the final sample, minimizing sampling error. Snowball, convenience, and purposive are non-probability sampling methods prone to severe selection bias. Why the other options fail: Purposive sampling selects informants deliberately and cannot give proportional representation; quota sampling fills each tier by convenience rather than at random; cluster sampling selects whole facilities and does not guarantee proportional representation across every tier.",
     strategy: "Sampling methods: Stratified random sampling divides the population into strata (subgroups) and randomly samples within each stratum to ensure representativeness.",
     difficulty: "medium",
     tags: ["research", "sampling-methods", "stratified-random-sampling", "probability-sampling", "bias-reduction"],
@@ -278,11 +278,11 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Inter-rater reliability, because two raters scoring the same clients are being compared",
+        text: "Test-retest reliability, because the same clients are assessed on two occasions",
       },
       {
         id: "b",
-        text: "Test-retest reliability, because the same clients are assessed on two occasions",
+        text: "Inter-rater reliability, because two raters scoring the same clients are being compared",
       },
       {
         id: "c",
@@ -295,7 +295,7 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "b",
     rationale:
-      "Inter-rater (or inter-observer) reliability measures the degree of consistency or agreement between two or more independent raters or observers scoring the same subjects using the same instrument at the same point in time (often quantified by Cohen's kappa or intra-class correlation). High inter-rater reliability ensures that assessment scores reflect true client characteristics rather than idiosyncratic examiner biases. Predictive validity examines whether a score predicts future events; construct validity tests whether an instrument measures a theoretical trait; face validity is superficial inspection. Why the other options fail: option b compares one rater on two occasions, which is test-retest. Option c asks whether the score predicts an outcome. Option d asks whether the items hang together, when the question is whether two raters agree.",
+      "Inter-rater (or inter-observer) reliability measures the degree of consistency or agreement between two or more independent raters or observers scoring the same subjects using the same instrument at the same point in time (often quantified by Cohen's kappa or intra-class correlation). High inter-rater reliability ensures that assessment scores reflect true client characteristics rather than idiosyncratic examiner biases. Predictive validity examines whether a score predicts future events; construct validity tests whether an instrument measures a theoretical trait; face validity is superficial inspection. Why the other options fail: Test-retest compares one rater on two occasions; predictive validity asks whether the score forecasts who develops an injury; internal consistency asks whether the subscales hang together, when the question is agreement between two people.",
     strategy: "Measurement reliability: Inter-rater reliability assesses consistency between two or more independent observers scoring the same subjects.",
     difficulty: "easy",
     tags: ["research", "inter-rater-reliability", "cohens-kappa", "braden-scale", "measurement"],
@@ -308,7 +308,7 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Obtain parental permission and the child's developmentally appropriate assent, respecting a refusal",
+        text: "Obtain the child's assent alone, because the child is the participant and the parent cannot consent",
       },
       {
         id: "b",
@@ -316,7 +316,7 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Obtain the child's assent alone, because the child is the participant and the parent cannot consent",
+        text: "Obtain parental permission and the child's developmentally appropriate assent, respecting a refusal",
       },
       {
         id: "d",
@@ -325,7 +325,7 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "c",
     rationale:
-      "In pediatric research ethics, minors lack legal competence to provide legal informed consent. Ethical standards mandate obtaining: 1) legal informed consent (permission) from the parent(s) or legal guardian; and 2) affirmative, developmentally appropriate 'Assent' from the child (typically children aged 7 and older who possess cognitive capability). If a child refuses to assent to a non-therapeutic research protocol, their dissent must be respected and cannot be overridden by parents or teachers. Community permission complements but never replaces individual family consent. Why the other options fail: option b takes parental permission alone, which omits the child's assent. Option c inverts the requirement by taking assent alone. Option d delegates consent to a teacher, who cannot give it.",
+      "In pediatric research ethics, minors lack legal competence to provide legal informed consent. Ethical standards mandate obtaining: 1) legal informed consent (permission) from the parent(s) or legal guardian; and 2) affirmative, developmentally appropriate 'Assent' from the child (typically children aged 7 and older who possess cognitive capability). If a child refuses to assent to a non-therapeutic research protocol, their dissent must be respected and cannot be overridden by parents or teachers. Community permission complements but never replaces individual family consent. Why the other options fail: Parental permission alone omits the child's assent; the child's assent alone inverts the requirement, since the parent consents and the child assents; a school head teacher acting in loco parentis cannot consent to research on the child's behalf.",
     strategy: "Pediatric research ethics: Parental informed permission + Child developmentally appropriate assent. Respect the child's dissent.",
     difficulty: "medium",
     tags: ["research", "research-ethics", "assent", "pediatrics", "belmont-report"],
@@ -338,7 +338,7 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Fabrication, falsification and plagiarism: making up data, altering data, and using text without attribution",
+        text: "Misconduct, negligence and malpractice, which are the three legal categories of research fraud",
       },
       {
         id: "b",
@@ -350,12 +350,12 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "Misconduct, negligence and malpractice, which are the three legal categories of research fraud",
+        text: "Fabrication, falsification and plagiarism: making up data, altering data, and using text without attribution",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "The internationally recognized federal and academic definition of Scientific Research Misconduct encompasses 'FFP': 1) FABRICATION: Making up data or results and recording or reporting them as real; 2) FALSIFICATION: Manipulating research materials, equipment, or processes, or changing/omitting data such that research is not accurately represented; and 3) PLAGIARISM: Appropriating another person's ideas, processes, results, or words without giving appropriate credit. Options a, b, and c refer to clinical torts, crimes, or communications rather than scientific research misconduct. Why the other options fail: option b substitutes duplication for plagiarism, but the three named acts are fabrication, falsification and plagiarism. Option c names three related publishing practices, none of which is the invented data. Option d uses legal categories rather than the research integrity categories.",
+      "The internationally recognized federal and academic definition of Scientific Research Misconduct encompasses 'FFP': 1) FABRICATION: Making up data or results and recording or reporting them as real; 2) FALSIFICATION: Manipulating research materials, equipment, or processes, or changing/omitting data such that research is not accurately represented; and 3) PLAGIARISM: Appropriating another person's ideas, processes, results, or words without giving appropriate credit. Options a, b, and c refer to clinical torts, crimes, or communications rather than scientific research misconduct. Why the other options fail: Substituting duplication for plagiarism names three related publishing practices rather than the three acts; naming plagiarism, self-plagiarism and salami slicing describes how data are sliced and reported; misconduct, negligence and malpractice are not the three categories of research fraud.",
     strategy: "Research misconduct: FFP = Fabrication (making up data), Falsification (altering data), Plagiarism (copying without citation).",
     difficulty: "easy",
     tags: ["research", "research-misconduct", "fabrication", "falsification", "plagiarism"],
@@ -428,11 +428,11 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "A type I error, rejecting a true null hypothesis and declaring an inert drug effective",
+        text: "A sampling error, because the sample was not representative of the population",
       },
       {
         id: "b",
-        text: "A sampling error, because the sample was not representative of the population",
+        text: "A type I error, rejecting a true null hypothesis and declaring an inert drug effective",
       },
       {
         id: "c",
@@ -445,7 +445,7 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "b",
     rationale:
-      "In hypothesis testing: A TYPE I ERROR (alpha error, false positive) occurs when the researcher rejects the null hypothesis when the null hypothesis is actually true in reality (concluding that a treatment works when it is actually ineffective). A TYPE II ERROR (beta error, false negative) occurs when the researcher fails to reject the null hypothesis when it is actually false (concluding that a treatment does not work when it actually does, often due to inadequate sample size/power). Rejecting a true null hypothesis is a Type I error. Why the other options fail: option c is the error of missing a real effect, which did not happen here. Option b is about representativeness rather than inference. Option d invokes confounding, which the question excludes by stating the drug is inert.",
+      "In hypothesis testing: A TYPE I ERROR (alpha error, false positive) occurs when the researcher rejects the null hypothesis when the null hypothesis is actually true in reality (concluding that a treatment works when it is actually ineffective). A TYPE II ERROR (beta error, false negative) occurs when the researcher fails to reject the null hypothesis when it is actually false (concluding that a treatment does not work when it actually does, often due to inadequate sample size/power). Rejecting a true null hypothesis is a Type I error. Why the other options fail: A sampling error is about who was selected, not about the inference drawn; a type II error is failing to detect a real effect, which is the opposite of what happened; confounding by a third variable is not in play when the drug is inert and the hypothesis is false.",
     strategy: "Statistical errors: Type I error = False Positive (claiming a difference when none exists). Type II error = False Negative (missing a real difference).",
     difficulty: "medium",
     tags: ["research", "type-i-error", "hypothesis-testing", "p-value", "biostatistics"],
@@ -458,7 +458,7 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "The interval excludes 1.0, so the reduction in odds is statistically significant and the rinse is protective",
+        text: "An odds ratio below 1.0 means the rinse increases the odds of pneumonia rather than reducing them",
       },
       {
         id: "b",
@@ -470,12 +470,12 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "An odds ratio below 1.0 means the rinse increases the odds of pneumonia rather than reducing them",
+        text: "The interval excludes 1.0, so the reduction in odds is statistically significant and the rinse is protective",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "For ratio statistics such as Odds Ratios (OR) and Relative Risk (RR), the null value (indicating no difference between groups) is 1.0. If the 95% Confidence Interval does NOT include 1.0, the finding is statistically significant at $p < 0.05$. An OR of 0.62 with a 95% CI of [0.48 to 0.81] means that clients receiving chlorhexidine have 38% lower odds of developing pneumonia, and because the upper bound (0.81) is below 1.0, the protective effect is statistically significant. If the CI crossed 1.0 (e.g., [0.75 to 1.25]), it would not be statistically significant. Why the other options fail: option b asks for a larger trial although the interval already excludes 1.0. Option c judges clinical importance from how close the point estimate lies to 1.0. Option d reverses the direction of an odds ratio below 1.0.",
+      "For ratio statistics such as Odds Ratios (OR) and Relative Risk (RR), the null value (indicating no difference between groups) is 1.0. If the 95% Confidence Interval does NOT include 1.0, the finding is statistically significant at $p < 0.05$. An OR of 0.62 with a 95% CI of [0.48 to 0.81] means that clients receiving chlorhexidine have 38% lower odds of developing pneumonia, and because the upper bound (0.81) is below 1.0, the protective effect is statistically significant. If the CI crossed 1.0 (e.g., [0.75 to 1.25]), it would not be statistically significant. Why the other options fail: Asking for a larger trial ignores that the interval already excludes one point zero; judging clinical importance from how close the point estimate sits to one point zero confuses statistical with clinical significance; reading an odds ratio below one point zero as harm reverses its direction.",
     strategy: "Interpreting Odds Ratios & 95% CI: For ratios (OR/RR), the null value is 1.0. If the 95% CI excludes 1.0, the finding is statistically significant.",
     difficulty: "hard",
     tags: ["research", "confidence-intervals", "odds-ratio", "meta-analysis", "vap-prevention"],
@@ -518,7 +518,7 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Sensitivity 96% and specificity 92%, because 96 of 100 cases and 92 of 100 non-cases were correctly classified",
+        text: "Sensitivity 92% and specificity 96%, because the healthy clients supply the true positive rate",
       },
       {
         id: "b",
@@ -530,12 +530,12 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "Sensitivity 92% and specificity 96%, because the healthy clients supply the true positive rate",
+        text: "Sensitivity 96% and specificity 92%, because 96 of 100 cases and 92 of 100 non-cases were correctly classified",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "SENSITIVITY is the ability of a test to correctly identify individuals who HAVE the disease (True Positive Rate = True Positives / Total Diseased = 96 / 100 = 96%). SPECIFICITY is the ability of a test to correctly identify individuals who DO NOT HAVE the disease (True Negative Rate = True Negatives / Total Non-diseased = 92 / 100 = 92%). High sensitivity rules OUT disease when negative (SnNOut); high specificity rules IN disease when positive (SpPIn). Why the other options fail: option d exchanges the two measures, giving the non-case rate to sensitivity. Option b adds a predictive value that cannot be derived from these numbers. Option c reports the false rates rather than the true rates.",
+      "SENSITIVITY is the ability of a test to correctly identify individuals who HAVE the disease (True Positive Rate = True Positives / Total Diseased = 96 / 100 = 96%). SPECIFICITY is the ability of a test to correctly identify individuals who DO NOT HAVE the disease (True Negative Rate = True Negatives / Total Non-diseased = 92 / 100 = 92%). High sensitivity rules OUT disease when negative (SnNOut); high specificity rules IN disease when positive (SpPIn). Why the other options fail: The version that swaps the two measures gives the non-case rate to sensitivity; adding a predictive value that cannot be derived from these numbers overreaches; reporting the false-result proportions as sensitivity and specificity misreads what was counted.",
     strategy: "Diagnostic accuracy: Sensitivity = ability to detect true positives (sick people). Specificity = ability to identify true negatives (healthy people).",
     difficulty: "easy",
     tags: ["research", "sensitivity", "specificity", "screening-tests", "malaria-rdt"],
@@ -578,11 +578,11 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "The reporting phase, because the loop closes when the results are published",
+        text: "Closing the audit loop, because the re-audit shows the changes achieved the standard",
       },
       {
         id: "b",
-        text: "Closing the audit loop, because the re-audit shows the changes achieved the standard",
+        text: "The reporting phase, because the loop closes when the results are published",
       },
       {
         id: "c",
@@ -595,7 +595,7 @@ export const RSCH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "a",
     rationale:
-      "A clinical audit is incomplete without 'closing the audit loop'. The complete audit cycle consists of: 1) setting standards; 2) measuring baseline practice; 3) comparing practice against standards; 4) implementing targeted changes; and 5) re-auditing practice. The re-audit verifies whether implemented interventions achieved sustained compliance with standards, closing the loop and establishing clinical governance. Audits are quality improvement activities, not punitive misconduct trials or falsifications. Why the other options fail: option c describes the first audit, which happened before the changes. Option d equates a re-audit with a trial, which it is not. Option a closes the loop on publication rather than on measured improvement.",
+      "A clinical audit is incomplete without 'closing the audit loop'. The complete audit cycle consists of: 1) setting standards; 2) measuring baseline practice; 3) comparing practice against standards; 4) implementing targeted changes; and 5) re-auditing practice. The re-audit verifies whether implemented interventions achieved sustained compliance with standards, closing the loop and establishing clinical governance. Audits are quality improvement activities, not punitive misconduct trials or falsifications. Why the other options fail: The reporting phase closes the loop on publication rather than on measured improvement; the first audit is the baseline that started the cycle; calling a re-audit a controlled trial overstates what it is.",
     strategy: "Clinical audit cycle: Setting standards -> Measuring -> Implementing change -> Re-auditing (Closing the loop).",
     difficulty: "easy",
     tags: ["research", "clinical-audit", "audit-cycle", "closing-the-loop", "hand-hygiene"],

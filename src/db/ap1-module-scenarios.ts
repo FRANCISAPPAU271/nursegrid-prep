@@ -308,11 +308,11 @@ export const AP1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Excess acetylcholinesterase at the end-plate breaks down acetylcholine before it can act",
+        text: "Autoantibodies block nicotinic acetylcholine receptors at the motor end-plate, so the muscle cannot depolarise",
       },
       {
         id: "b",
-        text: "Autoantibodies block nicotinic acetylcholine receptors at the motor end-plate, so the muscle cannot depolarise",
+        text: "Excess acetylcholinesterase at the end-plate breaks down acetylcholine before it can act",
       },
       {
         id: "c",
@@ -325,7 +325,7 @@ export const AP1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "a",
     rationale:
-      "Myasthenia Gravis (MG) is an autoimmune disease targeting the neuromuscular junction. Circulating autoantibodies (primarily against the nicotinic acetylcholine receptor [AChR] on the postsynaptic muscle sarcolemma) block acetylcholine binding and accelerate receptor degradation. With repetitive motor neuron firing, acetylcholine stores deplete while fewer functional receptors remain available, resulting in progressive muscle fatigability that worsens with activity and improves with rest (e.g., ptosis, diplopia, dysarthria, dysphagia, and potentially fatal myasthenic respiratory crisis). ALS destroys motor neurons; Guillain-Barré causes demyelination. Why the other options fail: option b puts the lesion in the upper motor neuron, which would give spasticity rather than fatigable weakness. Option c destroys presynaptic calcium channels, which is Lambert-Eaton and improves with use. Option a removes acetylcholine too quickly, which is anticholinesterase excess rather than the disease.",
+      "Myasthenia Gravis (MG) is an autoimmune disease targeting the neuromuscular junction. Circulating autoantibodies (primarily against the nicotinic acetylcholine receptor [AChR] on the postsynaptic muscle sarcolemma) block acetylcholine binding and accelerate receptor degradation. With repetitive motor neuron firing, acetylcholine stores deplete while fewer functional receptors remain available, resulting in progressive muscle fatigability that worsens with activity and improves with rest (e.g., ptosis, diplopia, dysarthria, dysphagia, and potentially fatal myasthenic respiratory crisis). ALS destroys motor neurons; Guillain-Barré causes demyelination. Why the other options fail: Excess acetylcholinesterase would break acetylcholine down faster than it is released, which is not the antibody mechanism; destruction of the presynaptic calcium channels is Lambert-Eaton, which improves with use; muscarinic blockade on the muscle membrane is not how the end-plate fails.",
     strategy: "Neuromuscular junction: Myasthenia Gravis = autoantibodies against postsynaptic acetylcholine receptors -> muscle weakness and fatigability.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "myasthenia-gravis", "neuromuscular-junction", "acetylcholine", "autoimmune"],
@@ -398,7 +398,7 @@ export const AP1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Bile salts from the liver emulsify fat and carry bilirubin into the gut, so obstruction causes steatorrhoea and pale stools",
+        text: "Bile salts from the gallbladder emulsify fat, so obstruction causes steatorrhoea, while bilirubin is excreted by the kidney",
       },
       {
         id: "b",
@@ -406,7 +406,7 @@ export const AP1_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Bile salts from the gallbladder emulsify fat, so obstruction causes steatorrhoea, while bilirubin is excreted by the kidney",
+        text: "Bile salts from the liver emulsify fat and carry bilirubin into the gut, so obstruction causes steatorrhoea and pale stools",
       },
       {
         id: "d",
@@ -415,7 +415,7 @@ export const AP1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "c",
     rationale:
-      "Bile is produced continuously by hepatocytes in the liver, concentrated in the gallbladder, and released into the duodenum via the common bile duct in response to cholecystokinin (CCK). Bile salts act as biological detergents, emulsifying large dietary fat globules into microscopic micelles to provide a vast surface area for pancreatic lipase digestion. Bile also excretes conjugated bilirubin into the intestinal lumen, where normal bacterial flora metabolize it into stercobilin (giving feces their brown color). When choledocholithiasis obstructs bile outflow, fats cannot be absorbed (steatorrhea), feces lack stercobilin (clay-colored stools), and water-soluble conjugated bilirubin backs up into circulation, spilling into urine (dark amber) and skin (jaundice). Why the other options fail: option a makes the pancreas the source of bile, which the liver is. Option c sends bilirubin to the kidney when obstruction diverts it to the blood, and bile comes from the liver rather than the gallbladder. Option b treats bilirubin as blood-borne and the stools as normal, when the stools are pale from absent stercobilin.",
+      "Bile is produced continuously by hepatocytes in the liver, concentrated in the gallbladder, and released into the duodenum via the common bile duct in response to cholecystokinin (CCK). Bile salts act as biological detergents, emulsifying large dietary fat globules into microscopic micelles to provide a vast surface area for pancreatic lipase digestion. Bile also excretes conjugated bilirubin into the intestinal lumen, where normal bacterial flora metabolize it into stercobilin (giving feces their brown color). When choledocholithiasis obstructs bile outflow, fats cannot be absorbed (steatorrhea), feces lack stercobilin (clay-colored stools), and water-soluble conjugated bilirubin backs up into circulation, spilling into urine (dark amber) and skin (jaundice). Why the other options fail: Saying bilirubin reaches the gut in the blood and leaves in the urine, making the gallbladder the source of bile and sending bilirubin to the kidney, and having bile acids activate pancreatic lipase are all wrong: the liver secretes bile, bile carries bilirubin into the gut, and obstruction backs conjugated bilirubin into the blood.",
     strategy: "Hepatobiliary physiology: Bile emulsifies dietary fats and excretes bilirubin. Common bile duct obstruction causes steatorrhea, clay-colored stools, and jaundice.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "bile-salts", "choledocholithiasis", "biliary-physiology", "steatorrhea"],
@@ -518,11 +518,11 @@ export const AP1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Destruction of the epidermis and the upper dermis only, with pain preserved because the nerve endings remain",
+        text: "Full-thickness loss of the epidermis and dermis, including nerves and appendages, leaving a leathery insensate eschar",
       },
       {
         id: "b",
-        text: "Full-thickness loss of the epidermis and dermis, including nerves and appendages, leaving a leathery insensate eschar",
+        text: "Destruction of the epidermis and the upper dermis only, with pain preserved because the nerve endings remain",
       },
       {
         id: "c",
@@ -535,7 +535,7 @@ export const AP1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "a",
     rationale:
-      "Full-thickness (third-degree) burns extend completely through the epidermis and the entire thickness of the dermis, often extending into the underlying hypodermis (subcutaneous tissue). Because all dermal appendages—including the dermal capillary plexus and sensory nerve endings (nociceptors, Meissner's, Merkel's, and free nerve terminals)—are completely incinerated, the wound appears leathery, waxy white, brown, or charred (eschar) and is completely insensitive to light touch and pinprick (anesthetic). However, peripheral zones of partial-thickness burn surrounding the wound remain intensely painful. Why the other options fail: option b confines the injury to the corneum, which would leave the skin intact and painful. Option a spares the deep dermis and keeps sensation, which the painless eschar contradicts. Option d spares the epidermis and blisters, which does not describe a leathery white wound.",
+      "Full-thickness (third-degree) burns extend completely through the epidermis and the entire thickness of the dermis, often extending into the underlying hypodermis (subcutaneous tissue). Because all dermal appendages—including the dermal capillary plexus and sensory nerve endings (nociceptors, Meissner's, Merkel's, and free nerve terminals)—are completely incinerated, the wound appears leathery, waxy white, brown, or charred (eschar) and is completely insensitive to light touch and pinprick (anesthetic). However, peripheral zones of partial-thickness burn surrounding the wound remain intensely painful. Why the other options fail: Epidermis and upper dermis only is a partial-thickness burn with pain preserved; epidermis alone is superficial and stays moist and painful; dermis and fat with the epidermis spared and a blistered surface is not a leathery insensate eschar.",
     strategy: "Burn depth anatomy: Full-thickness (3rd degree) destroys epidermis AND dermis, incinerating sensory nerve endings, making the core eschar painless and dry/leathery.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "burn-depth", "full-thickness-burn", "dermis-destruction", "sensory-receptors"],
@@ -548,11 +548,11 @@ export const AP1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Fat embolism syndrome: marrow fat enters torn venous sinusoids, lodges in the pulmonary capillaries and causes petechiae",
+        text: "Acute respiratory distress syndrome from the trauma itself, which gives bilateral infiltrates without petechiae",
       },
       {
         id: "b",
-        text: "Acute respiratory distress syndrome from the trauma itself, which gives bilateral infiltrates without petechiae",
+        text: "Fat embolism syndrome: marrow fat enters torn venous sinusoids, lodges in the pulmonary capillaries and causes petechiae",
       },
       {
         id: "c",
@@ -565,7 +565,7 @@ export const AP1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "b",
     rationale:
-      "Fat Embolism Syndrome (FES) is a life-threatening systemic complication occurring 24 to 72 hours following closed fractures of major long bones (especially the femur or tibia) or pelvic crush trauma. Disrupted bone marrow adipose tissue and medullary venous sinusoids allow fat globules to enter the systemic venous circulation. These fat emboli occlude pulmonary microvascular capillaries, triggering lipolysis into toxic free fatty acids that induce diffuse alveolar endothelial injury, acute lung injury (ARDS), ventilation-perfusion mismatch (severe hypoxemia), cerebral microvascular occlusion (confusion, altered mental status), and thrombocytopenic microvascular fragility (pathognomonic non-palpable petechiae over the neck, axilla, and chest). Why the other options fail: option c gives pulmonary embolism, which does not cause a petechial rash on the neck and conjunctivae. Option b gives ARDS, which produces infiltrates without the rash. Option d gives sepsis, which produces fever and hypotension but not this distribution of petechiae.",
+      "Fat Embolism Syndrome (FES) is a life-threatening systemic complication occurring 24 to 72 hours following closed fractures of major long bones (especially the femur or tibia) or pelvic crush trauma. Disrupted bone marrow adipose tissue and medullary venous sinusoids allow fat globules to enter the systemic venous circulation. These fat emboli occlude pulmonary microvascular capillaries, triggering lipolysis into toxic free fatty acids that induce diffuse alveolar endothelial injury, acute lung injury (ARDS), ventilation-perfusion mismatch (severe hypoxemia), cerebral microvascular occlusion (confusion, altered mental status), and thrombocytopenic microvascular fragility (pathognomonic non-palpable petechiae over the neck, axilla, and chest). Why the other options fail: ARDS from the trauma gives bilateral infiltrates without petechiae; pulmonary embolism from a deep vein thrombosis gives dyspnoea and hypoxia without a rash; osteomyelitis sepsis gives fever and hypotension without the petechiae that appear with the confusion.",
     strategy: "Trauma complication: Femur fracture + Acute hypoxia + Neurological confusion + Axillary petechial rash = Fat Embolism Syndrome.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "fat-embolism-syndrome", "femur-fracture", "pulmonary-emboli", "clinical-correlation"],
@@ -578,7 +578,7 @@ export const AP1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Proximal muscle contracts against the block while distal bowel is quiet, and fluid is lost into the lumen",
+        text: "Hyperactive sounds reflect increased secretion rather than contraction, and the fluid loss is into the peritoneum",
       },
       {
         id: "b",
@@ -586,7 +586,7 @@ export const AP1_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Hyperactive sounds reflect increased secretion rather than contraction, and the fluid loss is into the peritoneum",
+        text: "Proximal muscle contracts against the block while distal bowel is quiet, and fluid is lost into the lumen",
       },
       {
         id: "d",
@@ -595,7 +595,7 @@ export const AP1_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "c",
     rationale:
-      "In mechanical small bowel obstruction (e.g., from postoperative adhesions or incarcerated hernias), physical blockage prevents the distal progression of chyme. Proximally, the smooth muscle layers (muscularis externa: circular and longitudinal fibers) mount vigorous hyper-peristaltic contractions to overcome the resistance, manifesting early as high-pitched, metallic 'tinkling' sounds and audible peristaltic rushes. Proximal intraluminal accumulation of swallowed air and digestive secretions (7–8 L/day of saliva, gastric juice, bile, and pancreatic fluids) increases wall tension, compresses venous drainage, causes bowel wall edema, and sequesters massive fluid into the third space, leading to hypovolemic shock and electrolyte collapse. Why the other options fail: option b reverses the findings, because the bowel above the block is hyperactive and the bowel below is quiet. Option d has peristalsis running backwards and the abdomen silent, when the sounds are high-pitched and rushing. Option c attributes the sounds to secretion and puts the fluid in the peritoneum, when it is lost into the lumen.",
+      "In mechanical small bowel obstruction (e.g., from postoperative adhesions or incarcerated hernias), physical blockage prevents the distal progression of chyme. Proximally, the smooth muscle layers (muscularis externa: circular and longitudinal fibers) mount vigorous hyper-peristaltic contractions to overcome the resistance, manifesting early as high-pitched, metallic 'tinkling' sounds and audible peristaltic rushes. Proximal intraluminal accumulation of swallowed air and digestive secretions (7–8 L/day of saliva, gastric juice, bile, and pancreatic fluids) increases wall tension, compresses venous drainage, causes bowel wall edema, and sequesters massive fluid into the third space, leading to hypovolemic shock and electrolyte collapse. Why the other options fail: An atonic bowel above the block reverses the findings, because the bowel above is hyperactive and the bowel below is quiet; sounds of increased secretion misread peristalsis; reversed peristalsis with a silent abdomen is not the high-pitched rush of mechanical obstruction.",
     strategy: "GI obstruction: Muscularis externa contracts vigorously against obstruction -> high-pitched tinkling sounds proximal to obstruction -> intraluminal third-spacing and hypovolemia.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "bowel-obstruction", "muscularis-externa", "peristalsis", "third-spacing"],

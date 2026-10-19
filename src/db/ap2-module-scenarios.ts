@@ -98,11 +98,11 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Tachycardia increases blood velocity, which shears red cells and reduces oxygen delivery",
+        text: "Tachycardia shortens diastole, when most coronary flow and ventricular filling occur, while oxygen demand rises",
       },
       {
         id: "b",
-        text: "Tachycardia shortens diastole, when most coronary flow and ventricular filling occur, while oxygen demand rises",
+        text: "Tachycardia increases blood velocity, which shears red cells and reduces oxygen delivery",
       },
       {
         id: "c",
@@ -115,7 +115,7 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "a",
     rationale:
-      "Unlike all other systemic vascular beds which are perfused during systole, the left ventricular myocardium is perfused almost entirely during ventricular DIASTOLE. During systole, high intramyocardial compressive forces compress subendocardial coronary capillaries, and open aortic valve leaflets partially shield the coronary ostia. When the aortic valve closes in diastole, coronary perfusion pressure peaks. At rapid heart rates (e.g., >150–180 bpm), the cardiac cycle shortens primarily at the expense of diastolic duration (diastolic filling time plummets), severely curtailing coronary perfusion time. Simultaneously, tachycardia skyrockets myocardial metabolic oxygen consumption (MVO2), producing acute supply-demand mismatch and profound subendocardial ischemia (angina and ST depressions). Why the other options fail: option c puts the compression in systole, but coronary flow is predominantly diastolic, which is the point. Option d says extraction is already maximal, which is true at rest but is not the supply-demand mechanism asked for. Option a invokes shear haemolysis, which does not occur at this rate.",
+      "Unlike all other systemic vascular beds which are perfused during systole, the left ventricular myocardium is perfused almost entirely during ventricular DIASTOLE. During systole, high intramyocardial compressive forces compress subendocardial coronary capillaries, and open aortic valve leaflets partially shield the coronary ostia. When the aortic valve closes in diastole, coronary perfusion pressure peaks. At rapid heart rates (e.g., >150–180 bpm), the cardiac cycle shortens primarily at the expense of diastolic duration (diastolic filling time plummets), severely curtailing coronary perfusion time. Simultaneously, tachycardia skyrockets myocardial metabolic oxygen consumption (MVO2), producing acute supply-demand mismatch and profound subendocardial ischemia (angina and ST depressions). Why the other options fail: Shear haemolysis from higher blood velocity does not limit oxygen delivery at this rate; systolic compression puts the squeeze in the wrong phase, because coronary flow is predominantly diastolic; oxygen extraction is already near maximal at rest, but that is not the mechanism that produces ischaemia when demand rises.",
     strategy: "Coronary physiology: Coronary blood flow occurs during DIASTOLE. Tachycardia shortens diastolic time + increases oxygen demand -> triggers myocardial ischemia.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "coronary-perfusion", "diastole", "tachycardia", "myocardial-ischemia"],
@@ -222,7 +222,7 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Anaerobic glycolysis lowers ATP, the precapillary sphincters dilate while venules stay constricted, so fluid leaks and sludges",
+        text: "Anaerobic glycolysis lowers ATP, so the precapillary sphincters close while the venules dilate, and blood is trapped in the capillary bed without leaking",
       },
       {
         id: "c",
@@ -235,7 +235,7 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "a",
     rationale:
-      "In the progressive (decompensated) stage of shock, homeostatic compensatory reflexes are overwhelmed. Persistent severe tissue hypoperfusion starves cells of oxygen, forcing prolonged anaerobic metabolism that produces heavy lactic acidosis (lactate >4–6 mmol/L). Local acidemia and hyperkalemia paralyze the precapillary arteriolar sphincters (causing them to dilate), while postcapillary venules remain constricted due to sympathetic acidosis resistance. This anatomical imbalance skyrockets hydrostatic capillary pressure, driving fluid and plasma proteins out of the vascular space into the interstitium (third-spacing and hemoconcentration). Sludged red cells aggregate in microvessels, producing microthrombi and irreversible end-organ cellular necrosis (MODS). Why the other options fail: option b dilates both sides of the capillary bed, which would not produce the sludging and leak described. Option d has lactate falling as flow improves, when the patient is worsening. Option a constricts the venules only, which overstates one half of the picture and misses the sphincter failure.",
+      "In the progressive (decompensated) stage of shock, homeostatic compensatory reflexes are overwhelmed. Persistent severe tissue hypoperfusion starves cells of oxygen, forcing prolonged anaerobic metabolism that produces heavy lactic acidosis (lactate >4–6 mmol/L). Local acidemia and hyperkalemia paralyze the precapillary arteriolar sphincters (causing them to dilate), while postcapillary venules remain constricted due to sympathetic acidosis resistance. This anatomical imbalance skyrockets hydrostatic capillary pressure, driving fluid and plasma proteins out of the vascular space into the interstitium (third-spacing and hemoconcentration). Sludged red cells aggregate in microvessels, producing microthrombi and irreversible end-organ cellular necrosis (MODS). Why the other options fail: Failure of arteriolar tone with the venules still constricted is close, but it is the capillary hydrostatic pressure that drives the leak, not back-pressure; vasodilation of both sides would not produce sludging with third-spacing; venules dilating first contradicts the sequence, and lactate rises rather than falls as flow worsens.",
     strategy: "Stages of shock: Progressive stage = compensatory failure -> anaerobic lactic acidosis -> precapillary sphincter failure with postcapillary venular constriction -> massive capillary leak and MODS.",
     difficulty: "hard",
     tags: ["anatomy-physiology", "stages-of-shock", "progressive-shock", "lactic-acidosis", "microcirculation"],
@@ -278,7 +278,7 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Surfactant is produced by type II cells and lowers surface tension, so small alveoli do not collapse at end-expiration",
+        text: "Surfactant is produced by type I cells and coats the alveoli, preventing them from over-expanding during inspiration",
       },
       {
         id: "b",
@@ -290,12 +290,12 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "Surfactant is produced by type I cells and coats the alveoli, preventing them from over-expanding during inspiration",
+        text: "Surfactant is produced by type II cells and lowers surface tension, so small alveoli do not collapse at end-expiration",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "The Law of Laplace states that the collapsing inward pressure (P) inside an elastic sphere is directly proportional to surface tension (T) and inversely proportional to radius (r): P = 2T / r. Without surfactant, smaller alveoli (smaller r) would generate much higher collapsing pressures than larger alveoli, causing smaller alveoli to empty their air into larger ones and collapse completely (diffuse micro-atelectasis). Pulmonary surfactant (a complex lipoprotein predominantly dipalmitoylphosphatidylcholine secreted by Type II alveolar pneumocytes beginning around 24–28 weeks and maturing around 35 weeks) intersperses between water molecules at the alveolar air-liquid interface. It markedly reduces surface tension, equalizes pressure across alveoli of varying sizes, increases pulmonary compliance, and prevents end-expiratory collapse. In NRDS, lack of surfactant causes massive atelectasis, severe V/Q mismatch, and respiratory failure. Why the other options fail: option d gives surfactant to type I cells, which cover the gas-exchange surface and do not secrete it. Option b raises surface tension, which is the opposite of surfactant action. Option c makes the alveolar walls adherent, which would prevent expansion rather than collapse.",
+      "The Law of Laplace states that the collapsing inward pressure (P) inside an elastic sphere is directly proportional to surface tension (T) and inversely proportional to radius (r): P = 2T / r. Without surfactant, smaller alveoli (smaller r) would generate much higher collapsing pressures than larger alveoli, causing smaller alveoli to empty their air into larger ones and collapse completely (diffuse micro-atelectasis). Pulmonary surfactant (a complex lipoprotein predominantly dipalmitoylphosphatidylcholine secreted by Type II alveolar pneumocytes beginning around 24–28 weeks and maturing around 35 weeks) intersperses between water molecules at the alveolar air-liquid interface. It markedly reduces surface tension, equalizes pressure across alveoli of varying sizes, increases pulmonary compliance, and prevents end-expiratory collapse. In NRDS, lack of surfactant causes massive atelectasis, severe V/Q mismatch, and respiratory failure. Why the other options fail: Giving surfactant to type I cells is wrong, because type I cells cover the gas-exchange surface and do not secrete it; raising surface tension is the opposite of surfactant action; making the alveolar walls adherent would prevent expansion rather than prevent collapse.",
     strategy: "Alveolar biophysics: Type II pneumocytes secrete surfactant (dipalmitoylphosphatidylcholine), which reduces alveolar surface tension (Laplace law) and prevents end-expiratory atelectasis.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "pulmonary-surfactant", "type-ii-pneumocytes", "law-of-laplace", "respiratory-distress-syndrome"],
@@ -398,24 +398,24 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Juxtaglomerular cells release renin, which converts angiotensinogen to angiotensin I; ACE in the lung converts it to angiotensin II, which constricts vessels and drives aldosterone",
+        text: "Renin from juxtaglomerular cells activates angiotensinogen directly to angiotensin II, bypassing the pulmonary step, so angiotensin-converting enzyme plays no part in the cascade at all",
       },
       {
         id: "b",
-        text: "The macula densa releases aldosterone, which drives sodium reabsorption and raises the blood pressure",
+        text: "The macula densa releases aldosterone, which drives sodium reabsorption, retains water and raises the blood pressure without any change in renin secretion",
       },
       {
         id: "c",
-        text: "Renin from juxtaglomerular cells activates angiotensinogen directly to angiotensin II, bypassing the pulmonary step",
+        text: "Juxtaglomerular cells release renin, which converts angiotensinogen to angiotensin I; ACE in the lung converts it to angiotensin II, which constricts vessels and drives aldosterone",
       },
       {
         id: "d",
-        text: "Juxtaglomerular cells release ADH, which retains water and restores volume without changing vascular tone",
+        text: "Juxtaglomerular cells release antidiuretic hormone, which retains water and restores the circulating volume without changing vascular tone or sodium handling anywhere",
       },
     ],
     correctChoiceId: "c",
     rationale:
-      "The Renin-Angiotensin-Aldosterone System (RAAS) is the body's primary long-term regulator of blood pressure and extracellular fluid volume: 1) Juxtaglomerular granular cells in the afferent arteriole detect decreased renal perfusion pressure (and macula densa senses low tubular NaCl), releasing the enzyme RENIN; 2) Renin cleaves hepatically produced Angiotensinogen into Angiotensin I; 3) Angiotensin-Converting Enzyme (ACE, predominantly in pulmonary vascular endothelium) cleaves Angiotensin I into ANGIOTENSIN II; 4) Angiotensin II exerts potent systemic vasoconstriction, stimulates hypothalamic thirst and ADH release, and stimulates the adrenal cortex (zona glomerulosa) to secrete ALDOSTERONE; 5) Aldosterone upregulates Na+/K+ ATPase pumps in distal tubules and collecting ducts, reabsorbing sodium and water while excreting potassium and H+. Why the other options fail: option c skips the pulmonary step, but angiotensin I is inactive until ACE converts it. Option b gives aldosterone to the macula densa, which releases no hormone. Option d uses ADH from the juxtaglomerular cells, which do not store it.",
+      "The Renin-Angiotensin-Aldosterone System (RAAS) is the body's primary long-term regulator of blood pressure and extracellular fluid volume: 1) Juxtaglomerular granular cells in the afferent arteriole detect decreased renal perfusion pressure (and macula densa senses low tubular NaCl), releasing the enzyme RENIN; 2) Renin cleaves hepatically produced Angiotensinogen into Angiotensin I; 3) Angiotensin-Converting Enzyme (ACE, predominantly in pulmonary vascular endothelium) cleaves Angiotensin I into ANGIOTENSIN II; 4) Angiotensin II exerts potent systemic vasoconstriction, stimulates hypothalamic thirst and ADH release, and stimulates the adrenal cortex (zona glomerulosa) to secrete ALDOSTERONE; 5) Aldosterone upregulates Na+/K+ ATPase pumps in distal tubules and collecting ducts, reabsorbing sodium and water while excreting potassium and H+. Why the other options fail: Giving aldosterone to the macula densa assigns a hormone to a sensor; activating angiotensinogen straight to angiotensin II skips the pulmonary ACE step, and angiotensin I is inactive until then; antidiuretic hormone comes from the posterior pituitary, not from the juxtaglomerular cells.",
     strategy: "RAAS cascade: Low renal perfusion -> Renin -> Angiotensin I -> ACE -> Angiotensin II (vasoconstriction) -> Aldosterone (Na+/H2O retention, K+ excretion).",
     difficulty: "easy",
     tags: ["anatomy-physiology", "raas", "renin", "angiotensin-ii", "aldosterone"],
@@ -428,7 +428,7 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "The ketoacids consume bicarbonate, and the lungs blow off carbon dioxide so carbonic acid falls and pH rises toward normal",
+        text: "The kidneys excrete hydrogen ions and regenerate bicarbonate, which is the only compensation in DKA",
       },
       {
         id: "b",
@@ -440,12 +440,12 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "The kidneys excrete hydrogen ions and regenerate bicarbonate, which is the only compensation in DKA",
+        text: "The ketoacids consume bicarbonate, and the lungs blow off carbon dioxide so carbonic acid falls and pH rises toward normal",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "The carbonic acid-bicarbonate buffer system operates according to the equilibrium: CO2 + H2O <-> H2CO3 <-> H+ + HCO3-. In DKA, excessive ketoacids (acetoacetic acid, beta-hydroxybutyric acid) dissociate into hydrogen ions (H+), which bind to and consume circulating bicarbonate (HCO3-), causing a primary severe metabolic acidosis (pH 7.15, HCO3- 8 mEq/L). The respiratory center in the brainstem detects the high arterial H+ and responds rapidly by triggering Kussmaul respirations (deep, rapid breathing). Blowing off CO2 lowers arterial PaCO2 (24 mmHg), which pulls the chemical equilibrium to the left, decreasing H2CO3 and free H+ ions and elevating pH back toward normal physiological range (partial respiratory compensation). Why the other options fail: option b retains carbon dioxide, which would add acid rather than remove it. Option d makes renal compensation the only mechanism, when the Kussmaul breathing is the immediate one. Option c calls the picture a respiratory alkalosis, when the bicarbonate of 8 identifies the metabolic process.",
+      "The carbonic acid-bicarbonate buffer system operates according to the equilibrium: CO2 + H2O <-> H2CO3 <-> H+ + HCO3-. In DKA, excessive ketoacids (acetoacetic acid, beta-hydroxybutyric acid) dissociate into hydrogen ions (H+), which bind to and consume circulating bicarbonate (HCO3-), causing a primary severe metabolic acidosis (pH 7.15, HCO3- 8 mEq/L). The respiratory center in the brainstem detects the high arterial H+ and responds rapidly by triggering Kussmaul respirations (deep, rapid breathing). Blowing off CO2 lowers arterial PaCO2 (24 mmHg), which pulls the chemical equilibrium to the left, decreasing H2CO3 and free H+ ions and elevating pH back toward normal physiological range (partial respiratory compensation). Why the other options fail: Retaining carbon dioxide would add acid rather than remove it; calling the picture a primary respiratory alkalosis reverses the primary disorder; renal compensation is real but slow, and the immediate compensation in ketoacidosis is the deep Kussmaul breathing that blows off carbon dioxide.",
     strategy: "Acid-base compensation: Primary metabolic acidosis triggers respiratory hyperventilation (Kussmaul breathing) to blow off CO2 and reduce carbonic acid/H+ concentration.",
     difficulty: "easy",
     tags: ["anatomy-physiology", "acid-base-balance", "kussmaul-respirations", "metabolic-acidosis", "carbonic-acid-bicarbonate-buffer"],
@@ -458,7 +458,7 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "The skull is rigid and its three contents have a fixed volume, so once CSF and venous blood are displaced, any added volume raises pressure steeply",
+        text: "Pressure rises only when the mass exceeds the volume of the whole cranial cavity, so the curve is flat until herniation begins",
       },
       {
         id: "b",
@@ -466,7 +466,7 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Pressure rises only when the mass exceeds the volume of the whole cranial cavity, so the curve is flat until herniation begins",
+        text: "The skull is rigid and its three contents have a fixed volume, so once CSF and venous blood are displaced, any added volume raises pressure steeply",
       },
       {
         id: "d",
@@ -475,7 +475,7 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "c",
     rationale:
-      "The Monro-Kellie doctrine states that the rigid, inelastic cranial vault is a closed box containing a constant total volume comprised of three distinct compartments: Brain parenchymal tissue (~80%), Intravascular blood (~10%), and Cerebrospinal fluid (CSF, ~10%). Because the skull cannot expand, an increase in the volume of one component (or an added mass like a hematoma or tumor) must be compensated by an equal decrease in the volume of the other components to maintain normal ICP (5–15 mmHg). Early compensation occurs by displacing CSF into the thecal sac and compressing cerebral venous sinuses. Once these compensatory buffers are exhausted (the compliance curve breakpoint), even a tiny addition of 1 to 2 mL of volume causes an exponential, catastrophic surge in ICP, collapsing cerebral perfusion pressure and causing fatal brainstem herniation. Why the other options fail: option a treats the skull as elastic, when the whole point is that it is rigid. Option b has brain tissue dissolving into air, which is not a mechanism. Option c makes the pressure-volume curve flat until herniation, when it becomes exponential before that point.",
+      "The Monro-Kellie doctrine states that the rigid, inelastic cranial vault is a closed box containing a constant total volume comprised of three distinct compartments: Brain parenchymal tissue (~80%), Intravascular blood (~10%), and Cerebrospinal fluid (CSF, ~10%). Because the skull cannot expand, an increase in the volume of one component (or an added mass like a hematoma or tumor) must be compensated by an equal decrease in the volume of the other components to maintain normal ICP (5–15 mmHg). Early compensation occurs by displacing CSF into the thecal sac and compressing cerebral venous sinuses. Once these compensatory buffers are exhausted (the compliance curve breakpoint), even a tiny addition of 1 to 2 mL of volume causes an exponential, catastrophic surge in ICP, collapsing cerebral perfusion pressure and causing fatal brainstem herniation. Why the other options fail: An elastic skull contradicts the fixed volume the hypothesis rests on; a flat pressure-volume curve until the whole cavity is filled is the opposite of the exponential rise; brain tissue cannot swell into air, and displacement of cerebrospinal fluid is one of the first compensations rather than the cause of the surge.",
     strategy: "Neurophysiology: Monro-Kellie hypothesis = rigid skull contains fixed volume (brain 80%, blood 10%, CSF 10%). Once CSF/blood displacement buffers fail, ICP spikes exponentially.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "monro-kellie-doctrine", "intracranial-pressure", "cerebral-perfusion", "epidural-hematoma"],
@@ -518,11 +518,11 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Cranial nerve III, whose superficial pupilloconstrictor fibres are compressed against the tentorial edge",
+        text: "Cranial nerve II, whose crossing fibres are stretched as the temporal lobe is pushed medially",
       },
       {
         id: "b",
-        text: "Cranial nerve II, whose crossing fibres are stretched as the temporal lobe is pushed medially",
+        text: "Cranial nerve III, whose superficial pupilloconstrictor fibres are compressed against the tentorial edge",
       },
       {
         id: "c",
@@ -535,7 +535,7 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "b",
     rationale:
-      "The pupillary light reflex relies on afferent signaling via the Optic nerve (CN II) and efferent parasympathetic motor signaling via the Oculomotor nerve (CN III). The parasympathetic fibers responsible for pupillary constriction (innervating the iris sphincter pupillae muscle) travel on the outer, superficial perimeter of the third cranial nerve. In uncal (transtentorial) herniation, the medial aspect of the temporal lobe (uncus) herniates downward across the rigid edge of the tentorial notch, directly compressing the ipsilateral CN III against the petroclinoid ligament. Because pupilloconstrictor fibers lie on the outside of the nerve trunk, external mechanical compression selectively knocks them out first, allowing unopposed sympathetic pupillodilator action and producing an ipsilateral fixed, dilated 'blown' pupil (an ominous sign of impending brainstem failure). Why the other options fail: option b blames the optic nerve, which carries vision and does not constrict the pupil. Option c names the vestibulocochlear nerve, which carries hearing and balance. Option d names the hypoglossal nerve, which moves the tongue.",
+      "The pupillary light reflex relies on afferent signaling via the Optic nerve (CN II) and efferent parasympathetic motor signaling via the Oculomotor nerve (CN III). The parasympathetic fibers responsible for pupillary constriction (innervating the iris sphincter pupillae muscle) travel on the outer, superficial perimeter of the third cranial nerve. In uncal (transtentorial) herniation, the medial aspect of the temporal lobe (uncus) herniates downward across the rigid edge of the tentorial notch, directly compressing the ipsilateral CN III against the petroclinoid ligament. Because pupilloconstrictor fibers lie on the outside of the nerve trunk, external mechanical compression selectively knocks them out first, allowing unopposed sympathetic pupillodilator action and producing an ipsilateral fixed, dilated 'blown' pupil (an ominous sign of impending brainstem failure). Why the other options fail: The optic nerve carries vision and does not constrict the pupil; the abducens nerve is stretched along the clivus and gives a lateral rectus palsy, not a blown pupil; the trochlear nerve supplies the superior oblique and cannot produce this picture.",
     strategy: "Neuroanatomy: Uncal herniation compresses Cranial Nerve III (Oculomotor nerve) parasympathetic fibers against the tentorium -> ipsilateral dilated, fixed (blown) pupil.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "cranial-nerve-iii", "oculomotor-nerve", "uncal-herniation", "blown-pupil"],
@@ -548,11 +548,11 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Virchow triad: stasis, hypercoagulability and endothelial injury, from immobility after head injury",
+        text: "Cushing triad: hypertension with a widened pulse pressure, bradycardia and irregular breathing, from rising intracranial pressure",
       },
       {
         id: "b",
-        text: "Cushing triad: hypertension with a widened pulse pressure, bradycardia and irregular breathing, from rising intracranial pressure",
+        text: "Virchow triad: stasis, hypercoagulability and endothelial injury, from immobility after head injury",
       },
       {
         id: "c",
@@ -565,7 +565,7 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     correctChoiceId: "a",
     rationale:
-      "Cushing's Triad is a classic physiological response to terminal intracranial hypertension and medullary ischemia: 1) Severe Systolic Hypertension with WIDENING PULSE PRESSURE: When ICP approaches mean arterial pressure, brainstem hypoperfusion and ischemia trigger a massive sympathetic surge (Cushing reflex) to forcibly drive blood flow into cerebral circulation; 2) BRADYCARDIA: Extreme systemic hypertension stimulates carotid and aortic baroreceptors, triggering intense vagal outflow to slow the heart rate; 3) IRREGULAR RESPIRATIONS (Cheyne-Stokes or ataxic breathing): Mechanical compression and distortion of the respiratory centers in the medulla oblongata and pons cause erratic breathing. Cushing's triad is a late, grave clinical sign indicating impending or ongoing cerebral herniation requiring emergency hyperosmolar therapy (mannitol/3% saline) and neurosurgical decompression. Why the other options fail: option c describes tamponade, which gives hypotension rather than hypertension. Option a describes the clotting triad, which has nothing to do with a rising blood pressure and a slowing pulse. Option d describes cholangitis, which gives fever and jaundice.",
+      "Cushing's Triad is a classic physiological response to terminal intracranial hypertension and medullary ischemia: 1) Severe Systolic Hypertension with WIDENING PULSE PRESSURE: When ICP approaches mean arterial pressure, brainstem hypoperfusion and ischemia trigger a massive sympathetic surge (Cushing reflex) to forcibly drive blood flow into cerebral circulation; 2) BRADYCARDIA: Extreme systemic hypertension stimulates carotid and aortic baroreceptors, triggering intense vagal outflow to slow the heart rate; 3) IRREGULAR RESPIRATIONS (Cheyne-Stokes or ataxic breathing): Mechanical compression and distortion of the respiratory centers in the medulla oblongata and pons cause erratic breathing. Cushing's triad is a late, grave clinical sign indicating impending or ongoing cerebral herniation requiring emergency hyperosmolar therapy (mannitol/3% saline) and neurosurgical decompression. Why the other options fail: Virchow triad describes stasis, hypercoagulability and endothelial injury, which do not raise the blood pressure and slow the pulse; Beck triad describes tamponade, which gives hypotension rather than hypertension; Charcot triad describes cholangitis, which has nothing to do with a widening pulse pressure.",
     strategy: "Neurological emergencies: Cushing's Triad = Systolic hypertension with widening pulse pressure + Bradycardia + Irregular respirations = severe intracranial hypertension / impending herniation.",
     difficulty: "easy",
     tags: ["anatomy-physiology", "cushings-triad", "intracranial-hypertension", "brainstem-ischemia", "herniation"],
@@ -578,7 +578,7 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Client 1 has low-output cardiogenic shock with congestion; client 2 has high-output distributive shock with low resistance",
+        text: "Client 1 has septic shock in its cold phase; client 2 has neurogenic shock from loss of sympathetic tone",
       },
       {
         id: "b",
@@ -590,12 +590,12 @@ export const AP2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "Client 1 has septic shock in its cold phase; client 2 has neurogenic shock from loss of sympathetic tone",
+        text: "Client 1 has low-output cardiogenic shock with congestion; client 2 has high-output distributive shock with low resistance",
       },
     ],
     correctChoiceId: "d",
     rationale:
-      "Shock is classified into distinct hemodynamic profiles based on Cardiac Output (CO), Preload (CVP/PCWP), and Afterload (SVR): 1) CARDIOGENIC SHOCK (Client 1): Primary myocardial pump failure (e.g., massive anterior MI). Stroke volume plummets (low CI), blood backs up into the pulmonary circulation (elevated PCWP) and systemic venous circulation (elevated CVP/JVD), and sympathetic compensatory reflex vasoconstricts peripheral arterioles (high SVR), causing cold, clammy, cyanotic extremities; 2) DISTRIBUTIVE / SEPTIC SHOCK (Client 2): Inflammatory cytokines and nitric oxide induce widespread peripheral vasodilation (profoundly low SVR/afterload). Blood pools peripherally, making skin warm, flushed, and bounding early on (hyperdynamic warm shock), with low filling pressures (low CVP/PCWP). Why the other options fail: option b makes client 1 obstructive, but tamponade raises filling pressures on both sides and does not give the warm low-resistance profile of client 2. Option c calls both hypovolaemic, which cannot explain a warm vasodilated client. Option d puts client 2 in neurogenic shock, which gives bradycardia and warm skin without the low resistance described.",
+      "Shock is classified into distinct hemodynamic profiles based on Cardiac Output (CO), Preload (CVP/PCWP), and Afterload (SVR): 1) CARDIOGENIC SHOCK (Client 1): Primary myocardial pump failure (e.g., massive anterior MI). Stroke volume plummets (low CI), blood backs up into the pulmonary circulation (elevated PCWP) and systemic venous circulation (elevated CVP/JVD), and sympathetic compensatory reflex vasoconstricts peripheral arterioles (high SVR), causing cold, clammy, cyanotic extremities; 2) DISTRIBUTIVE / SEPTIC SHOCK (Client 2): Inflammatory cytokines and nitric oxide induce widespread peripheral vasodilation (profoundly low SVR/afterload). Blood pools peripherally, making skin warm, flushed, and bounding early on (hyperdynamic warm shock), with low filling pressures (low CVP/PCWP). Why the other options fail: Making client 1 obstructive ignores the raised filling pressures on both sides and the warm low-resistance findings in client 2; calling both hypovolaemic cannot explain a warm flushed periphery with low filling pressures; a cold septic phase does not give the warm bounding profile described, and neurogenic shock gives bradycardia rather than the tachycardia that is present.",
     strategy: "Hemodynamic profiles: Cardiogenic = pump failure -> high preload (PCWP/JVD), low CO, high SVR (cold/clammy). Distributive/Septic = vasodilation -> low SVR, low preload, warm/flushed peripheries.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "cardiogenic-shock", "septic-shock", "hemodynamic-profiles", "systemic-vascular-resistance"],
