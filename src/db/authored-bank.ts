@@ -3143,23 +3143,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "The kidney stores iron for red cell production"
+    "text": "The kidney stores iron that is needed for red cell production"
    },
    {
     "id": "b",
-    "text": "The kidney manufactures haemoglobin directly"
+    "text": "The kidney manufactures haemoglobin directly from stored iron"
    },
    {
     "id": "c",
-    "text": "The kidney filters out damaged red blood cells"
+    "text": "The kidney filters out damaged red cells from the circulation"
    },
    {
     "id": "d",
-    "text": "The kidney produces erythropoietin, which stimulates red cell production in bone marrow"
+    "text": "The kidney produces erythropoietin to stimulate red cells"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"The kidney produces erythropoietin, which stimulates red cell production in bone marrow\". Besides excreting waste, the kidney produces <strong>erythropoietin</strong> in response to low tissue oxygen, and this hormone stimulates the bone marrow to produce red cells. In chronic kidney disease, erythropoietin production falls and anaemia develops that does not respond to iron alone. The kidney also activates vitamin D and helps regulate blood pressure.\n\nWhy the other options fail:\n• A — Iron is stored mainly in the liver, spleen and bone marrow as ferritin, not in the kidney.\n• B — Haemoglobin is synthesised within developing red cells in bone marrow, not by the kidney.\n• C — Aged and damaged red cells are removed by the spleen and liver.\n\nReference: Ghana STG — chronic kidney disease",
+  "rationale": "CORRECT (D) — \"The kidney produces erythropoietin to stimulate red cells\". Besides excreting waste, the kidney produces <strong>erythropoietin</strong> in response to low tissue oxygen, and this hormone stimulates the bone marrow to produce red cells. In chronic kidney disease, erythropoietin production falls and anaemia develops that does not respond to iron alone. The kidney also activates vitamin D and helps regulate blood pressure.\n\nWhy the other options fail:\n• A — Iron is stored mainly in the liver, spleen and bone marrow as ferritin, not in the kidney.\n• B — Haemoglobin is synthesised within developing red cells in bone marrow, not by the kidney.\n• C — Aged and damaged red cells are removed by the spleen and liver.\n\nReference: Ghana STG — chronic kidney disease",
   "strategy": "Remember the kidney does more than make urine. It produces erythropoietin, activates vitamin D, and regulates blood pressure through renin. These explain the anaemia, bone disease and hypertension of chronic kidney disease.",
   "difficulty": "medium",
   "tags": [
@@ -5402,23 +5402,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "The test should be sent immediately without any further consideration"
+    "text": "The test should be sent immediately, without any further consideration at all"
    },
    {
     "id": "b",
-    "text": "Testing may proceed only where it is necessary for the patient's own care, with confidentiality maintained and counselling given when able"
+    "text": "Testing may proceed only where it is necessary for the patient's own care"
    },
    {
     "id": "c",
-    "text": "The patient's relatives may consent on his behalf in all circumstances"
+    "text": "The patient's relatives may consent on his behalf in all circumstances whatsoever"
    },
    {
     "id": "d",
-    "text": "HIV testing is never permitted without the patient's written signature"
+    "text": "HIV testing is never permitted without the patient's own written signature"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Testing may proceed only where it is necessary for the patient's own care, with confidentiality maintained and counselling given when able\". HIV testing normally requires <strong>informed consent with pre- and post-test counselling</strong>. Where a patient lacks capacity and the result is necessary for their immediate care, testing may proceed in their best interests, with <strong>strict confidentiality</strong> and counselling provided once capacity returns. Results are never disclosed to relatives or staff without justification.\n\nWhy the other options fail:\n• A — Testing without consideration of consent, confidentiality and clinical necessity breaches both ethical and legal standards.\n• C — Relatives cannot generally consent for an adult. Decisions are made in the patient's best interests by the clinical team.\n• D — An absolute rule would prevent testing that is genuinely necessary to treat an unconscious patient.\n\nReference: Ghana AIDS Commission; NMC Ghana Code of Conduct and Ethics",
+  "rationale": "CORRECT (B) — \"Testing may proceed only where it is necessary for the patient's own care\". HIV testing normally requires <strong>informed consent with pre- and post-test counselling</strong>. Where a patient lacks capacity and the result is necessary for their immediate care, testing may proceed in their best interests, with <strong>strict confidentiality</strong> and counselling provided once capacity returns. Results are never disclosed to relatives or staff without justification.\n\nWhy the other options fail:\n• A — Testing without consideration of consent, confidentiality and clinical necessity breaches both ethical and legal standards.\n• C — Relatives cannot generally consent for an adult. Decisions are made in the patient's best interests by the clinical team.\n• D — An absolute rule would prevent testing that is genuinely necessary to treat an unconscious patient.\n\nReference: Ghana AIDS Commission; NMC Ghana Code of Conduct and Ethics",
   "strategy": "For any sensitive test, three principles apply: consent where possible, best interests where not, and confidentiality always. HIV testing carries additional stigma, so confidentiality is especially strict.",
   "difficulty": "medium",
   "tags": [
@@ -24460,7 +24460,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     },
     {
       "id": "b",
-      "text": "Marketing is the whole approach to meeting client needs profitably; advertising is just the paid messages that tell people about it"
+      "text": "Marketing is the whole approach; advertising is one paid part of it"
     },
     {
       "id": "c",

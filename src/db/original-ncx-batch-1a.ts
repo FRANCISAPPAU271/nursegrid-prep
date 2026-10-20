@@ -208,10 +208,10 @@ export const NCX_PART_A: AuthoredQuestion[] = [
     n: 11, cat: "mental-health",
     stem: "A man with a long history of schizophrenia and poor control shouts insults and obscenities at the nurse during morning care. Which response is **best**?",
     choices: [
-      "Remain calm, finish the care without reacting to the language, and understand the behaviour as a symptom of his illness",
-      "Tell him firmly that he must apologise before any care continues",
-      "Ignore him completely and ask another nurse to take over",
+      "Remain calm, finish the care and treat the words as a symptom",
+      "Ignore him completely and ask another nurse to take over the care",
       "Warn him that his privileges will be withdrawn if he continues",
+      "Tell him firmly that he must apologise before any care continues",
     ],
     correct: "a",
     explain: "Hostile language in psychosis is usually driven by <strong>fear, paranoia or disorganised thinking</strong>, not personal dislike. A <strong>calm, non-reactive, respectful</strong> approach keeps the situation from escalating, preserves the therapeutic relationship and models self-control. Clear limits are set only for behaviour that threatens safety.",

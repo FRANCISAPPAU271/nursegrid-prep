@@ -348,10 +348,10 @@ export const NCX2_PART_C: AuthoredQuestion[] = [
     n: 132, cat: "maternal-newborn",
     stem: "At her first antenatal visit a woman at 9 weeks says, \"I have been so nauseated every morning and I don't understand why.\" Which response by the nurse is **best**?",
     choices: [
-      "\"Early-pregnancy nausea is caused by the rise in pregnancy hormones such as hCG and oestrogen; it usually eases after the first three months\"",
-      "\"It is only because you are so tired at the moment and not sleeping well\"",
-      "\"Your body is burning energy much faster now, and that upsets the stomach\"",
+      "\"Nausea is caused by the pregnancy hormones and eases after three months\"",
       "\"If you change the kinds of food you eat, the nausea will go away completely\"",
+      "\"Your body is burning energy much faster now, and that upsets the stomach\"",
+      "\"It is only because you are so tired at the moment and not sleeping well\"",
     ],
     correct: "a",
     explain: "Nausea and vomiting of early pregnancy track the <strong>rapid rise in human chorionic gonadotrophin and oestrogen</strong>, peaking at 8–12 weeks and usually settling by 14–16 weeks. Giving the real cause reassures her, and the nurse adds practical measures — dry biscuit before rising, small frequent meals, avoiding fatty or strong-smelling foods — and the warning signs of hyperemesis.",

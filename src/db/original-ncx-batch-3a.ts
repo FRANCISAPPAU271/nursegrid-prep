@@ -103,10 +103,10 @@ export const NCX3_PART_A: AuthoredQuestion[] = [
     n: 156, cat: "leadership-delegation",
     stem: "A patient tells the nurse, \"The night nurse was rough with me and shouted when I asked for a bedpan.\" Which is the **most appropriate** response by the nurse?",
     choices: [
-      "Listen to the patient's account, document it factually, and report it to the nurse in charge according to the hospital's incident procedure",
-      "Tell the patient that the night nurse is always tired and did not mean it",
-      "Promise the patient that the night nurse will never care for him again",
+      "Listen, record it factually and report it to the nurse in charge",
       "Confront the night nurse at the next handover in front of the team",
+      "Promise the patient that the night nurse will never care for him again",
+      "Tell the patient that the night nurse is always tired and did not mean it",
     ],
     correct: "a",
     explain: "An allegation of rough handling and verbal abuse is a <strong>safeguarding and professional-conduct concern</strong>. The nurse's duty is to <strong>take it seriously, record exactly what was said, and escalate through the proper channel</strong> so that it can be investigated fairly; the patient is told what will happen next.",

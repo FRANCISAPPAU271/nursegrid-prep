@@ -318,9 +318,9 @@ export const NCX3_PART_E: AuthoredQuestion[] = [
     n: 247, cat: "risk-reduction", difficulty: "hard",
     stem: "A woman is receiving a unit of packed red cells. Fifteen minutes after it starts she complains of lower back pain, chills and a feeling of dread; her temperature has risen by 1.5 °C and her pulse is 120 beats per minute. After **stopping the transfusion**, which action should the nurse take next?",
     choices: [
-      "Keep the vein open with a new giving set and 0.9 % sodium chloride, recheck the patient's identity against the blood unit, and notify the doctor and the blood bank",
-      "Slow the transfusion to 10 drops per minute and observe for another 15 minutes",
+      "Keep the vein open with saline through a new set and call the doctor and blood bank",
       "Give the prescribed paracetamol and continue the transfusion through the same set",
+      "Slow the transfusion to 10 drops per minute and observe for another 15 minutes",
       "Disconnect the cannula and discard the blood unit and giving set in the clinical waste",
     ],
     correct: "a",

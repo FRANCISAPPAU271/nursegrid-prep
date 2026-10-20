@@ -269,9 +269,9 @@ export const NCX6_PART_C: AuthoredQuestion[] = [
     stem: "After **IM pethidine for renal colic**, which symptom is **most important** to hand over?",
     choices: [
       "Change in the location and character of the pain",
-      "Nausea with a small vomit",
-      "Pain rated five out of ten",
-      "No known drug allergies",
+      "Pain rated five out of ten at the site of the stone",
+      "Nausea with a single small vomit after the injection",
+      "No known drug allergies recorded on the chart",
     ],
     correct: "a",
     explain: "<strong>Migrating stone pain maps the stone's journey</strong> — flank-to-groin shifts or colic-to-constant changes reveal movement, obstruction or complications the next shift must track. Nausea commonly shadows colic, a five rates routine, and allergy status (though vital) is already charted baseline.",
