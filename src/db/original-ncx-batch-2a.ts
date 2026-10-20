@@ -62,7 +62,7 @@ export const NCX2_PART_A: AuthoredQuestion[] = [
   q({
     n: 79, cat: "pharmacology-parenteral",
     stem: "A woman with recurrent urinary tract infections is prescribed methenamine hippurate for long-term prophylaxis. Which drink should the nurse advise her to **limit**?",
-    choices: ["Milk and other alkalinising drinks", "Water", "Unsweetened fruit juice", "Plain tea"],
+    choices: ["Milk and other alkalinising drinks", "Water, because a high fluid intake dilutes the drug", "Unsweetened fruit juice, which acidifies the urine further", "Plain tea, because the caffeine it contains alkalinises the urine"],
     correct: "a",
     explain: "Methenamine works only in <strong>acidic urine</strong>, where it releases formaldehyde that suppresses bacterial growth. <strong>Alkaline urine inactivates it</strong>, so large amounts of milk, antacids and sodium bicarbonate are avoided, while cranberry juice and vitamin C help by acidifying the urine.",
     others: {
@@ -179,9 +179,9 @@ export const NCX2_PART_A: AuthoredQuestion[] = [
     stem: "Haloperidol 5 mg intramuscularly is given to a young man for acute agitation in the emergency department. For which **two adverse effects** should the nurse monitor him over the following hours?",
     choices: [
       "Acute dystonic reactions such as neck twisting or eyes rolling upward, and neuroleptic malignant syndrome with fever and rigidity",
-      "Hearing loss and an unsteady gait",
-      "Nystagmus and inability to look upward that persists for weeks",
-      "Loss of consciousness and increasing confusion",
+      "Hearing loss and an unsteady, staggering gait that develops over hours",
+      "Nystagmus and inability to look upward, which persist for several weeks afterwards",
+      "Loss of consciousness with increasing confusion and a fluctuating level of alertness",
     ],
     correct: "a",
     explain: "Haloperidol is a potent dopamine blocker. <strong>Acute dystonia</strong> — torticollis, oculogyric crisis, laryngeal spasm — can appear within hours, especially in young men, and is treated with an anticholinergic such as benzhexol or IM procyclidine. <strong>Neuroleptic malignant syndrome</strong> (hyperthermia, muscle rigidity, autonomic instability, confusion) is rare but life-threatening. QT prolongation is a further reason to monitor the pulse.",
@@ -199,9 +199,9 @@ export const NCX2_PART_A: AuthoredQuestion[] = [
     stem: "A woman is scheduled for an MRI scan of her lumbar spine. Which statement shows that the nurse's teaching has been **effective**?",
     choices: [
       "\"I will lie still inside a narrow tunnel for about 30 to 45 minutes; it is very noisy but it doesn't hurt, and I must remove all metal, including my earrings and hair clips\"",
-      "\"The dye they inject will turn my urine green for a day\"",
-      "\"I will be put to sleep and will wake up back on the ward in two hours\"",
-      "\"The wires they stick on my head and chest won't cause any pain\"",
+      "\"The dye they inject will turn my urine green for about a day afterwards, which is harmless and expected\"",
+      "\"I will be put to sleep for the scan and will wake up back on the ward about two hours later, with no memory of it\"",
+      "\"The wires they stick on my head and chest will not cause any pain during the scan, because they only record activity\"",
     ],
     correct: "a",
     explain: "MRI uses a <strong>powerful magnet and radio waves</strong>, not X-rays. The patient lies still in a tunnel for 30–60 minutes while the machine knocks loudly; it is painless. <strong>All metal must be removed</strong>, and pacemakers, cochlear implants, some aneurysm clips and metal fragments are contraindications. Claustrophobic patients may need a mild sedative.",
@@ -279,9 +279,9 @@ export const NCX2_PART_A: AuthoredQuestion[] = [
     stem: "A nurse assesses orientation in an 82-year-old woman admitted last night. Which principle should guide the nurse's interpretation of the findings?",
     choices: [
       "The stress of an unfamiliar environment can itself cause confusion in an older person, so disorientation on admission does not necessarily indicate dementia",
-      "Decline in mental status is a normal part of ageing",
-      "Short-term memory is more efficient than long-term memory in older adults",
-      "Older people cannot learn new information while in hospital",
+      "A decline in mental status is a normal and expected part of ageing, especially after the age of eighty",
+      "Short-term memory is more efficient than long-term memory in older adults, so recent events are recalled better",
+      "Older people cannot learn new information while they are in hospital, because the environment is unfamiliar",
     ],
     correct: "a",
     explain: "Admission removes an older person's familiar cues, routine and sleep, and often adds illness, pain, dehydration and new drugs — all triggers of <strong>delirium</strong>, an acute, fluctuating and reversible confusion. Baseline function from family, repeated assessment, reorientation and treating causes distinguish it from dementia.",

@@ -116122,11 +116122,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Forms gallstones directly"
+   "text": "Forms gallstones directly in the gallbladder and common bile duct"
   },
   {
    "id": "b",
-   "text": "Stimulates insulin until it is depleted"
+   "text": "Stimulates insulin secretion until the beta cells are depleted"
   },
   {
    "id": "c",
@@ -116134,7 +116134,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Prevents all pancreatic secretions"
+   "text": "Prevents all pancreatic secretions from leaving the gland, so that they digest it"
   }
  ],
  "correctChoiceId": "c",
@@ -118442,15 +118442,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     },
     {
       "id": "b",
-      "text": "Pull firmly on the cord to complete the delivery"
+      "text": "Pull firmly on the cord to complete the delivery of the placenta"
     },
     {
       "id": "c",
-      "text": "Give an oxytocic before the uterus is replaced"
+      "text": "Give an oxytocic first, so that the uterus contracts before it is replaced"
     },
     {
       "id": "d",
-      "text": "Ask her to push to expel the mass"
+      "text": "Ask her to push down to expel the mass that is at the introitus"
     }
   ],
   "correctChoiceId": "a",

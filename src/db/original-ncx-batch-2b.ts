@@ -9,9 +9,9 @@ export const NCX2_PART_B: AuthoredQuestion[] = [
     stem: "A nurse plans the day for a woman admitted with myasthenia gravis. Which consideration is **most important**?",
     choices: [
       "Schedule bathing, physiotherapy and meals early in the day or after rest, because her muscle weakness worsens with activity as the day goes on",
-      "Protect her from falls caused by vertigo",
-      "Restrict her fluids to maintain electrolyte balance",
-      "Avoid activities that could raise her intracranial pressure",
+      "Protect her from falls caused by vertigo, keeping the bed low and the call bell within reach",
+      "Restrict her fluids to about a litre a day, so that the electrolyte balance is not disturbed",
+      "Avoid anything that could raise her intracranial pressure, such as coughing or straining at stool",
     ],
     correct: "a",
     explain: "In myasthenia gravis, antibodies block acetylcholine receptors, so <strong>muscle strength fades with repeated use and recovers with rest</strong>. Patients are strongest in the morning and after medication. Planning energy-demanding care around those times, and watching swallowing and breathing late in the day, prevents exhaustion and aspiration.",

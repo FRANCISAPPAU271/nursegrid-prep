@@ -109,9 +109,9 @@ export const NCX7_PART_C: AuthoredQuestion[] = [
     stem: "To **facilitate breathing** in a client with **broken ribs**, which position is **best**?",
     choices: [
       "High Fowler's",
-      "Supine",
-      "Prone",
-      "Sims",
+      "Supine, lying flat on the back with a small pillow",
+      "Prone, lying on the front with the head turned to one side",
+      "Sims, lying on the side with the upper knee drawn up",
     ],
     correct: "a",
     explain: "<strong>Upright chests splint least and expand most</strong> — high Fowler's drops the diaphragm off fractured ribs, while supine, prone and Sims each press pain against breathing. Sat high; breathed deep.",

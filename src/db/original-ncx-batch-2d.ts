@@ -289,9 +289,9 @@ export const NCX2_PART_D: AuthoredQuestion[] = [
     stem: "A man admitted with gastroenteritis has passed only 90 mL of urine in six hours. The doctor orders a fluid challenge of 500 mL normal saline over 30 minutes. The nurse understands that the **purpose** of the challenge is to:",
     choices: [
       "Find out whether the low urine output is due to dehydration — in which case output will rise — rather than to established kidney injury",
-      "Dilute the waste products that have built up in his blood",
-      "Move fluid from the blood vessels into the cells",
-      "Raise his cardiac output permanently",
+      "Dilute the waste products that have accumulated in his blood while his kidneys have been underperfused",
+      "Move fluid out of the blood vessels and into the cells, so that cellular dehydration is corrected",
+      "Raise his cardiac output on a permanent basis by increasing the circulating blood volume",
     ],
     correct: "a",
     explain: "Oliguria after fluid loss is most often <strong>pre-renal</strong>: the kidneys are healthy but under-perfused. If a rapid bolus produces a <strong>rise in urine output</strong>, the cause was hypovolaemia and fluids continue. If output stays low, <strong>intrinsic acute kidney injury</strong> is likely and further fluid risks overload; the nurse watches for breathlessness and crackles during and after the challenge.",
