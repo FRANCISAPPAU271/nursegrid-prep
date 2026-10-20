@@ -28,10 +28,10 @@ export const NCX2_PART_B: AuthoredQuestion[] = [
     n: 96, cat: "gerontology-community", difficulty: "hard",
     stem: "A community health nurse plans her home visits for the morning. Which client should she see **first**?",
     choices: [
-      "An elderly man with heart failure who finished his furosemide tablets four days ago and is now coughing up pink, frothy sputum",
-      "A mother breastfeeding her 2-day-old baby born at 38 weeks",
+      "A man with heart failure, off furosemide, now coughing pink froth",
+      "A mother breastfeeding her two-day-old baby, born at 38 weeks",
+      "An elderly woman discharged three days ago after pneumonia treatment",
       "A man discharged yesterday on rivaroxaban after a deep vein thrombosis",
-      "An elderly woman discharged three days ago after treatment for pneumonia",
     ],
     correct: "a",
     explain: "Pink frothy sputum in a heart-failure patient who has stopped his diuretic indicates <strong>acute pulmonary oedema</strong> — an airway and breathing emergency that will progress to respiratory failure. He needs to be seen immediately, sat upright and transferred to hospital for oxygen and intravenous diuretics.",

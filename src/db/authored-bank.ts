@@ -2146,23 +2146,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Assess the scene for danger and make it safe before approaching"
+    "text": "Assess the scene for danger and make it safe first"
    },
    {
     "id": "b",
-    "text": "Check whether the man is breathing"
+    "text": "Check whether the man is breathing and has a pulse"
    },
    {
     "id": "c",
-    "text": "Begin chest compressions immediately"
+    "text": "Begin chest compressions immediately where he lies"
    },
    {
     "id": "d",
-    "text": "Turn him into the recovery position"
+    "text": "Turn him into the recovery position on the road"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Assess the scene for danger and make it safe before approaching\". Every first aid sequence begins with <strong>danger</strong>. A rescuer who is struck by a vehicle becomes a second casualty and removes the only help available. Making the scene safe — stopping or diverting traffic, using warning triangles, engaging bystanders — takes seconds and must precede any patient contact.\n\nWhy the other options fail:\n• B — Checking breathing requires approaching the casualty, which is unsafe while traffic is still moving. Assessment follows scene safety.\n• C — Compressions may well be needed, but starting them in a live traffic lane endangers both people. Response and breathing have not been assessed either.\n• D — The recovery position is for an unresponsive casualty who is breathing normally, which has not been established, and it still requires safe approach.\n\nReference: Ghana National Ambulance Service — first aid guidance",
+  "rationale": "CORRECT (A) — \"Assess the scene for danger and make it safe first\". Every first aid sequence begins with <strong>danger</strong>. A rescuer who is struck by a vehicle becomes a second casualty and removes the only help available. Making the scene safe — stopping or diverting traffic, using warning triangles, engaging bystanders — takes seconds and must precede any patient contact.\n\nWhy the other options fail:\n• B — Checking breathing requires approaching the casualty, which is unsafe while traffic is still moving. Assessment follows scene safety.\n• C — Compressions may well be needed, but starting them in a live traffic lane endangers both people. Response and breathing have not been assessed either.\n• D — The recovery position is for an unresponsive casualty who is breathing normally, which has not been established, and it still requires safe approach.\n\nReference: Ghana National Ambulance Service — first aid guidance",
   "strategy": "Danger, Response, Shout, Airway, Breathing, Circulation — in that order, every time. The commonest error in emergency questions is skipping straight to treatment. If an option involves touching the casualty before the scene is safe, it is wrong.",
   "difficulty": "medium",
   "tags": [
@@ -45925,28 +45925,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PRC-1341",
   "categorySlug": "fundamentals",
-  "stem": "In which position should a patient be placed for administration of an enema?",
+  "stem": "How far should the nozzle of an enema be inserted into the rectum of an adult?",
   "choices": [
    {
     "id": "a",
-    "text": "Supine with both legs extended flat on the bed"
+    "text": "Just inside the anal margin, about two centimetres"
    },
    {
     "id": "b",
-    "text": "Left lateral with the knees drawn towards the abdomen"
+    "text": "Seven to ten centimetres, aimed towards the umbilicus"
    },
    {
     "id": "c",
-    "text": "Sitting upright with the feet resting on the floor"
+    "text": "Fifteen to twenty centimetres, into the sigmoid colon"
    },
    {
     "id": "d",
-    "text": "Prone with a pillow placed beneath the abdomen"
+    "text": "Only until resistance is felt, whatever the depth"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Left lateral with the knees drawn towards the abdomen\". The <strong>sigmoid colon lies on the left</strong>, so lying on the left side lets the fluid flow along the natural course of the bowel with gravity rather than against it, which improves retention and reduces cramping. Flexing the knees relaxes the abdominal wall and gives access to the anus. This is the same reason the left lateral or Sims position is used for suppositories, rectal examination and proctoscopy.\n\nWhy the other options fail:\n• A — Supine gives poor access and does not use gravity to help the fluid travel.\n• C — Sitting encourages immediate expulsion before the fluid can act.\n• D — Prone positioning is uncomfortable and offers no anatomical advantage here.\n\nReference: Ghana nursing curriculum — RGN 209 procedures",
-  "strategy": "Ask which way the anatomy runs, then lie the patient so gravity works with it.",
+  "rationale": "CORRECT (B) — \"Seven to ten centimetres, aimed towards the umbilicus\". The nozzle is passed <strong>past the anal canal and the internal sphincter into the rectum</strong>, roughly seven to ten centimetres in an adult, and directed slightly anteriorly along the line of the rectum towards the umbilicus. That places the fluid where it can be retained and run into the colon, without trauma to the rectal wall.\n\nWhy the other options fail:\n• A — Two centimetres leaves the tip in the anal canal, where the fluid runs straight back out.\n• C — Pushing to fifteen centimetres or more risks perforating the rectum, which curves at the rectosigmoid junction.\n• D — Resistance means the tip is against the wall or a stricture; forcing past it is how perforation happens.\n\nReference: Ghana nursing curriculum — bowel care procedures; RGN 207",
+  "strategy": "Past the sphincter, not past the bend: seven to ten centimetres, angled to the umbilicus.",
   "difficulty": "hard",
   "tags": [
    "fundamentals",
@@ -46677,28 +46677,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PRC-1363",
   "categorySlug": "fundamentals",
-  "stem": "Where should a urinary drainage bag be positioned in relation to the patient's bladder?",
+  "stem": "At what temperature should the water be for syringing a patient's ear?",
   "choices": [
    {
     "id": "a",
-    "text": "Above bladder level so that the tubing remains fully visible"
+    "text": "Cold, straight from the tap, to numb the canal"
    },
    {
     "id": "b",
-    "text": "On the floor beside the bed where it is out of the way"
+    "text": "As hot as the patient can comfortably tolerate"
    },
    {
     "id": "c",
-    "text": "Below bladder level and off the floor, on a stand or hanger"
+    "text": "At body temperature, around thirty-seven degrees"
    },
    {
     "id": "d",
-    "text": "At the same height as the bladder to equalise the pressure"
+    "text": "At room temperature, whatever the clinic happens to be"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Below bladder level and off the floor, on a stand or hanger\". Drainage relies on gravity, so a bag placed above the bladder allows <strong>contaminated urine to flow back into it</strong>, which is a direct cause of infection. A bag on the floor becomes contaminated from the floor itself and is easily kicked or dragged. Below the bladder and off the floor satisfies both requirements at once. The same principle applies during transfers: <strong>never let the bag rise above the patient, even briefly</strong>.\n\nWhy the other options fail:\n• A — Raising the bag allows reflux of contaminated urine into the bladder.\n• B — Floor contact contaminates the outlet and risks the bag being kicked or dragged.\n• D — Level positioning stops drainage and permits reflux with any movement.\n\nReference: Ghana nursing curriculum — RGN 209 procedures",
-  "strategy": "Gravity should always be draining away from the patient, including during transfers.",
+  "rationale": "CORRECT (C) — \"At body temperature, around thirty-seven degrees\". The inner ear carries the <strong>vestibular apparatus</strong>, and fluid far from body temperature sets up convection currents in the semicircular canals. Cold or hot water therefore produces vertigo, nausea and nystagmus in a patient already having his ear syringed. Water at about thirty-seven degrees is neither a caloric stimulus nor a burn, and it dissolves wax without shocking the canal.\n\nWhy the other options fail:\n• A — Cold water is the standard caloric test stimulus; it makes the patient violently dizzy.\n• B — Hot water scalds the canal and irritates the drum, and it is a stronger vestibular stimulus still.\n• D — Room temperature is well below body heat in most clinics, so it produces the same vertigo.\n\nReference: Ghana nursing curriculum — ear care; RGN 207",
+  "strategy": "Match the body. Anything colder or hotter turns a syringing into a caloric test.",
   "difficulty": "medium",
   "tags": [
    "fundamentals",
@@ -46711,28 +46711,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PRC-1364",
   "categorySlug": "fundamentals",
-  "stem": "In what position should a patient be placed during and after nasogastric feeding?",
+  "stem": "A patient with a tracheostomy is awake, breathing quietly and clearing his own secretions. When should the nurse suction him?",
   "choices": [
    {
     "id": "a",
-    "text": "Lying flat during the feed so the stomach fills more evenly"
+    "text": "At the start of every shift, whether or not he needs it"
    },
    {
     "id": "b",
-    "text": "Turned onto the left side throughout the feeding period"
+    "text": "Every hour through the day and every two hours at night"
    },
    {
     "id": "c",
-    "text": "Sitting up at thirty to forty-five degrees for the feed and afterwards"
+    "text": "Only when secretions are audible or he cannot clear them"
    },
    {
     "id": "d",
-    "text": "Positioned head down to encourage the feed to enter the stomach"
+    "text": "After every meal and every drink he takes during the day"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Sitting up at thirty to forty-five degrees for the feed and afterwards\". Aspiration is the major hazard of enteral feeding, and it happens most easily when the patient is flat, because there is nothing to keep gastric contents down. Elevation uses gravity to keep the feed in the stomach and must be <strong>maintained for at least thirty minutes to an hour after the feed ends</strong>, since regurgitation frequently occurs after rather than during. Head-down positioning during feeding is a direct route to aspiration pneumonia.\n\nWhy the other options fail:\n• A — Lying flat allows gastric contents to reflux towards the pharynx.\n• B — Side lying does not provide the elevation needed to prevent reflux.\n• D — Head-down tipping actively encourages aspiration of the feed.\n\nReference: Ghana nursing curriculum — RGN 209 procedures",
-  "strategy": "Anything entering the stomach should be kept there by gravity, during and after.",
+  "rationale": "CORRECT (C) — \"Only when secretions are audible or he cannot clear them\". Suction is a <strong>procedure with its own harms</strong> — it strips oxygen, traumatises mucosa and carries organisms down the airway — so it is done for an indication, not to a timetable. Audible or visible secretions, a bubbling stoma, a rising respiratory rate or a patient who cannot cough effectively are the indications. A patient who is breathing quietly and clearing his own secretions needs observation and humidification, not a catheter.\n\nWhy the other options fail:\n• A — Routine suctioning at handover finds nothing in most patients and causes harm in some.\n• B — A fixed hourly schedule ignores the patient in front of the nurse and is the habit that damages the airway.\n• D — Suctioning after every meal and drink interrupts rest, and swallowing does not fill the airway.\n\nReference: Ghana nursing curriculum — airway care; NMC Ghana Code of Conduct",
+  "strategy": "Suction for a reason you can hear. A quiet chest and a good cough are the reason not to.",
   "difficulty": "medium",
   "tags": [
    "fundamentals",
@@ -47051,28 +47051,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PRC-1374",
   "categorySlug": "fundamentals",
-  "stem": "A patient has an external fixator with skeletal pins. Which finding requires urgent reporting?",
+  "stem": "A nurse cleans a sutured abdominal wound. How should the swab be moved?",
   "choices": [
    {
     "id": "a",
-    "text": "A small amount of clear serous ooze at one pin site"
+    "text": "Back and forth across the incision, using one swab throughout"
    },
    {
     "id": "b",
-    "text": "Mild redness confined to the skin immediately at the pin"
+    "text": "In circles over the wound, working from the drainage site inwards"
    },
    {
     "id": "c",
-    "text": "Slight discomfort when the limb is moved during exercises"
+    "text": "From the outer edge inwards, finishing at the centre of the wound"
    },
    {
     "id": "d",
-    "text": "Purulent discharge with increasing pain around a pin site"
+    "text": "From the clean part outwards, using a new swab for each stroke"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Purulent discharge with increasing pain around a pin site\". Pins pass through skin directly into bone, so a pin site infection has <strong>an uninterrupted route to osteomyelitis</strong>, which is difficult to treat and may require removal of the fixator. Purulent discharge with increasing pain is infection, not irritation. Small amounts of clear serous ooze and slight redness at the interface are expected. The threshold for reporting is deliberately low precisely because <strong>the consequence of missing it involves bone</strong>.\n\nWhy the other options fail:\n• A — A small serous ooze is a normal tissue response at a pin interface.\n• B — Minor localised redness without discharge or pain is expected.\n• C — Some discomfort on movement is usual with an external fixator in place.\n\nReference: Ghana nursing curriculum — RGN 209 procedures",
-  "strategy": "When a device reaches bone, treat any sign of infection as a bone problem.",
+  "rationale": "CORRECT (D) — \"From the clean part outwards, using a new swab for each stroke\". Cleaning moves from <strong>the least contaminated area to the most contaminated</strong>: from the incision outwards, and from a clean wound towards a drain site rather than the other way about. A fresh swab for each stroke means organisms lifted on the first pass are not carried back to the wound, which is the whole point of cleaning rather than wiping.\n\nWhy the other options fail:\n• A — One swab dragged back and forth returns the organisms it has just picked up.\n• B — Working inwards from a drain site carries the heaviest contamination into the wound.\n• C — Finishing at the centre puts the dirtiest stroke last, on the part that must stay cleanest.\n\nReference: Ghana IPC guidelines — wound care; Ghana nursing curriculum",
+  "strategy": "Clean to dirty, one stroke per swab. Never carry the far end back to the near end.",
   "difficulty": "hard",
   "tags": [
    "fundamentals",
@@ -47187,28 +47187,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PRC-1378",
   "categorySlug": "fundamentals",
-  "stem": "A head-injured patient develops one dilated pupil that reacts sluggishly to light. What does this indicate?",
+  "stem": "A patient's nasogastric tube is to be removed. What should the nurse ask him to do while the tube is being withdrawn?",
   "choices": [
    {
     "id": "a",
-    "text": "Rising intracranial pressure compressing the third cranial nerve"
+    "text": "Take a deep breath and hold it as the tube comes out"
    },
    {
     "id": "b",
-    "text": "A normal variation present in a proportion of healthy people"
+    "text": "Swallow repeatedly so the tube does not catch on the way"
    },
    {
     "id": "c",
-    "text": "Direct injury to the surface of the eye on that same side"
+    "text": "Cough as hard as possible through the whole procedure"
    },
    {
     "id": "d",
-    "text": "The expected effect of the analgesia the patient received"
+    "text": "Sip water slowly while the tube is being pulled out"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Rising intracranial pressure compressing the third cranial nerve\". A new unilateral dilated sluggish pupil in a head-injured patient means <strong>the third cranial nerve is being compressed by a shifting brain</strong>, and it is a late and ominous sign of raised intracranial pressure. It demands immediate escalation. Opioids cause <strong>bilateral small</strong> pupils, and a small proportion of people have long-standing unequal pupils that <strong>react normally</strong> — the crucial features here are that it is new, one-sided and poorly reactive.\n\nWhy the other options fail:\n• B — Physiological anisocoria involves pupils that both react briskly and is long-standing.\n• C — Surface eye injury does not typically produce a sluggishly reacting dilated pupil.\n• D — Opioid analgesia constricts both pupils rather than dilating one.\n\nReference: Ghana nursing curriculum — RGN 209 procedures",
-  "strategy": "Compare the pupil with its pair and with the last recording. New and unequal is the alarm.",
+  "rationale": "CORRECT (A) — \"Take a deep breath and hold it as the tube comes out\". Holding the breath after a deep inspiration <strong>closes the glottis</strong>, so the tube passes through the pharynx without anything being drawn into the airway, and the patient cannot swallow against it as it comes up. The tube is pinched or clamped and withdrawn steadily in one movement, and any residual fluid is cleared afterwards. Swallowing, coughing and drinking all put the patient at risk of aspirating at the moment the tube leaves the pharynx.\n\nWhy the other options fail:\n• B — Swallowing closes the pharynx around the tube and can drag it, and the reflex invites inhalation.\n• C — Coughing on a tube that is being pulled stimulates gagging and vomiting, not clearance.\n• D — Fluid given while a tube is being withdrawn is exactly what gets aspirated.\n\nReference: Ghana nursing curriculum — nasogastric procedures; RGN 207",
+  "strategy": "Deep breath, hold it, pull once. Anything the patient swallows on the way out can go the wrong way.",
   "difficulty": "hard",
   "tags": [
    "fundamentals",
@@ -84437,23 +84437,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Maternal temperature every four hours"
+    "text": "Maternal temperature, taken every four hours through the day"
    },
    {
     "id": "b",
-    "text": "Maternal blood pressure and foetal heart rate at frequent intervals"
+    "text": "Blood pressure and foetal heart rate, checked frequently"
    },
    {
     "id": "c",
-    "text": "Daily weight to detect fluid retention"
+    "text": "Daily weight, to detect any fluid retention developing"
    },
    {
     "id": "d",
-    "text": "Urine specific gravity once a shift"
+    "text": "Urine specific gravity, measured once in every shift"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Maternal blood pressure and foetal heart rate at frequent intervals\". Hydralazine lowers blood pressure by direct arteriolar dilation and can do so abruptly. An excessive fall reduces placental perfusion, so the foetus can be compromised by the very treatment given to protect the pregnancy, which is why maternal blood pressure and the foetal heart rate are monitored together and frequently. The aim is controlled reduction to a safe range rather than normalisation. Maternal tachycardia, headache and flushing are expected effects of the vasodilation. The principle is that in obstetric care every maternal intervention has a foetal consequence, so both must be monitored.\n\nWhy the other options fail:\n• A — Temperature is a routine observation and is not the parameter at risk from acute vasodilation.\n• C — Daily weight is far too slow a measure to detect a haemodynamic change occurring within minutes.\n• D — Urine specific gravity gives no useful information about the immediate response to an intravenous antihypertensive.\n\nReference: Ghana Standard Treatment Guidelines — severe pre-eclampsia",
+  "rationale": "CORRECT (B) — \"Blood pressure and foetal heart rate, checked frequently\". Hydralazine lowers blood pressure by direct arteriolar dilation and can do so abruptly. An excessive fall reduces placental perfusion, so the foetus can be compromised by the very treatment given to protect the pregnancy, which is why maternal blood pressure and the foetal heart rate are monitored together and frequently. The aim is controlled reduction to a safe range rather than normalisation. Maternal tachycardia, headache and flushing are expected effects of the vasodilation. The principle is that in obstetric care every maternal intervention has a foetal consequence, so both must be monitored.\n\nWhy the other options fail:\n• A — Temperature is a routine observation and is not the parameter at risk from acute vasodilation.\n• C — Daily weight is far too slow a measure to detect a haemodynamic change occurring within minutes.\n• D — Urine specific gravity gives no useful information about the immediate response to an intravenous antihypertensive.\n\nReference: Ghana Standard Treatment Guidelines — severe pre-eclampsia",
   "strategy": "With any drug given in pregnancy, ask what it does to placental perfusion. Monitoring answers that include the foetus are usually preferred to those that watch the mother alone.",
   "difficulty": "medium",
   "tags": [
@@ -107392,11 +107392,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Work with the whole family on activity and food quality, aiming for the child to grow into his weight rather than lose weight rapidly"
+    "text": "Work with the family on activity and food, aiming for slow steady growth"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Work with the whole family on activity and food quality, aiming for the child to grow into his weight rather than lose weight rapidly\". A growing child usually does not need to lose weight. Holding weight relatively steady while height increases allows the body mass index to fall naturally, which is gentler and more sustainable than restriction. The intervention must involve the whole family, because a child cannot choose what is bought or cooked, and singling him out breeds shame and secret eating. The practical targets are sugary drinks, portion sizes, screen time and daily active play. Weight talk directed at children is associated with disordered eating later, so the framing should be about health, strength and energy rather than appearance or numbers.\n\nWhy the other options fail:\n• A — Strict reducing diets in children risk compromising growth and micronutrient intake, and they are associated with later disordered eating. Frequent weighing intensifies the focus on the number.\n• B — Public criticism humiliates the child, damages the therapeutic relationship and predicts secretive eating and poorer outcomes. It is among the least effective possible responses.\n• C — Childhood obesity frequently persists into adulthood rather than resolving at puberty. Waiting wastes the years in which family habits are most changeable.\n\nReference: WHO ending childhood obesity report; Ghana Health Service school health programme",
+  "rationale": "CORRECT (D) — \"Work with the family on activity and food, aiming for slow steady growth\". A growing child usually does not need to lose weight. Holding weight relatively steady while height increases allows the body mass index to fall naturally, which is gentler and more sustainable than restriction. The intervention must involve the whole family, because a child cannot choose what is bought or cooked, and singling him out breeds shame and secret eating. The practical targets are sugary drinks, portion sizes, screen time and daily active play. Weight talk directed at children is associated with disordered eating later, so the framing should be about health, strength and energy rather than appearance or numbers.\n\nWhy the other options fail:\n• A — Strict reducing diets in children risk compromising growth and micronutrient intake, and they are associated with later disordered eating. Frequent weighing intensifies the focus on the number.\n• B — Public criticism humiliates the child, damages the therapeutic relationship and predicts secretive eating and poorer outcomes. It is among the least effective possible responses.\n• C — Childhood obesity frequently persists into adulthood rather than resolving at puberty. Waiting wastes the years in which family habits are most changeable.\n\nReference: WHO ending childhood obesity report; Ghana Health Service school health programme",
   "strategy": "In a growing child, growing into the weight beats losing it. Any option that isolates or shames the child is wrong regardless of its nutritional content.",
   "difficulty": "medium",
   "tags": [
