@@ -25754,28 +25754,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SGY-0751",
   "categorySlug": "med-surg",
-  "stem": "Which set of observations in a Ghanaian post-craniotomy patient suggests rising intracranial pressure?",
+  "stem": "A man is brought in two hours after a fall from a ladder with bruising behind his right ear and around both eyes. What does this suggest?",
   "choices": [
    {
     "id": "a",
-    "text": "Falling conscious level, rising blood pressure and a slowing pulse"
+    "text": "A fracture of the base of the skull, which needs urgent assessment"
    },
    {
     "id": "b",
-    "text": "Rising conscious level, falling blood pressure and a racing pulse"
+    "text": "A simple scalp haematoma that will settle on its own within a week or two"
    },
    {
     "id": "c",
-    "text": "Stable conscious level, low blood pressure and a rapid weak pulse"
+    "text": "Raised intracranial pressure from a growing extradural collection"
    },
    {
     "id": "d",
-    "text": "Falling conscious level, falling blood pressure and a rapid pulse"
+    "text": "An allergic reaction to the dressing applied in the emergency unit"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Falling conscious level, rising blood pressure and a slowing pulse\". Rising intracranial pressure produces the <strong>Cushing response</strong>: <strong>hypertension with a widening pulse pressure, bradycardia and irregular respiration</strong>, accompanied by a deteriorating conscious level. The physiology is compensatory — blood pressure rises to maintain cerebral perfusion against the pressure, and the baroreceptors slow the heart in response. Note it is <strong>the opposite pattern to shock</strong>, where pressure falls and the pulse rises.\n\nWhy the other options fail:\n• B — An improving conscious level is reassuring and does not accompany rising pressure.\n• C — Low pressure with a rapid weak pulse describes hypovolaemic shock, not intracranial hypertension.\n• D — This mixes deterioration with a shock pattern and misses the characteristic bradycardia.\n\nReference: Ghana nursing curriculum — neurosurgical nursing",
-  "strategy": "Learn intracranial pressure as the mirror image of shock: pressure up, pulse down. That contrast answers many questions.",
+  "rationale": "CORRECT (A) — \"A fracture of the base of the skull, which needs urgent assessment\". Bruising behind the ear — Battle's sign — and bruising around both eyes without any direct blow to them — raccoon eyes — are the two external signs of a fracture through the base of the skull. Blood tracks along the tissue planes and comes out a day or two after the injury, which is why the signs appear late. The importance is what the fracture implies: a dural tear with a risk of meningitis, possible damage to the cranial nerves and vessels, and the need to look for cerebrospinal fluid leaking from the nose or ear. He needs urgent assessment and imaging.\n\nWhy the other options fail:\n• B — A scalp haematoma is confined to the scalp, and it does not produce bruising around the eyes or behind the ear.\n• C — Raised pressure shows as a falling conscious level, rising blood pressure and a slowing pulse, not as bruising.\n• D — An allergic reaction produces weals and itching at the site of contact, not bruising at a distance from it.\n\nReference: Ghana STG — head injury; NICE head injury guidance\n",
+  "strategy": "Bruising behind the ear and around both eyes means the fracture is at the base of the skull, and the danger is meningitis.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -52219,28 +52219,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CVM-1525",
   "categorySlug": "med-surg",
-  "stem": "Which combination of observations suggests rising intracranial pressure?",
+  "stem": "A nurse is asked to record a 12-lead ECG. Where do the six chest leads go?",
   "choices": [
    {
     "id": "a",
-    "text": "Falling conscious level with a slowing pulse and rising pressure"
+    "text": "V1 and V2 either side of the sternum, V3 and V4 over the heart, V5 and V6 in the armpit line"
    },
    {
     "id": "b",
-    "text": "Rising conscious level with a rapid pulse and falling pressure"
+    "text": "All six in a row across the left side of the chest, level with the nipple, from the midline outwards"
    },
    {
     "id": "c",
-    "text": "Stable conscious level with a rapid pulse and a raised temperature"
+    "text": "V1 to V3 on the back between the shoulder blades, and V4 to V6 on the front of the chest"
    },
    {
     "id": "d",
-    "text": "Falling conscious level with a rapid pulse and a low temperature"
+    "text": "Anywhere on the chest, so long as the same six points are used each time the ECG is repeated"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Falling conscious level with a slowing pulse and rising pressure\". As pressure rises inside the skull, the body raises systemic pressure to keep perfusing the brain, and the heart slows reflexly in response. The result is the classic combination of <strong>deteriorating consciousness, bradycardia and widening pulse pressure</strong>. It is a <strong>late sign</strong>: the falling conscious level appears first and is the observation that should prompt action, long before the pulse and pressure change.\n\nWhy the other options fail:\n• B — Improving consciousness with tachycardia and hypotension suggests hypovolaemia.\n• C — Fever with a stable conscious level suggests infection rather than pressure.\n• D — Tachycardia with hypothermia fits shock, not raised intracranial pressure.\n\nReference: Ghana STG — head injury and neurology",
-  "strategy": "Act on the falling conscious level. The pulse and pressure changes arrive too late to help.",
+  "rationale": "CORRECT (A) — \"V1 and V2 either side of the sternum, V3 and V4 over the heart, V5 and V6 in the armpit line\". The chest leads look at the heart from six fixed windows, and the pattern is a sweep from the right of the sternum round to the left mid-axillary line. V1 sits in the fourth intercostal space at the right sternal edge and V2 opposite it on the left; V3 and V4 follow at the same level across to the mid-clavicular line; V5 and V6 continue round into the anterior and mid-axillary lines. The limb leads then give the other six views, and misplaced chest leads are one of the commonest reasons a tracing is unreadable or a change is missed.\n\nWhy the other options fail:\n• B — A single row at nipple level loses the windows that look at the septum and the lateral wall.\n• C — Leads on the back are not part of a standard 12-lead; V1 to V3 look at the anterior and septal walls from the front.\n• D — Consistency alone is not enough, because the standard positions are what make the tracing comparable with every previous one.\n\nReference: Ghana STG — ischaemic heart disease; British Cardiovascular Society — ECG recording standards\n",
+  "strategy": "Six windows in a fixed sweep from the right sternal edge round to the mid-axillary line, at the fourth intercostal space.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -78572,28 +78572,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2292",
   "categorySlug": "maternal-newborn",
-  "stem": "At 34 weeks a woman reports painless, bright red vaginal bleeding that started while she was asleep. Her uterus is soft and not tender, and the foetal heart is 142 beats a minute. What must the midwife **avoid**?",
+  "stem": "A woman at 33 weeks has placenta praevia and has had one small painless bleed, which has now settled. She and the fetus are stable. What is the usual plan?",
   "choices": [
    {
     "id": "a",
-    "text": "Palpating the abdomen for lie and presentation"
+    "text": "Wait for labour to start on its own, and deliver vaginally if the bleeding stays away"
    },
    {
     "id": "b",
-    "text": "Establishing intravenous access and taking blood for grouping"
+    "text": "Admit her now until 40 weeks, and allow a trial of vaginal delivery at term"
    },
    {
     "id": "c",
-    "text": "Auscultating the foetal heart"
+    "text": "Give a course of antibiotics and review her in the antenatal clinic in four weeks"
    },
    {
     "id": "d",
-    "text": "Digital vaginal examination"
+    "text": "Plan a caesarean at about 36 to 37 weeks, before labour or a bleed forces it"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Digital vaginal examination\". Painless bright red bleeding with a soft, non-tender uterus is placenta praevia until an ultrasound proves otherwise, and a finger passed through the cervix can perforate or dislodge a placenta lying over the os and provoke torrential haemorrhage. This is why every antepartum haemorrhage protocol forbids digital vaginal examination until praevia has been excluded by scan. Abdominal palpation, foetal heart auscultation, intravenous access and grouping and cross-matching are all safe and necessary. The principle is that in antepartum haemorrhage the examination itself can be the fatal intervention, so you localise the placenta before you touch the cervix.\n\nWhy the other options fail:\n• A — Abdominal palpation is safe and informative, often revealing a high presenting part or an unstable lie that supports the diagnosis of praevia.\n• B — Intravenous access and grouping are essential preparation, because a woman with praevia can bleed heavily and without warning at any moment.\n• C — Listening to the foetal heart is non-invasive and gives you the foetal condition, which is one of the things that determines how urgently she is delivered.\n\nReference: Ghana National Safe Motherhood Protocol — antepartum haemorrhage",
-  "strategy": "Learn the short list of things that are forbidden rather than merely optional. No digital examination in antepartum haemorrhage is one of them, and questions test it by surrounding it with three genuinely correct actions.",
+  "rationale": "CORRECT (D) — \"Plan a caesarean at about 36 to 37 weeks, before labour or a bleed forces it\". With the placenta lying over or near the os, normal labour cannot deliver the baby without tearing the placenta off first, so delivery is by caesarean and it is timed rather than waited for. Around 36 to 37 weeks is late enough for the baby to be mature and early enough to get ahead of the bleed or the labour that would turn a planned operation into an emergency one. She is admitted earlier, and delivered sooner, only if she bleeds heavily or labour starts.\n\nWhy the other options fail:\n• A — Labour with a praevia is the emergency this plan exists to avoid; the placenta is between the baby and the birth canal.\n• B — A trial of vaginal delivery is not offered when the placenta covers the os, whatever the gestation.\n• C — Antibiotics treat infection, and there is no infection here to treat; delay risks an uncontrolled bleed.\n\nReference: WHO recommendations on placenta praevia; Ghana STG — obstetric care; RCOG — placenta praevia and accreta\n",
+  "strategy": "Praevia means caesarean, and the date is set before the bleed sets it. 36 to 37 weeks unless bleeding forces the hand.",
   "difficulty": "medium",
   "tags": [
    "maternal-newborn",
@@ -104489,28 +104489,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MNH-3047",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman at 34 weeks' gestation attending antenatal clinic in Accra has a blood pressure of 168/112 mmHg, a severe frontal headache and visual flashing. Which action is the **priority**?",
+  "stem": "A woman at 34 weeks with severe pre-eclampsia now has a platelet count of 88, a rising AST and a blood film showing red cell fragments. What is happening?",
   "choices": [
    {
     "id": "a",
-    "text": "Prescribe oral paracetamol for the headache and review her in one week"
+    "text": "She is developing a haemolytic transfusion reaction and needs the unit stopped"
    },
    {
     "id": "b",
-    "text": "Arrange an ultrasound scan to assess foetal growth before making any decision"
+    "text": "She has progressed to disseminated intravascular coagulation from an abruption"
    },
    {
     "id": "c",
-    "text": "Admit urgently for magnesium sulphate and antihypertensive treatment"
+    "text": "She has developed HELLP syndrome, and the pregnancy needs to be delivered"
    },
    {
     "id": "d",
-    "text": "Advise strict bed rest at home with daily blood pressure monitoring by a relative"
+    "text": "These are the expected changes of pregnancy in the third trimester"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Admit urgently for magnesium sulphate and antihypertensive treatment\". Headache and visual disturbance in a woman with hypertension are neurological warning signs of imminent eclampsia, not incidental symptoms. Cerebral oedema and vasospasm are already present, so a seizure may be minutes away. Magnesium sulphate prevents that seizure and is the single most effective intervention, while antihypertensives reduce the risk of intracranial haemorrhage. At 34 weeks, corticosteroids are also given for foetal lung maturity, but the maternal emergency drives the immediate management and delivery is the definitive cure.\n\nWhy the other options fail:\n• A — Treating the headache as an ordinary symptom misses its significance entirely. Paracetamol relieves nothing here and a week's delay is far longer than the interval in which eclampsia develops.\n• B — Foetal assessment matters but is not the priority when the mother is close to seizing. Investigations that delay magnesium sulphate increase the risk of the outcome you are trying to avoid.\n• D — Home bed rest with lay monitoring cannot deliver magnesium sulphate or intravenous antihypertensives, and it places a woman with severe features beyond reach of emergency care.\n\nReference: Ghana Standard Treatment Guidelines; WHO pre-eclampsia management",
-  "strategy": "Read symptoms in the context of the diagnosis already on the chart. A headache in a hypertensive pregnant woman is a neurological warning sign, not a headache.",
+  "rationale": "CORRECT (C) — \"She has developed HELLP syndrome, and the pregnancy needs to be delivered\". The three letters are the three findings: <strong>H</strong> for haemolysis, seen as red cell fragments on the film and a rising LDH, with jaundice; <strong>EL</strong> for elevated liver enzymes, with right upper quadrant or epigastric pain and nausea; and <strong>LP</strong> for a low platelet count. It is a severe variant of pre-eclampsia and it can be there with only a modest blood pressure. The treatment is the same as for the disease itself — stabilise and deliver — because HELLP can progress to liver rupture, abruption and DIC within hours.\n\nWhy the other options fail:\n• A — A transfusion reaction can cause haemolysis, but she has a low platelet count and abnormal liver enzymes as well.\n• B — DIC is a complication that may follow, but the combination of haemolysis, liver enzyme rise and thrombocytopenia in pre-eclampsia is HELLP.\n• D — These are not normal changes of pregnancy; a platelet count of 88 with fragments on the film is disease.\n\nReference: WHO recommendations for prevention and treatment of pre-eclampsia and eclampsia; Ghana STG — hypertensive disorders of pregnancy\n",
+  "strategy": "H for fragments, EL for the liver, LP for the platelets, and it can arrive with a normal-looking blood pressure. Deliver.",
   "difficulty": "hard",
   "tags": [
    "maternal-newborn",
@@ -106085,28 +106085,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3094",
   "categorySlug": "health-promotion",
-  "stem": "A child weighing 14 kg requires maintenance fluid using the Holliday-Segar method: 100 mL/kg for the first 10 kg and 50 mL/kg for each kilogram above 10. What is the **total** requirement over twenty-four hours?",
+  "stem": "A sick child is to be given maintenance fluid. Why is isotonic saline with glucose used rather than 0.18 per cent saline with glucose?",
   "choices": [
    {
     "id": "a",
-    "text": "1,200 mL"
+    "text": "Because hypotonic fluid can lower the sodium and cause seizures in a sick child"
    },
    {
     "id": "b",
-    "text": "1,400 mL"
+    "text": "Because hypotonic fluid is too concentrated and damages the wall of the vein at the cannula"
    },
    {
     "id": "c",
-    "text": "700 mL"
+    "text": "Because isotonic fluid contains more potassium and prevents cardiac arrest"
    },
    {
     "id": "d",
-    "text": "1,900 mL"
+    "text": "Because isotonic fluid is cheaper and the difference in sodium does not matter"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"1,200 mL\". Formula: total = (100 mL/kg × first 10 kg) + (50 mL/kg × each kg from 11 to 20). Substituting: the first 10 kg gives 10 × 100 = 1,000 mL, and the remaining 4 kg gives 4 × 50 = 200 mL, so the total is 1,200 mL over twenty-four hours. Divided across the day that is 50 mL per hour. Sense-check the answer: the figure must fall between 1,000 mL, which is what a 10 kg child needs, and 1,500 mL, which is what a 20 kg child needs, so 1,200 mL sits sensibly in that range. Maintenance is a starting point only and must be adjusted for fever, dehydration or ongoing losses.\n\nWhy the other options fail:\n• B — 1,400 mL results from applying 100 mL/kg to the entire weight of 14 kg. This is the commonest error and overestimates the requirement by two hundred millilitres.\n• C — 700 mL comes from applying 50 mL/kg across the whole weight, which halves the allowance for the first ten kilograms and would leave the child significantly under-hydrated.\n• D — 1,900 mL corresponds to a much heavier child and does not follow from the figures given. Overhydration in a small child risks hyponatraemia and cerebral oedema.\n\nReference: Holliday-Segar maintenance fluid method; Ghana Standard Treatment Guidelines — paediatrics",
-  "strategy": "Apply banded formulas one band at a time and add them. Never multiply the total weight by the first band's rate.",
+  "rationale": "CORRECT (A) — \"Because hypotonic fluid can lower the sodium and cause seizures in a sick child\". A sick child holds on to water: pain, vomiting, fever and infection all raise antidiuretic hormone, so the kidney stops making dilute urine. Give hypotonic fluid on top of that and the free water has nowhere to go, the sodium is diluted, and the brain swells — a hospital-acquired hyponatraemia that presents as headache, vomiting, confusion and then a fit, often a day or two into an admission for something else entirely. Isotonic saline with glucose gives the maintenance water and sugar without the free water that drives the sodium down.\n\nWhy the other options fail:\n• B — Hypotonic fluid is more dilute, not more concentrated, and it does not damage the vein wall.\n• C — The potassium content is not what makes the difference; the sodium concentration is.\n• D — The sodium difference is the whole point and can kill; it is not a matter of cost.\n\nReference: WHO — fluid management in children; NICE — intravenous fluid therapy in children\n",
+  "strategy": "Sick children hold water. Isotonic maintenance fluid, because free water in a child with high ADH causes hyponatraemic seizures.",
   "difficulty": "medium",
   "tags": [
    "health-promotion",
@@ -117298,28 +117298,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-MCH-0001",
  "categorySlug": "maternal-newborn",
- "stem": "At an antenatal visit a client at 34 weeks has a blood pressure of 150/100 mmHg, a severe unrelenting headache and flashing lights in her vision. What is the priority action?",
+ "stem": "A woman at 34 weeks has severe pre-eclampsia and is now stable on magnesium sulphate and antihypertensives after 24 hours. What is the definitive treatment?",
  "choices": [
   {
    "id": "a",
-   "text": "Move her to a quiet, safe space, assess her fully and call the maternity team immediately"
+   "text": "Delivery, because pre-eclampsia is cured only by delivering the baby and placenta"
   },
   {
    "id": "b",
-   "text": "Reassure her and arrange a routine review in one week"
+   "text": "Continue treatment until 40 weeks, then induce labour if she is still hypertensive"
   },
   {
    "id": "c",
-   "text": "Advise her to walk briskly to help her blood pressure settle"
+   "text": "Stop the magnesium once her blood pressure is under 150/100 and send her home"
   },
   {
    "id": "d",
-   "text": "Give her a salty snack and a large drink of water"
+   "text": "Give corticosteroids and wait a further two weeks for the lungs to mature"
   }
  ],
  "correctChoiceId": "a",
- "rationale": "Severe hypertension with a headache and visual disturbance means pre-eclampsia with severe features, and both eclampsia and stroke are imminent risks, so she needs a calm environment, full assessment with reflexes and urine, and same-day escalation for antihypertensives and magnesium. Option B treats a red flag as routine antenatal care. Option C raises blood pressure and is the opposite of what is needed. Option D adds a sodium load and does nothing for the underlying disorder.",
- "strategy": "Headache plus visual changes in a hypertensive pregnant woman means severe pre-eclampsia. Escalate now.",
+ "rationale": "CORRECT (A) — \"Delivery, because pre-eclampsia is cured only by delivering the baby and placenta\". Pre-eclampsia is a disease of the placenta, and every drug used in it buys time rather than treats the cause. Once she is past 34 weeks and has been stabilised — magnesium running, blood pressure controlled, steroids given if there is time — delivery is the treatment, because keeping the pregnancy going only lets the disease progress to eclampsia, abruption, pulmonary oedema or HELLP. The route depends on the cervix and the baby, but the decision to deliver is the decision.\n\nWhy the other options fail:\n• B — Waiting to 40 weeks with severe disease courts a fit or a stillbirth; the disease does not remit with time.\n• C — Magnesium is stopped after delivery, not when the pressure dips; stopping it while pregnant removes her seizure cover.\n• D — Steroids are given when there is time before delivery, not as a reason to delay it in severe disease.\n\nReference: WHO recommendations for prevention and treatment of pre-eclampsia and eclampsia; Ghana STG — hypertensive disorders of pregnancy\n",
+ "strategy": "Pre-eclampsia is cured by the placenta leaving. Stabilise, give steroids if there is time, then deliver.",
  "difficulty": "hard",
  "tags": [
   "preeclampsia",
