@@ -87,6 +87,7 @@ export default async function MorePage() {
             <h2 className="mb-2 px-1 text-xs font-bold uppercase tracking-widest text-slate-400">Admin</h2>
             <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white">
               {[
+                { href: "/dashboard/admin/users", label: "Users", icon: "👥" },
                 { href: "/dashboard/admin/payments", label: "Review Payments", icon: "🛡️" },
                 { href: "/dashboard/admin/questions", label: "Upload Questions", icon: "📝" },
                 { href: "/dashboard/admin/most-missed", label: "Most-Missed Report", icon: "🎯" },
