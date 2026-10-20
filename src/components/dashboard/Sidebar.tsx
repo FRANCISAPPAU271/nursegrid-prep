@@ -188,15 +188,19 @@ export default function Sidebar({
       </nav>
 
       <div className="m-3 rounded-xl bg-slate-800/70 p-3">
-        <div className="flex items-center gap-3">
+        <Link
+          href="/dashboard/settings"
+          className="flex items-center gap-3 rounded-lg p-1 -m-1 transition hover:bg-slate-700/40"
+        >
           <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-emerald-500 text-sm font-bold text-white">
             {name.slice(0, 1).toUpperCase()}
           </span>
-          <div className="min-w-0">
+          <div className="min-w-0 flex-1">
             <p className="truncate text-sm font-semibold text-white">{name}</p>
             <p className="truncate text-xs text-slate-400">{email}</p>
           </div>
-        </div>
+          <span aria-hidden className="text-xs text-slate-500">›</span>
+        </Link>
         <div className="mt-3 flex items-center justify-between">
           <span
             className={`rounded-full px-2 py-0.5 text-[11px] font-semibold ${
@@ -236,12 +240,22 @@ export default function Sidebar({
           <span className="grid h-8 w-8 place-items-center rounded-lg bg-emerald-600 text-white">🩺</span>
           <span className="font-bold text-slate-900">NurseGrid Prep</span>
         </Link>
-        <button
-          onClick={() => setOpen(true)}
-          className="grid h-9 w-9 place-items-center rounded-lg border border-slate-200 text-slate-700"
-        >
-          ☰
-        </button>
+        <div className="flex items-center gap-2">
+          <Link
+            href="/dashboard/settings"
+            aria-label="Profile and settings"
+            className="grid h-9 w-9 place-items-center rounded-full bg-emerald-100 text-sm font-bold text-emerald-700"
+          >
+            {name.slice(0, 1).toUpperCase()}
+          </Link>
+          <button
+            onClick={() => setOpen(true)}
+            aria-label="Open menu"
+            className="grid h-9 w-9 place-items-center rounded-lg border border-slate-200 text-slate-700"
+          >
+            ☰
+          </button>
+        </div>
       </div>
 
       {open && (
