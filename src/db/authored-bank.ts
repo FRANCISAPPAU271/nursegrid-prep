@@ -19173,28 +19173,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OBS-0559",
   "categorySlug": "maternal-newborn",
-  "stem": "On a Ghanaian postnatal ward a woman continues to bleed steadily after delivery although her uterus is firm and well contracted. What is the **most** likely cause?",
+  "stem": "A woman is now 12 hours after a caesarean section. Which risk should the nurse be actively preventing?",
   "choices": [
    {
     "id": "a",
-    "text": "Uterine atony, which has not responded to the uterotonic drug that was given"
+    "text": "Infection of the wound, which is the main risk once the first twelve hours have safely passed"
    },
    {
     "id": "b",
-    "text": "Retained placental tissue that is preventing the uterus from contracting fully"
+    "text": "Retained products of conception, which are said to be common after an operative delivery"
    },
    {
     "id": "c",
-    "text": "Genital tract trauma, such as a cervical, vaginal or perineal tear that needs repair"
+    "text": "Venous thromboembolism, which is far more likely after a caesarean than after a vaginal birth"
    },
    {
     "id": "d",
-    "text": "A clotting disorder that has developed during the course of the labour and delivery"
+    "text": "Uterine rupture, which can reportedly happen at any time in the first day after a caesarean"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Genital tract trauma, such as a cervical, vaginal or perineal tear that needs repair\". The four T's are distinguished by <strong>the state of the uterus</strong>. If it is firm, atony and retained tissue are largely excluded, because both prevent contraction. Steady bleeding from a well contracted uterus points to <strong>trauma</strong> — a cervical, vaginal, perineal or episiotomy tear — which requires <strong>good light, systematic inspection and suturing</strong>. Continuing to give uterotonics to a firm uterus wastes the time in which the woman is bleeding.\n\nWhy the other options fail:\n• A — An atonic uterus is soft and boggy by definition. A firm fundus rules atony out.\n• B — Retained tissue keeps the uterus from contracting, so it too would give a soft fundus.\n• D — Clotting failure causes about one per cent of cases and shows oozing from puncture sites and non-clotting blood.\n\nReference: Ghana nursing curriculum — causes of postpartum haemorrhage",
-  "strategy": "Palpate first. A soft uterus means tone or tissue; a firm uterus with bleeding means trauma. The fundus sorts the four T's.",
+  "rationale": "CORRECT (C) — \"Venous thromboembolism, which is many times more likely after a caesarean than a vaginal birth\". Pregnancy itself makes the blood clot more readily, and a caesarean adds surgery, immobility and often obesity and pre-eclampsia on top, so the days after a section are the highest-risk time for a deep vein thrombosis and a pulmonary embolus. Prevention is unglamorous and effective: early mobilisation, leg exercises, plenty of fluid, and the prescribed low molecular weight heparin, together with compression stockings where they are used. The nurse also watches for the warning signs, a calf that is painful and swollen, or sudden breathlessness and chest pain.\n\nWhy the other options fail:\n• A — Wound infection is a real risk, but it declares itself over days, while thromboembolism can kill within hours.\n• B — Retained products are a complication of delivery of the placenta, not the leading danger at twelve hours.\n• D — Uterine rupture is a risk of labour after a previous section, not of the hours after the operation itself.\n\nReference: WHO recommendations for prevention of thromboembolism in pregnancy and the puerperium; Ghana STG — obstetric care\n",
+  "strategy": "After a caesarean the killer is the clot. Early mobility, fluids, prescribed heparin, and watch the calf and the breath.",
   "difficulty": "hard",
   "tags": [
    "maternal-newborn",
@@ -26645,28 +26645,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SGY-0777",
   "categorySlug": "med-surg",
-  "stem": "A Ghanaian patient on skeletal traction has weights resting on the floor after being moved up the bed. What should the nurse do?",
+  "stem": "Six months after a fractured neck of femur was fixed, an elderly man has worsening groin pain and walks with a limp. What complication should the nurse suspect?",
   "choices": [
    {
     "id": "a",
-    "text": "Leave the weights resting, as the patient will be more comfortable that way"
+    "text": "Dislocation of the hip, which happens when the leg is allowed to cross the midline"
    },
    {
     "id": "b",
-    "text": "Remove the weights and reattach them once the patient has settled to sleep"
+    "text": "A chest infection, which commonly follows surgery on the hip in older people"
    },
    {
     "id": "c",
-    "text": "Increase the weight to compensate for the loss of the pulling force applied"
+    "text": "A urinary tract infection from the catheter that was used during the operation"
    },
    {
     "id": "d",
-    "text": "Reposition the patient so the weights hang freely without touching anything"
+    "text": "Avascular necrosis, because the fracture cut the blood supply to the femoral head"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Reposition the patient so the weights hang freely without touching anything\". Traction works only when the weights <strong>hang freely</strong>, so that a continuous pull is maintained along the correct line. Weights resting on the floor, caught on the bed, or a rope off its pulley all mean <strong>the traction has stopped</strong>, allowing muscle spasm, loss of alignment and malunion. Skeletal traction is <strong>never removed by a nurse</strong>. Countertraction is provided by the patient's body weight, which is why the bed foot is often elevated.\n\nWhy the other options fail:\n• A — Comfort at the cost of alignment causes deformity. Discomfort is managed by analgesia and repositioning.\n• B — Removing skeletal traction is not a nursing action and permits immediate muscle spasm and displacement.\n• C — Adding weight without prescription can cause distraction at the fracture site and nerve damage.\n\nReference: Ghana nursing curriculum — orthopaedic nursing",
-  "strategy": "Traction is only working if the weights hang free and the ropes run in the pulleys. Check the whole system, not the limb alone.",
+  "rationale": "CORRECT (D) — \"Avascular necrosis, because the fracture cut the blood supply to the femoral head\". The head of the femur is fed by a small retinacular group of vessels that run up the neck, and a fracture through the neck tears them. If the blood supply is not restored, the bone dies while the patient walks on it, and the head slowly collapses. The warning is pain in the groin that gets worse rather than better months after the injury, with a limp and a shrinking range of movement. Early changes show on MRI long before they show on plain film, which is why a persistent painful hip after this fracture is not dismissed as expected recovery.\n\nWhy the other options fail:\n• A — Dislocation follows a hip replacement, not a fixation, and it presents acutely rather than over months.\n• B — A chest infection presents with fever, cough and breathlessness, not with groin pain and a limp.\n• C — A urinary infection causes dysuria, frequency and fever, and would not explain a painful hip.\n\nReference: Ghana STG — fracture management; orthopaedic trauma guidance\n",
+  "strategy": "Fractured neck of femur equals torn retinacular vessels. Pain that worsens months later is avascular necrosis until proven otherwise.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -74460,28 +74460,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2176",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A child is prescribed 480 mL over 4 hours through a paediatric burette delivering 60 drops per mL. What is the correct rate?",
+  "stem": "A newborn with severe jaundice is to have an exchange transfusion. What does the procedure do that phototherapy cannot?",
   "choices": [
    {
     "id": "a",
-    "text": "60 drops per minute"
+    "text": "It removes bilirubin that is already bound to the brain tissue, so damage already done is reversed"
    },
    {
     "id": "b",
-    "text": "40 drops per minute"
+    "text": "It removes bilirubin and the antibody-coated red cells, and replaces them with donor blood"
    },
    {
     "id": "c",
-    "text": "240 drops per minute"
+    "text": "It warms the baby quickly, and the bilirubin falls as the temperature returns to normal"
    },
    {
     "id": "d",
-    "text": "120 drops per minute"
+    "text": "It gives the liver time to mature by resting it while the donor blood does the work instead"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"120 drops per minute\". Using the same formula, 480 multiplied by 60 gives 28,800, and 4 hours is 240 minutes, so <strong>28,800 divided by 240 is 120 drops per minute</strong>. The burette's finer drops mean the count is high even at modest volumes, which is why the drop factor must be read from the packet rather than assumed. Sense-check: 480 mL over 4 hours is 120 mL an hour, and with 60 drops per mL that is 7,200 drops an hour, or 120 each minute.\n\nWhy the other options fail:\n• A — This would deliver only half the prescribed volume in the time available.\n• B — This applies an adult drop factor of 20 rather than the burette's 60.\n• C — This is double the required rate and would deliver the volume in two hours.\n\nReference: Ghana Health Service paediatric fluid guidance",
-  "strategy": "Read the drop factor off the packet. The same volume gives very different counts on different sets.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"It removes bilirubin and the antibody-coated red cells, and replaces them with donor blood\". Phototherapy works on bilirubin in the skin, converting it so that it can be excreted — but it works at a certain rate, and if the level is already at the exchange threshold, or the baby is showing signs of acute bilirubin encephalopathy, that rate is too slow. An exchange transfusion takes the bilirubin out of the circulation directly and removes the antibody-coated red cells that are still being broken down, which is why it is done as a double-volume exchange, roughly twice the baby's blood volume. It is a treatment for the level that is already dangerous, not a substitute for phototherapy started earlier.\n\nWhy the other options fail:\n• A — Bilirubin already bound in the brain is not removed by exchange, which is exactly why the decision is made before that point.\n• C — Temperature is managed during the exchange, but warming is not the purpose and does not lower bilirubin.\n• D — The liver is not rested; the baby's own liver goes on conjugating whatever bilirubin is left behind.\n\nReference: WHO — neonatal jaundice management; Ghana STG — newborn care\n",
+  "strategy": "Phototherapy works at its own speed. Exchange transfusion is for when the level is already dangerous, and it removes both the bilirubin and the cells making it.",
   "difficulty": "hard",
   "tags": [
    "fluid-electrolyte",
@@ -86273,28 +86273,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2515",
   "categorySlug": "safety-infection-control",
-  "stem": "During a sterile dressing change the nurse turns away from the trolley to answer a colleague's question. What is the consequence for the sterile field?",
+  "stem": "A nurse has just taken the blood pressure of a patient with a discharging wound and is moving on to the next patient. What should she do with the cuff?",
   "choices": [
    {
     "id": "a",
-    "text": "The field remains sterile provided nothing touched it"
+    "text": "Use it straight away, since the cuff never touches the wound itself and only sits on the arm"
    },
    {
     "id": "b",
-    "text": "The field remains sterile as long as the nurse wore a mask"
+    "text": "Dust it with powder and put it away, as the cover is there to protect it from the skin"
    },
    {
     "id": "c",
-    "text": "Only the outer edge of the field is affected"
+    "text": "Use it on the next patient and clean the cuff at the end of the shift with the rest of the trolley"
    },
    {
     "id": "d",
-    "text": "The field is considered contaminated because it was out of sight"
+    "text": "Clean it with alcohol before the next patient, because it carries what the last arm carried"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"The field is considered contaminated because it was out of sight\". A sterile field must be kept within the practitioner's vision continuously, because contamination that is not seen cannot be corrected, and a field that has been unobserved must be treated as contaminated. The related rules follow the same logic: anything below waist level is contaminated, the outer 2.5 centimetres of a drape is not sterile, moisture wicks organisms through a drape, and reaching across the field contaminates it. These rules are conservative by design, since the cost of discarding a pack is trivial next to the cost of a surgical site infection. The principle is that sterility is a status that must be continuously maintained.\n\nWhy the other options fail:\n• A — The nurse cannot know that nothing touched it, and unobserved is treated as contaminated precisely for that reason.\n• B — A mask reduces droplet contamination but does nothing about the field being unwatched.\n• C — The whole field is regarded as contaminated, not merely its edge.\n\nReference: Standard aseptic technique principles",
-  "strategy": "Apply the conservative rule: if in doubt, it is contaminated. Options that rationalise keeping a doubtful field are wrong in aseptic technique questions.",
+  "rationale": "CORRECT (D) — \"Clean it with alcohol before the next patient, because it carries what the last arm carried\". A blood pressure cuff is shared equipment that goes from arm to arm all day, and it picks up what the skin and any discharge leave on it. Organisms survive on fabric and plastic for weeks, and the cuff is one of the commonest things a nurse handles without thinking of it as a piece of equipment that needs cleaning between patients. The rule is that anything shared and touched must be decontaminated between patients: wipe the cuff, then the stethoscope, then wash the hands.\n\nWhy the other options fail:\n• A — The cuff does not need to touch a wound to become a vehicle; the skin and the hands carry organisms onto it.\n• B — Dusting powder does not disinfect and can trap organisms in the fabric.\n• C — Cleaning at the end of a shift leaves the cuff carrying organisms to every patient in between.\n\nReference: Ghana STG — infection prevention and control; WHO — guidelines on hand hygiene and shared equipment\n",
+  "strategy": "Shared means cleaned between patients. Cuff, then stethoscope, then hands, every time.",
   "difficulty": "medium",
   "tags": [
    "safety-infection-control",
@@ -104726,28 +104726,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MNH-3054",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman who is exclusively breastfeeding her 6-week-old baby asks about contraception at a clinic in Ghana. Which method is **most** appropriate to recommend?",
+  "stem": "A woman has a contraceptive implant inserted today. What should the nurse tell her about it?",
   "choices": [
    {
     "id": "a",
-    "text": "A progestogen-only method such as the implant, which does not affect milk supply"
+    "text": "It works for three years, and her fertility returns quickly once it is removed"
    },
    {
     "id": "b",
-    "text": "A combined oral contraceptive pill, which offers the most reliable cycle control"
+    "text": "It must be replaced every six months, at the same time as her child's immunisations"
    },
    {
     "id": "c",
-    "text": "Reliance on lactational amenorrhoea alone for the next twelve months"
+    "text": "It works for three years, but the effect lasts a further year after it is taken out"
    },
    {
     "id": "d",
-    "text": "Waiting until menstruation returns before starting any contraceptive method"
+    "text": "It needs a monthly injection to keep it working, given at the clinic by a nurse"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"A progestogen-only method such as the implant, which does not affect milk supply\". Progestogen-only methods, including the implant, the injectable and the progestogen-only pill, do not reduce milk production and can be used from six weeks after birth in a breastfeeding woman, and often earlier. The implant additionally offers three to five years of protection with nothing to remember, which suits a woman with a new baby. Spacing pregnancies by at least two years reduces maternal and infant mortality, so postpartum contraception is a survival intervention rather than a lifestyle choice.\n\nWhy the other options fail:\n• B — Combined pills contain oestrogen, which reduces milk volume and is generally avoided during the first six months of breastfeeding. Cycle control is not the relevant priority here.\n• C — Lactational amenorrhoea is only reliable while all three conditions hold: exclusive breastfeeding, amenorrhoea and a baby under six months. It cannot be depended on for twelve months.\n• D — Waiting for menstruation is unsafe because ovulation precedes the first period, so a woman can conceive before she has any warning that fertility has returned.\n\nReference: WHO medical eligibility criteria; Ghana Health Service family planning",
-  "strategy": "When choosing a method for a breastfeeding woman, screen first on whether it contains oestrogen. That single question eliminates most unsuitable options immediately.",
+  "rationale": "CORRECT (A) — \"It works for three years, and her fertility returns quickly once it is removed\". The implant is a small rod placed under the skin of the upper arm that releases a progestogen steadily; the etonogestrel implant is licensed for three years, and a woman should be told the date it must be changed. Because it does not contain oestrogen it suits her whether or not she is breastfeeding. Removal is a small procedure, and ovulation usually returns within a few weeks, which is what to tell a woman who may want another child. Nothing about it needs a monthly visit.\n\nWhy the other options fail:\n• B — Six-monthly replacement is wrong; the implant is not tied to the immunisation schedule.\n• C — The effect ends when the rod comes out; it does not linger for a year afterwards.\n• D — It is not an injectable, and there is nothing to give monthly.\n\nReference: WHO — family planning: a global handbook for providers; Ghana STG — family planning\n",
+  "strategy": "A rod in the arm, three years' cover, and fertility back within weeks of removal. No oestrogen, so breastfeeding is no obstacle.",
   "difficulty": "medium",
   "tags": [
    "maternal-newborn",
