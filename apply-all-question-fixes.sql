@@ -95,8 +95,9 @@
 --   question-fixes-batch85.sql   5   four triples: BP rate, gas rule, digoxin antibody, accreta, cholestasis
 --   question-fixes-batch86.sql   6   praevia plan, fluid tonicity, ECG leads, Battle's sign, HELLP
 --   question-fixes-batch87.sql   5   five pairs: AVN, exchange transfusion, shared cuff, implant, VTE
+--   question-fixes-batch88.sql   4   four pairs: abortion law, torsion, paediatric DKA, two identifiers
 --
--- Total: 2615 UPDATE statements.
+-- Total: 2619 UPDATE statements.
 -- Run the verification block at the end to confirm the repair landed.
 -- ============================================================================
 
@@ -22071,6 +22072,97 @@ $q$,
 WHERE authored_id = $q$NG-OBS-0559$q$;
 
 -- Verify: expect 5
+COMMIT;
+
+-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>  question-fixes-batch88.sql  <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+-- Batch 88: four pairs: abortion law, ovarian torsion, paediatric DKA, patient identification.
+--
+-- four more pairs, and two drafts rejected on the neighbour check.
+-- 
+-- wound cleansing  ADV-0133 keeps "saline or clean water". CLP-2850 now
+--                  carries Ghana's grounds for lawful termination.
+-- pulmonary oedema CVM-1495 keeps "sit up and give oxygen". MSN-2690 now
+--                  takes ovarian torsion - sudden unilateral pain and
+--                  vomiting in a young woman is theatre, not a hot water
+--                  bottle.
+-- SAM antibiotics  CHD-1776 keeps "the immune response is too weak to
+--                  show signs". CPD-1949 now takes paediatric DKA and
+--                  why a child's fluid is slower than an adult's:
+--                  cerebral oedema.
+-- phantom limb     SGY-0781 keeps "the pain is real". MSN-2764 now takes
+--                  patient identification - two identifiers, never the
+--                  bed number.
+-- 
+-- Rejected: neonatal sepsis (CHD-1744 is the same question already),
+-- swab counts (SUR-0335), protective isolation, organ donation,
+-- cerebral palsy, caput and cephalhaematoma.
+BEGIN;
+
+UPDATE questions SET
+  stem = $q$Under Ghanaian law, in which of these circumstances is a pregnancy allowed to be terminated?$q$,
+  choices = $q$[{"id": "a", "text": "Whenever the woman asks for it herself, since the decision belongs to her and to nobody else"}, {"id": "b", "text": "Only when the woman is married, so that her husband is able to give his consent"}, {"id": "c", "text": "Whenever the pregnancy is unplanned, provided it is before twelve weeks"}, {"id": "d", "text": "When the pregnancy resulted from rape or incest, or threatens her health"}]$q$::jsonb,
+  correct_choice_id = $q$d$q$,
+  rationale = $q$CORRECT (D) — "When the pregnancy resulted from rape or incest, or threatens her health". Ghana's Criminal Code, as amended in 1985, permits termination in defined situations: where the pregnancy is the result of rape, incest or defilement; where continuing it would involve a risk to her life or injury to her physical or mental health; and where there is a substantial risk that the child would be born with a serious physical or mental abnormality. The procedure must be done in an approved facility by a registered practitioner, with the written consent of two doctors except in an emergency. What the law does not permit is termination on request, or on the decision of a husband.
+
+Why the other options fail:
+• A — The law sets out grounds; it is not a matter of the woman's request alone.
+• B — A husband's consent is not the legal test, and marital status is irrelevant to the grounds.
+• C — An unplanned pregnancy is not itself a lawful ground, and there is no twelve-week rule that makes it one.
+
+Reference: Ghana Criminal Code (Amendment) Act 1985, PNDCL 102C; Ghana STG — reproductive health
+$q$,
+  strategy = $q$Four grounds: rape, incest or defilement; risk to life or health; serious fetal abnormality; and two doctors in an approved facility.$q$
+WHERE authored_id = $q$NG-CLP-2850$q$;
+
+UPDATE questions SET
+  stem = $q$A 19-year-old has sudden severe pain in the right lower abdomen with vomiting, and can hardly walk. What should the nurse do?$q$,
+  choices = $q$[{"id": "a", "text": "Report it at once as a possible ovarian torsion, which needs surgery quickly"}, {"id": "b", "text": "Give a hot water bottle and an antispasmodic, then reassess her in two hours"}, {"id": "c", "text": "Encourage her to walk about, since movement helps colicky abdominal pain settle"}, {"id": "d", "text": "Reassure her that period pain is common at her age and give her paracetamol"}]$q$::jsonb,
+  correct_choice_id = $q$a$q$,
+  rationale = $q$CORRECT (A) — "Report it at once as a possible ovarian torsion, which needs surgery quickly". When an ovary twists on its pedicle the blood supply is cut off, and the ovary dies within hours. The picture is sudden, severe, unilateral pain with vomiting, a girl who cannot straighten up, and often a history of shorter bouts of the same pain from earlier partial twists. There may or may not be a mass to feel. The diagnosis is clinical and supported by ultrasound, and the treatment is immediate surgery with detorsion, because an ovary released in time can be saved. Analgesia does not obscure the diagnosis and should not be withheld while she waits.
+
+Why the other options fail:
+• B — Heat and an antispasmodic treat colic, and two hours is time the ovary does not have.
+• C — Walking does not settle a twisted pedicle and increases her pain.
+• D — Period pain is cramping and bilateral, not sudden, unilateral and prostrating.
+
+Reference: Ghana STG — gynaecological emergencies; RCOG — ovarian torsion
+$q$,
+  strategy = $q$Sudden unilateral pelvic pain with vomiting in a young woman is a twisted ovary until proven otherwise. Theatre, not a hot water bottle.$q$
+WHERE authored_id = $q$NG-MSN-2690$q$;
+
+UPDATE questions SET
+  stem = $q$A six-year-old with newly diagnosed diabetes is drowsy, breathing deeply and has a blood glucose of 29 mmol/L with ketones in the urine. Why must his fluids be given more slowly than an adult's?$q$,
+  choices = $q$[{"id": "a", "text": "Because a child's veins cannot take fluid quickly, and the cannula would blow"}, {"id": "b", "text": "Because the insulin will not work until the fluid has been given over two days"}, {"id": "c", "text": "Because rapid fluid in a child with ketoacidosis can cause cerebral oedema"}, {"id": "d", "text": "Because children need less fluid in total, so the same volume takes longer"}]$q$::jsonb,
+  correct_choice_id = $q$c$q$,
+  rationale = $q$CORRECT (C) — "Because rapid fluid in a child with ketoacidosis can cause cerebral oedema". Cerebral oedema is the leading cause of death in paediatric diabetic ketoacidosis, and it is provoked by the treatment as much as by the illness: fluid boluses and a rapid fall in glucose and osmolality pull water into brain cells. That is why children are rehydrated more cautiously than adults, with the deficit replaced over about 48 hours, insulin started as an infusion at a weight-based rate, and the glucose allowed to fall steadily rather than quickly. The nurse watches for the warning signs — a headache, a falling level of consciousness, a slowing pulse — and reports them at once, because they herald the oedema.
+
+Why the other options fail:
+• A — Vein size is not the reason; the danger is in the brain, not the arm.
+• B — Insulin is started early, alongside fluid; it does not wait for the fluid to finish.
+• D — The volume is calculated from weight, but the reason for the slower rate is the risk of cerebral oedema, not the size of the volume.
+
+Reference: WHO — emergency triage assessment and treatment in children; ISPAD — paediatric diabetic ketoacidosis guidance
+$q$,
+  strategy = $q$In a child with DKA the brain is the organ at risk. Slow fluid, steady glucose, watch for headache and drowsiness.$q$
+WHERE authored_id = $q$NG-CPD-1949$q$;
+
+UPDATE questions SET
+  stem = $q$A nurse is about to give an injection on a ward where two patients share the same first and last name. What should she check?$q$,
+  choices = $q$[{"id": "a", "text": "The bed number, because the patient is in the bed named on the drug chart"}, {"id": "b", "text": "The full name together with the date of birth or the hospital number"}, {"id": "c", "text": "That the patient recognises the name written on the prescription chart"}, {"id": "d", "text": "The ward's daily list, which shows where each patient has been placed"}]$q$::jsonb,
+  correct_choice_id = $q$b$q$,
+  rationale = $q$CORRECT (B) — "The full name together with the date of birth or the hospital number". Two identifiers, checked against the patient's own wristband and the prescription chart, is the rule before any drug, blood product or procedure. Names repeat, and a ward can hold two patients with the same name on the same day, which is exactly when the harm happens. A bed number is not an identifier because patients move and beds are re-allocated; asking the patient to agree with a name she cannot see is not a check; and a ward list tells you where people are, not who they are.
+
+Why the other options fail:
+• A — Bed numbers change and are not unique to a person.
+• C — Asking a confused or drowsy patient to confirm a name she has not seen tests nothing.
+• D — The ward list records placement, not identity.
+
+Reference: WHO — patient safety solutions: patient identification; Ghana Health Service — patient safety guidance
+$q$,
+  strategy = $q$Two identifiers, from the wristband, every time. Never the bed, never the room, never a nod from the patient.$q$
+WHERE authored_id = $q$NG-MSN-2764$q$;
+
+-- Verify: expect 4
 COMMIT;
 
 -- ============================================================================

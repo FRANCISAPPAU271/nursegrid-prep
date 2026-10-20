@@ -66698,28 +66698,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CPD-1949",
   "categorySlug": "pediatrics",
-  "stem": "Why is a severely malnourished child given antibiotics even without signs of infection?",
+  "stem": "A six-year-old with newly diagnosed diabetes is drowsy, breathing deeply and has a blood glucose of 29 mmol/L with ketones in the urine. Why must his fluids be given more slowly than an adult's?",
   "choices": [
    {
     "id": "a",
-    "text": "Antibiotics improve the absorption of the therapeutic feeds"
+    "text": "Because a child's veins cannot take fluid quickly, and the cannula would blow"
    },
    {
     "id": "b",
-    "text": "The usual signs of infection cannot be produced by her body"
+    "text": "Because the insulin will not work until the fluid has been given over two days"
    },
    {
     "id": "c",
-    "text": "All malnourished children are known to carry intestinal parasites"
+    "text": "Because rapid fluid in a child with ketoacidosis can cause cerebral oedema"
    },
    {
     "id": "d",
-    "text": "Antibiotics prevent the diarrhoea that feeding usually causes"
+    "text": "Because children need less fluid in total, so the same volume takes longer"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"The usual signs of infection cannot be produced by her body\". Fever, raised white cells and inflammation all require a functioning immune response, and <strong>a severely malnourished child cannot mount one — so serious infection is usually present and usually silent</strong>. Waiting for signs means waiting for a child who cannot produce them. Routine antibiotic cover is therefore part of the standard protocol, and <strong>hypothermia rather than fever is often the only clue that infection is present</strong>.\n\nWhy the other options fail:\n• A — Antibiotics are not given to aid absorption.\n• C — Deworming is handled separately and later.\n• D — Antibiotics are not given to prevent feeding-related diarrhoea.\n\nReference: WHO severe acute malnutrition",
-  "strategy": "No immune response means no signs. Treat the infection you cannot see.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Because rapid fluid in a child with ketoacidosis can cause cerebral oedema\". Cerebral oedema is the leading cause of death in paediatric diabetic ketoacidosis, and it is provoked by the treatment as much as by the illness: fluid boluses and a rapid fall in glucose and osmolality pull water into brain cells. That is why children are rehydrated more cautiously than adults, with the deficit replaced over about 48 hours, insulin started as an infusion at a weight-based rate, and the glucose allowed to fall steadily rather than quickly. The nurse watches for the warning signs — a headache, a falling level of consciousness, a slowing pulse — and reports them at once, because they herald the oedema.\n\nWhy the other options fail:\n• A — Vein size is not the reason; the danger is in the brain, not the arm.\n• B — Insulin is started early, alongside fluid; it does not wait for the fluid to finish.\n• D — The volume is calculated from weight, but the reason for the slower rate is the risk of cerebral oedema, not the size of the volume.\n\nReference: WHO — emergency triage assessment and treatment in children; ISPAD — paediatric diabetic ketoacidosis guidance\n",
+  "strategy": "In a child with DKA the brain is the organ at risk. Slow fluid, steady glucose, watch for headache and drowsiness.",
   "difficulty": "medium",
   "tags": [
    "pediatrics",
@@ -92262,28 +92262,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2690",
   "categorySlug": "med-surg",
-  "stem": "A patient in Kumasi becomes acutely breathless overnight, coughs frothy pink sputum and has crackles throughout both lungs. What is the immediate nursing action?",
+  "stem": "A 19-year-old has sudden severe pain in the right lower abdomen with vomiting, and can hardly walk. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "Sit the patient upright with the legs dependent and give high-flow oxygen"
+    "text": "Report it at once as a possible ovarian torsion, which needs surgery quickly"
    },
    {
     "id": "b",
-    "text": "Lie the patient flat and elevate the legs to improve venous return"
+    "text": "Give a hot water bottle and an antispasmodic, then reassess her in two hours"
    },
    {
     "id": "c",
-    "text": "Give a large intravenous fluid bolus to support the blood pressure"
+    "text": "Encourage her to walk about, since movement helps colicky abdominal pain settle"
    },
    {
     "id": "d",
-    "text": "Encourage the patient to walk to the bathroom to relieve the congestion"
+    "text": "Reassure her that period pain is common at her age and give her paracetamol"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Sit the patient upright with the legs dependent and give high-flow oxygen\". Frothy pink sputum with widespread crackles and sudden nocturnal breathlessness indicates acute pulmonary oedema, in which fluid has been forced from the pulmonary capillaries into the alveoli and gas exchange is failing. Sitting the patient upright with the legs dependent pools blood in the lower limbs and reduces the volume returning to an already overloaded left ventricle, while allowing maximum diaphragmatic movement. Oxygen is given, help is summoned, and the medical treatment is diuresis rather than fluid. Lying flat or raising the legs increases venous return and worsens the flooding. The principle is that reducing preload relieves the congested lung.\n\nWhy the other options fail:\n• B — Lying flat with legs raised increases venous return to a ventricle that cannot handle its current load.\n• C — A fluid bolus adds to the circulating volume and drowns the lungs further.\n• D — Exertion in acute pulmonary oedema increases oxygen demand in a patient who is already failing to oxygenate.\n\nReference: Standard management of acute heart failure",
-  "strategy": "Ask whether the problem is too much volume or too little. In pulmonary oedema everything that reduces venous return helps.",
+  "rationale": "CORRECT (A) — \"Report it at once as a possible ovarian torsion, which needs surgery quickly\". When an ovary twists on its pedicle the blood supply is cut off, and the ovary dies within hours. The picture is sudden, severe, unilateral pain with vomiting, a girl who cannot straighten up, and often a history of shorter bouts of the same pain from earlier partial twists. There may or may not be a mass to feel. The diagnosis is clinical and supported by ultrasound, and the treatment is immediate surgery with detorsion, because an ovary released in time can be saved. Analgesia does not obscure the diagnosis and should not be withheld while she waits.\n\nWhy the other options fail:\n• B — Heat and an antispasmodic treat colic, and two hours is time the ovary does not have.\n• C — Walking does not settle a twisted pedicle and increases her pain.\n• D — Period pain is cramping and bilateral, not sudden, unilateral and prostrating.\n\nReference: Ghana STG — gynaecological emergencies; RCOG — ovarian torsion\n",
+  "strategy": "Sudden unilateral pelvic pain with vomiting in a young woman is a twisted ovary until proven otherwise. Theatre, not a hot water bottle.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -94812,28 +94812,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2764",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana who has had a leg amputated describes severe pain in the foot that is no longer there. How should the nurse respond?",
+  "stem": "A nurse is about to give an injection on a ward where two patients share the same first and last name. What should she check?",
   "choices": [
    {
     "id": "a",
-    "text": "Explain that the limb is gone so the pain cannot be genuinely felt"
+    "text": "The bed number, because the patient is in the bed named on the drug chart"
    },
    {
     "id": "b",
-    "text": "Ignore the report, since acknowledging it will reinforce the sensation"
+    "text": "The full name together with the date of birth or the hospital number"
    },
    {
     "id": "c",
-    "text": "Tell him the sensation will disappear within a few days without treatment"
+    "text": "That the patient recognises the name written on the prescription chart"
    },
    {
     "id": "d",
-    "text": "Accept the pain as real, explain phantom limb pain and ensure it is treated"
+    "text": "The ward's daily list, which shows where each patient has been placed"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Accept the pain as real, explain phantom limb pain and ensure it is treated\". Phantom limb pain is a genuine neuropathic phenomenon arising from reorganisation in the peripheral and central nervous system after amputation, and it affects the majority of amputees. The pain is experienced as real because it is real: the nervous system, not the absent limb, is generating it. Telling a patient the pain cannot exist is both untrue and damaging to trust, and it deters them from reporting it. Management uses neuropathic agents rather than simple analgesics alone, alongside mirror therapy, desensitisation, good stump care and psychological support. It can persist for years. The principle is that pain generated by the nervous system is as real as pain from tissue damage.\n\nWhy the other options fail:\n• A — Denying the reality of the pain is factually wrong and destroys the patient's trust.\n• B — Ignoring reported pain does not reduce it and leaves a treatable condition untreated.\n• C — Phantom pain frequently persists for months or years and requires active management.\n\nReference: Standard amputation rehabilitation care",
-  "strategy": "Accept the patient's report of pain in every question. Explaining the mechanism is helpful; denying the experience never is.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"The full name together with the date of birth or the hospital number\". Two identifiers, checked against the patient's own wristband and the prescription chart, is the rule before any drug, blood product or procedure. Names repeat, and a ward can hold two patients with the same name on the same day, which is exactly when the harm happens. A bed number is not an identifier because patients move and beds are re-allocated; asking the patient to agree with a name she cannot see is not a check; and a ward list tells you where people are, not who they are.\n\nWhy the other options fail:\n• A — Bed numbers change and are not unique to a person.\n• C — Asking a confused or drowsy patient to confirm a name she has not seen tests nothing.\n• D — The ward list records placement, not identity.\n\nReference: WHO — patient safety solutions: patient identification; Ghana Health Service — patient safety guidance\n",
+  "strategy": "Two identifiers, from the wristband, every time. Never the bed, never the room, never a nod from the patient.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -97756,28 +97756,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2850",
   "categorySlug": "med-surg",
-  "stem": "What is the appropriate solution for routinely cleansing a granulating wound in Ghana?",
+  "stem": "Under Ghanaian law, in which of these circumstances is a pregnancy allowed to be terminated?",
   "choices": [
    {
     "id": "a",
-    "text": "Full strength hydrogen peroxide applied vigorously at every dressing change"
+    "text": "Whenever the woman asks for it herself, since the decision belongs to her and to nobody else"
    },
    {
     "id": "b",
-    "text": "Undiluted antiseptic solution scrubbed firmly across the wound bed"
+    "text": "Only when the woman is married, so that her husband is able to give his consent"
    },
    {
     "id": "c",
-    "text": "Cold water straight from the tap, delivered under high pressure"
+    "text": "Whenever the pregnancy is unplanned, provided it is before twelve weeks"
    },
    {
     "id": "d",
-    "text": "Warmed normal saline or clean potable water, applied with gentle irrigation"
+    "text": "When the pregnancy resulted from rape or incest, or threatens her health"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Warmed normal saline or clean potable water, applied with gentle irrigation\". Granulation tissue is fragile and newly formed, so cleansing aims to remove debris without destroying the cells that are rebuilding the wound. Warmed normal saline or clean potable water delivered by gentle irrigation achieves that, while warming avoids cooling the wound bed, since a chilled wound takes hours to return to the temperature at which cell division proceeds. Hydrogen peroxide and strong antiseptics are cytotoxic and damage granulation and epithelium along with the bacteria, and scrubbing tears the new tissue. Antiseptics have a limited place in specific infected or contaminated wounds on advice. The principle is that whatever kills bacteria in a wound usually kills the healing cells too.\n\nWhy the other options fail:\n• A — Hydrogen peroxide is cytotoxic to granulation tissue and offers no routine benefit.\n• B — Scrubbing with undiluted antiseptic destroys the fragile new tissue being formed.\n• C — Cold high-pressure water chills the wound bed and can drive contamination deeper.\n\nReference: Standard wound cleansing guidance",
-  "strategy": "Remember that antiseptics do not distinguish bacteria from healing cells. Gentle and isotonic is the routine answer.",
+  "rationale": "CORRECT (D) — \"When the pregnancy resulted from rape or incest, or threatens her health\". Ghana's Criminal Code, as amended in 1985, permits termination in defined situations: where the pregnancy is the result of rape, incest or defilement; where continuing it would involve a risk to her life or injury to her physical or mental health; and where there is a substantial risk that the child would be born with a serious physical or mental abnormality. The procedure must be done in an approved facility by a registered practitioner, with the written consent of two doctors except in an emergency. What the law does not permit is termination on request, or on the decision of a husband.\n\nWhy the other options fail:\n• A — The law sets out grounds; it is not a matter of the woman's request alone.\n• B — A husband's consent is not the legal test, and marital status is irrelevant to the grounds.\n• C — An unplanned pregnancy is not itself a lawful ground, and there is no twelve-week rule that makes it one.\n\nReference: Ghana Criminal Code (Amendment) Act 1985, PNDCL 102C; Ghana STG — reproductive health\n",
+  "strategy": "Four grounds: rape, incest or defilement; risk to life or health; serious fetal abnormality; and two doctors in an approved facility.",
   "difficulty": "easy",
   "tags": [
    "med-surg",
