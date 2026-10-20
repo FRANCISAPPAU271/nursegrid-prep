@@ -6711,7 +6711,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "Cough deeply from the chest, ideally on rising, into a sterile container",
+  "rationale": "CORRECT (A) — \"Cough deeply from the chest, ideally on rising, into a sterile container\". A diagnostic specimen must be <strong>sputum from the lower airway, not saliva</strong>. An early morning specimen contains secretions pooled overnight and has the highest yield. The patient is asked to rinse with plain water, breathe deeply and cough from the chest, ideally in a well-ventilated area or outdoors to protect others.\n\nWhy the other options fail:\n• B — Saliva is the commonest reason specimens are rejected, since it does not come from the infected lung tissue.\n• C — A large meal makes coughing uncomfortable and risks vomiting. It does not improve yield.\n• D — Antiseptic mouthwash may inhibit the organism and interfere with the result. Plain water is used.\n\nReference: Ghana National Tuberculosis Programme",
   "strategy": "Ask where the pathology is and make sure the specimen comes from there. For tuberculosis that means deep chest sputum, collected early, in a way that protects others from aerosol.",
   "difficulty": "medium",
   "tags": [
@@ -22709,28 +22709,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PFC-0662",
   "categorySlug": "fundamentals",
-  "stem": "How can a nurse in Ghana **best** check that a patient has understood his discharge instructions?",
+  "stem": "A patient who cannot read is asked to sign a consent form for an operation. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "Ask him whether he has understood everything that has been explained to him"
+    "text": "Ask him to make a thumbprint on the form instead of signing his name"
    },
    {
     "id": "b",
-    "text": "Give him a written sheet containing all of the instructions to take home"
+    "text": "Sign the form on his behalf, since he cannot read the words himself"
    },
    {
     "id": "c",
-    "text": "Repeat the instructions a second time slowly before he leaves the ward"
+    "text": "Ask a relative to read the form to him and then witness his signature"
    },
    {
     "id": "d",
-    "text": "Ask him to explain in his own words what he will do when he gets home"
+    "text": "Read it to him, check that he understands, and record that you did"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Ask him to explain in his own words what he will do when he gets home\". Asking the patient to <strong>teach it back in his own words</strong> is the only method that reveals what actually reached him. Patients almost always answer yes to <strong>do you understand</strong>, out of politeness, embarrassment or a wish not to seem slow. Teach-back also exposes <strong>which part was misunderstood</strong>, so the nurse re-explains only that piece — and it checks the nurse's explanation rather than testing the patient.\n\nWhy the other options fail:\n• A — A closed question invites a polite yes and confirms nothing about actual understanding.\n• B — Written material assumes literacy and vision, and gives no feedback about what was understood.\n• C — Repetition may help but still provides no evidence that anything was retained or understood.\n\nReference: Ghana nursing curriculum — patient education",
-  "strategy": "Never accept yes as evidence of understanding. Ask the person to say it back, and listen for what is missing.",
+  "rationale": "CORRECT (D) — \"Read it to him, check that he understands, and record that you did\". Being unable to read is <strong>not the same as being unable to consent</strong>. The right that has to be protected is the right to information he can understand, so the form is read aloud — in his own language, with an interpreter where the nurse does not share it — and the nurse satisfies herself that he knows what the operation is, why it is being done and what the alternatives are. The record then shows how consent was obtained, which is what protects both the patient and the team.\n\nWhy the other options fail:\n• A — A thumbprint is an acceptable mark, but it is only a signature; it does not show that anything was explained to him.\n• B — Only the patient can give consent, and a nurse's signature in his place is a false record.\n• C — A relative may filter or soften the information, and the duty to inform rests with the team, not the family.\n\nReference: Ghana Patients' Charter; NMC Ghana Code of Conduct — consent",
+  "strategy": "Illiteracy is not incapacity. Read it, check it landed, write down how you did it.",
   "difficulty": "medium",
   "tags": [
    "fundamentals",
@@ -42060,28 +42060,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PKD-1228",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A doctor gives a drug order by telephone during an emergency. What must the nurse do?",
+  "stem": "A patient has had two doses of paracetamol 1 g today and has also taken a cold and flu remedy he bought himself. He now asks for another dose for headache. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "Give the drug and rely on memory to describe the order if asked"
+    "text": "Give the dose, because two grams in a day is well inside the safe limit"
    },
    {
     "id": "b",
-    "text": "Refuse the order entirely because verbal orders are never acceptable"
+    "text": "Give the dose and record it, since the cold remedy was not prescribed here"
    },
    {
     "id": "c",
-    "text": "Write it down, read it back for confirmation, and have it signed later"
+    "text": "Add up the paracetamol in everything he has taken before giving any more"
    },
    {
     "id": "d",
-    "text": "Ask the doctor to attend in person before any drug can be given"
+    "text": "Refuse, and tell him he must never buy a medicine for himself again"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Write it down, read it back for confirmation, and have it signed later\". Verbal orders are accepted in genuine emergencies precisely because delay would harm the patient, but they carry a real risk of <strong>mishearing a drug name, dose or route</strong>. The safeguard is <strong>write down, read back, confirm</strong> — saying the whole order aloud to the prescriber catches the error while it can still be corrected. The order is then countersigned as soon as practicable. Relying on memory leaves no record and no check at all.\n\nWhy the other options fail:\n• A — Memory is unreliable and leaves no verifiable record of what was ordered.\n• B — Blanket refusal would harm patients in genuine emergencies where verbal orders are permitted.\n• D — Insisting on attendance in an emergency wastes the time the order was meant to save.\n\nReference: Ghana nursing curriculum — RGN 207 drug safety",
-  "strategy": "For any spoken instruction, read it back. Repetition aloud is the cheapest error check that exists.",
+  "rationale": "CORRECT (C) — \"Add up the paracetamol in everything he has taken before giving any more\". Paracetamol is the active ingredient in a long list of cold, flu and headache remedies sold without prescription, and <strong>the liver does not care which box the drug came from</strong>. The adult ceiling is four grams in twenty-four hours, and less in a patient with liver disease, low body weight or regular alcohol use. The nurse's task is to <strong>total every source before adding another dose</strong>, and if the total is close to the ceiling, to withhold the dose and explain why rather than simply record it.\n\nWhy the other options fail:\n• A — Two grams on the ward chart says nothing about the paracetamol inside the remedy he bought.\n• B — Recording the dose does not remove what he has already swallowed, and where it was prescribed is irrelevant to his total.\n• D — A blanket ban is not the issue; the same man will need analgesia again tomorrow, and the count is what makes it safe.\n\nReference: Ghana STG — paracetamol dosing; Ghana nursing curriculum — RGN 207 drug safety",
+  "strategy": "Paracetamol appears in more places than the drug chart. Total the day before adding to it.",
   "difficulty": "hard",
   "tags": [
    "pharmacology-parenteral",
@@ -42366,28 +42366,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PKD-1237",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "How can a nurse **best** confirm that a patient understands a new medicine regimen?",
+  "stem": "A patient on a ward asks why his antibiotic cannot be given at 8 am, 1 pm and 6 pm so that he can sleep through the night. What is the nurse's best explanation?",
   "choices": [
    {
     "id": "a",
-    "text": "Ask the patient to explain the plan back in his own words"
+    "text": "Even spacing keeps the level above what the bacteria need all night"
    },
    {
     "id": "b",
-    "text": "Ask the patient whether he has understood the instructions given"
+    "text": "The times fit the ward round, so doses are given while doctors are present"
    },
    {
     "id": "c",
-    "text": "Give the patient a printed leaflet and ask him to read it at home"
+    "text": "The drug is absorbed only while the patient is awake and sitting upright"
    },
    {
     "id": "d",
-    "text": "Repeat the instructions a second time more slowly and clearly"
+    "text": "Closer spacing during the day would exceed the daily limit for the drug"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Ask the patient to explain the plan back in his own words\". Asking whether someone has understood reliably produces a yes, because agreeing is easier than admitting confusion to a busy nurse — particularly where there is a difference in status, language or literacy. <strong>Teach-back</strong> shifts the test from the patient to the teaching: if he cannot explain it back, the explanation was not clear enough. It also <strong>reveals exactly which part was misunderstood</strong>, which repetition and leaflets never do.\n\nWhy the other options fail:\n• B — A closed question invites a polite yes and confirms nothing at all.\n• C — A leaflet assumes literacy and provides no check of understanding.\n• D — Repetition delivers the same information again without testing what was received.\n\nReference: Ghana nursing curriculum — RGN 207 drug safety",
-  "strategy": "Understanding is confirmed by what the patient says back, never by a nod.",
+  "rationale": "CORRECT (A) — \"Even spacing keeps the level above what the bacteria need all night\". Most antibiotics kill by staying above the concentration the organism is susceptible to for as long as possible, not by reaching a high peak. Six-hourly or eight-hourly dosing exists to <strong>hold that level steady across the whole twenty-four hours</strong>. Give all three doses between breakfast and bedtime and the patient gets peaks he does not need and then a long overnight trough, which is exactly when the surviving bacteria multiply. The practical answer is to keep the interval even and shift the whole schedule earlier — six in the morning, two in the afternoon, ten at night — rather than to squeeze the doses into the day.\n\nWhy the other options fail:\n• B — Ward convenience is not a pharmacological reason, and clustering the doses is the harm being avoided.\n• C — Absorption does not depend on being awake, and a patient can be roused briefly for a dose.\n• D — The twenty-four-hour total is unchanged by clustering; the problem is the trough, not the total.\n\nReference: Ghana STG — antimicrobial prescribing; Ghana nursing curriculum — RGN 207 drug safety",
+  "strategy": "Space it evenly. Clustering the doses buys sleep and loses the level.",
   "difficulty": "hard",
   "tags": [
    "pharmacology-parenteral",
@@ -75163,7 +75163,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "List and witness the items with the patient and store them securely",
+  "rationale": "CORRECT (A) — \"List and witness the items with the patient and store them securely\". Valuables are <strong>itemised in front of the patient, signed by both, and lodged in the facility's safe or secure store with a receipt</strong>. The list is what prevents the dispute that follows when something is missing. Handing property to a relative or a colleague without that record creates exactly the accusation the procedure exists to prevent.\n\nWhy the other options fail:\n• B — A patient in a hospital gown on a busy ward cannot safeguard a gold chain and cash, and the loss becomes the ward's problem.\n• C — A relative may not be the person the patient wants to hold her property, and without a record there is no proof of what was handed over.\n• D — The clerk has no custody procedure and no witnessed list, so the item is unprotected.\n\nReference: Ghana Health Service ward administration; NMC Ghana Code of Conduct",
   "strategy": "Count it, sign it, lock it, receipt it. The list is the protection.",
   "difficulty": "hard",
   "tags": [
@@ -75271,7 +75271,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "That the patient signed the form himself, without pressure",
+  "rationale": "CORRECT (C) — \"That the patient signed the form himself, without pressure\". The witness signs to the <strong>act of signing</strong> — that this patient, identified to the nurse, put his own signature on the form and was not under pressure at the time. The adequacy of the explanation is the responsibility of the person obtaining consent, and the clinical appropriateness of the operation is a medical judgement. A nurse who is asked to witness should confirm that the discussion took place before she signs, because her signature is used to imply that the process was properly carried out.\n\nWhy the other options fail:\n• A — Appropriateness is a judgement for the surgeon who will perform it.\n• B — Whether the patient understood is tested by the person who explained, and cannot be certified by a bystander.\n• D — The nurse is not in a position to vouch for what the surgeon said unless she heard it.\n\nReference: Ghana Patients' Charter; NMC Ghana Code of Conduct",
   "strategy": "A witness signs to the signature and the freedom to give it — nothing more.",
   "difficulty": "medium",
   "tags": [
@@ -75411,7 +75411,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "Accept only what she can safely staff and record the risk she has raised",
+  "rationale": "CORRECT (B) — \"Accept only what she can safely staff and record the risk she has raised\". The nurse is accountable for the care she accepts, and an unsafe ratio is a risk she must <strong>escalate to the person in charge and to the next level of management, in writing and at the time</strong>, not merely absorb in silence. Accepting what can be safely done, recording the concern and the response, is what protects patients and protects the nurse when the incident that follows is reviewed.\n\nWhy the other options fail:\n• A — Abandonment means leaving patients unattended; raising a concern about staffing is not abandonment.\n• C — Working faster does not create the second pair of hands, and it hides the risk from everyone who could act on it.\n• D — Walking off the ward leaves the patients uncovered; the Council is not the first line of escalation.\n\nReference: NMC Ghana Code of Conduct; Ghana Health Service staffing escalation policy",
   "strategy": "Never absorb an unsafe ratio in silence. Escalate it, write it, and accept only what is safe.",
   "difficulty": "medium",
   "tags": [
@@ -75729,7 +75729,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "Report the death to the police and let the proper authority certify it",
+  "rationale": "CORRECT (A) — \"Report the death to the police and let the proper authority certify it\". A death whose cause is unknown, violent or unexplained is <strong>a reportable death</strong>: it goes to the police, and the certification follows the coronial route rather than the ward's convenience. Writing a cause the team cannot know, or taking one from a relative, creates a false record and can destroy the evidence an inquest needs. The body is left undisturbed with the lines and tubes in place until the authority has been informed.\n\nWhy the other options fail:\n• B — A nurse cannot certify a cause of death, and inventing one is a serious record offence.\n• C — A relative's account is not a cause of death, and it is not the basis for a certificate.\n• D — A signature on the ward notes does not make an unexplained death certifiable.\n\nReference: Ghana Public Health Act — registration of deaths; NMC Ghana Code of Conduct",
   "strategy": "Unknown cause means reportable. Police first, certificate later, body undisturbed.",
   "difficulty": "medium",
   "tags": [
@@ -75835,7 +75835,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "Report it and stay off duty until she has been clear for the required period",
+  "rationale": "CORRECT (A) — \"Report it and stay off duty until she has been clear for the required period\". Gastrointestinal illness in a nurse caring for neonates is a <strong>transmission risk that no amount of glove use removes</strong>, because the organism is on her hands, her clothing and everything she touches before she can wash. Staff with diarrhoea and vomiting are excluded from duty until they have been symptom-free for the period the local policy sets, usually 48 hours, and report to occupational health. The neonatal unit is exactly where the consequence of a lapse is worst.\n\nWhy the other options fail:\n• B — Gloves do not stop contamination of the surfaces and linen around the cot.\n• C — The organism travels with the nurse to any ward, and moving her does not protect anyone.\n• D — An antidiarrhoeal suppresses the symptom without removing the infectivity, and attending short-staffed is not a defence.\n\nReference: Ghana IPC guidelines; NMC Ghana Code of Conduct — fitness to practise",
   "strategy": "Her hands carry it to the cots. Stay off, report it, and return when clear.",
   "difficulty": "hard",
   "tags": [
@@ -76223,7 +76223,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "She is entitled to information about her care and may see the record",
+  "rationale": "CORRECT (B) — \"She is entitled to information about her care and may see the record\". Information about a patient belongs to that patient. The Patients' Charter makes information about diagnosis, treatment and prognosis a right, and a request to see the record is <strong>answered by the facility rather than refused because the paper belongs to the hospital</strong>. Where an entry could cause serious harm, the information is shared with the patient in a way that handles that — it is not withheld altogether.\n\nWhy the other options fail:\n• A — The treating doctor explains the record; release is not a personal favour that can be declined.\n• C — Ownership of the paper does not extinguish the patient's right to the information in it.\n• D — Access does not depend on being discharged, and inpatients ask routinely.\n\nReference: Ghana Patients' Charter; NMC Ghana Code of Conduct",
   "strategy": "The file belongs to the hospital; the information belongs to the patient.",
   "difficulty": "hard",
   "tags": [
@@ -76331,7 +76331,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "Meet her, explain how and why the decision was made, and review it",
+  "rationale": "CORRECT (C) — \"Meet her, explain how and why the decision was made, and review it\". A not-for-resuscitation decision is made with the patient where possible, and in their best interests when they cannot take part, and it is <strong>reviewed whenever circumstances or the family's understanding change</strong>. The daughter is not a stranger to the decision — she may hold information about what her father would have wanted, and she may simply have been given the news badly. Listening, explaining the reasoning and reviewing is what the decision requires; neither surrendering it to whoever objects loudest nor treating it as beyond discussion is correct.\n\nWhy the other options fail:\n• A — A relative's objection is a reason to review, not an automatic reversal of a decision made in the patient's interests.\n• B — Ignoring a distressed daughter abandons the family at the moment the decision has to be understood.\n• D — The decision is clinical in its reasoning, but the patient's family are entitled to an explanation and to be heard.\n\nReference: NMC Ghana Code of Conduct; Ghana STG — end-of-life care",
   "strategy": "A DNAR decision is reviewed, not defended. Explain the reasoning and listen for what the family knows.",
   "difficulty": "medium",
   "tags": [
@@ -116042,7 +116042,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "c",
- "rationale": "Bile flow into the intestine is obstructed when the gallbladder contracts",
+ "rationale": "Gallstones can obstruct bile flow, especially after a fatty meal stimulates gallbladder contraction. Bile is needed for fat emulsification and digestion.\n\nWhy the other options fail:\n• A — Fat is not difficult for everyone to digest; in this patient the problem is bile, not fat itself.\n• B — The liver still manufactures bile in cholelithiasis; the obstruction is in flow, not production.\n• D — Fat does not immediately infect the pancreas; the mechanism is enzyme activation and duct obstruction.",
  "strategy": "Relate post-fat meal pain to gallbladder contraction against an obstructed outlet.",
  "difficulty": "hard",
  "tags": [
@@ -117792,7 +117792,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "c",
- "rationale": "Dry the baby, remove the wet linen, and give skin-to-skin contact with a hat",
+ "rationale": "A wet newborn loses heat fast by evaporation, and cold stress drives up oxygen consumption and glucose use. Drying removes the water, dry linen and skin-to-skin contact provide warmth, and a hat reduces loss from the head, which is proportionally large. Option A increases convective loss. Option B leaves the baby wet through the weighing. Option D adds evaporative loss and is not done straight after birth.",
  "strategy": "Wet newborns cool by evaporation. Dry first, then wrap and give the baby to the mother.",
  "difficulty": "hard",
  "tags": [
@@ -117928,7 +117928,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "c",
- "rationale": "Refer urgently, resuscitating cautiously under the severe-malnutrition protocol",
+ "rationale": "Shock in severe acute malnutrition is treated with slower, smaller volumes than in a well-nourished child, because the malnourished heart and circulation tolerate rapid fluid badly and can be tipped into heart failure. The child needs urgent referral and the specific protocol. Option A does not correct shock. Option B risks refeeding syndrome and is not the immediate need. Option D leaves a shocked child untreated.",
  "strategy": "In severe malnutrition, fluids are given slowly and watched closely. Fast boluses cause overload.",
  "difficulty": "hard",
  "tags": [
@@ -118419,7 +118419,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "d",
-  "rationale": "Check the insulin label against the chart at preparation and again at the bedside",
+  "rationale": "Insulin is a high-alert drug, and the independent double check of the vial against the record at preparation and again at the bedside catches the wrong-vial, wrong-strength errors that cause most insulin harm. Two people and two moments, with an insulin-specific syringe. Option A is wrong because shaking denatures the suspension; it is rolled gently. Option B would mix two drugs with different routes and risks. Option C gives unpredictable absorption.",
   "strategy": "Insulin is high alert: two checks, two moments, dedicated syringe. Roll cloudy insulin, never shake.",
   "difficulty": "medium",
   "tags": [
@@ -118771,7 +118771,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "b",
-  "rationale": "Give intravenous glucose or intramuscular glucagon",
+  "rationale": "A glucose of 1.9 mmol/L with an unresponsive client is severe hypoglycaemia, and the airway cannot be protected for oral treatment, so glucose is given parenterally or glucagon is injected while help is called. Option A is unsafe: an unconscious client cannot swallow and will aspirate. Option C would lower the glucose further. Option D allows continuing cerebral glucose deprivation, which can cause permanent injury.",
   "strategy": "Unconscious means nothing by mouth. Intravenous glucose or glucagon instead.",
   "difficulty": "medium",
   "tags": [

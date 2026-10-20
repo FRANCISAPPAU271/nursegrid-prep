@@ -1385,7 +1385,7 @@ export const ORIGINAL_CLINICAL_BATCH_SCREENSHOTS: AuthoredQuestion[] = [
     stem: "A family member asks the nurse why the medical team refers to a hospitalized elder's acute delirium as 'reversible' when the elder appears profoundly confused. What is the nurse's best physiological explanation?",
     choices: [{"id": "a", "text": "Delirium is an acute encephalopathy that resolves once its cause is treated"}, {"id": "b", "text": "Laboratory testing is never required for a patient with acute confusion"}, {"id": "c", "text": "Delirium never causes significant physiological distress to the patient"}, {"id": "d", "text": "Cognitive decline in delirium is permanent and cannot be reversed in any patient"}],
     "correctChoiceId": "a",
-    rationale: "Delirium is an acute encephalopathy that resolves once its cause is treated",
+    rationale: "Delirium is considered a reversible medical syndrome because it is caused by an acute physiological insult (e.g., systemic infection, hypoxemia, electrolyte imbalance, anticholinergic medications, withdrawal). Once the underlying etiology is diagnosed and promptly treated, neurotransmitter balance is restored and the patient generally returns to baseline cognitive status.",
     strategy: "Delirium reversibility: delirium is secondary to a medical insult; treat the underlying physical illness and the delirium resolves.",
     difficulty: "easy",
     tags: ["psychiatric", "delirium", "gerontology", "acute-confusion"],
