@@ -6829,28 +6829,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0198",
   "categorySlug": "health-promotion",
-  "stem": "A man is recovering from extensive burns. Which dietary change is **most important** for his recovery?",
+  "stem": "A patient on a ward is eating, but only about half of what his calculated needs require. What should the nurse do first?",
   "choices": [
    {
     "id": "a",
-    "text": "Reducing his protein intake so as to rest the kidneys while healing"
+    "text": "Offer supplements between meals, not instead of them"
    },
    {
     "id": "b",
-    "text": "Avoiding all fats so that the volume of wound exudate is reduced"
+    "text": "Arrange parenteral nutrition through a central line"
    },
    {
     "id": "c",
-    "text": "Increasing his protein intake to replace losses and rebuild tissue"
+    "text": "Pass a nasogastric tube and start overnight feeds"
    },
    {
     "id": "d",
-    "text": "Restricting his fluids so that the burnt tissue does not swell more"
+    "text": "Leave him, since appetite returns once he is at home"
    }
   ],
-  "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Increasing his protein intake to replace losses and rebuild tissue\". Burns cause enormous <strong>protein loss through exudate</strong> and a hypermetabolic state in which the body breaks down its own muscle. Extra protein supplies amino acids for collagen synthesis, immune function and repair. Energy intake must rise alongside it, or protein is burned as fuel instead of used for healing.\n\nWhy the other options fail:\n• A — Protein restriction belongs to established renal failure, not healing. It starves the repair process of raw material.\n• B — Fat is a concentrated energy source that spares protein for tissue building. Removing it worsens the deficit.\n• D — Burns patients need generous fluid to replace losses. Restriction risks hypovolaemia and renal failure.\n\nReference: Ghana STG — burns management; nutritional support",
-  "strategy": "Ask what the body is losing and what it must rebuild. Burns, major wounds, surgery and sepsis all raise protein and energy needs together. Restriction belongs to organ failure, not to healing.",
+  "correctChoiceId": "a",
+  "rationale": "CORRECT (A) — \"Offer supplements between meals, not instead of them\". The gut that works should be used. If ordinary food covers only half the requirement, the next step is fortified food and oral nutritional supplements given between meals so that they add to the diet rather than replace it, with a dietitian review and a record of intake. Parenteral nutrition needs a central line and carries infection, thrombosis and metabolic risks; it is reserved for a gut that cannot be used. A nasogastric tube is the step after oral measures have been tried, not the first. Doing nothing allows continuing loss of weight and muscle at a time when healing depends on it.",
+  "strategy": "Climb the ladder one rung at a time: food first, then supplements, then tube, then vein. Never skip to the vein.",
   "difficulty": "medium",
   "tags": [
    "health-promotion",
@@ -7651,28 +7651,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0222",
   "categorySlug": "health-promotion",
-  "stem": "A woman weighs 68 kg and is 1.6 metres tall. What is her body mass index and how is it classified?",
+  "stem": "An older woman attending a clinic cannot stand upright long enough to be measured. How should the nurse estimate her height?",
   "choices": [
    {
     "id": "a",
-    "text": "26.6, which falls in the overweight band for an adult"
+    "text": "Measure her knee height and use it to calculate stature"
    },
    {
     "id": "b",
-    "text": "21.3, which falls within the healthy range for an adult"
+    "text": "Ask her what her height was when she was in her twenties"
    },
    {
     "id": "c",
-    "text": "42.5, which falls in the severe obesity band for an adult"
+    "text": "Use the distance from her crown to her heels in bed"
    },
    {
     "id": "d",
-    "text": "17.0, which falls in the underweight band for an adult"
+    "text": "Estimate her height from her shoe size and record it"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"26.6, which falls in the overweight band for an adult\". BMI is weight in kilograms divided by height in metres <strong>squared</strong>. Here 1.6 × 1.6 = 2.56, and 68 ÷ 2.56 = <strong>26.6</strong>, in the overweight band of 25 to 29.9. Sense-check: dividing by height alone gives 42.5, which is exactly the error the third option represents.\n\nWhy the other options fail:\n• B — 21.3 would require a weight of about 54 kg at this height, so it understates her measurement.\n• C — 42.5 comes from dividing by height instead of height squared, the commonest error in this calculation.\n• D — 17.0 indicates significant underweight and does not match the figures given in the question.\n\nReference: Ghana Health Service — adult nutrition assessment",
-  "strategy": "Always square the height first, then divide. Learn the adult bands: under 18.5 underweight, 18.5 to 24.9 healthy, 25 to 29.9 overweight, 30 and above obese.",
+  "rationale": "CORRECT (A) — \"Measure her knee height and use it to calculate stature\". Knee height is measured with the knee and ankle held at right angles and is used to estimate standing height from a published equation; it does not change with age, posture or spinal curvature the way measured length does. Asking what she weighed or measured decades ago relies on memory that is usually overstated and cannot be checked. A crown-to-heel measurement taken in a curled or flexed patient is shorter than her true height, and an adult cannot be stretched out on a bed the way an infant is measured. Shoe size has no fixed relationship to stature and must never be recorded as a measurement.",
+  "strategy": "Height is data, not a recollection. When standing is impossible, use a validated proxy — knee height in adults, recumbent length in infants — and say on the chart how it was obtained.",
   "difficulty": "medium",
   "tags": [
    "health-promotion",
@@ -7960,28 +7960,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0231",
   "categorySlug": "health-promotion",
-  "stem": "A man with chronic kidney disease and a potassium of 6.1 mmol/L asks what he may eat. Which advice is **most appropriate**?",
+  "stem": "A man with advanced chronic kidney disease is told to cut dietary phosphate. Which change matters most?",
   "choices": [
    {
     "id": "a",
-    "text": "Limit high-potassium foods such as banana, avocado and palm nut soup"
+    "text": "Stop cola drinks and processed meats and cheese"
    },
    {
     "id": "b",
-    "text": "Take extra oranges and coconut water to help flush out the potassium"
+    "text": "Stop adding table salt and avoid salted fish at meals"
    },
    {
     "id": "c",
-    "text": "Eat plenty of green leafy vegetables raw so that vitamins are preserved"
+    "text": "Boil vegetables twice and throw away the water"
    },
    {
     "id": "d",
-    "text": "Add potassium-based salt substitute so that ordinary salt can be avoided"
+    "text": "Take a calcium supplement with every single meal"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Limit high-potassium foods such as banana, avocado and palm nut soup\". Failing kidneys cannot excrete potassium, and a level of <strong>6.1 mmol/L is dangerous because it can stop the heart</strong>. The dietary response is to restrict potassium-rich foods, which in Ghana include banana, avocado, palm nut soup, coconut water, oranges and kontomire. Boiling vegetables in plenty of water and discarding it leaches out much of the potassium.\n\nWhy the other options fail:\n• B — Oranges and coconut water are among the richest potassium sources available and would push the level higher.\n• C — Green leafy vegetables carry substantial potassium, and eating them raw retains all of it rather than leaching it out.\n• D — Salt substitutes replace sodium with potassium chloride, making them one of the most hazardous products for this patient.\n\nReference: Ghana STG — chronic kidney disease; dietary management",
-  "strategy": "When a value is already dangerous, the correct option always moves it back towards normal. Read every food option and ask which direction it pushes the number.",
+  "rationale": "CORRECT (A) — \"Stop cola drinks and processed meats and cheese\". Phosphate in the diet comes from two places: phosphate that occurs naturally in protein foods, and phosphate additives put into processed foods and cola drinks, which are absorbed almost completely. In advanced kidney disease it is the additive load that drives hyperphosphataemia, so the first moves are to drop cola and cut processed meat and cheese. Salt restriction controls sodium and fluid, not phosphate. Boiling vegetables leaches potassium, not phosphate. Calcium taken with meals binds some phosphate, but the binders prescribed are specific agents with a dose and timing of their own, and self-dosing calcium adds a risk of hypercalcaemia.",
+  "strategy": "Ask where the nutrient was added, not just which food contains it. Additives are absorbed far better than the same mineral bound inside a food.",
   "difficulty": "medium",
   "tags": [
    "health-promotion",
@@ -8165,28 +8165,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0237",
   "categorySlug": "health-promotion",
-  "stem": "Before giving a nasogastric feed, the aspirate tests at pH 5.8. What should the nurse do **next**?",
+  "stem": "A 500 mL bag of enteral feed is hung up for a continuous infusion. When should it be replaced?",
   "choices": [
    {
     "id": "a",
-    "text": "Give the feed slowly, as this pH is within the acceptable range"
+    "text": "Every hour, so that the feed never cools"
    },
    {
     "id": "b",
-    "text": "Flush the tube with fifty millilitres of water and feed immediately"
+    "text": "When the bag is empty, however long that takes"
    },
    {
     "id": "c",
-    "text": "Advance the tube ten centimetres further and then start the feed"
+    "text": "After twelve hours hanging at room temperature"
    },
    {
     "id": "d",
-    "text": "Withhold the feed and arrange confirmation of the tube position"
+    "text": "After four hours hanging at room temperature"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Withhold the feed and arrange confirmation of the tube position\". A pH of <strong>5.5 or below</strong> confirms gastric placement. At 5.8 the tube position is <strong>unconfirmed</strong>, and feeding into a misplaced tube can flood the lung. The feed is withheld while the tube is checked: wait an hour if the patient is on acid suppression, retest, reposition, and obtain a chest radiograph if doubt remains.\n\nWhy the other options fail:\n• A — 5.8 sits above the safe threshold. Treating a borderline result as acceptable is how fatal misplacements occur.\n• B — Flushing an unconfirmed tube introduces fluid into whatever space it occupies, including the lung.\n• C — Blindly advancing a tube of unknown position cannot make it safe and may drive it further into the airway.\n\nReference: Ghana STG — enteral feeding; nasogastric tube verification",
-  "strategy": "Learn the exact cut-off, because these questions are built on the near miss. Anything above pH 5.5 means stop and confirm, not proceed carefully.",
+  "rationale": "CORRECT (D) — \"After four hours hanging at room temperature\". A feed that has been opened and hung is a culture medium held at room temperature; the safe rule is to discard what remains and start a fresh container after four hours, and to change the giving set every twenty-four hours. Changing the bag every hour wastes feed and staff time without reducing risk. Running the bag until it is empty means a slow infusion may hang for far longer than four hours with bacteria multiplying in it. Twelve hours is three times the safe hanging period, and a patient who is immunosuppressed, very young or critically ill is at particular risk from that delay.",
+  "strategy": "A hung feed is a culture medium. Four hours, then a fresh container; the giving set changes every twenty-four.",
   "difficulty": "medium",
   "tags": [
    "health-promotion",
@@ -8366,28 +8366,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0243",
   "categorySlug": "health-promotion",
-  "stem": "Which food should a patient with recurrent gout be advised to limit?",
+  "stem": "A man with recurrent gout asks which drink he should give up first.",
   "choices": [
    {
     "id": "a",
-    "text": "Boiled white rice served with a light vegetable sauce"
+    "text": "Palm wine, taken fresh every evening"
    },
    {
     "id": "b",
-    "text": "Organ meats such as liver and kidney, and shellfish"
+    "text": "Beer, plus soft drinks with added sugar"
    },
    {
     "id": "c",
-    "text": "Fresh oranges, pawpaw and other seasonal fruit"
+    "text": "Bottled water, taken with meals each day"
    },
    {
     "id": "d",
-    "text": "Plain bread taken with tea at breakfast each day"
+    "text": "Unsweetened tea, with a slice of lemon"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Organ meats such as liver and kidney, and shellfish\". Gout results from urate crystal deposition, and urate comes from <strong>purine breakdown</strong>. The richest purine sources are <strong>organ meats, shellfish, small oily fish and beer</strong>. Limiting these lowers urate modestly; weight reduction, avoiding alcohol and sugary drinks, and good hydration matter as well. Diet supplements rather than replaces urate-lowering medication.\n\nWhy the other options fail:\n• A — Rice is low in purines and is a suitable staple for a patient with gout.\n• C — Fruit is not restricted, and vitamin C intake is associated with slightly lower urate levels.\n• D — Bread is low in purines. It presents no problem in gout beyond its contribution to overall energy.\n\nReference: Ghana STG — gout; dietary advice",
-  "strategy": "Link the chemistry to the plate. Urate comes from purines, purines are concentrated in cells, and organ meats and shellfish are the densest cellular foods eaten.",
+  "rationale": "CORRECT (B) — \"Beer, plus soft drinks with added sugar\". Beer is the strongest single drink driver of gout: it is rich in purines from the yeast and it raises urate further through the alcohol itself. Sugar-sweetened soft drinks act differently but to the same end, because fructose raises urate production. Palm wine and spirits raise urate less than beer but are not harmless. Plain water helps, since good hydration promotes urate excretion, and unsweetened tea contains no purine load worth counting. Advise him to drink water in place of both parts of option B rather than simply reducing them.",
+  "strategy": "Different drinks raise urate by different routes: beer by purine load, sugary drinks by fructose. Both matter in gout.",
   "difficulty": "easy",
   "tags": [
    "health-promotion",
@@ -8878,28 +8878,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0258",
   "categorySlug": "health-promotion",
-  "stem": "A child's weight has stayed on the same point for three consecutive monthly visits. How should the nurse interpret this?",
+  "stem": "A nurse must weigh the same children at a monthly outreach clinic. What matters most for comparability?",
   "choices": [
    {
     "id": "a",
-    "text": "Satisfactory, because the child's weight has not fallen at any visit"
+    "text": "Using the newest scale available at the clinic"
    },
    {
     "id": "b",
-    "text": "Concerning, because a healthy child should gain weight every month"
+    "text": "Same scale, same time of day, light clothing"
    },
    {
     "id": "c",
-    "text": "Expected, because growth naturally pauses during the second year"
+    "text": "Asking the mother for the last recorded weight"
    },
    {
     "id": "d",
-    "text": "Unclear, because a single growth curve cannot ever be interpreted"
+    "text": "Weighing the child after a meal so he is settled"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Concerning, because a healthy child should gain weight every month\". A <strong>flat growth curve is an early danger sign</strong>. Young children should gain steadily, and static weight means intake or absorption is failing, or illness is consuming the intake, well before wasting becomes visible. The value of serial monitoring is that it shows <strong>direction</strong>, which a single measurement never can.\n\nWhy the other options fail:\n• A — The absence of loss is not adequate. Faltering growth is defined by failure to gain, not only by falling weight.\n• C — Growth slows after infancy but does not stop. Three months without gain is abnormal at any age in childhood.\n• D — Serial points on a curve are precisely what makes interpretation possible, and here they show a clear trend.\n\nReference: Ghana Health Service — growth monitoring and promotion",
-  "strategy": "On any growth chart, read the direction of the line before the position of the point. A falling or flat line matters more than which line the child sits on.",
+  "rationale": "CORRECT (B) — \"Same scale, same time of day, light clothing\". A growth curve is a series of comparisons, so every measurement has to be taken the same way: the same scale, checked against zero before use, the same time of day, in light clothing or nude for infants, with the child's position consistent. Change the scale or the time and a real gain can look like a loss. The newest scale is not automatically better if it differs from the one used last month. A mother's recalled weight is not a measurement and cannot be plotted. Weighing after a meal adds the weight of the meal and blurs the trend month to month.",
+  "strategy": "A growth chart is only as good as its consistency. Same scale, same time, same clothing, every visit.",
   "difficulty": "hard",
   "tags": [
    "health-promotion",
@@ -9191,28 +9191,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0267",
   "categorySlug": "health-promotion",
-  "stem": "At a child welfare clinic a two-year-old is short for his age but his weight matches his height well. How is he **best** described?",
+  "stem": "A child admitted with severe acute malnutrition has no obvious infection. Why are antibiotics still given routinely?",
   "choices": [
    {
     "id": "a",
-    "text": "Wasted, because low weight is the defining feature of his condition"
+    "text": "Because the therapeutic feeds are not sterile and cause infection"
    },
    {
     "id": "b",
-    "text": "Stunted, because long-standing undernutrition has restricted his growth"
+    "text": "Because hidden infection is common and a leading cause of death"
    },
    {
     "id": "c",
-    "text": "Overweight, because his weight is high in relation to his short height"
+    "text": "Because antibiotics improve the appetite so the child eats more"
    },
    {
     "id": "d",
-    "text": "Adequately nourished, because his weight and height are in proportion"
+    "text": "Because malnutrition always follows a recent bacterial illness"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Stunted, because long-standing undernutrition has restricted his growth\". <strong>Stunting is low height for age</strong> and reflects chronic undernutrition and repeated infection over months or years. Weight can be proportionate to the reduced height, so the child looks well made yet small. <strong>Wasting is low weight for height</strong> and reflects acute loss. A child can be stunted, wasted, both or neither, and the two must be assessed separately.\n\nWhy the other options fail:\n• A — Wasting requires weight to be low relative to height, and here the two are proportionate.\n• C — Proportionate weight for height is not overweight. Calling it so would divert attention from the real chronic problem.\n• D — Proportion alone is not adequacy. His height is below what it should be for his age, which is the abnormality.\n\nReference: WHO growth standards; Ghana Health Service growth monitoring",
-  "strategy": "Read the two indices separately: height against age gives stunting, weight against height gives wasting. A proportionate child can still be far too small.",
+  "rationale": "CORRECT (B) — \"Because hidden infection is common and a leading cause of death\". In severe acute malnutrition the usual signs of infection — fever, tachycardia, raised white count — are blunted, so a child can be bacteraemic while looking calm; WHO therefore recommends a broad-spectrum antibiotic for every child admitted with severe acute malnutrition, whether or not infection is apparent. Therapeutic feeds such as F-75 are prepared to a standard and are not the source of infection in this sense. Antibiotics do not stimulate appetite; appetite returns with metabolic stabilisation and feeding. Malnutrition follows poverty, poor feeding and repeated infection — it does not follow one named bacterial illness.",
+  "strategy": "Where immune and inflammatory responses are blunted, absence of signs is not absence of disease. Treat the risk, not the fever you can see.",
   "difficulty": "hard",
   "tags": [
    "health-promotion",
@@ -9398,28 +9398,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0273",
   "categorySlug": "health-promotion",
-  "stem": "A child has bowed legs and delayed closure of the fontanelle. Which combination is **most likely** responsible?",
+  "stem": "A woman whose diet is low in vitamin D asks which foods she should eat more of.",
   "choices": [
    {
     "id": "a",
-    "text": "Excess protein with insufficient carbohydrate over several months"
+    "text": "Fresh fruit such as pawpaw, mango and orange"
    },
    {
     "id": "b",
-    "text": "Excess iron intake combined with a very high dietary fibre intake"
+    "text": "White rice, gari and other milled staples"
    },
    {
     "id": "c",
-    "text": "Deficiency of vitamin D with inadequate calcium in the diet"
+    "text": "Oily fish, egg yolk and fortified margarine"
    },
    {
     "id": "d",
-    "text": "Deficiency of iodine together with limited intake of iodised salt"
+    "text": "Green leafy vegetables and fresh tomatoes"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Deficiency of vitamin D with inadequate calcium in the diet\". These are the signs of <strong>rickets</strong>, in which poorly mineralised bone bends under weight. Vitamin D is needed to absorb calcium, and it is made in the skin on sunlight exposure and found in oily fish, liver and egg yolk. Risk rises with heavy covering, indoor living and exclusive breastfeeding beyond six months without supplementation.\n\nWhy the other options fail:\n• A — An imbalance between protein and carbohydrate does not demineralise bone or produce bowing of the legs.\n• B — Excess iron causes gastrointestinal effects and, in overload, organ damage. It does not cause skeletal deformity.\n• D — Iodine deficiency causes goitre, hypothyroidism and cretinism, in which growth is stunted without bowing of the limbs.\n\nReference: Ghana STG — rickets; vitamin D deficiency",
-  "strategy": "Translate the sign into the tissue affected. Bent bones mean poor mineralisation, and mineralisation depends on calcium plus the vitamin D needed to absorb it.",
+  "rationale": "CORRECT (C) — \"Oily fish, egg yolk and fortified margarine\". Vitamin D is fat soluble and occurs naturally in few foods: oily fish such as sardines and mackerel, egg yolk, liver, and fortified fats such as margarine. Fruit contains almost none, and the fruits named are valuable for vitamin A and C rather than D. Milled staples such as rice and gari supply energy and little else unless they are fortified. Green leaves and tomatoes provide folate, vitamin C and carotenoids, not vitamin D. Sunlight remains the main source, so the dietary advice goes alongside sensible exposure.",
+  "strategy": "Fat-soluble vitamins travel with fat. If a food contains no fat, it almost certainly contains no vitamin D.",
   "difficulty": "medium",
   "tags": [
    "health-promotion",
@@ -9499,28 +9499,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0276",
   "categorySlug": "health-promotion",
-  "stem": "A mother believes she has insufficient milk. Which finding gives the **most** reliable reassurance?",
+  "stem": "A mother of a two-week-old says her baby seems hungry after feeds and that her milk is not enough. What should the nurse advise?",
   "choices": [
    {
     "id": "a",
-    "text": "Her breasts feel soft and not full between the baby's feeds"
+    "text": "Give formula after feeds so the baby is satisfied"
    },
    {
     "id": "b",
-    "text": "The baby settles for about an hour after each feed is finished"
+    "text": "Offer a bottle of water between the breastfeeds"
    },
    {
     "id": "c",
-    "text": "She is able to express only a small volume using a hand pump"
+    "text": "Restrict feeds to every four hours to build supply"
    },
    {
     "id": "d",
-    "text": "The baby passes at least six wet nappies daily and is gaining weight"
+    "text": "Feed more often and keep the baby skin to skin"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"The baby passes at least six wet nappies daily and is gaining weight\". Adequacy of intake is judged by <strong>output and growth</strong>: six or more wet nappies a day, regular stools in the early weeks, and steady weight gain along the growth curve. Perceived insufficiency is the commonest reason mothers stop breastfeeding, and it is usually mistaken. Objective evidence protects the feeding relationship.\n\nWhy the other options fail:\n• A — Breasts normally soften as supply settles to demand. Softness reflects regulation, not failure.\n• B — Settling behaviour varies widely and is affected by many things besides feeding. It is not a measure of intake.\n• C — Expressed volume depends on technique, comfort and let-down. Many women with ample supply express poorly.\n\nReference: Ghana Health Service — infant and young child feeding counselling",
-  "strategy": "When intake cannot be measured directly, measure what comes out and what it builds. Nappies and weight are objective; maternal sensation and pump yield are not.",
+  "rationale": "CORRECT (D) — \"Feed more often and keep the baby skin to skin\". Milk production is driven by removal: the more often and the more effectively the baby feeds, the more milk is made. Frequent feeding, good attachment and continuous skin-to-skin contact raise prolactin and oxytocin release and are the treatment for a supply that is genuinely low. Formula given after feeds reduces the baby's appetite for the breast and so reduces the stimulation that makes milk. Water between feeds fills the stomach without nutrition and has no place in a two-week-old. Spacing feeds to four hours reduces stimulation and lowers supply further.",
+  "strategy": "Supply follows demand. Every feed removed is replaced by formula; every extra feed builds the supply.",
   "difficulty": "hard",
   "tags": [
    "health-promotion",
@@ -104963,28 +104963,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3061",
   "categorySlug": "health-promotion",
-  "stem": "A nurse on a medical ward is about to give the first feed through a newly inserted nasogastric tube. Which action confirms **most reliably** that it is safe to feed?",
+  "stem": "Before a bolus nasogastric feed the nurse aspirates 300 mL of fluid. What should she do?",
   "choices": [
    {
     "id": "a",
-    "text": "Inject 20 mL of air into the tube while listening over the epigastrium for a whooshing sound"
+    "text": "Return it all and give the full feed prescribed"
    },
    {
     "id": "b",
-    "text": "Aspirate fluid from the tube and test it on pH indicator paper, expecting a result of 5.5 or below"
+    "text": "Hold the feed, record it and reassess the patient"
    },
    {
     "id": "c",
-    "text": "Place the free end of the tube in a glass of water and check that no bubbles appear"
+    "text": "Discard it, then give the feed at double the rate"
    },
    {
     "id": "d",
-    "text": "Ask the patient to speak, on the basis that a clear voice shows the tube is not in the airway"
+    "text": "Give the feed, since aspirate proves placement"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Aspirate fluid from the tube and test it on pH indicator paper, expecting a result of 5.5 or below\". Aspirate pH is the bedside standard because gastric contents are acidic and respiratory secretions are not. A reading of 5.5 or below means the tip is almost certainly in the stomach. Anything higher means feeding must not start, and the position should be reconsidered or confirmed radiologically. This matters because feeding into a misplaced tube delivers liquid straight into the lung, and the resulting pneumonitis can be fatal. The check is repeated before every feed and after any episode of vomiting or coughing, since a tube that was correct yesterday can migrate.\n\nWhy the other options fail:\n• A — The whoosh test has been discredited for decades. Air injected into a tube in the pleura or oesophagus still transmits sound to a stethoscope over the abdomen, so it produces convincing reassurance in exactly the cases that kill people.\n• C — The bubble test is unreliable and dangerous. A tube in the stomach may bubble with belching, and a tube in the lung may not bubble at all, while the manoeuvre itself risks drawing water into the airway.\n• D — Speech proves nothing. A fine-bore tube can sit alongside the vocal cords without preventing phonation, and patients who are sedated, unconscious or neurologically impaired may not react to a tube in the trachea at all.\n\nReference: NICE and NPSA guidance on nasogastric tube safety; Ghana Standard Treatment Guidelines",
-  "strategy": "For any bedside safety check, prefer the test that measures a physical property the wrong position cannot fake. Acidity distinguishes stomach from lung; sound and comfort do not.",
+  "rationale": "CORRECT (B) — \"Hold the feed, record it and reassess the patient\". A large residual means the stomach is not emptying, and giving a bolus on top of it risks regurgitation and aspiration. The nurse holds the feed, records the volume and its appearance, checks the abdomen for distension and discomfort, reviews drugs that slow gastric emptying and the rate and volume of previous feeds, and discusses with the team. Returning the whole aspirate and feeding anyway repeats the problem. Discarding it loses fluid and electrolytes and doubling the rate is the opposite of what a full stomach needs. Finding aspirate does confirm the tube is gastric, but that does not make a bolus safe.",
+  "strategy": "A large residual is a message from the stomach. Stop, measure again, and find out why it is not emptying before feeding.",
   "difficulty": "hard",
   "tags": [
    "health-promotion",
@@ -105032,28 +105032,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3063",
   "categorySlug": "health-promotion",
-  "stem": "A severely malnourished adult is admitted after weeks of minimal intake. Feeding is started, and on day two he becomes confused and breathless with new peripheral oedema. Which biochemical change is **most likely** responsible?",
+  "stem": "Which patient carries the highest risk of refeeding syndrome when feeding is started?",
   "choices": [
    {
     "id": "a",
-    "text": "A rise in serum sodium caused by the sodium content of the feed"
+    "text": "A man with a body mass index of 28 who ate until surgery"
    },
    {
     "id": "b",
-    "text": "A rise in serum calcium released from the skeleton during recovery"
+    "text": "A woman who has eaten nothing for one day after a procedure"
    },
    {
     "id": "c",
-    "text": "A fall in serum phosphate as glucose drives phosphate into the cells"
+    "text": "A man with a body mass index of 15 who ate little for weeks"
    },
    {
     "id": "d",
-    "text": "A fall in serum urea reflecting the improvement in his protein intake"
+    "text": "A child with gastroenteritis who has vomited for a day"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"A fall in serum phosphate as glucose drives phosphate into the cells\". This is refeeding syndrome. Prolonged starvation depletes total body phosphate, potassium and magnesium even while blood levels look acceptable, because the body has been running on fat and protein. Reintroducing carbohydrate triggers insulin release, and insulin drives glucose, phosphate, potassium and magnesium rapidly into cells. Serum phosphate can then collapse within days. Phosphate is required for adenosine triphosphate, so the tissues with the highest energy demand fail first, producing confusion, cardiac failure, respiratory muscle weakness and fluid retention. Prevention is to start low and go slow, with supplementation and daily electrolyte monitoring.\n\nWhy the other options fail:\n• A — Sodium tends to be diluted rather than raised in refeeding, and the underlying problem in malnutrition is excess total body sodium with a low serum level. A rising sodium would not explain this picture.\n• B — Calcium is not the electrolyte that characterises refeeding syndrome, and skeletal calcium release is far too slow to produce collapse within forty-eight hours of the first feed.\n• D — Urea does fall with poor intake and may shift on refeeding, but it is a marker of protein turnover and renal function rather than a cause of confusion, breathlessness and oedema.\n\nReference: NICE nutrition support in adults; WHO management of severe malnutrition",
-  "strategy": "When symptoms begin shortly after a treatment starts, suspect the treatment. Ask which biochemical shift that specific intervention triggers.",
+  "rationale": "CORRECT (C) — \"A man with a body mass index of 15 who ate little for weeks\". Risk is set by how depleted the body is before feeding begins: a body mass index below 16, unintentional loss of more than 10 to 15 per cent, little or no intake for more than five days, low potassium, magnesium or phosphate before feeding, and a history of alcohol misuse. This man has two of those. A patient of normal weight who ate until surgery has no depletion. One day of fasting and a day of vomiting empty the gut and the circulating volume but do not empty the phosphate stores that refeeding will drive into cells.",
+  "strategy": "Refeeding risk is measured before the first feed, from the patient's depletion — not from the length of a single fast.",
   "difficulty": "hard",
   "tags": [
    "health-promotion",
@@ -105066,28 +105066,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3064",
   "categorySlug": "health-promotion",
-  "stem": "A school health team is running the adolescent anaemia programme in a Ghanaian junior high school. Why are adolescent girls targeted **specifically**?",
+  "stem": "A woman on iron tablets reports that her stools have turned black. What should the nurse tell her?",
   "choices": [
    {
     "id": "a",
-    "text": "Adolescent girls absorb iron less efficiently than boys of the same age"
+    "text": "Stop the tablets and report to the clinic the same day"
    },
    {
     "id": "b",
-    "text": "Menstrual iron loss coincides with the growth spurt, so requirements rise at the moment intake often falls"
+    "text": "This is expected from the iron; keep taking them"
    },
    {
     "id": "c",
-    "text": "Iron is only needed by girls, since boys do not lose blood regularly"
+    "text": "This means the iron is not being absorbed at all"
    },
    {
     "id": "d",
-    "text": "The programme targets girls because boys refuse to attend school health sessions"
+    "text": "Take the tablets only on alternate days from now on"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Menstrual iron loss coincides with the growth spurt, so requirements rise at the moment intake often falls\". Adolescence brings the fastest growth since infancy, expanding blood volume and lean mass, so iron demand rises sharply in both sexes. Girls carry the additional monthly loss of menstruation on top of that. At the same time, dietary quality in this age group often deteriorates and diets are commonly low in bioavailable haem iron. The consequence is anaemia that impairs concentration and school performance, and that carries into a first pregnancy if uncorrected, when maternal anaemia raises the risk of haemorrhage and low birth weight. Weekly iron and folic acid supplementation addresses the deficit before pregnancy rather than during it.\n\nWhy the other options fail:\n• A — Absorption efficiency is not the difference. Girls actually absorb iron somewhat more efficiently when stores are low; the problem is that losses and requirements exceed what the diet supplies.\n• C — Boys need iron too and can become anaemic during the growth spurt. Girls are prioritised because of the additional menstrual loss, not because boys have no requirement.\n• D — Attendance is not the rationale. Targeting is based on who carries the greatest physiological risk, and framing it as boys' refusal misrepresents a well-founded clinical decision.\n\nReference: WHO guideline on iron and folic acid supplementation in menstruating women and adolescent girls; Ghana Health Service school health programme",
-  "strategy": "For any targeted programme, ask what makes that group physiologically different. The answer is usually a requirement that rises or a loss that others do not have.",
+  "rationale": "CORRECT (B) — \"This is expected from the iron; keep taking them\". Unabsorbed iron in the gut is oxidised and colours the stool black or dark green; it is harmless and is the commonest reason a patient on iron stops treatment without telling anyone. She should be warned in advance and told to report instead melaena — black, tarry, offensive stool with abdominal pain — which is a different picture and suggests bleeding. Stopping the tablets leaves the anaemia untreated. The colour says nothing about absorption either way. Alternate-day dosing is sometimes used to improve tolerance and absorption, but it is a prescriber's decision, not a response to harmless stool colour.",
+  "strategy": "Warn about the harmless changes before they happen. A patient who is not warned stops the tablet and blames herself.",
   "difficulty": "medium",
   "tags": [
    "health-promotion",
@@ -105100,28 +105100,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3065",
   "categorySlug": "health-promotion",
-  "stem": "A woman with newly diagnosed hypertension attends a clinic in Accra. She cooks with stock cubes, tinned fish and shito. Which single change will **most** reduce her sodium intake?",
+  "stem": "A patient with hypertension asks whether sea salt is healthier than table salt. What should the nurse reply?",
   "choices": [
    {
     "id": "a",
-    "text": "Reduce the stock cubes and salted seasonings, which contribute more sodium than the salt shaker at the table"
+    "text": "No; it is sodium chloride and raises blood pressure the same"
    },
    {
     "id": "b",
-    "text": "Continue all seasonings as usual but stop adding table salt to food once it is served"
+    "text": "Yes; the minerals it contains protect the heart and vessels"
    },
    {
     "id": "c",
-    "text": "Replace all her cooking oil with a low-fat alternative and leave the seasonings unchanged"
+    "text": "Yes, but only if it is used in smaller amounts than table salt"
    },
    {
     "id": "d",
-    "text": "Drink more water each day so that the excess sodium is diluted and excreted"
+    "text": "No; it contains iodine, which raises the blood pressure further"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Reduce the stock cubes and salted seasonings, which contribute more sodium than the salt shaker at the table\". Most dietary sodium in the typical Ghanaian diet is hidden in processed seasonings rather than sprinkled at the table. Stock cubes, salted and smoked fish, shito and tinned products carry far more sodium than the salt shaker. Advice aimed only at table salt therefore produces a disappointing fall in blood pressure and leaves the patient feeling she has already complied. The practical approach is to build flavour from onion, garlic, ginger, pepper and local herbs while cutting the cubes down gradually, since taste adapts over a few weeks. This is also culturally realistic, which matters more than a theoretically perfect diet she will abandon.\n\nWhy the other options fail:\n• B — Stopping table salt alone addresses the smaller share of intake. It is worth doing, but presented as the main intervention it will not deliver a meaningful reduction in blood pressure.\n• C — Changing the oil affects fat intake, not sodium. Fat matters for cardiovascular risk overall, but it does not answer the question asked and leaves the main sodium source untouched.\n• D — Drinking more water does not remove a sodium load in a person with intact kidneys; it simply expands the fluid volume that the sodium holds. In heart or renal failure this advice would be actively harmful.\n\nReference: WHO sodium reduction guidance; Ghana Standard Treatment Guidelines — hypertension",
-  "strategy": "Before advising a dietary change, ask where the nutrient actually comes from in that person's real diet. The largest source is often invisible on the table.",
+  "rationale": "CORRECT (A) — \"No; it is sodium chloride and raises blood pressure the same\". Sea salt and table salt are both about 40 per cent sodium by weight; the trace minerals that distinguish them are present in amounts far too small to matter, and they do not offset sodium's effect on blood pressure. The claim that sea salt is protective is a marketing message, not a physiological one. Using less of either is the only useful change, so option C concedes the false premise. Iodine is added to table salt to prevent goitre and does not raise blood pressure; the iodine is a reason to keep using iodised salt, not a reason to avoid salt altogether.",
+  "strategy": "Read the salt by its sodium content, not by its colour or its origin. Both are the same molecule where it counts.",
   "difficulty": "medium",
   "tags": [
    "health-promotion",
@@ -105167,28 +105167,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3067",
   "categorySlug": "health-promotion",
-  "stem": "A mother says she cannot afford a balanced diet for her four children. Which advice offers the **best** nutritional value for the money available?",
+  "stem": "A mother with very little money asks how to feed her family well. Which advice helps most?",
   "choices": [
    {
     "id": "a",
-    "text": "Buy imported infant formula and fortified cereals, which are nutritionally complete"
+    "text": "Buy imported cereals fortified with vitamins"
    },
    {
     "id": "b",
-    "text": "Increase the portion of banku and rice so the children feel full at every meal"
+    "text": "Buy whatever the shop sells cheaply that week"
    },
    {
     "id": "c",
-    "text": "Add beans, groundnut paste, kontomire and small dried fish to the staple, since these supply protein and micronutrients cheaply"
+    "text": "Buy fruits and vegetables that are in season"
    },
    {
     "id": "d",
-    "text": "Give a daily multivitamin syrup and keep the existing diet unchanged"
+    "text": "Buy meat only, since protein matters most"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Add beans, groundnut paste, kontomire and small dried fish to the staple, since these supply protein and micronutrients cheaply\". Nutritional advice has to be affordable or it is not advice at all. Legumes such as beans and groundnut are among the cheapest protein sources available and complement cereal staples well, because the amino acid limited in maize is supplied by the legume. Dark green leaves such as kontomire provide iron, folate and vitamin A precursors for very little money, and small dried fish eaten whole supply calcium, iron, zinc and animal protein. Combining these with the existing staple raises diet quality dramatically without requiring imported products. This also respects what is already cooked in the household, which makes the change likely to last.\n\nWhy the other options fail:\n• A — Imported formula and fortified cereals are expensive and often unnecessary beyond infancy. Recommending them to a family already short of money guarantees the advice is ignored, and over-dilution of costly formula is a well-recognised cause of malnutrition.\n• B — More staple adds energy but not protein, iron, zinc or vitamin A. Feeling full is not the same as being nourished, and this is exactly the pattern that produces a stunted child in a household that never misses a meal.\n• D — A multivitamin does not supply protein or energy and cannot substitute for food. Supplements have a place alongside a diet, never instead of one.\n\nReference: FAO and WHO guidance on food-based dietary approaches; Ghana Health Service nutrition unit",
-  "strategy": "Judge nutrition advice by nutrients gained per cedi spent. The best answer usually improves the quality of what the family already cooks rather than replacing it.",
+  "rationale": "CORRECT (C) — \"Buy fruits and vegetables that are in season\". Food in season is at its cheapest and at its best quality, so the same cedi buys more nutrients; adding beans, groundnut paste, small dried fish and dark leaves to the staples the family already cooks improves the diet without replacing it. Imported fortified cereals cost more per nutrient than local staples and are usually eaten in small amounts. Buying whatever is discounted is not a plan — the cheap item may be a drink or a snack. Meat alone is unaffordable at this budget and displaces the staples and vegetables the family needs for energy and vitamins.",
+  "strategy": "Judge advice by nutrients per cedi. The cheapest good diet is built from what is in season and what the family already cooks.",
   "difficulty": "medium",
   "tags": [
    "health-promotion",
@@ -106018,28 +106018,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3092",
   "categorySlug": "health-promotion",
-  "stem": "A patient with liver cirrhosis and marked ascites is reviewed. Which dietary measure is **most important**?",
+  "stem": "A woman with cirrhosis and ascites eats only a little at each sitting. Which meal pattern should the nurse advise?",
   "choices": [
    {
     "id": "a",
-    "text": "Restrict protein severely to prevent hepatic encephalopathy in every patient"
+    "text": "Two large meals a day, so that she rests her gut between them"
    },
    {
     "id": "b",
-    "text": "Restrict all dietary fat, because the diseased liver cannot process any of it"
+    "text": "One main meal in the evening, with only water during the day"
    },
    {
     "id": "c",
-    "text": "Restrict dietary sodium, since sodium retention drives the accumulation of ascitic fluid"
+    "text": "Small frequent meals, with a snack before she goes to bed"
    },
    {
     "id": "d",
-    "text": "Increase salt intake to replace the sodium lost when ascites is drained"
+    "text": "A strict fast one day each week, to let the liver recover"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Restrict dietary sodium, since sodium retention drives the accumulation of ascitic fluid\". Ascites in cirrhosis is driven by portal hypertension together with avid renal sodium retention, so limiting sodium intake is the cornerstone of dietary management alongside diuretics. Where sodium goes, water follows. Restriction must be practical and locally framed, which means targeting stock cubes, salted and smoked fish and processed seasonings rather than simply saying eat less salt. Protein, by contrast, should be maintained, because these patients are usually malnourished with significant muscle loss, and muscle actually helps handle ammonia. Blanket protein restriction is an outdated practice that worsens outcomes.\n\nWhy the other options fail:\n• A — Severe protein restriction is no longer recommended. Most cirrhotic patients are malnourished, and restricting protein accelerates muscle loss, which worsens rather than prevents encephalopathy.\n• B — Fat restriction is not a general requirement in cirrhosis and would remove a valuable energy source from a patient who is often struggling to meet requirements.\n• D — This inverts the physiology. The problem is sodium and water retention, so adding salt would expand the ascites further and undo the effect of diuretic treatment.\n\nReference: EASL clinical practice guidelines on decompensated cirrhosis; Ghana Standard Treatment Guidelines",
-  "strategy": "For any fluid accumulation, follow the sodium. Water moves with it, so sodium restriction is the dietary lever in oedema and ascites alike.",
+  "rationale": "CORRECT (C) — \"Small frequent meals, with a snack before she goes to bed\". A cirrhotic liver holds little glycogen, so overnight fasting pushes the patient into fat and then muscle breakdown; four to six small meals plus a late-evening snack of carbohydrate and a little protein reduces that catabolism and is easier to eat when ascites crowds the stomach. Two large meals worsen early satiety and the fasting gap. One evening meal leaves the whole day unfed. A weekly fast is the opposite of what is needed and accelerates muscle loss in a patient who is often already sarcopenic.",
+  "strategy": "In liver disease, the gap between meals is the enemy. Frequent small feeds and a bedtime snack protect muscle overnight.",
   "difficulty": "hard",
   "tags": [
    "health-promotion",
@@ -106221,28 +106221,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3098",
   "categorySlug": "health-promotion",
-  "stem": "A community nurse teaches households about iodised salt. Which practice **best** preserves the iodine content?",
+  "stem": "Which measurement is used to monitor iodine deficiency in a population?",
   "choices": [
    {
     "id": "a",
-    "text": "Store salt in a covered container away from heat and light, and add it near the end of cooking"
+    "text": "Urinary iodine concentration in schoolchildren"
    },
    {
     "id": "b",
-    "text": "Add the salt at the very start of cooking so it dissolves completely"
+    "text": "Serum calcium measured in schoolchildren annually"
    },
    {
     "id": "c",
-    "text": "Store the salt in an open bowl beside the cooking fire for convenience"
+    "text": "Haemoglobin in women at the antenatal clinic"
    },
    {
     "id": "d",
-    "text": "Wash the salt before use to remove any impurities"
+    "text": "Height and weight of children under five years"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Store salt in a covered container away from heat and light, and add it near the end of cooking\". Iodine is added to salt as iodate, which is volatile and degrades with heat, light, moisture and prolonged storage. Keeping salt covered, dry and away from the fire preserves it, and adding salt towards the end of cooking rather than at the beginning limits the time it spends at high temperature. These small changes matter at population scale, because iodine deficiency remains the leading preventable cause of intellectual disability worldwide, and the effect on the developing foetal brain during pregnancy is irreversible. Universal salt iodisation only protects people if the iodine survives the journey from factory to plate.\n\nWhy the other options fail:\n• B — Adding salt at the start exposes the iodine to prolonged heat, and a significant proportion is lost before the food is served.\n• C — An open bowl beside the fire combines the three things that destroy iodine: heat, light and humidity. It is convenient and it is exactly the wrong practice.\n• D — Washing salt dissolves and discards the iodine along with the water. It also serves no purpose, since commercially produced iodised salt is already clean.\n\nReference: WHO guideline on fortification of food-grade salt; Ghana Standards Authority",
-  "strategy": "Ask what destroys the nutrient. Heat, light and moisture degrade iodine, so any storage or cooking practice that adds those will lower it.",
+  "rationale": "CORRECT (A) — \"Urinary iodine concentration in schoolchildren\". About 90 per cent of the iodine a person takes in leaves in the urine, so median urinary iodine concentration in a sample of school-age children is the standard population indicator; a median below 100 micrograms per litre signals deficiency and below 20 signals severe deficiency. Serum calcium reflects parathyroid and vitamin D status and says nothing about iodine. Haemoglobin screens for anaemia, which is a different deficiency, though the two often coexist. Height and weight measure protein-energy status and catch growth faltering, not iodine intake.",
+  "strategy": "Trace-element status is easiest to read from what the kidney excretes. For iodine that is the urine, not the blood.",
   "difficulty": "medium",
   "tags": [
    "health-promotion",
@@ -106325,28 +106325,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3101",
   "categorySlug": "health-promotion",
-  "stem": "A pregnant woman in a rural district says she can no longer see well enough to fetch water after dusk, though her daytime vision is normal. What does this **most likely** indicate?",
+  "stem": "A woman delivers at a health centre in Ghana. When should she receive a high dose of vitamin A?",
   "choices": [
    {
     "id": "a",
-    "text": "The normal visual changes of late pregnancy, requiring no action"
+    "text": "During labour, before the placenta is delivered"
    },
    {
     "id": "b",
-    "text": "Early cataract formation accelerated by pregnancy"
+    "text": "On the first day after delivery, before discharge"
    },
    {
     "id": "c",
-    "text": "Iron deficiency anaemia reducing oxygen delivery to the eye"
+    "text": "At the six-week review, only if she is anaemic"
    },
    {
     "id": "d",
-    "text": "Vitamin A deficiency, which impairs the retina's ability to adapt to low light"
+    "text": "Within eight weeks of delivery, as one dose"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Vitamin A deficiency, which impairs the retina's ability to adapt to low light\". Night blindness is the earliest functional sign of vitamin A deficiency. Retinal photoreceptors need retinal, derived from vitamin A, to regenerate rhodopsin, the pigment that allows vision in dim light, so adaptation to darkness fails before daytime vision is affected. Pregnancy raises requirements, which is why it emerges then. The sign matters greatly because it is easy to elicit by simply asking, and because deficiency at this stage threatens both the mother's cornea and the infant's stores. Untreated it progresses through conjunctival dryness and Bitot spots to corneal ulceration and irreversible blindness. High-dose supplementation is avoided in pregnancy because of teratogenicity, so treatment uses lower daily or weekly doses.\n\nWhy the other options fail:\n• A — Pregnancy does cause some visual changes through fluid shifts affecting the cornea, but it does not selectively impair dark adaptation. Dismissing this as normal would miss a treatable and progressive condition.\n• B — Cataract clouds the lens and affects vision in all lighting conditions, usually with glare in bright light. It does not produce isolated difficulty after dusk.\n• C — Anaemia causes fatigue, breathlessness and pallor. It does not selectively impair night vision, because the defect in vitamin A deficiency is in pigment regeneration rather than oxygen supply.\n\nReference: WHO guideline on vitamin A supplementation in pregnancy; Ghana Health Service nutrition protocols",
-  "strategy": "Ask which function fails first. Vision that fails only in dim light points to the photoreceptor pigment, and that pigment is built from vitamin A.",
+  "rationale": "CORRECT (D) — \"Within eight weeks of delivery, as one dose\". Postpartum vitamin A is given as a single high dose, 200,000 international units, within six to eight weeks of delivery, to replenish the mother's stores after pregnancy and to raise the vitamin A content of her breast milk for the infant. It is not given during labour or in the first day, when the priority is the mother's immediate recovery and the dose has no advantage at that point. It is not conditional on anaemia, which is a different deficiency, and it is not given at the six-week visit only when haemoglobin happens to be checked — the visit is the opportunity, not the indication.",
+  "strategy": "Postpartum vitamin A is a scheduled dose with a window, given for the mother's stores and the milk — not a treatment for anaemia.",
   "difficulty": "medium",
   "tags": [
    "health-promotion",
@@ -106359,28 +106359,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3102",
   "categorySlug": "health-promotion",
-  "stem": "A nurse is asked to advise students about buying food from vendors near a campus in Accra. Which single observation is **most** reassuring about safety?",
+  "stem": "A family brings a tin of fish whose lid is bulging. What should the nurse advise?",
   "choices": [
    {
     "id": "a",
-    "text": "The vendor's stall is the busiest one, so the food must be good"
+    "text": "Heat it thoroughly, since cooking destroys any toxin"
    },
    {
     "id": "b",
-    "text": "The food is cooked in front of the customer and served steaming hot"
+    "text": "Open it outside and use it if the smell is normal"
    },
    {
     "id": "c",
-    "text": "The food is kept covered in a container after being cooked earlier that morning"
+    "text": "Throw away the liquid and use the fish inside"
    },
    {
     "id": "d",
-    "text": "The vendor wears gloves while handling both the food and the money"
+    "text": "Throw the tin away without opening or tasting it"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"The food is cooked in front of the customer and served steaming hot\". Most food-borne illness comes from time spent in the danger zone between about 5 °C and 60 °C, where bacteria multiply rapidly. Food cooked to order and served steaming hot has just passed through temperatures that kill vegetative organisms and has had no opportunity to sit and incubate. That single observation addresses the largest share of the risk. High turnover is genuinely helpful, since it means nothing stands for long, but popularity alone does not prove safety. The other components of good practice are covering food from flies and dust, separating cooked from raw, clean water for washing, and keeping money handling apart from food handling.\n\nWhy the other options fail:\n• A — A busy stall usually means fresher food, but crowds also reflect price and location. Popularity is weak evidence, and an outbreak from a popular vendor simply affects more people.\n• C — Covering food is good practice, but food cooked hours earlier and held at ambient temperature has spent that whole time in the danger zone. The covering keeps flies out while the bacteria multiply inside.\n• D — Gloves used for both food and cash are worse than clean bare hands, because they give an appearance of hygiene while transferring contamination from money to food. Gloves must be changed between tasks or they simply become a second skin.\n\nReference: WHO five keys to safer food; Ghana Food and Drugs Authority guidance",
-  "strategy": "For food safety, follow the temperature and the time. Anything freshly cooked and still steaming has spent least time where bacteria grow.",
+  "correctChoiceId": "d",
+  "rationale": "CORRECT (D) — \"Throw the tin away without opening or tasting it\". A bulging can means gas is being produced inside it, which may be Clostridium botulinum growing and releasing toxin into the food. The toxin is destroyed by thorough boiling, but the decision is not left to the household, because tasting a suspect food is itself dangerous and the contamination is invisible. Smell is not a test: botulinum toxin is odourless and tasteless, and a normal smell proves nothing. Pouring off the liquid does not help, since the toxin has already diffused through the flesh. The safe rule is that a bulging, leaking or badly dented can is discarded unopened.",
+  "strategy": "Botulism is odourless and invisible. Any can that is bulging, leaking or badly dented is thrown away unopened — never tasted.",
   "difficulty": "medium",
   "tags": [
    "health-promotion",
@@ -106495,28 +106495,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-3106",
   "categorySlug": "health-promotion",
-  "stem": "Minutes after eating groundnut soup, a child develops facial swelling, widespread urticaria and audible wheeze. What is the **first** action?",
+  "stem": "A child's food anaphylaxis settles completely after intramuscular adrenaline. How long should he be observed?",
   "choices": [
    {
     "id": "a",
-    "text": "Give an oral antihistamine and observe closely for deterioration"
+    "text": "For one hour, then he may go home if he is well"
    },
    {
     "id": "b",
-    "text": "Give intramuscular adrenaline into the outer thigh without delay"
+    "text": "Six to twelve hours, as symptoms can return"
    },
    {
     "id": "c",
-    "text": "Give a nebulised bronchodilator and reassess in ten minutes"
+    "text": "Until the antihistamine begins to make him drowsy"
    },
    {
     "id": "d",
-    "text": "Take a detailed dietary history to confirm groundnut was the trigger"
+    "text": "Only until the swelling of his lips has gone down"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Give intramuscular adrenaline into the outer thigh without delay\". Swelling of the face with urticaria and wheeze after a known allergen is anaphylaxis, and adrenaline is the only treatment that reverses the underlying process. It is given intramuscularly into the anterolateral thigh, where absorption is fastest, at a dose of 0.5 mg of 1 in 1,000 for an adult and weight-appropriate doses in children, repeated after five minutes if there is no improvement. Everything else is secondary: the patient is laid flat with legs raised unless breathing is difficult, oxygen and fluids follow, and antihistamines and steroids have no role in the immediate rescue. Delay in giving adrenaline is the factor most consistently associated with death.\n\nWhy the other options fail:\n• A — Antihistamines act too slowly and do nothing for airway oedema or circulatory collapse. Using one as the initial treatment is a recognised cause of avoidable death in anaphylaxis.\n• C — A bronchodilator may help the wheeze but leaves the angio-oedema and the vasodilatation untreated. Anaphylaxis is a multisystem reaction and needs adrenaline.\n• D — History matters afterwards. Taking one now delays the only treatment that works while the airway continues to swell.\n\nReference: WHO and Resuscitation Council anaphylaxis guidance; Ghana Standard Treatment Guidelines",
-  "strategy": "In anaphylaxis, adrenaline comes before every other intervention and before any further history. Nothing else reverses the reaction.",
+  "rationale": "CORRECT (B) — \"Six to twelve hours, as symptoms can return\". A biphasic reaction is a recurrence of anaphylaxis hours after the first episode has resolved, without further exposure to the trigger; it is uncommon but severe when it happens, which is why patients are observed for at least six hours and often twelve after a significant reaction. Settlement of symptoms is not the end of the event. One hour is too short to cover the window. Antihistamines treat skin symptoms only, do not prevent a biphasic reaction, and their drowsiness can mask deterioration. Waiting only for the lip swelling to settle leaves the child unwatched while the airway risk is still present.",
+  "strategy": "Adrenaline ends the first reaction, not the risk. Observe through the biphasic window before discharge.",
   "difficulty": "hard",
   "tags": [
    "health-promotion",
