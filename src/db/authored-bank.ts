@@ -31254,28 +31254,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IMD-0912",
   "categorySlug": "med-surg",
-  "stem": "A parent brings a Ghanaian child with sickle cell disease who has a temperature of 38.9 °C. What should the nurse do?",
+  "stem": "A **nine-month-old with sickle cell disease** has **swollen, painful hands and feet** and screams when they are touched. What is this?",
   "choices": [
    {
     "id": "a",
-    "text": "Advise paracetamol at home and review the child in three days"
+    "text": "Juvenile arthritis, which needs long-term anti-inflammatory treatment"
    },
    {
     "id": "b",
-    "text": "Reassure the parent that fever is usual in sickle cell disease"
+    "text": "A skin infection, which needs a course of antibiotics at once"
    },
    {
     "id": "c",
-    "text": "Treat this as an emergency and arrange urgent medical assessment"
+    "text": "Sickled cells blocking the small bones of the hands and feet"
    },
    {
     "id": "d",
-    "text": "Give oral fluids and discharge once the temperature has fallen"
+    "text": "A vitamin deficiency, which needs supplements for several months"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Treat this as an emergency and arrange urgent medical assessment\". Because the spleen is functionally absent, <strong>a febrile child with sickle cell disease may be septic and can deteriorate within hours</strong>. Fever is therefore treated as an emergency requiring assessment, cultures, a malaria test and <strong>prompt empirical antibiotics</strong>. Reliance on the child's appearance is unsafe, since <strong>these children can look well shortly before collapsing</strong>. Antipyretics lower the temperature without altering the underlying risk.\n\nWhy the other options fail:\n• A — Three days is far longer than the time in which overwhelming sepsis can kill this child.\n• B — Fever is common but is never routine here; each episode requires assessment.\n• D — A falling temperature after fluids does not exclude bacteraemia and gives false reassurance.\n\nReference: Ghana nursing curriculum — sickle cell disease",
-  "strategy": "Where a condition removes a defence, the ordinary symptom becomes an emergency. Fever plus asplenia means act now.",
+  "rationale": "CORRECT (C) — \"Sickled cells blocking the small bones of the hands and feet\". This is dactylitis, or hand-foot syndrome, the painful swelling of the hands and feet that is often the first sign of sickle cell disease in a baby between about six and eighteen months. Sickled cells obstruct the small vessels in the bones, so the child holds the hands and feet still and cries when they are handled. It is treated with hydration, analgesia and warmth, and it settles over days to weeks without antibiotics or surgery. Juvenile arthritis develops over months with morning stiffness rather than overnight swelling in an infant, a skin infection shows redness, warmth and a source, and no vitamin deficiency swells both hands and both feet like this.",
+  "strategy": "In an infant with sickle cell disease, symmetrical painful swelling is the disease itself.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -66936,28 +66936,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CPD-1956",
   "categorySlug": "pediatrics",
-  "stem": "A five-year-old with sickle cell disease has a temperature of 38.6 degrees Celsius. What is the appropriate response?",
+  "stem": "A **14-year-old boy with sickle cell disease** has had a **painful erection for three hours**. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "Give paracetamol and review her again in the morning"
+    "text": "Tell him it is a normal teenage change and will settle down"
    },
    {
     "id": "b",
-    "text": "Advise the parents to increase her fluids at home"
+    "text": "Advise a warm bath and review him again the following week"
    },
    {
     "id": "c",
-    "text": "Assume she is beginning a painful crisis and give analgesia"
+    "text": "Give him an analgesic and send him home to rest quietly"
    },
    {
     "id": "d",
-    "text": "Treat it as a medical emergency requiring urgent assessment"
+    "text": "Treat it as an emergency and get him reviewed at once"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Treat it as a medical emergency requiring urgent assessment\". Repeated sickling destroys the spleen in early childhood, so <strong>the organ that clears bacteria from the blood no longer works and an ordinary infection can become overwhelming within hours</strong>. Every fever therefore needs same-day assessment, cultures and antibiotics. This is why <strong>daily penicillin and full immunisation matter so much in these children</strong> — and why sending the family home with paracetamol is a recognised cause of death.\n\nWhy the other options fail:\n• A — Overnight delay is where these children die of sepsis.\n• B — Fluids are needed but do not address possible sepsis.\n• C — Assuming a crisis misses the infection that may have triggered it.\n\nReference: Ghana STG — sickle cell disease",
-  "strategy": "No working spleen means every fever is sepsis until proved otherwise.",
+  "rationale": "CORRECT (D) — \"Treat it as an emergency and get him reviewed at once\". Priapism in sickle cell disease is sickling inside the penile vessels, and it is a urological emergency. Beyond about four hours the tissue is at risk of permanent damage and erectile failure, so the boy needs prompt review for analgesia, hydration and the urological treatment that relieves the trapped blood. Reassurance, a warm bath or analgesia alone all spend the safe window while the penis remains engorged. It is also worth telling him that repeated episodes are a reason to be reviewed by the sickle cell team rather than endured quietly.",
+  "strategy": "Ask how long the organ has been without its circulation.",
   "difficulty": "hard",
   "tags": [
    "pediatrics",
@@ -112324,28 +112324,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-USER-0016",
  "categorySlug": "pediatrics",
- "stem": "A young adult with sickle cell disease develops a temperature of 38.6°C. He looks well and has no localising symptoms. What should the nurse do?",
+ "stem": "A **child with sickle cell disease** develops **sudden severe anaemia** with **very few reticulocytes**, one week after a **viral illness**. What is the likely cause?",
  "choices": [
   {
    "id": "a",
-   "text": "Give paracetamol and reassess his temperature in the morning, because he looks well in himself"
+   "text": "Iron deficiency, because growth has used up his iron stores"
   },
   {
    "id": "b",
-   "text": "Advise him to increase his fluids and stay at home, because he can return if he feels worse"
+   "text": "A painful crisis, which always lowers the haemoglobin briefly"
   },
   {
    "id": "c",
-   "text": "Arrange an outpatient haematology review next week, because there is nothing to localise"
+   "text": "Splenic pooling of blood, which removes cells from the count"
   },
   {
    "id": "d",
-   "text": "Treat it as an emergency: take cultures and obtain urgent medical review for intravenous antibiotics"
+   "text": "Parvovirus has stopped the marrow making red cells for now"
   }
  ],
  "correctChoiceId": "d",
- "rationale": "Sickle cell disease causes functional asplenia through repeated infarction of the spleen, so the patient cannot mount a response to encapsulated organisms, and pneumococcal sepsis can kill within hours of a first fever. A temperature above 38°C is therefore treated as an emergency with cultures and prompt intravenous antibiotics. Option A allows sepsis to progress through the night. Option B leaves a bacteraemic patient at home. Option C delays treatment by days.",
- "strategy": "Fever in sickle cell disease is sepsis until proved otherwise. Cultures, then antibiotics, now.",
+ "rationale": "CORRECT (D) — \"Parvovirus has stopped the marrow making red cells for now\". A viral illness a week earlier, a sudden drop in haemoglobin and almost no reticulocytes together describe an aplastic crisis. Parvovirus B19 infects the red cell precursors, so the marrow stops producing red cells for about a week to ten days while the existing cells age out; the marrow recovers on its own, but the anaemia in the meantime can be severe enough to need transfusion. Sequestration also drops the haemoglobin but the spleen enlarges and the reticulocyte count rises. A painful crisis does not suppress reticulocytes, and iron deficiency develops slowly with small pale cells rather than overnight.",
+ "strategy": "The reticulocyte count tells you whether the marrow is working.",
  "difficulty": "hard",
  "tags": [
   "sickle-cell"
