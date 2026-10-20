@@ -129,9 +129,9 @@ export const NCX2_PART_B: AuthoredQuestion[] = [
     stem: "A 19-year-old university student with anorexia nervosa is referred by the nurse to an assertiveness-skills group as part of her care plan. The nurse understands that this referral addresses which **underlying** problem?",
     choices: [
       "Poor self-esteem and a weak sense of personal identity",
-      "Loss of contact with reality",
-      "Uncontrolled aggressive impulses",
-      "Impaired short-term memory",
+      "Impaired short-term memory and concentration at school",
+      "Uncontrolled aggressive impulses towards other people",
+      "Loss of contact with reality and fixed false beliefs",
     ],
     correct: "a",
     explain: "People with eating disorders typically have <strong>low self-worth and define themselves through others' approval</strong>, so they struggle to refuse requests, voice needs or accept praise. Assertiveness training — saying no, setting limits, giving and receiving feedback — <strong>builds a sense of self</strong> that does not depend on weight or shape.",

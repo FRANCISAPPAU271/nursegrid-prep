@@ -2562,19 +2562,19 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Do the greatest good for the greatest number by treating those most likely to survive with available resources"
+    "text": "Do the greatest good for the greatest number with what you have"
    },
    {
     "id": "c",
-    "text": "Treat casualties strictly in the order they arrive"
+    "text": "Treat casualties strictly in the order in which they arrive"
    },
    {
     "id": "d",
-    "text": "Treat children before adults in all circumstances"
+    "text": "Treat children and pregnant women before all other adults"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Do the greatest good for the greatest number by treating those most likely to survive with available resources\". Disaster triage reverses the everyday rule. When need exceeds resources, the goal becomes the <strong>greatest good for the greatest number</strong>, so casualties who are salvageable with the resources available are treated first. A patient requiring enormous resource with little prospect of survival is categorised expectant so that several others can be saved.\n\nWhy the other options fail:\n• A — This is correct in everyday practice but fails in a mass casualty event, where devoting a whole team to one unsalvageable patient costs several preventable deaths.\n• C — Order of arrival bears no relation to clinical urgency, and the most severely injured often arrive last.\n• D — Age alone is not a triage criterion. Children are triaged by the same physiological principles, using paediatric parameters.\n\nReference: Ghana Health Service — mass casualty management",
+  "rationale": "CORRECT (B) — \"Do the greatest good for the greatest number with what you have\". Disaster triage reverses the everyday rule. When need exceeds resources, the goal becomes the <strong>greatest good for the greatest number</strong>, so casualties who are salvageable with the resources available are treated first. A patient requiring enormous resource with little prospect of survival is categorised expectant so that several others can be saved.\n\nWhy the other options fail:\n• A — This is correct in everyday practice but fails in a mass casualty event, where devoting a whole team to one unsalvageable patient costs several preventable deaths.\n• C — Order of arrival bears no relation to clinical urgency, and the most severely injured often arrive last.\n• D — Age alone is not a triage criterion. Children are triaged by the same physiological principles, using paediatric parameters.\n\nReference: Ghana Health Service — mass casualty management",
   "strategy": "Remember that disaster triage inverts normal priority. Everyday care treats the sickest first; disaster care treats the most salvageable first. Expect at least one distractor that states the everyday rule.",
   "difficulty": "hard",
   "tags": [
@@ -24661,7 +24661,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "The break-even point, where total income equals total costs and there is neither profit nor loss"
+      "text": "The break-even point, where income equals costs exactly"
     },
     {
       "id": "b",
@@ -29105,19 +29105,19 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "Because capital items are always cheaper than recurrent items across a financial year"
+      "text": "Because capital items always cost less than recurrent ones over a year"
     },
     {
       "id": "b",
-      "text": "Because recurrent costs repeat each month while capital buys assets lasting several years, and the two are funded and accounted for differently"
+      "text": "Recurrent costs repeat monthly while capital buys assets used for years"
     },
     {
       "id": "c",
-      "text": "Because recurrent expenditure needs no approval while capital expenditure does"
+      "text": "Because recurrent spending needs no approval while capital spending does"
     },
     {
       "id": "d",
-      "text": "Because donors always fund recurrent costs and government always funds capital costs"
+      "text": "Because donors fund recurrent costs and government funds capital costs"
     }
   ],
   "correctChoiceId": "b",
@@ -61697,28 +61697,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-LTC-1803",
   "categorySlug": "med-surg",
-  "stem": "How should a patient in acute left ventricular failure be positioned?",
+  "stem": "A patient with heart failure asks what it means that her ejection fraction is 30 per cent. What should the nurse explain?",
   "choices": [
    {
     "id": "a",
-    "text": "Lying flat with one pillow supporting the head"
+    "text": "That a third of the muscle of her heart has stopped working for good"
    },
    {
     "id": "b",
-    "text": "On her left side with the knees drawn upward"
+    "text": "That her heart is beating about thirty per cent faster than it should"
    },
    {
     "id": "c",
-    "text": "Head down with the foot of the bed raised"
+    "text": "That her body needs thirty per cent more blood than her heart supplies"
    },
    {
     "id": "d",
-    "text": "Sitting upright with the legs dependent over the bed edge"
+    "text": "That each beat empties about thirty per cent of her ventricle's blood"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Sitting upright with the legs dependent over the bed edge\". Sitting upright with the legs down <strong>lets gravity pool blood in the legs, reducing the volume returning to an already overloaded heart, while allowing full diaphragm movement</strong>. Lying flat does the opposite, increasing venous return and worsening pulmonary congestion — which is why these patients cannot lie down and sleep propped on several pillows. <strong>Head-down positioning would be actively dangerous here.</strong>\n\nWhy the other options fail:\n• A — Lying flat increases venous return and worsens pulmonary congestion.\n• B — Side-lying does not reduce the volume returning to the heart.\n• C — Head-down positioning increases congestion and is dangerous here.\n\nReference: Ghana STG — heart failure",
-  "strategy": "Upright, legs down. You are trying to keep blood away from the heart.",
+  "rationale": "CORRECT (D) — \"That each beat empties about thirty per cent of her ventricle's blood\". The ejection fraction is the <strong>proportion of the blood in the ventricle that is pumped out with each contraction</strong>. A normal ventricle empties more than half of what it holds; at thirty per cent the pump is weak, which is why she is breathless on exertion and why her legs swell. It is a measure of how well the heart is pumping, and it guides which medicines she is offered — not a measure of how much muscle has died.\n\nWhy the other options fail:\n• A — The figure describes output per beat, not the amount of dead muscle.\n• B — It says nothing about the rate; a heart can be fast or slow at any ejection fraction.\n• C — It is a fraction of what the ventricle holds, not a shortfall in the body's demand.\n\nReference: Ghana STG — cardiovascular disease; Ghana nursing curriculum",
+  "strategy": "Ejection fraction is how much of the tank leaves with each stroke. Thirty per cent means a weak pump.",
   "difficulty": "medium",
   "tags": [
    "med-surg",
@@ -61971,28 +61971,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-LTC-1811",
   "categorySlug": "med-surg",
-  "stem": "A patient with type 1 diabetes has a fever and is eating very little. What should she do about her insulin?",
+  "stem": "A dying patient can no longer swallow, and her pain and vomiting are not controlled. What is a subcutaneous infusion used for?",
   "choices": [
    {
     "id": "a",
-    "text": "Continue it, monitor more often and seek advice early"
+    "text": "To keep symptoms controlled steadily when she cannot swallow"
    },
    {
     "id": "b",
-    "text": "Stop it completely until she is able to eat normally"
+    "text": "To give her the fluids she can no longer take by mouth each day"
    },
    {
     "id": "c",
-    "text": "Halve the dose because her food intake has fallen"
+    "text": "To replace her tablets at exactly the same doses and the same times"
    },
    {
     "id": "d",
-    "text": "Take it only if her blood glucose is found to be high"
+    "text": "To keep a vein open in case an emergency drug is needed for her"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Continue it, monitor more often and seek advice early\". Illness raises glucose through stress hormones <strong>even when the patient is not eating</strong>, and in type 1 diabetes stopping insulin allows ketoacidosis to develop within hours. Insulin therefore continues, with more frequent monitoring, fluids, and early contact for advice. This is the trap the question is built on: <strong>the intuitive response — less food, less insulin — is precisely what kills these patients</strong>.\n\nWhy the other options fail:\n• B — Stopping insulin in type 1 diabetes precipitates ketoacidosis.\n• C — Illness usually raises requirements rather than lowering them.\n• D — Waiting for a high reading delays the insulin that prevents ketosis.\n\nReference: Ghana STG — diabetes; sick day rules",
-  "strategy": "Never stop insulin in type 1 diabetes. Illness raises the need, not lowers it.",
+  "rationale": "CORRECT (A) — \"To keep symptoms controlled steadily when she cannot swallow\". A subcutaneous infusion — the syringe driver — delivers a continuous dose of an opioid with an antiemetic, and if needed a sedative, over twenty-four hours from a single site. It is chosen when the <strong>oral route has failed</strong>: the patient cannot swallow, is vomiting, has a bowel obstruction, or is too drowsy for tablets. A steady level avoids the peaks and troughs of four-hourly injections, and the combination is reviewed and changed as the symptoms change.\n\nWhy the other options fail:\n• B — Hydration at the end of life is a separate decision, and a syringe driver is not a drip.\n• C — Converted doses differ from the oral ones, so the same dose is not simply transferred.\n• D — The site is subcutaneous, not intravenous, and it is not kept open for emergencies.\n\nReference: Ghana STG — palliative care; WHO guidelines on persisting pain in adults",
+  "strategy": "When the mouth fails, the driver takes over: a steady level from one site, reviewed daily.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
