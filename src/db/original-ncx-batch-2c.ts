@@ -228,10 +228,10 @@ export const NCX2_PART_C: AuthoredQuestion[] = [
     n: 126, cat: "safety-infection-control",
     stem: "A violent, acutely psychotic man has just been placed in limb restraints on the psychiatric emergency unit. Which nursing action is **most important** immediately afterwards?",
     choices: [
-      "Check that each restraint is correctly applied and that circulation, sensation and movement beyond it are intact",
-      "Draw up a dose of PRN antipsychotic in case it is needed",
-      "Read the hospital policy on how long restraints may be used",
+      "Check each restraint and that circulation beyond it is intact",
       "Plan how his meals and fluids will be given while he is restrained",
+      "Read the hospital policy on how long restraints may be used for",
+      "Draw up a dose of PRN antipsychotic in case it is needed later",
     ],
     correct: "a",
     explain: "A restrained patient cannot protect himself, so the nurse's first duty is <strong>physiological safety</strong>: restraints must be snug enough to hold but not impair <strong>circulation or nerve function</strong>, and the patient's position must allow breathing. Checks are repeated at least every 15–30 minutes and documented with his behaviour and the clinical justification.",

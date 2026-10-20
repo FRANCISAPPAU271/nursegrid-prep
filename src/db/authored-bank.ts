@@ -57865,28 +57865,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FAM-1691",
   "categorySlug": "fundamentals",
-  "stem": "A daughter caring for her bedridden mother has lost weight and become short-tempered with staff. What should the nurse recognise?",
+  "stem": "A twelve-year-old is doing the cooking and personal care for a parent with advanced illness. What should the nurse recognise?",
   "choices": [
    {
     "id": "a",
-    "text": "She is showing strain and needs assessment in her own right"
+    "text": "A child is doing an adult's caring work and the family needs help"
    },
    {
     "id": "b",
-    "text": "She is unsuited to the caring role and should be replaced"
+    "text": "The child is being neglected by the other adults in the family"
    },
    {
     "id": "c",
-    "text": "She is behaving unprofessionally and should be corrected"
+    "text": "The arrangement is acceptable if the child attends school each day"
    },
    {
     "id": "d",
-    "text": "She is anxious about her mother and needs more information"
+    "text": "Nothing needs addressing while the parent remains safe at home"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"She is showing strain and needs assessment in her own right\". In family centred care the <strong>unit of care includes the family, so a carer under strain is a clinical finding rather than a behaviour problem</strong>. Weight loss, irritability and exhaustion mark a carer approaching collapse, and when she collapses the patient is readmitted. The correct response is to assess what she is carrying and arrange relief. <strong>Correcting her behaviour treats the symptom and guarantees the outcome</strong> everyone wants to avoid.\n\nWhy the other options fail:\n• B — Removing an exhausted carer ignores that she needs support, not replacement.\n• C — Correcting her behaviour treats the sign while the cause continues.\n• D — Information alone does not relieve physical and practical exhaustion.\n\nReference: BCA 301 Patient & Family Centred Care",
-  "strategy": "When a carer's health changes, assess the carer. She is part of the care plan.",
+  "rationale": "CORRECT (A) — \"A child is doing an adult's caring work and the family needs help\". A child who cooks, washes and manages medicines for a parent is a <strong>young carer</strong>, and the role costs them school, sleep and their own development. It is not a sign that the family are failing — usually there is no adult available — so the nurse's response is to name what is happening and bring in help: another adult relative, a community nurse or CHPS visit, and practical support with the tasks that are too much.\n\nWhy the other options fail:\n• B — Neglect is a judgement about the other adults, and the pressing need is support rather than blame.\n• C — Attending school does not measure what the child is doing before and after it.\n• D — Physical safety at home is not the same as the child being all right.\n\nReference: Ghana nursing curriculum — family and community care; NMC Code",
+  "strategy": "A child doing the caring is a signal for support, not a verdict on the family.",
   "difficulty": "hard",
   "tags": [
    "fundamentals",
@@ -58071,28 +58071,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FAM-1697",
   "categorySlug": "fundamentals",
-  "stem": "A patient speaks only Dagbani and her ten-year-old son is offered as interpreter. What should the nurse do?",
+  "stem": "A husband offers to interpret for his wife while she is told her diagnosis. What should the nurse consider first?",
   "choices": [
    {
     "id": "a",
-    "text": "Use the child, since he is willing and speaks both languages"
+    "text": "That a relative is always the best interpreter for a patient"
    },
    {
     "id": "b",
-    "text": "Proceed in English and rely on gestures to convey meaning"
+    "text": "That the wife should be asked to learn enough English"
    },
    {
     "id": "c",
-    "text": "Find an adult interpreter rather than use the child"
+    "text": "That he may soften what she is told, so use an interpreter"
    },
    {
     "id": "d",
-    "text": "Postpone the consultation until a relative arrives tomorrow"
+    "text": "That the consultation can wait until she brings someone else"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Find an adult interpreter rather than use the child\". Using a child places him in an <strong>impossible position — asked to relay intimate or frightening information and to carry his mother's diagnosis</strong> — and children commonly soften or omit what distresses them, so the clinical information is unreliable. An adult interpreter, ideally trained staff rather than family, protects both. Gestures cannot convey a treatment plan, and <strong>postponing leaves her untreated for a problem that is solvable today</strong>.\n\nWhy the other options fail:\n• A — Children filter distressing content and should not carry that burden.\n• B — Gestures cannot convey diagnosis, consent or dosing.\n• D — Delay is unnecessary when an adult interpreter can be found today.\n\nReference: BCA 301 Patient & Family Centred Care; NMC Ghana Code",
-  "strategy": "Never make a child the interpreter. He will protect his mother from the truth.",
+  "rationale": "CORRECT (C) — \"That he may soften what she is told, so use an interpreter\". A relative interpreting <strong>holds two roles at once</strong>, and the one that usually wins is protector: bad news gets softened, questions get answered on her behalf and her own words never reach the nurse. An independent interpreter keeps the information intact and keeps the conversation between the nurse and the patient. Where no interpreter exists, the nurse explains the limits, checks understanding with the patient directly and records who interpreted.\n\nWhy the other options fail:\n• A — Familiarity is exactly what makes a relative's interpretation unreliable here.\n• B — The responsibility to communicate belongs to the service, not to the patient.\n• D — Postponing leaves a diagnosis undiscussed while a suitable arrangement is looked for.\n\nReference: Ghana Patients' Charter; NMC Ghana Code of Conduct — communication",
+  "strategy": "A relative who interprets is also a relative who protects. Keep the message intact.",
   "difficulty": "hard",
   "tags": [
    "fundamentals",
@@ -58275,28 +58275,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FAM-1703",
   "categorySlug": "fundamentals",
-  "stem": "A patient is being catheterised on an open ward. Which action protects her dignity?",
+  "stem": "A woman asks that only female staff catheterise her. How should the nurse respond?",
   "choices": [
    {
     "id": "a",
-    "text": "Work quickly so that the exposure lasts as short a time as possible"
+    "text": "Explain that staff are allocated by duty and she cannot choose"
    },
    {
     "id": "b",
-    "text": "Ask other patients to look away during the procedure"
+    "text": "Tell her the request is unreasonable and delay the procedure"
    },
    {
     "id": "c",
-    "text": "Explain to the ward that a procedure is taking place"
+    "text": "Perform the procedure herself without discussing the request"
    },
    {
     "id": "d",
-    "text": "Screen her fully and expose only the area being worked on"
+    "text": "Accept the request and arrange it wherever staffing allows"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Screen her fully and expose only the area being worked on\". Dignity is protected by <strong>controlling who can see and how much is exposed</strong>, which screening and selective exposure do directly. Speed does not reduce visibility, and drawing the ward's attention to the procedure — whether by asking others to look away or announcing it — <strong>makes her the object of everyone's awareness, which is exactly the harm</strong>. Curtains are not soundproof either, so the voice is lowered too.\n\nWhy the other options fail:\n• A — Speed does not limit who can see her.\n• B — Asking others to look away directs attention towards her.\n• C — Announcing it publicises what should be private.\n\nReference: NMC Ghana Code; BCA 301 Patient & Family Centred Care",
-  "strategy": "Control the view and the volume. Do not announce what you are protecting.",
+  "rationale": "CORRECT (D) — \"Accept the request and arrange it wherever staffing allows\". A request about who touches an intimate part of the body is <strong>a reasonable request about dignity, not an obstruction</strong>, and the ward can usually meet it by allocating the duty to a female colleague. The nurse says what she can arrange and when, and if it genuinely cannot be met at that moment she explains why and offers what she can — a chaperone, a screen, a short wait.\n\nWhy the other options fail:\n• A — Dismissing the request over a rota tells the patient her dignity is not part of the plan.\n• B — Calling a dignity request unreasonable is a complaint waiting to be made, and delay harms her.\n• C — Proceeding without answering the request leaves her feeling unheard at the worst moment.\n\nReference: Ghana Patients' Charter; NMC Ghana Code of Conduct — dignity",
+  "strategy": "Who touches her is her call where the ward can meet it. Arrange it, do not argue the rota.",
   "difficulty": "medium",
   "tags": [
    "fundamentals",
@@ -58309,28 +58309,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FAM-1704",
   "categorySlug": "fundamentals",
-  "stem": "A grateful family offers a nurse money after their relative's recovery. What should she do?",
+  "stem": "A family asks to make a donation to the ward in gratitude for their father's care. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "Accept it, as refusing would insult the family's gratitude"
+    "text": "Accept the money herself and hand it to the ward afterwards"
    },
    {
     "id": "b",
-    "text": "Accept it and place it in the ward welfare fund instead"
+    "text": "Decline, since any donation from a patient's family is unethical"
    },
    {
     "id": "c",
-    "text": "Accept it privately and tell no one about the transaction"
+    "text": "Suggest they give it to whichever nurse cared for him most"
    },
    {
     "id": "d",
-    "text": "Decline warmly and explain that the care was her duty"
+    "text": "Direct them to the proper channel and record what was given"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Decline warmly and explain that the care was her duty\". Accepting money from patients or families <strong>creates the expectation that care depends on payment, which is precisely what deters the poorest from attending</strong>. Declining warmly, naming the gratitude and redirecting it — a word to the manager, a thank-you letter — honours the family without the harm. Routing it to a ward fund <strong>still confirms that money changes hands</strong>, and accepting it privately is exactly how informal payment becomes normal.\n\nWhy the other options fail:\n• A — Politeness does not justify creating an expectation of payment.\n• B — A ward fund still establishes that payment to staff is expected.\n• C — Concealment is how informal payment becomes normalised.\n\nReference: NMC Ghana Code; Ghana Health Service code of conduct",
-  "strategy": "Refuse the money, accept the gratitude, and offer another way to express it.",
+  "rationale": "CORRECT (D) — \"Direct them to the proper channel and record what was given\". A donation <strong>to the institution</strong> is a different act from a payment to the nurse who happened to be on duty. It is accepted through the facility's own route — administration or the ward fund — receipted and recorded, so that it cannot be mistaken for a reward to an individual and so that it benefits the ward it was meant for. The nurse's own hands stay out of it.\n\nWhy the other options fail:\n• A — Money passing through the nurse's hands creates exactly the suspicion the proper channel avoids.\n• B — Refusing all generosity cuts the family off from a legitimate way of giving thanks.\n• C — Choosing a favoured nurse turns a gift to the ward into a personal payment.\n\nReference: NMC Ghana Code of Conduct — gifts and conflicts of interest",
+  "strategy": "Give it to the institution, not to a person. Receipted and recorded, it stays a gift.",
   "difficulty": "hard",
   "tags": [
    "fundamentals",
@@ -58377,28 +58377,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FAM-1706",
   "categorySlug": "fundamentals",
-  "stem": "A patient has signed a consent form but cannot describe what the operation involves. What does this indicate?",
+  "stem": "The family of a confused patient ask that one of them stay with him overnight. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "The consent is valid because the form has been properly signed"
+    "text": "Refuse, because no relative is allowed on the ward at night"
    },
    {
     "id": "b",
-    "text": "The consent is valid provided a witness observed the signature"
+    "text": "Allow it, but ask them to keep out of the way of the staff"
    },
    {
     "id": "c",
-    "text": "The consent is invalid because she was not adequately informed"
+    "text": "Agree, arrange a chair beside the bed and show them how to call"
    },
    {
     "id": "d",
-    "text": "The consent is invalid because she lacks capacity to decide"
+    "text": "Agree only if the family pay for a private room for the night"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"The consent is invalid because she was not adequately informed\". Consent is <strong>the understanding, and the form is only evidence that a conversation took place</strong>. If she cannot say what is planned, the information element failed and the signature records nothing. The correct action is to stop and arrange a proper explanation before the procedure. Note what this is <strong>not</strong>: an inability to recall an explanation she was never given <strong>says nothing whatever about her capacity</strong>.\n\nWhy the other options fail:\n• A — A signature evidences consent; it does not constitute it.\n• B — A witness confirms the signing, not the understanding.\n• D — Not being told is a failure of information, not of capacity.\n\nReference: NMC Ghana Code; consent standards",
-  "strategy": "Ask her what is planned. If she cannot say it, the consent does not yet exist.",
+  "rationale": "CORRECT (C) — \"Agree, arrange a chair beside the bed and show them how to call\". A familiar person at the bedside is <strong>one of the most effective things available for a confused patient</strong>: it reduces agitation, keeps him from climbing out of bed and stops the night-time falls that follow. The nurse makes it work — a chair, a blanket, a clear explanation of how to summon help and what to do if he tries to get up — and includes the relative in the plan rather than merely tolerating them.\n\nWhy the other options fail:\n• A — A blanket refusal removes the support that keeps him safe and increases the risk the family fear.\n• B — Leaving them to keep out of the way wastes the help they came to give.\n• D — Charging for company turns a clinical arrangement into a transaction.\n\nReference: Ghana nursing curriculum — family-centred care; NMC Ghana Code of Conduct",
+  "strategy": "A relative at the bedside is part of the plan for a confused patient. Set them up to help.",
   "difficulty": "hard",
   "tags": [
    "fundamentals",
@@ -58583,28 +58583,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FAM-1712",
   "categorySlug": "fundamentals",
-  "stem": "How should a nurse prepare a frightened six-year-old for an injection?",
+  "stem": "A patient on a renal diet asks whether his family may bring food from home. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "Explain simply what she will feel and let her hold a parent"
+    "text": "Agree what is allowed with the dietitian and count it in his intake"
    },
    {
     "id": "b",
-    "text": "Tell her it will not hurt so that she does not become anxious"
+    "text": "Refuse, because the ward rules forbid any food being brought in"
    },
    {
     "id": "c",
-    "text": "Perform it quickly before she has time to become distressed"
+    "text": "Allow whatever the family brings, since familiar food cheers him up"
    },
    {
     "id": "d",
-    "text": "Explain the full procedure in the same terms used with adults"
+    "text": "Tell the family to bring only fruit and give no further guidance"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Explain simply what she will feel and let her hold a parent\". Children cope with what they can anticipate, so honest sensory information — <strong>a cold wipe, a sharp scratch, then finished</strong> — plus the comfort of a parent reduces distress far more than surprise does. Telling her it will not hurt destroys her trust the moment it does, and <strong>she will resist every future procedure</strong>. A surprise injection teaches her that adults ambush her, and adult-level explanation exceeds what she can process.\n\nWhy the other options fail:\n• B — An untruth she immediately disproves destroys trust for every future contact.\n• C — Surprise teaches the child that health workers cannot be trusted.\n• D — Adult-level detail exceeds a six-year-old's comprehension.\n\nReference: BCA 301 Patient & Family Centred Care; paediatric standards",
-  "strategy": "Tell a child what she will feel, honestly. Never promise it will not hurt.",
+  "rationale": "CORRECT (A) — \"Agree what is allowed with the dietitian and count it in his intake\". Food from home is <strong>part of the care, not a threat to it</strong> — it keeps a patient eating when hospital food is refused, and it keeps the family involved. The nursing task is to make it safe: agree with the dietitian which foods fit the restriction, tell the family plainly, and include what is eaten in the fluid and intake record so the prescription still adds up.\n\nWhy the other options fail:\n• B — A blanket ban removes the family from care and often means the patient eats nothing at all.\n• C — Uncontrolled potassium, sodium or fluid from home cooking defeats the diet the patient needs.\n• D — Fruit is exactly what is restricted in some renal patients; vague advice is worse than none.\n\nReference: Ghana nursing curriculum — nutrition and family-centred care",
+  "strategy": "Home food keeps a patient eating. Make it fit the prescription and record it, do not ban it.",
   "difficulty": "medium",
   "tags": [
    "fundamentals",
@@ -58995,28 +58995,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FAM-1724",
   "categorySlug": "fundamentals",
-  "stem": "A family asks the nurse not to tell their mother she has cancer. What is the **best** response?",
+  "stem": "A patient says she does not want to be told her diagnosis and asks that her son be told instead. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "Agree, as the family understands her better than the staff"
+    "text": "Tell her anyway, because she has a right to know her own diagnosis"
    },
    {
     "id": "b",
-    "text": "Ask what they fear will happen if she is told"
+    "text": "Respect her wish and agree what her son may be told about it"
    },
    {
     "id": "c",
-    "text": "Tell them the patient has a right to know her diagnosis"
+    "text": "Refuse, since such information may only be given to the patient"
    },
    {
     "id": "d",
-    "text": "Explain that only the doctor may make this decision"
+    "text": "Ask her son to decide if his mother should be told the diagnosis"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Ask what they fear will happen if she is told\". The request comes from love, and the specific fear behind it — that she will give up, or that they will have to watch her despair — is <strong>what must be addressed before anything else can move</strong>. Once named, it can usually be met: the nurse will not lie to her, and will not force information on her either, but will follow her own questions. <strong>Asserting her rights at the outset makes the family an adversary</strong>, and agreeing commits the nurse to deceiving her patient.\n\nWhy the other options fail:\n• A — Agreeing commits the nurse to deceiving her own patient.\n• C — Leading with rights turns a frightened family into an adversary.\n• D — Deflecting to the doctor avoids a conversation the nurse can hold.\n\nReference: BCA 301 Patient & Family Centred Care; NMC Ghana Code",
-  "strategy": "Name the family's fear first. The disagreement usually dissolves once it is spoken.",
+  "rationale": "CORRECT (B) — \"Respect her wish and agree what her son may be told about it\". The right to information belongs to the patient, and so does the <strong>right not to receive it</strong>. Refusing information is a decision she is entitled to make, and in many Ghanaian families the relative who is told is the one who then carries the decisions. What the nurse must do is establish with her — not with the son — how much she wants to know, who may be told on her behalf, and what she wants done if she later changes her mind. Her wishes are recorded.\n\nWhy the other options fail:\n• A — Overriding her refusal takes away the very right that is being invoked.\n• C — Refusing to speak to the family leaves her without the support she has chosen.\n• D — The son does not decide what his mother is told; she does.\n\nReference: Ghana Patients' Charter; NMC Ghana Code of Conduct — confidentiality",
+  "strategy": "The right to know includes the right not to be told. Ask her who may hear it instead.",
   "difficulty": "hard",
   "tags": [
    "fundamentals",
@@ -59029,28 +59029,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FAM-1725",
   "categorySlug": "fundamentals",
-  "stem": "A dying patient asks the nurse directly whether she is going to die. How should the nurse respond?",
+  "stem": "The family of a dying patient ask that their pastor be allowed to pray at the bedside. How should the nurse respond?",
   "choices": [
    {
     "id": "a",
-    "text": "Tell her that she should discuss this with her doctor"
+    "text": "Explain that visitors are restricted, so prayer must wait for visiting"
    },
    {
     "id": "b",
-    "text": "Reassure her that everything possible is being done"
+    "text": "Allow the visit, but ask the pastor to keep the prayers brief and quiet"
    },
    {
     "id": "c",
-    "text": "Ask what has prompted the question before answering it"
+    "text": "Welcome it, and arrange privacy and time for the visit to take place"
    },
    {
     "id": "d",
-    "text": "Change the subject to avoid distressing her further"
+    "text": "Refer the request to the doctor, since it is a clinical decision"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Ask what has prompted the question before answering it\". The same words carry different questions — <strong>am I dying today, will it hurt, who will look after my children, is anyone going to be honest with me</strong> — and answering before knowing which one risks answering the wrong one. A gentle exploratory response opens the real concern and never abandons her. Deflection to the doctor, blanket reassurance and changing the subject <strong>all teach her that this cannot be discussed with anyone</strong>.\n\nWhy the other options fail:\n• A — Deflection teaches her the subject cannot be raised with nurses.\n• B — Blanket reassurance answers a question she did not ask.\n• D — Changing the subject abandons her with the fear she just voiced.\n\nReference: BCA 301 Patient & Family Centred Care; palliative care standards",
-  "strategy": "Find out which question she is really asking before you answer it.",
+  "rationale": "CORRECT (C) — \"Welcome it, and arrange privacy and time for the visit to take place\". Spiritual care is part of care of the dying, and <strong>the wish to pray is not an interruption to the work of the ward but one of the needs being met</strong>. The nurse arranges what makes it possible: a screen or side room, a chair, and enough time that the family are not watching the clock. What she does not do is make the family negotiate for it or treat it as a concession.\n\nWhy the other options fail:\n• A — Visiting rules exist for the running of the ward, not to refuse a dying patient's rites.\n• B — Allowing it while hurrying it tells the family their beliefs are tolerated rather than respected.\n• D — Prayer is not a clinical decision and does not need medical authorisation.\n\nReference: Ghana nursing curriculum — spiritual and end-of-life care; NMC Code",
+  "strategy": "Prayer at the bedside is care. Make space and time for it rather than permission.",
   "difficulty": "hard",
   "tags": [
    "fundamentals",
@@ -59165,28 +59165,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FAM-1729",
   "categorySlug": "fundamentals",
-  "stem": "What should the nurse establish before performing last offices?",
+  "stem": "A patient dies unexpectedly and the family is told a post-mortem is required. What should the nurse explain?",
   "choices": [
    {
     "id": "a",
-    "text": "Whether the mortuary has space available at present"
+    "text": "That the examination is routine for every death on the ward"
    },
    {
     "id": "b",
-    "text": "Which relative will be responsible for the funeral costs"
+    "text": "That the family will be charged for the examination afterwards"
    },
    {
     "id": "c",
-    "text": "Whether the death certificate has already been issued"
+    "text": "That they may not see the body once it has been taken away"
    },
    {
     "id": "d",
-    "text": "The family's religious and cultural requirements for the body"
+    "text": "That it is required by law, and their rites can still go ahead"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"The family's religious and cultural requirements for the body\". Practices differ substantially — <strong>who may touch the body, whether it is washed and by whom, the direction it is laid, how quickly burial must follow</strong> — and a step performed in ignorance cannot be undone and causes lasting distress. Asking takes a moment. Mortuary space, funeral costs and certification <strong>are all real tasks, but they follow the care of the body rather than preceding it</strong>.\n\nWhy the other options fail:\n• A — Mortuary logistics follow rather than precede the care of the body.\n• B — Funeral costs are a family matter separate from last offices.\n• C — Certification is a parallel process, not a prerequisite for this care.\n\nReference: BCA 301 Patient & Family Centred Care; last offices standards",
-  "strategy": "Ask before you touch. A rite performed wrongly cannot be performed again.",
+  "rationale": "CORRECT (D) — \"That it is required by law, and their rites can still go ahead\". An unexpected death is a reportable one, and the examination that follows is a <strong>legal requirement rather than a clinical choice</strong> — it protects the family as much as the hospital, because it establishes why the death occurred. What families fear most is that the body will be treated without respect or that their burial rites will be impossible, so the nurse explains plainly what will happen, that cultural and religious practice is respected wherever it can be, and how the body will be released.\n\nWhy the other options fail:\n• A — It is not routine; it is required because the death was unexpected.\n• B — Payment is not the issue, and raising it confirms the family's worst suspicions.\n• C — Viewing and rites are usually possible, and saying otherwise causes distress that can be avoided.\n\nReference: Ghana Public Health Act — registration and reportable deaths",
+  "strategy": "An unexpected death is a legal matter. Say so plainly, and say how their rites will be respected.",
   "difficulty": "medium",
   "tags": [
    "fundamentals",
@@ -69506,23 +69506,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "The nearest NHIS district office"
+    "text": "The nearest National Health Insurance district office"
    },
    {
     "id": "b",
-    "text": "The District Social Welfare Officer at the District Assembly"
+    "text": "District Social Welfare Officer at the Assembly"
    },
    {
     "id": "c",
-    "text": "The regional hospital administrator"
+    "text": "The administrator of the regional teaching hospital"
    },
    {
     "id": "d",
-    "text": "The pensions office of SSNIT"
+    "text": "The pensions office of SSNIT in the regional capital"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"The District Social Welfare Officer at the District Assembly\". LEAP targets extremely poor households, <strong>including those with a member aged 65 and above, and enrolment runs through District Social Welfare Officers based at the District Assembly</strong>. LEAP households are also an NHIS exempt category, so one referral can secure both. SSNIT is irrelevant here for a reason worth remembering: <strong>most older Ghanaians worked informally and therefore have no contributory pension at all</strong>.\n\nWhy the other options fail:\n• A — NHIS handles insurance, not the cash transfer.\n• C — Hospital administration has no role in social protection enrolment.\n• D — SSNIT pays contributory pensions to former formal-sector workers only.\n\nReference: Ghana LEAP programme, Ministry of Gender, Children and Social Protection",
+  "rationale": "CORRECT (B) — \"\"District Social Welfare Officer at the Assembly\"\". LEAP targets extremely poor households, <strong>including those with a member aged 65 and above, and enrolment runs through District Social Welfare Officers based at the District Assembly</strong>. LEAP households are also an NHIS exempt category, so one referral can secure both. SSNIT is irrelevant here for a reason worth remembering: <strong>most older Ghanaians worked informally and therefore have no contributory pension at all</strong>.\n\nWhy the other options fail:\n• A — NHIS handles insurance, not the cash transfer.\n• C — Hospital administration has no role in social protection enrolment.\n• D — SSNIT pays contributory pensions to former formal-sector workers only.\n\nReference: Ghana LEAP programme, Ministry of Gender, Children and Social Protection",
   "strategy": "Cash transfer means Social Welfare at the District Assembly.",
   "difficulty": "medium",
   "tags": [
@@ -108602,23 +108602,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Restrict fluids before the scan so the contrast is not diluted"
+    "text": "Restrict fluids before the scan so that the contrast is not diluted"
    },
    {
     "id": "b",
-    "text": "Give a diuretic beforehand so the contrast is cleared faster"
+    "text": "Give a diuretic beforehand so that the contrast is cleared faster"
    },
    {
     "id": "c",
-    "text": "Ensure adequate hydration before and after the scan and review any nephrotoxic medicines with the prescriber"
+    "text": "Ensure hydration before and after, and review nephrotoxic drugs"
    },
    {
     "id": "d",
-    "text": "Take no action, since contrast has no effect on kidney function"
+    "text": "Take no action, since contrast medium has no effect on the kidneys"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Ensure adequate hydration before and after the scan and review any nephrotoxic medicines with the prescriber\". Contrast-associated kidney injury is most likely in patients who are already dehydrated or who have diabetes, existing renal impairment or advanced age, and this patient carries several of those risks at once. Adequate hydration before and after the procedure maintains renal perfusion and helps clear the contrast, and it is the single most effective preventive measure available. At the same time, nephrotoxic drugs such as non-steroidal anti-inflammatories, aminoglycosides and sometimes metformin should be reviewed. Renal function should be checked before the scan and again afterwards where risk is high.\n\nWhy the other options fail:\n• A — Restricting fluid before contrast is the opposite of correct practice and substantially increases the risk of kidney injury in an already dehydrated patient.\n• B — Diuretics deplete volume further and have not been shown to protect the kidney from contrast. They increase risk rather than reducing it.\n• D — Contrast media are a recognised cause of acute kidney injury, particularly in this risk group. Taking no action would be negligent.\n\nReference: Ghana Standard Treatment Guidelines — radiology and renal care; WHO diagnostic imaging guidance",
+  "rationale": "CORRECT (C) — \"Ensure hydration before and after, and review nephrotoxic drugs\". Contrast-associated kidney injury is most likely in patients who are already dehydrated or who have diabetes, existing renal impairment or advanced age, and this patient carries several of those risks at once. Adequate hydration before and after the procedure maintains renal perfusion and helps clear the contrast, and it is the single most effective preventive measure available. At the same time, nephrotoxic drugs such as non-steroidal anti-inflammatories, aminoglycosides and sometimes metformin should be reviewed. Renal function should be checked before the scan and again afterwards where risk is high.\n\nWhy the other options fail:\n• A — Restricting fluid before contrast is the opposite of correct practice and substantially increases the risk of kidney injury in an already dehydrated patient.\n• B — Diuretics deplete volume further and have not been shown to protect the kidney from contrast. They increase risk rather than reducing it.\n• D — Contrast media are a recognised cause of acute kidney injury, particularly in this risk group. Taking no action would be negligent.\n\nReference: Ghana Standard Treatment Guidelines — radiology and renal care; WHO diagnostic imaging guidance",
   "strategy": "Before any nephrotoxic exposure, protect perfusion first. Hydration beats every pharmacological measure, and dehydration multiplies the risk.",
   "difficulty": "medium",
   "tags": [
