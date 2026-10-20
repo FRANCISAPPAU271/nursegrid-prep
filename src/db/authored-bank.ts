@@ -3689,28 +3689,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0106",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient is prescribed 750 mg of a drug orally. The tablets available are 250 mg each. How many tablets should be given?",
+  "stem": "A patient is having a hip replacement. The surgeon asks why the antibiotic prophylaxis must be running before the knife goes in. What is the nurse's answer?",
   "choices": [
    {
     "id": "a",
-    "text": "Three tablets"
+    "text": "Tissue levels must be high at incision, so it is given within 60 minutes before"
    },
    {
     "id": "b",
-    "text": "Half a tablet"
+    "text": "It is given after the wound is closed, to treat any organisms that have landed on the wound"
    },
    {
     "id": "c",
-    "text": "Two tablets"
+    "text": "It is given only if the operation lasts more than four hours, when infection becomes likely"
    },
    {
     "id": "d",
-    "text": "Four tablets"
+    "text": "It is given the night before, so that a full course has time to work through the bloodstream"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Three tablets\". Dose required divided by dose per tablet gives <strong>750 ÷ 250 = 3 tablets</strong>. Sense-check: 250 multiplied by 3 returns 750, confirming the calculation. Whenever the answer is not a whole or half tablet, the prescription or the stock strength should be queried.\n\nWhy the other options fail:\n• B — Half a tablet delivers 125 mg, only a sixth of the prescribed dose.\n• C — Two tablets give 500 mg, leaving the patient 250 mg short.\n• D — Four tablets give 1,000 mg, exceeding the prescription by a third.\n\nReference: Ghana STG — medicines administration",
-  "strategy": "Use want over have. Divide the dose required by the strength of one unit. Then multiply back to confirm. Two calculations in opposite directions catch nearly every arithmetic slip.",
+  "rationale": "CORRECT (A) — \"Tissue levels must be high at incision, so it is given within 60 minutes before\". Surgical prophylaxis is about preventing infection in the wound, and the critical moment is when the incision is made. Giving the drug within about 60 minutes before the knife goes in means that the tissue concentration is at its peak when the wound opens and the first organisms are introduced; that is why the timing is checked with the theatre team and recorded. Some drugs need to start earlier — vancomycin takes an hour to infuse — and prophylaxis is repeated during a long operation or after heavy blood loss. The course is short; continuing it for days is not prophylaxis and breeds resistance.\n\nWhy the other options fail:\n• B — Giving it after closure misses the moment of contamination, when prophylaxis actually works.\n• C — Duration is not the trigger; the drug is given before every incision, and a long operation means a repeat dose, not a first dose.\n• D — A dose the night before gives tissue levels that have already fallen by the morning and encourages resistance.\n\n\nReference: NICE — surgical site infection; SIGN 104; Ghana STG — perioperative care\n",
+  "strategy": "Prophylaxis must be in the tissue before the knife: within 60 minutes, repeated for long cases.",
   "difficulty": "easy",
   "tags": [
    "pharmacology-parenteral",
@@ -22917,28 +22917,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TCM-0668",
   "categorySlug": "health-promotion",
-  "stem": "A patient in Ghana insists a herbal remedy cannot harm her because it is natural. How should the nurse respond?",
+  "stem": "A mother wants to give her three-day-old baby a herbal bath with a decoction her own mother used. How should the nurse respond?",
   "choices": [
    {
     "id": "a",
-    "text": "Agree, since plant preparations rarely cause harm when taken as directed"
+    "text": "Respect the wish, explain the risks, and agree a plain warm bath with the cord kept dry"
    },
    {
     "id": "b",
-    "text": "Tell her all herbal medicines are dangerous and she should stop taking them"
+    "text": "Refuse to discuss it, because a trained nurse must never talk about traditional practices"
    },
    {
     "id": "c",
-    "text": "Advise her to take only half the usual dose so that any harm will be reduced"
+    "text": "Tell her that herbal baths are harmless in a newborn and she should use the strongest decoction"
    },
    {
     "id": "d",
-    "text": "Explain that plants contain active chemicals, which is why they can also harm"
+    "text": "Take the baby into hospital care, because the family cannot be trusted to keep him safe at home"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Explain that plants contain active chemicals, which is why they can also harm\". Plants work precisely because they contain <strong>pharmacologically active chemicals</strong> — digoxin, morphine, quinine and aspirin all began as plant products. The same chemistry that produces the effect produces the toxicity and the interactions. Herbal preparations also carry <strong>uncertain dose</strong>, since strength varies with species, soil, season, the part used and the preparation method, so two cups of the same brew may not deliver the same amount.\n\nWhy the other options fail:\n• A — This endorses a false and dangerous belief. Plant toxicity, contamination and interaction are all well documented.\n• B — Blanket condemnation is inaccurate and simply makes the patient conceal her use in future.\n• C — Halving an unknown dose of an unknown preparation is arbitrary and gives false reassurance.\n\nReference: Ghana nursing curriculum — safety of herbal medicines",
-  "strategy": "Answer the natural equals safe belief with chemistry, not with prohibition. The mechanism argument persuades; scolding does not.",
+  "correctChoiceId": "a",
+  "rationale": "CORRECT (A) — \"Respect the wish, explain the risks, and agree a plain warm bath with the cord kept dry\". Herbal bathing of a newborn is common and carries meaning for the family, so the conversation starts by asking what is used and why. The real risks are specific and worth naming: unsterilised preparations can introduce infection through the cord stump or broken skin, some plants irritate or sensitise the skin, boiling water causes scalds, and anything added to the bath water can get into the eyes. The nurse does not dismiss the practice but agrees what is safe: plain warm water, the cord kept clean and dry, no substances applied to the stump, and hands washed. The mother's concerns are heard, and the baby's safety is protected at the same time.\n\nWhy the other options fail:\n• B — Refusing to discuss it leaves the practice unchanged and loses the chance to reduce harm.\n• C — Calling it harmless and urging a stronger decoction endorses the very things that cause infection and burns.\n• D — Removing the baby over a bathing practice is disproportionate and damages the relationship that keeps the family engaged.\n\n\nReference: WHO — newborn care; Ghana STG — traditional medicine and newborn health\n",
+  "strategy": "Ask, explain the risks, agree plain water and a dry cord. Do not dismiss and do not endorse.",
   "difficulty": "hard",
   "tags": [
    "health-promotion",
@@ -42162,28 +42162,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PKD-1231",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A nurse realises she has given the wrong drug to a patient. What should she do **first**?",
+  "stem": "A woman with a mechanical heart valve is planning a pregnancy. Why must warfarin be changed before she conceives?",
   "choices": [
    {
     "id": "a",
-    "text": "Complete the incident form before returning to check on the patient"
+    "text": "Because warfarin makes the blood too thick and raises the risk of a clot in the valve"
    },
    {
     "id": "b",
-    "text": "Wait to see whether the patient develops any symptoms before acting"
+    "text": "Because warfarin cannot be taken at the same time as folic acid in early pregnancy"
    },
    {
     "id": "c",
-    "text": "Tell the next shift about it so that they can monitor for any effects"
+    "text": "Because it crosses the placenta and can cause malformations and fetal bleeding"
    },
    {
     "id": "d",
-    "text": "Assess the patient's condition and then report the error immediately"
+    "text": "Because the dose has to be doubled in pregnancy, and that is unsafe for the mother's bone"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Assess the patient's condition and then report the error immediately\". The patient always comes first: <strong>assess, treat and get help</strong>, because some wrong drugs need an antidote or urgent monitoring. Reporting follows immediately, since the prescriber may need to act. Documentation comes after both. Waiting to see whether symptoms appear wastes the window in which harm can be prevented, and <strong>concealment is the only response that ends a career</strong> — errors are forgiven far more readily than cover-ups.\n\nWhy the other options fail:\n• A — Paperwork before patient assessment reverses the correct priority.\n• B — Waiting for symptoms forfeits the chance to prevent harm.\n• C — Delaying to the next shift denies the patient immediate assessment and treatment.\n\nReference: Ghana nursing curriculum — RGN 207 drug safety",
-  "strategy": "Patient first, report second, paperwork third. That order never changes.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Because it crosses the placenta and can cause malformations and fetal bleeding\". Warfarin crosses the placenta and blocks vitamin K–dependent clotting factor synthesis in the fetus. Between about 6 and 12 weeks it can cause warfarin embryopathy — nasal hypoplasia and stippled epiphyses — and later in pregnancy it can cause bleeding into the fetal brain, especially at delivery. That is why a woman with a mechanical valve who is planning a pregnancy is switched, before conception where possible, to a low molecular weight heparin, which does not cross the placenta; the valve needs protection throughout, so the switch is planned with cardiology and obstetrics and never stopped altogether.\n\nWhy the other options fail:\n• A — Warfarin thins the blood, and stopping it would expose the valve to clot; the concern is the fetus.\n• B — Folic acid is recommended in any pregnancy; there is no such interaction driving the change.\n• D — The dose is not simply doubled; the whole drug is changed because of fetal harm.\n\n\nReference: NICE — anticoagulation in pregnancy; RCOG — heart disease in pregnancy\n",
+  "strategy": "Warfarin crosses the placenta: embryopathy at 6–12 weeks, fetal bleeding later. Switch before conception.",
   "difficulty": "hard",
   "tags": [
    "pharmacology-parenteral",
@@ -51157,28 +51157,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CVM-1494",
   "categorySlug": "med-surg",
-  "stem": "An older woman with diabetes attends with sudden breathlessness and vomiting but no chest pain. Why must infarction be considered?",
+  "stem": "A man is brought in with sudden tearing chest pain that went through to his back, and his right arm pressure is much lower than his left. What must the nurse do first?",
   "choices": [
    {
     "id": "a",
-    "text": "Women develop heart disease only after the age of seventy"
+    "text": "Give a loading dose of aspirin and prepare for thrombolysis, as for a heart attack"
    },
    {
     "id": "b",
-    "text": "Neuropathy and age can blunt the perception of cardiac pain"
+    "text": "Call for senior help, control pain and prepare for urgent imaging and surgery"
    },
    {
     "id": "c",
-    "text": "Diabetes causes vomiting whenever the blood glucose is high"
+    "text": "Give morphine and send him home for review, since the pain is settling with rest"
    },
    {
     "id": "d",
-    "text": "Breathlessness in diabetes is always caused by ketoacidosis"
+    "text": "Start a large intravenous fluid infusion as fast as possible, to fill the aorta and the circulation"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Neuropathy and age can blunt the perception of cardiac pain\". Autonomic neuropathy in long-standing diabetes and altered pain perception with age mean the infarct can be <strong>silent, presenting instead as breathlessness, collapse, confusion, vomiting or simply feeling unwell</strong>. These patients are diagnosed later and die more often, precisely because the presentation does not match the picture staff are looking for. The safeguard is to <strong>record an ECG on the basis of risk, not on the basis of pain</strong>.\n\nWhy the other options fail:\n• A — Women develop coronary disease earlier than this, particularly with diabetes.\n• C — Hyperglycaemia can cause vomiting, but assuming it here misses the infarct.\n• D — Ketoacidosis is one cause of breathlessness, not the only one.\n\nReference: Ghana STG; WHO cardiovascular guidance",
-  "strategy": "In diabetes and old age, let the risk profile order the ECG, not the presence of pain.",
+  "rationale": "CORRECT (B) — \"Call for senior help, control pain and prepare for urgent imaging and surgery\". Tearing pain that moves to the back, a difference in blood pressure or pulse between arms, and a new murmur of aortic regurgitation are the picture of an aortic dissection. The danger is that the false channel ruptures, which can kill within minutes, so the patient needs senior help at once, good analgesia, and heart rate and blood pressure brought down so that the force tearing the wall apart is reduced — then urgent imaging and the surgeon or cardiologist. Thrombolysis or anticoagulation, which is right for a heart attack, is actively lethal here, which is why the distinction matters.\n\nWhy the other options fail:\n• A — Aspirin and thrombolysis are for an occluded coronary artery; in dissection they make the bleeding worse.\n• C — Sending home a patient with a possible dissection is a fatal error; the pain settling means nothing.\n• D — Aggressive fluid loading raises the pressure driving the dissection; the aim is to lower it, not to fill.\n\n\nReference: ESC — aortic dissection; Ghana STG — chest pain\n",
+  "strategy": "Tearing pain to the back with unequal arm pressures: not a heart attack. Control the pressure, scan, operate.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -59711,28 +59711,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHD-1745",
   "categorySlug": "pediatrics",
-  "stem": "Which finding indicates that a baby is well attached at the breast?",
+  "stem": "A two-year-old has had a fever for six days, red eyes, cracked lips, a rash and red swollen hands. What is the diagnosis, and why does it matter?",
   "choices": [
    {
     "id": "a",
-    "text": "Rapid shallow sucking that continues without any pauses"
+    "text": "Measles, which needs vitamin A and isolation, and the fever will settle"
    },
    {
     "id": "b",
-    "text": "The nipple appearing flattened and ridged after the feed"
+    "text": "Kawasaki disease, needing IVIG and aspirin"
    },
    {
     "id": "c",
-    "text": "More areola visible above the top lip than below the bottom lip"
+    "text": "Scarlet fever, which needs penicillin and will settle the rash in a week"
    },
    {
     "id": "d",
-    "text": "The mother reporting sharp pain throughout the whole feed"
+    "text": "A viral illness that needs only fluids and rest at home"
    }
   ],
-  "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"More areola visible above the top lip than below the bottom lip\". Good attachment brings <strong>the underside of the areola into the baby's mouth, so more areola shows above the top lip than below</strong> — together with a wide mouth, an everted lower lip and the chin touching the breast. Slow deep sucks with swallowing pauses follow. Rapid shallow sucking, a misshapen nipple afterwards and ongoing pain <strong>all indicate she is on the nipple alone</strong>, which damages the mother and underfeeds the baby.\n\nWhy the other options fail:\n• A — Rapid shallow sucking without pauses indicates nipple-only attachment.\n• B — A flattened, ridged nipple is a sign of poor attachment.\n• D — Sustained pain throughout the feed indicates incorrect attachment.\n\nReference: Ghana Baby Friendly Hospital Initiative; WHO breastfeeding counselling",
-  "strategy": "Look at the areola, the lip and the chin. Pain is a sign, not a normal part of feeding.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"Kawasaki disease, needing IVIG and aspirin\". Six days of fever that does not respond to ordinary treatment, with conjunctivitis, red cracked lips and strawberry tongue, a polymorphous rash, a single large neck node and red swollen hands and feet that later peel, is Kawasaki disease. It affects small and medium arteries, and the danger is coronary artery aneurysm, which can cause a myocardial infarction in a child. Treatment with intravenous immunoglobulin and high-dose aspirin within the first ten days reduces that risk sharply, so the child also needs an echocardiogram and follow-up. No cause is known, and it is not infectious.\n\nWhy the other options fail:\n• A — Measles gives a rash with cough, coryza and the mouth spots, and does not cause six days of fever with peeling hands.\n• C — Scarlet fever has a sore throat, a sandpaper rash and a coated tongue, and the fever falls quickly on penicillin.\n• D — Treating this as a simple viral illness is what allows a coronary aneurysm to form untreated.\n\n\nReference: WHO — Kawasaki disease; AHA — diagnosis and treatment\n",
+  "strategy": "Five or more days of fever with red eyes, lips, rash and swollen hands: IVIG before day 10.",
   "difficulty": "medium",
   "tags": [
    "pediatrics",
@@ -85127,28 +85127,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRC-2482",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A nurse notices that a prescription for a child specifies a dose far higher than she believes is correct for the child's weight. What should she do?",
+  "stem": "A woman with bipolar disorder has been stable on lithium for years and now wants to conceive. What must happen before she stops the drug herself?",
   "choices": [
    {
     "id": "a",
-    "text": "Give the dose as written, since the prescriber carries the responsibility"
+    "text": "Nothing: lithium is the safest mood stabiliser in pregnancy and can continue at the same dose throughout"
    },
    {
     "id": "b",
-    "text": "Give half the dose as a compromise until the matter is clarified"
+    "text": "She should simply stop the lithium today, since any drug is dangerous in the first three months"
    },
    {
     "id": "c",
-    "text": "Ask another nurse to administer it instead"
+    "text": "She should switch to a high dose of a sedative, which will control her mood in place of lithium"
    },
    {
     "id": "d",
-    "text": "Withhold the dose and query it with the prescriber before giving anything"
+    "text": "A planned review, because stopping abruptly risks relapse, and lithium itself carries fetal risk"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Withhold the dose and query it with the prescriber before giving anything\". A nurse who administers a drug is accountable for that administration, and following an order she believes to be wrong is not a defence. The duty is to withhold, check the calculation against the child's weight and the reference, and contact the prescriber to clarify, escalating to a senior colleague if the concern is not resolved. Most such queries turn out to be transcription or decimal errors, and paediatric doses are where decimal errors do the most harm. The action is documented. The principle is withhold and ask, because a dose can always be given a few minutes later but never taken back.\n\nWhy the other options fail:\n• A — Accountability is shared, and administering a dose known to be questionable makes the nurse responsible for the resulting harm.\n• B — Halving the dose invents a third prescription that nobody has authorised and may be equally wrong.\n• C — Handing the task to a colleague transfers the risk without resolving the concern and exposes that colleague instead.\n\nReference: NMC Ghana professional standards; accountability in administration",
-  "strategy": "Withhold and ask is the reliable answer whenever the nurse has a genuine doubt. Options that administer anyway, improvise a dose, or pass the task on are all avoiding the query.",
+  "rationale": "CORRECT (D) — \"A planned review, because stopping abruptly risks relapse, and lithium itself carries fetal risk\". Both paths carry risk, so the decision is made with psychiatry and obstetrics before conception, not in a hurry after it. Stopping lithium suddenly in a woman who depends on it leads to early relapse, especially in the postpartum period, and relapse carries its own dangers for mother and baby. Continuing it means counselling about Ebstein's anomaly and other cardiac effects, checking the dose against a pre-pregnancy level, monitoring the level more often in pregnancy, and planning around delivery and breastfeeding. The one option that is not safe is a self-made decision in either direction.\n\nWhy the other options fail:\n• A — Lithium is not risk-free; it is associated with cardiac malformations, and the dose and level need planning.\n• B — Abrupt withdrawal is the classic trigger for relapse, and untreated illness in pregnancy is a serious risk.\n• C — A sedative is not a mood stabiliser and does not treat bipolar disorder.\n\n\nReference: NICE — bipolar disorder in pregnancy; Ghana STG — psychiatry\n",
+  "strategy": "Plan it: abrupt stopping relapses, continuing needs counselling and level monitoring.",
   "difficulty": "medium",
   "tags": [
    "pharmacology-parenteral",
@@ -97206,28 +97206,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2834",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "Why is the ventrogluteal site preferred over the dorsogluteal site for intramuscular injection?",
+  "stem": "A man with chronic kidney disease asks whether he can take ibuprofen for his knee pain. What should the nurse advise?",
   "choices": [
    {
     "id": "a",
-    "text": "It is free of major nerves and vessels and has a reliable muscle thickness"
+    "text": "Yes, provided he drinks a lot of water with each tablet to protect the kidneys"
    },
    {
     "id": "b",
-    "text": "It is closer to the surface so a shorter needle can always be used"
+    "text": "No: NSAIDs reduce kidney blood flow, so use paracetamol and discuss other options"
    },
    {
     "id": "c",
-    "text": "It causes no pain at all because the area contains no sensory nerves"
+    "text": "Yes, because a short course of a NSAID can never harm a kidney that is already damaged"
    },
    {
     "id": "d",
-    "text": "It allows a much larger volume to be injected than any other site"
+    "text": "No: all painkillers are dangerous in kidney disease, so he should endure the pain without anything"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"It is free of major nerves and vessels and has a reliable muscle thickness\". The dorsogluteal site lies close to the sciatic nerve and the superior gluteal vessels, and injection there has caused permanent nerve injury and foot drop, particularly when the landmarks are estimated rather than measured. It is also overlaid by fat in many adults, so the injection often reaches fat rather than muscle and absorption is unpredictable. The ventrogluteal site, located by placing the palm on the greater trochanter with fingers spread towards the iliac crest and injecting into the resulting V, contains no major nerve or vessel and has consistent muscle depth. The principle is that a site is chosen for what lies beneath it.\n\nWhy the other options fail:\n• B — Depth is comparable and needle length is chosen from the patient's build, not the site alone.\n• C — All injection sites have sensory innervation and some discomfort is expected.\n• D — Volume limits are similar; safety rather than capacity is the reason for the preference.\n\nReference: Standard intramuscular injection technique",
-  "strategy": "Choose an injection site by asking what structures lie underneath, not by habit or convenience.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"No: NSAIDs reduce kidney blood flow, so use paracetamol and discuss other options\". Prostaglandins keep the afferent arteriole open, and that flow is what maintains the filtration pressure in a kidney already working with reduced capacity. NSAIDs block prostaglandin synthesis, so the vessel narrows, blood flow falls and acute kidney injury can follow, along with fluid retention and a rise in potassium. The risk rises with dehydration, heart failure, older age and other kidney-toxic drugs. Paracetamol at the right dose is the first choice, with topical NSAID gels or a short course under supervision only if the prescriber judges it safe and the creatinine is watched.\n\nWhy the other options fail:\n• A — Extra water does not prevent the vasoconstriction that a NSAID causes; hydration does not make it safe.\n• C — The damaged kidney has less reserve, which makes it more vulnerable, not less.\n• D — Untreated pain is harmful too, and paracetamol, heat, weight loss and a supervised plan all help without this mechanism.\n\n\nReference: KDIGO — drug dosing in chronic kidney disease; BNF — NSAIDs\n",
+  "strategy": "NSAIDs narrow the vessel that keeps a failing kidney perfused. Paracetamol first.",
   "difficulty": "medium",
   "tags": [
    "pharmacology-parenteral",
@@ -114454,28 +114454,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-RESP-0009",
  "categorySlug": "fundamentals",
- "stem": "A nurse is preparing to insert an indwelling urinary catheter. Which action best maintains asepsis?",
+ "stem": "A patient on the ward has died. What is the nurse's responsibility at that moment?",
  "choices": [
   {
    "id": "a",
-   "text": "Use sterile gloves and a sterile single-use kit, keeping the catheter tip sterile throughout"
+   "text": "Certify the death in the notes so that the family can be given a death certificate immediately"
   },
   {
    "id": "b",
-   "text": "Wear clean examination gloves and reuse the catheter if the first attempt fails"
+   "text": "Say nothing to the family until the body has been taken to the mortuary and the papers are complete"
   },
   {
    "id": "c",
-   "text": "Clean the meatus with the same antiseptic swab used for the surrounding skin"
+   "text": "Remove the dentures and pack the body before any doctor is informed, to save time later"
   },
   {
    "id": "d",
-   "text": "Set the drainage bag on the floor beside the bed so that it does not pull"
+   "text": "Confirm and record absence of response, breathing and pulse, and inform the doctor"
   },
  ],
- "correctChoiceId": "a",
- "rationale": "Catheter insertion is an aseptic procedure, so sterile gloves and a sterile single-use kit are used and the catheter tip stays sterile from the moment it leaves its packaging until it enters the urethra.\n\nWhy the other options fail:\n• B — A failed catheter is discarded, never reused, and clean examination gloves do not maintain asepsis.\n• C — Using one swab for the meatus and the surrounding skin drags contamination towards the meatus; a new swab is used for each downward stroke.\n• D — A drainage bag left on the floor puts the outlet in contact with a recognised source of catheter-associated infection.",
- "strategy": "Sterile gloves, sterile kit, tip never touched. A failed catheter is thrown away, not reused.",
+ "correctChoiceId": "d",
+ "rationale": "CORRECT (D) — \"Confirm and record absence of response, breathing and pulse, and inform the doctor\". Verification of death means establishing that the patient is not breathing, has no central pulse, does not respond and has fixed, dilated pupils, and documenting the time. The nurse who is present makes those observations and records them, and calls the doctor, who completes the certification and the medical certificate of cause of death. The family is told promptly and with dignity, in private. Last offices — washing and positioning the body, removing lines and dentures as local practice requires — come after, and the body is labelled and handled with respect for the family's religious and cultural wishes.\n\nWhy the other options fail:\n• A — Certifying and completing the certificate is the doctor's legal act; the nurse documents her observations.\n• B — The family should be told as soon as possible, not after paperwork; delay adds to their distress.\n• C — The doctor must be informed first, and last offices follow the agreed procedure, not a shortcut.\n\n\nReference: Ghana Health Service — care of the dying; NMC — professional standards\n",
+ "strategy": "Verify and record, call the doctor, then tell the family, then last offices.",
  "difficulty": "hard",
  "tags": ["dysphagia", "aspiration"],
  "isFree": false
@@ -115830,28 +115830,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-PEDS2-0015",
  "categorySlug": "pediatrics",
- "stem": "A child who had a cardiac catheterisation has a dressing saturated with blood. What should the nurse do first?",
+ "stem": "A newborn is to have a blood spot taken for screening before discharge. Where should the nurse obtain the sample?",
  "choices": [
   {
    "id": "a",
-   "text": "Reinforce the dressing without looking at the site"
+   "text": "The outer side of the heel, after warming it, avoiding the centre"
   },
   {
    "id": "b",
-   "text": "Sit the child upright and leave the site to be checked later"
+   "text": "The centre of the heel pad, where the skin is thickest and the blood flows best"
   },
   {
    "id": "c",
-   "text": "Apply firm direct pressure above the insertion site and call for help"
+   "text": "The tip of the big toe, because the toe is small and easy to hold steady"
   },
   {
    "id": "d",
-   "text": "Wait for the next scheduled observation round"
+   "text": "The back of the hand, after a tight squeeze to fill the capillary tube quickly"
   }
  ],
- "correctChoiceId": "c",
- "rationale": "A saturated dressing after femoral catheterisation means the puncture site is bleeding and may be bleeding into the groin, so the nurse applies firm pressure at and just above the insertion site, keeps the child flat, checks distal pulses and calls for help. Option A hides the blood loss and conceals the size of the problem. Option B removes the pressure and adds gravitational flow. Option D allows continued haemorrhage.",
- "strategy": "Blood through the dressing means press on the site now, then check the distal pulse.",
+ "correctChoiceId": "a",
+ "rationale": "CORRECT (A) — \"The outer side of the heel, after warming it, avoiding the centre\". Newborn screening in Ghana includes a blood spot for sickle cell disease, and the sample has to be taken safely and be adequate. The heel is warmed first, then a lancet is used on the outer or inner aspect of the heel, where the skin is thin and the bone is deep; the first drop is wiped away and the next drops are touched onto the card so that it fills from both sides of the circle. Squeezing hard or using the centre of the heel risks bruising the bone, and the fingers and toes of a newborn are avoided because infection and injury follow easily.\n\nWhy the other options fail:\n• B — The centre of the heel sits over the calcaneus, and a puncture there can cause osteomyelitis.\n• C — The toe is small, poorly perfused at the tip and prone to infection; it is not a screening site.\n• D — A tight squeeze damages tissue and dilutes the sample with tissue fluid; fingers are avoided in newborns.\n\n\nReference: WHO — newborn screening; Ghana — newborn screening for sickle cell disease\n",
+ "strategy": "Outer heel, warmed, first drop wiped. Never the centre of the heel or a newborn's finger.",
  "difficulty": "hard",
  "tags": [
   "cardiac-catheterisation",
