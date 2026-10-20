@@ -198,10 +198,10 @@ export const NCX3_PART_A: AuthoredQuestion[] = [
     n: 161, cat: "med-surg",
     stem: "A man with a long history of smoking has a chest X-ray and bronchoscopy and is told that he has lung cancer. The next morning he tells the nurse, \"I'm sure they mixed up the films; I have never felt better.\" The nurse should:",
     choices: [
-      "Recognise denial as an early coping response, stay with him, listen without confronting the denial, and offer to answer questions when he is ready",
+      "Accept it as an early coping response, listen, and answer questions when he asks",
       "Insist that he accept the diagnosis, because treatment cannot begin until he does",
-      "Agree that mix-ups do happen and suggest that he asks for a repeat X-ray",
-      "Refer him immediately to the psychiatrist for assessment of his insight",
+      "Refer him to the psychiatrist at once to assess how much insight he has",
+      "Agree that the films may be mixed up and suggest he ask for a repeat X-ray",
     ],
     correct: "a",
     explain: "Denial is a <strong>protective first response</strong> that gives a person time to absorb devastating news. The nurse <strong>neither reinforces nor demolishes it</strong>; being present, listening and gently offering information when invited allows him to move through shock towards acceptance at his own pace, while the team ensures that essential decisions are not unsafely delayed.",

@@ -6695,23 +6695,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Cough deeply from the chest, ideally on rising in the morning, into a sterile container"
+    "text": "Cough deeply from the chest, ideally on rising, into a sterile container"
    },
    {
     "id": "b",
-    "text": "Collect saliva from the mouth into the container"
+    "text": "Collect saliva from the mouth into the sterile container instead"
    },
    {
     "id": "c",
-    "text": "Collect the specimen after eating a large meal"
+    "text": "Collect the specimen immediately after eating a large meal"
    },
    {
     "id": "d",
-    "text": "Rinse with antiseptic mouthwash and then spit"
+    "text": "Rinse the mouth with an antiseptic mouthwash and then spit into the pot provided"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Cough deeply from the chest, ideally on rising in the morning, into a sterile container\". A diagnostic specimen must be <strong>sputum from the lower airway, not saliva</strong>. An early morning specimen contains secretions pooled overnight and has the highest yield. The patient is asked to rinse with plain water, breathe deeply and cough from the chest, ideally in a well-ventilated area or outdoors to protect others.\n\nWhy the other options fail:\n• B — Saliva is the commonest reason specimens are rejected, since it does not come from the infected lung tissue.\n• C — A large meal makes coughing uncomfortable and risks vomiting. It does not improve yield.\n• D — Antiseptic mouthwash may inhibit the organism and interfere with the result. Plain water is used.\n\nReference: Ghana National Tuberculosis Programme",
+  "rationale": "Cough deeply from the chest, ideally on rising, into a sterile container",
   "strategy": "Ask where the pathology is and make sure the specimen comes from there. For tuberculosis that means deep chest sputum, collected early, in a way that protects others from aerosol.",
   "difficulty": "medium",
   "tags": [
@@ -116026,23 +116026,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Fat is difficult for every person to digest"
+   "text": "Fat is difficult for every person to digest, whether or not they are ill at all"
   },
   {
    "id": "b",
-   "text": "The liver cannot manufacture any bile"
+   "text": "The liver cannot manufacture any bile once stones have formed"
   },
   {
    "id": "c",
-   "text": "Bile flow into the intestine may be obstructed when the gallbladder contracts"
+   "text": "Bile flow into the intestine is obstructed when the gallbladder contracts"
   },
   {
    "id": "d",
-   "text": "Fat immediately causes pancreatic infection"
+   "text": "Fat in the meal immediately causes infection of the pancreas"
   }
  ],
  "correctChoiceId": "c",
- "rationale": "Gallstones can obstruct bile flow, especially after a fatty meal stimulates gallbladder contraction. Bile is needed for fat emulsification and digestion.\n\nWhy the other options fail:\n• A — Fat is not difficult for everyone to digest; in this patient the problem is bile, not fat itself.\n• B — The liver still manufactures bile in cholelithiasis; the obstruction is in flow, not production.\n• D — Fat does not immediately infect the pancreas; the mechanism is enzyme activation and duct obstruction.",
+ "rationale": "Bile flow into the intestine is obstructed when the gallbladder contracts",
  "strategy": "Relate post-fat meal pain to gallbladder contraction against an obstructed outlet.",
  "difficulty": "hard",
  "tags": [
@@ -116250,7 +116250,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Writing only"
+   "text": "Writing and the use of pen and paper only"
   },
   {
    "id": "b",
@@ -116258,11 +116258,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Hair grooming only"
+   "text": "Hair grooming and personal appearance only"
   },
   {
    "id": "d",
-   "text": "Visual acuity only"
+   "text": "Visual acuity and the fitting of glasses only"
   }
  ],
  "correctChoiceId": "b",
@@ -117776,23 +117776,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Place the baby near an open window for fresh air"
+   "text": "Place the baby near an open window so that fresh air reaches it quickly"
   },
   {
    "id": "b",
-   "text": "Delay drying until after the baby is weighed"
+   "text": "Delay drying the baby until after it has been weighed, measured and labelled"
   },
   {
    "id": "c",
-   "text": "Dry the baby thoroughly, remove the wet linen and use skin-to-skin contact with a hat"
+   "text": "Dry the baby, remove the wet linen, and give skin-to-skin contact with a hat"
   },
   {
    "id": "d",
-   "text": "Bathe the baby immediately to clean the skin"
+   "text": "Bathe the baby at once to clean the skin and settle it down to sleep"
   }
  ],
  "correctChoiceId": "c",
- "rationale": "A wet newborn loses heat fast by evaporation, and cold stress drives up oxygen consumption and glucose use. Drying removes the water, dry linen and skin-to-skin contact provide warmth, and a hat reduces loss from the head, which is proportionally large. Option A increases convective loss. Option B leaves the baby wet through the weighing. Option D adds evaporative loss and is not done straight after birth.",
+ "rationale": "Dry the baby, remove the wet linen, and give skin-to-skin contact with a hat",
  "strategy": "Wet newborns cool by evaporation. Dry first, then wrap and give the baby to the mother.",
  "difficulty": "hard",
  "tags": [
@@ -117912,23 +117912,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Unlimited plain water by mouth until the child improves"
+   "text": "Give unlimited plain water by mouth until the child begins to improve and pass urine"
   },
   {
    "id": "b",
-   "text": "A large high-protein meal as soon as the child will take it"
+   "text": "Give a large high-protein meal as soon as the child will take one"
   },
   {
    "id": "c",
-   "text": "Urgent referral with cautious, closely monitored fluid resuscitation using the severe-malnutrition protocol"
+   "text": "Refer urgently, resuscitating cautiously under the severe-malnutrition protocol"
   },
   {
    "id": "d",
-   "text": "Waiting for weight gain before treating the dehydration"
+   "text": "Wait for weight gain before treating the dehydration and the shock"
   }
  ],
  "correctChoiceId": "c",
- "rationale": "Shock in severe acute malnutrition is treated with slower, smaller volumes than in a well-nourished child, because the malnourished heart and circulation tolerate rapid fluid badly and can be tipped into heart failure. The child needs urgent referral and the specific protocol. Option A does not correct shock. Option B risks refeeding syndrome and is not the immediate need. Option D leaves a shocked child untreated.",
+ "rationale": "Refer urgently, resuscitating cautiously under the severe-malnutrition protocol",
  "strategy": "In severe malnutrition, fluids are given slowly and watched closely. Fast boluses cause overload.",
  "difficulty": "hard",
  "tags": [
@@ -118403,23 +118403,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "Shake the cloudy insulin vigorously so that the suspension is well mixed"
+      "text": "Shake the cloudy insulin vigorously so that the suspension mixes well"
     },
     {
       "id": "b",
-      "text": "Draw the insulin and the heparin into the same syringe to save a puncture"
+      "text": "Draw the insulin and the heparin into one syringe to save a puncture"
     },
     {
       "id": "c",
-      "text": "Inject into a site of lipodystrophy, because absorption there is slower"
+      "text": "Inject into an area of lipodystrophy, where absorption is slower than it should be"
     },
     {
       "id": "d",
-      "text": "Check the insulin label against the medication record at preparation and again at the bedside, and use a dedicated insulin syringe"
+      "text": "Check the insulin label against the chart at preparation and again at the bedside"
     }
   ],
   "correctChoiceId": "d",
-  "rationale": "Insulin is a high-alert drug, and the independent double check of the vial against the record at preparation and again at the bedside catches the wrong-vial, wrong-strength errors that cause most insulin harm. Two people and two moments, with an insulin-specific syringe. Option A is wrong because shaking denatures the suspension; it is rolled gently. Option B would mix two drugs with different routes and risks. Option C gives unpredictable absorption.",
+  "rationale": "Check the insulin label against the chart at preparation and again at the bedside",
   "strategy": "Insulin is high alert: two checks, two moments, dedicated syringe. Roll cloudy insulin, never shake.",
   "difficulty": "medium",
   "tags": [
@@ -118755,23 +118755,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "Sit the client up and give a glass of orange juice"
+      "text": "Sit the client up and give a glass of orange juice to drink"
     },
     {
       "id": "b",
-      "text": "Give intravenous glucose or intramuscular glucagon, because nothing can be given by mouth"
+      "text": "Give intravenous glucose or intramuscular glucagon"
     },
     {
       "id": "c",
-      "text": "Give the usual dose of long-acting insulin"
+      "text": "Give the usual dose of long-acting insulin as prescribed"
     },
     {
       "id": "d",
-      "text": "Wait and recheck the glucose in fifteen minutes"
+      "text": "Wait and recheck the capillary glucose again in fifteen minutes"
     }
   ],
   "correctChoiceId": "b",
-  "rationale": "A glucose of 1.9 mmol/L with an unresponsive client is severe hypoglycaemia, and the airway cannot be protected for oral treatment, so glucose is given parenterally or glucagon is injected while help is called. Option A is unsafe: an unconscious client cannot swallow and will aspirate. Option C would lower the glucose further. Option D allows continuing cerebral glucose deprivation, which can cause permanent injury.",
+  "rationale": "Give intravenous glucose or intramuscular glucagon",
   "strategy": "Unconscious means nothing by mouth. Intravenous glucose or glucagon instead.",
   "difficulty": "medium",
   "tags": [
