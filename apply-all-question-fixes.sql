@@ -97,7 +97,7 @@
 --   question-fixes-batch87.sql   5   five pairs: AVN, exchange transfusion, shared cuff, implant, VTE
 --   question-fixes-batch88.sql   4   four pairs: abortion law, torsion, paediatric DKA, two identifiers
 --
--- Total: 2619 UPDATE statements.
+-- Total: 2620 UPDATE statements.
 -- Run the verification block at the end to confirm the repair landed.
 -- ============================================================================
 
@@ -22075,7 +22075,7 @@ WHERE authored_id = $q$NG-OBS-0559$q$;
 COMMIT;
 
 -- >>>>>>>>>>>>>>>>>>>>>>>>>>>>  question-fixes-batch88.sql  <<<<<<<<<<<<<<<<<<<<<<<<<<<<
--- Batch 88: four pairs: abortion law, ovarian torsion, paediatric DKA, patient identification.
+-- Batch 88: four pairs plus a stale quote.
 --
 -- four more pairs, and two drafts rejected on the neighbour check.
 -- 
@@ -22162,7 +22162,22 @@ $q$,
   strategy = $q$Two identifiers, from the wristband, every time. Never the bed, never the room, never a nod from the patient.$q$
 WHERE authored_id = $q$NG-MSN-2764$q$;
 
--- Verify: expect 4
+UPDATE questions SET
+  stem = $q$A woman has lost three pregnancies between 16 and 20 weeks, each after her cervix opened without pain or bleeding. What does this history most suggest?$q$,
+  choices = $q$[{"id": "a", "text": "That every future birth she has will have to be by caesarean section"}, {"id": "b", "text": "That each of the babies died from an infection rising from the vagina"}, {"id": "c", "text": "That her cervix opens early and may need a stitch next time"}, {"id": "d", "text": "That she should be delivered early in the next pregnancy as well"}]$q$::jsonb,
+  correct_choice_id = $q$c$q$,
+  rationale = $q$CORRECT (C) — "That her cervix opens early and may need a stitch next time". Loss in the middle of pregnancy, after a cervix that opens <strong>without pain and without bleeding</strong>, points to cervical insufficiency rather than to the baby or to infection. The cervix is mechanically weak and gives way once the pregnancy is heavy enough to press on it. The treatment is a cervical stitch (cerclage), usually placed at 12 to 14 weeks and removed at about 37 weeks or sooner if labour begins.
+
+Why the other options fail:
+• A — The way the cervix behaves does not decide the mode of delivery, and a normal vaginal birth is still possible.
+• B — Infection can end a pregnancy late, but it brings pain, discharge and fever; a painless, bloodless opening is the cervix, not an ascending infection.
+• D — Delivering early again would repeat the loss rather than prevent it.
+
+Reference: Ghana STG — antenatal care; RCOG — cervical insufficiency$q$,
+  strategy = $q$Painless opening in mid-pregnancy, three times over, is the cervix. Move the stitch, not the delivery date.$q$
+WHERE authored_id = $q$NG-PNC-1888$q$;
+
+-- Verify: expect 5
 COMMIT;
 
 -- ============================================================================
