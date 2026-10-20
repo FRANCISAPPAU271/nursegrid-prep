@@ -69,9 +69,9 @@ export const NCX8_PART_A: AuthoredQuestion[] = [
     stem: "All of the following affect **total body fluid EXCEPT** which?",
     choices: [
       "Blood group",
-      "Sex",
-      "Age",
-      "Body fat",
+      "Sex, because men and women differ in water and fat proportions",
+      "Age, because total body water falls steadily across the lifespan",
+      "Body fat, because adipose tissue holds very little water",
     ],
     correct: "a",
     explain: "<strong>Age and adiposity shift water; blood groups never do</strong> - the young and the lean carry proportionally more water, the aged and the obese less, and sex adds its own difference in muscle mass. ABO grouping has no bearing on fluid volume whatsoever, which makes it the exception the question asks for. Age is a genuine determinant, so it cannot be the answer to an EXCEPT stem.",

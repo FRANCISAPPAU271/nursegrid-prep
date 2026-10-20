@@ -184,9 +184,9 @@ export const NCX_PART_C: AuthoredQuestion[] = [
     stem: "A man learning to irrigate his descending colostomy asks why the nurse insists on the same time every day. The **best** explanation is:",
     choices: [
       "A regular time trains the bowel to empty predictably so he is less likely to have unexpected output between irrigations",
-      "The irrigating solution works only at certain hours of the day",
-      "It makes the appliance last longer",
-      "Irrigation at irregular times damages the stoma",
+      "The irrigating solution only works at certain hours of the day, so timing matters",
+      "A regular routine makes the appliance last longer and saves money on supplies",
+      "Irrigation at irregular times damages the stoma and causes it to bleed",
     ],
     correct: "a",
     explain: "Colostomy irrigation works by <strong>conditioning the bowel</strong>. Performed at the same time each day — ideally after a meal, when the gastro-colic reflex is active — it produces a <strong>predictable evacuation</strong> and may allow the person to wear only a small cap or dressing between irrigations.",

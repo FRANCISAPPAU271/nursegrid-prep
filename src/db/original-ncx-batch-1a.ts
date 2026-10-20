@@ -169,9 +169,9 @@ export const NCX_PART_A: AuthoredQuestion[] = [
     stem: "A woman with heart failure is admitted with ankle oedema and breathlessness. Which nursing action gives the **most accurate** day-to-day measure of her fluid balance?",
     choices: [
       "Weigh her on the same scale, in similar clothing, at the same time each morning and keep a strict intake-and-output chart",
-      "Ask her how much she drinks each day",
-      "Measure the circumference of her ankles each evening",
-      "Inspect her ankles for pitting before each dose of diuretic",
+      "Ask her how much she drinks each day and record the total on the chart",
+      "Measure the circumference of her ankles each evening and record the change",
+      "Inspect her ankles for pitting oedema before each dose of diuretic",
     ],
     correct: "a",
     explain: "<strong>Daily weight is the most sensitive indicator of fluid gain or loss</strong>: a change of 1 kg equals about 1 litre of fluid. Combined with an accurate intake-and-output record it shows whether diuretic therapy is working and warns of overload before breathlessness worsens.",

@@ -139,9 +139,9 @@ export const NCX2_PART_A: AuthoredQuestion[] = [
     stem: "A 28-year-old food vendor is admitted with hepatitis A. Which infection-control approach should the nurse plan for her care?",
     choices: [
       "Standard precautions, with contact precautions added if she is incontinent of faeces or cannot maintain hygiene",
-      "Protective (reverse) isolation",
-      "Airborne precautions in a negative-pressure room",
-      "Droplet precautions with a surgical mask for all contacts",
+      "Protective (reverse) isolation to protect her from hospital organisms",
+      "Airborne precautions in a negative-pressure room, with a respirator for staff",
+      "Droplet precautions with a surgical mask for all staff and visitors",
     ],
     correct: "a",
     explain: "Hepatitis A spreads by the <strong>faecal–oral route</strong>, so <strong>hand hygiene, safe handling of excreta and food hygiene</strong> are the key measures; standard precautions cover a continent adult, with contact precautions for incontinence. As a food vendor she must not return to work until cleared, and household contacts should be offered vaccination.",

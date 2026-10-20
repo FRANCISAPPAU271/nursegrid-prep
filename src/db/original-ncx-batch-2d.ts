@@ -250,8 +250,8 @@ export const NCX2_PART_D: AuthoredQuestion[] = [
     choices: [
       "It allows her to see and talk to the nurse without turning her head, which could provoke an attack of vertigo",
       "She needs to read the nurse's lips because of her hearing loss",
-      "It keeps her full attention on the nurse",
-      "Her peripheral visual field is reduced",
+      "It keeps her full attention fixed on what the nurse is saying",
+      "Her peripheral visual field is reduced by the disease",
     ],
     correct: "a",
     explain: "Ménière's disease causes episodes of <strong>disabling vertigo, tinnitus and fluctuating hearing loss</strong>. Sudden head movement can trigger or worsen vertigo, so care is organised to <strong>minimise head turning</strong>: approach from the front, place items within reach, move slowly, and dim lights during attacks.",

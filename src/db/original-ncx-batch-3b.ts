@@ -29,9 +29,9 @@ export const NCX3_PART_B: AuthoredQuestion[] = [
     stem: "A 48-year-old man newly diagnosed with type 2 diabetes asks, \"Is there anything special I should do when I buy shoes?\" Which response is **best**?",
     choices: [
       "\"Have both feet measured while you are standing, shop late in the day when your feet are at their largest, and break new shoes in gradually\"",
-      "\"Buy shoes half a size bigger than you need so they are always roomy\"",
-      "\"Buy plastic or vinyl shoes because they keep their shape\"",
-      "\"It is best to buy shoes early in the morning\"",
+      "\"Buy shoes half a size bigger than you need so that they are always roomy\"",
+      "\"Buy plastic or vinyl shoes because they keep their shape and are easy to clean\"",
+      "\"It is best to buy shoes early in the morning, when your feet are freshest\"",
     ],
     correct: "a",
     explain: "Neuropathy means a diabetic foot may not feel a shoe that rubs. Shoes that <strong>fit correctly</strong> — measured each time because feet change, chosen in the afternoon when feet are slightly swollen, made of soft <strong>leather or breathable fabric</strong>, with a wide toe box — prevent the blisters and pressure ulcers that lead to amputation. New shoes are worn for an hour or two at a time at first and the feet inspected afterwards.",
@@ -305,8 +305,8 @@ export const NCX3_PART_B: AuthoredQuestion[] = [
     choices: [
       "Episodes of diarrhoea alternating with constipation, bloating and cramping relieved by passing stool, with no blood",
       "Ten to twelve loose stools a day for several months with weight loss",
-      "Vomiting with severe abdominal distension",
-      "Bloody stools with cramping after meals",
+      "Vomiting with severe abdominal distension and absolute constipation",
+      "Bloody stools with cramping pain about an hour after meals",
     ],
     correct: "a",
     explain: "Irritable bowel syndrome is a <strong>functional disorder of gut motility</strong> without inflammation: abdominal pain related to defecation, a change in stool frequency or form, bloating and mucus, often worse with stress and certain foods. <strong>Blood, weight loss, fever and night symptoms are red flags</strong> that point to another diagnosis.",

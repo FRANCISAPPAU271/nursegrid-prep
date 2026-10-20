@@ -329,9 +329,9 @@ export const NCX5_PART_B: AuthoredQuestion[] = [
     stem: "Taking history from a patient with **hyperthyroidism**, which finding should be **reported**?",
     choices: [
       "Anxiety with extreme nervousness and tremor",
-      "Slow sluggish pulse",
-      "Cool clammy skin",
-      "Husky slowed speech",
+      "A slow, sluggish pulse of about 55 beats per minute",
+      "Cool, clammy skin with a low body temperature",
+      "Husky, slowed speech with a low-pitched voice",
     ],
     correct: "a",
     explain: "<strong>Hyperthyroidism revs every system</strong> — anxiety, tremor, palpitations, heat intolerance, weight loss and brisk reflexes all mirror the racing metabolism and may herald thyroid storm if severe. Slow pulse, cool skin and drawling speech belong to hypothyroidism's mirror world.",

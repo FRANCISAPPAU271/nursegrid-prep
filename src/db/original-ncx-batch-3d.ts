@@ -304,9 +304,9 @@ export const NCX3_PART_D: AuthoredQuestion[] = [
     stem: "A woman in the second stage of labour has been pushing for 30 minutes. The midwife notes the fetal heart rate falling to 90 beats per minute during each contraction, with slow recovery after the contraction ends. Which action is **most appropriate**?",
     choices: [
       "Turn her onto her left side, stop any oxytocin infusion, give oxygen, and call the doctor while continuing to monitor the fetal heart",
-      "Encourage her to push harder to speed up the birth",
-      "Reassure her that this pattern is normal in the second stage",
-      "Place her flat on her back and apply fundal pressure",
+      "Encourage her to push harder with each contraction so that the birth is speeded up and the baby is delivered sooner",
+      "Reassure her that this heart-rate pattern is normal in the second stage of labour and needs no action",
+      "Place her flat on her back and apply fundal pressure to help deliver the baby more quickly",
     ],
     correct: "a",
     explain: "Decelerations that begin after the peak of the contraction and recover slowly are <strong>late decelerations</strong>, indicating <strong>utero-placental insufficiency and fetal hypoxia</strong>. Intrauterine resuscitation — <strong>left lateral position, stopping oxytocin, oxygen, intravenous fluids</strong> — improves placental perfusion while a decision is made about expediting delivery.",

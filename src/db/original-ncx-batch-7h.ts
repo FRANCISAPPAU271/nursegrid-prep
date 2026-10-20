@@ -269,9 +269,9 @@ export const NCX7_PART_H: AuthoredQuestion[] = [
     stem: "A client receives **morphine PCA**. Which assessment is the **priority**?",
     choices: [
       "Respiratory rate and sedation level",
-      "Pain score trends",
-      "Bowel function",
-      "Urinary output",
+      "Pain score trends, because the dose is titrated to the score",
+      "Bowel function, because opioids cause constipation and ileus",
+      "Urinary output, because retention is common with opioids",
     ],
     correct: "a",
     explain: "<strong>PCA safety breathes first, scores second</strong> — respiratory-sedation surveillance catches overdose before pain trends, bowels and bladders matter. Breathed watched; scored after.",

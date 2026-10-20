@@ -112013,7 +112013,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Discharge home, because a normal troponin excludes infarction"
+   "text": "Discharge him home, because a normal high-sensitivity troponin at 90 minutes excludes myocardial infarction"
   },
   {
    "id": "b",
@@ -112021,11 +112021,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Immediate thrombolysis on the basis of the pain alone"
+   "text": "Immediate thrombolysis on the basis of the chest pain alone, without waiting for a second troponin"
   },
   {
    "id": "d",
-   "text": "A troponin repeated in seven days"
+   "text": "A single troponin repeated in seven days at the outpatient clinic, with advice to return if the pain recurs"
   }
  ],
  "correctChoiceId": "b",
@@ -115646,15 +115646,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "A definite spinal cord injury"
+   "text": "A definite spinal cord injury from the delivery"
   },
   {
    "id": "c",
-   "text": "Peripheral neuropathy of adulthood"
+   "text": "A peripheral neuropathy that will persist into adulthood"
   },
   {
    "id": "d",
-   "text": "An absence of neurological function"
+   "text": "An absence of neurological function below the lesion"
   }
  ],
  "correctChoiceId": "a",
@@ -116474,7 +116474,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Iron deficiency"
+   "text": "Iron deficiency anaemia and the absorption of oral iron"
   },
   {
    "id": "b",
@@ -116482,11 +116482,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Haemorrhagic anaemia only"
+   "text": "Haemorrhagic anaemia only, from acute or chronic blood loss"
   },
   {
    "id": "d",
-   "text": "Haemolysis only"
+   "text": "Haemolysis only, from red-cell destruction in the circulation"
   }
  ],
  "correctChoiceId": "b",
@@ -118042,11 +118042,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Caesarean birth cures the maternal infection"
+   "text": "Caesarean birth cures the maternal infection and prevents recurrence"
   },
   {
    "id": "b",
-   "text": "The lesions make vaginal delivery physically impossible"
+   "text": "The lesions make a vaginal delivery physically impossible to perform"
   },
   {
    "id": "c",
@@ -118054,7 +118054,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Herpes causes the uterus to stop contracting"
+   "text": "Herpes infection causes the uterus to stop contracting in labour"
   }
  ],
  "correctChoiceId": "c",
@@ -118403,15 +118403,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "Shake the cloudy insulin vigorously to mix it"
+      "text": "Shake the cloudy insulin vigorously so that the suspension is well mixed"
     },
     {
       "id": "b",
-      "text": "Draw insulin and heparin into the same syringe to save a puncture"
+      "text": "Draw the insulin and the heparin into the same syringe to save a puncture"
     },
     {
       "id": "c",
-      "text": "Inject into a site of lipodystrophy so absorption is slower"
+      "text": "Inject into a site of lipodystrophy, because absorption there is slower"
     },
     {
       "id": "d",
