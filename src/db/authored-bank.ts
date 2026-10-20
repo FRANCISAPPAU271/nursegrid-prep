@@ -12797,28 +12797,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PHM-0373",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient on tuberculosis treatment is alarmed that his urine has turned orange-red. What should the nurse explain?",
+  "stem": "A patient **two weeks into tuberculosis treatment** reports **painful, swollen joints**. Which drug is the likely cause?",
   "choices": [
    {
     "id": "a",
-    "text": "This shows rifampicin is being absorbed and is a harmless expected effect"
+    "text": "Pyrazinamide, which raises the blood uric acid"
    },
    {
     "id": "b",
-    "text": "This indicates bleeding into the urinary tract and requires urgent review"
+    "text": "Rifampicin, which damages the joints directly"
    },
    {
     "id": "c",
-    "text": "This shows the kidneys have been damaged and treatment must be stopped"
+    "text": "Isoniazid, which washes calcium out of bone"
    },
    {
     "id": "d",
-    "text": "This means the dose is far too high and should be halved immediately"
+    "text": "Ethambutol, which inflames the small joints and hands"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"This shows rifampicin is being absorbed and is a harmless expected effect\". Rifampicin colours <strong>urine, sweat, tears and saliva orange-red</strong>. It is harmless, and explaining it in advance prevents patients from stopping treatment in alarm. Patients must also be warned that <strong>soft contact lenses may be permanently stained</strong> and that rifampicin <strong>reduces the effectiveness of oral contraceptives</strong>. The genuinely serious adverse effect to watch for is hepatitis.\n\nWhy the other options fail:\n• B — The colour is uniform drug pigment rather than blood, and it appears in tears and sweat as well as urine.\n• C — This is not renal damage. Stopping treatment risks relapse and the development of drug resistance.\n• D — The discolouration occurs at normal therapeutic doses and is not a marker of overdose.\n\nReference: Ghana National Tuberculosis Programme — treatment and counselling",
-  "strategy": "Separate harmless expected effects from true adverse effects. Warning patients about the harmless ones in advance is what keeps them on treatment.",
+  "rationale": "CORRECT (A) — \"Pyrazinamide, which raises the blood uric acid\". Pyrazinamide commonly raises the serum uric acid, and that produces arthralgia and swollen, tender joints in the first weeks of treatment. The pain is usually managed with a simple analgesic such as paracetamol and settles as the course continues; the nurse reports it so the prescriber can decide whether anything more is needed, but it is not a reason to stop treatment. Rifampicin does not damage joints, isoniazid does not deplete calcium from bone in this way, and ethambutol's serious effect is on the eyes rather than the joints.",
+  "strategy": "Match the symptom to the drug whose known effect it is.",
   "difficulty": "medium",
   "tags": [
    "pharmacology-parenteral",
@@ -30740,28 +30740,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IMD-0897",
   "categorySlug": "med-surg",
-  "stem": "Why is pyridoxine given alongside isoniazid to a Ghanaian patient being treated for tuberculosis?",
+  "stem": "In Ghana a **treatment supporter** is named for a patient starting tuberculosis treatment. What is that person's role?",
   "choices": [
    {
     "id": "a",
-    "text": "To improve absorption of isoniazid from the small intestine"
+    "text": "To pay for the medicines whenever a supply runs out"
    },
    {
     "id": "b",
-    "text": "To prevent peripheral neuropathy caused by isoniazid"
+    "text": "To see that the medicines are swallowed every day"
    },
    {
     "id": "c",
-    "text": "To reduce the orange discoloration of the urine and tears"
+    "text": "To sign the patient's certificate when the course ends"
    },
    {
     "id": "d",
-    "text": "To protect the liver from damage during the intensive phase"
+    "text": "To give the injections when the patient cannot attend"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"To prevent peripheral neuropathy caused by isoniazid\". Isoniazid interferes with <strong>vitamin B6 metabolism</strong>, producing a <strong>peripheral neuropathy with burning, tingling and numbness in the feet and hands</strong>. Pyridoxine supplementation prevents this. The risk is greatest in patients who are <strong>malnourished, pregnant, diabetic, alcohol-dependent or living with HIV</strong>. Once established the neuropathy is slow to recover, so prevention matters far more than treatment.\n\nWhy the other options fail:\n• A — Pyridoxine does not affect isoniazid absorption, which is unimpaired.\n• C — Orange discoloration is caused by rifampicin and is harmless and unaffected.\n• D — Hepatotoxicity is monitored clinically and biochemically; pyridoxine does not prevent it.\n\nReference: Ghana nursing curriculum — antituberculous therapy",
-  "strategy": "Link the drug to the vitamin it depletes. Isoniazid depletes B6, and B6 deficiency damages peripheral nerves.",
+  "rationale": "CORRECT (B) — \"To see that the medicines are swallowed every day\". Treatment is supervised so that every dose is actually swallowed. A member of the family, a community volunteer or a health worker agrees to watch the patient take each dose and to record it, which is what keeps the course continuous and stops the irregular taking that breeds resistance. The supporter is not a payer, does not certify the outcome, and does not give injections; their whole task is witnessing the daily dose and encouraging the patient to keep attending.",
+  "strategy": "Ask what the named person actually watches happen.",
   "difficulty": "medium",
   "tags": [
    "med-surg",
@@ -41476,28 +41476,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PKD-1211",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient starting tuberculosis treatment should be warned about which harmless effect of rifampicin?",
+  "stem": "A patient **stops his tuberculosis medicines for three weeks**, then returns feeling well. What should the nurse expect?",
   "choices": [
    {
     "id": "a",
-    "text": "Orange discolouration of urine, tears, sweat and soft contact lenses"
+    "text": "His treatment must be reviewed and probably restarted"
    },
    {
     "id": "b",
-    "text": "Permanent darkening of the skin over the face and both of the hands"
+    "text": "He can simply carry on from the tablets he has left in the packet"
    },
    {
     "id": "c",
-    "text": "Complete loss of the sense of taste for the duration of the treatment"
+    "text": "He no longer needs any treatment, because he feels completely well"
    },
    {
     "id": "d",
-    "text": "Swelling of both the feet that continues throughout the whole course"
+    "text": "He needs only half the dose for the remaining months of the course"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Orange discolouration of urine, tears, sweat and soft contact lenses\". Rifampicin turns body fluids <strong>orange-red</strong>, and it is entirely harmless. Warning the patient in advance matters enormously: someone who passes red urine unexpectedly may believe they are bleeding, stop the drug and disappear from the programme, and a defaulting tuberculosis patient becomes both a personal tragedy and a resistance risk. It is also a useful <strong>adherence check</strong>, since fluids without the colour suggest the tablets are not being taken.\n\nWhy the other options fail:\n• B — Permanent skin darkening is not a feature of rifampicin therapy.\n• C — Loss of taste is not a recognised effect of this drug.\n• D — Peripheral oedema is not typical, and if present would need investigation.\n\nReference: Ghana nursing curriculum — RGN 207 antituberculous therapy",
-  "strategy": "Warn about harmless but alarming effects in advance. Surprise is what causes patients to stop treatment.",
+  "rationale": "CORRECT (A) — \"His treatment must be reviewed and probably restarted\". A break of several weeks means the treatment has to be reviewed before it continues. Interrupted courses let the surviving bacilli multiply and select for resistance, so the regimen is usually restarted rather than resumed where it stopped, and the prescriber decides this after examining the patient and the sputum results. Continuing with the leftover tablets assumes nothing has changed, and stopping because he feels well is exactly the mistake that produces relapse and drug-resistant disease. Reducing the dose would give the organism a low concentration to adapt to, which is the surest way to breed resistance.",
+  "strategy": "Weigh a treatment gap by what it does to the bacilli, not by how the patient feels.",
   "difficulty": "medium",
   "tags": [
    "pharmacology-parenteral",
@@ -83754,28 +83754,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRC-2442",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "Why is pyridoxine prescribed alongside isoniazid?",
+  "stem": "A patient has **tuberculosis and HIV**. When should antiretroviral treatment be started?",
   "choices": [
    {
     "id": "a",
-    "text": "To prevent peripheral neuropathy"
+    "text": "Only after the full tuberculosis course has been completed"
    },
    {
     "id": "b",
-    "text": "To improve absorption of isoniazid from the gut"
+    "text": "Only if the CD4 count falls below a particular number"
    },
    {
     "id": "c",
-    "text": "To protect the liver from drug-induced damage"
+    "text": "Within a few weeks of starting the tuberculosis treatment"
    },
    {
     "id": "d",
-    "text": "To reduce the orange discoloration of body fluids"
+    "text": "Before the tuberculosis treatment, so that it is not delayed"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"To prevent peripheral neuropathy\". Isoniazid interferes with the metabolism of pyridoxine, which is vitamin B6, and the resulting deficiency damages peripheral nerves, producing numbness, tingling and burning in the hands and feet. Supplementing pyridoxine prevents this entirely, which is why it is given routinely and particularly to those at higher risk: people with diabetes, chronic kidney disease, alcohol dependence, malnutrition or HIV, and pregnant women. It does not alter absorption or protect the liver. The principle is that where a drug depletes a specific nutrient, replacing that nutrient prevents the deficiency syndrome rather than treating it later.\n\nWhy the other options fail:\n• B — Pyridoxine has no effect on the absorption of isoniazid, which is taken on an empty stomach for that purpose.\n• C — Hepatotoxicity is a real risk with isoniazid but it is managed by monitoring liver function, not by pyridoxine.\n• D — The orange discoloration is caused by rifampicin and is unaffected by any supplement.\n\nReference: Ghana National Tuberculosis Programme; British National Formulary — isoniazid",
-  "strategy": "When one drug is routinely paired with a vitamin, ask what the drug depletes. Isoniazid and pyridoxine, and methotrexate and folic acid, follow exactly the same logic.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Within a few weeks of starting the tuberculosis treatment\". Antiretroviral treatment is started within weeks of beginning tuberculosis treatment, not months later. Early treatment lowers mortality and cuts the risk of further opportunistic infection, and the two regimens are adjusted to work together, which is why rifampicin's effect on dolutegravir has to be handled. Waiting until the tuberculosis course finishes leaves the patient immune-compromised for months, and tying the start to a particular CD4 threshold delays it for people who need it. Starting before the tuberculosis treatment is usually the wrong order, because the tuberculosis is the immediate danger.",
+  "strategy": "Ask which of the two conditions is the immediate threat.",
   "difficulty": "medium",
   "tags": [
    "pharmacology-parenteral",
