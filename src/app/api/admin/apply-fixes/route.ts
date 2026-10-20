@@ -29,7 +29,7 @@ export async function POST(req: NextRequest) {
     await client.query(sql);
     const spot = await client.query(
       `select authored_id, correct_choice_id, left(stem, 56) as stem from questions
-        where authored_id in ('NG-SGY-0777','NG-FLD-2176','NG-MCB-2515','NG-MNH-3054','NG-OBS-0559')
+        where authored_id in ('NG-CLP-2850','NG-MSN-2690','NG-CPD-1949','NG-MSN-2764','NG-PNC-1888')
         order by authored_id`
     );
     return NextResponse.json({ ok: true, ms: Date.now() - t0, before: before.rows[0], spot: spot.rows });
