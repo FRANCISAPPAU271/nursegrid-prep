@@ -102,8 +102,9 @@
 --   question-fixes-batch92.sql   10  ITT, anthrax, Bishop, CBT, capacity, gloves, qSOFA, brow, NEC, frailty
 --   question-fixes-batch93.sql   10  listeria, hypospadias, opioid obs, somatic, NPH, hydrocephalus, varicocele, salvage
 --   question-fixes-batch94.sql   10  quinsy, donor deferral, Ludwig, postnatal anaemia, mastoiditis, Mallory, CDH
+--   question-fixes-batch95.sql   4   repair: NCX explanation, option notes and reference re-synced
 --
--- Total: 2672 UPDATE statements.
+-- Total: 2676 UPDATE statements.
 -- Run the verification block at the end to confirm the repair landed.
 -- ============================================================================
 
@@ -23267,6 +23268,91 @@ $q$,
 WHERE authored_id = $q$NG-CLN-2978$q$;
 
 -- Verify: expect 10
+COMMIT;
+
+-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>  question-fixes-batch95.sql  <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+-- Batch 95: four NCX items: explanation, per-option notes and reference re-synced.
+--
+-- four items, one repair.
+-- 
+-- The NCX items store their explanation, the per-option notes and the
+-- reference in separate fields, and my earlier rewrites only replaced the
+-- stem, the options and the key. The result was four live items whose
+-- answer line named the new option while the explanation underneath still
+-- described the old one: a blown pupil under mastoiditis, evisceration
+-- under brow presentation, cast care under hydrocephalus, and stair
+-- descent under varicocele.
+-- 
+-- All four now carry their own explanation, their own notes on every
+-- distractor and their own reference. The distractor notes name the
+-- option rather than relying on a letter, because the letters shuffle
+-- between the authoring file and the screen.
+-- 
+-- Affected: NCX-0542 (brow presentation), NCX-0639 (infant
+-- hydrocephalus), NCX-0152 (varicocele), NCX-0304 (mastoiditis).
+BEGIN;
+
+UPDATE questions SET
+  stem = $q$A woman in labour at term has a cervix that is 6 cm dilated and the head is felt high, with the brow at the top of the pelvis on examination. The membranes are intact. What does this mean?$q$,
+  choices = $q$[{"id": "a", "text": "A cord presentation, which is an emergency whether or not the membranes are ruptured"}, {"id": "b", "text": "A brow presentation, which if it persists means obstructed labour and caesarean section"}, {"id": "c", "text": "A brow presentation, which will always rotate and deliver vaginally if she is left to push"}, {"id": "d", "text": "A face presentation, which can deliver vaginally as long as the chin is to the front"}]$q$::jsonb,
+  correct_choice_id = $q$b$q$,
+  rationale = $q$CORRECT (B) — "A brow presentation, which if it persists means obstructed labour and caesarean section". In a brow presentation the head is partly extended, so the diameter coming through the pelvis is the occipitofrontal diameter, which is simply too large to negotiate the brim. Many brows flex or extend further during labour and become vertex or face presentations, so the diagnosis is confirmed by examination and ultrasound and the labour is watched; but a brow that persists means the head will not descend, the cervix stops dilating and the woman becomes exhausted, and the answer is caesarean section rather than forceps or vacuum.
+
+Why the other options fail:
+• A — “A cord presentation…” — the membranes are intact and no cord is felt; this is a different finding entirely.
+• C — “A brow presentation, which will always rotate…” — a persistent brow does not rotate and deliver; waiting brings obstructed labour.
+• D — “A face presentation… chin to the front” — a mento-anterior face can deliver vaginally, which is exactly why the distinction from a brow matters.
+
+Reference: WHO — obstructed labour; Ghana STG — malpresentation$q$,
+  strategy = $q$Brow means the head cannot enter the pelvis. Watch briefly for it to flex or extend; if it persists, section.$q$
+WHERE authored_id = $q$NG-ORIGINAL-NCX-0542$q$;
+
+UPDATE questions SET
+  stem = $q$A six-week-old baby's head has grown much faster than the growth chart allows, the fontanelle is tense and bulging, and his eyes seem to look downward. What is happening?$q$,
+  choices = $q$[{"id": "a", "text": "He is dehydrated, which pulls the eyes downward, so he needs oral rehydration solution at home"}, {"id": "b", "text": "He has rickets from lack of vitamin D, so he needs a supplement and review in three months"}, {"id": "c", "text": "The pressure inside the head is raised from hydrocephalus, so he needs urgent neurosurgical review"}, {"id": "d", "text": "It is a normal variation in head size, so the measurement should simply be repeated at the next visit"}]$q$::jsonb,
+  correct_choice_id = $q$c$q$,
+  rationale = $q$CORRECT (C) — "The pressure inside the head is raised from hydrocephalus, so he needs urgent neurosurgical review". A head that crosses the centile lines upward, a tense fontanelle and the sunset sign, where the eyes are pushed down and the whites show above, all point to accumulating cerebrospinal fluid under pressure. The cause may be aqueduct stenosis, a myelomeningocele, previous haemorrhage or infection, or a blocked shunt if one is already in place, and the baby needs imaging and a neurosurgeon rather than reassurance. Untreated, the pressure damages vision and the developing brain.
+
+Why the other options fail:
+• A — “He is dehydrated” — dehydration gives a sunken fontanelle, not a bulging one, and no sunset sign.
+• B — “Rickets from lack of vitamin D” — rickets changes skull shape but does not raise the pressure or cause the sunset sign.
+• D — “A normal variation in head size” — crossing centiles with a tense fontanelle is never a normal variant.
+
+Reference: WHO — newborn and child health; Ghana STG — paediatric neurosurgery$q$,
+  strategy = $q$A head crossing the lines, a tense fontanelle and sunset eyes mean pressure, not a big head. Scan urgently.$q$
+WHERE authored_id = $q$NG-ORIGINAL-NCX-0639$q$;
+
+UPDATE questions SET
+  stem = $q$A 22-year-old man has a dull ache in the left scrotum that worsens at the end of the day. On examination there is a soft swelling above the testis that feels like a bag of worms and enlarges when he coughs. What is it?$q$,
+  choices = $q$[{"id": "a", "text": "Testicular torsion, which needs immediate surgery to save the testis"}, {"id": "b", "text": "A varicocele, a dilated vein plexus that can impair fertility over time"}, {"id": "c", "text": "A hydrocele, which transilluminates brilliantly when a torch is applied"}, {"id": "d", "text": "Epididymitis, which presents with fever and pain on passing urine"}]$q$::jsonb,
+  correct_choice_id = $q$b$q$,
+  rationale = $q$CORRECT (B) — "A varicocele, a dilated vein plexus that can impair fertility over time". The pampiniform plexus drains the testis, and on the left it joins the renal vein at a right angle, which is why varicoceles are far commoner on that side. The patient describes a dull, dragging ache that is worse after standing all day, and the examiner feels a soft mass above and behind the testis that swells with coughing — the classic bag of worms. It is not an emergency, but it is associated with impaired sperm quality and reduced testicular growth in adolescents, so it is referred for assessment and sometimes ligation.
+
+Why the other options fail:
+• A — “Testicular torsion…” — torsion is acute and exquisitely painful with the testis high; it cannot wait.
+• C — “A hydrocele…” — a hydrocele transilluminates brilliantly and does not feel like a bag of worms.
+• D — “Epididymitis…” — that gives fever, tenderness and urinary symptoms, not a cough-responsive swelling.
+
+Reference: EAU — varicocele; Ghana STG — male reproductive health$q$,
+  strategy = $q$A cough-responsive, ache-in-the-evening scrotal swelling is a varicocele — not an emergency, but worth referring.$q$
+WHERE authored_id = $q$NG-ORIGINAL-NCX-0152$q$;
+
+UPDATE questions SET
+  stem = $q$A four-year-old has a discharging ear for ten days and now has a red, tender swelling behind the ear that pushes the pinna forward. What is this, and what does it need?$q$,
+  choices = $q$[{"id": "a", "text": "Mastoiditis, which needs intravenous antibiotics and an urgent ENT opinion"}, {"id": "b", "text": "Otitis externa, which needs antibiotic ear drops and a wick in the canal"}, {"id": "c", "text": "A sebaceous cyst, which needs incision and drainage in the outpatient clinic"}, {"id": "d", "text": "Enlarged lymph nodes, which need observation and a review in one month"}]$q$::jsonb,
+  correct_choice_id = $q$a$q$,
+  rationale = $q$CORRECT (A) — "Mastoiditis, which needs intravenous antibiotics and an urgent ENT opinion". Infection that spreads from the middle ear into the mastoid air cells inflames the bone itself: the skin behind the ear becomes red, swollen and tender, and the pinna is pushed forward and outwards. The complication to fear is inward spread — a subperiosteal abscess, facial nerve palsy, meningitis or a brain abscess — so the child needs intravenous antibiotics, imaging where available and an ENT team, sometimes with surgery to drain the mastoid. Ear discharge that continues for more than a couple of weeks is the warning sign that something has moved beyond the middle ear.
+
+Why the other options fail:
+• B — “Otitis externa” — that makes the canal tender when the tragus is pressed, without a swelling behind the ear.
+• C — “A sebaceous cyst” — a cyst is a discrete lump in the skin and does not follow ten days of ear discharge.
+• D — “Enlarged lymph nodes” — nodes do not make bone tender or push the pinna forward.
+
+Reference: Ghana STG — otitis media and complications; NICE — mastoiditis$q$,
+  strategy = $q$Ear discharge that will not settle, then a red tender swelling behind the ear: mastoiditis. IV antibiotics, ENT now.$q$
+WHERE authored_id = $q$NG-ORIGINAL-NCX-0304$q$;
+
+-- Verify: expect 4
 COMMIT;
 
 -- ============================================================================
