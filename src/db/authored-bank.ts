@@ -110367,29 +110367,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Place the client flat to improve cerebral perfusion"
+   "text": "Place the client flat to improve perfusion of the brain"
   },
   {
    "id": "b",
-   "text": "Sit the client upright with legs dependent and apply prescribed oxygen"
+   "text": "Encourage oral fluids to loosen the secretions in the chest"
   },
   {
    "id": "c",
-   "text": "Encourage oral fluids to loosen secretions"
+   "text": "Sit the client upright with legs dependent and apply prescribed oxygen"
   },
   {
    "id": "d",
-   "text": "Obtain a routine 12-lead ECG before intervening"
-  }
+   "text": "Obtain a routine 12-lead ECG before any intervention begins"
+  },
  ],
- "correctChoiceId": "b",
- "rationale": "Upright positioning reduces venous return and improves lung expansion while oxygen corrects life-threatening hypoxaemia. The ECG and other investigations occur after immediate breathing support.\n\nWhy the other options fail:\n• A — Lying the client flat increases venous return to a left ventricle that is already failing, which loads the lungs with more fluid and worsens the oedema and the hypoxaemia.\n• C — Adding oral fluid increases preload in a client who is already fluid overloaded, and it does nothing to clear secretions.\n• D — An ECG is a diagnostic step after immediate support; at an SpO2 of 82 per cent with pink frothy sputum, positioning and oxygen cannot wait for it.",
+ "correctChoiceId": "c",
+ "rationale": "Upright positioning reduces venous return and improves lung expansion while oxygen corrects life-threatening hypoxaemia. The ECG and other investigations occur after immediate breathing support.\n\nWhy the other options fail:\n• A — Lying the client flat increases venous return to a left ventricle that is already failing, which loads the lungs with more fluid and worsens the oedema and the hypoxaemia.\n• B — Adding oral fluid increases preload in a client who is already fluid overloaded, and it does nothing to clear secretions.\n• D — An ECG is a diagnostic step after immediate support; at an SpO2 of 82 per cent with pink frothy sputum, positioning and oxygen cannot wait for it.",
  "strategy": "Prioritise airway and breathing before diagnostics; in pulmonary oedema, position and oxygen are immediate nursing actions.",
  "difficulty": "hard",
- "tags": [
-  "heart-failure",
-  "airway"
- ],
+ "tags": ["heart-failure", "airway"],
  "isFree": false
 },
 {
@@ -110399,7 +110396,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Start insulin immediately as prescribed"
+   "text": "Start insulin immediately as prescribed and recheck in an hour"
   },
   {
    "id": "b",
@@ -110407,21 +110404,18 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Hold insulin and notify the prescriber for potassium replacement"
+   "text": "Restrict fluids until the potassium normalises"
   },
   {
    "id": "d",
-   "text": "Restrict fluids until the potassium normalises"
-  }
+   "text": "Hold insulin and notify the prescriber for potassium replacement"
+  },
  ],
- "correctChoiceId": "c",
+ "correctChoiceId": "d",
  "rationale": "Insulin shifts potassium into cells and can precipitate fatal dysrhythmia when potassium is below 3.3 mmol/L. Potassium must be replaced before insulin is started, while fluid resuscitation continues.",
  "strategy": "In DKA, check potassium before insulin: low potassium is the exception that delays insulin.",
  "difficulty": "hard",
- "tags": [
-  "dka",
-  "electrolytes"
- ],
+ "tags": ["dka", "electrolytes"],
  "isFree": false
 },
 {
@@ -110431,11 +110425,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "The client’s last known well time"
+   "text": "Whether the client ate breakfast"
   },
   {
    "id": "b",
-   "text": "Whether the client ate breakfast"
+   "text": "The client’s last known well time"
   },
   {
    "id": "c",
@@ -110444,16 +110438,13 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   {
    "id": "d",
    "text": "Whether the client has a family history of dementia"
-  }
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "The last known well time determines eligibility for time-sensitive reperfusion treatment. Stroke assessment and escalation must not be delayed for less urgent history.\n\nWhy the other options fail:\n• B — What the client ate matters only to thrombolysis eligibility once the onset time is known; it never replaces the last known well time and must not delay the stroke pathway.\n• C — The usual sleep pattern gives no information about when the deficit began.\n• D — Family history does not establish the onset of an acute focal deficit or change immediate management.",
+ "correctChoiceId": "b",
+ "rationale": "The last known well time determines eligibility for time-sensitive reperfusion treatment. Stroke assessment and escalation must not be delayed for less urgent history.\n\nWhy the other options fail:\n• A — What the client ate matters only to thrombolysis eligibility once the onset time is known; it never replaces the last known well time and must not delay the stroke pathway.\n• C — The usual sleep pattern gives no information about when the deficit began.\n• D — Family history does not establish the onset of an acute focal deficit or change immediate management.",
  "strategy": "For acute neurological change, establish onset or last known well time and activate the stroke pathway.",
  "difficulty": "hard",
- "tags": [
-  "stroke",
-  "time-critical"
- ],
+ "tags": ["stroke", "time-critical"],
  "isFree": false
 },
 {
@@ -110463,7 +110454,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Lactulose titrated to regular soft stools"
+   "text": "An antidiarrhoeal agent"
   },
   {
    "id": "b",
@@ -110471,21 +110462,18 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "An antidiarrhoeal agent"
+   "text": "Lactulose titrated to regular soft stools"
   },
   {
    "id": "d",
    "text": "Fluid restriction to 500 mL daily"
-  }
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Confusion and asterixis suggest hepatic encephalopathy. Lactulose reduces intestinal ammonia absorption and is titrated to two or three soft stools daily.\n\nWhy the other options fail:\n• B — Protein is not restricted in the way this option implies, and a single high-protein bedtime meal does nothing to reduce ammonia absorption.\n• C — An antidiarrhoeal slows gut transit and keeps ammonia in the bowel longer, which worsens encephalopathy; lactulose works in the opposite direction.\n• D — Restricting fluid to 500 mL is dangerously low and would worsen the dehydration that often precipitates an encephalopathy episode.",
+ "correctChoiceId": "c",
+ "rationale": "Confusion and asterixis suggest hepatic encephalopathy. Lactulose reduces intestinal ammonia absorption and is titrated to two or three soft stools daily.\n\nWhy the other options fail:\n• B — Protein is not restricted in the way this option implies, and a single high-protein bedtime meal does nothing to reduce ammonia absorption.\n• A — An antidiarrhoeal slows gut transit and keeps ammonia in the bowel longer, which worsens encephalopathy; lactulose works in the opposite direction.\n• D — Restricting fluid to 500 mL is dangerously low and would worsen the dehydration that often precipitates an encephalopathy episode.",
  "strategy": "Recognise asterixis plus altered mental status as encephalopathy and connect lactulose with ammonia reduction.",
  "difficulty": "hard",
- "tags": [
-  "liver",
-  "encephalopathy"
- ],
+ "tags": ["liver", "encephalopathy"],
  "isFree": false
 },
 {
@@ -110503,7 +110491,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Give vitamin K"
+   "text": "Give vitamin K to reverse the heparin effect"
   },
   {
    "id": "d",
@@ -110559,29 +110547,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Temperature 38.1°C"
+   "text": "Temperature 38.1°C on the ward thermometer"
   },
   {
    "id": "b",
-   "text": "Urine output of 10 mL in two hours"
+   "text": "White-cell count 15 ×10^9/L on today's blood film"
   },
   {
    "id": "c",
-   "text": "Heart rate 104/min"
+   "text": "Heart rate 104 beats per minute"
   },
   {
    "id": "d",
-   "text": "White-cell count 15 ×10^9/L"
-  }
+   "text": "Urine output of 10 mL in two hours"
+  },
  ],
- "correctChoiceId": "b",
- "rationale": "Very low urine output reflects inadequate renal perfusion and is a late, serious sign of shock. Temperature and white-cell count indicate inflammation but do not measure organ perfusion directly.\n\nWhy the other options fail:\n• A — Temperature shows inflammation but says nothing about organ perfusion, and it can be normal or low in severe sepsis.\n• C — Tachycardia is a compensation and is non-specific; pain, fever and anxiety all produce it.\n• D — The white-cell count marks inflammation and may even fall in overwhelming sepsis, so it does not track perfusion.",
+ "correctChoiceId": "d",
+ "rationale": "Very low urine output reflects inadequate renal perfusion and is a late, serious sign of shock. Temperature and white-cell count indicate inflammation but do not measure organ perfusion directly.\n\nWhy the other options fail:\n• A — Temperature shows inflammation but says nothing about organ perfusion, and it can be normal or low in severe sepsis.\n• C — Tachycardia is a compensation and is non-specific; pain, fever and anxiety all produce it.\n• B — The white-cell count marks inflammation and may even fall in overwhelming sepsis, so it does not track perfusion.",
  "strategy": "In sepsis questions, identify the finding that shows organ hypoperfusion rather than inflammation alone.",
  "difficulty": "hard",
- "tags": [
-  "sepsis",
-  "shock"
- ],
+ "tags": ["sepsis", "shock"],
  "isFree": false
 },
 {
@@ -110591,29 +110576,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Give oral fluids"
+   "text": "Give oral fluids to settle the client and moisten the airway"
   },
   {
    "id": "b",
-   "text": "Remove the inner cannula and assess for obstruction while calling for help"
+   "text": "Place the client supine and leave the tube untouched until the doctor arrives"
   },
   {
    "id": "c",
-   "text": "Place the client supine and leave the tube untouched"
+   "text": "Remove the inner cannula and assess for obstruction while calling for help"
   },
   {
    "id": "d",
-   "text": "Change the tracheostomy ties first"
-  }
+   "text": "Change the tracheostomy ties first and then reassess the tube"
+  },
  ],
- "correctChoiceId": "b",
- "rationale": "Absent airflow with cyanosis is an airway emergency. Calling for help and checking/removing a blocked inner cannula can rapidly restore patency; oxygen is given over the face and tube as appropriate.\n\nWhy the other options fail:\n• A — Offering oral fluid to a patient whose airway is already obstructed invites aspiration and does nothing for the obstruction.\n• C — Lying the client supine reduces lung expansion and leaves the blocked tube in place while the hypoxia deepens.\n• D — The ties sit outside the airway, so changing them first wastes the seconds that matter.",
+ "correctChoiceId": "c",
+ "rationale": "Absent airflow with cyanosis is an airway emergency. Calling for help and checking/removing a blocked inner cannula can rapidly restore patency; oxygen is given over the face and tube as appropriate.\n\nWhy the other options fail:\n• A — Offering oral fluid to a patient whose airway is already obstructed invites aspiration and does nothing for the obstruction.\n• B — Lying the client supine reduces lung expansion and leaves the blocked tube in place while the hypoxia deepens.\n• D — The ties sit outside the airway, so changing them first wastes the seconds that matter.",
  "strategy": "For a tracheostomy emergency, treat loss of airflow as airway obstruction and act immediately.",
  "difficulty": "hard",
- "tags": [
-  "tracheostomy",
-  "airway"
- ],
+ "tags": ["tracheostomy", "airway"],
  "isFree": false
 },
 {
@@ -110623,29 +110605,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Help the client stand"
+   "text": "Help the client stand up and walk him back to bed"
   },
   {
    "id": "b",
-   "text": "Assess airway and breathing while maintaining spinal alignment"
+   "text": "Move the client to bed using one person and a slide sheet"
   },
   {
    "id": "c",
-   "text": "Offer analgesia before assessment"
+   "text": "Offer analgesia before any assessment of the neck pain"
   },
   {
    "id": "d",
-   "text": "Move the client to bed using one person"
-  }
+   "text": "Assess airway and breathing while maintaining spinal alignment"
+  },
  ],
- "correctChoiceId": "b",
- "rationale": "After a fall with neck pain, spinal injury is possible. The nurse assesses ABCs while keeping the head and neck aligned and calls for assistance before moving the client.\n\nWhy the other options fail:\n• A — Helping a client with neck pain to stand can convert a stable spinal injury into cord damage.\n• C — Analgesia before assessment masks findings and delays the airway and spinal checks that come first.\n• D — Moving the client single-handed gives no control of the spine; a coordinated team using spinal precautions is required.",
+ "correctChoiceId": "d",
+ "rationale": "After a fall with neck pain, spinal injury is possible. The nurse assesses ABCs while keeping the head and neck aligned and calls for assistance before moving the client.\n\nWhy the other options fail:\n• A — Helping a client with neck pain to stand can convert a stable spinal injury into cord damage.\n• C — Analgesia before assessment masks findings and delays the airway and spinal checks that come first.\n• B — Moving the client single-handed gives no control of the spine; a coordinated team using spinal precautions is required.",
  "strategy": "After trauma, stabilise the spine and assess ABCs before moving or medicating.",
  "difficulty": "hard",
- "tags": [
-  "falls",
-  "trauma"
- ],
+ "tags": ["falls", "trauma"],
  "isFree": false
 },
 {
@@ -110655,29 +110634,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Apply wrist restraints immediately"
+   "text": "Apply wrist restraints immediately and document the reason in the notes"
   },
   {
    "id": "b",
-   "text": "Explain the line, provide close observation and address pain or delirium triggers"
+   "text": "Tie the client’s hands to the bed rails so the line cannot be pulled out"
   },
   {
    "id": "c",
-   "text": "Sedate the client without assessment"
+   "text": "Sedate the client without assessment so that the line is left alone"
   },
   {
    "id": "d",
-   "text": "Tie the client’s hands to the bed rails"
-  }
+   "text": "Explain the line, provide close observation and address pain or delirium triggers"
+  },
  ],
- "correctChoiceId": "b",
- "rationale": "Reorientation, observation and treatment of reversible causes are less restrictive than restraints and may remove the behaviour’s cause. Restraints require a last-resort assessment and monitoring.\n\nWhy the other options fail:\n• A — Restraints do not treat the cause, are a last resort, and carry their own risks; they need assessment, a time limit and monitoring.\n• C — Sedating without assessment can hide hypoxia, pain or urinary retention, which are the real reasons for the behaviour.\n• D — Tying the hands to the rails is an unassessed physical restraint and risks injury if the client tries to climb over.",
+ "correctChoiceId": "d",
+ "rationale": "Reorientation, observation and treatment of reversible causes are less restrictive than restraints and may remove the behaviour’s cause. Restraints require a last-resort assessment and monitoring.\n\nWhy the other options fail:\n• A — Restraints do not treat the cause, are a last resort, and carry their own risks; they need assessment, a time limit and monitoring.\n• C — Sedating without assessment can hide hypoxia, pain or urinary retention, which are the real reasons for the behaviour.\n• B — Tying the hands to the rails is an unassessed physical restraint and risks injury if the client tries to climb over.",
  "strategy": "Use the least restrictive intervention first and search for reversible causes of agitation.",
  "difficulty": "hard",
- "tags": [
-  "restraints",
-  "delirium"
- ],
+ "tags": ["restraints", "delirium"],
  "isFree": false
 },
 {
@@ -110687,29 +110663,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Continue feeding slowly"
+   "text": "Continue feeding slowly and reassess the voice after the meal"
   },
   {
    "id": "b",
-   "text": "Stop the meal, keep the client upright and assess airway"
+   "text": "Offer thin water to clear the throat before the next mouthful"
   },
   {
    "id": "c",
-   "text": "Offer thin water to clear the throat"
+   "text": "Stop the meal, keep the client upright and assess airway"
   },
   {
    "id": "d",
-   "text": "Place the client flat"
-  }
+   "text": "Place the client flat and continue the meal once the coughing stops"
+  },
  ],
- "correctChoiceId": "b",
- "rationale": "Coughing and a wet voice suggest aspiration. Stop oral intake, maintain upright positioning and assess breathing before further swallowing assessment.\n\nWhy the other options fail:\n• A — Continuing the meal feeds the aspiration that is already happening.\n• C — Thin fluids are the hardest consistency to swallow safely and would add to the aspiration.\n• D — Lying the client flat lets whatever has been aspirated spread further into the lungs.",
+ "correctChoiceId": "c",
+ "rationale": "Coughing and a wet voice suggest aspiration. Stop oral intake, maintain upright positioning and assess breathing before further swallowing assessment.\n\nWhy the other options fail:\n• A — Continuing the meal feeds the aspiration that is already happening.\n• B — Thin fluids are the hardest consistency to swallow safely and would add to the aspiration.\n• D — Lying the client flat lets whatever has been aspirated spread further into the lungs.",
  "strategy": "A wet voice during eating is an aspiration warning; stop intake before offering anything else.",
  "difficulty": "hard",
- "tags": [
-  "dysphagia",
-  "aspiration"
- ],
+ "tags": ["dysphagia", "aspiration"],
  "isFree": false
 },
 {
@@ -110719,29 +110692,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Assess a newly admitted client with chest pain"
-  },
-  {
-   "id": "b",
-   "text": "Teach insulin self-injection"
-  },
-  {
-   "id": "c",
    "text": "Measure and record vital signs for a stable client"
   },
   {
+   "id": "b",
+   "text": "Teach a client to draw up and inject their own insulin"
+  },
+  {
+   "id": "c",
+   "text": "Assess a newly admitted client with chest pain"
+  },
+  {
    "id": "d",
-   "text": "Evaluate a pressure injury"
-  }
+   "text": "Evaluate a pressure injury and stage it for the care plan"
+  },
  ],
- "correctChoiceId": "c",
- "rationale": "Routine vital signs for a stable client can be delegated with clear instructions and reporting parameters. Assessment, teaching and evaluation require the registered nurse.\n\nWhy the other options fail:\n• A — Assessing a newly admitted client with chest pain requires registered-nurse judgement and cannot be delegated.\n• B — Teaching insulin self-injection is a registered-nurse activity; the assistant cannot judge understanding.\n• D — Evaluating a pressure injury is an assessment, so it stays with the registered nurse.",
+ "correctChoiceId": "a",
+ "rationale": "Routine vital signs for a stable client can be delegated with clear instructions and reporting parameters. Assessment, teaching and evaluation require the registered nurse.\n\nWhy the other options fail:\n• C — Assessing a newly admitted client with chest pain requires registered-nurse judgement and cannot be delegated.\n• B — Teaching insulin self-injection is a registered-nurse activity; the assistant cannot judge understanding.\n• D — Evaluating a pressure injury is an assessment, so it stays with the registered nurse.",
  "strategy": "Delegate predictable tasks for stable clients; retain assessment, teaching and evaluation.",
  "difficulty": "hard",
- "tags": [
-  "delegation",
-  "scope"
- ],
+ "tags": ["delegation", "scope"],
  "isFree": false
 },
 {
@@ -110751,29 +110721,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Increase the feeding rate later"
-  },
-  {
-   "id": "b",
    "text": "Stop the feeding and position the client upright"
   },
   {
+   "id": "b",
+   "text": "Increase the feeding rate later once the client has settled"
+  },
+  {
    "id": "c",
-   "text": "Flush the tube with 100 mL water"
+   "text": "Flush the tube with 100 mL of water to clear the obstruction"
   },
   {
    "id": "d",
-   "text": "Place the client flat for comfort"
-  }
+   "text": "Place the client flat for comfort and continue the feeding"
+  },
  ],
- "correctChoiceId": "b",
- "rationale": "Vomiting with breathlessness suggests aspiration. Stop the feed, position upright and assess airway and oxygenation; further tube actions wait until stabilised.\n\nWhy the other options fail:\n• A — The feeding rate is irrelevant while the client is aspirating, and leaving the feed running does not address the airway.\n• C — Flushing 100 mL adds fluid to the stomach during acute aspiration and may push more of it up into the pharynx.\n• D — Lying the client flat makes aspiration more likely and impairs breathing.",
+ "correctChoiceId": "a",
+ "rationale": "Vomiting with breathlessness suggests aspiration. Stop the feed, position upright and assess airway and oxygenation; further tube actions wait until stabilised.\n\nWhy the other options fail:\n• B — The feeding rate is irrelevant while the client is aspirating, and leaving the feed running does not address the airway.\n• C — Flushing 100 mL adds fluid to the stomach during acute aspiration and may push more of it up into the pharynx.\n• D — Lying the client flat makes aspiration more likely and impairs breathing.",
  "strategy": "When enteral feeding complications affect breathing, stop the feed and manage airway risk first.",
  "difficulty": "hard",
- "tags": [
-  "enteral",
-  "aspiration"
- ],
+ "tags": ["enteral", "aspiration"],
  "isFree": false
 },
 {
@@ -110783,11 +110750,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Hypokalaemia"
+   "text": "Hyperkalaemia"
   },
   {
    "id": "b",
-   "text": "Hyperkalaemia"
+   "text": "Hypokalaemia"
   },
   {
    "id": "c",
@@ -110796,16 +110763,13 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   {
    "id": "d",
    "text": "Hypercalcaemia"
-  }
+  },
  ],
- "correctChoiceId": "a",
+ "correctChoiceId": "b",
  "rationale": "Digoxin binds to the sodium-potassium pump, and potassium competes with it at that site. When potassium is low there is less competition, so more digoxin binds and toxicity appears even at a level that would otherwise be therapeutic, which is why potassium is checked and corrected in any patient on digoxin. Hyperkalaemia tends to oppose digoxin's effect. Sodium and calcium disturbances are not the classic precipitant, although hypercalcaemia can potentiate dysrhythmias.",
  "strategy": "Low potassium lets digoxin bind more avidly. Check potassium before you blame the level.",
  "difficulty": "hard",
- "tags": [
-  "digoxin",
-  "toxicity"
- ],
+ "tags": ["digoxin", "toxicity"],
  "isFree": false
 },
 {
@@ -110815,29 +110779,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Increase the infusion rate"
+   "text": "Increase the infusion rate so that the course finishes sooner"
   },
   {
    "id": "b",
-   "text": "Stop or slow the infusion, assess the client and notify the prescriber"
+   "text": "Ignore the findings because they are expected with vancomycin"
   },
   {
    "id": "c",
-   "text": "Give the next dose early"
+   "text": "Give the next dose early to keep the blood level above the target"
   },
   {
    "id": "d",
-   "text": "Ignore the findings because they are expected"
-  }
+   "text": "Stop or slow the infusion, assess the client and notify the prescriber"
+  },
  ],
- "correctChoiceId": "b",
- "rationale": "Rapid vancomycin infusion can cause vancomycin infusion reaction with flushing, pruritus and hypotension. Stop or slow the infusion, assess and treat as prescribed.\n\nWhy the other options fail:\n• A — Increasing the rate delivers the drug faster and worsens the reaction.\n• C — Giving the next dose early adds to the drug exposure that is causing the problem.\n• D — Flushing, pruritus and hypotension are not effects to be ignored; hypotension in particular must be assessed and treated.",
+ "correctChoiceId": "d",
+ "rationale": "Rapid vancomycin infusion can cause vancomycin infusion reaction with flushing, pruritus and hypotension. Stop or slow the infusion, assess and treat as prescribed.\n\nWhy the other options fail:\n• A — Increasing the rate delivers the drug faster and worsens the reaction.\n• C — Giving the next dose early adds to the drug exposure that is causing the problem.\n• B — Flushing, pruritus and hypotension are not effects to be ignored; hypotension in particular must be assessed and treated.",
  "strategy": "Link flushing during vancomycin to infusion rate; do not continue an unstable infusion.",
  "difficulty": "hard",
- "tags": [
-  "vancomycin",
-  "infusion"
- ],
+ "tags": ["vancomycin", "infusion"],
  "isFree": false
 },
 {
@@ -110847,11 +110808,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Stop the heparin and inform the prescriber at once"
+   "text": "Continue the heparin and recheck platelets in a week"
   },
   {
    "id": "b",
-   "text": "Continue the heparin and recheck platelets in a week"
+   "text": "Stop the heparin and inform the prescriber at once"
   },
   {
    "id": "c",
@@ -110860,18 +110821,13 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   {
    "id": "d",
    "text": "Document the result and wait for the next ward round"
-  }
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "A fall of more than 50 per cent after five or more days of heparin is heparin-induced thrombocytopenia. The drug must be stopped immediately because it causes thrombosis, not just bleeding, and an alternative anticoagulant is usually needed.\n\nWhy the other options fail:\n• B — Continuing heparin allows further antibody-mediated platelet activation and thrombosis.\n• C — Vitamin K reverses warfarin, not heparin, and delays the one action that matters.\n• D — A halving of platelets is a critical finding, not a note for later.\n\nReference: Ghana STG — heparin therapy; monitoring",
+ "correctChoiceId": "b",
+ "rationale": "A fall of more than 50 per cent after five or more days of heparin is heparin-induced thrombocytopenia. The drug must be stopped immediately because it causes thrombosis, not just bleeding, and an alternative anticoagulant is usually needed.\n\nWhy the other options fail:\n• A — Continuing heparin allows further antibody-mediated platelet activation and thrombosis.\n• C — Vitamin K reverses warfarin, not heparin, and delays the one action that matters.\n• D — A halving of platelets is a critical finding, not a note for later.\n\nReference: Ghana STG — heparin therapy; monitoring",
  "strategy": "A falling platelet count on heparin means stop the drug first and ask questions after.",
  "difficulty": "hard",
- "tags": [
-  "heparin",
-  "HIT",
-  "platelets",
-  "adverse-effect"
- ],
+ "tags": ["heparin", "HIT", "platelets", "adverse-effect"],
  "isFree": false
 },
 {
@@ -110881,29 +110837,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Assess severity, oxygenation and response, then notify the prescriber if persistent"
+   "text": "Tell the client the symptoms prove that the asthma is worsening"
   },
   {
    "id": "b",
-   "text": "Withhold all future bronchodilators permanently"
+   "text": "Withhold all future bronchodilators permanently because of the tremor"
   },
   {
    "id": "c",
-   "text": "Give a beta-blocker immediately"
+   "text": "Give a beta-blocker immediately to slow the heart rate"
   },
   {
    "id": "d",
-   "text": "Tell the client the symptoms prove the asthma is worsening"
-  }
+   "text": "Assess severity, oxygenation and response, then notify the prescriber if persistent"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Tremor and tachycardia are common beta2-agonist effects, but marked tachycardia requires assessment of oxygenation, rhythm and clinical response.\n\nWhy the other options fail:\n• B — Withholding bronchodilators permanently would leave the asthma untreated; tremor and tachycardia are dose-related effects that are managed, not a reason to abandon the drug.\n• C — A beta-blocker can precipitate bronchospasm in a client with asthma and would be dangerous here.\n• D — Attributing the tremor to worsening asthma misreads a drug effect; severity is judged on air entry, work of breathing and oxygen saturation.",
+ "correctChoiceId": "d",
+ "rationale": "Tremor and tachycardia are common beta2-agonist effects, but marked tachycardia requires assessment of oxygenation, rhythm and clinical response.\n\nWhy the other options fail:\n• B — Withholding bronchodilators permanently would leave the asthma untreated; tremor and tachycardia are dose-related effects that are managed, not a reason to abandon the drug.\n• C — A beta-blocker can precipitate bronchospasm in a client with asthma and would be dangerous here.\n• A — Attributing the tremor to worsening asthma misreads a drug effect; severity is judged on air entry, work of breathing and oxygen saturation.",
  "strategy": "Separate expected medication effects from dangerous severity; assess the client, not just the side effect.",
  "difficulty": "hard",
- "tags": [
-  "asthma",
-  "salbutamol"
- ],
+ "tags": ["asthma", "salbutamol"],
  "isFree": false
 },
 {
@@ -110913,29 +110866,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Maintaining hydration and avoiding concurrent nephrotoxic drugs such as NSAIDs"
+   "text": "Giving the dose as rapidly as possible to shorten the infusion time"
   },
   {
    "id": "b",
-   "text": "Restricting fluids to protect the kidneys"
+   "text": "Restricting fluids to protect the kidneys from the drug"
   },
   {
    "id": "c",
-   "text": "Giving the dose as rapidly as possible"
+   "text": "Maintaining hydration and avoiding concurrent nephrotoxic drugs such as NSAIDs"
   },
   {
    "id": "d",
-   "text": "Adding an NSAID to manage the associated pain"
-  }
+   "text": "Adding an NSAID to manage the pain that often accompanies infection"
+  },
  ],
- "correctChoiceId": "a",
+ "correctChoiceId": "c",
  "rationale": "Aminoglycosides are concentrated in the renal cortex, so adequate hydration and avoidance of other nephrotoxins are the practical protective measures, along with the shortest effective course, once-daily dosing where prescribed, and monitoring of creatinine and levels. Fluid restriction concentrates the drug and the patient, and is the opposite of what is needed. Rapid administration increases peak-related toxicity. Adding an NSAID is doubly harmful, since NSAIDs themselves reduce renal perfusion.",
  "strategy": "Hydrate, avoid other nephrotoxins, keep the course short, and watch creatinine.",
  "difficulty": "hard",
- "tags": [
-  "gentamicin",
-  "nephrotoxicity"
- ],
+ "tags": ["gentamicin", "nephrotoxicity"],
  "isFree": false
 },
 {
@@ -110949,25 +110899,22 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Perform a digital vaginal examination"
+   "text": "Establish IV access"
   },
   {
    "id": "c",
-   "text": "Establish IV access"
+   "text": "Perform a digital vaginal examination"
   },
   {
    "id": "d",
    "text": "Prepare for ultrasound assessment"
-  }
+  },
  ],
- "correctChoiceId": "b",
- "rationale": "Painless bleeding with a non-tender uterus suggests placenta praevia. Digital examination can disrupt the placenta and cause catastrophic haemorrhage until its location is confirmed.\n\nWhy the other options fail:\n• A — Monitoring maternal vital signs and fetal status is appropriate care, not something to avoid.\n• C — Establishing intravenous access is appropriate preparation for a possible haemorrhage.\n• D — Ultrasound is exactly what is needed to locate the placenta before any vaginal examination.",
+ "correctChoiceId": "c",
+ "rationale": "Painless bleeding with a non-tender uterus suggests placenta praevia. Digital examination can disrupt the placenta and cause catastrophic haemorrhage until its location is confirmed.\n\nWhy the other options fail:\n• A — Monitoring maternal vital signs and fetal status is appropriate care, not something to avoid.\n• B — Establishing intravenous access is appropriate preparation for a possible haemorrhage.\n• D — Ultrasound is exactly what is needed to locate the placenta before any vaginal examination.",
  "strategy": "In painless third-trimester bleeding, never perform a digital vaginal examination before excluding placenta praevia.",
  "difficulty": "hard",
- "tags": [
-  "placenta-praevia",
-  "bleeding"
- ],
+ "tags": ["placenta-praevia", "bleeding"],
  "isFree": false
 },
 {
@@ -110977,7 +110924,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Continue the infusion and reassess in one hour"
+   "text": "Continue the infusion and reassess her reflexes in one hour"
   },
   {
    "id": "b",
@@ -110985,11 +110932,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Encourage ambulation"
+   "text": "Encourage ambulation around the ward to assess her muscle strength"
   },
   {
    "id": "d",
-   "text": "Administer another sedative"
+   "text": "Administer another sedative to settle the agitation and the tremor"
   }
  ],
  "correctChoiceId": "b",
@@ -111009,7 +110956,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "It slows the breakdown of clots that have already formed"
+   "text": "It raises the blood pressure by narrowing the arteries"
   },
   {
    "id": "b",
@@ -111021,19 +110968,14 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "It raises the blood pressure by narrowing the arteries"
-  }
+   "text": "It slows the breakdown of clots that have already formed"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "CORRECT (A) — \"It slows the breakdown of clots that have already formed\". Tranexamic acid is an antifibrinolytic: it blocks plasminogen from being converted to plasmin, so the fibrin mesh that has already formed is not digested as quickly. In postpartum haemorrhage it is given as 1 g intravenously over 10 minutes, as early as possible and ideally within 3 hours of birth, alongside — not instead of — uterotonics, and it does not replace blood products. Option B describes the uterotonic action of oxytocin, misoprostol or ergometrine. Option C describes fresh frozen plasma or packed cells, not tranexamic acid. Option D describes a vasopressor. Tranexamic acid is an addition to uterine massage and uterotonics, never a substitute for them.",
+ "correctChoiceId": "d",
+ "rationale": "CORRECT (A) — \"It slows the breakdown of clots that have already formed\". Tranexamic acid is an antifibrinolytic: it blocks plasminogen from being converted to plasmin, so the fibrin mesh that has already formed is not digested as quickly. In postpartum haemorrhage it is given as 1 g intravenously over 10 minutes, as early as possible and ideally within 3 hours of birth, alongside — not instead of — uterotonics, and it does not replace blood products. Option B describes the uterotonic action of oxytocin, misoprostol or ergometrine. Option C describes fresh frozen plasma or packed cells, not tranexamic acid. Option A describes a vasopressor. Tranexamic acid is an addition to uterine massage and uterotonics, never a substitute for them.",
  "strategy": "Tranexamic acid stops clot breakdown. Oxytocin makes the uterus clamp down. Do not confuse the two.",
  "difficulty": "hard",
- "tags": [
-  "postpartum-haemorrhage",
-  "tranexamic acid",
-  "pharmacology",
-  "ghana"
- ],
+ "tags": ["postpartum-haemorrhage", "tranexamic acid", "pharmacology", "ghana"],
  "isFree": false
 },
 {
@@ -111043,7 +110985,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Place supine and increase oxytocin"
+   "text": "Place the client supine and increase the oxytocin infusion rate"
   },
   {
    "id": "b",
@@ -111051,11 +110993,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Encourage pushing with every contraction"
+   "text": "Encourage the client to push with every contraction to shorten labour"
   },
   {
    "id": "d",
-   "text": "Perform a vaginal examination only"
+   "text": "Perform a vaginal examination only and document the result"
   }
  ],
  "correctChoiceId": "b",
@@ -111109,29 +111051,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Rapid isotonic IV fluid bolus with reassessment"
+   "text": "A prescribed diuretic infusion to reduce the oedema"
   },
   {
    "id": "b",
-   "text": "Undiluted fruit juice by mouth"
+   "text": "Undiluted fruit juice by mouth in small frequent amounts"
   },
   {
    "id": "c",
-   "text": "A diuretic infusion"
+   "text": "Rapid isotonic IV fluid bolus with reassessment"
   },
   {
    "id": "d",
-   "text": "Fluid restriction"
-  }
+   "text": "Fluid restriction until the pulse and refill have improved"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Shock from severe dehydration requires rapid isotonic crystalloid with frequent reassessment. Oral fluids are unsafe in a lethargic child with poor perfusion.\n\nWhy the other options fail:\n• B — Undiluted fruit juice is hyperosmolar, worsens diarrhoea, and cannot be given safely to a lethargic child with poor perfusion.\n• C — A diuretic would remove more fluid from a child who is already in shock.\n• D — Restricting fluid is the opposite of what severe dehydration with shock requires.",
+ "correctChoiceId": "c",
+ "rationale": "Shock from severe dehydration requires rapid isotonic crystalloid with frequent reassessment. Oral fluids are unsafe in a lethargic child with poor perfusion.\n\nWhy the other options fail:\n• B — Undiluted fruit juice is hyperosmolar, worsens diarrhoea, and cannot be given safely to a lethargic child with poor perfusion.\n• A — A diuretic would remove more fluid from a child who is already in shock.\n• D — Restricting fluid is the opposite of what severe dehydration with shock requires.",
  "strategy": "In paediatric dehydration, shock signs require isotonic IV resuscitation before oral replacement.",
  "difficulty": "hard",
- "tags": [
-  "dehydration",
-  "shock"
- ],
+ "tags": ["dehydration", "shock"],
  "isFree": false
 },
 {
@@ -111141,7 +111080,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Keep the child calm with a parent"
+   "text": "Inspect the throat with a tongue depressor"
   },
   {
    "id": "b",
@@ -111149,21 +111088,18 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Inspect the throat with a tongue depressor"
+   "text": "Keep the child calm with a parent"
   },
   {
    "id": "d",
    "text": "Give oxygen if tolerated"
-  }
+  },
  ],
- "correctChoiceId": "c",
- "rationale": "Agitating or examining the throat can precipitate complete airway obstruction in epiglottitis. The child remains calm while expert airway support is prepared.\n\nWhy the other options fail:\n• A — Keeping the child calm with a parent is the correct approach in epiglottitis, not a danger.\n• B — Preparing airway equipment and summoning expert help is exactly right.\n• D — Oxygen given gently and only if the child tolerates it is appropriate; the question asks which action is unsafe.",
+ "correctChoiceId": "a",
+ "rationale": "Agitating or examining the throat can precipitate complete airway obstruction in epiglottitis. The child remains calm while expert airway support is prepared.\n\nWhy the other options fail:\n• C — Keeping the child calm with a parent is the correct approach in epiglottitis, not a danger.\n• B — Preparing airway equipment and summoning expert help is exactly right.\n• D — Oxygen given gently and only if the child tolerates it is appropriate; the question asks which action is unsafe.",
  "strategy": "Drooling, tripod position and muffled voice: do not examine the throat or force the child to lie down.",
  "difficulty": "hard",
- "tags": [
-  "epiglottitis",
-  "airway"
- ],
+ "tags": ["epiglottitis", "airway"],
  "isFree": false
 },
 {
@@ -111177,15 +111113,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Simple hunger"
+   "text": "Simple hunger after a long period without food"
   },
   {
    "id": "c",
-   "text": "Expected steroid effect"
+   "text": "An expected steroid effect that needs no action"
   },
   {
    "id": "d",
-   "text": "Otitis externa"
+   "text": "Otitis externa from swimming on holiday"
   }
  ],
  "correctChoiceId": "a",
@@ -111205,29 +111141,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Treat pain and obtain urgent infection assessment and cultures as prescribed"
+   "text": "Encourage strenuous exercise to keep the limbs moving through the pain"
   },
   {
    "id": "b",
-   "text": "Apply ice packs to the painful limbs"
+   "text": "Apply ice packs to the painful limbs and reassess the pain in an hour"
   },
   {
    "id": "c",
-   "text": "Delay antibiotics until the pain resolves"
+   "text": "Delay antibiotics until the pain resolves and the temperature settles"
   },
   {
    "id": "d",
-   "text": "Encourage strenuous exercise"
-  }
+   "text": "Treat pain and obtain urgent infection assessment and cultures as prescribed"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Fever in sickle-cell disease may indicate overwhelming infection, while vaso-occlusive pain needs prompt analgesia and hydration. Ice and strenuous activity worsen vasoconstriction or oxygen demand.\n\nWhy the other options fail:\n• B — Cold packs cause vasoconstriction, which slows flow further and can worsen the sickling.\n• C — Delaying antibiotics in a febrile child with sickle-cell disease risks overwhelming sepsis, which can kill within hours.\n• D — Strenuous exercise raises oxygen demand and fluid loss, both of which precipitate further sickling.",
+ "correctChoiceId": "d",
+ "rationale": "Fever in sickle-cell disease may indicate overwhelming infection, while vaso-occlusive pain needs prompt analgesia and hydration. Ice and strenuous activity worsen vasoconstriction or oxygen demand.\n\nWhy the other options fail:\n• B — Cold packs cause vasoconstriction, which slows flow further and can worsen the sickling.\n• C — Delaying antibiotics in a febrile child with sickle-cell disease risks overwhelming sepsis, which can kill within hours.\n• A — Strenuous exercise raises oxygen demand and fluid loss, both of which precipitate further sickling.",
  "strategy": "Sickle-cell pain plus fever is both a pain crisis and a sepsis risk; manage both urgently.",
  "difficulty": "hard",
- "tags": [
-  "sickle-cell",
-  "paediatrics"
- ],
+ "tags": ["sickle-cell", "paediatrics"],
  "isFree": false
 },
 {
@@ -111237,11 +111170,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Exclude visitors with colds and avoid taking rectal temperatures"
+   "text": "Give the live oral rotavirus vaccine during this admission"
   },
   {
    "id": "b",
-   "text": "Give the live oral rotavirus vaccine during this admission"
+   "text": "Exclude visitors with colds and avoid taking rectal temperatures"
   },
   {
    "id": "c",
@@ -111250,18 +111183,13 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   {
    "id": "d",
    "text": "Allow fresh flowers and potted plants in the room"
-  }
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "CORRECT (A) — \"Exclude visitors with colds and avoid taking rectal temperatures\". At 0.4 × 10⁹/L the child is profoundly neutropenic, and the defences that normally keep skin and gut flora in check are absent. Protective measures include scrupulous hand hygiene, screening visitors and staff for infection, avoiding rectal interventions that breach mucosa, avoiding fresh flowers and standing water that harbour Pseudomonas and fungi, and avoiding live vaccines. Any temperature of 38°C or above is treated as an emergency, because neutropenic sepsis can kill within hours and the child may show no localising signs. Option B is contraindicated: live vaccines are withheld during immunosuppression. Option C breaches mucosa and is specifically avoided. Option D introduces organisms the child cannot resist.",
+ "correctChoiceId": "b",
+ "rationale": "CORRECT (A) — \"Exclude visitors with colds and avoid taking rectal temperatures\". At 0.4 × 10⁹/L the child is profoundly neutropenic, and the defences that normally keep skin and gut flora in check are absent. Protective measures include scrupulous hand hygiene, screening visitors and staff for infection, avoiding rectal interventions that breach mucosa, avoiding fresh flowers and standing water that harbour Pseudomonas and fungi, and avoiding live vaccines. Any temperature of 38°C or above is treated as an emergency, because neutropenic sepsis can kill within hours and the child may show no localising signs. Option A is contraindicated: live vaccines are withheld during immunosuppression. Option C breaches mucosa and is specifically avoided. Option D introduces organisms the child cannot resist.",
  "strategy": "Neutropenia: no rectal route, no live vaccines, no fresh flowers. Any fever is an emergency.",
  "difficulty": "hard",
- "tags": [
-  "neutropenia",
-  "oncology",
-  "protective isolation",
-  "paediatrics"
- ],
+ "tags": ["neutropenia", "oncology", "protective isolation", "paediatrics"],
  "isFree": false
 },
 {
@@ -111271,29 +111199,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Leave the client alone to build trust"
+   "text": "Leave the client alone for now to build trust before asking more"
   },
   {
    "id": "b",
-   "text": "Maintain safety with constant observation and urgent psychiatric escalation"
+   "text": "Promise the client that nothing will be told to anyone else"
   },
   {
    "id": "c",
-   "text": "Promise not to tell anyone"
+   "text": "Maintain safety with constant observation and urgent psychiatric escalation"
   },
   {
    "id": "d",
-   "text": "Ask the client to sign a no-suicide contract and discharge"
-  }
+   "text": "Ask the client to sign a no-suicide contract and then discharge"
+  },
  ],
- "correctChoiceId": "b",
- "rationale": "A specific plan, means and imminent timing indicate high suicide risk. The client requires immediate safety measures, removal of access to means and urgent multidisciplinary assessment.\n\nWhy the other options fail:\n• A — Leaving the client alone removes observation at the moment of greatest risk.\n• C — Promising secrecy is unsafe and unethical; safety overrides confidentiality here.\n• D — A no-suicide contract does not substitute for assessment, and discharging a client with a plan and the means to carry it out is dangerous.",
+ "correctChoiceId": "c",
+ "rationale": "A specific plan, means and imminent timing indicate high suicide risk. The client requires immediate safety measures, removal of access to means and urgent multidisciplinary assessment.\n\nWhy the other options fail:\n• A — Leaving the client alone removes observation at the moment of greatest risk.\n• B — Promising secrecy is unsafe and unethical; safety overrides confidentiality here.\n• D — A no-suicide contract does not substitute for assessment, and discharging a client with a plan and the means to carry it out is dangerous.",
  "strategy": "Specific means plus imminent timing overrides routine rapport-building or no-harm contracts.",
  "difficulty": "hard",
- "tags": [
-  "suicide",
-  "risk"
- ],
+ "tags": ["suicide", "risk"],
  "isFree": false
 },
 {
@@ -111303,7 +111228,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Keep fluid and salt intake steady and report vomiting"
+   "text": "Double the dose before any planned long journey"
   },
   {
    "id": "b",
@@ -111311,23 +111236,18 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Double the dose before any planned long journey"
+   "text": "Keep fluid and salt intake steady and report vomiting"
   },
   {
    "id": "d",
    "text": "Avoid all fluids so the blood level stays stable"
-  }
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Lithium is excreted by the kidney and its level rises with dehydration or sodium loss. Steady fluid and salt intake keeps the level predictable, and vomiting or diarrhoea must be reported because it rapidly pushes the client into toxicity.\n\nWhy the other options fail:\n• B — Lithium is taken every day; intermittent dosing produces no therapeutic level and invites relapse.\n• C — Doubling the dose can cause fatal toxicity; only a prescriber changes it.\n• D — Fluid restriction concentrates lithium and is a common route to toxicity.\n\nReference: Ghana STG — lithium therapy; counselling",
+ "correctChoiceId": "c",
+ "rationale": "Lithium is excreted by the kidney and its level rises with dehydration or sodium loss. Steady fluid and salt intake keeps the level predictable, and vomiting or diarrhoea must be reported because it rapidly pushes the client into toxicity.\n\nWhy the other options fail:\n• B — Lithium is taken every day; intermittent dosing produces no therapeutic level and invites relapse.\n• A — Doubling the dose can cause fatal toxicity; only a prescriber changes it.\n• D — Fluid restriction concentrates lithium and is a common route to toxicity.\n\nReference: Ghana STG — lithium therapy; counselling",
  "strategy": "Anything that changes body water changes the lithium level — teach that link.",
  "difficulty": "hard",
- "tags": [
-  "lithium",
-  "bipolar",
-  "counselling",
-  "toxicity"
- ],
+ "tags": ["lithium", "bipolar", "counselling", "toxicity"],
  "isFree": false
 },
 {
@@ -111337,29 +111257,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "“Why do you believe the voices?”"
+   "text": "“Why do you believe that the voices are telling you the truth?”"
   },
   {
    "id": "b",
-   "text": "“What exactly are the voices telling you, and do you intend to act?”"
+   "text": "“Have you always disliked that client on the ward?”"
   },
   {
    "id": "c",
-   "text": "“Can you ignore the voices?”"
+   "text": "“Can you ignore the voices and carry on with your day?”"
   },
   {
    "id": "d",
-   "text": "“Have you always disliked that client?”"
-  }
+   "text": "“What exactly are the voices telling you, and do you intend to act?”"
+  },
  ],
- "correctChoiceId": "b",
- "rationale": "The nurse must assess content, target, intent, plan and ability to resist because command hallucinations may create immediate risk to others.\n\nWhy the other options fail:\n• A — Asking why the client believes the voices challenges the experience and does not establish any risk.\n• C — Asking whether the voices can be ignored does not identify the target or the intent to act.\n• D — Assuming a grudge misreads the situation and skips the assessment of what the voices are actually commanding.",
+ "correctChoiceId": "d",
+ "rationale": "The nurse must assess content, target, intent, plan and ability to resist because command hallucinations may create immediate risk to others.\n\nWhy the other options fail:\n• A — Asking why the client believes the voices challenges the experience and does not establish any risk.\n• C — Asking whether the voices can be ignored does not identify the target or the intent to act.\n• B — Assuming a grudge misreads the situation and skips the assessment of what the voices are actually commanding.",
  "strategy": "When hallucinations are commanding, assess dangerous content and intent directly and calmly.",
  "difficulty": "hard",
- "tags": [
-  "psychosis",
-  "safety"
- ],
+ "tags": ["psychosis", "safety"],
  "isFree": false
 },
 {
@@ -111369,29 +111286,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Reduce stimulation, institute seizure precautions and administer prescribed benzodiazepine"
+   "text": "Offer coffee to improve alertness and help him settle through the night"
   },
   {
    "id": "b",
-   "text": "Offer coffee to improve alertness"
+   "text": "Reduce stimulation, institute seizure precautions and administer prescribed benzodiazepine"
   },
   {
    "id": "c",
-   "text": "Place the client alone without observation"
+   "text": "Place the client alone in a quiet room without observation or checks"
   },
   {
    "id": "d",
-   "text": "Confront the hallucination as deliberate behaviour"
-  }
+   "text": "Confront the hallucination as deliberate behaviour and set firm limits"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Severe withdrawal can progress to seizures and delirium tremens. Benzodiazepines, close monitoring and a low-stimulation safe environment reduce complications.\n\nWhy the other options fail:\n• B — Coffee is a stimulant and worsens agitation and insomnia in withdrawal.\n• C — Leaving the client alone without observation risks an unwitnessed seizure or progression to delirium tremens.\n• D — Confronting the hallucination as deliberate behaviour increases agitation and destroys trust.",
+ "correctChoiceId": "b",
+ "rationale": "Severe withdrawal can progress to seizures and delirium tremens. Benzodiazepines, close monitoring and a low-stimulation safe environment reduce complications.\n\nWhy the other options fail:\n• A — Coffee is a stimulant and worsens agitation and insomnia in withdrawal.\n• C — Leaving the client alone without observation risks an unwitnessed seizure or progression to delirium tremens.\n• D — Confronting the hallucination as deliberate behaviour increases agitation and destroys trust.",
  "strategy": "Alcohol withdrawal with autonomic activation and hallucinations is a seizure and delirium emergency.",
  "difficulty": "hard",
- "tags": [
-  "withdrawal",
-  "delirium"
- ],
+ "tags": ["withdrawal", "delirium"],
  "isFree": false
 },
 {
@@ -111401,7 +111315,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Confusion, ataxia and slurred speech as the level rises"
+   "text": "A urine output of forty millilitres per hour"
   },
   {
    "id": "b",
@@ -111409,23 +111323,18 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "A urine output of forty millilitres per hour"
+   "text": "Confusion, ataxia and slurred speech as the level rises"
   },
   {
    "id": "d",
    "text": "An unchanged serum potassium on repeat testing"
-  }
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Rapid correction of chronic hyponatraemia causes osmotic demyelination, which classically presents with confusion, ataxia, dysarthria and sometimes quadriparesis a few days after the correction. The usual limit is about 8 to 10 mmol/L in 24 hours.\n\nWhy the other options fail:\n• B — Improved alertness is the expected benefit of careful correction.\n• C — Forty millilitres an hour is a normal adult urine output.\n• D — Potassium is not the marker of over-rapid sodium correction.\n\nReference: Ghana STG — hyponatraemia; correction rate",
+ "correctChoiceId": "c",
+ "rationale": "Rapid correction of chronic hyponatraemia causes osmotic demyelination, which classically presents with confusion, ataxia, dysarthria and sometimes quadriparesis a few days after the correction. The usual limit is about 8 to 10 mmol/L in 24 hours.\n\nWhy the other options fail:\n• B — Improved alertness is the expected benefit of careful correction.\n• A — Forty millilitres an hour is a normal adult urine output.\n• D — Potassium is not the marker of over-rapid sodium correction.\n\nReference: Ghana STG — hyponatraemia; correction rate",
  "strategy": "Correct sodium slowly, and treat new neurological signs during correction as demyelination until proved otherwise.",
  "difficulty": "hard",
- "tags": [
-  "hyponatraemia",
-  "osmotic-demyelination",
-  "sodium",
-  "safety"
- ],
+ "tags": ["hyponatraemia", "osmotic-demyelination", "sodium", "safety"],
  "isFree": false
 },
 {
@@ -111467,29 +111376,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "New ventricular ectopy on the cardiac monitor"
+   "text": "A request for ice chips to relieve the dryness of the mouth"
   },
   {
    "id": "b",
-   "text": "Mild thirst"
+   "text": "Mild thirst relieved by small sips of water at the bedside"
   },
   {
    "id": "c",
-   "text": "Dry lips only"
+   "text": "Dry lips with no other sign of volume depletion"
   },
   {
    "id": "d",
-   "text": "A request for ice chips"
-  }
+   "text": "New ventricular ectopy on the cardiac monitor"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Severe hypokalaemia predisposes to life-threatening dysrhythmias, and ventricular ectopy is an immediate sign of cardiac instability.\n\nWhy the other options fail:\n• B — Thirst is expected with vomiting and is not itself a reason for urgent escalation.\n• C — Dry lips indicate mild dehydration and do not signal cardiac instability.\n• D — A request for ice chips is a comfort issue; it does not indicate deterioration.",
+ "correctChoiceId": "d",
+ "rationale": "Severe hypokalaemia predisposes to life-threatening dysrhythmias, and ventricular ectopy is an immediate sign of cardiac instability.\n\nWhy the other options fail:\n• B — Thirst is expected with vomiting and is not itself a reason for urgent escalation.\n• C — Dry lips indicate mild dehydration and do not signal cardiac instability.\n• A — A request for ice chips is a comfort issue; it does not indicate deterioration.",
  "strategy": "With major potassium loss, prioritise rhythm changes over general dehydration symptoms.",
  "difficulty": "hard",
- "tags": [
-  "hypokalaemia",
-  "arrhythmia"
- ],
+ "tags": ["hypokalaemia", "arrhythmia"],
  "isFree": false
 },
 {
@@ -111499,7 +111405,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "The rate of rise of sodium, keeping it to about 8 mmol/L in 24 hours"
+   "text": "The serum potassium, aiming to keep it above 5 mmol/L"
   },
   {
    "id": "b",
@@ -111507,23 +111413,18 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "The serum potassium, aiming to keep it above 5 mmol/L"
+   "text": "The rate of rise of sodium, keeping it to about 8 mmol/L in 24 hours"
   },
   {
    "id": "d",
    "text": "The blood glucose, aiming to keep it below 6 mmol/L"
-  }
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "CORRECT (A) — \"The rate of rise of sodium, keeping it to about 8 mmol/L in 24 hours\". Severe symptomatic hyponatraemia is treated with a small bolus of hypertonic saline, usually 3 per cent, to stop the fitting, and then the correction is deliberately slow. The danger is osmotic demyelination: if sodium is raised too fast, water shifts out of brain cells faster than the brain can adapt, and the patient can be left with permanent neurological damage. The rise is therefore limited to roughly 8 mmol/L in 24 hours, with sodium checked frequently during active correction. Option B matters for SIADH generally but does not guard against over-rapid correction. Option C is unrelated to the rate of sodium change, and a potassium above 5 mmol/L would itself be abnormal. Option D is irrelevant unless the glucose is contributing to the osmolality. Slow down even when the number looks alarming.",
+ "correctChoiceId": "c",
+ "rationale": "CORRECT (A) — \"The rate of rise of sodium, keeping it to about 8 mmol/L in 24 hours\". Severe symptomatic hyponatraemia is treated with a small bolus of hypertonic saline, usually 3 per cent, to stop the fitting, and then the correction is deliberately slow. The danger is osmotic demyelination: if sodium is raised too fast, water shifts out of brain cells faster than the brain can adapt, and the patient can be left with permanent neurological damage. The rise is therefore limited to roughly 8 mmol/L in 24 hours, with sodium checked frequently during active correction. Option B matters for SIADH generally but does not guard against over-rapid correction. Option A is unrelated to the rate of sodium change, and a potassium above 5 mmol/L would itself be abnormal. Option D is irrelevant unless the glucose is contributing to the osmolality. Slow down even when the number looks alarming.",
  "strategy": "Treat the fit with a small hypertonic bolus, then correct slowly: no more than about 8 mmol/L in 24 hours.",
  "difficulty": "hard",
- "tags": [
-  "siadh",
-  "hyponatraemia",
-  "hypertonic saline",
-  "osmotic demyelination"
- ],
+ "tags": ["siadh", "hyponatraemia", "hypertonic saline", "osmotic demyelination"],
  "isFree": false
 },
 {
@@ -111533,11 +111434,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Place a surgical mask on the client and notify the receiving area"
+   "text": "Use only gloves because tuberculosis is spread by contact"
   },
   {
    "id": "b",
-   "text": "Use only gloves because TB is contact spread"
+   "text": "Place a surgical mask on the client and notify the receiving area"
   },
   {
    "id": "c",
@@ -111545,17 +111446,14 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Use a shared nebuliser"
-  }
+   "text": "Use a shared nebuliser in the waiting area without cleaning it"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Pulmonary TB requires airborne precautions. The client wears a surgical mask during transport, staff use fit-tested respirators, and the receiving area is notified to minimise exposure.\n\nWhy the other options fail:\n• B — Pulmonary tuberculosis is spread by the airborne route, so gloves alone leave staff and other patients exposed.\n• C — An unmasked client in a crowded area exposes everyone sharing that air.\n• D — Nebulisation generates infectious aerosols and shared equipment transmits organisms between patients.",
+ "correctChoiceId": "b",
+ "rationale": "Pulmonary TB requires airborne precautions. The client wears a surgical mask during transport, staff use fit-tested respirators, and the receiving area is notified to minimise exposure.\n\nWhy the other options fail:\n• A — Pulmonary tuberculosis is spread by the airborne route, so gloves alone leave staff and other patients exposed.\n• C — An unmasked client in a crowded area exposes everyone sharing that air.\n• D — Nebulisation generates infectious aerosols and shared equipment transmits organisms between patients.",
  "strategy": "For airborne infection, mask the client for transport and use respiratory protection for staff.",
  "difficulty": "hard",
- "tags": [
-  "tuberculosis",
-  "airborne"
- ],
+ "tags": ["tuberculosis", "airborne"],
  "isFree": false
 },
 {
@@ -111565,7 +111463,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Irrigate the eyes thoroughly with water or saline"
+   "text": "Apply antibiotic eye drops and continue working"
   },
   {
    "id": "b",
@@ -111573,23 +111471,18 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Apply antibiotic eye drops and continue working"
+   "text": "Irrigate the eyes thoroughly with water or saline"
   },
   {
    "id": "d",
    "text": "Wait to see whether redness develops overnight"
-  }
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Mucous membranes are a portal for blood-borne viruses, so immediate and thorough irrigation removes inoculum. Irrigation is followed by reporting, source assessment and post-exposure prophylaxis for HIV and hepatitis B.\n\nWhy the other options fail:\n• B — Dry gauze spreads the contamination over the conjunctiva instead of removing it.\n• C — Antibiotic drops do nothing against viruses and delay the step that reduces risk.\n• D — Waiting forfeits the window in which post-exposure prophylaxis is effective.\n\nReference: Ghana STG — post-exposure prophylaxis; blood-borne viruses",
+ "correctChoiceId": "c",
+ "rationale": "Mucous membranes are a portal for blood-borne viruses, so immediate and thorough irrigation removes inoculum. Irrigation is followed by reporting, source assessment and post-exposure prophylaxis for HIV and hepatitis B.\n\nWhy the other options fail:\n• B — Dry gauze spreads the contamination over the conjunctiva instead of removing it.\n• A — Antibiotic drops do nothing against viruses and delay the step that reduces risk.\n• D — Waiting forfeits the window in which post-exposure prophylaxis is effective.\n\nReference: Ghana STG — post-exposure prophylaxis; blood-borne viruses",
  "strategy": "Splash to a mucous membrane: irrigate first, then report and assess the source.",
  "difficulty": "hard",
- "tags": [
-  "needlestick",
-  "PPE",
-  "post-exposure",
-  "infection-control"
- ],
+ "tags": ["needlestick", "PPE", "post-exposure", "infection-control"],
  "isFree": false
 },
 {
@@ -111631,11 +111524,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Stop the transfusion and give an antihistamine as prescribed"
+   "text": "Continue the transfusion and document the rash only"
   },
   {
    "id": "b",
-   "text": "Continue the transfusion and document the rash only"
+   "text": "Stop the transfusion and give an antihistamine as prescribed"
   },
   {
    "id": "c",
@@ -111644,18 +111537,13 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   {
    "id": "d",
    "text": "Restart the same unit at a faster rate to finish sooner"
-  }
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Itching and urticaria alone indicate a mild allergic reaction to plasma protein. The transfusion is stopped while an antihistamine is given; if the signs settle, the unit may usually be restarted slowly with medical agreement.\n\nWhy the other options fail:\n• B — Continuing without assessment risks progression to anaphylaxis.\n• C — Paracetamol treats fever, and fever with this picture would suggest a haemolytic reaction instead.\n• D — Increasing the rate increases the antigen load reaching the circulation.\n\nReference: Ghana STG — transfusion reactions; mild allergic reaction",
+ "correctChoiceId": "b",
+ "rationale": "Itching and urticaria alone indicate a mild allergic reaction to plasma protein. The transfusion is stopped while an antihistamine is given; if the signs settle, the unit may usually be restarted slowly with medical agreement.\n\nWhy the other options fail:\n• A — Continuing without assessment risks progression to anaphylaxis.\n• C — Paracetamol treats fever, and fever with this picture would suggest a haemolytic reaction instead.\n• D — Increasing the rate increases the antigen load reaching the circulation.\n\nReference: Ghana STG — transfusion reactions; mild allergic reaction",
  "strategy": "Separate urticaria alone from fever, loin pain or hypotension — the management differs.",
  "difficulty": "hard",
- "tags": [
-  "transfusion",
-  "allergic-reaction",
-  "urticaria",
-  "antihistamine"
- ],
+ "tags": ["transfusion", "allergic-reaction", "urticaria", "antihistamine"],
  "isFree": false
 },
 {
@@ -111665,11 +111553,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "A stable client awaiting discharge teaching"
+   "text": "A client two hours after thyroidectomy with stridor"
   },
   {
    "id": "b",
-   "text": "A client two hours after thyroidectomy with stridor"
+   "text": "A stable client awaiting discharge teaching"
   },
   {
    "id": "c",
@@ -111678,16 +111566,13 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   {
    "id": "d",
    "text": "A client awaiting a scheduled dressing change"
-  }
+  },
  ],
- "correctChoiceId": "b",
- "rationale": "Stridor after thyroidectomy suggests airway compromise from swelling or bleeding and requires rapid assessment by an experienced nurse.\n\nWhy the other options fail:\n• A — A stable client awaiting discharge teaching is predictable and can be assigned elsewhere.\n• C — A routine bed bath needs no registered-nurse judgement.\n• D — A scheduled dressing change is a planned procedure that can be shared across the team.",
+ "correctChoiceId": "a",
+ "rationale": "Stridor after thyroidectomy suggests airway compromise from swelling or bleeding and requires rapid assessment by an experienced nurse.\n\nWhy the other options fail:\n• B — A stable client awaiting discharge teaching is predictable and can be assigned elsewhere.\n• C — A routine bed bath needs no registered-nurse judgement.\n• D — A scheduled dressing change is a planned procedure that can be shared across the team.",
  "strategy": "Assign unstable, rapidly changing or high-risk clients to the most experienced appropriate nurse.",
  "difficulty": "hard",
- "tags": [
-  "acuity",
-  "assignment"
- ],
+ "tags": ["acuity", "assignment"],
  "isFree": false
 },
 {
@@ -111697,29 +111582,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Assess the client and notify the prescriber according to policy"
+   "text": "Alter the record to hide the error from the next shift"
   },
   {
    "id": "b",
-   "text": "Alter the record to hide the error"
+   "text": "Assess the client and notify the prescriber according to policy"
   },
   {
    "id": "c",
-   "text": "Wait to see whether symptoms develop"
+   "text": "Wait to see whether any symptoms develop before telling anyone"
   },
   {
    "id": "d",
-   "text": "Tell only a colleague"
-  }
+   "text": "Tell only a colleague and leave the prescriber to find out later"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "The client’s safety comes first: assess, disclose and escalate according to policy, then document factual details and complete reporting.\n\nWhy the other options fail:\n• B — Altering the record is falsification: it hides the error, removes the chance to learn from it and is a professional offence.\n• C — Waiting to see whether symptoms develop delays the assessment the client is owed.\n• D — Telling only a colleague quietly fails both disclosure to the client and the formal reporting that policy requires.",
+ "correctChoiceId": "b",
+ "rationale": "The client’s safety comes first: assess, disclose and escalate according to policy, then document factual details and complete reporting.\n\nWhy the other options fail:\n• A — Altering the record is falsification: it hides the error, removes the chance to learn from it and is a professional offence.\n• C — Waiting to see whether symptoms develop delays the assessment the client is owed.\n• D — Telling only a colleague quietly fails both disclosure to the client and the formal reporting that policy requires.",
  "strategy": "After an error, assess and protect the client before documentation or blame.",
  "difficulty": "hard",
- "tags": [
-  "medication-error",
-  "professionalism"
- ],
+ "tags": ["medication-error", "professionalism"],
  "isFree": false
 },
 {
@@ -111729,29 +111611,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Stop and verify the prescription and protocol before administration"
+   "text": "Ask the junior nurse to decide alone and document her own choice"
   },
   {
    "id": "b",
-   "text": "Allow it because urgency overrides policy"
+   "text": "Allow it because the urgency of the situation overrides the policy"
   },
   {
    "id": "c",
-   "text": "Ask the junior nurse to decide alone"
+   "text": "Stop and verify the prescription and protocol before administration"
   },
   {
    "id": "d",
-   "text": "Give potassium by IV push"
-  }
+   "text": "Give the potassium by IV push so that it reaches the heart sooner"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "IV potassium can cause fatal dysrhythmia if concentrated or infused too quickly. The prescription, dilution, route and pump rate must be verified before administration.\n\nWhy the other options fail:\n• B — Urgency never overrides the protocol for intravenous potassium; the risk of a fatal dysrhythmia is the reason the limit exists.\n• C — Leaving a junior nurse to decide alone removes the second check that makes this drug safe.\n• D — Potassium is never given by intravenous push; it can stop the heart.",
+ "correctChoiceId": "c",
+ "rationale": "IV potassium can cause fatal dysrhythmia if concentrated or infused too quickly. The prescription, dilution, route and pump rate must be verified before administration.\n\nWhy the other options fail:\n• B — Urgency never overrides the protocol for intravenous potassium; the risk of a fatal dysrhythmia is the reason the limit exists.\n• A — Leaving a junior nurse to decide alone removes the second check that makes this drug safe.\n• D — Potassium is never given by intravenous push; it can stop the heart.",
  "strategy": "Urgency does not override high-alert medication safeguards; verify before giving.",
  "difficulty": "hard",
- "tags": [
-  "potassium",
-  "high-alert"
- ],
+ "tags": ["potassium", "high-alert"],
  "isFree": false
 },
 {
@@ -111761,11 +111640,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Sitting quietly for five minutes before the reading"
+   "text": "Measuring straight after climbing the stairs"
   },
   {
    "id": "b",
-   "text": "Measuring straight after climbing the stairs"
+   "text": "Sitting quietly for five minutes before the reading"
   },
   {
    "id": "c",
@@ -111774,18 +111653,13 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   {
    "id": "d",
    "text": "Measuring over a sleeve with the arm unsupported"
-  }
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Resting quietly for five minutes before measurement removes the effect of exertion and gives a reading that reflects the resting pressure. The arm should be supported at heart level and readings repeated on separate occasions.\n\nWhy the other options fail:\n• B — Recent exertion raises the reading and leads to over-treatment.\n• C — A single reading cannot guide treatment; paired morning and evening readings over several days are needed.\n• D — Clothing and an unsupported arm both distort the measurement.\n\nReference: Ghana STG — hypertension; home blood pressure monitoring",
+ "correctChoiceId": "b",
+ "rationale": "Resting quietly for five minutes before measurement removes the effect of exertion and gives a reading that reflects the resting pressure. The arm should be supported at heart level and readings repeated on separate occasions.\n\nWhy the other options fail:\n• A — Recent exertion raises the reading and leads to over-treatment.\n• C — A single reading cannot guide treatment; paired morning and evening readings over several days are needed.\n• D — Clothing and an unsupported arm both distort the measurement.\n\nReference: Ghana STG — hypertension; home blood pressure monitoring",
  "strategy": "Home readings are only useful if posture, rest and repetition are standardised.",
  "difficulty": "hard",
- "tags": [
-  "hypertension",
-  "blood-pressure",
-  "self-monitoring",
-  "health-education"
- ],
+ "tags": ["hypertension", "blood-pressure", "self-monitoring", "health-education"],
  "isFree": false
 },
 {
@@ -111799,15 +111673,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Publicly naming adolescents who become pregnant"
+   "text": "Publicly naming adolescents who become pregnant so that others avoid it"
   },
   {
    "id": "c",
-   "text": "Teaching abstinence only and excluding questions"
+   "text": "Teaching abstinence only and refusing to answer questions about sex or contraception"
   },
   {
    "id": "d",
-   "text": "Providing information only to married adults"
+   "text": "Providing information only to married adults and to their husbands at home"
   }
  ],
  "correctChoiceId": "a",
@@ -111827,29 +111701,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Ask the client to demonstrate daily foot inspection and explain what they would report"
+   "text": "Give a long written booklet and ask the client to read it at home"
   },
   {
    "id": "b",
-   "text": "Give a long written booklet only"
+   "text": "Ask the client to demonstrate daily foot inspection and explain what they would report"
   },
   {
    "id": "c",
-   "text": "Ask “Do you understand?”"
+   "text": "Ask the client “Do you understand everything so far?” and record a yes"
   },
   {
    "id": "d",
-   "text": "Teach the family and exclude the client"
-  }
+   "text": "Teach the family instead and leave the client out of the teaching session"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Teach-back and demonstration reveal actual understanding and allow correction of technique, especially when literacy is limited.\n\nWhy the other options fail:\n• B — A long written booklet depends on the very literacy that is limited.\n• C — Asking whether the client understands invites a polite yes and tells the nurse nothing.\n• D — Teaching the family and excluding the client leaves the person who must do the foot care uninformed.",
+ "correctChoiceId": "b",
+ "rationale": "Teach-back and demonstration reveal actual understanding and allow correction of technique, especially when literacy is limited.\n\nWhy the other options fail:\n• A — A long written booklet depends on the very literacy that is limited.\n• C — Asking whether the client understands invites a polite yes and tells the nurse nothing.\n• D — Teaching the family and excluding the client leaves the person who must do the foot care uninformed.",
  "strategy": "Evaluate teaching through demonstration or teach-back, not yes/no questions.",
  "difficulty": "hard",
- "tags": [
-  "diabetes",
-  "teach-back"
- ],
+ "tags": ["diabetes", "teach-back"],
  "isFree": false
 },
 {
@@ -111863,15 +111734,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Give the next dose with food"
+   "text": "Give the next dose with food and observe for further swelling"
   },
   {
    "id": "c",
-   "text": "Reassure the client that this is harmless"
+   "text": "Reassure the client that the swelling is harmless and will settle"
   },
   {
    "id": "d",
-   "text": "Offer a salty snack"
+   "text": "Offer a salty snack and encourage fluids to settle the swelling"
   }
  ],
  "correctChoiceId": "a",
@@ -111891,7 +111762,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Massage the calf"
+   "text": "Limit ambulation until reviewed"
   },
   {
    "id": "b",
@@ -111903,17 +111774,14 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Limit ambulation until reviewed"
-  }
+   "text": "Massage the calf"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Massage may dislodge a thrombus and cause pulmonary embolism. The client needs urgent assessment and should not be manipulated or mobilised until reviewed.\n\nWhy the other options fail:\n• B — Notifying the prescriber for urgent assessment is appropriate and must not be avoided.\n• C — Comparing both legs and checking vital signs is appropriate assessment.\n• D — Limiting ambulation until reviewed is a sensible precaution, not an action to avoid.",
+ "correctChoiceId": "d",
+ "rationale": "Massage may dislodge a thrombus and cause pulmonary embolism. The client needs urgent assessment and should not be manipulated or mobilised until reviewed.\n\nWhy the other options fail:\n• B — Notifying the prescriber for urgent assessment is appropriate and must not be avoided.\n• C — Comparing both legs and checking vital signs is appropriate assessment.\n• A — Limiting ambulation until reviewed is a sensible precaution, not an action to avoid.",
  "strategy": "Suspected DVT: do not massage; assess, escalate and prevent embolisation.",
  "difficulty": "hard",
- "tags": [
-  "dvt",
-  "postoperative"
- ],
+ "tags": ["dvt", "postoperative"],
  "isFree": false
 },
 {
@@ -111923,7 +111791,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Treat reversible causes, provide orientation and use close observation"
+   "text": "Give a sedative without checking pain or oxygenation"
   },
   {
    "id": "b",
@@ -111935,17 +111803,14 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Give a sedative without checking pain or oxygenation"
-  }
+   "text": "Treat reversible causes, provide orientation and use close observation"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Acute fluctuating confusion is delirium. Pain, hypoxia, infection, urinary retention and medications should be assessed and corrected, with orientation and safety measures.\n\nWhy the other options fail:\n• B — Restraints and a dark room increase disorientation and the risk of injury, and restraints are a last resort after other measures.\n• C — Assuming dementia misses an acute, fluctuating and reversible delirium.\n• D — Sedating without checking pain or oxygenation masks the cause and can deepen the confusion.",
+ "correctChoiceId": "d",
+ "rationale": "Acute fluctuating confusion is delirium. Pain, hypoxia, infection, urinary retention and medications should be assessed and corrected, with orientation and safety measures.\n\nWhy the other options fail:\n• B — Restraints and a dark room increase disorientation and the risk of injury, and restraints are a last resort after other measures.\n• C — Assuming dementia misses an acute, fluctuating and reversible delirium.\n• A — Sedating without checking pain or oxygenation masks the cause and can deepen the confusion.",
  "strategy": "Acute fluctuating change is delirium until proven otherwise; search for causes rather than labelling dementia.",
  "difficulty": "hard",
- "tags": [
-  "delirium",
-  "older-adult"
- ],
+ "tags": ["delirium", "older-adult"],
  "isFree": false
 },
 {
@@ -111959,15 +111824,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Ask only about dietary preferences"
+   "text": "Ask only about dietary preferences and fluid intake at home"
   },
   {
    "id": "c",
-   "text": "Encourage rapid standing to build tolerance"
+   "text": "Encourage rapid standing to build up tolerance to the dizziness"
   },
   {
    "id": "d",
-   "text": "Stop every medicine without consultation"
+   "text": "Stop every medicine without consultation and review him later"
   }
  ],
  "correctChoiceId": "a",
@@ -112621,30 +112486,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Stay with her and call for urgent medical review of her conscious level"
+   "text": "Dim the lights and document the photophobia in the nursing notes"
   },
   {
    "id": "b",
-   "text": "Dim the lights and document the photophobia in the notes"
+   "text": "Give the prescribed analgesia and reassess her conscious level in one hour"
   },
   {
    "id": "c",
-   "text": "Give the prescribed analgesia and reassess in one hour"
+   "text": "Stay with her and call for urgent medical review of her conscious level"
   },
   {
    "id": "d",
-   "text": "Ask the family whether this behaviour is normal for her"
-  }
+   "text": "Ask the family whether this drowsiness is normal for her"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "A falling conscious level in a patient with a recent subarachnoid haemorrhage is the cardinal sign of rebleeding or of rising intracranial pressure, and it is a time-critical emergency. Someone stays with the patient while urgent senior review is summoned and airway, breathing, pupils and blood pressure are checked. Option B treats a new drowsiness as if it were only photophobia and delays the review. Option C leaves a deteriorating patient unobserved for an hour. Option D asks the wrong people a question that the clinical signs already answer.",
+ "correctChoiceId": "c",
+ "rationale": "A falling conscious level in a patient with a recent subarachnoid haemorrhage is the cardinal sign of rebleeding or of rising intracranial pressure, and it is a time-critical emergency. Someone stays with the patient while urgent senior review is summoned and airway, breathing, pupils and blood pressure are checked.\n\nWhy the other options fail:\n• A — Treating new drowsiness as if it were only photophobia delays the review that the change demands.\n• B — Analgesia leaves a deteriorating patient unobserved for an hour.\n• D — Asking the family a question the clinical signs already answer wastes the minutes that matter.",
  "strategy": "In a head injury or a bleed, a falling conscious level is the emergency. Escalate, do not observe.",
  "difficulty": "hard",
- "tags": [
-  "prioritisation",
-  "handover",
-  "deterioration"
- ],
+ "tags": ["prioritisation", "handover", "deterioration"],
  "isFree": false
 },
 {
@@ -112654,11 +112515,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Pulmonary oedema"
+   "text": "Pulmonary embolism"
   },
   {
    "id": "b",
-   "text": "Pulmonary embolism"
+   "text": "Pulmonary oedema"
   },
   {
    "id": "c",
@@ -112667,16 +112528,13 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   {
    "id": "d",
    "text": "Myocardial infarction"
-  }
+  },
  ],
- "correctChoiceId": "b",
- "rationale": "A venous thrombus can embolise to the lungs, producing sudden dyspnoea, pleuritic chest pain, tachycardia and anxiety. This is an emergency.\n\nWhy the other options fail:\n• A — Pulmonary oedema produces orthopnoea, crackles and pink frothy sputum, not sudden pleuritic pain in a patient with a known venous thrombus.\n• C — Pneumonia develops over hours to days with fever and productive cough, not abruptly in this context.\n• D — Myocardial infarction is possible, but the existing thrombophlebitis makes a venous embolus the far likelier first explanation.",
+ "correctChoiceId": "a",
+ "rationale": "A venous thrombus can embolise to the lungs, producing sudden dyspnoea, pleuritic chest pain, tachycardia and anxiety. This is an emergency, and oxygen and urgent escalation come first.\n\nWhy the other options fail:\n• B — Pulmonary oedema produces orthopnoea, crackles and pink frothy sputum, not sudden pleuritic pain in a patient with a known venous thrombus.\n• C — Pneumonia develops over hours to days with fever and a productive cough, not abruptly in this context.\n• D — Myocardial infarction is possible, but the existing thrombophlebitis makes a venous embolus the likelier explanation.",
  "strategy": "A sudden respiratory change in a patient with DVT is pulmonary embolism until proven otherwise.",
  "difficulty": "hard",
- "tags": [
-  "pulmonary-embolism",
-  "dvt"
- ],
+ "tags": ["pulmonary-embolism", "dvt"],
  "isFree": false
 },
 {
@@ -112686,11 +112544,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Place the stick and the affected leg down first, then bring the unaffected leg down"
+   "text": "Lead with the unaffected leg, then the stick, then the affected leg"
   },
   {
    "id": "b",
-   "text": "Lead with the unaffected leg, then the stick, then the affected leg"
+   "text": "Place the stick and the affected leg down first, then bring the unaffected leg down"
   },
   {
    "id": "c",
@@ -112698,17 +112556,14 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Bring both legs down together with the stick held in the air"
-  }
+   "text": "Bring both legs down together with the stick held clear of the step"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "The rule is up with the good, down with the bad. Going down, the stick and the weaker leg move first so that the stronger leg stays on the higher step and takes the body's weight through the descent. Option B applies the ascending rule to a descent and would force the weak leg to bear the load unaided. Option C omits the stick, which is the additional point of support. Option D removes support at the moment the centre of gravity is highest.",
+ "correctChoiceId": "b",
+ "rationale": "The rule is up with the good, down with the bad. Going down, the stick and the weaker leg move first so that the stronger leg stays on the higher step and takes the body's weight through the descent.\n\nWhy the other options fail:\n• A — This applies the ascending rule to a descent and forces the weak leg to bear the load unaided.\n• C — Leading with the weak leg alone omits the stick, which is the additional point of support.\n• D — Lifting the stick removes support at the moment the centre of gravity is highest.",
  "strategy": "Up with the good, down with the bad. The strong leg always does the lifting.",
  "difficulty": "hard",
- "tags": [
-  "stroke",
-  "mobility"
- ],
+ "tags": ["stroke", "mobility"],
  "isFree": false
 },
 {
@@ -112718,29 +112573,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Assess blood pressure"
+   "text": "Assess the blood pressure and record the neurological observations"
   },
   {
    "id": "b",
-   "text": "Assess airway and breathing"
+   "text": "Assess airway and breathing and support them as needed"
   },
   {
    "id": "c",
-   "text": "Measure urine output"
+   "text": "Measure the urine output and check the fluid balance chart"
   },
   {
    "id": "d",
-   "text": "Move the patient to a critical-care bed without assessment"
-  }
+   "text": "Move the patient to a critical-care bed before any assessment"
+  },
  ],
  "correctChoiceId": "b",
- "rationale": "An unresponsive patient may have lost airway protection. ABC assessment and support come before secondary neurological observations.\n\nWhy the other options fail:\n• A — Measuring the blood pressure is a secondary observation; nothing matters until the airway and breathing are secured.\n• C — Urine output is a late marker of perfusion and has no place in the first minute of an unresponsive patient.\n• D — Moving the patient before assessing the airway delays the only intervention that prevents death in that moment.",
+ "rationale": "An unresponsive patient may have lost airway protection, so airway and breathing are assessed and supported before any secondary neurological observation.\n\nWhy the other options fail:\n• A — Blood pressure is a secondary observation; nothing matters until the airway and breathing are secured.\n• C — Urine output is a late marker of perfusion and has no place in the first minute of an unresponsive patient.\n• D — Moving the patient before assessing the airway delays the only intervention that prevents death in that moment.",
  "strategy": "In any acute neurological collapse, assess airway and breathing first.",
  "difficulty": "hard",
- "tags": [
-  "stroke",
-  "airway"
- ],
+ "tags": ["stroke", "airway"],
  "isFree": false
 },
 {
@@ -112754,25 +112606,22 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Ischaemic"
-  },
-  {
-   "id": "c",
    "text": "Subdural haemorrhage"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Epidural haemorrhage"
-  }
+  },
+  {
+   "id": "d",
+   "text": "Ischaemic"
+  },
  ],
- "correctChoiceId": "b",
- "rationale": "Most strokes are ischaemic, caused by arterial occlusion from thrombosis or embolism; haemorrhagic strokes are less common.\n\nWhy the other options fail:\n• A — Haemorrhagic stroke accounts for roughly one in five strokes, not most of them.\n• C — A subdural haemorrhage is a type of intracranial bleeding, not the commonest stroke overall.\n• D — An epidural haemorrhage is a traumatic bleed and is rare compared with ischaemic stroke.",
+ "correctChoiceId": "d",
+ "rationale": "Most strokes are ischaemic, caused by arterial occlusion from thrombosis or embolism; haemorrhagic strokes are less common.\n\nWhy the other options fail:\n• A — Haemorrhagic stroke accounts for roughly one in five strokes, not most of them.\n• B — A subdural haemorrhage is a type of intracranial bleeding, not the commonest stroke overall.\n• C — An epidural haemorrhage is a traumatic bleed and is rare compared with ischaemic stroke.",
  "strategy": "Distinguish the common occlusive stroke from bleeding stroke.",
  "difficulty": "hard",
- "tags": [
-  "stroke",
-  "ischaemia"
- ],
+ "tags": ["stroke", "ischaemia"],
  "isFree": false
 },
 {
@@ -112782,7 +112631,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Diabetes"
+   "text": "Diabetes mellitus"
   },
   {
    "id": "b",
@@ -112795,16 +112644,13 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   {
    "id": "d",
    "text": "Renal insufficiency"
-  }
+  },
  ],
  "correctChoiceId": "c",
  "rationale": "Persistent hypertension damages cerebral vessels and is the most important modifiable stroke risk factor.\n\nWhy the other options fail:\n• A — Diabetes is an important risk factor but carries less population risk than raised blood pressure.\n• B — Heart disease contributes, particularly atrial fibrillation, but hypertension remains the dominant modifiable factor.\n• D — Renal insufficiency raises vascular risk but is not the leading modifiable cause of stroke.",
  "strategy": "When asked for the strongest modifiable stroke risk, choose hypertension.",
  "difficulty": "hard",
- "tags": [
-  "stroke",
-  "hypertension"
- ],
+ "tags": ["stroke", "hypertension"],
  "isFree": false
 },
 {
@@ -112814,29 +112660,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "The degree of recovery is hard to predict, and speech therapy started early gives the best chance"
+   "text": "Speech always returns completely within a few weeks of a stroke"
   },
   {
    "id": "b",
-   "text": "Speech always returns completely after a stroke"
+   "text": "Nothing more can be done for the speech now that the stroke has happened"
   },
   {
    "id": "c",
-   "text": "Nothing more can be done for the speech now"
+   "text": "Recovery is hard to predict, and early speech therapy gives the best chance"
   },
   {
    "id": "d",
-   "text": "Recovery is impossible once a week has passed"
-  }
+   "text": "Recovery is impossible once the first week after the stroke has passed"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Recovery of speech depends on the site and size of the lesion, the person's age and general health, and the intensity of rehabilitation, and it can continue for many months. Honest uncertainty with realistic hope is what families need, along with referral to speech and language therapy. Option B promises what cannot be guaranteed. Option C is false and would discourage engagement with therapy. Option D sets a false deadline.",
+ "correctChoiceId": "c",
+ "rationale": "Recovery of speech depends on the site and size of the lesion, the person's age and general health, and the intensity of rehabilitation, and it can continue for many months. Honest uncertainty with realistic hope is what families need, along with referral to speech and language therapy.\n\nWhy the other options fail:\n• A — Promising complete recovery cannot be guaranteed for any patient.\n• B — Saying nothing more can be done is false and would discourage engagement with therapy.\n• D — A one-week deadline is invented; recovery continues long after it.",
  "strategy": "Say what is true: it varies, therapy helps, and recovery continues for months.",
  "difficulty": "hard",
- "tags": [
-  "stroke",
-  "communication"
- ],
+ "tags": ["stroke", "communication"],
  "isFree": false
 },
 {
@@ -112846,7 +112689,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Check visual acuity and reassess later"
+   "text": "Check visual acuity at the bedside and reassess the pupil in an hour"
   },
   {
    "id": "b",
@@ -112854,21 +112697,18 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Lower the head of the bed"
+   "text": "Lower the head of the bed to improve cerebral perfusion"
   },
   {
    "id": "d",
-   "text": "Wait five minutes for spontaneous resolution"
-  }
+   "text": "Wait five minutes to see whether the pupil resolves spontaneously"
+  },
  ],
  "correctChoiceId": "b",
- "rationale": "A fixed dilated pupil may indicate raised intracranial pressure or herniation and requires immediate escalation. Lowering the head may worsen intracranial pressure.\n\nWhy the other options fail:\n• A — Checking visual acuity misses the point: a fixed dilated pupil is a neurological emergency, not a visual one.\n• C — Lowering the head of the bed can raise intracranial pressure further and worsen herniation.\n• D — Waiting is indefensible; a fixed dilated pupil signals herniation and minutes matter.",
+ "rationale": "A fixed dilated pupil may indicate raised intracranial pressure or herniation and requires immediate escalation.\n\nWhy the other options fail:\n• A — Checking visual acuity misses the point: a fixed dilated pupil is a neurological emergency, not a visual one.\n• C — Lowering the head of the bed can raise intracranial pressure further and worsen herniation.\n• D — Waiting is indefensible; a fixed dilated pupil signals herniation and minutes matter.",
  "strategy": "A new fixed pupil is an acute neurological emergency, not a routine visual finding.",
  "difficulty": "hard",
- "tags": [
-  "intracranial-pressure",
-  "neurological-observation"
- ],
+ "tags": ["intracranial-pressure", "neurological-observation"],
  "isFree": false
 },
 {
@@ -112878,29 +112718,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Atherosclerotic only"
+   "text": "Ischaemic stroke, once haemorrhage has been excluded by imaging"
   },
   {
    "id": "b",
-   "text": "Haemorrhagic"
+   "text": "Haemorrhagic stroke, once the bleeding has been controlled"
   },
   {
    "id": "c",
-   "text": "Ischaemic"
+   "text": "Atherosclerotic stroke only, whatever the imaging shows"
   },
   {
    "id": "d",
-   "text": "Occipital only"
-  }
+   "text": "Occipital stroke only, because of the visual loss"
+  },
  ],
- "correctChoiceId": "c",
- "rationale": "Thrombolysis targets an occluding clot in an eligible acute ischaemic stroke. It is contraindicated in intracranial haemorrhage.\n\nWhy the other options fail:\n• A — Thrombolysis is not restricted to atherosclerotic stroke; any eligible ischaemic stroke is considered.\n• B — Haemorrhagic stroke is the absolute contraindication, because lysis would worsen the bleeding.\n• D — Restricting treatment to occipital strokes is arbitrary; site does not determine eligibility.",
+ "correctChoiceId": "a",
+ "rationale": "Thrombolysis targets an occluding clot in an eligible acute ischaemic stroke; it is contraindicated in intracranial haemorrhage, which is why imaging comes first.\n\nWhy the other options fail:\n• B — Haemorrhagic stroke is the absolute contraindication, because lysis would worsen the bleeding.\n• C — Thrombolysis is not restricted to atherosclerotic stroke; any eligible ischaemic stroke is considered.\n• D — Restricting treatment to occipital strokes is arbitrary; site does not determine eligibility.",
  "strategy": "Always confirm stroke type and eligibility before thrombolysis.",
  "difficulty": "hard",
- "tags": [
-  "stroke",
-  "thrombolysis"
- ],
+ "tags": ["stroke", "thrombolysis"],
  "isFree": false
 },
 {
@@ -112910,29 +112747,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Clostridioides difficile"
-  },
-  {
-   "id": "b",
    "text": "Haemophilus influenzae"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Neisseria meningitidis"
   },
   {
-   "id": "d",
+   "id": "c",
    "text": "Streptococcus pneumoniae"
-  }
+  },
+  {
+   "id": "d",
+   "text": "Clostridioides difficile"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "C. difficile primarily causes antibiotic-associated colitis; the other organisms are recognised bacterial causes of meningitis.\n\nWhy the other options fail:\n• B — Haemophilus influenzae is a classic cause in unvaccinated children and is a recognised pathogen.\n• C — Neisseria meningitidis is the organism behind meningococcal meningitis and outbreaks.\n• D — Streptococcus pneumoniae is the commonest cause of bacterial meningitis in adults.",
+ "correctChoiceId": "d",
+ "rationale": "The question asks which organism is not a recognised cause, and C. difficile is the one that does not belong: it causes antibiotic-associated colitis, while the other three are recognised bacterial causes of meningitis.\n\nWhy the other options fail:\n• A — Haemophilus influenzae is a classic cause in unvaccinated children and is a recognised pathogen.\n• B — Neisseria meningitidis is the organism behind meningococcal meningitis and outbreaks.\n• C — Streptococcus pneumoniae is the commonest cause of bacterial meningitis in adults.",
  "strategy": "Separate common meningitis pathogens from organisms associated with gastrointestinal disease.",
  "difficulty": "hard",
- "tags": [
-  "meningitis",
-  "infection"
- ],
+ "tags": ["meningitis", "infection"],
  "isFree": false
 },
 {
@@ -112942,11 +112776,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "A single room with droplet precautions until at least 24 hours of effective antibiotics have been given"
+   "text": "A single room with droplet precautions until 24 hours of effective antibiotics are given"
   },
   {
    "id": "b",
-   "text": "An open bay with other adults of the same sex"
+   "text": "An open bay with other adults of the same sex and no additional precautions"
   },
   {
    "id": "c",
@@ -112954,17 +112788,14 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Any bed, because meningitis is not transmissible"
-  }
+   "text": "Any bed, because bacterial meningitis is not transmissible between patients"
+  },
  ],
  "correctChoiceId": "a",
- "rationale": "Bacterial meningitis spreads by respiratory droplets from the nasopharynx, so the client is placed in a single room with droplet precautions, and staff wear a surgical mask for close contact, until at least 24 hours of effective treatment have been given. Option B exposes other patients during the most infectious period. Option C puts two droplet-transmitted infections in one small space. Option D is wrong: meningococcal disease in particular can spread rapidly among close contacts.",
+ "rationale": "Bacterial meningitis spreads by respiratory droplets from the nasopharynx, so the client is placed in a single room with droplet precautions, and staff wear a surgical mask for close contact, until at least 24 hours of effective treatment have been given.\n\nWhy the other options fail:\n• B — An open bay exposes other patients during the most infectious period.\n• C — Sharing with influenza puts two droplet-transmitted infections in one small space.\n• D — Meningococcal disease in particular spreads rapidly among close contacts.",
  "strategy": "Droplet precautions for at least 24 hours of effective antibiotics. Single room.",
  "difficulty": "hard",
- "tags": [
-  "meningitis",
-  "isolation"
- ],
+ "tags": ["meningitis", "isolation"],
  "isFree": false
 },
 {
@@ -112974,28 +112805,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Escalate immediately for resuscitation and intravenous antibiotics, treating this as meningococcal sepsis"
+   "text": "Give an analgesic and reassess his headache and rash in one hour"
   },
   {
    "id": "b",
-   "text": "Give an analgesic and reassess in an hour"
+   "text": "Arrange an outpatient neurology appointment at the clinic next week"
   },
   {
    "id": "c",
-   "text": "Arrange an outpatient neurology appointment"
+   "text": "Perform a lumbar puncture first and start antibiotics once it is done"
   },
   {
    "id": "d",
-   "text": "Perform a lumbar puncture before any treatment"
-  }
+   "text": "Escalate for resuscitation and intravenous antibiotics, treating this as meningococcal sepsis"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Fever, severe headache, neck stiffness, a falling conscious level and a non-blanching purpuric rash are meningococcal sepsis with meningitis, which can kill within hours. Antibiotics must be given within minutes of arrival, so treatment comes before the lumbar puncture, and the patient needs resuscitation and droplet isolation. Option B delays a life-threatening diagnosis. Option C is not appropriate for an emergency. Option D inverts the order and delays antibiotics for a test that is contraindicated by the drowsiness anyway.",
+ "correctChoiceId": "d",
+ "rationale": "Fever, severe headache, neck stiffness, a falling conscious level and a non-blanching purpuric rash are meningococcal sepsis with meningitis, which can kill within hours. Antibiotics must be given within minutes, so treatment comes before the lumbar puncture, and the patient needs resuscitation and droplet isolation.\n\nWhy the other options fail:\n• A — Analgesia delays a life-threatening diagnosis.\n• B — An outpatient appointment is not appropriate for an emergency.\n• C — A lumbar puncture first inverts the order and delays antibiotics for a test the drowsiness already contraindicates.",
  "strategy": "Non-blanching rash plus fever plus neck stiffness equals meningococcal sepsis. Antibiotics before the LP.",
  "difficulty": "hard",
- "tags": [
-  "meningitis"
- ],
+ "tags": ["meningitis"],
  "isFree": false
 },
 {
@@ -113005,28 +112834,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Fatigable difficulty swallowing and speaking"
+   "text": "Muscle rigidity with a resting tremor and a shuffling gait"
   },
   {
    "id": "b",
-   "text": "Muscle rigidity and resting tremor"
+   "text": "Distal numbness and tingling in both hands and feet"
   },
   {
    "id": "c",
-   "text": "Distal numbness and tingling"
+   "text": "Fatigable difficulty with swallowing and speaking"
   },
   {
    "id": "d",
-   "text": "Hyperreflexia with spasticity"
-  }
+   "text": "Hyperreflexia with spasticity and a positive Babinski sign"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Myasthenia gravis causes fluctuating, fatigable skeletal-muscle weakness, commonly affecting ocular, bulbar and respiratory muscles.\n\nWhy the other options fail:\n• B — Rigidity with a resting tremor is the parkinsonian picture, not the fatigable weakness of myasthenia.\n• C — Distal numbness and tingling point to a peripheral neuropathy.\n• D — Hyperreflexia with spasticity indicates an upper motor neuron lesion, whereas myasthenia affects the neuromuscular junction.",
+ "correctChoiceId": "c",
+ "rationale": "Myasthenia gravis causes fluctuating, fatigable skeletal-muscle weakness, commonly affecting ocular, bulbar and respiratory muscles, so the weakness is worst after use and improves with rest.\n\nWhy the other options fail:\n• A — Rigidity with a resting tremor is the parkinsonian picture, not fatigable weakness.\n• B — Distal numbness and tingling point to a peripheral neuropathy.\n• D — Hyperreflexia with spasticity indicates an upper motor neuron lesion, whereas myasthenia affects the neuromuscular junction.",
  "strategy": "Fatigability distinguishes neuromuscular-junction weakness from sensory or upper-motor-neuron signs.",
  "difficulty": "hard",
- "tags": [
-  "myasthenia-gravis"
- ],
+ "tags": ["myasthenia-gravis"],
  "isFree": false
 },
 {
@@ -113040,24 +112867,22 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Only the cerebrospinal fluid outside the skull"
+   "text": "Only the cerebrospinal fluid that circulates outside the skull"
   },
   {
    "id": "c",
-   "text": "Only the spinal vertebrae"
+   "text": "Only the spinal vertebrae and the meninges that cover them"
   },
   {
    "id": "d",
-   "text": "The peripheral nerves only"
-  }
+   "text": "The peripheral nerves, which lie outside the central nervous system"
+  },
  ],
  "correctChoiceId": "a",
- "rationale": "The blood–brain barrier is formed by specialised CNS capillary endothelium and limits movement of many substances from blood into neural tissue.\n\nWhy the other options fail:\n• B — The barrier protects neural tissue; cerebrospinal fluid outside the skull is not what it shields.\n• C — The vertebrae are bone and protect mechanically, which is a different kind of protection.\n• D — Peripheral nerves lie outside the barrier and are not protected by it.",
+ "rationale": "The blood–brain barrier is formed by specialised central nervous system capillary endothelium and limits movement of many substances from blood into neural tissue.\n\nWhy the other options fail:\n• B — The barrier protects neural tissue; cerebrospinal fluid outside the skull is not what it shields.\n• C — The vertebrae are bone and protect mechanically, which is a different kind of protection.\n• D — Peripheral nerves lie outside the barrier and are not protected by it.",
  "strategy": "The barrier protects neural tissue, not the skull or peripheral nerves.",
  "difficulty": "hard",
- "tags": [
-  "neuroanatomy"
- ],
+ "tags": ["neuroanatomy"],
  "isFree": false
 },
 {
@@ -113067,29 +112892,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Prone"
+   "text": "Prone, with the face turned to one side for drainage"
   },
   {
    "id": "b",
-   "text": "Side-lying with airway maintained"
+   "text": "Side-lying, with the airway maintained and secretions allowed to drain"
   },
   {
    "id": "c",
-   "text": "Flat supine without observation"
+   "text": "Flat supine without observation, so the head is not moved"
   },
   {
    "id": "d",
-   "text": "Trendelenburg"
-  }
+   "text": "Trendelenburg, to improve perfusion of the brain"
+  },
  ],
  "correctChoiceId": "b",
- "rationale": "Side-lying helps secretions drain and reduces aspiration risk while the airway and breathing are assessed; the exact position depends on injury and airway needs.\n\nWhy the other options fail:\n• A — Prone positioning makes aspiration more likely and prevents observation of the airway.\n• C — Flat supine allows secretions and the tongue to obstruct the airway.\n• D — Trendelenburg increases intracranial pressure and does nothing for airway protection.",
+ "rationale": "Side-lying helps secretions drain and reduces aspiration risk while the airway and breathing are assessed; the exact position depends on the injury and the airway needs.\n\nWhy the other options fail:\n• A — Prone positioning makes aspiration more likely and prevents observation of the airway.\n• C — Flat supine allows secretions and the tongue to obstruct the airway.\n• D — Trendelenburg increases intracranial pressure and does nothing for airway protection.",
  "strategy": "For reduced consciousness, protect airway and allow drainage of secretions.",
  "difficulty": "hard",
- "tags": [
-  "stroke",
-  "aspiration"
- ],
+ "tags": ["stroke", "aspiration"],
  "isFree": false
 },
 {
@@ -113099,60 +112921,55 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Cranial nerve I, the olfactory nerve"
-  },
-  {
-   "id": "b",
    "text": "Cranial nerve VII, the facial nerve"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Cranial nerve IX, the glossopharyngeal nerve"
+  },
+  {
+   "id": "c",
+   "text": "Cranial nerve I, the olfactory nerve"
   },
   {
    "id": "d",
    "text": "Cranial nerve XII, the hypoglossal nerve"
-  }
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "The olfactory nerve passes through the cribriform plate of the ethmoid, so a fracture there tears the filaments and produces anosmia. Because most of what we call taste is smell, the patient reports that food has no flavour even though the tongue is intact. The nurse should test each nostril separately and monitor for cerebrospinal fluid rhinorrhoea, which would confirm a dural tear. Option B supplies the muscles of facial expression and taste to the anterior tongue. Option C carries taste from the posterior tongue and mediates the gag reflex. Option D moves the tongue.",
+ "correctChoiceId": "c",
+ "rationale": "The olfactory nerve passes through the cribriform plate of the ethmoid, so a fracture there tears the filaments and produces anosmia. Because most of what we call taste is smell, the patient reports that food has no flavour even though the tongue is intact. The nurse should test each nostril separately and watch for cerebrospinal fluid rhinorrhoea, which would confirm a dural tear.\n\nWhy the other options fail:\n• A — The facial nerve supplies the muscles of facial expression and taste to the anterior tongue.\n• B — The glossopharyngeal nerve carries taste from the posterior tongue and mediates the gag reflex.\n• D — The hypoglossal nerve moves the tongue.",
  "strategy": "The cribriform plate carries cranial nerve I. Anosmia after head injury means the plate may be fractured.",
  "difficulty": "hard",
- "tags": [
-  "cranial-nerves"
- ],
+ "tags": ["cranial-nerves"],
  "isFree": false
 },
 {
  "authoredId": "NG-NEURO-0017",
  "categorySlug": "med-surg",
- "stem": "A patient calls with heartburn radiating to the jaw. Which message should the nurse return first?",
+ "stem": "Four clients have telephoned the clinic. Which call should the nurse return first?",
  "choices": [
   {
    "id": "a",
-   "text": "A child with knee pain after basketball"
+   "text": "A child with knee pain after basketball practice"
   },
   {
    "id": "b",
-   "text": "A man with heartburn radiating to the jaw"
+   "text": "A woman with hot flushes and insomnia"
   },
   {
    "id": "c",
-   "text": "A woman with hot flashes and insomnia"
+   "text": "A pregnant woman with uncomplicated heartburn"
   },
   {
    "id": "d",
-   "text": "A pregnant woman with uncomplicated heartburn"
-  }
+   "text": "A man with heartburn radiating to the jaw"
+  },
  ],
- "correctChoiceId": "b",
- "rationale": "Jaw-radiating discomfort may be an atypical acute coronary syndrome and requires immediate assessment.\n\nWhy the other options fail:\n• A — Knee pain after sport is a soft-tissue injury that can wait, however uncomfortable.\n• C — Hot flushes and insomnia are menopausal symptoms and are not urgent.\n• D — Uncomplicated heartburn in pregnancy is common and does not need a same-day call back.",
+ "correctChoiceId": "d",
+ "rationale": "Discomfort radiating to the jaw may be an atypical acute coronary syndrome and requires immediate assessment, so this call is returned before the other three.\n\nWhy the other options fail:\n• A — Knee pain after sport is a soft-tissue injury that can wait, however uncomfortable.\n• B — Hot flushes and insomnia are menopausal symptoms and are not urgent.\n• C — Uncomplicated heartburn in pregnancy is common and does not need a same-day call back.",
  "strategy": "Treat possible cardiac equivalents as urgent even when the word “heartburn” is used.",
  "difficulty": "hard",
- "tags": [
-  "acute-coronary-syndrome",
-  "triage"
- ],
+ "tags": ["acute-coronary-syndrome", "triage"],
  "isFree": false
 },
 {
@@ -113162,29 +112979,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Sudden weakness or numbness of the face or arm"
+   "text": "Gradual fatigue that has developed over several months"
   },
   {
    "id": "b",
-   "text": "Gradual fatigue over several months"
+   "text": "A long list of chronic medications taken every day"
   },
   {
    "id": "c",
-   "text": "A chronic medication list"
+   "text": "A family history of stroke without any current symptoms"
   },
   {
    "id": "d",
-   "text": "A family history without symptoms"
-  }
+   "text": "Sudden weakness or numbness of the face or an arm"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Sudden focal neurological deficit is a classic stroke warning sign; emergency services should be activated immediately.\n\nWhy the other options fail:\n• B — Gradual fatigue over months is not a stroke warning; stroke deficits are sudden.\n• C — A medication list is information, not a symptom, and cannot indicate an emergency.\n• D — A family history without symptoms describes risk, not an event needing immediate action.",
+ "correctChoiceId": "d",
+ "rationale": "Sudden focal neurological deficit is a classic stroke warning sign, and emergency services should be activated immediately rather than waiting to see whether it resolves.\n\nWhy the other options fail:\n• A — Gradual fatigue over months is not a stroke warning; stroke deficits are sudden.\n• B — A medication list is information, not a symptom, and cannot indicate an emergency.\n• C — A family history without symptoms describes risk, not an event needing immediate action.",
  "strategy": "Remember FAST and sudden focal deficits; do not wait for symptoms to resolve.",
  "difficulty": "hard",
- "tags": [
-  "stroke",
-  "health-promotion"
- ],
+ "tags": ["stroke", "health-promotion"],
  "isFree": false
 },
 {
@@ -113194,29 +113008,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Impaired airway clearance when breathing is compromised"
+   "text": "Fluid-volume deficit, which is present in every spinal injury"
   },
   {
    "id": "b",
-   "text": "Fluid-volume deficit in every case"
+   "text": "Impaired airway clearance when breathing is compromised"
   },
   {
    "id": "c",
-   "text": "Impaired physical mobility only"
+   "text": "Impaired physical mobility, which is the first priority in all cases"
   },
   {
    "id": "d",
-   "text": "Constipation only"
-  }
+   "text": "Constipation, because ileus follows every spinal cord injury"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Spinal cord injury can impair respiratory muscle function and airway clearance, especially with cervical or high thoracic injury. ABC threats take priority over mobility planning.\n\nWhy the other options fail:\n• B — Fluid-volume deficit is not inevitable in spinal injury; it depends on the level and the haemodynamics.\n• C — Impaired mobility matters but is a later problem than a threatened airway.\n• D — Constipation is a long-term consequence and never takes priority over breathing.",
+ "correctChoiceId": "b",
+ "rationale": "Spinal cord injury can impair respiratory muscle function and airway clearance, especially with cervical or high thoracic injury, so threats to airway and breathing come before mobility planning.\n\nWhy the other options fail:\n• A — Fluid-volume deficit is not inevitable in spinal injury; it depends on the level and the haemodynamics.\n• C — Impaired mobility matters but is a later problem than a threatened airway.\n• D — Constipation is a long-term consequence and never takes priority over breathing.",
  "strategy": "Prioritise airway and breathing before neurological rehabilitation needs.",
  "difficulty": "hard",
- "tags": [
-  "spinal-cord-injury",
-  "airway"
- ],
+ "tags": ["spinal-cord-injury", "airway"],
  "isFree": false
 },
 {
@@ -113230,24 +113041,22 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Flat with hips flexed"
+   "text": "Flat on the back with the hips flexed and a pillow under the head"
   },
   {
    "id": "c",
-   "text": "Trendelenburg"
+   "text": "Trendelenburg with the whole bed tilted head-down and the feet raised"
   },
   {
    "id": "d",
-   "text": "Prone with the neck rotated"
-  }
+   "text": "Prone with the neck rotated to one side and the head unsupported"
+  },
  ],
  "correctChoiceId": "a",
- "rationale": "Head and neck alignment and appropriate head elevation can support venous drainage while urgent management of raised intracranial pressure is initiated.\n\nWhy the other options fail:\n• B — Flat with hips flexed raises intra-abdominal pressure and impedes venous drainage from the head.\n• C — Trendelenburg increases cerebral blood volume and worsens intracranial pressure.\n• D — Prone with the neck rotated obstructs venous drainage and twists the airway.",
+ "rationale": "Head and neck alignment with appropriate head elevation supports venous drainage while urgent management of raised intracranial pressure is started.\n\nWhy the other options fail:\n• B — Flat with the hips flexed raises intra-abdominal pressure and impedes venous drainage from the head.\n• C — Trendelenburg increases cerebral blood volume and worsens intracranial pressure.\n• D — Prone with the neck rotated obstructs venous drainage and twists the airway.",
  "strategy": "For suspected raised intracranial pressure, protect oxygenation and venous drainage and escalate immediately.",
  "difficulty": "hard",
- "tags": [
-  "intracranial-pressure"
- ],
+ "tags": ["intracranial-pressure"],
  "isFree": false
 },
 {
@@ -113257,29 +113066,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Encourage free water"
+   "text": "Encourage free oral water to dilute the sodium back towards normal"
   },
   {
    "id": "b",
-   "text": "Institute seizure precautions and urgently escalate for treatment of symptomatic hyponatraemia"
+   "text": "Institute seizure precautions and escalate urgently for symptomatic hyponatraemia"
   },
   {
    "id": "c",
-   "text": "Give a potassium-rich meal"
+   "text": "Give a potassium-rich meal and recheck the sodium in four hours"
   },
   {
    "id": "d",
-   "text": "Place the patient in a warm bath"
-  }
+   "text": "Place the patient in a warm bath to settle the seizure activity"
+  },
  ],
  "correctChoiceId": "b",
- "rationale": "Severe symptomatic hyponatraemia can cause cerebral oedema and seizures. Safety, airway support and urgent prescribed hypertonic-saline management are required; free water worsens dilution.\n\nWhy the other options fail:\n• A — Free water adds to the dilutional hyponatraemia and can precipitate or worsen the cerebral oedema that is causing the seizure.\n• C — Potassium has no bearing on a sodium of 118 mmol/L with a seizure; it is neither the cause nor the treatment.\n• D — A warm bath is unsafe for a patient who is actively seizing and does nothing for the sodium.",
+ "rationale": "Severe symptomatic hyponatraemia can cause cerebral oedema and seizures, so safety, airway support and urgent prescribed hypertonic saline are required while the cause is treated.\n\nWhy the other options fail:\n• A — Free water adds to the dilutional hyponatraemia and can worsen the cerebral oedema causing the seizure.\n• C — Potassium has no bearing on a sodium of 118 mmol/L with a seizure; it is neither the cause nor the treatment.\n• D — A warm bath is unsafe for a patient who is actively seizing and does nothing for the sodium.",
  "strategy": "When a low sodium value is accompanied by neurological symptoms, treat it as an emergency.",
  "difficulty": "hard",
- "tags": [
-  "hyponatraemia",
-  "seizure"
- ],
+ "tags": ["hyponatraemia", "seizure"],
  "isFree": false
 },
 {
@@ -113289,29 +113095,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Intravenous magnesium sulfate as prescribed"
+   "text": "Oral potassium chloride as prescribed, with a repeat level in four hours"
   },
   {
    "id": "b",
-   "text": "Oral potassium chloride"
+   "text": "Fluid restriction until the magnesium is rechecked"
   },
   {
    "id": "c",
-   "text": "Fluid restriction"
+   "text": "Intravenous magnesium sulfate as prescribed, with cardiac monitoring"
   },
   {
    "id": "d",
-   "text": "A calcium supplement by mouth"
-  }
+   "text": "An oral calcium supplement with vitamin D to shorten the QT interval"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Severe hypomagnesaemia lengthens the QT interval and predisposes to torsades de pointes, so magnesium is replaced parenterally under cardiac monitoring. Magnesium is lost with vomiting and is also low in chronic alcohol use, and it is worth remembering that hypokalaemia and hypocalcaemia often will not correct until the magnesium is replaced.",
+ "correctChoiceId": "c",
+ "rationale": "Severe hypomagnesaemia lengthens the QT interval and predisposes to torsades de pointes, so magnesium is replaced parenterally under cardiac monitoring. Magnesium is lost with vomiting and is also low in chronic alcohol use, and hypokalaemia and hypocalcaemia often will not correct until the magnesium is replaced.\n\nWhy the other options fail:\n• A — Oral potassium does nothing for a magnesium of 0.4 mmol/L, and the potassium will not stay corrected until magnesium is replaced.\n• B — Fluid restriction has no effect on magnesium and delays the treatment the QT interval needs.\n• D — Calcium does not shorten the QT interval while the magnesium remains low.",
  "strategy": "Severe hypomagnesaemia lengthens the QT and causes torsades: give magnesium, and fix potassium only after it.",
  "difficulty": "hard",
- "tags": [
-  "hyperkalaemia",
-  "ecg"
- ],
+ "tags": ["hyperkalaemia", "ecg"],
  "isFree": false
 },
 {
@@ -113321,29 +113124,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Fluid has been sequestered into the bowel lumen and peritoneum, so the circulating volume is low"
+   "text": "The patient is fluid overloaded from the obstruction and needs a prescribed diuretic"
   },
   {
    "id": "b",
-   "text": "The patient is fluid overloaded and needs a diuretic"
+   "text": "Excess sodium is being retained by the kidney and is causing the oedema"
   },
   {
    "id": "c",
-   "text": "Excess sodium is causing the oedema"
+   "text": "The kidneys are failing acutely and are retaining salt and water"
   },
   {
    "id": "d",
-   "text": "The kidneys are failing and retaining fluid"
-  }
+   "text": "Fluid is sequestered in the bowel lumen and peritoneum, so circulating volume is low"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "In obstruction, fluid and electrolytes are secreted into the gut lumen and into the peritoneal cavity where they are no longer available to the circulation, which is third-spacing. The patient is oedematous and yet intravascularly dry at the same time, so urine output falls and tachycardia and postural hypotension appear. Treatment is intravenous isotonic fluid and relief of the obstruction, not a diuretic, which would worsen the intravascular deficit.",
+ "correctChoiceId": "d",
+ "rationale": "In obstruction, fluid and electrolytes are secreted into the gut lumen and the peritoneal cavity where they are no longer available to the circulation, which is third-spacing. The patient is oedematous and intravascularly dry at the same time, so urine output falls and tachycardia and postural hypotension appear. Treatment is intravenous isotonic fluid and relief of the obstruction.\n\nWhy the other options fail:\n• A — A diuretic would worsen an intravascular deficit that is already causing oliguria.\n• B — The serum sodium is normal, so retained sodium is not the explanation.\n• C — Nothing here indicates renal failure; the losses are into the gut and peritoneum.",
  "strategy": "Third-spacing: oedematous outside the vessels, empty inside them. Replace volume, do not diurese.",
  "difficulty": "hard",
- "tags": [
-  "hypokalaemia",
-  "arrhythmia"
- ],
+ "tags": ["hypokalaemia", "arrhythmia"],
  "isFree": false
 },
 {
@@ -113353,29 +113153,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Fluid restriction with close neurological monitoring"
+   "text": "Unlimited oral water to flush the retained solute"
   },
   {
    "id": "b",
-   "text": "Unlimited oral water"
+   "text": "Hypotonic intravenous fluid at a maintenance rate"
   },
   {
    "id": "c",
-   "text": "Hypotonic IV fluid"
+   "text": "Several litres of weak tea each day"
   },
   {
    "id": "d",
-   "text": "Several litres of tea daily"
-  }
+   "text": "Fluid restriction with close neurological monitoring"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "SIADH causes inappropriate water retention and dilutional hyponatraemia. Fluid restriction limits worsening cerebral symptoms while the cause is treated.\n\nWhy the other options fail:\n• B — Unlimited water is what produced the dilutional hyponatraemia in the first place and would deepen it.\n• C — Hypotonic intravenous fluid lowers serum osmolality further and worsens the cerebral symptoms.\n• D — Several litres of tea is the same as unlimited water: it adds free water and dilutes the sodium further.",
+ "correctChoiceId": "d",
+ "rationale": "SIADH causes inappropriate water retention and dilutional hyponatraemia. Fluid restriction limits the worsening of cerebral symptoms while the underlying cause is treated.\n\nWhy the other options fail:\n• A — Unlimited water is what produced the dilutional hyponatraemia and would deepen it.\n• B — Hypotonic fluid lowers serum osmolality further and worsens the cerebral symptoms.\n• C — Several litres of tea is unlimited water under another name; it dilutes the sodium further.",
  "strategy": "Low serum osmolality plus inappropriately concentrated urine suggests excess ADH and a need to restrict water.",
  "difficulty": "hard",
- "tags": [
-  "siadh",
-  "osmolality"
- ],
+ "tags": ["siadh", "osmolality"],
  "isFree": false
 },
 {
@@ -113385,29 +113182,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Metabolic acidosis"
+   "text": "Metabolic acidosis from bicarbonate loss"
   },
   {
    "id": "b",
-   "text": "Metabolic alkalosis"
+   "text": "Respiratory acidosis from underventilation"
   },
   {
    "id": "c",
-   "text": "Respiratory acidosis"
+   "text": "Metabolic alkalosis from loss of gastric acid"
   },
   {
    "id": "d",
-   "text": "Respiratory alkalosis"
-  }
+   "text": "Respiratory alkalosis from hyperventilation"
+  },
  ],
- "correctChoiceId": "b",
- "rationale": "Gastric suction removes hydrochloric acid and chloride, predisposing to metabolic alkalosis, often with hypokalaemia.\n\nWhy the other options fail:\n• A — Metabolic acidosis would follow loss of bicarbonate from the lower gut or a diarrhoeal illness, not suction of gastric acid.\n• C — Respiratory acidosis comes from inadequate ventilation, not from what is removed through a nasogastric tube.\n• D — Respiratory alkalosis follows hyperventilation; suction does not change the respiratory rate.",
+ "correctChoiceId": "c",
+ "rationale": "Gastric suction removes hydrochloric acid and chloride, predisposing to metabolic alkalosis, often with hypokalaemia as potassium is lost in the same fluid.\n\nWhy the other options fail:\n• A — Metabolic acidosis follows loss of bicarbonate from the lower gut or a diarrhoeal illness, not suction of gastric acid.\n• B — Respiratory acidosis comes from inadequate ventilation, not from what is removed through a nasogastric tube.\n• D — Respiratory alkalosis follows hyperventilation; suction does not change the respiratory rate.",
  "strategy": "Loss of gastric acid produces alkalosis; loss of intestinal bicarbonate produces acidosis.",
  "difficulty": "hard",
- "tags": [
-  "acid-base",
-  "ng-suction"
- ],
+ "tags": ["acid-base", "ng-suction"],
  "isFree": false
 },
 {
@@ -113417,29 +113211,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Compensated metabolic acidosis"
-  },
-  {
-   "id": "b",
    "text": "Compensated respiratory alkalosis"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Uncompensated metabolic alkalosis"
+  },
+  {
+   "id": "c",
+   "text": "Compensated metabolic acidosis"
   },
   {
    "id": "d",
    "text": "Uncompensated respiratory acidosis"
-  }
+  },
  ],
- "correctChoiceId": "b",
- "rationale": "The low PaCO2 indicates respiratory alkalosis and the low bicarbonate indicates renal compensation. The pH is at the alkaline edge of normal.\n\nWhy the other options fail:\n• A — The pH is on the alkaline side, so the primary process cannot be acidosis.\n• C — An uncompensated metabolic alkalosis would show a high bicarbonate with a rising, not a falling, carbon dioxide.\n• D — A respiratory acidosis would show a raised carbon dioxide with an acid pH, which is the opposite of these values.",
+ "correctChoiceId": "a",
+ "rationale": "The low PaCO2 indicates respiratory alkalosis and the low bicarbonate indicates renal compensation; the pH of 7.45 sits at the alkaline edge of normal, which is what full compensation looks like.\n\nWhy the other options fail:\n• C — The pH is on the alkaline side, so the primary process cannot be acidosis.\n• B — Uncompensated metabolic alkalosis would show a high bicarbonate with a rising, not a falling, carbon dioxide.\n• D — Respiratory acidosis would show a raised carbon dioxide with an acid pH, the opposite of these values.",
  "strategy": "Identify the primary direction from pH and PaCO2, then look for compensatory bicarbonate change.",
  "difficulty": "hard",
- "tags": [
-  "abg",
-  "respiratory-alkalosis"
- ],
+ "tags": ["abg", "respiratory-alkalosis"],
  "isFree": false
 },
 {
@@ -113449,29 +113240,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "The blood is acidotic"
+   "text": "The blood is acidotic and needs bicarbonate"
   },
   {
    "id": "b",
-   "text": "The patient is probably hyperventilating and has respiratory alkalosis"
+   "text": "The patient is fluid overloaded and needs a diuretic"
   },
   {
    "id": "c",
-   "text": "The patient is fluid overloaded"
+   "text": "The patient has respiratory acidosis from fatigue"
   },
   {
    "id": "d",
-   "text": "The patient has respiratory acidosis"
-  }
+   "text": "The patient has respiratory alkalosis from hyperventilation"
+  },
  ],
- "correctChoiceId": "b",
- "rationale": "An elevated pH with low PaCO2 indicates respiratory alkalosis from excessive ventilation. The patient still requires assessment for hypoxia and other causes.\n\nWhy the other options fail:\n• A — A pH of 7.53 is alkaline, not acidotic; the direction of the pH has to be read first.\n• C — Fluid overload is a clinical finding and does not follow from a blood gas; nothing in these values indicates volume excess.\n• D — Respiratory acidosis produces a low pH with a high carbon dioxide, which is the reverse of this picture.",
+ "correctChoiceId": "d",
+ "rationale": "An elevated pH with a low PaCO2 indicates respiratory alkalosis from excessive ventilation. The patient still requires assessment for hypoxia and other causes before the symptoms are attributed to anxiety.\n\nWhy the other options fail:\n• A — A pH of 7.53 is alkaline, not acidotic; the direction of the pH has to be read first.\n• B — Fluid overload is a clinical finding and does not follow from a blood gas.\n• C — Respiratory acidosis produces a low pH with a high carbon dioxide, the reverse of this picture.",
  "strategy": "A high pH plus low CO2 is respiratory alkalosis; do not dismiss symptoms as anxiety until dangerous causes are excluded.",
  "difficulty": "hard",
- "tags": [
-  "abg",
-  "hyperventilation"
- ],
+ "tags": ["abg", "hyperventilation"],
  "isFree": false
 },
 {
@@ -113481,11 +113269,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Respiratory acidosis"
+   "text": "Respiratory alkalosis"
   },
   {
    "id": "b",
-   "text": "Respiratory alkalosis"
+   "text": "Respiratory acidosis"
   },
   {
    "id": "c",
@@ -113494,16 +113282,13 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   {
    "id": "d",
    "text": "Metabolic alkalosis"
-  }
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "The low pH shows acidemia and the raised PaCO2 identifies a respiratory cause, consistent with inadequate ventilation.\n\nWhy the other options fail:\n• B — A respiratory alkalosis would show a high pH with a low carbon dioxide.\n• C — A metabolic acidosis would show a low bicarbonate, which is not given here, and the raised carbon dioxide identifies this as respiratory.\n• D — A metabolic alkalosis would show a high pH with a high bicarbonate.",
+ "correctChoiceId": "b",
+ "rationale": "The low pH shows acidaemia and the raised PaCO2 identifies a respiratory cause, consistent with the hypoventilation described in the stem.\n\nWhy the other options fail:\n• A — Respiratory alkalosis would show a high pH with a low carbon dioxide.\n• C — Metabolic acidosis would show a low bicarbonate, which is not given, and a raised carbon dioxide identifies this as respiratory.\n• D — Metabolic alkalosis would show a high pH with a high bicarbonate.",
  "strategy": "For respiratory disorders, pH and PaCO2 move in opposite directions.",
  "difficulty": "hard",
- "tags": [
-  "abg",
-  "respiratory-acidosis"
- ],
+ "tags": ["abg", "respiratory-acidosis"],
  "isFree": false
 },
 {
@@ -113513,29 +113298,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Potassium 3.0 mEq/L"
-  },
-  {
-   "id": "b",
    "text": "Sodium 145 mEq/L"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Magnesium 1.8 mg/dL"
+  },
+  {
+   "id": "c",
+   "text": "Potassium 3.0 mEq/L"
   },
   {
    "id": "d",
    "text": "Phosphate 3.0 mg/dL"
-  }
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Alkalosis drives potassium into cells and may contribute to hypokalaemia; severe alkalosis also lowers ionised calcium.\n\nWhy the other options fail:\n• B — A sodium of 145 mEq/L is at the upper end of normal and is not the characteristic electrolyte shift of alkalosis.\n• C — A magnesium of 1.8 mg/dL is within the normal range and does not follow from alkalosis in the same way potassium does.\n• D — Phosphate is not the electrolyte that shifts into cells with alkalosis; potassium is.",
+ "correctChoiceId": "c",
+ "rationale": "Alkalosis drives potassium into cells and may contribute to hypokalaemia; severe alkalosis also lowers ionised calcium.\n\nWhy the other options fail:\n• A — A sodium of 145 mEq/L is at the upper end of normal and is not the characteristic shift of alkalosis.\n• B — A magnesium of 1.8 mg/dL is within the normal range and does not follow from alkalosis the way potassium does.\n• D — Phosphate is not the electrolyte that shifts into cells with alkalosis; potassium is.",
  "strategy": "Respiratory alkalosis can produce intracellular potassium shift and neuromuscular symptoms.",
  "difficulty": "hard",
- "tags": [
-  "abg",
-  "hypokalaemia"
- ],
+ "tags": ["abg", "hypokalaemia"],
  "isFree": false
 },
 {
@@ -113557,17 +113339,14 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Metabolic alkalosis from analgesics"
-  }
+   "text": "Metabolic alkalosis from analgesia"
+  },
  ],
  "correctChoiceId": "a",
- "rationale": "Pain-limited ventilation causes carbon dioxide retention and respiratory acidosis. Analgesia and respiratory support are needed.\n\nWhy the other options fail:\n• B — Hyperventilation would blow off carbon dioxide and produce a respiratory alkalosis, but pain is making this patient breathe shallowly, not excessively.\n• C — Calcium loss does not produce a metabolic acidosis of this kind, and the history points to ventilation.\n• D — Analgesics do not cause a metabolic alkalosis; the problem here is under-ventilation from pain.",
+ "rationale": "Pain-limited ventilation causes carbon dioxide retention and respiratory acidosis; analgesia and respiratory support are what the patient needs.\n\nWhy the other options fail:\n• B — Hyperventilation would blow off carbon dioxide, but pain is making this patient breathe shallowly, not excessively.\n• C — Calcium loss does not produce a metabolic acidosis of this kind, and the history points to ventilation.\n• D — Analgesics do not cause metabolic alkalosis; the problem here is under-ventilation from pain.",
  "strategy": "Hypoventilation retains CO2; assess ventilation rather than attributing the problem to the fracture itself.",
  "difficulty": "hard",
- "tags": [
-  "rib-fracture",
-  "abg"
- ],
+ "tags": ["rib-fracture", "abg"],
  "isFree": false
 },
 {
@@ -113577,29 +113356,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Weight loss and poor skin turgor"
+   "text": "Crackles at both bases with a raised blood pressure"
   },
   {
    "id": "b",
-   "text": "Crackles and raised blood pressure"
+   "text": "A decreased haematocrit with a high urine output"
   },
   {
    "id": "c",
-   "text": "Decreased haematocrit and increased urine output"
+   "text": "A raised central venous pressure"
   },
   {
    "id": "d",
-   "text": "Increased central venous pressure"
-  }
+   "text": "Weight loss with poor skin turgor"
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Weight loss and poor skin turgor indicate loss of intravascular and interstitial fluid. The patient needs assessment for over-diuresis and perfusion.\n\nWhy the other options fail:\n• B — Crackles with a raised blood pressure describe volume excess, not the deficit this patient has developed.\n• C — A decreased haematocrit points away from a deficit, which concentrates the blood, and a high urine output argues against hypovolaemia.\n• D — A raised central venous pressure indicates a full circulation, the opposite of a fluid-volume deficit.",
+ "correctChoiceId": "d",
+ "rationale": "Weight loss and poor skin turgor indicate loss of intravascular and interstitial fluid, and in a patient on diuretics they suggest over-diuresis, so perfusion and the electrolyte results need review.\n\nWhy the other options fail:\n• A — Crackles with a raised blood pressure describe volume excess, not the deficit this patient has developed.\n• B — A falling haematocrit points away from a deficit, which concentrates the blood, and a high urine output argues against hypovolaemia.\n• C — A raised central venous pressure indicates a full circulation, the opposite of a deficit.",
  "strategy": "Daily weight is a sensitive indicator of fluid change; combine it with perfusion findings.",
  "difficulty": "hard",
- "tags": [
-  "fluid-deficit",
-  "diuretics"
- ],
+ "tags": ["fluid-deficit", "diuretics"],
  "isFree": false
 },
 {
@@ -113609,29 +113385,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "A patient taking diuretics with tenting skin"
+   "text": "A patient with diabetic chronic kidney disease"
   },
   {
    "id": "b",
-   "text": "A patient with a new ileostomy"
+   "text": "A patient taking diuretics with tenting skin"
   },
   {
    "id": "c",
-   "text": "A patient requiring intermittent gastric suction"
+   "text": "A patient with a new ileostomy"
   },
   {
    "id": "d",
-   "text": "A patient with diabetic chronic kidney disease"
-  }
+   "text": "A patient requiring intermittent gastric suction"
+  },
  ],
- "correctChoiceId": "d",
- "rationale": "Reduced renal excretion prevents adequate removal of sodium and water, placing a patient with chronic kidney disease at risk for fluid excess.\n\nWhy the other options fail:\n• A — A patient on diuretics with tenting skin is losing fluid, so this is a deficit risk rather than an excess risk.\n• B — A new ileostomy loses fluid and electrolytes, which places the patient at risk of deficit.\n• C — Intermittent gastric suction also removes fluid, so the risk is deficit rather than excess.",
+ "correctChoiceId": "a",
+ "rationale": "Reduced renal excretion prevents adequate removal of sodium and water, which places a patient with chronic kidney disease at risk of fluid-volume excess.\n\nWhy the other options fail:\n• B — Diuretics with tenting skin describe fluid loss, so the risk is deficit rather than excess.\n• C — A new ileostomy loses fluid and electrolytes, which places the patient at risk of deficit.\n• D — Intermittent gastric suction also removes fluid, so the risk there is deficit.",
  "strategy": "For overload, think impaired renal excretion, heart failure or excessive replacement.",
  "difficulty": "hard",
- "tags": [
-  "fluid-overload",
-  "kidney-disease"
- ],
+ "tags": ["fluid-overload", "kidney-disease"],
  "isFree": false
 },
 {
@@ -113641,7 +113414,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Sustained tissue injury alone"
+   "text": "Sustained tissue injury with muscle breakdown"
   },
   {
    "id": "b",
@@ -113649,21 +113422,18 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Addison disease"
+   "text": "Addison disease with aldosterone deficiency"
   },
   {
    "id": "d",
-   "text": "A high uric-acid level"
-  }
+   "text": "A persistently high uric-acid level"
+  },
  ],
  "correctChoiceId": "b",
- "rationale": "Gastric suction causes loss of acid and potassium and can contribute to hypokalaemia and metabolic alkalosis. Addison disease more often causes hyperkalaemia.\n\nWhy the other options fail:\n• A — Tissue injury releases potassium into the circulation, so it tends to raise rather than lower the level.\n• C — Addison disease is associated with hyperkalaemia, because aldosterone deficiency reduces renal potassium excretion.\n• D — Uric acid has no direct relationship to potassium balance.",
+ "rationale": "Gastric suction causes loss of acid and potassium and can contribute to hypokalaemia and metabolic alkalosis.\n\nWhy the other options fail:\n• A — Tissue injury releases potassium into the circulation, so it tends to raise rather than lower the level.\n• C — Addison disease causes hyperkalaemia, because aldosterone deficiency reduces renal potassium excretion.\n• D — Uric acid has no direct relationship to potassium balance.",
  "strategy": "Identify direct gastrointestinal losses when assessing potassium deficit.",
  "difficulty": "hard",
- "tags": [
-  "hypokalaemia",
-  "ng-suction"
- ],
+ "tags": ["hypokalaemia", "ng-suction"],
  "isFree": false
 },
 {
@@ -113673,29 +113443,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Muscle twitching"
+   "text": "Muscle twitching and tingling around the mouth"
   },
   {
    "id": "b",
-   "text": "Hypoactive bowel sounds"
+   "text": "Hypoactive bowel sounds and abdominal distension"
   },
   {
    "id": "c",
-   "text": "A negative Trousseau sign"
+   "text": "A negative Trousseau sign on cuff inflation"
   },
   {
    "id": "d",
-   "text": "Reduced deep-tendon reflexes"
-  }
+   "text": "Reduced deep-tendon reflexes at the knee"
+  },
  ],
  "correctChoiceId": "a",
  "rationale": "Hypocalcaemia increases neuromuscular excitability, causing twitching, tingling, tetany and potentially positive Trousseau or Chvostek signs.\n\nWhy the other options fail:\n• B — Hypocalcaemia increases neuromuscular excitability, so bowel sounds become hyperactive rather than hypoactive.\n• C — Trousseau's sign becomes positive in hypocalcaemia, not negative.\n• D — Deep-tendon reflexes become exaggerated rather than reduced when calcium is low.",
  "strategy": "Low calcium makes nerves and muscles more excitable, not less.",
  "difficulty": "hard",
- "tags": [
-  "hypocalcaemia",
-  "calcium"
- ],
+ "tags": ["hypocalcaemia", "calcium"],
  "isFree": false
 },
 {
@@ -113705,11 +113472,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Malnutrition"
+   "text": "Renal insufficiency"
   },
   {
    "id": "b",
-   "text": "Renal insufficiency"
+   "text": "Malnutrition"
   },
   {
    "id": "c",
@@ -113718,16 +113485,13 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   {
    "id": "d",
    "text": "Tumour lysis syndrome"
-  }
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Malnutrition can cause phosphate depletion; renal insufficiency, hypoparathyroidism and tumour lysis more commonly raise phosphate.\n\nWhy the other options fail:\n• B — Renal insufficiency reduces phosphate excretion and usually raises the level, rather than lowering it.\n• C — Hypoparathyroidism raises phosphate, because parathyroid hormone normally promotes its excretion.\n• D — Tumour lysis releases intracellular phosphate into the blood and causes hyperphosphataemia.",
+ "correctChoiceId": "b",
+ "rationale": "A phosphate of 1.8 mg/dL is below the normal range, and malnutrition can cause phosphate depletion through poor intake and refeeding; the other three conditions listed raise phosphate.\n\nWhy the other options fail:\n• A — Renal insufficiency reduces phosphate excretion and usually raises the level rather than lowering it.\n• C — Hypoparathyroidism raises phosphate, because parathyroid hormone normally promotes its excretion.\n• D — Tumour lysis releases intracellular phosphate into the blood and causes hyperphosphataemia.",
  "strategy": "Use renal handling: impaired excretion raises phosphate; poor intake or intracellular shifts lower it.",
  "difficulty": "hard",
- "tags": [
-  "hypophosphataemia",
-  "nutrition"
- ],
+ "tags": ["hypophosphataemia", "nutrition"],
  "isFree": false
 },
 {
@@ -113737,29 +113501,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Discourage smoking only"
+   "text": "Discourage smoking and offer nicotine replacement"
   },
   {
    "id": "b",
-   "text": "Protect bony prominences"
+   "text": "Protect bony prominences with a pressure-relieving mattress"
   },
   {
    "id": "c",
-   "text": "Measure daily weight and monitor intake and output"
+   "text": "Encourage extra salt with meals to maintain the sodium level"
   },
   {
    "id": "d",
-   "text": "Encourage extra salt"
-  }
+   "text": "Measure daily weight and monitor intake and output"
+  },
  ],
- "correctChoiceId": "c",
- "rationale": "Daily weight and intake/output monitoring detect small fluid changes early; sodium excess worsens retention.\n\nWhy the other options fail:\n• A — Smoking cessation is valuable for many reasons but has no direct effect on fluid balance.\n• B — Skin care at pressure points does not influence fluid accumulation.\n• D — Extra salt increases sodium retention and would promote the very fluid excess you are trying to prevent.",
+ "correctChoiceId": "d",
+ "rationale": "Daily weight and intake/output monitoring detect small fluid changes early, and sodium excess worsens retention, so both are part of preventing overload.\n\nWhy the other options fail:\n• A — Smoking cessation is valuable for many reasons but has no direct effect on fluid balance.\n• B — Skin care at pressure points does not influence fluid accumulation.\n• C — Extra salt increases sodium retention and would promote the very fluid excess you are trying to prevent.",
  "strategy": "Fluid status is followed through trends, especially daily weight and balance.",
  "difficulty": "hard",
- "tags": [
-  "fluid-overload",
-  "monitoring"
- ],
+ "tags": ["fluid-overload", "monitoring"],
  "isFree": false
 },
 {
@@ -113782,16 +113543,13 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   {
    "id": "d",
    "text": "Respiratory alkalosis"
-  }
+  },
  ],
  "correctChoiceId": "c",
  "rationale": "Vomiting removes hydrochloric acid, leaving a relative excess of bicarbonate and causing metabolic alkalosis.\n\nWhy the other options fail:\n• A — Acidosis would follow loss of bicarbonate-rich fluid, such as diarrhoea or pancreatic drainage, not loss of acid.\n• B — Interstitial respiratory acidosis is not a recognised description, and the respiratory system is not the cause here.\n• D — Respiratory alkalosis follows hyperventilation and does not follow vomiting.",
  "strategy": "Loss of acid raises pH; loss of bicarbonate lowers pH.",
  "difficulty": "hard",
- "tags": [
-  "vomiting",
-  "metabolic-alkalosis"
- ],
+ "tags": ["vomiting", "metabolic-alkalosis"],
  "isFree": false
 },
 {
@@ -113801,28 +113559,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Increased sweating"
+   "text": "Increased sweating with cool, clammy skin and a thready pulse"
   },
   {
    "id": "b",
-   "text": "Muscle weakness and potentially life-threatening dysrhythmias"
+   "text": "Muscle weakness with potentially life-threatening dysrhythmias"
   },
   {
    "id": "c",
-   "text": "Sunken eyes"
+   "text": "Sunken eyes with dry mucous membranes and a low urine output"
   },
   {
    "id": "d",
-   "text": "Isolated muscle spasm"
-  }
+   "text": "Isolated muscle spasm of the hand and foot when the cuff is inflated"
+  },
  ],
  "correctChoiceId": "b",
- "rationale": "Hyperkalaemia affects neuromuscular conduction and cardiac repolarisation, causing weakness, ECG changes and dysrhythmias.\n\nWhy the other options fail:\n• A — Sweating is not a feature of hyperkalaemia and would affect sodium and water loss rather than potassium.\n• C — Sunken eyes indicate dehydration, not a potassium disturbance.\n• D — Isolated muscle spasm is more typical of hypocalcaemia; hyperkalaemia produces generalised weakness.",
+ "rationale": "Hyperkalaemia affects neuromuscular conduction and cardiac repolarisation, causing weakness, ECG changes and dysrhythmias.\n\nWhy the other options fail:\n• A — Sweating is not a feature of hyperkalaemia and would affect sodium and water loss rather than potassium.\n• C — Sunken eyes indicate dehydration, not a potassium disturbance.\n• D — Isolated spasm is more typical of hypocalcaemia; hyperkalaemia produces generalised weakness.",
  "strategy": "Think muscle weakness and cardiac conduction abnormalities for high potassium.",
  "difficulty": "hard",
- "tags": [
-  "hyperkalaemia"
- ],
+ "tags": ["hyperkalaemia"],
  "isFree": false
 },
 {
@@ -113832,29 +113588,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Lymphoedema from impaired lymphatic drainage"
-  },
-  {
-   "id": "b",
    "text": "Cardiogenic oedema from raised hydrostatic pressure"
   },
   {
-   "id": "c",
+   "id": "b",
    "text": "Oedema from low plasma oncotic pressure"
+  },
+  {
+   "id": "c",
+   "text": "Lymphoedema from impaired lymphatic drainage"
   },
   {
    "id": "d",
    "text": "Oedema from increased capillary permeability in sepsis"
-  }
+  },
  ],
- "correctChoiceId": "a",
- "rationale": "Removing axillary nodes interrupts lymphatic drainage, so protein-rich fluid accumulates in the arm and organizes into firm, non-pitting swelling. It is managed with elevation, compression, skin care and specialist lymphoedema therapy. Option B would be bilateral and pitting and would follow cardiac failure. Option C produces generalised pitting oedema and is not confined to one limb. Option D would present with other signs of sepsis and, again, would pit.",
+ "correctChoiceId": "c",
+ "rationale": "Removing axillary nodes interrupts lymphatic drainage, so protein-rich fluid accumulates in the arm and organises into firm, non-pitting swelling. It is managed with elevation, compression, skin care and specialist lymphoedema therapy.\n\nWhy the other options fail:\n• A — Cardiogenic oedema would be bilateral and pitting and would follow cardiac failure.\n• B — Low oncotic pressure produces generalised pitting oedema and is not confined to one limb.\n• D — Increased permeability in sepsis would present with other signs of sepsis and, again, would pit.",
  "strategy": "One arm, firm, no dent, after node surgery: that is lymphoedema, not cardiac or low albumin.",
  "difficulty": "hard",
- "tags": [
-  "oedema",
-  "oncotic-pressure"
- ],
+ "tags": ["oedema", "oncotic-pressure"],
  "isFree": false
 },
 {
@@ -113864,29 +113617,26 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "20%"
+   "text": "60%"
   },
   {
    "id": "b",
-   "text": "40%"
+   "text": "20%"
   },
   {
    "id": "c",
-   "text": "60%"
+   "text": "40%"
   },
   {
    "id": "d",
    "text": "85%"
-  }
+  },
  ],
- "correctChoiceId": "c",
- "rationale": "Total body water is approximately 60% of adult body weight, with variation by age, sex and body composition.\n\nWhy the other options fail:\n• A — Twenty per cent is far below total body water; it is closer to the extracellular fluid volume than the whole.\n• B — Forty per cent is too low for total body water in an average adult and would describe lean tissue water only in some estimates.\n• D — Eighty-five per cent is well above the physiological range and would be found only in a very immature or oedematous state.",
+ "correctChoiceId": "a",
+ "rationale": "Total body water is approximately 60% of adult body weight, with variation by age, sex and body composition.\n\nWhy the other options fail:\n• B — Twenty per cent is far below total body water; it is closer to the extracellular fluid volume than the whole.\n• C — Forty per cent is too low for total body water in an average adult.\n• D — Eighty-five per cent is well above the physiological range and would be found only in a very immature or oedematous state.",
  "strategy": "Use 60% as the adult estimate, recognising that adipose tissue contains less water.",
  "difficulty": "hard",
- "tags": [
-  "body-fluid",
-  "physiology"
- ],
+ "tags": ["body-fluid", "physiology"],
  "isFree": false
 },
 {
