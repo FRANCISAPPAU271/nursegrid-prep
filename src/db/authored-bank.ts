@@ -73927,28 +73927,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2161",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A woman taking digoxin for atrial fibrillation is also on furosemide. She reports nausea and sees yellow haloes. Which laboratory result is **most** likely to explain this?",
+  "stem": "A patient in diabetic ketoacidosis is started on an insulin infusion and his potassium is being watched. Why must his phosphate be checked as well?",
   "choices": [
    {
     "id": "a",
-    "text": "A high serum sodium"
+    "text": "Because insulin raises the phosphate, and a high phosphate causes muscle weakness"
    },
    {
     "id": "b",
-    "text": "A low serum potassium"
+    "text": "Because insulin drives phosphate into the cells, and a low level weakens muscles"
    },
    {
     "id": "c",
-    "text": "A low serum albumin"
+    "text": "Because phosphate is lost in the urine only when the kidneys are failing"
    },
    {
     "id": "d",
-    "text": "A high serum bicarbonate"
+    "text": "Because phosphate falls only if he is also given intravenous bicarbonate"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"A low serum potassium\". Digoxin and potassium compete for the same binding site on the cardiac cell pump, so <strong>when potassium falls, digoxin binds more freely and a dose that was previously correct becomes toxic</strong>. Furosemide causes exactly that potassium loss. This pairing is one of the most reliably examined and most clinically dangerous drug interactions, and it explains why potassium must be monitored in anyone taking both.\n\nWhy the other options fail:\n• A — Sodium does not compete with digoxin for the binding site.\n• C — Albumin binding is not the principal determinant of digoxin toxicity.\n• D — Bicarbonate influences potassium indirectly but is not itself the mechanism.\n\nReference: Ghana Essential Medicines List",
-  "strategy": "When two drugs share a patient, ask what the first one does to the second one's safety margin.",
+  "rationale": "CORRECT (B) — \"Because insulin drives phosphate into the cells, and a low level weakens muscles\". Insulin moves glucose and phosphate into cells together, so starting treatment for ketoacidosis pulls phosphate out of the blood even though the total body store was already low from the osmotic diuresis that brought him in. A severely low phosphate produces muscle weakness, difficulty weaning from oxygen, confusion and, at its worst, respiratory failure and rhabdomyolysis. That is why the electrolytes are checked repeatedly through the first day of treatment and phosphate replaced when it falls, alongside the potassium that everyone remembers.\n\nWhy the other options fail:\n• A — Insulin lowers the plasma phosphate rather than raising it.\n• C — Phosphate is lost in the urine in the osmotic diuresis of ketoacidosis, not only in renal failure.\n• D — Bicarbonate is not the cause; the insulin is what shifts phosphate into the cells.\n\nReference: Ghana STG — diabetes and diabetic ketoacidosis; JBDS — management of diabetic ketoacidosis\n",
+  "strategy": "Insulin drives potassium and phosphate into cells together. Watch both, or the weakness that follows will be blamed on the illness.",
   "difficulty": "hard",
   "tags": [
    "fluid-electrolyte",
@@ -94846,28 +94846,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2765",
   "categorySlug": "med-surg",
-  "stem": "An adult in Ghana has burns to 30 per cent of the body surface. Using the Parkland formula at 4 mL per kilogram per per cent burn, how much fluid does a 60 kg patient need over the opening 24 hours?",
+  "stem": "A family is brought in after a generator was left running in a closed room. One patient is confused but his oxygen saturation reads 98 per cent. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "3,600 mL"
+    "text": "Accept the reading and observe him, since a saturation of 98 per cent excludes serious hypoxia"
    },
    {
     "id": "b",
-    "text": "7,200 mL"
+    "text": "Give high-flow oxygen at once, because the saturation reading cannot see carbon monoxide"
    },
    {
     "id": "c",
-    "text": "1,800 mL"
+    "text": "Give a low flow of oxygen through nasal prongs and repeat the saturation in an hour"
    },
    {
     "id": "d",
-    "text": "14,400 mL"
+    "text": "Wait for a blood gas result before starting oxygen, so that the diagnosis is not masked"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"7,200 mL\". The Parkland formula multiplies 4 mL by the body weight in kilograms by the percentage of body surface burned. Here 4 × 60 × 30 = 7,200 mL for the first 24 hours. Half of that volume, 3,600 mL, is given in the first 8 hours measured from the time of the burn rather than from arrival, and the remaining half over the following 16 hours. Sense-check: a 30 per cent burn in a 60 kg adult requiring around 7 litres in a day is consistent with the enormous plasma loss from burned tissue. The formula is a starting point, and urine output of about 0.5 mL/kg/hour guides adjustment. The principle is that burns lose fluid invisibly into the tissues.\n\nWhy the other options fail:\n• A — 3,600 mL is the volume for the first 8 hours, which is half of the 24-hour total.\n• C — 1,800 mL would result from using 1 mL per kilogram per per cent and is a serious underestimate.\n• D — 14,400 mL would result from doubling the formula and risks dangerous fluid overload.\n\nReference: Standard burns fluid resuscitation — Parkland formula",
-  "strategy": "Write the formula out, substitute, then sense-check the size of the answer against the severity of the injury.",
+  "rationale": "CORRECT (B) — \"Give high-flow oxygen at once, because the saturation reading cannot see carbon monoxide\". A standard pulse oximeter measures how much haemoglobin is carrying oxygen, but it cannot tell oxygen from carbon monoxide — carboxyhaemoglobin absorbs light in the same way, so the saturation stays reassuringly normal while the blood is poisoned. Carbon monoxide binds haemoglobin more than 200 times more tightly than oxygen does, and the brain and heart are the first to suffer. Oxygen is treatment and it is also the diagnostic test: high-flow oxygen is started immediately, and the diagnosis is confirmed by measuring carboxyhaemoglobin.\n\nWhy the other options fail:\n• A — A normal saturation is the dangerous part of this picture; it is falsely reassuring.\n• C — Low-flow oxygen through nasal prongs is nowhere near enough; the aim is to displace carbon monoxide as fast as possible.\n• D — Waiting for a result delays the only treatment that works.\n\nReference: WHO — chemical incidents; Ghana STG — poisoning; BTS — carbon monoxide poisoning\n",
+  "strategy": "A normal saturation in a smoke or generator patient means nothing. Give 100 per cent oxygen and measure carboxyhaemoglobin.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -99949,28 +99949,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLN-2914",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana with untreated hyperthyroidism develops fever of 40 degrees Celsius, a pulse of 160 and agitation after an infection. What is happening?",
+  "stem": "A patient with a phaeochromocytoma is being prepared for surgery. Which drug must be started first, and why?",
   "choices": [
    {
     "id": "a",
-    "text": "A simple febrile response to the infection needing only paracetamol"
+    "text": "A beta-blocker first, to slow the heart down before the operation begins and steady the rhythm"
    },
    {
     "id": "b",
-    "text": "Thyroid storm, a life-threatening escalation requiring emergency treatment"
+    "text": "An alpha-blocker first, so that the beta-blocker cannot leave the alpha effect unopposed"
    },
    {
     "id": "c",
-    "text": "An expected fluctuation in thyroid symptoms that will settle unaided"
+    "text": "A beta-blocker and an alpha-blocker together, since the order in which they are given does not matter"
    },
    {
     "id": "d",
-    "text": "An anxiety attack brought on by being admitted to hospital"
+    "text": "Neither drug, because the blood pressure settles by itself once the patient is anaesthetised"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Thyroid storm, a life-threatening escalation requiring emergency treatment\". Thyroid storm is an abrupt, extreme exaggeration of thyrotoxicosis, usually precipitated by infection, surgery, trauma or stopping antithyroid medication, and it carries a high mortality. Every feature is the metabolic rate driven to an extreme: hyperpyrexia, marked tachycardia or atrial fibrillation, agitation progressing to delirium and coma, vomiting and diarrhoea, and cardiovascular collapse. Treatment is urgent and combines blocking hormone synthesis and release, beta blockade for the cardiac effects, steroids, aggressive cooling and fluid replacement, and treatment of the precipitant. Recognising it as more than fever is what triggers that response. The principle is that a crisis is the underlying disorder driven past compensation.\n\nWhy the other options fail:\n• A — Attributing this to simple fever misses an emergency with high mortality.\n• C — These features far exceed ordinary fluctuation and will not resolve without treatment.\n• D — Anxiety does not produce hyperpyrexia at this level with cardiovascular collapse.\n\nReference: Standard endocrine emergency management",
-  "strategy": "When a chronic endocrine disorder suddenly becomes extreme, name the crisis and treat it as an emergency.",
+  "rationale": "CORRECT (B) — \"An alpha-blocker first, so that the beta-blocker cannot leave the alpha effect unopposed\". The tumour releases adrenaline and noradrenaline, and the vessels are clamped down by the alpha effect. Block the beta receptors first and you remove the vasodilating, heart-slowing half of the response while leaving the alpha constriction untouched — the blood pressure climbs instead of falling, and the patient can be tipped into a hypertensive crisis or pulmonary oedema. So the alpha blockade, usually phenoxybenzamine, is established for a week or two with generous fluid, and the beta-blocker is added afterwards for the tachycardia.\n\nWhy the other options fail:\n• A — A beta-blocker first causes unopposed alpha stimulation and a dangerous rise in pressure.\n• C — The order matters a great deal; simultaneous starting does not protect against the alpha surge.\n• D — Anaesthesia provokes catecholamine release, which is exactly when an unprepared patient crashes.\n\nReference: Ghana STG — endocrine surgery; Endocrine Society — phaeochromocytoma management\n",
+  "strategy": "Alpha before beta, always. Blocking beta first leaves the constriction unopposed and the pressure rises.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
