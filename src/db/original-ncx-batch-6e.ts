@@ -166,12 +166,12 @@ export const NCX6_PART_E: AuthoredQuestion[] = [
   }),
   q({
     n: 639, cat: "leadership-delegation",
-    stem: "Back at the nurses' station after rounds, the nurse finds **four phone messages**. Which caller should be phoned back **first**?",
+    stem: "A six-week-old baby's head has grown much faster than the growth chart allows, the fontanelle is tense and bulging, and his eyes seem to look downward. What is happening?",
     choices: [
-      "A woman with a right-leg cast reporting a strange funny feeling in that leg",
-      "A man with hepatitis A reporting itchy arms and legs",
-      "A woman with spinal osteomyelitis reporting nausea that stops her eating",
-      "An older man with arthritis reporting trouble sleeping at night",
+      "The pressure inside the head is raised from hydrocephalus, so he needs urgent neurosurgical review",
+      "It is a normal variation in head size, so the measurement should simply be repeated at the next visit",
+      "He is dehydrated, which pulls the eyes downward, so he needs oral rehydration solution at home",
+      "He has rickets from lack of vitamin D, so he needs a supplement and review in three months",
     ],
     correct: "a",
     explain: "<strong>A funny feeling under a cast warns of neurovascular compromise</strong> — pressure, swelling or a tightening cast can strangle nerves and blood flow within hours, so circulation checks and urgent review come before every other callback. Itching from bile salts, infection-related nausea and arthritic insomnia all need follow-up, but none threatens a limb.",
@@ -181,7 +181,7 @@ export const NCX6_PART_E: AuthoredQuestion[] = [
       d: "Arthritic insomnia matters for comfort, never first among these four.",
     },
     ref: "Ghana — cast care; neurovascular compromise recognition",
-    strategy: "Decision tree: limbs first — strange sensations under casts outrank itches, nausea and insomnia.",
+    strategy: "A head crossing the lines, a tense fontanelle and sunset eyes mean pressure, not a big head. Scan urgently.",
     tags: ["triage", "phone-messages", "cast", "neurovascular"],
   }),
   q({

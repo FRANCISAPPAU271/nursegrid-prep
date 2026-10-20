@@ -4,29 +4,29 @@ export const PROC_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-PROC-001",
     categorySlug: "safety-infection-control",
-    stem: "A nurse is caring for a client placed on droplet and contact precautions. After completing morning care, the nurse prepares to leave the isolation room. What is the correct, evidence-based sequence for removing (doffing) Personal Protective Equipment (PPE) to prevent self-contamination?",
+    stem: "A newborn boy has hypospadias and is being prepared for repair. Why must he not be circumcised before the operation?",
     choices: [
       {
         id: "a",
-        text: "Mask or respirator first, then gown, then gloves, then eye protection, with hand hygiene performed only after leaving the room",
+        text: "Because the foreskin is needed to rebuild the urethra during the repair",
       },
       {
         id: "b",
-        text: "Gown and gloves together, rolled inside out into a bundle, then eye protection and mask together at the door before hand hygiene",
+        text: "Because circumcision in a newborn always causes the urethra to close over",
       },
       {
         id: "c",
-        text: "Eye protection first while the gloves are still on, then gloves, then gown, then mask, with hand hygiene after the mask is removed",
+        text: "Because the operation cannot be done until he has reached school age",
       },
       {
         id: "d",
-        text: "Gloves first, followed by eye protection (goggles/face shield), gown, mask or respirator, and perform immediate hand hygiene",
+        text: "Because the repair needs the boy to be able to urinate standing up first",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "a",
     rationale:
-      "The outer surfaces of gloves and the front of the gown are heavily contaminated during patient care. The CDC recommended sequence for doffing PPE minimizes transmission to clean skin and mucous membranes: (1) Gloves are removed first (glove-in-glove technique) because they are the most heavily contaminated item; (2) Goggles or face shield are removed by grasping the clean headband/earpieces; (3) Gown is unfastened, peeled away from neck and shoulders, turned inside out, and rolled into a bundle; (4) Mask or respirator is removed last (touching only the clean elastic strings/ties, never the front surface) after exiting the room (or just before exiting for non-airborne precautions); and (5) Hand hygiene is performed immediately. Why the other options fail: removing the mask first (option a) feels right because the mask covers the face, but it is the last item removed in a doffing sequence because the hands must be free of contamination before they touch the straps behind the head. Option b bundles the two most contaminated items together, which means handling a soiled gown with soiled gloves and then carrying that contamination to the eye protection. Option c reverses the first two steps: removing goggles while wearing gloves transfers glove contamination directly to the face and hair.",
-    strategy: "PPE doffing order: Gloves first (most contaminated) -> Goggles/face shield -> Gown -> Mask/respirator last -> Immediate hand hygiene.",
+      "CORRECT (A) — \"Because the foreskin is needed to rebuild the urethra during the repair\". In hypospadias the urethral opening lies on the underside of the penis, somewhere between the glans and the scrotum, and the curve of the shaft plus the short urethra must be corrected. The inner layer of the foreskin is the ideal tissue for reconstructing the urethra, so removing it beforehand takes away the surgeon's best material and makes a later repair much harder. Repair is usually done between about six and eighteen months, and afterwards the urinary catheter is kept draining freely — often into a double nappy — while the dressing and the stream are watched.\n\nWhy the other options fail:\n• B — Circumcision does not close the urethra; the reason is the lost tissue.\n• C — Repair is done in infancy, not at school age.\n• D — A baby does not need to stand to pass urine; a catheter is used after surgery.\n\nReference: EAU — hypospadias; Ghana STG — paediatric surgery\n",
+    strategy: "Never circumcise a hypospadias before repair. The foreskin is the graft the surgeon is going to need.",
     difficulty: "easy",
     tags: ["procedures", "ppe", "doffing-sequence", "infection-control", "safety"],
     isFree: true,

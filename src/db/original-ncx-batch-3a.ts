@@ -26,12 +26,12 @@ export const NCX3_PART_A: AuthoredQuestion[] = [
   }),
   q({
     n: 152, cat: "fundamentals",
-    stem: "A physiotherapist and nurse teach a woman with left-sided weakness to go **down** stairs with a walking stick. Which sequence shows she has learned correctly?",
+    stem: "A 22-year-old man has a dull ache in the left scrotum that worsens at the end of the day. On examination there is a soft swelling above the testis that feels like a bag of worms and enlarges when he coughs. What is it?",
     choices: [
-      "She places the stick on the lower step, then her weak left leg, then brings her strong right leg down",
-      "She places her strong right leg on the lower step first, then the stick, then her left leg",
-      "She moves her left leg down, then her right leg, and finally the stick",
-      "She places the stick down and then leads with her strong right leg",
+      "A varicocele, a dilated vein plexus that can impair fertility over time",
+      "Testicular torsion, which needs immediate surgery to save the testis",
+      "A hydrocele, which transilluminates brilliantly when a torch is applied",
+      "Epididymitis, which presents with fever and pain on passing urine",
     ],
     correct: "a",
     explain: "The <strong>strong leg does the work</strong>: going down, the stick and weak leg go first so that the strong leg, still on the upper step, controls the descent; going up, the strong leg leads and the stick and weak leg follow. The memory aid is <strong>'up with the good, down with the bad'</strong>.",
@@ -41,7 +41,7 @@ export const NCX3_PART_A: AuthoredQuestion[] = [
       d: "Leading down with the strong leg puts the weight on the weak leg.",
     },
     ref: "Ghana STG — stroke rehabilitation; mobility-aid teaching standards",
-    strategy: "Decision tree: picture which leg must bear the weight during each step — the strong leg stays in control.",
+    strategy: "A cough-responsive, ache-in-the-evening scrotal swelling is a varicocele — not an emergency, but worth referring.",
     tags: ["mobility-aids", "stairs", "stroke-rehabilitation", "patient-teaching"],
   }),
   q({

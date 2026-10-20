@@ -217,16 +217,16 @@ export const FUND_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-FUND-012",
     categorySlug: "fundamentals",
-    stem: "A nurse has just inserted a small-bore nasogastric (NG) feeding tube in an adult client. Which method is the GOLD STANDARD to verify correct tube placement in the stomach prior to administering the first enteral feeding or medication?",
+    stem: "A patient has just been given intravenous morphine for severe pain. Why must the observations be repeated at short, set intervals rather than at the next routine round?",
     choices: [
-      { id: "a", text: "Auscultating a rushing sound over the epigastrium while injecting 30 mL of air through the tube" },
-      { id: "b", text: "Observing whether the client can speak without coughing or choking" },
-      { id: "c", text: "Placing the proximal end of the NG tube into a cup of water to check for bubbling" },
-      { id: "d", text: "Obtaining an immediate post-insertion abdominal/chest X-ray confirming tube tip location in the gastric body" }
+      { id: "a", text: "Because the blood pressure always falls sharply within five minutes of a dose of morphine" },
+      { id: "b", text: "Because sedation and slowed breathing come before the changes the routine would catch" },
+      { id: "c", text: "Because the pain score must be recorded before the drug is allowed to take full effect" },
+      { id: "d", text: "Because morphine disturbs the temperature, and a fever must be detected within the hour" }
     ],
-    correctChoiceId: "d",
-    rationale: "Radiographic (X-ray) confirmation is the absolute gold standard to confirm proper tube tip positioning in the stomach prior to initiating the first enteral feed or medication. Auscultating air insufflation ('whoosh' test) is unreliable and dangerous because air sounds transmit clearly even when the tube is misplaced in the bronchus or pleural space. Placing the tube end in water ('bubble test') can cause pulmonary aspiration if the patient inhales. Once placement is radiographically verified, ongoing bedside verification before each feed is done by aspirating gastric secretions and testing pH (gastric aspirate pH is typically <= 5.5). Why the other options fail: option a is the whoosh test, which cannot distinguish gastric from bronchial or pleural placement because air transmits through all of them. Option c is the bubble test, which proves only that the tube is patent and risks aspiration. Option b is unreliable, since a tube in the oesophagus also allows normal speech, and a tube in the airway may present with cough only intermittently.",
-    strategy: "NG Tube Placement: Initial gold standard = X-RAY. Ongoing bedside check = Gastric aspirate pH <= 5.5. The air 'whoosh' test is outdated and unsafe.",
+    "correctChoiceId": "b",
+    rationale: "CORRECT (B) — \"Because sedation and slowed breathing come before the changes the routine would catch\". Respiratory depression from an opioid begins with drowsiness and a falling respiratory rate, and by the time the oxygen saturation drops or the patient looks unwell the depression is established. The nurse therefore assesses sedation level, respiratory rate and saturation at set intervals after the dose — typically within the first half hour and then according to the early warning score — and keeps naloxone to hand. The same logic applies after sedation and on return from theatre, which is why the interval is prescribed rather than left to chance.\n\nWhy the other options fail:\n• A — The blood pressure does not always fall, and it is not the earliest or most dangerous change.\n• C — The pain score matters but is not the reason for close monitoring of breathing.\n• D — Temperature is not the concern after an opioid.\n\nReference: Ghana STG — acute pain; NICE — postoperative care\n",
+    strategy: "After morphine, watch the breathing and the sedation first. The saturation falls late, not early.",
     difficulty: "easy",
     tags: ["fundamentals", "ng-tube", "enteral-feeding", "x-ray-confirmation", "patient-safety"],
     isFree: true,

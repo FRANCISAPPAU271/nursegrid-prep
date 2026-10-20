@@ -18007,28 +18007,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SRG-0525",
   "categorySlug": "med-surg",
-  "stem": "A patient at a Ghanaian hospital has colicky pain, vomiting, distension and has passed no flatus. Why is the absence of flatus significant?",
+  "stem": "A patient having a major operation is expected to lose a lot of blood. The theatre uses cell salvage. What does that mean?",
   "choices": [
    {
     "id": "a",
-    "text": "It confirms complete obstruction, distinguishing it from partial obstruction"
+    "text": "Donor blood is ordered in advance and kept in a fridge beside the theatre"
    },
    {
     "id": "b",
-    "text": "It indicates that the patient has simply not eaten enough fibre in the diet"
+    "text": "The patient's blood pressure is lowered deliberately to reduce the bleeding"
    },
    {
     "id": "c",
-    "text": "It shows the vomiting has emptied the bowel of all of its contents"
+    "text": "Blood lost from the wound is collected, washed and given back to the patient"
    },
    {
     "id": "d",
-    "text": "It suggests the patient is dehydrated and requires more oral fluids"
+    "text": "Blood is taken from the patient two weeks before surgery and stored for the day"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"It confirms complete obstruction, distinguishing it from partial obstruction\". The four cardinal features are <strong>colicky pain, vomiting, distension and absolute constipation</strong>. Passing neither faeces nor flatus defines <strong>absolute constipation</strong>, meaning nothing is getting past the blockage — a complete obstruction, which is far more likely to strangulate and require urgent surgery. In partial obstruction, flatus continues. Management is nil by mouth, nasogastric drainage to decompress, intravenous fluids and surgical review.\n\nWhy the other options fail:\n• B — Dietary constipation does not cause vomiting and distension, and flatus continues to pass in it.\n• C — Vomiting empties the stomach, not the bowel distal to an obstruction. Gas would still pass if the lumen were open.\n• D — Dehydration accompanies obstruction from vomiting and fluid sequestration, but oral fluids are contraindicated here.\n\nReference: Ghana nursing curriculum — intestinal obstruction",
-  "strategy": "Learn the four cardinal features of obstruction, and note that absolute constipation is the one that grades it as complete.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Blood lost from the wound is collected, washed and given back to the patient\". The suction apparatus is connected to a collecting reservoir, the red cells are washed and concentrated, and they are returned to the patient through a filter, so the patient receives his own blood rather than a donor's. That reduces exposure to donor blood and its risks and eases pressure on a scarce blood supply. It is not used when the field is heavily contaminated with bowel contents or infection, and it does not remove the need for careful cross-matching and consent, but it is a real saving where the loss is expected to be large.\n\nWhy the other options fail:\n• A — That is cross-matched donor blood, not salvage.\n• B — That is controlled hypotension, a different technique.\n• D — That is preoperative autologous donation, which is done weeks before, not during the operation.\n\nReference: AABB — perioperative blood salvage; Ghana National Blood Service guidelines\n",
+  "strategy": "Cell salvage means the patient's own lost blood is washed and returned. Fewer donor units, less risk.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -47907,28 +47907,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PSY-1399",
   "categorySlug": "mental-health",
-  "stem": "Which feature of an act of self-harm indicates the highest level of suicide risk?",
+  "stem": "A woman has attended the clinic nine times in a year with abdominal pain, headache and palpitations. Every investigation has been normal. What is the most helpful approach?",
   "choices": [
    {
     "id": "a",
-    "text": "Careful planning with steps taken to avoid being discovered"
+    "text": "Tell her plainly that there is nothing wrong so that she stops attending the clinic"
    },
    {
     "id": "b",
-    "text": "An impulsive act carried out in the presence of others"
+    "text": "Arrange an exploratory operation, because an organic cause must exist somewhere"
    },
    {
     "id": "c",
-    "text": "An act that caused only minor physical injury overall"
+    "text": "Offer regular scheduled review, treat her distress and stop repeating normal tests"
    },
    {
     "id": "d",
-    "text": "Immediate regret expressed straight after the event"
+    "text": "Refer her to a surgeon each time a new symptom appears, so that nothing is missed"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Careful planning with steps taken to avoid being discovered\". Risk is judged by <strong>intent, not by the medical severity of the injury</strong>. Planning, timing the act when nobody would come, leaving a note, settling affairs and disappointment at surviving all indicate high intent. A patient who took a handful of tablets in front of her family and immediately regretted it has lower intent, even if she is very distressed. <strong>A minor injury with high intent is far more dangerous than a severe injury with low intent.</strong>\n\nWhy the other options fail:\n• B — Acting in front of others usually indicates lower intent and allows rescue.\n• C — Physical severity reflects method and luck rather than seriousness of intent.\n• D — Immediate regret indicates ambivalence and generally lower ongoing risk.\n\nReference: Ghana nursing curriculum — BCA 202 mental health",
-  "strategy": "Assess the intent behind the act, not the size of the wound it produced.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Offer regular scheduled review, treat her distress and stop repeating normal tests\". This pattern fits a somatic symptom disorder: real distress and real symptoms, held together with repeated consultations and tests that keep coming back normal. Repeated investigations are not neutral — each one carries a risk of a false positive, a complication and a message that the doctors have still not found it — so the plan is a single named clinician, appointments at fixed intervals rather than at each new symptom, attention to anxiety and depression, and a clear explanation that her symptoms are being taken seriously even though the tests are complete.\n\nWhy the other options fail:\n• A — Dismissing her does not end the distress and damages the relationship.\n• B — Operating on normal investigations exposes her to harm without a diagnosis.\n• D — Cascading referrals repeat the problem and increase the chance of an incidental finding being over-treated.\n\nReference: ICD-11 — bodily distress disorder; NICE — medically unexplained symptoms\n",
+  "strategy": "Normal tests with real distress need a named clinician and fixed appointments, not another scan.",
   "difficulty": "hard",
   "tags": [
    "mental-health",
@@ -65224,28 +65224,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PNC-1906",
   "categorySlug": "maternal-newborn",
-  "stem": "A labouring woman's cervical dilatation has crossed to the right of the alert line. What does this mean?",
+  "stem": "Six days after a second-degree tear was repaired, a woman has a painful perineum, the suture line has separated and there is offensive discharge. What is this and what should be done?",
   "choices": [
    {
     "id": "a",
-    "text": "Labour is progressing more slowly than expected and needs review"
+    "text": "Normal healing, so she should be reassured that the stitches always separate a little at this stage"
    },
    {
     "id": "b",
-    "text": "Delivery is imminent and the woman should begin pushing"
+    "text": "An infected, broken-down perineal repair, needing a swab, antibiotics and regular cleaning"
    },
    {
     "id": "c",
-    "text": "An immediate caesarean section is indicated without further assessment"
+    "text": "A sign that the tear was repaired with the wrong suture material, so it must be re-sutured today"
    },
    {
     "id": "d",
-    "text": "The recording has been plotted incorrectly and should be redrawn"
+    "text": "A vaginal thrush infection, so she needs a course of antifungal pessaries and should stop breastfeeding"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Labour is progressing more slowly than expected and needs review\". The alert line represents the slowest normal progress, so <strong>crossing it means labour has slowed and something must be looked for — contractions, position, a full bladder, obstruction or dehydration</strong>. It is a prompt to reassess and, in a health centre, to arrange transfer. It is not itself a decision to operate: <strong>the action line further right is where intervention becomes urgent, and the space between exists to allow the cause to be found</strong>.\n\nWhy the other options fail:\n• B — Crossing the alert line indicates slow progress, not imminent birth.\n• C — The alert line prompts assessment; the action line prompts intervention.\n• D — Assuming a plotting error dismisses a genuine warning.\n\nReference: WHO partograph; Ghana STG — labour care",
-  "strategy": "Alert means look for the cause. Action means the cause has run out of time.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"An infected, broken-down perineal repair, needing a swab, antibiotics and regular cleaning\". Infection of a perineal repair shows itself as increasing pain after the first few days, redness and separation of the edges, offensive discharge and sometimes fever. The wound is swabbed before antibiotics, the area is kept clean and dry with regular washing and sitz baths, analgesia is given, and the woman is reviewed — most wounds are left to heal by secondary intention rather than being stitched again at once, because re-suturing infected tissue simply breaks down again. Faecal and urinary continence is checked, since a third- or fourth-degree tear changes all of this.\n\nWhy the other options fail:\n• A — Sutures do not normally separate, and pain should be settling rather than worsening.\n• C — Suture material is not the usual cause, and immediate re-suturing of infected tissue fails.\n• D — Thrush causes itching and a white discharge, not a gaping offensive perineal wound.\n\nReference: RCOG — perineal repair; Ghana STG — postnatal care\n",
+  "strategy": "A perineal repair that hurts more by day six and has opened means infection. Swab, antibiotics, keep it clean.",
   "difficulty": "hard",
   "tags": [
    "maternal-newborn",
@@ -88572,28 +88572,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2583",
   "categorySlug": "safety-infection-control",
-  "stem": "A nurse opens a sterile pack and notices the outer wrapper is damp. What should she do?",
+  "stem": "A pregnant woman in Accra has two days of fever, headache and muscle aches after eating unpasteurised soft cheese. Which organism must be considered, and why does it matter in pregnancy?",
   "choices": [
    {
     "id": "a",
-    "text": "Use the contents, since the inside of the pack remains dry"
+    "text": "Salmonella typhi, which is treated with ciprofloxacin only in the third trimester of pregnancy"
    },
    {
     "id": "b",
-    "text": "Dry the wrapper carefully before opening the pack"
+    "text": "Staphylococcus aureus, which is treated with flucloxacillin and does not affect the fetus"
    },
    {
     "id": "c",
-    "text": "Discard the pack, as moisture allows organisms to pass through the wrapper"
+    "text": "Listeria monocytogenes, which crosses the placenta and can cause fetal loss"
    },
    {
     "id": "d",
-    "text": "Use the contents but only for a clean rather than a sterile procedure"
+    "text": "Vibrio cholerae, which causes profuse watery diarrhoea and needs immediate rehydration"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Discard the pack, as moisture allows organisms to pass through the wrapper\". Moisture wicks organisms through packaging material by capillary action, so a damp wrapper means the contents can no longer be assumed sterile regardless of how they appear. The pack is discarded. The same principle governs the sterile field during a procedure: a drape that becomes wet is considered contaminated, which is why fluids are handled carefully and absorbent material is placed where spillage is likely. Packs are also checked for tears, for the sterilisation indicator and for the expiry date before use. The principle is that a wet barrier is not a barrier.\n\nWhy the other options fail:\n• A — The inside cannot be assumed dry or sterile once moisture has breached the wrapper.\n• B — Drying the outside does not reverse the passage of organisms that has already occurred.\n• D — A pack whose sterility is in doubt should not be used, and downgrading its use does not make it safe.\n\nReference: Standard aseptic technique — sterile pack integrity",
-  "strategy": "Treat moisture as contamination. Wet wrapper, wet drape, wet field — all mean the barrier has failed.",
+  "rationale": "CORRECT (C) — \"Listeria monocytogenes, which crosses the placenta and can cause fetal loss\". Listeria is a Gram-positive rod that grows well at fridge temperature, so it survives in soft cheese, unpasteurised milk and cold cooked meats. In a healthy adult it may cause only a flu-like illness, but in pregnancy it crosses to the placenta and can cause fetal loss, stillbirth, preterm labour or a severely ill newborn, and in the immunosuppressed and elderly it causes meningitis. It is treated with ampicillin, often with gentamicin, and the woman is advised to avoid unpasteurised dairy and reheat chilled foods thoroughly.\n\nWhy the other options fail:\n• A — Typhoid comes from contaminated water and food, not particularly from chilled cheese, and is not the classic pregnancy hazard here.\n• B — Staphylococcal food poisoning is a short, violent vomiting illness, not this picture.\n• D — Cholera is a waterborne diarrhoeal disease and does not cross the placenta in this way.\n\nReference: WHO — listeriosis; Ghana STG — food-borne infection in pregnancy\n",
+  "strategy": "Soft cheese, flu-like illness, pregnancy: think listeria. Ampicillin, and it can reach the baby.",
   "difficulty": "medium",
   "tags": [
    "safety-infection-control",
@@ -92088,28 +92088,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FND-2685",
   "categorySlug": "fundamentals",
-  "stem": "A patient nursed in isolation on a Ghanaian ward becomes withdrawn and low in mood. How should the nurse address this?",
+  "stem": "A patient due for surgery hands the nurse a gold ring and asks her to keep it safe. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "Reduce contact further so the patient is disturbed less often"
+    "text": "Put it in her own uniform pocket and return it when the patient comes back from theatre"
    },
    {
     "id": "b",
-    "text": "Accept the mood change as an unavoidable consequence of the isolation"
+    "text": "Record it, place it in the hospital safe with a written receipt, and note the witness"
    },
    {
     "id": "c",
-    "text": "Arrange transfer to an open ward regardless of the infection risk"
+    "text": "Leave it in the locker beside the bed, since the patient asked for it to be kept there"
    },
    {
     "id": "d",
-    "text": "Plan regular unhurried visits and explain clearly why isolation is needed"
+    "text": "Give it to another patient's relative to hold until the family comes in later that day"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Plan regular unhurried visits and explain clearly why isolation is needed\". Isolation reduces the number and length of contacts a patient has, and staff often enter only for tasks, so the patient experiences repeated brief encounters with masked faces and little conversation. Loneliness, low mood, disorientation and a sense of being unclean or blamed are well documented, and patients in isolation are also monitored less frequently and have more adverse events. The remedy is deliberate: planned unhurried visits that are not task-focused, clear explanation of why the precautions exist and when they will end, keeping the call bell within reach, and facilitating family contact. The principle is that the psychological cost of isolation must be planned for, not accepted.\n\nWhy the other options fail:\n• A — Reducing contact worsens the isolation and increases the risk of unrecognised deterioration.\n• B — Treating low mood as unavoidable abandons a patient whose distress is preventable.\n• C — Abandoning necessary precautions transfers the risk to other patients and is not the answer.\n\nReference: Standard infection prevention and psychological care in isolation",
-  "strategy": "When a necessary intervention has a predictable harm, look for the option that mitigates it rather than one that abandons or accepts it.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"Record it, place it in the hospital safe with a written receipt, and note the witness\". Valuables are a known source of complaint and dispute, so the process is deliberate: the item is described in the nursing notes, entered in the valuables register and placed in the hospital safe, with a receipt given to the patient and a second nurse witnessing the entry. If a hospital has no safe, the family are asked to take the item home and that decision is documented. Jewellery is also removed before theatre because metal can conduct diathermy current and cause burns, and rings can injure a finger that swells.\n\nWhy the other options fail:\n• A — Keeping it on her person leaves no record and makes the nurse the only witness.\n• C — An undocumented locker is neither safe nor accountable.\n• D — Handing a patient's property to another family is a clear route to loss and dispute.\n\nReference: Ghana Health Service — patient property and valuables; NMC code of conduct\n",
+  "strategy": "Valuables: describe, register, receipt, witness. Never a pocket, never an undocumented locker.",
   "difficulty": "hard",
   "tags": [
    "fundamentals",
@@ -96626,28 +96626,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2817",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "Why is the sublingual route used for glyceryl trinitrate in a patient in Ghana with angina?",
+  "stem": "An older man has three months of shuffling, magnetic gait, urinary incontinence and mild confusion. His dementia screen is unremarkable and imaging shows enlarged ventricles. What is the likely diagnosis, and why does it matter?",
   "choices": [
    {
     "id": "a",
-    "text": "It tastes better than the equivalent preparation swallowed as a tablet"
+    "text": "Alzheimer's disease, and it matters because nothing can be done except long-term care planning"
    },
    {
     "id": "b",
-    "text": "It enters the circulation directly and avoids being broken down by the liver first"
+    "text": "Normal pressure hydrocephalus, and it matters because shunting can reverse some of the decline"
    },
    {
     "id": "c",
-    "text": "It allows a much larger total dose to be given than by any other route"
+    "text": "Parkinson's disease, and it matters because levodopa will restore his gait completely"
    },
    {
     "id": "d",
-    "text": "It prevents the medicine from causing any headache as a side effect"
+    "text": "A stroke, and it matters because he needs thrombolysis within four and a half hours of onset"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"It enters the circulation directly and avoids being broken down by the liver first\". A drug swallowed is absorbed from the gut into the portal vein and passes through the liver before reaching the systemic circulation, where much of it may be metabolised. Glyceryl trinitrate is almost entirely destroyed by that first pass, so a swallowed tablet would have little effect. Placed under the tongue, it is absorbed through a rich venous plexus that drains directly into the systemic circulation, producing relief within a minute or two. The same reasoning explains rectal, buccal, transdermal and parenteral routes for other drugs. Headache is common and reflects the vasodilation. The principle is that the route is chosen to get past the liver.\n\nWhy the other options fail:\n• A — Taste plays no part in the pharmacological reason for the route.\n• C — Sublingual doses are smaller, not larger, precisely because none is lost to the liver.\n• D — Headache is a common effect of this drug regardless of the route used.\n\nReference: Standard pharmacology of nitrates",
-  "strategy": "When a route seems unusual, ask what it avoids. Bypassing the liver is the usual answer.",
+  "rationale": "CORRECT (B) — \"Normal pressure hydrocephalus, and it matters because shunting can reverse some of the decline\". The triad is a broad-based, shuffling gait that looks as if the feet are stuck to the floor, urinary incontinence and a mild cognitive slowing, with ventricles that are large on imaging although the cerebrospinal fluid pressure is normal. It is one of the few causes of dementia and gait failure that can be treated: a shunt diverts the fluid and, especially when the gait is the dominant problem and the history is short, walking can improve considerably. That is why every older patient with this triad deserves imaging rather than an assumption of untreatable dementia.\n\nWhy the other options fail:\n• A — Alzheimer's presents with memory loss first and has no shunt-responsive gait disorder.\n• C — Parkinson's gives tremor, rigidity and bradykinesia rather than this triad, and levodopa does not reverse hydrocephalus.\n• D — There is no acute onset and no window for thrombolysis after three months.\n\nReference: NICE — dementia; Ghana STG — neurology of the older person\n",
+  "strategy": "Magnetic gait, incontinence and confusion with big ventricles is treatable. Scan the older patient before calling it dementia.",
   "difficulty": "hard",
   "tags": [
    "pharmacology-parenteral",
