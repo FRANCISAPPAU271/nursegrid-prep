@@ -31936,28 +31936,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IMD-0932",
   "categorySlug": "med-surg",
-  "stem": "What should a Ghanaian community nurse advise for a person bitten by a snake on the leg?",
+  "stem": "A man was bitten on the calf by a snake two hours ago. Which set of findings tells the nurse that venom has entered the circulation and antivenom is needed?",
   "choices": [
    {
     "id": "a",
-    "text": "Immobilise the limb, keep the person calm and transport them urgently"
+    "text": "Bleeding from the gums, bruising away from the bite, and blood that will not clot"
    },
    {
     "id": "b",
-    "text": "Apply a tight tourniquet above the bite to stop the venom spreading"
+    "text": "Sharp pain at the bite, a swollen calf and two puncture marks where the fangs went in"
    },
    {
     "id": "c",
-    "text": "Cut the wound and attempt to suck the venom out of the puncture site"
+    "text": "A feeling of panic, sweating and a rapid pulse in the first hour after the bite"
    },
    {
     "id": "d",
-    "text": "Apply ice to the bite and wait for the swelling to reduce before moving"
+    "text": "Numbness round the bite, a blister at the site and a bruise that fades within a day"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Immobilise the limb, keep the person calm and transport them urgently\". First aid is <strong>reassurance, immobilisation of the limb at or below heart level, removal of rings and tight clothing, and rapid transport</strong> to a facility holding antivenom. Movement and anxiety increase venom uptake. <strong>Tourniquets, incision, suction, ice and traditional applications are harmful</strong>: they add tissue damage and ischaemia, and a released tourniquet can deliver a sudden bolus of venom. The snake should be described, not pursued.\n\nWhy the other options fail:\n• B — Tourniquets cause limb ischaemia and risk a surge of venom on release; they are no longer recommended.\n• C — Incision and suction do not remove venom and introduce infection and bleeding into the wound.\n• D — Ice worsens local tissue necrosis, and waiting delays the antivenom that treats systemic envenoming.\n\nReference: Ghana nursing curriculum — envenomation",
-  "strategy": "Modern envenomation first aid is calm, still and fast to hospital. Anything cutting, tightening or freezing is wrong.",
+  "rationale": "CORRECT (A) — \"Bleeding from the gums, bruising away from the bite, and blood that will not clot\". Antivenom is given for <strong>systemic envenoming</strong>, and the signs of it are the ones that show venom has entered the circulation: spontaneous bleeding from the gums, nose or an old wound, bruising that appears away from the bitten limb, and blood that stays liquid. Neurotoxic signs count too — drooping eyelids, difficulty swallowing, weakness — as do a falling blood pressure and passing little urine. None of these needs the snake to be identified first.\n\nWhy the other options fail:\n• B — Pain, swelling and fang marks are local effects; a painful swollen leg alone does not mean venom has entered the circulation.\n• C — Fear and a fast pulse are the ordinary response to being bitten, and mistaking them for envenoming means antivenom given for fright.\n• D — A small blister and a fading bruise stay local, and do not amount to systemic envenoming.\n\nReference: WHO guidelines for the management of snakebites; Ghana STG — snake bite\n",
+  "strategy": "Local signs say where the bite is; systemic signs say whether the venom is circulating. Antivenom follows the systemic signs.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -63271,28 +63271,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRA-1849",
   "categorySlug": "med-surg",
-  "stem": "A farmer is brought in after a snake bite to the leg. What is correct management?",
+  "stem": "A farmer bitten on the ankle by a snake now has swelling spreading up the leg. Which bedside test should the nurse do to detect a clotting defect?",
   "choices": [
    {
     "id": "a",
-    "text": "Apply a tight tourniquet above the bite to trap the venom"
+    "text": "Send a sample for a full blood count and wait for the platelet count to come back before deciding anything"
    },
    {
     "id": "b",
-    "text": "Immobilise the limb, keep him still and transport him urgently"
+    "text": "Put 2 mL of venous blood in a clean dry glass tube, leave it upright for 20 minutes, then tip it"
    },
    {
     "id": "c",
-    "text": "Cut the wound and attempt to suck out the venom"
+    "text": "Time how long the puncture wound goes on oozing once the needle is out, and write that time on the chart"
    },
    {
     "id": "d",
-    "text": "Apply ice to the bite to slow the spread of the venom"
+    "text": "Tie a tourniquet on the arm for five minutes, then look for pin-point bruises below it on the forearm"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Immobilise the limb, keep him still and transport him urgently\". Venom spreads mainly through lymphatics, and <strong>movement and muscular activity pump it into the circulation</strong> — so immobilising the limb and keeping the patient calm and still is the effective first aid, alongside urgent transfer for antivenom. The traditional measures are all harmful: <strong>tourniquets cause limb ischaemia and a surge of venom on release, cutting and sucking causes bleeding and infection, and ice adds tissue injury</strong>.\n\nWhy the other options fail:\n• A — Tourniquets cause ischaemia and a venom surge when released.\n• C — Cutting and suction cause bleeding and infection without removing venom.\n• D — Ice adds cold injury to already damaged tissue.\n\nReference: Ghana STG — snake bite; WHO",
-  "strategy": "Still limb, still patient, fast transport. Every traditional measure makes it worse.",
+  "rationale": "CORRECT (B) — \"Put 2 mL of venous blood in a clean dry glass tube, leave it upright for 20 minutes, then tip it\". This is the <strong>20-minute whole blood clotting test</strong>, the bedside test the WHO recommends where laboratories are thin. Blood that has formed a complete clot when the tube is tipped means clotting is intact; blood that is still liquid means the venom has consumed the clotting factors, which is systemic envenoming and an indication for antivenom. It costs one tube and twenty minutes, needs no reagents, and is repeated six-hourly after antivenom until clotting returns.\n\nWhy the other options fail:\n• A — A platelet count says nothing about the clotting cascade that viper venom destroys, and waiting for it delays antivenom.\n• C — Oozing from the puncture is not a measure of clotting; bleeding time is not used to decide antivenom.\n• D — The tourniquet test looks for capillary fragility, not for the defibrination this venom causes.\n\nReference: WHO guidelines for the management of snakebites; Ghana STG — snake bite\n",
+  "strategy": "Four tubes of ideas, one tube of blood: the 20WBCT is the answer whenever a snakebite patient needs a clotting answer at the bedside.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -91016,28 +91016,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FND-2654",
   "categorySlug": "safety-infection-control",
-  "stem": "A farmer in the Northern Region is bitten on the leg by a snake. What is the correct immediate care?",
+  "stem": "A relative arrives carrying the dead snake in a bag and asks the nurse to look at it before the antivenom is given. What is the best response?",
   "choices": [
    {
     "id": "a",
-    "text": "Apply a tight tourniquet above the bite to stop the venom spreading"
+    "text": "Refuse to give antivenom until the medical officer has identified the snake"
    },
    {
     "id": "b",
-    "text": "Make a small cut over the bite and suck out the venom"
+    "text": "Open the bag and lay the snake out on the bench so that its markings can be seen clearly"
    },
    {
     "id": "c",
-    "text": "Apply ice to the bite site and give him alcohol for the pain"
+    "text": "Send the snake to the laboratory and start antivenom only when the result is back"
    },
    {
     "id": "d",
-    "text": "Keep him still and calm, immobilise the limb, and transport him urgently"
+    "text": "Put the bag aside, treat on his signs, and give antivenom if envenoming is present"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Keep him still and calm, immobilise the limb, and transport him urgently\". Venom is carried away from the bite largely by the lymphatic system, and lymph flow depends on muscle movement, so keeping the patient still and immobilising the limb slows absorption. Anxiety and exertion increase both lymphatic flow and cardiac output and worsen the spread. The bite is left alone, the limb kept at about heart level, jewellery removed before swelling, and the patient taken urgently to a facility with antivenom. A tourniquet concentrates venom and risks limb loss; cutting and sucking increase bleeding and infection and remove no meaningful quantity; alcohol impairs assessment. The principle is that stillness is the treatment until antivenom is available.\n\nWhy the other options fail:\n• A — A tight tourniquet causes ischaemia and a surge of concentrated venom when released.\n• B — Cutting and sucking removes negligible venom while adding bleeding and infection to the injury.\n• C — Ice worsens local tissue damage and alcohol clouds assessment of the conscious level.\n\nReference: WHO snakebite management guidance",
-  "strategy": "Slow the lymphatics rather than attack the bite. Every option that interferes with the wound itself is wrong.",
+  "rationale": "CORRECT (D) — \"Put the bag aside, treat on his signs, and give antivenom if envenoming is present\". Treatment is led by the syndrome in front of the nurse — bleeding and non-clotting blood, drooping eyelids and weakness, spreading swelling — and by which snakes are known in the district, not by a species name. The snake is worth keeping for the district's records, but it is handled with a stick or tongs and never with bare hands, because a freshly killed snake can still strike. Antivenom that covers the local species is started on the clinical picture; waiting for an identification that may never come costs the hours in which antivenom works best.\n\nWhy the other options fail:\n• A — Withholding antivenom until the snake is named leaves him untreated through the hours that matter.\n• B — Laying out a dead snake by hand risks a reflex bite, and the markings would not settle the treatment anyway.\n• C — No laboratory test identifies the snake, and a result would arrive long after the decision.\n\nReference: WHO guidelines for the management of snakebites; Ghana STG — snake bite\n",
+  "strategy": "Treat the syndrome, not the species. Keep the snake for the records, handle it with tongs, and never let identification delay antivenom.",
   "difficulty": "hard",
   "tags": [
    "safety-infection-control",
@@ -99265,28 +99265,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2894",
   "categorySlug": "safety-infection-control",
-  "stem": "A farmer in northern Ghana is bitten on the ankle by a snake. What is the correct immediate management?",
+  "stem": "Thirty minutes into a snake antivenom infusion a patient becomes restless and wheezes, and his blood pressure falls. What should the nurse do first?",
   "choices": [
    {
     "id": "a",
-    "text": "Apply a tight tourniquet above the knee to stop the venom spreading"
+    "text": "Speed the infusion up so the remaining vials are in before the reaction gets worse"
    },
    {
     "id": "b",
-    "text": "Cut across the bite marks and attempt to suck out the venom"
+    "text": "Give the rest of the antivenom by intramuscular injection instead of by infusion"
    },
    {
     "id": "c",
-    "text": "Immobilise the limb, keep him calm, and transport him urgently to hospital"
+    "text": "Stop the infusion, call for help, and prepare adrenaline and intravenous fluid"
    },
    {
     "id": "d",
-    "text": "Apply ice packs directly to the bite and rub the area vigorously"
+    "text": "Note the reaction, carry on the infusion slowly and reassess him in fifteen minutes"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Immobilise the limb, keep him calm, and transport him urgently to hospital\". Venom spreads mainly through the lymphatics, and lymphatic flow depends on muscle movement, so immobilising the limb in a splint at or below heart level and keeping the person calm slows absorption. Rapid transport matters because antivenom is the only definitive treatment and works best given early. The traditional measures actively cause harm: a tight tourniquet produces ischaemia and a dangerous bolus of venom when released, cutting introduces infection and bleeding in a patient who may already be coagulopathic, and ice and rubbing worsen local tissue damage. Rings and tight clothing are removed before swelling, and the bite is not washed if a venom detection service is available. The principle is that slowing spread beats attempting removal.\n\nWhy the other options fail:\n• A — A tight tourniquet causes ischaemia and a venom surge when it is released.\n• B — Cutting and suction introduce infection and bleeding without removing venom.\n• D — Ice and vigorous rubbing increase local tissue necrosis at the bite site.\n\nReference: WHO snakebite management guidance for Africa",
-  "strategy": "For any envenomation, choose immobilise and transport. Anything that cuts, ties or sucks is wrong.",
+  "rationale": "CORRECT (C) — \"Stop the infusion, call for help, and prepare adrenaline and intravenous fluid\". Early reactions to antivenom are common and are usually <strong>anaphylactoid</strong>: the antivenom's proteins trigger histamine release directly rather than through IgE, so they can come on within minutes of the first vial even in someone who has never had antivenom before. The first action is to stop the infusion, then treat as for anaphylaxis — adrenaline into the outer thigh, oxygen, intravenous fluid, lying flat. Once the reaction is controlled the antivenom can usually be restarted slowly, because it is the only treatment for the venom and abandoning it leaves him envenomed.\n\nWhy the other options fail:\n• A — Running more antigen in faster deepens the reaction.\n• B — Intramuscular antivenom is poorly absorbed and is not a treatment route.\n• D — Watching a hypotensive, wheezing patient for fifteen minutes risks cardiac arrest.\n\nReference: WHO guidelines for the management of snakebites; Ghana STG — snake bite\n",
+  "strategy": "Stop first, treat as anaphylaxis second, and restart the antivenom slowly once he is stable — the venom still needs its antidote.",
   "difficulty": "hard",
   "tags": [
    "safety-infection-control",
@@ -110262,28 +110262,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-KID-3217",
   "categorySlug": "pediatrics",
-  "stem": "A child is brought to a rural health centre after a snake bite on the leg. Which combination of actions is correct?",
+  "stem": "A four-year-old is admitted after a snake bite and antivenom is prescribed. His mother asks whether such a small child will be given a smaller dose. What should the nurse say?",
   "choices": [
    {
     "id": "a",
-    "text": "Apply a tight tourniquet above the bite and cut the wound to drain venom"
+    "text": "Yes — the dose is worked out from his weight, so it will be much smaller than an adult's"
    },
    {
     "id": "b",
-    "text": "Immobilise the limb, keep the child calm and transfer urgently for antivenom"
+    "text": "No — he gets the same dose as an adult, because the snake put in the same amount of venom"
    },
    {
     "id": "c",
-    "text": "Encourage the child to walk to the vehicle to maintain the circulation"
+    "text": "Yes — he gets half an adult dose now, and a second half if the swelling keeps spreading"
    },
    {
     "id": "d",
-    "text": "Apply ice directly to the bite and give aspirin for the pain"
+    "text": "No — he gets a larger dose than an adult, because a smaller blood volume concentrates the venom"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Immobilise the limb, keep the child calm and transfer urgently for antivenom\". Immobilising the bitten limb at or below heart level and keeping the child calm slows the movement of venom through the lymphatic system, and prompt transfer to a facility with antivenom is the only definitive treatment. The bite site is cleaned and left alone, the limb is not moved unnecessarily, and the time of the bite and progression of swelling are recorded. Traditional first aid measures cause harm: tourniquets produce ischaemia and a surge of venom on release, incision and suction increase bleeding and infection, and ice worsens tissue damage. Children receive the same antivenom dose as adults, since the venom load is the same.\n\nWhy the other options fail:\n• A — Tight tourniquets cause limb ischaemia and a dangerous bolus of venom when released, and cutting the wound worsens bleeding and infection.\n• C — Walking increases muscle activity and lymphatic flow, carrying venom into the circulation faster. The child should be carried.\n• D — Ice deepens local tissue necrosis, and aspirin increases bleeding risk in venoms that already impair clotting.\n\nReference: WHO guidelines for management of snakebite; Ghana Standard Treatment Guidelines — envenomation",
-  "strategy": "Slow the venom and move the patient. Every traditional measure that cuts, ties or cools makes the outcome worse.",
+  "rationale": "CORRECT (B) — \"No — he gets the same dose as an adult, because the snake put in the same amount of venom\". Antivenom neutralises venom, and the amount injected depends on the snake, not on the size of the child, so the dose at four years is the dose at forty. A weight-based reduction is wrong precisely because it leaves circulating venom unneutralised, and children can deteriorate faster than adults since the same venom load is spread through a smaller body. The one paediatric adjustment is fluid: the antivenom is diluted in a smaller volume so that the infusion does not overload him.\n\nWhy the other options fail:\n• A — Weight-based reduction under-doses him; the dose follows the venom, not the kilogram.\n• C — Halving the dose leaves him under-treated from the first vial, and topping up later delays neutralisation.\n• D — A larger dose is not recommended either; the standard dose is repeated only if envenoming persists.\n\nReference: WHO guidelines for the management of snakebites; Ghana STG — snake bite\n",
+  "strategy": "The dose treats the venom, not the patient. Same venom load, same dose, whatever the age — only the diluent volume changes.",
   "difficulty": "hard",
   "tags": [
    "pediatrics",
