@@ -35800,28 +35800,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPR-1045",
   "categorySlug": "fundamentals",
-  "stem": "Which pancreatic cell type secretes the hormone that **raises** blood glucose during a fast?",
+  "stem": "An infusion that blocks somatostatin receptors is running in a fasting patient. Which pair of islet hormones would be expected to rise, and why?",
   "choices": [
    {
     "id": "a",
-    "text": "Beta cells of the islets, which release insulin when glucose has risen"
+    "text": "Insulin only, because somatostatin acts on the alpha cells and not on the beta cells"
    },
    {
     "id": "b",
-    "text": "Alpha cells of the islets, which release glucagon when glucose is low"
+    "text": "Insulin and glucagon together, because delta cells normally restrain both"
    },
    {
     "id": "c",
-    "text": "Delta cells of the islets, which release somatostatin to damp both others"
+    "text": "Glucagon only, because insulin release answers to glucose and not to other islet cells"
    },
    {
     "id": "d",
-    "text": "Acinar cells of the pancreas, which release enzymes into the small bowel"
+    "text": "Neither, because somatostatin from the islet controls only the exocrine pancreas"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Alpha cells of the islets, which release glucagon when glucose is low\". The islets contain <strong>several cell types with opposing jobs</strong>. Alpha cells release glucagon, which mobilises glucose from liver glycogen when the blood level falls; beta cells release insulin, which stores glucose when the level rises. Delta cells release somatostatin, which restrains both. The rest of the pancreas is <strong>exocrine acinar tissue</strong> making digestive enzymes, which is why pancreatic disease can produce diabetes and fatty stools together.\n\nWhy the other options fail:\n• A — Beta cells release insulin, which lowers blood glucose rather than raising it.\n• C — Somatostatin inhibits secretion of both other hormones; it does not raise glucose itself.\n• D — Acinar cells are exocrine, secreting enzymes into a duct, not hormones into the blood.\n\nReference: Ghana nursing curriculum — HAP III endocrine",
-  "strategy": "Alpha comes before beta alphabetically, and glucagon acts before insulin in a fast. Pair them as opposites.",
+  "rationale": "CORRECT (B) — \"Insulin and glucagon together, because delta cells normally restrain both\". Somatostatin is released by the delta cells of the islet and acts as a <strong>paracrine brake</strong> on its neighbours: it reduces insulin release from the beta cells and glucagon release from the alpha cells. Block that brake and both hormones escape together, which is why the two can rise at once even though they normally move in opposite directions and are taught as a pair of opposites. The point of the item is that islet control is not simply glucose in, insulin out — the cells talk to each other.\n\nWhy the other options fail:\n• A — Somatostatin acts on both cell types; if it spared the alpha cells then glucagon would be the hormone that rose alone.\n• C — Insulin release is modulated by paracrine signals as well as by glucose, so it is not spared when the brake is released.\n• D — The somatostatin that matters here is released inside the islet and acts on islet cells; the exocrine pancreas is a separate compartment with separate control.\n\nReference: Ghana nursing curriculum — HAP III endocrine",
+  "strategy": "Delta cells sit between the others and quieten both. Take the brake off and insulin and glucagon rise together.",
   "difficulty": "medium",
   "tags": [
    "fundamentals",
@@ -39494,28 +39494,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OPR-1153",
   "categorySlug": "med-surg",
-  "stem": "What must be included when handing a patient over to the recovery nurse?",
+  "stem": "During a large-volume local infiltration the patient becomes confused, reports a metallic taste in the mouth and then has a seizure. What is happening?",
   "choices": [
    {
     "id": "a",
-    "text": "Only the patient's name and the ward to which they will be returning"
+    "text": "An anaphylactic reaction to the local anaesthetic, needing intramuscular adrenaline"
    },
    {
     "id": "b",
-    "text": "A description of how well the surgical team performed the operation"
+    "text": "A vasovagal faint from the procedure, needing a head-down tilt and reassurance"
    },
    {
     "id": "c",
-    "text": "The procedure, anaesthetic, blood loss, drains and specific concerns"
+    "text": "Local anaesthetic systemic toxicity, needing the injection stopped and lipid rescue"
    },
    {
     "id": "d",
-    "text": "The patient's diagnosis alone, as the notes will contain the rest"
+    "text": "An expected effect of the premedication, needing observation until it wears off"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"The procedure, anaesthetic, blood loss, drains and specific concerns\". Handover is the point at which <strong>knowledge, not just a patient, must transfer</strong>. The recovery nurse needs what was done, what anaesthetic and analgesia were given, how much blood was lost and replaced, what drains, catheters or packs are present, allergies, and the specific things to watch for in this patient. Missing information here is a well-documented cause of preventable post-operative harm, which is why <strong>a structured format is used rather than free recollection</strong>.\n\nWhy the other options fail:\n• A — Identification alone leaves the recovery nurse without any basis for safe observation.\n• B — Commentary on performance is not clinical information and helps nobody.\n• D — Expecting the next nurse to read the notes during an unstable recovery period is unsafe.\n\nReference: Ghana nursing curriculum — RGN 205 theatre practice",
-  "strategy": "Hand over what the next nurse must act on, not what the last nurse happens to remember.",
+  "rationale": "CORRECT (C) — \"Local anaesthetic systemic toxicity, needing the injection stopped and lipid rescue\". The order of events is the diagnosis: a metallic taste and perioral tingling, then confusion or agitation, then a seizure, and untreated, cardiovascular collapse. Local anaesthetic is absorbed faster than it is cleared when a large volume is infiltrated, and it blocks the conducting channels in the brain and heart as well as in the nerve being targeted. The immediate response is to stop the injection, call for help, secure the airway and give oxygen, manage the seizure, and start the lipid emulsion rescue protocol where it is available — the lipid binds the drug and pulls it back out of the tissue. The vial or ampoule is kept so the dose given can be calculated.\n\nWhy the other options fail:\n• A — Anaphylaxis gives urticaria, wheeze, angioedema and hypotension; a metallic taste followed by a fit is not that pattern, and adrenaline alone does not treat the cardiac toxicity.\n• B — A faint causes pallor, bradycardia and a transient loss of consciousness, not confusion, a metallic taste and a seizure.\n• D — No premedication in routine use produces this sequence, and treating a seizure as expected sedation delays the one drug that reverses it.\n\nReference: Ghana nursing curriculum — perioperative nursing",
+  "strategy": "Taste, then confusion, then fit after local anaesthetic is systemic toxicity. Stop, oxygenate, lipid.",
   "difficulty": "medium",
   "tags": [
    "med-surg",
@@ -40416,28 +40416,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OPR-1180",
   "categorySlug": "med-surg",
-  "stem": "A patient on chemotherapy develops a temperature of 38.5 degrees Celsius. What is the **priority** action?",
+  "stem": "A man with known prostate cancer has two weeks of worsening thoracic back pain and now cannot lift his legs against gravity. What is the **priority** nursing action?",
   "choices": [
    {
     "id": "a",
-    "text": "Give paracetamol and reassess the temperature in four hours' time"
+    "text": "Give the prescribed analgesia and reassess the pain at the next ward round"
    },
    {
     "id": "b",
-    "text": "Advise a cool bath and encourage the patient to drink extra fluids"
+    "text": "Help him to walk with a frame so that his leg muscles do not waste"
    },
    {
     "id": "c",
-    "text": "Wait for the blood count result before taking any further action"
+    "text": "Record the weakness and arrange routine physiotherapy for the following week"
    },
    {
     "id": "d",
-    "text": "Treat as a medical emergency and start antibiotics without delay"
+    "text": "Treat it as cord compression: lie him flat and call the team for urgent imaging"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Treat as a medical emergency and start antibiotics without delay\". Chemotherapy suppresses the bone marrow, so the patient may have almost no neutrophils. Without them there is <strong>no pus, little redness and few localising signs</strong> — fever may be the only evidence of overwhelming infection, and such patients can die within hours. Neutropenic sepsis is therefore treated as an emergency: cultures taken and <strong>broad-spectrum antibiotics started within the hour</strong>, before any count comes back.\n\nWhy the other options fail:\n• A — Paracetamol masks the only sign present while the infection continues unchecked.\n• B — Cooling measures treat the temperature and ignore the life-threatening infection.\n• C — Waiting for results wastes the hour in which antibiotics make the greatest difference.\n\nReference: Ghana nursing curriculum — RGN 205 neoplasms",
-  "strategy": "In an immunosuppressed patient, fever alone is sepsis. Treat first, investigate alongside.",
+  "rationale": "CORRECT (D) — \"Treat it as cord compression: lie him flat and call the team for urgent imaging\". Progressive thoracic pain with a new, symmetrical loss of power in a patient with a known malignancy is metastatic spinal cord compression until imaging says otherwise. The cord is being compressed from outside, and the deficit becomes permanent once the cord has been strangled for long enough; function at the time treatment starts is the strongest predictor of what is recovered. The response is therefore immediate: flat or sitting up only if that is comfortable, spine kept still, the surgical or oncology team called the same hour for MRI of the whole spine, and dexamethasone started as prescribed while that is arranged. Analgesia, physiotherapy and observation all have a place — after the cord has been decompressed, not instead of it.\n\nWhy the other options fail:\n• A — Back pain in advanced cancer is common, which is exactly why it is dismissed; analgesia does not stop a progressing cord lesion.\n• B — Walking a patient with an unstable or compressed cord risks further damage and is the opposite of what the imaging needs.\n• C — Recording the weakness is not wrong, but a deficit that has appeared over days is an emergency, not a physiotherapy referral.\n\nReference: Ghana nursing curriculum — oncology and perioperative nursing",
+  "strategy": "New leg weakness on top of cancer back pain is a cord emergency. Flat, image, steroid — in that order.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -45341,28 +45341,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HCB-1324",
   "categorySlug": "health-promotion",
-  "stem": "Under the social model, what disables a wheelchair user who cannot enter a Ghanaian clinic?",
+  "stem": "A disabled trader in a Ghanaian district asks what the disability share of the District Assemblies Common Fund is actually for. What is the **best** answer?",
   "choices": [
    {
     "id": "a",
-    "text": "The spinal injury that led to her use of a wheelchair"
+    "text": "It pays the salaries of the staff who provide disability services in the district"
    },
    {
     "id": "b",
-    "text": "Her decision to attend a facility that she knew was inaccessible"
+    "text": "It replaces the need for the district to budget for disability services at all"
    },
    {
     "id": "c",
-    "text": "The absence of a ramp at the entrance to the building"
+    "text": "It buys assistive devices and income support for people with disability"
    },
    {
     "id": "d",
-    "text": "The limited funds available to the health service for construction"
+    "text": "It can be claimed only by disability organisations, never by an individual"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"The absence of a ramp at the entrance to the building\". The social model does not deny the impairment; it identifies where the <strong>disabling effect is produced</strong>. On a level floor she moves freely, so it is the staircase that excludes her. This reframing is practical rather than philosophical: it moves the target of intervention from her body, which cannot be changed, to <strong>the building, the attitude or the rule, which can</strong>. Lack of funds explains why the ramp is missing but is not what excludes her.\n\nWhy the other options fail:\n• A — The injury is the impairment; the medical model, not the social model, treats it as the disability.\n• B — Blaming her for attending inverts the duty, which lies with the provider of a public service.\n• D — Budget constraint is the reason for the barrier, not the barrier itself.\n\nReference: Ghana nursing curriculum — BCA 203 disability",
-  "strategy": "Ask what would have to change for the problem to disappear. If it is the building, that is the disability.",
+  "rationale": "CORRECT (C) — \"It buys assistive devices and income support for people with disability\". A share of the District Assemblies Common Fund is earmarked for disability and is disbursed through the metropolitan, municipal and district assemblies, usually in consultation with local disability organisations. What it pays for is the practical equipment that keeps a disabled person working and in school — wheelchairs, prostheses, hearing aids, access adaptations — together with school support and small grants for trading. It is applied for through the assembly's social welfare department, and an individual trader like this woman can benefit directly.\n\nWhy the other options fail:\n• A — The fund is a capital and support fund for disabled people, not a payroll line for staff who serve them.\n• B — It supplements the district's own budget; the district is still expected to plan and fund disability services.\n• D — Individuals and their families apply directly through social welfare; the fund is not restricted to organisations.\n\nReference: Ghana nursing curriculum — community health; Persons with Disability Act, 2006 (Act 715)",
+  "strategy": "Common Fund disability money buys devices and livelihoods for disabled people, through the assembly.",
   "difficulty": "hard",
   "tags": [
    "health-promotion",
