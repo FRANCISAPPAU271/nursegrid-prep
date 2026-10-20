@@ -18417,28 +18417,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SRG-0537",
   "categorySlug": "med-surg",
-  "stem": "An unconscious patient has just arrived in the recovery room of a Ghanaian theatre after a general anaesthetic. How should she be positioned?",
+  "stem": "Ten minutes after a large field block the patient becomes confused and says his lips are tingling. What is happening?",
   "choices": [
    {
     "id": "a",
-    "text": "In the lateral recovery position so that secretions drain from her mouth"
+    "text": "The local anaesthetic has reached toxic levels in his blood"
    },
    {
     "id": "b",
-    "text": "Flat on her back so that her observations can be recorded more easily"
+    "text": "The adrenaline added to the mixture is causing this"
    },
    {
     "id": "c",
-    "text": "Sitting fully upright to help her lungs to expand after the anaesthetic"
+    "text": "He is panicking about the operation and hyperventilating"
    },
    {
     "id": "d",
-    "text": "Head down with the foot of the bed raised to maintain her blood pressure"
+    "text": "The block has failed, so he is beginning to feel the surgery"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"In the lateral recovery position so that secretions drain from her mouth\". Until protective reflexes return, the unconscious patient cannot clear her own secretions or protect her airway. The <strong>lateral position lets saliva, blood and vomit drain out by gravity</strong> rather than pooling in the pharynx, and it prevents the tongue falling back. Continuous observation of <strong>airway, breathing, colour, oxygen saturation, conscious level, vital signs, wound and drains</strong> continues until she is awake and maintaining her own airway.\n\nWhy the other options fail:\n• B — Supine allows the tongue to obstruct and secretions to pool. Ease of observation never outranks airway safety.\n• C — An unconscious patient cannot be safely sat upright, and the head would fall forward obstructing the airway.\n• D — Head-down is used for specific hypotensive emergencies and increases the risk of regurgitation into the airway.\n\nReference: Ghana nursing curriculum — post-anaesthetic recovery care",
-  "strategy": "For any unconscious patient, position for the airway first. Lateral is the default until they can protect it themselves.",
+  "rationale": "CORRECT (A) — \"The local anaesthetic has reached toxic levels in his blood\". Tingling around the mouth, a metallic taste, ringing in the ears and confusion are the <strong>early warning signs of local anaesthetic systemic toxicity</strong>, and they come before seizures, coma and cardiac arrest. A large volume is absorbed faster than it is cleared. The nurse stops the injection, calls for help, gives oxygen, monitors the ECG and prepares the resuscitation trolley, and <strong>requests lipid emulsion early, because it is the specific antidote</strong>.\n\nWhy the other options fail:\n• B — Adrenaline causes palpitations, tremor and pallor, not tingling of the lips with confusion.\n• C — Hyperventilation causes dizziness and cramp, but not a metallic taste with ringing in the ears.\n• D — A failed block produces pain, not neurological warning signs.\n\nReference: AAGBI — local anaesthetic toxicity; Ghana STG — anaesthesia",
+  "strategy": "Tingling lips and a metallic taste after a block means toxicity. Stop, oxygen, lipid emulsion.",
   "difficulty": "medium",
   "tags": [
    "med-surg",
@@ -54784,28 +54784,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EBP-1601",
   "categorySlug": "risk-reduction",
-  "stem": "A large trial in a high-income country shows a device reduces mortality. What must be considered before adopting it in a Ghanaian district hospital?",
+  "stem": "A meta-analysis pools ten trials and finds that their results differ widely from one another. What is this called?",
   "choices": [
    {
     "id": "a",
-    "text": "Whether the trial was published in a high-impact journal"
+    "text": "Publication bias, because negative trials went unpublished"
    },
    {
     "id": "b",
-    "text": "Whether the supporting staffing, supplies and maintenance exist locally"
+    "text": "Heterogeneity, which must be examined before pooling"
    },
    {
     "id": "c",
-    "text": "Whether other African countries have already purchased it"
+    "text": "Confounding, because the groups were not comparable"
    },
    {
     "id": "d",
-    "text": "Whether the manufacturer offers a discount for bulk orders"
+    "text": "Attrition, because participants dropped out of the trials"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Whether the supporting staffing, supplies and maintenance exist locally\". Effectiveness in a trial reflects the intervention <strong>plus the whole system that delivered it</strong>: trained staff, reliable power, consumables, servicing and referral pathways. Transplanted without those, the same device may deliver nothing or cause harm. The appraisal question is therefore not only whether the evidence is sound but <strong>whether the conditions that made it work can be reproduced here</strong>.\n\nWhy the other options fail:\n• A — Journal prestige does not indicate applicability to a different system.\n• C — Adoption elsewhere is not evidence of local feasibility.\n• D — Price affects affordability but not whether the intervention will work.\n\nReference: WHO evidence-informed policy; Ghana STG",
-  "strategy": "Ask what else had to be true for the trial to work, then ask if it is true here.",
+  "rationale": "CORRECT (B) — \"Heterogeneity, which must be examined before pooling\". When trials differ in their patients, doses or definitions, <strong>their results vary more than chance alone would explain</strong>. That is heterogeneity: it is measured, and it has to be examined before a pooled estimate is trusted. If it is high, the review explains the differences or splits the studies into subgroups instead of averaging them away. Publication bias is about which studies were published, confounding is a third factor distorting a comparison, and attrition is the loss of participants during a study.\n\nWhy the other options fail:\n• A — Publication bias is a missing-study problem, shown by an asymmetric funnel plot, not by disagreement between the studies that were found.\n• C — Confounding distorts the comparison inside a study rather than describing variation between studies.\n• D — Attrition is people leaving a trial, not trials disagreeing with each other.\n\nReference: Cochrane Handbook; standard research-methods texts",
+  "strategy": "Trials that disagree are heterogeneous. Explain the difference before you average it away.",
   "difficulty": "hard",
   "tags": [
    "risk-reduction",
@@ -55262,28 +55262,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EBP-1615",
   "categorySlug": "risk-reduction",
-  "stem": "Which questionnaire item is poorly constructed?",
+  "stem": "A questionnaire asks \"How often did you miss a dose of your medicine?\" and offers strongly agree to strongly disagree. What is wrong with this item?",
   "choices": [
    {
     "id": "a",
-    "text": "I have enough time to complete my nursing documentation"
+    "text": "It is too long for a busy respondent to read through"
    },
    {
     "id": "b",
-    "text": "I receive feedback about my work from my supervisor"
+    "text": "It asks about a subject that people will not discuss honestly"
    },
    {
     "id": "c",
-    "text": "Staffing and equipment on this ward are adequate"
+    "text": "It uses a scale that cannot answer a frequency question"
    },
    {
     "id": "d",
-    "text": "The ward has sufficient gloves available for my shifts"
+    "text": "It gives the respondent no way to stay anonymous at all"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Staffing and equipment on this ward are adequate\". This is a <strong>double-barrelled item</strong>: it asks about two different things in one statement, so a respondent with adequate staffing but no equipment cannot answer honestly, and the analyst cannot tell which she meant. Each item must test <strong>one idea, in plain language, without negatives or leading wording</strong>. The other three each address a single, clearly bounded matter.\n\nWhy the other options fail:\n• A — This asks about one clearly defined thing: time for documentation.\n• B — This addresses a single specific experience of supervision.\n• D — This concerns one concrete, answerable matter.\n\nReference: Ghana nursing curriculum — BCA 206 research methods",
-  "strategy": "Read each item and count the ideas. More than one and the answer is uninterpretable.",
+  "rationale": "CORRECT (C) — \"It uses a scale that cannot answer a frequency question\". \"How often\" needs a frequency response — never, sometimes, often, always, or a number of missed doses — while <strong>strongly agree to strongly disagree answers a statement of opinion, not a count</strong>. When the options do not fit the question, respondents tick something arbitrary and the data cannot be interpreted. The common faults in questionnaire items are a scale that does not match the question, two ideas in one item, a leading wording, jargon, and a recall period longer than memory can carry.\n\nWhy the other options fail:\n• A — Length matters, but it is not the defect that makes this item unanswerable.\n• B — Missed doses may be sensitive, but a sensitive topic can still be measured well; the scale is the fault here.\n• D — Anonymity is a separate safeguard, and the item would be wrong even if it were anonymous.\n\nReference: standard research-methods texts — questionnaire design",
+  "strategy": "The response scale must fit the question. Frequency questions need frequency answers.",
   "difficulty": "hard",
   "tags": [
    "risk-reduction",
@@ -63718,28 +63718,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRA-1862",
   "categorySlug": "med-surg",
-  "stem": "Which finding suggests a patient rescued from a burning room has an airway burn?",
+  "stem": "A driver who was wearing only a lap belt has bruising across the lower abdomen and increasing abdominal pain. What should the nurse suspect?",
   "choices": [
    {
     "id": "a",
-    "text": "Burns confined to both forearms with intact clothing elsewhere"
+    "text": "Simple bruising of the abdominal wall that will settle down"
    },
    {
     "id": "b",
-    "text": "Soot around the nostrils with a hoarse voice and singed nasal hair"
+    "text": "Bowel crushed between the belt and the spine, which may have torn"
    },
    {
     "id": "c",
-    "text": "A rapid pulse with anxiety about the events of the fire"
+    "text": "A fractured pelvis with blood loss into the surrounding tissues"
    },
    {
     "id": "d",
-    "text": "Superficial blistering across the front of both thighs"
+    "text": "Trapped air in the abdominal cavity from the force of the impact"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Soot around the nostrils with a hoarse voice and singed nasal hair\". Soot, singed nasal hair, hoarseness, stridor or facial burns indicate <strong>hot gases have been inhaled, and the airway will swell progressively over the following hours until it closes</strong>. Recognition matters because intubation must happen early, while it is still possible. The essential point is that <strong>the airway can be lethally injured while the skin looks almost normal</strong>, so the site of the visible burn tells you nothing about it.\n\nWhy the other options fail:\n• A — Limb burns with intact clothing do not indicate inhalation.\n• C — Tachycardia and anxiety are non-specific after any fire.\n• D — Thigh burns give no information about the airway.\n\nReference: Ghana STG — burns; WHO burn care",
-  "strategy": "Look at the face and listen to the voice. Airway burns are found above the neck.",
+  "rationale": "CORRECT (B) — \"Bowel crushed between the belt and the spine, which may have torn\". A lap belt crosses the lower abdomen while the spine behind it is fixed, so <strong>the bowel is crushed between the two</strong>. Bruising in the line of the belt, with pain or tenderness, is the seat-belt sign and means a hollow viscus may have been injured. <strong>The abdomen can feel soft and the x-ray can look normal at first</strong>, because a small tear leaks slowly; peritonitis and free air may take hours to appear. The patient is kept nil by mouth, given intravenous access and analgesia, and observed closely for pulse, tenderness and abdominal girth, with early surgical review.\n\nWhy the other options fail:\n• A — A belt-line bruise after a crash marks the force that was applied, not a minor injury.\n• C — A pelvic fracture would not explain the belt-line bruising, and the abdomen still has to be assessed.\n• D — Free air is the consequence of a perforation, not the injury itself, and is often absent early.\n\nReference: ATLS 10th edition — abdominal trauma; Ghana STG",
+  "strategy": "A bruise in the belt line after a crash means a crushed hollow organ until it is proved otherwise.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -64163,28 +64163,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRA-1875",
   "categorySlug": "med-surg",
-  "stem": "Which measure does **most** to prevent deep vein thrombosis after abdominal surgery?",
+  "stem": "A man has a small puncture wound over the knuckles after punching another person in the mouth. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "Keeping her on strict bed rest until the wound has healed"
+    "text": "Suture the small wound so that it heals without a scar"
    },
    {
     "id": "b",
-    "text": "Massaging the calves firmly twice each day"
+    "text": "Apply an antiseptic cream and cover it with a dry dressing"
    },
    {
     "id": "c",
-    "text": "Restricting her fluid intake to reduce swelling"
+    "text": "Wash it with surgical spirit and bandage it firmly"
    },
    {
     "id": "d",
-    "text": "Getting the patient up and walking as early as she can manage"
+    "text": "Irrigate it thoroughly and leave it open to drain"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Getting the patient up and walking as early as she can manage\". Calf muscle contraction is <strong>what returns venous blood from the legs, so an immobile patient has stagnant venous flow</strong> — one of the three classic conditions for clot formation, alongside vessel injury and increased clotting after surgery. Walking restores it. The distractors each worsen a limb: bed rest increases stasis, <strong>massaging a calf that may already contain clot can dislodge it</strong>, and dehydration thickens the blood.\n\nWhy the other options fail:\n• A — Bed rest increases stasis and raises the risk substantially.\n• B — Massaging a calf with clot present may dislodge it to the lungs.\n• C — Restricting fluid concentrates the blood and increases clotting.\n\nReference: Ghana STG — perioperative care",
-  "strategy": "The calf muscle is the pump. Walking her is the cheapest prophylaxis there is.",
+  "rationale": "CORRECT (D) — \"Irrigate it thoroughly and leave it open to drain\". A wound over the knuckles from a punch is a fight bite: with the fist clenched, <strong>the mouth's organisms are driven through the skin into the joint and tendon sheath</strong>. It looks trivial with the hand open and becomes a deep infection with the hand closed. Treatment is copious irrigation, <strong>no primary closure</strong>, a prescribed antibiotic active against oral anaerobes, tetanus cover, splinting and elevation, with surgical review if the joint or tendon is involved.\n\nWhy the other options fail:\n• A — Closing it seals the mouth's organisms inside the joint space.\n• B — A dry dressing without irrigation leaves the inoculum in the deep tissue.\n• C — Spirit on an open wound is tissue-toxic and does not irrigate the depth of the tract.\n\nReference: Ghana STG — wound management; WHO surgical site infection guidelines",
+  "strategy": "A fight bite is a joint infection waiting to happen. Irrigate it, never suture it.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -64197,28 +64197,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRA-1876",
   "categorySlug": "med-surg",
-  "stem": "A patient is still drowsy after general anaesthesia. How should she be positioned?",
+  "stem": "A patient in the recovery room cannot lift his head off the pillow or grip the nurse's hand firmly. What does this indicate?",
   "choices": [
    {
     "id": "a",
-    "text": "Flat on her back so that her airway remains straight"
+    "text": "He is still sleepy from the anaesthetic and needs more time"
    },
    {
     "id": "b",
-    "text": "On her side, so secretions and vomit drain out of the mouth"
+    "text": "The muscle relaxant has not worn off and his airway is at risk"
    },
    {
     "id": "c",
-    "text": "Sitting fully upright to help her lungs expand"
+    "text": "He is guarding his neck because the operation was painful"
    },
    {
     "id": "d",
-    "text": "Face down to keep the surgical wound free of pressure"
+    "text": "He is ready to return to the ward once his observations are stable"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"On her side, so secretions and vomit drain out of the mouth\". Anaesthesia abolishes the gag and cough reflexes, so <strong>a drowsy patient lying on her back can inhale vomit or secretions without any protective response</strong>. The lateral position lets fluid drain out by gravity and keeps the tongue forward. Supine is the classic error; <strong>sitting an unconscious patient upright lets the head fall forward and occlude the airway</strong>; and prone makes both observation and rescue impossible.\n\nWhy the other options fail:\n• A — Supine allows the tongue to fall back and vomit to be inhaled.\n• C — An unconscious patient's head falls forward and occludes the airway.\n• D — Prone prevents observation and makes airway rescue impossible.\n\nReference: Ghana STG — perioperative care",
-  "strategy": "Unprotected airway goes on its side. Gravity does what the reflexes cannot.",
+  "rationale": "CORRECT (B) — \"The muscle relaxant has not worn off and his airway is at risk\". Holding the head off the pillow for five seconds, and a firm grip, are the bedside tests of recovery from neuromuscular blockade. <strong>If he cannot do them, the muscles of the airway and of breathing are still partly paralysed</strong>, and the danger is obstruction, aspiration and respiratory failure after transfer. A nasal voice, double vision and shallow breathing point the same way. The nurse keeps him in recovery with oxygen, suction and monitoring, and informs the anaesthetist, because reversal may be needed.\n\nWhy the other options fail:\n• A — Sleepiness does not stop a patient lifting the head; weakness does.\n• C — Pain restricts movement of the wound, not the strength of the neck flexors or the hand.\n• D — Stable observations and an ability to answer questions do not test muscle power.\n\nReference: AAGBI — immediate post-anaesthetic recovery; Ghana STG — perioperative care",
+  "strategy": "Five-second head lift is the test. If he fails it, he is not safe to leave recovery.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -64301,28 +64301,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRA-1879",
   "categorySlug": "med-surg",
-  "stem": "A patient's laparotomy wound has opened and bowel is visible. What should the nurse do?",
+  "stem": "A man with a fractured pelvis has a drop of blood at the urinary meatus. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "Push the bowel gently back and apply a firm bandage"
+    "text": "Insert a urinary catheter to measure the urine output hourly"
    },
    {
     "id": "b",
-    "text": "Cover with a sterile saline-soaked dressing and call the surgeon"
+    "text": "Leave the catheter out and report the finding immediately"
    },
    {
     "id": "c",
-    "text": "Leave the area uncovered so that the surgeon can see it"
+    "text": "Press on the lower abdomen to empty the bladder of urine"
    },
    {
     "id": "d",
-    "text": "Sit her fully upright and give her a warm drink"
+    "text": "Give a diuretic and record the volume of urine passed"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Cover with a sterile saline-soaked dressing and call the surgeon\". Exposed bowel <strong>dries and is damaged within minutes, so a sterile saline-soaked cover is the immediate priority</strong>, with the patient laid flat with knees slightly bent to reduce abdominal tension, kept nil by mouth for theatre, and the surgeon called. Handling the bowel <strong>introduces infection and can perforate it</strong>, leaving it uncovered lets it dry, and sitting up with a drink both raises tension and delays anaesthesia.\n\nWhy the other options fail:\n• A — Handling exposed bowel introduces infection and may perforate it.\n• C — Uncovered bowel dries out and is damaged within minutes.\n• D — Sitting up raises abdominal tension and oral fluid delays theatre.\n\nReference: Ghana STG — post-operative care",
-  "strategy": "Cover it wet and sterile, lay her flat, nil by mouth, call theatre.",
+  "rationale": "CORRECT (B) — \"Leave the catheter out and report the finding immediately\". Blood at the meatus after a pelvic fracture suggests <strong>the urethra has been torn</strong>, and a catheter pushed blindly can turn a partial tear into a complete one and infect the pelvic haematoma. The other signs are perineal or scrotal bruising, a high-riding prostate on rectal examination, and inability to pass urine with a full bladder. The diagnosis is made by retrograde urethrogram, and bladder drainage, if it is needed, is by suprapubic catheter placed by the urologist.\n\nWhy the other options fail:\n• A — Passing the catheter is the action that can complete the tear.\n• C — Pressing the bladder can force urine through the tear into the tissues.\n• D — A diuretic makes more urine against a blocked outlet and does nothing for the injury.\n\nReference: ATLS 10th edition — genitourinary trauma; Ghana STG — urology",
+  "strategy": "Blood at the meatus after pelvic trauma means no catheter until the urethra has been imaged.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -64437,28 +64437,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRA-1883",
   "categorySlug": "med-surg",
-  "stem": "After prostate surgery the irrigation outflow has turned bright red with clots. What should the nurse do?",
+  "stem": "Why can a degloving injury of the thigh threaten life out of proportion to the size of the wound?",
   "choices": [
    {
     "id": "a",
-    "text": "Increase the irrigation rate and inform the surgeon promptly"
+    "text": "Stripped skin tears its vessels and bleeds into the tissue planes"
    },
    {
     "id": "b",
-    "text": "Stop the irrigation so that the bleeding can clot naturally"
+    "text": "The exposed muscle loses heat and can no longer warm the body"
    },
    {
     "id": "c",
-    "text": "Reduce the irrigation rate to allow the clots to settle"
+    "text": "The pain is far greater than in other wounds and causes fainting"
    },
    {
     "id": "d",
-    "text": "Continue unchanged and reassess at the next observation round"
+    "text": "Air enters the tissue planes and causes a rapidly spreading infection"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Increase the irrigation rate and inform the surgeon promptly\". Irrigation exists to <strong>keep clots from forming and blocking the catheter, so heavier bleeding requires faster, not slower, irrigation</strong> while the surgeon is informed. Stopping or slowing it lets clots organise and obstruct the catheter, and <strong>a blocked catheter in a bleeding bladder causes painful distension and worsens the bleeding</strong>. Simply waiting for the next round allows exactly that to happen.\n\nWhy the other options fail:\n• B — Stopping irrigation allows clots to form and block the catheter.\n• C — Slowing it lets clots organise and obstruct outflow.\n• D — Waiting risks obstruction and painful bladder distension.\n\nReference: Ghana STG — urological surgery",
-  "strategy": "More blood means more irrigation, not less. Never let the clots settle.",
+  "rationale": "CORRECT (A) — \"Stripped skin tears its vessels and bleeds into the tissue planes\". In a degloving injury the skin and fat are sheared off the fascia, and the vessels that crossed that plane are torn with them, so <strong>litres can bleed into the space under the flap while the surface looks like a graze</strong>. The raw surface also loses fluid and heat, and the devitalised fat becomes a medium for infection. That is why the patient is resuscitated and watched for shock before the wound is judged by its size, and why the area goes to theatre for debridement rather than being stitched.\n\nWhy the other options fail:\n• B — Heat loss is real but contributes far less than the concealed bleeding.\n• C — The pain is severe, but pain alone does not make the injury life-threatening.\n• D — Gas in the tissues comes later, from infection, and is not the mechanism of the initial danger.\n\nReference: ATLS 10th edition — soft tissue injury; Ghana STG — wound management",
+  "strategy": "Judge a degloving by what has bled into it, not by the size of the hole.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
