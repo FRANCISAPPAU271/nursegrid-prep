@@ -109,9 +109,9 @@ export const NCX6_PART_E: AuthoredQuestion[] = [
     stem: "A client with **dysuria, frequency and suprapubic pain** has a urinalysis. Which result should prompt a **repeat test**?",
     choices: [
       "No white cells and no red cells reported",
-      "Negative glucose",
-      "Red cells present",
-      "Specific gravity 1.018",
+      "A negative glucose result in a patient with these symptoms",
+      "Red cells present in the urine, which suggests infection",
+      "A specific gravity of 1.018, which is at the upper end of normal",
     ],
     correct: "a",
     explain: "<strong>Classic cystitis symptoms demand inflammatory urine</strong> — white cells (infection's soldiers) and red cells (irritated bleeding mucosa) should appear, so a blank report clashes with the story and the test must be repeated. Glucose is irrelevant to cystitis, red cells alone fit the picture, and 1.018 merely describes concentration.",

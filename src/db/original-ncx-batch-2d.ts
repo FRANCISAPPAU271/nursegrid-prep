@@ -89,9 +89,9 @@ export const NCX2_PART_D: AuthoredQuestion[] = [
     stem: "A woman is admitted with hypoparathyroidism and a serum calcium of 1.6 mmol/L. Which nursing action has the **highest** priority?",
     choices: [
       "Keep intravenous calcium gluconate and airway equipment at the bedside and monitor her for laryngeal stridor and cardiac dysrhythmias",
-      "Begin a teaching plan about her lifelong calcium and vitamin D treatment",
-      "Protect her from respiratory infection by limiting visitors",
-      "Review her laboratory results for the trend in phosphate",
+      "Begin the teaching plan about lifelong calcium and vitamin D, because she goes home on both",
+      "Protect her from chest infection by limiting visitors, because infection would worsen the tetany",
+      "Review the laboratory trend in her phosphate, because a high phosphate explains the low calcium",
     ],
     correct: "a",
     explain: "Severe hypocalcaemia causes <strong>neuromuscular irritability</strong> that can progress to <strong>laryngospasm (airway obstruction), seizures and life-threatening dysrhythmias</strong> from a prolonged QT interval. Readiness to give intravenous calcium and to support the airway, with continuous observation, protects life; everything else follows.",

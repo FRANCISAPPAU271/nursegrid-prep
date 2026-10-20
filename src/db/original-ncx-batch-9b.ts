@@ -329,9 +329,9 @@ export const NCX9_PART_B: AuthoredQuestion[] = [
     stem: "A **3-month-old** presents with a **fractured femur** 'from rolling off the bed'. Which is the **priority action**?",
     choices: [
       "Question the mother about sleep and the injury story",
-      "Document the findings",
-      "Photograph the injury",
-      "Advise about tetanus vaccination",
+      "Document the findings clearly in the child's health record",
+      "Photograph the injury for the medical and legal record",
+      "Advise the mother about tetanus vaccination for the child and for herself",
     ],
     correct: "a",
     explain: "<strong>Implausible fractures interrogate stories first</strong> — non-mobile infants don't roll-and-fracture femurs, so detailed history probes the abuse red flag before documenting, photographing (forensic protocol) or vaccinating irrelevantly. Storied probed; photographed protocolled.",

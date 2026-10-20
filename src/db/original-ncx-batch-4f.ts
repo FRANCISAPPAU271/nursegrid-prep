@@ -389,9 +389,9 @@ export const NCX4_PART_F: AuthoredQuestion[] = [
     stem: "After a **subtotal thyroidectomy** for hyperthyroidism, which item at the bedside is **non-essential**?",
     choices: [
       "Potassium chloride for intravenous administration",
-      "Calcium gluconate for intravenous use",
-      "Tracheostomy set",
-      "Suction equipment",
+      "Calcium gluconate drawn up for intravenous use, in case the parathyroids were bruised",
+      "A tracheostomy set unpacked and checked, in case the airway is obstructed by a haematoma",
+      "Suction equipment tested and ready, because secretions or vomit can block the airway",
     ],
     correct: "a",
     explain: "<strong>Hypokalaemia is not an expected post-thyroidectomy emergency</strong> — the watched dangers are airway obstruction (haematoma, laryngeal oedema), hypocalcaemia from bruised parathyroids (tingling, Chvostek's and Trousseau's signs, tetany) and thyroid storm. So calcium, an airway set and suction stay ready; routine IV potassium does not.",

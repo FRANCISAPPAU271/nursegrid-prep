@@ -169,9 +169,9 @@ export const NCX7_PART_G: AuthoredQuestion[] = [
     stem: "A client takes **phenothiazines**. Which **side effect** is **expected**?",
     choices: [
       "Orthostatic hypotension",
-      "Hypertension",
-      "Bradycardia",
-      "Tachypnoea",
+      "Hypertension, with a raised systolic blood pressure",
+      "Bradycardia, with a pulse below 55 beats per minute",
+      "Tachypnoea, with a respiratory rate above 24 per minute",
     ],
     correct: "a",
     explain: "<strong>Phenothiazines drop standing pressures predictably</strong> — alpha-blockade orthostasis is the classic expected effect, not hypertension, bradycardia or tachypnoea. Risen slow; fainted never.",

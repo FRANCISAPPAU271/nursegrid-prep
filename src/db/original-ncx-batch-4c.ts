@@ -349,9 +349,9 @@ export const NCX4_PART_C: AuthoredQuestion[] = [
     stem: "During school health screening, which observation in an 8-year-old girl **most suggests scoliosis**?",
     choices: [
       "Visible asymmetry of the shoulders, ribs and waist on bending forward",
-      "A waddling gait with frequent falls",
-      "Swollen oedematous lower legs",
-      "A sharply protruding breastbone",
+      "A waddling gait with frequent falls on the playground",
+      "Swollen, oedematous lower legs at the end of the school day",
+      "A sharply protruding breastbone with an indrawn abdomen",
     ],
     correct: "a",
     explain: "<strong>Scoliosis twists the spine sideways and rotates the rib cage</strong>, so one shoulder rides higher, the ribs hump on one side during the forward-bend test and the waist creases unevenly. Early detection allows bracing and monitoring before curves stiffen; waddling, oedema and pigeon chest point to hips, circulation and chest-wall conditions instead.",

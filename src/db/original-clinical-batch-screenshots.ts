@@ -10,7 +10,7 @@ export const ORIGINAL_CLINICAL_BATCH_SCREENSHOTS: AuthoredQuestion[] = [
     authoredId: "NG-ORIGINAL-CLINICAL-0051",
     categorySlug: "med-surg",
     stem: "A 28-year-old passenger is brought to the emergency department following a road traffic collision with blunt chest trauma. On physical assessment, the nurse observes that an isolated section of the anterior rib cage sinks inward during inspiration and expands outward during expiration. Which condition does the nurse recognise?",
-    choices: [{"id": "a", "text": "Open pneumothorax"}, {"id": "b", "text": "Cardiac tamponade"}, {"id": "c", "text": "Tension pneumothorax"}, {"id": "d", "text": "Flail chest with paradoxical breathing"}],
+    choices: [{"id": "a", "text": "Open pneumothorax with a sucking wound on the chest wall"}, {"id": "b", "text": "Cardiac tamponade with muffled heart sounds and a raised venous pressure"}, {"id": "c", "text": "Tension pneumothorax with absent breath sounds on one side"}, {"id": "d", "text": "Flail chest with paradoxical breathing"}],
     correctChoiceId: "d",
     rationale: "Flail chest occurs when two or more contiguous ribs are fractured in two or more places, creating a free-floating chest wall segment. The hallmark physical finding is paradoxical chest movement: the detached segment moves inward on inspiration due to negative intrathoracic pressure and outward on expiration.",
     strategy: "Look for opposite chest movement with breathing (inward on inspiration, outward on expiration) \u2014 this is the classic definition of paradoxical chest wall motion in flail chest.",

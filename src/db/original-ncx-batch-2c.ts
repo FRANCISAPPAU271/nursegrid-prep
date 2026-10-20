@@ -269,9 +269,9 @@ export const NCX2_PART_C: AuthoredQuestion[] = [
     stem: "A community nurse visits a bed-bound woman with a long-term urinary catheter. Her son thinks the catheter is blocked. Which finding would **confirm** his suspicion?",
     choices: [
       "A palpable, tender bladder above the pubic bone with little or no urine in the bag over the past hours",
-      "She complains of burning around the catheter",
-      "The urine in the bag is dark and concentrated",
-      "She says she constantly feels the need to pass urine",
+      "She complains of burning and soreness around the site, because the balloon presses on the urethra",
+      "The urine in the bag is dark and concentrated, because it has been standing there for hours",
+      "She says she constantly feels the urge to pass urine, because the catheter irritates the bladder wall",
     ],
     correct: "a",
     explain: "When a catheter is obstructed by debris, clots or a kink, urine cannot drain and the bladder <strong>fills and distends</strong>, producing a palpable suprapubic swelling, discomfort and <strong>a dry bag despite adequate intake</strong>. The nurse checks for kinks, repositions the tubing, and if drainage does not resume, changes the catheter.",

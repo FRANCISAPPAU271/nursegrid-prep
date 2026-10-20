@@ -109,9 +109,9 @@ export const NCX5_PART_E: AuthoredQuestion[] = [
     stem: "While walking on day 2 after abdominal surgery, a woman reports a **dull ache in her left calf**. Which nursing response is **correct**?",
     choices: [
       "Assess fully for deep vein thrombosis, avoid massage, and notify the doctor urgently for Doppler and anticoagulation work-up",
-      "Order strict bed rest for a week with the leg hanging down",
-      "Massage the calf firmly to disperse the clot",
-      "Slip a pillow under the knee and tell her to walk it off alone",
+      "Order strict bed rest for a week with the leg hanging down, because gravity keeps the clot from travelling",
+      "Massage the calf firmly, because breaking up the clot restores the flow and eases the ache",
+      "Put a pillow under the knee for support and let her walk it off, because the ache is only muscular",
     ],
     correct: "a",
     explain: "<strong>Postoperative calf pain is deep vein thrombosis until proven otherwise.</strong> The nurse assesses swelling, warmth, redness, Homans-independent signs and risk factors, never massages (embolus risk), keeps the leg level, notifies urgently for Doppler ultrasound, and expects therapeutic anticoagulation — after which early mobilisation continues. Prolonged bed rest is obsolete and itself clots veins.",

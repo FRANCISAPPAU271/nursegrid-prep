@@ -229,9 +229,9 @@ export const NCX8_PART_A: AuthoredQuestion[] = [
     stem: "Which technique does the nurse use to detect a fluid thrill in a patient with ascites?",
     choices: [
       "Percussion, with a hand placed on the flank to feel the transmitted impulse",
-      "Inspection of the abdominal contour",
-      "Auscultation of the abdomen for borborygmi",
-      "Light palpation of the umbilicus",
+      "Inspection of the abdominal contour from the foot of the bed",
+      "Auscultation of the abdomen for borborygmi in each quadrant",
+      "Light palpation around the umbilicus with the flat of the hand",
     ],
     correct: "a",
     explain: "A fluid thrill is detected by percussing one flank while an assistant places the edge of a hand on the midline, and the nurse feels for a transmitted impulse on the opposite flank, which confirms a large volume of free fluid. Shifting dullness is the related percussion technique.",

@@ -144,9 +144,9 @@ export const NCX_PART_C: AuthoredQuestion[] = [
     stem: "A 54-year-old man has received intravenous ceftriaxone once daily for a post-operative wound infection for nine days. Which observation is **most important** for the nurse to make?",
     choices: [
       "White patches on the tongue and any new, frequent loose stools",
-      "His haemoglobin and haematocrit",
-      "Skin folds under the arms and groin",
-      "The colour of his urine",
+      "His haemoglobin and haematocrit on the latest blood count",
+      "Skin folds under the arms and in the groin for any rash",
+      "The colour and clarity of his urine output each shift",
     ],
     correct: "a",
     explain: "Prolonged broad-spectrum antibiotic therapy destroys protective normal flora and permits <strong>superinfection</strong> — oral <strong>candidiasis</strong> on the tongue and <strong>Clostridioides difficile diarrhoea</strong> in the bowel. Both can become serious and both are detected by simple daily observation.",

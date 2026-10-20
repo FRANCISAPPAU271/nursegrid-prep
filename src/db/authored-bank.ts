@@ -6627,11 +6627,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "After 48 hours of treatment"
+    "text": "After 48 hours of treatment, when the antibiotics have had time to work"
    },
    {
     "id": "b",
-    "text": "Only if the patient fails to improve"
+    "text": "Only if the patient fails to improve after the first day of treatment"
    },
    {
     "id": "c",
@@ -6639,7 +6639,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "After the patient has been discharged"
+    "text": "After the patient has been discharged, at the follow-up clinic"
    }
   ],
   "correctChoiceId": "c",
@@ -52088,15 +52088,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "An acute haemolytic reaction"
+   "text": "An acute haemolytic reaction to the red cells in the unit"
   },
   {
    "id": "c",
-   "text": "Bacterial contamination of the unit"
+   "text": "Bacterial contamination of the blood unit during storage"
   },
   {
    "id": "d",
-   "text": "Transfusion-related acute lung injury"
+   "text": "Transfusion-related acute lung injury from donor antibodies"
   }
  ],
  "correctChoiceId": "a",
@@ -112265,7 +112265,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Palpate the mass firmly to assess its size"
+   "text": "Palpate the mass firmly to assess its size, then record the findings in the notes"
   },
   {
    "id": "b",
@@ -112273,11 +112273,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Give oral fluids and reassess in an hour"
+   "text": "Give oral fluids and reassess his blood pressure in an hour"
   },
   {
    "id": "d",
-   "text": "Apply a heat pack to the back pain"
+   "text": "Apply a heat pack to the back pain and reassess him after it"
   }
  ],
  "correctChoiceId": "b",
@@ -112296,11 +112296,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "A fasting blood glucose"
+   "text": "A fasting blood glucose and glycated haemoglobin"
   },
   {
    "id": "b",
-   "text": "Serum calcium"
+   "text": "Serum calcium and a vitamin D level"
   },
   {
    "id": "c",
@@ -112308,7 +112308,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "A chest radiograph"
+   "text": "A chest radiograph to look for chronic infection"
   }
  ],
  "correctChoiceId": "c",
@@ -112328,15 +112328,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Give paracetamol and reassess in the morning"
+   "text": "Give paracetamol and reassess his temperature in the morning, because he looks well in himself"
   },
   {
    "id": "b",
-   "text": "Advise him to increase oral fluids and stay at home"
+   "text": "Advise him to increase his fluids and stay at home, because he can return if he feels worse"
   },
   {
    "id": "c",
-   "text": "Arrange an outpatient review next week"
+   "text": "Arrange an outpatient haematology review next week, because there is nothing to localise"
   },
   {
    "id": "d",
@@ -115610,15 +115610,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Erikson described psychosexual stages, while Freud described psychosocial tasks"
+   "text": "Erikson described the psychosexual stages, while Freud described the psychosocial tasks of each age"
   },
   {
    "id": "b",
-   "text": "Both theories end at adolescence and reject any later development"
+   "text": "Both theories end at adolescence and deny any further development in adult life"
   },
   {
    "id": "c",
-   "text": "Erikson's stages are purely biological, while Freud's are social"
+   "text": "Erikson's stages are purely biological, while Freud's account is purely social and environmental"
   },
   {
    "id": "d",
@@ -115738,15 +115738,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Force paracetamol into the mouth during the seizure"
+   "text": "Force paracetamol into the mouth during the seizure to bring the fever down"
   },
   {
    "id": "b",
-   "text": "Restrain the arms and legs firmly"
+   "text": "Restrain the arms and legs firmly so that the convulsion is controlled"
   },
   {
    "id": "c",
-   "text": "Place a spoon between the teeth"
+   "text": "Place a spoon between the teeth to protect the tongue"
   },
   {
    "id": "d",
@@ -115902,15 +115902,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Whether the family has insurance"
+   "text": "Whether the family has medical insurance to cover the admission"
   },
   {
    "id": "c",
-   "text": "When the child last ate a full meal"
+   "text": "When the child last ate a full meal before the incident"
   },
   {
    "id": "d",
-   "text": "Whether the child can count to ten"
+   "text": "Whether the child can count to ten and knows his colours"
   }
  ],
  "correctChoiceId": "a",
@@ -116346,15 +116346,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Sedatives cure the infection"
+   "text": "Sedatives cure the infection, because resting the liver lets it clear the virus"
   },
   {
    "id": "b",
-   "text": "Immune serum globulin cures established chronic infection"
+   "text": "Immune serum globulin cures established chronic infection, because it contains antibodies to the virus"
   },
   {
    "id": "c",
-   "text": "Vitamin supplements eliminate the virus"
+   "text": "Vitamin supplements eliminate the virus, because they strengthen the immune response"
   },
   {
    "id": "d",
@@ -117018,15 +117018,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "The skull bones are fully fused and cannot move"
+   "text": "The skull bones are fully fused, so the head cannot mould and has to be held rigidly"
   },
   {
    "id": "b",
-   "text": "The brain is smaller than an adult's relative to the body"
+   "text": "The brain is smaller than an adult's in proportion to the body, so it shifts inside the skull"
   },
   {
    "id": "c",
-   "text": "The neck is longer than in an adult"
+   "text": "The neck is longer than in an adult, so the head has further to travel when it flops"
   },
   {
    "id": "d",
@@ -117112,11 +117112,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "She feels mildly tired after mobilising"
+   "text": "She feels tired after walking to the bathroom and back, because she is still recovering from the anaesthetic"
   },
   {
    "id": "b",
-   "text": "She has had one normal bowel movement"
+   "text": "She has had one normal bowel movement since the operation, because her bowels are working again"
   },
   {
    "id": "c",
@@ -117124,7 +117124,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "She has a good appetite and is drinking well"
+   "text": "She has a good appetite and is drinking well, because eating well is what speeds healing"
   }
  ],
  "correctChoiceId": "c",
@@ -117179,15 +117179,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Stand for long periods to strengthen the pelvic floor"
+   "text": "Stand for long periods, because this strengthens the pelvic floor muscles"
   },
   {
    "id": "c",
-   "text": "Rub the exposed tissue with a dry dressing each day"
+   "text": "Rub the exposed tissue with a dry dressing each day to keep it clean"
   },
   {
    "id": "d",
-   "text": "Stay prone for most of the day"
+   "text": "Stay prone for most of the day, so that the prolapse does not descend"
   }
  ],
  "correctChoiceId": "a",

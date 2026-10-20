@@ -69,9 +69,9 @@ export const NCX7_PART_C: AuthoredQuestion[] = [
     stem: "A child who had **rheumatic fever with carditis** is being discharged on penicillin prophylaxis. Which statement should the parents understand most clearly?",
     choices: [
       "The penicillin must be continued long term, because each streptococcal infection can scar the valves further",
-      "It is given only until the fever has settled",
-      "It cures the valve damage that has already occurred",
-      "It can be stopped once the child feels completely well",
+      "It is given only until the fever has settled, because the infection will then have been cured",
+      "It repairs the valve damage that has already happened, so the child will not need surgery",
+      "It can be stopped once the child feels well again, because the valve damage is already fixed",
     ],
     correct: "a",
     explain: "Rheumatic fever can permanently scar the heart valves, and every subsequent streptococcal throat infection risks another attack and more scarring. Children who had carditis therefore need continuous prophylaxis for many years, often for life, which is exactly what parents must grasp because the child will feel entirely well while still needing the medicine. Option B is wrong because the fever settling has nothing to do with the duration. Option C confuses prevention with repair: penicillin prevents further damage, it does not reverse existing scarring. Option D is the reason most prophylaxis fails.",

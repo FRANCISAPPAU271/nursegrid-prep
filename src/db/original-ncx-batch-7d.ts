@@ -209,9 +209,9 @@ export const NCX7_PART_D: AuthoredQuestion[] = [
     stem: "A client with **dementia** **wanders at night**. Which intervention is **best**?",
     choices: [
       "Provide a safe wandering area with supervision",
-      "Restrain in bed overnight",
-      "Lock the room door",
-      "Give sedatives at bedtime",
+      "Restrain him in bed overnight so that he cannot get up",
+      "Lock the door of his room from the outside at night",
+      "Give sedatives at bedtime so that he sleeps through the night",
     ],
     correct: "a",
     explain: "<strong>Wanderers walked safe wander supervised</strong> — secure areas honour movement needs protectively, while restraints injure, locked doors panic, and sedatives fall. Walked safe; restrained never.",

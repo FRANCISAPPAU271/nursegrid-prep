@@ -89,9 +89,9 @@ export const NCX9_PART_A: AuthoredQuestion[] = [
     stem: "Newborns sleep **supine** to prevent which?",
     choices: [
       "Sudden infant death syndrome",
-      "Anencephaly",
-      "Edwards syndrome",
-      "Achondroplasia",
+      "Anencephaly, a failure of neural tube closure",
+      "Edwards syndrome, a chromosomal abnormality",
+      "Achondroplasia, a disorder of cartilage growth",
     ],
     correct: "a",
     explain: "<strong>Back-sleeping halves SIDS risk famously</strong> — supine positioning is the cornerstone safe-sleep rule, while anencephaly, Edwards and achondroplasia are congenital conditions positioning never prevents. Backed protected; stilled never.",
