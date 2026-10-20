@@ -266,12 +266,12 @@ export const NCX4_PART_C: AuthoredQuestion[] = [
   }),
   q({
     n: 304, cat: "med-surg",
-    stem: "On the neurology ward a nurse finds that a patient has suddenly developed a **fixed and dilated pupil**. Which action is **most appropriate**?",
+    stem: "A four-year-old has a discharging ear for ten days and now has a red, tender swelling behind the ear that pushes the pinna forward. What is this, and what does it need?",
     choices: [
-      "Contact the doctor immediately and prepare for emergency neuroimaging",
-      "Recheck the pupil in 30 minutes to see if it resolves",
-      "Test near and distant vision in detail",
-      "Lower the head of the bed flat",
+      "Mastoiditis, which needs intravenous antibiotics and an urgent ENT opinion",
+      "Otitis externa, which needs antibiotic ear drops and a wick in the canal",
+      "A sebaceous cyst, which needs incision and drainage in the outpatient clinic",
+      "Enlarged lymph nodes, which need observation and a review in one month",
     ],
     correct: "a",
     explain: "A <strong>new blown pupil signals uncal herniation or third-nerve compression until proven otherwise</strong> — a neurosurgical emergency. The nurse keeps the head midline with the bed up 30 degrees, gives oxygen, runs full neuro-observations and summons the doctor for an urgent scan and possible theatre; watching and waiting can cost the patient's life.",
@@ -281,7 +281,7 @@ export const NCX4_PART_C: AuthoredQuestion[] = [
       d: "Laying the bed flat increases intracranial pressure; the head stays elevated, never lowered.",
     },
     ref: "Ghana STG — raised intracranial pressure; head injury emergencies",
-    strategy: "Decision tree: a new focal neuro emergency needs a doctor now, not more bedside tests.",
+    strategy: "Ear discharge that will not settle, then a red tender swelling behind the ear: mastoiditis. IV antibiotics, ENT now.",
     tags: ["pupil", "intracranial-pressure", "herniation", "emergency"],
   }),
   q({

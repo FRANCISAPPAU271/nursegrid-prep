@@ -22813,28 +22813,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TCM-0665",
   "categorySlug": "health-promotion",
-  "stem": "A herbal product sold in a Ghanaian market carries no Food and Drugs Authority registration number. Why does this matter?",
+  "stem": "A patient has circular bruises and a healing burn on his back after a traditional cupping session. How should the nurse respond?",
   "choices": [
    {
     "id": "a",
-    "text": "Its safety, quality and contents have not been assessed by any regulator"
+    "text": "Report the practitioner to the police, since cupping is a form of assault on the patient"
    },
    {
     "id": "b",
-    "text": "It will be more expensive than an equivalent product that has been registered"
+    "text": "Say nothing about it, because commenting on a patient's cultural practice is not allowed"
    },
    {
     "id": "c",
-    "text": "It cannot legally be used together with any medicine prescribed at a hospital"
+    "text": "Ask about the treatment without judgement, treat the burn and explain the infection risk"
    },
    {
     "id": "d",
-    "text": "It indicates the seller is not a registered traditional medicine practitioner"
+    "text": "Tell him that cupping is scientifically proven and that he should continue the sessions"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Its safety, quality and contents have not been assessed by any regulator\". FDA registration is what confirms a product has been <strong>assessed for safety, quality and correct labelling</strong>, and tested for contaminants. Unregistered preparations in Ghana have been found to contain <strong>bacteria and moulds, heavy metals such as lead and mercury, and undeclared orthodox drugs including steroids and analgesics</strong>. Without registration the buyer cannot know what is in the container, what dose it contains, or whether it is what the label claims.\n\nWhy the other options fail:\n• B — Unregistered products are often cheaper, not dearer, which is part of why they remain popular.\n• C — There is no such rule, and in practice patients combine them freely. The issue is the unknown contents.\n• D — Practitioner registration and product registration are separate. A registered practitioner may still sell an unregistered product.\n\nReference: Ghana Food and Drugs Authority — herbal medicines registration",
-  "strategy": "Registration answers the question what is actually in this container. Without it, every other question is unanswerable.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Ask about the treatment without judgement, treat the burn and explain the infection risk\". Cupping is widely used in Ghana and elsewhere, and the bruises it leaves are expected; burns happen when heat is applied for too long or a flammable substance is used. The nurse's job is to ask what was done and by whom, dress the burn with a simple non-adherent dressing, look for signs of infection, check tetanus status and explain how to keep the area clean — while respecting the patient's choice. A judgemental or dismissive response only ensures he will not mention it next time.\n\nWhy the other options fail:\n• A — Cupping is a recognised traditional practice; it is not an assault to be reported to the police.\n• B — Silence leaves the burn untreated and misses an infection.\n• D — Cupping is not proven for the conditions it is used for, and advising more sessions ignores the injury.\n\nReference: WHO — traditional medicine; Ghana STG — burns and traditional practices\n",
+  "strategy": "Cupping bruises are expected; burns are not. Ask without judgement, dress the burn, check tetanus.",
   "difficulty": "hard",
   "tags": [
    "health-promotion",
@@ -46437,28 +46437,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PRC-1356",
   "categorySlug": "fundamentals",
-  "stem": "Why is urine passed at the start of the stream discarded when collecting a midstream specimen?",
+  "stem": "A blood donor session is being held at a Ghanaian district hospital. Which donor must be deferred from giving blood today?",
   "choices": [
    {
     "id": "a",
-    "text": "It washes out organisms that colonise the urethral opening"
+    "text": "A 30-year-old man who weighs 70 kg and last donated four months ago, feeling well since"
    },
    {
     "id": "b",
-    "text": "It is more dilute than the urine that follows it"
+    "text": "A 24-year-old woman who weighs 55 kg and has never donated before in her life"
    },
    {
     "id": "c",
-    "text": "It contains most of the protein that would confuse the result"
+    "text": "A 22-year-old woman with a haemoglobin of 9.5 g/dL who wants to donate"
    },
    {
     "id": "d",
-    "text": "It is the portion most likely to have been contaminated by soap"
+    "text": "A 45-year-old man who ate a light breakfast two hours ago and feels completely well"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"It washes out organisms that colonise the urethral opening\". The distal urethra and perineum carry <strong>normal flora that are not causing disease</strong>. Letting the first stream flush them away means the portion collected reflects <strong>what is actually in the bladder</strong>. Skipping this step produces mixed growth, which the laboratory usually reports as a contaminated specimen, and a repeat is then required — or worse, an antibiotic is prescribed for organisms that were never causing an infection.\n\nWhy the other options fail:\n• B — Concentration is essentially uniform through a single void.\n• C — Protein is distributed through the urine, not concentrated in the first portion.\n• D — Plain water is used for cleansing precisely to avoid introducing antiseptic.\n\nReference: Ghana nursing curriculum — RGN 209 procedures",
-  "strategy": "Ask which organisms live at the exit and how to avoid collecting them.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"A 22-year-old woman with a haemoglobin of 9.5 g/dL who wants to donate\". The donor's haemoglobin is checked before every donation, and a value below the cutoff — commonly 12.5 g/dL for women and 13.0 g/dL for men — means deferral, because taking a unit from an already anaemic woman harms her and gives a poor product. The other requirements are a minimum weight of about 50 kg, an interval of at least three months since the last donation, no active infection, and being fit and well that day; afterwards the donor rests, takes fluids and a snack, and is observed for faintness before leaving.\n\nWhy the other options fail:\n• A — Weight, interval and health all meet the criteria.\n• B — First-time donors are welcome, and 55 kg is above the minimum.\n• D — A light meal and good health are not reasons to defer.\n\nReference: WHO — blood donor selection; Ghana National Blood Service\n",
+  "strategy": "Before a unit is taken, check haemoglobin, weight, interval and health. Anaemia is a deferral, not a detail.",
   "difficulty": "hard",
   "tags": [
    "fundamentals",
@@ -60706,28 +60706,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHD-1774",
   "categorySlug": "pediatrics",
-  "stem": "Why is a severely malnourished child fed small frequent amounts rather than large meals?",
+  "stem": "A newborn has increasing respiratory distress, a scaphoid abdomen and bowel sounds heard in the left chest. What is the diagnosis and what must the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "Rapid feeding shifts electrolytes and overwhelms a weakened heart"
+    "text": "Pneumonia, so the baby needs intravenous antibiotics and oxygen by nasal prongs"
    },
    {
     "id": "b",
-    "text": "Large meals would be vomited because the stomach has shrunk"
+    "text": "A congenital diaphragmatic hernia, so the baby needs a stomach tube and surgery"
    },
    {
     "id": "c",
-    "text": "Small feeds are easier for the mother to prepare on the ward"
+    "text": "A pneumothorax, so the baby needs a chest drain inserted at the bedside immediately"
    },
    {
     "id": "d",
-    "text": "The child's appetite is too poor to manage a larger volume"
+    "text": "A congenital heart defect, so the baby needs an echocardiogram before anything else"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Rapid feeding shifts electrolytes and overwhelms a weakened heart\". Starvation forces the body to adapt — <strong>the heart muscle is reduced, renal function is slow, and potassium, magnesium and phosphate are depleted</strong>. A large carbohydrate load drives those electrolytes into the cells and expands the circulating volume, precipitating cardiac failure and arrhythmia. Hence F-75 first, small and frequent including overnight, moving to F-100 or RUTF only once she is stable — <strong>the recovery phase is deliberately slow because speed is what kills</strong>.\n\nWhy the other options fail:\n• B — Vomiting is a nuisance rather than the fatal mechanism.\n• C — Convenience has no bearing on the feeding regimen.\n• D — Poor appetite is a feature but not why large feeds are dangerous.\n\nReference: Ghana CMAM guidelines; WHO management of severe acute malnutrition",
-  "strategy": "A starved body has adapted. Undoing that adaptation fast is what kills.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"A congenital diaphragmatic hernia, so the baby needs a stomach tube and surgery\". A hole in the diaphragm lets bowel herniate into the chest, which pushes the mediastinum across and compresses the lung that should be there; that is why the abdomen looks flat while breath sounds are absent on the affected side and bowel sounds are heard in the chest. A nasogastric tube is passed at once to keep the bowel empty, the baby is intubated and ventilated if needed, and surgery follows after stabilisation. Bag-and-mask ventilation is avoided because it inflates the herniated bowel and further compresses the lung.\n\nWhy the other options fail:\n• A — Pneumonia does not empty the abdomen or put bowel sounds in the chest.\n• C — A pneumothorax gives hyper-resonance and absent breath sounds, but not a scaphoid abdomen with bowel sounds in the chest.\n• D — The picture is mechanical, and delaying decompression to obtain an echocardiogram would be harmful.\n\nReference: WHO — newborn surgical emergencies; Ghana STG — congenital anomalies\n",
+  "strategy": "Scaphoid abdomen, bowel sounds in the chest: congenital diaphragmatic hernia. Drain the stomach, avoid bagging, call the surgeons.",
   "difficulty": "hard",
   "tags": [
    "pediatrics",
@@ -86307,28 +86307,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2516",
   "categorySlug": "safety-infection-control",
-  "stem": "After a surgical hand scrub, how should the hands be held before gowning?",
+  "stem": "A patient who has taken steroids for months develops a sudden fever, abdominal pain and shock. His stool contains larvae, and the laboratory reports Strongyloides. Why is this so dangerous?",
   "choices": [
    {
     "id": "a",
-    "text": "Below the level of the elbows so water drains off the fingertips"
+    "text": "Because the larvae burrow through the skin and cause severe itching that cannot be treated"
    },
    {
     "id": "b",
-    "text": "At the sides of the body with the palms facing backwards"
+    "text": "Because steroids allow the larvae to multiply and carry gut bacteria throughout the body"
    },
    {
     "id": "c",
-    "text": "Above the level of the elbows so water drains towards the elbows"
+    "text": "Because the worm blocks the bowel and causes an obstruction needing immediate surgery"
    },
    {
     "id": "d",
-    "text": "Clasped together in front of the chest to keep them warm"
+    "text": "Because the infection is untreatable once it has reached the bloodstream from the gut"
    }
   ],
-  "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Above the level of the elbows so water drains towards the elbows\". The scrub proceeds from fingertips towards elbows, so the hands finish cleanest and the elbows least clean. Holding the hands above the elbows makes water run from the cleanest area towards the least clean, whereas lowering them would carry contaminated water from the forearms back down over the fingers that are about to enter the sterile gloves. Drying follows the same direction, with a sterile towel used from fingertips to elbow and discarded rather than returned to the hand. The principle is that in surgical asepsis the direction of flow always runs from clean towards less clean.\n\nWhy the other options fail:\n• A — Draining off the fingertips carries contaminated forearm water over the cleanest part of the hands.\n• B — Holding the hands at the sides risks contact with clothing and the surrounding environment.\n• D — Clasping the hands together brings surfaces into contact and serves no aseptic purpose.\n\nReference: Standard surgical scrub technique",
-  "strategy": "Track the direction of flow. Clean to less clean is the underlying rule for scrubbing, drying, gowning and wound cleaning alike.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"Because steroids allow the larvae to multiply and carry gut bacteria throughout the body\". Strongyloides is unusual because its larvae can reinfect the same host through the gut wall or the skin, so the infection can persist for decades without further exposure. When immunity is suppressed, especially by corticosteroids, this cycle accelerates into hyperinfection: huge numbers of larvae cross the gut carrying enteric bacteria with them, producing sepsis and meningitis, often with Gram-negative organisms and sometimes with no eosinophilia to hint at the worm. Treatment is ivermectin, and screening and treating before steroids in at-risk patients prevents it.\n\nWhy the other options fail:\n• A — Itching is a minor part of the illness, and it is treatable.\n• C — The worm does not obstruct the bowel; the danger is dissemination.\n• D — It is treatable with ivermectin, which is why recognising it matters.\n\nReference: WHO — soil-transmitted helminths; CDC — strongyloidiasis hyperinfection\n",
+  "strategy": "Strongyloides plus steroids can become hyperinfection — larvae carrying gut bacteria through the body. Ivermectin.",
   "difficulty": "medium",
   "tags": [
    "safety-infection-control",
@@ -87378,28 +87378,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2548",
   "categorySlug": "safety-infection-control",
-  "stem": "What free residual chlorine level is recommended in drinking water during a cholera outbreak in Ghana?",
+  "stem": "A 19-year-old has a severe sore throat on one side, cannot open his mouth fully and his voice sounds muffled. The uvula is pushed away from the painful side. What is this, and what is the concern?",
   "choices": [
    {
     "id": "a",
-    "text": "At least 0.5 mg per litre"
+    "text": "Simple tonsillitis, which will settle with oral penicillin and warm salt-water gargles at home"
    },
    {
     "id": "b",
-    "text": "At least 0.05 mg per litre"
+    "text": "A peritonsillar abscess, which may need drainage and can threaten the airway"
    },
    {
     "id": "c",
-    "text": "At least 5 mg per litre"
+    "text": "Infectious mononucleosis, which needs bed rest and avoidance of contact sports only"
    },
    {
     "id": "d",
-    "text": "Chlorine is not used during outbreaks"
+    "text": "A dental abscess, which needs a tooth extraction before any antibiotic is started"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"At least 0.5 mg per litre\". Routine drinking water supplies are maintained at a free residual chlorine level of 0.2 to 0.5 mg per litre, and during an outbreak the level is raised to at least 0.5 mg per litre to provide a wider margin of safety against contamination in the distribution system and at the point of use. The residual matters because it is what remains available to inactivate organisms introduced after treatment. Chlorine is also inactivated by organic matter, which is why turbid water must be filtered or allowed to settle before chlorination. The principle is that the residual, not the dose added, is what protects the water.\n\nWhy the other options fail:\n• B — A level of 0.05 mg per litre is an order of magnitude too low to provide any meaningful protection.\n• C — 5 mg per litre is far above the recommended level and would make the water unpalatable.\n• D — Chlorination is one of the principal control measures in a cholera outbreak, not something suspended during one.\n\nReference: WHO guidelines for drinking water quality; Ghana Health Service cholera response",
-  "strategy": "Hold both figures as a pair: 0.2 to 0.5 routinely, at least 0.5 in an outbreak. The outbreak figure is the higher one, which is intuitive.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"A peritonsillar abscess, which may need drainage and can threaten the airway\". A quinsy forms between the tonsil and the pharyngeal wall, so the pain is one-sided and severe, the jaw is held partly closed by trismus, the voice is muffled, and the swollen tonsil pushes the uvula to the opposite side. The danger is not the throat pain but the airway: the swelling can obstruct breathing, and infection can track into the parapharyngeal space or the neck. Treatment is intravenous antibiotics with needle aspiration or incision and drainage by an ENT team, and the nurse watches swallowing, voice, drooling and breathing.\n\nWhy the other options fail:\n• A — Simple tonsillitis is bilateral and does not push the uvula aside or lock the jaw.\n• C — Glandular fever causes bilateral enlargement and fatigue, without a unilaterally displaced uvula.\n• D — A dental abscess points to a carious tooth and facial swelling, not a peritonsillar collection.\n\nReference: Ghana STG — upper airway infection; ENT UK — quinsy management\n",
+  "strategy": "One-sided throat with trismus and a displaced uvula is a quinsy. Antibiotics and drainage, and watch the airway.",
   "difficulty": "medium",
   "tags": [
    "safety-infection-control",
@@ -95840,28 +95840,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2794",
   "categorySlug": "risk-reduction",
-  "stem": "The laboratory telephones a Ghanaian ward with a critical potassium result. What must the nurse do while taking the call?",
+  "stem": "A man who has been drinking heavily vomits repeatedly, then brings up a large amount of fresh blood. He is not jaundiced and has no liver disease. What is the likely cause?",
   "choices": [
    {
     "id": "a",
-    "text": "Memorise the value and pass it to the doctor at the next opportunity"
+    "text": "Bleeding oesophageal varices from undiagnosed cirrhosis of the liver"
    },
    {
     "id": "b",
-    "text": "Write it down, read it back to confirm, and record who called and when"
+    "text": "A peptic ulcer that has perforated into the abdominal cavity"
    },
    {
     "id": "c",
-    "text": "Ask the laboratory to send it in writing instead and end the call"
+    "text": "A Mallory-Weiss tear at the junction of the oesophagus and stomach"
    },
    {
     "id": "d",
-    "text": "Note it on a scrap of paper to be transferred to the chart later"
+    "text": "Stomach cancer that has eroded through a large blood vessel"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Write it down, read it back to confirm, and record who called and when\". A telephoned critical result is a verbal instruction carrying the same risk as a verbal drug order: a misheard digit changes the whole meaning, and 6.9 and 3.9 sound similar on a poor line. The safeguard is write down, read back and confirm, followed by recording the caller's name, the time and the value in the notes. Escalation to the doctor then follows immediately, since a critical result by definition means the patient may come to harm without prompt action. Relying on memory or a scrap of paper is how results are lost between the call and the chart. The principle is that read-back converts a spoken number into a checked one.\n\nWhy the other options fail:\n• A — Memory is unreliable and provides no record that the result was received.\n• C — Refusing the verbal report delays action on a result that is critical by definition.\n• D — Scrap paper is routinely lost and creates no auditable record of receipt.\n\nReference: WHO patient safety solutions — communication",
-  "strategy": "Apply write down, read back, confirm to every spoken clinical number, whether it is a drug order or a result.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"A Mallory-Weiss tear at the junction of the oesophagus and stomach\". Repeated retching raises the pressure inside the stomach against a closed sphincter and splits the mucosa at the gastro-oesophageal junction, so the haematemesis comes after a bout of vomiting rather than before it. It is usually self-limiting, but the patient is resuscitated with fluids, the bleeding is assessed and endoscopy both confirms the tear and treats it if it is still bleeding. The history of heavy drinking makes varices a fair question, which is why the absence of stigmata of liver disease and of prior vomiting-free bleeding matters.\n\nWhy the other options fail:\n• A — Varices bleed without the preceding retching and are associated with signs of chronic liver disease.\n• B — Perforation gives sudden severe abdominal pain and peritonism, not haematemesis as the leading feature.\n• D — Cancer usually gives weight loss, anaemia and altered appetite over weeks rather than a single bleed after vomiting.\n\nReference: Ghana STG — upper gastrointestinal bleeding; NICE — gastrointestinal bleeding\n",
+  "strategy": "Vomiting first, blood after: that sequence points to a Mallory-Weiss tear, not varices.",
   "difficulty": "hard",
   "tags": [
    "risk-reduction",
@@ -99503,28 +99503,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2901",
   "categorySlug": "safety-infection-control",
-  "stem": "A labourer in northern Ghana collapses in the sun with hot dry skin, a temperature of 41 degrees Celsius and confusion. What distinguishes this from heat exhaustion?",
+  "stem": "A man has a swollen, brawny neck under the jaw, a tongue pushed upward, drooling and difficulty swallowing, two days after a toothache. What is this, and what must happen?",
   "choices": [
    {
     "id": "a",
-    "text": "The altered conscious level with a very high core temperature indicates heat stroke"
+    "text": "Ludwig's angina, a spreading floor-of-mouth infection that threatens the airway"
    },
    {
     "id": "b",
-    "text": "Heat exhaustion always presents with a higher temperature than heat stroke"
+    "text": "Mumps, which is viral and only needs analgesia, fluids and isolation from pregnant staff"
    },
    {
     "id": "c",
-    "text": "Heat stroke is diagnosed only when the person is sweating profusely"
+    "text": "A simple dental abscess, which can wait for an outpatient extraction next week"
    },
    {
     "id": "d",
-    "text": "The two conditions are treated identically and need not be distinguished"
+    "text": "Tonsillitis, which needs oral penicillin and review in the outpatient clinic"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"The altered conscious level with a very high core temperature indicates heat stroke\". Heat exhaustion involves salt and water depletion with sweating, headache, nausea, cramps and dizziness, but the person remains alert and the core temperature is only moderately raised, and they recover with rest in the shade and oral rehydration. Heat stroke is different in kind: thermoregulation has failed, the core temperature exceeds about forty degrees, and the central nervous system is affected, producing confusion, seizures or unconsciousness. It is a medical emergency with a high mortality, and the treatment is immediate aggressive cooling by any available means, removing clothing, wetting the skin and fanning, alongside airway support and urgent transfer. Sweating may be absent or present. The principle is that neurological change is the dividing line.\n\nWhy the other options fail:\n• B — Heat exhaustion features a moderately raised temperature, not a higher one.\n• C — Sweating may be absent in heat stroke and its presence does not exclude the diagnosis.\n• D — Heat stroke requires immediate aggressive cooling that heat exhaustion does not.\n\nReference: Standard heat illness management",
-  "strategy": "Separate heat exhaustion from heat stroke by conscious level. Confusion with a very high temperature is heat stroke.",
+  "rationale": "CORRECT (A) — \"Ludwig's angina, a spreading floor-of-mouth infection that threatens the airway\". Infection from a lower molar tracks through the submandibular and sublingual spaces, so both sides of the floor of the mouth become hard and brawny, the tongue is lifted up and back, and swallowing and speaking become difficult. The airway can close quickly: the patient is sat upright, high-flow oxygen is given, intravenous antibiotics are started and an ENT or maxillofacial team is called for drainage, with an anaesthetist warned in case an artificial airway is needed.\n\nWhy the other options fail:\n• B — Mumps swells the parotid glands bilaterally and does not give a brawny floor of mouth with drooling.\n• C — This is not confined to a tooth; the swelling is spreading through tissue planes and needs urgent care.\n• D — The infection is below the jaw and in the floor of the mouth, not limited to the tonsils.\n\nReference: Ghana STG — head and neck infection; NICE — dental abscess and Ludwig's angina\n",
+  "strategy": "A hard floor of mouth, tongue pushed up, drooling after toothache: sit him up, call for help, protect the airway.",
   "difficulty": "hard",
   "tags": [
    "safety-infection-control",
@@ -100299,28 +100299,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLN-2924",
   "categorySlug": "med-surg",
-  "stem": "A child in Ghana develops dark cola-coloured urine, facial puffiness and hypertension two weeks after a throat infection. What is the likely diagnosis?",
+  "stem": "Three weeks after a caesarean section a woman is breathless on climbing stairs, pale, and her haemoglobin is 7.8 g/dL with a low ferritin. What is the diagnosis and the main treatment?",
   "choices": [
    {
     "id": "a",
-    "text": "A urinary tract infection ascending from the bladder to the kidney"
+    "text": "Anaemia of chronic disease, so she needs erythropoietin injections and no iron at all"
    },
    {
     "id": "b",
-    "text": "Post-streptococcal glomerulonephritis following the earlier throat infection"
+    "text": "Iron deficiency anaemia after delivery blood loss, so she needs a course of oral iron"
    },
    {
     "id": "c",
-    "text": "Dehydration concentrating the urine and darkening its appearance"
+    "text": "Thalassaemia trait, so she needs no treatment and only genetic counselling for the future"
    },
    {
     "id": "d",
-    "text": "A bleeding disorder causing haemorrhage into the urinary tract"
+    "text": "Folate deficiency, so she needs folic acid alone and a repeat count in six months"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Post-streptococcal glomerulonephritis following the earlier throat infection\". Post-streptococcal glomerulonephritis is an immune reaction occurring one to three weeks after a streptococcal throat or skin infection, in which immune complexes deposit in the glomeruli and inflame them. The inflamed filter leaks blood, giving smoky or cola-coloured urine, and filtration falls, so salt and water are retained, producing puffiness around the eyes and hypertension. The delay between the infection and the illness is the diagnostic clue, and it explains why the child seems to have recovered before falling ill again. Management is supportive with salt and fluid restriction and blood pressure control, and most children recover fully. Hypertensive encephalopathy is the main acute danger. The principle is that the latent interval marks an immune response rather than direct infection.\n\nWhy the other options fail:\n• A — Urinary infection causes frequency, dysuria and fever rather than hypertension and oedema.\n• C — Dehydration concentrates urine but does not cause hypertension and facial oedema.\n• D — A bleeding disorder would show bleeding at other sites and normal blood pressure.\n\nReference: Standard paediatric renal nursing guidance",
-  "strategy": "Note the gap between infection and illness. A delay of one to three weeks signals an immune reaction.",
+  "rationale": "CORRECT (B) — \"Iron deficiency anaemia after delivery blood loss, so she needs a course of oral iron\". Blood loss at delivery, on top of the demands of pregnancy and breastfeeding, empties the iron stores, and a low ferritin with a low haemoglobin confirms it. Oral iron is taken with vitamin C or citrus and away from tea, milk and antacids, and it is continued for about three months after the haemoglobin returns to normal, because the haemoglobin corrects before the stores refill. The nurse also looks for the cause — ongoing bleeding, poor diet, or a second pregnancy too soon — and the response is checked with a repeat count.\n\nWhy the other options fail:\n• A — A low ferritin shows the stores themselves are empty; this is iron deficiency, not anaemia of chronic disease.\n• C — Thalassaemia trait gives a low MCV with a normal ferritin, not an empty store after delivery.\n• D — Folate deficiency gives a macrocytic anaemia, and it is not the likeliest cause here.\n\nReference: WHO — iron deficiency anaemia; Ghana STG — postnatal care\n",
+  "strategy": "After delivery blood loss, a low haemoglobin with low ferritin is iron deficiency. Give iron, and keep giving it after the count recovers.",
   "difficulty": "medium",
   "tags": [
    "med-surg",
@@ -102136,28 +102136,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLN-2978",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A nurse in Ghana notices a wrongly prepared dose before it reaches the patient. What should she do?",
+  "stem": "A newborn has bile-stained vomiting in the first day of life and a soft, non-distended abdomen. What does bilious vomiting in a newborn always demand?",
   "choices": [
    {
     "id": "a",
-    "text": "Correct it quietly and say nothing, since no patient was actually harmed"
+    "text": "Urgent surgical assessment, because it means obstruction until proved otherwise"
    },
    {
     "id": "b",
-    "text": "Report only the individual who prepared the dose to senior management"
+    "text": "A feed of dextrose water and observation for the next twelve hours on the ward"
    },
    {
     "id": "c",
-    "text": "Wait to see whether the same error happens again before reporting it"
+    "text": "Treatment for reflux, since newborns commonly bring up their feeds after eating"
    },
    {
     "id": "d",
-    "text": "Correct it and report the near miss so the system weakness can be addressed"
+    "text": "Reassurance alone, because the abdomen is soft and there is no visible distension"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Correct it and report the near miss so the system weakness can be addressed\". A near miss is an error that was caught before reaching the patient, and it carries the same information about system weakness as an error that caused harm, with none of the cost. Reporting it allows the underlying cause to be found and fixed, whether that is look-alike packaging, an ambiguous prescription, an interruption during preparation or inadequate staffing, and organisations with high near-miss reporting have fewer serious incidents, not more. Reporting focused on blaming an individual suppresses future reports and leaves the system unchanged, which is why a just culture distinguishes human error from reckless conduct. Waiting for recurrence means waiting for a patient to be harmed. The principle is that near misses are free lessons.\n\nWhy the other options fail:\n• A — Silence protects the individual but leaves the system fault to catch someone else.\n• B — Focusing on blaming an individual suppresses reporting and does not fix the cause.\n• C — Waiting for recurrence means waiting for the error to reach a patient.\n\nReference: Standard patient safety guidance",
-  "strategy": "Ask what the event teaches about the system. A near miss teaches the same lesson without the harm.",
+  "correctChoiceId": "a",
+  "rationale": "CORRECT (A) — \"Urgent surgical assessment, because it means obstruction until proved otherwise\". Bile-stained vomiting in a newborn is never normal: the obstruction may be atresia, malrotation with volvulus, meconium ileus or Hirschsprung disease, and malrotation with volvulus can strangulate the entire midgut within hours. The baby is kept nil by mouth, a nasogastric tube is passed to decompress the stomach, fluids are given and a surgeon is called while imaging is arranged. The abdomen may be soft and scaphoid rather than distended, which is exactly why the sign must be taken seriously on its own.\n\nWhy the other options fail:\n• B — Feeding a baby with a possible obstruction is dangerous.\n• C — Reflux is non-bilious and does not begin on the first day with green vomiting.\n• D — A soft abdomen does not exclude obstruction, and reassurance delays surgery.\n\nReference: WHO — newborn surgical emergencies; Ghana STG — neonatal intestinal obstruction\n",
+  "strategy": "Green vomit in a newborn means obstruction until proved otherwise. Stop feeds, drain the stomach, call the surgeon.",
   "difficulty": "medium",
   "tags": [
    "pharmacology-parenteral",
