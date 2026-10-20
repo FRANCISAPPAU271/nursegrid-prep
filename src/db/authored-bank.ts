@@ -423,28 +423,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IPC-0011",
   "categorySlug": "safety-infection-control",
-  "stem": "A woman is brought to a district hospital during a cholera outbreak with profuse watery stools. She is lethargic, her eyes are sunken, her radial pulse is weak, and capillary refill is 4 seconds. She is able to sip water when it is offered. Which action takes **priority**?",
+  "stem": "A patient with a diarrhoeal illness has been discharged from a single room on the ward. What must happen to that room before another patient is put in it?",
   "choices": [
    {
     "id": "a",
-    "text": "Start oral rehydration solution and reassess after one hour"
+    "text": "Change the bed linen, because the mattress, the floor and the toilet do not pass infection on"
    },
    {
     "id": "b",
-    "text": "Establish intravenous access and begin rapid Ringer's lactate"
+    "text": "A terminal clean: every surface, the bed, the toilet and the curtains"
    },
    {
     "id": "c",
-    "text": "Send a stool specimen before beginning any treatment"
+    "text": "Open the door and leave the room to air for an hour, since the organism cannot survive in air"
    },
    {
     "id": "d",
-    "text": "Give a single dose of oral doxycycline first"
+    "text": "Wipe the bed frame once with a detergent wipe, which is all a discharged room needs before re-use"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Establish intravenous access and begin rapid Ringer's lactate\". Lethargy, a weak pulse and capillary refill beyond three seconds are <strong>circulatory signs</strong>, and circulatory signs define severe dehydration regardless of whether the patient can still drink. Cholera kills through hypovolaemic shock within hours, not through the organism itself. Severe classification means intravenous Ringer's lactate at speed, with ORS added once perfusion improves.\n\nWhy the other options fail:\n• A — ORS is correct for mild and moderate dehydration. Using it here under-treats shock, and the ability to sip is precisely the observation that lures candidates into downgrading the classification.\n• C — Specimens support outbreak surveillance but treatment is clinical. Delaying fluid for the laboratory costs lives.\n• D — Antibiotics shorten illness and reduce shedding, but they are adjunctive. Treating the organism while the circulation fails is the wrong order.\n\nReference: Ghana Health Service Cholera Case Management Guidelines",
-  "strategy": "In any diarrhoeal illness, classify hydration before choosing a route. Circulatory signs — weak pulse, slow capillary refill, altered consciousness — mean severe, and severe means intravenous. Never let 'the patient can still drink' override a circulatory sign.",
+  "rationale": "CORRECT (B) — \"A terminal clean: every surface, the bed, the toilet and the curtains\". Organisms that cause diarrhoea, and Clostridioides difficile and norovirus in particular, survive for days or weeks on bed rails, call bells, door handles, toilets and floors, and they resist many ordinary cleaners. A terminal clean is done once the patient has left: all surfaces are cleaned with detergent and then disinfected with a chlorine-based product at the right strength, the bed and mattress are checked, the toilet and bathroom are cleaned, and the curtains are changed and laundered. The cleaner wears the right gloves and apron, and the room is not re-let until the clean is complete and documented.\n\nWhy the other options fail:\n• A — Linen alone leaves the surfaces that hands touch contaminated, which is how the next patient is infected.\n• C — Airing does not disinfect a room; spores in particular survive on surfaces indefinitely.\n• D — A single detergent wipe of one surface removes neither the soil nor the organisms from the rest of the room.\n\n\nReference: NHS — terminal cleaning standards; Ghana IPC guidelines\n",
+  "strategy": "After a diarrhoeal patient leaves: detergent, then chlorine, on every surface — including the toilet and curtains.",
   "difficulty": "medium",
   "tags": [
    "safety-infection-control",
@@ -28626,28 +28626,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MHN-0835",
   "categorySlug": "mental-health",
-  "stem": "An older Ghanaian patient becomes confused overnight with fluctuating consciousness. What must be excluded **first**?",
+  "stem": "Three weeks after being made redundant, a man has low mood, poor sleep, and cannot stop replaying the loss. He still works around the house, meets friends and says he will look for work. What is the most likely explanation?",
   "choices": [
    {
     "id": "a",
-    "text": "A late-onset psychotic illness requiring antipsychotic medication"
+    "text": "A major depressive episode, which needs an antidepressant started at the first appointment"
    },
    {
     "id": "b",
-    "text": "A physical cause such as infection, dehydration, drugs or retention"
+    "text": "An adjustment reaction to a clear stressor, which usually settles with support"
    },
    {
     "id": "c",
-    "text": "Normal ageing, which commonly causes confusion at night in older people"
+    "text": "A psychotic illness, because he cannot stop thinking about the events of that month"
    },
    {
     "id": "d",
-    "text": "A reaction to being in an unfamiliar hospital ward environment"
+    "text": "Normal and nothing to ask about, so he should be sent away without any assessment today"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"A physical cause such as infection, dehydration, drugs or retention\". <strong>Acute onset with fluctuating consciousness and impaired attention is delirium</strong>, and delirium is a <strong>physical illness presenting through the brain</strong>. Common causes are infection, dehydration, hypoxia, drugs, urinary retention, constipation, pain and electrolyte disturbance. It differs from dementia, which is <strong>gradual with clear consciousness</strong>, and from psychosis. Treating it as a psychiatric problem and sedating the patient <strong>hides the cause and raises mortality</strong>.\n\nWhy the other options fail:\n• A — Antipsychotics do not treat the underlying cause and may worsen outcomes if the physical cause is missed.\n• C — Confusion is never a normal part of ageing. Treating it as such delays diagnosis of a treatable illness.\n• D — Unfamiliar surroundings can worsen confusion but do not cause fluctuating consciousness on their own.\n\nReference: Ghana nursing curriculum — delirium in older adults",
-  "strategy": "Sudden confusion with a fluctuating level of consciousness is physical until proved otherwise. Search the body first.",
+  "rationale": "CORRECT (B) — \"An adjustment reaction to a clear stressor, which usually settles with support\". An adjustment disorder begins within about a month of an identifiable stressor and shows as low mood, anxiety, worry or a sense of being unable to cope, but the criteria for a depressive episode are not met and the person is still functioning. It is common, it is distressing, and it usually improves as the situation is worked through. What helps is listening, naming the reaction, practical problem-solving, sleep and routine, and the offer of a review. The nurse watches for the features that would change the diagnosis: pervasive low mood and loss of interest for two weeks or more, hopelessness, or thoughts of self-harm.\n\nWhy the other options fail:\n• A — Antidepressants are not the first step for a short-lived reaction to a stressor in someone who is still functioning.\n• C — Rumination about a real event is not psychosis; psychosis means loss of contact with reality, such as delusions or hallucinations.\n• D — He is distressed enough to need assessment, and a brief assessment is what separates a reaction from an illness.\n\n\nReference: WHO — mhGAP; ICD-11 — adjustment disorder\n",
+  "strategy": "Stressor within a month, functioning preserved: adjustment reaction. Watch for the shift into depression.",
   "difficulty": "hard",
   "tags": [
    "mental-health",
@@ -49207,28 +49207,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PSY-1437",
   "categorySlug": "mental-health",
-  "stem": "Why is mental health care being integrated into general health facilities in Ghana rather than concentrated in psychiatric hospitals?",
+  "stem": "A young man on the psychiatric ward stands motionless, does not answer, and keeps his arm where the nurse places it. He has not eaten for two days. What is this, and what does it need?",
   "choices": [
    {
     "id": "a",
-    "text": "It removes the need for any specialist mental health staff"
+    "text": "Catatonia, which needs urgent assessment, fluids and treatment"
    },
    {
     "id": "b",
-    "text": "It brings care closer to home and reduces the stigma of attending"
+    "text": "Deliberate non-cooperation, which is managed by withdrawing privileges until he chooses to respond"
    },
    {
     "id": "c",
-    "text": "It allows psychiatric hospitals to be closed within a few years"
+    "text": "A depressive stupor that needs nothing more than time and a quiet room until the episode passes"
    },
    {
     "id": "d",
-    "text": "It reduces the total cost by shortening every course of treatment"
+    "text": "Malingering, because he is clearly able to stand and to keep his arm where it has been placed"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"It brings care closer to home and reduces the stigma of attending\". Ghana has only three psychiatric hospitals, all in the south, so a patient in the north faces an impossible journey and an unmistakable label on arrival. Delivering care through <strong>district hospitals, health centres and CHPS zones with community mental health officers</strong> puts treatment within reach and makes attendance ordinary. It <strong>requires more specialist staff, not fewer</strong>, since generalists need training, supervision and a referral route.\n\nWhy the other options fail:\n• A — Integration increases the need for specialists to train and supervise generalists.\n• C — Specialist inpatient care remains necessary for a small number of patients.\n• D — The aim is access and equity; courses of treatment are not shortened.\n\nReference: Ghana Mental Health Act 846; Mental Health Authority policy",
-  "strategy": "Ask where the patient actually lives. A service she cannot reach is not a service.",
+  "correctChoiceId": "a",
+  "rationale": "CORRECT (A) — \"Catatonia, which needs urgent assessment, fluids and treatment\". Stupor, mutism, waxy flexibility — holding a limb where it is positioned — posturing and negativism together make up catatonia. It is a syndrome, not a diagnosis: it occurs in schizophrenia and mood disorders but also in medical illness, including encephalitis and other organic causes, so a physical screen comes first. It is dangerous: the patient does not eat or drink, cannot protect his airway, and is at risk of pressure injury, clot and aspiration. Treatment begins with a benzodiazepine challenge and supportive care, with electroconvulsive therapy for the severe or refractory case.\n\nWhy the other options fail:\n• B — Withdrawing privileges treats a sign of illness as bad behaviour and leaves a deteriorating patient untreated.\n• C — A stuporose patient who has not eaten for two days is a medical emergency, not something to wait out.\n• D — Waxy flexibility is an involuntary sign; it is not something a person can perform convincingly.\n\n\nReference: Royal College of Psychiatrists — catatonia; Ghana STG — psychiatry\n",
+  "strategy": "Stupor plus waxy flexibility is catatonia: screen for a physical cause, then benzodiazepine and ECT.",
   "difficulty": "hard",
   "tags": [
    "mental-health",
@@ -60601,28 +60601,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHD-1771",
   "categorySlug": "pediatrics",
-  "stem": "How should a nurse assess pain in a 2-year-old who cannot describe it?",
+  "stem": "A six-month-old is dribbling, chewing his fists and fretful at night, and his mother has felt a slight warmth. She is sure it is teething and does not want him seen. What should the nurse explain?",
   "choices": [
    {
     "id": "a",
-    "text": "Ask the mother to estimate the pain score on the child's behalf"
+    "text": "Teething explains the drooling and chewing, but a fever needs another cause looked for"
    },
    {
     "id": "b",
-    "text": "Assume pain is present and give analgesia without assessment"
+    "text": "Teething causes a high fever and diarrhoea, so no other cause ever needs to be looked for"
    },
    {
     "id": "c",
-    "text": "Wait until the child is old enough to use a numerical scale"
+    "text": "Teething is not a real phenomenon, and the child should be investigated for a brain problem"
    },
    {
     "id": "d",
-    "text": "Use a behavioural scale observing face, legs, crying and consolability"
+    "text": "The child is developing normally and nothing else needs to be asked about or checked at all"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Use a behavioural scale observing face, legs, crying and consolability\". Preverbal children are assessed with <strong>validated observational tools that score facial expression, leg movement, activity, crying and whether the child can be consoled</strong>, giving a reproducible number that can be tracked across shifts. Parental input is valuable but supplements the observation. The two failures the question targets are opposite: <strong>treating without assessing prevents evaluation, and waiting for verbal ability leaves a child in untreated pain for years</strong>.\n\nWhy the other options fail:\n• A — Parental report supplements observation rather than replacing it.\n• B — Treating without assessment prevents any evaluation of the response.\n• C — Waiting for verbal ability leaves young children in untreated pain.\n\nReference: Ghana STG — paediatric pain management",
-  "strategy": "If she cannot tell you, watch her. Observation is a measurement, not a guess.",
+  "correctChoiceId": "a",
+  "rationale": "CORRECT (A) — \"Teething explains the drooling and chewing, but a fever needs another cause looked for\". Teething does cause dribbling, a urge to chew, mild gum swelling, disturbed sleep and sometimes a slightly raised temperature, and the nurse can help the mother with a cool teething ring, a clean finger rubbed on the gum and simple analgesia in the right dose. What it does not cause is a fever above about 38 °C, diarrhoea, vomiting, a rash or a child who will not feed or be consoled. Those need a full assessment — malaria, respiratory infection, ear infection, gastroenteritis — because a real illness is easily put down to teething and missed.\n\nWhy the other options fail:\n• B — Attributing high fever and diarrhoea to teething is the classic way a malaria or a gastroenteritis is missed.\n• C — Teething is a normal developmental stage, not a sign of a neurological problem.\n• D — Accepting the mother's explanation without asking about fever, feeding and wet nappies leaves illness undetected.\n\n\nReference: WHO — integrated management of childhood illness; Ghana STG — child health\n",
+  "strategy": "Dribbling and chewing: teething. Fever, diarrhoea or a child who will not feed: look for a cause.",
   "difficulty": "medium",
   "tags": [
    "pediatrics",
@@ -71828,28 +71828,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRD-2100",
   "categorySlug": "health-promotion",
-  "stem": "A patient develops jaundice after taking a registered herbal product. What should the nurse do in addition to clinical care?",
+  "stem": "A family whose relative has been declared dead is asked about organ donation. What should the nurse know about consent?",
   "choices": [
    {
     "id": "a",
-    "text": "Advise the patient to inform the herbalist who supplied it"
+    "text": "A donor card signed in life lets the team proceed even if the family objects at the bedside"
    },
    {
     "id": "b",
-    "text": "Report the suspected reaction to the Food and Drugs Authority"
+    "text": "Donation can be assumed unless the family registers an objection in writing before the death"
    },
    {
     "id": "c",
-    "text": "Record it in the notes and take no further external action"
+    "text": "Only a doctor may say anything about donation, so the nurse must end the conversation at once"
    },
    {
     "id": "d",
-    "text": "Report the matter to the Traditional Medicine Practice Council"
+    "text": "Donation is voluntary and needs the family's agreement, given without pressure"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Report the suspected reaction to the Food and Drugs Authority\". Pharmacovigilance for herbal products <strong>sits with the FDA, and reports from clinicians are what trigger investigation, label changes or recall of a batch</strong> — a suspicion is enough, since certainty is not required to report. Recording it internally protects this patient only. The Council is the wrong destination for a product problem: <strong>it regulates practitioners, while the product is the FDA's responsibility</strong>.\n\nWhy the other options fail:\n• A — Informing the supplier does not enter the national system.\n• C — An internal note protects no other patient.\n• D — The Council regulates practitioners, not products.\n\nReference: Ghana FDA pharmacovigilance; Public Health Act 2012 (Act 851)",
-  "strategy": "Product problem goes to the FDA. Suspicion is enough to report.",
+  "correctChoiceId": "d",
+  "rationale": "CORRECT (D) — \"Donation is voluntary and needs the family's agreement, given without pressure\". Organ and tissue donation rests on valid consent, and in Ghana, as in most systems, the family is part of that decision. Brain death is confirmed by defined clinical criteria, separately from any discussion of donation, and the conversation is held by trained staff in a private place, in plain language, once the family has understood that the relative has died. The nurse's role is to support the family, answer what she can, and pass questions on — never to push. A decision either way is respected, and it does not change the care the family receives.\n\nWhy the other options fail:\n• A — A card expresses the person's wish but does not override a family who object; the discussion still happens.\n• B — Assumed consent is not the standard, and a written-objection rule would be a different legal system.\n• C — Ending the conversation abandons a family who have asked a direct question; the nurse answers within her competence and refers on.\n\n\nReference: WHO — organ and tissue donation; Ghana Health Service — transplantation policy\n",
+  "strategy": "Donation is voluntary and the family is part of consent. Explain, support, never push.",
   "difficulty": "medium",
   "tags": [
    "health-promotion",
@@ -73024,28 +73024,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRD-2135",
   "categorySlug": "health-promotion",
-  "stem": "A nurse is asked to teach a community group about traditional medicine. What content is **most** useful?",
+  "stem": "In a rural district a man dies at home with no doctor in attendance. Why does the health system carry out a verbal autopsy?",
   "choices": [
    {
     "id": "a",
-    "text": "A list of every plant preparation used in the local area"
+    "text": "To decide whether the family should be prosecuted for failing to bring him to hospital in time"
    },
    {
     "id": "b",
-    "text": "The history of traditional medicine practice in Ghana"
+    "text": "To replace the medical certificate of cause of death, which is optional in rural districts of Ghana"
    },
    {
     "id": "c",
-    "text": "An argument that orthodox medicine is superior to traditional care"
+    "text": "To work out a probable cause of death, so that deaths are counted"
    },
    {
     "id": "d",
-    "text": "How to recognise danger signs and when to come to the facility"
+    "text": "To help the family claim an insurance payout, which requires a stated cause of death to be paid"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"How to recognise danger signs and when to come to the facility\". What changes outcomes is <strong>knowing which symptoms must not be treated at home and how quickly to come — because delay is the principal harm in this whole topic</strong>. A catalogue of plants is unmemorable and history is interesting but inert. The comparative argument is worst of all: <strong>a session framed as orthodox versus traditional makes the audience defend their practice instead of learning the danger signs</strong>.\n\nWhy the other options fail:\n• A — A plant catalogue does not change behaviour.\n• B — History is interesting but does not affect outcomes.\n• C — A comparative argument makes the audience defensive.\n\nReference: Ghana Health Service health promotion; WHO",
-  "strategy": "Teach the danger signs and the timing. Delay is what you are treating.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"To work out a probable cause of death, so that deaths are counted\". Most deaths in many low-income settings happen at home, uncounted and uncertified, and a health system that cannot say what people die of cannot plan services or measure progress. A verbal autopsy uses a structured interview with the family, often with a questionnaire and a review by clinicians or an algorithm, to assign a probable cause. It gives population-level information — how much is malaria, how much is stroke, how much is maternal — and it is not a legal determination for an individual death, nor a substitute for a certificate where one is required.\n\nWhy the other options fail:\n• A — The purpose is public health measurement, not blame; a blame-framed process would destroy the cooperation it depends on.\n• B — It supplements, rather than replaces, the legal certification system, and it cannot name a cause with certainty in an individual.\n• D — Insurance and legal processes require formal certification, not a research interview.\n\n\nReference: WHO — verbal autopsy standards; Ghana — vital registration\n",
+  "strategy": "Verbal autopsy counts deaths for planning. It is public health data, not a legal cause of death.",
   "difficulty": "hard",
   "tags": [
    "health-promotion",
@@ -82722,28 +82722,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRC-2412",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A nurse must give a patient both soluble insulin and isophane (NPH) insulin in one syringe. What is the correct technique?",
+  "stem": "A patient is to start a new antibiotic, and the prescription includes a small test dose before the full dose. Why is this done?",
   "choices": [
    {
     "id": "a",
-    "text": "Draw up the cloudy isophane before the clear soluble insulin"
+    "text": "To find out whether the drug works, so that the full dose can be withheld if it does not"
    },
    {
     "id": "b",
-    "text": "Use two separate syringes, as they can never be mixed"
+    "text": "To check that the patient can swallow a tablet before the injection is changed to oral treatment"
    },
    {
     "id": "c",
-    "text": "Draw up either first, provided the total dose is accurate"
+    "text": "To detect a severe reaction while only a tiny amount has been given"
    },
    {
     "id": "d",
-    "text": "Draw up the clear soluble insulin before the cloudy isophane"
+    "text": "To measure how quickly the kidneys clear the drug, so the maintenance dose can be calculated"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Draw up the clear soluble insulin before the cloudy isophane\". Air is injected into both vials first, then the clear soluble insulin is drawn up before the cloudy isophane. The reason is contamination: isophane contains protamine, and if any of it enters the soluble vial it converts some of that short-acting insulin into a longer-acting form, altering every subsequent dose drawn from that vial. Drawing clear before cloudy means any accidental transfer goes into the cloudy vial, where the protamine already is and does no harm. Only an insulin syringe marked in units may be used. The principle is that the sequence exists to protect the vial that the next patient will also use.\n\nWhy the other options fail:\n• A — Drawing cloudy first risks carrying protamine back into the clear vial, which changes the action profile of every later dose from it.\n• B — These two insulins are routinely and safely mixed in one syringe; requiring two injections would subject the patient to unnecessary pain.\n• C — The order is not a matter of preference, because reversing it contaminates the stock rather than merely altering this one dose.\n\nReference: Standard insulin administration technique",
-  "strategy": "Remember clear before cloudy, and remember why: you can afford to contaminate the vial that is already modified, never the plain one.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"To detect a severe reaction while only a tiny amount has been given\". A test dose is given where the risk of a severe hypersensitivity reaction is real — a history of reaction to a related drug, a known allergen, or a desensitisation programme. A small amount is given and the patient is observed closely for rash, itching, swelling, wheeze, a fall in blood pressure or a rising pulse; the route, dose and observation period come from the protocol. If a reaction starts, it is treated at once with the emergency drugs to hand, and the rest of the dose is not given. The observation must be active, not a glance, because a reaction can begin within minutes.\n\nWhy the other options fail:\n• A — Whether the drug works is judged over days by the patient's condition, not by a small dose.\n• B — Swallowing is a separate assessment and has nothing to do with a test dose of an antibiotic.\n• D — Kidney clearance is judged by renal function and drug levels, not by a test dose.\n\n\nReference: BNF — test doses and hypersensitivity; Ghana STG — antimicrobials\n",
+  "strategy": "A test dose is about anaphylaxis, not efficacy. Give small, watch closely, have adrenaline ready.",
   "difficulty": "medium",
   "tags": [
    "pharmacology-parenteral",
@@ -89300,28 +89300,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FND-2604",
   "categorySlug": "fundamentals",
-  "stem": "A doctor telephones a Ghanaian ward and gives a nurse a verbal medication order during an emergency. What must the nurse do?",
+  "stem": "A patient at a CHPS compound needs referral to the district hospital. What must the referral note contain?",
   "choices": [
    {
     "id": "a",
-    "text": "Write the order down, read it back to the doctor, and have it signed within the agreed period"
+    "text": "Only the patient's name and the diagnosis, so that the hospital does not repeat any unnecessary tests"
    },
    {
     "id": "b",
-    "text": "Administer the drug and rely on the doctor to document it later that day"
+    "text": "The reason, findings, treatment given, allergies and what the patient has been told"
    },
    {
     "id": "c",
-    "text": "Ask a second nurse to listen on the line instead of writing anything down"
+    "text": "A complete copy of the entire health record, because the hospital has no way to obtain one itself"
    },
    {
     "id": "d",
-    "text": "Refuse the order outright, since verbal orders are never acceptable"
+    "text": "The nurse's opinion alone, with the clinical findings left out so the doctor is not influenced by them"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Write the order down, read it back to the doctor, and have it signed within the agreed period\". Verbal and telephone orders are permitted only in genuine emergencies, because the absence of a written record makes mishearing a drug name, dose or route dangerously easy. The safeguard is write down, read back and confirm: the nurse records the order as she takes it, reads it back in full including the drug, dose, route and time, and the prescriber confirms it. It is then countersigned within the period local policy specifies. Relying on later documentation leaves an unverified drug given with no record of who authorised it. The principle is that the read-back is what converts a spoken instruction into a checkable one.\n\nWhy the other options fail:\n• B — Administering first and documenting later leaves the drug given with no verified authorisation.\n• C — A second listener does not create the written record or the read-back verification.\n• D — Verbal orders are acceptable in genuine emergencies provided the safeguards are followed.\n\nReference: WHO patient safety solutions — communication during handover",
-  "strategy": "For any spoken clinical instruction, look for write down, read back and confirm. That three-step check is the safeguard.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"The reason, findings, treatment given, allergies and what the patient has been told\". A referral note is a handover of care, and what the next clinician needs is a compact, accurate picture: why the patient is being sent, what has been found on examination and testing, what treatment has already been given and when, what the patient is allergic to, and what the patient has been told and agreed to. Treatment already given matters especially — a dose of an antibiotic or of quinine changes what the receiving team does next. The note carries the nurse's name and contact, the patient's identifiers, and the time of referral, and a copy stays in the record.\n\nWhy the other options fail:\n• A — Name and diagnosis alone tells the receiving team nothing about what has been done, and errors follow.\n• C — Copying a whole record buries the reason for referral; the summary is what gets read.\n• D — Omitting the findings removes the evidence the doctor needs and invites repeated examination and delay.\n\n\nReference: Ghana Health Service — referral guidelines; WHO — continuity of care\n",
+  "strategy": "A referral is a handover: why, what was found, what was given, allergies, and what the patient knows.",
   "difficulty": "medium",
   "tags": [
    "fundamentals",
