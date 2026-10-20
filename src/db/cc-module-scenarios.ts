@@ -514,29 +514,29 @@ export const CC_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-CC-018",
     categorySlug: "pharmacology-parenteral",
-    stem: "A 21-year-old patient is admitted to the ICU 4 hours after an intentional acute ingestion of 25 grams of acetaminophen (paracetamol). What is the critical care nurse's highest priority pharmacological intervention?",
+    stem: "Three days after a paracetamol overdose a patient becomes drowsy and jaundiced. Which set of results tells the nurse that his liver is failing?",
     choices: [
       {
         id: "a",
-        text: "Administer intravenous naloxone continuous infusion to reverse central nervous system depression",
+        text: "A falling international normalised ratio, a rising blood glucose and a raised plasma bicarbonate level",
       },
       {
         id: "b",
-        text: "Give high-dose intravenous flumazenil to antagonise benzodiazepine receptors",
+        text: "A rising platelet count, a falling white cell count and a normal serum bilirubin level",
       },
       {
         id: "c",
-        text: "Start the N-acetylcysteine protocol promptly to replenish glutathione and prevent hepatic necrosis",
+        text: "A rising international normalised ratio, a falling blood glucose and a rising blood ammonia level",
       },
       {
         id: "d",
-        text: "Infuse sodium polystyrene sulfonate to accelerate gastrointestinal excretion of the drug",
+        text: "A raised amylase, a low serum calcium and a clotting screen that is entirely normal",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "Acetaminophen overdose saturates glucuronidation and sulfation pathways, shunting metabolism to cytochrome P450, which produces the toxic metabolite NAPQI (N-acetyl-p-benzoquinone imine). When endogenous glutathione is depleted, NAPQI binds hepatocytes causing centrilobular hepatic necrosis. N-acetylcysteine (NAC) serves as a glutathione precursor and substitute, detoxifying NAPQI. Initiating NAC within 8 hours of acute ingestion provides virtually 100% hepatoprotection. Why the other options fail: option a reverses opioid effect, and paracetamol is not an opioid, so naloxone does nothing for NAPQI. Option b antagonises benzodiazepines that the history does not mention, and flumazenil can precipitate seizures. Option d binds potassium in the gut and has no effect on hepatic glutathione.",
-    strategy: "Acetaminophen antidote: N-acetylcysteine (NAC) replenishes glutathione to neutralize toxic NAPQI metabolite.",
+      "CORRECT (C) — \"A rising international normalised ratio, a falling blood glucose and a rising blood ammonia level\". A liver that is failing stops doing the three things this set measures. It stops making clotting factors, so the international normalised ratio climbs and the patient bleeds; it stops making glucose, so the blood glucose falls; and it stops clearing ammonia through the urea cycle, so ammonia rises and the drowsiness deepens into encephalopathy. Jaundice on day three, falling glucose and a widening INR together define acute liver failure, and this patient needs referral to a unit that can manage it, not another paracetamol level.\n\nWhy the other options fail:\n• A — This reverses every one of the three; a failing liver does not shorten the INR or raise the glucose.\n• B — The platelet count may fall rather than rise, and the bilirubin in a jaundiced patient is not normal.\n• D — Amylase and calcium are not the markers of hepatic synthetic failure, and the clotting screen would not be normal in a failing liver.\n\nReference: Ghana STG — poisoning; WHO/International Programme on Chemical Safety — paracetamol overdose\n",
+    strategy: "Synthetic failure shows as a rising INR, falling glucose and rising ammonia. In liver failure the clotting time lengthens, it does not shorten.",
     difficulty: "easy",
     tags: ["critical-care", "toxicology", "acetaminophen", "n-acetylcysteine", "antidote"],
     isFree: true,

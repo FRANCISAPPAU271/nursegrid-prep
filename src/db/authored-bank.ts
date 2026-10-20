@@ -12526,28 +12526,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PHM-0365",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A young woman took a large quantity of paracetamol eight hours ago and feels perfectly well. How should the nurse interpret this?",
+  "stem": "A woman who swallowed a large number of paracetamol tablets two hours ago has blood taken for a paracetamol level. Why is an early level not used to decide treatment?",
   "choices": [
    {
     "id": "a",
-    "text": "She is well because the dose taken was clearly below the toxic threshold"
+    "text": "Because the laboratory cannot measure paracetamol accurately in the first six hours after it is swallowed"
    },
    {
     "id": "b",
-    "text": "Feeling well is expected early, and liver damage may still develop later"
+    "text": "Because absorption is still going on, so a level before four hours cannot be read against the nomogram"
    },
    {
     "id": "c",
-    "text": "She has vomited the tablets, so no further treatment is needed for her"
+    "text": "Because the antidote must be started before any level is taken, so the result would arrive too late"
    },
    {
     "id": "d",
-    "text": "She is recovering already and can safely be discharged home this evening"
+    "text": "Because a level taken early always reads high, and would lead to the antidote being given needlessly"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Feeling well is expected early, and liver damage may still develop later\". Paracetamol poisoning is <strong>deceptively silent in the first 24 hours</strong>. Hepatic necrosis develops over the following days, with jaundice, encephalopathy and death possible from an overdose that caused no early symptoms. Treatment with <strong>N-acetylcysteine is most effective within 8 to 10 hours</strong>, so it is started on the basis of the history and levels, never on how well the patient looks.\n\nWhy the other options fail:\n• A — Absence of symptoms says nothing about the dose. Serious overdoses are typically asymptomatic at this stage.\n• C — Vomiting does not guarantee that the tablets were removed, and much may already have been absorbed.\n• D — Discharging her would be dangerous. This is the exact window in which the antidote works best.\n\nReference: Ghana STG — paracetamol poisoning; N-acetylcysteine",
-  "strategy": "Some poisons hide. When the drug is known for delayed toxicity, treat on the history and the level rather than on how the patient appears.",
+  "rationale": "CORRECT (B) — \"Because absorption is still going on, so a level before four hours cannot be read against the nomogram\". Paracetamol is still being absorbed from the gut for the first few hours, so a level drawn early under-reads the eventual peak and would plot falsely safe. The treatment line on the Rumack-Matthew nomogram was drawn from levels taken at four hours or later, and only a level taken at or after that point can be compared with it. The practical rule is therefore that the decision sample is taken at four hours; treatment that is already indicated — a massive dose, or a patient who cannot give a time — is started without waiting for the number.\n\nWhy the other options fail:\n• A — The assay is reliable; it is the patient's absorption that has not finished, not the laboratory that cannot measure.\n• C — The antidote is not withheld for a level, but the level is still what decides whether it is needed, and it is taken at four hours.\n• D — Early levels read low, not high, which is exactly why an early result is dangerous rather than merely cautious.\n\nReference: Ghana STG — poisoning; WHO/International Programme on Chemical Safety — paracetamol overdose\n",
+  "strategy": "Four hours is the number that makes the level readable. Before four hours the only question is whether treatment is already indicated anyway.",
   "difficulty": "hard",
   "tags": [
    "pharmacology-parenteral",
@@ -31834,28 +31834,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IMD-0929",
   "categorySlug": "med-surg",
-  "stem": "A Ghanaian adolescent who swallowed many paracetamol tablets four hours ago looks and feels completely well. What should the nurse do?",
+  "stem": "Why does paracetamol destroy the liver when it is taken in overdose?",
   "choices": [
    {
     "id": "a",
-    "text": "Treat her as at serious risk, because liver damage appears only later"
+    "text": "A toxic metabolite builds up once the liver's glutathione is used up"
    },
    {
     "id": "b",
-    "text": "Reassure her and discharge her, since she has no symptoms at present"
+    "text": "The drug crystallises in the small bile ducts and blocks the flow of bile out of the liver"
    },
    {
     "id": "c",
-    "text": "Wait until jaundice appears before starting any specific treatment"
+    "text": "An allergic reaction against the drug itself destroys the liver cells over the first day"
    },
    {
     "id": "d",
-    "text": "Advise her to return only if she begins to vomit over the next few days"
+    "text": "The liver turns the drug into alcohol faster than the alcohol can be cleared from the blood"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Treat her as at serious risk, because liver damage appears only later\". Paracetamol overdose is <strong>dangerous precisely because the patient looks well</strong>. Hepatic necrosis develops over <strong>24 to 72 hours</strong>, and by the time jaundice, right upper quadrant pain and encephalopathy appear, the damage is established. Assessment rests on the <strong>history of dose and timing</strong>, with the antidote given on that basis; <strong>treatment is far more effective early</strong>. Every deliberate overdose also requires a <strong>mental health assessment</strong> before discharge.\n\nWhy the other options fail:\n• B — Being asymptomatic is the expected early state and gives entirely false reassurance.\n• C — Waiting for jaundice means waiting until the antidote has lost most of its benefit.\n• D — Delayed return converts a treatable overdose into liver failure.\n\nReference: Ghana nursing curriculum — overdose management",
-  "strategy": "Some poisons declare themselves late. Act on the history and the timing, never on how the patient looks.",
+  "rationale": "CORRECT (A) — \"A toxic metabolite builds up once the liver's glutathione is used up\". Most of a paracetamol dose is conjugated and excreted safely, but a small share is oxidised by cytochrome P450 2E1 into <strong>NAPQI</strong>, a reactive metabolite. At ordinary doses glutathione mops NAPQI up as fast as it is made. In overdose the safe pathways saturate, more goes down the P450 route, glutathione is exhausted, and unbound NAPQI binds liver cell proteins — producing the centrilobular necrosis that appears a day or two later. Acetylcysteine works because it replenishes glutathione.\n\nWhy the other options fail:\n• B — Paracetamol does not crystallise in bile ducts; that is not the mechanism of its liver injury.\n• C — The injury is metabolic, not immune, and it is not an allergy to the drug.\n• D — The liver does not turn paracetamol into alcohol; the toxic product is NAPQI.\n\nReference: Ghana STG — poisoning; WHO/International Programme on Chemical Safety — paracetamol overdose\n",
+  "strategy": "Saturation, then depletion, then NAPQI. Acetylcysteine is a glutathione substitute, not a direct antidote to paracetamol.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -83341,28 +83341,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRC-2430",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient has taken a large overdose of paracetamol four hours ago. Which treatment is indicated?",
+  "stem": "The paracetamol level of a man who overdosed nine hours ago is above the treatment line, but the antidote is not stocked at the health centre. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "Naloxone"
+    "text": "Wait for the referral hospital to repeat the level before arranging any transfer at all"
    },
    {
     "id": "b",
-    "text": "Flumazenil"
+    "text": "Send him home to come back if he turns yellow, since nine hours have already passed"
    },
    {
     "id": "c",
-    "text": "Acetylcysteine"
+    "text": "Send him at once, and start the antidote as soon as it is available, because delay costs lives"
    },
    {
     "id": "d",
-    "text": "Protamine sulphate"
+    "text": "Give activated charcoal now and review him in the morning before deciding whether he needs transfer"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Acetylcysteine\". Paracetamol overdose is treacherous because the patient usually feels well for the first day while the liver is being destroyed, and by the time jaundice and confusion appear the damage is advanced. Acetylcysteine replenishes glutathione, which neutralises the toxic metabolite, and it is most effective when started within eight hours of ingestion. Treatment decisions rest on the timing and the plasma paracetamol concentration against a treatment line, and where the timing is uncertain or the dose large, treatment starts without waiting. The principle is that the absence of symptoms in the first hours is characteristic of the poisoning, not evidence against it.\n\nWhy the other options fail:\n• A — Naloxone reverses opioids and has no effect on paracetamol toxicity.\n• B — Flumazenil reverses benzodiazepines, and it carries its own risk of provoking seizures.\n• D — Protamine sulphate reverses heparin and is unrelated to hepatic paracetamol toxicity.\n\nReference: British National Formulary — paracetamol overdose; Ghana Standard Treatment Guidelines",
-  "strategy": "Memorise antidotes as fixed pairs and rehearse them in both directions — poison to antidote and antidote to poison. Questions are written in whichever direction is less familiar.",
+  "rationale": "CORRECT (C) — \"Send him at once, and start the antidote as soon as it is available, because delay costs lives\". Acetylcysteine is most effective when it is started within eight hours of the overdose, and that window has already closed — which makes the next hours matter more, not less. Benefit continues to fall with every hour of delay, so the transfer is arranged now, the receiving unit is told he is coming so the antidote is ready on arrival, and it is started there without waiting for a repeat level. A level above the treatment line is already an indication.\n\nWhy the other options fail:\n• A — Repeating a level that is already above the line adds delay and changes nothing.\n• B — Nine hours is late, not too late; sending him home abandons him in the window where treatment still helps.\n• D — Charcoal is only useful in the first hour, and reviewing in the morning would push treatment past a day.\n\nReference: Ghana STG — poisoning; WHO/International Programme on Chemical Safety — paracetamol overdose\n",
+  "strategy": "Past eight hours the answer is not 'too late' but 'sooner'. Transfer, pre-alert, and start the antidote on arrival.",
   "difficulty": "medium",
   "tags": [
    "pharmacology-parenteral",
@@ -110228,28 +110228,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-KID-3216",
   "categorySlug": "pediatrics",
-  "stem": "A toddler is brought to a clinic in Sunyani having swallowed an unknown number of paracetamol tablets an hour ago. He looks completely well. What is the **priority**?",
+  "stem": "A mother telephones the clinic because her two-year-old has just been found with an open bottle of paracetamol tablets and some are missing. What should the nurse tell her?",
   "choices": [
    {
     "id": "a",
-    "text": "Reassure the parents and send the child home because he appears well"
+    "text": "Make him vomit with a glass of salt water, then watch him at home for the rest of the day"
    },
    {
     "id": "b",
-    "text": "Refer urgently for assessment and blood levels, since serious toxicity appears late"
+    "text": "Bring him and the bottle straight away, and do not try to make him vomit"
    },
    {
     "id": "c",
-    "text": "Give milk to neutralise the tablets and observe the child at the clinic"
+    "text": "Give him milk to line the stomach, then bring him if he seems unwell later"
    },
    {
     "id": "d",
-    "text": "Make the child vomit by giving a salt water solution to drink"
+    "text": "Wait until the morning clinic, since he looks well and may have swallowed none"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Refer urgently for assessment and blood levels, since serious toxicity appears late\". Paracetamol overdose is deceptive because the child looks entirely well for the first day while the toxic metabolite is depleting the liver's protective glutathione. Liver failure then declares itself two to four days later, by which time the antidote is far less effective. Acetylcysteine works best when given early, so the child needs urgent referral for a timed blood level and treatment decision, not observation. This is a clear example of a situation where clinical appearance is misleading and the history alone dictates management. Prevention advice about storing medicines out of reach is given afterwards.\n\nWhy the other options fail:\n• A — Looking well an hour after ingestion is expected and tells you nothing. Sending the child home wastes the window in which the antidote is most effective.\n• C — Milk does not neutralise paracetamol or prevent its absorption, and observing at a clinic without levels or antidote provides no protection.\n• D — Inducing vomiting is no longer recommended and salt water is dangerous in a small child, capable of causing hypernatraemia and seizures.\n\nReference: WHO guidelines on poisoning management; Ghana Standard Treatment Guidelines — poisoning",
-  "strategy": "Treat on the history, not the appearance. In paracetamol overdose the well-looking phase is the treatable phase.",
+  "rationale": "CORRECT (B) — \"Bring him and the bottle straight away, and do not try to make him vomit\". The bottle tells the team how many tablets were in it and how strong they were, which is what turns 'some are missing' into a dose per kilogram. Inducing vomiting with salt water is dangerous in a small child — it causes hypernatraemia and aspiration and does not empty the stomach reliably. He is brought at once because charcoal, if it is going to be used, works within the first hour, and because a child who looks well now can still develop liver injury a day or two later.\n\nWhy the other options fail:\n• A — Salt water to force vomiting can cause salt poisoning and choking, and watching at home wastes the hour in which charcoal works.\n• C — Milk does not bind paracetamol and does not protect the liver; delay is the harm.\n• D — Waiting until morning loses both the charcoal window and the four-hour level.\n\nReference: Ghana STG — poisoning; WHO — childhood poisoning management\n",
+  "strategy": "Bring the child and bring the bottle. Never force vomiting, and never let a well-looking toddler wait until morning.",
   "difficulty": "hard",
   "tags": [
    "pediatrics",
