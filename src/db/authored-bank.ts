@@ -69776,28 +69776,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPH-2039",
   "categorySlug": "gerontology-community",
-  "stem": "A team is sent to investigate a suspected cholera outbreak. When should control measures begin?",
+  "stem": "At the end of a session a multi-dose vaccine vial is still more than half full and its vial monitor shows no heat damage. What does the open vial policy allow?",
   "choices": [
    {
     "id": "a",
-    "text": "Once the source of the outbreak has been definitely identified"
+    "text": "The vial must be discarded at the end of that session in every case"
    },
    {
     "id": "b",
-    "text": "Immediately, alongside the investigation rather than after it"
+    "text": "It may be kept for 28 days if kept cold and the septum stays clean"
    },
    {
     "id": "c",
-    "text": "Once the laboratory has confirmed the causative organism"
+    "text": "It may be used at the next session only if it was frozen overnight"
    },
    {
     "id": "d",
-    "text": "Once the regional office has approved the investigation report"
+    "text": "It may be kept until its printed expiry date, opened or not"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Immediately, alongside the investigation rather than after it\". Investigation and control run in parallel: <strong>safe water, safe disposal of faeces, oral rehydration and treatment of cases can begin on the first day and will save lives whether or not the exact source is ever found</strong>. Every option that waits for certainty costs cases. The underlying principle is a general one in public health — <strong>you act on the probability, then refine the action as the evidence arrives</strong>.\n\nWhy the other options fail:\n• A — The source may take days or may never be identified.\n• C — Laboratory confirmation arrives after preventable transmission.\n• D — Administrative approval is not a precondition for control.\n\nReference: Ghana IDSR; WHO outbreak response",
-  "strategy": "Investigate and control at the same time. Certainty arrives too late to be useful.",
+  "rationale": "CORRECT (B) — \"It may be kept for 28 days if kept cold and the septum stays clean\". Under the open vial policy a multi-dose vial of the vaccines that carry a vial monitor may be used across sessions for up to <strong>28 days after it was first opened</strong>, provided it has not passed its expiry date, the monitor still shows it has not been overheated, it has been kept cold, and the septum has not been contaminated. Discarding every part-used vial wastes vaccine; keeping one indefinitely endangers the children.\n\nWhy the other options fail:\n• A — Discarding at the end of every session wastes most of the vial and is not what the policy requires.\n• C — Freezing damages the adsorbed vaccines; an overnight freeze would make the vial unusable, not safer.\n• D — The 28-day limit runs from the day of opening, whatever the printed expiry date says.\n\nReference: WHO — open vial policy; Ghana EPI cold chain guidelines",
+  "strategy": "Twenty-eight days from opening, and only while cold, clean and not heat-damaged.",
   "difficulty": "hard",
   "tags": [
    "gerontology-community",
@@ -69878,28 +69878,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPH-2042",
   "categorySlug": "gerontology-community",
-  "stem": "Of 120 people who ate at a funeral, 30 developed diarrhoea. What is the attack rate?",
+  "stem": "A woman lives three hours from the nearest hospital and had a caesarean section last year. Which arrangement most reduces her risk this pregnancy?",
   "choices": [
    {
     "id": "a",
-    "text": "30 per cent"
+    "text": "Travelling to the hospital only once her contractions have begun"
    },
    {
     "id": "b",
-    "text": "12 per cent"
+    "text": "Asking a neighbour to lend her a mobile phone for the delivery"
    },
    {
     "id": "c",
-    "text": "25 per cent"
+    "text": "Moving to a maternity waiting home near the hospital before labour"
    },
    {
     "id": "d",
-    "text": "40 per cent"
+    "text": "Delivering at home with a traditional birth attendant as she did before"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"25 per cent\". The attack rate is <strong>cases divided by the number exposed: 30 divided by 120, which is 0.25, or 25 per cent</strong>. Its value in an outbreak comes from repeating the calculation for each individual dish: <strong>the food with the highest attack rate among those who ate it, and the lowest among those who did not, is the likely vehicle</strong>. The comparison between the two groups is what identifies the source, not the overall figure. Sense-check: 30 is a quarter of 120, so a quarter of those exposed fell ill.\n\nWhy the other options fail:\n• A — Thirty is the number of cases, not the percentage.\n• B — That would divide by the wrong figure entirely.\n• D — That result does not follow from 30 out of 120.\n\nReference: WHO field epidemiology",
-  "strategy": "Cases over exposed. Then repeat it dish by dish to find the vehicle.",
+  "rationale": "CORRECT (C) — \"Moving to a maternity waiting home near the hospital before labour\". A woman with a previous caesarean carries a risk of scar rupture, and she is three hours from surgery. A maternity waiting home lets her <strong>move close to the hospital in the last weeks so that the delay that kills is removed</strong> before labour starts. It is the third delay — reaching care — that is being answered, and it is answered by geography rather than by advice.\n\nWhy the other options fail:\n• A — Beginning a three-hour journey in established labour may bring her to hospital after the rupture has happened.\n• B — A borrowed phone helps her call for help but does not shorten the journey.\n• D — A home birth with a previous caesarean puts her beyond the reach of surgery if the scar gives way.\n\nReference: WHO — birth preparedness and complication readiness; Ghana STG — antenatal care",
+  "strategy": "Move the woman nearer the theatre before labour, not during it.",
   "difficulty": "hard",
   "tags": [
    "gerontology-community",
@@ -70358,28 +70358,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPH-2056",
   "categorySlug": "gerontology-community",
-  "stem": "Which single intervention interrupts the greatest number of faecal-oral transmission routes?",
+  "stem": "A district wants each community to judge the quality of its own clinic and agree with staff what should change. Which approach is this?",
   "choices": [
    {
     "id": "a",
-    "text": "Providing soap to each household in the community"
+    "text": "A quarterly meeting of the district health management team alone"
    },
    {
     "id": "b",
-    "text": "Boiling drinking water before it is given to children"
+    "text": "A household survey carried out by interviewers sent from the capital"
    },
    {
     "id": "c",
-    "text": "Covering all cooked food to protect it from flies"
+    "text": "An inspection of the clinic carried out by the regional directorate"
    },
    {
     "id": "d",
-    "text": "Safe disposal of faeces in a latrine used by everyone"
+    "text": "A community scorecard, in which members rate services with staff"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Safe disposal of faeces in a latrine used by everyone\". Water, fields, flies, fingers and food are all routes from the same origin, so <strong>containing the faeces removes the material that feeds every one of them at once</strong>. The other measures are genuinely valuable but each blocks a single pathway downstream of a source still in the open. This is why <strong>sanitation coverage, not health education, is what historically ended cholera in a community</strong>.\n\nWhy the other options fail:\n• A — Soap blocks the hand route only.\n• B — Boiling protects the water route only.\n• C — Covering food blocks the fly and food route only.\n\nReference: WHO water, sanitation and hygiene; Ghana Environmental Health",
-  "strategy": "Block it at the source and every route closes at once.",
+  "rationale": "CORRECT (D) — \"A community scorecard, in which members rate services with staff\". A community scorecard brings service users and providers together to <strong>score the service against agreed criteria and then negotiate an action plan</strong>. Because the community sets the criteria and sits in the same room as the staff, the result is a plan the clinic can be held to, rather than a report written about the clinic by somebody else.\n\nWhy the other options fail:\n• A — The management team is the provider side only; the community does not judge anything.\n• B — A survey measures what the questionnaire asks, not what the community thinks should change.\n• C — An inspection is an outside judgement, and the community takes no part in it.\n\nReference: WHO — community monitoring of health services; Ghana CHPS guidelines",
+  "strategy": "Score it with the community in the room, then agree the action plan.",
   "difficulty": "hard",
   "tags": [
    "gerontology-community",
@@ -70530,28 +70530,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPH-2061",
   "categorySlug": "gerontology-community",
-  "stem": "A chop bar keeps cooked rice at room temperature from morning until evening. What is the danger?",
+  "stem": "Why must cattle be slaughtered at an inspected abattoir rather than at home before the meat is sold?",
   "choices": [
    {
     "id": "a",
-    "text": "Bacteria multiply rapidly in cooked food left at ambient temperature"
+    "text": "So that disease in the carcass is found before people eat the meat"
    },
    {
     "id": "b",
-    "text": "The rice will lose most of its nutritional value during the day"
+    "text": "So that the meat can be sold at a higher price in the market"
    },
    {
     "id": "c",
-    "text": "The rice will absorb moisture and become unpleasant to eat"
+    "text": "So that the farmer is paid more quickly for the animal he raised"
    },
    {
     "id": "d",
-    "text": "Flies will be attracted to the rice and lay eggs in it"
+    "text": "So that the hide can be removed without being damaged in the process"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Bacteria multiply rapidly in cooked food left at ambient temperature\". Cooked starchy food held in the warm zone <strong>allows surviving spores to germinate and multiply, and some of the toxins produced are not destroyed by reheating</strong>. The rule is to keep hot food above about 60 degrees Celsius or cool it quickly and reheat it thoroughly. Note the trap in the reheating assumption: <strong>reheating kills the organism but does not always remove the toxin it has already made</strong>.\n\nWhy the other options fail:\n• B — Nutrient loss is real but not the safety hazard.\n• C — Texture is a quality issue, not a health risk.\n• D — Flies add risk but bacterial growth is the primary danger.\n\nReference: Ghana Environmental Health; WHO five keys to safer food",
-  "strategy": "Keep it hot, keep it cold, or throw it away. The warm hours are the danger.",
+  "rationale": "CORRECT (A) — \"So that disease in the carcass is found before people eat the meat\". Ante-mortem and post-mortem inspection at an abattoir catches the animal that was sick and the carcass that is unfit — tuberculosis, anthrax, cysticercosis, abscesses and contamination during dressing — <strong>before any of it reaches a customer</strong>. Slaughter at home, or the butchering of an animal that died on its own, is how zoonoses travel from a herd into a community.\n\nWhy the other options fail:\n• B — Price is an argument about the market, not about safety, and inspected meat often costs more to produce.\n• C — Payment speed has nothing to do with inspection.\n• D — Care of the hide is a by-product concern; a damaged hide is not a public health event.\n\nReference: Ghana Public Health Act — meat inspection; WHO — zoonoses",
+  "strategy": "Inspect the animal and the carcass before sale, because a sick beast does not look sick on a plate.",
   "difficulty": "medium",
   "tags": [
    "gerontology-community",
@@ -70872,28 +70872,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPH-2071",
   "categorySlug": "gerontology-community",
-  "stem": "Motorcycle injuries are rising in a district. Which measure would prevent the **most** deaths?",
+  "stem": "Farmers in a district are frequently bitten by snakes while working in the fields. Which measure would prevent the most bites?",
   "choices": [
    {
     "id": "a",
-    "text": "Increasing helmet use among riders and their passengers"
+    "text": "Wearing boots and long trousers, and clearing grass around the home"
    },
    {
     "id": "b",
-    "text": "Providing more first aid training to community volunteers"
+    "text": "Carrying a tourniquet to every farm to apply if a bite occurs"
    },
    {
     "id": "c",
-    "text": "Building a larger casualty department at the district hospital"
+    "text": "Keeping supplies of antivenom at every village shop in the district"
    },
    {
     "id": "d",
-    "text": "Advising riders to travel only during the daylight hours"
+    "text": "Avoiding all farm work during the rainy season when snakes are active"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Increasing helmet use among riders and their passengers\". Head injury is what kills motorcyclists, and <strong>a correctly worn helmet prevents the injury rather than treating it, which is why it saves more lives than any improvement downstream</strong>. First aid and hospital capacity reduce deaths among those already injured but do not reduce the number injured. This is the prevention hierarchy in practice: <strong>stopping the injury outranks treating it, and the passenger needs the helmet as much as the rider</strong>.\n\nWhy the other options fail:\n• B — First aid helps after the injury has already occurred.\n• C — Better treatment does not reduce the number of crashes.\n• D — Daylight restriction is impractical and less effective.\n\nReference: WHO road safety; Ghana National Road Safety Authority",
-  "strategy": "Prevent the injury before you improve the response to it.",
+  "rationale": "CORRECT (A) — \"Wearing boots and long trousers, and clearing grass around the home\". Most bites are struck at the foot and ankle of someone working or walking after dark. <strong>Boots, long trousers and a cleared, well-lit compound keep the snake and the skin apart</strong>, which is prevention; everything else on the list is preparation for a bite that has already happened. Snakes are part of the farming environment all year, so abandoning the fields is neither possible nor necessary.\n\nWhy the other options fail:\n• B — A tourniquet is harmful in snakebite and treats the bite rather than preventing it.\n• C — Stocking antivenom is treatment, and antivenom kept in a village shop will not be kept cold or used correctly.\n• D — Snakes are active in the warm season generally; abandoning the farm is not a preventive strategy.\n\nReference: WHO — snakebite envenoming prevention; Ghana STG",
+  "strategy": "Boots and a cleared compound stop the bite. Everything else treats one.",
   "difficulty": "hard",
   "tags": [
    "gerontology-community",
@@ -70906,28 +70906,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPH-2072",
   "categorySlug": "gerontology-community",
-  "stem": "The inner square of a vial monitor is darker than the outer ring, but the expiry date has not passed. What should the nurse do?",
+  "stem": "A child develops a rash two days after vaccination and the mother is sure the vaccine caused it. Why can the nurse not conclude this?",
   "choices": [
    {
     "id": "a",
-    "text": "Use the vial, because the expiry date has not yet been reached"
+    "text": "Because vaccines are tested so thoroughly that reactions cannot occur"
    },
    {
     "id": "b",
-    "text": "Use the vial only for older children rather than for infants"
+    "text": "Because a rash two days later is always caused by something else entirely"
    },
    {
     "id": "c",
-    "text": "Discard the vial, because it has been exposed to too much heat"
+    "text": "Because the rash would have appeared at about that time in any case"
    },
    {
     "id": "d",
-    "text": "Return the vial to the fridge and reassess it the following day"
+    "text": "Because the mother cannot be expected to describe a rash accurately"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Discard the vial, because it has been exposed to too much heat\". The monitor <strong>records cumulative heat exposure, which the expiry date cannot: once the inner square matches or exceeds the ring, potency is no longer assured and the vial is discarded regardless of the date</strong>. The change is irreversible, so cooling it again achieves nothing. Giving it to anyone <strong>records a dose that was never actually delivered, which is worse than not vaccinating, because the child is counted as protected</strong>.\n\nWhy the other options fail:\n• A — The date says nothing about heat exposure during transport.\n• B — An ineffective vaccine is ineffective at every age.\n• D — The colour change is permanent and does not reverse.\n\nReference: WHO cold chain; Ghana EPI",
-  "strategy": "The monitor overrules the expiry date. Heat is what the date cannot see.",
+  "rationale": "CORRECT (C) — \"Because the rash would have appeared at about that time in any case\". Children fall ill all the time, and an illness that happens after a vaccination would have happened at about that moment whether or not the vaccine was given. <strong>A temporal association is not a causal one</strong>: many children are vaccinated and many children have rashes, so some will have both on the same day by coincidence. Causation needs the pattern across many children, which is why events are reported and assessed together rather than one at a time.\n\nWhy the other options fail:\n• A — Vaccines do cause reactions; that is exactly why events are reported and monitored.\n• B — A rash can be caused by the vaccine; the point is that this cannot be concluded from one child.\n• D — The mother's description is a valid starting point; the problem is the reasoning, not the witness.\n\nReference: WHO — adverse events following immunisation; causality assessment",
+  "strategy": "After is not because. Report it, and let the pattern across many children decide.",
   "difficulty": "hard",
   "tags": [
    "gerontology-community",
@@ -70976,28 +70976,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPH-2074",
   "categorySlug": "gerontology-community",
-  "stem": "A child attending with a mild cold and no fever is due for vaccination. What should the nurse do?",
+  "stem": "A nurse packs vaccines into a cold box for an outreach session in a hot vehicle. What protects their potency?",
   "choices": [
    {
     "id": "a",
-    "text": "Defer vaccination until the child has fully recovered"
+    "text": "Pressing the vaccine vials directly against the frozen ice packs"
    },
    {
     "id": "b",
-    "text": "Vaccinate only if the mother requests it despite the cold"
+    "text": "Filling the box completely so that no air can move around inside it"
    },
    {
     "id": "c",
-    "text": "Give half the dose now and the remainder at the next visit"
+    "text": "Packing the box the night before so that it starts out very cold"
    },
    {
     "id": "d",
-    "text": "Vaccinate the child, as a mild illness is not a contraindication"
+    "text": "Conditioning the ice packs so that they do not freeze the vials"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Vaccinate the child, as a mild illness is not a contraindication\". Minor illness without significant fever <strong>is not a contraindication, and deferring is one of the largest causes of children never completing the schedule, because many families do not return</strong>. Every contact with the service is an opportunity that may not recur. Splitting a dose is never correct — <strong>a partial dose does not immunise and the schedule cannot be reconstructed from fractions</strong>.\n\nWhy the other options fail:\n• A — Deferral is the commonest missed opportunity and many never return.\n• B — The decision is clinical, not left to a request.\n• C — Doses are never divided; a part dose does not protect.\n\nReference: WHO immunisation contraindications; Ghana EPI",
-  "strategy": "Take the opportunity in front of you. She may not come back.",
+  "rationale": "CORRECT (D) — \"Conditioning the ice packs so that they do not freeze the vials\". Ice packs are conditioned by leaving them at room temperature until the frost on the outside has melted and water can be heard when the pack is shaken. Packed that way they <strong>hold the box at 2 to 8 °C instead of freezing the vaccines against them</strong> — and a freeze damages the adsorbed vaccines such as pentavalent and tetanus, silently and irreversibly.\n\nWhy the other options fail:\n• A — Direct contact with a frozen pack freezes the vial and destroys the vaccine.\n• B — A tightly filled box restricts the cold air the vaccines need and crushes the vials.\n• C — Packing the night before with unconditioned packs simply gives the freezer longer to do its damage.\n\nReference: WHO — vaccine cold chain and carrier packing; Ghana EPI guidelines",
+  "strategy": "Condition the packs until they slosh. Cold is the aim; frozen is the failure.",
   "difficulty": "hard",
   "tags": [
    "gerontology-community",
@@ -71384,28 +71384,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPH-2086",
   "categorySlug": "gerontology-community",
-  "stem": "A CHPS nurse refers a patient to the district hospital. What should accompany the referral?",
+  "stem": "A CHPS nurse has referred a woman to the district hospital. What should come back to the nurse afterwards?",
   "choices": [
    {
     "id": "a",
-    "text": "A written note stating findings, treatment given and the reason for referral"
+    "text": "A written reply saying what was found and done, so care can continue"
    },
    {
     "id": "b",
-    "text": "A verbal message passed through the relative escorting the patient"
+    "text": "A receipt showing only that the hospital has registered the patient there"
    },
    {
     "id": "c",
-    "text": "A request that the hospital telephone the CHPS zone on arrival"
+    "text": "Nothing at all, because the hospital now takes over all of her care fully"
    },
    {
     "id": "d",
-    "text": "An instruction to the family to explain the problem themselves"
+    "text": "A bill for the services the woman received while she was there"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"A written note stating findings, treatment given and the reason for referral\". A written referral <strong>carries the observations, the treatment already given and the reason, so the receiving team does not repeat work or start from nothing</strong> — and it is a legal record of the care provided. The counter-part of the system is the reply: <strong>the return note telling the CHPS nurse what was found and what follow-up is needed is what makes referral a loop rather than a one-way departure</strong>.\n\nWhy the other options fail:\n• B — Verbal messages are lost or distorted in transit.\n• C — Relying on a telephone call risks it never happening.\n• D — Families cannot convey clinical findings accurately.\n\nReference: Ghana Health Service referral policy",
-  "strategy": "Write it down and expect a reply. Referral is a loop, not a departure.",
+  "rationale": "CORRECT (A) — \"A written reply saying what was found and done, so care can continue\". A referral is a handover in one direction; the reply — the counter-referral — closes the loop. It tells the referring nurse <strong>the diagnosis, the treatment given and what follow-up is now needed</strong>, so that the woman is not lost between two facilities and the nurse learns from the cases she sends. Without it the CHPS zone cannot follow up, and the same patient returns later with an untreated problem.\n\nWhy the other options fail:\n• B — Registration proves only that she arrived; it says nothing about what was found.\n• C — The hospital takes over the episode, not the woman's ongoing care in her own community.\n• D — A bill is an administrative document, not a clinical reply.\n\nReference: Ghana CHPS referral guidelines; WHO — continuity of care",
+  "strategy": "A referral without a reply is a patient posted into the dark.",
   "difficulty": "hard",
   "tags": [
    "gerontology-community",
