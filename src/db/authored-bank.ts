@@ -40900,11 +40900,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Addiction, in which the patient craves the drug for its pleasant effects"
+    "text": "Tolerance, in which the body adapts and the same dose achieves less"
    },
    {
     "id": "b",
-    "text": "Tolerance, in which the body adapts and the same dose achieves less"
+    "text": "Addiction, in which the patient craves the drug for its pleasant effects"
    },
    {
     "id": "c",
@@ -40915,8 +40915,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     "text": "Overdose, in which too much drug has accumulated within the tissues"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Tolerance, in which the body adapts and the same dose achieves less\". Tolerance is a <strong>physiological adaptation</strong>: receptors down-regulate or metabolism speeds up, so the same dose produces less effect. It is expected with long-term opioids, is managed by adjusting the dose, and is <strong>not addiction</strong>. Addiction involves craving, compulsive use and use despite harm. Confusing the two is one of the main reasons patients with genuine pain are under-treated — the nurse sees an increasing dose and assumes misuse.\n\nWhy the other options fail:\n• A — Addiction is a behavioural syndrome of craving and compulsive use, not simply needing more.\n• C — Allergy produces rash, swelling or anaphylaxis, not reduced analgesic effect.\n• D — Overdose causes sedation and respiratory depression, the opposite of reduced effect.\n\nReference: Ghana nursing curriculum — RGN 207 pharmacodynamics",
+  "correctChoiceId": "a",
+  "rationale": "CORRECT (A) — \"Tolerance, in which the body adapts and the same dose achieves less\". Tolerance is a <strong>physiological adaptation</strong>: receptors down-regulate or metabolism speeds up, so the same dose produces less effect. It is expected with long-term opioids, is managed by adjusting the dose, and is <strong>not addiction</strong>. Addiction involves craving, compulsive use and use despite harm. Confusing the two is one of the main reasons patients with genuine pain are under-treated — the nurse sees an increasing dose and assumes misuse.\n\nWhy the other options fail:\n• B — Addiction is a behavioural syndrome of craving and compulsive use, not simply needing more.\n• C — Allergy produces rash, swelling or anaphylaxis, not reduced analgesic effect.\n• D — Overdose causes sedation and respiratory depression, the opposite of reduced effect.\n\nReference: Ghana nursing curriculum — RGN 207 pharmacodynamics",
   "strategy": "Separate tolerance, dependence and addiction. Only one of the three is a behavioural problem.",
   "difficulty": "medium",
   "tags": [
@@ -42298,28 +42298,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PKD-1235",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A nurse suspects a drug caused a rash but cannot be certain. Should she report it?",
+  "stem": "A patient who started an ACE inhibitor two weeks ago arrives with swelling of the tongue and lips and a hoarse voice. What should the nurse do **first**?",
   "choices": [
    {
     "id": "a",
-    "text": "Yes, because suspicion is the threshold for reporting, not certainty"
+    "text": "Give the next dose and observe whether the swelling spreads"
    },
    {
     "id": "b",
-    "text": "No, because only proven reactions are of any use to the regulator"
+    "text": "Stop the drug, keep the airway under close watch and call for urgent medical help"
    },
    {
     "id": "c",
-    "text": "No, because reporting an uncertain case may unfairly blame the doctor"
+    "text": "Record the swelling and mention it at the next ward round"
    },
    {
     "id": "d",
-    "text": "Yes, but only after the patient has recovered fully from the reaction"
+    "text": "Apply a cold compress to the lips and reassess in an hour"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Yes, because suspicion is the threshold for reporting, not certainty\". Pharmacovigilance works by <strong>accumulating many uncertain reports until a pattern emerges</strong>. No single clinician can establish causality from one patient, and if everyone waits for certainty the signal never forms. So the threshold is deliberately low: <strong>suspicion is enough</strong>. Reporting concerns the medicine, not the prescriber, and is not an allegation against anyone. Rare serious reactions have historically been found in exactly this way.\n\nWhy the other options fail:\n• B — Regulators specifically want suspected reactions; certainty is established from the aggregate.\n• C — A report concerns the drug rather than the prescriber and implies no blame.\n• D — Delaying until recovery loses detail and may delay recognition of a serious signal.\n\nReference: Ghana nursing curriculum — RGN 207 pharmacovigilance",
-  "strategy": "Report on suspicion. Certainty is what the collected reports produce, not what they require.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"Stop the drug, keep the airway under close watch and call for urgent medical help\". Angioedema from an ACE inhibitor can progress over minutes to <strong>laryngeal swelling and complete airway obstruction</strong>, and it is not a histamine reaction, so antihistamines do not reverse it. The drug is stopped permanently, the airway is the observation that matters, and the patient is escalated at once.\n\nWhy the other options fail:\n• A — Another dose continues the bradykinin accumulation that is driving the swelling, and the next episode can close the airway.\n• C — Waiting for a ward round treats a time-critical airway threat as a documentation task.\n• D — A cold compress does nothing to laryngeal oedema, and an hour is longer than this can safely be observed.\n\nReference: Ghana Essential Medicines List; Ghana Health Service adverse drug reaction guidance",
+  "strategy": "Angioedema on an ACE inhibitor is a bradykinin problem and an airway problem. Stop the drug and watch the airway, do not wait.",
   "difficulty": "hard",
   "tags": [
    "pharmacology-parenteral",
@@ -59789,7 +59789,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Expressed breast milk by cup or tube until she can suck"
+    "text": "Nothing by mouth until she demonstrates a coordinated suck"
    },
    {
     "id": "c",
@@ -59797,11 +59797,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Nothing by mouth until she demonstrates a coordinated suck"
+    "text": "Expressed breast milk by cup or tube until she can suck"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Expressed breast milk by cup or tube until she can suck\". An immature suck is <strong>a mechanical problem, not a reason to withhold the mother's milk</strong>, which remains the ideal feed and is especially protective in a preterm baby. Cup or tube feeding maintains the supply and provides milk safely. Bottles complicate the later return to the breast, glucose water displaces nutrition, and withholding feeds <strong>risks hypoglycaemia in a baby with almost no reserves</strong>.\n\nWhy the other options fail:\n• A — Formula by bottle displaces breast milk and complicates later feeding.\n• C — Glucose water provides no nutrition and displaces milk.\n• D — Withholding feeds risks hypoglycaemia in a baby with no reserves.\n\nReference: Ghana Essential Newborn Care; WHO preterm feeding guidance",
+  "correctChoiceId": "d",
+  "rationale": "CORRECT (D) — \"Expressed breast milk by cup or tube until she can suck\". An immature suck is <strong>a mechanical problem, not a reason to withhold the mother's milk</strong>, which remains the ideal feed and is especially protective in a preterm baby. Cup or tube feeding maintains the supply and provides milk safely. Bottles complicate the later return to the breast, glucose water displaces nutrition, and withholding feeds <strong>risks hypoglycaemia in a baby with almost no reserves</strong>.\n\nWhy the other options fail:\n• A — Formula by bottle displaces breast milk and complicates later feeding.\n• C — Glucose water provides no nutrition and displaces milk.\n• B — Withholding feeds risks hypoglycaemia in a baby with no reserves.\n\nReference: Ghana Essential Newborn Care; WHO preterm feeding guidance",
   "strategy": "An immature suck changes the route, never the milk.",
   "difficulty": "hard",
   "tags": [
@@ -60191,28 +60191,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHD-1759",
   "categorySlug": "pediatrics",
-  "stem": "A 2-year-old is convulsing with a high fever. What should the nurse do **first**?",
+  "stem": "A 2-year-old has a febrile convulsion. Which feature would make the nurse classify it as **complex** rather than simple?",
   "choices": [
    {
     "id": "a",
-    "text": "Insert a spoon between her teeth to protect her tongue"
+    "text": "It lasted three minutes and involved the whole body equally"
    },
    {
     "id": "b",
-    "text": "Hold her limbs firmly to stop the convulsive movements"
+    "text": "It began in the left arm and then spread to the rest of the body"
    },
    {
     "id": "c",
-    "text": "Immerse her in cold water to lower the temperature quickly"
+    "text": "The temperature at the time of the fit was 39.4°C"
    },
    {
     "id": "d",
-    "text": "Place her on her side and protect her from injury"
+    "text": "The child is two years old and has had no previous fits"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Place her on her side and protect her from injury\". The immediate priorities are <strong>airway and safety</strong>: the recovery position lets secretions drain and prevents aspiration, and clearing the surroundings prevents injury while the fit runs its course. Nothing goes in the mouth — the tongue cannot be swallowed and objects break teeth or obstruct breathing. Restraint causes fractures, and <strong>cold immersion causes shivering, which raises the core temperature further</strong>.\n\nWhy the other options fail:\n• A — Objects in the mouth break teeth and can obstruct the airway.\n• B — Restraining a convulsing child risks fractures and soft tissue injury.\n• C — Cold immersion causes shivering, which raises the core temperature.\n\nReference: Ghana STG — febrile convulsion; IMCI",
-  "strategy": "Side, safe, and nothing in the mouth. Time it, and let it stop.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"It began in the left arm and then spread to the rest of the body\". A complex febrile convulsion is one that is <strong>focal at onset, lasts longer than fifteen minutes, or recurs within twenty-four hours</strong>. A focal onset points to a localised cortical event rather than the generalised response of a simple febrile fit, so it changes the work-up and the level of concern.\n\nWhy the other options fail:\n• A — Three minutes, generalised, is the description of a simple febrile convulsion.\n• C — The height of the fever does not distinguish the two; simple fits commonly occur above 39°C.\n• D — Age under five with a first fit is typical of febrile convulsions in general and says nothing about complexity.\n\nReference: Ghana Health Service integrated management of childhood illness",
+  "strategy": "Complex febrile fit: focal, prolonged beyond fifteen minutes, or repeated within a day. Everything else is simple.",
   "difficulty": "hard",
   "tags": [
    "pediatrics",
@@ -74497,28 +74497,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2177",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A patient is prescribed 40 mmol of potassium chloride through a peripheral line at the maximum safe rate. What is the **shortest** acceptable infusion time?",
+  "stem": "A prescription reads: potassium chloride 40 mmol in 500 mL of normal saline, over two hours, through a peripheral cannula. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "Two hours"
+    "text": "Give it as prescribed, because 40 mmol is a standard dose"
    },
    {
     "id": "b",
-    "text": "Four hours"
+    "text": "Query it, because it delivers 20 mmol per hour against a 10 mmol per hour ceiling"
    },
    {
     "id": "c",
-    "text": "One hour"
+    "text": "Give it over two hours but reduce the concentration by adding saline"
    },
    {
     "id": "d",
-    "text": "Thirty minutes"
+    "text": "Give it as prescribed and check the potassium an hour later"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Four hours\". The maximum peripheral rate is about 10 mmol per hour, so <strong>40 mmol divided by 10 mmol per hour requires four hours</strong>. Anything faster demands a central line with cardiac monitoring in a high dependency area. The limit exists because potassium delivered faster than cells can absorb it reaches concentrations that stop the heart. Sense-check: four lots of 10 mmol at one an hour is four hours.\n\nWhy the other options fail:\n• A — This delivers 20 mmol each hour, twice the safe peripheral rate.\n• C — This delivers the whole 40 mmol in an hour and risks fatal arrhythmia.\n• D — This is eight times the safe rate and would be lethal.\n\nReference: Ghana Health Service safe medication administration guidance",
-  "strategy": "Divide the dose by the maximum safe hourly rate. The clock is set by the ceiling, not by convenience.",
+  "rationale": "CORRECT (B) — \"Query it, because it delivers 20 mmol per hour against a 10 mmol per hour ceiling\". Forty millimoles over two hours is <strong>20 mmol per hour, twice the maximum rate for a peripheral line</strong>, and rate rather than total dose is what stops the heart. The nurse holds the infusion and refers the prescription back for re-timing over at least four hours. Nothing in the prescription looks unusual except the rate, which is exactly why it has to be calculated rather than glanced at.\n\nWhy the other options fail:\n• A — The dose is ordinary; the rate is the hazard. Assessing the dose and not the rate is how an unsafe infusion gets hung.\n• C — Diluting it further does not change the rate at which the millimoles enter the circulation; the same 40 mmol still arrives in two hours.\n• D — Checking the potassium an hour later detects harm that has already been done; it does not prevent it.\n\nReference: Ghana Health Service safe medication administration guidance",
+  "strategy": "For potassium, divide the millimoles by the hours before hanging anything. The number that kills is mmol per hour, not mmol per bag.",
   "difficulty": "hard",
   "tags": [
    "fluid-electrolyte",
@@ -107952,28 +107952,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3149",
   "categorySlug": "fluid-electrolyte",
-  "stem": "During an intravenous infusion an older patient becomes breathless with a cough, and fine crackles are audible at both lung bases. What should the nurse do **first**?",
+  "stem": "A patient taking furosemide has a serum potassium of 3.1 mmol/L. Which electrocardiogram change should the nurse look for?",
   "choices": [
    {
     "id": "a",
-    "text": "Increase the infusion rate to improve the circulation and relieve the breathlessness"
+    "text": "Tall, peaked T waves with a narrow base"
    },
    {
     "id": "b",
-    "text": "Slow or stop the infusion, sit the patient upright and call for medical review"
+    "text": "Flattened T waves with prominent U waves"
    },
    {
     "id": "c",
-    "text": "Lie the patient flat to make breathing easier while the infusion continues"
+    "text": "A short PR interval with a delta wave"
    },
    {
     "id": "d",
-    "text": "Continue the infusion as prescribed and document the findings at the end of the shift"
+    "text": "ST elevation confined to the inferior leads"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Slow or stop the infusion, sit the patient upright and call for medical review\". Breathlessness with bibasal crackles during an infusion is circulatory overload until proved otherwise, and older patients with reduced cardiac or renal reserve are the most vulnerable. The first action must stop the cause, so the infusion is slowed or stopped rather than left running while help is sought. Sitting the patient upright reduces venous return and allows better lung expansion, giving immediate symptomatic benefit. Oxygen, observations including oxygen saturation, and urgent medical review follow, and a diuretic may be prescribed. Accurate fluid balance recording is essential both for management and because it may reveal how the overload developed.\n\nWhy the other options fail:\n• A — Increasing the rate adds more fluid to a circulation that is already overloaded and would rapidly worsen pulmonary oedema. This inverts the correct response.\n• C — Lying flat increases venous return to an overloaded heart and worsens breathlessness. Upright positioning is the correct manoeuvre in pulmonary oedema.\n• D — Continuing an infusion that is harming the patient and deferring documentation is unsafe. This is an acute deterioration requiring action now.\n\nReference: NICE intravenous fluid therapy guidance; Ghana Standard Treatment Guidelines",
-  "strategy": "When a treatment appears to be causing harm, stop the treatment before doing anything else. Remove the cause, then position, then escalate.",
+  "rationale": "CORRECT (B) — \"Flattened T waves with prominent U waves\". Potassium is the ion that repolarises the ventricle, so <strong>a low level flattens and inverts the T wave, depresses the ST segment and uncovers a U wave after the T wave</strong>. The same fall also predisposes to ectopic beats and, with digoxin on board, to serious arrhythmia. The nurse who knows the low pattern can act on a result of 3.1 before the patient becomes symptomatic.\n\nWhy the other options fail:\n• A — Tall, narrow-based, peaked T waves are the pattern of a high potassium, the opposite disturbance.\n• C — A short PR interval with a delta wave describes a bypass tract (Wolff-Parkinson-White), which has nothing to do with potassium.\n• D — ST elevation in a territory is the pattern of myocardial injury, and it does not follow from a diuretic-induced potassium loss.\n\nReference: Ghana Health Service electrolyte replacement guidance; NMC Ghana curriculum",
+  "strategy": "Low potassium flattens T waves and adds U waves; high potassium peaks T waves. Both disturb conduction, but in opposite directions.",
   "difficulty": "medium",
   "tags": [
    "fluid-electrolyte",
@@ -108088,28 +108088,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-3153",
   "categorySlug": "fluid-electrolyte",
-  "stem": "Two days after major abdominal surgery a patient is oedematous yet has a low blood pressure, a rapid pulse and poor urine output. How should the nurse interpret this?",
+  "stem": "Three days after a head injury a man has a serum sodium of 155 mmol/L and passes large volumes of pale dilute urine. Which mechanism is **most** likely?",
   "choices": [
    {
     "id": "a",
-    "text": "The patient is fluid overloaded and needs an urgent diuretic"
+    "text": "Excess antidiuretic hormone retaining water and diluting the sodium"
    },
    {
     "id": "b",
-    "text": "Fluid has shifted into the interstitial space, so the patient is oedematous but intravascularly depleted"
+    "text": "Inadequate antidiuretic hormone, so the kidney cannot reabsorb water"
    },
    {
     "id": "c",
-    "text": "The oedema proves hydration is adequate, so no further fluid is required"
+    "text": "Sodium lost in the urine as part of cerebral salt wasting"
    },
    {
     "id": "d",
-    "text": "The findings are contradictory and are most likely a recording error"
+    "text": "Too much sodium given in the intravenous fluid since admission"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Fluid has shifted into the interstitial space, so the patient is oedematous but intravascularly depleted\". Surgical trauma and inflammation increase capillary permeability, so fluid leaks from the circulation into the interstitium. The patient therefore looks wet while the circulating volume is low, which is exactly the trap: oedema is visible whereas hypovolaemia is not. Tachycardia, hypotension and oliguria describe the intravascular compartment and are the findings that should guide treatment, so cautious fluid replacement is required rather than a diuretic. A diuretic here would remove fluid from an already depleted circulation and precipitate acute kidney injury. Around the third day the fluid returns to the circulation, and the risk then reverses towards overload.\n\nWhy the other options fail:\n• A — A diuretic would empty the intravascular compartment further. The oedema is in the wrong compartment to be removed safely while the circulation is underfilled.\n• C — Visible oedema says nothing about the circulating volume. Treating it as evidence of adequate hydration would leave the kidneys underperfused.\n• D — The combination is a recognised and well-understood pattern after major surgery, not an error. Dismissing it would delay necessary treatment.\n\nReference: Ghana Standard Treatment Guidelines — surgical care; NICE intravenous fluid therapy guidance",
-  "strategy": "Always ask which compartment the fluid is in. A patient can be oedematous and hypovolaemic at once, and the circulation decides the treatment.",
+  "rationale": "CORRECT (B) — \"Inadequate antidiuretic hormone, so the kidney cannot reabsorb water\". Injury to the pituitary stalk after a head injury can stop antidiuretic hormone reaching the kidney, so <strong>the collecting ducts stay impermeable, large volumes of dilute urine are passed, and the serum sodium climbs</strong>. This is diabetes insipidus, and it is corrected by replacing the hormone and matching the water loss, not by restricting fluid.\n\nWhy the other options fail:\n• A — Excess antidiuretic hormone produces the opposite picture: concentrated urine and a low sodium, as in SIADH.\n• C — Cerebral salt wasting loses sodium in the urine and gives a low serum sodium with clinical dehydration, not a sodium of 155.\n• D — A high sodium from intravenous fluid would be accompanied by concentrated, not dilute, urine, because the kidney would be conserving water normally.\n\nReference: Ghana Health Service neurosurgical and critical care guidance",
+  "strategy": "High sodium with dilute urine means the kidney is losing water it should keep — think antidiuretic hormone deficiency.",
   "difficulty": "hard",
   "tags": [
    "fluid-electrolyte",
