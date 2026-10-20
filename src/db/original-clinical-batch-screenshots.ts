@@ -375,7 +375,7 @@ export const ORIGINAL_CLINICAL_BATCH_SCREENSHOTS: AuthoredQuestion[] = [
     authoredId: "NG-ORIGINAL-CLINICAL-0081",
     categorySlug: "med-surg",
     stem: "A 10-year-old boy in Ghana develops jaundice, dark urine, and acute pallor after receiving an antimalarial drug. Testing reveals an inborn error of metabolism causing premature red blood cell destruction. Which disorder is most likely?",
-    choices: [{"id": "a", "text": "Glucose-6-phosphate dehydrogenase (G6PD) deficiency"}, {"id": "b", "text": "Phenylketonuria"}, {"id": "c", "text": "Coeliac disease"}, {"id": "d", "text": "Homocystinuria"}],
+    choices: [{"id": "a", "text": "Glucose-6-phosphate dehydrogenase (G6PD) deficiency"}, {"id": "b", "text": "Phenylketonuria (PKU), an inborn error of amino-acid metabolism"}, {"id": "c", "text": "Coeliac disease, an autoimmune reaction to dietary gluten"}, {"id": "d", "text": "Homocystinuria, an inborn error of methionine metabolism"}],
     correctChoiceId: "a",
     rationale: "G6PD deficiency is an X-linked recessive enzymopathy that impairs the regeneration of NADPH in erythrocytes. Under oxidative stress (e.g. primaquine, sulfonamides, fava beans, or severe infection), RBCs undergo acute intravascular hemolysis and premature destruction.",
     strategy: "High-yield West African clinical link: G6PD deficiency + oxidative medication (or fava beans) = acute hemolytic anemia with dark urine and jaundice.",

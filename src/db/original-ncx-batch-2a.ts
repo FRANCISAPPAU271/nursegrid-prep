@@ -359,9 +359,9 @@ export const NCX2_PART_A: AuthoredQuestion[] = [
     stem: "A man arrives at the emergency department with acute pulmonary oedema: he is terrified, gasping, cyanosed and coughing frothy sputum. Intravenous morphine 2.5 mg is given. Which response shows the **intended** effect of the drug?",
     choices: [
       "He becomes calmer and his breathing becomes slower and less laboured as venous pooling reduces the load on his heart",
-      "His pulse pressure widens",
-      "His blood pressure rises to normal",
-      "His cough is completely suppressed",
+      "His pulse pressure widens as the drug reduces the systemic vascular resistance and the afterload on the heart",
+      "His blood pressure rises back to normal as the morphine increases the force of each ventricular contraction",
+      "His cough is completely suppressed within a few minutes, so that he stops bringing up the frothy sputum",
     ],
     correct: "a",
     explain: "In pulmonary oedema, small doses of morphine <strong>relieve the terror and air hunger</strong> that drive sympathetic stimulation, and cause <strong>venodilatation that reduces preload</strong>, so less blood returns to the failing left ventricle and lungs. It is given with oxygen, sitting the patient upright, a loop diuretic and nitrates, while watching the respiratory rate.",

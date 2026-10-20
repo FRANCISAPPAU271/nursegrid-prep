@@ -289,9 +289,9 @@ export const NCX2_PART_C: AuthoredQuestion[] = [
     stem: "A newly diagnosed young man with type 1 diabetes asks the nurse, \"Why is my insulin called human insulin? Is it taken from people?\" Which response is **best**?",
     choices: [
       "\"It is made by bacteria or yeast using genetic technology so that its structure is identical to the insulin your own pancreas would make, which is why it rarely causes antibody or allergic reactions\"",
-      "\"It is purified from donated human blood\"",
-      "\"It prevents the long-term damage to the eyes and kidneys that other insulins cause\"",
-      "\"It means you will not have any episodes of low blood sugar\"",
+      "\"It is purified from donated human blood plasma, so it contains exactly the same insulin that a healthy pancreas would produce\"",
+      "\"It prevents the long-term damage to the eyes, kidneys and nerves that the older animal insulins cause, because it is a much purer preparation\"",
+      "\"It means that you will not have any episodes of low blood sugar, because it matches your own insulin exactly and cannot overshoot\"",
     ],
     correct: "a",
     explain: "Human insulin is produced by <strong>recombinant DNA technology</strong>: the human insulin gene is inserted into bacteria or yeast, which then manufacture insulin with the <strong>same amino-acid sequence as endogenous insulin</strong>. Because it is not foreign protein, immune reactions and antibody formation are rare. Analogue insulins are modified versions designed to act faster or longer.",

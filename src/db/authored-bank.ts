@@ -6597,15 +6597,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Risk of severe constipation"
+    "text": "Risk of severe constipation from reduced gut motility and poor fluid intake"
    },
    {
     "id": "c",
-    "text": "Risk of a clotting disorder"
+    "text": "Risk of a clotting disorder from dilution of the clotting factors in the plasma"
    },
    {
     "id": "d",
-    "text": "Risk of hyperglycaemia"
+    "text": "Risk of hyperglycaemia from the stress response and reduced oral intake"
    }
   ],
   "correctChoiceId": "a",
@@ -116218,7 +116218,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Prone"
+   "text": "Prone, with the head turned to one side so that secretions can drain"
   },
   {
    "id": "b",
@@ -116226,11 +116226,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Flat with the neck flexed"
+   "text": "Flat on the back with a pillow under the head and the neck flexed"
   },
   {
    "id": "d",
-   "text": "Trendelenburg"
+   "text": "Trendelenburg, with the foot of the bed raised on blocks"
   }
  ],
  "correctChoiceId": "b",
@@ -116858,11 +116858,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Normal weight for a term baby"
+   "text": "Normal weight for a term baby, needing only routine newborn care and feeding"
   },
   {
    "id": "b",
-   "text": "Macrosomic"
+   "text": "Macrosomic, requiring screening for hypoglycaemia in the first few hours"
   },
   {
    "id": "c",
@@ -116870,7 +116870,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Very low birth weight"
+   "text": "Very low birth weight, requiring admission to the neonatal unit"
   }
  ],
  "correctChoiceId": "c",
@@ -118074,15 +118074,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Placenta praevia"
+   "text": "Placenta praevia with a small revealed bleed and a soft uterus"
   },
   {
    "id": "b",
-   "text": "Normal labour"
+   "text": "Normal labour with a contraction ring and a head that is high"
   },
   {
    "id": "c",
-   "text": "An ovarian cyst"
+   "text": "A twisted ovarian cyst causing sudden severe abdominal pain"
   },
   {
    "id": "d",

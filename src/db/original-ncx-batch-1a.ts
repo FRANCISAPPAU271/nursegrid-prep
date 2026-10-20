@@ -229,9 +229,9 @@ export const NCX_PART_A: AuthoredQuestion[] = [
     stem: "A permanent pacemaker is inserted in a 70-year-old man with complete heart block. The nurse evaluates the device as **effective** when:",
     choices: [
       "His heart rate stays at or above the programmed rate and his blood pressure and level of consciousness are stable",
-      "His chest pain has resolved",
-      "His leg swelling has disappeared",
-      "He no longer needs his antihypertensive tablets",
+      "His chest pain has resolved, because the pacemaker has improved the blood supply to the myocardium",
+      "His leg swelling has disappeared, because the pacemaker has restored the forward flow of blood through the heart",
+      "He no longer needs his antihypertensive tablets, because the pacemaker has corrected the cause of his high blood pressure",
     ],
     correct: "a",
     explain: "A pacemaker exists to <strong>maintain an adequate heart rate and therefore cardiac output</strong>. Effectiveness is judged by a pulse that does not fall below the set rate, a stable blood pressure, absence of dizziness or syncope, and a paced rhythm on ECG.",

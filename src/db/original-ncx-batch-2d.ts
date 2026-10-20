@@ -9,9 +9,9 @@ export const NCX2_PART_D: AuthoredQuestion[] = [
     stem: "A 25-year-old man with Addison's disease attends the clinic. Which change in his skin would the nurse **expect** him to describe?",
     choices: [
       "Darkening, especially of his palm creases, knuckles, gums and old scars",
-      "Oily, reddened skin on his face",
-      "Puffy, coarse, scaly skin",
-      "Pale, dry skin",
+      "Oily, reddened skin on his face and forehead, with acne over his shoulders and chest",
+      "Puffy, coarse and scaly skin over his shins and the backs of his hands",
+      "Pale, dry skin with thinning hair over the crown and the outer eyebrows",
     ],
     correct: "a",
     explain: "In primary adrenal failure the pituitary pours out ACTH in an attempt to stimulate the gland; ACTH shares a precursor with <strong>melanocyte-stimulating hormone</strong>, so <strong>hyperpigmentation</strong> appears in sun-exposed areas, pressure points, creases, scars and mucous membranes. On dark skin it is noticed as darkening of the gums, palmar creases and knuckles.",

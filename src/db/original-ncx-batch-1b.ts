@@ -49,9 +49,9 @@ export const NCX_PART_B: AuthoredQuestion[] = [
     stem: "A patient is scheduled for a CT scan with intravenous contrast. During the pre-procedure check, which statement by the patient requires the nurse to **notify the radiologist** before the scan?",
     choices: [
       "\"The last time I had a dye injection for a kidney X-ray I came out in hives and my face swelled\"",
-      "\"I have a cold sore on my lip\"",
-      "\"I take omeprazole for heartburn\"",
-      "\"I had a chest X-ray last week\"",
+      "\"I have a cold sore on my lip that has been there for about a week and is almost healed\"",
+      "\"I take omeprazole every morning for heartburn and sometimes an antacid at night\"",
+      "\"I had a chest X-ray last week and I am not sure whether that involved any dye injection\"",
     ],
     correct: "a",
     explain: "A <strong>previous reaction to iodinated contrast</strong> is the strongest predictor of a repeat, potentially anaphylactic reaction. The radiologist must decide whether to <strong>premedicate</strong>, use an alternative imaging method or proceed with full resuscitation readiness. The nurse also checks renal function and metformin use.",
