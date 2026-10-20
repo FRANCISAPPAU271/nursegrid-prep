@@ -75143,28 +75143,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-JUS-2195",
   "categorySlug": "leadership-delegation",
-  "stem": "During a dressing change a competent patient says clearly that she wants the nurse to stop. What should the nurse do?",
+  "stem": "A patient admitted through casualty is wearing a gold chain and has 400 cedis in cash. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "Stop, make the patient safe, and discuss how to proceed"
+    "text": "List and witness the items with the patient and store them securely"
    },
    {
     "id": "b",
-    "text": "Finish quickly, since stopping midway may harm the wound"
+    "text": "Leave them with the patient so that she can look after her own property"
    },
    {
     "id": "c",
-    "text": "Continue while explaining why the dressing must be completed"
+    "text": "Give them to the relative who accompanied her to the hospital"
    },
    {
     "id": "d",
-    "text": "Stop only if the patient repeats the request a second time"
+    "text": "Ask the ward clerk to keep them in the office until she is discharged"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Stop, make the patient safe, and discuss how to proceed\". Consent is not given once at the beginning; <strong>it continues throughout and may be withdrawn at any moment, including part-way through</strong>. Continuing after a clear withdrawal converts lawful care into an unlawful touching. The nurse stops, ensures the patient is not left in an unsafe state, and then explores the reason, which is often pain that can be managed so the dressing can be completed with agreement.\n\nWhy the other options fail:\n• B — Speed does not cure the absence of consent, and the withdrawal takes effect immediately.\n• C — Explaining while continuing is still continuing without consent.\n• D — A clear request need not be repeated to be effective; requiring repetition is coercive.\n\nReference: Ghana Health Service Patients' Charter",
-  "strategy": "Consent runs for the whole procedure, not just the start. Stop when asked, then ask why.",
+  "rationale": "List and witness the items with the patient and store them securely",
+  "strategy": "Count it, sign it, lock it, receipt it. The list is the protection.",
   "difficulty": "hard",
   "tags": [
    "leadership-delegation",
@@ -75251,28 +75251,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-JUS-2198",
   "categorySlug": "leadership-delegation",
-  "stem": "A nurse gives a drug at the wrong time, and the patient suffers no harm. What should she do about telling the patient?",
+  "stem": "A nurse is asked to witness a patient's signature on a consent form for surgery she did not hear discussed. What is the witness attesting to?",
   "choices": [
    {
     "id": "a",
-    "text": "Say nothing, since the patient came to no harm"
+    "text": "That the operation is clinically appropriate for the patient"
    },
    {
     "id": "b",
-    "text": "Tell the patient only if he later asks about his medicines"
+    "text": "That the patient has understood every risk explained to him"
    },
    {
     "id": "c",
-    "text": "Be open about what happened and what is being done"
+    "text": "That the patient signed the form himself, without pressure"
    },
    {
     "id": "d",
-    "text": "Record it on the incident form but not in the patient's notes"
+    "text": "That the surgeon has explained the procedure adequately to him"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Be open about what happened and what is being done\". Openness about mistakes, often called the duty of candour, applies <strong>whether or not harm resulted, because the patient's entitlement to know what was done to him does not depend on the outcome</strong>. Being told early, by the person involved, preserves trust; discovering a concealed error destroys it and turns a minor incident into a disciplinary matter. Concealment, far more often than the error itself, is what ends careers.\n\nWhy the other options fail:\n• A — Absence of harm is fortunate but does not remove the patient's right to know.\n• B — Waiting to be asked places the burden on a patient who does not know there is anything to ask about.\n• D — Both records are needed, and neither replaces telling the patient.\n\nReference: Nursing and Midwifery Council of Ghana, Code of Ethics",
-  "strategy": "Disclose the error, not just the harm. Concealment is the offence that grows.",
+  "rationale": "That the patient signed the form himself, without pressure",
+  "strategy": "A witness signs to the signature and the freedom to give it — nothing more.",
   "difficulty": "medium",
   "tags": [
    "leadership-delegation",
@@ -75391,28 +75391,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-JUS-2202",
   "categorySlug": "leadership-delegation",
-  "stem": "A nurse is asked by a current patient for her personal phone number so he can contact her after discharge. What should she do?",
+  "stem": "A ward is short of two nurses and the nurse in charge asks one of them to accept a third ward on her own. What should she do?",
   "choices": [
    {
     "id": "a",
-    "text": "Give the number, since he will no longer be a patient after discharge"
+    "text": "Accept it, because refusing would amount to abandoning her patients"
    },
    {
     "id": "b",
-    "text": "Decline and explain the professional boundary, offering the clinic's contact instead"
+    "text": "Accept only what she can safely staff and record the risk she has raised"
    },
    {
     "id": "c",
-    "text": "Give the number but ask him to use it only in an emergency"
+    "text": "Accept it and work faster, since the shortage must be covered somehow"
    },
    {
     "id": "d",
-    "text": "Take his number instead and contact him herself in a few weeks"
+    "text": "Leave the ward immediately and report the nurse in charge to the Council"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Decline and explain the professional boundary, offering the clinic's contact instead\". A therapeutic relationship is unequal: the patient has shared intimate information and depends on the nurse's judgement, and <strong>that imbalance does not vanish at discharge</strong>. Moving to a personal relationship risks exploitation and destroys the nurse's ability to act impartially. Offering the proper clinical route meets the underlying need, which is usually reassurance about follow-up rather than friendship.\n\nWhy the other options fail:\n• A — Discharge does not reset the relationship; the imbalance created during care persists.\n• C — An emergency exception is exactly how boundaries erode, and emergencies belong to the service.\n• D — Initiating contact herself is a clearer breach, since it uses information obtained through the care.\n\nReference: Nursing and Midwifery Council of Ghana, Code of Ethics",
-  "strategy": "The imbalance does not end at discharge. Offer the service's route, not your own.",
+  "rationale": "Accept only what she can safely staff and record the risk she has raised",
+  "strategy": "Never absorb an unsafe ratio in silence. Escalate it, write it, and accept only what is safe.",
   "difficulty": "medium",
   "tags": [
    "leadership-delegation",
@@ -75709,28 +75709,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-JUS-2211",
   "categorySlug": "leadership-delegation",
-  "stem": "A nurse realises she has written an entry in the wrong patient's notes. How should she correct it?",
+  "stem": "A patient is brought in dead after collapsing at home, and the cause is not known. What must the nurse do about the death certificate?",
   "choices": [
    {
     "id": "a",
-    "text": "Rule a single line through it, write the correction, then sign, date and time it"
+    "text": "Report the death to the police and let the proper authority certify it"
    },
    {
     "id": "b",
-    "text": "Use correction fluid and write the correct entry over the top"
+    "text": "Complete the certificate herself, recording the collapse as the cause"
    },
    {
     "id": "c",
-    "text": "Erase the entry carefully so the record remains neat"
+    "text": "Ask the family to state the cause so that the certificate can be issued"
    },
    {
     "id": "d",
-    "text": "Remove the page and rewrite it accurately from memory"
+    "text": "Issue the certificate once the doctor on duty has signed the ward notes"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Rule a single line through it, write the correction, then sign, date and time it\". Clinical records are legal documents and <strong>must show what was originally written as well as the correction, because an obliterated entry looks like concealment and destroys the credibility of the whole record</strong>. A single line leaves the original legible, and the signature, date and time show who changed it and when. If the notes are later examined in court, an altered record damages the nurse far more than the original error would have.\n\nWhy the other options fail:\n• B — Correction fluid obliterates the original and suggests something is being hidden.\n• C — Erasure destroys evidence of what was recorded and when.\n• D — Removing a page from a legal document is falsification, whatever the intention.\n\nReference: Nursing and Midwifery Council of Ghana, standards for records",
-  "strategy": "Never hide what was written. One line through, then sign, date and time the correction.",
+  "rationale": "Report the death to the police and let the proper authority certify it",
+  "strategy": "Unknown cause means reportable. Police first, certificate later, body undisturbed.",
   "difficulty": "medium",
   "tags": [
    "leadership-delegation",
@@ -75815,28 +75815,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-JUS-2214",
   "categorySlug": "leadership-delegation",
-  "stem": "A registered nurse delegates a task to a nurse assistant, who performs it incorrectly and harms the patient. Where does accountability lie?",
+  "stem": "A nurse develops vomiting and diarrhoea on the morning of a shift on a neonatal unit. What should she do?",
   "choices": [
    {
     "id": "a",
-    "text": "With the nurse for the decision to delegate, and the assistant for the performance"
+    "text": "Report it and stay off duty until she has been clear for the required period"
    },
    {
     "id": "b",
-    "text": "Entirely with the assistant, who carried out the task"
+    "text": "Attend the shift and wear gloves, since the babies are in incubators"
    },
    {
     "id": "c",
-    "text": "Entirely with the nurse, since the assistant was following instructions"
+    "text": "Attend but ask to be assigned to the adult ward for the day instead"
    },
    {
     "id": "d",
-    "text": "With the employer alone, under the doctrine of vicarious liability"
+    "text": "Take an antidiarrhoeal and attend, because the unit is already short-staffed"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"With the nurse for the decision to delegate, and the assistant for the performance\". Delegation transfers the task but not the accountability for deciding it was safe to delegate. <strong>The registered nurse answers for judging the assistant competent, the task appropriate and supervision adequate; the assistant answers for how she performed what she accepted</strong>. Both accountabilities are real and they coexist. The employer may also be vicariously liable, which does not remove either individual's responsibility.\n\nWhy the other options fail:\n• B — This ignores the delegating nurse's duty to assess competence and provide supervision.\n• C — An assistant who accepts a task is accountable for performing it properly and for declining what she cannot do.\n• D — Vicarious liability adds the employer to the picture but does not displace personal accountability.\n\nReference: Nursing and Midwifery Council of Ghana, Code of Ethics",
-  "strategy": "You can delegate the task, never the decision to delegate. Check competence, task and supervision.",
+  "rationale": "Report it and stay off duty until she has been clear for the required period",
+  "strategy": "Her hands carry it to the cots. Stay off, report it, and return when clear.",
   "difficulty": "hard",
   "tags": [
    "leadership-delegation",
@@ -76203,28 +76203,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-JUS-2225",
   "categorySlug": "leadership-delegation",
-  "stem": "A nurse is asked to carry out a procedure she has never been trained to perform, and the requesting doctor says he will supervise. What should she do?",
+  "stem": "A patient asks to see the notes made about her during her admission. What is her position in Ghana?",
   "choices": [
    {
     "id": "a",
-    "text": "Proceed, since direct supervision transfers the responsibility to the doctor"
+    "text": "She may see them only if the doctor in charge agrees to release them"
    },
    {
     "id": "b",
-    "text": "Decline until she has been properly trained and assessed as competent"
+    "text": "She is entitled to information about her care and may see the record"
    },
    {
     "id": "c",
-    "text": "Proceed, provided the patient consents to a nurse performing it"
+    "text": "The record belongs to the hospital, so she has no right of access"
    },
    {
     "id": "d",
-    "text": "Proceed once, then arrange training before doing it again"
+    "text": "She may see them only after she has been discharged from hospital"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Decline until she has been properly trained and assessed as competent\". Acting beyond one's competence breaches the duty to do no harm, and <strong>supervision by another professional does not make an untrained practitioner competent nor transfer her personal accountability</strong>. The Code requires a nurse to recognise the limits of her competence and to decline what falls outside them. Declining is not obstruction; it is the response that protects the patient, and the proper route is training, assessment and then practice.\n\nWhy the other options fail:\n• A — Accountability for one's own actions is personal and cannot be transferred by supervision.\n• C — A patient cannot consent to being treated by someone who lacks the necessary competence.\n• D — Doing it once untrained is precisely the act that risks the harm.\n\nReference: Nursing and Midwifery Council of Ghana, Code of Ethics",
-  "strategy": "Competence is personal, not borrowed. Supervision teaches; it does not authorise.",
+  "rationale": "She is entitled to information about her care and may see the record",
+  "strategy": "The file belongs to the hospital; the information belongs to the patient.",
   "difficulty": "hard",
   "tags": [
    "leadership-delegation",
@@ -76311,28 +76311,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-JUS-2228",
   "categorySlug": "leadership-delegation",
-  "stem": "A nurse realises she has given a patient another patient's medication. What must she do **first**?",
+  "stem": "A man with advanced dementia has been made not for resuscitation after discussion with his family. His daughter arrives and demands that everything be done. What should the team do?",
   "choices": [
    {
     "id": "a",
-    "text": "Complete an incident form for the ward manager"
+    "text": "Cancel the decision at once, because a relative has objected to it"
    },
    {
     "id": "b",
-    "text": "Inform the patient's family of what has occurred"
+    "text": "Ignore her, because the decision has already been written in the notes"
    },
    {
     "id": "c",
-    "text": "Assess the patient and check his observations"
+    "text": "Meet her, explain how and why the decision was made, and review it"
    },
    {
     "id": "d",
-    "text": "Check the drug chart to establish how the error happened"
+    "text": "Tell her the decision is a clinical matter that is not hers to discuss"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Assess the patient and check his observations\". The sequence is <strong>patient, then prescriber, then paper</strong>. The first duty is to establish whether the patient has been harmed by assessing him and taking observations, because that determines how urgently the drug's effects must be countered. The prescriber is then told so treatment can be given, and only afterwards come the incident form, the notes and the conversation with the family. Reversing the order delays the clinical response.\n\nWhy the other options fail:\n• A — Documentation is essential but must never precede assessing the patient.\n• B — The family should be informed, but the patient's immediate safety comes first.\n• D — Investigating the cause matters later; it does not help the patient in the next few minutes.\n\nReference: Nursing and Midwifery Council of Ghana, Code of Ethics",
-  "strategy": "Patient, then prescriber, then paper. Never paper first.",
+  "rationale": "Meet her, explain how and why the decision was made, and review it",
+  "strategy": "A DNAR decision is reviewed, not defended. Explain the reasoning and listen for what the family knows.",
   "difficulty": "medium",
   "tags": [
    "leadership-delegation",
