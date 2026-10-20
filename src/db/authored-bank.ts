@@ -37718,28 +37718,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1101",
   "categorySlug": "med-surg",
-  "stem": "A patient with moderate dehydration is alert and able to drink. Why is oral rehydration preferred?",
+  "stem": "A preterm baby on day four of life has a swollen, shiny abdomen, bilious aspirates and blood in the stool. What is the likely diagnosis, and what should happen first?",
   "choices": [
    {
     "id": "a",
-    "text": "It corrects dehydration considerably faster than any intravenous fluid can"
+    "text": "Gastroenteritis, so the baby should be kept feeding and given oral rehydration solution"
    },
    {
     "id": "b",
-    "text": "It is effective, avoids cannula risks and does not need sterile equipment"
+    "text": "Necrotising enterocolitis, so feeds stop, the stomach is drained and antibiotics start"
    },
    {
     "id": "c",
-    "text": "It is the only method that replaces potassium alongside water and sodium"
+    "text": "A hernia, so the abdomen should be massaged firmly and a warm compress applied to it"
    },
    {
     "id": "d",
-    "text": "It removes the need to monitor the patient's fluid balance or hydration"
+    "text": "Constipation, so a glycerine suppository should be given and feeding continued as before"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"It is effective, avoids cannula risks and does not need sterile equipment\". Oral rehydration works because glucose and sodium are <strong>absorbed together</strong> in the small intestine, dragging water with them — a mechanism that keeps working even during cholera. It avoids cannulation, phlebitis, infection and the cost of fluids and giving sets. The intravenous route is reserved for <strong>shock, persistent vomiting, altered consciousness or ileus</strong>. A drip is not better care; it is care for a patient who cannot use the safer route.\n\nWhy the other options fail:\n• A — Intravenous fluid corrects volume faster; oral is preferred for safety, not speed.\n• C — Both routes can supply potassium; that is not the distinguishing advantage.\n• D — Monitoring is required whichever route is used, and often more closely with oral therapy.\n\nReference: Ghana nursing curriculum — RGN 203 fluid and electrolytes",
-  "strategy": "Choose the least invasive route that will work. Reserve invasive routes for those who cannot use it.",
+  "rationale": "CORRECT (B) — \"Necrotising enterocolitis, so feeds stop, the stomach is drained and antibiotics start\". Necrotising enterocolitis is an ischaemic and infective destruction of the immature bowel, and preterm babies fed formula are the group at risk. It announces itself with a distended abdomen that may look shiny and red, bilious aspirates, bloody stools, apnoea and temperature instability, and the radiograph may show gas in the bowel wall. Feeds are stopped at once, a nasogastric tube is left on free drainage, broad-spectrum antibiotics are started and the baby is supported with parenteral nutrition and careful fluid. Breast milk is the strongest protection.\n\nWhy the other options fail:\n• A — Continuing feeds into an ischaemic bowel makes the perforation more likely.\n• C — Massaging the abdomen risks perforating damaged bowel.\n• D — This is not constipation, and a suppository would delay the treatment that matters.\n\nReference: WHO — newborn care; Ghana STG — neonatal sepsis and NEC\n",
+  "strategy": "Preterm baby, bilious aspirates and a bloody stool means dead bowel, not an upset stomach. Stop feeds and treat.",
   "difficulty": "medium",
   "tags": [
    "med-surg",
@@ -42572,28 +42572,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BST-1243",
   "categorySlug": "risk-reduction",
-  "stem": "Two wards report the same mean pain score, but one has a much larger standard deviation. What does this indicate?",
+  "stem": "A drug trial randomised 400 patients, but 60 of them stopped taking the tablets. The report analyses all 400 in the groups they were originally allocated to. What is this called and why is it done?",
   "choices": [
    {
     "id": "a",
-    "text": "The ward with the larger figure has significantly worse pain overall"
+    "text": "A per-protocol analysis, which is done to show the drug at its best in ideal conditions"
    },
    {
     "id": "b",
-    "text": "The ward with the larger figure made errors when recording its scores"
+    "text": "An intention-to-treat analysis, which protects the benefit of randomisation"
    },
    {
     "id": "c",
-    "text": "Patients' scores vary far more widely on the ward with the larger figure"
+    "text": "A subgroup analysis, which is done to find out which patients responded best"
    },
    {
     "id": "d",
-    "text": "The two wards cannot be compared because their means are identical"
+    "text": "An interim analysis, which is done so that the trial can be stopped early if needed"
    }
   ],
-  "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Patients' scores vary far more widely on the ward with the larger figure\". The standard deviation describes <strong>how tightly the individual values cluster around the mean</strong>. Identical means with different spreads describe genuinely different wards: one where almost everyone scores near the average, and one where some patients are comfortable and others in severe pain. The second ward has a real problem that <strong>the average completely conceals</strong> — which is why a mean should never be reported without its spread.\n\nWhy the other options fail:\n• A — The average pain is identical; only the variability differs between the wards.\n• B — Wide variation is a genuine finding, not evidence of a recording error.\n• D — Identical means make the comparison of spread more informative, not impossible.\n\nReference: Ghana nursing curriculum — BCA 201 statistics",
-  "strategy": "Read the spread alongside the average. Two groups with the same mean can be entirely different.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"An intention-to-treat analysis, which protects the benefit of randomisation\". Randomisation only balances the groups if they are compared as they were made. If the people who struggled with the tablets are dropped, what is left is a group of survivors who tolerated treatment, and the drug looks better than it is — the very patients most likely to do badly have been removed from the treated arm. Intention to treat keeps every randomised patient in their original group whatever happened afterwards, so the answer reflects what a real clinic would see.\n\nWhy the other options fail:\n• A — A per-protocol analysis includes only those who completed treatment and is the one that flatters the drug.\n• C — A subgroup analysis looks within groups and cannot restore the loss from dropping patients.\n• D — An interim analysis is a look taken part-way through the trial, not a method of handling dropouts.\n\nReference: Cochrane Handbook — analysing trial data; Ghana NMC — research appreciation\n",
+  "strategy": "Analyse them where they were randomised. Dropping the dropouts leaves the healthy behind and inflates the drug.",
   "difficulty": "hard",
   "tags": [
    "risk-reduction",
@@ -48181,28 +48181,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PSY-1407",
   "categorySlug": "mental-health",
-  "stem": "A man admitted for surgery becomes tremulous, sweating and confused on his third day in a Ghanaian hospital. What should be suspected?",
+  "stem": "A man with chronic schizophrenia refuses antibiotics for a severe leg infection. Asked about the decision, he repeats the risks back correctly and explains why he still refuses. What should guide the team?",
   "choices": [
    {
     "id": "a",
-    "text": "A postoperative wound infection developing at the site"
+    "text": "His illness means he cannot decide, so his wife should sign the consent form instead"
    },
    {
     "id": "b",
-    "text": "Alcohol withdrawal, since his last drink was on admission"
+    "text": "He should be treated under the mental health law, since refusing treatment proves relapse"
    },
    {
     "id": "c",
-    "text": "A reaction to the anaesthetic agent used during surgery"
+    "text": "He can understand, weigh and communicate the decision, so a capable refusal stands"
    },
    {
     "id": "d",
-    "text": "Ordinary anxiety about being away from his family"
+    "text": "Treatment should be delayed until the infection worsens enough to change his mind"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Alcohol withdrawal, since his last drink was on admission\". Admission forces abrupt abstinence, and the timing is characteristic: <strong>tremor and sweating from six to twenty-four hours, seizures around one to two days, and delirium tremens at about three days</strong>. Delirium tremens carries a real mortality and is preventable, which is why <strong>an alcohol history and the time of the last drink must be taken on admission from every patient</strong>. Missing it turns a manageable problem into an emergency on day three.\n\nWhy the other options fail:\n• A — Wound infection causes fever and local signs rather than tremor and confusion.\n• C — Anaesthetic effects resolve within hours, not three days later.\n• D — Anxiety does not produce sweating, coarse tremor and clouded consciousness.\n\nReference: Ghana nursing curriculum — BCA 202 mental health",
-  "strategy": "For any confused inpatient on day two or three, ask when the last drink was.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"He can understand, weigh and communicate the decision, so a capable refusal stands\". Capacity is decided by how the person handles this particular decision, not by the label on his folder: can he understand the information, retain it, weigh it against his own values, and communicate the choice? A man who can do all four is entitled to refuse even if the team thinks the decision unwise, and the answer is to keep talking, treat his pain and distress, and offer the treatment again rather than to override him. A diagnosis of schizophrenia does not by itself remove capacity, and the mental health law governs treatment for mental disorder, not a leg infection.\n\nWhy the other options fail:\n• A — A relative cannot consent on behalf of an adult who has capacity; capacity is not decided by diagnosis.\n• B — Refusing antibiotics is not evidence of relapse, and the law is not the route to treat a physical infection against a capable refusal.\n• D — Waiting for deterioration to force a decision is neither lawful nor good care.\n\nReference: Ghana Mental Health Act 846; Ghana NMC — consent and capacity\n",
+  "strategy": "Capacity is about understanding, weighing and communicating this decision — not about the diagnosis on the folder.",
   "difficulty": "hard",
   "tags": [
    "mental-health",
@@ -69160,28 +69160,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ELD-2021",
   "categorySlug": "gerontology-community",
-  "stem": "A woman with dementia becomes agitated and restless every evening. What should the nurse try **first**?",
+  "stem": "An 84-year-old woman lives alone and manages well until a chest infection, after which she cannot stand or manage her tablets. Her family call it old age. What does the nurse explain about frailty?",
   "choices": [
    {
     "id": "a",
-    "text": "Give a sedative before the agitation begins each evening"
+    "text": "It is an unavoidable part of ageing, so the family should plan for permanent residential care"
    },
    {
     "id": "b",
-    "text": "Improve the lighting and keep the evening routine familiar"
+    "text": "It is another name for depression, so she should be started on an antidepressant and reviewed"
    },
    {
     "id": "c",
-    "text": "Move her to a different room each evening for a change"
+    "text": "It is reduced reserve, so a small illness causes a large decline, and it can improve"
    },
    {
     "id": "d",
-    "text": "Keep her awake during the day so she sleeps at night"
+    "text": "It means she has had a stroke, so she needs urgent brain imaging before anything else is done"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Improve the lighting and keep the evening routine familiar\". Evening agitation is worsened by <strong>failing light, shadows, unfamiliar surroundings, tiredness and the noise of a shift change — most of which can be altered</strong>. Better lighting, a predictable routine, a familiar object and attention to pain, hunger and the bladder resolve much of it. Sedation is the reflex to resist; and <strong>moving her somewhere new is precisely the disorientation that triggers the agitation</strong>.\n\nWhy the other options fail:\n• A — Routine sedation causes falls and deepens confusion.\n• C — A new environment increases disorientation and agitation.\n• D — Enforced daytime wakefulness exhausts her and worsens it.\n\nReference: Ghana STG — dementia care",
-  "strategy": "Light the room and keep the evening the same. Sedation is not the first answer.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"It is reduced reserve, so a small illness causes a large decline, and it can improve\". Frailty is a loss of physiological reserve across several systems, so a chest infection that a robust person would shrug off tips a frail person into a spiral of immobility, poor intake and losing the ability to manage at home. That is not the same as inevitable ageing: comprehensive geriatric assessment, a graded exercise programme, attention to nutrition, review of unnecessary tablets and treating the infection all reduce the decline, and many patients recover their previous function. Naming frailty correctly also changes the plan — the aim is rehabilitation, not a one-way move to a care home.\n\nWhy the other options fail:\n• A — It is not inevitable, and the correct response is assessment and rehabilitation.\n• B — Depression can look similar and must be excluded, but it is not what frailty means.\n• D — There is no reason here to suspect a stroke, and imaging would not be the first step.\n\nReference: British Geriatrics Society — frailty; Ghana STG — care of the older person\n",
+  "strategy": "Frailty is lost reserve, not lost years. A small insult causes a big collapse, and rehabilitation can reverse much of it.",
   "difficulty": "hard",
   "tags": [
    "gerontology-community",
@@ -78742,28 +78742,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2297",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman living with HIV, on antiretroviral therapy since 20 weeks with an undetectable viral load, asks how she should feed her baby. What should the midwife advise?",
+  "stem": "A woman at 41 weeks is being assessed before induction. The midwife records a Bishop score of 3. What does the score describe, and what does a low score mean?",
   "choices": [
    {
     "id": "a",
-    "text": "Formula feeding only, since any breast milk carries risk"
+    "text": "The strength of the contractions, so a low score means the induction will progress quickly"
    },
    {
     "id": "b",
-    "text": "Mixed feeding of breast milk and formula to reduce the volume of milk taken"
+    "text": "How ready the cervix is for labour, so a low score means ripening is needed first"
    },
    {
     "id": "c",
-    "text": "Exclusive breastfeeding for six months, continuing her treatment throughout"
+    "text": "The estimated weight of the baby, so a low score means a small baby and an easy birth"
    },
    {
     "id": "d",
-    "text": "Breastfeeding only until her viral load is repeated at six months"
+    "text": "How far the head has descended, so a low score means the head is already deep in the pelvis"
    }
   ],
-  "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Exclusive breastfeeding for six months, continuing her treatment throughout\". Where safe formula feeding cannot be guaranteed — which describes most Ghanaian households, given water quality, cost and the stigma attached to not breastfeeding — a mother on suppressive antiretroviral therapy should breastfeed exclusively for six months, then continue with complementary foods. Sustained viral suppression makes transmission through breast milk very low, and the competing risks of diarrhoea and malnutrition from unsafe formula are high and immediate. Mixed feeding is the worst option because other fluids damage the gut lining and raise transmission above that of exclusive breastfeeding. The principle is that the safest infant feeding advice is the one that weighs both risks in the actual household.\n\nWhy the other options fail:\n• A — Formula only is advised only when replacement feeding is acceptable, feasible, affordable, sustainable and safe. Where it is not, it exchanges a small viral risk for a large diarrhoeal one.\n• B — Mixed feeding is specifically the most dangerous pattern, because early exposure to other fluids inflames the infant gut and increases transmission.\n• D — Making breastfeeding conditional on a repeat viral load at six months has the logic backwards, and would interrupt feeding at exactly the point where complementary foods should be starting.\n\nReference: WHO guidance on HIV and infant feeding; Ghana PMTCT guidelines",
-  "strategy": "For HIV and infant feeding, remember that mixed feeding is always the wrong answer. If you can eliminate that with confidence, the choice usually narrows to exclusive breastfeeding in a resource-limited setting.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"How ready the cervix is for labour, so a low score means ripening is needed first\". The Bishop score adds up five findings — cervical dilatation, effacement or length, consistency, position, and the station of the head — to say how favourable the cervix is. A high score means the cervix is soft, short, open and the head is applied, and a simple induction with oxytocin or amniotomy is likely to work. A low score, such as 3, means the cervix is unripe, and that labour is likely to be long or to fail unless the cervix is ripened first with a prostaglandin or a balloon, because oxytocin acting on a firm closed cervix achieves very little.\n\nWhy the other options fail:\n• A — Contractions are not part of the score.\n• C — Estimated fetal weight is not part of the score either.\n• D — Station is only one of the five components, and a low score does not mean the head is deep in the pelvis.\n\nReference: WHO — induction of labour; Ghana STG — prolonged pregnancy\n",
+  "strategy": "Bishop scores the cervix, not the contractions. A low score means ripen it first, or the induction will fail.",
   "difficulty": "medium",
   "tags": [
    "maternal-newborn",
@@ -87202,28 +87202,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2543",
   "categorySlug": "safety-infection-control",
-  "stem": "During a suspected cholera outbreak in a Ghanaian district, the laboratory confirmation will take several days. What should be done about control measures?",
+  "stem": "A herdsman in northern Ghana has a painless black crusted sore on his forearm after handling a dead cow. What organism is responsible, and what matters about its spread?",
   "choices": [
    {
     "id": "a",
-    "text": "Wait for laboratory confirmation before taking any public action"
+    "text": "A fungus acquired from the soil, spread readily from person to person on the hands"
    },
    {
     "id": "b",
-    "text": "Take action only if the number of cases doubles"
+    "text": "A virus carried by the animal's ticks, which needs isolation of the patient in a side room"
    },
    {
     "id": "c",
-    "text": "Refer the decision to the regional office and await instruction"
+    "text": "Bacillus anthracis, a spore-former from animal hides that does not spread between people"
    },
    {
     "id": "d",
-    "text": "Begin control measures immediately on clinical suspicion"
+    "text": "A staphylococcus from the animal's skin, which spreads between people who share bedding"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Begin control measures immediately on clinical suspicion\". In a rapidly transmitted illness such as cholera, the interval spent waiting for confirmation is the interval in which the outbreak grows exponentially, so control measures begin on clinical suspicion: chlorinating and protecting water sources, setting up oral rehydration and treatment provision, health education, and active case finding. Cholera is immediately notifiable on suspicion under Ghana's integrated disease surveillance and response arrangements, precisely so that action does not wait for the laboratory. Confirmation, when it arrives, refines the response rather than initiating it. The principle is that in outbreak control the cost of acting early is far lower than the cost of acting late.\n\nWhy the other options fail:\n• A — Waiting for confirmation allows days of unchecked transmission through a contaminated water source.\n• B — Setting a numerical trigger guarantees the response begins only after the outbreak is already large.\n• C — Escalation is necessary but is not a substitute for the immediate local measures within the district's control.\n\nReference: Ghana Integrated Disease Surveillance and Response guidelines",
-  "strategy": "Act on suspicion for the immediately notifiable diseases. Any option that delays control pending confirmation is wrong in outbreak questions.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Bacillus anthracis, a spore-former from animal hides that does not spread between people\". Cutaneous anthrax begins as an itchy bump and becomes a painless black eschar with surrounding oedema, and the history of handling a dead animal or its hide is the giveaway; spores survive for years in soil and on hides and infect through broken skin. The important point for the ward is that person-to-person spread does not occur, so the patient does not need isolating for the sake of others — though the wound is covered and the correct antibiotic, ciprofloxacin or doxycycline, is given. Inhalation anthrax is a different and far more lethal illness.\n\nWhy the other options fail:\n• A — It is a bacterium, not a fungus, and person-to-person spread is not the pattern.\n• B — Anthrax is not a tick-borne virus and does not require isolation of the patient.\n• D — The organism is not a staphylococcus, and spread between people is not how it behaves.\n\nReference: WHO — anthrax in humans and animals; Ghana STG — zoonoses\n",
+  "strategy": "Painless black eschar after a dead animal means anthrax. Treat the patient; he does not need to be isolated from others.",
   "difficulty": "hard",
   "tags": [
    "safety-infection-control",
@@ -95119,28 +95119,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2773",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana complains of shoulder tip pain after laparoscopic surgery. What is the explanation?",
+  "stem": "A ward uses qSOFA to screen for sepsis. Which findings make up the score, and what does a score of two mean?",
   "choices": [
    {
     "id": "a",
-    "text": "Residual carbon dioxide irritating the diaphragm, which shares nerve roots with the shoulder"
+    "text": "Temperature, pulse and white cell count; two abnormal values mean the patient has sepsis"
    },
    {
     "id": "b",
-    "text": "A dislocated shoulder sustained while the patient was positioned in theatre"
+    "text": "Respiratory rate, mental state and systolic pressure; two abnormal values mean escalate"
    },
    {
     "id": "c",
-    "text": "A myocardial infarction occurring during the operation"
+    "text": "Lactate, urine output and oxygen saturation; two abnormal values mean start antibiotics"
    },
    {
     "id": "d",
-    "text": "Nerve damage caused directly by the surgical instruments used"
+    "text": "Blood pressure, haemoglobin and platelet count; two abnormal values mean transfuse blood"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Residual carbon dioxide irritating the diaphragm, which shares nerve roots with the shoulder\". Laparoscopy requires the abdomen to be insufflated with carbon dioxide, and gas remaining afterwards collects under the diaphragm and irritates it. The diaphragm is supplied by the phrenic nerve arising from cervical roots three to five, the same roots supplying the shoulder region, so the brain localises the irritation to the shoulder tip. The pain is common, self-limiting over a day or two, and eased by mobilisation, warmth and simple analgesia. Recognising it prevents unnecessary alarm and, equally, avoids dismissing genuine shoulder pathology. The same referral explains shoulder tip pain in splenic rupture and ruptured ectopic pregnancy. The principle is that shared nerve roots project pain to the wrong place.\n\nWhy the other options fail:\n• B — Positioning injuries are possible but do not explain this characteristic and predictable pain.\n• C — Infarction produces central chest pain with systemic features, not isolated shoulder tip pain.\n• D — Instruments do not reach the shoulder and the mechanism is referred pain from the diaphragm.\n\nReference: Standard laparoscopic surgery nursing care",
-  "strategy": "When pain appears somewhere the surgery did not happen, look for a structure sharing the same nerve roots.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"Respiratory rate, mental state and systolic pressure; two abnormal values mean escalate\". The three items are a respiratory rate of 22 or more, altered mentation, and a systolic pressure of 100 mmHg or less; a score of two or more identifies a patient at high risk of a poor outcome and is a prompt to get senior help, start the sepsis bundle and look for the source. It is a bedside screen, not a diagnosis: a low score does not rule sepsis out, and the full assessment — including lactate, urine output and the clinical picture — decides what happens next.\n\nWhy the other options fail:\n• A — Temperature and white cell count are not part of qSOFA, and a score is not a diagnosis.\n• C — Lactate and urine output belong to the fuller sepsis assessment, not the qSOFA screen.\n• D — Haemoglobin and platelets are not part of it, and transfusion is not the response to a positive screen.\n\nReference: Singer et al. — Sepsis-3 definitions; Ghana STG — sepsis\n",
+  "strategy": "qSOFA is breathing, mentation and systolic pressure. Two of three means call for help, not wait for a culture.",
   "difficulty": "medium",
   "tags": [
    "med-surg",
@@ -109108,28 +109108,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MEN-3183",
   "categorySlug": "mental-health",
-  "stem": "A young man has been taking olanzapine for a year. Which monitoring is **most important** alongside his mental state?",
+  "stem": "A woman with depression has not improved on an antidepressant. Her therapist offers cognitive behavioural therapy. Which description matches what she will be asked to do?",
   "choices": [
    {
     "id": "a",
-    "text": "Visual acuity testing every three months"
+    "text": "Lie on a couch and talk freely about her childhood until the causes become clear to her"
    },
    {
     "id": "b",
-    "text": "Weekly liver function tests indefinitely"
+    "text": "Work through practical tasks that test and change unhelpful thoughts and behaviours"
    },
    {
     "id": "c",
-    "text": "Weight, waist circumference, blood glucose and lipid profile"
+    "text": "Attend sessions in which she is deliberately made to feel anxious until she stops fearing it"
    },
    {
     "id": "d",
-    "text": "Monthly chest radiography to detect lung changes"
+    "text": "Take a weekly tablet alongside her antidepressant to strengthen the effect of both"
    }
   ],
-  "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Weight, waist circumference, blood glucose and lipid profile\". Second-generation antipsychotics such as olanzapine commonly cause substantial weight gain, raised blood glucose, dyslipidaemia and hypertension, together making up the metabolic syndrome. People with severe mental illness die on average fifteen to twenty years earlier than the general population, and cardiovascular disease rather than suicide accounts for most of that gap. Monitoring weight, waist circumference, glucose and lipids, alongside blood pressure and lifestyle support, addresses the leading cause of premature death in this group. Waist circumference is particularly useful because central fat accumulates before the body mass index becomes abnormal.\n\nWhy the other options fail:\n• A — Routine visual acuity testing is not required for olanzapine. It matters for medicines such as ethambutol or chloroquine, which carry specific ocular toxicity.\n• B — Weekly liver tests indefinitely are not indicated. Weekly monitoring of the full blood count applies to clozapine because of agranulocytosis, which is a different drug and a different test.\n• D — Chest radiography has no role in routine antipsychotic monitoring, as these drugs do not cause progressive lung disease.\n\nReference: WHO mhGAP intervention guide; Ghana Standard Treatment Guidelines — psychiatry",
-  "strategy": "Ask what actually kills this group. In severe mental illness the answer is cardiovascular disease, so metabolic monitoring is the priority.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"Work through practical tasks that test and change unhelpful thoughts and behaviours\". Cognitive behavioural therapy is structured and time-limited, usually a set number of weekly sessions, and its engine is the work done between sessions: the patient records what she thought at a moment when she felt low, examines the evidence for and against that thought, and tries small behavioural experiments to see what actually happens. The aim is to give her a method she can keep using, not to uncover a hidden cause from the past or to induce distress for its own sake.\n\nWhy the other options fail:\n• A — Free association on a couch describes psychodynamic therapy, not CBT.\n• C — Deliberate prolonged anxiety is not the method; exposure is done in graded, planned steps.\n• D — CBT is a talking therapy and does not involve adding a tablet.\n\nReference: NICE — depression in adults; Ghana STG — mental health\n",
+  "strategy": "CBT is homework: catch the thought, weigh the evidence, test it in practice. Structured, time-limited, practical.",
   "difficulty": "medium",
   "tags": [
    "mental-health",

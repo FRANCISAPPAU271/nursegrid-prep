@@ -26,12 +26,12 @@ export const NCX5_PART_H: AuthoredQuestion[] = [
   }),
   q({
     n: 542, cat: "med-surg",
-    stem: "Four days after abdominal surgery a patient coughs, feels 'something give', and a **small bowel loop protrudes** through separated wound edges. How should the nurse **position** him?",
+    stem: "A woman in labour at term has a cervix that is 6 cm dilated and the head is felt high, with the brow at the top of the pelvis on examination. The membranes are intact. What does this mean?",
     choices: [
-      "Supine with hips and knees bent and the head slightly raised",
-      "Semi-Fowler's at 30 degrees with legs straight",
-      "Steep Trendelenburg with head down",
-      "Upright at 90 degrees with legs hanging",
+      "A brow presentation, which if it persists means obstructed labour and caesarean section",
+      "A brow presentation, which will always rotate and deliver vaginally if she is left to push",
+      "A face presentation, which can deliver vaginally as long as the chin is to the front",
+      "A cord presentation, which is an emergency whether or not the membranes are ruptured",
     ],
     correct: "a",
     explain: "<strong>Evisceration needs slack on the suture line and zero strain</strong> — flat with knees flexed (low Fowler's at most) relaxes the abdominal wall, keeps pressure off the wound and eases breathing. The nurse adds: cover the bowel with a sterile saline-soaked dressing, give nothing by mouth, keep nil per rectum preparations ready, and summon the surgeon urgently.",
@@ -41,7 +41,7 @@ export const NCX5_PART_H: AuthoredQuestion[] = [
       d: "Full upright sitting maximises wound tension and bowel protrusion.",
     },
     ref: "Ghana — surgical emergencies; evisceration positioning and cover",
-    strategy: "Decision tree: open wounds need slack bellies — flat, knees up, bowel covered, surgeon called.",
+    strategy: "Brow means the head cannot enter the pelvis. Watch briefly for it to flex or extend; if it persists, section.",
     tags: ["evisceration", "positioning", "dehiscence", "emergency"],
   }),
   q({
