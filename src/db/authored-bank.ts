@@ -87,19 +87,19 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Reduced level of consciousness"
+    "text": "Positive rapid diagnostic test"
    },
    {
     "id": "c",
-    "text": "Positive rapid diagnostic test"
+    "text": "Reduced level of consciousness"
    },
    {
     "id": "d",
     "text": "Reported poor appetite for three days"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Reduced level of consciousness\". Impaired consciousness in a patient with confirmed falciparum malaria defines <strong>severe malaria</strong> and carries a high mortality risk without immediate parenteral artesunate. Under the Ghana Standard Treatment Guidelines, altered consciousness, respiratory distress, and shock are danger signs that move a patient from uncomplicated to severe classification — the classification, not the fever height, determines the treatment route and urgency.\n\nWhy the other options fail:\n• A — Fever is expected in malaria and its height does not correlate with severity. Treating the number rather than the classification delays the decision that matters.\n• C — The positive RDT confirms the diagnosis but says nothing about severity. It is the reason he is being treated, not the reason to escalate now.\n• D — Poor appetite is common in febrile illness and is not a danger sign. It matters for nutrition planning, not for immediate escalation.\n\nReference: Ghana Standard Treatment Guidelines — Malaria; WHO Severe Malaria criteria",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Reduced level of consciousness\". Impaired consciousness in a patient with confirmed falciparum malaria defines <strong>severe malaria</strong> and carries a high mortality risk without immediate parenteral artesunate. Under the Ghana Standard Treatment Guidelines, altered consciousness, respiratory distress, and shock are danger signs that move a patient from uncomplicated to severe classification — the classification, not the fever height, determines the treatment route and urgency.\n\nWhy the other options fail:\n• A — Fever is expected in malaria and its height does not correlate with severity. Treating the number rather than the classification delays the decision that matters.\n• B — The positive RDT confirms the diagnosis but says nothing about severity. It is the reason he is being treated, not the reason to escalate now.\n• D — Poor appetite is common in febrile illness and is not a danger sign. It matters for nutrition planning, not for immediate escalation.\n\nReference: Ghana Standard Treatment Guidelines — Malaria; WHO Severe Malaria criteria",
   "strategy": "When a diagnosis is already confirmed, the question is almost never 'what is it?' — it is 'how sick is this patient?'. Scan for the danger signs that reclassify the illness: consciousness, breathing, circulation, urine output. Fever and a positive test are context; the danger sign is the answer.",
   "difficulty": "medium",
   "tags": [
@@ -535,11 +535,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Check the blood glucose and treat for hypoglycaemia if it is low"
+   "text": "Give the next dose of insulin early"
   },
   {
    "id": "b",
-   "text": "Give the next dose of insulin early"
+   "text": "Check the blood glucose and treat for hypoglycaemia if it is low"
   },
   {
    "id": "c",
@@ -550,7 +550,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Give a dose of oral hypoglycaemic agent"
   }
  ],
- "correctChoiceId": "a",
+ "correctChoiceId": "b",
  "rationale": "Sweating, tremor and confusion in a patient on soluble insulin point to hypoglycaemia, and the first step is to check the glucose and, if confirmed, give fast-acting carbohydrate, followed by longer-acting carbohydrate and a review of the insulin dose. Giving the next dose early deepens the hypoglycaemia. Letting the patient sleep risks an unrecognised deterioration, since hypoglycaemia can progress to seizures and coma. An oral hypoglycaemic adds to the glucose-lowering effect and has no place in treating a low glucose.",
  "strategy": "Sweaty and confused on insulin means check the glucose and treat now.",
  "difficulty": "medium",
@@ -708,7 +708,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Recalculate the rate so the remaining volume runs over the remaining time, and inform the team that it is behind"
+   "text": "Stop the infusion because the prescription is no longer valid"
   },
   {
    "id": "b",
@@ -720,10 +720,10 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Stop the infusion because the prescription is no longer valid"
+   "text": "Recalculate the rate so the remaining volume runs over the remaining time, and inform the team that it is behind"
   }
  ],
- "correctChoiceId": "a",
+ "correctChoiceId": "d",
  "rationale": "The infusion is running behind: 500 mL should have infused by four hours, so 600 mL remaining is 100 mL short. The safe correction is to recalculate so that what is left runs over the time that is left, and to tell the prescriber or team. Catching up by opening the clamp delivers a bolus that can overload a patient, particularly a child, an older adult or someone with cardiac or renal disease. Leaving the rate unchanged and documenting later allows the shortfall to grow unnoticed, and the prescription remains valid, so stopping is not indicated.",
  "strategy": "An infusion that is behind is recalculated, never caught up by opening the clamp.",
  "difficulty": "medium",
@@ -1123,19 +1123,19 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Peripheral circulation has failed, cooling the skin surface"
+    "text": "The hypothalamic set point has been raised, so the body behaves as if it is too cold"
    },
    {
     "id": "c",
-    "text": "The hypothalamic set point has been raised, so the body behaves as if it is too cold"
+    "text": "Peripheral circulation has failed, cooling the skin surface"
    },
    {
     "id": "d",
     "text": "Shivering is an early sign that the fever is beginning to resolve"
    }
   ],
-  "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"The hypothalamic set point has been raised, so the body behaves as if it is too cold\". Pyrogens raise the <strong>hypothalamic set point</strong>. The body now treats its actual temperature as too low and activates heat-generating responses — shivering, vasoconstriction, the subjective sense of cold — until the new, higher set point is reached. Nothing is broken; the thermostat has simply been reset upward.\n\nWhy the other options fail:\n• A — Regulation is intact and working hard. It is the target value that has changed, not the ability to reach it.\n• B — The stem states the skin is hot. Circulatory failure would present with cold, mottled peripheries and signs of shock.\n• D — Shivering occurs while temperature is rising. Resolution is marked by sweating and vasodilation as the set point returns to normal.\n\nReference: Ghana nursing curriculum — Anatomy and Physiology; fever management",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"The hypothalamic set point has been raised, so the body behaves as if it is too cold\". Pyrogens raise the <strong>hypothalamic set point</strong>. The body now treats its actual temperature as too low and activates heat-generating responses — shivering, vasoconstriction, the subjective sense of cold — until the new, higher set point is reached. Nothing is broken; the thermostat has simply been reset upward.\n\nWhy the other options fail:\n• A — Regulation is intact and working hard. It is the target value that has changed, not the ability to reach it.\n• C — The stem states the skin is hot. Circulatory failure would present with cold, mottled peripheries and signs of shock.\n• D — Shivering occurs while temperature is rising. Resolution is marked by sweating and vasodilation as the set point returns to normal.\n\nReference: Ghana nursing curriculum — Anatomy and Physiology; fever management",
   "strategy": "Distinguish the set point from the actual value. Shivering with a fever means the body is climbing toward a raised target; sweating means it is coming back down. Piling on blankets during the shivering phase drives the temperature higher.",
   "difficulty": "medium",
   "tags": [
@@ -1322,7 +1322,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Perform hand hygiene before touching the notes or any other surface"
+    "text": "Apply a fresh pair of gloves before handling the notes"
    },
    {
     "id": "b",
@@ -1330,15 +1330,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Apply a fresh pair of gloves before handling the notes"
+    "text": "Perform hand hygiene before touching the notes or any other surface"
    },
    {
     "id": "d",
     "text": "Nothing further, as gloves were worn throughout the procedure"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Perform hand hygiene before touching the notes or any other surface\". Hand hygiene is performed <strong>immediately after glove removal</strong>. Gloves develop micro-perforations, hands become contaminated during removal, and the warm moist environment inside a glove encourages bacterial multiplication. Touching the chart before cleaning the hands transfers organisms to a surface handled by the whole team.\n\nWhy the other options fail:\n• B — By then the notes and pen are already contaminated. Hand hygiene must precede contact with any clean surface, not merely the next patient.\n• C — Gloves are not a substitute for hand hygiene and wearing them to handle clean items spreads contamination rather than containing it.\n• D — This is the commonest misconception in practice. Gloves reduce contamination but never eliminate it, and hands are contaminated during removal.\n\nReference: WHO five moments; Ghana Health Service IPC guidelines",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Perform hand hygiene before touching the notes or any other surface\". Hand hygiene is performed <strong>immediately after glove removal</strong>. Gloves develop micro-perforations, hands become contaminated during removal, and the warm moist environment inside a glove encourages bacterial multiplication. Touching the chart before cleaning the hands transfers organisms to a surface handled by the whole team.\n\nWhy the other options fail:\n• B — By then the notes and pen are already contaminated. Hand hygiene must precede contact with any clean surface, not merely the next patient.\n• A — Gloves are not a substitute for hand hygiene and wearing them to handle clean items spreads contamination rather than containing it.\n• D — This is the commonest misconception in practice. Gloves reduce contamination but never eliminate it, and hands are contaminated during removal.\n\nReference: WHO five moments; Ghana Health Service IPC guidelines",
   "strategy": "Learn the five moments as two purposes: before touching a patient and before a clean procedure protect the patient; after body fluid exposure, after the patient and after their surroundings protect you and everyone else. Glove removal always triggers hand hygiene.",
   "difficulty": "medium",
   "tags": [
@@ -2490,7 +2490,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Those closest to the fire, regardless of mobility"
+    "text": "Ambulant patients nearest the exit, who can move quickly with minimal help"
    },
    {
     "id": "b",
@@ -2498,15 +2498,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Ambulant patients nearest the exit, who can move quickly with minimal help"
+    "text": "Those closest to the fire, regardless of mobility"
    },
    {
     "id": "d",
     "text": "Patients on oxygen therapy, because of the explosion risk"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Those closest to the fire, regardless of mobility\". Evacuation is organised by <strong>proximity to the danger</strong>. Those closest to the fire face the most immediate threat from heat, smoke and flame, so they are moved first, working progressively away from the source. Within that principle, ambulant patients are directed out while those needing assistance are moved with help.\n\nWhy the other options fail:\n• B — Critically ill patients take the longest to move and often need equipment. Prioritising them while others remain in immediate danger costs lives overall.\n• C — Moving ambulant patients first is efficient and often done in practice, but it does not address who is in the greatest immediate danger.\n• D — Oxygen cylinders are a genuine hazard and supplies are shut off during evacuation, but this does not override proximity to the fire.\n\nReference: Ghana Health Service — fire safety and evacuation procedures",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Those closest to the fire, regardless of mobility\". Evacuation is organised by <strong>proximity to the danger</strong>. Those closest to the fire face the most immediate threat from heat, smoke and flame, so they are moved first, working progressively away from the source. Within that principle, ambulant patients are directed out while those needing assistance are moved with help.\n\nWhy the other options fail:\n• B — Critically ill patients take the longest to move and often need equipment. Prioritising them while others remain in immediate danger costs lives overall.\n• A — Moving ambulant patients first is efficient and often done in practice, but it does not address who is in the greatest immediate danger.\n• D — Oxygen cylinders are a genuine hazard and supplies are shut off during evacuation, but this does not override proximity to the fire.\n\nReference: Ghana Health Service — fire safety and evacuation procedures",
   "strategy": "Evacuation reverses everyday clinical priority. Ordinary care treats the sickest first; evacuation moves those in the greatest immediate danger first, then works outward. Horizontal movement to the next compartment comes before vertical movement down stairs.",
   "difficulty": "hard",
   "tags": [
@@ -2524,7 +2524,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Ensuring a safe water supply and adequate sanitation"
+    "text": "Registering residents for national health insurance"
    },
    {
     "id": "b",
@@ -2536,11 +2536,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Registering residents for national health insurance"
+    "text": "Ensuring a safe water supply and adequate sanitation"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Ensuring a safe water supply and adequate sanitation\". In displacement settings the greatest early threat to life is <strong>communicable disease from contaminated water and poor sanitation</strong> — cholera, typhoid and dysentery can spread explosively in crowded camps. Securing safe water, latrines and handwashing facilities prevents more deaths in the first days than any clinical service.\n\nWhy the other options fail:\n• B — Surveying chronic disease is valuable for planning continuity of care but does not address the immediate threat to life.\n• C — Health education on chronic conditions is important later. It does not prevent an outbreak in the first days.\n• D — Insurance registration supports access to care over time but is an administrative task, not an emergency public health priority.\n\nReference: Ghana Health Service and NADMO — emergency public health response",
+  "correctChoiceId": "d",
+  "rationale": "CORRECT (D) — \"Ensuring a safe water supply and adequate sanitation\". In displacement settings the greatest early threat to life is <strong>communicable disease from contaminated water and poor sanitation</strong> — cholera, typhoid and dysentery can spread explosively in crowded camps. Securing safe water, latrines and handwashing facilities prevents more deaths in the first days than any clinical service.\n\nWhy the other options fail:\n• B — Surveying chronic disease is valuable for planning continuity of care but does not address the immediate threat to life.\n• C — Health education on chronic conditions is important later. It does not prevent an outbreak in the first days.\n• A — Insurance registration supports access to care over time but is an administrative task, not an emergency public health priority.\n\nReference: Ghana Health Service and NADMO — emergency public health response",
   "strategy": "In any displacement or camp scenario, work through the public health priorities in order: safe water, sanitation, shelter, food, then immunisation, then clinical services. Prevention at population level outranks individual treatment early on.",
   "difficulty": "medium",
   "tags": [
@@ -3450,7 +3450,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Stop the transfusion and keep the line open with normal saline"
+    "text": "Give an antipyretic and continue the transfusion"
    },
    {
     "id": "b",
@@ -3458,15 +3458,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Give an antipyretic and continue the transfusion"
+    "text": "Stop the transfusion and keep the line open with normal saline"
    },
    {
     "id": "d",
     "text": "Disconnect the giving set and discard the blood unit"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Stop the transfusion and keep the line open with normal saline\". Fever, rigors, loin pain and haemoglobinuria within minutes indicate an <strong>acute haemolytic reaction</strong> from ABO incompatibility. The transfusion is stopped immediately, but venous access is preserved with a fresh giving set and normal saline because the patient will need aggressive fluid resuscitation to protect the kidneys.\n\nWhy the other options fail:\n• B — Slowing the rate continues to deliver incompatible red cells. Any suspected haemolytic reaction requires the transfusion to stop completely.\n• C — Treating the fever masks the reaction while incompatible blood continues to enter the circulation.\n• D — The unit and giving set must be retained and returned to the blood bank for investigation, not discarded, and access must be maintained.\n\nReference: Ghana National Blood Service — management of transfusion reactions",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Stop the transfusion and keep the line open with normal saline\". Fever, rigors, loin pain and haemoglobinuria within minutes indicate an <strong>acute haemolytic reaction</strong> from ABO incompatibility. The transfusion is stopped immediately, but venous access is preserved with a fresh giving set and normal saline because the patient will need aggressive fluid resuscitation to protect the kidneys.\n\nWhy the other options fail:\n• B — Slowing the rate continues to deliver incompatible red cells. Any suspected haemolytic reaction requires the transfusion to stop completely.\n• A — Treating the fever masks the reaction while incompatible blood continues to enter the circulation.\n• D — The unit and giving set must be retained and returned to the blood bank for investigation, not discarded, and access must be maintained.\n\nReference: Ghana National Blood Service — management of transfusion reactions",
   "strategy": "For any transfusion reaction: stop the blood, keep the vein open with saline through new tubing, assess, escalate, and return the unit for investigation. Loin pain with dark urine points to haemolysis.",
   "difficulty": "hard",
   "tags": [
@@ -5334,11 +5334,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Acute kidney injury from hypovolaemia requiring urgent fluid resuscitation"
+    "text": "Normal response to reduced food intake"
    },
    {
     "id": "b",
-    "text": "Normal response to reduced food intake"
+    "text": "Acute kidney injury from hypovolaemia requiring urgent fluid resuscitation"
    },
    {
     "id": "c",
@@ -5349,8 +5349,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     "text": "Excessive protein intake in the diet"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Acute kidney injury from hypovolaemia requiring urgent fluid resuscitation\". Severe fluid loss reduces renal perfusion, so filtration falls and waste products accumulate. Rising urea and creatinine with <strong>oliguria of less than 0.5 mL/kg/hour</strong> indicates acute kidney injury, most commonly pre-renal in this setting. Prompt fluid resuscitation usually reverses it, but delay leads to established tubular damage.\n\nWhy the other options fail:\n• B — Reduced intake does not raise creatinine or cause oliguria. These indicate impaired kidney function.\n• C — Infection would present with dysuria, frequency and fever rather than falling urine output with rising creatinine after fluid loss.\n• D — Dietary protein can slightly raise urea but does not raise creatinine or reduce urine output.\n\nReference: Ghana STG — acute kidney injury",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"Acute kidney injury from hypovolaemia requiring urgent fluid resuscitation\". Severe fluid loss reduces renal perfusion, so filtration falls and waste products accumulate. Rising urea and creatinine with <strong>oliguria of less than 0.5 mL/kg/hour</strong> indicates acute kidney injury, most commonly pre-renal in this setting. Prompt fluid resuscitation usually reverses it, but delay leads to established tubular damage.\n\nWhy the other options fail:\n• A — Reduced intake does not raise creatinine or cause oliguria. These indicate impaired kidney function.\n• C — Infection would present with dysuria, frequency and fever rather than falling urine output with rising creatinine after fluid loss.\n• D — Dietary protein can slightly raise urea but does not raise creatinine or reduce urine output.\n\nReference: Ghana STG — acute kidney injury",
   "strategy": "Interpret renal results alongside urine output and fluid status. Rising urea and creatinine after any cause of volume loss means pre-renal injury, and the treatment is to restore the circulating volume quickly.",
   "difficulty": "hard",
   "tags": [
@@ -6801,19 +6801,19 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Carbohydrates, found in staples such as banku and yam"
+    "text": "Minerals, found in leafy greens such as kontomire"
    },
    {
     "id": "c",
-    "text": "Minerals, found in leafy greens such as kontomire"
+    "text": "Carbohydrates, found in staples such as banku and yam"
    },
    {
     "id": "d",
     "text": "Water, taken as drinks and contained within foods"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Carbohydrates, found in staples such as banku and yam\". Carbohydrates are the body's <strong>principal and most readily used energy source</strong>, broken down to glucose which fuels the brain, muscles and every cell. In Ghana they come mainly from maize, cassava, yam, rice and plantain. Fat gives more energy per gram, but carbohydrate is used first and most easily.\n\nWhy the other options fail:\n• A — Vitamins regulate body processes and are needed in tiny amounts. They supply no energy at all.\n• C — Minerals build tissue and control fluid and nerve function but yield no calories.\n• D — Water is essential for life and transport but provides no energy value whatsoever.\n\nReference: Ghana nursing curriculum — Nutrition and Dietetics",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Carbohydrates, found in staples such as banku and yam\". Carbohydrates are the body's <strong>principal and most readily used energy source</strong>, broken down to glucose which fuels the brain, muscles and every cell. In Ghana they come mainly from maize, cassava, yam, rice and plantain. Fat gives more energy per gram, but carbohydrate is used first and most easily.\n\nWhy the other options fail:\n• A — Vitamins regulate body processes and are needed in tiny amounts. They supply no energy at all.\n• B — Minerals build tissue and control fluid and nerve function but yield no calories.\n• D — Water is essential for life and transport but provides no energy value whatsoever.\n\nReference: Ghana nursing curriculum — Nutrition and Dietetics",
   "strategy": "Only three nutrients supply energy: carbohydrate, protein and fat. Vitamins, minerals and water do not. If a question asks about energy, eliminate the last three immediately.",
   "difficulty": "easy",
   "tags": [
@@ -7071,7 +7071,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Increase vegetables, fruits and wholegrain foods along with fluids"
+    "text": "Increase fried foods so as to lubricate the passage of the stool"
    },
    {
     "id": "b",
@@ -7079,15 +7079,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Increase fried foods so as to lubricate the passage of the stool"
+    "text": "Increase vegetables, fruits and wholegrain foods along with fluids"
    },
    {
     "id": "d",
     "text": "Increase sweetened drinks taken between each of the main meals"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Increase vegetables, fruits and wholegrain foods along with fluids\". Dietary <strong>fibre</strong> adds bulk and holds water in the stool, stimulating peristalsis. Ghanaian sources include kontomire, okro, garden eggs, beans, wholegrain maize and fruit. <strong>Fibre must be taken with adequate fluid</strong>, because fibre without water can worsen constipation by forming a hard bulky mass.\n\nWhy the other options fail:\n• B — Refining removes the fibre. White bread and polished rice contribute to constipation rather than relieving it.\n• C — Fried food does not lubricate the bowel and delays gastric emptying, causing discomfort in older people.\n• D — Sweetened drinks supply fluid but also empty calories, and they displace foods that would supply fibre.\n\nReference: Ghana nursing curriculum — Nutrition and Dietetics",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Increase vegetables, fruits and wholegrain foods along with fluids\". Dietary <strong>fibre</strong> adds bulk and holds water in the stool, stimulating peristalsis. Ghanaian sources include kontomire, okro, garden eggs, beans, wholegrain maize and fruit. <strong>Fibre must be taken with adequate fluid</strong>, because fibre without water can worsen constipation by forming a hard bulky mass.\n\nWhy the other options fail:\n• B — Refining removes the fibre. White bread and polished rice contribute to constipation rather than relieving it.\n• A — Fried food does not lubricate the bowel and delays gastric emptying, causing discomfort in older people.\n• D — Sweetened drinks supply fluid but also empty calories, and they displace foods that would supply fibre.\n\nReference: Ghana nursing curriculum — Nutrition and Dietetics",
   "strategy": "Fibre and fluid always travel together in constipation advice. Recommending one without the other is incomplete and can make the problem worse.",
   "difficulty": "easy",
   "tags": [
@@ -20552,7 +20552,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "A bedside commode within reach and a night light"
+   "text": "Physical restraint during the night hours"
   },
   {
    "id": "b",
@@ -20564,11 +20564,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Physical restraint during the night hours"
+   "text": "A bedside commode within reach and a night light"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Nocturia plus night-time walking is a predictable falls recipe, and the first fix is to shorten the journey: a commode at the bedside and lighting along the route. The cause of the nocturia is then reviewed, including diuretic timing and prostate or bladder problems.\n\nWhy the other options fail:\n• B — Blanket fluid restriction in older adults causes dehydration and confusion.\n• C — Sedatives increase the risk of falling and of nocturnal confusion.\n• D — Restraints are harmful, cause injury and are not an acceptable falls measure.\n\nReference: Ghana STG — falls prevention in older adults",
+ "correctChoiceId": "d",
+ "rationale": "Nocturia plus night-time walking is a predictable falls recipe, and the first fix is to shorten the journey: a commode at the bedside and lighting along the route. The cause of the nocturia is then reviewed, including diuretic timing and prostate or bladder problems.\n\nWhy the other options fail:\n• B — Blanket fluid restriction in older adults causes dehydration and confusion.\n• C — Sedatives increase the risk of falling and of nocturnal confusion.\n• A — Restraints are harmful, cause injury and are not an acceptable falls measure.\n\nReference: Ghana STG — falls prevention in older adults",
  "strategy": "Remove the hazard before sedating the person who trips over it.",
  "difficulty": "hard",
  "tags": [
@@ -21098,7 +21098,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Notify the district immediately, within 24 hours of the case being confirmed"
+   "text": "Wait until a second case appears in the same week"
   },
   {
    "id": "b",
@@ -21106,15 +21106,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Wait until a second case appears in the same week"
+   "text": "Notify the district immediately, within 24 hours of the case being confirmed"
   },
   {
    "id": "d",
    "text": "Report it to the regional hospital after the patient is discharged"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "CORRECT (A) — \"Notify the district immediately, within 24 hours of the case being confirmed\". Ghana's integrated disease surveillance and response system separates diseases into groups with different reporting urgency. Priority diseases that demand immediate action, such as cholera, measles, yellow fever, meningitis and acute flaccid paralysis, are reported at once, using the case-based form, so that the district can investigate, confirm and respond. Only the routine weekly returns, which carry counts rather than individual cases, go in on the weekly schedule. Option B would delay an outbreak response by days. Option C is dangerous, because waiting for a second case is how an outbreak is missed at the point where it could still be contained. Option D reports to the wrong level and after the patient has left, when follow-up and contact tracing can no longer be done.",
+ "correctChoiceId": "c",
+ "rationale": "CORRECT (C) — \"Notify the district immediately, within 24 hours of the case being confirmed\". Ghana's integrated disease surveillance and response system separates diseases into groups with different reporting urgency. Priority diseases that demand immediate action, such as cholera, measles, yellow fever, meningitis and acute flaccid paralysis, are reported at once, using the case-based form, so that the district can investigate, confirm and respond. Only the routine weekly returns, which carry counts rather than individual cases, go in on the weekly schedule. Option B would delay an outbreak response by days. Option A is dangerous, because waiting for a second case is how an outbreak is missed at the point where it could still be contained. Option D reports to the wrong level and after the patient has left, when follow-up and contact tracing can no longer be done.",
  "strategy": "Priority diseases go immediately on the case-based form. Routine counts go in the weekly return.",
  "difficulty": "hard",
  "tags": [
@@ -21203,7 +21203,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Immediately, alongside the investigation, without waiting for its conclusions"
+    "text": "After the regional office has formally approved the investigation team's report"
    },
    {
     "id": "b",
@@ -21215,11 +21215,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "After the regional office has formally approved the investigation team's report"
+    "text": "Immediately, alongside the investigation, without waiting for its conclusions"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Immediately, alongside the investigation, without waiting for its conclusions\". Investigation and control run <strong>in parallel, not in sequence</strong>. Measures that are obviously right whatever the exact source — <strong>safe water and chlorination, treatment centres and oral rehydration, safe burial practices, handwashing and health education</strong> — start on day one. Waiting for certainty allows the outbreak to grow exponentially, and the investigation itself often takes longer than the epidemic needs to double.\n\nWhy the other options fail:\n• B — Laboratory confirmation may take days. Cases double faster than results return.\n• C — The source may never be proved definitively, and generic measures work regardless of which well it was.\n• D — Approval processes are administrative. Reporting upward happens in parallel with acting locally.\n\nReference: Ghana IDSR guidelines — outbreak response",
+  "correctChoiceId": "d",
+  "rationale": "CORRECT (D) — \"Immediately, alongside the investigation, without waiting for its conclusions\". Investigation and control run <strong>in parallel, not in sequence</strong>. Measures that are obviously right whatever the exact source — <strong>safe water and chlorination, treatment centres and oral rehydration, safe burial practices, handwashing and health education</strong> — start on day one. Waiting for certainty allows the outbreak to grow exponentially, and the investigation itself often takes longer than the epidemic needs to double.\n\nWhy the other options fail:\n• B — Laboratory confirmation may take days. Cases double faster than results return.\n• C — The source may never be proved definitively, and generic measures work regardless of which well it was.\n• A — Approval processes are administrative. Reporting upward happens in parallel with acting locally.\n\nReference: Ghana IDSR guidelines — outbreak response",
   "strategy": "In outbreak questions, the correct answer almost always acts now and investigates at the same time.",
   "difficulty": "hard",
   "tags": [
@@ -22063,7 +22063,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Review why it failed and revise the assessment, goal or interventions accordingly"
+    "text": "Record the goal as not achieved and remove it from the patient's care plan"
    },
    {
     "id": "b",
@@ -22071,15 +22071,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Record the goal as not achieved and remove it from the patient's care plan"
+    "text": "Review why it failed and revise the assessment, goal or interventions accordingly"
    },
    {
     "id": "d",
     "text": "Continue with the same interventions since the patient may still improve later"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Review why it failed and revise the assessment, goal or interventions accordingly\". Evaluation closes the loop and <strong>feeds back into the whole cycle</strong>. Failure to meet a goal is information, and it points to one of four things: the <strong>assessment was incomplete, the diagnosis was wrong, the goal was unrealistic, or the interventions were ineffective or never carried out</strong>. The nurse identifies which, then revises. Simply extending the date or repeating what has not worked converts the care plan into paperwork.\n\nWhy the other options fail:\n• B — Moving the deadline conceals failure and delays the change that the patient needs.\n• C — Deleting an unmet need does not resolve it. The problem persists whether or not it is written down.\n• D — Repeating ineffective interventions wastes time. Something must change if the outcome is to change.\n\nReference: Ghana nursing curriculum — evaluation in the nursing process",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Review why it failed and revise the assessment, goal or interventions accordingly\". Evaluation closes the loop and <strong>feeds back into the whole cycle</strong>. Failure to meet a goal is information, and it points to one of four things: the <strong>assessment was incomplete, the diagnosis was wrong, the goal was unrealistic, or the interventions were ineffective or never carried out</strong>. The nurse identifies which, then revises. Simply extending the date or repeating what has not worked converts the care plan into paperwork.\n\nWhy the other options fail:\n• B — Moving the deadline conceals failure and delays the change that the patient needs.\n• A — Deleting an unmet need does not resolve it. The problem persists whether or not it is written down.\n• D — Repeating ineffective interventions wastes time. Something must change if the outcome is to change.\n\nReference: Ghana nursing curriculum — evaluation in the nursing process",
   "strategy": "Treat an unmet goal as a diagnostic finding about the plan. Ask which of the earlier steps was wrong.",
   "difficulty": "hard",
   "tags": [
@@ -22371,7 +22371,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Applying topical anaesthetic, offering a comfort position and using distraction"
+   "text": "Deferring the dressing until the child is older"
   },
   {
    "id": "b",
@@ -22383,11 +22383,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Deferring the dressing until the child is older"
+   "text": "Applying topical anaesthetic, offering a comfort position and using distraction"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Atraumatic care means removing or reducing the physical and psychological distress of care, so analgesia, positioning, and distraction are combined and the child is prepared in advance. Option B separates the child from the people who comfort her and gives her no preparation. Option C places the burden of coping on the child and teaches that distress is a failure. Option D delays necessary treatment and does not make it less painful later.",
+ "correctChoiceId": "d",
+ "rationale": "Atraumatic care means removing or reducing the physical and psychological distress of care, so analgesia, positioning, and distraction are combined and the child is prepared in advance. Option B separates the child from the people who comfort her and gives her no preparation. Option C places the burden of coping on the child and teaches that distress is a failure. Option A delays necessary treatment and does not make it less painful later.",
  "strategy": "Atraumatic care is a bundle: numb it, position it, distract, and prepare the child first.",
  "difficulty": "hard",
  "tags": [
@@ -23605,7 +23605,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "An entrepreneur, because she identifies an unmet need and takes on risk to organise resources to meet it"
+      "text": "A volunteer, because she has no guaranteed income from the venture"
     },
     {
       "id": "b",
@@ -23613,14 +23613,14 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     },
     {
       "id": "c",
-      "text": "A volunteer, because she has no guaranteed income from the venture"
+      "text": "An entrepreneur, because she identifies an unmet need and takes on risk to organise resources to meet it"
     },
     {
       "id": "d",
       "text": "A manager, because she organises rooms and supplies into a service"
     }
   ],
-  "correctChoiceId": "a",
+  "correctChoiceId": "c",
   "rationale": "Entrepreneurship is identifying an unmet need and bearing risk while organising resources to meet it. She is not an employee because nobody pays her a wage, not a volunteer because she expects the venture to earn, and managing resources is only one part of what she is doing.",
   "strategy": "Unmet need plus personal risk plus organising resources equals entrepreneur.",
   "difficulty": "hard",
@@ -23812,7 +23812,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Whether she can offer something the existing three do not provide"
+    "text": "Whether she can charge a lower price than all three of the existing clinics"
    },
    {
     "id": "b",
@@ -23824,11 +23824,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Whether she can charge a lower price than all three of the existing clinics"
+    "text": "Whether she can offer something the existing three do not provide"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Whether she can offer something the existing three do not provide\". Entering an occupied market requires a <strong>reason for anyone to switch</strong>. That reason is <strong>differentiation</strong>: longer opening hours, home visits, a service nobody offers, shorter waiting, a specialism, better treatment of clients. Existing competitors actually prove the market exists — the question is only what you will do differently. <strong>Competing on price alone is the weakest position</strong>, because anyone can cut a price and it destroys the margin you need.\n\nWhy the other options fail:\n• B — Their profitability is useful context but is hard to discover and does not tell her why a client would choose her.\n• C — Competitors have no power to object, and seeking approval from rivals is not a business step.\n• D — Undercutting invites a price war she cannot win as the smallest and newest operator.\n\nReference: Ghana nursing curriculum — competitive analysis",
+  "correctChoiceId": "d",
+  "rationale": "CORRECT (D) — \"Whether she can offer something the existing three do not provide\". Entering an occupied market requires a <strong>reason for anyone to switch</strong>. That reason is <strong>differentiation</strong>: longer opening hours, home visits, a service nobody offers, shorter waiting, a specialism, better treatment of clients. Existing competitors actually prove the market exists — the question is only what you will do differently. <strong>Competing on price alone is the weakest position</strong>, because anyone can cut a price and it destroys the margin you need.\n\nWhy the other options fail:\n• B — Their profitability is useful context but is hard to discover and does not tell her why a client would choose her.\n• C — Competitors have no power to object, and seeking approval from rivals is not a business step.\n• A — Undercutting invites a price war she cannot win as the smallest and newest operator.\n\nReference: Ghana nursing curriculum — competitive analysis",
   "strategy": "In a crowded market, ask why anyone would switch. If the only answer is cheaper, the position is fragile.",
   "difficulty": "hard",
   "tags": [
@@ -23880,7 +23880,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "The Office of the Registrar of Companies under the Registrar General's Department"
+      "text": "The Nurses and Midwives Council, which regulates the profession"
     },
     {
       "id": "b",
@@ -23888,14 +23888,14 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     },
     {
       "id": "c",
-      "text": "The Nurses and Midwives Council, which regulates the profession"
+      "text": "The Office of the Registrar of Companies under the Registrar General's Department"
     },
     {
       "id": "d",
       "text": "The District Assembly, which issues business operating permits"
     }
   ],
-  "correctChoiceId": "a",
+  "correctChoiceId": "c",
   "rationale": "Companies and business names are registered at the Office of the Registrar of Companies within the Registrar General's Department. The Ghana Health Service and the Nursing and Midwifery Council regulate facilities and practitioners rather than creating the company, and the District Assembly issues permits but does not register the company itself.",
   "strategy": "Legal existence as a company comes from the Registrar General's Office of the Registrar of Companies.",
   "difficulty": "medium",
@@ -24354,7 +24354,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Being respected, developed, and told how their work affects the clients"
+    "text": "Detailed rules covering every task so that nobody has to make a decision"
    },
    {
     "id": "b",
@@ -24366,11 +24366,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Detailed rules covering every task so that nobody has to make a decision"
+    "text": "Being respected, developed, and told how their work affects the clients"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Being respected, developed, and told how their work affects the clients\". Pay must be fair and on time, but beyond that <strong>recognition, growth, autonomy and meaning</strong> drive discretionary effort — the difference between doing the job and caring about it. In health work the strongest motivator is usually <strong>seeing that the work matters to real people</strong>. Small businesses can offer this abundantly and cheaply, which is how they compete with larger employers who pay more.\n\nWhy the other options fail:\n• B — Threat produces compliance and resentment, and drives away the best staff first.\n• C — An annual event is pleasant but does not affect how someone feels about their work the rest of the year.\n• D — Excessive rules remove autonomy and judgement, which reduces motivation rather than increasing it.\n\nReference: Ghana nursing curriculum — staff motivation",
+  "correctChoiceId": "d",
+  "rationale": "CORRECT (D) — \"Being respected, developed, and told how their work affects the clients\". Pay must be fair and on time, but beyond that <strong>recognition, growth, autonomy and meaning</strong> drive discretionary effort — the difference between doing the job and caring about it. In health work the strongest motivator is usually <strong>seeing that the work matters to real people</strong>. Small businesses can offer this abundantly and cheaply, which is how they compete with larger employers who pay more.\n\nWhy the other options fail:\n• B — Threat produces compliance and resentment, and drives away the best staff first.\n• C — An annual event is pleasant but does not affect how someone feels about their work the rest of the year.\n• A — Excessive rules remove autonomy and judgement, which reduces motivation rather than increasing it.\n\nReference: Ghana nursing curriculum — staff motivation",
   "strategy": "Beyond fair pay, motivation comes from respect, growth and meaning. Reject options based on fear or on one-off events.",
   "difficulty": "hard",
   "tags": [
@@ -24456,11 +24456,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "Marketing is the whole approach to meeting client needs profitably; advertising is just the paid messages that tell people about it"
+      "text": "Marketing and advertising are the same thing, and the radio slot is both"
     },
     {
       "id": "b",
-      "text": "Marketing and advertising are the same thing, and the radio slot is both"
+      "text": "Marketing is the whole approach to meeting client needs profitably; advertising is just the paid messages that tell people about it"
     },
     {
       "id": "c",
@@ -24471,7 +24471,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
       "text": "Marketing is only what happens after a client has attended the clinic"
     }
   ],
-  "correctChoiceId": "a",
+  "correctChoiceId": "b",
   "rationale": "Marketing covers the entire approach, the service, price, place and promotion, while advertising is one part of promotion, the paid messages. The two are not synonyms, advertising is not the larger term, and marketing begins long before a client attends.",
   "strategy": "Marketing is the whole plan; advertising is one paid channel inside it.",
   "difficulty": "hard",
@@ -28768,11 +28768,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "The CHPS zone, the lowest level, staffed by a community health officer who lives in the community"
+      "text": "The district hospital, which receives referrals from the facilities around it"
     },
     {
       "id": "b",
-      "text": "The district hospital, which receives referrals from the facilities around it"
+      "text": "The CHPS zone, the lowest level, staffed by a community health officer who lives in the community"
     },
     {
       "id": "c",
@@ -28783,7 +28783,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
       "text": "The regional hospital, which provides specialist services across the region"
     }
   ],
-  "correctChoiceId": "a",
+  "correctChoiceId": "b",
   "rationale": "The CHPS zone sits at the bottom of Ghana's public system, delivered by a community health officer who lives in the community it serves. The district hospital, health centre and regional hospital all sit above it and receive referrals from it, so none can be the lowest level. Recognising this hierarchy matters because bypassing a level overloads the hospital and empties the clinic built to protect it.",
   "strategy": "The community-based compound with a resident officer is CHPS - the foundation of the pyramid, below health centre, district and region.",
   "difficulty": "medium",
@@ -28801,7 +28801,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "The District Director of Health Services, who leads the District Health Management Team"
+      "text": "The regional health director, who oversees every district in the region"
     },
     {
       "id": "b",
@@ -28809,14 +28809,14 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     },
     {
       "id": "c",
-      "text": "The regional health director, who oversees every district in the region"
+      "text": "The District Director of Health Services, who leads the District Health Management Team"
     },
     {
       "id": "d",
       "text": "The hospital matron, who heads nursing services in the district hospital"
     }
   ],
-  "correctChoiceId": "a",
+  "correctChoiceId": "c",
   "rationale": "The District Health Management Team is led by the District Director of Health Services, who carries responsibility for planning and coordinating all services in the district. The medical superintendent runs one hospital rather than the district system, the regional director sits a level above, and the matron heads nursing within one facility.",
   "strategy": "District-wide planning belongs to the District Director of Health Services at the head of the DHMT.",
   "difficulty": "medium",
@@ -28868,7 +28868,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "She is managing in the mornings and leading in the afternoons, because leadership influences people towards a goal while management organises resources"
+      "text": "She is doing both only because she holds a senior appointment, since leadership comes with rank"
     },
     {
       "id": "b",
@@ -28880,10 +28880,10 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     },
     {
       "id": "d",
-      "text": "She is doing both only because she holds a senior appointment, since leadership comes with rank"
+      "text": "She is managing in the mornings and leading in the afternoons, because leadership influences people towards a goal while management organises resources"
     }
   ],
-  "correctChoiceId": "a",
+  "correctChoiceId": "d",
   "rationale": "Management organises resources and systems, which is the rosters and supplies; leadership influences people towards a goal, which is winning staff over to a new handover format. Leadership is not confined to senior appointments or crises, and a ward manager plainly has scope to change practice on her own ward.",
   "strategy": "Organising resources is management; winning people over is leadership - and a ward manager does both.",
   "difficulty": "hard",
@@ -29105,11 +29105,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "Because recurrent costs repeat each month while capital buys assets lasting several years, and the two are funded and accounted for differently"
+      "text": "Because capital items are always cheaper than recurrent items across a financial year"
     },
     {
       "id": "b",
-      "text": "Because capital items are always cheaper than recurrent items across a financial year"
+      "text": "Because recurrent costs repeat each month while capital buys assets lasting several years, and the two are funded and accounted for differently"
     },
     {
       "id": "c",
@@ -29120,7 +29120,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
       "text": "Because donors always fund recurrent costs and government always funds capital costs"
     }
   ],
-  "correctChoiceId": "a",
+  "correctChoiceId": "b",
   "rationale": "Recurrent expenditure recurs each month for running the ward, while capital expenditure buys durable assets that last years; the two are planned, approved and accounted for separately. Neither is inherently cheaper, both ordinarily require approval, and the funding source is not fixed to one or the other as the distractors claim.",
   "strategy": "Monthly running costs are recurrent; long-lived assets are capital - never mix the two lines.",
   "difficulty": "hard",
@@ -29138,7 +29138,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Prioritise according to patient safety and the greatest clinical need"
+    "text": "Divide the money equally between every unit that submitted a request"
    },
    {
     "id": "b",
@@ -29146,15 +29146,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Divide the money equally between every unit that submitted a request"
+    "text": "Prioritise according to patient safety and the greatest clinical need"
    },
    {
     "id": "d",
     "text": "Postpone all spending until additional funds have been made available"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Prioritise according to patient safety and the greatest clinical need\". Scarcity requires <strong>explicit prioritisation against stated criteria</strong>, and in health care the first criterion is <strong>patient safety, then the volume and severity of need</strong>. Prioritising openly also allows the decision to be explained and defended. Allocating by <strong>order of request or by equal shares</strong> feels fair but is arbitrary: it funds whoever wrote first, and it gives the same sum to a unit with ten patients as to one with two hundred.\n\nWhy the other options fail:\n• B — Order of arrival has no relationship to clinical importance and rewards administrative speed.\n• C — Equal shares ignore differences in workload, risk and need, so it is fair only in appearance.\n• D — Deferring all spending leaves urgent safety needs unmet while waiting for money that may not come.\n\nReference: Ghana nursing curriculum — resource management",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Prioritise according to patient safety and the greatest clinical need\". Scarcity requires <strong>explicit prioritisation against stated criteria</strong>, and in health care the first criterion is <strong>patient safety, then the volume and severity of need</strong>. Prioritising openly also allows the decision to be explained and defended. Allocating by <strong>order of request or by equal shares</strong> feels fair but is arbitrary: it funds whoever wrote first, and it gives the same sum to a unit with ten patients as to one with two hundred.\n\nWhy the other options fail:\n• B — Order of arrival has no relationship to clinical importance and rewards administrative speed.\n• A — Equal shares ignore differences in workload, risk and need, so it is fair only in appearance.\n• D — Deferring all spending leaves urgent safety needs unmet while waiting for money that may not come.\n\nReference: Ghana nursing curriculum — resource management",
   "strategy": "Under scarcity, choose the option with an explicit clinical criterion. Fairness by queue or equal split is arbitrariness in disguise.",
   "difficulty": "hard",
   "tags": [
@@ -30538,7 +30538,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Standard precautions, exactly as for every other patient on the ward"
+    "text": "Separate crockery, cutlery and bedding kept only for that patient's use"
    },
    {
     "id": "b",
@@ -30550,11 +30550,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Separate crockery, cutlery and bedding kept only for that patient's use"
+    "text": "Standard precautions, exactly as for every other patient on the ward"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Standard precautions, exactly as for every other patient on the ward\". <strong>Standard precautions are applied to every patient</strong>, precisely because status is often unknown. HIV is not spread by touch, sharing utensils, food or ordinary ward contact, so no additional measures are justified. Extra precautions are <strong>clinically unnecessary and actively harmful</strong>: they publicly identify the diagnosis, breaching confidentiality, and they reinforce the stigma that keeps people out of care.\n\nWhy the other options fail:\n• B — Isolation is not indicated for HIV, and it broadcasts the diagnosis to the entire ward.\n• C — Gloves are for contact with blood and body fluids, not for conversation or feeding.\n• D — HIV is not transmitted through shared utensils. This practice is stigmatising and without any basis.\n\nReference: Ghana nursing curriculum — HIV care",
+  "correctChoiceId": "d",
+  "rationale": "CORRECT (D) — \"Standard precautions, exactly as for every other patient on the ward\". <strong>Standard precautions are applied to every patient</strong>, precisely because status is often unknown. HIV is not spread by touch, sharing utensils, food or ordinary ward contact, so no additional measures are justified. Extra precautions are <strong>clinically unnecessary and actively harmful</strong>: they publicly identify the diagnosis, breaching confidentiality, and they reinforce the stigma that keeps people out of care.\n\nWhy the other options fail:\n• B — Isolation is not indicated for HIV, and it broadcasts the diagnosis to the entire ward.\n• C — Gloves are for contact with blood and body fluids, not for conversation or feeding.\n• A — HIV is not transmitted through shared utensils. This practice is stigmatising and without any basis.\n\nReference: Ghana nursing curriculum — HIV care",
   "strategy": "Standard precautions apply universally. Any option adding precautions because of a diagnosis is usually stigma, not science.",
   "difficulty": "hard",
   "tags": [
@@ -42404,11 +42404,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Inferential methods draw conclusions about a population from a sample"
+    "text": "Inferential methods summarise the data that has actually been collected"
    },
    {
     "id": "b",
-    "text": "Inferential methods summarise the data that has actually been collected"
+    "text": "Inferential methods draw conclusions about a population from a sample"
    },
    {
     "id": "c",
@@ -42419,8 +42419,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     "text": "Inferential methods apply solely to information gathered by interview"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Inferential methods draw conclusions about a population from a sample\". Descriptive statistics <strong>summarise what you have</strong> — means, percentages, charts — and make no claim beyond the people studied. Inferential statistics <strong>use that sample to say something about the wider population</strong>, which is why they must account for the possibility of chance and produce p values and confidence intervals. Every study does both, and confusing them leads to claiming general truths from a single ward's figures.\n\nWhy the other options fail:\n• B — Summarising collected data is precisely what descriptive statistics do.\n• C — Inference is used at any sample size; small samples simply produce wider intervals.\n• D — Both types apply regardless of how the data were collected.\n\nReference: Ghana nursing curriculum — BCA 201 statistics",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"Inferential methods draw conclusions about a population from a sample\". Descriptive statistics <strong>summarise what you have</strong> — means, percentages, charts — and make no claim beyond the people studied. Inferential statistics <strong>use that sample to say something about the wider population</strong>, which is why they must account for the possibility of chance and produce p values and confidence intervals. Every study does both, and confusing them leads to claiming general truths from a single ward's figures.\n\nWhy the other options fail:\n• A — Summarising collected data is precisely what descriptive statistics do.\n• C — Inference is used at any sample size; small samples simply produce wider intervals.\n• D — Both types apply regardless of how the data were collected.\n\nReference: Ghana nursing curriculum — BCA 201 statistics",
   "strategy": "Ask whether the claim stops at the people studied or reaches beyond them. Beyond means inference.",
   "difficulty": "medium",
   "tags": [
@@ -42746,11 +42746,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "The result is not statistically significant, because the interval includes 1.0"
+   "text": "The risk is definitely 1.8 times higher for the exposed group"
   },
   {
    "id": "b",
-   "text": "The risk is definitely 1.8 times higher for the exposed group"
+   "text": "The result is not statistically significant, because the interval includes 1.0"
   },
   {
    "id": "c",
@@ -42761,8 +42761,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "The study must be invalid because the interval is wide"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "CORRECT (A) — \"The result is not statistically significant, because the interval includes 1.0\". For a ratio measure, 1.0 means no difference between the groups. The point estimate of 1.8 suggests a higher risk in the exposed group, but the 95 per cent confidence interval runs from 0.9, which is below 1, to 3.4, which is above it. Because the interval crosses 1, the data are compatible with a small protective effect, no effect, or a substantially increased risk, so the study cannot exclude chance as an explanation. Option B treats the point estimate as if it were exact and ignores the interval. Option C overstates the finding: failing to show an effect is not proof that none exists, particularly with a wide interval. Option D is wrong, because a wide interval signals imprecision and a need for a larger study, not fraud. Read the interval, not just the headline number.",
+ "correctChoiceId": "b",
+ "rationale": "CORRECT (B) — \"The result is not statistically significant, because the interval includes 1.0\". For a ratio measure, 1.0 means no difference between the groups. The point estimate of 1.8 suggests a higher risk in the exposed group, but the 95 per cent confidence interval runs from 0.9, which is below 1, to 3.4, which is above it. Because the interval crosses 1, the data are compatible with a small protective effect, no effect, or a substantially increased risk, so the study cannot exclude chance as an explanation. Option A treats the point estimate as if it were exact and ignores the interval. Option C overstates the finding: failing to show an effect is not proof that none exists, particularly with a wide interval. Option D is wrong, because a wide interval signals imprecision and a need for a larger study, not fraud. Read the interval, not just the headline number.",
  "strategy": "For a ratio, if the 95 per cent interval crosses 1.0, the result is not statistically significant.",
  "difficulty": "hard",
  "tags": [
@@ -46101,11 +46101,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "By measuring from the incisors to the angle of the jaw"
+    "text": "By selecting the largest size the mouth will accommodate"
    },
    {
     "id": "b",
-    "text": "By selecting the largest size the mouth will accommodate"
+    "text": "By measuring from the incisors to the angle of the jaw"
    },
    {
     "id": "c",
@@ -46116,8 +46116,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     "text": "By choosing the same size for all adult patients"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"By measuring from the incisors to the angle of the jaw\". The airway must reach <strong>past the tongue but not beyond the epiglottis</strong>, and measuring against the patient's own face from incisors to the angle of the jaw achieves this. Too long presses the epiglottis down over the larynx and obstructs the airway completely; too short pushes the tongue backwards and does the same thing at the other end. Both failures produce <strong>the exact obstruction the device was inserted to relieve</strong>.\n\nWhy the other options fail:\n• B — An oversized airway occludes the larynx by displacing the epiglottis.\n• C — Airway length relates to facial anatomy rather than to body weight.\n• D — Adult faces vary considerably, and a fixed size will be wrong for many.\n\nReference: Ghana nursing curriculum — RGN 209 procedures",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"By measuring from the incisors to the angle of the jaw\". The airway must reach <strong>past the tongue but not beyond the epiglottis</strong>, and measuring against the patient's own face from incisors to the angle of the jaw achieves this. Too long presses the epiglottis down over the larynx and obstructs the airway completely; too short pushes the tongue backwards and does the same thing at the other end. Both failures produce <strong>the exact obstruction the device was inserted to relieve</strong>.\n\nWhy the other options fail:\n• A — An oversized airway occludes the larynx by displacing the epiglottis.\n• C — Airway length relates to facial anatomy rather than to body weight.\n• D — Adult faces vary considerably, and a fixed size will be wrong for many.\n\nReference: Ghana nursing curriculum — RGN 209 procedures",
   "strategy": "Measure the device against the patient's own anatomy, never against an average.",
   "difficulty": "hard",
   "tags": [
@@ -51161,11 +51161,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Neuropathy and age can blunt the perception of cardiac pain"
+    "text": "Women develop heart disease only after the age of seventy"
    },
    {
     "id": "b",
-    "text": "Women develop heart disease only after the age of seventy"
+    "text": "Neuropathy and age can blunt the perception of cardiac pain"
    },
    {
     "id": "c",
@@ -51176,8 +51176,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     "text": "Breathlessness in diabetes is always caused by ketoacidosis"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Neuropathy and age can blunt the perception of cardiac pain\". Autonomic neuropathy in long-standing diabetes and altered pain perception with age mean the infarct can be <strong>silent, presenting instead as breathlessness, collapse, confusion, vomiting or simply feeling unwell</strong>. These patients are diagnosed later and die more often, precisely because the presentation does not match the picture staff are looking for. The safeguard is to <strong>record an ECG on the basis of risk, not on the basis of pain</strong>.\n\nWhy the other options fail:\n• B — Women develop coronary disease earlier than this, particularly with diabetes.\n• C — Hyperglycaemia can cause vomiting, but assuming it here misses the infarct.\n• D — Ketoacidosis is one cause of breathlessness, not the only one.\n\nReference: Ghana STG; WHO cardiovascular guidance",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"Neuropathy and age can blunt the perception of cardiac pain\". Autonomic neuropathy in long-standing diabetes and altered pain perception with age mean the infarct can be <strong>silent, presenting instead as breathlessness, collapse, confusion, vomiting or simply feeling unwell</strong>. These patients are diagnosed later and die more often, precisely because the presentation does not match the picture staff are looking for. The safeguard is to <strong>record an ECG on the basis of risk, not on the basis of pain</strong>.\n\nWhy the other options fail:\n• A — Women develop coronary disease earlier than this, particularly with diabetes.\n• C — Hyperglycaemia can cause vomiting, but assuming it here misses the infarct.\n• D — Ketoacidosis is one cause of breathlessness, not the only one.\n\nReference: Ghana STG; WHO cardiovascular guidance",
   "strategy": "In diabetes and old age, let the risk profile order the ECG, not the presence of pain.",
   "difficulty": "hard",
   "tags": [
@@ -51433,7 +51433,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Fluid around the heart is preventing it from filling"
+    "text": "The patient has lost a large volume of circulating blood"
    },
    {
     "id": "b",
@@ -51445,11 +51445,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "The patient has lost a large volume of circulating blood"
+    "text": "Fluid around the heart is preventing it from filling"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Fluid around the heart is preventing it from filling\". Fluid in the pericardial sac compresses the heart from outside, so <strong>the ventricles cannot fill and the output falls despite normal muscle</strong>. Pressure backs up into the neck veins while the sounds become distant. The distinguishing point is exactly this combination: <strong>a shocked patient whose neck veins are full rather than empty</strong>, which separates tamponade from haemorrhage and dictates drainage rather than fluid.\n\nWhy the other options fail:\n• B — Myocarditis impairs contraction but does not distend the neck veins acutely.\n• C — Acute valve failure causes pulmonary oedema rather than muffled sounds.\n• D — Blood loss produces shock with flat, empty neck veins.\n\nReference: Ghana STG — pericardial disease",
+  "correctChoiceId": "d",
+  "rationale": "CORRECT (D) — \"Fluid around the heart is preventing it from filling\". Fluid in the pericardial sac compresses the heart from outside, so <strong>the ventricles cannot fill and the output falls despite normal muscle</strong>. Pressure backs up into the neck veins while the sounds become distant. The distinguishing point is exactly this combination: <strong>a shocked patient whose neck veins are full rather than empty</strong>, which separates tamponade from haemorrhage and dictates drainage rather than fluid.\n\nWhy the other options fail:\n• B — Myocarditis impairs contraction but does not distend the neck veins acutely.\n• C — Acute valve failure causes pulmonary oedema rather than muffled sounds.\n• A — Blood loss produces shock with flat, empty neck veins.\n\nReference: Ghana STG — pericardial disease",
   "strategy": "Shock with full neck veins is obstruction. Shock with empty neck veins is volume loss.",
   "difficulty": "hard",
   "tags": [
@@ -51501,11 +51501,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Start chest compressions at once, treating the gasps as absent breathing"
+   "text": "Wait a full minute to see whether normal breathing returns"
   },
   {
    "id": "b",
-   "text": "Wait a full minute to see whether normal breathing returns"
+   "text": "Start chest compressions at once, treating the gasps as absent breathing"
   },
   {
    "id": "c",
@@ -51516,8 +51516,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    "text": "Place the patient in the recovery position and call for the doctor"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "CORRECT (A) — \"Start chest compressions at once, treating the gasps as absent breathing\". Agonal gasps are a reflex, not breathing. They are slow, irregular, noisy and ineffective, and they are the commonest presentation in the first minutes of cardiac arrest, which is why a rescuer who waits for normal breathing loses time that determines survival. An unresponsive patient with agonal gasps is in cardiac arrest: call for help or activate the emergency response, and begin chest compressions immediately, with a compression rate of 100 to 120 per minute and a depth of 5 to 6 cm. Option B wastes the most valuable minutes. Option C withholds compressions from a patient with no circulation. Option D is appropriate only for an unresponsive patient who is breathing normally and has a pulse, and would delay resuscitation in this one.",
+ "correctChoiceId": "b",
+ "rationale": "CORRECT (B) — \"Start chest compressions at once, treating the gasps as absent breathing\". Agonal gasps are a reflex, not breathing. They are slow, irregular, noisy and ineffective, and they are the commonest presentation in the first minutes of cardiac arrest, which is why a rescuer who waits for normal breathing loses time that determines survival. An unresponsive patient with agonal gasps is in cardiac arrest: call for help or activate the emergency response, and begin chest compressions immediately, with a compression rate of 100 to 120 per minute and a depth of 5 to 6 cm. Option A wastes the most valuable minutes. Option C withholds compressions from a patient with no circulation. Option D is appropriate only for an unresponsive patient who is breathing normally and has a pulse, and would delay resuscitation in this one.",
  "strategy": "Agonal gasps are not breathing. Unresponsive plus gasping means start compressions now.",
  "difficulty": "hard",
  "tags": [
@@ -52668,7 +52668,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "To reduce the risk of stomach contents entering the lungs"
+    "text": "To allow the anaesthetic drugs to be absorbed more rapidly"
    },
    {
     "id": "b",
@@ -52676,15 +52676,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "To allow the anaesthetic drugs to be absorbed more rapidly"
+    "text": "To reduce the risk of stomach contents entering the lungs"
    },
    {
     "id": "d",
     "text": "To ensure the bowel is empty before the surgeon operates"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"To reduce the risk of stomach contents entering the lungs\". Anaesthesia abolishes the reflexes that normally keep the airway closed to regurgitated material, so a full stomach can empty into the lungs, causing a severe chemical pneumonitis. Fasting is <strong>purely about that one risk</strong>. Understanding this prevents the common errors in both directions: <strong>fasting for far longer than required does not add safety, but leaves the patient dehydrated, hypoglycaemic and miserable</strong>.\n\nWhy the other options fail:\n• B — Postoperative nausea is managed with antiemetics, not by prolonged fasting.\n• C — Fasting has no effect on the absorption of anaesthetic agents.\n• D — Emptying the bowel requires specific preparation, not simple fasting.\n\nReference: Ghana STG; WHO surgical safety",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"To reduce the risk of stomach contents entering the lungs\". Anaesthesia abolishes the reflexes that normally keep the airway closed to regurgitated material, so a full stomach can empty into the lungs, causing a severe chemical pneumonitis. Fasting is <strong>purely about that one risk</strong>. Understanding this prevents the common errors in both directions: <strong>fasting for far longer than required does not add safety, but leaves the patient dehydrated, hypoglycaemic and miserable</strong>.\n\nWhy the other options fail:\n• B — Postoperative nausea is managed with antiemetics, not by prolonged fasting.\n• A — Fasting has no effect on the absorption of anaesthetic agents.\n• D — Emptying the bowel requires specific preparation, not simple fasting.\n\nReference: Ghana STG; WHO surgical safety",
   "strategy": "Know why a rule exists and you will know when longer is not safer.",
   "difficulty": "medium",
   "tags": [
@@ -56122,7 +56122,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "7.5 mL"
+    "text": "6 mL"
    },
    {
     "id": "b",
@@ -56130,15 +56130,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "6 mL"
+    "text": "7.5 mL"
    },
    {
     "id": "d",
     "text": "15 mL"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"7.5 mL\". Work in two steps. The dose is 5 mg × 60 kg = <strong>300 mg</strong>. The volume is then dose wanted ÷ strength held × volume that strength is in: 300 ÷ 80 × 2 = <strong>7.5 mL</strong>. Doing the weight calculation and the volume calculation as separate written steps prevents the commonest error, which is <strong>multiplying or dividing by the weight at the wrong point</strong> and producing an answer that is out by a whole factor. Sense-check: 300 mg is nearly four times the 80 mg in one 2 mL ampoule, so the volume must be more than 6 mL.\n\nWhy the other options fail:\n• B — 3.75 mL results from omitting to multiply by the 2 mL stock volume.\n• C — 6 mL comes from using 4 mg/kg rather than the prescribed 5 mg/kg.\n• D — 15 mL results from doubling rather than halving at the final step.\n\nReference: Ghana STG; NMC Ghana medicines standards",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"7.5 mL\". Work in two steps. The dose is 5 mg × 60 kg = <strong>300 mg</strong>. The volume is then dose wanted ÷ strength held × volume that strength is in: 300 ÷ 80 × 2 = <strong>7.5 mL</strong>. Doing the weight calculation and the volume calculation as separate written steps prevents the commonest error, which is <strong>multiplying or dividing by the weight at the wrong point</strong> and producing an answer that is out by a whole factor. Sense-check: 300 mg is nearly four times the 80 mg in one 2 mL ampoule, so the volume must be more than 6 mL.\n\nWhy the other options fail:\n• B — 3.75 mL results from omitting to multiply by the 2 mL stock volume.\n• A — 6 mL comes from using 4 mg/kg rather than the prescribed 5 mg/kg.\n• D — 15 mL results from doubling rather than halving at the final step.\n\nReference: Ghana STG; NMC Ghana medicines standards",
   "strategy": "Dose first, then volume. Two written steps, each checked, never one line in your head.",
   "difficulty": "hard",
   "tags": [
@@ -56159,7 +56159,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "Vastus lateralis"
+      "text": "Ventrogluteal"
     },
     {
       "id": "b",
@@ -56171,10 +56171,10 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     },
     {
       "id": "d",
-      "text": "Ventrogluteal"
+      "text": "Vastus lateralis"
     }
   ],
-  "correctChoiceId": "a",
+  "correctChoiceId": "d",
   "rationale": "The vastus lateralis, on the anterolateral thigh, is the site of choice in infants because it has the largest muscle mass at that age and carries no major nerve or vessel nearby. The dorsogluteal site must be avoided in infants: the muscle is not yet developed and the sciatic nerve lies close, so injury is a real risk. The deltoid is too small to take a vaccine volume in a 6-month-old and is used from about 12 to 18 months. The ventrogluteal site, though safe in older children and adults, is harder to locate reliably in an infant.",
   "strategy": "Infants: vastus lateralis. Never the dorsogluteal in a child who is not yet walking.",
   "difficulty": "hard",
@@ -56193,11 +56193,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "200 mL per hour"
+      "text": "100 mL per hour"
     },
     {
       "id": "b",
-      "text": "100 mL per hour"
+      "text": "200 mL per hour"
     },
     {
       "id": "c",
@@ -56208,7 +56208,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
       "text": "300 mL per hour"
     }
   ],
-  "correctChoiceId": "a",
+  "correctChoiceId": "b",
   "rationale": "Half an hour is half of an hour, so a volume of 100 mL delivered in 30 minutes means 200 mL in 60 minutes, and the pump is set to 200 mL per hour. Option 100 mL per hour is the volume itself, not the rate, and would take a full hour, delivering the magnesium twice as slowly as prescribed. Option 50 mL per hour would take two hours. Option 300 mL per hour would finish in about twenty minutes, and magnesium given too fast causes hypotension, flushing and respiratory depression.",
   "strategy": "Rate per hour = volume ÷ time in hours. Thirty minutes is 0.5 hours, so 100 ÷ 0.5 = 200.",
   "difficulty": "hard",
@@ -56499,7 +56499,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Leave several minutes between them so neither is washed away"
+    "text": "Mix the two drops together before instilling them once"
    },
    {
     "id": "b",
@@ -56507,15 +56507,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Mix the two drops together before instilling them once"
+    "text": "Leave several minutes between them so neither is washed away"
    },
    {
     "id": "d",
     "text": "Give one drop in each eye to avoid any interaction"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Leave several minutes between them so neither is washed away\". The conjunctival sac holds far less than a single drop, so a second drop instilled immediately <strong>washes the first one out before it has been absorbed</strong>. Waiting a few minutes allows each to act. Mixing preparations is never acceptable, and putting different drugs in different eyes <strong>treats each eye with only half the prescription</strong> — a misunderstanding that appears more often than it should.\n\nWhy the other options fail:\n• B — The second drop displaces the first before it can be absorbed.\n• C — Mixing preparations is unsafe and alters both.\n• D — Each eye then receives only one of the two prescribed drugs.\n\nReference: Ghana STG — ophthalmic medicines",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Leave several minutes between them so neither is washed away\". The conjunctival sac holds far less than a single drop, so a second drop instilled immediately <strong>washes the first one out before it has been absorbed</strong>. Waiting a few minutes allows each to act. Mixing preparations is never acceptable, and putting different drugs in different eyes <strong>treats each eye with only half the prescription</strong> — a misunderstanding that appears more often than it should.\n\nWhy the other options fail:\n• B — The second drop displaces the first before it can be absorbed.\n• A — Mixing preparations is unsafe and alters both.\n• D — Each eye then receives only one of the two prescribed drugs.\n\nReference: Ghana STG — ophthalmic medicines",
   "strategy": "The eye holds less than one drop. Anything given at once replaces what came before.",
   "difficulty": "medium",
   "tags": [
@@ -56533,7 +56533,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Remove the old patch and record where the new one is placed"
+    "text": "Place the patch over an area of broken or inflamed skin"
    },
    {
     "id": "b",
@@ -56545,11 +56545,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Place the patch over an area of broken or inflamed skin"
+    "text": "Remove the old patch and record where the new one is placed"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Remove the old patch and record where the new one is placed\". Patches deliver continuously, so <strong>a forgotten old patch means the patient is receiving two doses at once</strong> — a documented cause of fatal opioid overdose. Recording the site prevents this and enables rotation. Cutting a patch destroys the rate-controlling membrane in many products, releasing the drug uncontrollably, and <strong>broken or inflamed skin absorbs unpredictably and much faster than intended</strong>.\n\nWhy the other options fail:\n• B — Layering patches delivers a double dose continuously.\n• C — Cutting destroys the rate-controlling mechanism in many patches.\n• D — Damaged skin absorbs unpredictably and often far too rapidly.\n\nReference: Ghana STG; NMC Ghana medicines standards",
+  "correctChoiceId": "d",
+  "rationale": "CORRECT (D) — \"Remove the old patch and record where the new one is placed\". Patches deliver continuously, so <strong>a forgotten old patch means the patient is receiving two doses at once</strong> — a documented cause of fatal opioid overdose. Recording the site prevents this and enables rotation. Cutting a patch destroys the rate-controlling membrane in many products, releasing the drug uncontrollably, and <strong>broken or inflamed skin absorbs unpredictably and much faster than intended</strong>.\n\nWhy the other options fail:\n• B — Layering patches delivers a double dose continuously.\n• C — Cutting destroys the rate-controlling mechanism in many patches.\n• A — Damaged skin absorbs unpredictably and often far too rapidly.\n\nReference: Ghana STG; NMC Ghana medicines standards",
   "strategy": "Count the patches on the patient, not the ones you applied. Old patches kill.",
   "difficulty": "hard",
   "tags": [
@@ -56739,11 +56739,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Withhold it and seek advice, as there is no meal to cover"
+    "text": "Give the usual dose so that her glucose remains controlled"
    },
    {
     "id": "b",
-    "text": "Give the usual dose so that her glucose remains controlled"
+    "text": "Withhold it and seek advice, as there is no meal to cover"
    },
    {
     "id": "c",
@@ -56754,8 +56754,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     "text": "Give the dose after she returns from the operating theatre"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Withhold it and seek advice, as there is no meal to cover\". Rapid-acting insulin is prescribed <strong>to cover the carbohydrate in a meal</strong>. Given without food, it drives the glucose down with nothing to oppose it, and hypoglycaemia under anaesthesia is invisible because its warning signs are abolished. The correct action is to withhold and seek a plan, since fasting patients with diabetes usually need <strong>a specific regimen rather than either their usual doses or nothing at all</strong>.\n\nWhy the other options fail:\n• B — The full mealtime dose without food causes hypoglycaemia.\n• C — An invented half dose is unprescribed and still unmatched to intake.\n• D — Delaying without a plan leaves the perioperative period unmanaged.\n\nReference: Ghana STG — diabetes and surgery",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"Withhold it and seek advice, as there is no meal to cover\". Rapid-acting insulin is prescribed <strong>to cover the carbohydrate in a meal</strong>. Given without food, it drives the glucose down with nothing to oppose it, and hypoglycaemia under anaesthesia is invisible because its warning signs are abolished. The correct action is to withhold and seek a plan, since fasting patients with diabetes usually need <strong>a specific regimen rather than either their usual doses or nothing at all</strong>.\n\nWhy the other options fail:\n• A — The full mealtime dose without food causes hypoglycaemia.\n• C — An invented half dose is unprescribed and still unmatched to intake.\n• D — Delaying without a plan leaves the perioperative period unmanaged.\n\nReference: Ghana STG — diabetes and surgery",
   "strategy": "Mealtime insulin needs a meal. No meal means withhold and get a fasting plan.",
   "difficulty": "hard",
   "tags": [
@@ -61259,11 +61259,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "It reflects abdominal fat, which carries the greater metabolic risk"
+    "text": "It is easier to measure accurately than height and weight"
    },
    {
     "id": "b",
-    "text": "It is easier to measure accurately than height and weight"
+    "text": "It reflects abdominal fat, which carries the greater metabolic risk"
    },
    {
     "id": "c",
@@ -61274,8 +61274,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     "text": "It identifies patients who are underweight rather than overweight"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"It reflects abdominal fat, which carries the greater metabolic risk\". BMI cannot distinguish where fat is carried, and <strong>fat around the abdominal organs is far more strongly linked to diabetes and cardiovascular disease than fat on the hips and limbs</strong>. Two people with identical BMI can therefore carry very different risk. Waist measurement adds that information cheaply, using only a tape — which is why it suits screening in settings where <strong>scales and stadiometers are not always available</strong>.\n\nWhy the other options fail:\n• B — Ease of measurement is a convenience, not the clinical rationale.\n• C — It measures a different risk and does not replace blood pressure.\n• D — It identifies central adiposity, not underweight.\n\nReference: WHO waist circumference guidance; Ghana NCD Policy",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"It reflects abdominal fat, which carries the greater metabolic risk\". BMI cannot distinguish where fat is carried, and <strong>fat around the abdominal organs is far more strongly linked to diabetes and cardiovascular disease than fat on the hips and limbs</strong>. Two people with identical BMI can therefore carry very different risk. Waist measurement adds that information cheaply, using only a tape — which is why it suits screening in settings where <strong>scales and stadiometers are not always available</strong>.\n\nWhy the other options fail:\n• A — Ease of measurement is a convenience, not the clinical rationale.\n• C — It measures a different risk and does not replace blood pressure.\n• D — It identifies central adiposity, not underweight.\n\nReference: WHO waist circumference guidance; Ghana NCD Policy",
   "strategy": "BMI says how much, waist says where. Where matters more for metabolic risk.",
   "difficulty": "hard",
   "tags": [
@@ -71764,7 +71764,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "What the herbalist provides that she is not getting at the clinic"
+    "text": "Whether she should be discharged from the clinic's care"
    },
    {
     "id": "b",
@@ -71776,11 +71776,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Whether she should be discharged from the clinic's care"
+    "text": "What the herbalist provides that she is not getting at the clinic"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"What the herbalist provides that she is not getting at the clinic\". People use both systems for reasons that are usually practical: <strong>proximity, cost that can be paid in instalments, an explanation of the illness in their own language, family expectation, or a previous clinic experience that felt dismissive</strong>. Finding the reason is what allows the clinic to compete on it. The alternatives all end the relationship, and <strong>a patient who leaves your care takes the herbal use with her, unmonitored</strong>.\n\nWhy the other options fail:\n• B — Lecturing on science does not address her actual reasons.\n• C — Pressuring the family creates conflict without insight.\n• D — Discharge abandons the patient and removes all oversight.\n\nReference: WHO traditional medicine strategy; NMC Ghana Code",
+  "correctChoiceId": "d",
+  "rationale": "CORRECT (D) — \"What the herbalist provides that she is not getting at the clinic\". People use both systems for reasons that are usually practical: <strong>proximity, cost that can be paid in instalments, an explanation of the illness in their own language, family expectation, or a previous clinic experience that felt dismissive</strong>. Finding the reason is what allows the clinic to compete on it. The alternatives all end the relationship, and <strong>a patient who leaves your care takes the herbal use with her, unmonitored</strong>.\n\nWhy the other options fail:\n• B — Lecturing on science does not address her actual reasons.\n• C — Pressuring the family creates conflict without insight.\n• A — Discharge abandons the patient and removes all oversight.\n\nReference: WHO traditional medicine strategy; NMC Ghana Code",
   "strategy": "Ask about the fare and the waiting time before you ask about the beliefs.",
   "difficulty": "hard",
   "tags": [
@@ -73166,11 +73166,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Water, towards the more concentrated solution"
+    "text": "Sodium, towards the less concentrated solution"
    },
    {
     "id": "b",
-    "text": "Sodium, towards the less concentrated solution"
+    "text": "Water, towards the more concentrated solution"
    },
    {
     "id": "c",
@@ -73181,8 +73181,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     "text": "Glucose, towards the less concentrated solution"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Water, towards the more concentrated solution\". Osmosis is the movement of <strong>water alone</strong>, across a membrane that water can cross but the dissolved particles cannot, and it always moves <strong>towards the side with more particles</strong>. Everything else in fluid balance follows from this one sentence: put salty fluid in a vein and water is pulled into the vein, put dilute fluid in and water is pulled into the cells. The nurse who remembers which way water moves can predict what any bag will do without memorising a list.\n\nWhy the other options fail:\n• B — Sodium movement down a gradient is diffusion, and much of it is actively pumped rather than passive.\n• C — Protein is far too large to cross the membrane; its retention is what creates the pull.\n• D — Glucose crosses by facilitated transport, and it is a solute rather than the solvent.\n\nReference: Principles of fluid physiology, NMC Ghana curriculum",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"Water, towards the more concentrated solution\". Osmosis is the movement of <strong>water alone</strong>, across a membrane that water can cross but the dissolved particles cannot, and it always moves <strong>towards the side with more particles</strong>. Everything else in fluid balance follows from this one sentence: put salty fluid in a vein and water is pulled into the vein, put dilute fluid in and water is pulled into the cells. The nurse who remembers which way water moves can predict what any bag will do without memorising a list.\n\nWhy the other options fail:\n• A — Sodium movement down a gradient is diffusion, and much of it is actively pumped rather than passive.\n• C — Protein is far too large to cross the membrane; its retention is what creates the pull.\n• D — Glucose crosses by facilitated transport, and it is a solute rather than the solvent.\n\nReference: Principles of fluid physiology, NMC Ghana curriculum",
   "strategy": "Osmosis moves water, not salt. Water walks towards the crowd.",
   "difficulty": "easy",
   "tags": [
@@ -78750,19 +78750,19 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Exclusive breastfeeding for six months, continuing her treatment throughout"
+    "text": "Mixed feeding of breast milk and formula to reduce the volume of milk taken"
    },
    {
     "id": "c",
-    "text": "Mixed feeding of breast milk and formula to reduce the volume of milk taken"
+    "text": "Exclusive breastfeeding for six months, continuing her treatment throughout"
    },
    {
     "id": "d",
     "text": "Breastfeeding only until her viral load is repeated at six months"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Exclusive breastfeeding for six months, continuing her treatment throughout\". Where safe formula feeding cannot be guaranteed — which describes most Ghanaian households, given water quality, cost and the stigma attached to not breastfeeding — a mother on suppressive antiretroviral therapy should breastfeed exclusively for six months, then continue with complementary foods. Sustained viral suppression makes transmission through breast milk very low, and the competing risks of diarrhoea and malnutrition from unsafe formula are high and immediate. Mixed feeding is the worst option because other fluids damage the gut lining and raise transmission above that of exclusive breastfeeding. The principle is that the safest infant feeding advice is the one that weighs both risks in the actual household.\n\nWhy the other options fail:\n• A — Formula only is advised only when replacement feeding is acceptable, feasible, affordable, sustainable and safe. Where it is not, it exchanges a small viral risk for a large diarrhoeal one.\n• C — Mixed feeding is specifically the most dangerous pattern, because early exposure to other fluids inflames the infant gut and increases transmission.\n• D — Making breastfeeding conditional on a repeat viral load at six months has the logic backwards, and would interrupt feeding at exactly the point where complementary foods should be starting.\n\nReference: WHO guidance on HIV and infant feeding; Ghana PMTCT guidelines",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Exclusive breastfeeding for six months, continuing her treatment throughout\". Where safe formula feeding cannot be guaranteed — which describes most Ghanaian households, given water quality, cost and the stigma attached to not breastfeeding — a mother on suppressive antiretroviral therapy should breastfeed exclusively for six months, then continue with complementary foods. Sustained viral suppression makes transmission through breast milk very low, and the competing risks of diarrhoea and malnutrition from unsafe formula are high and immediate. Mixed feeding is the worst option because other fluids damage the gut lining and raise transmission above that of exclusive breastfeeding. The principle is that the safest infant feeding advice is the one that weighs both risks in the actual household.\n\nWhy the other options fail:\n• A — Formula only is advised only when replacement feeding is acceptable, feasible, affordable, sustainable and safe. Where it is not, it exchanges a small viral risk for a large diarrhoeal one.\n• B — Mixed feeding is specifically the most dangerous pattern, because early exposure to other fluids inflames the infant gut and increases transmission.\n• D — Making breastfeeding conditional on a repeat viral load at six months has the logic backwards, and would interrupt feeding at exactly the point where complementary foods should be starting.\n\nReference: WHO guidance on HIV and infant feeding; Ghana PMTCT guidelines",
   "strategy": "For HIV and infant feeding, remember that mixed feeding is always the wrong answer. If you can eliminate that with confidence, the choice usually narrows to exclusive breastfeeding in a resource-limited setting.",
   "difficulty": "medium",
   "tags": [
@@ -81898,11 +81898,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "3 tablets"
+    "text": "2 tablets"
    },
    {
     "id": "b",
-    "text": "2 tablets"
+    "text": "3 tablets"
    },
    {
     "id": "c",
@@ -81913,8 +81913,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     "text": "4 tablets"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"3 tablets\". Use what you want over what you have: 187.5 divided by 62.5 = 3 tablets. Both figures are already in micrograms, so no conversion is needed, which is the first thing to confirm before dividing. Sense-check: three of the smallest-strength tablets is a common way to make up a digoxin dose, and the answer is a whole number, which is what you expect when the prescription is a clean multiple of the stock strength. Digoxin has a narrow therapeutic index, so the apical pulse is counted for a full minute first and the dose withheld if it is below 60 beats a minute.\n\nWhy the other options fail:\n• B — Two tablets gives 125 micrograms, which is short of the prescription by a full tablet.\n• C — One and a half tablets gives 93.75 micrograms, which is half the prescribed dose and would leave the patient undertreated.\n• D — Four tablets gives 250 micrograms, an overdose of a drug where the toxic level sits close to the therapeutic one.\n\nReference: British National Formulary — digoxin",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"3 tablets\". Use what you want over what you have: 187.5 divided by 62.5 = 3 tablets. Both figures are already in micrograms, so no conversion is needed, which is the first thing to confirm before dividing. Sense-check: three of the smallest-strength tablets is a common way to make up a digoxin dose, and the answer is a whole number, which is what you expect when the prescription is a clean multiple of the stock strength. Digoxin has a narrow therapeutic index, so the apical pulse is counted for a full minute first and the dose withheld if it is below 60 beats a minute.\n\nWhy the other options fail:\n• A — Two tablets gives 125 micrograms, which is short of the prescription by a full tablet.\n• C — One and a half tablets gives 93.75 micrograms, which is half the prescribed dose and would leave the patient undertreated.\n• D — Four tablets gives 250 micrograms, an overdose of a drug where the toxic level sits close to the therapeutic one.\n\nReference: British National Formulary — digoxin",
   "strategy": "Confirm both numbers are in the same unit before dividing. Once they are, want over have is a single division, and a whole-number answer is usually a sign you have done it correctly.",
   "difficulty": "easy",
   "tags": [
@@ -81971,11 +81971,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "2 tablets"
+    "text": "1 tablet"
    },
    {
     "id": "b",
-    "text": "1 tablet"
+    "text": "2 tablets"
    },
    {
     "id": "c",
@@ -81986,8 +81986,8 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     "text": "Half a tablet"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"2 tablets\". The units differ, so convert before anything else. Going from milligrams down to micrograms means multiplying by 1,000, so 0.05 mg = 50 micrograms. Then want over have: 50 divided by 25 = 2 tablets. Sense-check: two tablets is an ordinary dose, and 50 micrograms is a recognised starting dose of levothyroxine, so the answer is believable. This item is really a units question wearing a dosage question's clothing, which is exactly how such errors happen on the ward — the arithmetic is trivial and the conversion is where the patient is harmed.\n\nWhy the other options fail:\n• B — One tablet gives 25 micrograms, which is half the prescription and results from treating 0.05 mg as though it were 25 micrograms.\n• C — Four tablets gives 100 micrograms, double the prescription, and comes from converting in the wrong direction.\n• D — Half a tablet gives 12.5 micrograms, a quarter of the dose, and reflects dividing when multiplication was needed.\n\nReference: British National Formulary — levothyroxine",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"2 tablets\". The units differ, so convert before anything else. Going from milligrams down to micrograms means multiplying by 1,000, so 0.05 mg = 50 micrograms. Then want over have: 50 divided by 25 = 2 tablets. Sense-check: two tablets is an ordinary dose, and 50 micrograms is a recognised starting dose of levothyroxine, so the answer is believable. This item is really a units question wearing a dosage question's clothing, which is exactly how such errors happen on the ward — the arithmetic is trivial and the conversion is where the patient is harmed.\n\nWhy the other options fail:\n• A — One tablet gives 25 micrograms, which is half the prescription and results from treating 0.05 mg as though it were 25 micrograms.\n• C — Four tablets gives 100 micrograms, double the prescription, and comes from converting in the wrong direction.\n• D — Half a tablet gives 12.5 micrograms, a quarter of the dose, and reflects dividing when multiplication was needed.\n\nReference: British National Formulary — levothyroxine",
   "strategy": "Whenever the prescription and the stock are in different units, convert first and write the converted figure down. Attempting the conversion inside your head during the division is where the factor of 1,000 gets lost.",
   "difficulty": "medium",
   "tags": [
@@ -82007,7 +82007,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "About 10 mmol per hour"
+      "text": "About 100 mmol per hour"
     },
     {
       "id": "b",
@@ -82015,15 +82015,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     },
     {
       "id": "c",
-      "text": "About 100 mmol per hour"
+      "text": "About 10 mmol per hour"
     },
     {
       "id": "d",
       "text": "There is no rate limit if the line is patent"
     }
   ],
-  "correctChoiceId": "a",
-  "rationale": "Peripheral potassium is limited to roughly 10 mmol per hour and a concentration no greater than 40 mmol/L, given by pump with cardiac monitoring and a second check, because potassium acts directly on the myocardium and too fast a rate causes fatal dysrhythmia. Option B is the concentration limit, not the hourly rate, and is the commonest confusion in this topic. Option C is far above any safe rate. Option D is untrue: the absence of a rate limit is exactly what makes potassium errors fatal.",
+  "correctChoiceId": "c",
+  "rationale": "Peripheral potassium is limited to roughly 10 mmol per hour and a concentration no greater than 40 mmol/L, given by pump with cardiac monitoring and a second check, because potassium acts directly on the myocardium and too fast a rate causes fatal dysrhythmia. Option B is the concentration limit, not the hourly rate, and is the commonest confusion in this topic. Option A is far above any safe rate. Option D is untrue: the absence of a rate limit is exactly what makes potassium errors fatal.",
   "strategy": "Peripheral potassium: no more than 10 mmol per hour and 40 mmol per litre. Never a bolus.",
   "difficulty": "medium",
   "tags": [
@@ -82146,7 +82146,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "50 mL"
+    "text": "12.5 mL"
    },
    {
     "id": "b",
@@ -82158,11 +82158,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "12.5 mL"
+    "text": "50 mL"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"50 mL\". Fifty per cent dextrose contains 50 g in 100 mL, so 0.5 g in each millilitre. To deliver 25 g, divide 25 by 0.5 = 50 mL. Sense-check: 25 g is half of the 50 g in a 100 mL bottle, so half the volume, which is 50 mL, and the two lines of reasoning agree. Fifty per cent dextrose is highly irritant to veins and must go through a patent large-bore cannula with a generous flush afterwards, or it causes thrombophlebitis and tissue damage if it leaks.\n\nWhy the other options fail:\n• B — Twenty-five millilitres delivers 12.5 g, half of what is needed, and may fail to restore consciousness.\n• C — One hundred millilitres delivers 50 g, twice the requirement, and is a large volume of an irritant solution.\n• D — Twelve point five millilitres delivers only 6.25 g, a quarter of the dose.\n\nReference: Ghana Standard Treatment Guidelines — hypoglycaemia management",
+  "correctChoiceId": "d",
+  "rationale": "CORRECT (D) — \"50 mL\". Fifty per cent dextrose contains 50 g in 100 mL, so 0.5 g in each millilitre. To deliver 25 g, divide 25 by 0.5 = 50 mL. Sense-check: 25 g is half of the 50 g in a 100 mL bottle, so half the volume, which is 50 mL, and the two lines of reasoning agree. Fifty per cent dextrose is highly irritant to veins and must go through a patent large-bore cannula with a generous flush afterwards, or it causes thrombophlebitis and tissue damage if it leaks.\n\nWhy the other options fail:\n• B — Twenty-five millilitres delivers 12.5 g, half of what is needed, and may fail to restore consciousness.\n• C — One hundred millilitres delivers 50 g, twice the requirement, and is a large volume of an irritant solution.\n• A — Twelve point five millilitres delivers only 6.25 g, a quarter of the dose.\n\nReference: Ghana Standard Treatment Guidelines — hypoglycaemia management",
   "strategy": "Look for the halving or doubling relationship before reaching for arithmetic. When the dose is half of what the container holds, the volume is half the container — and it confirms your formula answer instantly.",
   "difficulty": "hard",
   "tags": [
@@ -85517,19 +85517,19 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "To culture viruses from the specimen"
+    "text": "To select for Gram-negative bacteria and distinguish lactose fermenters"
    },
    {
     "id": "c",
-    "text": "To select for Gram-negative bacteria and distinguish lactose fermenters"
+    "text": "To culture viruses from the specimen"
    },
    {
     "id": "d",
     "text": "To measure the antibiotic sensitivity of the isolate"
    }
   ],
-  "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"To select for Gram-negative bacteria and distinguish lactose fermenters\". MacConkey agar is both selective and differential. Bile salts and crystal violet in the medium suppress Gram-positive organisms, so only Gram-negatives grow, and a lactose indicator then separates those that ferment lactose, which form pink colonies, from those that do not, which remain pale. Escherichia coli ferments lactose and appears pink; Salmonella and Shigella do not and appear colourless, which is exactly the distinction needed when investigating diarrhoeal illness. Blood agar, by contrast, is enriched and grows most organisms. The principle is that the medium is chosen to answer a specific question.\n\nWhy the other options fail:\n• A — MacConkey agar actively inhibits Gram-positive growth, which is the opposite of the stated purpose.\n• B — Viruses require living cells or tissue culture and will not grow on any agar plate.\n• D — Sensitivity testing is a separate procedure performed after the organism has been isolated.\n\nReference: Standard microbiology — culture media",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"To select for Gram-negative bacteria and distinguish lactose fermenters\". MacConkey agar is both selective and differential. Bile salts and crystal violet in the medium suppress Gram-positive organisms, so only Gram-negatives grow, and a lactose indicator then separates those that ferment lactose, which form pink colonies, from those that do not, which remain pale. Escherichia coli ferments lactose and appears pink; Salmonella and Shigella do not and appear colourless, which is exactly the distinction needed when investigating diarrhoeal illness. Blood agar, by contrast, is enriched and grows most organisms. The principle is that the medium is chosen to answer a specific question.\n\nWhy the other options fail:\n• A — MacConkey agar actively inhibits Gram-positive growth, which is the opposite of the stated purpose.\n• C — Viruses require living cells or tissue culture and will not grow on any agar plate.\n• D — Sensitivity testing is a separate procedure performed after the organism has been isolated.\n\nReference: Standard microbiology — culture media",
   "strategy": "Ask what a medium is for: enrichment grows everything, selective media suppress some organisms, differential media make one group look different from another. MacConkey does the last two at once.",
   "difficulty": "medium",
   "tags": [
@@ -89338,7 +89338,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Face, then upper body, then legs, then back, with the perineum washed last"
+    "text": "Legs and feet first, working upwards towards the face"
    },
    {
     "id": "b",
@@ -89346,15 +89346,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Legs and feet first, working upwards towards the face"
+    "text": "Face, then upper body, then legs, then back, with the perineum washed last"
    },
    {
     "id": "d",
     "text": "Back and pressure areas first, then the front of the body"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Face, then upper body, then legs, then back, with the perineum washed last\". Hygiene care works from the cleanest area towards the most contaminated, so that organisms are not carried from a dirty area onto a clean one. The face is washed with water alone since soap irritates the eyes, then the arms, chest and abdomen, then the legs and feet, then the back with a pressure area check, and the perineum last with fresh water and a fresh cloth. The same direction of travel governs eye care and perineal care. Alongside this, the nurse maintains privacy, keeps the patient covered, and checks the water temperature. The principle is clean to dirty, never back again.\n\nWhy the other options fail:\n• B — Washing the perineum first contaminates the cloth and water used for every subsequent area.\n• C — Working upwards from the feet moves organisms from the lower body towards the face.\n• D — The back is washed after the front, and it also provides the opportunity for a pressure area check.\n\nReference: Standard hygiene care procedure",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Face, then upper body, then legs, then back, with the perineum washed last\". Hygiene care works from the cleanest area towards the most contaminated, so that organisms are not carried from a dirty area onto a clean one. The face is washed with water alone since soap irritates the eyes, then the arms, chest and abdomen, then the legs and feet, then the back with a pressure area check, and the perineum last with fresh water and a fresh cloth. The same direction of travel governs eye care and perineal care. Alongside this, the nurse maintains privacy, keeps the patient covered, and checks the water temperature. The principle is clean to dirty, never back again.\n\nWhy the other options fail:\n• B — Washing the perineum first contaminates the cloth and water used for every subsequent area.\n• A — Working upwards from the feet moves organisms from the lower body towards the face.\n• D — The back is washed after the front, and it also provides the opportunity for a pressure area check.\n\nReference: Standard hygiene care procedure",
   "strategy": "Apply clean-to-dirty to every hygiene procedure. If an option reverses the direction, it is wrong however it is worded.",
   "difficulty": "easy",
   "tags": [
@@ -109894,7 +109894,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Hirschsprung disease, in which absent nerve cells prevent the bowel relaxing"
+    "text": "Cow's milk protein allergy, which typically presents in the first two days"
    },
    {
     "id": "b",
@@ -109902,15 +109902,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Cow's milk protein allergy, which typically presents in the first two days"
+    "text": "Hirschsprung disease, in which absent nerve cells prevent the bowel relaxing"
    },
    {
     "id": "d",
     "text": "Lactose intolerance, which prevents the passage of meconium"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Hirschsprung disease, in which absent nerve cells prevent the bowel relaxing\". Almost all healthy term newborns pass meconium within twenty-four hours and virtually all by forty-eight. Failure to do so, with abdominal distension and later bilious vomiting, suggests Hirschsprung disease, in which ganglion cells are absent from a segment of distal bowel so it cannot relax and stool cannot pass. Diagnosis is by rectal biopsy and treatment is surgical. The most feared complication is enterocolitis, presenting with fever, explosive foul stool and a very unwell baby, which can be rapidly fatal. Any newborn who has not passed meconium by forty-eight hours needs review rather than reassurance.\n\nWhy the other options fail:\n• B — Physiological constipation is not a newborn diagnosis. Delayed meconium with distension always requires investigation for an anatomical or neurological cause.\n• C — Cow's milk protein allergy presents over weeks with blood or mucus in stool, vomiting and poor weight gain, not with failure to pass meconium.\n• D — Lactose intolerance causes loose acidic stool and is exceptionally rare in newborns. It does not prevent meconium being passed.\n\nReference: WHO pocket book of hospital care for children; Ghana Standard Treatment Guidelines — paediatric surgery",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Hirschsprung disease, in which absent nerve cells prevent the bowel relaxing\". Almost all healthy term newborns pass meconium within twenty-four hours and virtually all by forty-eight. Failure to do so, with abdominal distension and later bilious vomiting, suggests Hirschsprung disease, in which ganglion cells are absent from a segment of distal bowel so it cannot relax and stool cannot pass. Diagnosis is by rectal biopsy and treatment is surgical. The most feared complication is enterocolitis, presenting with fever, explosive foul stool and a very unwell baby, which can be rapidly fatal. Any newborn who has not passed meconium by forty-eight hours needs review rather than reassurance.\n\nWhy the other options fail:\n• B — Physiological constipation is not a newborn diagnosis. Delayed meconium with distension always requires investigation for an anatomical or neurological cause.\n• A — Cow's milk protein allergy presents over weeks with blood or mucus in stool, vomiting and poor weight gain, not with failure to pass meconium.\n• D — Lactose intolerance causes loose acidic stool and is exceptionally rare in newborns. It does not prevent meconium being passed.\n\nReference: WHO pocket book of hospital care for children; Ghana Standard Treatment Guidelines — paediatric surgery",
   "strategy": "Learn the newborn time limits. No meconium by forty-eight hours is abnormal, and distension makes it urgent.",
   "difficulty": "hard",
   "tags": [
@@ -114255,7 +114255,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Assess ventilation and prepare prescribed ventilatory support"
+   "text": "Give a prescribed sedative to reduce the work of breathing"
   },
   {
    "id": "b",
@@ -114263,15 +114263,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Give a prescribed sedative to reduce the work of breathing"
+   "text": "Assess ventilation and prepare prescribed ventilatory support"
   },
   {
    "id": "d",
    "text": "Lay the patient flat and encourage deep breathing exercises"
   },
  ],
- "correctChoiceId": "a",
- "rationale": "Drowsiness with shallow breathing and a rising PaCO2 indicates hypercapnic respiratory failure; oxygen is titrated to the prescribed target while ventilation is assessed and escalated.\n\nWhy the other options fail:\n• B — Unlimited high-flow oxygen without monitoring can worsen carbon dioxide retention and cause oxygen toxicity in COPD.\n• C — Sedatives depress the respiratory drive and would deepen the hypercapnia and the drowsiness.\n• D — Lying flat impairs diaphragm movement and worsens ventilation in a patient who is already retaining carbon dioxide.",
+ "correctChoiceId": "c",
+ "rationale": "Drowsiness with shallow breathing and a rising PaCO2 indicates hypercapnic respiratory failure; oxygen is titrated to the prescribed target while ventilation is assessed and escalated.\n\nWhy the other options fail:\n• B — Unlimited high-flow oxygen without monitoring can worsen carbon dioxide retention and cause oxygen toxicity in COPD.\n• A — Sedatives depress the respiratory drive and would deepen the hypercapnia and the drowsiness.\n• D — Lying flat impairs diaphragm movement and worsens ventilation in a patient who is already retaining carbon dioxide.",
  "strategy": "In COPD, treat hypoxia while avoiding unmonitored oxygen excess and assess ventilation, not saturation alone.",
  "difficulty": "hard",
  "tags": ["copd", "hypercapnia"],
@@ -116030,19 +116030,19 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Bile flow into the intestine may be obstructed when the gallbladder contracts"
+   "text": "The liver cannot manufacture any bile"
   },
   {
    "id": "c",
-   "text": "The liver cannot manufacture any bile"
+   "text": "Bile flow into the intestine may be obstructed when the gallbladder contracts"
   },
   {
    "id": "d",
    "text": "Fat immediately causes pancreatic infection"
   }
  ],
- "correctChoiceId": "b",
- "rationale": "Gallstones can obstruct bile flow, especially after a fatty meal stimulates gallbladder contraction. Bile is needed for fat emulsification and digestion.\n\nWhy the other options fail:\n• A — Fat is not difficult for everyone to digest; in this patient the problem is bile, not fat itself.\n• C — The liver still manufactures bile in cholelithiasis; the obstruction is in flow, not production.\n• D — Fat does not immediately infect the pancreas; the mechanism is enzyme activation and duct obstruction.",
+ "correctChoiceId": "c",
+ "rationale": "Gallstones can obstruct bile flow, especially after a fatty meal stimulates gallbladder contraction. Bile is needed for fat emulsification and digestion.\n\nWhy the other options fail:\n• A — Fat is not difficult for everyone to digest; in this patient the problem is bile, not fat itself.\n• B — The liver still manufactures bile in cholelithiasis; the obstruction is in flow, not production.\n• D — Fat does not immediately infect the pancreas; the mechanism is enzyme activation and duct obstruction.",
  "strategy": "Relate post-fat meal pain to gallbladder contraction against an obstructed outlet.",
  "difficulty": "hard",
  "tags": [
@@ -116062,7 +116062,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Prothrombin"
+   "text": "Albumin"
   },
   {
    "id": "c",
@@ -116070,11 +116070,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Albumin"
+   "text": "Prothrombin"
   }
  ],
- "correctChoiceId": "b",
- "rationale": "Vitamin K is required for hepatic synthesis of several clotting factors, including prothrombin, helping correct bleeding risk associated with impaired bile flow or malabsorption.\n\nWhy the other options fail:\n• A — Bilirubin is a breakdown product of haem, not something formed with vitamin K.\n• C — Thromboplastin is released from damaged tissue and is not vitamin K dependent.\n• D — Albumin is made by the liver but its synthesis does not depend on vitamin K.",
+ "correctChoiceId": "d",
+ "rationale": "Vitamin K is required for hepatic synthesis of several clotting factors, including prothrombin, helping correct bleeding risk associated with impaired bile flow or malabsorption.\n\nWhy the other options fail:\n• A — Bilirubin is a breakdown product of haem, not something formed with vitamin K.\n• C — Thromboplastin is released from damaged tissue and is not vitamin K dependent.\n• B — Albumin is made by the liver but its synthesis does not depend on vitamin K.",
  "strategy": "Vitamin K supports clotting-factor synthesis, especially prothrombin.",
  "difficulty": "hard",
  "tags": [
@@ -116094,7 +116094,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "The incision and abdominal discomfort can limit diaphragmatic expansion"
+   "text": "The client is expected to develop pneumonia"
   },
   {
    "id": "c",
@@ -116102,11 +116102,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "The client is expected to develop pneumonia"
+   "text": "The incision and abdominal discomfort can limit diaphragmatic expansion"
   }
  ],
- "correctChoiceId": "b",
- "rationale": "Upper abdominal pain and splinting can impair deep breathing and coughing, increasing atelectasis risk because the incision is near the diaphragm.\n\nWhy the other options fail:\n• A — Anaesthesia is not prolonged by cholecystectomy itself; the risk comes from the site of the incision.\n• C — Bile in the blood does not depress respiration; the cause is mechanical and pain related.\n• D — Pneumonia is a complication to prevent, not an expected outcome.",
+ "correctChoiceId": "d",
+ "rationale": "Upper abdominal pain and splinting can impair deep breathing and coughing, increasing atelectasis risk because the incision is near the diaphragm.\n\nWhy the other options fail:\n• A — Anaesthesia is not prolonged by cholecystectomy itself; the risk comes from the site of the incision.\n• C — Bile in the blood does not depress respiration; the cause is mechanical and pain related.\n• B — Pneumonia is a complication to prevent, not an expected outcome.",
  "strategy": "Upper abdominal surgery can restrict ventilation; monitor breathing and encourage prescribed pulmonary care.",
  "difficulty": "hard",
  "tags": [
@@ -116154,7 +116154,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Encourage the client to express concerns"
+   "text": "Tell the client to ignore the anxiety"
   },
   {
    "id": "b",
@@ -116162,15 +116162,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Tell the client to ignore the anxiety"
+   "text": "Encourage the client to express concerns"
   },
   {
    "id": "d",
    "text": "Limit all questions"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Therapeutic communication allows assessment of fears and supports coping; anxiety should be explored while physical causes are assessed.\n\nWhy the other options fail:\n• B — Antibiotics without an indication expose the patient to harm and do nothing for anxiety.\n• C — Telling a distressed patient to ignore anxiety dismisses a real fear.\n• D — Limiting all questions removes the assessment the patient needs.",
+ "correctChoiceId": "c",
+ "rationale": "Therapeutic communication allows assessment of fears and supports coping; anxiety should be explored while physical causes are assessed.\n\nWhy the other options fail:\n• B — Antibiotics without an indication expose the patient to harm and do nothing for anxiety.\n• A — Telling a distressed patient to ignore anxiety dismisses a real fear.\n• D — Limiting all questions removes the assessment the patient needs.",
  "strategy": "For apprehension, begin with presence, assessment and therapeutic communication.",
  "difficulty": "hard",
  "tags": [
@@ -116190,7 +116190,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Urinary incontinence"
+   "text": "Independent ambulation"
   },
   {
    "id": "c",
@@ -116198,11 +116198,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Independent ambulation"
+   "text": "Urinary incontinence"
   }
  ],
- "correctChoiceId": "b",
- "rationale": "Loss of consciousness can impair bladder control and other protective functions; airway, skin and elimination require close assessment.\n\nWhy the other options fail:\n• A — Purposeful responses to command are absent in coma, which is the definition of the state.\n• C — Protective reflexes are commonly lost or impaired in coma, not preserved.\n• D — Independent ambulation is impossible in a comatose patient.",
+ "correctChoiceId": "d",
+ "rationale": "Loss of consciousness can impair bladder control and other protective functions; airway, skin and elimination require close assessment.\n\nWhy the other options fail:\n• A — Purposeful responses to command are absent in coma, which is the definition of the state.\n• C — Protective reflexes are commonly lost or impaired in coma, not preserved.\n• B — Independent ambulation is impossible in a comatose patient.",
  "strategy": "Coma affects protective and continence functions; prioritise ABCs and safety.",
  "difficulty": "hard",
  "tags": [
@@ -116282,7 +116282,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Neuronal and energy metabolism"
+   "text": "Blood pressure elevation"
   },
   {
    "id": "b",
@@ -116290,15 +116290,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Blood pressure elevation"
+   "text": "Neuronal and energy metabolism"
   },
   {
    "id": "d",
    "text": "Bone lengthening"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Thiamine is essential for carbohydrate metabolism and neuronal function; niacin supports energy metabolism and nervous-system health.\n\nWhy the other options fail:\n• B — Bowel elimination is unrelated to thiamine and niacin.\n• C — These vitamins do not raise blood pressure; they support metabolism.\n• D — Bone lengthening is not a function of thiamine or niacin.",
+ "correctChoiceId": "c",
+ "rationale": "Thiamine is essential for carbohydrate metabolism and neuronal function; niacin supports energy metabolism and nervous-system health.\n\nWhy the other options fail:\n• B — Bowel elimination is unrelated to thiamine and niacin.\n• A — These vitamins do not raise blood pressure; they support metabolism.\n• D — Bone lengthening is not a function of thiamine or niacin.",
  "strategy": "Alcohol-related vitamin replacement protects neurological and metabolic function.",
  "difficulty": "hard",
  "tags": [
@@ -116314,7 +116314,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Liver and overall metabolic recovery"
+   "text": "Pancreas by increasing alcohol tolerance"
   },
   {
    "id": "b",
@@ -116322,15 +116322,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Pancreas by increasing alcohol tolerance"
+   "text": "Liver and overall metabolic recovery"
   },
   {
    "id": "d",
    "text": "Skin only"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Chronic alcohol use can cause malnutrition and liver injury. Adequate calories and vitamins support metabolism and recovery while withdrawal is treated.\n\nWhy the other options fail:\n• B — The diet is not aimed at the heart rate alone; it supports broad metabolic recovery.\n• C — Increasing alcohol tolerance is the opposite of the aim, and calories do not treat withdrawal.\n• D — The skin is not the target; the liver and metabolism are.",
+ "correctChoiceId": "c",
+ "rationale": "Chronic alcohol use can cause malnutrition and liver injury. Adequate calories and vitamins support metabolism and recovery while withdrawal is treated.\n\nWhy the other options fail:\n• B — The diet is not aimed at the heart rate alone; it supports broad metabolic recovery.\n• A — Increasing alcohol tolerance is the opposite of the aim, and calories do not treat withdrawal.\n• D — The skin is not the target; the liver and metabolism are.",
  "strategy": "Nutrition in alcohol withdrawal addresses depleted stores and organ recovery, not alcohol tolerance.",
  "difficulty": "hard",
  "tags": [
