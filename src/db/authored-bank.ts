@@ -6691,28 +6691,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-LAB-0194",
   "categorySlug": "risk-reduction",
-  "stem": "How should the nurse instruct a patient to produce a good sputum specimen for tuberculosis testing?",
+  "stem": "A **three-year-old** cannot cough up sputum for tuberculosis testing. Which specimen will the nurse expect to collect?",
   "choices": [
    {
     "id": "a",
-    "text": "Cough deeply from the chest, ideally on rising, into a sterile container"
+    "text": "An early-morning gastric aspirate before the child gets up"
    },
    {
     "id": "b",
-    "text": "Collect saliva from the mouth into the sterile container instead"
+    "text": "Saliva collected while the child is awake and playing happily"
    },
    {
     "id": "c",
-    "text": "Collect the specimen immediately after eating a large meal"
+    "text": "A quick throat swab with a sterile cotton applicator"
    },
    {
     "id": "d",
-    "text": "Rinse the mouth with an antiseptic mouthwash and then spit into the pot provided"
+    "text": "A sample of vomit collected after the child's breakfast"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Cough deeply from the chest, ideally on rising, into a sterile container\". A diagnostic specimen must be <strong>sputum from the lower airway, not saliva</strong>. An early morning specimen contains secretions pooled overnight and has the highest yield. The patient is asked to rinse with plain water, breathe deeply and cough from the chest, ideally in a well-ventilated area or outdoors to protect others.\n\nWhy the other options fail:\n• B — Saliva is the commonest reason specimens are rejected, since it does not come from the infected lung tissue.\n• C — A large meal makes coughing uncomfortable and risks vomiting. It does not improve yield.\n• D — Antiseptic mouthwash may inhibit the organism and interfere with the result. Plain water is used.\n\nReference: Ghana National Tuberculosis Programme",
-  "strategy": "Ask where the pathology is and make sure the specimen comes from there. For tuberculosis that means deep chest sputum, collected early, in a way that protects others from aerosol.",
+  "rationale": "CORRECT (A) — \"An early-morning gastric aspirate before the child gets up\". Young children swallow what they cough up and cannot produce a sputum specimen, so the swallowed secretions are collected from the stomach. The aspirate is taken early in the morning before the child sits up, eats or takes any medicine, because overnight the swallowed bacilli have collected there and the stomach is still full of them. It is repeated on three consecutive mornings and the specimen is sent to the laboratory at once, since gastric acid destroys the organisms with time. Saliva and throat swabs contain no lower-airway secretions and will not find tuberculosis in the lungs, and vomit after a meal is diluted and contaminated by food.",
+  "strategy": "Ask where a small child's coughed-up sputum actually ends up.",
   "difficulty": "medium",
   "tags": [
    "risk-reduction",
@@ -15090,28 +15090,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-APR-0440",
   "categorySlug": "fundamentals",
-  "stem": "A patient is asked to produce sputum for tuberculosis testing at a Ghanaian clinic. Which instruction gives the **best** specimen?",
+  "stem": "A sputum specimen for tuberculosis is collected at a rural clinic and must travel to the laboratory. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "Take a deep breath and cough deeply from the chest, ideally on waking"
+    "text": "Refrigerate it if delayed, and send it sealed that day"
    },
    {
     "id": "b",
-    "text": "Collect saliva from the mouth immediately after rinsing with clean water"
+    "text": "Keep it on the ward bench until the next clinic day comes"
    },
    {
     "id": "c",
-    "text": "Provide the specimen after the evening meal when secretions are loosest"
+    "text": "Freeze it overnight so nothing inside the specimen is lost"
    },
    {
     "id": "d",
-    "text": "Spit into the container several times during the day until it is full"
+    "text": "Add formalin to the pot so that it cannot leak in transit"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Take a deep breath and cough deeply from the chest, ideally on waking\". A diagnostic specimen must be <strong>sputum from the lower respiratory tract, not saliva</strong>, and an early morning sample is richest because secretions pool overnight. The patient rinses with plain water first to reduce oral contamination, then takes several deep breaths and coughs deeply. Collection should be <strong>outdoors or in a well-ventilated area away from others</strong>, since coughing generates infectious aerosol, and the specimen goes to the laboratory promptly.\n\nWhy the other options fail:\n• B — Saliva is the commonest reason a specimen is rejected. It cannot demonstrate organisms residing in the lung.\n• C — Food residue contaminates the specimen, and secretions are most abundant on waking rather than after eating.\n• D — Pooling small amounts through the day contaminates the sample and delays processing, reducing yield.\n\nReference: Ghana nursing curriculum — respiratory procedures; specimen collection",
-  "strategy": "For any specimen, ask where the organism actually lives and whether the method reaches it. A sample from the wrong site cannot give a right answer.",
+  "rationale": "CORRECT (A) — \"Refrigerate it if delayed, and send it sealed that day\". A sputum specimen is put in a clean, leak-proof container, sealed inside a second bag, and sent to the laboratory on the day it is collected. If a delay cannot be avoided it is kept in the refrigerator at about two to eight degrees, never in the freezer and never on a warm bench, because heat lets other organisms overgrow the specimen and the acid in it begins to digest the bacilli. Sputum is not cerebrospinal fluid: cerebrospinal fluid must go to the laboratory at once and is never refrigerated, whereas sputum survives a short refrigerated delay. Formalin is a fixative, not a preservative here: it kills the organisms and makes culture impossible even when the smear can still be read, and freezing damages the cells the laboratory needs.",
+  "strategy": "Handle a specimen the way the laboratory needs to receive it.",
   "difficulty": "medium",
   "tags": [
    "fundamentals",
@@ -85854,28 +85854,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2503",
   "categorySlug": "safety-infection-control",
-  "stem": "A sputum specimen for tuberculosis testing is collected at a Ghanaian health centre. Which specimen will give a valid result?",
+  "stem": "An adult with a **dry cough** cannot produce any sputum. Which method will obtain a specimen?",
   "choices": [
    {
     "id": "a",
-    "text": "Saliva collected from the mouth after a meal"
+    "text": "Take a nasal swab instead, since the disease is in the lungs"
    },
    {
     "id": "b",
-    "text": "A throat swab taken with a sterile cotton applicator"
+    "text": "Ask him to spit repeatedly until the pot is half full"
    },
    {
     "id": "c",
-    "text": "Any specimen provided it reaches the laboratory quickly"
+    "text": "Send him home and try again another morning without help"
    },
    {
     "id": "d",
-    "text": "An early morning deep cough specimen from the lungs"
+    "text": "Nebulise hypertonic saline, then ask for a deep cough"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"An early morning deep cough specimen from the lungs\". Mycobacteria are found in material coughed up from the lower respiratory tract, not in saliva, and secretions accumulate overnight, so an early morning specimen produced by a deep cough after rinsing the mouth with water gives the highest yield. Saliva is the commonest reason a specimen is rejected or gives a falsely negative result, and a negative result on an inadequate specimen is worse than no result because it wrongly reassures. Patients must be coached on how to produce a specimen, in a well-ventilated area or outdoors. The principle is that the quality of the specimen sets the ceiling on the quality of the result.\n\nWhy the other options fail:\n• A — Saliva contains oral flora rather than lower respiratory secretions and is routinely rejected.\n• B — A throat swab samples the upper airway and does not reach the site where mycobacteria are found.\n• C — Speed of transport matters, but it cannot compensate for a specimen taken from the wrong place.\n\nReference: Ghana National Tuberculosis Programme — sputum collection",
-  "strategy": "For any specimen, ask whether it comes from the site of infection. Transport, timing and labelling all matter, but sampling the wrong site invalidates everything downstream.",
+  "rationale": "CORRECT (D) — \"Nebulise hypertonic saline, then ask for a deep cough\". Sputum induction is used when a patient cannot cough up a specimen: sterile hypertonic saline, usually three per cent, is nebulised for about ten to fifteen minutes, which draws fluid into the airways and provokes a deep productive cough. The specimen is then collected in the usual way and sent to the laboratory. Induction generates aerosols, so it is done in a well-ventilated room with airborne precautions and staff wearing the right protection. A nasal swab does not sample the lower airway, repeated spitting produces saliva, and sending the patient away simply delays a diagnosis that the clinic can obtain in one visit.",
+  "strategy": "When the patient cannot produce the specimen, make the airway produce it.",
   "difficulty": "medium",
   "tags": [
    "safety-infection-control",
