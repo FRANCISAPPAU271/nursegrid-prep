@@ -64607,28 +64607,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PNC-1888",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman's last menstrual period began on 12 March 2025 and her cycle is regular. What is her expected date of delivery?",
+  "stem": "A woman has lost three pregnancies between 16 and 20 weeks, each after her cervix opened without pain or bleeding. What does this history most suggest?",
   "choices": [
    {
     "id": "a",
-    "text": "19 December 2025"
+    "text": "That every future birth she has will have to be by caesarean section"
    },
    {
     "id": "b",
-    "text": "5 December 2025"
+    "text": "That each of the babies died from an infection rising from the vagina"
    },
    {
     "id": "c",
-    "text": "17 December 2025"
+    "text": "That her cervix opens early and may need a stitch next time"
    },
    {
     "id": "d",
-    "text": "3 January 2026"
+    "text": "That she should be delivered early in the next pregnancy as well"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"17 December 2025\". Naegele's rule adds nine months and seven days to the first day of the last period: 12 March plus nine months is 12 December, plus seven days is <strong>17 December 2025</strong>. Sense-check: <strong>the date must fall roughly forty weeks — about 280 days — after the period began, so a December date is right and a January one is too late</strong>. The rule assumes a regular 28-day cycle, which is why the cycle must be asked about.\n\nWhy the other options fail:\n• A — 19 December adds nine days rather than seven.\n• B — 5 December subtracts a week instead of adding one.\n• D — January would place the pregnancy well beyond forty weeks.\n\nReference: Ghana STG — antenatal care",
-  "strategy": "Nine months forward, seven days on. Then check it lands about forty weeks later.",
+  "rationale": "CORRECT (C) — \"That her cervix opens early and may need a stitch in the next pregnancy\". Loss in the middle of pregnancy, after a cervix that opens <strong>without pain and without bleeding</strong>, points to cervical insufficiency rather than to the baby or to infection. The cervix is mechanically weak and gives way once the pregnancy is heavy enough to press on it. The treatment is a cervical stitch (cerclage), usually placed at 12 to 14 weeks and removed at about 37 weeks or sooner if labour begins.\n\nWhy the other options fail:\n• A — The way the cervix behaves does not decide the mode of delivery, and a normal vaginal birth is still possible.\n• B — Infection can end a pregnancy late, but it brings pain, discharge and fever; a painless, bloodless opening is the cervix, not an ascending infection.\n• D — Delivering early again would repeat the loss rather than prevent it.\n\nReference: Ghana STG — antenatal care; RCOG — cervical insufficiency",
+  "strategy": "Painless opening in mid-pregnancy, three times over, is the cervix. Move the stitch, not the delivery date.",
   "difficulty": "hard",
   "tags": [
    "maternal-newborn",
@@ -64952,28 +64952,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PNC-1898",
   "categorySlug": "maternal-newborn",
-  "stem": "Why must a digital vaginal examination be avoided in a woman bleeding at 34 weeks until the placental site is known?",
+  "stem": "A breastfed baby weighs 8% less on day three than at birth. The mother is alarmed. What should the nurse explain?",
   "choices": [
    {
     "id": "a",
-    "text": "The examination would introduce infection into the uterus"
+    "text": "That the baby must be started on formula at once because the milk is not enough"
    },
    {
     "id": "b",
-    "text": "Bleeding makes the findings of the examination unreliable"
+    "text": "That this means her breast milk supply has already failed completely"
    },
    {
     "id": "c",
-    "text": "The examining finger can tear a low-lying placenta and cause torrential loss"
+    "text": "That this is normal and the weight is regained within about two weeks"
    },
    {
     "id": "d",
-    "text": "It would stimulate contractions and start premature labour"
+    "text": "That the baby should be weighed only once a week from now on instead"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"The examining finger can tear a low-lying placenta and cause torrential loss\". If the placenta lies over or near the cervix, <strong>a finger passed through it separates placental tissue directly and can produce catastrophic haemorrhage within minutes</strong>. The rule is therefore absolute until an ultrasound has located the placenta. Infection and contractions are real concerns in other settings, but here <strong>the reason for the prohibition is a single, immediate and often fatal event</strong>.\n\nWhy the other options fail:\n• A — Infection is a general risk, not the reason for this specific rule.\n• B — Unreliable findings would not justify an absolute prohibition.\n• D — Provoking labour is not the catastrophic risk being avoided.\n\nReference: Ghana STG — antepartum haemorrhage",
-  "strategy": "No finger inside until the placenta has been located. There is no exception.",
+  "rationale": "CORRECT (C) — \"That this is normal and the weight is regained within about two weeks\". A breastfed newborn commonly loses up to about <strong>7 to 10% of birth weight in the first three to five days</strong>, from meconium, urine and the small volumes of colostrum taken before the milk comes in. The weight is back to birth weight by about <strong>day 10 to 14</strong>. What is not normal is a loss beyond 10%, no regain by two weeks, or a baby who is drowsy with few wet nappies and dark urine — that is a feeding problem needing assessment. The answer is help with attachment and frequency, not a bottle.\n\nWhy the other options fail:\n• A — A normal weight loss does not mean the milk is insufficient, and formula reduces the stimulation that builds the supply.\n• B — 8% by day three is the expected pattern, not a supply failure.\n• D — Weighing once a week misses the baby who is not regaining, so early checks are needed.\n\nReference: WHO/UNICEF — breastfeeding counselling; Ghana STG — newborn care",
+  "strategy": "Up to 10% in the first days is physiology. Back to birth weight by two weeks is the test.",
   "difficulty": "hard",
   "tags": [
    "maternal-newborn",
@@ -64986,28 +64986,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PNC-1899",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman at 36 weeks has constant abdominal pain and a hard tender uterus but little visible bleeding. What should the nurse suspect?",
+  "stem": "A woman with a known heart valve problem is now 34 weeks pregnant and says she is more breathless than before. Why must this be taken seriously?",
   "choices": [
    {
     "id": "a",
-    "text": "Early labour with contractions that are becoming stronger"
+    "text": "Because breathlessness at 34 weeks is always caused by anaemia alone"
    },
    {
     "id": "b",
-    "text": "Blood collecting behind the placenta without escaping outside"
+    "text": "Because the extra blood volume strains an already damaged heart"
    },
    {
     "id": "c",
-    "text": "A urinary tract infection causing lower abdominal pain"
+    "text": "Because the baby is pressing on her diaphragm and nothing can be done"
    },
    {
     "id": "d",
-    "text": "Braxton Hicks tightenings that are unusually uncomfortable"
+    "text": "Because she will certainly need a caesarean under general anaesthesia"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Blood collecting behind the placenta without escaping outside\". In abruption the placenta separates and <strong>blood collects behind it, so the uterus becomes woody-hard and constantly painful while very little appears at the vulva</strong> — the visible loss badly underestimates the true one. The mother can be in shock with a nearly dry pad. Labour contractions <strong>come and go, with the uterus relaxing between them; an abrupted uterus never relaxes</strong>.\n\nWhy the other options fail:\n• A — Labour pain is intermittent and the uterus relaxes between contractions.\n• C — Urinary infection does not make the uterus hard and tender.\n• D — Braxton Hicks tightenings are painless and intermittent.\n\nReference: Ghana STG — antepartum haemorrhage",
-  "strategy": "Continuous pain with a uterus that never relaxes. Judge the loss by her pulse.",
+  "rationale": "CORRECT (B) — \"Because the extra blood volume strains an already damaged heart\". Pregnancy raises plasma volume by nearly half and cardiac output by a third, and labour adds a further surge of venous return with every contraction. <strong>A valve that was coping may fail under that load</strong>, producing pulmonary oedema. Breathlessness that is worsening, orthopnoea, a cough with pink froth or basal crackles all need urgent assessment and senior obstetric and cardiac review — cardiac disease is a leading indirect cause of maternal death.\n\nWhy the other options fail:\n• A — Anaemia is common and must be checked, but it does not explain away new breathlessness in a woman with a valve lesion.\n• C — The enlarged uterus does splint the diaphragm, but that is a mild discomfort, not a sign of decompensation.\n• D — The mode of delivery is decided case by case by the obstetric and cardiac team.\n\nReference: Ghana STG — cardiac disease in pregnancy; RCOG — cardiac disease",
+  "strategy": "A damaged valve plus a 40% larger circulating volume is the equation for heart failure.",
   "difficulty": "hard",
   "tags": [
    "maternal-newborn",
@@ -65054,28 +65054,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PNC-1901",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman at 32 weeks reports a sudden gush of clear fluid. Which action should the nurse take?",
+  "stem": "A mother returning to market work each day expresses breast milk for her baby. Which practice is safe?",
   "choices": [
    {
     "id": "a",
-    "text": "Observe for fever, offensive discharge and foetal tachycardia"
+    "text": "She keeps it covered in the coolest place and uses it within a few hours"
    },
    {
     "id": "b",
-    "text": "Perform repeated digital examinations to assess cervical change"
+    "text": "She leaves it at room temperature all day for her husband to use that evening"
    },
    {
     "id": "c",
-    "text": "Encourage her to walk about so that labour becomes established"
+    "text": "She keeps yesterday's milk and adds today's to the same unwashed container"
    },
    {
     "id": "d",
-    "text": "Reassure her that leaking fluid at this stage is not significant"
+    "text": "She puts the unused portion back in the cold after the baby has been fed"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Observe for fever, offensive discharge and foetal tachycardia\". Once the membranes have gone, <strong>the barrier protecting the uterus is gone with them, and infection is the danger that determines whether the pregnancy can safely continue</strong>. Maternal temperature and pulse, the smell of the liquor and the foetal heart rate are what detect it. <strong>Every digital examination pushes organisms upwards, so they are kept to an absolute minimum</strong>, and mobilising to encourage labour is the opposite of the aim at 32 weeks.\n\nWhy the other options fail:\n• B — Repeated digital examinations introduce infection into the uterus.\n• C — Establishing labour at 32 weeks is not the aim.\n• D — Ruptured membranes preterm are always significant.\n\nReference: Ghana STG — preterm prelabour rupture of membranes",
-  "strategy": "Membranes gone means barrier gone. Watch temperature, smell and foetal heart.",
+  "rationale": "CORRECT (A) — \"She keeps it covered in the coolest place and uses it within a few hours\". Freshly expressed milk is safe for a few hours at room temperature in a cool place, for up to four days in a refrigerator at 4 °C, and for up to three months in a freezer at −18 °C. It is stored in <strong>small separate portions in clean containers marked with the date</strong>, and the oldest is used first.\n\nWhy the other options fail:\n• B — Milk left out warm all day grows bacteria and is not safe by the evening.\n• C — Adding fresh milk to yesterday's leftovers in an unwashed container contaminates the whole batch.\n• D — Milk that has been at the baby's mouth, or thawed and then partly used, must be thrown away rather than chilled again.\n\nReference: WHO — safe storage of expressed breast milk; Ghana STG — infant feeding",
+  "strategy": "Clean, covered, dated, small portions — and nothing that has been out all day or already used.",
   "difficulty": "hard",
   "tags": [
    "maternal-newborn",
@@ -65258,28 +65258,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PNC-1907",
   "categorySlug": "maternal-newborn",
-  "stem": "A foetal heart rate of 90 beats per minute persists for two minutes after a contraction ends. What should the nurse do?",
+  "stem": "A woman in labour has thick, dark green liquor draining. What does this most suggest?",
   "choices": [
    {
     "id": "a",
-    "text": "Record the finding and listen again after the next three contractions"
+    "text": "That the baby has passed its first stool because it is overdue"
    },
    {
     "id": "b",
-    "text": "Encourage her to push harder so that the baby is born quickly"
+    "text": "That the membranes have been ruptured for too long already"
    },
    {
     "id": "c",
-    "text": "Turn the woman onto her left side, give oxygen and call for help"
+    "text": "That the baby may be short of oxygen and needs close monitoring"
    },
    {
     "id": "d",
-    "text": "Sit her upright so that the uterus presses less on her diaphragm"
+    "text": "That an infection in the uterus is producing the discoloured fluid"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Turn the woman onto her left side, give oxygen and call for help\". A heart rate that stays low <strong>after</strong> the contraction has finished means the baby is not recovering between contractions — a sign of failing oxygen supply. Left lateral position <strong>lifts the uterus off the large vein returning blood to the heart, immediately improving placental flow</strong>, and oxygen and urgent review follow. Delay is the harm: <strong>waiting three more contractions is three more episodes of hypoxia</strong>, and pushing increases them.\n\nWhy the other options fail:\n• A — Waiting exposes the baby to further episodes of hypoxia.\n• B — Pushing increases the frequency of contractions and worsens hypoxia.\n• D — Sitting upright does not relieve compression of the vena cava.\n\nReference: Ghana STG — intrapartum care",
-  "strategy": "Left side first. It is free, instant, and improves placental blood flow.",
+  "rationale": "CORRECT (C) — \"That the baby may be short of oxygen and needs close monitoring\". Meconium is passed when a fetus is <strong>hypoxic and its anal sphincter relaxes</strong>. Thin meconium in a post-term baby is common, but thick, dark green liquor — and especially meconium with an abnormal foetal heart pattern — means the baby is compromised. The midwife listens to the foetal heart more frequently, calls for obstetric review, and has resuscitation equipment ready at the birth. A baby who is not vigorous at birth has the airway cleared by suction under direct vision.\n\nWhy the other options fail:\n• A — Post-term meconium is thin and pale, not thick and dark; the grading matters.\n• B — Length of time since rupture is a risk for infection, not for the colour of the liquor.\n• D — Infection gives maternal fever, a tender uterus and offensive discharge, not green liquor on its own.\n\nReference: WHO — intrapartum care; Ghana STG — labour",
+  "strategy": "Thick green liquor means the fetus is starved of oxygen until the heart trace says otherwise.",
   "difficulty": "hard",
   "tags": [
    "maternal-newborn",
@@ -65464,28 +65464,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PNC-1913",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman is bleeding steadily after delivery but her uterus is firm and well contracted. What is the likeliest source?",
+  "stem": "A woman keeps bleeding after delivery because her uterus will not contract. What does a condom catheter filled with water and placed inside the uterus achieve?",
   "choices": [
    {
     "id": "a",
-    "text": "Failure of the uterine muscle to contract"
+    "text": "It delivers a clotting drug directly into the wall of the uterus"
    },
    {
     "id": "b",
-    "text": "A fragment of placenta remaining inside"
+    "text": "It measures how much blood the uterus has already lost"
    },
    {
     "id": "c",
-    "text": "A disorder preventing her blood from clotting"
+    "text": "It keeps the cervix open so that any clots can drain freely away"
    },
    {
     "id": "d",
-    "text": "A tear of the cervix, vagina or perineum"
+    "text": "It presses on the inside of the uterus and stops the bleeding"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"A tear of the cervix, vagina or perineum\". A firm uterus has already done what a uterotonic would make it do, so <strong>the bleeding must be coming from somewhere the uterine muscle cannot close — a laceration</strong>. The error is reflexive: giving more oxytocin to a uterus that is already hard while a cervical tear continues to bleed. Retained tissue and clotting failure both remain possible, but <strong>each usually leaves the uterus soft or bleeding from other sites too</strong>.\n\nWhy the other options fail:\n• A — A firm uterus rules out atony as the cause.\n• B — Retained tissue usually prevents the uterus contracting fully.\n• C — Clotting failure typically shows bleeding from cannula sites too.\n\nReference: Ghana STG — postpartum haemorrhage",
-  "strategy": "Firm uterus, still bleeding? Stop reaching for oxytocin and look for a tear.",
+  "rationale": "CORRECT (D) — \"It presses on the inside of the uterus and stops the bleeding\". A condom tied over a catheter and filled with 250 to 500 mL of sterile water becomes a <strong>balloon that presses the placental site from within</strong>, and the pressure slows the bleeding from the vessels the atony has left open. It is a temporising measure for haemorrhage that has not responded to uterotonics: blood is cross-matched, and surgery is arranged while the balloon buys time.\n\nWhy the other options fail:\n• A — The balloon is filled with plain sterile water; it carries no drug.\n• B — Blood loss is estimated by weighing swabs and pads and by the clinical signs, not by the balloon.\n• C — If the cervix is left open the balloon falls out and the pressure that is doing the work is lost.\n\nReference: WHO — management of postpartum haemorrhage; Ghana STG — PPH",
+  "strategy": "The balloon works by pressure, not by drugs. It buys time, and it must stay inside.",
   "difficulty": "hard",
   "tags": [
    "maternal-newborn",
@@ -65600,28 +65600,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PNC-1917",
   "categorySlug": "maternal-newborn",
-  "stem": "The placenta has not delivered 40 minutes after birth and there is no heavy bleeding. What should the nurse do?",
+  "stem": "Which set of signs shows that the placenta has separated and is ready to be delivered?",
   "choices": [
    {
     "id": "a",
-    "text": "Pull steadily on the cord until the placenta is released"
+    "text": "The cord shortens, the uterus sinks and all bleeding stops at once"
    },
    {
     "id": "b",
-    "text": "Ensure the bladder is empty and prepare for medical review"
+    "text": "The cord lengthens, a gush of blood appears and the uterus rises up"
    },
    {
     "id": "c",
-    "text": "Ask the woman to push repeatedly until it is expelled"
+    "text": "The woman bears down and the fundus drops towards the symphysis"
    },
    {
     "id": "d",
-    "text": "Massage the fundus vigorously until it separates"
+    "text": "The pulse slows, the blood pressure rises and the cord stops pulsating"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Ensure the bladder is empty and prepare for medical review\". With no heavy bleeding there is a little time, and the safe steps are <strong>emptying the bladder, ensuring intravenous access, and arranging review for manual removal</strong>. Every distractor risks a catastrophe: <strong>sustained cord traction on an unseparated placenta can invert the uterus, an event that causes profound shock</strong>, while maternal effort and vigorous massage achieve nothing against a placenta still attached.\n\nWhy the other options fail:\n• A — Traction on an unseparated placenta can invert the uterus.\n• C — Pushing cannot expel a placenta that has not separated.\n• D — Vigorous massage may cause partial separation and heavy bleeding.\n\nReference: Ghana STG — retained placenta",
-  "strategy": "No separation means no traction. Empty the bladder and call for review.",
+  "rationale": "CORRECT (B) — \"The cord lengthens, a gush of blood appears and the uterus rises up\". These are the three signs of separation: the cord lengthens as the placenta descends, <strong>a small gush of blood</strong> escapes as it peels away, and the uterus becomes globular and rises in the abdomen. Only once they are present is controlled cord traction with counter-pressure on the uterus safe to attempt.\n\nWhy the other options fail:\n• A — The cord lengthens rather than shortens, and the uterus rises rather than sinks.\n• C — The fundus rises out of the pelvis as the placenta moves down; bearing down before separation risks cord avulsion and uterine inversion.\n• D — Pulse and blood pressure changes are signs of volume loss, not of placental separation.\n\nReference: WHO — active management of the third stage; Ghana STG — labour",
+  "strategy": "Cord longer, a gush of blood, uterus up and globular. Then — and only then — pull.",
   "difficulty": "hard",
   "tags": [
    "maternal-newborn",
@@ -65770,28 +65770,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PNC-1922",
   "categorySlug": "maternal-newborn",
-  "stem": "A baby is born limp and is not breathing after being dried and rubbed. What should be done **first**?",
+  "stem": "A baby who needed prolonged resuscitation at birth is now having fits at 12 hours of age. What does this suggest?",
   "choices": [
    {
     "id": "a",
-    "text": "Suction the mouth and nose thoroughly"
+    "text": "A low blood sugar that will settle once the baby has been fed"
    },
    {
     "id": "b",
-    "text": "Begin bag and mask ventilation"
+    "text": "Brain injury from lack of oxygen around the time of birth"
    },
    {
     "id": "c",
-    "text": "Start chest compressions immediately"
+    "text": "An infection that the baby acquired from the mother during delivery"
    },
    {
     "id": "d",
-    "text": "Wait to assign the one-minute Apgar score"
+    "text": "A normal startle response in a newborn that needs no investigation"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Begin bag and mask ventilation\". Newborn collapse is almost always <strong>a breathing problem, and the heart usually recovers as soon as the lungs are inflated</strong> — so ventilation within the first minute is the intervention that saves the baby. Suction is only for secretions that actually block, chest compressions are needed in under one per cent of births and are useless without ventilation, and <strong>the Apgar score describes the baby, it does not decide the treatment</strong>.\n\nWhy the other options fail:\n• A — Routine suction delays ventilation and can slow the heart rate.\n• C — Compressions without ventilation circulate blood that carries no oxygen.\n• D — Waiting for a score wastes the minute that matters most.\n\nReference: WHO Helping Babies Breathe; Ghana STG",
-  "strategy": "In the newborn, air is the resuscitation. Everything else is rare.",
+  "rationale": "CORRECT (B) — \"Brain injury from lack of oxygen around the time of birth\". Seizures starting in the first day after a difficult birth, in a baby with abnormal tone and a poor suck, are the picture of <strong>hypoxic ischaemic encephalopathy</strong>. Care is supportive and urgent: keep oxygen and perfusion adequate, check and correct glucose and calcium, control the temperature without overheating, treat the seizures, and arrange cooling where a unit offers it, because therapeutic hypothermia helps only if started within about six hours.\n\nWhy the other options fail:\n• A — Hypoglycaemia is checked and corrected in every fitting newborn, but it does not explain fits after a documented resuscitation.\n• C — Sepsis can cause seizures, but usually later and with fever, poor feeding and jaundice; it is treated while HIE is assessed, not instead of it.\n• D — A startle is a response to handling; a fit is not.\n\nReference: WHO — neonatal care; Ghana STG — sick newborn",
+  "strategy": "Fits in the first day after a difficult birth are hypoxic injury until proved otherwise.",
   "difficulty": "hard",
   "tags": [
    "maternal-newborn",
