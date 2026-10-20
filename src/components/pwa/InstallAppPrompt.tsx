@@ -83,7 +83,7 @@ export default function InstallAppPrompt() {
   if (!visible) return null;
 
   return (
-    <div className="animate-fade-in fixed inset-x-4 bottom-4 z-50 mx-auto max-w-sm rounded-2xl border border-slate-200 bg-white p-4 shadow-2xl sm:right-4 sm:left-auto">
+    <div className="animate-fade-in fixed inset-x-4 bottom-[calc(4.75rem+env(safe-area-inset-bottom))] z-50 mx-auto max-w-sm rounded-2xl border border-slate-200 bg-white p-4 shadow-2xl md:bottom-4 md:right-4 md:left-auto">
       <div className="flex items-start gap-3">
         <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-emerald-600 text-lg text-white">🩺</span>
         <div className="min-w-0 flex-1">

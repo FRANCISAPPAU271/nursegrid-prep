@@ -20,7 +20,7 @@ export default function HelpChat() {
   const [selected, setSelected] = useState<Topic | null>(null);
 
   return (
-    <div className="fixed bottom-5 right-5 z-[60] sm:bottom-6 sm:right-6">
+    <div className="fixed right-4 z-30 bottom-[calc(4.75rem+env(safe-area-inset-bottom))] md:bottom-6 md:right-6 md:z-[60]">
       {open && (
         <div className="mb-3 w-[min(20rem,calc(100vw-2rem))] max-w-[calc(100vw-2rem)] overflow-hidden rounded-2xl border border-emerald-200 bg-white shadow-2xl sm:w-80">
           <div className="bg-emerald-700 px-4 py-3 text-white">
