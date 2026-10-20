@@ -6,22 +6,22 @@ const q = (spec: Parameters<typeof ncx>[1]): AuthoredQuestion => ncx("NCX", spec
 export const NCX7_PART_F: AuthoredQuestion[] = [
   q({
     n: 851, cat: "med-surg",
-    stem: "To determine **correct NG-tube placement for suction**, which test is **best**?",
+    stem: "An enteral feeding tube stops draining and the feed will not run. What should the nurse try first?",
     choices: [
-      "Aspirate gastric contents and test pH",
-      "Inject air and auscultate",
-      "Place the end in water and watch for bubbles",
-      "Measure the length of the exposed tube",
+      "Flush gently with warm water and a syringe",
+      "Instil cold water and clamp the tube for an hour",
+      "Pass a stiff guide wire down the tube to clear it",
+      "Raise the suction pressure to pull the block out",
     ],
     correct: "a",
-    explain: "<strong>Acidic aspirate proves gastric dwelling</strong> — pH testing of aspirated contents verifies placement reliably, while air-whooshes mislead, bubble-watching endangers lungs, and length-measuring guesses. pH proves; whooshes lie.",
+    explain: "CORRECT (C) — \"Flush gently with warm water and a syringe\". A blocked tube is first cleared with a gentle warm water flush, using a piston syringe in a push-pull motion and letting the water soften the feed or the crushed tablet that is plugging it; this clears most blocks without damaging the tube. Cold water softens feed poorly and clamping for an hour leaves the patient unfed. A guide wire can perforate the tube or the gut and is never passed by a nurse. Raising suction does not clear tube feedings, and strong suction pulls mucosa into the ports and makes the block worse.",
     others: {
-      b: "Air-whooshes mislead dangerously.",
-      c: "Bubble-watching drowns misplaced lungs.",
-      d: "Length-measuring guesses placement.",
+      b: "Cold water softens feed poorly and an hour of clamping delays feeding.",
+      c: "A guide wire can perforate the tube or the gut and is not a nursing action.",
+      d: "Suction pulls mucosa into the ports and worsens the block.",
     },
-    ref: "Ghana — NG tubes; pH verification",
-    strategy: "Decision tree: NG tubes pH-proven — aspirate tested, whooshes abandoned.",
+    ref: "Ghana STG — enteral feeding; blocked tube",
+    strategy: "A blocked tube is cleared with warm water and patience, never with a wire or more suction.",
     tags: ["NG-tube", "placement", "pH", "verification"],
   }),
   q({
