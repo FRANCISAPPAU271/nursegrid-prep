@@ -82,8 +82,9 @@
 --   question-fixes-batch72.sql   19  NG-NUT read in full; nineteen duplicates rewritten
 --   question-fixes-batch73.sql   6   ORIGINAL-NCX duplicates; one duplicate of mine undone
 --   question-fixes-batch74.sql   4   ORIGINAL-NCX 0601-1124: four more faults
+--   question-fixes-batch75.sql   2   ORIGINAL-NCX: nappy rash and perineal repair
 --
--- Total: 2564 UPDATE statements.
+-- Total: 2566 UPDATE statements.
 -- Run the verification block at the end to confirm the repair landed.
 -- ============================================================================
 
@@ -21011,18 +21012,18 @@ Reference: Ghana STG — postoperative monitoring; vital signs$q$,
 WHERE authored_id = $q$NG-ORIGINAL-NCX-0941$q$;
 
 UPDATE questions SET
-  stem = $q$Three days after delivery a woman is awake all night, says her baby is the devil, and refuses to feed him. Which action is most important?$q$,
-  choices = $q$[{"id": "a", "text": "Keep her and the baby safe and get urgent review"}, {"id": "b", "text": "Give a sedative and arrange a clinic review next week"}, {"id": "c", "text": "Encourage her to sleep and reassess her in the morning"}, {"id": "d", "text": "Reassure the family that this is the normal baby blues"}]$q$::jsonb,
+  stem = $q$A breastfeeding mother has **burning nipple pain** and her baby has **white patches on the tongue and cheeks** that **do not wipe off**. What should the nurse advise?$q$,
+  choices = $q$[{"id": "a", "text": "Treat mother and baby together, because thrush passes both ways"}, {"id": "b", "text": "Stop breastfeeding for a week until the patches have gone completely"}, {"id": "c", "text": "Wipe the white patches off with warm water before each feed"}, {"id": "d", "text": "Treat only the baby's mouth, since the mother has no rash to treat"}]$q$::jsonb,
   correct_choice_id = $q$a$q$,
-  rationale = $q$CORRECT (A) — "Keep her and the baby safe and get urgent review". CORRECT (A) — "Keep her and the baby safe and get urgent review". Sleeplessness, bizarre beliefs about the baby and refusal to feed on the third day are postpartum psychosis, a psychiatric emergency with a real risk of suicide and of harm to the infant. The mother must not be left alone with the baby, and she needs same-day psychiatric assessment and admission, ideally with her baby where a mother-and-baby unit exists. Calling it baby blues is dangerous: blues are mild, settle by day ten and never include delusions. A sedative and an appointment next week, or waiting until morning, leaves both at risk for another night.
+  rationale = $q$CORRECT (A) — "Treat mother and baby together, because thrush passes both ways". White patches that stay on the mucosa when wiped are oral candida, and the burning nipple pain is the same yeast on the breast; each feeds the other, so both are treated at the same time. The baby's mouth and the mother's nipples receive a topical antifungal such as nystatin or miconazole, feeding continues, and teats, dummies and any expressed milk equipment are sterilised. Treating the baby alone leaves the maternal reservoir and the infection returns at the next feed. Stopping breastfeeding is unnecessary and risks engorgement and a falling supply, and the patches cannot be wiped away because they are attached to the mucosa, not milk curd.
 
 Why the other options fail:
-• B — A sedative and a next-week appointment leave both at risk tonight.
-• C — Waiting until morning leaves mother and baby unwatched.
-• D — Blues are mild, settle by day ten and never include delusions.
+• B — Stopping breastfeeding risks engorgement and a falling supply.
+• C — The patches are attached to the mucosa, not curd, and cannot be wiped off.
+• D — The baby's mouth alone leaves the maternal reservoir, so it returns.
 
-Reference: Ghana STG — puerperal psychosis; mental health$q$,
-  strategy = $q$Delusions about the baby on day three are psychosis, not blues: safety first, same-day psychiatric review.$q$
+Reference: Ghana — postnatal care; maternal and infant candidiasis$q$,
+  strategy = $q$Look for the pair of sites the same organism is using.$q$
 WHERE authored_id = $q$NG-ORIGINAL-NCX-0976$q$;
 
 UPDATE questions SET
@@ -21041,6 +21042,54 @@ Reference: Ghana STG — child development milestones$q$,
 WHERE authored_id = $q$NG-ORIGINAL-NCX-1104$q$;
 
 -- Verify: expect 4
+COMMIT;
+
+-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>  question-fixes-batch75.sql  <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+-- Batch 75: ORIGINAL-NCX third pass: three more faults.
+--
+-- Batch 75 — three more ORIGINAL-NCX faults.
+--   0847  thrombophlebitis, the same question as 0486; and "elevate the
+--         leg on two pillows" was also a right answer beside the keyed
+--         "notify the physician" -> nappy rash with candida (key b)
+--   0862  the same presentation a third time, and its "why the others
+--         fail" bullets named the wrong options -> perineal repair
+--         advice (key d)
+--   0976  the postpartum-psychosis rewrite of yesterday turned out to
+--         repeat NG-MOD-MH-016 and NG-MHN-0821 -> nipple and infant
+--         thrush, treated together (key a)
+BEGIN;
+
+UPDATE questions SET
+  stem = $q$A mother brings a **nine-month-old** with a **bright red rash in the nappy area**, worst in the skin folds, with **small spots spreading past its edges**. What advice is **most appropriate**?$q$,
+  choices = $q$[{"id": "a", "text": "Apply a strong steroid cream twice daily for at least the next two weeks"}, {"id": "b", "text": "Change the nappy often, keep the skin dry and ask for an antifungal cream"}, {"id": "c", "text": "Stop using nappies altogether until the rash has completely cleared away"}, {"id": "d", "text": "Wipe the area with surgical spirit after every change to keep it germ free"}]$q$::jsonb,
+  correct_choice_id = $q$b$q$,
+  rationale = $q$CORRECT (B) — "Change the nappy often, keep the skin dry and ask for an antifungal cream". A rash that is worst in the folds with satellite spots spreading beyond its edge is candida added to ordinary nappy dermatitis, and the two are treated together. The routine is frequent nappy changes, gentle washing and patting dry, a barrier cream on the whole area, and an antifungal such as clotrimazole or nystatin on the affected skin. Nappies are not abandoned: the skin still needs protecting and the rash still needs treating, so going without nappies leaves the dermatitis untreated. A strong steroid thins a baby's skin and feeds a fungal rash, and surgical spirit stings raw skin without touching the yeast.
+
+Why the other options fail:
+• A — A strong steroid thins the skin and makes a fungal rash worse.
+• C — Going without nappies is impractical and leaves the candida untreated.
+• D — Surgical spirit stings broken skin and does not treat the yeast.
+
+Reference: Ghana — IMCI sick child; nappy dermatitis with candida$q$,
+  strategy = $q$Ask what the distribution of the rash means before choosing the cream.$q$
+WHERE authored_id = $q$NG-ORIGINAL-NCX-0847$q$;
+
+UPDATE questions SET
+  stem = $q$A woman goes home **two days after a second-degree perineal repair**. Which advice about the stitches is **correct**?$q$,
+  choices = $q$[{"id": "a", "text": "Sit in a very hot bath for an hour every evening to ease the pain"}, {"id": "b", "text": "Clean the stitches with diluted Dettol after every visit to the toilet"}, {"id": "c", "text": "Avoid washing the area until the stitches have dissolved by themselves"}, {"id": "d", "text": "Wash front to back, keep the stitches clean, and expect some soreness"}]$q$::jsonb,
+  correct_choice_id = $q$d$q$,
+  rationale = $q$CORRECT (D) — "Wash front to back, keep the stitches clean, and expect some soreness". A perineal repair is kept clean with plain warm water, washed front to back after passing urine or stool, and patted dry; pads are changed often and hands are washed before and after. Soreness, bruising and a pulling sensation are expected for the first week, and the woman is told to report pain that worsens, offensive discharge, fever or stitches that gape. Diluted Dettol and similar antiseptics irritate healing tissue and are not needed for ordinary cleanliness. Not washing allows lochia and stool to sit on the repair and invites infection, and very hot baths increase swelling and bleeding in the first days.
+
+Why the other options fail:
+• A — Very hot baths increase swelling and bleeding in the first days.
+• B — Antiseptics such as Dettol irritate healing tissue and are unnecessary.
+• C — Lochia and stool left on the repair invite infection; it must be washed.
+
+Reference: Ghana — postnatal care; perineal repair advice$q$,
+  strategy = $q$Judge advice by whether it keeps the repair clean without injuring it.$q$
+WHERE authored_id = $q$NG-ORIGINAL-NCX-0862$q$;
+
+-- Verify: expect 2
 COMMIT;
 
 -- ============================================================================
