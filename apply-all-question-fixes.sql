@@ -83,8 +83,9 @@
 --   question-fixes-batch73.sql   6   ORIGINAL-NCX duplicates; one duplicate of mine undone
 --   question-fixes-batch74.sql   4   ORIGINAL-NCX 0601-1124: four more faults
 --   question-fixes-batch75.sql   2   ORIGINAL-NCX: nappy rash and perineal repair
+--   question-fixes-batch76.sql   3   ORIGINAL-NCX: three ambiguous items made single-answer
 --
--- Total: 2566 UPDATE statements.
+-- Total: 2569 UPDATE statements.
 -- Run the verification block at the end to confirm the repair landed.
 -- ============================================================================
 
@@ -21090,6 +21091,70 @@ Reference: Ghana — postnatal care; perineal repair advice$q$,
 WHERE authored_id = $q$NG-ORIGINAL-NCX-0862$q$;
 
 -- Verify: expect 2
+COMMIT;
+
+-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>  question-fixes-batch76.sql  <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+-- Batch 76: ORIGINAL-NCX: three ambiguous items made single-answer.
+--
+-- Batch 76 — three ambiguous ORIGINAL-NCX items.
+--   0908  protective isolation: gown, gloves and mask are all done there,
+--         so three options were defensible -> distractors are now actions
+--         that are simply wrong (key b, handwashing)
+--   0971  falls: "remove the throw rugs" was as good as the keyed
+--         footwear -> the stem now plants loose slippers, so the shoes
+--         are the one change that removes the hazard (key c)
+--   0999  "which fluid is best for dehydration" taught plain water for a
+--         dehydrated client, which contradicts ORS for diarrhoeal loss
+--         -> the stem is now an adult with fever, where water is right,
+--         and the rationale says when ORS is the correct fluid (key c)
+BEGIN;
+
+UPDATE questions SET
+  stem = $q$A patient with **no immune defences of his own** is in **protective (reverse) isolation**. Which measure is **required** of everyone who enters?$q$,
+  choices = $q$[{"id": "a", "text": "Wearing gloves for the whole shift without changing them"}, {"id": "b", "text": "Thorough handwashing before any contact with him"}, {"id": "c", "text": "Keeping the door closed so that the room stays warm"}, {"id": "d", "text": "Admitting visitors freely so that his spirits stay high"}]$q$::jsonb,
+  correct_choice_id = $q$b$q$,
+  rationale = $q$CORRECT (B) — "Thorough handwashing before any contact with him". Hands carry the organisms a patient with no defences cannot resist, so washing before any contact is the measure that must happen every time, with gown, gloves and mask added when the task calls for them. Visitors are limited and screened rather than admitted freely, and a closed door belongs to airborne precautions, not to protective isolation. Gloves worn for a whole shift become a second skin that carries organisms from one patient and one surface to the next, and they never replace handwashing.
+
+Why the other options fail:
+• A — Gloves worn all shift carry organisms instead of blocking them.
+• C — A closed door belongs to airborne precautions, not reverse isolation.
+• D — Visitors are screened and limited in protective isolation, not free.
+
+Reference: Ghana Health Service — protective isolation; hand hygiene$q$,
+  strategy = $q$Ask which measure must happen every time, not which barriers exist.$q$
+WHERE authored_id = $q$NG-ORIGINAL-NCX-0908$q$;
+
+UPDATE questions SET
+  stem = $q$An older woman who has fallen twice at home walks about indoors in **loose slippers**. Which single change is **most likely** to prevent another fall?$q$,
+  choices = $q$[{"id": "a", "text": "Buying her a walking stick to use when outdoors"}, {"id": "b", "text": "Telling her to stay indoors after dark every evening"}, {"id": "c", "text": "Fitting her with firm shoes with nonskid soles"}, {"id": "d", "text": "Asking her to hold on to the wall as she walks"}]$q$::jsonb,
+  correct_choice_id = $q$c$q$,
+  rationale = $q$CORRECT (C) — "Fitting her with firm shoes with nonskid soles". The cue is the footwear: a loose slipper slides on the foot and on smooth floors, so a shoe that stays on and grips the floor removes the hazard that is actually present. Holding the wall depends on a wall being within reach and does not stop her foot sliding inside the slipper. A stick used only outdoors leaves every indoor walk unprotected. Keeping her indoors after dark restricts her life without touching the slippery footwear, and it adds the harms of inactivity and isolation.
+
+Why the other options fail:
+• A — A stick used outdoors leaves the indoor walking unprotected.
+• B — Staying in after dark restricts her without removing the hazard.
+• D — Wall-holding does not stop the foot sliding inside a loose slipper.
+
+Reference: Gerontological nursing — falls; footwear$q$,
+  strategy = $q$Find the hazard the stem has planted, then choose the change that removes it.$q$
+WHERE authored_id = $q$NG-ORIGINAL-NCX-0971$q$;
+
+UPDATE questions SET
+  stem = $q$A **feverish adult** who can drink is **dehydrated** and asks what he should drink between meals. Which is **best**?$q$,
+  choices = $q$[{"id": "a", "text": "Cola"}, {"id": "b", "text": "Broth"}, {"id": "c", "text": "Water"}, {"id": "d", "text": "Tea"}]$q$::jsonb,
+  correct_choice_id = $q$c$q$,
+  rationale = $q$CORRECT (C) — "Water". For ordinary fluid lost with fever, plain water is the best of these four: it restores volume without adding salt, sugar or caffeine. Broth carries a heavy salt load that is not wanted in simple fever dehydration, tea and cola both contain caffeine, which encourages further urine loss, and cola adds sugar on top. Diarrhoeal dehydration is a different case, where oral rehydration solution with its measured sodium and glucose is the correct fluid and plain water alone is not enough.
+
+Why the other options fail:
+• A — Cola adds sugar and caffeine on top of the fluid.
+• B — Broth adds a salt load that simple fever dehydration does not need.
+• D — Tea contains caffeine, which increases urine loss.
+
+Reference: Fundamentals of nursing — oral fluids; fever$q$,
+  strategy = $q$Ask which fluid replaces water without adding salt, sugar or a diuretic.$q$
+WHERE authored_id = $q$NG-ORIGINAL-NCX-0999$q$;
+
+-- Verify: expect 3
 COMMIT;
 
 -- ============================================================================
