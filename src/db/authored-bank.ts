@@ -4889,23 +4889,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Leave the burn exposed to allow a hard crust to form"
+    "text": "Leave the burn exposed to the air so that a hard crust can form"
    },
    {
     "id": "b",
-    "text": "Apply a tight compression bandage over the burn"
+    "text": "Apply a tight compression bandage firmly over the burn"
    },
    {
     "id": "c",
-    "text": "Use a non-adherent dressing that maintains a moist environment and protects from infection"
+    "text": "A non-adherent dressing keeping the wound moist and protected"
    },
    {
     "id": "d",
-    "text": "Apply dry gauze directly to the burn surface"
+    "text": "Apply dry gauze directly to the burn surface and leave it"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Use a non-adherent dressing that maintains a moist environment and protects from infection\". Partial-thickness burns heal best under a <strong>non-adherent dressing maintaining a moist environment</strong>, which reduces pain, protects the exposed nerve endings and provides a barrier against infection. Burns are highly susceptible to infection because the skin barrier is destroyed.\n\nWhy the other options fail:\n• A — Exposure allows drying, deepens the injury and offers no protection against contamination.\n• B — Tight compression over a burn that will swell impairs circulation and can cause further tissue damage.\n• D — Dry gauze adheres to the raw surface and causes severe pain and tissue loss at the next dressing change.\n\nReference: Ghana STG — burns management",
+  "rationale": "CORRECT (C) — \"A non-adherent dressing keeping the wound moist and protected\". Partial-thickness burns heal best under a <strong>non-adherent dressing maintaining a moist environment</strong>, which reduces pain, protects the exposed nerve endings and provides a barrier against infection. Burns are highly susceptible to infection because the skin barrier is destroyed.\n\nWhy the other options fail:\n• A — Exposure allows drying, deepens the injury and offers no protection against contamination.\n• B — Tight compression over a burn that will swell impairs circulation and can cause further tissue damage.\n• D — Dry gauze adheres to the raw surface and causes severe pain and tissue loss at the next dressing change.\n\nReference: Ghana STG — burns management",
   "strategy": "Burns follow the same principles as other wounds with two additions: they swell, so nothing constrictive, and they are highly infection-prone, so a protective barrier matters. Non-adherent is essential because these wounds are exquisitely painful.",
   "difficulty": "medium",
   "tags": [
@@ -6525,23 +6525,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Wound looks a good deal better today than it did at the last dressing change"
+    "text": "The wound looks better today than at the previous dressing change"
    },
    {
     "id": "b",
-    "text": "Dressing changed as per the instruction given by the medical team this morning"
+    "text": "Dressing changed as instructed by the medical team this morning"
    },
    {
     "id": "c",
-    "text": "Sacral wound 4 cm by 3 cm, depth 0.5 cm, 70 percent granulation and 30 percent slough, moderate serous exudate, surrounding skin intact"
+    "text": "Sacral wound 4 by 3 cm, 0.5 cm deep, 70 percent granulation"
    },
    {
     "id": "d",
-    "text": "Wound satisfactory on inspection and the patient reports being comfortable"
+    "text": "Wound satisfactory on inspection and the patient is comfortable"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Sacral wound 4 cm by 3 cm, depth 0.5 cm, 70 percent granulation and 30 percent slough, moderate serous exudate, surrounding skin intact\". Useful documentation is <strong>objective and measurable</strong>, allowing any nurse to determine whether the wound has improved. Recording site, dimensions, depth, tissue type by proportion, exudate, peri-wound skin and odour creates a baseline against which change can be judged and dressing decisions justified.\n\nWhy the other options fail:\n• A — “Better” is subjective and unverifiable. Another nurse cannot judge progress against it.\n• B — This records an action rather than an assessment and says nothing about the wound.\n• D — “Satisfactory” is an opinion with no measurable content.\n\nReference: NMC Ghana Code — record keeping; wound assessment",
+  "rationale": "CORRECT (C) — \"Sacral wound 4 by 3 cm, 0.5 cm deep, 70 percent granulation\". Useful documentation is <strong>objective and measurable</strong>, allowing any nurse to determine whether the wound has improved. Recording site, dimensions, depth, tissue type by proportion, exudate, peri-wound skin and odour creates a baseline against which change can be judged and dressing decisions justified.\n\nWhy the other options fail:\n• A — “Better” is subjective and unverifiable. Another nurse cannot judge progress against it.\n• B — This records an action rather than an assessment and says nothing about the wound.\n• D — “Satisfactory” is an opinion with no measurable content.\n\nReference: NMC Ghana Code — record keeping; wound assessment",
   "strategy": "Wound notes should let a colleague picture the wound without seeing it. Measure it, describe the tissue by proportion, and note exudate and surrounding skin.",
   "difficulty": "medium",
   "tags": [
@@ -52664,28 +52664,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PER-1538",
   "categorySlug": "med-surg",
-  "stem": "Why is a patient fasted before a general anaesthetic?",
+  "stem": "Why is an antiemetic often given before an operation rather than after the patient starts to vomit?",
   "choices": [
    {
     "id": "a",
-    "text": "To allow the anaesthetic drugs to be absorbed more rapidly"
+    "text": "It reduces the dose of anaesthetic drug needed to keep the patient asleep"
    },
    {
     "id": "b",
-    "text": "To prevent nausea and vomiting during the recovery period"
+    "text": "It stops the patient retching while the airway is being secured"
    },
    {
     "id": "c",
-    "text": "To reduce the risk of stomach contents entering the lungs"
+    "text": "Preventing the vomiting reflex is easier than stopping it once started"
    },
    {
     "id": "d",
-    "text": "To ensure the bowel is empty before the surgeon operates"
+    "text": "It dries the airway secretions before the anaesthetic is given"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"To reduce the risk of stomach contents entering the lungs\". Anaesthesia abolishes the reflexes that normally keep the airway closed to regurgitated material, so a full stomach can empty into the lungs, causing a severe chemical pneumonitis. Fasting is <strong>purely about that one risk</strong>. Understanding this prevents the common errors in both directions: <strong>fasting for far longer than required does not add safety, but leaves the patient dehydrated, hypoglycaemic and miserable</strong>.\n\nWhy the other options fail:\n• B — Postoperative nausea is managed with antiemetics, not by prolonged fasting.\n• A — Fasting has no effect on the absorption of anaesthetic agents.\n• D — Emptying the bowel requires specific preparation, not simple fasting.\n\nReference: Ghana STG; WHO surgical safety",
-  "strategy": "Know why a rule exists and you will know when longer is not safer.",
+  "rationale": "CORRECT (C) — \"Preventing the vomiting reflex is easier than stopping it once started\". Post-operative nausea and vomiting is driven by several triggers at once — the anaesthetic agents themselves, opioid analgesia, handling of the gut and motion — and <strong>once the reflex is established, a single antiemetic often fails to break it</strong>. Prophylaxis given before induction keeps the trigger below the threshold at which vomiting begins. It also matters most where aspiration is dangerous: a patient with a full stomach, a recent meal or an emergency operation.\n\nWhy the other options fail:\n• A — Antiemetics do not reduce the anaesthetic requirement in any clinically useful way.\n• B — Preventing retching on induction is a by-product, not the reason prophylaxis is timed this way.\n• D — Drying secretions is the job of an antimuscarinic drug, not an antiemetic.\n\nReference: Ghana STG — perioperative care; Ghana nursing curriculum",
+  "strategy": "Block the reflex before it starts. An antiemetic given after vomiting is a race it often loses.",
   "difficulty": "medium",
   "tags": [
    "med-surg",
@@ -52732,28 +52732,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PER-1540",
   "categorySlug": "med-surg",
-  "stem": "A patient becomes hypotensive shortly after spinal anaesthesia. What is the mechanism?",
+  "stem": "Why are a patient's dentures removed before a general anaesthetic?",
   "choices": [
    {
     "id": "a",
-    "text": "Blocked sympathetic nerves dilate vessels below the block"
+    "text": "Loose teeth or a plate can obstruct the airway or be inhaled"
    },
    {
     "id": "b",
-    "text": "The anaesthetic drug directly weakens the cardiac muscle"
+    "text": "Dentures interfere with the monitors attached during anaesthesia"
    },
    {
     "id": "c",
-    "text": "Blood has been lost into the site of the spinal injection"
+    "text": "The anaesthetic gas damages the material the dentures are made of"
    },
    {
     "id": "d",
-    "text": "The patient has developed an allergy to the local agent"
+    "text": "Patients are not allowed to wear them inside the operating theatre"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Blocked sympathetic nerves dilate vessels below the block\". A spinal blocks sympathetic fibres as well as sensory and motor ones, so <strong>the vessels below the level of the block dilate and the effective circulating volume is redistributed</strong>. The pressure falls even though no blood has been lost. This is why fluid loading, careful positioning and vasopressors are used, and why <strong>a hypotension of this cause responds to filling and posture rather than to stopping the anaesthetic</strong>.\n\nWhy the other options fail:\n• B — Direct myocardial depression is not the mechanism of spinal hypotension.\n• C — Significant bleeding at the injection site is rare and would present differently.\n• D — Allergy to local anaesthetic is very uncommon and causes other features.\n\nReference: Ghana STG — anaesthesia",
-  "strategy": "A block that removes sympathetic tone drops the pressure without losing any blood.",
+  "rationale": "CORRECT (A) — \"Loose teeth or a plate can obstruct the airway or be inhaled\". Induction and intubation involve instruments passing through the mouth and pharynx while the patient cannot protect her own airway, and <strong>a denture or a loose tooth can be dislodged into the pharynx or the trachea</strong>. A full set is removed and kept safe and labelled; a partial plate or a loose tooth is identified before induction so the anaesthetist knows the risk.\n\nWhy the other options fail:\n• B — Monitoring is unaffected by dentures; the airway is the issue.\n• C — Anaesthetic gases do not damage denture material.\n• D — There is no theatre dress rule about dentures; the reason is airway safety.\n\nReference: Ghana nursing curriculum — anaesthesia safety; WHO surgical care guidance",
+  "strategy": "Anything loose in the mouth can end up in the airway. Take it out and label it.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -53242,28 +53242,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PER-1556",
   "categorySlug": "med-surg",
-  "stem": "What must be available at the bedside of a patient with a new tracheostomy?",
+  "stem": "A patient will be in the lithotomy position for a two-hour operation. What must the nurse do to prevent injury?",
   "choices": [
    {
     "id": "a",
-    "text": "A supply of sterile water for cleaning the inner tube"
+    "text": "Place both legs straight out on the table without any support"
    },
    {
     "id": "b",
-    "text": "A chart recording the daily volume of secretions removed"
+    "text": "Raise the legs as high as possible to give the surgeon access"
    },
    {
     "id": "c",
-    "text": "A written explanation of the procedure for the relatives"
+    "text": "Leave the legs unsupported so that the patient can reposition them"
    },
    {
     "id": "d",
-    "text": "Spare tubes of the same and a smaller size with suction"
+    "text": "Support the legs in stirrups and avoid pressure behind the knee"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Spare tubes of the same and a smaller size with suction\". If the tube blocks or displaces, the airway must be restored <strong>within seconds, using equipment already in the room</strong>. The standard set is a same-size tube, a smaller one in case the stoma has narrowed, tracheal dilators, working suction and a bag-valve mask. Cleaning supplies, records and information are all part of good care, but <strong>none of them will re-establish an airway at two in the morning</strong>.\n\nWhy the other options fail:\n• A — Cleaning fluid is needed for routine care but not for an airway emergency.\n• B — Documentation of secretions does not restore a blocked airway.\n• C — Family information is important but is not emergency equipment.\n\nReference: Ghana STG; tracheostomy care standards",
-  "strategy": "For any artificial airway, ask what you would need in the first sixty seconds if it failed.",
+  "rationale": "CORRECT (D) — \"Support the legs in stirrups and avoid pressure behind the knee\". In lithotomy the legs are lifted into stirrups and the hips flexed, which <strong>stretches the sciatic and femoral nerves and puts pressure on the tissues behind the knee</strong>, where the common peroneal nerve and the popliteal vessels lie. Both legs are raised and lowered together, the buttocks must not overhang the table, and the knees and calves are supported in padded stirrups rather than hung over a bar.\n\nWhy the other options fail:\n• A — Unsupported legs drop into hip extension and drag on the nerves.\n• B — Extreme hip flexion is exactly what stretches the sciatic nerve.\n• C — A sedated or anaesthetised patient cannot reposition herself; the nurse must.\n\nReference: Ghana nursing curriculum — theatre positioning; WHO surgical care guidance",
+  "strategy": "Legs up together, knees padded, nothing pressing behind the knee.",
   "difficulty": "medium",
   "tags": [
    "med-surg",
@@ -53312,28 +53312,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PER-1558",
   "categorySlug": "med-surg",
-  "stem": "Why does a patient with a tracheostomy require humidified air?",
+  "stem": "Why must a patient show that she can move her legs before leaving the recovery area after spinal anaesthesia?",
   "choices": [
    {
     "id": "a",
-    "text": "Humidity reduces the risk of infection entering through the stoma"
+    "text": "Movement proves that the spinal drug has been absorbed by the body"
    },
    {
     "id": "b",
-    "text": "Dry air causes the tracheostomy tube to become uncomfortable"
+    "text": "The surgeon requires it before writing the operation in the notes"
    },
    {
     "id": "c",
-    "text": "Humidification makes it easier for the patient to speak clearly"
+    "text": "Moving the legs prevents a clot forming in the deep veins of the calf"
    },
    {
     "id": "d",
-    "text": "The tube bypasses the nose, which normally warms and moistens air"
+    "text": "Until it wears off she cannot protect her airway or move herself"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"The tube bypasses the nose, which normally warms and moistens air\". The nose and upper airway warm, filter and saturate every breath. A tracheostomy <strong>delivers cold dry air straight to the trachea</strong>, so secretions thicken, cilia stop working, crusts form and the tube can occlude completely. Humidification therefore prevents a fatal blockage rather than merely improving comfort — which is exactly why <strong>it must not be the first thing omitted when the ward is busy</strong>.\n\nWhy the other options fail:\n• A — Humidity does not filter organisms; asepsis and technique do that.\n• B — Comfort is a secondary benefit, not the reason for the intervention.\n• C — Speech depends on airflow past the cords, not on humidity.\n\nReference: Ghana STG; tracheostomy care standards",
-  "strategy": "Ask what the bypassed anatomy was doing. Replacing that function is the nursing care.",
+  "rationale": "CORRECT (D) — \"Until it wears off she cannot protect her airway or move herself\". A spinal block takes out sensation, power and sympathetic tone below its level, and <strong>the same block that anaesthetised the operation also paralyses the muscles that cough, shift position and call for help</strong>. Returning leg movement is the practical test that the block is wearing off and that the patient can protect herself on an open ward. Blood pressure must also be stable, since sympathetic tone returns with the motor fibres.\n\nWhy the other options fail:\n• A — Drug absorption is not what the movement demonstrates; the block is wearing off.\n• B — Recovery criteria are clinical, not a signature the surgeon supplies.\n• C — Leg movement helps circulation, but clot prevention is not why she must wait.\n\nReference: Ghana nursing curriculum — recovery and anaesthesia; Ghana STG",
+  "strategy": "Movement returned means the block is going. Until then the ward cannot keep her safe alone.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -53448,28 +53448,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PER-1562",
   "categorySlug": "med-surg",
-  "stem": "What is the correct immediate management of a nosebleed in an adult?",
+  "stem": "A tourniquet is inflated on a patient's arm for hand surgery. What is the main danger of leaving it inflated too long?",
   "choices": [
    {
     "id": "a",
-    "text": "Tilt the head backwards and pinch the bony bridge of the nose"
+    "text": "The patient's blood pressure rises as the limb is compressed"
    },
    {
     "id": "b",
-    "text": "Lie flat with a cold compress applied over the forehead"
+    "text": "The bone underneath the cuff may fracture under the pressure"
    },
    {
     "id": "c",
-    "text": "Pack both nostrils tightly with cotton wool and observe"
+    "text": "The anaesthetic wears off before the tourniquet is released"
    },
    {
     "id": "d",
-    "text": "Lean forward and pinch the soft part of the nose firmly"
+    "text": "Nerve and muscle damage from the limb being starved of blood"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Lean forward and pinch the soft part of the nose firmly\". Most bleeds arise from a vessel plexus on the anterior septum, which <strong>can be compressed directly by pinching the soft cartilage, not the bony bridge</strong>. Leaning forward keeps blood out of the pharynx, so it is neither swallowed nor aspirated and the volume can actually be judged. Tilting back is the traditional advice and is <strong>wrong on both counts — it hides the loss and causes vomiting</strong>.\n\nWhy the other options fail:\n• A — Pressing the bone compresses nothing, and tilting back sends blood backwards.\n• B — Lying flat encourages aspiration and does not compress the bleeding point.\n• C — Untrained tight packing can cause further trauma and conceal ongoing loss.\n\nReference: Ghana STG — ENT emergencies",
-  "strategy": "Compress where the vessel actually is, and keep the blood where you can see it.",
+  "rationale": "CORRECT (D) — \"Nerve and muscle damage from the limb being starved of blood\". A tourniquet works by <strong>stopping all blood flow to the limb</strong>, which is why the field is dry and why the clock matters. Peripheral nerves are the most sensitive tissue to ischaemia and begin to suffer within an hour or two; muscle follows. The inflation time is written on the theatre record the moment the cuff goes up, and most units keep it under about ninety minutes to two hours. Released, the limb is reperfused slowly and the patient watched for the transient fall in blood pressure and the tourniquet pain that follows.\n\nWhy the other options fail:\n• A — Pressure rises a little with inflation but is not the danger being timed.\n• B — Fracture under a padded cuff is not a recognised consequence of duration.\n• C — Anaesthesia is managed by the anaesthetist; tourniquet time is not a dosing decision.\n\nReference: Ghana nursing curriculum — theatre practice; WHO surgical care guidance",
+  "strategy": "The dry field costs the limb its blood. Write the time down the moment the cuff goes up.",
   "difficulty": "medium",
   "tags": [
    "med-surg",
@@ -106432,11 +106432,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Refer him for a pre-fasting review so doses and timings can be adjusted, and teach him the signs that require him to break the fast"
+    "text": "Refer him for a pre-fasting review and teach him when to break the fast"
    },
    {
     "id": "b",
-    "text": "Tell him that fasting is forbidden with diabetes and he must not attempt it"
+    "text": "Tell him that fasting is forbidden with diabetes and must not be attempted"
    },
    {
     "id": "c",
@@ -106448,7 +106448,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Refer him for a pre-fasting review so doses and timings can be adjusted, and teach him the signs that require him to break the fast\". Many people with well-controlled type 2 diabetes can fast safely with preparation, and a blanket prohibition simply means the patient fasts anyway without telling anyone, which is far more dangerous. Sulfonylureas carry a real hypoglycaemia risk during a long daylight fast, so doses are commonly reduced and the larger dose moved to the evening meal. The patient needs to know that hypoglycaemia, hyperglycaemia or dehydration require the fast to be broken, that most religious traditions explicitly permit this, and that blood glucose testing does not invalidate the fast. Respectful preparation preserves both safety and the patient's religious practice.\n\nWhy the other options fail:\n• B — An outright prohibition ignores the strength of the patient's religious commitment and usually results in unsupervised fasting. It also overstates the risk for many well-controlled patients.\n• C — Keeping the same doses at the same clock times means a sulfonylurea acting through the longest fasting hours with no food, which is precisely the recipe for daytime hypoglycaemia.\n• D — Stopping all medication for a month risks marked hyperglycaemia, dehydration and hyperosmolar states. The goal is adjustment, not abandonment.\n\nReference: International Diabetes Federation and DAR guidance on diabetes and Ramadan; Ghana Standard Treatment Guidelines",
+  "rationale": "CORRECT (A) — \"Refer him for a pre-fasting review and teach him when to break the fast\". Many people with well-controlled type 2 diabetes can fast safely with preparation, and a blanket prohibition simply means the patient fasts anyway without telling anyone, which is far more dangerous. Sulfonylureas carry a real hypoglycaemia risk during a long daylight fast, so doses are commonly reduced and the larger dose moved to the evening meal. The patient needs to know that hypoglycaemia, hyperglycaemia or dehydration require the fast to be broken, that most religious traditions explicitly permit this, and that blood glucose testing does not invalidate the fast. Respectful preparation preserves both safety and the patient's religious practice.\n\nWhy the other options fail:\n• B — An outright prohibition ignores the strength of the patient's religious commitment and usually results in unsupervised fasting. It also overstates the risk for many well-controlled patients.\n• C — Keeping the same doses at the same clock times means a sulfonylurea acting through the longest fasting hours with no food, which is precisely the recipe for daytime hypoglycaemia.\n• D — Stopping all medication for a month risks marked hyperglycaemia, dehydration and hyperosmolar states. The goal is adjustment, not abandonment.\n\nReference: International Diabetes Federation and DAR guidance on diabetes and Ramadan; Ghana Standard Treatment Guidelines",
   "strategy": "When a patient's practice conflicts with a regimen, adjust the regimen rather than forbidding the practice. Forbidding it usually means losing sight of what they actually do.",
   "difficulty": "hard",
   "tags": [
@@ -107792,19 +107792,19 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Newborns and older children have identical requirements per kilogram at every age"
+    "text": "Newborns and older children have identical requirements at every age"
    },
    {
     "id": "c",
-    "text": "Newborns lose no fluid through the skin because it is thin and well protected"
+    "text": "Newborns lose no fluid through the skin because it is thin and protected"
    },
    {
     "id": "d",
-    "text": "Newborns have a higher proportion of body water, greater surface area relative to weight and immature kidneys that concentrate urine poorly"
+    "text": "Newborns have more body water and kidneys that concentrate poorly"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Newborns have a higher proportion of body water, greater surface area relative to weight and immature kidneys that concentrate urine poorly\". Three features combine. Total body water forms a much larger fraction of a newborn's weight than an adult's, and a greater share of it sits in the extracellular compartment where it is readily lost. Surface area relative to body mass is far higher, so evaporative losses through the skin are proportionally large, and greater still in a preterm infant or one nursed under a radiant warmer. The immature kidney cannot concentrate urine efficiently, so obligatory water loss continues even when the infant is dry. Requirements per kilogram are therefore high and change rapidly over the first days, which is why neonatal fluid prescriptions are recalculated daily against weight and urine output.\n\nWhy the other options fail:\n• A — Requirements per kilogram are higher in the newborn, not lower. Small size is precisely why surface area relative to mass is large and evaporative losses are proportionally high.\n• B — Requirements change substantially with age and over the first days of life. A single figure applied to every age would badly under or over hydrate most patients.\n• C — Newborn skin is thin and immature, particularly in preterm infants, so transepidermal water loss is high rather than absent. Humidified incubators exist to reduce it.\n\nReference: WHO care of the newborn guidance; Ghana Health Service newborn protocols",
+  "rationale": "CORRECT (D) — \"Newborns have more body water and kidneys that concentrate poorly\". Three features combine. Total body water forms a much larger fraction of a newborn's weight than an adult's, and a greater share of it sits in the extracellular compartment where it is readily lost. Surface area relative to body mass is far higher, so evaporative losses through the skin are proportionally large, and greater still in a preterm infant or one nursed under a radiant warmer. The immature kidney cannot concentrate urine efficiently, so obligatory water loss continues even when the infant is dry. Requirements per kilogram are therefore high and change rapidly over the first days, which is why neonatal fluid prescriptions are recalculated daily against weight and urine output.\n\nWhy the other options fail:\n• A — Requirements per kilogram are higher in the newborn, not lower. Small size is precisely why surface area relative to mass is large and evaporative losses are proportionally high.\n• B — Requirements change substantially with age and over the first days of life. A single figure applied to every age would badly under or over hydrate most patients.\n• C — Newborn skin is thin and immature, particularly in preterm infants, so transepidermal water loss is high rather than absent. Humidified incubators exist to reduce it.\n\nReference: WHO care of the newborn guidance; Ghana Health Service newborn protocols",
   "strategy": "Ask about surface area, body water fraction and kidney maturity. Small immature patients lose proportionally more and conserve less.",
   "difficulty": "medium",
   "tags": [
@@ -118860,19 +118860,19 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "Vitamin K and a prothrombin complex concentrate to reverse the anticoagulant before surgery"
+      "text": "Vitamin K and prothrombin complex concentrate before surgery"
     },
     {
       "id": "b",
-      "text": "Two units of packed red cells to dilute the warfarin"
+      "text": "Two units of packed red cells given to dilute the warfarin"
     },
     {
       "id": "c",
-      "text": "Protamine sulfate to reverse the warfarin"
+      "text": "Protamine sulfate given to reverse the warfarin effect"
     },
     {
       "id": "d",
-      "text": "No action, because the surgery will stop the bleeding"
+      "text": "No action, because the surgery itself will stop any bleeding"
     }
   ],
   "correctChoiceId": "a",

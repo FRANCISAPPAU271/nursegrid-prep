@@ -8,10 +8,10 @@ export const NCX_PART_B: AuthoredQuestion[] = [
     n: 20, cat: "fluid-electrolyte",
     stem: "A woman with 35 % total body surface area burns from a kerosene stove explosion arrives at the emergency department two hours after injury. Two large-bore intravenous cannulas are inserted. The nurse understands that intravenous therapy in the first 24 hours is **primarily** aimed at:",
     choices: [
-      "Replacing the large volume of plasma lost into the burned tissues to prevent hypovolaemic shock",
-      "Providing calories and protein for wound healing",
-      "Delivering intravenous antibiotics to prevent infection",
+      "Replacing plasma lost into burned tissue to prevent shock",
+      "Providing enough calories and protein for the burn to heal",
       "Correcting the hyperkalaemia caused by cell destruction",
+      "Delivering intravenous antibiotics to prevent infection",
     ],
     correct: "a",
     explain: "Major burns cause massive <strong>capillary leak</strong>; plasma pours into the interstitial space for 24–48 hours. Without rapid <strong>crystalloid resuscitation</strong>, calculated from weight and burn area (for example, the Parkland formula) and titrated to a <strong>urine output of 0.5–1 mL/kg/hour</strong>, hypovolaemic shock and acute kidney injury follow.",

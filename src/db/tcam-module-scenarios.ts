@@ -578,22 +578,22 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Respect the family's spiritual beliefs and delay insulin until the prayer sessions and any associated fasting are complete",
+        text: "Respect the family's beliefs and delay insulin until the prayer sessions are over",
       },
       {
         id: "b",
-        text: "Ask the spouse to leave the unit and exclude the family from all further discharge teaching about insulin and monitoring",
+        text: "Ask the spouse to leave and exclude the family from any discharge teaching",
       },
       {
         id: "c",
-        text: "Explain that faith and insulin are incompatible and ask the client to choose one approach or the other before discharge",
+        text: "Explain that faith and insulin are incompatible and ask the client to choose",
       },
       {
         id: "d",
-        text: "Provide empathetic, culturally congruent education on the lifelong necessity of insulin in type 1 diabetes, explore their beliefs without mockery, and negotiate spiritual practices that do not interrupt insulin",
+        text: "Give culturally congruent teaching and negotiate the spiritual practice",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
       "In type 1 diabetes, pancreatic beta-cell destruction causes absolute insulin deficiency; discontinuing insulin is rapidly fatal (DKA). Shaming, insulting, or berating pluralist clients creates deep psychological defensiveness, guilt, and alienation, driving them further away from conventional care. The nurse must validate their desire for spiritual comfort, respectfully explain the pathophysiology of type 1 diabetes (the body requires insulin just like it requires oxygen and water), emphasize that insulin is non-negotiable for life, and negotiate ways their spiritual beliefs and prayers can support their healing while maintaining strict daily insulin adherence. Why the other options fail: delaying insulin in DKA is lethal; excluding the family removes the people who administer care at home; and framing faith and insulin as incompatible forces a choice the client does not have to make.",
     strategy: "Pluralist health coaching: Respect spiritual beliefs, clearly explain non-negotiable biological therapies (like insulin in type 1 diabetes), and bridge cultural values with medical safety.",
