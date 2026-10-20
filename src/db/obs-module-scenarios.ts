@@ -106,16 +106,16 @@ export const OBS_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-OBS-006",
     categorySlug: "maternal-newborn",
-    stem: "A pregnant client tells the midwife that the first day of her last normal menstrual period (LMP) was June 10, 2026. Using Naegele's rule, what is her estimated date of delivery (EDD)?",
+    stem: "A midwife is delivering a woman having her first baby. The head is crowning and the fetal heart has just slowed, so the doctor asks for an episiotomy. What is the correct practice?",
     choices: [
-      { id: "a", text: "February 17, 2027" },
-      { id: "b", text: "March 3, 2027" },
-      { id: "c", text: "April 17, 2027" },
-      { id: "d", text: "March 17, 2027" }
+      { id: "a", text: "Cut in the midline, straight towards the anus, because it heals most easily" },
+      { id: "b", text: "Cut mediolaterally at about 60 degrees, for a clear indication" },
+      { id: "c", text: "Cut routinely for every first delivery, to prevent an uncontrolled tear" },
+      { id: "d", text: "Cut after the head is born, to make room for the shoulders" }
     ],
-    correctChoiceId: "d",
-    rationale: "Naegele's rule calculates the Estimated Date of Delivery (EDD) by: (1) Taking the first day of the Last Menstrual Period (LMP: June 10, 2026), (2) Subtracting 3 calendar months (June minus 3 months = March), (3) Adding 7 days (10 + 7 = 17), and (4) Adjusting the year forward by one year (2026 + 1 = 2027). The resulting EDD is March 17, 2027. Why the other options fail: option b subtracts the three months and adds seven days but then leaves the year unchanged, which places the date ten months early. Option c adds a month as well as the seven days, giving April rather than March. Option a subtracts a further month, which lands in February.",
-    strategy: "Naegele's Rule: LMP - 3 months + 7 days + 1 year. June 10 - 3 months = March 10; March 10 + 7 days = March 17, 2027.",
+    "correctChoiceId": "b",
+    rationale: "CORRECT (B) — \"Cut mediolaterally at about 60 degrees, for a clear indication\". Episiotomy is not routine: it is done for a reason — a fetal heart that has fallen and delivery must be quickened, a shoulder dystocia, an instrumental delivery, a breech, a rigid or scarred perineum, or a tear that is already extending. The cut is mediolateral, starting at the posterior fourchette and directed at about 60 degrees from the midline, which keeps it away from the anal sphincter; local anaesthetic is infiltrated first if there is time, and the cut is timed to crowning when the perineum is thin. A mediolateral cut at the right angle lowers the risk of third and fourth degree tears compared with a midline cut, and the repair is done in layers with the apex identified.\n\nWhy the other options fail:\n• A — A midline cut heals neatly but runs straight into the sphincter, and it is the angle that causes the worst tears.\n• C — Routine episiotomy for every first birth increases blood loss and perineal pain without preventing tears; current practice is restrictive.\n• D — Cutting after the head is out does not help the head and adds a wound the woman did not need.\n\nReference: WHO — intrapartum care; Ghana STG — perineal care\n",
+    strategy: "Episiotomy is for an indication, not a ritual: mediolateral at 60 degrees, cut at crowning.",
     difficulty: "easy",
     tags: ["obstetrics", "naegele-rule", "edd", "gestational-age", "antenatal-care"],
     isFree: true,

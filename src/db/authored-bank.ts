@@ -22539,28 +22539,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PFC-0657",
   "categorySlug": "fundamentals",
-  "stem": "A patient in Ghana wishes to continue a herbal remedy alongside his prescribed medicines. How should the nurse respond?",
+  "stem": "A patient receives the wrong dose of an antibiotic. He is not harmed, but he is angry and asks what happened. What is the nurse's professional duty?",
   "choices": [
    {
     "id": "a",
-    "text": "Ask what he is taking and why, and discuss possible interactions with the team"
+    "text": "Say nothing until the incident review is finished, so as not to alarm the patient"
    },
    {
     "id": "b",
-    "text": "Instruct him to stop the herbal remedy immediately as it is not prescribed"
+    "text": "Explain that the dose was within the normal range, even though it was not, to protect the team"
    },
    {
     "id": "c",
-    "text": "Ignore the herbal remedy since it is a private matter for the patient alone"
+    "text": "Tell him what happened, apologise and explain"
    },
    {
     "id": "d",
-    "text": "Warn him that continuing the remedy will mean his treatment must be stopped"
+    "text": "Leave the whole explanation to the manager, because the nurse cannot discuss an incident"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Ask what he is taking and why, and discuss possible interactions with the team\". Herbal preparations are <strong>pharmacologically active and can interact</strong>, affecting liver metabolism, clotting, blood pressure and glucose. Condemning them simply makes patients conceal their use, which removes the nurse's ability to detect the interaction. <strong>Asking without judgement</strong> keeps the information visible, respects the patient's beliefs, and allows a genuine discussion about which combinations are unsafe and which are harmless.\n\nWhy the other options fail:\n• B — A blunt instruction is usually ignored and drives the practice underground, where it cannot be monitored.\n• C — Ignoring it abandons a real clinical risk. What the patient swallows is squarely the nurse's concern.\n• D — Threatening to withdraw treatment is coercive, unethical and destroys the therapeutic relationship.\n\nReference: Ghana nursing curriculum — culturally competent care",
-  "strategy": "Where beliefs meet safety, choose the option that keeps information flowing. You cannot manage what patients hide.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Tell him what happened, apologise and explain\". Being open with patients when something has gone wrong is a professional duty, not a matter of choice. The patient is told promptly that an error occurred and what is known, given a sincere apology, told what will be done to put it right and to stop it happening again, and records are made. An apology is not an admission of legal liability; withholding the truth is what damages trust and, when discovered, damages the organisation far more. The incident is reported through the local system at the same time.\n\nWhy the other options fail:\n• A — Waiting for a review leaves the patient with unanswered questions and is the opposite of candour.\n• B — Misstating the dose is dishonesty, which destroys the trust the profession depends on.\n• D — The nurse who gave the dose is exactly the person who should begin the conversation, with support from seniors.\n\n\nReference: NMC — duty of candour; Ghana Health Service — incident reporting\n",
+  "strategy": "Say it early, say it plainly, apologise and explain the fix. Silence is the failure.",
   "difficulty": "medium",
   "tags": [
    "fundamentals",
@@ -43118,28 +43118,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BST-1259",
   "categorySlug": "risk-reduction",
-  "stem": "A trial reports a risk ratio of 0.85 with a 95 per cent confidence interval of 0.65 to 1.11. How should this be read?",
+  "stem": "A trial of a new dressing reports that it healed wounds better than the standard dressing, with p = 0.03. What does that number mean?",
   "choices": [
    {
     "id": "a",
-    "text": "The intervention reduces risk by fifteen per cent in every treated patient"
+    "text": "A difference this size would arise by chance 3 times in 100"
    },
    {
     "id": "b",
-    "text": "The result is not statistically significant, since one lies inside the interval"
+    "text": "There is a 3 per cent probability that the new dressing really does work better"
    },
    {
     "id": "c",
-    "text": "The result is significant because the estimate itself is below one"
+    "text": "The new dressing will improve healing in exactly 3 out of every 100 patients treated"
    },
    {
     "id": "d",
-    "text": "The trial has proved that the intervention has no effect whatsoever"
+    "text": "The trial must be discarded, because any p value above 0.01 is unreliable evidence"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"The result is not statistically significant, since one lies inside the interval\". For a <strong>ratio measure the value of no effect is one</strong>, and for a difference it is zero. An interval running from 0.65 to 1.11 includes one, so no benefit remains a plausible explanation and the finding is not statistically significant. Crucially this is <strong>not proof of no effect</strong>: the interval also includes a thirty-five per cent reduction, so the honest conclusion is that the trial was too small to settle the question.\n\nWhy the other options fail:\n• A — The point estimate is an average effect and is not guaranteed in each patient.\n• C — Significance depends on whether the interval excludes one, not on the estimate alone.\n• D — Failing to exclude no effect is not the same as demonstrating no effect.\n\nReference: Ghana nursing curriculum — BCA 201 statistics",
-  "strategy": "Find the no effect value first: zero for differences, one for ratios. Then see if the interval crosses it.",
+  "correctChoiceId": "a",
+  "rationale": "CORRECT (A) — \"A difference this size would arise by chance 3 times in 100\". The p value answers one question only: if there were no real difference between the treatments, how often would a difference at least this big appear through random variation? A value of 0.03 means about three times in a hundred. That is surprising enough for the result to be called statistically significant, but it says nothing about how big the benefit is, whether it will matter to a patient, or how well the study was run. The size of the benefit comes from the effect estimate, and usefulness comes from the confidence interval.\n\nWhy the other options fail:\n• B — The p value is a statement about the data under a null hypothesis, not the probability that a treatment is active.\n• C — That is an absolute risk difference, which needs the numbers healed in each group; p alone cannot give it.\n• D — There is no threshold below which 0.01 is the only trustworthy figure; the value is judged with the design, size and effect.\n\n\nReference: BMJ — statistics at square one; STROBE reporting\n",
+  "strategy": "p = 0.03 means a 3-in-100 fluke if there were no effect. It is not the chance the drug works.",
   "difficulty": "hard",
   "tags": [
    "risk-reduction",
@@ -52970,28 +52970,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PER-1548",
   "categorySlug": "med-surg",
-  "stem": "An older man becomes acutely confused on the second night after surgery. What should be assessed **first**?",
+  "stem": "A man is brought to recovery after a three-hour laparotomy. His core temperature is 35.1 °C and he is shivering. Why does this matter, and what should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "Whether he has any history of psychiatric illness"
+    "text": "It is harmless; a warm blanket is enough and he should be left to shiver it off"
    },
    {
     "id": "b",
-    "text": "Whether his family can stay with him overnight"
+    "text": "It only matters if he later develops a fever, so no action is needed at this stage"
    },
    {
     "id": "c",
-    "text": "Whether sedation would help him settle until morning"
+    "text": "It impairs clotting and strains the heart, so warm him"
    },
    {
     "id": "d",
-    "text": "Oxygenation, pain, bladder, infection and his medicines"
+    "text": "Shivering means he has already rewarmed, so the temperature need not be measured"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Oxygenation, pain, bladder, infection and his medicines\". Acute confusion after surgery is delirium, and it is <strong>a symptom of a physical cause until proven otherwise</strong>: hypoxia, pain, a full bladder, infection, electrolyte disturbance, constipation or a drug. Each is treatable and each is missed if the confusion is attributed to age. Family presence genuinely helps and should be arranged, but <strong>only after the reversible causes have been looked for</strong>, and sedation obscures the picture.\n\nWhy the other options fail:\n• A — Psychiatric history does not explain new confusion after an operation.\n• B — Family presence helps but must not replace the search for a physical cause.\n• C — Sedation masks deterioration and worsens delirium in older patients.\n\nReference: Ghana STG — care of the older surgical patient",
-  "strategy": "Treat new confusion as a physical emergency and work through the reversible causes.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"It impairs clotting and strains the heart, so warm him\". Core temperature falls under anaesthesia because the drugs stop the body's normal heat conservation, the theatre is cool, the skin is exposed and cold fluids are infused. At 35 °C the clotting enzymes work less well, the immune response is depressed, and shivering increases oxygen demand on a heart that may be at risk, which is why passive rewarming alone is too slow. The nurse measures core temperature, applies forced-air warming, gives warmed intravenous fluids and keeps the patient covered; shivering is evidence of heat loss, not evidence that it has been corrected.\n\nWhy the other options fail:\n• A — Leaving him to shiver raises oxygen consumption and helps the temperature fall further; passive cover alone is too slow.\n• B — A fever is a late sign of infection and unrelated to heat loss in theatre.\n• D — Shivering generates a little heat but does not mean the core has recovered; it must be measured directly.\n\n\nReference: NICE — inadvertent perioperative hypothermia; AORN — patient warming\n",
+  "strategy": "35 °C in recovery bleeds, infects and strains the heart. Warm actively and measure, don't watch.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -53174,28 +53174,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PER-1554",
   "categorySlug": "med-surg",
-  "stem": "What must be confirmed before a patient is discharged home after day surgery?",
+  "stem": "A woman recovering from day-case gynaecological surgery is ready to go home. She has mild nausea and has not managed a meal. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "She has eaten a full meal before leaving the department"
+    "text": "Discharge her, because nausea after an anaesthetic is expected and settles at home"
    },
    {
     "id": "b",
-    "text": "She has passed urine at least three times since the operation"
+    "text": "Treat the nausea, and delay discharge until she keeps fluids down"
    },
    {
     "id": "c",
-    "text": "She has been given a follow-up appointment within one week"
+    "text": "Give a strong oral antiemetic and send her home with a supply of tablets to take"
    },
    {
     "id": "d",
-    "text": "A responsible adult will escort her and stay overnight"
+    "text": "Refer her to the emergency department for intravenous fluids and overnight admission"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"A responsible adult will escort her and stay overnight\". Residual anaesthetic impairs judgement, coordination and memory for many hours, so the safety of day surgery depends on <strong>a competent adult being present overnight and knowing what to watch for and whom to call</strong>. Without that escort the discharge is unsafe regardless of how well the patient feels. Eating, a specific number of voids and a fixed follow-up interval are <strong>desirable but procedure-specific rather than universal requirements</strong>.\n\nWhy the other options fail:\n• A — Tolerating fluids is generally enough; a full meal is not required.\n• B — One void is usually sufficient, and requirements vary by procedure.\n• C — Follow-up timing depends on the operation and is not a safety criterion.\n\nReference: Ghana STG; day surgery standards",
-  "strategy": "For day surgery, ask who is with the patient tonight. That answer decides discharge.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"Treat the nausea, and delay discharge until she keeps fluids down\". Day surgery works because the patient can care for herself the same day. Persistent vomiting after anaesthesia defeats that: she cannot take pain relief or fluids by mouth, risks dehydration, and a large proportion of the patients who return with complications are those sent home unwell. The nurse reassesses her against the discharge criteria — pain and nausea controlled, able to take oral fluids and pass urine where required, a responsible adult escort, and instructions understood. For nausea with no red flags, a prescribed antiemetic from an appropriate class and a period of observation usually settle things.\n\nWhy the other options fail:\n• A — Nausea that prevents oral intake is a discharge criterion failure; sending her home risks dehydration and readmission.\n• C — A patient who has just vomited will not keep tablets down, and it leaves the criteria unmet.\n• D — There is no surgical red flag here; referral is for pain out of proportion, bleeding, fever or cardiovascular change, and would overwhelm the department.\n\n\nReference: Ghana STG — day surgery; RCoA — day-case discharge criteria\n",
+  "strategy": "Nausea that blocks oral intake is a failed discharge criterion. Treat, observe, then decide.",
   "difficulty": "medium",
   "tags": [
    "med-surg",
@@ -60396,28 +60396,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHD-1765",
   "categorySlug": "pediatrics",
-  "stem": "A 9 kg child with some dehydration needs 75 mL/kg of ORS over four hours. What volume is this?",
+  "stem": "A three-week-old baby has a moist pink fleshy lump at the umbilicus that oozes a little clear fluid. The skin around it is normal and he is feeding well. What is it, and what should be done?",
   "choices": [
    {
     "id": "a",
-    "text": "450 mL"
+    "text": "An umbilical hernia, which needs a belt and referral for surgery within the week"
    },
    {
     "id": "b",
-    "text": "675 mL"
+    "text": "An umbilical granuloma, treated with silver nitrate"
    },
    {
     "id": "c",
-    "text": "900 mL"
+    "text": "Omphalitis, which needs intravenous antibiotics and admission the same day"
    },
    {
     "id": "d",
-    "text": "375 mL"
+    "text": "A normal healing stump, which needs nothing and will separate when it is ready"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"675 mL\". 75 mL × 9 kg = <strong>675 mL over four hours</strong>, given in small frequent amounts by cup and spoon rather than all at once. Sense-check: the answer must be <strong>less than 750 mL, which is what a 10 kg child would need</strong>, and the volume is a guide — the child is reassessed after four hours and the plan adjusted to her actual state rather than to the arithmetic.\n\nWhy the other options fail:\n• A — 450 mL corresponds to 50 mL/kg, which is a different plan.\n• C — 900 mL corresponds to 100 mL/kg and would over-treat her.\n• D — 375 mL is roughly half the required volume.\n\nReference: Ghana IMCI chart booklet — Plan B",
-  "strategy": "Calculate the volume, then reassess the child. The number is a starting point.",
+  "rationale": "CORRECT (B) — \"An umbilical granuloma, treated with silver nitrate\". When the cord separates, the raw surface sometimes heals with a small overgrowth of granulation tissue instead of drying over. The result is a soft, pink, moist lump at the umbilicus that oozes serous fluid and will not dry, while the surrounding skin stays clean and the baby feeds normally. It is treated by cauterising the tissue with a silver nitrate stick — one or two applications are usually enough — or by tying it off; the parents are taught to keep the area dry. The important thing is to be sure the skin around it is not red and the baby is not unwell, because that would be omphalitis instead.\n\nWhy the other options fail:\n• A — A hernia is a bulge under the skin that gets bigger when the baby cries and can be pushed back; it is not moist tissue.\n• C — Omphalitis means spreading redness, foul discharge, tenderness and a systemically unwell baby — that is an emergency, not this picture.\n• D — A stump that oozes and is fleshy at three weeks, after the cord has already separated, has not healed normally.\n\n\nReference: WHO — newborn care; Ghana STG — neonatal infection\n",
+  "strategy": "Moist pink lump, clean skin, well baby: granuloma, cauterise. Red skin and unwell: omphalitis, emergency.",
   "difficulty": "hard",
   "tags": [
    "pediatrics",
@@ -97239,28 +97239,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2835",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "What advice should a nurse give a patient in Ghana about the insulin vial currently in use at home?",
+  "stem": "A man who has taken metformin for eight years for type 2 diabetes reports numb feet and a tingling in his fingers. His glucose control is reasonable. What should the nurse consider?",
   "choices": [
    {
     "id": "a",
-    "text": "Store it in the freezer compartment so that it lasts considerably longer"
+    "text": "Diabetic neuropathy from high glucose, so the metformin dose should be increased"
    },
    {
     "id": "b",
-    "text": "Inject repeatedly into the same convenient spot to reduce overall discomfort"
+    "text": "The numbness is unrelated to any medicine and needs no investigation at all"
    },
    {
     "id": "c",
-    "text": "Keep it in a cool place out of sunlight and rotate the injection sites used"
+    "text": "Metformin must be stopped permanently, because any neuropathy on it is drug damage"
    },
    {
     "id": "d",
-    "text": "Shake the vial vigorously before every dose to ensure thorough mixing"
+    "text": "Long-term metformin lowers vitamin B12, so check the level"
    }
   ],
-  "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Keep it in a cool place out of sunlight and rotate the injection sites used\". Insulin is a protein and loses potency with heat and sunlight, which is a genuine problem where refrigeration is intermittent, so the vial in use is kept in the coolest available place, such as a clay pot cooler, away from direct sun, while spare stock is refrigerated. Freezing destroys insulin outright. Injection sites are rotated systematically, because repeated injection at one spot causes lipohypertrophy, and insulin absorbed from those thickened areas is erratic, which produces unexplained swings in glucose. Cloudy insulin is rolled gently rather than shaken, since vigorous shaking creates froth and inaccurate dosing. The principle is that potency depends on both storage and site.\n\nWhy the other options fail:\n• A — Freezing destroys insulin permanently and the vial must then be discarded.\n• B — Repeated injection at one site causes lipohypertrophy and unpredictable absorption.\n• D — Vigorous shaking froths the suspension and makes the drawn dose inaccurate.\n\nReference: Standard diabetes self-management education",
-  "strategy": "For any protein medicine, think heat and handling. Both destroy potency without changing the appearance much.",
+  "correctChoiceId": "d",
+  "rationale": "CORRECT (D) — \"Long-term metformin lowers vitamin B12, so check the level\". Metformin reduces the absorption of vitamin B12, and after several years of treatment a proportion of patients develop a deficiency that shows itself as numbness and tingling in the feet and hands, sometimes with a macrocytic anaemia or sore tongue. Glucose control that is reasonable makes diabetic neuropathy less likely as the only explanation, though both can coexist. The nurse checks the B12 level and reports it; if it is low, replacement is given and the metformin can usually continue, with the level rechecked.\n\nWhy the other options fail:\n• A — Neuropathy from high glucose is possible, but the glucose is reasonable and raising the dose would not treat it.\n• B — Loss of sensation has causes that include treatable deficiency, and ignoring it allows progression and falls.\n• C — Metformin is not stopped permanently for a B12 deficiency; the deficiency is corrected and the drug is usually continued.\n\n\nReference: BNF — metformin and vitamin B12; NICE — diabetic foot care\n",
+  "strategy": "Years of metformin → check B12 before labelling numb feet as diabetic neuropathy.",
   "difficulty": "medium",
   "tags": [
    "pharmacology-parenteral",
@@ -97790,28 +97790,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2851",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient in Ghana is prescribed 500 mL of normal saline over 4 hours using a standard giving set that delivers 20 drops per mL. What drop rate should the nurse set?",
+  "stem": "A 26-year-old with type 1 diabetes says he no longer feels shaky or sweaty when his sugar drops, and he has had two severe hypos in a month. What should the nurse explain?",
   "choices": [
    {
     "id": "a",
-    "text": "21 drops per minute"
+    "text": "Repeated lows blunt the warning, so check before driving"
    },
    {
     "id": "b",
-    "text": "42 drops per minute"
+    "text": "He has become allergic to insulin, so the dose should be reduced and reviewed"
    },
    {
     "id": "c",
-    "text": "63 drops per minute"
+    "text": "His insulin has gone out of date, and a fresh vial will bring the warnings back"
    },
    {
     "id": "d",
-    "text": "84 drops per minute"
+    "text": "The sweating and shaking were never true symptoms of a low sugar at all"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"42 drops per minute\". The gravity formula is volume in millilitres multiplied by the drop factor, divided by the time in minutes. Here 500 × 20 = 10,000, and 4 hours = 240 minutes, so 10,000 ÷ 240 = 41.7, set as 42 drops per minute. Working in minutes rather than hours is where most errors occur, so converting the time first is a habit worth fixing. Sense-check: 500 mL over 4 hours is 125 mL per hour, roughly 2 mL per minute, and at 20 drops per mL that is about 40 drops per minute, which matches 42. The rate is then observed rather than assumed, since gravity flow changes with limb position.\n\nWhy the other options fail:\n• A — 21 drops per minute would deliver only half the prescribed volume in the time allowed.\n• C — 63 drops per minute results from dividing by 160 minutes rather than 240.\n• D — 84 drops per minute is double the correct rate and would empty the bag in 2 hours.\n\nReference: Standard intravenous therapy calculation",
-  "strategy": "Convert hours to minutes before anything else, then sense-check against millilitres per hour.",
+  "correctChoiceId": "a",
+  "rationale": "CORRECT (A) — \"Repeated lows blunt the warning, so check before driving\". When blood glucose falls repeatedly, the body adapts and the adrenaline surge that normally produces shaking, sweating and a racing heart becomes weaker, so the first thing the patient notices may be confusion or a seizure. This is called impaired awareness of hypoglycaemia. It is dangerous because the warning is lost before the fall is severe, so the plan is to prevent lows: checking glucose before driving and at bedtime, agreeing a target with the team, and carrying fast-acting carbohydrate. Avoiding lows for a few weeks often allows the warning to return.\n\nWhy the other options fail:\n• B — Allergy to insulin causes redness and swelling at the injection site, not loss of warning symptoms.\n• C — Expired insulin loses potency and causes higher, not lower, sugars; it does not remove symptoms.\n• D — Shakiness and sweating are genuine warning symptoms that have been blunted by repetition.\n\n\nReference: ADA — hypoglycaemia and impaired awareness; Ghana STG — diabetes\n",
+  "strategy": "Repeated hypos erase the warning. The fix is fewer lows — check before driving and at bedtime.",
   "difficulty": "hard",
   "tags": [
    "pharmacology-parenteral",
@@ -110891,28 +110891,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-BATCH2-0019",
  "categorySlug": "maternal-newborn",
- "stem": "A woman 34 weeks pregnant has painless bright-red vaginal bleeding and a soft, non-tender uterus. Which action should the nurse avoid?",
+ "stem": "A woman at term has just had her membranes ruptured artificially. Within minutes she becomes breathless and hypotensive, then unresponsive, and the blood oozing from her cannula site will not clot. What is happening?",
  "choices": [
   {
    "id": "a",
-   "text": "Monitor maternal vital signs and fetal status"
+   "text": "Amniotic fluid embolism, needing resuscitation"
   },
   {
    "id": "b",
-   "text": "Establish IV access"
+   "text": "Anaphylaxis to the oxytocin, which will settle once the infusion is stopped immediately"
   },
   {
    "id": "c",
-   "text": "Perform a digital vaginal examination"
+   "text": "A vasovagal reaction to the procedure, which needs reassurance and a cool drink only"
   },
   {
    "id": "d",
-   "text": "Prepare for ultrasound assessment"
+   "text": "The normal discomfort of labour, which needs pain relief and continued close observation"
   },
  ],
- "correctChoiceId": "c",
- "rationale": "Painless bleeding with a non-tender uterus suggests placenta praevia. Digital examination can disrupt the placenta and cause catastrophic haemorrhage until its location is confirmed.\n\nWhy the other options fail:\n• A — Monitoring maternal vital signs and fetal status is appropriate care, not something to avoid.\n• B — Establishing intravenous access is appropriate preparation for a possible haemorrhage.\n• D — Ultrasound is exactly what is needed to locate the placenta before any vaginal examination.",
- "strategy": "In painless third-trimester bleeding, never perform a digital vaginal examination before excluding placenta praevia.",
+ "correctChoiceId": "a",
+ "rationale": "CORRECT (A) — \"Amniotic fluid embolism, needing resuscitation\". Amniotic fluid entering the maternal circulation sets off a violent reaction: sudden breathlessness, hypoxia, hypotension and collapse during labour, at rupture of membranes or immediately after delivery, followed by haemorrhage that will not clot because of disseminated intravascular coagulation. It is rare and unpredictable, and there is no specific antidote — survival depends on recognising it and calling for help at once, then supporting breathing and circulation, replacing blood and clotting factors and delivering the baby. The fetal heart also falls, so the team prepares for delivery.\n\nWhy the other options fail:\n• B — Anaphylaxis is possible with any drug, but it does not explain the bleeding that will not clot.\n• C — A vasovagal faint does not leave a woman breathless, hypotensive and coagulopathic.\n• D — Collapse with bleeding is never normal labour pain; treating it as such loses the minutes that matter.\n\n\nReference: RCOG — amniotic fluid embolism; Ghana STG — obstetric emergencies\n",
+ "strategy": "Collapse at membrane rupture plus bleeding that will not clot = amniotic fluid embolism. Resuscitate.",
  "difficulty": "hard",
  "tags": ["placenta-praevia", "bleeding"],
  "isFree": false
