@@ -6,22 +6,22 @@ const q = (spec: Parameters<typeof ncx>[1]): AuthoredQuestion => ncx("NCX", spec
 export const NCX9_PART_B: AuthoredQuestion[] = [
   q({
     n: 1087, cat: "pharmacology-parenteral", difficulty: "hard",
-    stem: "All drug–nutrient pairings are true **EXCEPT** which?",
+    stem: "During a vaginal examination in labour the midwife feels the umbilical cord lying ahead of the presenting part. What should she do first?",
     choices: [
-      "Digitalis — calcium",
-      "Isoniazid — vitamin B6",
-      "Phenytoin — vitamin D",
-      "Antibiotics — vitamin K",
+      "Call for help and elevate the presenting part",
+      "Push the cord back above the presenting part",
+      "Ask her to push hard with the next contraction",
+      "Leave her alone to arrange an urgent caesarean",
     ],
     correct: "a",
-    explain: "<strong>Digitalis pairs toxicity with calcium — never deficiency</strong>. Isoniazid depletes B6 (neuropathy), phenytoin depletes D, and antibiotics starve K-producing flora — so the EXCEPT stranger is the digitalis-calcium 'deficiency'. (The source misprinted B12 for B6 — corrected here.) Depleted true; digitals excepted.",
+    explain: "<strong>This is cord prolapse, and the cord is being compressed between the presenting part and the pelvis</strong>, cutting the baby's oxygen supply. The midwife calls for help, lifts the presenting part off the cord with her hand and keeps it there, positions the woman knee-chest or head-down, and prepares for immediate delivery. Pushing the cord back is never done: handling it causes spasm and worsens compression. Asking her to push drives the presenting part further onto the cord, and leaving her alone delays the only measure that relieves it.",
     others: {
-      b: "Isoniazid neuropathies B6 truly.",
-      c: "Phenytoin demineralises D truly.",
-      d: "Antibiotics flora-starve K truly.",
+      b: "Handling the cord provokes spasm and deeper compression.",
+      c: "Pushing presses the presenting part onto the cord.",
+      d: "Help must be summoned before anything can be arranged.",
     },
-    ref: "Pharmacology — drug-induced nutrient depletion",
-    strategy: "Decision tree: depletions verified — B6/D/K true, digitalis out.",
+    ref: "Ghana STG — cord prolapse; obstetric emergency",
+    strategy: "In cord prolapse the hand that lifts the presenting part is the treatment: call, lift, then deliver.",
     tags: ["drug-nutrient", "EXCEPT", "depletion", "corrected"],
   }),
   q({

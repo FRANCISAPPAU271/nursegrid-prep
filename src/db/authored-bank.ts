@@ -8165,28 +8165,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0237",
   "categorySlug": "health-promotion",
-  "stem": "A 500 mL bag of enteral feed is hung up for a continuous infusion. When should it be replaced?",
+  "stem": "Why does the nurse mark a nasogastric tube at the point where it leaves the nose?",
   "choices": [
    {
     "id": "a",
-    "text": "Every hour, so that the feed never cools"
+    "text": "To measure how much of the tube is inside"
    },
    {
     "id": "b",
-    "text": "When the bag is empty, however long that takes"
+    "text": "To record the tube size on the fluid chart"
    },
    {
     "id": "c",
-    "text": "After twelve hours hanging at room temperature"
+    "text": "To show which nostril the tube went into"
    },
    {
     "id": "d",
-    "text": "After four hours hanging at room temperature"
+    "text": "So that slipping out is noticed at once"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"After four hours hanging at room temperature\". A feed that has been opened and hung is a culture medium held at room temperature; the safe rule is to discard what remains and start a fresh container after four hours, and to change the giving set every twenty-four hours. Changing the bag every hour wastes feed and staff time without reducing risk. Running the bag until it is empty means a slow infusion may hang for far longer than four hours with bacteria multiplying in it. Twelve hours is three times the safe hanging period, and a patient who is immunosuppressed, very young or critically ill is at particular risk from that delay.",
-  "strategy": "A hung feed is a culture medium. Four hours, then a fresh container; the giving set changes every twenty-four.",
+  "rationale": "CORRECT (D) — \"So that slipping out is noticed at once\". The mark is a reference point: if more tube is visible outside the nose than when it was secured, the tip has moved upwards and may now sit in the oesophagus or above it, so feeding must stop until position is rechecked. It is not a measure of how much tube is inside — the insertion length is recorded separately at the time of insertion. The tube size is written on the care plan, not on the tube, and the nostril used is recorded in the notes. Marking alone does not confirm position: it detects a change, which is why it is checked before every feed.",
+  "strategy": "A mark shows change, not position. Compare it with the recorded length before every feed and stop if it has moved.",
   "difficulty": "medium",
   "tags": [
    "health-promotion",
