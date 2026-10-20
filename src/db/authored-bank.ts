@@ -52528,28 +52528,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CVM-1534",
   "categorySlug": "med-surg",
-  "stem": "A patient with advanced cancer is drowsy, constipated, thirsty and passing large volumes of urine. What should be suspected?",
+  "stem": "A man is brought in drowsy after drinking from an unlabelled bottle of industrial spirit. His vision is blurred, he is breathing deeply and his blood gas shows a high-anion-gap metabolic acidosis. Why is a blocking agent given when the alcohol itself is not the poison?",
   "choices": [
    {
     "id": "a",
-    "text": "A urinary tract infection producing confusion and frequency"
+    "text": "Because it neutralises the acid that has already collected in his bloodstream and protects the optic nerve"
    },
    {
     "id": "b",
-    "text": "A raised calcium level caused by the underlying malignancy"
+    "text": "Because it stops the enzyme that turns the alcohol into the acid that causes the damage"
    },
    {
     "id": "c",
-    "text": "Newly developed diabetes causing thirst and passing urine"
+    "text": "Because it flushes the unchanged alcohol out through the kidneys before it can reach his eyes"
    },
    {
     "id": "d",
-    "text": "Depression associated with the diagnosis of advanced cancer"
+    "text": "Because it reverses the drowsiness so that he can be assessed more reliably"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"A raised calcium level caused by the underlying malignancy\". The cluster of <strong>drowsiness, constipation, thirst and polyuria</strong> in malignancy is the classic picture of a high calcium, remembered as bones, stones, abdominal groans and psychic moans. It is one of the few genuinely reversible emergencies in advanced cancer: rehydration and specific treatment can restore a patient who appeared to be dying. <strong>Attributing the drowsiness to the cancer itself is the error that costs the opportunity.</strong>\n\nWhy the other options fail:\n• A — Infection causes frequency and dysuria rather than large dilute volumes.\n• C — New diabetes is possible but does not explain the constipation and drowsiness.\n• D — Depression does not cause polyuria or constipation of this kind.\n\nReference: Ghana STG — oncology and palliative care",
-  "strategy": "In advanced cancer, check for the reversible causes before accepting deterioration.",
+  "rationale": "CORRECT (B) — \"Because it stops the enzyme that turns the alcohol into the acid that causes the damage\". Methanol on its own produces the drowsiness but very little else; it is alcohol dehydrogenase in the liver that converts it to formaldehyde and then to formic acid, and the acid is what blinds the patient and drives the acidosis. Blocking that enzyme with fomepizole, or with ethanol where fomepizole is not available, holds the methanol unchanged while dialysis clears it — the antidote buys time rather than neutralising anything. That is why treatment is started on suspicion, before the blood level comes back.\n\nWhy the other options fail:\n• A — Nothing is neutralised; the drug works upstream on the enzyme, not on the acid already present.\n• C — It does not speed renal excretion of methanol; dialysis is what removes it.\n• D — Reversing drowsiness is not the purpose, and would not save the eyes or the kidneys.\n\nReference: Ghana STG — poisoning; UKNPIS — methanol and ethylene glycol poisoning\n",
+  "strategy": "In methanol poisoning the parent alcohol is harmless; the acid made from it blinds and kills. Block the enzyme and dialyse.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -62005,28 +62005,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-LTC-1812",
   "categorySlug": "med-surg",
-  "stem": "A patient with diabetes is found confused and sweating with cold clammy skin. What is the likely cause?",
+  "stem": "A farmer is brought in after swallowing a mouthful of weedkiller from a bottle with a blue-green label. Which statement about paraquat is correct?",
   "choices": [
    {
     "id": "a",
-    "text": "Ketoacidosis, which requires insulin and fluids"
+    "text": "An antidote given early will reverse the poisoning if the patient reaches hospital in time"
    },
    {
     "id": "b",
-    "text": "A stroke, which requires urgent brain imaging"
+    "text": "High-flow oxygen should be given to every patient, since the lungs are the organ at risk"
    },
    {
     "id": "c",
-    "text": "Dehydration, which requires oral rehydration salts"
+    "text": "There is no antidote, so charcoal is given early and oxygen only for measured hypoxia"
    },
    {
     "id": "d",
-    "text": "Hypoglycaemia, which requires immediate glucose"
+    "text": "It damages only the liver, so liver function tests decide whether he will survive"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Hypoglycaemia, which requires immediate glucose\". Cold clammy sweating with rapid-onset confusion is the picture of hypoglycaemia; ketoacidosis develops over hours to days with <strong>dry skin, deep sighing breathing, thirst and the smell of ketones</strong>. The sweat is the discriminator. Where no meter is available, <strong>treat as hypoglycaemia — glucose given to a ketotic patient causes little harm, whereas a missed hypoglycaemia causes brain injury within minutes</strong>.\n\nWhy the other options fail:\n• A — Ketoacidosis presents with dry skin and deep breathing, not sweating.\n• B — Stroke does not typically cause cold clammy sweating.\n• C — Dehydration alone does not produce this rapid clammy confusion.\n\nReference: Ghana STG — diabetic emergencies",
-  "strategy": "Sweating and cold means sugar. If in doubt, treat the low first.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"There is no antidote, so charcoal is given early and oxygen only for measured hypoxia\". Paraquat is concentrated in the lung by an active uptake system and then generates oxygen radicals there, so the lung is destroyed from the inside and the patient dies of progressive fibrosis and respiratory failure, often days after seeming to recover. There is no antidote and no way to pull it back out of the lung, so management is decontamination as early as possible — activated charcoal, or gastric lavage if within the first hour — and then careful supportive care. Supplemental oxygen is itself part of the injury in paraquat, so it is given only when the saturation is actually low, not routinely as it would be in other poisonings.\n\nWhy the other options fail:\n• A — No antidote exists; nothing reverses paraquat once it is absorbed.\n• B — Routine high-flow oxygen accelerates the lung injury and is specifically avoided.\n• D — The lung and the kidney are the organs that fail; the liver is not the deciding factor.\n\nReference: Ghana STG — pesticide poisoning; WHO — paraquat poisoning\n",
+  "strategy": "Paraquat has no antidote and the lung takes it up. Charcoal early, oxygen only if the saturation falls.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -81173,28 +81173,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2367",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman at 28 weeks reports that her baby has not moved since yesterday morning. What should the midwife do?",
+  "stem": "A woman having her fourth baby labours for only ninety minutes and delivers before the midwife has finished preparing the trolley. Which complication must the midwife anticipate?",
   "choices": [
    {
     "id": "a",
-    "text": "Advise her to drink a cold sugary drink and lie down, and to call back tomorrow"
+    "text": "Shoulder dystocia, because the baby comes through the pelvis far too quickly to rotate"
    },
    {
     "id": "b",
-    "text": "Reassure her that movements normally reduce as the pregnancy advances"
+    "text": "Perineal lacerations, because the tissues are given no time to stretch gradually"
    },
    {
     "id": "c",
-    "text": "Book her for a routine ultrasound in the next available slot"
+    "text": "Cord prolapse, because a rapid descent pulls the cord down ahead of the baby"
    },
    {
     "id": "d",
-    "text": "Assess her the same day, auscultating the foetal heart and arranging further assessment"
+    "text": "Retained placenta, because very strong contractions grip the placenta in the uterus"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Assess her the same day, auscultating the foetal heart and arranging further assessment\". Reduced or absent foetal movement is one of the few symptoms a woman can report that precedes stillbirth, and it must be assessed on the same day. Assessment means listening to the foetal heart and then arranging further evaluation, since a heart that is present does not exclude a compromised foetus. Advice to drink something cold and count movements has no evidence behind it and functions mainly as a delay. Movements change in character as the uterus becomes crowded but they do not reduce in frequency in a healthy foetus. The principle is that the woman's report of reduced movement is data, and it is acted on the day it is given.\n\nWhy the other options fail:\n• A — Cold drinks and lying down have never been shown to provoke movement reliably, and the advice postpones assessment by a day.\n• B — Telling her movements reduce with advancing pregnancy is a persistent myth that has contributed to preventable stillbirths.\n• C — A routine appointment treats an acute symptom as routine, and the next available slot may be weeks away.\n\nReference: WHO antenatal care recommendations; stillbirth prevention guidance",
-  "strategy": "Some symptoms are same-day by rule rather than by judgement. In obstetrics, reduced foetal movement, vaginal bleeding and severe headache with hypertension all belong to that list.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"Perineal lacerations, because the tissues are given no time to stretch gradually\". In a precipitate labour the head is delivered through a vulva and perineum that have had no chance to accommodate slowly, and the expulsive effort is often uncontrolled, so tears — including third- and fourth-degree tears — are common. The midwife's preparation therefore shifts towards controlled delivery of the head, warm support of the perineum, a quick check for trauma afterwards, and readiness for bleeding that has not been measured because nobody counted the blood lost at home.\n\nWhy the other options fail:\n• A — Shoulder dystocia is a problem of obstruction, not of excessive speed; a small, fast baby usually passes the shoulders easily.\n• C — Cord prolapse follows rupture of membranes with a poorly applied presenting part, not rapid descent.\n• D — Strong contractions normally expel the placenta promptly; retention is not the expected risk of a fast labour.\n\nReference: Ghana STG — normal labour and puerperium; WHO — intrapartum care\n",
+  "strategy": "A labour that ends in ninety minutes tears what it crosses. Guard the perineum and look for damage afterwards.",
   "difficulty": "medium",
   "tags": [
    "maternal-newborn",
@@ -94983,28 +94983,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2769",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana returns from thyroidectomy and develops tingling around the mouth and twitching of the fingers. What does this suggest?",
+  "stem": "A wound swab from a patient in Ghana grows an organism reported as an ESBL producer. What does this mean for his care?",
   "choices": [
    {
     "id": "a",
-    "text": "Hypocalcaemia from inadvertent damage to or removal of the parathyroid glands"
+    "text": "It is resistant to every antibiotic available, so treatment must be purely supportive"
    },
    {
     "id": "b",
-    "text": "A normal reaction to the anaesthetic that will settle within the hour"
+    "text": "It resists most cephalosporins, so a carbapenem may be needed and contact precautions apply"
    },
    {
     "id": "c",
-    "text": "Damage to the recurrent laryngeal nerve during the operation"
+    "text": "It is a laboratory contaminant of no importance unless the patient is in intensive care"
    },
    {
     "id": "d",
-    "text": "An allergic reaction to the antiseptic used to prepare the skin"
+    "text": "It is resistant to penicillin only, so high-dose benzylpenicillin will still clear the wound"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Hypocalcaemia from inadvertent damage to or removal of the parathyroid glands\". The four parathyroid glands lie on the posterior surface of the thyroid and can be bruised, devascularised or removed during thyroidectomy. Loss of parathyroid hormone lowers serum calcium, and the resulting neuromuscular irritability produces perioral tingling, paraesthesia of the fingers, muscle twitching, and in severe cases carpopedal spasm, laryngospasm and seizures. It appears within the first day or two and requires urgent calcium measurement and replacement. The other specific complications to watch for are recurrent laryngeal nerve injury, which causes a hoarse or weak voice, bleeding into the neck compressing the airway, and thyroid storm. The principle is that the complications follow the anatomy of the operation.\n\nWhy the other options fail:\n• B — Anaesthetic effects do not produce the specific pattern of perioral tingling with twitching.\n• C — Recurrent laryngeal nerve injury causes voice change and possible stridor, not tetany.\n• D — An antiseptic reaction produces local skin changes rather than neuromuscular irritability.\n\nReference: Standard thyroid surgery nursing care",
-  "strategy": "For any operation, learn what structures lie next to the organ removed. The specific complications follow directly from that anatomy.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"It resists most cephalosporins, so a carbapenem may be needed and contact precautions apply\". ESBL stands for extended-spectrum beta-lactamase, an enzyme that breaks down the cephalosporins and monobactams that would normally cover gut organisms such as Klebsiella and E. coli. The laboratory therefore reports the organism as resistant to those drugs even when the disc looks sensitive, and the clinician is pushed towards a carbapenem or another agent that survives the enzyme. Because these organisms spread readily on hands and equipment, contact precautions and careful hand hygiene go alongside the antibiotic choice.\n\nWhy the other options fail:\n• A — They are not resistant to everything; carbapenems and some other agents still work.\n• C — An ESBL producer in a wound is a real infection risk and a real infection-control problem on any ward.\n• D — Benzylpenicillin does not cover these gut organisms and is broken down by the enzyme.\n\nReference: Ghana National AMR Action Plan; WHO — global priority pathogens list\n",
+  "strategy": "ESBL means the cephalosporins will fail. Escalate to a carbapenem and put the contact precautions up.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
