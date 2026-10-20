@@ -71622,28 +71622,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRD-2094",
   "categorySlug": "health-promotion",
-  "stem": "What is the main function of the Centre for Plant Medicine Research at Mampong-Akuapem?",
+  "stem": "A woman who delivered two weeks ago is using a herbal preparation in the vagina to tighten the tissues. Why should the nurse advise her to stop?",
   "choices": [
    {
     "id": "a",
-    "text": "Registering traditional practitioners working in the Eastern Region"
+    "text": "Because the preparation will be absorbed into breast milk and make the baby drowsy and sleepy"
    },
    {
     "id": "b",
-    "text": "Researching and developing plant medicines on a scientific basis"
+    "text": "Because it disturbs the vaginal flora, can burn healing tissue and invites infection"
    },
    {
     "id": "c",
-    "text": "Issuing licences to herbal manufacturing companies across Ghana"
+    "text": "Because it works too well, and the tightened tissues will make intercourse painful later"
    },
    {
     "id": "d",
-    "text": "Training nurses to prescribe herbal remedies in health centres"
+    "text": "Because it will permanently stop the return of her monthly periods after the birth"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Researching and developing plant medicines on a scientific basis\". The Centre <strong>investigates Ghanaian plants, identifies active constituents, standardises preparations and supports the evidence base the FDA relies on for registration</strong>, and it runs a clinic. It is a research institution, not a regulator. The distinction matters for the same reason as elsewhere in this topic: <strong>research generates the evidence, the FDA registers the product and the Council registers the practitioner — three separate functions</strong>.\n\nWhy the other options fail:\n• A — Registration of practitioners belongs to the Council.\n• C — Licensing manufacturers is an FDA function.\n• D — Nurses are not trained there to prescribe herbal medicines.\n\nReference: Centre for Plant Medicine Research, Mampong-Akuapem",
-  "strategy": "Research, register the product, register the person. Three bodies, three jobs.",
+  "rationale": "CORRECT (B) — \"Because it disturbs the vaginal flora, can burn healing tissue and invites infection\". Herbal and chemical vaginal preparations are concentrated, unmeasured and often caustic; they strip the lactobacilli that keep the vagina healthy, irritate or burn tissue that is still healing after birth, and open the door to bacterial vaginosis, candidiasis, pelvic infection and, with the inflammation they cause, a higher risk of HIV acquisition. The nurse's approach is to ask without judgement what she is using and why, explain the harm plainly, offer warm water alone for cleansing, and make sure she knows which symptoms to report.\n\nWhy the other options fail:\n• A — Absorption into breast milk sufficient to sedate a baby is not the reason these preparations are dangerous.\n• C — The harm is infection and injury, not excessive tightening.\n• D — Nothing in these preparations stops the return of menstruation.\n\nReference: WHO — vaginal practices and health; Ghana STG — postpartum care\n",
+  "strategy": "Herbal douches burn, strip the normal flora and invite infection into tissue that is still healing. Warm water is enough.",
   "difficulty": "medium",
   "tags": [
    "health-promotion",
@@ -74386,28 +74386,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2174",
   "categorySlug": "fluid-electrolyte",
-  "stem": "Using the 4-2-1 rule, what is the hourly maintenance fluid requirement for a child weighing 26 kg?",
+  "stem": "Using the 4-2-1 rule, what is the hourly maintenance fluid requirement for a child weighing 34 kg?",
   "choices": [
    {
     "id": "a",
-    "text": "66 mL per hour"
+    "text": "74 mL per hour"
    },
    {
     "id": "b",
-    "text": "46 mL per hour"
+    "text": "54 mL per hour"
    },
    {
     "id": "c",
-    "text": "104 mL per hour"
+    "text": "108 mL per hour"
    },
    {
     "id": "d",
-    "text": "26 mL per hour"
+    "text": "34 mL per hour"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"66 mL per hour\". The rule allows 4 mL/kg for the first 10 kg, giving 40 mL; 2 mL/kg for the next 10 kg, giving 20 mL; and 1 mL/kg for each kilogram beyond 20, giving 6 mL for the remaining 6 kg. <strong>The total is 66 mL per hour</strong>. Maintenance covers ordinary daily losses only, so any existing deficit and any continuing losses must be prescribed in addition. Sense-check: a 26 kg child should need rather more than a 20 kg child's 60 mL, and 66 mL fits.\n\nWhy the other options fail:\n• B — This omits the first tier and applies the wrong rate to the initial 10 kg.\n• C — This applies 4 mL/kg to the whole weight, ignoring the reducing tiers.\n• D — This applies 1 mL/kg to the whole weight and greatly under-prescribes.\n\nReference: Ghana Health Service paediatric fluid guidance",
-  "strategy": "Work the tiers in order and add them. Never apply one rate to the whole weight.",
+  "rationale": "CORRECT (A) — \"74 mL per hour\". The 4-2-1 rule gives 4 mL/kg/h for the first 10 kg, 2 mL/kg/h for the next 10 kg, and 1 mL/kg/h for every kilogram above 20. For 34 kg that is 40 + 20 + 14, which is 74 mL per hour. The same total can be reached by the daily method and divided by 24, and the two should agree closely.\n\nWhy the other options fail:\n• B — 54 mL/h comes from forgetting that the third band carries 14 kg, not 6.\n• C — 108 mL/h would apply 4 mL/kg to every kilogram, which over-prescribes.\n• D — 34 mL/h applies 1 mL/kg to the whole weight, which under-prescribes badly.\n\nReference: Ghana STG — paediatric fluid therapy; APLS — maintenance requirements\n",
+  "strategy": "4-2-1: 40 for the first 10 kg, 20 for the next, 1 mL per kilogram for the rest. Here 40 + 20 + 14 = 74.",
   "difficulty": "hard",
   "tags": [
    "fluid-electrolyte",
@@ -99333,28 +99333,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2896",
   "categorySlug": "safety-infection-control",
-  "stem": "A person rescued from a river in Ghana is unresponsive and not breathing. How does the resuscitation differ from a standard cardiac arrest?",
+  "stem": "A boy from a rural Ghanaian district has a painless, raised ulcer with a yellow crust on his shin that has been there for months. He is otherwise well and there is no genital ulcer. What is this, and what does it need?",
   "choices": [
    {
     "id": "a",
-    "text": "Compressions alone are used and rescue breaths are deliberately omitted"
+    "text": "Primary syphilis, so he needs a course of intramuscular penicillin and his partners traced"
    },
    {
     "id": "b",
-    "text": "Five initial rescue breaths are given before starting chest compressions"
+    "text": "Yaws, a non-venereal treponemal infection that resolves with a single penicillin injection"
    },
    {
     "id": "c",
-    "text": "The abdomen is compressed first to expel the swallowed water"
+    "text": "Buruli ulcer, which needs surgery and cannot be treated with any antibiotic at all"
    },
    {
     "id": "d",
-    "text": "Resuscitation is withheld until the person has been fully dried"
+    "text": "Tropical ulcer, which is always caused by fungal infection and needs a topical antifungal"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Five initial rescue breaths are given before starting chest compressions\". Drowning causes cardiac arrest through hypoxia, so the primary problem is a lack of oxygen rather than a primary cardiac rhythm disturbance. Correcting the hypoxia therefore comes first, and the sequence begins with five rescue breaths before compressions, after which the usual thirty to two ratio follows. Attempting to expel water from the stomach is ineffective and causes regurgitation and aspiration, and delaying for drying wastes the minutes that determine survival, though wet skin is dried before defibrillator pads are applied. The person is kept horizontal during rescue where possible, and all near-drowning victims are assessed in hospital because deterioration can occur hours later. The principle is that hypoxic arrest is treated with oxygen first.\n\nWhy the other options fail:\n• A — Compression-only resuscitation does not correct the hypoxia that caused the arrest.\n• C — Abdominal compression causes regurgitation and aspiration without clearing the lungs.\n• D — Delaying for drying wastes minutes that directly determine survival.\n\nReference: Standard resuscitation guidance for drowning",
-  "strategy": "Ask what caused the arrest. A hypoxic cause means ventilation moves to the front of the sequence.",
+  "rationale": "CORRECT (B) — \"Yaws, a non-venereal treponemal infection that resolves with a single penicillin injection\". Yaws is caused by a treponeme that spreads by skin contact among children in poor rural communities, not by sexual contact, so a child with a painless crusted ulcer on the leg and no genital lesion fits it far better than syphilis. One intramuscular dose of benzathine penicillin heals the early lesion, household contacts are treated at the same time to break transmission, and the whole district campaign is part of Ghana's elimination effort. Left alone it moves on to destroy bone and cartilage years later.\n\nWhy the other options fail:\n• A — Syphilis is sexually transmitted and the lesion is usually genital; tracing partners is not the approach here.\n• C — Buruli ulcer is treated with antibiotics, including rifampicin and streptomycin or clarithromycin, and surgery is not the first step.\n• D — Tropical ulcers are usually bacterial, and an antifungal alone would fail.\n\nReference: WHO — yaws eradication; Ghana STG — skin and treponemal infections\n",
+  "strategy": "Painless crusted leg ulcer in a child, no genital lesion: yaws. One penicillin injection, and treat the household.",
   "difficulty": "hard",
   "tags": [
    "safety-infection-control",
@@ -104318,28 +104318,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MNH-3042",
   "categorySlug": "maternal-newborn",
-  "stem": "Thirty minutes after a spontaneous vaginal birth a woman continues to bleed briskly. On palpation the uterus is well contracted and firm, and the placenta was inspected and found complete. What is the **most** likely cause?",
+  "stem": "Ten minutes after delivering a healthy baby, a woman becomes pale and shocked with severe lower abdominal pain, and a smooth mass is felt in the vagina. What has happened?",
   "choices": [
    {
     "id": "a",
-    "text": "Trauma to the genital tract, such as a cervical or high vaginal tear"
+    "text": "The uterus has turned inside out, and it must be replaced without pulling on the cord"
    },
    {
     "id": "b",
-    "text": "Uterine atony that has not responded to the uterotonic already given"
+    "text": "The placenta is retained, and the cord must be pulled firmly to bring it down"
    },
    {
     "id": "c",
-    "text": "Retained placental fragments that were missed on initial inspection"
+    "text": "The uterus has ruptured, and the abdomen must be opened to repair the tear"
    },
    {
     "id": "d",
-    "text": "A coagulation disorder causing failure of clot formation at the placental site"
+    "text": "A bladder has filled and is pressing on the uterus, so a catheter will relieve the pain"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Trauma to the genital tract, such as a cervical or high vaginal tear\". Palpating the uterus is the single most discriminating step in postpartum haemorrhage, because it separates tone from everything else. Atony accounts for around seventy per cent of cases, but a firm, well-contracted uterus excludes it: the muscle has clamped down on the placental bed and those vessels are no longer the source. Blood that continues to flow past a contracted uterus must be coming from somewhere the uterus cannot compress, which means the cervix, vagina or perineum. The action is systematic inspection in good light with adequate analgesia.\n\nWhy the other options fail:\n• B — Atony by definition means a soft, boggy uterus. A firm uterus is the finding that rules it out, so treating this as atony would lead to more uterotonic while the tear continues to bleed.\n• C — Retained fragments prevent the uterus from contracting fully and therefore usually present with a soft uterus. A complete placenta and a firm uterus make this unlikely as the primary cause.\n• D — Coagulopathy is the least common of the four Ts and usually appears later or after massive loss. It is suggested by blood that fails to clot and oozing from puncture sites, neither described here.\n\nReference: WHO PPH guidelines; Ghana Standard Treatment Guidelines",
-  "strategy": "In postpartum haemorrhage, feel the uterus before you reach for a drug. A firm uterus that keeps bleeding is a tear until you have looked.",
+  "rationale": "CORRECT (A) — \"The uterus has turned inside out, and it must be replaced without pulling on the cord\". Acute uterine inversion follows excessive cord traction or fundal pressure on a relaxed uterus: the fundus dimples and passes down through the cervix, so the woman feels intense pain and becomes shocked out of proportion to the visible blood loss, and a smooth mass appears at the vulva or is felt in the vagina. Help is called, resuscitation starts, the placenta is left in place until the uterus is back, and the uterus is replaced — often with tocolysis to relax it — before the placenta is delivered. Pulling the cord makes it worse.\n\nWhy the other options fail:\n• B — Cord traction is what causes inversion; pulling harder completes the disaster.\n• C — A ruptured uterus gives a silent or tender abdomen with the fetal parts felt outside the uterus, not a vaginal mass.\n• D — A full bladder displaces the uterus upwards and causes atony and bleeding, not a mass in the vagina.\n\nReference: WHO — managing postpartum haemorrhage; Ghana STG — obstetric emergencies\n",
+  "strategy": "Shock, pain and a mass in the vagina after delivery means the uterus is inside out. Replace it; never pull the cord.",
   "difficulty": "hard",
   "tags": [
    "maternal-newborn",
@@ -114599,28 +114599,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-RESP-0014",
  "categorySlug": "safety-infection-control",
- "stem": "A nurse has a needlestick injury from a used hollow-bore needle. What is the first action?",
+ "stem": "A preterm baby in a Ghanaian newborn unit has grunting, recessions and a rising oxygen need. Bubble CPAP is set up. Why does it help, and what must the nurse watch?",
  "choices": [
   {
    "id": "a",
-   "text": "Squeeze the wound aggressively for ten minutes"
+   "text": "It delivers a high concentration of oxygen, so the nurse watches only the saturation probe on the foot"
   },
   {
    "id": "b",
-   "text": "Apply household bleach to the puncture site"
+   "text": "It keeps the alveoli open between breaths, so the nurse watches the nose, abdomen and chest"
   },
   {
    "id": "c",
-   "text": "Wash with soap and water and report immediately"
+   "text": "It completely replaces the baby's breathing, so the nurse stops counting respirations"
   },
   {
    "id": "d",
-   "text": "Clean the site and continue the shift without reporting"
+   "text": "It warms and humidifies the air, which is the whole of its effect on the work of breathing"
   },
  ],
- "correctChoiceId": "c",
- "rationale": "Washing with soap and water and reporting immediately allow timely exposure assessment, baseline testing and post-exposure prophylaxis when indicated.\n\nWhy the other options fail:\n• A — Squeezing the wound is no longer advised: it forces contaminated blood deeper and damages tissue.\n• B — Bleach is caustic, damages the wound and is not a first-aid measure.\n• D — Concealing the injury forfeits post-exposure prophylaxis during the window when it works.",
- "strategy": "After a sharps injury: wash, report and obtain urgent occupational-health review.",
+ "correctChoiceId": "b",
+ "rationale": "CORRECT (B) — \"It keeps the alveoli open between breaths, so the nurse watches the nose, abdomen and chest\". In respiratory distress the small alveoli collapse at the end of each breath and the baby must inflate them again with every breath, which is exhausting; continuous positive pressure splints them open, so the work falls and the grunting and recessions ease. The pressures are low and the baby still breathes for itself, so respiratory rate and effort are counted, not abandoned. The nurse checks the nasal prongs for septal damage from pressure, the abdomen for distension from swallowed air, and the chest for a sudden deterioration that could mean a pneumothorax.\n\nWhy the other options fail:\n• A — It is a pressure device, not simply an oxygen supply, and the saturation is only one of several observations.\n• C — The baby continues to breathe; the device supports, it does not ventilate.\n• D — Humidification is helpful but not the mechanism that reduces the work of breathing.\n\nReference: WHO — newborn respiratory distress; Ghana STG — neonatal care\n",
+ "strategy": "CPAP splints alveoli open so the baby stops fighting to reinflate them. Watch the nose, the belly and the chest.",
  "difficulty": "hard",
  "tags": ["needlestick", "safety"],
  "isFree": false

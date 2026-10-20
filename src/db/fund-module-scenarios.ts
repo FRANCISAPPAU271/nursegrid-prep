@@ -234,16 +234,16 @@ export const FUND_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-FUND-013",
     categorySlug: "fundamentals",
-    stem: "A client has an indwelling urinary (Foley) catheter following prostate surgery. Which nursing action represents correct evidence-based care to prevent Catheter-Associated Urinary Tract Infections (CAUTI)?",
+    stem: "A patient with cold hands and dark nail varnish has a pulse oximeter reading of 89 per cent. What should the nurse do?",
     choices: [
-      { id: "a", text: "Disconnect the catheter from the drainage tubing every morning so that the bladder can be irrigated with normal saline and then reconnected" },
-      { id: "b", text: "Keep the catheter drainage bag suspended below the level of the bladder at all times and off the floor, maintaining a sterile closed drainage system" },
-      { id: "c", text: "Collect routine urine culture specimens by opening the junction between the catheter and the drainage bag to aspirate urine directly from the tubing" },
-      { id: "d", text: "Apply topical povidone-iodine antibacterial ointment around the urethral meatus during the daily hygiene round, and reapply it after each void" }
+      { id: "a", text: "Record the reading and increase the oxygen, since 89 per cent is always a real fall" },
+      { id: "b", text: "Warm the hand, move the probe to a clean nail or an ear lobe, and repeat the reading" },
+      { id: "c", text: "Ignore the oximeter entirely and rely on the patient's colour and how he feels" },
+      { id: "d", text: "Replace the machine, because a reading below 90 per cent always means it is faulty" }
     ],
-    correctChoiceId: "b",
-    rationale: "CAUTI prevention guidelines dictate maintaining an uninterrupted sterile closed drainage system and keeping the collection bag continuously BELOW the level of the bladder (to prevent retrograde reflux of colonized urine) and suspended off the floor (to prevent contamination). Disconnecting the closed system for routine irrigation dramatically increases infection risk; specimens must be aspirated aseptically from the needleless sampling port (never by breaking the catheter-tubing junction); and meatal cleaning should be performed with standard soap and water, as topical antiseptics cause chemical irritation. Why the other options fail: option a breaks the closed system, which is the single strongest predictor of CAUTI, and routine irrigation is not indicated. Option c collects the specimen by opening the junction, which lets organisms in at exactly the point the sample is being taken. Option d applies an antiseptic that irritates the meatus; evidence supports plain soap and water rather than topical antimicrobials.",
-    strategy: "CAUTI prevention bundle: Closed sterile system + Drainage bag BELOW bladder and off the floor + Specimen from sampling port only + Clean with soap and water.",
+    "correctChoiceId": "b",
+    rationale: "CORRECT (B) — \"Warm the hand, move the probe to a clean nail or an ear lobe, and repeat the reading\". A pulse oximeter sends red and infrared light through the tissue and works out the ratio of haemoglobin that is carrying oxygen, so anything that interferes with the light path or with a good pulsatile signal gives a false reading: cold and vasoconstricted fingers, nail varnish or dirt, a probe on the same arm as a blood-pressure cuff, movement, bright light and poor peripheral perfusion. The answer is to correct the conditions and repeat before acting — and if the reading still does not make sense beside the patient, look at him and check a blood gas.\n\nWhy the other options fail:\n• A — A low reading from a poor signal is not proof of hypoxaemia, and oxygen would be given for a machine artefact.\n• C — Colour and how the patient feels are late and unreliable signs; the corrected reading is still useful.\n• D — A machine fault is far less likely than poor technique, and a true reading below 90 per cent is dangerous.\n\nReference: WHO — pulse oximetry training manual; Ghana STG — oxygen therapy\n",
+    strategy: "Cold fingers and painted nails lie to an oximeter. Warm the hand, move the probe, then believe the number.",
     difficulty: "easy",
     tags: ["fundamentals", "cauti", "urinary-catheter", "infection-prevention", "bladder-care"],
     isFree: false,

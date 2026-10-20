@@ -154,29 +154,29 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-PHARM-006",
     categorySlug: "pediatrics",
-    stem: "A 4-year-old child weighing 33 lbs is prescribed oral cefuroxime axetil suspension for acute otitis media. The order reads: 30 mg/kg/day divided into 2 equal doses every 12 hours. The pharmacy dispenses cefuroxime suspension labeled 125 mg/5 mL. How many milliliters (mL) should the nurse administer per dose?",
+    stem: "A man with gout and a high urate level is starting allopurinol, and he is also taking azathioprine for another condition. What must the nurse check before he starts?",
     choices: [
       {
         id: "a",
-        text: "18.0 mL",
+        text: "Nothing, as long as the dose is increased quickly to bring the urate down within a week",
       },
       {
         id: "b",
-        text: "4.5 mL",
+        text: "That the azathioprine dose is reviewed, since allopurinol raises its level dangerously",
       },
       {
         id: "c",
-        text: "12.0 mL",
+        text: "That he stops allopurinol as soon as the joint pain starts, because that shows it is working",
       },
       {
         id: "d",
-        text: "9.0 mL",
+        text: "That the allopurinol is given only during an attack, which is when the urate is highest",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "b",
     rationale:
-      "Step 1: Convert weight from pounds to kilograms: 33 lbs / 2.2 = 15 kg. Step 2: Calculate total daily dose: 15 kg * 30 mg/kg/day = 450 mg/day. Step 3: Calculate dose per administration (divided into 2 equal doses): 450 mg / 2 = 225 mg per dose. Step 4: Calculate volume using available concentration (125 mg / 5 mL = 25 mg/mL): Volume = 225 mg / 25 mg/mL = 9.0 mL per dose. (Or: [225 mg / 125 mg] * 5 mL = 9.0 mL). Why the other options fail: option a doubles the dose, the common error of forgetting to divide the daily total. Option b halves it, the error of reading 125 mg/5 mL as 125 mg/mL. Option c converts pounds to kilograms with a factor of 2 rather than 2.2, which gives a lighter child and a smaller dose.",
-    strategy: "Paediatric dosing: Convert lbs to kg -> multiply by mg/kg/day -> divide by number of daily doses -> calculate volume from concentration.",
+      "CORRECT (B) — \"That the azathioprine dose is reviewed, since allopurinol raises its level dangerously\". Allopurinol blocks xanthine oxidase, and xanthine oxidase is one of the enzymes that clears azathioprine's active metabolites, so the two together can drive the marrow into profound suppression — the azathioprine has to be reduced or stopped, and the prescriber must decide before the first dose. The same review applies to mercaptopurine. Allopurinol itself is started at a low dose and built up slowly, is not started or stopped around an acute attack without advice, and any rash is a reason to stop and report rather than to carry on.\n\nWhy the other options fail:\n• A — Rapid escalation is not safe; the dose is titrated against urate over weeks.\n• C — Joint pain does not mean it is working; continuing through a new rash could allow a severe hypersensitivity reaction.\n• D — Treatment is continuous; starting and stopping with attacks causes urate swings and more attacks.\n\nReference: BNF — allopurinol interactions; Ghana STG — gout\n",
+    strategy: "Allopurinol plus azathioprine is a marrow-suppression pair. Check the azathioprine first, and build allopurinol up slowly.",
     difficulty: "medium",
     tags: ["pharmacology", "drug-calculations", "paediatric-dosing", "antibiotics", "math"],
     isFree: true,
