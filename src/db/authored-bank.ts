@@ -636,28 +636,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-0017",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman at 36 weeks with severe pre-eclampsia is receiving intravenous magnesium sulphate. Two hours in, the midwife finds her drowsy, with absent patellar reflexes and a respiratory rate of 10. What is the midwife's **immediate** action?",
+  "stem": "A woman with placenta praevia is being assessed. Which part of her history puts her at greatest risk of placenta accreta?",
   "choices": [
    {
     "id": "a",
-    "text": "Stop the magnesium sulphate infusion and summon medical help"
+    "text": "Three previous caesarean deliveries, the last one two years ago"
    },
    {
     "id": "b",
-    "text": "Increase the infusion rate to control her blood pressure"
+    "text": "Two first-trimester miscarriages, both managed medically at home"
    },
    {
     "id": "c",
-    "text": "Turn her onto her left side and continue the infusion"
+    "text": "Gestational diabetes in her last pregnancy, controlled on insulin"
    },
    {
     "id": "d",
-    "text": "Give an additional loading dose and reassess in thirty minutes"
+    "text": "Pre-eclampsia in her first pregnancy, delivered at 38 weeks"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Stop the magnesium sulphate infusion and summon medical help\". Loss of deep tendon reflexes, respiratory depression and drowsiness are the classic signs of <strong>magnesium toxicity</strong>. Reflexes disappear first, which is why they are checked hourly — they are the early warning before respiratory arrest. The infusion is stopped at once, help is summoned, and calcium gluconate is the antidote.\n\nWhy the other options fail:\n• B — Magnesium is given to prevent seizures, not to lower blood pressure, and increasing it in a toxic patient may cause respiratory or cardiac arrest.\n• C — Left lateral positioning improves placental perfusion but does nothing about circulating magnesium. Continuing the infusion allows toxicity to progress.\n• D — A further dose in the presence of toxicity is potentially fatal, and thirty minutes of observation is far too long.\n\nReference: Ghana Safe Motherhood Protocol — pre-eclampsia and eclampsia",
-  "strategy": "For any infusion with a monitoring parameter, learn the order in which signs fail. With magnesium it is reflexes, then respirations, then urine output, then cardiac arrest. The moment an early sign appears, stop the infusion — never adjust it.",
+  "rationale": "CORRECT (A) — \"Three previous caesarean deliveries, the last one two years ago\". Placenta accreta happens when the placenta implants over scarred decidua and grows into the myometrium instead of stopping at it, because the scar has no proper decidual layer to hold it. Each caesarean adds to that scar, so the risk climbs with the number of previous sections, and it climbs again when the placenta lies over the scar as a praevia. A woman with praevia and several previous sections should be delivered in a unit with blood, theatre and intensive care, because the placenta may not separate and the bleeding at delivery can be torrential.\n\nWhy the other options fail:\n• B — First-trimester loss managed without surgery does not scar the upper segment where the placenta implants.\n• C — Gestational diabetes affects fetal growth and the newborn's glucose, not the depth of placental invasion.\n• D — Pre-eclampsia is a disorder of the maternal vascular response, not of implantation depth.\n\nReference: WHO recommendations on placenta accreta spectrum; Ghana STG — obstetric care\n",
+  "strategy": "Scar plus praevia equals invasion. Count the caesareans whenever the placenta sits low.",
   "difficulty": "hard",
   "tags": [
    "maternal-newborn",
@@ -34194,28 +34194,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRG-0998",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A Ghanaian patient on digoxin complains of nausea, loss of appetite and seeing yellow-green haloes. What has occurred?",
+  "stem": "A patient with digoxin toxicity has a potassium of 6.8 mmol/L and a ventricular arrhythmia despite the infusion being stopped. Which treatment is now indicated?",
   "choices": [
    {
     "id": "a",
-    "text": "A viral illness unrelated to the digoxin the patient is receiving"
+    "text": "Repeat the serum digoxin level and wait for the laboratory result before any further treatment"
    },
    {
     "id": "b",
-    "text": "An expected effect showing the drug has reached a therapeutic level"
+    "text": "Give a further dose of digoxin so that the level can be rechecked more accurately later"
    },
    {
     "id": "c",
-    "text": "Cataract formation which develops in most patients taking digoxin"
+    "text": "Give intravenous potassium to bring the level into range, and repeat the ECG in an hour"
    },
    {
     "id": "d",
-    "text": "Digoxin toxicity, which is more likely when the potassium is low"
+    "text": "Digoxin-specific antibody fragments, which bind the drug and reverse the toxicity"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Digoxin toxicity, which is more likely when the potassium is low\". Digoxin has a <strong>narrow therapeutic index</strong>, and toxicity presents with <strong>anorexia, nausea, vomiting, confusion, visual disturbance with yellow-green haloes and bradycardia or arrhythmia</strong>. <strong>Hypokalaemia markedly increases the risk</strong>, so a patient on a loop diuretic is especially vulnerable. Nursing actions are to <strong>withhold the dose, count the apical pulse for a full minute, report, and check potassium and digoxin levels</strong>.\n\nWhy the other options fail:\n• A — The combination of gastrointestinal and visual symptoms in a digoxin patient is characteristic of toxicity.\n• B — These are toxic effects, not markers of a therapeutic level.\n• C — Cataract causes gradual clouding, not the coloured haloes seen in digoxin toxicity.\n\nReference: Ghana nursing curriculum — cardiac glycosides",
-  "strategy": "For narrow-margin drugs, memorise the toxicity picture. Visual colour change plus nausea points to digoxin.",
+  "rationale": "CORRECT (D) — \"Digoxin-specific antibody fragments, which bind the drug and reverse the toxicity\". Once there is a life-threatening arrhythmia or a potassium this high, stopping the drug is no longer enough, because the digoxin already bound to the heart is what is driving the arrhythmia and the potassium leak. Antibody fragments bind digoxin in the plasma and pull it off its receptor, and they are the treatment of choice for exactly this picture. Potassium is <strong>high</strong>, not low, because digoxin blocks the sodium-potassium pump and pushes potassium out of cells — which is why giving more potassium here would be dangerous.\n\nWhy the other options fail:\n• A — Waiting for a level in a patient with a ventricular arrhythmia wastes the time the antibody needs.\n• B — More digoxin deepens the toxicity that is already life-threatening.\n• C — The potassium is already dangerously high; giving more risks cardiac arrest.\n\nReference: Ghana STG — poisoning; British National Formulary — digoxin-specific antibody fragments\n",
+  "strategy": "When the rhythm is dangerous or the potassium is high, bind the drug. Antibody fragments, never more potassium.",
   "difficulty": "hard",
   "tags": [
    "pharmacology-parenteral",
@@ -74169,28 +74169,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2168",
   "categorySlug": "fluid-electrolyte",
-  "stem": "A patient has a pH of 7.22, a bicarbonate of 12 mmol/L and a carbon dioxide of 3.6 kPa. How is this **best** described?",
+  "stem": "In a blood gas the pH is low and the bicarbonate is also low. Which system is responsible for the acidosis?",
   "choices": [
    {
     "id": "a",
-    "text": "Respiratory acidosis with partial metabolic compensation"
+    "text": "The respiratory system, because it is the lungs that retain carbon dioxide and push the pH down"
    },
    {
     "id": "b",
-    "text": "Metabolic alkalosis with partial respiratory compensation"
+    "text": "Neither system; a low bicarbonate alongside a low pH is always a laboratory error"
    },
    {
     "id": "c",
-    "text": "Metabolic acidosis with partial respiratory compensation"
+    "text": "The metabolic system, because bicarbonate has moved in the same direction as the pH"
    },
    {
     "id": "d",
-    "text": "A fully compensated respiratory alkalosis"
+    "text": "Both systems equally, since the two values have both fallen from their normal ranges"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Metabolic acidosis with partial respiratory compensation\". The pH is low, so the patient is acidotic. The bicarbonate is low, which is the <strong>same direction as the pH, so the metabolic side is the cause</strong>. The carbon dioxide is also low, the opposite direction, showing that the lungs are blowing off acid to compensate; because the pH has not returned to normal the compensation is partial. Applying the three steps in order removes the need to memorise patterns.\n\nWhy the other options fail:\n• A — A respiratory cause would show a raised carbon dioxide, not a low one.\n• B — An alkalosis requires a pH above 7.45, and this pH is low.\n• D — Full compensation would return the pH to the normal range, which has not happened.\n\nReference: Ghana Health Service critical care guidance",
-  "strategy": "pH says which way. The value moving the same way is the cause. The one moving the other way is compensating.",
+  "rationale": "CORRECT (C) — \"The metabolic system, because bicarbonate has moved in the same direction as the pH\". There is a single rule that settles most gases before any arithmetic. Look at the bicarbonate and the pH: when they move in the <strong>same</strong> direction, the metabolic side is the cause, because bicarbonate is the metabolic buffer and its fall is what dragged the pH down with it. When they move in <strong>opposite</strong> directions, the respiratory side is the cause, because carbon dioxide is the acid gas and the bicarbonate change is the body compensating. Here both are low, so the cause is metabolic, and a low carbon dioxide would mean the lungs are compensating.\n\nWhy the other options fail:\n• A — A respiratory acidosis has a high carbon dioxide and a bicarbonate that rises in compensation, not falls.\n• B — A low bicarbonate with a low pH is the ordinary picture of metabolic acidosis, not an error.\n• D — Only one system causes an acidosis; the other compensates, and the direction rule tells you which is which.\n\nReference: Ghana STG — fluid, electrolyte and acid-base disorders\n",
+  "strategy": "Same direction means metabolic cause; opposite directions mean respiratory cause. The bicarbonate moves with the pH when it is the culprit.",
   "difficulty": "hard",
   "tags": [
    "fluid-electrolyte",
@@ -117468,28 +117468,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-MCH-0006",
  "categorySlug": "maternal-newborn",
- "stem": "A client receiving a magnesium sulfate infusion for pre-eclampsia has a respiratory rate of 9 per minute and absent patellar reflexes. What is the priority action?",
+ "stem": "A woman at 34 weeks complains of intense itching, worst on the palms and soles and worse at night, with no rash to see. What should the nurse do?",
  "choices": [
   {
    "id": "a",
-   "text": "Continue the infusion at the same rate and recheck in an hour"
+   "text": "Reassure her that itching is normal in late pregnancy, and suggest a moisturiser"
   },
   {
    "id": "b",
-   "text": "Stop the infusion, call for help and prepare calcium gluconate"
+   "text": "Report it, because it may be obstetric cholestasis and the baby is at risk"
   },
   {
    "id": "c",
-   "text": "Help her walk to the bathroom to assess her strength"
+   "text": "Advise a cool bath and an antihistamine, and review her in two weeks"
   },
   {
    "id": "d",
-   "text": "Give a sedative so she can rest"
+   "text": "Test her urine for protein, since the itching suggests pre-eclampsia"
   }
  ],
  "correctChoiceId": "b",
- "rationale": "Loss of deep tendon reflexes followed by respiratory depression is the classic progression of magnesium toxicity, and it can go on to cardiac arrest. The infusion is stopped immediately, breathing is supported, and calcium gluconate, the antidote, is given as prescribed. Option A lets the level climb further. Option C is unsafe in a woman who is already hypoventilating and at risk of falling. Option D would deepen the respiratory depression.",
- "strategy": "Reflexes disappear before breathing fails. Stop the magnesium and reach for calcium gluconate.",
+ "rationale": "CORRECT (B) — \"Report it, because it may be obstetric cholestasis and the baby is at risk\". Itch that has no rash, that settles on the palms and soles and that is worse at night is the classic picture of obstetric cholestasis, caused by bile acids backing up in the maternal circulation. The danger is not to the mother's skin — it is the raised bile acid level, which is linked to preterm labour, fetal distress and stillbirth. She needs liver function and serum bile acids measured, vitamin K considered, and planned delivery in the late preterm window rather than a wait for term. Antihistamines do not treat the cause.\n\nWhy the other options fail:\n• A — Itch without a rash in the third trimester is not the ordinary itch of stretched skin, and moisturiser treats nothing.\n• C — Antihistamines relieve the sensation and leave the bile acids, and the fetus, unmonitored.\n• D — Pre-eclampsia causes generalised itching only rarely, and proteinuria would not explain this pattern.\n\nReference: WHO recommendations on maternal and newborn care; Ghana STG — obstetric care; RCOG — obstetric cholestasis\n",
+ "strategy": "Itch with no rash, palms and soles, worse at night: measure bile acids, because the risk is the baby, not the skin.",
  "difficulty": "hard",
  "tags": [
   "magnesium",
