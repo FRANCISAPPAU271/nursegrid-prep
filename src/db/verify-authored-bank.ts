@@ -57,6 +57,21 @@ for (const q of AUTHORED_QUESTIONS) {
   if (!q.choices.some((c) => c.id === q.correctChoiceId)) {
     fail(`${id}: correctChoiceId "${q.correctChoiceId}" not among choices`);
   }
+  // The rationale quotes the keyed option and names its letter. If a shuffle ever
+  // reorders options without rewriting that letter, the page tells the student the
+  // wrong answer is correct. Three items shipped that way before this check existed.
+  const cm = q.rationale.match(/CORRECT\s*\(([A-D])\)\s*[\u2014\u2013:-]\s*["\u201c]([^"\u201d]+)["\u201d]/);
+  if (cm) {
+    const letter = cm[1].toLowerCase();
+    if (letter !== q.correctChoiceId) {
+      fail(`${id}: rationale says CORRECT (${cm[1].toUpperCase()}) but the key is ${q.correctChoiceId}`);
+    }
+    const keyed = q.choices.find((c) => c.id === q.correctChoiceId);
+    const quoted = norm(cm[2]);
+    if (keyed && !norm(keyed.text).startsWith(quoted.slice(0, 40))) {
+      fail(`${id}: rationale quotes "${cm[2].slice(0, 46)}" but the keyed option reads "${keyed.text.slice(0, 46)}"`);
+    }
+  }
   if (!q.stem.trim()) fail(`${id}: empty stem`);
   if (!q.rationale.trim()) fail(`${id}: empty rationale`);
   if (!q.strategy.trim()) fail(`${id}: empty strategy`);
