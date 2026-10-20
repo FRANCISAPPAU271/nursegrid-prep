@@ -34364,28 +34364,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRG-1003",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "Why does oral rehydration solution contain glucose as well as salt?",
+  "stem": "A mother is shown how to give oral rehydration solution to her child with diarrhoea. Why is it given in small frequent sips with a spoon rather than as one large volume?",
   "choices": [
    {
     "id": "a",
-    "text": "Glucose is added purely to improve the taste for children who refuse it"
+    "text": "A large volume at once is too expensive for most households to prepare"
    },
    {
     "id": "b",
-    "text": "Glucose drives the co-transport that carries sodium and water into the blood"
+    "text": "Small amounts are absorbed despite vomiting, while a large volume comes back up"
    },
    {
     "id": "c",
-    "text": "Glucose supplies the entire energy requirement during acute diarrhoea"
+    "text": "Sips are used only because the child is likely to refuse a cup"
    },
    {
     "id": "d",
-    "text": "Glucose slows the movement of the bowel and so stops the diarrhoea"
+    "text": "Small volumes increase the concentration of sodium in each swallow"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Glucose drives the co-transport that carries sodium and water into the blood\". Sodium and glucose are absorbed together by a <strong>co-transport mechanism in the small intestine that continues to work during diarrhoea</strong>, and water follows the sodium. This single physiological fact is why oral rehydration therapy works and why it has saved more lives than almost any other intervention. It also explains why the <strong>proportions matter</strong>: a home mixture that is too sweet <strong>draws water into the gut and worsens the diarrhoea</strong>.\n\nWhy the other options fail:\n• A — Palatability is a minor benefit; the glucose is there for a specific transport mechanism.\n• C — The glucose content is far too small to meet energy needs, which is why feeding continues.\n• D — Oral rehydration replaces losses rather than stopping the diarrhoea itself.\n\nReference: Ghana nursing curriculum — fluid therapy",
-  "strategy": "Ask what each ingredient does. Here glucose is the carrier, not a sweetener or a food.",
+  "rationale": "CORRECT (B) — \"Small amounts are absorbed despite vomiting, while a large volume comes back up\". Rehydration depends on what stays down and crosses the gut wall, not on what is offered. A child who is vomiting will usually keep a few millilitres given slowly by spoon or cup every one to two minutes, while a full cup tipped in at once distends the stomach, provokes another vomit and is lost. The mother is taught to keep going, to give more if the child wants it, and to watch for the signs that fluid is going in: passing urine, a moist mouth and a softer fontanelle in an infant. If the child cannot drink at all, or vomits everything, the route has failed and the child needs intravenous fluid.\n\nWhy the other options fail:\n• A — Cost does not change with how the same solution is divided; the point is tolerance.\n• C — Refusal is handled by patience and by offering the solution from a cup or spoon the child accepts, not by the size of the sip.\n• D — The concentration is fixed by the sachet and the water added; dividing the volume does not change it.\n\nReference: Ghana STG — diarrhoeal disease in children; WHO ORS guidance",
+  "strategy": "It is what stays down that rehydrates. Small and often beats one big cup.",
   "difficulty": "hard",
   "tags": [
    "pharmacology-parenteral",
@@ -34502,28 +34502,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRG-1007",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A Ghanaian patient on antipsychotics develops a temperature of 39.8 °C with marked muscle rigidity and confusion. What is required?",
+  "stem": "A mother is given artemether-lumefantrine dispersible tablets for her child's uncomplicated malaria. What must she be told about giving them?",
   "choices": [
    {
     "id": "a",
-    "text": "Give a malaria treatment course and observe him on the ward overnight"
+    "text": "Give them on an empty stomach so that the medicine is absorbed faster"
    },
    {
     "id": "b",
-    "text": "Increase the antipsychotic dose because the confusion has clearly worsened"
+    "text": "Stop the course once the fever has settled, usually after the second dose"
    },
    {
     "id": "c",
-    "text": "Give paracetamol and reassess his temperature in about four hours"
+    "text": "Give them with iron-rich food to replace what the malaria has destroyed"
    },
    {
     "id": "d",
-    "text": "Stop the drug, begin cooling and fluids and obtain urgent medical help"
+    "text": "Give them with milk or a fatty meal, and complete all six doses"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Stop the drug, begin cooling and fluids and obtain urgent medical help\". Fever with <strong>lead-pipe rigidity, altered consciousness and autonomic instability</strong> in a patient on antipsychotics is <strong>neuroleptic malignant syndrome</strong>, which can be fatal within a day. Treatment is <strong>immediate withdrawal of the drug, active cooling, intravenous fluids to protect the kidneys from myoglobin, and urgent medical review</strong>. In Ghana the trap is real: fever invites a malaria diagnosis, so <strong>the rigidity must be examined as carefully as the temperature</strong>.\n\nWhy the other options fail:\n• A — Malaria should be tested for, but treating it alone leaves a rapidly fatal drug reaction untreated.\n• B — Increasing the drug that caused the syndrome would be catastrophic.\n• C — An antipyretic and delayed reassessment waste the hours in which this condition kills.\n\nReference: Ghana nursing curriculum — psychotropic emergencies",
-  "strategy": "Fever plus rigidity plus a psychotropic drug is an emergency. Stop the drug before doing anything else.",
+  "rationale": "CORRECT (D) — \"Give them with milk or a fatty meal, and complete all six doses\". The lumefantrine in the combination is poorly absorbed unless there is fat in the stomach, so the tablet is taken with breast milk, milk, or a meal that contains some oil. Without it the blood level stays too low to clear the parasites, which is how recrudescence and eventually resistance are produced. The course is six doses over three days, at 0, 8, 24, 36, 48 and 60 hours, and it is finished even when the fever has gone. The child is also weighed so the dose matches the weight band.\n\nWhy the other options fail:\n• A — An empty stomach reduces absorption of lumefantrine; the fat is part of how the drug works.\n• B — Stopping early leaves parasites behind and is a direct cause of treatment failure and resistance.\n• C — Iron has nothing to do with the malaria or the drug, and giving iron during the acute illness is not the priority.\n\nReference: Ghana STG — malaria in children; WHO ACT dosing guidance",
+  "strategy": "Lumefantrine needs fat, and malaria needs all six doses. Milk with it, finish the course.",
   "difficulty": "hard",
   "tags": [
    "pharmacology-parenteral",
@@ -34536,28 +34536,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRG-1008",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A Ghanaian patient on lithium develops vomiting, coarse tremor and slurred speech during a hot, dry spell. What is the cause?",
+  "stem": "A Ghanaian man taking phenytoin for epilepsy develops unsteadiness, slurred speech and jerky movements of the eyes. What has happened?",
   "choices": [
    {
     "id": "a",
-    "text": "An unrelated viral illness that happens to have occurred at this time"
+    "text": "A viral illness that will settle without any change to his medicines"
    },
    {
     "id": "b",
-    "text": "Insufficient lithium, so the dose should be increased without delay"
+    "text": "Under-treatment, so the dose should be increased at the next visit"
    },
    {
     "id": "c",
-    "text": "A normal effect of lithium that appears in every patient taking it"
+    "text": "An expected effect showing he has reached a steady level in the blood"
    },
    {
     "id": "d",
-    "text": "Lithium toxicity, because dehydration has raised the level in the blood"
+    "text": "Phenytoin toxicity, because the level has risen above the therapeutic range"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Lithium toxicity, because dehydration has raised the level in the blood\". Lithium has a <strong>very narrow therapeutic index</strong> and is <strong>excreted unchanged by the kidney</strong>. Anything reducing renal clearance — <strong>dehydration, hot weather, vomiting, low salt intake, diuretics or nonsteroidal anti-inflammatory drugs</strong> — raises the blood level into the toxic range. Warning signs are <strong>vomiting, diarrhoea, coarse tremor, slurred speech, unsteadiness and drowsiness</strong>. The nurse withholds the dose, reports urgently and ensures rehydration.\n\nWhy the other options fail:\n• A — This exact symptom cluster in a lithium patient during dehydration is characteristic of toxicity.\n• B — Increasing the dose in toxicity could be fatal; the level is already too high.\n• C — A fine tremor may occur normally, but coarse tremor with vomiting and slurred speech is toxicity.\n\nReference: Ghana nursing curriculum — mood stabilisers",
-  "strategy": "For renally cleared narrow-margin drugs, anything causing dehydration causes toxicity. Ask about fluid loss.",
+  "rationale": "CORRECT (D) — \"Phenytoin toxicity, because the level has risen above the therapeutic range\". Nystagmus, ataxia and dysarthria are the classic dose-related signs of too much phenytoin, and they appear in that order as the level climbs past the therapeutic range of about 10 to 20 mg/L. The margin is narrow and easily crossed: a modest dose increase, a change in another drug that competes for the same liver enzymes, or a fall in the albumin that carries the drug all raise the free level. The nurse withholds the next dose, reports the signs and arranges a blood level rather than adjusting anything.\n\nWhy the other options fail:\n• A — The combination of eye signs, ataxia and slurred speech in a patient on an anticonvulsant is not a coincidental viral illness.\n• B — Increasing the dose in the presence of toxicity deepens it; the level is already too high.\n• C — A steady level inside the range produces no symptoms; these signs mean the level is above it.\n\nReference: Ghana STG — epilepsy; British National Formulary phenytoin monitoring",
+  "strategy": "Eyes jerk, then the gait, then the speech. Phenytoin toxicity climbs in that order.",
   "difficulty": "hard",
   "tags": [
    "pharmacology-parenteral",
@@ -77229,28 +77229,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2254",
   "categorySlug": "gerontology-community",
-  "stem": "Attendance at an outreach session in a farming community is consistently poor. Which adjustment is **most** likely to help?",
+  "stem": "A newly opened CHPS compound has an elected community health committee. What is the committee's **main** role?",
   "choices": [
    {
     "id": "a",
-    "text": "Extend the length of each session so latecomers can be seen"
+    "text": "To interview and appoint the community health officer for the zone"
    },
    {
     "id": "b",
-    "text": "Ask the chief to instruct residents to attend the sessions"
+    "text": "To take over the day-to-day running of the compound from the nurse"
    },
    {
     "id": "c",
-    "text": "Move the session to the district hospital where facilities are better"
+    "text": "To raise funds that replace the district's budget for the facility"
    },
    {
     "id": "d",
-    "text": "Reschedule the session to a time and day when people are not on their farms"
+    "text": "To link the community and the service, plan with it and hold it accountable"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Reschedule the session to a time and day when people are not on their farms\". Poor attendance is usually a timing problem rather than an attitude problem: <strong>a session held at ten in the morning during the farming season competes with the work that feeds the household</strong>. Aligning outreach with market days, early mornings or the agricultural calendar consistently raises attendance. Fitting the service to the community's rhythm is a core skill of community practice.\n\nWhy the other options fail:\n• A — A longer session at the wrong time still clashes with the same obligations.\n• B — Instruction from the chief may produce brief compliance but does not resolve the conflict with work.\n• C — Moving further away increases the barrier that outreach exists to remove.\n\nReference: Ghana Health Service outreach service guidance",
-  "strategy": "Fit the service to the community's day. Attendance is usually about timing, not willingness.",
+  "rationale": "CORRECT (D) — \"To link the community and the service, plan with it and hold it accountable\". The community health committee is the governance bridge of the CHPS zone: it is elected by the community, it agrees the priorities and the outreach calendar with the community health officer, it mobilises local support such as accommodation for the nurse, it carries complaints in both directions, and it reports back to the people it represents. That two-way link is what makes the compound a community service rather than a clinic that happens to be nearby.\n\nWhy the other options fail:\n• A — The community health officer is recruited and posted by the Ghana Health Service through the district; the committee is consulted, not the employer.\n• B — Clinical and administrative running of the compound remains with the community health officer and the sub-district, not with a lay committee.\n• C — The committee may mobilise small local contributions, but the recurrent budget and the staff come from the district and must not be replaced by fundraising.\n\nReference: Ghana Health Service — CHPS implementation guidelines",
+  "strategy": "The committee links and holds to account. It does not hire, run the clinic or fund it.",
   "difficulty": "medium",
   "tags": [
    "gerontology-community",
@@ -78149,28 +78149,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2280",
   "categorySlug": "gerontology-community",
-  "stem": "A sub-district records no cases of any notifiable disease during a reporting week. What should be submitted?",
+  "stem": "A volunteer reports a child who became unable to stand three weeks after a fever and now has weak, floppy legs. What does this represent for the surveillance system?",
   "choices": [
    {
     "id": "a",
-    "text": "No return, since there is nothing to report"
+    "text": "A case that need not be reported now that polio has been eradicated from the region"
    },
    {
     "id": "b",
-    "text": "A return covering only the routine outpatient attendances"
+    "text": "A surgical problem to be referred to the district hospital through the usual route"
    },
    {
     "id": "c",
-    "text": "A return stating that no cases occurred"
+    "text": "Acute flaccid paralysis, which must be notified and investigated at once"
    },
    {
     "id": "d",
-    "text": "A verbal report to the district director instead of a written one"
+    "text": "A case to be entered in the weekly return and reviewed at the end of the month"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"A return stating that no cases occurred\". Zero reporting is mandatory: <strong>a return stating explicitly that no cases occurred distinguishes a genuinely disease-free week from a week in which nobody reported</strong>. Without it, silence is ambiguous and the surveillance system cannot tell absence of disease from absence of reporting. This is one of the most frequently neglected requirements and one of the most reliably examined.\n\nWhy the other options fail:\n• A — Sending nothing is precisely the ambiguity that zero reporting exists to prevent.\n• B — Attendance figures do not substitute for the surveillance return.\n• D — The requirement is a formal written return, not an informal message.\n\nReference: Ghana Health Service Integrated Disease Surveillance and Response",
-  "strategy": "Report the nothing. Silence and zero are different data.",
+  "rationale": "CORRECT (C) — \"Acute flaccid paralysis, which must be notified and investigated at once\". Any child under fifteen with sudden weakness or floppiness of a limb, with or without fever, is a case of acute flaccid paralysis until proven otherwise, and AFP surveillance is the system that would detect a return of polio. The report goes to the district the same day, two stool specimens are collected 24 to 48 hours apart and sent to the designated laboratory, the child is reviewed at 60 days to see whether the weakness has persisted, and the immediate neighbourhood is checked for other cases and for vaccination coverage. None of that happens if the case is filed as a routine return.\n\nWhy the other options fail:\n• A — Eradication in a region is exactly when surveillance must stay sensitive: the risk that matters is importation, and it is detected only by reporting every flaccid case.\n• B — Weakness after a fever is not a surgical problem, and referral alone bypasses the specimen collection and the 60-day review that the system needs.\n• D — A case of AFP is immediately notifiable, not a weekly count; a month's delay loses both the specimens and the chance to find other cases.\n\nReference: Ghana Health Service — IDSR technical guidelines; AFP surveillance",
+  "strategy": "Floppy limb in a child is AFP first. Notify the same day, two stools, review at 60 days.",
   "difficulty": "medium",
   "tags": [
    "gerontology-community",
