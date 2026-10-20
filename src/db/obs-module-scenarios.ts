@@ -250,16 +250,16 @@ export const OBS_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-OBS-014",
     categorySlug: "maternal-newborn",
-    stem: "During a vaginal delivery, the fetal head delivers but retracts tightly against the maternal perineum ('turtle sign'). The anterior shoulder fails to deliver with gentle downward traction. The midwife recognizes shoulder dystocia. Which intervention should the clinical team perform FIRST?",
+    stem: "A shoulder dystocia has just been recognised. Which action must the team avoid?",
     choices: [
-      { id: "a", text: "Apply firm fundal pressure from above the uterus while pulling down on the infant's neck, since this rotates the shoulder under the pubic symphysis" },
-      { id: "b", text: "Perform a fundal push while extending the episiotomy, so that the extra room at the outlet and the pressure from above work together to free the shoulder" },
-      { id: "c", text: "Attempt immediate vacuum extraction on the fetal scalp, because applying traction to the head will draw the impacted shoulder through the pelvic outlet" },
-      { id: "d", text: "Perform the McRoberts maneuver (hyperflex the mother's hips against her abdomen) while an assistant applies downward suprapubic pressure" }
+      { id: "a", text: "Ask the woman to stop pushing and take slow breaths between efforts" },
+      { id: "b", text: "Note the time the head was born and call for extra help and a paediatrician" },
+      { id: "c", text: "Turn her onto all fours if the first manoeuvres do not release the shoulder" },
+      { id: "d", text: "Press hard on the fundus from above while pulling on the baby's head" }
     ],
-    correctChoiceId: "d",
-    rationale: "Shoulder dystocia occurs when the fetal anterior shoulder impacts against the maternal symphysis pubis. The first-line, most effective intervention is the McRoberts Maneuver (hyperflexing the mother's legs tightly back against her abdomen), which flattens the sacral promontory and widens the pelvic outlet, combined with simultaneous downward and lateral Suprapubic Pressure to disimpact the shoulder under the pubic bone. Fundal pressure is strictly CONTRAINDICATED because it impacts the shoulder harder, ruptures the uterus, and causes permanent brachial plexus injury (Erb's palsy). Why the other options fail: option a applies fundal pressure, which is contraindicated in shoulder dystocia because it drives the impacted shoulder further under the symphysis and is a recognised cause of brachial plexus injury and uterine rupture. Option c applies traction to the head, which stretches the plexus without freeing the shoulder. Option b combines the two errors with an episiotomy that does not relieve a bony impaction.",
-    strategy: "Shoulder dystocia management: McRoberts maneuver + Suprapubic pressure. Strict contraindication: NEVER apply fundal pressure (it wedges the shoulder tighter and tears the brachial plexus).",
+    "correctChoiceId": "d",
+    rationale: "CORRECT (D) — \"Press hard on the fundus from above while pulling on the baby's head\". Fundal pressure is the one manoeuvre that must not be used. The shoulder is already jammed against the symphysis pubis, and pushing the uterus down drives it harder into the bone while adding nothing to the room at the outlet; the combination with traction on the head is what snaps the brachial plexus and can rupture the uterus. The pressure that helps is <strong>suprapubic</strong> — downwards and laterally above the bladder, behind the anterior shoulder — and it is used together with the McRoberts manoeuvre, not instead of it.\n\nWhy the other options fail:\n• A — Telling her to stop pushing is correct; each push drives the impacted shoulder further into the symphysis.\n• B — Calling for help and noting the time of the head's birth are both required, because the decision clock for the later manoeuvres starts there.\n• C — All fours is a recognised manoeuvre when the first steps fail, and it is safe.\n\nReference: WHO recommendations on intrapartum care; Ghana STG — obstetric emergencies\n",
+    strategy: "Suprapubic, never fundal. Push the shoulder from behind the pubis and never add traction to a jammed shoulder.",
     difficulty: "medium",
     tags: ["obstetrics", "shoulder-dystocia", "mcroberts-maneuver", "suprapubic-pressure", "emergencies"],
     isFree: false,

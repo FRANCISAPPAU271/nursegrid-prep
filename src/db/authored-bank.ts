@@ -79439,28 +79439,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2317",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman sustains a perineal tear involving the perineal muscles and part of the anal sphincter. How is this tear classified?",
+  "stem": "Three days after the repair of a third degree tear, a woman says she is frightened to open her bowels in case the stitches give way. What is the best advice?",
   "choices": [
    {
     "id": "a",
-    "text": "First degree"
+    "text": "Avoid bulky food and hold the bowels back for a few days, so that the repair can settle"
    },
    {
     "id": "b",
-    "text": "Second degree"
+    "text": "Ask for an enema, so that the bowel is emptied once and then leaves the stitches alone"
    },
    {
     "id": "c",
-    "text": "Third degree"
+    "text": "Take the lactulose prescribed, because a soft stool strains the repair less than constipation"
    },
    {
     "id": "d",
-    "text": "Fourth degree"
+    "text": "Strain gently with a pad pressed on the perineum, and use a glycerin suppository if nothing comes"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Third degree\". Perineal tears are graded by the deepest structure involved. First degree involves skin and vaginal mucosa only; second degree extends into the perineal muscles; third degree involves the anal sphincter complex; and fourth degree continues through the sphincter into the anal or rectal mucosa. Third and fourth degree tears must be repaired by someone trained in the technique, in theatre with good lighting and anaesthesia, because a poor repair leaves the woman incontinent of flatus or faeces for life. The principle is that classification exists to determine who repairs it and where.\n\nWhy the other options fail:\n• A — First degree is confined to skin and vaginal mucosa and does not involve muscle at all.\n• B — Second degree reaches the perineal muscles but stops short of the anal sphincter, which is the boundary being tested here.\n• D — Fourth degree extends beyond the sphincter into the anal or rectal mucosa, which the stem does not describe.\n\nReference: RCOG classification of perineal trauma",
-  "strategy": "Anchor the grades to the anal sphincter: everything below it is first or second, reaching it is third, and going through it is fourth. One landmark resolves the whole classification.",
+  "rationale": "CORRECT (C) — \"Take the lactulose prescribed, because a soft stool strains the repair less than constipation\". A repaired anal sphincter is at its most vulnerable in the first week, and what threatens it is not a soft stool but the straining that comes from hard, impacted faeces. A stool softener such as lactulose is given routinely after repair of a third or fourth degree tear for exactly this reason, with plenty of fluid and a gentle return to an ordinary diet. It is continued until she is passing soft stool without effort, and she is reviewed to check that the repair has held and that she is not leaking flatus or stool.\n\nWhy the other options fail:\n• A — Holding the bowels back lets the faeces harden, and the strain when they finally pass is far worse for the repair than a soft stool on day three.\n• B — An enema drives stool and fluid against a fresh repair and can disrupt it.\n• D — Bearing down against a hand is what the softener exists to avoid, and a suppository provokes the same sudden effort.\n\nReference: WHO recommendations for postnatal care of the mother and newborn; Ghana STG — obstetric care\n",
+  "strategy": "After a sphincter repair the enemy is constipation, not the stool. Soft, easy stool for the first weeks, and ask about leakage at every review.",
   "difficulty": "medium",
   "tags": [
    "maternal-newborn",
@@ -110479,28 +110479,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-BATCH2-0005",
  "categorySlug": "med-surg",
- "stem": "A client receiving unfractionated heparin develops a platelet fall from 220 to 92 ×10^9/L on day 7 and has a new painful swollen leg. What is the priority action?",
+ "stem": "A patient with heparin-induced thrombocytopenia has a platelet count of 85 × 10⁹/L and is not bleeding. His relative asks why he is not being given platelets. What should the nurse explain?",
  "choices": [
   {
    "id": "a",
-   "text": "Stop heparin and notify the prescriber immediately"
+   "text": "Platelets are not given, because in HIT the antibody is activated by them and the risk is clotting"
   },
   {
    "id": "b",
-   "text": "Administer the next heparin dose with food"
+   "text": "Platelets are held back only until the count falls below 50, and then two units are transfused slowly"
   },
   {
    "id": "c",
-   "text": "Give vitamin K to reverse the heparin effect"
+   "text": "Platelets would be given if he started to bleed, but they are not used as a routine top-up"
   },
   {
    "id": "d",
-   "text": "Apply a warm compress and reassess tomorrow"
+   "text": "Platelets are unnecessary because the count comes back by itself within twenty-four hours of stopping heparin"
   }
  ],
  "correctChoiceId": "a",
- "rationale": "A platelet fall greater than 50% with new thrombosis strongly suggests heparin-induced thrombocytopenia. Heparin must stop and an alternative anticoagulant is urgently prescribed.\n\nWhy the other options fail:\n• B — Giving the next dose continues the drug causing the problem; food has no bearing on an immune-mediated reaction.\n• C — Vitamin K reverses warfarin, not heparin, and would not stop the prothrombotic process.\n• D — Warm compresses and reassessment tomorrow allow a new thrombosis to extend or embolise in a condition that needs same-hour treatment.",
- "strategy": "A major platelet fall after heparin plus thrombosis is HIT until proven otherwise; stop exposure, do not wait for confirmation.",
+ "rationale": "CORRECT (A) — \"Platelets are not given, because in HIT the antibody is activated by them and the risk is clotting\". Heparin-induced thrombocytopenia is not a bleeding disorder. Antibodies against the heparin-platelet factor 4 complex switch platelets on, so the count falls while clots form in veins and arteries, and giving platelets adds fuel to that process. The treatment that matters is stopping every heparin product, including line flushes, and starting a non-heparin anticoagulant such as argatroban. Transfusion is reserved for bleeding from another cause or an invasive procedure, not for the number on the chart.\n\nWhy the other options fail:\n• B — There is no threshold at which routine transfusion becomes right in HIT; a falling count is the expected course while the antibody clears.\n• C — Even with bleeding, platelets are a last resort here, because they can worsen the thrombosis that is the real danger.\n• D — The count recovers over days once heparin stops, not in twenty-four hours, and waiting without an alternative anticoagulant leaves him thrombosing.\n\nReference: British Society for Haematology — HIT guidelines; Ghana STG — anticoagulation\n",
+ "strategy": "In HIT the platelet count is a thrombosis warning, not a bleeding warning. No platelets, no heparin, alternative anticoagulant.",
  "difficulty": "hard",
  "tags": [
   "hit",
@@ -110804,28 +110804,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-BATCH2-0016",
  "categorySlug": "pharmacology-parenteral",
- "stem": "A client has received unfractionated heparin for eight days and the platelet count has fallen from 250 to 85 × 10⁹/L. What should the nurse do first?",
+ "stem": "His platelets halved on day seven of heparin treatment and a clot formed in his calf, so the heparin has been stopped. The prescriber asks why warfarin should not start today. What is the reason?",
  "choices": [
   {
    "id": "a",
-   "text": "Continue the heparin and recheck platelets in a week"
+   "text": "Warfarin cannot be started until the platelet count is above 300, or it will not work at all"
   },
   {
    "id": "b",
-   "text": "Stop the heparin and inform the prescriber at once"
+   "text": "Warfarin started too early can cause limb gangrene, so it waits until the platelets recover"
   },
   {
    "id": "c",
-   "text": "Give vitamin K and repeat the platelet count later"
+   "text": "Warfarin and the heparin antibody together cause bleeding into the brain in the first week"
   },
   {
    "id": "d",
-   "text": "Document the result and wait for the next ward round"
+   "text": "Warfarin is never used again in anyone who has had heparin-induced thrombocytopenia"
   },
  ],
  "correctChoiceId": "b",
- "rationale": "A fall of more than 50 per cent after five or more days of heparin is heparin-induced thrombocytopenia. The drug must be stopped immediately because it causes thrombosis, not just bleeding, and an alternative anticoagulant is usually needed.\n\nWhy the other options fail:\n• A — Continuing heparin allows further antibody-mediated platelet activation and thrombosis.\n• C — Vitamin K reverses warfarin, not heparin, and delays the one action that matters.\n• D — A halving of platelets is a critical finding, not a note for later.\n\nReference: Ghana STG — heparin therapy; monitoring",
- "strategy": "A falling platelet count on heparin means stop the drug first and ask questions after.",
+ "rationale": "CORRECT (B) — \"Warfarin started too early can cause limb gangrene, so it waits until the platelets recover\". Warfarin lowers protein C before it lowers the clotting factors, and in a patient already switched into a prothrombotic state by the heparin antibody that tips the balance towards <strong>venous limb gangrene</strong> — tissue death in a limb that is already thrombosing. So warfarin is deferred until the platelet count has recovered, usually to above 150 × 10⁹/L, and it is then overlapped with a non-heparin anticoagulant for at least five days. Warfarin can be used again afterwards; it is the timing that was wrong, not the drug.\n\nWhy the other options fail:\n• A — The threshold is about recovery of platelets and control of the thrombosis, not a figure above 300.\n• C — The hazard of early warfarin in HIT is venous gangrene, not intracranial bleeding.\n• D — Warfarin is not permanently forbidden; it is started later, under cover of another anticoagulant.\n\nReference: British Society for Haematology — HIT guidelines; Ghana STG — anticoagulation\n",
+ "strategy": "Stop heparin, cover with a non-heparin anticoagulant, and let warfarin wait until the platelets are back. Early warfarin costs the limb.",
  "difficulty": "hard",
  "tags": ["heparin", "HIT", "platelets", "adverse-effect"],
  "isFree": false
