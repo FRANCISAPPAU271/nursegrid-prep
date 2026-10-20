@@ -43426,28 +43426,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BST-1268",
   "categorySlug": "risk-reduction",
-  "stem": "A scale consistently reads 2 kg above the true weight of every patient. How is it **best** described?",
+  "stem": "A trial reports that 4 in 100 patients die with placebo and 3 in 100 with the new treatment. What does the number needed to treat show?",
   "choices": [
    {
     "id": "a",
-    "text": "Accurate but not precise, since the readings vary around the truth"
+    "text": "It is 1, because the treatment lowers the risk of death by one percentage point"
    },
    {
     "id": "b",
-    "text": "Both accurate and precise, since the readings are highly consistent"
+    "text": "It is about 100, so roughly 100 patients must be treated to save one extra life"
    },
    {
     "id": "c",
-    "text": "Neither accurate nor precise, since it produces a random result"
+    "text": "It is about 25, which means a quarter of the patients treated will be saved by the drug"
    },
    {
     "id": "d",
-    "text": "Precise but not accurate, since the same error repeats every time"
+    "text": "It cannot be calculated, because a fall from 4 to 3 per cent is too small to matter"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Precise but not accurate, since the same error repeats every time\". <strong>Precision is consistency; accuracy is closeness to the truth.</strong> A scale that is always 2 kg high is perfectly repeatable and perfectly wrong, and that is the dangerous combination, because consistency inspires confidence. This is <strong>systematic error, or bias</strong>, and no amount of extra measurement removes it — only calibration does. Random error, by contrast, scatters around the truth and does average out with more measurements.\n\nWhy the other options fail:\n• A — The readings do not vary at all; they are consistently displaced in one direction.\n• B — Consistency alone is not accuracy when every reading is wrong by the same amount.\n• C — The error is entirely systematic rather than random, so precision is high.\n\nReference: Ghana nursing curriculum — BCA 201 statistics",
-  "strategy": "Consistent error is bias and never averages out. Only calibration corrects it.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"It is about 100, so roughly 100 patients must be treated to save one extra life\". The absolute risk falls by 1 percentage point, from 4 per cent to 3 per cent, and the number needed to treat is 100 divided by that absolute difference — so 100. It is the plainest way to say how much work produces one benefit, and it lets a nurse weigh that against the cost, the injections and the side effects. A smaller number needed to treat means a more powerful treatment; the relative reduction of 25 per cent sounds far more impressive than the one life saved per hundred, which is exactly why both figures are reported.\n\nWhy the other options fail:\n• A — One percentage point is the absolute risk reduction, not the number needed to treat.\n• C — A quarter is the relative risk reduction; it is not the number of patients treated.\n• D — It can be calculated, and a small absolute effect matters greatly when the disease is common.\n\nReference: Cochrane — presenting benefit; Ghana Nursing and Midwifery Council — research appreciation\n",
+  "strategy": "Number needed to treat is one divided by the absolute risk reduction. A 1 per cent fall means 100 patients per life saved.",
   "difficulty": "hard",
   "tags": [
    "risk-reduction",
@@ -72750,28 +72750,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRD-2127",
   "categorySlug": "health-promotion",
-  "stem": "Which complementary approach has reasonable evidence for use alongside conventional care?",
+  "stem": "A man with fever drinks a herbal mixture for four days before coming to the clinic. Why is that delay dangerous when the fever is malaria?",
   "choices": [
    {
     "id": "a",
-    "text": "Homeopathic dilutions for the treatment of bacterial infection"
+    "text": "Because the herbs block chloroquine, so the antimalarial will no longer work afterwards"
    },
    {
     "id": "b",
-    "text": "Massage and relaxation techniques for pain and anxiety"
+    "text": "Because the herbal mixture ferments in the stomach and makes the fever much harder to measure"
    },
    {
     "id": "c",
-    "text": "Magnetic bracelets for the management of joint disease"
+    "text": "Because malaria can become severe within a day, while a test and treatment act at once"
    },
    {
     "id": "d",
-    "text": "Detoxification regimens for the removal of body toxins"
+    "text": "Because four days is the exact incubation period, after which treatment can no longer help at all"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Massage and relaxation techniques for pain and anxiety\". Massage, relaxation and similar approaches <strong>have reasonable evidence for reducing pain, anxiety and distress, are low risk, and are used alongside conventional treatment rather than instead of it</strong>. The others lack a plausible mechanism and supporting evidence. The distinction a nurse needs is not orthodox versus traditional but <strong>evidence and risk on one axis, and whether the therapy replaces or accompanies real treatment on the other</strong>.\n\nWhy the other options fail:\n• A — Homeopathy has no demonstrated effect on infection.\n• C — Magnetic devices have not shown benefit in trials.\n• D — Detoxification regimens rest on no physiological basis.\n\nReference: WHO traditional and complementary medicine; evidence reviews",
-  "strategy": "Judge by evidence and risk, not by which tradition it came from.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Because malaria can become severe within a day, while a test and treatment act at once\". In a person with little immunity, especially a child or a pregnant woman, falciparum malaria can move from fever to convulsions, acidosis and severe anaemia in a single day, and the risk climbs with every day the parasite is left untreated. A rapid diagnostic test or a blood film settles the diagnosis in minutes and artemisinin combination therapy starts immediately. The nurse's job is not to condemn the herbal mixture but to ask about it without judgement, so that the delay is not repeated and so that any toxicity is recognised, then to test and treat at once.\n\nWhy the other options fail:\n• A — Herbal mixtures do not specifically disable antimalarials; the danger is the untreated parasite.\n• B — The issue is the delay, not the measurement of temperature.\n• D — Four days is not a threshold beyond which treatment stops working; earlier is better at any point.\n\nReference: Ghana STG — malaria; WHO — management of severe malaria\n",
+  "strategy": "Malaria does not wait while herbs are tried. Test at once and treat at once, and ask about the remedy kindly.",
   "difficulty": "medium",
   "tags": [
    "health-promotion",
@@ -82554,28 +82554,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRC-2407",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient on digoxin and furosemide reports nausea, loss of appetite and says that lights appear to have yellow-green haloes. Which investigation is **most** urgent?",
+  "stem": "A boy develops fever, a widespread itchy rash and painful swollen joints eight days after being given snake antivenom. What is this, and what does it mean?",
   "choices": [
    {
     "id": "a",
-    "text": "Serum potassium and digoxin level"
+    "text": "Anaphylaxis, so he needs intramuscular adrenaline and must never have antivenom again"
    },
    {
     "id": "b",
-    "text": "Full blood count and clotting screen"
+    "text": "Serum sickness, an immune-complex reaction that settles as the foreign protein clears"
    },
    {
     "id": "c",
-    "text": "Liver function tests and serum albumin"
+    "text": "A recurrence of envenoming, so a second identical dose of antivenom must be given at once"
    },
    {
     "id": "d",
-    "text": "Chest radiograph and blood cultures"
+    "text": "Malaria acquired in the same week, so he needs a blood film and a full course of artemether"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Serum potassium and digoxin level\". Nausea, anorexia and disturbed colour vision with yellow-green haloes is the classic triad of digoxin toxicity. The essential link is the furosemide: loop diuretics cause potassium loss, and a low potassium markedly increases digoxin binding at its site of action, so a patient can become toxic while taking an unchanged and previously safe dose. That is why the potassium is measured alongside the digoxin level rather than after it. Management is to withhold the drug, correct the potassium, monitor the rhythm and use digoxin-specific antibody fragments in severe cases. The principle is that toxicity often arises from a second drug rather than from a dose change.\n\nWhy the other options fail:\n• B — A full blood count and clotting screen investigate bleeding and infection, neither of which explains visual haloes in a patient on digoxin.\n• C — Liver function tests are not the priority, since digoxin is cleared principally by the kidney rather than metabolised by the liver.\n• D — A chest radiograph and cultures pursue infection, which does not account for the visual disturbance or the specific drug combination.\n\nReference: British National Formulary — digoxin toxicity",
-  "strategy": "When a patient on several drugs becomes unwell, look for the interaction rather than a new disease. A diuretic plus digoxin, or a diuretic plus lithium, should immediately direct you to the electrolytes.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"Serum sickness, an immune-complex reaction that settles as the foreign protein clears\". Horse-protein antivenom is recognised by the immune system as foreign, and about one to two weeks later antibody-antigen complexes deposit in small vessels, producing fever, urticaria, joint pain and sometimes lymphadenopathy. It is not an allergy of the immediate kind, it is not a sign that the venom is still active, and the treatment is to stop any further exposure, give an antihistamine and a short course of steroid if the reaction is troublesome, and reassure the family that it fades as the protein is cleared.\n\nWhy the other options fail:\n• A — Anaphylaxis comes within minutes of the dose, not after eight days, and the management is quite different.\n• C — Envenoming relapse does not produce this rash-and-joints picture, and repeating antivenom adds more foreign protein.\n• D — Malaria does not follow an antivenom injection on cue, though any fever in Ghana still needs a test.\n\nReference: WHO — antivenom administration; BNF — serum sickness\n",
+  "strategy": "Antivenom given a week or two ago plus fever, rash and aching joints is serum sickness. It burns out; it does not need another dose.",
   "difficulty": "hard",
   "tags": [
    "pharmacology-parenteral",
@@ -92402,28 +92402,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2694",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana has a blood pressure of 230/130 mmHg with headache, blurred vision and confusion. What distinguishes this from severe hypertension alone?",
+  "stem": "A child is stung on the foot by a scorpion and screams with pain at the site. He is sweaty and restless but his airway, breathing and circulation are intact. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "The presence of acute organ damage, which makes it an emergency needing controlled reduction"
+    "text": "Cut the skin over the sting and suck the venom out, then apply a tight band above the ankle"
    },
    {
     "id": "b",
-    "text": "The absolute height of the reading, since any pressure above 220 is an emergency"
+    "text": "Give analgesia, apply a cold compress, and observe for severe systemic features"
    },
    {
     "id": "c",
-    "text": "The patient's age, which determines whether the reading is treated urgently"
+    "text": "Give scorpion antivenom immediately to every child who has been stung"
    },
    {
     "id": "d",
-    "text": "The fact that the diastolic exceeds 120, which alone defines the emergency"
+    "text": "Give intravenous adrenaline at once, since all scorpion stings cause anaphylaxis"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"The presence of acute organ damage, which makes it an emergency needing controlled reduction\". A hypertensive emergency is defined by evidence of acute damage to a target organ, not by the number alone: encephalopathy with headache, visual disturbance and confusion, or acute kidney injury, pulmonary oedema, aortic dissection or infarction. Severely raised pressure without such features is urgency rather than emergency and is lowered over days with oral therapy. When organ damage is present the pressure is reduced in a controlled way, usually by no more than about 25 per cent in the first hour, because the brain has adapted its autoregulation to the high pressure and a rapid drop causes cerebral ischaemia and stroke. The principle is that the organ damage, not the number, defines the emergency.\n\nWhy the other options fail:\n• B — No single threshold defines an emergency; patients live with very high readings without acute damage.\n• C — Age influences management but does not define whether an emergency exists.\n• D — A diastolic above 120 raises concern but without organ damage it is urgency rather than emergency.\n\nReference: Standard hypertension management guidance",
-  "strategy": "Look past the number to what the pressure is doing to the organs. Damage present means emergency, damage absent means urgency.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"Give analgesia, apply a cold compress, and observe for severe systemic features\". The overwhelming majority of scorpion stings cause intense local pain and a surge of adrenaline-like symptoms — sweating, restlessness, a fast heart — and settle with simple pain relief, a cold compress and tetanus prophylaxis. What changes the plan is severe systemic envenoming: profuse sweating with vomiting, agitation, hypertension, cardiac arrhythmia, pulmonary oedema, or in a small child a bulbar palsy with difficulty swallowing. Those children need antivenom and intensive support, but it is not given to every sting, and cutting, sucking or bandaging the limb only adds harm.\n\nWhy the other options fail:\n• A — Incision, suction and a tight bandage cause injury and delay nothing useful; venom is not removed this way.\n• C — Antivenom is reserved for severe systemic envenoming, not routine local pain.\n• D — Anaphylaxis is uncommon with scorpion stings; adrenaline is for anaphylaxis, not for pain.\n\nReference: WHO — scorpion stings; Ghana STG — envenoming\n",
+  "strategy": "Most scorpion stings hurt and nothing more. Treat the pain, watch for the vomiting, sweating, agitation child who needs antivenom.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -95051,28 +95051,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2771",
   "categorySlug": "med-surg",
-  "stem": "Why should blood pressure measurement and venepuncture be avoided in the arm on the side of a mastectomy with axillary node clearance in Ghana?",
+  "stem": "A rice farmer comes in with fever, severe pain in both calves and redness of the eyes after working for days in flooded fields. Which diagnosis fits, and what must be watched for?",
   "choices": [
    {
     "id": "a",
-    "text": "Because the readings obtained from that arm are consistently inaccurate"
+    "text": "Malaria, and the nurse must watch for convulsions once the fever begins to fall"
    },
    {
     "id": "b",
-    "text": "Because the surgical scar makes the arm too painful to use for procedures"
+    "text": "Typhoid, and the nurse must watch for a perforated bowel in the third week"
    },
    {
     "id": "c",
-    "text": "Because the arm has no functioning blood supply after node clearance"
+    "text": "Leptospirosis from rat urine in the water; watch the eyes turn yellow and the urine fail"
    },
    {
     "id": "d",
-    "text": "Because lymphatic drainage is impaired, so the arm is prone to lymphoedema and infection"
+    "text": "Dengue, and the nurse must watch for bleeding from the gums as the platelets begin to fall"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Because lymphatic drainage is impaired, so the arm is prone to lymphoedema and infection\". Removing axillary lymph nodes disrupts the drainage of lymph from the arm, so protein-rich fluid accumulates and the limb becomes prone to lymphoedema, which is chronic, disfiguring and difficult to reverse once established. That stagnant fluid is also a good medium for infection, and cellulitis in a lymphoedematous arm both causes and worsens swelling. Any procedure that constricts the limb or breaks the skin adds risk, so blood pressure cuffs, venepuncture, cannulation and injections use the other arm. Patients are taught skin care, prompt treatment of cuts, avoiding tight clothing, and reporting swelling early. The principle is that a limb without lymphatic drainage must be protected from constriction and puncture.\n\nWhy the other options fail:\n• A — Readings are not systematically inaccurate; the issue is the risk to the limb.\n• B — Scar pain is not the reason, and the precaution continues for life after healing.\n• C — The blood supply is intact; it is the lymphatic drainage that is impaired.\n\nReference: Standard breast surgery nursing care",
-  "strategy": "Ask which drainage system was removed. Impaired lymphatic drainage means protect the limb from puncture and constriction permanently.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Leptospirosis from rat urine in the water; watch the eyes turn yellow and the urine fail\". Rats shed the organism in their urine, it survives in warm flooded water and gets in through cuts or the lining of the mouth and eyes, so rice and cane workers are the classic patients. The illness starts like many others — fever, headache, aching calves and red eyes — but in the severe form, Weil's disease, jaundice, kidney failure and bleeding appear, and that is what the nurse watches for. Penicillin or doxycycline is given, and the family is taught to wear boots and cover cuts before going back to the fields.\n\nWhy the other options fail:\n• A — Malaria does not give beefy calf pain and red eyes as its signature, though a blood film is still done.\n• B — Typhoid gives a stepwise fever and abdominal signs, not this watery-field exposure with conjunctival redness.\n• D — Dengue is not transmitted by wading in rat-contaminated water and does not spare the kidneys in this way.\n\nReference: Ghana STG — zoonoses; WHO — leptospirosis\n",
+  "strategy": "Flooded field, rats, aching calves, red eyes: think leptospirosis, then watch the eyes turn yellow and the urine dry up.",
   "difficulty": "medium",
   "tags": [
    "med-surg",
@@ -99469,28 +99469,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2900",
   "categorySlug": "safety-infection-control",
-  "stem": "A child in Ghana has swallowed kerosene from a drinks bottle. Why must vomiting not be induced?",
+  "stem": "A woman at 37 weeks feels a gush of fluid, then a small amount of bleeding, and within minutes the fetal heart falls to 70 beats per minute. What is the likely cause and what must happen?",
   "choices": [
    {
     "id": "a",
-    "text": "Vomiting would remove too much of the fluid the child needs to stay hydrated"
+    "text": "Placental abruption, so she needs analgesia, fluids and a wait for labour to begin"
    },
    {
     "id": "b",
-    "text": "Kerosene aspirated into the lungs on vomiting causes severe chemical pneumonitis"
+    "text": "Vasa praevia with fetal blood loss, so she needs a caesarean without delay"
    },
    {
     "id": "c",
-    "text": "Induced vomiting always causes an immediate tear in the oesophagus"
+    "text": "Placenta praevia, so she needs a speculum examination to see how much she is bleeding"
    },
    {
     "id": "d",
-    "text": "The kerosene will be completely neutralised by stomach acid if it is left"
+    "text": "Cord prolapse, so she needs the cord replaced inside the vagina and a gentle wait"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Kerosene aspirated into the lungs on vomiting causes severe chemical pneumonitis\". Kerosene is a hydrocarbon with low viscosity and high volatility, so when it is vomited a small quantity spreads instantly across the alveolar surface and causes a severe chemical pneumonitis that is far more dangerous than the amount swallowed. The same rule applies to corrosives, which burn the oesophagus a second time on the way up. Management is therefore to give nothing by mouth, not to induce vomiting, to assess the airway and breathing, to give oxygen if the child is hypoxic, and to transfer for observation, since respiratory signs may develop over hours. Prevention matters most: paraffin and chemicals are never stored in drinks bottles. The principle is that some poisons do more harm coming up than going down.\n\nWhy the other options fail:\n• A — The danger is aspiration into the lungs, not the loss of fluid volume.\n• C — Oesophageal tearing is a rare complication and is not the reason for the rule.\n• D — Stomach acid does not neutralise hydrocarbons, and the risk is pulmonary.\n\nReference: Standard paediatric poisoning management",
-  "strategy": "Before inducing vomiting, ask what the substance would do to the lungs and oesophagus on the way back.",
+  "rationale": "CORRECT (B) — \"Vasa praevia with fetal blood loss, so she needs a caesarean without delay\". When the umbilical vessels run through the membranes across the cervix instead of being protected by placental tissue, rupture of the membranes tears them and the baby bleeds — the loss looks small from the outside because the blood belongs to the fetus, and the fetal heart collapses within minutes of a bleed that would barely affect the mother. That is why a small painless bleed with immediate fetal bradycardia after the membranes rupture means theatre now, and why the diagnosis is made by ultrasound before labour whenever it is suspected.\n\nWhy the other options fail:\n• A — Abruption is painful, the uterus is tense and the mother is usually unwell; waiting is wrong.\n• C — A praevia bleed is maternal and the fetal heart usually holds; speculum examination does not fix the bradycardia.\n• D — Pushing a prolapsed cord back up causes injury and delay; the cord is handled minimally and delivery is expedited.\n\nReference: RCOG — vasa praevia; Ghana STG — obstetric emergencies\n",
+  "strategy": "A small bleed, a gushing membrane and a fetal heart that collapses means the baby is bleeding. Theatre, not observation.",
   "difficulty": "hard",
   "tags": [
    "safety-infection-control",
