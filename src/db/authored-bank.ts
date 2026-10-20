@@ -6261,16 +6261,16 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Breathe in and out normally into the device for a full minute"
+    "text": "Breathe in and out normally into the device for a full minute, then read the number shown"
    },
    {
     "id": "d",
-    "text": "Take a shallow breath in and blow out gently into the mouthpiece"
+    "text": "Take a shallow breath in and blow out gently into the mouthpiece, so that the effort stays the same each time"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Take a deep breath in, seal the lips and blow out as hard and fast as possible\". Peak flow measures the <strong>maximum speed of expiration</strong>, so it requires a full inspiration followed by a short, sharp, maximal blast. The patient should be standing or sitting upright, and the best of three attempts is recorded. Poor technique produces falsely low readings that may prompt unnecessary treatment changes.\n\nWhy the other options fail:\n• A — A slow prolonged breath measures a different parameter entirely and gives a low peak reading.\n• C — Tidal breathing does not measure peak flow at all.\n• D — A shallow gentle breath produces a falsely low result and may be misread as deterioration.\n\nReference: Ghana STG — asthma monitoring",
-  "strategy": "Peak flow measures speed, not volume, so the instruction is short and forceful rather than long and slow. Always take the best of three, and compare against the patient's own best rather than a chart alone.",
+  "rationale": "CORRECT (B) — \"Take a deep breath in, seal the lips and blow out as hard and fast as possible\". Peak flow measures the <strong>maximum speed of expiration</strong>, so it requires a full inspiration followed by a short, sharp, maximal blast. The patient should be standing or sitting upright, and the best of three attempts is recorded. Poor technique produces falsely low readings that may prompt unnecessary treatment changes.\n\nWhy the other options fail:\n• A — A slow prolonged breath measures a different parameter entirely and gives a low peak reading.\n• C — Tidal breathing does not measure peak flow at all.\n• D — A shallow gentle breath produces a falsely low result and may be misread as deterioration.\n\nReference: Ghana STG — asthma monitoring\n",
+  "strategy": "Peak flow measures speed, not volume, so the instruction is short and forceful rather than long and slow. Full breath in, tight seal, one hard blast, and the best of three is the number that counts.",
   "difficulty": "medium",
   "tags": [
    "med-surg",
@@ -37444,28 +37444,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1093",
   "categorySlug": "med-surg",
-  "stem": "A patient with asthma is taught to use a peak flow meter at home. Which instruction is correct?",
+  "stem": "A patient with asthma has recorded his peak flow every morning for three months. How should he judge each day's reading?",
   "choices": [
    {
     "id": "a",
-    "text": "Take one gentle breath out into the meter and record whatever number appears"
+    "text": "Against the predicted value for his height on the clinic chart, since that is what the chart is printed for"
    },
    {
     "id": "b",
-    "text": "Stand upright, breathe in fully, then blow out as hard and as fast as possible"
+    "text": "Against his own best reading, recorded on a day when his asthma was at its best and he felt well"
    },
    {
     "id": "c",
-    "text": "Use the meter only on days when the wheeze is troublesome enough to notice"
+    "text": "Only when he also feels wheezy, because a low number on a good day does not matter"
    },
    {
     "id": "d",
-    "text": "Wait at least an hour after using a reliever inhaler before any measurement"
+    "text": "Discard the readings from bad days, since poor effort makes them falsely low and misleading"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Stand upright, breathe in fully, then blow out as hard and as fast as possible\". A peak flow reading is only comparable with the last one if the effort is the same, so the technique is the measurement: stand or sit upright, take the deepest breath possible, seal the lips round the mouthpiece, and blow out as hard and fast as can be managed, three times, recording the best of the three. The reading is compared with the patient's own best, not with a predicted value from a chart, because the personal best is what the current number means. Effort falls as asthma worsens, which is precisely why the test is useful and why technique has to be checked at each review.\n\nWhy the other options fail:\n• A — A gentle breath measures almost nothing and gives a number that cannot be trended.\n• C — Daily readings, morning and evening, are what show the diurnal variation and the fall before an attack; measuring only when symptomatic loses the warning.\n• D — A reliever is expected to improve the reading within minutes, and the reading taken after it shows how much reversibility there is; waiting an hour destroys that information.\n\nReference: Ghana STG — asthma; WHO/NHLBI asthma management guidance",
-  "strategy": "Same position, same effort, best of three. The number means nothing without the technique.",
+  "rationale": "CORRECT (B) — \"Against his own best reading, recorded on a day when his asthma was at its best and he felt well\". A peak flow number means nothing on its own. It means something only against the same patient's own best, taken with the same technique on a day when his control was good. That personal best becomes the ceiling he is working against, and every later reading, good day or bad, is judged against it, because a fall from his own best can come a day or two before he feels any wheeze.\n\nWhy the other options fail:\n• A — A predicted value is a population average for a height; this patient's true best may sit well above or below it, so the chart mislabels him in either direction.\n• C — The whole point of a daily record is that the number falls before symptoms appear, so waiting for wheeze throws away the early warning.\n• D — Bad-day readings are the most informative ones; a low number is a signal to check technique and reliever use, not a reason to throw the evidence away.\n\nReference: Ghana STG — asthma monitoring; GINA asthma management\n",
+  "strategy": "Compare with the patient's own best, never with a printed predicted value, and act on a fall before symptoms appear.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
