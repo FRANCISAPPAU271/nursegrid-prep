@@ -37408,28 +37408,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1092",
   "categorySlug": "med-surg",
-  "stem": "A patient with three days of severe diarrhoea has a pH of 7.22 and a low bicarbonate. Which disturbance is this?",
+  "stem": "A nurse takes a capillary blood glucose sample from a patient's finger. Which practice is correct?",
   "choices": [
    {
     "id": "a",
-    "text": "Metabolic acidosis, from the loss of bicarbonate in the stool"
+    "text": "Use the side of the fingertip, rotate sites, and wipe away the first drop if soiled"
    },
    {
     "id": "b",
-    "text": "Respiratory acidosis, from the retention of carbon dioxide gas"
+    "text": "Squeeze the fingertip hard so that a large drop is obtained quickly"
    },
    {
     "id": "c",
-    "text": "Metabolic alkalosis, from the loss of acid contents by vomiting"
+    "text": "Use the pad of the thumb, because it has the richest blood supply"
    },
    {
     "id": "d",
-    "text": "Respiratory alkalosis, from breathing too rapidly and too deeply"
+    "text": "Clean the finger with spirit and prick it while the skin is still wet"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Metabolic acidosis, from the loss of bicarbonate in the stool\". Intestinal secretions are <strong>rich in bicarbonate</strong>, so profuse diarrhoea pours base out of the body and the pH falls. The pH and the bicarbonate have moved <strong>in the same direction, both down</strong>, which is the signature of a metabolic problem; had it been respiratory, the pH and the carbon dioxide would have moved in <strong>opposite</strong> directions. The treatment is rehydration with a balanced fluid, not bicarbonate.\n\nWhy the other options fail:\n• B — Respiratory acidosis would show a raised carbon dioxide with a normal bicarbonate initially.\n• C — Alkalosis raises the pH, and the loss here is of base rather than acid.\n• D — Respiratory alkalosis gives a high pH with a low carbon dioxide, not this picture.\n\nReference: Ghana nursing curriculum — RGN 203 acid-base",
-  "strategy": "Same direction is metabolic, opposite directions is respiratory. Check pH against carbon dioxide first.",
+  "rationale": "CORRECT (A) — \"Use the side of the fingertip, rotate sites, and wipe away the first drop if soiled\". The side of the fingertip has fewer nerve endings than the pad, so it hurts less and is less likely to be used repeatedly until it is sore; rotating between fingers and sites protects the skin of a patient who will be tested for years. The hand is washed and dried, and if sugar or fruit has been handled the first drop is wiped away and a second allowed to form, because contamination reads falsely high.\n\nWhy the other options fail:\n• B — Squeezing hard breaks red cells and draws tissue fluid into the drop, which lowers the reading; the finger is held down and massaged gently instead.\n• C — The thumb and index finger are the ones used for grasping and are best avoided; the pulp of the thumb is also thick and less sensitive to the puncture.\n• D — Alcohol must be allowed to dry completely; while wet it dilutes the drop and stings, and either can distort the result.\n\nReference: Ghana STG — diabetes; WHO guidelines on drawing blood",
+  "strategy": "Side of the finger, rotate the site, let the spirit dry, and do not milk the finger.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -37444,28 +37444,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1093",
   "categorySlug": "med-surg",
-  "stem": "A patient in diabetic ketoacidosis breathes deeply and rapidly. What is the body attempting to achieve?",
+  "stem": "A patient with asthma is taught to use a peak flow meter at home. Which instruction is correct?",
   "choices": [
    {
     "id": "a",
-    "text": "Taking in more oxygen because the lungs themselves have been damaged"
+    "text": "Take one gentle breath out into the meter and record whatever number appears"
    },
    {
     "id": "b",
-    "text": "Blowing off carbon dioxide to raise a pH that acid has driven down"
+    "text": "Stand upright, breathe in fully, then blow out as hard and as fast as possible"
    },
    {
     "id": "c",
-    "text": "Cooling the body down because the metabolic rate has risen sharply"
+    "text": "Use the meter only on days when the wheeze is troublesome enough to notice"
    },
    {
     "id": "d",
-    "text": "Clearing ketones from the blood directly through the alveolar walls"
+    "text": "Wait at least an hour after using a reliever inhaler before any measurement"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Blowing off carbon dioxide to raise a pH that acid has driven down\". Ketoacids drive the pH down, and the fastest defence available is the lung. Since <strong>carbon dioxide is an acid in solution</strong>, breathing it off removes acid within minutes and pulls the pH back up. This deep sighing pattern, Kussmaul breathing, is <strong>compensation, not the disease</strong> — which is why sedating such a patient or giving them an opioid can be fatal, and why the answer is insulin and fluid, not oxygen.\n\nWhy the other options fail:\n• A — The lungs are healthy; oxygenation is not the problem in uncomplicated ketoacidosis.\n• C — Breathing contributes little to heat loss and is not the purpose of this pattern.\n• D — Ketones are not eliminated through the alveoli in any significant amount.\n\nReference: Ghana nursing curriculum — RGN 203 acid-base",
-  "strategy": "Before treating a striking sign, ask whether it is the illness or the body's defence against it.",
+  "rationale": "CORRECT (B) — \"Stand upright, breathe in fully, then blow out as hard and as fast as possible\". A peak flow reading is only comparable with the last one if the effort is the same, so the technique is the measurement: stand or sit upright, take the deepest breath possible, seal the lips round the mouthpiece, and blow out as hard and fast as can be managed, three times, recording the best of the three. The reading is compared with the patient's own best, not with a predicted value from a chart, because the personal best is what the current number means. Effort falls as asthma worsens, which is precisely why the test is useful and why technique has to be checked at each review.\n\nWhy the other options fail:\n• A — A gentle breath measures almost nothing and gives a number that cannot be trended.\n• C — Daily readings, morning and evening, are what show the diurnal variation and the fall before an attack; measuring only when symptomatic loses the warning.\n• D — A reliever is expected to improve the reading within minutes, and the reading taken after it shows how much reversibility there is; waiting an hour destroys that information.\n\nReference: Ghana STG — asthma; WHO/NHLBI asthma management guidance",
+  "strategy": "Same position, same effort, best of three. The number means nothing without the technique.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -37786,28 +37786,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1103",
   "categorySlug": "med-surg",
-  "stem": "Why must concentrated potassium chloride **never** be given as a rapid intravenous push?",
+  "stem": "A ward sister asks the nurses to remove rings, wristwatches and nail varnish before clinical work. What is the **main** reason?",
   "choices": [
    {
     "id": "a",
-    "text": "It causes severe pain along the vein that the patient cannot possibly tolerate"
+    "text": "Metal and polish react with alcohol hand rub and shorten its shelf life"
    },
    {
     "id": "b",
-    "text": "It is inactivated when given quickly and so the dose would simply be wasted"
+    "text": "Jewellery can scratch patients during moving and handling"
    },
    {
     "id": "c",
-    "text": "A sudden high level stops the heart by preventing it from contracting normally"
+    "text": "Skin under rings and chipped polish harbours organisms hand rub cannot reach"
    },
    {
     "id": "d",
-    "text": "It must first be mixed with dextrose in order to be absorbed by the tissues"
+    "text": "The dress code exists mainly to present a tidy appearance to patients"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"A sudden high level stops the heart by preventing it from contracting normally\". Potassium governs the electrical gradient across the cardiac cell membrane. A rapid bolus produces an <strong>immediate, extreme local concentration at the heart</strong>, the membrane cannot repolarise, and cardiac arrest follows within seconds. Potassium must therefore always be <strong>diluted, infused slowly and, at higher rates, monitored</strong>. This is one of the small number of drug errors that kills the patient during the injection itself.\n\nWhy the other options fail:\n• A — Pain and phlebitis do occur, but the fatal problem is cardiac arrest.\n• B — Potassium is not inactivated; it is fully and dangerously active.\n• D — Dextrose is not required for absorption; the requirement is dilution and slow rate.\n\nReference: Ghana nursing curriculum — RGN 203 fluid and electrolytes",
-  "strategy": "Learn the short list of drugs that kill during administration. Potassium heads it: never push it.",
+  "rationale": "CORRECT (C) — \"Skin under rings and chipped polish harbours organisms hand rub cannot reach\". Hand hygiene works where the product reaches. A ring leaves a band of skin that is missed every time, and it stays moist, so organisms accumulate there and are transferred to the next patient; chipped polish and long or artificial nails do the same, and outbreaks have been traced to them. That is why the guidance is not about appearance: the jewellery comes off, nails are kept short and clean, and sleeves are bare to the elbow so that the wrist is covered by the rub.\n\nWhy the other options fail:\n• A — Alcohol rub is not affected in any meaningful way by contact with metal; the problem is the skin underneath.\n• B — A scratch is a plausible small harm, but it is not why the rule exists and is not the reason organisms are carried between patients.\n• D — Appearance is a by-product; a nurse in bare, clean hands and short nails presents well because of the infection control, not instead of it.\n\nReference: Ghana National Infection Prevention and Control Guidelines; WHO five moments for hand hygiene",
+  "strategy": "Hand rub only kills what it touches. Rings and chipped polish hide a patch it never touches.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
