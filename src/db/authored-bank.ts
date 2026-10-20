@@ -6725,28 +6725,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-LAB-0195",
   "categorySlug": "risk-reduction",
-  "stem": "A patient receiving chemotherapy has a neutrophil count of 0.4 × 10⁹/L and a temperature of 38.5°C. How should the nurse respond?",
+  "stem": "A patient on chemotherapy has **painful mouth ulcers** and has stopped eating. Which action is **correct**?",
   "choices": [
    {
     "id": "a",
-    "text": "Give paracetamol and reassess in four hours"
+    "text": "Use a strong alcohol-based mouthwash four times a day"
    },
    {
     "id": "b",
-    "text": "Record the temperature and report at the ward round"
+    "text": "Stop all oral fluids until the ulcers have healed completely"
    },
    {
     "id": "c",
-    "text": "Treat as neutropenic sepsis and escalate immediately for urgent antibiotics"
+    "text": "Rinse with salt or soda water and give soft, cool foods"
    },
    {
     "id": "d",
-    "text": "Encourage fluids and observe overnight"
+    "text": "Scrub the ulcers with a toothbrush to keep them clean"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Treat as neutropenic sepsis and escalate immediately for urgent antibiotics\". A neutrophil count below 0.5 × 10⁹/L with fever is <strong>neutropenic sepsis</strong>, a medical emergency. Without neutrophils the patient cannot mount a normal inflammatory response, so infection progresses rapidly with few localising signs. Broad-spectrum antibiotics are required <strong>within one hour</strong>, following cultures.\n\nWhy the other options fail:\n• A — Paracetamol masks the only sign of a life-threatening infection while it continues to progress.\n• B — Deferring to a ward round in neutropenic sepsis substantially increases mortality.\n• D — Overnight observation delays antibiotics well beyond the critical window.\n\nReference: Ghana STG — oncology; neutropenic sepsis",
-  "strategy": "Fever plus neutropenia equals emergency, always. Absence of other signs is expected rather than reassuring, because there are no neutrophils to produce inflammation.",
+  "rationale": "CORRECT (C) — \"Rinse with salt or soda water and give soft, cool foods\". Chemotherapy mucositis is treated by keeping the mouth clean and comfortable: frequent rinses with saline or bicarbonate of soda, soft cool food, adequate analgesia and a soft brush. Strong alcohol-based mouthwashes dry and sting the mucosa, scrubbing ulcers tears them and invites bleeding, and stopping oral fluids removes the cleansing and hydration the mouth needs. Mouth care is done gently and often, and the nurse inspects the mouth each shift because ulcers can become the entry point for the infection this patient cannot fight.",
+  "strategy": "Choose the measure that cleans and soothes without injuring.",
   "difficulty": "hard",
   "tags": [
    "risk-reduction",
@@ -12012,28 +12012,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SUR-0350",
   "categorySlug": "med-surg",
-  "stem": "A patient receiving chemotherapy at a Ghanaian teaching hospital has a temperature of 38.5 °C and a neutrophil count of 0.4 × 10⁹/L. What does this require?",
+  "stem": "A doctor asks a nurse to give **vincristine by lumbar puncture**. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "Paracetamol and review in the outpatient clinic the following morning"
+    "text": "Give it slowly, diluted in saline, as the doctor has asked"
    },
    {
     "id": "b",
-    "text": "Immediate broad spectrum antibiotics, as this is neutropenic sepsis"
+    "text": "Refuse, because vincristine is fatal if given intrathecally"
    },
    {
     "id": "c",
-    "text": "Reassurance, since a mild fever is expected after every chemotherapy cycle"
+    "text": "Check the dose and give half of it by lumbar puncture"
    },
    {
     "id": "d",
-    "text": "Waiting for blood culture results before any antibiotic is commenced"
+    "text": "Ask a second nurse to witness it and then give the injection"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Immediate broad spectrum antibiotics, as this is neutropenic sepsis\". <strong>Neutropenic sepsis is a medical emergency</strong>. Without neutrophils the usual signs of infection are muted, so fever may be the only clue, and deterioration to septic shock can occur within hours. Cultures are taken and <strong>broad spectrum intravenous antibiotics given within one hour</strong> — the door-to-needle standard — without waiting for results.\n\nWhy the other options fail:\n• A — Overnight delay in neutropenic sepsis carries a substantial mortality. This patient cannot wait until morning.\n• C — Fever during neutropenia is never dismissed as expected. It is treated as sepsis until proven otherwise.\n• D — Cultures are taken first but antibiotics follow immediately. Waiting for results wastes the critical hour.\n\nReference: Ghana STG — oncology; febrile neutropenia",
-  "strategy": "Combine the two numbers before reacting. Fever alone is common and neutropenia alone is manageable, but together they are an emergency needing antibiotics within the hour.",
+  "rationale": "CORRECT (B) — \"Refuse, because vincristine is fatal if given intrathecally\". Vincristine is for intravenous use only. Given into the cerebrospinal fluid it causes ascending paralysis and death, and there is no antidote, so a request to give it by lumbar puncture must be refused and escalated at once. Diluting it, halving the dose or finding a witness all carry out the order rather than stopping it. The same error has killed patients where the drug, the route and the intrathecal syringe were not separated, which is why vincristine is now handled apart from lumbar puncture trays.",
+  "strategy": "Some orders are refused, not adjusted.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -51876,28 +51876,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CVM-1515",
   "categorySlug": "med-surg",
-  "stem": "A patient receiving chemotherapy develops a temperature of 38.5 °C. What is the **priority**?",
+  "stem": "A woman **midway through doxorubicin** reports **breathlessness and swollen ankles**. What should the nurse consider?",
   "choices": [
    {
     "id": "a",
-    "text": "Give paracetamol and repeat the temperature in four hours"
+    "text": "That the swelling is from the salt in her chemotherapy fluids"
    },
    {
     "id": "b",
-    "text": "Wait for the full blood count result before taking any action"
+    "text": "That breathlessness is expected in anyone having chemotherapy"
    },
    {
     "id": "c",
-    "text": "Isolate her and observe closely until the morning ward round"
+    "text": "That she has developed a chest infection from the treatment"
    },
    {
     "id": "d",
-    "text": "Take cultures and start antibiotics without waiting"
+    "text": "That the drug may be harming her heart and needs review"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Take cultures and start antibiotics without waiting\". Without neutrophils the patient <strong>cannot generate pus, redness or localising signs, so fever may be the only evidence of overwhelming infection</strong>, and deterioration to septic shock is measured in hours. The standard is cultures then antibiotics immediately, not sequentially over a shift. Antipyretics <strong>remove the only sign being monitored</strong>, and waiting for the count wastes the window in which treatment works.\n\nWhy the other options fail:\n• A — Paracetamol masks the single sign available and delays treatment.\n• B — Treatment is started on clinical grounds; the count follows.\n• C — Observation until morning may be several hours too late.\n\nReference: Ghana STG — oncology supportive care",
-  "strategy": "No white cells means no warning signs. Treat the fever itself as the emergency.",
+  "rationale": "CORRECT (D) — \"That the drug may be harming her heart and needs review\". Doxorubicin is an anthracycline, and its dose-limiting harm is to the heart muscle. Breathlessness, swollen ankles, a new cough and fatigue partway through treatment point to anthracycline cardiotoxicity, so the nurse reports it before the next dose and asks for cardiac assessment, with an echocardiogram or a measurement of ejection fraction as ordered. Fluid from the infusion is far too small to explain heart failure, breathlessness is not an expected effect of chemotherapy in general, and an infection would usually bring fever and a focal chest picture rather than symmetrical oedema.",
+  "strategy": "Ask which organ this drug is known to damage at its dose limit.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
