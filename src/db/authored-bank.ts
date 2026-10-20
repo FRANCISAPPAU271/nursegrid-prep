@@ -39768,28 +39768,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OPR-1161",
   "categorySlug": "med-surg",
-  "stem": "A child from a riverine Ghanaian community has a large painless ulcer with undermined edges. What is the **priority** action?",
+  "stem": "A patient is sedated and ventilated in the intensive care unit after emergency surgery. Why does the nurse clean his mouth and teeth several times a day?",
   "choices": [
    {
     "id": "a",
-    "text": "Apply a simple dressing and review the child again in four weeks"
+    "text": "Because a dry mouth makes the lips crack and this is the main source of ward infection"
    },
    {
     "id": "b",
-    "text": "Advise daily salt water bathing until the ulcer heals on its own"
+    "text": "Because the antiseptic used on the gums prevents stomach ulcers in ventilated patients"
    },
    {
     "id": "c",
-    "text": "Arrange immediate skin grafting before any medical treatment starts"
+    "text": "Because plaque is aspirated into the lungs and causes pneumonia"
    },
    {
     "id": "d",
-    "text": "Refer for confirmation and treatment, since Buruli ulcer needs antibiotics"
+    "text": "Because cleaning the mouth stops the tube from becoming blocked with secretions"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Refer for confirmation and treatment, since Buruli ulcer needs antibiotics\". A large, <strong>painless</strong> ulcer with undermined edges in a riverine community is Buruli ulcer until proved otherwise; the painlessness comes from a toxin that destroys nerve endings, which is exactly why patients present late. Modern treatment is <strong>an eight-week course of antibiotics</strong>, which cures most lesions and greatly reduces the surgery once required. Early referral prevents the contractures and disability that follow delay, so waiting weeks is itself the harm.\n\nWhy the other options fail:\n• A — A month of delay allows the lesion to enlarge and deep tissue destruction to progress.\n• B — Home remedies delay curative antibiotic treatment and are a common route to disability.\n• C — Antibiotics come first; surgery is now reserved for selected cases after medical treatment.\n\nReference: Ghana nursing curriculum — RGN 205 inflammation and wounds",
-  "strategy": "A painless ulcer is an alarming ulcer. Painlessness means nerves have already been destroyed.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Because plaque is aspirated into the lungs and causes pneumonia\". A ventilated patient cannot swallow or clear his mouth, so plaque builds up on the teeth within a day or two and is rich in the organisms that cause pneumonia. Microaspiration around the cuff carries those organisms into the lower airway, and ventilator-associated pneumonia follows, prolonging ventilation and increasing mortality. Cleaning the teeth and gums with a soft brush, using the prescribed antiseptic, suctioning the secretions and keeping the head of the bed raised all reduce that risk. The nurse also checks the mouth for ulcers and dryness, because a dry mouth is uncomfortable even when the patient cannot say so.\n\nWhy the other options fail:\n• A — Cracked lips are uncomfortable but are not the pathway by which pneumonia develops.\n• B — Oral antiseptic is given to reduce plaque and oral organisms, not to prevent gastric ulcers.\n• D — Tube blockage comes from secretions and kinking; mouth care does not keep the tube patent.\n\n\nReference: NICE — hospital-acquired pneumonia; Ghana STG — critical care\n",
+  "strategy": "Plaque is aspirated around the cuff. Brush, suction, antiseptic, head up.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -60123,28 +60123,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHD-1757",
   "categorySlug": "pediatrics",
-  "stem": "What does lower chest wall indrawing in a coughing child indicate?",
+  "stem": "A two-week-old has not regained his birth weight. His mother has cracked, painful nipples, and feeds are noisy with clicking. The tongue cannot lift to the roof of the mouth or poke past the gums. What is the problem and what is needed?",
   "choices": [
    {
     "id": "a",
-    "text": "Mild pneumonia that can be managed with oral antibiotics at home"
+    "text": "He has a cleft palate that was missed at birth, and he needs immediate surgical repair"
    },
    {
     "id": "b",
-    "text": "Severe pneumonia requiring referral and injectable treatment"
+    "text": "The milk supply is low, so the mother should stop breastfeeding and use formula only"
    },
    {
     "id": "c",
-    "text": "An upper airway obstruction rather than a chest infection"
+    "text": "A tight tongue tie is preventing a deep latch, so he needs lactation support and referral"
    },
    {
     "id": "d",
-    "text": "Normal breathing effort in a child who has been crying"
+    "text": "He has gastro-oesophageal reflux, so feeds should be thickened and he should sleep upright"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Severe pneumonia requiring referral and injectable treatment\". Indrawing means the child is <strong>generating large negative pressures to inflate stiff, consolidated lungs, so the soft chest wall is pulled inwards on inspiration</strong> — a classification of severe pneumonia under IMCI, requiring referral. The distinction to hold clearly is that <strong>the lower chest wall must move in, not merely the soft tissue between the ribs</strong>, and the sign is assessed when the child is calm rather than crying.\n\nWhy the other options fail:\n• A — Indrawing classifies as severe, not as pneumonia treatable at home.\n• C — Upper airway obstruction produces stridor rather than indrawing.\n• D — Indrawing is never a normal finding; it is assessed when calm.\n\nReference: Ghana IMCI chart booklet",
-  "strategy": "Watch the lower chest wall, not the spaces between the ribs.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"A tight tongue tie is preventing a deep latch, so he needs lactation support and referral\". The frenulum that anchors the tongue is short and tight in ankyloglossia, so the baby cannot cup the breast or seal and strip milk; the feed is shallow and noisy, the mother's nipples become cracked and painful, and weight gain falters because transfer is inefficient. The examination confirms it when the tongue cannot lift to the palate or protrude beyond the lower gum. Care begins with positioning and latch support, and if feeding remains ineffective the baby is referred for a frenotomy, which is quick and usually improves feeding at once. The mother is also helped to express and keep her supply while the latch is fixed.\n\nWhy the other options fail:\n• A — A cleft palate would show a gap in the roof of the mouth and milk coming down the nose; the tongue restriction would not be the finding.\n• B — Stopping breastfeeding removes the best food because of a mechanical problem that can be corrected.\n• D — Reflux causes possetting and arching after feeds, not a clicking latch with a tongue that cannot lift.\n\n\nReference: WHO — infant feeding; NICE — ankyloglossia in infants\n",
+  "strategy": "Clicking feeds, cracked nipples and a tongue that cannot lift: tongue tie. Support the latch, then refer.",
   "difficulty": "hard",
   "tags": [
    "pediatrics",
@@ -74386,28 +74386,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FLD-2174",
   "categorySlug": "fluid-electrolyte",
-  "stem": "Using the 4-2-1 rule, what is the hourly maintenance fluid requirement for a child weighing 34 kg?",
+  "stem": "A mother in a village health post has a child with diarrhoea and some dehydration. There is no sachet of oral rehydration salts. What should the nurse teach her to make at home?",
   "choices": [
    {
     "id": "a",
-    "text": "74 mL per hour"
+    "text": "One litre of clean water with six level teaspoons of sugar and half a level teaspoon of salt"
    },
    {
     "id": "b",
-    "text": "54 mL per hour"
+    "text": "One litre of clean water with six level teaspoons of sugar and two level teaspoons of salt, which is stronger and works faster"
    },
    {
     "id": "c",
-    "text": "108 mL per hour"
+    "text": "One litre of fruit juice with one teaspoon of salt added, given with a spoon"
    },
    {
     "id": "d",
-    "text": "34 mL per hour"
+    "text": "One litre of clean water with sugar alone, because the salt makes the child thirsty"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"74 mL per hour\". The 4-2-1 rule gives 4 mL/kg/h for the first 10 kg, 2 mL/kg/h for the next 10 kg, and 1 mL/kg/h for every kilogram above 20. For 34 kg that is 40 + 20 + 14, which is 74 mL per hour. The same total can be reached by the daily method and divided by 24, and the two should agree closely.\n\nWhy the other options fail:\n• B — 54 mL/h comes from forgetting that the third band carries 14 kg, not 6.\n• C — 108 mL/h would apply 4 mL/kg to every kilogram, which over-prescribes.\n• D — 34 mL/h applies 1 mL/kg to the whole weight, which under-prescribes badly.\n\nReference: Ghana STG — paediatric fluid therapy; APLS — maintenance requirements\n",
-  "strategy": "4-2-1: 40 for the first 10 kg, 20 for the next, 1 mL per kilogram for the rest. Here 40 + 20 + 14 = 74.",
+  "rationale": "CORRECT (A) — \"One litre of clean water with six level teaspoons of sugar and half a level teaspoon of salt\". Where a sachet is not available, the home mixture is one litre of clean water, six level teaspoons of sugar and half a level teaspoon of salt — mixed until the sugar dissolves and tasting no saltier than tears. The sugar is absorbed with the salt and drags water across the gut wall, which is why both are needed; the salt must be measured level with the back of a knife, because too much salt can raise the sodium dangerously, especially in a small child. It is given by cup and spoon after every loose stool, and any mixture left after 24 hours is thrown away.\n\nWhy the other options fail:\n• B — Two teaspoons of salt is four times too much and risks hypernatraemia, especially in an infant.\n• C — Fruit juice is high in sugar and low in salt, and the balance is wrong for rehydration.\n• D — Sugar without salt cannot drive water absorption, and the child becomes more dehydrated.\n\n\nReference: WHO — diarrhoea treatment guidelines; Ghana STG — childhood diarrhoea\n",
+  "strategy": "One litre, six sugar, half salt, level spoons, discarded after a day.",
   "difficulty": "hard",
   "tags": [
    "fluid-electrolyte",
@@ -83653,28 +83653,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRC-2439",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient develops stridor, wheeze and hypotension within minutes of an intravenous penicillin dose. Which drug should the nurse give first?",
+  "stem": "A 68-year-old is admitted for a total hip replacement. The team prescribes enoxaparin, compression stockings and early walking. Why are all three used?",
   "choices": [
     {
       "id": "a",
-      "text": "Intramuscular adrenaline"
+      "text": "They are given only to patients who already have a clot, to stop it growing larger"
     },
     {
       "id": "b",
-      "text": "Oral antihistamine"
+      "text": "They are routine for every patient over 60 and have no relation to the operation"
     },
     {
       "id": "c",
-      "text": "Intravenous fluid bolus alone"
+      "text": "Hip surgery carries a high risk of clot, and drug, stockings and movement each reduce it"
     },
     {
       "id": "d",
-      "text": "Nebulised salbutamol alone"
+      "text": "They are used to prevent bleeding into the wound, which is the main risk after hip surgery"
     }
   ],
-  "correctChoiceId": "a",
-  "rationale": "This is anaphylaxis, and intramuscular adrenaline into the anterolateral thigh is the first-line treatment because it reverses bronchospasm and vasodilatation and suppresses further mediator release. Antihistamines are given afterwards and do nothing for the airway or the blood pressure. A fluid bolus is needed but is an adjunct, not the first drug. Nebulised salbutamol treats wheeze only and leaves the hypotension untreated.",
-  "strategy": "Anaphylaxis equals intramuscular adrenaline first. Everything else is an adjunct.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Hip surgery carries a high risk of clot, and drug, stockings and movement each reduce it\". Surgery on the hip and pelvis is one of the highest-risk situations for deep vein thrombosis and pulmonary embolism, because the operation damages veins, the patient lies still and the blood is in a low-flow state for days. Prevention is layered: an anticoagulant such as enoxaparin reduces clot formation, graduated compression stockings counter venous stasis, and early mobilisation restores the calf muscle pump. The nurse checks the platelet count and renal function, watches for bleeding, gives the injection subcutaneously into the abdominal wall without rubbing the site, and makes sure the stockings are correctly fitted.\n\nWhy the other options fail:\n• A — Prophylaxis is given before any clot exists; treating an established clot needs a therapeutic dose.\n• B — Age adds risk but the operation itself is the reason these measures are prescribed.\n• D — These measures prevent clotting; bleeding is a side effect to watch for, not the target.\n\n\nReference: NICE — venous thromboembolism prevention; Ghana STG — perioperative care\n",
+  "strategy": "High-risk surgery gets all three: drug, stocking, movement. Check platelets, kidney and bleeding.",
   "difficulty": "easy",
   "tags": [
     "pharmacology-parenteral",
@@ -84025,28 +84025,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRC-2450",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "Which intramuscular injection site is preferred for an infant under 12 months?",
+  "stem": "A man is switched from an insulin syringe to a pen device. He is shown how to dial his dose. What else must he be taught?",
   "choices": [
    {
     "id": "a",
-    "text": "Dorsogluteal"
+    "text": "Keep the needle attached after every injection so the pen is always ready to use"
    },
    {
     "id": "b",
-    "text": "Vastus lateralis"
+    "text": "Prime with two units before each injection and hold the needle in for about ten seconds"
    },
    {
     "id": "c",
-    "text": "Deltoid"
+    "text": "Store the pen he is using in the freezer so that the insulin stays fresh to the last unit"
    },
    {
     "id": "d",
-    "text": "Ventrogluteal"
+    "text": "Use the same spot on the abdomen each time so that the absorption is always the same"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Vastus lateralis\". The vastus lateralis, in the outer aspect of the thigh, is the site of choice in infants because it is the largest and best developed muscle at that age, and it contains no major nerves or blood vessels. The gluteal muscles are not developed until a child has been walking for some time, so injecting there risks striking the sciatic nerve. The deltoid is too small in an infant to take a meaningful volume. Ventrogluteal is preferred in adults and older children. The principle is that site selection follows muscle development and the local anatomy, not adult habit.\n\nWhy the other options fail:\n• A — The dorsogluteal site is avoided at all ages now because of sciatic nerve proximity, and it is particularly dangerous in infants.\n• C — The deltoid is too small in an infant and will not accommodate the volume without excessive pain and poor absorption.\n• D — Ventrogluteal is excellent in adults and older children but relies on gluteal muscle that an infant has not yet developed.\n\nReference: Standard intramuscular injection technique",
-  "strategy": "Match the site to the age: vastus lateralis for infants, ventrogluteal for adults, deltoid only for small volumes such as vaccines. Dorsogluteal is no longer recommended for anyone.",
+  "rationale": "CORRECT (B) — \"Prime with two units before each injection and hold the needle in for about ten seconds\". An insulin pen needs priming because air can enter the cartridge when a new needle is fitted; dialling two units and injecting into the air until a drop appears proves the needle is patent and the dose will be accurate. Once the dose is given the needle is left in place for about ten seconds, so that the full volume leaves the pen rather than leaking back, and the needle is then removed. Leaving a needle on between doses lets air in and insulin crystallise in the needle, and it also changes the dose the pen delivers. Sites are rotated within the same general area to prevent lumps that absorb unpredictably.\n\nWhy the other options fail:\n• A — A needle left on lets air into the cartridge and blocks the flow; it is removed after each dose.\n• C — Freezing damages the insulin protein; the in-use pen stays at room temperature.\n• D — Injecting the same point repeatedly causes lipohypertrophy, which makes absorption erratic.\n\n\nReference: Ghana STG — diabetes; Diabetes UK — insulin pen technique\n",
+  "strategy": "Pen: prime two units, hold ten seconds, needle off, sites rotated, never frozen.",
   "difficulty": "medium",
   "tags": [
    "pharmacology-parenteral",
@@ -85576,28 +85576,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2495",
   "categorySlug": "safety-infection-control",
-  "stem": "A patient in Ghana on prolonged broad-spectrum antibiotics develops profuse watery diarrhoea. What is the mechanism?",
+  "stem": "A 7-year-old has fever, pain on chewing and swelling of both cheeks. He has had no immunisation. What is the diagnosis and what matters most?",
   "choices": [
    {
     "id": "a",
-    "text": "The antibiotic has directly irritated the lining of the bowel"
+    "text": "Mumps, which spreads by droplets and can cause meningitis and deafness"
    },
    {
     "id": "b",
-    "text": "The patient has acquired a new infection from contaminated food"
+    "text": "A dental abscess, which needs extraction of the offending tooth"
    },
    {
     "id": "c",
-    "text": "The antibiotic has been absorbed too quickly from the gut"
+    "text": "Bacterial parotitis, which needs intravenous antibiotics and admission"
    },
    {
     "id": "d",
-    "text": "Antibiotics have destroyed the normal bowel flora, allowing an overgrowth"
+    "text": "Measles, which needs vitamin A and isolation for seven days"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Antibiotics have destroyed the normal bowel flora, allowing an overgrowth\". The normal flora of the bowel occupies the available space and competes for nutrients, which suppresses potentially harmful organisms. Broad-spectrum antibiotics kill much of that flora indiscriminately, and a resistant organism such as Clostridioides difficile can then multiply unopposed and produce toxin, causing profuse diarrhoea and, in severe cases, colitis. This is why such infections are treated with contact precautions and soap-and-water hand washing, since the spores resist alcohol. The principle is that the normal flora is itself a defence mechanism, so destroying it removes protection rather than merely being neutral.\n\nWhy the other options fail:\n• A — Direct irritation causes nausea and mild loosening of stool rather than profuse toxin-mediated diarrhoea.\n• B — Food-borne infection is possible but does not explain the specific link to prolonged antibiotic exposure.\n• C — Rapid absorption would reduce rather than increase the amount of drug acting within the bowel.\n\nReference: Standard microbiology — normal flora and antibiotic-associated diarrhoea",
-  "strategy": "Treat normal flora as protective. Whenever antibiotics precede an infection, suspect that the flora was removed and something resistant filled the space.",
+  "correctChoiceId": "a",
+  "rationale": "CORRECT (A) — \"Mumps, which spreads by droplets and can cause meningitis and deafness\". Mumps is caused by a paramyxovirus and produces fever and painful swelling of one or both parotid glands, so the child complains of pain when chewing and the swelling fills the angle of the jaw. It spreads by droplets before the swelling appears and while it lasts, so he is kept away from other children, and the illness is notifiable. Most children recover, but the complications matter: meningitis, deafness, pancreatitis and, after puberty, orchitis that can affect fertility. Two doses of measles-mumps-rubella vaccine prevent it, and the case is a reminder to check the immunisation status of the household.\n\nWhy the other options fail:\n• B — A dental abscess is painful and localised to a tooth with a cavity and a swelling pointing in the mouth, not bilateral cheek swelling.\n• C — Bacterial parotitis is usually unilateral, in a debilitated or dehydrated patient, with pus from the duct.\n• D — Measles gives a rash, cough and red eyes, not isolated parotid swelling.\n\n\nReference: WHO — mumps; Ghana STG — vaccine-preventable disease\n",
+  "strategy": "Fever plus both cheeks, worse on chewing, in an unimmunised child: mumps. Droplets, deafness, MMR.",
   "difficulty": "hard",
   "tags": [
    "safety-infection-control",
@@ -93743,28 +93743,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2733",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana with cirrhosis becomes drowsy and confused, with a flapping tremor of the outstretched hands. What does this indicate?",
+  "stem": "A family in a rural district has been eating cassava flour that was dried quickly in the sun after a poor harvest. A man presents with confusion, deep rapid breathing and a severe metabolic acidosis. What should the nurse consider?",
   "choices": [
    {
     "id": "a",
-    "text": "Hepatic encephalopathy, as the failing liver no longer clears nitrogenous toxins"
+    "text": "Organophosphate poisoning from pesticide sprayed on the cassava, needing atropine"
    },
    {
     "id": "b",
-    "text": "A stroke affecting the motor pathways controlling the hands"
+    "text": "Alcohol intoxication from fermented cassava, needing only observation and thiamine"
    },
    {
     "id": "c",
-    "text": "Simple exhaustion from the effort of the hospital admission"
+    "text": "Cyanide poisoning from poorly processed cassava, needing oxygen and the antidote"
    },
    {
     "id": "d",
-    "text": "A side effect of the diuretics that is unrelated to liver function"
+    "text": "Food poisoning from bacterial contamination, needing antibiotics and intravenous fluids"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Hepatic encephalopathy, as the failing liver no longer clears nitrogenous toxins\". A cirrhotic liver cannot metabolise nitrogenous products absorbed from the gut, principally ammonia, and these reach the brain and cause encephalopathy: altered sleep pattern, confusion, personality change, the coarse flapping tremor known as asterixis, and eventually coma. Precipitants are important because they are treatable — gastrointestinal bleeding, infection, constipation, dehydration, electrolyte disturbance and sedatives. Treatment addresses the precipitant and reduces ammonia production with lactulose titrated to produce several soft stools daily. Sedatives are avoided. The principle is that when the liver stops clearing toxins, the brain shows it first.\n\nWhy the other options fail:\n• B — A stroke produces focal deficits rather than the symmetrical flapping tremor of asterixis.\n• C — Progressive confusion with asterixis in cirrhosis is never simple tiredness.\n• D — Diuretics can precipitate encephalopathy through electrolyte disturbance, but the syndrome itself is hepatic.\n\nReference: Standard management of chronic liver disease",
-  "strategy": "When an organ fails, ask what it can no longer clear and where that substance accumulates. Liver failure shows itself in the brain.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Cyanide poisoning from poorly processed cassava, needing oxygen and the antidote\". Cassava contains cyanogenic glycosides, and proper processing — soaking, fermenting, drying for long enough — removes them. When the flour is dried quickly after a poor harvest, the cyanide remains. Acute poisoning blocks the body's ability to use oxygen, so the tissues switch to anaerobic metabolism and a severe lactic acidosis develops with confusion, deep breathing, convulsions and collapse; the venous blood can look bright red because oxygen is not being used. The patient needs oxygen, removal from the source and the antidote — hydroxocobalamin where available, or sodium thiosulfate — while the acidosis is corrected.\n\nWhy the other options fail:\n• A — Organophosphates cause a cholinergic picture with slow heart rate, small pupils and excessive secretions, not this acidosis.\n• B — Alcohol does not produce a severe lactic acidosis of this kind, and thiamine alone would not treat collapse.\n• D — Food poisoning causes vomiting and diarrhoea; it does not explain the acidosis and confusion together.\n\n\nReference: WHO — cassava cyanide and konzo; Ghana STG — poisoning\n",
+  "strategy": "Cassava, acidosis and confusion = cyanide. Oxygen plus antidote, and ask about the drying.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -94473,28 +94473,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2754",
   "categorySlug": "med-surg",
-  "stem": "A patient's abdominal wound in Ghana bursts open and a loop of bowel protrudes. What should the nurse do?",
+  "stem": "A man with pneumonia has a temperature of 39 °C, a pulse of 124, a respiratory rate of 28 and a systolic pressure of 88. The sepsis pathway is triggered. Which set of actions belongs to the first hour?",
   "choices": [
    {
     "id": "a",
-    "text": "Gently push the bowel back inside and apply a firm supportive bandage"
+    "text": "Oxygen, cultures, IV antibiotics, fluids and lactate, watching urine output"
    },
    {
     "id": "b",
-    "text": "Cover the area with a dry dressing and sit the patient upright for comfort"
+    "text": "Wait for the chest X-ray and the full blood count before giving any antibiotic at all"
    },
    {
     "id": "c",
-    "text": "Leave the bowel uncovered so the surgeon can assess it on arrival"
+    "text": "Give oral antibiotics and send him home, because the pressure is only slightly low"
    },
    {
     "id": "d",
-    "text": "Cover with sterile saline-soaked gauze, lie the patient flat with knees bent and call the surgeon"
+    "text": "Give a diuretic for the fast breathing and repeat the observations in four hours"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Cover with sterile saline-soaked gauze, lie the patient flat with knees bent and call the surgeon\". Evisceration is a surgical emergency. Exposed bowel dries rapidly, and desiccated serosa is damaged and adheres, so it is covered immediately with sterile gauze moistened with normal saline and kept moist. The patient lies flat with the knees flexed, which relaxes the abdominal wall and reduces the tension pushing the contents outward. Nothing is pushed back in, because that introduces contamination into the peritoneum and may damage or strangulate the bowel. The patient is kept nil by mouth, given analgesia and reassurance, observed for shock and prepared urgently for theatre. The principle is cover, moisten, relax the abdomen and never replace.\n\nWhy the other options fail:\n• A — Pushing bowel back introduces contamination and risks damaging or strangulating it.\n• B — A dry dressing allows the bowel to desiccate, and sitting up increases abdominal tension.\n• C — Leaving bowel exposed causes rapid drying and contamination before the surgeon arrives.\n\nReference: Standard post-operative wound emergency care",
-  "strategy": "For any exposed internal tissue, the answer is cover it, keep it moist and never push it back.",
+  "correctChoiceId": "a",
+  "rationale": "CORRECT (A) — \"Oxygen, cultures, IV antibiotics, fluids and lactate, watching urine output\". Sepsis kills by the hour, and the first-hour bundle is built around that: give oxygen to keep the saturations in range, take blood cultures before antibiotics where this does not delay them, give intravenous broad-spectrum antibiotics within the first hour, start a fluid bolus and reassess the response, measure lactate, and catheterise or monitor urine output so that the kidney is watched. The source is looked for at the same time, and the patient is handed over with the time each element was completed. Waiting for results that will not change the decision is the commonest reason the hour is lost.\n\nWhy the other options fail:\n• B — The X-ray and blood count must not delay antibiotics; cultures are taken and treatment starts.\n• C — This is sepsis with hypotension, which needs admission and intravenous treatment, not tablets at home.\n• D — Fast breathing in sepsis is compensation for acidosis and hypoxaemia; a diuretic does not treat the cause and worsens the hypovolaemia.\n\n\nReference: Surviving Sepsis Campaign; Ghana STG — sepsis in adults\n",
+  "strategy": "First hour: oxygen, cultures, IV antibiotics, fluids, lactate, urine output. Do not wait for the X-ray.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -95017,28 +95017,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2770",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana who had neck surgery develops rapid neck swelling and difficulty breathing. What is the immediate **priority**?",
+  "stem": "A man has a nephrostomy tube in place after a blocked ureter. What should the nurse do to keep it safe and working?",
   "choices": [
    {
     "id": "a",
-    "text": "Sit the patient up and give oral fluids to relieve the sensation of tightness"
+    "text": "Clamp the tube at night so that he can sleep without the bag pulling on the kidney"
    },
    {
     "id": "b",
-    "text": "Summon urgent help and prepare for the wound to be opened to release the haematoma"
+    "text": "Change the bag every two hours, because urine becomes infected once it stands in the bag"
    },
    {
     "id": "c",
-    "text": "Apply firm pressure over the swelling to stop it enlarging further"
+    "text": "Lie him flat after insertion, so that the tube does not kink inside the kidney"
    },
    {
     "id": "d",
-    "text": "Reassure the patient and continue observations every fifteen minutes"
+    "text": "Keep the bag below the kidney, secure the tube, never clamp without an order"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Summon urgent help and prepare for the wound to be opened to release the haematoma\". Bleeding into the confined space of the neck compresses the trachea and obstructs the airway within minutes, and the swelling can also cause venous congestion and laryngeal oedema, so intubation may be impossible. This is one of the few situations where the sutures or clips are released at the bedside, without waiting for theatre, to decompress the haematoma, which is why a clip remover or suture cutter is kept at the bedside after neck surgery. Help is summoned immediately, oxygen given and the patient sat up. Pressure over the swelling would worsen the compression. The principle is that in a confined space, bleeding obstructs before it exsanguinates.\n\nWhy the other options fail:\n• A — Oral fluids are dangerous in a patient with a compromised airway and do not relieve compression.\n• C — Pressure increases compression of the trachea and worsens the obstruction.\n• D — Continued observation allows a rapidly progressing airway obstruction to become fatal.\n\nReference: Standard post-operative neck surgery care",
-  "strategy": "Ask where the bleeding is confined. In the neck, the airway is compressed long before enough blood is lost to cause shock.",
+  "correctChoiceId": "d",
+  "rationale": "CORRECT (D) — \"Keep the bag below the kidney, secure the tube, never clamp without an order\". A nephrostomy drains urine straight from the renal pelvis to a bag outside the body, and it works by gravity. The bag stays below the kidney so urine cannot flow back and infect it, the tube is secured with tape so that a pull does not displace it, and the bag is emptied regularly with the spout cleaned to prevent contamination. The tube is never clamped unless a doctor orders it — clamping with a blocked or single kidney can back up urine and cause sepsis. The nurse also watches the volume and colour of urine, the dressing for leakage, and the temperature.\n\nWhy the other options fail:\n• A — Clamping with no order blocks drainage and can cause infection or kidney injury.\n• B — Draining and cleaning the bag when it is two-thirds full is enough; changing it hourly risks contamination and trauma.\n• C — He is nursed at his own comfort; lying flat does nothing for kinking and promotes stasis and chest infection.\n\n\nReference: Ghana STG — urology; RCN — catheter and nephrostomy care\n",
+  "strategy": "Gravity drainage, tube secured, bag below kidney, no clamping without an order.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -111013,28 +111013,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-BATCH2-0023",
  "categorySlug": "maternal-newborn",
- "stem": "A term newborn at six hours of age is jittery and sweaty. The capillary glucose is 2.1 mmol/L. What should the nurse do first?",
+ "stem": "A woman with known rheumatic heart disease is now 12 weeks pregnant. She is breathless on walking uphill and has been told her pregnancy is high risk. Why does the nurse arrange joint cardiology and obstetric review?",
  "choices": [
   {
    "id": "a",
-   "text": "Give intravenous 10% dextrose and monitor the glucose"
+   "text": "Pregnancy raises blood volume and cardiac output, so her heart may fail later"
   },
   {
    "id": "b",
-   "text": "Feed and recheck the glucose in thirty minutes"
+   "text": "The pregnancy will damage her valves further, and she will certainly need valve surgery this year"
   },
   {
    "id": "c",
-   "text": "Give intramuscular vitamin K and keep observing"
+   "text": "Rheumatic heart disease is dangerous only to the baby, not to the mother, so the review is for the fetus"
   },
   {
    "id": "d",
-   "text": "Repeat the glucose in four hours without treatment"
+   "text": "She should stop all cardiac medicines now, because any heart drug harms the unborn baby"
   }
  ],
  "correctChoiceId": "a",
- "rationale": "Jitteriness and sweating make this symptomatic hypoglycaemia, and a symptomatic newborn below 2.6 mmol/L needs intravenous dextrose rather than a feed alone. Glucose is rechecked after treatment and the cause is sought.\n\nWhy the other options fail:\n• B — A feed is the first step only in the asymptomatic baby; symptoms demand treatment that acts immediately.\n• C — Vitamin K prevents haemorrhagic disease and has no effect on glucose.\n• D — Leaving a symptomatic hypoglycaemic newborn untreated risks seizures and brain injury.\n\nReference: Ghana STG — neonatal hypoglycaemia",
- "strategy": "Divide neonatal hypoglycaemia into symptomatic and asymptomatic before choosing feed or dextrose.",
+ "rationale": "CORRECT (A) — \"Pregnancy raises blood volume and cardiac output, so her heart may fail later\". Pregnancy increases plasma volume and cardiac output by a third or more, peaking in the third trimester and staying high for the first days after delivery, so a heart with narrowed or leaking valves is asked to do much more work. The danger period is late pregnancy, labour and the immediate postpartum, when pulmonary oedema and heart failure can appear suddenly. That is why she is seen early, booked with a team that includes cardiology and obstetrics, monitored for breathlessness, orthopnoea and a new cough, and planned for a delivery that avoids the strain of a long second stage.\n\nWhy the other options fail:\n• B — Pregnancy does not itself destroy valves, and most women are managed medically through pregnancy; surgery is not automatic.\n• C — Rheumatic heart disease is a major cause of maternal death; both mother and baby are at risk.\n• D — Some cardiac drugs are continued and others are changed, but stopping them all is dangerous — the decision is made case by case.\n\n\nReference: WHO — cardiac disease in pregnancy; Ghana STG — medical disorders in pregnancy\n",
+ "strategy": "Volume goes up by a third: watch for failure in the third trimester and after delivery.",
  "difficulty": "hard",
  "tags": [
   "neonatal",
