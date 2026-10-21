@@ -61527,27 +61527,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-LTC-1798",
   "categorySlug": "med-surg",
-  "stem": "Which finding indicates that an asthma attack has become life-threatening?",
+  "stem": "A frail man in a care home can no longer brush his own teeth, and he wears a full upper denture. Which care should the nurse give?",
   "choices": [
    {
     "id": "a",
-    "text": "Loud widespread wheeze audible across the whole chest"
+    "text": "Mouth care is unnecessary for a man who eats very little, so simply rinse his mouth with water once a week and leave the rest of it"
    },
    {
     "id": "b",
-    "text": "A cough that has worsened over the preceding two days"
+    "text": "Leave the denture in place day and night, so that his face keeps its shape and he is not distressed by its removal"
    },
    {
     "id": "c",
-    "text": "A silent chest with the patient too breathless to speak"
+    "text": "Clean his own teeth and gums twice a day and take the denture out at night, cleaning it and leaving the mouth to rest"
    },
    {
     "id": "d",
-    "text": "Wheeze that is heard only at the end of expiration"
+    "text": "Scrub the denture with ordinary hard soap and a stiff brush once a week, and store it dry in a bedside drawer"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"A silent chest with the patient too breathless to speak\". Wheeze requires <strong>air moving through narrowed airways, so a chest that becomes quiet during a severe attack means air is barely moving at all</strong>. Combined with inability to complete a sentence, that is a life-threatening picture requiring immediate treatment. This is the counterintuitive point the question tests: <strong>loud wheeze is reassuring by comparison, and the disappearance of a sign can be worse than the sign itself</strong>.\n\nWhy the other options fail:\n• A — Loud wheeze indicates air is still moving through the airways.\n• B — A worsening cough signals deterioration but not immediate danger.\n• D — End-expiratory wheeze indicates mild airway narrowing.\n\nReference: Ghana STG — asthma; GINA",
+  "rationale": "CORRECT (C) — “Clean his own teeth and gums twice a day and take the denture out at night, cleaning it and leaving the mouth to rest”. Oral bacteria are aspirated, so a mouth left uncleaned in a dependent person is a direct route to pneumonia as well as to pain and tooth loss. The remaining teeth and the gums are brushed twice daily, and a denture is removed at night so that the mucosa can rest; it is cleaned and stored in water so that it does not warp. The nurse also looks inside the mouth for ulcers, thrush and a dry, coated tongue. Why the other options fail: eating little is exactly when a coated mouth and infection take hold (A); a denture left in continuously causes stomatitis and pressure damage (B); and a dry denture warps and no longer fits (D).",
   "strategy": "A silent chest in asthma is the emergency. Ask what the absence of a sign means.",
   "difficulty": "hard",
   "tags": [
@@ -69194,27 +69194,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ELD-2022",
   "categorySlug": "gerontology-community",
-  "stem": "A family has begun locking their mother with dementia in her room because she wanders. What should the nurse advise?",
+  "stem": "An 82-year-old woman in a care home has been waking at night, and her family asks the nurse for a sedative. What should the nurse advise?",
   "choices": [
    {
     "id": "a",
-    "text": "Make the compound safe so she can walk, and identify what she is seeking"
+    "text": "A benzodiazepine at bedtime is the kindest and safest way to make sure that she sleeps right through the night"
    },
    {
     "id": "b",
-    "text": "Confirm that locking the door is the safest available option"
+    "text": "Look for pain, a full bladder, hunger, cold or noise, and try sleep hygiene before any drug is considered"
    },
    {
     "id": "c",
-    "text": "Suggest she is sedated during the day to prevent wandering"
+    "text": "Night sedation is harmless in older people, because the dose can simply be halved if she is drowsy the next day"
    },
    {
     "id": "d",
-    "text": "Recommend that she be tied to her chair when unsupervised"
+    "text": "A long-acting sedative is best, so that one dose at bedtime covers the whole night and the following morning"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Make the compound safe so she can walk, and identify what she is seeking\". Walking usually has <strong>a purpose the person can no longer express — looking for a toilet, a familiar place, or relief from pain or boredom</strong>. Making the compound safe, adding a familiar landmark and meeting the underlying need work better than confinement. Restriction causes distress, falls, incontinence and rapid decline, and <strong>tying a person to furniture is unlawful restraint, not a nursing measure</strong>.\n\nWhy the other options fail:\n• B — Confinement causes distress, falls and rapid deterioration.\n• C — Daytime sedation is chemical restraint with the same harms.\n• D — Physical restraint is unlawful and dangerous.\n\nReference: Ghana STG — dementia care; NMC Ghana Code",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — “Look for pain, a full bladder, hunger, cold or noise, and try sleep hygiene before any drug is considered”. Waking at night in an older person is usually a symptom rather than a disease: pain from arthritic hips, a full bladder or a urinary infection, constipation, hunger, a cold room, noise or fear. Finding and treating that cause costs nothing and carries no risk, and simple measures such as daylight, a warm drink and a predictable routine help. Sedatives in this age group cause next-day confusion, unsteadiness, falls and hip fracture, and they are habit-forming. Why the other options fail: benzodiazepines roughly double the risk of a fall in an older person (A); being drowsy the next day is the harm, not a reason to keep going (C); and a long-acting drug hangs over into the morning, when the patient is most likely to fall (D).",
   "strategy": "Restriction presented as safety is usually the harm. Ask what she is looking for.",
   "difficulty": "hard",
   "tags": [
@@ -87446,27 +87446,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2550",
   "categorySlug": "safety-infection-control",
-  "stem": "A patient arrives at a Ghanaian treatment centre with profuse watery stool described as resembling rice water, and is severely dehydrated. What is the **priority** intervention?",
+  "stem": "A child has a grey, adherent membrane over the tonsils, a brassy cough and a swollen neck. Diphtheria is suspected. Which action comes first?",
   "choices": [
    {
     "id": "a",
-    "text": "Immediate administration of an oral antibiotic"
+    "text": "Give the diphtheria antitoxin as soon as it can be obtained, without waiting for the laboratory to confirm"
    },
    {
     "id": "b",
-    "text": "Rapid intravenous rehydration with Ringer's lactate"
+    "text": "Start oral penicillin and wait for the throat swab result before giving anything else, so that the treatment is targeted"
    },
    {
     "id": "c",
-    "text": "Stool culture before any treatment is commenced"
+    "text": "Nurse the child in the open ward with paracetamol for the sore throat, since the membrane separates on its own"
    },
    {
     "id": "d",
-    "text": "Antimotility medication to reduce the stool volume"
+    "text": "Send the child home with a course of antibiotics, because hospital admission only exposes other children"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Rapid intravenous rehydration with Ringer's lactate\". Cholera kills through the sheer volume of fluid and electrolyte loss, and death can occur within hours, so aggressive rehydration is the intervention that saves life. Severe dehydration requires rapid intravenous Ringer's lactate, followed by oral rehydration solution as the patient improves, with losses replaced continuously as they occur. Antibiotics have a secondary role in shortening the illness and reducing shedding, but they do not treat the dehydration that is killing the patient. Antimotility agents are contraindicated. The principle is that in cholera you are treating the fluid loss, not the organism.\n\nWhy the other options fail:\n• A — Antibiotics shorten illness and reduce transmission but do nothing for the immediate threat of hypovolaemic shock.\n• C — Culture is useful for surveillance but must never delay rehydration in a severely dehydrated patient.\n• D — Antimotility drugs are contraindicated because they retain toxin and fluid within the bowel.\n\nReference: WHO cholera treatment guidelines; Ghana Health Service cholera protocol",
+  "correctChoiceId": "a",
+  "rationale": "CORRECT (A) — “Give the diphtheria antitoxin as soon as it can be obtained, without waiting for the laboratory to confirm”. The danger in diphtheria is the toxin, which damages the heart muscle and the nerves. Antitoxin neutralises toxin that is still circulating but cannot undo what has already bound to tissue, so every hour of delay costs myocarditis or a palsy. It is therefore given on clinical suspicion, and antibiotics such as penicillin or erythromycin follow to clear the organism and reduce spread. The child needs droplet precautions and close watching for airway obstruction. Why the other options fail: waiting for the swab before antitoxin is exactly how children are lost (B); an open ward exposes others and paracetamol does nothing to the toxin (C); and discharge with antibiotics alone leaves the toxin unopposed (D).",
   "strategy": "Identify what is actually killing the patient. In cholera it is volume loss, so fluid outranks the antibiotic every time.",
   "difficulty": "hard",
   "tags": [
@@ -99707,27 +99707,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLN-2907",
   "categorySlug": "med-surg",
-  "stem": "A young man in Ghana develops weakness that began in both feet and has risen to his thighs over three days, following a diarrhoeal illness. What pattern does this describe?",
+  "stem": "A patient has an epidural infusion running for pain relief after major surgery. Which observation must be recorded at each check?",
   "choices": [
    {
     "id": "a",
-    "text": "An ascending symmetrical weakness suggesting Guillain-Barre syndrome"
+    "text": "The number of times he has passed urine since the epidural was started and the colour of that urine"
    },
    {
     "id": "b",
-    "text": "A one-sided weakness typical of a stroke affecting the motor cortex"
+    "text": "The level of the sensory block, his leg power, his blood pressure and his breathing"
    },
    {
     "id": "c",
-    "text": "Localised weakness from a single compressed peripheral nerve"
+    "text": "The volume of the epidural bag remaining, so that a replacement can be ordered in good time"
    },
    {
     "id": "d",
-    "text": "Weakness confined to the eye and face muscles only"
+    "text": "His temperature only, because infection at the epidural site is the one serious complication"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"An ascending symmetrical weakness suggesting Guillain-Barre syndrome\". Guillain-Barre syndrome is an immune-mediated demyelination of peripheral nerves, typically triggered one to three weeks earlier by a gastrointestinal or respiratory infection, and its signature is weakness that is symmetrical, begins distally in the legs and ascends. Reflexes are lost early. The danger is the same as in myasthenic crisis: the ascent may reach the respiratory muscles, so vital capacity is measured serially rather than relying on saturation, and autonomic instability causes swings in blood pressure and heart rate. Most patients recover, but recovery takes months and depends on meticulous supportive care. The principle is that the direction and symmetry of weakness localise the lesion.\n\nWhy the other options fail:\n• B — Stroke produces sudden one-sided weakness, not a symmetrical ascending pattern.\n• C — A single compressed nerve causes weakness in one nerve's territory only.\n• D — Isolated ocular and facial weakness suggests a different neuromuscular disorder.\n\nReference: Standard neurological nursing guidance",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — “The level of the sensory block, his leg power, his blood pressure and his breathing”. The block is checked by finding the level at which cold or touch is no longer felt, and by testing that he can lift his legs. A block that is climbing higher than expected, or legs that will not move, may mean the drug is reaching the spinal cord or the wrong space, and must be reported at once. Local anaesthetic also dilates the vessels, so blood pressure falls and the patient can become hypotensive and bradycardic; respiratory depression is the other danger. Why the other options fail: urine output matters, but it does not assess the block (A); the bag volume is stock control, not monitoring (C); and temperature alone would miss hypotension, a high block and weakness (D).",
   "strategy": "Read weakness by its distribution: one-sided means brain, symmetrical and ascending means peripheral nerve.",
   "difficulty": "hard",
   "tags": [
@@ -100159,27 +100159,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLN-2920",
   "categorySlug": "med-surg",
-  "stem": "An adult in Ghana reports that his shoes, ring and hat have all become too small over several years. Which condition does this suggest?",
+  "stem": "A woman has burning when she passes urine. The ward dipstick shows nitrites positive, leucocytes positive and a trace of blood. How should the nurse interpret this?",
   "choices": [
    {
     "id": "a",
-    "text": "Gigantism from excess growth hormone beginning in early childhood"
+    "text": "Nitrite and leucocytes together point to a urinary tract infection, so a midstream sample should be sent for culture"
    },
    {
     "id": "b",
-    "text": "Simple weight gain producing generalised swelling of the body"
+    "text": "The trace of blood is the only finding that matters, and it means she has a tumour of the kidney until this is proved otherwise"
    },
    {
     "id": "c",
-    "text": "Hypothyroidism causing fluid retention in the tissues"
+    "text": "A positive nitrite means the sample was contaminated while it was being collected, so the result should be thrown away"
    },
    {
     "id": "d",
-    "text": "Acromegaly from excess growth hormone secreted after the growth plates have fused"
+    "text": "All three findings are normal in a woman of her age and nothing further needs to be done for her at all"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Acromegaly from excess growth hormone secreted after the growth plates have fused\". Growth hormone excess in an adult cannot lengthen the long bones because the epiphyseal growth plates have already fused, so instead the bones thicken and the soft tissues enlarge. The result is the characteristic slow change in the extremities and face: broad hands and feet, coarsened features, a protruding jaw and enlarged tongue, with the change so gradual that old photographs often make the diagnosis. The same excess before fusion produces gigantism with increased height. It matters beyond appearance because it causes hypertension, diabetes, sleep apnoea, cardiomyopathy and a difficult airway for anaesthesia. The principle is that the same hormone excess produces a different picture depending on whether the growth plates are open.\n\nWhy the other options fail:\n• A — Gigantism results from the same excess but beginning before the growth plates fuse.\n• B — Weight gain does not enlarge the skull, jaw and hands in this specific pattern.\n• C — Hypothyroid puffiness is generalised and does not enlarge bone and cartilage.\n\nReference: Standard endocrine nursing guidance",
+  "correctChoiceId": "a",
+  "rationale": "CORRECT (A) — “Nitrite and leucocytes together point to a urinary tract infection, so a midstream sample should be sent for culture”. Nitrite is produced when Gram-negative coliforms such as E. coli reduce nitrate in the urine, and leucocyte esterase reflects pus cells, so both being positive in a woman with burning on micturition is strongly suggestive of infection. A midstream specimen is sent for culture before antibiotics so that the organism and its sensitivities are known; the trace of blood may come from the infection or from menstruation. Nitrite can be falsely negative if she voids frequently or if the organism does not reduce nitrate. Why the other options fail: blood alone is not a cancer diagnosis (B); contamination would not manufacture nitrite (C); and a symptomatic infection that is left untreated ascends to the kidney (D).",
   "strategy": "For growth hormone, ask whether the growth plates were open. Open gives height, fused gives thickness.",
   "difficulty": "medium",
   "tags": [
