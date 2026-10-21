@@ -531,28 +531,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-PHM-0014",
  "categorySlug": "pharmacology-parenteral",
- "stem": "A patient taking soluble insulin with breakfast becomes sweaty, shaky and confused at mid-morning. What should the nurse do first?",
+ "stem": "A patient with type 2 diabetes is started on a variable-rate intravenous insulin infusion after surgery. What must the nurse do?",
  "choices": [
   {
    "id": "a",
-   "text": "Give the next dose of insulin early"
+   "text": "Check capillary glucose hourly and adjust the rate to the protocol"
   },
   {
    "id": "b",
-   "text": "Check the blood glucose and treat for hypoglycaemia if it is low"
+   "text": "Set the rate once in the morning and review it at the next ward round"
   },
   {
    "id": "c",
-   "text": "Encourage the patient to sleep and reassess at lunchtime"
+   "text": "Give the usual long-acting insulin at the same time to keep the rate steady"
   },
   {
    "id": "d",
-   "text": "Give a dose of oral hypoglycaemic agent"
+   "text": "Stop the infusion as soon as one reading is in the target range"
   }
  ],
- "correctChoiceId": "b",
- "rationale": "Sweating, tremor and confusion in a patient on soluble insulin point to hypoglycaemia, and the first step is to check the glucose and, if confirmed, give fast-acting carbohydrate, followed by longer-acting carbohydrate and a review of the insulin dose. Giving the next dose early deepens the hypoglycaemia. Letting the patient sleep risks an unrecognised deterioration, since hypoglycaemia can progress to seizures and coma. An oral hypoglycaemic adds to the glucose-lowering effect and has no place in treating a low glucose.",
- "strategy": "Sweaty and confused on insulin means check the glucose and treat now.",
+ "correctChoiceId": "a",
+ "rationale": "CORRECT (A) — \"Check capillary glucose hourly and adjust the rate to the protocol\". Variable-rate intravenous insulin exists because surgery, infection and starvation change glucose unpredictably, and the only way to keep it in range is to measure often and adjust. The nurse checks capillary glucose at least hourly — more often if the level is falling quickly or is out of range — and changes the rate according to the written protocol, with a glucose source running alongside to prevent hypoglycaemia. The infusion is stopped only when the patient is eating and a subcutaneous regimen is in place; stopping it without cover leaves the patient with no insulin at all. Potassium is watched, because insulin drives it into cells.\n\nWhy the other options fail:\n• B — A rate set once and reviewed hours later ignores the changes that the infusion exists to manage.\n• C — Adding long-acting insulin on top of a variable infusion is not the usual practice and risks hypoglycaemia unless prescribed.\n• D — Stopping at the first in-range reading removes the control and lets glucose climb again.\n\n\nReference: JBDS — the variable rate intravenous insulin infusion; Ghana STG — perioperative diabetes\n",
+ "strategy": "Hourly glucose, rate per protocol, glucose source running, stop only when eating with subcutaneous cover.",
  "difficulty": "medium",
  "tags": [
   "pharmacology-parenteral",
@@ -6079,28 +6079,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0176",
   "categorySlug": "med-surg",
-  "stem": "Which position **best** assists a breathless patient with pulmonary oedema?",
+  "stem": "The surgeon uses diathermy throughout a long operation. Why does the theatre nurse insist on smoke evacuation rather than relying on the team's masks?",
   "choices": [
    {
     "id": "a",
-    "text": "Upright, well supported, with the legs dependent"
+    "text": "Because the smoke makes the theatre too hot for the patient to be safely cooled during surgery"
    },
    {
     "id": "b",
-    "text": "Flat on the back with one pillow"
+    "text": "Because the smell is unpleasant for the team and can cause headaches by the end of a long list"
    },
    {
     "id": "c",
-    "text": "Left lateral with knees drawn up"
+    "text": "Because the smoke carries chemicals and possibly viable cells, and masks do not filter it"
    },
    {
     "id": "d",
-    "text": "Head down with the foot of the bed raised"
+    "text": "Because the smoke sets off the theatre fire alarm, which interrupts the operation and wastes time"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Upright, well supported, with the legs dependent\". Sitting <strong>upright with the legs down</strong> allows full diaphragmatic descent and lung expansion, and pools blood in the dependent limbs so venous return to the overloaded heart is reduced. This eases both the work of breathing and the pulmonary congestion.\n\nWhy the other options fail:\n• B — Lying flat pushes abdominal contents against the diaphragm and increases venous return, worsening pulmonary congestion.\n• C — Left lateral positioning suits other purposes such as late pregnancy or the recovery position, not pulmonary oedema.\n• D — Head-down tilt increases venous return to the chest and is dangerous in fluid overload.\n\nReference: Ghana STG — heart failure; acute pulmonary oedema",
-  "strategy": "For breathlessness the default is upright. For pulmonary oedema specifically, upright with legs dependent adds the benefit of reducing preload.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Because the smoke carries chemicals and possibly viable cells, and masks do not filter it\". Diathermy and laser smoke is not just a smell. It contains fine particulate matter, irritant and carcinogenic chemicals such as benzene and formaldehyde, and potentially viable cells, including blood-borne viruses from the patient. An ordinary surgical mask does not seal at the face and does not filter particles of that size, so it gives little protection to the team and none to the air in the room. The control is extraction at the point of generation — a smoke evacuator with the nozzle close to the tip — together with adequate theatre ventilation. Proper masks, eye protection and the correct extraction are used together.\n\nWhy the other options fail:\n• A — Theatre temperature is controlled by the ventilation system and has nothing to do with the smoke evacuator.\n• B — The smell is a clue, not the hazard; the risk is what the smoke carries.\n• D — Alarms are unrelated, and treating the hazard as an annoyance is how staff are exposed.\n\n\nReference: NICE — diathermy and surgical smoke; AORN — surgical smoke evacuation\n",
+  "strategy": "Surgical smoke carries chemicals and cells; a mask does not filter it. Extract at the tip.",
   "difficulty": "easy",
   "tags": [
    "med-surg",
@@ -10450,28 +10450,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ANP-0304",
   "categorySlug": "fundamentals",
-  "stem": "Two parents with sickle cell trait, both AS, are counselled about their children. What is the risk for each pregnancy?",
+  "stem": "A patient is to receive a blood transfusion for symptomatic anaemia. What must happen before the first unit is started?",
   "choices": [
    {
     "id": "a",
-    "text": "One in two risk of sickle cell disease and one in four of being a carrier"
+    "text": "Nothing in particular, because a transfusion is a routine treatment like an intravenous infusion"
    },
    {
     "id": "b",
-    "text": "One in four risk of sickle cell disease and one in two of being a carrier"
+    "text": "Only the group and cross-match result, since a discussion about risk would worry the patient"
    },
    {
     "id": "c",
-    "text": "No risk of sickle cell disease because both parents are healthy carriers"
+    "text": "A signature from a relative, because the patient cannot consent to receiving blood products"
    },
    {
     "id": "d",
-    "text": "Every child will inherit sickle cell disease because both parents carry it"
+    "text": "A specific consent discussion covering the risks, benefits and alternatives, documented"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"One in four risk of sickle cell disease and one in two of being a carrier\". Sickle cell disease is <strong>autosomal recessive</strong>, arising from a point mutation in the beta-globin gene. Two AS parents give each child a <strong>one in four chance of SS disease, one in two of AS trait and one in four of AA</strong>. The risk applies <strong>independently to every pregnancy</strong>, so having one unaffected child does not reduce it. Genetic counselling before marriage is widely offered in Ghana.\n\nWhy the other options fail:\n• A — The figures are reversed. The recessive Punnett square gives one quarter affected and one half carriers.\n• C — Carriers are healthy but each still passes on one mutated gene, so an affected child is entirely possible.\n• D — Only the quarter inheriting two S genes will have disease. Three quarters will not.\n\nReference: Ghana STG — sickle cell disease; genetic counselling",
-  "strategy": "Draw the four-box square for any recessive condition. Two carriers always give one quarter affected, one half carriers, one quarter clear, and the odds reset each pregnancy.",
+  "correctChoiceId": "d",
+  "rationale": "CORRECT (D) — \"A specific consent discussion covering the risks, benefits and alternatives, documented\". Blood is a treatment with real risks — febrile and allergic reactions, haemolytic reactions from incompatibility, fluid overload, and the small residual risk of transfusion-transmitted infection — so the patient is told why it is needed, what the alternatives are, and what might go wrong, and the discussion is recorded. In an emergency where the patient cannot consent and the transfusion is life-saving, it proceeds and the reason is documented. Consent is not a signature collected in a corridor; it is a conversation, and the nurse checks that it has happened before the unit is requested and started.\n\nWhy the other options fail:\n• A — Blood is not a routine infusion; it needs consent and two-person identity checks at the bedside.\n• B — Withholding the risks removes the patient's ability to decide and is not consent.\n• C — A competent adult consents for herself; a relative's signature is not a substitute.\n\n\nReference: Ghana National Blood Service — safe transfusion; NMC — consent\n",
+  "strategy": "Transfusion needs its own consent conversation, documented, plus bedside identity checks.",
   "difficulty": "hard",
   "tags": [
    "fundamentals",
@@ -11842,28 +11842,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SUR-0345",
   "categorySlug": "med-surg",
-  "stem": "A woman at twelve weeks has a uterus far larger than expected, severe vomiting and passes grape-like vesicles per vaginam. What is the likely diagnosis?",
+  "stem": "A patient had sutures inserted in a cut on the forearm ten days ago. He asks when they can come out. What determines the timing?",
   "choices": [
    {
     "id": "a",
-    "text": "A hydatidiform mole, needing evacuation and prolonged hCG follow-up"
+    "text": "All sutures come out at seven days, wherever they are on the body"
    },
    {
     "id": "b",
-    "text": "A threatened miscarriage, requiring bed rest and continued observation"
+    "text": "The site: face and neck early, limbs later, and over joints later still"
    },
    {
     "id": "c",
-    "text": "A twin pregnancy, which explains both the size and the severe vomiting"
+    "text": "The number of sutures used, because more sutures mean the wound is stronger"
    },
    {
     "id": "d",
-    "text": "An ectopic pregnancy, which has ruptured into the peritoneal cavity"
+    "text": "How the wound looks on the day, with no reference to where it is on the body"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"A hydatidiform mole, needing evacuation and prolonged hCG follow-up\". A uterus large for dates, hyperemesis and <strong>grape-like vesicles</strong> are classical for <strong>hydatidiform mole</strong>, in which the trophoblast proliferates without a viable fetus and hCG levels are very high. Treatment is <strong>suction evacuation</strong> followed by <strong>serial hCG measurement</strong>, because a mole can progress to choriocarcinoma. Pregnancy must be avoided until hCG has been normal for the recommended period.\n\nWhy the other options fail:\n• B — Threatened miscarriage presents with bleeding and a uterus appropriate for dates, without vesicles.\n• C — Twins enlarge the uterus and can worsen vomiting, but do not produce vesicles, and a fetus would be seen on scan.\n• D — Ruptured ectopic presents with acute pain, collapse and a small uterus, not an enlarged one.\n\nReference: Ghana STG — gestational trophoblastic disease",
-  "strategy": "Anchor on the one finding that occurs in a single condition. Grape-like vesicles occur only in molar pregnancy, so they settle the diagnosis alone.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"The site: face and neck early, limbs later, and over joints later still\". Wounds heal at different rates because the skin is different and because of the forces across it. Sutures on the face and neck can come out at about five to seven days, the scalp and trunk at seven to ten, and the limbs at ten to fourteen, while a wound over a joint or on the back may need longer. Other things matter too — age, nutrition, diabetes, steroid use, infection and how much tension the wound carries — so the decision is made by the clinician who reviews the wound, and the nurse checks that the edges are soundly united before removal.\n\nWhy the other options fail:\n• A — A single time for every site would take face sutures out too late and limb sutures out too early.\n• C — The number of sutures does not tell you how the tissue has healed; more sutures do not mean a stronger wound.\n• D — Appearance alone, without the site and the patient's risk factors, is an incomplete guide.\n\n\nReference: Ghana STG — wound care; NICE — surgical site infection\n",
+  "strategy": "Sutures are timed by site and healing: face 5–7 days, trunk 7–10, limbs 10–14.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -12660,28 +12660,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PHM-0369",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "Minutes after an injection of benzylpenicillin a patient develops stridor, a widespread rash and hypotension. What is given **first**?",
+  "stem": "A patient has a transdermal hyoscine patch prescribed for travel sickness. What must the nurse teach?",
   "choices": [
    {
     "id": "a",
-    "text": "Intravenous hydrocortisone to suppress the inflammatory response"
+    "text": "Place it on the chest over the heart, and leave it on for a month before changing it"
    },
    {
     "id": "b",
-    "text": "An oral antihistamine to relieve the rash and the associated itching"
+    "text": "Behind the ear, applied hours ahead, hands washed after handling"
    },
    {
     "id": "c",
-    "text": "Intramuscular adrenaline into the anterolateral aspect of the thigh"
+    "text": "Place it on any hairy part of the body, since hair improves how well the drug is absorbed"
    },
    {
     "id": "d",
-    "text": "Intravenous fluids alone until the blood pressure has been restored"
+    "text": "Take it only once the nausea has already started, because it works within a few minutes"
    }
   ],
-  "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Intramuscular adrenaline into the anterolateral aspect of the thigh\". This is <strong>anaphylaxis</strong>. <strong>Intramuscular adrenaline into the anterolateral thigh is the first and only life-saving drug</strong>: it reverses bronchospasm and laryngeal oedema and restores blood pressure within minutes. Hydrocortisone and antihistamines are adjuncts that act far too slowly to be relied upon. Oxygen, fluids and repeated adrenaline every five minutes follow as needed.\n\nWhy the other options fail:\n• A — Steroids take hours to act and may reduce late relapse, but giving them first wastes the critical minutes.\n• B — Oral antihistamines treat urticaria only, work slowly, and do nothing for airway obstruction or shock.\n• D — Fluids support the circulation but do not reverse airway swelling. Adrenaline must be given first.\n\nReference: Ghana STG — anaphylaxis; emergency management",
-  "strategy": "In anaphylaxis, one drug comes before all others. Any option that delays intramuscular adrenaline is wrong, however reasonable it sounds.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"Behind the ear, applied hours ahead, hands washed after handling\". Hyoscine (scopolamine) is absorbed through the skin, so it is applied to clean, dry, hairless skin behind the ear, where the drug enters steadily. For motion sickness it is applied some hours before travel, because it takes time to reach an effective level; it is not a rescue medicine for nausea that has already started. Removing the patch needs care: the residue on the fingers can dilate the pupil and blur vision if it gets into the eye, so the hands are washed after handling. It is avoided in narrow-angle glaucoma and in urinary retention, and it causes a dry mouth and drowsiness.\n\nWhy the other options fail:\n• A — The patch belongs behind the ear, not over the heart, and it is changed according to the prescription, not monthly.\n• C — Hair reduces contact and absorption; the skin must be clean and dry.\n• D — It is a prophylactic, not a rescue drug; it takes hours, not minutes.\n\n\nReference: BNF — hyoscine; Ghana STG — antiemetics\n",
+  "strategy": "Behind the ear, hours ahead, hands washed. It prevents sickness, it does not treat it.",
   "difficulty": "medium",
   "tags": [
    "pharmacology-parenteral",
@@ -21060,28 +21060,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PUB-0614",
   "categorySlug": "gerontology-community",
-  "stem": "A nurse at a Ghanaian health centre sees a suspected case of cholera. Under Integrated Disease Surveillance and Response, what must she do?",
+  "stem": "Several people in one district fall ill with watery diarrhoea within a week. Why does the outbreak team write a case definition before counting cases?",
   "choices": [
    {
     "id": "a",
-    "text": "Wait for laboratory confirmation before informing anyone outside the facility"
+    "text": "So that the number of cases can be made to look smaller while the cause is still unknown"
    },
    {
     "id": "b",
-    "text": "Notify the district immediately by the fastest means and follow with a written report"
+    "text": "So that every worker counts the same thing, and cases can be compared over time and place"
    },
    {
     "id": "c",
-    "text": "Record the case in the register and include it in the monthly returns as usual"
+    "text": "So that treatment can be started without waiting for any laboratory confirmation of the cause"
    },
    {
     "id": "d",
-    "text": "Discuss it with the medical officer at the next scheduled staff meeting"
+    "text": "So that only the most severely ill patients are recorded, which saves work in a busy district"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Notify the district immediately by the fastest means and follow with a written report\". Cholera is an <strong>immediately notifiable disease</strong> under IDSR, along with measles, meningitis, yellow fever, viral haemorrhagic fever, acute flaccid paralysis, guinea worm and neonatal tetanus. A <strong>suspected</strong> case is reported at once by telephone or the fastest available means, followed by the case-based form. The purpose is speed: <strong>one case of cholera is a potential epidemic</strong>, and waiting for confirmation costs the days in which it can still be contained.\n\nWhy the other options fail:\n• A — Notification is triggered by suspicion, not confirmation. Laboratory results arrive far too late to contain an epidemic.\n• C — Monthly returns are for endemic conditions. An epidemic-prone disease cannot wait weeks to be counted.\n• D — A meeting is not a reporting channel and introduces a delay measured in days.\n\nReference: Ghana Technical Guidelines for Integrated Disease Surveillance and Response",
-  "strategy": "Learn which diseases are immediate. For those, suspicion alone triggers reporting, and the report goes today.",
+  "rationale": "CORRECT (B) — \"So that every worker counts the same thing, and cases can be compared over time and place\". A case definition sets out who counts: the clinical features, the time period, the place, and any laboratory criteria, often with a simple, probable and confirmed level. Without it, one clinic counts every child with diarrhoea and another counts only those admitted, and the numbers cannot be compared, the size of the outbreak cannot be judged, and the effect of control measures cannot be measured. It is written early and revised as the picture becomes clearer — widening if cases are being missed, narrowing if the net is catching unrelated illness.\n\nWhy the other options fail:\n• A — A definition improves accuracy; it is not a tool for making numbers look better.\n• C — Treatment of individual patients is a separate decision and does not wait for the definition.\n• D — Counting only severe cases underestimates the outbreak and hides its true extent and source.\n\n\nReference: WHO — outbreak investigation; Ghana — Integrated Disease Surveillance and Response\n",
+  "strategy": "A case definition makes everyone count the same thing: person, place, time, clinical and lab criteria.",
   "difficulty": "medium",
   "tags": [
    "gerontology-community",
@@ -27089,28 +27089,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MHN-0790",
   "categorySlug": "mental-health",
-  "stem": "Within what period must a Ghanaian facility grant a voluntary patient's written request for discharge?",
+  "stem": "A woman with recurrent severe depression writes, while well, that if she becomes unwell again she would not want electroconvulsive therapy and wants her sister involved in decisions. She is later admitted severely depressed and cannot decide. How should the team use what she wrote?",
   "choices": [
    {
     "id": "a",
-    "text": "Within seven days, so that the treatment plan may be completed beforehand"
+    "text": "Ignore it, because a decision made when she is well cannot apply when she is ill"
    },
    {
     "id": "b",
-    "text": "Within twenty-four hours, unless the criteria for involuntary admission are met"
+    "text": "Use it as evidence of her wishes, weigh it with her current needs and involve her sister"
    },
    {
     "id": "c",
-    "text": "Within one month, after review of the case by the Mental Health Review Tribunal"
+    "text": "Treat it as absolutely binding, even when the situation is different from the one she imagined"
    },
    {
     "id": "d",
-    "text": "Only after the attending psychiatrist certifies that recovery is complete"
+    "text": "Destroy it, so that it cannot influence a decision that must be made on clinical grounds alone"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Within twenty-four hours, unless the criteria for involuntary admission are met\". Section 41 requires the facility to grant a voluntary patient's written request for discharge <strong>within twenty-four hours</strong>, unless at that moment the patient <strong>meets the criteria for involuntary admission</strong>. The safeguard prevents a person who entered freely being held indefinitely. Patients are told at admission that a discharge request may be refused if those criteria apply, so the position is clear from the outset.\n\nWhy the other options fail:\n• A — There is no seven-day period. Holding someone that long without legal grounds would be unlawful detention.\n• C — The Tribunal reviews involuntary admissions and long-stay voluntary cases; it is not a gateway to routine discharge.\n• D — Recovery is not the test. A voluntary patient may leave while still unwell, provided the criteria are not met.\n\nReference: Ghana — Mental Health Act 846, section 41",
-  "strategy": "Learn the statutory clocks: 24 hours for voluntary discharge, 48 hours in safe custody, 72 hours on urgency.",
+  "rationale": "CORRECT (B) — \"Use it as evidence of her wishes, weigh it with her current needs and involve her sister\". A statement written when someone is well records their values, what matters to them and what they would want, and it is valuable precisely because it was made without the pressure of illness. It is not a substitute for assessing the person now: the team considers it carefully, checks whether the circumstances are those the person had in mind, and records its reasons if it departs from it. The nominated person is involved. Where a jurisdiction gives a formal refusal legal force, that is a separate matter and is checked with the law; a statement of wishes is guidance that must be taken seriously, not ignored and not treated as unchangeable.\n\nWhy the other options fail:\n• A — Ignoring it discards the clearest evidence of what she values.\n• C — A statement made in advance cannot anticipate every change in circumstances, which is why it is weighed rather than applied blindly.\n• D — Destroying it removes the patient's voice from the decision.\n\n\nReference: WHO — mental health and human rights; Ghana Mental Health Act 2012 (Act 846)\n",
+  "strategy": "An advance statement is evidence of her wishes: weigh it, check the circumstances, involve the named person.",
   "difficulty": "medium",
   "tags": [
    "mental-health",
@@ -47427,28 +47427,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PRC-1385",
   "categorySlug": "fundamentals",
-  "stem": "Which finding contraindicates syringing a patient's ear for wax removal?",
+  "stem": "A man had an indwelling catheter for three days after surgery and is now passing urine normally. What should the nurse plan before removing it?",
   "choices": [
    {
     "id": "a",
-    "text": "A complaint of reduced hearing on that same side"
+    "text": "Remove it in the evening so that he sleeps without a bag, and put it back if he cannot pass urine by morning"
    },
    {
     "id": "b",
-    "text": "Wax that is visible at the opening of the canal"
+    "text": "Leave it in until discharge, because a second catheterisation is worse than a few more days of drainage"
    },
    {
     "id": "c",
-    "text": "A history of a perforated eardrum on that side"
+    "text": "Remove it when he is mobile and can reach a toilet, and record the volume passed afterwards"
    },
    {
     "id": "d",
-    "text": "A sensation of fullness within the affected ear"
+    "text": "Clamp the catheter for a full day first, so that the bladder can stretch back to its normal size"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"A history of a perforated eardrum on that side\". Syringing forces fluid against the drum, and if the drum is perforated the fluid enters the <strong>middle ear</strong>, carrying infection into a normally sterile space and risking permanent damage. Previous perforation, previous ear surgery, active infection and a single hearing ear are all reasons to stop and refer. Reduced hearing, visible wax and fullness are the <strong>indications</strong> for the procedure, not reasons to avoid it.\n\nWhy the other options fail:\n• A — Reduced hearing from wax is a reason to remove it, not a contraindication.\n• B — Visible wax is the finding that indicates the procedure.\n• D — Fullness is a typical symptom of impacted wax.\n\nReference: Ghana nursing curriculum — RGN 209 procedures",
-  "strategy": "Before irrigating any cavity, ask whether its wall is intact.",
+  "rationale": "CORRECT (C) — \"Remove it when he is mobile and can reach a toilet, and record the volume passed afterwards\". Removing a catheter is a trial without catheter, and it succeeds best when it is planned rather than incidental. The nurse checks that the reason for the catheter has passed, that the patient can walk to a toilet or use a bottle and can manage his clothing, and that he is not sedated or in severe pain. The catheter is removed in the morning where possible, fluids are encouraged, and every void is measured and recorded; retention is checked by scan rather than by waiting for symptoms. If he does not pass urine, the team is told and a decision is made about recatheterisation or a further trial.\n\nWhy the other options fail:\n• A — Evening removal leaves him unsupported overnight, when retention is likely to go unnoticed until the bladder is over-distended.\n• B — Leaving it in prolongs the risk of infection and stones and makes the eventual trial harder, not easier.\n• D — Clamping for a day does not restore bladder tone and risks infection and discomfort; it is not a recognised preparation.\n\n\nReference: NICE — catheter care; Ghana STG — postoperative urinary care\n",
+  "strategy": "Plan the trial: mobile, morning, fluids encouraged, every void measured.",
   "difficulty": "hard",
   "tags": [
    "fundamentals",
@@ -53586,28 +53586,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PER-1566",
   "categorySlug": "med-surg",
-  "stem": "Which instruction is essential after eye surgery?",
+  "stem": "A patient returns from surgery with a closed suction drain in the wound. When should it be removed?",
   "choices": [
    {
     "id": "a",
-    "text": "Keep the eye tightly covered at all times for two weeks"
+    "text": "On the second day after surgery, whatever the volume and character of the drainage"
    },
    {
     "id": "b",
-    "text": "Avoid rubbing the eye, bending low and lifting heavy loads"
+    "text": "Only when the patient is ready for discharge, so that nothing is left behind in the wound"
    },
    {
     "id": "c",
-    "text": "Remain lying flat in bed until the first follow-up review"
+    "text": "When the drain has stopped draining completely for at least five days on the ward"
    },
    {
     "id": "d",
-    "text": "Wash the eye out with clean water three times each day"
+    "text": "When the drainage has fallen and the wound is ready, as prescribed"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Avoid rubbing the eye, bending low and lifting heavy loads\". The two threats after eye surgery are <strong>a rise in intraocular pressure and the introduction of infection</strong>. Rubbing, bending below the waist, lifting and straining all raise pressure and can disrupt the wound; touching the eye introduces organisms. Continuous tight covering and complete bed rest are unnecessary and cause other harm, and <strong>irrigating the operated eye with tap water is an infection risk, not hygiene</strong>.\n\nWhy the other options fail:\n• A — A shield is used at night or as directed, not continuously for weeks.\n• C — Prolonged bed rest is unnecessary and risks other complications.\n• D — Washing the operated eye with water risks introducing infection.\n\nReference: Ghana STG — ophthalmic nursing",
-  "strategy": "After eye surgery, forbid anything that raises pressure or touches the eye.",
+  "correctChoiceId": "d",
+  "rationale": "CORRECT (D) — \"When the drainage has fallen and the wound is ready, as prescribed\". A drain is there to remove blood, serum or pus that would otherwise collect and become an abscess, and to let the nurse see what is coming out. It is removed when its job is done: the volume has fallen to a low level for the local protocol, the fluid is no longer bloodstained or purulent, and the patient is recovering. Removal too early allows a collection to form; removal too late gives organisms a track into the wound and keeps the patient tethered to a bottle. The nurse checks the prescription, records the 24-hour volume, and watches the wound and the temperature after removal.\n\nWhy the other options fail:\n• A — Removing on a fixed day ignores how much is draining and can leave a collection behind.\n• B — Leaving the drain until discharge means it sits in the wound for days longer than it needs to.\n• C — Waiting for five completely dry days keeps an unnecessary foreign body in a healing wound.\n\n\nReference: Ghana STG — wound and drain care; NICE — surgical drains\n",
+  "strategy": "A drain comes out when output falls and the wound is ready — not on a fixed day.",
   "difficulty": "medium",
   "tags": [
    "med-surg",
@@ -68168,28 +68168,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ELD-1992",
   "categorySlug": "gerontology-community",
-  "stem": "An older man feels dizzy each time he stands up. How should this be assessed?",
+  "stem": "An 82-year-old man has lost weight since his wife died and now has a body mass index of 18.4. He says he has no appetite. What should the nurse do first?",
   "choices": [
    {
     "id": "a",
-    "text": "Measure his blood pressure lying and again after standing"
+    "text": "Tell him to eat more of what he already eats and review him in six months"
    },
    {
     "id": "b",
-    "text": "Measure his blood pressure sitting on two separate days"
+    "text": "Screen him with a malnutrition tool"
    },
    {
     "id": "c",
-    "text": "Check his blood glucose while he is feeling dizzy"
+    "text": "Arrange a barium swallow, because weight loss in older people is always cancer"
    },
    {
     "id": "d",
-    "text": "Examine his ears for wax or evidence of infection"
+    "text": "Weigh him again next year, because weight falls with age and this is expected"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Measure his blood pressure lying and again after standing\". A fall of about <strong>20 mmHg systolic or 10 mmHg diastolic on standing confirms postural hypotension, which cannot be detected by any reading taken in one position</strong>. It is a leading cause of falls and is very often drug-related. Once confirmed, the treatment is usually to review the blood pressure tablets, diuretics and sedatives — <strong>the cause is more often on the drug chart than in the circulation</strong>.\n\nWhy the other options fail:\n• B — Seated readings on any number of days miss the postural drop.\n• C — Glucose is worth checking but does not test this mechanism.\n• D — Ear examination addresses vertigo, not postural symptoms.\n\nReference: Ghana STG — falls in older adults",
-  "strategy": "Symptoms on standing require a measurement on standing.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"Screen him with a malnutrition tool\". A body mass index under 20 in an older adult, combined with recent weight loss and poor appetite, is a red flag that will be missed if it is put down to age or grief. The MUST tool scores body mass index, unplanned weight loss and acute illness, and a score of two or more means high risk: the patient is referred to a dietitian, and the nurse starts the things that can be done at once — food first, small energy-dense meals, a drink between meals rather than with them, and treatable contributors looked for, such as tooth problems, swallowing difficulty, depression, poor housing and medicines that blunt appetite.\n\nWhy the other options fail:\n• A — Asking a man with no appetite to eat more, without finding out why, changes nothing and delays help.\n• C — Cancer is one cause among many; a barium swallow before screening and assessment is the wrong order.\n• D — Unintentional weight loss in an older person is never simply expected and needs investigating.\n\n\nReference: NICE — nutrition support in adults; MUST; Ghana STG — older people's care\n",
+  "strategy": "BMI under 20 plus weight loss plus no appetite: screen with MUST and refer. Do not blame age.",
   "difficulty": "hard",
   "tags": [
    "gerontology-community",
@@ -77053,28 +77053,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2249",
   "categorySlug": "gerontology-community",
-  "stem": "Repeated diarrhoea outbreaks in a community are traced to a broken borehole. Which action **best** reflects intersectoral collaboration?",
+  "stem": "A nurse is asked to run a session on hand hygiene for mothers at a rural clinic. What should she do first when planning it?",
   "choices": [
    {
     "id": "a",
-    "text": "Increase the stock of oral rehydration salts held at the CHPS compound"
+    "text": "Write down everything she knows about hand hygiene, and read it out at the session"
    },
    {
     "id": "b",
-    "text": "Teach every household how to boil water before drinking it"
+    "text": "Print the national guidelines and hand them out, because the content is the important part"
    },
    {
     "id": "c",
-    "text": "Refer each affected patient promptly to the health centre"
+    "text": "Find out what the mothers already do and what they want to know, and set objectives"
    },
    {
     "id": "d",
-    "text": "Work with the district assembly and water authority to repair and maintain it"
+    "text": "Book the largest room available, because a bigger audience means better value for the visit"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Work with the district assembly and water authority to repair and maintain it\". Intersectoral collaboration means <strong>working with the sectors that control the actual determinant, since the health service cannot repair a borehole</strong>. Treatment, teaching and referral all manage consequences; only the repair removes the cause. This is a defining principle of primary health care and recognises that most of what makes people ill lies outside the clinic's authority.\n\nWhy the other options fail:\n• A — Stocking treatment prepares for the illness rather than preventing it.\n• B — Boiling is a useful interim measure but places the burden on households and does not fix the source.\n• C — Prompt referral is good clinical practice but leaves the cause untouched.\n\nReference: Declaration of Alma-Ata; Ghana Health Service district health policy",
-  "strategy": "Ask who controls the cause. If it is not the health service, collaboration is the intervention.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Find out what the mothers already do and what they want to know, and set objectives\". Health education that changes behaviour starts from the learner, not the teacher. Before any content is prepared, the nurse finds out what the group already knows and does, what their circumstances allow — water, soap, time, a place to wash — and what they see as their main problem. From that she sets two or three specific objectives, chooses a method that lets them practise and discuss rather than listen, and plans how she will know afterwards whether anything changed. The session is then delivered in the language the group uses, with demonstrations and return demonstrations.\n\nWhy the other options fail:\n• A — A lecture from a list teaches little and does not account for what the group already knows.\n• B — Handing out guidelines does not ensure they are read, understood or possible in that setting.\n• D — A large room suits a lecture, not learning; room size is not the planning question.\n\n\nReference: WHO — health education and promotion; Ghana Health Service — CHPS\n",
+  "strategy": "Start from the audience and their circumstances, set objectives, then choose the method.",
   "difficulty": "medium",
   "tags": [
    "gerontology-community",
@@ -80279,28 +80279,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAT-2341",
   "categorySlug": "maternal-newborn",
-  "stem": "On day four a woman has a temperature of 38.8 degrees Celsius, lower abdominal pain, offensive lochia and a tender uterus. Which action is the **priority**?",
+  "stem": "A woman had a classical caesarean section two years ago, with an incision in the upper segment of the uterus. She is now 36 weeks and asks about a normal delivery. What should the nurse explain?",
   "choices": [
    {
     "id": "a",
-    "text": "Await the culture result before starting any antibiotic"
+    "text": "A previous classical incision means planned caesarean, because labour risks a uterine tear"
    },
    {
     "id": "b",
-    "text": "Give paracetamol and reassess her temperature in six hours"
+    "text": "She can labour safely, because any scar in the uterus behaves the same way in a later pregnancy"
    },
    {
     "id": "c",
-    "text": "Take specimens for culture and start broad-spectrum antibiotics without waiting for results"
+    "text": "She can be induced with oxytocin, and the scar will simply stretch as the contractions increase"
    },
    {
     "id": "d",
-    "text": "Encourage fluids and arrange review at the six-week contact"
+    "text": "The type of the previous incision makes no difference at all to how this pregnancy will be managed"
    }
   ],
-  "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Take specimens for culture and start broad-spectrum antibiotics without waiting for results\". Fever, uterine tenderness and offensive lochia in the puerperium is puerperal sepsis, which remains a leading cause of maternal death and can deteriorate to septic shock within hours. Cultures are taken because they will later allow the antibiotics to be narrowed, but treatment starts immediately on clinical grounds; every hour of delay in sepsis increases mortality measurably. Alongside antibiotics she needs fluids, monitoring and a search for retained products. The principle is that in sepsis you treat first and refine later, because the laboratory works on a slower clock than the infection.\n\nWhy the other options fail:\n• A — Waiting for a culture inverts the priority. The result takes a day or more, by which time an untreated puerperal sepsis can be established shock.\n• B — Paracetamol lowers the temperature and hides the very sign you are monitoring, without touching the infection.\n• D — Fluids alone with review in weeks abandons a woman with an active infection at the point where it is still easily treatable.\n\nReference: WHO recommendations for the prevention and treatment of maternal peripartum infections",
-  "strategy": "Note the difference between taking a specimen and waiting for its result. Correct sepsis answers do both — culture and treat — while distractors make the treatment conditional on the result.",
+  "correctChoiceId": "a",
+  "rationale": "CORRECT (A) — \"A previous classical incision means planned caesarean, because labour risks a uterine tear\". The risk of scar rupture depends on where the uterus was cut. A lower-segment incision has a low rupture risk, which is why some women can plan a vaginal birth after caesarean. A classical incision runs through the thicker, contractile upper segment and heals less well, so the rupture risk in labour is several times higher, and rupture can kill the fetus and bleed the mother catastrophically. For that reason a planned caesarean before labour is the usual plan. The nurse explains why, records the type of the previous incision, and ensures the plan is in the notes and understood by the woman.\n\nWhy the other options fail:\n• B — Scars behave very differently, and treating all scars alike is how a rupture is missed.\n• C — Oxytocin increases the forces on the scar and is avoided; induction does not make a classical scar safe.\n• D — The incision type is one of the most important facts in planning the delivery.\n\n\nReference: RCOG — birth after caesarean; Ghana STG — operative delivery\n",
+  "strategy": "A classical (upper segment) scar means no labour: rupture risk is far higher than a lower-segment scar.",
   "difficulty": "hard",
   "tags": [
    "maternal-newborn",
@@ -85127,28 +85127,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRC-2482",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A woman with bipolar disorder has been stable on lithium for years and now wants to conceive. What must happen before she stops the drug herself?",
+  "stem": "A nurse is asked to prepare and give a cytotoxic chemotherapy drug. What must she have before she starts?",
   "choices": [
    {
     "id": "a",
-    "text": "Nothing: lithium is the safest mood stabiliser in pregnancy and can continue at the same dose throughout"
+    "text": "Only gloves, because the drug is given through a closed intravenous line"
    },
    {
     "id": "b",
-    "text": "She should simply stop the lithium today, since any drug is dangerous in the first three months"
+    "text": "A cytotoxic spill kit, protective equipment and a prepared administration area"
    },
    {
     "id": "c",
-    "text": "She should switch to a high dose of a sedative, which will control her mood in place of lithium"
+    "text": "A second nurse to hold the bag, since two people are needed for every dose"
    },
    {
     "id": "d",
-    "text": "A planned review, because stopping abruptly risks relapse, and lithium itself carries fetal risk"
+    "text": "Permission from the patient's family, because chemotherapy is a hazardous treatment"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"A planned review, because stopping abruptly risks relapse, and lithium itself carries fetal risk\". Both paths carry risk, so the decision is made with psychiatry and obstetrics before conception, not in a hurry after it. Stopping lithium suddenly in a woman who depends on it leads to early relapse, especially in the postpartum period, and relapse carries its own dangers for mother and baby. Continuing it means counselling about Ebstein's anomaly and other cardiac effects, checking the dose against a pre-pregnancy level, monitoring the level more often in pregnancy, and planning around delivery and breastfeeding. The one option that is not safe is a self-made decision in either direction.\n\nWhy the other options fail:\n• A — Lithium is not risk-free; it is associated with cardiac malformations, and the dose and level need planning.\n• B — Abrupt withdrawal is the classic trigger for relapse, and untreated illness in pregnancy is a serious risk.\n• C — A sedative is not a mood stabiliser and does not treat bipolar disorder.\n\n\nReference: NICE — bipolar disorder in pregnancy; Ghana STG — psychiatry\n",
-  "strategy": "Plan it: abrupt stopping relapses, continuing needs counselling and level monitoring.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"A cytotoxic spill kit, protective equipment and a prepared administration area\". Preparing and giving cytotoxic drugs exposes the nurse to a hazardous substance, so the equipment is set out before anything is opened: a gown, two pairs of gloves, eye and face protection, a absorbent pad on a designated surface, luer-lock connections and closed-system transfer where available. A spill kit must be within reach, because a break, a leak or a dropped syringe is a foreseeable event and the response has to be immediate. Pregnant and breastfeeding staff are excluded from handling these drugs, and waste goes into the cytotoxic bin, not the ordinary one.\n\nWhy the other options fail:\n• A — Gloves alone leave the forearms, face and eyes exposed to splashes and aerosols.\n• C — Two nurses are used for checking, not for physically holding the bag.\n• D — Consent is obtained for the treatment, not for the nurse's handling of it.\n\n\nReference: NIOSH — hazardous drug handling; Ghana STG — chemotherapy safety\n",
+  "strategy": "Cytotoxics need gown, double gloves, eye protection and a spill kit ready before you start.",
   "difficulty": "medium",
   "tags": [
    "pharmacology-parenteral",
@@ -94196,28 +94196,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MSN-2746",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana is due for theatre and the consent form is signed but the operation site has not been marked. What should the nurse do?",
+  "stem": "A patient is being fed through a nasogastric tube. The nurse is about to give the next feed and wonders whether to check for residual stomach contents. What is current practice?",
   "choices": [
    {
     "id": "a",
-    "text": "Mark the site herself using the information written on the consent form"
+    "text": "Aspirate and discard everything that comes back, then give a double feed to make up for it"
    },
    {
     "id": "b",
-    "text": "Contact the operating surgeon to mark the site before the patient leaves the ward"
+    "text": "Check a residual every hour and stop feeding whenever any fluid is aspirated at all"
    },
    {
     "id": "c",
-    "text": "Send the patient to theatre and let the surgical team mark it there"
+    "text": "Never check, because the presence of any gastric fluid means the tube is in the lung"
    },
    {
     "id": "d",
-    "text": "Ask the patient to mark the correct side with a pen themselves"
+    "text": "Follow the unit protocol on residuals"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Contact the operating surgeon to mark the site before the patient leaves the ward\". Wrong-site surgery is a never event, and site marking is one of the barriers designed to prevent it. The mark is made by the operating surgeon or a delegated member of the operating team, with the patient awake and involved in confirming it, because the person marking must be the person who knows the intended procedure and can be held accountable for it. A nurse marking from the consent form, or a patient marking their own site, breaks that chain of verification and simply moves the error earlier. Sending the patient unmarked removes a barrier at the point it is most needed. The principle is that safety barriers only work when applied by the accountable person.\n\nWhy the other options fail:\n• A — Marking from a form transcribes any existing error rather than independently verifying the site.\n• C — Sending the patient unmarked removes a barrier precisely where wrong-site errors occur.\n• D — The patient participates in confirming the site but does not make the mark themselves.\n\nReference: WHO surgical safety checklist",
-  "strategy": "Ask who is accountable for each safety check. A barrier applied by the wrong person is not a barrier.",
+  "correctChoiceId": "d",
+  "rationale": "CORRECT (D) — \"Follow the unit protocol on residuals\". Routine checking of gastric residual volumes has been abandoned in most units, because a large aspirate is a poor predictor of aspiration and stopping feeds for it leaves patients underfed. What matters more is whether the patient is tolerating the feed: abdominal distension, vomiting, pain, a rising gastric aspirate beyond the local threshold, or a change in consciousness. The nurse keeps the head of the bed raised at about 30 to 45 degrees during and after feeds, confirms tube position by the approved method, flushes between medicines, and acts on the clinical signs rather than on a fixed volume in isolation.\n\nWhy the other options fail:\n• A — Discarding the aspirate throws away gastric acid and electrolytes, and doubling a feed is unsafe.\n• B — Hourly checks with automatic stopping cause underfeeding and do not prevent aspiration.\n• C — Gastric fluid is expected in the stomach; tube position is confirmed by the proper method, not by the presence of fluid.\n\n\nReference: NHS — nasogastric feeding guidance; BAPEN; Ghana STG — enteral nutrition\n",
+  "strategy": "Residuals do not prevent aspiration. Watch for distension and vomiting, keep the head raised.",
   "difficulty": "medium",
   "tags": [
    "med-surg",
@@ -98000,28 +98000,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2857",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "Fifteen minutes into a blood transfusion in Ghana a patient develops loin pain, fever and dark urine. What is the **first** action?",
+  "stem": "A stable patient on the ward has a haemoglobin of 7.4 g/dL, is walking about and has no breathlessness at rest. The team is considering transfusion. What is current practice?",
   "choices": [
    {
     "id": "a",
-    "text": "Slow the transfusion rate and continue while observing the patient closely"
+    "text": "Transfuse two units at once, because a haemoglobin under 8 always needs correcting quickly"
    },
    {
     "id": "b",
-    "text": "Give paracetamol for the fever and complete the unit as prescribed"
+    "text": "Withhold transfusion until the haemoglobin falls below 6, whatever the patient's symptoms"
    },
    {
     "id": "c",
-    "text": "Stop the transfusion immediately, keep the line open with saline, and call for help"
+    "text": "A restrictive threshold, with transfusion only for symptoms or a lower haemoglobin"
    },
    {
     "id": "d",
-    "text": "Disconnect the giving set entirely and remove the cannula from the arm"
+    "text": "Transfuse plasma instead, because it carries oxygen and is safer than red cells"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Stop the transfusion immediately, keep the line open with saline, and call for help\". Loin pain, fever and dark urine early in a transfusion indicate an acute haemolytic reaction, almost always from ABO incompatibility caused by a patient or sample identification error. The recipient's antibodies destroy the transfused cells, releasing haemoglobin that damages the kidneys and triggering shock and disseminated intravascular coagulation. Every millilitre matters, so the transfusion stops at once while the cannula is kept patent with a new saline line for resuscitation. Help is summoned, observations are taken, and the unit, giving set and fresh samples are returned to the laboratory with an incident report. Removing the cannula loses the access needed. The principle is that severity rises with volume transfused.\n\nWhy the other options fail:\n• A — Slowing the rate continues to deliver incompatible cells and worsens the haemolysis.\n• B — Antipyretics treat a symptom while the destructive reaction continues unchecked.\n• D — Removing the cannula discards the access required for urgent fluid resuscitation.\n\nReference: Ghana National Blood Service transfusion guidance",
-  "strategy": "Stop the transfusion but keep the vein. You will need that access within minutes.",
+  "rationale": "CORRECT (C) — \"A restrictive threshold, with transfusion only for symptoms or a lower haemoglobin\". Modern practice is restrictive: red cells are given to relieve symptoms or to correct a haemoglobin below the local threshold, commonly around 7 g/dL for most stable adults, and higher only for specific groups such as patients with ischaemic heart disease. The evidence shows that a restrictive policy gives the same or better outcomes with fewer units, less overload and fewer reactions. A single unit is given and the patient reassessed, rather than a routine pair. The nurse checks the indication, the patient's symptoms and fluid status, and records why each unit was given.\n\nWhy the other options fail:\n• A — Two units by routine exposes the patient to twice the risk with no added benefit; give one and reassess.\n• B — A fixed number under 6 ignores symptoms and the patient's cardiac history.\n• D — Plasma carries clotting factors, not oxygen, and is not a substitute for red cells.\n\n\nReference: NICE — blood transfusion; AABB — red cell transfusion thresholds\n",
+  "strategy": "Restrictive threshold: transfuse one unit for symptoms or a low haemoglobin, then reassess.",
   "difficulty": "hard",
   "tags": [
    "pharmacology-parenteral",
@@ -101626,28 +101626,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLN-2963",
   "categorySlug": "med-surg",
-  "stem": "A patient in Ghana is recognised as having sepsis. Within what timeframe should antibiotics be given?",
+  "stem": "A toddler has swallowed a handful of his grandmother's iron tablets an hour ago. He is vomiting and has bloody diarrhoea. What is the priority treatment?",
   "choices": [
    {
     "id": "a",
-    "text": "Within one hour of recognition, after blood cultures where this causes no delay"
+    "text": "Give activated charcoal, because it binds the iron and stops it being absorbed"
    },
    {
     "id": "b",
-    "text": "Within twelve hours, once the causative organism has been identified"
+    "text": "Desferrioxamine, the iron chelator"
    },
    {
     "id": "c",
-    "text": "Within twenty-four hours, at the next scheduled drug administration round"
+    "text": "Give oral rehydration solution and review him in the clinic the following morning"
    },
    {
     "id": "d",
-    "text": "Only after the full blood count and inflammatory markers have returned"
+    "text": "Give vitamin C, which helps the body handle the iron more quickly and safely"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Within one hour of recognition, after blood cultures where this causes no delay\". In sepsis the risk of death rises measurably with every hour that effective antimicrobial treatment is delayed, so the standard is administration within one hour of recognition. Blood cultures are taken first because antibiotics reduce the yield, but only if this does not delay treatment. The accompanying actions are oxygen to maintain saturations, intravenous fluid resuscitation, measurement of lactate, and monitoring of urine output, together forming the familiar bundle of three tests and three treatments. Waiting for laboratory confirmation or a scheduled drug round misunderstands the nature of the emergency, since the organism is rarely known at the time treatment must start. The principle is that in sepsis time is the treatment variable you control.\n\nWhy the other options fail:\n• B — Waiting for organism identification takes days and abandons the critical first hour.\n• C — A scheduled round is not a clinical timeframe and delays a time-critical treatment.\n• D — Inflammatory markers do not confirm or exclude sepsis quickly enough to wait for.\n\nReference: Standard sepsis management guidance",
-  "strategy": "For time-critical conditions, memorise the number. In sepsis the standard is antibiotics within one hour.",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — \"Desferrioxamine, the iron chelator\". Iron is directly corrosive to the gut and, once absorbed, damages the liver, heart and mitochondria; the child who is vomiting and passing blood has significant poisoning. The antidote is desferrioxamine, a chelator that binds free iron and allows it to be excreted, given intravenously in a severely poisoned child after urgent advice and with the dose guided by the serum iron level and the clinical picture. Supportive care matters as much: fluids, correction of acidosis, and treatment of shock. Activated charcoal does not bind iron well and, in a child who is vomiting, adds aspiration risk.\n\nWhy the other options fail:\n• A — Charcoal binds iron poorly and is hazardous in a vomiting child.\n• C — Rehydration alone leaves the absorbed iron to damage the liver and heart.\n• D — Vitamin C increases iron absorption and can worsen the poisoning.\n\n\nReference: WHO — childhood poisoning; BNF for Children — desferrioxamine\n",
+  "strategy": "Iron overdose is corrosive plus systemic. Chelate with desferrioxamine, support the circulation.",
   "difficulty": "hard",
   "tags": [
    "med-surg",
@@ -104455,28 +104455,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MNH-3046",
   "categorySlug": "maternal-newborn",
-  "stem": "Which combination correctly describes active management of the third stage of labour as practised in Ghana?",
+  "stem": "A woman who had one previous caesarean section for fetal distress has a lower-segment scar and now wants to try for a vaginal birth. What must be in place before that is agreed?",
   "choices": [
    {
     "id": "a",
-    "text": "Ergometrine 0.5 mg intravenously after the placenta delivers, then fundal pressure"
+    "text": "Nothing extra: a previous caesarean has no bearing on how this labour should be managed"
    },
    {
     "id": "b",
-    "text": "Oxytocin 10 IU intramuscularly within one minute, controlled cord traction and uterine massage"
+    "text": "A plan made in advance, with continuous monitoring and immediate access to theatre and blood"
    },
    {
     "id": "c",
-    "text": "Immediate cord clamping, manual removal of the placenta and prophylactic antibiotics"
+    "text": "An oxytocin infusion from the start of labour, to make the labour shorter and safer for the scar"
    },
    {
     "id": "d",
-    "text": "Misoprostol 200 micrograms orally at crowning, followed by maternal pushing effort"
+    "text": "A guarantee that she will not need a caesarean this time, because a repeat operation is more dangerous"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Oxytocin 10 IU intramuscularly within one minute, controlled cord traction and uterine massage\". Active management reduces the risk of postpartum haemorrhage by roughly two thirds, and each component has a distinct purpose. Oxytocin 10 IU intramuscularly within one minute of birth exploits the moment when the uterus is most responsive. Controlled cord traction, applied with counter-pressure above the symphysis to guard against uterine inversion, shortens the third stage. Uterine massage after delivery of the placenta maintains the contraction that compresses the placental bed. Cord clamping is now delayed by one to three minutes, which improves the newborn's iron stores.\n\nWhy the other options fail:\n• A — Giving a uterotonic only after the placenta delivers forfeits the protective window, ergometrine is not first line, and fundal pressure risks uterine inversion.\n• C — Immediate cord clamping is no longer recommended, manual removal is an intervention for retained placenta rather than routine practice, and antibiotics are not part of the package.\n• D — Misoprostol is an alternative where oxytocin is unavailable, but the prophylactic dose is 600 micrograms and it is given after birth, not at crowning.\n\nReference: WHO PPH prevention; Ghana Health Service safe motherhood",
-  "strategy": "For any named care bundle, learn the components with their timings and doses together. Examiners construct distractors by keeping the right drug and altering the moment it is given.",
+  "rationale": "CORRECT (B) — \"A plan made in advance, with continuous monitoring and immediate access to theatre and blood\". A previous lower-segment caesarean does not rule out vaginal birth, but it changes what the unit must be able to do. The plan is made and documented before labour, the woman is told the chance of success and the risk of scar rupture, and she labours where continuous fetal monitoring is available and where theatre and blood can be reached within minutes if the scar gives way. Induction and augmentation are used with caution, because they increase the forces on the scar. A classical or unknown uterine scar is different and is managed with a planned caesarean instead.\n\nWhy the other options fail:\n• A — A scar is one of the most important facts in planning a labour; ignoring it is unsafe.\n• C — Oxytocin increases the strain on the scar and is not routine in this situation.\n• D — No one can guarantee a vaginal birth; the plan has to include the possibility of caesarean.\n\n\nReference: RCOG — birth after previous caesarean; NICE — intrapartum care\n",
+  "strategy": "Lower-segment scar may labour, but only with a plan, continuous monitoring and theatre on call.",
   "difficulty": "medium",
   "tags": [
    "maternal-newborn",
@@ -104827,28 +104827,28 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MNH-3057",
   "categorySlug": "maternal-newborn",
-  "stem": "A woman with six weeks of amenorrhoea attends a hospital in Accra with sudden severe lower abdominal pain, shoulder-tip pain, pallor and a pulse of 124 beats per minute with a blood pressure of 88/54 mmHg. Which condition should be suspected?",
+  "stem": "A woman at seven weeks with a small unruptured tubal pregnancy is stable, with no pain and no free fluid on scan. Her hCG is 900. What treatment may be offered instead of surgery?",
   "choices": [
    {
     "id": "a",
-    "text": "Threatened miscarriage with pain caused by early uterine contractions"
+    "text": "Methotrexate, with hCG monitored until it falls and a plan for follow-up"
    },
    {
     "id": "b",
-    "text": "Urinary tract infection presenting with suprapubic pain and systemic upset"
+    "text": "Oxytocin infusion, to empty the uterus and let the tube resolve on its own"
    },
    {
     "id": "c",
-    "text": "Ovarian cyst rupture producing localised pain without significant blood loss"
+    "text": "Misoprostol by mouth, which works for any early pregnancy outside the uterus"
    },
    {
     "id": "d",
-    "text": "Ruptured ectopic pregnancy with intraperitoneal bleeding irritating the diaphragm"
+    "text": "No treatment at all, because an ectopic pregnancy resolves without intervention"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Ruptured ectopic pregnancy with intraperitoneal bleeding irritating the diaphragm\". Shoulder-tip pain is the discriminating feature and it is referred pain: blood in the peritoneal cavity irritates the underside of the diaphragm, which shares nerve roots with the shoulder. Combined with amenorrhoea, sudden pain and signs of shock, this indicates a ruptured ectopic pregnancy bleeding into the abdomen. It is a surgical emergency, and any woman of reproductive age with abdominal pain and shock should be assumed to have one until proved otherwise. Management is immediate resuscitation with wide-bore access, cross-matched blood and urgent laparotomy; a pregnancy test confirms but must not delay surgery.\n\nWhy the other options fail:\n• A — Threatened miscarriage typically causes vaginal bleeding with cramping central pain and does not produce shoulder-tip pain or haemodynamic collapse from concealed intraperitoneal bleeding.\n• B — A urinary tract infection causes dysuria, frequency and suprapubic discomfort, and while pyelonephritis can cause sepsis, it does not explain shoulder-tip pain in early amenorrhoea.\n• C — An ovarian cyst can rupture and cause sudden pain, but the combination of amenorrhoea with shock makes ectopic pregnancy the diagnosis that must be excluded first.\n\nReference: Ghana Standard Treatment Guidelines; WHO managing complications in pregnancy",
-  "strategy": "Learn the referred-pain patterns, because they reveal the compartment involved. Shoulder-tip pain in a woman of reproductive age means blood under the diaphragm until proved otherwise.",
+  "correctChoiceId": "a",
+  "rationale": "CORRECT (A) — \"Methotrexate, with hCG monitored until it falls and a plan for follow-up\". A small, unruptured ectopic pregnancy in a haemodynamically stable woman, with a low hCG, no fetal heartbeat and a mass under about 3.5 cm, can be treated medically with methotrexate, which stops the trophoblast dividing. Before it is given the woman needs bloods and liver and kidney function checked, and she must be reliable for follow-up because the drug can fail and the tube can rupture later. hCG is measured on set days until it is undetectable, and she is warned to return at once with pain, dizziness or heavy bleeding. Surgery remains the option where she is unstable or the criteria are not met.\n\nWhy the other options fail:\n• B — Oxytocin acts on the uterus and has no effect on a pregnancy in the tube.\n• C — Misoprostol does not reliably treat a tubal pregnancy and is not a substitute for methotrexate or surgery.\n• D — An untreated ectopic can rupture and kill; doing nothing is never the plan.\n\n\nReference: RCOG — ectopic pregnancy and miscarriage; Ghana STG — early pregnancy complications\n",
+  "strategy": "Methotrexate for a small stable ectopic with low hCG, plus hCG follow-up and a rupture warning.",
   "difficulty": "hard",
   "tags": [
    "maternal-newborn",
