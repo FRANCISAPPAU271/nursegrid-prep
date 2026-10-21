@@ -63033,27 +63033,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRA-1842",
   "categorySlug": "med-surg",
-  "stem": "Which finding appears **earliest** in a young adult who is bleeding internally?",
+  "stem": "A man with neck pain after a motorcycle crash is having a cervical collar applied by the nurse. Which action is correct?",
   "choices": [
    {
     "id": "a",
-    "text": "A falling systolic blood pressure recorded on the chart"
+    "text": "Choose the largest collar on the trolley, so that there is plenty of room inside it for the neck to swell after the injury"
    },
    {
     "id": "b",
-    "text": "Loss of consciousness with unresponsive dilated pupils"
+    "text": "Measure him for the right size, keep his head in a neutral position and check that he can breathe and speak afterwards"
    },
    {
     "id": "c",
-    "text": "A rising pulse rate with cool peripheries and slow capillary refill"
+    "text": "Fasten it loosely, so that he can turn his head a little and clear his throat if he needs to vomit during the journey"
    },
    {
     "id": "d",
-    "text": "A measurable fall in the haemoglobin concentration"
+    "text": "Sit him upright first, then push the collar down over his head from above and fasten the straps at the back"
    }
   ],
-  "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"A rising pulse rate with cool peripheries and slow capillary refill\". Compensation preserves the blood pressure by <strong>constricting peripheral vessels and increasing the heart rate, so the skin becomes cool and the refill sluggish long before the pressure moves</strong>. In a fit young adult the pressure may hold until roughly a third of the volume is lost, then fall precipitously. Haemoglobin is <strong>misleading early because whole blood is lost and the concentration is initially unchanged</strong>.\n\nWhy the other options fail:\n• A — Blood pressure falls late, after compensation has already failed.\n• B — Unconsciousness is a very late feature of hypovolaemia.\n• D — Haemoglobin is initially unchanged because whole blood is lost.\n\nReference: Ghana STG — trauma care",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — “Measure him for the right size, keep his head in a neutral position and check that he can breathe and speak afterwards”. A collar only immobilises if it fits: the chin rests in the chin piece and the lower edge sits on the sternum and shoulders, so that the head cannot flex or extend. It is measured, applied with an assistant holding the head in neutral alignment, and then breathing, speech and the skin under the edges are checked, because a collar that is too big allows movement and one that is too small presses on the airway and the neck veins. Why the other options fail: an oversized collar leaves the neck free to move (A); a loose collar does nothing, and turning the head is exactly what must not happen (C); and sitting him up before immobilisation moves the spine (D).",
   "strategy": "Read pulse, skin and refill. Blood pressure is the last measurement to change.",
   "difficulty": "hard",
   "tags": [
@@ -96456,27 +96456,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2812",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A vaccine refrigerator in a Ghanaian health centre reads minus 2 degrees Celsius at the morning check. What should the nurse do?",
+  "stem": "A child in a Ghanaian clinic has a fever and malaria is suspected. Both a rapid diagnostic test and a blood film are available. What does the film add that the rapid test cannot give?",
   "choices": [
    {
     "id": "a",
-    "text": "Continue using the vaccines, since freezing preserves them more effectively"
+    "text": "It shows the percentage of the red cells that are infected with the parasite, which the rapid test can never do because it detects antigen only"
    },
    {
     "id": "b",
-    "text": "Move the vaccines to the freezer compartment until the fridge is repaired"
+    "text": "It concentrates the parasites so they can be seen, identifies the species, and can be repeated to follow the response to treatment"
    },
    {
     "id": "c",
-    "text": "Quarantine the vaccines, label them not for use, and seek guidance before discarding"
+    "text": "It proves that the child has never had malaria before, because antibodies appear in the blood only in a first infection"
    },
    {
     "id": "d",
-    "text": "Discard all the vaccines immediately without recording the incident"
+    "text": "It makes examining the child unnecessary, since the laboratory result alone decides whether treatment is started"
    }
   ],
-  "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Quarantine the vaccines, label them not for use, and seek guidance before discarding\". Vaccines are stored between plus 2 and plus 8 degrees Celsius. Freezing is the more damaging error because it irreversibly destroys adsorbed vaccines such as pentavalent, hepatitis B and tetanus toxoid, and, unlike heat damage, it leaves no visible sign, so a frozen vaccine looks normal and simply fails to protect. The correct response is to quarantine the stock with a clear label, record the excursion, and consult the district cold chain officer, who may apply a shake test to determine whether adsorbed vaccines are salvageable. Discarding without a record loses the chance to fix the cause. The principle is that a cold chain breach is an incident to be investigated, not an item to be quietly thrown away.\n\nWhy the other options fail:\n• A — Freezing destroys adsorbed vaccines while leaving them looking entirely normal.\n• B — The freezer worsens the exact damage that has already occurred.\n• D — Discarding without recording loses both salvageable stock and the cause of the fault.\n\nReference: Ghana EPI cold chain guidance",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — “It concentrates the parasites so they can be seen, identifies the species, and can be repeated to follow the response to treatment”. In a thick film the red cells are lysed and the parasites are concentrated, so a light infection that would be missed on a thin film can still be found, and the parasite density can be counted. A thin film is used to identify the species and the stage of the parasite. Because the thick film shows the parasites themselves, it can be repeated after treatment to show that they are clearing, while an antigen test stays positive for weeks after cure and cannot be used that way. Why the other options fail: the parasite density is what the film counts, but that is not the whole of what it adds (A); antibody is not what a film shows (C); and no laboratory test replaces examining the child (D).",
   "strategy": "Remember that freezing is the invisible failure. Heat damage shows on the monitor; cold damage shows nothing.",
   "difficulty": "medium",
   "tags": [
