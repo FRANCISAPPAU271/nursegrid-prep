@@ -77587,27 +77587,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CHP-2264",
   "categorySlug": "gerontology-community",
-  "stem": "A mother in a farming community asks how to improve her seven-month-old's porridge using what she already has. Which advice is **most** appropriate?",
+  "stem": "A district is planning an oral cholera vaccine campaign in a fishing community beside a lake. What should the nurse explain to the community?",
   "choices": [
    {
     "id": "a",
-    "text": "Advise her to buy a commercial fortified infant cereal each month"
+    "text": "One dose at the start of an outbreak gives lifelong protection, so boiling water and using latrines are no longer necessary"
    },
    {
     "id": "b",
-    "text": "Recommend she give the same porridge but in larger quantities"
+    "text": "Two doses are given about two weeks apart, protect for around three years, and work alongside clean water and sanitation"
    },
    {
     "id": "c",
-    "text": "Enrich the porridge with groundnut paste, egg or mashed beans and palm oil"
+    "text": "The vaccine is injected into the arm and repeated every month throughout the rainy season for as long as the outbreak lasts"
    },
    {
     "id": "d",
-    "text": "Suggest she delay other foods until the child reaches one year"
+    "text": "The vaccine cures anyone who already has cholera, so patients with watery stools should stay at home instead of going to a centre"
    }
   ],
-  "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Enrich the porridge with groundnut paste, egg or mashed beans and palm oil\". Effective advice uses <strong>foods the household already grows or can buy cheaply, adding protein and energy density to a staple porridge</strong>. Groundnut paste, egg, bean flour, small dried fish and a little palm oil are locally available and transform a thin cereal. Recommending purchased products makes the advice unusable for most families, and thin porridge in larger quantities fills the stomach without supplying enough energy.\n\nWhy the other options fail:\n• A — A recurring purchase most households cannot sustain is advice that will not be followed.\n• B — Volume does not compensate for low energy and protein density in a small stomach.\n• D — Delaying complementary foods beyond six months causes faltering and deficiency.\n\nReference: Ghana Health Service infant and young child feeding guidance",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — “Two doses are given about two weeks apart, protect for around three years, and work alongside clean water and sanitation”. Oral cholera vaccine is given as two doses about two weeks apart, and protection builds after the second dose and lasts roughly three years. It is an adjunct, not a substitute: the same community still needs safe water, latrines and handwashing, because the vaccine reduces the number of cases and deaths rather than stopping transmission on its own. A campaign is an opportunity to reinforce those messages at the same time. Why the other options fail: no single dose gives lifelong protection and the water and sanitation measures remain essential (A); the vaccine is swallowed, not injected (C); and it neither treats active cholera nor makes a treatment centre unnecessary (D).",
   "strategy": "Build the advice from what is already in the house. Anything else becomes a shopping list.",
   "difficulty": "medium",
   "tags": [
@@ -99197,27 +99197,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2892",
   "categorySlug": "safety-infection-control",
-  "stem": "An adult in Ghana is choking, cannot speak, and is clutching the throat. What should be done **first**?",
+  "stem": "A child has a Mantoux (tuberculin) skin test on Monday morning. When should it be read, and what exactly is measured?",
   "choices": [
    {
     "id": "a",
-    "text": "Give up to five firm back blows between the shoulder blades"
+    "text": "After 24 hours, measuring the area of redness with a ruler and recording it in millimetres across the arm"
    },
    {
     "id": "b",
-    "text": "Perform a blind finger sweep of the mouth to locate the obstruction"
+    "text": "After 48 to 72 hours, measuring the raised induration across its widest point"
    },
    {
     "id": "c",
-    "text": "Lay the person flat and begin chest compressions immediately"
+    "text": "After one week, measuring the size of any blister that has formed at the injection site"
    },
    {
     "id": "d",
-    "text": "Give a large glass of water to help wash the obstruction down"
+    "text": "After ten minutes, measuring the weal raised by the injection itself before it fades away"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Give up to five firm back blows between the shoulder blades\". Inability to speak, cough or breathe indicates complete obstruction, and the sequence is up to five sharp back blows between the scapulae with the person leaning well forward, checking after each, followed by up to five abdominal thrusts if the blows fail, alternating until the obstruction clears or the person becomes unresponsive. Leaning forward matters, because it means a dislodged object falls out rather than back down. A blind finger sweep can push the object deeper, water enters an already obstructed airway, and compressions are for a person who has become unresponsive. Anyone who has received abdominal thrusts is medically assessed afterwards. The principle is that a person who cannot cough needs external force.\n\nWhy the other options fail:\n• B — A blind finger sweep risks pushing the object further into the airway.\n• C — Water cannot pass an obstructed airway and increases the risk of aspiration.\n• D — Compressions are appropriate once the person becomes unresponsive, not before.\n\nReference: Standard basic life support guidance",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — “After 48 to 72 hours, measuring the raised induration across its widest point”. The Mantoux test is a delayed hypersensitivity reaction, so it is read at 48 to 72 hours, when the response is at its height. What is measured is the raised, hard induration, felt and marked across the widest diameter and recorded in millimetres; redness alone is not measured, because it over-reads the result. The cut-off that counts as positive depends on the child: 5 mm in a child with HIV, 10 mm in a high-risk contact, and 15 mm in a child with no risk factors. A positive test shows infection, not active disease. Why the other options fail: 24 hours is too early for the reaction to peak (A); a blister at a week is not the test (C); and the weal at ten minutes is the injection, not the response (D).",
   "strategy": "Judge by whether the person can cough. An effective cough is left alone; an absent one needs back blows.",
   "difficulty": "easy",
   "tags": [
