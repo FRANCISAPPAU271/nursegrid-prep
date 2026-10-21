@@ -8198,27 +8198,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NUT-0238",
   "categorySlug": "health-promotion",
-  "stem": "Which position should be maintained during and after a nasogastric feed?",
+  "stem": "A patient with Hodgkin lymphoma is about to be transfused. The prescription states that the red cells must be irradiated. Why is the unit irradiated?",
   "choices": [
    {
     "id": "a",
-    "text": "Flat on the back so that the feed distributes through the stomach"
+    "text": "Because irradiation kills any bacteria that entered the bag while it was being collected"
    },
    {
     "id": "b",
-    "text": "Turned onto the left side to slow the emptying of the stomach"
+    "text": "Because irradiation removes the potassium that leaks out of red cells during storage"
    },
    {
     "id": "c",
-    "text": "Sitting fully upright at ninety degrees for the whole night through"
+    "text": "Because irradiation matches the unit more closely to the patient's own tissue type"
    },
    {
     "id": "d",
-    "text": "Head of the bed raised thirty to forty-five degrees during and after"
+    "text": "Because irradiation stops the donor lymphocytes from dividing and attacking the patient"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Head of the bed raised thirty to forty-five degrees during and after\". Raising the head of the bed <strong>30 to 45 degrees</strong> uses gravity to keep the feed in the stomach and greatly reduces reflux and aspiration. The position must be kept for <strong>at least thirty minutes to an hour after</strong> the feed ends, since that is when regurgitation is most likely.\n\nWhy the other options fail:\n• A — Lying flat allows gastric contents to reflux into the pharynx and is the single greatest avoidable risk for aspiration.\n• B — Slowing gastric emptying increases the residual volume available to reflux, which is the opposite of what is wanted.\n• C — Ninety degrees all night is neither necessary nor tolerable, and causes sacral shearing and pressure injury.\n\nReference: Ghana STG — enteral feeding; aspiration prevention",
+  "rationale": "CORRECT (D) — “Because irradiation stops the donor lymphocytes from dividing and attacking the patient”. A red cell unit contains viable donor T lymphocytes. In a recipient who cannot reject them, they can engraft and mount an attack on the patient’s skin, gut, liver and marrow — transfusion-associated graft-versus-host disease, which is almost always fatal and for which there is no effective treatment. Irradiation with 25 to 30 Gy arrests the DNA of those lymphocytes so that they can no longer divide, while leaving the red cells usable. It is indicated for patients with Hodgkin lymphoma, stem-cell transplant recipients, and babies receiving exchange transfusion. Why the other options fail: irradiation is not a sterilising step and does nothing to bacteria in the bag (A); it does not alter potassium leak or storage age (B); and it has nothing to do with ABO or tissue matching (C).",
   "strategy": "For anything entering the stomach in a patient who cannot protect their airway, gravity is the intervention. Look for the option that keeps the head above the stomach.",
   "difficulty": "easy",
   "tags": [
@@ -16871,27 +16871,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-NCD-0492",
   "categorySlug": "med-surg",
-  "stem": "Why is a patient with heart failure weighed each morning on a Ghanaian ward?",
+  "stem": "A patient with a tracheostomy needs suctioning. How far should the nurse pass the catheter?",
   "choices": [
    {
     "id": "a",
-    "text": "Because weight change detects fluid retention earlier than swelling appears"
+    "text": "To the pre-measured depth, about the length of the tube plus a little, stopping at any resistance"
    },
    {
     "id": "b",
-    "text": "To monitor nutritional status and detect any loss of muscle over time"
+    "text": "As far as it will go, until it will not pass any further, so that the airway is cleared completely"
    },
    {
     "id": "c",
-    "text": "To calculate the correct dose of the diuretic that has been prescribed daily"
+    "text": "Only into the stoma itself, so that the tip does not touch the inside of the tube"
    },
    {
     "id": "d",
-    "text": "Because patients with heart failure commonly gain weight from inactivity"
+    "text": "Ten centimetres beyond the tip of the tube on every pass to reach the secretions lower down"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Because weight change detects fluid retention earlier than swelling appears\". Several litres of fluid must accumulate before <strong>oedema becomes visible</strong>, but that same fluid registers on a scale immediately — one litre weighs one kilogram. A gain of <strong>more than about 2 kg in two to three days</strong> signals decompensation and prompts review before the patient becomes breathless. Weighing must be standardised: <strong>same scale, same time, same clothing, after voiding</strong>, otherwise the day-to-day comparison is meaningless.\n\nWhy the other options fail:\n• B — Nutrition matters in chronic illness, but muscle changes far too slowly to justify weighing every morning.\n• C — Diuretic doses are not routinely calculated by body weight in adults; they are titrated to clinical response.\n• D — This describes gradual weight gain from fat, which is unrelated to the acute fluid monitoring intended here.\n\nReference: Ghana nursing curriculum — heart failure monitoring",
+  "rationale": "CORRECT (A) — “To the pre-measured depth, about the length of the tube plus a little, stopping at any resistance”. The catheter is marked and inserted only as far as the length of the tracheostomy tube plus one or two centimetres, which reaches the secretions that matter without touching the carina. It is passed without force, suction is applied only on withdrawal and for no more than ten to fifteen seconds, and the patient is given oxygen before and after. This limits mucosal trauma, bleeding, hypoxia and the introduction of infection. Why the other options fail: forcing the catheter until it stops injures the carina and the tracheal wall (B); suction above the tube clears nothing (C); and passing ten centimetres beyond the tip guarantees trauma and a hypoxic episode (D).",
   "strategy": "When a simple measurement is repeated daily, ask what it detects before the eye can. Weight beats visible oedema by several days.",
   "difficulty": "hard",
   "tags": [
@@ -22675,27 +22675,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PFC-0661",
   "categorySlug": "fundamentals",
-  "stem": "Why should discharge planning for a patient on a Ghanaian ward begin at admission?",
+  "stem": "A second-year student nurse is counted in the ward numbers for a night shift, filling the gap left by a staff nurse who is sick. What is the correct position?",
   "choices": [
    {
     "id": "a",
-    "text": "Problems such as transport, medicines and home support take time to solve"
+    "text": "Students are supernumerary, so they must never be counted as part of the staff needed to run the ward"
    },
    {
     "id": "b",
-    "text": "It allows the ward to free up beds more quickly for the patients waiting"
+    "text": "A second-year student may take the shift alone provided that she has done a night shift before"
    },
    {
     "id": "c",
-    "text": "It ensures the discharge summary is completed well before the patient leaves"
+    "text": "Counting students is acceptable whenever the ward is short of staff and no one else is available"
    },
    {
     "id": "d",
-    "text": "It reduces the amount of work required from the nurse on the day of discharge"
+    "text": "The student may cover the shift as long as she reports anything unusual to the doctor on call"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Problems such as transport, medicines and home support take time to solve\". Discharge fails on practical matters that <strong>cannot be arranged in an afternoon</strong>: who will care for the patient, whether the house has steps, how the medicines will be afforded and collected, how far the follow-up clinic is and how they will get there, and whether the family has been taught the care they must give. Starting at admission means these are <strong>identified and solved while there is still time</strong>, which is what prevents readmission.\n\nWhy the other options fail:\n• B — Bed availability is a service benefit that follows, not the clinical reason for planning early.\n• C — The summary is one document among many tasks and can be written quickly. The barriers are practical.\n• D — Reducing nursing workload is a convenience. The purpose is safe transition for the patient.\n\nReference: Ghana nursing curriculum — discharge planning",
+  "rationale": "CORRECT (A) — “Students are supernumerary, so they must never be counted as part of the staff needed to run the ward”. A student is a learner and not an employee. She is supernumerary, which means she is additional to the staff needed to run the ward and always works under the supervision of a registered practitioner who remains accountable for the care. Counting her in the numbers leaves the ward short of a registered nurse and places a learner in a position of responsibility that her registration does not carry. Why the other options fail: having done a night shift before does not make a student accountable for a ward (B); being short-staffed is exactly the situation the rule is written for, not an exception to it (C); and telling the doctor afterwards does not make an unsupervised learner safe (D).",
   "strategy": "Ask what cannot be arranged on the day. Anything needing another person, money or transport must start early.",
   "difficulty": "hard",
   "tags": [
@@ -29406,27 +29406,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MAN-0858",
   "categorySlug": "leadership-delegation",
-  "stem": "Which task may a Ghanaian registered nurse appropriately delegate to a trained health care assistant?",
+  "stem": "A nurse almost gives a medicine to the wrong patient but notices at the last moment, and the patient comes to no harm. What should the ward manager do?",
   "choices": [
    {
     "id": "a",
-    "text": "The first assessment of a patient newly admitted to the ward"
+    "text": "Take no action at all, because no harm was done and no one needs to know"
    },
    {
     "id": "b",
-    "text": "Deciding whether a patient's deteriorating condition requires escalation"
+    "text": "Discipline the nurse quietly so that the rest of the team learn to be more careful"
    },
    {
     "id": "c",
-    "text": "Assisting a stable patient to bathe and recording the intake and output"
+    "text": "Record and review it as a near miss, and look for the system failure that allowed it"
    },
    {
     "id": "d",
-    "text": "Teaching a newly diagnosed diabetic patient how to inject insulin"
+    "text": "Ask the nurse to keep it to herself so that the ward's safety record stays clean"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Assisting a stable patient to bathe and recording the intake and output\". Delegable tasks are those that are <strong>routine, predictable, within the assistant's training and involving a stable patient</strong>. What can never be delegated is anything requiring <strong>professional judgement</strong>: assessment, the first evaluation of a patient, interpretation of findings, care planning, teaching and the decision to escalate. Note the distinction between <strong>collecting data, which may be delegated, and interpreting it, which may not</strong>.\n\nWhy the other options fail:\n• A — Initial assessment requires registered clinical judgement and establishes the entire plan of care.\n• B — Recognising deterioration and deciding to escalate is core registered practice and is never delegated.\n• D — Patient teaching requires assessment of understanding and adaptation, which needs registered knowledge.\n\nReference: Ghana nursing curriculum — delegation",
+  "rationale": "CORRECT (C) — “Record and review it as a near miss, and look for the system failure that allowed it”. A near miss is an error that was caught before it reached the patient, which makes it free information: nothing was lost and the whole failure pathway is visible. Reviewing it shows what actually allowed the mistake — look-alike packaging, a shared drug trolley, interruptions during the round, a missing identification check — and that is what gets fixed, so the next nurse is protected. Staff must be thanked for reporting, because blame drives errors underground and the next one will not be reported. Why the other options fail: doing nothing throws away the lesson and leaves the trap in place (A); quiet punishment teaches the team to hide errors (B); and concealment is dishonest and leaves the hazard for the next patient (D).",
   "strategy": "Delegate doing, never deciding. Data collection can be delegated; interpreting that data cannot.",
   "difficulty": "hard",
   "tags": [
@@ -34024,27 +34024,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRG-0993",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A Ghanaian man started on an ACE inhibitor develops a persistent dry cough. What is the likely explanation?",
+  "stem": "A patient in the emergency unit is given nebulised salbutamol for an acute asthma attack. Which practice is correct?",
   "choices": [
    {
     "id": "a",
-    "text": "A chest infection that should be treated with a course of antibiotics"
+    "text": "Use a nasal mask so that the mist is breathed in through the nose as well as the mouth"
    },
    {
     "id": "b",
-    "text": "Early heart failure that indicates the dose should be increased further"
+    "text": "Set the gas at one litre per minute so that the nebuliser lasts for the whole treatment"
    },
    {
     "id": "c",
-    "text": "A recognised effect of the drug that usually requires a change of agent"
+    "text": "Sit the patient upright, use a mouthpiece with a good seal and run the gas at six to eight litres per minute"
    },
    {
     "id": "d",
-    "text": "Tuberculosis, which must be investigated before the drug is continued"
+    "text": "Leave the patient alone during the treatment so that he is not disturbed while he breathes"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"A recognised effect of the drug that usually requires a change of agent\". ACE inhibitors prevent breakdown of <strong>bradykinin</strong>, which accumulates in the airway and causes a <strong>dry, tickling, non-productive cough</strong> in a substantial minority of patients. It is <strong>harmless but persistent</strong>, does not respond to cough medicines, and is a common reason for people quietly stopping their tablets. The usual remedy is to <strong>switch to an angiotensin receptor blocker</strong>. A productive cough or one lasting over two weeks still needs TB screening.\n\nWhy the other options fail:\n• A — The cough is dry and non-infective, so antibiotics have no role.\n• B — Heart failure typically causes breathlessness and orthopnoea rather than an isolated dry cough.\n• D — TB must be excluded if the cough is productive or prolonged, but the drug explains this pattern.\n\nReference: Ghana nursing curriculum — antihypertensive therapy",
+  "rationale": "CORRECT (C) — “Sit the patient upright, use a mouthpiece with a good seal and run the gas at six to eight litres per minute”. A nebuliser only produces particles small enough to reach the bronchi when the driving gas flows at six to eight litres a minute. Sitting upright improves lung expansion and diaphragm movement, and a mouthpiece with a tight seal delivers far more drug to the airway than a loose mask, with less exposure of the staff and the patient’s eyes to the mist. The treatment continues until the chamber stops misting, usually five to ten minutes. Why the other options fail: breathing through the nose filters out much of the drug (A); at one litre a minute the droplets are too large and the treatment takes far too long (B); and a patient in severe asthma must be watched, because silence in the chest is a warning, not an improvement (D).",
   "strategy": "When a symptom starts soon after a new drug, suspect the drug before adding a diagnosis.",
   "difficulty": "hard",
   "tags": [
@@ -45103,27 +45103,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HCB-1317",
   "categorySlug": "health-promotion",
-  "stem": "A donor-funded outreach programme collapses when the funding ends. What was the underlying weakness?",
+  "stem": "A community health nurse in northern Ghana is helping to plan trachoma control for a district. Which combination of measures does the SAFE strategy describe?",
   "choices": [
    {
     "id": "a",
-    "text": "It was never integrated into routine district health services"
+    "text": "Surgery for in-turned lashes, antibiotics for infection, facial cleanliness and environmental improvement"
    },
    {
     "id": "b",
-    "text": "The donor withdrew earlier than had originally been agreed"
+    "text": "Screening of all school children, annual blood tests, food supplementation and eye exercises"
    },
    {
     "id": "c",
-    "text": "Community members were not sufficiently grateful for the service"
+    "text": "Spectacles for poor vision, aspirin for inflammation, fumigation of houses and draining of all wells"
    },
    {
     "id": "d",
-    "text": "Too many people used the service while it was still operating"
+    "text": "Steroid eye drops, antifungal ointment, spraying of flies and free distribution of sunglasses"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"It was never integrated into routine district health services\". A parallel programme with its own vehicles, allowances and staff is <strong>structurally dependent on the money that created it</strong>. Sustainability comes from building the activity into the district's ordinary workload, budget and supervision from the beginning, and from developing local ownership. The question to ask at the design stage, not at the end, is <strong>what will still be running here when the project office closes</strong>.\n\nWhy the other options fail:\n• B — Funding always ends eventually; a programme that cannot survive that was never sustainable.\n• C — Gratitude is irrelevant to whether a service has an ongoing funding and staffing base.\n• D — High uptake is evidence of need and value, not a cause of collapse.\n\nReference: Ghana nursing curriculum — BCA 203 health promotion",
+  "rationale": "CORRECT (A) — “Surgery for in-turned lashes, antibiotics for infection, facial cleanliness and environmental improvement”. Trachoma is caused by Chlamydia trachomatis and is spread from eye to eye by fingers, cloths and flies that are drawn to the discharge of an infected child. Repeated infection scars the inner eyelid, the lashes turn inward and rub the cornea, and that is what causes blindness. SAFE works on each part of the chain: surgery corrects the in-turned lashes, mass azithromycin treats the infection in the community, face washing removes the discharge the flies feed on, and better water and latrines reduce the fly population. Why the other options fail: screening and supplements do not interrupt transmission (B); aspirin and fumigation do nothing to the organism or the fly breeding sites (C); and steroids without antibiotics can worsen an infection while sunglasses merely hide the eye (D).",
   "strategy": "Ask at the design stage what survives the closing of the project office.",
   "difficulty": "hard",
   "tags": [
@@ -97966,27 +97966,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2856",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A patient in Ghana needs intravenous potassium replacement. What is essential in its administration?",
+  "stem": "A patient has an implanted port in the chest wall and needs a two-week course of intravenous antibiotics. Which needle and technique should the nurse use?",
   "choices": [
    {
     "id": "a",
-    "text": "It should be given as a rapid push to correct the deficit without delay"
+    "text": "A standard hypodermic needle, because it is cheap and can be changed at every dose"
    },
    {
     "id": "b",
-    "text": "It may be added to a bag without mixing, as it disperses on its own"
+    "text": "A non-coring needle, inserted with sterile technique and checked that it is fully seated before flushing"
    },
    {
     "id": "c",
-    "text": "It requires no cardiac monitoring at any concentration or infusion rate"
+    "text": "Any needle, provided it is passed through the same puncture hole each time to spare the skin"
    },
    {
     "id": "d",
-    "text": "It must be diluted and infused slowly, never given as a rapid bolus"
+    "text": "A cannula in the antecubital fossa instead, since an implanted port is used only for taking blood"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"It must be diluted and infused slowly, never given as a rapid bolus\". Potassium governs cardiac cell membrane potential, and a sudden rise in serum concentration causes cardiac arrest in asystole. Undiluted or rapidly infused potassium is one of the classic never events in hospital practice, which is why concentrated ampoules are removed from ward stock and pre-mixed bags are supplied instead. It is diluted, mixed thoroughly by inverting the bag since potassium otherwise layers at the bottom and the patient receives a concentrated bolus, infused at a controlled rate through a pump, and given with cardiac monitoring at higher rates or concentrations. The site is watched, as potassium is irritant. The principle is that the danger lies in the speed of the rise, not the total dose.\n\nWhy the other options fail:\n• A — A rapid push of potassium causes cardiac arrest and is a recognised fatal error.\n• B — Unmixed potassium settles to the bottom of the bag and is then delivered as a bolus.\n• C — Monitoring requirements increase with concentration and rate and cannot be dispensed with.\n\nReference: Standard intravenous potassium administration policy",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — “A non-coring needle, inserted with sterile technique and checked that it is fully seated before flushing”. An implanted port sits under the skin and is entered through a self-sealing silicone septum. A non-coring needle has a deflected, side-opening tip, so it parts the silicone instead of cutting a plug out of it; the septum then closes behind the needle and survives hundreds of punctures. An ordinary bevelled needle cores the septum, which leaks, and eventually the port has to be replaced. The site is cleaned, the needle is seated fully, and correct position is confirmed before the flush and the drug, because a partly seated needle can extravasate into the chest wall. Why the other options fail: a standard needle destroys the septum (A); reusing one hole does not stop coring and risks infection (C); and a peripheral cannula does not reach the central circulation the port was placed for (D).",
   "strategy": "For any electrolyte affecting the heart, the rate of change matters more than the amount given.",
   "difficulty": "hard",
   "tags": [
@@ -111195,27 +111195,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-BATCH2-0029",
  "categorySlug": "mental-health",
- "stem": "A client says, “I have a gun at home and plan to use it tonight.” What is the nurse’s priority?",
+ "stem": "A woman has a partial-thickness burn to her forearm and the ward is using silver sulfadiazine cream. Which instruction about it is correct?",
  "choices": [
   {
    "id": "a",
-   "text": "Leave the client alone for now to build trust before asking more"
+   "text": "Apply it thickly and cover it with a tight bandage that stays undisturbed for a week"
   },
   {
    "id": "b",
-   "text": "Promise the client that nothing will be told to anyone else"
+   "text": "Apply it to the eyelids as well, so that the burn infection cannot spread to the eyes"
   },
   {
    "id": "c",
-   "text": "Maintain safety with constant observation and urgent psychiatric escalation"
+   "text": "Stop it and report at once if a rash appears, and do not use it if she is allergic to sulfonamides"
   },
   {
    "id": "d",
-   "text": "Ask the client to sign a no-suicide contract and then discharge"
+   "text": "Once it is on, the wound no longer needs to be looked at until the burn has healed"
   },
  ],
  "correctChoiceId": "c",
- "rationale": "A specific plan, means and imminent timing indicate high suicide risk. The client requires immediate safety measures, removal of access to means and urgent multidisciplinary assessment.\n\nWhy the other options fail:\n• A — Leaving the client alone removes observation at the moment of greatest risk.\n• B — Promising secrecy is unsafe and unethical; safety overrides confidentiality here.\n• D — A no-suicide contract does not substitute for assessment, and discharging a client with a plan and the means to carry it out is dangerous.",
+ "rationale": "CORRECT (C) — “Stop it and report at once if a rash appears, and do not use it if she is allergic to sulfonamides”. Silver sulfadiazine is a sulfonamide antibiotic applied as a thin layer to a clean partial-thickness burn. Because it is a sulfonamide, it can cause a rash and, rarely, a fall in the white cell count, so a new rash, a sore throat or a dropping count means it is stopped and reported. It must never be put near the eyes or on mucous membranes, and it is avoided in late pregnancy and in glucose-6-phosphate dehydrogenase deficiency. Why the other options fail: a thick layer under an occlusive dressing macerates the wound and slows healing (A); it is not for the eyes (B); and the burn must still be inspected at every dressing change, because infection is what kills (D).",
  "strategy": "Specific means plus imminent timing overrides routine rapport-building or no-harm contracts.",
  "difficulty": "hard",
  "tags": ["suicide", "risk"],
