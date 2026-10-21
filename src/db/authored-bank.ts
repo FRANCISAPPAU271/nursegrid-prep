@@ -110412,7 +110412,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "d",
- "rationale": "Insulin shifts potassium into cells and can precipitate fatal dysrhythmia when potassium is below 3.3 mmol/L. Potassium must be replaced before insulin is started, while fluid resuscitation continues.",
+ "rationale": "CORRECT (D) — “Hold insulin and notify the prescriber for potassium replacement”. In diabetic ketoacidosis the serum potassium is often normal or high while the total body potassium is badly depleted. Insulin drives potassium into the cells, so giving it at a potassium of 3.0 mmol/L can drop the serum level further and precipitate a fatal dysrhythmia. Potassium is replaced first, insulin is started once the potassium is at least 3.3 mmol/L, and fluid resuscitation continues throughout. Why the other options fail: starting insulin now is the lethal move (A); bicarbonate is reserved for severe acidaemia and does not correct potassium (B); and restricting fluid worsens the hypoperfusion that is already driving the acidosis (C).",
  "strategy": "In DKA, check potassium before insulin: low potassium is the exception that delays insulin.",
  "difficulty": "hard",
  "tags": ["dka", "electrolytes"],
