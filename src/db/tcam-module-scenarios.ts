@@ -38,24 +38,24 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "The Medical and Dental Council together with the Pharmacy Council, which license both the individual practitioners and the herbal products they sell in their clinics",
+        text: "The Medical and Dental Council with the Pharmacy Council, which license the individual practitioners and the herbal products they sell in their clinics",
       },
       {
         id: "b",
-        text: "The Traditional Medicine Practice Council (TMPC) under Act 575 (for practitioner and premises licensing) and the Food and Drugs Authority (FDA) Ghana (for herbal product registration and safety certification)",
+        text: "The Traditional Medicine Practice Council under Act 575 for practitioners and premises, and the Food and Drugs Authority for product registration",
       },
       {
         id: "c",
-        text: "The Ghana Health Service together with the Ministry of Chieftaincy and Religious Affairs, which jointly oversee all traditional healing practice and its premises",
+        text: "The Ghana Health Service with the Ministry of Chieftaincy and Religious Affairs, which jointly oversee all traditional healing practice and premises",
       },
       {
         id: "d",
-        text: "The Food and Drugs Authority acting alone, which registers herbal products for sale and also licenses traditional practitioners and accredits their clinics",
+        text: "The Food and Drugs Authority acting alone, which registers herbal products and also licenses traditional practitioners and their clinics",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "Under Ghanaian statutory law, the Traditional Medicine Practice Act 2000 (Act 575) established the Traditional Medicine Practice Council (TMPC) under the Ministry of Health to set standards, register, license, and regulate traditional medical practitioners (herbalists, bonesetters, naturopaths). Concurrently, the Food and Drugs Authority (FDA) Ghana (under the Public Health Act 851) evaluates the safety, efficacy, quality, toxicology, and labeling of all manufactured commercial herbal products before issuing formal FDA registration numbers (e.g., FDA/HD.xx). The EPA, Police, and Lands Commission have no mandate over clinical TCAM regulation. Why the other options fail: professional councils license clinicians, not herbal products or traditional practitioners; the Ghana Health Service delivers care rather than registering remedies; and the FDA registers products but does not license traditional practitioners.",
+      "CORRECT (B) — \"The Traditional Medicine Practice Council under Act 575 for practitioners and premises, and the Food and Drugs Authority for product registration\". Two statutes split the work. The Traditional Medicine Practice Act 2000 (Act 575) created the Traditional Medicine Practice Council under the Ministry of Health, and the Council sets standards and registers, licenses and regulates traditional medical practitioners — herbalists, bonesetters and naturopaths — together with their premises and clinics. The Food and Drugs Authority, acting under the Public Health Act 2012 (Act 851), reviews the safety, efficacy, quality and labelling of manufactured herbal products and issues the registration number that a commercial remedy must carry before it can be sold. Practitioner regulation and product regulation are therefore two different authorities doing two different jobs. Why the other options fail: the Medical and Dental Council and the Pharmacy Council regulate doctors, dentists and pharmacists, not traditional practitioners (A); the Ghana Health Service delivers services and the Ministry of Chieftaincy and Religious Affairs has no statutory licensing role over healing practice (C); and the FDA registers products but does not license traditional practitioners or accredit their clinics, which is the Council's function (D). Reference: Traditional Medicine Practice Act 2000 (Act 575); Public Health Act 2012 (Act 851).",
     strategy: "Ghana TCAM regulation: TMPC regulates practitioners and clinics (Act 575); FDA Ghana evaluates and registers herbal medicines.",
     difficulty: "easy",
     tags: ["tcam", "tmpc", "fda-ghana", "act-575", "traditional-medicine-regulation"],
@@ -128,24 +128,24 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Uterine hyperstimulation and impending uterine rupture secondary to unmonitored herbal oxytocics, requiring immediate tocolysis, oxygen, IV resuscitation, and emergent cesarean delivery",
+        text: "Uterine hyperstimulation and impending rupture from unmonitored herbal oxytocics, needing tocolysis, oxygen and emergency caesarean",
       },
       {
         id: "b",
-        text: "Normal active first stage of labour; encourage ambulation and oral fluids while awaiting the next vaginal examination and partograph plotting",
+        text: "Normal active first stage of labour; encourage walking and oral fluids while waiting for the next vaginal examination and partograph",
       },
       {
         id: "c",
-        text: "Obstructed labour from cephalopelvic disproportion; prepare for an assisted vaginal delivery in theatre with neonatal resuscitation available",
+        text: "Obstructed labour from cephalopelvic disproportion; prepare for an assisted vaginal delivery in theatre with neonatal resuscitation",
       },
       {
         id: "d",
         text: "Uterine atony with postpartum haemorrhage; start an oxytocin infusion, massage the fundus and prepare for blood transfusion",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "Indigenous herbal uterotonics (such as *kaligbali*, *aworoworo*, or *Cassia* extracts) contain potent oxytocic alkaloids that cause uncoordinated, tetanic uterine contractions without periods of physiological relaxation. When administered during obstructed or prolonged labor without fetal monitoring, this causes severe placental hypoperfusion, profound fetal bradycardia, and catastrophic uterine rupture with maternal exsanguination. The nurse must call the obstetrician immediately, position left lateral, administer oxygen, start large-bore IV fluid resuscitation, administer tocolytics if protocol directs, and rush the patient to the operating theater. Calling this normal is fatal negligence. Why the other options fail: normal labour does not produce tetanic contractions with a fetal heart rate of 60 beats/min; cephalopelvic disproportion does not itself cause tetanic contraction; and oxytocin in an already hyperstimulated uterus increases the risk of rupture.",
+      "CORRECT (A) — \"Uterine hyperstimulation and impending rupture from unmonitored herbal oxytocics, needing tocolysis, oxygen and emergency caesarean\". Indigenous herbal uterotonics such as kaligbali and aworoworo contain oxytocic alkaloids of unknown dose, and this woman has had repeated doses over twenty-eight hours with no fetal monitoring. The result is uncoordinated, tetanic uterine contraction with no relaxation between contractions: placental perfusion falls, the fetal heart rate decelerates, and the uterus can rupture, which is catastrophic and can kill the mother through exsanguination. The nurse's immediate job is to call the obstetrician, position her on the left side, give oxygen, start large-bore intravenous fluids, give a tocolytic if the protocol directs, and move her to theatre for caesarean delivery. Why the other options fail: calling a tetanic, non-relaxing uterus a normal first stage is the most dangerous error available here, and partograph plotting cannot make an over-contracted uterus normal (B); cephalopelvic disproportion does not produce tetanic contractions without relaxation, and an assisted vaginal birth in the presence of fetal decelerations and a contracting uterus would be unsafe (C); and atony produces a soft, boggy uterus after delivery, whereas this uterus is contracting continuously before delivery (D). Reference: Ghana STG — obstructed and prolonged labour; management of uterine hyperstimulation.",
     strategy: "Herbal uterotonics: Indigenous oxytocic herbs administered during labor cause uterine hyperstimulation, fetal asphyxia, and uterine rupture.",
     difficulty: "medium",
     tags: ["tcam", "traditional-birth-attendant", "uterine-rupture", "herbal-uterotonics", "obstetric-emergency"],
@@ -458,24 +458,24 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Explain the risks of uncontrolled hypertension, including stroke and kidney damage, and tell the client that the tablets must be taken exactly as prescribed",
+        text: "Explain the risks of uncontrolled hypertension, such as stroke and kidney damage, and insist that the tablets be taken as prescribed",
       },
       {
         id: "b",
-        text: "Collaborate with the client on an agreed plan that keeps safe cultural preferences such as prayer and culinary garlic while maintaining daily antihypertensives and shared home blood pressure monitoring",
+        text: "Collaborate on an agreed plan that keeps prayer and culinary garlic while maintaining daily antihypertensives and home checks",
       },
       {
         id: "c",
-        text: "Listen carefully to the client's concerns about the tablets, then recommend the standard regimen without any further discussion of herbal alternatives",
+        text: "Listen carefully to the client's concerns about the tablets, then recommend the standard regimen without discussing herbal alternatives",
       },
       {
         id: "d",
-        text: "Acknowledge the client's cultural beliefs, then agree to withhold antihypertensives for one month while the garlic water is given a fair trial",
+        text: "Acknowledge the client's cultural beliefs, then agree to withhold antihypertensives for a month while the garlic water gets a fair trial",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "The LEARN model is an evidence-based cross-cultural communication framework: 1) LISTEN with empathy; 2) EXPLAIN your clinical perceptions; 3) ACKNOWLEDGE and discuss differences and similarities; 4) RECOMMEND treatment; 5) NEGOTIATE agreement. In the Negotiation step, the nurse and client collaborate on a culturally acceptable, clinically safe compromise: accommodating the client's cultural and spiritual values (prayer, culinary garlic) while maintaining essential life-saving biomedical therapies (antihypertensive pills). Coercive threats provoke rejection; abandoning medicine leads to hypertensive stroke. Why the other options fail: explaining and instructing is the Explain and Recommend steps rather than Negotiate; recommending without discussion is also Recommend; and agreeing to withhold antihypertensives abandons the clinical bottom line instead of negotiating around it.",
+      "CORRECT (B) — \"Collaborate on an agreed plan that keeps prayer and culinary garlic while maintaining daily antihypertensives and home checks\". LEARN is a five-step cross-cultural consultation: Listen to the client's own account of the illness and its meaning, Explain your clinical view in plain words, Acknowledge where the two accounts differ and what is at stake, Recommend a plan you can defend clinically, and then Negotiate. Negotiation is the step where the nurse and client build a plan together that is acceptable to the client and safe: prayer and garlic as culinary seasoning can stay, because neither harms the client and refusing them would end the conversation, while the antihypertensives and the home blood pressure record remain the non-negotiable core of the plan. Why the other options fail: explaining the risks and insisting on the tablets is the Explain and Recommend steps delivered as an instruction, with no negotiation in it (A); listening and then recommending without discussing the alternatives is also Recommend, and it wastes the listening (C); and agreeing to stop the tablets for a month gives away the part of the plan that cannot be given away, which is a failure to negotiate rather than a success at it (D).",
     strategy: "LEARN model: Negotiate a culturally congruent plan that honors the client's values while preserving essential evidence-based medical treatments.",
     difficulty: "medium",
     tags: ["tcam", "learn-model", "cross-cultural-communication", "negotiation", "patient-adherence"],

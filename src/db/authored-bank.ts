@@ -4957,23 +4957,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "The bleeding is not significant since the haemoglobin is near normal"
+    "text": "The bleeding is not significant, since the haemoglobin is still near the normal range and she is stable"
    },
    {
     "id": "b",
-    "text": "The haemoglobin should be repeated in one week"
+    "text": "The haemoglobin should simply be repeated in one week to see whether it has fallen in the meantime"
    },
    {
     "id": "c",
-    "text": "Transfusion is definitely not required at any point"
+    "text": "Transfusion will definitely not be required at any point during this admission, whatever the repeat shows"
    },
    {
     "id": "d",
-    "text": "The result may not yet reflect the loss, because haemoglobin concentration falls only after fluid shifts occur"
+    "text": "The result may not yet reflect the loss, because haemoglobin falls only after fluid shifts occur"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"The result may not yet reflect the loss, because haemoglobin concentration falls only after fluid shifts occur\". In <strong>acute haemorrhage the patient loses whole blood</strong>, so the concentration of haemoglobin in the remaining blood is initially unchanged. It falls only over hours as fluid moves from the interstitium into the vascular space, or after intravenous fluid is given. Management is guided by the clinical picture — pulse, blood pressure, conscious level, visible loss — not by an early haemoglobin.\n\nWhy the other options fail:\n• A — This is the dangerous misreading. A normal early haemoglobin gives false reassurance during active haemorrhage.\n• B — A week is far too long. In active bleeding the measurement is repeated within hours alongside continuous clinical assessment.\n• C — Transfusion may become urgently necessary. The decision rests on clinical status and ongoing loss, not a single early value.\n\nReference: Ghana Safe Motherhood Protocol — postpartum haemorrhage",
+  "rationale": "CORRECT (D) — \"The result may not yet reflect the loss, because haemoglobin falls only after fluid shifts occur\". In <strong>acute haemorrhage the patient loses whole blood</strong>, so the concentration of haemoglobin in the remaining blood is initially unchanged. It falls only over hours as fluid moves from the interstitium into the vascular space, or after intravenous fluid is given. Management is guided by the clinical picture — pulse, blood pressure, conscious level, visible loss — not by an early haemoglobin.\n\nWhy the other options fail:\n• A — This is the dangerous misreading. A normal early haemoglobin gives false reassurance during active haemorrhage.\n• B — A week is far too long. In active bleeding the measurement is repeated within hours alongside continuous clinical assessment.\n• C — Transfusion may become urgently necessary. The decision rests on clinical status and ongoing loss, not a single early value.\n\nReference: Ghana Safe Motherhood Protocol — postpartum haemorrhage",
   "strategy": "Match the test to the timing. Some results lag behind the event: haemoglobin in acute bleeding, creatinine in early kidney injury, cardiac markers in early infarction. Treat the patient in front of you, not the number.",
   "difficulty": "hard",
   "tags": [
@@ -106566,23 +106566,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Reassure her that many young women diet and advise her to eat more"
+    "text": "Reassure her that many young women diet and simply advise her to eat a little more at each meal and snack"
    },
    {
     "id": "b",
-    "text": "Recognise features suggesting an eating disorder and arrange prompt, non-judgemental referral for specialist assessment"
+    "text": "Recognise features suggesting an eating disorder and arrange prompt referral for specialist assessment"
    },
    {
     "id": "c",
-    "text": "Tell her firmly that she is dangerously thin and must gain weight immediately"
+    "text": "Tell her firmly that she is dangerously thin and must start gaining weight immediately before she collapses"
    },
    {
     "id": "d",
-    "text": "Weigh her weekly and take no further action while the weight is stable"
+    "text": "Weigh her weekly in the clinic and take no further action for as long as the weight stays stable at this level"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Recognise features suggesting an eating disorder and arrange prompt, non-judgemental referral for specialist assessment\". Marked weight loss with a distorted body image, compulsive exercise and concealment of the body are core features of anorexia nervosa, and a body mass index of 15 kg/m² carries substantial medical risk including arrhythmia, hypoglycaemia, bone loss and death. Eating disorders have the highest mortality of any psychiatric condition, so this is not a phase to be waited out. The nursing role is to recognise the pattern, respond without judgement or comment on appearance, screen for physical instability, and refer promptly to a service able to provide combined medical and psychological care. Refeeding must be medically supervised because of the risk of refeeding syndrome.\n\nWhy the other options fail:\n• A — Normalising this as ordinary dieting misses a serious and potentially fatal illness, and advice to eat more addresses neither the distorted body image nor the compulsion that drives the restriction.\n• C — Confronting her about her appearance and demanding weight gain typically increases shame and concealment. Eating disorders are not corrected by instruction, and the approach damages the trust needed for engagement.\n• D — Monitoring without referral allows a high-risk condition to progress. Stable weight at a body mass index of 15 kg/m² is not reassurance; it is sustained severe illness.\n\nReference: WHO mental health guidance; Ghana Mental Health Act 846 and Standard Treatment Guidelines",
+  "rationale": "CORRECT (B) — \"Recognise features suggesting an eating disorder and arrange prompt referral for specialist assessment\". Marked weight loss with a distorted body image, compulsive exercise and concealment of the body are core features of anorexia nervosa, and a body mass index of 15 kg/m² carries substantial medical risk including arrhythmia, hypoglycaemia, bone loss and death. Eating disorders have the highest mortality of any psychiatric condition, so this is not a phase to be waited out. The nursing role is to recognise the pattern, respond without judgement or comment on appearance, screen for physical instability, and refer promptly to a service able to provide combined medical and psychological care. Refeeding must be medically supervised because of the risk of refeeding syndrome.\n\nWhy the other options fail:\n• A — Normalising this as ordinary dieting misses a serious and potentially fatal illness, and advice to eat more addresses neither the distorted body image nor the compulsion that drives the restriction.\n• C — Confronting her about her appearance and demanding weight gain typically increases shame and concealment. Eating disorders are not corrected by instruction, and the approach damages the trust needed for engagement.\n• D — Monitoring without referral allows a high-risk condition to progress. Stable weight at a body mass index of 15 kg/m² is not reassurance; it is sustained severe illness.\n\nReference: WHO mental health guidance; Ghana Mental Health Act 846 and Standard Treatment Guidelines",
   "strategy": "Weight loss plus a distorted body image plus concealment is a psychiatric emergency, not a diet. Refer rather than advise.",
   "difficulty": "hard",
   "tags": [
@@ -118042,23 +118042,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Caesarean birth cures the maternal infection and prevents recurrence"
+   "text": "Caesarean birth cures the mother's herpes infection and stops the lesions from ever coming back again"
   },
   {
    "id": "b",
-   "text": "The lesions make a vaginal delivery physically impossible to perform"
+   "text": "The active lesions make a vaginal delivery physically impossible to perform safely in any circumstances"
   },
   {
    "id": "c",
-   "text": "Passing through an infected birth canal exposes the newborn to herpes, which can cause severe neonatal infection"
+   "text": "Passing through an infected birth canal exposes the newborn to herpes, which can cause severe infection"
   },
   {
    "id": "d",
-   "text": "Herpes infection causes the uterus to stop contracting in labour"
+   "text": "Herpes infection causes the uterus to stop contracting in labour, so delivery cannot progress without surgery"
   }
  ],
  "correctChoiceId": "c",
- "rationale": "Neonatal herpes is acquired mainly during passage through an infected birth canal, and it can cause disseminated disease with meningoencephalitis and high mortality, so a caesarean birth before or soon after membrane rupture substantially reduces the risk. Option A is wrong: surgery does not treat the mother's infection, which still needs antiviral treatment. Option B overstates the mechanical problem. Option D has no basis.",
+ "rationale": "CORRECT (C) — \"Passing through an infected birth canal exposes the newborn to herpes, which can cause severe infection\". Neonatal herpes is acquired mainly during passage through an infected birth canal, and the risk is highest when the mother has active lesions and the membranes have been ruptured for some time, which is exactly this woman's situation. Disseminated neonatal herpes and herpes meningoencephalitis carry high mortality and leave survivors with neurological damage, so a caesarean birth performed before or soon after membrane rupture substantially reduces the exposure dose the baby receives. Why the other options fail: surgery does not treat the mother's infection, which still needs antiviral treatment, and it does not prevent recurrence (A); the lesions do not make vaginal birth mechanically impossible, and the recommendation rests on the risk of transmission, not on feasibility (B); and herpes does not arrest uterine contraction or stop labour from progressing, so D invents a mechanism that does not exist (D). Reference: WHO and Ghana STG — prevention of mother-to-child transmission of herpes simplex.",
  "strategy": "Active herpes at term: the risk is to the baby in the birth canal, not to the uterus.",
  "difficulty": "hard",
  "tags": [
