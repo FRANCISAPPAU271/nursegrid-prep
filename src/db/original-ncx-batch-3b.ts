@@ -128,10 +128,10 @@ export const NCX3_PART_B: AuthoredQuestion[] = [
     n: 177, cat: "med-surg",
     stem: "A man has an above-knee amputation with a rigid plaster dressing applied in theatre so that a temporary prosthesis can be fitted early. Which nursing action is **most important** in the first 24 hours?",
     choices: [
-      "Observe the rigid dressing for slipping, excessive bleeding staining through the plaster, and signs of pressure, and keep the stump in correct alignment",
-      "Measure the drainage from the Penrose drains every hour and record it on the fluid balance chart",
+      "Observe the rigid dressing for slipping, blood staining through the plaster and signs of pressure, and keep the stump aligned",
       "Keep the stump elevated on pillows for at least 48 hours, to reduce the swelling before the prosthesis is fitted",
-      "Begin stump bandaging in a figure-of-eight pattern as soon as the dressing is dry, to shape the stump",
+      "Measure the drainage from the Penrose drains every hour and record it carefully on the fluid balance chart",
+      "Begin stump bandaging in a figure-of-eight pattern as soon as the plaster is dry, to shape the end of the stump for the prosthesis",
     ],
     correct: "a",
     explain: "An immediate post-operative rigid dressing <strong>controls oedema, protects the wound, prevents flexion contracture and shapes the stump</strong>. If it slips off or is soaked with blood the benefits are lost and haemorrhage may be hidden, so the nurse checks it frequently, marks any staining, and ensures the straps and suspension stay secure.",

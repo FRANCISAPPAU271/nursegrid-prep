@@ -69,9 +69,9 @@ export const NCX2_PART_D: AuthoredQuestion[] = [
     stem: "A registered nurse supervises a student changing the dressing on a newly inserted peritoneal dialysis catheter. The nurse should **intervene** when the student:",
     choices: [
       "Cleans the exit site with a circular motion that starts at the outer skin and moves in towards the catheter",
-      "Cleans the exit site with sterile gauze soaked in povidone-iodine",
-      "Covers the site with sterile pre-cut gauze squares",
-      "Secures the edges of the dressing with hypoallergenic tape",
+      "Covers the exit site with sterile pre-cut gauze squares after cleaning and drying the skin around it",
+      "Secures the edges of the new dressing with hypoallergenic tape so that it does not lift away from the skin at all",
+      "Cleans the exit site with sterile gauze soaked in povidone-iodine before applying the new sterile dressing",
     ],
     correct: "a",
     explain: "Cleaning must move <strong>from the exit site outward</strong>, in widening circles, so that skin flora is carried away from the catheter and not towards it. Exit-site infection can track along the catheter and cause <strong>peritonitis</strong>, the leading complication of peritoneal dialysis, so every step of the dressing is aseptic.",

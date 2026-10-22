@@ -518,24 +518,24 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Conducting scientific research on plant medicines, evaluating botanical safety, toxicology and efficacy, and standardising herbal formulations for national healthcare delivery",
+        text: "Researching plant medicines, assessing botanical safety, toxicology and efficacy, and standardising herbal formulations",
       },
       {
         id: "b",
-        text: "Licensing traditional medical practitioners, accrediting their premises and disciplining those who practise without valid registration",
+        text: "Licensing traditional medical practitioners, accrediting their premises and disciplining those who practise without registration",
       },
       {
         id: "c",
-        text: "Supplying free herbal alternatives to public hospitals and clinics whenever conventional medicines are out of stock",
+        text: "Supplying free herbal alternatives to public hospitals and clinics whenever the conventional medicines run out of stock",
       },
       {
         id: "d",
-        text: "Setting the retail price of imported herbal products and approving the advertising claims that manufacturers make for them",
+        text: "Setting the retail price of imported herbal products and approving the advertising claims that the manufacturers make",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "The Centre for Plant Medicine Research (CPMR) at Mampong-Akuapem (established in 1975) is Ghana's premier national biomedical research institute dedicated to the scientific investigation of medicinal plants. CPMR conducts rigorous botanical, phytochemical, microbiological, pharmacological, and toxicological analyses on traditional herbal medicines, develops standardized efficacy-tested botanical products (e.g., *Cryptolepis* for malaria), and advises the Ministry of Health and FDA Ghana on safe integration into the public health system. Options b, c, bnd d are fictional absurdities. Why the other options fail: practitioner licensing is the TMPC's role; supplying medicines is a procurement function; and price setting is not a research function.",
+      "CORRECT (A) — \"Researching plant medicines, assessing botanical safety, toxicology and efficacy, and standardising herbal formulations\". The Centre for Plant Medicine Research at Mampong-Akuapem was established in 1975 and is Ghana's national institute for the scientific study of medicinal plants. Its work is research: botanical and phytochemical analysis, microbiology, pharmacology and toxicology on the plants that traditional healers actually use, the development of standardised and efficacy-tested products such as Cryptolepis for malaria, and technical advice to the Ministry of Health and the Food and Drugs Authority on how herbal medicine can be integrated into public care safely. That is why the pilot units in regional and district hospitals can be staffed by KNUST-trained medical herbalists and still operate to a standard the hospital can defend. Why the other options fail: licensing practitioners, accrediting premises and disciplining the unregistered is the statutory work of the Traditional Medicine Practice Council under Act 575, not of a research institute (B); supplying medicines to hospitals is a procurement and supply-chain function of the Ghana Health Service, not research (C); and setting retail prices and approving advertising claims belongs to the FDA and the Ministry of Trade, not to CPMR (D). Reference: Centre for Plant Medicine Research, Mampong-Akuapem; Traditional Medicine Practice Act 2000 (Act 575).",
     strategy: "Ghanaian plant research: The Centre for Plant Medicine Research (CPMR) at Mampong conducts scientific research, safety profiling, and standardization of botanical medicines.",
     difficulty: "easy",
     tags: ["tcam", "cpmr", "mampong-akuapem", "medical-herbalists", "plant-medicine-research"],

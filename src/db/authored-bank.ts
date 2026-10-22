@@ -254,23 +254,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Administer the medication, since the ward sister has given the instruction"
+    "text": "Administer the medication, since the ward sister has given the instruction and takes responsibility for it"
    },
    {
     "id": "b",
-    "text": "Explain that she cannot practise independently until registration is complete, and offer to assist under supervision"
+    "text": "Explain that she cannot practise independently until her registration is complete, and offer to assist under supervision"
    },
    {
     "id": "c",
-    "text": "Refuse and leave the ward to report the sister to the Council"
+    "text": "Refuse outright and leave the ward straight away to report the ward sister to the Nursing and Midwifery Council that day"
    },
    {
     "id": "d",
-    "text": "Administer the medication but ask a colleague to document it under their name"
+    "text": "Administer the medication but ask a registered colleague to document it under that colleague's name instead"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Explain that she cannot practise independently until registration is complete, and offer to assist under supervision\". Under the NMC Ghana framework a nurse may not practise independently until registered and issued a PIN. The professional response both <strong>protects the patient</strong> and <strong>preserves the working relationship</strong>: state the limit clearly and offer what you <em>can</em> lawfully do — assist under the supervision of a registered practitioner.\n\nWhy the other options fail:\n• A — An instruction from a senior does not extend your legal scope. Accountability for practising unregistered remains with the individual nurse.\n• C — Refusal is correct in principle, but abandoning the ward compromises patient safety and escalating externally before raising it internally is disproportionate.\n• D — Falsifying documentation is fraud and a serious professional offence, compounding the original breach rather than resolving it.\n\nReference: NMC Ghana Code of Conduct and Ethics; Health Professions Regulatory Bodies Act 857 (2013)",
+  "rationale": "CORRECT (B) — \"Explain that she cannot practise independently until her registration is complete, and offer to assist under supervision\". Under the NMC Ghana framework a nurse may not practise independently until registered and issued a PIN. The professional response both <strong>protects the patient</strong> and <strong>preserves the working relationship</strong>: state the limit clearly and offer what you <em>can</em> lawfully do — assist under the supervision of a registered practitioner.\n\nWhy the other options fail:\n• A — An instruction from a senior does not extend your legal scope. Accountability for practising unregistered remains with the individual nurse.\n• C — Refusal is correct in principle, but abandoning the ward compromises patient safety and escalating externally before raising it internally is disproportionate.\n• D — Falsifying documentation is fraud and a serious professional offence, compounding the original breach rather than resolving it.\n\nReference: NMC Ghana Code of Conduct and Ethics; Health Professions Regulatory Bodies Act 857 (2013)",
   "strategy": "In scope-of-practice questions, eliminate any option that involves doing the unlawful act, abandoning the patient, or falsifying records. The survivor is almost always: state the boundary, then offer the lawful alternative.",
   "difficulty": "medium",
   "tags": [
@@ -776,15 +776,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Use correction fluid to cover the entry and rewrite it in the correct chart"
+    "text": "Use correction fluid to cover the entry completely and then rewrite it neatly in the correct patient's chart instead"
    },
    {
     "id": "b",
-    "text": "Remove the page and rewrite the whole record so the notes remain neat"
+    "text": "Remove the page from the chart and rewrite the whole record so that the notes remain neat and consistent"
    },
    {
     "id": "c",
-    "text": "Leave the entry and add an explanatory note at the end of the shift"
+    "text": "Leave the entry where it is and add an explanatory note at the end of the shift when the ward is quieter"
    },
    {
     "id": "d",
@@ -1940,23 +1940,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Explain that this illness is likely viral, that antibiotics would not help, and describe what danger signs to return for"
+    "text": "Explain that the illness is likely viral, antibiotics will not help, and name the danger signs to return for"
    },
    {
     "id": "b",
-    "text": "Provide a short course of antibiotics to reassure her"
+    "text": "Provide a short course of antibiotics to reassure the mother, since her child has now been unwell for two days"
    },
    {
     "id": "c",
-    "text": "Tell her antibiotics are unavailable at this facility"
+    "text": "Tell her that antibiotics are currently unavailable at this facility and that she should come back next week"
    },
    {
     "id": "d",
-    "text": "Advise her to buy antibiotics from a nearby chemical seller if symptoms persist"
+    "text": "Advise her to buy a full course of antibiotics from the chemical seller nearby if the symptoms carry on"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Explain that this illness is likely viral, that antibiotics would not help, and describe what danger signs to return for\". A brief coryzal illness without fever is almost always <strong>viral</strong>, and antibiotics offer no benefit while contributing to resistance, side effects and cost. Effective practice combines a clear explanation with <strong>safety-netting</strong> — telling the mother precisely which danger signs mean she must return, which is what makes it safe to withhold treatment.\n\nWhy the other options fail:\n• B — Prescribing to satisfy an expectation drives antimicrobial resistance, exposes the child to unnecessary adverse effects, and reinforces the belief that every illness needs antibiotics.\n• C — A false statement about availability may be expedient but is dishonest, and it leaves the mother believing antibiotics were needed but unobtainable.\n• D — Directing a mother to unregulated purchase encourages self-medication with incomplete courses, one of the strongest drivers of resistance.\n\nReference: Ghana STG — rational use of antimicrobials; IMCI",
+  "rationale": "CORRECT (A) — \"Explain that the illness is likely viral, antibiotics will not help, and name the danger signs to return for\". A brief coryzal illness without fever is almost always <strong>viral</strong>, and antibiotics offer no benefit while contributing to resistance, side effects and cost. Effective practice combines a clear explanation with <strong>safety-netting</strong> — telling the mother precisely which danger signs mean she must return, which is what makes it safe to withhold treatment.\n\nWhy the other options fail:\n• B — Prescribing to satisfy an expectation drives antimicrobial resistance, exposes the child to unnecessary adverse effects, and reinforces the belief that every illness needs antibiotics.\n• C — A false statement about availability may be expedient but is dishonest, and it leaves the mother believing antibiotics were needed but unobtainable.\n• D — Directing a mother to unregulated purchase encourages self-medication with incomplete courses, one of the strongest drivers of resistance.\n\nReference: Ghana STG — rational use of antimicrobials; IMCI",
   "strategy": "When declining a treatment a patient has requested, the complete answer always has two parts: the explanation and the safety net. An option that only refuses is incomplete; one that gives in to the request is unsafe.",
   "difficulty": "hard",
   "tags": [
@@ -105955,23 +105955,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Increase fruit intake, since fruit is naturally healthy and supports kidney function"
+    "text": "Increase his fruit intake, since fruit is natural and healthy and supports the work of the kidneys"
    },
    {
     "id": "b",
-    "text": "Limit high-potassium foods such as ripe plantain, avocado, oranges and coconut water, and boil vegetables in plenty of water"
+    "text": "Limit high-potassium foods such as ripe plantain, avocado and coconut water, and boil vegetables in plenty of water"
    },
    {
     "id": "c",
-    "text": "Restrict all protein completely until the potassium normalises"
+    "text": "Restrict all protein completely until the serum potassium has come back down into the normal range"
    },
    {
     "id": "d",
-    "text": "Encourage coconut water, which is a natural fluid and replaces lost electrolytes"
+    "text": "Encourage coconut water, which is a natural fluid that replaces the electrolytes lost through the kidneys every day"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Limit high-potassium foods such as ripe plantain, avocado, oranges and coconut water, and boil vegetables in plenty of water\". Failing kidneys cannot excrete a potassium load, and at 6.4 mmol/L this man is at risk of fatal arrhythmia. Dietary control means identifying the high-potassium foods actually eaten in his household, which in Ghana commonly means ripe plantain, avocado, citrus, tomato paste, coconut water, palm nut soup and yam. A practical technique is to cut vegetables small and boil them in a generous volume of water that is then discarded, since potassium leaches out. Advice must be specific to local foods to be usable, and hyperkalaemia at this level also requires urgent medical review with an electrocardiogram rather than dietary measures alone.\n\nWhy the other options fail:\n• A — Fruit is a major potassium source, so a general instruction to eat more of it is dangerous here. Healthy in general does not mean safe for this patient.\n• C — Protein is restricted in a measured way in advanced kidney disease, not eliminated. Complete restriction causes malnutrition and muscle breakdown, which itself releases potassium into the blood.\n• D — Coconut water is exceptionally high in potassium. Recommending it to a hyperkalaemic patient could precipitate a cardiac arrest, and it is a common and dangerous misconception that it is universally healthy.\n\nReference: Ghana Standard Treatment Guidelines — chronic kidney disease; WHO dietary guidance",
+  "rationale": "CORRECT (B) — \"Limit high-potassium foods such as ripe plantain, avocado and coconut water, and boil vegetables in plenty of water\". Failing kidneys cannot excrete a potassium load, and at 6.4 mmol/L this man is at risk of fatal arrhythmia. Dietary control means identifying the high-potassium foods actually eaten in his household, which in Ghana commonly means ripe plantain, avocado, citrus, tomato paste, coconut water, palm nut soup and yam. A practical technique is to cut vegetables small and boil them in a generous volume of water that is then discarded, since potassium leaches out. Advice must be specific to local foods to be usable, and hyperkalaemia at this level also requires urgent medical review with an electrocardiogram rather than dietary measures alone.\n\nWhy the other options fail:\n• A — Fruit is a major potassium source, so a general instruction to eat more of it is dangerous here. Healthy in general does not mean safe for this patient.\n• C — Protein is restricted in a measured way in advanced kidney disease, not eliminated. Complete restriction causes malnutrition and muscle breakdown, which itself releases potassium into the blood.\n• D — Coconut water is exceptionally high in potassium. Recommending it to a hyperkalaemic patient could precipitate a cardiac arrest, and it is a common and dangerous misconception that it is universally healthy.\n\nReference: Ghana Standard Treatment Guidelines — chronic kidney disease; WHO dietary guidance",
   "strategy": "Translate every dietary restriction into the specific foods on that patient's table. A list written for another country protects nobody.",
   "difficulty": "hard",
   "tags": [
@@ -106399,23 +106399,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "It does not matter at all, since his weight is normal and that is the only relevant measure"
+    "text": "It does not matter at all, since his weight is normal and body weight is the only measure that counts for health"
    },
    {
     "id": "b",
-    "text": "The main concern is that the caffeine will interfere with his sleep"
+    "text": "The main concern is that the caffeine in the drinks will interfere with his sleep and concentration"
    },
    {
     "id": "c",
-    "text": "Liquid sugar adds energy without producing fullness and raises the risk of dental caries and type 2 diabetes even at a normal weight"
+    "text": "Liquid sugar adds energy without causing fullness and raises the risk of tooth decay and type 2 diabetes anyway"
    },
    {
     "id": "d",
-    "text": "Soft drinks are harmful only because they replace water, so drinking both solves the problem"
+    "text": "Soft drinks are harmful only because they replace water, so drinking water as well cancels the effect"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Liquid sugar adds energy without producing fullness and raises the risk of dental caries and type 2 diabetes even at a normal weight\". Energy taken as liquid is poorly compensated: the body does not reduce later food intake the way it does after solid food of the same energy, so total intake creeps up unnoticed. Beyond weight, frequent sugar exposure bathes the teeth in substrate for acid-producing bacteria, and dental caries is among the commonest reasons young people lose teeth. Repeated rapid glucose loads also drive insulin resistance over time, and a person of normal weight can still be metabolically affected, particularly where visceral fat accumulates. Framing the harm around weight alone gives a false reassurance to exactly the person in this scenario.\n\nWhy the other options fail:\n• A — Body weight is one outcome among several. Dental caries and metabolic change occur independently of weight, so a normal weight does not exclude harm.\n• B — Caffeine content varies and is not the main concern with three bottles daily. The sugar load is far more consequential than the stimulant effect.\n• D — Displacement of water and milk is a genuine problem, but adding water alongside does not remove the sugar already consumed. The intake itself must fall.\n\nReference: WHO guideline on sugars intake; Ghana Health Service non-communicable disease programme",
+  "rationale": "CORRECT (C) — \"Liquid sugar adds energy without causing fullness and raises the risk of tooth decay and type 2 diabetes anyway\". Energy taken as liquid is poorly compensated: the body does not reduce later food intake the way it does after solid food of the same energy, so total intake creeps up unnoticed. Beyond weight, frequent sugar exposure bathes the teeth in substrate for acid-producing bacteria, and dental caries is among the commonest reasons young people lose teeth. Repeated rapid glucose loads also drive insulin resistance over time, and a person of normal weight can still be metabolically affected, particularly where visceral fat accumulates. Framing the harm around weight alone gives a false reassurance to exactly the person in this scenario.\n\nWhy the other options fail:\n• A — Body weight is one outcome among several. Dental caries and metabolic change occur independently of weight, so a normal weight does not exclude harm.\n• B — Caffeine content varies and is not the main concern with three bottles daily. The sugar load is far more consequential than the stimulant effect.\n• D — Displacement of water and milk is a genuine problem, but adding water alongside does not remove the sugar already consumed. The intake itself must fall.\n\nReference: WHO guideline on sugars intake; Ghana Health Service non-communicable disease programme",
   "strategy": "Ask what the exposure does beyond the obvious outcome. Sugar harms teeth and metabolism directly, not only through body weight.",
   "difficulty": "medium",
   "tags": [
@@ -106937,11 +106937,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Counting how many mothers attended the session on the day"
+    "text": "Counting how many mothers attended the session on the day, and comparing it with the number invited"
    },
    {
     "id": "b",
-    "text": "Asking at the end of the session whether everyone found it useful"
+    "text": "Asking at the end of the session whether everyone found the teaching useful and understood the messages"
    },
    {
     "id": "c",
@@ -106949,7 +106949,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Recording how many handouts and leaflets were distributed"
+    "text": "Recording how many handouts and leaflets were distributed to the mothers who came to the session that day"
    }
   ],
   "correctChoiceId": "c",
@@ -109282,23 +109282,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Initiate the absconding procedure at once, searching, informing the team and notifying police and family as agreed"
+    "text": "Initiate the absconding procedure at once, search the ward and grounds and notify the team, police and family"
    },
    {
     "id": "b",
-    "text": "Wait two hours in case the patient returns before raising any alarm"
+    "text": "Wait for two hours in case the patient comes back of their own accord before raising the alarm with anyone at all"
    },
    {
     "id": "c",
-    "text": "Complete an incident form fully before beginning any search"
+    "text": "Complete the incident form fully and accurately before beginning any search of the ward or of the hospital grounds"
    },
    {
     "id": "d",
-    "text": "Discharge the patient from the ward list as having left of their own accord"
+    "text": "Discharge the patient from the ward list as having left of their own accord, and inform the next of kin"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Initiate the absconding procedure at once, searching, informing the team and notifying police and family as agreed\". A detained patient at high risk of suicide who is missing is a potential emergency in which time is the critical variable. The absconding procedure is activated immediately: search the ward and grounds, inform the nurse in charge and the responsible clinician, and notify police and the identified next of kin according to the agreed plan and risk level. Detention exists precisely because the person cannot at present keep themselves safe. Documentation matters greatly but follows the search rather than preceding it, and a detained patient cannot be discharged simply because they have left.\n\nWhy the other options fail:\n• B — Waiting two hours in a high-risk detained patient could be the difference between life and death, and no policy supports a delay of that kind.\n• C — Paperwork before searching inverts the priorities. The form is completed once the immediate safety response is under way.\n• D — A patient subject to detention cannot be treated as having self-discharged. Removing them from the list would abandon both the legal duty and the person.\n\nReference: Ghana Mental Health Act 846; WHO patient safety guidance",
+  "rationale": "CORRECT (A) — \"Initiate the absconding procedure at once, search the ward and grounds and notify the team, police and family\". A detained patient at high risk of suicide who is missing is a potential emergency in which time is the critical variable. The absconding procedure is activated immediately: search the ward and grounds, inform the nurse in charge and the responsible clinician, and notify police and the identified next of kin according to the agreed plan and risk level. Detention exists precisely because the person cannot at present keep themselves safe. Documentation matters greatly but follows the search rather than preceding it, and a detained patient cannot be discharged simply because they have left.\n\nWhy the other options fail:\n• B — Waiting two hours in a high-risk detained patient could be the difference between life and death, and no policy supports a delay of that kind.\n• C — Paperwork before searching inverts the priorities. The form is completed once the immediate safety response is under way.\n• D — A patient subject to detention cannot be treated as having self-discharged. Removing them from the list would abandon both the legal duty and the person.\n\nReference: Ghana Mental Health Act 846; WHO patient safety guidance",
   "strategy": "When a detained high-risk patient is missing, act first and document second. The legal detention exists because waiting is unsafe.",
   "difficulty": "medium",
   "tags": [
