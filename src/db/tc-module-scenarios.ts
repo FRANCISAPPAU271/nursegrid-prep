@@ -23,9 +23,9 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Tell the client that anxiety raises blood pressure and ask them to hold their feelings in",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "Peplau's orientation phase is the foundational stage of the therapeutic relationship where the nurse introduces themselves by name and professional role, sets boundaries, establishes the contract (purpose, parameters, and time frame), clarifies roles, and assesses the client's perceptions, immediate concerns, and expectations. Establishing trust during this phase is essential for subsequent therapeutic work. False reassurance, premature didactic instruction without assessing the client's readiness or anxiety, and minimizing or suppressing emotions are non-therapeutic barriers that undermine trust. Why the other options fail: option b offers reassurance that is false and closes the conversation. Option c teaches before assessing readiness, so it answers the nurse's agenda rather than the client's. Option d asks the client to suppress feeling, which is neither possible nor therapeutic.",
+      "CORRECT (A) — \"Introduce yourself by name and role, state the purpose and time frame, and ask about concerns\" Peplau's orientation phase is the foundational stage of the therapeutic relationship where the nurse introduces themselves by name and professional role, sets boundaries, establishes the contract (purpose, parameters, and time frame), clarifies roles, and assesses the client's perceptions, immediate concerns, and expectations. Establishing trust during this phase is essential for subsequent therapeutic work. False reassurance, premature didactic instruction without assessing the client's readiness or anxiety, and minimizing or suppressing emotions are non-therapeutic barriers that undermine trust. Why the other options fail: option b offers reassurance that is false and closes the conversation. Option c teaches before assessing readiness, so it answers the nurse's agenda rather than the client's. Option d asks the client to suppress feeling, which is neither possible nor therapeutic.",
     strategy: "In Peplau's framework, the orientation phase focuses on contracting, defining roles, establishing trust, and identifying the client's presenting concerns.",
     difficulty: "easy",
     tags: ["therapeutic-communication", "peplau", "orientation-phase", "fundamentals", "nurse-client-relationship"],
@@ -50,12 +50,12 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "Try to stay positive for your children's sake, because worrying will not change the biopsy result",
+        text: "Try to stay positive for the sake of your children, because worrying yourself sick will not change the biopsy result at all",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "Empathy involves understanding and validating the client's emotional experience from their perspective and communicating that understanding without judgment ('It sounds like you are carrying a profound weight of fear.'). It centers the client and invites further exploration. Telling the client 'I know exactly what you are going through' is sympathy or nurse-centered countertransference—every client's experience is unique. False reassurance and dismissive toxic positivity invalidate genuine fear and shut down meaningful therapeutic dialogue. Why the other options fail: option a moves the focus onto the nurse's own family. Option c dismisses the fear with statistics about outcomes. Option d tells the client to stop feeling what they feel.",
+      "CORRECT (B) — \"It sounds as though you are carrying a heavy fear about your children's future; what scares you most?\" Empathy involves understanding and validating the client's emotional experience from their perspective and communicating that understanding without judgment ('It sounds like you are carrying a profound weight of fear.'). It centers the client and invites further exploration. Telling the client 'I know exactly what you are going through' is sympathy or nurse-centered countertransference—every client's experience is unique. False reassurance and dismissive toxic positivity invalidate genuine fear and shut down meaningful therapeutic dialogue. Why the other options fail: option a moves the focus onto the nurse's own family. Option c dismisses the fear with statistics about outcomes. Option d tells the client to stop feeling what they feel.",
     strategy: "Therapeutic communication rule: Acknowledge, validate, and explore the client's feelings. Eliminate responses that shift focus to the nurse ('I know how you feel') or dismiss emotions with false cheer.",
     difficulty: "medium",
     tags: ["therapeutic-communication", "empathy", "non-therapeutic-communication", "active-listening"],
@@ -83,9 +83,9 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Keep looking at the bedside computer screen while dictating the instructions to the client",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "Non-verbal communication conveys more than 70% of interpersonal meaning. Sitting down at eye level conveys that the nurse is not rushed and is fully present for the client, reducing power asymmetries and fostering comfort. An open posture (uncrossed arms/legs) invites interaction. Standing over a seated or bedridden client reinforces hierarchy and dominance. Standing at the door signals hurriedness and impatience. Focusing on a screen rather than the client conveys emotional detachment and disinterest. Why the other options fail: option a folds the arms and stands over the client. Option b signals that the nurse is in a hurry to leave. Option d attends to the screen rather than to the person.",
+      "CORRECT (C) — \"Pull up a chair and sit at eye level, about three to four feet away, with an open posture\" Non-verbal communication conveys more than 70% of interpersonal meaning. Sitting down at eye level conveys that the nurse is not rushed and is fully present for the client, reducing power asymmetries and fostering comfort. An open posture (uncrossed arms/legs) invites interaction. Standing over a seated or bedridden client reinforces hierarchy and dominance. Standing at the door signals hurriedness and impatience. Focusing on a screen rather than the client conveys emotional detachment and disinterest. Why the other options fail: option a folds the arms and stands over the client. Option b signals that the nurse is in a hurry to leave. Option d attends to the screen rather than to the person.",
     strategy: "Eye-level positioning and open posture (sitting rather than standing over the client) significantly increase client perception of nurse caring and engagement.",
     difficulty: "easy",
     tags: ["therapeutic-communication", "non-verbal-communication", "soler", "attending-behaviors"],
@@ -113,9 +113,9 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Hand over a box of tissues, pat the client's back and say that everything happens for a reason",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "Therapeutic silence is an active nursing intervention that gives the client space, permission, and time to experience, process, and express deep emotional reactions without feeling rushed or judged. Sitting quietly with the client provides therapeutic presence. Asking 'Why' questions prompts defensiveness and intellectualization. Changing the subject is non-therapeutic avoidance by a nurse uncomfortable with grief. Platitudes like 'everything happens for a reason' invalidate suffering and minimize personal tragedy. Why the other options fail: option a opens with a why question that invites defensiveness. Option b avoids the grief altogether. Option d offers a platitude that minimises the loss.",
+      "CORRECT (C) — \"Stay quietly with the client, allowing time to cry and to process the news without interruption\" Therapeutic silence is an active nursing intervention that gives the client space, permission, and time to experience, process, and express deep emotional reactions without feeling rushed or judged. Sitting quietly with the client provides therapeutic presence. Asking 'Why' questions prompts defensiveness and intellectualization. Changing the subject is non-therapeutic avoidance by a nurse uncomfortable with grief. Platitudes like 'everything happens for a reason' invalidate suffering and minimize personal tragedy. Why the other options fail: option a opens with a why question that invites defensiveness. Option b avoids the grief altogether. Option d offers a platitude that minimises the loss.",
     strategy: "Silence is therapeutic when a client is overwhelmed or weeping. Do not rush to fill silence with words, platitudes, or topic changes.",
     difficulty: "medium",
     tags: ["therapeutic-communication", "silence", "holding-space", "grief-support"],
@@ -124,7 +124,7 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-TCOM-005",
     categorySlug: "fundamentals",
-    stem: "A nurse is conducting a psychosocial assessment using the SOLER active listening framework. Which physical behavior by the nurse correctly aligns with this evidenced-based communication model?",
+    stem: "A nurse is conducting a psychosocial assessment using the SOLER active listening framework. Which physical behavior by the nurse correctly aligns with this evidence-based communication model?",
     choices: [
       {
         id: "a",
@@ -143,9 +143,9 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Sit squarely facing the client, open posture, lean slightly forward, eye contact, relaxed",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "The SOLER acronym for active attending behaviors stands for: S = Sit squarely facing the client (signals involvement); O = Open posture (uncrossed arms and legs; non-defensive); L = Lean slightly forward toward the client (signals attentiveness and interest); E = Eye contact (appropriate, intermittent, culturally respectful); R = Relaxed posture (communicates ease and presence). Folded arms indicate defensiveness or disengagement; continuous unblinking staring is intimidating and aggressive; excessive slouching/reclining indicates indifference or unprofessionalism. Why the other options fail: option a is a closed posture. Option b is a stare that most clients find threatening. Option c is a slouched posture that reads as indifference.",
+      "CORRECT (D) — \"Sit squarely facing the client, open posture, lean slightly forward, eye contact, relaxed\" The SOLER acronym for active attending behaviors stands for: S = Sit squarely facing the client (signals involvement); O = Open posture (uncrossed arms and legs; non-defensive); L = Lean slightly forward toward the client (signals attentiveness and interest); E = Eye contact (appropriate, intermittent, culturally respectful); R = Relaxed posture (communicates ease and presence). Folded arms indicate defensiveness or disengagement; continuous unblinking staring is intimidating and aggressive; excessive slouching/reclining indicates indifference or unprofessionalism. Why the other options fail: option a is a closed posture. Option b is a stare that most clients find threatening. Option c is a slouched posture that reads as indifference.",
     strategy: "Remember the SOLER acronym: Squarely face the client, Open posture, Lean forward, Eye contact, Relaxed.",
     difficulty: "easy",
     tags: ["therapeutic-communication", "soler", "active-listening", "body-language"],
@@ -166,16 +166,16 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Avoid touching clients altogether, because touch always crosses a professional boundary",
+        text: "Avoid touching clients altogether, because any physical contact crosses a professional boundary and is never appropriate",
       },
       {
         id: "d",
         text: "Give the client a sudden, tight hug without warning so that the grief is interrupted",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "Therapeutic touch can convey profound empathy and comfort, particularly during acute grief or severe anxiety. However, touch is deeply personal and interpreted through cultural, gender, personal trauma, and religious lenses. The nurse should always assess the client's readiness and obtain verbal or clear non-verbal permission before touching (e.g., placing a gentle hand on the hand or forearm). Assuming universal comfort can trigger re-traumatization; completely eliminating touch strips nursing of a vital human element; and invasive unannounced hugs breach physical boundaries. Why the other options fail: option a assumes one meaning for touch in every culture. Option c removes a legitimate comfort from all care. Option d imposes contact without consent.",
+      "CORRECT (B) — \"Assess culture and boundaries first and ask permission before resting a hand on the forearm\" Therapeutic touch can convey profound empathy and comfort, particularly during acute grief or severe anxiety. However, touch is deeply personal and interpreted through cultural, gender, personal trauma, and religious lenses. The nurse should always assess the client's readiness and obtain verbal or clear non-verbal permission before touching (e.g., placing a gentle hand on the hand or forearm). Assuming universal comfort can trigger re-traumatization; completely eliminating touch strips nursing of a vital human element; and invasive unannounced hugs breach physical boundaries. Why the other options fail: option a assumes one meaning for touch in every culture. Option c removes a legitimate comfort from all care. Option d imposes contact without consent.",
     strategy: "Touch requires clinical assessment of cultural, personal, and trauma histories. Always gauge readiness and obtain permission for therapeutic touch.",
     difficulty: "medium",
     tags: ["therapeutic-communication", "therapeutic-touch", "cultural-competence", "boundaries"],
@@ -203,9 +203,9 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "You should really listen to your doctor if you expect your heart health to improve at all",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "Open-ended questioning invites the client to elaborate, share underlying beliefs, and articulate values without feeling judged or cornered ('Can you share with me what concerns or beliefs you have.'). This provides the assessment data needed to address medication hesitancy collaboratively. Asking 'Why' puts the client on the defensive and provokes justification. Closed-ended rhetorical scare tactics increase resistance. Authoritative advice-giving damages the collaborative therapeutic partnership. Why the other options fail: option b opens with a why question and a warning. Option c uses a scare tactic that raises resistance. Option d gives advice instead of exploring the belief.",
+      "CORRECT (A) — \"Can you tell me what concerns or beliefs you have about taking blood pressure medicines?\" Open-ended questioning invites the client to elaborate, share underlying beliefs, and articulate values without feeling judged or cornered ('Can you share with me what concerns or beliefs you have.'). This provides the assessment data needed to address medication hesitancy collaboratively. Asking 'Why' puts the client on the defensive and provokes justification. Closed-ended rhetorical scare tactics increase resistance. Authoritative advice-giving damages the collaborative therapeutic partnership. Why the other options fail: option b opens with a why question and a warning. Option c uses a scare tactic that raises resistance. Option d gives advice instead of exploring the belief.",
     strategy: "Avoid 'Why' questions that elicit defensiveness. Choose open-ended questions starting with 'What', 'How', or 'Tell me about...' to explore client health beliefs.",
     difficulty: "easy",
     tags: ["therapeutic-communication", "open-ended-questions", "medication-adherence", "exploring"],
@@ -233,9 +233,9 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "You feel that losing your voice will strip away your identity, your work and who you are",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "Reflecting and paraphrasing content and feelings communicates that the nurse has actively heard and understood the core meaning beneath the client's words. The client equates losing their voice with losing their very identity and personhood. Reflecting this back ('You feel that losing your voice will strip away your identity.') validates their profound existential grief. Rushing into technical solutions bypasses emotional validation. Minimizing their loss by comparing it to cancer survival is non-therapeutic and dismissive. Why the other options fail: option a answers grief with equipment. Option b weighs the voice against survival, which the client did not ask. Option c tells the client to be grateful.",
+      "CORRECT (D) — \"You feel that losing your voice will strip away your identity, your work and who you are\" Reflecting and paraphrasing content and feelings communicates that the nurse has actively heard and understood the core meaning beneath the client's words. The client equates losing their voice with losing their very identity and personhood. Reflecting this back ('You feel that losing your voice will strip away your identity.') validates their profound existential grief. Rushing into technical solutions bypasses emotional validation. Minimizing their loss by comparing it to cancer survival is non-therapeutic and dismissive. Why the other options fail: option a answers grief with equipment. Option b weighs the voice against survival, which the client did not ask. Option c tells the client to be grateful.",
     strategy: "Reflecting feelings mirrors the emotional essence of what the client expressed. Never jump to technical problem-solving before validating grief and identity loss.",
     difficulty: "medium",
     tags: ["therapeutic-communication", "reflecting", "paraphrasing", "body-image", "oncology"],
@@ -248,7 +248,7 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Interrupt at once and say that the clinic handles physical complaints, not social or marital problems",
+        text: "Interrupt at once and tell the client that this clinic handles physical complaints only, not social or marital problems",
       },
       {
         id: "b",
@@ -263,9 +263,9 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Sit in total silence for the whole appointment until the client has run out of things to say",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "Summarizing and focusing brings together important points of discussion to review main ideas, clarify mutual understanding, and organize priorities for action. In a overwhelmed or rambling client, summarizing validates everything they have shared while providing clear, gentle structure to focus on high-priority clinical concerns (such as dizziness and acute pain) first. Abruptly dismissing social concerns destroys trust. Giving marital advice is outside nursing scope and non-therapeutic. Unstructured silence fails to provide needed clinical guidance. Why the other options fail: option a dismisses the social concerns outright. Option b gives advice the nurse is not qualified to give. Option d offers silence with no structure or direction.",
+      "CORRECT (C) — \"Summarise the concerns, then agree to assess the dizziness and pain first because they threaten safety\" Summarizing and focusing brings together important points of discussion to review main ideas, clarify mutual understanding, and organize priorities for action. In an overwhelmed or rambling client, summarizing validates everything they have shared while providing clear, gentle structure to focus on high-priority clinical concerns (such as dizziness and acute pain) first. Abruptly dismissing social concerns destroys trust. Giving marital advice is outside nursing scope and non-therapeutic. Unstructured silence fails to provide needed clinical guidance. Why the other options fail: option a dismisses the social concerns outright. Option b gives advice the nurse is not qualified to give. Option d offers silence with no structure or direction.",
     strategy: "Summarizing condenses key themes; focusing directs the conversation toward high-priority clinical concerns without dismissing other issues.",
     difficulty: "medium",
     tags: ["therapeutic-communication", "summarizing", "focusing", "clarification"],
@@ -293,9 +293,9 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "The family's presence, so that relatives hear the diagnosis before the client does",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "The SPIKES protocol consists of: S = Setting (privacy, seating, time); P = Perception (assessing what the client understands: 'What have you been told so far?'); I = Invitation (asking how much detail the client wants); K = Knowledge (delivering information in small chunks with warning shots); E = Empathy (addressing emotions); S = Strategy/Summary (collaborative next steps). Inquiring about the client's perception ('P') establishes where the client is psychologically, identifies unrealistic expectations or misinformation, and allows the clinician to tailor the disclosure appropriately. Blunt statistical dumps induce shock. Handing out hospice brochures prematurely bypasses disclosure and empathy. Forcing family out violates autonomy. Why the other options fail: option b leads with statistics before asking what the client knows. Option c introduces palliative care before the diagnosis has been given. Option d decides the family's presence for the client.",
+      "CORRECT (A) — \"What the client already understands or suspects about the illness and the tests\" The SPIKES protocol consists of: S = Setting (privacy, seating, time); P = Perception (assessing what the client understands: 'What have you been told so far?'); I = Invitation (asking how much detail the client wants); K = Knowledge (delivering information in small chunks with warning shots); E = Empathy (addressing emotions); S = Strategy/Summary (collaborative next steps). Inquiring about the client's perception ('P') establishes where the client is psychologically, identifies unrealistic expectations or misinformation, and allows the clinician to tailor the disclosure appropriately. Blunt statistical dumps induce shock. Handing out hospice brochures prematurely bypasses disclosure and empathy. Forcing family out violates autonomy. Why the other options fail: option b leads with statistics before asking what the client knows. Option c introduces palliative care before the diagnosis has been given. Option d decides the family's presence for the client.",
     strategy: "SPIKES protocol sequence: Setting -> Perception -> Invitation -> Knowledge -> Empathy -> Strategy. Always assess the client's baseline perception first.",
     difficulty: "medium",
     tags: ["therapeutic-communication", "spikes-protocol", "breaking-bad-news", "oncology"],
@@ -316,16 +316,16 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Explain that another client had a cardiac arrest, so his mother is not the only patient here",
+        text: "Explain that another client had a cardiac arrest on the ward, so his mother is not the only patient who needs attention",
       },
       {
         id: "d",
         text: "Turn away silently and lock the medication room door until he leaves the desk area",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "Effective de-escalation requires: 1) maintaining a calm, unhurried, lower-volume voice; 2) maintaining safe physical positioning without cornering the person; 3) validating the emotion driving the outburst (distress over the mother's pain); and 4) taking immediate, constructive, client-focused action. Escalating with aggression risks physical violence. Defensiveness and counter-complaining invalidates his legitimate distress and escalates hostility. Abandoning the interaction leaves the client in pain and fuels feelings of neglect. Why the other options fail: option a matches aggression with a threat. Option c defends the staff instead of hearing the complaint. Option d abandons a distressed family member and leaves the mother in pain.",
+      "CORRECT (B) — \"Speak calmly, keep a safe distance and say you can see the distress, then go to assess the mother\" Effective de-escalation requires: 1) maintaining a calm, unhurried, lower-volume voice; 2) maintaining safe physical positioning without cornering the person; 3) validating the emotion driving the outburst (distress over the mother's pain); and 4) taking immediate, constructive, client-focused action. Escalating with aggression risks physical violence. Defensiveness and counter-complaining invalidate his legitimate distress and escalates hostility. Abandoning the interaction leaves the client in pain and fuels feelings of neglect. Why the other options fail: option a matches aggression with a threat. Option c defends the staff instead of hearing the complaint. Option d abandons a distressed family member and leaves the mother in pain.",
     strategy: "De-escalation principles: Stay calm, maintain safe distance, validate the underlying emotion, and direct energy toward immediate constructive action.",
     difficulty: "medium",
     tags: ["therapeutic-communication", "de-escalation", "conflict-resolution", "anger-management"],
@@ -353,9 +353,9 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Going home to an empty house feels overwhelming; I am right here with you through this",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "Therapeutic communication in anticipatory grief requires acknowledging the depth of sorrow, validating feelings of devastation without offering false solutions or clichés, and providing supportive presence ('The thought of going home to an empty house feels utterly overwhelming. I am right here with you'). Ordering someone to 'stay strong' imposes guilt and suppresses legitimate mourning. Clichés like 'time heals all wounds' or comparative minimization like 'at least they lived a long life' dismiss raw emotional pain. Why the other options fail: option a instructs the client to suppress grief. Option b offers a cliché about time. Option c compares this death with others, and so diminishes it.",
+      "CORRECT (D) — \"Going home to an empty house feels overwhelming; I am right here with you through this\" Therapeutic communication in anticipatory grief requires acknowledging the depth of sorrow, validating feelings of devastation without offering false solutions or clichés, and providing supportive presence ('The thought of going home to an empty house feels utterly overwhelming. I am right here with you'). Ordering someone to 'stay strong' imposes guilt and suppresses legitimate mourning. Clichés like 'time heals all wounds' or comparative minimization like 'at least they lived a long life' dismiss raw emotional pain. Why the other options fail: option a instructs the client to suppress grief. Option b offers a cliché about time. Option c compares this death with others, and so diminishes it.",
     strategy: "Eliminate clichés ('time heals', 'at least...'). Choose the response that validates grief and offers compassionate presence.",
     difficulty: "easy",
     tags: ["therapeutic-communication", "grief-support", "end-of-life", "palliative-care"],
@@ -383,9 +383,9 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Have four staff restrain the child without speaking, so the needle is inserted quickly",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "Preschool-age children (3 to 5 years) think concretely, exhibit magical thinking, and fear bodily injury and pain. Developmentally appropriate communication includes: using therapeutic play (demonstrating on a stuffed animal or doll), using simple, concrete, non-threatening language ('magic straw' or 'straw to give medicine/water'), allowing them to handle safe equipment (tourniquet, cotton ball), and timing preparation shortly before the procedure so anticipatory anxiety does not build. Complex explanations exceed cognitive development; shaming and lying about pain destroys trust; forceful silent restraint causes severe psychological trauma. Why the other options fail: option a uses language beyond a four-year-old's understanding. Option b shames the child and promises something untrue. Option d restrains a child without any preparation at all.",
+      "CORRECT (C) — \"Use a teddy bear to show a magic straw, let the child touch the tourniquet, then proceed\" Preschool-age children (3 to 5 years) think concretely, exhibit magical thinking, and fear bodily injury and pain. Developmentally appropriate communication includes: using therapeutic play (demonstrating on a stuffed animal or doll), using simple, concrete, non-threatening language ('magic straw' or 'straw to give medicine/water'), allowing them to handle safe equipment (tourniquet, cotton ball), and timing preparation shortly before the procedure so anticipatory anxiety does not build. Complex explanations exceed cognitive development; shaming and lying about pain destroys trust; forceful silent restraint causes severe psychological trauma. Why the other options fail: option a uses language beyond a four-year-old's understanding. Option b shames the child and promises something untrue. Option d restrains a child without any preparation at all.",
     strategy: "For preschoolers, use therapeutic play, concrete non-threatening terms, honest expectations, and prepare them immediately before procedures.",
     difficulty: "easy",
     tags: ["therapeutic-communication", "pediatrics", "preschooler", "developmental-stages", "therapeutic-play"],
@@ -398,7 +398,7 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Speak into the client's ear in a raised, high-pitched voice at the greatest volume",
+        text: "Speak directly into the client's ear in a raised, high-pitched voice at the greatest volume the voice can produce",
       },
       {
         id: "b",
@@ -413,9 +413,9 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Face the client in good light, cut background noise, lower your pitch, then teach back",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "Presbycusis involves loss of high-frequency sound perception and speech discrimination. Effective interventions include: 1) facing the client directly so lip movements and facial expressions can be observed; 2) ensuring adequate lighting on the nurse's face without backlighting; 3) reducing ambient noise (shutting doors, turning off televisions); 4) lowering the vocal pitch rather than shouting (shouting distorts vowels and raises pitch, worsening comprehension); and 5) using the teach-back method to verify understanding. Shouting in a high pitch exacerbates distortion. Bypassing the client violates autonomy and dignity. Turning away eliminates visual cues. Why the other options fail: option a raises the pitch, which is the frequency band the client has lost. Option b excludes the client from their own care. Option c removes the visual cues that lip reading depends on.",
+      "CORRECT (D) — \"Face the client in good light, cut background noise, lower your pitch, then teach back\" Presbycusis involves loss of high-frequency sound perception and speech discrimination. Effective interventions include: 1) facing the client directly so lip movements and facial expressions can be observed; 2) ensuring adequate lighting on the nurse's face without backlighting; 3) reducing ambient noise (shutting doors, turning off televisions); 4) lowering the vocal pitch rather than shouting (shouting distorts vowels and raises pitch, worsening comprehension); and 5) using the teach-back method to verify understanding. Shouting in a high pitch exacerbates distortion. Bypassing the client violates autonomy and dignity. Turning away eliminates visual cues. Why the other options fail: option a raises the pitch, which is the frequency band the client has lost. Option b excludes the client from their own care. Option c removes the visual cues that lip reading depends on.",
     strategy: "For presbycusis: Lower your vocal pitch, face the client directly, reduce background noise, and avoid shouting.",
     difficulty: "easy",
     tags: ["therapeutic-communication", "presbycusis", "gerontology", "sensory-impairment", "teach-back"],
@@ -440,12 +440,12 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "Proceed to surgery without consent, because a language barrier waives that requirement",
+        text: "Proceed to surgery without consent, because a language barrier waives the requirement for informed consent in an emergency",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "Using minor children or family members as interpreters violates healthcare privacy laws, compromises clinical accuracy, and places inappropriate emotional burdens on children. Minor children lack medical vocabulary, may misunderstand complex clinical issues, or filter sensitive information (such as sexual history, substance use, or severe diagnoses). Professional certified medical interpreters ensure confidential, culturally competent, and legally valid translation. Pantomime is dangerous for complex clinical decisions. Language barriers do not waive consent requirements when translation services are accessible. Why the other options fail: option b burdens a child and risks misreported clinical detail. Option c abandons accuracy at the moment it matters most. Option d invents a waiver of consent that does not exist.",
+      "CORRECT (A) — \"Arrange a certified medical interpreter, in person or by secure telephone, for the assessment\" Using minor children or family members as interpreters violates healthcare privacy laws, compromises clinical accuracy, and places inappropriate emotional burdens on children. Minor children lack medical vocabulary, may misunderstand complex clinical issues, or filter sensitive information (such as sexual history, substance use, or severe diagnoses). Professional certified medical interpreters ensure confidential, culturally competent, and legally valid translation. Pantomime is dangerous for complex clinical decisions. Language barriers do not waive consent requirements when translation services are accessible. Why the other options fail: option b burdens a child and risks misreported clinical detail. Option c abandons accuracy at the moment it matters most. Option d invents a waiver of consent that does not exist.",
     strategy: "Standard of care: Always use a qualified, certified medical interpreter rather than minor children or family members.",
     difficulty: "easy",
     tags: ["therapeutic-communication", "medical-interpreter", "language-barriers", "ethics", "informed-consent"],
@@ -473,9 +473,9 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Ask another nurse in the corridor whether five hundred millilitres is a sensible volume",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "Closed-loop communication and mandatory 'read-back' of verbal/telephone orders are key Joint Commission and international patient safety requirements to prevent medication errors. The receiving nurse must write down the order and read back the exact drug, dose, route, rate, and frequency verbatim, receiving clear verbal confirmation from the prescriber. Hanging up without read-back creates critical error vulnerabilities. Delaying STAT emergency fluid resuscitation for hours awaiting an in-person signature leads to clinical deterioration and hypovolemic shock. Consulting peers does not replace verification with the prescriber. Why the other options fail: option a hangs up without confirmation and loses the chance to catch an error. Option c delays a stat order until the morning. Option d asks an uninvolved nurse instead of the prescriber.",
+      "CORRECT (B) — \"Read the order back word for word and get the prescriber to confirm it before hanging up\" Closed-loop communication and mandatory 'read-back' of verbal/telephone orders are key Joint Commission and international patient safety requirements to prevent medication errors. The receiving nurse must write down the order and read back the exact drug, dose, route, rate, and frequency verbatim, receiving clear verbal confirmation from the prescriber. Hanging up without read-back creates critical error vulnerabilities. Delaying STAT emergency fluid resuscitation for hours awaiting an in-person signature leads to clinical deterioration and hypovolemic shock. Consulting peers does not replace verification with the prescriber. Why the other options fail: option a hangs up without confirmation and loses the chance to catch an error. Option c delays a stat order until the morning. Option d asks an uninvolved nurse instead of the prescriber.",
     strategy: "Patient safety standard: Always perform a closed-loop read-back of all verbal and telephone orders.",
     difficulty: "easy",
     tags: ["therapeutic-communication", "sbar", "closed-loop-communication", "patient-safety", "verbal-orders"],
@@ -503,9 +503,9 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Leave theatre quietly and tell the charge nurse about it once the incision has been made",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "The CUS communication framework is an evidence-based patient safety tool from TeamSTEPPS designed to cut through interprofessional hierarchies assertively: 'I am Concerned', 'I am Uncomfortable', 'This is a Safety issue'. Stating these exact trigger words clearly alerts the entire surgical team to an immediate halt before harm occurs. Hostile accusations trigger defensiveness rather than collaboration. Passive silence allows wrong-site surgery and fatal medical errors. Delayed complaining after the fact fails the primary duty of bedside client advocacy. Why the other options fail: option b accuses rather than alerts. Option c trades the client's safety for the surgeon's comfort. Option d reports after the harm that the protocol exists to prevent.",
+      "CORRECT (A) — \"I am Concerned, I am Uncomfortable, and this is a Safety issue: we have not done the time-out\" The CUS communication framework is an evidence-based patient safety tool from TeamSTEPPS designed to cut through interprofessional hierarchies assertively: 'I am Concerned', 'I am Uncomfortable', 'This is a Safety issue'. Stating these exact trigger words clearly alerts the entire surgical team to an immediate halt before harm occurs. Hostile accusations trigger defensiveness rather than collaboration. Passive silence allows wrong-site surgery and fatal medical errors. Delayed complaining after the fact fails the primary duty of bedside client advocacy. Why the other options fail: option b accuses rather than alerts. Option c trades the client's safety for the surgeon's comfort. Option d reports after the harm that the protocol exists to prevent.",
     strategy: "Remember the TeamSTEPPS CUS words: Concerned, Uncomfortable, Safety issue. Use them assertively to stop potential patient harm.",
     difficulty: "medium",
     tags: ["therapeutic-communication", "assertiveness", "cus-model", "teamstepps", "patient-advocacy"],
@@ -518,7 +518,7 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Shout back that his shift leaves the unit in a mess every weekend, so he should not talk",
+        text: "Shout back that his own shift leaves the unit in a mess every weekend, so he is in no position to talk about anyone",
       },
       {
         id: "b",
@@ -533,9 +533,9 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "I want the handover to be accurate, but accusations in public are unprofessional: let us finish and talk privately",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "Assertive communication respects both oneself and the other person by setting firm, clear boundaries without becoming aggressive or passive. Acknowledging the priority of client safety while calmly calling out inappropriate public hostility ('making personal accusations in public is unprofessional') and proposing a constructive private forum de-escalates public drama and addresses lateral violence effectively. Aggressive retaliatory shouting creates toxic escalation. Passive submission enables ongoing bullying. Passive-aggressive retaliation by withholding critical patient data is dangerous malpractice. Why the other options fail: option a answers aggression with aggression. Option b accepts a public accusation as true. Option c withholds a critical result, which is dangerous.",
+      "CORRECT (D) — \"I want the handover to be accurate, but accusations in public are unprofessional: let us finish and talk privately\" Assertive communication respects both oneself and the other person by setting firm, clear boundaries without becoming aggressive or passive. Acknowledging the priority of client safety while calmly calling out inappropriate public hostility ('making personal accusations in public is unprofessional') and proposing a constructive private forum de-escalates public drama and addresses lateral violence effectively. Aggressive retaliatory shouting creates toxic escalation. Passive submission enables ongoing bullying. Passive-aggressive retaliation by withholding critical patient data is dangerous malpractice. Why the other options fail: option a answers aggression with aggression. Option b accepts a public accusation as true. Option c withholds a critical result, which is dangerous.",
     strategy: "Assertive response to lateral hostility: Focus on client safety, label unprofessional behavior calmly and objectively, and move conflict resolution to a private setting.",
     difficulty: "medium",
     tags: ["therapeutic-communication", "lateral-violence", "assertiveness", "conflict-resolution", "professionalism"],
@@ -548,7 +548,7 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Accept the watch graciously and promise to wear it on every shift as a sign of appreciation",
+        text: "Accept the watch graciously and promise to wear it on every shift so that the client knows the gratitude was received",
       },
       {
         id: "b",
@@ -563,9 +563,9 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Scold the client for attempting a bribe and threaten to report them to the hospital board",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "Accepting expensive personal gifts from clients or families breaches professional boundaries, blurs the therapeutic relationship, and creates conflicts of interest or perceived favoritism. The nurse must decline individual valuable gifts graciously, citing professional ethics and institutional policy, while validating the client's gratitude. Suggesting a thank-you note, card, or general contribution to the unit/hospital foundation redirects their appreciation appropriately. Accepting the gift violates professional codes of conduct. Harshly scolding the client punishes genuine gratitude and terminates the relationship destructively. Why the other options fail: option a accepts a valuable gift. Option b converts it to money, which is still accepting it. Option d punishes genuine gratitude.",
+      "CORRECT (C) — \"I am touched, but policy does not let me accept personal gifts; a card to the team would mean a lot\" Accepting expensive personal gifts from clients or families breaches professional boundaries, blurs the therapeutic relationship, and creates conflicts of interest or perceived favoritism. The nurse must decline individual valuable gifts graciously, citing professional ethics and institutional policy, while validating the client's gratitude. Suggesting a thank-you note, card, or general contribution to the unit/hospital foundation redirects their appreciation appropriately. Accepting the gift violates professional codes of conduct. Harshly scolding the client punishes genuine gratitude and terminates the relationship destructively. Why the other options fail: option a accepts a valuable gift. Option b converts it to money, which is still accepting it. Option d punishes genuine gratitude.",
     strategy: "Professional boundaries: Decline individual gifts of significant value gracefully by citing professional standards, and redirect gratitude to a card or team appreciation.",
     difficulty: "easy",
     tags: ["therapeutic-communication", "professional-boundaries", "gift-giving", "ethics"],
@@ -593,9 +593,9 @@ export const TC_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Tell the client briskly that they are being dramatic and that the bed is needed for someone else",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "In Peplau's termination phase, separation anxiety, regression, or ambivalence frequently arise as the client transitions away from intensive professional support. The therapeutic response is to: 1) validate their feelings of anxiety as normal; 2) summarize the therapeutic gains, goals achieved, and coping mechanisms mastered; and 3) review the concrete transition plan (home health, outpatient therapy, community resources) to empower independence. Giving personal contact information breaches professional boundaries and fosters unhealthy dependency. Unnecessarily extending hospitalization prevents recovery. Dismissive comments demonstrate abandonment and callousness. Why the other options fail: option a breaches the boundary and builds dependency. Option c prevents the discharge the client has worked towards. Option d dismisses the anxiety and the client.",
+      "CORRECT (B) — \"Validate the anxiety, review the gains made, and go through the follow-up and home support\" In Peplau's termination phase, separation anxiety, regression, or ambivalence frequently arise as the client transitions away from intensive professional support. The therapeutic response is to: 1) validate their feelings of anxiety as normal; 2) summarize the therapeutic gains, goals achieved, and coping mechanisms mastered; and 3) review the concrete transition plan (home health, outpatient therapy, community resources) to empower independence. Giving personal contact information breaches professional boundaries and fosters unhealthy dependency. Unnecessarily extending hospitalization prevents recovery. Dismissive comments demonstrate abandonment and callousness. Why the other options fail: option a breaches the boundary and builds dependency. Option c prevents the discharge the client has worked towards. Option d dismisses the anxiety and the client.",
     strategy: "In Peplau's termination phase, validate normal separation anxiety, review therapeutic achievements, reinforce independence, and review community transition resources.",
     difficulty: "medium",
     tags: ["therapeutic-communication", "peplau", "termination-phase", "discharge-planning", "boundaries"],
