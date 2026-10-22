@@ -33990,27 +33990,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-DRG-0992",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A Ghanaian patient's apical pulse is 48 beats per minute when his beta-blocker is due. What should the nurse do?",
+  "stem": "A patient is receiving gentamicin and the prescriber asks for trough and peak serum levels. Why are these measurements needed?",
   "choices": [
    {
     "id": "a",
-    "text": "Give the dose as prescribed, since the pulse will rise again afterwards"
+    "text": "Because the gap between the effective and toxic dose is narrow, and the kidney clears the drug"
    },
    {
     "id": "b",
-    "text": "Give half the prescribed dose to reduce the effect on the heart rate"
+    "text": "Because gentamicin is destroyed in the stomach, so the level shows how much was actually absorbed"
    },
    {
     "id": "c",
-    "text": "Give the dose and recheck the pulse an hour after administration"
+    "text": "Because the level proves the patient has taken the doses, which is otherwise impossible to know"
    },
    {
     "id": "d",
-    "text": "Withhold the dose and report the pulse to the prescriber before giving it"
+    "text": "Because the level is used to choose the next antibiotic if the organism turns out to be resistant"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Withhold the dose and report the pulse to the prescriber before giving it\". Beta-blockers slow conduction and heart rate, so a pulse already below the usual threshold of <strong>60 beats per minute</strong> means the next dose may cause <strong>symptomatic bradycardia or heart block</strong>. The nurse counts the <strong>apical pulse for a full minute</strong>, withholds, and reports. Withholding is a <strong>temporary safety action, not a decision to stop treatment</strong>: it must be documented and the prescriber informed, since repeated silent omissions are themselves dangerous.\n\nWhy the other options fail:\n• A — The drug lowers the rate further; assuming recovery risks profound bradycardia.\n• B — Altering a prescribed dose is outside the nurse's authority and is a prescribing act.\n• C — Rechecking afterwards detects the harm rather than preventing it.\n\nReference: Ghana nursing curriculum — safe administration",
+  "correctChoiceId": "a",
+  "rationale": "CORRECT (A) — “Because the gap between the effective and toxic dose is narrow, and the kidney clears the drug”. Gentamicin is an aminoglycoside with a low therapeutic index: the concentration that kills the organism is close to the concentration that damages the kidney and the eighth cranial nerve. It is also eliminated almost entirely unchanged by the kidney, so anything that reduces renal function — age, dehydration, sepsis, other nephrotoxic drugs — makes the drug accumulate. The trough is measured to show that clearance is adequate and the peak to show that the dose is high enough; the dose and interval are then adjusted. Why the other options fail: gentamicin is given parenterally and is not absorbed from the gut, so absorption from the stomach is irrelevant (B); measuring the level is not a test of adherence, and it is used to adjust dose rather than to police the patient (C); and susceptibility is decided by culture and sensitivity of the organism, not by how much drug is in the blood (D).",
   "strategy": "When an observation is the reason for a check, act on it before giving the drug, not after.",
   "difficulty": "hard",
   "tags": [
@@ -38980,27 +38980,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OPR-1138",
   "categorySlug": "med-surg",
-  "stem": "What distinguishes sterilisation from high-level disinfection?",
+  "stem": "While assessing a Stage 3 pressure injury the nurse finds that tissue loss extends sideways beneath the intact skin edge. How should this be recorded, and why does it matter?",
   "choices": [
    {
     "id": "a",
-    "text": "Sterilisation is performed with chemicals and disinfection with heat"
+    "text": "As maceration, because the skin edge around the wound has become softened and waterlogged by the exudate"
    },
    {
     "id": "b",
-    "text": "Sterilisation is used on surfaces and disinfection on surgical tools"
+    "text": "As undermining, because it changes the dressing choice and shows whether the wound is closing"
    },
    {
     "id": "c",
-    "text": "Sterilisation removes visible dirt while disinfection removes stains"
+    "text": "As a sinus tract, because the cavity runs in a narrow channel towards another opening"
    },
    {
     "id": "d",
-    "text": "Sterilisation destroys bacterial spores, which disinfection does not"
+    "text": "As slough, because the yellow tissue in the base is the part that has broken down entirely"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Sterilisation destroys bacterial spores, which disinfection does not\". The dividing line is <strong>the bacterial spore</strong>. High-level disinfection kills bacteria, most viruses and fungi, but spores such as those of tetanus and gas gangrene survive it. Sterilisation destroys everything, including spores, which is why <strong>anything entering sterile tissue or the vascular system must be sterile</strong>, not merely disinfected. Items touching only intact skin need far less.\n\nWhy the other options fail:\n• A — Both processes can use heat or chemicals; the method does not define the category.\n• B — Surgical instruments require sterilisation; the distinction is not by site of use.\n• C — Removing visible dirt is cleaning, which precedes both processes.\n\nReference: Ghana nursing curriculum — RGN 205 theatre practice",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — “As undermining, because it changes the dressing choice and shows whether the wound is closing”. Undermining is tissue loss that extends laterally under the wound edge, so the surface opening is smaller than the cavity beneath it. It is measured by inserting a probe gently under the edge with the clock face as a guide and recording the depth and the direction, for example 2 cm from four to eight o'clock, alongside the wound's length, width and depth. It matters for two reasons: the cavity has to be packed so that it heals from the base upwards, and if the undermining lessens from one dressing change to the next, the wound is closing. If it enlarges, the wound is deteriorating or the dressing is not reaching the cavity. Why the other options fail: maceration describes skin damaged by too much moisture at the edge, which is a surrounding-skin problem rather than a cavity under the edge (A); a sinus tract is a narrow blind channel, not the broad ledge of undermining that follows the whole rim (C); and slough is dead tissue lying on the wound bed, which is recorded separately as a percentage of the surface (D).",
   "strategy": "Ask whether spores survive. That single question separates disinfection from sterilisation.",
   "difficulty": "medium",
   "tags": [
@@ -86095,27 +86095,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2510",
   "categorySlug": "safety-infection-control",
-  "stem": "In what order should personal protective equipment be removed after caring for a patient in isolation?",
+  "stem": "A nurse on a Ghanaian ward has been wearing a surgical mask through a long morning of patient care. When should she change it?",
   "choices": [
    {
     "id": "a",
-    "text": "Gloves, hand hygiene, gown, eye protection, mask, hand hygiene"
+    "text": "At the end of the shift, since a surgical mask is designed to last for a full day of work"
    },
    {
     "id": "b",
-    "text": "Mask, gown, gloves, eye protection, hand hygiene"
+    "text": "Every two hours exactly, whether or not the mask has become damp during the shift"
    },
    {
     "id": "c",
-    "text": "Gown, gloves, mask, eye protection, hand hygiene"
+    "text": "As soon as it becomes damp, soiled or torn, and never wear it hanging round the neck"
    },
    {
     "id": "d",
-    "text": "Eye protection, gloves, mask, gown, hand hygiene"
+    "text": "Only when it begins to smell, because that is the first sign that it has lost its protection"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Gloves, hand hygiene, gown, eye protection, mask, hand hygiene\". Doffing follows the order of contamination: the dirtiest item comes off first. Gloves are the most contaminated and are removed first, followed by hand hygiene, then the gown rolled away from the body, then eye protection, then the mask handled only by its ties or elastic and removed after leaving the room, and finally hand hygiene again. Donning runs the other way — hand hygiene, gown, mask, eye protection, gloves — so that gloves go on last and come off first. The principle is that the sequence exists to stop contaminated items touching clean skin or the face.\n\nWhy the other options fail:\n• B — Removing the mask first brings contaminated hands to the face, which is the most dangerous possible error.\n• C — Taking the gown off before the gloves means bare hands handle a contaminated garment.\n• D — Removing eye protection first brings gloved contaminated hands close to the eyes and face.\n\nReference: WHO personal protective equipment guidance",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — “As soon as it becomes damp, soiled or torn, and never wear it hanging round the neck”. A surgical mask works as a physical barrier and its filtering depends on the fabric staying dry. Once it is damp from breath, or soiled with blood or sputum, or torn, the barrier is lost and the mask becomes a warm wet surface held against the face, which is worse than no mask. It is removed by the ties without touching the front, and discarded into the clinical waste. Wearing it pulled down around the neck or pushed up on the head contaminates the inside and carries organisms from the mask to the skin. Why the other options fail: a mask is not designed to be worn for a whole shift, and length of wear is not the test — condition is (A); a fixed two-hourly change is arbitrary and can leave a soaking mask on the face in between (B); and smell is not the indicator, because the barrier is lost long before any odour appears (D).",
   "strategy": "Reason it out rather than memorising: gloves are dirtiest so they come off first, the mask protects the face so it comes off last. That logic reconstructs the sequence every time.",
   "difficulty": "medium",
   "tags": [
@@ -86716,27 +86716,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MCB-2529",
   "categorySlug": "safety-infection-control",
-  "stem": "How should hair be removed from an operative site if removal is necessary?",
+  "stem": "Four patients on a Ghanaian ward are colonised with the same multi-resistant organism, and the ward is short of single rooms. What does cohorting them involve?",
   "choices": [
    {
     "id": "a",
-    "text": "With a razor the evening before surgery"
+    "text": "Moving each patient to a separate cubicle and keeping every door closed at all times"
    },
    {
     "id": "b",
-    "text": "With clippers immediately before surgery, avoiding a razor"
+    "text": "Nursing them in the open ward but with a fresh pair of gloves for each episode of care"
    },
    {
     "id": "c",
-    "text": "With a depilatory cream applied one week beforehand"
+    "text": "Sending them home until they are no longer colonised, to protect the other patients"
    },
    {
     "id": "d",
-    "text": "Hair should always be removed regardless of the site"
+    "text": "Nursing them together in one bay with staff and equipment kept for that group alone"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"With clippers immediately before surgery, avoiding a razor\". Shaving with a razor creates microscopic cuts in the skin, and those breaks become colonised by skin flora and multiply in the hours before surgery, which is why razor shaving the night before produces higher infection rates than not removing hair at all. Where hair genuinely interferes with the procedure, clippers used immediately before surgery avoid breaching the skin. The best option in most cases is to leave the hair alone. The principle is that the intervention intended to clean the site can itself create the portal of entry, and timing determines how much the organisms can multiply.\n\nWhy the other options fail:\n• A — Razor shaving the previous evening is the worst option, as it both breaks the skin and allows overnight colonisation.\n• C — Depilatory creams cause skin irritation in some patients and a week's delay serves no purpose.\n• D — Routine hair removal is not recommended; it is done only when hair would interfere with the procedure.\n\nReference: WHO global guidelines for the prevention of surgical site infection",
+  "correctChoiceId": "d",
+  "rationale": "CORRECT (D) — “Nursing them together in one bay with staff and equipment kept for that group alone”. Cohorting is what a ward does when it has more colonised patients than single rooms. Patients carrying the same organism are grouped together in a defined area, and the nurses, the equipment and the cleaning arrangements are dedicated to that group so that the organism cannot be carried out to other patients on the same shift. It contains the spread without isolating each patient alone, and it is reviewed as soon as the numbers or the accommodation allow. Why the other options fail: separate cubicles are the ideal, but this ward has none to give, which is exactly the situation cohorting exists to solve (A); gloves do not stop the organism being carried between patients on hands, clothing and shared equipment (B); and sending colonised patients home is neither necessary nor safe, because colonisation is not illness and the patient may still need treatment (C).",
   "strategy": "Watch for interventions that damage the skin barrier. In infection control the question is often whether the preparation itself creates the portal of entry.",
   "difficulty": "medium",
   "tags": [
