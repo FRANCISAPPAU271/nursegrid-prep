@@ -148,10 +148,10 @@ export const NCX3_PART_D: AuthoredQuestion[] = [
     n: 218, cat: "pediatrics",
     stem: "A 6-year-old with sickle cell disease is admitted with a vaso-occlusive crisis affecting both legs. Which nursing intervention is the **priority**?",
     choices: [
-      "Give the prescribed analgesia promptly and regularly, assess pain with an age-appropriate scale, and ensure oral or intravenous hydration",
+      "Give analgesia promptly and regularly, score the pain and keep the child well hydrated",
       "Apply ice packs to the painful legs to reduce the swelling and numb the pain",
-      "Restrict fluids to prevent pulmonary oedema during the crisis",
-      "Encourage vigorous exercise to improve the circulation and break up the sickled cells",
+      "Encourage vigorous exercise to improve the circulation and break up the sickled cells in the legs",
+      "Restrict fluids to prevent pulmonary oedema developing during the painful crisis",
     ],
     correct: "a",
     explain: "A vaso-occlusive crisis is caused by sickled cells blocking small vessels, producing severe ischaemic pain. The priorities are <strong>effective analgesia within 30 minutes of arrival</strong> (paracetamol, NSAIDs and opioids as needed), <strong>hydration</strong> to reduce blood viscosity, <strong>warmth</strong>, oxygen if saturations fall, and a search for a precipitating infection.",

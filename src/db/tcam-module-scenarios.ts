@@ -218,24 +218,24 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Garlic and ginkgo induce hepatic CYP2C9 and lower the INR, so the warfarin dose should be increased and the INR rechecked after one week of combined use",
+        text: "Garlic and ginkgo induce hepatic CYP2C9 and lower the INR, so increase the warfarin dose and recheck in a week",
       },
       {
         id: "b",
-        text: "Garlic is rich in vitamin K and directly antagonises warfarin, reducing its anticoagulant effect and raising the risk of valve thrombosis",
+        text: "Garlic is rich in vitamin K and antagonises warfarin, reducing its effect and risking valve thrombosis",
       },
       {
         id: "c",
-        text: "Ginkgo biloba and Garlic possess intrinsic antiplatelet properties and inhibit platelet aggregation, which synergistically potentiates warfarin anticoagulation and dramatically increases severe hemorrhage risk",
+        text: "Ginkgo and garlic both inhibit platelet aggregation, which adds to warfarin and greatly raises bleeding risk",
       },
       {
         id: "d",
-        text: "Ginkgo and garlic have no measurable effect on haemostasis at all; only dietary vitamin K alters the INR during chronic warfarin therapy in a stable client",
+        text: "Neither herb affects haemostasis; only dietary vitamin K alters the INR during stable warfarin therapy",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "The '4 G's' of herbal medicine—Ginkgo biloba, Garlic, Ginseng, and Ginger (plus Feverfew and Saw Palmetto)—exhibit antiplatelet properties and impair platelet aggregation. When taken concurrently with anticoagulants (warfarin, heparin, NOACs) or antiplatelet agents (aspirin, clopidogrel), they synergistically elevate bleeding risks, manifesting as spontaneous epistaxis, gastrointestinal bleeding, hematuria, or intracranial hemorrhage. The nurse must recognize this synergistic antiplatelet interaction and advise immediate discontinuation. Garlic does not clot blood or inhibit marrow vitamin K. Why the other options fail: the interaction is pharmacodynamic antiplatelet additivity, not CYP2C9 induction; garlic does not contain vitamin K; and haemostasis is affected well beyond dietary vitamin K.",
+      "CORRECT (C) — “Ginkgo and garlic both inhibit platelet aggregation, which adds to warfarin and greatly raises bleeding risk”. Ginkgo, garlic, ginseng and ginger all reduce platelet aggregation, and taken with warfarin they add a second anticoagulant effect on top of the first. In a patient with a mechanical valve the result is epistaxis and bruising at an INR that may look acceptable, so the herbs are stopped and the bleeding is assessed rather than the warfarin simply increased. Why the other options fail: A — the interaction is on platelets, not on CYP2C9 induction, and increasing the dose would make the bleeding worse; B — garlic does not contain enough vitamin K to antagonise warfarin, and this reverses the mechanism; D — both herbs measurably affect haemostasis, which is precisely why the bleeding occurred.",
     strategy: "NCLEX rule: The '4 G's' (Ginkgo, Garlic, Ginseng, Ginger) increase bleeding risk when taken with anticoagulants or antiplatelets.",
     difficulty: "easy",
     tags: ["tcam", "ginkgo-biloba", "garlic", "warfarin-interaction", "bleeding-risk"],
