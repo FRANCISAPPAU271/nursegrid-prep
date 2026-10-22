@@ -8202,7 +8202,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Because irradiation kills any bacteria that entered the bag while it was being collected"
+    "text": "Because irradiation kills any bacteria that entered the bag while it was being collected from the donor"
    },
    {
     "id": "b",
@@ -16879,7 +16879,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "As far as it will go, until it will not pass any further, so that the airway is cleared completely"
+    "text": "As far as it will go, until it will not pass any further, so that the airway is completely cleared of secretions"
    },
    {
     "id": "c",
@@ -22683,7 +22683,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "A second-year student may take the shift alone provided that she has done a night shift before"
+    "text": "A second-year student may take the shift alone provided that she has done a night shift before and knows the ward"
    },
    {
     "id": "c",
@@ -24472,7 +24472,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "b",
-  "rationale": "Marketing covers the entire approach, the service, price, place and promotion, while advertising is one part of promotion, the paid messages. The two are not synonyms, advertising is not the larger term, and marketing begins long before a client attends.",
+  "rationale": "CORRECT (B) — “Marketing is the whole approach; advertising is one paid part of it”. Marketing is the whole set of decisions about what service to offer, what to charge, where to offer it and how to promote it, so it starts long before anyone attends and continues afterwards. Advertising is only one element of the promotion part: the paid radio slot, posters or newspaper space. Why the other options fail: treating the two as synonyms ignores the pricing, location and service decisions that come before any advertisement (A); making advertising the larger term inverts the relationship, because a radio slot cannot contain the rest of the mix (C); and confining marketing to what happens after a client attends leaves out the whole task of reaching people who have not yet come (D).",
   "strategy": "Marketing is the whole plan; advertising is one paid channel inside it.",
   "difficulty": "hard",
   "tags": [
@@ -24609,7 +24609,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "a",
-  "rationale": "A fixed cost does not change with the volume of work, and rent payable whether five or fifty clients attend is the definition. Dressings, per-visit transport and per-referral commission all rise and fall with activity, which makes them variable costs.",
+  "rationale": "CORRECT (A) — “The monthly rent, which is payable whatever the attendance”. A fixed cost stays the same in total whatever the volume of activity, at least within the relevant range. The GH₵ 2,500 rent falls due every month whether five clients attend or fifty, so it does not respond to workload. The cost per client falls as attendance rises, but the total rent does not change. Why the other options fail: dressings are bought only when clients come, so their total rises with activity and they are a variable cost (B); transport paid per home visit is incurred only when a visit is made, another variable cost (C); and commission paid per referral moves directly with the number of clients referred, which is also variable (D).",
   "strategy": "If the bill arrives whatever the workload, the cost is fixed.",
   "difficulty": "hard",
   "tags": [
@@ -29410,7 +29410,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Take no action at all, because no harm was done and no one needs to know"
+    "text": "Take no action at all, because no harm was done, the patient never noticed and no one else needs to know"
    },
    {
     "id": "b",
@@ -34028,7 +34028,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Use a nasal mask so that the mist is breathed in through the nose as well as the mouth"
+    "text": "Use a nasal mask so that the mist is breathed in through the nose as well as the mouth and reaches both passages"
    },
    {
     "id": "b",
@@ -97970,7 +97970,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "A standard hypodermic needle, because it is cheap and can be changed at every dose"
+    "text": "A standard hypodermic needle, because it is cheap, available everywhere and can be changed at every dose"
    },
    {
     "id": "b",
@@ -111199,7 +111199,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Apply it thickly and cover it with a tight bandage that stays undisturbed for a week"
+   "text": "Apply it thickly and cover it with a tight bandage that stays undisturbed for a week so that the burn is protected"
   },
   {
    "id": "b",
