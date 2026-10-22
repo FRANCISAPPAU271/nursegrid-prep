@@ -52185,27 +52185,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CVM-1524",
   "categorySlug": "med-surg",
-  "stem": "A patient with neuromuscular disease coughs and sounds wet after sips of water. What should the nurse do?",
+  "stem": "A nurse is about to record a 12-lead electrocardiogram on a patient with central chest pain. What preparation will give the cleanest trace?",
   "choices": [
    {
     "id": "a",
-    "text": "Offer thicker fluids and continue with the meal slowly"
+    "text": "Shave the chest, apply gel and leave the patient lying on his left side"
    },
    {
     "id": "b",
-    "text": "Withhold oral intake and request a swallowing assessment"
+    "text": "Clean and dry the skin at each electrode site and have the patient lie still"
    },
    {
     "id": "c",
-    "text": "Encourage her to drink through a straw while sitting upright"
+    "text": "Attach the limb leads over the patient's shirt sleeves to save time"
    },
    {
     "id": "d",
-    "text": "Give the fluids in smaller amounts more frequently instead"
+    "text": "Record the trace while the patient is talking so that he stays relaxed"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Withhold oral intake and request a swallowing assessment\". Coughing with a wet voice after swallowing indicates <strong>material entering the airway</strong>, and continuing by any technique risks aspiration pneumonia, the leading cause of death in these conditions. The safe sequence is to stop oral intake and obtain a proper assessment before deciding on consistency or route. <strong>Silent aspiration is common</strong>, so the absence of coughing on some sips is not reassurance.\n\nWhy the other options fail:\n• A — Thickening may be part of a plan but must follow assessment, not precede it.\n• C — A straw increases the speed of the bolus and worsens the risk.\n• D — Smaller volumes still enter the airway if the swallow is unsafe.\n\nReference: Ghana STG — neurology nursing",
+  "rationale": "CORRECT (B) — “Clean and dry the skin at each electrode site and have the patient lie still”. Electrodes need bare, clean, dry skin to make good contact. Sweat, oil and hair raise the impedance, which produces a wandering baseline and a trace too noisy to judge ST segments, and talking, shivering or moving produces artefact that can hide or imitate ischaemia. Why the other options fail: A — the electrocardiogram is recorded with the patient supine, not on his side, and gel on unwashed skin does not fix poor contact; C — cloth between the lead and the skin blocks the signal altogether; D — speech and chest movement are a common source of muscle artefact, so a talking patient gives a poorer trace, not a better one.",
   "strategy": "A wet voice after swallowing means stop and assess, not adjust and continue.",
   "difficulty": "hard",
   "tags": [
@@ -68306,27 +68306,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ELD-1996",
   "categorySlug": "gerontology-community",
-  "stem": "Why is prolonged bed rest harmful for an older person recovering from an illness?",
+  "stem": "An 86-year-old man admitted on a cold night has a temperature of 35.0 °C and feels cold to the touch. Why does he lose heat faster than a younger adult would?",
   "choices": [
    {
     "id": "a",
-    "text": "Lying flat makes it harder for the lungs to expand fully"
+    "text": "He has less subcutaneous fat and a blunted shivering response, so heat is lost faster"
    },
    {
     "id": "b",
-    "text": "Time in bed increases the risk of developing a fever"
+    "text": "He sweats more at night and the evaporation of that sweat cools the body quickly"
    },
    {
     "id": "c",
-    "text": "Bed rest makes the person more dependent on medicines"
+    "text": "His body temperature is set lower with age, so a cold room feels comfortable to him"
    },
    {
     "id": "d",
-    "text": "Muscle and bone are lost within days and are slow to regain"
+    "text": "He drinks more hot fluids, which dilate the skin vessels and lose heat to the air"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Muscle and bone are lost within days and are slow to regain\". An older person loses <strong>a measurable proportion of muscle strength within the first week of bed rest, and it takes far longer to rebuild than it took to lose</strong> — alongside pressure damage, clots, constipation, incontinence and confusion. The result is a patient who recovered from the illness and never walked again. So the nursing aim is the opposite of resting her: <strong>sit her out, walk her daily, and treat immobility as a complication</strong>.\n\nWhy the other options fail:\n• A — Reduced lung expansion is one consequence among several.\n• B — Fever is not a direct result of bed rest.\n• C — Medicine dependence is not the mechanism of harm.\n\nReference: Ghana STG — care of the older person",
+  "correctChoiceId": "a",
+  "rationale": "CORRECT (A) — “He has less subcutaneous fat and a blunted shivering response, so heat is lost faster”. Fat under the skin is insulation, and older people have less of it. They also constrict skin vessels less briskly, shiver less and generate less heat at rest, and they may not feel the cold or report it. A ward temperature that is comfortable for the staff can therefore be dangerous for an older patient, so he needs extra blankets, a warm drink and a room that is checked, and his temperature is measured rather than guessed. Why the other options fail: B — older people sweat less, not more, and their cooling is not the problem here; C — the set point does not fall with age, the response to it does; D — a hot drink adds heat, and vasodilation is not the mechanism of the loss here.",
   "strategy": "Days in bed cost weeks of walking. Mobilise unless there is a reason not to.",
   "difficulty": "hard",
   "tags": [
@@ -70736,27 +70736,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPH-2067",
   "categorySlug": "gerontology-community",
-  "stem": "A child is bitten by a stray dog. What should be done to the wound **immediately**?",
+  "stem": "In one town, 40 of the 60 people who drew water from the same standpipe developed watery diarrhoea within two days, while people using a borehole across town did not. What does this pattern show?",
   "choices": [
    {
     "id": "a",
-    "text": "Cover it with a clean dressing and refer without washing"
+    "text": "The outbreak is spreading from person to person through the air"
    },
    {
     "id": "b",
-    "text": "Wash it with soap and running water for about fifteen minutes"
+    "text": "The standpipe is the likely common source, so it should be closed and the water treated"
    },
    {
     "id": "c",
-    "text": "Apply a herbal preparation to draw out the infection"
+    "text": "The borehole is contaminated and is protecting the rest of the town"
    },
    {
     "id": "d",
-    "text": "Suture the wound to close it before referral to hospital"
+    "text": "The 40 people have acquired immunity and the outbreak will now die out"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Wash it with soap and running water for about fifteen minutes\". Prolonged washing with soap and running water <strong>physically removes and inactivates virus at the wound before it reaches nerve endings, and it measurably reduces the risk of rabies</strong>. It is the single most effective first step and costs nothing. Suturing is actively harmful because <strong>closing the wound traps virus in the tissue</strong>, and rabies remains almost always fatal once symptoms begin, so vaccination follows immediately.\n\nWhy the other options fail:\n• A — Covering without washing loses the most effective measure.\n• C — Herbal applications do not inactivate the virus and delay care.\n• D — Suturing traps virus in the tissue and is avoided.\n\nReference: WHO rabies guidance; Ghana STG",
+  "rationale": "CORRECT (B) — “The standpipe is the likely common source, so it should be closed and the water treated”. When the cases share one exposure and the people without that exposure are spared, the pattern is a common-source outbreak. The action follows at once: stop the exposure, chlorinate or replace the supply, take water samples, and look for a break, a leak or a damaged seal near the standpipe. Why the other options fail: A — airborne spread would not spare the borehole users who live in the same streets and share the same air; C — the borehole users are the group who did not fall ill, so the borehole is not the vehicle; D — watery diarrhoea of this kind leaves no useful lasting immunity, and the source is still running.",
   "strategy": "Fifteen minutes of soap and water first, then vaccine. Never close the wound.",
   "difficulty": "hard",
   "tags": [

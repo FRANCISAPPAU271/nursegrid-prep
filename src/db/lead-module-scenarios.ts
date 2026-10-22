@@ -394,28 +394,28 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-LEAD-014",
     categorySlug: "leadership-delegation",
-    stem: "A hospitalized client falls out of bed and fractures a hip. The family files a malpractice lawsuit against the hospital and the assigned nurse. To successfully prove professional negligence (malpractice), which four legal elements must the plaintiff establish?",
+    stem: "A representative from a pharmaceutical company offers the ward staff a free lunch and a branded pen for each nurse at a product launch. What should the nurse in charge do?",
     choices: [
       {
         id: "a",
-        text: "Duty, negligence, foreseeability and a written expert opinion that the standard of care was not met",
+        text: "Accept the lunch for the whole ward but turn down the pens for individual nurses",
       },
       {
         id: "b",
-        text: "Breach of duty, injury, a complaint made within 1 year, and a finding by the hospital's quality committee",
+        text: "Accept everything, since small gifts cannot change which medicines nurses choose",
       },
       {
         id: "c",
-        text: "Duty of care, breach of the standard of care, causation linking the breach to the injury, and actual damages",
+        text: "Decline the gifts and explain that staff do not accept inducements from a supplier",
       },
       {
         id: "d",
-        text: "Duty, breach, causation and a formal apology from the nurse to the family",
+        text: "Accept the pens only, because a pen is a trivial item and cannot influence care",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "In healthcare law, establishing professional negligence (nursing malpractice) requires proving four essential legal elements: (1) Duty of care: A formal professional nurse-patient relationship existed; (2) Breach of duty: The nurse failed to conform to the accepted professional standard of care (did what a reasonably prudent nurse would not do, or failed to do what a prudent nurse would do); (3) Causation (proximate cause): The nurse's breach was the direct, foreseeable cause of the client's injury; and (4) Damages / Harm: The client suffered actual physical, psychological, or economic injury. Why the other options fail: option a lists criminal concepts that have no place in a negligence claim. Option b mixes administrative steps with the elements, and neither a time limit nor a committee finding creates liability. Option d substitutes an apology for damages, and a sympathetic gesture is not proof of harm.",
+      "CORRECT (C) — “Decline the gifts and explain that staff do not accept inducements from a supplier”. A gift from a company whose products the ward uses creates an obligation, and the influence is strongest when the recipient believes there is none. Professional codes of conduct and the health sector's anti-corruption rules require staff to refuse inducements from suppliers, and the refusal is made politely and, where the offer is repeated, recorded and reported to the manager. Why the other options fail: A — sharing the lunch among the staff does not remove the conflict, it spreads it; B — that belief is the mechanism by which inducements work, not a defence; D — the branded pen is the classic first step, and the test is the source of the gift rather than its price.",
     strategy: "Malpractice elements (the 4 Ds): Duty -> Dereliction (breach) -> Direct causation -> Damages. All four must be proven.",
     difficulty: "medium",
     tags: ["leadership", "malpractice", "negligence", "legal-elements", "standards-of-care"],
