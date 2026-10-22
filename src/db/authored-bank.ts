@@ -28868,23 +28868,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "She is doing both only because she holds a senior appointment, since leadership comes with rank"
+      "text": "Doing both only because she holds a senior post, since leadership arrives automatically with rank"
     },
     {
       "id": "b",
-      "text": "She is leading in the mornings and managing in the afternoons, because organisation is a leadership act"
+      "text": "Leading in the mornings and managing in the afternoons, because organising people is leading"
     },
     {
       "id": "c",
-      "text": "She is doing neither, because a ward manager has no authority to change handover practice"
+      "text": "Doing neither, because a ward manager has no authority to change how handover is done on the ward"
     },
     {
       "id": "d",
-      "text": "She is managing in the mornings and leading in the afternoons, because leadership influences people towards a goal while management organises resources"
+      "text": "Managing in the mornings and leading in the afternoons, because leadership wins people over"
     }
   ],
   "correctChoiceId": "d",
-  "rationale": "Management organises resources and systems, which is the rosters and supplies; leadership influences people towards a goal, which is winning staff over to a new handover format. Leadership is not confined to senior appointments or crises, and a ward manager plainly has scope to change practice on her own ward.",
+  "rationale": "CORRECT (D) — “Managing in the mornings and leading in the afternoons, because leadership wins people over”. Management is about resources and systems: the duty rosters, the supplies, the stock levels and the handover plan are all tasks of organising what the ward needs so that it runs predictably. Leadership is about people and direction: persuading the staff to accept a new handover format is influencing them towards a goal. A ward manager does both, often on the same day, and the difference lies in what each act is aimed at, not in how senior the post is. Why the other options fail: leadership is not a rank that arrives with the appointment, and a manager who relies on the title alone rarely changes practice (A); the afternoons are the leadership half, so calling the mornings leadership inverts the distinction (B); and a ward manager plainly has scope to change handover on her own ward, so she is doing neither is wrong (C).",
   "strategy": "Organising resources is management; winning people over is leadership - and a ward manager does both.",
   "difficulty": "hard",
   "tags": [
@@ -106870,23 +106870,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Continue forcing him to finish every plate so that he learns discipline about food"
+    "text": "Keep forcing him to finish every plate, so that he learns that food is not to be wasted"
    },
    {
     "id": "b",
-    "text": "Offer regular small meals and let the child decide how much to eat, since forcing turns mealtimes into a battle and worsens refusal"
+    "text": "Offer small meals at set times and let him decide how much to eat; forcing worsens refusal"
    },
    {
     "id": "c",
-    "text": "Replace his meals with milk feeds until his appetite returns to normal"
+    "text": "Replace his meals with milk feeds until his appetite comes back, and stop offering him solids"
    },
    {
     "id": "d",
-    "text": "Allow him to eat only when he asks, with no set mealtimes at all"
+    "text": "Let him eat only when he asks and stop having set mealtimes at all for now"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Offer regular small meals and let the child decide how much to eat, since forcing turns mealtimes into a battle and worsens refusal\". A degree of food refusal is developmentally normal in the second year, when growth velocity slows and the child asserts independence. The useful division of responsibility is that the carer decides what is offered and when, and the child decides how much to eat. Forcing breaks this: it raises anxiety around meals, provokes vomiting and refusal, and can establish long-term difficulties. Practical measures are small frequent portions, a calm unhurried setting, eating together, minimal distraction, and offering a refused food again on later occasions without pressure. The nurse should still check growth, since genuine faltering growth requires assessment rather than reassurance.\n\nWhy the other options fail:\n• A — Forcing predictably worsens refusal and can cause vomiting and aversion. It also converts eating into a struggle for control, which a two-year-old will readily accept.\n• C — Substituting milk fills the stomach with a low-iron food, displaces the varied family diet the child needs, and is a recognised route to iron deficiency anaemia in toddlers.\n• D — Abandoning mealtimes removes the routine that supports appetite and makes it impossible to judge intake. Children eat better with predictable structure, not less of it.\n\nReference: WHO complementary feeding guidance; Ghana Health Service child health protocols",
+  "rationale": "CORRECT (B) — \"Offer small meals at set times and let him decide how much to eat; forcing worsens refusal\". A degree of food refusal is developmentally normal in the second year, when growth velocity slows and the child asserts independence. The useful division of responsibility is that the carer decides what is offered and when, and the child decides how much to eat. Forcing breaks this: it raises anxiety around meals, provokes vomiting and refusal, and can establish long-term difficulties. Practical measures are small frequent portions, a calm unhurried setting, eating together, minimal distraction, and offering a refused food again on later occasions without pressure. The nurse should still check growth, since genuine faltering growth requires assessment rather than reassurance.\n\nWhy the other options fail:\n• A — Forcing predictably worsens refusal and can cause vomiting and aversion. It also converts eating into a struggle for control, which a two-year-old will readily accept.\n• C — Substituting milk fills the stomach with a low-iron food, displaces the varied family diet the child needs, and is a recognised route to iron deficiency anaemia in toddlers.\n• D — Abandoning mealtimes removes the routine that supports appetite and makes it impossible to judge intake. Children eat better with predictable structure, not less of it.\n\nReference: WHO complementary feeding guidance; Ghana Health Service child health protocols",
   "strategy": "Split the responsibility: the carer chooses what and when, the child chooses how much. Any option that forces intake will worsen the refusal.",
   "difficulty": "medium",
   "tags": [
