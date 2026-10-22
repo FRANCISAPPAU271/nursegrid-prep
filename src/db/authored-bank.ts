@@ -38434,27 +38434,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1122",
   "categorySlug": "med-surg",
-  "stem": "A man attends a Ghanaian clinic with urethral discharge and no laboratory is available. What should be done?",
+  "stem": "A mother brings a three-year-old to a CHPS compound with a red eye that has been discharging pus for two days. There is no laboratory. What should the officer do?",
   "choices": [
    {
     "id": "a",
-    "text": "Send him home until a laboratory result can be obtained next week"
+    "text": "Reassure the mother and give her a warm compress, because most red eyes settle alone"
    },
    {
     "id": "b",
-    "text": "Treat only for gonorrhoea as it is the commoner of the two infections"
+    "text": "Clean the eye, start an antibiotic eye drop and teach the mother how to instil it at home"
    },
    {
     "id": "c",
-    "text": "Give him a painkiller and review the discharge again in seven days"
+    "text": "Cover both eyes with a pad and leave it there until the discharge has completely stopped"
    },
    {
     "id": "d",
-    "text": "Treat for gonorrhoea and chlamydia together at this first visit"
+    "text": "Refer the child at once to the district hospital so that the discharge can be cultured"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Treat for gonorrhoea and chlamydia together at this first visit\". Syndromic management treats <strong>the whole group of organisms that cause the syndrome</strong>, at the first visit, without waiting for a laboratory. Gonorrhoea and chlamydia frequently coexist, and treating one leaves the other to cause persistent symptoms, onward transmission and later infertility. The approach exists because <strong>a patient who leaves untreated may never come back</strong>, and one visit is often all the system gets.\n\nWhy the other options fail:\n• A — Delay means continued transmission and a real chance he never returns.\n• B — Treating only one organism is the commonest reason symptoms persist after treatment.\n• C — Analgesia treats the symptom while the infection continues to spread.\n\nReference: Ghana nursing curriculum — RGN 203 STIs",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — “Clean the eye, start an antibiotic eye drop and teach the mother how to instil it at home”. Purulent conjunctivitis in a child is managed syndromically: the eye is cleaned, a topical antibiotic is started without waiting for a laboratory, and the mother is shown how to instil it, to wash her hands and to keep the child's towel separate. The child is reviewed, and referred only if the eye does not improve in two or three days or if there is pain, photophobia or a cloudy cornea. Why the other options fail: A — a compress alone does not treat a bacterial infection and lets it spread; C — padding both eyes stops the discharge draining and can hide a spreading infection, and it frightens a child; D — a swab is not needed for a first episode and referral takes the treatment away from the family for no gain.",
   "strategy": "Where follow-up is uncertain, treat everything the syndrome could be at the first contact.",
   "difficulty": "medium",
   "tags": [
@@ -43871,27 +43871,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-BST-1281",
   "categorySlug": "risk-reduction",
-  "stem": "A regional hospital reports more maternal deaths than a small district hospital. What must be known before comparing them?",
+  "stem": "An observational study finds that people who drink more sugary drinks have more diabetes. What can the nurse reasonably conclude?",
   "choices": [
    {
     "id": "a",
-    "text": "The names of the doctors who were on duty at each facility"
+    "text": "The sugary drinks caused the diabetes, so the mechanism has been proved by this study"
    },
    {
     "id": "b",
-    "text": "The number of deliveries conducted at each of the two hospitals"
+    "text": "There is an association, but another factor may explain both, so causation is not proved"
    },
    {
     "id": "c",
-    "text": "The total number of beds available in each of the two hospitals"
+    "text": "Nothing at all can be concluded, because observational studies are worthless"
    },
    {
     "id": "d",
-    "text": "The distance in kilometres between the two hospitals concerned"
+    "text": "The study is invalid because the participants were not allocated at random"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"The number of deliveries conducted at each of the two hospitals\". A raw count means nothing without <strong>the population it came from</strong>. A hospital delivering 40,000 women will always record more deaths than one delivering 500, even if it is far safer per delivery. Converting to a rate — deaths per 100,000 live births — makes the comparison fair. This is also why <strong>referral hospitals look dangerous</strong>: they receive the complicated cases, so case mix must be considered alongside the denominator.\n\nWhy the other options fail:\n• A — Attributing outcomes to named individuals without a rate is both unfair and uninformative.\n• C — Bed numbers describe capacity, not the number of women actually delivered.\n• D — Distance may affect referral patterns but does not make the counts comparable.\n\nReference: Ghana nursing curriculum — BCA 201 statistics",
+  "rationale": "CORRECT (B) — “There is an association, but another factor may explain both, so causation is not proved”. An observational study watches what people do; it can show that two things travel together but not which caused which. People who drink a lot of sugary drinks are also more likely to be heavier, older or less active, and any of those could raise the diabetes risk on its own. Randomisation or strong causal reasoning is needed before a cause is claimed. Why the other options fail: A — the direction and the mechanism are exactly what an observational design cannot settle; C — far too strong, since observational work established the link between smoking and lung cancer; D — the study is not invalid, it is simply limited in what it can show, and calling it invalid throws away useful evidence.",
   "strategy": "Ask out of how many before believing any count. The denominator decides the answer.",
   "difficulty": "hard",
   "tags": [
@@ -99367,27 +99367,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2897",
   "categorySlug": "safety-infection-control",
-  "stem": "A nurse in Ghana comes upon a road traffic collision at night. What must she do before approaching the casualties?",
+  "stem": "A labourer is brought to a Ghanaian health centre with a temperature of 41 °C, hot dry skin and confusion after working all day in the sun. What should the nurse do first?",
   "choices": [
    {
     "id": "a",
-    "text": "Move all casualties out of the vehicles as quickly as possible"
+    "text": "Give him paracetamol, sponge him with tepid water and review him in an hour"
    },
    {
     "id": "b",
-    "text": "Begin treating the loudest casualty, who is clearly in the most distress"
+    "text": "Cool him rapidly with cool water and a fan while giving fluids, and call for help"
    },
    {
     "id": "c",
-    "text": "Assess the scene for danger and make it safe before entering it"
+    "text": "Wrap him in blankets and give him warm drinks to bring the temperature down"
    },
    {
     "id": "d",
-    "text": "Photograph the scene thoroughly for the police investigation"
+    "text": "Give an antimalarial at once, because a fever in Ghana is usually malaria"
    }
   ],
-  "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Assess the scene for danger and make it safe before entering it\". A rescuer who becomes a casualty adds to the problem and removes the only help available, which is why scene safety precedes everything at every incident. At night on a Ghanaian road the hazards are oncoming traffic, spilled fuel, an unstable vehicle and live electrical cables, so the response is to park protectively, use hazard lights and reflective triangles, wear something visible and call for help before stepping into the carriageway. Casualties are moved only if they are in immediate danger, since movement risks worsening a spinal injury, and the loudest casualty is by definition breathing and talking, while the silent one may be dying. The principle is that danger is assessed before the patient.\n\nWhy the other options fail:\n• A — Moving casualties without need risks worsening spinal and other injuries.\n• B — The loudest casualty has a patent airway; the quiet one may be far more unwell.\n• D — Photography is not a clinical priority and delays both safety and assessment.\n\nReference: Standard pre-hospital scene assessment",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — “Cool him rapidly with cool water and a fan while giving fluids, and call for help”. A temperature of 41 °C with hot dry skin and confusion is heat stroke, and it kills by cooking the brain and the kidneys. The treatment is physical and it is urgent: remove the clothing, apply cool water and fan him, put ice packs at the neck, axillae and groin, give intravenous fluids, and arrange transfer while the cooling continues. Why the other options fail: A — paracetamol acts on the hypothalamic set point and does nothing for heat gained from outside, and an hour's delay is too long; C — blankets and warm drinks add heat and make the cooling impossible; D — malaria can coexist and should be tested for, but treating it first while he is still at 41 °C lets the hyperthermia cause damage that the antimalarial cannot undo.",
   "strategy": "At any scene, danger comes before response. A rescuer who is injured helps nobody.",
   "difficulty": "hard",
   "tags": [
