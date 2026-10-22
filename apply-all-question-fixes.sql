@@ -25901,7 +25901,7 @@ WHERE authored_id = $q$NG-MOD-TCAM-010$q$;
 COMMIT;
 
 -- >>>>>>>>>>>>>>>>>>>>>>>>>>>>  question-fixes-batch117.sql  <<<<<<<<<<<<<<<<<<<<<<<<<<<<
--- Batch 117: length coding, tranche 3.
+-- Batch 117: 9 length coding, tranche 3.
 --
 -- Nine more items rebalanced so the key is not the longest option.
 BEGIN;
@@ -25963,7 +25963,7 @@ UPDATE questions SET
   stem = $q$A community health nurse assesses pain in an 84-year-old client with osteoarthritis. What key principle should guide the nurse's evaluation of pain in older adult patients?$q$,
   choices = $q$[{"id": "a", "text": "Older adults often underreport pain from fear of addiction or of losing independence"}, {"id": "b", "text": "Older people gradually lose their pain receptors, so they feel pain much less intensely"}, {"id": "c", "text": "Severe persistent pain is a normal and expected consequence of growing older"}, {"id": "d", "text": "Older adults cannot use a numeric rating scale reliably, so their pain must be guessed"}]$q$::jsonb,
   correct_choice_id = $q$a$q$,
-  rationale = $q$CORRECT (A) — “Older adults frequently underreport pain due to fear of addiction, loss of independence, or the misconception that pain is inevitable”. Pain is never a normal part of growing older, and the older adult is at particular risk of having it undertreated. Many underreport pain because they fear addiction, fear losing independence or becoming a burden, or believe that pain is simply inevitable at their age; some also understate it or attribute it to ageing itself. The nurse must therefore screen actively, believe the report and advocate for analgesia rather than wait to be told. Why the other options fail: pain receptors are not lost with age and thresholds do not simply rise (B); persistent pain is not a healthy consequence of ageing, and left untreated it reduces mobility, sleep and function (C); and most older adults can use a simple 0 to 10 scale or a faces scale quite reliably, provided sight and hearing are accommodated (D).$q$,
+  rationale = $q$CORRECT (A) — “Older adults often underreport pain from fear of addiction or of losing independence”. Pain is never a normal part of growing older, and the older adult is at particular risk of having it undertreated. Many underreport it because they fear becoming addicted to analgesia, because they fear losing independence or becoming a burden, or because they believe that pain is simply inevitable at their age; some understate it or dismiss it as part of ageing itself. The nurse must therefore screen actively at every contact, accept the patient's report without waiting for outward signs of distress, and advocate for analgesia and non-drug measures rather than assume that quiet means comfortable. Why the other options fail: pain receptors are not lost with age and pain thresholds do not simply rise, so ageing does not blunt pain (B); persistent pain is not a healthy consequence of growing older, and left untreated it reduces mobility, sleep, appetite and independence (C); and most older adults can use a simple 0 to 10 scale, a verbal descriptor scale or a faces scale reliably once sight, hearing and language are accommodated (D).$q$,
   strategy = $q$Core gerontological truth: Pain is NEVER a normal consequence of aging. Actively assess older adults because they tend to underreport.$q$
 WHERE authored_id = $q$NG-ORIGINAL-CLINICAL-0106$q$;
 
