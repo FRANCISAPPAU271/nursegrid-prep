@@ -23621,7 +23621,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "c",
-  "rationale": "Entrepreneurship is identifying an unmet need and bearing risk while organising resources to meet it. She is not an employee because nobody pays her a wage, not a volunteer because she expects the venture to earn, and managing resources is only one part of what she is doing.",
+  "rationale": "CORRECT (C) — “An entrepreneur, because she identifies an unmet need and takes on risk to organise resources to meet it”. Entrepreneurship is spotting an unmet need and bearing the risk of organising the resources to meet it. She has identified a service nobody in the town provides, put her own savings into it, and has no guarantee that enough patients will come to recover the money — that combination of initiative and personal financial risk is what defines the role. Why the other options fail: a volunteer gives time without expecting the venture to earn and carries no financial risk (A); an employee is paid a wage by someone else and does not put her own money at stake (B); and a manager runs an organisation that already exists, carrying little of the personal risk that is the essence of what she is doing (D).",
   "strategy": "Unmet need plus personal risk plus organising resources equals entrepreneur.",
   "difficulty": "hard",
   "tags": [
@@ -24677,7 +24677,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "a",
-  "rationale": "Break-even is precisely the point at which total income equals total costs, so the business makes neither profit nor loss. Breaking even is not profit, no surplus does not amount to a cash crisis, and mark-up is a pricing calculation rather than a comparison of total income and total cost.",
+  "rationale": "CORRECT (A) — “The break-even point, where income equals costs exactly”. Break-even is the precise point at which total income equals total cost, so the venture makes neither a profit nor a loss. Every cedi earned above GH₵ 12,000 becomes profit and every cedi below it becomes a loss, and knowing that figure tells her how many clients she must see before the clinic starts to earn. Why the other options fail: profit requires income to exceed costs, and covering them exactly leaves no surplus at all (B); a cash-flow crisis is when cash to pay the bills is not there in time, not a month that balances exactly (C); and mark-up is a per-item pricing calculation, the amount added to cost when a price is set, not a comparison of total income with total cost (D).",
   "strategy": "Income equals costs exactly: that is break-even, not profit.",
   "difficulty": "hard",
   "tags": [
@@ -29528,7 +29528,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "a",
-  "rationale": "Appraisal reviews performance against objectives already agreed and uses that review to plan development. It is not a disciplinary process, an exit interview happens when someone leaves, and a clinical audit measures practice against a standard rather than an individual against objectives.",
+  "rationale": "CORRECT (A) — “A performance appraisal, whose purpose is to review performance against agreed objectives and plan development”. Appraisal is a structured, two-way review of what a nurse actually achieved against objectives agreed at the start of the year, recorded and then used to plan the training and development needed next. It is formative and forward-looking: the point is to improve future performance, not to judge past conduct. Why the other options fail: a disciplinary hearing decides whether conduct broke the rules and what sanction follows, which is a different process with different rules (B); an exit interview is held when someone is leaving, to learn why (C); and a clinical audit measures practice against a written standard at the level of the team, not one individual against personal objectives (D).",
   "strategy": "Appraisal looks back at agreed objectives and forward to development - not at blame.",
   "difficulty": "hard",
   "tags": [
