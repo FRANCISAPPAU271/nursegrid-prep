@@ -38450,7 +38450,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Refer the child at once to the district hospital so that the discharge can be cultured"
+    "text": "Refer the child at once to the district hospital so that the discharge can be cultured there"
    }
   ],
   "correctChoiceId": "b",
@@ -43875,7 +43875,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "The sugary drinks caused the diabetes, so the mechanism has been proved by this study"
+    "text": "The sugary drinks caused the diabetes, so the mechanism has now been proved by this study"
    },
    {
     "id": "b",
@@ -52201,7 +52201,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Record the trace while the patient is talking so that he stays relaxed"
+    "text": "Record the trace while the patient is talking so that he stays relaxed throughout"
    }
   ],
   "correctChoiceId": "b",
@@ -68322,7 +68322,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "He drinks more hot fluids, which dilate the skin vessels and lose heat to the air"
+    "text": "He drinks more hot fluids, which dilate the skin vessels and lose heat to the surrounding air"
    }
   ],
   "correctChoiceId": "a",
@@ -70740,7 +70740,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "The outbreak is spreading from person to person through the air"
+    "text": "The outbreak is spreading from person to person through the air that everyone in the town shares"
    },
    {
     "id": "b",
@@ -99367,27 +99367,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2897",
   "categorySlug": "safety-infection-control",
-  "stem": "A labourer is brought to a Ghanaian health centre with a temperature of 41 °C, hot dry skin and confusion after working all day in the sun. What should the nurse do first?",
+  "stem": "A man is brought to a Ghanaian health centre after a motorbike crash. His right thigh is swollen and deformed and the leg is shortened. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "Give him paracetamol, sponge him with tepid water and review him in an hour"
+    "text": "Straighten the leg by pulling steadily on the foot so that the bone ends line up before splinting"
    },
    {
     "id": "b",
-    "text": "Cool him rapidly with cool water and a fan while giving fluids, and call for help"
+    "text": "Immobilise the limb as it lies, check the distal pulse and sensation, then splint it"
    },
    {
     "id": "c",
-    "text": "Wrap him in blankets and give him warm drinks to bring the temperature down"
+    "text": "Ask him to walk a few steps so that the extent of the injury can be judged properly"
    },
    {
     "id": "d",
-    "text": "Give an antimalarial at once, because a fever in Ghana is usually malaria"
+    "text": "Apply a tight bandage from the toes upward to reduce the swelling before splinting"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — “Cool him rapidly with cool water and a fan while giving fluids, and call for help”. A temperature of 41 °C with hot dry skin and confusion is heat stroke, and it kills by cooking the brain and the kidneys. The treatment is physical and it is urgent: remove the clothing, apply cool water and fan him, put ice packs at the neck, axillae and groin, give intravenous fluids, and arrange transfer while the cooling continues. Why the other options fail: A — paracetamol acts on the hypothalamic set point and does nothing for heat gained from outside, and an hour's delay is too long; C — blankets and warm drinks add heat and make the cooling impossible; D — malaria can coexist and should be tested for, but treating it first while he is still at 41 °C lets the hyperthermia cause damage that the antimalarial cannot undo.",
+  "rationale": "CORRECT (B) — “Immobilise the limb as it lies, check the distal pulse and sensation, then splint it”. A fractured femur can bleed a litre or more into the thigh, so the priorities are to stop further movement, to know whether the blood supply and nerve function below the injury are intact, and to get the patient to definitive care. The limb is splinted in the position it was found, the distal pulse, colour, warmth and sensation are recorded before and after splinting, bleeding is controlled, analgesia is given and the patient is treated for shock on the way to hospital. Why the other options fail: A — pulling a fractured femur straight causes more bleeding and can injure the vessels and nerve that are still intact; C — he cannot weight-bear on a fractured femur and trying will displace it further; D — tight bandaging from the toes up does not immobilise the fracture and can cause compartment syndrome.",
   "strategy": "At any scene, danger comes before response. A rescuer who is injured helps nobody.",
   "difficulty": "hard",
   "tags": [

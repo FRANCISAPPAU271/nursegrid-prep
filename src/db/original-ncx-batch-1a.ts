@@ -106,12 +106,12 @@ export const NCX_PART_A: AuthoredQuestion[] = [
   }),
   q({
     n: 6, cat: "fundamentals",
-    stem: "A school nurse performs the Rinne test on a 6-year-old girl. Which description of the technique is **correct**?",
+    stem: "A school nurse performs the Rinne test on a six-year-old girl. Which technique is correct?",
     choices: [
-      "The stem of the vibrating tuning fork is held on the mastoid bone until the sound fades, then the prongs are moved in front of the ear canal to see whether she hears it again",
-      "The vibrating fork is held at the ear canal until the sound fades, then moved away and the time recorded",
-      "The stem of the fork is placed on the middle of the forehead and she is asked in which ear the sound is louder",
-      "The fork is held 5 cm behind the head and the length of time she hears it is documented",
+      "Hold the vibrating stem on the mastoid until the sound fades, then move the prongs in front of the ear",
+      "Hold the fork about 5 cm behind the head and document how long she can hear the sound for",
+      "Place the stem on the middle of the forehead and ask her in which ear the sound seems louder",
+      "Hold the vibrating fork beside the ear canal until the sound fades, then move it away and record the time",
     ],
     correct: "a",
     explain: "The Rinne test compares <strong>bone conduction</strong> (fork on the mastoid) with <strong>air conduction</strong> (fork beside the ear canal). Normally air conduction is better, so the sound is heard again when the fork is moved to the ear. If bone conduction is longer, a <strong>conductive hearing loss</strong> such as glue ear or wax is likely.",

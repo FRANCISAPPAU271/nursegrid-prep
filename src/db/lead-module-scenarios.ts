@@ -410,7 +410,7 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "Accept the pens only, because a pen is a trivial item and cannot influence care",
+        text: "Accept the pens only, because a pen is a trivial item that cannot influence the care that is given",
       },
     ],
     "correctChoiceId": "c",

@@ -86,12 +86,12 @@ export const NCX3_PART_E: AuthoredQuestion[] = [
   }),
   q({
     n: 235, cat: "health-promotion", difficulty: "easy",
-    stem: "A community health nurse teaches a group of market women about preventing cervical cancer. Which statement is **correct**?",
+    stem: "A community health nurse is teaching a group of market women about preventing cervical cancer. Which statement by the nurse is correct?",
     choices: [
-      "\"Screening every few years by visual inspection with acetic acid or a Pap or HPV test can find changes before they become cancer, and HPV vaccination protects girls before they become sexually active\"",
-      "\"Only women with many children need screening, because the risk rises with each pregnancy and the cervix is injured during childbirth\"",
-      "\"If you feel well there is no need to be screened, because pre-cancerous changes always cause bleeding or discharge\"",
-      "\"Cervical cancer cannot be prevented, only treated, because the virus stays in the body for life once it is caught\"",
+      "Screening finds changes before they become cancer, and HPV vaccination protects girls",
+      "Only women with many children need screening, because the cervix is injured during each childbirth",
+      "If you feel well there is no need to be screened, because early changes always cause bleeding",
+      "Cervical cancer cannot be prevented, only treated, because the virus stays in the body for life",
     ],
     correct: "a",
     explain: "Cervical cancer is almost always caused by <strong>persistent human papillomavirus infection</strong> and develops slowly through pre-cancerous stages that <strong>screening detects and simple treatment (cryotherapy or thermal ablation) cures</strong>. <strong>HPV vaccination</strong> of girls aged 9–14 prevents most cases. Early disease has no symptoms, which is why well women are screened.",

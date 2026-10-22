@@ -86,12 +86,12 @@ export const NCX3_PART_B: AuthoredQuestion[] = [
   }),
   q({
     n: 175, cat: "fundamentals",
-    stem: "A woman with leg weakness is booked for electromyography (EMG). Which explanation of the test is **correct**?",
+    stem: "A woman with leg weakness is booked for electromyography (EMG). Which explanation should the nurse give?",
     choices: [
-      "\"A very fine needle electrode is placed into the muscles to record their electrical activity at rest and when you tighten them; it takes about 30 to 60 minutes and can be a little uncomfortable, but you do not need to fast or be sedated\"",
-      "\"It is completely painless because nothing touches your skin; a scanner passes over the leg and records the muscle activity from a distance, and it takes about 30 minutes\"",
-      "\"You will be given a light sedative about an hour before the test, because the needle stimulation is too uncomfortable for most people to tolerate\"",
-      "\"You must not eat or drink anything for four to six hours before the test, because a full stomach makes the muscle recordings unreliable\"",
+      "A very fine needle records the muscle activity at rest and when you tighten it, and you need not fast",
+      "You will be given a light sedative an hour before, because the needle stimulation is uncomfortable",
+      "It is completely painless because nothing touches the skin; a scanner records the muscle from a distance",
+      "You must not eat for four to six hours before the test, because a full stomach disturbs the recordings",
     ],
     correct: "a",
     explain: "EMG records the electrical activity of muscle fibres through <strong>needle electrodes</strong>, often combined with nerve-conduction studies using surface electrodes, to distinguish nerve from muscle disease. Brief discomfort and small bruises are expected; the patient should avoid creams on the skin and tell the technician if she takes anticoagulants.",

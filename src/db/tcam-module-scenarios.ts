@@ -64,28 +64,28 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-TCAM-003",
     categorySlug: "fundamentals",
-    stem: "A client newly diagnosed with stage III cervical cancer shows the clinic nurse an unlabelled brown plastic jug purchased from a roadside vendor. The vendor promised that drinking three cups daily would 'permanently eradicate all cancer, HIV, and diabetes within 14 days without surgery.' What is the nurse's priority clinical response?",
+    stem: "A client with stage III cervical cancer shows the nurse an unlabelled bottle from a roadside vendor, who promised it would cure cancer, HIV and diabetes within fourteen days without surgery. What should the nurse do?",
     choices: [
       {
         id: "a",
-        text: "Respect the client's autonomy by making no comment on the vendor's claims, record the conversation accurately in the nursing notes, and let the oncology team raise the issue at the next scheduled review",
+        text: "Make no comment, respect the client's autonomy and let the oncology team raise it at the next review",
       },
       {
         id: "b",
-        text: "Ask the client to postpone the next oncology review for two weeks so that the herbal mixture can be given a fair trial before any further imaging or chemotherapy is arranged",
+        text: "Ask the client to postpone the next oncology review for two weeks so the mixture can be fairly tried",
       },
       {
         id: "c",
-        text: "Explain that unregulated mixtures lack standardized dosing and quality control, warn against fraudulent 'cure-all' claims, emphasize that delaying proven oncology care allows cancer to metastasize, and inspect for FDA Ghana registration while reinforcing evidence-based therapy",
+        text: "Explain that it is unregulated, check for FDA Ghana registration and warn that delay lets cancer spread",
       },
       {
         id: "d",
-        text: "Confiscate the jug and tell the client that all herbal products are toxic and should never be used for any reason, since no amount of regulation can make a botanical preparation safe",
+        text: "Confiscate the bottle and tell the client that all herbal products are toxic and should never be used at all",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "Unregulated street concoctions present severe health hazards due to unstandardized dosing, microbial contamination, heavy metal adulteration, and dangerous herb-drug interactions. Furthermore, predatory 'cure-all' claims lead clients to abandon life-saving oncology care during curative windows, resulting in preventable metastasis and death. The nurse must validate the client's search for healing, provide objective risk education regarding uncertified remedies, check for FDA registration, and advocate for evidence-based cancer staging and treatment. Endorsing street mixtures or tasting client medicines is dangerous and unethical. Why the other options fail: saying nothing leaves a fraudulent cure claim unchallenged during a curative treatment window; postponing oncology review spends that window; and condemning all herbal products is both inaccurate and likely to end the conversation.",
+      "CORRECT (C) — “Explain that it is unregulated, check for FDA Ghana registration and warn that delay lets cancer spread”. Three things are wrong with the bottle and the nurse addresses all three: it has no label, so the dose and the contents are unknown; it makes a cure-all claim, which no single preparation can support; and it is being offered as a substitute for treatment in a cancer that is still treatable. The nurse is honest about the risk of delaying oncology care, checks whether the product carries Ghana FDA registration, and keeps the door open so the client does not simply stop attending. Why the other options fail: A — saying nothing is not respect, it is abandonment of a client about to make a dangerous choice; B — a two-week trial of an unproven mixture is exactly the delay that allows a treatable cancer to metastasise; D — confiscation is not the nurse's to do and the blanket claim that all herbals are toxic is false, which costs the nurse credibility.",
     strategy: "Unregulated herbs: Warn against 'cure-all' claims and lack of quality control, emphasize the fatal risk of delaying conventional oncology treatment, and look for FDA certification.",
     difficulty: "easy",
     tags: ["tcam", "unregulated-herbs", "cancer-fraud", "fda-registration", "patient-advocacy"],
@@ -304,28 +304,28 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-TCAM-011",
     categorySlug: "fundamentals",
-    stem: "A woman at 8 weeks gestation asks the prenatal clinic nurse if she can take traditional bitter herbal roots (*Vernonia amygdalina* / *Cryptolepis sanguinolenta*) and Blue Cohosh to treat morning sickness. What is the nurse's priority evidence-based education regarding herbal medicines in early pregnancy?",
+    stem: "A woman at 8 weeks' gestation asks the antenatal nurse whether she may take bitter herbal roots and blue cohosh for morning sickness. What should the nurse advise?",
     choices: [
       {
         id: "a",
-        text: "Herbal teas are acceptable in pregnancy provided they are taken as dilute infusions rather than concentrated capsules, since the active dose delivered to the fetus is much lower",
+        text: "Dilute infusions are safe in pregnancy because the dose reaching the fetus is much lower than the mother's",
       },
       {
         id: "b",
-        text: "Only herbs traditionally used for morning sickness are safe during the first trimester, because their safety in that specific indication is well established in practice",
+        text: "Only herbs traditionally used for morning sickness are safe during the first trimester of pregnancy",
       },
       {
         id: "c",
-        text: "Herbal preparations should be strictly avoided in pregnancy unless approved by an obstetric provider, because many herbs contain active compounds with emmenagogue or uterotonic properties that trigger uterine contractions, miscarriage, or fetal teratogenicity",
+        text: "Avoid all herbal preparations unless an obstetric provider approves them, since many are uterotonic",
       },
       {
         id: "d",
-        text: "Herbal remedies are acceptable after 12 weeks of gestation, once organogenesis is complete and the fetus is no longer vulnerable to malformation",
+        text: "Herbal remedies may be started after 12 weeks, once organogenesis is complete in the fetus",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "Herbal supplements are not inherently safe in pregnancy. Many botanical preparations (e.g., Blue Cohosh, Pennyroyal, *Cryptolepis*, *Cassia*) possess potent emmenagogue, abortifacient, or uterotonic properties that stimulate uterine contractions, precipitate spontaneous abortion, or cause fetal teratogenic malformations. Furthermore, lack of standardization and risk of heavy metal contamination make unmonitored herbal ingestion particularly dangerous during first-trimester organogenesis. The myth that 'natural equals safe' is a widespread misconception that nurses must actively correct. Why the other options fail: infusion form does not make a uterotonic herb safe; herbs used for morning sickness include known emmenagogues; and organogenesis is not the only period of risk, because uterine activity can still cause loss later in pregnancy.",
+      "CORRECT (C) — “Avoid all herbal preparations unless an obstetric provider approves them, since many are uterotonic”. Herbal does not mean harmless, and pregnancy is the time when that matters most. Blue cohosh, pennyroyal, cassia and many bitter roots contain emmenagogue or uterotonic compounds that stimulate the uterus, and some are teratogenic; the dose in a cup of infusion is not standardised, so nobody can say how much the woman or the fetus received. The safe answer is that nothing is taken in pregnancy unless the obstetric team has approved it, and the woman is told why rather than simply told no. Why the other options fail: A — dilution does not make an active compound inactive, and the fetal dose is exactly what is unknown; B — a herb being traditional for morning sickness says nothing about its safety in pregnancy, and several traditional remedies are precisely the abortifacients; D — twelve weeks is when major organ formation ends, but growth, brain development and uterine sensitivity continue, so the risk does not switch off.",
     strategy: "Maternal-fetal safety: Avoid unprescribed herbal medicines during pregnancy; many herbs possess uterotonic properties that cause miscarriage or teratogenicity.",
     difficulty: "easy",
     tags: ["tcam", "pregnancy", "herbal-safety", "uterotonics", "teratogenicity"],
@@ -334,28 +334,28 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-TCAM-012",
     categorySlug: "fundamentals",
-    stem: "An oncology client experiencing severe chemotherapy-induced nausea and vomiting asks about complementary therapies. The nurse discusses acupressure at the P6 (Neiguan) pericardium meridian point on the inner wrist. What is the physiological mechanism and evidence supporting acupressure and acupuncture in clinical nursing?",
+    stem: "A client receiving chemotherapy has severe nausea and asks about acupressure at the P6 point on the inner wrist. How should the nurse explain its action?",
     choices: [
       {
         id: "a",
-        text: "Stimulating specific neurovascular acupoints modulates autonomic pathways, triggers the release of endogenous endorphins and serotonin, and activates the Gate Control mechanism to suppress emetic and nociceptive signalling",
+        text: "It stimulates acupoints that modulate autonomic pathways and release endorphins and serotonin",
       },
       {
         id: "b",
-        text: "It stimulates the vagus nerve directly at the wrist point, producing bradycardia and abolishing the vomiting reflex at its source in the medulla oblongata",
+        text: "It stimulates the vagus nerve at the wrist, slowing the heart and abolishing the vomiting reflex",
       },
       {
         id: "c",
-        text: "It works purely as a placebo; controlled trials show no measurable neurochemical or autonomic change beyond the psychological ritual of treatment itself",
+        text: "It acts purely as a placebo; trials show no measurable neurochemical or autonomic change at all",
       },
       {
         id: "d",
-        text: "It blocks the phrenic nerve on the affected side, paralysing the diaphragm and preventing the physical movement of vomiting",
+        text: "It blocks the phrenic nerve, paralysing the diaphragm and so preventing the physical act of vomiting",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "Acupuncture and acupressure (such as pressure at the P6 Neiguan point on the anterior forearm) are evidence-supported complementary therapies recognized by the WHO and oncology guidelines for managing postoperative and chemotherapy-induced nausea and pain. Physiological research demonstrates that acupoint stimulation activates A-beta and A-delta sensory fibers, modulates central autonomic nervous system centers, releases endogenous opioids (beta-endorphins, enkephalins), alters serotonin transmission, and engages the Gate Control Theory to blunt emetic and pain pathways. It does not destroy nerves or paralyze the diaphragm. Why the other options fail: acupressure does not stimulate the vagus directly to produce bradycardia; trial evidence shows measurable autonomic and neurochemical effects rather than pure placebo; and it does not paralyse the diaphragm.",
+      "CORRECT (A) — “It stimulates acupoints that modulate autonomic pathways and release endorphins and serotonin”. Acupressure at P6 is one of the complementary measures that guidelines accept alongside antiemetics, not instead of them. The best current explanation is that stimulating the point alters autonomic signalling and triggers release of endogenous opioids and serotonin, which dampens the emetic and pain pathways at the level of the brainstem and the gate in the dorsal horn. Why the other options fail: B — the vagus is not stimulated at the wrist in this way, and abolishing the reflex outright is not what acupressure does; C — controlled trials do report measurable effects and guideline bodies do recommend it, so calling it pure placebo overstates the evidence in the other direction; D — the phrenic nerve supplies the diaphragm from the neck and has nothing to do with the wrist point, and paralysing the diaphragm would be a catastrophe rather than a treatment.",
     strategy: "Complementary therapies: Acupressure/acupuncture stimulates neurovascular pathways, releasing endogenous endorphins and modulating autonomic emetic and pain reflexes.",
     difficulty: "medium",
     tags: ["tcam", "acupressure", "p6-neiguan", "chemotherapy-induced-nausea", "gate-control-theory"],
