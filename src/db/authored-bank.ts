@@ -14275,27 +14275,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-HPR-0416",
   "categorySlug": "health-promotion",
-  "stem": "In a Ghanaian compound house ten people share a poorly ventilated single room. Which condition is **most directly** promoted by these housing conditions?",
+  "stem": "A district in Ghana has repeated outbreaks of diarrhoea among young children. Which single measure would do most to prevent them?",
   "choices": [
    {
     "id": "a",
-    "text": "Tuberculosis, because crowding and poor ventilation ease airborne spread"
+    "text": "Handwashing with soap at the key times, taught and supported in every household"
    },
    {
     "id": "b",
-    "text": "Diabetes mellitus, because crowded housing alters the body's use of glucose"
+    "text": "Treating every child with oral rehydration salts as soon as the diarrhoea starts"
    },
    {
     "id": "c",
-    "text": "Sickle cell disease, because close living conditions increase its inheritance"
+    "text": "Giving all children a course of antibiotics at the beginning of each rainy season"
    },
    {
     "id": "d",
-    "text": "Hypertension, because sharing a small room raises the blood pressure directly"
+    "text": "Building a new district hospital with a dedicated ward for children with diarrhoea"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Tuberculosis, because crowding and poor ventilation ease airborne spread\". Overcrowding and poor ventilation raise the <strong>concentration of infectious droplet nuclei in the air and prolong exposure</strong>, which is why tuberculosis, measles, meningitis and acute respiratory infection cluster in crowded dwellings. Adequate housing therefore has measurable health functions: <strong>ventilation, lighting, space per person, safe water, sanitation and smoke-free cooking</strong>, and each maps to a specific disease it prevents.\n\nWhy the other options fail:\n• B — Diabetes relates to diet, activity and genetics. Crowding has no direct role in glucose metabolism.\n• C — Sickle cell disease is inherited through genes at conception and cannot be transmitted by proximity.\n• D — Poverty and stress do influence blood pressure indirectly, but crowding does not raise it directly as an airborne mechanism would.\n\nReference: Ghana nursing curriculum — housing and health",
+  "rationale": "CORRECT (A) — “Handwashing with soap at the key times, taught and supported in every household”. Childhood diarrhoea spreads by the faecal-oral route, on hands, water, food and utensils. Handwashing with soap after defecation, after cleaning a child and before preparing food or eating interrupts that route at its narrowest point, and it is the intervention with the largest effect on diarrhoea incidence of any single measure. It also works before the outbreak, which is what prevention means. Why the other options fail: oral rehydration salts treat the dehydration a child already has — they save lives, but they do not stop the next child being infected (B); routine seasonal antibiotics do not prevent diarrhoea, breed resistance and expose children to unnecessary drugs (C); and a hospital treats severe cases after they occur, which is tertiary care rather than prevention (D).",
   "strategy": "Match the hazard to the transmission route it serves. Crowding and poor air point to airborne disease; poor water points to faecal-oral disease.",
   "difficulty": "hard",
   "tags": [
@@ -98891,27 +98891,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2883",
   "categorySlug": "safety-infection-control",
-  "stem": "A fire starts in a side room of a Ghanaian ward. What is the immediate sequence of actions?",
+  "stem": "A monitor at the bedside of a patient in a Ghanaian ward begins to smoulder and small flames appear at its casing. Which extinguisher should the nurse use?",
   "choices": [
    {
     "id": "a",
-    "text": "Attempt to extinguish it alone first and raise the alarm only if that fails"
+    "text": "Water, because it cools the burning casing faster than anything else available"
    },
    {
     "id": "b",
-    "text": "Begin a full evacuation of the entire hospital before alerting anyone"
+    "text": "Carbon dioxide, because it does not conduct electricity and leaves no residue"
    },
    {
     "id": "c",
-    "text": "Open all the windows and doors to let the smoke escape from the area"
+    "text": "A wet blanket, wrung out and laid over the machine to smother the flames"
    },
    {
     "id": "d",
-    "text": "Raise the alarm, rescue anyone in danger, contain the fire, then evacuate as directed"
+    "text": "Foam, because it coats the equipment and excludes air from the burning casing"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Raise the alarm, rescue anyone in danger, contain the fire, then evacuate as directed\". Fire response follows a fixed order because acting out of sequence costs lives. The alarm comes first, since it summons help and starts the response for everyone, and delaying it while attempting to fight the fire alone is how small fires become fatal ones. Anyone in immediate danger is moved, the fire is contained by closing doors, and extinguishing is attempted only with the right extinguisher and only if it is safe and an escape route remains. Evacuation is progressive and directed, moving horizontally away from the fire first, since moving an entire hospital is slower and more dangerous than moving one bay. The principle is that alarm and containment precede firefighting.\n\nWhy the other options fail:\n• A — Delaying the alarm while fighting a fire alone allows it to grow beyond control.\n• B — Immediate total evacuation is slower and more dangerous than progressive movement.\n• C — Opening doors and windows feeds the fire with oxygen and spreads the smoke.\n\nReference: Standard health facility fire safety procedure",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — “Carbon dioxide, because it does not conduct electricity and leaves no residue”. An electrical fire is a fire in energised equipment, so the first concern is that the extinguishing agent and the nurse can both become part of the circuit. Carbon dioxide is not a conductor, it smothers the fire by displacing oxygen, and it leaves no residue to damage the machine or the ward. The sequence around it still matters: raise the alarm and get help, switch the equipment off at the socket if that can be done safely, evacuate anyone at risk, and only then tackle a small fire with the correct extinguisher. Why the other options fail: water conducts electricity and a jet of it on live equipment can electrocute the nurse (A); a wet blanket carries the same conducting risk and has to be laid over a live machine to work (C); and foam also conducts and leaves a residue that ruins the equipment (D).",
   "strategy": "Sequence fire actions by what protects the most people first: alarm, rescue, contain, then fight or evacuate.",
   "difficulty": "easy",
   "tags": [
@@ -111224,27 +111224,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-BATCH2-0030",
  "categorySlug": "mental-health",
- "stem": "A client is starting lithium for bipolar disorder. Which instruction is most important for the nurse to give?",
+ "stem": "A Ghanaian man started on haloperidol for an acute psychotic episode asks his sister why he is still hearing voices after five days. What should the nurse explain?",
  "choices": [
   {
    "id": "a",
-   "text": "Double the dose before any planned long journey"
+   "text": "The drug should act at once, so if the voices continue the dose must be far too low"
   },
   {
    "id": "b",
-   "text": "Take the tablets only on days when the mood is low"
+   "text": "Sedation comes within hours, but the antipsychotic effect builds over days to a few weeks"
   },
   {
    "id": "c",
-   "text": "Keep fluid and salt intake steady and report vomiting"
+   "text": "The voices may never stop completely, so he should be taught to accept them as they are and not expect change"
   },
   {
    "id": "d",
-   "text": "Avoid all fluids so the blood level stays stable"
+   "text": "He should stop the tablets now and return only when the voices become unbearable for him"
   },
  ],
- "correctChoiceId": "c",
- "rationale": "Lithium is excreted by the kidney and its level rises with dehydration or sodium loss. Steady fluid and salt intake keeps the level predictable, and vomiting or diarrhoea must be reported because it rapidly pushes the client into toxicity.\n\nWhy the other options fail:\n• B — Lithium is taken every day; intermittent dosing produces no therapeutic level and invites relapse.\n• A — Doubling the dose can cause fatal toxicity; only a prescriber changes it.\n• D — Fluid restriction concentrates lithium and is a common route to toxicity.\n\nReference: Ghana STG — lithium therapy; counselling",
+ "correctChoiceId": "b",
+ "rationale": "CORRECT (B) — “Sedation comes within hours, but the antipsychotic effect builds over days to a few weeks”. Haloperidol blocks dopamine D2 receptors quickly, and its sedating and calming effect is felt within hours, which is why the agitation often settles first. The antipsychotic effect on hallucinations and delusions is slower: the drug has to reach a steady tissue level and the limbic system has to adapt, so clear improvement takes days and a full response can take four to six weeks. Missing this distinction is why patients stop a drug that is working; he needs to be told that the voices should quieten gradually if he keeps taking it as prescribed. Why the other options fail: the drug does not act on hallucinations at once, so a persisting voice does not mean the dose is wrong and it must never be raised without the prescriber (A); telling a patient to accept persisting voices is therapeutic nihilism and removes hope of the symptom settling (C); and stopping the tablets is the commonest cause of relapse in first-episode psychosis (D).",
  "strategy": "Anything that changes body water changes the lithium level — teach that link.",
  "difficulty": "hard",
  "tags": ["lithium", "bipolar", "counselling", "toxicity"],
@@ -114164,27 +114164,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-PHARM-0019",
  "categorySlug": "pharmacology-parenteral",
- "stem": "A patient is being prepared for discharge on lithium. Which instruction should the nurse include?",
+ "stem": "A nurse must draw up morphine from a glass ampoule for a patient in severe pain. Why is a filter needle used to draw the drug up, and what is done before the injection is given?",
  "choices": [
   {
    "id": "a",
-   "text": "Double the next dose if one dose is forgotten during the day"
+   "text": "To trap any glass particles, and a fresh needle is fitted before the injection is given"
   },
   {
    "id": "b",
-   "text": "Restrict all fluids to less than one litre a day so the level stays steady"
+   "text": "To sterilise the solution as it is drawn up, and the same needle is then used for the injection"
   },
   {
    "id": "c",
-   "text": "Keep salt and fluid intake steady and report vomiting or diarrhoea promptly"
+   "text": "To measure the dose more accurately than the markings moulded on the barrel of the syringe"
   },
   {
    "id": "d",
-   "text": "Stop the drug as soon as the mood improves so that the levels do not build up"
+   "text": "To draw the drug quickly from the narrow neck of the ampoule without losing any of it"
   },
  ],
- "correctChoiceId": "c",
- "rationale": "Lithium is a salt that competes with sodium: when the body is short of sodium the kidney reabsorbs more lithium, the plasma level rises and toxicity follows. Anything that depletes salt or water — heat with heavy sweating, vomiting, diarrhoea, a low-salt diet or diuretics — raises the level, so intake is kept steady and illness is reported promptly.\n\nWhy the other options fail:\n• B — Restricting fluid concentrates the lithium and invites toxicity.\n• A — Doubling a missed dose risks a double dose; missed doses are discussed with the prescriber.\n• D — Stopping invites relapse, because lithium is continued to prevent further episodes.",
+ "correctChoiceId": "a",
+ "rationale": "CORRECT (A) — “To trap any glass particles, and a fresh needle is fitted before the injection is given”. Snapping the neck of a glass ampoule throws microscopic shards into the solution, and drawing that up unfiltered injects glass into the tissue. A filter needle has a fine mesh in its hub that holds the fragments back as the drug is withdrawn. It is a draw-up device only: it is taken off and replaced with an ordinary needle, and the ordinary needle must also be cleared of air and checked again, because a filter needle is blunt compared with an injection needle and is not designed to pierce skin. Why the other options fail: the solution in a sealed ampoule is already sterile, so nothing has to be sterilised at the bedside (B); the volume is measured by the graduations on the syringe barrel, not by the needle (C); and drawing up quickly through a narrow neck is exactly how the glass shards are swept into the syringe (D).",
  "strategy": "Lithium follows sodium. Loss of salt or water raises the level, so steady intake and prompt reporting matter.",
  "difficulty": "hard",
  "tags": ["lithium", "toxicity", "counselling", "mental-health"],

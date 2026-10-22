@@ -46,15 +46,15 @@ export const RENAL_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-RENAL-003",
     categorySlug: "fluid-electrolyte",
-    stem: "A nurse is evaluating the fluid balance of a client receiving intravenous furosemide for congestive heart failure. Which clinical assessment parameter provides the single MOST sensitive and reliable indicator of acute fluid gain or loss?",
+    stem: "A patient returns to the ward after a percutaneous renal biopsy. What is the nurse's priority in the first few hours?",
     choices: [
-      { id: "a", text: "The 24-hour intake and output chart, which records every fluid in and out at the bedside" },
-      { id: "b", text: "Daily morning weight, taken at the same time on the same scale after voiding" },
-      { id: "c", text: "Skin turgor over the anterior forearm, which reflects interstitial hydration" },
-      { id: "d", text: "Visual assessment of pitting oedema at the ankles, graded from 1+ to 4+" }
+      { id: "a", text: "Keep the patient lying flat, watch the puncture site and check each urine specimen for blood" },
+      { id: "b", text: "Encourage the patient to walk about early so that the kidney does not become stiff" },
+      { id: "c", text: "Withhold all oral fluids for twenty-four hours after the procedure so that the kidney can rest completely" },
+      { id: "d", text: "Send the patient home as soon as the puncture wound is dry, with no further observation needed" }
     ],
-    correctChoiceId: "b",
-    rationale: "Daily body weight is the single most sensitive, objective, and accurate indicator of acute fluid balance fluctuations. One kilogram (2.2 lbs) of acute weight change is equivalent to 1,000 mL (1 liter) of retained or lost fluid. Intake and output charts are prone to human measurement error and unrecorded losses (sweat, stool), and physical signs (edema, skin turgor) manifest only after significant volume shifts. Why the other options fail: option a depends on charting that misses insensible losses and is often estimated. Option c changes late and is unreliable in older adults, whose skin is lax anyway. Option d is a late sign that appears only after litres have accumulated, and it is graded by eye.",
+    "correctChoiceId": "a",
+    rationale: "CORRECT (A) — “Keep the patient lying flat, watch the puncture site and check each urine specimen for blood”. A renal biopsy passes a needle through the skin and muscle into a kidney that is rich in blood at systemic pressure, so the complication to fear is bleeding — into the urine, around the kidney as a perirenal haematoma, or into the retroperitoneum. Lying flat for several hours reduces the chance of re-bleeding and keeps the patient still. The nurse then watches the puncture site for swelling or oozing, checks the pulse and blood pressure for a fall, asks about flank or back pain, and inspects every specimen of urine for frank or microscopic blood. Oral fluids are encouraged, not withheld, so that the urinary tract is flushed through, and the patient avoids lifting and straining for about a week. Why the other options fail: early walking raises the risk of bleeding from the puncture (B); fluid restriction concentrates the urine and makes haematuria harder to detect while doing nothing to rest the kidney (C); and discharging the patient as soon as the skin is dry ignores the internal bleeding that is the real hazard (D).",
     strategy: "Fluid monitoring gold standard: Daily body weight (same scale, same time, after voiding). 1 kg weight change = 1 liter (1,000 mL) of fluid.",
     difficulty: "easy",
     tags: ["course:renal-fluid-and-electrolyte-nursing", "module:foundations", "lesson:renal-and-fluid-assessment", "daily-weight", "fluid-monitoring", "assessment"],
