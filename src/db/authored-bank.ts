@@ -1796,27 +1796,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IPC-0051",
   "categorySlug": "safety-infection-control",
-  "stem": "A man with a productive cough, night sweats and weight loss over two months is admitted while sputum results are awaited. Which precautions should the nurse institute?",
+  "stem": "On a busy Ghanaian ward, three extension leads are chained together from the single wall socket to reach four pieces of equipment, and the plug tops are warm. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "Contact precautions with gloves and gown"
+    "text": "Leave the arrangement exactly as it is, since the equipment is being used for patient care at this moment"
    },
    {
     "id": "b",
-    "text": "Droplet precautions with a surgical mask within one metre"
+    "text": "Take the equipment off the chained leads and report the inadequate socket provision for repair"
    },
    {
     "id": "c",
-    "text": "Standard precautions alone until the diagnosis is confirmed"
+    "text": "Tape the adaptors together so that they cannot work loose, and carry on using them"
    },
    {
     "id": "d",
-    "text": "Airborne precautions with an N95 respirator and a single room"
+    "text": "Run the equipment from the lighting circuit instead, so that the sockets are not overloaded"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Airborne precautions with an N95 respirator and a single room\". This presentation is <strong>presumptive pulmonary tuberculosis</strong>, which spreads by droplet nuclei small enough to remain suspended in air and travel beyond the immediate bedside. Airborne precautions — an N95 or FFP2 respirator, a single room with the door closed and ideally negative pressure — are instituted on <strong>clinical suspicion</strong>, not after confirmation.\n\nWhy the other options fail:\n• A — Contact precautions address organisms spread by touch. Gloves and a gown provide no protection against inhaled particles.\n• B — A surgical mask does not filter droplet nuclei and offers an inadequate facial seal. Droplet precautions suit organisms in larger droplets that fall within one to two metres.\n• C — Waiting for confirmation exposes staff and other patients for days. The whole purpose of presumptive isolation is to act before results arrive.\n\nReference: Ghana National Tuberculosis Programme; IPC guidelines",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — “Take the equipment off the chained leads and report the inadequate socket provision for repair”. Each socket and each lead is rated for a maximum current, and daisy-chaining adaptors adds the loads together while bypassing the fuse that was designed for the circuit. The current then heats the plugs, sockets and cable until the insulation fails or a fire starts, and in a ward that fire is beside oxygen and immobile patients. Warm plug tops are the warning sign. The load is reduced at once, the equipment moved to properly rated outlets, and the lack of sockets reported so that the estate or maintenance team can install a safe supply. Why the other options fail: patient care is exactly why the risk cannot be left, because a ward fire puts every patient on it in danger (A); taping the adaptors together keeps them connected but does nothing about the current or the heat (C); and moving the load onto the lighting circuit overloads a circuit never designed for medical equipment and defeats the protection that is supposed to trip (D).",
   "strategy": "Ask whether the particles fall or float. Large droplets fall within about two metres, so a surgical mask suffices. Droplet nuclei from TB, measles and chickenpox float and need a respirator and a room. When in doubt with a chronic cough, isolate first and de-escalate later.",
   "difficulty": "hard",
   "tags": [
@@ -37478,27 +37478,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDA-1094",
   "categorySlug": "med-surg",
-  "stem": "A patient with pyloric obstruction has been vomiting for several days. Which disturbance is expected?",
+  "stem": "An elective cholecystectomy is carried out and the biliary tract is opened under controlled conditions, with no unusual spillage. How should the nurse classify this wound?",
   "choices": [
    {
     "id": "a",
-    "text": "Metabolic alkalosis with a low chloride and a low potassium level"
+    "text": "Clean-contaminated, because a tract containing micro-organisms is entered in a controlled way"
    },
    {
     "id": "b",
-    "text": "Metabolic acidosis with a low bicarbonate and a raised potassium level"
+    "text": "Clean, because no infection was present anywhere and the operation had been planned well in advance"
    },
    {
     "id": "c",
-    "text": "Respiratory alkalosis with a low carbon dioxide and a normal bicarbonate"
+    "text": "Contaminated, because any operation that opens a hollow organ inevitably spills bacteria"
    },
    {
     "id": "d",
-    "text": "Respiratory acidosis with a raised carbon dioxide and a normal chloride"
+    "text": "Dirty, because the biliary tract carries organisms and the wound must be treated as infected"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Metabolic alkalosis with a low chloride and a low potassium level\". Vomiting from the stomach loses <strong>hydrochloric acid</strong>, so acid leaves the body and the pH rises. Chloride goes with it, and potassium is lost both in the vomit and through the kidney's attempt to retain sodium. The result is the classic <strong>hypochloraemic, hypokalaemic metabolic alkalosis</strong>, corrected with normal saline and potassium — the chloride matters as much as the water.\n\nWhy the other options fail:\n• B — Acidosis follows loss from below, such as diarrhoea, rather than loss of gastric acid.\n• C — The lungs are not the primary problem; the disturbance originates in the stomach.\n• D — Carbon dioxide may rise slightly as compensation, but the primary problem is metabolic.\n\nReference: Ghana nursing curriculum — RGN 203 acid-base",
+  "rationale": "CORRECT (A) — “Clean-contaminated, because a tract containing micro-organisms is entered in a controlled way”. The four surgical wound classes run clean, clean-contaminated, contaminated and dirty. A wound is clean-contaminated when the respiratory, alimentary, genital or urinary tract is entered under controlled conditions and without unusual contamination — an elective cholecystectomy, a planned bowel resection, a routine hysterectomy. The bacteria are there, but they are contained, so the expected infection rate sits between the clean and the contaminated group, and prophylaxis is often given. Why the other options fail: a clean wound is one in which no hollow viscus is entered at all, such as a hernia repair or a breast biopsy (B); a contaminated wound is one with gross spillage of visceral contents, a traumatic wound, or an operation where the sterile technique has been broken (C); and a dirty or infected wound is one that already holds pus or a perforated viscus at the time of surgery (D).",
   "strategy": "Ask which end the fluid left from. Losses from above cause alkalosis; losses from below cause acidosis.",
   "difficulty": "medium",
   "tags": [
@@ -39734,27 +39734,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OPR-1160",
   "categorySlug": "med-surg",
-  "stem": "Why is a wound dressing chosen to keep the wound bed slightly moist rather than dry?",
+  "stem": "A patient with an indwelling urinary catheter has drained nothing into the bag for four hours, and urine is now leaking around the outside of the tube. What is the most likely explanation?",
   "choices": [
    {
     "id": "a",
-    "text": "Moisture prevents bacteria from being able to survive in the wound"
+    "text": "The kidneys have stopped making urine, so the bladder is empty and there is nothing at all to drain"
    },
    {
     "id": "b",
-    "text": "Cells migrate across a moist surface but cannot cross a dry scab"
+    "text": "The balloon has burst and the catheter has slipped down the urethra, so urine escapes beside it"
    },
    {
     "id": "c",
-    "text": "A dry wound bed causes far more pain than a moist one ever does"
+    "text": "The catheter is blocked, so urine builds up behind it and escapes around the tube instead"
    },
    {
     "id": "d",
-    "text": "Moist dressings need changing much less often than dry gauze does"
+    "text": "The patient is drinking more than the bag can drain, so the excess urine spills out beside the tube"
    }
   ],
-  "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Cells migrate across a moist surface but cannot cross a dry scab\". Epithelial cells resurfacing a wound must <strong>crawl across the wound bed</strong>, and they can only do so through moisture. Under a dry scab they must burrow beneath it, which is slower and produces a worse scar. A moist environment also supports the enzymes that break down slough. The old belief that wounds should be dried out is <strong>wrong and delays healing</strong> — though soaking wet is equally harmful, because it macerates the surrounding skin.\n\nWhy the other options fail:\n• A — Moisture does not kill bacteria; an appropriate dressing manages the balance rather than sterilising.\n• C — Moist dressings are more comfortable, but comfort is not the mechanism of faster healing.\n• D — Fewer changes is a practical benefit, not the physiological reason for moist healing.\n\nReference: Ghana nursing curriculum — RGN 205 inflammation and wounds",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — “The catheter is blocked, so urine builds up behind it and escapes around the tube instead”. A catheter bypasses the urinary sphincter, so a correctly draining tube empties the bladder and no urine should appear beside it. When the lumen blocks — with sediment, mucus, blood clot or crystals, or because the tube is kinked or the bag is above the bladder — urine cannot leave through the tube, the bladder fills, and the pressure forces urine out along the path of least resistance, which is the space between the catheter and the urethral wall. The nurse checks the tubing for kinks, makes sure the bag hangs below the bladder, and reports so that the catheter can be irrigated or changed as prescribed. Why the other options fail: if the kidneys had stopped making urine there would be no leakage, because an empty bladder has nothing to push out (A); a burst balloon lets the catheter slide out altogether, and the tip is then visible rather than sitting in place (B); and drinking more makes the bag fill faster, not overflow through the urethra, as long as the drainage path is open (D).",
   "strategy": "Ask what the healing cells physically need to do. Cells migrate through moisture, not across crust.",
   "difficulty": "hard",
   "tags": [
@@ -90670,27 +90670,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FND-2644",
   "categorySlug": "safety-infection-control",
-  "stem": "A man at a Ghanaian restaurant begins choking but is coughing forcefully and can still make sounds. What should the responder do?",
+  "stem": "A clinical thermometer breaks on the floor of a Ghanaian treatment room and beads of mercury scatter across the tiles. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "Deliver five back blows between the shoulder blades immediately"
+    "text": "Vacuum the floor thoroughly so that none of the mercury is left where a patient can touch it"
    },
    {
     "id": "b",
-    "text": "Perform abdominal thrusts until the obstruction is expelled"
+    "text": "Sweep the beads into the drain and run water for several minutes to wash them away"
    },
    {
     "id": "c",
-    "text": "Attempt to remove the object with a finger sweep of the mouth"
+    "text": "Ventilate the room, keep people out, and collect the beads into a sealed labelled container"
    },
    {
     "id": "d",
-    "text": "Encourage him to keep coughing and stay with him, ready to act"
+    "text": "Wipe the area with a wet cloth and put the cloth in the ordinary clinical waste bag"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Encourage him to keep coughing and stay with him, ready to act\". An effective cough generates far greater airway pressure than any back blow or abdominal thrust, so while the person can cough, speak or breathe the obstruction is partial and the best intervention is to let the body's own mechanism work. Intervening at this stage can dislodge a partial obstruction into a complete one. The responder stays with the person, watches continuously, and acts the moment the cough becomes silent or ineffective, at which point five back blows alternating with five abdominal thrusts begin. The principle is that a partial obstruction with an effective cough is managed by encouragement, not intervention.\n\nWhy the other options fail:\n• A — Back blows are for ineffective coughing and may convert a partial obstruction into a complete one.\n• B — Abdominal thrusts carry a risk of internal injury and are reserved for ineffective coughing.\n• C — Blind finger sweeps push the object further down and are never recommended.\n\nReference: Standard choking management guidance",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — “Ventilate the room, keep people out, and collect the beads into a sealed labelled container”. Mercury is liquid at room temperature and gives off vapour continuously, and the vapour is what is toxic: it is inhaled, absorbed in the lungs and accumulates in the nervous system and kidneys. The room is therefore ventilated and cleared of people, and the beads are gathered with a stiff card, a pipette or a commercial spill kit into a container that seals, is labelled as hazardous waste, and is not put into the ordinary clinical waste stream. Skin contact is avoided and the hands are washed afterwards. Why the other options fail: a vacuum cleaner is the single worst thing to use, because it breaks the beads into a fine mist and blows mercury vapour through the exhaust into the room (A); washing it into the drain sends the mercury into the water supply and the food chain, and it settles in the trap where it keeps vaporising (B); and a wet cloth spreads the mercury over a larger area and then carries it into the waste bag, where it goes on giving off vapour (D).",
   "strategy": "Grade the obstruction before you act. Effective cough means encourage; ineffective cough means intervene.",
   "difficulty": "medium",
   "tags": [
