@@ -23,9 +23,9 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Autocratic leadership, with brief orders, named roles and closed-loop communication",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "In acute life-or-death resuscitations where seconds dictate survival, an autocratic (directive) leadership style is clinically indicated. The code leader must maintain command, make rapid high-stakes decisions, assign clear roles (chest compressions, airway, defibrillator, medication recorder), and demand closed-loop communication. Laissez-faire leads to chaos and delayed defibrillation; democratic consensus voting wastes critical seconds when immediate CPR is required; transformational lecturing is completely inappropriate during an emergency arrest. Why the other options fail: option a removes the leader in an arrest, when seconds decide the outcome. Option b puts a vote where a decision is needed. Option c motivates over the long term, which is not what a pulseless patient needs in the next thirty seconds.",
+      "CORRECT (D) — \"Autocratic leadership, with brief orders, named roles and closed-loop communication\" In acute life-or-death resuscitations where seconds dictate survival, an autocratic (directive) leadership style is clinically indicated. The code leader must maintain command, make rapid high-stakes decisions, assign clear roles (chest compressions, airway, defibrillator, medication recorder), and demand closed-loop communication. Laissez-faire leads to chaos and delayed defibrillation; democratic consensus voting wastes critical seconds when immediate CPR is required; transformational lecturing is completely inappropriate during an emergency arrest. Why the other options fail: option a is democratic leadership, and putting each shock energy to a vote spends seconds the rhythm does not allow. Option b is laissez-faire, which leaves each member to act alone, and that is how roles and defibrillation timing are lost. Option c motivates over the long term, which is not what a pulseless patient needs in the next thirty seconds.",
     strategy: "Leadership styles: Use autocratic (directive) leadership in immediate life-threatening crises; use democratic/transformational leadership for policy creation, change management, and unit committees.",
     difficulty: "easy",
     tags: ["leadership", "management", "leadership-styles", "code-blue", "crisis-management"],
@@ -42,7 +42,7 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Ask the assistant to take the stable patients and give antibiotics while nurses do dressings",
+        text: "Ask the healthcare assistant to take the stable patients and give their antibiotics while the two nurses do the dressings",
       },
       {
         id: "c",
@@ -53,9 +53,9 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Do the work of three nurses without escalation, because reporting looks like incompetence",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "When faced with an acute staffing shortage, the charge nurse must: 1) re-triage and prioritize care by client acuity, protecting time-critical treatments (airway, urgent medications, vital signs, post-op monitoring); 2) delegate routine, non-complex tasks within assistive personnel scope; and 3) escalate the staffing crisis formally and in writing to nursing management/supervision to seek float coverage. Delegating IV medications to an assistant is illegal malpractice; unilaterally locking doors violates institutional emergency response; abandoning the shift constitutes gross patient abandonment. Why the other options fail: option b gives an unqualified assistant a delegated clinical task while the two nurses split across tasks. Option c closes the unit to emergencies, which is not within the charge nurse's authority. Option d abandons the unit and the licence.",
+      "CORRECT (A) — \"Assess acuity, prioritise time-critical care, delegate basic care and escalate the shortfall in writing\" When faced with an acute staffing shortage, the charge nurse must: 1) re-triage and prioritize care by client acuity, protecting time-critical treatments (airway, urgent medications, vital signs, post-op monitoring); 2) delegate routine, non-complex tasks within assistive personnel scope; and 3) escalate the staffing crisis formally and in writing to nursing management/supervision to seek float coverage. Delegating IV medications to an assistant is illegal malpractice; unilaterally locking doors violates institutional emergency response; abandoning the shift constitutes gross patient abandonment. Why the other options fail: option b gives an unqualified assistant a delegated clinical task while the two nurses split across tasks. Option c closes the unit to emergencies, which is not within the charge nurse's authority. Option d abandons the unit and the licence.",
     strategy: "Managing understaffing: Prioritize essential care by acuity, delegate within legal scope, and formally escalate the shortage to nursing administration in writing.",
     difficulty: "medium",
     tags: ["leadership", "ward-management", "staffing", "prioritization", "escalation"],
@@ -72,7 +72,7 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Return the 8 mg to pharmacy at the end of the shift for credit against ward stock",
+        text: "Return the 8 mg to the pharmacy at the end of the shift for credit against ward stock, which is standard practice for part-ampoules",
       },
       {
         id: "c",
@@ -83,9 +83,9 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Keep the remaining 8 mg in a labelled syringe for the client's next scheduled dose",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "Controlled substances (such as opioids) are subject to strict statutory chain-of-custody protocols to prevent diversion and abuse. Any unused portion of a single-use narcotic must be destroyed immediately in the presence of a second licensed healthcare professional (RN or pharmacist). Both practitioners must directly witness the physical destruction and immediately sign/authenticate the narcotic record. Stashing leftover narcotics in pockets is illegal and facilitates diversion; un-witnessed sink wasting violates drug regulations; giving hospital narcotics to families constitutes illicit drug trafficking. Why the other options fail: option a wastes without a witness and documents after the fact. Option b returns a controlled drug to stock, which breaks the chain of custody. Option d gives a controlled drug to a family member, which is diversion.",
+      "CORRECT (C) — \"Waste the 8 mg into the approved receptacle with a second nurse watching, then both co-sign\" Controlled substances (such as opioids) are subject to strict statutory chain-of-custody protocols to prevent diversion and abuse. Any unused portion of a single-use narcotic must be destroyed immediately in the presence of a second licensed healthcare professional (RN or pharmacist). Both practitioners must directly witness the physical destruction and immediately sign/authenticate the narcotic record. Holding a leftover portion back for a later use is illegal and facilitates diversion, and un-witnessed sink wasting violates the drug regulations. Why the other options fail: option a wastes without a witness and documents after the fact. Option b returns a controlled drug to ward stock without the pharmacy intake, which breaks the chain of custody. Option d keeps part of a single-dose opioid back for a later dose, which is exactly how diversion starts.",
     strategy: "Controlled substances rule: Wastage of any unused portion requires immediate direct witnessing by a second licensed nurse and simultaneous co-signing of the narcotic register.",
     difficulty: "easy",
     tags: ["leadership", "controlled-substances", "opioid-wastage", "medication-security", "legal-nursing"],
@@ -113,9 +113,9 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Observing a senior clinician for two weeks, with no set objectives and no feedback",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "Malcolm Knowles' Andragogy theory emphasizes that adult learners: 1) are self-directed and internally motivated; 2) bring rich, diverse life and clinical experience that serves as a foundation for new learning; 3) are problem-centered and task-oriented (preferring real clinical dilemmas over theoretical rote memorization); and 4) learn best when the information has immediate, practical clinical utility. Passive rote lectures, infantilizing adult practitioners, and punitive shaming create hostility and inhibit adult learning. Why the other options fail: option a teaches protocols from first principles to people who already hold them. Option b leaves learning to reading with no application. Option d offers exposure without objectives or feedback.",
+      "CORRECT (C) — \"Problem-centred simulation built on their own clinical experience, with self-directed solving\" Malcolm Knowles' Andragogy theory emphasizes that adult learners: 1) are self-directed and internally motivated; 2) bring rich, diverse life and clinical experience that serves as a foundation for new learning; 3) are problem-centered and task-oriented (preferring real clinical dilemmas over theoretical rote memorization); and 4) learn best when the information has immediate, practical clinical utility. Passive rote lectures, infantilizing adult practitioners, and punitive shaming create hostility and inhibit adult learning. Why the other options fail: option a teaches protocols from first principles to people who already hold them. Option b leaves learning to reading with no application. Option d offers exposure without objectives or feedback.",
     strategy: "Knowles' Adult Learning Principles: Adults are self-directed, experience-driven, problem-centered, and value immediate clinical relevance.",
     difficulty: "medium",
     tags: ["leadership", "andragogy", "adult-learning", "knowles", "clinical-education"],
@@ -132,7 +132,7 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Preceptorship is for new graduates only, while mentorship is for failed competency reviews",
+        text: "Preceptorship is for new graduates only, while mentorship is reserved for nurses who have failed a competency review",
       },
       {
         id: "c",
@@ -143,9 +143,9 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Preceptorship is time-limited and competence-focused; mentorship is long-term and career-focused",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "Preceptorship is a formal, assigned, time-limited partnership between an experienced staff nurse (preceptor) and a novice nurse/student to teach clinical skills, socialize them into the unit, ensure patient safety, and verify clinical competence. In contrast, mentorship is typically an ongoing, voluntary, mutually agreed-upon professional relationship focused on long-term career growth, leadership development, scholarly aspirations, and personal fulfillment. Why the other options fail: option a turns preceptorship into a qualification and strips mentorship of any purpose. Option b invents eligibility rules for both. Option c makes them identical, which is the distinction the question asks for.",
+      "CORRECT (D) — \"Preceptorship is time-limited and competence-focused; mentorship is long-term and career-focused\" Preceptorship is a formal, assigned, time-limited partnership between an experienced staff nurse (preceptor) and a novice nurse/student to teach clinical skills, socialize them into the unit, ensure patient safety, and verify clinical competence. In contrast, mentorship is typically an ongoing, voluntary, mutually agreed-upon professional relationship focused on long-term career growth, leadership development, scholarly aspirations, and personal fulfillment. Why the other options fail: option a turns preceptorship into a qualification and strips mentorship of any purpose. Option b invents eligibility rules for both. Option c makes them identical, which is the distinction the question asks for.",
     strategy: "Preceptorship = formal, time-limited, competency and skill-focused onboarding. Mentorship = long-term, voluntary, holistic professional career guidance.",
     difficulty: "easy",
     tags: ["leadership", "preceptorship", "mentorship", "professional-development", "clinical-teaching"],
@@ -173,9 +173,9 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Pause to protect sterility, restore asepsis, then debrief privately using the SBI framework",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "When a break in sterility occurs, the preceptor's first duty is client safety—gently stopping the breach and replacing sterile supplies without shaming the novice in front of the client. Afterward, constructive feedback should occur in a private, supportive setting using structured models like SBI (Situation: during catheter insertion; Behavior: touching the unsterile bed rail with sterile gloves; Impact: introduces infection risk). This preserves psychological safety and fosters clinical growth. Public humiliation damages morale; ignoring contamination causes CAUTI; jumping to board revocation is inappropriate for a learning error. Why the other options fail: option a removes the learner from the procedure, so no learning occurs. Option b delays the feedback until it cannot change behaviour. Option c corrects in front of the client, which teaches fear rather than technique.",
+      "CORRECT (D) — \"Pause to protect sterility, restore asepsis, then debrief privately using the SBI framework\" When a break in sterility occurs, the preceptor's first duty is client safety—gently stopping the breach and replacing sterile supplies without shaming the novice in front of the client. Afterward, constructive feedback should occur in a private, supportive setting using structured models like SBI (Situation: during catheter insertion; Behavior: touching the unsterile bed rail with sterile gloves; Impact: introduces infection risk). This preserves psychological safety and fosters clinical growth. Public humiliation damages morale, and ignoring contamination is how a CAUTI happens. Why the other options fail: option a removes the learner from the procedure, so no learning occurs. Option b delays the feedback until it cannot change behaviour. Option c corrects in front of the client, which teaches fear rather than technique.",
     strategy: "Feedback principle: Intervene immediately to maintain client safety, then deliver formative feedback privately, objectively, and constructively.",
     difficulty: "easy",
     tags: ["leadership", "constructive-feedback", "preceptorship", "sbi-model", "patient-safety"],
@@ -203,9 +203,9 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "The incidence of catheter-related bloodstream infection, which is the outcome",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "The PICO framework structures clinical research questions: P = Population/Patient problem (Adult ICU clients with central lines); I = Intervention (Chlorhexidine skin prep); C = Comparison/Control intervention (Povidone-iodine); O = Outcome (CLABSI incidence rate). In this scenario, povidone-iodine is the standard/comparator intervention ('C'). Why the other options fail: option a is the population, which is the P. Option b is the intervention, the I rather than the C. Option d is the outcome, the O.",
+      "CORRECT (C) — \"Povidone-iodine topical skin preparation, the comparison intervention\" The PICO framework structures clinical research questions: P = Population/Patient problem (Adult ICU clients with central lines); I = Intervention (Chlorhexidine skin prep); C = Comparison/Control intervention (Povidone-iodine); O = Outcome (CLABSI incidence rate). In this scenario, povidone-iodine is the standard/comparator intervention ('C'). Why the other options fail: option a is the population, which is the P. Option b is the intervention, the I rather than the C. Option d is the outcome, the O.",
     strategy: "Remember PICO: P = Population, I = Intervention, C = Comparison, O = Outcome. Identify each component methodically.",
     difficulty: "easy",
     tags: ["leadership", "pico", "evidence-based-practice", "research-methods", "clabsi"],
@@ -233,9 +233,9 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "An expert consensus guideline written by a national professional body",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "In the hierarchy of clinical evidence, systematic reviews and meta-analyses of randomized controlled trials (RCTs) occupy the peak (Level I) because they synthesize data across multiple high-powered, rigorously controlled experimental studies, minimizing bias. Single case-control studies and qualitative phenomenological reports provide lower levels of evidence (Levels IV–VI). Expert opinion, editorials, and blogs reside at the very bottom (Level VII). Why the other options fail: option a is a single trial, which sits below a synthesis of trials. Option c is observational, which sits below any randomised design. Option d is expert opinion, which sits near the base of the pyramid.",
+      "CORRECT (B) — \"A systematic review and meta-analysis of several rigorous randomised trials\" In the hierarchy of clinical evidence, systematic reviews and meta-analyses of randomized controlled trials (RCTs) occupy the peak (Level I) because they synthesize data across multiple high-powered, rigorously controlled experimental studies, minimizing bias. Single case-control studies and qualitative phenomenological reports provide lower levels of evidence (Levels IV–VI). Expert opinion, editorials, and blogs reside at the very bottom (Level VII). Why the other options fail: option a is a single trial, which sits below a synthesis of trials. Option c is observational, which sits below any randomised design. Option d is expert opinion, which sits near the base of the pyramid.",
     strategy: "Hierarchy of evidence: Systematic reviews and meta-analyses of RCTs sit at the apex (Level I), while expert opinion and anecdotes sit at the base (Level VII).",
     difficulty: "easy",
     tags: ["leadership", "evidence-hierarchy", "systematic-review", "rct", "evidence-based-practice"],
@@ -263,9 +263,9 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Voluntary written consent, with risks, benefits and the right to withdraw explained",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "The Declaration of Helsinki and modern Institutional Review Board (IRB) codes mandate that human clinical research must uphold participant autonomy through voluntary informed consent, full disclosure of risks and benefits, and guarantees that participants may withdraw at any time without compromising clinical care. Coercive financial incentives, withholding standard curative care from control groups as in the unethical Tuskegee study, and publishing confidential identifiers are gross violations of bioethics and international human rights law. Why the other options fail: Taking written consent through the ward clerk on the day and explaining the risks afterwards inverts the order; verbal consent from a relative is not the client's consent; leaving the risks out so the client is not frightened voids the consent.",
+      "CORRECT (D) — \"Voluntary written consent, with risks, benefits and the right to withdraw explained\" The Declaration of Helsinki and modern Institutional Review Board (IRB) codes mandate that human clinical research must uphold participant autonomy through voluntary informed consent, full disclosure of risks and benefits, and guarantees that participants may withdraw at any time without compromising clinical care. Coercive financial incentives, withholding standard curative care from control groups as in the unethical Tuskegee study, and publishing confidential identifiers are gross violations of bioethics and international human rights law. Why the other options fail: Taking written consent through the ward clerk on the day and explaining the risks afterwards inverts the order; verbal consent from a relative is not the client's consent; leaving the risks out so the client is not frightened voids the consent.",
     strategy: "Research ethics: Voluntary informed consent, IRB approval, full risk disclosure, protection of vulnerable populations, and zero penalty for study withdrawal.",
     difficulty: "easy",
     tags: ["leadership", "research-ethics", "irb", "declaration-of-helsinki", "informed-consent"],
@@ -278,7 +278,7 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Define the problem, set the aim and identify the root causes of the delay",
+        text: "Define the problem, set the aim and identify the root causes of the delay before any change is tested on the ward",
       },
       {
         id: "b",
@@ -293,9 +293,9 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Run the change as a small pilot, document what happens and note unexpected problems",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "The Deming/IHI PDSA cycle operates as follows: 1) PLAN = define the problem, aim, metrics, and intervention; 2) DO = test the change on a small scale (pilot), execute the plan, and record observations/obstacles; 3) STUDY = analyze post-intervention data against baseline and evaluate lessons learned; 4) ACT = decide whether to adopt, adapt, or abandon the change based on results. Why the other options fail: Defining the problem and the aim is the Plan phase, which comes before the test; analysing the pilot results is Study, which follows it; rolling the change across the whole hospital is Act, which waits for the study.",
+      "CORRECT (D) — \"Run the change as a small pilot, document what happens and note unexpected problems\" The Deming/IHI PDSA cycle operates as follows: 1) PLAN = define the problem, aim, metrics, and intervention; 2) DO = test the change on a small scale (pilot), execute the plan, and record observations/obstacles; 3) STUDY = analyze post-intervention data against baseline and evaluate lessons learned; 4) ACT = decide whether to adopt, adapt, or abandon the change based on results. Why the other options fail: Defining the problem and the aim is the Plan phase, which comes before the test; analysing the pilot results is Study, which follows it; rolling the change across the whole hospital is Act, which waits for the study.",
     strategy: "PDSA cycle stages: Plan (design), Do (test small pilot), Study (analyze results), Act (adopt, adapt, or abandon).",
     difficulty: "medium",
     tags: ["leadership", "pdsa", "quality-improvement", "patient-safety", "change-cycles"],
@@ -323,9 +323,9 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "An unforeseeable event, which no model of accident causation can explain",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "James Reason's Swiss Cheese Model posits that complex organizational accidents rarely stem from isolated individual carelessness. Instead, defense barriers (layers of cheese) contain inherent holes (latent failures: look-alike drug packaging, poor equipment maintenance, excessive mandatory overtime, poor lighting/distractions). When these holes align across multiple institutional defenses, an active human error penetrates and harms the client. System engineering focuses on eliminating latent hazards rather than merely blaming the last human touchpoint. Why the other options fail: Blaming individual carelessness stops the analysis where the model begins; separating active failures from latent conditions contradicts the model, which holds that they align; an unforeseeable event is not what the model finds when the defences were defeated.",
+      "CORRECT (C) — \"Latent system conditions that aligned with active failures to defeat the defences\" James Reason's Swiss Cheese Model posits that complex organizational accidents rarely stem from isolated individual carelessness. Instead, defense barriers (layers of cheese) contain inherent holes (latent failures: look-alike drug packaging, poor equipment maintenance, excessive mandatory overtime, poor lighting/distractions). When these holes align across multiple institutional defenses, an active human error penetrates and harms the client. System engineering focuses on eliminating latent hazards rather than merely blaming the last human touchpoint. Why the other options fail: Blaming individual carelessness stops the analysis where the model begins; separating active failures from latent conditions contradicts the model, which holds that they align; an unforeseeable event is not what the model finds when the defences were defeated.",
     strategy: "Swiss Cheese Model: Complex medical errors result from alignment of latent system failures (organizational defects) and active human errors across defense barriers.",
     difficulty: "medium",
     tags: ["leadership", "swiss-cheese-model", "james-reason", "system-failure", "patient-safety"],
@@ -353,9 +353,9 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Sabotage: remove the nurse from clinical duties pending the investigation",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "Just Culture categorizes workplace behaviors into three distinct categories: 1) Human error (inadvertent mistake, slip, or lapse while performing care) -> console the worker and fix system/device vulnerabilities; 2) At-risk behavior (taking shortcuts where risk is mistakenly believed to be negligible or justified) -> coach the worker and remove incentives for shortcuts; 3) Reckless behavior (conscious, intentional disregard of substantial, unjustifiable risk) -> disciplinary sanction. Misprogramming due to confusing user-interface design is a classic human error deserving consolation and system redesign. Why the other options fail: option a is at-risk behaviour, which requires a known risk the nurse accepted. Option b is reckless behaviour, which requires conscious disregard. Option d is sabotage, which requires intent to harm.",
+      "CORRECT (C) — \"Human error: console the nurse, examine the pump interface and add a safeguard\" Just Culture categorizes workplace behaviors into three distinct categories: 1) Human error (inadvertent mistake, slip, or lapse while performing care) -> console the worker and fix system/device vulnerabilities; 2) At-risk behavior (taking shortcuts where risk is mistakenly believed to be negligible or justified) -> coach the worker and remove incentives for shortcuts; 3) Reckless behavior (conscious, intentional disregard of substantial, unjustifiable risk) -> disciplinary sanction. Misprogramming due to confusing user-interface design is a classic human error deserving consolation and system redesign. Why the other options fail: option a is at-risk behaviour, which requires a known risk the nurse accepted. Option b is reckless behaviour, which requires conscious disregard. Option d is sabotage, which requires intent to harm.",
     strategy: "Just Culture framework: Human error = Console and redesign system; At-risk behavior = Coach; Reckless behavior = Discipline.",
     difficulty: "medium",
     tags: ["leadership", "just-culture", "human-error", "patient-safety", "root-cause-analysis"],
@@ -380,12 +380,12 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "Arrange a taxi to the district hospital without magnesium, since loading needs a hospital",
+        text: "Arrange a taxi to the district hospital without magnesium, since a loading dose can only be given once she reaches hospital",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "Under Ghana Health Service primary care and CHPS protocols, severe pre-eclampsia is an obstetric emergency requiring urgent stabilization followed by expedited referral up the healthcare cascade. The Community Health Officer administers a loading dose of magnesium sulphate (anticonvulsant) and rapid-acting antihypertensive (such as oral labetalol or hydralazine) within standing orders, secures transport, notifies the receiving District Hospital, and accompanies or coordinates skilled handover. Retaining the patient at CHPS causes eclamptic seizures and maternal death; discharging home is fatal malpractice; uncoordinated commercial transport fails basic emergency transfer standards. Why the other options fail: option b delays referral for a condition that can progress to eclampsia within hours. Option c sends a woman with severe pre-eclampsia home. Option d moves her without the loading dose that standing orders permit.",
+      "CORRECT (A) — \"Give magnesium sulphate and an antihypertensive, stabilise, then refer urgently with handover\" Under Ghana Health Service primary care and CHPS protocols, severe pre-eclampsia is an obstetric emergency requiring urgent stabilization followed by expedited referral up the healthcare cascade. The Community Health Officer administers a loading dose of magnesium sulphate (anticonvulsant) and rapid-acting antihypertensive (such as oral labetalol or hydralazine) within standing orders, secures transport, notifies the receiving District Hospital, and accompanies or coordinates skilled handover. Retaining the patient at CHPS causes eclamptic seizures and maternal death; discharging home is fatal malpractice; uncoordinated commercial transport fails basic emergency transfer standards. Why the other options fail: option b delays referral for a condition that can progress to eclampsia within hours. Option c sends a woman with severe pre-eclampsia home. Option d moves her without the loading dose that standing orders permit.",
     strategy: "CHPS referral pathway: Stabilize with protocol emergency therapy (magnesium sulphate), communicate with receiving facility, and ensure rapid escorted transfer.",
     difficulty: "medium",
     tags: ["leadership", "chps", "ghana-health-service", "primary-health-care", "referral-pathway"],
@@ -402,7 +402,7 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Free care for registered members, with the cost recovered from higher non-member charges",
+        text: "Free care for all registered members, with the whole cost recovered from higher charges levied on non-members",
       },
       {
         id: "c",
@@ -413,9 +413,9 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "A basic package for every citizen, funded from general taxation with no contribution",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "The National Health Insurance Scheme (NHIS) was established (under Act 650, revised Act 852) to eliminate the punitive 'cash-and-carry' system that forced patients to pay out-of-pocket before receiving emergency or essential healthcare. Its primary objective is risk pooling and social financial protection to ensure that all citizens, especially the vulnerable and indigent, can access essential healthcare without experiencing catastrophic poverty, advancing Universal Health Coverage (UHC). NHIS is a social public health protection mechanism, not a private for-profit venture. Why the other options fail: Recovering the cost from non-member charges is the opposite of removing a financial barrier; contributory cover that stops at the formal sector leaves the informal majority outside; a tax-funded basic package is a different financing model, not the removal of point-of-care fees.",
+      "CORRECT (A) — \"Removing financial barriers at the point of care and preventing catastrophic out-of-pocket payment\" The National Health Insurance Scheme (NHIS) was established (under Act 650, revised Act 852) to eliminate the punitive 'cash-and-carry' system that forced patients to pay out-of-pocket before receiving emergency or essential healthcare. Its primary objective is risk pooling and social financial protection to ensure that all citizens, especially the vulnerable and indigent, can access essential healthcare without experiencing catastrophic poverty, advancing Universal Health Coverage (UHC). NHIS is a social public health protection mechanism, not a private for-profit venture. Why the other options fail: Recovering the cost from non-member charges is the opposite of removing a financial barrier; contributory cover that stops at the formal sector leaves the informal majority outside; a tax-funded basic package is a different financing model, not the removal of point-of-care fees.",
     strategy: "Health financing policy: NHIS eliminates 'cash-and-carry' and prevents catastrophic out-of-pocket spending to achieve Universal Health Coverage.",
     difficulty: "easy",
     tags: ["leadership", "nhis", "universal-health-coverage", "health-policy", "ghana"],
@@ -436,16 +436,16 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Lobby for more midwives at the district hospital, where most deliveries take place",
+        text: "Lobby for more midwives at the district hospital, where most of the district's deliveries already take place",
       },
       {
         id: "d",
         text: "Campaign for a maternity wing at every facility, starting nearest the district capital",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "Nurses in health administration and policy leadership exercise policy voice by using empirical public health data (such as DHIMS-2 metrics) to highlight healthcare disparities, maternal-neonatal morbidity trends, and resource bottlenecks. Advocating for targeted resource allocation, ambulance networks, and training for frontline primary healthcare providers drives systemic population-level improvements. Apathy, urban misallocation, and eliminating nursing cadres actively worsen health outcomes. Why the other options fail: Presenting mortality figures to ask for a vehicle does not target the worst outcomes; concentrating midwives at the district hospital ignores where the deaths are occurring; a maternity wing in every facility spreads resources evenly rather than toward the worst outcomes.",
+      "CORRECT (B) — \"Use district data to find the worst maternal outcomes, target resources there and build transport\" Nurses in health administration and policy leadership exercise policy voice by using empirical public health data (such as DHIMS-2 metrics) to highlight healthcare disparities, maternal-neonatal morbidity trends, and resource bottlenecks. Advocating for targeted resource allocation, ambulance networks, and training for frontline primary healthcare providers drives systemic population-level improvements. Apathy, urban misallocation, and eliminating nursing cadres actively worsen health outcomes. Why the other options fail: Presenting mortality figures to ask for a vehicle does not target the worst outcomes; concentrating midwives at the district hospital ignores where the deaths are occurring; a maternity wing in every facility spreads resources evenly rather than toward the worst outcomes.",
     strategy: "Nursing policy voice: Leverage epidemiological health data (DHIMS-2) to advocate for equitable resource allocation and address maternal-child health disparities.",
     difficulty: "medium",
     tags: ["leadership", "health-policy", "dhmt", "dhims2", "policy-advocacy"],
@@ -466,16 +466,16 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Confirm NMC registration and open, since a licence to practise licenses the facility",
+        text: "Confirm NMC registration and open the home, since a licence to practise is also a licence for the facility",
       },
       {
         id: "d",
         text: "Obtain HeFRA accreditation and open, since the facility regulator also covers the nurse",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "Health entrepreneurship requires strict adherence to statutory regulatory frameworks. Under Ghanaian law (Health Institutions and Facilities Act 829), all healthcare facilities—including nurse/midwife-led private clinics and maternity homes—must be inspected, accredited, and licensed by the Health Facilities Regulatory Agency (HeFRA). Furthermore, the practitioner must maintain active licensure and good standing with the Nursing and Midwifery Council (NMC), ensure a defined clinical scope, and maintain formal emergency referral links with a higher-level facility. Operating without HeFRA licensing is illegal and subject to criminal closure. Why the other options fail: option a registers a business without licensing the facility or checking professional standing. Option c treats a personal licence as a facility licence. Option d accredits the building and leaves the practitioner unchecked.",
+      "CORRECT (B) — \"HeFRA facility accreditation, NMC good standing, and practice within scope and referral protocols\" Health entrepreneurship requires strict adherence to statutory regulatory frameworks. Under Ghanaian law (Health Institutions and Facilities Act 829), all healthcare facilities—including nurse/midwife-led private clinics and maternity homes—must be inspected, accredited, and licensed by the Health Facilities Regulatory Agency (HeFRA). Furthermore, the practitioner must maintain active licensure and good standing with the Nursing and Midwifery Council (NMC), ensure a defined clinical scope, and maintain formal emergency referral links with a higher-level facility. Operating without HeFRA licensing is illegal and subject to criminal closure. Why the other options fail: option a registers a business without licensing the facility or checking professional standing. Option c treats a personal licence as a facility licence. Option d accredits the building and leaves the practitioner unchecked.",
     strategy: "Health entrepreneurship: Private health facilities require formal licensing from regulatory authorities (HeFRA) and active council registration (NMC).",
     difficulty: "medium",
     tags: ["leadership", "entrepreneurship", "hefra", "regulation", "advanced-practice"],
@@ -492,7 +492,7 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "A national advertising campaign showing nurses at work, funded by the association",
+        text: "A national advertising campaign showing nurses at work in every region, funded and run by the professional association",
       },
       {
         id: "c",
@@ -503,9 +503,9 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Focus on clinical work and let the image improve as patients experience good care",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "The public image of nursing directly influences public trust, recruitment of top candidates, legislative healthcare funding, and the profession's policy-making influence. The International Council of Nurses (ICN) and national associations advocate for proactive media engagement: publishing clinical research, writing thought-leadership articles, speaking as expert panelists on national health topics, and showcasing nursing's scientific, autonomous clinical contributions. Silence and unkempt presentation perpetuate harmful stereotypes. Why the other options fail: An advertising campaign spends money on image rather than on evidence and expertise; speaking only through the ministry's communications office channels the profession's voice through another body; waiting for patients to notice good care assumes an image changes by itself.",
+      "CORRECT (A) — \"Publish research, write in the media, and join policy panels and professional associations\" The public image of nursing directly influences public trust, recruitment of top candidates, legislative healthcare funding, and the profession's policy-making influence. The International Council of Nurses (ICN) and national associations advocate for proactive media engagement: publishing clinical research, writing thought-leadership articles, speaking as expert panelists on national health topics, and showcasing nursing's scientific, autonomous clinical contributions. Silence leaves the stereotype unchallenged. Why the other options fail: An advertising campaign spends money on image rather than on evidence and expertise; speaking only through the ministry's communications office channels the profession's voice through another body; waiting for patients to notice good care assumes an image changes by itself.",
     strategy: "Professional image: Elevate nursing through thought leadership, clinical research publication, media engagement, and professional association advocacy.",
     difficulty: "easy",
     tags: ["leadership", "professional-image", "grna", "icn", "advocacy"],
@@ -526,16 +526,16 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "A roster giving each nurse three consecutive days off every month",
+        text: "A roster giving each nurse three consecutive days off every month so that people can recover between shifts",
       },
       {
         id: "d",
         text: "Rotate staff through the oncology unit quickly so no one is exposed for long",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "Compassion fatigue and burnout are occupational hazards in high-stress, emotionally demanding healthcare specialties. Evidence-based organizational interventions include: regular clinical multidisciplinary debriefings (such as Schwartz Center Rounds) to discuss emotional aspects of care, ensuring safe staffing ratios, providing confidential mental health support programs (EAP), and fostering peer support. Punitive threats, increasing workload, and demanding emotional apathy exacerbate psychological trauma and accelerate nurse turnover. Why the other options fail: Mandatory resilience training makes the individual responsible for a system problem; three consecutive days off every month adds rest without changing the workload that caused the exhaustion; rotating staff quickly reduces exposure instead of fixing it and spreads the burnout.",
+      "CORRECT (A) — \"Structured debriefing, safe staffing ratios, confidential counselling and peer support\" Compassion fatigue and burnout are occupational hazards in high-stress, emotionally demanding healthcare specialties. Evidence-based organizational interventions include: regular clinical multidisciplinary debriefings (such as Schwartz Center Rounds) to discuss emotional aspects of care, ensuring safe staffing ratios, providing confidential mental health support programs (EAP), and fostering peer support. Punitive threats, increasing workload, and demanding emotional apathy exacerbate psychological trauma and accelerate nurse turnover. Why the other options fail: Mandatory resilience training makes the individual responsible for a system problem; three consecutive days off every month adds rest without changing the workload that caused the exhaustion; rotating staff quickly reduces exposure instead of fixing it and spreads the burnout.",
     strategy: "Combating burnout: Address systemic staffing ratios, offer structured emotional debriefings (Schwartz rounds), and provide confidential employee counseling.",
     difficulty: "easy",
     tags: ["leadership", "burnout", "compassion-fatigue", "occupational-health", "nurse-retention"],
@@ -556,16 +556,16 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Set a compliance target and audit it monthly, reporting the results to the manager",
+        text: "Set a compliance target for the new system and audit it monthly, reporting the results to the ward manager",
       },
       {
         id: "d",
         text: "Set up a staff committee to decide whether the system should be introduced at all",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "Kurt Lewin's 3-Step Change Theory consists of: 1) UNFREEZING = creating motivation and readiness for change by challenging the status quo, showing the need for innovation (e.g., highlighting medication error risks in paper records), and addressing emotional resistance; 2) MOVING (CHANGING) = executing the transition, providing hands-on training, and coaching through the new workflow; 3) REFREEZING = stabilizing and institutionalizing the change into permanent standard operating procedures. Why the other options fail: Implementing overnight and training afterwards skips unfreezing and guarantees resistance; a compliance target audited monthly is refreezing, which comes after the change; a staff committee deciding whether to introduce the system delegates a decision the manager has already been given.",
+      "CORRECT (B) — \"Help staff see the limits of paper charting and address their anxieties, creating readiness\" Kurt Lewin's 3-Step Change Theory consists of: 1) UNFREEZING = creating motivation and readiness for change by challenging the status quo, showing the need for innovation (e.g., highlighting medication error risks in paper records), and addressing emotional resistance; 2) MOVING (CHANGING) = executing the transition, providing hands-on training, and coaching through the new workflow; 3) REFREEZING = stabilizing and institutionalizing the change into permanent standard operating procedures. Why the other options fail: Implementing overnight and training afterwards skips unfreezing and guarantees resistance; a compliance target audited monthly is refreezing, which comes after the change; a staff committee deciding whether to introduce the system delegates a decision the manager has already been given.",
     strategy: "Lewin's Change Theory: Unfreezing (create awareness and readiness), Moving (implement change and train), Refreezing (institutionalize and sustain).",
     difficulty: "medium",
     tags: ["leadership", "lewin-change-model", "unfreezing", "change-management", "innovation"],
@@ -590,12 +590,12 @@ export const PRO2_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "Refer the unit for external accreditation review, since internal audit cannot change practice",
+        text: "Refer the unit for an external accreditation review, since an internal audit has no authority to change practice",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "A clinical audit is a quality improvement process that seeks to improve client care and outcomes through systematic review of care against explicit criteria and the implementation of change. The complete clinical audit cycle requires: 1) identifying standard criteria; 2) measuring current practice; 3) comparing results with standards; 4) implementing corrective evidence-based changes; and 5) re-auditing practice to verify that improvements occurred ('closing the audit loop'). Hiding the report or falsifying data violates clinical governance and ethics. Why the other options fail: option a records the finding without changing anything. Option c introduces the change but never measures it, so the loop stays open. Option d hands the problem to another body, which does not close the cycle.",
+      "CORRECT (B) — \"Analyse causes, apply evidence-based changes, and re-audit after a set period to close the loop\" A clinical audit is a quality improvement process that seeks to improve client care and outcomes through systematic review of care against explicit criteria and the implementation of change. The complete clinical audit cycle requires: 1) identifying standard criteria; 2) measuring current practice; 3) comparing results with standards; 4) implementing corrective evidence-based changes; and 5) re-auditing practice to verify that improvements occurred ('closing the audit loop'). Hiding the report or falsifying data violates clinical governance and ethics. Why the other options fail: option a records the finding without changing anything. Option c introduces the change but never measures it, so the loop stays open. Option d hands the problem to another body, which does not close the cycle.",
     strategy: "Clinical audit cycle: Measure practice against standards, implement evidence-based corrective changes, and re-audit to close the audit loop.",
     difficulty: "medium",
     tags: ["leadership", "clinical-audit", "clinical-governance", "audit-loop", "quality-improvement"],
