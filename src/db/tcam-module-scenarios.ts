@@ -158,24 +158,24 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Allow the prayer and anointing straight away, since spiritual rituals carry no infection risk and delaying them would show disrespect for the family's faith at a frightening time",
+        text: "Allow the prayer and anointing at once, since spiritual rituals carry no infection risk and delay is disrespectful",
       },
       {
         id: "b",
-        text: "Decline the visit until the client is discharged, because religious gatherings are a recognised source of hospital-acquired infection on inpatient wards and in side rooms",
+        text: "Decline the visit until discharge, because religious gatherings are a recognised source of hospital infection",
       },
       {
         id: "c",
-        text: "Facilitate the pastoral prayer and anointing visit at a mutually suitable time, ensuring standard infection control (hand hygiene) is maintained, while ensuring that intravenous antibiotics and medical treatments continue uninterrupted",
+        text: "Arrange the prayer at a suitable time, keep hand hygiene, and let the antibiotics continue uninterrupted",
       },
       {
         id: "d",
-        text: "Postpone the visit until the antibiotic course is finished, so that prayer does not interfere with the action of the intravenous antibiotic or reduce its effectiveness",
+        text: "Postpone the visit until the antibiotic course is finished, so that prayer cannot reduce its effectiveness",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "In pluralist healthcare environments, spiritual beliefs and faith-based practices play a vital therapeutic role in client coping, psychological well-being, and hope. The nurse should support beneficial spiritual rituals (prayer, anointing) provided they do not introduce infection risks or disrupt necessary medical therapy. Coordinating visiting times, enforcing hand hygiene, and maintaining continuous antibiotic administration bridges faith and evidence-based science harmoniously. Arresting clergy causes emotional distress; stopping antibiotics leads to septic death; pouring oil into IV lines causes fatal oil embolism and sepsis. Why the other options fail: spiritual rituals are not risk-free and still require infection control; refusing the visit confuses infection prevention with spiritual care; and prayer does not interfere with antibiotic action.",
+      "CORRECT (C) — “Arrange the prayer at a suitable time, keep hand hygiene, and let the antibiotics continue uninterrupted”. Spiritual care is part of nursing, and a request for prayer and anointing at a frightening time is reasonable. The nurse makes it possible: a mutually suitable time, the fewest people needed, hand hygiene before and after, and the infusion and antibiotics running to schedule. Nothing about the ritual interferes with the treatment, and refusing it would damage trust for no clinical gain. Why the other options fail: A — allowing a group in without any thought about hand hygiene or crowding ignores a real infection risk in a patient with severe pneumonia; B — refusing outright is not justified, since the risk is manageable; D — prayer has no effect on the action of ceftriaxone, so postponing the visit has no clinical basis and simply withholds support the patient asked for.",
     strategy: "Faith-based integration: Accommodate and support spiritual rituals that bring comfort while ensuring infection control and uninterrupted medical therapy.",
     difficulty: "easy",
     tags: ["tcam", "faith-healing", "spiritual-care", "holistic-nursing", "cultural-competence"],
@@ -274,28 +274,28 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-TCAM-010",
     categorySlug: "fundamentals",
-    stem: "A 58-year-old client is scheduled for an elective total hip arthroplasty in two weeks. During pre-admission assessment, the client states, 'I take daily St. John's Wort, Ginkgo biloba, and Ginseng capsules.' What instruction must the nurse give the client regarding these herbal supplements prior to surgery?",
+    stem: "A woman in a village has been in labour for twelve hours with the traditional birth attendant and the baby has still not been born. What should the attendant do?",
     choices: [
       {
         id: "a",
-        text: "Continue the supplements and simply tell the anaesthetist on the morning of surgery that they have been taken, so the team can plan around them",
+        text: "Continue to wait, because a first labour commonly lasts longer than twelve hours",
       },
       {
         id: "b",
-        text: "Stop only St John's Wort and continue ginkgo and ginseng up to the day of surgery, since only the antidepressant herb affects anaesthesia",
+        text: "Give her a herbal preparation to strengthen the contractions and keep waiting at home",
       },
       {
         id: "c",
-        text: "Discontinue all herbal supplements immediately (at least 2 to 3 weeks prior to elective surgery) to prevent intraoperative hemorrhage, unstable hemodynamic fluctuations, and adverse anesthetic drug interactions",
+        text: "Arrange immediate referral to the health centre and send a note of the labour with her",
       },
       {
         id: "d",
-        text: "Continue all three but halve the dose for the week before surgery, so that the blood-thinning effect falls without losing the memory benefit",
+        text: "Ask the family to bring a second attendant who has more experience of difficult births",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "The American Society of Anesthesiologists (ASA) and surgical safety guidelines mandate that all herbal remedies and dietary supplements should be discontinued at least 2 to 3 weeks prior to elective surgery. Herbals pose multiple perioperative hazards: Ginkgo and Ginseng inhibit platelet function and provoke intraoperative hemorrhage; St. John's Wort induces hepatic drug metabolism, altering anesthetic clearance and prolonging sedative recovery; Ephedra/Ginseng can trigger intraoperative cardiac arrhythmias and hypertensive crises. Doubling doses or hiding supplement use creates life-threatening surgical emergencies. Why the other options fail: disclosure on the morning of surgery is too late to reverse platelet inhibition or enzyme induction; leaving ginkgo and ginseng in place preserves the bleeding risk; and dose reduction does not remove the interaction.",
+      "CORRECT (C) — “Arrange immediate referral to the health centre and send a note of the labour with her”. Twelve hours without delivery is prolonged labour, and the attendants at a village birth are judged on recognising it early rather than on finishing at home. The woman is referred without delay to the health centre, with a note of when labour began, the membranes, the contractions and any bleeding, and someone goes with her. Why the other options fail: A — waiting turns a delay into an obstructed labour, which is where ruptured uterus and stillbirth come from; B — herbal oxytocics can cause a hypertonic uterus or rupture and keep the woman away from care; D — a second attendant at home does not provide the monitoring or the theatre that a prolonged labour may need.",
     strategy: "Perioperative rule: Stop all herbal supplements at least 2 to 3 weeks prior to elective surgery to prevent bleeding and anesthesia interactions.",
     difficulty: "easy",
     tags: ["tcam", "perioperative-care", "herbal-supplements", "surgical-safety", "bleeding-risk"],
