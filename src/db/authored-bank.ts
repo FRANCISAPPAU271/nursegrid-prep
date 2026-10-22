@@ -2665,23 +2665,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Refer her immediately for psychiatric assessment and medication"
+    "text": "Refer her at once for psychiatric assessment and medication, before she is allowed to leave the unit"
    },
    {
     "id": "b",
-    "text": "Advise her to avoid thinking or talking about the fire so she can recover"
+    "text": "Advise her to avoid thinking or talking about the fire, so that she can put it behind her and recover"
    },
    {
     "id": "c",
-    "text": "Tell her she is fortunate to have survived when others did not"
+    "text": "Tell her that she is fortunate to have survived when so many other people at the market did not"
    },
    {
     "id": "d",
-    "text": "Reassure her that these reactions are common after a frightening event, listen, and ensure her practical needs are met"
+    "text": "Reassure her that such reactions are normal, listen to her account, and meet her practical needs"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Reassure her that these reactions are common after a frightening event, listen, and ensure her practical needs are met\". Tearfulness, disturbed sleep and repeated retelling are <strong>normal acute stress reactions</strong> in the days after a traumatic event, not symptoms of mental illness. Psychological first aid consists of listening without pressing for detail, normalising the reaction, and meeting practical needs such as shelter, food and contacting family. Most people recover without formal intervention.\n\nWhy the other options fail:\n• A — Immediate psychiatric referral pathologises a normal reaction. Referral is reserved for those with severe or persistent symptoms, or risk of self-harm.\n• B — Advising avoidance is unhelpful and can impede natural processing. Talking at her own pace is part of recovery.\n• C — Comparing her to those who died induces guilt and dismisses her distress, closing the conversation.\n\nReference: Ghana Health Service — mental health in emergencies; WHO psychological first aid",
+  "rationale": "CORRECT (D) — \"Reassure her that such reactions are normal, listen to her account, and meet her practical needs\". Tearfulness, disturbed sleep and repeated retelling are <strong>normal acute stress reactions</strong> in the days after a traumatic event, not symptoms of mental illness. Psychological first aid consists of listening without pressing for detail, normalising the reaction, and meeting practical needs such as shelter, food and contacting family. Most people recover without formal intervention.\n\nWhy the other options fail:\n• A — Immediate psychiatric referral pathologises a normal reaction. Referral is reserved for those with severe or persistent symptoms, or risk of self-harm.\n• B — Advising avoidance is unhelpful and can impede natural processing. Talking at her own pace is part of recovery.\n• C — Comparing her to those who died induces guilt and dismisses her distress, closing the conversation.\n\nReference: Ghana Health Service — mental health in emergencies; WHO psychological first aid",
   "strategy": "Psychological first aid is practical, not therapeutic: look, listen, link. Normalise the reaction, meet basic needs, connect people with family and services. Reserve referral for persistent, severe or high-risk presentations.",
   "difficulty": "medium",
   "tags": [
@@ -107144,23 +107144,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Continue the drinks but add a sedative at night so that he can sleep"
+    "text": "Continue the drinks but add a sedative at night so that he can get to sleep"
    },
    {
     "id": "b",
-    "text": "Switch to a larger quantity of a sugar-free version, since sugar is the only problem"
+    "text": "Switch to a larger quantity of the sugar-free version, since sugar is the only ingredient that matters"
    },
    {
     "id": "c",
-    "text": "Reduce and then stop the drinks, explaining that caffeine and sugar cause the palpitations and disturb the sleep he needs to learn"
+    "text": "Reduce and then stop the drinks, because caffeine and sugar cause the palpitations and poor sleep"
    },
    {
     "id": "d",
-    "text": "Reassure him that energy drinks are harmless in any quantity for a young person"
+    "text": "Reassure him that energy drinks are harmless in any quantity for a healthy young person like him"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Reduce and then stop the drinks, explaining that caffeine and sugar cause the palpitations and disturb the sleep he needs to learn\". High caffeine intake causes tachycardia, palpitations, tremor, anxiety and insomnia, and the doses in energy drinks are often far higher than in a cup of coffee, with several consumed in a session. The irony is central to the counselling: sleep is when memory is consolidated, so the drinks undermine the studying they are taken to support. Reduction should be gradual, because abrupt cessation after heavy use causes headache and irritability. The sugar load adds dental and metabolic harm. Palpitations that persist after caffeine is stopped warrant assessment, since they should resolve if caffeine was the cause.\n\nWhy the other options fail:\n• A — Adding a sedative to counteract a stimulant treats the symptom while leaving the cause untouched, and introduces dependence risk in a young person. It is poor practice.\n• B — Removing the sugar addresses only part of the problem, and increasing the quantity raises the caffeine load, which is what causes the palpitations and insomnia.\n• D — Energy drinks are not harmless in quantity. Cardiac events have been reported in young people with high intake, and this student is already symptomatic.\n\nReference: WHO guidance on caffeine and adolescent health; Ghana Food and Drugs Authority",
+  "rationale": "CORRECT (C) — \"Reduce and then stop the drinks, because caffeine and sugar cause the palpitations and poor sleep\". High caffeine intake causes tachycardia, palpitations, tremor, anxiety and insomnia, and the doses in energy drinks are often far higher than in a cup of coffee, with several consumed in a session. The irony is central to the counselling: sleep is when memory is consolidated, so the drinks undermine the studying they are taken to support. Reduction should be gradual, because abrupt cessation after heavy use causes headache and irritability. The sugar load adds dental and metabolic harm. Palpitations that persist after caffeine is stopped warrant assessment, since they should resolve if caffeine was the cause.\n\nWhy the other options fail:\n• A — Adding a sedative to counteract a stimulant treats the symptom while leaving the cause untouched, and introduces dependence risk in a young person. It is poor practice.\n• B — Removing the sugar addresses only part of the problem, and increasing the quantity raises the caffeine load, which is what causes the palpitations and insomnia.\n• D — Energy drinks are not harmless in quantity. Cardiac events have been reported in young people with high intake, and this student is already symptomatic.\n\nReference: WHO guidance on caffeine and adolescent health; Ghana Food and Drugs Authority",
   "strategy": "When a remedy causes the problem it is meant to solve, name the loop. Stimulants taken to study destroy the sleep that consolidates learning.",
   "difficulty": "medium",
   "tags": [
@@ -108467,23 +108467,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Fluids should be given rapidly to raise the blood pressure towards normal"
+    "text": "Fluids should be given rapidly to raise her blood pressure back towards the normal range"
    },
    {
     "id": "b",
-    "text": "Magnesium sulphate causes excessive urine output, so large volumes are always needed"
+    "text": "Magnesium sulphate causes excessive urine output, so large volumes of fluid must always be infused to keep up"
    },
    {
     "id": "c",
-    "text": "Fluid restriction is unnecessary because the kidneys are unaffected in pre-eclampsia"
+    "text": "Fluid restriction is unnecessary because the kidneys are not affected in pre-eclampsia"
    },
    {
     "id": "d",
-    "text": "Capillary leak and low oncotic pressure make pulmonary oedema likely, and magnesium is excreted renally so oliguria risks toxicity"
+    "text": "Capillary leak and low oncotic pressure favour pulmonary oedema, and magnesium is cleared renally"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Capillary leak and low oncotic pressure make pulmonary oedema likely, and magnesium is excreted renally so oliguria risks toxicity\". Two dangers run in parallel. Endothelial damage in pre-eclampsia produces capillary leak, and plasma oncotic pressure is low, so infused fluid readily enters the lungs and pulmonary oedema is a leading cause of maternal death in this condition. At the same time magnesium sulphate is cleared entirely by the kidney, so falling urine output allows the level to climb towards toxicity. This is why the monitoring regimen checks respiratory rate at sixteen or above, urine output of at least 100 mL over four hours, and the presence of the patellar reflex before each dose, with calcium gluconate available as the antidote.\n\nWhy the other options fail:\n• A — Rapid fluid loading in pre-eclampsia precipitates pulmonary oedema. Blood pressure is controlled with antihypertensives such as labetalol, methyldopa or nifedipine, not with fluid.\n• B — Magnesium sulphate does not cause a diuresis. Urine output tends to fall in severe pre-eclampsia, which is exactly why toxicity becomes a risk.\n• C — Renal function is frequently impaired in severe pre-eclampsia, and oliguria is part of the disease. Assuming normal kidneys would allow magnesium to accumulate unnoticed.\n\nReference: WHO recommendations for prevention and treatment of pre-eclampsia and eclampsia; Ghana Standard Treatment Guidelines",
+  "rationale": "CORRECT (D) — \"Capillary leak and low oncotic pressure favour pulmonary oedema, and magnesium is cleared renally\". Two dangers run in parallel. Endothelial damage in pre-eclampsia produces capillary leak, and plasma oncotic pressure is low, so infused fluid readily enters the lungs and pulmonary oedema is a leading cause of maternal death in this condition. At the same time magnesium sulphate is cleared entirely by the kidney, so falling urine output allows the level to climb towards toxicity. This is why the monitoring regimen checks respiratory rate at sixteen or above, urine output of at least 100 mL over four hours, and the presence of the patellar reflex before each dose, with calcium gluconate available as the antidote.\n\nWhy the other options fail:\n• A — Rapid fluid loading in pre-eclampsia precipitates pulmonary oedema. Blood pressure is controlled with antihypertensives such as labetalol, methyldopa or nifedipine, not with fluid.\n• B — Magnesium sulphate does not cause a diuresis. Urine output tends to fall in severe pre-eclampsia, which is exactly why toxicity becomes a risk.\n• C — Renal function is frequently impaired in severe pre-eclampsia, and oliguria is part of the disease. Assuming normal kidneys would allow magnesium to accumulate unnoticed.\n\nReference: WHO recommendations for prevention and treatment of pre-eclampsia and eclampsia; Ghana Standard Treatment Guidelines",
   "strategy": "When a drug is cleared by the kidney, urine output becomes a drug safety measurement, not just a fluid one.",
   "difficulty": "hard",
   "tags": [
@@ -115610,7 +115610,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Erikson described the psychosexual stages, while Freud described the psychosocial tasks of each age"
+   "text": "Erikson described the psychosexual stages, while Freud described the psychosocial task of each age"
   },
   {
    "id": "b",
@@ -115622,11 +115622,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Erikson described psychosocial conflicts that continue across the whole lifespan, while Freud described psychosexual stages ending in adolescence"
+   "text": "Erikson described psychosocial conflicts across the lifespan; Freud's stages end at adolescence"
   }
  ],
  "correctChoiceId": "d",
- "rationale": "Erikson extended development across the whole lifespan in eight psychosocial stages, each turning on a conflict between the individual and their social world, which is why a nurse can apply it to an older adult as readily as to a toddler. Option A reverses the two theorists. Option B is wrong about Erikson, who was specifically arguing against the idea that development stops in adolescence. Option C misdescribes both.",
+ "rationale": "CORRECT (D) — \"Erikson described psychosocial conflicts across the lifespan; Freud's stages end at adolescence\". Freud built his account on psychosexual stages — oral, anal, phallic, latency and genital — and treated the personality as largely settled by the end of adolescence. Erikson kept the idea of stages but moved the engine from sexuality to the relationship between the person and their social world, and he ran eight of them from infancy to old age, each turning on a conflict that has to be resolved: trust against mistrust, autonomy against shame, intimacy against isolation, and at the end integrity against despair. That is why a nurse can use Erikson with a toddler and with an eighty-year-old, whereas Freud's frame stops at the adolescent. Why the other options fail: option A swaps the two theorists and gives the psychosexual stages to Erikson (A); Erikson was arguing precisely against the idea that development ends at adolescence, so B misdescribes the whole point of his theory (B); and neither account is purely biological or purely social, since both are interactions between the child and the environment, which is why they are called psychosexual and psychosocial (C). Reference: Ghana nursing curriculum — developmental theories.",
  "strategy": "Erikson equals psychosocial and lifespan. Freud equals psychosexual and childhood.",
  "difficulty": "hard",
  "tags": [

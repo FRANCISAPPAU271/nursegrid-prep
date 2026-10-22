@@ -488,24 +488,24 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "'Do you take any herbal teas, tonics, roots, vitamins, botanical mixtures, traditional enemas, or dietary supplements that you prepare at home or purchase from herbal practitioners?'",
+        text: "Do you take any herbal teas, roots, tonics, traditional enemas, vitamins or supplements you make or buy?",
       },
       {
         id: "b",
-        text: "Record 'no medications' exactly as stated and revisit the medication history at the point of discharge, when the client is less anxious",
+        text: "Record 'no medications' as stated and revisit the medication history at discharge, when the client is less anxious",
       },
       {
         id: "c",
-        text: "Ask only about prescription medicines, since herbal products and traditional preparations are not medicines and do not need recording",
+        text: "Ask only about prescription medicines, since herbal products and traditional preparations are not medicines",
       },
       {
         id: "d",
-        text: "Ask whether the client takes any supplements at all, without naming specific examples or asking where they were obtained",
+        text: "Ask whether the client takes any supplements at all, without naming examples or asking where they came from",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "Clients frequently do not consider herbal teas, roots, tonics, vitamins, dietary supplements, or traditional enemas (*bentua*) to be 'medicines' because they perceive them as natural foods or spiritual preparations. Consequently, simply asking 'Do you take any medications?' yields false negative responses. Best clinical practice requires asking explicit, routine follow-up questions detailing specific modalities: herbal teas, botanical mixtures, roots, enemas, vitamins, and over-the-counter supplements. Leaving records blank misses lethal interactions; searching luggage violates rights. Why the other options fail: recording a bare 'no' produces a false-negative history; restricting the question to prescription medicines reproduces the original error; and a general prompt about supplements does not cue traditional teas, roots or enemas.",
+      "CORRECT (A) — \"Do you take any herbal teas, roots, tonics, traditional enemas, vitamins or supplements you make or buy?\". Clients do not count herbal teas, roots, tonics, vitamins, dietary supplements or traditional enemas (bentua) as medicines, because they think of them as foods, tonics or spiritual preparations, so the bare question \"Do you take any medications?\" produces a confident and wrong \"none\". The nurse has to name the categories: ask about herbal teas and roots, tonics, botanical mixtures, traditional enemas, vitamins and over-the-counter supplements, and ask whether they are made at home or bought from a herbal practitioner. Only a named and specific prompt retrieves these, and the answer matters, because several of them interact with prescribed drugs. Why the other options fail: recording a bare \"no\" as stated leaves a false-negative history and is the very error being corrected (B); limiting the question to prescription medicines repeats the assumption that only pills are medicines (C); and a vague prompt about supplements does not cue teas, roots or enemas, which the client does not classify as supplements at all (D). Reference: Ghana STG — traditional and complementary medicine; medication reconciliation.",
     strategy: "Medication reconciliation: Explicitly ask about herbal teas, roots, tonics, enemas, and dietary supplements—clients rarely view these as 'medicines'.",
     difficulty: "easy",
     tags: ["tcam", "medication-reconciliation", "herbal-assessment", "patient-history", "nursing-assessment"],

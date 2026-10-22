@@ -48,9 +48,9 @@ export const NCX3_PART_A: AuthoredQuestion[] = [
     n: 153, cat: "pharmacology-parenteral", difficulty: "hard",
     stem: "A man admitted with an asthma attack is on an intravenous aminophylline infusion. He now has clear breath sounds and is breathing comfortably when his cannula tissues. Which action by the nurse is **most appropriate**?",
     choices: [
-      "Stop the infusion, inform the doctor of his improvement and suggest a review of whether oral or inhaled therapy could replace the intravenous drug before re-siting the cannula",
-      "Re-site the cannula at once in another vein and restart the infusion at exactly the same rate, so that the level is maintained",
-      "Apply a warm compress to the arm, insert a new cannula elsewhere and continue all the intravenous medicines unchanged",
+      "Stop the infusion, tell the doctor he has improved and ask whether inhaled therapy can replace it",
+      "Apply a warm compress, insert a new cannula elsewhere and continue all the intravenous medicines unchanged",
+      "Re-site the cannula in another vein and restart the infusion at exactly the same rate as before",
       "Wait two hours, reassess him carefully and restart the infusion only if he starts to wheeze again",
     ],
     correct: "a",
