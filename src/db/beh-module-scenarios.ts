@@ -38,24 +38,24 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "The right to be excused from work indefinitely, with no obligation to seek treatment or return to normal roles",
+        text: "The right to be excused from work indefinitely, with no obligation to seek treatment or return to normal roles at any point",
       },
       {
         id: "b",
-        text: "The right to be temporarily excused from normal roles, with the obligation to see illness as undesirable and to cooperate with treatment to get well",
+        text: "The right to be excused from normal roles for a time, with the obligation to seek help and want to get well",
       },
       {
         id: "c",
-        text: "The right to decide the treatment plan alone, with the obligation to refuse any advice offered by clinicians",
+        text: "The right to decide the treatment plan alone, with the obligation to refuse any advice that the clinicians offer",
       },
       {
         id: "d",
         text: "The right to be cared for without question, with the obligation to remain dependent on the family until cured",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "Talcott Parsons' functionalist sociological model describes the 'Sick Role' as carrying two institutionalized rights and two core obligations: Rights: 1) The sick person is exempt from normal social and work responsibilities (proportional to illness severity); 2) The sick person is not blamed or held morally responsible for their condition. Obligations: 1) The person must define sickness as undesirable and want to get well; 2) The person must seek competent professional medical help and cooperate with the treatment regimen. Why the other options fail: option a makes the exemption permanent and removes the obligation. Option c gives the client the clinical decisions alone. Option d keeps the client dependent indefinitely, which the sick role does not.",
+      "CORRECT (B) — \"The right to be excused from normal roles for a time, with the obligation to seek help and want to get well\". Parsons described illness as a social role rather than a purely biological event, and the role carries two rights and two obligations. The rights are that the person is exempted from normal social roles — work, household duties, caring responsibilities — and that the person is not held personally responsible for being ill. The obligations are that the person must regard being ill as undesirable and must want to get well, and must seek competent help and cooperate with it. The exemption is temporary and conditional on the effort to recover, which is what separates the sick role from malingering. Why the other options fail: the exemption from work is temporary and conditional, not indefinite, and it carries the obligation to seek treatment rather than freeing the person of it (A); the sick role does not confer authority to dictate treatment, and the obligation is to cooperate with competent care rather than to refuse it (C); and dependence is not the defining feature, since the role requires the person to work towards leaving it (D). Reference: Parsons, The Social System; sociology of health and illness.",
     strategy: "Parsons' Sick Role: Exemption from normal duties (right) paired with the duty to seek professional help and strive for recovery (obligation).",
     difficulty: "medium",
     tags: ["behavioural-sciences", "sick-role", "sociology", "talcott-parsons", "illness-behaviour"],

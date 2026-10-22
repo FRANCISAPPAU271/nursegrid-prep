@@ -499,23 +499,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "A woman reporting abdominal pain of 8 out of 10 after her analgesia was delayed"
+    "text": "A woman reporting abdominal pain of 8 out of 10, after her prescribed analgesia was delayed by the drug round"
    },
    {
     "id": "b",
-    "text": "A man whose intravenous cannula site is red and slightly swollen"
+    "text": "A man whose intravenous cannula site has become red and slightly swollen around the entry point overnight"
    },
    {
     "id": "c",
-    "text": "A man with a chest infection whose respiratory rate has risen from 22 to 34 in the last hour and who is now confused"
+    "text": "A man with a chest infection whose respiratory rate has risen from 22 to 34 and who is now confused"
    },
    {
     "id": "d",
-    "text": "A woman due for discharge who is waiting for her medicines and health education"
+    "text": "A woman due for discharge today, who is still waiting for her medicines and her health education talk"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"A man with a chest infection whose respiratory rate has risen from 22 to 34 in the last hour and who is now confused\". A rising respiratory rate with <strong>new confusion</strong> is a breathing problem producing cerebral hypoxia. Respiratory rate is the earliest and most sensitive indicator of deterioration, and altered mentation means compensation is already failing. This patient may be developing respiratory failure or sepsis and needs assessment, oxygen and escalation now.\n\nWhy the other options fail:\n• A — Severe pain is urgent and must be treated quickly, but pain does not kill in the next ten minutes. Urgent is not the same as life-threatening.\n• B — Early phlebitis needs the cannula resited, but it is a localised, slowly evolving problem.\n• D — Discharge teaching is important and time-consuming, which is exactly why it tempts a busy nurse. It is not clinically urgent.\n\nReference: NMC Ghana scope of practice; early warning principles",
+  "rationale": "CORRECT (C) — \"A man with a chest infection whose respiratory rate has risen from 22 to 34 and who is now confused\". A rising respiratory rate with <strong>new confusion</strong> is a breathing problem producing cerebral hypoxia. Respiratory rate is the earliest and most sensitive indicator of deterioration, and altered mentation means compensation is already failing. This patient may be developing respiratory failure or sepsis and needs assessment, oxygen and escalation now.\n\nWhy the other options fail:\n• A — Severe pain is urgent and must be treated quickly, but pain does not kill in the next ten minutes. Urgent is not the same as life-threatening.\n• B — Early phlebitis needs the cannula resited, but it is a localised, slowly evolving problem.\n• D — Discharge teaching is important and time-consuming, which is exactly why it tempts a busy nurse. It is not clinically urgent.\n\nReference: NMC Ghana scope of practice; early warning principles",
   "strategy": "Sort every option into 'stable and expected' or 'new and changing'. Then apply ABC to what is changing. A rising respiratory rate with new confusion outranks severe pain, local inflammation and any scheduled task.",
   "difficulty": "hard",
   "tags": [
@@ -708,23 +708,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Stop the infusion because the prescription is no longer valid"
+   "text": "Stop the infusion altogether, because the original prescription is no longer valid at this stage of the run"
   },
   {
    "id": "b",
-   "text": "Open the clamp fully to catch up to the prescribed schedule"
+   "text": "Open the clamp fully so that the infusion catches up to the prescribed schedule as quickly as it possibly can"
   },
   {
    "id": "c",
-   "text": "Leave the rate unchanged and document the shortfall at the end of the shift"
+   "text": "Leave the rate unchanged and simply document the shortfall at the end of the shift for the next nurse to see"
   },
   {
    "id": "d",
-   "text": "Recalculate the rate so the remaining volume runs over the remaining time, and inform the team that it is behind"
+   "text": "Recalculate the rate for the remaining volume and time, and tell the team the infusion is running behind"
   }
  ],
  "correctChoiceId": "d",
- "rationale": "The infusion is running behind: 500 mL should have infused by four hours, so 600 mL remaining is 100 mL short. The safe correction is to recalculate so that what is left runs over the time that is left, and to tell the prescriber or team. Catching up by opening the clamp delivers a bolus that can overload a patient, particularly a child, an older adult or someone with cardiac or renal disease. Leaving the rate unchanged and documenting later allows the shortfall to grow unnoticed, and the prescription remains valid, so stopping is not indicated.",
+ "rationale": "CORRECT (D) — \"Recalculate the rate for the remaining volume and time, and tell the team the infusion is running behind\". After four hours of an 8-hour litre, 500 mL should have run and 500 mL should be left; 600 mL remaining means the infusion is 100 mL behind. The safe correction is arithmetic rather than force: divide what is left by the time that is left and set the new rate, then tell the prescriber or the team that the infusion has fallen behind, because the delay may reflect a blocked line, a tissued cannula or a pump fault that needs finding. Why the other options fail: stopping the infusion removes a prescribed therapy on the nurse's own authority, and the prescription has not expired (A); opening the clamp fully delivers the deficit as a bolus, and rapid boluses overload patients who tolerate volume poorly — children, older adults and anyone with cardiac or renal disease (B); and leaving the rate unchanged while writing a note at the end of the shift means the patient receives less than was prescribed for the whole of the shift while the nurse watches it happen (C). Reference: Ghana nursing procedure manual — intravenous infusion management; NMC standards on medication administration.",
  "strategy": "An infusion that is behind is recalculated, never caught up by opening the clamp.",
  "difficulty": "medium",
  "tags": [
@@ -105854,23 +105854,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Explain gently that reduced intake is part of dying, and that artificial fluids may increase secretions and discomfort"
+    "text": "Explain gently that less eating and drinking is part of dying, and that fluids may add to secretions and discomfort"
    },
    {
     "id": "b",
-    "text": "Start intravenous fluids immediately because withholding them would be neglect"
+    "text": "Start intravenous fluids immediately, because withholding them from a dying patient would be a form of neglect"
    },
    {
     "id": "c",
-    "text": "Tell the family that nothing more can be done and that the request is unreasonable"
+    "text": "Tell the family that nothing more can be done for him, and that their request is unreasonable at this stage"
    },
    {
     "id": "d",
-    "text": "Insert a nasogastric tube so that feeding can continue whatever the circumstances"
+    "text": "Insert a nasogastric tube, so that the feeding can be continued whatever the circumstances and the family are reassured"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Explain gently that reduced intake is part of dying, and that artificial fluids may increase secretions and discomfort\". Loss of appetite and thirst is an expected part of the dying process rather than a cause of it. Artificial hydration at this stage does not prolong life or relieve the sensation of thirst, and it can cause harm through increased respiratory secretions, worsening oedema, and the discomfort of cannulation. What relieves thirst is scrupulous mouth care with moistened swabs and lip care, which the family can be shown how to give. That participation matters, because the request for a drip usually expresses a fear of abandoning the patient. Acknowledging that fear, explaining the physiology kindly and offering a role transforms the conversation.\n\nWhy the other options fail:\n• B — Starting fluids reflexively to satisfy distress substitutes a procedure for a conversation, and may add secretions and oedema to a patient's final days without benefit.\n• C — Telling a family nothing can be done is untrue and cruel. A great deal can be done for comfort, and dismissing the request leaves them feeling their relative has been abandoned.\n• D — A nasogastric tube at the end of life is burdensome and offers no benefit. It carries aspiration risk and is distressing for a dying patient to have inserted and maintained.\n\nReference: WHO palliative care guidance; Ghana Standard Treatment Guidelines — palliative care",
+  "rationale": "CORRECT (A) — \"Explain gently that less eating and drinking is part of dying, and that fluids may add to secretions and discomfort\". Loss of appetite and thirst is an expected part of the dying process rather than a cause of it. Artificial hydration at this stage does not prolong life or relieve the sensation of thirst, and it can cause harm through increased respiratory secretions, worsening oedema, and the discomfort of cannulation. What relieves thirst is scrupulous mouth care with moistened swabs and lip care, which the family can be shown how to give. That participation matters, because the request for a drip usually expresses a fear of abandoning the patient. Acknowledging that fear, explaining the physiology kindly and offering a role transforms the conversation.\n\nWhy the other options fail:\n• B — Starting fluids reflexively to satisfy distress substitutes a procedure for a conversation, and may add secretions and oedema to a patient's final days without benefit.\n• C — Telling a family nothing can be done is untrue and cruel. A great deal can be done for comfort, and dismissing the request leaves them feeling their relative has been abandoned.\n• D — A nasogastric tube at the end of life is burdensome and offers no benefit. It carries aspiration risk and is distressing for a dying patient to have inserted and maintained.\n\nReference: WHO palliative care guidance; Ghana Standard Treatment Guidelines — palliative care",
   "strategy": "At the end of life, ask whether an intervention adds comfort or only adds activity. Address the family's fear directly rather than treating it with a procedure.",
   "difficulty": "hard",
   "tags": [
