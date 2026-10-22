@@ -8,24 +8,24 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Complementary medicine refers to non-mainstream healing practices used together WITH conventional biomedical care, whereas alternative medicine refers to non-mainstream practices used IN PLACE OF conventional biomedical care",
+        text: "Complementary medicine is used together WITH conventional biomedical care, while alternative medicine is used IN PLACE OF it",
       },
       {
         id: "b",
-        text: "Complementary medicine is used IN PLACE OF conventional treatment and replaces it entirely, whereas alternative medicine is used ALONGSIDE conventional treatment and never instead of it",
+        text: "Complementary medicine is used IN PLACE OF conventional treatment, while alternative medicine is used ALONGSIDE it",
       },
       {
         id: "c",
-        text: "Complementary medicine refers only to mind-body therapies such as meditation and yoga, whereas alternative medicine refers only to herbal products and traditional botanical preparations",
+        text: "Complementary medicine means only mind-body therapies such as meditation, while alternative medicine means only herbal products",
       },
       {
         id: "d",
-        text: "The two terms are interchangeable in everyday clinical use, and the only real distinction is whether the practitioner holds a current state licence to treat clients",
+        text: "The two terms are interchangeable in ordinary clinical use, and the only real distinction is whether the practitioner holds a licence",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "According to WHO and NCCIH definitions: 1) COMPLEMENTARY MEDICINE involves using non-mainstream healing practices (e.g., acupuncture, herbal teas, guided imagery) alongside and in conjunction with conventional evidence-based medical treatment. 2) ALTERNATIVE MEDICINE involves using non-mainstream practices to substitute for or replace conventional medical treatment (e.g., using a botanical infusion instead of chemotherapy for invasive cancer). 3) INTEGRATIVE HEALTH brings conventional and complementary approaches together in a coordinated, evidence-informed manner. Options b, c, and d mischaracterize both terms. Why the other options fail: option b reverses the two definitions; option c assigns each term to a therapy type rather than describing how it is used with or instead of conventional care; option d denies a distinction that both WHO and NCCIH define.",
+      "CORRECT (A) — \"Complementary medicine is used together WITH conventional biomedical care, while alternative medicine is used IN PLACE OF it\". The distinction turns on how a non-mainstream practice is used, not on what the practice is. WHO and the National Center for Complementary and Integrative Health define complementary medicine as a non-mainstream practice used *together with* conventional care — acupuncture alongside analgesia, herbal tea alongside antihypertensives — and alternative medicine as a non-mainstream practice used *in place of* conventional care, such as a botanical infusion taken instead of chemotherapy for a curable cancer. Integrative health, the third term, is the coordinated use of both under one evidence-informed plan. Why the other options fail: option B reverses the two definitions exactly, so it gives the correct words in the wrong order (B); option C sorts the two terms by the type of therapy rather than by how it is used, and both mind-body therapies and herbal products can be either complementary or alternative depending on the context (C); and option D denies a distinction that both bodies do define, with the licensing of the practitioner being a separate question from the classification of the therapy (D). Reference: WHO traditional medicine strategy; NCCIH definitions.",
     strategy: "TCAM definitions: Complementary = used TOGETHER WITH conventional medicine. Alternative = used INSTEAD OF conventional medicine.",
     difficulty: "easy",
     tags: ["tcam", "complementary-medicine", "alternative-medicine", "who-definitions", "integrative-health"],

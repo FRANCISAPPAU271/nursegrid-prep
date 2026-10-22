@@ -4513,23 +4513,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "The reading may be unreliable due to poor perfusion and must be interpreted with clinical assessment"
+    "text": "The reading may be unreliable because of poor perfusion and must be read with the clinical assessment"
    },
    {
     "id": "b",
-    "text": "The reading is accurate and oxygen should be increased at once"
+    "text": "The reading is accurate and the oxygen should be increased at once to correct the saturation properly"
    },
    {
     "id": "c",
-    "text": "The oximeter is faulty and should be discarded"
+    "text": "The oximeter is evidently faulty and should be taken out of service and discarded immediately"
    },
    {
     "id": "d",
-    "text": "Oxygen saturation cannot be affected by circulation"
+    "text": "Oxygen saturation cannot be affected by the circulation, so the trace quality is of no importance"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"The reading may be unreliable due to poor perfusion and must be interpreted with clinical assessment\". Pulse oximetry depends on detecting a <strong>pulsatile arterial signal</strong>. Cold peripheries, hypotension, vasoconstriction, movement and nail varnish all degrade the trace and make readings unreliable. A poor waveform means the number cannot be trusted alone, so the nurse assesses colour, conscious level, respiratory rate and effort, warms the limb or moves the probe, and escalates.\n\nWhy the other options fail:\n• B — Acting on an unreliable number risks both under-treatment and over-treatment. The waveform quality must be assessed first.\n• C — The device is behaving as designed. The limitation lies in the patient's perfusion, not the equipment.\n• D — Poor circulation profoundly affects the oximeter's ability to detect a pulsatile signal.\n\nReference: Ghana STG — monitoring in shock",
+  "rationale": "CORRECT (A) — \"The reading may be unreliable because of poor perfusion and must be read with the clinical assessment\". Pulse oximetry depends on detecting a <strong>pulsatile arterial signal</strong>. Cold peripheries, hypotension, vasoconstriction, movement and nail varnish all degrade the trace and make readings unreliable. A poor waveform means the number cannot be trusted alone, so the nurse assesses colour, conscious level, respiratory rate and effort, warms the limb or moves the probe, and escalates.\n\nWhy the other options fail:\n• B — Acting on an unreliable number risks both under-treatment and over-treatment. The waveform quality must be assessed first.\n• C — The device is behaving as designed. The limitation lies in the patient's perfusion, not the equipment.\n• D — Poor circulation profoundly affects the oximeter's ability to detect a pulsatile signal.\n\nReference: Ghana STG — monitoring in shock",
   "strategy": "Never read a monitor without checking whether it can be believed. For oximetry, look at the waveform or signal quality first. For any monitor, correlate with what you see in the patient.",
   "difficulty": "hard",
   "tags": [
@@ -23605,23 +23605,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "A volunteer, because she has no guaranteed income from the venture"
+      "text": "A volunteer, because she has no guaranteed income from the venture and gives her time freely"
     },
     {
       "id": "b",
-      "text": "An employee, because she is paid for the nursing care she provides"
+      "text": "An employee, because she is paid a wage for the nursing care that she provides each day"
     },
     {
       "id": "c",
-      "text": "An entrepreneur, because she identifies an unmet need and takes on risk to organise resources to meet it"
+      "text": "An entrepreneur, because she spots an unmet need and takes on risk to organise resources to meet it"
     },
     {
       "id": "d",
-      "text": "A manager, because she organises rooms and supplies into a service"
+      "text": "A manager, because she organises the room and the supplies into a service that runs smoothly every single day"
     }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — “An entrepreneur, because she identifies an unmet need and takes on risk to organise resources to meet it”. Entrepreneurship is spotting an unmet need and bearing the risk of organising the resources to meet it. She has identified a service nobody in the town provides, put her own savings into it, and has no guarantee that enough patients will come to recover the money — that combination of initiative and personal financial risk is what defines the role. Why the other options fail: a volunteer gives time without expecting the venture to earn and carries no financial risk (A); an employee is paid a wage by someone else and does not put her own money at stake (B); and a manager runs an organisation that already exists, carrying little of the personal risk that is the essence of what she is doing (D).",
+  "rationale": "CORRECT (C) — “An entrepreneur, because she spots an unmet need and takes on risk to organise resources to meet it”. Entrepreneurship is spotting an unmet need and bearing the risk of organising the resources to meet it. She has identified a service nobody in the town provides, put her own savings into it, and has no guarantee that enough patients will come to recover the money — that combination of initiative and personal financial risk is what defines the role. Why the other options fail: a volunteer gives time without expecting the venture to earn and carries no financial risk (A); an employee is paid a wage by someone else and does not put her own money at stake (B); and a manager runs an organisation that already exists, carrying little of the personal risk that is the essence of what she is doing (D).",
   "strategy": "Unmet need plus personal risk plus organising resources equals entrepreneur.",
   "difficulty": "hard",
   "tags": [
@@ -24083,23 +24083,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "A social enterprise, because it trades to generate income but exists mainly to achieve a social purpose"
+      "text": "A social enterprise, because it trades for income but exists mainly to achieve a social purpose"
     },
     {
       "id": "b",
-      "text": "A charity, because it provides some services without charge"
+      "text": "A charity, because it provides some of its services completely without charge to those in need"
     },
     {
       "id": "c",
-      "text": "A conventional business, because it charges fees for its services"
+      "text": "A conventional business, because it charges fees for its services and has to cover all of its own costs"
     },
     {
       "id": "d",
-      "text": "A public service, because it is funded from the public purse"
+      "text": "A public service, because it is funded from the public purse through the district health budget"
     }
   ],
   "correctChoiceId": "a",
-  "rationale": "A social enterprise trades and earns income while its dominant purpose is social, which is exactly what funding free antenatal care from earned surplus describes. It is not a charity because it does not depend on donations, not a conventional business because profit is not the purpose, and it receives nothing from the public purse.",
+  "rationale": "CORRECT (A) — \"A social enterprise, because it trades for income but exists mainly to achieve a social purpose\". A social enterprise is defined by the relationship between trading and purpose: it earns income by selling something, and it does so in order to pursue a social mission rather than to distribute profit to owners. Charging fees for a clinic while spending the surplus on free antenatal care for women who cannot pay fits that description exactly — the trading is real, and the trading is not the point. Why the other options fail: it is not a charity, because a charity is funded by donations and grants rather than by the sale of its services, and giving some care free does not make the organisation charitable (B); it is not a conventional business, because in a conventional business the surplus belongs to the owners and profit is the purpose rather than a means (C); and it is not a public service, because it receives nothing from the public purse and is not accountable to a government budget line (D). Reference: social enterprise and health financing in Ghana; Ghana Health Service private-sector engagement.",
   "strategy": "Earns its own income, spends the surplus on a social purpose: social enterprise.",
   "difficulty": "hard",
   "tags": [
@@ -105820,23 +105820,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "From birth to the third birthday, because this is when most childhood illness occurs"
+    "text": "From birth to the third birthday, because this is the period when most of the serious childhood illness occurs"
    },
    {
     "id": "b",
-    "text": "From conception to a child's second birthday, because growth and brain development then are largely irreversible if missed"
+    "text": "From conception to the second birthday, because growth and brain development then are largely irreversible"
    },
    {
     "id": "c",
-    "text": "The first 1,000 days of school, because learning depends on adequate nutrition"
+    "text": "The first 1,000 days of school, because learning and school performance depend on adequate nutrition"
    },
    {
     "id": "d",
-    "text": "From conception to the first birthday, because breastfeeding ends at twelve months"
+    "text": "From conception to the first birthday, because breastfeeding normally ends at twelve months of age"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"From conception to a child's second birthday, because growth and brain development then are largely irreversible if missed\". The first 1,000 days runs from conception through pregnancy and the first two years of life, roughly 270 days of gestation plus 730 days. This window matters because linear growth and brain development proceed faster during it than at any other time, and the deficits acquired then are largely permanent. A child stunted by the age of two rarely regains that height, and the associated losses in cognitive development and later earning capacity persist into adulthood. Interventions therefore concentrate here: maternal nutrition and supplementation, early and exclusive breastfeeding, timely and adequate complementary feeding, and the prevention and treatment of infection.\n\nWhy the other options fail:\n• A — Starting the count at birth omits pregnancy, when foetal growth and neural development are exquisitely sensitive to maternal nutrition. Maternal undernutrition is a major determinant of low birth weight.\n• C — The concept concerns early childhood, not school age. By the time a child starts school, the window in which stunting can be prevented has largely closed.\n• D — Ending at the first birthday cuts the window in half and misstates breastfeeding guidance, which recommends continuing to two years and beyond alongside complementary foods.\n\nReference: WHO and UNICEF global nutrition targets; Ghana Health Service nutrition policy",
+  "rationale": "CORRECT (B) — \"From conception to the second birthday, because growth and brain development then are largely irreversible\". The first 1,000 days runs from conception through pregnancy and the first two years of life, roughly 270 days of gestation plus 730 days. This window matters because linear growth and brain development proceed faster during it than at any other time, and the deficits acquired then are largely permanent. A child stunted by the age of two rarely regains that height, and the associated losses in cognitive development and later earning capacity persist into adulthood. Interventions therefore concentrate here: maternal nutrition and supplementation, early and exclusive breastfeeding, timely and adequate complementary feeding, and the prevention and treatment of infection.\n\nWhy the other options fail:\n• A — Starting the count at birth omits pregnancy, when foetal growth and neural development are exquisitely sensitive to maternal nutrition. Maternal undernutrition is a major determinant of low birth weight.\n• C — The concept concerns early childhood, not school age. By the time a child starts school, the window in which stunting can be prevented has largely closed.\n• D — Ending at the first birthday cuts the window in half and misstates breastfeeding guidance, which recommends continuing to two years and beyond alongside complementary foods.\n\nReference: WHO and UNICEF global nutrition targets; Ghana Health Service nutrition policy",
   "strategy": "Count the window from conception, not birth. Any option that leaves out pregnancy has missed the period of fastest growth.",
   "difficulty": "medium",
   "tags": [
@@ -107685,23 +107685,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Replace with five per cent dextrose, since the priority is to supply energy"
+    "text": "Replace the daily loss with five per cent dextrose, since the priority is to supply energy to the body"
    },
    {
     "id": "b",
-    "text": "Restrict fluid intake so that the ileostomy output falls"
+    "text": "Restrict his fluid intake, so that the ileostomy output falls and the losses become easier to manage"
    },
    {
     "id": "c",
-    "text": "Replace with a sodium-containing crystalloid such as normal saline or Ringer's lactate, guided by the volume lost"
+    "text": "Replace it with a sodium-containing crystalloid such as normal saline or Ringer's, matched to the loss"
    },
    {
     "id": "d",
-    "text": "Give plain water orally in the volume lost, since the loss is mainly water"
+    "text": "Give plain water by mouth in the volume lost, since the fluid coming out is mainly water with a little salt"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Replace with a sodium-containing crystalloid such as normal saline or Ringer's lactate, guided by the volume lost\". Ileostomy fluid is rich in sodium, and to a lesser extent potassium and bicarbonate, so it must be replaced with a fluid that resembles what was lost. A balanced salt solution such as Ringer's lactate or normal saline does this; the volume is guided by measured output and the response is judged by urine output, pulse, blood pressure and daily weight. Replacing sodium-rich losses with water or dextrose is the classic error: the water is retained and distributed across the body while the sodium deficit persists, producing hyponatraemia on top of continuing volume depletion.\n\nWhy the other options fail:\n• A — Five per cent dextrose is effectively water once the glucose is metabolised. It does not replace sodium, distributes throughout total body water and will worsen hyponatraemia.\n• B — Restricting fluid does not reduce ileostomy output meaningfully and simply accelerates dehydration, which is the commonest reason these patients are readmitted.\n• D — Ileostomy fluid is not mainly water; it carries a substantial sodium load. Replacing it with plain water dilutes the remaining sodium and can cause symptomatic hyponatraemia.\n\nReference: Ghana Standard Treatment Guidelines — surgical care; NICE intravenous fluid therapy guidance",
+  "rationale": "CORRECT (C) — \"Replace it with a sodium-containing crystalloid such as normal saline or Ringer's, matched to the loss\". Ileostomy fluid is rich in sodium, and to a lesser extent potassium and bicarbonate, so it must be replaced with a fluid that resembles what was lost. A balanced salt solution such as Ringer's lactate or normal saline does this; the volume is guided by measured output and the response is judged by urine output, pulse, blood pressure and daily weight. Replacing sodium-rich losses with water or dextrose is the classic error: the water is retained and distributed across the body while the sodium deficit persists, producing hyponatraemia on top of continuing volume depletion.\n\nWhy the other options fail:\n• A — Five per cent dextrose is effectively water once the glucose is metabolised. It does not replace sodium, distributes throughout total body water and will worsen hyponatraemia.\n• B — Restricting fluid does not reduce ileostomy output meaningfully and simply accelerates dehydration, which is the commonest reason these patients are readmitted.\n• D — Ileostomy fluid is not mainly water; it carries a substantial sodium load. Replacing it with plain water dilutes the remaining sodium and can cause symptomatic hyponatraemia.\n\nReference: Ghana Standard Treatment Guidelines — surgical care; NICE intravenous fluid therapy guidance",
   "strategy": "Replace like with like. Ask what that particular fluid contained, then choose the replacement whose composition resembles it.",
   "difficulty": "hard",
   "tags": [
@@ -117980,23 +117980,23 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "The shunt runs left to right, so oxygenated blood recirculates through the lungs rather than bypassing them"
+   "text": "The shunt runs left to right, so oxygenated blood is recirculated through the lungs, not bypassed"
   },
   {
    "id": "b",
-   "text": "The foramen ovale closes within minutes of birth in every baby"
+   "text": "The foramen ovale closes within minutes of birth in every baby, so no blood can cross over it afterwards"
   },
   {
    "id": "c",
-   "text": "The ductus arteriosus carries oxygenated blood straight to the aorta"
+   "text": "The ductus arteriosus carries oxygenated blood straight into the aorta, so the lungs are bypassed entirely"
   },
   {
    "id": "d",
-   "text": "Fetal haemoglobin prevents any fall in saturation"
+   "text": "Fetal haemoglobin keeps the oxygen saturation normal whatever the direction of the shunt turns out to be"
   }
  ],
  "correctChoiceId": "a",
- "rationale": "In a ventricular septal defect the pressures favour flow from the higher-pressure left ventricle to the right, so oxygenated blood is pumped back through the lungs. That causes pulmonary overcirculation, breathlessness and poor feeding rather than cyanosis, and cyanosis appears only if pulmonary pressures rise until the shunt reverses. Option B is not reliable and does not explain the shunt direction. Option C describes fetal circulation, and the ductus carries mixed blood, not oxygenated blood. Option D is unrelated to shunt physiology.",
+ "rationale": "CORRECT (A) — \"The shunt runs left to right, so oxygenated blood is recirculated through the lungs, not bypassed\". In a ventricular septal defect the pressures in the two ventricles are not equal: the left ventricle is the higher-pressure chamber, so blood crosses the defect from left to right, from the oxygenated side into the pulmonary circulation. That extra flow returns to the left heart and is pumped round again, so the lungs receive too much blood and too little of it is ever shunted past them. The baby is therefore not cyanosed; the problems are pulmonary overcirculation, breathlessness, poor feeding and failure to thrive. Cyanosis appears only at a late stage, when pulmonary vascular resistance has climbed until the shunt reverses and deoxygenated blood starts to reach the aorta — Eisenmenger physiology. Why the other options fail: the foramen ovale does close, but whether it has closed does not determine the direction of a ventricular shunt, and closure is not guaranteed within minutes in every baby (B); the ductus arteriosus carries mixed blood from the pulmonary artery to the aorta in fetal life and is not a route that delivers oxygenated blood to the body after birth (C); and fetal haemoglobin shifts the oxygen dissociation curve but cannot keep saturation normal in the face of a right-to-left shunt, which is why it is not the explanation (D). Reference: Ghana STG — congenital heart disease; paediatric cardiology.",
  "strategy": "Left-to-right shunts cause breathlessness, not cyanosis. Cyanosis means the shunt has reversed.",
  "difficulty": "hard",
  "tags": [
