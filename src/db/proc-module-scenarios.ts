@@ -394,28 +394,28 @@ export const PROC_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-PROC-014",
     categorySlug: "pharmacology-parenteral",
-    stem: "A nurse is administering a subcutaneous injection of low-molecular-weight heparin (enoxaparin 40 mg) to an adult client. Which nursing actions are correct and prevent hematoma formation at the injection site?",
+    stem: "A nurse is asked by a colleague to sign the controlled drugs register as the second checker for a dose that she did not see prepared or given. What should she do?",
     choices: [
       {
         id: "a",
-        text: "Abdominal wall at least 5 cm from the umbilicus, pinch a fold, 90 degrees, keep the air bubble, do not aspirate, do not massage",
+        text: "Sign it, since the colleague is experienced and has already checked the balance",
       },
       {
         id: "b",
-        text: "Select the deltoid, aspirate before injecting to confirm that the needle is not in a vessel, and massage the site afterwards to speed absorption of the dose",
+        text: "Sign it, and add a note that she was not present so that the record stays honest",
       },
       {
         id: "c",
-        text: "Expel the air bubble from the prefilled syringe, inject into the abdomen at 45 degrees, and apply firm pressure to the site afterwards to stop any oozing",
+        text: "Refuse to sign it, because the second signature must confirm a check she made",
       },
       {
         id: "d",
-        text: "Inject into the umbilicus itself at 15 degrees, since this is the most vascular part of the abdominal wall and will absorb the dose most reliably",
+        text: "Ask the patient afterwards whether the injection was given, and then sign",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "c",
     rationale:
-      "Best-practice technique for subcutaneous enoxaparin administration: (1) use the anterolateral or posterolateral abdomen (the 'love handles'), alternating sides and staying >= 2 inches away from the umbilicus; (2) DO NOT expel the air bubble from the prefilled syringe (the bubble ensures the entire medication dose is delivered and creates an air seal preventing subcutaneous tracking); (3) pinch a skin fold throughout the injection and insert the needle at 90 degrees (or 45 degrees in thin individuals); (4) DO NOT aspirate for blood (aspiration causes tissue damage and hematoma); and (5) DO NOT massage or rub the injection site after needle withdrawal (rubbing causes capillary rupture and severe bruising). Why the other options fail: option b sends a subcutaneous drug into muscle and then aspirates, which is unnecessary for heparin and increases tissue trauma. Option c removes the air bubble that is there to deliver the full dose and seal the track, and firm pressure after the injection promotes the bruising the technique is meant to avoid. Option d injects into umbilical tissue, which is thin, poorly vascular for absorption and painful, and a 15-degree angle is too shallow for a 2 cm pinched fold.",
+      "CORRECT (C) — “Refuse to sign it, because the second signature must confirm a check she made”. A controlled drug register is a legal record and the second signature is not a formality: it attests that the signatory personally saw the drug measured, saw the balance reconciled, and saw the dose administered or witnessed its destruction. Signing for a check that was never carried out makes the nurse personally accountable for another person's error, and it destroys the only audit trail there is for a drug that is both dangerous and open to diversion. The correct action is to decline, and to say why, and to offer to witness the next entry properly. Why the other options fail: the colleague's experience is not evidence that this particular dose was right, and the register records the checker, not the reputation of the person checked (A); a note that she was absent does not rescue a signature that certifies something untrue, and the entry becomes misleading rather than honest (B); and asking the patient afterwards cannot confirm that the right drug and dose were given or that the balance was correct (D).",
     strategy: "Enoxaparin injection rules: Abdominal wall >= 2 inches from umbilicus + keep air bubble + 90-degree angle + NO aspiration + NO rubbing/massaging.",
     difficulty: "easy",
     tags: ["procedures", "enoxaparin", "subcutaneous-injection", "heparin", "medication-administration"],

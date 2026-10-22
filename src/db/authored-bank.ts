@@ -908,27 +908,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-FUN-0025",
   "categorySlug": "fundamentals",
-  "stem": "A nurse measures a woman's blood pressure using a cuff that is too narrow for her upper arm. What effect will this have on the reading?",
+  "stem": "A patient tells the nurse that he cannot be bathed by a woman, for religious reasons. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "It will give a falsely high reading"
+    "text": "Explain to him that the bath is a necessary part of his nursing care and carry on with the bath as planned"
    },
    {
     "id": "b",
-    "text": "It will give a falsely low reading"
+    "text": "Respect the request and arrange for a male member of staff to help him wash"
    },
    {
     "id": "c",
-    "text": "It will have no effect provided the stethoscope is correctly placed"
+    "text": "Ask the patient's wife to bathe him on the ward so that the staff need not"
    },
    {
     "id": "d",
-    "text": "It will make the diastolic reading unobtainable"
+    "text": "Record that he has refused care and leave him unwashed until the next day"
    }
   ],
-  "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"It will give a falsely high reading\". A cuff that is too narrow must be inflated to a <strong>higher pressure</strong> before it can compress the artery, so the recorded value is falsely elevated. The bladder should encircle about 80 percent of the arm and its width should be roughly 40 percent of the arm circumference. The opposite error, a cuff too wide, gives a falsely low reading.\n\nWhy the other options fail:\n• B — A falsely low reading comes from a cuff that is too wide, or from deflating too quickly, or from the arm being held above heart level.\n• C — Correct stethoscope placement cannot compensate for the wrong cuff size, because the error is in the pressure needed to occlude the artery, not in hearing the sounds.\n• D — Both readings remain obtainable. They are simply both inaccurate, which is more dangerous than no reading because it looks credible.\n\nReference: Ghana STG — hypertension; standard clinical measurement",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — “Respect the request and arrange for a male member of staff to help him wash”. Washing is intimate care, and a request about who may see and touch the body is a legitimate expression of the patient's dignity, culture and religion. The nurse's duty is to deliver the care, not to insist on who delivers it, so the request is accepted without argument and the rota is rearranged: a male colleague, or a relative present with the patient's consent, can provide the bath. If no male staff are on duty, the bath is postponed to the next shift and that is recorded as an agreed plan rather than a refusal. Why the other options fail: overriding a religious or modesty objection is a failure of consent and damages trust, and the patient may then decline care altogether (A); handing intimate care to an untrained relative on a busy open ward removes the nurse's assessment of the skin and exposes the patient's body to everyone nearby (C); and writing it up as a refusal misrepresents what happened — he did not refuse care, he asked for a different carer, and leaving him unwashed is neglect (D).",
   "strategy": "Narrow cuff reads high, wide cuff reads low. For any measurement question, ask which direction the error pushes the number — a falsely normal result is more dangerous than an obviously wrong one, because nobody questions it.",
   "difficulty": "medium",
   "tags": [
@@ -4373,27 +4373,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-ADV-0126",
   "categorySlug": "med-surg",
-  "stem": "Before placing a non-rebreather reservoir mask on a severely hypoxic patient, what must the nurse do?",
+  "stem": "A patient has returned to the ward after surgery performed under spinal anaesthesia. Why is he nursed flat for the first few hours?",
   "choices": [
    {
     "id": "a",
-    "text": "Set the flow at 4 litres per minute to begin gently"
+    "text": "To stop the anaesthetic from leaking out of the spinal canal and paralysing his legs"
    },
    {
     "id": "b",
-    "text": "Remove the one-way valves to ease breathing"
+    "text": "To reduce the risk of a post-dural puncture headache while the puncture seals over"
    },
    {
     "id": "c",
-    "text": "Moisten the inside of the mask with sterile water"
+    "text": "To keep the blood pressure raised, because a spinal anaesthetic lowers it for a whole day"
    },
    {
     "id": "d",
-    "text": "Inflate the reservoir bag fully before applying the mask"
+    "text": "To prevent the wound from bleeding, since lying flat reduces the pressure inside it"
    }
   ],
-  "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Inflate the reservoir bag fully before applying the mask\". The reservoir bag must be <strong>fully inflated before the mask is applied</strong>, at a flow of 10 to 15 litres per minute. An empty bag cannot supply the volume drawn during inspiration, so the patient receives far less oxygen than intended at the moment they most need it.\n\nWhy the other options fail:\n• A — Four litres cannot keep the reservoir inflated. The bag collapses and the patient rebreathes exhaled air.\n• B — The one-way valves prevent exhaled air entering the reservoir. Removing them defeats the purpose of the device.\n• C — Moistening the mask serves no purpose and may impede gas flow.\n\nReference: Ghana STG — emergency oxygen therapy",
+  "correctChoiceId": "b",
+  "rationale": "CORRECT (B) — “To reduce the risk of a post-dural puncture headache while the puncture seals over”. The spinal needle leaves a small hole in the dura, and cerebrospinal fluid can continue to leak through it. As the pressure of the fluid around the brain falls, the brain sags slightly on its supporting structures and the patient develops a severe frontal or occipital headache that is worse on sitting or standing and relieved by lying down, sometimes with neck stiffness, nausea and photophobia. Lying flat for the first few hours reduces the leak and gives the puncture time to close. The nurse watches for that headache and reports it. Why the other options fail: the anaesthetic does not need to be kept in, because it is taken up by the nerve roots and its effect wears off regardless of position (A); a spinal does lower the blood pressure, but that is managed with fluids and vasopressors in theatre, and lying flat for hours is not the treatment for it (C); and the wound is not what is being protected here, so its pressure is irrelevant to the reason for the position (D).",
   "strategy": "For any reservoir device, the bag must stay inflated throughout the respiratory cycle. If it collapses on inspiration, the flow is too low.",
   "difficulty": "medium",
   "tags": [
@@ -63891,27 +63891,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-TRA-1867",
   "categorySlug": "med-surg",
-  "stem": "A patient with suspected appendicitis suddenly reports her pain has completely gone. What should the nurse conclude?",
+  "stem": "An elderly man who has been bedbound for a week has a black, hard, leathery patch over one heel that does not blanch. How should the nurse manage it?",
   "choices": [
    {
     "id": "a",
-    "text": "The inflammation has settled and she can now be discharged"
+    "text": "Rub the patch firmly several times a day so that the blood supply returns to the tissue"
    },
    {
     "id": "b",
-    "text": "The analgesia given earlier has finally taken full effect"
+    "text": "Soak the heel and then cut away the black tissue with sterile scissors at the bedside"
    },
    {
     "id": "c",
-    "text": "The appendix may have perforated and peritonitis will follow"
+    "text": "Keep it clean and dry, keep all pressure off the heel, and report it for assessment"
    },
    {
     "id": "d",
-    "text": "The original diagnosis was incorrect and should be revised"
+    "text": "Apply a warm compress to soften the black tissue and massage the skin around it"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"The appendix may have perforated and peritonitis will follow\". Sudden complete relief in appendicitis usually means <strong>the distended appendix has burst and the pressure causing the pain has been released</strong> — followed within hours by generalised peritonitis as contents spread through the abdomen. It is a surgical emergency dressed as improvement. This is one of the most reliable traps in surgical nursing: <strong>the disappearance of a symptom is not always the disappearance of the disease</strong>.\n\nWhy the other options fail:\n• A — Appendicitis does not resolve spontaneously in this way.\n• B — Analgesia dulls pain gradually rather than abolishing it suddenly.\n• D — Sudden relief supports perforation rather than a wrong diagnosis.\n\nReference: Ghana STG — acute abdomen",
+  "rationale": "CORRECT (C) — “Keep it clean and dry, keep all pressure off the heel, and report it for assessment”. A black, hard, leathery patch that will not blanch is necrotic tissue — an eschar — over a pressure injury, and because the dead tissue hides the base the wound cannot be staged. It must not be rubbed, massaged or cut at the bedside: massage damages the already ischaemic tissue and can extend the injury, and blind cutting risks infection and damage to deeper structures. The heel is off-loaded completely with a device that floats it clear of the mattress, the eschar is kept dry and intact, and the wound is reported so that it can be assessed and any debridement planned by those trained to do it. Why the other options fail: rubbing and massaging reddened or blackened pressure areas is contraindicated, because it shears capillaries in tissue that has no blood supply to spare (A, D); and cutting into the eschar at the bedside is unsafe and painful, and it must not be done by the ward nurse (B).",
   "strategy": "Sudden relief in a surgical abdomen means something burst. Escalate immediately.",
   "difficulty": "hard",
   "tags": [
@@ -111488,27 +111488,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-BATCH2-0039",
  "categorySlug": "safety-infection-control",
- "stem": "A client with suspected Clostridioides difficile diarrhoea requires which hand-hygiene approach after care?",
+ "stem": "How long should a nurse spend rubbing her hands with alcohol-based hand rub during routine hand hygiene?",
  "choices": [
   {
    "id": "a",
-   "text": "Soap and water after removing gloves"
+   "text": "20 to 30 seconds, covering every surface of both hands until they feel dry"
   },
   {
    "id": "b",
-   "text": "Alcohol gel only without removing gloves"
+   "text": "About five seconds, because the alcohol kills organisms on contact with the skin"
   },
   {
    "id": "c",
-   "text": "No hand hygiene if gloves were worn"
+   "text": "A full minute, scrubbing between each finger under running water as she goes"
   },
   {
    "id": "d",
-   "text": "Perfume-based hand spray"
+   "text": "Only until the hands look and feel clean, since no fixed time is needed at all"
   }
  ],
  "correctChoiceId": "a",
- "rationale": "C. difficile spores are not reliably removed by alcohol hand rub. Soap and water mechanically removes spores after glove removal.\n\nWhy the other options fail:\n• B — Alcohol gel does not reliably kill C. difficile spores, and the gloves must come off regardless.\n• C — Gloves are not a substitute for hand hygiene; spores are picked up on removal.\n• D — A perfume spray has no antimicrobial action and would leave the spores on the hands.",
+ "rationale": "CORRECT (A) — “20 to 30 seconds, covering every surface of both hands until they feel dry”. Alcohol-based hand rub has to reach every part of the hands — palms, backs, between the fingers, the thumbs, the fingertips and the wrists — and be rubbed in for about 20 to 30 seconds, long enough for the alcohol to act and short enough that staff will actually do it every time. The hands are rubbed until they are dry and are not wiped on a towel afterwards, because wiping removes the product before it has finished working. Washing with soap and water takes longer, about 40 to 60 seconds. Why the other options fail: five seconds does not give the alcohol time to act across the whole surface, and some organisms take longer to be inactivated (B); a full minute under running water describes soap-and-water washing, a different procedure with a different timing (C); and visible cleanliness is no test at all, because organisms cannot be seen and the hands look the same before and after (D).",
  "strategy": "For spore-forming organisms, use soap and water and dedicated equipment.",
  "difficulty": "hard",
  "tags": [
