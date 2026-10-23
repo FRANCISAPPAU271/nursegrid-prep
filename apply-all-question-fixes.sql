@@ -167,7 +167,7 @@
 --   question-fixes-batch157.sql  19  duplicate rewrites onto free topics
 --   question-fixes-batch158.sql  last duplicate pair rewritten onto hearing loss
 --
--- Total: 4451 UPDATE statements.
+-- Total: 4454 UPDATE statements.
 -- Run the verification block at the end to confirm the repair landed.
 -- ============================================================================
 
@@ -43407,25 +43407,27 @@ WHERE authored_id = $q$NG-ORIGINAL-CLINICAL-0061$q$;
 COMMIT;
 
 -- >>>>>>>>>>>>>>>>>>>>>>>>>>>>  question-fixes-batch158.sql  <<<<<<<<<<<<<<<<<<<<<<<<<<<<
--- Batch 158: last duplicate pair rewritten onto hearing loss.
+-- Batch 158: last duplicate pair plus tag repair.
 --
--- Batch 158 — the last open pair in the semantic-duplicate backlog.
+-- Batch 158 — the last open duplicate pair, plus tag repair.
 -- 
 -- NCX-0189 asked for the most appropriate approach to evening agitation in an
--- older man with dementia, and MSN-2716 asks the first action for evening
--- agitation in an older man with dementia. MSN-2716 is the crisper item (it
--- keys the unmet need and keeps the first-action framing), so NCX-0189 is the
--- side rewritten.
+-- older man with dementia, and MSN-2716 asks the first action for the same
+-- scenario. MSN-2716 is the crisper item and keeps the first-action framing, so
+-- NCX-0189 is the side rewritten. It now asks about an 84-year-old whose family
+-- are certain he has dementia — wrong answers, missed questions, withdrawal —
+-- with the key being to inspect both ears for impacted wax and arrange a hearing
+-- assessment before drawing any conclusion about his memory. Distractors: the
+-- dementia label, ask the family to shout and carry on, and a written screening
+-- questionnaire he cannot read in a room he cannot hear.
 -- 
--- It now covers hearing loss presenting as dementia in an 84-year-old whose
--- family are sure his memory has gone: he answers at random because he cannot
--- hear the question, and stops joining conversations. The key is to inspect
--- both ears for impacted wax and arrange a hearing assessment before drawing
--- any conclusion about his memory; the distractors are the dementia label, ask
--- the family to shout and move on, and hand him a written screening
--- questionnaire he cannot read in a room he cannot hear. Rationale in the
--- generator format, keyed on the option where ncx() publishes it (C), and no
--- option is strictly the longest.
+-- The other three are metadata repairs from batch 157, which replaced the whole
+-- item but could not rewrite tags at the time. Each still carried the tags of
+-- the question it used to be (breast engorgement, vaso-occlusive crisis,
+-- separation anxiety). They now carry tags that describe what they actually
+-- ask: NCX-0165 breast abscess, NCX-0218 avascular necrosis, NCX-1099 oral
+-- medicine for a refusing toddler. Stem, options, key and rationale are
+-- unchanged for these three; only the tags move.
 BEGIN;
 
 UPDATE questions SET
@@ -43443,7 +43445,52 @@ Reference: WHO - deafness and hearing loss in older adults; Ghana STG - assessme
   strategy = $q$Decision tree: before the label of dementia, strip out what is reversible - the ears first, then the memory.$q$
 WHERE authored_id = $q$NG-ORIGINAL-NCX-0189$q$;
 
--- Verify: expect 1
+UPDATE questions SET
+  stem = $q$Ten days after delivery a woman has a fluctuant, exquisitely tender lump in one breast with red overlying skin and a temperature of 38.8 degrees Celsius. She is still breastfeeding. What is this and what does it need?$q$,
+  choices = $q$[{"id": "a", "text": "Engorgement that will settle with frequent feeding alone"}, {"id": "b", "text": "A blocked duct that will clear with massage in a warm bath"}, {"id": "c", "text": "A breast abscess, needing antibiotics and usually ultrasound-guided drainage while feeding continues"}, {"id": "d", "text": "Inflammatory breast cancer, which needs an urgent biopsy before any other treatment can begin at all"}]$q$::jsonb,
+  correct_choice_id = $q$c$q$,
+  rationale = $q$CORRECT (C) — "A breast abscess, needing antibiotics and usually ultrasound-guided drainage while feeding continues". A tender, fluctuant, well-localised lump with overlying redness and fever, appearing after the engorgement of the first week, is a breast abscess until proved otherwise, and usually follows untreated mastitis. She needs antibiotics covering Staphylococcus aureus, analgesia, and drainage of the collection, now usually under ultrasound guidance rather than by open incision. Feeding or expressing from the affected breast continues, because emptying it is part of the treatment and the milk remains safe.
+
+Why the other options fail:
+• A — Engorgement is bilateral and generalised, not a single fluctuant lump with fever at day ten.
+• B — Massage does not drain a collection and delays the treatment she needs.
+• D — Inflammatory cancer is a differential for redness without fluctuance or fever and is not the first diagnosis here.
+
+Reference: Ghana STP - puerperal mastitis and breast abscess; WHO - breastfeeding counselling$q$,
+  strategy = $q$Decision tree: engorgement is a drainage problem — empty the breast more often, not less, and make latching possible.$q$
+WHERE authored_id = $q$NG-ORIGINAL-NCX-0165$q$;
+
+UPDATE questions SET
+  stem = $q$A 20-year-old with sickle cell disease has worsening hip pain and cannot bear weight. Radiography shows collapse of the femoral head. What has happened?$q$,
+  choices = $q$[{"id": "a", "text": "Avascular necrosis of the femoral head from repeated vaso-occlusion"}, {"id": "b", "text": "A septic arthritis that needs urgent joint aspiration"}, {"id": "c", "text": "A vaso-occlusive crisis confined to the muscles of the thigh on that side"}, {"id": "d", "text": "Osteoporosis caused by long-term opioid use"}]$q$::jsonb,
+  correct_choice_id = $q$a$q$,
+  rationale = $q$CORRECT (A) — "Avascular necrosis of the femoral head from repeated vaso-occlusion". Sickling in the small vessels supplying the femoral head infarcts the bone, and repeated episodes lead to avascular necrosis, a recognised complication of sickle cell disease. It presents with hip or groin pain, limited internal rotation and difficulty weight bearing, and the radiograph shows sclerosis and then collapse of the head. The nurse keeps him off the leg, gives analgesia, refers for orthopaedic assessment and continues hydration and prompt treatment of any crisis.
+
+Why the other options fail:
+• B — Septic arthritis gives fever and an acutely hot joint and does not show a collapsed head on X-ray.
+• C — Muscle pain does not collapse bone.
+• D — Osteoporosis is generalised and does not produce a collapsed femoral head in a young adult.
+
+Reference: Ghana STP - sickle cell disease; avascular necrosis of the femoral head$q$,
+  strategy = $q$Decision tree: in sickle crisis think 'pain, fluids, warmth, oxygen' — and reject anything cold, dry or strenuous.$q$
+WHERE authored_id = $q$NG-ORIGINAL-NCX-0218$q$;
+
+UPDATE questions SET
+  stem = $q$A 2-year-old clamps his mouth shut and refuses his oral antibiotic. How should the nurse give the medicine?$q$,
+  choices = $q$[{"id": "a", "text": "Draw the dose into an oral syringe and give it slowly into the side of his cheek, letting him swallow"}, {"id": "b", "text": "Hold his nose until he opens his mouth, then pour the dose in"}, {"id": "c", "text": "Pinch his nostrils shut, tip his head right back and give the whole dose in one go before he can struggle"}, {"id": "d", "text": "Mix it into a full bottle of milk so that he takes it over the day"}]$q$::jsonb,
+  correct_choice_id = $q$a$q$,
+  rationale = $q$CORRECT (A) — "Draw the dose into an oral syringe and give it slowly into the side of his cheek, letting him swallow". Children should never be forced to take medicine: holding the nose or tipping the head back makes swallowing uncontrolled and risks aspiration. The safe approach is to measure the dose accurately into an oral syringe, place it in the side of the mouth between the cheek and the gum, and give it slowly so the child can swallow, then praise him. Offering a choice about how he takes it, using a favourite cup, and involving the parent all help.
+
+Why the other options fail:
+• B — Holding the nose forces mouth breathing and makes aspiration more likely.
+• C — Tilting the head right back opens the airway to the dose.
+• D — Milk left unfinished delivers an unknown and usually sub-therapeutic dose and teaches that medicine is a drink.
+
+Reference: WHO - administering medicines to children; Ghana STP - paediatric therapeutics$q$,
+  strategy = $q$Decision tree: separated toddlers protested — screaming first, silence later.$q$
+WHERE authored_id = $q$NG-ORIGINAL-NCX-1099$q$;
+
+-- Verify: expect 4
 COMMIT;
 
 -- ============================================================================
