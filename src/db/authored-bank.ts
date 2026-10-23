@@ -1704,7 +1704,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Apply a warm compress and review in 24 hours"
+   "text": "Apply a warm compress to the site and review it again in 24 hours"
   },
   {
    "id": "d",
@@ -1712,7 +1712,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "a",
- "rationale": "Redness, warmth and tenderness at a cannula site indicate phlebitis or local infection, and the device should be removed and resited elsewhere, with the site documented and the team informed. Flushing and continuing uses a device that is already failing and risks introducing infection into the circulation. A warm compress with review in 24 hours delays removal at a site that is showing active inflammation. Slowing the infusion does not treat the site; the problem is the device, not the speed.",
+ "rationale": "CORRECT (A) — \"Remove the cannula and resite it at a different site\". Redness, warmth and tenderness at a cannula site indicate phlebitis or local infection, and the device should be removed and resited elsewhere, with the site documented and the team informed. Flushing and continuing uses a device that is already failing and risks introducing infection into the circulation. A warm compress with review in 24 hours delays removal at a site that is showing active inflammation. Slowing the infusion does not treat the site; the problem is the device, not the speed. Why the other options fail: option b — flushing a cannula sitting in a red, warm and tender vein pushes bacteria into the circulation; option c — a warm compress leaves established phlebitis in place and the vein will thrombose; option d — slowing the infusion does not reverse inflammation that has already started.",
  "strategy": "Red, warm, tender cannula site means remove it and resite elsewhere.",
  "difficulty": "medium",
  "tags": [
@@ -2190,7 +2190,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     },
     {
       "id": "c",
-      "text": "Ask the patient's relative to hold the dressing in place"
+      "text": "Ask the patient's relative to hold the dressing in place while you fetch the dressing trolley"
     },
     {
       "id": "d",
@@ -2198,7 +2198,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "a",
-  "rationale": "A saturated dressing is a source of contamination for the nurse, the patient and the bed space, so the first step is hand hygiene followed by gloves and a plastic apron, and then the dressing is changed using an aseptic technique. Option B exposes the nurse to body fluid. Option C hands the task to someone untrained and uninsured. Option D leaves a wet dressing against the skin, which macerates the wound edges and provides a route for infection.",
+  "rationale": "CORRECT (A) — \"Perform hand hygiene and put on a plastic apron and gloves before changing it\". A saturated dressing is a source of contamination for the nurse, the patient and the bed space, so the first step is hand hygiene followed by gloves and a plastic apron, and then the dressing is changed using an aseptic technique. Option B exposes the nurse to body fluid. Option C hands the task to someone untrained and uninsured. Option D leaves a wet dressing against the skin, which macerates the wound edges and provides a route for infection. Why the other options fail: option b — changing a blood-stained dressing with bare hands exposes the nurse to blood-borne infection; option c — a relative has no training in asepsis and should not handle a contaminated dressing; option d — a saturated dressing has struck through and is no longer a barrier against infection.",
   "strategy": "Wet dressing means gloves and apron first, then change it. Never bare-handed.",
   "difficulty": "medium",
   "tags": [
@@ -20556,7 +20556,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Restricting all fluids after the evening meal"
+   "text": "Restricting all fluids after the evening meal so that she does not need to get up"
   },
   {
    "id": "c",
@@ -20568,7 +20568,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "d",
- "rationale": "Nocturia plus night-time walking is a predictable falls recipe, and the first fix is to shorten the journey: a commode at the bedside and lighting along the route. The cause of the nocturia is then reviewed, including diuretic timing and prostate or bladder problems.\n\nWhy the other options fail:\n• B — Blanket fluid restriction in older adults causes dehydration and confusion.\n• C — Sedatives increase the risk of falling and of nocturnal confusion.\n• A — Restraints are harmful, cause injury and are not an acceptable falls measure.\n\nReference: Ghana STG — falls prevention in older adults",
+ "rationale": "CORRECT (D) — \"A bedside commode within reach and a night light\". Nocturia plus night-time walking is a predictable falls recipe, and the first fix is to shorten the journey: a commode at the bedside and lighting along the route. The cause of the nocturia is then reviewed, including diuretic timing and prostate or bladder problems.\n\nWhy the other options fail:\n• B — Blanket fluid restriction in older adults causes dehydration and confusion.\n• C — Sedatives increase the risk of falling and of nocturnal confusion.\n• A — Restraints are harmful, cause injury and are not an acceptable falls measure.\n\nReference: Ghana STG — falls prevention in older adults. Why the other options fail: option a — physical restraint raises agitation and injury and is a last resort, not a first measure; option b — restricting all fluids causes dehydration and confusion and does not stop nocturia; option c — a night sedative increases the risk of falls and of next-morning confusion.",
  "strategy": "Remove the hazard before sedating the person who trips over it.",
  "difficulty": "hard",
  "tags": [
@@ -21457,11 +21457,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     },
     {
       "id": "d",
-      "text": "Observation of the child for ten days without treatment"
+      "text": "Keep the child under observation for ten days without giving any treatment at all"
     }
   ],
   "correctChoiceId": "a",
-  "rationale": "A transdermal bite that draws blood is a category III exposure, which requires the rabies vaccine course plus rabies immunoglobulin infiltrated into and around the wound, given as soon as possible after washing. Option B treats bacterial infection but does nothing to prevent rabies. Option C is needed if tetanus cover is incomplete, but it is not sufficient on its own. Option D is dangerous: once symptoms appear rabies is almost always fatal, so prevention cannot wait, and it is the animal that is observed where possible, not the child left untreated.",
+  "rationale": "CORRECT (A) — \"Rabies vaccine with rabies immunoglobulin infiltrated around the wound\". A transdermal bite that draws blood is a category III exposure, which requires the rabies vaccine course plus rabies immunoglobulin infiltrated into and around the wound, given as soon as possible after washing. Option B treats bacterial infection but does nothing to prevent rabies. Option C is needed if tetanus cover is incomplete, but it is not sufficient on its own. Option D is dangerous: once symptoms appear rabies is almost always fatal, so prevention cannot wait, and it is the animal that is observed where possible, not the child left untreated. Why the other options fail: option b — oral antibiotics do nothing to the rabies virus once it has entered the wound; option c — tetanus toxoid covers tetanus only and leaves rabies completely unaddressed; option d — the dog may be watched, but prophylaxis for a bitten child cannot wait ten days.",
   "strategy": "Broken skin from a dog bite is category III: wash, then vaccine plus immunoglobulin.",
   "difficulty": "medium",
   "tags": [
@@ -22105,7 +22105,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "A note stating that the client was fine all day"
+   "text": "A note stating that the client was fine all day and needed nothing"
   },
   {
    "id": "d",
@@ -22113,7 +22113,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "a",
- "rationale": "The record is a legal document, so entries must be contemporaneous, factual, timed, dated and signed, with only approved abbreviations. Late reconstruction is unreliable and looks like concealment.\n\nWhy the other options fail:\n• B — A shift summary written from memory loses the timing that later care depends on.\n• C — ‘Fine all day’ records no observation, no intervention and no evaluation.\n• D — Altering the record after discharge damages the client and the nurse's credibility.\n\nReference: Nursing and Midwifery Council of Ghana — code of conduct; record keeping",
+ "rationale": "CORRECT (A) — \"A factual, timed and signed note written at the time\". The record is a legal document, so entries must be contemporaneous, factual, timed, dated and signed, with only approved abbreviations. Late reconstruction is unreliable and looks like concealment.\n\nWhy the other options fail:\n• B — A shift summary written from memory loses the timing that later care depends on.\n• C — ‘Fine all day’ records no observation, no intervention and no evaluation.\n• D — Altering the record after discharge damages the client and the nurse's credibility.\n\nReference: Nursing and Midwifery Council of Ghana — code of conduct; record keeping. Why the other options fail: option b — a summary written at the end of the shift is retrospective and misses what changed; option c — a note saying the client was fine all day records no facts and no observations; option d — adding to the record after discharge is a retrospective alteration of it.",
  "strategy": "If it is not timed, factual and signed, it is not a record.",
  "difficulty": "medium",
  "tags": [
@@ -22315,11 +22315,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     },
     {
       "id": "d",
-      "text": "Tell the assistant to give the patient a drink of water"
+      "text": "Tell the assistant to give the patient a drink of water and recheck later"
     }
   ],
   "correctChoiceId": "a",
-  "rationale": "The nurse who takes the handover remains accountable for the interpretation of the observation, and an abnormal reading requires the registered nurse to assess the patient rather than accept or act on the number remotely. Options B and C defer action on a potentially deteriorating patient. Option D delegates a clinical decision to an unregulated worker and does not address the cause of the low pressure.",
+  "rationale": "CORRECT (A) — \"Assess the patient personally before deciding on any action\". The nurse who takes the handover remains accountable for the interpretation of the observation, and an abnormal reading requires the registered nurse to assess the patient rather than accept or act on the number remotely. Options B and C defer action on a potentially deteriorating patient. Option D delegates a clinical decision to an unregulated worker and does not address the cause of the low pressure. Why the other options fail: option b — recording the reading and carrying on leaves a possibly shocked patient unassessed; option c — asking the assistant to recheck in an hour delays care that may be needed now; option d — a drink of water treats nothing and risks aspiration in a hypotensive patient.",
   "strategy": "An abnormal observation reported to you is a request for you to assess, not to record.",
   "difficulty": "hard",
   "tags": [
@@ -22375,7 +22375,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Explaining the procedure to the parents outside the room"
+   "text": "Explaining the whole procedure to the parents outside the room while the child waits"
   },
   {
    "id": "c",
@@ -22387,7 +22387,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "d",
- "rationale": "Atraumatic care means removing or reducing the physical and psychological distress of care, so analgesia, positioning, and distraction are combined and the child is prepared in advance. Option B separates the child from the people who comfort her and gives her no preparation. Option C places the burden of coping on the child and teaches that distress is a failure. Option A delays necessary treatment and does not make it less painful later.",
+ "rationale": "CORRECT (D) — \"Applying topical anaesthetic, offering a comfort position and using distraction\". Atraumatic care means removing or reducing the physical and psychological distress of care, so analgesia, positioning, and distraction are combined and the child is prepared in advance. Option B separates the child from the people who comfort her and gives her no preparation. Option C places the burden of coping on the child and teaches that distress is a failure. Option A delays necessary treatment and does not make it less painful later. Why the other options fail: option a — deferring the dressing lets the wound deteriorate and does not spare the child; option b — the parents are prepared outside the room while the child, the patient, is not; option c — telling a child to be brave and not to cry simply adds to the distress.",
  "strategy": "Atraumatic care is a bundle: numb it, position it, distract, and prepare the child first.",
  "difficulty": "hard",
  "tags": [
@@ -23880,7 +23880,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "The Nurses and Midwives Council, which regulates the profession"
+      "text": "The Nurses and Midwives Council, which regulates the profession and its practitioners"
     },
     {
       "id": "b",
@@ -23896,7 +23896,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "c",
-  "rationale": "Companies and business names are registered at the Office of the Registrar of Companies within the Registrar General's Department. The Ghana Health Service and the Nursing and Midwifery Council regulate facilities and practitioners rather than creating the company, and the District Assembly issues permits but does not register the company itself.",
+  "rationale": "CORRECT (C) — \"The Office of the Registrar of Companies under the Registrar General's Department\". Companies and business names are registered at the Office of the Registrar of Companies within the Registrar General's Department. The Ghana Health Service and the Nursing and Midwifery Council regulate facilities and practitioners rather than creating the company, and the District Assembly issues permits but does not register the company itself. Why the other options fail: option a — the Nurses and Midwives Council regulates people, not companies; option b — the Ghana Health Service licenses facilities to operate, not to incorporate; option d — a District Assembly permit allows trading but does not create a company.",
   "strategy": "Legal existence as a company comes from the Registrar General's Office of the Registrar of Companies.",
   "difficulty": "medium",
   "tags": [
@@ -25008,7 +25008,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     },
     {
       "id": "b",
-      "text": "It reduces the amount of working capital the clinic holds"
+      "text": "It reduces the amount of working capital that the clinic holds at any one time during the month"
     },
     {
       "id": "c",
@@ -25020,7 +25020,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "a",
-  "rationale": "Once business and personal money share one wallet with no record of which is which, the owner cannot tell whether the clinic earns enough to survive. Working capital, tax and supplier relationships may all suffer, but the decisive harm is losing the ability to see whether the business stands on its own.",
+  "rationale": "CORRECT (A) — \"Mixing the two makes it impossible to tell whether the clinic is actually viable\". Once business and personal money share one wallet with no record of which is which, the owner cannot tell whether the clinic earns enough to survive. Working capital, tax and supplier relationships may all suffer, but the decisive harm is losing the ability to see whether the business stands on its own. Why the other options fail: option b — the cash itself is not lost, so working capital is not the main problem; option c — tax depends on the profit made, not on which wallet received the money; option d — suppliers care about being paid, not about where the money is kept.",
   "strategy": "Separate wallets and separate records, or you cannot see whether the clinic is viable.",
   "difficulty": "hard",
   "tags": [
@@ -27123,27 +27123,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MHN-0791",
   "categorySlug": "mental-health",
-  "stem": "For how long may a person be detained in a Ghanaian mental health facility on a certificate of urgency?",
+  "stem": "A patient on the ward tells the nurse quietly that he has been thinking about killing himself. What should the nurse do?",
   "choices": [
     {
       "id": "a",
-      "text": "For not more than twenty-four hours before a psychiatrist must review"
+      "text": "Change the subject gently so that the idea is not reinforced in his mind"
     },
     {
       "id": "b",
-      "text": "For not more than seventy-two hours, after which the person must be discharged or a court order obtained"
+      "text": "Reassure him that everybody feels like this sometimes and carry on with the round"
     },
     {
       "id": "c",
-      "text": "For not more than one month while the treatment plan is being prepared"
+      "text": "Ask him directly about his thoughts and plans, and stay with him"
     },
     {
       "id": "d",
-      "text": "For as long as the attending psychiatrist considers treatment is necessary"
+      "text": "Promise to keep the disclosure completely private and tell nobody else"
     }
   ],
-  "correctChoiceId": "b",
-  "rationale": "Section 49 allows detention on a certificate of urgency for no more than seventy-two hours. Within that period the person must either be discharged, kept on with a court order for temporary treatment, or opt to become a voluntary patient - release is a real outcome, not only a court order. Twenty-four hours is not the statutory limit, one month belongs to a prolonged treatment order, and the duration is fixed by the Act rather than left to the psychiatrist.",
+  "correctChoiceId": "c",
+  "rationale": "CORRECT (C) — \"Ask him directly about his thoughts and plans, and stay with him\". A disclosure of suicidal thinking is a request for help and must be taken seriously. Asking directly and calmly about the thoughts, whether he has a plan, the means and any previous attempts does not plant the idea; it gives him permission to talk and gives the nurse the information needed to judge the risk. The nurse then stays with the patient, removes means, ensures one-to-one observation as the unit policy requires, documents the conversation and refers to the mental health team. Confidentiality is explained honestly at the outset: the nurse cannot keep this secret, because keeping the patient safe requires the team to know. Why the other options fail: option a — changing the subject shuts the patient down and leaves a serious risk unidentified; option b — reassuring him that everyone feels this way dismisses the disclosure and ends the assessment; option d — absolute secrecy cannot be promised and would leave the team unable to keep him safe.",
   "strategy": "Certificate of urgency: seventy-two hours, then discharge, court order or voluntary status.",
   "difficulty": "medium",
   "tags": [
@@ -28768,11 +28768,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "The district hospital, which receives referrals from the facilities around it"
+      "text": "The district hospital, which receives the referrals from all the facilities around it"
     },
     {
       "id": "b",
-      "text": "The CHPS zone, the lowest level, staffed by a community health officer who lives in the community"
+      "text": "The CHPS zone, staffed by a community health officer who lives in the community"
     },
     {
       "id": "c",
@@ -28784,7 +28784,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "b",
-  "rationale": "The CHPS zone sits at the bottom of Ghana's public system, delivered by a community health officer who lives in the community it serves. The district hospital, health centre and regional hospital all sit above it and receive referrals from it, so none can be the lowest level. Recognising this hierarchy matters because bypassing a level overloads the hospital and empties the clinic built to protect it.",
+  "rationale": "CORRECT (B) — \"The CHPS zone, staffed by a community health officer who lives in the community\". The CHPS zone sits at the bottom of Ghana's public system, delivered by a community health officer who lives in the community it serves. The district hospital, health centre and regional hospital all sit above it and receive referrals from it, so none can be the lowest level. Recognising this hierarchy matters because bypassing a level overloads the hospital and empties the clinic built to protect it. Why the other options fail: option a — the district hospital is a referral facility, not a community-based service; option c — a health centre is a static sub-district facility with no resident outreach officer; option d — the regional hospital provides specialist care and is the wrong level entirely.",
   "strategy": "The community-based compound with a resident officer is CHPS - the foundation of the pyramid, below health centre, district and region.",
   "difficulty": "medium",
   "tags": [
@@ -28805,7 +28805,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     },
     {
       "id": "b",
-      "text": "The medical superintendent of the district hospital, who leads the clinical staff"
+      "text": "The medical superintendent of the district hospital, who leads all the clinical staff there"
     },
     {
       "id": "c",
@@ -28817,7 +28817,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "c",
-  "rationale": "The District Health Management Team is led by the District Director of Health Services, who carries responsibility for planning and coordinating all services in the district. The medical superintendent runs one hospital rather than the district system, the regional director sits a level above, and the matron heads nursing within one facility.",
+  "rationale": "CORRECT (C) — \"The District Director of Health Services, who leads the District Health Management Team\". The District Health Management Team is led by the District Director of Health Services, who carries responsibility for planning and coordinating all services in the district. The medical superintendent runs one hospital rather than the district system, the regional director sits a level above, and the matron heads nursing within one facility. Why the other options fail: option a — the regional director answers for the whole region, not for a single district; option b — the medical superintendent leads the hospital's clinical staff, not district planning; option d — the matron heads nursing in one hospital, not the district health service.",
   "strategy": "District-wide planning belongs to the District Director of Health Services at the head of the DHMT.",
   "difficulty": "medium",
   "tags": [
@@ -29121,7 +29121,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "b",
-  "rationale": "Recurrent expenditure recurs each month for running the ward, while capital expenditure buys durable assets that last years; the two are planned, approved and accounted for separately. Neither is inherently cheaper, both ordinarily require approval, and the funding source is not fixed to one or the other as the distractors claim.",
+  "rationale": "CORRECT (B) — \"Recurrent costs repeat monthly while capital buys assets used for years\". Recurrent expenditure recurs each month for running the ward, while capital expenditure buys durable assets that last years; the two are planned, approved and accounted for separately. Neither is inherently cheaper, both ordinarily require approval, and the funding source is not fixed to one or the other as the distractors claim. Why the other options fail: option a — capital items usually cost far more than recurrent items, not less; option c — both lines are budgeted in advance and both need approval; option d — donors and government fund both kinds, which is not what separates them.",
   "strategy": "Monthly running costs are recurrent; long-lived assets are capital - never mix the two lines.",
   "difficulty": "hard",
   "tags": [
@@ -29180,7 +29180,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     },
     {
       "id": "c",
-      "text": "The November box is correct because newer stock should be used before it becomes old"
+      "text": "The November box is correct because newer stock should be used before it becomes old on the ward shelf"
     },
     {
       "id": "d",
@@ -29188,7 +29188,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "a",
-  "rationale": "First expiry, first out means the stock closest to expiry is issued and used before later-dated stock, which is why it should be stored with the earliest date at the front. Neither the nearest box nor the newest box is the rule, and using either box simply because both are in date wastes the March stock and risks it expiring unused.",
+  "rationale": "CORRECT (A) — \"Stock must be issued first expiry, first out, so the March box is used before the November one\". First expiry, first out means the stock closest to expiry is issued and used before later-dated stock, which is why it should be stored with the earliest date at the front. Neither the nearest box nor the newest box is the rule, and using either box simply because both are in date wastes the March stock and risks it expiring unused. Why the other options fail: option b — proximity is irrelevant; the expiry date decides which stock goes first; option c — using newer stock first leaves the soon-to-expire box to be thrown away; option d — both boxes are in date today, but one expires much sooner and must go first.",
   "strategy": "Load the shelf so the earliest expiry is at the front and leaves first.",
   "difficulty": "hard",
   "tags": [
@@ -29349,7 +29349,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     },
     {
       "id": "c",
-      "text": "Her eligibility to be promoted to ward manager, which is decided by the points alone"
+      "text": "Her eligibility to be promoted to ward manager, which is decided by the points she collects alone"
     },
     {
       "id": "d",
@@ -29357,7 +29357,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "a",
-  "rationale": "Continuing professional development points are tied to renewal of the professional identification number, the credential that allows the nurse to practise. They do not set salary, promotion is not decided by points alone, and prescribing is outside the scope of a staff nurse in Ghana regardless of points.",
+  "rationale": "CORRECT (A) — \"Renewal of her professional identification number, which she needs to keep practising\". Continuing professional development points are tied to renewal of the professional identification number, the credential that allows the nurse to practise. They do not set salary, promotion is not decided by points alone, and prescribing is outside the scope of a staff nurse in Ghana regardless of points. Why the other options fail: option b — the salary grade follows the scheme of service, not the points collected; option c — promotion is decided on far more than CPD points alone; option d — no number of CPD points confers a licence to prescribe.",
   "strategy": "CPD points renew the PIN; without the PIN there is no practice.",
   "difficulty": "medium",
   "tags": [
@@ -30137,7 +30137,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     },
     {
       "id": "c",
-      "text": "It protects the facility from all legal claims arising from patient care"
+      "text": "It protects the facility from all legal claims arising from the care of any patient on the ward"
     },
     {
       "id": "d",
@@ -30145,7 +30145,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "a",
-  "rationale": "A written standard operating procedure states the expected practice so that every nurse on every shift performs the procedure the same way, which is what makes care reliable and auditable. It does not replace clinical judgement, it cannot shield a facility from every claim, and it certainly does not license untrained staff to work unsupervised.",
+  "rationale": "CORRECT (A) — \"It sets the expected practice for this ward so care is consistent between staff and shifts\". A written standard operating procedure states the expected practice so that every nurse on every shift performs the procedure the same way, which is what makes care reliable and auditable. It does not replace clinical judgement, it cannot shield a facility from every claim, and it certainly does not license untrained staff to work unsupervised. Why the other options fail: option b — a procedure supports clinical judgement, it does not replace it; option c — no written procedure protects a facility from every legal claim; option d — a procedure does not authorise untrained staff to perform it unsupervised.",
   "strategy": "The SOP exists so that practice is identical across staff and shifts.",
   "difficulty": "hard",
   "tags": [
@@ -31288,27 +31288,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-IMD-0913",
   "categorySlug": "med-surg",
-  "stem": "Both parents have sickle cell disease. What should the nurse explain about their children?",
+  "stem": "Why is intramuscular vitamin K given to every newborn soon after birth?",
   "choices": [
     {
       "id": "a",
-      "text": "Every child will have sickle cell disease"
+      "text": "Newborns have low vitamin K stores, so they are at risk of haemorrhagic disease"
     },
     {
       "id": "b",
-      "text": "Half of the children will have sickle cell disease"
+      "text": "To help the immature liver conjugate bilirubin and prevent jaundice in the first days"
     },
     {
       "id": "c",
-      "text": "One in four children will have sickle cell disease"
+      "text": "To raise the baby's iron stores until weaning foods are introduced at six months"
     },
     {
       "id": "d",
-      "text": "No child can be affected"
+      "text": "To protect the baby against whooping cough until the first vaccines are due"
     }
   ],
   "correctChoiceId": "a",
-  "rationale": "Sickle cell disease is autosomal recessive, so a child inherits one haemoglobin gene from each parent. A parent with disease has two abnormal genes and can only pass on an abnormal one, so every child of two affected parents inherits two abnormal genes and has the disease. Option B is the pattern for one affected and one carrier parent. Option C is the pattern for two carrier parents, which is the commoner clinical scenario and the one usually taught. Option D is impossible when both parents are affected.",
+  "rationale": "CORRECT (A) — \"Newborns have low vitamin K stores, so they are at risk of haemorrhagic disease\". Vitamin K does not cross the placenta well, breast milk contains very little, and the newborn gut is not yet colonised by the bacteria that make it, so every baby is born relatively deficient. Without prophylaxis a small number develop vitamin K deficiency bleeding — bruising, bleeding from the cord or nose, and in the worst, late form, intracranial haemorrhage at three to eight weeks. A single intramuscular dose of 1 mg (0.5 mg if the baby weighs under 1.5 kg) at birth prevents it, and the nurse should ensure the dose is given and documented and that the parents understand why, including when they decline oral vitamin K and a different schedule is needed. Why the other options fail: option b — vitamin K plays no part in conjugating bilirubin, and jaundice is managed by feeding and phototherapy; option c — vitamin K is not iron and does nothing for the baby's iron stores; option d — protection against whooping cough comes from the pentavalent vaccine at six weeks, not from vitamin K.",
   "strategy": "Two affected parents pass only abnormal genes: every child is affected. One in four is for two carriers.",
   "difficulty": "hard",
   "tags": [
@@ -56159,15 +56159,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
     {
       "id": "a",
-      "text": "Ventrogluteal"
+      "text": "Ventrogluteal site"
     },
     {
       "id": "b",
-      "text": "Dorsogluteal"
+      "text": "Dorsogluteal site"
     },
     {
       "id": "c",
-      "text": "Deltoid"
+      "text": "Deltoid site"
     },
     {
       "id": "d",
@@ -56175,7 +56175,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "d",
-  "rationale": "The vastus lateralis, on the anterolateral thigh, is the site of choice in infants because it has the largest muscle mass at that age and carries no major nerve or vessel nearby. The dorsogluteal site must be avoided in infants: the muscle is not yet developed and the sciatic nerve lies close, so injury is a real risk. The deltoid is too small to take a vaccine volume in a 6-month-old and is used from about 12 to 18 months. The ventrogluteal site, though safe in older children and adults, is harder to locate reliably in an infant.",
+  "rationale": "CORRECT (D) — \"Vastus lateralis\". The vastus lateralis, on the anterolateral thigh, is the site of choice in infants because it has the largest muscle mass at that age and carries no major nerve or vessel nearby. The dorsogluteal site must be avoided in infants: the muscle is not yet developed and the sciatic nerve lies close, so injury is a real risk. The deltoid is too small to take a vaccine volume in a 6-month-old and is used from about 12 to 18 months. The ventrogluteal site, though safe in older children and adults, is harder to locate reliably in an infant. Why the other options fail: option a — the ventrogluteal site is used for older children and adults, not infants; option b — the dorsogluteal site risks sciatic nerve damage and is avoided in infants; option c — the deltoid is too small at six months and is used in older children.",
   "strategy": "Infants: vastus lateralis. Never the dorsogluteal in a child who is not yet walking.",
   "difficulty": "hard",
   "tags": [
@@ -56209,7 +56209,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "b",
-  "rationale": "Half an hour is half of an hour, so a volume of 100 mL delivered in 30 minutes means 200 mL in 60 minutes, and the pump is set to 200 mL per hour. Option 100 mL per hour is the volume itself, not the rate, and would take a full hour, delivering the magnesium twice as slowly as prescribed. Option 50 mL per hour would take two hours. Option 300 mL per hour would finish in about twenty minutes, and magnesium given too fast causes hypotension, flushing and respiratory depression.",
+  "rationale": "CORRECT (B) — \"200 mL per hour\". Half an hour is half of an hour, so a volume of 100 mL delivered in 30 minutes means 200 mL in 60 minutes, and the pump is set to 200 mL per hour. Option 100 mL per hour is the volume itself, not the rate, and would take a full hour, delivering the magnesium twice as slowly as prescribed. Option 50 mL per hour would take two hours. Option 300 mL per hour would finish in about twenty minutes, and magnesium given too fast causes hypotension, flushing and respiratory depression. Why the other options fail: option a — 100 mL per hour would run the whole 100 mL over a full hour, twice as slow; option c — 50 mL per hour would take two hours to deliver the bag; option d — 300 mL per hour would deliver the bag in twenty minutes.",
   "strategy": "Rate per hour = volume ÷ time in hours. Thirty minutes is 0.5 hours, so 100 ÷ 0.5 = 200.",
   "difficulty": "hard",
   "tags": [
@@ -56307,11 +56307,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     },
     {
       "id": "d",
-      "text": "Administer the drug through a line that has been in place for several days"
+      "text": "Administer the drug through a line that has been in place for several days on the ward"
     }
   ],
   "correctChoiceId": "a",
-  "rationale": "Extravasation injury is prevented by confirming that the cannula is properly within the vein, that blood returns, and that the line is free-flowing, ideally sited fresh and in a large vein. The smallest possible vein increases the risk because there is less room for error and more tissue damage if the drug escapes. A rapid bolus increases the volume that can leak if the cannula has moved and removes the chance to stop early. An older line is more likely to have migrated, so age of the device is a risk factor, not a reassurance.",
+  "rationale": "CORRECT (A) — \"Confirm blood return and use a newly sited, free-flowing cannula in a large vein\". Extravasation injury is prevented by confirming that the cannula is properly within the vein, that blood returns, and that the line is free-flowing, ideally sited fresh and in a large vein. The smallest possible vein increases the risk because there is less room for error and more tissue damage if the drug escapes. A rapid bolus increases the volume that can leak if the cannula has moved and removes the chance to stop early. An older line is more likely to have migrated, so age of the device is a risk factor, not a reassurance. Why the other options fail: option b — a small vein extravasates more readily and leaves less tissue to spare; option c — a rapid bolus increases the volume and the severity of any extravasation; option d — an old line may have already extravasated silently behind its dressing.",
   "strategy": "Fresh, large vein, blood return, free flow: check before giving a vesicant.",
   "difficulty": "hard",
   "tags": [
@@ -56892,7 +56892,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "a",
-  "rationale": "A result well above target means the patient is over-anticoagulated and at risk of bleeding, so the protocol directs the infusion to be reduced or held and the level rechecked, with the team informed. Increasing the rate would deepen the over-anticoagulation. Vitamin K reverses warfarin, not heparin, and protamine is the heparin antidote. The activated partial thromboplastin time is precisely the test used to monitor unfractionated heparin, so it cannot be ignored.",
+  "rationale": "CORRECT (A) — \"Reducing or holding the infusion as the protocol directs and rechecking the level\". A result well above target means the patient is over-anticoagulated and at risk of bleeding, so the protocol directs the infusion to be reduced or held and the level rechecked, with the team informed. Increasing the rate would deepen the over-anticoagulation. Vitamin K reverses warfarin, not heparin, and protamine is the heparin antidote. The activated partial thromboplastin time is precisely the test used to monitor unfractionated heparin, so it cannot be ignored. Why the other options fail: option b — increasing the infusion would drive a high APTT further up and risk bleeding; option c — vitamin K reverses warfarin, not heparin; option d — heparin acts on the clotting cascade and certainly does prolong the APTT.",
   "strategy": "Above target on heparin means slow or hold, then recheck. Vitamin K is for warfarin.",
   "difficulty": "hard",
   "tags": [
@@ -57029,7 +57029,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "a",
-  "rationale": "A peak level is taken roughly 30 minutes after the end of an intravenous infusion, once the drug has distributed, because the purpose is to confirm that the concentration is high enough to be effective without being toxic. A sample taken immediately before the next dose is a trough, which answers a different question. Sampling during the infusion measures a concentration that has not yet equilibrated. Timing is not optional: a level drawn at the wrong moment cannot be interpreted and may lead to an unnecessary dose change.",
+  "rationale": "CORRECT (A) — \"About 30 minutes after the end of the infusion\". A peak level is taken roughly 30 minutes after the end of an intravenous infusion, once the drug has distributed, because the purpose is to confirm that the concentration is high enough to be effective without being toxic. A sample taken immediately before the next dose is a trough, which answers a different question. Sampling during the infusion measures a concentration that has not yet equilibrated. Timing is not optional: a level drawn at the wrong moment cannot be interpreted and may lead to an unnecessary dose change. Why the other options fail: option b — immediately before the next dose is the trough, not the peak; option c — halfway through the infusion the level has not yet reached its peak; option d — timing is everything when a level is being interpreted.",
   "strategy": "Peak is about 30 minutes after the infusion ends. Trough is just before the next dose.",
   "difficulty": "hard",
   "tags": [
@@ -57153,7 +57153,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Check the blood glucose four times daily"
+   "text": "Check the blood glucose level four times every day"
   },
   {
    "id": "c",
@@ -57165,7 +57165,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "a",
- "rationale": "Metronidazole inhibits the liver enzymes that metabolise warfarin, so the INR rises and bleeding risk climbs within days. The INR is checked soon after starting and the warfarin dose adjusted, and the client is warned about bruising and black stools.\n\nWhy the other options fail:\n• B — Metronidazole does not materially affect glucose; that monitoring belongs to diabetes therapy.\n• C — Calcium is unrelated to this interaction.\n• D — Temperature surveillance does not detect the bleeding risk this combination creates.\n\nReference: Ghana STG — warfarin interactions; metronidazole",
+ "rationale": "CORRECT (A) — \"Recheck the INR within a few days of starting\". Metronidazole inhibits the liver enzymes that metabolise warfarin, so the INR rises and bleeding risk climbs within days. The INR is checked soon after starting and the warfarin dose adjusted, and the client is warned about bruising and black stools.\n\nWhy the other options fail:\n• B — Metronidazole does not materially affect glucose; that monitoring belongs to diabetes therapy.\n• C — Calcium is unrelated to this interaction.\n• D — Temperature surveillance does not detect the bleeding risk this combination creates.\n\nReference: Ghana STG — warfarin interactions; metronidazole. Why the other options fail: option b — metronidazole does not disturb the blood glucose at all; option c — metronidazole has no effect on the serum calcium; option d — a four-hourly temperature would not reveal a warfarin interaction.",
  "strategy": "When an enzyme inhibitor is added to warfarin, expect the INR to rise and look for it early.",
  "difficulty": "medium",
  "tags": [
@@ -57359,7 +57359,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Agree, because drowsiness means the client can no longer feel pain"
+   "text": "Agree with them, because drowsiness means that the client can no longer feel any pain at all"
   },
   {
    "id": "c",
@@ -57371,7 +57371,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "a",
- "rationale": "Grimacing on movement is a behavioural sign of pain and is a valid indication to treat, using the smallest dose that relieves it. Drowsiness does not mean pain has gone, and titrating against the sign rather than against full wakefulness keeps the client comfortable without hastening death.\n\nWhy the other options fail:\n• B — Sedation does not abolish nociception; the grimace proves the opposite.\n• C — A dying client may never be able to ask, so waiting means abandoning pain control.\n• D — Timing analgesia around the family's presence puts their comfort before the client's.\n\nReference: Ghana STG — palliative care; pain assessment at end of life",
+ "rationale": "CORRECT (A) — \"Explain that grimacing shows pain, which is treated with the smallest effective dose\". Grimacing on movement is a behavioural sign of pain and is a valid indication to treat, using the smallest dose that relieves it. Drowsiness does not mean pain has gone, and titrating against the sign rather than against full wakefulness keeps the client comfortable without hastening death.\n\nWhy the other options fail:\n• B — Sedation does not abolish nociception; the grimace proves the opposite.\n• C — A dying client may never be able to ask, so waiting means abandoning pain control.\n• D — Timing analgesia around the family's presence puts their comfort before the client's.\n\nReference: Ghana STG — palliative care; pain assessment at end of life. Why the other options fail: option b — drowsiness does not abolish pain, and the grimace shows that it is present; option c — waiting for a dying client to ask leaves the pain untreated; option d — dosing only when the family has left hides treatment and breaks their trust.",
  "strategy": "At the end of life, treat observed pain, not the ability to report it.",
  "difficulty": "hard",
  "tags": [
@@ -73875,7 +73875,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "a",
-  "rationale": "Only dialysis removes potassium from the body. Calcium gluconate, insulin with dextrose and salbutamol all lower the serum potassium by moving it into cells, which protects the patient in the short term but leaves the total body potassium unchanged, so the level can rebound once the effect wears off. This is why a patient with severe hyperkalaemia is treated with membrane stabilisation and shifting agents while arrangements are made for definitive removal. Calcium in particular does not lower the potassium at all; it protects the myocardium.",
+  "rationale": "CORRECT (A) — \"Haemodialysis\". Only dialysis removes potassium from the body. Calcium gluconate, insulin with dextrose and salbutamol all lower the serum potassium by moving it into cells, which protects the patient in the short term but leaves the total body potassium unchanged, so the level can rebound once the effect wears off. This is why a patient with severe hyperkalaemia is treated with membrane stabilisation and shifting agents while arrangements are made for definitive removal. Calcium in particular does not lower the potassium at all; it protects the myocardium. Why the other options fail: option b — calcium gluconate protects the heart but does not remove potassium; option c — insulin with dextrose shifts potassium into the cells without removing it; option d — salbutamol shifts potassium into the cells and is not a removal treatment.",
   "strategy": "Shifting agents buy time; only dialysis removes potassium.",
   "difficulty": "medium",
   "tags": [
@@ -79246,7 +79246,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "a",
- "rationale": "A full bladder sits in front of the uterus and physically prevents it from contracting, so a boggy uterus that does not respond to massage and an oxytocic is often a bladder problem. Emptying it, by catheter if she cannot pass urine, removes the obstruction to contraction and the fundus can then be rubbed up properly. Option B repeats the action that has already failed and delays the cause. Option C leaves a bleeding woman unassessed. Option D adds a drug while leaving the mechanical cause in place, and stacking uterotonics risks their own harms.",
+ "rationale": "CORRECT (A) — \"Empty the bladder and continue to massage the fundus\". A full bladder sits in front of the uterus and physically prevents it from contracting, so a boggy uterus that does not respond to massage and an oxytocic is often a bladder problem. Emptying it, by catheter if she cannot pass urine, removes the obstruction to contraction and the fundus can then be rubbed up properly. Option B repeats the action that has already failed and delays the cause. Option C leaves a bleeding woman unassessed. Option D adds a drug while leaving the mechanical cause in place, and stacking uterotonics risks their own harms. Why the other options fail: option b — massaging harder cannot work while a full bladder is preventing contraction; option c — waiting for the next oxytocin wastes time in a woman who is bleeding; option d — oxytocin will not act on a uterus held open by a full bladder.",
  "strategy": "Boggy uterus that will not firm up: check the bladder before adding more drug.",
  "difficulty": "medium",
  "tags": [
@@ -82023,7 +82023,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "c",
-  "rationale": "Peripheral potassium is limited to roughly 10 mmol per hour and a concentration no greater than 40 mmol/L, given by pump with cardiac monitoring and a second check, because potassium acts directly on the myocardium and too fast a rate causes fatal dysrhythmia. Option B is the concentration limit, not the hourly rate, and is the commonest confusion in this topic. Option A is far above any safe rate. Option D is untrue: the absence of a rate limit is exactly what makes potassium errors fatal.",
+  "rationale": "CORRECT (C) — \"About 10 mmol per hour\". Peripheral potassium is limited to roughly 10 mmol per hour and a concentration no greater than 40 mmol/L, given by pump with cardiac monitoring and a second check, because potassium acts directly on the myocardium and too fast a rate causes fatal dysrhythmia. Option B is the concentration limit, not the hourly rate, and is the commonest confusion in this topic. Option A is far above any safe rate. Option D is untrue: the absence of a rate limit is exactly what makes potassium errors fatal. Why the other options fail: option a — 100 mmol per hour can cause a fatal arrhythmia; option b — 40 mmol per hour is still far above the peripheral maximum; option d — there is a firm rate limit, and exceeding it can kill the patient.",
   "strategy": "Peripheral potassium: no more than 10 mmol per hour and 40 mmol per litre. Never a bolus.",
   "difficulty": "medium",
   "tags": [
@@ -84314,11 +84314,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     },
     {
       "id": "d",
-      "text": "The thiazide makes the kidneys excrete lithium more slowly by damaging the tubules"
+      "text": "The thiazide makes the kidneys excrete the lithium more slowly by damaging the kidney tubules"
     }
   ],
   "correctChoiceId": "a",
-  "rationale": "Lithium is handled by the kidney much like sodium. A thiazide diuretic causes mild sodium loss, so the proximal tubule compensates by reabsorbing more sodium, and lithium is carried back with it. The serum lithium therefore rises even though the dose has not changed. Option B describes a binding interaction, which is not how thiazides work. Option C describes a distribution effect that does not occur. Option D is wrong about the mechanism: the tubules are not damaged, the drug is simply reabsorbed.",
+  "rationale": "CORRECT (A) — \"The thiazide reduces sodium delivery to the distal tubule, so more lithium is reabsorbed\". Lithium is handled by the kidney much like sodium. A thiazide diuretic causes mild sodium loss, so the proximal tubule compensates by reabsorbing more sodium, and lithium is carried back with it. The serum lithium therefore rises even though the dose has not changed. Option B describes a binding interaction, which is not how thiazides work. Option C describes a distribution effect that does not occur. Option D is wrong about the mechanism: the tubules are not damaged, the drug is simply reabsorbed. Why the other options fail: option b — thiazides do not bind lithium in the gut and do not increase absorption; option c — thiazides do not carry lithium into brain tissue; option d — the tubules are not damaged; lithium is reabsorbed because sodium delivery falls.",
   "strategy": "Thiazides and NSAIDs are the classic lithium-raises. Sodium loss means lithium retention.",
   "difficulty": "hard",
   "tags": [
@@ -84965,7 +84965,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "a",
- "rationale": "Use the rule on the sheet: the amount wanted over the amount in stock, multiplied by the volume the stock comes in. Here that is 4 mg divided by 10 mg, which is 0.4, multiplied by 1 mL, giving 0.4 mL. Both figures are already in milligrams, so no unit conversion is needed. Option B inverts the calculation and would give 25 mg. Option C repeats the dose in milligrams as millilitres and would give 40 mg, a tenfold overdose of an opioid. Option D halves the correct answer and would under-dose the patient.",
+ "rationale": "CORRECT (A) — \"0.4 mL\". Use the rule on the sheet: the amount wanted over the amount in stock, multiplied by the volume the stock comes in. Here that is 4 mg divided by 10 mg, which is 0.4, multiplied by 1 mL, giving 0.4 mL. Both figures are already in milligrams, so no unit conversion is needed. Option B inverts the calculation and would give 25 mg. Option C repeats the dose in milligrams as millilitres and would give 40 mg, a tenfold overdose of an opioid. Option D halves the correct answer and would under-dose the patient. Why the other options fail: option b — 2.5 mL would give 25 mg, far more than the 4 mg prescribed; option c — 4 mL would give 40 mg, ten times the prescribed dose; option d — 0.25 mL would give only 2.5 mg, less than half the dose.",
  "strategy": "Want over have, times the volume. Check the answer back against the dose in mg.",
  "difficulty": "medium",
  "tags": [
@@ -91696,11 +91696,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     },
     {
       "id": "d",
-      "text": "Finish the drug round, then investigate the smell of smoke"
+      "text": "Finish the drug round first, then go and investigate the smell of smoke in the corridor"
     }
   ],
   "correctChoiceId": "a",
-  "rationale": "The accepted sequence is rescue, alarm, contain and evacuate: move anyone in immediate danger, activate the alarm so help comes and the response begins, close doors to limit the spread, and then evacuate as directed. Extinguishing the fire first delays the alarm and leaves colleagues unaware. Evacuating before raising the alarm wastes time and risks the evacuation running into the fire. Completing a drug round before investigating smoke is indefensible.",
+  "rationale": "CORRECT (A) — \"Rescue anyone in immediate danger, raise the alarm, contain the fire, then evacuate\". The accepted sequence is rescue, alarm, contain and evacuate: move anyone in immediate danger, activate the alarm so help comes and the response begins, close doors to limit the spread, and then evacuate as directed. Extinguishing the fire first delays the alarm and leaves colleagues unaware. Evacuating before raising the alarm wastes time and risks the evacuation running into the fire. Completing a drug round before investigating smoke is indefensible. Why the other options fail: option b — attacking the fire first ignores the people in immediate danger; option c — evacuating before the alarm delays help and spreads panic; option d — finishing the drug round lets the fire grow unopposed.",
   "strategy": "Rescue, alarm, contain, evacuate — in that order, every time.",
   "difficulty": "hard",
   "tags": [
@@ -100285,7 +100285,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
     }
   ],
   "correctChoiceId": "a",
-  "rationale": "Nephrotic syndrome produces a hypercoagulable state, because antithrombin III and other proteins are lost in the urine while clotting factors are synthesised in greater amounts. A unilateral swollen leg in this patient suggests deep vein thrombosis, and the renal vein is the classic site, presenting with flank pain and deteriorating renal function. Option B is unrelated to the acute swelling. Option C is not a recognised complication of nephrotic syndrome. Option D does not present as unilateral leg swelling.",
+  "rationale": "CORRECT (A) — \"Renal vein thrombosis\". Nephrotic syndrome produces a hypercoagulable state, because antithrombin III and other proteins are lost in the urine while clotting factors are synthesised in greater amounts. A unilateral swollen leg in this patient suggests deep vein thrombosis, and the renal vein is the classic site, presenting with flank pain and deteriorating renal function. Option B is unrelated to the acute swelling. Option C is not a recognised complication of nephrotic syndrome. Option D does not present as unilateral leg swelling. Why the other options fail: option b — anaemia does not explain a single swollen leg in nephrotic syndrome; option c — hypercalcaemia is not the classic thrombotic complication in this setting; option d — pulmonary fibrosis has no link to a swollen leg in nephrotic syndrome.",
   "strategy": "Nephrotic patients clot: lost antithrombin, made clotting factors. New swelling means thrombosis.",
   "difficulty": "hard",
   "tags": [
@@ -117352,7 +117352,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "b",
- "rationale": "Painless bright-red bleeding late in pregnancy suggests placenta praevia, and a digital examination can tear through the placenta sitting over the cervical os, causing catastrophic haemorrhage. The examination is deferred until ultrasound has shown the placental site. Option A is essential baseline observation. Option C is needed because she may bleed heavily and needs a route for fluids and blood. Option D is the investigation that must come before any examination.",
+ "rationale": "CORRECT (B) — \"Performing a digital vaginal examination\". Painless bright-red bleeding late in pregnancy suggests placenta praevia, and a digital examination can tear through the placenta sitting over the cervical os, causing catastrophic haemorrhage. The examination is deferred until ultrasound has shown the placental site. Option A is essential baseline observation. Option C is needed because she may bleed heavily and needs a route for fluids and blood. Option D is the investigation that must come before any examination. Why the other options fail: option a — checking vital signs and the fetal heart is necessary and must not be avoided; option c — intravenous access is part of the preparation and is perfectly safe; option d — ultrasound is exactly what is needed before any examination is attempted.",
  "strategy": "Bleeding late in pregnancy: scan before you touch. No digital examination until praevia is excluded.",
  "difficulty": "hard",
  "tags": [
@@ -117366,27 +117366,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-MCH-0003",
  "categorySlug": "maternal-newborn",
- "stem": "A woman in active labour has recurrent late decelerations on the cardiotocograph. What should the nurse do?",
+ "stem": "Why is a partogram kept for every woman in established labour?",
  "choices": [
   {
    "id": "a",
-   "text": "Increase the oxytocin to speed delivery"
+   "text": "It records the fetal heart rate alone and replaces the cardiotocograph completely"
   },
   {
    "id": "b",
-   "text": "Ask her to push through each contraction"
+   "text": "It plots dilatation and descent against time so that slow progress is spotted early"
   },
   {
    "id": "c",
-   "text": "Turn her onto her side, stop the oxytocin and call for urgent review"
+   "text": "It documents every drug given so that the pharmacy can bill the ward correctly"
   },
   {
    "id": "d",
-   "text": "Lay her flat on her back and continue to observe"
+   "text": "It removes the need for vaginal examination once the woman reaches the second stage"
   }
  ],
- "correctChoiceId": "c",
- "rationale": "Late decelerations that repeat show the fetus is not getting enough oxygen through the placenta during contractions. Lying her on her side relieves aortocaval compression and improves uterine perfusion, stopping the oxytocin removes the drug driving the contractions, and urgent review decides whether delivery is needed. Option A adds contractions to a placenta that cannot keep up. Option B is unsafe before full dilatation. Option D worsens the compression the lateral position is meant to relieve.",
+ "correctChoiceId": "b",
+ "rationale": "CORRECT (B) — \"It plots dilatation and descent against time so that slow progress is spotted early\". The partogram is a graphic record of labour against time. Cervical dilatation, descent of the head, contractions, fetal heart rate, liquor, moulding and the mother's pulse, blood pressure and temperature are plotted at each examination, and an alert line and action line show when progress is falling behind. Because prolonged and obstructed labour are major causes of maternal death, fistula and stillbirth in Ghana, the partogram lets the midwife intervene early — by emptying the bladder, hydrating, augmenting or referring. It supports rather than replaces clinical assessment and does not remove the need for examination. Why the other options fail: option a — the partogram records the fetal heart rate as one parameter among many and does not replace the cardiotocograph; option c — drug charts and billing records are kept elsewhere; the partogram does not capture them; option d — vaginal examination remains essential in the second stage to assess descent and position.",
  "strategy": "Late decelerations mean the placenta cannot keep up. Turn her, stop the oxytocin, escalate.",
  "difficulty": "hard",
  "tags": [
@@ -117400,27 +117400,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-MCH-0004",
  "categorySlug": "maternal-newborn",
- "stem": "A client two hours after delivery has heavy vaginal bleeding and a uterus that feels soft and boggy on palpation. What should the nurse do first?",
+ "stem": "Which advice should the nurse give a woman about perineal care in the first week after a normal vaginal delivery?",
  "choices": [
   {
    "id": "a",
-   "text": "Leave her to rest and reassess in thirty minutes"
+   "text": "Use a strong antiseptic douche twice a day to keep the stitches free of infection"
   },
   {
    "id": "b",
-   "text": "Apply a tight abdominal binder and document"
+   "text": "Avoid washing the area at all so that the stitches and the perineum are not disturbed"
   },
   {
    "id": "c",
-   "text": "Give oral iron and encourage a hot drink"
+   "text": "Sit in a hot bath for an hour each evening to relieve the perineal soreness and swelling"
   },
   {
    "id": "d",
-   "text": "Massage the fundus firmly while summoning help"
+   "text": "Wash from front to back after using the toilet and change the pads often"
   }
  ],
  "correctChoiceId": "d",
- "rationale": "A boggy uterus means the myometrium is not contracting around the open vessels at the placental site, which is uterine atony and the commonest cause of postpartum haemorrhage. Fundal massage stimulates contraction at once while help and uterotonics are on their way. Option A allows continued blood loss. Option B does nothing to make the uterus contract. Option C treats anaemia later, not haemorrhage now.",
+ "rationale": "CORRECT (D) — \"Wash from front to back after using the toilet and change the pads often\". The perineum is close to the anus, so cleaning from front to back stops faecal organisms being carried onto the stitches and into the vagina or urethra. Plain warm water is enough; the area is patted dry from front to back, hands are washed before and after, pads are changed at least four-hourly or whenever they are soiled, and breathable cotton underwear is worn. The woman is taught to report a fever, offensive discharge, increasing pain or a gaping stitch, and to do her pelvic floor exercises. Antiseptic douching disturbs the normal flora, and leaving the area unwashed allows infection. Why the other options fail: option a — antiseptic douching disturbs the normal flora and can push infection upwards; option b — not washing leaves faecal organisms around the stitches and the perineum; option c — a long hot bath increases perineal oedema and dizziness without cleaning any better.",
  "strategy": "Boggy uterus means atony. Rub it up first, and call for help while you do.",
  "difficulty": "hard",
  "tags": [
@@ -117454,7 +117454,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "a",
- "rationale": "Bleeding that returns or continues beyond the first week, with a bulky uterus and an open os, points to retained products of conception, which prevent the uterus from contracting down and can also become infected. Option B is wrong because lochia should be lessening by day ten, not becoming heavier with clots. Option C produces a boggy uterus and difficulty voiding, not an open os with clots. Option D causes dysuria and frequency and does not cause uterine bleeding.",
+ "rationale": "CORRECT (A) — \"Retained placental tissue\". Bleeding that returns or continues beyond the first week, with a bulky uterus and an open os, points to retained products of conception, which prevent the uterus from contracting down and can also become infected. Option B is wrong because lochia should be lessening by day ten, not becoming heavier with clots. Option C produces a boggy uterus and difficulty voiding, not an open os with clots. Option D causes dysuria and frequency and does not cause uterine bleeding. Why the other options fail: option b — heavy bleeding with clots and an open os at day ten is not normal lochia; option c — atony with a full bladder presents in the first hours, not at ten days; option d — a urinary infection does not enlarge the uterus or open the os.",
  "strategy": "Late, heavy bleeding with a big uterus and an open os means something is still inside.",
  "difficulty": "hard",
  "tags": [
@@ -117522,7 +117522,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "c",
- "rationale": "Contractions with cervical change at 35 weeks is threatened preterm labour, and she needs assessment for infection, membrane status and fetal wellbeing, with steroids and magnesium considered. Intercourse is avoided because semen contains prostaglandins and because infection is a recognised trigger. Option A is the opposite of the advice. Option B exposes her and the fetus to unregulated substances at a vulnerable time. Option D risks delivering outside hospital without the neonatal team ready.",
+ "rationale": "CORRECT (C) — \"Avoid intercourse and follow the preterm-labour plan she was given\". Contractions with cervical change at 35 weeks is threatened preterm labour, and she needs assessment for infection, membrane status and fetal wellbeing, with steroids and magnesium considered. Intercourse is avoided because semen contains prostaglandins and because infection is a recognised trigger. Option A is the opposite of the advice. Option B exposes her and the fetus to unregulated substances at a vulnerable time. Option D risks delivering outside hospital without the neonatal team ready. Why the other options fail: option a — intercourse does not strengthen contractions; it risks infection and more contractions; option b — unprescribed herbal preparations are unregulated and may stimulate the uterus; option d — ignoring the contractions misses the chance to delay a preterm birth.",
  "strategy": "Contractions plus a changing cervix before term is preterm labour. Assess, and avoid intercourse.",
  "difficulty": "hard",
  "tags": [
@@ -117555,7 +117555,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "d",
- "rationale": "Signs of pregnancy are graded by how directly they prove a fetus is present. Hearing the fetal heart is direct evidence of a fetus, so it is a positive sign, alongside ultrasound visualisation and the examiner feeling fetal parts. Option A covers symptoms the woman reports, such as nausea and breast tenderness. Option B covers changes the examiner finds, such as a softened cervix or a positive pregnancy test. Option C is wrong because the finding proves the diagnosis.",
+ "rationale": "CORRECT (D) — \"A positive sign of pregnancy\". Signs of pregnancy are graded by how directly they prove a fetus is present. Hearing the fetal heart is direct evidence of a fetus, so it is a positive sign, alongside ultrasound visualisation and the examiner feeling fetal parts. Option A covers symptoms the woman reports, such as nausea and breast tenderness. Option B covers changes the examiner finds, such as a softened cervix or a positive pregnancy test. Option C is wrong because the finding proves the diagnosis. Why the other options fail: option a — presumptive signs are symptoms the woman reports, such as amenorrhoea; option b — probable signs are what the examiner sees, such as a softened cervix; option c — the fetal heart is a pregnancy sign and not an unrelated finding.",
  "strategy": "Hearing the heart is a positive sign. Symptoms are presumptive; examination findings are probable.",
  "difficulty": "hard",
  "tags": [
@@ -117588,7 +117588,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "a",
- "rationale": "The first stage runs from the onset of established labour to full dilatation, the second from full dilatation to the birth of the baby, and the third from the birth to expulsion of the placenta. Option B confuses the end of the second stage with the end of the third. Option C describes the stage she has already completed. Option D describes a stage that has not yet begun.",
+ "rationale": "CORRECT (A) — \"The second stage, which ends with the birth of the baby\". The first stage runs from the onset of established labour to full dilatation, the second from full dilatation to the birth of the baby, and the third from the birth to expulsion of the placenta. Option B confuses the end of the second stage with the end of the third. Option C describes the stage she has already completed. Option D describes a stage that has not yet begun. Why the other options fail: option b — the stage that ends with the placenta is the third stage, not the second; option c — the first stage ends at full dilatation, which has already happened; option d — the third stage comes after the baby has been born.",
  "strategy": "Stage one ends at full dilatation, stage two at the birth, stage three at the placenta.",
  "difficulty": "hard",
  "tags": [
@@ -117618,11 +117618,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "A contracting uterus with no change in the cord or bleeding"
+   "text": "A contracting uterus with no change in the cord and no bleeding at all"
   }
  ],
  "correctChoiceId": "b",
- "rationale": "When the placenta separates it drops into the lower segment, so the uterus becomes firm and globular, the visible cord lengthens because the placenta has moved down, and blood collected behind it escapes in a gush. Option A describes the opposite of every sign. Option C leaves out the cord change that shows descent. Option D describes a uterus contracting without separation having occurred.",
+ "rationale": "CORRECT (B) — \"A firm globular uterus, a lengthening cord and a gush of blood\". When the placenta separates it drops into the lower segment, so the uterus becomes firm and globular, the visible cord lengthens because the placenta has moved down, and blood collected behind it escapes in a gush. Option A describes the opposite of every sign. Option C leaves out the cord change that shows descent. Option D describes a uterus contracting without separation having occurred. Why the other options fail: option a — a soft uterus and a shortening cord are not signs of separation; option c — an unchanged cord with steady trickling does not show separation; option d — a contracting uterus with no cord change and no bleeding does not show it.",
  "strategy": "Separation: uterus globular, cord longer, blood gushes. The cord lengthens, it never shortens.",
  "difficulty": "hard",
  "tags": [
@@ -117652,11 +117652,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Whether the newborn will accept a feed"
+   "text": "Whether the newborn will accept a feed straight away"
   }
  ],
  "correctChoiceId": "c",
- "rationale": "A nuchal cord is common. A loose loop is slipped over the head; a tight one is managed by clamping and cutting, or by the somersault manoeuvre, so that the shoulders can deliver without tearing the cord or restricting the baby. Option A is irrelevant at this moment. Option B cannot happen before the baby is born. Option D is assessed after birth, not during delivery of the head.",
+ "rationale": "CORRECT (C) — \"Whether the cord is looped around the neck\". A nuchal cord is common. A loose loop is slipped over the head; a tight one is managed by clamping and cutting, or by the somersault manoeuvre, so that the shoulders can deliver without tearing the cord or restricting the baby. Option A is irrelevant at this moment. Option B cannot happen before the baby is born. Option D is assessed after birth, not during delivery of the head. Why the other options fail: option a — whether the mother can stand and walk is irrelevant at the moment of delivery; option b — placental separation comes later, in the third stage; option d — whether the newborn will feed is assessed after birth, not now.",
  "strategy": "Head out, check the neck: a nuchal cord decides how the shoulders are delivered.",
  "difficulty": "hard",
  "tags": [
@@ -117674,7 +117674,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "The two veins carry oxygenated blood and the single artery returns deoxygenated blood"
+   "text": "The two veins carry the oxygenated blood to the fetus and the single artery returns the deoxygenated blood"
   },
   {
    "id": "b",
@@ -117686,11 +117686,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "The two arteries return deoxygenated blood to the placenta and the single vein carries oxygenated blood to the fetus"
+   "text": "The two arteries return deoxygenated blood to the placenta and the single vein carries oxygenated blood"
   }
  ],
  "correctChoiceId": "d",
- "rationale": "The normal cord contains two umbilical arteries, which carry deoxygenated blood from the fetus back to the placenta, and one umbilical vein, which returns oxygenated, nutrient-rich blood to the fetus. The count is checked because a single umbilical artery is associated with renal and cardiac anomalies and prompts closer examination of the newborn. Option A reverses the vessels. Option B is wrong, because the finding is part of the routine newborn check. Option C confuses the umbilical circulation with the maternal uterine supply.",
+ "rationale": "CORRECT (D) — \"The two arteries return deoxygenated blood to the placenta and the single vein carries oxygenated blood\". The normal cord contains two umbilical arteries, which carry deoxygenated blood from the fetus back to the placenta, and one umbilical vein, which returns oxygenated, nutrient-rich blood to the fetus. The count is checked because a single umbilical artery is associated with renal and cardiac anomalies and prompts closer examination of the newborn. Option A reverses the vessels. Option B is wrong, because the finding is part of the routine newborn check. Option C confuses the umbilical circulation with the maternal uterine supply. Why the other options fail: option a — reversing the vessels describes the umbilical vein, not the arteries; option b — the vessel count matters, because a single artery is linked with anomalies; option c — the umbilical arteries carry fetal blood, not maternal blood.",
  "strategy": "Two arteries out, one vein in. A single artery warrants a careful look for other anomalies.",
  "difficulty": "hard",
  "tags": [
@@ -117724,7 +117724,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "a",
- "rationale": "The corpus luteum supports the pregnancy in the early weeks by producing progesterone. By about the end of the first trimester the placenta has taken over as the dominant endocrine organ, producing oestrogen and progesterone for the rest of the pregnancy, which is why the corpus luteum can fail later without ending the pregnancy. Options B, C and D all place this switch at the wrong time.",
+ "rationale": "CORRECT (A) — \"After the first trimester\". The corpus luteum supports the pregnancy in the early weeks by producing progesterone. By about the end of the first trimester the placenta has taken over as the dominant endocrine organ, producing oestrogen and progesterone for the rest of the pregnancy, which is why the corpus luteum can fail later without ending the pregnancy. Options B, C and D all place this switch at the wrong time. Why the other options fail: option b — in the first days after implantation the corpus luteum is still the main source; option c — by the final week the placenta has long been the main source; option d — after delivery the placenta is expelled and its hormone output ends.",
  "strategy": "The corpus luteum carries the first trimester; the placenta takes over afterwards.",
  "difficulty": "hard",
  "tags": [
@@ -117758,7 +117758,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "b",
- "rationale": "Progesterone quietens the myometrium and is the reason the uterus does not contract in response to the mechanical stretch of a growing fetus. Its withdrawal, and the rise in oestrogen and oxytocin receptors, is part of what brings labour on. Option A promotes growth of uterine muscle and increases contractility near term. Option C acts on the ovary, not the uterus. Option D does the opposite: it drives contractions.",
+ "rationale": "CORRECT (B) — \"Progesterone\". Progesterone quietens the myometrium and is the reason the uterus does not contract in response to the mechanical stretch of a growing fetus. Its withdrawal, and the rise in oestrogen and oxytocin receptors, is part of what brings labour on. Option A promotes growth of uterine muscle and increases contractility near term. Option C acts on the ovary, not the uterus. Option D does the opposite: it drives contractions. Why the other options fail: option a — oestrogen increases myometrial excitability rather than relaxing it; option c — follicle-stimulating hormone acts on the ovary, not on the myometrium; option d — oxytocin contracts the myometrium instead of relaxing it.",
  "strategy": "Progesterone keeps the uterus quiet. Oxytocin wakes it up.",
  "difficulty": "hard",
  "tags": [
@@ -117772,27 +117772,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-MCH-0015",
  "categorySlug": "maternal-newborn",
- "stem": "A newborn is delivered wet and placed on the resuscitaire in a cool room. Which action best reduces heat loss?",
+ "stem": "A woman with type 1 diabetes gives birth to a macrosomic baby. Why must the baby's blood glucose be checked within the first hour?",
  "choices": [
   {
    "id": "a",
-   "text": "Place the baby near an open window so that fresh air reaches it quickly"
+   "text": "Because the baby's glycogen stores are unusually large after a diabetic pregnancy"
   },
   {
    "id": "b",
-   "text": "Delay drying the baby until after it has been weighed, measured and labelled"
+   "text": "Because the baby cannot absorb milk until the gut matures at about one week of age"
   },
   {
    "id": "c",
-   "text": "Dry the baby, remove the wet linen, and give skin-to-skin contact with a hat"
+   "text": "Because the baby's insulin level stays high after birth, so glucose falls quickly"
   },
   {
    "id": "d",
-   "text": "Bathe the baby at once to clean the skin and settle it down to sleep"
+   "text": "Because the baby's own insulin production has stopped and ketones are building up"
   }
  ],
  "correctChoiceId": "c",
- "rationale": "A wet newborn loses heat fast by evaporation, and cold stress drives up oxygen consumption and glucose use. Drying removes the water, dry linen and skin-to-skin contact provide warmth, and a hat reduces loss from the head, which is proportionally large. Option A increases convective loss. Option B leaves the baby wet through the weighing. Option D adds evaporative loss and is not done straight after birth.",
+ "rationale": "CORRECT (C) — \"Because the baby's insulin level stays high after birth, so glucose falls quickly\". During a diabetic pregnancy the mother's glucose crosses the placenta and drives the fetus to produce extra insulin. At birth the glucose supply stops abruptly but the fetal insulin does not, so the baby becomes hypoglycaemic within one to four hours. These babies are also macrosomic, plethoric and prone to respiratory distress and hypocalcaemia. The nurse checks the blood glucose early and repeatedly, feeds the baby as soon as possible, keeps the baby warm, and reports a level below the unit's threshold for intravenous glucose, because untreated hypoglycaemia causes seizures and brain injury. Why the other options fail: option a — glycogen stores are not enlarged and are quickly exhausted, so they do not explain the early fall; option b — the newborn gut absorbs colostrum from birth, so gut maturation is not the issue; option d — insulin production is high rather than stopped, and ketones are not the mechanism.",
  "strategy": "Wet newborns cool by evaporation. Dry first, then wrap and give the baby to the mother.",
  "difficulty": "hard",
  "tags": [
@@ -117826,7 +117826,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "d",
- "rationale": "Central cyanosis means the lips, tongue and trunk are blue, which indicates true hypoxaemia and demands immediate assessment of airway, breathing and circulation, with oxygen and a search for congenital heart disease or sepsis. Option A is acrocyanosis, a normal transitional finding in the first hours. Option B is entirely normal. Option C is the normal resting posture of a term newborn from flexor tone.",
+ "rationale": "CORRECT (D) — \"Blue discoloration of the lips, tongue and central trunk\". Central cyanosis means the lips, tongue and trunk are blue, which indicates true hypoxaemia and demands immediate assessment of airway, breathing and circulation, with oxygen and a search for congenital heart disease or sepsis. Option A is acrocyanosis, a normal transitional finding in the first hours. Option B is entirely normal. Option C is the normal resting posture of a term newborn from flexor tone. Why the other options fail: option a — blue hands and feet with a pink trunk is acrocyanosis, which is normal at one hour; option b — a strong cry with a heart rate of 150 is entirely normal; option c — a flexed posture with the arms drawn in shows normal tone.",
  "strategy": "Blue in the centre is hypoxia. Blue in the hands and feet only is normal transitional acrocyanosis.",
  "difficulty": "hard",
  "tags": [
@@ -117860,7 +117860,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "a",
- "rationale": "Apnoea with a heart rate below 100 means the baby is not moving enough air, so effective positive-pressure ventilation is the single most important intervention, and it usually raises the heart rate on its own. Compressions are reserved for a heart rate that stays below 60 despite good ventilation. Option B skips the step that will correct the problem. Option C is unsafe in an unventilated baby. Option D wastes the first minutes of a neonatal emergency.",
+ "rationale": "CORRECT (A) — \"Start positive-pressure ventilation\". Apnoea with a heart rate below 100 means the baby is not moving enough air, so effective positive-pressure ventilation is the single most important intervention, and it usually raises the heart rate on its own. Compressions are reserved for a heart rate that stays below 60 despite good ventilation. Option B skips the step that will correct the problem. Option C is unsafe in an unventilated baby. Option D wastes the first minutes of a neonatal emergency. Why the other options fail: option b — compressions begin only when the heart rate is below 60 despite ventilation; option c — oral glucose does not address apnoea or bradycardia; option d — waiting five minutes in an apnoeic baby causes hypoxic injury.",
  "strategy": "Neonatal resuscitation runs on ventilation. Compressions only if the rate stays under 60.",
  "difficulty": "hard",
  "tags": [
@@ -117886,7 +117886,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "As a sign of dehydration requiring oral fluids"
+   "text": "As a sign of dehydration that requires oral fluids and closer observation on the ward"
   },
   {
    "id": "d",
@@ -117894,7 +117894,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "b",
- "rationale": "A soft, flat fontanelle is normal. A tense, bulging one suggests raised intracranial pressure from causes such as meningitis, haemorrhage or hydrocephalus, and needs urgent assessment of the baby's conscious level, feeding, tone and vital signs. Option A misses a serious sign. Option C is backwards: dehydration makes the fontanelle sunken, not bulging. Option D is not what a bulge shows.",
+ "rationale": "CORRECT (B) — \"As a possible sign of raised intracranial pressure needing urgent review\". A soft, flat fontanelle is normal. A tense, bulging one suggests raised intracranial pressure from causes such as meningitis, haemorrhage or hydrocephalus, and needs urgent assessment of the baby's conscious level, feeding, tone and vital signs. Option A misses a serious sign. Option C is backwards: dehydration makes the fontanelle sunken, not bulging. Option D is not what a bulge shows. Why the other options fail: option a — a tense, bulging fontanelle is never a normal finding at any age; option c — dehydration produces a sunken fontanelle, which is the opposite; option d — a bulging fontanelle does not prove that the skull is fractured.",
  "strategy": "Soft and flat is normal. Bulging means pressure. Sunken means dehydration.",
  "difficulty": "hard",
  "tags": [
@@ -117928,7 +117928,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "c",
- "rationale": "Shock in severe acute malnutrition is treated with slower, smaller volumes than in a well-nourished child, because the malnourished heart and circulation tolerate rapid fluid badly and can be tipped into heart failure. The child needs urgent referral and the specific protocol. Option A does not correct shock. Option B risks refeeding syndrome and is not the immediate need. Option D leaves a shocked child untreated.",
+ "rationale": "CORRECT (C) — \"Refer urgently, resuscitating cautiously under the severe-malnutrition protocol\". Shock in severe acute malnutrition is treated with slower, smaller volumes than in a well-nourished child, because the malnourished heart and circulation tolerate rapid fluid badly and can be tipped into heart failure. The child needs urgent referral and the specific protocol. Option A does not correct shock. Option B risks refeeding syndrome and is not the immediate need. Option D leaves a shocked child untreated. Why the other options fail: option a — unlimited plain water worsens hyponatraemia in severe malnutrition; option b — a large high-protein meal precipitates refeeding syndrome; option d — waiting for weight gain leaves the child in established shock.",
  "strategy": "In severe malnutrition, fluids are given slowly and watched closely. Fast boluses cause overload.",
  "difficulty": "hard",
  "tags": [
@@ -117946,7 +117946,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "A steady growth curve parallel to the centile lines"
+   "text": "A steady growth curve that runs parallel to the centile lines on the chart"
   },
   {
    "id": "b",
@@ -117962,7 +117962,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "d",
- "rationale": "Children should track along a centile. Crossing two or more downward is faltering growth and calls for assessment of intake, malabsorption, disease control and psychosocial factors. Option A is exactly the pattern expected of healthy growth, even in chronic illness. Option B is trivial and does not change a growth trajectory. Option C is a sign of wellbeing, not a concern.",
+ "rationale": "CORRECT (D) — \"Weight crossing downwards through two established percentile lines\". Children should track along a centile. Crossing two or more downward is faltering growth and calls for assessment of intake, malabsorption, disease control and psychosocial factors. Option A is exactly the pattern expected of healthy growth, even in chronic illness. Option B is trivial and does not change a growth trajectory. Option C is a sign of wellbeing, not a concern. Why the other options fail: option a — a curve parallel to the centiles is exactly what is wanted; option b — one missed afternoon snack does not warrant follow-up; option c — full activity and normal play after school are reassuring.",
  "strategy": "Growth should track its centile. Crossing lines downwards is the abnormality.",
  "difficulty": "hard",
  "tags": [
@@ -118011,11 +118011,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "The umbilical arteries carry oxygenated blood from the placenta to the fetus"
+   "text": "The umbilical arteries carry oxygenated blood from the placenta to the fetus inside the womb"
   },
   {
    "id": "b",
-   "text": "The umbilical arteries carry blood from the fetus towards the placenta, where it picks up oxygen"
+   "text": "The umbilical arteries carry blood from the fetus towards the placenta to pick up oxygen"
   },
   {
    "id": "c",
@@ -118027,7 +118027,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "b",
- "rationale": "The naming rule is that arteries carry blood away from the heart, so the two umbilical arteries run from the fetal iliac vessels out to the placenta, and they therefore carry blood that has already given up oxygen to the fetal tissues. The single umbilical vein returns oxygenated blood to the fetus. Options A and C reverse the direction. Option D is wrong because the blood carries carbon dioxide but is not free of oxygen.",
+ "rationale": "CORRECT (B) — \"The umbilical arteries carry blood from the fetus towards the placenta to pick up oxygen\". The naming rule is that arteries carry blood away from the heart, so the two umbilical arteries run from the fetal iliac vessels out to the placenta, and they therefore carry blood that has already given up oxygen to the fetal tissues. The single umbilical vein returns oxygenated blood to the fetus. Options A and C reverse the direction. Option D is wrong because the blood carries carbon dioxide but is not free of oxygen. Why the other options fail: option a — that is the direction of the umbilical vein, which carries oxygen to the fetus; option c — maternal and fetal blood do not mix in the placenta at all; option d — the arteries do carry some oxygen, just less than the vein.",
  "strategy": "Umbilical arteries run fetus to placenta. Umbilical vein runs placenta to fetus.",
  "difficulty": "hard",
  "tags": [
@@ -118090,7 +118090,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "d",
- "rationale": "Painful bleeding with a rigid, tender uterus and shock that seems out of proportion to the visible blood loss is concealed abruption, where blood accumulates behind the placenta instead of escaping. The maternal state, not the vaginal loss, is the guide to severity. Option A causes painless bleeding and a soft uterus. Option B does not produce a woody uterus or shock. Option C would not explain the uterine findings.",
+ "rationale": "CORRECT (D) — \"Placental abruption with concealed haemorrhage\". Painful bleeding with a rigid, tender uterus and shock that seems out of proportion to the visible blood loss is concealed abruption, where blood accumulates behind the placenta instead of escaping. The maternal state, not the vaginal loss, is the guide to severity. Option A causes painless bleeding and a soft uterus. Option B does not produce a woody uterus or shock. Option C would not explain the uterine findings. Why the other options fail: option a — praevia gives painless bleeding with a soft uterus, not a hard tender one; option b — normal labour does not produce a hard, tender uterus with maternal shock; option c — a twisted cyst does not cause a hard uterus and fetal compromise.",
  "strategy": "Shock worse than the visible bleeding plus a hard tender uterus means concealed abruption.",
  "difficulty": "hard",
  "tags": [
@@ -118110,7 +118110,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Give an oxytocin infusion to restart the contractions"
+   "text": "Give an oxytocin infusion to restart the contractions and speed the delivery up"
   },
   {
    "id": "c",
@@ -118122,7 +118122,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "a",
- "rationale": "Sudden tearing pain, contractions that stop, a profound fetal bradycardia and loss of the fetal station are the signs of uterine rupture, which is an obstetric emergency with major haemorrhage for the mother and hypoxia for the fetus. Delivery must happen immediately. Option B is dangerous because oxytocin worsens the rupture. Option C is not possible with contractions stopped. Option D wastes the minutes that decide the outcome.",
+ "rationale": "CORRECT (A) — \"Call for emergency help and prepare for immediate caesarean delivery\". Sudden tearing pain, contractions that stop, a profound fetal bradycardia and loss of the fetal station are the signs of uterine rupture, which is an obstetric emergency with major haemorrhage for the mother and hypoxia for the fetus. Delivery must happen immediately. Option B is dangerous because oxytocin worsens the rupture. Option C is not possible with contractions stopped. Option D wastes the minutes that decide the outcome. Why the other options fail: option b — oxytocin on a ruptured uterus increases the tear and the bleeding; option c — pushing forces the fetus and the tear further out; option d — a thirty-minute delay in a ruptured uterus is likely to be fatal.",
  "strategy": "Tearing pain plus contractions stopping plus fetal bradycardia equals uterine rupture. Theatre now.",
  "difficulty": "hard",
  "tags": [
@@ -118138,7 +118138,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Flexion, where the chin should tuck onto the chest"
+   "text": "Flexion, where the chin should tuck down onto the chest to let the head pass"
   },
   {
    "id": "b",
@@ -118154,7 +118154,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "b",
- "rationale": "The cardinal movements run descent, flexion, internal rotation, extension and then restitution and external rotation. If the head has descended and rotated, the next step is extension, in which the occiput passes under the pubic symphysis and the head is born by extension. Exactly here is where progress is stalling. Option A refers to a step already completed. Option C is stated in the question. Option D is stated in the question as completed.",
+ "rationale": "CORRECT (B) — \"Extension, where the head should pivot under the pubic arch and deliver\". The cardinal movements run descent, flexion, internal rotation, extension and then restitution and external rotation. If the head has descended and rotated, the next step is extension, in which the occiput passes under the pubic symphysis and the head is born by extension. Exactly here is where progress is stalling. Option A refers to a step already completed. Option C is stated in the question. Option D is stated in the question as completed. Why the other options fail: option a — flexion has already occurred; it is extension that is failing now; option c — internal rotation has already taken place; option d — descent has clearly happened, since the head has reached the perineum.",
  "strategy": "Descent, flexion, rotation, extension. If the head will not extend under the arch, that step has stalled.",
  "difficulty": "hard",
  "tags": [
@@ -118170,7 +118170,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Encourage her to keep pushing and reassess in two hours"
+   "text": "Encourage her to keep pushing and reassess the situation in another two hours"
   },
   {
    "id": "b",
@@ -118186,7 +118186,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "c",
- "rationale": "Maternal fever with fetal tachycardia and offensive liquor is chorioamnionitis, an intra-amniotic infection that puts both mother and fetus at risk of sepsis and is a reason to expedite delivery, with broad-spectrum antibiotics started immediately. Option A delays treatment of an established infection. Option B hides the fetal response that shows how the fetus is coping. Option D is wrong: intrapartum fever is a warning sign, not a trivial finding.",
+ "rationale": "CORRECT (C) — \"Call for urgent review, give prescribed antibiotics and prepare for delivery\". Maternal fever with fetal tachycardia and offensive liquor is chorioamnionitis, an intra-amniotic infection that puts both mother and fetus at risk of sepsis and is a reason to expedite delivery, with broad-spectrum antibiotics started immediately. Option A delays treatment of an established infection. Option B hides the fetal response that shows how the fetus is coping. Option D is wrong: intrapartum fever is a warning sign, not a trivial finding. Why the other options fail: option a — continuing to push for two hours allows chorioamnionitis to progress; option b — switching the monitor off hides the fetal tachycardia; option d — a fever in labour is not harmless; it suggests intrauterine infection.",
  "strategy": "Fever plus fetal tachycardia plus smelly liquor equals chorioamnionitis. Antibiotics and delivery.",
  "difficulty": "hard",
  "tags": [
@@ -118201,7 +118201,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "To lower her blood pressure directly"
+   "text": "To lower her blood pressure directly and quickly"
   },
   {
    "id": "b",
@@ -118217,7 +118217,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "d",
- "rationale": "Magnesium sulfate is given in severe pre-eclampsia as seizure prophylaxis, because eclampsia is the complication that kills. It acts centrally as a central nervous system depressant and membrane stabiliser; it does not treat the hypertension itself, which needs a separate antihypertensive, and it does not replace a deficiency. Option A is a common misconception: the blood pressure still needs its own drug. Option B is the opposite of the effect. Option C is not the indication.",
+ "rationale": "CORRECT (D) — \"To prevent or treat eclamptic seizures\". Magnesium sulfate is given in severe pre-eclampsia as seizure prophylaxis, because eclampsia is the complication that kills. It acts centrally as a central nervous system depressant and membrane stabiliser; it does not treat the hypertension itself, which needs a separate antihypertensive, and it does not replace a deficiency. Option A is a common misconception: the blood pressure still needs its own drug. Option B is the opposite of the effect. Option C is not the indication. Why the other options fail: option a — the blood pressure is controlled with other drugs; magnesium is for seizures; option b — magnesium relaxes the uterus rather than strengthening contractions; option c — it is given for seizure prophylaxis, not to correct a deficiency.",
  "strategy": "Magnesium prevents fits, not high blood pressure. You still need an antihypertensive.",
  "difficulty": "hard",
  "tags": [
@@ -118245,11 +118245,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Withholding all antibiotics and observing the baby"
+   "text": "Withholding all antibiotics and simply observing the baby closely on the postnatal ward"
   }
  ],
  "correctChoiceId": "a",
- "rationale": "Group B streptococcus colonises the vagina in a proportion of women and is transmitted during labour, causing neonatal sepsis and meningitis. Intravenous penicillin given in labour, ideally at least four hours before delivery, reduces early-onset disease substantially. Option B treats the baby rather than preventing the exposure. Option C is not indicated for colonisation alone. Option D leaves the newborn at the mercy of the infection.",
+ "rationale": "CORRECT (A) — \"Intravenous benzylpenicillin in labour, started at least four hours before birth\". Group B streptococcus colonises the vagina in a proportion of women and is transmitted during labour, causing neonatal sepsis and meningitis. Intravenous penicillin given in labour, ideally at least four hours before delivery, reduces early-onset disease substantially. Option B treats the baby rather than preventing the exposure. Option C is not indicated for colonisation alone. Option D leaves the newborn at the mercy of the infection. Why the other options fail: option b — oral antibiotics after birth do not prevent early-onset GBS disease; option c — caesarean birth is not indicated for carriage alone; option d — withholding antibiotics leaves the newborn exposed to GBS sepsis.",
  "strategy": "GBS prevention is intrapartum intravenous penicillin, given early enough to reach the baby.",
  "difficulty": "hard",
  "tags": [
@@ -118281,7 +118281,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "b",
- "rationale": "Caput succedaneum is oedema of the scalp over the presenting part, and because it sits above the periosteum it crosses the suture lines and pits on pressure, then resolves within days without treatment. Option A is a subperiosteal bleed that does not cross the midline and feels firm with a defined edge. Option C would need imaging and usually shows other signs. Option D is a boggy swelling that crosses sutures but is not limited to the presenting part and can cause major blood loss and shock.",
+ "rationale": "CORRECT (B) — \"Caput succedaneum\". Caput succedaneum is oedema of the scalp over the presenting part, and because it sits above the periosteum it crosses the suture lines and pits on pressure, then resolves within days without treatment. Option A is a subperiosteal bleed that does not cross the midline and feels firm with a defined edge. Option C would need imaging and usually shows other signs. Option D is a boggy swelling that crosses sutures but is not limited to the presenting part and can cause major blood loss and shock. Why the other options fail: option a — a cephalhaematoma does not cross the suture lines and appears later; option c — a skull fracture is bony and does not pit on pressure; option d — a subgaleal haemorrhage is a tense, fluctuant swelling with major blood loss.",
  "strategy": "Crosses the midline and pits: caput. Stops at the suture line and is firm: cephalhaematoma.",
  "difficulty": "hard",
  "tags": [
@@ -119079,7 +119079,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Remove the lid so that sharps can be dropped in more easily"
+   "text": "Remove the lid so that the sharps can be dropped in more easily by the staff"
   },
   {
    "id": "d",
@@ -119087,7 +119087,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "a",
- "rationale": "A sharps container is closed and replaced when it is about three-quarters full, because a container that is overfilled cannot be closed safely and becomes a source of needlestick injury for whoever handles it. Option B is dangerous: pushing sharps down is a classic cause of injury. Option C removes the barrier that stops sharps rebounding out. Option D leaves an unsealed full container in use alongside a new one, which is exactly the situation the filling limit exists to prevent.",
+ "rationale": "CORRECT (A) — \"Seal it and replace it with a new container before it overfills\". A sharps container is closed and replaced when it is about three-quarters full, because a container that is overfilled cannot be closed safely and becomes a source of needlestick injury for whoever handles it. Option B is dangerous: pushing sharps down is a classic cause of injury. Option C removes the barrier that stops sharps rebounding out. Option D leaves an unsealed full container in use alongside a new one, which is exactly the situation the filling limit exists to prevent. Why the other options fail: option b — pressing the contents down risks a needle-stick injury; option c — removing the lid allows sharps to spill if the container is knocked over; option d — a full container left in use will overflow; a second one does not fix it.",
  "strategy": "Seal at three-quarters full. Never press the contents down.",
  "difficulty": "medium",
  "tags": [
@@ -119121,7 +119121,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "a",
- "rationale": "Product regulation and practitioner regulation sit with different bodies. The Food and Drugs Authority registers the herbal product, requires safety and quality data, controls labelling and advertising, and tests for microbial and heavy-metal contamination. The Traditional Medicine Practice Council registers the practitioner and licenses the premises.\n\nWhy the other options fail:\n• B — The Council regulates the person and the practice, created under Act 575 of 2000.\n• C — The Centre at Mampong-Akuapem researches and produces preparations; it does not register products.\n• D — The Directorate handles policy within the Ministry of Health.\n\nReference: Ghana — Public Health Act 2012 (Act 851); traditional medicine regulation",
+ "rationale": "CORRECT (A) — \"The Food and Drugs Authority\". Product regulation and practitioner regulation sit with different bodies. The Food and Drugs Authority registers the herbal product, requires safety and quality data, controls labelling and advertising, and tests for microbial and heavy-metal contamination. The Traditional Medicine Practice Council registers the practitioner and licenses the premises.\n\nWhy the other options fail:\n• B — The Council regulates the person and the practice, created under Act 575 of 2000.\n• C — The Centre at Mampong-Akuapem researches and produces preparations; it does not register products.\n• D — The Directorate handles policy within the Ministry of Health.\n\nReference: Ghana — Public Health Act 2012 (Act 851); traditional medicine regulation. Why the other options fail: option b — the Traditional Medicine Practice Council registers practitioners, not products; option c — the Centre for Plant Medicine Research carries out research; option d — the directorate sets policy and does not register products.",
  "strategy": "Separate the regulator of the person from the regulator of the product.",
  "difficulty": "medium",
  "tags": [
