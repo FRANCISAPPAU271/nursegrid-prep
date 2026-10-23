@@ -220,7 +220,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "A patient two days post-operative requesting analgesia for pain rated 7 out of 10"
+    "text": "A patient two days after surgery who is requesting analgesia for pain that he rates as 7 out of 10"
    },
    {
     "id": "b",
@@ -856,7 +856,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Wait for the patient's HIV test result before taking any action"
+    "text": "Wait for the patient's HIV test result to come back before taking any action at all"
    }
   ],
   "correctChoiceId": "c",
@@ -1636,7 +1636,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Both are transmitted directly from person to person by droplets"
+    "text": "Both are transmitted directly from person to person by respiratory droplets in the air"
    },
    {
     "id": "d",
@@ -2977,7 +2977,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "The diaphragm relaxes and moves upward, raising intrathoracic pressure"
+    "text": "The diaphragm relaxes and moves upward, raising the intrathoracic pressure inside the chest"
    },
    {
     "id": "c",
@@ -5278,7 +5278,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Increased risk of an allergic reaction"
+    "text": "Increased risk of an allergic reaction to the transfusion"
    }
   ],
   "correctChoiceId": "b",
@@ -5300,7 +5300,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "His blood is clotting too quickly and the dose should be increased"
+    "text": "His blood is clotting far too quickly and the dose should be increased accordingly today"
    },
    {
     "id": "b",
@@ -18977,7 +18977,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "The recording is inaccurate and the vaginal examination should be repeated at once"
+    "text": "The recording is quite inaccurate and the vaginal examination should be repeated again immediately"
    },
    {
     "id": "d",
@@ -48877,7 +48877,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "A statement that the patient deserved the intervention"
+    "text": "A statement that the patient deserved the intervention that was used on the ward"
    },
    {
     "id": "d",
@@ -65330,7 +65330,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Pull firmly downwards on the baby's head until the shoulder releases"
+    "text": "Pull firmly downwards on the baby's head until the shoulder releases and the baby is born"
    },
    {
     "id": "b",
@@ -73412,7 +73412,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Agree, but suggest a reduced dose because of the child's weight"
+    "text": "Agree, but suggest a reduced dose because of the child's small weight and young age"
    },
    {
     "id": "b",
@@ -75899,7 +75899,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "It is made only after she has exhausted every internal channel"
+    "text": "It is made only after she has exhausted every single internal channel available to her"
    },
    {
     "id": "d",
@@ -75929,7 +75929,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Speak to the colleague privately and agree to watch her closely"
+    "text": "Speak to the colleague privately and agree to watch her closely for the rest of the shift"
    },
    {
     "id": "c",
@@ -76991,7 +76991,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "The information should have been delivered in English for accuracy"
+    "text": "The information should have been delivered in English so that it would be accurate and unambiguous"
    },
    {
     "id": "c",
@@ -77031,7 +77031,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Ignore the practice and concentrate on those who already attend the compound"
+    "text": "Ignore the practice altogether and concentrate on those who already attend the health compound regularly"
    },
    {
     "id": "d",
@@ -78405,7 +78405,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Only those who take the medicine will be eligible for treatment if they fall ill"
+    "text": "Only those people who take the medicine will be eligible for treatment if they later fall ill in the future"
    },
    {
     "id": "c",
@@ -80180,7 +80180,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "On day 3, day 10, at four weeks and at three months"
+    "text": "On day 3, on day 10, at four weeks and again at three months after the birth"
    },
    {
     "id": "c",
@@ -80697,7 +80697,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Stress incontinence from weakened pelvic floor muscles after birth"
+    "text": "Stress incontinence from weakened pelvic floor muscles after the birth of the baby"
    },
    {
     "id": "c",
@@ -81490,7 +81490,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "A cervical tear that was missed at the time of delivery"
+    "text": "A cervical tear that was missed at the time of the delivery in the delivery room"
    },
    {
     "id": "c",
@@ -83393,7 +83393,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Flush the cannula with saline to test whether it is still patent"
+    "text": "Flush the cannula with saline to test whether it is still patent and working properly"
    }
   ],
   "correctChoiceId": "b",
@@ -83872,7 +83872,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "An adjuvant drug alone, such as amitriptyline"
+    "text": "An adjuvant drug alone, such as amitriptyline used on its own at night"
    }
   ],
   "correctChoiceId": "a",
@@ -84076,7 +84076,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Injection into subcutaneous fat to avoid muscle damage"
+    "text": "Injection into the subcutaneous fat to avoid any damage to the muscle beneath"
    }
   ],
   "correctChoiceId": "c",
@@ -84144,7 +84144,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "The drug is destroyed by bacteria in the bowel"
+   "text": "The drug is destroyed by bacteria in the bowel once renal failure develops in the patient"
   }
  ],
  "correctChoiceId": "a",
@@ -84646,7 +84646,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "There will be no effect, as the liver will compensate fully"
+    "text": "There will be no effect at all, as the liver will compensate fully for the failing kidney"
    },
    {
     "id": "d",
@@ -85203,7 +85203,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Report nothing, since treatment failure is a clinical rather than a regulatory matter"
+    "text": "Report nothing at all, since treatment failure is a clinical matter rather than a regulatory one for the Authority"
    },
    {
     "id": "c",
@@ -86213,7 +86213,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "No precautions beyond standard, as meningitis is not contagious"
+    "text": "No precautions are needed beyond standard, as meningitis is not contagious at all"
    },
    {
     "id": "d",
@@ -86970,7 +86970,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Hepatitis B is less serious than HIV but the vaccine is inexpensive"
+    "text": "Hepatitis B is less serious than HIV but the vaccine is inexpensive and widely available"
    },
    {
     "id": "c",
@@ -88615,7 +88615,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Rely on the machine having been serviced within the past year"
+    "text": "Rely on the machine having been serviced within the past year by the hospital engineer"
    },
    {
     "id": "c",
@@ -88750,7 +88750,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Explain that she is counting breaths so the patient will keep still"
+    "text": "Explain that she is counting the breaths so that the patient will keep still and quiet"
    },
    {
     "id": "b",
@@ -90166,7 +90166,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Encourage small sips more slowly to build up the swallowing muscles"
+    "text": "Encourage small sips more slowly so as to build up the swallowing muscles gradually"
    },
    {
     "id": "c",
@@ -91308,7 +91308,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Cover both eyes with a pad and arrange transfer to the eye clinic"
+    "text": "Cover both eyes with a pad and arrange an urgent transfer to the nearest eye clinic at once"
    },
    {
     "id": "c",
@@ -91897,7 +91897,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Refuse all further admissions including those unrelated to the incident"
+    "text": "Refuse all further admissions to the hospital, including those unrelated to the incident itself"
    },
    {
     "id": "d",
@@ -91999,7 +91999,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Cut them very short so that they do not need attention for some time"
+    "text": "Cut them very short so that they do not need attention again for some considerable time"
    },
    {
     "id": "d",
@@ -93483,7 +93483,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Withdraw the catheter and attempt again with a much larger size"
+    "text": "Withdraw the catheter and attempt again with a much larger size than the one that was used before"
    },
    {
     "id": "d",
@@ -93687,7 +93687,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Recent dietary intake of dark foods with no clinical significance"
+    "text": "Recent dietary intake of dark foods, with no clinical significance whatever in this case"
    },
    {
     "id": "d",
@@ -94413,7 +94413,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Normal post-operative recovery that requires no change to management"
+    "text": "Normal post-operative recovery that requires no change to the current management plan at all"
    },
    {
     "id": "c",
@@ -94889,7 +94889,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Fluid replacement, which takes precedence over every other consideration"
+    "text": "Fluid replacement, which takes precedence over every other consideration in the care of burns patients"
    },
    {
     "id": "c",
@@ -96222,7 +96222,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "To clean the internal components of the meter after each patient"
+    "text": "To clean the internal components of the meter after each patient has been tested on the ward"
    },
    {
     "id": "b",
@@ -100061,7 +100061,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Weight loss, low blood pressure, skin darkening and salt craving"
+    "text": "Weight loss, a low blood pressure, darkening of the skin and a craving for salt and salty foods"
    },
    {
     "id": "b",
@@ -102174,7 +102174,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "To calculate how much the patient should be charged for the admission"
+    "text": "To calculate how much the patient should be charged for the whole of the admission to hospital"
    },
    {
     "id": "b",
@@ -103788,7 +103788,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Withhold all feeds until the oedema has completely resolved to avoid overload"
+    "text": "Withhold all feeds until the oedema has completely resolved, to avoid any risk of fluid overload"
    },
    {
     "id": "d",
@@ -107123,7 +107123,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Widen the hole in an ordinary teat as much as possible so milk flows freely"
+    "text": "Widen the hole in an ordinary teat as much as possible so that the milk flows freely down the baby's throat"
    }
   ],
   "correctChoiceId": "b",
@@ -107212,7 +107212,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Distribution of donated infant formula to all mothers with young children"
+    "text": "Distribution of donated infant formula to all mothers with young children in the camp as a priority"
    },
    {
     "id": "b",
@@ -108946,7 +108946,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Give a rapid infusion of hypertonic saline to normalise the sodium within a few hours"
+    "text": "Give a rapid infusion of hypertonic saline to normalise the sodium level within only a few hours of her admission to the ward"
    },
    {
     "id": "c",
@@ -109561,7 +109561,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "It will cause immediate lithium toxicity in every patient taking lithium"
+    "text": "It will cause immediate lithium toxicity in every single patient who is already taking lithium"
    },
    {
     "id": "d",
@@ -109723,7 +109723,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Give a course of oral antibiotics immediately, since crackles indicate bacterial pneumonia"
+    "text": "Give a course of oral antibiotics immediately, since crackles indicate a bacterial pneumonia that needs treatment"
    },
    {
     "id": "b",
@@ -110342,7 +110342,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Use precise medical terminology so the child learns the correct words early"
+    "text": "Use precise medical terminology so that the child learns the correct medical words at an early age"
    },
    {
     "id": "d",
@@ -111405,7 +111405,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "The serum potassium, aiming to keep it above 5 mmol/L"
+   "text": "The serum potassium level, aiming to keep it above 5 mmol/L at all times"
   },
   {
    "id": "b",
