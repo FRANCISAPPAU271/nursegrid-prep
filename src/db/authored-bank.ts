@@ -113078,11 +113078,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Place the patient in a warm bath to settle the seizure activity"
+   "text": "Place the patient in a warm bath with the lights dimmed to settle the seizure activity and the confusion"
   },
  ],
  "correctChoiceId": "b",
- "rationale": "Severe symptomatic hyponatraemia can cause cerebral oedema and seizures, so safety, airway support and urgent prescribed hypertonic saline are required while the cause is treated.\n\nWhy the other options fail:\n• A — Free water adds to the dilutional hyponatraemia and can worsen the cerebral oedema causing the seizure.\n• C — Potassium has no bearing on a sodium of 118 mmol/L with a seizure; it is neither the cause nor the treatment.\n• D — A warm bath is unsafe for a patient who is actively seizing and does nothing for the sodium.",
+ "rationale": "CORRECT (B) — \"Institute seizure precautions and escalate urgently for symptomatic hyponatraemia\". Severe symptomatic hyponatraemia can cause cerebral oedema and seizures, so safety, airway support and urgent prescribed hypertonic saline are required while the cause is treated.\n\nWhy the other options fail:\n• A — Free water adds to the dilutional hyponatraemia and can worsen the cerebral oedema causing the seizure.\n• C — Potassium has no bearing on a sodium of 118 mmol/L with a seizure; it is neither the cause nor the treatment.\n• D — A warm bath is unsafe for a patient who is actively seizing and does nothing for the sodium.",
  "strategy": "When a low sodium value is accompanied by neurological symptoms, treat it as an emergency.",
  "difficulty": "hard",
  "tags": ["hyponatraemia", "seizure"],
@@ -113111,7 +113111,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "c",
- "rationale": "Severe hypomagnesaemia lengthens the QT interval and predisposes to torsades de pointes, so magnesium is replaced parenterally under cardiac monitoring. Magnesium is lost with vomiting and is also low in chronic alcohol use, and hypokalaemia and hypocalcaemia often will not correct until the magnesium is replaced.\n\nWhy the other options fail:\n• A — Oral potassium does nothing for a magnesium of 0.4 mmol/L, and the potassium will not stay corrected until magnesium is replaced.\n• B — Fluid restriction has no effect on magnesium and delays the treatment the QT interval needs.\n• D — Calcium does not shorten the QT interval while the magnesium remains low.",
+ "rationale": "CORRECT (C) — \"Intravenous magnesium sulfate as prescribed, with cardiac monitoring\". Severe hypomagnesaemia lengthens the QT interval and predisposes to torsades de pointes, so magnesium is replaced parenterally under cardiac monitoring. Magnesium is lost with vomiting and is also low in chronic alcohol use, and hypokalaemia and hypocalcaemia often will not correct until the magnesium is replaced.\n\nWhy the other options fail:\n• A — Oral potassium does nothing for a magnesium of 0.4 mmol/L, and the potassium will not stay corrected until magnesium is replaced.\n• B — Fluid restriction has no effect on magnesium and delays the treatment the QT interval needs.\n• D — Calcium does not shorten the QT interval while the magnesium remains low.",
  "strategy": "Severe hypomagnesaemia lengthens the QT and causes torsades: give magnesium, and fix potassium only after it.",
  "difficulty": "hard",
  "tags": ["hyperkalaemia", "ecg"],
@@ -113140,7 +113140,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "d",
- "rationale": "In obstruction, fluid and electrolytes are secreted into the gut lumen and the peritoneal cavity where they are no longer available to the circulation, which is third-spacing. The patient is oedematous and intravascularly dry at the same time, so urine output falls and tachycardia and postural hypotension appear. Treatment is intravenous isotonic fluid and relief of the obstruction.\n\nWhy the other options fail:\n• A — A diuretic would worsen an intravascular deficit that is already causing oliguria.\n• B — The serum sodium is normal, so retained sodium is not the explanation.\n• C — Nothing here indicates renal failure; the losses are into the gut and peritoneum.",
+ "rationale": "CORRECT (D) — \"Fluid is sequestered in the bowel lumen and peritoneum, so circulating volume is low\". In obstruction, fluid and electrolytes are secreted into the gut lumen and the peritoneal cavity where they are no longer available to the circulation, which is third-spacing. The patient is oedematous and intravascularly dry at the same time, so urine output falls and tachycardia and postural hypotension appear. Treatment is intravenous isotonic fluid and relief of the obstruction.\n\nWhy the other options fail:\n• A — A diuretic would worsen an intravascular deficit that is already causing oliguria.\n• B — The serum sodium is normal, so retained sodium is not the explanation.\n• C — Nothing here indicates renal failure; the losses are into the gut and peritoneum.",
  "strategy": "Third-spacing: oedematous outside the vessels, empty inside them. Replace volume, do not diurese.",
  "difficulty": "hard",
  "tags": ["hypokalaemia", "arrhythmia"],
@@ -113157,7 +113157,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Hypotonic intravenous fluid at a maintenance rate"
+   "text": "Hypotonic intravenous fluid, such as 5% dextrose, run at a maintenance rate through the night"
   },
   {
    "id": "c",
@@ -113169,7 +113169,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "d",
- "rationale": "SIADH causes inappropriate water retention and dilutional hyponatraemia. Fluid restriction limits the worsening of cerebral symptoms while the underlying cause is treated.\n\nWhy the other options fail:\n• A — Unlimited water is what produced the dilutional hyponatraemia and would deepen it.\n• B — Hypotonic fluid lowers serum osmolality further and worsens the cerebral symptoms.\n• C — Several litres of tea is unlimited water under another name; it dilutes the sodium further.",
+ "rationale": "CORRECT (D) — \"Fluid restriction with close neurological monitoring\". SIADH causes inappropriate water retention and dilutional hyponatraemia. Fluid restriction limits the worsening of cerebral symptoms while the underlying cause is treated.\n\nWhy the other options fail:\n• A — Unlimited water is what produced the dilutional hyponatraemia and would deepen it.\n• B — Hypotonic fluid lowers serum osmolality further and worsens the cerebral symptoms.\n• C — Several litres of tea is unlimited water under another name; it dilutes the sodium further.",
  "strategy": "Low serum osmolality plus inappropriately concentrated urine suggests excess ADH and a need to restrict water.",
  "difficulty": "hard",
  "tags": ["siadh", "osmolality"],
@@ -113182,7 +113182,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Metabolic acidosis from bicarbonate loss"
+   "text": "Metabolic acidosis from the bicarbonate lost in the gastric aspirate over several days"
   },
   {
    "id": "b",
@@ -113198,7 +113198,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "c",
- "rationale": "Gastric suction removes hydrochloric acid and chloride, predisposing to metabolic alkalosis, often with hypokalaemia as potassium is lost in the same fluid.\n\nWhy the other options fail:\n• A — Metabolic acidosis follows loss of bicarbonate from the lower gut or a diarrhoeal illness, not suction of gastric acid.\n• B — Respiratory acidosis comes from inadequate ventilation, not from what is removed through a nasogastric tube.\n• D — Respiratory alkalosis follows hyperventilation; suction does not change the respiratory rate.",
+ "rationale": "CORRECT (C) — \"Metabolic alkalosis from loss of gastric acid\". Gastric suction removes hydrochloric acid and chloride, predisposing to metabolic alkalosis, often with hypokalaemia as potassium is lost in the same fluid.\n\nWhy the other options fail:\n• A — Metabolic acidosis follows loss of bicarbonate from the lower gut or a diarrhoeal illness, not suction of gastric acid.\n• B — Respiratory acidosis comes from inadequate ventilation, not from what is removed through a nasogastric tube.\n• D — Respiratory alkalosis follows hyperventilation; suction does not change the respiratory rate.",
  "strategy": "Loss of gastric acid produces alkalosis; loss of intestinal bicarbonate produces acidosis.",
  "difficulty": "hard",
  "tags": ["acid-base", "ng-suction"],
@@ -113227,7 +113227,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "a",
- "rationale": "The low PaCO2 indicates respiratory alkalosis and the low bicarbonate indicates renal compensation; the pH of 7.45 sits at the alkaline edge of normal, which is what full compensation looks like.\n\nWhy the other options fail:\n• C — The pH is on the alkaline side, so the primary process cannot be acidosis.\n• B — Uncompensated metabolic alkalosis would show a high bicarbonate with a rising, not a falling, carbon dioxide.\n• D — Respiratory acidosis would show a raised carbon dioxide with an acid pH, the opposite of these values.",
+ "rationale": "CORRECT (A) — \"Compensated respiratory alkalosis\". The low PaCO2 indicates respiratory alkalosis and the low bicarbonate indicates renal compensation; the pH of 7.45 sits at the alkaline edge of normal, which is what full compensation looks like.\n\nWhy the other options fail:\n• C — The pH is on the alkaline side, so the primary process cannot be acidosis.\n• B — Uncompensated metabolic alkalosis would show a high bicarbonate with a rising, not a falling, carbon dioxide.\n• D — Respiratory acidosis would show a raised carbon dioxide with an acid pH, the opposite of these values.",
  "strategy": "Identify the primary direction from pH and PaCO2, then look for compensatory bicarbonate change.",
  "difficulty": "hard",
  "tags": ["abg", "respiratory-alkalosis"],
@@ -113236,27 +113236,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-FLUID-0007",
  "categorySlug": "fluid-electrolyte",
- "stem": "A patient is hyperventilating during an anxiety attack. ABG: pH 7.53, PaCO2 32 mmHg, HCO3 28 mEq/L. Which conclusion is best?",
+ "stem": "A patient with hypovolaemia needs fluid resuscitation. Why is 5 per cent dextrose unsuitable for this purpose?",
  "choices": [
   {
    "id": "a",
-   "text": "The blood is acidotic and needs bicarbonate"
+   "text": "Because dextrose cannot be given through a peripheral cannula at any useful rate on the ward"
   },
   {
    "id": "b",
-   "text": "The patient is fluid overloaded and needs a diuretic"
+   "text": "Because the dextrose is metabolised and the water then spreads across all body compartments"
   },
   {
    "id": "c",
-   "text": "The patient has respiratory acidosis from fatigue"
+   "text": "Because dextrose causes an immediate allergic reaction in most patients who receive it"
   },
   {
    "id": "d",
-   "text": "The patient has respiratory alkalosis from hyperventilation"
+   "text": "Because dextrose is a hypertonic solution that draws fluid out of the cells"
   },
  ],
- "correctChoiceId": "d",
- "rationale": "An elevated pH with a low PaCO2 indicates respiratory alkalosis from excessive ventilation. The patient still requires assessment for hypoxia and other causes before the symptoms are attributed to anxiety.\n\nWhy the other options fail:\n• A — A pH of 7.53 is alkaline, not acidotic; the direction of the pH has to be read first.\n• B — Fluid overload is a clinical finding and does not follow from a blood gas.\n• C — Respiratory acidosis produces a low pH with a high carbon dioxide, the reverse of this picture.",
+ "correctChoiceId": "b",
+ "rationale": "CORRECT (B) — \"Because the dextrose is metabolised and the water then spreads across all body compartments\". Five per cent dextrose is roughly isotonic in the bag but behaves as free water once it is infused: the glucose is taken up by cells within minutes, leaving water that distributes across the total body water — about 60 per cent of body weight. Only about one twelfth of the volume therefore stays in the intravascular space, so a litre of dextrose expands the circulation by well under 100 mL. A resuscitation fluid has to stay in the vessels long enough to restore perfusion pressure, which is why an isotonic crystalloid such as 0.9 per cent saline or Ringer's lactate is used. Why the other options fail: option a — dextrose runs through a peripheral cannula perfectly well; the problem is where the fluid goes, not whether it can be given; option c — allergy to dextrose is rare and is not why the fluid is unsuitable; option d — 5 per cent dextrose is not hypertonic in the bag, and the fall in osmolality happens only after the glucose is metabolised, so the option describes the wrong mechanism. Reference: NICE IV fluids in adults; Ghana STP — fluid resuscitation",
  "strategy": "A high pH plus low CO2 is respiratory alkalosis; do not dismiss symptoms as anxiety until dangerous causes are excluded.",
  "difficulty": "hard",
  "tags": ["abg", "hyperventilation"],
@@ -113285,7 +113285,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "b",
- "rationale": "The low pH shows acidaemia and the raised PaCO2 identifies a respiratory cause, consistent with the hypoventilation described in the stem.\n\nWhy the other options fail:\n• A — Respiratory alkalosis would show a high pH with a low carbon dioxide.\n• C — Metabolic acidosis would show a low bicarbonate, which is not given, and a raised carbon dioxide identifies this as respiratory.\n• D — Metabolic alkalosis would show a high pH with a high bicarbonate.",
+ "rationale": "CORRECT (B) — \"Respiratory acidosis\". The low pH shows acidaemia and the raised PaCO2 identifies a respiratory cause, consistent with the hypoventilation described in the stem.\n\nWhy the other options fail:\n• A — Respiratory alkalosis would show a high pH with a low carbon dioxide.\n• C — Metabolic acidosis would show a low bicarbonate, which is not given, and a raised carbon dioxide identifies this as respiratory.\n• D — Metabolic alkalosis would show a high pH with a high bicarbonate.",
  "strategy": "For respiratory disorders, pH and PaCO2 move in opposite directions.",
  "difficulty": "hard",
  "tags": ["abg", "respiratory-acidosis"],
@@ -113314,7 +113314,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "c",
- "rationale": "Alkalosis drives potassium into cells and may contribute to hypokalaemia; severe alkalosis also lowers ionised calcium.\n\nWhy the other options fail:\n• A — A sodium of 145 mEq/L is at the upper end of normal and is not the characteristic shift of alkalosis.\n• B — A magnesium of 1.8 mg/dL is within the normal range and does not follow from alkalosis the way potassium does.\n• D — Phosphate is not the electrolyte that shifts into cells with alkalosis; potassium is.",
+ "rationale": "CORRECT (C) — \"Potassium 3.0 mEq/L\". Alkalosis drives potassium into cells and may contribute to hypokalaemia; severe alkalosis also lowers ionised calcium.\n\nWhy the other options fail:\n• A — A sodium of 145 mEq/L is at the upper end of normal and is not the characteristic shift of alkalosis.\n• B — A magnesium of 1.8 mg/dL is within the normal range and does not follow from alkalosis the way potassium does.\n• D — Phosphate is not the electrolyte that shifts into cells with alkalosis; potassium is.",
  "strategy": "Respiratory alkalosis can produce intracellular potassium shift and neuromuscular symptoms.",
  "difficulty": "hard",
  "tags": ["abg", "hypokalaemia"],
@@ -113331,7 +113331,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Respiratory alkalosis from hyperventilation"
+   "text": "Respiratory alkalosis from hyperventilation driven by the pain of the fractured ribs"
   },
   {
    "id": "c",
@@ -113343,7 +113343,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "a",
- "rationale": "Pain-limited ventilation causes carbon dioxide retention and respiratory acidosis; analgesia and respiratory support are what the patient needs.\n\nWhy the other options fail:\n• B — Hyperventilation would blow off carbon dioxide, but pain is making this patient breathe shallowly, not excessively.\n• C — Calcium loss does not produce a metabolic acidosis of this kind, and the history points to ventilation.\n• D — Analgesics do not cause metabolic alkalosis; the problem here is under-ventilation from pain.",
+ "rationale": "CORRECT (A) — \"Respiratory acidosis from inadequate ventilation\". Pain-limited ventilation causes carbon dioxide retention and respiratory acidosis; analgesia and respiratory support are what the patient needs.\n\nWhy the other options fail:\n• B — Hyperventilation would blow off carbon dioxide, but pain is making this patient breathe shallowly, not excessively.\n• C — Calcium loss does not produce a metabolic acidosis of this kind, and the history points to ventilation.\n• D — Analgesics do not cause metabolic alkalosis; the problem here is under-ventilation from pain.",
  "strategy": "Hypoventilation retains CO2; assess ventilation rather than attributing the problem to the fracture itself.",
  "difficulty": "hard",
  "tags": ["rib-fracture", "abg"],
@@ -113372,7 +113372,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "d",
- "rationale": "Weight loss and poor skin turgor indicate loss of intravascular and interstitial fluid, and in a patient on diuretics they suggest over-diuresis, so perfusion and the electrolyte results need review.\n\nWhy the other options fail:\n• A — Crackles with a raised blood pressure describe volume excess, not the deficit this patient has developed.\n• B — A falling haematocrit points away from a deficit, which concentrates the blood, and a high urine output argues against hypovolaemia.\n• C — A raised central venous pressure indicates a full circulation, the opposite of a deficit.",
+ "rationale": "CORRECT (D) — \"Weight loss with poor skin turgor\". Weight loss and poor skin turgor indicate loss of intravascular and interstitial fluid, and in a patient on diuretics they suggest over-diuresis, so perfusion and the electrolyte results need review.\n\nWhy the other options fail:\n• A — Crackles with a raised blood pressure describe volume excess, not the deficit this patient has developed.\n• B — A falling haematocrit points away from a deficit, which concentrates the blood, and a high urine output argues against hypovolaemia.\n• C — A raised central venous pressure indicates a full circulation, the opposite of a deficit.",
  "strategy": "Daily weight is a sensitive indicator of fluid change; combine it with perfusion findings.",
  "difficulty": "hard",
  "tags": ["fluid-deficit", "diuretics"],
@@ -113401,7 +113401,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "a",
- "rationale": "Reduced renal excretion prevents adequate removal of sodium and water, which places a patient with chronic kidney disease at risk of fluid-volume excess.\n\nWhy the other options fail:\n• B — Diuretics with tenting skin describe fluid loss, so the risk is deficit rather than excess.\n• C — A new ileostomy loses fluid and electrolytes, which places the patient at risk of deficit.\n• D — Intermittent gastric suction also removes fluid, so the risk there is deficit.",
+ "rationale": "CORRECT (A) — \"A patient with diabetic chronic kidney disease\". Reduced renal excretion prevents adequate removal of sodium and water, which places a patient with chronic kidney disease at risk of fluid-volume excess.\n\nWhy the other options fail:\n• B — Diuretics with tenting skin describe fluid loss, so the risk is deficit rather than excess.\n• C — A new ileostomy loses fluid and electrolytes, which places the patient at risk of deficit.\n• D — Intermittent gastric suction also removes fluid, so the risk there is deficit.",
  "strategy": "For overload, think impaired renal excretion, heart failure or excessive replacement.",
  "difficulty": "hard",
  "tags": ["fluid-overload", "kidney-disease"],
@@ -113430,7 +113430,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "b",
- "rationale": "Gastric suction causes loss of acid and potassium and can contribute to hypokalaemia and metabolic alkalosis.\n\nWhy the other options fail:\n• A — Tissue injury releases potassium into the circulation, so it tends to raise rather than lower the level.\n• C — Addison disease causes hyperkalaemia, because aldosterone deficiency reduces renal potassium excretion.\n• D — Uric acid has no direct relationship to potassium balance.",
+ "rationale": "CORRECT (B) — \"Prolonged nasogastric suction\". Gastric suction causes loss of acid and potassium and can contribute to hypokalaemia and metabolic alkalosis.\n\nWhy the other options fail:\n• A — Tissue injury releases potassium into the circulation, so it tends to raise rather than lower the level.\n• C — Addison disease causes hyperkalaemia, because aldosterone deficiency reduces renal potassium excretion.\n• D — Uric acid has no direct relationship to potassium balance.",
  "strategy": "Identify direct gastrointestinal losses when assessing potassium deficit.",
  "difficulty": "hard",
  "tags": ["hypokalaemia", "ng-suction"],
@@ -113459,7 +113459,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "a",
- "rationale": "Hypocalcaemia increases neuromuscular excitability, causing twitching, tingling, tetany and potentially positive Trousseau or Chvostek signs.\n\nWhy the other options fail:\n• B — Hypocalcaemia increases neuromuscular excitability, so bowel sounds become hyperactive rather than hypoactive.\n• C — Trousseau's sign becomes positive in hypocalcaemia, not negative.\n• D — Deep-tendon reflexes become exaggerated rather than reduced when calcium is low.",
+ "rationale": "CORRECT (A) — \"Muscle twitching and tingling around the mouth\". Hypocalcaemia increases neuromuscular excitability, causing twitching, tingling, tetany and potentially positive Trousseau or Chvostek signs.\n\nWhy the other options fail:\n• B — Hypocalcaemia increases neuromuscular excitability, so bowel sounds become hyperactive rather than hypoactive.\n• C — Trousseau's sign becomes positive in hypocalcaemia, not negative.\n• D — Deep-tendon reflexes become exaggerated rather than reduced when calcium is low.",
  "strategy": "Low calcium makes nerves and muscles more excitable, not less.",
  "difficulty": "hard",
  "tags": ["hypocalcaemia", "calcium"],
@@ -113488,7 +113488,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "b",
- "rationale": "A phosphate of 1.8 mg/dL is below the normal range, and malnutrition can cause phosphate depletion through poor intake and refeeding; the other three conditions listed raise phosphate.\n\nWhy the other options fail:\n• A — Renal insufficiency reduces phosphate excretion and usually raises the level rather than lowering it.\n• C — Hypoparathyroidism raises phosphate, because parathyroid hormone normally promotes its excretion.\n• D — Tumour lysis releases intracellular phosphate into the blood and causes hyperphosphataemia.",
+ "rationale": "CORRECT (B) — \"Malnutrition\". A phosphate of 1.8 mg/dL is below the normal range, and malnutrition can cause phosphate depletion through poor intake and refeeding; the other three conditions listed raise phosphate.\n\nWhy the other options fail:\n• A — Renal insufficiency reduces phosphate excretion and usually raises the level rather than lowering it.\n• C — Hypoparathyroidism raises phosphate, because parathyroid hormone normally promotes its excretion.\n• D — Tumour lysis releases intracellular phosphate into the blood and causes hyperphosphataemia.",
  "strategy": "Use renal handling: impaired excretion raises phosphate; poor intake or intracellular shifts lower it.",
  "difficulty": "hard",
  "tags": ["hypophosphataemia", "nutrition"],
@@ -113497,27 +113497,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-FLUID-0016",
  "categorySlug": "fluid-electrolyte",
- "stem": "Which intervention best helps prevent fluid-volume excess in a patient at risk?",
+ "stem": "Which electrolyte is the main determinant of serum osmolality?",
  "choices": [
   {
    "id": "a",
-   "text": "Discourage smoking and offer nicotine replacement"
+   "text": "Potassium, because it is the main intracellular cation and sets cell volume"
   },
   {
    "id": "b",
-   "text": "Protect bony prominences with a pressure-relieving mattress"
+   "text": "Calcium, because a large fraction of it is bound to plasma proteins"
   },
   {
    "id": "c",
-   "text": "Encourage extra salt with meals to maintain the sodium level"
+   "text": "Sodium, because it is the main extracellular cation"
   },
   {
    "id": "d",
-   "text": "Measure daily weight and monitor intake and output"
+   "text": "Magnesium, because it is largely intracellular as well as in bone"
   },
  ],
- "correctChoiceId": "d",
- "rationale": "Daily weight and intake/output monitoring detect small fluid changes early, and sodium excess worsens retention, so both are part of preventing overload.\n\nWhy the other options fail:\n• A — Smoking cessation is valuable for many reasons but has no direct effect on fluid balance.\n• B — Skin care at pressure points does not influence fluid accumulation.\n• C — Extra salt increases sodium retention and would promote the very fluid excess you are trying to prevent.",
+ "correctChoiceId": "c",
+ "rationale": "CORRECT (C) — \"Sodium, because it is the main extracellular cation\". Osmolality is the number of dissolved particles per kilogram of water, and sodium with its accompanying anions accounts for about 90 per cent of the particles in the extracellular fluid. That is why serum osmolality can be estimated from the sodium alone, why sodium is the number that drives antidiuretic hormone release and thirst, and why a serum sodium of 118 mmol/L means cerebral oedema while a sodium of 160 mmol/L means cellular dehydration. The nurse uses the sodium with the measured osmolality to interpret water balance and to decide whether a fall in the level is dilutional or a true loss of sodium. Why the other options fail: option a — potassium is the dominant intracellular cation, but it is present in the plasma at only about 4 mmol/L, so it contributes almost nothing to osmolality; option b — calcium is mostly protein-bound and contributes a small fraction of the particles; option d — magnesium is largely intracellular and its plasma concentration is about 1 mmol/L, so it is a minor contributor. Reference: Rose & Post — clinical physiology of acid-base and electrolyte disorders; Ghana STP — electrolytes",
  "strategy": "Fluid status is followed through trends, especially daily weight and balance.",
  "difficulty": "hard",
  "tags": ["fluid-overload", "monitoring"],
@@ -113526,27 +113526,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-FLUID-0017",
  "categorySlug": "fluid-electrolyte",
- "stem": "The abnormal loss of gastric acid through prolonged vomiting produces:",
+ "stem": "Which compensatory mechanism for an acid-base disturbance begins within minutes of the change?",
  "choices": [
   {
    "id": "a",
-   "text": "Extracellular metabolic acidosis"
+   "text": "Chemical buffering by the bicarbonate, phosphate and protein systems"
   },
   {
    "id": "b",
-   "text": "Interstitial respiratory acidosis"
+   "text": "Renal retention or excretion of bicarbonate over the following days and nights"
   },
   {
    "id": "c",
-   "text": "Extracellular metabolic alkalosis"
+   "text": "Renal excretion of hydrogen ions once the urine has been acidified"
   },
   {
    "id": "d",
-   "text": "Respiratory alkalosis"
+   "text": "Increased erythropoietin release from the kidneys in response to the hypoxia"
   },
  ],
- "correctChoiceId": "c",
- "rationale": "Vomiting removes hydrochloric acid, leaving a relative excess of bicarbonate and causing metabolic alkalosis.\n\nWhy the other options fail:\n• A — Acidosis would follow loss of bicarbonate-rich fluid, such as diarrhoea or pancreatic drainage, not loss of acid.\n• B — Interstitial respiratory acidosis is not a recognised description, and the respiratory system is not the cause here.\n• D — Respiratory alkalosis follows hyperventilation and does not follow vomiting.",
+ "correctChoiceId": "a",
+ "rationale": "CORRECT (A) — \"Chemical buffering by the bicarbonate, phosphate and protein systems\". The three lines of defence against an acid-base change work on very different timescales, and the question is about the first. Chemical buffers in the extracellular fluid and inside cells act within seconds to minutes by taking up or releasing hydrogen ions; the respiratory system responds within minutes to hours by changing the carbon dioxide level; and the kidney takes hours to days to retain or excrete bicarbonate. Knowing the order matters at the bedside, because a patient who has been acidotic for two days and is now compensating normally has a different picture from one whose bicarbonate has not yet had time to move. Why the other options fail: option b — renal handling of bicarbonate is the slowest of the three mechanisms, taking days to complete, so it cannot be the one that starts in minutes; option c — hydrogen ion excretion is part of that same slow renal response; option d — erythropoietin is a response to chronic hypoxia and has nothing to do with acid-base compensation. Reference: Guyton & Hall — acid-base regulation; Ghana STP — arterial blood gases",
  "strategy": "Loss of acid raises pH; loss of bicarbonate lowers pH.",
  "difficulty": "hard",
  "tags": ["vomiting", "metabolic-alkalosis"],
@@ -113575,7 +113575,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "b",
- "rationale": "Hyperkalaemia affects neuromuscular conduction and cardiac repolarisation, causing weakness, ECG changes and dysrhythmias.\n\nWhy the other options fail:\n• A — Sweating is not a feature of hyperkalaemia and would affect sodium and water loss rather than potassium.\n• C — Sunken eyes indicate dehydration, not a potassium disturbance.\n• D — Isolated spasm is more typical of hypocalcaemia; hyperkalaemia produces generalised weakness.",
+ "rationale": "CORRECT (B) — \"Muscle weakness with potentially life-threatening dysrhythmias\". Hyperkalaemia affects neuromuscular conduction and cardiac repolarisation, causing weakness, ECG changes and dysrhythmias.\n\nWhy the other options fail:\n• A — Sweating is not a feature of hyperkalaemia and would affect sodium and water loss rather than potassium.\n• C — Sunken eyes indicate dehydration, not a potassium disturbance.\n• D — Isolated spasm is more typical of hypocalcaemia; hyperkalaemia produces generalised weakness.",
  "strategy": "Think muscle weakness and cardiac conduction abnormalities for high potassium.",
  "difficulty": "hard",
  "tags": ["hyperkalaemia"],
@@ -113604,7 +113604,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "c",
- "rationale": "Removing axillary nodes interrupts lymphatic drainage, so protein-rich fluid accumulates in the arm and organises into firm, non-pitting swelling. It is managed with elevation, compression, skin care and specialist lymphoedema therapy.\n\nWhy the other options fail:\n• A — Cardiogenic oedema would be bilateral and pitting and would follow cardiac failure.\n• B — Low oncotic pressure produces generalised pitting oedema and is not confined to one limb.\n• D — Increased permeability in sepsis would present with other signs of sepsis and, again, would pit.",
+ "rationale": "CORRECT (C) — \"Lymphoedema from impaired lymphatic drainage\". Removing axillary nodes interrupts lymphatic drainage, so protein-rich fluid accumulates in the arm and organises into firm, non-pitting swelling. It is managed with elevation, compression, skin care and specialist lymphoedema therapy.\n\nWhy the other options fail:\n• A — Cardiogenic oedema would be bilateral and pitting and would follow cardiac failure.\n• B — Low oncotic pressure produces generalised pitting oedema and is not confined to one limb.\n• D — Increased permeability in sepsis would present with other signs of sepsis and, again, would pit.",
  "strategy": "One arm, firm, no dent, after node surgery: that is lymphoedema, not cardiac or low albumin.",
  "difficulty": "hard",
  "tags": ["oedema", "oncotic-pressure"],
@@ -113633,7 +113633,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "a",
- "rationale": "Total body water is approximately 60% of adult body weight, with variation by age, sex and body composition.\n\nWhy the other options fail:\n• B — Twenty per cent is far below total body water; it is closer to the extracellular fluid volume than the whole.\n• C — Forty per cent is too low for total body water in an average adult.\n• D — Eighty-five per cent is well above the physiological range and would be found only in a very immature or oedematous state.",
+ "rationale": "CORRECT (A) — \"60%\". Total body water is approximately 60% of adult body weight, with variation by age, sex and body composition.\n\nWhy the other options fail:\n• B — Twenty per cent is far below total body water; it is closer to the extracellular fluid volume than the whole.\n• C — Forty per cent is too low for total body water in an average adult.\n• D — Eighty-five per cent is well above the physiological range and would be found only in a very immature or oedematous state.",
  "strategy": "Use 60% as the adult estimate, recognising that adipose tissue contains less water.",
  "difficulty": "hard",
  "tags": ["body-fluid", "physiology"],
@@ -114814,7 +114814,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Poor feeding only, with no fluid deficit or weight loss to explain it"
+   "text": "Poor feeding only, with no fluid deficit or weight loss to explain it, and no need for review"
   },
   {
    "id": "d",
@@ -114822,7 +114822,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "d",
- "rationale": "A fontanelle that sinks below the level of the surrounding skull means the intravascular and extravascular spaces are depleted; it is a late and reliable sign in an infant. Paired with dry mucous membranes and eight hours without urine, it describes significant dehydration, and the child needs urgent assessment, a weight, vital signs and a plan for fluid replacement, oral if tolerated and intravenous if not.\n\nWhy the other options fail:\n• A — A soft, flat fontanelle is normal, whereas a sunken one is not, and the oliguria and dry mucosa settle the point.\n• B — Raised intracranial pressure produces a bulging, tense fontanelle with a high-pitched cry and altered consciousness.\n• C — Poor feeding alone does not explain a sunken fontanelle, dry mucosa and eight hours without urine.\n\nA sunken fontanelle is one of the few direct windows on an infant's volume status.",
+ "rationale": "CORRECT (D) — \"Dehydration with reduced circulating volume, needing urgent assessment and fluids\". A fontanelle that sinks below the level of the surrounding skull means the intravascular and extravascular spaces are depleted; it is a late and reliable sign in an infant. Paired with dry mucous membranes and eight hours without urine, it describes significant dehydration, and the child needs urgent assessment, a weight, vital signs and a plan for fluid replacement, oral if tolerated and intravenous if not.\n\nWhy the other options fail:\n• A — A soft, flat fontanelle is normal, whereas a sunken one is not, and the oliguria and dry mucosa settle the point.\n• B — Raised intracranial pressure produces a bulging, tense fontanelle with a high-pitched cry and altered consciousness.\n• C — Poor feeding alone does not explain a sunken fontanelle, dry mucosa and eight hours without urine.\n\nA sunken fontanelle is one of the few direct windows on an infant's volume status.",
  "strategy": "Sunken fontanelle means volume loss. Bulging fontanelle means raised pressure. Flat and soft is normal.",
  "difficulty": "hard",
  "tags": ["infant", "assessment", "dehydration", "fontanelle"],
@@ -114851,7 +114851,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "a",
- "rationale": "Cool, pale toes with delayed capillary refill mean the circulation is being obstructed, most often by a tight bandage, a slipped traction rope or a cast. The obstruction is relieved immediately and the surgeon informed, because untreated ischaemia leads to permanent damage.\n\nWhy the other options fail:\n• B — An hour of ischaemia is enough to damage muscle and nerve.\n• C — Warming the surface does not restore perfusion and hides the change.\n• D — This is an emergency, not an observation to record and leave.\n\nReference: Ghana STG — traction care; neurovascular observation",
+ "rationale": "CORRECT (A) — \"Report at once and check the bandages and traction ropes\". Cool, pale toes with delayed capillary refill mean the circulation is being obstructed, most often by a tight bandage, a slipped traction rope or a cast. The obstruction is relieved immediately and the surgeon informed, because untreated ischaemia leads to permanent damage.\n\nWhy the other options fail:\n• B — An hour of ischaemia is enough to damage muscle and nerve.\n• C — Warming the surface does not restore perfusion and hides the change.\n• D — This is an emergency, not an observation to record and leave.\n\nReference: Ghana STG — traction care; neurovascular observation",
  "strategy": "In traction, the toes report the circulation — compare colour, warmth, refill and movement each shift.",
  "difficulty": "hard",
  "tags": ["traction", "neurovascular", "paediatrics", "complication"],
@@ -114864,7 +114864,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Tell the child off for behaving like a baby in front of the other children"
+   "text": "Tell the child off for behaving like a baby in front of the other children on the ward"
   },
   {
    "id": "b",
@@ -114880,7 +114880,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "b",
- "rationale": "Toddlers and preschool children commonly regress under stress, and admission is a major stress. Bedwetting in a previously trained child is a normal, temporary response that improves when the child feels safe, is prepared for procedures and is given play and routine.\n\nWhy the other options fail:\n• A — Telling the child off adds shame to fear and can prolong the regression.\n• C — A psychiatric referral medicalises a normal response to admission.\n• D — Fluid restriction is a dehydration risk and does not address the cause.",
+ "rationale": "CORRECT (B) — \"Recognise it as a stress response to hospitalisation and offer reassurance and play\". Toddlers and preschool children commonly regress under stress, and admission is a major stress. Bedwetting in a previously trained child is a normal, temporary response that improves when the child feels safe, is prepared for procedures and is given play and routine.\n\nWhy the other options fail:\n• A — Telling the child off adds shame to fear and can prolong the regression.\n• C — A psychiatric referral medicalises a normal response to admission.\n• D — Fluid restriction is a dehydration risk and does not address the cause.",
  "strategy": "Regression in hospital is a communication, not a discipline problem. Reassure, prepare and play.",
  "difficulty": "hard",
  "tags": ["hospitalisation", "regression"],
@@ -114909,7 +114909,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "c",
- "rationale": "Engorgement is milk stasis plus oedema, and the treatment is to keep the milk moving: frequent feeding with good attachment, expressing after feeds if the breast remains hard, and a warm shower before feeding. Analgesia and a cold pack between feeds ease the discomfort.\n\nWhy the other options fail:\n• A — Stopping feeding worsens stasis and is the commonest route to mastitis.\n• B — Binding compresses ducts and causes blocked ducts and abscess.\n• D — Fluid restriction does not reduce milk production and dehydrates the mother.\n\nReference: Ghana STG — breastfeeding; engorgement",
+ "rationale": "CORRECT (C) — \"Feed frequently and express milk if the breast stays full\". Engorgement is milk stasis plus oedema, and the treatment is to keep the milk moving: frequent feeding with good attachment, expressing after feeds if the breast remains hard, and a warm shower before feeding. Analgesia and a cold pack between feeds ease the discomfort.\n\nWhy the other options fail:\n• A — Stopping feeding worsens stasis and is the commonest route to mastitis.\n• B — Binding compresses ducts and causes blocked ducts and abscess.\n• D — Fluid restriction does not reduce milk production and dehydrates the mother.\n\nReference: Ghana STG — breastfeeding; engorgement",
  "strategy": "Engorgement is treated by emptying, not by resting or binding the breast.",
  "difficulty": "hard",
  "tags": ["breastfeeding", "engorgement", "postnatal", "lactation"],
@@ -114918,27 +114918,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-PEDS-0005",
  "categorySlug": "pediatrics",
- "stem": "A child in a rural community has dry eyes, night blindness and Bitot's spots. Which deficiency is most likely?",
+ "stem": "A 5-week-old boy has projectile vomiting after every feed and a palpable olive-shaped mass in the right upper quadrant. Which condition should the nurse suspect?",
  "choices": [
   {
    "id": "a",
-   "text": "Niacin"
+   "text": "Gastro-oesophageal reflux, which needs no investigation at this age"
   },
   {
    "id": "b",
-   "text": "Vitamin A"
+   "text": "Hypertrophic pyloric stenosis"
   },
   {
    "id": "c",
-   "text": "Thiamine"
+   "text": "Intussusception, with a redcurrant-jelly stool expected later"
   },
   {
    "id": "d",
-   "text": "Vitamin C"
+   "text": "Overfeeding with an ordinary formula through a large teat hole"
   },
  ],
  "correctChoiceId": "b",
- "rationale": "Night blindness with dry conjunctivae and Bitot's spots is xerophthalmia, the ocular manifestation of vitamin A deficiency, which in Ghana is addressed through supplementation and dietary advice about dark green leaves, mango, pawpaw and liver. Untreated, it can progress to corneal ulceration and permanent blindness.\n\nWhy the other options fail:\n• A — Niacin deficiency causes pellagra with dermatitis, diarrhoea and dementia.\n• C — Thiamine deficiency causes beriberi and Wernicke's encephalopathy.\n• D — Vitamin C deficiency causes scurvy with bleeding gums and poor wound healing.",
+ "rationale": "CORRECT (B) — \"Hypertrophic pyloric stenosis\". Projectile, non-bilious vomiting that starts at about three to six weeks in a first-born boy, with a palpable olive-shaped mass in the right upper quadrant and visible peristaltic waves, is the classic picture of hypertrophy of the pyloric muscle. The baby is hungry rather than unwell between feeds but becomes dehydrated with a hypochloraemic metabolic alkalosis. The nurse weighs the baby, records the vomits and the urine output, keeps the baby nil by mouth, and prepares for an ultrasound and for correction of the electrolytes before pyloromyotomy. Why the other options fail: option a — reflux is possetting rather than projectile vomiting and it does not produce a palpable mass; option c — intussusception presents nearer six to eighteen months with colicky pain, drawing up of the legs and redcurrant-jelly stool, not with an olive-shaped mass in a 5-week-old; option d — overfeeding gives possetting and poor weight gain rather than projectile vomiting with a mass. Reference: WHO — pocket book of hospital care for children; Ghana STP — infant vomiting",
  "strategy": "Night blindness plus Bitot's spots means vitamin A, not niacin or thiamine.",
  "difficulty": "hard",
  "tags": ["nutrition", "niacin"],
@@ -114959,7 +114959,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "A 7-year-old waiting for a chest radiograph with a temperature of 37.9°C"
+   "text": "A 7-year-old waiting for a chest radiograph with a temperature of 37.9°C and a mild cough since yesterday"
   },
   {
    "id": "d",
@@ -114967,7 +114967,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "a",
- "rationale": "Grunting, severe recession and no response to oxygen is a child in respiratory failure, which is the most time-critical finding in any waiting room and takes precedence over every other patient listed.\n\nWhy the other options fail:\n• B — Mild illness with a protected airway and a child who is drinking can wait.\n• C — A child who is stable and awaiting imaging is not deteriorating in front of you.\n• D — A child well enough to be discharged does not need the first assessment.\n\nIn prioritisation questions, the child who is failing to respond to treatment outranks the one who has not yet been treated.",
+ "rationale": "CORRECT (A) — \"A 3-year-old with severe recession and grunting who remains breathless on high-flow oxygen\". Grunting, severe recession and no response to oxygen is a child in respiratory failure, which is the most time-critical finding in any waiting room and takes precedence over every other patient listed.\n\nWhy the other options fail:\n• B — Mild illness with a protected airway and a child who is drinking can wait.\n• C — A child who is stable and awaiting imaging is not deteriorating in front of you.\n• D — A child well enough to be discharged does not need the first assessment.\n\nIn prioritisation questions, the child who is failing to respond to treatment outranks the one who has not yet been treated.",
  "strategy": "Assess first the child who looks worst despite treatment, not the one who is merely waiting.",
  "difficulty": "hard",
  "tags": ["prioritisation", "respiratory"],
@@ -114984,7 +114984,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Use the same site every day so that the technique is familiar to the child"
+   "text": "Use exactly the same site every day so that the technique stays familiar to the child and parents"
   },
   {
    "id": "c",
@@ -114996,7 +114996,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "a",
- "rationale": "Repeated injection into the same spot causes lipohypertrophy, which absorbs insulin unpredictably and produces unexplained highs and lows, so sites are rotated within and between regions.\n\nWhy the other options fail:\n• B — Using the same site every day is the direct cause of lipohypertrophy.\n• C — Aspiration is unnecessary for subcutaneous insulin and adds pain.\n• D — A reused needle becomes bent and burred, causing pain and inaccurate dosing.",
+ "rationale": "CORRECT (A) — \"Rotate injection sites systematically so that lumps and unpredictable absorption do not develop\". Repeated injection into the same spot causes lipohypertrophy, which absorbs insulin unpredictably and produces unexplained highs and lows, so sites are rotated within and between regions.\n\nWhy the other options fail:\n• B — Using the same site every day is the direct cause of lipohypertrophy.\n• C — Aspiration is unnecessary for subcutaneous insulin and adds pain.\n• D — A reused needle becomes bent and burred, causing pain and inaccurate dosing.",
  "strategy": "Rotate sites to protect absorption. A lump is not just cosmetic, it changes the dose.",
  "difficulty": "hard",
  "tags": ["diabetes", "insulin"],
@@ -115009,7 +115009,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Rapid intravenous Ringer's lactate at twice the usual rate for the child's age"
+   "text": "Rapid intravenous Ringer's lactate at twice the usual rate for the child's age, before any oral fluid"
   },
   {
    "id": "b",
@@ -115025,7 +115025,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "d",
- "rationale": "In severe acute malnutrition the myocardium and the sodium-potassium balance are both compromised, so standard rehydration fluids and rates can precipitate heart failure. The specific low-sodium, high-potassium solution is given slowly under the malnutrition protocol with feeding continued and the child watched.\n\nWhy the other options fail:\n• A — The classic error: rapid Ringer's lactate in severe malnutrition can kill by volume overload.\n• B — Plain water gives no electrolytes and risks hyponatraemia.\n• C — Withholding fluid allows shock to develop.",
+ "rationale": "CORRECT (D) — \"Oral rehydration with ReSoMal under the severe-malnutrition protocol, with close monitoring\". In severe acute malnutrition the myocardium and the sodium-potassium balance are both compromised, so standard rehydration fluids and rates can precipitate heart failure. The specific low-sodium, high-potassium solution is given slowly under the malnutrition protocol with feeding continued and the child watched.\n\nWhy the other options fail:\n• A — The classic error: rapid Ringer's lactate in severe malnutrition can kill by volume overload.\n• B — Plain water gives no electrolytes and risks hyponatraemia.\n• C — Withholding fluid allows shock to develop.",
  "strategy": "In severe malnutrition, rehydrate slowly with the malnutrition-specific fluid, never with rapid standard boluses.",
  "difficulty": "hard",
  "tags": ["malnutrition", "dehydration"],
@@ -115038,7 +115038,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Attempt to push the bowel gently back inside the abdomen before the transfer"
+   "text": "Attempt to push the bowel gently back inside the abdomen before the baby is transferred to theatre"
   },
   {
    "id": "b",
@@ -115054,7 +115054,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "b",
- "rationale": "An omphalocele is covered by a membrane, but the bowel is still exposed to heat and fluid loss, so it is covered with warm sterile saline gauze and plastic wrap if available, the baby is kept warm and nil by mouth, and a nasogastric tube is passed while urgent surgical referral is made.\n\nWhy the other options fail:\n• A — Pushing the bowel back risks perforation and contamination.\n• C — A dry dressing adheres to the membrane and tears it.\n• D — Oral feeds are unsafe before the defect is closed.",
+ "rationale": "CORRECT (B) — \"Cover the bowel with warm sterile saline-soaked gauze, keep the baby warm and refer for surgery\". An omphalocele is covered by a membrane, but the bowel is still exposed to heat and fluid loss, so it is covered with warm sterile saline gauze and plastic wrap if available, the baby is kept warm and nil by mouth, and a nasogastric tube is passed while urgent surgical referral is made.\n\nWhy the other options fail:\n• A — Pushing the bowel back risks perforation and contamination.\n• C — A dry dressing adheres to the membrane and tears it.\n• D — Oral feeds are unsafe before the defect is closed.",
  "strategy": "Cover with warm saline gauze, keep warm, no feeds, nasogastric tube, refer. Do not push it back.",
  "difficulty": "hard",
  "tags": ["newborn", "omphalocele"],
@@ -115083,7 +115083,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "a",
- "rationale": "In fetal life the lungs are fluid-filled and collapsed and pulmonary vascular resistance is high, so most blood entering the pulmonary artery is shunted through the ductus arteriosus into the descending aorta and back to the placenta. It is kept open by circulating prostaglandins and by low oxygen tension. After birth, breathing expands the lungs, pulmonary resistance falls and oxygen rises; prostaglandin levels fall and the ductus constricts into the ligamentum arteriosum.\n\nWhy the other options fail:\n• B — Reversing the direction describes the left-to-right shunt seen after birth when the ductus fails to close.\n• C — Right atrium to left atrium describes the foramen ovale.\n• D — Umbilical vein to inferior vena cava describes the ductus venosus, which bypasses the liver.",
+ "rationale": "CORRECT (A) — \"Pulmonary artery to the descending aorta\". In fetal life the lungs are fluid-filled and collapsed and pulmonary vascular resistance is high, so most blood entering the pulmonary artery is shunted through the ductus arteriosus into the descending aorta and back to the placenta. It is kept open by circulating prostaglandins and by low oxygen tension. After birth, breathing expands the lungs, pulmonary resistance falls and oxygen rises; prostaglandin levels fall and the ductus constricts into the ligamentum arteriosum.\n\nWhy the other options fail:\n• B — Reversing the direction describes the left-to-right shunt seen after birth when the ductus fails to close.\n• C — Right atrium to left atrium describes the foramen ovale.\n• D — Umbilical vein to inferior vena cava describes the ductus venosus, which bypasses the liver.",
  "strategy": "Ductus arteriosus: pulmonary artery to aorta. Ductus venosus: umbilical vein to inferior vena cava.",
  "difficulty": "hard",
  "tags": ["fetal-circulation", "ductus arteriosus", "paediatrics"],
@@ -115100,7 +115100,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "A normal finding that needs no further assessment"
+   "text": "A normal finding for a child of this age that needs no further assessment or follow-up at all"
   },
   {
    "id": "c",
@@ -115112,7 +115112,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "c",
- "rationale": "Hypertension in a young child is uncommon and is much more likely to be secondary, with renal parenchymal disease and coarctation of the aorta heading the list, so the child needs urinalysis, renal function and imaging rather than reassurance.\n\nWhy the other options fail:\n• A — Essential hypertension is the usual pattern in adolescents and adults, not in a 3-year-old.\n• B — Reassurance would miss a treatable cause of significant harm.\n• D — Anxiety does not explain persistently raised readings at three separate visits.",
+ "rationale": "CORRECT (C) — \"A secondary cause such as renal or cardiovascular disease\". Hypertension in a young child is uncommon and is much more likely to be secondary, with renal parenchymal disease and coarctation of the aorta heading the list, so the child needs urinalysis, renal function and imaging rather than reassurance.\n\nWhy the other options fail:\n• A — Essential hypertension is the usual pattern in adolescents and adults, not in a 3-year-old.\n• B — Reassurance would miss a treatable cause of significant harm.\n• D — Anxiety does not explain persistently raised readings at three separate visits.",
  "strategy": "High blood pressure in a small child is a clue to an underlying disease, usually renal or cardiac.",
  "difficulty": "hard",
  "tags": ["paediatric-hypertension"],
@@ -115137,11 +115137,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Broad-spectrum antibiotics with vitamin K deficiency risk"
+   "text": "Broad-spectrum antibiotics with vitamin K deficiency risk after prolonged treatment"
   },
  ],
  "correctChoiceId": "b",
- "rationale": "The question asks which pairing is incorrect, and digoxin is the one that does not belong: it is associated with toxicity and electrolyte interactions, not with a typical calcium-deficiency state.\n\nWhy the other options fail:\n• A — Isoniazid does cause pyridoxine deficiency, so the pairing is correct.\n• C — Phenytoin does affect vitamin D metabolism, so the pairing is correct.\n• D — Broad-spectrum antibiotics do reduce vitamin K production by gut flora, so the pairing is correct.",
+ "rationale": "CORRECT (B) — \"Digoxin—calcium deficiency as the typical direct deficiency\". The question asks which pairing is incorrect, and digoxin is the one that does not belong: it is associated with toxicity and electrolyte interactions, not with a typical calcium-deficiency state.\n\nWhy the other options fail:\n• A — Isoniazid does cause pyridoxine deficiency, so the pairing is correct.\n• C — Phenytoin does affect vitamin D metabolism, so the pairing is correct.\n• D — Broad-spectrum antibiotics do reduce vitamin K production by gut flora, so the pairing is correct.",
  "strategy": "Check whether the medication causes a recognised nutrient deficiency rather than merely an electrolyte interaction.",
  "difficulty": "hard",
  "tags": ["drug-nutrient", "paediatrics"],
@@ -115154,7 +115154,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "An 18 gauge, because a bigger catheter is always better for fluids"
+   "text": "An 18 gauge, because a bigger catheter is always better for giving fluids quickly to a child"
   },
   {
    "id": "b",
@@ -115170,7 +115170,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "c",
- "rationale": "The right catheter is the smallest one that will carry the prescribed therapy at the prescribed rate, because a smaller gauge causes less vein trauma and is easier to site in a toddler. For rehydration in a stable child, 22 or 24 gauge is usually adequate.\n\nWhy the other options fail:\n• A — An 18 gauge is unnecessarily traumatic and harder to site in small veins.\n• B — A central line is invasive and disproportionate for a child who is not shocked.\n• D — A butterfly needle is unstable for a continuous infusion.",
+ "rationale": "CORRECT (C) — \"A 22 or 24 gauge, the smallest that allows the fluids and rate required\". The right catheter is the smallest one that will carry the prescribed therapy at the prescribed rate, because a smaller gauge causes less vein trauma and is easier to site in a toddler. For rehydration in a stable child, 22 or 24 gauge is usually adequate.\n\nWhy the other options fail:\n• A — An 18 gauge is unnecessarily traumatic and harder to site in small veins.\n• B — A central line is invasive and disproportionate for a child who is not shocked.\n• D — A butterfly needle is unstable for a continuous infusion.",
  "strategy": "Choose the smallest catheter that delivers the therapy. Bigger is not better in a toddler's vein.",
  "difficulty": "hard",
  "tags": ["paediatric-iv", "diarrhoea"],
@@ -115199,7 +115199,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "b",
- "rationale": "In a child under three the external canal runs upwards and forwards, so the pinna is pulled gently down and back to straighten it. The child lies on the opposite side and stays there for a few minutes afterwards.\n\nWhy the other options fail:\n• A — Up and back is the technique for an adult or an older child, not a toddler.\n• C — Sitting allows the drops to run straight out of the canal.\n• D — Microwaving heats unevenly and can scald the canal; drops are warmed in the hand.\n\nReference: Ghana nursing curriculum — paediatric medication administration",
+ "rationale": "CORRECT (B) — \"Pull the pinna down and back before instilling\". In a child under three the external canal runs upwards and forwards, so the pinna is pulled gently down and back to straighten it. The child lies on the opposite side and stays there for a few minutes afterwards.\n\nWhy the other options fail:\n• A — Up and back is the technique for an adult or an older child, not a toddler.\n• C — Sitting allows the drops to run straight out of the canal.\n• D — Microwaving heats unevenly and can scald the canal; drops are warmed in the hand.\n\nReference: Ghana nursing curriculum — paediatric medication administration",
  "strategy": "Under three years pull down and back; over three years pull up and back.",
  "difficulty": "hard",
  "tags": ["paediatrics", "ear-drops", "administration", "technique"],
@@ -115212,7 +115212,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Report the bruises immediately as a suspected non-accidental injury"
+   "text": "Report the bruises immediately as a suspected non-accidental injury and separate the child from the mother"
   },
   {
    "id": "b",
@@ -115228,7 +115228,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "d",
- "rationale": "Bruises on the shins, knees and forehead are the expected pattern in a child who is mobile and pulling to stand, because these are the bony points that meet furniture and the floor, and the history matches the developmental stage and the sites.\n\nWhy the other options fail:\n• A — Treating a normal finding as abuse distresses the family and triggers an unnecessary investigation.\n• B — A skeletal survey is disproportionate to accidental bruising of the shins.\n• C — Stopping the child from standing interferes with a normal developmental milestone.",
+ "rationale": "CORRECT (D) — \"Explain that these are the usual bruises of a child who is learning to walk\". Bruises on the shins, knees and forehead are the expected pattern in a child who is mobile and pulling to stand, because these are the bony points that meet furniture and the floor, and the history matches the developmental stage and the sites.\n\nWhy the other options fail:\n• A — Treating a normal finding as abuse distresses the family and triggers an unnecessary investigation.\n• B — A skeletal survey is disproportionate to accidental bruising of the shins.\n• C — Stopping the child from standing interferes with a normal developmental milestone.",
  "strategy": "Match the bruise to the developmental stage. Shins and knees belong to a walker, not a baby who cannot move.",
  "difficulty": "hard",
  "tags": ["safeguarding", "fracture", "infant", "ghana"],
@@ -115245,7 +115245,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Idiopathic thrombocytopenic purpura with a low platelet count"
+   "text": "Idiopathic thrombocytopenic purpura, with a low platelet count and a normal clotting screen"
   },
   {
    "id": "c",
@@ -115257,7 +115257,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "d",
- "rationale": "Late vitamin K deficiency bleeding presents between two weeks and three months, classically in exclusively breastfed babies who did not receive vitamin K at birth, and it can present as intracranial haemorrhage, so it is a medical emergency.\n\nWhy the other options fail:\n• A — Haemophilia is an inherited factor deficiency presenting with joint and soft-tissue bleeding, not umbilical bleeding in the first weeks.\n• B — Immune thrombocytopenia causes petechiae and bruising with a low platelet count.\n• C — Disseminated intravascular coagulation comes with a sick, febrile baby.",
+ "rationale": "CORRECT (D) — \"Vitamin K deficiency bleeding, because prophylaxis was not given at birth\". Late vitamin K deficiency bleeding presents between two weeks and three months, classically in exclusively breastfed babies who did not receive vitamin K at birth, and it can present as intracranial haemorrhage, so it is a medical emergency.\n\nWhy the other options fail:\n• A — Haemophilia is an inherited factor deficiency presenting with joint and soft-tissue bleeding, not umbilical bleeding in the first weeks.\n• B — Immune thrombocytopenia causes petechiae and bruising with a low platelet count.\n• C — Disseminated intravascular coagulation comes with a sick, febrile baby.",
  "strategy": "Late bleeding in an unprophylaxed breastfed newborn is vitamin K deficiency until proved otherwise.",
  "difficulty": "hard",
  "tags": ["newborn", "vitamin-k"],
@@ -115282,11 +115282,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Move the older child to a separate room until he is dry again at night"
+   "text": "Move the older child to a separate room of his own until he has been dry again at night for weeks"
   },
  ],
  "correctChoiceId": "c",
- "rationale": "Regression to an earlier behaviour is a normal response to the arrival of a sibling, and it is best managed by giving the older child predictable, individual attention and a role in caring for the baby, which restores his sense of position in the family.\n\nWhy the other options fail:\n• A — Punishment worsens the anxiety that produced the regression.\n• B — Withdrawing attention compounds the sense of displacement.\n• D — Isolating the child does nothing for the underlying cause and adds another loss.",
+ "rationale": "CORRECT (C) — \"Give the older child consistent one-to-one attention and a role caring for the baby\". Regression to an earlier behaviour is a normal response to the arrival of a sibling, and it is best managed by giving the older child predictable, individual attention and a role in caring for the baby, which restores his sense of position in the family.\n\nWhy the other options fail:\n• A — Punishment worsens the anxiety that produced the regression.\n• B — Withdrawing attention compounds the sense of displacement.\n• D — Isolating the child does nothing for the underlying cause and adds another loss.",
  "strategy": "Regression after a new baby is displacement, not misbehaviour: give attention and a role.",
  "difficulty": "hard",
  "tags": ["development", "family"],
@@ -115307,7 +115307,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Line the cot with thick padding on all four sides to prevent bruising"
+   "text": "Line the cot with thick padding on all four sides to prevent bruising when the child rolls against them"
   },
   {
    "id": "d",
@@ -115315,7 +115315,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "d",
- "rationale": "Once a child can roll, the risk changes from SIDS to suffocation and entrapment, and the principle stays the same: a firm, flat surface, nothing loose in the cot, no pillows or padded bumpers, and the child placed on their back.\n\nWhy the other options fail:\n• A — A pillow adds a soft surface that can cover the face.\n• B — Placing the child prone increases the risk of rebreathing.\n• C — Padding reintroduces the soft, loose materials the cot should not contain.",
+ "rationale": "CORRECT (D) — \"Keep the cot clear of pillows, thick blankets and soft toys, and place the child on the back\". Once a child can roll, the risk changes from SIDS to suffocation and entrapment, and the principle stays the same: a firm, flat surface, nothing loose in the cot, no pillows or padded bumpers, and the child placed on their back.\n\nWhy the other options fail:\n• A — A pillow adds a soft surface that can cover the face.\n• B — Placing the child prone increases the risk of rebreathing.\n• C — Padding reintroduces the soft, loose materials the cot should not contain.",
  "strategy": "A safe cot is an empty cot: firm flat mattress, nothing loose, child on the back.",
  "difficulty": "hard",
  "tags": ["safe-sleep", "suffocation"],
@@ -115340,11 +115340,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Lay the baby flat on the back seat with the seatbelt over the blanket"
+   "text": "Lay the baby flat on the back seat with the seatbelt fastened over the blanket for the journey"
   },
  ],
  "correctChoiceId": "a",
- "rationale": "A rear-facing seat spreads the forces of a crash across the whole back of an infant's body and protects the relatively heavy head and weak neck, and it is used in the back seat away from the front passenger airbag.\n\nWhy the other options fail:\n• B — An adult cannot hold a child in a crash; this is the most dangerous option.\n• C — Forward-facing turns the fragile neck into the direction of the impact far too early.\n• D — Lying flat under a seatbelt provides no restraint at all.",
+ "rationale": "CORRECT (A) — \"Use a rear-facing car seat in the back, and never hold the baby in someone's arms\". A rear-facing seat spreads the forces of a crash across the whole back of an infant's body and protects the relatively heavy head and weak neck, and it is used in the back seat away from the front passenger airbag.\n\nWhy the other options fail:\n• B — An adult cannot hold a child in a crash; this is the most dangerous option.\n• C — Forward-facing turns the fragile neck into the direction of the impact far too early.\n• D — Lying flat under a seatbelt provides no restraint at all.",
  "strategy": "Rear-facing, back seat, never on a lap. That is the whole of infant car safety.",
  "difficulty": "hard",
  "tags": ["safe-sleep", "sids"],
@@ -115353,27 +115353,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-PEDS-0020",
  "categorySlug": "pediatrics",
- "stem": "A child with tetanus is admitted in spasm. Which nursing measure is the most important in the first hours?",
+ "stem": "A woman attends the antenatal clinic at 28 weeks. Why is tetanus toxoid given during pregnancy?",
  "choices": [
   {
    "id": "a",
-   "text": "Frequent visitors and bright lighting so that the spasms can be observed"
+   "text": "To treat an existing tetanus infection in the mother before she delivers"
   },
   {
    "id": "b",
-   "text": "Vigorous physiotherapy of the jaw and limbs to prevent stiffness"
+   "text": "To prevent whooping cough in the woman during the pregnancy"
   },
   {
    "id": "c",
-   "text": "A quiet, darkened, single room with clustered care and minimal handling"
+   "text": "To protect the newborn from neonatal tetanus in the first weeks of life"
   },
   {
    "id": "d",
-   "text": "Withholding sedation until the spasms have stopped completely"
+   "text": "To replace the immunisation the child will otherwise get at six weeks"
   },
  ],
  "correctChoiceId": "c",
- "rationale": "Tetanus toxin blocks the release of inhibitory transmitters, so any stimulus can trigger a generalised spasm that obstructs the airway or fractures the spine. The environment is the treatment: a quiet, dark, single room, minimal handling, clustered care, and sedation with muscle relaxation prescribed.\n\nWhy the other options fail:\n• A — Visitors and bright light supply the stimuli that cause spasms.\n• B — Vigorous physiotherapy can provoke spasm and injury.\n• D — Withholding sedation lets the spasms continue unchecked.",
+ "rationale": "CORRECT (C) — \"To protect the newborn from neonatal tetanus in the first weeks of life\". Tetanus toxoid given to the mother in pregnancy stimulates maternal IgG, which crosses the placenta and gives the baby passive immunity during the first weeks, when the umbilical stump is the usual portal of entry and the baby is too young to be actively immunised. That is why the schedule is built around two doses in the first pregnancy and a booster in later pregnancies, and why clean cord care is still taught alongside it. The nurse checks the card, gives the dose due, and explains that the injection protects the baby rather than treating anything in the mother. Why the other options fail: option a — toxoid is a vaccine, not an antitoxin, so it neither treats nor prevents established tetanus in the mother; option b — whooping cough protection in pregnancy is a separate vaccine given for pertussis, not tetanus toxoid; option d — the infant still needs its own immunisations from six weeks, and the maternal dose does not replace them. Reference: WHO — maternal and neonatal tetanus elimination; Ghana EPI schedule",
  "strategy": "In tetanus, the room is part of the prescription. Quiet, dark, minimal handling, sedated.",
  "difficulty": "hard",
  "tags": ["tetanus", "paediatric-emergency"],
@@ -116042,7 +116042,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "c",
- "rationale": "Gallstones can obstruct bile flow, especially after a fatty meal stimulates gallbladder contraction. Bile is needed for fat emulsification and digestion.\n\nWhy the other options fail:\n• A — Fat is not difficult for everyone to digest; in this patient the problem is bile, not fat itself.\n• B — The liver still manufactures bile in cholelithiasis; the obstruction is in flow, not production.\n• D — Fat does not immediately infect the pancreas; the mechanism is enzyme activation and duct obstruction.",
+ "rationale": "CORRECT (C) — \"Bile flow into the intestine is obstructed when the gallbladder contracts\". Gallstones can obstruct bile flow, especially after a fatty meal stimulates gallbladder contraction. Bile is needed for fat emulsification and digestion.\n\nWhy the other options fail:\n• A — Fat is not difficult for everyone to digest; in this patient the problem is bile, not fat itself.\n• B — The liver still manufactures bile in cholelithiasis; the obstruction is in flow, not production.\n• D — Fat does not immediately infect the pancreas; the mechanism is enzyme activation and duct obstruction.",
  "strategy": "Relate post-fat meal pain to gallbladder contraction against an obstructed outlet.",
  "difficulty": "hard",
  "tags": [
@@ -116074,7 +116074,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "d",
- "rationale": "Vitamin K is required for hepatic synthesis of several clotting factors, including prothrombin, helping correct bleeding risk associated with impaired bile flow or malabsorption.\n\nWhy the other options fail:\n• A — Bilirubin is a breakdown product of haem, not something formed with vitamin K.\n• C — Thromboplastin is released from damaged tissue and is not vitamin K dependent.\n• B — Albumin is made by the liver but its synthesis does not depend on vitamin K.",
+ "rationale": "CORRECT (D) — \"Prothrombin\". Vitamin K is required for hepatic synthesis of several clotting factors, including prothrombin, helping correct bleeding risk associated with impaired bile flow or malabsorption.\n\nWhy the other options fail:\n• A — Bilirubin is a breakdown product of haem, not something formed with vitamin K.\n• C — Thromboplastin is released from damaged tissue and is not vitamin K dependent.\n• B — Albumin is made by the liver but its synthesis does not depend on vitamin K.",
  "strategy": "Vitamin K supports clotting-factor synthesis, especially prothrombin.",
  "difficulty": "hard",
  "tags": [
@@ -116090,7 +116090,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "The surgery always causes prolonged anaesthesia"
+   "text": "The surgery always causes prolonged anaesthesia that depresses the respiratory centre for days"
   },
   {
    "id": "b",
@@ -116106,7 +116106,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "d",
- "rationale": "Upper abdominal pain and splinting can impair deep breathing and coughing, increasing atelectasis risk because the incision is near the diaphragm.\n\nWhy the other options fail:\n• A — Anaesthesia is not prolonged by cholecystectomy itself; the risk comes from the site of the incision.\n• C — Bile in the blood does not depress respiration; the cause is mechanical and pain related.\n• B — Pneumonia is a complication to prevent, not an expected outcome.",
+ "rationale": "CORRECT (D) — \"The incision and abdominal discomfort can limit diaphragmatic expansion\". Upper abdominal pain and splinting can impair deep breathing and coughing, increasing atelectasis risk because the incision is near the diaphragm.\n\nWhy the other options fail:\n• A — Anaesthesia is not prolonged by cholecystectomy itself; the risk comes from the site of the incision.\n• C — Bile in the blood does not depress respiration; the cause is mechanical and pain related.\n• B — Pneumonia is a complication to prevent, not an expected outcome.",
  "strategy": "Upper abdominal surgery can restrict ventilation; monitor breathing and encourage prescribed pulmonary care.",
  "difficulty": "hard",
  "tags": [
@@ -116134,11 +116134,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Prevents all pancreatic secretions from leaving the gland, so that they digest it"
+   "text": "Prevents all pancreatic secretions from leaving the gland at all, so that the enzymes digest it"
   }
  ],
  "correctChoiceId": "c",
- "rationale": "Alcohol can increase pancreatic secretion and ductal pressure and promote premature enzyme activation, causing autodigestion and inflammation.\n\nWhy the other options fail:\n• A — Alcohol does not form gallstones; gallstones are a separate cause of pancreatitis.\n• B — Depleting insulin does not explain the enzyme injury that defines pancreatitis.\n• D — Alcohol increases pancreatic secretion rather than preventing it.",
+ "rationale": "CORRECT (C) — \"Increases enzyme secretion and duct pressure, allowing enzyme injury to pancreatic tissue\". Alcohol can increase pancreatic secretion and ductal pressure and promote premature enzyme activation, causing autodigestion and inflammation.\n\nWhy the other options fail:\n• A — Alcohol does not form gallstones; gallstones are a separate cause of pancreatitis.\n• B — Depleting insulin does not explain the enzyme injury that defines pancreatitis.\n• D — Alcohol increases pancreatic secretion rather than preventing it.",
  "strategy": "Connect alcohol with duct pressure and premature enzyme activation, not insulin depletion.",
  "difficulty": "hard",
  "tags": [
@@ -116170,7 +116170,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "c",
- "rationale": "Therapeutic communication allows assessment of fears and supports coping; anxiety should be explored while physical causes are assessed.\n\nWhy the other options fail:\n• B — Antibiotics without an indication expose the patient to harm and do nothing for anxiety.\n• A — Telling a distressed patient to ignore anxiety dismisses a real fear.\n• D — Limiting all questions removes the assessment the patient needs.",
+ "rationale": "CORRECT (C) — \"Encourage the client to express concerns\". Therapeutic communication allows assessment of fears and supports coping; anxiety should be explored while physical causes are assessed.\n\nWhy the other options fail:\n• B — Antibiotics without an indication expose the patient to harm and do nothing for anxiety.\n• A — Telling a distressed patient to ignore anxiety dismisses a real fear.\n• D — Limiting all questions removes the assessment the patient needs.",
  "strategy": "For apprehension, begin with presence, assessment and therapeutic communication.",
  "difficulty": "hard",
  "tags": [
@@ -116202,7 +116202,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "d",
- "rationale": "Loss of consciousness can impair bladder control and other protective functions; airway, skin and elimination require close assessment.\n\nWhy the other options fail:\n• A — Purposeful responses to command are absent in coma, which is the definition of the state.\n• C — Protective reflexes are commonly lost or impaired in coma, not preserved.\n• B — Independent ambulation is impossible in a comatose patient.",
+ "rationale": "CORRECT (D) — \"Urinary incontinence\". Loss of consciousness can impair bladder control and other protective functions; airway, skin and elimination require close assessment.\n\nWhy the other options fail:\n• A — Purposeful responses to command are absent in coma, which is the definition of the state.\n• C — Protective reflexes are commonly lost or impaired in coma, not preserved.\n• B — Independent ambulation is impossible in a comatose patient.",
  "strategy": "Coma affects protective and continence functions; prioritise ABCs and safety.",
  "difficulty": "hard",
  "tags": [
@@ -116234,7 +116234,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "b",
- "rationale": "Side-lying can support airway drainage and reduce aspiration risk in a patient with impaired consciousness; position is adjusted to neurological and airway findings.\n\nWhy the other options fail:\n• A — Prone positioning impairs ventilation and access to the airway in an acute stroke.\n• C — A flexed neck can obstruct the airway and impedes venous drainage from the head.\n• D — Trendelenburg raises intracranial pressure and is not used in acute stroke.",
+ "rationale": "CORRECT (B) — \"Lateral or side-lying with airway maintained\". Side-lying can support airway drainage and reduce aspiration risk in a patient with impaired consciousness; position is adjusted to neurological and airway findings.\n\nWhy the other options fail:\n• A — Prone positioning impairs ventilation and access to the airway in an acute stroke.\n• C — A flexed neck can obstruct the airway and impedes venous drainage from the head.\n• D — Trendelenburg raises intracranial pressure and is not used in acute stroke.",
  "strategy": "For reduced consciousness, protect the airway and allow secretions to drain.",
  "difficulty": "hard",
  "tags": [
@@ -116266,7 +116266,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "b",
- "rationale": "Dysphagia creates aspiration, malnutrition and dehydration risks. Swallow assessment, positioning and texture modification are central.\n\nWhy the other options fail:\n• A — Writing may be affected by hemiplegia but is not the immediate safety issue.\n• C — Hair grooming is a comfort measure, not an aspiration risk.\n• D — Visual acuity may be affected by a stroke but does not threaten the airway.",
+ "rationale": "CORRECT (B) — \"Swallowing and aspiration safety\". Dysphagia creates aspiration, malnutrition and dehydration risks. Swallow assessment, positioning and texture modification are central.\n\nWhy the other options fail:\n• A — Writing may be affected by hemiplegia but is not the immediate safety issue.\n• C — Hair grooming is a comfort measure, not an aspiration risk.\n• D — Visual acuity may be affected by a stroke but does not threaten the airway.",
  "strategy": "Link stroke dysphagia to airway protection and nutrition.",
  "difficulty": "hard",
  "tags": [
@@ -116282,7 +116282,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Blood pressure elevation"
+   "text": "Raising the blood pressure and the heart rate on the ward"
   },
   {
    "id": "b",
@@ -116298,7 +116298,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "c",
- "rationale": "Thiamine is essential for carbohydrate metabolism and neuronal function; niacin supports energy metabolism and nervous-system health.\n\nWhy the other options fail:\n• B — Bowel elimination is unrelated to thiamine and niacin.\n• A — These vitamins do not raise blood pressure; they support metabolism.\n• D — Bone lengthening is not a function of thiamine or niacin.",
+ "rationale": "CORRECT (C) — \"Neuronal and energy metabolism\". Thiamine is essential for carbohydrate metabolism and neuronal function; niacin supports energy metabolism and nervous-system health.\n\nWhy the other options fail:\n• B — Bowel elimination is unrelated to thiamine and niacin.\n• A — These vitamins do not raise blood pressure; they support metabolism.\n• D — Bone lengthening is not a function of thiamine or niacin.",
  "strategy": "Alcohol-related vitamin replacement protects neurological and metabolic function.",
  "difficulty": "hard",
  "tags": [
@@ -116330,7 +116330,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "c",
- "rationale": "Chronic alcohol use can cause malnutrition and liver injury. Adequate calories and vitamins support metabolism and recovery while withdrawal is treated.\n\nWhy the other options fail:\n• B — The diet is not aimed at the heart rate alone; it supports broad metabolic recovery.\n• A — Increasing alcohol tolerance is the opposite of the aim, and calories do not treat withdrawal.\n• D — The skin is not the target; the liver and metabolism are.",
+ "rationale": "CORRECT (C) — \"Liver and overall metabolic recovery\". Chronic alcohol use can cause malnutrition and liver injury. Adequate calories and vitamins support metabolism and recovery while withdrawal is treated.\n\nWhy the other options fail:\n• B — The diet is not aimed at the heart rate alone; it supports broad metabolic recovery.\n• A — Increasing alcohol tolerance is the opposite of the aim, and calories do not treat withdrawal.\n• D — The skin is not the target; the liver and metabolism are.",
  "strategy": "Nutrition in alcohol withdrawal addresses depleted stores and organ recovery, not alcohol tolerance.",
  "difficulty": "hard",
  "tags": [
@@ -116362,7 +116362,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "d",
- "rationale": "Selected chronic hepatitis B patients benefit from antiviral therapy that suppresses viral replication and reduces liver injury; monitoring and specialist assessment are required.\n\nWhy the other options fail:\n• A — Sedatives do not treat hepatitis B and can precipitate encephalopathy in liver disease.\n• B — Immune serum globulin is used for post-exposure prophylaxis, not to cure established chronic infection.\n• C — Vitamin supplements support nutrition but do not eliminate the virus.",
+ "rationale": "CORRECT (D) — \"Antiviral medicines may reduce viral replication and liver inflammation in selected cases\". Selected chronic hepatitis B patients benefit from antiviral therapy that suppresses viral replication and reduces liver injury; monitoring and specialist assessment are required.\n\nWhy the other options fail:\n• A — Sedatives do not treat hepatitis B and can precipitate encephalopathy in liver disease.\n• B — Immune serum globulin is used for post-exposure prophylaxis, not to cure established chronic infection.\n• C — Vitamin supplements support nutrition but do not eliminate the virus.",
  "strategy": "Distinguish supportive care and prophylaxis from antiviral treatment of established infection.",
  "difficulty": "hard",
  "tags": [
@@ -116390,11 +116390,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Use a gown but no hand hygiene"
+   "text": "Use a gown for the bedpan but no hand hygiene afterwards"
   }
  ],
  "correctChoiceId": "b",
- "rationale": "Hepatitis A spreads by the faecal–oral route. Gloves and thorough hand hygiene are required for contact with stool and contaminated items.\n\nWhy the other options fail:\n• A — Hepatitis A is transmitted by the faecal-oral route, so precautions are required.\n• C — An N95 respirator is for airborne infection; hepatitis A is not airborne.\n• D — A gown without hand hygiene leaves the hands contaminated, which is the main route of spread.",
+ "rationale": "CORRECT (B) — \"Use gloves and perform meticulous hand hygiene\". Hepatitis A spreads by the faecal–oral route. Gloves and thorough hand hygiene are required for contact with stool and contaminated items.\n\nWhy the other options fail:\n• A — Hepatitis A is transmitted by the faecal-oral route, so precautions are required.\n• C — An N95 respirator is for airborne infection; hepatitis A is not airborne.\n• D — A gown without hand hygiene leaves the hands contaminated, which is the main route of spread.",
  "strategy": "Match hepatitis A precautions to faecal–oral transmission.",
  "difficulty": "hard",
  "tags": [
@@ -116426,7 +116426,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "a",
- "rationale": "Pancytopenia is reduction in red cells, white cells and platelets, producing risks of fatigue, infection and bleeding.\n\nWhy the other options fail:\n• B — Thrombocytopenia with hyperglycaemia is not pancytopenia; pancytopenia affects all three cell lines.\n• C — Anaemia with hypoxia describes low oxygen carrying capacity, not loss of all three lines.\n• D — Leukocytosis and thrombocytosis are increases, which is the opposite of pancytopenia.",
+ "rationale": "CORRECT (A) — \"Anaemia, leukopenia and thrombocytopenia\". Pancytopenia is reduction in red cells, white cells and platelets, producing risks of fatigue, infection and bleeding.\n\nWhy the other options fail:\n• B — Thrombocytopenia with hyperglycaemia is not pancytopenia; pancytopenia affects all three cell lines.\n• C — Anaemia with hypoxia describes low oxygen carrying capacity, not loss of all three lines.\n• D — Leukocytosis and thrombocytosis are increases, which is the opposite of pancytopenia.",
  "strategy": "Break the term into all three blood-cell lines.",
  "difficulty": "hard",
  "tags": [
@@ -116446,7 +116446,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Withholding platelets until active bleeding begins"
+   "text": "Withholding platelets until active bleeding has begun and the count has fallen further"
   },
   {
    "id": "c",
@@ -116458,7 +116458,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "a",
- "rationale": "A count below about 10 × 10⁹/L carries a substantial risk of spontaneous haemorrhage, particularly intracranially, so prophylactic platelets are usually given at this level even without bleeding. Option B waits for a bleed that may be catastrophic and irreversible. Option C is the opposite of what is needed and would worsen platelet function. Option D replaces the wrong cell line: red cells correct anaemia, not thrombocytopenia.",
+ "rationale": "CORRECT (A) — \"A prophylactic platelet transfusion, given the count is below the usual threshold\". A platelet count of 8 x 10^9/L is below the prophylactic threshold of 10 x 10^9/L used for patients who are not bleeding, and in acute leukaemia the marrow is not going to correct it on its own. The aim is to prevent a spontaneous haemorrhage, particularly an intracranial one, rather than to wait for bleeding to start. The nurse checks for active bleeding, avoids intramuscular injections and rectal temperatures, uses a soft toothbrush, and gives the prescribed platelets promptly because they are stored at room temperature and have a short shelf life. Why the other options fail: option b — waiting for active bleeding is exactly what prophylaxis exists to prevent, and a bleed at this count can be catastrophic; option c — aspirin blocks platelet function and would make bleeding worse, which is the opposite of what a count of 8 x 10^9/L needs; option d — a red cell transfusion treats anaemia and does nothing for the platelet count or the bleeding risk. Reference: BSH — platelet transfusion guidelines; Ghana STP — haematological emergencies",
  "strategy": "Platelets below 10 usually get transfused before bleeding starts. Red cells do not fix a platelet problem.",
  "difficulty": "hard",
  "tags": [
@@ -116490,7 +116490,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "b",
- "rationale": "The Schilling test historically assessed vitamin B12 absorption and helped investigate pernicious anaemia; it is now largely replaced by other tests.\n\nWhy the other options fail:\n• A — Iron deficiency is investigated with ferritin and iron studies, not the Schilling test.\n• C — Haemorrhagic anaemia is diagnosed by history and blood counts.\n• D — Haemolysis is investigated with reticulocytes, bilirubin and haptoglobin.",
+ "rationale": "CORRECT (B) — \"Pernicious anaemia and vitamin B12 absorption\". The Schilling test historically assessed vitamin B12 absorption and helped investigate pernicious anaemia; it is now largely replaced by other tests.\n\nWhy the other options fail:\n• A — Iron deficiency is investigated with ferritin and iron studies, not the Schilling test.\n• C — Haemorrhagic anaemia is diagnosed by history and blood counts.\n• D — Haemolysis is investigated with reticulocytes, bilirubin and haptoglobin.",
  "strategy": "Link B12 malabsorption and intrinsic-factor deficiency with pernicious anaemia.",
  "difficulty": "hard",
  "tags": [
@@ -116502,27 +116502,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-MIX-0016",
  "categorySlug": "med-surg",
- "stem": "A boy with haemophilia B has a swollen, painful knee after a minor fall. Which treatment should the nurse anticipate?",
+ "stem": "A patient with von Willebrand disease needs a dental extraction. Which treatment should the nurse anticipate?",
  "choices": [
   {
    "id": "a",
-   "text": "Factor IX concentrate as prescribed, with analgesia and rest of the joint"
+   "text": "Aspirin before the procedure to reduce the risk of clot formation"
   },
   {
    "id": "b",
-   "text": "Intramuscular aspirin for the pain"
+   "text": "Fresh frozen plasma alone, given the day after the extraction"
   },
   {
    "id": "c",
-   "text": "Factor VIII concentrate as prescribed"
+   "text": "Platelet transfusion, because the platelet count is usually low in this condition"
   },
   {
    "id": "d",
-   "text": "Vigorous joint manipulation to restore full movement"
+   "text": "Desmopressin, with von Willebrand factor concentrate as a reserve"
   }
  ],
- "correctChoiceId": "a",
- "rationale": "Haemophilia B, also called Christmas disease, is factor IX deficiency, so the missing factor is replaced with factor IX concentrate as early as possible, with analgesia and rest of the joint while the bleeding settles. Option B is dangerous, because aspirin inhibits platelets and intramuscular injection causes further bleeding into the muscle. Option C replaces the factor missing in haemophilia A, not B. Option D would provoke further bleeding into the joint. The nurse should also avoid intramuscular injections and give vaccines subcutaneously.",
+ "correctChoiceId": "d",
+ "rationale": "CORRECT (D) — \"Desmopressin, with von Willebrand factor concentrate as a reserve\". Most patients with type 1 von Willebrand disease have a functioning but insufficient store of factor, and desmopressin releases it from the endothelial cells, raising both von Willebrand factor and factor VIII within about an hour. It is given before the extraction, with tranexamic acid to hold the clot in the mouth, and a von Willebrand factor-containing concentrate is kept for type 2 and 3 disease or for anyone who does not respond. The nurse checks the haematology plan, gives the prescribed dose on time and watches the socket for oozing. Why the other options fail: option a — aspirin irreversibly blocks platelet cyclo-oxygenase and would make the bleeding worse, so it is avoided around dental surgery in a bleeding disorder; option b — fresh frozen plasma contains von Willebrand factor but not in the concentration needed, and giving it after the procedure is too late; option c — the platelet count in von Willebrand disease is usually normal, because the defect is in platelet adhesion rather than in platelet numbers. Reference: UKHCDO — von Willebrand disease; Ghana STP — bleeding disorders",
  "strategy": "Haemophilia B is Christmas disease, factor IX. Haemophilia A is factor VIII.",
  "difficulty": "hard",
  "tags": [
@@ -116554,7 +116554,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "b",
- "rationale": "Vitamin B12 deficiency can damage posterior and lateral spinal columns and peripheral nerves, producing proprioceptive loss and ataxia.\n\nWhy the other options fail:\n• A — Skeletal tissue damage does not cause ataxia; the problem is neurological.\n• C — Glandular tissue is not the site of the damage behind subacute combined degeneration.\n• D — Adipose tissue has no role in the neurological damage of B12 deficiency.",
+ "rationale": "CORRECT (B) — \"Nervous tissue\". Vitamin B12 deficiency can damage posterior and lateral spinal columns and peripheral nerves, producing proprioceptive loss and ataxia.\n\nWhy the other options fail:\n• A — Skeletal tissue damage does not cause ataxia; the problem is neurological.\n• C — Glandular tissue is not the site of the damage behind subacute combined degeneration.\n• D — Adipose tissue has no role in the neurological damage of B12 deficiency.",
  "strategy": "Neurological signs in B12 deficiency reflect nervous-system injury, not muscle weakness alone.",
  "difficulty": "hard",
  "tags": [
@@ -116574,7 +116574,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Slow the transfusion and reassess in thirty minutes"
+   "text": "Slow the transfusion and reassess the temperature in thirty minutes before deciding"
   },
   {
    "id": "c",
@@ -116586,7 +116586,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "a",
- "rationale": "A fever with chills during transfusion may be a mild febrile non-haemolytic reaction, but it may equally be the first sign of haemolysis or sepsis, and the two cannot be told apart at the bedside. The transfusion is stopped, the line kept open with saline, observations repeated, and the reaction reported so that the unit and the patient can be investigated. Option B continues an infusion that may be the cause. Option C masks the fever that is the warning. Option D is dangerous in any suspected reaction.",
+ "rationale": "CORRECT (A) — \"Stop the transfusion and assess, then report for review before restarting\". A temperature of 38.4 degrees Celsius with chills during a transfusion is a febrile non-haemolytic reaction until proved otherwise, and the safe sequence is always to stop the infusion, keep the line open with saline through a separate giving set, assess the patient and report. The blood bank and the prescriber then decide whether this is a benign febrile reaction that can be covered and restarted or the start of a haemolytic reaction; the unit and the giving set are kept for investigation. The absence of back pain, dark urine and hypotension is reassuring but does not by itself prove the reaction is benign. Why the other options fail: option b — slowing the transfusion leaves a possible haemolytic reaction running while the patient deteriorates; option c — paracetamol masks the fever that is the warning sign and continues the infusion that may be causing it; option d — increasing the rate would deliver more of a possibly incompatible unit more quickly. Reference: BSH — administration of blood components; Ghana NBTS — transfusion reactions",
  "strategy": "Any new fever during transfusion: stop, keep the line open, assess, report. Diagnose afterwards.",
  "difficulty": "hard",
  "tags": [
@@ -116618,7 +116618,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "d",
- "rationale": "Platelets are essential for primary haemostasis; low counts increase bruising, petechiae and mucosal or serious bleeding.\n\nWhy the other options fail:\n• A — Infection risk rises with low white cells, not low platelets.\n• B — Somnolence is not a consequence of thrombocytopenia.\n• C — Anaemia follows low haemoglobin, which is a separate cell line.",
+ "rationale": "CORRECT (D) — \"Bleeding\". Platelets are essential for primary haemostasis; low counts increase bruising, petechiae and mucosal or serious bleeding.\n\nWhy the other options fail:\n• A — Infection risk rises with low white cells, not low platelets.\n• B — Somnolence is not a consequence of thrombocytopenia.\n• C — Anaemia follows low haemoglobin, which is a separate cell line.",
  "strategy": "Platelets protect against bleeding, not infection.",
  "difficulty": "hard",
  "tags": [
@@ -116638,7 +116638,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Iron deficiency, because stores are exhausted"
+   "text": "Iron deficiency, because the iron stores have been exhausted over several months"
   },
   {
    "id": "c",
@@ -116650,7 +116650,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "a",
- "rationale": "Raised lactate dehydrogenase and low haptoglobin are the signature of red cell destruction: LDH escapes from lysed cells, and haptoglobin is consumed binding the freed haemoglobin. A high reticulocyte count shows the marrow responding to the loss, which itself excludes marrow failure. Option B gives a low reticulocyte count with normal haptoglobin. Option C lowers the reticulocyte count only after some days and does not consume haptoglobin. Option D produces a low reticulocyte count.",
+ "rationale": "CORRECT (A) — \"Haemolysis, because red cells are being destroyed and replaced\". A high reticulocyte count says the marrow is responding, a raised lactate dehydrogenase is released from broken red cells, and a low haptoglobin means the free haemoglobin has been bound and cleared, so the triad together points to a destructive anaemia with a healthy marrow. The nurse looks for the cause — a drug, a transfusion reaction, a mechanical valve, malaria or a microangiopathy — and monitors the haemoglobin, the urine colour and the bilirubin. Why the other options fail: option b — iron deficiency produces a low reticulocyte count, because the marrow lacks the raw material to respond, and haptoglobin is normal; option c — acute blood loss that has stopped raises the reticulocyte count but does not raise the lactate dehydrogenase or lower the haptoglobin; option d — marrow failure gives a low reticulocyte count, which is the opposite of the finding here. Reference: BSH — investigation of anaemia; Ghana STP — anaemia",
  "strategy": "High reticulocytes, high LDH and low haptoglobin together mean haemolysis.",
  "difficulty": "hard",
  "tags": [
