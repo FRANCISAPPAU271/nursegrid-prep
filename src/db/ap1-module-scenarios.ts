@@ -462,20 +462,20 @@ export const AP1_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "The corneum retains living nuclei and divides to replace cells lost from the basal layer",
+        text: "The corneum retains living nuclei throughout and divides repeatedly to replace the cells lost from the basal layer",
       },
       {
         id: "c",
-        text: "Keratinocytes are produced by the dermal collagen and migrate inward toward the subcutaneous fat",
+        text: "Keratinocytes are produced by the dermal collagen and migrate inward, away from the surface, toward the subcutaneous fat",
       },
       {
         id: "d",
-        text: "The basal layer contains melanocytes but no dividing cells, so the epidermis is renewed from the dermis",
+        text: "The basal layer contains melanocytes but no dividing cells at all, so the epidermis has to be renewed from the dermis beneath it",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "a",
     rationale:
-      "The epidermis is a keratinized stratified squamous epithelium organized into 5 layers (from deep to superficial: Stratum Basale, Spinosum, Granulosum, Lucidum [thick skin only], and Corneum). The Stratum Basale contains single-layered stem cells undergoing active mitosis. As daughter keratinocytes are pushed superficially, they synthesize keratin intermediate filaments, produce keratohyalin and lamellar lipid granules in the granulosum (providing a hydrophobic water barrier), lose their nuclei and organelles, and flatten into the Stratum Corneum—a tough, horn-like layer of 15–30 sheets of dead keratin-packed squames that desquamates continuously (taking roughly 28–40 days from birth to shed). Why the other options fail: option a puts living dividing cells in the corneum, which is dead. Option c moves keratinocyte production to the dermis and reverses the direction of migration. Option d denies the dividing stem cells and melanocytes that the basal layer contains.",
+      "CORRECT (A) — \"Stem cells in the basal layer divide and migrate upward, keratinise and die to form the dead, anucleate stratum corneum\". The epidermis is a keratinized stratified squamous epithelium organized into 5 layers (from deep to superficial: Stratum Basale, Spinosum, Granulosum, Lucidum [thick skin only], and Corneum). The Stratum Basale contains single-layered stem cells undergoing active mitosis. As daughter keratinocytes are pushed superficially, they synthesize keratin intermediate filaments, produce keratohyalin and lamellar lipid granules in the granulosum (providing a hydrophobic water barrier), lose their nuclei and organelles, and flatten into the Stratum Corneum—a tough, horn-like layer of 15–30 sheets of dead keratin-packed squames that desquamates continuously (taking roughly 28–40 days from birth to shed). Why the other options fail: option b reverses the direction of the whole process, because the corneum is the dead end of the journey — its cells have lost their nuclei and cannot divide, so it cannot replace what the basal layer loses. Option c puts keratinocyte production in the dermal collagen and sends the cells inward toward the fat, which inverts both the source and the direction of migration. Option d denies the one thing the basal layer is for, since it is a single layer of dividing stem cells, and it does contain melanocytes alongside them.",
     strategy: "Epidermal layers (deep to superficial): Basale (mitosis/stem cells) -> Spinosum -> Granulosum -> Lucidum -> Corneum (dead keratinized protective barrier).",
     difficulty: "easy",
     tags: ["anatomy-physiology", "epidermal-layers", "stratum-basale", "stratum-corneum", "keratinocytes"],
@@ -503,9 +503,9 @@ export const AP1_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Eccrine glands secrete a hypertonic fluid that cools the skin by conduction rather than evaporation",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "The preoptic anterior hypothalamus functions as the body's primary thermoregulatory thermostat. When core temperature rises above the set point, hypothalamic autonomic signaling initiates two primary heat-loss mechanisms: 1) CUTANEOUS VASODILATION: Dermal precapillary sphincters relax, redirecting warm blood from the body core to superficial subpapillary dermal capillary loops, allowing heat to radiate, conduct, and convect into the cooler ambient environment; 2) ECCRINE SWEAT GLAND ACTIVATION: Cholinergic sympathetic nerves stimulate eccrine glands across the body to secrete watery sweat, which absorbs thermal energy (latent heat of vaporization) as it evaporates from the skin. Why the other options fail: option a constricts the skin vessels and raises the hairs, which conserves heat rather than losing it. Option b suppresses sweating and sends blood to the viscera, which is the cold response. Option d has sweat cooling by conduction and being hypertonic, when sweat is hypotonic and cools by evaporation.",
+      "CORRECT (C) — \"Cutaneous vasodilation increases skin blood flow and eccrine sweating drives evaporative cooling\". The preoptic anterior hypothalamus functions as the body's primary thermoregulatory thermostat. When core temperature rises above the set point, hypothalamic autonomic signaling initiates two primary heat-loss mechanisms: 1) CUTANEOUS VASODILATION: Dermal precapillary sphincters relax, redirecting warm blood from the body core to superficial subpapillary dermal capillary loops, allowing heat to radiate, conduct, and convect into the cooler ambient environment; 2) ECCRINE SWEAT GLAND ACTIVATION: Cholinergic sympathetic nerves stimulate eccrine glands across the body to secrete watery sweat, which absorbs thermal energy (latent heat of vaporization) as it evaporates from the skin. Why the other options fail: option a constricts the skin vessels and raises the hairs, which conserves heat rather than losing it. Option b suppresses sweating and sends blood to the viscera, which is the cold response. Option d has sweat cooling by conduction and being hypertonic, when sweat is hypotonic and cools by evaporation.",
     strategy: "Thermoregulation in heat: Hypothalamus triggers cutaneous vasodilation (radiates heat) and eccrine sweating (evaporative cooling).",
     difficulty: "easy",
     tags: ["anatomy-physiology", "thermoregulation", "cutaneous-vasodilation", "eccrine-sweating", "hypothalamus"],
@@ -522,7 +522,7 @@ export const AP1_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Destruction of the epidermis and the upper dermis only, with pain preserved because the nerve endings remain",
+        text: "Destruction of the epidermis and the upper dermis only, with pain preserved because the dermal nerve endings remain intact and exposed",
       },
       {
         id: "c",
@@ -533,9 +533,9 @@ export const AP1_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Destruction of the dermis and subcutaneous fat, with the epidermis spared and the surface blistered",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "Full-thickness (third-degree) burns extend completely through the epidermis and the entire thickness of the dermis, often extending into the underlying hypodermis (subcutaneous tissue). Because all dermal appendages—including the dermal capillary plexus and sensory nerve endings (nociceptors, Meissner's, Merkel's, and free nerve terminals)—are completely incinerated, the wound appears leathery, waxy white, brown, or charred (eschar) and is completely insensitive to light touch and pinprick (anesthetic). However, peripheral zones of partial-thickness burn surrounding the wound remain intensely painful. Why the other options fail: Epidermis and upper dermis only is a partial-thickness burn with pain preserved; epidermis alone is superficial and stays moist and painful; dermis and fat with the epidermis spared and a blistered surface is not a leathery insensate eschar.",
+      "CORRECT (A) — \"Full-thickness loss of the epidermis and dermis, including nerves and appendages, leaving a leathery insensate eschar\". Full-thickness (third-degree) burns extend completely through the epidermis and the entire thickness of the dermis, often extending into the underlying hypodermis (subcutaneous tissue). Because all dermal appendages—including the dermal capillary plexus and sensory nerve endings (nociceptors, Meissner's, Merkel's, and free nerve terminals)—are completely incinerated, the wound appears leathery, waxy white, brown, or charred (eschar) and is completely insensitive to light touch and pinprick (anesthetic). However, peripheral zones of partial-thickness burn surrounding the wound remain intensely painful. Why the other options fail: Epidermis and upper dermis only is a partial-thickness burn with pain preserved; epidermis alone is superficial and stays moist and painful; dermis and fat with the epidermis spared and a blistered surface is not a leathery insensate eschar.",
     strategy: "Burn depth anatomy: Full-thickness (3rd degree) destroys epidermis AND dermis, incinerating sensory nerve endings, making the core eschar painless and dry/leathery.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "burn-depth", "full-thickness-burn", "dermis-destruction", "sensory-receptors"],
@@ -544,28 +544,28 @@ export const AP1_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-AP1-019",
     categorySlug: "risk-reduction",
-    stem: "A 22-year-old trauma client who sustained a closed, displaced femur fracture 36 hours ago suddenly develops acute dyspnea, confusion, agitation, tachypnea, and an SpO2 of 82%. On physical examination, the nurse notes a classic petechial rash across the anterior neck, axillae, and conjunctivae. What pathophysiological syndrome has occurred?",
+    stem: "A 54-year-old man with alcoholic cirrhosis has a distended abdomen, dilated veins over the anterior abdominal wall and a serum albumin of 24 g/L. Which sequence explains why fluid accumulates in the peritoneal cavity?",
     choices: [
       {
         id: "a",
-        text: "Acute respiratory distress syndrome from the trauma itself, which gives bilateral infiltrates without petechiae",
+        text: "The failing liver excretes sodium into the peritoneum faster than the kidneys can clear it, so water follows the sodium into the abdomen",
       },
       {
         id: "b",
-        text: "Fat embolism syndrome: marrow fat enters torn venous sinusoids, lodges in the pulmonary capillaries and causes petechiae",
+        text: "Portal pressure falls below normal, so blood is drawn out of the splanchnic circulation and filters through the bowel wall into the peritoneal cavity as a transudate",
       },
       {
         id: "c",
-        text: "Pulmonary embolism from a deep vein thrombosis, which gives dyspnoea and hypoxia but no petechial rash",
+        text: "Albumin rises in portal hypertension and pulls fluid from the blood into the abdomen by raising the oncotic gradient across the peritoneum",
       },
       {
         id: "d",
-        text: "Sepsis from osteomyelitis at the fracture site, which gives fever and hypotension but not the rash",
+        text: "Portal hypertension raises capillary hydrostatic pressure, and the failing liver makes too little albumin, so less oncotic pressure holds fluid in the vessels",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "d",
     rationale:
-      "Fat Embolism Syndrome (FES) is a life-threatening systemic complication occurring 24 to 72 hours following closed fractures of major long bones (especially the femur or tibia) or pelvic crush trauma. Disrupted bone marrow adipose tissue and medullary venous sinusoids allow fat globules to enter the systemic venous circulation. These fat emboli occlude pulmonary microvascular capillaries, triggering lipolysis into toxic free fatty acids that induce diffuse alveolar endothelial injury, acute lung injury (ARDS), ventilation-perfusion mismatch (severe hypoxemia), cerebral microvascular occlusion (confusion, altered mental status), and thrombocytopenic microvascular fragility (pathognomonic non-palpable petechiae over the neck, axilla, and chest). Why the other options fail: ARDS from the trauma gives bilateral infiltrates without petechiae; pulmonary embolism from a deep vein thrombosis gives dyspnoea and hypoxia without a rash; osteomyelitis sepsis gives fever and hypotension without the petechiae that appear with the confusion.",
+      "CORRECT (D) — \"Portal hypertension raises capillary hydrostatic pressure, and the failing liver makes too little albumin, so less oncotic pressure holds fluid in the vessels\". Ascites in cirrhosis is Starling's law written across the splanchnic bed, and it takes both halves of the equation. Cirrhosis raises resistance in the liver, so portal venous pressure climbs and the hydrostatic pressure in the splanchnic capillaries pushes fluid out. At the same time the failing liver synthesises less albumin, so the plasma oncotic pressure that would normally hold fluid inside the vessel is weaker. Fluid leaves the capillaries into the peritoneal cavity, and the effective circulating volume falls, which switches on renin, angiotensin and aldosterone and makes the kidneys hold sodium and water — which is why a patient with ascites is also the patient who must be on a sodium restriction. Why the other options fail: option a reverses the direction, because the kidney is retaining sodium rather than the liver excreting it, and nothing is excreted into the peritoneum. Option b drops the portal pressure when the whole process is a rise in it, and blood does not filter through the bowel wall into the abdomen. Option c has albumin rising when the finding in the stem is a low albumin of 24 g/L. Reference: WHO — cirrhosis; Ghana STG — ascites",
     strategy: "Trauma complication: Femur fracture + Acute hypoxia + Neurological confusion + Axillary petechial rash = Fat Embolism Syndrome.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "fat-embolism-syndrome", "femur-fracture", "pulmonary-emboli", "clinical-correlation"],
@@ -593,9 +593,9 @@ export const AP1_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "The obstruction reverses peristalsis, so the bowel empties proximally and the abdomen becomes silent",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "In mechanical small bowel obstruction (e.g., from postoperative adhesions or incarcerated hernias), physical blockage prevents the distal progression of chyme. Proximally, the smooth muscle layers (muscularis externa: circular and longitudinal fibers) mount vigorous hyper-peristaltic contractions to overcome the resistance, manifesting early as high-pitched, metallic 'tinkling' sounds and audible peristaltic rushes. Proximal intraluminal accumulation of swallowed air and digestive secretions (7–8 L/day of saliva, gastric juice, bile, and pancreatic fluids) increases wall tension, compresses venous drainage, causes bowel wall edema, and sequesters massive fluid into the third space, leading to hypovolemic shock and electrolyte collapse. Why the other options fail: An atonic bowel above the block reverses the findings, because the bowel above is hyperactive and the bowel below is quiet; sounds of increased secretion misread peristalsis; reversed peristalsis with a silent abdomen is not the high-pitched rush of mechanical obstruction.",
+      "CORRECT (C) — \"Proximal muscle contracts against the block while distal bowel is quiet, and fluid is lost into the lumen\". In mechanical small bowel obstruction (e.g., from postoperative adhesions or incarcerated hernias), physical blockage prevents the distal progression of chyme. Proximally, the smooth muscle layers (muscularis externa: circular and longitudinal fibers) mount vigorous hyper-peristaltic contractions to overcome the resistance, manifesting early as high-pitched, metallic 'tinkling' sounds and audible peristaltic rushes. Proximal intraluminal accumulation of swallowed air and digestive secretions (7–8 L/day of saliva, gastric juice, bile, and pancreatic fluids) increases wall tension, compresses venous drainage, causes bowel wall edema, and sequesters massive fluid into the third space, leading to hypovolemic shock and electrolyte collapse. Why the other options fail: An atonic bowel above the block reverses the findings, because the bowel above is hyperactive and the bowel below is quiet; sounds of increased secretion misread peristalsis; reversed peristalsis with a silent abdomen is not the high-pitched rush of mechanical obstruction.",
     strategy: "GI obstruction: Muscularis externa contracts vigorously against obstruction -> high-pitched tinkling sounds proximal to obstruction -> intraluminal third-spacing and hypovolemia.",
     difficulty: "medium",
     tags: ["anatomy-physiology", "bowel-obstruction", "muscularis-externa", "peristalsis", "third-spacing"],

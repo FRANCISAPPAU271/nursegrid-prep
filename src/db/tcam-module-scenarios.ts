@@ -98,7 +98,7 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Deep vein thrombosis of the calf; keep the limb elevated above the level of the heart and start anticoagulation with low-molecular-weight heparin",
+        text: "Deep vein thrombosis of the calf; keep the limb elevated above the level of the heart and start anticoagulation with low-molecular-weight heparin without delay",
       },
       {
         id: "b",
@@ -113,9 +113,9 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Delayed union of the tibial shaft; continue immobilisation in the same splint and arrange orthopaedic clinic review in six weeks",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "Traditional bonesetter gangrene (TBS gangrene) and acute compartment syndrome are well-documented severe pediatric surgical complications in Sub-Saharan Africa. Overly tight, unyielding traditional bamboo or wooden splints encasing an acutely fractured, swelling limb elevate intracompartmental pressures above capillary perfusion pressure. This causes ischemia, nerve necrosis, and muscle infarction (the 6 P's: Pain out of proportion, Pressure/tense calf, Paresthesia, Pallor, Paralysis, Pulselessness). The nurse must immediately cut off constricting splints, notify the orthopedic surgeon, and prepare for emergent surgical fasciotomy to prevent amputation. Why the other options fail: DVT does not render a limb pulseless and anticoagulation would not relieve compartment pressure; cellulitis does not cause pulselessness; and delayed union is a late radiographic finding, not an acute limb-threatening event.",
+      "CORRECT (B) — \"Acute compartment syndrome secondary to constrictive traditional splinting, requiring immediate splint removal and emergency orthopedic surgical fasciotomy\". Traditional bonesetter gangrene (TBS gangrene) and acute compartment syndrome are well-documented severe pediatric surgical complications in Sub-Saharan Africa. Overly tight, unyielding traditional bamboo or wooden splints encasing an acutely fractured, swelling limb elevate intracompartmental pressures above capillary perfusion pressure. This causes ischemia, nerve necrosis, and muscle infarction (the 6 P's: Pain out of proportion, Pressure/tense calf, Paresthesia, Pallor, Paralysis, Pulselessness). The nurse must immediately cut off constricting splints, notify the orthopedic surgeon, and prepare for emergent surgical fasciotomy to prevent amputation. Why the other options fail: DVT does not render a limb pulseless and anticoagulation would not relieve compartment pressure; cellulitis does not cause pulselessness; and delayed union is a late radiographic finding, not an acute limb-threatening event.",
     strategy: "Traditional bonesetter injury: Tight wooden splints on fractures cause Acute Compartment Syndrome (the 6 P's). Cut off splints immediately and prepare for emergency fasciotomy.",
     difficulty: "medium",
     tags: ["tcam", "traditional-bonesetter", "compartment-syndrome", "tbs-gangrene", "surgical-emergency"],
@@ -188,7 +188,7 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "St John's Wort is a potent inhibitor of hepatic CYP3A4 and raises dolutegravir concentrations, risking central nervous system toxicity, insomnia and abnormal dreams within the first fortnight",
+        text: "St John's Wort is a potent inhibitor of hepatic CYP3A4 and raises dolutegravir concentrations, risking central nervous system toxicity, insomnia and abnormal dreams within the first fortnight of use as the concentration accumulates",
       },
       {
         id: "b",
@@ -203,9 +203,9 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "St John's Wort is a potent inducer of CYP3A4 and intestinal P-glycoprotein, accelerating antiretroviral metabolism, lowering plasma concentrations, and leading to treatment failure and viral drug resistance",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "St. John's Wort (*Hypericum perforatum*) is a classic, high-yield NCLEX herb-drug interaction. It is a powerful inducer of hepatic CYP3A4 enzymes and P-glycoprotein (efflux transporter). Co-administration significantly lowers the serum concentration of drugs metabolized by CYP3A4—including antiretrovirals (protease inhibitors, NNRTIs, integrase inhibitors), oral contraceptives (causing unintended pregnancy), cyclosporine/tacrolimus (causing organ transplant rejection), and warfarin. It also causes serotonin syndrome when combined with SSRIs. St. John's Wort does not cure HIV and has extensive interactions. Why the other options fail: St John's Wort induces rather than inhibits CYP3A4, so concentrations fall; it is not pharmacokineticially inert; and the interaction is enzyme induction, not gut chelation, so separating doses does not correct it.",
+      "CORRECT (D) — \"St John's Wort is a potent inducer of CYP3A4 and intestinal P-glycoprotein, accelerating antiretroviral metabolism, lowering plasma concentrations, and leading to treatment failure and viral drug resistance\". St. John's Wort (*Hypericum perforatum*) is a classic, high-yield NCLEX herb-drug interaction. It is a powerful inducer of hepatic CYP3A4 enzymes and P-glycoprotein (efflux transporter). Co-administration significantly lowers the serum concentration of drugs metabolized by CYP3A4—including antiretrovirals (protease inhibitors, NNRTIs, integrase inhibitors), oral contraceptives (causing unintended pregnancy), cyclosporine/tacrolimus (causing organ transplant rejection), and warfarin. It also causes serotonin syndrome when combined with SSRIs. St. John's Wort does not cure HIV and has extensive interactions. Why the other options fail: St John's Wort induces rather than inhibits CYP3A4, so concentrations fall; it is not pharmacokineticially inert; and the interaction is enzyme induction, not gut chelation, so separating doses does not correct it.",
     strategy: "High-yield NCLEX interaction: St. John's Wort INDUCES CYP3A4 and P-glycoprotein, dropping blood levels of antiretrovirals, birth control, and immunosuppressants.",
     difficulty: "medium",
     tags: ["tcam", "st-johns-wort", "cyp3a4-induction", "antiretrovirals", "herb-drug-interactions"],
@@ -248,7 +248,7 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Chronic interstitial nephritis that carries no malignant potential once the offending tea is stopped and renal function is supported",
+        text: "Chronic interstitial nephritis that carries no malignant potential once the offending tea is stopped and renal function is supported with fluids and blood pressure control",
       },
       {
         id: "b",
@@ -263,9 +263,9 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Aristolochic Acid Nephropathy (fibrosing interstitial nephritis) leading to end-stage renal disease, alongside a high risk of upper urothelial tract carcinoma",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "Aristolochic acid (found in plants of the *Aristolochia* genus, often used in traditional slimming teas and rheumatic remedies) is a potent nephrotoxin and human carcinogen. It causes Aristolochic Acid Nephropathy (previously known as Chinese Herb Nephropathy or Balkan Endemic Nephropathy), characterized by extensive renal interstitial fibrosis, tubular atrophy without glomerular lesions, and rapid progression to end-stage renal disease (ESRD). Crucially, aristolochic acid forms DNA adducts that induce high rates of upper urinary tract urothelial carcinoma. It does not cause reversible pancreatitis or cardiomyopathy. Why the other options fail: aristolochic acid nephropathy is fibrosing and irreversible with a documented urothelial cancer risk; it is not acute tubular necrosis that recovers; and it is not a podocytopathy with preserved filtration.",
+      "CORRECT (D) — \"Aristolochic Acid Nephropathy (fibrosing interstitial nephritis) leading to end-stage renal disease, alongside a high risk of upper urothelial tract carcinoma\". Aristolochic acid (found in plants of the *Aristolochia* genus, often used in traditional slimming teas and rheumatic remedies) is a potent nephrotoxin and human carcinogen. It causes Aristolochic Acid Nephropathy (previously known as Chinese Herb Nephropathy or Balkan Endemic Nephropathy), characterized by extensive renal interstitial fibrosis, tubular atrophy without glomerular lesions, and rapid progression to end-stage renal disease (ESRD). Crucially, aristolochic acid forms DNA adducts that induce high rates of upper urinary tract urothelial carcinoma. It does not cause reversible pancreatitis or cardiomyopathy. Why the other options fail: aristolochic acid nephropathy is fibrosing and irreversible with a documented urothelial cancer risk; it is not acute tubular necrosis that recovers; and it is not a podocytopathy with preserved filtration.",
     strategy: "Herbal toxicity: Aristolochic acid (*Aristolochia*) is severely nephrotoxic, causing irreversible fibrosing interstitial nephritis and urothelial carcinoma.",
     difficulty: "hard",
     tags: ["tcam", "aristolochic-acid", "nephrotoxicity", "renal-failure", "urothelial-carcinoma"],
@@ -368,7 +368,7 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Chronic venous insufficiency with long-standing ankle oedema and brown skin staining of the lower leg",
+        text: "Chronic venous insufficiency with long-standing ankle oedema and brown skin staining of the lower leg, which makes the tissue fragile over the shin",
       },
       {
         id: "b",
@@ -383,9 +383,9 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Type 2 diabetes with symmetrical peripheral neuropathy and reduced sensation in both feet",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "Therapeutic massage and manual soft tissue therapies are contraindicated in acute Deep Vein Thrombosis (DVT), thrombophlebitis, local burns, infected wounds, and severe bleeding disorders. Massaging an extremity harboring an acute venous thrombus exerts mechanical shearing forces that dislodge the clot into systemic venous circulation, causing acute pulmonary embolism, cardiovascular collapse, and sudden death. Tension headaches, anxiety, and mild soreness are classic clinical indications for relaxation massage. Why the other options fail: venous insufficiency, osteoarthritis and diabetic neuropathy are relative cautions at most, and massage is commonly used for each; only an active thrombus carries the dislodgement risk that makes massage absolute.",
+      "CORRECT (B) — \"Active DVT in the affected limb, due to the risk of dislodging the thrombus and causing a fatal pulmonary embolism\". Therapeutic massage and manual soft tissue therapies are contraindicated in acute Deep Vein Thrombosis (DVT), thrombophlebitis, local burns, infected wounds, and severe bleeding disorders. Massaging an extremity harboring an acute venous thrombus exerts mechanical shearing forces that dislodge the clot into systemic venous circulation, causing acute pulmonary embolism, cardiovascular collapse, and sudden death. Tension headaches, anxiety, and mild soreness are classic clinical indications for relaxation massage. Why the other options fail: venous insufficiency, osteoarthritis and diabetic neuropathy are relative cautions at most, and massage is commonly used for each; only an active thrombus carries the dislodgement risk that makes massage absolute.",
     strategy: "Massage contraindications: NEVER massage an extremity with suspected or diagnosed DVT—mechanical friction dislodges the clot into a fatal pulmonary embolism.",
     difficulty: "easy",
     tags: ["tcam", "therapeutic-massage", "dvt-contraindication", "pulmonary-embolism", "patient-safety"],
@@ -406,16 +406,16 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Marked parasympathetic excess with a heart rate below 50 beats/min, hypotension and dizziness needing intravenous fluids",
+        text: "Marked parasympathetic excess with a heart rate below 50 beats/min, hypotension and dizziness needing intravenous fluids to restore the blood pressure",
       },
       {
         id: "d",
         text: "Decreased sympathetic nervous system output, reduced heart rate and respiratory rate, lowered blood pressure, and decreased peripheral muscle tension",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "Herbert Benson's 'Relaxation Response' is the physiological opposite of the sympathetic fight-or-flight stress reaction. Mind-body complementary therapies (guided imagery, progressive muscle relaxation, meditation, deep diaphragmatic breathing) stimulate the parasympathetic nervous system via the vagus nerve. This causes decreased circulating catecholamines (epinephrine, norepinephrine) and cortisol, reduction in heart rate and respiratory rate, decreased blood pressure, dilation of peripheral blood vessels, and relaxation of skeletal muscle tension. Sympathetic surges or acidosis indicate worsening stress or pathology. Why the other options fail: a catecholamine surge is the stress response being treated, not the relaxation response; the effect is measurable rather than purely subjective; and symptomatic bradycardia with hypotension indicates overstimulation, not a normal relaxation response.",
+      "CORRECT (D) — \"Decreased sympathetic nervous system output, reduced heart rate and respiratory rate, lowered blood pressure, and decreased peripheral muscle tension\". Herbert Benson's 'Relaxation Response' is the physiological opposite of the sympathetic fight-or-flight stress reaction. Mind-body complementary therapies (guided imagery, progressive muscle relaxation, meditation, deep diaphragmatic breathing) stimulate the parasympathetic nervous system via the vagus nerve. This causes decreased circulating catecholamines (epinephrine, norepinephrine) and cortisol, reduction in heart rate and respiratory rate, decreased blood pressure, dilation of peripheral blood vessels, and relaxation of skeletal muscle tension. Sympathetic surges or acidosis indicate worsening stress or pathology. Why the other options fail: a catecholamine surge is the stress response being treated, not the relaxation response; the effect is measurable rather than purely subjective; and symptomatic bradycardia with hypotension indicates overstimulation, not a normal relaxation response.",
     strategy: "Relaxation response: Elicits parasympathetic activation—decreased heart rate, lower blood pressure, reduced respiratory rate, and muscle relaxation.",
     difficulty: "easy",
     tags: ["tcam", "guided-imagery", "relaxation-response", "parasympathetic-activation", "mind-body"],
@@ -428,7 +428,7 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Why did you stop listening to your doctor and start drinking herbal tea instead of taking the prescribed medication?",
+        text: "Why did you stop listening to your doctor and start drinking herbal tea instead of taking the prescribed medication that was controlling your sugar",
       },
       {
         id: "b",
@@ -443,9 +443,9 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Can you sign this form confirming that you have refused standard medical advice and accept the consequences?",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "Arthur Kleinman's Explanatory Model questions elicit the client's personal understanding and cultural construction of their illness without passing judgment: 'What do you call your problem? What do you think caused it? Why do you think it started when it did? What does your sickness do to your body? What kind of treatment do you think you should receive?' Asking these open-ended, respectful questions uncovers health beliefs, explains herbal remedy use, and creates a non-defensive foundation for collaborative care. Condescending 'Why' questions and threats shut down dialogue. Why the other options fail: the remaining three options are judgemental or confrontational and close the interview; Kleinman's model requires open questions about the client's own explanation of the illness.",
+      "CORRECT (B) — \"'What do you call your problem, what do you think caused it, and what kind of treatment do you believe works best for you?'\". Arthur Kleinman's Explanatory Model questions elicit the client's personal understanding and cultural construction of their illness without passing judgment: 'What do you call your problem? What do you think caused it? Why do you think it started when it did? What does your sickness do to your body? What kind of treatment do you think you should receive?' Asking these open-ended, respectful questions uncovers health beliefs, explains herbal remedy use, and creates a non-defensive foundation for collaborative care. Condescending 'Why' questions and threats shut down dialogue. Why the other options fail: the remaining three options are judgemental or confrontational and close the interview; Kleinman's model requires open questions about the client's own explanation of the illness.",
     strategy: "Kleinman's Explanatory Model: Use open, non-judgmental questions to elicit what the client believes caused their illness and how they think it should be treated.",
     difficulty: "easy",
     tags: ["tcam", "kleinman", "explanatory-model", "cultural-competence", "health-beliefs"],
@@ -548,7 +548,7 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Stop the product and advise the client to return to clinic if the jaundice deepens or confusion develops over the following week",
+        text: "Stop the product and advise the client to return to the clinic if the jaundice deepens or confusion develops over the following week, so that the liver can be watched",
       },
       {
         id: "b",
@@ -563,9 +563,9 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Stop the product, secure the packaging and batch number for laboratory analysis, give supportive care, and file an Adverse Drug Reaction report with FDA Ghana",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "When an Adverse Drug Reaction (ADR) or toxic organ injury (e.g., herbal hepatotoxicity) is suspected: 1) the offending product must be discontinued immediately; 2) the physical product, packaging, and batch/lot numbers should be preserved for toxicological investigation; 3) medical supportive care initiated; and 4) an official Adverse Drug Reaction (ADR) report submitted to the national regulatory pharmacovigilance authority (such as the FDA Ghana Safety Watch System / Yellow Form). This enables regulatory alerts, recalls of contaminated batches, and public protection. Throwing evidence away, doubling toxic doses, or hiding events violates pharmacovigilance duty. Why the other options fail: watchful waiting delays the regulatory report that protects other clients; continuing the product sustains the injury; and waiting for a second case defeats the purpose of spontaneous reporting.",
+      "CORRECT (D) — \"Stop the product, secure the packaging and batch number for laboratory analysis, give supportive care, and file an Adverse Drug Reaction report with FDA Ghana\". When an Adverse Drug Reaction (ADR) or toxic organ injury (e.g., herbal hepatotoxicity) is suspected: 1) the offending product must be discontinued immediately; 2) the physical product, packaging, and batch/lot numbers should be preserved for toxicological investigation; 3) medical supportive care initiated; and 4) an official Adverse Drug Reaction (ADR) report submitted to the national regulatory pharmacovigilance authority (such as the FDA Ghana Safety Watch System / Yellow Form). This enables regulatory alerts, recalls of contaminated batches, and public protection. Throwing evidence away, doubling toxic doses, or hiding events violates pharmacovigilance duty. Why the other options fail: watchful waiting delays the regulatory report that protects other clients; continuing the product sustains the injury; and waiting for a second case defeats the purpose of spontaneous reporting.",
     strategy: "Herbal pharmacovigilance: Stop the offending herbal, preserve product batch details for analysis, and file an official Adverse Drug Reaction (ADR) report with regulatory authorities.",
     difficulty: "medium",
     tags: ["tcam", "pharmacovigilance", "adverse-drug-reaction", "herbal-hepatotoxicity", "fda-safety-watch"],
@@ -595,7 +595,7 @@ export const TCAM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     ],
     "correctChoiceId": "d",
     rationale:
-      "In type 1 diabetes, pancreatic beta-cell destruction causes absolute insulin deficiency; discontinuing insulin is rapidly fatal (DKA). Shaming, insulting, or berating pluralist clients creates deep psychological defensiveness, guilt, and alienation, driving them further away from conventional care. The nurse must validate their desire for spiritual comfort, respectfully explain the pathophysiology of type 1 diabetes (the body requires insulin just like it requires oxygen and water), emphasize that insulin is non-negotiable for life, and negotiate ways their spiritual beliefs and prayers can support their healing while maintaining strict daily insulin adherence. Why the other options fail: delaying insulin in DKA is lethal; excluding the family removes the people who administer care at home; and framing faith and insulin as incompatible forces a choice the client does not have to make.",
+      "CORRECT (D) — \"Give culturally congruent teaching and negotiate the spiritual practice\". In type 1 diabetes, pancreatic beta-cell destruction causes absolute insulin deficiency; discontinuing insulin is rapidly fatal (DKA). Shaming, insulting, or berating pluralist clients creates deep psychological defensiveness, guilt, and alienation, driving them further away from conventional care. The nurse must validate their desire for spiritual comfort, respectfully explain the pathophysiology of type 1 diabetes (the body requires insulin just like it requires oxygen and water), emphasize that insulin is non-negotiable for life, and negotiate ways their spiritual beliefs and prayers can support their healing while maintaining strict daily insulin adherence. Why the other options fail: delaying insulin in DKA is lethal; excluding the family removes the people who administer care at home; and framing faith and insulin as incompatible forces a choice the client does not have to make.",
     strategy: "Pluralist health coaching: Respect spiritual beliefs, clearly explain non-negotiable biological therapies (like insulin in type 1 diabetes), and bridge cultural values with medical safety.",
     difficulty: "medium",
     tags: ["tcam", "diabetic-ketoacidosis", "cultural-competence", "type-1-diabetes", "pluralist-care"],
