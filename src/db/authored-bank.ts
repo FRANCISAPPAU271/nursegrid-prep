@@ -2110,7 +2110,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Stopping now allows surviving bacteria to develop resistance, making the disease far harder to treat"
+    "text": "Stopping now lets the surviving bacteria become resistant, making treatment harder"
    },
    {
     "id": "b",
@@ -2122,11 +2122,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "He should continue so that his sputum sample can be repeated"
+    "text": "He should continue so that his sputum sample can be repeated at the end of the treatment course"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Stopping now allows surviving bacteria to develop resistance, making the disease far harder to treat\". Symptoms improve within weeks because the rapidly dividing organisms are killed first, but <strong>slow-growing persisters remain</strong>. The continuation phase eliminates these, and stopping early allows them to multiply, now selected for resistance. Multidrug-resistant tuberculosis requires far longer, more toxic and less effective treatment.\n\nWhy the other options fail:\n• B — Cost is not the clinical issue, and framing adherence around free provision does not explain why the remaining months matter.\n• C — Orange discolouration from rifampicin is harmless and stops when the drug stops. Mentioning it here trivialises a serious risk.\n• D — Follow-up sputum monitoring is part of care, but the reason to continue is cure and resistance prevention, not sample collection.\n\nReference: Ghana National Tuberculosis Programme — treatment guidelines",
+  "rationale": "CORRECT (A) — \"Stopping now lets the surviving bacteria become resistant, making treatment harder\". Symptoms improve within weeks because the rapidly dividing organisms are killed first, but <strong>slow-growing persisters remain</strong>. The continuation phase eliminates these, and stopping early allows them to multiply, now selected for resistance. Multidrug-resistant tuberculosis requires far longer, more toxic and less effective treatment.\n\nWhy the other options fail:\n• B — Cost is not the clinical issue, and framing adherence around free provision does not explain why the remaining months matter.\n• C — Orange discolouration from rifampicin is harmless and stops when the drug stops. Mentioning it here trivialises a serious risk.\n• D — Follow-up sputum monitoring is part of care, but the reason to continue is cure and resistance prevention, not sample collection.\n\nReference: Ghana National Tuberculosis Programme — treatment guidelines",
   "strategy": "For any long treatment course, the reason to continue after symptoms resolve is that symptom relief and cure occur at different times. Name the consequence of stopping — relapse and resistance — rather than simply instructing the patient to comply.",
   "difficulty": "medium",
   "tags": [
@@ -3596,15 +3596,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Ringer's lactate or 0.9% sodium chloride, because they remain in the circulation"
+    "text": "Ringer's lactate or 0.9% sodium chloride, because they stay in circulation"
    },
    {
     "id": "d",
-    "text": "Sterile water, because it is readily available"
+    "text": "Sterile water, because it is readily available on the ward and costs very little"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Ringer's lactate or 0.9% sodium chloride, because they remain in the circulation\". Hypovolaemia requires restoration of <strong>circulating volume</strong>, so an isotonic crystalloid is used. Ringer's lactate and 0.9% sodium chloride stay largely within the extracellular compartment and expand the intravascular space. Dextrose is metabolised leaving free water that distributes throughout body compartments and does little for perfusion.\n\nWhy the other options fail:\n• A — Once the dextrose is metabolised only water remains, which spreads across all compartments and provides minimal circulatory support.\n• B — Hypotonic fluid moves into cells rather than filling the circulation and can cause cellular swelling.\n• D — Sterile water given intravenously causes massive haemolysis and is never infused undiluted.\n\nReference: Ghana STG — shock and fluid resuscitation",
+  "rationale": "CORRECT (C) — \"Ringer's lactate or 0.9% sodium chloride, because they stay in circulation\". Hypovolaemia requires restoration of <strong>circulating volume</strong>, so an isotonic crystalloid is used. Ringer's lactate and 0.9% sodium chloride stay largely within the extracellular compartment and expand the intravascular space. Dextrose is metabolised leaving free water that distributes throughout body compartments and does little for perfusion.\n\nWhy the other options fail:\n• A — Once the dextrose is metabolised only water remains, which spreads across all compartments and provides minimal circulatory support.\n• B — Hypotonic fluid moves into cells rather than filling the circulation and can cause cellular swelling.\n• D — Sterile water given intravenously causes massive haemolysis and is never infused undiluted.\n\nReference: Ghana STG — shock and fluid resuscitation",
   "strategy": "Match the fluid to the compartment that is empty. Empty circulation needs isotonic crystalloid or blood. Cellular dehydration needs hypotonic fluid. Never give plain water intravenously.",
   "difficulty": "medium",
   "tags": [
@@ -4239,7 +4239,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Assess the patient, measure oxygen saturation, and adjust within the prescribed target range"
+    "text": "Assess the patient, measure the saturation and adjust within the prescribed range"
    },
    {
     "id": "b",
@@ -4247,7 +4247,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Explain that oxygen cannot be altered without a doctor present"
+    "text": "Explain that the oxygen cannot be altered without a doctor being present at the bedside"
    },
    {
     "id": "d",
@@ -4255,7 +4255,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Assess the patient, measure oxygen saturation, and adjust within the prescribed target range\". Oxygen is a <strong>drug requiring prescription</strong>, with a specified target saturation range. Increasing breathlessness needs assessment, not simply a higher flow — the cause may be a blocked airway, bronchospasm, pneumothorax or anxiety. The nurse assesses, measures saturation, titrates within the prescribed range, and escalates if the target cannot be met.\n\nWhy the other options fail:\n• B — Adjusting on request without assessment treats a symptom while missing a potentially deteriorating cause, and may exceed the prescribed target.\n• C — Nurses titrate oxygen within a prescribed range routinely. Refusing to act delays care for a breathless patient.\n• D — Reducing oxygen in a breathless patient risks hypoxia. Toxicity is a concern with prolonged high concentrations, not an immediate reason to reduce.\n\nReference: Ghana STG — oxygen therapy",
+  "rationale": "CORRECT (A) — \"Assess the patient, measure the saturation and adjust within the prescribed range\". Oxygen is a <strong>drug requiring prescription</strong>, with a specified target saturation range. Increasing breathlessness needs assessment, not simply a higher flow — the cause may be a blocked airway, bronchospasm, pneumothorax or anxiety. The nurse assesses, measures saturation, titrates within the prescribed range, and escalates if the target cannot be met.\n\nWhy the other options fail:\n• B — Adjusting on request without assessment treats a symptom while missing a potentially deteriorating cause, and may exceed the prescribed target.\n• C — Nurses titrate oxygen within a prescribed range routinely. Refusing to act delays care for a breathless patient.\n• D — Reducing oxygen in a breathless patient risks hypoxia. Toxicity is a concern with prolonged high concentrations, not an immediate reason to reduce.\n\nReference: Ghana STG — oxygen therapy",
   "strategy": "Treat oxygen exactly like any other drug: it has a dose, a target, a route and side effects. New or worsening breathlessness always warrants assessment before adjusting the dose.",
   "difficulty": "medium",
   "tags": [
@@ -4685,7 +4685,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Assess and document the findings, take a wound swab as indicated, and inform the medical team"
+    "text": "Assess and document the findings, take a swab and inform the medical team"
    },
    {
     "id": "b",
@@ -4693,7 +4693,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Clean the wound with antiseptic and leave it exposed to the air"
+    "text": "Clean the wound with an antiseptic solution and leave it exposed to the air"
    },
    {
     "id": "d",
@@ -4701,7 +4701,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Assess and document the findings, take a wound swab as indicated, and inform the medical team\". Increasing pain, spreading erythema, heat, purulent exudate and fever indicate <strong>wound infection</strong>, which may progress to cellulitis or sepsis. The nurse assesses systematically, documents the findings including the extent of redness, obtains a swab where indicated, and informs the medical team so antibiotics and possible drainage can be considered.\n\nWhy the other options fail:\n• B — A tighter dressing traps exudate under pressure and may worsen tissue damage without treating the infection.\n• C — Antiseptic and exposure do not treat established infection with systemic features, and leaving a wound exposed impairs healing.\n• D — These are not features of normal healing. Reassurance here delays treatment of a potentially serious infection.\n\nReference: Ghana STG — surgical site infection",
+  "rationale": "CORRECT (A) — \"Assess and document the findings, take a swab and inform the medical team\". Increasing pain, spreading erythema, heat, purulent exudate and fever indicate <strong>wound infection</strong>, which may progress to cellulitis or sepsis. The nurse assesses systematically, documents the findings including the extent of redness, obtains a swab where indicated, and informs the medical team so antibiotics and possible drainage can be considered.\n\nWhy the other options fail:\n• B — A tighter dressing traps exudate under pressure and may worsen tissue damage without treating the infection.\n• C — Antiseptic and exposure do not treat established infection with systemic features, and leaving a wound exposed impairs healing.\n• D — These are not features of normal healing. Reassurance here delays treatment of a potentially serious infection.\n\nReference: Ghana STG — surgical site infection",
   "strategy": "Learn the difference between normal inflammation and infection. Inflammation is mild, localised and settles within two to three days. Infection increases after day three, spreads, produces pus and causes systemic signs.",
   "difficulty": "hard",
   "tags": [
@@ -4719,7 +4719,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Attempt to replace the bowel gently into the abdomen"
+    "text": "Attempt to replace the loop of bowel gently back into the abdomen with gloved hands"
    },
    {
     "id": "b",
@@ -4727,7 +4727,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Cover the area with sterile gauze soaked in normal saline and summon urgent surgical help"
+    "text": "Cover the wound with sterile saline-soaked gauze and summon urgent surgical help"
    },
    {
     "id": "d",
@@ -4735,7 +4735,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Cover the area with sterile gauze soaked in normal saline and summon urgent surgical help\". Evisceration is a surgical emergency. Exposed bowel must be <strong>covered with sterile saline-moistened gauze</strong> to prevent drying and further contamination, the patient positioned supine with knees slightly flexed to reduce tension, kept nil by mouth, and urgent surgical help summoned.\n\nWhy the other options fail:\n• A — Never attempt to replace protruding viscera. This introduces infection and may damage the bowel.\n• B — Dry gauze adheres to and desiccates exposed bowel, and sitting upright increases intra-abdominal pressure and tension on the wound.\n• D — The patient must be kept nil by mouth for imminent surgery. Giving fluids risks aspiration under anaesthesia.\n\nReference: Ghana STG — post-operative complications",
+  "rationale": "CORRECT (C) — \"Cover the wound with sterile saline-soaked gauze and summon urgent surgical help\". Evisceration is a surgical emergency. Exposed bowel must be <strong>covered with sterile saline-moistened gauze</strong> to prevent drying and further contamination, the patient positioned supine with knees slightly flexed to reduce tension, kept nil by mouth, and urgent surgical help summoned.\n\nWhy the other options fail:\n• A — Never attempt to replace protruding viscera. This introduces infection and may damage the bowel.\n• B — Dry gauze adheres to and desiccates exposed bowel, and sitting upright increases intra-abdominal pressure and tension on the wound.\n• D — The patient must be kept nil by mouth for imminent surgery. Giving fluids risks aspiration under anaesthesia.\n\nReference: Ghana STG — post-operative complications",
   "strategy": "For any exposed internal structure, the principle is cover, moisten, do not replace, and get help. This applies to eviscerated bowel and to protruding tissue in other injuries.",
   "difficulty": "hard",
   "tags": [
@@ -5504,7 +5504,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Report the result urgently and prepare for transfusion while continuing assessment"
+    "text": "Report the result urgently and prepare for transfusion while assessing her"
    },
    {
     "id": "b",
@@ -5516,11 +5516,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Give oral iron and discharge her"
+    "text": "Give oral iron and discharge her home with an appointment for next week at the clinic"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Report the result urgently and prepare for transfusion while continuing assessment\". A haemoglobin of 4.2 g/dL is <strong>critically low</strong> and requires urgent reporting and preparation for transfusion. People with chronic anaemia compensate remarkably well and may look deceptively comfortable at rest, yet they have almost no reserve and can decompensate suddenly with any additional stress such as infection, bleeding or exertion.\n\nWhy the other options fail:\n• B — Appearing well does not make the value safe. Compensation conceals the severity until it fails abruptly.\n• C — A result should be verified if implausible, but it is never simply ignored. Verification happens alongside urgent escalation.\n• D — Oral iron takes weeks to raise haemoglobin and cannot address a critical level. Discharge would be dangerous.\n\nReference: Ghana STG — anaemia; blood transfusion",
+  "rationale": "CORRECT (A) — \"Report the result urgently and prepare for transfusion while assessing her\". A haemoglobin of 4.2 g/dL is <strong>critically low</strong> and requires urgent reporting and preparation for transfusion. People with chronic anaemia compensate remarkably well and may look deceptively comfortable at rest, yet they have almost no reserve and can decompensate suddenly with any additional stress such as infection, bleeding or exertion.\n\nWhy the other options fail:\n• B — Appearing well does not make the value safe. Compensation conceals the severity until it fails abruptly.\n• C — A result should be verified if implausible, but it is never simply ignored. Verification happens alongside urgent escalation.\n• D — Oral iron takes weeks to raise haemoglobin and cannot address a critical level. Discharge would be dangerous.\n\nReference: Ghana STG — anaemia; blood transfusion",
   "strategy": "Never let a comfortable appearance override a critical number, particularly in chronic disease where compensation is well established. Ask what reserve the patient has if anything else goes wrong.",
   "difficulty": "medium",
   "tags": [
@@ -5538,7 +5538,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Write the result down, read it back to the caller for confirmation, then escalate immediately"
+    "text": "Write the result down, read it back to the caller, then escalate it immediately"
    },
    {
     "id": "b",
@@ -5550,11 +5550,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Record it in the notes and wait for the doctor's next visit"
+    "text": "Record it in the notes and wait for the doctor's next ward visit in the morning"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Write the result down, read it back to the caller for confirmation, then escalate immediately\". Critical results are telephoned precisely because they demand <strong>immediate action</strong>. Writing down and reading back confirms the value and the patient it belongs to, preventing transcription and mishearing errors. The result is then escalated at once to a clinician who can act on it, and the communication documented with the time.\n\nWhy the other options fail:\n• B — Relying on memory across a shift is unsafe, and handover may be hours away while the patient deteriorates.\n• C — Redirecting to email delays a result that by definition cannot wait.\n• D — Documenting without escalating leaves a life-threatening value unacted upon.\n\nReference: Ghana Health Service — critical results communication",
+  "rationale": "CORRECT (A) — \"Write the result down, read it back to the caller, then escalate it immediately\". Critical results are telephoned precisely because they demand <strong>immediate action</strong>. Writing down and reading back confirms the value and the patient it belongs to, preventing transcription and mishearing errors. The result is then escalated at once to a clinician who can act on it, and the communication documented with the time.\n\nWhy the other options fail:\n• B — Relying on memory across a shift is unsafe, and handover may be hours away while the patient deteriorates.\n• C — Redirecting to email delays a result that by definition cannot wait.\n• D — Documenting without escalating leaves a life-threatening value unacted upon.\n\nReference: Ghana Health Service — critical results communication",
   "strategy": "Write down, read back, escalate, document the time. The same structure applies to verbal medication orders and to clinical handover.",
   "difficulty": "medium",
   "tags": [
@@ -5644,7 +5644,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Platelets are given rapidly, usually over 15 to 30 minutes, and are stored at room temperature"
+    "text": "Platelets run rapidly, over 15 to 30 minutes, and are stored at room temperature"
    },
    {
     "id": "c",
@@ -5652,11 +5652,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Platelets are refrigerated at the same temperature as red cells"
+    "text": "Platelets are refrigerated at the same temperature as red cells and are given cold"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Platelets are given rapidly, usually over 15 to 30 minutes, and are stored at room temperature\". Platelets are stored at <strong>room temperature with continuous agitation</strong> and have a short shelf life, because refrigeration damages their function. They are transfused <strong>rapidly, typically over 15 to 30 minutes</strong>, since slow administration allows aggregation and loss of effect. Because of room-temperature storage the bacterial risk is higher.\n\nWhy the other options fail:\n• A — Running platelets slowly reduces their effectiveness. The four-hour limit applies to red cells.\n• C — Fresh frozen plasma is frozen and thawed before use. Platelets are never frozen.\n• D — Refrigeration damages platelet function, which is why they are the one component kept at room temperature.\n\nReference: Ghana National Blood Service — blood components",
+  "rationale": "CORRECT (B) — \"Platelets run rapidly, over 15 to 30 minutes, and are stored at room temperature\". Platelets are stored at <strong>room temperature with continuous agitation</strong> and have a short shelf life, because refrigeration damages their function. They are transfused <strong>rapidly, typically over 15 to 30 minutes</strong>, since slow administration allows aggregation and loss of effect. Because of room-temperature storage the bacterial risk is higher.\n\nWhy the other options fail:\n• A — Running platelets slowly reduces their effectiveness. The four-hour limit applies to red cells.\n• C — Fresh frozen plasma is frozen and thawed before use. Platelets are never frozen.\n• D — Refrigeration damages platelet function, which is why they are the one component kept at room temperature.\n\nReference: Ghana National Blood Service — blood components",
   "strategy": "Learn each blood component by storage and speed. Red cells refrigerated and slow, platelets room temperature and fast, plasma frozen then given promptly after thawing.",
   "difficulty": "medium",
   "tags": [
@@ -5849,7 +5849,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Move the contents to a working refrigerator, quarantine them, and report the breach"
+    "text": "Move the contents to a working fridge, quarantine them, and report the breach"
    },
    {
     "id": "c",
@@ -5857,11 +5857,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Record the reading and check again the following day"
+    "text": "Record the reading and check the temperature of the fridge again the following day"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Move the contents to a working refrigerator, quarantine them, and report the breach\". Cold-chain items require <strong>2 to 8°C</strong>. At 11°C potency may be reduced, so the contents are moved to a functioning refrigerator, <strong>quarantined pending advice</strong> rather than used or discarded, and the breach reported. Pharmacy or the EPI focal person determines whether the stock remains usable.\n\nWhy the other options fail:\n• A — Continuing to use potentially degraded vaccine may leave patients unprotected while appearing immunised.\n• C — Immediate discard wastes expensive stock that may still be viable, and failing to report prevents the fault being fixed.\n• D — Waiting another day exposes the stock to prolonged excursion and delays repair.\n\nReference: Ghana Health Service — EPI cold chain management",
+  "rationale": "CORRECT (B) — \"Move the contents to a working fridge, quarantine them, and report the breach\". Cold-chain items require <strong>2 to 8°C</strong>. At 11°C potency may be reduced, so the contents are moved to a functioning refrigerator, <strong>quarantined pending advice</strong> rather than used or discarded, and the breach reported. Pharmacy or the EPI focal person determines whether the stock remains usable.\n\nWhy the other options fail:\n• A — Continuing to use potentially degraded vaccine may leave patients unprotected while appearing immunised.\n• C — Immediate discard wastes expensive stock that may still be viable, and failing to report prevents the fault being fixed.\n• D — Waiting another day exposes the stock to prolonged excursion and delays repair.\n\nReference: Ghana Health Service — EPI cold chain management",
   "strategy": "For any cold-chain breach: move, quarantine, report, and seek advice before using or discarding. Never make the viability decision alone.",
   "difficulty": "medium",
   "tags": [
@@ -5891,7 +5891,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Mix the antibiotic into the nutrition bag"
+    "text": "Mix the antibiotic straight into the bag of parenteral nutrition that is already hanging up"
    }
   ],
   "correctChoiceId": "c",
@@ -6295,15 +6295,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "It removes the need for precise coordination and reduces drug deposition in the mouth"
+    "text": "It removes the need for coordination and reduces drug deposition in the mouth"
    },
    {
     "id": "d",
-    "text": "It allows the drug to be swallowed rather than inhaled"
+    "text": "It allows the drug to be swallowed rather than inhaled into the lungs where it acts"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"It removes the need for precise coordination and reduces drug deposition in the mouth\". A spacer holds the aerosol in a chamber so the child can <strong>breathe it in over several breaths</strong> rather than coordinating actuation with inspiration. It also allows large droplets to settle in the chamber instead of the mouth and throat, increasing lung deposition and reducing local side effects such as oral thrush with steroids.\n\nWhy the other options fail:\n• A — The dose per actuation is unchanged. What improves is the proportion reaching the lungs.\n• B — The inhaler must still be shaken before each actuation.\n• D — Swallowing the drug is what a spacer helps avoid, since swallowed drug gives systemic effects without treating the airway.\n\nReference: Ghana STG — asthma; inhaler technique",
+  "rationale": "CORRECT (C) — \"It removes the need for coordination and reduces drug deposition in the mouth\". A spacer holds the aerosol in a chamber so the child can <strong>breathe it in over several breaths</strong> rather than coordinating actuation with inspiration. It also allows large droplets to settle in the chamber instead of the mouth and throat, increasing lung deposition and reducing local side effects such as oral thrush with steroids.\n\nWhy the other options fail:\n• A — The dose per actuation is unchanged. What improves is the proportion reaching the lungs.\n• B — The inhaler must still be shaken before each actuation.\n• D — Swallowing the drug is what a spacer helps avoid, since swallowed drug gives systemic effects without treating the airway.\n\nReference: Ghana STG — asthma; inhaler technique",
   "strategy": "Ask what the device solves. Spacers solve coordination and oropharyngeal deposition. That is why they are standard for children and for anyone struggling with inhaler timing.",
   "difficulty": "medium",
   "tags": [
@@ -80866,11 +80866,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Immediate caesarean section as the only safe option"
+    "text": "An immediate caesarean section as the only safe option for her and for the baby"
    },
    {
     "id": "b",
-    "text": "External cephalic version, with planned caesarean section if it is unsuccessful or declined"
+    "text": "External cephalic version, with caesarean section if it fails or she declines"
    },
    {
     "id": "c",
@@ -80882,7 +80882,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"External cephalic version, with planned caesarean section if it is unsuccessful or declined\". At thirty-seven weeks a breech presentation is unlikely to turn spontaneously, but external cephalic version can turn it in a substantial proportion of women, and a successful version means she can labour with a cephalic presentation and avoid abdominal surgery. It is performed where a theatre is available in case of complications, and the decision is hers after full information about the success rate and risks. If version fails or she declines, a planned caesarean is generally recommended for a term breech. The principle is that the least invasive effective option is offered first, and the woman chooses.\n\nWhy the other options fail:\n• A — Presenting caesarean as the only safe option removes a genuine alternative and misinforms her, which undermines any consent she then gives.\n• C — Waiting for labour to begin loses the window for version and risks her arriving in advanced labour with a breech and no plan.\n• D — A vaginal breech birth at a CHPS compound, without theatre or skilled breech support, is unsafe for a first breech presentation.\n\nReference: WHO and RCOG guidance on management of breech presentation",
+  "rationale": "CORRECT (B) — \"External cephalic version, with caesarean section if it fails or she declines\". At thirty-seven weeks a breech presentation is unlikely to turn spontaneously, but external cephalic version can turn it in a substantial proportion of women, and a successful version means she can labour with a cephalic presentation and avoid abdominal surgery. It is performed where a theatre is available in case of complications, and the decision is hers after full information about the success rate and risks. If version fails or she declines, a planned caesarean is generally recommended for a term breech. The principle is that the least invasive effective option is offered first, and the woman chooses.\n\nWhy the other options fail:\n• A — Presenting caesarean as the only safe option removes a genuine alternative and misinforms her, which undermines any consent she then gives.\n• C — Waiting for labour to begin loses the window for version and risks her arriving in advanced labour with a breech and no plan.\n• D — A vaginal breech birth at a CHPS compound, without theatre or skilled breech support, is unsafe for a first breech presentation.\n\nReference: WHO and RCOG guidance on management of breech presentation",
   "strategy": "When several managements are legitimate, the correct answer usually presents the options and lets the woman decide. Options that declare one path the only safe one are eliminating her choice.",
   "difficulty": "medium",
   "tags": [
@@ -83237,7 +83237,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Report the suspicion to the Food and Drugs Authority on the ADR form, without needing to prove causation"
+   "text": "Report the suspicion to the Food and Drugs Authority on the ADR form, without proof"
   },
   {
    "id": "b",
@@ -83245,7 +83245,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Report it only if the reaction is already listed in the product literature"
+   "text": "Report it only if the reaction is already listed in the product literature for the drug"
   },
   {
    "id": "d",
@@ -83253,7 +83253,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   }
  ],
  "correctChoiceId": "a",
- "rationale": "CORRECT (A) — \"Report the suspicion to the Food and Drugs Authority on the ADR form, without needing to prove causation\". Ghana runs a national pharmacovigilance system through the Food and Drugs Authority under the Public Health Act 2012, Act 851. Health professionals report on the ADR reporting form, consumers may use the BlueForm, and reports may also be filed through the online SafetyWatch platform. A suspicion is enough: the reporter does not have to establish causation, and that is deliberate, because causality is assessed centrally once enough reports accumulate. Option B wastes the reporting window and lets the signal go unrecorded. Option C misunderstands the purpose, since unexpected reactions are precisely the ones that matter most. Option D is wrong because the Authority is the national centre and the manufacturer is not the route for a health professional.",
+ "rationale": "CORRECT (A) — \"Report the suspicion to the Food and Drugs Authority on the ADR form, without proof\". Ghana runs a national pharmacovigilance system through the Food and Drugs Authority under the Public Health Act 2012, Act 851. Health professionals report on the ADR reporting form, consumers may use the BlueForm, and reports may also be filed through the online SafetyWatch platform. A suspicion is enough: the reporter does not have to establish causation, and that is deliberate, because causality is assessed centrally once enough reports accumulate. Option B wastes the reporting window and lets the signal go unrecorded. Option C misunderstands the purpose, since unexpected reactions are precisely the ones that matter most. Option D is wrong because the Authority is the national centre and the manufacturer is not the route for a health professional.",
  "strategy": "A suspicion is enough. The reporter does not have to prove causation.",
  "difficulty": "medium",
  "tags": [
@@ -86344,7 +86344,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Rub the eye vigorously with a clean gauze swab to remove the blood"
+    "text": "Rub the eye vigorously with a clean gauze swab to wipe the blood off the surface of the eye"
    },
    {
     "id": "b",
@@ -86356,11 +86356,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Irrigate with copious clean water or saline for several minutes, contact lenses left in until after"
+    "text": "Irrigate with copious clean water or saline at once, leaving contact lenses in place"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Irrigate with copious clean water or saline for several minutes, contact lenses left in until after\". Mucous membranes are a recognised route for bloodborne virus transmission, and the conjunctiva is thin and highly vascular. Prolonged irrigation with clean water or saline dilutes and physically removes the inoculum, and it should begin at once, since delay allows contact time to increase. Contact lenses are left in place during the initial irrigation, because removing them first delays the wash and may abrade the surface, and they are taken out and cleaned afterwards. The exposure is then reported urgently for risk assessment, because post-exposure prophylaxis must start within 72 hours and runs for 28 days.\n\nWhy the other options fail:\n• A — Rubbing abrades the conjunctiva and creates a breach that increases rather than reduces the risk of entry.\n• B — Antibiotic drops do not act against viruses and continuing to work delays the urgent risk assessment.\n• C — Padding the eye leaves the inoculum in contact with the conjunctiva and wastes the prophylaxis window.\n\nReference: Ghana National AIDS Control Programme — post-exposure prophylaxis; WHO",
+  "rationale": "CORRECT (D) — \"Irrigate with copious clean water or saline at once, leaving contact lenses in place\". Mucous membranes are a recognised route for bloodborne virus transmission, and the conjunctiva is thin and highly vascular. Prolonged irrigation with clean water or saline dilutes and physically removes the inoculum, and it should begin at once, since delay allows contact time to increase. Contact lenses are left in place during the initial irrigation, because removing them first delays the wash and may abrade the surface, and they are taken out and cleaned afterwards. The exposure is then reported urgently for risk assessment, because post-exposure prophylaxis must start within 72 hours and runs for 28 days.\n\nWhy the other options fail:\n• A — Rubbing abrades the conjunctiva and creates a breach that increases rather than reduces the risk of entry.\n• B — Antibiotic drops do not act against viruses and continuing to work delays the urgent risk assessment.\n• C — Padding the eye leaves the inoculum in contact with the conjunctiva and wastes the prophylaxis window.\n\nReference: Ghana National AIDS Control Programme — post-exposure prophylaxis; WHO",
   "strategy": "For any mucosal splash, irrigate immediately and at length, then report. The two numbers that follow are 72 hours to start prophylaxis and 28 days to complete it.",
   "difficulty": "hard",
   "tags": [
@@ -87170,7 +87170,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "The index case is the first case identified; the primary case is the first person infected"
+    "text": "The index case is the first identified; the primary case is the first infected"
    },
    {
     "id": "b",
@@ -87178,7 +87178,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "The index case is always the most severely affected patient"
+    "text": "The index case is always the most severely affected patient in the whole outbreak"
    },
    {
     "id": "d",
@@ -87186,7 +87186,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"The index case is the first case identified; the primary case is the first person infected\". The index case is the case that first brings the outbreak to the attention of the health system, and the primary case is the person who was actually infected first and introduced the organism. They are frequently different people, because the earliest infections are often mild, atypical or simply not reported, and the primary case may never be identified at all. The distinction matters in contact tracing, since working back from the index case is how the true source is sought. The principle is that the first case you see is rarely the first case that occurred.\n\nWhy the other options fail:\n• B — They coincide only occasionally; in most outbreaks earlier cases went unrecognised.\n• C — Severity does not define the index case, which is simply the one first brought to attention.\n• D — The primary case is the earliest infection, not the latest.\n\nReference: Standard epidemiology — outbreak investigation",
+  "rationale": "CORRECT (A) — \"The index case is the first identified; the primary case is the first infected\". The index case is the case that first brings the outbreak to the attention of the health system, and the primary case is the person who was actually infected first and introduced the organism. They are frequently different people, because the earliest infections are often mild, atypical or simply not reported, and the primary case may never be identified at all. The distinction matters in contact tracing, since working back from the index case is how the true source is sought. The principle is that the first case you see is rarely the first case that occurred.\n\nWhy the other options fail:\n• B — They coincide only occasionally; in most outbreaks earlier cases went unrecognised.\n• C — Severity does not define the index case, which is simply the one first brought to attention.\n• D — The primary case is the earliest infection, not the latest.\n\nReference: Standard epidemiology — outbreak investigation",
   "strategy": "Read index as the case that indexed the outbreak, meaning the one that flagged it. Primary means first in time. The two words are deliberately paired in examinations.",
   "difficulty": "medium",
   "tags": [
@@ -105273,7 +105273,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "The weight loss proves the family is not providing enough food and intake must be doubled"
+    "text": "The weight loss proves that the family is not providing enough food, so the intake must be doubled"
    },
    {
     "id": "b",
@@ -105281,7 +105281,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Tumour-driven inflammation alters metabolism and breaks down muscle, so weight loss continues even with adequate intake"
+    "text": "Tumour inflammation alters metabolism and breaks down muscle, so weight falls despite eating"
    },
    {
     "id": "d",
@@ -105289,7 +105289,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Tumour-driven inflammation alters metabolism and breaks down muscle, so weight loss continues even with adequate intake\". Cancer cachexia is not the same as starvation. The tumour and the host response generate inflammatory cytokines that raise resting energy expenditure and drive proteolysis, so skeletal muscle is broken down regardless of intake. This is why cachexia cannot be reversed by feeding alone, unlike simple starvation, where refeeding restores lost tissue. Understanding this protects families from a painful and unfair sense of failure, and protects patients from force-feeding that causes distress, nausea and aspiration without changing the outcome. Care aims at comfort, symptom control, treating reversible contributors such as mouth ulcers or constipation, and offering food that is wanted.\n\nWhy the other options fail:\n• A — This blames a family that is very likely doing its best, and it is metabolically wrong. Doubling intake does not overcome cytokine-driven muscle breakdown and often produces nausea, bloating and guilt.\n• B — Simple starvation responds fully to refeeding; cachexia does not. Treating the two as identical leads to unrealistic promises and aggressive feeding that harms the patient.\n• D — Treatment can certainly worsen intake through nausea, mucositis and taste change, but cachexia is driven by the disease itself and is frequently present before any treatment begins.\n\nReference: ESPEN guidelines on nutrition in cancer patients; WHO palliative care guidance",
+  "rationale": "CORRECT (C) — \"Tumour inflammation alters metabolism and breaks down muscle, so weight falls despite eating\". Cancer cachexia is not the same as starvation. The tumour and the host response generate inflammatory cytokines that raise resting energy expenditure and drive proteolysis, so skeletal muscle is broken down regardless of intake. This is why cachexia cannot be reversed by feeding alone, unlike simple starvation, where refeeding restores lost tissue. Understanding this protects families from a painful and unfair sense of failure, and protects patients from force-feeding that causes distress, nausea and aspiration without changing the outcome. Care aims at comfort, symptom control, treating reversible contributors such as mouth ulcers or constipation, and offering food that is wanted.\n\nWhy the other options fail:\n• A — This blames a family that is very likely doing its best, and it is metabolically wrong. Doubling intake does not overcome cytokine-driven muscle breakdown and often produces nausea, bloating and guilt.\n• B — Simple starvation responds fully to refeeding; cachexia does not. Treating the two as identical leads to unrealistic promises and aggressive feeding that harms the patient.\n• D — Treatment can certainly worsen intake through nausea, mucositis and taste change, but cachexia is driven by the disease itself and is frequently present before any treatment begins.\n\nReference: ESPEN guidelines on nutrition in cancer patients; WHO palliative care guidance",
   "strategy": "Distinguish not eating enough from not being able to use what is eaten. Ask whether the underlying process is intake failure or altered metabolism.",
   "difficulty": "hard",
   "tags": [
@@ -105374,7 +105374,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Resume feeding immediately, continuing breastfeeding throughout and offering food as soon as he will take it"
+    "text": "Resume feeding immediately, continue breastfeeding and offer food as soon as he will take it"
    },
    {
     "id": "b",
@@ -105386,11 +105386,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Restart food only after a stool sample confirms the organism has cleared"
+    "text": "Restart food only after a stool sample confirms that the organism has cleared from the gut completely"
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Resume feeding immediately, continuing breastfeeding throughout and offering food as soon as he will take it\". Early feeding in diarrhoeal illness shortens the episode, limits weight loss and speeds mucosal recovery. The intestinal villi depend on luminal nutrition, so withholding food delays the very repair that stops the diarrhoea. Breastfeeding should never be interrupted, since breast milk is both fluid and nutrition and contains protective factors. Oral rehydration continues alongside food to replace ongoing losses, and zinc is given for ten to fourteen days in children, which reduces both duration and the risk of recurrence. The outdated practice of gut rest is a recognised contributor to post-diarrhoeal malnutrition.\n\nWhy the other options fail:\n• B — Gut rest has been abandoned. Twenty-four hours without food in a child who has just lost a large volume of fluid and electrolytes accelerates the slide into acute malnutrition.\n• C — Sugar water without sodium does not rehydrate effectively and can worsen osmotic diarrhoea. It also supplies no protein, so it cannot support mucosal repair.\n• D — Treatment and feeding are never delayed for microbiological confirmation. Culture results take days, and management of cholera is clinical from the outset.\n\nReference: WHO treatment of diarrhoea manual; Ghana Standard Treatment Guidelines — cholera",
+  "rationale": "CORRECT (A) — \"Resume feeding immediately, continue breastfeeding and offer food as soon as he will take it\". Early feeding in diarrhoeal illness shortens the episode, limits weight loss and speeds mucosal recovery. The intestinal villi depend on luminal nutrition, so withholding food delays the very repair that stops the diarrhoea. Breastfeeding should never be interrupted, since breast milk is both fluid and nutrition and contains protective factors. Oral rehydration continues alongside food to replace ongoing losses, and zinc is given for ten to fourteen days in children, which reduces both duration and the risk of recurrence. The outdated practice of gut rest is a recognised contributor to post-diarrhoeal malnutrition.\n\nWhy the other options fail:\n• B — Gut rest has been abandoned. Twenty-four hours without food in a child who has just lost a large volume of fluid and electrolytes accelerates the slide into acute malnutrition.\n• C — Sugar water without sodium does not rehydrate effectively and can worsen osmotic diarrhoea. It also supplies no protein, so it cannot support mucosal repair.\n• D — Treatment and feeding are never delayed for microbiological confirmation. Culture results take days, and management of cholera is clinical from the outset.\n\nReference: WHO treatment of diarrhoea manual; Ghana Standard Treatment Guidelines — cholera",
   "strategy": "After any diarrhoeal illness, feed early. The gut heals from the inside using nutrients in the lumen, so resting it prolongs the problem.",
   "difficulty": "medium",
   "tags": [
@@ -105925,7 +105925,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "The oedematous child is classified as having severe acute malnutrition regardless of weight and needs the most cautious refeeding"
+    "text": "The oedematous child has severe acute malnutrition at any weight, and needs cautious refeeding"
    },
    {
     "id": "c",
@@ -105933,11 +105933,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "The oedematous child is better nourished because the extra weight reflects retained protein"
+    "text": "The oedematous child is better nourished, because the extra weight reflects retained protein and fluid"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"The oedematous child is classified as having severe acute malnutrition regardless of weight and needs the most cautious refeeding\". The wasted, hungry child fits marasmus; the oedematous, apathetic child fits kwashiorkor. The distinction matters clinically because bilateral pitting oedema classifies a child as having severe acute malnutrition whatever the weight-for-height suggests, and oedema masks true weight so a child can appear deceptively heavy while being profoundly depleted. Children with oedematous malnutrition carry higher mortality, are more prone to infection and electrolyte disturbance, and are especially vulnerable to refeeding syndrome and cardiac failure if fed too fast. Both children begin on cautious stabilisation with F-75 and no iron, but the oedematous child requires particularly close monitoring.\n\nWhy the other options fail:\n• A — Visible wasting is alarming but oedematous malnutrition generally carries the higher case fatality. Judging severity by appearance alone underestimates the risk in the child who looks plump.\n• C — Management is not identical. Both require cautious stabilisation, but the oedematous child needs closer cardiac and electrolyte monitoring, and the appetite difference alters how feeding is delivered.\n• D — This reverses the physiology. The oedema reflects a low plasma oncotic pressure and fluid shift, not stored protein, and the added fluid weight conceals severe tissue loss.\n\nReference: WHO management of severe acute malnutrition; Ghana Health Service nutrition protocols",
+  "rationale": "CORRECT (B) — \"The oedematous child has severe acute malnutrition at any weight, and needs cautious refeeding\". The wasted, hungry child fits marasmus; the oedematous, apathetic child fits kwashiorkor. The distinction matters clinically because bilateral pitting oedema classifies a child as having severe acute malnutrition whatever the weight-for-height suggests, and oedema masks true weight so a child can appear deceptively heavy while being profoundly depleted. Children with oedematous malnutrition carry higher mortality, are more prone to infection and electrolyte disturbance, and are especially vulnerable to refeeding syndrome and cardiac failure if fed too fast. Both children begin on cautious stabilisation with F-75 and no iron, but the oedematous child requires particularly close monitoring.\n\nWhy the other options fail:\n• A — Visible wasting is alarming but oedematous malnutrition generally carries the higher case fatality. Judging severity by appearance alone underestimates the risk in the child who looks plump.\n• C — Management is not identical. Both require cautious stabilisation, but the oedematous child needs closer cardiac and electrolyte monitoring, and the appetite difference alters how feeding is delivered.\n• D — This reverses the physiology. The oedema reflects a low plasma oncotic pressure and fluid shift, not stored protein, and the added fluid weight conceals severe tissue loss.\n\nReference: WHO management of severe acute malnutrition; Ghana Health Service nutrition protocols",
   "strategy": "Bilateral pitting oedema classifies severe acute malnutrition on its own, regardless of weight. Never let a weight reading reassure you when oedema is present.",
   "difficulty": "hard",
   "tags": [
@@ -107043,11 +107043,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Regular meals with controlled carbohydrate portions spread through the day, choosing lower glycaemic index staples"
+    "text": "Regular meals with controlled carbohydrate portions and lower glycaemic index staples"
    },
    {
     "id": "b",
-    "text": "A very low carbohydrate diet with carbohydrate removed from every meal"
+    "text": "A very low carbohydrate diet, with carbohydrate removed from every meal and every snack"
    },
    {
     "id": "c",
@@ -107059,7 +107059,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Regular meals with controlled carbohydrate portions spread through the day, choosing lower glycaemic index staples\". The aim is steady glycaemic control without compromising the nutrition of pregnancy. Spreading carbohydrate across three meals and two or three snacks avoids the large post-meal peaks that drive foetal macrosomia, while preventing the long gaps that cause ketosis. Choosing lower glycaemic index forms of familiar staples is more realistic than eliminating them, so boiled yam, kenkey and whole grains are preferred over heavily refined options, with protein and vegetables alongside to blunt the glucose rise. Untreated gestational diabetes raises the risk of macrosomia, shoulder dystocia, neonatal hypoglycaemia and later type 2 diabetes in the mother.\n\nWhy the other options fail:\n• B — Very low carbohydrate intake in pregnancy risks ketosis, which may harm foetal neurological development. Carbohydrate is controlled and distributed, not removed.\n• C — Prolonged fasting produces ketosis and hypoglycaemia, and rebound hyperglycaemia at the next meal. Regular eating gives steadier control than long gaps.\n• D — Gestational diabetes usually resolves after delivery, but the risks to the pregnancy occur before that. It also predicts a substantial future risk of type 2 diabetes requiring follow-up.\n\nReference: WHO diagnostic criteria for hyperglycaemia in pregnancy; Ghana Standard Treatment Guidelines",
+  "rationale": "CORRECT (A) — \"Regular meals with controlled carbohydrate portions and lower glycaemic index staples\". The aim is steady glycaemic control without compromising the nutrition of pregnancy. Spreading carbohydrate across three meals and two or three snacks avoids the large post-meal peaks that drive foetal macrosomia, while preventing the long gaps that cause ketosis. Choosing lower glycaemic index forms of familiar staples is more realistic than eliminating them, so boiled yam, kenkey and whole grains are preferred over heavily refined options, with protein and vegetables alongside to blunt the glucose rise. Untreated gestational diabetes raises the risk of macrosomia, shoulder dystocia, neonatal hypoglycaemia and later type 2 diabetes in the mother.\n\nWhy the other options fail:\n• B — Very low carbohydrate intake in pregnancy risks ketosis, which may harm foetal neurological development. Carbohydrate is controlled and distributed, not removed.\n• C — Prolonged fasting produces ketosis and hypoglycaemia, and rebound hyperglycaemia at the next meal. Regular eating gives steadier control than long gaps.\n• D — Gestational diabetes usually resolves after delivery, but the risks to the pregnancy occur before that. It also predicts a substantial future risk of type 2 diabetes requiring follow-up.\n\nReference: WHO diagnostic criteria for hyperglycaemia in pregnancy; Ghana Standard Treatment Guidelines",
   "strategy": "In pregnancy, control the timing and quality of carbohydrate rather than removing it. Any option involving fasting or elimination is wrong.",
   "difficulty": "medium",
   "tags": [
@@ -107822,11 +107822,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Hypercalcaemia and hypokalaemia caused by the preservative solution"
+    "text": "Hypercalcaemia and hypokalaemia caused by the preservative solution that is used to store the blood"
    },
    {
     "id": "b",
-    "text": "Hypocalcaemia from citrate binding, hyperkalaemia from stored cells, and hypothermia from cold blood"
+    "text": "Hypocalcaemia from citrate, hyperkalaemia from stored cells, and hypothermia from cold blood"
    },
    {
     "id": "c",
@@ -107838,7 +107838,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Hypocalcaemia from citrate binding, hyperkalaemia from stored cells, and hypothermia from cold blood\". Stored blood is anticoagulated with citrate, which binds ionised calcium, so rapid transfusion of several units can produce symptomatic hypocalcaemia with tingling, tetany and impaired cardiac contractility. Potassium leaks out of red cells during storage, so older units deliver a potassium load that matters in rapid or large-volume transfusion, particularly if renal function is impaired. Blood issued at refrigerator temperature causes hypothermia unless warmed, and hypothermia in turn worsens coagulopathy and shifts the oxygen dissociation curve. Monitoring therefore includes calcium, potassium, temperature and clotting, and blood warmers are used for rapid transfusion.\n\nWhy the other options fail:\n• A — The disturbances run the other way. Citrate lowers rather than raises calcium, and stored cells release potassium rather than consuming it.\n• C — Blood is physiological when fresh and in the circulation, but storage changes it substantially through potassium leak, citrate anticoagulation, temperature and loss of clotting factors.\n• D — Citrate is metabolised to bicarbonate and can contribute to alkalosis later, but the immediate and clinically important problems in massive transfusion are hypocalcaemia, hyperkalaemia and hypothermia.\n\nReference: WHO clinical use of blood; Ghana National Blood Service guidance",
+  "rationale": "CORRECT (B) — \"Hypocalcaemia from citrate, hyperkalaemia from stored cells, and hypothermia from cold blood\". Stored blood is anticoagulated with citrate, which binds ionised calcium, so rapid transfusion of several units can produce symptomatic hypocalcaemia with tingling, tetany and impaired cardiac contractility. Potassium leaks out of red cells during storage, so older units deliver a potassium load that matters in rapid or large-volume transfusion, particularly if renal function is impaired. Blood issued at refrigerator temperature causes hypothermia unless warmed, and hypothermia in turn worsens coagulopathy and shifts the oxygen dissociation curve. Monitoring therefore includes calcium, potassium, temperature and clotting, and blood warmers are used for rapid transfusion.\n\nWhy the other options fail:\n• A — The disturbances run the other way. Citrate lowers rather than raises calcium, and stored cells release potassium rather than consuming it.\n• C — Blood is physiological when fresh and in the circulation, but storage changes it substantially through potassium leak, citrate anticoagulation, temperature and loss of clotting factors.\n• D — Citrate is metabolised to bicarbonate and can contribute to alkalosis later, but the immediate and clinically important problems in massive transfusion are hypocalcaemia, hyperkalaemia and hypothermia.\n\nReference: WHO clinical use of blood; Ghana National Blood Service guidance",
   "strategy": "Ask what has been done to the fluid to store it. Anticoagulant, storage time and temperature each create their own predictable complication.",
   "difficulty": "hard",
   "tags": [
@@ -108024,11 +108024,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Large volumes of saline deliver a high chloride load and can cause a hyperchloraemic metabolic acidosis"
+    "text": "Saline carries a high chloride load, so large volumes cause hyperchloraemic acidosis"
    },
    {
     "id": "b",
-    "text": "Ringer's lactate contains no sodium and therefore avoids fluid overload"
+    "text": "Ringer's lactate contains no sodium at all and therefore completely avoids fluid overload"
    },
    {
     "id": "c",
@@ -108040,7 +108040,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Large volumes of saline deliver a high chloride load and can cause a hyperchloraemic metabolic acidosis\". Normal saline contains sodium and chloride at 154 millimoles per litre each, so its chloride concentration is considerably higher than plasma. Infusing several litres produces a hyperchloraemic metabolic acidosis, and the high chloride load has been associated with renal vasoconstriction and impaired kidney function. Balanced solutions such as Ringer's lactate have compositions closer to plasma with less chloride and a bicarbonate precursor, so they avoid that specific problem. Saline remains appropriate in particular situations, notably hypochloraemic alkalosis from vomiting and alongside blood products, which is why the choice is clinical rather than automatic.\n\nWhy the other options fail:\n• B — Ringer's lactate does contain sodium, at about 130 millimoles per litre. Any crystalloid given in excess can cause overload, and composition does not prevent that.\n• C — Normal saline is isotonic with plasma, which is precisely why it is used. It does not cause haemolysis; that would be the effect of infusing water.\n• D — Every intravenous fluid requires monitoring of rate, response and signs of overload. Ringer's lactate also needs caution in hyperkalaemia and liver failure.\n\nReference: NICE intravenous fluid therapy guidance; Ghana Standard Treatment Guidelines",
+  "rationale": "CORRECT (A) — \"Saline carries a high chloride load, so large volumes cause hyperchloraemic acidosis\". Normal saline contains sodium and chloride at 154 millimoles per litre each, so its chloride concentration is considerably higher than plasma. Infusing several litres produces a hyperchloraemic metabolic acidosis, and the high chloride load has been associated with renal vasoconstriction and impaired kidney function. Balanced solutions such as Ringer's lactate have compositions closer to plasma with less chloride and a bicarbonate precursor, so they avoid that specific problem. Saline remains appropriate in particular situations, notably hypochloraemic alkalosis from vomiting and alongside blood products, which is why the choice is clinical rather than automatic.\n\nWhy the other options fail:\n• B — Ringer's lactate does contain sodium, at about 130 millimoles per litre. Any crystalloid given in excess can cause overload, and composition does not prevent that.\n• C — Normal saline is isotonic with plasma, which is precisely why it is used. It does not cause haemolysis; that would be the effect of infusing water.\n• D — Every intravenous fluid requires monitoring of rate, response and signs of overload. Ringer's lactate also needs caution in hyperkalaemia and liver failure.\n\nReference: NICE intravenous fluid therapy guidance; Ghana Standard Treatment Guidelines",
   "strategy": "Compare the fluid's composition with plasma. A large excess of any single ion, usually chloride, is what causes the disturbance.",
   "difficulty": "hard",
   "tags": [
