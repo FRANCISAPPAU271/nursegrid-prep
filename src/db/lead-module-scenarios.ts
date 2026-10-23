@@ -16,16 +16,16 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "A 16-year-old with acute asthma whose wheezing has stopped, who is restless, gasping and unable to speak in sentences",
+        text: "A 61-year-old on the second day after a bowel resection, pale and clammy, pulse 124 and BP 92/56, just vomited 400 mL of dark blood",
       },
       {
         id: "d",
         text: "A 68-year-old client post-operative day 3 from elective knee replacement requesting assistance to walk to the bathroom",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "Using the Airway, Breathing, Circulation (ABC) and acute-versus-chronic prioritization frameworks, the client with acute asthma whose wheezing has stopped (the 'silent chest' phenomenon) has impending fatal respiratory failure. The cessation of wheezing in a severely dyspneic, restless asthmatic client reflects severe airway constriction, muscular fatigue, and critical hypoventilation—an immediate airway and breathing emergency requiring rapid bronchodilator nebulization, oxygen, and preparation for emergent endotracheal intubation. The other three clients represent chronic stable conditions or non-immediate needs. Why the other options fail: option a describes angina that has already been relieved, which is a stable pattern rather than the most urgent problem. Option b is a glucose of 12.2 mmol/L awaiting a scheduled dose, high but not immediately life-threatening. Option d is a routine request for help to walk on post-operative day 3. None of the three carries an airway or breathing threat.",
+      "CORRECT (C) — \"A 61-year-old on the second day after a bowel resection, pale and clammy, pulse 124 and BP 92/56, just vomited 400 mL of dark blood\". The Airway, Breathing, Circulation framework puts circulation ahead of every stable or chronic complaint, and this client is bleeding now: a pulse of 124 with a systolic of 92 and cool, clammy skin is compensated hypovolaemic shock, and 400 mL of dark blood from a fresh anastomosis is an ongoing loss that will decompensate before morning. The nurse assesses and stays with this client, takes repeat observations, keeps the cannula patent, and escalates to the surgical team for cross-match and review — the bleeding will not wait for a round. Why the other options fail: option a describes angina that has already been relieved, which is a stable pattern rather than the most urgent problem. Option b is a glucose of 12.2 mmol/L awaiting a scheduled dose, high but not immediately life-threatening in a client who is alert and talking. Option d is a routine request for help to walk on post-operative day 3, which can be answered by anyone on the shift.",
     strategy: "Prioritization rule: Acute ABC threats outrank chronic stable conditions. A silent chest in severe asthma indicates imminent asphyxiation and respiratory arrest.",
     difficulty: "easy",
     tags: ["leadership", "prioritization", "abcs", "asthma", "clinical-judgement"],
@@ -42,7 +42,7 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "A narrative account of the shift so far, given in the order the events happened, and ending with the vital signs",
+        text: "A narrative account of the shift so far, given in the order the events happened, and ending with the vital signs so that the registrar has the full context",
       },
       {
         id: "c",
@@ -53,9 +53,9 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "A message passed on through a colleague, asking the registrar to call the ward when it is convenient",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "SBAR (Situation, Background, Assessment, Recommendation) is the validated, standard healthcare communication framework designed to deliver critical, concise, and actionable clinical information between professionals during urgent clinical deterioration: (1) Situation: Introduce oneself, client, unit, and the immediate problem (e.g., acute tachypnoea and tachycardia); (2) Background: Relevant admission diagnosis, surgical date, and baseline status; (3) Assessment: Current objective findings, vital sign trends, and clinical judgment; and (4) Recommendation: Explicit request for action (e.g., 'I need you to evaluate this client at the bedside immediately'). Why the other options fail: option b narrates the shift in chronological order and buries the vital signs at the end, which is the opposite of what an urgent call needs. Option c puts the request in writing for the next day, which is useless in a deterioration happening now. Option d hands the urgency to a third party and asks for a call at the registrar's convenience.",
+      "CORRECT (A) — \"SBAR: state the respiratory compromise, the surgical history, the vital-sign trend, and a clear request for immediate review\". SBAR (Situation, Background, Assessment, Recommendation) is the validated, standard healthcare communication framework designed to deliver critical, concise, and actionable clinical information between professionals during urgent clinical deterioration: (1) Situation: Introduce oneself, client, unit, and the immediate problem (e.g., acute tachypnoea and tachycardia); (2) Background: Relevant admission diagnosis, surgical date, and baseline status; (3) Assessment: Current objective findings, vital sign trends, and clinical judgment; and (4) Recommendation: Explicit request for action (e.g., 'I need you to evaluate this client at the bedside immediately'). Why the other options fail: option b narrates the shift in chronological order and buries the vital signs at the end, which is the opposite of what an urgent call needs. Option c puts the request in writing for the next day, which is useless in a deterioration happening now. Option d hands the urgency to a third party and asks for a call at the registrar's convenience.",
     strategy: "Clinical escalation: SBAR framework standardizes urgent communication. Rising respiratory rate is the earliest and most sensitive predictor of arrest.",
     difficulty: "easy",
     tags: ["leadership", "sbar", "clinical-escalation", "deteriorating-patient", "communication"],
@@ -76,16 +76,16 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Evaluating the efficacy of intravenous morphine administered 30 minutes ago for severe acute pancreatitis",
+        text: "Evaluating the efficacy of intravenous morphine administered 30 minutes ago for severe acute pancreatitis, and deciding whether a further dose is needed now",
       },
       {
         id: "d",
         text: "Measure and record routine vital signs and the volume drained from an indwelling catheter in a stable client",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "The registered nurse cannot delegate tasks requiring nursing clinical judgment, critical thinking, or professional evaluation. The classic 'E-A-T' mnemonic reminds nurses that the RN must never delegate: Evaluation, Assessment, or Teaching. Collecting routine objective data (e.g., vital signs, measuring urine output from a drainage bag) and assisting with basic Activities of Daily Living on stable clients are within the UAP's role. Performing admission assessments, formulating nursing care plans, client education, and evaluating medication efficacy are exclusive legal responsibilities of the licensed professional nurse. Why the other options fail: option a is an initial assessment, which only the registered nurse can perform. Option b is teaching, which the nurse cannot delegate. Option c is evaluation of a drug's effect, which requires nursing judgement about efficacy. All three fall under the assess-evaluate-teach exclusion.",
+      "CORRECT (D) — \"Measure and record routine vital signs and the volume drained from an indwelling catheter in a stable client\". The registered nurse cannot delegate tasks requiring nursing clinical judgment, critical thinking, or professional evaluation. The classic 'E-A-T' mnemonic reminds nurses that the RN must never delegate: Evaluation, Assessment, or Teaching. Collecting routine objective data (e.g., vital signs, measuring urine output from a drainage bag) and assisting with basic Activities of Daily Living on stable clients are within the UAP's role. Performing admission assessments, formulating nursing care plans, client education, and evaluating medication efficacy are exclusive legal responsibilities of the licensed professional nurse. Why the other options fail: option a is an initial assessment, which only the registered nurse can perform. Option b is teaching, which the nurse cannot delegate. Option c is evaluation of a drug's effect, which requires nursing judgement about efficacy. All three fall under the assess-evaluate-teach exclusion.",
     strategy: "Delegation rules: Do NOT delegate 'E-A-T' (Evaluation, Assessment, Teaching). UAP can perform routine vital signs, hygiene, and output measurement on STABLE clients.",
     difficulty: "easy",
     tags: ["leadership", "delegation", "scope-of-practice", "uap", "five-rights"],
@@ -113,9 +113,9 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "A client newly diagnosed with acute leukemia requiring initial chemotherapy education and psychological crisis intervention",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "The scope of practice for the LPN/LVN focuses on providing routine care for stable clients with predictable clinical outcomes under the supervision of an RN. LPNs/LVNs can administer oral, subcutaneous, and intramuscular medications (in most jurisdictions, excluding IV push high-alert drugs or complex titration infusions), perform sterile dressing changes on healing wounds, monitor findings, and perform routine catheter care. Unstable clients, complex IV titration infusions (e.g., DKA insulin titrations), initial clinical assessments, and complex discharge/chemotherapy teaching must be managed directly by the RN. Why the other options fail: option a is an unstable client on a titrated insulin infusion, which needs the registered nurse. Option c is a trauma client on massive transfusion with invasive monitoring, which needs critical care competence. Option d needs initial chemotherapy teaching and crisis intervention, which the licensed practical nurse cannot provide.",
+      "CORRECT (B) — \"A stable client 3 days after laparoscopic cholecystectomy needing routine oral medicines and a dry dressing change\". The scope of practice for the LPN/LVN focuses on providing routine care for stable clients with predictable clinical outcomes under the supervision of an RN. LPNs/LVNs can administer oral, subcutaneous, and intramuscular medications (in most jurisdictions, excluding IV push high-alert drugs or complex titration infusions), perform sterile dressing changes on healing wounds, monitor findings, and perform routine catheter care. Unstable clients, complex IV titration infusions (e.g., DKA insulin titrations), initial clinical assessments, and complex discharge/chemotherapy teaching must be managed directly by the RN. Why the other options fail: option a is an unstable client on a titrated insulin infusion, which needs the registered nurse. Option c is a trauma client on massive transfusion with invasive monitoring, which needs critical care competence. Option d needs initial chemotherapy teaching and crisis intervention, which the licensed practical nurse cannot provide.",
     strategy: "LPN/LVN scope: Stable clients with predictable outcomes. Administer routine oral/IM meds and perform standard wound dressings. RN takes unstable clients and IV titrations.",
     difficulty: "medium",
     tags: ["leadership", "delegation", "lpn-scope", "team-nursing", "workload-allocation"],
@@ -143,9 +143,9 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Ask the client to say if the arm hurts, and record the incident in the ward diary at the end of the shift",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "Supervision is the fifth right of delegation and requires active monitoring of delegated care and immediate intervention when client safety is jeopardized. Pulling on a hemiplegic arm risks shoulder joint dislocation (subluxation) and severe brachial plexus traction injury. The nurse's immediate priority is client safety: intervene calmly and physically assist with the transfer using proper biomechanics and gait belt. Once the client is safe and settled, the nurse provides private, professional, constructive feedback and re-education regarding transfer techniques. Why the other options fail: option a corrects the assistant in public, which damages the working relationship and the client's confidence in both of them. Option c defers the correction for two weeks while the unsafe practice continues. Option d shifts responsibility for safety onto the client, who cannot prevent a shoulder injury.",
+      "CORRECT (B) — \"Step in at once and help with the transfer using a gait belt and safe technique, then teach the assistant in private\". Supervision is the fifth right of delegation and requires active monitoring of delegated care and immediate intervention when client safety is jeopardized. Pulling on a hemiplegic arm risks shoulder joint dislocation (subluxation) and severe brachial plexus traction injury. The nurse's immediate priority is client safety: intervene calmly and physically assist with the transfer using proper biomechanics and gait belt. Once the client is safe and settled, the nurse provides private, professional, constructive feedback and re-education regarding transfer techniques. Why the other options fail: option a corrects the assistant in public, which damages the working relationship and the client's confidence in both of them. Option c defers the correction for two weeks while the unsafe practice continues. Option d shifts responsibility for safety onto the client, who cannot prevent a shoulder injury.",
     strategy: "Supervisory intervention: Protect client safety FIRST by stepping in immediately -> Provide corrective instruction in PRIVATE (never embarrass in public).",
     difficulty: "easy",
     tags: ["leadership", "supervision", "delegation", "patient-safety", "constructive-feedback"],
@@ -154,28 +154,28 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-LEAD-006",
     categorySlug: "leadership-delegation",
-    stem: "During a sudden, unexpected in-hospital cardiac arrest in the medical ward, the charge nurse steps forward, gives clear, direct, non-negotiable verbal orders to team members, designates specific roles (compressions, airway, defibrillation, recorder), and strictly manages resuscitation choreography. Which leadership style is being demonstrated, and why is it indicated here?",
+    stem: "A ward has two nurses in their first month after qualification and two nurses with fifteen years of experience. The nurse manager gives the new nurses close direction, frequent checks and step-by-step instructions, while she hands the experienced nurses responsibility for the complex cases and checks in only at the end of the shift. Which leadership approach is she using?",
     choices: [
       {
         id: "a",
-        text: "Laissez-faire: each team member works from their own judgement, which keeps the team flexible when the situation changes",
+        text: "Autocratic leadership, because she is the one who decides which nurse receives which of the clients on the ward",
       },
       {
         id: "b",
-        text: "Democratic: a quick show of hands decides the next intervention, so that everyone is committed to the plan",
+        text: "Laissez-faire leadership, because the experienced nurses are left to work out their own methods without direction",
       },
       {
         id: "c",
-        text: "Transactional: each member is assigned a task and rewarded for completing it, which is what fixes the roles",
+        text: "Situational leadership, because the amount of direction and support is matched to each nurse's readiness",
       },
       {
         id: "d",
-        text: "Autocratic leadership: in an arrest, rapid decisions and fixed roles save lives, and debate has no place until it is over",
+        text: "Transactional leadership, because the experienced nurses are trading their competence for an easier shift",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "c",
     rationale:
-      "Leadership styles are situational: (1) Autocratic (authoritarian) leadership is characterized by centralized decision-making, top-down directives, and strict task allocation. While suboptimal for routine team morale, it is the most effective and essential leadership style in acute resuscitations, cardiac arrests, trauma codes, and disasters where immediate, synchronized, decisive execution is necessary to preserve life. (2) Democratic leadership promotes shared governance and consensus-building, ideal for unit quality improvement. (3) Transformational leadership inspires long-term innovation and organizational growth. (4) Laissez-faire provides minimal direction, leading to chaos in emergencies. Why the other options fail: option a leaves the team to improvise in an arrest, which produces duplicated and missed actions. Option b puts a vote in the middle of a resuscitation, when decisions are needed in seconds. Option c describes a transactional assignment of tasks, which does not capture the directive style an arrest requires.",
+      "CORRECT (C) — \"Situational leadership, because the amount of direction and support is matched to each nurse's readiness\". Situational leadership, described by Hersey and Blanchard, holds that there is no single best way to lead: the leader reads how ready a follower is for a task — both willing and able — and then adjusts the amount of direction (task behaviour) and support (relationship behaviour) to match. A newly qualified nurse in her first month is willing but not yet able, so she needs telling and close supervision; an experienced nurse is both willing and able, so she needs delegation and only distant oversight. Applying one style to both groups would either abandon the new nurses or insult the experienced ones. Why the other options fail: option a is autocratic leadership, which is the right style in an arrest but here would keep the experienced nurses on a leash, so it does not describe what she did with them. Option b is laissez-faire, which gives no direction at all and would leave the new nurses' first month unmanaged. Option d is transactional leadership, which trades rewards for performance and describes neither pair's supervision.",
     strategy: "Leadership styles: Autocratic = Emergency/cardiac arrest (rapid decisive direction). Democratic = Quality improvement/team consensus. Transformational = Vision/change.",
     difficulty: "easy",
     tags: ["leadership", "leadership-styles", "autocratic", "emergency-management", "code-team"],
@@ -192,7 +192,7 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Keep her at the CHPS compound on bed rest, repeat the blood pressure in 24 hours, and send for magnesium if it rises",
+        text: "Keep her at the CHPS compound on bed rest, repeat the blood pressure in 24 hours, and send for magnesium if it rises any further overnight, since transfer after dark is difficult",
       },
       {
         id: "c",
@@ -203,9 +203,9 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Give magnesium sulphate if any can be found in the store, and deliver the baby at the compound if she convulses",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "In the tiered health system (CHPS -> Health Centre -> District Hospital -> Regional/Teaching Hospital), primary care nurses must promptly identify conditions that exceed the structural and legal scope of their facility. Severe pre-eclampsia carries immediate risks of eclamptic convulsions, stroke, and maternal/fetal mortality. Effective referral coordination mandates: (1) prompt clinical stabilization within facility capability (e.g., initial oral labetalol/nifedipine or loading magnesium sulphate if trained and equipped); (2) early notification of the receiving facility ('warm handover' call ahead); (3) securing dedicated transport with a trained clinical escort; and (4) complete handover documentation. Why the other options fail: option b keeps a woman with severe pre-eclampsia at a facility that cannot treat her and reviews her a day later. Option c sends her home to travel during a seizure. Option d proposes treatment beyond both the facility's supply and its scope of practice.",
+      "CORRECT (A) — \"Give the available antihypertensives, call the district hospital, arrange an escorted ambulance, and complete the referral form\". In the tiered health system (CHPS -> Health Centre -> District Hospital -> Regional/Teaching Hospital), primary care nurses must promptly identify conditions that exceed the structural and legal scope of their facility. Severe pre-eclampsia carries immediate risks of eclamptic convulsions, stroke, and maternal/fetal mortality. Effective referral coordination mandates: (1) prompt clinical stabilization within facility capability (e.g., initial oral labetalol/nifedipine or loading magnesium sulphate if trained and equipped); (2) early notification of the receiving facility ('warm handover' call ahead); (3) securing dedicated transport with a trained clinical escort; and (4) complete handover documentation. Why the other options fail: option b keeps a woman with severe pre-eclampsia at a facility that cannot treat her and reviews her a day later. Option c sends her home to travel during a seizure. Option d proposes treatment beyond both the facility's supply and its scope of practice.",
     strategy: "Health system referral: Stabilize within capability -> Call receiving hospital ahead -> Arrange emergency transport with clinical escort -> Document handover.",
     difficulty: "easy",
     tags: ["leadership", "health-systems", "primary-health-care", "referral-pathway", "emergency-transfer"],
@@ -226,16 +226,16 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Give the floated nurse one stable ICU client and ask her to manage the ventilator settings independently",
+        text: "Give the floated nurse one stable ICU client and ask her to manage the ventilator settings independently, with the ICU nurse available only if she has a question",
       },
       {
         id: "d",
         text: "Send her home if no ICU-trained nurse can supervise her, and cover the shift with the remaining staff",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "When allocating assignments to a 'floating' nurse, the charge nurse must evaluate the nurse's competencies, licensure, and experience relative to client acuity. A floated medical-surgical nurse has core competencies in medication administration, assessment, and routine post-operative/medical care, but lacks specialized training in critical care technologies (e.g., CRRT, intracranial pressure monitoring, complex vasoactive inotrope titration). The charge nurse should assign the most stable, low-acuity clients on the unit (e.g., stable 'step-down' clients awaiting transfer) and designate a permanent unit nurse as a mentor and clinical resource. Why the other options fail: option a gives the floated nurse an unstable client on three inotropes, which is beyond her competence and unsafe for the client. Option c asks her to manage ventilator settings independently. Option d removes a pair of hands from the unit and leaves it below minimum staffing.",
+      "CORRECT (B) — \"A stable client awaiting ward transfer who needs core medical-surgical skills, with an ICU nurse as resource\". When allocating assignments to a 'floating' nurse, the charge nurse must evaluate the nurse's competencies, licensure, and experience relative to client acuity. A floated medical-surgical nurse has core competencies in medication administration, assessment, and routine post-operative/medical care, but lacks specialized training in critical care technologies (e.g., CRRT, intracranial pressure monitoring, complex vasoactive inotrope titration). The charge nurse should assign the most stable, low-acuity clients on the unit (e.g., stable 'step-down' clients awaiting transfer) and designate a permanent unit nurse as a mentor and clinical resource. Why the other options fail: option a gives the floated nurse an unstable client on three inotropes, which is beyond her competence and unsafe for the client. Option c asks her to manage ventilator settings independently. Option d removes a pair of hands from the unit and leaves it below minimum staffing.",
     strategy: "Floating nurse assignment: Match assignment to core competencies. Assign the most STABLE clients with predictable needs. Never assign high-acuity specialized devices.",
     difficulty: "medium",
     tags: ["leadership", "floating-nurse", "staffing", "workload-allocation", "patient-safety"],
@@ -248,7 +248,7 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Avoiding: the manager separates the nurses onto different shifts, so the disagreement no longer delays the rounds",
+        text: "Avoiding: the manager separates the nurses onto different shifts, so the disagreement no longer delays the rounds and neither nurse has to give way",
       },
       {
         id: "b",
@@ -263,9 +263,9 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Accommodating: the junior nurse lets the senior have her way, and raises it again if the delay recurs",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "Under the Thomas-Kilmann Conflict Mode Instrument, five modes exist: Competing, Accommodating, Avoiding, Compromising, and Collaborating. Collaborating represents high assertiveness and high cooperation (the 'win-win' approach). Both parties work together to explore mutual concerns, identify root problems, and create an integrative solution where neither party compromises core clinical standards. It fosters trust, enhances teamwork, and yields long-lasting resolutions in healthcare settings. Why the other options fail: option a avoids the conflict by separating the nurses, so the underlying scheduling problem stays. Option c is competing: one nurse wins and the other complies under threat, which does not fix the workflow. Option d is accommodating: one nurse gives way and the delays continue.",
+      "CORRECT (B) — \"Collaborating: both nurses examine the workload and co-design a joint schedule, so that neither loses and patients gain\". Under the Thomas-Kilmann Conflict Mode Instrument, five modes exist: Competing, Accommodating, Avoiding, Compromising, and Collaborating. Collaborating represents high assertiveness and high cooperation (the 'win-win' approach). Both parties work together to explore mutual concerns, identify root problems, and create an integrative solution where neither party compromises core clinical standards. It fosters trust, enhances teamwork, and yields long-lasting resolutions in healthcare settings. Why the other options fail: option a avoids the conflict by separating the nurses, so the underlying scheduling problem stays. Option c is competing: one nurse wins and the other complies under threat, which does not fix the workflow. Option d is accommodating: one nurse gives way and the delays continue.",
     strategy: "Conflict resolution: Collaborating = Win-Win. Joint problem-solving to address root concerns and create an optimal integrated solution.",
     difficulty: "easy",
     tags: ["leadership", "conflict-resolution", "collaborating", "thomas-kilmann", "teamwork"],
@@ -290,12 +290,12 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "Tell the other staff on the ward quietly, so that they check her narcotic counts after every shift",
+        text: "Tell the other staff on the ward quietly, so that they check her narcotic counts after every shift and watch her whenever she draws up a controlled drug",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "Impaired nursing practice due to substance use disorder directly threatens client safety and patient outcomes. Warning signs include: mood changes, frequent bathroom breaks, offering to medicate colleagues' patients for pain, discrepancies in controlled drug counts, and signs of intoxication (miosis, somnolence, ataxia). The nurse's paramount ethical, legal, and professional duty is patient protection. The nurse must NOT ignore, confront in anger, or cover up for the colleague. The nurse must report the objective, factual observations promptly to the nurse manager or nursing supervisor through institutional reporting channels. Why the other options fail: option b confronts and demands a sample, which risks a scene on the ward and is not the nurse's role. Option c waits for proof and leaves clients exposed to a colleague who is diverting opioids now. Option d broadcasts the suspicion, which destroys the colleague's reputation and the investigation.",
+      "CORRECT (A) — \"Report the observations confidentially to the nurse manager at once, so that clients are protected and she can be helped\". Impaired nursing practice due to substance use disorder directly threatens client safety and patient outcomes. Warning signs include: mood changes, frequent bathroom breaks, offering to medicate colleagues' patients for pain, discrepancies in controlled drug counts, and signs of intoxication (miosis, somnolence, ataxia). The nurse's paramount ethical, legal, and professional duty is patient protection. The nurse must NOT ignore, confront in anger, or cover up for the colleague. The nurse must report the objective, factual observations promptly to the nurse manager or nursing supervisor through institutional reporting channels. Why the other options fail: option b confronts and demands a sample, which risks a scene on the ward and is not the nurse's role. Option c waits for proof and leaves clients exposed to a colleague who is diverting opioids now. Option d broadcasts the suspicion, which destroys the colleague's reputation and the investigation.",
     strategy: "Impaired practice: Immediate confidential reporting to the nurse manager/supervisor is mandatory. Client protection is the #1 ethical duty.",
     difficulty: "easy",
     tags: ["leadership", "impaired-practice", "substance-abuse", "ethics", "professional-reporting"],
@@ -308,7 +308,7 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Ask the client to sign now, and have the surgeon answer her questions when he sees her in the anaesthetic room",
+        text: "Ask the client to sign now, and have the surgeon answer her questions when he sees her in the anaesthetic room before the operation begins",
       },
       {
         id: "b",
@@ -323,9 +323,9 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Do not witness the form: tell the surgeon the client does not understand and needs further explanation before signing",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "Informed consent is the legal and ethical responsibility of the practitioner performing the procedure (the surgeon/physician). The surgeon must disclose the nature of the surgery, specific risks, anticipated benefits, alternatives, and consequences of refusal. The nurse's role in informed consent is strictly limited to: (1) witnessing the client's signature; (2) verifying that the client has decisional capacity; and (3) confirming that consent is voluntary. If the client expresses lack of understanding, the nurse must NOT explain the surgical procedure or obtain signature; the nurse must withhold witnessing and notify the surgeon to return and provide full informed disclosure. Why the other options fail: option a obtains a signature that is not informed, which is the situation the nurse is there to prevent. Option b has the nurse give the surgical explanation, which belongs to the surgeon and exceeds the nursing role. Option c signs on the client's behalf, which is forgery and voids the consent.",
+      "CORRECT (D) — \"Do not witness the form: tell the surgeon the client does not understand and needs further explanation before signing\". Informed consent is the legal and ethical responsibility of the practitioner performing the procedure (the surgeon/physician). The surgeon must disclose the nature of the surgery, specific risks, anticipated benefits, alternatives, and consequences of refusal. The nurse's role in informed consent is strictly limited to: (1) witnessing the client's signature; (2) verifying that the client has decisional capacity; and (3) confirming that consent is voluntary. If the client expresses lack of understanding, the nurse must NOT explain the surgical procedure or obtain signature; the nurse must withhold witnessing and notify the surgeon to return and provide full informed disclosure. Why the other options fail: option a obtains a signature that is not informed, which is the situation the nurse is there to prevent. Option b has the nurse give the surgical explanation, which belongs to the surgeon and exceeds the nursing role. Option c signs on the client's behalf, which is forgery and voids the consent.",
     strategy: "Informed consent roles: Physician/surgeon EXPLAINS procedure, risks, and alternatives. Nurse WITNESSES signature and confirms voluntary consent. If client has doubts -> Call surgeon.",
     difficulty: "easy",
     tags: ["leadership", "informed-consent", "legal-nursing", "patient-advocacy", "ethics"],
@@ -338,7 +338,7 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Start compressions at once, because a family member present at the arrest can override a written DNR order",
+        text: "Start compressions at once, because a family member present at the arrest can override a written DNR order that the client signed while still competent",
       },
       {
         id: "b",
@@ -353,9 +353,9 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Ask security to remove the daughter from the unit, then start resuscitation once she has gone",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "A valid Do-Not-Resuscitate (DNR) order and advance directive represent the legally binding autonomous choices of a competent individual. Family members cannot legally revoke or override a capacitous adult's prior living will or DNR order when cardiac arrest occurs. Initiating CPR against a valid DNR violates client autonomy and constitutes battery. Performing a 'slow code' (faking resuscitation) is deceitful, unethical, and legally impermissible. The nurse must uphold the client's documented autonomous wishes, gently withhold resuscitation, support the family through the acute shock of bereavement, and contact the palliative or chaplaincy team. Why the other options fail: option a lets a relative override a valid written order at the bedside, which no relative can do. Option c performs a sham resuscitation, which deceives the family and is professionally indefensible. Option d removes the daughter so that CPR can start, which ignores the order entirely.",
+      "CORRECT (B) — \"Honour the DNR order, start no CPR or defibrillation, and support the daughter calmly and privately in her grief\". A valid Do-Not-Resuscitate (DNR) order and advance directive represent the legally binding autonomous choices of a competent individual. Family members cannot legally revoke or override a capacitous adult's prior living will or DNR order when cardiac arrest occurs. Initiating CPR against a valid DNR violates client autonomy and constitutes battery. Performing a 'slow code' (faking resuscitation) is deceitful, unethical, and legally impermissible. The nurse must uphold the client's documented autonomous wishes, gently withhold resuscitation, support the family through the acute shock of bereavement, and contact the palliative or chaplaincy team. Why the other options fail: option a lets a relative override a valid written order at the bedside, which no relative can do. Option c performs a sham resuscitation, which deceives the family and is professionally indefensible. Option d removes the daughter so that CPR can start, which ignores the order entirely.",
     strategy: "DNR & Advance Directives: Legally valid DNR orders MUST be honoured. Family wishes cannot override a patient's documented advance directive. No 'slow codes'.",
     difficulty: "medium",
     tags: ["leadership", "dnr", "advance-directives", "autonomy", "end-of-life-ethics"],
@@ -383,9 +383,9 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Paternalism (the belief that health workers always know best regardless of client views)",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "The foundational bioethical principles in nursing are: (1) Veracity: The moral obligation to tell the truth, be transparent, and avoid deception or intentional omission. The client has the right to know what medication is being administered and its intended purpose. (2) Autonomy: The right of self-determination and to accept or refuse treatment. (3) Beneficence: Doing good and acting in the client's best interest. (4) Non-maleficence: The duty to do no harm. (5) Justice: Fairness in distribution of care. (6) Fidelity: Faithfulness to commitments and promises. Why the other options fail: option a is the duty to avoid harm, and the question is specifically about telling the truth. Option b concerns fair distribution of resources, which is not at issue. Option d is the opposite of the principle being tested, because it would justify withholding the information.",
+      "CORRECT (C) — \"Veracity (the ethical duty to tell the truth and not intentionally deceive clients)\". The foundational bioethical principles in nursing are: (1) Veracity: The moral obligation to tell the truth, be transparent, and avoid deception or intentional omission. The client has the right to know what medication is being administered and its intended purpose. (2) Autonomy: The right of self-determination and to accept or refuse treatment. (3) Beneficence: Doing good and acting in the client's best interest. (4) Non-maleficence: The duty to do no harm. (5) Justice: Fairness in distribution of care. (6) Fidelity: Faithfulness to commitments and promises. Why the other options fail: option a is the duty to avoid harm, and the question is specifically about telling the truth. Option b concerns fair distribution of resources, which is not at issue. Option d is the opposite of the principle being tested, because it would justify withholding the information.",
     strategy: "Bioethics definitions: Veracity = Truth-telling. Autonomy = Self-determination. Beneficence = Doing good. Non-maleficence = Do no harm. Fidelity = Keeping promises.",
     difficulty: "easy",
     tags: ["leadership", "bioethics", "veracity", "autonomy", "nursing-ethics"],
@@ -432,7 +432,7 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Identify the nurse who prepared the dose and take disciplinary action, which shows that the standard is enforced",
+        text: "Identify the nurse who prepared the dose and take disciplinary action, which shows that the standard is enforced and deters the same error on the next shift",
       },
       {
         id: "c",
@@ -443,9 +443,9 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Require a second nurse to check every intravenous drug for 6 months, then review whether errors have fallen",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "A Just Culture balances individual accountability with a non-punitive focus on systemic latent errors. When a sentinel event occurs, conducting a Root Cause Analysis (RCA) seeks to answer 'What happened? Why did it happen? What systems can be redesigned to prevent recurrence?' Studies demonstrate that over 85–90% of medical errors stem from faulty system designs (e.g., concentrated potassium stocked on general wards, look-alike ampoules, unverified verbal orders, noisy medication rooms) rather than reckless personal sabotage. Punitive scapegoating drives errors underground, destroying safety reporting cultures. Why the other options fail: option b is the blame response that Just Culture exists to replace, and it leaves the packaging unchanged. Option c protects the organisation's records instead of the next patient and conceals the evidence the analysis needs. Option d moves the task to another group without changing the system that allowed the overdose.",
+      "CORRECT (A) — \"A blameless multidisciplinary review of the system: packaging, storage, ordering and checking, not the individual nurse\". A Just Culture balances individual accountability with a non-punitive focus on systemic latent errors. When a sentinel event occurs, conducting a Root Cause Analysis (RCA) seeks to answer 'What happened? Why did it happen? What systems can be redesigned to prevent recurrence?' Studies demonstrate that over 85–90% of medical errors stem from faulty system designs (e.g., concentrated potassium stocked on general wards, look-alike ampoules, unverified verbal orders, noisy medication rooms) rather than reckless personal sabotage. Punitive scapegoating drives errors underground, destroying safety reporting cultures. Why the other options fail: option b is the blame response that Just Culture exists to replace, and it leaves the packaging unchanged. Option c protects the organisation's records instead of the next patient and conceals the evidence the analysis needs. Option d moves the task to another group without changing the system that allowed the overdose.",
     strategy: "Just culture & Root Cause Analysis: System-level focus on latent vulnerabilities (storage, packaging, workflows) rather than individual blame. Drives safety improvement.",
     difficulty: "easy",
     tags: ["leadership", "just-culture", "root-cause-analysis", "sentinel-events", "quality-improvement"],
@@ -458,7 +458,7 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Note in the progress record that an incident report was filed, so that the next shift knows the event is being investigated",
+        text: "Note in the progress record that an incident report was filed, so that the next shift knows the event is being investigated and does not repeat the dose",
       },
       {
         id: "b",
@@ -473,9 +473,9 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Record the drug given, the assessment, the prescriber's notification and the treatment; never mention the incident report in the chart",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "Incident (variance/occurrence) reports are internal, confidential administrative tools used by hospital risk management and quality improvement to identify safety vulnerabilities. In the patient's medical record, the nurse documents only objective, clinical facts: drug given, client physical findings, notification of prescriber, orders received, client response, and ongoing monitoring. Crucially, the nurse must NEVER record in the clinical chart that an incident report was completed or filed (e.g., 'Incident report completed'). Mentioning the report in the clinical chart can compromise attorney-client privilege and makes the internal risk document discoverable in legal litigation. Why the other options fail: option a mentions the report in the clinical record, which makes a privileged internal document discoverable. Option b files the report in the chart for the same reason, and mixes two records with different purposes. Option c removes the allergy from the record, which is falsification and would endanger the client if the drug were offered again.",
+      "CORRECT (D) — \"Record the drug given, the assessment, the prescriber's notification and the treatment; never mention the incident report in the chart\". Incident (variance/occurrence) reports are internal, confidential administrative tools used by hospital risk management and quality improvement to identify safety vulnerabilities. In the patient's medical record, the nurse documents only objective, clinical facts: drug given, client physical findings, notification of prescriber, orders received, client response, and ongoing monitoring. Crucially, the nurse must NEVER record in the clinical chart that an incident report was completed or filed (e.g., 'Incident report completed'). Mentioning the report in the clinical chart can compromise attorney-client privilege and makes the internal risk document discoverable in legal litigation. Why the other options fail: option a mentions the report in the clinical record, which makes a privileged internal document discoverable. Option b files the report in the chart for the same reason, and mixes two records with different purposes. Option c removes the allergy from the record, which is falsification and would endanger the client if the drug were offered again.",
     strategy: "Incident report rules: Document objective facts, client assessment, and treatments in medical record. NEVER mention or file the incident report in the patient chart.",
     difficulty: "medium",
     tags: ["leadership", "incident-reporting", "risk-management", "documentation-standards", "legal-protection"],
@@ -496,16 +496,16 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "A verbal report in the treatment room, kept short so that neither nurse is away from the ward too long",
+        text: "A verbal report in the treatment room, kept short so that neither nurse is away from the ward too long during the busiest part of the round",
       },
       {
         id: "d",
         text: "Bedside handover with SBAR, so both nurses see the client and lines together and the client can take part",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "Bedside shift handover is an established patient safety practice endorsed by accreditation bodies (Joint Commission, WHO). Performing handover at the bedside: (1) enables direct visualization of the client, checking IV infusion rates, surgical dressings, and drain outputs simultaneously; (2) uses standardized communication tools (SBAR); (3) allows immediate two-way verification and clarifying questions between outgoing and incoming nurses; and (4) engages the patient and family as active partners in their care plan, eliminating discrepancies. Why the other options fail: option a gives a recorded message with no chance to ask questions and no view of the client. Option b leaves the incoming nurse to read a document alone, without the outgoing nurse's knowledge of what changed. Option c keeps the report short by holding it away from the bedside, where the lines and the client cannot be checked.",
+      "CORRECT (D) — \"Bedside handover with SBAR, so both nurses see the client and lines together and the client can take part\". Bedside shift handover is an established patient safety practice endorsed by accreditation bodies (Joint Commission, WHO). Performing handover at the bedside: (1) enables direct visualization of the client, checking IV infusion rates, surgical dressings, and drain outputs simultaneously; (2) uses standardized communication tools (SBAR); (3) allows immediate two-way verification and clarifying questions between outgoing and incoming nurses; and (4) engages the patient and family as active partners in their care plan, eliminating discrepancies. Why the other options fail: option a gives a recorded message with no chance to ask questions and no view of the client. Option b leaves the incoming nurse to read a document alone, without the outgoing nurse's knowledge of what changed. Option c keeps the report short by holding it away from the bedside, where the lines and the client cannot be checked.",
     strategy: "Handoff best practice: Bedside shift report using SBAR. Allows direct visualization of patient/lines, two-way questioning, and patient engagement.",
     difficulty: "easy",
     tags: ["leadership", "handoff", "bedside-shift-report", "sbar", "continuity-of-care"],
@@ -533,9 +533,9 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Outcome: the incidence of laboratory-confirmed CLABSI per 1,000 central line days",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "The PICO(T) format is the standard methodological framework for structuring clinical questions in Evidence-Based Practice (EBP): (1) P = Patient / Population / Problem (the clinical group of interest); (2) I = Intervention / Indicator (the new treatment, procedure, exposure, or clinical bundle being evaluated); (3) C = Comparison / Control (the current standard of practice or alternative intervention); (4) O = Outcome (the measurable clinical result desired); and (5) T = Timeframe (optional duration of evaluation). Why the other options fail: option a is the P of PICO, the population. Option b is the C, the comparison already in use. Option d is the O, the measured outcome. None of them names the intervention being tested.",
+      "CORRECT (C) — \"Intervention: the procedure or bundle being tested, such as chlorhexidine-impregnated dressings\". The PICO(T) format is the standard methodological framework for structuring clinical questions in Evidence-Based Practice (EBP): (1) P = Patient / Population / Problem (the clinical group of interest); (2) I = Intervention / Indicator (the new treatment, procedure, exposure, or clinical bundle being evaluated); (3) C = Comparison / Control (the current standard of practice or alternative intervention); (4) O = Outcome (the measurable clinical result desired); and (5) T = Timeframe (optional duration of evaluation). Why the other options fail: option a is the P of PICO, the population. Option b is the C, the comparison already in use. Option d is the O, the measured outcome. None of them names the intervention being tested.",
     strategy: "PICO format: P = Population, I = Intervention, C = Comparison, O = Outcome. Formulates structured search queries for evidence-based practice.",
     difficulty: "easy",
     tags: ["leadership", "evidence-based-practice", "pico", "research-methods", "clinical-inquiry"],
@@ -563,9 +563,9 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Stagnation stage",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "Kurt Lewin's classic planned change theory consists of three sequential stages: (1) Unfreezing: Overcoming inertia and resistance by breaking down existing mindsets, establishing a sense of urgency, sharing safety audit data, and demonstrating why change is vital; (2) Moving (Changing): Executing the planned change through education, coaching, workflow pilot testing, and implementing new behaviors (e.g., scanning barcodes); and (3) Refreezing: Integrating the new practice into permanent organizational culture through ongoing audits, policies, praise, and performance standards. Why the other options fail: option b is where the change is executed, not where the need is created. Option c is where the new practice is embedded after the change, not where it starts. Option d is not one of Lewin's stages at all.",
+      "CORRECT (A) — \"Unfreezing stage\". Kurt Lewin's classic planned change theory consists of three sequential stages: (1) Unfreezing: Overcoming inertia and resistance by breaking down existing mindsets, establishing a sense of urgency, sharing safety audit data, and demonstrating why change is vital; (2) Moving (Changing): Executing the planned change through education, coaching, workflow pilot testing, and implementing new behaviors (e.g., scanning barcodes); and (3) Refreezing: Integrating the new practice into permanent organizational culture through ongoing audits, policies, praise, and performance standards. Why the other options fail: option b is where the change is executed, not where the need is created. Option c is where the new practice is embedded after the change, not where it starts. Option d is not one of Lewin's stages at all.",
     strategy: "Lewin's change theory: 1. Unfreezing (create urgency, break old habits) -> 2. Moving (implement change, train) -> 3. Refreezing (institutionalize and sustain).",
     difficulty: "easy",
     tags: ["leadership", "change-management", "lewins-model", "unfreezing", "organizational-change"],
@@ -590,12 +590,12 @@ export const LEAD_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "Photograph the results on your phone so that you can review them while you answer the call bell",
+        text: "Photograph the results on your phone so that you can review them while you answer the call bell, and delete the picture once you have read it",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "Protection of digital health data under data protection acts and privacy legislation (e.g., Ghana Data Protection Act 2012 / Act 843, HIPAA) is a strict professional and legal requirement. Leaving an active, logged-in computer workstation unattended exposes confidential patient health data to unauthorized visitors, staff, and other clients. The nurse must lock or log off the terminal screen every time they step away, even momentarily. Passwords must never be shared or displayed, and photographing patient records on personal mobile devices is a gross privacy violation. Why the other options fail: option a hands custody of the screen to a visitor, who has no authority to see it. Option b exposes the password to anyone who passes the desk. Option d copies protected information onto a personal device, which is a disclosure as well as a security breach.",
+      "CORRECT (C) — \"Log off or lock the terminal immediately, so that protected health information cannot be seen by anyone else\". Protection of digital health data under data protection acts and privacy legislation (e.g., Ghana Data Protection Act 2012 / Act 843, HIPAA) is a strict professional and legal requirement. Leaving an active, logged-in computer workstation unattended exposes confidential patient health data to unauthorized visitors, staff, and other clients. The nurse must lock or log off the terminal screen every time they step away, even momentarily. Passwords must never be shared or displayed, and photographing patient records on personal mobile devices is a gross privacy violation. Why the other options fail: option a hands custody of the screen to a visitor, who has no authority to see it. Option b exposes the password to anyone who passes the desk. Option d copies protected information onto a personal device, which is a disclosure as well as a security breach.",
     strategy: "EHR security: Always log off or lock terminals before stepping away. Never share passwords or post patient data on mobile devices.",
     difficulty: "easy",
     tags: ["leadership", "informatics", "data-privacy", "confidentiality", "ehr-security"],

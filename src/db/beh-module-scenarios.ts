@@ -8,7 +8,7 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Focus on beta-cell failure and the HbA1c, because the metabolic problem is what the treatment targets",
+        text: "Focus on beta-cell failure and the HbA1c, because the metabolic problem is what the treatment targets, and leave the missed appointments to the clinic clerk to chase",
       },
       {
         id: "b",
@@ -23,9 +23,9 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Add an antidepressant first, because depression is the most common reason for missing appointments",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "George Engel's Biopsychosocial Model posits that health, illness, and healthcare delivery cannot be fully understood by biological pathology alone. It requires examining the dynamic interplay of biological factors (glycemic control, genetics), psychological components (illness perceptions, coping styles, emotional distress, self-efficacy), and social determinants (socioeconomic status, family dynamics, work schedule, cultural beliefs). Narrow biomedical reductionism ignores the real-world behavioral drivers of chronic disease; shaming the client and unwarranted neuroimaging are non-therapeutic. Why the other options fail: option a stays inside the biomedical lens the question asks the nurse to move beyond. Option c replaces assessment with judgement. Option d adds a treatment for a problem the assessment has not yet established.",
+      "CORRECT (B) — \"Explore how the disease, psychological stressors and social circumstances interact to shape the client's attendance\". George Engel's Biopsychosocial Model posits that health, illness, and healthcare delivery cannot be fully understood by biological pathology alone. It requires examining the dynamic interplay of biological factors (glycemic control, genetics), psychological components (illness perceptions, coping styles, emotional distress, self-efficacy), and social determinants (socioeconomic status, family dynamics, work schedule, cultural beliefs). Narrow biomedical reductionism ignores the real-world behavioral drivers of chronic disease; shaming the client and unwarranted neuroimaging are non-therapeutic. Why the other options fail: option a stays inside the biomedical lens the question asks the nurse to move beyond. Option c replaces assessment with judgement. Option d adds a treatment for a problem the assessment has not yet established.",
     strategy: "Biopsychosocial Model: Always assess biological, psychological, and social dimensions concurrently to understand client health behaviors.",
     difficulty: "easy",
     tags: ["behavioural-sciences", "biopsychosocial-model", "chronic-illness", "health-behaviour", "mental-health"],
@@ -83,9 +83,9 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Adjust the prescription to fit the client's belief, and give a lower dose so the drug does not cool the body too quickly",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "Arthur Kleinman's Explanatory Model framework encourages clinicians to explore how clients and families understand their sickness: etiology, timing, pathophysiology, severity, and acceptable treatment. Eliciting the client's perspective fosters trust and cultural humility, enabling the nurse to bridge clinical recommendations with the client's cultural framework (negotiating safe medical adherence while respecting spiritual practices that do not cause harm). Ridiculing the client or issuing ultimatums causes immediate care disengagement. Endorsing abandonment of evidence-based therapy is dangerous malpractice. Why the other options fail: Explaining that the biomedical model is the only evidence-based one dismisses the client's explanation and ends the negotiation before it starts; referring to a broker to persuade them that the explanation is wrong contradicts the belief rather than exploring it; lowering the dose to fit the belief abandons effective treatment.",
+      "CORRECT (A) — \"Elicit the client's own explanation of the illness, then negotiate a plan that respects it\". Arthur Kleinman's Explanatory Model framework encourages clinicians to explore how clients and families understand their sickness: etiology, timing, pathophysiology, severity, and acceptable treatment. Eliciting the client's perspective fosters trust and cultural humility, enabling the nurse to bridge clinical recommendations with the client's cultural framework (negotiating safe medical adherence while respecting spiritual practices that do not cause harm). Ridiculing the client or issuing ultimatums causes immediate care disengagement. Endorsing abandonment of evidence-based therapy is dangerous malpractice. Why the other options fail: Explaining that the biomedical model is the only evidence-based one dismisses the client's explanation and ends the negotiation before it starts; referring to a broker to persuade them that the explanation is wrong contradicts the belief rather than exploring it; lowering the dose to fit the belief abandons effective treatment.",
     strategy: "Kleinman's Explanatory Model: Understand the client's perspective on illness etiology and treatment expectations before negotiating medical therapy.",
     difficulty: "medium",
     tags: ["behavioural-sciences", "kleinman", "explanatory-model", "cultural-competence", "anthropology"],
@@ -113,9 +113,9 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Concrete operational stage: use models and show the plaster so the child can see and touch what will happen",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "Children aged 7 to 11 years are in Piaget's Concrete Operational stage of cognitive development. They can perform logical operations on tangible, concrete objects and understand cause-and-effect, conservation, and physical realities, but they struggle with purely abstract hypotheses. Explaining procedures with tangible models, letting them handle plaster casting gauze, and explaining how the cast holds the bone straight matches their cognitive capabilities. Sensorimotor is ages 0–2; Preoperational is ages 2–7 (prone to magical thinking and guilt); Formal operational begins around age 12 with abstract deductive reasoning. Why the other options fail: Preoperational describes a younger child who needs stories and play; formal operations begin around age 12, so abstract mechanics will not help a 9-year-old; sensorimotor describes infancy, where reasoning is not yet developed at all.",
+      "CORRECT (D) — \"Concrete operational stage: use models and show the plaster so the child can see and touch what will happen\". Children aged 7 to 11 years are in Piaget's Concrete Operational stage of cognitive development. They can perform logical operations on tangible, concrete objects and understand cause-and-effect, conservation, and physical realities, but they struggle with purely abstract hypotheses. Explaining procedures with tangible models, letting them handle plaster casting gauze, and explaining how the cast holds the bone straight matches their cognitive capabilities. Sensorimotor is ages 0–2; Preoperational is ages 2–7 (prone to magical thinking and guilt); Formal operational begins around age 12 with abstract deductive reasoning. Why the other options fail: Preoperational describes a younger child who needs stories and play; formal operations begin around age 12, so abstract mechanics will not help a 9-year-old; sensorimotor describes infancy, where reasoning is not yet developed at all.",
     strategy: "Piaget's stages: Sensorimotor (0–2), Preoperational (2–7), Concrete Operational (7–11: logical, tangible objects/models), Formal Operational (12+: abstract reasoning).",
     difficulty: "easy",
     tags: ["behavioural-sciences", "piaget", "cognitive-development", "pediatrics", "concrete-operational"],
@@ -143,9 +143,9 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Autistic isolation, with withdrawal that predates the separation rather than following it",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "John Bowlby and James Robertson described three sequential stages of separation anxiety in young children (especially 6 to 30 months): 1) PROTEST: The child vigorously cries, screams, clings, watches eagerly for parents, and angrily rejects unfamiliar caregivers; 2) DESPAIR: The crying stops, motor activity declines, and the child appears depressed, withdrawn, sad, and apathetic; 3) DETACHMENT (Denial): The child superficially adapts, appears interested in toys, but shows detachment from returning parents (a defense mechanism against deep emotional pain). Why the other options fail: option b is despair, when the crying has stopped and the child is withdrawn. Option c is detachment, when the child seems content and ignores the returning parent. Option d is not a phase of separation anxiety at all.",
+      "CORRECT (A) — \"Protest, with crying, screaming and rejecting the nurse's comfort\". John Bowlby and James Robertson described three sequential stages of separation anxiety in young children (especially 6 to 30 months): 1) PROTEST: The child vigorously cries, screams, clings, watches eagerly for parents, and angrily rejects unfamiliar caregivers; 2) DESPAIR: The crying stops, motor activity declines, and the child appears depressed, withdrawn, sad, and apathetic; 3) DETACHMENT (Denial): The child superficially adapts, appears interested in toys, but shows detachment from returning parents (a defense mechanism against deep emotional pain). Why the other options fail: option b is despair, when the crying has stopped and the child is withdrawn. Option c is detachment, when the child seems content and ignores the returning parent. Option d is not a phase of separation anxiety at all.",
     strategy: "Bowlby's separation anxiety stages: Protest (screaming, kicking, crying) -> Despair (quiet sadness, withdrawal) -> Detachment (superficial adjustment, ignoring parents).",
     difficulty: "easy",
     tags: ["behavioural-sciences", "attachment-theory", "bowlby", "separation-anxiety", "pediatrics"],
@@ -158,7 +158,7 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Trust versus mistrust, because the adolescent cannot rely on adults to keep them safe",
+        text: "Trust versus mistrust, because the adolescent cannot rely on adults to keep them safe and has stopped trusting the school nurse as well",
       },
       {
         id: "b",
@@ -173,9 +173,9 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Identity versus role confusion, because peer opinion shapes the adolescent's sense of self",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "Adolescents (ages 12 to 18 years) navigate Erikson's developmental stage of Identity versus Role Confusion. The primary developmental task is developing a sense of self, personal values, and peer group belonging. Fitting in with peers is paramount; chronic illnesses and visible regimens (like injections or blood glucose testing) threaten peer conformity and identity formation. The nurse should address this by integrating peer support groups, exploring discrete injection routines, and empowering autonomous self-care. Trust vs Mistrust is infancy; Initiative vs Guilt is early childhood (3–6 yrs); Generativity vs Stagnation is middle adulthood (40–65 yrs). Why the other options fail: option a belongs to infancy. Option b belongs to the preschool years. Option c belongs to midlife, when the task is contributing to the next generation.",
+      "CORRECT (D) — \"Identity versus role confusion, because peer opinion shapes the adolescent's sense of self\". Adolescents (ages 12 to 18 years) navigate Erikson's developmental stage of Identity versus Role Confusion. The primary developmental task is developing a sense of self, personal values, and peer group belonging. Fitting in with peers is paramount; chronic illnesses and visible regimens (like injections or blood glucose testing) threaten peer conformity and identity formation. The nurse should address this by integrating peer support groups, exploring discrete injection routines, and empowering autonomous self-care. Trust vs Mistrust is infancy; Initiative vs Guilt is early childhood (3–6 yrs); Generativity vs Stagnation is middle adulthood (40–65 yrs). Why the other options fail: option a belongs to infancy. Option b belongs to the preschool years. Option c belongs to midlife, when the task is contributing to the next generation.",
     strategy: "Erikson's stages: Adolescence (12–18) = Identity vs. Role Confusion. Peer conformity and fitting in are critical drivers of health behaviors.",
     difficulty: "easy",
     tags: ["behavioural-sciences", "erikson", "identity-vs-role-confusion", "adolescence", "psychosocial"],
@@ -192,7 +192,7 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Autonomy versus shame, because the client is struggling to remain independent in hospital",
+        text: "Autonomy versus shame, because the client is struggling to remain independent in hospital and resents needing help with washing and dressing",
       },
       {
         id: "c",
@@ -203,9 +203,9 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Intimacy versus isolation, because the client is seeking closeness in later life",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "Older adulthood (65+ years) centers on Erikson's stage of Ego Integrity versus Despair. The developmental task is life review: looking back over one's life to achieve a sense of fulfillment, meaning, and coherence (Ego Integrity) versus experiencing bitter regret, despair, and fear of impending death. Engaging in life review is a healthy, therapeutic process that nurses should facilitate through active listening and validation. Autonomy vs Shame is toddlerhood (1–3 yrs); Industry vs Inferiority is school age (6–12 yrs); Intimacy vs Isolation is young adulthood (18–40 yrs). Why the other options fail: option b belongs to toddlerhood. Option c belongs to school age. Option d belongs to young adulthood.",
+      "CORRECT (A) — \"Ego integrity versus despair, because the client is reviewing life and seeking peace with it\". Older adulthood (65+ years) centers on Erikson's stage of Ego Integrity versus Despair. The developmental task is life review: looking back over one's life to achieve a sense of fulfillment, meaning, and coherence (Ego Integrity) versus experiencing bitter regret, despair, and fear of impending death. Engaging in life review is a healthy, therapeutic process that nurses should facilitate through active listening and validation. Autonomy vs Shame is toddlerhood (1–3 yrs); Industry vs Inferiority is school age (6–12 yrs); Intimacy vs Isolation is young adulthood (18–40 yrs). Why the other options fail: option b belongs to toddlerhood. Option c belongs to school age. Option d belongs to young adulthood.",
     strategy: "Erikson's stages: Older adult (65+) = Ego Integrity vs. Despair. Life review and reflecting on one's life story are core developmental milestones.",
     difficulty: "easy",
     tags: ["behavioural-sciences", "erikson", "ego-integrity", "gerontology", "psychosocial-development"],
@@ -233,9 +233,9 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "The exhaustion stage, with adrenal atrophy, hypoglycaemia and collapse after prolonged stress",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "d",
     rationale:
-      "Hans Selye's General Adaptation Syndrome (GAS) comprises three distinct biological stages: 1) ALARM REACTION: Acute 'fight-or-flight' activation of the sympathetic nervous system and hypothalamic-pituitary-adrenal (HPA) axis (tachycardia, hypertension, hyperglycemia); 2) RESISTANCE: Sustained corticosteroid release and physiological adaptation to resist the ongoing stressor; 3) EXHAUSTION: Depletion of adaptive energy reserves following prolonged, relentless stress, resulting in organ system breakdown, adrenal insufficiency, blunted immune function, shock, or death. Why the other options fail: option a is the first stage, with a catecholamine surge rather than collapse. Option c is not a stage of the syndrome. Option d is where the body holds out at a cost, before its resources run down.",
+      "CORRECT (D) — \"The exhaustion stage, with adrenal atrophy, hypoglycaemia and collapse after prolonged stress\". Hans Selye's General Adaptation Syndrome has three stages, and this client is in the last of them. In the alarm reaction the sympathetic nervous system and the hypothalamic-pituitary-adrenal axis fire: catecholamines raise the heart rate, the blood pressure and the glucose. In resistance, cortisol sustains that response and the body holds out at a cost. In exhaustion the reserves are gone, and the picture reverses into the one described here — hypotension, hypoglycaemia, hypothermia, a collapsed immune response and adrenal atrophy after six months of unrelieved stress. Why the other options fail: option a is the first stage, which shows a catecholamine surge rather than collapse. Option b is not a stage of the syndrome at all: eustress is a term for beneficial stress, and a client with adrenal atrophy is not experiencing a performance-enhancing state. Option c is resistance, the stage in which cortisol is still keeping the glucose and the blood pressure up, and it is the stage before this one.",
     strategy: "Selye's GAS stages: Alarm (acute fight-or-flight) -> Resistance (coping/adaptation) -> Exhaustion (depletion of physiological reserves, collapse).",
     difficulty: "medium",
     tags: ["behavioural-sciences", "general-adaptation-syndrome", "selye", "stress-theory", "exhaustion"],
@@ -263,9 +263,9 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Intellectualisation, because the client reasons about the situation without feeling it",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "Displacement is an unconscious defense mechanism in which emotional anger, hostility, or distress triggered by a powerful, threatening person or situation (e.g., the corporate employer) is redirected onto a less threatening, safer substitute target (e.g., the triage nurse). Sublimation is redirecting unacceptable impulses into socially constructive pursuits (e.g., vigorous exercise). Reaction Formation is expressing the exact opposite of unconscious unacceptable feelings (e.g., behaving with fawning affection toward someone you detest). Intellectualization is analyzing an emotional event purely through sterile logic to avoid feeling. Why the other options fail: option b channels anger into something useful, which is not what shouting at a nurse does. Option c would show behaviour opposite to the feeling, such as excessive friendliness. Option d would show detached reasoning rather than abuse.",
+      "CORRECT (A) — \"Displacement, because anger at the employer is directed at a safer target, the nurse\". Displacement is an unconscious defense mechanism in which emotional anger, hostility, or distress triggered by a powerful, threatening person or situation (e.g., the corporate employer) is redirected onto a less threatening, safer substitute target (e.g., the triage nurse). Sublimation is redirecting unacceptable impulses into socially constructive pursuits (e.g., vigorous exercise). Reaction Formation is expressing the exact opposite of unconscious unacceptable feelings (e.g., behaving with fawning affection toward someone you detest). Intellectualization is analyzing an emotional event purely through sterile logic to avoid feeling. Why the other options fail: option b channels anger into something useful, which is not what shouting at a nurse does. Option c would show behaviour opposite to the feeling, such as excessive friendliness. Option d would show detached reasoning rather than abuse.",
     strategy: "Defense mechanism definitions: Displacement shifts emotions from the true target to a safer, vulnerable target.",
     difficulty: "easy",
     tags: ["behavioural-sciences", "defense-mechanisms", "displacement", "psychology", "coping"],
@@ -290,12 +290,12 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "Reaction formation, when the child behaves in the opposite way to how they actually feel",
+        text: "Reaction formation, when the child behaves in the opposite way to how they actually feel, acting cheerful and excited about being admitted to hospital",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "Regression is a common, adaptive, and temporary ego defense mechanism in young children facing severe stress, physical illness, hospitalization, or separation from family. The child retreats to behaviors associated with an earlier, safer developmental stage (e.g., thumb-sucking, enuresis, wanting a bottle) where they felt completely nurtured and protected. Reassuring parents that this behavior is normal and will resolve as health and security return prevents punitive parental reactions that worsen distress. Punishment increases anxiety; attributing this to brain damage or manipulation is clinically inaccurate. Why the other options fail: Repression is unconscious forgetting rather than a return to earlier behaviour; fixation is a developmental arrest rather than a temporary retreat; reaction formation would show behaviour opposite to the true feeling, not the behaviour of a younger child.",
+      "CORRECT (A) — \"Regression, when a child under stress returns to earlier behaviours such as bedwetting and thumb sucking\". Regression is a common, adaptive, and temporary ego defense mechanism in young children facing severe stress, physical illness, hospitalization, or separation from family. The child retreats to behaviors associated with an earlier, safer developmental stage (e.g., thumb-sucking, enuresis, wanting a bottle) where they felt completely nurtured and protected. Reassuring parents that this behavior is normal and will resolve as health and security return prevents punitive parental reactions that worsen distress. Punishment increases anxiety; attributing this to brain damage or manipulation is clinically inaccurate. Why the other options fail: Repression is unconscious forgetting rather than a return to earlier behaviour; fixation is a developmental arrest rather than a temporary retreat; reaction formation would show behaviour opposite to the true feeling, not the behaviour of a younger child.",
     strategy: "Defense mechanisms: Regression is retreating to an earlier developmental milestone during acute stress. It is normal and temporary in hospitalized children.",
     difficulty: "easy",
     tags: ["behavioural-sciences", "regression", "defense-mechanisms", "pediatrics", "hospitalization-stress"],
@@ -308,7 +308,7 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "The client's financial reserves, insurance cover and the availability of legal aid",
+        text: "The client's financial reserves, insurance cover and the availability of legal aid to rebuild the market stall and the family home after the fire",
       },
       {
         id: "b",
@@ -323,9 +323,9 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "The client's previous psychiatric history and adherence to past treatment plans",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "Donna Aguilera's Crisis Intervention methodology identifies three critical 'balancing factors' that determine whether a stressful life event triggers a state of emotional equilibrium or decompensates into a psychological crisis: 1) Realistic perception of the event (accurate understanding without catastrophic distortion or denial); 2) Adequate situational supports (available family, friends, community, and social resources to buffer distress); and 3) Adequate coping mechanisms (positive past behavioral strategies for problem-solving and emotional regulation). If any balancing factors are absent, crisis ensues. Financial metrics and lab values do not constitute Aguilera's model. Why the other options fail: option a is financial capital, not a balancing factor in the model. Option b is physiological measurement. Option d is background history, none of which predicts whether this crisis will resolve.",
+      "CORRECT (C) — \"Realistic perception of the event, adequate situational supports and effective coping mechanisms\". Donna Aguilera's Crisis Intervention methodology identifies three critical 'balancing factors' that determine whether a stressful life event triggers a state of emotional equilibrium or decompensates into a psychological crisis: 1) Realistic perception of the event (accurate understanding without catastrophic distortion or denial); 2) Adequate situational supports (available family, friends, community, and social resources to buffer distress); and 3) Adequate coping mechanisms (positive past behavioral strategies for problem-solving and emotional regulation). If any balancing factors are absent, crisis ensues. Financial metrics and lab values do not constitute Aguilera's model. Why the other options fail: option a is financial capital, not a balancing factor in the model. Option b is physiological measurement. Option d is background history, none of which predicts whether this crisis will resolve.",
     strategy: "Aguilera's 3 Balancing Factors in Crisis: 1) Realistic perception, 2) Situational support, 3) Coping mechanisms.",
     difficulty: "medium",
     tags: ["behavioural-sciences", "crisis-intervention", "aguilera", "balancing-factors", "mental-health"],
@@ -338,7 +338,7 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Transfer her care to a clinic nearer her home and close the record if she does not attend",
+        text: "Transfer her care to a clinic nearer her home and close the record if she does not attend, because the barrier is distance and non-attendance must carry a consequence",
       },
       {
         id: "b",
@@ -353,9 +353,9 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Report the mother to social services for neglect, because three children are at risk",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "The WHO Social Determinants of Health (SDOH) emphasizes that conditions in which people are born, grow, live, work, and age (e.g., poverty, transport deficits, childcare lack, insecure employment) drive more than 80% of health outcomes and clinic non-attendance. Labeling individuals 'non-compliant' ignores structural inequities. A compassionate home visit uncovers real barriers and allows tailored solutions (CHPS home visits, mobile outreach, transport subsidies, flexible clinic hours). Punitive threats and patient abandonment worsen maternal-fetal mortality and violate human rights. Why the other options fail: Closing the record after moving her nearer relocates care without removing the barrier that stopped her and breaks continuity; explaining the risks and sending a reminder treats a structural problem as a reminder problem; reporting her for neglect attributes the missed visits to her character.",
+      "CORRECT (B) — \"Conduct a home visit to find structural barriers and link the family to transport, childcare and social support\". The WHO Social Determinants of Health (SDOH) emphasizes that conditions in which people are born, grow, live, work, and age (e.g., poverty, transport deficits, childcare lack, insecure employment) drive more than 80% of health outcomes and clinic non-attendance. Labeling individuals 'non-compliant' ignores structural inequities. A compassionate home visit uncovers real barriers and allows tailored solutions (CHPS home visits, mobile outreach, transport subsidies, flexible clinic hours). Punitive threats and patient abandonment worsen maternal-fetal mortality and violate human rights. Why the other options fail: Closing the record after moving her nearer relocates care without removing the barrier that stopped her and breaks continuity; explaining the risks and sending a reminder treats a structural problem as a reminder problem; reporting her for neglect attributes the missed visits to her character.",
     strategy: "SDOH principle: Before attributing missed care to poor personal motivation, identify and address structural socioeconomic barriers.",
     difficulty: "easy",
     tags: ["behavioural-sciences", "social-determinants", "sdoh", "health-equity", "community-health"],
@@ -380,12 +380,12 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "Ask the family to stop bringing remedies and restrict their visits until the client stabilises",
+        text: "Ask the family to stop bringing remedies and restrict their visits until the client stabilises, so that the ward can control everything the client drinks",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "Cultural competence requires balancing respect for traditional cultural health practices with patient physiological safety. Licorice root contains glycyrrhizin, which inhibits 11-beta-hydroxysteroid dehydrogenase, leading to mineralocorticoid excess, severe hypokalemia, hypertension, and heart failure decompensation. The nurse explains the mechanism respectfully without denigrating their beliefs, validates their positive intention to heal, and negotiates safe alternatives (e.g., safe herbal teas without cardiac interactions or prayer/rituals). Aggressive confiscation destroys trust; passive negligence precipitates fatal heart failure; security ejection alienates the support system. Why the other options fail: option a removes the tea but not the belief, and the family will bring it again. Option b allows a substance that is actively harmful in heart failure. Option d punishes the family and guarantees that the next remedy is hidden.",
+      "CORRECT (C) — \"Explain the interaction, validate the wish for strength, and agree a safe alternative with the family\". Cultural competence requires balancing respect for traditional cultural health practices with patient physiological safety. Licorice root contains glycyrrhizin, which inhibits 11-beta-hydroxysteroid dehydrogenase, leading to mineralocorticoid excess, severe hypokalemia, hypertension, and heart failure decompensation. The nurse explains the mechanism respectfully without denigrating their beliefs, validates their positive intention to heal, and negotiates safe alternatives (e.g., safe herbal teas without cardiac interactions or prayer/rituals). Aggressive confiscation destroys trust; passive negligence precipitates fatal heart failure; security ejection alienates the support system. Why the other options fail: option a removes the tea but not the belief, and the family will bring it again. Option b allows a substance that is actively harmful in heart failure. Option d punishes the family and guarantees that the next remedy is hidden.",
     strategy: "Negotiating cultural health practices: Respect the intention, educate on specific physiological risks, and negotiate safe cultural practices that avoid harm.",
     difficulty: "medium",
     tags: ["behavioural-sciences", "cultural-competence", "herbal-medicine", "drug-herb-interactions", "patient-education"],
@@ -398,7 +398,7 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Contemplation, because the client has begun to think about quitting within the next six months",
+        text: "Contemplation, because the client has begun to think about quitting within the next six months and has started asking the nurse questions about nicotine replacement",
       },
       {
         id: "b",
@@ -413,9 +413,9 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Maintenance, because the client has already stopped and is sustaining the change",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "The Transtheoretical Model (TTM) stages are: 1) PRECONTEMPLATION: No intention to change behavior in the foreseeable future (typically defined as within the next 6 months); unaware or in denial of negative consequences; 2) CONTEMPLATION: Aware a problem exists and seriously considering change within 6 months, but ambivalent; 3) PREPARATION: Intending to take action within the next 30 days and taking initial small steps; 4) ACTION: Actively modifying behavior (within the past 6 months); 5) MAINTENANCE: Sustaining behavior change for over 6 months and preventing relapse. This client has zero intention to quit, fitting Precontemplation. Why the other options fail: Contemplation would require the client to be considering quitting within six months, which they explicitly are not; preparation would require a date and a plan; maintenance would require the client to have already stopped.",
+      "CORRECT (B) — \"Precontemplation, because the client does not see the behaviour as a problem and has no intention of changing\". The Transtheoretical Model (TTM) stages are: 1) PRECONTEMPLATION: No intention to change behavior in the foreseeable future (typically defined as within the next 6 months); unaware or in denial of negative consequences; 2) CONTEMPLATION: Aware a problem exists and seriously considering change within 6 months, but ambivalent; 3) PREPARATION: Intending to take action within the next 30 days and taking initial small steps; 4) ACTION: Actively modifying behavior (within the past 6 months); 5) MAINTENANCE: Sustaining behavior change for over 6 months and preventing relapse. This client has zero intention to quit, fitting Precontemplation. Why the other options fail: Contemplation would require the client to be considering quitting within six months, which they explicitly are not; preparation would require a date and a plan; maintenance would require the client to have already stopped.",
     strategy: "Stages of Change: Precontemplation = No intention to change ('I don't have a problem'); Contemplation = Ambivalent, thinking about change; Preparation = Planning to change soon.",
     difficulty: "easy",
     tags: ["behavioural-sciences", "stages-of-change", "transtheoretical-model", "precontemplation", "smoking-cessation"],
@@ -432,7 +432,7 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Perceived severity and self-efficacy, because she needs to fear cancer before she will act",
+        text: "Perceived severity and self-efficacy, because she needs to fear cancer before she will act, and the clinic should reinforce that fear at every visit she attends",
       },
       {
         id: "c",
@@ -443,9 +443,9 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Perceived benefits alone, because screening uptake follows once the purpose is explained",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "The Health Belief Model (HBM) posits that health-seeking behavior depends on: 1) Perceived Susceptibility (belief about chances of contracting a condition); 2) Perceived Severity (belief about seriousness and consequences); 3) Perceived Benefits (belief in efficacy of advised action); 4) Perceived Barriers (tangible and psychological costs of the action); 5) Cues to Action; and 6) Self-Efficacy. The woman exhibits low perceived susceptibility ('I feel healthy, so it can't happen to me') and high perceived barriers ('clinics are too far'). Psychoanalytic and Pavlovian models do not guide health screening behavior. Why the other options fail: Fear and confidence are not the two beliefs she stated; reminders alone isolate the cue from the beliefs that make it work; perceived benefits alone ignores both of her statements, that she does not feel at risk and that the clinic is far away.",
+      "CORRECT (C) — \"Perceived susceptibility and perceived barriers, because she does not feel at risk and sees the clinic as far away\". The Health Belief Model (HBM) posits that health-seeking behavior depends on: 1) Perceived Susceptibility (belief about chances of contracting a condition); 2) Perceived Severity (belief about seriousness and consequences); 3) Perceived Benefits (belief in efficacy of advised action); 4) Perceived Barriers (tangible and psychological costs of the action); 5) Cues to Action; and 6) Self-Efficacy. The woman exhibits low perceived susceptibility ('I feel healthy, so it can't happen to me') and high perceived barriers ('clinics are too far'). Psychoanalytic and Pavlovian models do not guide health screening behavior. Why the other options fail: Fear and confidence are not the two beliefs she stated; reminders alone isolate the cue from the beliefs that make it work; perceived benefits alone ignores both of her statements, that she does not feel at risk and that the clinic is far away.",
     strategy: "Health Belief Model: Health action requires sufficient Perceived Susceptibility and Severity, recognized Benefits, and low Perceived Barriers.",
     difficulty: "medium",
     tags: ["behavioural-sciences", "health-belief-model", "cervical-cancer", "perceived-susceptibility", "screening"],
@@ -462,7 +462,7 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Point out that the client is in denial and that continued drinking will kill them",
+        text: "Point out that the client is in denial and that continued drinking will kill them, so that the reality of the situation is confronted directly and without delay",
       },
       {
         id: "c",
@@ -473,9 +473,9 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Reflect both sides of the ambivalence and ask what steps might protect the marriage and the liver",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "Motivational Interviewing (MI) is a collaborative, person-centered counseling approach designed to strengthen personal motivation for and commitment to change by resolving ambivalence. Key principles include expressing empathy, developing discrepancy between current behavior and core values, rolling with resistance, and supporting self-efficacy. Reflecting ambivalence ('On one hand. but on the other hand.') and asking an open question invites the client to voice their own arguments for change ('change talk'). Confrontational labeling, minimizing alcoholism, and shaming trigger defensiveness and entrench resistance. Why the other options fail: Argument about denial raises resistance; advising a switch to beer colludes with continued drinking; exploring what the client enjoys leaves the ambivalence untouched, when reflecting both sides is what moves it.",
+      "CORRECT (D) — \"Reflect both sides of the ambivalence and ask what steps might protect the marriage and the liver\". Motivational Interviewing (MI) is a collaborative, person-centered counseling approach designed to strengthen personal motivation for and commitment to change by resolving ambivalence. Key principles include expressing empathy, developing discrepancy between current behavior and core values, rolling with resistance, and supporting self-efficacy. Reflecting ambivalence ('On one hand. but on the other hand.') and asking an open question invites the client to voice their own arguments for change ('change talk'). Confrontational labeling, minimizing alcoholism, and shaming trigger defensiveness and entrench resistance. Why the other options fail: Argument about denial raises resistance; advising a switch to beer colludes with continued drinking; exploring what the client enjoys leaves the ambivalence untouched, when reflecting both sides is what moves it.",
     strategy: "Motivational Interviewing: Reflect ambivalence without judgment, align with client values, and ask open-ended questions that elicit the client's own reasons for change.",
     difficulty: "medium",
     tags: ["behavioural-sciences", "motivational-interviewing", "change-talk", "substance-use", "ambivalence"],
@@ -488,7 +488,7 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "A score of 15, which indicates moderately severe depression and a routine referral",
+        text: "A score of 15, which indicates moderately severe depression and a routine referral, since the client can be seen at the next available clinic appointment",
       },
       {
         id: "b",
@@ -503,9 +503,9 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "A score of 21 with active suicidal ideation, which indicates severe depression needing urgent review",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "The PHQ-9 is a standardized 9-item depression screening tool scored from 0 to 27: 0–4 = minimal/none; 5–9 = mild; 10–14 = moderate; 15–19 = moderately severe; 20–27 = severe depression. A score of 20 or higher signifies severe major depressive disorder. Any endorsement of item 9 (thoughts of being better off dead or hurting oneself) demands immediate comprehensive suicide risk assessment and emergency psychiatric referral. Involuntary ECT is never indicated for mild depression; discharging a suffering client constitutes medical negligence. Why the other options fail: option a scores the symptoms as minimal, which the weight loss and anhedonia contradict. Option b treats a mild score as an emergency and names a treatment that requires consent and referral. Option c calls the presentation malingering, which no score supports.",
+      "CORRECT (D) — \"A score of 21 with active suicidal ideation, which indicates severe depression needing urgent review\". The PHQ-9 is a standardized 9-item depression screening tool scored from 0 to 27: 0–4 = minimal/none; 5–9 = mild; 10–14 = moderate; 15–19 = moderately severe; 20–27 = severe depression. A score of 20 or higher signifies severe major depressive disorder. Any endorsement of item 9 (thoughts of being better off dead or hurting oneself) demands immediate comprehensive suicide risk assessment and emergency psychiatric referral. Involuntary ECT is never indicated for mild depression; discharging a suffering client constitutes medical negligence. Why the other options fail: option a scores only 15, which is moderately severe but below the severe range, and a routine referral understates the urgency of a client with active suicidal ideation. Option b is a score of 10, which is moderate rather than mild and still needs assessment and a plan, not 'no action'. Option c is a score of 5, which the anhedonia, the 6 kg weight loss and the six weeks of symptoms plainly contradict.",
     strategy: "PHQ-9 interpretation: Scores 20–27 represent severe depression. Item 9 mandates immediate, direct suicide risk assessment.",
     difficulty: "easy",
     tags: ["behavioural-sciences", "depression", "phq-9", "mental-health-screening", "psychiatric-nursing"],
@@ -522,7 +522,7 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Reassure the client that things will improve and return to the assessment later in the shift",
+        text: "Reassure the client that things will improve and return to the assessment later in the shift, once the immediate distress of the admission has settled",
       },
       {
         id: "c",
@@ -533,9 +533,9 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Promise confidentiality so the client feels safe enough to disclose more",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "Suicide risk assessment requires direct, unambiguous, objective questioning. Asking directly about suicidal ideation does NOT plant the idea in a person's head; rather, it provides relief and opens communication. The nurse must assess: 1) ideation; 2) plan specificity; 3) lethality of chosen method; and 4) immediate access to means. If risk is present, the client must never be left alone (initiating continuous 1-to-1 visual observation and removing environmental hazards). False reassurance trivializes despair; promising secrecy is dangerous malpractice; leaving the client alone allows suicide completion. Why the other options fail: Reassuring and returning later reassures without assessing; asking about mood and sleep first waits for the client to raise suicide, when the nurse must ask; promising confidentiality offers a secrecy the nurse cannot keep and must not offer.",
+      "CORRECT (C) — \"Ask directly about suicidal thoughts, plan and means, and keep the client under one-to-one observation\". Suicide risk assessment requires direct, unambiguous, objective questioning. Asking directly about suicidal ideation does NOT plant the idea in a person's head; rather, it provides relief and opens communication. The nurse must assess: 1) ideation; 2) plan specificity; 3) lethality of chosen method; and 4) immediate access to means. If risk is present, the client must never be left alone (initiating continuous 1-to-1 visual observation and removing environmental hazards). False reassurance trivializes despair; promising secrecy is dangerous malpractice; leaving the client alone allows suicide completion. Why the other options fail: Reassuring and returning later reassures without assessing; asking about mood and sleep first waits for the client to raise suicide, when the nurse must ask; promising confidentiality offers a secrecy the nurse cannot keep and must not offer.",
     strategy: "Suicide assessment rule: Ask directly about suicidal thoughts, plan, and means. Never promise secrecy, and never leave an actively suicidal client alone.",
     difficulty: "easy",
     tags: ["behavioural-sciences", "suicide-assessment", "patient-safety", "psychosocial", "crisis-intervention"],
@@ -563,9 +563,9 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Arrange an involuntary admission under the mental health law so that antipsychotic treatment can continue without the family's involvement or consent at all",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "In many West African settings, mental health care intersects with deeply rooted traditional and faith-based healing frameworks. Antagonistic approaches or police raids alienate families and drive patients into hiding. Complete abandonment leaves vulnerable clients without care. The evidenced-based, culturally congruent approach championed by the Mental Health Authority and WHO is intersectoral collaboration: engaging faith leaders and family elders respectfully, delivering non-shaming psychoeducation, and negotiating co-existence (allowing prayers/supportive faith rituals to continue while ensuring continuous medical antipsychotic therapy). Why the other options fail: Forcing a choice between treatment and belief is resolved in favour of the camp; accepting the family's decision leaves the psychosis untreated; an involuntary admission removes the client from the very support system that sustains them.",
+      "CORRECT (C) — \"Engage the family and prayer camp leaders, explain psychosis as a treatable brain condition, and agree that prayer and medication can run together\". In many West African settings, mental health care intersects with deeply rooted traditional and faith-based healing frameworks. Antagonistic approaches or police raids alienate families and drive patients into hiding. Complete abandonment leaves vulnerable clients without care. The evidenced-based, culturally congruent approach championed by the Mental Health Authority and WHO is intersectoral collaboration: engaging faith leaders and family elders respectfully, delivering non-shaming psychoeducation, and negotiating co-existence (allowing prayers/supportive faith rituals to continue while ensuring continuous medical antipsychotic therapy). Why the other options fail: Forcing a choice between treatment and belief is resolved in favour of the camp; accepting the family's decision leaves the psychosis untreated; an involuntary admission removes the client from the very support system that sustains them.",
     strategy: "Intercultural mental health: Collaborate with community faith leaders to bridge traditional frameworks with continuous evidence-based psychotropic therapy.",
     difficulty: "medium",
     tags: ["behavioural-sciences", "cultural-mental-health", "schizophrenia", "stigma", "community-psychiatry"],
@@ -574,28 +574,28 @@ export const BEH_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-BEH-020",
     categorySlug: "mental-health",
-    stem: "A client in an outpatient clinic suddenly experiences a severe panic attack, with hyperventilation, diaphoresis, trembling, palpitations, and screams, 'I am having a heart attack! I am dying right now!' Which nursing intervention is most therapeutic during panic-level anxiety?",
+    stem: "On a rehabilitation unit, a client with chronic schizophrenia attends occupational therapy only when reminded and leaves most sessions early. The team agrees on a behaviour-modification plan to increase attendance. Which plan is an example of operant conditioning using positive reinforcement?",
     choices: [
       {
         id: "a",
-        text: "Encourage the client to breathe into a paper bag until the tingling stops",
+        text: "Explore what the client's early childhood was like, so that the withdrawal from the group can be understood and worked through",
       },
       {
         id: "b",
-        text: "Teach the client about the autonomic nervous system once the attack has settled",
+        text: "Give a token each time a full session is completed, exchangeable for a privilege the client has chosen for himself",
       },
       {
         id: "c",
-        text: "Move the client to a quiet room and check back every fifteen minutes until the attack passes",
+        text: "Ask the client to write down his feelings each time he wants to leave, then discuss the notes at the next group meeting",
       },
       {
         id: "d",
-        text: "Stay with the client, reduce stimulation, speak in short calm sentences and guide slow breathing",
+        text: "Stop the family from visiting until the client's attendance at the occupational therapy sessions has improved",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "b",
     rationale:
-      "During panic-level anxiety (the highest level on Peplau's anxiety continuum), perceptual fields are completely closed, logical reasoning is suspended, and the individual experiences terror and physiological fight-or-flight surges. The nurse must: 1) stay with the client (never abandon someone in panic); 2) reduce environmental stimuli (dim lights, quiet room); 3) use a calm, low, reassuring tone; 4) speak in concise, simple sentences; and 5) guide physical breathing to reverse respiratory alkalosis from hyperventilation. Lengthy teaching cannot be processed; leaving the client alone intensifies terror; shouting escalates panic. Why the other options fail: Teaching about the autonomic nervous system, even once the attack has settled, is not the immediate action the panic requires; checking back every fifteen minutes leaves the client alone at the peak; a paper bag is no longer recommended and can worsen hypoxaemia.",
+      "CORRECT (B) — \"Give a token each time a full session is completed, exchangeable for a privilege the client has chosen for himself\". Operant conditioning, from Skinner, holds that a behaviour continues when it is followed by something the person wants. Positive reinforcement means adding a reward after the behaviour, so a token earned immediately after a completed session and exchanged later for a privilege the client has chosen is a token economy — the reinforcement is contingent, immediate, and chosen by the client, which is what makes it work in a long-stay setting. Why the other options fail: option a is the psychodynamic approach, which seeks the meaning of the behaviour and offers no reinforcement at all. Option c is a cognitive intervention: it asks the client to examine and record his thoughts, which changes how he thinks rather than what he earns. Option d is operant conditioning, but it is punishment, not positive reinforcement — it removes something he wants after the behaviour rather than adding something, and it damages the family support the rehabilitation depends on. Reference: Skinner — operant conditioning; WHO — psychosocial rehabilitation",
     strategy: "Interventions for panic-level anxiety: Stay with the client, minimize environmental stimuli, speak in short, calm, simple sentences, and guide slow rhythmic breathing.",
     difficulty: "easy",
     tags: ["behavioural-sciences", "panic-attack", "anxiety-levels", "peplau", "crisis-management"],
