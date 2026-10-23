@@ -112502,7 +112502,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "c",
- "rationale": "A falling conscious level in a patient with a recent subarachnoid haemorrhage is the cardinal sign of rebleeding or of rising intracranial pressure, and it is a time-critical emergency. Someone stays with the patient while urgent senior review is summoned and airway, breathing, pupils and blood pressure are checked.\n\nWhy the other options fail:\n• A — Treating new drowsiness as if it were only photophobia delays the review that the change demands.\n• B — Analgesia leaves a deteriorating patient unobserved for an hour.\n• D — Asking the family a question the clinical signs already answer wastes the minutes that matter.",
+ "rationale": "CORRECT (C) — \"Stay with her and call for urgent medical review of her conscious level\". A falling conscious level in a patient with a recent subarachnoid haemorrhage is the cardinal sign of rebleeding or of rising intracranial pressure, and it is a time-critical emergency. Someone stays with the patient while urgent senior review is summoned and airway, breathing, pupils and blood pressure are checked.\n\nWhy the other options fail:\n• A — Treating new drowsiness as if it were only photophobia delays the review that the change demands.\n• B — Analgesia leaves a deteriorating patient unobserved for an hour.\n• D — Asking the family a question the clinical signs already answer wastes the minutes that matter.",
  "strategy": "In a head injury or a bleed, a falling conscious level is the emergency. Escalate, do not observe.",
  "difficulty": "hard",
  "tags": ["prioritisation", "handover", "deterioration"],
@@ -112531,7 +112531,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "a",
- "rationale": "A venous thrombus can embolise to the lungs, producing sudden dyspnoea, pleuritic chest pain, tachycardia and anxiety. This is an emergency, and oxygen and urgent escalation come first.\n\nWhy the other options fail:\n• B — Pulmonary oedema produces orthopnoea, crackles and pink frothy sputum, not sudden pleuritic pain in a patient with a known venous thrombus.\n• C — Pneumonia develops over hours to days with fever and a productive cough, not abruptly in this context.\n• D — Myocardial infarction is possible, but the existing thrombophlebitis makes a venous embolus the likelier explanation.",
+ "rationale": "CORRECT (A) — \"Pulmonary embolism\". A venous thrombus can embolise to the lungs, producing sudden dyspnoea, pleuritic chest pain, tachycardia and anxiety. This is an emergency, and oxygen and urgent escalation come first.\n\nWhy the other options fail:\n• B — Pulmonary oedema produces orthopnoea, crackles and pink frothy sputum, not sudden pleuritic pain in a patient with a known venous thrombus.\n• C — Pneumonia develops over hours to days with fever and a productive cough, not abruptly in this context.\n• D — Myocardial infarction is possible, but the existing thrombophlebitis makes a venous embolus the likelier explanation.",
  "strategy": "A sudden respiratory change in a patient with DVT is pulmonary embolism until proven otherwise.",
  "difficulty": "hard",
  "tags": ["pulmonary-embolism", "dvt"],
@@ -112544,7 +112544,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "Lead with the unaffected leg, then the stick, then the affected leg"
+   "text": "Lead with the unaffected leg, then move the stick down, then the affected leg follows"
   },
   {
    "id": "b",
@@ -112560,7 +112560,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "b",
- "rationale": "The rule is up with the good, down with the bad. Going down, the stick and the weaker leg move first so that the stronger leg stays on the higher step and takes the body's weight through the descent.\n\nWhy the other options fail:\n• A — This applies the ascending rule to a descent and forces the weak leg to bear the load unaided.\n• C — Leading with the weak leg alone omits the stick, which is the additional point of support.\n• D — Lifting the stick removes support at the moment the centre of gravity is highest.",
+ "rationale": "CORRECT (B) — \"Place the stick and the affected leg down first, then bring the unaffected leg down\". The rule is up with the good, down with the bad. Going down, the stick and the weaker leg move first so that the stronger leg stays on the higher step and takes the body's weight through the descent.\n\nWhy the other options fail:\n• A — This applies the ascending rule to a descent and forces the weak leg to bear the load unaided.\n• C — Leading with the weak leg alone omits the stick, which is the additional point of support.\n• D — Lifting the stick removes support at the moment the centre of gravity is highest.",
  "strategy": "Up with the good, down with the bad. The strong leg always does the lifting.",
  "difficulty": "hard",
  "tags": ["stroke", "mobility"],
@@ -112589,7 +112589,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "b",
- "rationale": "An unresponsive patient may have lost airway protection, so airway and breathing are assessed and supported before any secondary neurological observation.\n\nWhy the other options fail:\n• A — Blood pressure is a secondary observation; nothing matters until the airway and breathing are secured.\n• C — Urine output is a late marker of perfusion and has no place in the first minute of an unresponsive patient.\n• D — Moving the patient before assessing the airway delays the only intervention that prevents death in that moment.",
+ "rationale": "CORRECT (B) — \"Assess airway and breathing and support them as needed\". An unresponsive patient may have lost airway protection, so airway and breathing are assessed and supported before any secondary neurological observation.\n\nWhy the other options fail:\n• A — Blood pressure is a secondary observation; nothing matters until the airway and breathing are secured.\n• C — Urine output is a late marker of perfusion and has no place in the first minute of an unresponsive patient.\n• D — Moving the patient before assessing the airway delays the only intervention that prevents death in that moment.",
  "strategy": "In any acute neurological collapse, assess airway and breathing first.",
  "difficulty": "hard",
  "tags": ["stroke", "airway"],
@@ -112618,7 +112618,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "d",
- "rationale": "Most strokes are ischaemic, caused by arterial occlusion from thrombosis or embolism; haemorrhagic strokes are less common.\n\nWhy the other options fail:\n• A — Haemorrhagic stroke accounts for roughly one in five strokes, not most of them.\n• B — A subdural haemorrhage is a type of intracranial bleeding, not the commonest stroke overall.\n• C — An epidural haemorrhage is a traumatic bleed and is rare compared with ischaemic stroke.",
+ "rationale": "CORRECT (D) — \"Ischaemic\". Most strokes are ischaemic, caused by arterial occlusion from thrombosis or embolism; haemorrhagic strokes are less common.\n\nWhy the other options fail:\n• A — Haemorrhagic stroke accounts for roughly one in five strokes, not most of them.\n• B — A subdural haemorrhage is a type of intracranial bleeding, not the commonest stroke overall.\n• C — An epidural haemorrhage is a traumatic bleed and is rare compared with ischaemic stroke.",
  "strategy": "Distinguish the common occlusive stroke from bleeding stroke.",
  "difficulty": "hard",
  "tags": ["stroke", "ischaemia"],
@@ -112647,7 +112647,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "c",
- "rationale": "Persistent hypertension damages cerebral vessels and is the most important modifiable stroke risk factor.\n\nWhy the other options fail:\n• A — Diabetes is an important risk factor but carries less population risk than raised blood pressure.\n• B — Heart disease contributes, particularly atrial fibrillation, but hypertension remains the dominant modifiable factor.\n• D — Renal insufficiency raises vascular risk but is not the leading modifiable cause of stroke.",
+ "rationale": "CORRECT (C) — \"Hypertension\". Persistent hypertension damages cerebral vessels and is the most important modifiable stroke risk factor.\n\nWhy the other options fail:\n• A — Diabetes is an important risk factor but carries less population risk than raised blood pressure.\n• B — Heart disease contributes, particularly atrial fibrillation, but hypertension remains the dominant modifiable factor.\n• D — Renal insufficiency raises vascular risk but is not the leading modifiable cause of stroke.",
  "strategy": "When asked for the strongest modifiable stroke risk, choose hypertension.",
  "difficulty": "hard",
  "tags": ["stroke", "hypertension"],
@@ -112664,7 +112664,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Nothing more can be done for the speech now that the stroke has happened"
+   "text": "Nothing more can be done for the speech now that the stroke has already happened"
   },
   {
    "id": "c",
@@ -112676,7 +112676,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "c",
- "rationale": "Recovery of speech depends on the site and size of the lesion, the person's age and general health, and the intensity of rehabilitation, and it can continue for many months. Honest uncertainty with realistic hope is what families need, along with referral to speech and language therapy.\n\nWhy the other options fail:\n• A — Promising complete recovery cannot be guaranteed for any patient.\n• B — Saying nothing more can be done is false and would discourage engagement with therapy.\n• D — A one-week deadline is invented; recovery continues long after it.",
+ "rationale": "CORRECT (C) — \"Recovery is hard to predict, and early speech therapy gives the best chance\". Recovery of speech depends on the site and size of the lesion, the person's age and general health, and the intensity of rehabilitation, and it can continue for many months. Honest uncertainty with realistic hope is what families need, along with referral to speech and language therapy.\n\nWhy the other options fail:\n• A — Promising complete recovery cannot be guaranteed for any patient.\n• B — Saying nothing more can be done is false and would discourage engagement with therapy.\n• D — A one-week deadline is invented; recovery continues long after it.",
  "strategy": "Say what is true: it varies, therapy helps, and recovery continues for months.",
  "difficulty": "hard",
  "tags": ["stroke", "communication"],
@@ -112705,7 +112705,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "b",
- "rationale": "A fixed dilated pupil may indicate raised intracranial pressure or herniation and requires immediate escalation.\n\nWhy the other options fail:\n• A — Checking visual acuity misses the point: a fixed dilated pupil is a neurological emergency, not a visual one.\n• C — Lowering the head of the bed can raise intracranial pressure further and worsen herniation.\n• D — Waiting is indefensible; a fixed dilated pupil signals herniation and minutes matter.",
+ "rationale": "CORRECT (B) — \"Notify the physician or rapid-response team immediately\". A fixed dilated pupil may indicate raised intracranial pressure or herniation and requires immediate escalation.\n\nWhy the other options fail:\n• A — Checking visual acuity misses the point: a fixed dilated pupil is a neurological emergency, not a visual one.\n• C — Lowering the head of the bed can raise intracranial pressure further and worsen herniation.\n• D — Waiting is indefensible; a fixed dilated pupil signals herniation and minutes matter.",
  "strategy": "A new fixed pupil is an acute neurological emergency, not a routine visual finding.",
  "difficulty": "hard",
  "tags": ["intracranial-pressure", "neurological-observation"],
@@ -112722,7 +112722,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "Haemorrhagic stroke, once the bleeding has been controlled"
+   "text": "Haemorrhagic stroke, once the bleeding has been fully controlled on imaging"
   },
   {
    "id": "c",
@@ -112734,7 +112734,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "a",
- "rationale": "Thrombolysis targets an occluding clot in an eligible acute ischaemic stroke; it is contraindicated in intracranial haemorrhage, which is why imaging comes first.\n\nWhy the other options fail:\n• B — Haemorrhagic stroke is the absolute contraindication, because lysis would worsen the bleeding.\n• C — Thrombolysis is not restricted to atherosclerotic stroke; any eligible ischaemic stroke is considered.\n• D — Restricting treatment to occipital strokes is arbitrary; site does not determine eligibility.",
+ "rationale": "CORRECT (A) — \"Ischaemic stroke, once haemorrhage has been excluded by imaging\". Thrombolysis targets an occluding clot in an eligible acute ischaemic stroke; it is contraindicated in intracranial haemorrhage, which is why imaging comes first.\n\nWhy the other options fail:\n• B — Haemorrhagic stroke is the absolute contraindication, because lysis would worsen the bleeding.\n• C — Thrombolysis is not restricted to atherosclerotic stroke; any eligible ischaemic stroke is considered.\n• D — Restricting treatment to occipital strokes is arbitrary; site does not determine eligibility.",
  "strategy": "Always confirm stroke type and eligibility before thrombolysis.",
  "difficulty": "hard",
  "tags": ["stroke", "thrombolysis"],
@@ -112763,7 +112763,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "d",
- "rationale": "The question asks which organism is not a recognised cause, and C. difficile is the one that does not belong: it causes antibiotic-associated colitis, while the other three are recognised bacterial causes of meningitis.\n\nWhy the other options fail:\n• A — Haemophilus influenzae is a classic cause in unvaccinated children and is a recognised pathogen.\n• B — Neisseria meningitidis is the organism behind meningococcal meningitis and outbreaks.\n• C — Streptococcus pneumoniae is the commonest cause of bacterial meningitis in adults.",
+ "rationale": "CORRECT (D) — \"Clostridioides difficile\". The question asks which organism is not a recognised cause, and C. difficile is the one that does not belong: it causes antibiotic-associated colitis, while the other three are recognised bacterial causes of meningitis.\n\nWhy the other options fail:\n• A — Haemophilus influenzae is a classic cause in unvaccinated children and is a recognised pathogen.\n• B — Neisseria meningitidis is the organism behind meningococcal meningitis and outbreaks.\n• C — Streptococcus pneumoniae is the commonest cause of bacterial meningitis in adults.",
  "strategy": "Separate common meningitis pathogens from organisms associated with gastrointestinal disease.",
  "difficulty": "hard",
  "tags": ["meningitis", "infection"],
@@ -112788,11 +112788,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "Any bed, because bacterial meningitis is not transmissible between patients"
+   "text": "Any bed on the open ward, because bacterial meningitis is not transmissible between patients"
   },
  ],
  "correctChoiceId": "a",
- "rationale": "Bacterial meningitis spreads by respiratory droplets from the nasopharynx, so the client is placed in a single room with droplet precautions, and staff wear a surgical mask for close contact, until at least 24 hours of effective treatment have been given.\n\nWhy the other options fail:\n• B — An open bay exposes other patients during the most infectious period.\n• C — Sharing with influenza puts two droplet-transmitted infections in one small space.\n• D — Meningococcal disease in particular spreads rapidly among close contacts.",
+ "rationale": "CORRECT (A) — \"A single room with droplet precautions until 24 hours of effective antibiotics are given\". Bacterial meningitis spreads by respiratory droplets from the nasopharynx, so the client is placed in a single room with droplet precautions, and staff wear a surgical mask for close contact, until at least 24 hours of effective treatment have been given.\n\nWhy the other options fail:\n• B — An open bay exposes other patients during the most infectious period.\n• C — Sharing with influenza puts two droplet-transmitted infections in one small space.\n• D — Meningococcal disease in particular spreads rapidly among close contacts.",
  "strategy": "Droplet precautions for at least 24 hours of effective antibiotics. Single room.",
  "difficulty": "hard",
  "tags": ["meningitis", "isolation"],
@@ -112813,7 +112813,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Perform a lumbar puncture first and start antibiotics once it is done"
+   "text": "Perform a lumbar puncture first and start the antibiotics only once the laboratory result is back"
   },
   {
    "id": "d",
@@ -112821,7 +112821,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "d",
- "rationale": "Fever, severe headache, neck stiffness, a falling conscious level and a non-blanching purpuric rash are meningococcal sepsis with meningitis, which can kill within hours. Antibiotics must be given within minutes, so treatment comes before the lumbar puncture, and the patient needs resuscitation and droplet isolation.\n\nWhy the other options fail:\n• A — Analgesia delays a life-threatening diagnosis.\n• B — An outpatient appointment is not appropriate for an emergency.\n• C — A lumbar puncture first inverts the order and delays antibiotics for a test the drowsiness already contraindicates.",
+ "rationale": "CORRECT (D) — \"Escalate for resuscitation and intravenous antibiotics, treating this as meningococcal sepsis\". Fever, severe headache, neck stiffness, a falling conscious level and a non-blanching purpuric rash are meningococcal sepsis with meningitis, which can kill within hours. Antibiotics must be given within minutes, so treatment comes before the lumbar puncture, and the patient needs resuscitation and droplet isolation.\n\nWhy the other options fail:\n• A — Analgesia delays a life-threatening diagnosis.\n• B — An outpatient appointment is not appropriate for an emergency.\n• C — A lumbar puncture first inverts the order and delays antibiotics for a test the drowsiness already contraindicates.",
  "strategy": "Non-blanching rash plus fever plus neck stiffness equals meningococcal sepsis. Antibiotics before the LP.",
  "difficulty": "hard",
  "tags": ["meningitis"],
@@ -112850,7 +112850,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "c",
- "rationale": "Myasthenia gravis causes fluctuating, fatigable skeletal-muscle weakness, commonly affecting ocular, bulbar and respiratory muscles, so the weakness is worst after use and improves with rest.\n\nWhy the other options fail:\n• A — Rigidity with a resting tremor is the parkinsonian picture, not fatigable weakness.\n• B — Distal numbness and tingling point to a peripheral neuropathy.\n• D — Hyperreflexia with spasticity indicates an upper motor neuron lesion, whereas myasthenia affects the neuromuscular junction.",
+ "rationale": "CORRECT (C) — \"Fatigable difficulty with swallowing and speaking\". Myasthenia gravis causes fluctuating, fatigable skeletal-muscle weakness, commonly affecting ocular, bulbar and respiratory muscles, so the weakness is worst after use and improves with rest.\n\nWhy the other options fail:\n• A — Rigidity with a resting tremor is the parkinsonian picture, not fatigable weakness.\n• B — Distal numbness and tingling point to a peripheral neuropathy.\n• D — Hyperreflexia with spasticity indicates an upper motor neuron lesion, whereas myasthenia affects the neuromuscular junction.",
  "strategy": "Fatigability distinguishes neuromuscular-junction weakness from sensory or upper-motor-neuron signs.",
  "difficulty": "hard",
  "tags": ["myasthenia-gravis"],
@@ -112879,7 +112879,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "a",
- "rationale": "The blood–brain barrier is formed by specialised central nervous system capillary endothelium and limits movement of many substances from blood into neural tissue.\n\nWhy the other options fail:\n• B — The barrier protects neural tissue; cerebrospinal fluid outside the skull is not what it shields.\n• C — The vertebrae are bone and protect mechanically, which is a different kind of protection.\n• D — Peripheral nerves lie outside the barrier and are not protected by it.",
+ "rationale": "CORRECT (A) — \"The brain tissue and central nervous system microenvironment\". The blood–brain barrier is formed by specialised central nervous system capillary endothelium and limits movement of many substances from blood into neural tissue.\n\nWhy the other options fail:\n• B — The barrier protects neural tissue; cerebrospinal fluid outside the skull is not what it shields.\n• C — The vertebrae are bone and protect mechanically, which is a different kind of protection.\n• D — Peripheral nerves lie outside the barrier and are not protected by it.",
  "strategy": "The barrier protects neural tissue, not the skull or peripheral nerves.",
  "difficulty": "hard",
  "tags": ["neuroanatomy"],
@@ -112888,27 +112888,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-NEURO-0015",
  "categorySlug": "med-surg",
- "stem": "A patient with reduced consciousness after stroke is at risk of aspiration. Which position is generally safest while airway support is assessed?",
+ "stem": "A patient with Guillain-Barre syndrome is on the ward and becoming increasingly weak. Which measurement best detects early respiratory failure?",
  "choices": [
   {
    "id": "a",
-   "text": "Prone, with the face turned to one side for drainage"
+   "text": "The oxygen saturation shown on the continuous pulse oximeter at rest"
   },
   {
    "id": "b",
-   "text": "Side-lying, with the airway maintained and secretions allowed to drain"
+   "text": "Serial forced vital capacity, measured and recorded at the bedside"
   },
   {
    "id": "c",
-   "text": "Flat supine without observation, so the head is not moved"
+   "text": "The respiratory rate counted once at the start of each shift"
   },
   {
    "id": "d",
-   "text": "Trendelenburg, to improve perfusion of the brain"
+   "text": "The client's own report of how breathless he feels on the ward"
   },
  ],
  "correctChoiceId": "b",
- "rationale": "Side-lying helps secretions drain and reduces aspiration risk while the airway and breathing are assessed; the exact position depends on the injury and the airway needs.\n\nWhy the other options fail:\n• A — Prone positioning makes aspiration more likely and prevents observation of the airway.\n• C — Flat supine allows secretions and the tongue to obstruct the airway.\n• D — Trendelenburg increases intracranial pressure and does nothing for airway protection.",
+ "rationale": "CORRECT (B) — \"Serial forced vital capacity, measured and recorded at the bedside\". In Guillain-Barre syndrome the weakness ascends and can take the respiratory muscles before the patient feels breathless, so the earliest reliable sign of respiratory failure is a falling vital capacity on serial measurement rather than a low oxygen saturation. A forced vital capacity heading towards 15 to 20 mL/kg, or a fall of more than 30 per cent from the previous reading, is the trigger for urgent review and for planning ventilatory support. The nurse measures and records it at least four-hourly, watches for a weak cough, pooling secretions and a rising pulse, and reports any downward trend at once. Why the other options fail: option a — saturation is a late sign, because it stays normal while the patient compensates and falls only when the reserve is nearly gone; option c — a single respiratory rate at the start of a shift hides the trend, and the rate can stay normal until collapse; option d — breathlessness is subjective and is unreliable in a patient who is becoming weaker rather than more breathless. Reference: NICE — Guillain-Barre syndrome; Ghana STP — neuromuscular weakness",
  "strategy": "For reduced consciousness, protect airway and allow drainage of secretions.",
  "difficulty": "hard",
  "tags": ["stroke", "aspiration"],
@@ -112937,7 +112937,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "c",
- "rationale": "The olfactory nerve passes through the cribriform plate of the ethmoid, so a fracture there tears the filaments and produces anosmia. Because most of what we call taste is smell, the patient reports that food has no flavour even though the tongue is intact. The nurse should test each nostril separately and watch for cerebrospinal fluid rhinorrhoea, which would confirm a dural tear.\n\nWhy the other options fail:\n• A — The facial nerve supplies the muscles of facial expression and taste to the anterior tongue.\n• B — The glossopharyngeal nerve carries taste from the posterior tongue and mediates the gag reflex.\n• D — The hypoglossal nerve moves the tongue.",
+ "rationale": "CORRECT (C) — \"Cranial nerve I, the olfactory nerve\". The olfactory nerve passes through the cribriform plate of the ethmoid, so a fracture there tears the filaments and produces anosmia. Because most of what we call taste is smell, the patient reports that food has no flavour even though the tongue is intact. The nurse should test each nostril separately and watch for cerebrospinal fluid rhinorrhoea, which would confirm a dural tear.\n\nWhy the other options fail:\n• A — The facial nerve supplies the muscles of facial expression and taste to the anterior tongue.\n• B — The glossopharyngeal nerve carries taste from the posterior tongue and mediates the gag reflex.\n• D — The hypoglossal nerve moves the tongue.",
  "strategy": "The cribriform plate carries cranial nerve I. Anosmia after head injury means the plate may be fractured.",
  "difficulty": "hard",
  "tags": ["cranial-nerves"],
@@ -112966,7 +112966,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "d",
- "rationale": "Discomfort radiating to the jaw may be an atypical acute coronary syndrome and requires immediate assessment, so this call is returned before the other three.\n\nWhy the other options fail:\n• A — Knee pain after sport is a soft-tissue injury that can wait, however uncomfortable.\n• B — Hot flushes and insomnia are menopausal symptoms and are not urgent.\n• C — Uncomplicated heartburn in pregnancy is common and does not need a same-day call back.",
+ "rationale": "CORRECT (D) — \"A man with heartburn radiating to the jaw\". Discomfort radiating to the jaw may be an atypical acute coronary syndrome and requires immediate assessment, so this call is returned before the other three.\n\nWhy the other options fail:\n• A — Knee pain after sport is a soft-tissue injury that can wait, however uncomfortable.\n• B — Hot flushes and insomnia are menopausal symptoms and are not urgent.\n• C — Uncomplicated heartburn in pregnancy is common and does not need a same-day call back.",
  "strategy": "Treat possible cardiac equivalents as urgent even when the word “heartburn” is used.",
  "difficulty": "hard",
  "tags": ["acute-coronary-syndrome", "triage"],
@@ -112995,7 +112995,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "d",
- "rationale": "Sudden focal neurological deficit is a classic stroke warning sign, and emergency services should be activated immediately rather than waiting to see whether it resolves.\n\nWhy the other options fail:\n• A — Gradual fatigue over months is not a stroke warning; stroke deficits are sudden.\n• B — A medication list is information, not a symptom, and cannot indicate an emergency.\n• C — A family history without symptoms describes risk, not an event needing immediate action.",
+ "rationale": "CORRECT (D) — \"Sudden weakness or numbness of the face or an arm\". Sudden focal neurological deficit is a classic stroke warning sign, and emergency services should be activated immediately rather than waiting to see whether it resolves.\n\nWhy the other options fail:\n• A — Gradual fatigue over months is not a stroke warning; stroke deficits are sudden.\n• B — A medication list is information, not a symptom, and cannot indicate an emergency.\n• C — A family history without symptoms describes risk, not an event needing immediate action.",
  "strategy": "Remember FAST and sudden focal deficits; do not wait for symptoms to resolve.",
  "difficulty": "hard",
  "tags": ["stroke", "health-promotion"],
@@ -113024,7 +113024,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "b",
- "rationale": "Spinal cord injury can impair respiratory muscle function and airway clearance, especially with cervical or high thoracic injury, so threats to airway and breathing come before mobility planning.\n\nWhy the other options fail:\n• A — Fluid-volume deficit is not inevitable in spinal injury; it depends on the level and the haemodynamics.\n• C — Impaired mobility matters but is a later problem than a threatened airway.\n• D — Constipation is a long-term consequence and never takes priority over breathing.",
+ "rationale": "CORRECT (B) — \"Impaired airway clearance when breathing is compromised\". Spinal cord injury can impair respiratory muscle function and airway clearance, especially with cervical or high thoracic injury, so threats to airway and breathing come before mobility planning.\n\nWhy the other options fail:\n• A — Fluid-volume deficit is not inevitable in spinal injury; it depends on the level and the haemodynamics.\n• C — Impaired mobility matters but is a later problem than a threatened airway.\n• D — Constipation is a long-term consequence and never takes priority over breathing.",
  "strategy": "Prioritise airway and breathing before neurological rehabilitation needs.",
  "difficulty": "hard",
  "tags": ["spinal-cord-injury", "airway"],
@@ -113045,7 +113045,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "c",
-   "text": "Trendelenburg with the whole bed tilted head-down and the feet raised"
+   "text": "Trendelenburg with the whole bed tilted head-down and both feet raised on blocks"
   },
   {
    "id": "d",
@@ -113053,7 +113053,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
  ],
  "correctChoiceId": "a",
- "rationale": "Head and neck alignment with appropriate head elevation supports venous drainage while urgent management of raised intracranial pressure is started.\n\nWhy the other options fail:\n• B — Flat with the hips flexed raises intra-abdominal pressure and impedes venous drainage from the head.\n• C — Trendelenburg increases cerebral blood volume and worsens intracranial pressure.\n• D — Prone with the neck rotated obstructs venous drainage and twists the airway.",
+ "rationale": "CORRECT (A) — \"Head and neck aligned, head elevated as prescribed, while urgent help is called\". Head and neck alignment with appropriate head elevation supports venous drainage while urgent management of raised intracranial pressure is started.\n\nWhy the other options fail:\n• B — Flat with the hips flexed raises intra-abdominal pressure and impedes venous drainage from the head.\n• C — Trendelenburg increases cerebral blood volume and worsens intracranial pressure.\n• D — Prone with the neck rotated obstructs venous drainage and twists the airway.",
  "strategy": "For suspected raised intracranial pressure, protect oxygenation and venous drainage and escalate immediately.",
  "difficulty": "hard",
  "tags": ["intracranial-pressure"],
