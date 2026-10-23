@@ -23,9 +23,9 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Binding excipients in the tablet neutralise a large part of the active drug before absorption",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "First-pass metabolism occurs when an orally administered drug is absorbed from the gastrointestinal tract into the portal circulation and undergoes significant enzymatic metabolism in the liver before reaching systemic circulation. Morphine has a low oral bioavailability (approximately 20% to 40%) due to extensive first-pass hepatic glucuronidation. Consequently, the oral dose must be substantially higher (roughly 3 times the parenteral dose) to achieve equivalent therapeutic blood levels and analgesia. IV administration bypasses the portal circulation, providing 100% bioavailability. Why the other options fail: option a moves the loss to the kidney, but morphine's problem is what the liver does to it before it reaches the systemic circulation. Option b invents plasma esterase inactivation, which is the route for remifentanil and not for morphine. Option d blames excipients for neutralising the drug, when the difference is metabolic and predictable.",
+      "CORRECT (C) — \"Extensive hepatic first-pass metabolism lowers the systemic bioavailability of oral morphine\". First-pass metabolism occurs when an orally administered drug is absorbed from the gastrointestinal tract into the portal circulation and undergoes significant enzymatic metabolism in the liver before reaching systemic circulation. Morphine has a low oral bioavailability (approximately 20% to 40%) due to extensive first-pass hepatic glucuronidation. Consequently, the oral dose must be substantially higher (roughly 3 times the parenteral dose) to achieve equivalent therapeutic blood levels and analgesia. IV administration bypasses the portal circulation, providing 100% bioavailability. Why the other options fail: option a moves the loss to the kidney, but morphine's problem is what the liver does to it before it reaches the systemic circulation. Option b invents plasma esterase inactivation, which is the route for remifentanil and not for morphine. Option d blames excipients for neutralising the drug, when the difference is metabolic and predictable.",
     strategy: "First-pass effect: Oral drugs absorbed through portal vein are metabolized by the liver before entering systemic circulation, requiring higher doses than IV.",
     difficulty: "easy",
     tags: ["pharmacology", "pharmacokinetics", "first-pass-effect", "bioavailability", "morphine"],
@@ -38,7 +38,7 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Withhold the next dose and check the pulse every 4 hours, telling the prescriber only if it falls below 40",
+        text: "Withhold the next dose and check the pulse every 4 hours, telling the prescriber only if it falls below 40 beats per minute at rest",
       },
       {
         id: "b",
@@ -53,9 +53,9 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Give atropine 1 mg intravenously now, before assessing the pulse, to pre-empt any bradycardia",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "When a medication error occurs, patient safety is the paramount priority. The nurse must immediately: (1) assess the patient's physiological status (vital signs, heart rate, rhythm, blood pressure), (2) alert the prescribing physician and charge nurse with objective assessment data, (3) implement prescribed monitoring or corrective interventions, and (4) complete an internal incident/variance report. Incident reports are quality improvement tools and must never be referenced in the patient's legal medical record or used punitively in a just culture. Why the other options fail: option a delays both assessment and disclosure, so the client is unwatched during the period of greatest risk. Option c records the dose given as though it were the dose prescribed, which is falsification. Option d gives an antidote before assessing the client and without an order.",
+      "CORRECT (B) — \"Assess pulse, blood pressure and consciousness, notify the prescriber, monitor for bradycardia, and file an incident report\". When a medication error occurs, patient safety is the paramount priority. The nurse must immediately: (1) assess the patient's physiological status (vital signs, heart rate, rhythm, blood pressure), (2) alert the prescribing physician and charge nurse with objective assessment data, (3) implement prescribed monitoring or corrective interventions, and (4) complete an internal incident/variance report. Incident reports are quality improvement tools and must never be referenced in the patient's legal medical record or used punitively in a just culture. Why the other options fail: option a delays both assessment and disclosure, so the client is unwatched during the period of greatest risk. Option c records the dose given as though it were the dose prescribed, which is falsification. Option d gives an antidote before assessing the client and without an order.",
     strategy: "Medication error response: ASSESS THE PATIENT FIRST -> Notify physician -> Implement corrective care -> Document and submit incident report.",
     difficulty: "easy",
     tags: ["pharmacology", "medication-errors", "patient-safety", "beta-blockers", "just-culture"],
@@ -68,7 +68,7 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Ask for immediate-release or liquid alternatives, flush with 15 to 30 mL of water before and between drugs, and give each separately",
+        text: "Ask the prescriber for liquid or immediate-release alternatives, and never crush or open the modified-release tablets",
       },
       {
         id: "b",
@@ -83,9 +83,9 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Add all three medicines to the enteral feed bag and let them infuse together over the next 24 hours",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "Enteral tube medication safety principles require: (1) NEVER crushing enteric-coated (EC), delayed-release, or extended-release (ER/XR/XL/SR) medications, as destroying their release matrix causes rapid absorption, potential toxicity ('dose dumping'), and tube occlusion; (2) consulting the pharmacy for liquid, dispersible, or immediate-release substitutes; (3) administering medications separately rather than mixing them together; (4) flushing the tube with 15–30 mL of water before the first drug, 5–10 mL between drugs, and 15–30 mL after the last drug; and (5) never mixing medications directly into enteral feeding formula. Why the other options fail: option b destroys an extended-release matrix and releases the whole dose at once, which can cause toxicity and occlude the tube. Option c crushes enteric granules that exist to protect the drug from gastric acid, and mixes drugs that should be given separately. Option d puts medicines into a feed running for 24 hours, so the dose is neither complete nor timed.",
+      "CORRECT (A) — \"Ask the prescriber for liquid or immediate-release alternatives, and never crush or open the modified-release tablets\". Enteral tube medication safety principles require: (1) NEVER crushing enteric-coated (EC), delayed-release, or extended-release (ER/XR/XL/SR) medications, as destroying their release matrix causes rapid absorption, potential toxicity ('dose dumping'), and tube occlusion; (2) consulting the pharmacy for liquid, dispersible, or immediate-release substitutes; (3) administering medications separately rather than mixing them together; (4) flushing the tube with 15–30 mL of water before the first drug, 5–10 mL between drugs, and 15–30 mL after the last drug; and (5) never mixing medications directly into enteral feeding formula. Why the other options fail: option b destroys an extended-release matrix and releases the whole dose at once, which can cause toxicity and occlude the tube. Option c crushes enteric granules that exist to protect the drug from gastric acid, and mixes drugs that should be given separately. Option d puts medicines into a feed running for 24 hours, so the dose is neither complete nor timed.",
     strategy: "Enteral tube medications: Never crush ER/EC formulations (request liquid/immediate-release). Administer separately and flush with water between drugs.",
     difficulty: "medium",
     tags: ["pharmacology", "enteral-feeding", "medication-safety", "nasogastric-tube", "drug-administration"],
@@ -98,7 +98,7 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
     choices: [
       {
         id: "a",
-        text: "Take two rapid shallow breaths through the nose immediately after actuating the canister into the spacer",
+        text: "Take two rapid shallow breaths through the nose immediately after actuating the canister into the spacer chamber, and repeat for each puff",
       },
       {
         id: "b",
@@ -113,9 +113,9 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Exhale fully, actuate once, inhale slowly over 3 to 5 seconds, hold for 10 seconds, then rinse the mouth and spit",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "Correct MDI technique with a spacer requires: shaking the inhaler, exhaling completely away from the mouthpiece, placing the mouthpiece in the mouth with a tight seal, actuating ONE puff into the spacer, inhaling slowly and deeply over 3–5 seconds, and holding the breath for up to 10 seconds to allow drug deposition in lower airways. When using inhaled corticosteroids, the patient must rinse the mouth thoroughly with water and SPIT IT OUT to prevent local immunosuppression leading to oropharyngeal candidiasis (thrush) and dysphonia. Multiple puffs must be taken one at a time with a 1-minute interval. Why the other options fail: option a takes rapid shallow breaths through the nose, which deposits the drug in the oropharynx rather than the airways. Option b swallows the rinse water, which is exactly how local steroid exposure causes thrush. Option c actuates four puffs before inhaling, so most of the dose settles on the chamber walls.",
+      "CORRECT (D) — \"Exhale fully, actuate once, inhale slowly over 3 to 5 seconds, hold for 10 seconds, then rinse the mouth and spit\". Correct MDI technique with a spacer requires: shaking the inhaler, exhaling completely away from the mouthpiece, placing the mouthpiece in the mouth with a tight seal, actuating ONE puff into the spacer, inhaling slowly and deeply over 3–5 seconds, and holding the breath for up to 10 seconds to allow drug deposition in lower airways. When using inhaled corticosteroids, the patient must rinse the mouth thoroughly with water and SPIT IT OUT to prevent local immunosuppression leading to oropharyngeal candidiasis (thrush) and dysphonia. Multiple puffs must be taken one at a time with a 1-minute interval. Why the other options fail: option a takes rapid shallow breaths through the nose, which deposits the drug in the oropharynx rather than the airways. Option b swallows the rinse water, which is exactly how local steroid exposure causes thrush. Option c actuates four puffs before inhaling, so most of the dose settles on the chamber walls.",
     strategy: "Inhaled corticosteroid technique: Slow deep inhalation -> 10-second breath-hold -> RINSE AND SPIT to prevent oral thrush.",
     difficulty: "easy",
     tags: ["pharmacology", "mdi", "inhaler", "corticosteroids", "asthma"],
@@ -140,12 +140,12 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "Inject within 1 cm of the umbilicus at 45 degrees, which is the preferred site in an obese client",
+        text: "Inject within 1 cm of the umbilicus at 45 degrees, which is the preferred site in an obese client with a thick abdominal wall",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "Enoxaparin injection guidelines specify: (1) inject subcutaneously into the 'love handles' (anterolateral or posterolateral abdominal wall at least 2 inches away from the umbilicus); (2) DO NOT expel the air bubble from the pre-filled manufacturer syringe, as the bubble seals the medication path upon needle withdrawal to prevent tracking into dermis and bruising; (3) pinch a skinfold and insert at 90 degrees; (4) DO NOT aspirate (causes tissue trauma); and (5) DO NOT rub or massage the injection site (causes extensive subcutaneous haematoma and bruising). Why the other options fail: option a expels the bubble that seals the track and stops the drug leaking back into the dermis. Option c aspirates, which traumatises tissue, and massages, which causes bruising and haematoma. Option d injects too close to the umbilicus and at an angle that does not reach subcutaneous fat reliably.",
+      "CORRECT (B) — \"Inject into the anterolateral abdominal wall at 90 degrees, keep the air bubble, and do not rub the site\". Enoxaparin injection guidelines specify: (1) inject subcutaneously into the 'love handles' (anterolateral or posterolateral abdominal wall at least 2 inches away from the umbilicus); (2) DO NOT expel the air bubble from the pre-filled manufacturer syringe, as the bubble seals the medication path upon needle withdrawal to prevent tracking into dermis and bruising; (3) pinch a skinfold and insert at 90 degrees; (4) DO NOT aspirate (causes tissue trauma); and (5) DO NOT rub or massage the injection site (causes extensive subcutaneous haematoma and bruising). Why the other options fail: option a expels the bubble that seals the track and stops the drug leaking back into the dermis. Option c aspirates, which traumatises tissue, and massages, which causes bruising and haematoma. Option d injects too close to the umbilicus and at an angle that does not reach subcutaneous fat reliably.",
     strategy: "Enoxaparin technique: Abdomen (love handles) -> 90 degrees -> DO NOT expel air bubble -> DO NOT aspirate -> DO NOT rub.",
     difficulty: "easy",
     tags: ["pharmacology", "enoxaparin", "subcutaneous", "anticoagulants", "dvt-prophylaxis"],
@@ -200,12 +200,12 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "16 drops per minute",
+        text: "16 drops per minute, which is what a 10-drop-per-millilitre set would give for 100 mL over an hour",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "CORRECT — 100 drops per minute. With a microdrip set the drop factor is 60 gtt/mL, so 100 mL over 60 minutes = 1.67 mL per minute, and 1.67 x 60 = 100 drops per minute. There is a useful shortcut with microdrip tubing: drops per minute equals millilitres per hour, because the drop factor and the minutes in an hour are both 60. Why the other options fail: option a applies the shortcut to 60 mL rather than to the 100 mL prescribed. Option b would deliver only 50 mL in the hour, half the prescription. Option d is what a 10 gtt/mL paediatric set would give for 100 mL over an hour, so it belongs to a different drop factor. Always state the drop factor before calculating, because a microdrip and a macrodrip set give very different rates for the same volume.",
+      "CORRECT (C) — \"100 drops per minute\". With a microdrip set the drop factor is 60 gtt/mL, so 100 mL over 60 minutes = 1.67 mL per minute, and 1.67 x 60 = 100 drops per minute. There is a useful shortcut with microdrip tubing: drops per minute equals millilitres per hour, because the drop factor and the minutes in an hour are both 60. Why the other options fail: option a applies the shortcut to 60 mL rather than to the 100 mL prescribed. Option b would deliver only 50 mL in the hour, half the prescription. Option d is what a 10 gtt/mL paediatric set would give for 100 mL over an hour, so it belongs to a different drop factor. Always state the drop factor before calculating, because a microdrip and a macrodrip set give very different rates for the same volume.",
     strategy: "Microdrip tubing is 60 gtt/mL, so drops per minute equals millilitres per hour.",
     difficulty: "easy",
     tags: ["pharmacology", "drug-calculations", "iv-drip-rate", "microdrip", "math"],
@@ -233,9 +233,9 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "0.75 mL",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "When calculating dosage from reconstituted powders, always use the final concentration specified by the manufacturer rather than the diluent volume added (powder displacement increases the total liquid volume). Prescribed dose = 750 mg. Resulting concentration = 250 mg/mL. Volume = Prescribed dose / Available concentration = 750 mg / 250 mg/mL = 3.0 mL. The nurse draws up exactly 3.0 mL. Why the other options fail: option a divides by the diluent volume rather than the final concentration, which ignores powder displacement. Option b draws the whole 3.5 mL, which delivers 875 mg rather than the prescribed 750 mg. Option d divides the dose by the grams in the vial instead of by the concentration in mg/mL.",
+      "CORRECT (C) — \"3.0 mL\". When calculating dosage from reconstituted powders, always use the final concentration specified by the manufacturer rather than the diluent volume added (powder displacement increases the total liquid volume). Prescribed dose = 750 mg. Resulting concentration = 250 mg/mL. Volume = Prescribed dose / Available concentration = 750 mg / 250 mg/mL = 3.0 mL. The nurse draws up exactly 3.0 mL. Why the other options fail: option a divides by the diluent volume rather than the final concentration, which ignores powder displacement. Option b draws the whole 3.5 mL, which delivers 875 mg rather than the prescribed 750 mg. Option d divides the dose by the grams in the vial instead of by the concentration in mg/mL.",
     strategy: "Reconstitution calculations: Divide prescribed dose by the stated final concentration (not diluent volume): 750 mg / 250 mg/mL = 3.0 mL.",
     difficulty: "easy",
     tags: ["pharmacology", "drug-calculations", "reconstitution", "antibiotics", "math"],
@@ -244,28 +244,28 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-PHARM-009",
     categorySlug: "fluid-electrolyte",
-    stem: "A hospitalized client has a severe serum potassium level of 2.7 mEq/L with flattened T waves and prominent U waves on ECG. The physician orders 40 mEq of potassium chloride IV to be administered. Which nursing practice is vital to prevent fatal iatrogenic cardiac arrest?",
+    stem: "A 46-year-old man who has been taking dapsone for leprosy for three weeks is brought to the ward with central cyanosis, breathlessness and headache. He is alert, his respiratory rate is 26 breaths/min, and his oxygen saturation reads 88% on a non-rebreather mask at 15 L/min. Arterial blood gas shows a PaO2 of 96 mmHg, and the blood in the sample syringe looks chocolate-brown. Which action should the nurse anticipate?",
     choices: [
       {
         id: "a",
-        text: "Draw up the 40 mEq into a 10 mL syringe and give it over 2 minutes, to correct the ECG changes quickly",
+        text: "Stop the dapsone, continue oxygen, and prepare intravenous methylene blue as the antidote",
       },
       {
         id: "b",
-        text: "Give the potassium deep intramuscularly into the dorsogluteal site, since the peripheral route is too slow",
+        text: "Increase the oxygen flow further and repeat the saturation probe on a different finger",
       },
       {
         id: "c",
-        text: "Add the potassium to the unit of packed cells and run it rapidly, so that the infusion is not delayed",
+        text: "Give intravenous furosemide and sit him upright, treating the presentation as pulmonary oedema",
       },
       {
         id: "d",
-        text: "Never give it as a bolus: dilute it, infuse by pump at no more than 10 mEq/h peripherally, and monitor the ECG",
+        text: "Arrange an urgent exchange transfusion as the first-line treatment for this presentation",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "a",
     rationale:
-      "Potassium chloride is a high-alert medication that is LETHAL if given by direct intravenous push or rapid bolus (it halts myocardial electrical conduction in diastole, causing instant asystole). Safety standards mandate: (1) NEVER give IV push; (2) always dilute in compatible IV solutions; (3) maximum peripheral infusion rate is 10 mEq/hour (up to 20 mEq/hour via central venous catheter with continuous ECG monitoring); (4) always use an electronic infusion pump; (5) maximum peripheral concentration is 40 mEq/L; and (6) verify adequate renal function and urine output before administration. Why the other options fail: option a is the direct push that stops the heart in diastole. Option b puts a hypertonic irritant into muscle, which causes necrosis and does not correct the deficit. Option c co-infuses potassium with blood, which is incompatible and can haemolyse the cells, and running it rapidly compounds the danger.",
+      "CORRECT (A) — \"Stop the dapsone, continue oxygen, and prepare intravenous methylene blue as the antidote\". Dapsone is an oxidising drug: it converts the ferrous iron of haemoglobin to the ferric form, and the resulting methaemoglobin cannot bind oxygen. That produces the triad this client shows — central cyanosis with a saturation that will not rise with oxygen, a normal PaO2 on the gas, and blood that is chocolate-brown rather than red. The antidote is methylene blue 1 to 2 mg/kg intravenously over about five minutes, which is itself reduced to leucomethylene blue and then returns the ferric iron to ferrous iron. It needs intact NADPH-dependent reductase, so it is ineffective and can cause haemolysis in G6PD deficiency, where ascorbic acid or exchange transfusion is used instead; the drug that caused it must stop either way. Why the other options fail: option b cannot work, because the haemoglobin is chemically unable to carry the oxygen that is being delivered. Option c treats the lungs for a problem that is in the blood: the PaO2 is normal and there is no evidence of fluid overload. Option d reserves exchange transfusion for severe or refractory cases and for G6PD deficiency, so it is not the first step. Reference: BNF — dapsone and methylene blue; WHO — leprosy treatment",
     strategy: "IV Potassium safety: NEVER give IV push. Max peripheral rate is 10 mEq/hr on an electronic infusion pump with cardiac monitoring.",
     difficulty: "easy",
     tags: ["pharmacology", "potassium", "high-alert-medications", "electrolyte-safety", "cardiac-arrest"],
@@ -274,28 +274,28 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-PHARM-010",
     categorySlug: "fluid-electrolyte",
-    stem: "A client who has been receiving Total Parenteral Nutrition (TPN) via a central venous catheter for 10 days has the infusion abruptly interrupted because the infusion pump malfunctions and shuts off. A replacement pump will take 45 minutes to arrive from central supply. What solution should the nurse hang immediately via gravity to prevent a life-threatening complication?",
+    stem: "A 6-day-old neonate on the newborn unit is prescribed intravenous ceftriaxone for suspected sepsis. Ringer's lactate is already running through the only patent peripheral cannula while a second line is being sited. Which action should the nurse take?",
     choices: [
       {
         id: "a",
-        text: "0.9% Normal Saline at a keep-vein-open (TKO) rate of 10 mL/h",
+        text: "Run the ceftriaxone through the Ringer's lactate line, because the two are compatible in a neonate",
       },
       {
         id: "b",
-        text: "10% Dextrose in Water (D10W) at the same infusion rate",
+        text: "Give the ceftriaxone through a separate line, and never with Ringer's lactate or any calcium-containing fluid",
       },
       {
         id: "c",
-        text: "Lactated Ringer's solution bolus of 500 mL",
+        text: "Mix the ceftriaxone with calcium gluconate in one syringe so that the infusion also prevents hypoglycaemia",
       },
       {
         id: "d",
-        text: "Sterile water for injection without additives",
+        text: "Give the ceftriaxone slowly through the same line without stopping the Ringer's, as a slow rate prevents any precipitate",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "TPN solutions contain high concentrations of dextrose (typically 20% to 50%), which stimulates continuous high endogenous insulin secretion by pancreatic beta cells. If TPN is abruptly stopped, circulating hyperinsulinaemia persists in the absence of exogenous glucose, precipitating severe rebound hypoglycaemia (diaphoresis, confusion, seizures, coma). If a TPN bag runs out or the pump fails, the nurse must immediately infuse 10% Dextrose in Water (D10W) centrally (or 5% Dextrose peripherally) at the same infusion rate until the new TPN solution is ready. Why the other options fail: option a contains no glucose, so it does nothing to prevent the hypoglycaemia that follows abrupt withdrawal of a high-dextrose infusion. Option c gives fluid without dextrose at a bolus volume that risks overload. Option d is hypotonic and would cause haemolysis; it is never used as a replacement fluid.",
+      "CORRECT (B) — \"Give the ceftriaxone through a separate line, and never with Ringer's lactate or any calcium-containing fluid\". Ceftriaxone binds free calcium and forms an insoluble ceftriaxone-calcium salt. In a neonate the drug is cleared slowly and the precipitate has been found at autopsy in the lungs and kidneys, so calcium-containing solutions — Ringer's lactate, Hartmann's solution, calcium gluconate and calcium chloride — must never be given with ceftriaxone in the first 28 days of life, whether mixed in one bag, one syringe or one line. The two need separate lines; where only one line exists, the calcium fluid is stopped and the line flushed thoroughly before and after the antibiotic. Why the other options fail: option a asserts compatibility, which is precisely the dangerous assumption this incompatibility punishes. Option c puts the two reactants into the same syringe, so the precipitate forms before the drug ever reaches the baby. Option d keeps the calcium running while the antibiotic goes in; precipitating slowly is still precipitating. Reference: BNF for Children — ceftriaxone incompatibilities; WHO — neonatal sepsis",
     strategy: "TPN interruption: Abrupt cessation causes severe rebound hypoglycaemia. Always hang 10% Dextrose in Water (D10W) immediately.",
     difficulty: "medium",
     tags: ["pharmacology", "tpn", "hypoglycaemia", "central-line", "nutrition"],
@@ -304,28 +304,28 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-PHARM-011",
     categorySlug: "med-surg",
-    stem: "Ten minutes after the start of a packed red blood cell transfusion, the client suddenly complains of severe lower back pain, chills, shortness of breath, and chest tightness. The temperature rises from 37.0 °C to 38.9 °C, blood pressure drops from 120/78 to 86/48 mmHg, and the Foley catheter drains reddish-brown urine. What is the nurse's immediate priority action?",
+    stem: "A 32-year-old woman with severe herpes zoster is prescribed intravenous acyclovir 500 mg. The prescription says to give the dose over 10 minutes because the ward is busy. Which action should the nurse take?",
     choices: [
       {
         id: "a",
-        text: "Slow the infusion to 10 mL/h and give oral paracetamol for the fever, then reassess in 30 minutes",
+        text: "Give the dose over 10 minutes as prescribed, because a shorter infusion is better tolerated",
       },
       {
         id: "b",
-        text: "Stop the transfusion, disconnect the blood tubing, and run normal saline through new tubing to keep the vein open",
+        text: "Infuse the dose over at least 1 hour with adequate hydration, and monitor the creatinine",
       },
       {
         id: "c",
-        text: "Flush the blood tubing with 50 mL of sterile water to clear any micro-clots before continuing the unit",
+        text: "Give the dose as a rapid bolus and restrict fluids to protect the kidneys from the drug",
       },
       {
         id: "d",
-        text: "Reassure the client that back pain is a common reaction, and continue the transfusion at half the rate",
+        text: "Dissolve the dose in sterile water and give it intramuscularly to avoid exposing the kidneys",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "The client is experiencing an Acute Haemolytic Transfusion Reaction (AHTR), a medical emergency typically caused by ABO/Rh incompatibility. Host antibodies attack donor red cells, causing rapid intravascular haemolysis, hemoglobinuria (reddish urine), flank/back pain, hypotension, DIC, and acute renal failure. Immediate management: (1) STOP the transfusion immediately; (2) disconnect the blood tubing at the cannula hub (do NOT flush remaining blood in the tubing into the patient); (3) connect a new sterile IV line with 0.9% normal saline to maintain vascular access; (4) notify physician and blood bank; (5) send the remaining blood unit, tubing, and fresh blood/urine samples to the lab for workup. Why the other options fail: option a leaves the incompatible blood running while haemolysis continues. Option c flushes the remaining donor cells into the circulation, which increases the antigen load. Option d continues a transfusion through a reaction that can progress to renal failure and DIC.",
+      "CORRECT (B) — \"Infuse the dose over at least 1 hour with adequate hydration, and monitor the creatinine\". Acyclovir is eliminated almost entirely by the kidney, by glomerular filtration and tubular secretion. Push it in fast, or give it to a dehydrated patient, and the concentration in the tubular fluid rises above its solubility, so crystals form in the tubules and produce an obstructive nephropathy. The protection is mechanical and simple: rehydrate, and infuse each dose over at least an hour so that the filtered load stays dilute, with a creatinine checked before and during treatment. The same accumulation explains the neurotoxicity seen in renal impairment — confusion, hallucinations, myoclonus and tremor — and the dose must be reduced when clearance falls. Why the other options fail: option a is the classic cause of acyclovir crystal nephropathy, and 'the ward is busy' is not a pharmacokinetic reason. Option c gives the bolus and then withholds the fluid that would dilute it, combining both risk factors at once. Option d is not an acyclovir route: the drug is given intravenously or orally, and intramuscular injection causes tissue damage without sparing the kidney. Reference: BNF — aciclovir; WHO — herpes zoster treatment",
     strategy: "Transfusion reaction: STOP transfusion -> Disconnect tubing at catheter hub -> Run normal saline with NEW tubing -> Notify provider and blood bank.",
     difficulty: "easy",
     tags: ["pharmacology", "blood-transfusion", "transfusion-reaction", "acute-haemolytic", "patient-safety"],
@@ -334,28 +334,28 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
   {
     authoredId: "NG-MOD-PHARM-012",
     categorySlug: "med-surg",
-    stem: "An 82-year-old client with chronic renal failure and heart failure is receiving their second unit of packed red blood cells. Midway through the transfusion, the client develops tachypnoea (32 bpm), oxygen saturation drops from 97% to 86%, blood pressure rises from 130/80 to 178/96 mmHg, jugular venous distension is visible, and bibasilar crackles are auscultated. Which condition is the client experiencing, and what is the primary intervention?",
+    stem: "A 3-year-old child started on sodium valproate for epilepsy three weeks ago is brought in with vomiting, lethargy, poor feeding and jaundice. The liver enzymes are raised and the ammonia is high. What is the nurse's priority action?",
     choices: [
       {
         id: "a",
-        text: "TACO: stop the transfusion, sit the client upright with the legs dependent, give oxygen and IV furosemide as ordered",
+        text: "Withhold the valproate and report at once, because this may be fatal hepatotoxicity",
       },
       {
         id: "b",
-        text: "TRALI: give a 1-litre bolus of normal saline and lay the client flat, since the lungs are under-perfused",
+        text: "Continue the valproate and add an antiemetic, since vomiting is a common early effect",
       },
       {
         id: "c",
-        text: "Febrile non-haemolytic reaction: give oral diphenhydramine, restart the transfusion, and monitor the temperature",
+        text: "Give the next dose with food and review the child in the outpatient clinic next month",
       },
       {
         id: "d",
-        text: "Anaphylaxis: give subcutaneous adrenaline, then resume the transfusion at full rate once the pressure settles",
+        text: "Double the dose to control the seizures better and settle the vomiting with rehydration",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "Transfusion-Associated Circulatory Overload (TACO) occurs when blood products are infused faster than the circulatory system can accommodate, especially in elderly, cardiac, or renal patients. Manifestations include acute pulmonary edema: tachypnoea, hypoxaemia, hypertension, elevated JVD, and bilateral crackles. In contrast, TRALI features acute non-cardiogenic pulmonary edema with hypotension and fever. Interventions for TACO: stop the transfusion, place the patient upright with legs dependent (reduces venous return/preload), apply high-flow oxygen, and administer intravenous loop diuretics (furosemide). Why the other options fail: option b treats a hypertensive, fluid-overloaded client with more fluid. Option c names a febrile reaction when the picture is pulmonary oedema, and restarting the unit would worsen it. Option d names anaphylaxis, which presents with hypotension and wheeze rather than hypertension and raised venous pressure.",
+      "CORRECT (A) — \"Withhold the valproate and report at once, because this may be fatal hepatotoxicity\". Valproate can cause a microvesicular fatty liver that progresses to hepatic failure, and the risk is highest in children under two, in polypharmacy with other antiepileptics, and in mitochondrial disease. It announces itself with exactly this picture — vomiting, anorexia, lethargy, jaundice, rising transaminases, a raised ammonia and a clotting screen that begins to fail — and it can be fatal within days, so the drug is withheld and the prescriber told at once while liver function, ammonia and clotting are checked. Valproate also causes acute pancreatitis, which presents with the same vomiting and abdominal pain, so an amylase belongs in the workup. Nothing is restarted without specialist review. Why the other options fail: option b treats a warning symptom as a nuisance effect and continues the drug that is injuring the liver. Option c delays the assessment by a month, when the injury may be irreversible. Option d increases the exposure and answers the vomiting with fluid while the liver continues to fail. Reference: BNF for Children — sodium valproate; WHO — epilepsy in children",
     strategy: "TACO vs TRALI: TACO features hypertension + elevated JVD + bibasilar crackles (hypervolaemia). Treat by sitting upright, oxygen, and IV furosemide.",
     difficulty: "medium",
     tags: ["pharmacology", "blood-transfusion", "taco", "circulatory-overload", "furosemide"],
@@ -372,7 +372,7 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Stop the insulin infusion and give oral orange juice, since the glucose has fallen below the target range",
+        text: "Stop the insulin infusion and give oral orange juice, since the glucose has now fallen below the target range used in the management of DKA",
       },
       {
         id: "c",
@@ -383,9 +383,9 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Switch the fluid to sterile water and give subcutaneous glargine to cover the next 24 hours",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "In DKA management, when serum blood glucose reaches approximately 200–250 mg/dL (11.1–13.9 mmol/L), 5% to 10% dextrose MUST be added to intravenous fluids (e.g., D5 0.45% NaCl). The insulin infusion rate is continued or adjusted to maintain glucose between 150 and 200 mg/dL until acidosis and ketosis resolve (anion gap normalizes, venous pH > 7.30, serum bicarbonate >= 18 mEq/L). Stopping insulin prematurely causes rebound ketoacidosis, whereas failing to add dextrose causes precipitously dropping plasma osmolality and lethal cerebral edema. Why the other options fail: option b stops the insulin while ketones are still present, which allows ketoacidosis to rebound. Option c drives the glucose down without adding substrate, risking cerebral oedema and hypoglycaemia. Option d gives hypotonic fluid and long-acting insulin, neither of which addresses the acute deficit.",
+      "CORRECT (A) — \"Add 5% dextrose to the intravenous fluid and continue the insulin, so that ketones clear without hypoglycaemia\". In DKA management, when serum blood glucose reaches approximately 200–250 mg/dL (11.1–13.9 mmol/L), 5% to 10% dextrose MUST be added to intravenous fluids (e.g., D5 0.45% NaCl). The insulin infusion rate is continued or adjusted to maintain glucose between 150 and 200 mg/dL until acidosis and ketosis resolve (anion gap normalizes, venous pH > 7.30, serum bicarbonate >= 18 mEq/L). Stopping insulin prematurely causes rebound ketoacidosis, whereas failing to add dextrose causes precipitously dropping plasma osmolality and lethal cerebral edema. Why the other options fail: option b stops the insulin while ketones are still present, which allows ketoacidosis to rebound. Option c drives the glucose down without adding substrate, risking cerebral oedema and hypoglycaemia. Option d gives hypotonic fluid and long-acting insulin, neither of which addresses the acute deficit.",
     strategy: "DKA insulin titration: When blood glucose reaches ~250 mg/dL, add 5% Dextrose to IV fluids and CONTINUE insulin to clear ketoacidosis safely.",
     difficulty: "medium",
     tags: ["pharmacology", "dka", "insulin-infusion", "high-alert-medications", "fluid-management"],
@@ -413,9 +413,9 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "HIT: stop all heparin at once, including line flushes, and start a non-heparin anticoagulant such as argatroban",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "Heparin-Induced Thrombocytopenia (HIT) is an immune-mediated drug reaction caused by antibodies against platelet factor 4 (PF4)-heparin complexes. It typically develops 5 to 10 days after heparin initiation, marked by a >= 50% drop in platelet count. Rather than causing bleeding, HIT is a pro-thrombotic emergency: antibodies cause widespread platelet activation leading to venous and arterial thrombosis (DVT, PE, stroke, limb gangrene). Immediate action: STOP all heparin products (including heparin line flushes), record heparin allergy, avoid platelet transfusions (fuels thrombosis), and initiate a non-heparin direct thrombin inhibitor (e.g., argatroban, bivalirudin) or fondaparinux. Why the other options fail: option a is the opposite of the required action, because HIT is prothrombotic and more heparin worsens it. Option b transfuses platelets into a syndrome driven by platelet activation, which can fuel the thrombosis. Option c is the wrong diagnosis, and aspirin does not treat HIT.",
+      "CORRECT (D) — \"HIT: stop all heparin at once, including line flushes, and start a non-heparin anticoagulant such as argatroban\". Heparin-Induced Thrombocytopenia (HIT) is an immune-mediated drug reaction caused by antibodies against platelet factor 4 (PF4)-heparin complexes. It typically develops 5 to 10 days after heparin initiation, marked by a >= 50% drop in platelet count. Rather than causing bleeding, HIT is a pro-thrombotic emergency: antibodies cause widespread platelet activation leading to venous and arterial thrombosis (DVT, PE, stroke, limb gangrene). Immediate action: STOP all heparin products (including heparin line flushes), record heparin allergy, avoid platelet transfusions (fuels thrombosis), and initiate a non-heparin direct thrombin inhibitor (e.g., argatroban, bivalirudin) or fondaparinux. Why the other options fail: option a is the opposite of the required action, because HIT is prothrombotic and more heparin worsens it. Option b transfuses platelets into a syndrome driven by platelet activation, which can fuel the thrombosis. Option c is the wrong diagnosis, and aspirin does not treat HIT.",
     strategy: "Heparin-Induced Thrombocytopenia (HIT): Platelets drop > 50% after 5-10 days + thrombosis. STOP ALL HEPARIN immediately; switch to argatroban.",
     difficulty: "hard",
     tags: ["pharmacology", "heparin", "hit", "thrombocytopenia", "anticoagulants"],
@@ -432,7 +432,7 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "b",
-        text: "Give a rapid 2 mg intravenous bolus straight from the vial, which reverses the opioid effect completely and at once",
+        text: "Give a rapid 2 mg intravenous bolus straight from the vial, which reverses the opioid effect completely and at once, including the analgesia",
       },
       {
         id: "c",
@@ -443,9 +443,9 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "Mix naloxone with a further dose of morphine, so that receptor occupancy is balanced between the two drugs",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "In postoperative clients who are opioid-dependent or require analgesia, administering high-dose rapid boluses of naloxone (e.g., 2 mg IV push) causes immediate, complete reversal of analgesia, precipitating severe pain, agitation, sympathetic surge (tachycardia, hypertensive crisis, pulmonary edema), and cardiac arrest. The recommended practice is to dilute 0.4 mg of naloxone in 9 mL of normal saline (giving 0.04 mg/mL) and administer small incremental doses (0.04 to 0.1 mg) every 2–3 minutes until ventilation improves (respiratory rate >= 10–12 bpm) while preserving analgesia. Because naloxone has a shorter half-life (30–90 min) than most opioids, monitoring for resedation is critical. Why the other options fail: option b fully reverses the opioid and precipitates acute pain, agitation and a sympathetic surge. Option c cannot titrate an emergency, and subcutaneous absorption is far too slow for respiratory depression. Option d adds more opioid to a client who is already over-sedated.",
+      "CORRECT (A) — \"Give small titrated IV doses, 0.04 to 0.1 mg every 2 to 3 minutes, enough to restore breathing without full reversal\". In postoperative clients who are opioid-dependent or require analgesia, administering high-dose rapid boluses of naloxone (e.g., 2 mg IV push) causes immediate, complete reversal of analgesia, precipitating severe pain, agitation, sympathetic surge (tachycardia, hypertensive crisis, pulmonary edema), and cardiac arrest. The recommended practice is to dilute 0.4 mg of naloxone in 9 mL of normal saline (giving 0.04 mg/mL) and administer small incremental doses (0.04 to 0.1 mg) every 2–3 minutes until ventilation improves (respiratory rate >= 10–12 bpm) while preserving analgesia. Because naloxone has a shorter half-life (30–90 min) than most opioids, monitoring for resedation is critical. Why the other options fail: option b fully reverses the opioid and precipitates acute pain, agitation and a sympathetic surge. Option c cannot titrate an emergency, and subcutaneous absorption is far too slow for respiratory depression. Option d adds more opioid to a client who is already over-sedated.",
     strategy: "Naloxone titration in post-op: Titrate small incremental doses (0.04-0.1 mg) to restore adequate breathing without precipitating acute pain crisis.",
     difficulty: "medium",
     tags: ["pharmacology", "naloxone", "opioid-reversal", "pca", "respiratory-depression"],
@@ -466,16 +466,16 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Disconnect the monitoring, so that electrical interference from the pump does not disturb the drug delivery",
+        text: "Disconnect the monitoring, so that electrical interference from the infusion pump does not disturb the delivery of the drug to the client",
       },
       {
         id: "d",
         text: "Stop the sedative infusion, so that the client can signal distress by hand movements while paralysed",
       },
     ],
-    correctChoiceId: "b",
+    "correctChoiceId": "b",
     rationale:
-      "Neuromuscular blocking agents (paralytics such as vecuronium, rocuronium, cisatracurium) induce complete skeletal muscle flaccidity, including the diaphragm and intercostal muscles. Crucially, paralytics possess ZERO analgesic, sedative, or anxiolytic properties. Administering a paralytic to an awake, inadequately sedated patient causes conscious paralysis, horror, and profound psychological trauma. The nurse must verify that: (1) an advanced airway is secured on mechanical ventilation, (2) adequate continuous IV sedation and analgesia are actively infusing, and (3) emergency bag-valve-mask equipment and suction are immediately operational. Why the other options fail: option a has no bearing on paralysis and risks aspiration. Option c removes the monitoring that a paralysed client depends on entirely. Option d withdraws sedation, which leaves a paralysed client conscious, the very harm the item tests.",
+      "CORRECT (B) — \"Confirm that sedation and analgesia are running continuously and that the airway is secured on the ventilator\". Neuromuscular blocking agents (paralytics such as vecuronium, rocuronium, cisatracurium) induce complete skeletal muscle flaccidity, including the diaphragm and intercostal muscles. Crucially, paralytics possess ZERO analgesic, sedative, or anxiolytic properties. Administering a paralytic to an awake, inadequately sedated patient causes conscious paralysis, horror, and profound psychological trauma. The nurse must verify that: (1) an advanced airway is secured on mechanical ventilation, (2) adequate continuous IV sedation and analgesia are actively infusing, and (3) emergency bag-valve-mask equipment and suction are immediately operational. Why the other options fail: option a has no bearing on paralysis and risks aspiration. Option c removes the monitoring that a paralysed client depends on entirely. Option d withdraws sedation, which leaves a paralysed client conscious, the very harm the item tests.",
     strategy: "Neuromuscular blocker safety: Paralytics do NOT sedate or relieve pain. ALWAYS ensure adequate sedation/analgesia and secure mechanical ventilation.",
     difficulty: "easy",
     tags: ["pharmacology", "neuromuscular-blockers", "paralytics", "sedation", "critical-care-safety"],
@@ -503,9 +503,9 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
         text: "At any time during the shift, provided the sample is sent promptly",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "Therapeutic drug monitoring for aminoglycosides (gentamicin, tobramycin, amikacin) and glycopeptides (vancomycin) requires drawing peak and trough levels to maximize bactericidal efficacy and prevent toxicity. The TROUGH level reflects the lowest drug concentration in the body and is drawn within 30 minutes immediately prior to the next scheduled dose. An elevated trough level indicates impaired drug clearance and is the most sensitive predictor of aminoglycoside-induced nephrotoxicity (acute tubular necrosis) and irreversible ototoxicity (vestibular and cochlear damage). The PEAK level is drawn 30 minutes after completion of an IV infusion. Why the other options fail: option a is when the peak is drawn, not the trough. Option b samples the middle of the interval, where the level reflects neither peak nor trough. Option d ignores timing altogether, so the result cannot be interpreted against a therapeutic range.",
+      "CORRECT (C) — \"Within 30 minutes, immediately before the next scheduled dose\". Therapeutic drug monitoring for aminoglycosides (gentamicin, tobramycin, amikacin) and glycopeptides (vancomycin) requires drawing peak and trough levels to maximize bactericidal efficacy and prevent toxicity. The TROUGH level reflects the lowest drug concentration in the body and is drawn within 30 minutes immediately prior to the next scheduled dose. An elevated trough level indicates impaired drug clearance and is the most sensitive predictor of aminoglycoside-induced nephrotoxicity (acute tubular necrosis) and irreversible ototoxicity (vestibular and cochlear damage). The PEAK level is drawn 30 minutes after completion of an IV infusion. Why the other options fail: option a is when the peak is drawn, not the trough. Option b samples the middle of the interval, where the level reflects neither peak nor trough. Option d ignores timing altogether, so the result cannot be interpreted against a therapeutic range.",
     strategy: "Trough drug levels: Always draw within 30 minutes IMMEDIATELY BEFORE the next dose. High troughs predict nephrotoxicity and ototoxicity.",
     difficulty: "easy",
     tags: ["pharmacology", "aminoglycosides", "gentamicin", "trough-level", "therapeutic-drug-monitoring"],
@@ -530,12 +530,12 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "Acute hyperkalaemia, treated at once with oral sodium polystyrene sulfonate and a glucose-insulin infusion",
+        text: "Acute hyperkalaemia, treated at once with oral sodium polystyrene sulfonate and a glucose-insulin infusion to shift the potassium intracellularly",
       },
     ],
-    correctChoiceId: "c",
+    "correctChoiceId": "c",
     rationale:
-      "Digoxin has a narrow therapeutic index (0.5 to 2.0 ng/mL, with optimal heart failure levels 0.5–0.9 ng/mL). Potassium competes with digoxin for binding at the myocardial Na+/K+ ATPase pump. When serum potassium is low (hypokalaemia from loop diuretics like furosemide), more digoxin binds to the pump, dramatically potentiating toxicity even at normal serum digoxin levels. Classic signs of digoxin toxicity include gastrointestinal upset (anorexia, nausea, vomiting), neurological/visual disturbances (yellow-green halos, blurred vision), and cardiac dysrhythmias (bradycardia, heart blocks, ventricular ectopy). Immediate action: hold digoxin, check digoxin/electrolyte levels, replace potassium, and prepare antidote Digoxin Immune Fab (Digibind) if life-threatening dysrhythmias occur. Why the other options fail: option a attributes a drug effect to cataract and misses the bradycardia and the potassium. Option b treats the nausea and ignores the pulse and the visual halos. Option d inverts the electrolyte problem, since a potassium of 3.1 is low and the drug to give is potassium, not a binder.",
+      "CORRECT (C) — \"Digoxin toxicity worsened by diuretic-induced hypokalaemia: hold the digoxin, notify the prescriber, and monitor the ECG\". Digoxin has a narrow therapeutic index (0.5 to 2.0 ng/mL, with optimal heart failure levels 0.5–0.9 ng/mL). Potassium competes with digoxin for binding at the myocardial Na+/K+ ATPase pump. When serum potassium is low (hypokalaemia from loop diuretics like furosemide), more digoxin binds to the pump, dramatically potentiating toxicity even at normal serum digoxin levels. Classic signs of digoxin toxicity include gastrointestinal upset (anorexia, nausea, vomiting), neurological/visual disturbances (yellow-green halos, blurred vision), and cardiac dysrhythmias (bradycardia, heart blocks, ventricular ectopy). Immediate action: hold digoxin, check digoxin/electrolyte levels, replace potassium, and prepare antidote Digoxin Immune Fab (Digibind) if life-threatening dysrhythmias occur. Why the other options fail: option a attributes a drug effect to cataract and misses the bradycardia and the potassium. Option b treats the nausea and ignores the pulse and the visual halos. Option d inverts the electrolyte problem, since a potassium of 3.1 is low and the drug to give is potassium, not a binder.",
     strategy: "Digoxin toxicity: Hypokalaemia potentiates toxicity. Look for GI upset + yellow halos + bradycardia. Hold drug and check levels.",
     difficulty: "medium",
     tags: ["pharmacology", "digoxin", "furosemide", "hypokalaemia", "toxicity"],
@@ -560,12 +560,12 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "d",
-        text: "Switch to losartan, because ARBs are safer in pregnancy than ACE inhibitors and carry no fetal risk",
+        text: "Switch to losartan, because ARBs are safer in pregnancy than ACE inhibitors and carry no fetal risk at any stage of gestation",
       },
     ],
-    correctChoiceId: "a",
+    "correctChoiceId": "a",
     rationale:
-      "Angiotensin-Converting Enzyme (ACE) inhibitors (e.g., lisinopril, enalapril) and Angiotensin Receptor Blockers (ARBs, e.g., losartan) are strictly contraindicated in all trimesters of pregnancy. They cause severe fetopathy, including renal dysgenesis, fetal oligohydramnios (leading to pulmonary hypoplasia and limb contractures), skull hypoplasia, intrauterine growth restriction, and fetal death. The nurse must notify the provider immediately to discontinue the ACE inhibitor and transition to safe, first-line antihypertensive agents approved in pregnancy: labetalol, extended-release nifedipine, or methyldopa. Why the other options fail: option b delays the switch into the period when fetal renal damage occurs. Option c raises the dose of the drug that must be stopped. Option d swaps one renally acting blocker for another of the same class, both of which cause fetal renal failure.",
+      "CORRECT (A) — \"Lisinopril is teratogenic at every stage and must stop now; switch to labetalol, nifedipine or methyldopa\". Angiotensin-Converting Enzyme (ACE) inhibitors (e.g., lisinopril, enalapril) and Angiotensin Receptor Blockers (ARBs, e.g., losartan) are strictly contraindicated in all trimesters of pregnancy. They cause severe fetopathy, including renal dysgenesis, fetal oligohydramnios (leading to pulmonary hypoplasia and limb contractures), skull hypoplasia, intrauterine growth restriction, and fetal death. The nurse must notify the provider immediately to discontinue the ACE inhibitor and transition to safe, first-line antihypertensive agents approved in pregnancy: labetalol, extended-release nifedipine, or methyldopa. Why the other options fail: option b delays the switch into the period when fetal renal damage occurs. Option c raises the dose of the drug that must be stopped. Option d swaps one renally acting blocker for another of the same class, both of which cause fetal renal failure.",
     strategy: "Pregnancy contraindications: ACE inhibitors and ARBs are teratogenic (cause fetal renal failure and oligohydramnios). Switch to labetalol, nifedipine, or methyldopa.",
     difficulty: "easy",
     tags: ["pharmacology", "ace-inhibitors", "pregnancy", "teratogenicity", "hypertension"],
@@ -586,16 +586,16 @@ export const PHARM_MODULE_SCENARIOS: AuthoredQuestion[] = [
       },
       {
         id: "c",
-        text: "Serotonin syndrome, which needs high-dose bromocriptine without waiting for the clonus to appear",
+        text: "Serotonin syndrome, which needs high-dose bromocriptine without waiting for the clonus to appear, as the first-choice treatment",
       },
       {
         id: "d",
         text: "Cumulative anticholinergic toxicity from two Beers-listed drugs, diphenhydramine and amitriptyline",
       },
     ],
-    correctChoiceId: "d",
+    "correctChoiceId": "d",
     rationale:
-      "The Beers Criteria (American Geriatrics Society) identifies medications that pose high risks of adverse drug events in older adults. First-generation antihistamines (diphenhydramine) and tricyclic antidepressants (amitriptyline) possess potent anticholinergic properties. In elderly patients, reduced cholinergic receptor density and slower drug clearance lead to cumulative anticholinergic burden: central effects (acute delirium, confusion, memory impairment, sedation) and peripheral effects (urinary retention, dry mouth, blurred vision, constipation, tachycardia, orthostatic hypotension, and falls). Management requires deprescribing inappropriate anticholinergics and adopting non-pharmacological sleep hygiene. Why the other options fail: option a ignores the temporal relationship to two new drugs and calls it progression. Option b names the opposite toxidrome; organophosphates cause bradycardia, salivation and diarrhoea, not dry mouth and retention. Option c treats serotonin syndrome, which this client does not have and for which bromocriptine is not the first choice.",
+      "CORRECT (D) — \"Cumulative anticholinergic toxicity from two Beers-listed drugs, diphenhydramine and amitriptyline\". The Beers Criteria (American Geriatrics Society) identifies medications that pose high risks of adverse drug events in older adults. First-generation antihistamines (diphenhydramine) and tricyclic antidepressants (amitriptyline) possess potent anticholinergic properties. In elderly patients, reduced cholinergic receptor density and slower drug clearance lead to cumulative anticholinergic burden: central effects (acute delirium, confusion, memory impairment, sedation) and peripheral effects (urinary retention, dry mouth, blurred vision, constipation, tachycardia, orthostatic hypotension, and falls). Management requires deprescribing inappropriate anticholinergics and adopting non-pharmacological sleep hygiene. Why the other options fail: option a ignores the temporal relationship to two new drugs and calls it progression. Option b names the opposite toxidrome; organophosphates cause bradycardia, salivation and diarrhoea, not dry mouth and retention. Option c treats serotonin syndrome, which this client does not have and for which bromocriptine is not the first choice.",
     strategy: "Geriatric pharmacology (Beers Criteria): Anticholinergics (diphenhydramine, amitriptyline) cause acute confusion, urinary retention, and falls in older adults.",
     difficulty: "medium",
     tags: ["pharmacology", "beers-criteria", "geriatrics", "anticholinergic-burden", "fall-prevention"],
