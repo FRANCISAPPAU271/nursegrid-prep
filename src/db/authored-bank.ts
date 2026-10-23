@@ -1119,7 +1119,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Her body has lost the ability to regulate temperature altogether"
+    "text": "Her body has lost the ability to regulate its temperature altogether during the illness"
    },
    {
     "id": "b",
@@ -2046,7 +2046,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Nursing the patient flat to promote rest and reduce oxygen demand"
+    "text": "Nursing the patient flat in bed to promote rest and reduce the oxygen demand on the heart"
    },
    {
     "id": "c",
@@ -2286,7 +2286,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Encourage him to cough forcefully"
+    "text": "Encourage him to cough forcefully to try to clear the obstruction"
    },
    {
     "id": "b",
@@ -2362,7 +2362,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Ask him to move his neck gently to test the range of movement"
+    "text": "Ask him to move his neck gently to test the range of movement in the neck before the ambulance arrives"
    },
    {
     "id": "d",
@@ -3420,7 +3420,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Ensuring the blood has been out of the refrigerator for at least an hour"
+    "text": "Ensuring that the blood has been out of the refrigerator for at least one full hour beforehand"
    },
    {
     "id": "c",
@@ -6015,7 +6015,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Transfuse rapidly to correct the anaemia quickly"
+    "text": "Transfuse rapidly to correct the anaemia as quickly as it possibly can be corrected"
    },
    {
     "id": "b",
@@ -16296,7 +16296,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "The child's weight and height plotted against the growth chart"
+    "text": "The child's weight and height plotted against the growth chart in the health record"
    },
    {
     "id": "c",
@@ -59993,7 +59993,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "b",
-   "text": "A feed of expressed breast milk, then a recheck in one hour"
+   "text": "A feed of expressed breast milk, then a recheck of the blood glucose in one hour's time"
   },
   {
    "id": "c",
@@ -76421,7 +76421,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Declining may affect the priority she is given for future treatment"
+    "text": "Declining may affect the priority she is given for future treatment at this hospital or another"
    },
    {
     "id": "b",
@@ -78516,7 +78516,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Take blood for a full blood count and await the platelet result"
+    "text": "Take blood for a full blood count and await the platelet result before doing anything else"
    }
   ],
   "correctChoiceId": "b",
@@ -79860,7 +79860,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Lips pursed around the nipple, cheeks drawn in, rapid shallow sucking"
+    "text": "Lips pursed around the nipple, the cheeks drawn in, and rapid shallow sucking with audible clicking"
    },
    {
     "id": "b",
@@ -80104,7 +80104,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Clamp and cut it immediately to allow the baby to be weighed"
+    "text": "Clamp and cut the cord immediately so that the baby can be weighed and labelled at once"
    },
    {
     "id": "b",
@@ -80361,7 +80361,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Start an antidepressant and review in four weeks"
+    "text": "Start her on an antidepressant and review the effect on her mood and sleep in four weeks"
    },
    {
     "id": "d",
@@ -81211,7 +81211,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Give a double dose of oral iron and review in two weeks"
+    "text": "Give a double dose of oral iron tablets and review her again in two weeks' time"
    },
    {
     "id": "b",
@@ -83066,7 +83066,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "It reduces the risk of gastric irritation from the tablet"
+    "text": "It reduces the risk of gastric irritation from the tablet on the stomach lining"
    },
    {
     "id": "b",
@@ -86514,7 +86514,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "A community-acquired infection, as the organism came from outside"
+    "text": "A community-acquired infection, as the organism came from outside the hospital entirely"
    },
    {
     "id": "b",
@@ -92160,7 +92160,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Attempt it, since a senior colleague has taken responsibility by asking"
+    "text": "Attempt it, since a senior colleague has taken responsibility by asking her to do it on the ward"
    },
    {
     "id": "b",
@@ -93131,7 +93131,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Hypovolaemic shock from bleeding, which requires large volumes of fluid"
+    "text": "Hypovolaemic shock from bleeding, which requires large volumes of fluid and blood products"
    },
    {
     "id": "c",
@@ -95195,7 +95195,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Complete freedom from any pain without the need for oral analgesia"
+    "text": "Complete freedom from any pain at all, without the need for any oral analgesia whatever"
    },
    {
     "id": "c",
@@ -96940,7 +96940,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "That the patient definitely has active pulmonary tuberculosis"
+    "text": "That the patient definitely has active pulmonary tuberculosis requiring immediate treatment"
    },
    {
     "id": "c",
@@ -99677,7 +99677,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Pressure ulcer development from her reduced mobility on the ward"
+    "text": "Pressure ulcer development from her reduced mobility on the ward over the coming days"
    },
    {
     "id": "b",
@@ -103916,7 +103916,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Hold the child firmly still and place a spoon between the teeth to protect the tongue"
+    "text": "Hold the child firmly still and place a spoon between the teeth to protect the tongue from being bitten during the fit"
    },
    {
     "id": "b",
@@ -104535,7 +104535,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "The baby's chin is touching the breast and the nose is clear during feeding"
+    "text": "The baby's chin is pressed against the breast while the nose remains clear throughout the entire feed"
    },
    {
     "id": "d",
@@ -105340,7 +105340,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Root staples such as yam, cassava and plantain"
+    "text": "Root staples such as yam, cassava and plantain that are eaten with most meals"
    },
    {
     "id": "b",
@@ -106059,7 +106059,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "It shortens the infectious period so the child can return to school sooner"
+    "text": "It shortens the infectious period so that the child can return to school sooner than would otherwise be possible"
    },
    {
     "id": "c",
@@ -107860,7 +107860,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Skin turgor tested by pinching the skin on the back of the hand"
+    "text": "Skin turgor tested by pinching the skin on the back of the hand and watching how quickly it returns to shape"
    },
    {
     "id": "c",
@@ -109017,7 +109017,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Reassure the family that late-onset mental illness is common at this age"
+    "text": "Reassure the family that late-onset mental illness is common at this age and nothing to worry about"
    },
    {
     "id": "d",
