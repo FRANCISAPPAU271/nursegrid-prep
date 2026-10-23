@@ -12253,27 +12253,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PHM-0357",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "On a Ghanaian palliative care ward, why is the oral dose of morphine considerably larger than the intravenous dose for the same effect?",
+  "stem": "Why is pethidine avoided in a patient with severe renal impairment?",
   "choices": [
    {
     "id": "a",
-    "text": "The oral tablet contains a weaker form of the drug than the injection"
+    "text": "It is excreted unchanged in the urine, so the parent drug simply accumulates"
    },
    {
     "id": "b",
-    "text": "The stomach acid destroys the majority of the morphine before absorption"
+    "text": "It gives less analgesia than morphine in patients with renal failure"
    },
    {
     "id": "c",
-    "text": "Oral morphine is absorbed into the lymph rather than into the bloodstream"
+    "text": "It is inactivated by the kidneys, so the dose becomes ineffective"
    },
    {
     "id": "d",
-    "text": "Extensive first pass metabolism in the liver removes much of the oral dose"
+    "text": "Its metabolite norpethidine accumulates and can cause seizures"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Extensive first pass metabolism in the liver removes much of the oral dose\". A drug taken orally is absorbed into the <strong>portal vein and passes through the liver before reaching the systemic circulation</strong>. Morphine undergoes extensive <strong>first pass metabolism</strong>, so only a fraction survives, and the oral dose must be roughly two to three times the parenteral dose. Intravenous, sublingual and rectal routes bypass the portal circulation and avoid this loss.\n\nWhy the other options fail:\n• A — The drug substance is identical. The difference lies in how much reaches the circulation, not in potency.\n• B — Gastric acid destroys some drugs such as benzylpenicillin, but morphine's loss is hepatic rather than gastric.\n• C — Most orally absorbed drugs enter the portal blood, not the lymphatics, which is precisely why they meet the liver first.\n\nReference: Ghana nursing curriculum — pharmacokinetics; routes of administration",
+  "rationale": "CORRECT (D) — \"Its metabolite norpethidine accumulates and can cause seizures\". Pethidine is broken down to norpethidine, which is cleared by the kidney and has stimulant effects on the central nervous system. In renal impairment norpethidine accumulates, and high levels cause myoclonus, tremor, agitation and generalised seizures, so the drug is avoided altogether rather than dose-adjusted. The nurse who is asked to give pethidine to a patient with a low eGFR should question the prescription and suggest an alternative opioid, and should report any twitching or unusual jerking at once. Why the other options fail: option a — the problem is the metabolite rather than unchanged pethidine; option b — the analgesic potency is not the reason it is avoided; option c — the drug is not inactivated by the kidney, so the dose does not lose its effect.",
   "strategy": "Whenever oral and injected doses differ greatly, suspect first pass metabolism. Then remember which routes escape it: intravenous, sublingual, rectal and transdermal.",
   "difficulty": "hard",
   "tags": [
@@ -19069,27 +19069,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-OBS-0556",
   "categorySlug": "maternal-newborn",
-  "stem": "On a Ghanaian labour ward, what are the components of active management of the third stage of labour?",
+  "stem": "Why is blood loss after delivery measured by weighing swabs and pads rather than estimated by eye?",
   "choices": [
    {
     "id": "a",
-    "text": "Uterine massage, warm compresses to the abdomen and early breastfeeding"
+    "text": "Because weighing is quicker than looking at the pads"
    },
    {
     "id": "b",
-    "text": "A uterotonic drug, controlled cord traction and massage of the uterine fundus"
+    "text": "Because visual estimation underestimates loss, and a measured loss triggers earlier treatment"
    },
    {
     "id": "c",
-    "text": "Immediate cord clamping, manual removal of the placenta and bladder emptying"
+    "text": "Because soaked pads cannot be counted accurately by staff"
    },
    {
     "id": "d",
-    "text": "Intravenous fluids, elevation of the legs and close observation for one hour"
+    "text": "Because the weight of the soaked pads also shows how much fluid the woman has drunk since admission"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"A uterotonic drug, controlled cord traction and massage of the uterine fundus\". Active management exists to prevent postpartum haemorrhage, and consists of <strong>oxytocin 10 IU intramuscularly within one minute of birth</strong>, <strong>controlled cord traction with counter-pressure applied above the symphysis to guard the uterus</strong>, and <strong>uterine massage after the placenta is delivered</strong>. It reduces the risk of haemorrhage by around 60 per cent compared with waiting, which is why it is offered to every woman rather than only those thought to be at risk.\n\nWhy the other options fail:\n• A — Massage and breastfeeding both help tone, but omitting the uterotonic removes the single most effective element.\n• C — Manual removal is an intervention for retained placenta, and immediate clamping is no longer recommended.\n• D — These are supportive measures for a woman already bleeding, not the preventive package.\n\nReference: Ghana nursing curriculum — active management of the third stage",
+  "rationale": "CORRECT (B) — \"Because visual estimation underestimates loss, and a measured loss triggers earlier treatment\". Visual estimation of blood loss is unreliable and consistently too low, especially when blood is in the drapes, on the floor or in the bed. Weighing swabs and pads (1 gram is approximately 1 millilitre) gives a number that can be added up, charted and acted on, and it is that cumulative figure against the 500 mL and 1,000 mL thresholds that triggers the postpartum haemorrhage bundle. The nurse starts the clock and the tally at delivery, records running totals, and reports reaching a threshold rather than waiting for obvious shock. Why the other options fail: option a — weighing is not chosen for speed; option c — pads can be counted, but counting alone says nothing about volume; option d — the measured weight reflects blood and other lost fluid, not intake.",
   "strategy": "Learn packages as a fixed list of three. If an option is missing the drug, it cannot be the preventive package.",
   "difficulty": "medium",
   "tags": [
@@ -26062,27 +26062,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-SGY-0760",
   "categorySlug": "med-surg",
-  "stem": "An abdominal wound bursts open and bowel is visible in a Ghanaian ward. What should the nurse do **immediately**?",
+  "stem": "Six hours after a laparotomy a patient's drain contains 250 mL of fresh blood. His pulse has risen from 78 to 112 per minute and his blood pressure has fallen to 96/60 mmHg. What should the nurse do?",
   "choices": [
    {
     "id": "a",
-    "text": "Push the bowel gently back inside and apply a firm abdominal binder"
+    "text": "Record the drainage and reassess him at the next set of observations, which are due in four hours"
    },
    {
     "id": "b",
-    "text": "Cover with sterile gauze soaked in warm saline, lie the patient down and call the surgeon"
+    "text": "Report to the surgical team urgently, check the wound and prepare for fluid resuscitation"
    },
    {
     "id": "c",
-    "text": "Clean the exposed bowel thoroughly with antiseptic solution and cover it"
+    "text": "Clamp the drain so that no further blood can be lost through it"
    },
    {
     "id": "d",
-    "text": "Sit the patient upright and give oral fluids while awaiting surgical review"
+    "text": "Milk the drain to keep it patent and continue to observe the output"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Cover with sterile gauze soaked in warm saline, lie the patient down and call the surgeon\". Evisceration is a surgical emergency. The exposed bowel must be kept <strong>moist, warm and covered with sterile saline-soaked gauze</strong> to prevent drying and further contamination, and the patient positioned <strong>supine with knees slightly flexed</strong> to reduce tension on the abdominal wall. Nothing is pushed back, nothing is given by mouth as theatre is imminent, and the surgeon is called at once.\n\nWhy the other options fail:\n• A — Replacing bowel at the bedside contaminates the peritoneum and risks perforation and strangulation.\n• C — Antiseptics damage exposed bowel serosa. Only warm sterile saline is used.\n• D — Sitting up increases abdominal tension, and oral fluids are withheld before emergency surgery.\n\nReference: Ghana nursing curriculum — wound complications",
+  "rationale": "CORRECT (B) — \"Report to the surgical team urgently, check the wound and prepare for fluid resuscitation\". A drain that produces a large volume of fresh blood while the pulse climbs and the pressure falls is telling you that the patient is bleeding, not merely oozing. The nurse's job is to act on it: call the surgical team at once, look at the wound and the abdomen, check the dressing, start the observations that show deterioration (pulse, blood pressure, urine output, conscious level), keep the drain on low-pressure suction as prescribed, prepare intravenous access and fluids, and send blood for grouping and cross-match. Why the other options fail: option a — waiting four hours in a bleeding patient allows shock to develop; option c — clamping hides the bleeding and lets blood collect inside the abdomen; option d — milking the drain keeps it working but does nothing about the bleeding that is filling it.",
   "strategy": "With exposed viscera: cover moist, lie flat, nothing by mouth, call for help. Never replace and never disinfect.",
   "difficulty": "hard",
   "tags": [
@@ -48967,27 +48967,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PSY-1430",
   "categorySlug": "mental-health",
-  "stem": "A family says a prayer camp is also treating their relative's mental illness. What is the **best** nursing response?",
+  "stem": "What is the main role of the community psychiatric nurse in Ghana?",
   "choices": [
    {
     "id": "a",
-    "text": "Insist the family choose immediately between the two forms of care"
+    "text": "To prescribe and dispense antipsychotic medicines at the health centre"
    },
    {
     "id": "b",
-    "text": "Report the prayer camp to the police for practising without a licence"
+    "text": "To admit patients involuntarily when the family asks for it"
    },
    {
     "id": "c",
-    "text": "Discharge the patient, since two treatments cannot run together"
+    "text": "To provide psychotherapy only, leaving every medicine decision to the psychiatrist at the clinic"
    },
    {
     "id": "d",
-    "text": "Keep the relationship open and negotiate about safety and medication"
+    "text": "To follow patients up at home, give depot injections and support their families in the community"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Keep the relationship open and negotiate about safety and medication\". Most Ghanaians with mental illness consult a traditional or faith healer at some point, often first. Forcing a choice usually means <strong>losing the patient entirely</strong>, and with her any chance of influencing safety. Keeping the relationship allows the nurse to negotiate the points that matter: <strong>no chaining, no fasting, no beating, and continued medication</strong>. Chaining is unlawful under Act 846 and must be challenged — but through engagement and, where necessary, escalation, not by abandoning the patient.\n\nWhy the other options fail:\n• A — Forcing a choice generally results in the family withdrawing from health services.\n• B — Reporting first ends all influence; specific abuses are challenged through engagement and escalation.\n• C — Discharging her abandons the patient and removes all clinical oversight.\n\nReference: Ghana Mental Health Act 2012 (Act 846); BCA 202",
+  "rationale": "CORRECT (D) — \"To follow patients up at home, give depot injections and support their families in the community\". Community psychiatric nurses are the backbone of mental health care outside the hospital in Ghana. They visit patients at home after discharge, check adherence and side effects, give prescribed depot injections, recognise relapse early, link people to the clinic and to social support, and — critically — work with the family and the wider community to reduce stigma and to keep the person functioning at home rather than being readmitted. Why the other options fail: option a — prescribing is the prescriber's role, not the community nurse's; option b — involuntary admission is a legal process involving the courts and specified professionals, not a decision a nurse takes on a family's request; option c — the role is not psychotherapy alone, and physical monitoring of medicines is part of it.",
   "strategy": "Stay in the conversation. Influence you have kept is worth more than a principle that lost the patient.",
   "difficulty": "hard",
   "tags": [
@@ -56665,27 +56665,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MDS-1656",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "Why must the word units be written in full on an insulin prescription?",
+  "stem": "A multi-dose vial of a medicine is opened on the ward. What must the nurse write on it, and when must it be discarded?",
   "choices": [
    {
     "id": "a",
-    "text": "The abbreviation is not recognised by the pharmacy department"
+    "text": "Nothing; the vial may be used until the manufacturer's expiry date printed on the carton"
    },
    {
     "id": "b",
-    "text": "Writing it in full indicates which type of insulin is intended"
+    "text": "The patient's name; the vial may be kept until that patient's course of treatment finishes"
    },
    {
     "id": "c",
-    "text": "An abbreviated U can be misread as a zero, tenfold the dose"
+    "text": "The date it was opened, and discard it 28 days later unless the label states otherwise"
    },
    {
     "id": "d",
-    "text": "Abbreviations are prohibited on all prescriptions without exception"
+    "text": "The name of the ward; the vial may then be used for any patient on that ward until it is empty"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"An abbreviated U can be misread as a zero, tenfold the dose\". A handwritten U following a number is readily read as a nought, so <strong>6U becomes 60</strong> — a tenfold overdose of a drug where that is potentially fatal. This is one of the most consistently reported medication errors internationally, and the remedy is simply to write the word. It illustrates a general principle worth carrying: <strong>with high-risk drugs, remove the ambiguity rather than relying on the reader to interpret correctly</strong>.\n\nWhy the other options fail:\n• A — Pharmacy recognises it but cannot safely distinguish it from a zero.\n• B — The insulin type is stated by name, not by the dose unit.\n• D — Some abbreviations are acceptable; this one is specifically hazardous.\n\nReference: Ghana STG; NMC Ghana medicines standards",
+  "rationale": "CORRECT (C) — \"The date it was opened, and discard it 28 days later unless the label states otherwise\". A multi-dose vial contains a preservative but not a guarantee. Once the rubber stopper has been pierced the contents can be contaminated by repeated entry, and the preservative gradually loses effect, so national and WHO guidance is that the vial carries the date it was opened and is discarded 28 days later unless the manufacturer specifies a shorter in-use life. The nurse labels it at the moment of first use, stores it as the label directs, never wipes over a contaminated stopper, and discards it at once if it becomes cloudy or discoloured. Why the other options fail: option a — the printed expiry applies to the sealed vial, not to one in use; option b — a multi-dose vial is not dedicated to one patient indefinitely; option d — ward name alone does not record when the countdown began, so the vial outlives its safe life.",
   "strategy": "For high-risk drugs, write to remove ambiguity, not merely to record the intention.",
   "difficulty": "hard",
   "tags": [
@@ -65292,27 +65292,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-PNC-1908",
   "categorySlug": "maternal-newborn",
-  "stem": "A loop of cord is visible at the vulva after the membranes rupture. What should the nurse do **first**?",
+  "stem": "A woman has a perineal tear repaired after a vaginal delivery. How is a second-degree tear defined?",
   "choices": [
    {
     "id": "a",
-    "text": "Push the cord gently back inside the vagina"
+    "text": "An injury confined to the vaginal mucosa and the labia"
    },
    {
     "id": "b",
-    "text": "Wrap the cord in a warm sterile pack and continue observing"
+    "text": "A tear through the anal sphincter with the rectal mucosa left intact"
    },
    {
     "id": "c",
-    "text": "Relieve pressure on the cord and position her with the hips raised"
+    "text": "A tear through the perineal muscles but not the anal sphincter"
    },
    {
     "id": "d",
-    "text": "Prepare the delivery trolley and await the doctor's instruction"
+    "text": "A tear through the rectal mucosa into the anal canal"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Relieve pressure on the cord and position her with the hips raised\". The baby dies from <strong>the presenting part compressing the cord against the pelvis, cutting off its only oxygen supply</strong> — so the immediate action is to lift the presenting part off it and use gravity, with the hips raised or the knee-chest position, while calling for urgent delivery. <strong>Replacing the cord damages it and does not relieve the compression</strong>, and packing or waiting simply lets the minutes pass.\n\nWhy the other options fail:\n• A — Replacing the cord damages it and does not relieve compression.\n• B — Keeping it warm matters less than relieving the pressure.\n• D — Waiting to be instructed costs the minutes that decide the outcome.\n\nReference: Ghana STG — obstetric emergencies",
+  "rationale": "CORRECT (C) — \"A tear through the perineal muscles but not the anal sphincter\". Perineal tears are graded by how deep the injury goes. A first-degree tear involves only the vaginal epithelium and perineal skin; a second-degree tear extends into the perineal muscles but spares the anal sphincter; a third-degree tear involves the anal sphincter complex, and a fourth-degree tear extends through the anal epithelium into the rectum. The grade decides who repairs the tear, where it is repaired and what follow-up is needed: second-degree tears are usually sutured on the labour ward, while third and fourth-degree tears need skilled repair, antibiotics and later continence review. Why the other options fail: option a — mucosa and labia only is a first-degree tear; option b — sphincter involvement makes it a third-degree tear; option d — extension into the rectal mucosa makes it a fourth-degree tear.",
   "strategy": "Take the weight off the cord and raise the hips. Everything else is secondary.",
   "difficulty": "hard",
   "tags": [
@@ -71418,27 +71418,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-EPH-2087",
   "categorySlug": "gerontology-community",
-  "stem": "Which body is responsible for planning and supervising health services across a Ghanaian district?",
+  "stem": "In Ghana, which body collects the National Health Insurance levy and pays claims for care given to insured patients?",
   "choices": [
    {
     "id": "a",
-    "text": "The Regional Health Directorate"
+    "text": "The Ghana Health Service, which runs the public hospitals and clinics"
    },
    {
     "id": "b",
-    "text": "The District Health Management Team"
+    "text": "The National Health Insurance Authority, with the scheme managers who pay the claims"
    },
    {
     "id": "c",
-    "text": "The Ministry of Health headquarters"
+    "text": "The Christian Health Association of Ghana, which owns and runs the mission facilities"
    },
    {
     "id": "d",
-    "text": "The teaching hospital serving the region"
+    "text": "The District Assembly, which collects property rates and issues permits"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"The District Health Management Team\". The District Health Management Team <strong>plans, budgets, supervises and reports for all facilities in its district, and is the level at which CHPS zones, health centres and the district hospital are coordinated</strong>. The regional directorate supervises districts, the Ministry sets policy, and teaching hospitals provide tertiary care. Knowing this matters practically: <strong>surveillance reports, outbreak response and supervision all run through the district team</strong>.\n\nWhy the other options fail:\n• A — The region supervises districts rather than managing services directly.\n• C — The Ministry sets policy; the Ghana Health Service delivers it.\n• D — Teaching hospitals provide tertiary clinical care.\n\nReference: Ghana Health Service structure",
+  "rationale": "CORRECT (B) — \"The National Health Insurance Authority, with the scheme managers who pay the claims\". The National Health Insurance Authority is the statutory regulator of the national health insurance system: it manages the fund into which the levy and contributions are paid, accredits providers, and oversees the scheme managers who process and pay claims. The Ghana Health Service is the provider side — it runs public facilities and employs their staff — and the Christian Health Association is a major non-government provider network. Knowing which body does which matters on the ward, because a query about a rejected claim goes to the scheme and the Authority, not to the hospital's own management. Why the other options fail: option a — the Ghana Health Service delivers care rather than paying claims; option c — CHAG owns and runs mission facilities and is a provider, not the payer; option d — a District Assembly raises local revenue and issues permits, and has no role in insurance claims.",
   "strategy": "District plans and supervises; region oversees; Ministry sets policy.",
   "difficulty": "medium",
   "tags": [
@@ -96558,27 +96558,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-CLP-2815",
   "categorySlug": "pharmacology-parenteral",
-  "stem": "A nurse in Ghana is asked to take a trough gentamicin level. When should the sample be drawn?",
+  "stem": "Why is gentamicin now usually given as one large daily dose rather than in three divided doses?",
   "choices": [
    {
     "id": "a",
-    "text": "Thirty minutes after the previous dose has finished infusing"
+    "text": "Because one single daily dose is easier for the pharmacy to prepare and to label carefully on the ward round"
    },
    {
     "id": "b",
-    "text": "At any point midway between two consecutive doses"
+    "text": "Because gentamicin is active only at low concentrations"
    },
    {
     "id": "c",
-    "text": "Immediately after the next dose has been administered"
+    "text": "Because divided doses cause more pain at the injection site"
    },
    {
     "id": "d",
-    "text": "Immediately before the next dose is due to be given"
+    "text": "Because killing is concentration-dependent, and a high peak with a long trough is less toxic to the kidney"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Immediately before the next dose is due to be given\". A trough is the lowest concentration in the dosing cycle, which occurs just before the next dose, and it answers a specific question: is the drug clearing adequately between doses, or is it accumulating towards toxicity? Taking it at the wrong moment produces a falsely high figure, and a dose then reduced on that basis leaves the infection undertreated. A peak, where used, is taken a set interval after the dose finishes and answers the opposite question about whether enough is being given. The time of sampling and the time of the last dose are both recorded, since the laboratory cannot interpret the number without them. The principle is that a level means nothing without the timing attached.\n\nWhy the other options fail:\n• A — That interval describes a peak sample, which answers a different clinical question.\n• B — A midpoint sample is neither trough nor peak and cannot be interpreted against either target.\n• C — Sampling after a dose measures the drug just administered rather than what remained.\n\nReference: Standard therapeutic drug monitoring guidance",
+  "rationale": "CORRECT (D) — \"Because killing is concentration-dependent, and a high peak with a long trough is less toxic to the kidney\". Aminoglycoside killing is concentration-dependent: the higher the peak above the minimum inhibitory concentration, the faster and more completely the bacteria die, and the drug also has a post-antibiotic effect that keeps suppressing growth after the level falls. Giving the whole daily dose at once therefore produces a high peak and then a long drug-free trough, and it is the continuous exposure rather than the peak that damages the kidney and the ear. The nurse gives the dose over the recommended infusion time, records the exact times, and takes levels as the protocol directs. Why the other options fail: option a — convenience is not the clinical reason; option b — the drug works better at high concentrations, not low ones; option c — site pain is not what determines the dosing interval.",
   "strategy": "Ask which question the level answers. Accumulation is judged at the trough, adequacy at the peak.",
   "difficulty": "hard",
   "tags": [
@@ -104353,27 +104353,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  {
   "authoredId": "NG-MNH-3043",
   "categorySlug": "maternal-newborn",
-  "stem": "Following spontaneous rupture of membranes at a health centre in the Western Region, the midwife sees a loop of umbilical cord at the vulva. The foetal heart rate is 80 beats per minute. Which action should be taken **immediately**?",
+  "stem": "A woman at 32 weeks has ruptured membranes with no contractions. Which management is correct?",
   "choices": [
    {
     "id": "a",
-    "text": "Attempt to replace the cord gently back inside the uterus through the cervix"
+    "text": "Immediate caesarean section for every woman at this gestation"
    },
    {
     "id": "b",
-    "text": "Ask the woman to push strongly with the next contraction to expedite delivery"
+    "text": "A digital vaginal examination to assess the cervix, then discharge her home to await the start of labour"
    },
    {
     "id": "c",
-    "text": "Apply a warm saline pack to the cord and await the arrival of the doctor"
+    "text": "Induce labour at once, because the infection risk rises after rupture"
    },
    {
     "id": "d",
-    "text": "Elevate the presenting part off the cord and place the woman in the knee-chest position"
+    "text": "Admit her, avoid digital vaginal examination, give antibiotics and steroids, and watch for infection"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Elevate the presenting part off the cord and place the woman in the knee-chest position\". The foetal bradycardia shows the cord is already compressed between the presenting part and the pelvic brim, cutting off oxygen. The immediate priority is mechanical: a gloved hand in the vagina lifts the presenting part off the cord, and the knee-chest or exaggerated Sims position uses gravity to shift the foetus away from the pelvis. Relieving pressure buys the time needed to arrange urgent caesarean section, which is the definitive treatment. The hand stays in place during transfer, since removing it re-occludes the cord.\n\nWhy the other options fail:\n• A — Attempting to replace the cord risks further compression, spasm of the umbilical vessels from handling, and infection. Handling of the cord is minimised rather than increased.\n• B — Pushing drives the presenting part harder onto the cord and worsens the compression, unless the cervix is fully dilated and immediate vaginal birth is genuinely achievable.\n• C — Keeping an exposed cord warm and moist is a reasonable adjunct, but doing it while waiting takes no pressure off the cord. The baby is being deprived of oxygen now.\n\nReference: WHO managing complications in pregnancy and childbirth; Ghana Standard Treatment Guidelines",
+  "rationale": "CORRECT (D) — \"Admit her, avoid digital vaginal examination, give antibiotics and steroids, and watch for infection\". Preterm prelabour rupture of membranes is managed expectantly where the facility can do so: the woman is admitted and monitored, a course of corticosteroids is given to mature the fetal lungs, antibiotics are given to prolong the latency period and reduce infection, and the fetal heart and maternal temperature, pulse and liquor are checked regularly. Digital vaginal examination is avoided because it introduces organisms and shortens the interval to delivery; a speculum examination confirms the diagnosis. Why the other options fail: option a — caesarean is not routine for ruptured membranes at 32 weeks and is reserved for obstetric indications; option b — a digital examination risks ascending infection and discharging her home ignores the risk of chorioamnionitis; option c — inducing labour at 32 weeks exposes the baby to prematurity when expectant management is safer.",
   "strategy": "When a structure is being compressed, the first action is always to decompress it mechanically. Adjuncts and definitive treatment follow, but they do not come first.",
   "difficulty": "hard",
   "tags": [
@@ -113642,27 +113642,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-PHARM-0001",
  "categorySlug": "pharmacology-parenteral",
- "stem": "A client taking digoxin reports nausea, blurred yellow vision and weakness. The apical pulse is 48 per minute. What should the nurse do?",
+ "stem": "A patient with heart failure takes digoxin. Which serum range is therapeutic, and why does the nurse watch the upper limit?",
  "choices": [
   {
    "id": "a",
-   "text": "Give the dose with food to settle the nausea and recheck the pulse in an hour"
+   "text": "0.05 to 0.2 ng/mL, because above this the drug no longer works"
   },
   {
    "id": "b",
-   "text": "Withhold the dose, notify the prescriber and arrange an urgent digoxin level, potassium and ECG"
+   "text": "About 0.5 to 1.0 ng/mL in heart failure, because toxicity becomes likely above it"
   },
   {
    "id": "c",
-   "text": "Give the next dose early so that the blood level stays steady through the whole day and the night on the ward"
+   "text": "5 to 10 ng/mL, because digoxin is measured in micrograms"
   },
   {
    "id": "d",
-   "text": "Ask the client to walk to the bathroom so that the weakness can be assessed"
+   "text": "There is no useful range at all, because the level is measured only to check adherence"
   },
  ],
  "correctChoiceId": "b",
- "rationale": "CORRECT (B) — \"Withhold the dose, notify the prescriber and arrange an urgent digoxin level, potassium and ECG\". Nausea, yellow-tinged vision and bradycardia are the classic triad of digoxin toxicity, and with a pulse of 48 the next dose could precipitate a dangerous arrhythmia. The dose is withheld, the prescriber is told, and a level, potassium and ECG are arranged, because hypokalaemia worsens toxicity.\n\nWhy the other options fail:\n• A — Giving the dose with food masks a systemic warning sign without removing the drug or checking the level.\n• C — Giving the next dose early adds to a level that is already toxic.\n• D — Walking a bradycardic client who may be unstable risks a collapse that the assessment would have prevented.",
+ "rationale": "CORRECT (B) — \"About 0.5 to 1.0 ng/mL in heart failure, because toxicity becomes likely above it\". In heart failure the therapeutic window for digoxin is narrow — roughly 0.5 to 1.0 ng/mL, with levels above about 1.2 ng/mL giving no extra benefit and a growing risk of toxicity. Toxicity is more likely when potassium is low, when renal function falls, and when interacting drugs such as amiodarone, verapamil or a diuretic are added, so the nurse checks the apical pulse and the potassium before a dose and reports nausea, anorexia, confusion, blurred or yellow-tinged vision and bradycardia. Why the other options fail: option a — that range is far below any therapeutic level; option c — the units are nanograms per millilitre and 5 to 10 would be grossly toxic; option d — the level guides both safety and dose, not adherence alone.",
  "strategy": "Visual disturbance plus nausea plus bradycardia on digoxin equals toxicity. Hold, and check potassium.",
  "difficulty": "hard",
  "tags": ["digoxin", "toxicity"],
@@ -117535,27 +117535,27 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
 {
  "authoredId": "NG-MCH-0008",
  "categorySlug": "maternal-newborn",
- "stem": "At 10 weeks the midwife hears the fetal heart with a handheld Doppler. How should this finding be classified?",
+ "stem": "At about how many weeks of pregnancy does the uterine fundus reach the level of the umbilicus?",
  "choices": [
   {
    "id": "a",
-   "text": "A presumptive sign of pregnancy"
+   "text": "About 12 weeks"
   },
   {
    "id": "b",
-   "text": "A probable sign of pregnancy"
+   "text": "About 16 weeks"
   },
   {
    "id": "c",
-   "text": "An unrelated finding"
+   "text": "About 28 weeks"
   },
   {
    "id": "d",
-   "text": "A positive sign of pregnancy"
+   "text": "About 20 weeks"
   }
  ],
  "correctChoiceId": "d",
- "rationale": "CORRECT (D) — \"A positive sign of pregnancy\". Signs of pregnancy are graded by how directly they prove a fetus is present. Hearing the fetal heart is direct evidence of a fetus, so it is a positive sign, alongside ultrasound visualisation and the examiner feeling fetal parts. Option A covers symptoms the woman reports, such as nausea and breast tenderness. Option B covers changes the examiner finds, such as a softened cervix or a positive pregnancy test. Option C is wrong because the finding proves the diagnosis. Why the other options fail: option a — presumptive signs are symptoms the woman reports, such as amenorrhoea; option b — probable signs are what the examiner sees, such as a softened cervix; option c — the fetal heart is a pregnancy sign and not an unrelated finding.",
+ "rationale": "CORRECT (D) — \"About 20 weeks\". Fundal height gives a rough check on dates: the uterus is just palpable above the symphysis pubis at about 12 weeks, reaches the umbilicus at about 20 weeks, and approaches the xiphisternum by about 36 weeks — then it drops slightly as the head engages. A fundal height that is consistently much smaller or larger than the dates should prompt a check, because it may point to wrong dates, growth restriction, a multiple pregnancy or polyhydramnios. Why the other options fail: option a — at 12 weeks the fundus is at the symphysis, not the umbilicus; option b — at 16 weeks it is roughly midway between the two; option c — by 28 weeks the fundus is well above the umbilicus, approaching the xiphisternum.",
  "strategy": "Hearing the heart is a positive sign. Symptoms are presumptive; examination findings are probable.",
  "difficulty": "hard",
  "tags": [
