@@ -355,11 +355,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "The lung may have re-expanded, or the tubing may be obstructed — assess both"
+    "text": "The lung may have re-expanded or the tubing may be blocked — assess both"
    },
    {
     "id": "b",
-    "text": "The drain has failed and must be replaced immediately"
+    "text": "The drain has failed and must be replaced immediately by the surgical team"
    },
    {
     "id": "c",
@@ -371,7 +371,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"The lung may have re-expanded, or the tubing may be obstructed — assess both\". Movement in the water-seal column reflects pressure changes in the pleural space with each breath. It stops for <strong>two quite different reasons</strong>: the lung has re-expanded against the chest wall, or the tubing is kinked, clamped or blocked by a clot. One is recovery and one is an emergency, and they cannot be told apart from the chamber alone. The nurse traces the tubing, checks for kinks and dependent loops, observes chest movement and respiratory effort, and requests a chest radiograph for confirmation.\n\nWhy the other options fail:\n• B — Jumping to replacement skips assessment entirely and would subject a possibly recovering patient to an unnecessary invasive procedure.\n• C — Suction level controls the machine, not lung re-expansion. Raising it does not resolve an obstruction and can cause tissue trauma.\n• D — An air leak shows as continuous bubbling in the water-seal chamber. Absence of movement is the opposite finding.\n\nReference: Ghana STG — Chest trauma; standard thoracic drainage practice",
+  "rationale": "CORRECT (A) — \"The lung may have re-expanded or the tubing may be blocked — assess both\". Movement in the water-seal column reflects pressure changes in the pleural space with each breath. It stops for <strong>two quite different reasons</strong>: the lung has re-expanded against the chest wall, or the tubing is kinked, clamped or blocked by a clot. One is recovery and one is an emergency, and they cannot be told apart from the chamber alone. The nurse traces the tubing, checks for kinks and dependent loops, observes chest movement and respiratory effort, and requests a chest radiograph for confirmation.\n\nWhy the other options fail:\n• B — Jumping to replacement skips assessment entirely and would subject a possibly recovering patient to an unnecessary invasive procedure.\n• C — Suction level controls the machine, not lung re-expansion. Raising it does not resolve an obstruction and can cause tissue trauma.\n• D — An air leak shows as continuous bubbling in the water-seal chamber. Absence of movement is the opposite finding.\n\nReference: Ghana STG — Chest trauma; standard thoracic drainage practice",
   "strategy": "When an expected observation disappears, ask whether it means the problem resolved or the measurement broke. A monitor that has stopped reading looks identical to a patient who has recovered — rule out the equipment before you celebrate.",
   "difficulty": "hard",
   "tags": [
@@ -1595,11 +1595,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "A virus can only reproduce inside a living host cell, whereas a bacterium can multiply independently"
+    "text": "A virus reproduces only inside a living cell; a bacterium can multiply independently"
    },
    {
     "id": "b",
-    "text": "A virus is larger than a bacterium and is visible under a light microscope"
+    "text": "A virus is larger than a bacterium and can be seen easily under an ordinary light microscope"
    },
    {
     "id": "c",
@@ -1611,7 +1611,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"A virus can only reproduce inside a living host cell, whereas a bacterium can multiply independently\". A virus is an obligate intracellular parasite. It has no cellular machinery of its own, so it must <strong>enter a host cell and use that cell's apparatus</strong> to replicate. A bacterium is a complete cell with its own ribosomes and metabolism, and can multiply on a surface or in a culture medium without a host.\n\nWhy the other options fail:\n• B — Viruses are far smaller than bacteria and require an electron microscope. Bacteria are visible under a light microscope.\n• C — This is reversed, and it is the most consequential error in practice. Antibiotics act on bacterial structures and have no effect on viruses — prescribing them for viral illness drives resistance.\n• D — Also reversed. Bacteria have a cell wall and cytoplasm; a virus is only genetic material in a protein coat.\n\nReference: Ghana nursing curriculum — Microbiology",
+  "rationale": "CORRECT (A) — \"A virus reproduces only inside a living cell; a bacterium can multiply independently\". A virus is an obligate intracellular parasite. It has no cellular machinery of its own, so it must <strong>enter a host cell and use that cell's apparatus</strong> to replicate. A bacterium is a complete cell with its own ribosomes and metabolism, and can multiply on a surface or in a culture medium without a host.\n\nWhy the other options fail:\n• B — Viruses are far smaller than bacteria and require an electron microscope. Bacteria are visible under a light microscope.\n• C — This is reversed, and it is the most consequential error in practice. Antibiotics act on bacterial structures and have no effect on viruses — prescribing them for viral illness drives resistance.\n• D — Also reversed. Bacteria have a cell wall and cytoplasm; a virus is only genetic material in a protein coat.\n\nReference: Ghana nursing curriculum — Microbiology",
   "strategy": "Anchor on the reproduction question: can it multiply on its own? Bacteria can, viruses cannot. That single distinction also explains why antibiotics work on one and not the other.",
   "difficulty": "easy",
   "tags": [
@@ -2076,7 +2076,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Send stool specimens and await laboratory confirmation before taking further action"
+    "text": "Send stool specimens and await laboratory confirmation before taking any further action"
    },
    {
     "id": "b",
@@ -2088,11 +2088,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Report to the infection prevention team immediately and institute contact precautions for affected patients"
+    "text": "Report to the infection prevention team and start contact precautions at once"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Report to the infection prevention team immediately and institute contact precautions for affected patients\". Four linked cases in one place over three days constitutes a <strong>suspected outbreak</strong>, and the priority is to limit spread while investigation proceeds. Prompt reporting activates the infection prevention team, and contact precautions with cohorting contain transmission. Specimens are sent in parallel, not before acting.\n\nWhy the other options fail:\n• A — Specimens are essential but results take days. Waiting allows continued transmission to patients and staff throughout that period.\n• B — Dispersing patients across the facility spreads the organism to new wards. Affected patients are cohorted together, not scattered.\n• C — Most outbreak diarrhoea is viral, and antibiotics are ineffective, may prolong shedding, and further disturb bowel flora.\n\nReference: Ghana Health Service — outbreak investigation and response",
+  "rationale": "CORRECT (D) — \"Report to the infection prevention team and start contact precautions at once\". Four linked cases in one place over three days constitutes a <strong>suspected outbreak</strong>, and the priority is to limit spread while investigation proceeds. Prompt reporting activates the infection prevention team, and contact precautions with cohorting contain transmission. Specimens are sent in parallel, not before acting.\n\nWhy the other options fail:\n• A — Specimens are essential but results take days. Waiting allows continued transmission to patients and staff throughout that period.\n• B — Dispersing patients across the facility spreads the organism to new wards. Affected patients are cohorted together, not scattered.\n• C — Most outbreak diarrhoea is viral, and antibiotics are ineffective, may prolong shedding, and further disturb bowel flora.\n\nReference: Ghana Health Service — outbreak investigation and response",
   "strategy": "Recognise an outbreak by the pattern: several similar cases, linked in place and time. The first action is always contain and report, with investigation running alongside. Never wait for confirmation before controlling spread.",
   "difficulty": "hard",
   "tags": [
@@ -2250,11 +2250,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Remove the tight binding, immobilise the limb, and arrange urgent transfer for antivenom"
+    "text": "Remove the binding, immobilise the limb and arrange urgent transfer for antivenom"
    },
    {
     "id": "b",
-    "text": "Leave the tight cloth in place as it prevents venom spreading"
+    "text": "Leave the tight cloth in place because it stops the venom from spreading up the limb"
    },
    {
     "id": "c",
@@ -2266,7 +2266,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Remove the tight binding, immobilise the limb, and arrange urgent transfer for antivenom\". A tight tourniquet concentrates venom in the limb, causing local tissue necrosis, and produces a dangerous surge of venom into the circulation when released. Cutting and sucking introduce infection and worsen bleeding, which is particularly hazardous when the venom is haemotoxic. Correct management is to <strong>remove the binding, immobilise the limb at or below heart level, and transfer urgently — antivenom is the only definitive treatment</strong>.\n\nWhy the other options fail:\n• B — Tight ligatures do not prevent systemic spread and cause ischaemic damage. Sudden release can precipitate rapid deterioration.\n• C — Incision and suction have no proven benefit, remove negligible venom, and add infection and bleeding to an already compromised limb.\n• D — Ice worsens local tissue injury, and observing for two hours wastes the window in which antivenom is most effective.\n\nReference: Ghana STG — snakebite envenoming; WHO",
+  "rationale": "CORRECT (A) — \"Remove the binding, immobilise the limb and arrange urgent transfer for antivenom\". A tight tourniquet concentrates venom in the limb, causing local tissue necrosis, and produces a dangerous surge of venom into the circulation when released. Cutting and sucking introduce infection and worsen bleeding, which is particularly hazardous when the venom is haemotoxic. Correct management is to <strong>remove the binding, immobilise the limb at or below heart level, and transfer urgently — antivenom is the only definitive treatment</strong>.\n\nWhy the other options fail:\n• B — Tight ligatures do not prevent systemic spread and cause ischaemic damage. Sudden release can precipitate rapid deterioration.\n• C — Incision and suction have no proven benefit, remove negligible venom, and add infection and bleeding to an already compromised limb.\n• D — Ice worsens local tissue injury, and observing for two hours wastes the window in which antivenom is most effective.\n\nReference: Ghana STG — snakebite envenoming; WHO",
   "strategy": "With snakebite, most traditional first aid actively causes harm. Reassure, immobilise, remove constricting items, transfer. Anything that cuts, sucks, ties tightly, freezes or delays is wrong.",
   "difficulty": "hard",
   "tags": [
@@ -3967,11 +3967,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Leave the line without any infusion until the new bag arrives"
+    "text": "Leave the line without any infusion until the new bag arrives from pharmacy"
    },
    {
     "id": "b",
-    "text": "Commence a dextrose-containing infusion as prescribed to prevent rebound hypoglycaemia"
+    "text": "Start a dextrose infusion as prescribed to prevent rebound hypoglycaemia"
    },
    {
     "id": "c",
@@ -3983,7 +3983,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Commence a dextrose-containing infusion as prescribed to prevent rebound hypoglycaemia\". Parenteral nutrition delivers a high glucose load, and the pancreas adapts by secreting more insulin. Stopping abruptly leaves that circulating insulin unopposed, producing <strong>rebound hypoglycaemia</strong>. A dextrose infusion is run as prescribed to bridge the gap, and parenteral nutrition is normally tapered rather than stopped suddenly.\n\nWhy the other options fail:\n• A — Leaving the patient with no glucose source is precisely what causes the hypoglycaemic episode.\n• C — Flushing and clamping maintains line patency but provides no glucose, so the hypoglycaemia still occurs.\n• D — Running the next bag faster to catch up causes hyperglycaemia and fluid overload. Rates are never increased to compensate for lost time.\n\nReference: Ghana STG — parenteral nutrition",
+  "rationale": "CORRECT (B) — \"Start a dextrose infusion as prescribed to prevent rebound hypoglycaemia\". Parenteral nutrition delivers a high glucose load, and the pancreas adapts by secreting more insulin. Stopping abruptly leaves that circulating insulin unopposed, producing <strong>rebound hypoglycaemia</strong>. A dextrose infusion is run as prescribed to bridge the gap, and parenteral nutrition is normally tapered rather than stopped suddenly.\n\nWhy the other options fail:\n• A — Leaving the patient with no glucose source is precisely what causes the hypoglycaemic episode.\n• C — Flushing and clamping maintains line patency but provides no glucose, so the hypoglycaemia still occurs.\n• D — Running the next bag faster to catch up causes hyperglycaemia and fluid overload. Rates are never increased to compensate for lost time.\n\nReference: Ghana STG — parenteral nutrition",
   "strategy": "Any infusion the body has adapted to must be tapered, not stopped abruptly — parenteral nutrition, insulin infusions and long-term steroids all follow this rule. Ask what the body has compensated for and what happens when the stimulus disappears.",
   "difficulty": "hard",
   "tags": [
@@ -5338,11 +5338,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Acute kidney injury from hypovolaemia requiring urgent fluid resuscitation"
+    "text": "Acute kidney injury from hypovolaemia needing urgent fluids"
    },
    {
     "id": "c",
-    "text": "A urinary tract infection requiring antibiotics"
+    "text": "A urinary tract infection that requires a course of antibiotics at home"
    },
    {
     "id": "d",
@@ -5350,7 +5350,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Acute kidney injury from hypovolaemia requiring urgent fluid resuscitation\". Severe fluid loss reduces renal perfusion, so filtration falls and waste products accumulate. Rising urea and creatinine with <strong>oliguria of less than 0.5 mL/kg/hour</strong> indicates acute kidney injury, most commonly pre-renal in this setting. Prompt fluid resuscitation usually reverses it, but delay leads to established tubular damage.\n\nWhy the other options fail:\n• A — Reduced intake does not raise creatinine or cause oliguria. These indicate impaired kidney function.\n• C — Infection would present with dysuria, frequency and fever rather than falling urine output with rising creatinine after fluid loss.\n• D — Dietary protein can slightly raise urea but does not raise creatinine or reduce urine output.\n\nReference: Ghana STG — acute kidney injury",
+  "rationale": "CORRECT (B) — \"Acute kidney injury from hypovolaemia needing urgent fluids\". Severe fluid loss reduces renal perfusion, so filtration falls and waste products accumulate. Rising urea and creatinine with <strong>oliguria of less than 0.5 mL/kg/hour</strong> indicates acute kidney injury, most commonly pre-renal in this setting. Prompt fluid resuscitation usually reverses it, but delay leads to established tubular damage.\n\nWhy the other options fail:\n• A — Reduced intake does not raise creatinine or cause oliguria. These indicate impaired kidney function.\n• C — Infection would present with dysuria, frequency and fever rather than falling urine output with rising creatinine after fluid loss.\n• D — Dietary protein can slightly raise urea but does not raise creatinine or reduce urine output.\n\nReference: Ghana STG — acute kidney injury",
   "strategy": "Interpret renal results alongside urine output and fluid status. Rising urea and creatinine after any cause of volume loss means pre-renal injury, and the treatment is to restore the circulating volume quickly.",
   "difficulty": "hard",
   "tags": [
@@ -5572,7 +5572,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Return the prepared syringe to the controlled drug cupboard for use later that shift"
+    "text": "Return the prepared syringe to the controlled drug cupboard for use later in the same shift"
    },
    {
     "id": "b",
@@ -5580,7 +5580,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Discard it with a second registered nurse witnessing, and record the waste in the register with both signatures"
+    "text": "Discard it with a second nurse witnessing and record it in the register, both signing"
    },
    {
     "id": "d",
@@ -5588,7 +5588,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Discard it with a second registered nurse witnessing, and record the waste in the register with both signatures\". Wasted controlled drugs must be <strong>witnessed and documented</strong>. Discarding in the presence of a second registered nurse, with both signing the register, creates an auditable record that the drug was destroyed rather than diverted. Controlled drug accounting must balance at every check.\n\nWhy the other options fail:\n• A — A drawn-up syringe cannot be returned to stock. Its contents and sterility can no longer be guaranteed.\n• B — Unwitnessed disposal leaves no independent evidence and exposes the nurse to allegations of diversion.\n• D — Giving a drug prepared for one patient to another is a serious error and a breach of controlled drug law.\n\nReference: Ghana — controlled drugs regulations; NMC Ghana Code",
+  "rationale": "CORRECT (C) — \"Discard it with a second nurse witnessing and record it in the register, both signing\". Wasted controlled drugs must be <strong>witnessed and documented</strong>. Discarding in the presence of a second registered nurse, with both signing the register, creates an auditable record that the drug was destroyed rather than diverted. Controlled drug accounting must balance at every check.\n\nWhy the other options fail:\n• A — A drawn-up syringe cannot be returned to stock. Its contents and sterility can no longer be guaranteed.\n• B — Unwitnessed disposal leaves no independent evidence and exposes the nurse to allegations of diversion.\n• D — Giving a drug prepared for one patient to another is a serious error and a breach of controlled drug law.\n\nReference: Ghana — controlled drugs regulations; NMC Ghana Code",
   "strategy": "Controlled drugs require a witness for administration and for waste. Any option involving unwitnessed handling, return to stock or transfer between patients is wrong.",
   "difficulty": "medium",
   "tags": [
@@ -43806,7 +43806,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
  "choices": [
   {
    "id": "a",
-   "text": "A 50 per cent relative reduction, which is an absolute reduction of 1 in 1,000"
+   "text": "A 50 per cent relative reduction — an absolute reduction of 1 in 1,000"
   },
   {
    "id": "b",
@@ -43818,11 +43818,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   },
   {
    "id": "d",
-   "text": "A doubling of the benefit for every patient treated"
+   "text": "A doubling of the benefit for every single patient who is treated with it"
   }
  ],
  "correctChoiceId": "a",
- "rationale": "CORRECT (A) — \"A 50 per cent relative reduction, which is an absolute reduction of 1 in 1,000\". The relative risk has fallen by half, from 2 per 1,000 to 1 per 1,000, but the absolute risk has fallen by only 1 in 1,000. Both statements are true and they sound very different, which is why advertisements prefer the relative figure. One way to make the absolute effect concrete is the number needed to treat: 1 divided by 0.001 gives 1,000 patients treated to prevent one complication. Option B confuses relative with absolute reduction; a true 50 per cent absolute reduction would take the risk from 2 in 1,000 to 1 in 1,000 only if the baseline were 2 in 1,000 out of 2 in 1,000, which is not the case. Option C is wrong because a real, if small, benefit exists. Option D invents an effect that the data do not contain.",
+ "rationale": "CORRECT (A) — \"A 50 per cent relative reduction — an absolute reduction of 1 in 1,000\". The relative risk has fallen by half, from 2 per 1,000 to 1 per 1,000, but the absolute risk has fallen by only 1 in 1,000. Both statements are true and they sound very different, which is why advertisements prefer the relative figure. One way to make the absolute effect concrete is the number needed to treat: 1 divided by 0.001 gives 1,000 patients treated to prevent one complication. Option B confuses relative with absolute reduction; a true 50 per cent absolute reduction would take the risk from 2 in 1,000 to 1 in 1,000 only if the baseline were 2 in 1,000 out of 2 in 1,000, which is not the case. Option C is wrong because a real, if small, benefit exists. Option D invents an effect that the data do not contain.",
  "strategy": "Relative risk flatters, absolute risk informs. Always ask: out of how many patients?",
  "difficulty": "hard",
  "tags": [
@@ -79201,7 +79201,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Hyperflex the woman's thighs onto her abdomen and apply suprapubic pressure"
+    "text": "Hyperflex her thighs onto the abdomen and apply suprapubic pressure"
    },
    {
     "id": "c",
@@ -79209,11 +79209,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Cut a large episiotomy to enlarge the pelvic outlet"
+    "text": "Cut a large episiotomy to enlarge the pelvic outlet for the shoulders"
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Hyperflex the woman's thighs onto her abdomen and apply suprapubic pressure\". Shoulder dystocia is the anterior shoulder caught behind the symphysis pubis, and the McRoberts manoeuvre resolves a large proportion of cases on its own. Hyperflexing the thighs rotates the symphysis upwards and flattens the sacral promontory, changing the shape of the outlet without changing its size, while an assistant presses suprapubically to push the shoulder into an oblique position. It is first because it is quick, requires no instruments and causes no injury. The principle is that the obstruction is bone against bone, so the solution alters the relationship between the two, and pulling harder only injures the brachial plexus.\n\nWhy the other options fail:\n• A — Firm traction on the head stretches the brachial plexus against a shoulder that is not moving, causing Erb's palsy, and it does not free the impaction.\n• C — Fundal pressure drives the shoulder harder against the symphysis and is associated with uterine rupture; it is explicitly to be avoided.\n• D — An episiotomy enlarges soft tissue, but the obstruction is bony, so it does not relieve the impaction, though it may create room for internal manoeuvres later.\n\nReference: RCOG shoulder dystocia guidance; Ghana National Safe Motherhood Protocol",
+  "rationale": "CORRECT (B) — \"Hyperflex her thighs onto the abdomen and apply suprapubic pressure\". Shoulder dystocia is the anterior shoulder caught behind the symphysis pubis, and the McRoberts manoeuvre resolves a large proportion of cases on its own. Hyperflexing the thighs rotates the symphysis upwards and flattens the sacral promontory, changing the shape of the outlet without changing its size, while an assistant presses suprapubically to push the shoulder into an oblique position. It is first because it is quick, requires no instruments and causes no injury. The principle is that the obstruction is bone against bone, so the solution alters the relationship between the two, and pulling harder only injures the brachial plexus.\n\nWhy the other options fail:\n• A — Firm traction on the head stretches the brachial plexus against a shoulder that is not moving, causing Erb's palsy, and it does not free the impaction.\n• C — Fundal pressure drives the shoulder harder against the symphysis and is associated with uterine rupture; it is explicitly to be avoided.\n• D — An episiotomy enlarges soft tissue, but the obstruction is bony, so it does not relieve the impaction, though it may create room for internal manoeuvres later.\n\nReference: RCOG shoulder dystocia guidance; Ghana National Safe Motherhood Protocol",
   "strategy": "Identify the tissue causing the obstruction. If it is bone, options involving cutting soft tissue or pulling harder are wrong, and the answer will reposition the pelvis.",
   "difficulty": "hard",
   "tags": [
@@ -81418,11 +81418,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Treatment should be deferred until after delivery to protect the foetus"
+    "text": "Treatment should be deferred until after the delivery so as to protect the unborn foetus"
    },
    {
     "id": "b",
-    "text": "Standard treatment should start now, as untreated tuberculosis is more dangerous than the drugs"
+    "text": "Standard treatment should start now; untreated TB is more dangerous than the drugs"
    },
    {
     "id": "c",
@@ -81434,7 +81434,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Standard treatment should start now, as untreated tuberculosis is more dangerous than the drugs\". First-line antituberculosis drugs are safe in pregnancy, and untreated tuberculosis threatens both mother and foetus with prematurity, low birth weight, perinatal death and continuing transmission. Treatment therefore starts as soon as the diagnosis is made, on the standard regimen, and it is free in Ghana. Pyridoxine is added to prevent isoniazid-related neuropathy. She can breastfeed while on treatment, and the baby is assessed and given preventive therapy where indicated. The principle is that in pregnancy you compare the risk of the treatment against the risk of the untreated disease, rather than treating any drug exposure as automatically the greater harm.\n\nWhy the other options fail:\n• A — Deferring treatment leaves an infectious, progressive disease untreated for months, harming the woman and exposing her household and her newborn.\n• C — Stopping breastfeeding is unnecessary, since the drugs appear in milk at very low concentrations and the benefits of breastfeeding are substantial.\n• D — There is no requirement to repeat first trimester bloods before starting, and the delay serves no clinical purpose.\n\nReference: WHO tuberculosis in pregnancy; Ghana National Tuberculosis Programme",
+  "rationale": "CORRECT (B) — \"Standard treatment should start now; untreated TB is more dangerous than the drugs\". First-line antituberculosis drugs are safe in pregnancy, and untreated tuberculosis threatens both mother and foetus with prematurity, low birth weight, perinatal death and continuing transmission. Treatment therefore starts as soon as the diagnosis is made, on the standard regimen, and it is free in Ghana. Pyridoxine is added to prevent isoniazid-related neuropathy. She can breastfeed while on treatment, and the baby is assessed and given preventive therapy where indicated. The principle is that in pregnancy you compare the risk of the treatment against the risk of the untreated disease, rather than treating any drug exposure as automatically the greater harm.\n\nWhy the other options fail:\n• A — Deferring treatment leaves an infectious, progressive disease untreated for months, harming the woman and exposing her household and her newborn.\n• C — Stopping breastfeeding is unnecessary, since the drugs appear in milk at very low concentrations and the benefits of breastfeeding are substantial.\n• D — There is no requirement to repeat first trimester bloods before starting, and the delay serves no clinical purpose.\n\nReference: WHO tuberculosis in pregnancy; Ghana National Tuberculosis Programme",
   "strategy": "In pregnancy, weigh the treated against the untreated disease. Options that withhold effective treatment out of general caution about drugs are usually wrong.",
   "difficulty": "medium",
   "tags": [
@@ -88998,7 +88998,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Immediately commence high-flow oxygen at 15 litres a minute"
+    "text": "Immediately commence high-flow oxygen at 15 litres a minute through a mask"
    },
    {
     "id": "b",
@@ -89006,7 +89006,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Check the probe position and trace, and confirm against the patient's clinical state"
+    "text": "Check the probe position and trace, and compare with the patient's state"
    },
    {
     "id": "d",
@@ -89014,7 +89014,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Check the probe position and trace, and confirm against the patient's clinical state\". A saturation reading must always be interpreted alongside the patient. A figure that conflicts sharply with a comfortable, alert, well-perfused patient is more likely to reflect a measurement problem — a poorly positioned or loose probe, nail varnish, movement, bright ambient light, cold peripheries or poor perfusion — than sudden profound hypoxia without symptoms. The nurse checks the probe, looks for a good waveform or signal, and reassesses. If the reading is genuine, oxygen and urgent review follow at once. The principle is treat the patient, not the number, but never dismiss the number without checking.\n\nWhy the other options fail:\n• A — Committing to high-flow oxygen on a probably artefactual reading may be harmful in a patient who retains carbon dioxide.\n• B — Recording an alarming value and moving on ignores a reading that could be real.\n• D — Declaring the machine faulty without checking the probe may miss genuine deterioration.\n\nReference: Standard pulse oximetry practice",
+  "rationale": "CORRECT (C) — \"Check the probe position and trace, and compare with the patient's state\". A saturation reading must always be interpreted alongside the patient. A figure that conflicts sharply with a comfortable, alert, well-perfused patient is more likely to reflect a measurement problem — a poorly positioned or loose probe, nail varnish, movement, bright ambient light, cold peripheries or poor perfusion — than sudden profound hypoxia without symptoms. The nurse checks the probe, looks for a good waveform or signal, and reassesses. If the reading is genuine, oxygen and urgent review follow at once. The principle is treat the patient, not the number, but never dismiss the number without checking.\n\nWhy the other options fail:\n• A — Committing to high-flow oxygen on a probably artefactual reading may be harmful in a patient who retains carbon dioxide.\n• B — Recording an alarming value and moving on ignores a reading that could be real.\n• D — Declaring the machine faulty without checking the probe may miss genuine deterioration.\n\nReference: Standard pulse oximetry practice",
   "strategy": "When a monitor and the patient disagree, verify the measurement before acting on it — but never simply ignore it. Both extremes are wrong.",
   "difficulty": "hard",
   "tags": [
@@ -105997,15 +105997,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Height recorded on its own, compared against a population average"
+    "text": "Height recorded on its own, compared against a population average for adults"
    },
    {
     "id": "d",
-    "text": "Recent unintentional weight loss, body mass index and any recent reduction in food intake"
+    "text": "Recent unintentional weight loss, body mass index and any fall in intake"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Recent unintentional weight loss, body mass index and any recent reduction in food intake\". Effective screening is quick, cheap and repeatable at the bedside. Unintentional weight loss over the preceding three to six months signals that something is already going wrong, body mass index describes current status, and a recent fall in intake predicts what will happen next. Together these three cover the past, the present and the trajectory, which is why validated screening tools combine them. Screening is not a full assessment; it identifies who needs one. Its value depends on being repeated during the stay, because a patient can be well nourished on admission and become depleted through fasting for investigations and poor ward intake.\n\nWhy the other options fail:\n• A — Albumin falls with inflammation regardless of diet, so a single value in an acutely ill patient reflects illness severity rather than nutritional state and misclassifies patients in both directions.\n• B — Appetite on one morning is easily distorted by anxiety, pain, nausea or the timing of admission. It has no reference to previous intake or to weight change.\n• C — Height alone says nothing about nutritional status in an adult. It is only meaningful as part of body mass index, in combination with weight.\n\nReference: NICE nutrition support in adults; ESPEN screening guidance",
+  "rationale": "CORRECT (D) — \"Recent unintentional weight loss, body mass index and any fall in intake\". Effective screening is quick, cheap and repeatable at the bedside. Unintentional weight loss over the preceding three to six months signals that something is already going wrong, body mass index describes current status, and a recent fall in intake predicts what will happen next. Together these three cover the past, the present and the trajectory, which is why validated screening tools combine them. Screening is not a full assessment; it identifies who needs one. Its value depends on being repeated during the stay, because a patient can be well nourished on admission and become depleted through fasting for investigations and poor ward intake.\n\nWhy the other options fail:\n• A — Albumin falls with inflammation regardless of diet, so a single value in an acutely ill patient reflects illness severity rather than nutritional state and misclassifies patients in both directions.\n• B — Appetite on one morning is easily distorted by anxiety, pain, nausea or the timing of admission. It has no reference to previous intake or to weight change.\n• C — Height alone says nothing about nutritional status in an adult. It is only meaningful as part of body mass index, in combination with weight.\n\nReference: NICE nutrition support in adults; ESPEN screening guidance",
   "strategy": "Good screening captures a change over time, not a single snapshot. Look for the option that includes weight history alongside current measurement.",
   "difficulty": "easy",
   "tags": [
@@ -106608,15 +106608,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Vitamin K, since polished rice interferes with its absorption"
+    "text": "Vitamin K, since polished rice interferes with the absorption of the vitamin"
    },
    {
     "id": "d",
-    "text": "Thiamine, since milling removes the outer layers of the grain where it is concentrated"
+    "text": "Thiamine, because milling removes the outer layers where it is concentrated"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Thiamine, since milling removes the outer layers of the grain where it is concentrated\". Thiamine sits in the bran and germ of the rice grain, and polishing removes precisely those layers, leaving mainly starch. A population dependent on polished rice with little variety therefore becomes thiamine deficient, producing beriberi. Dry beriberi affects peripheral nerves with symmetrical numbness, weakness and loss of reflexes; wet beriberi affects the cardiovascular system with high-output cardiac failure and oedema. Both respond dramatically to thiamine replacement, which makes recognition worthwhile. The same deficiency underlies Wernicke encephalopathy in people who drink heavily, and the mechanism, a missing cofactor for carbohydrate metabolism, is identical.\n\nWhy the other options fail:\n• A — Vitamin C deficiency causes scurvy with bleeding gums and poor healing. Although rice contains no vitamin C, the clinical picture described is neurological and cardiac, not haemorrhagic.\n• B — Iodine deficiency causes goitre and impaired neurological development, not peripheral neuropathy with heart failure in young adults.\n• C — Vitamin K deficiency causes bleeding. Polished rice does not interfere with its absorption, and the described features do not fit.\n\nReference: WHO guidance on thiamine deficiency; FAO food composition data",
+  "rationale": "CORRECT (D) — \"Thiamine, because milling removes the outer layers where it is concentrated\". Thiamine sits in the bran and germ of the rice grain, and polishing removes precisely those layers, leaving mainly starch. A population dependent on polished rice with little variety therefore becomes thiamine deficient, producing beriberi. Dry beriberi affects peripheral nerves with symmetrical numbness, weakness and loss of reflexes; wet beriberi affects the cardiovascular system with high-output cardiac failure and oedema. Both respond dramatically to thiamine replacement, which makes recognition worthwhile. The same deficiency underlies Wernicke encephalopathy in people who drink heavily, and the mechanism, a missing cofactor for carbohydrate metabolism, is identical.\n\nWhy the other options fail:\n• A — Vitamin C deficiency causes scurvy with bleeding gums and poor healing. Although rice contains no vitamin C, the clinical picture described is neurological and cardiac, not haemorrhagic.\n• B — Iodine deficiency causes goitre and impaired neurological development, not peripheral neuropathy with heart failure in young adults.\n• C — Vitamin K deficiency causes bleeding. Polished rice does not interfere with its absorption, and the described features do not fit.\n\nReference: WHO guidance on thiamine deficiency; FAO food composition data",
   "strategy": "Ask what processing removes. Milling strips the bran and germ, and with them the B vitamins that live there.",
   "difficulty": "medium",
   "tags": [
@@ -106703,11 +106703,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Fermentation can improve digestibility and reduce antinutrients, making some minerals easier to absorb"
+    "text": "Fermentation improves digestibility and reduces antinutrients, so minerals are absorbed better"
    },
    {
     "id": "b",
-    "text": "Fermented foods have no nutritional value and are eaten only for their flavour"
+    "text": "Fermented foods have no nutritional value at all and are eaten only for their flavour and texture"
    },
    {
     "id": "c",
@@ -106719,7 +106719,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Fermentation can improve digestibility and reduce antinutrients, making some minerals easier to absorb\". Fermentation is a form of partial pre-digestion carried out by microorganisms. It breaks down phytates, which otherwise bind iron and zinc and block their absorption, so the minerals in the food become more available. It also softens starches and proteins, improves keeping quality by lowering pH, and can increase certain B vitamins. These are real advantages in staple-based diets where mineral bioavailability is a limiting factor. Traditional practices often encode sound nutrition, and dismissing them without evidence damages trust and discards a genuine benefit, though ordinary hygiene during preparation and storage still applies.\n\nWhy the other options fail:\n• B — Flavour is only part of the reason these foods persist. Fermentation confers measurable nutritional and preservative benefits, which is why the practice developed independently in many cultures.\n• C — Fermentation does not destroy all vitamins, and some B vitamins actually increase. Discouraging these foods would remove staples without any nutritional justification.\n• D — Properly prepared fermented foods are safe and widely consumed. Blanket avoidance is unwarranted and would be culturally dismissive as well as nutritionally unhelpful.\n\nReference: FAO guidance on fermented foods; WHO nutrition guidance",
+  "rationale": "CORRECT (A) — \"Fermentation improves digestibility and reduces antinutrients, so minerals are absorbed better\". Fermentation is a form of partial pre-digestion carried out by microorganisms. It breaks down phytates, which otherwise bind iron and zinc and block their absorption, so the minerals in the food become more available. It also softens starches and proteins, improves keeping quality by lowering pH, and can increase certain B vitamins. These are real advantages in staple-based diets where mineral bioavailability is a limiting factor. Traditional practices often encode sound nutrition, and dismissing them without evidence damages trust and discards a genuine benefit, though ordinary hygiene during preparation and storage still applies.\n\nWhy the other options fail:\n• B — Flavour is only part of the reason these foods persist. Fermentation confers measurable nutritional and preservative benefits, which is why the practice developed independently in many cultures.\n• C — Fermentation does not destroy all vitamins, and some B vitamins actually increase. Discouraging these foods would remove staples without any nutritional justification.\n• D — Properly prepared fermented foods are safe and widely consumed. Blanket avoidance is unwarranted and would be culturally dismissive as well as nutritionally unhelpful.\n\nReference: FAO guidance on fermented foods; WHO nutrition guidance",
   "strategy": "Before dismissing a traditional practice, ask what it does chemically. Fermentation lowers antinutrients, which raises mineral absorption.",
   "difficulty": "easy",
   "tags": [
@@ -106907,11 +106907,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Increase dietary fibre substantially while keeping fluid intake unchanged"
+    "text": "Increase dietary fibre substantially while keeping his fluid intake unchanged at home"
    },
    {
     "id": "c",
-    "text": "Increase his fluid intake alongside fibre, and encourage walking and a regular unhurried toilet routine"
+    "text": "Increase fluids alongside fibre, encourage walking and a regular toilet routine"
    },
    {
     "id": "d",
@@ -106919,7 +106919,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Increase his fluid intake alongside fibre, and encourage walking and a regular unhurried toilet routine\". Constipation in an older inpatient usually has several contributing causes at once: reduced mobility, low fluid intake, unfamiliar and rushed toilet arrangements, opioids or other constipating drugs, and reduced food volume. Addressing fluid, fibre, movement and privacy together is more effective than any single measure and carries no risk. Fluid deserves particular emphasis because fibre without adequate fluid draws water into the stool from a body that does not have it to spare, and can worsen matters. Laxatives have a place if conservative measures fail, but they should follow assessment, including exclusion of impaction and obstruction, rather than precede it.\n\nWhy the other options fail:\n• A — Reaching for a stimulant laxative first skips the assessment. If there is faecal impaction or obstruction, stimulating the bowel above it causes pain and can be dangerous.\n• B — Fibre without extra fluid is a well-recognised way of making constipation worse, producing a bulkier and harder stool that is more difficult to pass.\n• D — Restricting food reduces the bulk needed to stimulate the bowel and worsens the nutritional state of an older patient who is already eating small amounts.\n\nReference: Ghana Standard Treatment Guidelines — gastrointestinal care; WHO guidance on care of older people",
+  "rationale": "CORRECT (C) — \"Increase fluids alongside fibre, encourage walking and a regular toilet routine\". Constipation in an older inpatient usually has several contributing causes at once: reduced mobility, low fluid intake, unfamiliar and rushed toilet arrangements, opioids or other constipating drugs, and reduced food volume. Addressing fluid, fibre, movement and privacy together is more effective than any single measure and carries no risk. Fluid deserves particular emphasis because fibre without adequate fluid draws water into the stool from a body that does not have it to spare, and can worsen matters. Laxatives have a place if conservative measures fail, but they should follow assessment, including exclusion of impaction and obstruction, rather than precede it.\n\nWhy the other options fail:\n• A — Reaching for a stimulant laxative first skips the assessment. If there is faecal impaction or obstruction, stimulating the bowel above it causes pain and can be dangerous.\n• B — Fibre without extra fluid is a well-recognised way of making constipation worse, producing a bulkier and harder stool that is more difficult to pass.\n• D — Restricting food reduces the bulk needed to stimulate the bowel and worsens the nutritional state of an older patient who is already eating small amounts.\n\nReference: Ghana Standard Treatment Guidelines — gastrointestinal care; WHO guidance on care of older people",
   "strategy": "For constipation, fix fluid, movement and dignity before reaching for a drug. Fibre without fluid makes the problem worse.",
   "difficulty": "medium",
   "tags": [
@@ -107007,11 +107007,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "No cause for concern, because his body mass index is within the normal range"
+    "text": "No cause for concern, because his body mass index is within the normal range for his age"
    },
    {
     "id": "b",
-    "text": "Metabolic syndrome, since central fat carries cardiovascular risk that body mass index alone can miss"
+    "text": "Metabolic syndrome, since central fat carries risk that body mass index alone can miss"
    },
    {
     "id": "c",
@@ -107023,7 +107023,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "b",
-  "rationale": "CORRECT (B) — \"Metabolic syndrome, since central fat carries cardiovascular risk that body mass index alone can miss\". Metabolic syndrome is a cluster: central obesity together with raised blood pressure, raised fasting glucose, raised triglycerides and low high-density lipoprotein cholesterol. The important teaching point here is that body mass index can be reassuring while waist circumference is not, because it cannot distinguish fat from muscle or reveal where fat sits. Visceral fat around the abdominal organs is metabolically active and drives insulin resistance, so a person of normal weight with central adiposity carries real cardiovascular and diabetes risk. Measuring the waist takes seconds and costs nothing, and it identifies patients that weight alone would miss.\n\nWhy the other options fail:\n• A — Treating a normal body mass index as reassurance is exactly the error this presentation illustrates. Three of the four measurements given are abnormal.\n• C — Type 1 diabetes typically presents acutely in younger people with marked hyperglycaemia, weight loss, thirst and ketosis. A fasting glucose of 6.0 mmol/L indicates impaired fasting glycaemia, not type 1 diabetes.\n• D — Dehydration does not raise waist circumference, and it would tend to lower rather than raise blood pressure. It cannot account for this pattern.\n\nReference: WHO and IDF criteria for metabolic syndrome; Ghana Standard Treatment Guidelines — non-communicable disease",
+  "rationale": "CORRECT (B) — \"Metabolic syndrome, since central fat carries risk that body mass index alone can miss\". Metabolic syndrome is a cluster: central obesity together with raised blood pressure, raised fasting glucose, raised triglycerides and low high-density lipoprotein cholesterol. The important teaching point here is that body mass index can be reassuring while waist circumference is not, because it cannot distinguish fat from muscle or reveal where fat sits. Visceral fat around the abdominal organs is metabolically active and drives insulin resistance, so a person of normal weight with central adiposity carries real cardiovascular and diabetes risk. Measuring the waist takes seconds and costs nothing, and it identifies patients that weight alone would miss.\n\nWhy the other options fail:\n• A — Treating a normal body mass index as reassurance is exactly the error this presentation illustrates. Three of the four measurements given are abnormal.\n• C — Type 1 diabetes typically presents acutely in younger people with marked hyperglycaemia, weight loss, thirst and ketosis. A fasting glucose of 6.0 mmol/L indicates impaired fasting glycaemia, not type 1 diabetes.\n• D — Dehydration does not raise waist circumference, and it would tend to lower rather than raise blood pressure. It cannot account for this pattern.\n\nReference: WHO and IDF criteria for metabolic syndrome; Ghana Standard Treatment Guidelines — non-communicable disease",
   "strategy": "When several borderline results appear together, look for the syndrome that links them. A normal body mass index never overrides an abnormal waist.",
   "difficulty": "hard",
   "tags": [
@@ -107186,7 +107186,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "Ask what she is taking and explain that some herbal products reduce antiretroviral levels and can cause treatment failure"
+    "text": "Ask what she takes and explain that some herbs lower antiretroviral levels and cause failure"
    },
    {
     "id": "d",
@@ -107194,7 +107194,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Ask what she is taking and explain that some herbal products reduce antiretroviral levels and can cause treatment failure\". Herbal preparations are pharmacologically active, and several induce the liver enzymes that metabolise antiretroviral drugs, lowering blood levels enough to allow viral replication and resistance. St John's wort is the best documented example, but many local preparations are uncharacterised, which is precisely why an open question matters more than a warning list. The clinical priority is that she keeps telling the truth, so the response must be curious rather than condemning. Traditional medicine is widely used in Ghana and often alongside orthodox treatment without disclosure, and a judgemental reaction guarantees the next use goes unmentioned.\n\nWhy the other options fail:\n• A — Natural does not mean inert. Many potent drugs are plant-derived, and herbal preparations can induce or inhibit drug metabolism as powerfully as prescribed medicines.\n• B — Threatening to withdraw care is unethical and counterproductive. It abandons a patient who needs antiretroviral therapy and ensures she conceals future use.\n• D — Doubling a dose without pharmacokinetic data risks toxicity, and the size of any interaction is unknown. Dose changes are never made on speculation.\n\nReference: WHO traditional medicine strategy; Ghana Standard Treatment Guidelines — HIV",
+  "rationale": "CORRECT (C) — \"Ask what she takes and explain that some herbs lower antiretroviral levels and cause failure\". Herbal preparations are pharmacologically active, and several induce the liver enzymes that metabolise antiretroviral drugs, lowering blood levels enough to allow viral replication and resistance. St John's wort is the best documented example, but many local preparations are uncharacterised, which is precisely why an open question matters more than a warning list. The clinical priority is that she keeps telling the truth, so the response must be curious rather than condemning. Traditional medicine is widely used in Ghana and often alongside orthodox treatment without disclosure, and a judgemental reaction guarantees the next use goes unmentioned.\n\nWhy the other options fail:\n• A — Natural does not mean inert. Many potent drugs are plant-derived, and herbal preparations can induce or inhibit drug metabolism as powerfully as prescribed medicines.\n• B — Threatening to withdraw care is unethical and counterproductive. It abandons a patient who needs antiretroviral therapy and ensures she conceals future use.\n• D — Doubling a dose without pharmacokinetic data risks toxicity, and the size of any interaction is unknown. Dose changes are never made on speculation.\n\nReference: WHO traditional medicine strategy; Ghana Standard Treatment Guidelines — HIV",
   "strategy": "Treat every herbal product as a drug with unknown pharmacology. Ask openly, because the answer only comes if the patient is not afraid to give it.",
   "difficulty": "hard",
   "tags": [
@@ -107250,7 +107250,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Explain that appetite naturally declines with age and no intervention is needed"
+    "text": "Explain that appetite naturally declines with age and that no intervention is needed"
    },
    {
     "id": "c",
@@ -107258,11 +107258,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "Address the dental, psychological and financial causes together rather than only advising her to eat more"
+    "text": "Address the dental, psychological and financial causes together, not just appetite"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"Address the dental, psychological and financial causes together rather than only advising her to eat more\". Malnutrition in older people is rarely a simple matter of not knowing what to eat. The common contributors run together: painful or ill-fitting dentures making chewing difficult, depression removing motivation and appetite, poverty limiting what can be bought, isolation removing the social context of eating, reduced mobility making shopping and cooking hard, and medicines that dull taste or cause nausea. Advice alone changes none of these. Effective care means fixing the dentures, assessing and treating the low mood, linking her to social support, and choosing foods that are affordable and easy to chew. Supplements may help but cannot substitute for addressing the causes.\n\nWhy the other options fail:\n• A — A supplement drink treats the symptom while the dentures, depression and poverty remain. Compliance is also poor when the underlying obstacles are untouched.\n• B — Appetite does decline somewhat with age, but weight loss with identifiable and treatable causes is not normal ageing. This reasoning is a common route to neglect.\n• C — Nasogastric feeding is a major intervention that is entirely disproportionate here. This woman can eat; she needs the obstacles to eating removed.\n\nReference: WHO integrated care for older people; Ghana Standard Treatment Guidelines",
+  "rationale": "CORRECT (D) — \"Address the dental, psychological and financial causes together, not just appetite\". Malnutrition in older people is rarely a simple matter of not knowing what to eat. The common contributors run together: painful or ill-fitting dentures making chewing difficult, depression removing motivation and appetite, poverty limiting what can be bought, isolation removing the social context of eating, reduced mobility making shopping and cooking hard, and medicines that dull taste or cause nausea. Advice alone changes none of these. Effective care means fixing the dentures, assessing and treating the low mood, linking her to social support, and choosing foods that are affordable and easy to chew. Supplements may help but cannot substitute for addressing the causes.\n\nWhy the other options fail:\n• A — A supplement drink treats the symptom while the dentures, depression and poverty remain. Compliance is also poor when the underlying obstacles are untouched.\n• B — Appetite does decline somewhat with age, but weight loss with identifiable and treatable causes is not normal ageing. This reasoning is a common route to neglect.\n• C — Nasogastric feeding is a major intervention that is entirely disproportionate here. This woman can eat; she needs the obstacles to eating removed.\n\nReference: WHO integrated care for older people; Ghana Standard Treatment Guidelines",
   "strategy": "For malnutrition in older people, list the obstacles before giving advice. Teeth, mood, money and isolation explain more than knowledge ever does.",
   "difficulty": "medium",
   "tags": [
@@ -107516,7 +107516,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "It is more accurate than any other measurement in every population group"
+    "text": "It is more accurate than any other measurement in every population group worldwide"
    },
    {
     "id": "b",
@@ -107524,7 +107524,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "It is unaffected by the weight of the pregnancy itself, so it reflects the mother's own reserves"
+    "text": "Unaffected by the weight of the pregnancy, it reflects the mother's own reserves"
    },
    {
     "id": "d",
@@ -107532,7 +107532,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"It is unaffected by the weight of the pregnancy itself, so it reflects the mother's own reserves\". Body mass index is unreliable in pregnancy because weight rises with the foetus, placenta, amniotic fluid and expanded maternal blood volume, none of which reflect the mother's nutritional reserves. Mid-upper arm circumference measures the muscle and fat of the upper arm, which changes little with pregnancy, so it remains interpretable throughout. It needs only a simple tape, requires no scales or height measurement, and can be performed by community health workers in a household. A low reading identifies women at risk of poor pregnancy outcomes including low birth weight, which allows targeted supplementation and closer follow-up.\n\nWhy the other options fail:\n• A — It is not universally superior. Its particular value is in pregnancy and in young children, where weight-based indices are distorted or difficult to obtain.\n• B — It does require a measuring tape and correct technique at the midpoint of the upper arm. Estimating by eye is unreliable and defeats the purpose of a screening cut-off.\n• D — It measures the mother's own tissue. Foetal growth is assessed separately by fundal height and ultrasound.\n\nReference: WHO guidance on antenatal care; Ghana Health Service nutrition protocols",
+  "rationale": "CORRECT (C) — \"Unaffected by the weight of the pregnancy, it reflects the mother's own reserves\". Body mass index is unreliable in pregnancy because weight rises with the foetus, placenta, amniotic fluid and expanded maternal blood volume, none of which reflect the mother's nutritional reserves. Mid-upper arm circumference measures the muscle and fat of the upper arm, which changes little with pregnancy, so it remains interpretable throughout. It needs only a simple tape, requires no scales or height measurement, and can be performed by community health workers in a household. A low reading identifies women at risk of poor pregnancy outcomes including low birth weight, which allows targeted supplementation and closer follow-up.\n\nWhy the other options fail:\n• A — It is not universally superior. Its particular value is in pregnancy and in young children, where weight-based indices are distorted or difficult to obtain.\n• B — It does require a measuring tape and correct technique at the midpoint of the upper arm. Estimating by eye is unreliable and defeats the purpose of a screening cut-off.\n• D — It measures the mother's own tissue. Foetal growth is assessed separately by fundal height and ultrasound.\n\nReference: WHO guidance on antenatal care; Ghana Health Service nutrition protocols",
   "strategy": "Ask what the measurement includes. In pregnancy, weight includes the pregnancy, so a measure that excludes it reflects the mother better.",
   "difficulty": "medium",
   "tags": [
@@ -107898,15 +107898,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "The dehydrated patient needs salt and fluid replacement, while the euvolaemic patient needs fluid restriction"
+    "text": "The dehydrated patient needs salt and fluid; the euvolaemic patient needs restriction"
    },
    {
     "id": "d",
-    "text": "Neither requires treatment, because a sodium of 126 mmol/L is within normal limits"
+    "text": "Neither requires any treatment, because a sodium of 126 mmol/L is within normal limits"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"The dehydrated patient needs salt and fluid replacement, while the euvolaemic patient needs fluid restriction\". The sodium value is identical but the volume state is opposite, and volume state determines treatment. Cerebral salt wasting causes renal sodium and water loss, so the patient is hypovolaemic with high urine output and needs sodium and fluid replaced; restricting fluid would worsen the depletion and risk cerebral ischaemia. The syndrome of inappropriate antidiuretic hormone causes water retention with dilution, so the patient is euvolaemic or slightly overloaded with concentrated urine, and the treatment is fluid restriction. Giving the wrong one causes real harm, which is why assessing volume status is the decisive step rather than reading the sodium alone.\n\nWhy the other options fail:\n• A — Restricting fluid in a hypovolaemic patient with cerebral salt wasting deepens the volume deficit and can compromise cerebral perfusion after a head injury.\n• B — Giving large volumes to a patient with inappropriate antidiuretic hormone secretion worsens the dilutional hyponatraemia, since the problem is retained water rather than lost sodium.\n• D — A sodium of 126 mmol/L is clearly low and, after head injury, carries a real risk of cerebral oedema and seizures. It requires assessment and treatment.\n\nReference: Ghana Standard Treatment Guidelines — neurosurgical care; WHO clinical guidance",
+  "rationale": "CORRECT (C) — \"The dehydrated patient needs salt and fluid; the euvolaemic patient needs restriction\". The sodium value is identical but the volume state is opposite, and volume state determines treatment. Cerebral salt wasting causes renal sodium and water loss, so the patient is hypovolaemic with high urine output and needs sodium and fluid replaced; restricting fluid would worsen the depletion and risk cerebral ischaemia. The syndrome of inappropriate antidiuretic hormone causes water retention with dilution, so the patient is euvolaemic or slightly overloaded with concentrated urine, and the treatment is fluid restriction. Giving the wrong one causes real harm, which is why assessing volume status is the decisive step rather than reading the sodium alone.\n\nWhy the other options fail:\n• A — Restricting fluid in a hypovolaemic patient with cerebral salt wasting deepens the volume deficit and can compromise cerebral perfusion after a head injury.\n• B — Giving large volumes to a patient with inappropriate antidiuretic hormone secretion worsens the dilutional hyponatraemia, since the problem is retained water rather than lost sodium.\n• D — A sodium of 126 mmol/L is clearly low and, after head injury, carries a real risk of cerebral oedema and seizures. It requires assessment and treatment.\n\nReference: Ghana Standard Treatment Guidelines — neurosurgical care; WHO clinical guidance",
   "strategy": "A single electrolyte value never dictates treatment on its own. Assess volume status first, because the same sodium means opposite things in a dry and a wet patient.",
   "difficulty": "hard",
   "tags": [
@@ -108873,11 +108873,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Maintenance fluid to meet routine needs, plus separate replacement matched to the measured losses"
+    "text": "Maintenance fluid for routine needs, plus replacement matched to measured losses"
    },
    {
     "id": "b",
-    "text": "Maintenance fluid only, since the drain output is not counted as a loss"
+    "text": "Maintenance fluid only, because the drain output is not counted as a loss at all"
    },
    {
     "id": "c",
@@ -108889,7 +108889,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Maintenance fluid to meet routine needs, plus separate replacement matched to the measured losses\". Intravenous fluid prescribing separates three questions: resuscitation for shock, maintenance to cover routine daily needs, and replacement for ongoing abnormal losses. Adding them explicitly prevents both under and over prescribing. Maintenance covers insensible loss and urine, roughly 25 to 30 mL per kilogram per day of water with sodium, potassium and glucose. Replacement is then matched to what the drain, vomit, stoma or fistula actually produces, both in volume and in composition, so a sodium-rich loss is replaced with a sodium-containing fluid. Reviewing this daily against weight, urine output and electrolytes is what keeps it accurate.\n\nWhy the other options fail:\n• B — Drain output is a genuine loss of fluid and electrolytes. Ignoring it leaves the patient progressively depleted despite receiving maintenance fluid.\n• C — Replacement alone does not cover the routine daily requirement for water, sodium, potassium and glucose that continues whether or not there are extra losses.\n• D — A fixed daily volume ignores what is actually being lost, which may vary considerably from day to day, and leads to cumulative error in either direction.\n\nReference: NICE intravenous fluid therapy in adults; Ghana Standard Treatment Guidelines",
+  "rationale": "CORRECT (A) — \"Maintenance fluid for routine needs, plus replacement matched to measured losses\". Intravenous fluid prescribing separates three questions: resuscitation for shock, maintenance to cover routine daily needs, and replacement for ongoing abnormal losses. Adding them explicitly prevents both under and over prescribing. Maintenance covers insensible loss and urine, roughly 25 to 30 mL per kilogram per day of water with sodium, potassium and glucose. Replacement is then matched to what the drain, vomit, stoma or fistula actually produces, both in volume and in composition, so a sodium-rich loss is replaced with a sodium-containing fluid. Reviewing this daily against weight, urine output and electrolytes is what keeps it accurate.\n\nWhy the other options fail:\n• B — Drain output is a genuine loss of fluid and electrolytes. Ignoring it leaves the patient progressively depleted despite receiving maintenance fluid.\n• C — Replacement alone does not cover the routine daily requirement for water, sodium, potassium and glucose that continues whether or not there are extra losses.\n• D — A fixed daily volume ignores what is actually being lost, which may vary considerably from day to day, and leads to cumulative error in either direction.\n\nReference: NICE intravenous fluid therapy in adults; Ghana Standard Treatment Guidelines",
   "strategy": "Prescribe fluid in separate parts: resuscitation, maintenance and replacement. Naming each prevents them being confused or omitted.",
   "difficulty": "medium",
   "tags": [
@@ -108984,15 +108984,15 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "c",
-    "text": "The fluid running, the rate, cumulative balance, today's weight, urine output and what to watch for"
+    "text": "The fluid running, its rate, the balance, today's weight and urine output"
    },
    {
     "id": "d",
-    "text": "That fluids were prescribed by the doctor and the chart is at the bedside"
+    "text": "That fluids were prescribed by the doctor and that the chart is at the bedside"
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"The fluid running, the rate, cumulative balance, today's weight, urine output and what to watch for\". A handover should let the next nurse act without repeating the assessment. Naming the fluid and rate identifies what is going in, the cumulative balance and today's weight show the trend, and urine output indicates whether the kidneys are responding. Stating explicitly what to watch for, such as breathlessness, crackles or a falling urine output, converts information into a plan. Vague handovers are a recognised source of error, particularly with fluids, because problems develop gradually across shifts and are only visible in the trend. Precision here is a patient safety measure rather than a formality.\n\nWhy the other options fail:\n• A — On a drip and comfortable conveys almost nothing. It omits the fluid, the rate, the balance and any parameter that would signal deterioration.\n• B — A cumulative total without weight, urine output or current rate cannot be interpreted, and it says nothing about the direction the patient is moving in.\n• D — Pointing at the chart transfers the work rather than the information, and the incoming nurse begins the shift without knowing what to prioritise.\n\nReference: WHO patient safety guidance on handover; Nursing and Midwifery Council of Ghana professional standards",
+  "rationale": "CORRECT (C) — \"The fluid running, its rate, the balance, today's weight and urine output\". A handover should let the next nurse act without repeating the assessment. Naming the fluid and rate identifies what is going in, the cumulative balance and today's weight show the trend, and urine output indicates whether the kidneys are responding. Stating explicitly what to watch for, such as breathlessness, crackles or a falling urine output, converts information into a plan. Vague handovers are a recognised source of error, particularly with fluids, because problems develop gradually across shifts and are only visible in the trend. Precision here is a patient safety measure rather than a formality.\n\nWhy the other options fail:\n• A — On a drip and comfortable conveys almost nothing. It omits the fluid, the rate, the balance and any parameter that would signal deterioration.\n• B — A cumulative total without weight, urine output or current rate cannot be interpreted, and it says nothing about the direction the patient is moving in.\n• D — Pointing at the chart transfers the work rather than the information, and the incoming nurse begins the shift without knowing what to prioritise.\n\nReference: WHO patient safety guidance on handover; Nursing and Midwifery Council of Ghana professional standards",
   "strategy": "Hand over the trend and the plan, not just the prescription. The next nurse needs to know what to watch for and when to act.",
   "difficulty": "medium",
   "tags": [
@@ -109079,11 +109079,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Monitor and record airway, breathing, pulse, blood pressure, temperature and conscious level regularly"
+    "text": "Monitor and record airway, breathing, pulse, blood pressure and consciousness"
    },
    {
     "id": "b",
-    "text": "Leave the patient undisturbed in a quiet room until the medication wears off"
+    "text": "Leave the patient undisturbed in a quiet side room until the medication wears off"
    },
    {
     "id": "c",
@@ -109095,7 +109095,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Monitor and record airway, breathing, pulse, blood pressure, temperature and conscious level regularly\". Rapid tranquillisation is a high-risk intervention. The drugs used cause respiratory depression, oversedation, hypotension, arrhythmia and, with antipsychotics, dystonia and neuroleptic malignant syndrome. Physical monitoring afterwards is therefore mandatory and frequent, covering airway, breathing, oxygen saturation, pulse, blood pressure, temperature and level of consciousness, with resuscitation equipment and flumazenil available where a benzodiazepine has been used. The intervention must also be the least restrictive option that will work, used only after de-escalation has failed, documented fully with the rationale, and followed by a debrief with the patient once settled.\n\nWhy the other options fail:\n• B — Leaving a heavily sedated patient unobserved is how deaths occur. The period immediately after administration is precisely when airway compromise and cardiovascular collapse happen.\n• C — Repeating a dose because the patient is not asleep confuses sedation with sleep. The aim is calm, not unconsciousness, and repeat dosing without reassessment causes overdose.\n• D — Documenting only the drug and time omits the physical observations that make the intervention safe and that are required professionally.\n\nReference: Ghana Mental Health Act 846; WHO guidance on management of agitation",
+  "rationale": "CORRECT (A) — \"Monitor and record airway, breathing, pulse, blood pressure and consciousness\". Rapid tranquillisation is a high-risk intervention. The drugs used cause respiratory depression, oversedation, hypotension, arrhythmia and, with antipsychotics, dystonia and neuroleptic malignant syndrome. Physical monitoring afterwards is therefore mandatory and frequent, covering airway, breathing, oxygen saturation, pulse, blood pressure, temperature and level of consciousness, with resuscitation equipment and flumazenil available where a benzodiazepine has been used. The intervention must also be the least restrictive option that will work, used only after de-escalation has failed, documented fully with the rationale, and followed by a debrief with the patient once settled.\n\nWhy the other options fail:\n• B — Leaving a heavily sedated patient unobserved is how deaths occur. The period immediately after administration is precisely when airway compromise and cardiovascular collapse happen.\n• C — Repeating a dose because the patient is not asleep confuses sedation with sleep. The aim is calm, not unconsciousness, and repeat dosing without reassessment causes overdose.\n• D — Documenting only the drug and time omits the physical observations that make the intervention safe and that are required professionally.\n\nReference: Ghana Mental Health Act 846; WHO guidance on management of agitation",
   "strategy": "Any intervention that deliberately sedates creates an airway risk. The nursing duty afterwards is physical observation, not simply leaving the patient to settle.",
   "difficulty": "hard",
   "tags": [
@@ -109178,11 +109178,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "Acknowledge his view, offer information about the effects and leave the door open for future discussion"
+    "text": "Acknowledge his view, offer information and leave the door open for discussion"
    },
    {
     "id": "b",
-    "text": "Warn him firmly that he will die of liver disease unless he stops immediately"
+    "text": "Warn him firmly that he will die of liver disease unless he stops drinking immediately"
    },
    {
     "id": "c",
@@ -109194,7 +109194,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "a",
-  "rationale": "CORRECT (A) — \"Acknowledge his view, offer information about the effects and leave the door open for future discussion\". This patient is at the pre-contemplation stage, where he does not yet see a problem. Advice designed for someone ready to act produces resistance and damages the relationship, because the intervention is mismatched to the stage. What works is respectfully acknowledging his position, providing clear information without confrontation, expressing concern, and making it explicit that he can return when he wishes. This preserves the therapeutic relationship, which is the vehicle for any future change. Motivational approaches consistently show that arguing for change makes the person argue against it, whereas exploring their own reasons moves them forward.\n\nWhy the other options fail:\n• B — Frightening warnings at pre-contemplation typically provoke defensiveness and denial rather than change, and they often mean the patient does not return.\n• C — Residential detoxification is an action-stage intervention offered to someone who has decided to stop. Referring a person who sees no problem wastes a scarce resource and he will not attend.\n• D — Never raising it again abandons the duty of care. Brief, repeated, non-judgemental contact is what eventually shifts pre-contemplation.\n\nReference: WHO mhGAP intervention guide; Ghana Standard Treatment Guidelines — substance use disorders",
+  "rationale": "CORRECT (A) — \"Acknowledge his view, offer information and leave the door open for discussion\". This patient is at the pre-contemplation stage, where he does not yet see a problem. Advice designed for someone ready to act produces resistance and damages the relationship, because the intervention is mismatched to the stage. What works is respectfully acknowledging his position, providing clear information without confrontation, expressing concern, and making it explicit that he can return when he wishes. This preserves the therapeutic relationship, which is the vehicle for any future change. Motivational approaches consistently show that arguing for change makes the person argue against it, whereas exploring their own reasons moves them forward.\n\nWhy the other options fail:\n• B — Frightening warnings at pre-contemplation typically provoke defensiveness and denial rather than change, and they often mean the patient does not return.\n• C — Residential detoxification is an action-stage intervention offered to someone who has decided to stop. Referring a person who sees no problem wastes a scarce resource and he will not attend.\n• D — Never raising it again abandons the duty of care. Brief, repeated, non-judgemental contact is what eventually shifts pre-contemplation.\n\nReference: WHO mhGAP intervention guide; Ghana Standard Treatment Guidelines — substance use disorders",
   "strategy": "Identify the stage before choosing the intervention. Advice given at the wrong stage produces resistance rather than change.",
   "difficulty": "medium",
   "tags": [
@@ -109519,7 +109519,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
   "choices": [
    {
     "id": "a",
-    "text": "She will become dependent on emergency services if investigated too thoroughly"
+    "text": "She will become dependent on the emergency services if she is investigated too thoroughly and too often"
    },
    {
     "id": "b",
@@ -109531,11 +109531,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "d",
-    "text": "A serious physical condition will be missed because symptoms are attributed to the psychiatric diagnosis"
+    "text": "A physical illness will be missed because symptoms are credited to the psychiatric diagnosis"
    }
   ],
   "correctChoiceId": "d",
-  "rationale": "CORRECT (D) — \"A serious physical condition will be missed because symptoms are attributed to the psychiatric diagnosis\". Diagnostic overshadowing is the well-documented tendency to attribute new physical symptoms to an existing mental illness, and it is a major contributor to the reduced life expectancy of people with severe mental illness. Someone with schizophrenia is more likely, not less, to have serious untreated physical disease, and may describe symptoms in an unusual way or present late. The correct approach is to assess and investigate the physical complaint exactly as for any other patient, taking extra care because communication may be harder. Severe abdominal pain demands examination and investigation regardless of psychiatric history.\n\nWhy the other options fail:\n• A — Appropriate investigation of severe pain does not create dependency, and this concern is not a reason to withhold assessment from any patient.\n• B — Investigating a physical problem does not worsen psychosis, whereas untreated pain and illness certainly can destabilise mental state.\n• C — Psychiatric medicines affect a limited number of specific tests. They do not invalidate investigation of abdominal pain.\n\nReference: WHO mhGAP intervention guide; Ghana Standard Treatment Guidelines",
+  "rationale": "CORRECT (D) — \"A physical illness will be missed because symptoms are credited to the psychiatric diagnosis\". Diagnostic overshadowing is the well-documented tendency to attribute new physical symptoms to an existing mental illness, and it is a major contributor to the reduced life expectancy of people with severe mental illness. Someone with schizophrenia is more likely, not less, to have serious untreated physical disease, and may describe symptoms in an unusual way or present late. The correct approach is to assess and investigate the physical complaint exactly as for any other patient, taking extra care because communication may be harder. Severe abdominal pain demands examination and investigation regardless of psychiatric history.\n\nWhy the other options fail:\n• A — Appropriate investigation of severe pain does not create dependency, and this concern is not a reason to withhold assessment from any patient.\n• B — Investigating a physical problem does not worsen psychosis, whereas untreated pain and illness certainly can destabilise mental state.\n• C — Psychiatric medicines affect a limited number of specific tests. They do not invalidate investigation of abdominal pain.\n\nReference: WHO mhGAP intervention guide; Ghana Standard Treatment Guidelines",
   "strategy": "An existing diagnosis is not an explanation for a new symptom. Assess the new complaint as you would in any other patient.",
   "difficulty": "hard",
   "tags": [
@@ -109624,11 +109624,11 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    },
    {
     "id": "b",
-    "text": "Tell her that poor sleep is a normal part of ageing and requires no assessment"
+    "text": "Tell her that poor sleep is a normal part of ageing and requires no assessment at all"
    },
    {
     "id": "c",
-    "text": "Assess the sleep pattern and possible causes, and advise on sleep habits before considering medication"
+    "text": "Assess the sleep pattern and causes, and advise on sleep habits before medication"
    },
    {
     "id": "d",
@@ -109636,7 +109636,7 @@ export const AUTHORED_QUESTIONS: AuthoredQuestion[] = [
    }
   ],
   "correctChoiceId": "c",
-  "rationale": "CORRECT (C) — \"Assess the sleep pattern and possible causes, and advise on sleep habits before considering medication\". Chronic insomnia usually has identifiable contributors, including pain, nocturia, breathlessness, depression, anxiety, caffeine, daytime napping, an irregular routine or an uncomfortable sleeping environment. Assessment often reveals a treatable cause, and behavioural measures are more effective than hypnotics in the long term without the associated harms. Hypnotics in older adults cause daytime sedation, cognitive impairment, falls and fractures, and tolerance and dependence develop quickly, so any use should be short-term and exceptional. Addressing the underlying cause and establishing consistent sleep habits achieves more durable improvement.\n\nWhy the other options fail:\n• A — Long-term benzodiazepine prescribing in an older adult substantially increases falls, fractures, confusion and dependence, and is specifically discouraged.\n• B — Dismissing insomnia as normal ageing means missing depression, pain or sleep apnoea, all of which are treatable.\n• D — Alcohol fragments sleep, worsens sleep apnoea, increases nocturia and falls risk, and interacts with many medicines.\n\nReference: Ghana Standard Treatment Guidelines — care of older people; WHO essential medicines guidance",
+  "rationale": "CORRECT (C) — \"Assess the sleep pattern and causes, and advise on sleep habits before medication\". Chronic insomnia usually has identifiable contributors, including pain, nocturia, breathlessness, depression, anxiety, caffeine, daytime napping, an irregular routine or an uncomfortable sleeping environment. Assessment often reveals a treatable cause, and behavioural measures are more effective than hypnotics in the long term without the associated harms. Hypnotics in older adults cause daytime sedation, cognitive impairment, falls and fractures, and tolerance and dependence develop quickly, so any use should be short-term and exceptional. Addressing the underlying cause and establishing consistent sleep habits achieves more durable improvement.\n\nWhy the other options fail:\n• A — Long-term benzodiazepine prescribing in an older adult substantially increases falls, fractures, confusion and dependence, and is specifically discouraged.\n• B — Dismissing insomnia as normal ageing means missing depression, pain or sleep apnoea, all of which are treatable.\n• D — Alcohol fragments sleep, worsens sleep apnoea, increases nocturia and falls risk, and interacts with many medicines.\n\nReference: Ghana Standard Treatment Guidelines — care of older people; WHO essential medicines guidance",
   "strategy": "Treat the cause before the symptom. In older adults the hypnotic itself often causes more harm than the insomnia.",
   "difficulty": "medium",
   "tags": [
