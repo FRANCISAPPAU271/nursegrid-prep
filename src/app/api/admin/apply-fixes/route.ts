@@ -14,7 +14,7 @@ const RAW =
   "https://raw.githubusercontent.com/FRANCISAPPAU271/nursegrid-prep/main/apply-all-question-fixes.sql";
 
 const EXPECTED_SHA256 =
-  "2fa0437c5d6cd78957d744ce1d3e5bd5f64a9ca6c1c9a0ffe1810fc3b3c350dc";
+  "be580a2004841ad12db05126683141454a873eba0234a1a6a7f36b3a8037648b";
 
 // A sample spanning every batch in the bundle, used to prove the update landed.
 const SPOT = [
