@@ -40,6 +40,13 @@ export const LIVE_CLASSES: { day: string; time: string }[] = [
 ];
 
 /**
+ * Ghana is GMT (UTC+0) all year and has no daylight saving, so the label is
+ * stable. It is stated nonetheless: a good share of students read this from
+ * abroad, and "5pm" with no zone is silently wrong for them by an hour or two.
+ */
+export const LIVE_CLASSES_TIMEZONE = "Ghana time (GMT)";
+
+/**
  * WhatsApp study group for registered students.
  *
  * Kept as a raw URL with real ampersands and escaped at render time, because
@@ -147,7 +154,7 @@ export function weeklyDigestEmail(args: {
 
     <ul style="margin:0 0 18px;padding-left:22px;">${bullets}</ul>
 
-    <p style="margin:0 0 8px;">Live teaching runs every week — join any session:</p>
+    <p style="margin:0 0 8px;">Live teaching runs every week — all times ${LIVE_CLASSES_TIMEZONE}:</p>
     <ul style="margin:0 0 18px;padding-left:22px;">${classBullets}</ul>
 
     <p style="margin:0 0 16px;">
@@ -188,7 +195,7 @@ export function weeklyDigestEmail(args: {
         "",
         ...updates.map((u) => wrap(u, { width: 74, first: "  - ", rest: "    " })),
         "",
-        "Live teaching runs every week - join any session:",
+        `Live teaching runs every week - all times ${LIVE_CLASSES_TIMEZONE}:`,
         ...LIVE_CLASSES.map((c) =>
             wrap(`${c.day}, ${c.time}`, { width: 74, first: "  - ", rest: "    " }),
         ),
