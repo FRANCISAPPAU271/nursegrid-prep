@@ -5,7 +5,7 @@ import { users, tasks, notes, referrals } from "@/db/schema";
 import { eq } from "drizzle-orm";
 import { createSession, hashPassword } from "@/lib/auth";
 import { handleApiError } from "@/lib/api";
-import { generateReferralCode, REFERRAL_REWARD_DAYS, SIGNUP_TRIAL_DAYS } from "@/lib/referral";
+import { generateReferralCode, SIGNUP_TRIAL_DAYS } from "@/lib/referral";
 import { checkTrialEligibility, recordSignup } from "@/db/signup-guard";
 import { isSmsConfigured, normalizeGhPhone } from "@/lib/sms";
 import { isPhoneRecentlyVerified, canPhoneClaimTrial, markTrialClaimed } from "@/db/phone-otp";
@@ -42,11 +42,11 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "An account with that email already exists." }, { status: 409 });
     }
 
-    let referrer: { id: string; premiumTrialEndsAt: Date | null; isPremium: boolean } | null = null;
+    let referrer: { id: string } | null = null;
     const normalizedRefCode = data.referralCode?.trim().toUpperCase() || "";
     if (normalizedRefCode) {
       const rows = await db
-        .select({ id: users.id, premiumTrialEndsAt: users.premiumTrialEndsAt, isPremium: users.isPremium })
+        .select({ id: users.id })
         .from(users)
         .where(eq(users.referralCode, normalizedRefCode))
         .limit(1);
@@ -59,7 +59,8 @@ export async function POST(request: Request) {
     const now = new Date();
 
     // Trial-abuse guard: a device or IP that has recently farmed signups
-    // still gets an account — just without the free trial or referral days.
+    // still gets an account — just without the free trial, and with any
+    // referral voided.
     const guardIp = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? null;
     const guardDeviceId = data.deviceId?.trim() || null;
     const trialCheck = await checkTrialEligibility(guardDeviceId, guardIp);
@@ -70,27 +71,43 @@ export async function POST(request: Request) {
     // claim per phone per 90 days. Unverified/absent phone = no trial,
     // account still created on the free tier.
     let verifiedPhone: string | null = null;
+    // True only when a *verified* phone has already anchored a trial — a real
+    // duplicate signal. Being unverified is not: OTP is optional at signup and
+    // the UI frames it as a trial upsell, so most users never touch it.
+    let phoneAlreadyClaimedTrial = false;
     if (isSmsConfigured()) {
       const normalized = data.phone ? normalizeGhPhone(data.phone) : null;
       if (normalized && (await isPhoneRecentlyVerified(normalized))) {
         verifiedPhone = normalized;
         if (!(await canPhoneClaimTrial(normalized))) {
           trialAllowed = false; // phone already claimed a trial in the last 90 days
+          phoneAlreadyClaimedTrial = true;
         }
       } else {
         trialAllowed = false; // OTP enabled but phone not verified
       }
     }
 
-    // A referral from the SAME device as the referrer is self-referral —
-    // no reward for either side.
-    if (referrer && !trialAllowed) referrer = null;
+    // Self-referral guard.
+    //
+    // The referral is voided only on a genuine abuse signal:
+    //   • this device or IP has farmed signups recently, or
+    //   • a verified phone has already anchored a trial.
+    //
+    // It is deliberately NOT tied to `trialAllowed`. That flag also goes false
+    // when OTP is enabled and the phone was simply left blank — which is the
+    // common case, because the phone field is an optional trial upsell. Testing
+    // `!trialAllowed` therefore discarded every referral from an ordinary user,
+    // silently: the signup still returned 201 and the referral was gone.
+    if (referrer && (trialCheck.reason !== "ok" || phoneAlreadyClaimedTrial)) {
+      referrer = null;
+    }
 
-    // Every new account starts with a premium trial: 3 days, and referral
-    // signups reward the referrer with 3 bonus days too — unless the guard
-    // flagged this device/IP as a repeat.
-    const trialDays = referrer ? REFERRAL_REWARD_DAYS : SIGNUP_TRIAL_DAYS;
-    const trialEnd = trialAllowed ? new Date(now.getTime() + trialDays * 24 * 60 * 60 * 1000) : null;
+    // Every new account starts with the same premium trial. The referral buys
+    // the friend a discount on their first purchase, not extra days: the
+    // referrer's reward is credit, awarded when this user's first payment
+    // clears.
+    const trialEnd = trialAllowed ? new Date(now.getTime() + SIGNUP_TRIAL_DAYS * 24 * 60 * 60 * 1000) : null;
 
     const [user] = await db
       .insert(users)
@@ -111,26 +128,16 @@ export async function POST(request: Request) {
       .returning({ id: users.id, name: users.name, email: users.email });
 
     if (referrer) {
+      // Record the relationship only. The referrer's reward is GH₵ 20 of
+      // account credit, paid when this friend's first payment clears
+      // (awardReferralCredit). It is deliberately NOT premium days granted now:
+      // rewarding a signup that may never pay is the farming vector the guard
+      // above exists to close, and the UI and Terms both describe credit.
       await db.insert(referrals).values({
         referrerUserId: referrer.id,
         refereeUserId: user.id,
-        rewardDays: REFERRAL_REWARD_DAYS,
+        rewardDays: 0,
       });
-
-      // Reward the referrer with bonus premium days too, stacking onto any
-      // existing trial rather than overwriting it.
-      const base = referrer.premiumTrialEndsAt && referrer.premiumTrialEndsAt.getTime() > now.getTime()
-        ? referrer.premiumTrialEndsAt
-        : now;
-      const referrerTrialEnd = new Date(base.getTime() + REFERRAL_REWARD_DAYS * 24 * 60 * 60 * 1000);
-      await db
-        .update(users)
-        .set({
-          isPremium: true,
-          premiumSince: referrer.isPremium ? undefined : now,
-          premiumTrialEndsAt: referrerTrialEnd,
-        })
-        .where(eq(users.id, referrer.id));
     }
 
     const inTwoDays = new Date(now.getTime() + 2 * 24 * 60 * 60 * 1000);
