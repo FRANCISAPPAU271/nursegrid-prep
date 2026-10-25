@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import { useClientValue } from "@/lib/use-client-value";
 import { useToast } from "@/components/ui/Toast";
 import { formatPesewas } from "@/lib/pricing";
 
@@ -43,11 +44,15 @@ export default function ReferralPanel({
 }) {
   const [copied, setCopied] = useState<"link" | "code" | null>(null);
   const toast = useToast();
-  const [origin, setOrigin] = useState("");
 
-  useEffect(() => {
-    setOrigin(window.location.origin);
-  }, []);
+  // The shareable link must use whatever origin the user is actually on, so the
+  // code keeps working when the app moves to a custom domain. The origin only
+  // exists in the browser, so it is read during render with an empty server
+  // snapshot — the fallback below covers the one render before it is known.
+  const origin = useClientValue(
+    () => window.location.origin,
+    () => "",
+  );
 
   const link = `${origin || "https://your-nursegrid-domain.com"}/signup?ref=${referralCode}`;
 

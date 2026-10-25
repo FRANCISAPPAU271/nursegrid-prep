@@ -1,4 +1,4 @@
-/* eslint-disable no-console */
+ 
 import "dotenv/config";
 import bcrypt from "bcryptjs";
 import { db, pool } from "./index";

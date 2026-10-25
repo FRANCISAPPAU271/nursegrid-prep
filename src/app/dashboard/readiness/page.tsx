@@ -29,8 +29,14 @@ export default async function ReadinessPage() {
   const dash = (r.score / 100) * circumference;
 
   // Exam countdown + pace framing.
+  //
+  // `Date.now()` is called here on purpose. This is a server component with
+  // `dynamic = "force-dynamic"`, so it renders once per request and there is no
+  // re-render to be unstable across. The purity rule is written for client
+  // components and cannot tell the difference.
   let daysLeft: number | null = null;
   if (examDate) {
+    // eslint-disable-next-line react-hooks/purity
     const ms = new Date(`${examDate}T09:00:00Z`).getTime() - Date.now();
     daysLeft = Math.ceil(ms / (24 * 60 * 60 * 1000));
     if (daysLeft < 0) daysLeft = null; // past exam dates aren't a countdown

@@ -86,7 +86,7 @@ export default function TermsPage() {
               <li>Share your account credentials or resell access to the Service.</li>
               <li>Copy, scrape, redistribute, or resell the question bank, rationales, strategies, or learning content.</li>
               <li>Use the Service for any unlawful purpose or in a way that disrupts or interferes with its operation.</li>
-              <li>Attempt to gain unauthorized access to other users' accounts or data.</li>
+              <li>Attempt to gain unauthorized access to other users&apos; accounts or data.</li>
             </ul>
           </Section>
 

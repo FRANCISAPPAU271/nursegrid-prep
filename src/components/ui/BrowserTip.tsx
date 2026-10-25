@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import { useClientValue } from "@/lib/use-client-value";
 
 // Smart "open in Chrome" tip for phones.
 //
@@ -35,22 +36,31 @@ function detectAdvice(): string | null {
 }
 
 export default function BrowserTip() {
-  const [message, setMessage] = useState<string | null>(null);
+  // True once the user has dismissed it in this visit. Dismissal is a user
+  // action, so it belongs in state and is set from a handler rather than an
+  // effect.
+  const [dismissedNow, setDismissedNow] = useState(false);
 
-  useEffect(() => {
+  // Whether a recent dismissal is stored. Read during render via
+  // useSyncExternalStore: the server snapshot is `true` (treat it as dismissed,
+  // so the banner never appears in server HTML), and the client swaps in the
+  // real answer on the first client render.
+  const dismissedBefore = useClientValue(() => {
     try {
       const dismissedAt = Number(localStorage.getItem(DISMISS_KEY) || 0);
-      if (dismissedAt && Date.now() - dismissedAt < DISMISS_DAYS * 24 * 60 * 60 * 1000) return;
+      return Boolean(dismissedAt) && Date.now() - dismissedAt < DISMISS_DAYS * 24 * 60 * 60 * 1000;
     } catch {
-      /* ignore */
+      return false;
     }
-    setMessage(detectAdvice());
-  }, []);
+  }, () => true);
 
+  const detected = useClientValue(detectAdvice, () => null);
+
+  const message = dismissedNow || dismissedBefore ? null : detected;
   if (!message) return null;
 
   function dismiss() {
-    setMessage(null);
+    setDismissedNow(true);
     try {
       localStorage.setItem(DISMISS_KEY, String(Date.now()));
     } catch {

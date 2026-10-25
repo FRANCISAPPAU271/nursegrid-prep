@@ -55,7 +55,7 @@ export default function CatDashboard({ isPremium, sessions }: { isPremium: boole
           <li>🎯 Questions start at medium difficulty and adjust up or down based on whether you answer correctly.</li>
           <li>📏 The test runs a minimum of 15 questions and a maximum of 50.</li>
           <li>🏁 It ends early once your performance clearly trends above or below the passing standard, or at the maximum length.</li>
-          <li>📖 You'll get a full rationale review of every question once the session ends.</li>
+          <li>📖 You&apos;ll get a full rationale review of every question once the session ends.</li>
         </ul>
         <p className="mt-4 text-xs text-slate-500">
           This is a study tool built to help you practice under adaptive-difficulty conditions. The official NMC Ghana licensing examination is a

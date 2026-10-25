@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import { useClientValue } from "@/lib/use-client-value";
 import Link from "next/link";
 
 const STORAGE_KEY = "nsg-orientation-dismissed";
@@ -25,16 +26,22 @@ export default function GettingStarted({
   notesTotal: number;
   isPremium: boolean;
 }) {
-  const [dismissed, setDismissed] = useState(true); // start hidden to avoid flash, reveal after check
+  // Dismissed in this visit — set from the handler below.
+  const [dismissedNow, setDismissedNow] = useState(false);
   const [collapsed, setCollapsed] = useState(false);
 
-  useEffect(() => {
+  // Dismissed in an earlier visit. Read during render, not copied into state:
+  // the server snapshot is `true` so the panel is absent from the server HTML
+  // and cannot flash on screen before the client knows the real answer.
+  const dismissedBefore = useClientValue(() => {
     try {
-      setDismissed(localStorage.getItem(STORAGE_KEY) === "1");
+      return localStorage.getItem(STORAGE_KEY) === "1";
     } catch {
-      setDismissed(false);
+      return false;
     }
-  }, []);
+  }, () => true);
+
+  const dismissed = dismissedNow || dismissedBefore;
 
   const steps: Step[] = [
     {
@@ -86,7 +93,7 @@ export default function GettingStarted({
   if (dismissed) return null;
 
   function dismiss() {
-    setDismissed(true);
+    setDismissedNow(true);
     try {
       localStorage.setItem(STORAGE_KEY, "1");
     } catch {
