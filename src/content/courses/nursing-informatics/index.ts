@@ -6,6 +6,7 @@ import { decisionSupportSafety } from "./04-decision-support-safety";
 import { evidenceDashboardsQuality } from "./05-evidence-dashboards-quality";
 import { digitalProfessionalism } from "./06-digital-professionalism";
 import { informaticsCapstone } from "./07-informatics-capstone";
+import { glossary } from "./glossary";
 
 export const nursingInformatics: Course = {
   slug: "nursing-informatics",
@@ -62,4 +63,5 @@ export const nursingInformatics: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

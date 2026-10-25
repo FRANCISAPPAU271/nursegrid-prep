@@ -6,6 +6,7 @@ import { theSickChildImciInfectionsAndNutrition } from "./04-the-sick-child-imci
 import { paediatricEmergencies } from "./05-paediatric-emergencies";
 import { chronicAndLongTermConditionsOfChildhood } from "./06-chronic-and-long-term-conditions-of-childhood";
 import { paediatricPharmacologyAndCalculations } from "./07-paediatric-pharmacology-and-calculations";
+import { glossary } from "./glossary";
 
 export const paediatricNursingAndImmunisation: Course = {
   slug: "paediatric-nursing-and-immunisation",
@@ -66,4 +67,5 @@ export const paediatricNursingAndImmunisation: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

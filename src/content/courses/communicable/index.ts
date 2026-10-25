@@ -6,6 +6,7 @@ import { diarrhoealFoodAndWaterBorneDiseases } from "./04-diarrhoeal-food-and-wa
 import { dropletAirborneAndVaccinePreventableDiseases } from "./05-droplet-airborne-and-vaccine-preventable-diseases";
 import { zoonosesHaemorrhagicFeversAndNeglectedTropicalDiseases } from "./06-zoonoses-haemorrhagic-fevers-and-neglected-tropical-diseases";
 import { antimicrobialsTheHealthWorkerAndTheProgramme } from "./07-antimicrobials-the-health-worker-and-the-programme";
+import { glossary } from "./glossary";
 
 export const communicableAndTropicalDiseaseNursing: Course = {
   slug: "communicable-and-tropical-disease-nursing",
@@ -64,4 +65,5 @@ export const communicableAndTropicalDiseaseNursing: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

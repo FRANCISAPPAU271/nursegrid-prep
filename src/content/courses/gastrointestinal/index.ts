@@ -6,6 +6,7 @@ import { bowelDisordersAndTheSurgicalAbdomen } from "./04-bowel-disorders-and-th
 import { liverBiliaryAndPancreaticDisorders } from "./05-liver-biliary-and-pancreatic-disorders";
 import { stomasNutritionAndGastrointestinalCancers } from "./06-stomas-nutrition-and-gastrointestinal-cancers";
 import { gastrointestinalPharmacologyAndCalculations } from "./07-gastrointestinal-pharmacology-and-calculations";
+import { glossary } from "./glossary";
 
 export const gastrointestinalAndHepaticNursing: Course = {
   slug: "gastrointestinal-and-hepatic-nursing",
@@ -65,4 +66,5 @@ export const gastrointestinalAndHepaticNursing: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

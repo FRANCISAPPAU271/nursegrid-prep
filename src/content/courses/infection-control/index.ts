@@ -6,6 +6,7 @@ import { asepsisDecontaminationAndSterilisation } from "./04-asepsis-decontamina
 import { preventingDeviceAndProcedureRelatedInfections } from "./05-preventing-device-and-procedure-related-infections";
 import { occupationalHealthSharpsAndHealthCareWaste } from "./06-occupational-health-sharps-and-health-care-waste";
 import { specimensStewardshipSurveillanceAndTheIpcProgramme } from "./07-specimens-stewardship-surveillance-and-the-ipc-programme";
+import { glossary } from "./glossary";
 
 export const infectionPreventionAndControl: Course = {
   slug: "infection-prevention-and-control",
@@ -65,4 +66,5 @@ export const infectionPreventionAndControl: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

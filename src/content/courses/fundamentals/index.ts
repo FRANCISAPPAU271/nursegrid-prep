@@ -6,6 +6,7 @@ import { mobilityPositioningAndSkinIntegrity } from "./04-mobility-positioning-a
 import { nutritionFluidsAndElimination } from "./05-nutrition-fluids-and-elimination";
 import { oxygenationMedicinesAndClinicalProcedures } from "./06-oxygenation-medicines-and-clinical-procedures";
 import { painTheUnconsciousPatientLossAndFirstAid } from "./07-pain-the-unconscious-patient-loss-and-first-aid";
+import { glossary } from "./glossary";
 
 export const fundamentalsOfNursing: Course = {
   slug: "fundamentals-of-nursing",
@@ -64,4 +65,5 @@ export const fundamentalsOfNursing: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

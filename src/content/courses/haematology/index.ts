@@ -6,6 +6,7 @@ import { bleedingAndClotting } from "./04-bleeding-and-clotting";
 import { bloodTransfusion } from "./05-blood-transfusion";
 import { malignancyAndImmunology } from "./06-malignancy-and-immunology";
 import { haematologicalPharmacologyAndCalculations } from "./07-pharmacology-and-calculations";
+import { glossary } from "./glossary";
 
 export const haematologyAndImmunologyNursing: Course = {
   slug: "haematology-and-immunology-nursing",
@@ -64,4 +65,5 @@ export const haematologyAndImmunologyNursing: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

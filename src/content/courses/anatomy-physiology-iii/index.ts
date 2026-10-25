@@ -6,6 +6,7 @@ import { pregnancyAndBirth } from "./04-pregnancy-and-birth";
 import { geneticsAndDevelopment } from "./05-genetics-and-development";
 import { specialSenses } from "./06-special-senses";
 import { bedsideApplicationIII } from "./07-bedside-application";
+import { glossary } from "./glossary";
 
 export const anatomyPhysiologyIII: Course = {
   slug: "human-anatomy-and-physiology-iii",
@@ -63,4 +64,5 @@ export const anatomyPhysiologyIII: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

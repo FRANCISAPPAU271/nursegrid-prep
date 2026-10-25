@@ -63,6 +63,14 @@ export default async function CourseDetailsPage({ params }: { params: Promise<{ 
                 {state.status === "not-started" ? "Start course →" : `Resume: ${state.nextActivity.title} →`}
               </Link>
             ) : null}
+            {course.glossary?.length ? (
+              <Link
+                href={`/dashboard/courses/${course.slug}/glossary`}
+                className="rounded-lg bg-white/20 px-3.5 py-2 text-sm font-bold text-white hover:bg-white/30"
+              >
+                📖 Glossary ({course.glossary.length})
+              </Link>
+            ) : null}
             <span className="text-xs text-white/80">
               {lessons.length} lessons · about {Math.round((minutes / 60) * 10) / 10} hours of reading · post-test · evaluation
             </span>

@@ -6,6 +6,7 @@ import { managingPeopleAndResources } from "./04-managing-people-and-resources";
 import { lawEthicsAndProfessionalRegulation } from "./05-law-ethics-and-professional-regulation";
 import { communicationDocumentationQualityAndSafety } from "./06-communication-documentation-quality-and-safety";
 import { researchStatisticsAndEntrepreneurship } from "./07-research-statistics-and-entrepreneurship";
+import { glossary } from "./glossary";
 
 export const prioritisationDelegationAndLeadership: Course = {
   slug: "prioritisation-delegation-and-leadership",
@@ -65,4 +66,5 @@ export const prioritisationDelegationAndLeadership: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

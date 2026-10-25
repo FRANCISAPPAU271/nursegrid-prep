@@ -6,6 +6,7 @@ import { acrossTheLifespan } from "./04-across-the-lifespan";
 import { jointAndBoneDisease } from "./05-joint-and-bone-disease";
 import { infectionAndTheSpine } from "./06-infection-and-the-spine";
 import { musculoskeletalPharmacologyAndCalculations } from "./07-musculoskeletal-pharmacology-and-calculations";
+import { glossary } from "./glossary";
 
 export const musculoskeletalNursing: Course = {
   slug: "musculoskeletal-nursing",
@@ -64,4 +65,5 @@ export const musculoskeletalNursing: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

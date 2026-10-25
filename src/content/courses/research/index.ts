@@ -6,6 +6,7 @@ import { researchEthicsAndIntegrity } from "./04-research-ethics-and-integrity";
 import { biostatisticsDescribingDataAndMeasuringHealth } from "./05-biostatistics-describing-data-and-measuring-health";
 import { biostatisticsFromSampleToPopulation } from "./06-biostatistics-from-sample-to-population";
 import { evidenceBasedPracticeTheReportAndQualityImprovement } from "./07-evidence-based-practice-the-report-and-quality-improvement";
+import { glossary } from "./glossary";
 
 export const nursingResearchEvidenceBasedPracticeAndBiostatistics: Course = {
   slug: "nursing-research-evidence-based-practice-and-biostatistics",
@@ -64,4 +65,5 @@ export const nursingResearchEvidenceBasedPracticeAndBiostatistics: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

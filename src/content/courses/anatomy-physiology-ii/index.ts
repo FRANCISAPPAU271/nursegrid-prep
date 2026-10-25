@@ -6,6 +6,7 @@ import { respiratorySystem } from "./04-respiratory-system";
 import { urinarySystem } from "./05-urinary-system";
 import { nervousSystem } from "./06-nervous-system";
 import { bedsideApplicationII } from "./07-bedside-application";
+import { glossary } from "./glossary";
 
 export const anatomyPhysiologyII: Course = {
   slug: "human-anatomy-and-physiology-ii",
@@ -63,4 +64,5 @@ export const anatomyPhysiologyII: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

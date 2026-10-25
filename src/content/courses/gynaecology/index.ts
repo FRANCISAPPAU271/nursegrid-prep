@@ -6,6 +6,7 @@ import { fertilityAndEarlyPregnancy } from "./04-fertility-and-early-pregnancy";
 import { infectionsAndBenignGynaecology } from "./05-infections-and-benign";
 import { gynaecologicalAndBreastOncology } from "./06-oncology";
 import { gynaecologicalSurgerySgbvAndMensHealth } from "./07-special-topics";
+import { glossary } from "./glossary";
 
 export const gynaecologicalSexualAndReproductiveHealthNursing: Course = {
   slug: "gynaecological-sexual-and-reproductive-health-nursing",
@@ -65,4 +66,5 @@ export const gynaecologicalSexualAndReproductiveHealthNursing: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

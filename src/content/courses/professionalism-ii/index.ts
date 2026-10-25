@@ -6,6 +6,7 @@ import { qualityImprovementAndPatientSafety } from "./04-quality-improvement-and
 import { healthSystemsAndPolicyInGhana } from "./05-health-systems-and-policy-in-ghana";
 import { careerEntrepreneurshipAndImage } from "./06-career-entrepreneurship-and-image";
 import { leadershipCapstone } from "./07-leadership-capstone";
+import { glossary } from "./glossary";
 
 export const professionalismII: Course = {
   slug: "professionalism-in-nursing-ii",
@@ -63,4 +64,5 @@ export const professionalismII: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

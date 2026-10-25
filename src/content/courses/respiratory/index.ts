@@ -6,6 +6,7 @@ import { obstructive } from "./04-obstructive";
 import { infectionsAndPleura } from "./05-infections-pleura";
 import { emergencies } from "./06-emergencies";
 import { pharmacology } from "./07-pharmacology";
+import { glossary } from "./glossary";
 
 export const respiratoryNursing: Course = {
   slug: "respiratory-nursing",
@@ -65,4 +66,5 @@ export const respiratoryNursing: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

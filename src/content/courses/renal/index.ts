@@ -6,6 +6,7 @@ import { urinaryTract } from "./04-urinary-tract";
 import { kidneyDisease } from "./05-kidney-disease";
 import { renalReplacement } from "./06-renal-replacement";
 import { pharmacology } from "./07-pharmacology";
+import { glossary } from "./glossary";
 
 export const renalFluidElectrolyteNursing: Course = {
   slug: "renal-fluid-and-electrolyte-nursing",
@@ -64,4 +65,5 @@ export const renalFluidElectrolyteNursing: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

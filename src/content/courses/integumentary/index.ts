@@ -6,6 +6,7 @@ import { skinInfectionsAndInfestations } from "./04-skin-infections-and-infestat
 import { inflammatoryAllergicAndMalignantSkinDisease } from "./05-inflammatory-allergic-and-malignant-skin-disease";
 import { skinAcrossTheLifespan } from "./06-skin-across-the-lifespan";
 import { dermatologicalPharmacologyAndCalculations } from "./07-dermatological-pharmacology-and-calculations";
+import { glossary } from "./glossary";
 
 export const integumentaryNursing: Course = {
   slug: "integumentary-nursing",
@@ -64,4 +65,5 @@ export const integumentaryNursing: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

@@ -6,6 +6,7 @@ import { difficultConversations } from "./04-difficult-conversations";
 import { specialPopulations } from "./05-special-populations";
 import { teamCommunication } from "./06-team-communication";
 import { communicationCapstone } from "./07-communication-capstone";
+import { glossary } from "./glossary";
 
 export const therapeuticCommunication: Course = {
   slug: "therapeutic-communication",
@@ -62,4 +63,5 @@ export const therapeuticCommunication: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

@@ -6,6 +6,7 @@ import { complementaryTherapies } from "./04-complementary-therapies";
 import { pluralistCounselling } from "./05-counselling-pluralist-patients";
 import { integratingPractice } from "./06-integrating-tcam-into-practice";
 import { bedsideCapstone } from "./07-bedside-capstone";
+import { glossary } from "./glossary";
 
 export const tcam: Course = {
   slug: "tcam",
@@ -62,4 +63,5 @@ export const tcam: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

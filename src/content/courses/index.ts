@@ -35,7 +35,7 @@ import { gynaecologicalSexualAndReproductiveHealthNursing } from "./gynaecology"
 import { criticalCareAndEmergencyNursingAdvanced } from "./critical-care";
 import { nursingProcedureManualCurrentClinicalProcedures } from "./procedures";
 
-export type { Course, CourseModule, Lesson, LessonBlock, LessonQuiz } from "./types";
+export type { Course, CourseModule, GlossaryEntry, Lesson, LessonBlock, LessonQuiz } from "./types";
 
 /** Every published course, in catalogue order. */
 export const COURSES: Course[] = [

@@ -6,6 +6,7 @@ import { maternalChildAndReproductiveHealthInTheCommunity } from "./04-maternal-
 import { nutritionAndNonCommunicableDiseasesInTheCommunity } from "./05-nutrition-and-non-communicable-diseases-in-the-community";
 import { familyHealthHomeVisitingAndVulnerableGroups } from "./06-family-health-home-visiting-and-vulnerable-groups";
 import { cultureInformationEthicsAndTheCommunityNursesRole } from "./07-culture-information-ethics-and-the-community-nurses-role";
+import { glossary } from "./glossary";
 
 export const communityAndPublicHealthNursing: Course = {
   slug: "community-and-public-health-nursing",
@@ -64,4 +65,5 @@ export const communityAndPublicHealthNursing: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

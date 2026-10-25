@@ -6,6 +6,7 @@ import { surgicalWoundsDrainsAndBurns } from "./04-surgical-wounds-drains-and-bu
 import { traumaAndSurgicalEmergencies } from "./05-trauma-and-surgical-emergencies";
 import { specialtySurgeryAndItsNursing } from "./06-specialty-surgery-and-its-nursing";
 import { surgicalOncologyDaySurgeryAndRehabilitation } from "./07-surgical-oncology-day-surgery-and-rehabilitation";
+import { glossary } from "./glossary";
 
 export const perioperativeAndSurgicalNursing: Course = {
   slug: "perioperative-and-surgical-nursing",
@@ -64,4 +65,5 @@ export const perioperativeAndSurgicalNursing: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

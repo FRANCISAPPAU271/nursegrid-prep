@@ -6,6 +6,7 @@ import { labourAndBirth } from "./04-labour-and-birth";
 import { obstetricEmergencies } from "./05-obstetric-emergencies";
 import { postnatalAndNewbornCare } from "./06-postnatal-and-newborn-care";
 import { obstetricPharmacologyAndCalculations } from "./07-pharmacology-and-calculations";
+import { glossary } from "./glossary";
 
 export const reproductiveAndObstetricNursing: Course = {
   slug: "reproductive-and-obstetric-nursing",
@@ -64,4 +65,5 @@ export const reproductiveAndObstetricNursing: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

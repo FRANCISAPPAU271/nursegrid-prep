@@ -6,6 +6,7 @@ import { therapeuticDiets } from "./04-therapeutic-diets";
 import { malnutritionInAllForms } from "./05-malnutrition-in-all-forms";
 import { foodSafetyAndCommunityNutrition } from "./06-food-safety-and-community-nutrition";
 import { nutritionCapstone } from "./07-nutrition-capstone";
+import { glossary } from "./glossary";
 
 export const nutritionAndDietetics: Course = {
   slug: "nutrition-and-dietetics",
@@ -63,4 +64,5 @@ export const nutritionAndDietetics: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

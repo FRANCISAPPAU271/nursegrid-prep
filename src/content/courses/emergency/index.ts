@@ -6,6 +6,7 @@ import { cardiacArrestAndEcg } from "./04-cardiac-arrest-and-ecg";
 import { traumaEnvironmentalAndPoisoning } from "./05-trauma-environmental-and-poisoning";
 import { criticalCareDisastersAndEthics } from "./06-critical-care-disasters-and-ethics";
 import { emergencyDrugsAndCalculations } from "./07-emergency-drugs-and-calculations";
+import { glossary } from "./glossary";
 
 export const shockEmergencyAndCriticalCareNursing: Course = {
   slug: "shock-emergency-and-critical-care-nursing",
@@ -65,4 +66,5 @@ export const shockEmergencyAndCriticalCareNursing: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

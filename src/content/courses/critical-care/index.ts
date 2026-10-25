@@ -6,6 +6,7 @@ import { respiratoryAndNeurologicalCriticalCare } from "./04-respiratory-neuro";
 import { sepsisRenalMetabolicAndGastrointestinalCriticalCare } from "./05-sepsis-renal-metabolic";
 import { majorTraumaBurnsAndToxicology } from "./06-trauma-toxicology";
 import { specialPopulationsProceduresAndTheIcuTeam } from "./07-special-populations-team";
+import { glossary } from "./glossary";
 
 export const criticalCareAndEmergencyNursingAdvanced: Course = {
   slug: "critical-care-and-emergency-nursing-advanced",
@@ -64,4 +65,5 @@ export const criticalCareAndEmergencyNursingAdvanced: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

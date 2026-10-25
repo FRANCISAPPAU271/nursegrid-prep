@@ -7,6 +7,7 @@ import { heartFailure } from "./05-heart-failure";
 import { emergencies } from "./06-emergencies";
 import { valvularAndVascular } from "./07-valvular-vascular";
 import { pharmacology } from "./08-pharmacology";
+import { glossary } from "./glossary";
 
 export const cardiovascularNursing: Course = {
   slug: "cardiovascular-nursing",
@@ -67,4 +68,5 @@ export const cardiovascularNursing: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

@@ -75,6 +75,25 @@ export type EvaluationSettings = {
   commentPrompt: string;
 };
 
+/**
+ * One entry in a course glossary.
+ *
+ * Glossaries are course-level reference material, not graded activities: they
+ * are not enrolled-shaped, do not gate progress and never appear in the
+ * activity list. They exist so a learner can look up "Somogyi effect" without
+ * hunting back through seven lessons.
+ */
+export type GlossaryEntry = {
+  /** The headword, as the learner would search for it. */
+  term: string;
+  /** One or two sentences. Written to be understood on its own. */
+  definition: string;
+  /** Slug of the lesson that teaches it, so the page can link back. */
+  lesson?: string;
+  /** Spellings, abbreviations and synonyms the search should also match. */
+  alsoKnownAs?: string[];
+};
+
 export type Course = {
   slug: string;
   title: string;
@@ -95,4 +114,9 @@ export type Course = {
   modules: CourseModule[];
   postTest: PostTestSettings;
   evaluation: EvaluationSettings;
+  /**
+   * Optional course glossary. Courses that do not carry one simply do not show
+   * the link — the page 404s rather than rendering an empty shell.
+   */
+  glossary?: GlossaryEntry[];
 };

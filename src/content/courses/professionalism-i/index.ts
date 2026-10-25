@@ -6,6 +6,7 @@ import { patientsRightsAndAdvocacy } from "./04-patients-rights-and-advocacy";
 import { documentationHandoverTeamwork } from "./05-documentation-and-teamwork";
 import { lawForNurses } from "./06-law-for-nurses";
 import { professionalismCapstone } from "./07-professionalism-capstone";
+import { glossary } from "./glossary";
 
 export const professionalismI: Course = {
   slug: "professionalism-in-nursing-i",
@@ -63,4 +64,5 @@ export const professionalismI: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

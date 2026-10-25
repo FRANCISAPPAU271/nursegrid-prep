@@ -6,6 +6,7 @@ import { diabeticEmergencies } from "./04-diabetic-emergencies";
 import { chronicComplications } from "./05-chronic-complications";
 import { thyroidAdrenalPituitary } from "./06-thyroid-adrenal-pituitary";
 import { pharmacology } from "./07-pharmacology";
+import { glossary } from "./glossary";
 
 export const endocrineAndDiabetesNursing: Course = {
   slug: "endocrine-and-diabetes-nursing",
@@ -66,4 +67,5 @@ export const endocrineAndDiabetesNursing: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

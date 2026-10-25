@@ -6,6 +6,7 @@ import { seizuresAndEpilepsy } from "./04-seizures-and-epilepsy";
 import { cnsInfectionsAndUnconsciousPatient } from "./05-cns-infections-and-the-unconscious-patient";
 import { spinalCordAndChronicDisorders } from "./06-spinal-cord-and-chronic-disorders";
 import { pharmacology } from "./07-pharmacology";
+import { glossary } from "./glossary";
 
 export const neurologicalNursing: Course = {
   slug: "neurological-nursing",
@@ -65,4 +66,5 @@ export const neurologicalNursing: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

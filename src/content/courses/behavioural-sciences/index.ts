@@ -6,6 +6,7 @@ import { socialDeterminantsCulture } from "./04-social-determinants-culture";
 import { behaviourChangeMotivation } from "./05-behaviour-change-motivation";
 import { mentalHealthEssentials } from "./06-mental-health-essentials";
 import { behaviouralCapstone } from "./07-behavioural-capstone";
+import { glossary } from "./glossary";
 
 export const behaviouralSciences: Course = {
   slug: "behavioural-sciences",
@@ -62,4 +63,5 @@ export const behaviouralSciences: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

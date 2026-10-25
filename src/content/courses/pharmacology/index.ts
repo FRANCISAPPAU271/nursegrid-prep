@@ -6,6 +6,7 @@ import { intravenousFluidsElectrolytesAndNutrition } from "./04-intravenous-flui
 import { bloodTransfusion } from "./05-blood-transfusion";
 import { highAlertMedications } from "./06-high-alert-medications";
 import { drugClassesAndSpecialPopulations } from "./07-drug-classes-and-special-populations";
+import { glossary } from "./glossary";
 
 export const pharmacologyAndMedicationCalculations: Course = {
   slug: "pharmacology-and-medication-calculations",
@@ -64,4 +65,5 @@ export const pharmacologyAndMedicationCalculations: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

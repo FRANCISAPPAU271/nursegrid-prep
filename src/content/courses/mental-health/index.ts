@@ -6,6 +6,7 @@ import { anxietyTraumaGriefAndDisordersOfEatingAndPersonality } from "./04-anxie
 import { substanceUseDeliriumAndTheOlderAdult } from "./05-substance-use-delirium-and-the-older-adult";
 import { childrenAdolescentsPerinatalMentalHealthAndPsychiatricEmergencies } from "./06-children-adolescents-perinatal-mental-health-and-psychiatric-emergencies";
 import { psychopharmacologyRecoveryAndCommunityMentalHealth } from "./07-psychopharmacology-recovery-and-community-mental-health";
+import { glossary } from "./glossary";
 
 export const mentalHealthAndPsychiatricNursing: Course = {
   slug: "mental-health-and-psychiatric-nursing",
@@ -64,4 +65,5 @@ export const mentalHealthAndPsychiatricNursing: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

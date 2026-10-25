@@ -6,6 +6,7 @@ import { nutritionAndEliminationProcedures } from "./04-nutrition-elimination";
 import { medicinesAndIntravenousTherapyProcedures } from "./05-medicines-iv";
 import { respiratoryWoundAndPerioperativeProcedures } from "./06-respiratory-wound-perioperative";
 import { emergencyAssistingAndEndOfLifeProcedures } from "./07-emergency-assisting-eol";
+import { glossary } from "./glossary";
 
 export const nursingProcedureManualCurrentClinicalProcedures: Course = {
   slug: "nursing-procedure-manual-current-clinical-procedures",
@@ -64,4 +65,5 @@ export const nursingProcedureManualCurrentClinicalProcedures: Course = {
     ],
     commentPrompt: "Which procedure should we add, remove or explain better?",
   },
+  glossary,
 };

@@ -6,6 +6,7 @@ import { muscularSystem } from "./04-muscular-system";
 import { digestiveSystem } from "./05-digestive-system";
 import { integumentarySystem } from "./06-integumentary-system";
 import { bedsideApplication } from "./07-bedside-application";
+import { glossary } from "./glossary";
 
 export const anatomyPhysiologyI: Course = {
   slug: "human-anatomy-and-physiology-i",
@@ -63,4 +64,5 @@ export const anatomyPhysiologyI: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };

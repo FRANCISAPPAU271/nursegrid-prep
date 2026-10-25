@@ -6,6 +6,7 @@ import { medicationsAndPolypharmacy } from "./04-medications-and-polypharmacy";
 import { psychosocialAbuseAndEndOfLife } from "./05-psychosocial-abuse-and-end-of-life";
 import { nutritionMobilityAndRehabilitation } from "./06-nutrition-mobility-and-rehabilitation";
 import { gerontologyCapstone } from "./07-gerontology-capstone";
+import { glossary } from "./glossary";
 
 export const gerontologyNursing: Course = {
   slug: "gerontology-nursing",
@@ -63,4 +64,5 @@ export const gerontologyNursing: Course = {
     ],
     commentPrompt: "What should we add, remove or explain better?",
   },
+  glossary,
 };
