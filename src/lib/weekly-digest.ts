@@ -27,6 +27,28 @@ export const UPDATES: string[] = [
     "619 questions now carry an original diagram — label it yourself, then check.",
 ];
 
+// ---------------------------------------------------------------------------
+// Live teaching. Same three sessions every week, so this is a permanent part of
+// the email rather than a line in UPDATES — an update is announced once and
+// then removed, and a weekly class that vanishes from the email after a week
+// stops being useful.
+// ---------------------------------------------------------------------------
+export const LIVE_CLASSES: { day: string; time: string }[] = [
+    { day: "Wednesday", time: "5pm to 6pm" },
+    { day: "Friday", time: "5pm to 6pm" },
+    { day: "Saturday", time: "5pm to 6pm" },
+];
+
+/**
+ * WhatsApp study group for registered students.
+ *
+ * Kept as a raw URL with real ampersands and escaped at render time, because
+ * the HTML needs `&amp;` in an attribute while the plain-text part needs `&`.
+ * Hard-coding the entities would silently break the link in the text version.
+ */
+export const STUDY_GROUP_URL =
+    "https://chat.whatsapp.com/Gz8GSdk2mSz7eIdHcMSEUb?s=cl&p=a&mlu=4&ilr=4";
+
 /**
  * Wrap prose for the plain-text alternative.
  *
@@ -104,6 +126,18 @@ export function weeklyDigestEmail(args: {
         )
         .join("");
 
+    // Live teaching. Same plain <ul> as the updates above: it is a schedule, so
+    // a list is the honest structure, and it keeps the message looking like a
+    // note rather than a campaign.
+    const classBullets = LIVE_CLASSES.map(
+        (c, i) =>
+            `<li style="margin:${i === LIVE_CLASSES.length - 1 ? "0" : "0 0 6px"};">${c.day}, ${c.time}</li>`,
+    ).join("");
+
+    // `&` must be `&amp;` inside an HTML attribute; the raw URL is kept
+    // elsewhere for the plain-text part.
+    const studyGroupHref = STUDY_GROUP_URL.replace(/&/g, "&amp;");
+
     const html = `
   <div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;max-width:520px;margin:0 auto;color:#0f172a;font-size:15px;line-height:1.7;">
     <div style="display:none;max-height:0;overflow:hidden;opacity:0;color:transparent;height:0;width:0;">${preheader}</div>
@@ -112,6 +146,14 @@ export function weeklyDigestEmail(args: {
     <p style="margin:0 0 16px;">Here's what's new at NurseGrid this week:</p>
 
     <ul style="margin:0 0 18px;padding-left:22px;">${bullets}</ul>
+
+    <p style="margin:0 0 8px;">Live teaching runs every week — join any session:</p>
+    <ul style="margin:0 0 18px;padding-left:22px;">${classBullets}</ul>
+
+    <p style="margin:0 0 16px;">
+      If you have registered, join the study group:
+      <a href="${studyGroupHref}" style="color:#047857;">Join the study group on WhatsApp</a>.
+    </p>
 
     <p style="margin:0 0 16px;">
       Everything is where you left it — your dashboard is at
@@ -145,6 +187,13 @@ export function weeklyDigestEmail(args: {
         "Here's what's new at NurseGrid this week:",
         "",
         ...updates.map((u) => wrap(u, { width: 74, first: "  - ", rest: "    " })),
+        "",
+        "Live teaching runs every week - join any session:",
+        ...LIVE_CLASSES.map((c) =>
+            wrap(`${c.day}, ${c.time}`, { width: 74, first: "  - ", rest: "    " }),
+        ),
+        "",
+        wrap(`If you have registered, join the study group: ${STUDY_GROUP_URL}`),
         "",
         wrap(
             `Everything is where you left it - your dashboard is at ${APP_URL}/dashboard. If you want to keep every question (${QUESTION_COUNT_LABEL}) and the mock exams open, you can choose a plan from the billing page while you are there.`,
