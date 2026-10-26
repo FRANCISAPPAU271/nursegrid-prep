@@ -92,7 +92,17 @@ export async function sendEmail(
 
   if (process.env.RESEND_API_KEY) {
     const resend = new Resend(process.env.RESEND_API_KEY);
-    const { data } = await resend.emails.send({ from: FROM_ADDRESS, replyTo: parseFrom(REPLY_TO).email, to, subject, html, ...(options?.text ? { text: options.text } : {}), ...(Object.keys(bulkHeaders).length ? { headers: bulkHeaders } : {}) });
+    const { data, error } = await resend.emails.send({ from: FROM_ADDRESS, replyTo: parseFrom(REPLY_TO).email, to, subject, html, ...(options?.text ? { text: options.text } : {}), ...(Object.keys(bulkHeaders).length ? { headers: bulkHeaders } : {}) });
+    // The Resend SDK does NOT throw when the API refuses a message: it resolves
+    // with `{ data: null, error }`. Destructuring only `data` therefore made
+    // every rejection - an unverified sender, a bad address, a spent quota,
+    // a revoked key - look like a success, and the caller wrote its ledger row
+    // regardless. That is the precise failure this project already lived
+    // through once ("sent: 173", none delivered), so the error is raised as an
+    // exception: no exception, no ledger row, and the person stays due.
+    if (error) {
+      throw new Error(`Resend send failed (${error.name ?? "error"}): ${error.message ?? "no detail"}`);
+    }
     return { id: data?.id };
   }
 
