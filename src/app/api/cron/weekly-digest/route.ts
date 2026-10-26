@@ -599,8 +599,7 @@ export async function GET(request: Request) {
             count(*) FILTER (WHERE ${UNDELIVERABLE_SQL})::int AS due,
             count(*) FILTER (WHERE NOT (${UNDELIVERABLE_SQL}))::int AS undeliverable
           FROM users u
-          WHERE u.is_admin = false
-            AND u.created_at < ${cutoff}::timestamptz
+          WHERE u.created_at < ${cutoff}::timestamptz
             AND NOT EXISTS (SELECT 1 FROM email_optouts e WHERE lower(e.email) = lower(u.email))
             AND NOT EXISTS (
               SELECT 1 FROM weekly_digest_sends d
@@ -620,6 +619,10 @@ export async function GET(request: Request) {
       });
     }
 
+    // Admins are included. The owner's own account is the only admin, and
+    // excluding it meant the one person who could see the product working was
+    // the one person never sent it. A bad address is already caught by
+    // UNDELIVERABLE_SQL, which is the correct test - not the role flag.
     const now = new Date();
     const weekKey = isoWeekKey(now);
     const newAccountCutoff = new Date(now.getTime() - 48 * 3600000);
@@ -628,8 +631,7 @@ export async function GET(request: Request) {
       await db.execute(sql`
         SELECT u.id, u.name, u.email
         FROM users u
-        WHERE u.is_admin = false
-          AND u.created_at < ${newAccountCutoff.toISOString()}::timestamptz
+        WHERE u.created_at < ${newAccountCutoff.toISOString()}::timestamptz
           AND NOT EXISTS (SELECT 1 FROM email_optouts e WHERE lower(e.email) = lower(u.email))
           AND NOT EXISTS (
             SELECT 1 FROM weekly_digest_sends d
