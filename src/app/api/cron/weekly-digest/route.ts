@@ -25,8 +25,35 @@ export const maxDuration = 60;
 // mail cannon.
 // ---------------------------------------------------------------------------
 
-const MAX_PER_RUN = Number(process.env.WEEKLY_DIGEST_BATCH ?? 200);
+const MAX_PER_RUN = Number(process.env.WEEKLY_DIGEST_BATCH ?? 90);
 const CONCURRENCY = 6;
+
+/**
+ * Minimum spacing between provider calls.
+ *
+ * The account is on Resend's free plan, where the team-wide limit is 10
+ * requests per second. The previous settings fired 175 sends in 13.2 seconds -
+ * 13.2 req/s - and about a quarter of them came back 429. Because the SDK does
+ * not retry, those were simply dropped, while the ledger recorded them as sent.
+ *
+ * Two defences, because one is not enough: space requests at 9 per second
+ * (below the limit, and it costs only a few extra seconds for a batch this
+ * size), and cap the batch below the free plan's daily allowance so a burst can
+ * never outrun the day's quota in the first place.
+ */
+const MIN_GAP_MS = 110;
+const FREE_PLAN_DAILY_CAP = 100;
+
+/** A single gate shared by every worker, so CONCURRENCY cannot defeat pacing. */
+function makePacer(gapMs: number) {
+  let next = 0;
+  return async function pace(): Promise<void> {
+    const now = Date.now();
+    const wait = Math.max(0, next - now);
+    next = Math.max(now, next) + gapMs;
+    if (wait > 0) await new Promise((r) => setTimeout(r, wait));
+  };
+}
 const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "https://nursegridprep.com";
 
 /**
@@ -647,10 +674,17 @@ export async function GET(request: Request) {
     const accepted: { id: string; email: string }[] = [];
     const errors: string[] = [];
 
+    const pace = makePacer(MIN_GAP_MS);
+    // Set when the provider reports the day's allowance is gone. Retrying the
+    // rest of the batch would only produce a wall of identical failures.
+    let quotaHalted: string | null = null;
+
     await mapLimit(rows, CONCURRENCY, async (u) => {
+      if (quotaHalted) return;
       try {
         const { subject, html, text } = weeklyDigestEmail({ userId: u.id, name: u.name });
 
+        await pace();
         await sendEmail(u.email, subject, html, {
           unsubscribeUrl: unsubscribeUrl(APP_URL, u.id) || undefined,
           text,
@@ -677,7 +711,9 @@ export async function GET(request: Request) {
 
         accepted.push({ id: u.id, email: u.email });
       } catch (e) {
-        errors.push(`digest:${u.id}: ${e instanceof Error ? e.message : "send failed"}`);
+        const message = e instanceof Error ? e.message : "send failed";
+        if (/daily_quota|monthly_quota/i.test(message)) quotaHalted = message;
+        errors.push(`digest:${u.id}: ${message}`);
       }
     });
 
@@ -704,7 +740,10 @@ export async function GET(request: Request) {
           : `all ${verdict.delivered} confirmed delivered`
         : `not verified — ${verdict.reason ?? "no event log access"}`,
       batchLimit: MAX_PER_RUN,
-      moreQueuedForTomorrow: rows.length === MAX_PER_RUN,
+      freePlanDailyCap: FREE_PLAN_DAILY_CAP,
+      // Present only when the provider cut the batch short.
+      quotaHalted,
+      moreQueuedForTomorrow: rows.length === MAX_PER_RUN || Boolean(quotaHalted),
       errors: errors.slice(0, 5),
     });
   } catch (error) {

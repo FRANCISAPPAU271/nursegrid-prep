@@ -92,11 +92,50 @@ export async function sendEmail(
 
   if (process.env.RESEND_API_KEY) {
     const resend = new Resend(process.env.RESEND_API_KEY);
-    const { data, error } = await resend.emails.send({ from: FROM_ADDRESS, replyTo: parseFrom(REPLY_TO).email, to, subject, html, ...(options?.text ? { text: options.text } : {}), ...(Object.keys(bulkHeaders).length ? { headers: bulkHeaders } : {}) });
+
+    // The SDK neither retries nor exposes response headers, so a 429 has to be
+    // handled here. Two different 429s arrive through the same door:
+    //   rate_limit_exceeded  - too fast; a short pause fixes it, so retry.
+    //   daily_quota_exceeded - the day's allowance is spent; retrying is
+    //                          pointless until midnight UTC and would only burn
+    //                          the function's remaining seconds.
+    // Treating them alike either drops mail a pause would have saved, or spins
+    // uselessly against a cap that cannot move.
+    const sendOnce = () =>
+      resend.emails.send({
+        from: FROM_ADDRESS,
+        replyTo: parseFrom(REPLY_TO).email,
+        to,
+        subject,
+        html,
+        ...(options?.text ? { text: options.text } : {}),
+        ...(Object.keys(bulkHeaders).length ? { headers: bulkHeaders } : {}),
+      });
+
+    type SendError = { name?: string; message?: string } | null;
+    let data: { id?: string } | undefined;
+    let error: SendError = null;
+
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      const result = (await sendOnce()) as { data?: { id?: string }; error: SendError };
+      data = result.data;
+      error = result.error;
+      if (!error) break;
+
+      const text = `${error.name ?? ""} ${error.message ?? ""}`;
+      const quotaSpent = /daily_quota|monthly_quota/i.test(text);
+      const rateLimited = /rate_limit|too many requests/i.test(text);
+      if (rateLimited && !quotaSpent && attempt < 3) {
+        await new Promise((r) => setTimeout(r, 300 * attempt + Math.floor(Math.random() * 250)));
+        continue;
+      }
+      break;
+    }
+
     // The Resend SDK does NOT throw when the API refuses a message: it resolves
     // with `{ data: null, error }`. Destructuring only `data` therefore made
-    // every rejection - an unverified sender, a bad address, a spent quota,
-    // a revoked key - look like a success, and the caller wrote its ledger row
+    // every rejection - an unverified sender, a bad address, a spent quota, a
+    // revoked key - look like a success, and the caller wrote its ledger row
     // regardless. That is the precise failure this project already lived
     // through once ("sent: 173", none delivered), so the error is raised as an
     // exception: no exception, no ledger row, and the person stays due.
