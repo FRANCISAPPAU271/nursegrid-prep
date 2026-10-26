@@ -67,7 +67,41 @@ export async function GET(req: NextRequest) {
     out.resendProbe = "not configured";
   }
 
-  // 2. What the app itself believes it sent today, in UTC days.
+  // 2. Send exactly one real message, so the quota headers appear. A 422 proves
+  //    nothing about quota; only an accepted send carries them.
+  const to = req.nextUrl.searchParams.get("send");
+  if (to && process.env.RESEND_API_KEY) {
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(to)) {
+      out.realSend = { error: "not a valid address" };
+    } else {
+      const r = await fetch("https://api.resend.com/emails", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          from: process.env.EMAIL_FROM || "onboarding@resend.dev",
+          to,
+          subject: "NurseGrid Prep — delivery check",
+          html: "<p>One-message test from the delivery probe. Nothing to do.</p>",
+        }),
+      });
+      const headers: Record<string, string | null> = {};
+      for (const h of HEADERS_OF_INTEREST) headers[h] = r.headers.get(h);
+      const body = (await r.json().catch(() => ({}))) as { id?: string; message?: string; name?: string };
+      out.realSend = {
+        status: r.status,
+        headers,
+        onFreePlan: r.headers.get("x-resend-daily-quota") !== null,
+        id: body.id ?? null,
+        message: body.message ?? null,
+        name: body.name ?? null,
+      };
+    }
+  }
+
+  // 3. What the app itself believes it sent today, in UTC days.
   if (process.env.DATABASE_URL) {
     const client = new Client({ connectionString: process.env.DATABASE_URL });
     await client.connect();
