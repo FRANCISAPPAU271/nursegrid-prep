@@ -19,6 +19,10 @@ export default function SettingsForm({ user }: { user: UserInfo }) {
   const [cohort, setCohort] = useState(user.cohort);
   const [savingProfile, setSavingProfile] = useState(false);
 
+  const [newEmail, setNewEmail] = useState("");
+  const [pendingEmail, setPendingEmail] = useState<string | null>(null);
+  const [sendingEmail, setSendingEmail] = useState(false);
+
   const [currentPassword, setCurrentPassword] = useState("");
   const [newPassword, setNewPassword] = useState("");
   const [savingPassword, setSavingPassword] = useState(false);
@@ -42,6 +46,28 @@ export default function SettingsForm({ user }: { user: UserInfo }) {
       toast.push(err instanceof Error ? err.message : "Failed to update profile", "error");
     } finally {
       setSavingProfile(false);
+    }
+  }
+
+  async function changeEmail(e: React.FormEvent) {
+    e.preventDefault();
+    setSendingEmail(true);
+    setPendingEmail(null);
+    try {
+      const res = await fetch("/api/me/email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ newEmail }),
+      });
+      const body = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(body.error ?? "Could not request the change");
+      setPendingEmail(body.sentTo ?? newEmail.trim().toLowerCase());
+      setNewEmail("");
+      toast.push("Confirmation sent — open it to finish", "success");
+    } catch (err) {
+      toast.push(err instanceof Error ? err.message : "Could not request the change", "error");
+    } finally {
+      setSendingEmail(false);
     }
   }
 
@@ -71,7 +97,16 @@ export default function SettingsForm({ user }: { user: UserInfo }) {
         <h2 className="text-base font-bold text-slate-950">Profile</h2>
         <div>
           <label className="mb-1 block text-sm font-semibold text-slate-700">Email</label>
-          <input disabled value={user.email} className="w-full rounded-lg border border-slate-200 bg-slate-50 px-3 py-2.5 text-sm text-slate-500" />
+          <div className="flex items-center gap-2">
+            <input
+              disabled
+              value={user.email}
+              className="w-full rounded-lg border border-slate-200 bg-slate-50 px-3 py-2.5 text-sm text-slate-500"
+            />
+          </div>
+          <p className="mt-1.5 text-xs leading-relaxed text-slate-500">
+            This is where your weekly email and password resets go. Typed it wrong at signup? Change it below.
+          </p>
         </div>
         <div>
           <label className="mb-1 block text-sm font-semibold text-slate-700">Full name</label>
@@ -109,6 +144,44 @@ export default function SettingsForm({ user }: { user: UserInfo }) {
       </form>
 
       <div className="space-y-6">
+        <form onSubmit={changeEmail} className="space-y-4 rounded-2xl border border-slate-200 bg-white p-6">
+          <div>
+            <h2 className="text-base font-bold text-slate-950">Change email</h2>
+            <p className="mt-1 text-xs leading-relaxed text-slate-500">
+              We send a confirmation link to the new address. Nothing changes until you open it and press
+              confirm, and the link expires in an hour.
+            </p>
+          </div>
+          <div>
+            <label htmlFor="newEmail" className="mb-1 block text-sm font-semibold text-slate-700">
+              New email address
+            </label>
+            <input
+              id="newEmail"
+              type="email"
+              required
+              value={newEmail}
+              onChange={(e) => setNewEmail(e.target.value)}
+              placeholder="you@gmail.com"
+              autoComplete="email"
+              className="w-full rounded-lg border border-slate-300 px-3 py-2.5 text-sm outline-none focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/20"
+            />
+          </div>
+          {pendingEmail ? (
+            <p className="rounded-lg bg-emerald-50 px-3 py-2 text-xs leading-relaxed text-emerald-800">
+              Confirmation sent to <span className="font-semibold">{pendingEmail}</span>. Open that message and press
+              “Confirm this address”. If it is not there in a minute, check spam.
+            </p>
+          ) : null}
+          <button
+            type="submit"
+            disabled={sendingEmail}
+            className="rounded-lg bg-emerald-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-emerald-700 disabled:opacity-70"
+          >
+            {sendingEmail ? "Sending…" : "Send confirmation link"}
+          </button>
+        </form>
+
         <form onSubmit={changePassword} className="space-y-4 rounded-2xl border border-slate-200 bg-white p-6">
           <h2 className="text-base font-bold text-slate-950">Change password</h2>
           <div>
