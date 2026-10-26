@@ -102,7 +102,9 @@ export async function GET(req: NextRequest) {
     // Domain-level breakdowns, never addresses. Answers "is the owner's mailbox
     // even in the batch, and are the failures concentrated somewhere".
     const adminRow = await one(
-      `select lower(split_part(email, '@', 2)) as domain,
+      `select substr(u.email, 1, 2) || '…' as local_hint,
+              length(split_part(u.email, '@', 1)) as local_len,
+              lower(split_part(u.email, '@', 2)) as domain,
               exists (select 1 from email_bounces b where lower(b.email) = lower(u.email)) as bounced,
               exists (select 1 from email_optouts e where lower(e.email) = lower(u.email)) as opted_out,
               exists (select 1 from weekly_digest_sends d
@@ -134,6 +136,31 @@ export async function GET(req: NextRequest) {
       `select min(created_at) as first, max(created_at) as last from email_bounces`,
     );
 
+    // The exact predicate the weekly job uses, filters included. `due` above is
+    // the naive count and overstates it by every seeded demo account.
+    const routeDue = await one(`
+      select count(*)::int as due
+        from users u
+       where u.is_admin = false
+         and u.created_at < now() - interval '48 hours'
+         and lower(split_part(u.email, '@', 2)) not in
+             ('example.com','example.org','example.net','test','invalid','localhost','nursegrid.app')
+         and not exists (select 1 from email_bounces b where lower(b.email) = lower(u.email))
+         and not exists (select 1 from email_optouts e where lower(e.email) = lower(u.email))
+         and not exists (select 1 from weekly_digest_sends d
+                          where d.user_id = u.id and d.kind = 'weekly' and d.period_key = '${week}')`);
+
+    // How long the Monday run actually took: a burst inside one second would
+    // mean the rows were stamped in a batch rather than per accepted send.
+    const sendSpread = await one(`
+      select count(*)::int as n, min(sent_at) as first, max(sent_at) as last
+        from weekly_digest_sends where period_key = '${week}' and kind = 'weekly'`);
+
+    const bouncedToday = await one(
+      `select kind, count(*)::int as n from email_bounces
+        where created_at >= date_trunc('day', now()) group by 1`,
+    );
+
     // Ask Resend whether the key works and the sender is verified. Status code
     // only — the body can name the account.
     let resend: unknown = "not configured";
@@ -142,7 +169,16 @@ export async function GET(req: NextRequest) {
         const r = await fetch("https://api.resend.com/domains", {
           headers: { Authorization: `Bearer ${process.env.RESEND_API_KEY}` },
         });
-        resend = { status: r.status, ok: r.ok };
+        // A 401 here has two meanings: a key created with "Sending access"
+        // only is refused by every read endpoint yet sends fine; an unknown
+        // key is genuinely dead. Only the body separates them.
+        const body = (await r.json().catch(() => ({}))) as { name?: string; message?: string };
+        resend = {
+          status: r.status,
+          ok: r.ok,
+          name: body.name ?? null,
+          message: (body.message ?? "").slice(0, 200) || null,
+        };
       } catch (e) {
         resend = { error: e instanceof Error ? e.message : "unknown" };
       }
@@ -162,6 +198,9 @@ export async function GET(req: NextRequest) {
       sentByDomain,
       bouncedDomains,
       bounceTimes,
+      bouncedToday,
+      routeDue,
+      sendSpread,
       resend,
     });
   } finally {
