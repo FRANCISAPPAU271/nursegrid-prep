@@ -1,0 +1,68 @@
+name: Build
+
+# The whole point of this workflow: every push gets a real `next build` verdict.
+#
+# Until now, changes were landing on main having passed `tsc --noEmit` and
+# `eslint` but never an actual Next build. Production answering 200 proves the
+# PREVIOUS deployment is still serving, not that the new commit compiles — so a
+# broken build could sit on main unnoticed until someone tried to deploy it.
+#
+# No secrets are required. `src/db/index.ts` falls back to a placeholder
+# connection string and the pool connects lazily, so nothing reaches Postgres
+# during the build.
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+# A newer push to the same branch makes an in-flight run obsolete.
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Typecheck, lint and build
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    env:
+      NEXT_TELEMETRY_DISABLED: "1"
+      # Not a secret and never used to connect. Present so any build-time read
+      # of this variable sees something well-formed rather than undefined.
+      DATABASE_URL: postgres://postgres:postgres@localhost:5432/nursegrid_build
+
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Verify the authored question bank
+        # Same check the `prebuild` script runs; called out separately so a
+        # bank problem is obviously a bank problem and not a build failure.
+        run: npm run verify:bank
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Lint
+        # Blocking. The six pre-existing errors that made this step
+        # non-blocking were cleared in ee900a0, so `eslint .` now exits 0 on
+        # main and a new error is genuinely a new error.
+        run: npm run lint
+
+      - name: Build
+        run: npm run build
