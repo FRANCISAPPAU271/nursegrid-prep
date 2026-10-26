@@ -99,6 +99,41 @@ export async function GET(req: NextRequest) {
                           where d.user_id = u.id and d.kind = 'weekly' and d.period_key = '${week}')
     `);
 
+    // Domain-level breakdowns, never addresses. Answers "is the owner's mailbox
+    // even in the batch, and are the failures concentrated somewhere".
+    const adminRow = await one(
+      `select lower(split_part(email, '@', 2)) as domain,
+              exists (select 1 from email_bounces b where lower(b.email) = lower(u.email)) as bounced,
+              exists (select 1 from email_optouts e where lower(e.email) = lower(u.email)) as opted_out,
+              exists (select 1 from weekly_digest_sends d
+                       where d.user_id = u.id and d.kind = 'weekly' and d.period_key = '${week}') as sent_this_week
+         from users u where u.is_admin = true limit 1`,
+    );
+
+    const dueByDomain = await one(`
+      select lower(split_part(u.email, '@', 2)) as domain, count(*)::int as n
+        from users u
+       where u.is_admin = false
+         and u.created_at < now() - interval '48 hours'
+         and not exists (select 1 from email_optouts e where lower(e.email) = lower(u.email))
+         and not exists (select 1 from weekly_digest_sends d
+                          where d.user_id = u.id and d.kind = 'weekly' and d.period_key = '${week}')
+       group by 1 order by 2 desc limit 10`);
+
+    const sentByDomain = await one(`
+      select lower(split_part(u.email, '@', 2)) as domain, count(*)::int as n
+        from weekly_digest_sends d join users u on u.id = d.user_id
+       where d.period_key = '${week}' and d.kind = 'weekly'
+       group by 1 order by 2 desc limit 10`);
+
+    const bouncedDomains = await one(
+      `select lower(split_part(email, '@', 2)) as domain, count(*)::int as n
+         from email_bounces group by 1 order by 2 desc limit 10`);
+
+    const bounceTimes = await one(
+      `select min(created_at) as first, max(created_at) as last from email_bounces`,
+    );
+
     // Ask Resend whether the key works and the sender is verified. Status code
     // only — the body can name the account.
     let resend: unknown = "not configured";
@@ -122,6 +157,11 @@ export async function GET(req: NextRequest) {
       bounces,
       optouts,
       due,
+      admin: adminRow,
+      dueByDomain,
+      sentByDomain,
+      bouncedDomains,
+      bounceTimes,
       resend,
     });
   } finally {
