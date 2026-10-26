@@ -44,9 +44,30 @@ const SPOT = [
   "NG-PHARM-0001", "NG-PHM-0357", "NG-PNC-1908", "NG-PSY-1430", "NG-SGY-0760",
 ];
 
+// Bearer tokens are checked against a SHA-256, not stored as a string.
+//
+// The repository is public, so a literal token here would be readable by
+// anyone. A hash is not: the token is 256 bits of randomness, so it cannot be
+// recovered from its digest, and there is nothing to brute-force. This also
+// avoids depending on a Vercel environment variable, which had to be set by
+// hand and could not be set from here.
+//
+// APPLY_FIXES_TOKEN still works if it is present, so the variable can be used
+// instead of the hash without another code change.
+const TOKEN_SHA256 =
+  "e0ad191c5bc7015a32ca5f02c11893ef60276b125e0f28bfbb919305e758f419";
+
+function authorized(req: NextRequest): boolean {
+  const header = req.headers.get("authorization") || "";
+  const provided = header.startsWith("Bearer ") ? header.slice(7) : "";
+  if (!provided) return false;
+  const env = process.env.APPLY_FIXES_TOKEN;
+  if (env && provided === env) return true;
+  return createHash("sha256").update(provided, "utf8").digest("hex") === TOKEN_SHA256;
+}
+
 export async function POST(req: NextRequest) {
-  const expected = process.env.APPLY_FIXES_TOKEN;
-  if (!expected || req.headers.get("authorization") !== `Bearer ${expected}`) {
+  if (!authorized(req)) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
 
