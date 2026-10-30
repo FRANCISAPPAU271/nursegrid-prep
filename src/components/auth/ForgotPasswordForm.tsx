@@ -15,6 +15,8 @@ export default function ForgotPasswordForm() {
   const [confirmPassword, setConfirmPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [mailSent, setMailSent] = useState(false);
+  const [mailing, setMailing] = useState(false);
 
   // Step 1: Submit email to retrieve their security question
   async function handleEmailSubmit(e: React.FormEvent) {
@@ -31,6 +33,29 @@ export default function ForgotPasswordForm() {
       setError(err instanceof Error ? err.message : "Something went wrong.");
     } finally {
       setLoading(false);
+    }
+  }
+
+  // The alternative to the security question. This exists because the question
+  // is a single memorised answer set at signup: forget it and there is no way
+  // back into the account except asking a human.
+  async function handleEmailLink(e: React.MouseEvent) {
+    e.preventDefault();
+    setError(null);
+    setMailing(true);
+    try {
+      const res = await fetch("/api/auth/password-reset/request", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(data.error ?? "Could not send the reset link.");
+      setMailSent(true);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Could not send the reset link.");
+    } finally {
+      setMailing(false);
     }
   }
 
@@ -121,6 +146,14 @@ export default function ForgotPasswordForm() {
             className="w-full rounded-lg border border-slate-300 px-3 py-2.5 text-sm outline-none focus:border-emerald-500 focus:ring-4 focus:ring-emerald-500/20"
           />
         </div>
+        <button
+          type="button"
+          onClick={handleEmailLink}
+          disabled={mailing || mailSent}
+          className="w-full rounded-lg border-2 border-emerald-600 bg-white py-2.5 text-sm font-semibold text-emerald-700 hover:bg-emerald-50 disabled:opacity-60"
+        >
+          {mailing ? "Sending…" : mailSent ? "Reset link sent — check your email" : "Email me a reset link instead"}
+        </button>
         <div className="flex gap-2">
           <button
             type="button"

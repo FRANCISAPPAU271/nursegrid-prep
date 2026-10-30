@@ -46,7 +46,16 @@ export async function hashPassword(password: string) {
 }
 
 export async function verifyPassword(password: string, hash: string) {
-  return bcrypt.compare(password, hash);
+  // bcrypt throws on a hash it cannot parse ("Invalid salt version"). If any
+  // row ever holds a truncated or legacy value, that exception would escape the
+  // login handler as a 500 - the user sees "Something went wrong" and cannot
+  // sign in at all, which looks like an outage rather than a bad password.
+  try {
+    return await bcrypt.compare(password, hash);
+  } catch {
+    console.error("verifyPassword: stored hash is not a valid bcrypt hash");
+    return false;
+  }
 }
 
 export type SessionMeta = {

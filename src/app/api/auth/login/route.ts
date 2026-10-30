@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { db } from "@/db";
 import { users } from "@/db/schema";
-import { eq } from "drizzle-orm";
+import { eq, sql } from "drizzle-orm";
 import { createSession, verifyPassword } from "@/lib/auth";
 import { handleApiError } from "@/lib/api";
 
@@ -16,7 +16,16 @@ export async function POST(request: Request) {
     const body = await request.json();
     const data = schema.parse(body);
 
-    const rows = await db.select().from(users).where(eq(users.email, data.email)).limit(1);
+    // Case-insensitive on purpose. The signup form lowercases the address, but
+    // accounts created earlier - or imported - can hold capitals in the column,
+    // and a case-sensitive comparison then rejects the correct password with
+    // "Invalid email or password", which is indistinguishable from a wrong
+    // password and unrecoverable by the person hitting it.
+    const rows = await db
+      .select()
+      .from(users)
+      .where(sql`lower(${users.email}) = ${data.email}`)
+      .limit(1);
     const user = rows[0];
     if (!user) {
       return NextResponse.json({ error: "Invalid email or password." }, { status: 401 });
