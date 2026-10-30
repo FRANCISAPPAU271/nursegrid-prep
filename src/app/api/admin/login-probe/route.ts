@@ -65,6 +65,22 @@ export async function GET(req: NextRequest) {
              max(created_at) AS last
         FROM login_events WHERE created_at > now() - interval '48 hours'`);
 
+    // Masked, so the owner can recognise a support conversation without the
+    // probe printing anyone's address: first two characters plus the domain.
+    out.strandedHints = await q(`
+      SELECT substr(u.email,1,2) || '***@' || split_part(u.email,'@',2) AS hint,
+             u.created_at::date AS joined,
+             (u.is_premium) AS premium,
+             EXISTS (SELECT 1 FROM email_bounces b WHERE lower(b.email)=lower(u.email)) AS bounced,
+             (SELECT count(*)::int FROM sessions s WHERE s.user_id=u.id AND s.expires_at>now()) AS live_sessions
+        FROM users u
+       WHERE u.security_question IS NULL
+         AND (
+           lower(split_part(u.email,'@',2)) IN ('example.com','nursegrid.app','test','invalid','localhost')
+           OR EXISTS (SELECT 1 FROM email_bounces b WHERE lower(b.email)=lower(u.email))
+         )
+       ORDER BY u.created_at`);
+
     return NextResponse.json(out);
   } finally {
     await client.end();
