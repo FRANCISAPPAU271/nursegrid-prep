@@ -5,6 +5,7 @@ import { isEmailConfigured, sendEmail } from "@/lib/email";
 import { weeklyDigestEmail } from "@/lib/weekly-digest";
 import { isPushConfigured, pushToUser } from "@/lib/web-push";
 import { unsubscribeUrl } from "@/lib/unsubscribe";
+import { recordDigestRun, recordEvent } from "@/lib/ops";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
@@ -25,7 +26,7 @@ export const maxDuration = 60;
 // mail cannon.
 // ---------------------------------------------------------------------------
 
-const MAX_PER_RUN = Number(process.env.WEEKLY_DIGEST_BATCH ?? 90);
+const MAX_PER_RUN = Number(process.env.WEEKLY_DIGEST_BATCH ?? 60);
 const CONCURRENCY = 6;
 
 /**
@@ -43,6 +44,17 @@ const CONCURRENCY = 6;
  */
 const MIN_GAP_MS = 110;
 const FREE_PLAN_DAILY_CAP = 100;
+/**
+ * Why the batch is 60 and not 90.
+ *
+ * The free plan allows 100 emails per UTC day across the whole team, and the
+ * digest is not the only thing that sends: password resets, payment receipts and
+ * new-device alerts draw on the same allowance. A batch of 90 left ten sends for
+ * everything else, so on a Monday morning a student who had forgotten their
+ * password could be refused — locked out by the marketing email they did not ask
+ * for. 60 leaves 40 for mail that people actually need.
+ */
+const RESERVED_FOR_TRANSACTIONAL = 40;
 
 /** A single gate shared by every worker, so CONCURRENCY cannot defeat pacing. */
 function makePacer(gapMs: number) {
@@ -721,6 +733,21 @@ export async function GET(request: Request) {
     // confirms. Anything rejected is un-marked so it is retried.
     const verdict = await reconcileBatch(batchStartedAt, accepted, weekKey);
 
+    // Write down what happened, so the health check has something to read.
+    // Deliberately after the reconcile: the record describes the final state.
+    await recordDigestRun({
+      periodKey: weekKey,
+      accepted: accepted.length,
+      failed: errors.length,
+      quotaHalted,
+      notes: verdict.checked
+        ? `reconciled: delivered ${verdict.delivered}, rejected ${verdict.rejected}, unconfirmed ${verdict.unconfirmed}`
+        : `not reconciled: ${verdict.reason ?? "no event log access"}`,
+    });
+    if (quotaHalted) {
+      await recordEvent("digest_quota_halted", quotaHalted);
+    }
+
     return NextResponse.json({
       ok: errors.length === 0 && verdict.checked && verdict.rejected === 0 && verdict.unconfirmed === 0,
       week: weekKey,
@@ -741,6 +768,7 @@ export async function GET(request: Request) {
         : `not verified — ${verdict.reason ?? "no event log access"}`,
       batchLimit: MAX_PER_RUN,
       freePlanDailyCap: FREE_PLAN_DAILY_CAP,
+      reservedForTransactional: RESERVED_FOR_TRANSACTIONAL,
       // Present only when the provider cut the batch short.
       quotaHalted,
       moreQueuedForTomorrow: rows.length === MAX_PER_RUN || Boolean(quotaHalted),

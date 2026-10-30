@@ -5,6 +5,7 @@ import { users } from "@/db/schema";
 import { eq, sql } from "drizzle-orm";
 import { createSession, verifyPassword } from "@/lib/auth";
 import { handleApiError } from "@/lib/api";
+import { precheckLogin, recordLoginFailure, clearLoginFailures } from "@/lib/login-throttle";
 
 const schema = z.object({
   email: z.string().trim().toLowerCase().email("Enter a valid email"),
@@ -15,6 +16,22 @@ export async function POST(request: Request) {
   try {
     const body = await request.json();
     const data = schema.parse(body);
+
+    const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? "unknown";
+
+    // Refuse before touching the database. A password guess costs the attacker
+    // a full bcrypt comparison otherwise, which is the expensive half.
+    const verdict = await precheckLogin(data.email, ip);
+    if (!verdict.allowed) {
+      const minutes = Math.ceil(verdict.retryAfterSeconds / 60);
+      return NextResponse.json(
+        {
+          error: `Too many failed attempts. Try again in ${minutes} minute${minutes === 1 ? "" : "s"}, or reset your password.`,
+          retryAfterSeconds: verdict.retryAfterSeconds,
+        },
+        { status: 429, headers: { "retry-after": String(verdict.retryAfterSeconds) } },
+      );
+    }
 
     // Case-insensitive on purpose. The signup form lowercases the address, but
     // accounts created earlier - or imported - can hold capitals in the column,
@@ -28,17 +45,21 @@ export async function POST(request: Request) {
       .limit(1);
     const user = rows[0];
     if (!user) {
+      await recordLoginFailure(data.email, ip);
       return NextResponse.json({ error: "Invalid email or password." }, { status: 401 });
     }
 
     const valid = await verifyPassword(data.password, user.passwordHash);
     if (!valid) {
+      await recordLoginFailure(data.email, ip);
       return NextResponse.json({ error: "Invalid email or password." }, { status: 401 });
     }
 
     const userAgent = request.headers.get("user-agent");
     const ipAddress = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? null;
     await createSession(user.id, { userAgent, ipAddress });
+    // A correct password clears the counter for that address.
+    await clearLoginFailures(data.email);
 
     return NextResponse.json({ user: { id: user.id, name: user.name, email: user.email } });
   } catch (error) {

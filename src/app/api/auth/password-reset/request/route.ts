@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { isEmailConfigured, sendPasswordResetEmail } from "@/lib/email";
 import { issueResetToken, resetUrl } from "@/lib/password-reset";
+import { recordEvent } from "@/lib/ops";
 
 /**
  * Ask for a reset link by email.
@@ -42,7 +43,18 @@ export async function POST(request: Request) {
   try {
     const issued = await issueResetToken(parsed.data.email);
     if (issued) {
-      await sendPasswordResetEmail(parsed.data.email, issued.name, resetUrl(appUrl, issued.token));
+      try {
+        await sendPasswordResetEmail(parsed.data.email, issued.name, resetUrl(appUrl, issued.token));
+      } catch (error) {
+        // The caller still gets the neutral answer - telling the internet that
+        // an address exists is worse than one person retrying. But the failure
+        // is recorded, because a reset that silently never arrives is exactly
+        // how someone ends up locked out with no explanation.
+        await recordEvent(
+          "email_send_failed",
+          `password reset: ${error instanceof Error ? error.message : "unknown"}`,
+        );
+      }
     }
   } catch (error) {
     // Logged, never surfaced: the caller still gets the neutral answer above.
