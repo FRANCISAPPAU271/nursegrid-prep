@@ -116,14 +116,24 @@ export async function GET(request: Request) {
       });
     }
 
-    // 5. Accounts with no way back in: no security question and an address that
-    //    is known to bounce or is on a reserved domain.
+    // 5. Accounts with no way back in.
+    //
+    //    Reserved and demonstration domains are excluded on purpose: the seeded
+    //    rows at @example.com are not people, and counting them would make this
+    //    alert fire every single day about accounts that do not exist. An alert
+    //    that is always on is an alert nobody reads, which is precisely the
+    //    failure this whole route exists to prevent.
+    //
+    //    What is counted: an address on a real-looking domain that cannot
+    //    receive (the owner's own abandoned @nursegrid.app setup is the case
+    //    that prompted this), or one the provider has already hard-bounced.
     const stranded = (
       await db.execute(sql`
         SELECT count(*)::int AS n FROM users u
          WHERE u.security_question IS NULL
+           AND lower(split_part(u.email,'@',2)) NOT IN ('example.com','example.org','example.net','test','invalid','localhost')
            AND (
-             lower(split_part(u.email,'@',2)) IN ('example.com','example.org','example.net','test','invalid','localhost','nursegrid.app')
+             lower(split_part(u.email,'@',2)) = 'nursegrid.app'
              OR EXISTS (SELECT 1 FROM email_bounces b WHERE lower(b.email) = lower(u.email))
            )
       `)
