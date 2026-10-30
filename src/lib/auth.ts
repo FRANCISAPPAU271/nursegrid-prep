@@ -25,7 +25,29 @@ function sessionCookieDomain(): string | undefined {
 }
 
 export const SESSION_COOKIE = "nsm_session";
-const SESSION_DAYS = 30;
+
+/**
+ * How long a sign-in lasts.
+ *
+ * Thirty days was too short for how this product is actually used. A student
+ * buys four months of access, opens the app on a phone, and then studies on and
+ * off between clinical rotations. At thirty days the session lapses mid-course,
+ * the app asks for a password chosen once at signup months earlier, and the
+ * answer is usually "I don't remember it" — which the login endpoint can only
+ * report as "Invalid email or password".
+ *
+ * That is not a login bug, but it is indistinguishable from one, and it arrives
+ * in batches as each intake's sessions age out together. Ninety days covers a
+ * full access period, so a customer who paid for four months is never asked to
+ * prove themselves halfway through it.
+ *
+ * The trade-off is a shared phone: a longer session means a longer window for
+ * the next person holding it. That is mitigated by the cookie being httpOnly and
+ * sameSite, by the three-device cap in createSession, and by the fact that a
+ * student who reports a lost phone can be signed out everywhere by resetting the
+ * password.
+ */
+const SESSION_DAYS = 90;
 
 // Prevents account/password sharing: only this many devices may be signed in
 // at once per account. Logging in on a new device signs out the oldest

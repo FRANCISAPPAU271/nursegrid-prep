@@ -3,6 +3,7 @@ import { db } from "@/db";
 import { users, subscriptions } from "@/db/schema";
 import { and, eq, gt, isNotNull, lt, sql } from "drizzle-orm";
 import { isEmailConfigured, sendEmail, trialEndingEmail, subscriptionExpiringEmail } from "@/lib/email";
+import { runHealthChecks, alertIfNeeded } from "@/lib/health";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
@@ -146,7 +147,29 @@ export async function GET(request: Request) {
       }
     }
 
-    return NextResponse.json({ ok: true, sent, checkedTrials: trialUsers.length, checkedSubs: expiring.length, errors });
+    // Daily self-check, run here rather than on its own schedule.
+    //
+    // Vercel's Hobby plan allows two cron jobs per project and both were
+    // already taken, so a third entry in vercel.json would either be rejected
+    // or silently ignored - meaning the monitoring would not run and nobody
+    // would know. Piggy-backing on the job that already runs daily costs one
+    // fewer moving part and no plan dependency.
+    //
+    // Wrapped so a fault in the checks can never fail the reminders: sending
+    // the mail matters more than reporting on it.
+    let health: { ok: boolean; problems: number; alerted: boolean } | null = null;
+    try {
+      const report = await runHealthChecks();
+      const alerted = await alertIfNeeded(report);
+      health = { ok: report.ok, problems: report.problems.length, alerted };
+      if (!report.ok) {
+        console.warn("health check found problems", report.problems);
+      }
+    } catch (e) {
+      console.error("health check failed to run", e);
+    }
+
+    return NextResponse.json({ ok: true, sent, checkedTrials: trialUsers.length, checkedSubs: expiring.length, errors, health });
   } catch (error) {
     console.error(error);
     return NextResponse.json({ error: "Reminder job failed" }, { status: 500 });

@@ -22,7 +22,23 @@ import { db } from "@/db";
 
 const WINDOW_MINUTES = 15;
 const MAX_FAILURES_PER_EMAIL = 10;
-const MAX_FAILURES_PER_IP = 30;
+/**
+ * Deliberately loose, and nowhere near the per-account limit.
+ *
+ * Ghanaian mobile data is carrier-grade NAT: MTN and Telecel place thousands of
+ * subscribers behind one public address, and a campus Wi-Fi does the same to
+ * everyone on it. A strict per-IP cap therefore does not count attackers, it
+ * counts *students* — thirty mistyped passwords spread across a whole campus in
+ * fifteen minutes would have refused the correct password for everybody sharing
+ * that address, which is a self-inflicted outage and looks exactly like "I
+ * can't log in".
+ *
+ * The precise control is the per-address bucket above. This one exists only to
+ * stop a single source hammering the endpoint, so it is set high enough that
+ * normal shared-IP traffic cannot reach it and low enough that a runaway script
+ * still trips it.
+ */
+const MAX_FAILURES_PER_IP = 300;
 
 let ensured = false;
 

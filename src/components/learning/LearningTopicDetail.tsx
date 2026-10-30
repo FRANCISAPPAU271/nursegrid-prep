@@ -195,7 +195,7 @@ export default function LearningTopicDetail({ initial }: { initial: LearningTopi
             </p>
             <div className="mt-4 flex flex-col gap-2">
               <Link
-                href="/dashboard/practice"
+                href="/dashboard/questions"
                 className="rounded-xl bg-white px-4 py-2.5 text-center text-sm font-bold text-emerald-700 transition hover:bg-emerald-50"
               >
                 Practice questions →
