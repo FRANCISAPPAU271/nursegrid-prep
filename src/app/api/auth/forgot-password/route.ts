@@ -18,6 +18,36 @@ const postBodySchema = z.object({
 
 // GET: retrieve the security question for a given email address so we can
 // show it on the forgot-password screen.
+/**
+ * Compare a typed answer against the stored one, allowing for the differences
+ * people actually produce.
+ *
+ * Only the trimmed, lowercased form was ever accepted, so an answer stored as
+ * "rex" was rejected for anyone who typed "Rex.", "my rex" or with a stray
+ * trailing space - each of which reads to a student as "my answer is right and
+ * the app is broken". For an exam-prep product that is not a security boundary
+ * worth defending at the cost of a support ticket.
+ *
+ * The stored value is a bcrypt hash made from the old normalisation, so past
+ * answers keep working: the variants are applied to what is typed, and the
+ * first one that matches the hash wins. Nothing weaker is accepted - the
+ * comparison is still exact, just against a small set of sensible readings.
+ */
+function answerVariants(raw: string): string[] {
+  const base = raw.trim().toLowerCase();
+  const stripped = base.replace(/[^\p{L}\p{N}\s]/gu, "").replace(/\s+/g, " ").trim();
+  const noArticle = stripped.replace(/^(the|a|an)\s+/, "");
+  const noPossessive = stripped.replace(/^(my|our)\s+/, "");
+  return [...new Set([base, stripped, noArticle, noPossessive])].filter(Boolean);
+}
+
+async function matchesSecurityAnswer(raw: string, hash: string): Promise<boolean> {
+  for (const variant of answerVariants(raw)) {
+    if (await verifyPassword(variant, hash)) return true;
+  }
+  return false;
+}
+
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
@@ -73,7 +103,7 @@ export async function POST(request: Request) {
       throw new ApiError("No security answer was set up for this account.", 400);
     }
 
-    const valid = await verifyPassword(data.securityAnswer, user.securityAnswerHash);
+    const valid = await matchesSecurityAnswer(data.securityAnswer, user.securityAnswerHash);
     if (!valid) {
       throw new ApiError("Incorrect answer. Please try again or contact WhatsApp support.", 401);
     }

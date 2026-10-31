@@ -16,6 +16,8 @@ export default function ForgotPasswordForm() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [mailSent, setMailSent] = useState(false);
+  const [mailDegraded, setMailDegraded] = useState(false);
+  const [mailNote, setMailNote] = useState<string | null>(null);
   const [mailing, setMailing] = useState(false);
 
   // Step 1: Submit email to retrieve their security question
@@ -52,6 +54,8 @@ export default function ForgotPasswordForm() {
       const data = await res.json().catch(() => ({}));
       if (!res.ok) throw new Error(data.error ?? "Could not send the reset link.");
       setMailSent(true);
+      setMailDegraded(Boolean(data.degraded));
+      if (data.degraded && typeof data.message === "string") setMailNote(data.message);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Could not send the reset link.");
     } finally {
@@ -152,8 +156,20 @@ export default function ForgotPasswordForm() {
           disabled={mailing || mailSent}
           className="w-full rounded-lg border-2 border-emerald-600 bg-white py-2.5 text-sm font-semibold text-emerald-700 hover:bg-emerald-50 disabled:opacity-60"
         >
-          {mailing ? "Sending…" : mailSent ? "Reset link sent — check your email" : "Email me a reset link instead"}
+          {mailing
+            ? "Sending…"
+            : mailSent
+              ? mailDegraded
+                ? "Email is degraded — use the security question above"
+                : "Link sent — it stays valid for 24 hours"
+              : "Email me a reset link instead"}
         </button>
+        {(mailNote || mailSent) && (
+          <p className="text-center text-xs leading-relaxed text-slate-500">
+            {mailNote ??
+              "If the email does not arrive within a minute, check spam — then use your security question above."}
+          </p>
+        )}
         <div className="flex gap-2">
           <button
             type="button"

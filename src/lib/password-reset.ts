@@ -19,9 +19,34 @@ import { hashPassword } from "@/lib/auth";
  * That is the failure this fixes.
  */
 
-const TTL_MINUTES = 60;
+/**
+ * How long a reset link stays good.
+ *
+ * An hour was the wrong number, and it is the single most likely reason a
+ * student says "I still can't reset". People do not read email on demand: they
+ * ask for a link at the end of a clinical shift, then open their inbox that
+ * night, or the next morning. By then the link was dead, and all the page said
+ * was that it had expired.
+ *
+ * Twenty-four hours covers "I'll deal with it after dinner" and "I'll deal with
+ * it tomorrow", which is how the request actually arrives. The token is still
+ * single-use, still tied to one account, and still short enough that a leaked
+ * mailbox is not a permanent skeleton key.
+ */
+const TTL_MINUTES = 24 * 60;
 /** Don't let this become a way to post mail to someone in a loop. */
-const COOLDOWN_SECONDS = 60;
+/**
+ * How long before the same address may ask again.
+ *
+ * Kept short. A student who did not receive the first message will ask again
+ * within seconds, and refusing them for a minute teaches them the form is
+ * broken. The real protection against mail-bombing is that only one token is
+ * live at a time and the provider has its own quota.
+ */
+const COOLDOWN_SECONDS = 20;
+
+export const RESET_TTL_MINUTES = TTL_MINUTES;
+export const RESET_TTL_HOURS = Math.round(TTL_MINUTES / 60);
 
 export function resetUrl(appUrl: string, token: string): string {
   return `${appUrl.replace(/\/$/, "")}/reset-password?t=${token}`;
@@ -120,7 +145,13 @@ export async function describeRecovery(email: string) {
   return rows.rows[0] ?? null;
 }
 
-/** Kept for callers that already hold a user id. */
+/**
+ * Issue a token directly for one account, for the support tool.
+ *
+ * No cooldown: an admin is acting because the person in front of them cannot
+ * get in, and making them wait twenty seconds would be absurd. Every use is
+ * recorded in ops_events, so an admin abusing this is visible.
+ */
 export async function issueResetTokenForUser(userId: string): Promise<string> {
   await db.delete(passwordResetTokens).where(eq(passwordResetTokens.userId, userId));
   const token = randomBytes(32).toString("hex");

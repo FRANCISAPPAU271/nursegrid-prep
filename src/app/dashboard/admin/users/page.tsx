@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { redirect } from "next/navigation";
 import { getCurrentUser } from "@/lib/auth";
 import { db } from "@/db";
@@ -81,6 +82,14 @@ export default async function AdminUsersPage() {
 
   return (
     <div>
+      <div className="mb-4 flex justify-end">
+        <Link
+          href="/dashboard/admin/password-help"
+          className="rounded-lg border border-slate-300 px-3 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50"
+        >
+          🔑 Help someone sign in
+        </Link>
+      </div>
       <div className="mb-6 flex flex-col gap-1">
         <h1 className="text-2xl font-extrabold tracking-tight text-slate-950">Users</h1>
         <p className="text-slate-600">
