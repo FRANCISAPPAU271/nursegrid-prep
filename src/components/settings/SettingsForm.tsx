@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useToast } from "@/components/ui/Toast";
+import PhoneRecoveryCard from "@/components/settings/PhoneRecoveryCard";
 
 type UserInfo = {
   name: string;
@@ -213,6 +214,8 @@ export default function SettingsForm({ user }: { user: UserInfo }) {
             {savingPassword ? "Updating…" : "Update password"}
           </button>
         </form>
+
+        <PhoneRecoveryCard />
 
         <div className="rounded-2xl border border-slate-200 bg-white p-6">
           <h2 className="text-base font-bold text-slate-950">Account</h2>

@@ -113,6 +113,35 @@ export async function verifyOtp(phone: string, code: string): Promise<{ ok: bool
   return { ok: true };
 }
 
+/**
+ * Attach a verified phone to an existing account, so it can be used to sign in.
+ *
+ * Until now `verified_phones.user_id` was written in exactly one place: when a
+ * phone anchored a signup trial. Everyone else - the majority, since the phone
+ * field is framed as a trial upsell - left it NULL, and `phone-login` answers
+ * "No NurseGrid account is linked to that phone" for an account that plainly
+ * exists. The channel was built and unreachable.
+ *
+ * This deliberately does NOT touch `trial_claimed_at`: linking a recovery phone
+ * must not silently consume a trial.
+ */
+export async function linkPhoneToUser(phone: string, userId: string): Promise<void> {
+  await ensureOtpTables();
+  await db.execute(sql`
+    INSERT INTO "verified_phones" ("phone", "user_id") VALUES (${phone}, ${userId})
+    ON CONFLICT ("phone") DO UPDATE SET "user_id" = ${userId}
+  `);
+}
+
+/** The verified phone on an account, if any. Drives the Settings display. */
+export async function phoneForUser(userId: string): Promise<string | null> {
+  await ensureOtpTables();
+  const rows = await db.execute(sql`
+    SELECT "phone" FROM "verified_phones" WHERE "user_id" = ${userId} LIMIT 1
+  `);
+  return (rows.rows[0] as { phone?: string } | undefined)?.phone ?? null;
+}
+
 // Has this phone completed OTP verification recently (within the last hour)?
 // Used by the signup route to accept the verified state.
 export async function isPhoneRecentlyVerified(phone: string): Promise<boolean> {

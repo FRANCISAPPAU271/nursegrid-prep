@@ -57,7 +57,7 @@ export default function SecurityCard() {
     <div className="rounded-2xl border border-slate-200 bg-white p-6">
       <h2 className="text-base font-bold text-slate-950">Account security</h2>
       <p className="mt-1 text-sm text-slate-600">
-        For your security, NurseGrid Prep only allows <strong>one active session at a time</strong>. Signing in on a new phone or computer will
+        For your security, NurseGrid Prep allows <strong>up to three active devices</strong>. Signing in on a fourth will
         automatically sign you out everywhere else — this helps make sure only you are using your account.
       </p>
 

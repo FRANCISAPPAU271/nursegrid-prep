@@ -6,6 +6,40 @@ import Link from "next/link";
 
 export default function LoginForm() {
   const router = useRouter();
+  const [linkState, setLinkState] = useState<"idle" | "sending" | "sent" | "error">("idle");
+  const [linkMsg, setLinkMsg] = useState<string | null>(null);
+
+  /**
+   * Passwordless entry: mail a one-time link, no password involved.
+   *
+   * Most "I can't log in" messages are really "I don't remember the password I
+   * chose months ago". Offering the link on the login screen - not several
+   * screens deep behind "forgot password" - is the difference between a student
+   * getting in and a student asking for help.
+   */
+  async function sendSignInLink() {
+    if (!email.trim()) {
+      setLinkState("error");
+      setLinkMsg("Enter your email first, then tap again.");
+      return;
+    }
+    setLinkState("sending");
+    setLinkMsg(null);
+    try {
+      const res = await fetch("/api/auth/signin-link", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(data.error ?? "Could not send the link.");
+      setLinkState("sent");
+      setLinkMsg(data.message ?? "Check your email for the sign-in link.");
+    } catch (e) {
+      setLinkState("error");
+      setLinkMsg(e instanceof Error ? e.message : "Could not send the link.");
+    }
+  }
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [mode, setMode] = useState<"email" | "phone">("email");
@@ -118,6 +152,19 @@ export default function LoginForm() {
       </p>
       <p className="text-center text-sm text-slate-600">
         New here?{" "}
+        <button
+          type="button"
+          onClick={sendSignInLink}
+          disabled={linkState === "sending"}
+          className="w-full rounded-lg border-2 border-emerald-600 bg-white py-2.5 text-sm font-semibold text-emerald-700 hover:bg-emerald-50 disabled:opacity-60"
+        >
+          {linkState === "sending" ? "Sending…" : linkState === "sent" ? "Link sent — check your email" : "Email me a sign-in link instead"}
+        </button>
+        {linkMsg ? (
+          <p className={`text-center text-xs leading-relaxed ${linkState === "error" ? "text-rose-600" : "text-slate-500"}`}>{linkMsg}</p>
+        ) : (
+          <p className="text-center text-xs text-slate-400">No password needed — we email you a link that signs you in.</p>
+        )}
         <Link href="/signup" className="font-semibold text-emerald-700 hover:underline">
           Create a free account
         </Link>

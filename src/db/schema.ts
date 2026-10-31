@@ -143,6 +143,21 @@ export const passwordResetTokens = pgTable("password_reset_tokens", {
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 }, (t) => [index("password_reset_tokens_user_idx").on(t.userId)]);
 
+/**
+ * Passwordless sign-in links.
+ *
+ * Stored as a hash, never the token itself: a leaked database row must not be
+ * a working key to an account. Kept apart from password_reset_tokens so a
+ * sign-in link can never be replayed as a password change, or the reverse.
+ */
+export const signinTokens = pgTable("signin_tokens", {
+  tokenHash: text("token_hash").primaryKey(),
+  userId: text("user_id").notNull().references(() => users.id, { onDelete: "cascade" }),
+  expiresAt: timestamp("expires_at", { withTimezone: true }).notNull(),
+  usedAt: timestamp("used_at", { withTimezone: true }),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+}, (t) => [index("signin_tokens_user_idx").on(t.userId)]);
+
 // ---------- Tasks ----------
 export const tasks = pgTable("tasks", {
   id: text("id").primaryKey().$defaultFn(genId),

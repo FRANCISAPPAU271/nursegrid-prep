@@ -10,6 +10,55 @@ import { checkTrialEligibility, recordSignup } from "@/db/signup-guard";
 import { isSmsConfigured, normalizeGhPhone } from "@/lib/sms";
 import { isPhoneRecentlyVerified, canPhoneClaimTrial, markTrialClaimed } from "@/db/phone-otp";
 
+/**
+ * Refuse an address whose domain cannot receive mail.
+ *
+ * This is the cheapest possible fix for the most expensive problem in this
+ * codebase. One real account was registered at `@nursegrid.app` - a domain that
+ * returns NXDOMAIN - and that single typo meant the owner never received a
+ * single email: no digest, no receipt, no password reset. Recovering from it
+ * took a week and several deploys.
+ *
+ * A DNS lookup at signup would have caught it in the form, with a message
+ * saying "check the spelling". The check is deliberately conservative:
+ *
+ *   - a domain with MX records passes;
+ *   - a domain with no MX but an A/AAAA record passes (RFC 5321 permits
+ *     delivery to the address record, and a few real domains rely on it);
+ *   - a domain that does not exist is refused;
+ *   - anything that fails for an unrelated reason - timeout, no resolver -
+ *     passes, because a flaky DNS server must never block a signup.
+ */
+async function emailDomainCanReceive(address: string): Promise<boolean> {
+  const domain = address.split("@")[1]?.toLowerCase();
+  if (!domain) return false;
+  if (["localhost", "test", "invalid", "local"].includes(domain)) return false;
+
+  const withTimeout = <T,>(p: Promise<T>, ms: number) =>
+    Promise.race([p, new Promise<"timeout">((resolve) => setTimeout(() => resolve("timeout"), ms))]);
+
+  try {
+    const { resolveMx, resolve4 } = await import("node:dns/promises");
+
+    const mx = await withTimeout(resolveMx(domain), 2500);
+    if (mx !== "timeout" && mx.length > 0) return true;
+
+    if (mx === "timeout") return true; // couldn't tell - do not block
+
+    // No MX: fall back to A/AAAA, which RFC 5321 still allows.
+    const a = await withTimeout(resolve4(domain), 2500);
+    if (a !== "timeout" && a.length > 0) return true;
+    if (a === "timeout") return true;
+
+    return false; // genuinely no mail route
+  } catch (error) {
+    const code = (error as { code?: string })?.code;
+    // NXDOMAIN / no data are definite answers; anything else is our problem.
+    if (code === "ENOTFOUND" || code === "ENODATA") return false;
+    return true;
+  }
+}
+
 const schema = z.object({
   name: z.string().trim().min(2, "Name is too short").max(80),
   email: z.string().trim().toLowerCase().email("Enter a valid email"),
@@ -36,6 +85,15 @@ export async function POST(request: Request) {
   try {
     const body = await request.json();
     const data = schema.parse(body);
+
+    if (!(await emailDomainCanReceive(data.email))) {
+      return NextResponse.json(
+        {
+          error: `${data.email.split("@")[1]} cannot receive email. Check the spelling of your address — this is where your password resets and weekly emails will go.`,
+        },
+        { status: 422 },
+      );
+    }
 
     const existing = await db.select({ id: users.id }).from(users).where(eq(users.email, data.email)).limit(1);
     if (existing.length > 0) {
