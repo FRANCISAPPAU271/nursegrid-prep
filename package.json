@@ -10,7 +10,8 @@
     "verify:bank": "tsx src/db/verify-authored-bank.ts",
     "prebuild": "tsx src/db/verify-authored-bank.ts",
     "reseed:authored": "tsx src/db/reseed-authored.ts",
-    "append:authored-batch": "tsx src/db/append-authored-batch.ts"
+    "append:authored-batch": "tsx src/db/append-authored-batch.ts",
+    "check:links": "node scripts/check-links.mjs"
   },
   "dependencies": {
     "@capacitor/android": "^8.5.0",
