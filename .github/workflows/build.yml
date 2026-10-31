@@ -64,5 +64,15 @@ jobs:
         # main and a new error is genuinely a new error.
         run: npm run lint
 
+      - name: Check links, API routes and HTTP methods
+        # Catches code that points at a route or page that does not exist, or
+        # calls a method a route does not export. Four such bugs reached
+        # production before this step existed: a reset form posting to a route
+        # never written, a button linking to a page never created, a cron entry
+        # on a plan that could not run it, and a health check that would never
+        # have fired. TypeScript cannot see any of them - a string naming a
+        # route is still a valid string.
+        run: npm run check:links
+
       - name: Build
         run: npm run build
